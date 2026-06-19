@@ -1,0 +1,28 @@
+{
+  "id": "stf-tema-155",
+  "tipo": "tema_repercussao_geral",
+  "tribunal": "STF",
+  "numero": "155",
+  "tema_rg_ou_repetitivo": "155",
+  "leading_case": "AI 712743 QO-RG/SP (Rel. Min. Ellen Gracie)",
+  "enunciado_ou_tese": "É inconstitucional a lei municipal que tenha estabelecido, antes da Emenda Constitucional 29/2000, alíquotas progressivas para o IPTU, salvo se destinada a assegurar o cumprimento da função social da propriedade urbana.",
+  "tema": [
+    "IPTU"
+  ],
+  "dispositivos_relacionados": [
+    "CF/88 art. 145, §1º",
+    "CF/88 art. 156, §1º (redação anterior à EC 29/2000)",
+    "EC 29/2000"
+  ],
+  "situacao": "repercussão geral reconhecida; jurisprudência reafirmada (Súmula 668)",
+  "fonte": {
+    "origem": "web-oficial",
+    "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=2613544&numeroProcesso=712743&classeProcesso=AI&numeroTema=155",
+    "hash": null,
+    "captura_verbatim": "jurisprudencia/_capturas/stf-tema-155.txt"
+  },
+  "status_pipeline": "processado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "verificacao_verbatim": "A tese verbatim da fonte STF confere com o núcleo do stub. REMOVIDO do campo enunciado_ou_tese o acréscimo editorial '(Reafirmação da jurisprudência consolidada na Súmula 668/STF.)', que não integra o texto oficial da tese (segue registrado no corpo do .md como nota). Confirmado: leading case AI 712743, Rel. Min. Ellen Gracie, mérito 12/03/2009 por ratificação de jurisprudência. Confiança elevada de média->alta."
+}

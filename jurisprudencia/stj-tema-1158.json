@@ -1,0 +1,27 @@
+{
+  "id": "stj-tema-1158",
+  "tipo": "recurso_repetitivo",
+  "tribunal": "STJ",
+  "numero": "1158",
+  "tema_rg_ou_repetitivo": "1158",
+  "leading_case": "REsp 1949182/SP, REsp 1959212/SP e REsp 1982001/SP (Rel. Min. Teodoro Silva Santos, Primeira Seção, j. 12/03/2025, DJe 19/03/2025)",
+  "enunciado_ou_tese": "O credor fiduciário, antes da consolidação da propriedade e da imissão na posse no imóvel objeto da alienação fiduciária, não pode ser considerado sujeito passivo do IPTU, uma vez que não se enquadra em nenhuma das hipóteses previstas no art. 34 do CTN.",
+  "tema": [
+    "IPTU"
+  ],
+  "dispositivos_relacionados": [
+    "CTN art. 34",
+    "Lei 9.514/1997"
+  ],
+  "situacao": "acórdão publicado",
+  "fonte": {
+    "origem": "web-oficial",
+    "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2025/31032025-Repetitivo-define-que-IPTU-e-obrigacao-do-devedor-fiduciante-ate-o-banco-ser-imitido-na-posse-do-imovel.aspx",
+    "hash": null,
+    "captura_verbatim": "jurisprudencia/_capturas/lote5-stj-temas_20260618.txt"
+  },
+  "status_pipeline": "processado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "verificacao_verbatim": "2026-06-18 — tese conferida contra captura oficial verbatim (Lote 5, extensão); ver jurisprudencia/_capturas/lote5-stj-temas_20260618.txt"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "lei-federal-6830-1980",
+  "tipo_norma": "lei_ordinaria",
+  "esfera": "federal",
+  "jurisdicao": "Brasil",
+  "numero": "6830",
+  "ano": 1980,
+  "ementa": "Dispõe sobre a cobrança judicial da Dívida Ativa da Fazenda Pública, e dá outras providências.",
+  "tema": ["IPTU", "execucao_fiscal", "divida_ativa", "prescricao_intercorrente"],
+  "dispositivos_chave": [
+    "Art. 40 — suspensão da execução por não localização do devedor ou de bens penhoráveis; arquivamento após 1 ano; reconhecimento de ofício da prescrição intercorrente (§ 4º).",
+    "Art. 2º — definição de Dívida Ativa da Fazenda Pública (tributária e não tributária).",
+    "Art. 6º a 8º — petição inicial, despacho e citação na execução fiscal.",
+    "Art. 16 — embargos à execução (prazo de 30 dias após garantia)."
+  ],
+  "vigencia": {
+    "inicio": "1980-09-22",
+    "fim": null,
+    "revogada_por": null,
+    "altera": [],
+    "alterada_por": ["Lei 11.960/2009 (art. 40, § 5º)"]
+  },
+  "remissoes": [
+    "CTN (Lei 5.172/1966) arts. 174 e 201-204",
+    "CPC (aplicação subsidiária)"
+  ],
+  "jurisprudencia_relacionada": [
+    "STF Tema 390 (RE 636.562) — constitucionalidade do art. 40 da LEF",
+    "STJ REsp 1.340.553/RS (Tema 566/567/568/569/570) — sistemática da prescrição intercorrente"
+  ],
+  "tem_tabela": false,
+  "tabelas_extraidas": [],
+  "tem_formula": false,
+  "formulas_referenciadas": [],
+  "fonte": {
+    "origem": "web-oficial",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/l6830.htm",
+    "hash": null,
+    "ocr": false
+  },
+  "status_pipeline": "bruto",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false
+}

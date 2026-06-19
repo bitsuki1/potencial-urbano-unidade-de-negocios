@@ -1,0 +1,62 @@
+{
+  "id": "lei-municipal-saopaulo-11152-1991",
+  "tipo_norma": "lei_ordinaria",
+  "esfera": "municipal",
+  "jurisdicao": "São Paulo/SP",
+  "numero": "11.152",
+  "ano": 1991,
+  "ementa": "Altera a legislação relativa aos Impostos Predial e Territorial Urbano e às Taxas de Limpeza Pública e de Conservação de Vias e Logradouros Públicos, e dá outras providências.",
+  "tema": [
+    "IPTU",
+    "valor_venal",
+    "VVC",
+    "calculo"
+  ],
+  "dispositivos_chave": [
+    "Art. 11: o valor venal da construcao (VVC) resulta da combinacao entre area construida, valor do m2 conforme a zona, e fator de obsolescencia (idade da edificacao)",
+    "Construcao enquadrada em tipo/padrao da Tabela V",
+    "VVC = area construida bruta x valor unitario m2 (Tabela VI) x fator de obsolescencia (Tabela IV)",
+    "Fator Condominio: quando (valor venal terreno / valor venal construcao) < 0,20, Fator Condominio = 2,20 - 3 x indice obtido"
+  ],
+  "vigencia": {
+    "em_vigor": true,
+    "observacao": "Vigente; metodologia base do VVC, complementada pela Lei 15.889/2013."
+  },
+  "remissoes": [
+    {
+      "norma": "Lei 10.235/1986",
+      "relacao": "tabelas PGV (V, VI, IV)"
+    },
+    {
+      "norma": "Lei 6.989/1966",
+      "relacao": "codigo tributario base"
+    },
+    {
+      "norma": "Lei 15.889/2013",
+      "relacao": "complementa metodologia"
+    }
+  ],
+  "jurisprudencia_relacionada": [],
+  "tem_tabela": true,
+  "tabelas_extraidas": [
+    "Tabela IV (fator obsolescencia)",
+    "Tabela V (tipos/padroes)",
+    "Tabela VI (valor unitario m2)"
+  ],
+  "tem_formula": true,
+  "formulas_referenciadas": [
+    "VVC = area construida bruta x valor unitario m2 (Tab VI) x fator obsolescencia (Tab IV)",
+    "Fator Condominio = 2,20 - 3 x (VVterreno/VVconstrucao) quando indice < 0,20"
+  ],
+  "fonte": {
+    "origem": "web-oficial",
+    "url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-11152-de-30-de-dezembro-de-1991",
+    "hash": null,
+    "ocr": false,
+    "metodo": "WebSearch (nao-verbatim; WebFetch/curl bloqueados HTTP 403)",
+    "obs": "texto nao-verbatim; capturado via WebSearch por bloqueio de WebFetch/curl (HTTP 403)."
+  },
+  "status_pipeline": "bruto",
+  "confianca_extracao": "baixa",
+  "revisado_por_humano": false
+}

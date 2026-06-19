@@ -1,0 +1,61 @@
+{
+  "id": "lei-municipal-saopaulo-14865-2008",
+  "tipo_norma": "lei_ordinaria",
+  "esfera": "municipal",
+  "jurisdicao": "São Paulo/SP",
+  "numero": "14.865",
+  "ano": 2008,
+  "ementa": "Concede isenção do Imposto Predial e Territorial Urbano (IPTU) em condições específicas (inclusive habitação de interesse social / ZEIS), altera dispositivos de leis tributárias e dá outras providências.",
+  "tema": [
+    "IPTU",
+    "habitacional_popular",
+    "HIS",
+    "ZEIS",
+    "isencao"
+  ],
+  "dispositivos_chave": [
+    "Isencao de IPTU em condicoes especificas, inclusive habitacao popular / de interesse social",
+    "Imoveis da CDHU destinados/usados em empreendimentos residenciais para moradias populares isentos de IPTU ate o lancamento individualizado das unidades autonomas",
+    "Aplicacao a areas classificadas como ZEIS 1 a ZEIS 5",
+    "Alcanca fatos geradores ocorridos ate 31/12/2030",
+    "Altera dispositivos de leis de 1966, 1991, 2002, 2003 e 2005; reabre prazo do PPI (Parcelamento Incentivado)"
+  ],
+  "vigencia": {
+    "em_vigor": true,
+    "observacao": "Vigente (beneficio com termo final 31/12/2030 para a hipotese ZEIS/CDHU). Confirmar alteracoes posteriores."
+  },
+  "remissoes": [
+    {
+      "norma": "Lei 6.989/1966",
+      "relacao": "altera"
+    },
+    {
+      "norma": "Lei 11.152/1991",
+      "relacao": "altera"
+    },
+    {
+      "norma": "CDHU",
+      "relacao": "imoveis beneficiarios"
+    },
+    {
+      "norma": "ZEIS 1 a 5",
+      "relacao": "perimetro de aplicacao"
+    }
+  ],
+  "jurisprudencia_relacionada": [],
+  "tem_tabela": false,
+  "tabelas_extraidas": [],
+  "tem_formula": false,
+  "formulas_referenciadas": [],
+  "fonte": {
+    "origem": "web-oficial",
+    "url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-14865-de-29-de-dezembro-de-2008",
+    "hash": null,
+    "ocr": false,
+    "metodo": "WebSearch (nao-verbatim; WebFetch/curl bloqueados HTTP 403)",
+    "obs": "texto nao-verbatim; capturado via WebSearch por bloqueio de WebFetch/curl (HTTP 403)."
+  },
+  "status_pipeline": "bruto",
+  "confianca_extracao": "baixa",
+  "revisado_por_humano": false
+}

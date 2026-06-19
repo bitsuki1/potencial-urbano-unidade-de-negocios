@@ -1,0 +1,27 @@
+{
+  "id": "stf-tema-523",
+  "tipo": "tema_repercussao_geral",
+  "tribunal": "STF",
+  "numero": "523",
+  "tema_rg_ou_repetitivo": "523",
+  "leading_case": "RE 666156/RJ (Rel. Min. Roberto Barroso)",
+  "enunciado_ou_tese": "São constitucionais as leis municipais anteriores à Emenda Constitucional 29/2000, que instituíram alíquotas diferenciadas de IPTU para imóveis edificados e não edificados, residenciais e não residenciais.",
+  "tema": [
+    "IPTU"
+  ],
+  "dispositivos_relacionados": [
+    "CF/88 art. 145, §1º",
+    "CF/88 art. 156, I e §1º"
+  ],
+  "situacao": "mérito julgado; trânsito em julgado",
+  "fonte": {
+    "origem": "web-oficial",
+    "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=4178349&numeroProcesso=666156&classeProcesso=RE&numeroTema=523",
+    "hash": null,
+    "captura_verbatim": "jurisprudencia/_capturas/stf-tema-523.txt"
+  },
+  "status_pipeline": "processado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "verificacao_verbatim": "Tese confere com a captura verbatim. Captura confirma trânsito em julgado 30/04/2021."
+}

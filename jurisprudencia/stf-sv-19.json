@@ -1,0 +1,26 @@
+{
+  "id": "stf-sv-19",
+  "tipo": "sumula_vinculante",
+  "tribunal": "STF",
+  "numero": "19",
+  "tema_rg_ou_repetitivo": null,
+  "leading_case": "RE 576321 QO-RG (Tema 146)",
+  "enunciado_ou_tese": "A taxa cobrada exclusivamente em razão dos serviços públicos de coleta, remoção e tratamento ou destinação de lixo ou resíduos provenientes de imóveis, não viola o artigo 145, II, da Constituição Federal.",
+  "tema": [
+    "IPTU"
+  ],
+  "dispositivos_relacionados": [
+    "CF/88 art. 145, II"
+  ],
+  "situacao": "vigente (aprovada em 29/10/2009, DJe 10/11/2009)",
+  "fonte": {
+    "origem": "web-oficial",
+    "url": "https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=26&sumula=1248",
+    "hash": null,
+    "captura_verbatim": "jurisprudencia/_capturas/stf-sv-19.txt"
+  },
+  "status_pipeline": "processado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "verificacao_verbatim": "Enunciado confere com a captura verbatim (texto oficial sem a vírgula antes de 'não viola'). Captura confirma Tema 146 RG e relação com SV 29 e Súmula 670."
+}

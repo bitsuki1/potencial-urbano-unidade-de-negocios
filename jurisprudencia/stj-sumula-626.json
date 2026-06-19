@@ -1,0 +1,27 @@
+{
+  "id": "stj-sumula-626",
+  "tipo": "sumula",
+  "tribunal": "STJ",
+  "numero": "626",
+  "tema_rg_ou_repetitivo": null,
+  "leading_case": null,
+  "enunciado_ou_tese": "A incidência do IPTU sobre imóvel situado em área considerada pela lei local como urbanizável ou de expansão urbana não está condicionada à existência dos melhoramentos elencados no art. 32, § 1º, do CTN.",
+  "tema": [
+    "IPTU"
+  ],
+  "dispositivos_relacionados": [
+    "CTN art. 32, §1º",
+    "CTN art. 32, §2º"
+  ],
+  "situacao": "vigente (Primeira Seção, j. 12/12/2018, DJe 17/12/2018)",
+  "fonte": {
+    "origem": "web-oficial",
+    "url": "https://processo.stj.jus.br/SCON/sumstj/doc.jsp?sumula=626&b=SUMU",
+    "hash": null,
+    "captura_verbatim": "jurisprudencia/_capturas/stj-sumula-626.txt"
+  },
+  "status_pipeline": "processado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "verificacao_verbatim": "Enunciado confere com a captura verbatim."
+}

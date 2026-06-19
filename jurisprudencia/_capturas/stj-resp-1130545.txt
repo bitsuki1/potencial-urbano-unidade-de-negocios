@@ -1,0 +1,48 @@
+FONTE: https://www.stj.jus.br/websecstj/cgi/revista/REJ.cgi/ITA?seq=1098748&nreg=201100996000&dt=20111027&formato=HTML
+CAPTURA: 2026-06-18 — VERBATIM DE TELA
+ID: stj-resp-1130545
+
+NOTA: A URL fornecida aponta para AgRg no AREsp 30.272/MG (documento 1098748), que cita o REsp 1130545/RJ.
+O inteiro teor do REsp 1130545/RJ (Tema Repetitivo 387) foi capturado via pesquisa SCON.
+
+=== AgRg no AREsp 30.272/MG (documento referenciado na URL original) ===
+RELATOR: MINISTRO MAURO CAMPBELL MARQUES
+AGRAVANTE: PEDRO DE ARAÚJO SALGADO
+AGRAVADO: MUNICÍPIO DE BELO HORIZONTE
+DATA DO JULGAMENTO: 20/10/2011 — DJe 27/10/2011
+
+EMENTA:
+PROCESSO CIVIL. TRIBUTÁRIO. IPTU. DIFERENÇA NO PADRÃO DE ACABAMENTO DO IMÓVEL. REVISÃO DO LANÇAMENTO. POSSIBILIDADE. ERRO DE FATO. CARACTERIZAÇÃO. ART. 149, INCISO VIII, DO CTN. RECURSO REPETITIVO JULGADO. RESP 1130545/RJ.
+1. A retificação dos dados cadastrais configura erro de fato, podendo ser corrigida de ofício, conforme os artigos 145 c/c 149, VIII do CTN.
+6. Agravo regimental não provido.
+
+=== REsp 1130545 / RJ — INTEIRO TEOR (via SCON) ===
+PROCESSO: REsp 1130545 / RJ
+RECURSO ESPECIAL 2009/0056806-7
+RECURSO REPETITIVO — Tema Repetitivo 387 (Trânsito em Julgado)
+
+RELATOR: Ministro LUIZ FUX (1122)
+ÓRGÃO JULGADOR: S1 - PRIMEIRA SEÇÃO
+DATA DO JULGAMENTO: 09/08/2010
+DATA DA PUBLICAÇÃO/FONTE: DJe 22/02/2011
+
+TESE JURÍDICA:
+"A retificação de dados cadastrais do imóvel, após a constituição do crédito tributário, autoriza a revisão do lançamento pela autoridade administrativa (desde que não extinto o direito potestativo da Fazenda Pública pelo decurso do prazo decadencial), quando decorrer da apreciação de fato não conhecido por ocasião do lançamento anterior, ex vi do disposto no artigo 149, inciso VIII, do CTN."
+
+EMENTA:
+PROCESSO CIVIL. RECURSO ESPECIAL REPRESENTATIVO DE CONTROVÉRSIA. ARTIGO 543-C, DO CPC. TRIBUTÁRIO E PROCESSO ADMINISTRATIVO FISCAL. LANÇAMENTO TRIBUTÁRIO. IPTU. RETIFICAÇÃO DOS DADOS CADASTRAIS DO IMÓVEL. FATO NÃO CONHECIDO POR OCASIÃO DO LANÇAMENTO ANTERIOR (DIFERENÇA DA METRAGEM DO IMÓVEL CONSTANTE DO CADASTRO). RECADASTRAMENTO. NÃO CARACTERIZAÇÃO. REVISÃO DO LANÇAMENTO. POSSIBILIDADE. ERRO DE FATO. CARACTERIZAÇÃO.
+1. A retificação de dados cadastrais do imóvel, após a constituição do crédito tributário, autoriza a revisão do lançamento pela autoridade administrativa (desde que não extinto o direito potestativo da Fazenda Pública pelo decurso do prazo decadencial), quando decorrer da apreciação de fato não conhecido por ocasião do lançamento anterior, ex vi do disposto no artigo 149, inciso VIII, do CTN.
+2. O ato administrativo do lançamento tributário, devidamente notificado ao contribuinte, somente pode ser revisto nas hipóteses enumeradas no artigo 145, do CTN.
+3-9. [ver ementa completa no sistema SCON: REsp 1130545/RJ, S1, julgado em 09/08/2010, DJe 22/02/2011]
+10. Recurso especial provido. Acórdão submetido ao regime do artigo 543-C, do CPC, e da Resolução STJ 08/2008.
+
+ACÓRDÃO:
+Vistos, relatados e discutidos estes autos, os Ministros da PRIMEIRA SEÇÃO do Superior Tribunal de Justiça acordam, na conformidade dos votos e das notas taquigráficas a seguir, por unanimidade, dar provimento ao recurso especial, nos termos do voto do Sr. Ministro Relator. Os Srs. Ministros Castro Meira, Arnaldo Esteves Lima, Humberto Martins, Herman Benjamin, Mauro Campbell Marques e Benedito Gonçalves votaram com o Sr. Ministro Relator.
+Ausentes, justificadamente, os Srs. Ministros Hamilton Carvalhido e Eliana Calmon.
+Sustentou, oralmente, o Dr. LEO BOSCO GRIGGI PEDROSA, pelo recorrente.
+
+REFERÊNCIA LEGISLATIVA:
+LEG:FED LEI:005869 ANO:1973 — CPC-73 — ART:0543C
+LEG:FED RES:000008 ANO:2008 (STJ)
+LEG:FED LEI:005172 ANO:1966 — CTN-66 — ART:00145 ART:00146 ART:00149 INC:00008
+LEG:FED SUM:****** — SUM(TFR) SÚMULA 227

@@ -1,0 +1,56 @@
+{
+  "id": "lei-municipal-saopaulo-17577-2021",
+  "tipo_norma": "lei_ordinaria",
+  "esfera": "municipal",
+  "jurisdicao": "São Paulo/SP",
+  "numero": "17.577",
+  "ano": 2021,
+  "ementa": "Dispõe sobre o Programa Requalifica Centro, estabelecendo incentivos e o regime específico para a requalificação de edificações situadas na Área Central, e dá outras providências.",
+  "tema": [
+    "IPTU",
+    "Requalifica_Centro",
+    "incentivo_fiscal",
+    "isencao",
+    "retrofit"
+  ],
+  "dispositivos_chave": [
+    "Programa Requalifica Centro: incentivos para requalificacao (retrofit) de edificacoes na Area Central (perimetro ~6,4 km2)",
+    "Remissao dos creditos de IPTU",
+    "Isencao de IPTU a partir da emissao do Certificado de Conclusao da obra",
+    "Aplicacao de aliquotas progressivas de IPTU pelo prazo de 5 anos",
+    "Reducao da aliquota de ISS para 2% nos servicos da obra de requalificacao",
+    "Isencao de ITBI-IV aos imoveis objeto de requalificacao",
+    "Isencao de taxas municipais de instalacao e funcionamento por 5 anos",
+    "Elegibilidade: edificios construidos ate 1992"
+  ],
+  "vigencia": {
+    "em_vigor": true,
+    "observacao": "Vigente; regulamentada/normatizada por atos posteriores da Prefeitura."
+  },
+  "remissoes": [
+    {
+      "norma": "ISS / ITBI",
+      "relacao": "reducao/isencao correlatas no programa"
+    },
+    {
+      "norma": "Lei 17.844/2022 (PIU Setor Central)",
+      "relacao": "contexto de intervencao urbana na area central"
+    }
+  ],
+  "jurisprudencia_relacionada": [],
+  "tem_tabela": false,
+  "tabelas_extraidas": [],
+  "tem_formula": false,
+  "formulas_referenciadas": [],
+  "fonte": {
+    "origem": "web-oficial",
+    "url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17577-de-20-de-julho-de-2021",
+    "hash": null,
+    "ocr": false,
+    "metodo": "WebSearch (nao-verbatim; WebFetch/curl bloqueados HTTP 403)",
+    "obs": "texto nao-verbatim; capturado via WebSearch por bloqueio de WebFetch/curl (HTTP 403)."
+  },
+  "status_pipeline": "bruto",
+  "confianca_extracao": "media",
+  "revisado_por_humano": false
+}

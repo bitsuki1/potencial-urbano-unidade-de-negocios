@@ -1,0 +1,43 @@
+{
+  "id": "lei-federal-11101-2005",
+  "tipo_norma": "lei_ordinaria",
+  "esfera": "federal",
+  "jurisdicao": "Brasil",
+  "numero": "11101",
+  "ano": 2005,
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária.",
+  "tema": ["IPTU", "falencia", "recuperacao_judicial", "credito_tributario", "concurso_de_credores"],
+  "dispositivos_chave": [
+    "Art. 83 — ordem de classificação dos créditos na falência (créditos tributários após trabalhistas limitados e com garantia real; multas em posição inferior).",
+    "Arts. 47-49 — recuperação judicial e créditos a ela sujeitos (crédito tributário, como regra, fora do concurso).",
+    "Art. 6º — suspensão de ações e execuções contra o devedor (stay period)."
+  ],
+  "vigencia": {
+    "inicio": "2005-02-09",
+    "fim": null,
+    "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+    "altera": [],
+    "alterada_por": ["Lei 14.112/2020", "LC 147/2014"]
+  },
+  "remissoes": [
+    "CTN (Lei 5.172/1966) arts. 186-188 (preferências do crédito tributário)",
+    "Lei 6.830/1980 (execução fiscal)",
+    "Decreto-Lei 7.661/1945 (revogado)"
+  ],
+  "jurisprudencia_relacionada": [
+    "STJ/STF — interação entre execução fiscal e recuperação judicial; competência sobre atos de constrição"
+  ],
+  "tem_tabela": false,
+  "tabelas_extraidas": [],
+  "tem_formula": false,
+  "formulas_referenciadas": [],
+  "fonte": {
+    "origem": "web-oficial",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "hash": null,
+    "ocr": false
+  },
+  "status_pipeline": "bruto",
+  "confianca_extracao": "media",
+  "revisado_por_humano": false
+}

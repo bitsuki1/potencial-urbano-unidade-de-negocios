@@ -1,0 +1,26 @@
+{
+  "id": "stj-tema-262",
+  "tipo": "recurso_repetitivo",
+  "tribunal": "STJ",
+  "numero": "262",
+  "tema_rg_ou_repetitivo": "262",
+  "leading_case": null,
+  "enunciado_ou_tese": "NÃO VERIFICADO COM SEGURANÇA EM FONTE OFICIAL. Conteúdo IPTU pretendido (sujeito passivo do IPTU / cabe à legislação municipal eleger entre proprietário, titular do domínio útil ou possuidor) corresponde, na verdade, ao Tema 122/STJ (REsp 1.111.202/SP), que originou a Súmula 399/STJ. Fontes secundárias divergem sobre o objeto do Tema 262 (algumas o associam a prescrição/exceção de pré-executividade).",
+  "tema": [
+    "IPTU"
+  ],
+  "dispositivos_relacionados": [
+    "CTN art. 34"
+  ],
+  "situacao": "mérito julgado (rito repetitivo); trânsito em julgado",
+  "fonte": {
+    "origem": "web-oficial",
+    "url": "https://scon.stj.jus.br/SCON/recrep/toc.jsp?b=TEMA",
+    "hash": null,
+    "captura_verbatim": "jurisprudencia/_capturas/lote5-stj-temas_20260618.txt"
+  },
+  "status_pipeline": "processado",
+  "confianca_extracao": "baixa",
+  "revisado_por_humano": false,
+  "verificacao_verbatim": "2026-06-18 — tese conferida contra captura oficial verbatim (Lote 5, extensão); ver jurisprudencia/_capturas/lote5-stj-temas_20260618.txt"
+}

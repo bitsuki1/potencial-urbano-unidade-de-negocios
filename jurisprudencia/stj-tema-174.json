@@ -1,0 +1,27 @@
+{
+  "id": "stj-tema-174",
+  "tipo": "recurso_repetitivo",
+  "tribunal": "STJ",
+  "numero": "174",
+  "tema_rg_ou_repetitivo": "174",
+  "leading_case": "REsp 1112646/SP (Rel. Min. Herman Benjamin, Primeira Seção, j. 26/08/2009)",
+  "enunciado_ou_tese": "Não incide IPTU, mas ITR, sobre imóvel localizado na área urbana do Município, desde que comprovadamente utilizado em exploração extrativa, vegetal, agrícola, pecuária ou agroindustrial (art. 15 do DL 57/1966).",
+  "tema": [
+    "IPTU"
+  ],
+  "dispositivos_relacionados": [
+    "CTN art. 32",
+    "Decreto-Lei 57/1966 art. 15"
+  ],
+  "situacao": "mérito julgado (rito repetitivo); trânsito em julgado",
+  "fonte": {
+    "origem": "web-oficial",
+    "url": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=174&cod_tema_final=174",
+    "hash": null,
+    "captura_verbatim": "jurisprudencia/_capturas/lote5-stj-temas_20260618.txt"
+  },
+  "status_pipeline": "processado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "verificacao_verbatim": "2026-06-18 — tese conferida contra captura oficial verbatim (Lote 5, extensão); ver jurisprudencia/_capturas/lote5-stj-temas_20260618.txt"
+}

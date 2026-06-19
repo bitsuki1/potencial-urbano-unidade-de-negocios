@@ -1,0 +1,29 @@
+{
+  "id": "stf-sumula-668",
+  "tipo": "sumula",
+  "tribunal": "STF",
+  "numero": "668",
+  "tema_rg_ou_repetitivo": null,
+  "leading_case": null,
+  "enunciado_ou_tese": "É inconstitucional a lei municipal que tenha estabelecido, antes da Emenda Constitucional 29/2000, alíquotas progressivas para o IPTU, salvo se destinada a assegurar o cumprimento da função social da propriedade urbana.",
+  "tema": [
+    "IPTU"
+  ],
+  "dispositivos_relacionados": [
+    "CF/88 art. 145, §1º",
+    "CF/88 art. 156, §1º (redação anterior à EC 29/2000)",
+    "CF/88 art. 182, §2º e §4º",
+    "EC 29/2000"
+  ],
+  "situacao": "vigente",
+  "fonte": {
+    "origem": "web-oficial",
+    "url": "https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=1521",
+    "hash": null,
+    "captura_verbatim": "jurisprudencia/_capturas/stf-sumula-668.txt"
+  },
+  "status_pipeline": "processado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "verificacao_verbatim": "Enunciado confere com a captura verbatim. Captura acrescenta: indicada para conversão em SV na PSV 96; Tema 523 RG."
+}

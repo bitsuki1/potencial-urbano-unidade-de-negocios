@@ -1,0 +1,27 @@
+{
+  "id": "stj-sumula-397",
+  "tipo": "sumula",
+  "tribunal": "STJ",
+  "numero": "397",
+  "tema_rg_ou_repetitivo": null,
+  "leading_case": "REsp 1111124/PR (rito dos repetitivos, Tema 116)",
+  "enunciado_ou_tese": "O contribuinte do IPTU é notificado do lançamento pelo envio do carnê ao seu endereço.",
+  "tema": [
+    "IPTU"
+  ],
+  "dispositivos_relacionados": [
+    "CTN art. 142",
+    "CTN art. 145"
+  ],
+  "situacao": "vigente (Primeira Seção, j. 23/09/2009, DJe 07/10/2009)",
+  "fonte": {
+    "origem": "web-oficial",
+    "url": "https://jurishand.com/sumula-stj-397-de-07-outubro-2009",
+    "hash": null,
+    "captura_verbatim": "jurisprudencia/_capturas/stj-sumula-397.txt"
+  },
+  "status_pipeline": "processado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "verificacao_verbatim": "Enunciado confere com a captura verbatim."
+}

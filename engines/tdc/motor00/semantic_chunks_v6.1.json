@@ -1,0 +1,55 @@
+{
+    "document_id": "TDC_SP_MASTER_V6.1",
+    "chunks": [
+        {
+            "chunk_id": "CHK_01_BASE_LEGAL",
+            "topic": "Base Legal e Fundamentação Regulatória",
+            "legal_source": [
+                "CF Art. 150/155",
+                "Lei 10.257/2001",
+                "PDE 16.050/2014",
+                "LPUOS 16.402/2016",
+                "COE 16.642/2017",
+                "Decretos 57.536/2016, 58.289/2018, 64.884/2025"
+            ],
+            "content": "Conjunto normativo que estabelece diretrizes, fórmulas e restrições para geração e recepção de potencial construtivo. Histórico imutável consolidado."
+        },
+        {
+            "chunk_id": "CHK_02_ENQUADRAMENTO_HIGIENIZACAO",
+            "topic": "Enquadramento Técnico e Higienização de Base",
+            "rules": [
+                "Tombamento averbado para ZEPEC-BIR",
+                "Escritura averbada para Doação",
+                "Matrícula < 30 dias",
+                "Bloqueio de APT"
+            ],
+            "content": "Exigências registrais para lastro. Tolerância de área cadastral de 5% (divergência exige retificação). Quórum de 100% em condomínio civil para emissão."
+        },
+        {
+            "chunk_id": "CHK_03_METRICAS_FORMULAS",
+            "topic": "Métricas e Fórmulas de Cálculo",
+            "formulas": [
+                "ZEPEC-BIR: PC_pt = Atc_Liquido * CA_bas * 1.0",
+                "Atc_Liquido = Atc_Matricula - Area_Desapropriada_Averbada",
+                "Doação: PC_pt = Atc * CA_max * F_i",
+                "Recepção: PC_r = (PC_pt * VT_cd) / (C_r * CA_maxcd)"
+            ],
+            "content": "Equações de geração e recepção de TDC. Fatores de incentivo (F_i) variam de 1.0 a 2.0 dependendo da modalidade. Trava de HIS aplicada."
+        },
+        {
+            "chunk_id": "CHK_04_CONCORRENCIA_RECEPCAO",
+            "topic": "Parâmetros de Recepção e Concorrência",
+            "content": "Isolamento transacional SERIALIZABLE para evitar Race Condition com OODC. Suspensão jurisdicional cirúrgica no PIU Arco Pinheiros. Gatilho de 500m² para prevenção de evasão da Quota Ambiental. Validação geométrica de gabarito contra COMAER/CONPRESP."
+        },
+        {
+            "chunk_id": "CHK_05_LIMITES_TEMPORAIS_ESTOQUE",
+            "topic": "Limitadores Temporais, Estoque e Compliance",
+            "content": "TTL de 30 dias para averbação inaugural no CRI, sob pena de anulação. Limite FUNDURB de 5% sincronizado com balanço do ano fiscal anterior (Epoch Hashing). Travas bidirecionais CETESB (Passivo Ambiental) e CNIB/CADIN."
+        },
+        {
+            "chunk_id": "CHK_06_RENOVACAO_CUSTOS_INTEGRIDADE",
+            "topic": "Renovação, Tributos e Integridade Aritmética",
+            "content": "Renovação exclusiva para ZEPAM com TCA (70% em 10 anos, 100% em 15 anos). Bypass de ITBI para cessão intervivos. Tipagem estrita DECIMAL(10,3) para evitar falhas de Floating-Point. Rollback de transação civil para alvarás cancelados."
+        }
+    ]
+}

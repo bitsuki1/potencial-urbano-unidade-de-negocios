@@ -1,0 +1,52 @@
+{
+  "id": "lei-municipal-saopaulo-17759-2022",
+  "tipo_norma": "lei_ordinaria",
+  "esfera": "municipal",
+  "jurisdicao": "São Paulo/SP",
+  "numero": "17.759",
+  "ano": 2022,
+  "ementa": "Facilita a concessão de isenção de IPTU a imóveis edificados prejudicados por enchentes, alterando o Decreto nº 48.767, de 27 de setembro de 2007, e dá outras providências.",
+  "tema": [
+    "IPTU",
+    "enchentes",
+    "isencao",
+    "beneficio_fiscal"
+  ],
+  "dispositivos_chave": [
+    "Facilita a concessao de isencao de IPTU para imoveis atingidos por enchentes",
+    "Substitui a constatacao individualizada por delimitacao da area afetada via decreto",
+    "Cada Subprefeitura elabora apenas listagem dos imoveis atingidos dentro do perimetro do decreto",
+    "Mantem teto de isencao em R$ 20 mil",
+    "Efeitos para requerimentos cuja causa de pedir sejam enchentes ocorridas a partir de 1 de janeiro de 2022"
+  ],
+  "vigencia": {
+    "em_vigor": true,
+    "observacao": "Vigente; promulgada pelo Prefeito Ricardo Nunes em 15/03/2022; altera o Decreto 48.767/2007."
+  },
+  "remissoes": [
+    {
+      "norma": "Decreto 48.767/2007",
+      "relacao": "altera"
+    },
+    {
+      "norma": "Lei 17.202/2019",
+      "relacao": "par da cadeia de beneficio fiscal por enchente"
+    }
+  ],
+  "jurisprudencia_relacionada": [],
+  "tem_tabela": false,
+  "tabelas_extraidas": [],
+  "tem_formula": false,
+  "formulas_referenciadas": [],
+  "fonte": {
+    "origem": "web-oficial",
+    "url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17759-de-15-de-marco-de-2022",
+    "hash": null,
+    "ocr": false,
+    "metodo": "WebSearch (nao-verbatim; WebFetch/curl bloqueados HTTP 403)",
+    "obs": "texto nao-verbatim; capturado via WebSearch por bloqueio de WebFetch/curl (HTTP 403)."
+  },
+  "status_pipeline": "bruto",
+  "confianca_extracao": "media",
+  "revisado_por_humano": false
+}

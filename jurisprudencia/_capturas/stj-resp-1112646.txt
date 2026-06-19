@@ -1,0 +1,40 @@
+FONTE: https://scon.stj.jus.br/SCON/jurisprudencia/toc.jsp?b=ACOR&livre=(('RESP'.clas.%20e%20@num='1112646'))
+CAPTURA: 2026-06-18 — VERBATIM DE TELA
+ID: stj-resp-1112646
+
+REsp 1112646 / SP
+RECURSO ESPECIAL
+2009/0051088-6
+RECURSO REPETITIVO — Tema Repetitivo 174 (Trânsito em Julgado)
+
+RELATOR: Ministro HERMAN BENJAMIN (1132)
+ÓRGÃO JULGADOR: S1 - PRIMEIRA SEÇÃO
+DATA DO JULGAMENTO: 26/08/2009
+DATA DA PUBLICAÇÃO/FONTE: DJe 28/08/2009; RDDT vol. 171 p. 195; RT vol. 889 p. 248
+
+TESE JURÍDICA:
+"Não incide IPTU, mas ITR, sobre imóvel localizado na área urbana do Município, desde que comprovadamente utilizado em exploração extrativa, vegetal, agrícola, pecuária ou agroindustrial (art. 15 do DL 57/1966)."
+
+EMENTA:
+TRIBUTÁRIO. IMÓVEL NA ÁREA URBANA. DESTINAÇÃO RURAL. IPTU. NÃO-INCIDÊNCIA. ART. 15 DO DL 57/1966. RECURSO REPETITIVO. ART. 543-C DO CPC.
+1. Não incide IPTU, mas ITR, sobre imóvel localizado na área urbana do Município, desde que comprovadamente utilizado em exploração extrativa, vegetal, agrícola, pecuária ou agroindustrial (art. 15 do DL 57/1966).
+2. Recurso Especial provido. Acórdão sujeito ao regime do art. 543-C do CPC e da Resolução 8/2008 do STJ.
+
+ACÓRDÃO:
+Vistos, relatados e discutidos os autos em que são partes as acima indicadas, acordam os Ministros da Primeira Seção do Superior Tribunal de Justiça: "A Seção, por unanimidade, deu provimento ao recurso especial, nos termos do voto do Sr. Ministro Relator."
+Os Srs. Ministros Mauro Campbell Marques, Benedito Gonçalves, Hamilton Carvalhido, Eliana Calmon, Luiz Fux, Castro Meira e Humberto Martins votaram com o Sr. Ministro Relator.
+Ausente, justificadamente, a Sra. Ministra Denise Arruda.
+
+NOTAS:
+Julgado conforme procedimento previsto para os Recursos Repetitivos no âmbito do STJ.
+
+REFERÊNCIA LEGISLATIVA:
+LEG:FED DEL:000057 ANO:1966 — ART:00015
+LEG:FED CFB:****** ANO:1988 — CF-1988 — ART:00146 INC:00001
+LEG:FED LEI:005172 ANO:1966 — CTN-66 — ART:00032 PAR:00001 PAR:00002
+LEG:FED LEI:005869 ANO:1973 — CPC-73 — ART:0543C
+LEG:FED RES:000008 ANO:2008 (STJ)
+
+JURISPRUDÊNCIA CITADA:
+(RECEPÇÃO DO DECRETO-LEI 57/1966 PELA CONSTITUIÇÃO DE 1988) STF - RE 140773/SP
+(COBRANÇA DE ITR SOBRE IMÓVEL LOCALIZADO EM ÁREA URBANA) STJ - RESP 738628-SP, RESP 492869-PR (RDDT 117/161)

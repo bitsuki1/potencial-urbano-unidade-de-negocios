@@ -1,0 +1,26 @@
+{
+  "id": "stj-sumula-392",
+  "tipo": "sumula",
+  "tribunal": "STJ",
+  "numero": "392",
+  "tema_rg_ou_repetitivo": null,
+  "leading_case": null,
+  "enunciado_ou_tese": "A Fazenda Pública pode substituir a certidão de dívida ativa (CDA) até a prolação da sentença de embargos, quando se tratar de correção de erro material ou formal, vedada a modificação do sujeito passivo da execução.",
+  "tema": [
+    "IPTU"
+  ],
+  "dispositivos_relacionados": [
+    "Lei 6.830/80 (LEF) art. 2º, §8º"
+  ],
+  "situacao": "vigente (Primeira Seção, j. 23/09/2009, DJe 07/10/2009)",
+  "fonte": {
+    "origem": "web-oficial",
+    "url": "https://arquivocidadao.stj.jus.br/index.php/sumula-392-2",
+    "hash": null,
+    "captura_verbatim": "jurisprudencia/_capturas/stj-sumula-392.txt"
+  },
+  "status_pipeline": "processado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "verificacao_verbatim": "Enunciado confere com a captura verbatim."
+}

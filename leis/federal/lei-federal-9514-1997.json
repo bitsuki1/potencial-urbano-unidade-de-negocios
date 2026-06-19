@@ -1,0 +1,43 @@
+{
+  "id": "lei-federal-9514-1997",
+  "tipo_norma": "lei_ordinaria",
+  "esfera": "federal",
+  "jurisdicao": "Brasil",
+  "numero": "9514",
+  "ano": 1997,
+  "ementa": "Dispõe sobre o Sistema de Financiamento Imobiliário, institui a alienação fiduciária de coisa imóvel e dá outras providências.",
+  "tema": ["IPTU", "alienacao_fiduciaria", "sistema_financiamento_imobiliario"],
+  "dispositivos_chave": [
+    "Arts. 22 e seguintes — alienação fiduciária de coisa imóvel (propriedade resolúvel em garantia; posse desdobrada).",
+    "Art. 26 — consolidação da propriedade no fiduciário por inadimplemento (intimação no RI).",
+    "Art. 27 — leilão após consolidação; dispositivo (inserido pela Lei 14.620/2023) sobre responsabilidade do fiduciante pelo IPTU até a consolidação."
+  ],
+  "vigencia": {
+    "inicio": "1997-11-20",
+    "fim": null,
+    "revogada_por": null,
+    "altera": [],
+    "alterada_por": ["Lei 13.043/2014", "Lei 13.465/2017", "Lei 14.620/2023"]
+  },
+  "remissoes": [
+    "CTN (Lei 5.172/1966) art. 34",
+    "Lei 6.015/1973 (registro do contrato e da consolidação)",
+    "Lei 14.620/2023"
+  ],
+  "jurisprudencia_relacionada": [
+    "STJ Tema 1.158 — credor fiduciário não é sujeito passivo do IPTU antes da consolidação e imissão na posse"
+  ],
+  "tem_tabela": false,
+  "tabelas_extraidas": [],
+  "tem_formula": false,
+  "formulas_referenciadas": [],
+  "fonte": {
+    "origem": "web-oficial",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/l9514.htm",
+    "hash": null,
+    "ocr": false
+  },
+  "status_pipeline": "bruto",
+  "confianca_extracao": "media",
+  "revisado_por_humano": false
+}

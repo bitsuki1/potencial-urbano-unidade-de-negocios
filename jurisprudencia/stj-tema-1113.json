@@ -1,0 +1,29 @@
+{
+  "id": "stj-tema-1113",
+  "tipo": "recurso_repetitivo",
+  "tribunal": "STJ",
+  "numero": "1113",
+  "tema_rg_ou_repetitivo": "1113",
+  "leading_case": "REsp 1937821/SP (Rel. Min. Gurgel de Faria, Primeira Seção, j. 24/02/2022, DJe 03/03/2022)",
+  "enunciado_ou_tese": "a) A base de cálculo do ITBI é o valor do imóvel transmitido em condições normais de mercado, não estando vinculada à base de cálculo do IPTU, que nem sequer pode ser utilizada como piso de tributação; b) o valor da transação declarado pelo contribuinte goza da presunção de que é condizente com o valor de mercado, que somente pode ser afastada pelo fisco mediante a regular instauração de processo administrativo próprio (art. 148 do CTN); c) o município não pode arbitrar previamente a base de cálculo do ITBI com respaldo em valor de referência por ele estabelecido unilateralmente.",
+  "tema": [
+    "ITBI",
+    "IPTU"
+  ],
+  "dispositivos_relacionados": [
+    "CTN art. 33 (valor venal IPTU)",
+    "CTN art. 38 (base ITBI)",
+    "CTN art. 148"
+  ],
+  "situacao": "acórdão publicado; RE pendente",
+  "fonte": {
+    "origem": "web-oficial",
+    "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/09032022-Base-de-calculo-do-ITBI-e-o-valor-do-imovel-transmitido-em-condicoes-normais-de-mercado--define-Primeira-Secao.aspx",
+    "hash": null,
+    "captura_verbatim": "jurisprudencia/_capturas/lote5-stj-temas_20260618.txt"
+  },
+  "status_pipeline": "processado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "verificacao_verbatim": "2026-06-18 — tese conferida contra captura oficial verbatim (Lote 5, extensão); ver jurisprudencia/_capturas/lote5-stj-temas_20260618.txt"
+}

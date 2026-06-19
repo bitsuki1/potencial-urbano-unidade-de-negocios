@@ -1,0 +1,59 @@
+{
+  "id": "lei-municipal-saopaulo-13475-2002",
+  "tipo_norma": "lei_ordinaria",
+  "esfera": "municipal",
+  "jurisdicao": "São Paulo/SP",
+  "numero": "13.475",
+  "ano": 2002,
+  "ementa": "Altera a legislação do IPTU, ajustando as tabelas/faixas progressivas de alíquotas (fatores de adequação por faixa de valor venal) e dá outras providências.",
+  "tema": [
+    "IPTU",
+    "progressividade",
+    "aliquotas",
+    "calculo"
+  ],
+  "dispositivos_chave": [
+    "Ajuste das faixas e fatores de reducao/acrescimo introduzidos pela Lei 13.250/2001",
+    "Aliquota residencial mantida em 1% com 'parcela a deduzir' e ajustes por faixa",
+    "Aliquota nao-residencial e terreno em 1,5%",
+    "Garantia da progressividade efetiva por faixas de base de calculo"
+  ],
+  "vigencia": {
+    "em_vigor": true,
+    "observacao": "Vigente como ajuste da cadeia de progressividade; objeto de discussao judicial sobre aumento de carga em 2002."
+  },
+  "remissoes": [
+    {
+      "norma": "Lei 13.250/2001",
+      "relacao": "ajusta as tabelas progressivas"
+    },
+    {
+      "norma": "Lei 6.989/1966",
+      "relacao": "codigo tributario base"
+    },
+    {
+      "norma": "EC 29/2000",
+      "relacao": "fundamento da progressividade"
+    }
+  ],
+  "jurisprudencia_relacionada": [],
+  "tem_tabela": true,
+  "tabelas_extraidas": [
+    "Tabelas de faixas de valor venal x fator de adequacao (residencial/nao-residencial/terreno)"
+  ],
+  "tem_formula": true,
+  "formulas_referenciadas": [
+    "IPTU = base de calculo x aliquota - parcela a deduzir (mecanismo de progressividade por faixa)"
+  ],
+  "fonte": {
+    "origem": "web-oficial",
+    "url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-13475-de-30-de-dezembro-de-2002",
+    "hash": null,
+    "ocr": false,
+    "metodo": "WebSearch (nao-verbatim; WebFetch/curl bloqueados HTTP 403)",
+    "obs": "texto nao-verbatim; capturado via WebSearch por bloqueio de WebFetch/curl (HTTP 403)."
+  },
+  "status_pipeline": "bruto",
+  "confianca_extracao": "baixa",
+  "revisado_por_humano": false
+}

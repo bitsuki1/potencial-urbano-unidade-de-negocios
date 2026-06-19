@@ -1,0 +1,43 @@
+{
+  "id": "lei-municipal-saopaulo-7228-1968",
+  "tipo_norma": "lei_ordinaria",
+  "esfera": "municipal",
+  "jurisdicao": "São Paulo/SP",
+  "numero": "7.228",
+  "ano": 1968,
+  "ementa": "Altera dispositivos da Lei nº 6.989, de 29 de dezembro de 1966, e dá outras providências.",
+  "tema": [
+    "IPTU",
+    "codigo_tributario"
+  ],
+  "dispositivos_chave": [
+    "Altera dispositivos da Lei 6.989/1966 (codigo tributario do Municipio)",
+    "Revoga o item III do art. 1 da Lei 6.989/1966; renumera os itens IV a XI para III a X"
+  ],
+  "vigencia": {
+    "em_vigor": true,
+    "observacao": "Vigente como norma alteradora; efeitos incorporados ao texto consolidado da Lei 6.989/1966."
+  },
+  "remissoes": [
+    {
+      "norma": "Lei 6.989/1966",
+      "relacao": "altera dispositivos"
+    }
+  ],
+  "jurisprudencia_relacionada": [],
+  "tem_tabela": false,
+  "tabelas_extraidas": [],
+  "tem_formula": false,
+  "formulas_referenciadas": [],
+  "fonte": {
+    "origem": "web-oficial",
+    "url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-7228-de-12-de-dezembro-de-1968",
+    "hash": null,
+    "ocr": false,
+    "metodo": "WebSearch (nao-verbatim; WebFetch/curl bloqueados HTTP 403)",
+    "obs": "texto nao-verbatim; capturado via WebSearch por bloqueio de WebFetch/curl (HTTP 403)."
+  },
+  "status_pipeline": "bruto",
+  "confianca_extracao": "baixa",
+  "revisado_por_humano": false
+}

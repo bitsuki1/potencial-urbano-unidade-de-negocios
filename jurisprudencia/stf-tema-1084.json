@@ -1,0 +1,28 @@
+{
+  "id": "stf-tema-1084",
+  "tipo": "tema_repercussao_geral",
+  "tribunal": "STF",
+  "numero": "1084",
+  "tema_rg_ou_repetitivo": "1084",
+  "leading_case": "ARE 1245097/MG (Rel. Min. Roberto Barroso)",
+  "enunciado_ou_tese": "É constitucional a lei municipal que delega ao Poder Executivo a avaliação individualizada, para fins de cobrança do IPTU, de imóvel novo não previsto na Planta Genérica de Valores, desde que fixados em lei os critérios para a avaliação técnica e assegurado ao contribuinte o direito ao contraditório.",
+  "tema": [
+    "IPTU"
+  ],
+  "dispositivos_relacionados": [
+    "CF/88 art. 150, I (legalidade tributária)",
+    "CTN art. 33",
+    "CTN art. 97, §1º"
+  ],
+  "situacao": "mérito julgado; acórdão publicado em 27/07/2023",
+  "fonte": {
+    "origem": "web-oficial",
+    "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=5813878&numeroProcesso=1245097&classeProcesso=ARE&numeroTema=1084",
+    "hash": null,
+    "captura_verbatim": "jurisprudencia/_capturas/stf-tema-1084.txt"
+  },
+  "status_pipeline": "processado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "verificacao_verbatim": "Tese confere com a captura verbatim. Leading case ARE 1245097 confirmado; trânsito em julgado 26/10/2023."
+}

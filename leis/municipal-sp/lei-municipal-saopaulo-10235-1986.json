@@ -1,0 +1,82 @@
+{
+  "id": "lei-municipal-saopaulo-10235-1986",
+  "tipo_norma": "lei_ordinaria",
+  "esfera": "municipal",
+  "jurisdicao": "São Paulo/SP",
+  "numero": "10.235",
+  "ano": 1986,
+  "ementa": "Dispõe sobre a forma de apuração do valor venal de imóveis, para efeito de lançamento dos Impostos sobre a Propriedade Predial e Territorial Urbana, concede descontos sobre os valores venais dos imóveis sujeitos à incidência desses impostos no exercício de 1987, e dá outras providências.",
+  "tema": [
+    "IPTU",
+    "PGV",
+    "valor_venal",
+    "calculo"
+  ],
+  "dispositivos_chave": [
+    "Lei-mae da Planta Generica de Valores (PGV) de Sao Paulo",
+    "Estabelece Tabelas de valores unitarios de m2 de terreno e de construcao",
+    "Tabela VI: valor unitario de m2 de construcao",
+    "Tabela V: tipos e padroes de construcao",
+    "Tabela IV: fator de obsolescencia (depreciacao por idade)"
+  ],
+  "vigencia": {
+    "em_vigor": true,
+    "observacao": "Vigente; valores e tabelas atualizados por leis posteriores (cadeia PGV)."
+  },
+  "remissoes": [
+    {
+      "norma": "Lei 6.989/1966",
+      "relacao": "codigo tributario base do IPTU"
+    },
+    {
+      "norma": "Lei 11.152/1991",
+      "relacao": "altera/complementa metodo de calculo VVC e tabelas"
+    },
+    {
+      "norma": "Lei 13.250/2001",
+      "relacao": "progressividade + tabelas V/VI + depreciacao"
+    },
+    {
+      "norma": "Lei 15.044/2009",
+      "relacao": "atualiza valores unitarios m2 e padroes construtivos"
+    },
+    {
+      "norma": "Lei 15.889/2013",
+      "relacao": "continuacao da cadeia PGV"
+    },
+    {
+      "norma": "Lei 16.768/2017",
+      "relacao": "atualiza valores unitarios m2"
+    },
+    {
+      "norma": "Lei 17.719/2021",
+      "relacao": "PGV / legislacao tributaria"
+    },
+    {
+      "norma": "Lei 18.330/2025",
+      "relacao": "continuacao da cadeia PGV"
+    }
+  ],
+  "jurisprudencia_relacionada": [],
+  "tem_tabela": true,
+  "tabelas_extraidas": [
+    "Tabela IV (fator obsolescencia)",
+    "Tabela V (tipos/padroes construcao)",
+    "Tabela VI (valor unitario m2 construcao)"
+  ],
+  "tem_formula": true,
+  "formulas_referenciadas": [
+    "Valor Venal Construcao = area construida bruta x valor unitario m2 (Tab VI) x fator obsolescencia (Tab IV)"
+  ],
+  "fonte": {
+    "origem": "web-oficial",
+    "url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-10235-de-16-de-dezembro-de-1986",
+    "hash": null,
+    "ocr": false,
+    "metodo": "WebSearch (nao-verbatim; WebFetch/curl bloqueados HTTP 403)",
+    "obs": "texto nao-verbatim; capturado via WebSearch por bloqueio de WebFetch/curl (HTTP 403)."
+  },
+  "status_pipeline": "bruto",
+  "confianca_extracao": "baixa",
+  "revisado_por_humano": false
+}

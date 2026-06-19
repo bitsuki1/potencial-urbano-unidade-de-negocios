@@ -1,0 +1,26 @@
+{
+  "id": "stj-sumula-481",
+  "tipo": "sumula",
+  "tribunal": "STJ",
+  "numero": "481",
+  "tema_rg_ou_repetitivo": null,
+  "leading_case": null,
+  "enunciado_ou_tese": "Faz jus ao benefício da justiça gratuita a pessoa jurídica com ou sem fins lucrativos que demonstrar sua impossibilidade de arcar com os encargos processuais.",
+  "tema": [
+    "IPTU"
+  ],
+  "dispositivos_relacionados": [
+    "CF/88 art. 5º, LXXIV"
+  ],
+  "situacao": "vigente (Corte Especial, j. 28/06/2012, DJe 01/08/2012)",
+  "fonte": {
+    "origem": "web-oficial",
+    "url": "https://www.stj.jus.br/docs_internet/revista/eletronica/stj-revista-sumulas-2017_43_capSumulas481-485.pdf",
+    "hash": null,
+    "captura_verbatim": "jurisprudencia/_capturas/stj-sumula-481.txt"
+  },
+  "status_pipeline": "processado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "verificacao_verbatim": "Enunciado confere com a captura verbatim."
+}

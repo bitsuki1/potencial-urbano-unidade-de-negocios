@@ -1,0 +1,74 @@
+CAPTURA VERBATIM — LOTE 5 (STJ TEMAS REPETITIVOS) — via extensão do Claude no navegador
+Origem: Google Drive (Doc gerado pela extensão), lido pelo Escritório em 2026-06-18.
+Canal: ver escritorio-do-mou/processos/EXTRACAO_VIA_EXTENSAO.md.
+
+================================================================================
+stj-tema-174
+FONTE: https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=174&cod_tema_final=174
+CAPTURA: 2026-06-18 — VERBATIM DE TELA
+SITUAÇÃO: Trânsito em Julgado
+QUESTÃO SUBMETIDA A JULGAMENTO:
+Questão referente à incidência de IPTU sobre imóvel em que há exploração de atividade agrícola, à luz do Decreto-Lei 57/1966.
+TESE FIRMADA:
+Não incide IPTU, mas ITR, sobre imóvel localizado na área urbana do Município, desde que comprovadamente utilizado em exploração extrativa, vegetal, agrícola, pecuária ou agroindustrial (art. 15 do DL 57/1966).
+
+================================================================================
+stj-tema-262
+FONTE: https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=262&cod_tema_final=262
+CAPTURA: 2026-06-18 — VERBATIM DE TELA
+SITUAÇÃO: Trânsito em Julgado
+QUESTÃO SUBMETIDA A JULGAMENTO:
+Questiona-se a possibilidade de argüição de prescrição em sede de exceção de pré-executividade, ainda que fundada na inconstitucionalidade da lei ordinária que ampliou o prazo prescricional (artigo 46, da Lei 8.212/91).
+TESE FIRMADA:
+A prescrição, causa extintiva do crédito tributário, é passível de ser veiculada em exceção de pré-executividade, máxime quando fundada na inconstitucionalidade.
+
+================================================================================
+stj-tema-399
+FONTE: https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=399&cod_tema_final=399
+CAPTURA: 2026-06-18 — VERBATIM DE TELA
+SITUAÇÃO: Trânsito em Julgado
+QUESTÃO SUBMETIDA A JULGAMENTO:
+Questão referente à incidência ou não-incidência do ISS sobre os serviços prestados por empresas franqueadas dos Correios que realizam atividades postais e telemáticas.
+TESE FIRMADA:
+Os serviços postais e telemáticos prestados por empresas franqueadas, sob a égide da LC 56/87, não sofrem a incidência do ISS, em observância ao princípio tributário da legalidade.
+[NOTA DO ESCRITÓRIO: tese de ISS, NÃO de IPTU — relevância tangencial; conferir pertinência do item no corpus IPTU/TDC.]
+
+================================================================================
+stj-tema-566
+FONTE: https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=566&cod_tema_final=566
+CAPTURA: 2026-06-18 — VERBATIM DE TELA
+SITUAÇÃO: Trânsito em Julgado
+QUESTÃO SUBMETIDA A JULGAMENTO:
+Discute-se a sistemática para a contagem da prescrição intercorrente (prescrição após a propositura da ação) prevista no art. 40 e parágrafos da Lei da Execução Fiscal (Lei n. 6.830/80): qual o pedido de suspensão por parte da Fazenda Pública que inaugura o prazo de 1 (um) ano previsto no art. 40, § 2º, da LEF.
+TESE FIRMADA:
+O prazo de 1 (um) ano de suspensão do processo e do respectivo prazo prescricional previsto no art. 40, §§ 1º e 2º da Lei n. 6.830/80 - LEF tem início automaticamente na data da ciência da Fazenda Pública a respeito da não localização do devedor ou da inexistência de bens penhoráveis no endereço fornecido, havendo, sem prejuízo dessa contagem automática, o dever de o magistrado declarar ter ocorrido a suspensão da execução.
+
+================================================================================
+stj-tema-1113
+FONTE: https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=1113&cod_tema_final=1113
+CAPTURA: 2026-06-18 — VERBATIM DE TELA
+SITUAÇÃO: Acórdão Publicado - RE Pendente
+QUESTÃO SUBMETIDA A JULGAMENTO:
+Definir: a) se a base de cálculo do ITBI está vinculada à do IPTU; b) se é legítima a adoção de valor venal de referência previamente fixado pelo fisco municipal como parâmetro para a fixação da base de cálculo do ITBI.
+TESE FIRMADA:
+a) a base de cálculo do ITBI é o valor do imóvel transmitido em condições normais de mercado, não estando vinculada à base de cálculo do IPTU, que nem sequer pode ser utilizada como piso de tributação; b) o valor da transação declarado pelo contribuinte goza da presunção de que é condizente com o valor de mercado, que somente pode ser afastada pelo fisco mediante a regular instauração de processo administrativo próprio (art. 148 do CTN); c) o Município não pode arbitrar previamente a base de cálculo do ITBI com respaldo em valor de referência por ele estabelecido unilateralmente.
+
+================================================================================
+stj-tema-1158
+FONTE: https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=1158&cod_tema_final=1158
+CAPTURA: 2026-06-18 — VERBATIM DE TELA
+SITUAÇÃO: Acórdão Publicado
+QUESTÃO SUBMETIDA A JULGAMENTO:
+Definir se há responsabilidade tributária solidária e legitimidade passiva do credor fiduciário na execução fiscal em que se cobra IPTU de imóvel objeto de contrato de alienação fiduciária.
+TESE FIRMADA:
+O credor fiduciário, antes da consolidação da propriedade e da imissão na posse no imóvel objeto da alienação fiduciária, não pode ser considerado sujeito passivo do IPTU, uma vez que não se enquadra em nenhuma das hipóteses previstas no art. 34 do CTN.
+
+================================================================================
+stj-tema-1350
+FONTE: https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=1350&cod_tema_final=1350
+CAPTURA: 2026-06-18 — VERBATIM DE TELA
+SITUAÇÃO: Trânsito em Julgado
+QUESTÃO SUBMETIDA A JULGAMENTO:
+Definir se, até a prolação da sentença nos embargos, é possível que a Fazenda Pública substitua ou emende a Certidão de Dívida Ativa (CDA), para incluir, complementar ou modificar o fundamento legal do crédito tributário.
+TESE FIRMADA:
+Não é possível à Fazenda Pública, ainda que antes da prolação da sentença de embargos, substituir ou emendar a Certidão de Dívida Ativa (CDA) para incluir, complementar ou modificar, o fundamento legal do crédito tributário.

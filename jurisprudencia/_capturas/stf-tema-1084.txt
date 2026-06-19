@@ -1,0 +1,19 @@
+FONTE: https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=5813878&numeroProcesso=1245097&classeProcesso=ARE&numeroTema=1084
+CAPTURA: 2026-06-18 — VERBATIM DE TELA
+ID: stf-tema-1084
+
+TEMA 1084 — REPERCUSSÃO GERAL — STF
+
+TÍTULO: Constitucionalidade da lei que delega à esfera administrativa, para efeito de cobrança do IPTU, a avaliação individualizada de imóvel não previsto na Planta Genérica de Valores (PGV) à época do lançamento do imposto.
+
+QUESTÃO (DESCRIÇÃO):
+Recurso extraordinário em que se discute, à luz dos artigos 30; 146; 150, inciso I; 156, inciso I, da Constituição Federal, a constitucionalidade da Lei nº 7.303/97 do Município de Londrina na parte em que autoriza, para efeito de cobrança do IPTU, a utilização de critérios para se apurar o valor venal dos imóveis oriundos de parcelamento do solo urbano ocorrido após aprovação legal da Planta Genérica de Valores.
+
+TESE FIRMADA:
+É constitucional a lei municipal que delega ao Poder Executivo a avaliação individualizada, para fins de cobrança do IPTU, de imóvel novo não previsto na Planta Genérica de Valores, desde que fixados em lei os critérios para a avaliação técnica e assegurado ao contribuinte o direito ao contraditório.
+
+SITUAÇÃO: Mérito julgado.
+Relator: Min. Luís Roberto Barroso
+Leading Case: ARE 1245097
+Data do julgamento do mérito: 05/06/2023 (Sessão Virtual de 26.5.2023 a 2.6.2023)
+Transitado em julgado: 26/10/2023

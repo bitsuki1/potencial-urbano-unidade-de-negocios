@@ -1,0 +1,27 @@
+{
+  "id": "stj-sumula-409",
+  "tipo": "sumula",
+  "tribunal": "STJ",
+  "numero": "409",
+  "tema_rg_ou_repetitivo": null,
+  "leading_case": null,
+  "enunciado_ou_tese": "Em execução fiscal, a prescrição ocorrida antes da propositura da ação pode ser decretada de ofício (art. 219, § 5º, do CPC).",
+  "tema": [
+    "IPTU"
+  ],
+  "dispositivos_relacionados": [
+    "CPC/1973 art. 219, §5º",
+    "CTN art. 174"
+  ],
+  "situacao": "vigente (Primeira Seção, j. 28/10/2009, DJe 24/11/2009)",
+  "fonte": {
+    "origem": "web-oficial",
+    "url": "https://ww2.stj.jus.br/docs_internet/revista/eletronica/stj-revista-sumulas-2014_38_capSumula409.pdf",
+    "hash": null,
+    "captura_verbatim": "jurisprudencia/_capturas/stj-sumula-409.txt"
+  },
+  "status_pipeline": "processado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "verificacao_verbatim": "Enunciado confere com a captura verbatim."
+}

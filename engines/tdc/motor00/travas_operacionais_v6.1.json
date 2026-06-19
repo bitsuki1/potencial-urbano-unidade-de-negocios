@@ -1,0 +1,32 @@
+{
+    "system_locks": {
+        "tolerance_area_divergence_max_pct": 5.0,
+        "quorum_condominio_required_pct": 100.0,
+        "fator_incentivo_fi": {
+            "zepec_bir": 1.0,
+            "doacao_his": 1.9,
+            "doacao_viario": 2.0,
+            "doacao_parques_low_val": 1.4,
+            "doacao_parques_high_val": 1.0
+        },
+        "teto_area_nao_computavel_pct": 59.0,
+        "trava_estoque_fundurb_pct": 5.0,
+        "caducidade_inicial_dpc_days": 30,
+        "validade_temporal_final_ctpc_expires": false,
+        "precision_decimal_utxo": [
+            10,
+            3
+        ],
+        "conditional_blocks": [
+            "IF Uso_Receptor == 'HIS' THEN BLOCK_OPERATION",
+            "IF Receptor_Location_Intersect('Poligono_ZOE_Butantan') THEN APPLY(Lei_18298_Arts_1_2_6) AND BLOCK(Lei_18298_Arts_3_4_5) WHILE ADI_Status == 'SUSPENDED'",
+            "IF Analise_Espacial_Aprova_Projeto_Conjunto == TRUE AND Area_Geometria_Global_Levantamento > 500 THEN DISABLE_ISENCAO_QA AND REQUIRE(Area_Terreno_Receptor_Consolidada == Area_Geometria_Global_Levantamento)",
+            "IF Projecao_Volumetrica_TDC > Min(LPUOS_Q3, COMAER_ZCS, CONPRESP_Envoltoria) THEN FATAL_ERROR",
+            "IF Lote_Receptor_Contaminacao == TRUE THEN BLOCK_AVERBACAO",
+            "IF Modalidade_Operacao == 'TDC_COM_DOACAO' THEN REQUIRE(CETESB_Manifestacao IN ['ENCERRADO', 'REABILITADO'])",
+            "IF CNIB_Status == 'INDISPONIVEL' OR CADIN_Status == TRUE THEN BLOCK_EMISSION",
+            "IF Titular_Obito == TRUE THEN REQUIRE(Guia_ITCMD_Paga == TRUE OR Decisao_Inexigibilidade_SEFAZ == TRUE)",
+            "IF Status_Alvara_Receptor == 'CANCELED' THEN ROLLBACK_TRANSACTION"
+        ]
+    }
+}

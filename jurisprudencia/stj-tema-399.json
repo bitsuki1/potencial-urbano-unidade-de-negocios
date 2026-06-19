@@ -1,0 +1,24 @@
+{
+  "id": "stj-tema-399",
+  "tipo": "recurso_repetitivo",
+  "tribunal": "STJ",
+  "numero": "399",
+  "tema_rg_ou_repetitivo": "399",
+  "leading_case": null,
+  "enunciado_ou_tese": "NÃO VERIFICADO COM SEGURANÇA EM FONTE OFICIAL. Não foi possível confirmar a tese firmada nem o leading case do Tema Repetitivo 399/STJ, tampouco sua pertinência direta ao IPTU. Possível confusão com a Súmula 399/STJ (sujeito passivo do IPTU — esta SIM de IPTU, ver stj-sumula-399).",
+  "tema": [
+    "IPTU"
+  ],
+  "dispositivos_relacionados": [],
+  "situacao": "mérito julgado (rito repetitivo); trânsito em julgado",
+  "fonte": {
+    "origem": "web-oficial",
+    "url": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=399&cod_tema_final=399",
+    "hash": null,
+    "captura_verbatim": "jurisprudencia/_capturas/lote5-stj-temas_20260618.txt"
+  },
+  "status_pipeline": "processado",
+  "confianca_extracao": "baixa",
+  "revisado_por_humano": false,
+  "verificacao_verbatim": "2026-06-18 — tese conferida contra captura oficial verbatim (Lote 5, extensão); ver jurisprudencia/_capturas/lote5-stj-temas_20260618.txt"
+}

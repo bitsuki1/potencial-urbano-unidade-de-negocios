@@ -1,0 +1,70 @@
+{
+  "id": "lei-municipal-saopaulo-13250-2001",
+  "tipo_norma": "lei_ordinaria",
+  "esfera": "municipal",
+  "jurisdicao": "São Paulo/SP",
+  "numero": "13.250",
+  "ano": 2001,
+  "ementa": "Altera a Lei nº 6.989, de 29 de dezembro de 1966, e dá outras providências. (Institui a progressividade fiscal das alíquotas do IPTU em função do valor venal e ajusta Tabelas V/VI e depreciação.)",
+  "tema": [
+    "IPTU",
+    "progressividade",
+    "aliquotas",
+    "calculo",
+    "valor_venal"
+  ],
+  "dispositivos_chave": [
+    "Aliquota residencial: 1,0% sobre o valor venal (uso exclusiva/predominantemente residencial)",
+    "Aliquota nao-residencial: 1,5% sobre o valor venal",
+    "Sistema de fatores de reducao/acrescimo por faixas de valor venal (progressividade fiscal)",
+    "Faixa residencial ate R$ 77.500: reducao de 0,2%",
+    "Faixa > R$ 77.500 ate R$ 155.000: sem reducao nem acrescimo",
+    "Faixa > R$ 155.000 ate R$ 310.000: acrescimo",
+    "Faixas superiores ate > R$ 620.000: acrescimo crescente",
+    "Ajuste das Tabelas V (padroes) e VI (valores) e do fator de depreciacao"
+  ],
+  "vigencia": {
+    "em_vigor": true,
+    "observacao": "Constitucionalidade reconhecida pelo STF (progressividade fiscal apos EC 29/2000)."
+  },
+  "remissoes": [
+    {
+      "norma": "Lei 6.989/1966",
+      "relacao": "altera"
+    },
+    {
+      "norma": "Lei 10.235/1986",
+      "relacao": "tabelas PGV"
+    },
+    {
+      "norma": "EC 29/2000",
+      "relacao": "fundamento constitucional da progressividade fiscal"
+    },
+    {
+      "norma": "Lei 13.475/2002",
+      "relacao": "ajuste posterior das tabelas progressivas"
+    }
+  ],
+  "jurisprudencia_relacionada": [],
+  "tem_tabela": true,
+  "tabelas_extraidas": [
+    "Tabela de faixas de valor venal x fator de reducao/acrescimo (residencial e nao-residencial)",
+    "Tabela V",
+    "Tabela VI"
+  ],
+  "tem_formula": true,
+  "formulas_referenciadas": [
+    "IPTU = (valor venal x aliquota base) +/- fator de adequacao por faixa de valor venal"
+  ],
+  "fonte": {
+    "origem": "web-oficial",
+    "url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-13250-de-27-de-dezembro-de-2001",
+    "hash": null,
+    "ocr": false,
+    "metodo": "WebSearch (nao-verbatim; WebFetch/curl bloqueados HTTP 403)",
+    "obs": "texto nao-verbatim; capturado via WebSearch por bloqueio de WebFetch/curl (HTTP 403)."
+  },
+  "status_pipeline": "bruto",
+  "confianca_extracao": "baixa",
+  "revisado_por_humano": false
+}

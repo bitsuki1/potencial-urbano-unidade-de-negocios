@@ -1,0 +1,26 @@
+{
+  "id": "stf-sumula-589",
+  "tipo": "sumula",
+  "tribunal": "STF",
+  "numero": "589",
+  "tema_rg_ou_repetitivo": null,
+  "leading_case": null,
+  "enunciado_ou_tese": "É inconstitucional a fixação de adicional progressivo do imposto predial e territorial urbano em função do número de imóveis do contribuinte.",
+  "tema": [
+    "IPTU"
+  ],
+  "dispositivos_relacionados": [
+    "CTN art. 33"
+  ],
+  "situacao": "vigente",
+  "fonte": {
+    "origem": "web-oficial",
+    "url": "https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=2300",
+    "hash": null,
+    "captura_verbatim": "jurisprudencia/_capturas/stf-sumula-589.txt"
+  },
+  "status_pipeline": "processado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "verificacao_verbatim": "Enunciado confere com a captura verbatim. Sem alteração de conteúdo."
+}

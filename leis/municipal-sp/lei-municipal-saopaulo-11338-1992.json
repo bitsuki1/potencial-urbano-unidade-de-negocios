@@ -1,0 +1,65 @@
+{
+  "id": "lei-municipal-saopaulo-11338-1992",
+  "tipo_norma": "lei_ordinaria",
+  "esfera": "municipal",
+  "jurisdicao": "São Paulo/SP",
+  "numero": "11.338",
+  "ano": 1992,
+  "ementa": "Concede isenção e desconto do Imposto Territorial Urbano incidente sobre imóveis situados em área de proteção aos mananciais, e dá outras providências.",
+  "tema": [
+    "IPTU",
+    "mananciais",
+    "ZEPAM",
+    "isencao",
+    "meio_ambiente"
+  ],
+  "dispositivos_chave": [
+    "Isencao de IPTU sobre o excesso de area de imoveis situados em area de protecao aos mananciais",
+    "Areas definidas nas Leis Estaduais 898/1975 e 1.172/1976",
+    "Estende-se a imoveis em Zonas Especiais de Preservacao Ambiental (ZEPAM), na Macrozona de Estruturacao e Qualificacao Urbana",
+    "Condicao: respeitar a taxa minima de permeabilidade da legislacao pertinente",
+    "A isencao nao dispensa o cumprimento das obrigacoes acessorias"
+  ],
+  "vigencia": {
+    "em_vigor": true,
+    "observacao": "Vigente; alterada por Lei 14.125/2005 e Lei 14.256/2006; relaciona-se com Lei 16.402/2016 (zoneamento)."
+  },
+  "remissoes": [
+    {
+      "norma": "Lei Estadual 898/1975",
+      "relacao": "define area de protecao aos mananciais"
+    },
+    {
+      "norma": "Lei Estadual 1.172/1976",
+      "relacao": "define area de protecao aos mananciais"
+    },
+    {
+      "norma": "Lei 14.125/2005",
+      "relacao": "altera"
+    },
+    {
+      "norma": "Lei 14.256/2006",
+      "relacao": "altera"
+    },
+    {
+      "norma": "Lei 16.402/2016",
+      "relacao": "zoneamento / ZEPAM"
+    }
+  ],
+  "jurisprudencia_relacionada": [],
+  "tem_tabela": false,
+  "tabelas_extraidas": [],
+  "tem_formula": false,
+  "formulas_referenciadas": [],
+  "fonte": {
+    "origem": "web-oficial",
+    "url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-11338-de-30-de-dezembro-de-1992",
+    "hash": null,
+    "ocr": false,
+    "metodo": "WebSearch (nao-verbatim; WebFetch/curl bloqueados HTTP 403)",
+    "obs": "texto nao-verbatim; capturado via WebSearch por bloqueio de WebFetch/curl (HTTP 403)."
+  },
+  "status_pipeline": "bruto",
+  "confianca_extracao": "baixa",
+  "revisado_por_humano": false
+}

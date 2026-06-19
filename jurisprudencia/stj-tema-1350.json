@@ -1,0 +1,27 @@
+{
+  "id": "stj-tema-1350",
+  "tipo": "recurso_repetitivo",
+  "tribunal": "STJ",
+  "numero": "1350",
+  "tema_rg_ou_repetitivo": "1350",
+  "leading_case": "REsp 2194708/SC, REsp 2194734/SC e REsp 2194706/SC (afetados 26/05/2025; mérito j. 08/10/2025; DJe 22/10/2025; trânsito 22/12/2025)",
+  "enunciado_ou_tese": "Não é possível à Fazenda Pública, ainda que antes da sentença de embargos, substituir ou emendar a Certidão de Dívida Ativa (CDA) para incluir, complementar ou modificar o fundamento legal do crédito tributário.",
+  "tema": [
+    "IPTU"
+  ],
+  "dispositivos_relacionados": [
+    "Lei 6.830/80 (LEF) art. 2º, §8º",
+    "CTN art. 142"
+  ],
+  "situacao": "mérito julgado (rito repetitivo); trânsito em julgado",
+  "fonte": {
+    "origem": "web-oficial",
+    "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2025/29072025-Tribunal-julgou-37-temas-repetitivos-no-primeiro-semestre-de-2025--confira-todas-as-teses.aspx",
+    "hash": null,
+    "captura_verbatim": "jurisprudencia/_capturas/lote5-stj-temas_20260618.txt"
+  },
+  "status_pipeline": "processado",
+  "confianca_extracao": "media",
+  "revisado_por_humano": false,
+  "verificacao_verbatim": "2026-06-18 — tese conferida contra captura oficial verbatim (Lote 5, extensão); ver jurisprudencia/_capturas/lote5-stj-temas_20260618.txt"
+}

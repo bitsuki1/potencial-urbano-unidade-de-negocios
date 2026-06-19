@@ -1,0 +1,33 @@
+FONTE: https://scon.stj.jus.br/SCON/jurisprudencia/toc.jsp?b=ACOR&livre=(('RESP'.clas.%20e%20@num='1202136'))
+CAPTURA: 2026-06-18 — VERBATIM DE TELA
+ID: stj-resp-1202136
+
+NOTA: A URL original redireciona para o SCON. Resultado capturado via pesquisa por número (2 acórdãos encontrados). O REsp 1202136/SP é o Documento 2 de 2.
+
+REsp 1202136 / SP
+RECURSO ESPECIAL 2010/0122525-0
+
+RELATOR: Ministro MAURO CAMPBELL MARQUES (1141)
+ÓRGÃO JULGADOR: T2 - SEGUNDA TURMA
+DATA DO JULGAMENTO: 07/06/2011
+DATA DA PUBLICAÇÃO/FONTE: DJe 14/06/2011
+
+EMENTA:
+TRIBUTÁRIO. PROCESSO CIVIL. VIOLAÇÃO AO ART. 535 DO CPC. INEXISTÊNCIA. LEGALIDADE DO IPTU. INEXIGIBILIDADE DAS TAXAS. LANÇAMENTO. VALIDADE.
+1. Trata-se de recurso especial interposto contra acórdão proferido pelo Tribunal de Justiça do Estado de São Paulo que declarou a inexigibilidade da Taxa de Limpeza Pública e Conservação de Vias e Logradouros Públicos e da taxa de combate a sinistros e a validade do lançamento do IPTU.
+2. Os órgãos julgadores não estão obrigados a examinar todas as teses levantadas pelo jurisdicionado durante um processo judicial, bastando que as decisões proferidas estejam devida e coerentemente fundamentadas, em obediência ao que determina o art. 93, inc. IX, da Constituição da República vigente. Isto não caracteriza ofensa ao art. 535 do CPC.
+3. O reconhecimento da inexigibilidade da Taxa de Limpeza Pública e Conservação de Vias e Logradouros Públicos e da taxa de combate a sinistros não implica na realização de novo lançamento, uma vez que não houve qualquer ilegalidade no lançamento do IPTU. Até porque, o fato das taxas serem ilegais não torna nulo o IPTU.
+4. Ademais, a retirada da importância devida em razão das taxas tidas por ilegais não subtrai da Certidão de Dívida Ativa - CDA a sua liquidez e certeza, na medida em que o quantum a ser efetivamente excutido pode ser encontrado mediante a realização de simples cálculos aritméticos.
+5. Recurso especial parcialmente conhecido e, nessa parte, não provido.
+
+ACÓRDÃO:
+Vistos, relatados e discutidos esses autos em que são partes as acima indicadas, acordam os Ministros da SEGUNDA TURMA do Superior Tribunal de Justiça, na conformidade dos votos e das notas taquigráficas, o seguinte resultado de julgamento:
+"A Turma, por unanimidade, conheceu em parte do recurso e, nessa parte, negou-lhe provimento, nos termos do voto do Sr. Ministro-Relator, sem destaque."
+Os Srs. Ministros Cesar Asfor Rocha, Castro Meira, Humberto Martins (Presidente) e Herman Benjamin votaram com o Sr. Ministro Relator.
+
+REFERÊNCIA LEGISLATIVA:
+LEG:FED LEI:005869 ANO:1973 — CPC-73 — ART:00535
+LEG:FED CFB:****** ANO:1988 — CF-1988 — ART:00093 INC:00009
+
+JURISPRUDÊNCIA CITADA:
+(TAXA ILEGAL - CERTIDÃO DA DÍVIDA ATIVA - LIQUIDEZ) STJ - REsp 737138-PR

@@ -1,0 +1,26 @@
+{
+  "id": "stf-sumula-724",
+  "tipo": "sumula",
+  "tribunal": "STF",
+  "numero": "724",
+  "tema_rg_ou_repetitivo": null,
+  "leading_case": null,
+  "enunciado_ou_tese": "Ainda quando alugado a terceiros, permanece imune ao IPTU o imóvel pertencente a qualquer das entidades referidas pelo art. 150, VI, c, da Constituição, desde que o valor dos aluguéis seja aplicado nas atividades essenciais de tais entidades.",
+  "tema": [
+    "IPTU"
+  ],
+  "dispositivos_relacionados": [
+    "CF/88 art. 150, VI, c"
+  ],
+  "situacao": "vigente; convertida (com ajustes de redação) na Súmula Vinculante 52",
+  "fonte": {
+    "origem": "web-oficial",
+    "url": "https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=1644",
+    "hash": null,
+    "captura_verbatim": "jurisprudencia/_capturas/stf-sumula-724.txt"
+  },
+  "status_pipeline": "processado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "verificacao_verbatim": "Enunciado confere com a captura verbatim. Captura confirma conversão na Súmula Vinculante 52."
+}

@@ -1,0 +1,39 @@
+{
+  "id": "ec-132-2023",
+  "tipo_norma": "emenda_constitucional",
+  "esfera": "federal",
+  "jurisdicao": "Brasil",
+  "numero": "132",
+  "ano": 2023,
+  "ementa": "Altera o Sistema Tributário Nacional.",
+  "tema": ["IPTU", "reforma_tributaria", "sistema_tributario_nacional"],
+  "dispositivos_chave": [
+    "Cria IBS, CBS e Imposto Seletivo; extingue ICMS, ISS, PIS e Cofins (com transição até 2033).",
+    "Altera o art. 156 da CF/88 — relevante ao IPTU: autorização para o Executivo municipal atualizar a base de cálculo do IPTU por decreto conforme critérios de lei municipal (PENDENTE conferência verbatim)."
+  ],
+  "vigencia": {
+    "inicio": "2023-12-20",
+    "fim": null,
+    "revogada_por": null,
+    "altera": ["CF/1988 — Sistema Tributário Nacional (diversos artigos, incl. art. 156)", "ADCT"],
+    "alterada_por": []
+  },
+  "remissoes": [
+    "CF/1988 art. 156",
+    "CF/1988 arts. 145, 146, 149-A, 150, 153, 155, 158, 159, 161, 195"
+  ],
+  "jurisprudencia_relacionada": [],
+  "tem_tabela": false,
+  "tabelas_extraidas": [],
+  "tem_formula": false,
+  "formulas_referenciadas": [],
+  "fonte": {
+    "origem": "web-oficial",
+    "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm",
+    "hash": null,
+    "ocr": false
+  },
+  "status_pipeline": "bruto",
+  "confianca_extracao": "media",
+  "revisado_por_humano": false
+}

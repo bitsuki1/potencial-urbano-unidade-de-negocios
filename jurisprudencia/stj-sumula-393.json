@@ -1,0 +1,26 @@
+{
+  "id": "stj-sumula-393",
+  "tipo": "sumula",
+  "tribunal": "STJ",
+  "numero": "393",
+  "tema_rg_ou_repetitivo": null,
+  "leading_case": null,
+  "enunciado_ou_tese": "A exceção de pré-executividade é admissível na execução fiscal relativamente às matérias conhecíveis de ofício que não demandem dilação probatória.",
+  "tema": [
+    "IPTU"
+  ],
+  "dispositivos_relacionados": [
+    "Lei 6.830/80 (LEF)"
+  ],
+  "situacao": "vigente (Primeira Seção, j. 23/09/2009, DJe 07/10/2009)",
+  "fonte": {
+    "origem": "web-oficial",
+    "url": "https://scon.stj.jus.br/SCON/pesquisar.jsp?b=SUMU&sumula=393",
+    "hash": null,
+    "captura_verbatim": "jurisprudencia/_capturas/stj-sumula-393.txt"
+  },
+  "status_pipeline": "processado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "verificacao_verbatim": "Enunciado confere com a captura verbatim."
+}

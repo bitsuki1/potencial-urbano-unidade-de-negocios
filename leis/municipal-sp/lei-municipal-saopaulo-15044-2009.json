@@ -1,0 +1,54 @@
+{
+  "id": "lei-municipal-saopaulo-15044-2009",
+  "tipo_norma": "lei_ordinaria",
+  "esfera": "municipal",
+  "jurisdicao": "São Paulo/SP",
+  "numero": "15.044",
+  "ano": 2009,
+  "ementa": "Atualiza os valores unitários de metro quadrado de construção e de terreno previstos na Lei nº 10.235, de 16 de dezembro de 1986, institui novos padrões de construção e dispõe sobre o Imposto Predial e Territorial Urbano.",
+  "tema": [
+    "IPTU",
+    "PGV",
+    "tipologias_construtivas",
+    "valor_venal",
+    "calculo"
+  ],
+  "dispositivos_chave": [
+    "Atualiza valores unitarios de m2 de construcao e de terreno da Lei 10.235/1986",
+    "Institui novos padroes/tipologias de construcao",
+    "Art. 10: obriga o Executivo a enviar a Camara, no primeiro ano de cada mandato, projeto de revisao dos valores venais de terrenos e edificacoes (revisao periodica da PGV)"
+  ],
+  "vigencia": {
+    "em_vigor": true,
+    "observacao": "Vigente; integra a cadeia de atualizacao da PGV."
+  },
+  "remissoes": [
+    {
+      "norma": "Lei 10.235/1986",
+      "relacao": "atualiza valores e padroes"
+    },
+    {
+      "norma": "Lei 6.989/1966",
+      "relacao": "codigo tributario base"
+    }
+  ],
+  "jurisprudencia_relacionada": [],
+  "tem_tabela": true,
+  "tabelas_extraidas": [
+    "Tabela de valores unitarios atualizados (m2 construcao e terreno)",
+    "Tabela de novos padroes construtivos / tipologias"
+  ],
+  "tem_formula": false,
+  "formulas_referenciadas": [],
+  "fonte": {
+    "origem": "web-oficial",
+    "url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-15044-de-03-de-dezembro-de-2009",
+    "hash": null,
+    "ocr": false,
+    "metodo": "WebSearch (nao-verbatim; WebFetch/curl bloqueados HTTP 403)",
+    "obs": "texto nao-verbatim; capturado via WebSearch por bloqueio de WebFetch/curl (HTTP 403)."
+  },
+  "status_pipeline": "bruto",
+  "confianca_extracao": "baixa",
+  "revisado_por_humano": false
+}

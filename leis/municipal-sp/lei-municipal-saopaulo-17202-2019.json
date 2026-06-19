@@ -1,0 +1,51 @@
+{
+  "id": "lei-municipal-saopaulo-17202-2019",
+  "tipo_norma": "lei_ordinaria",
+  "esfera": "municipal",
+  "jurisdicao": "São Paulo/SP",
+  "numero": "17.202",
+  "ano": 2019,
+  "ementa": "Lei de regularização de edificações ('anistia'): dispõe sobre a regularização de edificações e remissão de créditos tributários de IPTU decorrentes das regularizações; relaciona-se ao tema de benefício fiscal de IPTU (enchentes) na cadeia 17.202/2019 + 17.759/2022.",
+  "tema": [
+    "IPTU",
+    "enchentes",
+    "regularizacao",
+    "remissao",
+    "isencao"
+  ],
+  "dispositivos_chave": [
+    "Regularizacao de edificacoes (anistia) — adequacao a normas de construcao e ocupacao do solo",
+    "Regularizacao automatica de edificacoes residenciais R/R1/R2h de padrao baixo e medio com isencao total no IPTU de 2014",
+    "Remissao dos creditos tributarios de IPTU preteritos decorrentes das regularizacoes"
+  ],
+  "vigencia": {
+    "em_vigor": true,
+    "observacao": "ATENCAO: as buscas indicam que o NUCLEO desta lei e regularizacao de edificacoes/anistia, com remissao de IPTU. O beneficio especifico de ISENCAO de IPTU para imoveis atingidos por ENCHENTES foi facilitado/regulamentado pela Lei 17.759/2022. A atribuicao 'enchente = 17.202/2019 (+17.759/2022)' foi dada pela tarefa (correcao do projeto); CONFIRMAR na re-captura verbatim qual dispositivo da 17.202/2019 trata de enchente."
+  },
+  "remissoes": [
+    {
+      "norma": "Lei 17.759/2022",
+      "relacao": "facilita isencao de IPTU a imoveis atingidos por enchente (par desta cadeia)"
+    },
+    {
+      "norma": "Decreto 48.767/2007",
+      "relacao": "alterado quanto a beneficio de imoveis afetados por enchente"
+    }
+  ],
+  "jurisprudencia_relacionada": [],
+  "tem_tabela": false,
+  "tabelas_extraidas": [],
+  "tem_formula": false,
+  "formulas_referenciadas": [],
+  "fonte": {
+    "origem": "web-oficial",
+    "url": "https://legislacao.prefeitura.sp.gov.br/lei-17202-de-16-de-outubro-de-2019",
+    "hash": null,
+    "ocr": false,
+    "metodo": "WebSearch (nao-verbatim; WebFetch/curl bloqueados HTTP 403)",
+    "obs": "texto nao-verbatim; capturado via WebSearch por bloqueio de WebFetch/curl (HTTP 403)."
+  },
+  "status_pipeline": "bruto",
+  "confianca_extracao": "baixa",
+  "revisado_por_humano": false
+}

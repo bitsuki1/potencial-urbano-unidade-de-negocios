@@ -1,0 +1,27 @@
+{
+  "id": "stj-sumula-314",
+  "tipo": "sumula",
+  "tribunal": "STJ",
+  "numero": "314",
+  "tema_rg_ou_repetitivo": null,
+  "leading_case": null,
+  "enunciado_ou_tese": "Em execução fiscal, não localizados bens penhoráveis, suspende-se o processo por um ano, findo o qual se inicia o prazo da prescrição qüinqüenal intercorrente.",
+  "tema": [
+    "IPTU"
+  ],
+  "dispositivos_relacionados": [
+    "Lei 6.830/80 (LEF) art. 40",
+    "CTN art. 174"
+  ],
+  "situacao": "vigente (Primeira Seção, j. 12/12/2005, DJ 08/02/2006)",
+  "fonte": {
+    "origem": "web-oficial",
+    "url": "https://scon.stj.jus.br/SCON/sumstj/doc.jsp?livre=%22314%22.num.&b=SUMU",
+    "hash": null,
+    "captura_verbatim": "jurisprudencia/_capturas/stj-sumula-314.txt"
+  },
+  "status_pipeline": "processado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "verificacao_verbatim": "Enunciado confere com a captura verbatim."
+}

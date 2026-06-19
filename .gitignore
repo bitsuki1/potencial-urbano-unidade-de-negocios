@@ -1,0 +1,18 @@
+# === Segredos — NUNCA no git (chaves Supabase/serviços ficam em env) ===
+.env
+.env.*
+*.env
+*-service-key*
+*service_role*
+*secret*
+secrets*.json
+
+# === Brutos pesados vão para Supabase Storage, não para o git ===
+*.pdf
+
+# === Rascunhos/intermediários dos agentes de classificação (Fase 0/Passo 2) ===
+inventario/_*
+
+# === Python ===
+__pycache__/
+*.pyc

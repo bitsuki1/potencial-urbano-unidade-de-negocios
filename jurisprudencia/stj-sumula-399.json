@@ -1,0 +1,26 @@
+{
+  "id": "stj-sumula-399",
+  "tipo": "sumula",
+  "tribunal": "STJ",
+  "numero": "399",
+  "tema_rg_ou_repetitivo": null,
+  "leading_case": "REsp 1111202/SP (rito dos repetitivos, Tema 122)",
+  "enunciado_ou_tese": "Cabe à legislação municipal estabelecer o sujeito passivo do IPTU.",
+  "tema": [
+    "IPTU"
+  ],
+  "dispositivos_relacionados": [
+    "CTN art. 34"
+  ],
+  "situacao": "vigente (Primeira Seção, j. 23/09/2009, DJe 07/10/2009)",
+  "fonte": {
+    "origem": "web-oficial",
+    "url": "https://www.stj.jus.br/docs_internet/revista/eletronica/stj-revista-sumulas-2013_37_capSumula399.pdf",
+    "hash": null,
+    "captura_verbatim": "jurisprudencia/_capturas/stj-sumula-399.txt"
+  },
+  "status_pipeline": "processado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "verificacao_verbatim": "Enunciado confere com a captura verbatim."
+}
