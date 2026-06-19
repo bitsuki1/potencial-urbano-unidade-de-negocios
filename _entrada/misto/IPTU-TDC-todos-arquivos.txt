@@ -1,0 +1,153 @@
+=== IPTU-TDC — ARQUIVOS CAPTURADOS DO STF ===
+Gerado em: 2026-06-18
+============================================
+
+============================================================
+ARQUIVO: stf-sumula-539.txt
+============================================================
+FONTE: https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=3338
+CAPTURA: 2026-06-18 — VERBATIM DE TELA
+ID: stf-sumula-539
+
+Súmula 539
+
+É constitucional a lei do Município que reduz o imposto predial urbano sobre imóvel ocupado pela residência do proprietário, que não possua outro.
+
+
+============================================================
+ARQUIVO: stf-sumula-589.txt
+============================================================
+FONTE: https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=2300
+CAPTURA: 2026-06-18 — VERBATIM DE TELA
+ID: stf-sumula-589
+
+Súmula 589
+
+É inconstitucional a fixação de adicional progressivo do imposto predial e territorial urbano em função do número de imóveis do contribuinte.
+
+
+============================================================
+ARQUIVO: stf-sumula-668.txt
+============================================================
+FONTE: https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=1521
+CAPTURA: 2026-06-18 — VERBATIM DE TELA
+ID: stf-sumula-668
+
+Súmula 668
+
+É inconstitucional a lei municipal que tenha estabelecido, antes da Emenda Constitucional 29/2000, alíquotas progressivas para o IPTU, salvo se destinada a assegurar o cumprimento da função social da propriedade urbana.
+
+
+============================================================
+ARQUIVO: stf-sumula-670.txt
+============================================================
+FONTE: https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=26&sumula=2218
+CAPTURA: 2026-06-18 — VERBATIM DE TELA
+ID: stf-sumula-670
+
+Nota: A URL indicada (base=26&sumula=2218) corresponde à Súmula Vinculante 41, que resultou da conversão da Súmula 670. O enunciado original da Súmula 670 era: "O serviço de iluminação pública não pode ser remunerado mediante taxa." A Súmula Vinculante 41 consolidou esse enunciado.
+
+Súmula Vinculante 41 (conversão da Súmula 670)
+
+O serviço de iluminação pública não pode ser remunerado mediante taxa.
+
+
+============================================================
+ARQUIVO: stf-sumula-724.txt
+============================================================
+FONTE: https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=1644
+CAPTURA: 2026-06-18 — VERBATIM DE TELA
+ID: stf-sumula-724
+
+Súmula 724
+
+Ainda quando alugado a terceiros, permanece imune ao IPTU o imóvel pertencente a qualquer das entidades referidas pelo art. 150, VI, "c", da Constituição, desde que o valor dos aluguéis seja aplicado nas atividades essenciais de tais entidades.
+
+
+============================================================
+ARQUIVO: stf-sv-19.txt
+============================================================
+FONTE: https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=26&sumula=1248
+CAPTURA: 2026-06-18 — VERBATIM DE TELA
+ID: stf-sv-19
+
+Súmula Vinculante 19
+
+A taxa cobrada exclusivamente em razão dos serviços públicos de coleta, remoção e tratamento ou destinação de lixo ou resíduos provenientes de imóveis não viola o artigo 145, II, da Constituição Federal.
+
+
+============================================================
+ARQUIVO: stf-tema-1020.txt
+============================================================
+FONTE: https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=5563078&numeroProcesso=1167509&classeProcesso=RE&numeroTema=1020
+CAPTURA: 2026-06-18 — VERBATIM DE TELA
+ID: stf-tema-1020
+
+Tema 1020 - Controvérsia alusiva à constitucionalidade de lei municipal a determinar retenção do Imposto sobre Serviços de Qualquer Natureza – ISS – pelo tomador de serviço, em razão da ausência de cadastro, na Secretaria de Finanças de São Paulo, do prestador não estabelecido no território do referido Município.
+
+TESE:
+É incompatível com a Constituição Federal disposição normativa a prever a obrigatoriedade de cadastro, em órgão da Administração municipal, de prestador de serviços não estabelecido no território do Município e imposição ao tomador da retenção do Imposto Sobre Serviços – ISS quando descumprida a obrigação acessória.
+
+SITUAÇÃO: Trânsito em julgado (Transitado em julgado em 05/06/2021)
+
+
+============================================================
+ARQUIVO: stf-tema-1084.txt
+============================================================
+FONTE: https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=5813878&numeroProcesso=1245097&classeProcesso=ARE&numeroTema=1084
+CAPTURA: 2026-06-18 — VERBATIM DE TELA
+ID: stf-tema-1084
+
+Tema 1084 - Constitucionalidade da lei que delega à esfera administrativa, para efeito de cobrança do IPTU, a avaliação individualizada de imóvel não previsto na Planta Genérica de Valores (PGV) à época do lançamento do imposto.
+
+TESE:
+É constitucional a lei municipal que delega ao Poder Executivo a avaliação individualizada, para fins de cobrança do IPTU, de imóvel novo não previsto na Planta Genérica de Valores, desde que fixados em lei os critérios para a avaliação técnica e assegurado ao contribuinte o direito ao contraditório.
+
+SITUAÇÃO: Trânsito em julgado (Transitado em julgado em 26/10/2023)
+
+
+============================================================
+ARQUIVO: stf-tema-155.txt
+============================================================
+FONTE: https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=2613544&numeroProcesso=712743&classeProcesso=AI&numeroTema=155
+CAPTURA: 2026-06-18 — VERBATIM DE TELA
+ID: stf-tema-155
+
+Tema 155 - Progressividade do IPTU antes da Emenda Constitucional nº 29/2000.
+
+TESE:
+É inconstitucional a lei municipal que tenha estabelecido, antes da Emenda Constitucional 29/2000, alíquotas progressivas para o IPTU, salvo se destinada a assegurar o cumprimento da função social da propriedade urbana.
+
+SITUAÇÃO: Mérito julgado (Julgado em 12/03/2009 — Tribunal Pleno ratificou o entendimento firmado sobre o tema, questão de ordem apreciada no AI 712743)
+
+
+============================================================
+ARQUIVO: stf-tema-523.txt
+============================================================
+FONTE: https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=4178349&numeroProcesso=666156&classeProcesso=RE&numeroTema=523
+CAPTURA: 2026-06-18 — VERBATIM DE TELA
+ID: stf-tema-523
+
+Tema 523 - Seletividade de IPTU antes da Emenda Constitucional nº 29/2000
+
+TESE:
+São constitucionais as leis municipais anteriores à Emenda Constitucional n° 29/2000, que instituíram alíquotas diferenciadas de IPTU para imóveis edificados e não edificados, residenciais e não residenciais.
+
+SITUAÇÃO: Trânsito em julgado (Transitado em julgado em 30/04/2021)
+
+
+============================================================
+ARQUIVO: stf-tema-94.txt
+============================================================
+FONTE: https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=2617543&numeroProcesso=586693&classeProcesso=RE&numeroTema=94
+CAPTURA: 2026-06-18 — VERBATIM DE TELA
+ID: stf-tema-94
+
+Tema 94 - Exigência de reserva de plenário para as situações em que a Emenda Constitucional nº 29/2000 deixa de ser aplicada em face da incidência da versão primitiva da norma constitucional por ela modificada.
+
+TESE:
+É constitucional a Emenda Constitucional nº 29, de 2000, no que estabeleceu a possibilidade de previsão legal de alíquotas progressivas para o IPTU de acordo com o valor do imóvel.
+
+SITUAÇÃO: Trânsito em julgado (Transitado em julgado em 02/08/2011)
+
+
