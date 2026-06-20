@@ -50,6 +50,12 @@
 - **V-2 — Gemini (contexto grande) para enumerar/puxar os links do corpus inteiro do Drive.** Caminho cogitado e **adiado** — avaliar nesta unidade; não perder a ideia.
 - **V-3 — a duplicação do Drive tem CAUSA-RAIZ: upload de máquinas diferentes.** Os ~16–20 GB vieram de uploads repetidos de máquinas distintas. Só excluir (P1/D79) não impede repetir: precisa de **ponto único de upload + dedup no momento do upload**.
 
+## Pontos cegos DECLARADOS (auditoria da CONVERSA, 2026-06-20) — o que NÃO foi auditado
+> Honestidade D24: declarar o que ficou de fora vale mais que fingir cobertura.
+- **DIMENSÃO DADO/PRODUTO não auditada (a maior).** Todas as auditorias miraram o **corpus jurídico** (artefato Lei/RAG). **Tabela, Fórmula/engine e a base de imóveis ficaram quase intocadas.** O produto real (CODEX Fase 2/3) é cruzar **IPTU 2026 (~1M linhas) × proprietários × ITBI × SQL/endereço**. Os CSVs pesados (`socios`, `IPTU_2026`, `holdings`, série `ITBI`) — os mesmos cujas duplicatas o D79 vai apagar no Drive — **nunca foram auditados/ingeridos/validados**. 3 dos 4 artefatos seguem sem varredura.
+- **OCR / legibilidade dos PDFs (gap no P2).** A re-ingestão verbatim das 27 leis assume PDFs de TEXTO. Não verificamos se os PDFs do Drive são texto ou IMAGEM. Se imagem, precisa OCR (RO-13) ANTES de re-ingerir — senão a "re-ingestão" traz lixo de novo.
+- **V-2 (Gemini p/ corpus) — agora é TAREFA com gatilho:** ao ir re-ingerir as 27 leis, AVALIAR usar Gemini (contexto grande) para enumerar/puxar os links do corpus do Drive de uma vez. Dono: a instância que rodar o P2.
+
 ## Mapa de arquivos-chave (pontos de entrada)
 - `MANIFESTO.json` (estado) · `scripts/consolidar.py` · `.github/workflows/consolidar.yml`
 - `docs/AUDITORIA-TRIPLO-LIMPO-2026-06-20.md` (o que mudou e por quê)
