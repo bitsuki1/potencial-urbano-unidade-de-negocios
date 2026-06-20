@@ -43,16 +43,19 @@ PRECISAO = LOCKS["precision_decimal_utxo"][1]           # 3 casas (DECIMAL(10,3)
 FONTE_LEGAL = ("PDE Lei 16.050/2014; LPUOS Lei 16.402/2016; COE Lei 16.642/2017; "
                "Lei Federal 10.257/2001 (Estatuto da Cidade); Decretos 57.536/2016, 58.289/2018")
 
-# Tabelas Fs/Fp — PARCIAIS (só constam em F-A/V3.1; ver vacina L-3). Faixas como intervalos.
-FATOR_SOCIAL = {            # Fs por uso (FORMULAS-CONSOLIDADAS §1.4)
-    "HIS": Decimal("0.0"),
-    "HMP": Decimal("0.5"),  # faixa 0,4–0,6; usa-se 0,5 como padrão (declarar ao citar)
-    "R_acima_70m2": Decimal("1.0"),
+# Tabelas Fs/Fp — REFERÊNCIA (não usadas no cálculo; `outorga_onerosa` recebe fp/fs como ENTRADA
+# externa). Faixas como FAIXA, nunca valor único: o engine NÃO arbitra o valor dentro da faixa
+# (achado E-01 da auditoria 2026-06-20 — HMP=0,5 era valor INVENTADO, viola 1.3). Parciais (só
+# constam em F-A/V3.1; ver vacina L-3 de FORMULAS-CONSOLIDADAS). Completar ao ingerir os quadros (B-3).
+FATOR_SOCIAL_REF = {        # Fs por uso (FORMULAS-CONSOLIDADAS §1.4) — faixa textual, não Decimal
+    "HIS": "0.0",
+    "HMP": "0.4..0.6",      # FAIXA — exige o valor pontual do quadro; o engine não escolhe a mediana
+    "R_acima_70m2": "1.0",
 }
-FATOR_PLANEJAMENTO = {      # Fp por localização (FORMULAS-CONSOLIDADAS §1.4)
-    "arco_centro_eixos_R": Decimal("1.2"),
-    "arco_centro_eixos_nR": Decimal("1.3"),
-    "macroarea_qualificacao": Decimal("0.6"),
+FATOR_PLANEJAMENTO_REF = {  # Fp por localização (FORMULAS-CONSOLIDADAS §1.4)
+    "arco_centro_eixos_R": "1.2",
+    "arco_centro_eixos_nR": "1.3",
+    "macroarea_qualificacao": "0.6",
 }
 
 

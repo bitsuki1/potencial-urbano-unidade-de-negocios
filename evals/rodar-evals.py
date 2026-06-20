@@ -56,8 +56,13 @@ def main():
         print("Nenhum ground-truth em evals/ground-truth/.", file=sys.stderr)
         sys.exit(1)
 
+    # PISO DE COBERTURA (achado F-1/F-2 da auditoria 2026-06-20): o gate de evals NÃO pode
+    # passar verde sem casos ATIVOS de fato executados. Sem este piso, deletar o único ground-truth
+    # ativo OU rebaixá-lo a 'aguardando_verbatim' deixava o gate verde com o RAG destruído.
+    MIN_ITENS_ATIVOS = 4
+
     total = ok = falhou = 0
-    falhas_ativas = 0
+    falhas_ativas = itens_ativos = 0
     for arq in arquivos:
         gt = json.loads(arq.read_text(encoding="utf-8"))
         aguardando = gt.get("status") == "aguardando_verbatim"
@@ -65,6 +70,8 @@ def main():
         print(f"\n=== {arq.name} (domínio {gt.get('dominio','?')}){marca} ===")
         for item in gt.get("itens", []):
             total += 1
+            if not aguardando:
+                itens_ativos += 1
             passou, detalhe = checar_item(item)
             status = "PASS" if passou else "FALHA"
             if passou:
@@ -76,7 +83,12 @@ def main():
             print(f"  [{status}] {item['id']}: {detalhe}")
 
     print(f"\nRESUMO: {ok}/{total} PASS, {falhou} falhas "
-          f"({falhas_ativas} em ground-truth ATIVO).")
+          f"({falhas_ativas} em ground-truth ATIVO; {itens_ativos} itens ativos executados).")
+    if itens_ativos < MIN_ITENS_ATIVOS:
+        print(f"GATE VERMELHO: só {itens_ativos} itens ATIVOS (< {MIN_ITENS_ATIVOS}). "
+              f"Suíte sem cobertura ativa = evals provam NADA (F-1/F-2). Restaure os ground-truth ATIVOS.",
+              file=sys.stderr)
+        sys.exit(1)
     sys.exit(1 if falhas_ativas else 0)
 
 

@@ -1,5 +1,12 @@
 # PRÓXIMA INSTÂNCIA — o que fazer (Potencial Urbano)
 
+> **★ HANDOFF 2026-06-20 (fim da instância de auditoria):** 2 auditorias profundas rodadas. A 1ª
+> destravou 12 federais verbatim + engine + ladrão. A **2ª** (`docs/AUDITORIA-PROFUNDA-2-2026-06-20.md`,
+> 4 lentes: verbatim·engine·gates·propagação) auditou a superfície nova. Verdict: texto verbatim FIEL,
+> matemática do engine CORRETA, mas 3 defeitos sérios — **2 corrigidos na hora** (gate dava FALSO-VERDE →
+> piso de evals; engine inventava HMP=0,5 → removido) e o resto em **B-11..B-14** do `BACKLOG.md` com DoD.
+> **Comece pelo `BACKLOG.md` (B-11 chunker/citação 1.7 e B-13 endurecer o gate são os mais urgentes).**
+>
 > **★ BACKLOG + "ladrão" anti-perda (D83, 2026-06-20):** o que falta executar vive em `BACKLOG.md`
 > (cada item com DoD = prova mecânica), **surfaçado no boot** (`.claude/hooks/surface-backlog.sh`).
 > **Ao fechar, rode `python3 scripts/fechar-instancia.py`** — o GATE mecânico ("declarei feito" ≠
