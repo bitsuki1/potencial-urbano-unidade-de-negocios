@@ -27,9 +27,8 @@
 ### P3 — Decidir/segregar os 2 itens fora de escopo (decisão MOU)
 - `stf-tema-1020` (é ISS, não IPTU) → realocar para corpus ISS ou remover. `stj-resp-1658054` (previdenciário; nº do REsp NÃO verificado) → confirmar o número ou arquivar como ponto cego. Ambos já sinalizados no MANIFESTO; falta a decisão.
 
-### P4 — Base inicial: IPTU ou TDC (D-PU-3) — ⚠️ DIVERGÊNCIA a confirmar
-- Define a ordem do pipeline e onde concentrar ground-truth.
-- **⚠️ 2026-06-20:** o Escritório registra na sua agenda (M-24) **"base = TDC (decidido pelo MOU em 19/06)"**, mas este repo (e o rodapé do `CLAUDE.md`) ainda dizem "pendente". O Escritório escalou a divergência ao MOU (M-49). **CONFIRMAR:** se TDC está cravado, a base inicial é TDC; senão, segue pendente. Não cravar sem o OK.
+### P4 — Base inicial = TDC ✅ (decidido pelo MOU)
+- **RESOLVIDO 2026-06-20:** o MOU confirmou **a base inicial é TDC**. O pipeline começa por TDC; o ground-truth e a validação concentram em TDC primeiro; IPTU vem depois (o pipeline replica). Encerra a divergência M-24/M-49. (D-PU-3 = TDC.)
 
 ### P5 — Avançar a esteira (trabalho dos Gens — AFINAR, só após P1–P2)
 - Fatiamento estrutural (`bruto/tagueado → fatiado → indexado`): chunking por dispositivo (CLAUDE.md 2.5), popular `rag/chunks` + `rag/index`.

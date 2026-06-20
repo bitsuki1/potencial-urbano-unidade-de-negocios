@@ -80,7 +80,7 @@ Regra de ouro: **Gen Matemática é a única fonte de número**; **Gen Advogado 
 
 ---
 > **Fonte completa (Partes 5 e 6 — prompt extrator universal + ordem de instanciação):** `PROJETO-RAG-JURIDICO-IPTU-TDC.md` (raiz) e `extracao/PROMPT-EXTRATOR-UNIVERSAL.md`.
-> **Decisão pendente do MOU:** por qual base começar — **IPTU** ou **TDC** (a de maior volume/urgência).
+> **Decisão do MOU (2026-06-20):** base inicial = **TDC** (o pipeline começa por TDC; IPTU vem depois). _(antes: pendente IPTU×TDC.)_
 
 ---
 
