@@ -1,5 +1,11 @@
 # PRÓXIMA INSTÂNCIA — o que fazer (Potencial Urbano)
 
+> **★ BACKLOG + "ladrão" anti-perda (D83, 2026-06-20):** o que falta executar vive em `BACKLOG.md`
+> (cada item com DoD = prova mecânica), **surfaçado no boot** (`.claude/hooks/surface-backlog.sh`).
+> **Ao fechar, rode `python3 scripts/fechar-instancia.py`** — o GATE mecânico ("declarei feito" ≠
+> "provei feito"). Todo trabalho adiado entra no BACKLOG no mesmo instante, ou ele CAI na troca de instância.
+
+
 > Handoff sem perdas — Escritório do MOU (PMO), 2026-06-20. Estado pós-auditoria triplo-limpo.
 > Retome por aqui + `HANDOFF-E-PENDENCIAS.md` + `docs/AUDITORIA-TRIPLO-LIMPO-2026-06-20.md`.
 > SSOT do estado de cada item = `MANIFESTO.json` (agora VIVO, gerado por `scripts/consolidar.py`).
