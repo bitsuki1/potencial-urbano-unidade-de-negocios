@@ -32,7 +32,7 @@
 | D2 | **Re-ingerir 14 municipais-SP verbatim** dos PDFs do Drive (hoje resumos `confianca:baixa`) | é AFINAR (trabalho de Gen Técnico-RAG), não arrumação; egress p/ `.gov.br` bloqueado neste ambiente | `MANIFESTO.json alertas` + Lote 2 de `docs/PROMPTS-EXTRACAO-EXTENSAO.md` |
 | D3 | **Realocar/validar os 2 fora-de-escopo** (tema-1020→ISS; verificar nº REsp 1658054) | decisão do MOU (D24 ponto cego declarado) | sinalizado no MANIFESTO |
 | D4 | Fatiamento→indexação (rag/) + criar schemas dos artefatos no Supabase | AFINAR; só após organização aprovada (RO-23) | pipeline Partes 2–3 |
-| D5 | RLS desabilitado em `public.spatial_ref_sys` (tabela de sistema PostGIS) | decisão de segurança do operador; habilitar sem policy quebra PostGIS | advisory reportado ao MOU |
+| D5 | RLS off em `public.spatial_ref_sys` (sistema PostGIS) | **CORREÇÃO 2026-06-20:** `ENABLE RLS` é BLOQUEADO (tabela do `supabase_admin`; somos role `postgres`). Fix real = remover `public` dos Exposed schemas (Dashboard); dado real vive em `governanca`. Ação física do MOU (escritório M-41) | advisory reportado; remediação corrigida |
 
 ## Verificação determinística (passes limpos)
 - `python3 -m json.tool` em todos os 59 JSONs + `MANIFESTO.json` → **0 malformado**.

@@ -27,19 +27,26 @@
 ### P3 — Decidir/segregar os 2 itens fora de escopo (decisão MOU)
 - `stf-tema-1020` (é ISS, não IPTU) → realocar para corpus ISS ou remover. `stj-resp-1658054` (previdenciário; nº do REsp NÃO verificado) → confirmar o número ou arquivar como ponto cego. Ambos já sinalizados no MANIFESTO; falta a decisão.
 
-### P4 — Decisão do MOU: por qual base começar — IPTU ou TDC (D-PU-3)
-- Define a ordem do pipeline e onde concentrar ground-truth. Recomendação do escritório: a de maior volume/urgência (o MOU define).
+### P4 — Base inicial: IPTU ou TDC (D-PU-3) — ⚠️ DIVERGÊNCIA a confirmar
+- Define a ordem do pipeline e onde concentrar ground-truth.
+- **⚠️ 2026-06-20:** o Escritório registra na sua agenda (M-24) **"base = TDC (decidido pelo MOU em 19/06)"**, mas este repo (e o rodapé do `CLAUDE.md`) ainda dizem "pendente". O Escritório escalou a divergência ao MOU (M-49). **CONFIRMAR:** se TDC está cravado, a base inicial é TDC; senão, segue pendente. Não cravar sem o OK.
 
 ### P5 — Avançar a esteira (trabalho dos Gens — AFINAR, só após P1–P2)
 - Fatiamento estrutural (`bruto/tagueado → fatiado → indexado`): chunking por dispositivo (CLAUDE.md 2.5), popular `rag/chunks` + `rag/index`.
 - Criar os schemas dos 4 artefatos + geo + rag no Supabase (só após organização aprovada, RO-23) e estender `consolidar.yml` p/ índice RAG + mestres de tese.
 - Engines determinísticos (IPTU progressivo, valuation TDC) — número nasce no engine (1.3).
 
-### P6 — Segurança Supabase (decisão MOU)
-- Advisory: RLS off em `public.spatial_ref_sys` (tabela de sistema PostGIS, sem dado). Habilitar sem policy quebra PostGIS. Decisão do operador; se habilitar, criar policy de leitura.
+### P6 — Segurança Supabase (ação física do MOU — não dá pra fazer por SQL)
+- Advisory: `public.spatial_ref_sys` com RLS off (tabela de sistema do PostGIS, dado público).
+- **CORREÇÃO 2026-06-20 (auditoria):** `ALTER TABLE ... ENABLE RLS` é **BLOQUEADO** — a tabela pertence ao `supabase_admin` e nós (e o SQL Editor do Studio) somos role `postgres` não-superuser. **NÃO é "habilitar RLS com policy".** O **fix real e limpo** (sem superuser): **Dashboard → Project Settings → API → Exposed schemas → remover `public`** (manter `graphql_public`; incluir `governanca` se o app consumir via REST). Todo o dado real do PU vive em `governanca` (RLS deny-all, 0 linhas), então tirar `public` da API fecha a porta sem perder nada. Cross-ref escritório **M-41** (passo a passo). As extensões PostGIS no `public` + `st_estimatedextent` (WARN) ficam intactas de propósito (mexer arrisca o geoprocessamento).
 
-### P7 — Escritório: ratificar o D73 (cross-repo, não-clicável aqui)
-- No repo `escritorio-do-mou`, branch da sessão: depósito `caixa-de-entrada/20260620_maestro_D73-e-auditoria-triplo-limpo.md` traz os trechos prontos para oficializar o D73 em `ESTADO_IMPLANTACAO.md`, `AGENDA_MOU.md` e portar os hooks ao template de entrada. Aplicar quando a instância-maestro com a "caneta" assumir.
+### P7 — Escritório: ratificar o D73 → ✅ FEITO (oficializado como D78)
+- O escritório oficializou em produção: o D73 virou **D78** (renumerado por colisão), os hooks foram portados ao template de entrada, e o portfólio do PU foi reconciliado (corpus 59, Supabase próprio, D79 Drive=EXCLUIR, D80 entrada formal proposta). Nada pendente aqui do lado do escritório.
+
+## Vacinas operacionais (recuperadas do chat — auditoria 2026-06-20)
+- **V-1 — captura em LOTE que para no 1º item.** A extensão de captura do Drive/jurisprudência parava no primeiro item → capturas incompletas. Ao capturar em lote, CONFERIR que veio tudo, não só o 1º (casa com D24).
+- **V-2 — Gemini (contexto grande) para enumerar/puxar os links do corpus inteiro do Drive.** Caminho cogitado e **adiado** — avaliar nesta unidade; não perder a ideia.
+- **V-3 — a duplicação do Drive tem CAUSA-RAIZ: upload de máquinas diferentes.** Os ~16–20 GB vieram de uploads repetidos de máquinas distintas. Só excluir (P1/D79) não impede repetir: precisa de **ponto único de upload + dedup no momento do upload**.
 
 ## Mapa de arquivos-chave (pontos de entrada)
 - `MANIFESTO.json` (estado) · `scripts/consolidar.py` · `.github/workflows/consolidar.yml`
