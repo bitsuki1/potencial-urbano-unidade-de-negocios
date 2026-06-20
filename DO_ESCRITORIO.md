@@ -54,8 +54,8 @@ Doutrina: zero-compressão · dialético · agnosticismo · nada se joga fora. (
 
 | # | Diretriz | Porquê | Estado |
 |---|---|---|---|
-| **D-PU-1** | **Supabase Storage para brutos pesados** (PDFs volumosos fora do git) + git para texto limpo + metadados + resultados | padrão de dados do portfólio (já decidido pelo MOU, 2026-06-17); desafoga o git e evita corrupção de PDF | em vigor; nenhum documento subido ainda |
-| **D-PU-2** | **Documentos vêm MISTURADOS (IPTU + TDC juntos)** → receber tudo em `_entrada/misto/`; a triagem/tagueamento determinístico (Etapa 2 do pipeline) é a tarefa central | decisão MOU 2026-06-17; não se separa na mão antes da triagem | em vigor; aguarda 1º lote |
+| **D-PU-1** | **Supabase Storage para brutos pesados** (PDFs volumosos fora do git) + git para texto limpo + metadados + resultados | padrão de dados do portfólio (já decidido pelo MOU, 2026-06-17); desafoga o git e evita corrupção de PDF | em vigor; corpus textual no git; **nenhum bruto pesado subido ao Storage ainda** |
+| **D-PU-2** | **Documentos vêm MISTURADOS (IPTU + TDC juntos)** → receber tudo em `_entrada/misto/`; a triagem/tagueamento determinístico (Etapa 2 do pipeline) é a tarefa central | decisão MOU 2026-06-17; não se separa na mão antes da triagem | em vigor; **1º lote recebido** (24 crus em `_entrada/misto/`, processados) |
 | **D-PU-3** | **✅ RESOLVIDA (MOU 2026-06-20): base inicial = TDC.** O pipeline começa por TDC; ground-truth/validação concentram em TDC primeiro; IPTU vem depois (replica) | urgência/volume define foco; pipeline replica para a segunda base depois | **DECIDIDO — TDC.** Encerra a divergência M-24/M-49 |
 | **D-PU-4** | **GitHub Action `consolidar.yml` — LIGADA (2026-06-20)** — `scripts/consolidar.py` regenera o `MANIFESTO.json` a cada push; índice RAG + mestres de tese a estender quando houver chunks/teses | automação do pipeline (Princípio 1.5/2.3) | **FEITO (base)** — manifesto agora vivo (59 itens); estender p/ índice RAG quando o fatiamento existir |
 | **D-PU-5** | **1º lote CHEGOU (2026-06-19)** — corpus de 59 itens (27 leis + 32 juris) já no repo; `_entrada/misto/` recebeu 24 crus | o funil já tem insumo para rodar | **SUPERADO** — bloqueio agora é INTERNO (fatiamento→indexação + re-ingestão verbatim das 14 municipais), não mais entrada |
@@ -65,7 +65,7 @@ Doutrina: zero-compressão · dialético · agnosticismo · nada se joga fora. (
 ## Pendências que dependem do MOU (cobrança)
 
 - **[DECISÃO ✅ RESOLVIDA 2026-06-20] IPTU × TDC: base inicial = TDC** (decidido pelo MOU). O pipeline começa por TDC; IPTU replica depois.
-- **[AÇÃO] Subir o 1º lote de documentos** em `_entrada/` (bruto pesado via Supabase Storage; texto/imagem direto no git). Sem o lote, o projeto está ARMADO mas não DESTRAVADO.
+- **[AÇÃO ✅ FEITA 2026-06-19] 1º lote recebido** (24 crus → corpus de 59 itens). Bloqueio agora é INTERNO (fatiamento/indexação + re-ingestão verbatim das 14 municipais), não mais entrada.
 - **[TÉCNICO — FEITO 2026-06-20]** `consolidar.yml` criada (regenera `MANIFESTO.json` via `scripts/consolidar.py` a cada push). Estender para índice RAG + mestres de tese quando houver fatiamento/teses.
 
 ---
