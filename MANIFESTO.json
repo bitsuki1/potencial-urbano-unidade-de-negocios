@@ -1,6 +1,6 @@
 {
   "_doc": "Fonte da verdade do status_pipeline de cada item. GERADO por scripts/consolidar.py a partir dos .json individuais — NAO editar a mao (Principio 1.5/2.3 do CLAUDE.md). Roda a cada push via .github/workflows/consolidar.yml.",
-  "gerado_em": "2026-06-20T00:04:43.772350+00:00",
+  "gerado_em": "2026-06-20T00:06:56.722377+00:00",
   "vocabulario_status": [
     "bruto",
     "fatiado",
