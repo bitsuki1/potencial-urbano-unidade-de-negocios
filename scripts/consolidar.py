@@ -25,7 +25,7 @@ VOCAB = ["bruto", "fatiado", "tagueado", "validado", "indexado"]
 # mas não contam como corpus ativo). Ponto cego declarado, aguardando decisão do MOU.
 FORA_DE_ESCOPO = {
     "stf-tema-1020": "Tema de ISS, não IPTU (verbatim confirma) — realocar p/ corpus ISS",
-    "stj-resp-1658054": "Matéria previdenciária; nº do REsp não verificado — confirmar ou arquivar",
+    "stj-resp-1658054": "Previdenciário confirmado pela captura (REsp 1.658.054/RS, DJe 29/06/2017, contribuições s/ verbas trabalhistas) — fora do escopo IPTU/TDC; arquivar",
 }
 
 

@@ -1,6 +1,6 @@
 {
   "_doc": "Fonte da verdade do status_pipeline de cada item. GERADO por scripts/consolidar.py a partir dos .json individuais — NAO editar a mao (Principio 1.5/2.3 do CLAUDE.md). Roda a cada push via .github/workflows/consolidar.yml.",
-  "gerado_em": "2026-06-20T19:35:07.011417+00:00",
+  "gerado_em": "2026-06-20T19:56:49.105797+00:00",
   "vocabulario_status": [
     "bruto",
     "fatiado",
@@ -264,7 +264,7 @@
       "confianca_extracao": "alta",
       "revisado_por_humano": false,
       "fora_de_escopo": true,
-      "fora_de_escopo_motivo": "Matéria previdenciária; nº do REsp não verificado — confirmar ou arquivar",
+      "fora_de_escopo_motivo": "Previdenciário confirmado pela captura (REsp 1.658.054/RS, DJe 29/06/2017, contribuições s/ verbas trabalhistas) — fora do escopo IPTU/TDC; arquivar",
       "fonte_url": "https://scon.stj.jus.br/SCON/"
     },
     {

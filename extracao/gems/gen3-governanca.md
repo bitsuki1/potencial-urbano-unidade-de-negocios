@@ -1,5 +1,7 @@
-> **VACINA (2026-06-20, auditoria triplo-limpo — RO-19):** este arquivo é
-> **byte-idêntico** a `extracao/gems/gen3-iptu.md` (mesmo md5). Duplicata interna.
+> **VACINA (2026-06-20, auditoria triplo-limpo — RO-19; nota corrigida na auditoria profunda 2026-06-20):**
+> o CORPO ORIGINAL (linhas abaixo desta nota) é/era **byte-idêntico** a `extracao/gems/gen3-iptu.md`.
+> ATENÇÃO: esta própria nota só foi anexada AQUI, então o md5 do arquivo INTEIRO já difere de gen3-iptu.md
+> (achado ID-05 — não reafirmar "mesmo md5" do arquivo total). Duplicata interna do conteúdo.
 > Canônico = `gen3-iptu.md`. O projeto deve DIFERENCIAR (se o papel de "governança"
 > for distinto do de "IPTU") ou CONSOLIDAR num só. Preservado (nada se descarta), mas
 > não tratar como duas fontes.

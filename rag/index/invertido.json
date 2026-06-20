@@ -1,15 +1,15 @@
 {
   "N": 12,
-  "avgdl": 120.66666666666667,
+  "avgdl": 120.58333333333333,
   "df": {
     "lei": 12,
-    "228": 1,
+    "7228": 1,
     "12": 5,
     "dezembro": 12,
     "1968": 3,
     "altera": 12,
     "dispositivos": 12,
-    "989": 12,
+    "6989": 12,
     "29": 12,
     "1966": 12,
     "outras": 12,
@@ -38,7 +38,6 @@
     "tributario": 12,
     "art": 11,
     "1o": 3,
-    "6989": 1,
     "alterada": 1,
     "forma": 2,
     "seguir": 1,
@@ -340,7 +339,7 @@
     "53": 1,
     "substituida": 1,
     "pelo": 2,
-    "047": 2,
+    "7047": 2,
     "acrescida": 1,
     "seguintes": 1,
     "barbeiros": 1,
@@ -533,7 +532,7 @@
     "atualizado": 1,
     "195": 1,
     "deu": 1,
-    "999": 1,
+    "6999": 1,
     "janeiro": 2,
     "desprezadas": 1,
     "quantias": 1,
@@ -559,12 +558,11 @@
     "linear": 1,
     "tao": 1,
     "somente": 1,
-    "005": 1,
+    "0005": 1,
     "meio": 1,
     "centavo": 1,
     "arredondadas": 1,
     "aquela": 1,
-    "10o": 1,
     "revogadas": 1,
     "contrario": 1,
     "entrara": 1,
@@ -583,9 +581,7 @@
     "publicado": 1,
     "diario": 1,
     "oficial": 1,
-    "cidade": 1,
-    "invoke": 1,
-    "11o": 1
+    "cidade": 1
   },
   "doclen": {
     "lei-municipal-saopaulo-7228-1968::001-preambulo": 47,
@@ -598,8 +594,8 @@
     "lei-municipal-saopaulo-7228-1968::008-art-7o": 112,
     "lei-municipal-saopaulo-7228-1968::009-art-8o": 29,
     "lei-municipal-saopaulo-7228-1968::010-art-9o": 46,
-    "lei-municipal-saopaulo-7228-1968::011-art-10o": 93,
-    "lei-municipal-saopaulo-7228-1968::012-art-11o": 68
+    "lei-municipal-saopaulo-7228-1968::011-art-10": 93,
+    "lei-municipal-saopaulo-7228-1968::012-art-11": 67
   },
   "postings": {
     "lei": {
@@ -613,10 +609,10 @@
       "lei-municipal-saopaulo-7228-1968::008-art-7o": 3,
       "lei-municipal-saopaulo-7228-1968::009-art-8o": 1,
       "lei-municipal-saopaulo-7228-1968::010-art-9o": 1,
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 3,
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 2
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 3,
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 2
     },
-    "228": {
+    "7228": {
       "lei-municipal-saopaulo-7228-1968::001-preambulo": 1
     },
     "12": {
@@ -624,7 +620,7 @@
       "lei-municipal-saopaulo-7228-1968::002-art-1o": 2,
       "lei-municipal-saopaulo-7228-1968::003-art-2o": 1,
       "lei-municipal-saopaulo-7228-1968::004-art-3o": 2,
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 2
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 2
     },
     "dezembro": {
       "lei-municipal-saopaulo-7228-1968::001-preambulo": 3,
@@ -637,13 +633,13 @@
       "lei-municipal-saopaulo-7228-1968::008-art-7o": 2,
       "lei-municipal-saopaulo-7228-1968::009-art-8o": 1,
       "lei-municipal-saopaulo-7228-1968::010-art-9o": 1,
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 2,
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 3
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 2,
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 3
     },
     "1968": {
       "lei-municipal-saopaulo-7228-1968::001-preambulo": 1,
       "lei-municipal-saopaulo-7228-1968::006-art-5o": 1,
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 2
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 2
     },
     "altera": {
       "lei-municipal-saopaulo-7228-1968::001-preambulo": 2,
@@ -656,8 +652,8 @@
       "lei-municipal-saopaulo-7228-1968::008-art-7o": 1,
       "lei-municipal-saopaulo-7228-1968::009-art-8o": 1,
       "lei-municipal-saopaulo-7228-1968::010-art-9o": 1,
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 1,
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 1,
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 1
     },
     "dispositivos": {
       "lei-municipal-saopaulo-7228-1968::001-preambulo": 2,
@@ -670,12 +666,12 @@
       "lei-municipal-saopaulo-7228-1968::008-art-7o": 1,
       "lei-municipal-saopaulo-7228-1968::009-art-8o": 1,
       "lei-municipal-saopaulo-7228-1968::010-art-9o": 1,
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 1,
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 1,
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 1
     },
-    "989": {
+    "6989": {
       "lei-municipal-saopaulo-7228-1968::001-preambulo": 2,
-      "lei-municipal-saopaulo-7228-1968::002-art-1o": 1,
+      "lei-municipal-saopaulo-7228-1968::002-art-1o": 2,
       "lei-municipal-saopaulo-7228-1968::003-art-2o": 2,
       "lei-municipal-saopaulo-7228-1968::004-art-3o": 2,
       "lei-municipal-saopaulo-7228-1968::005-art-4o": 1,
@@ -684,8 +680,8 @@
       "lei-municipal-saopaulo-7228-1968::008-art-7o": 1,
       "lei-municipal-saopaulo-7228-1968::009-art-8o": 1,
       "lei-municipal-saopaulo-7228-1968::010-art-9o": 1,
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 2,
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 2,
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 1
     },
     "29": {
       "lei-municipal-saopaulo-7228-1968::001-preambulo": 2,
@@ -698,8 +694,8 @@
       "lei-municipal-saopaulo-7228-1968::008-art-7o": 1,
       "lei-municipal-saopaulo-7228-1968::009-art-8o": 1,
       "lei-municipal-saopaulo-7228-1968::010-art-9o": 1,
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 2,
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 2,
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 1
     },
     "1966": {
       "lei-municipal-saopaulo-7228-1968::001-preambulo": 2,
@@ -712,8 +708,8 @@
       "lei-municipal-saopaulo-7228-1968::008-art-7o": 3,
       "lei-municipal-saopaulo-7228-1968::009-art-8o": 1,
       "lei-municipal-saopaulo-7228-1968::010-art-9o": 2,
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 2,
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 2,
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 1
     },
     "outras": {
       "lei-municipal-saopaulo-7228-1968::001-preambulo": 2,
@@ -726,8 +722,8 @@
       "lei-municipal-saopaulo-7228-1968::008-art-7o": 1,
       "lei-municipal-saopaulo-7228-1968::009-art-8o": 1,
       "lei-municipal-saopaulo-7228-1968::010-art-9o": 1,
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 1,
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 1,
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 1
     },
     "providencias": {
       "lei-municipal-saopaulo-7228-1968::001-preambulo": 2,
@@ -740,37 +736,37 @@
       "lei-municipal-saopaulo-7228-1968::008-art-7o": 1,
       "lei-municipal-saopaulo-7228-1968::009-art-8o": 1,
       "lei-municipal-saopaulo-7228-1968::010-art-9o": 1,
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 1,
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 1,
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 1
     },
     "jose": {
       "lei-municipal-saopaulo-7228-1968::001-preambulo": 1,
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 1
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 1
     },
     "vicente": {
       "lei-municipal-saopaulo-7228-1968::001-preambulo": 1,
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 1
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 1
     },
     "faria": {
       "lei-municipal-saopaulo-7228-1968::001-preambulo": 1,
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 1
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 1
     },
     "lima": {
       "lei-municipal-saopaulo-7228-1968::001-preambulo": 1,
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 1
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 1
     },
     "prefeito": {
       "lei-municipal-saopaulo-7228-1968::001-preambulo": 1,
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 1
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 1
     },
     "municipio": {
       "lei-municipal-saopaulo-7228-1968::001-preambulo": 1,
       "lei-municipal-saopaulo-7228-1968::002-art-1o": 7,
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 2
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 2
     },
     "paulo": {
       "lei-municipal-saopaulo-7228-1968::001-preambulo": 1,
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 4
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 4
     },
     "acordo": {
       "lei-municipal-saopaulo-7228-1968::001-preambulo": 1
@@ -781,7 +777,7 @@
       "lei-municipal-saopaulo-7228-1968::005-art-4o": 1,
       "lei-municipal-saopaulo-7228-1968::009-art-8o": 1,
       "lei-municipal-saopaulo-7228-1968::010-art-9o": 1,
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 1
     },
     "artigo": {
       "lei-municipal-saopaulo-7228-1968::001-preambulo": 1,
@@ -790,14 +786,14 @@
       "lei-municipal-saopaulo-7228-1968::005-art-4o": 2,
       "lei-municipal-saopaulo-7228-1968::009-art-8o": 1,
       "lei-municipal-saopaulo-7228-1968::010-art-9o": 1,
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 3,
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 3,
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 1
     },
     "20": {
       "lei-municipal-saopaulo-7228-1968::001-preambulo": 1,
       "lei-municipal-saopaulo-7228-1968::002-art-1o": 2,
       "lei-municipal-saopaulo-7228-1968::004-art-3o": 1,
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 1
     },
     "estadual": {
       "lei-municipal-saopaulo-7228-1968::001-preambulo": 1,
@@ -819,7 +815,7 @@
       "lei-municipal-saopaulo-7228-1968::003-art-2o": 1,
       "lei-municipal-saopaulo-7228-1968::005-art-4o": 1,
       "lei-municipal-saopaulo-7228-1968::007-art-6o": 1,
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 1
     },
     "promulga": {
       "lei-municipal-saopaulo-7228-1968::001-preambulo": 1
@@ -843,8 +839,8 @@
       "lei-municipal-saopaulo-7228-1968::008-art-7o": 1,
       "lei-municipal-saopaulo-7228-1968::009-art-8o": 1,
       "lei-municipal-saopaulo-7228-1968::010-art-9o": 1,
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 1,
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 1,
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 1
     },
     "codigo": {
       "lei-municipal-saopaulo-7228-1968::001-preambulo": 1,
@@ -857,8 +853,8 @@
       "lei-municipal-saopaulo-7228-1968::008-art-7o": 1,
       "lei-municipal-saopaulo-7228-1968::009-art-8o": 1,
       "lei-municipal-saopaulo-7228-1968::010-art-9o": 1,
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 1,
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 1,
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 1
     },
     "tributario": {
       "lei-municipal-saopaulo-7228-1968::001-preambulo": 1,
@@ -871,8 +867,8 @@
       "lei-municipal-saopaulo-7228-1968::008-art-7o": 1,
       "lei-municipal-saopaulo-7228-1968::009-art-8o": 1,
       "lei-municipal-saopaulo-7228-1968::010-art-9o": 1,
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 1,
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 1,
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 1
     },
     "art": {
       "lei-municipal-saopaulo-7228-1968::002-art-1o": 7,
@@ -884,23 +880,20 @@
       "lei-municipal-saopaulo-7228-1968::008-art-7o": 2,
       "lei-municipal-saopaulo-7228-1968::009-art-8o": 2,
       "lei-municipal-saopaulo-7228-1968::010-art-9o": 2,
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 2,
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 2
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 2,
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 2
     },
     "1o": {
       "lei-municipal-saopaulo-7228-1968::002-art-1o": 6,
       "lei-municipal-saopaulo-7228-1968::003-art-2o": 1,
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 1
-    },
-    "6989": {
-      "lei-municipal-saopaulo-7228-1968::002-art-1o": 1
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 1
     },
     "alterada": {
       "lei-municipal-saopaulo-7228-1968::002-art-1o": 1
     },
     "forma": {
       "lei-municipal-saopaulo-7228-1968::002-art-1o": 4,
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 1
     },
     "seguir": {
       "lei-municipal-saopaulo-7228-1968::002-art-1o": 1
@@ -970,7 +963,7 @@
       "lei-municipal-saopaulo-7228-1968::005-art-4o": 1,
       "lei-municipal-saopaulo-7228-1968::008-art-7o": 1,
       "lei-municipal-saopaulo-7228-1968::010-art-9o": 1,
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 2
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 2
     },
     "2o": {
       "lei-municipal-saopaulo-7228-1968::002-art-1o": 4,
@@ -987,12 +980,12 @@
     "redacao": {
       "lei-municipal-saopaulo-7228-1968::002-art-1o": 8,
       "lei-municipal-saopaulo-7228-1968::005-art-4o": 1,
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 1
     },
     "valor": {
       "lei-municipal-saopaulo-7228-1968::002-art-1o": 9,
       "lei-municipal-saopaulo-7228-1968::006-art-5o": 2,
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 2
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 2
     },
     "venal": {
       "lei-municipal-saopaulo-7228-1968::002-art-1o": 1,
@@ -1003,14 +996,14 @@
     },
     "deste": {
       "lei-municipal-saopaulo-7228-1968::002-art-1o": 2,
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 1
     },
     "nao": {
       "lei-municipal-saopaulo-7228-1968::002-art-1o": 9,
       "lei-municipal-saopaulo-7228-1968::006-art-5o": 1,
       "lei-municipal-saopaulo-7228-1968::009-art-8o": 1,
       "lei-municipal-saopaulo-7228-1968::010-art-9o": 1,
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 1
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 1
     },
     "podera": {
       "lei-municipal-saopaulo-7228-1968::002-art-1o": 2,
@@ -1065,7 +1058,7 @@
     },
     "11": {
       "lei-municipal-saopaulo-7228-1968::002-art-1o": 1,
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 1
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 2
     },
     "atual": {
       "lei-municipal-saopaulo-7228-1968::002-art-1o": 2
@@ -1078,7 +1071,7 @@
       "lei-municipal-saopaulo-7228-1968::005-art-4o": 1,
       "lei-municipal-saopaulo-7228-1968::008-art-7o": 1,
       "lei-municipal-saopaulo-7228-1968::010-art-9o": 1,
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 2
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 2
     },
     "inobservancia": {
       "lei-municipal-saopaulo-7228-1968::002-art-1o": 1
@@ -1116,7 +1109,7 @@
     },
     "este": {
       "lei-municipal-saopaulo-7228-1968::002-art-1o": 2,
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 1
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 1
     },
     "vigorara": {
       "lei-municipal-saopaulo-7228-1968::002-art-1o": 1
@@ -1196,7 +1189,7 @@
     "serao": {
       "lei-municipal-saopaulo-7228-1968::002-art-1o": 1,
       "lei-municipal-saopaulo-7228-1968::010-art-9o": 1,
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 2
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 2
     },
     "punidas": {
       "lei-municipal-saopaulo-7228-1968::002-art-1o": 1
@@ -1255,7 +1248,7 @@
     },
     "fixacao": {
       "lei-municipal-saopaulo-7228-1968::002-art-1o": 1,
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 1
     },
     "estimado": {
       "lei-municipal-saopaulo-7228-1968::002-art-1o": 1
@@ -1337,7 +1330,7 @@
     },
     "partir": {
       "lei-municipal-saopaulo-7228-1968::002-art-1o": 1,
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 1
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 1
     },
     "vencimento": {
       "lei-municipal-saopaulo-7228-1968::002-art-1o": 1
@@ -1369,7 +1362,7 @@
       "lei-municipal-saopaulo-7228-1968::002-art-1o": 1,
       "lei-municipal-saopaulo-7228-1968::004-art-3o": 5,
       "lei-municipal-saopaulo-7228-1968::005-art-4o": 2,
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 2
     },
     "dez": {
       "lei-municipal-saopaulo-7228-1968::002-art-1o": 1
@@ -1393,7 +1386,7 @@
     "esta": {
       "lei-municipal-saopaulo-7228-1968::002-art-1o": 1,
       "lei-municipal-saopaulo-7228-1968::008-art-7o": 1,
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 1
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 1
     },
     "emitirem": {
       "lei-municipal-saopaulo-7228-1968::002-art-1o": 1
@@ -1445,7 +1438,7 @@
     },
     "pela": {
       "lei-municipal-saopaulo-7228-1968::002-art-1o": 1,
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 1
     },
     "legislacao": {
       "lei-municipal-saopaulo-7228-1968::002-art-1o": 3,
@@ -1539,7 +1532,7 @@
     "casos": {
       "lei-municipal-saopaulo-7228-1968::002-art-1o": 1,
       "lei-municipal-saopaulo-7228-1968::010-art-9o": 1,
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 1
     },
     "inciso": {
       "lei-municipal-saopaulo-7228-1968::002-art-1o": 1
@@ -1717,7 +1710,7 @@
     },
     "disposicoes": {
       "lei-municipal-saopaulo-7228-1968::002-art-1o": 1,
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 1
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 1
     },
     "desta": {
       "lei-municipal-saopaulo-7228-1968::002-art-1o": 1,
@@ -1819,7 +1812,7 @@
     },
     "lhe": {
       "lei-municipal-saopaulo-7228-1968::002-art-1o": 1,
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 1
     },
     "extraordinaria": {
       "lei-municipal-saopaulo-7228-1968::002-art-1o": 2
@@ -1906,7 +1899,7 @@
       "lei-municipal-saopaulo-7228-1968::003-art-2o": 1,
       "lei-municipal-saopaulo-7228-1968::010-art-9o": 1
     },
-    "047": {
+    "7047": {
       "lei-municipal-saopaulo-7228-1968::003-art-2o": 1,
       "lei-municipal-saopaulo-7228-1968::005-art-4o": 1
     },
@@ -1944,7 +1937,7 @@
     "ncr": {
       "lei-municipal-saopaulo-7228-1968::003-art-2o": 6,
       "lei-municipal-saopaulo-7228-1968::004-art-3o": 19,
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 2
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 2
     },
     "25": {
       "lei-municipal-saopaulo-7228-1968::003-art-2o": 1
@@ -2002,14 +1995,14 @@
     },
     "3o": {
       "lei-municipal-saopaulo-7228-1968::004-art-3o": 2,
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 1
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 1
     },
     "tabelas": {
       "lei-municipal-saopaulo-7228-1968::004-art-3o": 1
     },
     "vigor": {
       "lei-municipal-saopaulo-7228-1968::004-art-3o": 1,
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 1
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 1
     },
     "conservacao": {
       "lei-municipal-saopaulo-7228-1968::004-art-3o": 2
@@ -2134,7 +2127,7 @@
     },
     "4o": {
       "lei-municipal-saopaulo-7228-1968::005-art-4o": 2,
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 1
     },
     "lancada": {
       "lei-municipal-saopaulo-7228-1968::005-art-4o": 2
@@ -2212,7 +2205,7 @@
     },
     "1969": {
       "lei-municipal-saopaulo-7228-1968::006-art-5o": 1,
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 1
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 1
     },
     "sirva": {
       "lei-municipal-saopaulo-7228-1968::006-art-5o": 1
@@ -2278,8 +2271,8 @@
     },
     "salvo": {
       "lei-municipal-saopaulo-7228-1968::007-art-6o": 1,
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 1,
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 1,
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 1
     },
     "ocorrendo": {
       "lei-municipal-saopaulo-7228-1968::007-art-6o": 1
@@ -2304,7 +2297,7 @@
     },
     "efeitos": {
       "lei-municipal-saopaulo-7228-1968::008-art-7o": 1,
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 1
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 1
     },
     "debitos": {
       "lei-municipal-saopaulo-7228-1968::008-art-7o": 3,
@@ -2396,7 +2389,7 @@
     },
     "multas": {
       "lei-municipal-saopaulo-7228-1968::008-art-7o": 1,
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 1
     },
     "aplicadas": {
       "lei-municipal-saopaulo-7228-1968::008-art-7o": 1
@@ -2421,7 +2414,7 @@
     },
     "data": {
       "lei-municipal-saopaulo-7228-1968::008-art-7o": 1,
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 1
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 1
     },
     "incluidos": {
       "lei-municipal-saopaulo-7228-1968::008-art-7o": 1
@@ -2455,7 +2448,7 @@
     },
     "importancias": {
       "lei-municipal-saopaulo-7228-1968::009-art-8o": 1,
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 1
     },
     "pagas": {
       "lei-municipal-saopaulo-7228-1968::009-art-8o": 1
@@ -2506,179 +2499,170 @@
       "lei-municipal-saopaulo-7228-1968::010-art-9o": 1
     },
     "tributos": {
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 1
     },
     "quantum": {
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 1
     },
     "atualizado": {
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 1
     },
     "195": {
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 1
     },
     "deu": {
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 1
     },
-    "999": {
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 1
+    "6999": {
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 1
     },
     "janeiro": {
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 1,
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 1,
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 1
     },
     "desprezadas": {
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 2
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 2
     },
     "quantias": {
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 2
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 2
     },
     "iguais": {
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 2
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 2
     },
     "inferiores": {
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 2
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 2
     },
     "05": {
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 1
     },
     "cinco": {
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 1
     },
     "centavos": {
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 1
     },
     "arredondados": {
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 1
     },
     "dezena": {
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 1
     },
     "imediatamente": {
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 2
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 2
     },
     "superior": {
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 2
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 2
     },
     "excedentes": {
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 2
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 2
     },
     "tributo": {
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 1
     },
     "seja": {
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 1
     },
     "calculado": {
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 1
     },
     "soma": {
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 1
     },
     "aliquotas": {
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 1
     },
     "fixadas": {
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 1
     },
     "unidade": {
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 1
     },
     "metro": {
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 1
     },
     "quadrado": {
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 1
     },
     "linear": {
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 1
     },
     "tao": {
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 1
     },
     "somente": {
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 1
     },
-    "005": {
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 1
+    "0005": {
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 1
     },
     "meio": {
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 1
     },
     "centavo": {
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 2
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 2
     },
     "arredondadas": {
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 1
     },
     "aquela": {
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 1
-    },
-    "10o": {
-      "lei-municipal-saopaulo-7228-1968::011-art-10o": 1
+      "lei-municipal-saopaulo-7228-1968::011-art-10": 1
     },
     "revogadas": {
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 1
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 1
     },
     "contrario": {
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 1
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 1
     },
     "entrara": {
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 1
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 1
     },
     "publicacao": {
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 1
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 1
     },
     "produzira": {
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 1
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 1
     },
     "prefeitura": {
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 1
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 1
     },
     "415o": {
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 1
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 1
     },
     "fundacao": {
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 1
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 1
     },
     "publicada": {
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 1
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 1
     },
     "diretoria": {
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 1
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 1
     },
     "departamento": {
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 1
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 1
     },
     "administracao": {
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 1
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 1
     },
     "texto": {
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 1
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 1
     },
     "substitui": {
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 1
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 1
     },
     "original": {
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 1
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 1
     },
     "publicado": {
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 1
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 1
     },
     "diario": {
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 1
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 1
     },
     "oficial": {
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 1
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 1
     },
     "cidade": {
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 1
-    },
-    "invoke": {
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 1
-    },
-    "11o": {
-      "lei-municipal-saopaulo-7228-1968::012-art-11o": 1
+      "lei-municipal-saopaulo-7228-1968::012-art-11": 1
     }
   }
 }

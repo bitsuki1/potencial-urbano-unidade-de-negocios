@@ -53,6 +53,12 @@
       "id": "neg-iss-streaming",
       "pergunta": "qual a aliquota do ISS sobre servicos de streaming de video?",
       "espera": { "fundamentada": false }
+    },
+    {
+      "id": "neg-curto-direito-construir",
+      "pergunta": "direito de construir",
+      "espera": { "fundamentada": false },
+      "_nota": "Caso CURTO fora-de-corpus (achado RAG-01): antes do gate endurecido batia só em 'direito' (de 'direito a restituicao' do Art. 8) e passava como FUNDAMENTADA. Agora a trava '>=2 termos casados' o recusa."
     }
   ],
   "vacinas": [

@@ -25,9 +25,17 @@ STOPWORDS = {
 }
 
 
+# Separador de milhar em número jurídico: "6.989" e "1.500.000" são UM número.
+# Sem isto, o regex parte em ['989'] / ['500','000'] e a citação por "Lei nº 6.989"
+# não casa "6989" (achado RAG-02 da auditoria 2026-06-20). Só remove o ponto/vírgula
+# quando há exatamente 3 dígitos à direita (milhar) — decimal "20,00" fica intacto.
+_RE_MILHAR = re.compile(r"(?<=\d)[.,](?=\d{3}(?:\D|$))")
+
+
 def normalizar(texto: str) -> str:
-    """minúsculas sem acento (NFKD -> ascii)."""
-    return unicodedata.normalize("NFKD", texto or "").encode("ascii", "ignore").decode("ascii").lower()
+    """minúsculas sem acento (NFKD -> ascii), com separador de milhar colado."""
+    t = unicodedata.normalize("NFKD", texto or "").encode("ascii", "ignore").decode("ascii").lower()
+    return _RE_MILHAR.sub("", t)
 
 
 def tokenizar(texto: str):

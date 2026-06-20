@@ -8,8 +8,9 @@ Princípios atendidos:
 - 1.7: cada chunk leva a citação (lei, dispositivo, fonte, vigência) — pré-requisito do RAG.
 - 1.2: extração PURA. Este script NÃO interpreta, NÃO resume, NÃO usa LLM: só recorta o
   verbatim em pedaços rastreáveis. Número nasce no engine, não aqui (1.3).
-- ZERO-COMPRESSÃO / nada se descarta: preâmbulo e fecho viram chunks próprios; nada do
-  corpo verbatim é jogado fora.
+- ZERO-COMPRESSÃO / nada se descarta: o preâmbulo (texto antes do 1º artigo) vira chunk próprio;
+  as assinaturas/fecho ficam coladas ao chunk do ÚLTIMO artigo (fidelidade > granularidade — não
+  se cria um chunk 'fecho' separado). Nada do corpo verbatim é jogado fora.
 
 GUARDA DE VERBATIM: só fatia .md que tenha o cabeçalho `## Texto integral (verbatim)` e
 cujo .json par esteja com `confianca_extracao: alta`. Resumo não-verbatim NÃO entra no RAG
@@ -61,7 +62,7 @@ def fatiar_corpo(corpo: str):
       redações citadas entre aspas ficam DENTRO do chunk do artigo — recortá-los
       arriscaria mutilar o verbatim (esta é uma lei 'alteradora', cheia de texto citado).
     - Cabeçalhos Título/Capítulo/Seção, quando existem, compõem o caminho hierárquico.
-    - O texto antes do 1º artigo vira 'preambulo'; assinaturas/fecho após o último vira 'fecho'.
+    - O texto antes do 1º artigo vira 'preambulo'; assinaturas/fecho ficam no chunk do último artigo.
     Retorna lista de dicts: {tipo, rotulo, numero, caminho[], texto}.
     """
     linhas = corpo.split("\n")
@@ -90,8 +91,10 @@ def fatiar_corpo(corpo: str):
             fechar(atual)
             visto_artigo = True
             n = ma.group(1)
-            caminho = [x for x in (titulo, capitulo, secao) if x] + [f"Art. {n}º"]
-            atual = {"tipo": "artigo", "rotulo": f"Art. {n}º", "numero": n,
+            # convenção legislativa BR: ordinal ("Art. 1º".."Art. 9º"), cardinal a partir de 10
+            rot = f"Art. {n}º" if n.isdigit() and int(n) <= 9 else f"Art. {n}"
+            caminho = [x for x in (titulo, capitulo, secao) if x] + [rot]
+            atual = {"tipo": "artigo", "rotulo": rot, "numero": n,
                      "caminho": caminho, "linhas": [ln]}
             continue
         atual["linhas"].append(ln)
@@ -111,10 +114,16 @@ def fatiar_lei(md_path: Path, reportar):
     if not jpath.exists():
         reportar(f"  SKIP {md_path.name}: sem .json par")
         return 0
-    meta = json.loads(jpath.read_text(encoding="utf-8"))
+    # Guarda de encoding (RAG-05): um arquivo não-UTF-8 na zona de despejo não pode
+    # derrubar o batch inteiro (e o CI). Reporta e pula só o malformado.
+    try:
+        meta = json.loads(jpath.read_text(encoding="utf-8"))
+        corpo = extrair_corpo_verbatim(md_path.read_text(encoding="utf-8"))
+    except (UnicodeDecodeError, json.JSONDecodeError) as e:
+        reportar(f"  SKIP {md_path.name}: erro de leitura/encoding ({e.__class__.__name__}) — pulado")
+        return 0
     lei_id = meta.get("id") or md_path.stem
     confianca = meta.get("confianca_extracao")
-    corpo = extrair_corpo_verbatim(md_path.read_text(encoding="utf-8"))
 
     if corpo is None:
         reportar(f"  SKIP {lei_id}: sem '{MARCADOR_VERBATIM}' (não-verbatim) — não entra no RAG (1.7)")

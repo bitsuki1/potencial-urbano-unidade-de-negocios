@@ -3,18 +3,27 @@
 consultar.py — Consulta RAG híbrida COM CITAÇÃO OBRIGATÓRIA (CLAUDE.md 1.7 / 2.6 / Parte 3 etapa 5).
 
 Retrieval híbrido determinístico:
-    1. filtro por metadado  (--lei / --tema / --jurisdicao / --vigente)   [2.6]
-    2. keyword scoring TF-IDF sobre o índice invertido                    [2.6]
+    1. filtro por metadado  (--lei / --tema / --jurisdicao / --data)      [2.6]
+    2. keyword scoring BM25 sobre o índice invertido                      [2.6]
     -> retorna os top-N dispositivos, CADA UM com sua citação rastreável (norma+dispositivo+fonte+vigência).
 
-GATE 1.7 (citação obrigatória): se nenhum dispositivo passar o limiar, a resposta é
-"NÃO-FUNDAMENTADA" — o RAG NUNCA responde sem citar (regra de ouro do Gen RAG, CLAUDE.md Parte 4).
-Este script NÃO redige prosa nem inventa fato: ele DEVOLVE o(s) dispositivo(s) verbatim que
-fundamentam — a redação fica a cargo do LLM roteador depois, sempre amarrado a estas citações (1.3).
+GATE 1.7 (citação obrigatória): a resposta só é FUNDAMENTADA se o melhor dispositivo (a) cobrir
+fração suficiente dos termos-de-conteúdo da pergunta, (b) passar um piso de score BM25 e (c) casar
+≥2 termos quando a pergunta tem ≥2 termos de conteúdo (impede falso-positivo de match genérico —
+ex.: bater só em "direito" para "direito de construir"). Senão, "NÃO-FUNDAMENTADA": o RAG NUNCA
+responde sem citar (regra de ouro do Gen RAG, CLAUDE.md Parte 4). Este script NÃO redige prosa nem
+inventa fato: DEVOLVE o(s) dispositivo(s) verbatim; a redação fica com o LLM roteador, amarrado às
+citações (1.3).
+
+FILTRO TEMPORAL (2.6/1.6): `--data AAAA-MM-DD` exclui dispositivos cuja vigência (inicio/fim) não
+cobre a data. LIMITE HONESTO: normas sem `vigencia.inicio/fim` (hoje as 15 municipais só têm
+`em_vigor:true`, achado A-3) NÃO podem ser filtradas por data e são mantidas — o eixo temporal
+existe mas degrada à honestidade do metadado disponível.
 
 Uso:
     python3 scripts/consultar.py "valor venal de imóvel residencial pode subir quanto em 1969?"
     python3 scripts/consultar.py --lei lei-municipal-saopaulo-7228-1968 --top 3 "multa por sonegação"
+    python3 scripts/consultar.py --data 1969-01-01 "imposto predial"
     python3 scripts/consultar.py --json "..."     # saída JSON (para evals/integração)
 
 Trazido pela instância orquestradora do Potencial Urbano — 2026-06-20.
@@ -43,8 +52,21 @@ def carregar_indice():
     return store, inv, meta
 
 
-def filtrar(meta, lei=None, tema=None, jurisdicao=None):
-    """Etapa 1 (2.6): conjunto de chunks elegíveis após filtro de metadado."""
+def _vigente_em(vig, data):
+    """True se a vigência cobre `data` (AAAA-MM-DD). Sem inicio/fim datados -> mantém
+    (não dá para excluir honestamente; degrada ao metadado disponível — achado A-3)."""
+    if not data:
+        return True
+    inicio, fim = (vig or {}).get("inicio"), (vig or {}).get("fim")
+    if inicio and str(inicio) > data:
+        return False
+    if fim and str(fim) < data:
+        return False
+    return True
+
+
+def filtrar(meta, lei=None, tema=None, jurisdicao=None, data=None):
+    """Etapa 1 (2.6): conjunto de chunks elegíveis após filtro de metadado (inclui temporal)."""
     elegiveis = set(meta.keys())
     if lei:
         elegiveis = {c for c in elegiveis if meta[c]["lei_id"] == lei}
@@ -55,15 +77,20 @@ def filtrar(meta, lei=None, tema=None, jurisdicao=None):
     if jurisdicao:
         jn = normalizar(jurisdicao)
         elegiveis = {c for c in elegiveis if jn in normalizar(meta[c].get("jurisdicao") or "")}
+    if data:
+        elegiveis = {c for c in elegiveis if _vigente_em(meta[c].get("vigencia"), data)}
     return elegiveis
 
 
 # BM25 (k1,b) e o limiar de COBERTURA do gate 1.7.
 BM25_K1, BM25_B = 1.5, 0.75
-# Fração mínima dos termos-de-conteúdo da pergunta que o melhor dispositivo precisa cobrir
-# para a resposta ser FUNDAMENTADA. Abaixo disso, o match é fraco/genérico (ex.: bater só em
-# "direito" para uma pergunta sobre "direito de construir") e NÃO fundamenta (1.7).
+# Gate 1.7 — três travas combinadas (achado RAG-01: cobertura sozinha é gameável por
+# pergunta curta com 1 termo genérico):
+#   COBERTURA_MIN — fração mínima dos termos-de-conteúdo da pergunta coberta pelo top;
+#   SCORE_MIN     — piso absoluto de score BM25 (mata match raso);
+#   ≥2 termos casados quando a pergunta tem ≥2 termos de conteúdo (mata "direito" p/ "direito de construir").
 COBERTURA_MIN = 0.34
+SCORE_MIN = 1.5
 
 
 def pontuar(pergunta, inv, elegiveis):
@@ -93,9 +120,9 @@ def pontuar(pergunta, inv, elegiveis):
     return scores, termos_casados, termos_pergunta
 
 
-def consultar(pergunta, lei=None, tema=None, jurisdicao=None, top=3):
+def consultar(pergunta, lei=None, tema=None, jurisdicao=None, data=None, top=3):
     store, inv, meta = carregar_indice()
-    elegiveis = filtrar(meta, lei=lei, tema=tema, jurisdicao=jurisdicao)
+    elegiveis = filtrar(meta, lei=lei, tema=tema, jurisdicao=jurisdicao, data=data)
     scores, termos, termos_pergunta = pontuar(pergunta, inv, elegiveis)
     ranked = sorted(scores.items(), key=lambda kv: kv[1], reverse=True)[:top]
 
@@ -108,25 +135,33 @@ def consultar(pergunta, lei=None, tema=None, jurisdicao=None, top=3):
             "chunk_id": cid,
             "score": round(score, 4),
             "cobertura": round(len(casados) / n_conteudo, 3),
+            "n_casados": len(casados),
             "termos_casados": casados,
             "citacao": c.get("citacao"),
             "rotulo": c.get("rotulo"),
             "texto": c.get("texto"),
         })
 
-    # GATE 1.7: fundamenta só se o melhor dispositivo cobrir fração suficiente da pergunta.
-    cobertura_top = resultados[0]["cobertura"] if resultados else 0.0
-    fundamentada = bool(resultados) and cobertura_top >= COBERTURA_MIN
-    if fundamentada:
-        veredito = "FUNDAMENTADA"
-    elif resultados:
-        veredito = (f"NÃO-FUNDAMENTADA (1.7: match fraco — cobertura {cobertura_top:.0%} "
-                    f"< {COBERTURA_MIN:.0%}; candidatos abaixo, mas insuficientes para fundamentar)")
-    else:
-        veredito = "NÃO-FUNDAMENTADA (1.7: nenhum dispositivo no corpus indexado)"
+    # GATE 1.7 (três travas — ver SCORE_MIN/COBERTURA_MIN acima).
+    motivo = "nenhum dispositivo no corpus indexado"
+    fundamentada = False
+    if resultados:
+        top1 = resultados[0]
+        cob, sc, ncas = top1["cobertura"], top1["score"], top1["n_casados"]
+        if cob < COBERTURA_MIN:
+            motivo = f"cobertura {cob:.0%} < {COBERTURA_MIN:.0%}"
+        elif sc < SCORE_MIN:
+            motivo = f"score {sc} < piso {SCORE_MIN}"
+        elif n_conteudo >= 2 and ncas < 2:
+            motivo = f"só {ncas} termo casado (match genérico) para pergunta de {n_conteudo} termos"
+        else:
+            fundamentada = True
+    veredito = "FUNDAMENTADA" if fundamentada else (
+        f"NÃO-FUNDAMENTADA (1.7: {motivo}; candidatos abaixo são insuficientes para fundamentar)"
+        if resultados else "NÃO-FUNDAMENTADA (1.7: nenhum dispositivo no corpus indexado)")
     return {
         "pergunta": pergunta,
-        "filtros": {"lei": lei, "tema": tema, "jurisdicao": jurisdicao},
+        "filtros": {"lei": lei, "tema": tema, "jurisdicao": jurisdicao, "data": data},
         "termos_pergunta": termos_pergunta,
         "fundamentada": fundamentada,
         "veredito": veredito,
@@ -163,11 +198,12 @@ def main(argv):
     p.add_argument("--lei", help="filtra por lei_id")
     p.add_argument("--tema", help="filtra por tema")
     p.add_argument("--jurisdicao", help="filtra por jurisdição")
+    p.add_argument("--data", help="filtro temporal AAAA-MM-DD (vigência na data do fato gerador)")
     p.add_argument("--top", type=int, default=3)
     p.add_argument("--json", action="store_true", help="saída JSON")
     args = p.parse_args(argv[1:])
     r = consultar(args.pergunta, lei=args.lei, tema=args.tema,
-                  jurisdicao=args.jurisdicao, top=args.top)
+                  jurisdicao=args.jurisdicao, data=args.data, top=args.top)
     if args.json:
         print(json.dumps(r, ensure_ascii=False, indent=2))
     else:

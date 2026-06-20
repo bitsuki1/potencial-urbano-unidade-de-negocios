@@ -226,5 +226,3 @@ O Prefeito, JOSÉ VICENTE DE FARIA LIMA
 Publicada na Diretoria do Departamento de Administração do Município de São Paulo, em 12 de dezembro de 1968.
 
 Este texto não substitui o original publicado no Diário Oficial da Cidade de São Paulo
-
-</invoke>
