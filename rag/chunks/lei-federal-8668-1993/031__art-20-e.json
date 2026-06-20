@@ -1,0 +1,33 @@
+{
+  "chunk_id": "lei-federal-8668-1993::031-art-20-e",
+  "lei_id": "lei-federal-8668-1993",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 20-E",
+  "numero": "20-E",
+  "caminho_hierarquico": [
+    "Art. 20-E"
+  ],
+  "texto": "Art. 20-E.  As cotas dos Fiagro podem ser integralizadas em bens e direitos, inclusive imóveis.         (Incluído pela Lei nº 14.130, de 2021)\n\n§ 1º  O pagamento do imposto sobre a renda decorrente do ganho de capital sobre as cotas integralizadas com imóvel rural por pessoa física ou jurídica poderá ser diferido para a data definida para o momento da venda dessas cotas, ou por ocasião do seu resgate, no caso de liquidação dos fundos.      (Incluído pela Lei nº 14.130, de 2021)\n\n§ 2º  Na alienação ou no resgate das cotas referidas no § 1º deste artigo, o imposto sobre a renda diferido será pago em proporção à quantidade de cotas vendidas.      (Incluído pela Lei nº 14.130, de 2021)\n\n§ 3º  Os imóveis rurais destinados à integralização de cotas dos Fiagro deverão ser previamente avaliados por profissional ou por empresa especializada, nos termos de regulamento.         (Incluído pela Lei nº 14.130, de 2021)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 8668/1993 — Brasil",
+    "dispositivo": "Art. 20-E",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l8668.htm",
+    "vigencia": {
+      "inicio": "1993-06-25",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 9.779/1999",
+        "Lei 14.130/2021"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "fundo_investimento_imobiliario",
+    "propriedade_fiduciaria"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre a constituição e o regime tributário dos Fundos de Investimento Imobiliário e dá outras providências."
+}

@@ -13,7 +13,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash \"$CLAUDE_PROJECT_DIR/.claude/hooks/surface-backlog.sh\""
+            "command": "bash \"${CLAUDE_PROJECT_DIR:-.}/.claude/hooks/surface-backlog.sh\""
           }
         ]
       }

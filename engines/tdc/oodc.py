@@ -60,12 +60,16 @@ FATOR_PLANEJAMENTO_REF = {  # Fp por localização (FORMULAS-CONSOLIDADAS §1.4)
 
 
 def _d(x, nome="valor"):
-    """Converte para Decimal e exige número positivo (insumos de tabela não podem faltar — 1.3)."""
+    """SÓ converte para Decimal (não valida sinal — isso é `_exigir_positivo`). Aceita número BR:
+    vírgula = decimal, ponto = milhar (achado B-12: as tabelas-fonte, Q14, são BR e quebravam aqui).
+    Ex.: '1,5'→1.5 · '1.500,00'→1500.00 · '1.5'(US, sem vírgula)→1.5."""
+    s = str(x).strip()
+    if "," in s:                       # formato BR: ponto=milhar, vírgula=decimal
+        s = s.replace(".", "").replace(",", ".")
     try:
-        v = Decimal(str(x))
+        return Decimal(s)
     except Exception as e:
         raise ValueError(f"{nome}: não-numérico ({x!r}) — {e}")
-    return v
 
 
 def _q(v: Decimal) -> Decimal:
@@ -85,6 +89,11 @@ def outorga_onerosa(area_adicional, ca_max, fp, fs, v):
     aa = _exigir_positivo(_d(area_adicional, "area_adicional"), "area_adicional")
     cam = _exigir_positivo(_d(ca_max, "ca_max"), "ca_max")
     fpd, fsd, vd = _d(fp, "fp"), _d(fs, "fs"), _exigir_positivo(_d(v, "v"), "v")
+    # guardas de sinal (B-12): Fp>0; Fs>=0 (HIS=0,0 é legítimo). OODC negativa = absurdo tributário.
+    if fpd <= 0:
+        raise ValueError(f"fp deve ser > 0 (Fator de Planejamento). Recebido: {fpd}")
+    if fsd < 0:
+        raise ValueError(f"fs deve ser >= 0 (Fator Social; HIS=0,0). Recebido: {fsd}")
     oo = (aa / cam) * fpd * fsd * vd
     return {
         "artefato": "OODC",
@@ -205,6 +214,18 @@ def _autoteste():
         outorga_onerosa(1000, 4, "1.2", "1.0", 0); falhas.append("v=0 não levantou ValueError")
     except ValueError:
         pass
+    # B-12: decimal BR não pode mais quebrar
+    checa("decimal BR vírgula", _d("1,5"), "1.5")
+    checa("decimal BR milhar", _d("1.500,00"), "1500.00")
+    checa("decimal US (sem vírgula)", _d("1.5"), "1.5")
+    # B-12: Fp<=0 e Fs<0 devem levantar (OODC negativa é absurdo)
+    for fp, fs, rotulo in (("-1", "1", "fp negativo"), ("1", "-0.5", "fs negativo")):
+        try:
+            outorga_onerosa(1000, 4, fp, fs, 100); falhas.append(f"{rotulo} não levantou ValueError")
+        except ValueError:
+            pass
+    # Fs=0 (HIS) é LEGÍTIMO, não pode levantar; OODC = 0
+    checa("fs=0 (HIS) legítimo", outorga_onerosa(1000, 4, "1.2", "0.0", 100)["valor"], "0.000")
     return falhas
 
 

@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-11101-2005::101-art-69-h",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 69-H",
+  "numero": "69-H",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Seção IV",
+    "Art. 69-H"
+  ],
+  "texto": "Art. 69-H. Na hipótese de a documentação de cada devedor ser considerada adequada, apenas um administrador judicial será nomeado, observado o disposto na Seção III do Capítulo II desta Lei.    (Incluído pela Lei nº 14.112, de 2020)    (Vigência)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO III › Seção IV › Art. 69-H",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

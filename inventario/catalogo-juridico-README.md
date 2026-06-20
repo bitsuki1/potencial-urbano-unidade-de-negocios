@@ -14,10 +14,11 @@ e a enumeração da pasta-cofre **"01 — _entrada (despejo IPTU+TDC)"**
 captura externa (extensão/anti-bot) é necessária — a fonte verbatim das leis é o
 próprio Drive. (Codex RO-21 e §7.)
 
-> **CONCILIAÇÃO (2026-06-20, auditoria triplo-limpo):** completo no Drive ≠ ingerido
-> no repo. **NENHUMA das 27 leis tem o articulado integral verbatim** (planalto deu 403): têm
-> ementa + dispositivo-chave + síntese. Só as 32 jurisprudências (curtas) são verbatim.
-> Falta RE-INGERIR o texto integral das 27 leis dos PDFs do Drive (fatiamento interno, não captura externa).
+> **CONCILIAÇÃO (2026-06-20, auditoria triplo-limpo) — ⚠️ SUPERADA por AUD-01/D-07 no mesmo dia:**
+> completo no Drive ≠ ingerido no repo. ~~**NENHUMA das 27 leis tem o articulado integral verbatim**
+> (planalto deu 403)~~ — **FALSO-NEGATIVO:** o verbatim das 12 federais já estava em `_entrada/misto/`
+> e foi promovido (`promover_entrada.py`). **HOJE: 13 leis verbatim/indexadas; faltam 14 municipais.**
+> As 14 municipais (resumo WebSearch) ainda precisam de RE-INGESTÃO verbatim dos PDFs do Drive (B-4).
 
 ## Conteúdo do CSV
 Uma linha por arquivo da pasta de entrada (920 únicos), com `drive_id` e

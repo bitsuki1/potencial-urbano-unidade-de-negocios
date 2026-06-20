@@ -1,5 +1,5 @@
 # CODEX DO PROJETO — Potencial Urbano (IPTU / TDC)
-## Constituição e Regras de Ouro · v0.2
+## Constituição e Regras de Ouro · v0.5
 
 > **Natureza deste documento.** É a constituição viva do projeto: as regras
 > invioláveis e o *porquê* de cada uma. É a fonte da verdade para toda
@@ -412,7 +412,7 @@ Só então a mudança é **oficial**. *(cravada pelo operador nesta instância, 
 
 ---
 
-*Versão 0.4 — documento vivo. Toda regra nova decidida em conversa é registrada
+*Versão 0.5 — documento vivo. Toda regra nova decidida em conversa é registrada
 aqui pelos agentes (RO-11). v0.2 (2026-06-18): RO-21; verificação do acervo
 jurídico (corpo legal completo no Drive, sem captura externa); Apps Script de
 movimentação rebaixado a opcional/fora do caminho crítico. v0.3 (2026-06-19):

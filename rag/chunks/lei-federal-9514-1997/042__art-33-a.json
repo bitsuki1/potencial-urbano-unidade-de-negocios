@@ -1,0 +1,35 @@
+{
+  "chunk_id": "lei-federal-9514-1997::042-art-33-a",
+  "lei_id": "lei-federal-9514-1997",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 33-A",
+  "numero": "33-A",
+  "caminho_hierarquico": [
+    "CAPÍTULO II-A",
+    "Art. 33-A"
+  ],
+  "texto": "Art. 33-A.  A transferência de dívida de financiamento imobiliário com garantia real, de um credor para outro, inclusive sob a forma de sub-rogação, obriga o credor original a emitir documento que ateste, para todos os fins de direito, inclusive para efeito de averbação, a validade da transferência.       (Incluído pela Lei nº 12.810, de 2013)\n\nParágrafo único.  A emissão do documento será feita no prazo máximo de 2 (dois) dias úteis após a quitação da dívida original.         (Incluído pela Lei nº 12.810, de 2013)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 9514/1997 — Brasil",
+    "dispositivo": "CAPÍTULO II-A › Art. 33-A",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l9514.htm",
+    "vigencia": {
+      "inicio": "1997-11-20",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 13.043/2014",
+        "Lei 13.465/2017",
+        "Lei 14.620/2023"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "alienacao_fiduciaria",
+    "sistema_financiamento_imobiliario"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre o Sistema de Financiamento Imobiliário, institui a alienação fiduciária de coisa imóvel e dá outras providências."
+}

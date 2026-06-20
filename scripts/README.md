@@ -26,6 +26,8 @@ leis/<id>.md (VERBATIM)  ──fatiar.py──▶  rag/chunks/<id>/*.json
 | `consultar.py` | retrieval híbrido c/ citação obrigatória (1.7 / Parte 3 etapa 5) | `rag/index/` + pergunta | citação rastreável | — |
 | `consolidar.py` | regenera `MANIFESTO.json` (1.5/2.3) | `**/*.json` | `MANIFESTO.json` | — |
 | `_texto.py` | tokenização CANÔNICA compartilhada (index ≡ consulta) | — | — | — |
+| `promover_entrada.py` | promove cru de `_entrada/misto/*.txt` → `.md` verbatim + `.json confianca:alta` (D-07/AUD-01) | `_entrada/misto/` | `leis/.../<id>.md` | `→ bruto` (pronto p/ fatiar) |
+| `fechar-instancia.py` | GATE de fechamento do "ladrão" (D-09): evals+engine+sem-stray+MANIFESTO+backlog | repo | exit 0/1 | — |
 
 ## Rodar local
 

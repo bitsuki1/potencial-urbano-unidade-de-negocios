@@ -1,0 +1,35 @@
+{
+  "chunk_id": "lei-federal-9514-1997::059-art-37-c",
+  "lei_id": "lei-federal-9514-1997",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 37-C",
+  "numero": "37-C",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 37-C"
+  ],
+  "texto": "Art. 37-C. Os editais previstos nesta Lei poderão ser publicados de forma eletrônica.     (Incluído pela Lei nº 14.620, de 2023)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 9514/1997 — Brasil",
+    "dispositivo": "CAPÍTULO III › Art. 37-C",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l9514.htm",
+    "vigencia": {
+      "inicio": "1997-11-20",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 13.043/2014",
+        "Lei 13.465/2017",
+        "Lei 14.620/2023"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "alienacao_fiduciaria",
+    "sistema_financiamento_imobiliario"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre o Sistema de Financiamento Imobiliário, institui a alienação fiduciária de coisa imóvel e dá outras providências."
+}

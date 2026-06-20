@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::479-art-288-a",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 288-A",
+  "numero": "288-A",
+  "caminho_hierarquico": [
+    "TÍTULO V",
+    "CAPÍTULO XII",
+    "Art. 288-A"
+  ],
+  "texto": "Art. 288-A.  O registro da regularização fundiária urbana de que trata a Lei nº 11.977, de 7 de julho de 2009, deverá ser requerido diretamente ao Oficial do registro de imóveis e será efetivado independentemente de manifestação judicial, importando:                    (Incluído pela Lei nº 12.424, de 2011)                        (Revogado pela Medida Provisória nº 759, de 2016)\n\nI - na abertura de matrícula para a área objeto de regularização, se não houver;                      (Incluído pela Lei nº 12.424, de 2011)                      (Revogado pela Medida Provisória nº 759, de 2016)\n\nII - no registro do parcelamento decorrente do projeto de regularização fundiária; e                (Incluído pela Lei nº 12.424, de 2011)                     (Revogado pela Medida Provisória nº 759, de 2016)\n\nIII - na abertura de matrícula para cada uma das parcelas resultantes do parcelamento decorrente do projeto de regularização fundiária.                          (Incluído pela Lei nº 12.424, de 2011)                      (Revogado pela Medida Provisória nº 759, de 2016)\n\n§ 1º O registro da regularização fundiária poderá ser requerido pelos legitimados previstos no art. 50 da Lei nº 11.977, de 7 de julho de 2009, independentemente de serem proprietários ou detentores de direitos reais da gleba objeto de regularização.                      (Incluído pela Lei nº 12.424, de 2011)                    (Revogado pela Medida Provisória nº 759, de 2016)\n\n§ 2º As matrículas das áreas destinadas a uso público deverão ser abertas de ofício, com averbação das respectivas destinações e, se for o caso, das limitações administrativas e restrições convencionais ou legais. Incluído pela Lei nº 12.424, de 2011)             (Revogado pela Medida Provisória nº 759, de 2016)\n\n§ 3º O registro do parcelamento decorrente de projeto de regularização fundiária poderá ser cancelado, parcialmente ou em sua totalidade, observado o disposto no art. 250.                 (Incluído pela Lei nº 12.424, de 2011)      (Revogado pela Medida Provisória nº 759, de 2016)\n\n§ 4º  Independe da aprovação de projeto de regularização fundiária o registro:                       (Incluído pela Lei nº 12.424, de 2011)                     (Revogado pela Medida Provisória nº 759, de 2016)\n\nI - da sentença de usucapião, da sentença declaratória ou da planta, elaborada para outorga administrativa, de concessão de uso especial para fins de moradia; e                     (Incluído pela Lei nº 12.424, de 2011)           (Revogado pela Medida Provisória nº 759, de 2016)\n\nII - do parcelamento de glebas para fins urbanos anterior a 19 de dezembro de 1979 que não possuir registro, desde que o parcelamento esteja implantado e integrado à cidade, nos termos do art. 71 da Lei nº 11.977, de 7 de julho de 2009.               (Incluído pela Lei nº 12.424, de 2011)                    (Revogado pela Medida Provisória nº 759, de 2016)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO V › CAPÍTULO XII › Art. 288-A",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

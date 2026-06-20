@@ -1,0 +1,36 @@
+{
+  "chunk_id": "lei-federal-11101-2005::241-art-167-v",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 167-V",
+  "numero": "167-V",
+  "caminho_hierarquico": [
+    "CAPÍTULO VI-A",
+    "Art. 167-V"
+  ],
+  "texto": "Art. 167-V. O juízo falimentar responsável por processo estrangeiro não principal deve prestar ao juízo principal as seguintes informações, entre outras:     (Incluído pela Lei nº 14.112, de 2020)    (Vigência)\n\nI - valor dos bens arrecadados e do passivo;    (Incluído pela Lei nº 14.112, de 2020)    (Vigência)\n\nII - valor dos créditos admitidos e sua classificação;        (Incluído pela Lei nº 14.112, de 2020)    (Vigência)\n\nIII - classificação, segundo a lei nacional, dos credores não domiciliados ou sediados nos países titulares de créditos sujeitos à lei estrangeira;      (Incluído pela Lei nº 14.112, de 2020)   (Vigência)\n\nIV - relação de ações judiciais em curso de que seja parte o falido, como autor, réu ou interessado;      (Incluído pela Lei nº 14.112, de 2020)    (Vigência)\n\nV - ocorrência do término da liquidação e o saldo, credor ou devedor, bem como eventual ativo remanescente.       (Incluído pela Lei nº 14.112, de 2020)   (Vigência)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO VI-A › Art. 167-V",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

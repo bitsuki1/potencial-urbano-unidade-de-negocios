@@ -1,5 +1,11 @@
 # Auditoria — rodada FAMÍLIA AUSÊNCIA/VALOR/USO (D82) — Potencial Urbano — 2026-06-20
 
+> ⚠️ **BANNER DE SUPERAÇÃO (2026-06-20, pós-destraves):** o achado **CRÍTICA-1** abaixo ("NENHUMA das 27
+> leis é verbatim; 27 a re-ingerir") **era um FALSO-NEGATIVO** e foi **DESMENTIDO por AUD-01**
+> (`docs/AUDITORIA-PROFUNDA-2026-06-20.md`) + CODEX **D-07**: o verbatim das 12 federais já estava em
+> `_entrada/misto/*.txt` e foi promovido. **ESTADO REAL HOJE: 13 leis verbatim/indexadas; faltam 14
+> municipais (não 27).** Mantido o texto original abaixo como antítese histórica (nada se descarta).
+
 > Registro datado exigido pelo método (`escritorio-do-mou/processos/AUDITORIA-TRIPLO-LIMPO.md §8`).
 > **D82:** rodadas anteriores cobriram as famílias INTERNA (consistência/doutrina/segurança) e DADO VIVO
 > (corpus/docs/Drive/banco) — ver `AUDITORIA-TRIPLO-LIMPO-2026-06-20.md` (R1→R3). Esta rodada aplica a família

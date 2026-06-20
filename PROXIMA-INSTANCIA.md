@@ -45,7 +45,7 @@
 - **Prioridade (D-PU-3 = TDC):** re-ingerir PRIMEIRO o corpus TDC verbatim (PDE 16.050/2014 e correlatas) — é o que destrava a fatia de PRODUTO (os 3 evals `tdc-produto-pendente.json` já esperam por ele). As demais municipais/federais vêm depois.
 - Fonte: PDFs no Drive (catálogo `inventario/catalogo-juridico-drive.csv`) — **re-ingestão interna**. **MAS:** neste ambiente o egress p/ `.gov.br` deu 403 E o Drive é **lane exclusiva** (cerca anti-conflito) → para obter verbatim do Drive, **abrir pedido ao Drive** (`escritorio-do-mou/caixa-de-entrada/drive/PEDIDOS-AO-DRIVE.md`) OU rodar de ambiente com egress liberado. **Padrão de re-ingestão já provado:** salvar o cru em `_entrada/`, escrever `leis/<id>.md` com cabeçalho `## Texto integral (verbatim)` + `.json` `confianca:"alta"`, rodar `scripts/fatiar.py`.
 - **Gatilho V-2:** ao re-ingerir em lote, avaliar Gemini (contexto grande) p/ enumerar/puxar os links do corpus do Drive de uma vez.
-- IDs das 15 municipais: 7228-1968 ✅, 10235-1986, 10365-1987, 11152-1991, 11338-1992, 12350-1997, 13250-2001, 13475-2002, 14865-2008, 15044-2009, 16050-2014, 17202-2019, 17577-2021, 17759-2022, 17844-2022.
+- IDs municipais (1 feita ✅, **14 a re-ingerir**): 7228-1968 ✅ · pendentes → 10235-1986, 10365-1987, 11152-1991, 11338-1992, 12350-1997, 13250-2001, 13475-2002, 14865-2008, 15044-2009, 16050-2014, 17202-2019, 17577-2021, 17759-2022, 17844-2022.
 
 ### P3 — Decidir/segregar os 2 itens fora de escopo (decisão MOU)
 - `stf-tema-1020` (é ISS, não IPTU) → realocar para corpus ISS ou remover. `stj-resp-1658054` (previdenciário; nº do REsp NÃO verificado) → confirmar o número ou arquivar como ponto cego. Ambos já sinalizados no MANIFESTO; falta a decisão.

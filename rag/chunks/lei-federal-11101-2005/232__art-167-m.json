@@ -1,0 +1,36 @@
+{
+  "chunk_id": "lei-federal-11101-2005::232-art-167-m",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 167-M",
+  "numero": "167-M",
+  "caminho_hierarquico": [
+    "CAPÍTULO VI-A",
+    "Art. 167-M"
+  ],
+  "texto": "Art. 167-M. Com o reconhecimento de processo estrangeiro principal, decorrem automaticamente:      (Incluído pela Lei nº 14.112, de 2020)    (Vigência)\n\nI - a suspensão do curso de quaisquer processos de execução ou de quaisquer outras medidas individualmente tomadas por credores relativas ao patrimônio do devedor, respeitadas as demais disposições desta Lei;       (Incluído pela Lei nº 14.112, de 2020)   (Vigência)\n\nII - a suspensão do curso da prescrição de quaisquer execuções judiciais contra o devedor, respeitadas as demais disposições desta Lei;     (Incluído pela Lei nº 14.112, de 2020)   (Vigência)\n\nIII - a ineficácia de transferência, de oneração ou de qualquer forma de disposição de bens do ativo não circulante do devedor realizadas sem prévia autorização judicial.    (Incluído pela Lei nº 14.112, de 2020) (Vigência)\n\n§ 1º A extensão, a modificação ou a cessação dos efeitos previstos nos incisos I, II e III do caput deste artigo subordinam-se ao disposto nesta Lei.       (Incluído pela Lei nº 14.112, de 2020)\n\n§ 2º Os credores conservam o direito de ajuizar quaisquer processos judiciais e arbitrais, e de neles prosseguir, que visem à condenação do devedor ou ao reconhecimento ou à liquidação de seus créditos, e, em qualquer caso, as medidas executórias deverão permanecer suspensas.      (Incluído pela Lei nº 14.112, de 2020)    (Vigência)\n\n§ 3º As medidas previstas neste artigo não afetam os credores que não estejam sujeitos aos processos de recuperação judicial, de recuperação extrajudicial ou de falência, salvo nos limites permitidos por esta Lei.      (Incluído pela Lei nº 14.112, de 2020)    (Vigência)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO VI-A › Art. 167-M",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

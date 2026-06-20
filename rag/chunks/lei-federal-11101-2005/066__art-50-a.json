@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-11101-2005::066-art-50-a",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 50-A",
+  "numero": "50-A",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Seção I",
+    "Art. 50-A"
+  ],
+  "texto": "Art. 50-A. Nas hipóteses de renegociação de dívidas de pessoa jurídica no âmbito de processo de recuperação judicial, estejam as dívidas sujeitas ou não a esta, e do reconhecimento de seus efeitos nas demonstrações financeiras das sociedades, deverão ser observadas as seguintes disposições:   (Incluído pela Lei nº 14.112, de 2020)    (Vigência)\n\nI - a receita obtida pelo devedor não será computada na apuração da base de cálculo da Contribuição para o Programa de Integração Social (PIS) e para o Programa de Formação do Patrimônio do Servidor Público (Pasep) e da Contribuição para o Financiamento da Seguridade Social (Cofins);   (Incluído pela Lei nº 14.112, de 2020)    (Vigência)      (Vide Lei Complementar nº 214, de 2025)   Produção de efeitos\n\nII - o ganho obtido pelo devedor com a redução da dívida não se sujeitará ao limite percentual de que tratam os arts. 42 e 58 da Lei nº 8.981, de 20 de janeiro de 1995, na apuração do imposto sobre a renda e da CSLL; e   (Incluído pela Lei nº 14.112, de 2020)    (Vigência)\n\nIII - as despesas correspondentes às obrigações assumidas no plano de recuperação judicial serão consideradas dedutíveis na determinação do lucro real e da base de cálculo da CSLL, desde que não tenham sido objeto de dedução anterior.   (Incluído pela Lei nº 14.112, de 2020)    (Vigência)\n\nParágrafo único. O disposto no caput deste artigo não se aplica à hipótese de dívida com:   (Incluído pela Lei nº 14.112, de 2020)    (Vigência)\n\nI - pessoa jurídica que seja controladora, controlada, coligada ou interligada; ou   (Incluído pela Lei nº 14.112, de 2020)    (Vigência)\n\nII - pessoa física que seja acionista controladora, sócia, titular ou administradora da pessoa jurídica devedora.   (Incluído pela Lei nº 14.112, de 2020)    (Vigência)\n\nSeção II\n\nDo Pedido e do Processamento da Recuperação Judicial",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO III › Seção I › Art. 50-A",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

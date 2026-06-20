@@ -1,0 +1,36 @@
+{
+  "chunk_id": "lei-federal-11101-2005::222-art-167-c",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 167-C",
+  "numero": "167-C",
+  "caminho_hierarquico": [
+    "CAPÍTULO VI-A",
+    "Art. 167-C"
+  ],
+  "texto": "Art. 167-C. As disposições deste Capítulo aplicam-se aos casos em que:         (Incluído pela Lei nº 14.112, de 2020)    (Vigência)\n\nI - autoridade estrangeira ou representante estrangeiro solicita assistência no Brasil para um processo estrangeiro;       (Incluído pela Lei nº 14.112, de 2020)    (Vigência)\n\nII - assistência relacionada a um processo disciplinado por esta Lei é pleiteada em um país estrangeiro;       (Incluído pela Lei nº 14.112, de 2020)    (Vigência)\n\nIII - processo estrangeiro e processo disciplinado por esta Lei relativos ao mesmo devedor estão em curso simultaneamente; ou       (Incluído pela Lei nº 14.112, de 2020)   (Vigência)\n\nIV - credores ou outras partes interessadas, de outro país, têm interesse em requerer a abertura de um processo disciplinado por esta Lei, ou dele participar.      (Incluído pela Lei nº 14.112, de 2020)   (Vigência)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO VI-A › Art. 167-C",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

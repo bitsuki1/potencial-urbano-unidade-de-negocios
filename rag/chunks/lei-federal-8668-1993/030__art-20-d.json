@@ -1,0 +1,33 @@
+{
+  "chunk_id": "lei-federal-8668-1993::030-art-20-d",
+  "lei_id": "lei-federal-8668-1993",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 20-D",
+  "numero": "20-D",
+  "caminho_hierarquico": [
+    "Art. 20-D"
+  ],
+  "texto": "Art. 20-D.  Os ganhos de capital e os rendimentos auferidos na alienação ou no resgate de cotas dos Fiagro sujeitam-se à incidência do imposto de renda à alíquota de 20% (vinte por cento):         (Incluído pela Lei nº 14.130, de 2021)      (Vide Medida Provisória nº 1.303, de 2025)   Produção de efeitos   Vigência encerrada\n\nI - na fonte, no caso de resgate;         (Incluído pela Lei nº 14.130, de 2021)\n\nII - às mesmas normas aplicáveis aos ganhos de capital ou aos ganhos líquidos auferidos em operações de renda variável, nos demais casos.         (Incluído pela Lei nº 14.130, de 2021)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 8668/1993 — Brasil",
+    "dispositivo": "Art. 20-D",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l8668.htm",
+    "vigencia": {
+      "inicio": "1993-06-25",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 9.779/1999",
+        "Lei 14.130/2021"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "fundo_investimento_imobiliario",
+    "propriedade_fiduciaria"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre a constituição e o regime tributário dos Fundos de Investimento Imobiliário e dá outras providências."
+}

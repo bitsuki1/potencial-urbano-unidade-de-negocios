@@ -541,10 +541,10 @@
       "alterada_por": []
     }
   },
-  "ec-132-2023::003-art-156": {
+  "ec-132-2023::003-art-156-a": {
     "lei_id": "ec-132-2023",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 156",
+    "rotulo": "Art. 156-A",
     "tema": [
       "IPTU",
       "reforma_tributaria",
@@ -562,10 +562,10 @@
       "alterada_por": []
     }
   },
-  "ec-132-2023::004-art-156": {
+  "ec-132-2023::004-art-156-b": {
     "lei_id": "ec-132-2023",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 156",
+    "rotulo": "Art. 156-B",
     "tema": [
       "IPTU",
       "reforma_tributaria",
@@ -1945,10 +1945,10 @@
       ]
     }
   },
-  "lei-federal-10931-2004::025-art-11": {
+  "lei-federal-10931-2004::025-art-11-a": {
     "lei_id": "lei-federal-10931-2004",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 11",
+    "rotulo": "Art. 11-A",
     "tema": [
       "IPTU",
       "patrimonio_de_afetacao",
@@ -2605,10 +2605,10 @@
       ]
     }
   },
-  "lei-federal-10931-2004::047-art-27": {
+  "lei-federal-10931-2004::047-art-27-a": {
     "lei_id": "lei-federal-10931-2004",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 27",
+    "rotulo": "Art. 27-A",
     "tema": [
       "IPTU",
       "patrimonio_de_afetacao",
@@ -2635,10 +2635,10 @@
       ]
     }
   },
-  "lei-federal-10931-2004::048-art-27": {
+  "lei-federal-10931-2004::048-art-27-b": {
     "lei_id": "lei-federal-10931-2004",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 27",
+    "rotulo": "Art. 27-B",
     "tema": [
       "IPTU",
       "patrimonio_de_afetacao",
@@ -2665,10 +2665,10 @@
       ]
     }
   },
-  "lei-federal-10931-2004::049-art-27": {
+  "lei-federal-10931-2004::049-art-27-c": {
     "lei_id": "lei-federal-10931-2004",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 27",
+    "rotulo": "Art. 27-C",
     "tema": [
       "IPTU",
       "patrimonio_de_afetacao",
@@ -2695,10 +2695,10 @@
       ]
     }
   },
-  "lei-federal-10931-2004::050-art-27": {
+  "lei-federal-10931-2004::050-art-27-d": {
     "lei_id": "lei-federal-10931-2004",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 27",
+    "rotulo": "Art. 27-D",
     "tema": [
       "IPTU",
       "patrimonio_de_afetacao",
@@ -2725,10 +2725,10 @@
       ]
     }
   },
-  "lei-federal-10931-2004::051-art-27": {
+  "lei-federal-10931-2004::051-art-27-a": {
     "lei_id": "lei-federal-10931-2004",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 27",
+    "rotulo": "Art. 27-A",
     "tema": [
       "IPTU",
       "patrimonio_de_afetacao",
@@ -2755,10 +2755,10 @@
       ]
     }
   },
-  "lei-federal-10931-2004::052-art-27": {
+  "lei-federal-10931-2004::052-art-27-b": {
     "lei_id": "lei-federal-10931-2004",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 27",
+    "rotulo": "Art. 27-B",
     "tema": [
       "IPTU",
       "patrimonio_de_afetacao",
@@ -2785,10 +2785,10 @@
       ]
     }
   },
-  "lei-federal-10931-2004::053-art-27": {
+  "lei-federal-10931-2004::053-art-27-c": {
     "lei_id": "lei-federal-10931-2004",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 27",
+    "rotulo": "Art. 27-C",
     "tema": [
       "IPTU",
       "patrimonio_de_afetacao",
@@ -2815,10 +2815,10 @@
       ]
     }
   },
-  "lei-federal-10931-2004::054-art-27": {
+  "lei-federal-10931-2004::054-art-27-d": {
     "lei_id": "lei-federal-10931-2004",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 27",
+    "rotulo": "Art. 27-D",
     "tema": [
       "IPTU",
       "patrimonio_de_afetacao",
@@ -3295,10 +3295,10 @@
       ]
     }
   },
-  "lei-federal-10931-2004::070-art-42": {
+  "lei-federal-10931-2004::070-art-42-a": {
     "lei_id": "lei-federal-10931-2004",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 42",
+    "rotulo": "Art. 42-A",
     "tema": [
       "IPTU",
       "patrimonio_de_afetacao",
@@ -3325,10 +3325,10 @@
       ]
     }
   },
-  "lei-federal-10931-2004::071-art-42": {
+  "lei-federal-10931-2004::071-art-42-a": {
     "lei_id": "lei-federal-10931-2004",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 42",
+    "rotulo": "Art. 42-A",
     "tema": [
       "IPTU",
       "patrimonio_de_afetacao",
@@ -3355,10 +3355,10 @@
       ]
     }
   },
-  "lei-federal-10931-2004::072-art-42": {
+  "lei-federal-10931-2004::072-art-42-b": {
     "lei_id": "lei-federal-10931-2004",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 42",
+    "rotulo": "Art. 42-B",
     "tema": [
       "IPTU",
       "patrimonio_de_afetacao",
@@ -3535,10 +3535,10 @@
       ]
     }
   },
-  "lei-federal-10931-2004::078-art-45": {
+  "lei-federal-10931-2004::078-art-45-a": {
     "lei_id": "lei-federal-10931-2004",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 45",
+    "rotulo": "Art. 45-A",
     "tema": [
       "IPTU",
       "patrimonio_de_afetacao",
@@ -3565,10 +3565,10 @@
       ]
     }
   },
-  "lei-federal-10931-2004::079-art-45": {
+  "lei-federal-10931-2004::079-art-45-a": {
     "lei_id": "lei-federal-10931-2004",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 45",
+    "rotulo": "Art. 45-A",
     "tema": [
       "IPTU",
       "patrimonio_de_afetacao",
@@ -3835,10 +3835,10 @@
       ]
     }
   },
-  "lei-federal-10931-2004::088-art-31": {
+  "lei-federal-10931-2004::088-art-31-a": {
     "lei_id": "lei-federal-10931-2004",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 31",
+    "rotulo": "Art. 31-A",
     "tema": [
       "IPTU",
       "patrimonio_de_afetacao",
@@ -3865,10 +3865,10 @@
       ]
     }
   },
-  "lei-federal-10931-2004::089-art-31": {
+  "lei-federal-10931-2004::089-art-31-b": {
     "lei_id": "lei-federal-10931-2004",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 31",
+    "rotulo": "Art. 31-B",
     "tema": [
       "IPTU",
       "patrimonio_de_afetacao",
@@ -3895,10 +3895,10 @@
       ]
     }
   },
-  "lei-federal-10931-2004::090-art-31": {
+  "lei-federal-10931-2004::090-art-31-c": {
     "lei_id": "lei-federal-10931-2004",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 31",
+    "rotulo": "Art. 31-C",
     "tema": [
       "IPTU",
       "patrimonio_de_afetacao",
@@ -3925,10 +3925,10 @@
       ]
     }
   },
-  "lei-federal-10931-2004::091-art-31": {
+  "lei-federal-10931-2004::091-art-31-d": {
     "lei_id": "lei-federal-10931-2004",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 31",
+    "rotulo": "Art. 31-D",
     "tema": [
       "IPTU",
       "patrimonio_de_afetacao",
@@ -3955,10 +3955,10 @@
       ]
     }
   },
-  "lei-federal-10931-2004::092-art-31": {
+  "lei-federal-10931-2004::092-art-31-e": {
     "lei_id": "lei-federal-10931-2004",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 31",
+    "rotulo": "Art. 31-E",
     "tema": [
       "IPTU",
       "patrimonio_de_afetacao",
@@ -3985,10 +3985,10 @@
       ]
     }
   },
-  "lei-federal-10931-2004::093-art-31": {
+  "lei-federal-10931-2004::093-art-31-f": {
     "lei_id": "lei-federal-10931-2004",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 31",
+    "rotulo": "Art. 31-F",
     "tema": [
       "IPTU",
       "patrimonio_de_afetacao",
@@ -4075,10 +4075,10 @@
       ]
     }
   },
-  "lei-federal-10931-2004::096-art-66": {
+  "lei-federal-10931-2004::096-art-66-b": {
     "lei_id": "lei-federal-10931-2004",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 66",
+    "rotulo": "Art. 66-B",
     "tema": [
       "IPTU",
       "patrimonio_de_afetacao",
@@ -4405,10 +4405,10 @@
       ]
     }
   },
-  "lei-federal-10931-2004::107-art-63": {
+  "lei-federal-10931-2004::107-art-63-a": {
     "lei_id": "lei-federal-10931-2004",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 63",
+    "rotulo": "Art. 63-A",
     "tema": [
       "IPTU",
       "patrimonio_de_afetacao",
@@ -5199,10 +5199,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::029-art-20": {
+  "lei-federal-11101-2005::029-art-20-a": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 20",
+    "rotulo": "Art. 20-A",
     "tema": [
       "IPTU",
       "falencia",
@@ -5222,10 +5222,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::030-art-20": {
+  "lei-federal-11101-2005::030-art-20-b": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 20",
+    "rotulo": "Art. 20-B",
     "tema": [
       "IPTU",
       "falencia",
@@ -5245,10 +5245,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::031-art-20": {
+  "lei-federal-11101-2005::031-art-20-c": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 20",
+    "rotulo": "Art. 20-C",
     "tema": [
       "IPTU",
       "falencia",
@@ -5268,10 +5268,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::032-art-20": {
+  "lei-federal-11101-2005::032-art-20-d": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 20",
+    "rotulo": "Art. 20-D",
     "tema": [
       "IPTU",
       "falencia",
@@ -5889,10 +5889,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::059-art-45": {
+  "lei-federal-11101-2005::059-art-45-a": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 45",
+    "rotulo": "Art. 45-A",
     "tema": [
       "IPTU",
       "falencia",
@@ -5981,10 +5981,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::063-art-48": {
+  "lei-federal-11101-2005::063-art-48-a": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 48",
+    "rotulo": "Art. 48-A",
     "tema": [
       "IPTU",
       "falencia",
@@ -6050,10 +6050,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::066-art-50": {
+  "lei-federal-11101-2005::066-art-50-a": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 50",
+    "rotulo": "Art. 50-A",
     "tema": [
       "IPTU",
       "falencia",
@@ -6096,10 +6096,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::068-art-51": {
+  "lei-federal-11101-2005::068-art-51-a": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 51",
+    "rotulo": "Art. 51-A",
     "tema": [
       "IPTU",
       "falencia",
@@ -6234,10 +6234,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::074-art-56": {
+  "lei-federal-11101-2005::074-art-56-a": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 56",
+    "rotulo": "Art. 56-A",
     "tema": [
       "IPTU",
       "falencia",
@@ -6326,10 +6326,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::078-art-58": {
+  "lei-federal-11101-2005::078-art-58-a": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 58",
+    "rotulo": "Art. 58-A",
     "tema": [
       "IPTU",
       "falencia",
@@ -6395,10 +6395,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::081-art-60": {
+  "lei-federal-11101-2005::081-art-60-a": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 60",
+    "rotulo": "Art. 60-A",
     "tema": [
       "IPTU",
       "falencia",
@@ -6602,10 +6602,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::090-art-66": {
+  "lei-federal-11101-2005::090-art-66-a": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 66",
+    "rotulo": "Art. 66-A",
     "tema": [
       "IPTU",
       "falencia",
@@ -6694,10 +6694,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::094-art-69": {
+  "lei-federal-11101-2005::094-art-69-a": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 69",
+    "rotulo": "Art. 69-A",
     "tema": [
       "IPTU",
       "falencia",
@@ -6717,10 +6717,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::095-art-69": {
+  "lei-federal-11101-2005::095-art-69-b": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 69",
+    "rotulo": "Art. 69-B",
     "tema": [
       "IPTU",
       "falencia",
@@ -6740,10 +6740,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::096-art-69": {
+  "lei-federal-11101-2005::096-art-69-c": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 69",
+    "rotulo": "Art. 69-C",
     "tema": [
       "IPTU",
       "falencia",
@@ -6763,10 +6763,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::097-art-69": {
+  "lei-federal-11101-2005::097-art-69-d": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 69",
+    "rotulo": "Art. 69-D",
     "tema": [
       "IPTU",
       "falencia",
@@ -6786,10 +6786,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::098-art-69": {
+  "lei-federal-11101-2005::098-art-69-e": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 69",
+    "rotulo": "Art. 69-E",
     "tema": [
       "IPTU",
       "falencia",
@@ -6809,10 +6809,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::099-art-69": {
+  "lei-federal-11101-2005::099-art-69-f": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 69",
+    "rotulo": "Art. 69-F",
     "tema": [
       "IPTU",
       "falencia",
@@ -6832,10 +6832,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::100-art-69": {
+  "lei-federal-11101-2005::100-art-69-g": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 69",
+    "rotulo": "Art. 69-G",
     "tema": [
       "IPTU",
       "falencia",
@@ -6855,10 +6855,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::101-art-69": {
+  "lei-federal-11101-2005::101-art-69-h": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 69",
+    "rotulo": "Art. 69-H",
     "tema": [
       "IPTU",
       "falencia",
@@ -6878,10 +6878,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::102-art-69": {
+  "lei-federal-11101-2005::102-art-69-i": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 69",
+    "rotulo": "Art. 69-I",
     "tema": [
       "IPTU",
       "falencia",
@@ -6901,10 +6901,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::103-art-69": {
+  "lei-federal-11101-2005::103-art-69-j": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 69",
+    "rotulo": "Art. 69-J",
     "tema": [
       "IPTU",
       "falencia",
@@ -6924,10 +6924,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::104-art-69": {
+  "lei-federal-11101-2005::104-art-69-k": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 69",
+    "rotulo": "Art. 69-K",
     "tema": [
       "IPTU",
       "falencia",
@@ -6947,10 +6947,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::105-art-69": {
+  "lei-federal-11101-2005::105-art-69-l": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 69",
+    "rotulo": "Art. 69-L",
     "tema": [
       "IPTU",
       "falencia",
@@ -6993,10 +6993,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::107-art-70": {
+  "lei-federal-11101-2005::107-art-70-a": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 70",
+    "rotulo": "Art. 70-A",
     "tema": [
       "IPTU",
       "falencia",
@@ -7315,10 +7315,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::121-art-82": {
+  "lei-federal-11101-2005::121-art-82-a": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 82",
+    "rotulo": "Art. 82-A",
     "tema": [
       "IPTU",
       "falencia",
@@ -7338,10 +7338,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::122-art-82": {
+  "lei-federal-11101-2005::122-art-82-a": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 82",
+    "rotulo": "Art. 82-A",
     "tema": [
       "IPTU",
       "falencia",
@@ -8143,10 +8143,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::157-art-114": {
+  "lei-federal-11101-2005::157-art-114-a": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 114",
+    "rotulo": "Art. 114-A",
     "tema": [
       "IPTU",
       "falencia",
@@ -8925,10 +8925,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::191-art-144": {
+  "lei-federal-11101-2005::191-art-144-a": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 144",
+    "rotulo": "Art. 144-A",
     "tema": [
       "IPTU",
       "falencia",
@@ -9339,10 +9339,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::209-art-159": {
+  "lei-federal-11101-2005::209-art-159-a": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 159",
+    "rotulo": "Art. 159-A",
     "tema": [
       "IPTU",
       "falencia",
@@ -9592,10 +9592,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::220-art-167": {
+  "lei-federal-11101-2005::220-art-167-a": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 167",
+    "rotulo": "Art. 167-A",
     "tema": [
       "IPTU",
       "falencia",
@@ -9615,10 +9615,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::221-art-167": {
+  "lei-federal-11101-2005::221-art-167-b": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 167",
+    "rotulo": "Art. 167-B",
     "tema": [
       "IPTU",
       "falencia",
@@ -9638,10 +9638,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::222-art-167": {
+  "lei-federal-11101-2005::222-art-167-c": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 167",
+    "rotulo": "Art. 167-C",
     "tema": [
       "IPTU",
       "falencia",
@@ -9661,10 +9661,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::223-art-167": {
+  "lei-federal-11101-2005::223-art-167-d": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 167",
+    "rotulo": "Art. 167-D",
     "tema": [
       "IPTU",
       "falencia",
@@ -9684,10 +9684,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::224-art-167": {
+  "lei-federal-11101-2005::224-art-167-e": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 167",
+    "rotulo": "Art. 167-E",
     "tema": [
       "IPTU",
       "falencia",
@@ -9707,10 +9707,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::225-art-167": {
+  "lei-federal-11101-2005::225-art-167-f": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 167",
+    "rotulo": "Art. 167-F",
     "tema": [
       "IPTU",
       "falencia",
@@ -9730,10 +9730,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::226-art-167": {
+  "lei-federal-11101-2005::226-art-167-g": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 167",
+    "rotulo": "Art. 167-G",
     "tema": [
       "IPTU",
       "falencia",
@@ -9753,10 +9753,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::227-art-167": {
+  "lei-federal-11101-2005::227-art-167-h": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 167",
+    "rotulo": "Art. 167-H",
     "tema": [
       "IPTU",
       "falencia",
@@ -9776,10 +9776,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::228-art-167": {
+  "lei-federal-11101-2005::228-art-167-i": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 167",
+    "rotulo": "Art. 167-I",
     "tema": [
       "IPTU",
       "falencia",
@@ -9799,10 +9799,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::229-art-167": {
+  "lei-federal-11101-2005::229-art-167-j": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 167",
+    "rotulo": "Art. 167-J",
     "tema": [
       "IPTU",
       "falencia",
@@ -9822,10 +9822,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::230-art-167": {
+  "lei-federal-11101-2005::230-art-167-k": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 167",
+    "rotulo": "Art. 167-K",
     "tema": [
       "IPTU",
       "falencia",
@@ -9845,10 +9845,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::231-art-167": {
+  "lei-federal-11101-2005::231-art-167-l": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 167",
+    "rotulo": "Art. 167-L",
     "tema": [
       "IPTU",
       "falencia",
@@ -9868,10 +9868,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::232-art-167": {
+  "lei-federal-11101-2005::232-art-167-m": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 167",
+    "rotulo": "Art. 167-M",
     "tema": [
       "IPTU",
       "falencia",
@@ -9891,10 +9891,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::233-art-167": {
+  "lei-federal-11101-2005::233-art-167-n": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 167",
+    "rotulo": "Art. 167-N",
     "tema": [
       "IPTU",
       "falencia",
@@ -9914,10 +9914,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::234-art-167": {
+  "lei-federal-11101-2005::234-art-167-o": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 167",
+    "rotulo": "Art. 167-O",
     "tema": [
       "IPTU",
       "falencia",
@@ -9937,10 +9937,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::235-art-167": {
+  "lei-federal-11101-2005::235-art-167-p": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 167",
+    "rotulo": "Art. 167-P",
     "tema": [
       "IPTU",
       "falencia",
@@ -9960,10 +9960,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::236-art-167": {
+  "lei-federal-11101-2005::236-art-167-q": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 167",
+    "rotulo": "Art. 167-Q",
     "tema": [
       "IPTU",
       "falencia",
@@ -9983,10 +9983,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::237-art-167": {
+  "lei-federal-11101-2005::237-art-167-r": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 167",
+    "rotulo": "Art. 167-R",
     "tema": [
       "IPTU",
       "falencia",
@@ -10006,10 +10006,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::238-art-167": {
+  "lei-federal-11101-2005::238-art-167-s": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 167",
+    "rotulo": "Art. 167-S",
     "tema": [
       "IPTU",
       "falencia",
@@ -10029,10 +10029,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::239-art-167": {
+  "lei-federal-11101-2005::239-art-167-t": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 167",
+    "rotulo": "Art. 167-T",
     "tema": [
       "IPTU",
       "falencia",
@@ -10052,10 +10052,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::240-art-167": {
+  "lei-federal-11101-2005::240-art-167-u": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 167",
+    "rotulo": "Art. 167-U",
     "tema": [
       "IPTU",
       "falencia",
@@ -10075,10 +10075,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::241-art-167": {
+  "lei-federal-11101-2005::241-art-167-v": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 167",
+    "rotulo": "Art. 167-V",
     "tema": [
       "IPTU",
       "falencia",
@@ -10098,10 +10098,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::242-art-167": {
+  "lei-federal-11101-2005::242-art-167-w": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 167",
+    "rotulo": "Art. 167-W",
     "tema": [
       "IPTU",
       "falencia",
@@ -10121,10 +10121,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::243-art-167": {
+  "lei-federal-11101-2005::243-art-167-x": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 167",
+    "rotulo": "Art. 167-X",
     "tema": [
       "IPTU",
       "falencia",
@@ -10144,10 +10144,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::244-art-167": {
+  "lei-federal-11101-2005::244-art-167-y": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 167",
+    "rotulo": "Art. 167-Y",
     "tema": [
       "IPTU",
       "falencia",
@@ -10696,10 +10696,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::268-art-189": {
+  "lei-federal-11101-2005::268-art-189-a": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 189",
+    "rotulo": "Art. 189-A",
     "tema": [
       "IPTU",
       "falencia",
@@ -10834,10 +10834,10 @@
       ]
     }
   },
-  "lei-federal-11101-2005::274-art-193": {
+  "lei-federal-11101-2005::274-art-193-a": {
     "lei_id": "lei-federal-11101-2005",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 193",
+    "rotulo": "Art. 193-A",
     "tema": [
       "IPTU",
       "falencia",
@@ -11846,10 +11846,10 @@
       ]
     }
   },
-  "lei-federal-4591-1964::035-art-30": {
+  "lei-federal-4591-1964::035-art-30-a": {
     "lei_id": "lei-federal-4591-1964",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 30",
+    "rotulo": "Art. 30-A",
     "tema": [
       "IPTU",
       "condominio_edilicio",
@@ -11869,10 +11869,10 @@
       ]
     }
   },
-  "lei-federal-4591-1964::036-art-30": {
+  "lei-federal-4591-1964::036-art-30-b": {
     "lei_id": "lei-federal-4591-1964",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 30",
+    "rotulo": "Art. 30-B",
     "tema": [
       "IPTU",
       "condominio_edilicio",
@@ -11892,10 +11892,10 @@
       ]
     }
   },
-  "lei-federal-4591-1964::037-art-30": {
+  "lei-federal-4591-1964::037-art-30-c": {
     "lei_id": "lei-federal-4591-1964",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 30",
+    "rotulo": "Art. 30-C",
     "tema": [
       "IPTU",
       "condominio_edilicio",
@@ -11915,10 +11915,10 @@
       ]
     }
   },
-  "lei-federal-4591-1964::038-art-30": {
+  "lei-federal-4591-1964::038-art-30-d": {
     "lei_id": "lei-federal-4591-1964",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 30",
+    "rotulo": "Art. 30-D",
     "tema": [
       "IPTU",
       "condominio_edilicio",
@@ -11938,10 +11938,10 @@
       ]
     }
   },
-  "lei-federal-4591-1964::039-art-30": {
+  "lei-federal-4591-1964::039-art-30-e": {
     "lei_id": "lei-federal-4591-1964",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 30",
+    "rotulo": "Art. 30-E",
     "tema": [
       "IPTU",
       "condominio_edilicio",
@@ -11961,10 +11961,10 @@
       ]
     }
   },
-  "lei-federal-4591-1964::040-art-30": {
+  "lei-federal-4591-1964::040-art-30-f": {
     "lei_id": "lei-federal-4591-1964",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 30",
+    "rotulo": "Art. 30-F",
     "tema": [
       "IPTU",
       "condominio_edilicio",
@@ -11984,10 +11984,10 @@
       ]
     }
   },
-  "lei-federal-4591-1964::041-art-30": {
+  "lei-federal-4591-1964::041-art-30-g": {
     "lei_id": "lei-federal-4591-1964",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 30",
+    "rotulo": "Art. 30-G",
     "tema": [
       "IPTU",
       "condominio_edilicio",
@@ -12030,10 +12030,10 @@
       ]
     }
   },
-  "lei-federal-4591-1964::043-art-31": {
+  "lei-federal-4591-1964::043-art-31-a": {
     "lei_id": "lei-federal-4591-1964",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 31",
+    "rotulo": "Art. 31-A",
     "tema": [
       "IPTU",
       "condominio_edilicio",
@@ -12053,10 +12053,10 @@
       ]
     }
   },
-  "lei-federal-4591-1964::044-art-31": {
+  "lei-federal-4591-1964::044-art-31-b": {
     "lei_id": "lei-federal-4591-1964",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 31",
+    "rotulo": "Art. 31-B",
     "tema": [
       "IPTU",
       "condominio_edilicio",
@@ -12076,10 +12076,10 @@
       ]
     }
   },
-  "lei-federal-4591-1964::045-art-31": {
+  "lei-federal-4591-1964::045-art-31-c": {
     "lei_id": "lei-federal-4591-1964",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 31",
+    "rotulo": "Art. 31-C",
     "tema": [
       "IPTU",
       "condominio_edilicio",
@@ -12099,10 +12099,10 @@
       ]
     }
   },
-  "lei-federal-4591-1964::046-art-31": {
+  "lei-federal-4591-1964::046-art-31-d": {
     "lei_id": "lei-federal-4591-1964",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 31",
+    "rotulo": "Art. 31-D",
     "tema": [
       "IPTU",
       "condominio_edilicio",
@@ -12122,10 +12122,10 @@
       ]
     }
   },
-  "lei-federal-4591-1964::047-art-31": {
+  "lei-federal-4591-1964::047-art-31-e": {
     "lei_id": "lei-federal-4591-1964",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 31",
+    "rotulo": "Art. 31-E",
     "tema": [
       "IPTU",
       "condominio_edilicio",
@@ -12145,10 +12145,10 @@
       ]
     }
   },
-  "lei-federal-4591-1964::048-art-31": {
+  "lei-federal-4591-1964::048-art-31-f": {
     "lei_id": "lei-federal-4591-1964",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 31",
+    "rotulo": "Art. 31-F",
     "tema": [
       "IPTU",
       "condominio_edilicio",
@@ -12352,10 +12352,10 @@
       ]
     }
   },
-  "lei-federal-4591-1964::057-art-35": {
+  "lei-federal-4591-1964::057-art-35-a": {
     "lei_id": "lei-federal-4591-1964",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 35",
+    "rotulo": "Art. 35-A",
     "tema": [
       "IPTU",
       "condominio_edilicio",
@@ -12559,10 +12559,10 @@
       ]
     }
   },
-  "lei-federal-4591-1964::066-art-43": {
+  "lei-federal-4591-1964::066-art-43-a": {
     "lei_id": "lei-federal-4591-1964",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 43",
+    "rotulo": "Art. 43-A",
     "tema": [
       "IPTU",
       "condominio_edilicio",
@@ -13272,10 +13272,10 @@
       ]
     }
   },
-  "lei-federal-4591-1964::097-art-67": {
+  "lei-federal-4591-1964::097-art-67-a": {
     "lei_id": "lei-federal-4591-1964",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 67",
+    "rotulo": "Art. 67-A",
     "tema": [
       "IPTU",
       "condominio_edilicio",
@@ -15835,10 +15835,10 @@
       ]
     }
   },
-  "lei-federal-6015-1973::103-art-70": {
+  "lei-federal-6015-1973::103-art-70-a": {
     "lei_id": "lei-federal-6015-1973",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 70",
+    "rotulo": "Art. 70-A",
     "tema": [
       "IPTU",
       "registros_publicos",
@@ -16507,10 +16507,10 @@
       ]
     }
   },
-  "lei-federal-6015-1973::131-art-94": {
+  "lei-federal-6015-1973::131-art-94-a": {
     "lei_id": "lei-federal-6015-1973",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 94",
+    "rotulo": "Art. 94-A",
     "tema": [
       "IPTU",
       "registros_publicos",
@@ -17491,10 +17491,10 @@
       ]
     }
   },
-  "lei-federal-6015-1973::172-art-127": {
+  "lei-federal-6015-1973::172-art-127-a": {
     "lei_id": "lei-federal-6015-1973",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 127",
+    "rotulo": "Art. 127-A",
     "tema": [
       "IPTU",
       "registros_publicos",
@@ -17515,10 +17515,10 @@
       ]
     }
   },
-  "lei-federal-6015-1973::173-art-127": {
+  "lei-federal-6015-1973::173-art-127-a": {
     "lei_id": "lei-federal-6015-1973",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 127",
+    "rotulo": "Art. 127-A",
     "tema": [
       "IPTU",
       "registros_publicos",
@@ -19027,10 +19027,10 @@
       ]
     }
   },
-  "lei-federal-6015-1973::236-art-176": {
+  "lei-federal-6015-1973::236-art-176-a": {
     "lei_id": "lei-federal-6015-1973",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 176",
+    "rotulo": "Art. 176-A",
     "tema": [
       "IPTU",
       "registros_publicos",
@@ -19051,10 +19051,10 @@
       ]
     }
   },
-  "lei-federal-6015-1973::237-art-176": {
+  "lei-federal-6015-1973::237-art-176-a": {
     "lei_id": "lei-federal-6015-1973",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 176",
+    "rotulo": "Art. 176-A",
     "tema": [
       "IPTU",
       "registros_publicos",
@@ -19075,10 +19075,10 @@
       ]
     }
   },
-  "lei-federal-6015-1973::238-art-176": {
+  "lei-federal-6015-1973::238-art-176-a": {
     "lei_id": "lei-federal-6015-1973",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 176",
+    "rotulo": "Art. 176-A",
     "tema": [
       "IPTU",
       "registros_publicos",
@@ -19099,10 +19099,10 @@
       ]
     }
   },
-  "lei-federal-6015-1973::239-art-176": {
+  "lei-federal-6015-1973::239-art-176-b": {
     "lei_id": "lei-federal-6015-1973",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 176",
+    "rotulo": "Art. 176-B",
     "tema": [
       "IPTU",
       "registros_publicos",
@@ -20227,10 +20227,10 @@
       ]
     }
   },
-  "lei-federal-6015-1973::286-art-195": {
+  "lei-federal-6015-1973::286-art-195-a": {
     "lei_id": "lei-federal-6015-1973",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 195",
+    "rotulo": "Art. 195-A",
     "tema": [
       "IPTU",
       "registros_publicos",
@@ -20251,10 +20251,10 @@
       ]
     }
   },
-  "lei-federal-6015-1973::287-art-195": {
+  "lei-federal-6015-1973::287-art-195-a": {
     "lei_id": "lei-federal-6015-1973",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 195",
+    "rotulo": "Art. 195-A",
     "tema": [
       "IPTU",
       "registros_publicos",
@@ -20275,10 +20275,10 @@
       ]
     }
   },
-  "lei-federal-6015-1973::288-art-195": {
+  "lei-federal-6015-1973::288-art-195-a": {
     "lei_id": "lei-federal-6015-1973",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 195",
+    "rotulo": "Art. 195-A",
     "tema": [
       "IPTU",
       "registros_publicos",
@@ -20299,10 +20299,10 @@
       ]
     }
   },
-  "lei-federal-6015-1973::289-art-195": {
+  "lei-federal-6015-1973::289-art-195-a": {
     "lei_id": "lei-federal-6015-1973",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 195",
+    "rotulo": "Art. 195-A",
     "tema": [
       "IPTU",
       "registros_publicos",
@@ -20323,10 +20323,10 @@
       ]
     }
   },
-  "lei-federal-6015-1973::290-art-195": {
+  "lei-federal-6015-1973::290-art-195-b": {
     "lei_id": "lei-federal-6015-1973",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 195",
+    "rotulo": "Art. 195-B",
     "tema": [
       "IPTU",
       "registros_publicos",
@@ -20347,10 +20347,10 @@
       ]
     }
   },
-  "lei-federal-6015-1973::291-art-195": {
+  "lei-federal-6015-1973::291-art-195-b": {
     "lei_id": "lei-federal-6015-1973",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 195",
+    "rotulo": "Art. 195-B",
     "tema": [
       "IPTU",
       "registros_publicos",
@@ -20371,10 +20371,10 @@
       ]
     }
   },
-  "lei-federal-6015-1973::292-art-195": {
+  "lei-federal-6015-1973::292-art-195-b": {
     "lei_id": "lei-federal-6015-1973",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 195",
+    "rotulo": "Art. 195-B",
     "tema": [
       "IPTU",
       "registros_publicos",
@@ -20395,10 +20395,10 @@
       ]
     }
   },
-  "lei-federal-6015-1973::293-art-195": {
+  "lei-federal-6015-1973::293-art-195-b": {
     "lei_id": "lei-federal-6015-1973",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 195",
+    "rotulo": "Art. 195-B",
     "tema": [
       "IPTU",
       "registros_publicos",
@@ -20419,10 +20419,10 @@
       ]
     }
   },
-  "lei-federal-6015-1973::294-art-195": {
+  "lei-federal-6015-1973::294-art-195-b": {
     "lei_id": "lei-federal-6015-1973",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 195",
+    "rotulo": "Art. 195-B",
     "tema": [
       "IPTU",
       "registros_publicos",
@@ -20443,10 +20443,10 @@
       ]
     }
   },
-  "lei-federal-6015-1973::295-art-195": {
+  "lei-federal-6015-1973::295-art-195-b": {
     "lei_id": "lei-federal-6015-1973",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 195",
+    "rotulo": "Art. 195-B",
     "tema": [
       "IPTU",
       "registros_publicos",
@@ -20467,10 +20467,10 @@
       ]
     }
   },
-  "lei-federal-6015-1973::296-art-195": {
+  "lei-federal-6015-1973::296-art-195-b": {
     "lei_id": "lei-federal-6015-1973",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 195",
+    "rotulo": "Art. 195-B",
     "tema": [
       "IPTU",
       "registros_publicos",
@@ -20491,10 +20491,10 @@
       ]
     }
   },
-  "lei-federal-6015-1973::297-art-195": {
+  "lei-federal-6015-1973::297-art-195-b": {
     "lei_id": "lei-federal-6015-1973",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 195",
+    "rotulo": "Art. 195-B",
     "tema": [
       "IPTU",
       "registros_publicos",
@@ -21355,10 +21355,10 @@
       ]
     }
   },
-  "lei-federal-6015-1973::333-art-206": {
+  "lei-federal-6015-1973::333-art-206-a": {
     "lei_id": "lei-federal-6015-1973",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 206",
+    "rotulo": "Art. 206-A",
     "tema": [
       "IPTU",
       "registros_publicos",
@@ -21379,10 +21379,10 @@
       ]
     }
   },
-  "lei-federal-6015-1973::334-art-206": {
+  "lei-federal-6015-1973::334-art-206-a": {
     "lei_id": "lei-federal-6015-1973",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 206",
+    "rotulo": "Art. 206-A",
     "tema": [
       "IPTU",
       "registros_publicos",
@@ -21691,10 +21691,10 @@
       ]
     }
   },
-  "lei-federal-6015-1973::347-art-216": {
+  "lei-federal-6015-1973::347-art-216-a": {
     "lei_id": "lei-federal-6015-1973",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 216",
+    "rotulo": "Art. 216-A",
     "tema": [
       "IPTU",
       "registros_publicos",
@@ -21715,10 +21715,10 @@
       ]
     }
   },
-  "lei-federal-6015-1973::348-art-216": {
+  "lei-federal-6015-1973::348-art-216-b": {
     "lei_id": "lei-federal-6015-1973",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 216",
+    "rotulo": "Art. 216-B",
     "tema": [
       "IPTU",
       "registros_publicos",
@@ -22531,10 +22531,10 @@
       ]
     }
   },
-  "lei-federal-6015-1973::382-art-235": {
+  "lei-federal-6015-1973::382-art-235-a": {
     "lei_id": "lei-federal-6015-1973",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 235",
+    "rotulo": "Art. 235-A",
     "tema": [
       "IPTU",
       "registros_publicos",
@@ -22747,10 +22747,10 @@
       ]
     }
   },
-  "lei-federal-6015-1973::391-art-237": {
+  "lei-federal-6015-1973::391-art-237-a": {
     "lei_id": "lei-federal-6015-1973",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 237",
+    "rotulo": "Art. 237-A",
     "tema": [
       "IPTU",
       "registros_publicos",
@@ -22771,10 +22771,10 @@
       ]
     }
   },
-  "lei-federal-6015-1973::392-art-237": {
+  "lei-federal-6015-1973::392-art-237-a": {
     "lei_id": "lei-federal-6015-1973",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 237",
+    "rotulo": "Art. 237-A",
     "tema": [
       "IPTU",
       "registros_publicos",
@@ -22795,10 +22795,10 @@
       ]
     }
   },
-  "lei-federal-6015-1973::393-art-237": {
+  "lei-federal-6015-1973::393-art-237-a": {
     "lei_id": "lei-federal-6015-1973",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 237",
+    "rotulo": "Art. 237-A",
     "tema": [
       "IPTU",
       "registros_publicos",
@@ -23347,10 +23347,10 @@
       ]
     }
   },
-  "lei-federal-6015-1973::416-art-247": {
+  "lei-federal-6015-1973::416-art-247-a": {
     "lei_id": "lei-federal-6015-1973",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 247",
+    "rotulo": "Art. 247-A",
     "tema": [
       "IPTU",
       "registros_publicos",
@@ -23707,10 +23707,10 @@
       ]
     }
   },
-  "lei-federal-6015-1973::431-art-251": {
+  "lei-federal-6015-1973::431-art-251-a": {
     "lei_id": "lei-federal-6015-1973",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 251",
+    "rotulo": "Art. 251-A",
     "tema": [
       "IPTU",
       "registros_publicos",
@@ -24691,10 +24691,10 @@
       ]
     }
   },
-  "lei-federal-6015-1973::472-art-288": {
+  "lei-federal-6015-1973::472-art-288-a": {
     "lei_id": "lei-federal-6015-1973",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 288",
+    "rotulo": "Art. 288-A",
     "tema": [
       "IPTU",
       "registros_publicos",
@@ -24715,10 +24715,10 @@
       ]
     }
   },
-  "lei-federal-6015-1973::473-art-288": {
+  "lei-federal-6015-1973::473-art-288-b": {
     "lei_id": "lei-federal-6015-1973",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 288",
+    "rotulo": "Art. 288-B",
     "tema": [
       "IPTU",
       "registros_publicos",
@@ -24739,10 +24739,10 @@
       ]
     }
   },
-  "lei-federal-6015-1973::474-art-288": {
+  "lei-federal-6015-1973::474-art-288-c": {
     "lei_id": "lei-federal-6015-1973",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 288",
+    "rotulo": "Art. 288-C",
     "tema": [
       "IPTU",
       "registros_publicos",
@@ -24763,10 +24763,10 @@
       ]
     }
   },
-  "lei-federal-6015-1973::475-art-288": {
+  "lei-federal-6015-1973::475-art-288-d": {
     "lei_id": "lei-federal-6015-1973",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 288",
+    "rotulo": "Art. 288-D",
     "tema": [
       "IPTU",
       "registros_publicos",
@@ -24787,10 +24787,10 @@
       ]
     }
   },
-  "lei-federal-6015-1973::476-art-288": {
+  "lei-federal-6015-1973::476-art-288-e": {
     "lei_id": "lei-federal-6015-1973",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 288",
+    "rotulo": "Art. 288-E",
     "tema": [
       "IPTU",
       "registros_publicos",
@@ -24811,10 +24811,10 @@
       ]
     }
   },
-  "lei-federal-6015-1973::477-art-288": {
+  "lei-federal-6015-1973::477-art-288-f": {
     "lei_id": "lei-federal-6015-1973",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 288",
+    "rotulo": "Art. 288-F",
     "tema": [
       "IPTU",
       "registros_publicos",
@@ -24835,10 +24835,10 @@
       ]
     }
   },
-  "lei-federal-6015-1973::478-art-288": {
+  "lei-federal-6015-1973::478-art-288-g": {
     "lei_id": "lei-federal-6015-1973",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 288",
+    "rotulo": "Art. 288-G",
     "tema": [
       "IPTU",
       "registros_publicos",
@@ -24859,10 +24859,10 @@
       ]
     }
   },
-  "lei-federal-6015-1973::479-art-288": {
+  "lei-federal-6015-1973::479-art-288-a": {
     "lei_id": "lei-federal-6015-1973",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 288",
+    "rotulo": "Art. 288-A",
     "tema": [
       "IPTU",
       "registros_publicos",
@@ -24883,10 +24883,10 @@
       ]
     }
   },
-  "lei-federal-6015-1973::480-art-288": {
+  "lei-federal-6015-1973::480-art-288-a": {
     "lei_id": "lei-federal-6015-1973",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 288",
+    "rotulo": "Art. 288-A",
     "tema": [
       "IPTU",
       "registros_publicos",
@@ -24907,10 +24907,10 @@
       ]
     }
   },
-  "lei-federal-6015-1973::481-art-288": {
+  "lei-federal-6015-1973::481-art-288-b": {
     "lei_id": "lei-federal-6015-1973",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 288",
+    "rotulo": "Art. 288-B",
     "tema": [
       "IPTU",
       "registros_publicos",
@@ -24931,10 +24931,10 @@
       ]
     }
   },
-  "lei-federal-6015-1973::482-art-288": {
+  "lei-federal-6015-1973::482-art-288-c": {
     "lei_id": "lei-federal-6015-1973",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 288",
+    "rotulo": "Art. 288-C",
     "tema": [
       "IPTU",
       "registros_publicos",
@@ -24955,10 +24955,10 @@
       ]
     }
   },
-  "lei-federal-6015-1973::483-art-288": {
+  "lei-federal-6015-1973::483-art-288-d": {
     "lei_id": "lei-federal-6015-1973",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 288",
+    "rotulo": "Art. 288-D",
     "tema": [
       "IPTU",
       "registros_publicos",
@@ -24979,10 +24979,10 @@
       ]
     }
   },
-  "lei-federal-6015-1973::484-art-288": {
+  "lei-federal-6015-1973::484-art-288-e": {
     "lei_id": "lei-federal-6015-1973",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 288",
+    "rotulo": "Art. 288-E",
     "tema": [
       "IPTU",
       "registros_publicos",
@@ -25003,10 +25003,10 @@
       ]
     }
   },
-  "lei-federal-6015-1973::485-art-288": {
+  "lei-federal-6015-1973::485-art-288-f": {
     "lei_id": "lei-federal-6015-1973",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 288",
+    "rotulo": "Art. 288-F",
     "tema": [
       "IPTU",
       "registros_publicos",
@@ -25027,10 +25027,10 @@
       ]
     }
   },
-  "lei-federal-6015-1973::486-art-288": {
+  "lei-federal-6015-1973::486-art-288-g": {
     "lei_id": "lei-federal-6015-1973",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 288",
+    "rotulo": "Art. 288-G",
     "tema": [
       "IPTU",
       "registros_publicos",
@@ -25507,10 +25507,10 @@
       ]
     }
   },
-  "lei-federal-6015-1973::506-art-290": {
+  "lei-federal-6015-1973::506-art-290-a": {
     "lei_id": "lei-federal-6015-1973",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 290",
+    "rotulo": "Art. 290-A",
     "tema": [
       "IPTU",
       "registros_publicos",
@@ -27412,10 +27412,10 @@
       ]
     }
   },
-  "lei-federal-8668-1993::018-art-16": {
+  "lei-federal-8668-1993::018-art-16-a": {
     "lei_id": "lei-federal-8668-1993",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 16",
+    "rotulo": "Art. 16-A",
     "tema": [
       "IPTU",
       "fundo_investimento_imobiliario",
@@ -27580,10 +27580,10 @@
       ]
     }
   },
-  "lei-federal-8668-1993::026-art-20": {
+  "lei-federal-8668-1993::026-art-20-a": {
     "lei_id": "lei-federal-8668-1993",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 20",
+    "rotulo": "Art. 20-A",
     "tema": [
       "IPTU",
       "fundo_investimento_imobiliario",
@@ -27601,10 +27601,10 @@
       ]
     }
   },
-  "lei-federal-8668-1993::027-art-20": {
+  "lei-federal-8668-1993::027-art-20-a": {
     "lei_id": "lei-federal-8668-1993",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 20",
+    "rotulo": "Art. 20-A",
     "tema": [
       "IPTU",
       "fundo_investimento_imobiliario",
@@ -27622,10 +27622,10 @@
       ]
     }
   },
-  "lei-federal-8668-1993::028-art-20": {
+  "lei-federal-8668-1993::028-art-20-b": {
     "lei_id": "lei-federal-8668-1993",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 20",
+    "rotulo": "Art. 20-B",
     "tema": [
       "IPTU",
       "fundo_investimento_imobiliario",
@@ -27643,10 +27643,10 @@
       ]
     }
   },
-  "lei-federal-8668-1993::029-art-20": {
+  "lei-federal-8668-1993::029-art-20-c": {
     "lei_id": "lei-federal-8668-1993",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 20",
+    "rotulo": "Art. 20-C",
     "tema": [
       "IPTU",
       "fundo_investimento_imobiliario",
@@ -27664,10 +27664,10 @@
       ]
     }
   },
-  "lei-federal-8668-1993::030-art-20": {
+  "lei-federal-8668-1993::030-art-20-d": {
     "lei_id": "lei-federal-8668-1993",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 20",
+    "rotulo": "Art. 20-D",
     "tema": [
       "IPTU",
       "fundo_investimento_imobiliario",
@@ -27685,10 +27685,10 @@
       ]
     }
   },
-  "lei-federal-8668-1993::031-art-20": {
+  "lei-federal-8668-1993::031-art-20-e": {
     "lei_id": "lei-federal-8668-1993",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 20",
+    "rotulo": "Art. 20-E",
     "tema": [
       "IPTU",
       "fundo_investimento_imobiliario",
@@ -27706,10 +27706,10 @@
       ]
     }
   },
-  "lei-federal-8668-1993::032-art-20": {
+  "lei-federal-8668-1993::032-art-20-f": {
     "lei_id": "lei-federal-8668-1993",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 20",
+    "rotulo": "Art. 20-F",
     "tema": [
       "IPTU",
       "fundo_investimento_imobiliario",
@@ -28407,10 +28407,10 @@
       ]
     }
   },
-  "lei-federal-9514-1997::030-art-26": {
+  "lei-federal-9514-1997::030-art-26-a": {
     "lei_id": "lei-federal-9514-1997",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 26",
+    "rotulo": "Art. 26-A",
     "tema": [
       "IPTU",
       "alienacao_fiduciaria",
@@ -28429,10 +28429,10 @@
       ]
     }
   },
-  "lei-federal-9514-1997::031-art-26": {
+  "lei-federal-9514-1997::031-art-26-a": {
     "lei_id": "lei-federal-9514-1997",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 26",
+    "rotulo": "Art. 26-A",
     "tema": [
       "IPTU",
       "alienacao_fiduciaria",
@@ -28495,10 +28495,10 @@
       ]
     }
   },
-  "lei-federal-9514-1997::034-art-27": {
+  "lei-federal-9514-1997::034-art-27-a": {
     "lei_id": "lei-federal-9514-1997",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 27",
+    "rotulo": "Art. 27-A",
     "tema": [
       "IPTU",
       "alienacao_fiduciaria",
@@ -28671,10 +28671,10 @@
       ]
     }
   },
-  "lei-federal-9514-1997::042-art-33": {
+  "lei-federal-9514-1997::042-art-33-a": {
     "lei_id": "lei-federal-9514-1997",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 33",
+    "rotulo": "Art. 33-A",
     "tema": [
       "IPTU",
       "alienacao_fiduciaria",
@@ -28693,10 +28693,10 @@
       ]
     }
   },
-  "lei-federal-9514-1997::043-art-33": {
+  "lei-federal-9514-1997::043-art-33-b": {
     "lei_id": "lei-federal-9514-1997",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 33",
+    "rotulo": "Art. 33-B",
     "tema": [
       "IPTU",
       "alienacao_fiduciaria",
@@ -28715,10 +28715,10 @@
       ]
     }
   },
-  "lei-federal-9514-1997::044-art-33": {
+  "lei-federal-9514-1997::044-art-33-c": {
     "lei_id": "lei-federal-9514-1997",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 33",
+    "rotulo": "Art. 33-C",
     "tema": [
       "IPTU",
       "alienacao_fiduciaria",
@@ -28737,10 +28737,10 @@
       ]
     }
   },
-  "lei-federal-9514-1997::045-art-33": {
+  "lei-federal-9514-1997::045-art-33-d": {
     "lei_id": "lei-federal-9514-1997",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 33",
+    "rotulo": "Art. 33-D",
     "tema": [
       "IPTU",
       "alienacao_fiduciaria",
@@ -28759,10 +28759,10 @@
       ]
     }
   },
-  "lei-federal-9514-1997::046-art-33": {
+  "lei-federal-9514-1997::046-art-33-e": {
     "lei_id": "lei-federal-9514-1997",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 33",
+    "rotulo": "Art. 33-E",
     "tema": [
       "IPTU",
       "alienacao_fiduciaria",
@@ -28781,10 +28781,10 @@
       ]
     }
   },
-  "lei-federal-9514-1997::047-art-33": {
+  "lei-federal-9514-1997::047-art-33-f": {
     "lei_id": "lei-federal-9514-1997",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 33",
+    "rotulo": "Art. 33-F",
     "tema": [
       "IPTU",
       "alienacao_fiduciaria",
@@ -28913,10 +28913,10 @@
       ]
     }
   },
-  "lei-federal-9514-1997::053-art-37": {
+  "lei-federal-9514-1997::053-art-37-a": {
     "lei_id": "lei-federal-9514-1997",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 37",
+    "rotulo": "Art. 37-A",
     "tema": [
       "IPTU",
       "alienacao_fiduciaria",
@@ -28935,10 +28935,10 @@
       ]
     }
   },
-  "lei-federal-9514-1997::054-art-37": {
+  "lei-federal-9514-1997::054-art-37-a": {
     "lei_id": "lei-federal-9514-1997",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 37",
+    "rotulo": "Art. 37-A",
     "tema": [
       "IPTU",
       "alienacao_fiduciaria",
@@ -28957,10 +28957,10 @@
       ]
     }
   },
-  "lei-federal-9514-1997::055-art-37": {
+  "lei-federal-9514-1997::055-art-37-a": {
     "lei_id": "lei-federal-9514-1997",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 37",
+    "rotulo": "Art. 37-A",
     "tema": [
       "IPTU",
       "alienacao_fiduciaria",
@@ -28979,10 +28979,10 @@
       ]
     }
   },
-  "lei-federal-9514-1997::056-art-37": {
+  "lei-federal-9514-1997::056-art-37-a": {
     "lei_id": "lei-federal-9514-1997",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 37",
+    "rotulo": "Art. 37-A",
     "tema": [
       "IPTU",
       "alienacao_fiduciaria",
@@ -29001,10 +29001,10 @@
       ]
     }
   },
-  "lei-federal-9514-1997::057-art-37": {
+  "lei-federal-9514-1997::057-art-37-b": {
     "lei_id": "lei-federal-9514-1997",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 37",
+    "rotulo": "Art. 37-B",
     "tema": [
       "IPTU",
       "alienacao_fiduciaria",
@@ -29023,10 +29023,10 @@
       ]
     }
   },
-  "lei-federal-9514-1997::058-art-37": {
+  "lei-federal-9514-1997::058-art-37-b": {
     "lei_id": "lei-federal-9514-1997",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 37",
+    "rotulo": "Art. 37-B",
     "tema": [
       "IPTU",
       "alienacao_fiduciaria",
@@ -29045,10 +29045,10 @@
       ]
     }
   },
-  "lei-federal-9514-1997::059-art-37": {
+  "lei-federal-9514-1997::059-art-37-c": {
     "lei_id": "lei-federal-9514-1997",
     "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 37",
+    "rotulo": "Art. 37-C",
     "tema": [
       "IPTU",
       "alienacao_fiduciaria",

@@ -11,8 +11,12 @@ Checagens (todas determinísticas, sem rede):
   2. ENGINE   — engines/tdc/oodc.py sai 0 (as fórmulas conferem; número nasce no engine, 1.3).
   3. CORPUS   — nenhum stray tag de tool-call (</invoke> etc.) contaminando o verbatim/índice.
   4. MANIFESTO— regenerar é idempotente: rodar consolidar.py NÃO muda MANIFESTO.json (estava atualizado).
-  5. BACKLOG  — BACKLOG.md carrega "Atualizado: <hoje>" (senão a próxima sessão vê backlog velho como novo).
-  6. GIT      — working tree limpo (SOFT: só avisa; trabalho não-commitado não é durável).
+  5. BACKLOG  — BACKLOG.md (HEADER) carrega "Atualizado: <hoje>" (senão a próxima sessão vê backlog velho como novo).
+  6. GIT      — working tree limpo E HEAD pushado (SOFT: só avisam; não-commitado/não-pushado = não-durável).
+
+ESCOPO HONESTO (F-4): isto prova 5 INVARIANTES MECÂNICAS de CONTEÚDO + 2 avisos de durabilidade.
+NÃO substitui o julgamento e NÃO cobre: regressão dos 14 municipais, links dos docs, handoff atualizado,
+mérito jurídico. "Gate verde" = esses 5 eixos passaram, não "tudo certo".
 
 Sai 0 = VERDE (pode fechar). Sai 1 = pendência mecânica → resolva ANTES de declarar "fechado".
 Uso:  python3 scripts/fechar-instancia.py
@@ -47,12 +51,15 @@ def check_stray_tags():
     # Só a CORPUS-DATA importa: num .md/.json de lei/jurisprudência/índice, uma tag de tool-call é
     # SEMPRE corrupção (já aconteceu: </invoke> vazou para a 7228 e o índice). Código .py é excluído
     # de propósito — pode conter o token legitimamente (este próprio gate define a regex como string).
-    alvo = ["leis", "rag", "jurisprudencia"]
+    # B-13/F-3: além do corpus, varre os dados que alimentam evals/engine/produto (ground-truth,
+    # tabelas, tese, extração) + .csv — uma tag vazada ali contamina silenciosamente. .py fica de fora
+    # (pode conter o token legitimamente, como este próprio gate).
+    alvo = ["leis", "rag", "jurisprudencia", "evals/ground-truth", "tabelas", "tese", "extracao"]
     rx = re.compile(r"</?(invoke|content|parameter|function)>")
     sujos = []
     for base in alvo:
         for p in (RAIZ / base).rglob("*"):
-            if not p.is_file() or p.suffix not in (".json", ".md", ".txt"):
+            if not p.is_file() or p.suffix not in (".json", ".md", ".txt", ".csv"):
                 continue
             try:
                 if rx.search(p.read_text(encoding="utf-8")):
@@ -66,10 +73,11 @@ def check_manifesto_idempotente():
     rc, _ = _run(["scripts/consolidar.py"])
     if rc != 0:
         return False, f"consolidar.py quebrou (exit {rc})"
-    d = subprocess.run(["git", "diff", "--quiet", "MANIFESTO.json"], cwd=RAIZ)
+    # F-7: compara contra HEAD (o commitado), não contra o índice de staging.
+    d = subprocess.run(["git", "diff", "--quiet", "HEAD", "--", "MANIFESTO.json"], cwd=RAIZ)
     if d.returncode == 0:
-        return True, "MANIFESTO.json já estava atualizado (idempotente)"
-    return False, "MANIFESTO.json mudou ao regenerar — você commitou um MANIFESTO velho? rode consolidar e re-commite"
+        return True, "MANIFESTO.json commitado == regenerado (idempotente)"
+    return False, "MANIFESTO.json regenerado difere do commitado — rode consolidar e re-commite"
 
 
 def check_backlog_fresh():
@@ -78,15 +86,27 @@ def check_backlog_fresh():
     if not bp.exists():
         return False, "BACKLOG.md ausente — o mecanismo anti-perda depende dele"
     txt = bp.read_text(encoding="utf-8")
-    if f"Atualizado: {hoje}" in txt or f"Atualizado:** {hoje}" in txt:
-        return True, f"BACKLOG.md atualizado hoje ({hoje})"
-    return False, f"BACKLOG.md sem 'Atualizado: {hoje}' — atualize a data e revise as ABERTAS antes de fechar"
+    # F-5: ancora à LINHA do header (`**Atualizado: <hoje>.**`), não a qualquer ocorrência da data
+    # (senão uma data no rastro/exemplo passa o check com o header velho).
+    if re.search(rf"(?m)^\s*>?\s*\*\*Atualizado:\s*{re.escape(hoje)}", txt):
+        return True, f"BACKLOG.md (header) atualizado hoje ({hoje})"
+    return False, f"BACKLOG.md sem header 'Atualizado: {hoje}' — atualize a data do header e revise as ABERTAS"
 
 
 def check_git_clean():
     p = subprocess.run(["git", "status", "--porcelain"], cwd=RAIZ, capture_output=True, text=True)
     sujo = [l for l in p.stdout.splitlines() if l.strip()]
     return (not sujo), "working tree limpo" if not sujo else f"{len(sujo)} arquivo(s) não-commitado(s) — commite+push antes de fechar (trabalho não-durável)"
+
+
+def check_pushed():
+    """F-4: 'commitei' ≠ 'pushei'. Conta commits locais à frente do upstream."""
+    r = subprocess.run(["git", "rev-list", "--count", "@{u}..HEAD"], cwd=RAIZ,
+                       capture_output=True, text=True)
+    if r.returncode != 0:
+        return True, "sem upstream configurado (não dá p/ checar push)"
+    n = (r.stdout or "0").strip()
+    return (n == "0"), "HEAD pushado (== upstream)" if n == "0" else f"{n} commit(s) NÃO pushado(s) — trabalho não-durável"
 
 
 def main():
@@ -103,9 +123,10 @@ def main():
         ok, msg = fn()
         print(f"  [{'VERDE ' if ok else 'VERMELHO'}] {nome}: {msg}")
         falhou = falhou or not ok
-    # SOFT (não derruba o gate, mas avisa)
-    ok, msg = check_git_clean()
-    print(f"  [{'verde ' if ok else 'AVISO '}] GIT (durabilidade): {msg}")
+    # SOFT (não derrubam o gate, mas avisam — durabilidade não é invariante mecânica do conteúdo)
+    for nome, fn in (("GIT limpo", check_git_clean), ("GIT pushado", check_pushed)):
+        ok, msg = fn()
+        print(f"  [{'verde ' if ok else 'AVISO '}] {nome} (durabilidade): {msg}")
 
     print("─────────────────────────────────────────────────────────────────────────────")
     if falhou:

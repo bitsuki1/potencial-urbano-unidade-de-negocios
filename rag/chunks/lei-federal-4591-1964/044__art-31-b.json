@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-4591-1964::044-art-31-b",
+  "lei_id": "lei-federal-4591-1964",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 31-B",
+  "numero": "31-B",
+  "caminho_hierarquico": [
+    "Título II",
+    "CAPÍTULO I-A.",
+    "Art. 31-B"
+  ],
+  "texto": "Art. 31-B. Considera-se constituído o patrimônio de afetação mediante averbação, a qualquer tempo, no Registro de Imóveis, de termo firmado pelo incorporador e, quando for o caso, também pelos titulares de direitos reais de aquisição sobre o terreno.              (Incluído pela Lei nº 10.931, de 2004)\n\nParágrafo único. A averbação não será obstada pela existência de ônus reais que tenham sido constituídos sobre o imóvel objeto da incorporação para garantia do pagamento do preço de sua aquisição ou do cumprimento de obrigação de construir o empreendimento.                 (Incluído pela Lei nº 10.931, de 2004)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 4591/1964 — Brasil",
+    "dispositivo": "Título II › CAPÍTULO I-A. › Art. 31-B",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l4591.htm",
+    "vigencia": {
+      "inicio": "1964-12-16",
+      "fim": null,
+      "revogada_por": "parcialmente — a parte de condomínio convive com o Código Civil/2002 (arts. 1.331 e ss.)",
+      "altera": [],
+      "alterada_por": [
+        "Código Civil/2002 (Lei 10.406/2002)",
+        "Lei 10.931/2004 (patrimônio de afetação)",
+        "Lei 4.864/1965"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "condominio_edilicio",
+    "incorporacao_imobiliaria",
+    "unidade_autonoma"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
+}

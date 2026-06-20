@@ -40,7 +40,18 @@ jobs:
       - name: Regenerar MANIFESTO.json
         run: python3 scripts/consolidar.py
 
-      - name: Commitar artefatos derivados se mudaram
+      # GATES ANTES de publicar (achado B-13/F-6): se um gate reprovar, o build falha SEM ter
+      # commitado/pushado o índice quebrado. Reordenado em 2026-06-20 (antes commitava primeiro).
+      # GATE de aceite (Parte 3): falha se algum ground-truth ATIVO quebrar (aguardando_verbatim não bloqueia).
+      - name: Evals (gate = citação correta)
+        run: python3 evals/rodar-evals.py
+
+      # GATE do engine (1.3 — número nasce no engine): auto-teste das fórmulas OODC/TDC.
+      - name: Engine OODC/TDC (auto-teste das fórmulas)
+        run: python3 engines/tdc/oodc.py
+
+      # Só DEPOIS dos gates verdes: commita os artefatos derivados.
+      - name: Commitar artefatos derivados se mudaram (após gates verdes)
         run: |
           if ! git diff --quiet MANIFESTO.json rag/ leis/ ; then
             git config user.name  "github-actions[bot]"
@@ -51,12 +62,3 @@ jobs:
           else
             echo "Artefatos derivados já estão atualizados."
           fi
-
-      # GATE de aceite (CLAUDE.md Parte 3 — validação): roda DEPOIS de reconstruir o índice.
-      # Falha o build se algum ground-truth ATIVO quebrar (os 'aguardando_verbatim' não bloqueiam).
-      - name: Evals (gate = citação correta)
-        run: python3 evals/rodar-evals.py
-
-      # GATE do engine (1.3 — número nasce no engine): auto-teste das fórmulas OODC/TDC.
-      - name: Engine OODC/TDC (auto-teste das fórmulas)
-        run: python3 engines/tdc/oodc.py

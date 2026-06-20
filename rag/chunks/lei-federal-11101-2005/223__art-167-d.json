@@ -1,0 +1,36 @@
+{
+  "chunk_id": "lei-federal-11101-2005::223-art-167-d",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 167-D",
+  "numero": "167-D",
+  "caminho_hierarquico": [
+    "CAPÍTULO VI-A",
+    "Art. 167-D"
+  ],
+  "texto": "Art. 167-D. O juízo do local do principal estabelecimento do devedor no Brasil é o competente para o reconhecimento de processo estrangeiro e para a cooperação com a autoridade estrangeira nos termos deste Capítulo.     (Incluído pela Lei nº 14.112, de 2020)    (Vigência)\n\n§ 1º A distribuição do pedido de reconhecimento do processo estrangeiro previne a jurisdição para qualquer pedido de recuperação judicial, de recuperação extrajudicial ou de falência relativo ao devedor.\n\n§ 2º A distribuição do pedido de recuperação judicial, de recuperação extrajudicial ou de falência previne a jurisdição para qualquer pedido de reconhecimento de processo estrangeiro relativo ao devedor.’",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO VI-A › Art. 167-D",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

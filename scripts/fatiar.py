@@ -34,8 +34,10 @@ from pathlib import Path
 RAIZ = Path(__file__).resolve().parent.parent
 MARCADOR_VERBATIM = "## Texto integral (verbatim)"
 
-# Regex de dispositivos (início de linha). Aceita "Art. 1º", "Art 1o", "Art. 10 -", etc.
-RE_ARTIGO = re.compile(r"^\s*Art\.?\s*(\d+)\s*[ºoO°.\-–]?", re.IGNORECASE)
+# Regex de dispositivos (início de linha). Aceita "Art. 1º", "Art 1o", "Art. 10 -", "Art. 156-A".
+# CAPTURA o sufixo -A/-B (achado A2-02/B-11): "Art. 156-A" é dispositivo DISTINTO de "Art. 156";
+# rotulá-lo "Art. 156" cita dispositivo inexistente (viola 1.7).
+RE_ARTIGO = re.compile(r"^\s*Art\.?\s*(\d+(?:-[A-Z])?)\s*[ºoO°.\-–]?", re.IGNORECASE)
 RE_TITULO = re.compile(r"^\s*T[ÍI]TULO\s+([IVXLCDM]+|\d+)\b", re.IGNORECASE)
 RE_CAPITULO = re.compile(r"^\s*CAP[ÍI]TULO\s+([IVXLCDM]+|\d+)\b", re.IGNORECASE)
 RE_SECAO = re.compile(r"^\s*SE[ÇC][ÃA]O\s+([IVXLCDM]+|\d+)\b", re.IGNORECASE)
@@ -81,6 +83,10 @@ def fatiar_corpo(corpo: str):
     for ln in linhas:
         mt, mc, ms = RE_TITULO.match(ln), RE_CAPITULO.match(ln), RE_SECAO.match(ln)
         ma = RE_ARTIGO.match(ln)
+        # GUARDA (B-11): "Art. N" que abre entre ASPAS é redação CITADA dentro de uma lei alteradora
+        # (ex.: 7.228 transcreve o "Art. 77" da 6.989) — NÃO é dispositivo desta norma; não abre chunk.
+        if ma and ln.lstrip()[:1] in ('"', '“', '«'):
+            ma = None
         if mt:
             titulo, capitulo, secao = ln.strip(), None, None
         elif mc:
