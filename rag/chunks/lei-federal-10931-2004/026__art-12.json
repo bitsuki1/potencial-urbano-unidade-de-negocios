@@ -1,0 +1,43 @@
+{
+  "chunk_id": "lei-federal-10931-2004::026-art-12",
+  "lei_id": "lei-federal-10931-2004",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 12",
+  "numero": "12",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Art. 12"
+  ],
+  "texto": "Art. 12. Os bancos comerciais, os bancos múltiplos com carteira de crédito imobiliário, a Caixa Econômica Federal, as sociedades de crédito imobiliário, as associações de poupança e empréstimo, as companhias hipotecárias e demais espécies de instituições que, para as operações a que se refere este artigo, venham a ser expressamente autorizadas pelo Banco Central do Brasil, poderão emitir, independentemente de tradição efetiva, Letra de Crédito Imobiliário - LCI, lastreada por créditos imobiliários garantidos por hipoteca ou por alienação fiduciária de coisa imóvel, conferindo aos seus tomadores direito de crédito pelo valor nominal, juros e, se for o caso, atualização monetária nelas estipulados.\n\n§ 1º A LCI será emitida sob a forma nominativa, podendo ser transferível mediante endosso em preto, e conterá:\n\nI - o nome da instituição emitente e as assinaturas de seus representantes;\n\nII - o número de ordem, o local e a data de emissão;\n\nIII - a denominação \"Letra de Crédito Imobiliário\";\n\nIV - o valor nominal e a data de vencimento;\n\nV - a forma, a periodicidade e o local de pagamento do principal, dos juros e, se for o caso, da atualização monetária;\n\nVI - os juros, fixos ou flutuantes, que poderão ser renegociáveis, a critério das partes;\n\nVII - a identificação dos créditos caucionados e seu valor;\n\nVIII - o nome do titular; e\n\nIX - cláusula à ordem, se endossável.\n\n§ 2º A critério do credor, poderá ser dispensada a emissão de certificado, devendo a LCI sob a forma escritural ser registrada em sistemas de registro e liquidação financeira de títulos privados autorizados pelo Banco Central do Brasil.\n\n§ 2º  A critério do credor, poderá ser dispensada a emissão de certificado da LCI, cuja forma escritural será registrada ou depositada em entidade autorizada pelo Banco Central do Brasil a exercer a atividade de registro ou de depósito centralizado de ativos financeiros.               (Redação dada pela Medida Provisória nº 897, de 2019)\n\n§ 2º A LCI poderá ser emitida sob a forma escritural, por meio do lançamento em sistema eletrônico do emissor, e deverá ser registrada ou depositada em entidade autorizada pelo Banco Central do Brasil a exercer a atividade de registro ou de depósito centralizado de ativos financeiros.           (Redação dada pela Lei nº 13.986, de 2020",
+  "citacao": {
+    "norma": "lei_ordinaria nº 10931/2004 — Brasil",
+    "dispositivo": "CAPÍTULO II › Art. 12",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/lei/l10.931.htm",
+    "vigencia": {
+      "inicio": "2004-08-02",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Decreto-Lei 911/1969",
+        "Lei 4.591/1964 (acresce arts. 31-A a 31-F)",
+        "Lei 4.728/1965",
+        "Lei 10.406/2002 (Código Civil)"
+      ],
+      "alterada_por": [
+        "Lei 13.097/2015",
+        "Lei 14.382/2022"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "patrimonio_de_afetacao",
+    "incorporacao_imobiliaria",
+    "RET",
+    "LCI",
+    "CCI",
+    "CCB"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre o patrimônio de afetação de incorporações imobiliárias, Letra de Crédito Imobiliário, Cédula de Crédito Imobiliário, Cédula de Crédito Bancário, altera o Decreto-Lei nº 911, de 1º de outubro de 1969, as Leis nº 4.591, de 16 de dezembro de 1964, nº 4.728, de 14 de julho de 1965, e nº 10.406, de 10 de janeiro de 2002, e dá outras providências."
+}

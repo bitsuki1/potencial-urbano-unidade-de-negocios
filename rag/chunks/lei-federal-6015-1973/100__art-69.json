@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::100-art-69",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 69",
+  "numero": "69",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO V",
+    "Art. 69"
+  ],
+  "texto": "Art. 69. Para a dispensa de proclamas, nos casos previstos em lei, os contraentes, em petição dirigida ao Juiz, deduzirão os motivos de urgência do casamento, provando-a, desde logo, com documentos ou indicando outras provas para demonstração do alegado.                       (Renumerado do art. 70, pela Lei nº 6.216, de 1975).\n\n§ 1º Quando o pedido se fundar em crime contra os costumes, a dispensa de proclamas será precedida da audiência dos contraentes, separadamente e em segredo de justiça.\n\n§ 2º Produzidas as provas dentro de cinco (5) dias, com a ciência do órgão do Ministério Público, que poderá manifestar-se, a seguir, em vinte e quatro (24) horas, o Juiz decidirá, em igual prazo, sem recurso, remetendo os autos para serem anexados ao processo de habilitação matrimonial.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO II › CAPÍTULO V › Art. 69",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::181-art-132",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 132",
+  "numero": "132",
+  "caminho_hierarquico": [
+    "TÍTULO IV",
+    "CAPÍTULO II",
+    "Art. 132"
+  ],
+  "texto": "Art. 132. No registro de títulos e documentos, haverá os seguintes livros:      (Redação dada pela Lei nº 14.382, de 2022)\n\nI - Livro A - protocolo para apontamentos de todos os títulos, documentos e papéis apresentados, diariamente, para serem registrados, ou averbados;\n\nII - Livro B - para trasladação integral de títulos e documentos, sua conservação e validade contra terceiros, ainda que registrados por extratos em outros livros;\n\nIII - Livro C - para inscrição, por extração, de títulos e documentos, a fim de surtirem efeitos em relação a terceiros e autenticação de data;\n\nIV - Livro D - indicador pessoal, substituível pelo sistema de fichas, a critério e sob a responsabilidade do oficial, o qual é obrigado a fornecer, com presteza, as certidões pedidas pelos nomes das partes que figurarem, por qualquer modo, nos livros de registros.\n\nIV - Livro D - indicador pessoal, substituível pelo sistema de fichas, a critério e sob a responsabilidade do oficial, o qual é obrigado a fornecer, com presteza, as certidões pedidas pelos nomes das partes que figurarem, por qualquer modo, nos livros de registros;       (Redação dada pela Medida Provisória nº 1.085, de 2021)\n\nIV - Livro D - indicador pessoal, substituível pelo sistema de fichas, a critério e sob a responsabilidade do oficial, o qual é obrigado a fornecer com presteza as certidões pedidas pelos nomes das partes que figurarem, por qualquer modo, nos livros de registros;       (Redação dada pela Lei nº 14.382, de 2022)\n\nV - Livro E - indicador real, para matrícula de todos os bens móveis que figurarem nos demais livros, devendo conter sua identificação, referência aos números de ordem dos outros livros e anotações necessárias, inclusive direitos e ônus incidentes sobre eles;       (Incluído pela Medida Provisória nº 1.085, de 2021)\n\nVI - Livro F - para registro facultativo de documentos ou conjunto de documentos para conservação de que tratam o inciso VII do caput do art. 127 e o art. 127-A; e       (Incluído pela Medida Provisória nº 1.085, de 2021)\n\nVII - Livro G - indicador pessoal específico para repositório dos nomes dos apresentantes que figurarem no Livro F, do qual deverá constar o respectivo número do registro, o nome do apresentante e o seu número de inscrição no Cadastro de Pessoas Físicas da Secretaria Especial da Receita Federal do Brasil do Ministério da Economia ou, no caso de pessoa jurídica, a denominação do apresentante e o seu número de inscrição no Cadastro Nacional da Pessoa Jurídica da Secretaria Especial da Receita Federal do Brasil do Ministério da Economia.        (Incluído pela Medida Provisória nº 1.085, de 2021)\n\nV - Livro E - indicador real, para matrícula de todos os bens móveis que figurarem nos demais livros, devendo conter sua identificação, referência aos números de ordem dos outros livros e anotações necessárias, inclusive direitos e ônus incidentes sobre eles;      (Incluído pela Lei nº 14.382, de 2022)\n\nVI - Livro F - para registro facultativo de documentos ou conjunto de documentos para conservação de que tratam o inciso VII do caput do art. 127 e o art. 127-A desta Lei; e       (Incluído pela Lei nº 14.382, de 2022)\n\nVII - Livro G - indicador pessoal específico para repositório dos nomes dos apresentantes que figurarem no Livro F, do qual deverá constar o respectivo número do registro, o nome do apresentante e o seu número de inscrição no Cadastro de Pessoas Físicas da Secretaria Especial da Receita Federal do Brasil do Ministério da Economia ou, no caso de pessoa jurídica, a denominação do apresentante e o seu número de inscrição no Cadastro Nacional da Pessoa Jurídica da Secretaria Especial da Receita Federal do Brasil do Ministério da Economia.       (Incluído pela Lei nº 14.382, de 2022)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO IV › CAPÍTULO II › Art. 132",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

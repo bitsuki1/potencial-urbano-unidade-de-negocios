@@ -1,0 +1,36 @@
+{
+  "chunk_id": "lei-federal-11101-2005::221-art-167",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 167",
+  "numero": "167",
+  "caminho_hierarquico": [
+    "CAPÍTULO VI-A",
+    "Art. 167"
+  ],
+  "texto": "Art. 167-B. Para os fins deste Capítulo, considera-se:       (Incluído pela Lei nº 14.112, de 2020)    (Vigência)\n\nI - processo estrangeiro: qualquer processo judicial ou administrativo, de cunho coletivo, inclusive de natureza cautelar, aberto em outro país de acordo com disposições relativas à insolvência nele vigentes, em que os bens e as atividades de um devedor estejam sujeitos a uma autoridade estrangeira, para fins de reorganização ou liquidação;     (Incluído pela Lei nº 14.112, de 2020)    (Vigência)\n\nII - processo estrangeiro principal: qualquer processo estrangeiro aberto no país em que o devedor tenha o centro de seus interesses principais;      (Incluído pela Lei nº 14.112, de 2020)   (Vigência)\n\nIII - processo estrangeiro não principal: qualquer processo estrangeiro que não seja um processo estrangeiro principal, aberto em um país em que o devedor tenha estabelecimento ou bens;   (Incluído pela Lei nº 14.112, de 2020)    (Vigência)\n\nIV - representante estrangeiro: pessoa ou órgão, inclusive o nomeado em caráter transitório, que esteja autorizado, no processo estrangeiro, a administrar os bens ou as atividades do devedor, ou a atuar como representante do processo estrangeiro;      (Incluído pela Lei nº 14.112, de 2020)    (Vigência)\n\nV - autoridade estrangeira: juiz ou autoridade administrativa que dirija ou supervisione um processo estrangeiro; e        (Incluído pela Lei nº 14.112, de 2020)     (Vigência)\n\nVI - estabelecimento: qualquer local de operações em que o devedor desenvolva uma atividade econômica não transitória com o emprego de recursos humanos e de bens ou serviços.      (Incluído pela Lei nº 14.112, de 2020)    (Vigência)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO VI-A › Art. 167",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

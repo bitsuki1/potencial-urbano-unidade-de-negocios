@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-11101-2005::067-art-51",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 51",
+  "numero": "51",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Seção II",
+    "Art. 51"
+  ],
+  "texto": "Art. 51. A petição inicial de recuperação judicial será instruída com:\n\nI – a exposição das causas concretas da situação patrimonial do devedor e das razões da crise econômico-financeira;\n\nII – as demonstrações contábeis relativas aos 3 (três) últimos exercícios sociais e as levantadas especialmente para instruir o pedido, confeccionadas com estrita observância da legislação societária aplicável e compostas obrigatoriamente de:\n\na) balanço patrimonial;\n\nb) demonstração de resultados acumulados;\n\nc) demonstração do resultado desde o último exercício social;\n\nd) relatório gerencial de fluxo de caixa e de sua projeção;\n\ne) descrição das sociedades de grupo societário, de fato ou de direito;       (Incluído pela Lei nº 14.112, de 2020)    (Vigência)\n\nIII – a relação nominal completa dos credores, inclusive aqueles por obrigação de fazer ou de dar, com a indicação do endereço de cada um, a natureza, a classificação e o valor atualizado do crédito, discriminando sua origem, o regime dos respectivos vencimentos e a indicação dos registros contábeis de cada transação pendente;\n\nIII - a relação nominal completa dos credores, sujeitos ou não à recuperação judicial, inclusive aqueles por obrigação de fazer ou de dar, com a indicação do endereço físico e eletrônico de cada um, a natureza, conforme estabelecido nos arts. 83 e 84 desta Lei, e o valor atualizado do crédito, com a discriminação de sua origem, e o regime dos vencimentos;     (Redação dada pela Lei nº 14.112, de 2020)   (Vigência)\n\nIV – a relação integral dos empregados, em que constem as respectivas funções, salários, indenizações e outras parcelas a que têm direito, com o correspondente mês de competência, e a discriminação dos valores pendentes de pagamento;\n\nV – certidão de regularidade do devedor no Registro Público de Empresas, o ato constitutivo atualizado e as atas de nomeação dos atuais administradores;\n\nVI – a relação dos bens particulares dos sócios controladores e dos administradores do devedor;\n\nVII – os extratos atualizados das contas bancárias do devedor e de suas eventuais aplicações financeiras de qualquer modalidade, inclusive em fundos de investimento ou em bolsas de valores, emitidos pelas respectivas instituições financeiras;\n\nVIII – certidões dos cartórios de protestos situados na comarca do domicílio ou sede do devedor e naquelas onde possui filial;\n\nIX – a relação, subscrita pelo devedor, de todas as ações judiciais em que este figure como parte, inclusive as de natureza trabalhista, com a estimativa dos respectivos valores demandados.\n\nIX - a relação, subscrita pelo devedor, de todas as ações judiciais e procedimentos arbitrais em que este figure como parte, inclusive as de natureza trabalhista, com a estimativa dos respectivos valores demandados;     (Redação dada pela Lei nº 14.112, de 2020)   (Vigência)\n\nX - o relatório detalhado do passivo fiscal; e     (Incluído pela Lei nº 14.112, de 2020)    (Vigência)\n\nXI - a relação de bens e direitos integrantes do ativo não circulante, incluídos aqueles não sujeitos à recuperação judicial, acompanhada dos negócios jurídicos celebrados com os credores de que trata o § 3º do art. 49 desta Lei.      (Incluído pela Lei nº 14.112, de 2020)    (Vigência)\n\n§ 1º Os documentos de escrituração contábil e demais relatórios auxiliares, na forma e no suporte previstos em lei, permanecerão à disposição do juízo, do administrador judicial e, mediante autorização judicial, de qualquer interessado.\n\n§ 2º Com relação à exigência prevista no inciso II do caput deste artigo, as microempresas e empresas de pequeno porte poderão apresentar livros e escrituração contábil simplificados nos termos da legislação específica.\n\n§ 3º O juiz poderá determinar o depósito em cartório dos documentos a que se referem os §§ 1º e 2º deste artigo ou de cópia destes.\n\n§ 4º Na hipótese de o ajuizamento da recuperação judicial ocorrer antes da data final de entrega do balanço correspondente ao exercício anterior, o devedor apresentará balanço prévio e juntará o balanço definitivo no prazo da lei societária aplicável.      (Incluído pela Lei nº 14.112, de 2020)   (Vigência)\n\n§ 5º O valor da causa corresponderá ao montante total dos créditos sujeitos à recuperação judicial.        (Incluído pela Lei nº 14.112, de 2020)   (Vigência)\n\n§ 6º Em relação ao período de que trata o § 3º do art. 48 desta Lei:     (Incluído pela Lei nº 14.112, de 2020)    (Vigência)\n\nI - a exposição referida no inciso I do caput deste artigo deverá comprovar a crise de insolvência, caracterizada pela insuficiência de recursos financeiros ou patrimoniais com liquidez suficiente para saldar suas dívidas;       (Incluído pela Lei nº 14.112, de 2020)    (Vigência)\n\nII - os requisitos do inciso II do caput deste artigo serão substituídos pelos documentos mencionados no § 3º do art. 48 desta Lei relativos aos últimos 2 (dois) anos.     (Incluído pela Lei nº 14.112, de 2020) (Vigência)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO III › Seção II › Art. 51",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-4591-1964::070-art-45",
+  "lei_id": "lei-federal-4591-1964",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 45",
+  "numero": "45",
+  "caminho_hierarquico": [
+    "Título II",
+    "CAPÍTULO II",
+    "Art. 45"
+  ],
+  "texto": "Art. 45. É lícito ao incorporador recolher o impôsto do sêlo devido, mediante apresentação dos contratos preliminares, até 10 dias a contar do vencimento do prazo de carência a que se refere o art. 34, extinta a obrigação se, dentro deste prazo, fôr denunciada a incorporação.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 4591/1964 — Brasil",
+    "dispositivo": "Título II › CAPÍTULO II › Art. 45",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l4591.htm",
+    "vigencia": {
+      "inicio": "1964-12-16",
+      "fim": null,
+      "revogada_por": "parcialmente — a parte de condomínio convive com o Código Civil/2002 (arts. 1.331 e ss.)",
+      "altera": [],
+      "alterada_por": [
+        "Código Civil/2002 (Lei 10.406/2002)",
+        "Lei 10.931/2004 (patrimônio de afetação)",
+        "Lei 4.864/1965"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "condominio_edilicio",
+    "incorporacao_imobiliaria",
+    "unidade_autonoma"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
+}

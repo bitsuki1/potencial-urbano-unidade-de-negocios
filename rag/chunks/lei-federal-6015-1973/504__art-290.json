@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-6015-1973::504-art-290",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 290",
+  "numero": "290",
+  "caminho_hierarquico": [
+    "TÍTULO VI",
+    "Art. 290"
+  ],
+  "texto": "Art. 290. Os emolumentos devidos pelos atos relacionados com a primeira aquisição imobiliária, financiada pelo Banco Nacional da Habitação, serão reduzidos em 50%.                     (Renumerado do art. 306, pela Lei nº 6.216, de 1975)\n\n§ 1° A transcrição, inscrição e averbações relativas à aquisição de casa própria em que for parte Cooperativa Habitacional serão considerados, para o efeito do cálculo de emolumentos, um ato apenas, não podendo exceder a sua cobrança o limite correspondente a 40% (quarenta por cento) do salário mínimo regional.\n\n§ 2º Os emolumentos e custas devidos pelos atos de aquisição de imóveis pelas Cooperativas Habitacionais (COHABs) e os de averbação de construção estarão sujeitos às limitações seguintes:\n\na) imóvel de 60 m² de área construída: 10% (dez por cento) do salário mínimo;\n\nb) de mais de 60 m² e até 70 m² de área construída: 15% (quinze por cento) do salário mínimo; e\n\nc) de mais de 70 m² e até 80 m² de área construída: 20% (vinte por cento) do salário mínimo.\n\n§ 3° Os emolumentos devidos pelos atos relativos a financiamento rural serão cobrados de acordo com a legislação federal.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO VI › Art. 290",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

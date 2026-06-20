@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::236-art-176",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 176",
+  "numero": "176",
+  "caminho_hierarquico": [
+    "TÍTULO V",
+    "CAPÍTULO II",
+    "Art. 176"
+  ],
+  "texto": "Art. 176-A.  O registro de aquisição originária ensejará a abertura de matrícula relativa ao imóvel adquirido se não houver ou quando:               (Incluído pela Medida Provisória nº 700, de 2015)       Vigência encerrada\n\nI - atingir parte de imóvel objeto de registro anterior; ou                   (Incluído pela Medida Provisória nº 700, de 2015)      Vigência encerrada\n\nII - atingir, total ou parcialmente, mais de um imóvel objeto de registro anterior.                (Incluído pela Medida Provisória nº 700, de 2015)      Vigência encerrada\n\n§ 1º  A matrícula será aberta com base em planta e memorial descritivo do imóvel utilizados na instrução do procedimento administrativo ou judicial que ensejou a aquisição.                  (Incluído pela Medida Provisória nº 700, de 2015)      Vigência encerrada\n\n§ 2º  As matrículas atingidas deverão, conforme o caso, ser encerradas ou receber averbação dos respectivos desfalques, dispensada, para este fim, a retificação do memorial descritivo da área remanescente. (Incluído pela Medida Provisória nº 700, de 2015)      Vigência encerrada\n\n§ 3º  Eventuais divergências entre a descrição do imóvel constante do registro e aquela apresentada pelo requerente não obstarão o registro.               (Incluído pela Medida Provisória nº 700, de 2015)      Vigência encerrada\n\n§ 4º  Se a área adquirida em caráter originário for maior do que a constante do registro existente, a informação sobre a diferença apurada será averbada na matrícula aberta.                 (Incluído pela Medida Provisória nº 700, de 2015)      Vigência encerrada",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO V › CAPÍTULO II › Art. 176",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

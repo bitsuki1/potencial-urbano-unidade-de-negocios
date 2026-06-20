@@ -1,0 +1,32 @@
+{
+  "chunk_id": "ec-29-2000::009-art-8o",
+  "lei_id": "ec-29-2000",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 8º",
+  "numero": "8",
+  "caminho_hierarquico": [
+    "Art. 8º"
+  ],
+  "texto": "Art. 8º Esta Emenda Constitucional entra em vigor na data de sua publicação.\n\nBrasília, 13 de setembro de 2000\n\nMesa da Câmara dos Deputados\n\n\t\n\nMesa do Senado Federal\n\n\n\n\nDeputado Michel Temer\nPresidente\n\n\t\n\nSenador Antonio Carlos Magalhães\nPresidente\n\n\n\n\nDeputado Heráclito Fortes\n1º Vice-Presidente\n\n\t\n\nSenador Geraldo Melo\n1º Vice-Presidente\n\n\n\n\nDeputado Severino Cavalcanti\n2º Vice-Presidente\n\n\t\n\nSenador Ademir Andrade\n2º Vice-Presidente\n\n\n\n\nDeputado Ubiratan Aguiar\n1º Secretário\n\n\t\n\nSenador Ronaldo Cunha Lima\n1º Secretário\n\n\n\n\nDeputado Nelson Trad\n2º Secretário\n\n\t\n\nSenador Carlos Patrocínio\n2º Secretário\n\n\n\n\nDeputado Jaques Wagner\n3º Secretário\n\n\t\n\nSenador Nabor Júnior\n3º Secretário\n\n\n\n\nDeputado Efraim Morais\n4º Secretário\n\n\t\n\nEste texto não substitui o publicado no DOU  de 14.9.2000",
+  "citacao": {
+    "norma": "emenda_constitucional nº 29/2000 — Brasil",
+    "dispositivo": "Art. 8º",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc29.htm",
+    "vigencia": {
+      "inicio": "2000-09-13",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "CF/1988 arts. 34, 35, 156, 160, 167, 198",
+        "ADCT (acréscimo de artigo - art. 77)"
+      ],
+      "alterada_por": []
+    }
+  },
+  "tema": [
+    "IPTU",
+    "progressividade_fiscal"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Altera os arts. 34, 35, 156, 160, 167 e 198 da Constituição Federal e acrescenta artigo ao Ato das Disposições Constitucionais Transitórias, para assegurar os recursos mínimos para o financiamento das ações e serviços públicos de saúde."
+}

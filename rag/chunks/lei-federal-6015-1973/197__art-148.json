@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::197-art-148",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 148",
+  "numero": "148",
+  "caminho_hierarquico": [
+    "TÍTULO IV",
+    "CAPÍTULO IV",
+    "Art. 148"
+  ],
+  "texto": "Art. 148. Os títulos, documentos e papéis escritos em língua estrangeira, uma vez adotados os caracteres comuns, poderão ser registrados no original, para o efeito da sua conservação ou perpetuidade. Para produzirem efeitos legais no País e para valerem contra terceiros, deverão, entretanto, ser vertidos em vernáculo e registrada a tradução, o que, também, se observará em relação às procurações lavradas em língua estrangeira.                     (Renumerado do art. 149 pela Lei nº 6.216, de 1975).\n\nParágrafo único. Para o registro resumido, os títulos, documentos ou papéis em língua estrangeira, deverão ser sempre traduzidos.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO IV › CAPÍTULO IV › Art. 148",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

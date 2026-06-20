@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::426-art-254",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 254",
+  "numero": "254",
+  "caminho_hierarquico": [
+    "TÍTULO V",
+    "CAPÍTULO VIII",
+    "Art. 254"
+  ],
+  "texto": "Art. 254. O cancelamento da hipoteca só pode ser feito:\n\na) à vista de quitação outorgada pelo credor em instrumento público;\n\nb) mediante autorização escrita do credor, com firma reconhecida;\n\nc) em razão de processo administrativo, ou contencioso, em que o credor tenha sido intimado (Código de Processo Civil, artigo 698);\n\nd) na conformidade do disposto no artigo 24 do Decreto-Lei nº 70, de 21 de novembro de 1966 (Cédulas Hipotecárias).\n\nParágrafo único. Excetuadas as hipóteses aqui previstas, a hipoteca continuará gravando o imóvel, ainda quando registrada em nome do adquirente.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO V › CAPÍTULO VIII › Art. 254",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

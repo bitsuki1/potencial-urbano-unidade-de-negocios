@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-11101-2005::155-art-113",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 113",
+  "numero": "113",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Seção VII",
+    "Art. 113"
+  ],
+  "texto": "Art. 113. Os bens perecíveis, deterioráveis, sujeitos à considerável desvalorização ou que sejam de conservação arriscada ou dispendiosa, poderão ser vendidos antecipadamente, após a arrecadação e a avaliação, mediante autorização judicial, ouvidos o Comitê e o falido no prazo de 48 (quarenta e oito) horas.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO V › Seção VII › Art. 113",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

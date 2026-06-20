@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::250-art-180",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 180",
+  "numero": "180",
+  "caminho_hierarquico": [
+    "TÍTULO V",
+    "CAPÍTULO II",
+    "Art. 180"
+  ],
+  "texto": "Art. 180. Adotados os livros Indicador Real e o Pessoal, sob a forma encadernada, as indicações neles lançadas terão seu número de ordem especial, correspondendo o número de ordem dos imóveis à zona cadastral onde estão situados e o número de ordem das pessoas à respectiva letra do alfabeto.                     (Suprimido pela Lei nº 6.216, de 1975).",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO V › CAPÍTULO II › Art. 180",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

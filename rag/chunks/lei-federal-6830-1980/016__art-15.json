@@ -1,0 +1,33 @@
+{
+  "chunk_id": "lei-federal-6830-1980::016-art-15",
+  "lei_id": "lei-federal-6830-1980",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 15",
+  "numero": "15",
+  "caminho_hierarquico": [
+    "Art. 15"
+  ],
+  "texto": "Art. 15 - Em qualquer fase do processo, será deferida pelo Juiz:\n\nI - ao executado, a substituição da penhora por depósito em dinheiro ou fiança bancária; e\n\nI - ao executado, a substituição da penhora por depósito em dinheiro, fiança bancária ou seguro garantia; e                      (Redação dada pela Lei nº 13.043, de 2014)\n\nII - à Fazenda Pública, a substituição dos bens penhorados por outros, independentemente da ordem enumerada no artigo 11, bem como o reforço da penhora insuficiente.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6830/1980 — Brasil",
+    "dispositivo": "Art. 15",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6830.htm",
+    "vigencia": {
+      "inicio": "1980-09-22",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 11.960/2009 (art. 40, § 5º)"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "execucao_fiscal",
+    "divida_ativa",
+    "prescricao_intercorrente"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre a cobrança judicial da Dívida Ativa da Fazenda Pública, e dá outras providências."
+}

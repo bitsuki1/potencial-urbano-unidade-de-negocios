@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-11101-2005::180-art-136",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 136",
+  "numero": "136",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Seção IX",
+    "Art. 136"
+  ],
+  "texto": "Art. 136. Reconhecida a ineficácia ou julgada procedente a ação revocatória, as partes retornarão ao estado anterior, e o contratante de boa-fé terá direito à restituição dos bens ou valores entregues ao devedor.\n\n§ 1º Na hipótese de securitização de créditos do devedor, não será declarada a ineficácia ou revogado o ato de cessão em prejuízo dos direitos dos portadores de valores mobiliários emitidos pelo securitizador.\n\n§ 2º É garantido ao terceiro de boa-fé, a qualquer tempo, propor ação por perdas e danos contra o devedor ou seus garantes.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO V › Seção IX › Art. 136",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

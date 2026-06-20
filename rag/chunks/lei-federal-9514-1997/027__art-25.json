@@ -1,0 +1,35 @@
+{
+  "chunk_id": "lei-federal-9514-1997::027-art-25",
+  "lei_id": "lei-federal-9514-1997",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 25",
+  "numero": "25",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Art. 25"
+  ],
+  "texto": "Art. 25. Com o pagamento da dívida e seus encargos, resolve-se, nos termos deste artigo, a propriedade fiduciária do imóvel.\n\n§ 1º No prazo de trinta dias, a contar da data de liquidação da dívida, o fiduciário fornecerá o respectivo termo de quitação ao fiduciante, sob pena de multa em favor deste, equivalente a meio por cento ao mês, ou fração, sobre o valor do contrato.\n\n§ 1º No prazo de 30 (trinta) dias, contado da data de liquidação da dívida, o fiduciário fornecerá o termo de quitação ao devedor e, se for o caso, ao terceiro fiduciante.   (Redação dada pela Lei nº 14.711, de 2023)\n\n§ 1º-A O não fornecimento do termo de quitação no prazo previsto no § 1º deste artigo acarretará multa ao fiduciário equivalente a 0,5% (meio por cento) ao mês, ou fração, sobre o valor do contrato, que se reverterá em favor daquele a quem o termo não tiver sido disponibilizado no referido prazo.    (Incluído pela Lei nº 14.711, de 2023)\n\n§ 2º À vista do termo de quitação de que trata o parágrafo anterior, o oficial do competente Registro de Imóveis efetuará o cancelamento do registro da propriedade fiduciária.\n\n§ 3o  Nas hipóteses em que a quitação da dívida decorrer da portabilidade do financiamento para outra instituição financeira, não será emitido o termo de quitação de que trata este artigo, cabendo, quanto à alienação fiduciária, a mera averbação da sua transferência.         (Incluído pela Lei nº 12.703, de 2012)         (Revogado pela Lei nº 12.810, de 2013)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 9514/1997 — Brasil",
+    "dispositivo": "CAPÍTULO II › Art. 25",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l9514.htm",
+    "vigencia": {
+      "inicio": "1997-11-20",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 13.043/2014",
+        "Lei 13.465/2017",
+        "Lei 14.620/2023"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "alienacao_fiduciaria",
+    "sistema_financiamento_imobiliario"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre o Sistema de Financiamento Imobiliário, institui a alienação fiduciária de coisa imóvel e dá outras providências."
+}

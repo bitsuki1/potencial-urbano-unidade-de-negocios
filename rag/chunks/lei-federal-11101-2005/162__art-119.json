@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-11101-2005::162-art-119",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 119",
+  "numero": "119",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Seção VIII",
+    "Art. 119"
+  ],
+  "texto": "Art. 119. Nas relações contratuais a seguir mencionadas prevalecerão as seguintes regras:\n\nI – o vendedor não pode obstar a entrega das coisas expedidas ao devedor e ainda em trânsito, se o comprador, antes do requerimento da falência, as tiver revendido, sem fraude, à vista das faturas e conhecimentos de transporte, entregues ou remetidos pelo vendedor;\n\nII – se o devedor vendeu coisas compostas e o administrador judicial resolver não continuar a execução do contrato, poderá o comprador pôr à disposição da massa falida as coisas já recebidas, pedindo perdas e danos;\n\nIII – não tendo o devedor entregue coisa móvel ou prestado serviço que vendera ou contratara a prestações, e resolvendo o administrador judicial não executar o contrato, o crédito relativo ao valor pago será habilitado na classe própria;\n\nIV – o administrador judicial, ouvido o Comitê, restituirá a coisa móvel comprada pelo devedor com reserva de domínio do vendedor se resolver não continuar a execução do contrato, exigindo a devolução, nos termos do contrato, dos valores pagos;\n\nV – tratando-se de coisas vendidas a termo, que tenham cotação em bolsa ou mercado, e não se executando o contrato pela efetiva entrega daquelas e pagamento do preço, prestar-se-á a diferença entre a cotação do dia do contrato e a da época da liquidação em bolsa ou mercado;\n\nVI – na promessa de compra e venda de imóveis, aplicar-se-á a legislação respectiva;\n\nVII – a falência do locador não resolve o contrato de locação e, na falência do locatário, o administrador judicial pode, a qualquer tempo, denunciar o contrato;\n\nVIII – caso haja acordo para compensação e liquidação de obrigações no âmbito do sistema financeiro nacional, nos termos da legislação vigente, a parte não falida poderá considerar o contrato vencido antecipadamente, hipótese em que será liquidado na forma estabelecida em regulamento, admitindo-se a compensação de eventual crédito que venha a ser apurado em favor do falido com créditos detidos pelo contratante;\n\nIX – os patrimônios de afetação, constituídos para cumprimento de destinação específica, obedecerão ao disposto na legislação respectiva, permanecendo seus bens, direitos e obrigações separados dos do falido até o advento do respectivo termo ou até o cumprimento de sua finalidade, ocasião em que o administrador judicial arrecadará o saldo a favor da massa falida ou inscreverá na classe própria o crédito que contra ela remanescer.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO V › Seção VIII › Art. 119",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

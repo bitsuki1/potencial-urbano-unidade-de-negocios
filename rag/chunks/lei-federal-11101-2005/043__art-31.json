@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-11101-2005::043-art-31",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 31",
+  "numero": "31",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção III",
+    "Art. 31"
+  ],
+  "texto": "Art. 31. O juiz, de ofício ou a requerimento fundamentado de qualquer interessado, poderá determinar a destituição do administrador judicial ou de quaisquer dos membros do Comitê de Credores quando verificar desobediência aos preceitos desta Lei, descumprimento de deveres, omissão, negligência ou prática de ato lesivo às atividades do devedor ou a terceiros.\n\n§ 1º No ato de destituição, o juiz nomeará novo administrador judicial ou convocará os suplentes para recompor o Comitê.\n\n§ 2º Na falência, o administrador judicial substituído prestará contas no prazo de 10 (dez) dias, nos termos dos §§ 1º a 6º do art. 154 desta Lei.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO II › Seção III › Art. 31",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

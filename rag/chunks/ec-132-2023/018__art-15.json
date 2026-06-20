@@ -1,0 +1,33 @@
+{
+  "chunk_id": "ec-132-2023::018-art-15",
+  "lei_id": "ec-132-2023",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 15",
+  "numero": "15",
+  "caminho_hierarquico": [
+    "Art. 15"
+  ],
+  "texto": "Art. 15. Os recursos entregues na forma do art. 159-A da Constituição Federal, com a redação dada pelo art. 1º desta Emenda Constitucional, os recursos de que trata o art. 12 e as compensações de que trata o art. 7º não se incluem em bases de cálculo ou em limites de despesas estabelecidos pela lei complementar de que trata o art. 6º da Emenda Constitucional nº 126, de 21 de dezembro de 2022.",
+  "citacao": {
+    "norma": "emenda_constitucional nº 132/2023 — Brasil",
+    "dispositivo": "Art. 15",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm",
+    "vigencia": {
+      "inicio": "2023-12-20",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "CF/1988 — Sistema Tributário Nacional (diversos artigos, incl. art. 156)",
+        "ADCT"
+      ],
+      "alterada_por": []
+    }
+  },
+  "tema": [
+    "IPTU",
+    "reforma_tributaria",
+    "sistema_tributario_nacional"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Altera o Sistema Tributário Nacional."
+}

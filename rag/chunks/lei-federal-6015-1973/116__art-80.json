@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::116-art-80",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 80",
+  "numero": "80",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO IX",
+    "Art. 80"
+  ],
+  "texto": "Art. 80. O assento de óbito deverá conter:                             (Renumerado do art. 81 pela, Lei nº 6.216, de 1975).\n\n1º) a hora, se possível, dia, mês e ano do falecimento;\n\n2º) o lugar do falecimento, com indicação precisa;\n\n3º) o prenome, nome, sexo, idade, cor, estado, profissão, naturalidade, domicílio e residência do morto;\n\n4º) se era casado, o nome do cônjuge sobrevivente, mesmo quando desquitado; se viúvo, o do cônjuge pré-defunto; e o cartório de casamento em ambos os casos;\n\n5º) os nomes, prenomes, profissão, naturalidade e residência dos pais;\n\n6º) se faleceu com testamento conhecido;\n\n7º) se deixou filhos, nome e idade de cada um;\n\n8°) se a morte foi natural ou violenta e a causa conhecida, com o nome dos atestantes;\n\n9°) lugar do sepultamento;\n\n10º) se deixou bens e herdeiros menores ou interditos;\n\n11°) se era eleitor.\n\n12º) pelo menos uma das informações a seguir arroladas: número de inscrição do PIS/PASEP; número de inscrição no Instituto Nacional do Seguro Social - INSS, se contribuinte individual; número de benefício previdenciário - NB, se a pessoa falecida for titular de qualquer benefício pago pelo INSS; número do CPF; número de registro da Carteira de Identidade e respectivo órgão emissor; número do título de eleitor; número do registro de nascimento, com informação do livro, da folha e do termo; número e série da Carteira de Trabalho.                (Vide Medida Provisória nº 2.060-3, de 2000)                  (Incluído pela Medida Provisória nº 2.187-13, de 2001)\n\nParágrafo único. O oficial de registro civil comunicará o óbito à Receita Federal e à Secretaria de Segurança Pública da unidade da Federação que tenha emitido a cédula de identidade, exceto se, em razão da idade do falecido, essa informação for manifestamente desnecessária.                        (Incluído pela Lei nº 13.114, de 2015)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO II › CAPÍTULO IX › Art. 80",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

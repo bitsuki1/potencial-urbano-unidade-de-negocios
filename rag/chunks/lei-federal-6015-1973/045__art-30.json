@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::045-art-30",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 30",
+  "numero": "30",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO I",
+    "Art. 30"
+  ],
+  "texto": "Art. 30. Não serão cobrados emolumentos pelo registro civil de nascimento e pelo assento de óbito, bem como pela primeira certidão respectiva.                     (Redação dada pela Lei nº 9.534, de 1997)\n\n§ 1º Os reconhecidamente pobres estão isentos de pagamento de emolumentos pelas demais certidões extraídas pelo cartório de registro civil.                      (Redação dada pela Lei nº 9.534, de 1997)\n\n§ 2º O estado de pobreza será comprovado por declaração do próprio interessado ou a rogo, tratando-se de analfabeto, neste caso, acompanhada da assinatura de duas testemunhas.                       (Redação dada pela Lei nº 9.534, de 1997)\n\n§ 3º A falsidade da declaração ensejará a responsabilidade civil e criminal do interessado.                      (Incluído pela Lei nº 9.534, de 1997)\n\n§ 3o-A  Comprovado o descumprimento, pelos oficiais de Cartórios de Registro Civil, do disposto no caput deste artigo, aplicar-se-ão as penalidades previstas nos arts. 32 e 33 da Lei no 8.935, de 18 de novembro de 1994. (Incluído pela Lei nº 9.812, de 1999)\n\n§ 3o-B  Esgotadas as penalidades a que se refere o parágrafo anterior e verificando-se novo descumprimento, aplicar-se-á o disposto no art. 39 da Lei no 8.935, de 18 de novembro de 1994.                   (Incluído pela Lei nº 9.812, de 1999)\n\n§ 3o-C.  Os cartórios de registros públicos deverão afixar, em local de grande visibilidade, que permita fácil leitura e acesso ao público, quadros contendo tabelas atualizadas das custas e emolumentos, além de informações claras sobre a gratuidade prevista no caput deste artigo.                     (Incluído pela Lei nº 11.802, de 2008).\n\n§ 4º (VETADO)                     (Incluído pela Lei nº 9.534, de 1997)\n\n§ 4o  É proibida a inserção nas certidões de que trata o § 1o deste artigo de expressões que indiquem condição de pobreza ou semelhantes.                  (Incluído pela Lei nº 11.789, de 2008)\n\n§ 5º (VETADO)                (Incluído pela Lei nº 9.534, de 1997)\n\n§ 6º (VETADO)               (Incluído pela Lei nº 9.534, de 1997)\n\n§ 7º (VETADO)               (Incluído pela Lei nº 9.534, de 1997)\n\n§ 8º (VETADO)              (Incluído pela Lei nº 9.534, de 1997)\n\n§ 9º (VETADO).     (Incluído pela Lei nº 14.382, de 2022)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO II › CAPÍTULO I › Art. 30",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

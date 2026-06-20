@@ -1,0 +1,34 @@
+{
+  "chunk_id": "dl-57-1966::009-art-8o",
+  "lei_id": "dl-57-1966",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 8º",
+  "numero": "8",
+  "caminho_hierarquico": [
+    "Art. 8º"
+  ],
+  "texto": "Art 8º Para fins de cadastramento e do lançamento do ITR, a área destinada a exploração mineral, em um imóvel rural, será considerada como inaproveitável, desde que seja comprovado que a mencionada destinação impede a exploração da mesma em atividades agrícolas, pecuária ou agro-industrial e que sejam satisfeitas as exigências estabelecidas na regulamentação dêste Decreto-Lei.",
+  "citacao": {
+    "norma": "decreto_lei nº 57/1966 — Brasil",
+    "dispositivo": "Art. 8º",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del0057.htm",
+    "vigencia": {
+      "inicio": "1966-11-18",
+      "fim": null,
+      "revogada_por": "art. 15 revogado pela Lei 5.868/1972 (art. 12), mas execução dessa revogação SUSPENSA pela Res. Senado Federal nº 9/2005 (decisão STF) — art. 15 aplicável",
+      "altera": [
+        "Lei 5.172/1966 (CTN) — modula alcance do art. 32"
+      ],
+      "alterada_por": [
+        "Lei 5.868/1972 (revogação do art. 15, posteriormente suspensa pela Res. SF 9/2005)"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "ITR",
+    "destinacao_economica"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Altera dispositivos sobre lançamento e cobrança do Imposto sobre a Propriedade Territorial Rural, institui normas sobre arrecadação da Dívida Ativa correspondente, e dá outras providências."
+}

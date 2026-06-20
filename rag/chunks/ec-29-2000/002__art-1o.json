@@ -1,0 +1,32 @@
+{
+  "chunk_id": "ec-29-2000::002-art-1o",
+  "lei_id": "ec-29-2000",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 1º",
+  "numero": "1",
+  "caminho_hierarquico": [
+    "Art. 1º"
+  ],
+  "texto": "Art. 1º A alínea e do inciso VII do art. 34 passa a vigorar com a seguinte redação:\n\n\"Art.34............................................\n\n......................................................\"\n\n\"VII-..............................................\n\n......................................................\"\n\n\"e) aplicação do mínimo exigido da receita resultante de impostos estaduais, compreendida a proveniente de transferências, na manutenção e desenvolvimento do ensino e nas ações e serviços públicos de saúde.\" (NR)",
+  "citacao": {
+    "norma": "emenda_constitucional nº 29/2000 — Brasil",
+    "dispositivo": "Art. 1º",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc29.htm",
+    "vigencia": {
+      "inicio": "2000-09-13",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "CF/1988 arts. 34, 35, 156, 160, 167, 198",
+        "ADCT (acréscimo de artigo - art. 77)"
+      ],
+      "alterada_por": []
+    }
+  },
+  "tema": [
+    "IPTU",
+    "progressividade_fiscal"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Altera os arts. 34, 35, 156, 160, 167 e 198 da Constituição Federal e acrescenta artigo ao Ato das Disposições Constitucionais Transitórias, para assegurar os recursos mínimos para o financiamento das ações e serviços públicos de saúde."
+}

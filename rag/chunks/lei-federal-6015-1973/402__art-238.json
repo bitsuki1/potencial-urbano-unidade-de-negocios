@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::402-art-238",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 238",
+  "numero": "238",
+  "caminho_hierarquico": [
+    "TÍTULO V",
+    "CAPÍTULO VII",
+    "Art. 238"
+  ],
+  "texto": "Art. 238 - O registro de hipoteca convencional valerá pelo prazo de 30 (trinta) anos, findo o qual só será mantido o número anterior se reconstituída por novo título e novo registro.                     (Renumerado do art. 241 com nova redação pela Lei nº 6.216, de 1975).",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO V › CAPÍTULO VII › Art. 238",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-11101-2005::261-art-184",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 184",
+  "numero": "184",
+  "caminho_hierarquico": [
+    "CAPÍTULO VII",
+    "Seção III",
+    "Art. 184"
+  ],
+  "texto": "Art. 184. Os crimes previstos nesta Lei são de ação penal pública incondicionada.\n\nParágrafo único. Decorrido o prazo a que se refere o art. 187, § 1º , sem que o representante do Ministério Público ofereça denúncia, qualquer credor habilitado ou o administrador judicial poderá oferecer ação penal privada subsidiária da pública, observado o prazo decadencial de 6 (seis) meses.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO VII › Seção III › Art. 184",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

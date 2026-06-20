@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::304-art-198",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 198",
+  "numero": "198",
+  "caminho_hierarquico": [
+    "TÍTULO V",
+    "CAPÍTULO III",
+    "Art. 198"
+  ],
+  "texto": "Art. 198 - Havendo exigência a ser satisfeita, o oficial indicá-la-á por escrito. Não se conformando o apresentante com a exigência do oficial, ou não a podendo satisfazer, será o título, a seu requerimento e com a declaração de dúvida, remetido ao juízo competente para dirimí-la, obedecendo-se ao seguinte:                   (Renumerado do art 198 a 201 \"caput\" com nova redação pela Lei nº 6.216, de 1975).\n\n I - no Protocolo, anotará o oficial, à margem da prenotação, a ocorrência da dúvida;\n\nIl - após certificar, no título, a prenotação e a suscitação da dúvida, rubricará o oficial todas as suas folhas;\n\nIII - em seguida, o oficial dará ciência dos termos da dúvida ao apresentante, fornecendo-lhe cópia da suscitação e notificando-o para impugná-la, perante o juízo competente, no prazo de 15 (quinze) dias;        (Revogado Pela Medida Provisória nº 1.085, de 2021)\n\nIV - certificado o cumprimento do disposto no item anterior, remeterse-ão ao juízo competente, mediante carga, as razões da dúvida, acompanhadas do título.          (Revogado Pela Medida Provisória nº 1.085, de 2021)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO V › CAPÍTULO III › Art. 198",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

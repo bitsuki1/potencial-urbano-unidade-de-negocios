@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-11101-2005::069-art-52",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 52",
+  "numero": "52",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Seção II",
+    "Art. 52"
+  ],
+  "texto": "Art. 52. Estando em termos a documentação exigida no art. 51 desta Lei, o juiz deferirá o processamento da recuperação judicial e, no mesmo ato:\n\nI – nomeará o administrador judicial, observado o disposto no art. 21 desta Lei;\n\nII – determinará a dispensa da apresentação de certidões negativas para que o devedor exerça suas atividades, exceto para contratação com o Poder Público ou para recebimento de benefícios ou incentivos fiscais ou creditícios, observando o disposto no art. 69 desta Lei;\n\nII - determinará a dispensa da apresentação de certidões negativas para que o devedor exerça suas atividades, observado o disposto no § 3º do art. 195 da Constituição Federal e no art. 69 desta Lei;   (Redação dada pela Lei nº 14.112, de 2020)   (Vigência)\n\nIII – ordenará a suspensão de todas as ações ou execuções contra o devedor, na forma do art. 6º desta Lei, permanecendo os respectivos autos no juízo onde se processam, ressalvadas as ações previstas nos §§ 1º , 2º e 7º do art. 6º desta Lei e as relativas a créditos excetuados na forma dos §§ 3º e 4º do art. 49 desta Lei;\n\nIV – determinará ao devedor a apresentação de contas demonstrativas mensais enquanto perdurar a recuperação judicial, sob pena de destituição de seus administradores;\n\nV – ordenará a intimação do Ministério Público e a comunicação por carta às Fazendas Públicas Federal e de todos os Estados e Municípios em que o devedor tiver estabelecimento.\n\nV - ordenará a intimação eletrônica do Ministério Público e das Fazendas Públicas federal e de todos os Estados, Distrito Federal e Municípios em que o devedor tiver estabelecimento, a fim de que tomem conhecimento da recuperação judicial e informem eventuais créditos perante o devedor, para divulgação aos demais interessados.       (Redação dada pela Lei nº 14.112, de 2020)   (Vigência)\n\n§ 1º O juiz ordenará a expedição de edital, para publicação no órgão oficial, que conterá:\n\nI – o resumo do pedido do devedor e da decisão que defere o processamento da recuperação judicial;\n\nII – a relação nominal de credores, em que se discrimine o valor atualizado e a classificação de cada crédito;\n\nIII – a advertência acerca dos prazos para habilitação dos créditos, na forma do art. 7º , § 1º , desta Lei, e para que os credores apresentem objeção ao plano de recuperação judicial apresentado pelo devedor nos termos do art. 55 desta Lei.\n\n§ 2º Deferido o processamento da recuperação judicial, os credores poderão, a qualquer tempo, requerer a convocação de assembléia-geral para a constituição do Comitê de Credores ou substituição de seus membros, observado o disposto no § 2º do art. 36 desta Lei.\n\n§ 3º No caso do inciso III do caput deste artigo, caberá ao devedor comunicar a suspensão aos juízos competentes.\n\n§ 4º O devedor não poderá desistir do pedido de recuperação judicial após o deferimento de seu processamento, salvo se obtiver aprovação da desistência na assembléia-geral de credores.\n\nSeção III\n\nDo Plano de Recuperação Judicial",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO III › Seção II › Art. 52",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

@@ -1,0 +1,33 @@
+{
+  "chunk_id": "lei-federal-6830-1980::018-art-17",
+  "lei_id": "lei-federal-6830-1980",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 17",
+  "numero": "17",
+  "caminho_hierarquico": [
+    "Art. 17"
+  ],
+  "texto": "Art. 17 - Recebidos os embargos, o Juiz mandará intimar a Fazenda, para impugná-los no prazo de 30 (trinta) dias, designando, em seguida, audiência de instrução e julgamento.\n\nParágrafo Único - Não se realizará audiência, se os embargos versarem sobre matéria de direito, ou, sendo de direito e de fato, a prova for exclusivamente documental, caso em que o Juiz proferirá a sentença no prazo de 30 (trinta) dias.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6830/1980 — Brasil",
+    "dispositivo": "Art. 17",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6830.htm",
+    "vigencia": {
+      "inicio": "1980-09-22",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 11.960/2009 (art. 40, § 5º)"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "execucao_fiscal",
+    "divida_ativa",
+    "prescricao_intercorrente"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre a cobrança judicial da Dívida Ativa da Fazenda Pública, e dá outras providências."
+}

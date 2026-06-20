@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-4591-1964::063-art-41",
+  "lei_id": "lei-federal-4591-1964",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 41",
+  "numero": "41",
+  "caminho_hierarquico": [
+    "Título II",
+    "CAPÍTULO II",
+    "Art. 41"
+  ],
+  "texto": "Art. 41. Quando as unidades imobiliárias forem contratadas pelo incorporador por preço global compreendendo quota de terreno e construção, inclusive com parte de pagamento após a entrega da unidade, discriminar-se-ão, no contrato, o preço da quota de terreno e o da construção.\n\n§ 1º Poder-se-á estipular que, na hipótese de o adquirente atrasar o pagamento de parcela relativa a construção, os efeitos da mora recairão não apenas sôbre a aquisição da parte construída, mas, também, sôbre a fração ideal de terreno, ainda que esta tenha sido totalmente paga.\n\n§ 2º Poder-se-á também estipular que, na hipótese de o adquirente atrasar o pagamento da parcela relativa à fração ideal de terreno, os efeitos da mora recairão não apenas sôbre a aquisição da fração ideal, mas, também, sôbre a parte construída, ainda que totalmente paga.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 4591/1964 — Brasil",
+    "dispositivo": "Título II › CAPÍTULO II › Art. 41",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l4591.htm",
+    "vigencia": {
+      "inicio": "1964-12-16",
+      "fim": null,
+      "revogada_por": "parcialmente — a parte de condomínio convive com o Código Civil/2002 (arts. 1.331 e ss.)",
+      "altera": [],
+      "alterada_por": [
+        "Código Civil/2002 (Lei 10.406/2002)",
+        "Lei 10.931/2004 (patrimônio de afetação)",
+        "Lei 4.864/1965"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "condominio_edilicio",
+    "incorporacao_imobiliaria",
+    "unidade_autonoma"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
+}

@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-11101-2005::092-art-68",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 68",
+  "numero": "68",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Seção IV",
+    "Art. 68"
+  ],
+  "texto": "Art. 68. As Fazendas Públicas e o Instituto Nacional do Seguro Social – INSS poderão deferir, nos termos da legislação específica, parcelamento de seus créditos, em sede de recuperação judicial, de acordo com os parâmetros estabelecidos na Lei nº 5.172, de 25 de outubro de 1966 - Código Tributário Nacional.\n\nParágrafo único. As microempresas e empresas de pequeno porte farão jus a prazos 20% (vinte por cento) superiores àqueles regularmente concedidos às demais empresas. (Incluído pela Lei Complementar nº 147, de 2014)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO III › Seção IV › Art. 68",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

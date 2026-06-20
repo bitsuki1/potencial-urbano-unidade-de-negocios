@@ -1,0 +1,34 @@
+{
+  "chunk_id": "dl-57-1966::011-art-10",
+  "lei_id": "dl-57-1966",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 10",
+  "numero": "10",
+  "caminho_hierarquico": [
+    "Art. 10"
+  ],
+  "texto": "Art 10. As notificações de lançamento e de cobrança do ITR e da Taxa de Cadastro considerar-se-ão feitas aos contribuintes, pela só publicação dos respectivos editais, no Diário Oficial da União e sua afixação na sede das Prefeituras em cujos municípios se localizam os imóveis, devendo os Prefeitos promoverem a mais ampla divulgação dêsses editais.\n\n        Parágrafo único. Até que sejam instalados os equipamentos próprios de computação do IBRA, que permitam a programação das emissões na forma estabelecida no inciso IV do artigo 48 da Lei 4.504, de 30 de novembro de 1964, o período de emissão de Guias será de 1º de abril a 31 de julho de cada exercício.",
+  "citacao": {
+    "norma": "decreto_lei nº 57/1966 — Brasil",
+    "dispositivo": "Art. 10",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del0057.htm",
+    "vigencia": {
+      "inicio": "1966-11-18",
+      "fim": null,
+      "revogada_por": "art. 15 revogado pela Lei 5.868/1972 (art. 12), mas execução dessa revogação SUSPENSA pela Res. Senado Federal nº 9/2005 (decisão STF) — art. 15 aplicável",
+      "altera": [
+        "Lei 5.172/1966 (CTN) — modula alcance do art. 32"
+      ],
+      "alterada_por": [
+        "Lei 5.868/1972 (revogação do art. 15, posteriormente suspensa pela Res. SF 9/2005)"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "ITR",
+    "destinacao_economica"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Altera dispositivos sobre lançamento e cobrança do Imposto sobre a Propriedade Territorial Rural, institui normas sobre arrecadação da Dívida Ativa correspondente, e dá outras providências."
+}

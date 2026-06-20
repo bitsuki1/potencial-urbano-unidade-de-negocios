@@ -1,0 +1,36 @@
+{
+  "chunk_id": "lei-federal-9514-1997::009-art-8o",
+  "lei_id": "lei-federal-9514-1997",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 8º",
+  "numero": "8",
+  "caminho_hierarquico": [
+    "CAPÍTULO I",
+    "Seção V",
+    "Art. 8º"
+  ],
+  "texto": "Art. 8º A securitização de créditos imobiliários é a operação pela qual tais créditos são expressamente vinculados à emissão de uma série de títulos de crédito, mediante Termo de Securitização de Créditos, lavrado por uma companhia securitizadora, do qual constarão os seguintes elementos:       (Revogado pela Medida Provisória nº 1.103, de 2022)    (Revogado pela Lei nº 14.430, de 2022)\n\nI - a identificação do devedor e o valor nominal de cada crédito que lastreie a emissão, com a individuação do imóvel a que esteja vinculado e indicação do Cartório de Registro de Imóveis em que esteja registrado e respectiva matrícula, bem como o número do registro do ato pelo qual o crédito foi cedido;\n\nI - a identificação do devedor e o valor nominal de cada crédito que lastreie a emissão, com a individuação do imóvel a que esteja vinculado e a indicação do Cartório de Registro de Imóveis em que esteja registrado e respectiva matrícula, bem como a indicação do ato pelo qual o crédito foi cedido;       (Redação dada pela Medida Provisória nº 2.223, de 2001)\n\nI - a identificação do devedor e o valor nominal de cada crédito que lastreie a emissão, com a individuação do imóvel a que esteja vinculado e a indicação do Cartório de Registro de Imóveis em que esteja registrado e respectiva matrícula, bem como a indicação do ato pelo qual o crédito foi cedido;         (Redação dada pela Lei nº 10.931, de 2004)        (Revogado pela Medida Provisória nº 1.103, de 2022)    (Revogado pela Lei nº 14.430, de 2022)\n\nII - a identificação dos títulos emitidos;      (Revogado pela Medida Provisória nº 1.103, de 2022)    (Revogado pela Lei nº 14.430, de 2022)\n\nIII - a constituição de outras garantias de resgate dos títulos da série emitida, se for o caso.       (Revogado pela Medida Provisória nº 1.103, de 2022)    (Revogado pela Lei nº 14.430, de 2022)\n\nParágrafo único. Será permitida a securitização de créditos oriundos da alienação de unidades em edificação sob regime de incorporação nos moldes da Lei nº 4.591, de 16 de dezembro de 1964.        (Revogado pela Medida Provisória nº 1.103, de 2022)    (Revogado pela Lei nº 14.430, de 2022)\n\nSeção VI\n\nDo regime fiduciário",
+  "citacao": {
+    "norma": "lei_ordinaria nº 9514/1997 — Brasil",
+    "dispositivo": "CAPÍTULO I › Seção V › Art. 8º",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l9514.htm",
+    "vigencia": {
+      "inicio": "1997-11-20",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 13.043/2014",
+        "Lei 13.465/2017",
+        "Lei 14.620/2023"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "alienacao_fiduciaria",
+    "sistema_financiamento_imobiliario"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre o Sistema de Financiamento Imobiliário, institui a alienação fiduciária de coisa imóvel e dá outras providências."
+}

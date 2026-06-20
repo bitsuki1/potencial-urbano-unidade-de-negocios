@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-6015-1973::508-art-291",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 291",
+  "numero": "291",
+  "caminho_hierarquico": [
+    "TÍTULO VI",
+    "Art. 291"
+  ],
+  "texto": "Art. 291 - A emissão ou averbação da Cédula Hipotecária, consolidando créditos hipotecários de um só credor, não implica modificação da ordem preferencial dessas hipotecas em relação a outras que lhes sejam posteriores e que garantam créditos não incluídos na consolidação.                   (Incluído pela Lei nº 6.941, de 1981)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO VI › Art. 291",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

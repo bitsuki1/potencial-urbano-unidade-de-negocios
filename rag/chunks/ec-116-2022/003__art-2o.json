@@ -1,0 +1,32 @@
+{
+  "chunk_id": "ec-116-2022::003-art-2o",
+  "lei_id": "ec-116-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 2º",
+  "numero": "2",
+  "caminho_hierarquico": [
+    "Art. 2º"
+  ],
+  "texto": "Art. 2º Esta Emenda Constitucional entra em vigor na data de sua publicação.\n\nBrasília, em 17 de fevereiro de 2022\n\nMesa da Câmara dos Deputados\n\n\t\n\nMesa do Senado Federal\n\n\n\n\nDeputado ARTHUR LIRA\nPresidente\n\n\t\n\nSenador RODRIGO PACHECO\nPresidente\n\n\n\n\nDeputado MARCELO RAMOS\n1º Vice-Presidente\n\n\t\n\nSenador VENEZIANO VITAL DO RÊGO\n1º Vice-Presidente\n\n\n\n\nDeputado ANDRÉ DE PAULA\n2º Vice-Presidente\n\n\t\n\nSenador ROMÁRIO\n2º Vice-Presidente\n\n\n\n\nDeputado LUCIANO BIVAR\n1º Secretário\n\n\t\n\nSenador IRAJÁ\n1º Secretário\n\n\n\n\nDeputada MARÍLIA ARRAES\n2ª Secretária\n\n\t\n\nSenador ELMANO FÉRRER\n2º Secretário\n\n\n\n\nDeputada ROSE MODESTO\n3ª Secretária\n\n\t\n\nSenador ROGÉRIO CARVALHO\n3º Secretário\n\n\n\n\nDeputada ROSANGELA GOMES\n4ª Secretária\n\n\t\n\nSenador WEVERTON\n4º Secretário\n\nEste texto não substitui o publicado no DOU 18.2.2022",
+  "citacao": {
+    "norma": "emenda_constitucional nº 116/2022 — Brasil",
+    "dispositivo": "Art. 2º",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc116.htm",
+    "vigencia": {
+      "inicio": "2022-02-17",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "CF/1988 art. 156 (acréscimo do § 1º-A)"
+      ],
+      "alterada_por": []
+    }
+  },
+  "tema": [
+    "IPTU",
+    "imunidade_tributaria",
+    "templos"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Acrescenta § 1º-A ao art. 156 da Constituição Federal para prever a não incidência sobre templos de qualquer culto do imposto sobre a propriedade predial e territorial urbana (IPTU), ainda que as entidades abrangidas pela imunidade de que trata a alínea 'b' do inciso VI do caput do art. 150 desta Constituição sejam apenas locatárias do bem imóvel."
+}

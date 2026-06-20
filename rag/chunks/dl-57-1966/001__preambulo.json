@@ -1,0 +1,32 @@
+{
+  "chunk_id": "dl-57-1966::001-preambulo",
+  "lei_id": "dl-57-1966",
+  "tipo_dispositivo": "preambulo",
+  "rotulo": "Preâmbulo",
+  "numero": null,
+  "caminho_hierarquico": [],
+  "texto": "Presidência da República\nCasa Civil\nSubchefia para Assuntos Jurídicos\n\nDECRETO-LEI Nº 57, DE 18 DE NOVEMBRO DE 1966.\n\nRegulamento\n\n(Vide Lei nº 8.022, de 1990)\n(Vide Lei nº 8.847, de 1994)\n\n\t\n\nAltera dispositivos sôbre lançamento e cobrança do Impôsto sôbre a Propriedade Territorial Rural, institui normas sôbre arrecadação da Dívida Ativa correspondente, e dá outras providências.\n\n        O PRESIDENTE DA REPÚBLICA , no uso das atribuições que lhe são conferidas pelo artigo 31, Parágrafo Único, do Ato Institucional nº 2, de 27 de outubro de 1965, e pelo artigo 2º do Ato Complementar nº 23, de 20 de outubro 1996,\n\n        DECRETA:",
+  "citacao": {
+    "norma": "decreto_lei nº 57/1966 — Brasil",
+    "dispositivo": "Preâmbulo",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del0057.htm",
+    "vigencia": {
+      "inicio": "1966-11-18",
+      "fim": null,
+      "revogada_por": "art. 15 revogado pela Lei 5.868/1972 (art. 12), mas execução dessa revogação SUSPENSA pela Res. Senado Federal nº 9/2005 (decisão STF) — art. 15 aplicável",
+      "altera": [
+        "Lei 5.172/1966 (CTN) — modula alcance do art. 32"
+      ],
+      "alterada_por": [
+        "Lei 5.868/1972 (revogação do art. 15, posteriormente suspensa pela Res. SF 9/2005)"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "ITR",
+    "destinacao_economica"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Altera dispositivos sobre lançamento e cobrança do Imposto sobre a Propriedade Territorial Rural, institui normas sobre arrecadação da Dívida Ativa correspondente, e dá outras providências."
+}

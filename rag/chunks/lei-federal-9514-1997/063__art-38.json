@@ -1,0 +1,35 @@
+{
+  "chunk_id": "lei-federal-9514-1997::063-art-38",
+  "lei_id": "lei-federal-9514-1997",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 38",
+  "numero": "38",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 38"
+  ],
+  "texto": "Art. 38. Os atos e contratos referidos nesta Lei ou resultantes da sua aplicação, mesmo aqueles que visem à constituição, transferência, modificação ou renúncia de direitos reais sobre imóveis, poderão ser celebrados por escritura pública ou por instrumento particular com efeitos de escritura pública.         (Redação dada pela Lei nº 11.076, de 2004)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 9514/1997 — Brasil",
+    "dispositivo": "CAPÍTULO III › Art. 38",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l9514.htm",
+    "vigencia": {
+      "inicio": "1997-11-20",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 13.043/2014",
+        "Lei 13.465/2017",
+        "Lei 14.620/2023"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "alienacao_fiduciaria",
+    "sistema_financiamento_imobiliario"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre o Sistema de Financiamento Imobiliário, institui a alienação fiduciária de coisa imóvel e dá outras providências."
+}

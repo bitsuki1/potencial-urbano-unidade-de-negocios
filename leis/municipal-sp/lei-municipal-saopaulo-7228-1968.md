@@ -2,7 +2,7 @@
 
 **URL oficial:** https://legislacao.prefeitura.sp.gov.br/leis/lei-7228-de-12-de-dezembro-de-1968
 **Data de captura:** 2026-06-18
-**Proveniência:** VERBATIM DE TELA — re-ingerido em 2026-06-20 a partir de `_entrada/misto/lei-municipal-saopaulo-7228-1968.txt` (o cru já estava local; supera a versão NÃO-VERBATIM anterior, que era resumo de WebSearch). Texto integral, fiel ao Diário Oficial.
+**Proveniência:** VERBATIM DE TELA — re-ingerido em 2026-06-20 de `_entrada/misto/lei-municipal-saopaulo-7228-1968.txt` (o cru já estava local; supera a versão NÃO-VERBATIM anterior, que dizia 'HTTP 403 / não baixado'). Saneado só lixo de captura; boilerplate oficial do portal preservado.
 **confianca_extracao:** alta (articulado integral verbatim)
 
 ## Ementa
@@ -12,6 +12,10 @@ Altera dispositivos da Lei nº 6.989, de 29 de dezembro de 1966, e dá outras pr
 ## Texto integral (verbatim)
 
 LEI Nº 7.228 DE 12 DE DEZEMBRO DE 1968
+
+Altera dispositivo da Lei nº 6.989/1966, e dá outras providências.
+
+Lei nº 7.228, de 12 de dezembro de 1968.
 
 Altera dispositivos da Lei nº 6.989, de 29 de dezembro de 1966, e dá outras providências.
 
@@ -223,6 +227,28 @@ PREFEITURA DO MUNICÍPIO DE SÃO PAULO, AOS 12 DE DEZEMBRO DE 1968, 415º DA FUN
 
 O Prefeito, JOSÉ VICENTE DE FARIA LIMA
 
+O Secretário de Negócios Internos e Jurídicos, Teófilo Ribeiro de Andrade Filho
+
+O Secretário das Finanças, Francisco de Paula Quintanilha Ribeiro
+
+O Secretário de Obras, José Meiches
+
+O Secretário de Educação e Cultura, Araripe Serpa
+
+Carlos Augusto Autran Pederneiras de Lima, respondendo pelo expediente da Secretaria de Higiene e Saúde
+
+O Secretário do Abastecimento, João Pacheco Chaves
+
+O Secretário de Serviços Municipais, Gesner Cunha
+
+Eduardo de Campos Rosmaninho, respondendo pelo Expediente da Secretaria de Bem Estar Social
+
+Paulo Henrique Meinberg, respondendo pelo expediente da Secretaria de Turismo e Fomento
+
+O Secretário Municipal de Transportes, George Soares de Moraes
+
 Publicada na Diretoria do Departamento de Administração do Município de São Paulo, em 12 de dezembro de 1968.
+
+O Diretor, Paulo Villaça
 
 Este texto não substitui o original publicado no Diário Oficial da Cidade de São Paulo

@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::306-art-198",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 198",
+  "numero": "198",
+  "caminho_hierarquico": [
+    "TÍTULO V",
+    "CAPÍTULO III",
+    "Art. 198"
+  ],
+  "texto": "Art. 198. Se houver exigência a ser satisfeita, ela será indicada pelo oficial por escrito, dentro do prazo previsto no art. 188 desta Lei e de uma só vez, articuladamente, de forma clara e objetiva, com data, identificação e assinatura do oficial ou preposto responsável, para que:   (Redação dada pela Lei nº 14.382, de 2022)\n\nI - o interessado possa satisfazê-la; ou        (Redação dada pela Medida Provisória nº 1.085, de 2021)\n\nI - (revogado);   (Redação dada pela Lei nº 14.382, de 2022)\n\nII - não se conformando, ou sendo impossível cumpri-la, para requerer que o título e a declaração de dúvida sejam remetidos ao juízo competente para dirimi-la.      (Redação dada pela Medida Provisória nº 1.085, de 2021)\n\nII - (revogado);   (Redação dada pela Lei nº 14.382, de 2022)\n\nIII - (revogado);    (Redação dada pela Lei nº 14.382, de 2022)\n\nIV - (revogado);   (Redação dada pela Lei nº 14.382, de 2022)\n\nV - o interessado possa satisfazê-la; ou   (Incluído pela Lei nº 14.382, de 2022)\n\nVI - caso não se conforme ou não seja possível cumprir a exigência, o interessado requeira que o título e a declaração de dúvida sejam remetidos ao juízo competente para dirimi-la.   (Incluído pela Lei nº 14.382, de 2022)\n\n§ 1º  O procedimento da dúvida observará o seguinte:      (Incluído pela Medida Provisória nº 1.085, de 2021)\n\n§ 1º O procedimento da dúvida observará o seguinte:   (Incluído pela Lei nº 14.382, de 2022)\n\nI - no Protocolo, anotará o oficial, à margem da prenotação, a ocorrência da dúvida;     (Incluído pela Medida Provisória nº 1.085, de 2021)\n\nI - no Protocolo, o oficial anotará, à margem da prenotação, a ocorrência da dúvida;    (Incluído pela Lei nº 14.382, de 2022)\n\nII - após certificar, no título, a prenotação e a suscitação da dúvida, rubricará o oficial todas as suas folhas;      (Incluído pela Medida Provisória nº 1.085, de 2021)\n\nII - após certificar a prenotação e a suscitação da dúvida no título, o oficial rubricará todas as suas folhas;   (Incluído pela Lei nº 14.382, de 2022)\n\nIII - em seguida, o oficial dará ciência dos termos da dúvida ao apresentante, fornecendo-lhe cópia da suscitação e notificando-o para impugná-la, perante o juízo competente, no prazo de quinze dias; e    (Incluído pela Medida Provisória nº 1.085, de 2021)\n\nIII - em seguida, o oficial dará ciência dos termos da dúvida ao apresentante, fornecendo-lhe cópia da suscitação e notificando-o para impugná-la perante o juízo competente, no prazo de 15 (quinze) dias; e   (Incluído pela Lei nº 14.382, de 2022)\n\nIV - certificado o cumprimento do disposto no inciso III, serão remetidos eletronicamente ao juízo competente as razões da dúvida e o título.    (Incluído pela Medida Provisória nº 1.085, de 2021)\n\nIV - certificado o cumprimento do disposto no inciso III deste parágrafo, serão remetidos eletronicamente ao juízo competente as razões da dúvida e o título.    (Incluído pela Lei nº 14.382, de 2022)\n\n§ 2º  A inobservância ao disposto neste artigo ensejará a aplicação das penas previstas no art. 32 da Lei nº 8.935, de 1994, nos termos estabelecidos pela Corregedoria Nacional de Justiça do Conselho Nacional de Justiça. (Incluído pela Medida Provisória nº 1.085, de 2021)\n\n§ 2º A inobservância do disposto neste artigo ensejará a aplicação das penas previstas no art. 32 da Lei nº 8.935, de 18 de novembro de 1994, nos termos estabelecidos pela Corregedoria Nacional de Justiça do Conselho Nacional de Justiça.   (Incluído pela Lei nº 14.382, de 2022)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO V › CAPÍTULO III › Art. 198",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

@@ -1,0 +1,43 @@
+{
+  "chunk_id": "lei-federal-10931-2004::057-art-30",
+  "lei_id": "lei-federal-10931-2004",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 30",
+  "numero": "30",
+  "caminho_hierarquico": [
+    "CAPÍTULO IV",
+    "Art. 30"
+  ],
+  "texto": "Art. 30. A constituição de garantia da obrigação representada pela Cédula de Crédito Bancário é disciplinada por esta Lei, sendo aplicáveis as disposições da legislação comum ou especial que não forem com ela conflitantes.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 10931/2004 — Brasil",
+    "dispositivo": "CAPÍTULO IV › Art. 30",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/lei/l10.931.htm",
+    "vigencia": {
+      "inicio": "2004-08-02",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Decreto-Lei 911/1969",
+        "Lei 4.591/1964 (acresce arts. 31-A a 31-F)",
+        "Lei 4.728/1965",
+        "Lei 10.406/2002 (Código Civil)"
+      ],
+      "alterada_por": [
+        "Lei 13.097/2015",
+        "Lei 14.382/2022"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "patrimonio_de_afetacao",
+    "incorporacao_imobiliaria",
+    "RET",
+    "LCI",
+    "CCI",
+    "CCB"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre o patrimônio de afetação de incorporações imobiliárias, Letra de Crédito Imobiliário, Cédula de Crédito Imobiliário, Cédula de Crédito Bancário, altera o Decreto-Lei nº 911, de 1º de outubro de 1969, as Leis nº 4.591, de 16 de dezembro de 1964, nº 4.728, de 14 de julho de 1965, e nº 10.406, de 10 de janeiro de 2002, e dá outras providências."
+}

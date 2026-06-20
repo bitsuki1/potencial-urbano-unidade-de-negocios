@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::164-art-121",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 121",
+  "numero": "121",
+  "caminho_hierarquico": [
+    "TÍTULO III",
+    "CAPÍTULO II",
+    "Art. 121"
+  ],
+  "texto": "Art. 121.  O registro será feito com base em uma via do estatuto, compromisso ou contrato, apresentada em papel ou em meio eletrônico, a requerimento do representante legal da pessoa jurídica.      (Redação dada pela Medida Provisória nº 1.085, de 2021)\n\n§ 1º  É dispensado o requerimento de que trata o caput caso o representante legal da pessoa jurídica tenha subscrito o estatuto, compromisso ou contrato.      (Incluído pela Medida Provisória nº 1.085, de 2021)\n\n§ 2º  Os documentos apresentados em papel poderão ser retirados pelo apresentante nos cento e oitenta dias após a data da certificação do registro ou da expedição de nota devolutiva.     (Incluído pela Medida Provisória nº 1.085, de 2021)\n\n§ 3º  Decorrido o prazo de que trata o § 2º, os documentos serão descartados.     (Incluído pela Medida Provisória nº 1.085, de 2021)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO III › CAPÍTULO II › Art. 121",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

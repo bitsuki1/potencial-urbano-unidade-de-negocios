@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-4591-1964::012-art-11",
+  "lei_id": "lei-federal-4591-1964",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 11",
+  "numero": "11",
+  "caminho_hierarquico": [
+    "TÍTULO I",
+    "Capítulo II",
+    "Art. 11"
+  ],
+  "texto": "Art. 11. Para efeitos tributários, cada unidade autônoma será tratada como prédio isolado, contribuindo o respectivo condômino, diretamente, com as importâncias relativas aos impostos e taxas federais, estaduais e municipais, na forma dos respectivos lançamentos.\n\nCAPíTULO III\n\nDas Despesas do Condomínio",
+  "citacao": {
+    "norma": "lei_ordinaria nº 4591/1964 — Brasil",
+    "dispositivo": "TÍTULO I › Capítulo II › Art. 11",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l4591.htm",
+    "vigencia": {
+      "inicio": "1964-12-16",
+      "fim": null,
+      "revogada_por": "parcialmente — a parte de condomínio convive com o Código Civil/2002 (arts. 1.331 e ss.)",
+      "altera": [],
+      "alterada_por": [
+        "Código Civil/2002 (Lei 10.406/2002)",
+        "Lei 10.931/2004 (patrimônio de afetação)",
+        "Lei 4.864/1965"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "condominio_edilicio",
+    "incorporacao_imobiliaria",
+    "unidade_autonoma"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
+}

@@ -61,6 +61,30 @@ def coletar(diretorio: Path):
     return itens
 
 
+def enumerar_nao_corpus():
+    """D24-do-git (achado AUD-09/ID-06): os 4 artefatos do projeto (1.1) não são só Lei.
+    Engine/Tabela/Tese não entram no corpus (leis/juris) mas PRECISAM aparecer no SSOT — senão
+    viram valor preso (D23). Enumera contagem + estado coarse, sem fingir que estão prontos."""
+    def conta(rel):
+        d = RAIZ / rel
+        if not d.exists():
+            return 0
+        return sum(1 for p in d.rglob("*") if p.is_file() and p.suffix != ".gitkeep"
+                   and p.name != ".gitkeep")
+    engines_py = sorted(str(p.relative_to(RAIZ)) for p in (RAIZ / "engines").rglob("*.py"))
+    return {
+        "_nota": "Estado dos artefatos NÃO-corpus (1.1: Tabela/Engine/Tese). Fechamento do D24-do-git (AUD-09).",
+        "engines": {"arquivos": conta("engines"), "executavel_py": engines_py,
+                    "status": "engine OODC/TDC executável (engines/tdc/oodc.py); demais são prosa/conhecimento"},
+        "tabelas": {"arquivos": conta("tabelas"),
+                    "status": "VAZIO — Q14/Quadro 3 ainda no Drive, não ingeridos (AUD-04: combustível do engine)"},
+        "tese_iptu": {"arquivos": conta("tese/iptu"), "status": "vazio"},
+        "tese_tdc": {"arquivos": conta("tese/tdc"), "status": "vazio"},
+        "extracao_gems": {"arquivos": conta("extracao/gems"),
+                          "status": "material de gens (prosa); material IRRF/Tema 1130 removido em 2026-06-20 (AUD-04)"},
+    }
+
+
 def main():
     leis = coletar(RAIZ / "leis")
     juris = coletar(RAIZ / "jurisprudencia")
@@ -92,13 +116,14 @@ def main():
             "por_status_pipeline_ativos": por_status,
             "status_ilegais_encontrados": status_ilegais,
             "confianca_baixa_ou_media": len(nao_verbatim),
-            "_nota_verbatim": "confianca e flag de extracao, nao prova de verbatim. NENHUMA das 27 leis tem o articulado INTEGRAL verbatim (planalto deu 403): tem ementa + dispositivo-chave + sintese. As 32 juris (curtas) sao verbatim. Re-ingestao verbatim das 27 leis e pre-requisito do RAG.",
+            "_nota_verbatim": "confianca e flag de extracao, nao prova de verbatim. CORRIGIDO na auditoria profunda 2026-06-20 (AUD-01): 13 leis JA estao em verbatim integral e indexadas (12 federais re-ingeridas de _entrada/misto/ + a 7228/1968 municipal) — supera a narrativa antiga 'planalto deu 403, NENHUMA e verbatim', que confundia 'o .md e resumo' com 'o verbatim nao existe'. Faltam 14 municipais (so resumo WebSearch) — re-ingestao verbatim delas e o que resta do pre-requisito do RAG. As 32 juris (curtas) sao verbatim.",
         },
         "alertas": {
             "status_fora_do_vocabulario": status_ilegais,
             "itens_confianca_baixa_ou_media_a_revisar": nao_verbatim,
             "itens_fora_de_escopo": [i["id"] for i in todos if i["fora_de_escopo"]],
         },
+        "artefatos_nao_corpus": enumerar_nao_corpus(),
         "itens": sorted(todos, key=lambda i: (i["caminho_json"])),
     }
 

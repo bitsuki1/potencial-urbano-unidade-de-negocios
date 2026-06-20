@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::046-art-31",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 31",
+  "numero": "31",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO I",
+    "Art. 31"
+  ],
+  "texto": "Art. 31. Os fatos concernentes ao registro civil, que se derem a bordo dos navios de guerra e mercantes, em viagem, e no exército, em campanha, serão imediatamente registrados e comunicados em tempo oportuno, por cópia autêntica, aos respectivos Ministérios, a fim de que, através do Ministério da Justiça, sejam ordenados os assentamentos, notas ou averbações nos livros competentes das circunscrições a que se referirem.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO II › CAPÍTULO I › Art. 31",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

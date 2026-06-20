@@ -6,7 +6,11 @@
   "numero": "132",
   "ano": 2023,
   "ementa": "Altera o Sistema Tributário Nacional.",
-  "tema": ["IPTU", "reforma_tributaria", "sistema_tributario_nacional"],
+  "tema": [
+    "IPTU",
+    "reforma_tributaria",
+    "sistema_tributario_nacional"
+  ],
   "dispositivos_chave": [
     "Cria IBS, CBS e Imposto Seletivo; extingue ICMS, ISS, PIS e Cofins (com transição até 2033).",
     "Altera o art. 156 da CF/88 — relevante ao IPTU: autorização para o Executivo municipal atualizar a base de cálculo do IPTU por decreto conforme critérios de lei municipal (PENDENTE conferência verbatim)."
@@ -15,7 +19,10 @@
     "inicio": "2023-12-20",
     "fim": null,
     "revogada_por": null,
-    "altera": ["CF/1988 — Sistema Tributário Nacional (diversos artigos, incl. art. 156)", "ADCT"],
+    "altera": [
+      "CF/1988 — Sistema Tributário Nacional (diversos artigos, incl. art. 156)",
+      "ADCT"
+    ],
     "alterada_por": []
   },
   "remissoes": [
@@ -31,9 +38,12 @@
     "origem": "web-oficial",
     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm",
     "hash": null,
-    "ocr": false
+    "ocr": false,
+    "path": "_entrada/misto/ec-132-2023.txt",
+    "metodo": "VERBATIM DE TELA (planalto); re-ingerido de _entrada/misto/ em 2026-06-20 (AUD-01)",
+    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior."
   },
-  "status_pipeline": "bruto",
-  "confianca_extracao": "media",
+  "status_pipeline": "indexado",
+  "confianca_extracao": "alta",
   "revisado_por_humano": false
 }

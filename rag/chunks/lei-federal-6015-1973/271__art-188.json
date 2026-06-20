@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::271-art-188",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 188",
+  "numero": "188",
+  "caminho_hierarquico": [
+    "TÍTULO V",
+    "CAPÍTULO III",
+    "Art. 188"
+  ],
+  "texto": "Art. 188. Protocolizado o título, proceder-se-á ao registro ou à emissão de nota devolutiva, no prazo de 10 (dez) dias, contado da data do protocolo, salvo nos casos previstos no § 1º deste artigo e nos arts. 189, 190, 191 e 192 desta Lei.     (Redação dada pela Lei nº 14.382, de 2022)\n\n§ 1º  Não havendo exigências ou falta de pagamento de custas e emolumentos, deverão ser registrados, no prazo de cinco dias:    (Incluído pela Medida Provisória nº 1.085, de 2021)\n\nI - as escrituras de compra e venda sem cláusulas especiais, os requerimentos de averbação de construção e de cancelamento de garantias;       (Incluído pela Medida Provisória nº 1.085, de 2021)\n\nII - os documentos eletrônicos apresentados por meio do SERP; e      (Incluído pela Medida Provisória nº 1.085, de 2021)\n\nIII - os títulos que reingressarem na vigência da prenotação com o cumprimento integral das exigências formuladas anteriormente.      (Incluído pela Medida Provisória nº 1.085, de 2021)\n\n§ 1º Se não houver exigências ou falta de pagamento de custas e emolumentos, deverão ser registrados, no prazo de 5 (cinco) dias:   (Incluído pela Lei nº 14.382, de 2022)\n\nI - as escrituras de compra e venda sem cláusulas especiais, os requerimentos de averbação de construção e de cancelamento de garantias;   (Incluído pela Lei nº 14.382, de 2022)\n\nII - os documentos eletrônicos apresentados por meio do Serp; e   (Incluído pela Lei nº 14.382, de 2022)\n\nIII - os títulos que reingressarem na vigência da prenotação com o cumprimento integral das exigências formuladas anteriormente.   (Incluído pela Lei nº 14.382, de 2022)\n\n§ 2º  A inobservância ao disposto neste artigo ensejará a aplicação das penas previstas no art. 32 da Lei nº 8.935, de 18 de novembro de 1994, nos termos estabelecidos pela Corregedoria Nacional de Justiça do Conselho Nacional de Justiça.      (Incluído pela Medida Provisória nº 1.085, de 2021)\n\n§ 2º A inobservância do disposto neste artigo ensejará a aplicação das penas previstas no art. 32 da Lei nº 8.935, de 18 de novembro de 1994, nos termos estabelecidos pela Corregedoria Nacional de Justiça do Conselho Nacional de Justiça.   (Incluído pela Lei nº 14.382, de 2022)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO V › CAPÍTULO III › Art. 188",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

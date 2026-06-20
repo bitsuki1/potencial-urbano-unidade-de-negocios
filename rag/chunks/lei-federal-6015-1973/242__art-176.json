@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::242-art-176",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 176",
+  "numero": "176",
+  "caminho_hierarquico": [
+    "TÍTULO V",
+    "CAPÍTULO II",
+    "Art. 176"
+  ],
+  "texto": "Art. 176. O livro n. 5 - Indicador Real - será o repositório de todos imóveis que figurarem nos livros do registro.\n\n§ 1º As folhas desse livro repartir-se-ão entre as zonas cadastrais que se compreendam no território da circunscrição imobiliária subordinada ao respectivo ofício, de acordo com o zoneamento cadastral estabelecido pela repartição competente.\n\n§ 2º Cada indicação terá por espaço, pelo menos, um quinto da página do livro e cada espaço quatro colunas formadas por linhas perpendiculares, correspondentes aos requisitos seguintes:\n\n1º número de ordem;\n\n2º identificação do imóvel;\n\n3º referência aos números de ordem de outros livros;\n\n4º anotações.\n\n§ 3° Para auxiliar a consulta, os oficiais que não se utilizarem do Indicador Real pelo sistema de fichas, farão um índice pelos logradouros e numeração predial quando se tratar de imóveis urbanos e pelos nomes e situações, quando rurais.\n\n§ 4º As repartições municipais são obrigadas a comunicar ao oficial do registro nos dez (10) dias seguintes à sua efetivação, todas as alterações ocorridas no sistema urbano, inclusive as concernentes a nomes de logradouros.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO V › CAPÍTULO II › Art. 176",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

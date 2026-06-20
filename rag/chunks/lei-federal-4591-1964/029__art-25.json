@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-4591-1964::029-art-25",
+  "lei_id": "lei-federal-4591-1964",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 25",
+  "numero": "25",
+  "caminho_hierarquico": [
+    "TÍTULO I",
+    "Capítulo VII",
+    "Art. 25"
+  ],
+  "texto": "Art. 25. Ressalvado o disposto no § 3º do art. 22, poderá haver assembléias gerais extraordinárias, convocadas pelo síndico ou por condôminos que representem um quarto, no mínimo do condomínio, sempre que o exigirem os interêsses gerais.\n\nParágrafo único. Salvo estipulação diversa da Convenção, esta só poderá ser modificada em assembléia geral extraordinária, pelo voto mínimo de condôminos que representem 2/3 do total das frações ideais.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 4591/1964 — Brasil",
+    "dispositivo": "TÍTULO I › Capítulo VII › Art. 25",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l4591.htm",
+    "vigencia": {
+      "inicio": "1964-12-16",
+      "fim": null,
+      "revogada_por": "parcialmente — a parte de condomínio convive com o Código Civil/2002 (arts. 1.331 e ss.)",
+      "altera": [],
+      "alterada_por": [
+        "Código Civil/2002 (Lei 10.406/2002)",
+        "Lei 10.931/2004 (patrimônio de afetação)",
+        "Lei 4.864/1965"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "condominio_edilicio",
+    "incorporacao_imobiliaria",
+    "unidade_autonoma"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
+}

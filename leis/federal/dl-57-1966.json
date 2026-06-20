@@ -6,7 +6,11 @@
   "numero": "57",
   "ano": 1966,
   "ementa": "Altera dispositivos sobre lançamento e cobrança do Imposto sobre a Propriedade Territorial Rural, institui normas sobre arrecadação da Dívida Ativa correspondente, e dá outras providências.",
-  "tema": ["IPTU", "ITR", "destinacao_economica"],
+  "tema": [
+    "IPTU",
+    "ITR",
+    "destinacao_economica"
+  ],
   "dispositivos_chave": [
     "Art. 15 — afasta o art. 32 do CTN (e o IPTU) sobre imóvel comprovadamente usado em exploração extrativa vegetal, agrícola, pecuária ou agroindustrial, incidindo sobre ele o ITR. Critério da destinação econômica (IPTU x ITR)."
   ],
@@ -14,8 +18,12 @@
     "inicio": "1966-11-18",
     "fim": null,
     "revogada_por": "art. 15 revogado pela Lei 5.868/1972 (art. 12), mas execução dessa revogação SUSPENSA pela Res. Senado Federal nº 9/2005 (decisão STF) — art. 15 aplicável",
-    "altera": ["Lei 5.172/1966 (CTN) — modula alcance do art. 32"],
-    "alterada_por": ["Lei 5.868/1972 (revogação do art. 15, posteriormente suspensa pela Res. SF 9/2005)"]
+    "altera": [
+      "Lei 5.172/1966 (CTN) — modula alcance do art. 32"
+    ],
+    "alterada_por": [
+      "Lei 5.868/1972 (revogação do art. 15, posteriormente suspensa pela Res. SF 9/2005)"
+    ]
   },
   "remissoes": [
     "Lei 5.172/1966 (CTN) art. 32",
@@ -34,9 +42,12 @@
     "origem": "web-oficial",
     "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del0057.htm",
     "hash": null,
-    "ocr": false
+    "ocr": false,
+    "path": "_entrada/misto/dl-57-1966.txt",
+    "metodo": "VERBATIM DE TELA (planalto); re-ingerido de _entrada/misto/ em 2026-06-20 (AUD-01)",
+    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior."
   },
-  "status_pipeline": "bruto",
+  "status_pipeline": "indexado",
   "confianca_extracao": "alta",
   "revisado_por_humano": false
 }

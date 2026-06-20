@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::073-art-51",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 51",
+  "numero": "51",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO IV",
+    "Art. 51"
+  ],
+  "texto": "Art. 51. Todo nascimento que ocorrer no território nacional deverá ser dado a registro no cartório do lugar em que tiver ocorrido o parto, dentro de quinze (15) dias, ampliando-se até três (3) meses para os lugares distantes mais de trinta (30) quilômetros da sede do cartório.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO II › CAPÍTULO IV › Art. 51",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

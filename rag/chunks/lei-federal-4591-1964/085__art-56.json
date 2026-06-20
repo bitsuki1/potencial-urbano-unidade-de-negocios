@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-4591-1964::085-art-56",
+  "lei_id": "lei-federal-4591-1964",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 56",
+  "numero": "56",
+  "caminho_hierarquico": [
+    "Título II",
+    "CAPíTULO III",
+    "Seção II",
+    "Art. 56"
+  ],
+  "texto": "Art. 56. Em tôda a publicidade ou propaganda escrita, destinada a promover a venda de incorporação com construção pelo regime de empreitada reajustável, em que conste preço, serão discriminados explìcitamente o preço da fração ideal do terreno e o preço da construção, com indicação expressa da reajustabilidade.\n\n§ 1º As mesmas indicações deverão constar em todos os papéis utilizados para a realização da incorporação, tais como cartas, propostas, escrituras, contratos e documentos semelhantes.\n\n§ 2º Esta exigência será dispensada nos anúncios \"classificados\" dos jornais.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 4591/1964 — Brasil",
+    "dispositivo": "Título II › CAPíTULO III › Seção II › Art. 56",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l4591.htm",
+    "vigencia": {
+      "inicio": "1964-12-16",
+      "fim": null,
+      "revogada_por": "parcialmente — a parte de condomínio convive com o Código Civil/2002 (arts. 1.331 e ss.)",
+      "altera": [],
+      "alterada_por": [
+        "Código Civil/2002 (Lei 10.406/2002)",
+        "Lei 10.931/2004 (patrimônio de afetação)",
+        "Lei 4.864/1965"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "condominio_edilicio",
+    "incorporacao_imobiliaria",
+    "unidade_autonoma"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
+}

@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-4591-1964::026-art-22",
+  "lei_id": "lei-federal-4591-1964",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 22",
+  "numero": "22",
+  "caminho_hierarquico": [
+    "TÍTULO I",
+    "Capítulo VI",
+    "Art. 22"
+  ],
+  "texto": "Art. 22. Será eleito, na forma prevista pela Convenção, um síndico do condomínio, cujo mandato não poderá exceder de 2 anos, permitida a reeleição.\n\n§ 1º Compete ao síndico:\n\na) representar ativa e passivamente, o condomínio, em juízo ou fora dêle, e praticar os atos de defesa dos interêsses comuns, nos limites das atribuições conferidas por esta Lei ou pela Convenção;\n\nb) exercer a administração interna da edificação ou do conjunto de edificações, no que respeita à sua vigência, moralidade e segurança, bem como aos serviços que interessam a todos os moradores;\n\nc) praticar os atos que lhe atribuírem as leis a Convenção e o Regimento Interno;\n\nd) impor as multas estabelecidas na Lei, na Convenção ou no Regimento Interno;\n\ne) cumprir e fazer cumprir a Convenção e o Regimento Interno, bem como executar e fazer executar as deliberações da assembléia;\n\nf) prestar contas à assembléia dos condôminos.\n\ng) manter guardada durante o prazo de cinco anos para eventuais necessidade de verificação contábil, toda a documentação relativa ao condomínio.                    (Alínea incluída pela Lei nº 6.434, de 15.7.1977)\n\n§ 2º As funções administrativas podem ser delegadas a pessoas de confiança do síndico, e sob a sua inteira responsabilidade, mediante aprovação da assembléia geral dos condôminos.\n\n§ 3º A Convenção poderá estipular que dos atos do síndico caiba recurso para a assembléia, convocada pelo interessado.\n\n§ 4º Ao síndico, que poderá ser condômino ou pessoa física ou jurídica estranha ao condomínio, será fixada a remuneração pela mesma assembléia que o eleger, salvo se a Convenção dispuser diferentemente.\n\n§ 5º O síndico poderá ser destituído, pela forma e sob as condições previstas na Convenção, ou, no silêncio desta pelo voto de dois têrços dos condôminos, presentes, em assembléia-geral especialmente convocada.\n\n§ 6º A Convenção poderá prever a eleição de subsíndicos, definindo-lhes atribuições e fixando-lhes o mandato, que não poderá exceder de 2 anos, permitida a reeleição.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 4591/1964 — Brasil",
+    "dispositivo": "TÍTULO I › Capítulo VI › Art. 22",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l4591.htm",
+    "vigencia": {
+      "inicio": "1964-12-16",
+      "fim": null,
+      "revogada_por": "parcialmente — a parte de condomínio convive com o Código Civil/2002 (arts. 1.331 e ss.)",
+      "altera": [],
+      "alterada_por": [
+        "Código Civil/2002 (Lei 10.406/2002)",
+        "Lei 10.931/2004 (patrimônio de afetação)",
+        "Lei 4.864/1965"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "condominio_edilicio",
+    "incorporacao_imobiliaria",
+    "unidade_autonoma"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
+}

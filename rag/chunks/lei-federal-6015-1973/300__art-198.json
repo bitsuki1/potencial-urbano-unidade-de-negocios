@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::300-art-198",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 198",
+  "numero": "198",
+  "caminho_hierarquico": [
+    "TÍTULO V",
+    "CAPÍTULO III",
+    "Art. 198"
+  ],
+  "texto": "Art. 198. Tomada a nota da apresentação, e conferido o número de ordem, o oficial verificará a legalidade e a validade do título, procedendo ao registro, se o mesmo estiver em conformidade com a lei, no prazo máximo de dez (10) dias úteis, salvo no caso previsto no parágrafo único do artigo 7º do Decreto-Lei nº 549, de 24 de abril de 1969, em que o prazo será de três (3) dias úteis.\n\n§ 1º O oficial fará essa verificação no prazo improrrogável de cinco (5) dias úteis, e poderá exigir que o apresentante ponha o documento em conformidade com a lei, concedendo-lhe, para isso, prazo razoável.\n\n§ 2º O oficial indicará por escrito a exigência cuja satisfação seja necessária ao registro. Não se conformando o apresentante com a exigência do oficial ou não podendo satisfazê-la, será o título a seu requerimento e com a declaração de dúvida, remetido ao juízo competente para dirimi-la.\n\n§ 3º Em se tratando de propriedade territorial, desapropriada nos termos do Decreto-Lei nº 549, de 24 de abril de 1969, a verificação a que alude o § 1º será feita em quarenta e oito (48) horas.\n\n§ 4º Em se tratando de inscrição de incorporação e de loteamento, a verificação dos memoriais e documentos necessários ao registro será feita em quinze (15) dias úteis.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO V › CAPÍTULO III › Art. 198",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

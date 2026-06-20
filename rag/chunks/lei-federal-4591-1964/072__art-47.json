@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-4591-1964::072-art-47",
+  "lei_id": "lei-federal-4591-1964",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 47",
+  "numero": "47",
+  "caminho_hierarquico": [
+    "Título II",
+    "CAPÍTULO II",
+    "Art. 47"
+  ],
+  "texto": "Art. 47. Quando se fixar no contrato que a obrigação do pagamento do impôsto sôbre lucro imobiliário acréscimos e adicionais devidos pelo alienante e transferida ao adquirente, dever-se-á explicitar o montante que tal obrigação atingiria, se sua satisfação se desse na data da escritura.\n\n§ 1º Neste caso, o adquirente será tido, para todos os efeitos, como responsável perante o Fisco.\n\n§ 2º Havendo parcela restituível, a restituição será feita ao adquirente e, se fôr o caso em nome dêste serão emitidas as obrigações do Tesouro Nacional a que se refere o art. 4º da Lei nº 4.357 de 16.7.64.\n\n§ 3º Para efeitos fiscais, não importará em aumento do preço de aquisição a circunstância de obrigar-se o adquirente ao pagamento do impôsto sôbre lucro mobiliário, seus acréscimos e adicionais.\n\nCAPíTULO III\n\nDa Construção de Edificação em Condomínio\n\nSeção I\n\nDa Construção em Geral",
+  "citacao": {
+    "norma": "lei_ordinaria nº 4591/1964 — Brasil",
+    "dispositivo": "Título II › CAPÍTULO II › Art. 47",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l4591.htm",
+    "vigencia": {
+      "inicio": "1964-12-16",
+      "fim": null,
+      "revogada_por": "parcialmente — a parte de condomínio convive com o Código Civil/2002 (arts. 1.331 e ss.)",
+      "altera": [],
+      "alterada_por": [
+        "Código Civil/2002 (Lei 10.406/2002)",
+        "Lei 10.931/2004 (patrimônio de afetação)",
+        "Lei 4.864/1965"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "condominio_edilicio",
+    "incorporacao_imobiliaria",
+    "unidade_autonoma"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
+}

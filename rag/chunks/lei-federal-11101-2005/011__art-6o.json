@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-11101-2005::011-art-6o",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 6º",
+  "numero": "6",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção I",
+    "Art. 6º"
+  ],
+  "texto": "Art. 6º-C. É vedada atribuição de responsabilidade a terceiros em decorrência do mero inadimplemento de obrigações do devedor falido ou em recuperação judicial, ressalvadas as garantias reais e fidejussórias, bem como as demais hipóteses reguladas por esta Lei.        (Incluído pela Lei nº 14.112, de 2020)      (Vigência)\n\nSeção II\n\nDa Verificação e da Habilitação de Créditos",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO II › Seção I › Art. 6º",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

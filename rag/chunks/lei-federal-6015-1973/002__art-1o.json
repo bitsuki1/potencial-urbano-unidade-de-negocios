@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::002-art-1o",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 1º",
+  "numero": "1",
+  "caminho_hierarquico": [
+    "TÍTULO I",
+    "CAPÍTULO I",
+    "Art. 1º"
+  ],
+  "texto": "Art. 1º Os serviços concernentes aos Registros Públicos, estabelecidos pela legislação civil para autenticidade, segurança e eficácia dos atos jurídicos, ficam sujeitos ao regime estabelecido nesta Lei.\n\n§ 1° Esses registros são:\n\nI - o registro civil de pessoas naturais;\n\nII - o registro civil de pessoas jurídicas;\n\nIII - o registro de títulos e documentos;\n\nIV - o registro de imóveis;\n\nV - o registro de propriedade literária, científica e artística.\n\n§ 2º O registro mercantil continua a ser regido pelos dispositivos da legislação comercial.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO I › CAPÍTULO I › Art. 1º",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

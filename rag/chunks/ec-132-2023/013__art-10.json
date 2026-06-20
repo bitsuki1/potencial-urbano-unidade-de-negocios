@@ -1,0 +1,33 @@
+{
+  "chunk_id": "ec-132-2023::013-art-10",
+  "lei_id": "ec-132-2023",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 10",
+  "numero": "10",
+  "caminho_hierarquico": [
+    "Art. 10"
+  ],
+  "texto": "Art. 10. Para fins do disposto no inciso II do § 6º do art. 156-A da Constituição Federal, consideram-se:\n\nI - serviços financeiros:\n\na) operações de crédito, câmbio, seguro, resseguro, consórcio, arrendamento mercantil, faturização, securitização, previdência privada, capitalização, arranjos de pagamento, operações com títulos e valores mobiliários, inclusive negociação e corretagem, e outras que impliquem captação, repasse, intermediação, gestão ou administração de recursos;\n\nb) outros serviços prestados por entidades administradoras de mercados organizados, infraestruturas de mercado e depositárias centrais e por instituições autorizadas a funcionar pelo Banco Central do Brasil, na forma de lei complementar;\n\nII - operações com bens imóveis:\n\na) construção e incorporação imobiliária;\n\nb) parcelamento do solo e alienação de bem imóvel;\n\nc) locação e arrendamento de bem imóvel;\n\nd) administração e intermediação de bem imóvel.\n\n§ 1º Em relação às instituições financeiras bancárias:\n\nI - não se aplica o regime específico de que trata o art. 156-A, § 6º, II, da Constituição Federal aos serviços remunerados por tarifas e comissões, observado o disposto nas normas expedidas pelas entidades reguladoras;\n\nII - os demais serviços financeiros sujeitam-se ao regime específico de que trata o art. 156-A, § 6º, II, da Constituição Federal, devendo as alíquotas e as bases de cálculo ser definidas de modo a manter, em caráter geral, até o final do quinto ano da entrada em vigor do regime, a carga tributária decorrente dos tributos extintos por esta Emenda Constitucional incidente sobre as operações de crédito na data de sua promulgação, e a manter, em caráter específico, aquela incidente sobre as operações relacionadas ao fundo de garantia por tempo de serviço, podendo, neste caso, definir alíquota e base de cálculo diferenciadas e abranger os serviços de que trata o inciso I deste parágrafo, não se lhes aplicando o prazo previsto neste inciso.\n\n§ 2º O disposto no § 1º, II, em relação ao fundo de garantia do tempo de serviço, poderá, nos termos da lei complementar, ser estendido para outros fundos garantidores ou executores de políticas públicas previstos em lei.",
+  "citacao": {
+    "norma": "emenda_constitucional nº 132/2023 — Brasil",
+    "dispositivo": "Art. 10",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm",
+    "vigencia": {
+      "inicio": "2023-12-20",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "CF/1988 — Sistema Tributário Nacional (diversos artigos, incl. art. 156)",
+        "ADCT"
+      ],
+      "alterada_por": []
+    }
+  },
+  "tema": [
+    "IPTU",
+    "reforma_tributaria",
+    "sistema_tributario_nacional"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Altera o Sistema Tributário Nacional."
+}

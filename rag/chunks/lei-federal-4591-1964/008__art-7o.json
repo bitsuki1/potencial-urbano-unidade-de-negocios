@@ -1,0 +1,36 @@
+{
+  "chunk_id": "lei-federal-4591-1964::008-art-7o",
+  "lei_id": "lei-federal-4591-1964",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 7º",
+  "numero": "7",
+  "caminho_hierarquico": [
+    "TÍTULO I",
+    "Art. 7º"
+  ],
+  "texto": "Art. 7º O condomínio por unidades autônomas instituir-se-á por ato entre vivos ou por testamento, com inscrição obrigatória no Registro de Imóvel, dêle constando; a individualização de cada unidade, sua identificação e discriminação, bem como a fração ideal sôbre o terreno e partes comuns, atribuída a cada unidade, dispensando-se a descrição interna da unidade.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 4591/1964 — Brasil",
+    "dispositivo": "TÍTULO I › Art. 7º",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l4591.htm",
+    "vigencia": {
+      "inicio": "1964-12-16",
+      "fim": null,
+      "revogada_por": "parcialmente — a parte de condomínio convive com o Código Civil/2002 (arts. 1.331 e ss.)",
+      "altera": [],
+      "alterada_por": [
+        "Código Civil/2002 (Lei 10.406/2002)",
+        "Lei 10.931/2004 (patrimônio de afetação)",
+        "Lei 4.864/1965"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "condominio_edilicio",
+    "incorporacao_imobiliaria",
+    "unidade_autonoma"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
+}

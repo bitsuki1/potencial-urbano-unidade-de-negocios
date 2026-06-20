@@ -1,0 +1,36 @@
+{
+  "chunk_id": "lei-federal-9514-1997::022-art-21",
+  "lei_id": "lei-federal-9514-1997",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 21",
+  "numero": "21",
+  "caminho_hierarquico": [
+    "CAPÍTULO I",
+    "Seção VII",
+    "Art. 21"
+  ],
+  "texto": "Art. 21. São suscetíveis de caução, desde que transmissíveis, os direitos aquisitivos sobre imóvel, ainda que em construção.\n\n§ 1º O instrumento da caução, a que se refere este artigo, indicará o valor do débito e dos encargos e identificará o imóvel cujos direitos aquisitivos são caucionados.\n\n§ 2º Referindo-se a caução a direitos aquisitivos de promessa de compra e venda cujo preço ainda não tenha sido integralizado, poderá o credor caucionário, sobrevindo a mora do promissário comprador, promover a execução do seu crédito ou efetivar, sob protesto, o pagamento do saldo da promessa.\n\n§ 3º Se, nos termos do disposto no parágrafo anterior, o credor efetuar o pagamento, o valor pago, com todos os seus acessórios e eventuais penalidades, será adicionado à dívida garantida pela caução, ressalvado ao credor o direito de executar desde logo o devedor, inclusive pela parcela da dívida assim acrescida.\n\nCAPÍTULO II\n\nDa Alienação Fiduciária de Coisa Imóvel",
+  "citacao": {
+    "norma": "lei_ordinaria nº 9514/1997 — Brasil",
+    "dispositivo": "CAPÍTULO I › Seção VII › Art. 21",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l9514.htm",
+    "vigencia": {
+      "inicio": "1997-11-20",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 13.043/2014",
+        "Lei 13.465/2017",
+        "Lei 14.620/2023"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "alienacao_fiduciaria",
+    "sistema_financiamento_imobiliario"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre o Sistema de Financiamento Imobiliário, institui a alienação fiduciária de coisa imóvel e dá outras providências."
+}

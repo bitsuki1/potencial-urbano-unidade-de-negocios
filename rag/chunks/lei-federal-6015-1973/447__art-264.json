@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::447-art-264",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 264",
+  "numero": "264",
+  "caminho_hierarquico": [
+    "TÍTULO V",
+    "CAPÍTULO IX",
+    "Art. 264"
+  ],
+  "texto": "Art. 264. Se for apresentada reclamação, dela fornecerá o oficial, ao instituidor, cópia autêntica e lhe restituirá a escritura, com a declaração de haver sido suspenso o registro, cancelando a prenotação.                    (Renumerado do art. 265, pela Lei nº 6.216, de 1975)\n\n§ 1° O instituidor poderá requerer ao Juiz que ordene o registro, sem embargo da reclamação.\n\n§ 2º Se o Juiz determinar que proceda ao registro, ressalvará ao reclamante o direito de recorrer à ação competente para anular a instituição ou de fazer execução sobre o prédio instituído, na hipótese de tratar-se de dívida anterior e cuja solução se tornou inexeqüível em virtude do ato da instituição.\n\n§ 3° O despacho do Juiz será irrecorrível e, se deferir o pedido será transcrito integralmente, juntamente com o instrumento.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO V › CAPÍTULO IX › Art. 264",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

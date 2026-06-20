@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-4591-1964::073-art-48",
+  "lei_id": "lei-federal-4591-1964",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 48",
+  "numero": "48",
+  "caminho_hierarquico": [
+    "Título II",
+    "CAPíTULO III",
+    "Seção I",
+    "Art. 48"
+  ],
+  "texto": "Art. 48. A construção de imóveis, objeto de incorporação nos moldes previstos nesta Lei poderá ser contratada sob o regime de empreitada ou de administração conforme adiante definidos e poderá estar incluída no contrato com o incorporador (VETADO), ou ser contratada diretamente entre os adquirentes e o construtor.\n\n§ 1º O Projeto e o memorial descritivo das edifcações farão parte integrante e complementar do contrato;\n\n§ 2º Do contrato deverá constar a prazo da entrega das obras e as condições e formas de sua eventual prorrogação.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 4591/1964 — Brasil",
+    "dispositivo": "Título II › CAPíTULO III › Seção I › Art. 48",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l4591.htm",
+    "vigencia": {
+      "inicio": "1964-12-16",
+      "fim": null,
+      "revogada_por": "parcialmente — a parte de condomínio convive com o Código Civil/2002 (arts. 1.331 e ss.)",
+      "altera": [],
+      "alterada_por": [
+        "Código Civil/2002 (Lei 10.406/2002)",
+        "Lei 10.931/2004 (patrimônio de afetação)",
+        "Lei 4.864/1965"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "condominio_edilicio",
+    "incorporacao_imobiliaria",
+    "unidade_autonoma"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
+}

@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-11101-2005::039-art-27",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 27",
+  "numero": "27",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção III",
+    "Art. 27"
+  ],
+  "texto": "Art. 27. O Comitê de Credores terá as seguintes atribuições, além de outras previstas nesta Lei:\n\nI – na recuperação judicial e na falência:\n\na) fiscalizar as atividades e examinar as contas do administrador judicial;\n\nb) zelar pelo bom andamento do processo e pelo cumprimento da lei;\n\nc) comunicar ao juiz, caso detecte violação dos direitos ou prejuízo aos interesses dos credores;\n\nd) apurar e emitir parecer sobre quaisquer reclamações dos interessados;\n\ne) requerer ao juiz a convocação da assembléia-geral de credores;\n\nf) manifestar-se nas hipóteses previstas nesta Lei;\n\nII – na recuperação judicial:\n\na) fiscalizar a administração das atividades do devedor, apresentando, a cada 30 (trinta) dias, relatório de sua situação;\n\nb) fiscalizar a execução do plano de recuperação judicial;\n\nc) submeter à autorização do juiz, quando ocorrer o afastamento do devedor nas hipóteses previstas nesta Lei, a alienação de bens do ativo permanente, a constituição de ônus reais e outras garantias, bem como atos de endividamento necessários à continuação da atividade empresarial durante o período que antecede a aprovação do plano de recuperação judicial.\n\n§ 1º As decisões do Comitê, tomadas por maioria, serão consignadas em livro de atas, rubricado pelo juízo, que ficará à disposição do administrador judicial, dos credores e do devedor.\n\n§ 2º Caso não seja possível a obtenção de maioria em deliberação do Comitê, o impasse será resolvido pelo administrador judicial ou, na incompatibilidade deste, pelo juiz.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO II › Seção III › Art. 27",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

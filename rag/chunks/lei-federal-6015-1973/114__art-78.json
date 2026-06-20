@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::114-art-78",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 78",
+  "numero": "78",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO IX",
+    "Art. 78"
+  ],
+  "texto": "Art. 78. Na impossibilidade de ser feito o registro dentro de 24 (vinte e quatro) horas do falecimento, pela distância ou qualquer outro motivo relevante, o assento será lavrado depois, com a maior urgência, e dentro dos prazos fixados no artigo 50.                             (Renumerado do art. 79 pela Lei nº 6.216, de 1975).",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO II › CAPÍTULO IX › Art. 78",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

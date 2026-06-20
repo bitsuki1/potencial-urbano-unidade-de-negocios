@@ -1,0 +1,36 @@
+{
+  "chunk_id": "lei-federal-11101-2005::281-art-199",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 199",
+  "numero": "199",
+  "caminho_hierarquico": [
+    "CAPÍTULO VIII",
+    "Art. 199"
+  ],
+  "texto": "Art. 199. Não se aplica o disposto no art. 198 desta Lei às sociedades a que se refere o art. 187 da Lei nº 7.565, de 19 de dezembro de 1986.\n\nParágrafo único. Na recuperação judicial e na falência das sociedades de que trata o caput deste artigo, em nenhuma hipótese ficará suspenso o exercício de direitos derivados de contratos de arrendamento mercantil de aeronaves ou de suas partes.\n\n§ 1º Na recuperação judicial e na falência das sociedades de que trata o caput deste artigo, em nenhuma hipótese ficará suspenso o exercício de direitos derivados de contratos de locação, arrendamento mercantil ou de qualquer outra modalidade de arrendamento de aeronaves ou de suas partes. (Renumerado do parágrafo único com nova redação pela Lei nº 11.196, de 2005)\n\n§ 2º Os créditos decorrentes dos contratos mencionados no § 1º deste artigo não se submeterão aos efeitos da recuperação judicial ou extrajudicial, prevalecendo os direitos de propriedade sobre a coisa e as condições contratuais, não se lhes aplicando a ressalva contida na parte final do § 3º do art. 49 desta Lei. (Incluído pela Lei nº 11.196, de 2005)\n\n§ 3º Na hipótese de falência das sociedades de que trata o caput deste artigo, prevalecerão os direitos de propriedade sobre a coisa relativos a contratos de locação, de arrendamento mercantil ou de qualquer outra modalidade de arrendamento de aeronaves ou de suas partes. (Incluído pela Lei nº 11.196, de 2005)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO VIII › Art. 199",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

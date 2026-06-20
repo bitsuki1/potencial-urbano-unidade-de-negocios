@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::408-art-244",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 244",
+  "numero": "244",
+  "caminho_hierarquico": [
+    "TÍTULO V",
+    "CAPÍTULO VII",
+    "Art. 244"
+  ],
+  "texto": "Art. 244 - As escrituras antenupciais serão registradas no livro nº 3 do cartório do domicílio conjugal, sem prejuízo de sua averbação obrigatória no lugar da situação dos imóveis de propriedade do casal, ou dos que forem sendo adquiridos e sujeitos a regime de bens diverso do comum, com a declaração das respectivas cláusulas, para ciência de terceiros.                      (Renumerado do art. 243 com nova redação pela Lei nº 6.216, de 1975)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO V › CAPÍTULO VII › Art. 244",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

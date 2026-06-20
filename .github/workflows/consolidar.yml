@@ -56,3 +56,7 @@ jobs:
       # Falha o build se algum ground-truth ATIVO quebrar (os 'aguardando_verbatim' não bloqueiam).
       - name: Evals (gate = citação correta)
         run: python3 evals/rodar-evals.py
+
+      # GATE do engine (1.3 — número nasce no engine): auto-teste das fórmulas OODC/TDC.
+      - name: Engine OODC/TDC (auto-teste das fórmulas)
+        run: python3 engines/tdc/oodc.py

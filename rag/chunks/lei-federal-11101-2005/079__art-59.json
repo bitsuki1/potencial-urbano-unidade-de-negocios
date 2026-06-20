@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-11101-2005::079-art-59",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 59",
+  "numero": "59",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Seção IV",
+    "Art. 59"
+  ],
+  "texto": "Art. 59. O plano de recuperação judicial implica novação dos créditos anteriores ao pedido, e obriga o devedor e todos os credores a ele sujeitos, sem prejuízo das garantias, observado o disposto no § 1º do art. 50 desta Lei.\n\n§ 1º A decisão judicial que conceder a recuperação judicial constituirá título executivo judicial, nos termos do art. 584, inciso III, do caput da Lei nº 5.869, de 11 de janeiro de 1973 - Código de Processo Civil.\n\n§ 2º Contra a decisão que conceder a recuperação judicial caberá agravo, que poderá ser interposto por qualquer credor e pelo Ministério Público.\n\n§ 3º Da decisão que conceder a recuperação judicial serão intimadas eletronicamente as Fazendas Públicas federal e de todos os Estados, Distrito Federal e Municípios em que o devedor tiver estabelecimento.  (Incluído pela Lei nº 14.112, de 2020)    (Vigência)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO III › Seção IV › Art. 59",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

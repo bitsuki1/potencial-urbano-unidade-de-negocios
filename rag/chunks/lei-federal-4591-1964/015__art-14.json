@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-4591-1964::015-art-14",
+  "lei_id": "lei-federal-4591-1964",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 14",
+  "numero": "14",
+  "caminho_hierarquico": [
+    "TÍTULO I",
+    "Capítulo IV",
+    "Art. 14"
+  ],
+  "texto": "Art. 14. Na ocorrência de sinistro total, ou que destrua mais de dois terços de uma edificação, seus condôminos reunir-se-ão em assembléia especial, e deliberarão sôbre a sua reconstrução ou venda do terreno e materiais, por quorum mínimo de votos que representem metade, mais uma das frações ideais do respectivo terreno.\n\n§ 1º Rejeitada a proposta de reconstrução, a mesma assembléia, ou outra para êste fim convocada, decidirá, pelo mesmo quorum, do destino a ser dado ao terreno, e aprovará a partilha do valor do seguro entre os condôminos, sem prejuízo do que receber cada um pelo seguro facultativo de sua unidade.\n\n§ 2º Aprovada, a reconstrução será feita, guardados, obrigatòriamente, o mesmo destino, a mesma forma externa e a mesma disposição interna.\n\n§ 3º Na hipótese do parágrafo anterior, a minoria não poderá ser obrigada a contribuir para a reedificação, caso em que a maioria poderá adquirir as partes dos dissidentes, mediante avaliação judicial, feita em vistoria.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 4591/1964 — Brasil",
+    "dispositivo": "TÍTULO I › Capítulo IV › Art. 14",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l4591.htm",
+    "vigencia": {
+      "inicio": "1964-12-16",
+      "fim": null,
+      "revogada_por": "parcialmente — a parte de condomínio convive com o Código Civil/2002 (arts. 1.331 e ss.)",
+      "altera": [],
+      "alterada_por": [
+        "Código Civil/2002 (Lei 10.406/2002)",
+        "Lei 10.931/2004 (patrimônio de afetação)",
+        "Lei 4.864/1965"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "condominio_edilicio",
+    "incorporacao_imobiliaria",
+    "unidade_autonoma"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
+}

@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-11101-2005::049-art-36",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 36",
+  "numero": "36",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção IV",
+    "Art. 36"
+  ],
+  "texto": "Art. 36. A assembleia-geral de credores será convocada pelo juiz por meio de edital publicado no diário oficial eletrônico e disponibilizado no sítio eletrônico do administrador judicial, com antecedência mínima de 15 (quinze) dias, o qual conterá:     (Redação dada pela Lei nº 14.112, de 2020)    (Vigência)\n\nI – local, data e hora da assembléia em 1ª (primeira) e em 2ª (segunda) convocação, não podendo esta ser realizada menos de 5 (cinco) dias depois da 1ª (primeira);\n\nII – a ordem do dia;\n\nIII – local onde os credores poderão, se for o caso, obter cópia do plano de recuperação judicial a ser submetido à deliberação da assembléia.\n\n§ 1º Cópia do aviso de convocação da assembléia deverá ser afixada de forma ostensiva na sede e filiais do devedor.\n\n§ 2º Além dos casos expressamente previstos nesta Lei, credores que representem no mínimo 25% (vinte e cinco por cento) do valor total dos créditos de uma determinada classe poderão requerer ao juiz a convocação de assembléia-geral.\n\n§ 3º As despesas com a convocação e a realização da assembléia-geral correm por conta do devedor ou da massa falida, salvo se convocada em virtude de requerimento do Comitê de Credores ou na hipótese do § 2º deste artigo.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO II › Seção IV › Art. 36",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

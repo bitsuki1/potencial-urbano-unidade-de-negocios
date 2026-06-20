@@ -1,0 +1,43 @@
+{
+  "chunk_id": "lei-federal-10931-2004::098-art-57",
+  "lei_id": "lei-federal-10931-2004",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 57",
+  "numero": "57",
+  "caminho_hierarquico": [
+    "CAPÍTULO VI",
+    "Art. 57"
+  ],
+  "texto": "Art. 57. A Lei nº 9.514, de 1997, passa a vigorar com as seguintes alterações:\n\n\"Art. 5º .............................................................................\n\n..........................................................................................\n\n§ 2º As operações de comercialização de imóveis, com pagamento parcelado, de arrendamento mercantil de imóveis e de financiamento imobiliário em geral poderão ser pactuadas nas mesmas condições permitidas para as entidades autorizadas a operar no SFI.\" (NR)\n\n\"Art. 8º .............................................................................\n\nI - a identificação do devedor e o valor nominal de cada crédito que lastreie a emissão, com a individuação do imóvel a que esteja vinculado e a indicação do Cartório de Registro de Imóveis em que esteja registrado e respectiva matrícula, bem como a indicação do ato pelo qual o crédito foi cedido;         (Revogado pela Medida Provisória nº 1.103, de 2022)    (Revogado pela Lei nº 14.430, de 2022)\n\n..........................................................................................\" (NR)\n\n\"Art. 16 .............................................................................\n\n.........................................................................................\n\n§ 3º Os emolumentos devidos aos Cartórios de Registros de Imóveis para cancelamento do regime fiduciário e das garantias reais existentes serão cobrados como ato único.\" (NR)     (Revogado pela Medida Provisória nº 1.103, de 2022)     (Revogado pela Lei nº 14.430, de 2022)\n\n\"Art. 22. .............................................................................\n\nParágrafo único. A alienação fiduciária poderá ter como objeto bens enfitêuticos, sendo também exigível o pagamento do laudêmio se houver a consolidação do domínio útil no fiduciário.\" (NR)\n\n\"Art. 26. ............................................................................\n\n..........................................................................................\n\n§ 7º Decorrido o prazo de que trata o § 1º sem a purgação da mora, o oficial do competente Registro de Imóveis, certificando esse fato, promoverá a averbação, na matrícula do imóvel, da consolidação da propriedade em nome do fiduciário, à vista da prova do pagamento por este, do imposto de transmissão inter vivos e, se for o caso, do laudêmio.\n\n§ 8º O fiduciante pode, com a anuência do fiduciário, dar seu direito eventual ao imóvel em pagamento da dívida, dispensados os procedimentos previstos no art. 27.\" (NR)\n\n\"Art. 27. ...........................................................................\n\n.........................................................................................\n\n§ 7º Se o imóvel estiver locado, a locação poderá ser denunciada com o prazo de trinta dias para desocupação, salvo se tiver havido aquiescência por escrito do fiduciário, devendo a denúncia ser realizada no prazo de noventa dias a contar da data da consolidação da propriedade no fiduciário, devendo essa condição constar expressamente em cláusula contratual específica, destacando-se das demais por sua apresentação gráfica.\n\n§ 8º Responde o fiduciante pelo pagamento dos impostos, taxas, contribuições condominiais e quaisquer outros encargos que recaiam ou venham a recair sobre o imóvel, cuja posse tenha sido transferida para o fiduciário, nos termos deste artigo, até a data em que o fiduciário vier a ser imitido na posse.\" (NR)\n\n\" Art. 37-A. O fiduciante pagará ao fiduciário, ou a quem vier a sucedê-lo, a título de taxa de ocupação do imóvel, por mês ou fração, valor correspondente a um por cento do valor a que se refere o inciso VI do art. 24, computado e exigível desde a data da alienação em leilão até a data em que o fiduciário, ou seus sucessores, vier a ser imitido na posse do imóvel.\" (NR)\n\n\" Art. 37-B. Será considerada ineficaz, e sem qualquer efeito perante o fiduciário ou seus sucessores, a contratação ou a prorrogação de locação de imóvel alienado fiduciariamente por prazo superior a um ano sem concordância por escrito do fiduciário.\" (NR)\n\n\" Art. 38. Os contratos de compra e venda com financiamento e alienação fiduciária, de mútuo com alienação fiduciária, de arrendamento mercantil, de cessão de crédito com garantia real poderão ser celebrados por instrumento particular, a eles se atribuindo o caráter de escritura pública, para todos os fins de direito.\" (NR)\n\nAlterações no Código Civil",
+  "citacao": {
+    "norma": "lei_ordinaria nº 10931/2004 — Brasil",
+    "dispositivo": "CAPÍTULO VI › Art. 57",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/lei/l10.931.htm",
+    "vigencia": {
+      "inicio": "2004-08-02",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Decreto-Lei 911/1969",
+        "Lei 4.591/1964 (acresce arts. 31-A a 31-F)",
+        "Lei 4.728/1965",
+        "Lei 10.406/2002 (Código Civil)"
+      ],
+      "alterada_por": [
+        "Lei 13.097/2015",
+        "Lei 14.382/2022"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "patrimonio_de_afetacao",
+    "incorporacao_imobiliaria",
+    "RET",
+    "LCI",
+    "CCI",
+    "CCB"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre o patrimônio de afetação de incorporações imobiliárias, Letra de Crédito Imobiliário, Cédula de Crédito Imobiliário, Cédula de Crédito Bancário, altera o Decreto-Lei nº 911, de 1º de outubro de 1969, as Leis nº 4.591, de 16 de dezembro de 1964, nº 4.728, de 14 de julho de 1965, e nº 10.406, de 10 de janeiro de 2002, e dá outras providências."
+}

@@ -1,0 +1,33 @@
+{
+  "chunk_id": "lei-federal-6830-1980::033-art-32",
+  "lei_id": "lei-federal-6830-1980",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 32",
+  "numero": "32",
+  "caminho_hierarquico": [
+    "Art. 32"
+  ],
+  "texto": "Art. 32 - Os depósitos judiciais em dinheiro serão obrigatoriamente feitos:\n\nI - na Caixa Econômica Federal, de acordo com o Decreto-lei nº 1.737, de 20 de dezembro de 1979, quando relacionados com a execução fiscal proposta pela União ou suas autarquias;\n\nII - na Caixa Econômica ou no banco oficial da unidade federativa ou, à sua falta, na Caixa Econômica Federal, quando relacionados com execução fiscal proposta pelo Estado, Distrito Federal, Municípios e suas autarquias.\n\n§ 1º - Os depósitos de que trata este artigo estão sujeitos à atualização monetária, segundo os índices estabelecidos para os débitos tributários federais.\n\n§ 2º - Após o trânsito em julgado da decisão, o depósito, monetariamente atualizado, será devolvido ao depositante ou entregue à Fazenda Pública, mediante ordem do Juízo competente.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6830/1980 — Brasil",
+    "dispositivo": "Art. 32",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6830.htm",
+    "vigencia": {
+      "inicio": "1980-09-22",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 11.960/2009 (art. 40, § 5º)"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "execucao_fiscal",
+    "divida_ativa",
+    "prescricao_intercorrente"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre a cobrança judicial da Dívida Ativa da Fazenda Pública, e dá outras providências."
+}

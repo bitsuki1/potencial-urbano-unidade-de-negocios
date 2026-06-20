@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-11101-2005::259-art-182",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 182",
+  "numero": "182",
+  "caminho_hierarquico": [
+    "CAPÍTULO VII",
+    "Seção II",
+    "Art. 182"
+  ],
+  "texto": "Art. 182. A prescrição dos crimes previstos nesta Lei reger-se-á pelas disposições do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 - Código Penal, começando a correr do dia da decretação da falência, da concessão da recuperação judicial ou da homologação do plano de recuperação extrajudicial.\n\nParágrafo único. A decretação da falência do devedor interrompe a prescrição cuja contagem tenha iniciado com a concessão da recuperação judicial ou com a homologação do plano de recuperação extrajudicial.\n\nSeção III\n\nDo Procedimento Penal",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO VII › Seção II › Art. 182",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

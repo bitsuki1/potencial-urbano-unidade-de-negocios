@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::192-art-143",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 143",
+  "numero": "143",
+  "caminho_hierarquico": [
+    "TÍTULO IV",
+    "CAPÍTULO III",
+    "Art. 143"
+  ],
+  "texto": "Art. 143. O registro resumido consistirá na declaração da natureza do título, do documento ou papel, valor, prazo, lugar em que tenha sido feito, nome e condição jurídica das partes, nomes das testemunhas, data da assinatura e do reconhecimento de firma por tabelião, se houver, o nome deste, o do apresentante, o número de ordem e a data do protocolo, e da averbação, a importância e a qualidade do imposto pago, depois do que será datado e rubricado pelo oficial ou servidores referidos no artigo 142, § 1°.                         (Renumerado do art. 144 pela Lei nº 6.216, de 1975).",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO IV › CAPÍTULO III › Art. 143",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

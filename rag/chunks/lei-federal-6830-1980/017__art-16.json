@@ -1,0 +1,33 @@
+{
+  "chunk_id": "lei-federal-6830-1980::017-art-16",
+  "lei_id": "lei-federal-6830-1980",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 16",
+  "numero": "16",
+  "caminho_hierarquico": [
+    "Art. 16"
+  ],
+  "texto": "Art. 16 - O executado oferecerá embargos, no prazo de 30 (trinta) dias, contados:\n\nI - do depósito;\n\nII - da juntada da prova da fiança bancária;\n\nII - da juntada da prova da fiança bancária ou do seguro garantia;                     (Redação dada pela Lei nº 13.043, de 2014)\n\nIII - da intimação da penhora.\n\n§ 1º - Não são admissíveis embargos do executado antes de garantida a execução.\n\n§ 2º - No prazo dos embargos, o executado deverá alegar toda matéria útil à defesa, requerer provas e juntar aos autos os documentos e rol de testemunhas, até três, ou, a critério do juiz, até o dobro desse limite.\n\n§ 3º - Não será admitida reconvenção, nem compensação, e as exceções, salvo as de suspeição, incompetência e impedimentos, serão argüidas como matéria preliminar e serão processadas e julgadas com os embargos.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6830/1980 — Brasil",
+    "dispositivo": "Art. 16",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6830.htm",
+    "vigencia": {
+      "inicio": "1980-09-22",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 11.960/2009 (art. 40, § 5º)"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "execucao_fiscal",
+    "divida_ativa",
+    "prescricao_intercorrente"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre a cobrança judicial da Dívida Ativa da Fazenda Pública, e dá outras providências."
+}

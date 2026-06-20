@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::396-art-240",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 240",
+  "numero": "240",
+  "caminho_hierarquico": [
+    "TÍTULO V",
+    "CAPÍTULO VII",
+    "Art. 240"
+  ],
+  "texto": "Art. 240. As inscrições das hipotecas e anticreses que abonarem, especialmente, empréstimos sob debêntures feitos nos cartórios da situação dos imóveis, nos termos da legislação em vigor, serão provisórios, para ratificação dentro de seis (6) meses a requerimento da sociedade ou de qualquer credor e deverão conter, além dos requisitos enumerados no artigo 242, mais os seguintes:                         (Suprimido pela Lei nº 6.216, de 1975).\n\n1º valor do crédito e do imóvel, ou sua estimativa por acordo entre as partes;\n\n2º juros, penas e demais condições necessárias.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO V › CAPÍTULO VII › Art. 240",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

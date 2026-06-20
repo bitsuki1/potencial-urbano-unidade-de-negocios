@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::186-art-137",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 137",
+  "numero": "137",
+  "caminho_hierarquico": [
+    "TÍTULO IV",
+    "CAPÍTULO II",
+    "Art. 137"
+  ],
+  "texto": "Art. 137. O livro de registro, por extrato, conterá colunas para as seguintes declarações:                         (Renumerado do art. 138  pela Lei nº 6.216, de 1975).\n\n1º) número de ordem;\n\n2°) dia e mês;\n\n3º) espécie e resumo do título;\n\n4º) anotações e averbações.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO IV › CAPÍTULO II › Art. 137",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

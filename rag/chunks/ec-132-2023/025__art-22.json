@@ -1,0 +1,33 @@
+{
+  "chunk_id": "ec-132-2023::025-art-22",
+  "lei_id": "ec-132-2023",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 22",
+  "numero": "22",
+  "caminho_hierarquico": [
+    "Art. 22"
+  ],
+  "texto": "Art. 22. Revogam-se:\n\nI - em 2027, o art. 195, I, \"b\", e IV, e § 12, da Constituição Federal;\n\nII - em 2033:\n\na) os arts. 155, II, e §§ 2º a 5º, 156, III, e § 3º, 158, IV, \"a\", e § 1º, e 161, I, da Constituição Federal; e\n\nb) os arts. 80, II, 82, § 2º, e 83 do Ato das Disposições Constitucionais Transitórias.",
+  "citacao": {
+    "norma": "emenda_constitucional nº 132/2023 — Brasil",
+    "dispositivo": "Art. 22",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm",
+    "vigencia": {
+      "inicio": "2023-12-20",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "CF/1988 — Sistema Tributário Nacional (diversos artigos, incl. art. 156)",
+        "ADCT"
+      ],
+      "alterada_por": []
+    }
+  },
+  "tema": [
+    "IPTU",
+    "reforma_tributaria",
+    "sistema_tributario_nacional"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Altera o Sistema Tributário Nacional."
+}

@@ -1,0 +1,33 @@
+{
+  "chunk_id": "lei-federal-8668-1993::014-art-13",
+  "lei_id": "lei-federal-8668-1993",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 13",
+  "numero": "13",
+  "caminho_hierarquico": [
+    "Art. 13"
+  ],
+  "texto": "Art. 13. O titular das quotas do Fundo de Investimento Imobiliário:\n\nI - não poderá exercer qualquer direito real sobre os imóveis e empreendimentos integrantes do patrimônio do fundo;\n\nII - não responde pessoalmente por qualquer obrigação legal ou contratual, relativamente aos imóveis e empreendimentos integrantes do fundo ou da administradora, salvo quanto à obrigação de pagamento do valor integral das quotas subscritas.\n\nParágrafo único. O quotista que não integralizar as quotas subscritas, nas condições estabelecidas no regulamento do fundo ou no boletim de subscrição, ficará de pleno direito constituído em mora, podendo a administradora, a sua escolha, promover contra o quotista processo de execução para cobrar as importâncias devidas, servindo o boletim de subscrição como título extrajudicial, nos termos do Código de Processo Civil, ou vender as quotas a terceiros, mesmo após iniciada a cobrança judicial.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 8668/1993 — Brasil",
+    "dispositivo": "Art. 13",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l8668.htm",
+    "vigencia": {
+      "inicio": "1993-06-25",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 9.779/1999",
+        "Lei 14.130/2021"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "fundo_investimento_imobiliario",
+    "propriedade_fiduciaria"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre a constituição e o regime tributário dos Fundos de Investimento Imobiliário e dá outras providências."
+}

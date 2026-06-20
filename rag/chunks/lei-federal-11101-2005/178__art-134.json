@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-11101-2005::178-art-134",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 134",
+  "numero": "134",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Seção IX",
+    "Art. 134"
+  ],
+  "texto": "Art. 134. A ação revocatória correrá perante o juízo da falência e obedecerá ao procedimento ordinário previsto na Lei nº 5.869, de 11 de janeiro de 1973 - Código de Processo Civil.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO V › Seção IX › Art. 134",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::145-art-107",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 107",
+  "numero": "107",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO XIII",
+    "Art. 107"
+  ],
+  "texto": "Art. 107. O óbito deverá ser anotado, com as remissões recíprocas, nos assentos de casamento e nascimento, e o casamento no deste.                         (Renumerado do art. 108 pela Lei nº 6.216, de 1975).\n\n§ 1º A emancipação, a interdição e a ausência serão anotadas pela mesma forma, nos assentos de nascimento e casamento, bem como a mudança do nome da mulher, em virtude de casamento, ou sua dissolução, anulação ou desquite.\n\n§ 2° A dissolução e a anulação do casamento e o restabelecimento da sociedade conjugal serão, também, anotadas nos assentos de nascimento dos cônjuges.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO II › CAPÍTULO XIII › Art. 107",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

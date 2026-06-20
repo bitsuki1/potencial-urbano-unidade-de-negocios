@@ -1,0 +1,33 @@
+{
+  "chunk_id": "lei-federal-8668-1993::015-art-14",
+  "lei_id": "lei-federal-8668-1993",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 14",
+  "numero": "14",
+  "caminho_hierarquico": [
+    "Art. 14"
+  ],
+  "texto": "Art. 14. À instituição administradora do Fundo de Investimento Imobiliário compete:\n\nI - representá-lo ativa e passivamente, judicial e extrajudicialmente;\n\nII - responder pessoalmente pela evicção de direito, no caso de alienação de imóveis pelo fundo.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 8668/1993 — Brasil",
+    "dispositivo": "Art. 14",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l8668.htm",
+    "vigencia": {
+      "inicio": "1993-06-25",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 9.779/1999",
+        "Lei 14.130/2021"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "fundo_investimento_imobiliario",
+    "propriedade_fiduciaria"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre a constituição e o regime tributário dos Fundos de Investimento Imobiliário e dá outras providências."
+}

@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-11101-2005::172-art-129",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 129",
+  "numero": "129",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Seção IX",
+    "Art. 129"
+  ],
+  "texto": "Art. 129. São ineficazes em relação à massa falida, tenha ou não o contratante conhecimento do estado de crise econômico-financeira do devedor, seja ou não intenção deste fraudar credores:\n\nI – o pagamento de dívidas não vencidas realizado pelo devedor dentro do termo legal, por qualquer meio extintivo do direito de crédito, ainda que pelo desconto do próprio título;\n\nII – o pagamento de dívidas vencidas e exigíveis realizado dentro do termo legal, por qualquer forma que não seja a prevista pelo contrato;\n\nIII – a constituição de direito real de garantia, inclusive a retenção, dentro do termo legal, tratando-se de dívida contraída anteriormente; se os bens dados em hipoteca forem objeto de outras posteriores, a massa falida receberá a parte que devia caber ao credor da hipoteca revogada;\n\nIV – a prática de atos a título gratuito, desde 2 (dois) anos antes da decretação da falência;\n\nV – a renúncia à herança ou a legado, até 2 (dois) anos antes da decretação da falência;\n\nVI – a venda ou transferência de estabelecimento feita sem o consentimento expresso ou o pagamento de todos os credores, a esse tempo existentes, não tendo restado ao devedor bens suficientes para solver o seu passivo, salvo se, no prazo de 30 (trinta) dias, não houver oposição dos credores, após serem devidamente notificados, judicialmente ou pelo oficial do registro de títulos e documentos;\n\nVII – os registros de direitos reais e de transferência de propriedade entre vivos, por título oneroso ou gratuito, ou a averbação relativa a imóveis realizados após a decretação da falência, salvo se tiver havido prenotação anterior.\n\nParágrafo único. A ineficácia poderá ser declarada de ofício pelo juiz, alegada em defesa ou pleiteada mediante ação própria ou incidentalmente no curso do processo.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO V › Seção IX › Art. 129",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

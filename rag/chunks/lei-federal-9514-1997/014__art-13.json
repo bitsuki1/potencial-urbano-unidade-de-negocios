@@ -1,0 +1,36 @@
+{
+  "chunk_id": "lei-federal-9514-1997::014-art-13",
+  "lei_id": "lei-federal-9514-1997",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 13",
+  "numero": "13",
+  "caminho_hierarquico": [
+    "CAPÍTULO I",
+    "Seção VI",
+    "Art. 13"
+  ],
+  "texto": "Art. 13. Ao agente fiduciário são conferidos poderes gerais de representação da comunhão dos beneficiários, inclusive os de receber e dar quitação, incumbindo-lhe:      (Revogado pela Medida Provisória nº 1.103, de 2022)    (Revogado pela Lei nº 14.430, de 2022)\n\nI - zelar pela proteção dos direitos e interesses dos beneficiários, acompanhando a atuação da companhia securitizadora na administração do patrimônio separado;     (Revogado pela Medida Provisória nº 1.103, de 2022)    (Revogado pela Lei nº 14.430, de 2022)\n\nII - adotar as medidas judiciais ou extrajudiciais necessárias à defesa dos interesses dos beneficiários, bem como à realização dos créditos afetados ao patrimônio separado, caso a companhia securitizadora não o faça;    (Revogado pela Medida Provisória nº 1.103, de 2022)    (Revogado pela Lei nº 14.430, de 2022)\n\nIII - exercer, na hipótese de insolvência da companhia securitizadora, a administração do patrimônio separado;     (Revogado pela Medida Provisória nº 1.103, de 2022)    (Revogado pela Lei nº 14.430, de 2022)\n\nIV - promover, na forma em que dispuser o Termo de Securitização de Créditos, a liquidação do patrimônio separado;      (Revogado pela Medida Provisória nº 1.103, de 2022)    (Revogado pela Lei nº 14.430, de 2022)\n\nV- executar os demais encargos que lhe forem atribuídos no Termo de Securitização de Créditos.      (Revogado pela Medida Provisória nº 1.103, de 2022)    (Revogado pela Lei nº 14.430, de 2022)\n\n§ 1º O agente fiduciário responderá pelos prejuízos que causar por descumprimento de disposição legal ou regulamentar, por negligência ou administração temerária.      (Revogado pela Medida Provisória nº 1.103, de 2022)    (Revogado pela Lei nº 14.430, de 2022)\n\n§ 2º Aplicam-se ao agente fiduciário os mesmos requisitos e incompatibilidades impostos pelo art. 66 da Lei nº 6.404, de 15 de dezembro de 1976.      (Revogado pela Medida Provisória nº 1.103, de 2022)    (Revogado pela Lei nº 14.430, de 2022)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 9514/1997 — Brasil",
+    "dispositivo": "CAPÍTULO I › Seção VI › Art. 13",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l9514.htm",
+    "vigencia": {
+      "inicio": "1997-11-20",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 13.043/2014",
+        "Lei 13.465/2017",
+        "Lei 14.620/2023"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "alienacao_fiduciaria",
+    "sistema_financiamento_imobiliario"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre o Sistema de Financiamento Imobiliário, institui a alienação fiduciária de coisa imóvel e dá outras providências."
+}

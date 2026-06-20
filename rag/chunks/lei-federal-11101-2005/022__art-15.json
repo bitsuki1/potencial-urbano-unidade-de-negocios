@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-11101-2005::022-art-15",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 15",
+  "numero": "15",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção II",
+    "Art. 15"
+  ],
+  "texto": "Art. 15. Transcorridos os prazos previstos nos arts. 11 e 12 desta Lei, os autos de impugnação serão conclusos ao juiz, que:\n\nI – determinará a inclusão no quadro-geral de credores das habilitações de créditos não impugnadas, no valor constante da relação referida no § 2º do art. 7º desta Lei;\n\nII – julgará as impugnações que entender suficientemente esclarecidas pelas alegações e provas apresentadas pelas partes, mencionando, de cada crédito, o valor e a classificação;\n\nIII – fixará, em cada uma das restantes impugnações, os aspectos controvertidos e decidirá as questões processuais pendentes;\n\nIV – determinará as provas a serem produzidas, designando audiência de instrução e julgamento, se necessário.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO II › Seção II › Art. 15",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

@@ -1,0 +1,43 @@
+{
+  "chunk_id": "lei-federal-10931-2004::099-art-58",
+  "lei_id": "lei-federal-10931-2004",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 58",
+  "numero": "58",
+  "caminho_hierarquico": [
+    "CAPÍTULO VI",
+    "Art. 58"
+  ],
+  "texto": "Art. 58. A Lei nº 10.406, de 2002 - Código Civil passa a vigorar com as seguintes alterações:\n\n\" Art. 819-A. (VETADO) \"\n\n\"Art. 1.331. ......................................................................\n\n.........................................................................................\n\n§ 3º A cada unidade imobiliária caberá, como parte inseparável, uma fração ideal no solo e nas outras partes comuns, que será identificada em forma decimal ou ordinária no instrumento de instituição do condomínio.\n\n..........................................................................................\" (NR)\n\n\"Art. 1.336. .......................................................................\n\n..........................................................................................\n\nI - contribuir para as despesas do condomínio na proporção das suas frações ideais, salvo disposição em contrário na convenção;\n\n§ 1º (VETADO)\n\n...........................................................................................\" (NR)\n\n\" Art. 1.351. Depende da aprovação de 2/3 (dois terços) dos votos dos condôminos a alteração da convenção; a mudança da destinação do edifício, ou da unidade imobiliária, depende da aprovação pela unanimidade dos condôminos.\" (NR)\n\n\" Art. 1.368-A. As demais espécies de propriedade fiduciária ou de titularidade fiduciária submetem-se à disciplina específica das respectivas leis especiais, somente se aplicando as disposições deste Código naquilo que não for incompatível com a legislação especial.\" (NR)\n\n\" Art. 1.485. Mediante simples averbação, requerida por ambas as partes, poderá prorrogar-se a hipoteca, até 30 (trinta) anos da data do contrato. Desde que perfaça esse prazo, só poderá subsistir o contrato de hipoteca reconstituindo-se por novo título e novo registro; e, nesse caso, lhe será mantida a precedência, que então lhe competir.\" (NR)\n\nAlterações na Lei de Registros Públicos",
+  "citacao": {
+    "norma": "lei_ordinaria nº 10931/2004 — Brasil",
+    "dispositivo": "CAPÍTULO VI › Art. 58",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/lei/l10.931.htm",
+    "vigencia": {
+      "inicio": "2004-08-02",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Decreto-Lei 911/1969",
+        "Lei 4.591/1964 (acresce arts. 31-A a 31-F)",
+        "Lei 4.728/1965",
+        "Lei 10.406/2002 (Código Civil)"
+      ],
+      "alterada_por": [
+        "Lei 13.097/2015",
+        "Lei 14.382/2022"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "patrimonio_de_afetacao",
+    "incorporacao_imobiliaria",
+    "RET",
+    "LCI",
+    "CCI",
+    "CCB"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre o patrimônio de afetação de incorporações imobiliárias, Letra de Crédito Imobiliário, Cédula de Crédito Imobiliário, Cédula de Crédito Bancário, altera o Decreto-Lei nº 911, de 1º de outubro de 1969, as Leis nº 4.591, de 16 de dezembro de 1964, nº 4.728, de 14 de julho de 1965, e nº 10.406, de 10 de janeiro de 2002, e dá outras providências."
+}

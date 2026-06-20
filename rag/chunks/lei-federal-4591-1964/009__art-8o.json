@@ -1,0 +1,36 @@
+{
+  "chunk_id": "lei-federal-4591-1964::009-art-8o",
+  "lei_id": "lei-federal-4591-1964",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 8º",
+  "numero": "8",
+  "caminho_hierarquico": [
+    "TÍTULO I",
+    "Art. 8º"
+  ],
+  "texto": "Art. 8º Quando, em terreno onde não houver edificação, o proprietário, o promitente comprador, o cessionário dêste ou o promitente cessionário sôbre êle desejar erigir mais de uma edificação, observar-se-á também o seguinte:\n\na) em relação às unidades autônomas que se constituírem em casas térreas ou assobradadas, será discriminada a parte do terreno ocupada pela edificação e também aquela eventualmente reservada como de utilização exclusiva dessas casas, como jardim e quintal, bem assim a fração ideal do todo do terreno e de partes comuns, que corresponderá às unidades;\n\nb) em relação às unidades autônomas que constituírem edifícios de dois ou mais pavimentos, será discriminada a parte do terreno ocupada pela edificação, aquela que eventualmente fôr reservada como de utilização exclusiva, correspondente às unidades do edifício, e ainda a fração ideal do todo do terreno e de partes comuns, que corresponderá a cada uma das unidades;\n\nc) serão discriminadas as partes do total do terreno que poderão ser utilizadas em comum pelos titulares de direito sôbre os vários tipos de unidades autônomas;\n\nd) serão discriminadas as áreas que se constituírem em passagem comum para as vias públicas ou para as unidades entre si.\n\nCapítulo II\n\nDa Convenção de Condomínio",
+  "citacao": {
+    "norma": "lei_ordinaria nº 4591/1964 — Brasil",
+    "dispositivo": "TÍTULO I › Art. 8º",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l4591.htm",
+    "vigencia": {
+      "inicio": "1964-12-16",
+      "fim": null,
+      "revogada_por": "parcialmente — a parte de condomínio convive com o Código Civil/2002 (arts. 1.331 e ss.)",
+      "altera": [],
+      "alterada_por": [
+        "Código Civil/2002 (Lei 10.406/2002)",
+        "Lei 10.931/2004 (patrimônio de afetação)",
+        "Lei 4.864/1965"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "condominio_edilicio",
+    "incorporacao_imobiliaria",
+    "unidade_autonoma"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
+}

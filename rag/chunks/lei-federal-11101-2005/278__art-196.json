@@ -1,0 +1,36 @@
+{
+  "chunk_id": "lei-federal-11101-2005::278-art-196",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 196",
+  "numero": "196",
+  "caminho_hierarquico": [
+    "CAPÍTULO VIII",
+    "Art. 196"
+  ],
+  "texto": "Art. 196. Os Registros Públicos de Empresas, em cooperação com os Tribunais de Justiça, manterão banco de dados público e gratuito, disponível na internet, com a relação de todos os devedores falidos ou em recuperação judicial.     (Redação dada pela Lei nº 14.112, de 2020)    (Vigência)\n\nParágrafo único. Os Registros Públicos de Empresas, em cooperação com o Conselho Nacional de Justiça, deverão promover a integração de seus bancos de dados em âmbito nacional.      (Redação dada pela Lei nº 14.112, de 2020)     (Vigência)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO VIII › Art. 196",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

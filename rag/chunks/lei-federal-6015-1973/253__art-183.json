@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::253-art-183",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 183",
+  "numero": "183",
+  "caminho_hierarquico": [
+    "TÍTULO V",
+    "CAPÍTULO II",
+    "Art. 183"
+  ],
+  "texto": "Art. 183. O livro n. 7 - Registro de Incorporação - destina-se ao registro dos memoriais de incorporação dos atos institutivos e das convenções de condomínio, previstos na Lei nº 4.591, de 16 de dezembro de 1964, e será escriturado de acordo com o modelo previsto no anexo desta Lei.                      (Suprimido pela Lei nº 6.216, de 1975).\n\n§ 1º As averbações relativas aos registros feitos no livro n. 7 serão lançadas em seguida ao registro, por ordem cronológica e em forma narrativa, numeradas seguidamente, antecipando-se a essa numeração, separado por traço, o número do registro (ex. 1-1, 1-2, 1-3).\n\n§ 2º Esgotado numa folha o espaço para as averbações, prosseguirão as mesmas na primeira folha em branco do mesmo livro ou do livro da mesma série que estiver em uso, feitas as referências recíprocas.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO V › CAPÍTULO II › Art. 183",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

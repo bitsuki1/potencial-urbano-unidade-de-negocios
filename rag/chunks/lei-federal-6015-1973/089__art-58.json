@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::089-art-58",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 58",
+  "numero": "58",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO IV",
+    "Art. 58"
+  ],
+  "texto": "Art. 58. O prenome será definitivo, admitindo-se, todavia, a sua substituição por apelidos públicos notórios.    (Redação dada pela Lei nº 9.708, de 1998)   (Vide ADIN Nº 4.275)\n\nParágrafo único. Quando, entretanto, for evidente o erro gráfico do prenome, admite-se a retificação, bem como a sua mudança mediante sentença do Juiz, a requerimento do interessado, no caso do parágrafo único do artigo 56, se o oficial não o houver impugnado.\n\nParágrafo único. Não se admite a adoção de apelidos proibidos em Lei.                       (Redação dada pela Lei nº 9.708, de 1998)\n\nParágrafo único. A substituição do prenome será ainda admitida em razão de fundada coação ou ameaça decorrente da colaboração com a apuração de crime, por determinação, em sentença, de juiz competente, ouvido o Ministério Público.                 (Redação dada pela Lei nº 9.807, de 1999)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO II › CAPÍTULO IV › Art. 58",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

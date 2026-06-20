@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::097-art-66",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 66",
+  "numero": "66",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO IV",
+    "Art. 66"
+  ],
+  "texto": "Art. 66. Pode ser tomado assento de nascimento de filho de militar ou assemelhado em livro criado pela administração militar mediante declaração feita pelo interessado ou remetido pelo comandante da unidade, quando em campanha. Esse assento será publicado em boletim da unidade e, logo que possível, trasladado por cópia autenticada, ex officio ou a requerimento do interessado, para o cartório de registro civil a que competir ou para o do 1° Ofício do Distrito Federal, quando não puder ser conhecida a residênci a do pai.                      (Renumerado do art. 67, pela Lei nº 6.216, de 1975).\n\nParágrafo único. A providência de que trata este artigo será extensiva ao assento de nascimento de filho de civil, quando, em conseqüência de operações de guerra, não funcionarem os cartórios locais.\n\nCAPÍTULO V\nDa Habilitação para o Casamento",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO II › CAPÍTULO IV › Art. 66",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

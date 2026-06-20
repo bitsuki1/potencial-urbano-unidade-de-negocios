@@ -1,0 +1,33 @@
+{
+  "chunk_id": "lei-federal-6830-1980::015-art-14",
+  "lei_id": "lei-federal-6830-1980",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 14",
+  "numero": "14",
+  "caminho_hierarquico": [
+    "Art. 14"
+  ],
+  "texto": "Art. 14 - 0 Oficial de Justiça entregará contrafé e cópia do termo ou do auto de penhora ou arresto, com a ordem de registro de que trata o artigo 7º, inciso IV:\n\nI - no Ofício próprio, se o bem for imóvel ou a ele equiparado;\n\nII - na repartição competente para emissão de certificado de registro, se for veículo;\n\nIII - na Junta Comercial, na Bolsa de Valores, e na sociedade comercial, se forem ações, debênture, parte beneficiária, cota ou qualquer outro título, crédito ou direito societário nominativo.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6830/1980 — Brasil",
+    "dispositivo": "Art. 14",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6830.htm",
+    "vigencia": {
+      "inicio": "1980-09-22",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 11.960/2009 (art. 40, § 5º)"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "execucao_fiscal",
+    "divida_ativa",
+    "prescricao_intercorrente"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre a cobrança judicial da Dívida Ativa da Fazenda Pública, e dá outras providências."
+}

@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-11101-2005::071-art-54",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 54",
+  "numero": "54",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Seção III",
+    "Art. 54"
+  ],
+  "texto": "Art. 54. O plano de recuperação judicial não poderá prever prazo superior a 1 (um) ano para pagamento dos créditos derivados da legislação do trabalho ou decorrentes de acidentes de trabalho vencidos até a data do pedido de recuperação judicial.\n\nParágrafo único. O plano não poderá, ainda, prever prazo superior a 30 (trinta) dias para o pagamento, até o limite de 5 (cinco) salários-mínimos por trabalhador, dos créditos de natureza estritamente salarial vencidos nos 3 (três) meses anteriores ao pedido de recuperação judicial.\n\n§ 1º. O plano não poderá, ainda, prever prazo superior a 30 (trinta) dias para o pagamento, até o limite de 5 (cinco) salários-mínimos por trabalhador, dos créditos de natureza estritamente salarial vencidos nos 3 (três) meses anteriores ao pedido de recuperação judicial.    (Redação dada pela Lei nº 14.112, de 2020)   (Vigência)\n\n§ 2º O prazo estabelecido no caput deste artigo poderá ser estendido em até 2 (dois) anos, se o plano de recuperação judicial atender aos seguintes requisitos, cumulativamente:    (Incluído pela Lei nº 14.112, de 2020)    (Vigência)\n\nI - apresentação de garantias julgadas suficientes pelo juiz;       (Incluído pela Lei nº 14.112, de 2020)    (Vigência)\n\nII - aprovação pelos credores titulares de créditos derivados da legislação trabalhista ou decorrentes de acidentes de trabalho, na forma  do § 2º do art. 45 desta Lei; e     (Incluído pela Lei nº 14.112, de 2020) (Vigência)\n\nIII - garantia da integralidade do pagamento dos créditos trabalhistas.       (Incluído pela Lei nº 14.112, de 2020)    (Vigência)\n\nSeção IV\n\nDo Procedimento de Recuperação Judicial",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO III › Seção III › Art. 54",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

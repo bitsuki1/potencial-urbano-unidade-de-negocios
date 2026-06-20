@@ -1,0 +1,36 @@
+{
+  "chunk_id": "lei-federal-9514-1997::013-art-12",
+  "lei_id": "lei-federal-9514-1997",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 12",
+  "numero": "12",
+  "caminho_hierarquico": [
+    "CAPÍTULO I",
+    "Seção VI",
+    "Art. 12"
+  ],
+  "texto": "Art. 12. Instituído o regime fiduciário, incumbirá à companhia securitizadora administrar cada patrimônio separado, manter registros contábeis independentes em relação a cada um deles e elaborar e publicar as respectivas demonstrações financeiras.      (Revogado pela Medida Provisória nº 1.103, de 2022)    (Revogado pela Lei nº 14.430, de 2022)\n\nParágrafo único. A totalidade do patrimônio da companhia securitizadora responderá pelos prejuízos que esta causar por descumprimento de disposição legal ou regulamentar, por negligência ou administração temerária ou, ainda, por desvio da finalidade do patrimônio separado.    (Revogado pela Medida Provisória nº 1.103, de 2022)    (Revogado pela Lei nº 14.430, de 2022)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 9514/1997 — Brasil",
+    "dispositivo": "CAPÍTULO I › Seção VI › Art. 12",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l9514.htm",
+    "vigencia": {
+      "inicio": "1997-11-20",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 13.043/2014",
+        "Lei 13.465/2017",
+        "Lei 14.620/2023"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "alienacao_fiduciaria",
+    "sistema_financiamento_imobiliario"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre o Sistema de Financiamento Imobiliário, institui a alienação fiduciária de coisa imóvel e dá outras providências."
+}

@@ -1,0 +1,43 @@
+{
+  "chunk_id": "lei-federal-10931-2004::056-art-29",
+  "lei_id": "lei-federal-10931-2004",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 29",
+  "numero": "29",
+  "caminho_hierarquico": [
+    "CAPÍTULO IV",
+    "Art. 29"
+  ],
+  "texto": "Art. 29. A Cédula de Crédito Bancário deve conter os seguintes requisitos essenciais:\n\nI - a denominação \"Cédula de Crédito Bancário\";\n\nII - a promessa do emitente de pagar a dívida em dinheiro, certa, líquida e exigível no seu vencimento ou, no caso de dívida oriunda de contrato de abertura de crédito bancário, a promessa do emitente de pagar a dívida em dinheiro, certa, líquida e exigível, correspondente ao crédito utilizado;\n\nIII - a data e o lugar do pagamento da dívida e, no caso de pagamento parcelado, as datas e os valores de cada prestação, ou os critérios para essa determinação;\n\nIV - o nome da instituição credora, podendo conter cláusula à ordem;\n\nV - a data e o lugar de sua emissão; e\n\nVI - a assinatura do emitente e, se for o caso, do terceiro garantidor da obrigação, ou de seus respectivos mandatários.\n\n§ 1º A Cédula de Crédito Bancário será transferível mediante endosso em preto, ao qual se aplicarão, no que couberem, as normas do direito cambiário, caso em que o endossatário, mesmo não sendo instituição financeira ou entidade a ela equiparada, poderá exercer todos os direitos por ela conferidos, inclusive cobrar os juros e demais encargos na forma pactuada na Cédula.\n\n§ 2º A Cédula de Crédito Bancário será emitida por escrito, em tantas vias quantas forem as partes que nela intervierem, assinadas pelo emitente e pelo terceiro garantidor, se houver, ou por seus respectivos mandatários, devendo cada parte receber uma via.\n\n§ 2º  Na hipótese de emissão por escrito, a Cédula de Crédito Bancário será emitida em tantas vias quantas forem as partes que nela intervierem, assinadas pelo emitente e pelo terceiro garantidor, se houver, ou por seus respectivos mandatários, e cada parte receberá uma via.               (Redação dada pela Medida Provisória nº 897, de 2019)\n\n§ 2º Na hipótese de emissão sob a forma cartular, a Cédula de Crédito Bancário será emitida em tantas vias quantas forem as partes que nela intervierem, assinadas pelo emitente e pelo terceiro garantidor, se houver, ou por seus respectivos mandatários, e cada parte receberá uma via.            (Redação dada pela Lei nº 13.986, de 2020\n\n§ 3º Somente a via do credor será negociável, devendo constar nas demais vias a expressão \"não negociável\".\n\n§ 4º A Cédula de Crédito Bancário pode ser aditada, retificada e ratificada mediante documento escrito, datado, com os requisitos previstos no caput, passando esse documento a integrar a Cédula para todos os fins.\n\n§ 5º  A assinatura de que trata o inciso VI do caput poderá ocorrer sob a forma eletrônica, desde que garantida a identificação inequívoca de seu signatário.             (Incluído pela Medida Provisória nº 897, de 2019)\n\n§ 5º A assinatura de que trata o inciso VI do caput deste artigo poderá ocorrer sob a forma eletrônica, desde que garantida a identificação inequívoca de seu signatário.         (Incluído pela Lei nº 13.986, de 2020).",
+  "citacao": {
+    "norma": "lei_ordinaria nº 10931/2004 — Brasil",
+    "dispositivo": "CAPÍTULO IV › Art. 29",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/lei/l10.931.htm",
+    "vigencia": {
+      "inicio": "2004-08-02",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Decreto-Lei 911/1969",
+        "Lei 4.591/1964 (acresce arts. 31-A a 31-F)",
+        "Lei 4.728/1965",
+        "Lei 10.406/2002 (Código Civil)"
+      ],
+      "alterada_por": [
+        "Lei 13.097/2015",
+        "Lei 14.382/2022"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "patrimonio_de_afetacao",
+    "incorporacao_imobiliaria",
+    "RET",
+    "LCI",
+    "CCI",
+    "CCB"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre o patrimônio de afetação de incorporações imobiliárias, Letra de Crédito Imobiliário, Cédula de Crédito Imobiliário, Cédula de Crédito Bancário, altera o Decreto-Lei nº 911, de 1º de outubro de 1969, as Leis nº 4.591, de 16 de dezembro de 1964, nº 4.728, de 14 de julho de 1965, e nº 10.406, de 10 de janeiro de 2002, e dá outras providências."
+}

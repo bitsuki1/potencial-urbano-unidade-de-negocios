@@ -52,16 +52,25 @@
     {
       "id": "neg-iss-streaming",
       "pergunta": "qual a aliquota do ISS sobre servicos de streaming de video?",
-      "espera": { "fundamentada": false }
+      "espera": { "fundamentada": false, "lei_id": "lei-municipal-saopaulo-7228-1968" },
+      "_nota": "ESCOPADO a 7228 (--lei): com as 12 federais indexadas, 'servicos/ISS' passou a casar a EC-132/2023 (reforma tributaria, que trata de servicos) — deixou de ser fora-de-corpus no acervo cheio. Dentro da 7228, segue fora-de-corpus e o gate recusa."
     },
     {
       "id": "neg-curto-direito-construir",
       "pergunta": "direito de construir",
+      "espera": { "fundamentada": false, "lei_id": "lei-municipal-saopaulo-7228-1968" },
+      "_nota": "ESCOPADO a 7228 (--lei). LIMITE LEXICAL DECLARADO: no acervo cheio (13 leis) esta pergunta retorna FUNDAMENTADA citando Lei 4.591/1964 Art. 68 ('construir habitacoes') com 100% de cobertura — match LEXICAL ('direito'+'construir') que NAO e o conceito de TDC. O tier keyword nao distingue; so a camada semantica/filtro por tema resolve (ver vacina). Por isso o negativo e escopado a 1 lei."
+    },
+    {
+      "id": "neg-absoluto-fora-de-corpus",
+      "pergunta": "vacinacao obrigatoria contra febre amarela em criancas",
       "espera": { "fundamentada": false },
-      "_nota": "Caso CURTO fora-de-corpus (achado RAG-01): antes do gate endurecido batia só em 'direito' (de 'direito a restituicao' do Art. 8) e passava como FUNDAMENTADA. Agora a trava '>=2 termos casados' o recusa."
+      "_nota": "Negativo de ACERVO CHEIO (13 leis): conceito medico genuinamente ausente de todo o corpus IPTU/registral/falimentar — os termos nem existem no indice. Prova o gate em escala."
     }
   ],
   "vacinas": [
-    "LIMITE DO TIER KEYWORD (declarado): para 'a PARTIR DE QUANDO a tabela do art. 3 produz efeitos', o retrieval keyword devolve o Art. 3 (assunto) e nao o Art. 11 (que fixa 1/jan/1969). Resposta de DATA-DE-VIGENCIA por remissao entre artigos exige a camada semantica/grafo de remissoes (extensao futura), nao o keyword puro. Por isso NAO esta entre os positivos: nao inflar capacidade que o tier atual nao tem (RO honestidade)."
+    "LIMITE DO TIER KEYWORD (declarado): para 'a PARTIR DE QUANDO a tabela do art. 3 produz efeitos', o retrieval keyword devolve o Art. 3 (assunto) e nao o Art. 11 (que fixa 1/jan/1969). Resposta de DATA-DE-VIGENCIA por remissao entre artigos exige a camada semantica/grafo de remissoes (extensao futura), nao o keyword puro. Por isso NAO esta entre os positivos: nao inflar capacidade que o tier atual nao tem (RO honestidade).",
+    "MATCH LEXICAL != RELEVANCIA SEMANTICA (auditoria profunda 2026-06-20): no acervo de 13 leis, 'direito de construir' retorna FUNDAMENTADA com 100% de cobertura citando Lei 4.591/1964 Art. 68 (construir habitacoes) — lexicalmente perfeito, semanticamente errado (nao e TDC). O gate (cobertura+score+>=2 termos) NAO protege contra co-ocorrencia lexical enganosa; so a camada semantica (embeddings) e o filtro por TEMA (2.6, etapa 1) resolvem. Negativos de conceito-presente-mas-irrelevante devem ser ESCOPADOS por --lei/--tema ate a camada semantica existir.",
+    "NEGATIVO E RELATIVO AO ACERVO: um caso 'fora-de-corpus' calibrado com 1 lei pode virar dentro-de-corpus quando o acervo cresce (ISS entrou via EC-132/2023). Revalidar negativos a cada expansao do corpus."
   ]
 }

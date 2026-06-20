@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::202-art-153",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 153",
+  "numero": "153",
+  "caminho_hierarquico": [
+    "TÍTULO IV",
+    "CAPÍTULO IV",
+    "Art. 153"
+  ],
+  "texto": "Art. 153. Os títulos terão sempre um número diferente, segundo a ordem de apresentação, ainda que se refiram à mesma pessoa. O registro e a averbação deverão ser imediatos e, quando não o puderem ser, por acúmulo de serviço, o lançamento será feito no prazo estritamente necessário, e sem prejuízo da ordem da pre-notação. Em qualquer desses casos, o oficial, depois de haver dado entrada no protocolo e lançado no corpo do título as declarações prescritas, fornecerá um recibo contendo a declaração da data da apresentação, o número de ordem desta no protocolo e a indicação do dia em que deverá ser entregue, devidamente legalizado; o recibo será restituído pelo apresentante contra a devolução do documento.                           (Renumerado do art. 154  pela Lei nº 6.216, de 1975).",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO IV › CAPÍTULO IV › Art. 153",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

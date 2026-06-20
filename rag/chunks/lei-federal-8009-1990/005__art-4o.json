@@ -1,0 +1,33 @@
+{
+  "chunk_id": "lei-federal-8009-1990::005-art-4o",
+  "lei_id": "lei-federal-8009-1990",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 4º",
+  "numero": "4",
+  "caminho_hierarquico": [
+    "Art. 4º"
+  ],
+  "texto": "Art. 4º Não se beneficiará do disposto nesta lei aquele que, sabendo-se insolvente, adquire de má-fé imóvel mais valioso para transferir a residência familiar, desfazendo-se ou não da moradia antiga.\n\n§ 1º Neste caso, poderá o juiz, na respectiva ação do credor, transferir a impenhorabilidade para a moradia familiar anterior, ou anular-lhe a venda, liberando a mais valiosa para execução ou concurso, conforme a hipótese.\n\n§ 2º Quando a residência familiar constituir-se em imóvel rural, a impenhorabilidade restringir-se-á à sede de moradia, com os respectivos bens móveis, e, nos casos do art. 5º, inciso XXVI, da Constituição, à área limitada como pequena propriedade rural.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 8009/1990 — Brasil",
+    "dispositivo": "Art. 4º",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l8009.htm",
+    "vigencia": {
+      "inicio": "1990-03-29",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 13.144/2015 (art. 3º, III)"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "bem_de_familia",
+    "impenhorabilidade",
+    "execucao_fiscal"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre a impenhorabilidade do bem de família."
+}

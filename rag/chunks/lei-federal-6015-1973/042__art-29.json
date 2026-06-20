@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::042-art-29",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 29",
+  "numero": "29",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO I",
+    "Art. 29"
+  ],
+  "texto": "Art. 29. Serão registrados no registro civil de pessoas naturais:\n\nI - os nascimentos;              (Regulamento)             (Regulamento)\n\nII - os casamentos;              (Regulamento)            (Regulamento)\n\nIII - os óbitos;              (Regulamento)            (Regulamento)\n\nIV - as emancipações;\n\nV - as interdições;\n\nVI - as sentenças declaratórias de ausência;\n\nVII - as opções de nacionalidade;\n\nVIII - as sentenças que deferirem a legitimação adotiva.\n\n§ 1º Serão averbados:  \n\na) as sentenças que decidirem a nulidade ou anulação do casamento, o desquite e o restabelecimento da sociedade conjugal;\n\nb) as sentenças que julgarem ilegítimos os filhos concebidos na constância do casamento e as que declararem a filiação legítima;\n\nc) os casamentos de que resultar a legitimação de filhos havidos ou concebidos anteriormente;\n\nd) os atos judiciais ou extrajudiciais de reconhecimento de filhos ilegítimos;\n\ne) as escrituras de adoção e os atos que a dissolverem;\n\nf) as alterações ou abreviaturas de nomes.\n\n§ 2º É competente para a inscrição da opção de nacionalidade o cartório da residência do optante, ou de seus pais. Se forem residentes no estrangeiro, far-se-á o registro no Distrito Federal.\n\n§ 3o  Os ofícios do registro civil das pessoas naturais são considerados ofícios da cidadania e estão autorizados a prestar outros serviços remunerados, na forma prevista em convênio, em credenciamento ou em matrícula com órgãos públicos e entidades interessadas.               (Incluído pela Lei nº 13.484, de 2017)      (Vide ADIN 5855)\n\n§ 4o  O convênio referido no § 3o deste artigo independe de homologação e será firmado pela entidade de classe dos registradores civis de pessoas naturais de mesma abrangência territorial do órgão ou da entidade interessada.           (Incluído pela Lei nº 13.484, de 2017)        (Vide ADIN 5855)\n\n§ 5º (VETADO).       (Incluído pela Lei nº 14.382, de 2022)\n\n§ 6º Os ofícios de registro civil das pessoas naturais poderão, ainda, emitir certificado de vida, de estado civil e de domicílio, físico e eletrônico, da pessoa natural, e deverá ser realizada comunicação imediata e eletrônica da prova de vida para a instituição interessada, se for o caso, a partir da celebração de convênio.   (Incluído pela Lei nº 14.711, de 2023)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO II › CAPÍTULO I › Art. 29",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

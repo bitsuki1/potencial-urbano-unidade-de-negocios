@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-11101-2005::210-art-160",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 160",
+  "numero": "160",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Seção XII",
+    "Art. 160"
+  ],
+  "texto": "Art. 160. Verificada a prescrição ou extintas as obrigações nos termos desta Lei, o sócio de responsabilidade ilimitada também poderá requerer que seja declarada por sentença a extinção de suas obrigações na falência.\n\nCAPÍTULO VI\n\nDA RECUPERAÇÃO EXTRAJUDICIAL",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO V › Seção XII › Art. 160",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

@@ -1,0 +1,43 @@
+{
+  "chunk_id": "lei-federal-10931-2004::042-art-23",
+  "lei_id": "lei-federal-10931-2004",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 23",
+  "numero": "23",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 23"
+  ],
+  "texto": "Art. 23. A CCI, objeto de securitização nos termos da Lei nº 9.514, de 20 de novembro de 1997, será identificada no respectivo Termo de Securitização de Créditos, mediante indicação do seu valor, número, série e instituição custodiante, dispensada a enunciação das informações já constantes da Cédula, ou nos controles das entidades mencionadas no § 4º-A do art. 18 desta Lei.           (Redação dada pela Lei nº 13.986, de 2020    (Revogado pela Lei nº 14.430, de 2022)\n\nParágrafo único. O regime fiduciário de que trata a Seção VI do Capítulo I da Lei nº 9.514, de 1997, no caso de emissão de Certificados de Recebíveis Imobiliários lastreados em créditos representados por CCI, será registrado na instituição custodiante, mencionando o patrimônio separado a que estão afetados, não se aplicando o disposto no parágrafo único do art. 10 da mencionada Lei.      (Revogado pela Lei nº 14.430, de 2022)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 10931/2004 — Brasil",
+    "dispositivo": "CAPÍTULO III › Art. 23",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/lei/l10.931.htm",
+    "vigencia": {
+      "inicio": "2004-08-02",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Decreto-Lei 911/1969",
+        "Lei 4.591/1964 (acresce arts. 31-A a 31-F)",
+        "Lei 4.728/1965",
+        "Lei 10.406/2002 (Código Civil)"
+      ],
+      "alterada_por": [
+        "Lei 13.097/2015",
+        "Lei 14.382/2022"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "patrimonio_de_afetacao",
+    "incorporacao_imobiliaria",
+    "RET",
+    "LCI",
+    "CCI",
+    "CCB"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre o patrimônio de afetação de incorporações imobiliárias, Letra de Crédito Imobiliário, Cédula de Crédito Imobiliário, Cédula de Crédito Bancário, altera o Decreto-Lei nº 911, de 1º de outubro de 1969, as Leis nº 4.591, de 16 de dezembro de 1964, nº 4.728, de 14 de julho de 1965, e nº 10.406, de 10 de janeiro de 2002, e dá outras providências."
+}

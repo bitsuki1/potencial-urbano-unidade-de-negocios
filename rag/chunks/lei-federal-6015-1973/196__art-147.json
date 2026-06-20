@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::196-art-147",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 147",
+  "numero": "147",
+  "caminho_hierarquico": [
+    "TÍTULO IV",
+    "CAPÍTULO IV",
+    "Art. 147"
+  ],
+  "texto": "Art. 147. Protocolado o título ou documento, far-se-á, em seguida, no livro respectivo, o lançamento, (registro integral ou resumido, ou averbação), e, concluído este, declarar-se-á no corpo do título, documento ou papel, o número de ordem e a data do procedimento no livro competente, rubricando o oficial ou os servidores referidos no art. 142, § 1º, esta declaração e as demais folhas do título, do documento ou do papel.                       (Renumerado do art. 148 pela Lei nº 6.216, de 1975).",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO IV › CAPÍTULO IV › Art. 147",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

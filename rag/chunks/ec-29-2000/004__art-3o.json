@@ -1,0 +1,32 @@
+{
+  "chunk_id": "ec-29-2000::004-art-3o",
+  "lei_id": "ec-29-2000",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 3º",
+  "numero": "3",
+  "caminho_hierarquico": [
+    "Art. 3º"
+  ],
+  "texto": "Art. 3º O § 1º do art. 156 da Constituição Federal passa a vigorar com a seguinte redação:\n\n\"Art.156................................................................................\"\n\n\"§ 1º Sem prejuízo da progressividade no tempo a que se refere o art. 182, § 4º, inciso II, o imposto previsto no inciso I poderá:\" (NR)\n\n\"I – ser progressivo em razão do valor do imóvel; e\" (AC)*\n\n\"II – ter alíquotas diferentes de acordo com a localização e o uso do imóvel.\" (AC)\n\n\".................................................\"",
+  "citacao": {
+    "norma": "emenda_constitucional nº 29/2000 — Brasil",
+    "dispositivo": "Art. 3º",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc29.htm",
+    "vigencia": {
+      "inicio": "2000-09-13",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "CF/1988 arts. 34, 35, 156, 160, 167, 198",
+        "ADCT (acréscimo de artigo - art. 77)"
+      ],
+      "alterada_por": []
+    }
+  },
+  "tema": [
+    "IPTU",
+    "progressividade_fiscal"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Altera os arts. 34, 35, 156, 160, 167 e 198 da Constituição Federal e acrescenta artigo ao Ato das Disposições Constitucionais Transitórias, para assegurar os recursos mínimos para o financiamento das ações e serviços públicos de saúde."
+}

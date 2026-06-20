@@ -1,0 +1,36 @@
+{
+  "chunk_id": "lei-federal-11101-2005::233-art-167",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 167",
+  "numero": "167",
+  "caminho_hierarquico": [
+    "CAPÍTULO VI-A",
+    "Art. 167"
+  ],
+  "texto": "Art. 167-N. Com a decisão de reconhecimento do processo estrangeiro, tanto principal como não principal, o juiz poderá determinar, a pedido do representante estrangeiro e desde que necessárias para a proteção dos bens do devedor e no interesse dos credores, entre outras, as seguintes medidas:    (Incluído pela Lei nº 14.112, de 2020)    (Vigência)\n\nI - a ineficácia de transferência, de oneração ou de qualquer forma de disposição de bens do ativo não circulante do devedor realizadas sem prévia autorização judicial, caso não tenham decorrido automaticamente do reconhecimento previsto no art. 167-M desta Lei;      (Incluído pela Lei nº 14.112, de 2020)     (Vigência)\n\nII - a oitiva de testemunhas, a colheita de provas ou o fornecimento de informações relativas a bens, a direitos, a obrigações, à responsabilidade e à atividade do devedor;    (Incluído pela Lei nº 14.112, de 2020)     (Vigência)\n\nIII - a autorização do representante estrangeiro ou de outra pessoa para administrar e/ou realizar o ativo do devedor, no todo ou em parte, localizado no Brasil;    (Incluído pela Lei nº 14.112, de 2020)    (Vigência)\n\nIV - a conversão, em definitiva, de qualquer medida de assistência provisória concedida anteriormente;     (Incluído pela Lei nº 14.112, de 2020)    (Vigência)\n\nV - a concessão de qualquer outra medida que seja necessária.    (Incluído pela Lei nº 14.112, de 2020)    (Vigência)\n\n§ 1º Com o reconhecimento do processo estrangeiro, tanto principal como não principal, o juiz poderá, a requerimento do representante estrangeiro, autorizá-lo, ou outra pessoa nomeada por aquele, a promover a destinação do ativo do devedor, no todo ou em parte, localizado no Brasil, desde que os interesses dos credores domiciliados ou estabelecidos no Brasil estejam adequadamente protegidos.    (Incluído pela Lei nº 14.112, de 2020)    (Vigência)\n\n§ 2º Ao conceder medida de assistência prevista neste artigo requerida pelo representante estrangeiro de um processo estrangeiro não principal, o juiz deverá certificar-se de que as medidas para efetivá-la se referem a bens que, de acordo com o direito brasileiro, devam ser submetidos à disciplina aplicável ao processo estrangeiro não principal, ou certificar-se de que elas digam respeito a informações nele exigidas. (Incluído pela Lei nº 14.112, de 2020)     (Vigência)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO VI-A › Art. 167",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

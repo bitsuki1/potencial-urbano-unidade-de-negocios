@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-4591-1964::083-art-54",
+  "lei_id": "lei-federal-4591-1964",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 54",
+  "numero": "54",
+  "caminho_hierarquico": [
+    "Título II",
+    "CAPíTULO III",
+    "Seção I",
+    "Art. 54"
+  ],
+  "texto": "Art. 54 Os sindicatos estaduais da indústria da construção civil ficam obrigados a divulgar mensalmente, até o dia 5 de cada mês, os custos unitários de construção a serem adotados nas respectivas regiões jurisdicionais, calculados com observância dos critérios e normas a que se refere o inciso I, do artigo anterior.\n\n§ 1º O sindicato estadual que deixar de cumprir a obrigação prevista neste artigo deixará de receber dos cofres públicos, enquanto perdurar a omissão, qualquer subvenção ou auxílio que pleiteie ou a que tenha direito.\n\n§ 2º Na ocorrência de omissão de sindicato estadual, o construtor usará os índices fixados por outro sindicato estadual, em cuja região os custos de construção mais lhe pareçam aproximados dos da sua.\n\n§ 3º Os orçamentos ou estimativas baseados nos custos unitários a que se refere êste artigo só poderão ser considerados atualizados, em certo mês, para os efeitos desta Lei, se baseados em custos unitários relativos ao próprio mês ou a um dos dois meses anteriores.\n\nSeção II\n\nDa Construção por Empreitada",
+  "citacao": {
+    "norma": "lei_ordinaria nº 4591/1964 — Brasil",
+    "dispositivo": "Título II › CAPíTULO III › Seção I › Art. 54",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l4591.htm",
+    "vigencia": {
+      "inicio": "1964-12-16",
+      "fim": null,
+      "revogada_por": "parcialmente — a parte de condomínio convive com o Código Civil/2002 (arts. 1.331 e ss.)",
+      "altera": [],
+      "alterada_por": [
+        "Código Civil/2002 (Lei 10.406/2002)",
+        "Lei 10.931/2004 (patrimônio de afetação)",
+        "Lei 4.864/1965"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "condominio_edilicio",
+    "incorporacao_imobiliaria",
+    "unidade_autonoma"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
+}

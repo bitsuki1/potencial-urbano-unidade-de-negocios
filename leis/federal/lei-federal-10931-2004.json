@@ -6,7 +6,15 @@
   "numero": "10931",
   "ano": 2004,
   "ementa": "Dispõe sobre o patrimônio de afetação de incorporações imobiliárias, Letra de Crédito Imobiliário, Cédula de Crédito Imobiliário, Cédula de Crédito Bancário, altera o Decreto-Lei nº 911, de 1º de outubro de 1969, as Leis nº 4.591, de 16 de dezembro de 1964, nº 4.728, de 14 de julho de 1965, e nº 10.406, de 10 de janeiro de 2002, e dá outras providências.",
-  "tema": ["IPTU", "patrimonio_de_afetacao", "incorporacao_imobiliaria", "RET", "LCI", "CCI", "CCB"],
+  "tema": [
+    "IPTU",
+    "patrimonio_de_afetacao",
+    "incorporacao_imobiliaria",
+    "RET",
+    "LCI",
+    "CCI",
+    "CCB"
+  ],
   "dispositivos_chave": [
     "Patrimônio de afetação (arts. 31-A a 31-F acrescentados à Lei 4.591/1964) — segregação do terreno/acessões/bens vinculados em relação ao patrimônio do incorporador.",
     "Regime Especial Tributário do Patrimônio de Afetação (RET) — recolhimento unificado por incorporação afetada (alíquota única sobre receita mensal).",
@@ -16,8 +24,16 @@
     "inicio": "2004-08-02",
     "fim": null,
     "revogada_por": null,
-    "altera": ["Decreto-Lei 911/1969", "Lei 4.591/1964 (acresce arts. 31-A a 31-F)", "Lei 4.728/1965", "Lei 10.406/2002 (Código Civil)"],
-    "alterada_por": ["Lei 13.097/2015", "Lei 14.382/2022"]
+    "altera": [
+      "Decreto-Lei 911/1969",
+      "Lei 4.591/1964 (acresce arts. 31-A a 31-F)",
+      "Lei 4.728/1965",
+      "Lei 10.406/2002 (Código Civil)"
+    ],
+    "alterada_por": [
+      "Lei 13.097/2015",
+      "Lei 14.382/2022"
+    ]
   },
   "remissoes": [
     "Lei 4.591/1964 arts. 31-A a 31-F",
@@ -35,9 +51,12 @@
     "origem": "web-oficial",
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/lei/l10.931.htm",
     "hash": null,
-    "ocr": false
+    "ocr": false,
+    "path": "_entrada/misto/lei-federal-10931-2004.txt",
+    "metodo": "VERBATIM DE TELA (planalto); re-ingerido de _entrada/misto/ em 2026-06-20 (AUD-01)",
+    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior."
   },
-  "status_pipeline": "bruto",
-  "confianca_extracao": "media",
+  "status_pipeline": "indexado",
+  "confianca_extracao": "alta",
   "revisado_por_humano": false
 }

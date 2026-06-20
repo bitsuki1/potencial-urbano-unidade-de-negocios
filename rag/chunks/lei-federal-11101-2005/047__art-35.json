@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-11101-2005::047-art-35",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 35",
+  "numero": "35",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção IV",
+    "Art. 35"
+  ],
+  "texto": "Art. 35. A assembléia-geral de credores terá por atribuições deliberar sobre:\n\nI – na recuperação judicial:\n\na) aprovação, rejeição ou modificação do plano de recuperação judicial apresentado pelo devedor;\n\nb) a constituição do Comitê de Credores, a escolha de seus membros e sua substituição;\n\nc) (VETADO)\n\nd) o pedido de desistência do devedor, nos termos do § 4º do art. 52 desta Lei;\n\ne) o nome do gestor judicial, quando do afastamento do devedor;\n\nf) qualquer outra matéria que possa afetar os interesses dos credores;\n\ng) alienação de bens ou direitos do ativo não circulante do devedor, não prevista no plano de recuperação judicial;    (Incluído pela Lei nº 14.112, de 2020)   (Vigência)\n\nII – na falência:\n\na) (VETADO)\n\nb) a constituição do Comitê de Credores, a escolha de seus membros e sua substituição;\n\nc) a adoção de outras modalidades de realização do ativo, na forma do art. 145 desta Lei;\n\nd) qualquer outra matéria que possa afetar os interesses dos credores.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO II › Seção IV › Art. 35",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

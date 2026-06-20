@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::135-art-97",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 97",
+  "numero": "97",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO XII",
+    "Art. 97"
+  ],
+  "texto": "Art. 97.  A averbação será feita pelo oficial do cartório em que constar o assento à vista da carta de sentença, de mandado ou de petição acompanhada de certidão ou documento legal e autêntico.         (Redação dada pela Lei nº 13.484, de 2017)\n\nParágrafo único.  Nas hipóteses em que o oficial suspeitar de fraude, falsidade ou má-fé nas declarações ou na documentação apresentada para fins de averbação, não praticará o ato pretendido e submeterá o caso ao representante do Ministério Público para manifestação, com a indicação, por escrito, dos motivos da suspeita.            (Incluído pela Lei nº 13.484, de 2017)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO II › CAPÍTULO XII › Art. 97",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

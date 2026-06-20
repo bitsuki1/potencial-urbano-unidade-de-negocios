@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-4591-1964::014-art-13",
+  "lei_id": "lei-federal-4591-1964",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 13",
+  "numero": "13",
+  "caminho_hierarquico": [
+    "TÍTULO I",
+    "Capítulo IV",
+    "Art. 13"
+  ],
+  "texto": "Art. 13. Proceder-se-á ao seguro da edificação ou do conjunto de edificações, neste caso, discriminadamente, abrangendo tôdas as unidades autônomas e partes comuns, contra incêndio ou outro sinistro que cause destruição no todo ou em parte, computando-se o prêmio nas despesas ordinárias do condomínio.\n\nParágrafo único. O seguro de que trata êste artigo será obrigatòriamente feito dentro de 120 dias, contados da data da concessão do \"habite-se\", sob pena de ficar o condomínio sujeito à multa mensal equivalente a 1/12 do impôsto predial, cobrável executivamente pela Municipalidade.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 4591/1964 — Brasil",
+    "dispositivo": "TÍTULO I › Capítulo IV › Art. 13",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l4591.htm",
+    "vigencia": {
+      "inicio": "1964-12-16",
+      "fim": null,
+      "revogada_por": "parcialmente — a parte de condomínio convive com o Código Civil/2002 (arts. 1.331 e ss.)",
+      "altera": [],
+      "alterada_por": [
+        "Código Civil/2002 (Lei 10.406/2002)",
+        "Lei 10.931/2004 (patrimônio de afetação)",
+        "Lei 4.864/1965"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "condominio_edilicio",
+    "incorporacao_imobiliaria",
+    "unidade_autonoma"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
+}

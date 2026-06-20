@@ -1,0 +1,36 @@
+{
+  "chunk_id": "lei-federal-4591-1964::005-art-4o",
+  "lei_id": "lei-federal-4591-1964",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 4º",
+  "numero": "4",
+  "caminho_hierarquico": [
+    "TÍTULO I",
+    "Art. 4º"
+  ],
+  "texto": "Art. 4º A alienação de cada unidade, a transferência de direitos pertinentes à sua aquisição e a constituição de direitos reais sôbre ela independerão do consentimento dos condôminos, (VETADO).  \n\nParágrafo único. O adquirente de uma unidade responde pelos débitos do alienante, em relação ao condomínio, inclusive multas.\n\nParágrafo único - A alienação ou transferência de direitos de que trata este artigo dependerá de prova de quitação das obrigações do alienante para com o respectivo condomínio.                    (Redação dada pela Lei nº 7.182, de 27.3.1984)        (Vide Lei nº 7.433, de 1985)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 4591/1964 — Brasil",
+    "dispositivo": "TÍTULO I › Art. 4º",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l4591.htm",
+    "vigencia": {
+      "inicio": "1964-12-16",
+      "fim": null,
+      "revogada_por": "parcialmente — a parte de condomínio convive com o Código Civil/2002 (arts. 1.331 e ss.)",
+      "altera": [],
+      "alterada_por": [
+        "Código Civil/2002 (Lei 10.406/2002)",
+        "Lei 10.931/2004 (patrimônio de afetação)",
+        "Lei 4.864/1965"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "condominio_edilicio",
+    "incorporacao_imobiliaria",
+    "unidade_autonoma"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
+}

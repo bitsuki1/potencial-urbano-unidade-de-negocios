@@ -1,0 +1,34 @@
+{
+  "chunk_id": "dl-57-1966::010-art-9o",
+  "lei_id": "dl-57-1966",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 9º",
+  "numero": "9",
+  "caminho_hierarquico": [
+    "Art. 9º"
+  ],
+  "texto": "Art 9º Para fins de cadastramento e lançamento do ITR, as emprêsas industriais situadas em imóvel rural poderão incluir como inaproveitáveis as áreas ocupadas por suas instalações e as não cultivadas necessárias ao seu funcionamento, desde que feita a comprovação, junto ao IBRA, na forma do disposto na regulamentação dêste Decreto-Lei.",
+  "citacao": {
+    "norma": "decreto_lei nº 57/1966 — Brasil",
+    "dispositivo": "Art. 9º",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del0057.htm",
+    "vigencia": {
+      "inicio": "1966-11-18",
+      "fim": null,
+      "revogada_por": "art. 15 revogado pela Lei 5.868/1972 (art. 12), mas execução dessa revogação SUSPENSA pela Res. Senado Federal nº 9/2005 (decisão STF) — art. 15 aplicável",
+      "altera": [
+        "Lei 5.172/1966 (CTN) — modula alcance do art. 32"
+      ],
+      "alterada_por": [
+        "Lei 5.868/1972 (revogação do art. 15, posteriormente suspensa pela Res. SF 9/2005)"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "ITR",
+    "destinacao_economica"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Altera dispositivos sobre lançamento e cobrança do Imposto sobre a Propriedade Territorial Rural, institui normas sobre arrecadação da Dívida Ativa correspondente, e dá outras providências."
+}

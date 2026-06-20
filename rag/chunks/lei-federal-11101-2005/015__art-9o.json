@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-11101-2005::015-art-9o",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 9º",
+  "numero": "9",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção II",
+    "Art. 9º"
+  ],
+  "texto": "Art. 9º A habilitação de crédito realizada pelo credor nos termos do art. 7º , § 1º , desta Lei deverá conter:\n\nI – o nome, o endereço do credor e o endereço em que receberá comunicação de qualquer ato do processo;\n\nII – o valor do crédito, atualizado até a data da decretação da falência ou do pedido de recuperação judicial, sua origem e classificação;\n\nIII – os documentos comprobatórios do crédito e a indicação das demais provas a serem produzidas;\n\nIV – a indicação da garantia prestada pelo devedor, se houver, e o respectivo instrumento;\n\nV – a especificação do objeto da garantia que estiver na posse do credor.\n\nParágrafo único. Os títulos e documentos que legitimam os créditos deverão ser exibidos no original ou por cópias autenticadas se estiverem juntados em outro processo.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO II › Seção II › Art. 9º",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

@@ -1,0 +1,36 @@
+{
+  "chunk_id": "lei-federal-9514-1997::020-art-19",
+  "lei_id": "lei-federal-9514-1997",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 19",
+  "numero": "19",
+  "caminho_hierarquico": [
+    "CAPÍTULO I",
+    "Seção VII",
+    "Art. 19"
+  ],
+  "texto": "Art. 19. Ao credor fiduciário compete o direito de:\n\nI - conservar e recuperar a posse dos títulos representativos dos créditos cedidos, contra qualquer detentor, inclusive o próprio cedente;\n\nII - promover a intimação dos devedores que não paguem ao cedente, enquanto durar a cessão fiduciária;\n\nIII - usar das ações, recursos e execuções, judiciais e extrajudiciais, para receber os créditos cedidos e exercer os demais direitos conferidos ao cedente no contrato de alienação do imóvel;\n\nIV - receber diretamente dos devedores os créditos cedidos fiduciariamente.\n\n§ 1º As importâncias recebidas na forma do inciso IV deste artigo, depois de deduzidas as despesas de cobrança e de administração, serão creditadas ao devedor cedente, na operação objeto da cessão fiduciária, até final liquidação da dívida e encargos, responsabilizando-se o credor fiduciário perante o cedente, como depositário, pelo que receber além do que este lhe devia.\n\n§ 2º Se as importâncias recebidas, a que se refere o parágrafo anterior, não bastarem para o pagamento integral da dívida e seus encargos, bem como das despesas de cobrança e de administração daqueles créditos, o devedor continuará obrigado a resgatar o saldo remanescente nas condições convencionadas no contrato.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 9514/1997 — Brasil",
+    "dispositivo": "CAPÍTULO I › Seção VII › Art. 19",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l9514.htm",
+    "vigencia": {
+      "inicio": "1997-11-20",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 13.043/2014",
+        "Lei 13.465/2017",
+        "Lei 14.620/2023"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "alienacao_fiduciaria",
+    "sistema_financiamento_imobiliario"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre o Sistema de Financiamento Imobiliário, institui a alienação fiduciária de coisa imóvel e dá outras providências."
+}

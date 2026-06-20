@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-11101-2005::060-art-46",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 46",
+  "numero": "46",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção IV",
+    "Art. 46"
+  ],
+  "texto": "Art. 46. A aprovação de forma alternativa de realização do ativo na falência, prevista no art. 145 desta Lei, dependerá do voto favorável de credores que representem 2/3 (dois terços) dos créditos presentes à assembléia.\n\nCAPÍTULO III\n\nDA RECUPERAÇÃO JUDICIAL\n\nSeção I\n\nDisposições Gerais",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO II › Seção IV › Art. 46",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

@@ -6,7 +6,12 @@
   "numero": "6830",
   "ano": 1980,
   "ementa": "Dispõe sobre a cobrança judicial da Dívida Ativa da Fazenda Pública, e dá outras providências.",
-  "tema": ["IPTU", "execucao_fiscal", "divida_ativa", "prescricao_intercorrente"],
+  "tema": [
+    "IPTU",
+    "execucao_fiscal",
+    "divida_ativa",
+    "prescricao_intercorrente"
+  ],
   "dispositivos_chave": [
     "Art. 40 — suspensão da execução por não localização do devedor ou de bens penhoráveis; arquivamento após 1 ano; reconhecimento de ofício da prescrição intercorrente (§ 4º).",
     "Art. 2º — definição de Dívida Ativa da Fazenda Pública (tributária e não tributária).",
@@ -18,7 +23,9 @@
     "fim": null,
     "revogada_por": null,
     "altera": [],
-    "alterada_por": ["Lei 11.960/2009 (art. 40, § 5º)"]
+    "alterada_por": [
+      "Lei 11.960/2009 (art. 40, § 5º)"
+    ]
   },
   "remissoes": [
     "CTN (Lei 5.172/1966) arts. 174 e 201-204",
@@ -36,9 +43,12 @@
     "origem": "web-oficial",
     "url": "https://www.planalto.gov.br/ccivil_03/leis/l6830.htm",
     "hash": null,
-    "ocr": false
+    "ocr": false,
+    "path": "_entrada/misto/lei-federal-6830-1980.txt",
+    "metodo": "VERBATIM DE TELA (planalto); re-ingerido de _entrada/misto/ em 2026-06-20 (AUD-01)",
+    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior."
   },
-  "status_pipeline": "bruto",
+  "status_pipeline": "indexado",
   "confianca_extracao": "alta",
   "revisado_por_humano": false
 }

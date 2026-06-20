@@ -1,0 +1,30 @@
+{
+  "chunk_id": "ec-29-2000::001-preambulo",
+  "lei_id": "ec-29-2000",
+  "tipo_dispositivo": "preambulo",
+  "rotulo": "Preâmbulo",
+  "numero": null,
+  "caminho_hierarquico": [],
+  "texto": "Presidência da República\nCasa Civil\nSubchefia para Assuntos Jurídicos\n\nEMENDA CONSTITUCIONAL Nº 29, DE 13 DE SETEMBRO DE 2000\n\n\t\n\nAltera os arts. 34, 35, 156, 160, 167 e 198 da Constituição Federal e acrescenta artigo ao Ato das Disposições Constitucionais Transitórias, para assegurar os recursos mínimos para o financiamento das ações e serviços públicos de saúde.\n\nAs Mesas da Câmara dos Deputados e do Senado Federal, nos termos do § 3º do art. 60 da Constituição Federal, promulgam a seguinte Emenda ao texto constitucional:",
+  "citacao": {
+    "norma": "emenda_constitucional nº 29/2000 — Brasil",
+    "dispositivo": "Preâmbulo",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc29.htm",
+    "vigencia": {
+      "inicio": "2000-09-13",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "CF/1988 arts. 34, 35, 156, 160, 167, 198",
+        "ADCT (acréscimo de artigo - art. 77)"
+      ],
+      "alterada_por": []
+    }
+  },
+  "tema": [
+    "IPTU",
+    "progressividade_fiscal"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Altera os arts. 34, 35, 156, 160, 167 e 198 da Constituição Federal e acrescenta artigo ao Ato das Disposições Constitucionais Transitórias, para assegurar os recursos mínimos para o financiamento das ações e serviços públicos de saúde."
+}

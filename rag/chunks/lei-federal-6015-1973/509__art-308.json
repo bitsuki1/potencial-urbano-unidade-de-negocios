@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-6015-1973::509-art-308",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 308",
+  "numero": "308",
+  "caminho_hierarquico": [
+    "TÍTULO VI",
+    "Art. 308"
+  ],
+  "texto": "Art. 308. O encerramento dos livros em uso, antes da vigência da presente Lei, não exclui a validade dos atos neles registrados, nem impede que, neles, se façam as averbações e anotações posteriores.\n\nParágrafo único. Se a averbação ou anotação dever ser feita no Livro n. 2 do Registro de Imóveis, pela presente Lei, e não houver espaço nos anteriores Livros de Transcrição das Transmissões, será aberta a matrícula do imóvel, nos termos do artigo 235, parágrafo único, desta Lei.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO VI › Art. 308",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

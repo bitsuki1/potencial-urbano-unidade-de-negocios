@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-11101-2005::187-art-142",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 142",
+  "numero": "142",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Seção X",
+    "Art. 142"
+  ],
+  "texto": "Art. 142. O juiz, ouvido o administrador judicial e atendendo à orientação do Comitê, se houver, ordenará que se proceda à alienação do ativo em uma das seguintes modalidades:\n\nI – leilão, por lances orais;\n\nII – propostas fechadas;       (Revogado pela Lei nº 14.112, de 2020)    (Vigência)\n\nIII – pregão.         (Revogado pela Lei nº 14.112, de 2020)    (Vigência)\n\n§ 1º A realização da alienação em quaisquer das modalidades de que trata este artigo será antecedida por publicação de anúncio em jornal de ampla circulação, com 15 (quinze) dias de antecedência, em se tratando de bens móveis, e com 30 (trinta) dias na alienação da empresa ou de bens imóveis, facultada a divulgação por outros meios que contribuam para o amplo conhecimento da venda.     (Revogado pela Lei nº 14.112, de 2020)   (Vigência)\n\n§ 2º A alienação dar-se-á pelo maior valor oferecido, ainda que seja inferior ao valor de avaliação.          (Revogado pela Lei nº 14.112, de 2020)   (Vigência)\n\n§ 3º No leilão por lances orais, aplicam-se, no que couber, as regras da Lei nº 5.869, de 11 de janeiro de 1973 - Código de Processo Civil.\n\n§ 4º A alienação por propostas fechadas ocorrerá mediante a entrega, em cartório e sob recibo, de envelopes lacrados, a serem abertos pelo juiz, no dia, hora e local designados no edital, lavrando o escrivão o auto respectivo, assinado pelos presentes, e juntando as propostas aos autos da falência.       (Revogado pela Lei nº 14.112, de 2020)    (Vigência)\n\n§ 5º A venda por pregão constitui modalidade híbrida das anteriores, comportando 2 (duas) fases:          (Revogado pela Lei nº 14.112, de 2020)    (Vigência)\n\nI – recebimento de propostas, na forma do § 3º deste artigo;            (Revogado pela Lei nº 14.112, de 2020)    (Vigência)\n\nII – leilão por lances orais, de que participarão somente aqueles que apresentarem propostas não inferiores a 90% (noventa por cento) da maior proposta ofertada, na forma do § 2º deste artigo.       (Revogado pela Lei nº 14.112, de 2020)   (Vigência)\n\n§ 6º A venda por pregão respeitará as seguintes regras:        (Revogado pela Lei nº 14.112, de 2020)    (Vigência)\n\nI – recebidas e abertas as propostas na forma do § 5º deste artigo, o juiz ordenará a notificação dos ofertantes, cujas propostas atendam ao requisito de seu inciso II, para comparecer ao leilão;       (Revogado pela Lei nº 14.112, de 2020)\n\nII – o valor de abertura do leilão será o da proposta recebida do maior ofertante presente, considerando-se esse valor como lance, ao qual ele fica obrigado;         (Revogado pela Lei nº 14.112, de 2020)   (Vigência)\n\nIII – caso não compareça ao leilão o ofertante da maior proposta e não seja dado lance igual ou superior ao valor por ele ofertado, fica obrigado a prestar a diferença verificada, constituindo a respectiva certidão do juízo título executivo para a cobrança dos valores pelo administrador judicial.            (Revogado pela Lei nº 14.112, de 2020)    (Vigência)\n\n§ 7º Em qualquer modalidade de alienação, o Ministério Público será intimado pessoalmente, sob pena de nulidade.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO V › Seção X › Art. 142",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

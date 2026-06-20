@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::115-art-79",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 79",
+  "numero": "79",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO IX",
+    "Art. 79"
+  ],
+  "texto": "Art. 79. São obrigados a fazer declaração de óbitos:                        (Renumerado do art. 80  pela Lei nº 6.216, de 1975).\n\n1°) o chefe de família, a respeito de sua mulher, filhos, hóspedes, agregados e fâmulos;\n\n2º) a viúva, a respeito de seu marido, e de cada uma das pessoas indicadas no número antecedente;\n\n3°) o filho, a respeito do pai ou da mãe; o irmão, a respeito dos irmãos e demais pessoas de casa, indicadas no nº 1; o parente mais próximo maior e presente;\n\n4º) o administrador, diretor ou gerente de qualquer estabelecimento público ou particular, a respeito dos que nele faleceram, salvo se estiver presente algum parente em grau acima indicado;\n\n5º) na falta de pessoa competente, nos termos dos números anteriores, a que tiver assistido aos últimos momentos do finado, o médico, o sacerdote ou vizinho que do falecimento tiver notícia;\n\n6°) a autoridade policial, a respeito de pessoas encontradas mortas.\n\nParágrafo único. A declaração poderá ser feita por meio de preposto, autorizando-o o declarante em escrito, de que constem os elementos necessários ao assento de óbito.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO II › CAPÍTULO IX › Art. 79",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

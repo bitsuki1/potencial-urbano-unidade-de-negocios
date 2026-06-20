@@ -1,0 +1,33 @@
+{
+  "chunk_id": "lei-federal-8668-1993::025-art-20",
+  "lei_id": "lei-federal-8668-1993",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 20",
+  "numero": "20",
+  "caminho_hierarquico": [
+    "Art. 20"
+  ],
+  "texto": "Art. 20. Aplica-se à instituição administradora, aos seus administradores e gerentes diretamente responsáveis pela administração do fundo, bem como aos demais infratores das normas desta lei, o disposto no art. 11 da Lei nº 6.385, de 7 de dezembro de 1976, independentemente de outras sanções legais eventualmente cabíveis.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 8668/1993 — Brasil",
+    "dispositivo": "Art. 20",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l8668.htm",
+    "vigencia": {
+      "inicio": "1993-06-25",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 9.779/1999",
+        "Lei 14.130/2021"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "fundo_investimento_imobiliario",
+    "propriedade_fiduciaria"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre a constituição e o regime tributário dos Fundos de Investimento Imobiliário e dá outras providências."
+}

@@ -1,0 +1,33 @@
+{
+  "chunk_id": "lei-federal-6830-1980::026-art-25",
+  "lei_id": "lei-federal-6830-1980",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 25",
+  "numero": "25",
+  "caminho_hierarquico": [
+    "Art. 25"
+  ],
+  "texto": "Art. 25 - Na execução fiscal, qualquer intimação ao representante judicial da Fazenda Pública será feita pessoalmente.\n\nParágrafo Único - A intimação de que trata este artigo poderá ser feita mediante vista dos autos, com imediata remessa ao representante judicial da Fazenda Pública, pelo cartório ou secretaria.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6830/1980 — Brasil",
+    "dispositivo": "Art. 25",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6830.htm",
+    "vigencia": {
+      "inicio": "1980-09-22",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 11.960/2009 (art. 40, § 5º)"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "execucao_fiscal",
+    "divida_ativa",
+    "prescricao_intercorrente"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre a cobrança judicial da Dívida Ativa da Fazenda Pública, e dá outras providências."
+}

@@ -1,0 +1,36 @@
+{
+  "chunk_id": "lei-federal-11101-2005::215-art-164",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 164",
+  "numero": "164",
+  "caminho_hierarquico": [
+    "CAPÍTULO VI",
+    "Art. 164"
+  ],
+  "texto": "Art. 164. Recebido o pedido de homologação do plano de recuperação extrajudicial previsto nos arts. 162 e 163 desta Lei, o juiz ordenará a publicação de edital no órgão oficial e em jornal de grande circulação nacional ou das localidades da sede e das filiais do devedor, convocando todos os credores do devedor para apresentação de suas impugnações ao plano de recuperação extrajudicial, observado o § 3º deste artigo.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO VI › Art. 164",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-11101-2005::065-art-50",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 50",
+  "numero": "50",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Seção I",
+    "Art. 50"
+  ],
+  "texto": "Art. 50. Constituem meios de recuperação judicial, observada a legislação pertinente a cada caso, dentre outros:\n\nI – concessão de prazos e condições especiais para pagamento das obrigações vencidas ou vincendas;\n\nII – cisão, incorporação, fusão ou transformação de sociedade, constituição de subsidiária integral, ou cessão de cotas ou ações, respeitados os direitos dos sócios, nos termos da legislação vigente;\n\nIII – alteração do controle societário;\n\nIV – substituição total ou parcial dos administradores do devedor ou modificação de seus órgãos administrativos;\n\nV – concessão aos credores de direito de eleição em separado de administradores e de poder de veto em relação às matérias que o plano especificar;\n\nVI – aumento de capital social;\n\nVII – trespasse ou arrendamento de estabelecimento, inclusive à sociedade constituída pelos próprios empregados;\n\nVIII – redução salarial, compensação de horários e redução da jornada, mediante acordo ou convenção coletiva;\n\nIX – dação em pagamento ou novação de dívidas do passivo, com ou sem constituição de garantia própria ou de terceiro;\n\nX – constituição de sociedade de credores;\n\nXI – venda parcial dos bens;\n\nXII – equalização de encargos financeiros relativos a débitos de qualquer natureza, tendo como termo inicial a data da distribuição do pedido de recuperação judicial, aplicando-se inclusive aos contratos de crédito rural, sem prejuízo do disposto em legislação específica;\n\nXIII – usufruto da empresa;\n\nXIV – administração compartilhada;\n\nXV – emissão de valores mobiliários;\n\nXVI – constituição de sociedade de propósito específico para adjudicar, em pagamento dos créditos, os ativos do devedor.\n\nXVII - conversão de dívida em capital social;     (Incluído pela Lei nº 14.112, de 2020)    (Vigência)\n\nXVIII - venda integral da devedora, desde que garantidas aos credores não submetidos ou não aderentes condições, no mínimo, equivalentes àquelas que teriam na falência, hipótese em que será, para todos os fins, considerada unidade produtiva isolada.     (Incluído pela Lei nº 14.112, de 2020)    (Vigência)\n\n§ 1º Na alienação de bem objeto de garantia real, a supressão da garantia ou sua substituição somente serão admitidas mediante aprovação expressa do credor titular da respectiva garantia.\n\n§ 2º Nos créditos em moeda estrangeira, a variação cambial será conservada como parâmetro de indexação da correspondente obrigação e só poderá ser afastada se o credor titular do respectivo crédito aprovar expressamente previsão diversa no plano de recuperação judicial.\n\n§ 3º Não haverá sucessão ou responsabilidade por dívidas de qualquer natureza a terceiro credor, investidor ou novo administrador em decorrência, respectivamente, da mera conversão de dívida em capital, de aporte de novos recursos na devedora ou de substituição dos administradores desta.      (Incluído pela Lei nº 14.112, de 2020)   (Vigência)\n\n§ 4º O imposto sobre a renda e a Contribuição Social sobre o Lucro Líquido (CSLL) incidentes sobre o ganho de capital resultante da alienação de bens ou direitos pela pessoa jurídica em recuperação judicial poderão ser parcelados, com atualização monetária das parcelas, observado o seguinte:       (Incluído pela Lei nº 14.112, de 2020)    (Vigência)\n\nI - o disposto na Lei nº 10.522, de 19 de julho de 2002; e        (Incluído pela Lei nº 14.112, de 2020)    (Vigência)\n\nII - a utilização, como limite, da mediana de alongamento no plano de recuperação judicial em relação aos créditos a ele sujeitos.       (Incluído pela Lei nº 14.112, de 2020)    (Vigência)\n\n§ 5º O limite de alongamento de prazo a que se refere o inciso II do § 4º deste artigo será readequado na hipótese de alteração superveniente do plano de recuperação judicial.      (Incluído pela Lei nº 14.112, de 2020)     (Vigência)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO III › Seção I › Art. 50",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

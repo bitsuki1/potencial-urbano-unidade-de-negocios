@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::422-art-250",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 250",
+  "numero": "250",
+  "caminho_hierarquico": [
+    "TÍTULO V",
+    "CAPÍTULO VIII",
+    "Art. 250"
+  ],
+  "texto": "Art. 250 - Far-se-á o cancelamento:                      (incluído pela Lei nº 6.216, de 1975)\n\nI - em cumprimento de decisão judicial transitada em julgado;                        (incluído pela Lei nº 6.216, de 1975)\n\nII - a requerimento unânime das partes que tenham participado do ato registrado, se capazes, com as firmas reconhecidas por tabelião;                       (incluído pela Lei nº 6.216, de 1975)\n\nIII - A requerimento do interessado, instruído com documento hábil.                        (incluído pela Lei nº 6.216, de 1975)\n\nIV - a requerimento da Fazenda Pública, instruído com certidão de conclusão de processo administrativo que declarou, na forma da lei, a rescisão do título de domínio ou de concessão de direito real de uso de imóvel rural, expedido para fins de regularização fundiária, e a reversão do imóvel ao patrimônio público.         (Incluído pela Lei nº 11.952, de 2009)\n\nParágrafo único.  Para fins do disposto no inciso III do caput, nos casos de aforamento concedido pela União, considera-se documento hábil a certidão da Secretaria do Patrimônio da União do Ministério do Planejamento, Desenvolvimento e Gestão.                     (Incluído pela Medida Provisória nº 759, de 2016)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO V › CAPÍTULO VIII › Art. 250",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

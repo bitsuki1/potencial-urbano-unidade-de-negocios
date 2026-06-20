@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::128-art-92",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 92",
+  "numero": "92",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO X",
+    "Art. 92"
+  ],
+  "texto": "Art. 92. As interdições serão registradas no mesmo cartório e no mesmo livro de que trata o artigo 89, salvo a hipótese prevista na parte final do parágrafo único do artigo 33, declarando-se:                         (Renumerado do art. 93 pela Lei nº 6.216, de 1975).\n\n1º) data do registro;\n\n2º) nome, prenome, idade, estado civil, profissão, naturalidade, domicílio e residência do interdito, data e cartório em que forem registrados o nascimento e o casamento, bem como o nome do cônjuge, se for casado;\n\n3º) data da sentença, nome e vara do Juiz que a proferiu;\n\n4º) nome, profissão, estado civil, domicílio e residência do curador;\n\n5º) nome do requerente da interdição e causa desta;\n\n6º) limites da curadoria, quando for parcial a interdição;\n\n7º) lugar onde está internado o interdito.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO II › CAPÍTULO X › Art. 92",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

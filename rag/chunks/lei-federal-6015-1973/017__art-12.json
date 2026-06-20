@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::017-art-12",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 12",
+  "numero": "12",
+  "caminho_hierarquico": [
+    "TÍTULO I",
+    "CAPÍTULO III",
+    "Art. 12"
+  ],
+  "texto": "Art. 12. Nenhuma exigência fiscal, ou dúvida, obstará a apresentação de um título e o seu lançamento do Protocolo com o respectivo número de ordem, nos casos em que da precedência decorra prioridade de direitos para o apresentante.\n\nParágrafo único. Independem de apontamento no Protocolo os títulos apresentados apenas para exame e cálculo dos respectivos emolumentos.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO I › CAPÍTULO III › Art. 12",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::234-art-175",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 175",
+  "numero": "175",
+  "caminho_hierarquico": [
+    "TÍTULO V",
+    "CAPÍTULO II",
+    "Art. 175"
+  ],
+  "texto": "Art. 175 - São requisitos da escrituração do Livro nº 1 - Protocolo:                 (Renumerado do art. 172 parágrafo único para artigo autônomo com nova redação pela Lei nº 6.216, de 1975).\n\nI - o número de ordem, que seguirá indefinidamente nos livros da mesma espécie;\n\nII - a data da apresentação;\n\nIII - o nome do apresentante;\n\nIV - a natureza formal do título;\n\nV - os atos que formalizar, resumidamente mencionados.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO V › CAPÍTULO II › Art. 175",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

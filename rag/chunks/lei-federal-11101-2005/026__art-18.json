@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-11101-2005::026-art-18",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 18",
+  "numero": "18",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção II",
+    "Art. 18"
+  ],
+  "texto": "Art. 18. O administrador judicial será responsável pela consolidação do quadro-geral de credores, a ser homologado pelo juiz, com base na relação dos credores a que se refere o art. 7º , § 2º , desta Lei e nas decisões proferidas nas impugnações oferecidas.\n\nParágrafo único. O quadro-geral, assinado pelo juiz e pelo administrador judicial, mencionará a importância e a classificação de cada crédito na data do requerimento da recuperação judicial ou da decretação da falência, será juntado aos autos e publicado no órgão oficial, no prazo de 5 (cinco) dias, contado da data da sentença que houver julgado as impugnações.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO II › Seção II › Art. 18",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

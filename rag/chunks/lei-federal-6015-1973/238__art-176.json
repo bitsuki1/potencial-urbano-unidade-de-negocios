@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::238-art-176",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 176",
+  "numero": "176",
+  "caminho_hierarquico": [
+    "TÍTULO V",
+    "CAPÍTULO II",
+    "Art. 176"
+  ],
+  "texto": "Art. 176-A. O registro de aquisição originária ensejará a abertura de matrícula relativa ao imóvel adquirido, se não houver, ou quando:     (Redação dada pela Lei nº 14.620, de 2023)\n\nI - atingir parte de imóvel objeto de registro anterior; ou        (Incluído pela Lei nº 14.620, de 2023)\n\nII - atingir, total ou parcialmente, mais de um imóvel objeto de registro anterior.       (Incluído pela Lei nº 14.620, de 2023)\n\n§ 1º A matrícula será aberta com base em planta e memorial utilizados na instrução do procedimento administrativo ou judicial que ensejou a aquisição, os quais assegurarão a descrição e a caracterização objetiva do imóvel e as benfeitorias, nos termos do art. 176 desta Lei.    (Redação dada pela Lei nº 14.273, de 2021)    Vigência\n\n§ 1º  A matrícula será aberta com base em planta e memorial descritivo do imóvel utilizados na instrução do procedimento administrativo ou judicial que ensejou a aquisição.      (Redação dada pela Lei nº 14.620, de 2023)\n\n§ 2º As matrículas atingidas serão encerradas ou receberão averbação dos desfalques, caso necessário, dispensada a retificação da planta e do memorial descritivo da área remanescente.    (Redação dada pela Lei nº 14.273, de 2021)    Vigência\n\n§ 2º  As matrículas atingidas deverão, conforme o caso, ser encerradas ou receber averbação dos respectivos desfalques, dispensada, para esse fim, a retificação do memorial descritivo da área remanescente.      (Redação dada pela Lei nº 14.620, de 2023)\n\n§ 3º (VETADO).    (Redação dada pela Lei nº 14.273, de 2021)    Vigência\n\n§ 4º Na hipótese de a área adquirida em caráter originário ser maior do que a área constante do registro existente, a informação sobre a diferença apurada será averbada na matrícula aberta.    (Redação dada pela Lei nº 14.273, de 2021)    Vigência\n\n§ 4º  Se a área adquirida em caráter originário for maior do que a constante do registro existente, a informação sobre a diferença apurada será averbada na matrícula aberta.       (Redação dada pela Lei nº 14.620, de 2023)\n\n§ 4º-A. Eventuais divergências entre a descrição do imóvel constante do registro e aquela apresentada pelo requerente não obstarão o registro.      (Incluído pela Lei nº 14.620, de 2023)\n\n§ 5º O disposto no caput deste artigo aplica-se ao registro de:    (Incluído pela Lei nº 14.273, de 2021)    Vigência\n\n§ 5º  O disposto neste artigo aplica-se, sem prejuízo de outros, ao registro de:      (Redação dada pela Lei nº 14.620, de 2023)\n\nI - ato de imissão provisória na posse, em procedimento de desapropriação;     (Incluído pela Lei nº 14.273, de 2021)    Vigência\n\nII - carta de adjudicação, em procedimento judicial de desapropriação;    (Incluído pela Lei nº 14.273, de 2021)    Vigência\n\nIII - escritura pública, termo ou contrato administrativo, em procedimento extrajudicial de desapropriação.     (Incluído pela Lei nº 14.273, de 2021)    Vigência\n\nIV - aquisição de área por usucapião ou por concessão de uso especial para fins de moradia;      (Incluído pela Lei nº 14.620, de 2023)\n\nV - sentença judicial de aquisição de imóvel, em procedimento expropriatório de que tratam os §§ 4º e 5º do art. 1.228 da Lei nº 10.406, de 10 de janeiro de 2002 (Código Civil).       (Incluído pela Lei nº 14.620, de 2023)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO V › CAPÍTULO II › Art. 176",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-4591-1964::021-art-18",
+  "lei_id": "lei-federal-4591-1964",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 18",
+  "numero": "18",
+  "caminho_hierarquico": [
+    "TÍTULO I",
+    "Capítulo IV",
+    "Art. 18"
+  ],
+  "texto": "Art. 18. A desapropriação de edificações ou conjuntos de edificações abrangerá sempre a sua totalidade, com todas as suas dependências, indenizando-se os proprietários das unidades expropriadas.                       (Redação dada pela Lei nº 4.864, de 29.11.1965)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 4591/1964 — Brasil",
+    "dispositivo": "TÍTULO I › Capítulo IV › Art. 18",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l4591.htm",
+    "vigencia": {
+      "inicio": "1964-12-16",
+      "fim": null,
+      "revogada_por": "parcialmente — a parte de condomínio convive com o Código Civil/2002 (arts. 1.331 e ss.)",
+      "altera": [],
+      "alterada_por": [
+        "Código Civil/2002 (Lei 10.406/2002)",
+        "Lei 10.931/2004 (patrimônio de afetação)",
+        "Lei 4.864/1965"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "condominio_edilicio",
+    "incorporacao_imobiliaria",
+    "unidade_autonoma"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
+}

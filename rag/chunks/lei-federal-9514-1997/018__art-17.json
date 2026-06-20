@@ -1,0 +1,36 @@
+{
+  "chunk_id": "lei-federal-9514-1997::018-art-17",
+  "lei_id": "lei-federal-9514-1997",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 17",
+  "numero": "17",
+  "caminho_hierarquico": [
+    "CAPÍTULO I",
+    "Seção VII",
+    "Art. 17"
+  ],
+  "texto": "Art. 17. As operações de financiamento imobiliário em geral poderão ser garantidas por:\n\nI - hipoteca;\n\nII - cessão fiduciária de direitos creditórios decorrentes de contratos de alienação de imóveis;\n\nIII - caução de direitos creditórios ou aquisitivos decorrentes de contratos de venda ou promessa de venda de imóveis;\n\nIV - alienação fiduciária de coisa imóvel.\n\n§ 1º As garantias a que se referem os incisos II, III e IV deste artigo constituem direito real sobre os respectivos objetos.\n\n§ 2º Aplicam-se à caução dos direitos creditórios a que se refere o inciso III deste artigo as disposições dos arts. 789 a 795 do Código Civil.\n\n§ 3º As operações do SFI que envolvam locação poderão ser garantidas suplementarmente por anticrese.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 9514/1997 — Brasil",
+    "dispositivo": "CAPÍTULO I › Seção VII › Art. 17",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l9514.htm",
+    "vigencia": {
+      "inicio": "1997-11-20",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 13.043/2014",
+        "Lei 13.465/2017",
+        "Lei 14.620/2023"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "alienacao_fiduciaria",
+    "sistema_financiamento_imobiliario"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre o Sistema de Financiamento Imobiliário, institui a alienação fiduciária de coisa imóvel e dá outras providências."
+}

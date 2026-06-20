@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::486-art-288",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 288",
+  "numero": "288",
+  "caminho_hierarquico": [
+    "TÍTULO V",
+    "CAPÍTULO XII",
+    "Art. 288"
+  ],
+  "texto": "Art. 288-G.  Na hipótese de procedimento de demarcação urbanística, o registro do parcelamento decorrente de projeto de regularização fundiária de interesse social será feito em todas as matrículas nas quais o auto de demarcação urbanística estiver averbado, devendo ser informadas, quando possível, as parcelas correspondentes a cada matrícula.                          (Incluído pela Lei nº 12.424, de 2011)                    (Revogado pela Medida Provisória nº 759, de 2016)                   (Revogado pela Lei nº 13.465, de 2017\n\n§ 1o  No procedimento de demarcação urbanística, admite-se o registro de parcelamento decorrente de projeto de regularização fundiária ainda que a área parcelada, correspondente ao auto de demarcação urbanística, supere a área disponível nos registros anteriores, não se aplicando neste caso o disposto no § 2o do art. 225.                       (Incluído pela Lei nº 12.424, de 2011)                     (Revogado pela Medida Provisória nº 759, de 2016)   (Revogado pela Lei nº 13.465, de 2017\n\n§ 2o  Nas matrículas abertas para cada parcela deverão constar, nos campos referentes ao registro anterior e ao proprietário:                          (Incluído pela Lei nº 12.424, de 2011)                     (Revogado pela Medida Provisória nº 759, de 2016)                  (Revogado pela Lei nº 13.465, de 2017\n\nI - quando for possível identificar a exata origem da parcela matriculada, por meio de planta de sobreposição do parcelamento com os registros existentes, a matrícula anterior e o nome de seu proprietário;                         (Incluído pela Lei nº 12.424, de 2011)      (Revogado pela Medida Provisória nº 759, de 2016)                    (Revogado pela Lei nº 13.465, de 2017\n\nII - quando não for possível identificar a exata origem da parcela matriculada, todas as matrículas anteriores atingidas pelo auto e a expressão “proprietário não identificado”, dispensando-se neste caso os requisitos dos itens 4 e 5 do inciso II do art. 167.                     (Incluído pela Lei nº 12.424, de 2011)                      (Revogado pela Medida Provisória nº 759, de 2016)                  (Revogado pela Lei nº 13.465, de 2017\n\n§ 3o  Nas matrículas abertas para as áreas destinadas a uso público, deverá ser observado o mesmo procedimento definido no § 2o.                      (Incluído pela Lei nº 12.424, de 2011)                  (Revogado pela Medida Provisória nº 759, de 2016)   (Revogado pela Lei nº 13.465, de 2017\n\n§ 4o  O título de legitimação de posse e a conversão da legitimação de posse em propriedade serão registrados na matrícula da parcela correspondente.                       (Incluído pela Lei nº 12.424, de 2011)                        (Revogado pela Medida Provisória nº 759, de 2016)                   (Revogado pela Lei nº 13.465, de 2017\n\nTÍTULO VI\nDo Registro da Propriedade Literária, Científica e Artística",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO V › CAPÍTULO XII › Art. 288",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::365-art-228",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 228",
+  "numero": "228",
+  "caminho_hierarquico": [
+    "TÍTULO V",
+    "CAPÍTULO V",
+    "Art. 228"
+  ],
+  "texto": "Art. 228. Para efeito do disposto no artigo anterior, os tabeliães, escrivães e Juízes farão com que, nas escrituras e, nos autos judiciais, as partes indiquem, com precisão, as confrontações e a localização dos imóveis, mencionando os nomes dos confrontantes e, ainda, quando se tratar só de terreno, se este fica do lado par ou do lado ímpar do logradouro, em que quadra e a que distância métrica da edificação ou de esquina mais próxima, exigindo dos interessados, certidão do registro imobiliário.\n\n§ 1º As mesmas minúcias com relação à caracterização do imóvel devem constar dos instrumentos particulares apresentados em cartório para registro.\n\n§ 2º Consideram-se irregulares para efeito de matrícula, os títulos nos quais a caracterização do imóvel não coincida com a que consta do registro anterior.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO V › CAPÍTULO V › Art. 228",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

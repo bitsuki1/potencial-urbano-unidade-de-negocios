@@ -1,0 +1,33 @@
+{
+  "chunk_id": "lei-federal-6830-1980::008-art-7o",
+  "lei_id": "lei-federal-6830-1980",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 7º",
+  "numero": "7",
+  "caminho_hierarquico": [
+    "Art. 7º"
+  ],
+  "texto": "Art. 7º - O despacho do Juiz que deferir a inicial importa em ordem para:\n\nI - citação, pelas sucessivas modalidades previstas no artigo 8º;\n\nII - penhora, se não for paga a dívida, nem garantida a execução, por meio de depósito ou fiança;\n\nII - penhora, se não for paga a dívida, nem garantida a execução, por meio de depósito, fiança ou seguro garantia;                    (Redação dada pela Lei nº 13.043, de 2014)\n\nIII - arresto, se o executado não tiver domicílio ou dele se ocultar;\n\nIV - registro da penhora ou do arresto, independentemente do pagamento de custas ou outras despesas, observado o disposto no artigo 14; e\n\nV - avaliação dos bens penhorados ou arrestados.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6830/1980 — Brasil",
+    "dispositivo": "Art. 7º",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6830.htm",
+    "vigencia": {
+      "inicio": "1980-09-22",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 11.960/2009 (art. 40, § 5º)"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "execucao_fiscal",
+    "divida_ativa",
+    "prescricao_intercorrente"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre a cobrança judicial da Dívida Ativa da Fazenda Pública, e dá outras providências."
+}

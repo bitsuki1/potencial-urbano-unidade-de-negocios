@@ -1,0 +1,36 @@
+{
+  "chunk_id": "lei-federal-9514-1997::012-art-11",
+  "lei_id": "lei-federal-9514-1997",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 11",
+  "numero": "11",
+  "caminho_hierarquico": [
+    "CAPÍTULO I",
+    "Seção VI",
+    "Art. 11"
+  ],
+  "texto": "Art. 11. Os créditos objeto do regime fiduciário:            (Revogado pela Medida Provisória nº 1.103, de 2022)    (Revogado pela Lei nº 14.430, de 2022)\n\nI - constituem patrimônio separado, que não se confunde com o da companhia securitizadora;     (Revogado pela Medida Provisória nº 1.103, de 2022)    (Revogado pela Lei nº 14.430, de 2022)\n\nII - manter-se-ão apartados do patrimônio da companhia securitizadora até que se complete o resgate de todos os títulos da série a que estejam afetados;       (Revogado pela Medida Provisória nº 1.103, de 2022)    (Revogado pela Lei nº 14.430, de 2022)\n\nIII - destinam-se exclusivamente à liquidação dos títulos a que estiverem afetados, bem como ao pagamento dos respectivos custos de administração e de obrigações fiscais;      (Revogado pela Medida Provisória nº 1.103, de 2022)    (Revogado pela Lei nº 14.430, de 2022)\n\nIV - estão isentos de qualquer ação ou execução pelos credores da companhia securitizadora;      (Revogado pela Medida Provisória nº 1.103, de 2022)    (Revogado pela Lei nº 14.430, de 2022)\n\nV - não são passíveis de constituição de garantias ou de excussão por quaisquer dos credores da companhia securitizadora, por mais privilegiados que sejam;       (Revogado pela Medida Provisória nº 1.103, de 2022)    (Revogado pela Lei nº 14.430, de 2022)\n\nVI - só responderão pelas obrigações inerentes aos títulos a ele afetados.      (Revogado pela Medida Provisória nº 1.103, de 2022)    (Revogado pela Lei nº 14.430, de 2022)\n\n§ 1º No Termo de Securitização de Créditos, poderá ser conferido aos beneficiários e demais credores do patrimônio separado, se este se tornar insuficiente, o direito de haverem seus créditos contra o patrimônio da companhia securitizadora.     (Revogado pela Medida Provisória nº 1.103, de 2022)    (Revogado pela Lei nº 14.430, de 2022)\n\n§ 2º Uma vez assegurado o direito de que trata o parágrafo anterior, a companhia securitizadora, sempre que se verificar insuficiência do patrimônio separado, promoverá a respectiva recomposição, mediante aditivo ao Termo de Securitização de Créditos, nele incluindo outros créditos imobiliários, com observância dos requisitos previstos nesta seção.      (Revogado pela Medida Provisória nº 1.103, de 2022)    (Revogado pela Lei nº 14.430, de 2022)\n\n§ 3º A realização dos direitos dos beneficiários limitar-se-á aos créditos imobiliários integrantes do patrimônio separado, salvo se tiverem sido constituídas garantias adicionais por terceiros.      (Revogado pela Medida Provisória nº 1.103, de 2022)    (Revogado pela Lei nº 14.430, de 2022)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 9514/1997 — Brasil",
+    "dispositivo": "CAPÍTULO I › Seção VI › Art. 11",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l9514.htm",
+    "vigencia": {
+      "inicio": "1997-11-20",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 13.043/2014",
+        "Lei 13.465/2017",
+        "Lei 14.620/2023"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "alienacao_fiduciaria",
+    "sistema_financiamento_imobiliario"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre o Sistema de Financiamento Imobiliário, institui a alienação fiduciária de coisa imóvel e dá outras providências."
+}

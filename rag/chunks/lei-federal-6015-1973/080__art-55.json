@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::080-art-55",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 55",
+  "numero": "55",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO IV",
+    "Art. 55"
+  ],
+  "texto": "Art. 55. Quando o declarante não indicar o nome completo, o oficial lançará adiante do prenome escolhido o nome do pai, e na falta, o da mãe, se forem conhecidos e não o impedir a condição de ilegitimidade, salvo reconhecimento no ato.                     (Renumerado do art. 56, pela Lei nº 6.216, de 1975).\n\nParágrafo único. Os oficiais do registro civil não registrarão prenomes suscetíveis de expor ao ridículo os seus portadores. Quando os pais não se conformarem com a recusa do oficial, este submeterá por escrito o caso, independente da cobrança de quaisquer emolumentos, à decisão do Juiz competente.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO II › CAPÍTULO IV › Art. 55",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-11101-2005::093-art-69",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 69",
+  "numero": "69",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Seção IV",
+    "Art. 69"
+  ],
+  "texto": "Art. 69. Em todos os atos, contratos e documentos firmados pelo devedor sujeito ao procedimento de recuperação judicial deverá ser acrescida, após o nome empresarial, a expressão \"em Recuperação Judicial\".\n\nParágrafo único. O juiz determinará ao Registro Público de Empresas a anotação da recuperação judicial no registro correspondente.\n\nParágrafo único. O juiz determinará ao Registro Público de Empresas e à Secretaria Especial da Receita Federal do Brasil a anotação da recuperação judicial nos registros correspondentes.      (Redação dada pela Lei nº 14.112, de 2020)    (Vigência)\n\nSeção IV-A\n\n(Incluído pela Lei nº 14.112, de 2020)   (Vigência)\n\nDo Financiamento do Devedor e do Grupo Devedor durante a Recuperação Judicial’",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO III › Seção IV › Art. 69",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

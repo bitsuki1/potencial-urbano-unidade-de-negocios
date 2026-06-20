@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::448-art-265",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 265",
+  "numero": "265",
+  "caminho_hierarquico": [
+    "TÍTULO V",
+    "CAPÍTULO IX",
+    "Art. 265"
+  ],
+  "texto": "Art. 265. Quando o bem de família for instituído juntamente com a transmissão da propriedade (Decreto-Lei nº 3.200, de 19 de abril de 1941, art. 8°, § 5º), a inscrição far-se-á imediatamente após o registro da transmissão ou, se for o caso, com a matrícula.                      (Renumerado do art. 266, pela Lei nº 6.216, de 1975)\n\nCAPÍTULO X\nDa Remição do Imóvel Hipotecado",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO V › CAPÍTULO IX › Art. 265",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

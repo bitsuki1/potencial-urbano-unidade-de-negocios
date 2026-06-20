@@ -1,0 +1,33 @@
+{
+  "chunk_id": "lei-federal-6830-1980::030-art-29",
+  "lei_id": "lei-federal-6830-1980",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 29",
+  "numero": "29",
+  "caminho_hierarquico": [
+    "Art. 29"
+  ],
+  "texto": "Art. 29 - A cobrança judicial da Dívida Ativa da Fazenda Pública não é sujeita a concurso de credores ou habilitação em falência, concordata, liquidação, inventário ou arrolamento.      (Vide ADPF 357)\n\nParágrafo Único - O concurso de preferência somente se verifica entre pessoas jurídicas de direito público, na seguinte ordem:      (Vide ADPF 357)\n\nI - União e suas autarquias;       (Vide ADPF 357)\n\nII - Estados, Distrito Federal e Territórios e suas autarquias, conjuntamente e pro rata;       (Vide ADPF 357)\n\nIII - Municípios e suas autarquias, conjuntamente e pro rata.      (Vide ADPF 357)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6830/1980 — Brasil",
+    "dispositivo": "Art. 29",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6830.htm",
+    "vigencia": {
+      "inicio": "1980-09-22",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 11.960/2009 (art. 40, § 5º)"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "execucao_fiscal",
+    "divida_ativa",
+    "prescricao_intercorrente"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre a cobrança judicial da Dívida Ativa da Fazenda Pública, e dá outras providências."
+}

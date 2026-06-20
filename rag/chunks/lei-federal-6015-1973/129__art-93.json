@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::129-art-93",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 93",
+  "numero": "93",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO X",
+    "Art. 93"
+  ],
+  "texto": "Art. 93. A comunicação, com os dados necessários, acompanhados de certidão de sentença, será remetida pelo Juiz ao cartório para registro de ofício, se o curador ou promovente não o tiver feito dentro de oito (8) dias.               (Renumerado do art. 94  pela Lei nº 6.216, de 1975).\n\nParágrafo único. Antes de registrada a sentença, não poderá o curador assinar o respectivo termo.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO II › CAPÍTULO X › Art. 93",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

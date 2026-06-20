@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::371-art-225",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 225",
+  "numero": "225",
+  "caminho_hierarquico": [
+    "TÍTULO V",
+    "CAPÍTULO VI",
+    "Art. 225"
+  ],
+  "texto": "Art. 225. A matrícula será efetuada por ocasião do primeiro registro a ser lançado na vigência da presente Lei, mediante os elementos constantes do título apresentado e do registro anterior no mesmo mencionado, preenchidos os requisitos do artigo 227.\n\n§ 1º Se o registro anterior foi efetuado em outro cartório, a matrícula será aberta com os elementos que constarem do título apresentado e de certidão atualizada do mencionado registro e da inexistência de ônus, caso em que a certidão ficará arquivada em cartório.\n\n§ 2° Na matrícula aberta será lançado, na mesma ocasião, o primeiro registro, com os elementos que constarem do título apresentado.                     (Suprimido pela Lei nº 6.216, de 1975).\n\n§ 3º Pela matrícula só se cobrarão custas nos casos previstos nos artigos 226 e 231.                       (Suprimido pela Lei nº 6.216, de 1975).",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO V › CAPÍTULO VI › Art. 225",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-11101-2005::150-art-108",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 108",
+  "numero": "108",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Seção VII",
+    "Art. 108"
+  ],
+  "texto": "Art. 108. Ato contínuo à assinatura do termo de compromisso, o administrador judicial efetuará a arrecadação dos bens e documentos e a avaliação dos bens, separadamente ou em bloco, no local em que se encontrem, requerendo ao juiz, para esses fins, as medidas necessárias.\n\n§ 1º Os bens arrecadados ficarão sob a guarda do administrador judicial ou de pessoa por ele escolhida, sob responsabilidade daquele, podendo o falido ou qualquer de seus representantes ser nomeado depositário dos bens.\n\n§ 2º O falido poderá acompanhar a arrecadação e a avaliação.\n\n§ 3º O produto dos bens penhorados ou por outra forma apreendidos entrará para a massa, cumprindo ao juiz deprecar, a requerimento do administrador judicial, às autoridades competentes, determinando sua entrega.\n\n§ 4º Não serão arrecadados os bens absolutamente impenhoráveis.\n\n§ 5º Ainda que haja avaliação em bloco, o bem objeto de garantia real será também avaliado separadamente, para os fins do § 1º do art. 83 desta Lei.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO V › Seção VII › Art. 108",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

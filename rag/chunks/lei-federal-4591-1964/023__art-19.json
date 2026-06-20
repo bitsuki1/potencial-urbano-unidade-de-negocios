@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-4591-1964::023-art-19",
+  "lei_id": "lei-federal-4591-1964",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 19",
+  "numero": "19",
+  "caminho_hierarquico": [
+    "TÍTULO I",
+    "Capítulo V",
+    "Art. 19"
+  ],
+  "texto": "Art. 19. Cada condômino tem o direito de usar e fruir, com exclusividade, de sua unidade autônoma, segundo suas conveniências e interêsses, condicionados, umas e outros às normas de boa vizinhança, e poderá usar as partes e coisas comuns de maneira a não causar dano ou incômodo aos demais condôminos ou moradores, nem obstáculo ou embaraço ao bom uso das mesmas partes por todos.\n\nParágrafo único. (VETADO).",
+  "citacao": {
+    "norma": "lei_ordinaria nº 4591/1964 — Brasil",
+    "dispositivo": "TÍTULO I › Capítulo V › Art. 19",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l4591.htm",
+    "vigencia": {
+      "inicio": "1964-12-16",
+      "fim": null,
+      "revogada_por": "parcialmente — a parte de condomínio convive com o Código Civil/2002 (arts. 1.331 e ss.)",
+      "altera": [],
+      "alterada_por": [
+        "Código Civil/2002 (Lei 10.406/2002)",
+        "Lei 10.931/2004 (patrimônio de afetação)",
+        "Lei 4.864/1965"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "condominio_edilicio",
+    "incorporacao_imobiliaria",
+    "unidade_autonoma"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
+}

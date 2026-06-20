@@ -1,0 +1,33 @@
+{
+  "chunk_id": "lei-federal-4591-1964::001-preambulo",
+  "lei_id": "lei-federal-4591-1964",
+  "tipo_dispositivo": "preambulo",
+  "rotulo": "Preâmbulo",
+  "numero": null,
+  "caminho_hierarquico": [],
+  "texto": "Presidência da República\nCasa Civil\nSubchefia para Assuntos Jurídicos\n\nLEI Nº 4.591, DE 16 DE DEZEMBRO DE 1964.\n\nTexto compilado\n\n(Vide Decreto nº 55.815, de 1965)\n(Vide arts 1331 a 1358 da Lei nº 10.406, de 10.1.2002)\n(Vide Lei nº 12.973, de 2014)\n\nMensagem de veto\n\n\t\n\nDispõe sôbre o condomínio em edificações e as incorporações imobiliárias.\n\nO PRESIDENTE DA REPÚBLICA, faço saber que o CONGRESSO NACIONAL decreta e eu sanciono a seguinte Lei:\n\nTÍTULO I\n\nDO CONDOMÍNIO",
+  "citacao": {
+    "norma": "lei_ordinaria nº 4591/1964 — Brasil",
+    "dispositivo": "Preâmbulo",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l4591.htm",
+    "vigencia": {
+      "inicio": "1964-12-16",
+      "fim": null,
+      "revogada_por": "parcialmente — a parte de condomínio convive com o Código Civil/2002 (arts. 1.331 e ss.)",
+      "altera": [],
+      "alterada_por": [
+        "Código Civil/2002 (Lei 10.406/2002)",
+        "Lei 10.931/2004 (patrimônio de afetação)",
+        "Lei 4.864/1965"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "condominio_edilicio",
+    "incorporacao_imobiliaria",
+    "unidade_autonoma"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
+}

@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::356-art-220",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 220",
+  "numero": "220",
+  "caminho_hierarquico": [
+    "TÍTULO V",
+    "CAPÍTULO IV",
+    "Art. 220"
+  ],
+  "texto": "Art. 220 - São considerados, para fins de escrituração, credores e devedores, respectivamente:    (Renumerado do art. 221 com nova redação pela Lei nº 6.216, de 1975).\n\nI - nas servidões, o dono do prédio dominante e dono do prédio serviente;\n\nII - no uso, o usuário e o proprietário;\n\nIII - na habitação, o habitante e proprietário;\n\nIV - na anticrese, o mutuante e mutuário;\n\nV - no usufruto, o usufrutuário e nu-proprietário;\n\nVI - na enfiteuse, o senhorio e o enfiteuta;\n\nVII - na constituição de renda, o beneficiário e o rendeiro censuário;\n\nVIII - na locação, o locatário e o locador;\n\nIX - nas promessas de compra e venda, o promitente comprador e o promitente vendedor;\n\nX - nas penhoras e ações, o autor e o réu;\n\nXI - nas cessões de direitos, o cessionário e o cedente;\n\nXII - nas promessas de cessão de direitos, o promitente cessionário e o promitente cedente.\n\nCAPÍTULO V\nDos Títulos",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO V › CAPÍTULO IV › Art. 220",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

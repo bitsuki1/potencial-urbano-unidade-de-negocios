@@ -1,0 +1,36 @@
+{
+  "chunk_id": "lei-federal-11101-2005::283-art-201",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 201",
+  "numero": "201",
+  "caminho_hierarquico": [
+    "CAPÍTULO VIII",
+    "Art. 201"
+  ],
+  "texto": "Art. 201. Esta Lei entra em vigor 120 (cento e vinte) dias após sua publicação.\n\nBrasília, 9 de fevereiro de 2005; 184º da Independência e 117º da República.\n\nLUIZ INÁCIO LULA DA SILVA\n\nMárcio Thomaz Bastos\n\nAntonio Palloci Filho\n\nRicardo José Ribeiro Berzoini\n\nLuiz Fernando Furlan\n\nEste texto não substitui o publicado no DOU de 9.2.2005 - Edição extra",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO VIII › Art. 201",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-4591-1964::055-art-34",
+  "lei_id": "lei-federal-4591-1964",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 34",
+  "numero": "34",
+  "caminho_hierarquico": [
+    "Título II",
+    "CAPÍTULO II",
+    "Art. 34"
+  ],
+  "texto": "Art. 34. O incorporador poderá fixar, para efetivação da incorporação, prazo de carência, dentro do qual lhe é lícito desistir do empreendimento.\n\n§ 1º A fixação do prazo de carência será feita pela declaração a que se refere a alínea \"n\", do art. 32 onde se fixem as condições que autorizarão o incorporador a desistir do empreendimento.\n\n§ 2º Em caso algum poderá o prazo de carência ultrapassar o têrmo final do prazo da validade do registro ou, se fôr o caso, de sua revalidação.\n\n§ 3º Os documentos preliminares de ajuste, se houver, mencionarão, obrigatòriamente, o prazo de carência, inclusive para efeitos do art. 45.\n\n§ 4º A desistência da incorporação será denunciada, por escrito, ao Registro de Imóveis ... (VETADO) ... e comunicada, por escrito, a cada um dos adquirentes ou candidatos à aquisição, sob pena de responsabilidade civil e criminal do incorporador.\n\n§ 5º Será averbada no registro da incorporação a desistência de que trata o parágrafo anterior arquivando-se em cartório o respectivo documento.\n\n§ 6º O prazo de carência é improrrogável.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 4591/1964 — Brasil",
+    "dispositivo": "Título II › CAPÍTULO II › Art. 34",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l4591.htm",
+    "vigencia": {
+      "inicio": "1964-12-16",
+      "fim": null,
+      "revogada_por": "parcialmente — a parte de condomínio convive com o Código Civil/2002 (arts. 1.331 e ss.)",
+      "altera": [],
+      "alterada_por": [
+        "Código Civil/2002 (Lei 10.406/2002)",
+        "Lei 10.931/2004 (patrimônio de afetação)",
+        "Lei 4.864/1965"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "condominio_edilicio",
+    "incorporacao_imobiliaria",
+    "unidade_autonoma"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
+}

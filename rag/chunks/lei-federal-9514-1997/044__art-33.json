@@ -1,0 +1,35 @@
+{
+  "chunk_id": "lei-federal-9514-1997::044-art-33",
+  "lei_id": "lei-federal-9514-1997",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 33",
+  "numero": "33",
+  "caminho_hierarquico": [
+    "CAPÍTULO II-A",
+    "Art. 33"
+  ],
+  "texto": "Art. 33-C.  O credor original deverá fornecer a terceiros, sempre que formalmente solicitado pelo mutuário, as informações sobre o crédito que se fizerem necessárias para viabilizar a transferência referida no art. 33-A. (Incluído pela Lei nº 12.810, de 2013)\n\nParágrafo único.  O credor original não poderá realizar ações que impeçam, limitem ou dificultem o fornecimento das informações requeridas na forma do caput.       (Incluído pela Lei nº 12.810, de 2013)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 9514/1997 — Brasil",
+    "dispositivo": "CAPÍTULO II-A › Art. 33",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l9514.htm",
+    "vigencia": {
+      "inicio": "1997-11-20",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 13.043/2014",
+        "Lei 13.465/2017",
+        "Lei 14.620/2023"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "alienacao_fiduciaria",
+    "sistema_financiamento_imobiliario"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre o Sistema de Financiamento Imobiliário, institui a alienação fiduciária de coisa imóvel e dá outras providências."
+}

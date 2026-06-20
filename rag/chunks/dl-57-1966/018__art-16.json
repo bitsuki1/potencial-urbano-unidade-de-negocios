@@ -1,0 +1,34 @@
+{
+  "chunk_id": "dl-57-1966::018-art-16",
+  "lei_id": "dl-57-1966",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 16",
+  "numero": "16",
+  "caminho_hierarquico": [
+    "Art. 16"
+  ],
+  "texto": "Art 16. Os loteamentos das áreas situadas fora da zona urbana, referidos no parágrafo 2º do art. 32 da Lei 5.172 de 25 de outubro de 1966, só serão permitidos quando atendido o disposto no art. 61 da Lei 4.504, de 30 de novembro de 1964.",
+  "citacao": {
+    "norma": "decreto_lei nº 57/1966 — Brasil",
+    "dispositivo": "Art. 16",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del0057.htm",
+    "vigencia": {
+      "inicio": "1966-11-18",
+      "fim": null,
+      "revogada_por": "art. 15 revogado pela Lei 5.868/1972 (art. 12), mas execução dessa revogação SUSPENSA pela Res. Senado Federal nº 9/2005 (decisão STF) — art. 15 aplicável",
+      "altera": [
+        "Lei 5.172/1966 (CTN) — modula alcance do art. 32"
+      ],
+      "alterada_por": [
+        "Lei 5.868/1972 (revogação do art. 15, posteriormente suspensa pela Res. SF 9/2005)"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "ITR",
+    "destinacao_economica"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Altera dispositivos sobre lançamento e cobrança do Imposto sobre a Propriedade Territorial Rural, institui normas sobre arrecadação da Dívida Ativa correspondente, e dá outras providências."
+}

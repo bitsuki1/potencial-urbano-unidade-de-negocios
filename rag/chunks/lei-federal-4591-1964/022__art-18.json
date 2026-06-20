@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-4591-1964::022-art-18",
+  "lei_id": "lei-federal-4591-1964",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 18",
+  "numero": "18",
+  "caminho_hierarquico": [
+    "TÍTULO I",
+    "Capítulo IV",
+    "Art. 18"
+  ],
+  "texto": "Art. 18. A aquisição parcial de uma edificação, ou de um conjunto de edificações, ainda que por fôrça de desapropriação, importará no ingresso do adquirente no condomínio, ficando sujeito às disposições desta lei, bem assim às da convenção do condomínio e do regulamento interno.                       (Redação dada pela Decreto-Lei nº 981, de 21.10.1969)\n\nCapítulo V\n\nUtilização da Edificação ou do Conjunto de Edificações",
+  "citacao": {
+    "norma": "lei_ordinaria nº 4591/1964 — Brasil",
+    "dispositivo": "TÍTULO I › Capítulo IV › Art. 18",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l4591.htm",
+    "vigencia": {
+      "inicio": "1964-12-16",
+      "fim": null,
+      "revogada_por": "parcialmente — a parte de condomínio convive com o Código Civil/2002 (arts. 1.331 e ss.)",
+      "altera": [],
+      "alterada_por": [
+        "Código Civil/2002 (Lei 10.406/2002)",
+        "Lei 10.931/2004 (patrimônio de afetação)",
+        "Lei 4.864/1965"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "condominio_edilicio",
+    "incorporacao_imobiliaria",
+    "unidade_autonoma"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
+}

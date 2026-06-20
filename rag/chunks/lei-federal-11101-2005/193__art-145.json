@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-11101-2005::193-art-145",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 145",
+  "numero": "145",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Seção X",
+    "Art. 145"
+  ],
+  "texto": "Art. 145. Por deliberação tomada nos termos do art. 42 desta Lei, os credores poderão adjudicar os bens alienados na falência ou adquiri-los por meio de constituição de sociedade, de fundo ou de outro veículo de investimento, com a participação, se necessária, dos atuais sócios do devedor ou de terceiros, ou mediante conversão de dívida em capital.    (Redação dada pela Lei nº 14.112, de 2020)   (Vigência)\n\n§ 1º Aplica-se irrestritamente o disposto no art. 141 desta Lei à transferência dos bens à sociedade, ao fundo ou ao veículo de investimento mencionados no caput deste artigo.     (Redação dada pela Lei nº 14.112, de 2020)    (Vigência)\n\n§ 2º (Revogado).     (Redação dada pela Lei nº 14.112, de 2020)    (Vigência)\n\n§ 3º (Revogado).    (Redação dada pela Lei nº 14.112, de 2020)    (Vigência)\n\n§ 4º Será considerada não escrita qualquer restrição convencional à venda ou à circulação das participações na sociedade, no fundo de investimento ou no veículo de investimento a que se refere o caput deste artigo.       (Incluído pela Lei nº 14.112, de 2020)    (Vigência)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO V › Seção X › Art. 145",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

@@ -6,7 +6,11 @@
   "numero": "8668",
   "ano": 1993,
   "ementa": "Dispõe sobre a constituição e o regime tributário dos Fundos de Investimento Imobiliário e dá outras providências.",
-  "tema": ["IPTU", "fundo_investimento_imobiliario", "propriedade_fiduciaria"],
+  "tema": [
+    "IPTU",
+    "fundo_investimento_imobiliario",
+    "propriedade_fiduciaria"
+  ],
   "dispositivos_chave": [
     "Art. 1º — institui o FII (comunhão de recursos destinada a empreendimentos imobiliários; condomínio fechado).",
     "Art. 7º — propriedade fiduciária dos imóveis pela instituição administradora; segregação patrimonial em relação ao patrimônio da administradora."
@@ -16,7 +20,10 @@
     "fim": null,
     "revogada_por": null,
     "altera": [],
-    "alterada_por": ["Lei 9.779/1999", "Lei 14.130/2021"]
+    "alterada_por": [
+      "Lei 9.779/1999",
+      "Lei 14.130/2021"
+    ]
   },
   "remissoes": [
     "CVM — regulação dos FII",
@@ -31,9 +38,12 @@
     "origem": "web-oficial",
     "url": "https://www.planalto.gov.br/ccivil_03/leis/l8668.htm",
     "hash": null,
-    "ocr": false
+    "ocr": false,
+    "path": "_entrada/misto/lei-federal-8668-1993.txt",
+    "metodo": "VERBATIM DE TELA (planalto); re-ingerido de _entrada/misto/ em 2026-06-20 (AUD-01)",
+    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior."
   },
-  "status_pipeline": "bruto",
-  "confianca_extracao": "media",
+  "status_pipeline": "indexado",
+  "confianca_extracao": "alta",
   "revisado_por_humano": false
 }

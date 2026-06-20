@@ -1,0 +1,33 @@
+{
+  "chunk_id": "lei-federal-6830-1980::020-art-19",
+  "lei_id": "lei-federal-6830-1980",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 19",
+  "numero": "19",
+  "caminho_hierarquico": [
+    "Art. 19"
+  ],
+  "texto": "Art. 19 - Não sendo embargada a execução ou sendo rejeitados os embargos, no caso de garantia prestada por terceiro, será este intimado, sob pena de contra ele prosseguir a execução nos próprios autos, para, no prazo de 15 (quinze) dias:\n\nI - remir o bem, se a garantia for real; ou\n\nII - pagar o valor da dívida, juros e multa de mora e demais encargos, indicados na Certidão de Divida Ativa pelos quais se obrigou se a garantia for fidejussória.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6830/1980 — Brasil",
+    "dispositivo": "Art. 19",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6830.htm",
+    "vigencia": {
+      "inicio": "1980-09-22",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 11.960/2009 (art. 40, § 5º)"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "execucao_fiscal",
+    "divida_ativa",
+    "prescricao_intercorrente"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre a cobrança judicial da Dívida Ativa da Fazenda Pública, e dá outras providências."
+}

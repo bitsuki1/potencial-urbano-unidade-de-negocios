@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::123-art-87",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 87",
+  "numero": "87",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO IX",
+    "Art. 87"
+  ],
+  "texto": "Art. 87. O assentamento de óbito ocorrido em hospital, prisão ou outro qualquer estabelecimento público será feito, em falta de declaração de parentes, segundo a da respectiva administração, observadas as disposições dos artigos 80 a 83; e o relativo a pessoa encontrada acidental ou violentamente morta, segundo a comunicação, ex oficio, das autoridades policiais, às quais incumbe fazê-la logo que tenham conhecimento do fato.                  (Renumerado do art. 88, pela Lei nº 6.216, de 1975).",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO II › CAPÍTULO IX › Art. 87",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

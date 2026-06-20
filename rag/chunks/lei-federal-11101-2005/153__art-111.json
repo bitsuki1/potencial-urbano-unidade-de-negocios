@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-11101-2005::153-art-111",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 111",
+  "numero": "111",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Seção VII",
+    "Art. 111"
+  ],
+  "texto": "Art. 111. O juiz poderá autorizar os credores, de forma individual ou coletiva, em razão dos custos e no interesse da massa falida, a adquirir ou adjudicar, de imediato, os bens arrecadados, pelo valor da avaliação, atendida a regra de classificação e preferência entre eles, ouvido o Comitê.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO V › Seção VII › Art. 111",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

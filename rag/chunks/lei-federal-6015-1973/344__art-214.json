@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::344-art-214",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 214",
+  "numero": "214",
+  "caminho_hierarquico": [
+    "TÍTULO V",
+    "CAPÍTULO III",
+    "Art. 214"
+  ],
+  "texto": "Art. 214 - As nulidades de pleno direito do registro, uma vez provadas, invalidam-no, independentemente de ação direta.                      (Renumerado do art. 215 com nova redação pela Lei nº 6.216, de 1975).\n\n§ 1o A nulidade será decretada depois de ouvidos os atingidos.                     (Incluído pela Lei nº 10.931, de 2004)\n\n§ 2o Da decisão tomada no caso do § 1o caberá apelação ou agravo conforme o caso.                   (Incluído pela Lei nº 10.931, de 2004)\n\n§ 3o Se o juiz entender que a superveniência de novos registros poderá causar danos de difícil reparação poderá determinar de ofício, a qualquer momento, ainda que sem oitiva das partes, o bloqueio da matrícula do imóvel.        (Incluído pela Lei nº 10.931, de 2004)\n\n§ 4o Bloqueada a matrícula, o oficial não poderá mais nela praticar qualquer ato, salvo com autorização judicial, permitindo-se, todavia, aos interessados a prenotação de seus títulos, que ficarão com o prazo prorrogado até a solução do bloqueio.         (Incluído pela Lei nº 10.931, de 2004)\n\n§ 5o A nulidade não será decretada se atingir terceiro de boa-fé que já tiver preenchido as condições de usucapião do imóvel.                      (Incluído pela Lei nº 10.931, de 2004)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO V › CAPÍTULO III › Art. 214",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

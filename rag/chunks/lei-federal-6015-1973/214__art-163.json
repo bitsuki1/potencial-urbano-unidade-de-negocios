@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::214-art-163",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 163",
+  "numero": "163",
+  "caminho_hierarquico": [
+    "TÍTULO IV",
+    "CAPÍTULO IV",
+    "Art. 163"
+  ],
+  "texto": "Art. 163. Os tabeliães e escrivão, nos atos que praticarem, farão sempre referência ao livro e à folha do registro de títulos e documentos em que tenham sido trasladados os mandatos de origem estrangeira, a que tenham de reportar-se.                   (Renumerado do art. 164 pela Lei nº 6.216, de 1975).\n\nCAPÍTULO V\nDo Cancelamento",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO IV › CAPÍTULO IV › Art. 163",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

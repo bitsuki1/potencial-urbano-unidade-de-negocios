@@ -1,0 +1,36 @@
+{
+  "chunk_id": "lei-federal-11101-2005::110-art-73",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 73",
+  "numero": "73",
+  "caminho_hierarquico": [
+    "CAPÍTULO IV",
+    "Art. 73"
+  ],
+  "texto": "Art. 73. O juiz decretará a falência durante o processo de recuperação judicial:\n\nI – por deliberação da assembléia-geral de credores, na forma do art. 42 desta Lei;\n\nII – pela não apresentação, pelo devedor, do plano de recuperação no prazo do art. 53 desta Lei;\n\nIII – quando houver sido rejeitado o plano de recuperação, nos termos do § 4º do art. 56 desta Lei;\n\nIII - quando não aplicado o disposto nos §§ 4º, 5º e 6º do art. 56 desta Lei, ou rejeitado o plano de recuperação judicial proposto pelos credores, nos termos do § 7º do art. 56 e do art. 58-A desta Lei;     (Redação dada pela Lei nº 14.112, de 2020)    (Vigência)\n\nIV – por descumprimento de qualquer obrigação assumida no plano de recuperação, na forma do § 1º do art. 61 desta Lei.\n\nV - por descumprimento dos parcelamentos referidos no art. 68 desta Lei ou da transação prevista no art. 10-C da Lei nº 10.522, de 19 de julho de 2002; e       (Incluído pela Lei nº 14.112, de 2020)   (Vigência)\n\nVI - quando identificado o esvaziamento patrimonial da devedora que implique liquidação substancial da empresa, em prejuízo de credores não sujeitos à recuperação judicial, inclusive as Fazendas Públicas.   (Incluído pela Lei nº 14.112, de 2020)    (Vigência)\n\nParágrafo único. O disposto neste artigo não impede a decretação da falência por inadimplemento de obrigação não sujeita à recuperação judicial, nos termos dos incisos I ou II do caput do art. 94 desta Lei, ou por prática de ato previsto no inciso III do caput do art. 94 desta Lei.\n\n§ 1º. O disposto neste artigo não impede a decretação da falência por inadimplemento de obrigação não sujeita à recuperação judicial, nos termos dos incisos I ou II do caput do art. 94 desta Lei, ou por prática de ato previsto no inciso III do caput do art. 94 desta Lei.     (Redação dada pela Lei nº 14.112, de 2020)    (Vigência)\n\n§ 2º A hipótese prevista no inciso VI do caput deste artigo não implicará a invalidade ou a ineficácia dos atos, e o juiz determinará o bloqueio do produto de eventuais alienações e a devolução ao devedor dos valores já distribuídos, os quais ficarão à disposição do juízo.       (Incluído pela Lei nº 14.112, de 2020)    (Vigência)\n\n§ 3º Considera-se substancial a liquidação quando não forem reservados bens, direitos ou projeção de fluxo de caixa futuro suficientes à manutenção da atividade econômica para fins de cumprimento de suas obrigações, facultada a realização de perícia específica para essa finalidade.     (Incluído pela Lei nº 14.112, de 2020)    (Vigência)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO IV › Art. 73",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

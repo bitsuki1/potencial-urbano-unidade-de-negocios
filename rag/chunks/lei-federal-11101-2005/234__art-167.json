@@ -1,0 +1,36 @@
+{
+  "chunk_id": "lei-federal-11101-2005::234-art-167",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 167",
+  "numero": "167",
+  "caminho_hierarquico": [
+    "CAPÍTULO VI-A",
+    "Art. 167"
+  ],
+  "texto": "Art. 167-O. Ao conceder ou denegar uma das medidas previstas nos arts. 167-L e 167-N desta Lei, bem como ao modificá-las ou revogá-las nos termos do § 2º deste artigo, o juiz deverá certificar-se de que o interesse dos credores, do devedor e de terceiros interessados será adequadamente protegido.    (Incluído pela Lei nº 14.112, de 2020)     (Vigência)\n\n§ 1º O juiz poderá condicionar a concessão das medidas previstas nos arts. 167-L e 167-N desta Lei ao atendimento de condições que considerar apropriadas.  (Incluído pela Lei nº 14.112, de 2020)    (Vigência)\n\n§ 2º A pedido de qualquer interessado, do representante estrangeiro ou de ofício, o juiz poderá modificar ou revogar, a qualquer momento, medidas concedidas com fundamento nos arts. 167-L e 167-N desta Lei.(Incluído pela Lei nº 14.112, de 2020)    (Vigência)\n\n§ 3º Com o reconhecimento do processo estrangeiro, tanto principal quanto não principal, o representante estrangeiro poderá ajuizar medidas com o objetivo de tornar ineficazes quaisquer atos realizados, nos termos dos arts. 129 e 130, observado ainda o disposto no art. 131, todos desta Lei.    (Incluído pela Lei nº 14.112, de 2020)     (Vigência)\n\n§ 4º No caso de processo estrangeiro não principal, a ineficácia referida no § 3º deste artigo dependerá da verificação, pelo juiz, de que, de acordo com a lei brasileira, os bens devam ser submetidos à disciplina aplicável ao processo estrangeiro não principal.     (Incluído pela Lei nº 14.112, de 2020)    (Vigência)\n\nSeção IV\n\n(Incluído pela Lei nº 14.112, de 2020)     (Vigência)\n\nDa Cooperação com Autoridades e Representantes Estrangeiros",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO VI-A › Art. 167",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

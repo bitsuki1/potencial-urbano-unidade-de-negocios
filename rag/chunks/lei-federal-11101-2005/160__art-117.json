@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-11101-2005::160-art-117",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 117",
+  "numero": "117",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Seção VIII",
+    "Art. 117"
+  ],
+  "texto": "Art. 117. Os contratos bilaterais não se resolvem pela falência e podem ser cumpridos pelo administrador judicial se o cumprimento reduzir ou evitar o aumento do passivo da massa falida ou for necessário à manutenção e preservação de seus ativos, mediante autorização do Comitê.\n\n§ 1º O contratante pode interpelar o administrador judicial, no prazo de até 90 (noventa) dias, contado da assinatura do termo de sua nomeação, para que, dentro de 10 (dez) dias, declare se cumpre ou não o contrato.\n\n§ 2º A declaração negativa ou o silêncio do administrador judicial confere ao contraente o direito à indenização, cujo valor, apurado em processo ordinário, constituirá crédito quirografário.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO V › Seção VIII › Art. 117",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::106-art-73",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 73",
+  "numero": "73",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO VII",
+    "Art. 73"
+  ],
+  "texto": "Art. 73. No prazo de trinta dias a contar da realização, o celebrante ou qualquer interessado poderá, apresentando o assento ou termo do casamento religioso, requerer-lhe o registro ao oficial do cartório que expediu a certidão.                       (Renumerado do art. 74, pela Lei nº 6.216, de 1975).\n\n§ 1° Anotada a entrada do requerimento, o oficial fará o registro no prazo de vinte e quatro (24) horas.\n\n§ 2º Se o documento referente à celebração do casamento religioso omitir requisito que dele deva constar, os contraentes suprirão a falta mediante declaração por ambos assinada, ou mediante declaração tomada por termo pelo oficial.\n\n§ 1º O assento ou termo conterá a data da celebração, o lugar, o culto religioso, o nome do celebrante, sua qualidade, o cartório que expediu a habilitação, sua data, os nomes, profissões, residências, nacionalidades das testemunhas que o assinarem e os nomes dos contraentes.                           (Redação dada pela Lei nº 6.216, de 1975).\n\n§ 2º Anotada a entrada do requerimento o oficial fará o registro no prazo de 24 (vinte e quatro) horas.                      (Redação dada pela Lei nº 6.216, de 1975).\n\n§ 3º A autoridade ou ministro celebrante arquivará a certidão de habilitação que lhe foi apresentada, devendo, nela, anotar a data da celebração do casamento.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO II › CAPÍTULO VII › Art. 73",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

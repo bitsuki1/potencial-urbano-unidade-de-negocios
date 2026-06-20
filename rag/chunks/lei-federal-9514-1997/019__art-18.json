@@ -1,0 +1,36 @@
+{
+  "chunk_id": "lei-federal-9514-1997::019-art-18",
+  "lei_id": "lei-federal-9514-1997",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 18",
+  "numero": "18",
+  "caminho_hierarquico": [
+    "CAPÍTULO I",
+    "Seção VII",
+    "Art. 18"
+  ],
+  "texto": "Art. 18. O contrato de cessão fiduciária em garantia opera a transferência ao credor da titularidade dos créditos cedidos, até a liquidação da dívida garantida, e conterá, além de outros elementos, os seguintes:\n\nI - o total da dívida ou sua estimativa;\n\nII - o local, a data e a forma de pagamento;\n\nIII - a taxa de juros;\n\nIV - a identificação dos direitos creditórios objeto da cessão fiduciária.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 9514/1997 — Brasil",
+    "dispositivo": "CAPÍTULO I › Seção VII › Art. 18",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l9514.htm",
+    "vigencia": {
+      "inicio": "1997-11-20",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 13.043/2014",
+        "Lei 13.465/2017",
+        "Lei 14.620/2023"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "alienacao_fiduciaria",
+    "sistema_financiamento_imobiliario"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre o Sistema de Financiamento Imobiliário, institui a alienação fiduciária de coisa imóvel e dá outras providências."
+}

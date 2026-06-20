@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::357-art-222",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 222",
+  "numero": "222",
+  "caminho_hierarquico": [
+    "TÍTULO V",
+    "CAPÍTULO V",
+    "Art. 222"
+  ],
+  "texto": "Art. 222. São admitidos a registro unicamente:\n\na) escrituras públicas, inclusive as lavradas em consulados brasileiros;\n\nb) escritos particulares autorizado em lei, assinados pelas partes e testemunhas, com as firmas reconhecidas, dispensado o reconhecimento quando se tratar de atos praticados por entidades vinculadas ao Sistema Financeiro de Habitação;\n\nc) atos autênticos de países estrangeiros, com força de instrumento público, legalizados e traduzidos competentemente no idioma nacional e registrados no cartório de registro de títulos e documentos;\n\nd) cartas de sentença, mandados, formais de partilha e certidões extraídos de autos de processo.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO V › CAPÍTULO V › Art. 222",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

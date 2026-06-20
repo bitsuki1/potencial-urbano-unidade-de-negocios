@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::379-art-233",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 233",
+  "numero": "233",
+  "caminho_hierarquico": [
+    "TÍTULO V",
+    "CAPÍTULO VI",
+    "Art. 233"
+  ],
+  "texto": "Art. 233 - A matrícula será cancelada:                    (Renumerado do art. 230 com nova redação pela Lei nº 6.216, de 1975).\n\nI - por decisão judicial;\n\nII - quando em virtude de alienação parciais, o imóvel for inteiramente transferido a outros proprietários;\n\nIII - pela fusão, nos termos do artigo seguinte.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO V › CAPÍTULO VI › Art. 233",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

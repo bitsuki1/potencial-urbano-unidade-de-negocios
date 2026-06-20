@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-11101-2005::016-art-10",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 10",
+  "numero": "10",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção II",
+    "Art. 10"
+  ],
+  "texto": "Art. 10. Não observado o prazo estipulado no art. 7º , § 1º , desta Lei, as habilitações de crédito serão recebidas como retardatárias.\n\n§ 1º Na recuperação judicial, os titulares de créditos retardatários, excetuados os titulares de créditos derivados da relação de trabalho, não terão direito a voto nas deliberações da assembléia-geral de credores.\n\n§ 2º Aplica-se o disposto no § 1º deste artigo ao processo de falência, salvo se, na data da realização da assembléia-geral, já houver sido homologado o quadro-geral de credores contendo o crédito retardatário.\n\n§ 3º Na falência, os créditos retardatários perderão o direito a rateios eventualmente realizados e ficarão sujeitos ao pagamento de custas, não se computando os acessórios compreendidos entre o término do prazo e a data do pedido de habilitação.\n\n§ 4º Na hipótese prevista no § 3º deste artigo, o credor poderá requerer a reserva de valor para satisfação de seu crédito.\n\n§ 5º As habilitações de crédito retardatárias, se apresentadas antes da homologação do quadro-geral de credores, serão recebidas como impugnação e processadas na forma dos arts. 13 a 15 desta Lei.\n\n§ 6º Após a homologação do quadro-geral de credores, aqueles que não habilitaram seu crédito poderão, observado, no que couber, o procedimento ordinário previsto no Código de Processo Civil, requerer ao juízo da falência ou da recuperação judicial a retificação do quadro-geral para inclusão do respectivo crédito.\n\n§ 7º O quadro-geral de credores será formado com o julgamento das impugnações tempestivas e com as habilitações e as impugnações retardatárias decididas até o momento da sua formação.    (Incluído pela Lei nº 14.112, de 2020)     (Vigência)\n\n§ 8º As habilitações e as impugnações retardatárias acarretarão a reserva do valor para a satisfação do crédito discutido.     (Incluído pela Lei nº 14.112, de 2020)     (Vigência)\n\n§ 9º A recuperação judicial poderá ser encerrada ainda que não tenha havido a consolidação definitiva do quadro-geral de credores, hipótese em que as ações incidentais de habilitação e de impugnação retardatárias serão redistribuídas ao juízo da recuperação judicial como ações autônomas e observarão o rito comum.       (Incluído pela Lei nº 14.112, de 2020)     (Vigência)\n\n§ 10. O credor deverá apresentar pedido de habilitação ou de reserva de crédito em, no máximo, 3 (três) anos, contados da data de publicação da sentença que decretar a falência, sob pena de decadência.   (Incluído pela Lei nº 14.112, de 2020)     (Vigência)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO II › Seção II › Art. 10",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

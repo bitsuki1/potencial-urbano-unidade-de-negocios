@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-4591-1964::079-art-50",
+  "lei_id": "lei-federal-4591-1964",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 50",
+  "numero": "50",
+  "caminho_hierarquico": [
+    "Título II",
+    "CAPíTULO III",
+    "Seção I",
+    "Art. 50"
+  ],
+  "texto": "Art. 50. Será designada no contrato de construção ou eleita em assembleia geral a ser realizada por iniciativa do incorporador no prazo de até 6 (seis) meses, contado da data do registro do memorial de incorporação, uma comissão de representantes composta por, no mínimo, 3 (três) membros escolhidos entre os adquirentes para representá-los perante o construtor ou, no caso previsto no art. 43 desta Lei, o incorporador, em tudo o que interessar ao bom andamento da incorporação e, em especial, perante terceiros, para praticar os atos resultantes da aplicação do disposto nos art. 31-A a art. 31-F desta Lei.       (Redação dada pela Lei nº 14.382, de 2022)\n\n§ 1º Uma vez eleita a Comissão, cuja constituição se comprovará com a ata da assembléia, devidamente inscrita no Registro de Títulos e Documentos, esta ficará de pleno direito investida dos podêres necessários para exercer tôdas as atribuições e praticar todos os atos que esta Lei e o contrato de construção lhe deferirem, sem necessidade de instrumento especial outorgado pelos contratantes ou se fôr caso, pelos que se sub-rogarem nos direitos e obrigações dêstes.\n\n§ 2º A assembléia poderá revogar, pela maioria absoluta dos votos dos contratantes, qualquer decisão da Comissão, ressalvados os direitos de terceiros quanto aos efeitos já produzidos.\n\n§ 2º -A assembléia geral poderá, pela maioria absoluta dos votos dos adquirentes, alterar a composição da Comissão de Representantes e revogar qualquer de suas decisões, ressalvados os direitos de terceiros quanto aos efeitos já produzidos.                 (Redação dada pela Medida Provisória nº 2.221, de 2001)                    Revogado pela Lei nº 10.931, de 2004\n\n§ 2o A assembléia geral poderá, pela maioria absoluta dos votos dos adquirentes, alterar a composição da Comissão de Representantes e revogar qualquer de suas decisões, ressalvados os direitos de terceiros quanto aos efeitos já produzidos.                 (Redação dada pela Lei 10.931, de 2004)\n\n§ 3º Respeitados os limites constantes desta Lei, o contrato poderá discriminar as atribuições da Comissão e deverá dispor sôbre os mandatos de seus membros, sua destituição e a forma de preenchimento das vagas eventuais, sendo lícita a estipulação de que o mandato conferido a qualquer membro, no caso de sub-rogação de seu contrato a terceiros, se tenha por transferido, de pleno direito, ao sub-rogatário, salvo se êste não o aceitar.\n\n§ 4º Nas incorporações em que o número de contratantes de unidades fôr igual ou inferior a 3, a totalidade dêles exercerá, em conjunto as atribuições que esta Lei confere à Comissão, aplicando-se, no que couber, o disposto nos parágrafos anteriores.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 4591/1964 — Brasil",
+    "dispositivo": "Título II › CAPíTULO III › Seção I › Art. 50",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l4591.htm",
+    "vigencia": {
+      "inicio": "1964-12-16",
+      "fim": null,
+      "revogada_por": "parcialmente — a parte de condomínio convive com o Código Civil/2002 (arts. 1.331 e ss.)",
+      "altera": [],
+      "alterada_por": [
+        "Código Civil/2002 (Lei 10.406/2002)",
+        "Lei 10.931/2004 (patrimônio de afetação)",
+        "Lei 4.864/1965"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "condominio_edilicio",
+    "incorporacao_imobiliaria",
+    "unidade_autonoma"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
+}

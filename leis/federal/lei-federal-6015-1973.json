@@ -6,7 +6,13 @@
   "numero": "6015",
   "ano": 1973,
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências.",
-  "tema": ["IPTU", "registros_publicos", "registro_de_imoveis", "matricula", "titularidade"],
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
   "dispositivos_chave": [
     "Registro de Imóveis — matrícula, registros (transmissão, hipoteca, alienação fiduciária, incorporação, instituição de condomínio) e averbações; arts. 167 e ss. enumeram os atos.",
     "Princípios da continuidade, especialidade e prioridade registral."
@@ -16,7 +22,11 @@
     "fim": null,
     "revogada_por": null,
     "altera": [],
-    "alterada_por": ["Lei 14.382/2022 (SERP)", "Lei 13.465/2017", "diversas leis posteriores"]
+    "alterada_por": [
+      "Lei 14.382/2022 (SERP)",
+      "Lei 13.465/2017",
+      "diversas leis posteriores"
+    ]
   },
   "remissoes": [
     "Lei 9.514/1997 (registro da alienação fiduciária)",
@@ -32,9 +42,12 @@
     "origem": "web-oficial",
     "url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
     "hash": null,
-    "ocr": false
+    "ocr": false,
+    "path": "_entrada/misto/lei-federal-6015-1973.txt",
+    "metodo": "VERBATIM DE TELA (planalto); re-ingerido de _entrada/misto/ em 2026-06-20 (AUD-01)",
+    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior."
   },
-  "status_pipeline": "bruto",
-  "confianca_extracao": "media",
+  "status_pipeline": "indexado",
+  "confianca_extracao": "alta",
   "revisado_por_humano": false
 }

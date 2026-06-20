@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::393-art-237",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 237",
+  "numero": "237",
+  "caminho_hierarquico": [
+    "TÍTULO V",
+    "CAPÍTULO VII",
+    "Art. 237"
+  ],
+  "texto": "Art. 237-A. Após o registro do parcelamento do solo, na modalidade loteamento ou na modalidade desmembramento, e da incorporação imobiliária, de condomínio edilício ou de condomínio de lotes, até que tenha sido averbada a conclusão das obras de infraestrutura ou da construção, as averbações e os registros relativos à pessoa do loteador ou do incorporador ou referentes a quaisquer direitos reais, inclusive de garantias, cessões ou demais negócios jurídicos que envolvam o empreendimento e suas unidades, bem como a própria averbação da conclusão do empreendimento, serão realizados na matrícula de origem do imóvel a ele destinado e replicados, sem custo adicional, em cada uma das matrículas recipiendárias dos lotes ou das unidades autônomas eventualmente abertas.   (Redação dada pela Lei nº 14.382, de 2022)\n\n§ 1o  Para efeito de cobrança de custas e emolumentos, as averbações e registros realizados com base no caput serão considerados como ato de registro único, não importando a quantidade de unidades autônomas envolvidas ou de atos intermediários existentes.                       (Incluído pela Medida Provisória nº 459, de 2009)\n\n§ 1o  Para efeito de cobrança de custas e emolumentos, as averbações e os registros realizados com base no caput serão considerados como ato de registro único, não importando a quantidade de unidades autônomas envolvidas ou de atos intermediários existentes.                       (Incluído pela Lei nº 11.977, de 2009)\n\n§ 1o  Para efeito de cobrança de custas e emolumentos, as averbações e os registros relativos ao mesmo ato jurídico ou negócio jurídico e realizados com base no caput serão considerados como ato de registro único, não importando a quantidade de unidades autônomas envolvidas ou de atos intermediários existentes.                       (Redação dada pela Lei nº 12.424, de 2011)\n\n§ 1º Para efeito de cobrança de custas e emolumentos, as averbações e os registros relativos ao mesmo ato jurídico ou negócio jurídico e realizados com base no caput deste artigo serão considerados ato de registro único, não importando a quantidade de lotes ou de unidades autônomas envolvidas ou de atos intermediários existentes.   (Redação dada pela Lei nº 14.382, de 2022)\n\n§ 2o  Nos registros decorrentes de processo de parcelamento do solo ou de incorporação imobiliária, o registrador deverá observar o prazo máximo de quinze dias para o fornecimento do número do registro ao interessado ou a indicação das pendências a serem satisfeitas para sua efetivação.                          (Incluído pela Medida Provisória nº 459, de 2009)\n\n§ 2o  Nos registros decorrentes de processo de parcelamento do solo ou de incorporação imobiliária, o registrador deverá observar o prazo máximo de 15 (quinze) dias para o fornecimento do número do registro ao interessado ou a indicação das pendências a serem satisfeitas para sua efetivação.                      (Incluído pela Lei nº 11.977, de 2009)\n\n§ 3º O registro da instituição de condomínio ou da especificação do empreendimento constituirá ato único para fins de cobrança de custas e emolumentos.                     (Incluído pela Lei nº 12.424, de 2011)\n\n§ 4º É facultada a abertura de matrícula para cada lote ou fração ideal que corresponderá a determinada unidade autônoma, após o registro do loteamento ou da incorporação imobiliária.   (Incluído pela Lei nº 14.382, de 2022)\n\n§ 5º Na hipótese do § 4º deste artigo, se a abertura da matrícula ocorrer no interesse do serviço, fica vedado o repasse das despesas dela decorrentes ao interessado, mas se a abertura da matrícula ocorrer por requerimento do interessado, o emolumento pelo ato praticado será devido por ele.    (Incluído pela Lei nº 14.382, de 2022)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO V › CAPÍTULO VII › Art. 237",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

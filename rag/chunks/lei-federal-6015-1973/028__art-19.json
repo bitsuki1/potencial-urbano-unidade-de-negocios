@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::028-art-19",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 19",
+  "numero": "19",
+  "caminho_hierarquico": [
+    "TÍTULO I",
+    "CAPÍTULO IV",
+    "Art. 19"
+  ],
+  "texto": "Art. 19. A certidão será lavrada em inteiro teor, em resumo, ou em relatório conforme quesitos e devidamente autenticada pelo oficial ou por seus substitutos legais, não podendo ser retardada por mais de cinco (5) dias.\n\n§ 1º É facultado o fornecimento de certidão de inteiro teor, mediante reprodução por sistema autorizado em lei.\n\n§ 2º A certidão de nascimento mencionará sempre à data em que foi lavrado o assento.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO I › CAPÍTULO IV › Art. 19",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

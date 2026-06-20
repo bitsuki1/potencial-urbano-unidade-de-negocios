@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::132-art-95",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 95",
+  "numero": "95",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO XI",
+    "Art. 95"
+  ],
+  "texto": "Art. 95. Serão registradas no registro de nascimentos as sentenças de legitimação adotiva, consignando-se nele os nomes dos pais adotivos como pais legítimos e os dos ascendentes dos mesmos se já falecidos, ou sendo vivos, se houverem, em qualquer tempo, manifestada por escrito sua adesão ao ato (Lei nº 4.655, de 2 de junho de 1965, art. 6º).                      (Renumerado do art. 96 pela Lei nº 6.216, de 1975).\n\nParágrafo único. O mandado será arquivado, dele não podendo o oficial fornecer certidão, a não ser por determinação judicial e em segredo de justiça, para salvaguarda de direitos (Lei nº 4.655, de 2-6-65, art. 8°, parágrafo único).",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO II › CAPÍTULO XI › Art. 95",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-11101-2005::209-art-159",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 159",
+  "numero": "159",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Seção XII",
+    "Art. 159"
+  ],
+  "texto": "Art. 159-A. A sentença que declarar extintas as obrigações do falido, nos termos do art. 159 desta Lei, somente poderá ser rescindida por ação rescisória, na forma prevista na Lei nº 13.105, de 16 de março de 2015 (Código de Processo Civil), a pedido de qualquer credor, caso se verifique que o falido tenha sonegado bens, direitos ou rendimentos de qualquer espécie anteriores à data do requerimento a que se refere o art. 159 desta Lei.          (Incluído pela Lei nº 14.112, de 2020)     (Vigência)\n\nParágrafo único. O direito à rescisão de que trata o caput deste artigo extinguir-se-á no prazo de 2 (dois) anos, contado da data do trânsito em julgado da sentença de que trata o art. 159 desta Lei.    (Incluído pela Lei nº 14.112, de 2020)    (Vigência)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO V › Seção XII › Art. 159",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

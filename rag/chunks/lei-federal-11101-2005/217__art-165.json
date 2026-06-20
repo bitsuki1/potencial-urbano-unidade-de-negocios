@@ -1,0 +1,36 @@
+{
+  "chunk_id": "lei-federal-11101-2005::217-art-165",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 165",
+  "numero": "165",
+  "caminho_hierarquico": [
+    "CAPÍTULO VI",
+    "Art. 165"
+  ],
+  "texto": "Art. 165. O plano de recuperação extrajudicial produz efeitos após sua homologação judicial.\n\n§ 1º É lícito, contudo, que o plano estabeleça a produção de efeitos anteriores à homologação, desde que exclusivamente em relação à modificação do valor ou da forma de pagamento dos credores signatários.\n\n§ 2º Na hipótese do § 1º deste artigo, caso o plano seja posteriormente rejeitado pelo juiz, devolve-se aos credores signatários o direito de exigir seus créditos nas condições originais, deduzidos os valores efetivamente pagos.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO VI › Art. 165",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

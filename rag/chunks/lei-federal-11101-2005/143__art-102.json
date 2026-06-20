@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-11101-2005::143-art-102",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 102",
+  "numero": "102",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Seção V",
+    "Art. 102"
+  ],
+  "texto": "Art. 102. O falido fica inabilitado para exercer qualquer atividade empresarial a partir da decretação da falência e até a sentença que extingue suas obrigações, respeitado o disposto no § 1º do art. 181 desta Lei.\n\nParágrafo único. Findo o período de inabilitação, o falido poderá requerer ao juiz da falência que proceda à respectiva anotação em seu registro.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO V › Seção V › Art. 102",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-11101-2005::256-art-179",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 179",
+  "numero": "179",
+  "caminho_hierarquico": [
+    "CAPÍTULO VII",
+    "Seção II",
+    "Art. 179"
+  ],
+  "texto": "Art. 179. Na falência, na recuperação judicial e na recuperação extrajudicial de sociedades, os seus sócios, diretores, gerentes, administradores e conselheiros, de fato ou de direito, bem como o administrador judicial, equiparam-se ao devedor ou falido para todos os efeitos penais decorrentes desta Lei, na medida de sua culpabilidade.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO VII › Seção II › Art. 179",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

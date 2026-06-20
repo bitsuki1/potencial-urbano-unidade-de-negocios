@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-4591-1964::028-art-24",
+  "lei_id": "lei-federal-4591-1964",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 24",
+  "numero": "24",
+  "caminho_hierarquico": [
+    "TÍTULO I",
+    "Capítulo VII",
+    "Art. 24"
+  ],
+  "texto": "Art. 24. Haverá, anualmente, uma assembléia geral ordinária dos condôminos, convocada pelo síndico na forma prevista na Convenção, à qual compete, além das demais matérias inscritas na ordem do dia, aprovar, por maioria dos presentes, as verbas para as despesas de condomínio, compreendendo as de conservação da edificação ou conjunto de edificações, manutenção de seus serviços e correlatas.\n\n§ 1º As decisões da assembléia, tomadas, em cada caso, pelo quorum que a Convenção fixar, obrigam todos os condôminos.\n\n§ 2º O síndico, nos oito dias subseqüentes à assembléia, comunicará aos condôminos o que tiver sido deliberado, inclusive no tocante à previsão orçamentária, o rateio das despesas, e promoverá a arrecadação, tudo na forma que a Convenção previr.\n\n§ 3º Nas assembléias gerais, os votos serão proporcionais às frações ideais do terreno e partes comuns, pertencentes a cada condômino, salvo disposição diversa da Convenção.\n\n§ 4° Nas decisões da assembléia que envolvam despesas ordinárias do condomínio, o locatário poderá votar, caso o condômino locador a ela não compareça.                       (Parágrafo incluído pela Lei nº 8.245, de 18.10.1991)\n\n§ 4º Nas decisões da Assembléia que não envolvam despesas extraordinárias do condomínio, o locatário poderá votar, caso o condômino-locador a ela não compareça.                         (Redação dada pela Lei nº 9.267, de 25.3.1996)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 4591/1964 — Brasil",
+    "dispositivo": "TÍTULO I › Capítulo VII › Art. 24",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l4591.htm",
+    "vigencia": {
+      "inicio": "1964-12-16",
+      "fim": null,
+      "revogada_por": "parcialmente — a parte de condomínio convive com o Código Civil/2002 (arts. 1.331 e ss.)",
+      "altera": [],
+      "alterada_por": [
+        "Código Civil/2002 (Lei 10.406/2002)",
+        "Lei 10.931/2004 (patrimônio de afetação)",
+        "Lei 4.864/1965"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "condominio_edilicio",
+    "incorporacao_imobiliaria",
+    "unidade_autonoma"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
+}

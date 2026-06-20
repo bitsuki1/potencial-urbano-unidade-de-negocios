@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-11101-2005::202-art-154",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 154",
+  "numero": "154",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Seção XII",
+    "Art. 154"
+  ],
+  "texto": "Art. 154. Concluída a realização de todo o ativo, e distribuído o produto entre os credores, o administrador judicial apresentará suas contas ao juiz no prazo de 30 (trinta) dias.\n\n§ 1º As contas, acompanhadas dos documentos comprobatórios, serão prestadas em autos apartados que, ao final, serão apensados aos autos da falência.\n\n§ 2º O juiz ordenará a publicação de aviso de que as contas foram entregues e se encontram à disposição dos interessados, que poderão impugná-las no prazo de 10 (dez) dias.\n\n§ 3º Decorrido o prazo do aviso e realizadas as diligências necessárias à apuração dos fatos, o juiz intimará o Ministério Público para manifestar-se no prazo de 5 (cinco) dias, findo o qual o administrador judicial será ouvido se houver impugnação ou parecer contrário do Ministério Público.\n\n§ 4º Cumpridas as providências previstas nos §§ 2º e 3º deste artigo, o juiz julgará as contas por sentença.\n\n§ 5º A sentença que rejeitar as contas do administrador judicial fixará suas responsabilidades, poderá determinar a indisponibilidade ou o seqüestro de bens e servirá como título executivo para indenização da massa.\n\n§ 6º Da sentença cabe apelação.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO V › Seção XII › Art. 154",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

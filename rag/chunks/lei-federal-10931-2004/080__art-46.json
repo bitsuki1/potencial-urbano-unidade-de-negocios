@@ -1,0 +1,43 @@
+{
+  "chunk_id": "lei-federal-10931-2004::080-art-46",
+  "lei_id": "lei-federal-10931-2004",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 46",
+  "numero": "46",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Art. 46"
+  ],
+  "texto": "Art. 46. Nos contratos de comercialização de imóveis, de financiamento imobiliário em geral e nos de arrendamento mercantil de imóveis, bem como nos títulos e valores mobiliários por eles originados, com prazo mínimo de trinta e seis meses, é admitida estipulação de cláusula de reajuste, com periodicidade mensal, por índices de preços setoriais ou gerais ou pelo índice de remuneração básica dos depósitos de poupança.\n\n§ 1º É vedado o pagamento dos valores relativos à atualização monetária apropriados nos títulos e valores mobiliários, quando ocorrer o resgate antecipado, total ou parcial, em prazo inferior ao estabelecido no caput.\n\n§ 2º Os títulos e valores mobiliários a que se refere o caput serão cancelados pelo emitente na hipótese de resgate antecipado em que o prazo a decorrer for inferior a trinta e seis meses.\n\n§ 3º Não se aplica o disposto no § 1º , no caso de quitação ou vencimento antecipados dos créditos imobiliários que lastreiem ou tenham originado a emissão dos títulos e valores mobiliários a que se refere o caput.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 10931/2004 — Brasil",
+    "dispositivo": "CAPÍTULO V › Art. 46",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/lei/l10.931.htm",
+    "vigencia": {
+      "inicio": "2004-08-02",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Decreto-Lei 911/1969",
+        "Lei 4.591/1964 (acresce arts. 31-A a 31-F)",
+        "Lei 4.728/1965",
+        "Lei 10.406/2002 (Código Civil)"
+      ],
+      "alterada_por": [
+        "Lei 13.097/2015",
+        "Lei 14.382/2022"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "patrimonio_de_afetacao",
+    "incorporacao_imobiliaria",
+    "RET",
+    "LCI",
+    "CCI",
+    "CCB"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre o patrimônio de afetação de incorporações imobiliárias, Letra de Crédito Imobiliário, Cédula de Crédito Imobiliário, Cédula de Crédito Bancário, altera o Decreto-Lei nº 911, de 1º de outubro de 1969, as Leis nº 4.591, de 16 de dezembro de 1964, nº 4.728, de 14 de julho de 1965, e nº 10.406, de 10 de janeiro de 2002, e dá outras providências."
+}

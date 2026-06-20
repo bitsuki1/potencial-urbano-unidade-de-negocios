@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::221-art-169",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 169",
+  "numero": "169",
+  "caminho_hierarquico": [
+    "TÍTULO V",
+    "CAPÍTULO I",
+    "Art. 169"
+  ],
+  "texto": "Art. 169. Todos os atos enumerados no artigo 168, são obrigatórios, e as \"inscrições\" e \"transcrições\" nele mencionadas efetuar-se-ão no cartório da situação do imóvel.\n\nParágrafo único. Em se tratando de imóveis situados em comarcas ou circunscrições territoriais limítrofes o registro deverá ser feito em todas elas; o desmembramento territorial posterior não exige, porém, repetição, no novo cartório do registro já feito.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO V › CAPÍTULO I › Art. 169",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

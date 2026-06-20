@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-11101-2005::192-art-145",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 145",
+  "numero": "145",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Seção X",
+    "Art. 145"
+  ],
+  "texto": "Art. 145. O juiz homologará qualquer outra modalidade de realização do ativo, desde que aprovada pela assembléia-geral de credores, inclusive com a constituição de sociedade de credores ou dos empregados do próprio devedor, com a participação, se necessária, dos atuais sócios ou de terceiros.\n\n§ 1º Aplica-se à sociedade mencionada neste artigo o disposto no art. 141 desta Lei.\n\n§ 2º No caso de constituição de sociedade formada por empregados do próprio devedor, estes poderão utilizar créditos derivados da legislação do trabalho para a aquisição ou arrendamento da empresa.    (Revogado pela Lei nº 14.112, de 2020)    (Vigência)\n\n§ 3º Não sendo aprovada pela assembléia-geral a proposta alternativa para a realização do ativo, caberá ao juiz decidir a forma que será adotada, levando em conta a manifestação do administrador judicial e do Comitê.           (Revogado pela Lei nº 14.112, de 2020)    (Vigência)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO V › Seção X › Art. 145",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

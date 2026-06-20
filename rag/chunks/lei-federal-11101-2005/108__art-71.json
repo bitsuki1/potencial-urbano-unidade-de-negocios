@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-11101-2005::108-art-71",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 71",
+  "numero": "71",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Seção V",
+    "Art. 71"
+  ],
+  "texto": "Art. 71. O plano especial de recuperação judicial será apresentado no prazo previsto no art. 53 desta Lei e limitar-se á às seguintes condições:\n\nI – abrangerá exclusivamente os créditos quirografários, excetuados os decorrentes de repasse de recursos oficiais e os previstos nos §§ 3º e 4º do art. 49 desta Lei;\n\nI - abrangerá todos os créditos existentes na data do pedido, ainda que não vencidos, excetuados os decorrentes de repasse de recursos oficiais, os fiscais e os previstos nos §§ 3º e 4º do art. 49; (Redação dada pela Lei Complementar nº 147, de 2014)\n\nII – preverá parcelamento em até 36 (trinta e seis) parcelas mensais, iguais e sucessivas, corrigidas monetariamente e acrescidas de juros de 12% a.a. (doze por cento ao ano);\n\nII - preverá parcelamento em até 36 (trinta e seis) parcelas mensais, iguais e sucessivas, acrescidas de juros equivalentes à taxa Sistema Especial de Liquidação e de Custódia - SELIC, podendo conter ainda a proposta de abatimento do valor das dívidas; (Redação dada pela Lei Complementar nº 147, de 2014)\n\nIII – preverá o pagamento da 1ª (primeira) parcela no prazo máximo de 180 (cento e oitenta) dias, contado da distribuição do pedido de recuperação judicial;\n\nIV – estabelecerá a necessidade de autorização do juiz, após ouvido o administrador judicial e o Comitê de Credores, para o devedor aumentar despesas ou contratar empregados.\n\nParágrafo único. O pedido de recuperação judicial com base em plano especial não acarreta a suspensão do curso da prescrição nem das ações e execuções por créditos não abrangidos pelo plano.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO III › Seção V › Art. 71",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

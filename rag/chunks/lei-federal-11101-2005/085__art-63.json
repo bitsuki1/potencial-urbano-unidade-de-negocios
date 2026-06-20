@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-11101-2005::085-art-63",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 63",
+  "numero": "63",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Seção IV",
+    "Art. 63"
+  ],
+  "texto": "Art. 63. Cumpridas as obrigações vencidas no prazo previsto no caput do art. 61 desta Lei, o juiz decretará por sentença o encerramento da recuperação judicial e determinará:\n\nI – o pagamento do saldo de honorários ao administrador judicial, somente podendo efetuar a quitação dessas obrigações mediante prestação de contas, no prazo de 30 (trinta) dias, e aprovação do relatório previsto no inciso III do caput deste artigo;\n\nII – a apuração do saldo das custas judiciais a serem recolhidas;\n\nIII – a apresentação de relatório circunstanciado do administrador judicial, no prazo máximo de 15 (quinze) dias, versando sobre a execução do plano de recuperação pelo devedor;\n\nIV – a dissolução do Comitê de Credores e a exoneração do administrador judicial;\n\nV – a comunicação ao Registro Público de Empresas para as providências cabíveis.\n\nV - a comunicação ao Registro Público de Empresas e à Secretaria Especial da Receita Federal do Brasil do Ministério da Economia para as providências cabíveis.      (Redação dada pela Lei nº 14.112, de 2020)    (Vigência)\n\nParágrafo único. O encerramento da recuperação judicial não dependerá da consolidação do quadro-geral de credores.       (Incluído pela Lei nº 14.112, de 2020)    (Vigência)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO III › Seção IV › Art. 63",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

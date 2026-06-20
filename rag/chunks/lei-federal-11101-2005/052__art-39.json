@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-11101-2005::052-art-39",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 39",
+  "numero": "39",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção IV",
+    "Art. 39"
+  ],
+  "texto": "Art. 39. Terão direito a voto na assembléia-geral as pessoas arroladas no quadro-geral de credores ou, na sua falta, na relação de credores apresentada pelo administrador judicial na forma do art. 7º , § 2º , desta Lei, ou, ainda, na falta desta, na relação apresentada pelo próprio devedor nos termos dos arts. 51, incisos III e IV do caput, 99, inciso III do caput, ou 105, inciso II do caput, desta Lei, acrescidas, em qualquer caso, das que estejam habilitadas na data da realização da assembléia ou que tenham créditos admitidos ou alterados por decisão judicial, inclusive as que tenham obtido reserva de importâncias, observado o disposto nos §§ 1º e 2º do art. 10 desta Lei.\n\n§ 1º Não terão direito a voto e não serão considerados para fins de verificação do quorum de instalação e de deliberação os titulares de créditos excetuados na forma dos §§ 3º e 4º do art. 49 desta Lei.\n\n§ 2º As deliberações da assembléia-geral não serão invalidadas em razão de posterior decisão judicial acerca da existência, quantificação ou classificação de créditos.\n\n§ 3º No caso de posterior invalidação de deliberação da assembléia, ficam resguardados os direitos de terceiros de boa-fé, respondendo os credores que aprovarem a deliberação pelos prejuízos comprovados causados por dolo ou culpa.\n\n§ 4º Qualquer deliberação prevista nesta Lei a ser realizada por meio de assembleia-geral de credores poderá ser substituída, com idênticos efeitos, por:    (Incluído pela Lei nº 14.112, de 2020)   (Vigência)\n\nI - termo de adesão firmado por tantos credores quantos satisfaçam o quórum de aprovação específico, nos termos estabelecidos no art. 45-A desta Lei;     (Incluído pela Lei nº 14.112, de 2020)   (Vigência)\n\nII - votação realizada por meio de sistema eletrônico que reproduza as condições de tomada de voto da assembleia-geral de credores; ou       (Incluído pela Lei nº 14.112, de 2020)   (Vigência)\n\nIII - outro mecanismo reputado suficientemente seguro pelo juiz.     (Incluído pela Lei nº 14.112, de 2020)   (Vigência)\n\n§ 5º As deliberações nos formatos previstos no § 4º deste artigo serão fiscalizadas pelo administrador judicial, que emitirá parecer sobre sua regularidade, previamente à sua homologação judicial, independentemente da concessão ou não da recuperação judicial.     (Incluído pela Lei nº 14.112, de 2020)   (Vigência)\n\n§ 6º O voto será exercido pelo credor no seu interesse e de acordo com o seu juízo de conveniência e poderá ser declarado nulo por abusividade somente quando manifestamente exercido para obter vantagem ilícita para si ou para outrem.     (Incluído pela Lei nº 14.112, de 2020)    (Vigência)\n\n§ 7º A cessão ou a promessa de cessão do crédito habilitado deverá ser imediatamente comunicada ao juízo da recuperação judicial.     (Incluído pela Lei nº 14.112, de 2020)   (Vigência)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO II › Seção IV › Art. 39",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

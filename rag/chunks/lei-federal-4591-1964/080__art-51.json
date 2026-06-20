@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-4591-1964::080-art-51",
+  "lei_id": "lei-federal-4591-1964",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 51",
+  "numero": "51",
+  "caminho_hierarquico": [
+    "Título II",
+    "CAPíTULO III",
+    "Seção I",
+    "Art. 51"
+  ],
+  "texto": "Art. 51. Nos contratos de construção, seja qual fôr seu regime deverá constar expressamente a quem caberão as despesas com ligações de serviços públicos, devidas ao Poder Público, bem como as despesas indispensáveis à instalação, funcionamento e regulamentação do condomínio.\n\nParágrafo único. Quando o serviço público fôr explorado mediante concessão, os contratos de construção deverão também especificar a quem caberão as despesas com as ligações que incumbam às concessionárias no caso de não estarem elas obrigadas a fazê-las, ou, em o estando, se a isto se recusarem ou alegarem impossibilidade.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 4591/1964 — Brasil",
+    "dispositivo": "Título II › CAPíTULO III › Seção I › Art. 51",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l4591.htm",
+    "vigencia": {
+      "inicio": "1964-12-16",
+      "fim": null,
+      "revogada_por": "parcialmente — a parte de condomínio convive com o Código Civil/2002 (arts. 1.331 e ss.)",
+      "altera": [],
+      "alterada_por": [
+        "Código Civil/2002 (Lei 10.406/2002)",
+        "Lei 10.931/2004 (patrimônio de afetação)",
+        "Lei 4.864/1965"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "condominio_edilicio",
+    "incorporacao_imobiliaria",
+    "unidade_autonoma"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
+}

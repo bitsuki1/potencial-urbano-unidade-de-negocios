@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::324-art-214",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 214",
+  "numero": "214",
+  "caminho_hierarquico": [
+    "TÍTULO V",
+    "CAPÍTULO III",
+    "Art. 214"
+  ],
+  "texto": "Art. 214. A requerimento do interessado, poderá ser retificado o erro constante do registro, desde que tal retificação não acarrete prejuízo a terceiro.\n\n§ 1° A retificação será feita mediante despacho judicial, salvo no caso de erro evidente, o qual o oficial, desde logo, corrigirá, com a devida cautela.\n\n§ 2º Se da retificação resultar alteração da descrição das divisas ou da área do imóvel, serão citados, para se manifestarem sobre o requerimento, em dez (10) dias, todos os confrontantes e o alienante ou seus sucessores.\n\n§ 3º O Ministério Público será ouvido no pedido de retificação.\n\n§ 4º Se o pedido de retificação for impugnado fundamentadamente, o Juiz remeterá o interessado para as vias ordinárias.\n\n§ 5º Da sentença do Juiz, deferindo ou não o requerimento, cabe o recurso de apelação com ambos os efeitos.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO V › CAPÍTULO III › Art. 214",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

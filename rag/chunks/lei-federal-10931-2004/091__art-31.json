@@ -1,0 +1,43 @@
+{
+  "chunk_id": "lei-federal-10931-2004::091-art-31",
+  "lei_id": "lei-federal-10931-2004",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 31",
+  "numero": "31",
+  "caminho_hierarquico": [
+    "CAPÍTULO VI",
+    "Art. 31"
+  ],
+  "texto": "Art. 31-D. Incumbe ao incorporador:\n\nI - promover todos os atos necessários à boa administração e à preservação do patrimônio de afetação, inclusive mediante adoção de medidas judiciais;\n\nII - manter apartados os bens e direitos objeto de cada incorporação;\n\nIII - diligenciar a captação dos recursos necessários à incorporação e aplicá-los na forma prevista nesta Lei, cuidando de preservar os recursos necessários à conclusão da obra;\n\nIV - entregar à Comissão de Representantes, no mínimo a cada três meses, demonstrativo do estado da obra e de sua correspondência com o prazo pactuado ou com os recursos financeiros que integrem o patrimônio de afetação recebidos no período, firmados por profissionais habilitados, ressalvadas eventuais modificações sugeridas pelo incorporador e aprovadas pela Comissão de Representantes;\n\nV - manter e movimentar os recursos financeiros do patrimônio de afetação em conta de depósito aberta especificamente para tal fim;\n\nVI - entregar à Comissão de Representantes balancetes coincidentes com o trimestre civil, relativos a cada patrimônio de afetação;\n\nVII - assegurar à pessoa nomeada nos termos do art. 31-C o livre acesso à obra, bem como aos livros, contratos, movimentação da conta de depósito exclusiva referida no inciso V deste artigo e quaisquer outros documentos relativos ao patrimônio de afetação; e\n\nVIII - manter escrituração contábil completa, ainda que esteja desobrigado pela legislação tributária.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 10931/2004 — Brasil",
+    "dispositivo": "CAPÍTULO VI › Art. 31",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/lei/l10.931.htm",
+    "vigencia": {
+      "inicio": "2004-08-02",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Decreto-Lei 911/1969",
+        "Lei 4.591/1964 (acresce arts. 31-A a 31-F)",
+        "Lei 4.728/1965",
+        "Lei 10.406/2002 (Código Civil)"
+      ],
+      "alterada_por": [
+        "Lei 13.097/2015",
+        "Lei 14.382/2022"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "patrimonio_de_afetacao",
+    "incorporacao_imobiliaria",
+    "RET",
+    "LCI",
+    "CCI",
+    "CCB"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre o patrimônio de afetação de incorporações imobiliárias, Letra de Crédito Imobiliário, Cédula de Crédito Imobiliário, Cédula de Crédito Bancário, altera o Decreto-Lei nº 911, de 1º de outubro de 1969, as Leis nº 4.591, de 16 de dezembro de 1964, nº 4.728, de 14 de julho de 1965, e nº 10.406, de 10 de janeiro de 2002, e dá outras providências."
+}

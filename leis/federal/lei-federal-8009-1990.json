@@ -6,7 +6,12 @@
   "numero": "8009",
   "ano": 1990,
   "ementa": "Dispõe sobre a impenhorabilidade do bem de família.",
-  "tema": ["IPTU", "bem_de_familia", "impenhorabilidade", "execucao_fiscal"],
+  "tema": [
+    "IPTU",
+    "bem_de_familia",
+    "impenhorabilidade",
+    "execucao_fiscal"
+  ],
   "dispositivos_chave": [
     "Art. 3º, IV — exceção à impenhorabilidade: cobrança de impostos predial/territorial, taxas e contribuições devidas em função do imóvel familiar (penhorabilidade pelo IPTU que recai sobre o próprio imóvel)."
   ],
@@ -15,7 +20,9 @@
     "fim": null,
     "revogada_por": null,
     "altera": [],
-    "alterada_por": ["Lei 13.144/2015 (art. 3º, III)"]
+    "alterada_por": [
+      "Lei 13.144/2015 (art. 3º, III)"
+    ]
   },
   "remissoes": [
     "CTN (Lei 5.172/1966) — sujeição passiva do IPTU",
@@ -32,9 +39,12 @@
     "origem": "web-oficial",
     "url": "https://www.planalto.gov.br/ccivil_03/leis/l8009.htm",
     "hash": null,
-    "ocr": false
+    "ocr": false,
+    "path": "_entrada/misto/lei-federal-8009-1990.txt",
+    "metodo": "VERBATIM DE TELA (planalto); re-ingerido de _entrada/misto/ em 2026-06-20 (AUD-01)",
+    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior."
   },
-  "status_pipeline": "bruto",
+  "status_pipeline": "indexado",
   "confianca_extracao": "alta",
   "revisado_por_humano": false
 }

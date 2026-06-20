@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-11101-2005::165-art-122",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 122",
+  "numero": "122",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Seção VIII",
+    "Art. 122"
+  ],
+  "texto": "Art. 122. Compensam-se, com preferência sobre todos os demais credores, as dívidas do devedor vencidas até o dia da decretação da falência, provenha o vencimento da sentença de falência ou não, obedecidos os requisitos da legislação civil.\n\nParágrafo único. Não se compensam:\n\nI – os créditos transferidos após a decretação da falência, salvo em caso de sucessão por fusão, incorporação, cisão ou morte; ou\n\nII – os créditos, ainda que vencidos anteriormente, transferidos quando já conhecido o estado de crise econômico-financeira do devedor ou cuja transferência se operou com fraude ou dolo.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO V › Seção VIII › Art. 122",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

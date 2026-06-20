@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-11101-2005::189-art-143",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 143",
+  "numero": "143",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Seção X",
+    "Art. 143"
+  ],
+  "texto": "Art. 143. Em qualquer das modalidades de alienação referidas no art. 142 desta Lei, poderão ser apresentadas impugnações por quaisquer credores, pelo devedor ou pelo Ministério Público, no prazo de 48 (quarenta e oito) horas da arrematação, hipótese em que os autos serão conclusos ao juiz, que, no prazo de 5 (cinco) dias, decidirá sobre as impugnações e, julgando-as improcedentes, ordenará a entrega dos bens ao arrematante, respeitadas as condições estabelecidas no edital.\n\n§ 1º Impugnações baseadas no valor de venda do bem somente serão recebidas se acompanhadas de oferta firme do impugnante ou de terceiro para a aquisição do bem, respeitados os termos do edital, por valor presente superior ao valor de venda, e de depósito caucionário equivalente a 10% (dez por cento) do valor oferecido.      (Incluído pela Lei nº 14.112, de 2020)   (Vigência)\n\n§ 2º A oferta de que trata o § 1º deste artigo vincula o impugnante e o terceiro ofertante como se arrematantes fossem.       (Incluído pela Lei nº 14.112, de 2020)    (Vigência)\n\n§ 3º Se houver mais de uma impugnação baseada no valor de venda do bem, somente terá seguimento aquela que tiver o maior valor presente entre elas.     (Incluído pela Lei nº 14.112, de 2020)    (Vigência)\n\n§ 4º A suscitação infundada de vício na alienação pelo impugnante será considerada ato atentatório à dignidade da justiça e sujeitará o suscitante à reparação dos prejuízos causados e às penas previstas na Lei nº 13.105, de 16 de março de 2015 (Código de Processo Civil), para comportamentos análogos.        (Incluído pela Lei nº 14.112, de 2020)    (Vigência)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO V › Seção X › Art. 143",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

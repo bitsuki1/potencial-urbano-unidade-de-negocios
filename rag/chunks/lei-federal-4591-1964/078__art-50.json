@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-4591-1964::078-art-50",
+  "lei_id": "lei-federal-4591-1964",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 50",
+  "numero": "50",
+  "caminho_hierarquico": [
+    "Título II",
+    "CAPíTULO III",
+    "Seção I",
+    "Art. 50"
+  ],
+  "texto": "Art. 50.  Será designada, no contrato de construção ou eleita em assembleia geral, a ser realizada por iniciativa do incorporador, no prazo de até seis meses, contado da data do registro do memorial de incorporação, uma comissão de representantes composta por, no mínimo, três membros escolhidos dentre os adquirentes para representá-los perante o construtor ou, no caso previsto no art. 43, o incorporador, em tudo o que interessar ao bom andamento da incorporação e, em especial, perante terceiros, para praticar os atos resultantes da aplicação do disposto nos art. 31-A a art. 31-F.      (Redação dada pela Medida Provisória nº 1.085, de 2021)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 4591/1964 — Brasil",
+    "dispositivo": "Título II › CAPíTULO III › Seção I › Art. 50",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l4591.htm",
+    "vigencia": {
+      "inicio": "1964-12-16",
+      "fim": null,
+      "revogada_por": "parcialmente — a parte de condomínio convive com o Código Civil/2002 (arts. 1.331 e ss.)",
+      "altera": [],
+      "alterada_por": [
+        "Código Civil/2002 (Lei 10.406/2002)",
+        "Lei 10.931/2004 (patrimônio de afetação)",
+        "Lei 4.864/1965"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "condominio_edilicio",
+    "incorporacao_imobiliaria",
+    "unidade_autonoma"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
+}

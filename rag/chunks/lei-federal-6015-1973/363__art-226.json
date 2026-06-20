@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::363-art-226",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 226",
+  "numero": "226",
+  "caminho_hierarquico": [
+    "TÍTULO V",
+    "CAPÍTULO V",
+    "Art. 226"
+  ],
+  "texto": "Art. 226. Se o imóvel não estiver matriculado no Registro de Imóveis e lançado em nome do outorgante, far-se-á a matrícula pelo primeiro título que, na seqüência cronológica dos títulos de domínio, estiver registrado, qualquer que seja a sua natureza. Na matrícula assim formalizada, serão lançados a registro todos os títulos posteriores, até o registro do título apresentado.                      (Suprimido pela Lei nº 6.216, de 1975).\n\nParágrafo único. Se o imóvel estiver matriculado, mas da matrícula não constar lançamento em nome do outorgante, far-se-á na matrícula o registro pelo primeiro título que, na seqüência cronológica dos títulos de domínio, estiver registrado e registro de todos os títulos posteriores, até o lançamento do título apresentado.                        (Suprimido pela Lei nº 6.216, de 1975).",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO V › CAPÍTULO V › Art. 226",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

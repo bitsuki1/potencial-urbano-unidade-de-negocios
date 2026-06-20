@@ -1,0 +1,36 @@
+{
+  "chunk_id": "lei-federal-11101-2005::267-art-189",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 189",
+  "numero": "189",
+  "caminho_hierarquico": [
+    "CAPÍTULO VIII",
+    "Art. 189"
+  ],
+  "texto": "Art. 189. Aplica-se, no que couber, aos procedimentos previstos nesta Lei, o disposto na Lei nº 13.105, de 16 de março de 2015 (Código de Processo Civil), desde que não seja incompatível com os princípios desta Lei.     (Redação dada pela Lei nº 14.112, de 2020)    (Vigência)\n\n§ 1º Para os fins do disposto nesta Lei:     (Incluído pela Lei nº 14.112, de 2020)    (Vigência)\n\nI - todos os prazos nela previstos ou que dela decorram serão contados em dias corridos; e        (Incluído pela Lei nº 14.112, de 2020)    (Vigência)\n\nII - as decisões proferidas nos processos a que se refere esta Lei serão passíveis de agravo de instrumento, exceto nas hipóteses em que esta Lei previr de forma diversa.     (Incluído pela Lei nº 14.112, de 2020)    (Vigência)\n\n§ 2º Para os fins do disposto no art. 190 da Lei nº 13.105, de 16 de março de 2015 (Código de Processo Civil), a manifestação de vontade do devedor será expressa e a dos credores será obtida por maioria, na forma prevista no art. 42 desta Lei.     (Incluído pela Lei nº 14.112, de 2020)    (Vigência)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO VIII › Art. 189",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

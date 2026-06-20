@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-6015-1973::503-art-289",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 289",
+  "numero": "289",
+  "caminho_hierarquico": [
+    "TÍTULO VI",
+    "Art. 289"
+  ],
+  "texto": "Art. 289. No exercício de suas funções, cumpre aos oficiais de registro fazer rigorosa fiscalização do pagamento dos impostos devidos por força dos atos que lhes forem apresentados em razão do ofício.                     (Renumerado do art. 305, pela Lei nº 6.216, de 1975)",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO VI › Art. 289",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

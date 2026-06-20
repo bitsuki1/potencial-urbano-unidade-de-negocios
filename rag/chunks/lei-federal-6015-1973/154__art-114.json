@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::154-art-114",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 114",
+  "numero": "114",
+  "caminho_hierarquico": [
+    "TÍTULO III",
+    "CAPÍTULO I",
+    "Art. 114"
+  ],
+  "texto": "Art. 114. No Registro Civil de Pessoas Jurídicas serão inscritos:                 (Renumerado do art. 115 pela Lei nº 6.216, de 1975).\n\nI - os contratos, os atos constitutivos, o estatuto ou compromissos das sociedades civis, religiosas, pias, morais, científicas ou literárias, bem como o das fundações e das associações de utilidade pública;\n\nII - as sociedades civis que revestirem as formas estabelecidas nas leis comerciais, salvo as anônimas.\n\nIII - os atos constitutivos e os estatutos dos partidos políticos.                    (Incluído pela Lei nº 9.096, de 1995)\n\nParágrafo único. No mesmo cartório será feito o registro dos jornais, periódicos, oficinas impressoras, empresas de radiodifusão e agências de notícias a que se refere o art. 8º da Lei nº 5.250, de 9-2-1967.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO III › CAPÍTULO I › Art. 114",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

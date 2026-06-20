@@ -6,7 +6,10 @@
   "numero": "29",
   "ano": 2000,
   "ementa": "Altera os arts. 34, 35, 156, 160, 167 e 198 da Constituição Federal e acrescenta artigo ao Ato das Disposições Constitucionais Transitórias, para assegurar os recursos mínimos para o financiamento das ações e serviços públicos de saúde.",
-  "tema": ["IPTU", "progressividade_fiscal"],
+  "tema": [
+    "IPTU",
+    "progressividade_fiscal"
+  ],
   "dispositivos_chave": [
     "Art. 3º — nova redação ao art. 156, § 1º, da CF/88: IPTU pode ser progressivo em razão do valor do imóvel (inciso I) e ter alíquotas diferentes conforme localização e uso (inciso II)."
   ],
@@ -14,7 +17,10 @@
     "inicio": "2000-09-13",
     "fim": null,
     "revogada_por": null,
-    "altera": ["CF/1988 arts. 34, 35, 156, 160, 167, 198", "ADCT (acréscimo de artigo - art. 77)"],
+    "altera": [
+      "CF/1988 arts. 34, 35, 156, 160, 167, 198",
+      "ADCT (acréscimo de artigo - art. 77)"
+    ],
     "alterada_por": []
   },
   "remissoes": [
@@ -33,9 +39,12 @@
     "origem": "web-oficial",
     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc29.htm",
     "hash": null,
-    "ocr": false
+    "ocr": false,
+    "path": "_entrada/misto/ec-29-2000.txt",
+    "metodo": "VERBATIM DE TELA (planalto); re-ingerido de _entrada/misto/ em 2026-06-20 (AUD-01)",
+    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior."
   },
-  "status_pipeline": "bruto",
-  "confianca_extracao": "media",
+  "status_pipeline": "indexado",
+  "confianca_extracao": "alta",
   "revisado_por_humano": false
 }

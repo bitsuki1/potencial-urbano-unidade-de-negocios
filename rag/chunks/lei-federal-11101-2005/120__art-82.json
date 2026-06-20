@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-11101-2005::120-art-82",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 82",
+  "numero": "82",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Seção I",
+    "Art. 82"
+  ],
+  "texto": "Art. 82. A responsabilidade pessoal dos sócios de responsabilidade limitada, dos controladores e dos administradores da sociedade falida, estabelecida nas respectivas leis, será apurada no próprio juízo da falência, independentemente da realização do ativo e da prova da sua insuficiência para cobrir o passivo, observado o procedimento ordinário previsto no Código de Processo Civil.\n\n§ 1º Prescreverá em 2 (dois) anos, contados do trânsito em julgado da sentença de encerramento da falência, a ação de responsabilização prevista no caput deste artigo.\n\n§ 2º O juiz poderá, de ofício ou mediante requerimento das partes interessadas, ordenar a indisponibilidade de bens particulares dos réus, em quantidade compatível com o dano provocado, até o julgamento da ação de responsabilização.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO V › Seção I › Art. 82",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

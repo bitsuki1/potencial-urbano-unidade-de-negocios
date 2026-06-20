@@ -5,8 +5,10 @@
 > SSOT do estado de cada item = `MANIFESTO.json` (agora VIVO, gerado por `scripts/consolidar.py`).
 > Doutrina: zero-compressão · dialético · agnosticismo · nada se descarta. Não AFINAR sem destravar.
 
-## Estado em 2026-06-20 (verificado)
-- **Corpus:** 59 itens — 27 leis (12 federais + 15 municipais) + 32 jurisprudências verbatim (`tagueado`). 57 no escopo + 2 fora (`stf-tema-1020`=ISS, `stj-resp-1658054`=previdenciário). Das 27 leis: **1 `indexado`** (Lei 7.228/1968, re-ingerida VERBATIM + fatiada + indexada nesta passada) e **26 `bruto`** (articulado integral ainda NÃO-verbatim — ementa+dispositivo-chave+síntese, ver P2).
+## Estado em 2026-06-20 (verificado, pós-auditoria profunda)
+- **Corpus:** 59 itens — 27 leis + 32 jurisprudências verbatim (`tagueado`). 57 no escopo + 2 fora. Das 27 leis: **13 `indexado`** (12 federais re-ingeridas VERBATIM de `_entrada/misto/` + a 7.228/1968 municipal) e **14 `bruto`** (municipais ainda só resumo WebSearch — ver P2). **1.246 dispositivos** em `rag/chunks/`.
+- **★ AUDITORIA PROFUNDA (2026-06-20):** laudo dialético em `docs/AUDITORIA-PROFUNDA-2026-06-20.md` (4 lentes adversariais + Supabase vivo). 3 destraves EXECUTADOS (AUD-01 federais verbatim; AUD-04 remoção IRRF/Tema 1130; AUD-03/08/09 engine `engines/tdc/oodc.py`) + ~10 correções de código/corpus. Pendências CRÍTICAS abertas: **AUD-02** (IDs canônicos do Drive trocados — risco de DELETE errado, lane do Drive) e **AUD-03** (tabelas `tabelas/` vazias = combustível do engine).
+- **Engine TDC:** `engines/tdc/oodc.py` — Fórmula Mestra (OODC/geração/recepção/travas) agora é CÓDIGO determinístico (1.3), auto-testado no CI. Falta `V`/`CA_max` (tabelas Q14/Quadro 3, ainda no Drive).
 - **★ A ESTEIRA RAG EXISTE E FOI PROVADA FIM-A-FIM (2026-06-20).** Antes `rag/` estava a 0%. Agora há tubo determinístico: `scripts/fatiar.py` (chunking por dispositivo 2.5) → `scripts/indexar.py` (índice invertido BM25 + metadados 2.6) → `scripts/consultar.py` (retrieval híbrido com **citação obrigatória 1.7**, gate de cobertura para NÃO-FUNDAMENTADA) → `evals/rodar-evals.py` (gate = citação correta, Parte 3). **6/6 evals ATIVOS passam** sobre a Lei 7.228/1968; 3 evals de TDC ficam como spec `aguardando_verbatim` (ver P5). Sem LLM, sem embeddings, stdlib-only (1.3/1.4). Doc: `scripts/README.md`.
 - **MANIFESTO.json:** vivo e idempotente; Action `consolidar.yml` AGORA roda a cadeia inteira (fatiar→indexar→consolidar→**evals como gate**) a cada push, sem loop.
 - **Supabase** `potencial-urbano-iptu-tdc` (`csnalylpvysjvejgsymr`, sa-east-1): só `governanca` (de_para, registro_decisoes — vazios) + `public`/PostGIS. Schemas dos artefatos NÃO criados (de propósito, RO-23).
@@ -26,7 +28,7 @@
 - Depois: re-rodar o catálogo do Drive e atualizar `docs/INVENTARIO-DRIVE-*.md` (IDs sobreviventes; a árvore foi achatada — os docs de 2026-06-18 descrevem estrutura que não existe mais).
 
 ### P2 — Re-ingerir as LEIS em VERBATIM INTEGRAL (lacuna probatória — pré-requisito do RAG)
-- **FEITO nesta passada: `7228-1968`** re-ingerido verbatim integral (de `_entrada/misto/`), `confianca:alta`, fatiado+indexado (1ª lei a passar de `tagueado`). **Faltam 26** (12 federais + 14 municipais) ainda `bruto`/não-verbatim. Cada `.md` não-verbatim tem ementa + dispositivos-chave + síntese; a guarda do `fatiar.py` os recusa até virarem verbatim (1.7/1.2). Ver `MANIFESTO.json` `alertas.itens_confianca_baixa_ou_media_a_revisar` (25 restantes).
+- **FEITO: 13 leis verbatim/indexadas** — `7228-1968` (municipal) + **12 federais** (re-ingeridas de `_entrada/misto/` via `scripts/promover_entrada.py`, destrave AUD-01). **Faltam 14 MUNICIPAIS** ainda `bruto`/não-verbatim (só resumo WebSearch); a guarda do `fatiar.py` as recusa até virarem verbatim. Para essas, o cru NÃO está local — precisa do Drive (ver abaixo). Use o MESMO `promover_entrada.py` quando o cru chegar a `_entrada/`.
 - **Prioridade (D-PU-3 = TDC):** re-ingerir PRIMEIRO o corpus TDC verbatim (PDE 16.050/2014 e correlatas) — é o que destrava a fatia de PRODUTO (os 3 evals `tdc-produto-pendente.json` já esperam por ele). As demais municipais/federais vêm depois.
 - Fonte: PDFs no Drive (catálogo `inventario/catalogo-juridico-drive.csv`) — **re-ingestão interna**. **MAS:** neste ambiente o egress p/ `.gov.br` deu 403 E o Drive é **lane exclusiva** (cerca anti-conflito) → para obter verbatim do Drive, **abrir pedido ao Drive** (`escritorio-do-mou/caixa-de-entrada/drive/PEDIDOS-AO-DRIVE.md`) OU rodar de ambiente com egress liberado. **Padrão de re-ingestão já provado:** salvar o cru em `_entrada/`, escrever `leis/<id>.md` com cabeçalho `## Texto integral (verbatim)` + `.json` `confianca:"alta"`, rodar `scripts/fatiar.py`.
 - **Gatilho V-2:** ao re-ingerir em lote, avaliar Gemini (contexto grande) p/ enumerar/puxar os links do corpus do Drive de uma vez.
@@ -64,7 +66,8 @@
 - **V-2 (Gemini p/ corpus) — agora é TAREFA com gatilho:** ao ir re-ingerir as 27 leis, AVALIAR usar Gemini (contexto grande) para enumerar/puxar os links do corpus do Drive de uma vez. Dono: a instância que rodar o P2.
 
 ## Mapa de arquivos-chave (pontos de entrada)
-- **Esteira RAG (NOVO 2026-06-20):** `scripts/README.md` (visão) · `scripts/fatiar.py` · `scripts/indexar.py` · `scripts/consultar.py` · `scripts/_texto.py` · `evals/rodar-evals.py` · `evals/ground-truth/*.json` · artefatos gerados em `rag/chunks/` + `rag/index/`.
+- **Esteira RAG (NOVO 2026-06-20):** `scripts/README.md` (visão) · `scripts/fatiar.py` · `scripts/indexar.py` · `scripts/consultar.py` · `scripts/_texto.py` · `scripts/promover_entrada.py` (promove cru de `_entrada/`→verbatim) · `evals/rodar-evals.py` · `evals/ground-truth/*.json` · artefatos em `rag/chunks/` + `rag/index/`.
+- **Engine TDC (NOVO 2026-06-20):** `engines/tdc/oodc.py` (OODC/geração/recepção/travas, determinístico) · `docs/AUDITORIA-PROFUNDA-2026-06-20.md` (laudo).
 - `MANIFESTO.json` (estado) · `scripts/consolidar.py` · `.github/workflows/consolidar.yml`
 - `docs/AUDITORIA-TRIPLO-LIMPO-2026-06-20.md` (o que mudou e por quê)
 - `drive-arrumacao/SANEAMENTO-DUPLICATAS-DRIVE-2026-06-20.md` + `Sanear-Duplicatas-PotencialUrbano.gs`

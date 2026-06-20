@@ -6,7 +6,13 @@
   "numero": "11101",
   "ano": 2005,
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária.",
-  "tema": ["IPTU", "falencia", "recuperacao_judicial", "credito_tributario", "concurso_de_credores"],
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
   "dispositivos_chave": [
     "Art. 83 — ordem de classificação dos créditos na falência (créditos tributários após trabalhistas limitados e com garantia real; multas em posição inferior).",
     "Arts. 47-49 — recuperação judicial e créditos a ela sujeitos (crédito tributário, como regra, fora do concurso).",
@@ -17,7 +23,10 @@
     "fim": null,
     "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
     "altera": [],
-    "alterada_por": ["Lei 14.112/2020", "LC 147/2014"]
+    "alterada_por": [
+      "Lei 14.112/2020",
+      "LC 147/2014"
+    ]
   },
   "remissoes": [
     "CTN (Lei 5.172/1966) arts. 186-188 (preferências do crédito tributário)",
@@ -35,9 +44,12 @@
     "origem": "web-oficial",
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
     "hash": null,
-    "ocr": false
+    "ocr": false,
+    "path": "_entrada/misto/lei-federal-11101-2005.txt",
+    "metodo": "VERBATIM DE TELA (planalto); re-ingerido de _entrada/misto/ em 2026-06-20 (AUD-01)",
+    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior."
   },
-  "status_pipeline": "bruto",
-  "confianca_extracao": "media",
+  "status_pipeline": "indexado",
+  "confianca_extracao": "alta",
   "revisado_por_humano": false
 }

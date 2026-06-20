@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::384-art-233",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 233",
+  "numero": "233",
+  "caminho_hierarquico": [
+    "TÍTULO V",
+    "CAPÍTULO VI",
+    "Art. 233"
+  ],
+  "texto": "Art. 233. No caso do imóvel matriculado passar à subordinação de outro cartório, as anotações e averbações continuarão a ser feitas na matrícula já existente, até que outra se abra no cartório da nova circunscrição, quando do primeiro registro, nos termos do artigo 226.                    (Suprimido pela Lei nº 6.216, de 1975).\n\n§ 1º Para a abertura da nova matrícula será apresentada certidão atualizada da matrícula anterior e dos registros e averbações dela constantes, a fim de serem reproduzidos no novo lançamento.\n\n§ 2º Feita a nova matrícula, o oficial dará ciência imediata do fato ao cartório da matrícula anterior, o qual fará o devido encerramento.\n\nCAPÍTULO VII\nDo Registro",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO V › CAPÍTULO VI › Art. 233",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

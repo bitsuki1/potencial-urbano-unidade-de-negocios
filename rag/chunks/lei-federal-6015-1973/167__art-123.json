@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::167-art-123",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 123",
+  "numero": "123",
+  "caminho_hierarquico": [
+    "TÍTULO III",
+    "CAPÍTULO III",
+    "Art. 123"
+  ],
+  "texto": "Art. 123. O pedido de matrícula conterá as informações e será instruído com os documentos seguintes:                     (Renumerado do art. 124 pela Lei nº 6.216, de 1975).\n\nI - no caso de jornais ou outras publicações periódicas:\n\na) título do jornal ou periódico, sede da redação, administração e oficinas impressoras, esclarecendo, quanto a estas, se são próprias ou de terceiros, e indicando, neste caso, os respectivos proprietários;\n\nb) nome, idade, residência e prova da nacionalidade do diretor ou redator-chefe;\n\nc) nome, idade, residência e prova da nacionalidade do proprietário;\n\nd) se propriedade de pessoa jurídica, exemplar do respectivo estatuto ou contrato social e nome, idade, residência e prova de nacionalidade dos diretores, gerentes e sócios da pessoa jurídica proprietária.\n\nII - nos casos de oficinas impressoras:\n\na) nome, nacionalidade, idade e residência do gerente e do proprietário, se pessoa natural;\n\nb) sede da administração, lugar, rua e número onde funcionam as oficinas e denominação destas;\n\nc) exemplar do contrato ou estatuto social, se pertencentes a pessoa jurídica.\n\nIII - no caso de empresas de radiodifusão:\n\na) designação da emissora, sede de sua administração e local das instalações do estúdio;\n\nb) nome, idade, residência e prova de nacionalidade do diretor ou redator-chefe responsável pelos serviços de notícias, reportagens, comentários, debates e entrevistas.\n\nIV no caso de empresas noticiosas:\n\na) nome, nacionalidade, idade e residência do gerente e do proprietário, se pessoa natural;\n\nb) sede da administração;\n\nc) exemplar do contrato ou estatuto social, se pessoa jurídica.\n\n§ 1º As alterações em qualquer dessas declarações ou documentos deverão ser averbadas na matrícula, no prazo de oito dias.\n\n§ 2º A cada declaração a ser averbada deverá corresponder um requerimento.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO III › CAPÍTULO III › Art. 123",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

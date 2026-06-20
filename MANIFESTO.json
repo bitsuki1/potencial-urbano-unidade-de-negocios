@@ -1,6 +1,6 @@
 {
   "_doc": "Fonte da verdade do status_pipeline de cada item. GERADO por scripts/consolidar.py a partir dos .json individuais — NAO editar a mao (Principio 1.5/2.3 do CLAUDE.md). Roda a cada push via .github/workflows/consolidar.yml.",
-  "gerado_em": "2026-06-20T19:56:49.105797+00:00",
+  "gerado_em": "2026-06-20T20:13:14.680936+00:00",
   "vocabulario_status": [
     "bruto",
     "fatiado",
@@ -16,25 +16,17 @@
     "fora_de_escopo": 2,
     "_nota": "por_status_pipeline conta SÓ os ativos_no_escopo; os 2 fora-de-escopo (ambos tagueado) não entram aqui. Soma = ativos_no_escopo, não total_itens.",
     "por_status_pipeline_ativos": {
-      "bruto": 26,
-      "indexado": 1,
+      "indexado": 13,
+      "bruto": 14,
       "tagueado": 30
     },
     "status_ilegais_encontrados": [],
-    "confianca_baixa_ou_media": 25,
-    "_nota_verbatim": "confianca e flag de extracao, nao prova de verbatim. NENHUMA das 27 leis tem o articulado INTEGRAL verbatim (planalto deu 403): tem ementa + dispositivo-chave + sintese. As 32 juris (curtas) sao verbatim. Re-ingestao verbatim das 27 leis e pre-requisito do RAG."
+    "confianca_baixa_ou_media": 17,
+    "_nota_verbatim": "confianca e flag de extracao, nao prova de verbatim. CORRIGIDO na auditoria profunda 2026-06-20 (AUD-01): 13 leis JA estao em verbatim integral e indexadas (12 federais re-ingeridas de _entrada/misto/ + a 7228/1968 municipal) — supera a narrativa antiga 'planalto deu 403, NENHUMA e verbatim', que confundia 'o .md e resumo' com 'o verbatim nao existe'. Faltam 14 municipais (so resumo WebSearch) — re-ingestao verbatim delas e o que resta do pre-requisito do RAG. As 32 juris (curtas) sao verbatim."
   },
   "alertas": {
     "status_fora_do_vocabulario": [],
     "itens_confianca_baixa_ou_media_a_revisar": [
-      "ec-132-2023",
-      "ec-29-2000",
-      "lei-federal-10931-2004",
-      "lei-federal-11101-2005",
-      "lei-federal-4591-1964",
-      "lei-federal-6015-1973",
-      "lei-federal-8668-1993",
-      "lei-federal-9514-1997",
       "lei-municipal-saopaulo-10235-1986",
       "lei-municipal-saopaulo-10365-1987",
       "lei-municipal-saopaulo-11152-1991",
@@ -57,6 +49,32 @@
       "stf-tema-1020",
       "stj-resp-1658054"
     ]
+  },
+  "artefatos_nao_corpus": {
+    "_nota": "Estado dos artefatos NÃO-corpus (1.1: Tabela/Engine/Tese). Fechamento do D24-do-git (AUD-09).",
+    "engines": {
+      "arquivos": 12,
+      "executavel_py": [
+        "engines/tdc/oodc.py"
+      ],
+      "status": "engine OODC/TDC executável (engines/tdc/oodc.py); demais são prosa/conhecimento"
+    },
+    "tabelas": {
+      "arquivos": 0,
+      "status": "VAZIO — Q14/Quadro 3 ainda no Drive, não ingeridos (AUD-04: combustível do engine)"
+    },
+    "tese_iptu": {
+      "arquivos": 0,
+      "status": "vazio"
+    },
+    "tese_tdc": {
+      "arquivos": 0,
+      "status": "vazio"
+    },
+    "extracao_gems": {
+      "arquivos": 8,
+      "status": "material de gens (prosa); material IRRF/Tema 1130 removido em 2026-06-20 (AUD-04)"
+    }
   },
   "itens": [
     {
@@ -480,7 +498,7 @@
       "tipo": "decreto_lei",
       "caminho_md": "leis/federal/dl-57-1966.md",
       "caminho_json": "leis/federal/dl-57-1966.json",
-      "status_pipeline": "bruto",
+      "status_pipeline": "indexado",
       "status_valido": true,
       "confianca_extracao": "alta",
       "revisado_por_humano": false,
@@ -493,7 +511,7 @@
       "tipo": "emenda_constitucional",
       "caminho_md": "leis/federal/ec-116-2022.md",
       "caminho_json": "leis/federal/ec-116-2022.json",
-      "status_pipeline": "bruto",
+      "status_pipeline": "indexado",
       "status_valido": true,
       "confianca_extracao": "alta",
       "revisado_por_humano": false,
@@ -506,9 +524,9 @@
       "tipo": "emenda_constitucional",
       "caminho_md": "leis/federal/ec-132-2023.md",
       "caminho_json": "leis/federal/ec-132-2023.json",
-      "status_pipeline": "bruto",
+      "status_pipeline": "indexado",
       "status_valido": true,
-      "confianca_extracao": "media",
+      "confianca_extracao": "alta",
       "revisado_por_humano": false,
       "fora_de_escopo": false,
       "fora_de_escopo_motivo": null,
@@ -519,9 +537,9 @@
       "tipo": "emenda_constitucional",
       "caminho_md": "leis/federal/ec-29-2000.md",
       "caminho_json": "leis/federal/ec-29-2000.json",
-      "status_pipeline": "bruto",
+      "status_pipeline": "indexado",
       "status_valido": true,
-      "confianca_extracao": "media",
+      "confianca_extracao": "alta",
       "revisado_por_humano": false,
       "fora_de_escopo": false,
       "fora_de_escopo_motivo": null,
@@ -532,9 +550,9 @@
       "tipo": "lei_ordinaria",
       "caminho_md": "leis/federal/lei-federal-10931-2004.md",
       "caminho_json": "leis/federal/lei-federal-10931-2004.json",
-      "status_pipeline": "bruto",
+      "status_pipeline": "indexado",
       "status_valido": true,
-      "confianca_extracao": "media",
+      "confianca_extracao": "alta",
       "revisado_por_humano": false,
       "fora_de_escopo": false,
       "fora_de_escopo_motivo": null,
@@ -545,9 +563,9 @@
       "tipo": "lei_ordinaria",
       "caminho_md": "leis/federal/lei-federal-11101-2005.md",
       "caminho_json": "leis/federal/lei-federal-11101-2005.json",
-      "status_pipeline": "bruto",
+      "status_pipeline": "indexado",
       "status_valido": true,
-      "confianca_extracao": "media",
+      "confianca_extracao": "alta",
       "revisado_por_humano": false,
       "fora_de_escopo": false,
       "fora_de_escopo_motivo": null,
@@ -558,9 +576,9 @@
       "tipo": "lei_ordinaria",
       "caminho_md": "leis/federal/lei-federal-4591-1964.md",
       "caminho_json": "leis/federal/lei-federal-4591-1964.json",
-      "status_pipeline": "bruto",
+      "status_pipeline": "indexado",
       "status_valido": true,
-      "confianca_extracao": "media",
+      "confianca_extracao": "alta",
       "revisado_por_humano": false,
       "fora_de_escopo": false,
       "fora_de_escopo_motivo": null,
@@ -571,9 +589,9 @@
       "tipo": "lei_ordinaria",
       "caminho_md": "leis/federal/lei-federal-6015-1973.md",
       "caminho_json": "leis/federal/lei-federal-6015-1973.json",
-      "status_pipeline": "bruto",
+      "status_pipeline": "indexado",
       "status_valido": true,
-      "confianca_extracao": "media",
+      "confianca_extracao": "alta",
       "revisado_por_humano": false,
       "fora_de_escopo": false,
       "fora_de_escopo_motivo": null,
@@ -584,7 +602,7 @@
       "tipo": "lei_ordinaria",
       "caminho_md": "leis/federal/lei-federal-6830-1980.md",
       "caminho_json": "leis/federal/lei-federal-6830-1980.json",
-      "status_pipeline": "bruto",
+      "status_pipeline": "indexado",
       "status_valido": true,
       "confianca_extracao": "alta",
       "revisado_por_humano": false,
@@ -597,7 +615,7 @@
       "tipo": "lei_ordinaria",
       "caminho_md": "leis/federal/lei-federal-8009-1990.md",
       "caminho_json": "leis/federal/lei-federal-8009-1990.json",
-      "status_pipeline": "bruto",
+      "status_pipeline": "indexado",
       "status_valido": true,
       "confianca_extracao": "alta",
       "revisado_por_humano": false,
@@ -610,9 +628,9 @@
       "tipo": "lei_ordinaria",
       "caminho_md": "leis/federal/lei-federal-8668-1993.md",
       "caminho_json": "leis/federal/lei-federal-8668-1993.json",
-      "status_pipeline": "bruto",
+      "status_pipeline": "indexado",
       "status_valido": true,
-      "confianca_extracao": "media",
+      "confianca_extracao": "alta",
       "revisado_por_humano": false,
       "fora_de_escopo": false,
       "fora_de_escopo_motivo": null,
@@ -623,9 +641,9 @@
       "tipo": "lei_ordinaria",
       "caminho_md": "leis/federal/lei-federal-9514-1997.md",
       "caminho_json": "leis/federal/lei-federal-9514-1997.json",
-      "status_pipeline": "bruto",
+      "status_pipeline": "indexado",
       "status_valido": true,
-      "confianca_extracao": "media",
+      "confianca_extracao": "alta",
       "revisado_por_humano": false,
       "fora_de_escopo": false,
       "fora_de_escopo_motivo": null,

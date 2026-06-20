@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-federal-11101-2005::197-art-149",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 149",
+  "numero": "149",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Seção XI",
+    "Art. 149"
+  ],
+  "texto": "Art. 149. Realizadas as restituições, pagos os créditos extraconcursais, na forma do art. 84 desta Lei, e consolidado o quadro-geral de credores, as importâncias recebidas com a realização do ativo serão destinadas ao pagamento dos credores, atendendo à classificação prevista no art. 83 desta Lei, respeitados os demais dispositivos desta Lei e as decisões judiciais que determinam reserva de importâncias.\n\n§ 1º Havendo reserva de importâncias, os valores a ela relativos ficarão depositados até o julgamento definitivo do crédito e, no caso de não ser este finalmente reconhecido, no todo ou em parte, os recursos depositados serão objeto de rateio suplementar entre os credores remanescentes.\n\n§ 2º Os credores que não procederem, no prazo fixado pelo juiz, ao levantamento dos valores que lhes couberam em rateio serão intimados a fazê-lo no prazo de 60 (sessenta) dias, após o qual os recursos serão objeto de rateio suplementar entre os credores remanescentes.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO V › Seção XI › Art. 149",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

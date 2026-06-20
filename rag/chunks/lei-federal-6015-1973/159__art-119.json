@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-federal-6015-1973::159-art-119",
+  "lei_id": "lei-federal-6015-1973",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 119",
+  "numero": "119",
+  "caminho_hierarquico": [
+    "TÍTULO III",
+    "CAPÍTULO I",
+    "Art. 119"
+  ],
+  "texto": "Art. 119. A existência legal das pessoas jurídicas só começa com o registro de seus atos constitutivos.                   (Renumerado do art. 120 pela Lei nº 6.216, de 1975).\n\nParágrafo único. Quando o funcionamento da sociedade depender de aprovação da autoridade, sem esta não poderá ser feito o registro.\n\nCAPÍTULO II\nDa Pessoa Jurídica",
+  "citacao": {
+    "norma": "lei_ordinaria nº 6015/1973 — Brasil",
+    "dispositivo": "TÍTULO III › CAPÍTULO I › Art. 119",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6015consolidado.htm",
+    "vigencia": {
+      "inicio": "1973-12-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.382/2022 (SERP)",
+        "Lei 13.465/2017",
+        "diversas leis posteriores"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "registros_publicos",
+    "registro_de_imoveis",
+    "matricula",
+    "titularidade"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
+}

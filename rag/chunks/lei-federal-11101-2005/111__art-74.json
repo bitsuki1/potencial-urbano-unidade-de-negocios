@@ -1,0 +1,36 @@
+{
+  "chunk_id": "lei-federal-11101-2005::111-art-74",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 74",
+  "numero": "74",
+  "caminho_hierarquico": [
+    "CAPÍTULO IV",
+    "Art. 74"
+  ],
+  "texto": "Art. 74. Na convolação da recuperação em falência, os atos de administração, endividamento, oneração ou alienação praticados durante a recuperação judicial presumem-se válidos, desde que realizados na forma desta Lei.\n\nCAPÍTULO V\n\nDA FALÊNCIA\n\nSeção I\n\nDisposições Gerais",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "CAPÍTULO IV › Art. 74",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}

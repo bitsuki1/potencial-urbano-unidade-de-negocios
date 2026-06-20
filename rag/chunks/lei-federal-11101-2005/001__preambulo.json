@@ -1,0 +1,33 @@
+{
+  "chunk_id": "lei-federal-11101-2005::001-preambulo",
+  "lei_id": "lei-federal-11101-2005",
+  "tipo_dispositivo": "preambulo",
+  "rotulo": "Preâmbulo",
+  "numero": null,
+  "caminho_hierarquico": [],
+  "texto": "Presidência da República\nSecretaria-Geral\nSubchefia para Assuntos Jurídicos\n\nLEI Nº 11.101, DE 9 DE FEVEREIRO DE 2005.\n\nMensagem de veto\n\nVigência\n\nTexto compilado\n\n\t\n\nRegula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária.\n\nO PRESIDENTE DA REPÚBLICA Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei:\n\nCAPÍTULO I\n\nDISPOSIÇÕES PRELIMINARES",
+  "citacao": {
+    "norma": "lei_ordinaria nº 11101/2005 — Brasil",
+    "dispositivo": "Preâmbulo",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11101.htm",
+    "vigencia": {
+      "inicio": "2005-02-09",
+      "fim": null,
+      "revogada_por": "revoga o Decreto-Lei 7.661/1945 (antiga Lei de Falências)",
+      "altera": [],
+      "alterada_por": [
+        "Lei 14.112/2020",
+        "LC 147/2014"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "falencia",
+    "recuperacao_judicial",
+    "credito_tributario",
+    "concurso_de_credores"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
+}
