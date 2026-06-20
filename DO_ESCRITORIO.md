@@ -64,7 +64,7 @@ Doutrina: zero-compressão · dialético · agnosticismo · nada se joga fora. (
 
 ## Pendências que dependem do MOU (cobrança)
 
-- **[DECISÃO] IPTU × TDC: por qual base começar?** (maior volume/urgência — ver `_entrada/README.md`). Esta decisão destrava a ordem do pipeline.
+- **[DECISÃO ✅ RESOLVIDA 2026-06-20] IPTU × TDC: base inicial = TDC** (decidido pelo MOU). O pipeline começa por TDC; IPTU replica depois.
 - **[AÇÃO] Subir o 1º lote de documentos** em `_entrada/` (bruto pesado via Supabase Storage; texto/imagem direto no git). Sem o lote, o projeto está ARMADO mas não DESTRAVADO.
 - **[TÉCNICO — FEITO 2026-06-20]** `consolidar.yml` criada (regenera `MANIFESTO.json` via `scripts/consolidar.py` a cada push). Estender para índice RAG + mestres de tese quando houver fatiamento/teses.
 

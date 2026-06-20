@@ -282,4 +282,4 @@ você marcou como "NÃO SEI".
 6. **Ligue a Action `consolidar.yml`** para regenerar manifesto, índice e mestres a cada push.
 7. **Monte o ground-truth** com 10–20 leis já validadas à mão, para travar a qualidade antes de escalar o volume.
 
-> **Decisão pendente para você:** por qual base começar — **IPTU** ou **TDC**? Escolha a de maior volume/urgência; o resto do pipeline se replica para a outra.
+> **Decisão do MOU (2026-06-20):** base inicial = **TDC** (o pipeline começa por TDC; IPTU replica depois).

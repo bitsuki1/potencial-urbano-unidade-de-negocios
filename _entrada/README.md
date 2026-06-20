@@ -24,4 +24,4 @@
 - **Número nasce no engine, nunca no LLM** (Princípio 1.3); **toda afirmação cita a fonte** (1.7).
 - Pode subir aos poucos — a varredura é incremental. Documento suspeito/ilegível não some: fica marcado para revisão.
 
-> **Decisão sua pendente:** começar por **IPTU** ou **TDC**? (a de maior volume/urgência — o pipeline replica para a outra.)
+> **Decisão do MOU (2026-06-20):** base inicial = **TDC** (o pipeline começa por TDC; IPTU replica depois).
