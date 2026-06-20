@@ -33,7 +33,7 @@ Consolidação por **checkout de arquivos** (squash) sobre `main`, não merge de
 
 ## Riscos declarados (o MOU decide — não são gates)
 - **LGPD / dado de terceiro:** o produto cruzará base de **proprietários** (`socios.csv`, `IPTU_2026.csv`, ITBI) — dado pessoal. **Registrado como RISCO, não como bloqueio** (decisão do MOU 2026-06-19: levantar risco, ele decide; não frear o processo). Mitigação mínima sugerida quando virar produto externo: dado pesado no Supabase (fora do git), sem expor PII no repo.
-- **`status_pipeline=bruto` é honesto:** ~26 itens seguem `confianca:baixa/media` (resumos não-verbatim) aguardando re-ingestão verbatim do Drive — ver `HANDOFF` §3 e `MANIFESTO.json` `alertas`. _(nota 2026-06-20: as 12 federais já são verbatim (8 com confiança média de extração); os 15 municipais-SP seguem como resumos não-verbatim.)_ Não declarar "pronto" o que é resumo.
+- **`status_pipeline=bruto` é honesto:** ~26 itens seguem `confianca:baixa/media` (resumos não-verbatim) aguardando re-ingestão verbatim do Drive — ver `HANDOFF` §3 e `MANIFESTO.json` `alertas`. _(nota 2026-06-20 — auditoria Acionabilidade: NENHUMA das 27 leis tem articulado integral verbatim (planalto 403); têm ementa+dispositivo-chave+síntese. Só as 32 juris são verbatim. Re-ingerir as 27 leis.)_ Não declarar "pronto" o que é resumo.
 - **Itens fora de escopo no corpus:** `stf-tema-1020` (é ISS) e `stj-resp-1658054` (previdenciário) — realocar/remover (HANDOFF §4).
 
 ---

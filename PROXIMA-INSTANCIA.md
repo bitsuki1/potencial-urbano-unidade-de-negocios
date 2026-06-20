@@ -6,12 +6,15 @@
 > Doutrina: zero-compressão · dialético · agnosticismo · nada se descarta. Não AFINAR sem destravar.
 
 ## Estado em 2026-06-20 (verificado)
-- **Corpus:** 59 itens — 27 leis (12 federais `bruto` verbatim + 15 municipais-SP) + 32 jurisprudências (`tagueado`). 57 no escopo + 2 fora (`stf-tema-1020`=ISS, `stj-resp-1658054`=previdenciário).
+- **Corpus:** 59 itens — 27 leis (12 federais + 15 municipais, todas `bruto`; **articulado integral NÃO é verbatim** — ementa + dispositivo-chave + síntese, ver P2) + 32 jurisprudências verbatim (`tagueado`). 57 no escopo + 2 fora (`stf-tema-1020`=ISS, `stj-resp-1658054`=previdenciário).
 - **MANIFESTO.json:** vivo e idempotente; Action `consolidar.yml` ligada (regenera a cada push, sem loop).
 - **Supabase** `potencial-urbano-iptu-tdc` (`csnalylpvysjvejgsymr`, sa-east-1): só `governanca` (de_para, registro_decisoes — vazios) + `public`/PostGIS. Schemas dos artefatos NÃO criados (de propósito, RO-23).
 - **Drive:** inventariado; ~16–20 GB de duplicatas mapeadas, executor de exclusão pronto (decisão MOU: EXCLUIR).
 
 ## PENDÊNCIAS (prioridade ↓)
+
+> ★ **DESTRAVE-MESTRE (auditoria Acionabilidade 2026-06-20):** o FIM do projeto é "responder consulta jurídica COM CITAÇÃO" (1.7) e ele está a **0%** (`rag/` vazio). O passo que mais destrava NÃO é P1. É uma **FATIA VERTICAL FINA de TDC**: pegar **1 lei municipal-SP**, re-ingerir verbatim → fatiar por dispositivo → indexar → **responder 1 consulta TDC com citação** contra ground-truth. Prova o tubo inteiro barato, entrega o 1º valor de PRODUTO (não mais saneamento) e revela onde o tubo quebra antes de investir nas 27 leis.
+> **Ordem honesta (D26):** P2→(fatia)→P5 é o caminho de PRODUTO. **P1 (Drive), P3 (fora-escopo), P6 (RLS) são HIGIENE — rodam em paralelo, não bloqueiam, não lideram a fila.**
 
 ### P1 — Executar a exclusão das duplicatas no Drive (decisão MOU tomada: EXCLUIR)
 - Rodar `drive-arrumacao/Sanear-Duplicatas-PotencialUrbano.gs` (Apps Script): `DRY_RUN=true` → conferir Logs → `DRY_RUN=false` → executa (lixeira, recuperável ~30d).
@@ -19,8 +22,8 @@
 - VACINA: o script só apaga se a cópia canônica existir; Fase 2 só duplicata exata (nome+tamanho). Conferir que SIRGAS_SHP_LOTES (geometrias + `.prj`) ficou com ≥1 cópia.
 - Depois: re-rodar o catálogo do Drive e atualizar `docs/INVENTARIO-DRIVE-*.md` (IDs sobreviventes; a árvore foi achatada — os docs de 2026-06-18 descrevem estrutura que não existe mais).
 
-### P2 — Re-ingerir as 15 leis municipais-SP em VERBATIM (lacuna probatória real)
-- Hoje são RESUMOS de WebSearch (`confianca: baixa/media`, marcador "NAO-VERBATIM" no `.md`) — ferem Princípio 1.7 (citação) e 1.2 (extração pura). Os 15 municipais são os de fato não-verbatim (os federais média são verbatim). Ver `MANIFESTO.json` `alertas.itens_confianca_baixa_ou_media_a_revisar` + `_nota_verbatim`.
+### P2 — Re-ingerir as 27 LEIS em VERBATIM INTEGRAL (lacuna probatória — pré-requisito do RAG)
+- **NENHUMA das 27 leis tem o articulado INTEGRAL verbatim** (planalto/espelhos deram HTTP 403): cada `.md` tem ementa + dispositivos-chave + síntese, com o aviso "Texto INTEGRAL não baixado". As 4 federais `confianca:alta` têm só o ARTIGO-CHAVE verbatim; o resto é síntese. (As 32 jurisprudências — súmulas/teses curtas — SIM são verbatim.) Re-ingerir o texto integral das **27 leis** (12 federais + 15 municipais) é pré-requisito para o RAG citar (Princípio 1.7/1.2). Ver `MANIFESTO.json` `alertas.itens_confianca_baixa_ou_media_a_revisar`.
 - Fonte: os PDFs já estão no Drive (catalogo `inventario/catalogo-juridico-drive.csv`) — é **re-ingestão interna, não captura externa**. (Neste ambiente o egress p/ `.gov.br` é bloqueado; usar o Drive como fonte.) **Atalho p/ `7228-1968`:** o cru verbatim (~13,8 KB) já está em `_entrada/misto/lei-municipal-saopaulo-7228-1968.txt` — re-ingerir desse local, não precisa do Drive.
 - IDs das 15: 7228-1968, 10235-1986, 10365-1987, 11152-1991, 11338-1992, 12350-1997, 13250-2001, 13475-2002, 14865-2008, 15044-2009, 16050-2014, 17202-2019, 17577-2021, 17759-2022, 17844-2022.
 

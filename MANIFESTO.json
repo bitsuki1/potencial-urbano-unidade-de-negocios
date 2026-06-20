@@ -1,6 +1,6 @@
 {
   "_doc": "Fonte da verdade do status_pipeline de cada item. GERADO por scripts/consolidar.py a partir dos .json individuais — NAO editar a mao (Principio 1.5/2.3 do CLAUDE.md). Roda a cada push via .github/workflows/consolidar.yml.",
-  "gerado_em": "2026-06-20T03:15:32.588037+00:00",
+  "gerado_em": "2026-06-20T04:10:50.030740+00:00",
   "vocabulario_status": [
     "bruto",
     "fatiado",
@@ -21,7 +21,7 @@
     },
     "status_ilegais_encontrados": [],
     "confianca_baixa_ou_media": 26,
-    "_nota_verbatim": "confianca baixa/media NAO e o mesmo que nao-verbatim: os 8 federais + 3 juris com confianca media sao VERBATIM (texto real); os 15 municipais-SP e que sao resumos nao-verbatim (marcador no .md) a re-ingerir."
+    "_nota_verbatim": "confianca e flag de extracao, nao prova de verbatim. NENHUMA das 27 leis tem o articulado INTEGRAL verbatim (planalto deu 403): tem ementa + dispositivo-chave + sintese. As 32 juris (curtas) sao verbatim. Re-ingestao verbatim das 27 leis e pre-requisito do RAG."
   },
   "alertas": {
     "status_fora_do_vocabulario": [],

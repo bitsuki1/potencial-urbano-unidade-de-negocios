@@ -19,7 +19,7 @@
 | 3 | 2 itens fora de escopo (`stf-tema-1020`=ISS, `stj-resp-1658054`=previdenciário) contavam como corpus IPTU | MÉDIA | **Segregados no MANIFESTO** (campo `fora_de_escopo` + `alertas`); contam à parte (57 no escopo, 2 fora) |
 | 4 | `DO_ESCRITORIO.md` congelado em "tudo vazio (2026-06-18)" — falso após carga; violava o próprio PRINCÍPIO-DOCUMENTO-VIVO | CRÍTICA | **Tabela reescrita** como ponteiros (não cópia de estado volátil) + linha Supabase |
 | 5 | Supabase: docs diziam "6 schemas / 4 artefatos + geo + governanca criados" — FALSO (só `governanca` + `public`) | ALTA | **Corrigido** em `CODEX §6/§ESTADO` e `BETA-CONTINUO §4` (VACINA datada) |
-| 6 | Contradição "acervo COMPLETO, nenhuma captura" × "capturar 12 federais (feito) + 15 municipais" | ALTA | **Conciliado**: fonte no Drive (ok) ≠ ingestão no repo; 12 federais já verbatim (upload MOU), 15 municipais ainda resumos a re-ingerir |
+| 6 | Contradição "acervo COMPLETO, nenhuma captura" × "capturar 12 federais (feito) + 15 municipais" | ALTA | **Conciliado** (corrigido na rodada de Acionabilidade 2026-06-20): fonte no Drive (ok) ≠ ingestão no repo; **NENHUMA das 27 leis é verbatim integral** (403; têm ementa+dispositivo-chave+síntese); só as 32 juris são verbatim. Re-ingerir as 27 leis |
 | 7 | `HANDOFF §3` "capturar 12 federais (não estão no despejo)" — stale (chegaram no upload) | MÉDIA | **Marcado FEITO** |
 | 8 | `CONSOLIDACAO:19` "~40 leis" | BAIXA | **Corrigido p/ 27 (12+15)** |
 | 9 | `extracao/gems/gen3-iptu.md` ≡ `gen3-governanca.md` (byte-idênticos, RO-19) | MÉDIA | **VACINA inline** apontando canônico (preservado, RO-09) |

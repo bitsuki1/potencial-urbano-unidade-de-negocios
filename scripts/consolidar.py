@@ -92,7 +92,7 @@ def main():
             "por_status_pipeline_ativos": por_status,
             "status_ilegais_encontrados": status_ilegais,
             "confianca_baixa_ou_media": len(nao_verbatim),
-            "_nota_verbatim": "confianca baixa/media NAO e o mesmo que nao-verbatim: os 8 federais + 3 juris com confianca media sao VERBATIM (texto real); os 15 municipais-SP e que sao resumos nao-verbatim (marcador no .md) a re-ingerir.",
+            "_nota_verbatim": "confianca e flag de extracao, nao prova de verbatim. NENHUMA das 27 leis tem o articulado INTEGRAL verbatim (planalto deu 403): tem ementa + dispositivo-chave + sintese. As 32 juris (curtas) sao verbatim. Re-ingestao verbatim das 27 leis e pre-requisito do RAG.",
         },
         "alertas": {
             "status_fora_do_vocabulario": status_ilegais,
