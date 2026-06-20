@@ -224,6 +224,33 @@ o engine campo a campo. Fórmula que não bate com caso real não passa.
   (modo de falha nº1). Prevenção por MECANISMO sobrevive a esses dois momentos. O gate provou o
   valor na estreia: pegou uma não-idempotência do MANIFESTO (contava `.pyc` de cache).
 
+**D-10 — O gate de fechamento NÃO pode passar verde com a suíte de evals esvaziada. (2026-06-20, 2ª auditoria)**
+- *Tese:* `evals/rodar-evals.py` exige PISO de itens ATIVOS (`MIN_ITENS_ATIVOS=4`); 0 ativos → exit 1.
+  O gate declara escopo honesto (5 invariantes mecânicas de conteúdo + 2 avisos de durabilidade; não
+  cobre regressão/handoff/mérito).
+- *Antítese:* "evals exit 0 = evals provaram algo; gate verde = tudo certo."
+- *Vacina:* FALSO-VERDE (achado F-1/F-2). Rebaixar a flag `status:"aguardando_verbatim"` do único
+  ground-truth ativo (ou deletá-lo) zerava `falhas_ativas` e o gate passava VERDE **com o RAG destruído**.
+  "exit 0" ≠ "houve cobertura ativa". A própria ferramenta anti-perda tinha um furo que a 1ª auditoria
+  (mesma lente da construção) não viu.
+
+**D-11 — Robustez determinística: insumo BR no engine; dispositivo distinto no chunker. (2026-06-20)**
+- *Tese:* `oodc.py._d` parseia decimal BR (vírgula=decimal, ponto=milhar); guardas Fp>0/Fs≥0 (OODC
+  negativa é absurdo). `fatiar.py` captura o sufixo `-A/-B` e NÃO abre chunk para artigo CITADO entre
+  aspas dentro de lei alteradora.
+- *Antítese:* "`Decimal(str(x))` basta; `^Art\.\d+` é fiel."
+- *Vacina:* as tabelas-fonte (Q14) são BR e **quebravam** o engine antes de ligar `tabelas/`; "Art. 156-A"
+  rotulado "Art. 156" CITA dispositivo inexistente (viola 1.7). Número BR e sufixo de artigo NÃO são
+  detalhe cosmético. (Resta a vigência-por-chunk em texto compilado — B-11(c).)
+
+**D-12 — RO-24 reforçado: auditar com LENTE DIFERENTE da que construiu (D82 do escritório). (2026-06-20)**
+- *Tese:* um deliverable só é "sólido" depois de auditado por uma lente DIFERENTE da que o produziu.
+- *Antítese:* "rodei os testes/auto-teste, está pronto."
+- *Vacina:* a construção não enxerga o próprio ponto cego. A 2ª auditoria (lentes diferentes) achou o
+  falso-verde do gate (D-10) e o valor inventado (D-08 corrigido) que a 1ª passada não pegou. Re-rodar a
+  MESMA lente = falsa convergência. Candidata a regra de portfólio (depositada ao escritório). Reflete em
+  `BETA-CONTINUO.md §3`.
+
 ---
 
 ## 6. DECISÕES PENDENTES

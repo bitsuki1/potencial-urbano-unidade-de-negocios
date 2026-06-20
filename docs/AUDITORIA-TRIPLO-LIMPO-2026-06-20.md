@@ -1,5 +1,12 @@
 # Auditoria triplo-limpo — fechamento (Potencial Urbano)
 
+> ⚠️ **BANNER DE SUPERAÇÃO (2026-06-20, auditoria de fechamento da sessão):** este doc afirma adiante
+> "NENHUMA das 27 leis é verbatim" e "re-ingerir 15 municipais" — **SUPERADO** por AUD-01/D-07: hoje
+> são **13 leis verbatim/indexadas** (12 federais + 7228) e faltam **14 municipais**. Mantido como
+> antítese histórica (nada se descarta). Estado real = `MANIFESTO.json`. _(Este banner consertou um
+> resíduo que o saneamento B-14 deixou passar — vacina: dívida de propagação se varre por `grep`
+> mecânico de TODOS os docs, não pelos que vêm à memória.)_
+
 > Escritório do MOU (PMO) — 2026-06-20. Varredura de saturação (RO-24) em 4 lentes
 > paralelas (corpus · docs · Drive · banco) + verificação determinística. Objetivo:
 > deixar o registro **honesto e consistente** antes de avançar (D27/RO-23), sem AFINAR
