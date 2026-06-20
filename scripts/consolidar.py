@@ -65,13 +65,17 @@ def enumerar_nao_corpus():
     """D24-do-git (achado AUD-09/ID-06): os 4 artefatos do projeto (1.1) não são só Lei.
     Engine/Tabela/Tese não entram no corpus (leis/juris) mas PRECISAM aparecer no SSOT — senão
     viram valor preso (D23). Enumera contagem + estado coarse, sem fingir que estão prontos."""
+    def _versionavel(p):
+        # ignora cache de build (.pyc/__pycache__) — não é artefato e não é determinístico
+        # (existe só depois que um .py roda; senão o MANIFESTO deixa de ser idempotente).
+        return (p.is_file() and p.suffix not in (".gitkeep", ".pyc")
+                and p.name != ".gitkeep" and "__pycache__" not in p.parts)
+
     def conta(rel):
         d = RAIZ / rel
-        if not d.exists():
-            return 0
-        return sum(1 for p in d.rglob("*") if p.is_file() and p.suffix != ".gitkeep"
-                   and p.name != ".gitkeep")
-    engines_py = sorted(str(p.relative_to(RAIZ)) for p in (RAIZ / "engines").rglob("*.py"))
+        return sum(1 for p in d.rglob("*") if _versionavel(p)) if d.exists() else 0
+    engines_py = sorted(str(p.relative_to(RAIZ)) for p in (RAIZ / "engines").rglob("*.py")
+                        if "__pycache__" not in p.parts)
     return {
         "_nota": "Estado dos artefatos NÃO-corpus (1.1: Tabela/Engine/Tese). Fechamento do D24-do-git (AUD-09).",
         "engines": {"arquivos": conta("engines"), "executavel_py": engines_py,
