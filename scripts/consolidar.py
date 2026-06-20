@@ -100,7 +100,18 @@ def main():
         "itens": sorted(todos, key=lambda i: (i["caminho_json"])),
     }
 
+    # Idempotência: só bumpa `gerado_em` se o CONTEÚDO mudou (senão a Action
+    # commitaria a cada push só pelo timestamp — ruído infinito).
     out = RAIZ / "MANIFESTO.json"
+    if out.exists():
+        try:
+            antigo = json.loads(out.read_text(encoding="utf-8"))
+            a = {k: v for k, v in antigo.items() if k != "gerado_em"}
+            b = {k: v for k, v in manifesto.items() if k != "gerado_em"}
+            if a == b:
+                manifesto["gerado_em"] = antigo.get("gerado_em")
+        except (json.JSONDecodeError, OSError):
+            pass
     out.write_text(json.dumps(manifesto, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     r = manifesto["resumo"]
     print(f"MANIFESTO.json regenerado: {r['total_itens']} itens "
