@@ -1,9 +1,14 @@
 # Saneamento de duplicatas no Drive — manifesto PRONTO (NÃO executado)
 
 > Auditoria triplo-limpo do Escritório do MOU — 2026-06-20. Lente single-level via MCP.
-> **NADA foi removido/movido.** Este é o mapa para o MOU decidir **EXCLUIR ou só MOVER**
-> (decisão aberta `PLANO-SANEAMENTO D-2`). Doutrina RO-09 (nada se descarta) + RO-19
-> (redundância é inimiga) puxam em sentidos opostos → decisão do operador (RO-22).
+> **DECISÃO DO MOU (2026-06-20): EXCLUIR** (lixeira do Drive, recuperável ~30 dias), mantendo 1 cópia canônica de cada grupo.
+>
+> **EXECUTOR PRONTO:** `drive-arrumacao/Sanear-Duplicatas-PotencialUrbano.gs` (Apps Script).
+> Como rodar (o MCP do Drive não apaga — quem apaga é o Apps Script na sua conta):
+> 1. Abra o projeto Apps Script da arrumação (mesmo do `Arrumar-Drive-PotencialUrbano.gs`); cole/adicione este arquivo.
+> 2. Rode `sanearDuplicatas()` com `DRY_RUN=true` (padrão) → leia **Ver > Execuções/Logs**: ele lista o que APAGARIA sem tocar em nada.
+> 3. Confira; mude `DRY_RUN=false` no topo; rode de novo → manda as duplicatas para a Lixeira.
+> O script só apaga uma cópia depois de CONFIRMAR que a canônica do grupo existe; a Fase 2 só apaga duplicata exata (nome+tamanho).
 
 ## Quadro
 - A pasta de despejo `1grhqYgttj7KnJmiu9U73z-lXFHnFthov` foi **achatada** (subpastas
