@@ -58,9 +58,13 @@ alteração** (RO-24).
 ref `csnalylpvysjvejgsymr` · região `sa-east-1` ·
 URL `https://csnalylpvysjvejgsymr.supabase.co`.
 **Separado do Keepee** (`gestao-integrada-dados`) — separação de escopo.
-**Estado: esqueleto LIMPO, SEM DADO (RO-23)** — schemas e tabelas existem vazios;
-a carga (De/Para, leis, geo, tabelas) só acontece **depois da organização
-completa e aprovada**. Lá dentro tudo nasce limpo.
+**Estado: esqueleto LIMPO, SEM DADO (RO-23)** — hoje existem só os schemas
+`governanca` (`de_para` + `registro_decisoes`, vazios) e `public`/PostGIS. **VACINA
+(2026-06-20, auditoria triplo-limpo):** os schemas dos 4 artefatos + `geo` + `rag`
+da tabela abaixo (§5) são DESTINO FUTURO — ainda NÃO foram criados (verificado via
+MCP); a coluna "Espelho no banco" é plano, não fato. A carga (De/Para, leis, geo,
+tabelas) só acontece **depois da organização completa e aprovada**. Lá dentro tudo
+nasce limpo.
 🔑 Chaves (anon/publishable/service) ficam no **painel Supabase / variáveis de
 ambiente — NUNCA commitadas no git.**
 

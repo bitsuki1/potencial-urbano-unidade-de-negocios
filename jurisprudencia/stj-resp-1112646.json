@@ -20,7 +20,7 @@
     "hash": null,
     "captura_verbatim": "jurisprudencia/_capturas/stj-resp-1112646.txt"
   },
-  "status_pipeline": "processado",
+  "status_pipeline": "tagueado",
   "confianca_extracao": "alta",
   "revisado_por_humano": false,
   "verificacao_verbatim": "Tese confere com a captura verbatim. Captura confirma Tema Repetitivo 174, Rel. Min. Herman Benjamin, Primeira Seção, j. 26/08/2009."

@@ -14,6 +14,11 @@ e a enumeração da pasta-cofre **"01 — _entrada (despejo IPTU+TDC)"**
 captura externa (extensão/anti-bot) é necessária — a fonte verbatim das leis é o
 próprio Drive. (Codex RO-21 e §7.)
 
+> **CONCILIAÇÃO (2026-06-20, auditoria triplo-limpo):** completo no Drive ≠ ingerido
+> no repo. As 12 federais já estão verbatim em `leis/federal/`; **14 municipais-SP em
+> `leis/municipal-sp/` ainda são resumos não-verbatim** (`confianca: baixa`) — falta
+> RE-INGERIR dos PDFs do Drive (fatiamento interno, não captura externa).
+
 ## Conteúdo do CSV
 Uma linha por arquivo da pasta de entrada (920 únicos), com `drive_id` e
 `view_url`. Colunas: `categoria, titulo, drive_id, mime, tamanho_bytes, pasta,

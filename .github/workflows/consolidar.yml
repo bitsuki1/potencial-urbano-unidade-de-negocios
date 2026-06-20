@@ -1,0 +1,39 @@
+name: consolidar
+
+# Consolidação serial (Princípio 1.5): cada instância só CRIA arquivos por item;
+# esta Action REGENERA o MANIFESTO.json a cada push (determinístico, sem conflito).
+# Trazido pela Auditoria triplo-limpo do Escritório do MOU — 2026-06-19.
+
+on:
+  push:
+    paths:
+      - "leis/**"
+      - "jurisprudencia/**"
+      - "scripts/consolidar.py"
+      - ".github/workflows/consolidar.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  consolidar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Regenerar MANIFESTO.json
+        run: python3 scripts/consolidar.py
+      - name: Commitar se mudou
+        run: |
+          if ! git diff --quiet MANIFESTO.json; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add MANIFESTO.json
+            git commit -m "consolidar: regenera MANIFESTO.json [skip ci]"
+            git push
+          else
+            echo "MANIFESTO.json já está atualizado."
+          fi

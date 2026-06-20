@@ -21,7 +21,7 @@
     "hash": null,
     "captura_verbatim": "jurisprudencia/_capturas/stj-resp-1645832.txt"
   },
-  "status_pipeline": "processado",
+  "status_pipeline": "tagueado",
   "confianca_extracao": "alta",
   "revisado_por_humano": false,
   "verificacao_verbatim": "CONFIRMADA a tese pela ementa verbatim do SCON; campo enunciado_ou_tese ajustado para a redação literal da ementa ('...apuração da base de cálculo...mera afixação...no átrio da sede do município não supre...'). CORRIGIDO tipo de 'recurso_repetitivo' para 'acordao' (Segunda Turma, NÃO repetitivo). Confiança média->alta. Rel. Min. Herman Benjamin, j. 07/03/2017, DJe 19/04/2017."

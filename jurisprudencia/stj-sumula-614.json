@@ -22,7 +22,7 @@
     "hash": null,
     "captura_verbatim": "jurisprudencia/_capturas/stj-sumula-614.txt"
   },
-  "status_pipeline": "processado",
+  "status_pipeline": "tagueado",
   "confianca_extracao": "alta",
   "revisado_por_humano": false,
   "verificacao_verbatim": "Enunciado confere com a captura verbatim."

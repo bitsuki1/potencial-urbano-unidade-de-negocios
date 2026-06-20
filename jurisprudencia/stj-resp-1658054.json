@@ -19,7 +19,7 @@
     "hash": null,
     "captura_verbatim": "jurisprudencia/_capturas/stj-resp-1658054.txt"
   },
-  "status_pipeline": "processado",
+  "status_pipeline": "tagueado",
   "confianca_extracao": "alta",
   "revisado_por_humano": false,
   "alerta_qualidade": "CONFIRMADO pela captura verbatim (2026-06-18): REsp 1.658.054/RS é CONTRIBUIÇÃO PREVIDENCIÁRIA (13º proporcional ao aviso prévio indenizado), decisão MONOCRÁTICA, NÃO IPTU. O rótulo de tarefa 'tombamento' está errado e o número não pertence ao corpus IPTU-TDC. RECOMENDAÇÃO: remover do corpus IPTU ou substituir pelo número correto do precedente de tombamento/valor venal pretendido (ver correção C-2 do projeto). Mantido revisao_pendente=true.",

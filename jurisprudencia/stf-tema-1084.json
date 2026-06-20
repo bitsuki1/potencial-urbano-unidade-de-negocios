@@ -21,7 +21,7 @@
     "hash": null,
     "captura_verbatim": "jurisprudencia/_capturas/stf-tema-1084.txt"
   },
-  "status_pipeline": "processado",
+  "status_pipeline": "tagueado",
   "confianca_extracao": "alta",
   "revisado_por_humano": false,
   "verificacao_verbatim": "Tese confere com a captura verbatim. Leading case ARE 1245097 confirmado; trânsito em julgado 26/10/2023."

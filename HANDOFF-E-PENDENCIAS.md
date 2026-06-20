@@ -19,7 +19,7 @@ Entregável final: o RAG + motor de cruzamento → **dossiê/lista de prospecç�
 
 ## 2. FEITO (com referência de commit, branch `claude/iptu-tdc-document-mapping-mjm1sn`)
 - **59 stubs honestos** criados (12 federais, 15 municipais SP, 32 jurisprudência), `status_pipeline=bruto`. (commit 3eb7e21)
-- **Jurisprudência 32/32 INGERIDA verbatim** → `status_pipeline=processado`; cru em `jurisprudencia/_capturas/`. (5521392, 8c65de7)
+- **Jurisprudência 32/32 INGERIDA verbatim** → `status_pipeline=tagueado` (corrigido de `processado`, que estava fora do vocabulário canônico — auditoria 2026-06-20); cru em `jurisprudencia/_capturas/`. **2 fora de escopo** (`stf-tema-1020`=ISS, `stj-resp-1658054`=previdenciário/não-verificado — sinalizados no `MANIFESTO.json`) + 4 com `revisao_pendente`. (5521392, 8c65de7)
   - Correções de qualidade feitas: stj-resp-1130545 (tema 371→387), stf-tema-94 (redação literal), tipos de 1202136/1645832 (acórdão, não repetitivo), stf-tema-155 (texto oficial).
 - **Inventário D24 do despejo no Drive + mapa de lacunas + reconciliação com Drive completo.** (b0185a1)
 - **Vacina/correção** sobre os PDFs de lei do despejo (ver §5). (286629b)
@@ -28,7 +28,7 @@ Entregável final: o RAG + motor de cruzamento → **dossiê/lista de prospecç�
 
 ## 3. PENDÊNCIAS por etapa
 ### E1 — Corpus jurídico (fechar)
-- [ ] **Capturar 12 leis FEDERAIS** (planalto) — seguem `bruto`. Não estão no despejo. Usar Lote 1 de `docs/PROMPTS-EXTRACAO-EXTENSAO.md` (MOU re-rodando).
+- [x] **12 leis FEDERAIS — FEITO** (upload do MOU 2026-06-19): texto verbatim ingerido em `leis/federal/` (`status_pipeline=bruto`, aguardando fatiamento). _Supera o item antigo "não estão no despejo"._
 - [ ] **Capturar 14/15 leis MUNICIPAIS** — seguem `bruto`. Usar Lote 2.
 - [ ] **Ingerir a LEI 11.152/1991** (única com PDF confirmado no despejo) e **criar stubs + ingerir as municipais bônus** já no despejo (com fileId no inventário §CORREÇÃO): 11.308/92, 11.614/94, 13.698/03, 13.776/04, 14.089/05, 17.092/19 + decretos 52.884, 56.954, 57.770, 58.592, 60.939, 63.698.
 - [ ] **Capturar a LEI 6.989/66** (institui o IPTU em SP) — ausente em todo lugar; e conferir **11.154/1991**.

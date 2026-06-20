@@ -20,7 +20,7 @@
     "hash": null,
     "captura_verbatim": "jurisprudencia/_capturas/stj-resp-1202136.txt"
   },
-  "status_pipeline": "processado",
+  "status_pipeline": "tagueado",
   "confianca_extracao": "alta",
   "revisado_por_humano": false,
   "verificacao_verbatim": "CONFIRMADO pela captura verbatim do SCON que o conteúdo é taxas ilegais embutidas no carnê do IPTU (Taxa de Limpeza Pública/Conservação de Vias e taxa de combate a sinistros) cuja ilegalidade NÃO anula o IPTU — abatimento por simples cálculo aritmético preserva liquidez/certeza da CDA. CORRIGIDO tipo de 'recurso_repetitivo' para 'acordao': trata-se de acórdão da SEGUNDA TURMA (Rel. Min. Mauro Campbell Marques, j. 07/06/2011), NÃO de recurso repetitivo. Rótulo de tarefa 'taxa de boleto' improcedente. Confiança média->alta."

@@ -202,9 +202,11 @@ o engine campo a campo. Fórmula que não bate com caso real não passa.
   - **RESOLVIDO (2026-06-19):** operador adotou Supabase. Criado projeto SEPARADO
     `potencial-urbano-iptu-tdc` (ref `csnalylpvysjvejgsymr`, sa-east-1). Stack
     confirmado: Postgres 17 + PostGIS + pgvector + pg_trgm/unaccent/fuzzystrmatch.
-    Esqueleto canônico criado (schemas dos 4 artefatos + `geo` + `governanca` com
-    `de_para` [livro-razão RO-14] e `registro_decisoes`). Playbook reutilizável em
-    `BETA-CONTINUO.md`. Chaves só em env (não no git).
+    Esqueleto canônico iniciado. **VACINA (2026-06-20, auditoria triplo-limpo):**
+    verificado via MCP que HOJE existem apenas `governanca` (`de_para` [livro-razão
+    RO-14] + `registro_decisoes`, vazias) e `public`/PostGIS. Os schemas dos 4
+    artefatos + `geo` + `rag` **ainda NÃO foram criados** — eram plano, não fato.
+    Playbook reutilizável em `BETA-CONTINUO.md`. Chaves só em env (não no git).
 
 ---
 
@@ -230,7 +232,15 @@ Varredura direcionada (title + fullText) confirmou que **todo o backbone
 normativo já está no Drive**, em PDF oficial (e boa parte também em texto integral
 fatiado). **Nada falta baixar; nenhuma captura externa (extensão/anti-bot) é
 necessária** — a fonte verbatim das leis é o próprio Drive. Catálogo com os
-`drive_id` em `inventario/catalogo-juridico-drive.csv`. Eixos confirmados:
+`drive_id` em `inventario/catalogo-juridico-drive.csv`.
+> **CONCILIAÇÃO (2026-06-20, auditoria):** "nenhuma captura EXTERNA" segue verdadeiro
+> — a fonte está no Drive. Mas a INGESTÃO no repo está incompleta: 12 federais + 1
+> municipal (7228) + 11 STF foram ingeridas verbatim do upload do MOU (2026-06-19);
+> **14 leis municipais-SP no repo ainda são RESUMOS não-verbatim** (`confianca: baixa`,
+> ver `MANIFESTO.json` campo `alertas`) e precisam ser RE-INGERIDAS dos PDFs do Drive
+> — não é captura externa, é fatiamento do que já temos.
+
+Eixos confirmados:
 - **Urbanística:** PDE Lei 16.050/2014 · LPUOS/zoneamento Lei 16.402/2016 ·
   Código de Obras e Edificações Lei 16.642/2017 · `codigo_de_obras_ilustrado` ·
   PDE2013 Quadro 1 (CA) · Resol./Portarias SMUL·CTLU·CEUSO.
@@ -382,7 +392,9 @@ qualquer alteração); Supabase ADOTADO — projeto `potencial-urbano-iptu-tdc`
   do `/` (FOLDER_IDS). Ainda em ENSAIO — falta o operador rodar até `=== FIM ===`
   e então o move real.
 - **Supabase:** `potencial-urbano-iptu-tdc` (`csnalylpvysjvejgsymr`) — esqueleto
-  canônico LIMPO (6 schemas; `governanca.de_para`/`registro_decisoes` vazias).
+  canônico LIMPO: hoje **só `governanca`** (`de_para`/`registro_decisoes`, vazias)
+  **+ `public`/PostGIS**. (VACINA 2026-06-20: docs antes diziam "6 schemas" — os 4
+  artefatos + geo + rag ainda não existem; verificado via MCP.)
   **Sem dado por decisão (RO-23)** até a organização completa e aprovada.
 - **PENDÊNCIAS DO MOU/escritório (registradas, não bloqueiam):**
   (a) apagar as 2 pastas órfãs vazias no Drive — `05 — Geo`/`99 — Inbox` (AF-29);

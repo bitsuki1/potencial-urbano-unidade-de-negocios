@@ -20,7 +20,7 @@
     "hash": null,
     "captura_verbatim": "jurisprudencia/_capturas/stf-tema-523.txt"
   },
-  "status_pipeline": "processado",
+  "status_pipeline": "tagueado",
   "confianca_extracao": "alta",
   "revisado_por_humano": false,
   "verificacao_verbatim": "Tese confere com a captura verbatim. Captura confirma trânsito em julgado 30/04/2021."

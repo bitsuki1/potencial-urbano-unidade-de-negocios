@@ -16,7 +16,7 @@
 
 | Origem (branch) | O que trouxe | Pastas/arquivos |
 |---|---|---|
-| `claude/iptu-tdc-document-mapping-mjm1sn` **(tronco)** | **Corpus jurídico real** | `leis/federal/`, `leis/municipal-sp/` (~40 leis `.md`+`.json`), `jurisprudencia/` (32 itens ingeridos verbatim + `_capturas/`), `extracao/gems/`, `engines/tdc/motor00/` + `engines/tdc/oraculos/`, `docs/` (inventário do Drive c/ fileIds, lacunas, saneamento), `HANDOFF-E-PENDENCIAS.md` |
+| `claude/iptu-tdc-document-mapping-mjm1sn` **(tronco)** | **Corpus jurídico real** | `leis/federal/` (12) + `leis/municipal-sp/` (15) = **27 leis** `.md`+`.json`, `jurisprudencia/` (32 itens; 2 fora de escopo + `_capturas/`), `extracao/gems/`, `engines/tdc/motor00/` + `engines/tdc/oraculos/`, `docs/` (inventário do Drive c/ fileIds, lacunas, saneamento), `HANDOFF-E-PENDENCIAS.md` |
 | `claude/modest-mendel-xpj1ml` | **Identidade PMO + esqueleto** | `CLAUDE.md`, `DO_ESCRITORIO.md`, `MANIFESTO.json`, `_entrada/` (zona de despejo IPTU/TDC/misto), `extracao/PROMPT-EXTRATOR-UNIVERSAL.md`, planos vazios (`tabelas/`, `tese/`, `rag/`, `evals/`, `engines/iptu/`) |
 | `claude/exciting-tesla-rwyzks` | **Saneamento do Drive + inventário + codex** | `drive-arrumacao/` (Apps Script + triagem + de-para), `inventario/` (catálogos/CSVs/classificação), `CODEX-DO-PROJETO.md`, `BETA-CONTINUO.md`, `engines/FORMULAS-CONSOLIDADAS.md`, `.claude/settings.json` |
 | **Upload do MOU (2026-06-19)** | **De-para FINAL da arrumação do Drive** (faltou à instância anterior) | `drive-arrumacao/Arrumacao_Potencial_Urbano_FINAL-20260619.csv` (992 itens → estrutura 00/02/03/05/99) |
