@@ -62,4 +62,8 @@ e docs de estado defasados. Tudo isso saneado.
 
 **Verificado LIMPO na rodada 2:** idempotência do `consolidar.py` (0 diff em 2 runs), sem risco de loop na Action (bot commita só `MANIFESTO.json`, fora dos paths vigiados, + `[skip ci]`), 0 JSON malformado, 0 órfão, marker `_PROCESSADOS.md` correto, staging (leis `bruto` / juris `tagueado`) defensável e não-mentiroso, Supabase consistente, 0 ref quebrada. Constituição (`CLAUDE.md`/`PROJETO-RAG`) tem comentário `(a ligar)` desatualizado — **não editada** (requer aval do MOU; estado-verdade vive no MANIFESTO+DO_ESCRITORIO).
 
-> **Convergência:** rodada 1 achou ~10 defeitos; rodada 2 achou 5 (todos resíduos das próprias correções), agora corrigidos. Uma rodada 3 deve vir limpa — registrar aqui se confirmada.
+> **Convergência:** rodada 1 achou ~10 defeitos; rodada 2 achou 5 (resíduos das próprias correções), corrigidos.
+
+## Rodada 3 — convergência CONFIRMADA (2026-06-20)
+2 lentes frescas (PU corpus+docs adversarial; escritório) → **veredito: CONVERGIU LIMPO** nos dois repos. Verificado: 0 uso vivo do enum `processado` (só notas históricas/auditoria), `consolidar.py` idempotente (0 diff em 2 runs), `por_status_pipeline_ativos`+`_nota` corretos, `revisao_pendente`=1 (stj-resp-1658054, prosa coerente), contagens 27/32/59/57/2 batem em todos os docs, 0 contradição (nenhum doc afirma "Action não existe"/"skeleton vazio"/"6 schemas"/"tudo vazio"/"~40 leis" como estado atual), 64 JSONs válidos, 0 órfão, refs novas existem, 0 regressão da rodada 2.
+**Esteira de auditoria fechada: R1 → R2 → R3 limpa.** O registro do projeto está honesto e consistente; o que resta é trabalho de esteira (AFINAR) e decisões do MOU — tudo em `PROXIMA-INSTANCIA.md`.
