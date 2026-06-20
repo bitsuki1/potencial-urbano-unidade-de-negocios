@@ -1,0 +1,24 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-7228-1968::001-preambulo",
+  "lei_id": "lei-municipal-saopaulo-7228-1968",
+  "tipo_dispositivo": "preambulo",
+  "rotulo": "Preâmbulo",
+  "numero": null,
+  "caminho_hierarquico": [],
+  "texto": "LEI Nº 7.228 DE 12 DE DEZEMBRO DE 1968\n\nAltera dispositivos da Lei nº 6.989, de 29 de dezembro de 1966, e dá outras providências.\n\nJosé Vicente de Faria Lima, Prefeito do Município de São Paulo, de acordo com o disposto no artigo 20 da Lei Estadual nº 9842, de 19 de setembro de 1967, promulga a seguinte Lei:",
+  "citacao": {
+    "norma": "lei_ordinaria nº 7.228/1968 — São Paulo/SP",
+    "dispositivo": "Preâmbulo",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-7228-de-12-de-dezembro-de-1968",
+    "vigencia": {
+      "em_vigor": true,
+      "observacao": "Vigente como norma alteradora; efeitos incorporados ao texto consolidado da Lei 6.989/1966."
+    }
+  },
+  "tema": [
+    "IPTU",
+    "codigo_tributario"
+  ],
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Altera dispositivos da Lei nº 6.989, de 29 de dezembro de 1966, e dá outras providências."
+}

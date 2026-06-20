@@ -1,0 +1,61 @@
+{
+  "_doc": "Ground-truth ATIVO — prova-de-tubo da esteira E1->E5 sobre a 1a lei municipal-SP re-ingerida VERBATIM (Lei 7.228/1968). Gate = citacao correta (CLAUDE.md Parte 3). Cada item positivo foi conferido contra o articulado verbatim; cada negativo prova o gate 1.7 (pergunta fora do corpus = NAO-FUNDAMENTADA). Dominio IPTU (a lei e tributaria-municipal); o tubo e o mesmo que TDC usara quando o corpus TDC for re-ingerido verbatim.",
+  "dominio": "IPTU",
+  "status": "ativo",
+  "lei_alvo": "lei-municipal-saopaulo-7228-1968",
+  "itens": [
+    {
+      "id": "vv-1969-30pct",
+      "pergunta": "qual o limite de atualizacao do valor venal de imovel residencial em 1969?",
+      "espera": {
+        "fundamentada": true,
+        "lei_id": "lei-municipal-saopaulo-7228-1968",
+        "dispositivo_topo": "Art. 5",
+        "texto_contem": "30%"
+      }
+    },
+    {
+      "id": "debitos-cancelados",
+      "pergunta": "quais debitos tributarios ficam cancelados de exercicios antigos?",
+      "espera": {
+        "fundamentada": true,
+        "lei_id": "lei-municipal-saopaulo-7228-1968",
+        "dispositivo_topo": "Art. 7",
+        "texto_contem": "cancelados"
+      }
+    },
+    {
+      "id": "acrescimo-20pct-inobservancia",
+      "pergunta": "qual o acrescimo de 20% no montante do imposto por inobservancia da declaracao?",
+      "espera": {
+        "fundamentada": true,
+        "lei_id": "lei-municipal-saopaulo-7228-1968",
+        "dispositivo_topo": "Art. 1",
+        "texto_contem": "acréscimo de 20%"
+      }
+    },
+    {
+      "id": "lancamento-predial-1967",
+      "pergunta": "o lancamento do imposto predial nao pode ser inferior ao montante de qual exercicio?",
+      "espera": {
+        "fundamentada": true,
+        "lei_id": "lei-municipal-saopaulo-7228-1968",
+        "dispositivo_topo": "Art. 6",
+        "texto_contem": "1967"
+      }
+    },
+    {
+      "id": "neg-tdc-fora-de-corpus",
+      "pergunta": "como funciona a transferencia do direito de construir TDC e o calculo do potencial construtivo?",
+      "espera": { "fundamentada": false }
+    },
+    {
+      "id": "neg-iss-streaming",
+      "pergunta": "qual a aliquota do ISS sobre servicos de streaming de video?",
+      "espera": { "fundamentada": false }
+    }
+  ],
+  "vacinas": [
+    "LIMITE DO TIER KEYWORD (declarado): para 'a PARTIR DE QUANDO a tabela do art. 3 produz efeitos', o retrieval keyword devolve o Art. 3 (assunto) e nao o Art. 11 (que fixa 1/jan/1969). Resposta de DATA-DE-VIGENCIA por remissao entre artigos exige a camada semantica/grafo de remissoes (extensao futura), nao o keyword puro. Por isso NAO esta entre os positivos: nao inflar capacidade que o tier atual nao tem (RO honestidade)."
+  ]
+}

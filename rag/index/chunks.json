@@ -1,0 +1,312 @@
+{
+  "lei-municipal-saopaulo-7228-1968::001-preambulo": {
+    "chunk_id": "lei-municipal-saopaulo-7228-1968::001-preambulo",
+    "lei_id": "lei-municipal-saopaulo-7228-1968",
+    "tipo_dispositivo": "preambulo",
+    "rotulo": "Preâmbulo",
+    "numero": null,
+    "caminho_hierarquico": [],
+    "texto": "LEI Nº 7.228 DE 12 DE DEZEMBRO DE 1968\n\nAltera dispositivos da Lei nº 6.989, de 29 de dezembro de 1966, e dá outras providências.\n\nJosé Vicente de Faria Lima, Prefeito do Município de São Paulo, de acordo com o disposto no artigo 20 da Lei Estadual nº 9842, de 19 de setembro de 1967, promulga a seguinte Lei:",
+    "citacao": {
+      "norma": "lei_ordinaria nº 7.228/1968 — São Paulo/SP",
+      "dispositivo": "Preâmbulo",
+      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-7228-de-12-de-dezembro-de-1968",
+      "vigencia": {
+        "em_vigor": true,
+        "observacao": "Vigente como norma alteradora; efeitos incorporados ao texto consolidado da Lei 6.989/1966."
+      }
+    },
+    "tema": [
+      "IPTU",
+      "codigo_tributario"
+    ],
+    "jurisdicao": "São Paulo/SP",
+    "ementa": "Altera dispositivos da Lei nº 6.989, de 29 de dezembro de 1966, e dá outras providências."
+  },
+  "lei-municipal-saopaulo-7228-1968::002-art-1o": {
+    "chunk_id": "lei-municipal-saopaulo-7228-1968::002-art-1o",
+    "lei_id": "lei-municipal-saopaulo-7228-1968",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 1º",
+    "numero": "1",
+    "caminho_hierarquico": [
+      "Art. 1º"
+    ],
+    "texto": "Art. 1º A Lei nº 6989, de 29 de dezembro de 1966, é alterada na forma a seguir descrita:\n\nI - Fica revogado o item III do artigo 1º, passando os atuais IV, V, VI, VII, VIII, IX, X e XI a constituírem os itens III, IV, V, VI, VII, VIII, IX e X.\n\nII - Fica revogado o item IV do artigo 8º, passando os atuais V, VI e VII a constituírem os itens IV, V e VI;\n\nIII - o parágrafo 2º do artigo 8º, passa a ter a seguinte redação:\n\n\"§ 2º O valor venal determinado na forma deste artigo não poderá ser inferior ao preço decorrente do valor unitário fixado para efeito de desapropriação amigável ou judicial, proporcionalmente à parte expropriada e à parte remanescente do imóvel;\"\n\nIV - fica revogado o item VI do § 1º do artigo 11, passando os atuais VII e VIII a constituírem os itens VI e VII;\n\nV - fica revogado o item III do artigo 12, passando o atual IV a constituir o item III;\n\nVI - o parágrafo único do artigo 12 passa a ter a seguinte redação:\n\n\"Parágrafo Único - A inobservância no disposto neste artigo acarretará o acréscimo de 20% (vinte por cento) no montante do imposto devido, acréscimo este que vigorará até o exercício no qual o sujeito passivo faça a declaração;\"\n\nVII - o item II do artigo 61 passa a ter a seguinte redação:\n\n\"II - proprietário de uma única viatura de aluguel, dirigida por ele próprio, no transporte de passageiros, sem qualquer auxiliar ou associado;\"\n\nVIII - o artigo 77 passa a ter a seguinte redação:\n\n\"Art. 77 - As infrações serão punidas com multa:\n\nI - de valor igual ao do imposto, observada a imposição mínima de importância equivalente à metade do salário mínimo vigente no Município;\n\na) aos que, sujeitos ao pagamento do imposto por estimativa, sonegarem documentos necessários à fixação do valor estimado do imposto;\n\nb) aos que, sujeitos à escrita fiscal, deixarem de lançar, no livro próprio, o imposto devido;\n\nc) aos que, sujeitos à emissão de nota fiscal, deixarem de emiti-la em operação tributada;\n\nd) aos que, sujeitos ao pagamento do imposto, sonegarem ou destruírem documentos de controle interno ou fiscais, necessários à apuração do montante do imposto devido;\n\nII - de 20% (vinte por cento) sobre o montante do imposto, aos que deixarem de efetuar o recolhimento deste nos prazos regulamentares, além de incorrerem em mora à razão de 1% (um por cento) ao mês, a partir do mês seguinte ao do vencimento e em correção monetária, sem prejuízo das custas e demais despesas judiciais;\n\nIII - de 10% (dez por cento) do valor tributável, aos que, não obrigados ao pagamento do imposto, deixarem de emitir nota fiscal ou outros documentos de controle exigidos por esta Lei;\n\nIV - igual ao valor tributável, aos que emitirem nota fiscal que corresponda a uma operação não tributada ou isenta, e aos que, em proveito próprio ou alheio, se utilizarem dessas notas para produção de qualquer efeito fiscal;\n\nV - igual à metade do salário mínimo vigente no Município, aos que, por qualquer forma, embaraçarem ou iludirem a ação fiscal ou se recusarem a apresentar livros ou papéis exigidos pela legislação municipal;\n\nVI - igual ao valor do imposto, aos que não retiverem o montante do imposto devido sobre o total da operação;\n\nVII - igual ao dobro do montante do imposto devido sobre a operação, aos que não recolherem, no prazo regulamentar, o imposto retido do prestador de serviços;\n\nVIII - igual ao valor do salário mínimo vigente no Município;\n\na) aos que não apuserem, na forma regulamentar, o número de inscrição nas guias de recolhimento do imposto, ou o apuserem com incorreção ou imperfeitamente;\n\nb) aos que, obrigados ao pagamento do imposto, não se acharem inscritos no Cadastro Fiscal de Serviços;\n\nIX - igual a um terço do salário mínimo vigente no Município, aos que cometerem infração para a qual não haja penalidade específica neste Capítulo.\n\nParágrafo Único - Nos casos do inciso I, se a infração resultar de artifício doloso ou aparentar evidente intuito de fraude, a multa será agravada de três vezes o valor do imposto devido, e nunca inferior a 150% (cento e cinquenta por cento) do salário mínimo vigente no Município;\"\n\nIX - o item I do Capítulo IV, Taxas de Licença, passa a ter a seguinte redação:\n\n\"I - TAXA DE LICENÇA PARA LOCALIZAÇÃO FUNCIONAMENTO E INSTALAÇÃO DE ATIVIDADES COMERCIAIS, INDUSTRIAIS, PROFISSIONAIS, DE PRESTAÇÃO DE SERVIÇOS E SIMILARES.\"\n\nX - o artigo 126 passa a ter a seguinte redação:\n\n\"Art. 126 - Fundada no poder de polícia do Município, a taxa de licença para localização, funcionamento ou instalação de atividades comerciais, industriais, profissionais, de prestação de serviços e similares, tem como fato gerador o licenciamento obrigatório daquelas ou o seu ordenamento e fiscalização quanto às posturas edilícias e administrativas constantes da legislação municipal, relativas à higiene, saúde, segurança, moralidade e sossego públicos.\n\n§ 1º Incluem-se nas disposições desta taxa as atividades exercidas por comerciantes, industriais, profissionais ou prestadores de serviços, estabelecidos ou não, inclusive os ambulantes que negociarem nas feira-livres, sem prejuízo, quanto a estes últimos, do pagamento do preço da ocupação de área em via ou logradouro público do Município.\n\n§ 2º O mero exercício da fiscalização das posturas municipais implica, sem exceção, na incidência da taxa;\"\n\nXI - o artigo 128 passa a ter a seguinte redação:\n\n\"Art. 128 - Sujeitos passivos da taxa são as pessoas físicas ou jurídicas que exercem qualquer das atividades referidas no artigo 126;\"\n\nXII - o artigo 130 passa a ter a seguinte redação; acrescentando-se lhe parágrafo:\n\n\"Art. 130 - A licença extraordinária de antecipação ou prorrogação e a de dias excetuados poderá ser outorgada a pessoas físicas ou jurídicas que explorem qualquer das atividades referidas no art. 126.\n\nParágrafo Único - A licença extraordinária de que trata este artigo, só será concedida, desde que assegurada a fiel observância da legislação federal, estadual e municipal, especialmente a relativa ao trabalho e ao sossego público, operando-se seu cancelamento em caso de infração.\"\n\nXIII - fica revogado o parágrafo 2º do artigo 168, passando o atual 1º a constituir parágrafo único.",
+    "citacao": {
+      "norma": "lei_ordinaria nº 7.228/1968 — São Paulo/SP",
+      "dispositivo": "Art. 1º",
+      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-7228-de-12-de-dezembro-de-1968",
+      "vigencia": {
+        "em_vigor": true,
+        "observacao": "Vigente como norma alteradora; efeitos incorporados ao texto consolidado da Lei 6.989/1966."
+      }
+    },
+    "tema": [
+      "IPTU",
+      "codigo_tributario"
+    ],
+    "jurisdicao": "São Paulo/SP",
+    "ementa": "Altera dispositivos da Lei nº 6.989, de 29 de dezembro de 1966, e dá outras providências."
+  },
+  "lei-municipal-saopaulo-7228-1968::003-art-2o": {
+    "chunk_id": "lei-municipal-saopaulo-7228-1968::003-art-2o",
+    "lei_id": "lei-municipal-saopaulo-7228-1968",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 2º",
+    "numero": "2",
+    "caminho_hierarquico": [
+      "Art. 2º"
+    ],
+    "texto": "Art. 2º A tabela a que se refere o artigo 53 da Lei nº 6.989, de 29 de dezembro de 1966, e substituída pelo artigo 1º da Lei nº 7.047, de 6 de setembro de 1967, fica acrescida dos seguintes itens.\n\nVI - BARBEIROS (por profissional ou por cadeira, o que for em maior número):\n\n1ª e 2ª zonas - NCr$ 25,00, por trimestre, adiantadamente;\n\n3ª zona - NCr$ 17,50, por trimestre, adiantadamente;\n\nzona rural - NCr$ 12,50, por trimestre, adiantadamente.\n\nVII - CABELEIREIROS OU INSTITUTOS DE BELEZA (por profissional ou por secador, o que for em maior número):\n\n1ª e 2ª zonas - NCr$ 30,00, por trimestre, adiantadamente;\n\n3ª zona - NCr$ 22,50, por trimestre, adiantadamente;\n\nzona rural - NCr$ 15,00, por trimestre, adiantadamente.",
+    "citacao": {
+      "norma": "lei_ordinaria nº 7.228/1968 — São Paulo/SP",
+      "dispositivo": "Art. 2º",
+      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-7228-de-12-de-dezembro-de-1968",
+      "vigencia": {
+        "em_vigor": true,
+        "observacao": "Vigente como norma alteradora; efeitos incorporados ao texto consolidado da Lei 6.989/1966."
+      }
+    },
+    "tema": [
+      "IPTU",
+      "codigo_tributario"
+    ],
+    "jurisdicao": "São Paulo/SP",
+    "ementa": "Altera dispositivos da Lei nº 6.989, de 29 de dezembro de 1966, e dá outras providências."
+  },
+  "lei-municipal-saopaulo-7228-1968::004-art-3o": {
+    "chunk_id": "lei-municipal-saopaulo-7228-1968::004-art-3o",
+    "lei_id": "lei-municipal-saopaulo-7228-1968",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 3º",
+    "numero": "3",
+    "caminho_hierarquico": [
+      "Art. 3º"
+    ],
+    "texto": "Art. 3º As tabelas em vigor da taxa de conservação de vias e logradouros públicos e da taxa de licença para tráfego de veículos, a que se referem, respectivamente, os artigos 94, item II, e 136, item I, da Lei nº 6.989, de 29 de dezembro de 1966, ficam alteradas, a saber:\n\nA - TAXA DE CONSERVAÇÃO\n\na) automóveis:\n\naté 100 HP...NCr$ 30,00\n\nde mais de 100 até 200 HP...NCr$ 60,00\n\nde mais de 200 HP...NCr$ 150,00\n\nb) ônibus:\n\naté 30 passageiros...NCr$ 40,00\n\nde mais de 30 passageiros...NCr$ 80,00\n\nc) caminhões e tratores com semi-trailler ou reboque:\n\naté 3 toneladas...NCr$ 50,00\n\nde mais de 3 a 12 toneladas...NCr$ 100,00\n\nde mais de 12 a 30 toneladas...NCr$ 150,00\n\nde mais de 30 toneladas...NCr$ 250,00\n\nd) veículos de tração animal:\n\ncom aros pneumáticos...NCr$ 10,00\n\ncom aros metálicos...NCr$ 50,00\n\nB - TAXA DE LICENÇA\n\n\"I Veículos Terrestres:\n\na) automóveis...NCr$ 20,00\n\nb) ônibus...NCr$ 30,00\n\nc) caminhões e tratores, com semi-trailler ou reboque...NCr$ 30,00\n\nd) motociclos...NCr$ 15,00\n\ne) bicicletas...NCr$ 10,00\n\nf) triciclos...NCr$ 10,00\n\ng) veículos de tração animal...NCr$ 10,00\n\nh) carrinhos de mão NCr$ 10,00\"",
+    "citacao": {
+      "norma": "lei_ordinaria nº 7.228/1968 — São Paulo/SP",
+      "dispositivo": "Art. 3º",
+      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-7228-de-12-de-dezembro-de-1968",
+      "vigencia": {
+        "em_vigor": true,
+        "observacao": "Vigente como norma alteradora; efeitos incorporados ao texto consolidado da Lei 6.989/1966."
+      }
+    },
+    "tema": [
+      "IPTU",
+      "codigo_tributario"
+    ],
+    "jurisdicao": "São Paulo/SP",
+    "ementa": "Altera dispositivos da Lei nº 6.989, de 29 de dezembro de 1966, e dá outras providências."
+  },
+  "lei-municipal-saopaulo-7228-1968::005-art-4o": {
+    "chunk_id": "lei-municipal-saopaulo-7228-1968::005-art-4o",
+    "lei_id": "lei-municipal-saopaulo-7228-1968",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 4º",
+    "numero": "4",
+    "caminho_hierarquico": [
+      "Art. 4º"
+    ],
+    "texto": "Art. 4º O artigo 10 da Lei nº 7.047, de 6 de setembro de 1967, passa a ter a seguinte redação:\n\n\"Art. 10 - A taxa de licença para localização, funcionamento e instalação de atividades comerciais, industriais, profissionais, de prestação de serviços e similares é lançada anualmente no nome do sujeito passivo:\n\nI - a primeira vez, à vista dos elementos constantes do for mulário de inscrição;\n\nII - a de renovação anual, à vista do lançamento relativo ao exercício anterior.\n\nParágrafo Único - A taxa é lançada a título precário, podendo a licença ser cassada sempre que expedida em desacordo com a legislação municipal, sem prejuízo do disposto no artigo 16.\"",
+    "citacao": {
+      "norma": "lei_ordinaria nº 7.228/1968 — São Paulo/SP",
+      "dispositivo": "Art. 4º",
+      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-7228-de-12-de-dezembro-de-1968",
+      "vigencia": {
+        "em_vigor": true,
+        "observacao": "Vigente como norma alteradora; efeitos incorporados ao texto consolidado da Lei 6.989/1966."
+      }
+    },
+    "tema": [
+      "IPTU",
+      "codigo_tributario"
+    ],
+    "jurisdicao": "São Paulo/SP",
+    "ementa": "Altera dispositivos da Lei nº 6.989, de 29 de dezembro de 1966, e dá outras providências."
+  },
+  "lei-municipal-saopaulo-7228-1968::006-art-5o": {
+    "chunk_id": "lei-municipal-saopaulo-7228-1968::006-art-5o",
+    "lei_id": "lei-municipal-saopaulo-7228-1968",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 5º",
+    "numero": "5",
+    "caminho_hierarquico": [
+      "Art. 5º"
+    ],
+    "texto": "Art. 5º A atualização, em 1969, do valor venal de imóvel que sirva, exclusivamente, de residência do respectivo proprietário enfiteuta, usufrutuário, fiduciário ou compromissário comprador, não poderá exceder a 30% (trinta por cento) do valor venal constante do lançamento no exercício de 1968.",
+    "citacao": {
+      "norma": "lei_ordinaria nº 7.228/1968 — São Paulo/SP",
+      "dispositivo": "Art. 5º",
+      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-7228-de-12-de-dezembro-de-1968",
+      "vigencia": {
+        "em_vigor": true,
+        "observacao": "Vigente como norma alteradora; efeitos incorporados ao texto consolidado da Lei 6.989/1966."
+      }
+    },
+    "tema": [
+      "IPTU",
+      "codigo_tributario"
+    ],
+    "jurisdicao": "São Paulo/SP",
+    "ementa": "Altera dispositivos da Lei nº 6.989, de 29 de dezembro de 1966, e dá outras providências."
+  },
+  "lei-municipal-saopaulo-7228-1968::007-art-6o": {
+    "chunk_id": "lei-municipal-saopaulo-7228-1968::007-art-6o",
+    "lei_id": "lei-municipal-saopaulo-7228-1968",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 6º",
+    "numero": "6",
+    "caminho_hierarquico": [
+      "Art. 6º"
+    ],
+    "texto": "Art. 6º Nenhum lançamento do imposto predial referente a imóvel construído, devidamente inscrito, será inferior ao montante devido, àquele título, no exercício de 1967, salvo ocorrendo modificação substancial nas características do imóvel.",
+    "citacao": {
+      "norma": "lei_ordinaria nº 7.228/1968 — São Paulo/SP",
+      "dispositivo": "Art. 6º",
+      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-7228-de-12-de-dezembro-de-1968",
+      "vigencia": {
+        "em_vigor": true,
+        "observacao": "Vigente como norma alteradora; efeitos incorporados ao texto consolidado da Lei 6.989/1966."
+      }
+    },
+    "tema": [
+      "IPTU",
+      "codigo_tributario"
+    ],
+    "jurisdicao": "São Paulo/SP",
+    "ementa": "Altera dispositivos da Lei nº 6.989, de 29 de dezembro de 1966, e dá outras providências."
+  },
+  "lei-municipal-saopaulo-7228-1968::008-art-7o": {
+    "chunk_id": "lei-municipal-saopaulo-7228-1968::008-art-7o",
+    "lei_id": "lei-municipal-saopaulo-7228-1968",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 7º",
+    "numero": "7",
+    "caminho_hierarquico": [
+      "Art. 7º"
+    ],
+    "texto": "Art. 7º Ficam cancelados, para todos os efeitos:\n\nI - os débitos provenientes de lançamentos:\n\na) dos impostos predial e territorial urbano e das taxas de viação e sanitária correspondentes aos exercícios de 1940 a 1962;\n\nb) do imposto territorial rural relativo aos exercícios de 1962 a 1965;\n\nc) do imposto de indústrias e profissões referente aos exercícios de 1948 a 1961;\n\nd) dos impostos de licença para funcionamento de estabelecimentos comerciais, industriais e similares, e de licença para publicidade, concernentes aos exercícios de 1940 a 1966;\n\ne) do imposto de diversões públicas até o exercício de 1966;\n\nf) das taxas de pavimentação e de serviços preparatórios de pavimentação, cuja última prestação haja vencido no exercício de 1962;\n\ng) das multas por infração às posturas municipais, aplicadas até 31 de dezembro de 1965;\n\nII - os débitos oriundos de documentos de dívida tributária que tenham sido, até a data desta lei, incluídos no rol dos inviáveis.\n\nParágrafo Único - Será providenciado o arquivamento dos procedimentos judiciais que objetivem a cobrança dos débitos cancelados por esta Lei.",
+    "citacao": {
+      "norma": "lei_ordinaria nº 7.228/1968 — São Paulo/SP",
+      "dispositivo": "Art. 7º",
+      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-7228-de-12-de-dezembro-de-1968",
+      "vigencia": {
+        "em_vigor": true,
+        "observacao": "Vigente como norma alteradora; efeitos incorporados ao texto consolidado da Lei 6.989/1966."
+      }
+    },
+    "tema": [
+      "IPTU",
+      "codigo_tributario"
+    ],
+    "jurisdicao": "São Paulo/SP",
+    "ementa": "Altera dispositivos da Lei nº 6.989, de 29 de dezembro de 1966, e dá outras providências."
+  },
+  "lei-municipal-saopaulo-7228-1968::009-art-8o": {
+    "chunk_id": "lei-municipal-saopaulo-7228-1968::009-art-8o",
+    "lei_id": "lei-municipal-saopaulo-7228-1968",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 8º",
+    "numero": "8",
+    "caminho_hierarquico": [
+      "Art. 8º"
+    ],
+    "texto": "Art. 8º O disposto no artigo anterior não dá direito à restituição das importâncias pagas, no todo ou em parte, ou depositadas por conta dos débitos.",
+    "citacao": {
+      "norma": "lei_ordinaria nº 7.228/1968 — São Paulo/SP",
+      "dispositivo": "Art. 8º",
+      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-7228-de-12-de-dezembro-de-1968",
+      "vigencia": {
+        "em_vigor": true,
+        "observacao": "Vigente como norma alteradora; efeitos incorporados ao texto consolidado da Lei 6.989/1966."
+      }
+    },
+    "tema": [
+      "IPTU",
+      "codigo_tributario"
+    ],
+    "jurisdicao": "São Paulo/SP",
+    "ementa": "Altera dispositivos da Lei nº 6.989, de 29 de dezembro de 1966, e dá outras providências."
+  },
+  "lei-municipal-saopaulo-7228-1968::010-art-9o": {
+    "chunk_id": "lei-municipal-saopaulo-7228-1968::010-art-9o",
+    "lei_id": "lei-municipal-saopaulo-7228-1968",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 9º",
+    "numero": "9",
+    "caminho_hierarquico": [
+      "Art. 9º"
+    ],
+    "texto": "Art. 9º Mantidos os lançamentos do imposto de indústrias e profissões correspondentes aos exercícios de 1962 a 1966, não serão efetuados outros, ainda que omitido, complementares ou aditivos.\n\nParágrafo Único - Excetuam-se do disposto neste artigo as retificações, quando requeridas pelo contribuinte, e os casos sob apreciação judicial.",
+    "citacao": {
+      "norma": "lei_ordinaria nº 7.228/1968 — São Paulo/SP",
+      "dispositivo": "Art. 9º",
+      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-7228-de-12-de-dezembro-de-1968",
+      "vigencia": {
+        "em_vigor": true,
+        "observacao": "Vigente como norma alteradora; efeitos incorporados ao texto consolidado da Lei 6.989/1966."
+      }
+    },
+    "tema": [
+      "IPTU",
+      "codigo_tributario"
+    ],
+    "jurisdicao": "São Paulo/SP",
+    "ementa": "Altera dispositivos da Lei nº 6.989, de 29 de dezembro de 1966, e dá outras providências."
+  },
+  "lei-municipal-saopaulo-7228-1968::011-art-10o": {
+    "chunk_id": "lei-municipal-saopaulo-7228-1968::011-art-10o",
+    "lei_id": "lei-municipal-saopaulo-7228-1968",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 10º",
+    "numero": "10",
+    "caminho_hierarquico": [
+      "Art. 10º"
+    ],
+    "texto": "Art. 10 - Na fixação do valor dos tributos e das multas e na do \"quantum\" atualizado na forma do artigo 195 da Lei nº 6.989, de 29 de dezembro de 1966, com a redação que lhe deu o artigo 4º da Lei nº 6.999, de 20 de janeiro de 1967, serão desprezadas salvo o disposto no parágrafo único deste artigo as quantias iguais ou inferiores a NCr$ 0,05 (cinco centavos) e arredondados para dezena imediatamente superior as excedentes.\n\nParágrafo Único - Nos casos em que o valor do tributo seja calculado pela soma de importâncias ou alíquotas fixadas por unidade ou por metro quadrado ou linear, serão desprezadas, tão somente as quantias iguais ou inferiores a Ncr$ 0,005 (meio centavo) e arredondadas para o centavo imediatamente superior as excedentes àquela.",
+    "citacao": {
+      "norma": "lei_ordinaria nº 7.228/1968 — São Paulo/SP",
+      "dispositivo": "Art. 10º",
+      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-7228-de-12-de-dezembro-de-1968",
+      "vigencia": {
+        "em_vigor": true,
+        "observacao": "Vigente como norma alteradora; efeitos incorporados ao texto consolidado da Lei 6.989/1966."
+      }
+    },
+    "tema": [
+      "IPTU",
+      "codigo_tributario"
+    ],
+    "jurisdicao": "São Paulo/SP",
+    "ementa": "Altera dispositivos da Lei nº 6.989, de 29 de dezembro de 1966, e dá outras providências."
+  },
+  "lei-municipal-saopaulo-7228-1968::012-art-11o": {
+    "chunk_id": "lei-municipal-saopaulo-7228-1968::012-art-11o",
+    "lei_id": "lei-municipal-saopaulo-7228-1968",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 11º",
+    "numero": "11",
+    "caminho_hierarquico": [
+      "Art. 11º"
+    ],
+    "texto": "Art. 11 - Revogadas as disposições em contrário, esta Lei entrará em vigor na data de sua publicação, salvo o artigo 3º, que produzirá seus efeitos a partir de 1º de janeiro de 1969.\n\nPREFEITURA DO MUNICÍPIO DE SÃO PAULO, AOS 12 DE DEZEMBRO DE 1968, 415º DA FUNDAÇÃO DE SÃO PAULO.\n\nO Prefeito, JOSÉ VICENTE DE FARIA LIMA\n\nPublicada na Diretoria do Departamento de Administração do Município de São Paulo, em 12 de dezembro de 1968.\n\nEste texto não substitui o original publicado no Diário Oficial da Cidade de São Paulo\n\n</invoke>",
+    "citacao": {
+      "norma": "lei_ordinaria nº 7.228/1968 — São Paulo/SP",
+      "dispositivo": "Art. 11º",
+      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-7228-de-12-de-dezembro-de-1968",
+      "vigencia": {
+        "em_vigor": true,
+        "observacao": "Vigente como norma alteradora; efeitos incorporados ao texto consolidado da Lei 6.989/1966."
+      }
+    },
+    "tema": [
+      "IPTU",
+      "codigo_tributario"
+    ],
+    "jurisdicao": "São Paulo/SP",
+    "ementa": "Altera dispositivos da Lei nº 6.989, de 29 de dezembro de 1966, e dá outras providências."
+  }
+}

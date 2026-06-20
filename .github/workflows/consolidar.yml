@@ -1,15 +1,21 @@
 name: consolidar
 
-# Consolidação serial (Princípio 1.5): cada instância só CRIA arquivos por item;
-# esta Action REGENERA o MANIFESTO.json a cada push (determinístico, sem conflito).
-# Trazido pela Auditoria triplo-limpo do Escritório do MOU — 2026-06-19.
+# Consolidação serial (Princípio 1.5): cada instância só CRIA arquivos por item; esta Action
+# REGENERA os artefatos derivados a cada push (determinístico, sem conflito de Git):
+#   1. fatiar.py   -> rag/chunks/   (chunking estrutural por dispositivo das leis VERBATIM)
+#   2. indexar.py  -> rag/index/    (índice invertido BM25 + metadados p/ retrieval híbrido)
+#   3. consolidar.py -> MANIFESTO.json (estado de cada item)
+#   4. rodar-evals.py -> GATE (citação correta): falha o build se um ground-truth ATIVO quebrar.
+# Trazido pela Auditoria triplo-limpo (2026-06-19) + esteira RAG da instância PU (2026-06-20).
 
 on:
   push:
     paths:
       - "leis/**"
       - "jurisprudencia/**"
-      - "scripts/consolidar.py"
+      - "scripts/**"
+      - "evals/**"
+      - "rag/**"
       - ".github/workflows/consolidar.yml"
   workflow_dispatch:
 
@@ -24,16 +30,29 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.x"
+
+      - name: Fatiar leis verbatim (rag/chunks/)
+        run: python3 scripts/fatiar.py
+
+      - name: Indexar (rag/index/)
+        run: python3 scripts/indexar.py
+
       - name: Regenerar MANIFESTO.json
         run: python3 scripts/consolidar.py
-      - name: Commitar se mudou
+
+      - name: Commitar artefatos derivados se mudaram
         run: |
-          if ! git diff --quiet MANIFESTO.json; then
+          if ! git diff --quiet MANIFESTO.json rag/ leis/ ; then
             git config user.name  "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add MANIFESTO.json
-            git commit -m "consolidar: regenera MANIFESTO.json [skip ci]"
+            git add MANIFESTO.json rag/ leis/
+            git commit -m "consolidar: regenera MANIFESTO + índice RAG [skip ci]"
             git push
           else
-            echo "MANIFESTO.json já está atualizado."
+            echo "Artefatos derivados já estão atualizados."
           fi
+
+      # GATE de aceite (CLAUDE.md Parte 3 — validação): roda DEPOIS de reconstruir o índice.
+      # Falha o build se algum ground-truth ATIVO quebrar (os 'aguardando_verbatim' não bloqueiam).
+      - name: Evals (gate = citação correta)
+        run: python3 evals/rodar-evals.py

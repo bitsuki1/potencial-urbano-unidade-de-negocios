@@ -2,13 +2,229 @@
 
 **URL oficial:** https://legislacao.prefeitura.sp.gov.br/leis/lei-7228-de-12-de-dezembro-de-1968
 **Data de captura:** 2026-06-18
-
-> PROVENIENCIA: texto NAO-VERBATIM. O ambiente (sandbox) bloqueia WebFetch e curl para todos os hosts juridicos (.gov.br/.com.br/JusBrasil/leismunicipais retornam HTTP 403 por anti-bot, e o egress allowlist do shell bloqueia ate example.com). Conteudo abaixo foi extraido via WebSearch (resumos sourced do buscador), NAO do corpo integral da norma. REQUER re-captura verbatim do Catalogo de Legislacao Municipal a partir de ambiente com egress liberado. confianca_extracao=baixa.
+**Proveniência:** VERBATIM DE TELA — re-ingerido em 2026-06-20 a partir de `_entrada/misto/lei-municipal-saopaulo-7228-1968.txt` (o cru já estava local; supera a versão NÃO-VERBATIM anterior, que era resumo de WebSearch). Texto integral, fiel ao Diário Oficial.
+**confianca_extracao:** alta (articulado integral verbatim)
 
 ## Ementa
 
 Altera dispositivos da Lei nº 6.989, de 29 de dezembro de 1966, e dá outras providências.
 
-## Conteudo (resumo sourced, nao-verbatim)
+## Texto integral (verbatim)
 
-Norma alteradora do codigo tributario municipal (Lei 6.989/1966). Entre as alteracoes: revoga o item III do art. 1 da Lei 6.989/1966, renumerando os itens IV a XI como III a X. Texto integral dos demais dispositivos NAO verbatim.
+LEI Nº 7.228 DE 12 DE DEZEMBRO DE 1968
+
+Altera dispositivos da Lei nº 6.989, de 29 de dezembro de 1966, e dá outras providências.
+
+José Vicente de Faria Lima, Prefeito do Município de São Paulo, de acordo com o disposto no artigo 20 da Lei Estadual nº 9842, de 19 de setembro de 1967, promulga a seguinte Lei:
+
+Art. 1º A Lei nº 6989, de 29 de dezembro de 1966, é alterada na forma a seguir descrita:
+
+I - Fica revogado o item III do artigo 1º, passando os atuais IV, V, VI, VII, VIII, IX, X e XI a constituírem os itens III, IV, V, VI, VII, VIII, IX e X.
+
+II - Fica revogado o item IV do artigo 8º, passando os atuais V, VI e VII a constituírem os itens IV, V e VI;
+
+III - o parágrafo 2º do artigo 8º, passa a ter a seguinte redação:
+
+"§ 2º O valor venal determinado na forma deste artigo não poderá ser inferior ao preço decorrente do valor unitário fixado para efeito de desapropriação amigável ou judicial, proporcionalmente à parte expropriada e à parte remanescente do imóvel;"
+
+IV - fica revogado o item VI do § 1º do artigo 11, passando os atuais VII e VIII a constituírem os itens VI e VII;
+
+V - fica revogado o item III do artigo 12, passando o atual IV a constituir o item III;
+
+VI - o parágrafo único do artigo 12 passa a ter a seguinte redação:
+
+"Parágrafo Único - A inobservância no disposto neste artigo acarretará o acréscimo de 20% (vinte por cento) no montante do imposto devido, acréscimo este que vigorará até o exercício no qual o sujeito passivo faça a declaração;"
+
+VII - o item II do artigo 61 passa a ter a seguinte redação:
+
+"II - proprietário de uma única viatura de aluguel, dirigida por ele próprio, no transporte de passageiros, sem qualquer auxiliar ou associado;"
+
+VIII - o artigo 77 passa a ter a seguinte redação:
+
+"Art. 77 - As infrações serão punidas com multa:
+
+I - de valor igual ao do imposto, observada a imposição mínima de importância equivalente à metade do salário mínimo vigente no Município;
+
+a) aos que, sujeitos ao pagamento do imposto por estimativa, sonegarem documentos necessários à fixação do valor estimado do imposto;
+
+b) aos que, sujeitos à escrita fiscal, deixarem de lançar, no livro próprio, o imposto devido;
+
+c) aos que, sujeitos à emissão de nota fiscal, deixarem de emiti-la em operação tributada;
+
+d) aos que, sujeitos ao pagamento do imposto, sonegarem ou destruírem documentos de controle interno ou fiscais, necessários à apuração do montante do imposto devido;
+
+II - de 20% (vinte por cento) sobre o montante do imposto, aos que deixarem de efetuar o recolhimento deste nos prazos regulamentares, além de incorrerem em mora à razão de 1% (um por cento) ao mês, a partir do mês seguinte ao do vencimento e em correção monetária, sem prejuízo das custas e demais despesas judiciais;
+
+III - de 10% (dez por cento) do valor tributável, aos que, não obrigados ao pagamento do imposto, deixarem de emitir nota fiscal ou outros documentos de controle exigidos por esta Lei;
+
+IV - igual ao valor tributável, aos que emitirem nota fiscal que corresponda a uma operação não tributada ou isenta, e aos que, em proveito próprio ou alheio, se utilizarem dessas notas para produção de qualquer efeito fiscal;
+
+V - igual à metade do salário mínimo vigente no Município, aos que, por qualquer forma, embaraçarem ou iludirem a ação fiscal ou se recusarem a apresentar livros ou papéis exigidos pela legislação municipal;
+
+VI - igual ao valor do imposto, aos que não retiverem o montante do imposto devido sobre o total da operação;
+
+VII - igual ao dobro do montante do imposto devido sobre a operação, aos que não recolherem, no prazo regulamentar, o imposto retido do prestador de serviços;
+
+VIII - igual ao valor do salário mínimo vigente no Município;
+
+a) aos que não apuserem, na forma regulamentar, o número de inscrição nas guias de recolhimento do imposto, ou o apuserem com incorreção ou imperfeitamente;
+
+b) aos que, obrigados ao pagamento do imposto, não se acharem inscritos no Cadastro Fiscal de Serviços;
+
+IX - igual a um terço do salário mínimo vigente no Município, aos que cometerem infração para a qual não haja penalidade específica neste Capítulo.
+
+Parágrafo Único - Nos casos do inciso I, se a infração resultar de artifício doloso ou aparentar evidente intuito de fraude, a multa será agravada de três vezes o valor do imposto devido, e nunca inferior a 150% (cento e cinquenta por cento) do salário mínimo vigente no Município;"
+
+IX - o item I do Capítulo IV, Taxas de Licença, passa a ter a seguinte redação:
+
+"I - TAXA DE LICENÇA PARA LOCALIZAÇÃO FUNCIONAMENTO E INSTALAÇÃO DE ATIVIDADES COMERCIAIS, INDUSTRIAIS, PROFISSIONAIS, DE PRESTAÇÃO DE SERVIÇOS E SIMILARES."
+
+X - o artigo 126 passa a ter a seguinte redação:
+
+"Art. 126 - Fundada no poder de polícia do Município, a taxa de licença para localização, funcionamento ou instalação de atividades comerciais, industriais, profissionais, de prestação de serviços e similares, tem como fato gerador o licenciamento obrigatório daquelas ou o seu ordenamento e fiscalização quanto às posturas edilícias e administrativas constantes da legislação municipal, relativas à higiene, saúde, segurança, moralidade e sossego públicos.
+
+§ 1º Incluem-se nas disposições desta taxa as atividades exercidas por comerciantes, industriais, profissionais ou prestadores de serviços, estabelecidos ou não, inclusive os ambulantes que negociarem nas feira-livres, sem prejuízo, quanto a estes últimos, do pagamento do preço da ocupação de área em via ou logradouro público do Município.
+
+§ 2º O mero exercício da fiscalização das posturas municipais implica, sem exceção, na incidência da taxa;"
+
+XI - o artigo 128 passa a ter a seguinte redação:
+
+"Art. 128 - Sujeitos passivos da taxa são as pessoas físicas ou jurídicas que exercem qualquer das atividades referidas no artigo 126;"
+
+XII - o artigo 130 passa a ter a seguinte redação; acrescentando-se lhe parágrafo:
+
+"Art. 130 - A licença extraordinária de antecipação ou prorrogação e a de dias excetuados poderá ser outorgada a pessoas físicas ou jurídicas que explorem qualquer das atividades referidas no art. 126.
+
+Parágrafo Único - A licença extraordinária de que trata este artigo, só será concedida, desde que assegurada a fiel observância da legislação federal, estadual e municipal, especialmente a relativa ao trabalho e ao sossego público, operando-se seu cancelamento em caso de infração."
+
+XIII - fica revogado o parágrafo 2º do artigo 168, passando o atual 1º a constituir parágrafo único.
+
+Art. 2º A tabela a que se refere o artigo 53 da Lei nº 6.989, de 29 de dezembro de 1966, e substituída pelo artigo 1º da Lei nº 7.047, de 6 de setembro de 1967, fica acrescida dos seguintes itens.
+
+VI - BARBEIROS (por profissional ou por cadeira, o que for em maior número):
+
+1ª e 2ª zonas - NCr$ 25,00, por trimestre, adiantadamente;
+
+3ª zona - NCr$ 17,50, por trimestre, adiantadamente;
+
+zona rural - NCr$ 12,50, por trimestre, adiantadamente.
+
+VII - CABELEIREIROS OU INSTITUTOS DE BELEZA (por profissional ou por secador, o que for em maior número):
+
+1ª e 2ª zonas - NCr$ 30,00, por trimestre, adiantadamente;
+
+3ª zona - NCr$ 22,50, por trimestre, adiantadamente;
+
+zona rural - NCr$ 15,00, por trimestre, adiantadamente.
+
+Art. 3º As tabelas em vigor da taxa de conservação de vias e logradouros públicos e da taxa de licença para tráfego de veículos, a que se referem, respectivamente, os artigos 94, item II, e 136, item I, da Lei nº 6.989, de 29 de dezembro de 1966, ficam alteradas, a saber:
+
+A - TAXA DE CONSERVAÇÃO
+
+a) automóveis:
+
+até 100 HP...NCr$ 30,00
+
+de mais de 100 até 200 HP...NCr$ 60,00
+
+de mais de 200 HP...NCr$ 150,00
+
+b) ônibus:
+
+até 30 passageiros...NCr$ 40,00
+
+de mais de 30 passageiros...NCr$ 80,00
+
+c) caminhões e tratores com semi-trailler ou reboque:
+
+até 3 toneladas...NCr$ 50,00
+
+de mais de 3 a 12 toneladas...NCr$ 100,00
+
+de mais de 12 a 30 toneladas...NCr$ 150,00
+
+de mais de 30 toneladas...NCr$ 250,00
+
+d) veículos de tração animal:
+
+com aros pneumáticos...NCr$ 10,00
+
+com aros metálicos...NCr$ 50,00
+
+B - TAXA DE LICENÇA
+
+"I Veículos Terrestres:
+
+a) automóveis...NCr$ 20,00
+
+b) ônibus...NCr$ 30,00
+
+c) caminhões e tratores, com semi-trailler ou reboque...NCr$ 30,00
+
+d) motociclos...NCr$ 15,00
+
+e) bicicletas...NCr$ 10,00
+
+f) triciclos...NCr$ 10,00
+
+g) veículos de tração animal...NCr$ 10,00
+
+h) carrinhos de mão NCr$ 10,00"
+
+Art. 4º O artigo 10 da Lei nº 7.047, de 6 de setembro de 1967, passa a ter a seguinte redação:
+
+"Art. 10 - A taxa de licença para localização, funcionamento e instalação de atividades comerciais, industriais, profissionais, de prestação de serviços e similares é lançada anualmente no nome do sujeito passivo:
+
+I - a primeira vez, à vista dos elementos constantes do for mulário de inscrição;
+
+II - a de renovação anual, à vista do lançamento relativo ao exercício anterior.
+
+Parágrafo Único - A taxa é lançada a título precário, podendo a licença ser cassada sempre que expedida em desacordo com a legislação municipal, sem prejuízo do disposto no artigo 16."
+
+Art. 5º A atualização, em 1969, do valor venal de imóvel que sirva, exclusivamente, de residência do respectivo proprietário enfiteuta, usufrutuário, fiduciário ou compromissário comprador, não poderá exceder a 30% (trinta por cento) do valor venal constante do lançamento no exercício de 1968.
+
+Art. 6º Nenhum lançamento do imposto predial referente a imóvel construído, devidamente inscrito, será inferior ao montante devido, àquele título, no exercício de 1967, salvo ocorrendo modificação substancial nas características do imóvel.
+
+Art. 7º Ficam cancelados, para todos os efeitos:
+
+I - os débitos provenientes de lançamentos:
+
+a) dos impostos predial e territorial urbano e das taxas de viação e sanitária correspondentes aos exercícios de 1940 a 1962;
+
+b) do imposto territorial rural relativo aos exercícios de 1962 a 1965;
+
+c) do imposto de indústrias e profissões referente aos exercícios de 1948 a 1961;
+
+d) dos impostos de licença para funcionamento de estabelecimentos comerciais, industriais e similares, e de licença para publicidade, concernentes aos exercícios de 1940 a 1966;
+
+e) do imposto de diversões públicas até o exercício de 1966;
+
+f) das taxas de pavimentação e de serviços preparatórios de pavimentação, cuja última prestação haja vencido no exercício de 1962;
+
+g) das multas por infração às posturas municipais, aplicadas até 31 de dezembro de 1965;
+
+II - os débitos oriundos de documentos de dívida tributária que tenham sido, até a data desta lei, incluídos no rol dos inviáveis.
+
+Parágrafo Único - Será providenciado o arquivamento dos procedimentos judiciais que objetivem a cobrança dos débitos cancelados por esta Lei.
+
+Art. 8º O disposto no artigo anterior não dá direito à restituição das importâncias pagas, no todo ou em parte, ou depositadas por conta dos débitos.
+
+Art. 9º Mantidos os lançamentos do imposto de indústrias e profissões correspondentes aos exercícios de 1962 a 1966, não serão efetuados outros, ainda que omitido, complementares ou aditivos.
+
+Parágrafo Único - Excetuam-se do disposto neste artigo as retificações, quando requeridas pelo contribuinte, e os casos sob apreciação judicial.
+
+Art. 10 - Na fixação do valor dos tributos e das multas e na do "quantum" atualizado na forma do artigo 195 da Lei nº 6.989, de 29 de dezembro de 1966, com a redação que lhe deu o artigo 4º da Lei nº 6.999, de 20 de janeiro de 1967, serão desprezadas salvo o disposto no parágrafo único deste artigo as quantias iguais ou inferiores a NCr$ 0,05 (cinco centavos) e arredondados para dezena imediatamente superior as excedentes.
+
+Parágrafo Único - Nos casos em que o valor do tributo seja calculado pela soma de importâncias ou alíquotas fixadas por unidade ou por metro quadrado ou linear, serão desprezadas, tão somente as quantias iguais ou inferiores a Ncr$ 0,005 (meio centavo) e arredondadas para o centavo imediatamente superior as excedentes àquela.
+
+Art. 11 - Revogadas as disposições em contrário, esta Lei entrará em vigor na data de sua publicação, salvo o artigo 3º, que produzirá seus efeitos a partir de 1º de janeiro de 1969.
+
+PREFEITURA DO MUNICÍPIO DE SÃO PAULO, AOS 12 DE DEZEMBRO DE 1968, 415º DA FUNDAÇÃO DE SÃO PAULO.
+
+O Prefeito, JOSÉ VICENTE DE FARIA LIMA
+
+Publicada na Diretoria do Departamento de Administração do Município de São Paulo, em 12 de dezembro de 1968.
+
+Este texto não substitui o original publicado no Diário Oficial da Cidade de São Paulo
+
+</invoke>

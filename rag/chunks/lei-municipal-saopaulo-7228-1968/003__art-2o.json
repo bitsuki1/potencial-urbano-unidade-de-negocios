@@ -1,0 +1,26 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-7228-1968::003-art-2o",
+  "lei_id": "lei-municipal-saopaulo-7228-1968",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 2º",
+  "numero": "2",
+  "caminho_hierarquico": [
+    "Art. 2º"
+  ],
+  "texto": "Art. 2º A tabela a que se refere o artigo 53 da Lei nº 6.989, de 29 de dezembro de 1966, e substituída pelo artigo 1º da Lei nº 7.047, de 6 de setembro de 1967, fica acrescida dos seguintes itens.\n\nVI - BARBEIROS (por profissional ou por cadeira, o que for em maior número):\n\n1ª e 2ª zonas - NCr$ 25,00, por trimestre, adiantadamente;\n\n3ª zona - NCr$ 17,50, por trimestre, adiantadamente;\n\nzona rural - NCr$ 12,50, por trimestre, adiantadamente.\n\nVII - CABELEIREIROS OU INSTITUTOS DE BELEZA (por profissional ou por secador, o que for em maior número):\n\n1ª e 2ª zonas - NCr$ 30,00, por trimestre, adiantadamente;\n\n3ª zona - NCr$ 22,50, por trimestre, adiantadamente;\n\nzona rural - NCr$ 15,00, por trimestre, adiantadamente.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 7.228/1968 — São Paulo/SP",
+    "dispositivo": "Art. 2º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-7228-de-12-de-dezembro-de-1968",
+    "vigencia": {
+      "em_vigor": true,
+      "observacao": "Vigente como norma alteradora; efeitos incorporados ao texto consolidado da Lei 6.989/1966."
+    }
+  },
+  "tema": [
+    "IPTU",
+    "codigo_tributario"
+  ],
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Altera dispositivos da Lei nº 6.989, de 29 de dezembro de 1966, e dá outras providências."
+}

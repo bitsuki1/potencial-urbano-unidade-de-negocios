@@ -6,15 +6,18 @@
 > Doutrina: zero-compressão · dialético · agnosticismo · nada se descarta. Não AFINAR sem destravar.
 
 ## Estado em 2026-06-20 (verificado)
-- **Corpus:** 59 itens — 27 leis (12 federais + 15 municipais, todas `bruto`; **articulado integral NÃO é verbatim** — ementa + dispositivo-chave + síntese, ver P2) + 32 jurisprudências verbatim (`tagueado`). 57 no escopo + 2 fora (`stf-tema-1020`=ISS, `stj-resp-1658054`=previdenciário).
-- **MANIFESTO.json:** vivo e idempotente; Action `consolidar.yml` ligada (regenera a cada push, sem loop).
+- **Corpus:** 59 itens — 27 leis (12 federais + 15 municipais) + 32 jurisprudências verbatim (`tagueado`). 57 no escopo + 2 fora (`stf-tema-1020`=ISS, `stj-resp-1658054`=previdenciário). Das 27 leis: **1 `indexado`** (Lei 7.228/1968, re-ingerida VERBATIM + fatiada + indexada nesta passada) e **26 `bruto`** (articulado integral ainda NÃO-verbatim — ementa+dispositivo-chave+síntese, ver P2).
+- **★ A ESTEIRA RAG EXISTE E FOI PROVADA FIM-A-FIM (2026-06-20).** Antes `rag/` estava a 0%. Agora há tubo determinístico: `scripts/fatiar.py` (chunking por dispositivo 2.5) → `scripts/indexar.py` (índice invertido BM25 + metadados 2.6) → `scripts/consultar.py` (retrieval híbrido com **citação obrigatória 1.7**, gate de cobertura para NÃO-FUNDAMENTADA) → `evals/rodar-evals.py` (gate = citação correta, Parte 3). **6/6 evals ATIVOS passam** sobre a Lei 7.228/1968; 3 evals de TDC ficam como spec `aguardando_verbatim` (ver P5). Sem LLM, sem embeddings, stdlib-only (1.3/1.4). Doc: `scripts/README.md`.
+- **MANIFESTO.json:** vivo e idempotente; Action `consolidar.yml` AGORA roda a cadeia inteira (fatiar→indexar→consolidar→**evals como gate**) a cada push, sem loop.
 - **Supabase** `potencial-urbano-iptu-tdc` (`csnalylpvysjvejgsymr`, sa-east-1): só `governanca` (de_para, registro_decisoes — vazios) + `public`/PostGIS. Schemas dos artefatos NÃO criados (de propósito, RO-23).
 - **Drive:** inventariado; ~16–20 GB de duplicatas mapeadas, executor de exclusão pronto (decisão MOU: EXCLUIR).
 
 ## PENDÊNCIAS (prioridade ↓)
 
-> ★ **DESTRAVE-MESTRE (auditoria Acionabilidade 2026-06-20):** o FIM do projeto é "responder consulta jurídica COM CITAÇÃO" (1.7) e ele está a **0%** (`rag/` vazio). O passo que mais destrava NÃO é P1. É uma **FATIA VERTICAL FINA de TDC**: pegar **1 lei municipal-SP**, re-ingerir verbatim → fatiar por dispositivo → indexar → **responder 1 consulta TDC com citação** contra ground-truth. Prova o tubo inteiro barato, entrega o 1º valor de PRODUTO (não mais saneamento) e revela onde o tubo quebra antes de investir nas 27 leis.
-> **Ordem honesta (D26):** P2→(fatia)→P5 é o caminho de PRODUTO. **P1 (Drive), P3 (fora-escopo), P6 (RLS) são HIGIENE — rodam em paralelo, não bloqueiam, não lideram a fila.**
+> ★ **DESTRAVE-MESTRE — PARCIALMENTE FEITO (2026-06-20, instância orquestradora PU).** A fatia vertical foi construída: o **TUBO** (re-ingestão verbatim → fatiar → indexar → consultar com citação → eval) existe e foi **provado fim-a-fim** sobre a Lei 7.228/1968 (6/6 evals ATIVOS verdes). O que prova: o tubo funciona, é barato (determinístico) e já se sabe ONDE ele quebra (ver "Onde o tubo quebra" abaixo).
+> **O QUE FALTA para a fatia ser de PRODUTO (TDC):** a 7.228/1968 é tributária-municipal (IPTU-adjacente), **não TDC** — foi a única lei com verbatim DISPONÍVEL no ambiente (`_entrada/misto/`). O corpus TDC (PDE 16.050/2014 etc.) segue **não-verbatim**, então a guarda-de-verbatim do `fatiar.py` corretamente o recusa. **Bloqueio real e único:** re-ingerir VERBATIM ≥1 norma de TDC. Egress p/ `.gov.br` = HTTP 403 e o Drive é lane exclusiva (cerca) → **esta instância não conseguiu obter verbatim TDC**. Assim que ele chegar, é rodar `fatiar`+`indexar` e os 3 evals `tdc-produto-pendente.json` viram o gate de aceite do produto — zero código novo.
+> **Onde o tubo quebra (achados da prova):** (a) TF bruto deixa artigo longo mascarar o relevante → resolvido com **BM25**; (b) match genérico fundamentaria falso-positivo → resolvido com **gate de cobertura** (NÃO-FUNDAMENTADA <34%); (c) **limite declarado do tier keyword**: data-de-vigência por remissão entre artigos (ex.: "a partir de quando vale o art. 3?") exige **grafo de remissões / camada semântica** — extensão futura, vacina gravada em `evals/ground-truth/iptu-7228-1968.json`.
+> **Ordem honesta (D26):** P2(verbatim TDC)→(roda o tubo, já pronto)→P5(engines/semântico) é o caminho de PRODUTO. **P1 (Drive), P3 (fora-escopo), P6 (RLS) são HIGIENE — rodam em paralelo, não bloqueiam, não lideram a fila.**
 
 ### P1 — Executar a exclusão das duplicatas no Drive (decisão MOU tomada: EXCLUIR)
 - Rodar `drive-arrumacao/Sanear-Duplicatas-PotencialUrbano.gs` (Apps Script): `DRY_RUN=true` → conferir Logs → `DRY_RUN=false` → executa (lixeira, recuperável ~30d).
@@ -22,10 +25,12 @@
 - VACINA: o script só apaga se a cópia canônica existir; Fase 2 só duplicata exata (nome+tamanho). Conferir que SIRGAS_SHP_LOTES (geometrias + `.prj`) ficou com ≥1 cópia.
 - Depois: re-rodar o catálogo do Drive e atualizar `docs/INVENTARIO-DRIVE-*.md` (IDs sobreviventes; a árvore foi achatada — os docs de 2026-06-18 descrevem estrutura que não existe mais).
 
-### P2 — Re-ingerir as 27 LEIS em VERBATIM INTEGRAL (lacuna probatória — pré-requisito do RAG)
-- **NENHUMA das 27 leis tem o articulado INTEGRAL verbatim** (planalto/espelhos deram HTTP 403): cada `.md` tem ementa + dispositivos-chave + síntese, com o aviso "Texto INTEGRAL não baixado". As 4 federais `confianca:alta` têm só o ARTIGO-CHAVE verbatim; o resto é síntese. (As 32 jurisprudências — súmulas/teses curtas — SIM são verbatim.) Re-ingerir o texto integral das **27 leis** (12 federais + 15 municipais) é pré-requisito para o RAG citar (Princípio 1.7/1.2). Ver `MANIFESTO.json` `alertas.itens_confianca_baixa_ou_media_a_revisar`.
-- Fonte: os PDFs já estão no Drive (catalogo `inventario/catalogo-juridico-drive.csv`) — é **re-ingestão interna, não captura externa**. (Neste ambiente o egress p/ `.gov.br` é bloqueado; usar o Drive como fonte.) **Atalho p/ `7228-1968`:** o cru verbatim (~13,8 KB) já está em `_entrada/misto/lei-municipal-saopaulo-7228-1968.txt` — re-ingerir desse local, não precisa do Drive.
-- IDs das 15: 7228-1968, 10235-1986, 10365-1987, 11152-1991, 11338-1992, 12350-1997, 13250-2001, 13475-2002, 14865-2008, 15044-2009, 16050-2014, 17202-2019, 17577-2021, 17759-2022, 17844-2022.
+### P2 — Re-ingerir as LEIS em VERBATIM INTEGRAL (lacuna probatória — pré-requisito do RAG)
+- **FEITO nesta passada: `7228-1968`** re-ingerido verbatim integral (de `_entrada/misto/`), `confianca:alta`, fatiado+indexado (1ª lei a passar de `tagueado`). **Faltam 26** (12 federais + 14 municipais) ainda `bruto`/não-verbatim. Cada `.md` não-verbatim tem ementa + dispositivos-chave + síntese; a guarda do `fatiar.py` os recusa até virarem verbatim (1.7/1.2). Ver `MANIFESTO.json` `alertas.itens_confianca_baixa_ou_media_a_revisar` (25 restantes).
+- **Prioridade (D-PU-3 = TDC):** re-ingerir PRIMEIRO o corpus TDC verbatim (PDE 16.050/2014 e correlatas) — é o que destrava a fatia de PRODUTO (os 3 evals `tdc-produto-pendente.json` já esperam por ele). As demais municipais/federais vêm depois.
+- Fonte: PDFs no Drive (catálogo `inventario/catalogo-juridico-drive.csv`) — **re-ingestão interna**. **MAS:** neste ambiente o egress p/ `.gov.br` deu 403 E o Drive é **lane exclusiva** (cerca anti-conflito) → para obter verbatim do Drive, **abrir pedido ao Drive** (`escritorio-do-mou/caixa-de-entrada/drive/PEDIDOS-AO-DRIVE.md`) OU rodar de ambiente com egress liberado. **Padrão de re-ingestão já provado:** salvar o cru em `_entrada/`, escrever `leis/<id>.md` com cabeçalho `## Texto integral (verbatim)` + `.json` `confianca:"alta"`, rodar `scripts/fatiar.py`.
+- **Gatilho V-2:** ao re-ingerir em lote, avaliar Gemini (contexto grande) p/ enumerar/puxar os links do corpus do Drive de uma vez.
+- IDs das 15 municipais: 7228-1968 ✅, 10235-1986, 10365-1987, 11152-1991, 11338-1992, 12350-1997, 13250-2001, 13475-2002, 14865-2008, 15044-2009, 16050-2014, 17202-2019, 17577-2021, 17759-2022, 17844-2022.
 
 ### P3 — Decidir/segregar os 2 itens fora de escopo (decisão MOU)
 - `stf-tema-1020` (é ISS, não IPTU) → realocar para corpus ISS ou remover. `stj-resp-1658054` (previdenciário; nº do REsp NÃO verificado) → confirmar o número ou arquivar como ponto cego. Ambos já sinalizados no MANIFESTO; falta a decisão.
@@ -33,10 +38,12 @@
 ### P4 — Base inicial = TDC ✅ (decidido pelo MOU)
 - **RESOLVIDO 2026-06-20:** o MOU confirmou **a base inicial é TDC**. O pipeline começa por TDC; o ground-truth e a validação concentram em TDC primeiro; IPTU vem depois (o pipeline replica). Encerra a divergência M-24/M-49. (D-PU-3 = TDC.)
 
-### P5 — Avançar a esteira (trabalho dos Gens — AFINAR, só após P1–P2)
-- Fatiamento estrutural (`bruto/tagueado → fatiado → indexado`): chunking por dispositivo (CLAUDE.md 2.5), popular `rag/chunks` + `rag/index`.
-- Criar os schemas dos 4 artefatos + geo + rag no Supabase (só após organização aprovada, RO-23) e estender `consolidar.yml` p/ índice RAG + mestres de tese.
-- Engines determinísticos (IPTU progressivo, valuation TDC) — número nasce no engine (1.3).
+### P5 — Avançar a esteira (trabalho dos Gens)
+- [x] **Fatiamento estrutural + índice RAG + consulta com citação — FEITO** (`scripts/fatiar.py`, `indexar.py`, `consultar.py`, `evals/`). Chunking por dispositivo (2.5), retrieval híbrido (2.6), gate 1.7. `consolidar.yml` estendido p/ rodar a cadeia + evals como gate. Doc: `scripts/README.md`.
+- [ ] **Replicar o tubo ao corpus TDC** assim que o verbatim chegar (P2): zero código novo — `fatiar`+`indexar`, e os evals `tdc-produto-pendente.json` viram aceite.
+- [ ] **Camada semântica (embeddings) + grafo de remissões** — extensão plugável no mesmo índice; destrava perguntas que o keyword puro não resolve (vacina em `evals/ground-truth/iptu-7228-1968.json`).
+- [ ] Criar os schemas dos 4 artefatos + geo + rag no Supabase (só após organização aprovada, RO-23) e estender `consolidar.yml` p/ mestres de tese.
+- [ ] Engines determinísticos (IPTU progressivo, valuation TDC) — número nasce no engine (1.3).
 
 ### P6 — Segurança Supabase (ação física do MOU — não dá pra fazer por SQL)
 - Advisory: `public.spatial_ref_sys` com RLS off (tabela de sistema do PostGIS, dado público).
@@ -57,6 +64,7 @@
 - **V-2 (Gemini p/ corpus) — agora é TAREFA com gatilho:** ao ir re-ingerir as 27 leis, AVALIAR usar Gemini (contexto grande) para enumerar/puxar os links do corpus do Drive de uma vez. Dono: a instância que rodar o P2.
 
 ## Mapa de arquivos-chave (pontos de entrada)
+- **Esteira RAG (NOVO 2026-06-20):** `scripts/README.md` (visão) · `scripts/fatiar.py` · `scripts/indexar.py` · `scripts/consultar.py` · `scripts/_texto.py` · `evals/rodar-evals.py` · `evals/ground-truth/*.json` · artefatos gerados em `rag/chunks/` + `rag/index/`.
 - `MANIFESTO.json` (estado) · `scripts/consolidar.py` · `.github/workflows/consolidar.yml`
 - `docs/AUDITORIA-TRIPLO-LIMPO-2026-06-20.md` (o que mudou e por quê)
 - `drive-arrumacao/SANEAMENTO-DUPLICATAS-DRIVE-2026-06-20.md` + `Sanear-Duplicatas-PotencialUrbano.gs`

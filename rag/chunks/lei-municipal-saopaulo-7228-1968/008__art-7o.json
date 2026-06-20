@@ -1,0 +1,26 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-7228-1968::008-art-7o",
+  "lei_id": "lei-municipal-saopaulo-7228-1968",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 7º",
+  "numero": "7",
+  "caminho_hierarquico": [
+    "Art. 7º"
+  ],
+  "texto": "Art. 7º Ficam cancelados, para todos os efeitos:\n\nI - os débitos provenientes de lançamentos:\n\na) dos impostos predial e territorial urbano e das taxas de viação e sanitária correspondentes aos exercícios de 1940 a 1962;\n\nb) do imposto territorial rural relativo aos exercícios de 1962 a 1965;\n\nc) do imposto de indústrias e profissões referente aos exercícios de 1948 a 1961;\n\nd) dos impostos de licença para funcionamento de estabelecimentos comerciais, industriais e similares, e de licença para publicidade, concernentes aos exercícios de 1940 a 1966;\n\ne) do imposto de diversões públicas até o exercício de 1966;\n\nf) das taxas de pavimentação e de serviços preparatórios de pavimentação, cuja última prestação haja vencido no exercício de 1962;\n\ng) das multas por infração às posturas municipais, aplicadas até 31 de dezembro de 1965;\n\nII - os débitos oriundos de documentos de dívida tributária que tenham sido, até a data desta lei, incluídos no rol dos inviáveis.\n\nParágrafo Único - Será providenciado o arquivamento dos procedimentos judiciais que objetivem a cobrança dos débitos cancelados por esta Lei.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 7.228/1968 — São Paulo/SP",
+    "dispositivo": "Art. 7º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-7228-de-12-de-dezembro-de-1968",
+    "vigencia": {
+      "em_vigor": true,
+      "observacao": "Vigente como norma alteradora; efeitos incorporados ao texto consolidado da Lei 6.989/1966."
+    }
+  },
+  "tema": [
+    "IPTU",
+    "codigo_tributario"
+  ],
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Altera dispositivos da Lei nº 6.989, de 29 de dezembro de 1966, e dá outras providências."
+}

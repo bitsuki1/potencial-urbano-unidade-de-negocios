@@ -1,0 +1,26 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-7228-1968::006-art-5o",
+  "lei_id": "lei-municipal-saopaulo-7228-1968",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 5º",
+  "numero": "5",
+  "caminho_hierarquico": [
+    "Art. 5º"
+  ],
+  "texto": "Art. 5º A atualização, em 1969, do valor venal de imóvel que sirva, exclusivamente, de residência do respectivo proprietário enfiteuta, usufrutuário, fiduciário ou compromissário comprador, não poderá exceder a 30% (trinta por cento) do valor venal constante do lançamento no exercício de 1968.",
+  "citacao": {
+    "norma": "lei_ordinaria nº 7.228/1968 — São Paulo/SP",
+    "dispositivo": "Art. 5º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-7228-de-12-de-dezembro-de-1968",
+    "vigencia": {
+      "em_vigor": true,
+      "observacao": "Vigente como norma alteradora; efeitos incorporados ao texto consolidado da Lei 6.989/1966."
+    }
+  },
+  "tema": [
+    "IPTU",
+    "codigo_tributario"
+  ],
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Altera dispositivos da Lei nº 6.989, de 29 de dezembro de 1966, e dá outras providências."
+}

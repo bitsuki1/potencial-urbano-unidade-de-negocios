@@ -1,6 +1,6 @@
 {
   "_doc": "Fonte da verdade do status_pipeline de cada item. GERADO por scripts/consolidar.py a partir dos .json individuais — NAO editar a mao (Principio 1.5/2.3 do CLAUDE.md). Roda a cada push via .github/workflows/consolidar.yml.",
-  "gerado_em": "2026-06-20T04:10:50.030740+00:00",
+  "gerado_em": "2026-06-20T19:35:07.011417+00:00",
   "vocabulario_status": [
     "bruto",
     "fatiado",
@@ -16,11 +16,12 @@
     "fora_de_escopo": 2,
     "_nota": "por_status_pipeline conta SÓ os ativos_no_escopo; os 2 fora-de-escopo (ambos tagueado) não entram aqui. Soma = ativos_no_escopo, não total_itens.",
     "por_status_pipeline_ativos": {
-      "bruto": 27,
+      "bruto": 26,
+      "indexado": 1,
       "tagueado": 30
     },
     "status_ilegais_encontrados": [],
-    "confianca_baixa_ou_media": 26,
+    "confianca_baixa_ou_media": 25,
     "_nota_verbatim": "confianca e flag de extracao, nao prova de verbatim. NENHUMA das 27 leis tem o articulado INTEGRAL verbatim (planalto deu 403): tem ementa + dispositivo-chave + sintese. As 32 juris (curtas) sao verbatim. Re-ingestao verbatim das 27 leis e pre-requisito do RAG."
   },
   "alertas": {
@@ -48,7 +49,6 @@
       "lei-municipal-saopaulo-17577-2021",
       "lei-municipal-saopaulo-17759-2022",
       "lei-municipal-saopaulo-17844-2022",
-      "lei-municipal-saopaulo-7228-1968",
       "stj-tema-1350",
       "stj-tema-262",
       "stj-tema-399"
@@ -818,9 +818,9 @@
       "tipo": "lei_ordinaria",
       "caminho_md": "leis/municipal-sp/lei-municipal-saopaulo-7228-1968.md",
       "caminho_json": "leis/municipal-sp/lei-municipal-saopaulo-7228-1968.json",
-      "status_pipeline": "bruto",
+      "status_pipeline": "indexado",
       "status_valido": true,
-      "confianca_extracao": "baixa",
+      "confianca_extracao": "alta",
       "revisado_por_humano": false,
       "fora_de_escopo": false,
       "fora_de_escopo_motivo": null,

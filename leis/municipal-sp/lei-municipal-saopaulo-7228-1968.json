@@ -32,12 +32,13 @@
   "fonte": {
     "origem": "web-oficial",
     "url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-7228-de-12-de-dezembro-de-1968",
+    "path": "_entrada/misto/lei-municipal-saopaulo-7228-1968.txt",
     "hash": null,
     "ocr": false,
-    "metodo": "WebSearch (nao-verbatim; WebFetch/curl bloqueados HTTP 403)",
-    "obs": "texto nao-verbatim; capturado via WebSearch por bloqueio de WebFetch/curl (HTTP 403)."
+    "metodo": "VERBATIM DE TELA (Catalogo de Legislacao Municipal); re-ingerido de _entrada/misto/ em 2026-06-20",
+    "obs": "articulado integral verbatim, fiel ao Diario Oficial; supera a versao nao-verbatim anterior (resumo de WebSearch)."
   },
-  "status_pipeline": "bruto",
-  "confianca_extracao": "baixa",
+  "status_pipeline": "indexado",
+  "confianca_extracao": "alta",
   "revisado_por_humano": false
 }
