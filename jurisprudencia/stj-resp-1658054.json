@@ -24,5 +24,5 @@
   "revisado_por_humano": false,
   "alerta_qualidade": "CONFIRMADO pela captura verbatim (2026-06-18): REsp 1.658.054/RS é CONTRIBUIÇÃO PREVIDENCIÁRIA (13º proporcional ao aviso prévio indenizado), decisão MONOCRÁTICA, NÃO IPTU. O rótulo de tarefa 'tombamento' está errado e o número não pertence ao corpus IPTU-TDC. RECOMENDAÇÃO: remover do corpus IPTU ou substituir pelo número correto do precedente de tombamento/valor venal pretendido (ver correção C-2 do projeto). Mantido revisao_pendente=true.",
   "revisao_pendente": true,
-  "verificacao_verbatim": "Captura verbatim CONFIRMA o alerta: matéria é contribuição previdenciária, fora do escopo IPTU. enunciado_ou_tese, tema, situacao e leading_case reescritos para refletir a realidade da peça. status_pipeline=processado MAS revisao_pendente=true (não é processado-limpo): o item precisa de decisão do escritório sobre permanência/substituição no corpus."
+  "verificacao_verbatim": "Captura verbatim CONFIRMA o alerta: matéria é contribuição previdenciária, fora do escopo IPTU. enunciado_ou_tese, tema, situacao e leading_case reescritos para refletir a realidade da peça. status_pipeline=tagueado (corrigido de 'processado', enum ilegal — auditoria 2026-06-20) E revisao_pendente=true: o item precisa de decisão do escritório sobre permanência/substituição no corpus."
 }

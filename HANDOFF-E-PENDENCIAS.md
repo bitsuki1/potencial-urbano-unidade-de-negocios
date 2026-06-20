@@ -3,7 +3,7 @@
 > **Ponto de entrada para uma instância NOVA aberta no repo do projeto.** Estado vive no git, não na
 > conversa. Trabalho conduzido pelo Escritório do MOU (PMO) até 2026-06-18; daqui segue a instância do projeto.
 > Formato dos artefatos segue convenção do escritório: cada item de corpus tem par `<id>.md` + `<id>.json`
-> com `status_pipeline` ∈ {bruto → processado}, registro honesto (sem inflar), vacinas declaradas.
+> com `status_pipeline` ∈ {bruto → fatiado → tagueado → validado → indexado} (vocabulário canônico do CLAUDE.md 2.3), registro honesto (sem inflar), vacinas declaradas.
 
 ## 0. Como retomar (ordem de leitura)
 1. Este arquivo.
@@ -18,8 +18,8 @@ Esteira: **E1 saneamento & corpus (ATUAL)** → E2 indexar preço → E3 base de
 Entregável final: o RAG + motor de cruzamento → **dossiê/lista de prospecção por imóvel** (oportunidade + valor + dono).
 
 ## 2. FEITO (com referência de commit, branch `claude/iptu-tdc-document-mapping-mjm1sn`)
-- **59 stubs honestos** criados (12 federais, 15 municipais SP, 32 jurisprudência), `status_pipeline=bruto`. (commit 3eb7e21)
-- **Jurisprudência 32/32 INGERIDA verbatim** → `status_pipeline=tagueado` (corrigido de `processado`, que estava fora do vocabulário canônico — auditoria 2026-06-20); cru em `jurisprudencia/_capturas/`. **2 fora de escopo** (`stf-tema-1020`=ISS, `stj-resp-1658054`=previdenciário/não-verificado — sinalizados no `MANIFESTO.json`) + 4 com `revisao_pendente`. (5521392, 8c65de7)
+- **59 stubs honestos** criados (12 federais, 15 municipais SP, 32 jurisprudência), `status_pipeline=bruto`. (commit 3eb7e21) _[nota 2026-06-20: estado do commit inicial; hoje as 32 juris são `tagueado` e as 12 federais já têm texto verbatim — ver linha abaixo e `MANIFESTO.json`.]_
+- **Jurisprudência 32/32 INGERIDA verbatim** → `status_pipeline=tagueado` (corrigido de `processado`, que estava fora do vocabulário canônico — auditoria 2026-06-20); cru em `jurisprudencia/_capturas/`. **2 fora de escopo** (`stf-tema-1020`=ISS, `stj-resp-1658054`=previdenciário/não-verificado — sinalizados no `MANIFESTO.json`) + 1 com `revisao_pendente=true` (`stj-resp-1658054`). (5521392, 8c65de7)
   - Correções de qualidade feitas: stj-resp-1130545 (tema 371→387), stf-tema-94 (redação literal), tipos de 1202136/1645832 (acórdão, não repetitivo), stf-tema-155 (texto oficial).
 - **Inventário D24 do despejo no Drive + mapa de lacunas + reconciliação com Drive completo.** (b0185a1)
 - **Vacina/correção** sobre os PDFs de lei do despejo (ver §5). (286629b)

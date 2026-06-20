@@ -28,7 +28,7 @@
 ## Achados → DEFERIDO (com motivo) — não executado aqui
 | # | Achado | Por que não agora | Onde está pronto |
 |---|---|---|---|
-| D1 | **Saneamento de duplicatas no Drive (~16–20 GB)** | decisão MOU aberta EXCLUIR×MOVER (`PLANO-SANEAMENTO D-2`) + RO-09 + irreversível | `drive-arrumacao/SANEAMENTO-DUPLICATAS-DRIVE-2026-06-20.md` (ids + manter/remover) |
+| D1 | **Saneamento de duplicatas no Drive (~16–20 GB)** | **Decisão MOU tomada (2026-06-20): EXCLUIR.** Execução não-automatizável daqui (MCP do Drive sem delete) | Executor pronto: `drive-arrumacao/Sanear-Duplicatas-PotencialUrbano.gs` (rodar no Apps Script da conta) + mapa `drive-arrumacao/SANEAMENTO-DUPLICATAS-DRIVE-2026-06-20.md` |
 | D2 | **Re-ingerir 14 municipais-SP verbatim** dos PDFs do Drive (hoje resumos `confianca:baixa`) | é AFINAR (trabalho de Gen Técnico-RAG), não arrumação; egress p/ `.gov.br` bloqueado neste ambiente | `MANIFESTO.json alertas` + Lote 2 de `docs/PROMPTS-EXTRACAO-EXTENSAO.md` |
 | D3 | **Realocar/validar os 2 fora-de-escopo** (tema-1020→ISS; verificar nº REsp 1658054) | decisão do MOU (D24 ponto cego declarado) | sinalizado no MANIFESTO |
 | D4 | Fatiamento→indexação (rag/) + criar schemas dos artefatos no Supabase | AFINAR; só após organização aprovada (RO-23) | pipeline Partes 2–3 |
@@ -46,3 +46,20 @@ Integridade de pares, rastreabilidade verbatim em `_capturas/`, honestidade dial
 dos itens fora-de-escopo e das municipais não-verbatim (todos com VACINA/aviso), engines/oráculos.
 O corpus **não estava corrompido** — estava com o manifesto desligado, um enum ilegal,
 e docs de estado defasados. Tudo isso saneado.
+
+---
+
+## Rodada 2 — re-auditoria adversarial (mesmo dia, pós-correções)
+3 lentes frescas re-rodadas para caçar defeitos introduzidos PELAS próprias correções. Acharam **4 defeitos reais + 1 de clareza** — todos corrigidos:
+
+| # | Defeito (introduzido na rodada 1) | Correção |
+|---|---|---|
+| R2-1 | `DO_ESCRITORIO.md` ANTÍTESE ainda dizia "Action que ainda não existe" — contradizia a tabela (LIGADA) editada no mesmo arquivo | ANTÍTESE/CONCILIAÇÃO reescritas (Action existe; bloqueio agora é interno) |
+| R2-2 | `HANDOFF:6` (convenção) e `docs/PROMPTS-EXTRACAO-EXTENSAO.md:146` ainda usavam o enum morto `processado` (o grep da rodada 1 só varreu JSONs) | trocados p/ vocabulário canônico / `tagueado` |
+| R2-3 | `HANDOFF:22` "+ 4 com `revisao_pendente`" — número inventado; só **1** (`stj-resp-1658054`) | corrigido p/ 1 |
+| R2-4 | `jurisprudencia/stj-resp-1658054.json` `verificacao_verbatim` (prosa) ainda citava `status_pipeline=processado` após o campo virar `tagueado` | prosa atualizada |
+| R2-5 (clareza) | `MANIFESTO.json` `por_status` somava 57 (só ativos) sem rótulo | chave renomeada `por_status_pipeline_ativos` + `_nota` no resumo |
+
+**Verificado LIMPO na rodada 2:** idempotência do `consolidar.py` (0 diff em 2 runs), sem risco de loop na Action (bot commita só `MANIFESTO.json`, fora dos paths vigiados, + `[skip ci]`), 0 JSON malformado, 0 órfão, marker `_PROCESSADOS.md` correto, staging (leis `bruto` / juris `tagueado`) defensável e não-mentiroso, Supabase consistente, 0 ref quebrada. Constituição (`CLAUDE.md`/`PROJETO-RAG`) tem comentário `(a ligar)` desatualizado — **não editada** (requer aval do MOU; estado-verdade vive no MANIFESTO+DO_ESCRITORIO).
+
+> **Convergência:** rodada 1 achou ~10 defeitos; rodada 2 achou 5 (todos resíduos das próprias correções), agora corrigidos. Uma rodada 3 deve vir limpa — registrar aqui se confirmada.

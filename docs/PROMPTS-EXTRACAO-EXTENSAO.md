@@ -143,7 +143,7 @@
 
 Quando a pasta `IPTU-TDC` estiver cheia, devolva-a (commit no repo ou nova sessão). O escritório
 ingere cada `.txt` cru sobre o stub `.md`/`.json` correspondente, sobe `status_pipeline` de `bruto`
-para `processado` e marca a confiança. **Não precisa vir tudo de uma vez** — pode mandar lote a lote.
+para `tagueado` e marca a confiança. **Não precisa vir tudo de uma vez** — pode mandar lote a lote.
 
 - [ ] Lote 1 — Federais (12)
 - [ ] Lote 2 — Municipais SP (15)

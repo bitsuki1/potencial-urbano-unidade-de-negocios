@@ -1,6 +1,6 @@
 {
   "_doc": "Fonte da verdade do status_pipeline de cada item. GERADO por scripts/consolidar.py a partir dos .json individuais — NAO editar a mao (Principio 1.5/2.3 do CLAUDE.md). Roda a cada push via .github/workflows/consolidar.yml.",
-  "gerado_em": "2026-06-20T00:06:56.722377+00:00",
+  "gerado_em": "2026-06-20T00:32:17.312871+00:00",
   "vocabulario_status": [
     "bruto",
     "fatiado",
@@ -14,7 +14,8 @@
     "jurisprudencia": 32,
     "ativos_no_escopo": 57,
     "fora_de_escopo": 2,
-    "por_status_pipeline": {
+    "_nota": "por_status_pipeline conta SÓ os ativos_no_escopo; os 2 fora-de-escopo (ambos tagueado) não entram aqui. Soma = ativos_no_escopo, não total_itens.",
+    "por_status_pipeline_ativos": {
       "bruto": 27,
       "tagueado": 30
     },
