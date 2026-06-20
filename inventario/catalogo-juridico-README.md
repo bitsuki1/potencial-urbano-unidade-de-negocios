@@ -15,7 +15,7 @@ captura externa (extensão/anti-bot) é necessária — a fonte verbatim das lei
 próprio Drive. (Codex RO-21 e §7.)
 
 > **CONCILIAÇÃO (2026-06-20, auditoria triplo-limpo):** completo no Drive ≠ ingerido
-> no repo. As 12 federais já estão verbatim em `leis/federal/`; **14 municipais-SP em
+> no repo. As 12 federais já estão verbatim em `leis/federal/`; **15 municipais-SP em
 > `leis/municipal-sp/` ainda são resumos não-verbatim** (`confianca: baixa`) — falta
 > RE-INGERIR dos PDFs do Drive (fatiamento interno, não captura externa).
 

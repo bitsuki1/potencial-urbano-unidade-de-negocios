@@ -1,6 +1,6 @@
 {
   "_doc": "Fonte da verdade do status_pipeline de cada item. GERADO por scripts/consolidar.py a partir dos .json individuais — NAO editar a mao (Principio 1.5/2.3 do CLAUDE.md). Roda a cada push via .github/workflows/consolidar.yml.",
-  "gerado_em": "2026-06-20T00:32:17.312871+00:00",
+  "gerado_em": "2026-06-20T03:15:32.588037+00:00",
   "vocabulario_status": [
     "bruto",
     "fatiado",
@@ -20,11 +20,12 @@
       "tagueado": 30
     },
     "status_ilegais_encontrados": [],
-    "nao_verbatim_confianca_baixa_ou_media": 26
+    "confianca_baixa_ou_media": 26,
+    "_nota_verbatim": "confianca baixa/media NAO e o mesmo que nao-verbatim: os 8 federais + 3 juris com confianca media sao VERBATIM (texto real); os 15 municipais-SP e que sao resumos nao-verbatim (marcador no .md) a re-ingerir."
   },
   "alertas": {
     "status_fora_do_vocabulario": [],
-    "itens_nao_verbatim_nao_citaveis_ainda": [
+    "itens_confianca_baixa_ou_media_a_revisar": [
       "ec-132-2023",
       "ec-29-2000",
       "lei-federal-10931-2004",

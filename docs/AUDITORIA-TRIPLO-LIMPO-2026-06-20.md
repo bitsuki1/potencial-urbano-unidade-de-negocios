@@ -19,7 +19,7 @@
 | 3 | 2 itens fora de escopo (`stf-tema-1020`=ISS, `stj-resp-1658054`=previdenciário) contavam como corpus IPTU | MÉDIA | **Segregados no MANIFESTO** (campo `fora_de_escopo` + `alertas`); contam à parte (57 no escopo, 2 fora) |
 | 4 | `DO_ESCRITORIO.md` congelado em "tudo vazio (2026-06-18)" — falso após carga; violava o próprio PRINCÍPIO-DOCUMENTO-VIVO | CRÍTICA | **Tabela reescrita** como ponteiros (não cópia de estado volátil) + linha Supabase |
 | 5 | Supabase: docs diziam "6 schemas / 4 artefatos + geo + governanca criados" — FALSO (só `governanca` + `public`) | ALTA | **Corrigido** em `CODEX §6/§ESTADO` e `BETA-CONTINUO §4` (VACINA datada) |
-| 6 | Contradição "acervo COMPLETO, nenhuma captura" × "capturar 12+14 leis" | ALTA | **Conciliado**: fonte no Drive (ok) ≠ ingestão no repo; 12 federais já verbatim (upload MOU), 14 municipais ainda resumos a re-ingerir |
+| 6 | Contradição "acervo COMPLETO, nenhuma captura" × "capturar 12 federais (feito) + 15 municipais" | ALTA | **Conciliado**: fonte no Drive (ok) ≠ ingestão no repo; 12 federais já verbatim (upload MOU), 15 municipais ainda resumos a re-ingerir |
 | 7 | `HANDOFF §3` "capturar 12 federais (não estão no despejo)" — stale (chegaram no upload) | MÉDIA | **Marcado FEITO** |
 | 8 | `CONSOLIDACAO:19` "~40 leis" | BAIXA | **Corrigido p/ 27 (12+15)** |
 | 9 | `extracao/gems/gen3-iptu.md` ≡ `gen3-governanca.md` (byte-idênticos, RO-19) | MÉDIA | **VACINA inline** apontando canônico (preservado, RO-09) |
@@ -29,7 +29,7 @@
 | # | Achado | Por que não agora | Onde está pronto |
 |---|---|---|---|
 | D1 | **Saneamento de duplicatas no Drive (~16–20 GB)** | **Decisão MOU tomada (2026-06-20): EXCLUIR.** Execução não-automatizável daqui (MCP do Drive sem delete) | Executor pronto: `drive-arrumacao/Sanear-Duplicatas-PotencialUrbano.gs` (rodar no Apps Script da conta) + mapa `drive-arrumacao/SANEAMENTO-DUPLICATAS-DRIVE-2026-06-20.md` |
-| D2 | **Re-ingerir 14 municipais-SP verbatim** dos PDFs do Drive (hoje resumos `confianca:baixa`) | é AFINAR (trabalho de Gen Técnico-RAG), não arrumação; egress p/ `.gov.br` bloqueado neste ambiente | `MANIFESTO.json alertas` + Lote 2 de `docs/PROMPTS-EXTRACAO-EXTENSAO.md` |
+| D2 | **Re-ingerir 15 municipais-SP verbatim** dos PDFs do Drive (hoje resumos `confianca:baixa`) | é AFINAR (trabalho de Gen Técnico-RAG), não arrumação; egress p/ `.gov.br` bloqueado neste ambiente | `MANIFESTO.json alertas` + Lote 2 de `docs/PROMPTS-EXTRACAO-EXTENSAO.md` |
 | D3 | **Realocar/validar os 2 fora-de-escopo** (tema-1020→ISS; verificar nº REsp 1658054) | decisão do MOU (D24 ponto cego declarado) | sinalizado no MANIFESTO |
 | D4 | Fatiamento→indexação (rag/) + criar schemas dos artefatos no Supabase | AFINAR; só após organização aprovada (RO-23) | pipeline Partes 2–3 |
 | D5 | RLS off em `public.spatial_ref_sys` (sistema PostGIS) | **CORREÇÃO 2026-06-20:** `ENABLE RLS` é BLOQUEADO (tabela do `supabase_admin`; somos role `postgres`). Fix real = remover `public` dos Exposed schemas (Dashboard); dado real vive em `governanca`. Ação física do MOU (escritório M-41) | advisory reportado; remediação corrigida |

@@ -236,7 +236,7 @@ necessária** — a fonte verbatim das leis é o próprio Drive. Catálogo com o
 > **CONCILIAÇÃO (2026-06-20, auditoria):** "nenhuma captura EXTERNA" segue verdadeiro
 > — a fonte está no Drive. Mas a INGESTÃO no repo está incompleta: 12 federais + 1
 > municipal (7228) + 11 STF foram ingeridas verbatim do upload do MOU (2026-06-19);
-> **14 leis municipais-SP no repo ainda são RESUMOS não-verbatim** (`confianca: baixa`,
+> **15 leis municipais-SP no repo ainda são RESUMOS não-verbatim** (`confianca: baixa`,
 > ver `MANIFESTO.json` campo `alertas`) e precisam ser RE-INGERIDAS dos PDFs do Drive
 > — não é captura externa, é fatiamento do que já temos.
 

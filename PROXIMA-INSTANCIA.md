@@ -19,10 +19,10 @@
 - VACINA: o script só apaga se a cópia canônica existir; Fase 2 só duplicata exata (nome+tamanho). Conferir que SIRGAS_SHP_LOTES (geometrias + `.prj`) ficou com ≥1 cópia.
 - Depois: re-rodar o catálogo do Drive e atualizar `docs/INVENTARIO-DRIVE-*.md` (IDs sobreviventes; a árvore foi achatada — os docs de 2026-06-18 descrevem estrutura que não existe mais).
 
-### P2 — Re-ingerir as 14 leis municipais-SP em VERBATIM (lacuna probatória real)
-- Hoje são RESUMOS de WebSearch (`confianca: baixa`) — ferem Princípio 1.7 (citação) e 1.2 (extração pura). Ver `MANIFESTO.json` campo `alertas.itens_nao_verbatim_*`.
-- Fonte: os PDFs já estão no Drive (catalogo `inventario/catalogo-juridico-drive.csv`) — é **re-ingestão interna, não captura externa**. (Neste ambiente o egress p/ `.gov.br` é bloqueado; usar o Drive como fonte.)
-- IDs das 14: 10235-1986, 10365-1987, 11152-1991, 11338-1992, 12350-1997, 13250-2001, 13475-2002, 14865-2008, 15044-2009, 16050-2014, 17202-2019, 17577-2021, 17759-2022, 17844-2022.
+### P2 — Re-ingerir as 15 leis municipais-SP em VERBATIM (lacuna probatória real)
+- Hoje são RESUMOS de WebSearch (`confianca: baixa/media`, marcador "NAO-VERBATIM" no `.md`) — ferem Princípio 1.7 (citação) e 1.2 (extração pura). Os 15 municipais são os de fato não-verbatim (os federais média são verbatim). Ver `MANIFESTO.json` `alertas.itens_confianca_baixa_ou_media_a_revisar` + `_nota_verbatim`.
+- Fonte: os PDFs já estão no Drive (catalogo `inventario/catalogo-juridico-drive.csv`) — é **re-ingestão interna, não captura externa**. (Neste ambiente o egress p/ `.gov.br` é bloqueado; usar o Drive como fonte.) **Atalho p/ `7228-1968`:** o cru verbatim (~13,8 KB) já está em `_entrada/misto/lei-municipal-saopaulo-7228-1968.txt` — re-ingerir desse local, não precisa do Drive.
+- IDs das 15: 7228-1968, 10235-1986, 10365-1987, 11152-1991, 11338-1992, 12350-1997, 13250-2001, 13475-2002, 14865-2008, 15044-2009, 16050-2014, 17202-2019, 17577-2021, 17759-2022, 17844-2022.
 
 ### P3 — Decidir/segregar os 2 itens fora de escopo (decisão MOU)
 - `stf-tema-1020` (é ISS, não IPTU) → realocar para corpus ISS ou remover. `stj-resp-1658054` (previdenciário; nº do REsp NÃO verificado) → confirmar o número ou arquivar como ponto cego. Ambos já sinalizados no MANIFESTO; falta a decisão.

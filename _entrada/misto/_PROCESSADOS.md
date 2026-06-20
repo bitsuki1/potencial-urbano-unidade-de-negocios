@@ -3,7 +3,7 @@
 > Auditoria triplo-limpo do Escritório do MOU — 2026-06-20.
 > Os 24 `.txt` aqui são o **upload bruto do MOU (2026-06-19)** e JÁ foram processados
 > para `leis/` e `jurisprudencia/`. Mantidos como **fonte verbatim de proveniência**
-> (RO-09 nada se descarta): para as 12 federais + 1 municipal, este é o ÚNICO verbatim
+> (RO-09 nada se descarta): para as 12 federais, este é o ÚNICO verbatim
 > local (os `.json` só citam `fonte.url`). Para os 11 STF existe TAMBÉM uma captura
 > anterior em `jurisprudencia/_capturas/` — **conteúdo DIFERE** (duas renderizações do
 > mesmo ato), por isso ambas preservadas.
@@ -17,5 +17,5 @@
 | stf-{sumula-539,sumula-589,sumula-668,sumula-670,sumula-724,sv-19,tema-94,tema-155,tema-523,tema-1020,tema-1084} | `jurisprudencia/` (11) | tagueado |
 
 **Fora de escopo (sinalizados no MANIFESTO.json):** `stf-tema-1020` (ISS, não IPTU).
-**Pendência real:** as 14 municipais-SP de `leis/municipal-sp/` que NÃO vieram neste
+**Pendência real:** as 15 municipais-SP de `leis/municipal-sp/` que NÃO vieram neste
 upload seguem como **resumos não-verbatim** (`confianca: baixa`) — re-ingerir dos PDFs do Drive.

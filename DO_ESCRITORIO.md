@@ -58,14 +58,14 @@ Doutrina: zero-compressão · dialético · agnosticismo · nada se joga fora. (
 | **D-PU-2** | **Documentos vêm MISTURADOS (IPTU + TDC juntos)** → receber tudo em `_entrada/misto/`; a triagem/tagueamento determinístico (Etapa 2 do pipeline) é a tarefa central | decisão MOU 2026-06-17; não se separa na mão antes da triagem | em vigor; **1º lote recebido** (24 crus em `_entrada/misto/`, processados) |
 | **D-PU-3** | **✅ RESOLVIDA (MOU 2026-06-20): base inicial = TDC.** O pipeline começa por TDC; ground-truth/validação concentram em TDC primeiro; IPTU vem depois (replica) | urgência/volume define foco; pipeline replica para a segunda base depois | **DECIDIDO — TDC.** Encerra a divergência M-24/M-49 |
 | **D-PU-4** | **GitHub Action `consolidar.yml` — LIGADA (2026-06-20)** — `scripts/consolidar.py` regenera o `MANIFESTO.json` a cada push; índice RAG + mestres de tese a estender quando houver chunks/teses | automação do pipeline (Princípio 1.5/2.3) | **FEITO (base)** — manifesto agora vivo (59 itens); estender p/ índice RAG quando o fatiamento existir |
-| **D-PU-5** | **1º lote CHEGOU (2026-06-19)** — corpus de 59 itens (27 leis + 32 juris) já no repo; `_entrada/misto/` recebeu 24 crus | o funil já tem insumo para rodar | **SUPERADO** — bloqueio agora é INTERNO (fatiamento→indexação + re-ingestão verbatim das 14 municipais), não mais entrada |
+| **D-PU-5** | **1º lote CHEGOU (2026-06-19)** — corpus de 59 itens (27 leis + 32 juris) já no repo; `_entrada/misto/` recebeu 24 crus | o funil já tem insumo para rodar | **SUPERADO** — bloqueio agora é INTERNO (fatiamento→indexação + re-ingestão verbatim das 15 municipais), não mais entrada |
 
 ---
 
 ## Pendências que dependem do MOU (cobrança)
 
 - **[DECISÃO ✅ RESOLVIDA 2026-06-20] IPTU × TDC: base inicial = TDC** (decidido pelo MOU). O pipeline começa por TDC; IPTU replica depois.
-- **[AÇÃO ✅ FEITA 2026-06-19] 1º lote recebido** (24 crus → corpus de 59 itens). Bloqueio agora é INTERNO (fatiamento/indexação + re-ingestão verbatim das 14 municipais), não mais entrada.
+- **[AÇÃO ✅ FEITA 2026-06-19] 1º lote recebido** (24 crus → corpus de 59 itens). Bloqueio agora é INTERNO (fatiamento/indexação + re-ingestão verbatim das 15 municipais), não mais entrada.
 - **[TÉCNICO — FEITO 2026-06-20]** `consolidar.yml` criada (regenera `MANIFESTO.json` via `scripts/consolidar.py` a cada push). Estender para índice RAG + mestres de tese quando houver fatiamento/teses.
 
 ---
@@ -74,6 +74,6 @@ Doutrina: zero-compressão · dialético · agnosticismo · nada se joga fora. (
 
 - TESE: o canal D44 instala a identidade do PMO no projeto de forma rastreável (datada/atribuída); o PRINCÍPIO-DOCUMENTO-VIVO mantém o documento vivo sem apodrecer — dado volátil no SSOT real, diretriz estável inline.
 - ANTÍTESE: o escritório não comanda (D2); diretriz aqui não pode virar ordem que atropele o gate do projeto (D21); ponteiros só funcionam se os SSOTs forem mantidos vivos (responsabilidade do orquestrador do Potencial Urbano). O `MANIFESTO.json` agora é gerado por `scripts/consolidar.py` (Action `consolidar.yml` ligada em 2026-06-20) e está populado — mas a Action por ora só regenera o MANIFESTO; índice RAG e mestres de tese ainda não (a estender quando houver chunks/teses).
-- CONCILIAÇÃO (provisória): estrutura do projeto está sólida (estrutura criada, constituição clara, Gens mapeados, corpus de 59 itens carregado); bloqueio primário agora é INTERNO (fatiamento→indexação + re-ingestão verbatim das 14 municipais), não mais falta de dado de entrada. A próxima ação concreta envolve decisões do MOU (ver pendências) + avanço da esteira.
+- CONCILIAÇÃO (provisória): estrutura do projeto está sólida (estrutura criada, constituição clara, Gens mapeados, corpus de 59 itens carregado); bloqueio primário agora é INTERNO (fatiamento→indexação + re-ingestão verbatim das 15 municipais), não mais falta de dado de entrada. A próxima ação concreta envolve decisões do MOU (ver pendências) + avanço da esteira.
 - VACINA (1 — não criar 2º CLAUDE.md): este repo já tem `CLAUDE.md` como constituição do RAG (Partes 1–4); NÃO criar um segundo `CLAUDE.md`. Identidade do escritório vai neste arquivo (`DO_ESCRITORIO.md`) + seção curta adicionada ao `CLAUDE.md` existente.
 - VACINA (2 — IPTU/TDC ≠ Tema 1130 IRRF): Potencial Urbano trata IPTU (imposto predial municipal) e TDC (tributo/contribuição imobiliária). **Nenhuma relação com o Tema 1130 do STF (IRRF sobre PLR/lucros)** — matérias completamente distintas. Se algum documento em `_entrada/` vier com referência a "stf-tema-1130", marcar `[A VERIFICAR]` e isolar; nunca criar ponte automática com o corpus IPTU/TDC.
