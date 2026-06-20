@@ -184,6 +184,46 @@ o engine campo a campo. Fórmula que não bate com caso real não passa.
 - *Vacina:* as versões foram se sintetizando e perdendo rastro; consolidar com
   Tese/Antítese/Vacina recupera a linhagem e blinda o resultado.
 
+**D-05 — A esteira RAG é DETERMINÍSTICA (sem LLM/embeddings no tier base). (2026-06-20)**
+- *Tese:* chunking estrutural por dispositivo (2.5) → índice invertido BM25 + metadados (2.6) →
+  consulta com gate de cobertura — tudo stdlib, sem rede. `scripts/fatiar|indexar|consultar`.
+- *Antítese:* "use embeddings/LLM logo de cara — keyword é fraco."
+- *Vacina:* o número e a citação nascem de fonte determinística (1.3/1.7); a camada semântica é
+  extensão FUTURA plugável no mesmo índice. **Limite DECLARADO do tier keyword:** match lexical ≠
+  relevância semântica — "direito de construir" casa a Lei 4.591/1964 Art. 68 ("construir
+  habitações") com 100% de cobertura sem ser TDC. Não inflar o que o tier não faz.
+
+**D-06 — GUARDA DE VERBATIM: só texto integral verbatim entra no RAG. (2026-06-20)**
+- *Tese:* `fatiar.py` só fatia `.md` com `## Texto integral (verbatim)` + `.json confianca:alta`.
+- *Antítese:* "indexa o resumo também — é melhor que nada."
+- *Vacina:* citar uma síntese = resposta não-fundamentada (1.7); resumo no RAG mente sobre a fonte.
+  Por isso as 14 municipais não-verbatim ficam de fora até serem re-ingeridas.
+
+**D-07 — Re-ingestão verbatim é INTERNA quando o cru já está local. (2026-06-20)**
+- *Tese:* o articulado integral das 12 federais já estava em `_entrada/misto/*.txt`;
+  `scripts/promover_entrada.py` promove para `leis/federal/*.md` verbatim sem Drive nem egress.
+- *Antítese:* "precisa capturar do planalto (que dá HTTP 403)."
+- *Vacina (a grande, AUD-01):* um `.md` dizer "não baixado/403" **≠** o verbatim não existir no repo.
+  Conferir `_entrada/` por id ANTES de declarar uma lei não-citável. A "CRÍTICA-1" da auditoria
+  anterior ("NENHUMA das 27 é verbatim") era FALSO-NEGATIVO: confundiu "o .md é resumo" com "o
+  verbatim não existe". Corpus saltou de 1 → 13 leis indexadas ao corrigir isso.
+
+**D-08 — Número nasce no engine como CÓDIGO, não como prosa. (2026-06-20)**
+- *Tese:* `engines/tdc/oodc.py` implementa as fórmulas OODC/TDC determinísticas (DECIMAL(10,3),
+  constantes de `travas_operacionais_v6.1.json`, cada resultado com memória de cálculo + citação).
+- *Antítese:* "as fórmulas em `FORMULAS-CONSOLIDADAS.md` já bastam."
+- *Vacina:* fórmula em `.md` = número nascendo no LLM (proibido por 1.3/RO-04). `V` (Q14) e `CA_max`
+  (Quadro 3) são TABELA — entradas obrigatórias, o engine NÃO os inventa. A grafia `(At/Ac)×V×Fs×Fp`
+  **não tem fonte**; as 3 fontes-mestre usam `OO = (Aa/CA_max)×Fp×Fs×V` (CONF-2).
+
+**D-09 — Mecanismo anti-perda ("ladrão" D83 do escritório) adotado no PU. (2026-06-20)**
+- *Tese:* `BACKLOG.md` (item com DoD = prova mecânica) + hook de boot que o surfaça +
+  `scripts/fechar-instancia.py` (GATE: "declarei feito" ≠ "provei feito").
+- *Antítese:* "disciplina/handoff já bastam."
+- *Vacina:* a disciplina arrebenta exatamente na saturação de contexto e na troca de instância
+  (modo de falha nº1). Prevenção por MECANISMO sobrevive a esses dois momentos. O gate provou o
+  valor na estreia: pegou uma não-idempotência do MANIFESTO (contava `.pyc` de cache).
+
 ---
 
 ## 6. DECISÕES PENDENTES
@@ -386,8 +426,15 @@ qualquer alteração); Supabase ADOTADO — projeto `potencial-urbano-iptu-tdc`
 
 ---
 
-## ESTADO OFICIAL (para a próxima instância) — 2026-06-19
-- **SSOT:** este Codex (v0.4). Playbook do escritório: `BETA-CONTINUO.md`.
+## ESTADO OFICIAL (para a próxima instância) — 2026-06-20 (auditoria profunda + 3 destraves)
+> Atualização 2026-06-20: ver `docs/AUDITORIA-PROFUNDA-2026-06-20.md`, `BACKLOG.md` (determinações
+> com DoD), `PROXIMA-INSTANCIA.md`. Decisões novas: D-05…D-09 (§5).
+- **Esteira RAG:** EXISTE e provada fim-a-fim (`scripts/fatiar|indexar|consultar` + `evals/`,
+  gate 1.7). **13 leis verbatim/indexadas** (12 federais + 7.228/1968), 1.246 dispositivos. 14
+  municipais ainda só resumo (re-ingerir — B-4). Engine TDC em CÓDIGO (`engines/tdc/oodc.py`).
+- **Mecanismo anti-perda ("ladrão" D83):** `BACKLOG.md` + hook de boot + `scripts/fechar-instancia.py`
+  (rodar ao fechar; sai 0 = verde).
+- **SSOT:** este Codex (v0.5). Playbook do escritório: `BETA-CONTINUO.md`.
 - **Arrumação física:** plano FINAL de 992 itens (984+8) auditado; motor v5 com fix
   do `/` (FOLDER_IDS). Ainda em ENSAIO — falta o operador rodar até `=== FIM ===`
   e então o move real.

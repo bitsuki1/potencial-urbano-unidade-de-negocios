@@ -42,6 +42,30 @@ alteração** (RO-24).
   idempotente, com ensaio (dry-run), relatório e auto-retomada por orçamento de
   tempo. **Gotcha cravado:** nome de pasta com "/" colide com separador de path —
   ancorar destinos a IDs reais (`CONFIG.FOLDER_IDS`). Ver `drive-arrumacao/`.
+- **Esteira RAG DETERMINÍSTICA (reutilizável; 2026-06-20).** `fatiar` (chunk por
+  dispositivo, 2.5; guarda de verbatim) → `indexar` (BM25 + metadados, 2.6) →
+  `consultar` (citação obrigatória 1.7; gate de cobertura) → `evals/` (gate =
+  citação correta). Stdlib, sem LLM/embeddings (D-05). **Vacina:** match lexical ≠
+  relevância semântica — gate de keyword não distingue "direito de construir" (TDC)
+  de "construir habitações" (Lei 4.591 Art. 68). Embeddings/filtro-por-tema = extensão.
+- **Promotor de verbatim (`promover_entrada.py`).** Quando o cru já está em
+  `_entrada/`, a re-ingestão é INTERNA (sem Drive/egress): recorta o cru → `.md`
+  verbatim + `.json confianca:alta` → `fatiar`. **Vacina (D-07):** `.md` dizer "não
+  baixado/403" ≠ o verbatim não existir; conferir `_entrada/` antes de cravar ausência (RO-21).
+- **Engine como CÓDIGO, não prosa (`engines/tdc/oodc.py`).** Fórmula em `.md` =
+  número no LLM (proibido RO-04). Transcrever para função pura determinística
+  (DECIMAL exato, constante de fonte única, citação no resultado). Insumo de tabela
+  ausente = entrada obrigatória, nunca inventada (D-08).
+- **Mecanismo anti-perda — o "ladrão" (D83 do escritório, importado 2026-06-20).**
+  `BACKLOG.md` (item com **DoD = prova mecânica**) + hook de boot que o surfaça +
+  GATE de fechamento (`fechar-instancia.py`: evals+engine+sem-stray-tag+MANIFESTO
+  idempotente+backlog fresco). Move regra de "o maestro lembra" para "o sistema
+  garante" (D-09). Reutilizável por qualquer projeto.
+- **Auditoria profunda por LENTES adversariais (reutilizável).** N sub-agentes
+  read-only, cada um numa lente DIFERENTE (corpus · código · dado/produto · doutrina),
+  + ground-truth vivo (Supabase/MCP); convergência dialética num laudo. Lentes
+  diferentes evitam falsa convergência (re-rodar a mesma lente = teatro). Casa com o
+  método `AUDITORIA-TRIPLO-LIMPO` do escritório.
 
 ## 4. STACK A USAR
 | Camada | Ferramenta | Papel |
