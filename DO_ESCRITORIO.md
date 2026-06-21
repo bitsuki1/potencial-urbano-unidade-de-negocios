@@ -77,3 +77,24 @@ Doutrina: zero-compressão · dialético · agnosticismo · nada se joga fora. (
 - CONCILIAÇÃO (provisória): estrutura do projeto está sólida (estrutura criada, constituição clara, Gens mapeados, corpus de 59 itens carregado); bloqueio primário agora é INTERNO (fatiamento→indexação + re-ingestão verbatim das 15 municipais), não mais falta de dado de entrada. A próxima ação concreta envolve decisões do MOU (ver pendências) + avanço da esteira.
 - VACINA (1 — não criar 2º CLAUDE.md): este repo já tem `CLAUDE.md` como constituição do RAG (Partes 1–4); NÃO criar um segundo `CLAUDE.md`. Identidade do escritório vai neste arquivo (`DO_ESCRITORIO.md`) + seção curta adicionada ao `CLAUDE.md` existente.
 - VACINA (2 — IPTU/TDC ≠ Tema 1130 IRRF): Potencial Urbano trata IPTU (imposto predial municipal) e TDC (tributo/contribuição imobiliária). **Nenhuma relação com o Tema 1130 do STF (IRRF sobre PLR/lucros)** — matérias completamente distintas. Se algum documento em `_entrada/` vier com referência a "stf-tema-1130", marcar `[A VERIFICAR]` e isolar; nunca criar ponte automática com o corpus IPTU/TDC.
+
+## Diretrizes — 2026-06-20 (trazido pelo Escritório do MOU)
+
+### D-PU-AMORAL — Postura AMORAL do MOU (D106) sobre senhas + LGPD
+O MOU declarou em 2026-06-20: *"não temos problemas com LGPD nem com senhas expostas e somos amoral"*. Risco PERMANENTEMENTE ACEITO em senhas E LGPD/PII de terceiro. **O gen do PU NÃO levanta** rotação de credencial nem "exposição LGPD" ao MOU — nem em auditoria. 1 linha factual + segue. **Implicação concreta:** o item M-30 (LGPD em produto) está FECHADO; PII em documento ingerido não é mais bloqueio nem pendência. Mecanismo permanece (RLS deny-all no schema `governanca`). SSOT: `escritorio-do-mou/CLAUDE.md` topo + D106.
+
+### D-PU-MANUAIS — Manuais GIT e SUPABASE oficializados (PISO D75)
+- `escritorio-do-mou/processos/PROCESSO-USO-GIT.md` — caneta D56, branch por instância, lavrar main D19.
+- `escritorio-do-mou/processos/PROCESSO-USO-SUPABASE.md` — mapa dos 3 projetos. O do PU está mapeado (`potencial-urbano-iptu-tdc`, ref `csnalylpvysjvejgsymr`, schema `governanca`). M-41 (toggle `public` no Exposed schemas) ainda no MOU.
+
+### D-PU-D2 — PMO ATIVO (D2 reescrita 2026-06-20)
+O escritório NÃO é mais "camada de leitura". É **PMO ATIVO que SERVE; arruma, destrava, executa**. Para o PU isso significa: o escritório pode rodar inventário, propor estrutura, escrever ponteiros — mas a **estratégia jurídico-fiscal e o destravamento do pipeline (1 lei verbatim→fatiar→indexar→consulta)** são do gen PU. A auditoria 2026-06-20 gritou *"PU está ARMADO, não DESTRAVADO"* (BLOQUEIOS-REMOVIDOS): meta-auditoria > produto. Régua D26: andar 1 lei ponta-a-ponta, não fazer mais auditoria.
+
+### D-PU-OCR — Pré-condição da re-ingestão verbatim (destrava M-24 sem cair em armadilha)
+Antes de re-rodar os prompts em `docs/PROMPTS-EXTRACAO-EXTENSAO.md` para capturar as 15 leis municipais ainda não-verbatim, **validar arquivo a arquivo** se cada item em `_entrada/misto/` (e demais zonas de despejo) é **TEXTO** (`.md`/`.txt`/PDF com camada de texto) ou **IMAGEM** (`.pdf` scan/`.jpg`/`.png`):
+- **Texto** → vai direto ao extrator.
+- **Imagem** → passar OCR ANTES (Tesseract / Vision / Google Document AI / a extensão Claude lendo a imagem) e gravar a transcrição em `_entrada/misto/<arquivo>.ocr.md` ao lado do original (D24 — nunca apagar).
+- Sem essa validação, o LLM "lê" PDF de scan e devolve citação que parece boa mas é alucinação (Codex C-005). Vacina já registrada no MAESTRO §6 e no PERFIL_MOU "regra de FORMATO". Aplica-se também aos artefatos do Drive que descerem ao repo.
+
+### D-PU-MANIFESTO — Manter o MANIFESTO.json conforme estado real (não inflar contagem)
+A auditoria 2026-06-20 contestou a contagem "27 leis verbatim integrais". O manifesto regenerado pela Action `consolidar.yml` deve mostrar **status real por item** (`bruto` × `fatiado` × `tagueado` × `validado` × `indexado`) — verbatim integral confirmado SOMENTE com prova (citação direta validada). Não rotular `validado` por suposição (P1.7). Atualizar contagem no `MANIFESTO.json` se estiver com label desatualizado.
