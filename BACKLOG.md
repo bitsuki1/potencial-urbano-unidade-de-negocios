@@ -12,7 +12,7 @@
 > a data. Se esta lista estiver desatualizada, o mecanismo falhou — corrigir antes de seguir.
 >
 > Prioridade: 🟥 produto/valor · 🟦 corpus/RAG · 🟨 higiene/governança · ⬜ qualidade.
-> **Atualizado: 2026-06-20.**
+> **Atualizado: 2026-06-21.**
 
 ## 🔴 ABERTAS
 
