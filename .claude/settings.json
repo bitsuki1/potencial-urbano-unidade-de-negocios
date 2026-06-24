@@ -5,6 +5,14 @@
       "mcp__Google_Drive__download_file_content",
       "mcp__Google_Drive__search_files",
       "mcp__Google_Drive__get_file_metadata"
+    ],
+    "deny": [
+      "Edit(**/escritorio-do-mou/**)",
+      "Write(**/escritorio-do-mou/**)",
+      "MultiEdit(**/escritorio-do-mou/**)",
+      "Edit(**/keepee-facilities*/**)",
+      "Write(**/keepee-facilities*/**)",
+      "MultiEdit(**/keepee-facilities*/**)"
     ]
   },
   "hooks": {
