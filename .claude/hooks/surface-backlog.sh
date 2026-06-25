@@ -18,3 +18,16 @@ else
   echo "(BACKLOG.md não encontrado em $DIR — o mecanismo anti-perda depende dele; recrie a partir do PROXIMA-INSTANCIA.md)"
 fi
 echo "─────────────────────────────────────────────────────────────────────────────────────────"
+
+# D141 (MOU 2026-06-25): boot consolida sozinho o que a sessão anterior deixou preso (árvore limpa).
+if git -C "$DIR" rev-parse --git-dir >/dev/null 2>&1; then
+  git -C "$DIR" fetch origin main --quiet 2>/dev/null || true
+  _behind=$(git -C "$DIR" rev-list --count origin/main..HEAD 2>/dev/null || echo 0)
+  if [ "${_behind:-0}" != "0" ] && [ -z "$(git -C "$DIR" status --porcelain 2>/dev/null)" ]; then
+    _cs="$DIR/consolidar.sh"; [ -f "$DIR/processos/consolidar.sh" ] && _cs="$DIR/processos/consolidar.sh"
+    if [ -f "$_cs" ]; then
+      echo "↪ $_behind commit(s) preso(s) da sessão anterior — consolidando sozinho ao main (D141)…"
+      bash "$_cs" 2>&1 | sed "s/^/   /" || echo "   (não fechou: main protegido → abra PR, ou conflito p/ a instância resolver)"
+    fi
+  fi
+fi
