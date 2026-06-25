@@ -98,3 +98,8 @@ Antes de re-rodar os prompts em `docs/PROMPTS-EXTRACAO-EXTENSAO.md` para captura
 
 ### D-PU-MANIFESTO — Manter o MANIFESTO.json conforme estado real (não inflar contagem)
 A auditoria 2026-06-20 contestou a contagem "27 leis verbatim integrais". O manifesto regenerado pela Action `consolidar.yml` deve mostrar **status real por item** (`bruto` × `fatiado` × `tagueado` × `validado` × `indexado`) — verbatim integral confirmado SOMENTE com prova (citação direta validada). Não rotular `validado` por suposição (P1.7). Atualizar contagem no `MANIFESTO.json` se estiver com label desatualizado.
+
+### D-PU-STRANDED (2026-06-25) — branch de orquestrador não-consolidada (forense do escritório)
+> Trazido pelo Escritório do MOU (PMO). Forense de fechamento. O escritório recuperou o additive seguro; o resto é reconciliação SUA (D104).
+- **4 leis municipais SP IPTU/zoneamento RECUPERADAS ao main** por mim (additive): Lei 16.402/2016 (zoneamento), Decreto 57.443/2016, Leis 16.642/2017, 17.733/2022. Decisão "começa por TDC" mantida — guardadas para a fase IPTU.
+- **`claude/project-audit-roadmap-2thi1g`** (24/jun, +14 commit, ~91 arquivos únicos): além das 4 leis (já recuperadas), contém material de auditoria/mapeamento IPTU-TDC. ⚠️ tem arquivos que CONFLITAM com o main (ex.: outras leis com versão diferente — `lei-16050`, `lei-17844` divergem; NÃO sobrescrever às cegas, foi pego no resgate). Reconciliar: o que é corpus novo (additive) entra; versão de lei já existente, você decide a canônica. DoD: branch reconciliada OU declarada superseded. Gatilho: onda PU / orquestrador montado.
