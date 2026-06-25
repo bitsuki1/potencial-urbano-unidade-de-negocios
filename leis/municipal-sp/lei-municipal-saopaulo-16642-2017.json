@@ -1,16 +1,17 @@
 {
-  "id": "lei-municipal-saopaulo-17844-2022",
+  "id": "lei-municipal-saopaulo-16642-2017",
   "tipo_norma": "lei municipal",
   "esfera": "Municipal-SP",
   "jurisdicao": "São Paulo - SP",
-  "numero": "17844",
-  "ano": "2022",
+  "numero": "16642",
+  "ano": "2017",
   "ementa": "(ver texto integral)",
   "tema": [
-    "IPTU"
+    "TDC",
+    "urbanística"
   ],
   "vigencia": {
-    "inicio": "2022-09-14",
+    "inicio": "2017-05-09",
     "fim": null,
     "revogada_por": null,
     "altera": [],
@@ -18,12 +19,13 @@
   },
   "fonte": {
     "origem": "Google Drive",
-    "path": "_entrada/iptu/lei-no-17-844-de-14-de-setembro-de-2022-catalogo-de-legislacao-municip.txt",
+    "path": "_entrada/tdc/l16642.txt",
     "hash": null,
     "ocr": false,
-    "fileId": "1LaCDRmdJ41EWnQbrt3WzOMouDIceQs6Z"
+    "fileId": "1CPtqgZ4ucdXvA0VJ7VW5p1xNwrgddRx0"
   },
   "status_pipeline": "indexado",
   "confianca_extracao": "alta",
-  "revisado_por_humano": false
+  "revisado_por_humano": false,
+  "versao_texto": "original"
 }

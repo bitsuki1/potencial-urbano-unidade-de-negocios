@@ -1,16 +1,16 @@
 {
-  "id": "lei-municipal-saopaulo-17844-2022",
-  "tipo_norma": "lei municipal",
+  "id": "decreto-saopaulo-57443-2016",
+  "tipo_norma": "decreto municipal",
   "esfera": "Municipal-SP",
   "jurisdicao": "São Paulo - SP",
-  "numero": "17844",
-  "ano": "2022",
+  "numero": "57443",
+  "ano": "2016",
   "ementa": "(ver texto integral)",
   "tema": [
     "IPTU"
   ],
   "vigencia": {
-    "inicio": "2022-09-14",
+    "inicio": "2016-11-10",
     "fim": null,
     "revogada_por": null,
     "altera": [],
@@ -18,10 +18,10 @@
   },
   "fonte": {
     "origem": "Google Drive",
-    "path": "_entrada/iptu/lei-no-17-844-de-14-de-setembro-de-2022-catalogo-de-legislacao-municip.txt",
+    "path": "_entrada/iptu/decreto-no-57-443-de-10-de-novembro-de-2016-catalogo-de-legislacao-mun.txt",
     "hash": null,
     "ocr": false,
-    "fileId": "1LaCDRmdJ41EWnQbrt3WzOMouDIceQs6Z"
+    "fileId": "1PieuCjPGrWio22UwcYEmGR33JM58OHEx"
   },
   "status_pipeline": "indexado",
   "confianca_extracao": "alta",

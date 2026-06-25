@@ -1,0 +1,34 @@
+{
+  "id": "lei-municipal-saopaulo-16402-2016",
+  "tipo_norma": "lei municipal",
+  "esfera": "Municipal-SP",
+  "jurisdicao": "São Paulo - SP",
+  "numero": "16402",
+  "ano": "2016",
+  "ementa": "(ver texto integral)",
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "vigencia": {
+    "inicio": "2016-03-22",
+    "fim": null,
+    "revogada_por": null,
+    "altera": [],
+    "alterada_por": [
+      "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+    ],
+    "obs": "TEXTO CONSOLIDADO: 79 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2016-03-22. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+  },
+  "fonte": {
+    "origem": "Google Drive",
+    "path": "_entrada/tdc/lei-no-16-402-de-22-de-marco-de-2016-catalogo-de-legislacao-municipal.txt",
+    "hash": null,
+    "ocr": false,
+    "fileId": "1PfVAfD0Pxukebn4q86NmNpjqkfLOli2X"
+  },
+  "status_pipeline": "indexado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "versao_texto": "consolidada"
+}

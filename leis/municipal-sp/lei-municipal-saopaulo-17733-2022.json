@@ -1,16 +1,16 @@
 {
-  "id": "lei-municipal-saopaulo-17844-2022",
+  "id": "lei-municipal-saopaulo-17733-2022",
   "tipo_norma": "lei municipal",
   "esfera": "Municipal-SP",
   "jurisdicao": "São Paulo - SP",
-  "numero": "17844",
+  "numero": "17733",
   "ano": "2022",
   "ementa": "(ver texto integral)",
   "tema": [
     "IPTU"
   ],
   "vigencia": {
-    "inicio": "2022-09-14",
+    "inicio": "2022-01-11",
     "fim": null,
     "revogada_por": null,
     "altera": [],
@@ -18,10 +18,10 @@
   },
   "fonte": {
     "origem": "Google Drive",
-    "path": "_entrada/iptu/lei-no-17-844-de-14-de-setembro-de-2022-catalogo-de-legislacao-municip.txt",
+    "path": "_entrada/iptu/lei-no-17-733-de-11-de-janeiro-de-2022-catalogo-de-legislacao-municipa.txt",
     "hash": null,
     "ocr": false,
-    "fileId": "1LaCDRmdJ41EWnQbrt3WzOMouDIceQs6Z"
+    "fileId": "13cu1rgCXTnPeBvd0uryDTABBFmFhctHy"
   },
   "status_pipeline": "indexado",
   "confianca_extracao": "alta",
