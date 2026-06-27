@@ -111,3 +111,33 @@ O escritório depositou um **PACOTE DE PADRONIZAÇÃO DE PROJETOS** na branch `o
 2. Auditoria profunda 3-lentes rodada; este laudo lavrado.
 3. Achados depositados: este doc + `caixa-de-saida/para-escritorio/` (cross-repo) + `BACKLOG.md` (B-15..B-19) + REGISTRO/ATA atualizados.
 4. **NÃO** feito (fora do escopo "executar padrões + auditar + depositar", aguarda acionamento cadenciado): cirurgia de corpus (indexar as 4 leis / corrigir rótulo), B-11/B-12, e o **PR de `project-audit-roadmap` ao main** (decisão do escritório/MOU).
+
+---
+
+## 7. 2º ACIONAMENTO (2026-06-27) — 3 auditorias + PAGUE-TUDO
+> MOU: "verificar caixa, 3 auditorias (profunda·beta·decisões), pague tudo, deposite". Rodadas 3 lentes paralelas (anti-self D-12).
+
+### 7.1 Caixa (novo recado)
+- **MR-14 / D-PU-FRENTES** (depositado em `claude/maestro-project-audit-h71gqn`): pauta de DELIBERAÇÃO de 4 frentes (A Engine · B Produto · C Corpus · D Tese). Consumido (cherry-pick), deliberado e respondido em `caixa-de-saida/para-escritorio/2026-06-27_potencial-urbano_pague-tudo-e-deliberacao-frentes.md`. **DoD aguarda o MOU consolidar.**
+
+### 7.2 Auditorias (resultado)
+- **Decisões:** D-01..D-12 **conferem (0 violações)**; passivo era de REGISTRO (CODEX congelado em 20/06). → lavradas **D-13..D-17**.
+- **Beta:** BETA estruturalmente correto mas congelado; Supabase re-confirmado SEM DADO (MCP); DDL da branch órfã com header mentindo. → §3/§4/§6 atualizados.
+- **Profunda (refresh):** confirmou os 5 achados + 2 NV críticos (NV-1 `consolidar.py` lê rótulo; NV-2 boot auto-empurra falso-verde).
+
+### 7.3 Pago (com prova — gate `fechar-instancia.py` VERDE)
+| Item | O que | Prova |
+|---|---|---|
+| **B-15** | indexei de verdade as 4 IPTU (17 leis/1.571 chunks); `indexado` virou prova | `rag/index` tem as 4; evals 8/11 0-falha-ativa |
+| **bônus** | TDC destravado no main (LPUOS 16.402 Art. 24) | eval `tdc-potencial-construtivo-lpuos` PASS (cobertura 86%) |
+| **NV-1** | `consolidar.py` deriva `indexado` do índice + alerta divergência | alerta `indexado_sem_chunks_no_indice: []` |
+| **B-16** | MANIFESTO honesto (63/31/indexado 17) | idempotente vs commit |
+| **B-18** | `gate-fechamento.sh` checa idempotência do MANIFESTO | os 2 gates concordam |
+| **B-19** | hook dedup por branch (não suja/duplica) | sed-fix no `surface-backlog.sh` |
+| **NV-2** | hook aborta auto-consolidação se MANIFESTO não-idempotente | guarda no bloco D141 |
+| **B-12(c/d)** | trava FATAL em campo próprio executada + citação por dispositivo | `_autoteste` estendido, verde |
+
+### 7.4 NÃO pago (com motivo)
+- **B-17** (produto preso na branch → main): cross-repo, PR ao main + conflito — **decisão do MOU**, depositado.
+- **B-11(c)** vigência-por-chunk (204 rótulos compilados): toca o retrieval; deixado para acionamento dedicado (risco de regressão nos evals verdes). Registrado aberto.
+- **B-1..B-4, B-9** dependem do Drive (lane cercada).

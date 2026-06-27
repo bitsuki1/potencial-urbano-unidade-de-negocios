@@ -251,6 +251,28 @@ o engine campo a campo. Fórmula que não bate com caso real não passa.
   MESMA lente = falsa convergência. Candidata a regra de portfólio (depositada ao escritório). Reflete em
   `BETA-CONTINUO.md §3`.
 
+**D-13 — Padrões do escritório consolidados ao main; caixas v2 lado-projeto. (2026-06-27)**
+- *Tese:* o pacote de padronização (Tipo D128=UNIDADE · D119/D120 · REGISTRO/ATA · handoff único · caixas v2 · gate de pickup) foi auditado ADDITIVE-seguro e consolidado ao main.
+- *Antítese:* "é diretriz do escritório, aplico às cegas." *Vacina:* aplicado sob o gate do projeto (D21), só após verificar que é additive (12 arquivos, nada de corpus/engine tocado). PROPAGAR≠EMPACOTAR (DE-34): vale por estar no canônico, não por escrito na caixa.
+
+**D-14 — O gate D141 AUTO-EMPURRA ao main (comportamento de risco, agora com guarda). (2026-06-27)**
+- *Tese:* `gate-fechamento.sh [2/5]` e o hook de boot consolidam sozinhos a branch ao `origin/main` (main não-protegido neste repo) — economiza a dança manual, mas empurra sem revisão humana.
+- *Antítese:* "rodar um gate é inócuo." *Vacina:* rodar o gate MOVE o main. A guarda **NV-2** (2026-06-27) ABORTA a auto-consolidação se o MANIFESTO não for idempotente — não propaga falso-verde. Toda instância deve saber que `gate-fechamento.sh`/boot tocam o main.
+
+**D-15 — 'indexado' é o ÍNDICE, não o rótulo do .json (B-15/NV-1). (2026-06-27)**
+- *Tese:* `status_pipeline:"indexado"` só é verdade se há chunk em `rag/chunks/<id>/` E entrada em `rag/index/`. 4 leis IPTU diziam "indexado" com 0 chunks (falso-verde gravado no corpus).
+- *Antítese:* "o .json diz indexado, então está indexado." *Vacina:* `consolidar.py` agora deriva a verdade do índice e alerta `indexado_sem_chunks_no_indice`; ambos os gates FALHAM se a lista não for vazia. Corrigido indexando de verdade as 4 (destravar, não rebaixar — RO-09).
+
+**D-16 — Indexar a LPUOS 16.402/2016 destravou TDC no main; negativo é relativo ao acervo. (2026-06-27)**
+- *Tese:* ao pagar B-15, a LPUOS entrou no índice e a consulta de TDC ("potencial construtivo passível de transferência") passou a ser FUNDAMENTADA com citação real (Art. 24, cobertura 86%) — 1º destrave de produto TDC no main.
+- *Antítese:* "o eval negativo quebrou, força ele a passar." *Vacina:* a premissa do `neg-tdc-fora-de-corpus` mudou (TDC entrou no corpus); revalidado para POSITIVO conforme a vacina "negativo é relativo ao acervo". Revalidar negativos a cada expansão do corpus.
+
+**D-17 — Engine: trava FATAL em campo próprio + citação por dispositivo (B-12c/d). (2026-06-27)**
+- *Tese:* a trava FATAL de gabarito (COMAER/CONPRESP/LPUOS-Q3) virou campo próprio EXECUTADO (antes caía muda em `blocos_nao_avaliados`); a citação do engine aponta o DISPOSITIVO (PDE art. 125 via remissão na LPUOS; Estatuto da Cidade art. 28-31), não a lei inteira.
+- *Antítese:* "cita a lei e está fundamentado." *Vacina:* lei-inteira não é citação (1.7). Onde o artigo do PDE não está no verbatim (PDE ainda bruto, B-4), `confianca:"a_confirmar"` — apontar+sinalizar > blob.
+
+> **Pendência REGISTRADA (não resolvida nesta sessão): B-17 — produto preso na branch órfã `project-audit-roadmap-2thi1g`** (B-1 fechado, TDC verbatim 19×13, engine sobre imóvel real, E5 provado). Consolidar ao main é cross-repo (decisão MOU); depositado em `caixa-de-saida/para-escritorio/`.
+
 ---
 
 ## 6. DECISÕES PENDENTES
@@ -453,12 +475,15 @@ qualquer alteração); Supabase ADOTADO — projeto `potencial-urbano-iptu-tdc`
 
 ---
 
-## ESTADO OFICIAL (para a próxima instância) — 2026-06-20 (auditoria profunda + 3 destraves)
-> Atualização 2026-06-20: ver `docs/AUDITORIA-PROFUNDA-2026-06-20.md`, `BACKLOG.md` (determinações
-> com DoD), `PROXIMA-INSTANCIA.md`. Decisões novas: D-05…D-09 (§5).
-- **Esteira RAG:** EXISTE e provada fim-a-fim (`scripts/fatiar|indexar|consultar` + `evals/`,
-  gate 1.7). **13 leis verbatim/indexadas** (12 federais + 7.228/1968), 1.246 dispositivos. 14
-  municipais ainda só resumo (re-ingerir — B-4). Engine TDC em CÓDIGO (`engines/tdc/oodc.py`).
+## ESTADO OFICIAL (para a próxima instância) — 2026-06-20; ATUALIZADO 2026-06-27 (3 auditorias + pague-tudo)
+> Atualização 2026-06-27: ver `docs/AUDITORIA-PROFUNDA-2026-06-27.md`, `BACKLOG.md`, `PROXIMA-INSTANCIA.md`.
+> Decisões novas: **D-13…D-17** (§5). Números canônicos vivem no `MANIFESTO.json` (não cravar à mão — NV-5).
+- **Esteira RAG:** EXISTE e provada fim-a-fim (`scripts/fatiar|indexar|consultar` + `evals/`, gate 1.7).
+  **17 leis indexadas** (12 federais + 7.228/1968 + 4 IPTU/zoneamento: LPUOS 16.402, COE 16.642, 17.733,
+  decreto 57.443), **1.571 dispositivos** (era 13/1.246 — B-15 indexou de verdade as 4 que tinham rótulo
+  `indexado` falso). **TDC DESTRAVADO no main:** consulta de potencial construtivo transferível cita a LPUOS
+  16.402 Art. 24 (cobertura 86%). 14 municipais ainda só resumo (re-ingerir — B-4). Engine TDC em CÓDIGO
+  (`engines/tdc/oodc.py`; trava FATAL + citação por dispositivo — D-17).
 - **Mecanismo anti-perda ("ladrão" D83):** `BACKLOG.md` + hook de boot + `scripts/fechar-instancia.py`
   (rodar ao fechar; sai 0 = verde).
 - **SSOT:** este Codex (v0.5). Playbook do escritório: `BETA-CONTINUO.md`.
