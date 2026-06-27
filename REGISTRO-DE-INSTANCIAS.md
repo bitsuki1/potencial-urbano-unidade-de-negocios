@@ -6,3 +6,4 @@
 |---|---|---|---|---|---|---|
 | 2026-06-27 | `claude/maestro-project-audit-h71gqn` | (este commit) | maestro-escritório organizando o PU | Executar a frente PADRONIZAÇÃO no repo do PU (D128 · MR-4/MR-5 · registro/ata · handoff · caixas v2 lado-projeto) | FECHADA | `PROXIMA-INSTANCIA.md` |
 | 2026-06-27 | `claude/office-standards-consolidation-5gyg00` | `7743a0d`+ | orquestrador do Potencial Urbano (PU 12) | Verificar caixa + auditoria profunda + depositar achados; consolidou o pacote de padronização do escritório (FF) | FECHADA | `docs/AUDITORIA-PROFUNDA-2026-06-27.md` + `BACKLOG.md` (B-15..B-19) |
+| 2026-06-27T14:21Z | `claude/office-standards-consolidation-5gyg00` | 56be2e4 | orquestrador do Potencial Urbano (PU 12) | Verificar caixa (MR-14) + 3 auditorias (profunda·beta·decisões) + PAGAR tudo (B-15..B-19) + depositar | ABERTA | (em andamento) |
