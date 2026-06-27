@@ -2,6 +2,7 @@
 > Constituição do projeto (Partes 1–4 do documento de fundação `PROJETO-RAG-JURIDICO-IPTU-TDC.md`).
 > Lida automaticamente por toda instância do Claude Code que tocar neste repo. Trazido pelo Escritório do MOU — 2026-06-17.
 > Marca da unidade: ver o Escritório (decisão de marca em vigor: **SBA Negócios** é a marca do grupo; aqui a unidade é **Potencial Urbano**).
+> **Tipo (D128):** UNIDADE — unidade de negócio do portfólio do MOU (não é ESCRITÓRIO, nem USO, nem HUB).
 
 ## PARTE 1 — Princípios invioláveis
 Invariantes. Tudo se subordina a eles. Se uma decisão futura conflitar com um destes, o princípio ganha.
@@ -92,3 +93,8 @@ Este repo é a unidade **Potencial Urbano** (RAG Jurídico IPTU/TDC) do portfól
 - Se montou TAMBÉM o `escritorio-do-mou`, o chapéu é o do ESCRITÓRIO (a constituição dele manda); este repo é DADO a ler/servir.
 - As **diretrizes do escritório** para este projeto vivem em `DO_ESCRITORIO.md` (raiz) — canal D44; diretriz é proposta fundamentada, não ordem cega.
 - **Doutrina herdada (obrigatória):** zero-compressão · dialético · agnosticismo · nada se joga fora. SSOT da doutrina = `escritorio-do-mou/CLAUDE.md`. Em divergência, vale o escritório.
+
+### Políticas transversais do portfólio (aplicam-se a esta unidade)
+> Descidas do escritório em 2026-06-27 (canal D44; SSOT no `escritorio-do-mou`). Aplicadas sob o gate do projeto (D21).
+- **D120 — área de trabalho × repo de produto:** a área de trabalho do PMO é o repo `escritorio-do-mou`; os repos de **produto/unidade** (como ESTE) são consulta + execução do próprio projeto. O escritório toca este repo via git, atribuído e sob o gate (D21), **nunca como comando** (D2). Esta instância **NÃO escreve** no `escritorio-do-mou` (trava em `.claude/settings.json`).
+- **D119 — "TODOS LEEM, só a KEEPEE TOCA" o DEV:** o repositório de DESENVOLVIMENTO do Profinders (org `keepee-facilities`) tem **leitura liberada** a qualquer unidade (inventário/as-built) mas **escrita EXCLUSIVA da unidade Keepee**. O Potencial Urbano **NUNCA escreve** no DEV (trava em `.claude/settings.json`). _(D119 revisa o antigo D29 "intocável por todos".)_

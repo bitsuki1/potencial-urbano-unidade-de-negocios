@@ -19,6 +19,31 @@ else
 fi
 echo "─────────────────────────────────────────────────────────────────────────────────────────"
 
+# REGISTRO DE INSTÂNCIAS (PADRAO-DE-REPO §4 do escritório): auto-estampa a instância no boot p/ contagem
+# + rastreio de chapéu. Instância que abre e some deixa linha ABERTA órfã = perdida. Mecanismo > memória (D71).
+REG="$DIR/REGISTRO-DE-INSTANCIAS.md"
+if [ -f "$REG" ]; then
+  BR=$(git -C "$DIR" branch --show-current 2>/dev/null || echo "?")
+  HD=$(git -C "$DIR" rev-parse --short HEAD 2>/dev/null || echo "?")
+  if ! grep -E "\| ABERTA \|" "$REG" 2>/dev/null | grep -qF "\`$BR\`"; then
+    printf '| %s | `%s` | %s | [CONFIRME o chapéu] | [PREENCHER objetivo na 1ª ação] | ABERTA | |\n' \
+      "$(date -u +%Y-%m-%dT%H:%MZ)" "$BR" "$HD" >> "$REG"
+  fi
+  echo "📋 Instância (branch $BR) estampada em REGISTRO-DE-INSTANCIAS.md — CONFIRME o chapéu + escreva o OBJETIVO; marque FECHADA ao sair."
+fi
+
+# CAIXAS v2 (PROTOCOLO-DE-CAIXAS §4): surfaça recados não-lidos na caixa-de-entrada/ (escritos pelo sync do escritório).
+if [ -d "$DIR/caixa-de-entrada" ]; then
+  pend=$(find "$DIR/caixa-de-entrada" -type f -name '*.md' ! -path '*/processados/*' ! -name 'README.md' 2>/dev/null | sort || true)
+  n=$(printf '%s\n' "$pend" | grep -c . || true)
+  if [ "${n:-0}" != "0" ]; then
+    echo "═══════════ CAIXA-DE-ENTRADA — $n recado(s) NÃO-LIDO(S) do escritório/par (leia e aplique) ═══════════"
+    printf '%s\n' "$pend" | sed -E "s|^$DIR/||; s|^|   • |" || true
+    echo "   → aplique e MOVA p/ caixa-de-entrada/processados/. O gate FALHA se sobrar recado não-aplicado."
+    echo "─────────────────────────────────────────────────────────────────────────────────────────"
+  fi
+fi
+
 # D141 (MOU 2026-06-25): boot consolida sozinho o que a sessão anterior deixou preso (árvore limpa).
 if git -C "$DIR" rev-parse --git-dir >/dev/null 2>&1; then
   git -C "$DIR" fetch origin main --quiet 2>/dev/null || true

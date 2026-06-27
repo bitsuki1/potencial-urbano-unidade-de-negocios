@@ -1,3 +1,19 @@
 # HANDOFF-SURFACES — Potencial Urbano
-CLAUDE.md
-DO_ESCRITORIO.md
+# Resolve a divergência de superfícies (A-009 / PU-PAD-06, 2026-06-27): UMA surface primária de retomada,
+# alinhada exatamente ao que o hook surfaça. Estado vive no GIT, não na conversa.
+
+# SURFACE PRIMÁRIA de retomada (leia nesta ordem — igual ao hook surface-backlog.sh):
+PROXIMA-INSTANCIA.md        # 1º: o delta da última sessão (FEITO/PRÓXIMO)
+HANDOFF-E-PENDENCIAS.md     # 2º: pendências da sessão anterior
+MANIFESTO.json              # 3º: estado/contagem real de cada item do corpus (GERADO)
+BACKLOG.md                  # determinações em aberto (surfaçado no boot)
+
+# IDENTIDADE / DOUTRINA (não é estado de sessão — leia para saber quem você é):
+CLAUDE.md                   # constituição do projeto (Partes 1–4) + Tipo (D128): UNIDADE
+DO_ESCRITORIO.md            # diretrizes do escritório (canal D44)
+
+# ENTRADA DO ESCRITÓRIO/PARES (caixas v2 — recados a aplicar):
+caixa-de-entrada/           # recados não-lidos do escritório/par (surfaçados no boot)
+
+# NÃO use como SSOT de estado: CODEX-DO-PROJETO.md §ESTADO e PU.md são secundários/históricos —
+# o estado canônico é PROXIMA-INSTANCIA.md + MANIFESTO.json (acima).

@@ -52,8 +52,19 @@ else warn "sem REGISTRO-DE-INSTANCIAS.md (ok se o repo não usa contagem)"; fi
 
 # [5] handoff existe e foi tocado
 say "[5/5] handoff de retomada…"
-HO=$(ls HANDOFF-ULTIMO.md HANDOFF*.md ESTADO*.md START-HERE*.md 2>/dev/null | head -1)
+HO=$(ls HANDOFF-ULTIMO.md HANDOFF*.md ESTADO*.md START-HERE*.md PROXIMA-INSTANCIA.md 2>/dev/null | head -1)
 [ -n "${HO:-}" ] && ok "handoff presente: $HO (confirme que reflete ESTA sessão)" || warn "nenhum handoff óbvio — deixe um para a próxima instância"
+
+# [CAIXA] pickup das caixas v2 (PROTOCOLO-DE-CAIXAS §4): FALHA se há recado não-aplicado na caixa-de-entrada/.
+say "[CAIXA] recados não-aplicados (caixas v2 §4)…"
+if [ -d caixa-de-entrada ]; then
+  pend=$(find caixa-de-entrada -type f -name '*.md' ! -path '*/processados/*' ! -name 'README.md' 2>/dev/null | sort || true)
+  n=$(printf '%s\n' "$pend" | grep -c . || true)
+  if [ "${n:-0}" = "0" ]; then ok "nenhum recado pendente (ou caixa vazia)"; else
+    fail "$n recado(s) NÃO-APLICADO(S) na caixa-de-entrada/ — aplique e MOVA p/ processados/ antes de fechar:"
+    printf '%s\n' "$pend" | sed 's/^/      /'
+  fi
+else ok "sem caixa-de-entrada/ (v2 não bootstrapado neste repo)"; fi
 
 say "─────────────────────────────────────────────"
 if [ "$fails" = "0" ]; then say "✅ GATE VERDE — pode fechar ($warns aviso(s))."; exit 0
