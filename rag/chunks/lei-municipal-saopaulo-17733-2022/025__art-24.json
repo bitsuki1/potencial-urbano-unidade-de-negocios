@@ -1,0 +1,29 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17733-2022::025-art-24",
+  "lei_id": "lei-municipal-saopaulo-17733-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 24",
+  "numero": "24",
+  "caminho_hierarquico": [
+    "CAPÍTULO VIII",
+    "Art. 24"
+  ],
+  "texto": "Art. 24. As ERBs regularmente implantadas até a data da entrada em vigor desta Lei, desde que não\n\ntenham sofrido qualquer alteração, deverão renovar o respectivo licenciamento ou cadastramento, no\n\nprazo de 2 (dois) anos, contado da data da publicação do decreto regulamentar.\n\nParágrafo único. As mini ERBs e ERBs móvel regularmente instaladas até a data da entrada em vigor\n\ndesta Lei permanecerão regulares até o término de validade de seu respectivo cadastro.",
+  "citacao": {
+    "norma": "lei municipal nº 17733/2022 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO VIII › Art. 24",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2022-01-11",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": []
+    }
+  },
+  "tema": [
+    "IPTU"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

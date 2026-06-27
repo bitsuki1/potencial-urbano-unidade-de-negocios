@@ -1,0 +1,31 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16642-2017::078-art-79",
+  "lei_id": "lei-municipal-saopaulo-16642-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 79",
+  "numero": "79",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Seção IV",
+    "Art. 79"
+  ],
+  "texto": "Art. 79. A edificação regular pode ser reconstruída, no todo ou em parte, em caso de ocorrência de incêndio ou outro sinistro.\n\n§ 1º Na reconstrução, deve ser prevista a adaptação da edificação às condições de segurança de uso e de acessibilidade de acordo com o estabelecido neste Código.\n\n§ 2º No caso previsto no § 1º deste artigo ou quando se pretenda introduzir alterações em relação à edificação anteriormente existente, a área a ser acrescida deve ser analisada como reforma.",
+  "citacao": {
+    "norma": "lei municipal nº 16642/2017 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO V › Seção IV › Art. 79",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2017-05-09",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": []
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

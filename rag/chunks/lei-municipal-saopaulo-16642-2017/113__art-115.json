@@ -1,0 +1,30 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16642-2017::113-art-115",
+  "lei_id": "lei-municipal-saopaulo-16642-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 115",
+  "numero": "115",
+  "caminho_hierarquico": [
+    "CAPÍTULO VIII",
+    "Art. 115"
+  ],
+  "texto": "Art. 115. O pedido protocolado até a data do início da vigência deste Código, ainda sem despacho decisório ou com interposição de recurso dentro do prazo legal, deve ser analisado e decidido de acordo com os requisitos técnicos da legislação anterior.\n\n§ 1º No caso de que trata o \"caput\" deste artigo, não será admitida qualquer mudança, alteração ou modificação que implique no agravamento das desconformidades em relação ao estabelecido neste Código.\n\n§ 2º Por opção e a pedido do interessado, a análise e decisão podem ocorrer integralmente nos termos deste Código.\n\n§ 3º No caso previsto no § 2º deste artigo, não será admitida a apresentação do projeto simplificado previsto neste Código, devendo o interessado, para tanto, desistir do processo em aberto, protocolar novo pedido e recolher as taxas devidas.",
+  "citacao": {
+    "norma": "lei municipal nº 16642/2017 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO VIII › Art. 115",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2017-05-09",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": []
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

@@ -1,0 +1,34 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16402-2016::098-art-91",
+  "lei_id": "lei-municipal-saopaulo-16402-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 91",
+  "numero": "91",
+  "caminho_hierarquico": [
+    "TÍTULO IV",
+    "CAPÍTULO II",
+    "Art. 91"
+  ],
+  "texto": "Art. 91. Nas zonas ZCOR-2, ZCOR-3 e ZCORa, o gabarito de altura máxima poderá ser majorado em\n\naté 50% (cinquenta por cento) do estabelecido no Quadro 3 desta lei, desde que:\n\nI (Revogado pela Lei nº 18.081/2024)\n\nII - haja anuência expressa, devidamente firmada e registrada em Cartório de Registro de Títulos e\n\nDocumentos, de todos os proprietários limítrofes do imóvel;\n\nIII - haja manifestação do órgão municipal de preservação cultural, quando se tratar de imóvel\n\nenquadrado como ZEPEC;\n\nIV - sejam observados os parâmetros mais restritivos, quando for o caso, nos termos do disposto no",
+  "citacao": {
+    "norma": "lei municipal nº 16402/2016 — São Paulo - SP",
+    "dispositivo": "TÍTULO IV › CAPÍTULO II › Art. 91",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2016-03-22",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 79 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2016-03-22. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

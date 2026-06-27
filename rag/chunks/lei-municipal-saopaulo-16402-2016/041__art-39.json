@@ -1,0 +1,34 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16402-2016::041-art-39",
+  "lei_id": "lei-municipal-saopaulo-16402-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 39",
+  "numero": "39",
+  "caminho_hierarquico": [
+    "TÍTULO III",
+    "CAPÍTULO I",
+    "Art. 39"
+  ],
+  "texto": "Art. 39. São parâmetros de parcelamento do solo, dentre outros:\n\nI - área e frente mínimas de lote;\n\nII - área e frente máximas de lote;\n\nIII - área máxima de quadra;\n\nIV - comprimento máximo da face de quadra;\n\nV - percentual mínimo total de área da gleba ou lote a ser destinada à Municipalidade, bem como\n\npercentuais mínimos para sistema viário, área verde e área institucional;\n\nVI - largura mínima de canteiro central, passeio público, via de pedestre, ciclovia e leito carroçável;\n\nVII - declividade máxima das vias.",
+  "citacao": {
+    "norma": "lei municipal nº 16402/2016 — São Paulo - SP",
+    "dispositivo": "TÍTULO III › CAPÍTULO I › Art. 39",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2016-03-22",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 79 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2016-03-22. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

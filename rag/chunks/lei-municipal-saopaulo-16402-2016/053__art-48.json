@@ -1,0 +1,34 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16402-2016::053-art-48",
+  "lei_id": "lei-municipal-saopaulo-16402-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 48",
+  "numero": "48",
+  "caminho_hierarquico": [
+    "TÍTULO III",
+    "CAPÍTULO I",
+    "Art. 48"
+  ],
+  "texto": "Art. 48. Os loteamentos serão entregues com infraestrutura urbana implantada, constituída pelos\n\nequipamentos de escoamento das águas pluviais, iluminação pública, esgotamento sanitário,\n\nabastecimento de água potável, energia elétrica pública e domiciliar e sistema viário, incluindo\n\nciclovias, vias de pedestre e as calçadas.\n\n§ 1º O sistema de escoamento de águas pluviais deve comportar equipamentos de retenção ou\n\ninfiltração e de dissipação de energia, de modo a atenuar os picos de cheias, favorecer a recarga das\n\náguas subterrâneas e prevenir a instalação de processos erosivos.\n\n§ 2º O sistema de distribuição de energia elétrica deve ser implantado por meio de dutos enterrados.\n\n§ 3º As calçadas devem ser implantadas concomitantemente às vias de circulação, devendo ainda:\n\nI - propiciar condições adequadas de acessibilidade;\n\nII - ter no mínimo 30% (trinta por cento) de sua superfície formada por elementos permeáveis;\n\nIII - ter arborização implantada, obedecendo, para o plantio, o espaçamento mínimo e a especificação\n\ndas espécies arbóreas definidos nas normas editadas pelo órgão ambiental competente.\n\nCAPÍTULO II\n\nDAS MODALIDADES DE PARCELAMENTO DO SOLO",
+  "citacao": {
+    "norma": "lei municipal nº 16402/2016 — São Paulo - SP",
+    "dispositivo": "TÍTULO III › CAPÍTULO I › Art. 48",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2016-03-22",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 79 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2016-03-22. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

@@ -1,0 +1,30 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16642-2017::101-art-103",
+  "lei_id": "lei-municipal-saopaulo-16642-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 103",
+  "numero": "103",
+  "caminho_hierarquico": [
+    "CAPÍTULO VII",
+    "Art. 103"
+  ],
+  "texto": "Art. 103. Enquanto não executados, devem ser observados os novos alinhamentos aprovados constantes das leis de melhoramento viário.\n\nParágrafo único. O disposto no \"caput\" deste artigo não se aplica aos planos de melhoramento publicados anteriormente a 8 de novembro de 1988, data da entrada em vigor da Lei nº 10.676, de 7 de novembro de 1988, desde que não exista declaração de utilidade pública em vigor por ocasião da emissão da aprovação do projeto.",
+  "citacao": {
+    "norma": "lei municipal nº 16642/2017 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO VII › Art. 103",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2017-05-09",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": []
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

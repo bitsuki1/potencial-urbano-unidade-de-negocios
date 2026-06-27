@@ -1,0 +1,31 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16642-2017::090-art-92",
+  "lei_id": "lei-municipal-saopaulo-16642-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 92",
+  "numero": "92",
+  "caminho_hierarquico": [
+    "CAPÍTULO VI",
+    "Seção III",
+    "Art. 92"
+  ],
+  "texto": "Art. 92. As penalidades previstas por desrespeito às normas deste Código aplicam-se também em relação a imóveis de valor cultural, histórico, artístico, paisagístico ou ambiental preservados ou a serem preservados e, ainda, a imóveis que, em razão do seu gabarito de altura e recuos, sejam necessários à preservação da volumetria do entorno, sem prejuízo da incidência das penalidades previstas em legislação própria.",
+  "citacao": {
+    "norma": "lei municipal nº 16642/2017 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO VI › Seção III › Art. 92",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2017-05-09",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": []
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

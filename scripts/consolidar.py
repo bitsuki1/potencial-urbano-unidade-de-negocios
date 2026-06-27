@@ -89,12 +89,37 @@ def enumerar_nao_corpus():
     }
 
 
+def lei_ids_realmente_indexados():
+    """NV-1 (auditoria 2026-06-27): a verdade do 'indexado' é o ÍNDICE + os chunks,
+    NÃO o rótulo do .json. Retorna o conjunto de lei_ids que têm chunk em rag/chunks/
+    E entrada em rag/index/metadados.json. Sem isso, 'indexado' no .json é falso-verde
+    (B-15: 4 leis IPTU diziam 'indexado' com 0 chunks)."""
+    idx = RAIZ / "rag" / "index" / "metadados.json"
+    no_indice = set()
+    if idx.exists():
+        try:
+            meta = json.loads(idx.read_text(encoding="utf-8"))
+            no_indice = {c.get("lei_id") for c in (meta if isinstance(meta, list)
+                          else meta.get("chunks", meta.values() if isinstance(meta, dict) else []))
+                         if isinstance(c, dict)}
+        except (json.JSONDecodeError, OSError, AttributeError):
+            no_indice = set()
+    com_chunks = {p.name for p in (RAIZ / "rag" / "chunks").glob("*") if p.is_dir() and any(p.iterdir())}
+    return no_indice & com_chunks
+
+
 def main():
     leis = coletar(RAIZ / "leis")
     juris = coletar(RAIZ / "jurisprudencia")
     todos = leis + juris
 
     ativos = [i for i in todos if not i["fora_de_escopo"]]
+    # NV-1: rótulo 'indexado' que NÃO tem chunk no índice = divergência (falso-verde no corpus).
+    indexados_reais = lei_ids_realmente_indexados()
+    divergencia_indexado = sorted(
+        i["id"] for i in todos
+        if i["status_pipeline"] == "indexado" and i["id"] not in indexados_reais
+    )
     por_status = {}
     for i in ativos:
         por_status[i["status_pipeline"]] = por_status.get(i["status_pipeline"], 0) + 1
@@ -126,6 +151,8 @@ def main():
             "status_fora_do_vocabulario": status_ilegais,
             "itens_confianca_baixa_ou_media_a_revisar": nao_verbatim,
             "itens_fora_de_escopo": [i["id"] for i in todos if i["fora_de_escopo"]],
+            "indexado_sem_chunks_no_indice": divergencia_indexado,
+            "_nota_divergencia": "NV-1 (2026-06-27): ids que dizem status_pipeline=indexado mas NAO tem chunk no rag/index = FALSO-VERDE; o gate (fechar-instancia.py / gate-fechamento.sh) FALHA se esta lista nao for vazia. Vazia = todo 'indexado' e provado pelo indice.",
         },
         "artefatos_nao_corpus": enumerar_nao_corpus(),
         "itens": sorted(todos, key=lambda i: (i["caminho_json"])),
@@ -150,6 +177,8 @@ def main():
           f"{r['ativos_no_escopo']} no escopo, {r['fora_de_escopo']} fora.")
     if status_ilegais:
         print(f"  ALERTA status ilegais: {status_ilegais}")
+    if divergencia_indexado:
+        print(f"  ALERTA NV-1 'indexado' SEM chunk no indice (falso-verde): {divergencia_indexado}")
     print(f"  por status: {por_status}")
 
 

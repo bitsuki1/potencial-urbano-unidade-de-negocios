@@ -1,0 +1,31 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16642-2017::068-art-69",
+  "lei_id": "lei-municipal-saopaulo-16642-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 69",
+  "numero": "69",
+  "caminho_hierarquico": [
+    "CAPÍTULO IV",
+    "Seção II",
+    "Art. 69"
+  ],
+  "texto": "Art. 69. As instâncias administrativas para a apreciação e decisão dos pedidos de que trata este Código, protocolados a partir da data de sua vigência, são as seguintes:\n\nI - para os pedidos de competência da Secretaria Municipal de Licenciamento:\n\na) Diretor de Divisão Técnica;\n\nb) Coordenador;\n\nc) Secretário Municipal de Licenciamento;\n\nII - para os pedidos de competência das Subprefeituras:\n\na) Supervisor Técnico de Uso do Solo e Licenciamentos;\n\nb) Coordenador de Planejamento e Desenvolvimento Urbano;\n\nc) Subprefeito.\n\n§ 1º Cabe recurso à autoridade imediatamente superior àquela que proferiu a decisão.\n\n§ 2º A competência para a apreciação dos pedidos e decisão em primeira instância pode ser delegada aos técnicos e chefes de seção, mediante portaria do Secretário Municipal de Licenciamento ou do Secretário Municipal de Coordenação das Subprefeituras, mantida a competência originária para a apreciação e decisão dos recursos.\n\n§ 3º Os despachos do Secretário Municipal de Licenciamento e dos Subprefeitos em grau de recurso, bem como o decurso do prazo recursal encerram definitivamente a instância administrativa.",
+  "citacao": {
+    "norma": "lei municipal nº 16642/2017 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO IV › Seção II › Art. 69",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2017-05-09",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": []
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

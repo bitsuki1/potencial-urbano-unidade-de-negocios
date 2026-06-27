@@ -1,0 +1,34 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16402-2016::013-art-12",
+  "lei_id": "lei-municipal-saopaulo-16402-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 12",
+  "numero": "12",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO II",
+    "Art. 12"
+  ],
+  "texto": "Art. 12. As Zonas Especiais de Interesse Social (ZEIS) são porções do território destinadas,\n\npredominantemente, à moradia digna para a população de baixa renda por intermédio de melhorias\n\nurbanísticas, recuperação ambiental e regularização fundiária de assentamentos precários e\n\nirregulares, bem como à provisão de novas Habitações de Interesse Social – HIS e Habitações de\n\nMercado Popular – HMP, a serem dotadas de equipamentos sociais, infraestrutura, áreas verdes e\n\ncomércio e serviços locais, situadas na zona urbana.\n\n§ 1º As ZEIS classificam-se em 5 (cinco) categorias, definidas nos termos dos incisos I a V do “caput”\n\ndo art. 45 da Lei nº 16.050, de 31 de julho de 2014 – PDE.\n\nhttps://legislacao.prefeitura.sp.gov.br/leis/lei-16402-de-22-de-marco-de-2016 10/99\n\n07/03/2026, 23:27 LEI Nº 16.402 DE 22 DE MARÇO DE 2016 « Catálogo de Legislação Municipal\n\n§ 2º Aplicam-se às ZEIS as disposições da Seção IV do Capítulo II do Título II da Lei nº 16.050, de 31\n\nde julho de 2014 – PDE, exceto o disposto no art. 56 da mesma lei.\n\n§ 3º Não se aplica a destinação mínima de percentuais de área construída de HIS 1 e HIS 2 previstos\n\nno Quadro 4, da Lei nº 16.050, de 31 de julho de 2014 – PDE, bem como fica dispensado o Plano de\n\nUrbanização e criação de Conselho Gestor, aos imóveis públicos destinados a serviços da\n\nadministração pública e serviços públicos de abastecimento situados em ZEIS.(Redação dada pela Lei\n\nnº 18.081/2024)\n\n§ 4º A produção de HIS em ZEIS 2 e em ZEIS 4 localizadas em áreas lindeiras a estabelecimentos com\n\natividades industriais de risco tecnológico deverá ser precedida de parecer favorável do órgão\n\nambiental municipal competente, atestando a segurança e compatibilidade da área para uso\n\nresidencial.(Incluído pela Lei nº 18.081/2024)",
+  "citacao": {
+    "norma": "lei municipal nº 16402/2016 — São Paulo - SP",
+    "dispositivo": "TÍTULO II › CAPÍTULO II › Art. 12",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2016-03-22",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 79 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2016-03-22. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

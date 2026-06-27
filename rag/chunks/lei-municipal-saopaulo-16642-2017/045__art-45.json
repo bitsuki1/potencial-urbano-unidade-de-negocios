@@ -1,0 +1,31 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16642-2017::045-art-45",
+  "lei_id": "lei-municipal-saopaulo-16642-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 45",
+  "numero": "45",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção II",
+    "Art. 45"
+  ],
+  "texto": "Art. 45. Mediante procedimento administrativo e a pedido do proprietário ou possuidor, a Prefeitura concede Alvará de Autorização para:\n\nI - implantação ou utilização de edificação transitória ou equipamento transitório, incluído estande de vendas no mesmo local de implantação da obra;\n\nII - utilização temporária de edificação licenciada para uso diverso;\n\nIII - avanço de tapume sobre parte do passeio público;\n\nIV - avanço de grua sobre o espaço público;\n\nV - instalação de canteiro de obras e estande de vendas em imóvel distinto daquele em que a obra será executada.",
+  "citacao": {
+    "norma": "lei municipal nº 16642/2017 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO II › Seção II › Art. 45",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2017-05-09",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": []
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

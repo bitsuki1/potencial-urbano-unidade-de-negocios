@@ -1,0 +1,34 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16402-2016::056-art-51",
+  "lei_id": "lei-municipal-saopaulo-16402-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 51",
+  "numero": "51",
+  "caminho_hierarquico": [
+    "TÍTULO III",
+    "CAPÍTULO II",
+    "Art. 51"
+  ],
+  "texto": "Art. 51. O parcelamento do solo, nas modalidades de loteamento, desmembramento e reparcelamento,\n\nserá precedido de fixação de diretrizes, pelo órgão municipal competente, a pedido do interessado,\n\nconforme documentação a ser regulamentada em decreto, que permita a adequada caracterização\n\nregistrária e planimétrico-cadastral da área a ser parcelada.\n\nParágrafo único. Fica dispensada a emissão de diretrizes prevista no “caput” quando se tratar de\n\nparcelamento onde não haja obrigação de destinação de área pública nos termos desta lei.",
+  "citacao": {
+    "norma": "lei municipal nº 16402/2016 — São Paulo - SP",
+    "dispositivo": "TÍTULO III › CAPÍTULO II › Art. 51",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2016-03-22",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 79 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2016-03-22. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

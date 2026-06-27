@@ -1,0 +1,31 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16642-2017::054-art-55",
+  "lei_id": "lei-municipal-saopaulo-16642-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 55",
+  "numero": "55",
+  "caminho_hierarquico": [
+    "CAPÍTULO IV",
+    "Seção I",
+    "Art. 55"
+  ],
+  "texto": "Art. 55. O pedido instruído pelo interessado deve ser analisado conforme a sua natureza, observadas as normas municipais, em especial as prescrições da LOE, PDE, LPUOS, sem prejuízo da observância das disposições estaduais e federais pertinentes.\n\n§ 1º O pedido deve ser instruído com todos os elementos necessários à sua apreciação, nos termos das normas legais e regulamentares.\n\n§ 2º Todos os documentos exigidos para a instrução dos pedidos podem ser substituídos por equivalentes eletrônicos ou por documentos disponíveis nos cadastros e bancos de dados da Prefeitura.\n\n§ 3º Os diversos pedidos referentes ao mesmo imóvel, bem como os recursos contra os respectivos despachos, podem ser analisados em um único processo.",
+  "citacao": {
+    "norma": "lei municipal nº 16642/2017 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO IV › Seção I › Art. 55",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2017-05-09",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": []
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

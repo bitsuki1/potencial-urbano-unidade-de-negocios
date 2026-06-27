@@ -1,0 +1,31 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16642-2017::025-art-24",
+  "lei_id": "lei-municipal-saopaulo-16642-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 24",
+  "numero": "24",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção II",
+    "Art. 24"
+  ],
+  "texto": "Art. 24. O pedido de Alvará de Execução deve ser instruído com documentos referentes ao terreno e ao projeto, assinado pelo profissional habilitado, de acordo com a natureza do pedido.\n\n§ 1º O responsável técnico deve formalizar declaração de responsabilidade pela correta execução da obra, de acordo com o projeto aprovado, observadas as normas técnicas aplicáveis.\n\n§ 2º Quando o pedido abranger a instalação de equipamento mecânico de transporte permanente, tais como elevador, escada rolante e plataforma de elevação, ou de tanque de armazenagem, bomba, filtro de combustível e equipamentos afins ou dispuser de sistema especial de segurança da edificação, deve ser formalizada declaração de responsabilidade assinada pelo profissional habilitado responsável pela instalação, atestando que os serviços atenderão às normas e às disposições legais pertinentes.\n\n§ 3º O Alvará de Execução somente pode ser emitido após a comprovação do atendimento a eventuais ressalvas constantes do Alvará de Aprovação e o pagamento integral da outorga onerosa previsto na legislação urbanística, quando for o caso.",
+  "citacao": {
+    "norma": "lei municipal nº 16642/2017 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO II › Seção II › Art. 24",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2017-05-09",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": []
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

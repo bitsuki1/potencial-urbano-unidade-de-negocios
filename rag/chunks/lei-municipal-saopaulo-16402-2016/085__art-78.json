@@ -1,0 +1,34 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16402-2016::085-art-78",
+  "lei_id": "lei-municipal-saopaulo-16402-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 78",
+  "numero": "78",
+  "caminho_hierarquico": [
+    "TÍTULO IV",
+    "CAPÍTULO I",
+    "Art. 78"
+  ],
+  "texto": "Art. 78. Nos casos de imóveis onde incide Termo de Compromisso de Ajustamento de Conduta\n\nAmbiental – TAC, firmado entre o órgão ambiental competente e pessoas físicas ou jurídicas,\n\nresponsáveis por danos ambientais relativos ao manejo não autorizado de espécies arbóreas,\n\npalmeiras e coqueiros, os indivíduos arbóreos plantados como obrigações impostas pelo TAC não\n\npoderão ser contabilizados para o cálculo da QA.",
+  "citacao": {
+    "norma": "lei municipal nº 16402/2016 — São Paulo - SP",
+    "dispositivo": "TÍTULO IV › CAPÍTULO I › Art. 78",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2016-03-22",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 79 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2016-03-22. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

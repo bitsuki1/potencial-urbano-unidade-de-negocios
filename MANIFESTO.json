@@ -1,6 +1,6 @@
 {
   "_doc": "Fonte da verdade do status_pipeline de cada item. GERADO por scripts/consolidar.py a partir dos .json individuais — NAO editar a mao (Principio 1.5/2.3 do CLAUDE.md). Roda a cada push via .github/workflows/consolidar.yml.",
-  "gerado_em": "2026-06-20T20:30:01.222969+00:00",
+  "gerado_em": "2026-06-27T21:07:16.174615+00:00",
   "vocabulario_status": [
     "bruto",
     "fatiado",
@@ -9,14 +9,14 @@
     "indexado"
   ],
   "resumo": {
-    "total_itens": 59,
-    "leis": 27,
+    "total_itens": 63,
+    "leis": 31,
     "jurisprudencia": 32,
-    "ativos_no_escopo": 57,
+    "ativos_no_escopo": 61,
     "fora_de_escopo": 2,
     "_nota": "por_status_pipeline conta SÓ os ativos_no_escopo; os 2 fora-de-escopo (ambos tagueado) não entram aqui. Soma = ativos_no_escopo, não total_itens.",
     "por_status_pipeline_ativos": {
-      "indexado": 13,
+      "indexado": 17,
       "bruto": 14,
       "tagueado": 30
     },
@@ -48,7 +48,9 @@
     "itens_fora_de_escopo": [
       "stf-tema-1020",
       "stj-resp-1658054"
-    ]
+    ],
+    "indexado_sem_chunks_no_indice": [],
+    "_nota_divergencia": "NV-1 (2026-06-27): ids que dizem status_pipeline=indexado mas NAO tem chunk no rag/index = FALSO-VERDE; o gate (fechar-instancia.py / gate-fechamento.sh) FALHA se esta lista nao for vazia. Vazia = todo 'indexado' e provado pelo indice."
   },
   "artefatos_nao_corpus": {
     "_nota": "Estado dos artefatos NÃO-corpus (1.1: Tabela/Engine/Tese). Fechamento do D24-do-git (AUD-09).",
@@ -650,6 +652,19 @@
       "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l9514.htm"
     },
     {
+      "id": "decreto-saopaulo-57443-2016",
+      "tipo": "decreto municipal",
+      "caminho_md": "leis/municipal-sp/decreto-saopaulo-57443-2016.md",
+      "caminho_json": "leis/municipal-sp/decreto-saopaulo-57443-2016.json",
+      "status_pipeline": "indexado",
+      "status_valido": true,
+      "confianca_extracao": "alta",
+      "revisado_por_humano": false,
+      "fora_de_escopo": false,
+      "fora_de_escopo_motivo": null,
+      "fonte_url": null
+    },
+    {
       "id": "lei-municipal-saopaulo-10235-1986",
       "tipo": "lei_ordinaria",
       "caminho_md": "leis/municipal-sp/lei-municipal-saopaulo-10235-1986.md",
@@ -780,6 +795,32 @@
       "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-16050-de-31-de-julho-de-2014"
     },
     {
+      "id": "lei-municipal-saopaulo-16402-2016",
+      "tipo": "lei municipal",
+      "caminho_md": "leis/municipal-sp/lei-municipal-saopaulo-16402-2016.md",
+      "caminho_json": "leis/municipal-sp/lei-municipal-saopaulo-16402-2016.json",
+      "status_pipeline": "indexado",
+      "status_valido": true,
+      "confianca_extracao": "alta",
+      "revisado_por_humano": false,
+      "fora_de_escopo": false,
+      "fora_de_escopo_motivo": null,
+      "fonte_url": null
+    },
+    {
+      "id": "lei-municipal-saopaulo-16642-2017",
+      "tipo": "lei municipal",
+      "caminho_md": "leis/municipal-sp/lei-municipal-saopaulo-16642-2017.md",
+      "caminho_json": "leis/municipal-sp/lei-municipal-saopaulo-16642-2017.json",
+      "status_pipeline": "indexado",
+      "status_valido": true,
+      "confianca_extracao": "alta",
+      "revisado_por_humano": false,
+      "fora_de_escopo": false,
+      "fora_de_escopo_motivo": null,
+      "fonte_url": null
+    },
+    {
       "id": "lei-municipal-saopaulo-17202-2019",
       "tipo": "lei_ordinaria",
       "caminho_md": "leis/municipal-sp/lei-municipal-saopaulo-17202-2019.md",
@@ -804,6 +845,19 @@
       "fora_de_escopo": false,
       "fora_de_escopo_motivo": null,
       "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17577-de-20-de-julho-de-2021"
+    },
+    {
+      "id": "lei-municipal-saopaulo-17733-2022",
+      "tipo": "lei municipal",
+      "caminho_md": "leis/municipal-sp/lei-municipal-saopaulo-17733-2022.md",
+      "caminho_json": "leis/municipal-sp/lei-municipal-saopaulo-17733-2022.json",
+      "status_pipeline": "indexado",
+      "status_valido": true,
+      "confianca_extracao": "alta",
+      "revisado_por_humano": false,
+      "fora_de_escopo": false,
+      "fora_de_escopo_motivo": null,
+      "fonte_url": null
     },
     {
       "id": "lei-municipal-saopaulo-17759-2022",

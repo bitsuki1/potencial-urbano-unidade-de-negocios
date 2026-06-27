@@ -1,0 +1,31 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16642-2017::058-art-59",
+  "lei_id": "lei-municipal-saopaulo-16642-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 59",
+  "numero": "59",
+  "caminho_hierarquico": [
+    "CAPÍTULO IV",
+    "Seção I",
+    "Art. 59"
+  ],
+  "texto": "Art. 59. O pedido deve ser indeferido nas seguintes situações:\n\nI - ausência da documentação exigida ou projeto apresentado com insuficiência de informação de modo a impedir a análise e decisão do pedido;\n\nII - projeto com infrações insanáveis frente ao disposto no PDE e na LPUOS;\n\nIII - não atendimento ao \"comunique-se\" no prazo concedido;\n\nIV - não atendimento à NEC no prazo concedido;\n\nV - não atendimento à IEOS no prazo concedido;\n\nVI - alteração do uso do projeto de edificação.",
+  "citacao": {
+    "norma": "lei municipal nº 16642/2017 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO IV › Seção I › Art. 59",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2017-05-09",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": []
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

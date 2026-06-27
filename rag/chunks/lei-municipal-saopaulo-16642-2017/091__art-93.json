@@ -1,0 +1,31 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16642-2017::091-art-93",
+  "lei_id": "lei-municipal-saopaulo-16642-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 93",
+  "numero": "93",
+  "caminho_hierarquico": [
+    "CAPÍTULO VI",
+    "Seção III",
+    "Art. 93"
+  ],
+  "texto": "Art. 93. A edificação concluída sem a obtenção de Certificado de Conclusão enseja a intimação do infrator para, no prazo de 5 (cinco) dias, solicitar o documento à Prefeitura, sob pena de lavratura do correspondente auto de multa.\n\n§ 1º O pedido de Certificado de Conclusão suspende a ação fiscalizatória até a emissão desse documento ou o indeferimento do pedido, o que ocorrer primeiro.\n\n§ 2º A multa será reaplicada a cada 90 (noventa) dias até a regularização da edificação, limitado esse período a 1 (um) ano.",
+  "citacao": {
+    "norma": "lei municipal nº 16642/2017 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO VI › Seção III › Art. 93",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2017-05-09",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": []
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

@@ -1,0 +1,31 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16642-2017::093-art-95",
+  "lei_id": "lei-municipal-saopaulo-16642-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 95",
+  "numero": "95",
+  "caminho_hierarquico": [
+    "CAPÍTULO VI",
+    "Seção III",
+    "Art. 95"
+  ],
+  "texto": "Art. 95. Para os efeitos deste Código, considera-se infrator o proprietário ou possuidor do imóvel e, quando for o caso, o responsável técnico pela obra.\n\n§ 1º O infrator deve ser notificado pessoalmente ou por via postal, com aviso de recebimento, ou, ainda, por edital nas hipóteses de recusa do recebimento da notificação ou de sua não localização.\n\n§ 2º O infrator considera-se notificado quando encaminhada a notificação por via postal ao endereço constante do cadastro da Municipalidade.\n\n§ 3º Quando prevista a aplicação de multa ao proprietário ou possuidor e ao responsável técnico pela obra, a responsabilidade é solidária, considerando-se ambos os infratores. § 4º Os sucessores do proprietário ou do possuidor do imóvel também respondem pelas penalidades.",
+  "citacao": {
+    "norma": "lei municipal nº 16642/2017 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO VI › Seção III › Art. 95",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2017-05-09",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": []
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}
