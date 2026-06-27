@@ -12,13 +12,23 @@
 > a data. Se esta lista estiver desatualizada, o mecanismo falhou — corrigir antes de seguir.
 >
 > Prioridade: 🟥 produto/valor · 🟦 corpus/RAG · 🟨 higiene/governança · ⬜ qualidade.
-> **Atualizado: 2026-06-21.**
+> **Atualizado: 2026-06-27** (auditoria profunda — achados novos B-15..B-19; ver `docs/AUDITORIA-PROFUNDA-2026-06-27.md`).
 
 ## 🔴 ABERTAS
 
+> **★ NOVOS (auditoria 2026-06-27):** B-15 (rótulo `indexado` falso — CRÍTICO), B-16 (MANIFESTO defasado), B-17
+> (produto preso na branch `project-audit-roadmap` — cross-repo, depositado ao escritório), B-18 (gates
+> discordam), B-19 (furos do hook v2). **B-1 já está FECHADO na branch órfã `project-audit-roadmap-2thi1g`**
+> (tabelas reais + engine sobre imóvel real) — só não chegou ao main (ver B-17).
+
 | # | Item | DoD (como PROVAR que foi feito) | Bloqueio |
 |---|---|---|---|
-| **B-1** 🟥 | **Ingerir as TABELAS Q14 + Quadro 3 → `tabelas/`** (combustível do engine; AUD-04). | `tabelas/q14-*.csv` e `tabelas/quadro3-ca-*.csv` no git, com proveniência; `engines/tdc/oodc.py` rodando sobre `V` (por SQL) e `CA_max` (por ZONA) REAIS de ≥1 imóvel — sem valores ilustrativos. | Drive (Q14/Quadro 3 lá; pedir via B-9) |
+| **B-15** 🟥 | **Corrigir o rótulo `status_pipeline:"indexado"` FALSO das 4 leis IPTU resgatadas** (`16402-2016`, `16642-2017`, `17733-2022`, `decreto-57443-2016`): `.json` dizem `indexado`+`confianca:alta` mas têm **0 chunks** e estão **fora do `rag/index` e do `MANIFESTO`**. | OU rodar `fatiar.py`+`indexar.py` para as 4 (elas têm `## Texto integral (verbatim)`) tornando `indexado` VERDADEIRO; OU rebaixar o `status_pipeline` ao real (`tagueado`). `rag/index/metadados.json` e `MANIFESTO` refletem a decisão; `consultar.py` as devolve (se indexadas). | nenhum (local) |
+| **B-16** 🟦 | **Regenerar+commitar o `MANIFESTO.json`** (defasado vs disco: −4 leis IPTU; `consolidar.py` não rodou pós-resgate). | `python3 scripts/consolidar.py` rodado e commitado; `fechar-instancia.py` volta a VERDE na idempotência; contagem reflete o disco. **Ordem:** resolver B-15 ANTES (senão `indexado` infla de 13 p/ 17 sem chunk). | B-15 |
+| **B-17** 🟥 | **Consolidar o PRODUTO preso na branch `project-audit-roadmap-2thi1g`** ao main (B-1 fechado, TDC verbatim 19×13, engine sobre dado real, E5 provado — ~742 arquivos). | PR `project-audit-roadmap` → main MERGE (resolver conflito leis 16.050/17.844 = aceitar versão verbatim da branch); MANIFESTO regenerado; produto deixa de ser "0%" no SSOT. **Cross-repo: decisão do MOU** (main protegido) — depositado em `caixa-de-saida/para-escritorio/2026-06-27_*`. | escritório/MOU (PR a main protegido) |
+| **B-18** 🟨 | **Alinhar os dois gates de fechamento** (`gate-fechamento.sh` dá VERDE enquanto `fechar-instancia.py` dá VERMELHO no mesmo estado — F-1). | `gate-fechamento.sh` ou regenera o MANIFESTO e compara, ou chama o `fechar-instancia.py`; os dois concordam num estado stale. Teste adversarial: MANIFESTO defasado → AMBOS vermelhos. | nenhum (local) |
+| **B-19** 🟨 | **Corrigir 2 furos do hook v2 `surface-backlog.sh`** (auto-estampa). | H-2: REGISTRO no `.gitignore` OU hook auto-commita (não sujar a árvore no boot); H-1: dedup por branch independente do estado (não duplica linha ao reabrir branch FECHADA). ⚠️ o furo nasce no TEMPLATE do escritório — depositado também na `caixa-de-saida` p/ corrigir na fonte. | nenhum (local) |
+| **B-1** 🟥 | **Ingerir as TABELAS Q14 + Quadro 3 → `tabelas/`** (combustível do engine; AUD-04). **[FEITO na branch órfã — ver B-17; falta chegar ao main.]** | `tabelas/q14-*.csv` e `tabelas/quadro3-ca-*.csv` no git, com proveniência; `engines/tdc/oodc.py` rodando sobre `V` (por SQL) e `CA_max` (por ZONA) REAIS de ≥1 imóvel — sem valores ilustrativos. | Drive (Q14/Quadro 3 lá; pedir via B-9) — **ou consolidar B-17** |
 | **B-2** 🟥 | **1º JOIN do PRODUTO** — `IPTU_2026` (1 distrito) ⋈ LOTES (SQL/geo) ⋈ Q14 (valor) ⋈ zoneamento (CA) → engine → **1ª lista de alvos por imóvel**. | script de cruzamento (`engines/` ou `scripts/`) + saída com ≥N imóveis reais {SQL, valor, oportunidade TDC/IPTU, dono} no git (recorte leve) ou no Supabase `governanca` (bruto pesado fora do git). | B-1 + dados pesados (Drive→Supabase) |
 | **B-3** 🟥 | **Completar tabelas Fs/Fp no `oodc.py`** (hoje PARCIAIS, só F-A/V3.1). | `FATOR_SOCIAL`/`FATOR_PLANEJAMENTO` completos, cada faixa com citação do quadro-fonte; `_autoteste()` estendido cobrindo HIS/HMP/R e as faixas de Fp; gate verde. | B-1 (quadros) |
 | **B-4** 🟦 | **Re-ingerir as 14 leis MUNICIPAIS em verbatim integral** (só resumo WebSearch hoje). | cada `.md` com `## Texto integral (verbatim)` + `.json confianca:alta` + fatiada/indexada; rodar `python3 scripts/promover_entrada.py <id>` quando o cru chegar a `_entrada/`. MANIFESTO: `indexado` sobe de 13. | cru NÃO está local — Drive (B-9) |
