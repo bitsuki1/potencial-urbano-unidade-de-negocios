@@ -1,5 +1,18 @@
 # PRÓXIMA INSTÂNCIA — o que fazer (Potencial Urbano)
 
+> **★ HANDOFF 2026-06-27 (auditoria profunda + consolidação de padrões — PU 12).** Laudo:
+> `docs/AUDITORIA-PROFUNDA-2026-06-27.md`. Feito: (1) pacote de padronização do escritório (caixas v2,
+> REGISTRO/ATA, D128, D119/D120, handoff) **consolidado ao `main`** (via gate D141); (2) auditoria 3-lentes.
+> **Achados NOVOS no `BACKLOG.md` (B-15..B-19) — comece por eles:**
+> **B-15 (CRÍTICO):** 4 leis IPTU (`16402-2016`, `16642-2017`, `17733-2022`, `decreto-57443-2016`) têm
+> `status_pipeline:"indexado"` FALSO — 0 chunks, fora do índice e do MANIFESTO → ou indexar de verdade
+> (têm verbatim) ou rebaixar o rótulo. **B-16:** depois, regenerar+commitar o MANIFESTO (defasado vs disco).
+> **B-17 (cross-repo, decisão do MOU):** **produto pronto preso na branch `project-audit-roadmap-2thi1g`**
+> (B-1 fechado, TDC verbatim 19×13, engine sobre imóvel real, E5 provado) — PR ao `main` tira o produto de
+> "0%". Depositado em `caixa-de-saida/para-escritorio/2026-06-27_*`. **B-18/B-19:** gates discordam + furos do hook v2.
+> **GATE:** `fechar-instancia.py` está VERMELHO na idempotência do MANIFESTO — é o B-16 (depende do B-15),
+> deixado para acionamento cadenciado, não mascarado.
+>
 > **★ HANDOFF 2026-06-20 (fim da instância de auditoria):** 2 auditorias profundas rodadas. A 1ª
 > destravou 12 federais verbatim + engine + ladrão. A **2ª** (`docs/AUDITORIA-PROFUNDA-2-2026-06-20.md`,
 > 4 lentes: verbatim·engine·gates·propagação) auditou a superfície nova. Verdict: texto verbatim FIEL,
