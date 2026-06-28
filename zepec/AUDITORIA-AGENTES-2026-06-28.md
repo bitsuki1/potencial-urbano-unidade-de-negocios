@@ -30,7 +30,7 @@
 
 **Nuances em risco:** ZEPAM cede mas com gates pesados · **>50.000 m² sai em 10 parcelas anuais** (Art. 124 §3º — estoque não disponível à vista) · renovação congela V antigo (barato) · **via de DOAÇÃO (Art. 126/127) com Fi até 2,0 e CAmax** = alavanca inteira fora do modelo · conservação (Art. 129) é **gate de readiness** da certidão.
 
-**Novas soluções propostas:** processo SEI do TDC = dono mais limpo (priorizar) · **FUNDURB = R$/m² real de mercado** (o comparável de PREÇO que faltava) · validar engine segregando doação (Art.127) de sem-doação (Art.125) · OUC e áreas contaminadas como gates · Art.128+IPCA como 2ª checagem de preço.
+**Novas soluções propostas:** processo SEI do TDC = dono mais limpo (priorizar) · **FUNDURB = R$/m² regulatório** (Art.24 §5º LPUOS, ≠ preço de mercado) (o comparável de PREÇO que faltava) · validar engine segregando doação (Art.127) de sem-doação (Art.125) · OUC e áreas contaminadas como gates · Art.128+IPCA como 2ª checagem de preço.
 
 ## Pendências priorizadas (próxima rodada)
 1. Achados 3/4/5 do Agente 1 (rótulo de grão + certeza/negociável em conflito vedado).
