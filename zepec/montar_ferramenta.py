@@ -70,6 +70,11 @@ donos={}
 _dp=Z/"limpo/donos_encontrados.csv"
 if _dp.exists():
     for r in csv.DictReader(open(_dp,encoding='utf-8')): donos[r['sql_mestre']]=r
+# 1c) FUNDURB por n_processo (preco real + intercorrencia)
+fundurb={}
+_fp=Z/"limpo/fundurb_processos.csv"
+if _fp.exists():
+    for r in csv.DictReader(open(_fp,encoding='utf-8')): fundurb[r['n_processo'].strip()]=r
 
 # 2) agrega a base unificada por SQL_MESTRE (e guarda os sem-SQL como individuais)
 rows=list(csv.reader(open(Z/"limpo/zepec_unificada.csv",encoding='utf-8')))
@@ -98,7 +103,8 @@ def classifica(tem_decl, tem_cert, eh_tombado, vedado, esg):
 COLS=['sql_mestre','setor','quadra','lote','nome_bem','endereco_mestre','distrito',
       'proprietario','fonte_dono',
       'tipo_zepec','esfera','estado_venda','certeza','negociavel','motivo_negociavel','sinais_revisar',
-      'm2_ja_transferido','n_transferencias','tem_declaracao','tem_certidao','esgotado','data_ref','origens','obs']
+      'm2_ja_transferido','n_transferencias','valor_fundurb_rs','status_fundurb','intercorrencia_fundurb',
+      'tem_declaracao','tem_certidao','esgotado','data_ref','origens','obs']
 out=[]
 
 def monta(sm, rs):
@@ -112,6 +118,11 @@ def monta(sm, rs):
     if not sm: estado,cert='INCERTO','baixa'   # sem SQL nao da p/ confiar na identificacao
     nome=first(rs,'nome_bem',['TOMBADO_CADASTRO','ZEPEC_APC'])
     neg,motivo,sinais=negociabilidade(nome,tem_decl,tem_cert,vedado,esg,not sm, sm in operacao_urbana if sm else False)
+    # FUNDURB: casa por qualquer n_processo do grupo
+    fu={}
+    for r in rs:
+        pr=g(r,'n_processo').strip()
+        if pr in fundurb: fu=fundurb[pr]; break
     tz='/'.join(sorted(set(g(r,'tipo_zepec') for r in rs if g(r,'tipo_zepec'))))
     datas=[g(r,'data_pub_iso') for r in rs if g(r,'data_pub_iso')]
     obs=[]
@@ -128,6 +139,8 @@ def monta(sm, rs):
         estado_venda=estado,certeza=cert,negociavel=neg,motivo_negociavel=motivo,sinais_revisar=sinais,
         m2_ja_transferido=(f"{round(transferido[sm],2)}" if sm and sm in transferido else ''),
         n_transferencias=(n_transf[sm] if sm and sm in n_transf else ''),
+        valor_fundurb_rs=fu.get('valor_transferido_rs',''),status_fundurb=fu.get('status_fundurb',''),
+        intercorrencia_fundurb=fu.get('intercorrencia',''),
         tem_declaracao='sim' if tem_decl else 'nao',
         tem_certidao='sim' if tem_cert else 'nao',esgotado='sim' if esg else 'nao',
         data_ref=max(datas) if datas else '',origens='+'.join(sorted(orig)),obs=' | '.join(obs))
