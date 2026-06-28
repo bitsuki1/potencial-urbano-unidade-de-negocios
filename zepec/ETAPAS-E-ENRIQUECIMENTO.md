@@ -52,6 +52,25 @@ Cada campo entra carimbando `fonte` + `ano` + `oficialidade` (só fato, sem juí
 
 ---
 
+## RESULTADO Etapa 1–3 (FEITO 2026-06-28) — `zepec/limpo/zepec_unificada.csv`
+`zepec/montar_base.py` juntou as 4 fontes **com tag `origem`**, canonizou **SQL→SQL_MESTRE** (10 díg, decomposto, DV à parte) e **estruturou o endereço** (tipo DNE + logradouro + números). Multi-lote por célula **explodido** (1 linha = 1 imóvel).
+- **7.175 linhas:** DECLARACAO_BIR 565 · CERTIDAO_BIR_CEDENTE 196 · TOMBADO_CADASTRO 6.409 · ZEPEC_APC 5.
+- **SQL_MESTRE: 5.336 ok · 1.791 ausente · 48 inválido.**
+- **Endereço: 5.307 com tipo reconhecido · 1.168 multi (vários nºs/ruas).**
+- Esfera derivada (municipal/estadual/federal) e categoria (BIR/APPa/AUE) trazidas do cadastro de tombados.
+
+## O QUE MAIS ARRUMAR (só com estes arquivos — sem cruzar nada externo)
+1. **Casing:** benstombados vem em CAIXA ALTA, declarações em mista → padronizar capitalização (cuidando de acentos) — ⏳ a decidir se mexe (fidelidade vs leitura).
+2. **1.791 sem SQL** (1.784 tombados de bairro/monumento/logradouro sem lote cadastral + 5 APC) → resolver SQL exige endereço→cadastro = **externo** (marcado).
+3. **48 SQL inválidos** (quadra 2-díg, lote faltando) → conferir caso a caso.
+4. **1.168 endereços multi** (vários nºs/ruas na célula) → decidir grão (imóvel × conjunto); hoje mantidos juntos com flag `end_multi`.
+5. **32 endereços sem tipo** (não começam por tipo conhecido) → revisar.
+6. **Datas ainda não normalizadas** (certidões/tombados, formatos M/D/YYYY × D/M/YYYY) → ISO. ⏳
+7. **Duplicata / 2ª via + vínculo** (mesmo imóvel em declaração E certidão; "2ª via") → dedup/vínculo ⏳ **A OBSERVAR**.
+8. **OCR/encoding** residual (ex.: APC "BAR Ó DO BOROGODÓ").
+9. **Categoria AUE/APPa** marcada como fato no cadastro (a lei exclui da cessão — Art. 124 §2º; regra é downstream, não juízo aqui).
+10. **Distrito vazio** em 1.773 tombados → preencher por geo/endereço = **externo**.
+
 ## Onde vamos guardar (deixar à mão)
 - **Git:** `zepec/raw/` (bruto), `zepec/limpo/` (saído da Etapa 1–3) — listas pequenas, versionáveis.
 - **Supabase:** só quando entrar o pesado (IPTU/socios/geo) na Etapa 5.
