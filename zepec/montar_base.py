@@ -81,8 +81,9 @@ def norm_sql_decomp(setor,quadra,lote):
     return '','','','','', 'invalido'
 
 def split_lotes(lote):
+    # separa multi-lote por , ; ' e ' e '/' SOMENTE antes de lote 4-dig (protege DV '0021/4')
     if not lote: return ['']
-    parts=[p.strip() for p in re.split(r'[;,]| e ', lote) if re.search(r'\d', p)]
+    parts=[p.strip() for p in re.split(r'[;,]| e |/(?=\s*\d{4})', lote) if re.search(r'\d', p)]
     return parts or [lote.strip()]
 
 def norm_endereco(raw):

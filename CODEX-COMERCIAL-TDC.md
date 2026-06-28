@@ -50,6 +50,8 @@
 | R10 | **Preço nasce no engine** (Art. 125: `PCpt = Atc × CAbas × Fi`; valor `= PCpt × V`), nunca no chute | 2026-06-28 |
 | R11 | **Transferiu = vendeu** quando o receptor é outro imóvel (nos dados: 155 de 169) | 2026-06-28 |
 | R12 | **Parâmetro de certeza** (`estado_venda` + `certeza`). **Regra de ouro:** só marca "pular" quando o **ESGOTADO está escrito**; falta de dado = **verificar**, nunca "morto". Evidência real (vendeu/declarou) pesa mais que inferência de categoria | 2026-06-28 |
+| R15 | **"Transferiu = vendeu" só vale SEM doação (Art. 125).** Na **doação** (Art. 126/127) transferir **não é venda** — o dono doa o imóvel à PMSP e recebe potencial (fórmula `Atc×CAmax×Fi`, Fi até 2,0). A via de doação é alavanca à parte (auditoria dos agentes 2026-06-28) | 2026-06-28 |
+| R16 | **`valor = PCpt × V` é PROXY do lado cedente, não o preço final.** O crédito recebido segue **Art. 128** (`PCr=(PCpt×VTcd)/(Cr×CAmaxcd)`, CAmaxcd=4, IPCA); V vale na **data de protocolo** (Art. 125 §2º). **ESGOTADO é temporal** — pode reativar por renovação (Art. 123 §5º / 129 §2º). **Preço real de mercado** = fila FUNDURB (R$ por transação) | 2026-06-28 |
 | R14 | **m² já transferido = gabarito de validação.** O cálculo do engine (`PCpt = Atc × CAbas`) tem de **bater** com as 167 áreas realmente transferidas (certidões). Método que não reproduz o real não passa | 2026-06-28 |
 | R13 | **Negociabilidade só com PROVA** (`negociavel` = sim/nao/verificar). **NÃO** só por escrito: `esgotado` ou `vedado` (categoria AUE/APPa). **Suspeita** (nome de bairro/bem público, sem lote, marca de Operação Urbana) → **verificar, nunca exclui** — não temos o campo "dono", então "é público" é suspeita, não certeza. **Declarou/vendeu vence a suspeita** (= sim) | 2026-06-28 |
 

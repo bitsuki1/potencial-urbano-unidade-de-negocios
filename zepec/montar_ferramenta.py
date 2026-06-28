@@ -26,14 +26,24 @@ def _num(x):
     else: x=x.replace(',','')
     try: return float(re.sub(r'[^\d.]','',x))
     except Exception: return None
+def _split_lotes(s):
+    s=(s or '').strip()
+    return [p.strip() for p in re.split(r'[;,]| e |/(?=\s*\d{4})', s) if re.search(r'\d',p)] or ([s] if s else [])
+def _sm(sq,lt):
+    d=re.sub(r'\D','',sq or ''); m=re.match(r'(\d{4})',(lt or '').strip())
+    return d[:3]+d[3:6]+m.group(1) if (len(d)==6 and m) else ''
 cer=list(csv.reader(open(Z/"raw/lista_certidao_ZEPEC-BIR_agosto-2025.csv",encoding='utf-8')))
 for r in cer[5:]:
-    r=(r+['']*19)[:19]; sm=norm_sql(r[2],r[3])
-    if not sm: continue
-    if 'ESGOTAD' in r[14].upper(): esgotado.add(sm)
-    if re.search(r'\bOU\b|SEMPLA|EMURB|OUC', (r[12]+' '+r[7]).upper()): operacao_urbana.add(sm)
+    r=(r+['']*19)[:19]
+    lotes=_split_lotes(r[3]); sms=[s for s in (_sm(r[2],lt) for lt in lotes) if s]
+    if not sms: continue
+    esg='ESGOTAD' in r[14].upper()
+    ouc=bool(re.search(r'\bOU\b|SEMPLA|EMURB|OUC', (r[12]+' '+r[7]).upper()))
     a=_num(r[15])
-    if a: transferido[sm]+=a; n_transf[sm]+=1
+    for j,s in enumerate(sms):                 # flags p/ TODOS os lotes irmaos (achado dos agentes)
+        if esg: esgotado.add(s)
+        if ouc: operacao_urbana.add(s)
+    if a: transferido[sms[0]]+=a; n_transf[sms[0]]+=1   # m2 so no 1o lote (area e do conjunto; nao duplicar)
 
 # padroes de SINAL (suspeita, nao prova) — usados so p/ mandar a VERIFICAR, nunca p/ excluir
 RE_AREA   = re.compile(r'\bBAIRRO\b|PER[IÍ]METRO|N[UÚ]CLEO\s+URBANO|CONJUNTO\s+(URBANO|ARQUITET)', re.I)
