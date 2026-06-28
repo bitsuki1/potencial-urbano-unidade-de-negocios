@@ -52,7 +52,10 @@ RE_PUBLICO= re.compile(r'\b(PRA[ÇC]A|PARQUE|VIADUTO|ESTA[ÇC][AÃ]O|CEMIT[EÉ]R
 def negociabilidade(nome, tem_decl, tem_cert, vedado, esg, sem_lote, ouc):
     # esgotado vence tudo (vendeu tudo, nada a negociar agora):
     if esg:    return 'nao','esgotado (escrito na certidao)',''
-    # PROVA de que negocia (declarou/vendeu) vence a suspeita de categoria:
+    # CONFLITO: vedado por lei (AUE/APPa) MAS declarou/vendeu = contradicao -> revisar, nao 'sim' seco:
+    if vedado and (tem_decl or tem_cert):
+        return 'verificar','','tag AUE/APPa conflita com declaracao/venda — revisar'
+    # PROVA de que negocia (declarou/vendeu) vence a suspeita de NOME:
     if tem_decl or tem_cert: return 'sim','declarou/vendeu (prova de negociabilidade)',''
     # vedado por lei, e que nunca declarou/vendeu:
     if vedado: return 'nao','vedado por lei (categoria AUE/APPa)',''
@@ -93,9 +96,10 @@ def first(rs, col, origens=None):
 
 def classifica(tem_decl, tem_cert, eh_tombado, vedado, esg):
     # evidencia real (vendeu/declarou) pesa MAIS que a inferencia de categoria
+    conflito = vedado and (tem_decl or tem_cert)   # tag AUE/APPa contradiz prova -> menos certeza
     if esg:                            return 'ESGOTADO','alta'        # vendeu tudo -> pular
     if tem_cert:                       return 'TEM_SALDO','media'      # vendeu parte, resta (quanto=calcular)
-    if tem_decl:                       return 'INTACTO','alta'         # declarado, nunca vendeu
+    if tem_decl:                       return 'INTACTO',('media' if conflito else 'alta')  # declarado, nunca vendeu
     if vedado:                         return 'VEDADO_LEI','alta'      # Art.124 §2º — nao pode ceder (e nunca declarou/vendeu)
     if eh_tombado:                     return 'SO_ELEGIVEL','media'    # tombado sem declaracao ainda
     return 'INCERTO','baixa'

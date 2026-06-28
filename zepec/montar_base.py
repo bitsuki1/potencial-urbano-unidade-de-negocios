@@ -121,6 +121,7 @@ def main():
     for r in dec[4:]:
         if not any(c.strip() for c in r): continue
         r=(r+['']*11)[:11]; lts=split_lotes(r[3])
+        rel['declaracao_FONTE']+=1            # 1 por declaracao da planilha (grao: declaracao)
         for lt in lts:
             sm,se,qu,lo,dv,st=norm_sql(r[2],lt); em,et,el,en,mu=norm_endereco(r[4])
             di,da=parse_date(r[7])
@@ -140,6 +141,7 @@ def main():
         if not any(c.strip() for c in r): continue
         r=(r+['']*19)[:19]
         if not r[2].strip() and not r[4].strip(): continue
+        rel['certidao_FONTE']+=1             # 1 por certidao da planilha (grao: certidao)
         for lt in split_lotes(r[3]):
             sm,se,qu,lo,dv,st=norm_sql(r[2],lt); em,et,el,en,mu=norm_endereco(r[4])
             di,da=parse_date(r[17])
@@ -195,6 +197,8 @@ def main():
     print("SQL:", dict(Counter(o['sql_status'] for o in out)))
     print("Data:", dict(Counter(o['data_amb'] or 'ok' for o in out)))
     print("Cessao vedada (AUE/APPa) marcada:", sum(1 for o in out if o['cessao_vedada_art124p2']))
+    print(f"GRAO: declaracoes-FONTE={rel['declaracao_FONTE']} -> imoveis(explodido)={rel['declaracao_linhas']} | "
+          f"certidoes-FONTE={rel['certidao_FONTE']} -> imoveis={rel['certidao_cedente_linhas']}")
     for k,v in sorted(rel.items()):
         if 'data' in k or 'sql_inval' in k: print(f"  {k}: {v}")
 
