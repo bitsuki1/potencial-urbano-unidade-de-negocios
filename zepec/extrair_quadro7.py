@@ -13,8 +13,10 @@ raw=open(Z.parent/"_entrada/tdc/pde2013-subst2-quadro-7-parques-municipais-exist
 raw=raw.split("CODIGO SUBPREFEITURA DISTRITO NOME SITUAÇÃO CATEGORIA ENDEREÇO",1)[-1]
 txt=re.sub(r'\s+',' ', raw).strip()
 
-COD=re.compile(r'PQ_[A-Z]{2}_\d{2,3}')
-SIT=re.compile(r'EM PLANEJAMENTO|EM IMPLANTACAO|EM IMPLANTAÇÃO|EXISTENTE')
+# achados do escrutinio: GUAIANASES usa PQ_G_NN (1 letra) e 5 codigos usam hifen -> aceitar [_-] e 1-3 letras
+COD=re.compile(r'PQ[_-][A-Z]{1,3}[_-]\d{1,3}')
+# situacao: PDF quebra o token "EM PLANEJAMENTO" no salto de pagina -> casar sem exigir "EM"
+SIT=re.compile(r'PLANEJAMENTO|IMPLANTA[CÇ][AÃ]O|EXISTENTE')
 CAT=re.compile(r'\b(LINEAR|URBANO|NATURAL|LINEAR/URBANO)\b')
 # fatia por código
 pos=[(m.start(),m.group()) for m in COD.finditer(txt)]
@@ -24,19 +26,21 @@ for i,(p,cod) in enumerate(pos):
     bloco=txt[p+len(cod):fim].strip()
     ms=SIT.search(bloco)
     if ms:
-        local=bloco[:ms.start()].strip()
-        resto=bloco[ms.end():].strip()
+        local=bloco[:ms.start()].strip().rstrip('/ ').removesuffix(' EM').strip()
+        resto=bloco[ms.end():].strip().lstrip('/ ').strip()
         mc=CAT.match(resto) or CAT.search(resto[:20])
         cat=mc.group() if mc else ''
         end=resto[mc.end():].strip() if mc else resto
-        sit=ms.group().replace('IMPLANTACAO','IMPLANTAÇÃO')
+        key=ms.group().upper()
+        sit='EM PLANEJAMENTO' if key.startswith('PLAN') else ('EM IMPLANTAÇÃO' if key.startswith('IMPLANT') else 'EXISTENTE')
     else:
         local, sit, cat, end = bloco, '', '', ''
     recs.append({"codigo":cod,"situacao":sit,"categoria":cat,
                  "proposto":"sim" if sit and sit!="EXISTENTE" else ("nao" if sit=="EXISTENTE" else ""),
-                 "local_bruto":local[:120],"endereco_bruto":end[:120]})
+                 "revisar":"" if sit else "sem situacao na fonte (PDF) — conferir manual",
+                 "local_bruto":local[:300],"endereco_bruto":end[:300]})
 with (Z.parent/"tabelas/quadro7-parques.csv").open('w',newline='',encoding='utf-8') as f:
-    w=csv.DictWriter(f,fieldnames=["codigo","situacao","categoria","proposto","local_bruto","endereco_bruto"])
+    w=csv.DictWriter(f,fieldnames=["codigo","situacao","categoria","proposto","revisar","local_bruto","endereco_bruto"])
     w.writeheader(); w.writerows(recs)
 from collections import Counter
 print(f"quadro7-parques.csv: {len(recs)} parques")
