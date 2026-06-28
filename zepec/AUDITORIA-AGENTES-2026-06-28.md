@@ -34,6 +34,6 @@
 
 ## Pendências priorizadas (próxima rodada)
 1. ✅ FEITO (etapa 2): achados 3/4/5 do Agente 1 — grão rotulado + certeza/negociável em conflito vedado.
-2. Modelar a **via de doação** (Art. 126/127) — alavanca comercial.
+2. ✅ FEITO (etapa 3): via de doação modelada — `engines/tdc/pcpt.py` (2 vias, Fi do Art.127, >50k parcelado), triplo limpo.
 3. Engine de preço com **Art. 128 + V por data** (não só PCpt×V).
 4. **FUNDURB** como fonte de preço real + intercorrências (já puxado).
