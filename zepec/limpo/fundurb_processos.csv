@@ -1,4 +1,4 @@
-n_processo,periodo,status_fundurb,intercorrencia,valor_pecuniario_rs,somatoria_tdc_rs,teto_5pct_rs,data_protocolo
+n_processo,periodo,status_fundurb,intercorrencia,valor_pecuniario_rs,somatoria_tdc_acum_rs,base_periodo_rs,data_protocolo
 6068.2024/0010644-9,Mar-24 a Fev-25,Transferido em Junho de 2025,nao,"3.901.226,62","11.713.764,65","50.568.797,11",25/09/2024
 6068.2024/0010645-7,Mar-24 a Fev-25,Transferido em Junho de 2025,nao,"4.190.508,33","15.904.272,98","50.568.797,11",25/09/2024
 6068.2024/0010659-7,Mar-24 a Fev-25,Transferido em Junho de 2025,nao,"3.771.116,60","19.675.389,58","50.568.797,11",25/09/2024

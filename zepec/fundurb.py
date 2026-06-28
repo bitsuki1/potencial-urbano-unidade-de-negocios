@@ -37,14 +37,18 @@ for ln in txt.splitlines():
     elif rest:
         somatoria=rest[-1][1]
     interc='nao' if status.startswith('Transferido') else RISCO.get(status,'desconhecido')
+    # ATENCAO (achado do escrutinio 2026-06-28):
+    # - somatoria_tdc_rs = ACUMULADO ALL-TIME (cresce sem resetar entre periodos), NAO o total da janela rolante de 12m.
+    # - base_periodo_rs = coluna "5% FUNDURB (periodo | R$)" do bruto: AMBIGUA (parece a ARRECADACAO ~50-77M, nao os 5%).
+    #   O teto REAL de 5% e ~5% disso (~2,5-3,9M). Semantica a confirmar na fonte SMUL antes de usar como teto.
     out.append({"n_processo":proc,"periodo":(per.group() if per else ''),
                 "status_fundurb":status,"intercorrencia":interc,
                 "valor_pecuniario_rs":valor+(' '+suspeito if suspeito else ''),
-                "somatoria_tdc_rs":somatoria,"teto_5pct_rs":teto,
+                "somatoria_tdc_acum_rs":somatoria,"base_periodo_rs":teto,
                 "data_protocolo":datas[0] if datas else ''})
 with (Z/"limpo/fundurb_processos.csv").open('w',newline='',encoding='utf-8') as fo:
     w=csv.DictWriter(fo,fieldnames=["n_processo","periodo","status_fundurb","intercorrencia",
-        "valor_pecuniario_rs","somatoria_tdc_rs","teto_5pct_rs","data_protocolo"])
+        "valor_pecuniario_rs","somatoria_tdc_acum_rs","base_periodo_rs","data_protocolo"])
     w.writeheader(); w.writerows(out)
 print(f"fundurb_processos: {len(out)} processos")
 print("intercorrencia:", dict(Counter(o['intercorrencia'] for o in out)))

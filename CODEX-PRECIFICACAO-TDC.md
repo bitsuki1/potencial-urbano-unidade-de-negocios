@@ -26,3 +26,9 @@
 - Validar contra os comparáveis regulatórios da fila FUNDURB.
 
 > **Nota de liquidez (vem do Comercial):** consultar a janela/estoque do FUNDURB **antes** de sugerir venda é passo COMERCIAL (sensor de liquidez), não cálculo de preço — fica no Codex Comercial.
+
+## 5 — ⚠️ Ressalva de semântica FUNDURB (achado do escrutínio 2026-06-28)
+O `fundurb_processos.csv` tem rótulos a confirmar na fonte SMUL antes de usar como teto/liquidez:
+- `somatoria_tdc_acum_rs` = **acumulado all-time** (não a janela rolante de 12m).
+- `base_periodo_rs` (col "5% FUNDURB (período)") parece a **arrecadação** (~R$50-77M), não os 5%; teto real ~5% disso (~R$2,5-3,9M).
+- Por isso o sensor de liquidez (`zepec/liquidez.py`) reporta **INDETERMINADO** — não emite verde/vermelho sobre dado ambíguo. Destrava confirmando as colunas na fonte.

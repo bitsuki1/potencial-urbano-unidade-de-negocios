@@ -1,50 +1,51 @@
 #!/usr/bin/env python3
-"""liquidez.py — SENSOR DE LIQUIDEZ do FUNDURB (sinal COMERCIAL de timing, não de preço).
-Pergunta comercial (Codex Comercial 5.3): "há janela de mercado agora para transferir TDC?"
-Mecânica: o teto de 5% (Art.24 §5º LPUOS) limita o total transferido por período de 12 meses.
-folga = teto − somatória já transferida. Quanto mais folga, mais aberta a janela.
-NÃO é preço (o R$ aqui é regulatório); é um ESTADO de mercado (aberta/apertada/saturada).
+"""liquidez.py — sensor de liquidez FUNDURB (sinal COMERCIAL de timing).
+⚠️ REBAIXADO pós-escrutínio (2026-06-28): a semântica das colunas do bruto NÃO é confiável o
+suficiente para emitir um sinal verde/vermelho honesto:
+  - `somatoria_tdc_acum_rs` é ACUMULADO ALL-TIME (cresce sem resetar), NÃO o total da janela de 12m.
+  - `base_periodo_rs` (col "5% FUNDURB (período | R$)") parece ser a ARRECADAÇÃO (~50-77M), não os 5%.
+Logo `folga = base − somatoria` mistura grandezas (fator ~20 + bases temporais diferentes) e o sinal
+sairia INVERTIDO. Doutrina: não inventar — reportar os FATOS crus e marcar INDETERMINADO até confirmar
+a semântica na fonte (SMUL/PDF original). NÃO é preço.
 Saida: zepec/limpo/fundurb_janela.md. PU 14 · 2026-06-28.
 """
 import csv, re
 from pathlib import Path
-from datetime import date
 Z = Path(__file__).resolve().parent
 def f(v):
     v=(v or '').strip()
     return float(v.replace('.','').replace(',','.')) if re.search(r'\d',v) else None
-
-rows = list(csv.DictReader(open(Z/"limpo/fundurb_processos.csv", encoding='utf-8')))
-# ordena os periodos por mes final (ex.: 'Dez-24 a Nov-25' -> fim Nov-25)
 MES = {m:i for i,m in enumerate(['Jan','Fev','Mar','Abr','Mai','Jun','Jul','Ago','Set','Out','Nov','Dez'],1)}
 def fim(periodo):
     m = re.findall(r'([A-Z][a-z]{2})\s*-?(\d{2})', periodo or '')
-    if len(m) >= 2:
-        mes, ano = m[-1]; return (int('20'+ano), MES.get(mes,0))
-    return (0,0)
+    return (int('20'+m[-1][1]), MES.get(m[-1][0],0)) if len(m)>=2 else (0,0)
 
-# pega a linha do periodo mais recente que tenha teto e somatoria
-cands = [(fim(r['periodo']), r) for r in rows if f(r.get('teto_5pct_rs')) and f(r.get('somatoria_tdc_rs'))]
+rows = list(csv.DictReader(open(Z/"limpo/fundurb_processos.csv", encoding='utf-8')))
+cands = [(fim(r['periodo']), r) for r in rows if f(r.get('base_periodo_rs')) and f(r.get('somatoria_tdc_acum_rs'))]
 cands.sort(key=lambda x: x[0])
-(ano,mes), r = cands[-1]
-teto = f(r['teto_5pct_rs']); soma = f(r['somatoria_tdc_rs']); folga = teto - soma
-uso = soma/teto if teto else 1.0
-if   uso < 0.70: janela, nota = "ABERTA", "há folga ampla na fila — janela favorável"
-elif uso < 0.95: janela, nota = "APERTADA", "fila se enchendo — janela estreitando"
-else:            janela, nota = "SATURADA", "teto quase no limite — sem janela no período"
+r = cands[-1][1]
+# soma dos valores efetivamente TRANSFERIDOS no período-alvo (janela), a partir do valor por processo
+alvo = r['periodo']
+transf = [f(x['valor_pecuniario_rs'].split()[0]) for x in rows
+          if x['periodo']==alvo and x['status_fundurb'].startswith('Transferido') and f(x['valor_pecuniario_rs'].split()[0] if x['valor_pecuniario_rs'] else '')]
+soma_janela = sum(v for v in transf if v) if transf else 0.0
 
-txt = f"""# Sensor de liquidez FUNDURB — janela de mercado (sinal comercial, não preço)
-> Gerado por `zepec/liquidez.py` a partir de `fundurb_processos.csv`. Atualizar quando a fila mudar.
+txt = f"""# Sensor de liquidez FUNDURB — janela de mercado (sinal comercial)
+> Gerado por `zepec/liquidez.py`. **JANELA: INDETERMINADO** — semântica das colunas do bruto a confirmar (ver abaixo).
 
-**Período mais recente:** {r['periodo']}
-**Janela de mercado: {janela}** — {nota}
-- Teto 5% do período: R$ {r['teto_5pct_rs']}
-- Já transferido (somatória): R$ {r['somatoria_tdc_rs']}
-- Folga: ~R$ {folga:,.2f} ({100*(1-uso):.0f}% do teto livre)
+**Período mais recente:** {alvo}
+**Fatos crus (sem juízo):**
+- "base do período" (col 5% FUNDURB do bruto, **ambígua**): R$ {r['base_periodo_rs']}
+- Somatória TDC **acumulada all-time** (não é a janela): R$ {r['somatoria_tdc_acum_rs']}
+- Soma dos valores efetivamente transferidos NESTE período: R$ {soma_janela:,.2f}
 
-**Leitura comercial (5.3):** checar este sinal **antes de sugerir venda**. Hoje = **{janela}**.
-*(O R$ aqui é o teto regulatório, Art.24 §5º LPUOS — não é preço de crédito. Ver Codex Precificação.)*
+**Por que INDETERMINADO** (achado do escrutínio 2026-06-28):
+1. A somatória é acumulada (cresce sem resetar) → não dá o "transferido na janela de 12m".
+2. A coluna "5% FUNDURB (período)" traz ~R$50-77M — parece a **arrecadação**, não os 5%; o teto real (~5%) seria ~R$2,5-3,9M.
+→ Comparar os dois daria sinal INVERTIDO. **Não emitimos verde/vermelho sobre isso.**
+
+**Para destravar (passo do MOU):** confirmar na fonte SMUL/PDF qual coluna é o **teto de transferência** e se a somatória reseta por período. Aí o sinal vira confiável.
 """
 (Z/"limpo/fundurb_janela.md").write_text(txt, encoding='utf-8')
-print(f"janela_mercado={janela} | periodo={r['periodo']} | uso={100*uso:.0f}% do teto | folga=R$ {folga:,.2f}")
+print(f"JANELA=INDETERMINADO (semantica a confirmar) | periodo={alvo} | transferido_no_periodo=R$ {soma_janela:,.2f}")
 print("-> zepec/limpo/fundurb_janela.md")

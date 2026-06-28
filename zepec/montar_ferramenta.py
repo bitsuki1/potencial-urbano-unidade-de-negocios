@@ -107,7 +107,7 @@ def classifica(tem_decl, tem_cert, eh_tombado, vedado, esg):
 COLS=['sql_mestre','setor','quadra','lote','nome_bem','endereco_mestre','distrito',
       'proprietario','fonte_dono',
       'tipo_zepec','esfera','estado_venda','certeza','negociavel','motivo_negociavel','sinais_revisar',
-      'm2_ja_transferido','n_transferencias','valor_pecuniario_rs','status_fundurb','intercorrencia_fundurb','teto_5pct_rs',
+      'm2_ja_transferido','n_transferencias','valor_pecuniario_rs','status_fundurb','intercorrencia_fundurb','base_periodo_fundurb_rs',
       'tem_declaracao','tem_certidao','esgotado','data_ref','origens','obs']
 out=[]
 
@@ -143,7 +143,7 @@ def monta(sm, rs):
         m2_ja_transferido=(f"{round(transferido[sm],2)}" if sm and sm in transferido else ''),
         n_transferencias=(n_transf[sm] if sm and sm in n_transf else ''),
         valor_pecuniario_rs=fu.get('valor_pecuniario_rs',''),status_fundurb=fu.get('status_fundurb',''),
-        intercorrencia_fundurb=fu.get('intercorrencia',''),teto_5pct_rs=fu.get('teto_5pct_rs',''),
+        intercorrencia_fundurb=fu.get('intercorrencia',''),base_periodo_fundurb_rs=fu.get('base_periodo_rs',''),
         tem_declaracao='sim' if tem_decl else 'nao',
         tem_certidao='sim' if tem_cert else 'nao',esgotado='sim' if esg else 'nao',
         data_ref=max(datas) if datas else '',origens='+'.join(sorted(orig)),obs=' | '.join(obs))
