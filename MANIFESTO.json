@@ -1,6 +1,6 @@
 {
   "_doc": "Fonte da verdade do status_pipeline de cada item. GERADO por scripts/consolidar.py a partir dos .json individuais — NAO editar a mao (Principio 1.5/2.3 do CLAUDE.md). Roda a cada push via .github/workflows/consolidar.yml.",
-  "gerado_em": "2026-06-28T04:00:09.906584+00:00",
+  "gerado_em": "2026-06-28T20:20:55.094517+00:00",
   "vocabulario_status": [
     "bruto",
     "fatiado",
@@ -53,14 +53,15 @@
   "artefatos_nao_corpus": {
     "_nota": "Estado dos artefatos NÃO-corpus (1.1: Tabela/Engine/Tese). Fechamento do D24-do-git (AUD-09).",
     "engines": {
-      "arquivos": 12,
+      "arquivos": 13,
       "executavel_py": [
-        "engines/tdc/oodc.py"
+        "engines/tdc/oodc.py",
+        "engines/tdc/pcpt.py"
       ],
       "status": "engine OODC/TDC executável (engines/tdc/oodc.py); demais são prosa/conhecimento"
     },
     "tabelas": {
-      "arquivos": 4,
+      "arquivos": 6,
       "status": "VAZIO — Q14/Quadro 3 ainda no Drive, não ingeridos (AUD-04: combustível do engine)"
     },
     "tese_iptu": {
