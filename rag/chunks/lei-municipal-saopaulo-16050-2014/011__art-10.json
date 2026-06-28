@@ -1,0 +1,35 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16050-2014::011-art-10",
+  "lei_id": "lei-municipal-saopaulo-16050-2014",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 10",
+  "numero": "10",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO I",
+    "Seção I",
+    "Art. 10"
+  ],
+  "texto": "Art. 10. A Macrozona de Estruturação e Qualificação Urbana, situada integralmente na Zona Urbana, apresenta grande diversidade\n\nde padrões de uso e ocupação do solo, desigualdade socioespacial, padrões diferenciados de urbanização e é a área do Município\n\nmais propícia para abrigar os usos e atividades urbanos.\n\n§ 1º Para orientar o desenvolvimento urbano e dirigir a aplicação dos instrumentos urbanísticos e jurídicos para atingir os objetivos\n\nespecíficos, a Macrozona de Estruturação e Qualificação Urbana subdivide-se em 4 (quatro) macroáreas, delimitadas no Mapa 2\n\nanexo:\n\nI - Macroárea de Estruturação Metropolitana;\n\nII - Macroárea de Urbanização Consolidada;\n\nIII - Macroárea de Qualificação da Urbanização;\n\nIV - Macroárea de Redução da Vulnerabilidade Urbana.\n\n§ 2º Os objetivos da Macrozona de Estruturação e Qualificação Urbana são:\n\nI - promoção da convivência mais equilibrada entre a urbanização e a conservação ambiental, entre mudanças estruturais\n\nprovenientes de grandes obras públicas e privadas e as condições de vida dos moradores;\n\nII - compatibilidade do uso e ocupação do solo com a oferta de sistemas de transporte coletivo e de infraestrutura para os serviços\n\npúblicos;\n\nIII - orientação dos processos de reestruturação urbana de modo a repovoar os espaços com poucos moradores, fortalecer as\n\nbases da economia local e regional, aproveitar a realização de investimentos públicos e privados em equipamentos e\n\ninfraestruturas para melhorar as condições dos espaços urbanos e atender necessidades sociais, respeitando as condicionantes do\n\nmeio físico e biótico e as características dos bens e áreas de valor histórico, cultural, religioso e ambiental;\n\nIV - eliminação e redução das situações de vulnerabilidades urbanas que expõem diversos grupos sociais, especialmente os de\n\nbaixa renda como pessoas em situação de rua, catadores e trabalhadores ambulantes, a situações de riscos, perigos e ameaças;\n\nV - diminuição das desigualdades na oferta e distribuição dos serviços, equipamentos e infraestruturas urbanas entre os distritos;\n\nVI - desconcentração das oportunidades de trabalho, emprego e renda, beneficiando os bairros periféricos;\n\nVII - manutenção, proteção e requalificação das zonas exclusivamente residenciais consideradas as disposições dos arts. 27 e 33\n\ndesta lei.\n\nSubseção I\n\nDa Macroárea de Estruturação Metropolitana",
+  "citacao": {
+    "norma": "lei municipal nº 16050/2014 — São Paulo - SP",
+    "dispositivo": "TÍTULO II › CAPÍTULO I › Seção I › Art. 10",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2014-07-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 95 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2014-07-31. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

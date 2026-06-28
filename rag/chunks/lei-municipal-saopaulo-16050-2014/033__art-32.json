@@ -1,0 +1,35 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16050-2014::033-art-32",
+  "lei_id": "lei-municipal-saopaulo-16050-2014",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 32",
+  "numero": "32",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO II",
+    "Seção III",
+    "Art. 32"
+  ],
+  "texto": "Art. 32. O zoneamento do Município deverá incluir, dentre outras, as seguintes zonas:\n\nI – Zona Exclusivamente Residencial – ZER;\n\nII – Zonas Predominantemente Residenciais – ZPR;\n\nIII – Zonas Mistas – ZM;\n\nIV – Zonas de Centralidades – ZC;\n\nV – Zona de Desenvolvimento Econômico – ZDE;\n\nVI – Zona Predominantemente Industrial – ZPI;\n\nVII – Zona de Ocupação Especial – ZOE;\n\nhttps://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 22/166\n\n27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal\n\nVIII – Zona de Preservação e Desenvolvimento Sustentável – ZPDS;\n\nIX – Zonas Especiais de Interesse Social – ZEIS;\n\nX – Zonas Especiais de Preservação Cultural – ZEPEC;\n\nXI – Zonas Especiais de Preservação Ambiental – ZEPAM;\n\nXII – Zona Especial de Preservação – ZEP;\n\nXIII – Zona de Transição – ZT.\n\n§ 1º As zonas especiais são porções do território com diferentes características ou com destinação específica que requerem\n\nnormas próprias de uso e ocupação do solo, podendo estar situadas em qualquer macrozona do Município.\n\n§ 2º (VETADO)\n\n§ 3º (VETADO)\n\n§ 4º (VETADO)",
+  "citacao": {
+    "norma": "lei municipal nº 16050/2014 — São Paulo - SP",
+    "dispositivo": "TÍTULO II › CAPÍTULO II › Seção III › Art. 32",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2014-07-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 95 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2014-07-31. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

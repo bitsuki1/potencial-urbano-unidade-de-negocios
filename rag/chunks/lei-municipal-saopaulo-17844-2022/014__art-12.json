@@ -1,0 +1,30 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17844-2022::014-art-12",
+  "lei_id": "lei-municipal-saopaulo-17844-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 12",
+  "numero": "12",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção I",
+    "Art. 12"
+  ],
+  "texto": "Art. 12. Na hipótese de doação de parcela de imóvel para implantação de áreas verdes e de\n\nmelhoramentos viários aprovados em lei, o potencial construtivo básico e o potencial construtivo\n\nmáximo do lote remanescente serão calculados em função de sua área original.\n\nParágrafo único. Cumulativamente ao benefício previsto no caput não será cobrada outorga onerosa do\n\ndireito de construir relativa ao potencial construtivo adicional da área doada, sem prejuízo da aplicação\n\nde demais benefícios previstos nesta Lei.",
+  "citacao": {
+    "norma": "lei municipal nº 17844/2022 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO II › Seção I › Art. 12",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2022-09-14",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": []
+    }
+  },
+  "tema": [
+    "IPTU"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

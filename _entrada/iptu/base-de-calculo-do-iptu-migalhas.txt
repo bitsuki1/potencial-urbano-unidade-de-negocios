@@ -1,0 +1,66 @@
+# FONTE: Google Drive fileId=1R7y8V5dGTH4ItryiRfQJsiIn0lKlFV8z | titulo=Base de cálculo do IPTU - Migalhas.pdf | extraido=2026-06-24 | conta=eduardo@saobentoservicos
+# PROVENIENCIA: verbatim integral via Drive MCP read_file_content
+---
+Base de cálculo do IPTU - Migalhas
+
+MIGALHAS DE PESO
+
+Home > De Peso > Base de cálculo do IPTU
+
+Base de cálculo do IPTU
+
+Kiyoshi Harada
+
+A EC 132/23 gerou insegurança sobre o IPTU, pois a majoração da base de cálculo por decreto fere a exigência legal de lei municipal.
+
+terça-feira, 16 de setembro de 2025 Atualizado em 15 de setembro de 2025 11:30
+
+A EC 132/23 que procedeu a reforma tributária parcial fundada na reunião e quatro tributos incidentes sobre o consumo (IPI, ICM, ISS e contribuições sociais) acrescentou o inciso III ao § 1º do art. 156 da CF nos seguintes termos:
+
+“III - ter sua base de cálculo atualizada pelo Poder Executivo, conforme critérios estabelecidos em lei municipal”.
+
+Ora, o art. 146, III, letra a da CF colocou sob reserva de lei complementar a definição da base de cálculo do IPTU.
+
+E o inciso IV do art. 97 do CTN submeteu a definição da base de cálculo do IPTU ao princípio da estrita legalidade:
+
+“Art. 97. Somente a lei poderá estabelecer
+
+[....]
+
+IV - a fixação da alíquota do tributo e da sua base de cálculo, ressalvado o disposto nos arts. 21, 26, 39, 57 e 65”
+
+As ressalvas aí previstas dizem respeito ao imposto de importação, ao imposto de exportação, ao IOF e a fixação de alíquota máxima do ITCMD por resolução do Senado Federal. O art. 57 supra referido perdeu vigência com o advento do decreto lei 406/1968, hoje, substituído pela LC 116/03.
+
+Qualquer que venha ser o critério adotado pela lei municipal não muda o fato de que o Decreto não é o instrumento normativo adequado para aumentar a base de cálculo do IPTU, por não comportar delegação legislativa nessa matéria.
+
+Essa prática de os municípios alterar a base de cálculo por decreto vem sendo combatido de longa data pelo STJ que chegou a editar a súmula 160, conforme ementa abaixo:
+
+“TRIBUTÁRIO. IPTU. MAJORAÇÃO DA BASE DE CÁLCULO POR MEIO DE DECRETO MUNICIPAL. IMPOSSIBILIDADE. SÚMULA 160/STJ.
+
+1. Nos termos da jurisprudência pacífica desta Corte, a majoração da base de cálculo do IPTU depende da elaboração de lei, não podendo um simples decreto atualizar o valor venal dos imóveis sobre os quais incide tal imposto com base em uma planta de valores, salvo no caso de simples correção monetária.
+
+2. Não há que se confundir a simples atualização monetária da base de cálculo do imposto com a majoração da própria base de cálculo. A primeira encontra-se autorizada independentemente de lei, a teor do que preceitua o art. 97, § 2º, do CTN, podendo ser realizada mediante decreto do Poder Executivo; a segunda somente poderá ser realizada por meio de lei.
+
+3. Incidência da súmula 160/STJ: "é defeso, ao município, atualizar o IPTU, mediante decreto, em percentual superior ao índice oficial de correção monetária. Agravo regimental improvido.” (AgRg no AREsp 66.849/MG, relator ministro Humberto Martins, 2ª T., DJe de 14/12/2011).
+
+Consoante o art. 33 do CTN, a base de cálculo do IPTU “é o valor venal do imóvel”.
+
+Muito se tem escrito sobre o conceito de valor venal.
+
+Em termos doutrinários é o valor que o imóvel alcançaria no mercado imobiliário para operação de compra e venda à vista, nas condições normais do mercado, admitindo-se a variação de 10% para mais ou para menos.
+
+Esse conceito doutrinário tem a finalidade de servir de parâmetro ao legislador para proceder o aumento da base de cálculo.
+
+Ele não está referido ao agente fiscal, lançador do IPTU, pois, o lançamento é um ato administrativo vinculado (art. 142 do CTN) descabendo a cogitação de pesquisar o valor de mercado para promover o lançamento do imposto.
+
+No município de São Paulo vigora a lei 10.235/86, conhecida como lei da PGV que fixa os valores unitários do metro quadrado da construção e do terreno considerando a sua localização e o padrão de construção.
+
+Cabe ao lançador do IPTU tão somente enquadrar o imóvel a ser tributado no setor fiscal onde se situa o imóvel e apurar o valor do metro quadrado da construção e do terreno para o encontrar o valor venal que é a base de cálculo do IPTU.
+
+Os espertos governantes municipais buscam aumentar o IPTU de forma enrustida, aumentando a base de cálculo do imposto valendo-se da expressão vaga “valor venal do imóvel” consignado no art. 33 do CTN, uma vez que a elevação da alíquota é transparente, chamando a atenção do contribuinte e da população em geral.
+
+Essa matéria que estava pacificada na jurisprudência de nossos tribunais corre o risco de sua rediscussão em razão da redação dúbia e confusa conferida pela reforma tributária, aprovada de afogadilho por meio da promulgação da EC 132/23 que incursionou nas áreas do IPTU e do ITCMD que nada têm a ver com o imposto de consumo, foco dessa reforma tributária dúbia e confusa.
+
+Kiyoshi Harada - Sócio do escritório Harada Advogados Associados. Especialista em Direito Tributário pela USP. Presidente do Instituto Brasileiro de Estudos de Direito Administrativo, Financeiro e Tributário - IBEDAFT.
+
+FONTE: https://www.migalhas.com.br/depeso/440099/base-de-calculo-do-iptu

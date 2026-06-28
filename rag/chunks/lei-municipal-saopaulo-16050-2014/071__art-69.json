@@ -1,0 +1,35 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16050-2014::071-art-69",
+  "lei_id": "lei-municipal-saopaulo-16050-2014",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 69",
+  "numero": "69",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO II",
+    "Seção VI",
+    "Art. 69"
+  ],
+  "texto": "Art. 69. As Zonas Especiais de Proteção Ambiental (ZEPAM) são porções do território do Município destinadas à preservação e\n\nproteção do patrimônio ambiental, que têm como principais atributos remanescentes de Mata Atlântica e outras formações de\n\nvegetação nativa, arborização de relevância ambiental, vegetação significativa, alto índice de permeabilidade e existência de\n\nnascentes, entre outros que prestam relevantes serviços ambientais, entre os quais a conservação da biodiversidade, controle de\n\nprocessos erosivos e de inundação, produção de água e regulação microclimática.\n\nParágrafo único. As Zonas Especiais de Proteção Ambiental – ZEPAM também poderão ser demarcadas em razão:\n\nI – da ocorrência de formações geomorfológicas de interesse ambiental como planícies aluviais, anfiteatros e vales encaixados\n\nassociados às cabeceiras de drenagem e outras ocorrências de fragilidade geológica e geotécnica assinaladas na Carta\n\nGeotécnica do MSP;\n\nII – do interesse da municipalidade na criação de Áreas Verdes Públicas.",
+  "citacao": {
+    "norma": "lei municipal nº 16050/2014 — São Paulo - SP",
+    "dispositivo": "TÍTULO II › CAPÍTULO II › Seção VI › Art. 69",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2014-07-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 95 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2014-07-31. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

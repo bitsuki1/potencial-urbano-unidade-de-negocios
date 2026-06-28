@@ -1,0 +1,35 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16050-2014::075-art-73",
+  "lei_id": "lei-municipal-saopaulo-16050-2014",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 73",
+  "numero": "73",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO II",
+    "Seção VI",
+    "Art. 73"
+  ],
+  "texto": "Art. 73. A revisão da Lei nº 13.885, de 25 de agosto de 2004, não poderá excluir das ZEPAM:\n\nI – áreas remanescentes de Mata Atlântica, em especial as incluídas no Plano Municipal da Mata Atlântica;\n\nII – áreas priorizadas no Plano Municipal de Áreas Prestadoras de Serviços Ambientais;\n\nIII – áreas onde ocorram deformações geomorfológicas de interesse ambiental como planícies aluviais, anfiteatros e vales\n\nencaixados associados às cabeceiras de drenagem e outras ocorrências de fragilidade geológica e geotécnica assinaladas na\n\nCarta Geotécnica do Município de São Paulo;\n\nhttps://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 35/166\n\n27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal\n\nIV – áreas que contenham alta densidade de nascentes.\n\n§ 1º As vedações de que trata este artigo não se aplicam no caso de implantação de obras, empreendimentos, infraestrutura de\n\nutilidade pública devidamente licenciados pelo órgão ambiental competente.\n\n§ 2º A inclusão ou exclusão de áreas na categoria de ZEPAM deverão ser acompanhadas de parecer consubstanciado emitido pelo\n\nórgão ambiental municipal.\n\nSeção VII\n\nDa Zona Especial de Preservação (ZEP)",
+  "citacao": {
+    "norma": "lei municipal nº 16050/2014 — São Paulo - SP",
+    "dispositivo": "TÍTULO II › CAPÍTULO II › Seção VI › Art. 73",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2014-07-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 95 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2014-07-31. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

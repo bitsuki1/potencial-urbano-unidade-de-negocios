@@ -1,6 +1,6 @@
 {
   "_doc": "Fonte da verdade do status_pipeline de cada item. GERADO por scripts/consolidar.py a partir dos .json individuais — NAO editar a mao (Principio 1.5/2.3 do CLAUDE.md). Roda a cada push via .github/workflows/consolidar.yml.",
-  "gerado_em": "2026-06-27T21:07:16.174615+00:00",
+  "gerado_em": "2026-06-28T03:31:45.944986+00:00",
   "vocabulario_status": [
     "bruto",
     "fatiado",
@@ -16,12 +16,12 @@
     "fora_de_escopo": 2,
     "_nota": "por_status_pipeline conta SÓ os ativos_no_escopo; os 2 fora-de-escopo (ambos tagueado) não entram aqui. Soma = ativos_no_escopo, não total_itens.",
     "por_status_pipeline_ativos": {
-      "indexado": 17,
-      "bruto": 14,
+      "indexado": 19,
+      "bruto": 12,
       "tagueado": 30
     },
     "status_ilegais_encontrados": [],
-    "confianca_baixa_ou_media": 17,
+    "confianca_baixa_ou_media": 15,
     "_nota_verbatim": "confianca e flag de extracao, nao prova de verbatim. CORRIGIDO na auditoria profunda 2026-06-20 (AUD-01): 13 leis JA estao em verbatim integral e indexadas (12 federais re-ingeridas de _entrada/misto/ + a 7228/1968 municipal) — supera a narrativa antiga 'planalto deu 403, NENHUMA e verbatim', que confundia 'o .md e resumo' com 'o verbatim nao existe'. Faltam 14 municipais (so resumo WebSearch) — re-ingestao verbatim delas e o que resta do pre-requisito do RAG. As 32 juris (curtas) sao verbatim."
   },
   "alertas": {
@@ -36,11 +36,9 @@
       "lei-municipal-saopaulo-13475-2002",
       "lei-municipal-saopaulo-14865-2008",
       "lei-municipal-saopaulo-15044-2009",
-      "lei-municipal-saopaulo-16050-2014",
       "lei-municipal-saopaulo-17202-2019",
       "lei-municipal-saopaulo-17577-2021",
       "lei-municipal-saopaulo-17759-2022",
-      "lei-municipal-saopaulo-17844-2022",
       "stj-tema-1350",
       "stj-tema-262",
       "stj-tema-399"
@@ -62,7 +60,7 @@
       "status": "engine OODC/TDC executável (engines/tdc/oodc.py); demais são prosa/conhecimento"
     },
     "tabelas": {
-      "arquivos": 0,
+      "arquivos": 3,
       "status": "VAZIO — Q14/Quadro 3 ainda no Drive, não ingeridos (AUD-04: combustível do engine)"
     },
     "tese_iptu": {
@@ -783,16 +781,16 @@
     },
     {
       "id": "lei-municipal-saopaulo-16050-2014",
-      "tipo": "lei_ordinaria",
+      "tipo": "lei municipal",
       "caminho_md": "leis/municipal-sp/lei-municipal-saopaulo-16050-2014.md",
       "caminho_json": "leis/municipal-sp/lei-municipal-saopaulo-16050-2014.json",
-      "status_pipeline": "bruto",
+      "status_pipeline": "indexado",
       "status_valido": true,
-      "confianca_extracao": "baixa",
+      "confianca_extracao": "alta",
       "revisado_por_humano": false,
       "fora_de_escopo": false,
       "fora_de_escopo_motivo": null,
-      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-16050-de-31-de-julho-de-2014"
+      "fonte_url": null
     },
     {
       "id": "lei-municipal-saopaulo-16402-2016",
@@ -874,16 +872,16 @@
     },
     {
       "id": "lei-municipal-saopaulo-17844-2022",
-      "tipo": "lei_ordinaria",
+      "tipo": "lei municipal",
       "caminho_md": "leis/municipal-sp/lei-municipal-saopaulo-17844-2022.md",
       "caminho_json": "leis/municipal-sp/lei-municipal-saopaulo-17844-2022.json",
-      "status_pipeline": "bruto",
+      "status_pipeline": "indexado",
       "status_valido": true,
-      "confianca_extracao": "baixa",
+      "confianca_extracao": "alta",
       "revisado_por_humano": false,
       "fora_de_escopo": false,
       "fora_de_escopo_motivo": null,
-      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17844-de-14-de-setembro-de-2022"
+      "fonte_url": null
     },
     {
       "id": "lei-municipal-saopaulo-7228-1968",

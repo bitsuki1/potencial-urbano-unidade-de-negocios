@@ -1,0 +1,30 @@
+grupo,acao,drive_id,titulo_ou_motivo,ganho_estimado
+socios.csv,MANTER,1gftoKzFaD-NyKClBg3SH8Eo0FYncQYvt,canonica (3.4 GB),
+socios.csv,APAGAR,1Lffz6w6OvS-5KqakDT71ZqIzsudRLnoI,duplicata exata,~3.4GB
+socios.csv,APAGAR,1ncSTA-P2GfV2cPN-y1f2cnjqFDGSqa9e,duplicata exata,~3.4GB
+empresas.csv,MANTER,1uRWg7wA4KuppJ1TSdEwRmV3H06fTXlnj,canonica (2.3 GB),
+empresas.csv,APAGAR,18Q-_8iD5ZihVh-UnmD4itZ8WEa19g02a,duplicata exata,~2.3GB
+empresas.csv,APAGAR,1u0ZaQCqfG0Moq2eroL-8_E1njnHJbgP5,duplicata exata,~2.3GB
+IPTU_2026.csv,MANTER,1HPvwPOkjRwlC4dfgEYpYkfyDJ5l94tNM,canonica (938 MB),
+IPTU_2026.csv,APAGAR,1oX6BDTF_MJhrt8es4xh3N-cFtDbeoNGt,duplicata exata,~938MB
+IPTU_2026.csv,APAGAR,1EubfSLtbGNF5G2MLS9eT_DiAsVCtv0fM,duplicata exata,~938MB
+IPTU_2026.csv,APAGAR,1A3NK8K6wAn4ZjGCl5rqb2mCB8j50t0Pl,duplicata exata,~938MB
+IPTU_2026.csv,APAGAR,1GOBf3pOYrDATCTOfMHLdbG1Iv82kV7Qt,duplicata exata,~938MB
+IPTU_2026.csv,APAGAR,1Uvb9CYQNomG00MJo0kLAgOL3F2Xb8ay-,duplicata exata,~938MB
+holdings.csv,MANTER,1BrBRzC3G4atGZ8JqRZhGp4OnvBZTjOgr,canonica (60 MB),
+holdings.csv,APAGAR,1lBfWs1FCsxCTgpAu_5WzbZJ8WnLodxi9,duplicata exata,~60MB
+holdings.csv,APAGAR,1LGUIQysj-1_8deN8AeQi5ChwORjyoWHR,duplicata exata,~60MB
+holdings.csv,APAGAR,17WdJjyVAg6macYZ9DjM-xIiR5bEFqjQo,duplicata exata,~60MB
+holdings.csv,APAGAR,1fdabbNncuOexRrmIEvP1N2L-oNyZmk-j,duplicata exata,~60MB
+holdings.csv,APAGAR,1H3-gburttjEyLYmBBUH1qM7DH1fxUEZL,duplicata exata,~60MB
+arrumacao-byproduto,MANTER,1Wt2eFe-05D5fU8FsjeH0UiGFyokBcAa6U-sqDxFx0k8,relatorio FINAL mais recente,
+arrumacao-byproduto,APAGAR,1mFJdqwz,intermediaria dry-run (23:17),
+arrumacao-byproduto,APAGAR,15GmJ2Nk,intermediaria dry-run (00:22),
+arrumacao-byproduto,APAGAR,1Bcyd37A,intermediaria dry-run (00:47),
+arrumacao-byproduto,APAGAR,1LgVwo5x,intermediaria dry-run (01:00),
+arrumacao-byproduto,APAGAR,13V2r0oS,intermediaria dry-run (01:03),
+arrumacao-byproduto,APAGAR,1rYAJMQo,intermediaria dry-run (01:08),
+arrumacao-byproduto,APAGAR,1-u2l3VK,intermediaria dry-run (01:15),
+lixo-tecnico,APAGAR,1JM7spa4,AUDITORIA vazia 4B,trivial
+lixo-tecnico,APAGAR,1k-zbLK3,AUDITORIA vazia 4B,trivial
+lixo-tecnico,APAGAR,1--RLUIR,test-download.txt,trivial

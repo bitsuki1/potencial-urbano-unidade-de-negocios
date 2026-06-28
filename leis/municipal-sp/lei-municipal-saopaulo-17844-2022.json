@@ -1,56 +1,29 @@
 {
   "id": "lei-municipal-saopaulo-17844-2022",
-  "tipo_norma": "lei_ordinaria",
-  "esfera": "municipal",
-  "jurisdicao": "São Paulo/SP",
-  "numero": "17.844",
-  "ano": 2022,
-  "ementa": "Aprova o Projeto de Intervenção Urbana Setor Central (PIU-SCE), institui e regulamenta a Área de Intervenção Urbana do Setor Central (AIU-SCE), estabelece parâmetros de uso e ocupação do solo, define o programa de intervenções do PIU-SCE e revoga a Lei nº 12.349, de 6 de junho de 1997.",
+  "tipo_norma": "lei municipal",
+  "esfera": "Municipal-SP",
+  "jurisdicao": "São Paulo - SP",
+  "numero": "17844",
+  "ano": "2022",
+  "ementa": "(ver texto integral)",
   "tema": [
-    "IPTU",
-    "PIU_Setor_Central",
-    "intervencao_urbana",
-    "area_central"
-  ],
-  "dispositivos_chave": [
-    "Aprova o PIU Setor Central (PIU-SCE) e institui a Area de Intervencao Urbana do Setor Central (AIU-SCE)",
-    "Estabelece parametros de uso e ocupacao do solo especificos para o territorio",
-    "Programa de intervencoes, modelo de gestao financeira e gestao participativa (via SP-Urbanismo)",
-    "Prioriza atendimento habitacional para familias de baixa renda; >=40% da outorga onerosa para moradia popular (renda ate 2 SM); >=20% para equipamentos publicos",
-    "Revoga a Lei 12.349/1997"
+    "IPTU"
   ],
   "vigencia": {
-    "em_vigor": true,
-    "observacao": "Vigente; regulamentada pelo Decreto 63.368/2024. Versao compilada de 2023 disponivel."
+    "inicio": "2022-09-14",
+    "fim": null,
+    "revogada_por": null,
+    "altera": [],
+    "alterada_por": []
   },
-  "remissoes": [
-    {
-      "norma": "Lei 12.349/1997",
-      "relacao": "revoga"
-    },
-    {
-      "norma": "Decreto 63.368/2024",
-      "relacao": "regulamenta"
-    },
-    {
-      "norma": "Lei 16.050/2014 (PDE)",
-      "relacao": "marco do PIU"
-    }
-  ],
-  "jurisprudencia_relacionada": [],
-  "tem_tabela": false,
-  "tabelas_extraidas": [],
-  "tem_formula": false,
-  "formulas_referenciadas": [],
   "fonte": {
-    "origem": "web-oficial",
-    "url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17844-de-14-de-setembro-de-2022",
+    "origem": "Google Drive",
+    "path": "_entrada/iptu/lei-no-17-844-de-14-de-setembro-de-2022-catalogo-de-legislacao-municip.txt",
     "hash": null,
     "ocr": false,
-    "metodo": "WebSearch (nao-verbatim; WebFetch/curl bloqueados HTTP 403)",
-    "obs": "texto nao-verbatim; capturado via WebSearch por bloqueio de WebFetch/curl (HTTP 403)."
+    "fileId": "1LaCDRmdJ41EWnQbrt3WzOMouDIceQs6Z"
   },
-  "status_pipeline": "bruto",
-  "confianca_extracao": "baixa",
+  "status_pipeline": "indexado",
+  "confianca_extracao": "alta",
   "revisado_por_humano": false
 }

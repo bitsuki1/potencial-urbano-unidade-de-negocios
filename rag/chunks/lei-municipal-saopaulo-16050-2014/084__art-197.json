@@ -1,0 +1,35 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16050-2014::084-art-197",
+  "lei_id": "lei-municipal-saopaulo-16050-2014",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 197",
+  "numero": "197",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO II",
+    "Seção VIII",
+    "Art. 197"
+  ],
+  "texto": "art. 197 da Lei nº 13.885, de 2004.\n\n§ 7º Nas áreas de influência dos eixos, nos lotes com frente para os eixos relacionados nos incisos II e III do art. 76, o passeio\n\ndeverá ter largura mínima de 5m (cinco metros), em contrapartida à doação de área para este fim:\n\nI – fica dispensado o recuo obrigatório de frente;\n\nII – os potenciais construtivos básico e máximo do remanescente do lote serão calculados em função de sua área original e não\n\nserá cobrada outorga onerosa do direito de construir relativa ao potencial construtivo máximo correspondente à área doada.\n\n§ 8º Nas áreas de influência dos eixos, exceto nas vias onde estão instalados os corredores de ônibus municipais e\n\nintermunicipais, o passeio deverá ter largura mínima de 3m (três metros), em contrapartida à doação de área para este fim:\n\nI – o recuo de frente será definido a partir do alinhamento original do lote;\n\nII – os potenciais construtivos básico e máximo do remanescente do lote serão calculados em função de sua área original e não\n\nserá cobrada outorga onerosa do direito de construir relativa ao potencial construtivo máximo correspondente à área doada.\n\n§ 9º Nas áreas de influência dos eixos, a cota máxima de terreno por unidade habitacional poderá ser superada, até o limite de 30\n\nm² (trinta metros quadrados) de terreno por unidade, mediante aplicação de Fator Social na seguinte conformidade:(Incluído pela\n\nLei nº 17.975/2023)\n\nI - para as unidades de área maior que 70m² (setenta metros quadrados), variando de 1 (um) a 2 (dois), na proporção da cota-parte\n\nutilizada entre 20m² (vinte metros quadrados) e 30m² (trinta metros quadrados) de terreno por unidade;(Incluído pela Lei nº\n\n17.975/2023)\n\nII - para as demais unidades, conforme o disposto no Quadro 5 da Lei.(Incluído pela Lei nº 17.975/2023)\n\n§ 10 A cota-parte máxima de terreno poderá ser superior a 30, desde que seja aplicado Fator Social (FS) 3 (três) para qualquer\n\nuso, exceto HIS e HMP.(Redação dada pela Lei nº 18.157/2024)",
+  "citacao": {
+    "norma": "lei municipal nº 16050/2014 — São Paulo - SP",
+    "dispositivo": "TÍTULO II › CAPÍTULO II › Seção VIII › Art. 197",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2014-07-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 95 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2014-07-31. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

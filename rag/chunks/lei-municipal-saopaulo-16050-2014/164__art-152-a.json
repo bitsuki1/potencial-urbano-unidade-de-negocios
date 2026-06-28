@@ -1,0 +1,35 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16050-2014::164-art-152-a",
+  "lei_id": "lei-municipal-saopaulo-16050-2014",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 152-A",
+  "numero": "152-A",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO III",
+    "Seção IV",
+    "Art. 152-A"
+  ],
+  "texto": "Art. 152-A. No processo de licenciamento ambiental de empreendimentos e atividades com baixo potencial de degradação\n\nambiental, conforme resolução, o Executivo poderá exigir previamente a elaboração de Estudo Ambiental Simplificado – EAS.\n\n(Incluído pela Lei nº 17.975/2023)\n\nParágrafo único. O Estudo Ambiental Simplificado deverá analisar, no mínimo, os possíveis impactos ambientais dos\n\nempreendimentos e atividades mencionados no caput, considerando sua localização e características específicas.(Incluído pela Lei\n\nnº 17.975/2023)\n\nSubseção IV\n\nDa Avaliação Ambiental Estratégica",
+  "citacao": {
+    "norma": "lei municipal nº 16050/2014 — São Paulo - SP",
+    "dispositivo": "TÍTULO II › CAPÍTULO III › Seção IV › Art. 152-A",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2014-07-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 95 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2014-07-31. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

@@ -1,0 +1,35 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16050-2014::022-art-21",
+  "lei_id": "lei-municipal-saopaulo-16050-2014",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 21",
+  "numero": "21",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO I",
+    "Seção II",
+    "Art. 21"
+  ],
+  "texto": "Art. 21. A Macroárea de Preservação de Ecossistemas Naturais, conforme Mapa 2 anexo, é caracterizada pela existência de\n\nsistemas ambientais cujos elementos e processo ainda conservam suas características naturais.\n\n§ 1º Na Macroárea de Preservação de Ecossistemas Naturais predominam áreas de remanescentes florestais naturais e\n\necossistemas associados com expressiva distribuição espacial e relativo grau de continuidade e conservação, mantenedoras da\n\nbiodiversidade e conservação do solo, bem como várzeas preservadas, cabeceiras de drenagem, nascentes e cursos d’água ainda\n\npouco impactados por atividades antrópicas e áreas com fragilidades geológico-geotécnicas e de relevo suscetíveis a processos\n\nerosivos, escorregamentos ou outros movimentos de massa.\n\n§ 2º A Macroárea de Preservação de Ecossistemas Naturais integra a zona rural.\n\n§ 3º Os objetivos específicos da Macroárea de Preservação de Ecossistemas Naturais são:\n\nI – manutenção das condições naturais dos elementos e processos que compõem os sistemas ambientais;\n\nII – preservação dos bens e áreas de interesse histórico e cultural;\n\nIII – proteção das espécies vegetais e animais, especialmente as ameaçadas de extinção;\n\nIV – respeito às fragilidades geológico-geotécnicas e de relevo dos seus terrenos;\n\nV – implementação e gestão das unidades de conservação existentes;\n\nhttps://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 14/166\n\n27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal\n\nVI – criação de novas unidades de conservação de proteção integral;\n\nVII – promoção de atividades ligadas à pesquisa, ao ecoturismo e à educação ambiental.\n\nSeção III\n\nDa Rede de Estruturação e Transformação Urbana\n\nSubseção I\n\nA Rede Estrutural de Transporte Coletivo",
+  "citacao": {
+    "norma": "lei municipal nº 16050/2014 — São Paulo - SP",
+    "dispositivo": "TÍTULO II › CAPÍTULO I › Seção II › Art. 21",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2014-07-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 95 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2014-07-31. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

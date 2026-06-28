@@ -1,0 +1,35 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16050-2014::034-art-33",
+  "lei_id": "lei-municipal-saopaulo-16050-2014",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 33",
+  "numero": "33",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO II",
+    "Seção III",
+    "Art. 33"
+  ],
+  "texto": "Art. 33. As Zonas Exclusivamente Residenciais – ZER são porções do território destinadas exclusivamente ao uso residencial de\n\nhabitações unifamiliares e multifamiliares, tipologias diferenciadas, níveis de ruído compatíveis com o uso exclusivamente\n\nresidencial e com vias de tráfego leve e local, podendo ser classificadas em:\n\nI – ZER-1, de baixa densidade construtiva e demográfica;\n\nII – ZER-2, de média densidade construtiva e demográfica; e\n\nIII – ZER-3, de alta densidade construtiva e demográfica.\n\n§ 1º Nas ZER-1, o gabarito de altura máximo da edificação é igual a 10 (dez) metros e ficam estabelecidos os seguintes\n\ncoeficientes de aproveitamento:\n\nI – mínimo igual a 0,05 (cinco centésimos);\n\nII – básico igual a 1,0 (um);\n\nIII – máximo igual a 1,0 (um).\n\n§ 2º A vegetação das Zonas Exclusivamente Residenciais, quando for considerada significativa pelo órgão ambiental, passará a\n\nintegrar o sistema de áreas verdes do Município.\n\n§ 3º A Lei de Parcelamento, Uso e Ocupação do Solo e os Planos Regionais regulamentarão as interfaces das Zonas\n\nExclusivamente Residenciais através de dispositivos que garantam a adequada transição de intensidade de usos, volumetrias,\n\ngabaritos e outros parâmetros com as demais zonas.\n\n§ 4º Os corredores de comércio e serviços em ZER deverão manter as características paisagísticas da zona.\n\n§ 5º (VETADO)",
+  "citacao": {
+    "norma": "lei municipal nº 16050/2014 — São Paulo - SP",
+    "dispositivo": "TÍTULO II › CAPÍTULO II › Seção III › Art. 33",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2014-07-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 95 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2014-07-31. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

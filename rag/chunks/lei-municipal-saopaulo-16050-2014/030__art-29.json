@@ -1,0 +1,35 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16050-2014::030-art-29",
+  "lei_id": "lei-municipal-saopaulo-16050-2014",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 29",
+  "numero": "29",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO II",
+    "Seção I",
+    "Art. 29"
+  ],
+  "texto": "Art. 29. A legislação de Parcelamento, Uso e Ocupação do Solo – LPUOS deverá apresentar estratégia para controle de:\n\nI – parcelamento do solo, englobando dimensões mínimas e máximas de lotes e quadras;\n\nhttps://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 20/166\n\n27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal\n\nII – remembramento de lotes, englobando dimensões máximas do lote resultante e previsão das condições para destinação de\n\náreas públicas;\n\nIII – densidades construtivas e demográficas;\n\nIV – volumetria da edificação no lote e na quadra;\n\nV – relação entre espaços públicos e privados;\n\nVI – movimento de terra e uso do subsolo sujeito a aprovação do Plano de Intervenção pelo órgão público competente, quando se\n\ntratar de terra contaminada ou com suspeita de contaminação;\n\nVII – circulação viária, polos geradores de tráfego e estacionamentos;\n\nVIII – insolação, aeração, permeabilidade do solo e índice mínimo de cobertura vegetal;\n\nIX – usos e atividades;\n\nX – funcionamento das atividades incômodas;\n\nXI – áreas não edificáveis;\n\nXII – fragilidade ambiental e da aptidão física à urbanização, especialmente as áreas suscetíveis à ocorrência de deslizamentos,\n\ninundações ou processos geológicos e hidrológicos correlatos indicados no Mapeamento de Áreas de Risco e na Carta Geotécnica\n\ndo Município de São Paulo;\n\nXIII – bens e áreas de valor histórico, cultural, paisagístico e religioso;\n\nXIV – áreas de preservação permanente;\n\nXV – espaços para instalação de galerias para uso compartilhado de serviços públicos, inclusive centrais de produção de utilidades\n\nenergéticas localizadas;\n\nXVI – poluição atmosférica e qualidade do ar;\n\nXVII – poluição atmosférica sonora;\n\nXVIII – interferências negativas na paisagem urbana.\n\nSeção II\n\nDa Classificação dos Usos e Atividades",
+  "citacao": {
+    "norma": "lei municipal nº 16050/2014 — São Paulo - SP",
+    "dispositivo": "TÍTULO II › CAPÍTULO II › Seção I › Art. 29",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2014-07-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 95 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2014-07-31. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

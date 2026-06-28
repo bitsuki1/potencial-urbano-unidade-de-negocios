@@ -1,0 +1,290 @@
+# FONTE: Google Drive fileId=1l_K7QSCfRXBOoSfzQ5YKYYJ3zJYv22oJ | titulo=PDE2013_SUBST2_Quadro_1_CA_Definicoes.pdf | extraido=2026-06-24 | conta=eduardo@saobentoservicos
+# PROVENIENCIA: verbatim integral via Drive MCP read_file_content
+---
+QUADROS 1 A 14 ANEXOS A LEI Nº 16.050, DE 31 DE JULHO DE 2014
+
+PLANO DIRETOR ESTRATÉGICO DO MUNICÍPIO DE SÃO PAULO Quadro 1. Definições Para os efeitos desta lei, as seguintes expressões ficam assim definidas:
+
+Ações Prioritárias nos Sistemas Urbanos e Ambientais são conjuntos de intervenções e investimentos que têm por finalidade melhorar, ajustar e complementar os sistemas urbanos e ambientais;
+
+(VETADO) Área Bruta de uma zona é a sua área total, inclusive logradouros, áreas verdes e institucionais;
+
+Razão de veto: Área Bruta de uma zona é a sua área total, inclusive logradouros, áreas verdes e institucionais”, por não haver menção ao conceito no texto aprovado, o qual, ademais, já está definido pelo inciso I do artigo 2º, da Lei nº 13.885, de 2004;
+
+Área Construída Computável é a soma das áreas cobertas de todos os pavimentos de uma edificação, que são consideradas para o cálculo do coeficiente de aproveitamento;
+
+Área Construída Total é a soma das áreas cobertas de todos os pavimentos de uma edificação;
+
+Área Construída Não Computável é a soma das áreas cobertas de uma edificação não consideradas para o cálculo do coeficiente de aproveitamento, nos termos dispostos na legislação pertinente;
+
+(VETADO) Área Líquida de uma zona é a área dos lotes e glebas, excluídos logradouros, áreas verdes e institucionais;
+
+Razão de veto: Área Líquida de uma zona é a área dos lotes e glebas, excluídos logradouros, áreas verdes e
+
+institucionais”, por não haver menção ao conceito no texto aprovado, o qual, ademais, já está definido pelo inciso VI do
+
+artigo 2º, da Lei nº 13.885, de 2004; Áreas de Intervenção Urbana são porções do território de especial interesse para reestruturação, transformação, recuperação e melhoria ambiental de setores urbanos com efeitos positivos na qualidade de vida, no atendimento às necessidades sociais, na efetivação de direitos sociais e no desenvolvimento econômico do Município;
+
+(VETADO) Áreas de Preservação Permanente são as áreas definidas nos artigos 4º, 5º e 6º da Lei Federal nº 12.651/12, cobertas ou não por vegetação nativa, com a função ambiental de preservar os recursos hídricos, a paisagem, a estabilidade geológica, a biodiversidade, o fluxo gênico de fauna e flora, proteger o solo e assegurar o bem-estar das populações humanas;
+
+Razão de veto: Áreas de Preservação Permanente são as áreas definidas nos artigos 4º, 5º e 6º da Lei Federal nº
+
+12.651/12, cobertas ou não por vegetação nativa, com a função ambiental de preservar os recursos hídricos, a
+
+paisagem, a estabilidade geológica, a biodiversidade, fluxo gênico de fauna e flora, proteger o solo e assegurar o bem-
+
+estar das populações humanas”, por já constar da lei federal citada;
+
+Área de Proteção Ambiental – APA é uma Unidade de Conservação de Uso Sustentável com área em geral extensa, com certo grau de ocupação humana, dotada de atributos abióticos, bióticos, estéticos ou culturais especialmente importantes para a qualidade de vida e o bem- estar das populações humanas, e tem como objetivos básicos proteger a diversidade biológica,
+
+1
+
+disciplinar o processo de ocupação e assegurar a sustentabilidade do uso dos recursos naturais, podendo conter áreas de domínio público e/ou privado;
+
+Áreas de Reciclagem de Resíduos da Construção Civil são estabelecimentos de grande porte, destinados ao recebimento e transformação de resíduos da construção civil já triados, para produção de agregados reciclados e outros produtos, conforme especificações da ABNT;
+
+Áreas de Triagem e Transbordo de Resíduos da Construção Civil e Resíduos Volumosos são estabelecimentos de médio porte destinados ao recebimento de resíduos da construção civil e resíduos volumosos gerados e coletados por agentes privados;
+
+Assentamentos Precários e Irregulares são ocupações inseridas em parcelamentos informais ou irregulares, localizadas em áreas urbanas públicas ou privadas, utilizadas predominantemente para fins de moradia como favelas, núcleos habitacionais, loteamentos irregulares ou clandestinos e conjuntos habitacionais de interesse social não regularizados;
+
+Aterros de Resíduos da Construção Civil: áreas de grande porte destinadas à disposição de resíduos da construção civil de origem mineral, designados como Classe A pela legislação federal específica, devendo atender às especificações da ABNT;
+
+Aterros sanitários são instalações de grande porte, voltadas à disposição final exclusivamente de rejeitos no solo que, sem causar danos à saúde pública e à segurança, minimizam os impactos ambientais, utilizando princípios de engenharia para confinar os rejeitos à menor área possível e reduzi-los ao menor volume permissível, devendo atender às especificações da ABNT;
+
+(VETADO) Benefício Econômico Agregado ao Imóvel é a valorização do terreno decorrente da obtenção de Potencial Construtivo Adicional, alteração de uso e parâmetros urbanísticos;
+
+Razão de veto: Benefício Econômico Agregado ao Imóvel é a valorização do terreno decorrente da obtenção de Potencial Construtivo Adicional, alteração de uso e parâmetros urbanísticos”, por não haver menção ao conceito no texto aprovado;
+
+(VETADO) Cadastro Ambiental Rural é o registro público eletrônico de âmbito nacional, instituído pela Lei Federal nº 12.651/12, obrigatório para todos os imóveis rurais, com a finalidade de integrar as informações ambientais das propriedades e posses rurais, compondo base de dados para controle, monitoramento, planejamento ambiental e econômico e combate ao desmatamento;
+
+Razão de veto: Cadastro Ambiental Rural é o registro público eletrônico de âmbito nacional, instituído pela Lei Federal nº 12.651/12, obrigatório para todos os imóveis rurais, com a finalidade de integrar as informações ambientais das propriedades e posses rurais, compondo base de dados para controle, monitoramento, planejamento ambiental e econômico e combate ao desmatamento”, por já constar da lei federal citada;
+
+Carta Geotécnica do Município: documento cartográfico que registra os diferentes compartimentos geológicos e geomorfológicos presentes no município, qualificando-os quanto aos seus comportamentos geotécnicos e hidrológicos frente ao uso urbano e definindo os critérios técnicos básicos para sua correta ocupação;
+
+Centrais de Manejo de Resíduos Industriais são estabelecimentos de grande porte destinados ao recebimento de resíduos industriais, seu manejo e posterior remoção para adequada destinação, devendo atender às especificações da ABNT e do CONAMA;
+
+Centrais de Processamento da Coleta Seletiva de Resíduos Orgânicos: instalações de grande porte, utilizadas para processamento dos resíduos oriundos da coleta seletiva de resíduos sólidos orgânicos;
+
+2
+
+Centrais de Processamento da Coleta Seletiva de Resíduos Secos: estabelecimentos de pequeno, médio e grande porte, para triagem e processamento dos resíduos sólidos oriundos da coleta seletiva de embalagens e outros resíduos secos;
+
+Centrais de Tratamento de Resíduos de Serviços de Saúde são estabelecimentos destinados ao recebimento de resíduos de serviços de saúde gerados e coletados por agentes públicos ou privados, devendo atender às especificações da ANVISA e do CONAMA;
+
+Certidão de Transferência de Potencial Construtivo consiste de documento que fixa o potencial construtivo equivalente passível de ser transferido para o imóvel receptor, calculado de acordo com o disposto nesta lei;
+
+Certificado de Potencial Construtivo Adicional – CEPAC é uma forma de contrapartida financeira de outorga onerosa do potencial construtivo adicional, alteração de uso e parâmetros urbanísticos, para uso específico nas Operações Urbanas Consorciadas;
+
+Coeficiente de Aproveitamento é a relação entre a área edificada, excluída a área não computável, e a área do lote, podendo ser:
+
+a) básico, que resulta do potencial construtivo gratuito inerente aos lotes e glebas urbanos;
+
+b) máximo, que não pode ser ultrapassado;
+
+c) mínimo, abaixo do qual o imóvel poderá ser considerado subutilizado;
+
+(VETADO) Coeficiente de Aproveitamento Bruto é a relação entre a área construída total de uma zona, área de intervenção ou operação urbana e sua área bruta.
+
+Razão de veto: Coeficiente de Aproveitamento Bruto é a relação entre a área construída total de uma zona, área de
+
+intervenção ou operação urbana e sua área bruta”, por não haver menção ao conceito no texto aprovado;
+
+Coletas Seletivas de Resíduos Sólidos é o conjunto de operações a serem aplicadas a todos os resíduos gerados no território municipal;
+
+Conflito Fundiário Urbano é a disputa pela posse ou propriedade de imóvel urbano, decorrente ou não dos eventuais impactos de empreendimentos públicos e privados, envolvendo famílias de baixa renda e grupos sociais vulneráveis que necessitem ou demandem a proteção do Estado na garantia do direito humano à moradia e à cidade;
+
+Conselho Gestor das ZEIS é um instrumento de gestão e participação instituído para acompanhar a elaboração e implantação de planos e projetos de urbanização e de regularização fundiária;
+
+Contrapartida Financeira é o valor econômico, correspondente à outorga onerosa de potencial construtivo adicional, a ser pago ao Poder Público pelo proprietário de imóvel, em espécie ou em Certificados de Potencial Adicional de Construção – CEPAC;
+
+Cota de garagem máxima é a relação entre a soma das áreas destinadas a carga e a descarga, circulação, manobra, e estacionamento de veículos e o número total de vagas de estacionamento, não sendo considerados vagas de estacionamento os espaços destinados a carga e descarga;
+
+3
+
+(VETADO) Cota de Solidariedade é a exigência, aplicável a empreendimentos privados de grande porte ou causadores de impacto urbano, correspondente à doação de áreas para o Município, para fins de produção de HIS;
+
+Razão de veto: Cota de Solidariedade é a exigência, aplicável a empreendimentos privados de grande porte ou causadores de impacto urbano, correspondente à doação de áreas para o Município, para fins de produção de HIS”, por divergência com o disposto nos artigos 111 e 112 do texto aprovado;
+
+Cota Parte Máxima de Terreno por Unidade é relação de densidade habitacional, expressa em unidade de área, entre a área total do terreno e o número de unidades habitacionais a serem idealmente produzidas;
+
+Declaração de Potencial Construtivo Passível de Transferência consiste de documento que declara o potencial construtivo passível de ser transferido originado pelo imóvel cedente, calculado de acordo com o disposto nesta lei;
+
+Ecoparques são equipamentos públicos para tratamento dos resíduos sólidos urbanos remanescentes dos processos de coleta seletiva, que visam, com técnicas adequadas de engenharia, a máxima recuperação dos resíduos secos e orgânicos e a redução do volume de rejeitos a serem conduzidos à disposição final;
+
+Ecopontos são equipamentos públicos de pequeno porte, destinados ao recebimento de resíduos da construção civil, resíduos volumosos, resíduos sólidos domiciliares secos e outros resíduos de logística reversa, respeitadas as responsabilidades definidas na Lei Federal 12.305 de 2010, e outros eventuais resíduos, gerados e entregues segregados pelos munícipes, podendo ainda ser entregues por pequenos transportadores diretamente contratados pelos geradores;
+
+Empreendimento de Habitação de Interesse Social - EHIS corresponde a uma edificação ou um conjunto de edificações, destinado total ou parcialmente à Habitação de Interesse Social e usos complementares, conforme disposto na legislação específica;
+
+Empreendimento de Habitação de Mercado Popular- EHMP, corresponde a uma edificação ou um conjunto de edificações, destinados a HMP, HIS 2 e usos complementares, conforme disposto na legislação específica;
+
+Empreendimento em Zona Especial de Interesse Social - EZEIS é aquele localizado em ZEIS e que contém destinação obrigatória de parte da área construída total para habitação de interesse social (HIS);
+
+Equipamentos Urbanos, Sociais ou Comunitários são imóveis destinados a serviços públicos de uso coletivo, que integram as políticas públicas de diferentes setores voltados à efetivação e universalização de direitos sociais;
+
+Estações de Transbordo para Resíduos Domiciliares e da Limpeza Urbana são instalações de grande porte, voltadas à concentração dos resíduos oriundos do sistema público de manejo de resíduos sólidos urbanos para otimização da escala e redução do custo de transporte;
+
+(VETADO) Galeria Compartilhada é o espaço para implantação de infraestruturas para uso compartilhado de serviços públicos;
+
+Razão de veto: Galeria Compartilhada é o espaço para implantação de infraestruturas para uso compartilhado de serviços públicos”, pois o conceito já está previsto no texto aprovado;
+
+Fachada Ativa corresponde à exigência de ocupação da extensão horizontal da fachada por uso não residencial com acesso direto e abertura para o logradouro, a fim de evitar a formação
+
+4
+
+de planos fechados na interface entre as construções e os logradouros, promovendo a dinamização dos passeios públicos;
+
+Habitação de Interesse Social – HIS é aquela destinada ao atendimento habitacional das famílias de baixa renda, podendo ser de promoção pública ou privada, tendo no máximo um sanitário e uma vaga de garagem, e classificando-se em dois tipos:
+
+a) HIS 1: destinada a famílias com renda familiar mensal de até R$ 2.172,00 (dois mil, cento e setenta e dois reais) ou renda per capita de até R$ 362,00 (trezentos e sessenta e dois reais);
+
+b) HIS 2: destinada a famílias com renda familiar mensal superior a R$ 2.172,00 (dois mil, cento e setenta e dois reais) ou 362,00 (trezentos e sessenta e dois reais) per capita e igual ou inferior a R$ 4.344,00 (quatro mil, trezentos e quarenta e quatro reais) ou R$ 724,00 (setecentos e vinte e quatro reais) per capita;
+
+Habitação de Mercado Popular – HMP é aquela destinada ao atendimento habitacional de famílias cuja renda mensal seja superior a R$ 4.344,00 (quatro mil trezentos e quarenta e quatro reais) e igual ou inferior a R$7.240,00 (sete mil duzentos e quarenta reais), com até dois sanitários e até uma vaga de garagem, podendo ser de promoção pública ou privada;
+
+Ilhas de contêineres são conjuntos de dispositivos destinados ao recebimento de resíduos diferenciados gerados na proximidade, tais como regiões de ocupação adensada e comunidades de difícil acesso;
+
+Macrozona é uma divisão territorial do Município, de acordo com critérios pré-estabelecidos, que considera as características ambientais e geológicas relacionadas à aptidão para a urbanização;
+
+Macroárea é uma divisão territorial do Município, de acordo com critérios pré-estabelecidos, que consideram características urbanas, ambientais, sociais e econômicas similares em relação à política de desenvolvimento urbano;
+
+(VETADO) Mediação de Conflitos Fundiários Urbanos é o conjunto de medidas coordenadas pelo Poder Executivo Municipal, visando a resolução consensual de controvérsias, através do processo de interlocução e diálogo envolvendo as partes afetadas pelo conflito, instituições, órgãos públicos e entidades da sociedade civil vinculados ao tema, de modo a buscar a garantia do direito à moradia digna e adequada e impedir a violação dos direitos humanos.
+
+Razão de veto: Mediação de Conflitos Fundiários Urbanos é o conjunto de medidas coordenadas pelo Poder Executivo
+
+Municipal, visando a resolução consensual de controvérsias, através do processo de interlocução e diálogo envolvendo
+
+as partes afetadas pelo conflito, instituições, órgãos públicos e entidades da sociedade civil vinculados ao tema, de
+
+modo a buscar a garantia do direito à moradia digna e adequada e impedir a violação dos direitos humanos”, pois há
+
+divergência com o inciso XIV do artigo 293 do texto, segundo o qual o Poder Executivo, por intermédio da Secretaria
+
+Municipal de Habitação, prioritariamente, debaterá mecanismos para a mediação;
+
+Moradia digna é aquela cujos moradores dispõem de segurança na posse do imóvel, com dimensões suficientes para comportar seus habitantes, executada com boa qualidade construtiva, com materiais adequados, ventilação e iluminação suficientes, assentada sobre terreno firme, salubre, seco e livre de contaminações, e dotada de abastecimento de água, coleta de esgoto, fornecimento de energia elétrica, iluminação pública, coleta de resíduos sólidos, trafegabilidade de vias, pavimentação viária, transporte coletivo, equipamentos sociais básicos, entre outros serviços, equipamentos e infraestruturas urbanas;
+
+5
+
+(VETADO) Multifuncionalidade do Imóvel Rural compreende as múltiplas funções do território rural que incluem, além da produção e extração de bens, como alimentos, fibras e outros produtos, e da prestação de serviços como turismo rural e turismo ecológico, funções relativas à proteção de serviços ambientais como a conservação da biodiversidade, a conservação do solo, a manutenção da paisagem rural e da herança cultural e a segurança alimentar, entre outros.
+
+Razão de veto: Multifuncionalidade do Imóvel Rural compreende as múltiplas funções do território rural que incluem,
+
+além da produção e extração de bens, como alimentos, fibras e outros produtos, e da prestação de serviços como
+
+turismo rural e turismo ecológico, funções relativas à proteção de serviços ambientais como a conservação da
+
+biodiversidade, a conservação do solo, a manutenção da paisagem rural e da herança cultural e a segurança alimentar,
+
+entre outros”, por não haver menção ao conceito no texto aprovado;
+
+Outorga Onerosa é a concessão, pelo Poder Público, de potencial construtivo adicional acima do resultante da aplicação do Coeficiente de Aproveitamento Básico, até o limite estabelecido pelo Coeficiente de Aproveitamento Máximo, de alteração de uso e parâmetros urbanísticos, mediante pagamento de contrapartida financeira;
+
+(VETADO) Pagador de Serviços Ambientais é pessoa física ou jurídica, pública ou privada, que provê o pagamento dos serviços ambientais;
+
+Razão de veto: Pagador de Serviços Ambientais é pessoa física ou jurídica, pública ou privada, que provê o
+
+pagamento dos serviços ambientais”, por não haver menção ao conceito no texto aprovado;
+
+Parque Natural Municipal é uma Unidade de Conservação de Proteção Integral criada pelo município, correspondente ao Parque Nacional, que tem como objetivo básico a preservação de ecossistemas naturais de grande relevância ecológica e beleza cênica, vedado o uso direto dos recursos naturais e permitida a realização de pesquisas científicas, o desenvolvimento de atividades de educação e interpretação ambiental, de recreação em contato com a natureza e de turismo ecológico;
+
+Plano de Manejo é o documento técnico que estabelece, com fundamento nos objetivos gerais de uma unidade de conservação, o seu zoneamento e as normas que devem presidir o uso da área e o manejo dos recursos naturais, inclusive a implantação das estruturas físicas necessárias à gestão da unidade;
+
+Plano de Urbanização em ZEIS é aquele que integra medidas administrativas, jurídicas, urbanísticas e sociais, conforme a complexidade de cada caso, destinadas à regularização dos assentamentos precários e irregulares, visando à titulação de seus ocupantes, o reassentamento, a adequação urbanística, ambiental e administrativa, integrando-os à cidade formal; elaborado pela Prefeitura ou pelos demais legitimados na forma da lei, com a participação de seu respectivo conselho gestor e do conjunto dos beneficiários;
+
+Postos de entrega de resíduos obrigados à logística reversa: instalações de pequeno porte, disponibilizadas pelos comerciantes e distribuidores de produtos e embalagens com logística reversa para a devolução após o uso, pelos consumidores, dos produtos e embalagens que serão entregues aos fabricantes ou importadores para destinação ambientalmente adequada;
+
+Potencial Construtivo de um lote é o produto resultante da multiplicação de sua área pelo coeficiente de aproveitamento;
+
+6
+
+Potencial Construtivo Adicional é bem jurídico dominical, de titularidade da Prefeitura, com funções urbanísticas e socioambientais, sendo considerado como correspondente à diferença entre o potencial construtivo básico e máximo do lote;
+
+Potencial Construtivo Básico de um lote é o produto resultante da multiplicação de sua área pelo Coeficiente de Aproveitamento Básico fixado para a zona onde está localizado;
+
+Potencial Construtivo Máximo de um lote é o produto resultante da multiplicação de sua área pelo Coeficiente de Aproveitamento Máximo fixado para a zona onde está localizado;
+
+Potencial Construtivo Mínimo de um lote é o produto resultante da multiplicação de sua área pelo Coeficiente de Aproveitamento Mínimo fixado para a zona onde está localizado;
+
+Potencial Construtivo Utilizado de um lote corresponde à área construída computável;
+
+(VETADO) Prevenção de Conflitos Fundiários Urbanos é o conjunto de medidas voltadas a combater o déficit habitacional, buscando a garantia do direito à moradia digna e adequada e à cidade, com gestão democrática das políticas urbanas, através de programas, da provisão de habitação de interesse social, de ações de regularização fundiária e da regulação do parcelamento, uso e ocupação do solo, que garanta o acesso à terra urbanizada bem localizada, e a segurança da posse para a população de baixa renda e grupos sociais vulneráveis;
+
+Razão de veto: Prevenção de Conflitos Fundiários Urbanos é o conjunto de medidas voltadas a combater o déficit habitacional, buscando a garantia do direito à moradia digna e adequada e à cidade, com gestão democrática das políticas urbanas, através de programas, da provisão de habitação de interesse social, de ações de regularização fundiária e da regulação do parcelamento, uso e ocupação do solo, que garanta o acesso à terra urbanizada bem localizada, e a segurança da posse para a população de baixa renda e grupos sociais vulneráveis;
+
+Processamento Local de Resíduos Orgânicos é a operação de retenção de resíduos orgânicos no local de geração, visando a recuperação do material;
+
+Projeto de intervenção em ZEIS é aquele destinado à regularização fundiária, reabilitação física e requalificação de edifícios e áreas ocupadas por cortiços ou moradias coletivas precárias, e que estão localizados em territórios urbanos consolidados, em especial na Macroárea de Estruturação Metropolitana, Macroárea de Urbanização Consolidada e Macroárea de Qualificação da Urbanização;
+
+Projeto de Regularização Fundiária é aquele que integra medidas jurídicas, urbanísticas, ambientais e sociais destinadas à regularização dos assentamentos precários e irregulares, titulação de seus ocupantes, reassentamentos, adequação urbanística, ambiental e administrativa, integrando-o à cidade formal, elaborado pela prefeitura com a participação de seu respectivo conselho gestor, quando for o caso;
+
+Promotores da Habitação de Interesse Social – HIS são os seguintes:
+
+a) órgãos da administração direta;
+
+b) empresas de controle acionário público;
+
+c) entidades representativas dos futuros moradores ou cooperativas habitacionais, conveniadas ou consorciadas com o Poder Público;
+
+d) entidades ou empresas que desenvolvam empreendimentos conveniados ou consorciados com o Poder Público para execução de empreendimentos de Habitação de Interesse Social – HIS;
+
+7
+
+e) empresas ou entidades sem fins lucrativos, quando atuando, respectivamente, como executoras ou organizadoras de EHIS, no âmbito de programa habitacional subvencionado pela União, Estado ou Município;
+
+Recebedor do pagamento pelos serviços ambientais é pessoa física ou jurídica, pública ou privada, que mantém, restabelece ou recupera os ecossistemas no âmbito de programas específicos a serem definidos pela Secretaria Municipal do Verde e do Meio Ambiente;
+
+Rede de Infraestrutura Urbana corresponde ao conjunto de elementos que estruturam e integram de forma estratégica o território urbano, tais como: abastecimento de água potável; esgotamento sanitário; drenagem; manejo de resíduos sólidos; mobilidade urbana; equipamentos urbanos e sociais; eletrificação e telecomunicações;
+
+Regularização Ambiental do Imóvel Rural é o atendimento ao disposto na legislação ambiental no imóvel rural, em especial a manutenção e recuperação de áreas de preservação permanente, da reserva legal e de áreas de uso restrito, e à compensação da reserva legal, quando couber;
+
+Regularização Fundiária é o conjunto de medidas jurídicas, urbanísticas, ambientais e sociais que visam à regularização de assentamentos irregulares e à titulação de seus ocupantes, de modo a garantir o direito social à moradia, o pleno desenvolvimento das funções sociais da propriedade urbana e o direito ao meio ambiente ecologicamente equilibrado;
+
+Regularização Fundiária do Imóvel Rural é o conjunto de medidas jurídicas, administrativas e sociais visando garantir a segurança jurídica aos agricultores familiares e seu o acesso às políticas governamentais, entre elas o crédito rural e a assistência técnica;
+
+Regularização Fundiária de Interesse Social é a regularização fundiária de assentamentos irregulares ocupados, predominantemente, por população de baixa renda, nos casos em que a área esteja ocupada, de forma mansa e pacífica, há, pelo menos, 5 (cinco) anos, demarcada como ZEIS ou declarada de interesse para implantação de projetos de regularização fundiária de interesse social;
+
+Regularização Fundiária de Interesse Específico é a regularização fundiária quando não caracterizado o interesse social, realizada mediante a adoção de medidas mitigadoras e compensatórias na forma da legislação regulamentadora;
+
+Remanescentes de Mata Atlântica são fragmentos vegetais de Mata Atlântica primária e secundária em estágio avançado ou médio de regeneração, conforme Lei Federal 14.428 de 2006 e suas regulamentações;
+
+Reserva Particular do Patrimônio Natural é uma categoria de Unidade de Conservação particular criada em área privada, por ato voluntário do proprietário, em caráter perpétuo, instituída pelo poder público;
+
+Serviços Ambientais são benefícios que os ecossistemas prestam à humanidade, sendo classificados em serviços de provisão, serviços de suporte, serviços de regulação e serviços culturais;
+
+Taxa de Ocupação é a relação entre a área da projeção horizontal da edificação ou edificações e a área do lote;
+
+Taxa de Permeabilidade é a relação entre a parte permeável, que permite a infiltração de água no solo, livre de qualquer edificação, e a área do lote;
+
+8
+
+Terra Indígena é o espaço necessário para a reprodução física e cultural dos povos indígenas, segundo seus usos e costumes, garantida pela Constituição Federal, cuja demarcação e homologação é de competência da Fundação Nacional do Índio (FUNAI);
+
+Transporte Coletivo de Média Capacidade corresponde aos veículos leves sobre trilhos (VLTs e metrôs leves) ou veículos coletivos sobre pneus dispostos em corredores viários segregados ou com operação em faixa exclusiva à esquerda do tráfego geral, com capacidade entre 20.000 e 40.000 passageiros por hora e por sentido;
+
+Transporte Coletivo de Alta Capacidade corresponde aos veículos coletivos articulados sobre trilhos (metrôs e trens urbanos e metropolitanos), com capacidade superior a 60.000 passageiros por hora e por sentido;
+
+Transporte Individual corresponde aos veículos privados motorizados que circulam sobre pneus;
+
+Transferência de Potencial Construtivo é o instrumento que permite transferir o potencial construtivo não utilizado no lote ou gleba para outros lotes ou glebas;
+
+Unidades de Conservação, definidas pela Lei Federal 9.985 de 2000, são espaços territoriais com características naturais relevantes, legalmente instituídos pelo Poder Público, com objetivos de conservação e limites definidos, sob regime especial de administração, aos quais se aplicam garantias adequadas de proteção;
+
+Unidades de Conservação de Proteção Integral são unidades de conservação cujo objetivo é preservar a natureza, sendo admitido apenas o uso indireto dos seus recursos naturais;
+
+Unidades de Conservação de Uso Sustentável são unidades de conservação cujo objetivo é compatibilizar a conservação da natureza com uso sustentável de parcela dos seus recursos naturais, sendo admitidas presença de moradores e atividades econômicas;
+
+Unidades de Compostagem e Biodigestão Anaeróbia in situ são instalações de pequeno porte, para processamento dos resíduos sólidos orgânicos;
+
+Uso Residencial- R é aquele que envolve a moradia de um indivíduo ou grupo de indivíduos;
+
+Uso Não Residencial- NR é aquele que envolve o desenvolvimento de atividades comerciais, de serviços, industriais e institucionais;
+
+Uso Misto é aquele que envolve, simultaneamente, no mesmo lote ou na mesma edificação, o uso residencial e o uso não residencial;
+
+Uso Sustentável é a exploração do ambiente de maneira a garantir a perenidade dos recursos ambientais renováveis e dos processos ecológicos, mantendo a biodiversidade e os demais atributos ecológicos, de forma socialmente justa e economicamente viável;
+
+Zona de Amortecimento é o entorno de uma unidade de conservação, onde as atividades humanas estão sujeitas a normas e restrições específicas, com o propósito de minimizar os impactos negativos sobre a unidade;
+
+Zonas Especiais são porções do território que apresentam características diferenciadas ou com destinação específica e normas próprias de uso e ocupação do solo e edilícias, situadas em qualquer macrozona do Município.
+
+9
