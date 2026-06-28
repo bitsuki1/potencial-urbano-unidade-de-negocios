@@ -52,6 +52,42 @@ Muito — é a espinha. Por SQL entrega: **Atc (área do terreno)** → destrava
 
 > **Correção importante no passo 1:** o **saldo *remanescente* em m²** (quanto AINDA resta) **não sai destas planilhas** — falta o potencial *original* da declaração (que não está na lista; nasce do engine `Atc × CAbas`). O que É local: **quanto cada um JÁ transferiu** (feito: coluna `m2_ja_transferido`) + os comparáveis. O "quanto resta" entra junto com o engine (C2/D1).
 
+## I. Inventário do Drive — o que temos e para que serve (já catalogado: 170 planilhas)
+> Fonte: `inventario/classificacao-planilhas.csv` + `inventario/mapa-dados-fase2.md` (instâncias anteriores). **Não precisamos de extensão de navegador** — temos o catálogo + leitura MCP do Drive.
+| Acervo | Qtd | Serve para |
+|---|---|---|
+| **ITBI** (2000–2024 + 2026) | **45** | **dono que transacionou** · **data da venda** · valor de transação · **matrícula** |
+| Lote / geo / zoneamento (SIRGAS) | 38 | resolver SQL por geo · zona/CAbas por lote · perímetros (AUE/APPa/OUC) |
+| Quadros / parâmetros / simuladores | 31 | tabelas do engine (CA, Fp, Fs, QA) |
+| Licenciamento (Aprova Digital) | 16 | proprietário · obras · uso |
+| Áreas contaminadas | 13 | due diligence ambiental (ZEPAM/risco) |
+| Tombado / ZEPEC | 13 | nosso universo (+ extras a conferir) |
+| Alvarás | 12 | proprietário |
+| Outorga / OODC | 9 | histórico de outorga · valores |
+| **FUNDURB / fila TDC** | 8 | **teto/estoque de mercado** · prestação de contas |
+| IPTU (2026 + recortes) | 6 | **Atc** · uso · valor venal · CEP |
+| Sócios / empresas / holdings | 6 | CNPJ · sócios (R6, por último) |
+| SISSEL | 5 | proprietário + processo |
+
+**Como "ver" tudo sem extensão:** (1) o catálogo já é o índice; (2) leitura direta via MCP do Drive (autorizada); (3) para puxar/filtrar séries grandes (ex.: cruzar ITBI com nossos SQL), **subagentes** fazem a leitura pesada e devolvem só o recorte — sem inchar o contexto. Browser-extension só se você quiser; não é necessário.
+
+## J. Data da venda → RENOVAÇÃO e vigência (você levantou)
+A data que já temos (`data_pub_iso`) serve para: **(a)** idade da declaração; **(b)** **janela de renovação** (ZEPAM: Art.123 §5º — 70% aos 10 anos, 100% aos 15 anos); **(c)** qual **V (Quadro 14)** vale (o da data de referência, Art.125 §1º). → relevante para reabordar quem está perto de renovar.
+
+## K. Intercorrências / red flags (você levantou — risco do lead)
+| Sinal de risco | Onde achar | Status |
+|---|---|---|
+| Declaração/processo **arquivado, indeferido, cancelado** | `Situação`/`Status` + processo SEI (já temos o nº) | 🔶 (campo local + consulta) |
+| **Falta de conservação** (Art.129) → não emite certidão | coluna `Conservação` (Atestado×Termo×vazio) | 🔶 local |
+| **TCA/obrigação ambiental** não cumprida (ZEPAM) | FUNDURB/SVMA | 🔒 |
+| **Falta de prestação de contas** | planilhas FUNDURB (8) | 🔒 |
+| **IPTU em dívida ativa** | IPTU/dívida | 🔒 |
+| Embargo / fiscalização de obra | licenciamento | 🔒 |
+> Regra mantida (R13): red flag só vira "não/risco" **com prova**; suspeita → verificar.
+
+## D4. m² transferido = VALIDAÇÃO do engine (você levantou — importante)
+As **167 áreas já transferidas** (col `m2_ja_transferido`) são **gabarito real**: quando o engine calcular `PCpt = Atc × CAbas`, o resultado tem de **bater** com o que foi efetivamente transferido. Vira o **teste do método** (como `evals/ground-truth` do projeto). → eleva para resolução **R14**.
+
 ## E. Produto / entrega
 | # | Tópico | O que falta | Status |
 |---|---|---|---|
