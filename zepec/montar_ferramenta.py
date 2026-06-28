@@ -1,0 +1,95 @@
+#!/usr/bin/env python3
+"""montar_ferramenta.py — a SAIDA assertiva: 1 linha por IMOVEL (SQL_MESTRE), com o
+ESTADO DE VENDA e a CERTEZA. Agrega a base unificada por imovel e cruza o ESGOTADO das
+certidoes. Regra de ouro: so marca 'pular' quando ESGOTADO esta ESCRITO; falta de dado =
+INCERTO (verificar), nunca 'morto'.
+Entrada: zepec/limpo/zepec_unificada.csv + zepec/raw/lista_certidao (p/ ESGOTADO).
+Saida: zepec/ferramenta/zepec_cedentes.csv (so as colunas que o usuario precisa).
+PU 14 · 2026-06-28.
+"""
+import csv, re
+from pathlib import Path
+from collections import defaultdict, Counter
+Z = Path(__file__).resolve().parent
+OUT = Z / "ferramenta"; OUT.mkdir(exist_ok=True)
+
+def norm_sql(sq, lote):
+    sqd=re.sub(r'\D','',sq or ''); m=re.match(r'(\d{4})',(lote or '').strip())
+    return (sqd[:3]+sqd[3:6]+m.group(1)) if (len(sqd)==6 and m) else ''
+
+# 1) conjunto de SQL_MESTRE cedentes ESGOTADOS (coluna 'N. Declaracao Saldo' das certidoes)
+esgotado=set()
+cer=list(csv.reader(open(Z/"raw/lista_certidao_ZEPEC-BIR_agosto-2025.csv",encoding='utf-8')))
+for r in cer[5:]:
+    r=(r+['']*19)[:19]
+    if len(r)>14 and 'ESGOTAD' in r[14].upper():
+        sm=norm_sql(r[2],r[3])
+        if sm: esgotado.add(sm)
+
+# 2) agrega a base unificada por SQL_MESTRE (e guarda os sem-SQL como individuais)
+rows=list(csv.reader(open(Z/"limpo/zepec_unificada.csv",encoding='utf-8')))
+idx={c:i for i,c in enumerate(rows[0])}; g=lambda r,c: r[idx[c]]
+grupos=defaultdict(list); soltos=[]
+for r in rows[1:]:
+    sm=g(r,'sql_mestre')
+    if sm: grupos[sm].append(r)
+    else:  soltos.append(r)
+
+def first(rs, col, origens=None):
+    for r in rs:
+        if origens and g(r,'origem') not in origens: continue
+        if g(r,col).strip(): return g(r,col)
+    return ''
+
+def classifica(tem_decl, tem_cert, eh_tombado, vedado, esg):
+    # evidencia real (vendeu/declarou) pesa MAIS que a inferencia de categoria
+    if esg:                            return 'ESGOTADO','alta'        # vendeu tudo -> pular
+    if tem_cert:                       return 'TEM_SALDO','media'      # vendeu parte, resta (quanto=calcular)
+    if tem_decl:                       return 'INTACTO','alta'         # declarado, nunca vendeu
+    if vedado:                         return 'VEDADO_LEI','alta'      # Art.124 §2º — nao pode ceder (e nunca declarou/vendeu)
+    if eh_tombado:                     return 'SO_ELEGIVEL','media'    # tombado sem declaracao ainda
+    return 'INCERTO','baixa'
+
+COLS=['sql_mestre','setor','quadra','lote','nome_bem','endereco_mestre','distrito',
+      'tipo_zepec','esfera','estado_venda','certeza','tem_declaracao','tem_certidao',
+      'esgotado','data_ref','origens','obs']
+out=[]
+
+def monta(sm, rs):
+    orig=set(g(r,'origem') for r in rs)
+    tem_decl='DECLARACAO_BIR' in orig
+    tem_cert='CERTIDAO_BIR_CEDENTE' in orig
+    eh_tomb='TOMBADO_CADASTRO' in orig
+    vedado=any(g(r,'cessao_vedada_art124p2')=='sim' for r in rs)
+    esg= sm in esgotado if sm else False
+    estado,cert=classifica(tem_decl,tem_cert,eh_tomb,vedado,esg)
+    if not sm: estado,cert='INCERTO','baixa'   # sem SQL nao da p/ confiar na identificacao
+    tz='/'.join(sorted(set(g(r,'tipo_zepec') for r in rs if g(r,'tipo_zepec'))))
+    datas=[g(r,'data_pub_iso') for r in rs if g(r,'data_pub_iso')]
+    obs=[]
+    if tem_decl and tem_cert: obs.append('declarou e ja vendeu (tem vinculo)')
+    if vedado and (tem_decl or tem_cert): obs.append('tem tag AUE/APPa mas declarou/vendeu — revisar')
+    if not sm: obs.append('sem SQL na fonte — identificar por endereco')
+    return dict(sql_mestre=sm,setor=first(rs,'setor'),quadra=first(rs,'quadra'),lote=first(rs,'lote'),
+        nome_bem=first(rs,'nome_bem',['TOMBADO_CADASTRO','ZEPEC_APC']),
+        endereco_mestre=first(rs,'endereco_mestre',['DECLARACAO_BIR','CERTIDAO_BIR_CEDENTE','TOMBADO_CADASTRO','ZEPEC_APC']) or first(rs,'endereco_mestre'),
+        distrito=first(rs,'distrito'),tipo_zepec=tz,esfera=first(rs,'esfera',['TOMBADO_CADASTRO']),
+        estado_venda=estado,certeza=cert,tem_declaracao='sim' if tem_decl else 'nao',
+        tem_certidao='sim' if tem_cert else 'nao',esgotado='sim' if esg else 'nao',
+        data_ref=max(datas) if datas else '',origens='+'.join(sorted(orig)),obs=' | '.join(obs))
+
+for sm,rs in grupos.items():
+    if sm: out.append(monta(sm,rs))
+for r in soltos:
+    out.append(monta('', [r]))
+
+ordem={'INTACTO':0,'TEM_SALDO':1,'SO_ELEGIVEL':2,'INCERTO':3,'VEDADO_LEI':4,'ESGOTADO':5}
+out.sort(key=lambda o:(ordem.get(o['estado_venda'],9), o['distrito']))
+with (OUT/"zepec_cedentes.csv").open('w',newline='',encoding='utf-8') as f:
+    w=csv.DictWriter(f,fieldnames=COLS); w.writeheader(); w.writerows(out)
+
+print(f"SAIDA: zepec/ferramenta/zepec_cedentes.csv — {len(out)} imoveis (1 linha/imovel)")
+print("Por estado_venda:")
+for k,v in Counter(o['estado_venda'] for o in out).most_common():
+    print(f"  {k:14} {v:5}   (certeza {next(o['certeza'] for o in out if o['estado_venda']==k)})")
+print("ESGOTADOS provados (cedentes):", len(esgotado))

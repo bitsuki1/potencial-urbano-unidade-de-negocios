@@ -49,6 +49,7 @@
 | R9 | Datas → **ISO** (AAAA-MM-DD); série do Excel convertida; US/BR desambiguado; ambíguo = assume BR e marca | 2026-06-28 |
 | R10 | **Preço nasce no engine** (Art. 125: `PCpt = Atc × CAbas × Fi`; valor `= PCpt × V`), nunca no chute | 2026-06-28 |
 | R11 | **Transferiu = vendeu** quando o receptor é outro imóvel (nos dados: 155 de 169) | 2026-06-28 |
+| R12 | **Parâmetro de certeza** (`estado_venda` + `certeza`). **Regra de ouro:** só marca "pular" quando o **ESGOTADO está escrito**; falta de dado = **verificar**, nunca "morto". Evidência real (vendeu/declarou) pesa mais que inferência de categoria | 2026-06-28 |
 
 **Ainda A OBSERVAR (não mexido):** vínculo declaração↔certidão (49 imóveis) · saldo/ESGOTADO · área em m² (arredondar float) · os 48 SQL inválidos · resolver SQL dos 1.791 sem cadastro (externo).
 
@@ -64,3 +65,23 @@
 | `zepec/ETAPAS-E-ENRIQUECIMENTO.md` | as etapas do trabalho + o que dá para enriquecer |
 | `zepec/VERIFICACAO-2026-06-28.md` | o que foi verificado/estudado (SQL inválido, OCR, vínculo…) |
 | `zepec/A-OBSERVAR-USOS.md` | os itens a observar e para que servem (venda/precificação) |
+| **`zepec/ferramenta/zepec_cedentes.csv`** | **A FERRAMENTA** — 1 linha por imóvel, só o que importa, com estado de venda e certeza |
+| `zepec/montar_ferramenta.py` | o programa que monta a ferramenta |
+
+---
+
+## PARTE 4 — A FERRAMENTA (`zepec/ferramenta/zepec_cedentes.csv`)
+O destino de tudo: uma planilha **enxuta, 1 linha por imóvel**, com só o que se precisa para agir.
+**Colunas:** `sql_mestre · nome_bem · endereco_mestre · distrito · tipo_zepec · esfera · estado_venda · certeza · tem_declaracao · tem_certidao · esgotado · data_ref · obs`.
+
+### Os 6 estados de venda (o que cada um quer dizer e o que fazer)
+| estado_venda | O que é | Fazer | Certeza | Nº (2026-06-28) |
+|---|---|---|---|---|
+| **INTACTO** | Declarou e **nunca vendeu** — potencial cheio | abordar | alta | **501** |
+| **TEM_SALDO** | Vendeu parte, **ainda resta** | abordar (calcular o que resta) | média | **98** |
+| **SO_ELEGIVEL** | Tombado que **ainda não declarou** | abordar (precisa declarar antes) | média | **3.659** |
+| **INCERTO** | Falta dado/SQL | **verificar antes** — não dispensar | baixa | **1.839** |
+| **VEDADO_LEI** | Categoria AUE/APPa — lei proíbe ceder | pular | alta | **28** |
+| **ESGOTADO** | Vendeu **tudo** | pular | alta | **6** |
+
+> Total: **6.131 imóveis**. Só **6** estão provadamente esgotados — o resto **não** está, então quase ninguém se dispensa de cara.
