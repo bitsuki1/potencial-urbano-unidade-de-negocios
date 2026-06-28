@@ -7,10 +7,10 @@
 |---|---|---|---|
 | A1 | **Saldo em m²** | hoje só sabemos esgotado sim/não; falta **quanto resta** (ligar declaração→certidões sucessivas, Art.131, e subtrair) | 🔶 |
 | A2 | **Vínculo declaração↔certidão** | 49 imóveis com os dois; ligar formalmente por `N. Declaração` (cadeia A→B→C) | 🔶 |
-| A3 | **Área em m²** | arredondar ruído de float (`4314.14000003 → 4314.14`) — é número-fato | ⬜ |
-| A4 | **48 SQL inválidos** | conferir caso a caso (SQ não-numérico, 7 díg, quadra 2 díg) | ⬜ |
-| A5 | **1 OCR suspeito** | APC "Bar Ó do Borogodó" — confirmar grafia | ⬜ |
-| A6 | **1.723 datas ambíguas** | dia e mês ambos ≤12; assumimos BR — confirmar amostra | ⬜ |
+| A3 | **Área em m²** | arredondado na ferramenta (0 ruído) | ✅ |
+| A4 | **48 SQL inválidos** | em fila `zepec/limpo/_revisar_sql_invalido.csv` (ancorada no endereço; resolver por geo) — não inventamos | 🔶 |
+| A5 | **1 OCR suspeito** | APC "Bar Ó do Borogodó" sinalizado (provável "Bar do Borogodó") | 🔶 |
+| A6 | **1.723 datas ambíguas** | convenção fixada: BR (dia/mês), padrão PMSP; marcadas em `data_amb`; amostra confere | ✅ |
 
 ## B. Negociabilidade — fechar os "verificar" (3.336)
 | # | Tópico | O que falta | Status |
