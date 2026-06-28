@@ -27,7 +27,7 @@ for ln in txt.splitlines():
     status=st.group().strip() if st else '(sem status)'
     per=re.search(r'[A-Z][a-z]{2}\s*-?\d{2}\s*a\s*[A-Z][a-z]{2}\s*-?\d{2}', ln)
     datas=re.findall(r'\d{2}/\d{2}/\d{4}', ln)
-    vals=sorted({f(v):v for v in RS.findall(ln)}.items())   # (float, str) unicos, asc
+    vals=sorted((f(v),v) for v in RS.findall(ln))   # (float, str) asc; preserva repetidos (robustez)
     teto=vals[-1][1] if vals else ''                         # 5% = maior
     rest=vals[:-1]                                           # tira o teto
     valor=somatoria=''; suspeito=''
