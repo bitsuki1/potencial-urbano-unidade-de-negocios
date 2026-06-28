@@ -4,8 +4,8 @@
 ## Os 3 arquivos
 | Arquivo | O que é | Quantos |
 |---|---|---|
-| **`lista_prospeccao.csv`** | **pronto para abordar** (`negociavel=sim`) | **2.750** |
-| `fila_verificar.csv` | tem sinal mas falta prova — **conferir antes** (não descartar) | 3.340 |
+| **`lista_prospeccao.csv`** | **pronto para abordar** (`negociavel=sim`, identificável) | **2.740** |
+| `fila_verificar.csv` | sinal sem prova **ou** transacionou sem SQL/dono — **conferir/identificar antes** | 3.350 |
 | `zepec_cedentes.csv` | a base completa (todos os 6.131, todas as colunas) | 6.131 |
 > Fora das listas: 41 imóveis `negociavel=nao` **com prova escrita** (esgotado/vedado por lei).
 
@@ -24,7 +24,7 @@ A ordem do arquivo segue o **estágio do funil** (INTACTO → TEM_SALDO → SO_E
 
 ## Cuidados (o que a ferramenta NÃO afirma)
 - **Preço:** não está aqui (decisão de pausar). Quando voltar, vem do engine (Codex Precificação).
-- **Dono:** cobertura **parcial** (só 79 hoje; sobe com ITBI/IPTU no Supabase).
+- **Dono:** cobertura **parcial** (só 79 na base completa hoje; sobe com ITBI/IPTU no Supabase).
 - **Liquidez (FUNDURB):** sinal hoje **INDETERMINADO** (semântica a confirmar na fonte SMUL).
 - **`verificar` não é "não":** é "conferir" — nome de bairro/bem público é suspeita, não prova (não temos o dono para afirmar).
 

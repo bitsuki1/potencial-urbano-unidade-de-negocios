@@ -1514,6 +1514,7 @@ SO_ELEGIVEL·sem dono,SO_ELEGIVEL,Conjunto Arquitetônico Na Avenida Conselheiro
 SO_ELEGIVEL·sem dono,SO_ELEGIVEL,Conjunto Arquitetônico Na Avenida Conselheiro Rodrigues Alves,"Avenida Conselheiro Rodrigues Alves, 289, 6",Vila Mariana,,tombado,municipal,,,,2019-04-16,0370350030
 SO_ELEGIVEL·sem dono,SO_ELEGIVEL,Conjunto Arquitetônico Na Avenida Conselheiro Rodrigues Alves,"Avenida Conselheiro Rodrigues Alves, 289, 3",Vila Mariana,,tombado,municipal,,,,2019-04-16,0370350027
 SO_ELEGIVEL·sem dono,SO_ELEGIVEL,"Parque Chácara do Jockey / Bairro do Ferreira / Cocheiras,alojamento Para Cavalariços, Casa da Administração e Escritórios","Rua Santa Crescência, 323",Vila Sônia,,tombado,municipal,,,,2018-12-05,1230010010
+INCERTO·sem dono,INCERTO,,,,,BIR,,,,,2025,
 INCERTO·sem dono,INCERTO,Bar Ó do Borogodó,"Rua Horacio Lane, 21, 1502, 1504",,,APC,,,,,2023-11-17,
 INCERTO·sem dono,INCERTO,Cine Belas Artes,"Rua da Consolacao, 2423",,,APC,,,,,2016-11-26,
 INCERTO·sem dono,INCERTO,Luminárias Ornamentais da Light,,,,tombado,municipal,,,,2022-10-28,
@@ -3294,6 +3295,8 @@ INCERTO·sem dono,INCERTO,Território Augusta de Cinema,"Rua Augusta, 1470",,,AP
 INCERTO·sem dono,INCERTO,Território Augusta de Cinema,"Rua Augusta, 1475",,,APC,,,,,2025-05-30,
 INCERTO·sem dono,INCERTO,Fórum Criminal Mário Guimarães / Fórum da Barra Funda / Obra de Fábio Penteado e Teru Tamaki / 1973 - Item 160 / Edificações Modernas,"Avenida Doutor Nullabraão Ribeiro, 313",Barra Funda,,tombado,municipal,,,,2019-05-30,
 INCERTO·sem dono,INCERTO,Parque Estadual Fernando Costa (água Branca),"Avenida Francisco Matarazzo, 455",Barra Funda,,tombado,municipal+estadual,,,,2004-10-28,
+INCERTO·sem dono,INCERTO,,"Alameda Rio Claro, 190",Bela Vista,,BIR,,,,,2024-11-13,
+INCERTO·sem dono,INCERTO,,"Alameda Rio Claro, 190",Bela Vista,,BIR,,,,,2025-01-17,
 INCERTO·sem dono,INCERTO,Conjuntos Residenciais Mooca / Vila Maria Parente Migliari,Travessa Maria Parente Migliari,Belém,,tombado,municipal,,,,2023-10-09,
 INCERTO·sem dono,INCERTO,Departamento de Minas e de Petróleo da Universidade de São Paulo / Projeto do Arquiteto Oswaldo Arthur Bratke,"Avenida Professor Mello de Moraes, 2373",Butantã,,tombado,municipal,,,,2018-09-29,
 INCERTO·sem dono,INCERTO,Estádio do Pacaembu / Praça Charles Miller,Praça Charles Miller,Consolação,,tombado,municipal+estadual,,,,1988-11-19,
@@ -3331,8 +3334,15 @@ INCERTO·sem dono,INCERTO,Edificação à Rua Stefano Mauser / Fundação Centro
 INCERTO·sem dono,INCERTO,Edificação à Rua Stefano Mauser / Fundação Centro de Atendimento Socioeducacional Ao Adolescente / Fundação Casa-sp,"Rua Stefano Mauser, 661",Pirituba,,tombado,municipal,,,,2016-10-01,
 INCERTO·sem dono,INCERTO,Edificação à Rua Stefano Mauser / Fundação Centro de Atendimento Socioeducacional Ao Adolescente / Fundação Casa-sp,"Rua Stefano Mauser, 661",Pirituba,,tombado,municipal,,,,2016-10-01,
 INCERTO·sem dono,INCERTO,Edificação à Rua Stefano Mauser / Fundação Centro de Atendimento Socioeducacional Ao Adolescente / Fundação Casa-sp,"Rua Stefano Mauser, 661",Pirituba,,tombado,municipal,,,,2016-10-01,
+INCERTO·sem dono,INCERTO,,"Avenida São Luiz, 84, 86, 96",República,,BIR,,,,,2023-12-20,
 INCERTO·sem dono,INCERTO,Perímetro Santa Ifigênia,Avenida Duque de Caixias C/ R Mauá C/ R Brigadeiro Tobias C/ R Capitão Salomão C/ Av Rio Branco,República,,tombado,estadual,,,,,
 INCERTO·sem dono,INCERTO,Estação Ferroviária Santo Amaro / Edificações Modernas Indicadas Como Zepec,Avenida das Nações Unidas,Santo Amaro,,tombado,municipal,,,,2019-05-30,
+INCERTO·sem dono,INCERTO,,"Rua Boa Vista, 293",Sé,,BIR,,,,,2024-01-17,
+INCERTO·sem dono,INCERTO,,"Rua Libero Badaró, 624, 628",Sé,,BIR,,,,,2023-10-06,
+INCERTO·sem dono,INCERTO,,"Rua Gabriel dos Santos, 196, 214",Sé,,BIR,,,,,2025-01-17,
+INCERTO·sem dono,INCERTO,,Rua Mauá - Vila Inglesa,Sé,,BIR,,,Transferido em Junho de 2025,nao,2025-06-02,
+INCERTO·sem dono,INCERTO,,Rua Mauá - Vila Inglesa,Sé,,BIR,,,Transferido em Junho de 2025,nao,2025-06-03,
+INCERTO·sem dono,INCERTO,,Rua Mauá - Vila Inglesa,Sé,,BIR,,,Transferido em Junho de 2025,nao,2025-07-14,
 INCERTO·sem dono,INCERTO,Praça João Mendes,,Sé,,tombado,municipal,,,,2007-07-25,
 INCERTO·sem dono,INCERTO,Chácara das Jabuticabeiras / Aue - Área de Urbanização Especial,Rua Cel. Artur Godoi,Vila Mariana,,tombado,municipal,,,,2022-11-11,
 INCERTO·sem dono,INCERTO,Chácara das Jabuticabeiras / Aue - Área de Urbanização Especial,Praça Arquimedes da Silva,Vila Mariana,,tombado,municipal,,,,2022-11-11,

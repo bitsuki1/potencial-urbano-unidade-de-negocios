@@ -24,8 +24,9 @@ def linha(r):
 def chave(r):
     return (ORD.get(r['estado_venda'],9), 0 if r['proprietario'] else 1, r['distrito'], r['nome_bem'])
 
-prospec=sorted([r for r in H if r['negociavel']=='sim'], key=chave)
-verif  =sorted([r for r in H if r['negociavel']=='verificar'], key=chave)
+# prospeccao = negociavel=sim E identificavel (estado != INCERTO). INCERTO (sem SQL/dono) -> verificar/identificar (achado da lente)
+prospec=sorted([r for r in H if r['negociavel']=='sim' and r['estado_venda']!='INCERTO'], key=chave)
+verif  =sorted([r for r in H if r['negociavel']=='verificar' or (r['negociavel']=='sim' and r['estado_venda']=='INCERTO')], key=chave)
 
 def grava(nome, rows):
     with (Z/"ferramenta"/nome).open('w',newline='',encoding='utf-8') as f:
