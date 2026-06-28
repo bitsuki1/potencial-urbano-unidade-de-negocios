@@ -8,6 +8,14 @@
 > estado VOLÁTIL (contagens, status do pipeline, lotes carregados) vira **PONTEIRO ao SSOT real** — nunca cópia.
 > Cópia de dado volátil apodrece a cada trabalho e cria duas verdades (fere D1 + zero-compressão).
 
+
+## 🔒 REGRA DE OURO + CAIXAS v2 (modelo carregar-depois · slug `potencial-urbano`)
+> SSOT: `escritorio-do-mou/processos/COMO-FUNCIONAM-AS-CAIXAS.md`. Naming: `caixa-de-entrada/`+`caixa-de-saida/`.
+- NUNCA escreva no canônico do Escritório (a caneta é do maestro, D56/D104). Você só toca a sua `caixa`.
+- MANDAR: escreva `caixa-de-saida/para-<destino>/AAAA-MM-DD_potencial-urbano_assunto.md` (para-escritorio/ ou para-<outro>/). Commit. FIM.
+- RECEBER: no boot, leia `caixa-de-entrada/` PRIMEIRO; aplique; mova p/ `caixa-de-entrada/processados/`.
+- O escritório CARREGA as cartas quando co-montado (você não escreve em outro repo). Resposta a "posso escrever no escritório?": NÃO.
+
 ---
 
 > **Arquivo GERENCIAL do escritório (canal D44) — NÃO é instrução de sistema do Claude Code.** Não substitui a constituição deste repo (`CLAUDE.md`). Diretriz aplicada sob o gate do projeto (D21).

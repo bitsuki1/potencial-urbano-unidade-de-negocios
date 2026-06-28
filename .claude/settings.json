@@ -7,12 +7,33 @@
       "mcp__Google_Drive__get_file_metadata"
     ],
     "deny": [
-      "Edit(**/escritorio-do-mou/**)",
-      "Write(**/escritorio-do-mou/**)",
-      "MultiEdit(**/escritorio-do-mou/**)",
       "Edit(**/keepee-facilities*/**)",
       "Write(**/keepee-facilities*/**)",
-      "MultiEdit(**/keepee-facilities*/**)"
+      "MultiEdit(**/keepee-facilities*/**)",
+      "Edit(**/escritorio-do-mou/*.md)",
+      "Write(**/escritorio-do-mou/*.md)",
+      "MultiEdit(**/escritorio-do-mou/*.md)",
+      "Edit(**/escritorio-do-mou/portfolio/**)",
+      "Write(**/escritorio-do-mou/portfolio/**)",
+      "MultiEdit(**/escritorio-do-mou/portfolio/**)",
+      "Edit(**/escritorio-do-mou/processos/**)",
+      "Write(**/escritorio-do-mou/processos/**)",
+      "MultiEdit(**/escritorio-do-mou/processos/**)",
+      "Edit(**/escritorio-do-mou/cadastro/**)",
+      "Write(**/escritorio-do-mou/cadastro/**)",
+      "MultiEdit(**/escritorio-do-mou/cadastro/**)",
+      "Edit(**/escritorio-do-mou/caixa-de-saida/**)",
+      "Write(**/escritorio-do-mou/caixa-de-saida/**)",
+      "MultiEdit(**/escritorio-do-mou/caixa-de-saida/**)",
+      "Edit(**/escritorio-do-mou/referencia/**)",
+      "Write(**/escritorio-do-mou/referencia/**)",
+      "MultiEdit(**/escritorio-do-mou/referencia/**)",
+      "Edit(**/escritorio-do-mou/cofre/**)",
+      "Write(**/escritorio-do-mou/cofre/**)",
+      "MultiEdit(**/escritorio-do-mou/cofre/**)",
+      "Edit(**/escritorio-do-mou/.claude/**)",
+      "Write(**/escritorio-do-mou/.claude/**)",
+      "MultiEdit(**/escritorio-do-mou/.claude/**)"
     ]
   },
   "hooks": {
