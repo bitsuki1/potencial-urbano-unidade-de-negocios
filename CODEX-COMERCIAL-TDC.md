@@ -116,7 +116,7 @@ São as 6 formas de um imóvel gerar potencial transferível. **Hoje só a via 1
 | 2. Preservação ambiental (ZEPAM) | camadas ZEPAM | expansão |
 | 3. Regularização fundiária | ZEIS/baixa renda | expansão |
 | 4. Provisão de HIS | ZEIS | expansão |
-| 5. Parques planejados | Quadro 7 do PDE | expansão |
+| 5. Parques planejados | **Quadro 7 → `tabelas/quadro7-parques.csv`** (257 parques; **126 propostos** = alvo da doação) | expansão (substrato extraído ✅) |
 | 6. Melhoramentos viários (corredores de ônibus) | perímetros viários | expansão |
 > Vias 2-6 = doadores de terreno (via COM doação, Codex Cálculos R18), **público disjunto do ZEPEC**.
 
