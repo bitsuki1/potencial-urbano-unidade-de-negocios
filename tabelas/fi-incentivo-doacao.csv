@@ -1,0 +1,9 @@
+# Fator de incentivo à doação (Fi) — Art. 127 §1º da Lei 16.050/2014 (PDE), incisos I-V.
+# Fonte: texto verbatim em leis/municipal-sp/lei-municipal-saopaulo-16050-2014.md (arts. 126-127). Atualizações: Lei 17.975/2023 (parques).
+# Uso: engine engines/tdc/pcpt.py (via COM doação: PCpt = Atc x CAmax x Fi). Extração pura 2026-06-28 (PU 14).
+finalidade,fi,inciso,condicao
+corredor_onibus,2.0,"Art. 127 §1º I","melhoramentos viários para corredores de ônibus"
+his,1.9,"Art. 127 §1º II","programas de construção de Habitação de Interesse Social"
+regularizacao_fundiaria,0.8,"Art. 127 §1º III","regularização fundiária / urbanização de baixa renda"
+parque_v_ate_2000,1.4,"Art. 127 §1º IV","implantação de parque com valor de terreno (Quadro 14) <= R$2.000/m²"
+parque_v_acima_2000,1.0,"Art. 127 §1º V","implantação de parque com valor de terreno (Quadro 14) > R$2.000/m²"
