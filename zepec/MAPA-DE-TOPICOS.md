@@ -5,8 +5,8 @@
 ## A. Dentro das planilhas ZEPEC (local, sem depender de nada)
 | # | Tópico | O que falta | Status |
 |---|---|---|---|
-| A1 | **Saldo em m²** | hoje só sabemos esgotado sim/não; falta **quanto resta** (ligar declaração→certidões sucessivas, Art.131, e subtrair) | 🔶 |
-| A2 | **Vínculo declaração↔certidão** | 49 imóveis com os dois; ligar formalmente por `N. Declaração` (cadeia A→B→C) | 🔶 |
+| A1 | **Saldo em m²** | **já transferido** ligado por imóvel (`m2_ja_transferido`); *quanto resta* depende do potencial original (engine/C2) | 🔶 |
+| A2 | **Vínculo declaração↔certidão** | ✅ 49 imóveis ligados → `zepec/limpo/vinculo_por_imovel.csv` | ✅ |
 | A3 | **Área em m²** | arredondado na ferramenta (0 ruído) | ✅ |
 | A4 | **48 SQL inválidos** | em fila `zepec/limpo/_revisar_sql_invalido.csv` (ancorada no endereço; resolver por geo) — não inventamos | 🔶 |
 | A5 | **1 OCR suspeito** | APC "Bar Ó do Borogodó" sinalizado (provável "Bar do Borogodó") | 🔶 |

@@ -1,0 +1,50 @@
+sql_mestre,nome_bem,endereco_mestre,distrito,estado_venda,m2_ja_transferido,n_transferencias,esgotado,data_ref
+2000580001,Jockey Club de São Paulo / Acervo de Bens Móveis do Jockey Club de São Paulo,"Avenida Lineu de Paula Machado, 1263",Morumbi,TEM_SALDO,106455.9,5,nao,2024-07-10
+0401990208,Instituto Cristóvão Colombo / Seminário João Xxiii,"Rua Dr Mário Vicente, 1108",Ipiranga,TEM_SALDO,45945.53,8,nao,2022-08-16
+0010490235,Área do Anhangabaú / Mosteiro de São Bento,Largo São Bento,Sé,TEM_SALDO,25984.46,7,nao,2024-07-04
+0401290070,,"Avenida Nazaré, 993",Ipiranga,TEM_SALDO,25036.04,5,nao,2020-11-28
+3000320012,Residência Oscar Americano / Fundação Maria Luísa e Oscar Americano / Projeto Oswaldo Arthur Bratke,"Avenida Morumbi, 4077",Morumbi,TEM_SALDO,19387.0,3,nao,2023-10-06
+0401250058,Antigo Grupo Escolar São José,"Rua Moreira de Godói, 312",Ipiranga,TEM_SALDO,18235.04,3,nao,2018-08-18
+0210640001,Conjunto Arquitetonico da Puc,"Rua Monte Alegre, 984",Perdizes,TEM_SALDO,17112.83,4,nao,2021-03-09
+0080260001,Santuário do Sagrado Coração de Jesus e Liceu / Bairro dos Campos Elíseos,"Largo Coração de Jesus, 140, 154, 275",Santa Cecília,TEM_SALDO,15444.26,1,nao,2019-01-12
+0401290001,Instituto Padre Chico/companhia das Irmãs da Caridade de São Vicente de Paulo,"Avenida Nazaré, 943, 718, 456",Ipiranga,TEM_SALDO,9527.55,2,nao,2022-01-27
+0160090028,"Edifício da Sociedade Harmonia de Tênis / Obra de Fábio Penteado, Alfredo Paesani, Teru","Rua Canadá, 644, 658",Jardim Paulista,TEM_SALDO,8413.02,4,nao,2019-01-16
+0330170013,Residências de Ramos de Azevedo à Rua Pirapitingui,"Rua Pirapitingui, 111",Liberdade,TEM_SALDO,7774.75,3,nao,2010-03-18
+0110920275,Colégio Nossa Senhora do Sion / Colégio Sion,"Avenida Higienópolis, 901",Consolação,TEM_SALDO,5988.38,5,nao,2021-02-09
+0401060026,Instituto Maria Imaculada/ Congregação das Irmãs Filhas de Maria Imaculada,"Avenida Nazaré, 711",Ipiranga,TEM_SALDO,5822.76,2,nao,2018-05-10
+1970330070,Edificio do Instituto Rogacionista,"Avenida Santa Marina, 518, 534",Barra Funda,TEM_SALDO,5733.01,2,nao,2020-04-03
+0090320149,Bairro da Bela Vista,"Rua Martiniano de Carvalho, 60, 114, 156, 170",Bela Vista,TEM_SALDO,5216.18,1,nao,2024-02-01
+0400510007,Residências à Rua Bom Pastor e Costa Aguiar / Edificações da Família Jafet,"Rua Costa Aguiar, 1055",Ipiranga,TEM_SALDO,5134.65,2,nao,2018-04-14
+0280220286,Estádio Conde Rodolfo Crespi (juventus),"Rua Javari, 101, 107, 117, 169, 183, 586, 93",Mooca,TEM_SALDO,4671.98,2,nao,2023-03-24
+0090190092,Bairro da Bela Vista,"Rua dos Franceses, 350",Bela Vista,TEM_SALDO,4180.01,1,nao,2018-06-19
+0020590054,Primeira Igreja de Anchieta / Igreja do Pátio do Colégio / Área do Centro Velho,"Pátio do Colégio, 34",Sé,TEM_SALDO,3827.21,1,nao,2015-05-19
+0400900012,Conjunto de Imóveis No Bairro do Ipiranga,"Rua Agostinho Gomes, 1941",Ipiranga,TEM_SALDO,3759.71,2,nao,2023-01-25
+0090190034,Bairro da Bela Vista,"Rua dos Franceses, 296",Bela Vista,TEM_SALDO,3317.87,4,nao,2008-08-16
+3000750007,Casa de Vidro / Residência de Pietro Maria Bardi e Lina Bo Bardi / 1949 - Item 20,"Rua Gal Almério de Moura, 300",Morumbi,TEM_SALDO,3263.55,1,nao,2017-09-26
+0070500009,Casas de Aluguel à Rua Santa Isabel,"Rua Bento Freitas, 76, 86, 88",República,TEM_SALDO,2657.56,1,nao,2017-05-31
+0860910003,Residência do Arquiteto João Vilanova Artigas / Obra de João Vilanova Artigas / 1949 - Item 21,"Rua Barão de Jaceguai, 1149, 1151",Campo Belo,TEM_SALDO,2174.19,4,nao,2019-03-23
+0200950021,Bairro de Higienópolis / Residência Na Avenida Angélica 1212 / Bank Boston,"Avenida Angélica, 1212",Consolação,TEM_SALDO,2139.39,2,nao,2018-03-17
+0010820014,Edifício Banco do Brasil / Área do Centro Velho / Centro Cultural Banco do Brasil,"Rua Alvares Penteado, 112",Sé,TEM_SALDO,2090.3,1,nao,2023-06-20
+3060280040,Sítio Santa Luzia,"Rua Sóror Angélica, 364",Casa Verde,TEM_SALDO,1663.14,1,nao,2010-03-02
+0050030003,Igreja de Santo Antônio,"Praça do Patriarca, 49",Sé,TEM_SALDO,1632.8,1,nao,2018-11-23
+0400840051,Antiga Residência do Maestro Furio Franceschini,"Avenida Nazaré, 366",Ipiranga,TEM_SALDO,1383.27,2,nao,2013-09-25
+0200690007,"Bairro de Perdizes / Edificação Na Rua Turiaçu 99, 117","Rua Turiassu, 99",Perdizes,TEM_SALDO,1300.0,1,nao,2023-08-16
+0090510021,,"Alameda Joaquim Eugênio de Lima, 159",Bela Vista,TEM_SALDO,1252.64,3,nao,2013-05-08
+0111010018,Imóvel à Rua Piauí 874 (residência Família Gustavo Stahl/ Bairro de Higienópolis,"Rua Piauí, 874",Consolação,TEM_SALDO,1214.95,1,nao,2024-09-17
+0200950527,,"Avenida Higienópolis, 720",Consolação,TEM_SALDO,1122.0,1,nao,2019-03-21
+0090200033,Bairro da Bela Vista,"Rua dos Ingleses, 86",Bela Vista,TEM_SALDO,601.77,1,nao,2025-07-07
+0090200032,Bairro da Bela Vista,"Rua dos Ingleses, 92",Bela Vista,TEM_SALDO,324.0,1,nao,2025-07-07
+0840030017,Residência João Marino / Obra de Sylvio Barros Sawaya e Edmilson Tinoco Júnior / 1969 - Item 119 / Edificações Modernas Indicadas Como Zepec,"Avenida Lopes de Azevedo, 265",Morumbi,TEM_SALDO,260.43,1,nao,2019-05-30
+0090200034,Bairro da Bela Vista,"Rua dos Ingleses, 78",Bela Vista,TEM_SALDO,245.52,1,nao,2025-07-07
+0090320446,Bairro da Bela Vista,"Rua Martiniano de Carvalho, 60, 114, 156, 170",Bela Vista,TEM_SALDO,,,nao,2024-02-01
+0200950528,,"Avenida Higienópolis, 720",Consolação,TEM_SALDO,,,nao,2019-03-21
+0200950529,,"Avenida Higienópolis, 720",Consolação,TEM_SALDO,,,nao,2019-03-21
+0200950530,,"Avenida Higienópolis, 720",Consolação,TEM_SALDO,,,nao,2019-03-21
+0200950531,,"Avenida Higienópolis, 720",Consolação,TEM_SALDO,,,nao,2019-03-21
+0200950532,,"Avenida Higienópolis, 720",Consolação,TEM_SALDO,,,nao,2019-03-21
+0200950533,,"Avenida Higienópolis, 720",Consolação,TEM_SALDO,,,nao,2019-03-21
+0200950534,,"Avenida Higienópolis, 720",Consolação,TEM_SALDO,,,nao,2019-03-21
+0110920276,,"Avenida Higienópolis, 901",Consolação,TEM_SALDO,,,nao,2021-02-09
+0400900218,Conjunto de Imóveis No Bairro do Ipiranga,"Rua Agostinho Gomes, 1941",Ipiranga,TEM_SALDO,,,nao,2023-01-25
+0070500010,Casas de Aluguel à Rua Santa Isabel,"Rua Bento Freitas, 76, 86, 88",República,TEM_SALDO,,,nao,2017-05-31
+0070500011,Casas de Aluguel à Rua Santa Isabel,"Rua Bento Freitas, 76, 86, 88",República,TEM_SALDO,,,nao,2017-05-31
