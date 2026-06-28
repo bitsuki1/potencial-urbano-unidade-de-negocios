@@ -237,6 +237,64 @@ def travas_operacionais(contexto: dict):
     }
 
 
+# --------------------------------------------------- B-1/H3: roteador sobre DADO REAL (porte 2026-06-28)
+# Porte do produto B-17 (branch project-audit-roadmap) ao engine do main, sob o gate (D38/D21).
+# `oodc_por_imovel` busca V (Quadro 14 por SQ+Codlog) e CA_max (Quadro 3 por zona) das tabelas/ REAIS e
+# chama `outorga_onerosa` — herdando a citação por DISPOSITIVO (B-12d). UNE a citação legal (B-12d) à
+# PROVENIÊNCIA do dado (Q14/Quadro 3): "número nasce no engine" (1.3) ponta-a-ponta. O engine NÃO inventa
+# V nem CA_max (1.3) — par/zona sem dado de tabela LEVANTA, não preenche. (Engine do B-17 era pré-B-12d:
+# trouxe-se SÓ o roteador, preservando o `outorga_onerosa`+CITACAO B-12d do main — citação não regride.)
+TABELAS = AQUI.parent.parent / "tabelas"
+
+
+def _ler_csv(path):
+    """Lê CSV ignorando linhas-comentário '#'. Retorna list[dict]."""
+    import csv as _csv
+    if not path.exists():
+        return []
+    linhas = [l for l in path.read_text(encoding="utf-8").splitlines() if not l.startswith("#")]
+    return list(_csv.DictReader(linhas))
+
+
+def carregar_tabelas():
+    """Carrega o COMBUSTÍVEL real (1.1): V por (SQ,Codlog) (Quadro 14 — um SQ/quadra tem várias faces de
+    rua, cada uma com seu V) e CA_max por zona (Quadro 3). Devolve (V:{(sql,codlog)->valor_brl},
+    CA:{zona->ca_max}). Vazio se as tabelas não existirem (não inventa)."""
+    V = {(r["sql"], r["codlog"]): r["valor_m2_brl"] for r in _ler_csv(TABELAS / "q14-valor-terreno.csv")}
+    CA = {r["zona"]: r["ca_max"] for r in _ler_csv(TABELAS / "quadro3-ca-por-zona.csv")}
+    return V, CA
+
+
+def _ca_max_nota(zona):
+    """Nota condicional do CA_max da zona (A-080), ou ''. Ex.: ZEIS-3 -> 'g'."""
+    for r in _ler_csv(TABELAS / "quadro3-ca-por-zona.csv"):
+        if r["zona"] == zona:
+            return r.get("ca_max_nota", "") or ""
+    return ""
+
+
+def oodc_por_imovel(sql, codlog, zona, area_adicional, fp, fs):
+    """OODC sobre dados REAIS (B-1): busca V por (SQ,Codlog) (Quadro 14) e CA_max por ZONA (Quadro 3/
+    LPUOS) nas tabelas/ — o engine NÃO inventa nenhum dos dois (1.3). O operador fornece área adicional,
+    Fp, Fs. (SQ+Codlog vêm do cadastro; zona vem do geo/zoneamento por lote — ligação espacial é H3.)
+    O resultado UNE a citação por DISPOSITIVO (B-12d, via `outorga_onerosa`) à proveniência do dado."""
+    V, CA = carregar_tabelas()
+    v = V.get((sql, codlog))
+    if v is None:
+        raise ValueError(f"(SQ {sql!r}, Codlog {codlog!r}) sem V no Quadro 14. Confira o par no cadastro.")
+    ca_max = CA.get(zona)
+    if not ca_max or ca_max == "NA":
+        raise ValueError(f"zona {zona!r} sem CA_max numérico no Quadro 3 (CA_max={ca_max!r}).")
+    r = outorga_onerosa(area_adicional, ca_max, fp, fs, v)
+    nota = _ca_max_nota(zona)
+    r["fonte_dados"] = {"sql": sql, "codlog": codlog, "V_q14_brl": v, "zona": zona, "ca_max_q3": ca_max,
+                        "proveniencia": "V=Quadro 14 (PDE) por SQ+Codlog, CA_max=Quadro 3 (LPUOS) por zona — tabelas/ reais, não ilustrativo"}
+    if nota:   # A-080: CA_max condicional — não silenciar
+        r["aviso"] = (f"CA_max da zona {zona} tem nota condicional '({nota})' no Quadro 3 (LPUOS) cuja legenda ainda "
+                      f"não foi capturada do PDF — o valor {ca_max} pode depender do tipo de empreendimento. CONFERIR antes de usar em produção.")
+    return r
+
+
 # ----------------------------------------------------------------------------- auto-teste / demo
 def _autoteste():
     falhas = []
@@ -289,6 +347,22 @@ def _autoteste():
     cit = outorga_onerosa(1000, 4, "1.2", "1.0", 3000)["citacao"]
     if "dispositivo" not in cit or "art" not in cit["dispositivo"].lower():
         falhas.append("OODC sem citação por dispositivo (B-12d)")
+    # B-1 (porte 2026-06-28): OODC sobre DADO REAL — V por SQL (Quadro 14) e CA_max por zona (Quadro 3).
+    # SQ 001003/Codlog 038121 -> V=R$3.106,00 ; zona ZEU -> CA_max=4 ; (1000/4)×1.2×1.0×3106 = 931800.
+    V, CA = carregar_tabelas()
+    if V and CA:
+        r = oodc_por_imovel("001003", "038121", "ZEU", 1000, "1.2", "1.0")
+        checa("OODC dado real (SQ 001003/038121 × ZEU)", r["valor"], "931800.000")
+        if r["fonte_dados"]["V_q14_brl"] != "3.106,00":
+            falhas.append(f"V real de (001003,038121) mudou: {r['fonte_dados']['V_q14_brl']!r} (esperado '3.106,00')")
+        # B-12d não regride no porte: o resultado por-imóvel carrega a citação por dispositivo
+        if "dispositivo" not in r.get("citacao", {}) or "art" not in r["citacao"]["dispositivo"].lower():
+            falhas.append("oodc_por_imovel: citação por dispositivo (B-12d) não veio no resultado")
+        # zona sem CA_max numérico (AVP-1 = '(k)' variável) deve levantar — engine não inventa (1.3)
+        try:
+            oodc_por_imovel("001003", "038121", "AVP-1", 1000, "1.2", "1.0"); falhas.append("AVP-1 (CA_max NA) não levantou")
+        except ValueError:
+            pass
     return falhas
 
 
