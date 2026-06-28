@@ -2,6 +2,11 @@
 > A memória do projeto comercial: o que cada termo **significa em português simples** + **as decisões que tomamos**.
 > Criado por PU 14 · 2026-06-28. Documento VIVO — toda nova decisão ou termo entra aqui no mesmo instante.
 > Regra de ouro: **só fato, sem juízo** (nada de "vale/não vale/melhor/pior"). **Preço nasce no engine, nunca é inventado.**
+>
+> **Os 3 codexes (separados em 2026-06-28):**
+> - 🟢 **`CODEX-COMERCIAL-TDC.md`** (este) — quem/onde/estado de venda/negociável/vias de negócio/prospecção. **FOCO ATIVO.**
+> - 🔵 **`CODEX-CALCULOS-TDC.md`** — as fórmulas/engines: PCpt, OODC, Fi, CAbas/CAmax (potencial em m²).
+> - ⏸️ **`CODEX-PRECIFICACAO-TDC.md`** — conversão para R$ (Art. 128, V, FUNDURB-R$, IPCA). **PARADO** (parkado, não descartado).
 
 ---
 
@@ -47,15 +52,13 @@
 | R7 | **Grão = 1 linha por SQL**; endereço com várias ruas **não explode** (é o mesmo imóvel de esquina). Só o **lote** explode | 2026-06-28 |
 | R8 | Endereço **sem tipo** na fonte: manter como veio (não inventar) | 2026-06-28 |
 | R9 | Datas → **ISO** (AAAA-MM-DD); série do Excel convertida; US/BR desambiguado; ambíguo = assume BR e marca | 2026-06-28 |
-| R10 | **Preço nasce no engine** (Art. 125: `PCpt = Atc × CAbas × Fi`; valor `= PCpt × V`), nunca no chute | 2026-06-28 |
 | R11 | **Transferiu = vendeu** quando o receptor é outro imóvel (nos dados: 155 de 169) | 2026-06-28 |
 | R12 | **Parâmetro de certeza** (`estado_venda` + `certeza`). **Regra de ouro:** só marca "pular" quando o **ESGOTADO está escrito**; falta de dado = **verificar**, nunca "morto". Evidência real (vendeu/declarou) pesa mais que inferência de categoria | 2026-06-28 |
 | R15 | **"Transferiu = vendeu" só vale SEM doação (Art. 125).** Na **doação** (Art. 126/127) transferir **não é venda** — o dono doa o imóvel à PMSP e recebe potencial (fórmula `Atc×CAmax×Fi`, Fi até 2,0). A via de doação é alavanca à parte (auditoria dos agentes 2026-06-28) | 2026-06-28 |
-| R16 | **`valor = PCpt × V` é PROXY do lado cedente, não o preço final.** O crédito recebido segue **Art. 128** (`PCr=(PCpt×VTcd)/(Cr×CAmaxcd)`, CAmaxcd=4, IPCA); V vale na **data de protocolo** (Art. 125 §2º). **ESGOTADO é temporal** — pode reativar por renovação (Art. 123 §5º / 129 §2º) | 2026-06-28 |
-| R18 | **DUAS vias de gerar TDC** (engine `engines/tdc/pcpt.py`): **SEM doação** (Art. 125 — dono FICA com o imóvel, `Atc×CAbas×Fi=1`, caso ZEPEC) e **COM doação** (Art. 126/127 — dono DOA o imóvel, `Atc×CAmax×Fi` até 2,0 → ~8× mais potencial). **⚠️ O universo da doação é DISJUNTO da lista ZEPEC** — são doadores de terreno p/ parque(Quadro 7)/corredor/HIS, **não** tombados. Acima de **50.000 m² = 10 parcelas anuais** (Art. 124 §3º). Entradas são DATADAS (V na data de protocolo/doação) | 2026-06-28 |
-| R17 | **FUNDURB: `valor_pecuniario_rs` é VALOR REGULATÓRIO, NÃO preço de mercado** (Art. 24 §5º LPUOS — base do teto de 5%; ≠ o que o receptor paga ao cedente, que é livre/não publicado). Achados (escrutínio): **(a)** o teto de 5% só recai sobre declarações **pós-2016** → declaração **antiga = vantagem de liquidez** (não disputa a fila), não red flag; **(b)** "Indeferido" é muitas vezes **por saturação do teto** (timing), não defeito do imóvel — pode reprotocolar | 2026-06-28 |
-| R14 | **m² já transferido = gabarito de validação.** O cálculo do engine (`PCpt = Atc × CAbas`) tem de **bater** com as 167 áreas realmente transferidas (certidões). Método que não reproduz o real não passa | 2026-06-28 |
+| R18 | **DUAS vias de gerar TDC como ALAVANCA DE NEGÓCIO:** **SEM doação** (dono FICA com o imóvel — caso ZEPEC, nosso foco) e **COM doação** (dono DOA o imóvel e recebe ~8× mais potencial). **⚠️ O universo da doação é DISJUNTO da lista ZEPEC** (doadores de parque/corredor/HIS, **não** tombados) — não confundir. _(Fórmulas no Codex Cálculos.)_ | 2026-06-28 |
 | R13 | **Negociabilidade só com PROVA** (`negociavel` = sim/nao/verificar). **NÃO** só por escrito: `esgotado` ou `vedado` (categoria AUE/APPa). **Suspeita** (nome de bairro/bem público, sem lote, marca de Operação Urbana) → **verificar, nunca exclui** — não temos o campo "dono", então "é público" é suspeita, não certeza. **Declarou/vendeu vence a suspeita** (= sim) | 2026-06-28 |
+
+> **Resoluções de cálculo/preço foram REALOCADAS** (2026-06-28): R10, R14 → `CODEX-CALCULOS-TDC.md`; R16, R17 → `CODEX-PRECIFICACAO-TDC.md`. Nada se perdeu, só foi para o codex certo.
 
 **Ainda A OBSERVAR (não mexido):** vínculo declaração↔certidão (49 imóveis) · saldo/ESGOTADO · área em m² (arredondar float) · os 48 SQL inválidos · resolver SQL dos 1.791 sem cadastro (externo).
 
@@ -100,3 +103,32 @@ O destino de tudo: uma planilha **enxuta, 1 linha por imóvel**, com só o que s
 | **ESGOTADO** | Vendeu **tudo** | pular | alta | **6** |
 
 > Total: **6.131 imóveis**. Só **6** estão provadamente esgotados — o resto **não** está, então quase ninguém se dispensa de cara.
+
+---
+
+## PARTE 5 — Vias de negócio e prospecção (garimpado dos codexes antigos, 2026-06-28)
+
+### 5.1 — As 6 vias de geração de TDC = 6 linhas de negócio
+São as 6 formas de um imóvel gerar potencial transferível. **Hoje só a via 1 é explorada comercialmente** — as outras 5 são **mercado de expansão** (substrato geográfico já mapeado nos oráculos):
+| Via | Fonte de potencial | Status comercial |
+|---|---|---|
+| **1. Preservação cultural (tombados/ZEPEC)** | nossa lista de 6.131 | **explorada** (contrato vigente) |
+| 2. Preservação ambiental (ZEPAM) | camadas ZEPAM | expansão |
+| 3. Regularização fundiária | ZEIS/baixa renda | expansão |
+| 4. Provisão de HIS | ZEIS | expansão |
+| 5. Parques planejados | Quadro 7 do PDE | expansão |
+| 6. Melhoramentos viários (corredores de ônibus) | perímetros viários | expansão |
+> Vias 2-6 = doadores de terreno (via COM doação, Codex Cálculos R18), **público disjunto do ZEPEC**.
+
+### 5.2 — Modelo de negócio vigente
+**Contrato de Gestão Comercial (OPIT-SP / Bairro Vivo)** foca na **via 1** (captação de tombados para emitir TDC). _(Origem: `inventario/ideias-estrategia.md`.)_
+
+### 5.3 — FUNDURB como SENSOR DE LIQUIDEZ (passo de processo comercial)
+Antes de **sugerir uma venda**, consultar o estoque/janela do FUNDURB (`zepec/limpo/fundurb_processos.csv`): se a fila está saturada (teto 5%), não há janela de mercado agora. **Não basta ter o potencial — é preciso haver liquidez para vendê-lo.** _(O valor em R$ é regulatório e vive no Codex Precificação; aqui é só o sinal "tem janela?".)_
+
+### 5.4 — Score de Oportunidade geográfico (quem abordar primeiro)
+Prioridade de prospecção por localização: **Arco Pinheiros** (Lei 18.222/2024) e **Eixos de 700m** (Lei 17.975/2023) — onde o Fp é maior, o crédito vale mais. Regra ortogonal aos 6 estados de venda. _(Origem: `CONHECIMENTO_MESTRE_IA_V3/V3.1`.)_
+
+### 5.5 — Timing de mercado
+- **Arco Pinheiros = "Vetor de Valorização 2026"** (Lei 18.222/2024) — janela de timing.
+- **Setor Central = isenção de outorga** (Lei 17.844/2022).
