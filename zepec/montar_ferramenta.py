@@ -17,14 +17,34 @@ def norm_sql(sq, lote):
     sqd=re.sub(r'\D','',sq or ''); m=re.match(r'(\d{4})',(lote or '').strip())
     return (sqd[:3]+sqd[3:6]+m.group(1)) if (len(sqd)==6 and m) else ''
 
-# 1) conjunto de SQL_MESTRE cedentes ESGOTADOS (coluna 'N. Declaracao Saldo' das certidoes)
-esgotado=set()
+# 1) das certidoes: SQL_MESTRE cedentes ESGOTADOS e os com marca de OPERACAO URBANA
+esgotado=set(); operacao_urbana=set()
 cer=list(csv.reader(open(Z/"raw/lista_certidao_ZEPEC-BIR_agosto-2025.csv",encoding='utf-8')))
 for r in cer[5:]:
-    r=(r+['']*19)[:19]
-    if len(r)>14 and 'ESGOTAD' in r[14].upper():
-        sm=norm_sql(r[2],r[3])
-        if sm: esgotado.add(sm)
+    r=(r+['']*19)[:19]; sm=norm_sql(r[2],r[3])
+    if not sm: continue
+    if 'ESGOTAD' in r[14].upper(): esgotado.add(sm)
+    if re.search(r'\bOU\b|SEMPLA|EMURB|OUC', (r[12]+' '+r[7]).upper()): operacao_urbana.add(sm)
+
+# padroes de SINAL (suspeita, nao prova) — usados so p/ mandar a VERIFICAR, nunca p/ excluir
+RE_AREA   = re.compile(r'\bBAIRRO\b|PER[IÍ]METRO|N[UÚ]CLEO\s+URBANO|CONJUNTO\s+(URBANO|ARQUITET)', re.I)
+RE_PUBLICO= re.compile(r'\b(PRA[ÇC]A|PARQUE|VIADUTO|ESTA[ÇC][AÃ]O|CEMIT[EÉ]RIO|MERCADO MUNICIPAL|TEATRO MUNICIPAL|BIBLIOTECA MUNICIPAL|C[AÂ]MARA MUNICIPAL|PREFEITURA|F[OÓ]RUM)\b', re.I)
+
+def negociabilidade(nome, tem_decl, tem_cert, vedado, esg, sem_lote, ouc):
+    # esgotado vence tudo (vendeu tudo, nada a negociar agora):
+    if esg:    return 'nao','esgotado (escrito na certidao)',''
+    # PROVA de que negocia (declarou/vendeu) vence a suspeita de categoria:
+    if tem_decl or tem_cert: return 'sim','declarou/vendeu (prova de negociabilidade)',''
+    # vedado por lei, e que nunca declarou/vendeu:
+    if vedado: return 'nao','vedado por lei (categoria AUE/APPa)',''
+    # senao, junta SINAIS (suspeita) -> VERIFICAR, nunca excluir:
+    sinais=[]
+    if sem_lote: sinais.append('sem lote individual na fonte')
+    if ouc: sinais.append('marca de operacao urbana (regime CEPAC)')
+    if nome and RE_AREA.search(nome): sinais.append('nome de area/bairro')
+    if nome and RE_PUBLICO.search(nome): sinais.append('nome sugere bem publico')
+    if sinais: return 'verificar','', ' | '.join(sinais)
+    return 'sim','lote identificavel, sem sinal contrario',''
 
 # 2) agrega a base unificada por SQL_MESTRE (e guarda os sem-SQL como individuais)
 rows=list(csv.reader(open(Z/"limpo/zepec_unificada.csv",encoding='utf-8')))
@@ -51,8 +71,8 @@ def classifica(tem_decl, tem_cert, eh_tombado, vedado, esg):
     return 'INCERTO','baixa'
 
 COLS=['sql_mestre','setor','quadra','lote','nome_bem','endereco_mestre','distrito',
-      'tipo_zepec','esfera','estado_venda','certeza','tem_declaracao','tem_certidao',
-      'esgotado','data_ref','origens','obs']
+      'tipo_zepec','esfera','estado_venda','certeza','negociavel','motivo_negociavel','sinais_revisar',
+      'tem_declaracao','tem_certidao','esgotado','data_ref','origens','obs']
 out=[]
 
 def monta(sm, rs):
@@ -64,6 +84,8 @@ def monta(sm, rs):
     esg= sm in esgotado if sm else False
     estado,cert=classifica(tem_decl,tem_cert,eh_tomb,vedado,esg)
     if not sm: estado,cert='INCERTO','baixa'   # sem SQL nao da p/ confiar na identificacao
+    nome=first(rs,'nome_bem',['TOMBADO_CADASTRO','ZEPEC_APC'])
+    neg,motivo,sinais=negociabilidade(nome,tem_decl,tem_cert,vedado,esg,not sm, sm in operacao_urbana if sm else False)
     tz='/'.join(sorted(set(g(r,'tipo_zepec') for r in rs if g(r,'tipo_zepec'))))
     datas=[g(r,'data_pub_iso') for r in rs if g(r,'data_pub_iso')]
     obs=[]
@@ -74,7 +96,8 @@ def monta(sm, rs):
         nome_bem=first(rs,'nome_bem',['TOMBADO_CADASTRO','ZEPEC_APC']),
         endereco_mestre=first(rs,'endereco_mestre',['DECLARACAO_BIR','CERTIDAO_BIR_CEDENTE','TOMBADO_CADASTRO','ZEPEC_APC']) or first(rs,'endereco_mestre'),
         distrito=first(rs,'distrito'),tipo_zepec=tz,esfera=first(rs,'esfera',['TOMBADO_CADASTRO']),
-        estado_venda=estado,certeza=cert,tem_declaracao='sim' if tem_decl else 'nao',
+        estado_venda=estado,certeza=cert,negociavel=neg,motivo_negociavel=motivo,sinais_revisar=sinais,
+        tem_declaracao='sim' if tem_decl else 'nao',
         tem_certidao='sim' if tem_cert else 'nao',esgotado='sim' if esg else 'nao',
         data_ref=max(datas) if datas else '',origens='+'.join(sorted(orig)),obs=' | '.join(obs))
 

@@ -50,6 +50,7 @@
 | R10 | **Preço nasce no engine** (Art. 125: `PCpt = Atc × CAbas × Fi`; valor `= PCpt × V`), nunca no chute | 2026-06-28 |
 | R11 | **Transferiu = vendeu** quando o receptor é outro imóvel (nos dados: 155 de 169) | 2026-06-28 |
 | R12 | **Parâmetro de certeza** (`estado_venda` + `certeza`). **Regra de ouro:** só marca "pular" quando o **ESGOTADO está escrito**; falta de dado = **verificar**, nunca "morto". Evidência real (vendeu/declarou) pesa mais que inferência de categoria | 2026-06-28 |
+| R13 | **Negociabilidade só com PROVA** (`negociavel` = sim/nao/verificar). **NÃO** só por escrito: `esgotado` ou `vedado` (categoria AUE/APPa). **Suspeita** (nome de bairro/bem público, sem lote, marca de Operação Urbana) → **verificar, nunca exclui** — não temos o campo "dono", então "é público" é suspeita, não certeza. **Declarou/vendeu vence a suspeita** (= sim) | 2026-06-28 |
 
 **Ainda A OBSERVAR (não mexido):** vínculo declaração↔certidão (49 imóveis) · saldo/ESGOTADO · área em m² (arredondar float) · os 48 SQL inválidos · resolver SQL dos 1.791 sem cadastro (externo).
 
@@ -72,7 +73,16 @@
 
 ## PARTE 4 — A FERRAMENTA (`zepec/ferramenta/zepec_cedentes.csv`)
 O destino de tudo: uma planilha **enxuta, 1 linha por imóvel**, com só o que se precisa para agir.
-**Colunas:** `sql_mestre · nome_bem · endereco_mestre · distrito · tipo_zepec · esfera · estado_venda · certeza · tem_declaracao · tem_certidao · esgotado · data_ref · obs`.
+**Colunas:** `sql_mestre · nome_bem · endereco_mestre · distrito · tipo_zepec · esfera · estado_venda · certeza · negociavel · motivo_negociavel · sinais_revisar · tem_declaracao · tem_certidao · esgotado · data_ref · obs`.
+
+### Negociável por nós? (R13 — só com prova)
+| negociavel | Quando | Nº (2026-06-28) |
+|---|---|---|
+| **nao** | prova escrita: `esgotado` (6) ou `vedado` AUE/APPa (32) | **38** |
+| **sim** | declarou/vendeu (prova) ou lote limpo sem sinal contrário | **2.757** |
+| **verificar** | tem **sinal** (sem lote · nome de bairro/área · nome de bem público · marca de Operação Urbana) mas **não prova** → conferir, não excluir | **3.336** |
+
+> **Por que tantos "verificar":** "Bairro da X" (área inteira, sem lote) e bens com cara de público. Como **não temos o dono**, não dá para afirmar — vai para conferência. **Prontos para abordar** (negociável=sim + INTACTO/TEM_SALDO) = **599**.
 
 ### Os 6 estados de venda (o que cada um quer dizer e o que fazer)
 | estado_venda | O que é | Fazer | Certeza | Nº (2026-06-28) |
