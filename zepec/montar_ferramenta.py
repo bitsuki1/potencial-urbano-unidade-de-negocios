@@ -17,14 +17,23 @@ def norm_sql(sq, lote):
     sqd=re.sub(r'\D','',sq or ''); m=re.match(r'(\d{4})',(lote or '').strip())
     return (sqd[:3]+sqd[3:6]+m.group(1)) if (len(sqd)==6 and m) else ''
 
-# 1) das certidoes: SQL_MESTRE cedentes ESGOTADOS e os com marca de OPERACAO URBANA
-esgotado=set(); operacao_urbana=set()
+# 1) das certidoes: ESGOTADOS, marca de OPERACAO URBANA e m2 JA TRANSFERIDO por cedente
+from collections import defaultdict as _dd
+esgotado=set(); operacao_urbana=set(); transferido=_dd(float); n_transf=_dd(int)
+def _num(x):
+    x=(x or '').strip().replace(' ','')
+    if re.search(r',\d{2}$',x): x=x.replace('.','').replace(',','.')
+    else: x=x.replace(',','')
+    try: return float(re.sub(r'[^\d.]','',x))
+    except Exception: return None
 cer=list(csv.reader(open(Z/"raw/lista_certidao_ZEPEC-BIR_agosto-2025.csv",encoding='utf-8')))
 for r in cer[5:]:
     r=(r+['']*19)[:19]; sm=norm_sql(r[2],r[3])
     if not sm: continue
     if 'ESGOTAD' in r[14].upper(): esgotado.add(sm)
     if re.search(r'\bOU\b|SEMPLA|EMURB|OUC', (r[12]+' '+r[7]).upper()): operacao_urbana.add(sm)
+    a=_num(r[15])
+    if a: transferido[sm]+=a; n_transf[sm]+=1
 
 # padroes de SINAL (suspeita, nao prova) — usados so p/ mandar a VERIFICAR, nunca p/ excluir
 RE_AREA   = re.compile(r'\bBAIRRO\b|PER[IÍ]METRO|N[UÚ]CLEO\s+URBANO|CONJUNTO\s+(URBANO|ARQUITET)', re.I)
@@ -72,7 +81,7 @@ def classifica(tem_decl, tem_cert, eh_tombado, vedado, esg):
 
 COLS=['sql_mestre','setor','quadra','lote','nome_bem','endereco_mestre','distrito',
       'tipo_zepec','esfera','estado_venda','certeza','negociavel','motivo_negociavel','sinais_revisar',
-      'tem_declaracao','tem_certidao','esgotado','data_ref','origens','obs']
+      'm2_ja_transferido','n_transferencias','tem_declaracao','tem_certidao','esgotado','data_ref','origens','obs']
 out=[]
 
 def monta(sm, rs):
@@ -97,6 +106,8 @@ def monta(sm, rs):
         endereco_mestre=first(rs,'endereco_mestre',['DECLARACAO_BIR','CERTIDAO_BIR_CEDENTE','TOMBADO_CADASTRO','ZEPEC_APC']) or first(rs,'endereco_mestre'),
         distrito=first(rs,'distrito'),tipo_zepec=tz,esfera=first(rs,'esfera',['TOMBADO_CADASTRO']),
         estado_venda=estado,certeza=cert,negociavel=neg,motivo_negociavel=motivo,sinais_revisar=sinais,
+        m2_ja_transferido=(f"{round(transferido[sm],2)}" if sm and sm in transferido else ''),
+        n_transferencias=(n_transf[sm] if sm and sm in n_transf else ''),
         tem_declaracao='sim' if tem_decl else 'nao',
         tem_certidao='sim' if tem_cert else 'nao',esgotado='sim' if esg else 'nao',
         data_ref=max(datas) if datas else '',origens='+'.join(sorted(orig)),obs=' | '.join(obs))

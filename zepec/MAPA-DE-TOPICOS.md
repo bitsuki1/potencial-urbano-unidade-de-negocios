@@ -36,6 +36,22 @@
 | D2 | **Valor** | `= PCpt × V` (V do Quadro 14, **já temos**) na data de referência | 🔶 |
 | D3 | **Comparáveis de mercado** | usar as **167 áreas transacionadas** das certidões como referência factual | ⬜ (local!) |
 
+## G. Descobrir os PROPRIETÁRIOS (pergunta-chave — como achar o dono)
+> **Fato duro:** a planilha **IPTU 2026 NÃO traz o dono** (nem nome, nem CPF/CNPJ) — é padrão da PMSP. O dono vem por outras vias, e a cobertura é **parcial**.
+| # | Via | O que entrega | Limite |
+|---|---|---|---|
+| G1 | **SISSEL / alvarás / OODC** (por SQL) | nome do proprietário onde houve processo | só quem teve processo |
+| G2 | **Processo do TDC** (o `N. processo` que já temos) | o requerente da declaração/certidão **é o dono** | precisa consultar o processo SEI |
+| G3 | **Nome → empresas/socios/holdings** | CNPJ e sócios (PJ) | match por nome = ruidoso |
+| G4 | **ITBI** (por SQL) | matrícula + quem transacionou | só imóveis com ITBI |
+| — | **PF sem processo** | — | **não há fonte direta de CPF** |
+> Estratégia: cruzar nosso universo ZEPEC (por SQL) com G1/G4 → nome; nome → G3 → CNPJ/sócios; o resto fica **"dono a descobrir"**. **R6: sócios/PII por último.**
+
+## H. O que o IPTU 2026 agrega (resposta direta)
+Muito — é a espinha. Por SQL entrega: **Atc (área do terreno)** → destrava o preço · área construída (quanto já se usou) · **uso e padrão** · **valor venal** · CEP e endereço oficial. **Só não traz o dono** (ver G).
+
+> **Correção importante no passo 1:** o **saldo *remanescente* em m²** (quanto AINDA resta) **não sai destas planilhas** — falta o potencial *original* da declaração (que não está na lista; nasce do engine `Atc × CAbas`). O que É local: **quanto cada um JÁ transferiu** (feito: coluna `m2_ja_transferido`) + os comparáveis. O "quanto resta" entra junto com o engine (C2/D1).
+
 ## E. Produto / entrega
 | # | Tópico | O que falta | Status |
 |---|---|---|---|
