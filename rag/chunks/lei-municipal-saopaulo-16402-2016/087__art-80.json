@@ -1,0 +1,34 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16402-2016::087-art-80",
+  "lei_id": "lei-municipal-saopaulo-16402-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 80",
+  "numero": "80",
+  "caminho_hierarquico": [
+    "TÍTULO IV",
+    "CAPÍTULO I",
+    "Art. 80"
+  ],
+  "texto": "Art. 80. Nos processos de licenciamento de edificações novas ou de reformas com alteração de área\n\nconstruída superior a 20% (vinte por cento) em lotes com área superior a 500m² (quinhentos metros\n\nquadrados), é obrigatória a reservação para aproveitamento de águas pluviais provenientes das\n\ncoberturas das edificações para fins não potáveis.\n\n§ 1º O volume mínimo obrigatório de reservação de que trata o “caput” deste artigo será calculado de\n\nacordo com as seguintes fórmulas:\n\nI - no caso de coberturas impermeáveis:\n\nVri = 16,00 x ACi\n\nsendo:\n\nVri: volume mínimo de reservação para aproveitamento de águas pluviais provenientes de coberturas\n\nimpermeáveis, em litros;\n\nACi: área de cobertura impermeável, em metros quadrados;\n\nII - no caso de coberturas verdes:\n\nhttps://legislacao.prefeitura.sp.gov.br/leis/lei-16402-de-22-de-marco-de-2016 46/99\n\n07/03/2026, 23:27 LEI Nº 16.402 DE 22 DE MARÇO DE 2016 « Catálogo de Legislação Municipal\n\nVrv = 5,4 x ACv\n\nsendo:\n\nVrv: volume mínimo de reservação para aproveitamento de águas pluviais provenientes de coberturas\n\nverdes, em litros;\n\nACv: área de cobertura verde, em metros quadrados.\n\n§ 2º No caso de coberturas mistas (parte impermeável/parte verde), o volume mínimo de reservação de\n\nque trata o “caput” deste artigo será calculado a partir da soma dos volumes mínimos parciais, sendo\n\nestes obtidos conforme equações de seu § 1º:\n\nVrm = Vri + Vrv\n\nsendo:\n\nVrm: volume mínimo de reservação para aproveitamento de águas pluviais provenientes de coberturas\n\nmistas, em litros;\n\nVri: volume mínimo de reservação para aproveitamento de águas pluviais provenientes de coberturas\n\nimpermeáveis, em litros;\n\nVrv: volume mínimo de reservação para aproveitamento de águas pluviais provenientes de coberturas\n\nverdes, em litros.\n\n§ 3º O volume de reservação de que trata o “caput” deste artigo não poderá ser utilizado no cômputo\n\ndo volume mínimo de reservação de controle do escoamento superficial a que se refere o art. 79 desta\n\nlei.\n\n§ 4º A utilização das águas da reservação de controle do escoamento superficial só será permitida se\n\nutilizada para fins não potáveis, desde que observada a condição determinada pelo § 1º do art. 79\n\ndesta lei.\n\n§ 5º A estrutura de reservação de que trata o “caput” deste artigo deverá ser provida de grelhas ou\n\noutro dispositivo para retenção de material grosseiro, como folhas, pedaços de madeira, restos de\n\npapel, corpos de pequenos animais, entre outros, além de dispositivo de descarte de água pluvial inicial\n\nde chuva.\n\n§ 6º As águas captadas provenientes das coberturas das edificações não poderão ser utilizadas para\n\nconsumo humano, lavagem de alimentos ou banho.",
+  "citacao": {
+    "norma": "lei municipal nº 16402/2016 — São Paulo - SP",
+    "dispositivo": "TÍTULO IV › CAPÍTULO I › Art. 80",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2016-03-22",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 79 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2016-03-22. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

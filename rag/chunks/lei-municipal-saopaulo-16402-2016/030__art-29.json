@@ -1,0 +1,34 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16402-2016::030-art-29",
+  "lei_id": "lei-municipal-saopaulo-16402-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 29",
+  "numero": "29",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO IV",
+    "Art. 29"
+  ],
+  "texto": "Art. 29. Nas áreas públicas ocupadas por clubes extintos ou com termo de concessão terminado ou\n\nrevogado na vigência da Lei nº 13.885, de 25 de agosto de 2004, ou a partir da entrada em vigor desta\n\nLei, ficam mantidos os parâmetros de uso e ocupação estabelecidos nos Quadros 3, 4, 4A e 4B desta\n\nLei para a categoria em que o clube se enquadrava.(Redação dada pela Lei nº 18.081/2024)\n\nParágrafo único. Para instalação de equipamentos públicos sociais nas áreas públicas de que trata\n\no caput deste artigo, em casos de comprovada necessidade de modificação dos índices estabelecidos\n\nno Quadro 3 desta Lei, em função da demanda da região a ser atendida, órgão municipal\n\nintersecretarial poderá fixar parâmetros distintos, desde que o uso esteja previsto no Quadro 4 desta\n\nLei e que seja atendida contrapartida ambiental fixada pelo art. 33 desta Lei.(Redação dada pela Lei nº\n\n18.081/2024)",
+  "citacao": {
+    "norma": "lei municipal nº 16402/2016 — São Paulo - SP",
+    "dispositivo": "TÍTULO II › CAPÍTULO IV › Art. 29",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2016-03-22",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 79 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2016-03-22. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

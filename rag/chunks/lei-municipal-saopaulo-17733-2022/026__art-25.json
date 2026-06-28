@@ -1,0 +1,29 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17733-2022::026-art-25",
+  "lei_id": "lei-municipal-saopaulo-17733-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 25",
+  "numero": "25",
+  "caminho_hierarquico": [
+    "CAPÍTULO VIII",
+    "Art. 25"
+  ],
+  "texto": "Art. 25. As ERBs irregularmente implantadas até a data da entrada em vigor desta Lei deverão a ela se\n\nadequar, apresentando o requerimento do alvará no prazo de 180 (cento e oitenta) dias, contados da\n\ndata da publicação do decreto regulamentar.\n\nParágrafo único. As ERBs móveis e mini ERBs irregularmente instaladas até a data da entrada em\n\nvigor desta Lei deverão realizar o pertinente cadastramento no prazo de 120 (cento e vinte) dias.",
+  "citacao": {
+    "norma": "lei municipal nº 17733/2022 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO VIII › Art. 25",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2022-01-11",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": []
+    }
+  },
+  "tema": [
+    "IPTU"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

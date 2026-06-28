@@ -66,6 +66,19 @@ if [ -d caixa-de-entrada ]; then
   fi
 else ok "sem caixa-de-entrada/ (v2 não bootstrapado neste repo)"; fi
 
+# [MANIFESTO] idempotência do SSOT (B-18, 2026-06-27): alinha este gate ao fechar-instancia.py — antes
+# ele dava VERDE com o MANIFESTO defasado/inflado (falso-verde F-1). Regenera, compara, restaura.
+say "[MANIFESTO] idempotência do SSOT (B-18)…"
+if [ -f scripts/consolidar.py ] && command -v python3 >/dev/null 2>&1; then
+  python3 scripts/consolidar.py >/dev/null 2>&1 || true
+  _drift=$(git status --porcelain -- MANIFESTO.json 2>/dev/null)
+  _falso=$(python3 -c "import json;a=json.load(open('MANIFESTO.json'))['alertas'].get('indexado_sem_chunks_no_indice',[]);print(len(a))" 2>/dev/null || echo 0)
+  git checkout -- MANIFESTO.json 2>/dev/null || true
+  if [ -n "$_drift" ]; then fail "MANIFESTO.json regenerado difere do commitado — rode 'python3 scripts/consolidar.py' e re-commite (idempotência 2.3)";
+  elif [ "${_falso:-0}" != "0" ]; then fail "$_falso lei(s) com status 'indexado' SEM chunk no índice (NV-1) — indexe de verdade ou rebaixe o rótulo";
+  else ok "MANIFESTO idempotente e sem rótulo 'indexado' falso"; fi
+else warn "sem scripts/consolidar.py ou python3 — não verifiquei idempotência do MANIFESTO"; fi
+
 say "─────────────────────────────────────────────"
 if [ "$fails" = "0" ]; then say "✅ GATE VERDE — pode fechar ($warns aviso(s))."; exit 0
 else say "❌ NÃO FECHE — $fails bloqueio(s), $warns aviso(s). Resolva e rode de novo."; exit 1; fi

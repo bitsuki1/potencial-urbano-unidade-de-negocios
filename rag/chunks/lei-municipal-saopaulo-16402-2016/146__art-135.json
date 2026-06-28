@@ -1,0 +1,34 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16402-2016::146-art-135",
+  "lei_id": "lei-municipal-saopaulo-16402-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 135",
+  "numero": "135",
+  "caminho_hierarquico": [
+    "TÍTULO VI",
+    "CAPÍTULO I",
+    "Art. 135"
+  ],
+  "texto": "Art. 135. O uso comprovadamente instalado até a data de publicação desta Lei, permitido para o local\n\nna legislação vigente quando de sua instalação, que tenha se tornado não permitido nos termos desta\n\nLei, será tolerado, desde que:(Redação dada pela Lei nº 18.081/2024)\n\nI - a edificação possa ser considerada em situação regular nos termos da legislação edilícia;\n\nII - no caso do uso não residencial – nR, sejam atendidos os parâmetros de incomodidade.\n\n§ 1º O Executivo poderá, com objetivo de possibilitar a adequação aos novos parâmetros desta lei,\n\nconceder prazo proporcional aos ajustes necessários ao atendimento de cada parâmetro de\n\nincomodidade, a partir da entrada em vigor desta lei, até o máximo de 360 (trezentos e sessenta) dias,\n\nexcetuadas:\n\nI - as exigências relativas a horário de carga e descarga, que devem ser imediatamente atendidas;\n\nII - as exigências da legislação específica sobre controle da emissão de ruído.\n\n§ 2º As edificações que abrigam o uso não permitido não poderão ser ampliadas, sendo admitidas\n\nsomente reformas essenciais à segurança, higiene e acessibilidade dessas edificações e a instalação\n\nde equipamentos necessários, bem como a implantação de mobiliários e de obras complementares de\n\nacordo com o disposto na legislação edilícia.(Redação dada pela Lei nº 18.081/2024)\n\n§ 3º Nas edificações regulares em razão de Certificado de Conclusão, Auto de Regularização, Auto de\n\nVistoria ou Alvarás de Conservação expedidos de acordo com as disposições anteriores a esta lei,\n\npoderá ser instalado o uso declarado na respectiva aprovação ou regularização, ainda que este não\n\nseja considerado permitido nos termos desta lei.\n\n§ 4º As edificações existentes, ainda que não conformes, em situação regular ou em condição de\n\nregularização, poderão abrigar usos permitidos, sendo ainda admitidas reformas com acréscimo de\n\nárea construída, desde que não haja agravamento da desconformidade com relação à legislação\n\nvigente.(Incluído pela Lei nº 18.081/2024)\n\nCAPÍTULO II\n\nDO LICENCIAMENTO DAS ATIVIDADES",
+  "citacao": {
+    "norma": "lei municipal nº 16402/2016 — São Paulo - SP",
+    "dispositivo": "TÍTULO VI › CAPÍTULO I › Art. 135",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2016-03-22",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 79 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2016-03-22. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

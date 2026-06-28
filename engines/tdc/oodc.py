@@ -58,6 +58,26 @@ FATOR_PLANEJAMENTO_REF = {  # Fp por localização (FORMULAS-CONSOLIDADAS §1.4)
     "macroarea_qualificacao": "0.6",
 }
 
+# B-12d (auditoria 2026-06-27): citação por DISPOSITIVO, não pela lei inteira (FONTE_LEGAL blob).
+# Âncoras VERIFICADAS: PDE art. 125 por remissão na LPUOS 16.402/2016 Art. 24 (indexada); OODC pelo
+# Estatuto da Cidade art. 28-31 (estável). Onde o artigo do PDE não está confirmado no verbatim
+# (PDE 16.050 ainda `bruto`, B-4), `confianca:"a_confirmar"` — apontar+sinalizar é mais honesto (1.7)
+# que citar a lei inteira. Cada resultado do engine carrega a sua.
+CITACAO = {
+    "OODC": {"norma": "Estatuto da Cidade (Lei 10.257/2001), art. 28-31; PDE (Lei 16.050/2014)",
+             "dispositivo": "Estatuto da Cidade art. 28-31 (outorga onerosa e contrapartida)",
+             "confianca": "alta", "obs": "art. do PDE 16.050 a confirmar no verbatim (PDE ainda bruto, B-4)"},
+    "TDC_geracao_ZEPEC_BIR": {"norma": "PDE (Lei 16.050/2014), art. 125; LPUOS (Lei 16.402/2016), art. 24-26",
+             "dispositivo": "PDE art. 125 (declaração de potencial construtivo passível de transferência) + LPUOS art. 24 (Fator de Incentivo Fi)",
+             "confianca": "alta", "obs": "art. 125 do PDE verificado por remissão na LPUOS 16.402 Art. 24 (indexada)"},
+    "TDC_geracao_doacao": {"norma": "PDE (Lei 16.050/2014), TDC por doação",
+             "dispositivo": "PDE art. 122-125 (TDC; modalidade por doação de área)",
+             "confianca": "a_confirmar", "obs": "faixa de artigos; art. exato a confirmar no verbatim do PDE (B-4)"},
+    "TDC_recepcao": {"norma": "PDE (Lei 16.050/2014), recepção de potencial",
+             "dispositivo": "PDE art. 124 (recepção de potencial no terreno receptor)",
+             "confianca": "a_confirmar", "obs": "art. 124 por remissão na LPUOS; confirmar no verbatim do PDE (B-4)"},
+}
+
 
 def _d(x, nome="valor"):
     """SÓ converte para Decimal (não valida sinal — isso é `_exigir_positivo`). Aceita número BR:
@@ -101,7 +121,7 @@ def outorga_onerosa(area_adicional, ca_max, fp, fs, v):
         "formula": "OO = (Área_Adicional / CA_max) × Fp × Fs × V",
         "memoria_calculo": f"({aa} / {cam}) × {fpd} × {fsd} × {vd} = {_q(oo)}",
         "inputs": {"area_adicional": str(aa), "ca_max": str(cam), "fp": str(fpd), "fs": str(fsd), "v": str(vd)},
-        "citacao": {"fonte": FONTE_LEGAL, "dispositivo": "Outorga Onerosa do Direito de Construir (PDE/LPUOS)"},
+        "citacao": CITACAO["OODC"],
     }
 
 
@@ -121,7 +141,7 @@ def potencial_gerado_zepec(atc_matricula, area_desapropriada, ca_basico):
         "memoria_calculo": f"({atc} − {desap}) × {cab} × {fi} = {_q(pc)}",
         "inputs": {"atc_matricula": str(atc), "area_desapropriada": str(desap),
                    "ca_basico": str(cab), "fi": str(fi), "atc_liquido": str(atc_liq)},
-        "citacao": {"fonte": FONTE_LEGAL, "dispositivo": "Geração de potencial em ZEPEC-BIR (tombamento)"},
+        "citacao": CITACAO["TDC_geracao_ZEPEC_BIR"],
     }
 
 
@@ -140,7 +160,7 @@ def potencial_gerado_doacao(atc, ca_max, modalidade):
         "formula": "PC_pt = Atc × CA_max × F_i",
         "memoria_calculo": f"{a} × {cam} × {fi} = {_q(pc)}",
         "inputs": {"atc": str(a), "ca_max": str(cam), "modalidade": modalidade, "fi": str(fi)},
-        "citacao": {"fonte": FONTE_LEGAL, "dispositivo": f"Geração de potencial por doação ({modalidade})"},
+        "citacao": CITACAO["TDC_geracao_doacao"],
     }
 
 
@@ -157,7 +177,7 @@ def potencial_recebido(pc_pt, vt_cd, c_r, ca_maxcd):
         "formula": "PC_r = (PC_pt × VT_cd) / (C_r × CA_maxcd)",
         "memoria_calculo": f"({pcp} × {vt}) / ({cr} × {camcd}) = {_q(pr)}",
         "inputs": {"pc_pt": str(pcp), "vt_cd": str(vt), "c_r": str(cr), "ca_maxcd": str(camcd)},
-        "citacao": {"fonte": FONTE_LEGAL, "dispositivo": "Recepção de potencial no terreno receptor"},
+        "citacao": CITACAO["TDC_recepcao"],
     }
 
 
@@ -179,12 +199,41 @@ def travas_operacionais(contexto: dict):
     if c.get("analise_conjunto_aprovada") is True and _d(c.get("area_global", 0)) > 500:
         disparadas.append("DISABLE_ISENCAO_QA + REQUIRE área consolidada — gatilho 500m² (evasão Quota Ambiental)")
     avaliados = ["HIS", "contaminação", "CNIB/CADIN", "alvará cancelado", "gatilho 500m²"]
+
+    # B-12c: trava FATAL de gabarito em CAMPO PRÓPRIO e EXECUTADA (antes caía mudo em
+    # blocos_nao_avaliados). Regra (travas_operacionais_v6.1.json): projeção volumétrica TDC >
+    # Min(LPUOS_Q3, COMAER_ZCS, CONPRESP_Envoltória) ⇒ FATAL_ERROR — gabarito aeronáutico/tombamento
+    # NÃO admite potencial acima do envelope. Avalia se o contexto fornecer projeção + ≥1 limite.
+    limites = {k: _d(c[k], k) for k in ("lpuos_q3_max", "comaer_zcs_max", "conpresp_envoltoria_max")
+               if c.get(k) is not None}
+    fatal = {
+        "avaliavel": False, "disparado": False, "limite_aplicado": None,
+        "limites_recebidos": {k: str(v) for k, v in limites.items()},
+        "citacao": {"norma": "COMAER (ZCS — gabarito aeronáutico); CONPRESP (envoltória de tombamento); LPUOS Quadro 3",
+                    "dispositivo": "Min(LPUOS Quadro 3, COMAER ZCS, CONPRESP Envoltória) — trava FATAL de gabarito",
+                    "confianca": "a_confirmar",
+                    "obs": "limites externos (espacial/registral); fornecer projecao_volumetrica_tdc + lpuos_q3_max/comaer_zcs_max/conpresp_envoltoria_max no contexto"},
+    }
+    proj = c.get("projecao_volumetrica_tdc")
+    if proj is not None and limites:
+        projd = _d(proj, "projecao_volumetrica_tdc")
+        lim = min(limites.values())
+        fatal.update({
+            "avaliavel": True, "disparado": projd > lim, "limite_aplicado": str(lim),
+            "projecao_volumetrica_tdc": str(projd),
+            "motivo": (f"projeção {projd} > Min(gabaritos)={lim} ⇒ FATAL_ERROR" if projd > lim
+                       else f"projeção {projd} ≤ {lim} (dentro do gabarito)"),
+        })
+
     return {
         "travas_disparadas": disparadas,
-        "bloqueado": bool(disparadas),
-        "blocos_avaliados": avaliados,
-        "blocos_nao_avaliados": "ZOE Butantan (ADI), gabarito COMAER/CONPRESP, ITCMD/óbito, FUNDURB 5% — exigem dados externos",
-        "citacao": {"fonte": "travas_operacionais_v6.1.json (system_locks.conditional_blocks)"},
+        "bloqueado": bool(disparadas) or fatal["disparado"],
+        "fatal": fatal,
+        "blocos_avaliados": avaliados + (["gabarito FATAL (COMAER/CONPRESP/LPUOS-Q3)"] if fatal["avaliavel"] else []),
+        "blocos_nao_avaliados": "ZOE Butantan (ADI), ITCMD/óbito, FUNDURB 5% — exigem dados externos"
+                                + ("" if fatal["avaliavel"] else "; gabarito FATAL não avaliado (faltou projeção/limites no contexto)"),
+        "citacao": {"fonte": "travas_operacionais_v6.1.json (system_locks.conditional_blocks)",
+                    "obs": "trava FATAL com citação por dispositivo no campo 'fatal' (B-12d)"},
     }
 
 
@@ -226,6 +275,20 @@ def _autoteste():
             pass
     # Fs=0 (HIS) é LEGÍTIMO, não pode levantar; OODC = 0
     checa("fs=0 (HIS) legítimo", outorga_onerosa(1000, 4, "1.2", "0.0", 100)["valor"], "0.000")
+    # B-12c: trava FATAL de gabarito
+    t_fatal = travas_operacionais({"projecao_volumetrica_tdc": "1200", "comaer_zcs_max": "1000", "lpuos_q3_max": "1500"})
+    if not (t_fatal["fatal"]["avaliavel"] and t_fatal["fatal"]["disparado"] and t_fatal["bloqueado"]):
+        falhas.append("FATAL gabarito não disparou com projeção 1200 > Min(1000,1500)")
+    t_ok = travas_operacionais({"projecao_volumetrica_tdc": "800", "comaer_zcs_max": "1000"})
+    if t_ok["fatal"]["disparado"] or not t_ok["fatal"]["avaliavel"]:
+        falhas.append("FATAL gabarito disparou indevidamente com projeção 800 ≤ 1000")
+    t_na = travas_operacionais({"uso_receptor": "R"})  # sem limites → não-avaliável, não some
+    if t_na["fatal"]["avaliavel"]:
+        falhas.append("FATAL marcou avaliável sem limites no contexto")
+    # B-12d: citação por dispositivo (não a lei inteira) no resultado do engine
+    cit = outorga_onerosa(1000, 4, "1.2", "1.0", 3000)["citacao"]
+    if "dispositivo" not in cit or "art" not in cit["dispositivo"].lower():
+        falhas.append("OODC sem citação por dispositivo (B-12d)")
     return falhas
 
 

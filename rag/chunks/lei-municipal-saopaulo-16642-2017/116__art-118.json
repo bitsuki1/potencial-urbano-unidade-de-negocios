@@ -1,0 +1,30 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16642-2017::116-art-118",
+  "lei_id": "lei-municipal-saopaulo-16642-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 118",
+  "numero": "118",
+  "caminho_hierarquico": [
+    "CAPÍTULO VIII",
+    "Art. 118"
+  ],
+  "texto": "Art. 118. A não observância das disposições deste Código, de seu decreto regulamentar e das normas técnicas aplicáveis sujeita o proprietário ou o possuidor e o profissional habilitado aos procedimentos fiscalizatórios e à aplicação das penalidades estabelecidas na Tabela de Multas constante do Anexo III desta lei, sem prejuízo das sanções administrativas e medidas judiciais cabíveis.",
+  "citacao": {
+    "norma": "lei municipal nº 16642/2017 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO VIII › Art. 118",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2017-05-09",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": []
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

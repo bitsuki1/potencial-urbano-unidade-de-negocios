@@ -45,9 +45,15 @@
       }
     },
     {
-      "id": "neg-tdc-fora-de-corpus",
+      "id": "tdc-potencial-construtivo-lpuos",
       "pergunta": "como funciona a transferencia do direito de construir TDC e o calculo do potencial construtivo?",
-      "espera": { "fundamentada": false }
+      "espera": {
+        "fundamentada": true,
+        "lei_id": "lei-municipal-saopaulo-16402-2016",
+        "dispositivo_topo": "Art. 24",
+        "texto_contem": "potencial construtivo"
+      },
+      "_nota": "Era 'neg-tdc-fora-de-corpus' (esperava fora-de-corpus). 2026-06-27 (pague-tudo B-15): ao indexar a LPUOS 16402/2016, TDC entrou LEGITIMAMENTE no corpus — Art. 24 trata de 'novas declaracoes de potencial construtivo passivel de transferencia' (ZEPEC, Fator de Incentivo Fi, cita PDE art. 125). Revalidado conforme a vacina 'NEGATIVO E RELATIVO AO ACERVO'. Match REAL (cobertura 86%, score 27.5), nao lexical-espurio — o que confirma o destrave de produto. O conceito PLENO de TDC do PDE 16.050/2014 (conceito/hipoteses/imovel tombado) segue pendente em tdc-produto-pendente (PDE ainda nao-verbatim)."
     },
     {
       "id": "neg-iss-streaming",

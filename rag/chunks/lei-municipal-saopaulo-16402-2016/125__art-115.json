@@ -1,0 +1,34 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16402-2016::125-art-115",
+  "lei_id": "lei-municipal-saopaulo-16402-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 115",
+  "numero": "115",
+  "caminho_hierarquico": [
+    "TÍTULO V",
+    "CAPÍTULO III",
+    "Art. 115"
+  ],
+  "texto": "Art. 115. Nas novas construções, regularizações ou reformas com ampliação de área construída em\n\nimóveis reconhecidos como complexos de saúde, educação em saúde e pesquisa em saúde\n\nreconhecidos pela municipalidade, bem como em sua área envoltória nos termos de que trata o art.\n\n371 da Lei nº 16.050, de 2014, alterado pelo art. 105 da Lei nº 17.975, de 2023, e pelo art. 122 que\n\naltera o Quadro 1 das definições, com a finalidade de suprir e complementar as necessidades de\n\nexpansão dos complexos, ficam permitidas, independentemente da zona de uso onde estejam\n\nlocalizados, com exceção de imóveis contidos nas áreas integrantes do sistema de áreas protegidas,\n\náreas verdes e espaços livres – SAPAVEL:(Redação dada pela Lei nº 18.081/2024)\n\nI - todas e quaisquer atividades complementares, não se restringindo àquelas assistenciais;(Incluído\n\npela Lei nº 18.081/2024)\n\nII - nos complexos de saúde, educação em saúde e pesquisa em saúde reconhecidos pela\n\nmunicipalidade, nos termos da Lei nº 16.050, de 2014, alterada pela Lei nº 17.975, de 2023, em virtude\n\nde sua atividade comprovadamente existente em saúde, educação em saúde ou pesquisa em saúde,\n\nanterior a 31 de julho de 2014, classificados nos grupos de atividades de grande porte - nr3-3, nr3-8 ou\n\nnr3-9, nos termos da Lei nº 16.402, de 2016, não há restrição de lote mínimo e serão aplicados os\n\nparâmetros de ocupação estabelecidos para a Zona Eixo de Estruturação da Transformação Urbana –\n\nZEU no Quadro 3 da Lei nº 16.402, de 2016, admitindo-se, ainda, a majoração do coeficiente de\n\naproveitamento máximo nos termos previstos no art. 114, mediante a correspondente outorga onerosa\n\nde potencial construtivo adicional, nos termos da Lei nº 16.050, de 2014, alterada pela Lei nº 17.975,\n\nde 2023;(Incluído pela Lei nº 18.081/2024)\n\nIII - nas áreas envoltórias dos complexos de saúde, educação em saúde e pesquisa em saúde\n\nreconhecidos pela municipalidade, a majoração do coeficiente de aproveitamento máximo disposto no",
+  "citacao": {
+    "norma": "lei municipal nº 16402/2016 — São Paulo - SP",
+    "dispositivo": "TÍTULO V › CAPÍTULO III › Art. 115",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2016-03-22",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 79 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2016-03-22. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

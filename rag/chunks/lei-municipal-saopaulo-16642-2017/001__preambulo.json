@@ -1,0 +1,27 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16642-2017::001-preambulo",
+  "lei_id": "lei-municipal-saopaulo-16642-2017",
+  "tipo_dispositivo": "preambulo",
+  "rotulo": "Preâmbulo",
+  "numero": null,
+  "caminho_hierarquico": [],
+  "texto": "LEI Nº 16.642, DE 9 DE MAIO DE 2017\n\n(Projeto de Lei nº 466/15, do Executivo, aprovado na forma de Substitutivo do Legislativo)\n\nAprova o Código de Obras e Edificações do Município de São Paulo; introduz alterações nas Leis nº 15.150, de 6 de maio de 2010, e nº 15.764, de 27 de maio de 2013.\n\nJOÃO DORIA, Prefeito do Município de São Paulo, no uso das atribuições que lhe são conferidas por lei, faz saber que a Câmara Municipal, em sessão de 1º de julho de 2016, decretou e eu promulgo a seguinte lei:\n\nCAPÍTULO I\n\nDAS DISPOSIÇÕES GERAIS",
+  "citacao": {
+    "norma": "lei municipal nº 16642/2017 — São Paulo - SP",
+    "dispositivo": "Preâmbulo",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2017-05-09",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": []
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

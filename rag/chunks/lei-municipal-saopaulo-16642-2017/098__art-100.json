@@ -1,0 +1,31 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16642-2017::098-art-100",
+  "lei_id": "lei-municipal-saopaulo-16642-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 100",
+  "numero": "100",
+  "caminho_hierarquico": [
+    "CAPÍTULO VI",
+    "Seção III",
+    "Art. 100"
+  ],
+  "texto": "Art. 100. O valor da multa deve ser atualizado anualmente em 1º de fevereiro, pela variação do IPCA, apurado pelo IBGE, ou por outro índice que venha a substituí-lo, verificada entre janeiro e dezembro do exercício anterior.",
+  "citacao": {
+    "norma": "lei municipal nº 16642/2017 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO VI › Seção III › Art. 100",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2017-05-09",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": []
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

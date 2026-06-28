@@ -1,0 +1,34 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16402-2016::044-art-42",
+  "lei_id": "lei-municipal-saopaulo-16402-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 42",
+  "numero": "42",
+  "caminho_hierarquico": [
+    "TÍTULO III",
+    "CAPÍTULO I",
+    "Art. 42"
+  ],
+  "texto": "Art. 42. A área máxima de lote no território da zona urbana do Município é de 20.000m² (vinte mil\n\nmetros quadrados) e a frente máxima é de 150m (cento e cinquenta metros), ambas podendo ser\n\nmenores de acordo com a zona na qual o lote está inserido.\n\nParágrafo único. Não estão sujeitos ao atendimento das dimensões máximas estabelecidas no “caput”,\n\nno art. 43 e no Quadro 2 desta lei os seguintes usos:\n\nI - os classificados nos grupos de atividade de serviços públicos sociais;\n\nII - os classificados na subcategoria de uso INFRA;\n\nIII - base militar, corpo de bombeiros e similares;\n\nIV - cemitérios;\n\nV - clubes esportivos e clubes de campo;\n\nVI - estádios;\n\nVII - centros de convenções;\n\nVIII - hospitais e estabelecimentos de ensino existentes até a data de publicação desta lei;\n\nIX - os classificados na subcategoria de uso Ind-2;\n\nX - todos aqueles localizados em ZOE;\n\nXI - os enquadrados na subcategoria de uso serviços de armazenamento e guarda de bens móveis de\n\ngrande porte, excetuados os estacionamentos de veículos.\n\nXII - igrejas e templos de qualquer culto;(Incluído pela Lei nº 18.081/2024)\n\nXIII - shopping centers;(Incluído pela Lei nº 18.081/2024)\n\nXIV - todos aqueles localizados em ZC-ZEIS.(Incluído pela Lei nº 18.081/2024)",
+  "citacao": {
+    "norma": "lei municipal nº 16402/2016 — São Paulo - SP",
+    "dispositivo": "TÍTULO III › CAPÍTULO I › Art. 42",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2016-03-22",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 79 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2016-03-22. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

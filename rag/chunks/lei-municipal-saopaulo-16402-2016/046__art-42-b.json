@@ -1,0 +1,34 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16402-2016::046-art-42-b",
+  "lei_id": "lei-municipal-saopaulo-16402-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 42-B",
+  "numero": "42-B",
+  "caminho_hierarquico": [
+    "TÍTULO III",
+    "CAPÍTULO I",
+    "Art. 42-B"
+  ],
+  "texto": "Art. 42-B. Os lotes que possuírem os usos relacionados no parágrafo único do art. 42 poderão ter\n\noutros usos não relacionados, desde que:(Incluído pela Lei nº 18.081/2024)\n\nI - sejam permitidos na zona na qual estão inseridos;(Incluído pela Lei nº 18.081/2024)\n\nhttps://legislacao.prefeitura.sp.gov.br/leis/lei-16402-de-22-de-marco-de-2016 23/99\n\n07/03/2026, 23:27 LEI Nº 16.402 DE 22 DE MARÇO DE 2016 « Catálogo de Legislação Municipal\n\nII - a atividade do uso principal ocupe área superior a 50% (cinquenta por cento) do lote;(Incluído pela\n\nLei nº 18.081/2024)\n\nIII - o lote do uso secundário não ultrapasse 20.000m2;(Incluído pela Lei nº 18.081/2024)\n\nIV - seja averbada em matrícula a reserva de área institucional e a área sem afetação previamente\n\ndefinida proporcional à área original do lote em caso de destinação diferente do mesmo;(Incluído pela\n\nLei nº 18.081/2024)\n\nV - tenham acesso direto por via oficial de largura igual ou superior a 12m.(Incluído pela Lei nº\n\n18.081/2024)",
+  "citacao": {
+    "norma": "lei municipal nº 16402/2016 — São Paulo - SP",
+    "dispositivo": "TÍTULO III › CAPÍTULO I › Art. 42-B",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2016-03-22",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 79 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2016-03-22. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

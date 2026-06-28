@@ -1,0 +1,33 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16402-2016::005-art-4o",
+  "lei_id": "lei-municipal-saopaulo-16402-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 4º",
+  "numero": "4",
+  "caminho_hierarquico": [
+    "TÍTULO I",
+    "Art. 4º"
+  ],
+  "texto": "Art. 4º Para o cumprimento das estratégias de ordenamento territorial previstas na Lei nº 16.050, de 31\n\nde julho de 2014 – PDE e atendimento das diretrizes estabelecidas nesta lei, os parâmetros de\n\nparcelamento, uso e ocupação dos lotes serão definidos conforme as seguintes finalidades principais:\n\nI - dimensões máximas de lotes e quadras: adequar a inserção de empreendimentos de médio e\n\ngrande porte em relação ao entorno, melhorar a oferta de áreas públicas e evitar a descontinuidade do\n\nsistema viário;\n\nII - classificação dos usos: definir categorias, subcategorias e grupos de atividades para estabelecer os\n\nusos e atividades permitidos em cada zona, bem como suas condições de instalação;\n\nIII - parâmetros de incomodidade: estabelecer limites quanto à interferência de atividades não\n\nresidenciais em relação ao uso residencial;\n\nIV - condições de instalação dos usos: estabelecer referências e condicionantes conforme usos e\n\natividades não residenciais para a adequação das edificações, inclusive a largura da via;\n\nV - coeficiente de aproveitamento e cota-parte mínima e máxima de terreno por unidade: controlar as\n\ndensidades construtivas e demográficas em relação aos serviços públicos e à infraestrutura urbana\n\nexistentes e planejados;\n\nVI - gabarito de altura máxima, recuos e taxa de ocupação: controlar a volumetria das edificações no\n\nlote e na quadra e evitar interferências negativas na paisagem urbana;\n\nVII - quota ambiental e taxa de permeabilidade mínima: promover a qualificação ambiental, em especial\n\na melhoria da retenção e infiltração da água nos lotes, a melhoria do microclima e a ampliação da\n\nvegetação;\n\nVIII - fruição pública, fachada ativa, limite de vedação do lote e destinação de área para alargamento\n\ndo passeio público: ampliar as áreas de circulação de pedestres, proporcionar maior utilização do\n\nespaço público e melhorar a interação dos pedestres com os pavimentos de acesso às edificações.\n\nTÍTULO II\n\nDAS ZONAS",
+  "citacao": {
+    "norma": "lei municipal nº 16402/2016 — São Paulo - SP",
+    "dispositivo": "TÍTULO I › Art. 4º",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2016-03-22",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 79 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2016-03-22. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

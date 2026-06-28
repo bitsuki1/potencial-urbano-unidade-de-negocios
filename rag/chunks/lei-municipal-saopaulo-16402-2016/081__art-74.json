@@ -1,0 +1,34 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16402-2016::081-art-74",
+  "lei_id": "lei-municipal-saopaulo-16402-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 74",
+  "numero": "74",
+  "caminho_hierarquico": [
+    "TÍTULO IV",
+    "CAPÍTULO I",
+    "Art. 74"
+  ],
+  "texto": "Art. 74. A quota ambiental (QA) corresponde a um conjunto de regras de ocupação dos lotes\n\nobjetivando qualificá-los ambientalmente, tendo como referência uma medida da eficácia ambiental\n\npara cada lote, expressa por um índice que agrega os indicadores Cobertura Vegetal (V) e Drenagem\n\n(D).\n\nParágrafo único. Para fins de aplicação da QA, fica o território do Município de São Paulo dividido em\n\nPerímetros de Qualificação Ambiental, que expressam a situação ambiental e o potencial de\n\ntransformação de cada perímetro, conforme Mapa 3 desta lei.",
+  "citacao": {
+    "norma": "lei municipal nº 16402/2016 — São Paulo - SP",
+    "dispositivo": "TÍTULO IV › CAPÍTULO I › Art. 74",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2016-03-22",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 79 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2016-03-22. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

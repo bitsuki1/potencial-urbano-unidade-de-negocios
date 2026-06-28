@@ -1,0 +1,31 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16642-2017::069-art-70",
+  "lei_id": "lei-municipal-saopaulo-16642-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 70",
+  "numero": "70",
+  "caminho_hierarquico": [
+    "CAPÍTULO IV",
+    "Seção II",
+    "Art. 70"
+  ],
+  "texto": "Art. 70. O prazo para a decisão dos pedidos não pode exceder 90 (noventa) dias, inclusive quando se tratar de recurso.\n\n§ 1º Prazos diferentes podem ser fixados por ato do Executivo, em função da complexidade da análise do pedido.\n\n§ 2º O curso do prazo fixado no \"caput\" deste artigo fica suspenso durante a pendência do atendimento, pelo interessado, das exigências feitas no \"comunique-se\".",
+  "citacao": {
+    "norma": "lei municipal nº 16642/2017 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO IV › Seção II › Art. 70",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2017-05-09",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": []
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

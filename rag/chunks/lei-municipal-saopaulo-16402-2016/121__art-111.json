@@ -1,0 +1,35 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16402-2016::121-art-111",
+  "lei_id": "lei-municipal-saopaulo-16402-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 111",
+  "numero": "111",
+  "caminho_hierarquico": [
+    "TÍTULO V",
+    "CAPÍTULO I",
+    "Seção II",
+    "Art. 111"
+  ],
+  "texto": "Art. 111. Os Empreendimentos Geradores de Impacto de Vizinhança (EGIV) estão sujeitos à\n\nelaboração de Estudo de Impacto de Vizinhança (EIV) e do respectivo Relatório de Impacto de\n\nVizinhança (RIV), conforme disposto na legislação específica, a ser analisado e aprovado por órgão\n\nmunicipal competente, ficando a expedição do certificado de conclusão condicionada ao atendimento\n\ndas disposições estabelecidas no EIV para obtenção do alvará de aprovação do empreendimento.\n\nCAPÍTULO II\n\nDAS CONDIÇÕES DE INSTALAÇÃO E DOS PARÂMETROS DE INCOMODIDADE",
+  "citacao": {
+    "norma": "lei municipal nº 16402/2016 — São Paulo - SP",
+    "dispositivo": "TÍTULO V › CAPÍTULO I › Seção II › Art. 111",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2016-03-22",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 79 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2016-03-22. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

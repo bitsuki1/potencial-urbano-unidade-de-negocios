@@ -1,0 +1,31 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16642-2017::027-art-26",
+  "lei_id": "lei-municipal-saopaulo-16642-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 26",
+  "numero": "26",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção II",
+    "Art. 26"
+  ],
+  "texto": "Art. 26. Pode ser requerido Alvará de Execução parcial para cada bloco no caso do Alvará de Aprovação compreender edificação constituída de mais de um bloco, observado o seu prazo de vigência.",
+  "citacao": {
+    "norma": "lei municipal nº 16642/2017 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO II › Seção II › Art. 26",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2017-05-09",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": []
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

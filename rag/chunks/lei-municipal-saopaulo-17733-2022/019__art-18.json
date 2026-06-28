@@ -1,0 +1,29 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17733-2022::019-art-18",
+  "lei_id": "lei-municipal-saopaulo-17733-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 18",
+  "numero": "18",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Art. 18"
+  ],
+  "texto": "Art. 18. O Executivo deverá disponibilizar sistema de informação de localização de ERBs, ERBs móvel\n\ne mini ERBs destinados à operação de serviços de telecomunicações, a ser regulamentado em\n\ndecreto.\n\nParágrafo único. No local da instalação dos equipamentos deverá ser exigida a exibição dos dados que\n\npermitam a sua identificação, conforme definido em regulamentação, em local de fácil acesso e visível.",
+  "citacao": {
+    "norma": "lei municipal nº 17733/2022 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO V › Art. 18",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2022-01-11",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": []
+    }
+  },
+  "tema": [
+    "IPTU"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

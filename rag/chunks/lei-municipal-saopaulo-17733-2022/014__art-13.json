@@ -1,0 +1,29 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17733-2022::014-art-13",
+  "lei_id": "lei-municipal-saopaulo-17733-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 13",
+  "numero": "13",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Art. 13"
+  ],
+  "texto": "Art. 13. Nenhuma ERB, ERB móvel ou mini ERB poderá ser instalada sem o prévio alvará ou cadastro\n\nnos termos desta Lei, salvo as condições de exceção previstas no art. 12.",
+  "citacao": {
+    "norma": "lei municipal nº 17733/2022 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO V › Art. 13",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2022-01-11",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": []
+    }
+  },
+  "tema": [
+    "IPTU"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

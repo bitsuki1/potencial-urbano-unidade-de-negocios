@@ -25,7 +25,10 @@ REG="$DIR/REGISTRO-DE-INSTANCIAS.md"
 if [ -f "$REG" ]; then
   BR=$(git -C "$DIR" branch --show-current 2>/dev/null || echo "?")
   HD=$(git -C "$DIR" rev-parse --short HEAD 2>/dev/null || echo "?")
-  if ! grep -E "\| ABERTA \|" "$REG" 2>/dev/null | grep -qF "\`$BR\`"; then
+  # B-19/H-1+H-2 (auditoria 2026-06-27): deduplica por BRANCH em QUALQUER estado (ABERTA ou FECHADA),
+  # não só ABERTA. Antes, reabrir uma branch já FECHADA duplicava a linha (H-1) e re-sujava a árvore a
+  # cada boot (H-2). Agora só estampa quando a branch NUNCA apareceu no registro (1ª vez genuína).
+  if ! grep -qF "\`$BR\`" "$REG" 2>/dev/null; then
     printf '| %s | `%s` | %s | [CONFIRME o chapéu] | [PREENCHER objetivo na 1ª ação] | ABERTA | |\n' \
       "$(date -u +%Y-%m-%dT%H:%MZ)" "$BR" "$HD" >> "$REG"
   fi
@@ -48,6 +51,20 @@ fi
 if git -C "$DIR" rev-parse --git-dir >/dev/null 2>&1; then
   git -C "$DIR" fetch origin main --quiet 2>/dev/null || true
   _behind=$(git -C "$DIR" rev-list --count origin/main..HEAD 2>/dev/null || echo 0)
+  if [ "${_behind:-0}" != "0" ] && [ -z "$(git -C "$DIR" status --porcelain 2>/dev/null)" ]; then
+    # NV-2 (auditoria 2026-06-27): NÃO auto-empurra ao main se o MANIFESTO não está idempotente
+    # (rótulo 'indexado' sem chunk / corpus dessincronizado). Regenera, compara, restaura: se diferiu,
+    # ABORTA a auto-consolidação para não propagar falso-verde ao main sem revisão humana.
+    if [ -f "$DIR/scripts/consolidar.py" ]; then
+      ( cd "$DIR" && python3 scripts/consolidar.py >/dev/null 2>&1 ) || true
+      _mdrift=$(git -C "$DIR" status --porcelain -- MANIFESTO.json 2>/dev/null)
+      git -C "$DIR" checkout -- MANIFESTO.json 2>/dev/null || true
+      if [ -n "$_mdrift" ]; then
+        echo "⛔ NV-2: MANIFESTO.json NÃO idempotente — auto-consolidação ao main ABORTADA. Rode 'python3 scripts/consolidar.py', corrija rótulo×chunk e re-commite antes de empurrar."
+        _behind=0
+      fi
+    fi
+  fi
   if [ "${_behind:-0}" != "0" ] && [ -z "$(git -C "$DIR" status --porcelain 2>/dev/null)" ]; then
     _cs="$DIR/consolidar.sh"; [ -f "$DIR/processos/consolidar.sh" ] && _cs="$DIR/processos/consolidar.sh"
     if [ -f "$_cs" ]; then

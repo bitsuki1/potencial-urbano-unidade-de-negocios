@@ -1,0 +1,29 @@
+{
+  "chunk_id": "decreto-saopaulo-57443-2016::008-art-7o",
+  "lei_id": "decreto-saopaulo-57443-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 7º",
+  "numero": "7",
+  "caminho_hierarquico": [
+    "CAPÍTULO I",
+    "Art. 7º"
+  ],
+  "texto": "Art. 7º O enquadramento de que trata este Capítulo deverá ser feito em prazo razoável, de modo a não\n\nretardar a ação fiscalizatória, não podendo superar 10 (dez) dias quando se tratar de infração a normas\n\nde segurança ou a parâmetros de incomodidade.",
+  "citacao": {
+    "norma": "decreto municipal nº 57443/2016 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO I › Art. 7º",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2016-11-10",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": []
+    }
+  },
+  "tema": [
+    "IPTU"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

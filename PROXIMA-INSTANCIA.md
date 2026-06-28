@@ -1,5 +1,18 @@
 # PRÓXIMA INSTÂNCIA — o que fazer (Potencial Urbano)
 
+> **★ HANDOFF 2026-06-27 (2 acionamentos — PU 12).** Laudo: `docs/AUDITORIA-PROFUNDA-2026-06-27.md`.
+> **Acionamento 1:** pacote de padronização do escritório (caixas v2, REGISTRO/ATA, D128, D119/D120, handoff)
+> **consolidado ao `main`** (gate D141) + auditoria 3-lentes + depósito.
+> **Acionamento 2 (3 auditorias + PAGUE-TUDO):** PAGOS com gate VERDE — **B-15** (indexei de verdade as 4 leis
+> IPTU → **17 leis / 1.571 chunks**; `indexado` virou prova), **B-16** (MANIFESTO honesto), **B-18** (os 2 gates
+> concordam), **B-19** (hook não suja/duplica), **B-12(c/d)** (trava FATAL + citação por dispositivo). **Destrave
+> de bônus:** indexar a LPUOS 16.402 **ligou TDC no main** (eval `tdc-potencial-construtivo-lpuos` verde, Art. 24).
+> Decisões **D-13..D-17** no CODEX §5. **Gate `fechar-instancia.py` = VERDE (exit 0).**
+> **ABERTOS (próximos):** **B-17** (cross-repo/MOU — **produto pronto preso na branch `project-audit-roadmap-2thi1g`**:
+> tabelas reais + engine sobre imóvel real + E5; PR ao main + conflito leis 16.050/17.844 → aceitar verbatim;
+> depositado em `caixa-de-saida/para-escritorio/`); **B-11(c)** vigência-por-chunk; **B-1..B-4/B-9** (Drive).
+> **Pauta MR-14 (frentes A/B/C/D):** deliberação respondida na caixa-de-saída — **aguarda o MOU consolidar**.
+>
 > **★ HANDOFF 2026-06-20 (fim da instância de auditoria):** 2 auditorias profundas rodadas. A 1ª
 > destravou 12 federais verbatim + engine + ladrão. A **2ª** (`docs/AUDITORIA-PROFUNDA-2-2026-06-20.md`,
 > 4 lentes: verbatim·engine·gates·propagação) auditou a superfície nova. Verdict: texto verbatim FIEL,

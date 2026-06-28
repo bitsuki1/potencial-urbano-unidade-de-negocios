@@ -1,0 +1,31 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16642-2017::060-art-61",
+  "lei_id": "lei-municipal-saopaulo-16642-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 61",
+  "numero": "61",
+  "caminho_hierarquico": [
+    "CAPÍTULO IV",
+    "Seção I",
+    "Art. 61"
+  ],
+  "texto": "Art. 61. Os prazos fixados neste Código são contados em dias corridos, a partir do primeiro dia útil após o evento de origem até o seu dia final inclusive.\n\nParágrafo único. Caso não haja expediente no dia final do prazo, prorroga-se automaticamente o seu término para o dia útil imediatamente posterior.",
+  "citacao": {
+    "norma": "lei municipal nº 16642/2017 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO IV › Seção I › Art. 61",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2017-05-09",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": []
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

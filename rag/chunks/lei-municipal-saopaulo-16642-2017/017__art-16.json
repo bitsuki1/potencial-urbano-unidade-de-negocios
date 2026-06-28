@@ -1,0 +1,31 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16642-2017::017-art-16",
+  "lei_id": "lei-municipal-saopaulo-16642-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 16",
+  "numero": "16",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção II",
+    "Art. 16"
+  ],
+  "texto": "Art. 16. O pedido de Alvará de Aprovação deve ser instruído com:\n\nI - documentação referente ao imóvel;\n\nII - peças gráficas do projeto simplificado assinadas por profissional habilitado, conforme estabelecido neste Código e decreto regulamentar;\n\nIII - levantamento topográfico elaborado por profissional habilitado, de acordo com os requisitos técnicos a serem regulamentados;\n\nIV - declaração assinada pelo profissional habilitado, atestando a conformidade do projeto no que diz respeito aos aspectos interiores da edificação em relação às disposições deste Código e legislação correlata;\n\nV - declaração assinada pelo profissional habilitado, atestando a conformidade das condições de instalação de equipamento mecânico de transporte permanente, tanque de armazenagem, filtro, bomba de combustível e equipamentos afins e de sistema especial de segurança da edificação em relação às normas e legislação pertinente, quando for o caso.\n\n§ 1º Se uma edificação for constituída por um conjunto de blocos cujos projetos forem elaborados por profissionais diferentes, respondem eles solidariamente pela implantação de todo o conjunto.\n\n§ 2º Somente são aceitas divergências de até 5% (cinco por cento) entre as dimensões e área constantes do documento de propriedade apresentado e as apuradas no levantamento topográfico.\n\n§ 3º Quando dentro do limite estabelecido no § 2º deste artigo, são observados os índices fixados pelo PDE e LPUOS em relação às menores dimensões e área apuradas.\n\n§ 4º Havendo divergência superior a 5% (cinco por cento) entre qualquer dimensão ou área constante do documento de propriedade e a apurada no levantamento topográfico, o Alvará de Aprovação pode ser emitido, ficando a emissão do Alvará de Execução condicionada à apresentação da certidão de matrícula do imóvel com dimensões e área retificadas.",
+  "citacao": {
+    "norma": "lei municipal nº 16642/2017 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO II › Seção II › Art. 16",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2017-05-09",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": []
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

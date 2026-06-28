@@ -8,6 +8,13 @@
 
 ---
 
+> **★ SUPERADO EM PARTE (2026-06-27).** Este laudo é de 2026-06-20. Mudou desde então: as contagens abaixo
+> ("13 indexado", "1.246 chunks") estão **stale** — hoje são **17 leis / 1.571 chunks** (B-15 indexou as 4 IPTU;
+> número vivo = `MANIFESTO.json`). O "**PRODUTO a ~0% / `tabelas/` vazio**" continua verdade NO MAIN, mas: (a) TDC
+> foi **destravado no main** (consulta cita LPUOS 16.402 Art. 24); (b) o produto pleno (tabelas reais + E5) está
+> **pronto e preso** na branch `project-audit-roadmap-2thi1g` (B-17, cross-repo). Estado canônico atual:
+> `docs/AUDITORIA-PROFUNDA-2026-06-27.md` + `MANIFESTO.json` + `BACKLOG.md`.
+
 ## 0. VEREDITO (uma linha, honesto)
 A **infraestrutura** (RAG + engine + anti-perda + decisões + beta) está **construída, auditada 3× e VERDE**;
 o **PRODUTO** (lista de alvos por imóvel = o que dá dinheiro) está **a ~0%**; a **propagação ao escritório**

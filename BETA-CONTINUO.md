@@ -61,6 +61,18 @@ alteração** (RO-24).
   GATE de fechamento (`fechar-instancia.py`: evals+engine+sem-stray-tag+MANIFESTO
   idempotente+backlog fresco). Move regra de "o maestro lembra" para "o sistema
   garante" (D-09). Reutilizável por qualquer projeto.
+- **Rótulo de pipeline ≠ estado real do índice (D-15, 2026-06-27).** `status_pipeline:"indexado"`
+  no `.json` NÃO prova indexação — a verdade é ter chunk em `rag/chunks/` E entrada em `rag/index/`.
+  4 leis diziam "indexado" com 0 chunks (falso-verde no corpus). `consolidar.py` passou a DERIVAR o
+  status do índice e alertar a divergência; o gate falha se sobrar rótulo falso. Reutilizável: todo
+  flag de estado deve ser DERIVADO do artefato, nunca declarado.
+- **Dois gates que discordam = pior que um (D-14, B-18).** `gate-fechamento.sh` dava VERDE enquanto
+  `fechar-instancia.py` dava VERMELHO no mesmo estado (MANIFESTO defasado). Alinhados: ambos checam a
+  idempotência do SSOT. ⚠️ `gate-fechamento.sh`/boot AUTO-EMPURRAM ao main (D141) — rodar o gate MOVE o
+  main; a guarda NV-2 aborta o push se o MANIFESTO não for idempotente.
+- **Negativo é relativo ao acervo (D-16).** Um eval "fora-de-corpus" calibrado com N leis vira
+  dentro-de-corpus quando o acervo cresce (TDC entrou via LPUOS 16.402). Revalidar os negativos a cada
+  expansão; não forçar verde — ajustar a premissa.
 - **Auditoria profunda por LENTES adversariais (reutilizável).** N sub-agentes
   read-only, cada um numa lente DIFERENTE (corpus · código · dado/produto · doutrina),
   + ground-truth vivo (Supabase/MCP); convergência dialética num laudo. Lentes
@@ -114,3 +126,10 @@ e `ENDERECO_MESTRE` (Correios/DNE) — Codex §3.
 Lição nova → decidida na conversa (RO-11) → registrada no **Codex** (SSOT) →
 refletida aqui e, quando couber, em `governanca.registro_decisoes`. O escrutínio
 cruzado (§3) roda periodicamente até saturar. Nada se perde (RO-09).
+
+> **Última evolução: 2026-06-27** (3 auditorias: profunda·beta·decisões + pague-tudo). Absorvidas as
+> lições D-13…D-17 (§3 acima): padrões do escritório consolidados ao main + caixas v2; gate D141
+> auto-empurra ao main (guarda NV-2); rótulo≠índice (B-15); TDC destravado no main pela LPUOS; engine com
+> trava FATAL + citação por dispositivo. §4 re-verificado via MCP 2026-06-27 — Supabase ainda só
+> `governanca` (SEM DADO, RO-23); ⚠️ há DDL não-consolidada na branch `project-audit-roadmap-2thi1g`
+> (B-17) cujo header afirma "schemas já existentes" — FALSO contra o live; re-verificar se/quando o B-17 for ao main.

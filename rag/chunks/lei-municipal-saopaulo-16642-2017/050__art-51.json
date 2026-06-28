@@ -1,0 +1,31 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16642-2017::050-art-51",
+  "lei_id": "lei-municipal-saopaulo-16642-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 51",
+  "numero": "51",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção II",
+    "Art. 51"
+  ],
+  "texto": "Art. 51. A pedido do interessado, a Prefeitura analisa consultas para o esclarecimento quanto à aplicação do PDE, LPUOS e COE em projetos arquitetônicos e emite as Diretrizes de Projeto. Parágrafo único. O pedido deve ser instruído com documentação e peças gráficas que permitam o entendimento do projeto e da consulta formulada.\n\nCAPÍTULO III\n\nDAS TAXAS",
+  "citacao": {
+    "norma": "lei municipal nº 16642/2017 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO II › Seção II › Art. 51",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2017-05-09",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": []
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

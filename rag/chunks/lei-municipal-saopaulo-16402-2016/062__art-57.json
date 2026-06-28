@@ -1,0 +1,34 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16402-2016::062-art-57",
+  "lei_id": "lei-municipal-saopaulo-16402-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 57",
+  "numero": "57",
+  "caminho_hierarquico": [
+    "TÍTULO IV",
+    "CAPÍTULO I",
+    "Art. 57"
+  ],
+  "texto": "Art. 57. São parâmetros qualificadores da ocupação, de modo a promover melhor relação e proporção\n\nentre espaços públicos e privados:\n\nI - fruição pública;\n\nII - fachada ativa;\n\nIII - limite de vedação do lote;\n\nIV - destinação de área para alargamento do passeio público.\n\nV - Praça Urbana.(Incluído pela Lei nº 18.081/2024)",
+  "citacao": {
+    "norma": "lei municipal nº 16402/2016 — São Paulo - SP",
+    "dispositivo": "TÍTULO IV › CAPÍTULO I › Art. 57",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2016-03-22",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 79 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2016-03-22. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

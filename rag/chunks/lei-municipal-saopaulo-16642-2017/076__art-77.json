@@ -1,0 +1,31 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16642-2017::076-art-77",
+  "lei_id": "lei-municipal-saopaulo-16642-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 77",
+  "numero": "77",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Seção III",
+    "Art. 77"
+  ],
+  "texto": "Art. 77. A edificação existente licenciada de acordo com a legislação edilícia vigente anteriormente a 23 de setembro de 1992, data da entrada em vigor da Lei nº 11.228, de 25 de junho de 1992, e com área regular lançada no Cadastro de Edificações do Município pelo período mínimo de 10 (dez) anos, independentemente de sua condição de regularidade na data do protocolo do pedido, pode ser requalificada, nos termos deste Código.",
+  "citacao": {
+    "norma": "lei municipal nº 16642/2017 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO V › Seção III › Art. 77",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2017-05-09",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": []
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

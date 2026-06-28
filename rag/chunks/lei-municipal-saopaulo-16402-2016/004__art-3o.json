@@ -1,0 +1,33 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16402-2016::004-art-3o",
+  "lei_id": "lei-municipal-saopaulo-16402-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 3º",
+  "numero": "3",
+  "caminho_hierarquico": [
+    "TÍTULO I",
+    "Art. 3º"
+  ],
+  "texto": "Art. 3º Como estratégia de ordenamento territorial, o território do Município fica dividido em zonas,\n\ncaracterizadas pelo conjunto de regras de parcelamento, ocupação e uso do solo aplicáveis às\n\nrespectivas porções do território.\n\nhttps://legislacao.prefeitura.sp.gov.br/leis/lei-16402-de-22-de-marco-de-2016 4/99\n\n07/03/2026, 23:27 LEI Nº 16.402 DE 22 DE MARÇO DE 2016 « Catálogo de Legislação Municipal",
+  "citacao": {
+    "norma": "lei municipal nº 16402/2016 — São Paulo - SP",
+    "dispositivo": "TÍTULO I › Art. 3º",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2016-03-22",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 79 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2016-03-22. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}
