@@ -1,0 +1,35 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16050-2014::112-art-105",
+  "lei_id": "lei-municipal-saopaulo-16050-2014",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 105",
+  "numero": "105",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO III",
+    "Seção I",
+    "Art. 105"
+  ],
+  "texto": "Art. 105. A Prefeitura dará publicidade à incidência do direito de preempção e instituirá controles administrativos para possibilitar a\n\neficácia do instrumento, podendo utilizar, dentre outros meios, o controle por meio de sistemas informatizados, averbação da\n\nincidência do direito de preempção na matrícula dos imóveis atingidos e declaração nos documentos de cobrança do IPTU.\n\n§ 1º No caso de existência de terceiros interessados na compra do imóvel, o proprietário deverá comunicar sua intenção de alienar\n\nonerosamente o imóvel ao órgão competente da Prefeitura em até 30 (trinta) dias, contados da celebração do contrato preliminar\n\nentre o proprietário e o terceiro interessado.\n\n§ 2º A declaração de intenção de venda do imóvel deve ser apresentada com os seguintes documentos:\n\nI – proposta de compra apresentada pelo terceiro interessado na aquisição do imóvel, na qual constarão preço, condições de\n\npagamento e prazo de validade;\n\nII – endereço do proprietário, para recebimento de notificação e de outras comunicações;\n\nIII – certidão de inteiro teor da matrícula do imóvel, expedida pelo Cartório de Registro de Imóveis da circunscrição imobiliária\n\ncompetente;\n\nIV – declaração assinada pelo proprietário, sob as penas da lei, de que não incidem quaisquer encargos e ônus sobre o imóvel,\n\ninclusive os de natureza real, tributária ou pessoal reipersecutória.",
+  "citacao": {
+    "norma": "lei municipal nº 16050/2014 — São Paulo - SP",
+    "dispositivo": "TÍTULO II › CAPÍTULO III › Seção I › Art. 105",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2014-07-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 95 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2014-07-31. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

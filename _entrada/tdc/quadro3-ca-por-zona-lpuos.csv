@@ -1,0 +1,49 @@
+# FONTE: Google Drive fileId=1zeJpzs6kZbRxXrijAzdQyDtmNoFw-h35 | titulo=005 - QUADRO_3_FINAL.csv | extraido=2026-06-24 | conta=eduardo@saobentoservicos
+# PROVENIENCIA: verbatim CSV via Drive MCP read_file_content — LPUOS Lei 16.402/2016, Quadro 3 (CA por zona). Separador ';'.
+TIPO DE ZONA;;ZONA (a);;Coeficiente de;;;;Taxa de Ocupação Máxima;;Gabarito de altura máxima (metros);Recuos Mínimos (metros);;;;;Cota parte máxima de terreno por unidade (metros²)
+;;;;Aproveitamento;;;;;;;;;;;;
+;;;;;;;;;;;;Fundos e Laterais;;;;
+;;;;;;;;T.O. para;;;;;Altura da;;Altura da edificação superior a 10 metros;
+;;;C.A.;;C.A.;C.A.;;lotes até;T.O. para lotes;;Frente;;edificação;;;
+;;;mínimo;;básico;máximo;;500;igual ou superior;;(i);;menor ou;;;
+;;;;;;(m);;metros²;a 500 metros²;;;;igual a 10;;;
+;;;;;;;;;;;;;metros;;;
+O Ã Ç A M R O F S N A R T;ZEU;ZEU;0,5;;1;4;;0,85;0,70;NA;NA;NA;;;3 (j);20
+;;ZEUa;NA;;1;2;;0,70;0,50;28;NA;NA;;;3 (j);40
+;ZEUP;ZEUP (b);0,5;;1;2;;0,85;0,70;28;NA;NA;;;3 (j);NA
+;;ZEUPa (c);NA;;1;1;;0,70;0,50;28;NA;NA;;;3 (j);NA
+;ZEM;ZEM;0,5;;1;2 (d);;0,85;0,70;28;NA;NA;;;3 (j);20
+;;ZEMP;0,5;;1;2 (e);;0,85;0,70;28;NA;NA;;;3 (j);40
+O Ã Ç A C FI LI A U Q;ZC;ZC;0,3;;1;2;;0,85;0,70;48;5;NA;;;3 (j);NA
+;;ZCa;NA;;1;1;;0,70;0,70;20;5;NA;;;3 (j);NA
+;;ZC-ZEIS;0,5;;1;2;;0,85;0,70;NA;5;NA;;;3 (j);NA
+;ZCOR;ZCOR-1;0,05;;1;1;;0,50;0,50;10;5;NA;;;3 (j);NA
+;;ZCOR-2;0,05;;1;1;;0,50;0,50;10;5;NA;;;3 (j);NA
+;;ZCOR-3;0,05;;1;1;;0,50;0,50;10;5;NA;;;3 (j);NA
+;;ZCORa;NA;;1;1;;0,50;0,50;10;5;NA;;;3 (j);NA
+;ZM;ZM;0,3;;1;2;;0,85;0,70;28;5;NA;;;3 (j);NA
+;;ZMa;NA;;1;1;;0,70;0,50;15;5;NA;;;3 (j);NA
+;;ZMIS;0,3;;1;2;;0,85;0,70;28;5;NA;;;3 (j);NA
+;;ZMISa;NA;;1;1;;0,70;0,50;15;5;NA;;;3 (j);NA
+;ZEIS;ZEIS-1;0,5;;1;2,5 (f);;0,85;0,70;NA;5;NA;;;3 (j);NA
+;;ZEIS-2;0,5;;1;4 (f);;0,85;0,70;NA;5;NA;;;3 (j);NA
+;;ZEIS-3;0,5;;1;4 (g);;0,85;0,70;NA;5;NA;;;3 (j);NA
+;;ZEIS-4;NA;;1;2 (h);;0,70;0,50;NA;5;NA;;;3 (j);NA
+;;ZEIS-5;0,5;;1;4 (f);;0,85;0,70;NA;5;NA;;;3 (j);NA
+;ZDE;ZDE-1;0,5;;1;2;;0,70;0,70;28;5;NA;;;3 (j);NA
+;;ZDE-2;0,5;;1;2;;0,70;0,50;28;5;3;;;3;NA
+;ZPI;ZPI-1;0,5;;1;1,5;;0,70;0,70;28;5;3;;;3;NA
+;;ZPI-2;NA;;1;1,5;;0,50;0,30;28;5;3;;;3;NA
+O Ã Ç A V R E S E R P;ZPR;ZPR;0,05;;1;1;;0,50;0,50;10;5;NA;;;3;NA
+;ZER;ZER-1;0,05;;1;1;;0,50;0,50;10;5;NA;;;3;NA
+;;ZER-2;0,05;;1;1;;0,50;0,50;10;5;NA;;;3;NA
+;;ZERa;NA;;1;1;;0,50;0,50;10;5;NA;;;3;NA
+;ZPDS;ZPDS;NA;;1;1;;0,35;0,25;20;5;NA;;;3;NA
+;;ZPDSr;NA;;0,2;0,2;;0,20;0,15;10;5;NA;;;3;NA
+;ZEPAM;ZEPAM;NA;;0,1;0,1;;0,10;0,10;10;5;NA;;;3;NA
+E S I A C L )l L ( BE ÚV P A P A E S A S R Á;VERDES;AVP-1;NA;;(k);(k);;(k);(k);28;NA;NA;;;3 (j);NA
+;;AVP-2;NA;;1;1;;0,3;0,3;28;NA;NA;;;3 (j);NA
+;INSTITU CIONAIS;AI;NA;;1;4;;0,85;0,7;28;NA;NA;;;3 (j);NA
+;;AIa;NA;;1;2;;0,5;0,5;15;NA;NA;;;3 (j);NA
+;CLUBES;AC-1;NA;;0,6;0,6;;0,6;0,6;20;5;3;;;3;NA
+;;AC-2;NA;;0,4;0,4;;0,4;0,4;10;5;3;;;3;NA

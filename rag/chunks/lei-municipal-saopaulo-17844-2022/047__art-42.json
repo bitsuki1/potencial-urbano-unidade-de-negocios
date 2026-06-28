@@ -1,0 +1,30 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17844-2022::047-art-42",
+  "lei_id": "lei-municipal-saopaulo-17844-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 42",
+  "numero": "42",
+  "caminho_hierarquico": [
+    "CAPÍTULO IV",
+    "Seção I",
+    "Art. 42"
+  ],
+  "texto": "Art. 42. A regularização das edificações com área construída computável não declarada será\n\ncondicionada ao recolhimento de outorga onerosa, que incidirá somente sobre a área construída\n\ncomputável a regularizar.\n\nhttps://legislacao.prefeitura.sp.gov.br/leis/lei-17844-de-14-de-setembro-de-2022 25/53\n\n03/03/2026, 19:25 LEI Nº 17.844 DE 14 DE SETEMBRO DE 2022 « Catálogo de Legislação Municipal\n\n§ 1º A contrapartida financeira relativa à outorga onerosa de potencial construtivo adicional para fins de\n\nregularização onerosa será calculada pela fórmula trazida no caput do art. 117 da Lei nº 16.050, de\n\n2014, multiplicada pelo fator de regularização (FR):\n\nFR = (CAef / CAmax) + 0,2, onde:\n\nCAef - coeficiente de aproveitamento efetivo do lote;\n\nCAmax - coeficiente de aproveitamento máximo do lote, previsto nesta Lei.\n\n§ 2º O coeficiente de aproveitamento efetivo do lote corresponde à razão entre a área construída\n\ncomputável existente e a área do lote.\n\n§ 3º Na hipótese de pedidos de regularização de edificações de uso exclusivamente não residencial\n\nsituadas na Área de Qualificação Q2, será adotado o coeficiente de aproveitamento máximo igual a 2\n\n(dois).\n\n§ 4º A compensação financeira da contrapartida calculada nos termos do § 1º deste artigo poderá\n\nocorrer mediante a utilização de Certidão de Transferência de Potencial Construtivo.",
+  "citacao": {
+    "norma": "lei municipal nº 17844/2022 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO IV › Seção I › Art. 42",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2022-09-14",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": []
+    }
+  },
+  "tema": [
+    "IPTU"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

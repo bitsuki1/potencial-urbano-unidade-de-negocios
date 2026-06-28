@@ -12,7 +12,7 @@
 > a data. Se esta lista estiver desatualizada, o mecanismo falhou — corrigir antes de seguir.
 >
 > Prioridade: 🟥 produto/valor · 🟦 corpus/RAG · 🟨 higiene/governança · ⬜ qualidade.
-> **Atualizado: 2026-06-27** (auditoria profunda — achados novos B-15..B-19; ver `docs/AUDITORIA-PROFUNDA-2026-06-27.md`).
+> **Atualizado: 2026-06-28** (regularização do Escritório — ABERTAS reconferidas, substância dos itens INALTERADA; B-17 e demais escaladas no laudo `escritorio-do-mou/caixa-de-entrada/potencial-urbano/2026-06-28_potencial-urbano_arrumacao.md`). _Histórico: 2026-06-27 auditoria profunda (B-15..B-19, `docs/AUDITORIA-PROFUNDA-2026-06-27.md`)._
 
 ## 🔴 ABERTAS
 

@@ -1,0 +1,14 @@
+# FONTE: Google Drive fileId=1jer7zuG7cISzczR_zrFMXojmZ6EsfBsE | titulo=PDE2013_SUBST2_Quadro_5_ Fator_interesse_social_Fs.pdf | extraido=2026-06-24 | conta=eduardo@saobentoservicos
+# PROVENIENCIA: verbatim integral via Drive MCP read_file_content
+---
+PLANO DIRETOR ESTRATÉGICO DO MUNICÍPIO DE SÃO PAULO Quadro 5. Fator de interesse social (Fs) Anexo à Lei nº
+
+Usos Valores de Fs Uso Habitacional Habitação de Interesse Social – HIS 0,0 Habitação do Mercado Popular – HMP Até 50 m² 0,4 Habitação do Mercado Popular – HMP de 51 Até 70m² 0,6 Habitação com área até 50 m² 0,8 Habitação com área de 51 Até 70m² 0,9 Habitação com área maior que 70m² 1,0
+
+Uso Institucional Hospitais Públicos 0,0 Escolas Públicas 0,0 Demais Unidades Públicas de Saúde e Creches 0,0 Unidades Administrativas Públicas 0,0 Entidades Privadas de Serviço Social e de Formação Profissional Vinculadas ao Sistema Sindical 0,0 Instituições de Cultura, Esporte e Lazer 0,0
+
+Entidades Mantenedoras Sem Fins Lucrativos Templos Religiosos 0,0 Hospitais e Clínicas 0,3 Universidades 0,3 Escolas e Creches 0,3 Equipamentos Culturais e Afins 0,3
+
+Outras Entidades Mantenedoras Hospitais 0,7 Universidades 0,7 Escolas 0,7 Equipamentos Culturais e Afins 0,7 Outras Atividades 1,0 NOTA: Fator de Interesse Social (Fs) para efeito de cálculo do valor da contrapartida financeira correspondente à outorga onerosa do potencial construtivo adicional
+
+1

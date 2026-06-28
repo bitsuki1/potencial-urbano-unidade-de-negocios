@@ -1,0 +1,30 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17844-2022::010-art-9o",
+  "lei_id": "lei-municipal-saopaulo-17844-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 9º",
+  "numero": "9",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção I",
+    "Art. 9º"
+  ],
+  "texto": "Art. 9º Os empreendimentos sujeitos aos regramentos desta Lei deverão implantar indivíduos arbóreos\n\nem, ao menos, 50% (cinquenta por cento) da área permeável do lote na proporção mínima de um\n\nindivíduo para cada 25m² (vinte e cinco metros quadrados) de área permeável.\n\n§ 1º Quando adotado ou exigido o recuo frontal, a arborização mencionada no caput deverá ser\n\nimplantada em área permeável ajardinada, visível do logradouro público e sem vedação do lote com\n\nmuros nesse trecho.\n\n§ 2º O atendimento à exigência prevista no caput é facultativo no caso de terrenos com área inferior a\n\n500m² (quinhentos metros quadrados).",
+  "citacao": {
+    "norma": "lei municipal nº 17844/2022 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO II › Seção I › Art. 9º",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2022-09-14",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": []
+    }
+  },
+  "tema": [
+    "IPTU"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

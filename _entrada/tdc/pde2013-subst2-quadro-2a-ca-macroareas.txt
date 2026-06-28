@@ -1,0 +1,48 @@
+# FONTE: Google Drive fileId=1D0bge5O8yc60b8pHV4foQSrXF1kuw-Ax | titulo=PDE2013_SUBST2_Quadro_2A_CA_Macroareas.pdf | extraido=2026-06-24 | conta=eduardo@saobentoservicos
+# PROVENIENCIA: verbatim integral via Drive MCP read_file_content
+---
+PLANO DIRETOR ESTRATÉGICO DO MUNICÍPIO DE SÃO PAULO Quadro 02A. Características de Aproveitamento Construtivo por Macroárea (aplicáveis fora das áreas de influência dos Eixos de Estruturação da Transformação Urbana)
+
+Macrozonas Macroáreas
+
+(a)
+
+Coeficiente de aproveitamento Gabarito da
+
+edificação (m)
+
+Número
+
+mínimo básico máximo (b) (c) (d)
+
+máximo de pavimentos Macrozona de Estruturação
+
+e Qualificação Urbana
+
+Arco Tietê 0,5 (e) 1 2 28 Térreo mais 8 Centro 0,5 (e) 1 2 28 Térreo mais 8 Arco Jurubatuba 0,5 (e) 1 2 28 Térreo mais 8 Arco Pinheiros 0,5 (e) 1 2 28 Térreo mais 8 Arco Tamanduateí 0,5 (e) 1 2 28 Térreo mais 8 Faria Lima/ Águas Espraiadas/ Chucri Zaidan 0,5 (e) 1 2 28 Térreo mais 8 Arco Jacu-Pêssego 0,5 (e) 1 2 28 Térreo mais 8 Avenida Cupecê 0,5 (e) 1 2 28 Térreo mais 8 Arco Leste 0,3 1 2 28 Térreo mais 8 Noroeste 0,3 1 2 28 Térreo mais 8 Fernão Dias 0,3 1 2 28 Térreo mais 8 Urbanização Consolidada 0,3 1 2 28 Térreo mais 8 Qualificação da Urbanização 0,3 1 2 28 Térreo mais 8 Redução da Vulnerabilidade 0,3 1 2 28 Térreo mais 8
+
+Macrozona de Proteção e Recuperação Ambiental (f)
+
+Estruturação Metropolitana
+
+Fora da área de
+
+Redução da Vulnerabilidade Urbana e Recuperação Ambiental NA 1 1 15 Térreo mais 4 proteção aos
+
+Controle e Qualificação Urbana e Ambiental NA 1 1 15 Térreo mais 4 mananciais
+
+Preservação de Ecossistemas Naturais NA NA NA NA NA
+
+Área de proteção aos mananciais (f)
+
+(VETADO) Redução da Vulnerabilidade Urbana e Recuperação Ambiental NA 0,1 0,1 15 (g) Térreo mais 4 (VETADO) Controle e Qualificação Urbana e Ambiental NA 0,1 0,1 15 (g) Térreo mais 4 Contenção Urbana e Uso Sustentável NA 0,1 0,1 15 (g) NA Preservação de Ecossistemas Naturais NA NA NA NA NA NOTA: a) Exceto ZEP, ZEPAM, ZEIS e ZER-1 e demais zonas onde a Lei nº 13.885/2004 definiu parâmetros mais restritivos, até a revisão da LPUOS. b) O coeficiente de aproveitamento máximo poderá ser acrescido em 25% (vinte e cinco por cento) para EHMP e 50% (cinquenta por cento) para EHIS. c) Os coeficientes de aproveitamento máximo, o gabarito de altura da edificação e o número máximo de pavimentos poderão ser ultrapassados nas áreas de abrangência das operações urbanas consorciadas e com a utilização das leis nos 8.006/1974 (hotéis), 13.703/2003 (teatros), 14.242/2006 (hotéis), 15.526/2012 (hospitais e escolas) e nos empreendimentos que se beneficiarem de acréscimo da área computável obtido pela aplicação da Cota de Solidariedade. d) Nos perímetros de incentivo ao desenvolvimento econômico Jacu-Pêssego e Cupecê, o coeficiente de aproveitamento máximo é igual a 4 (quatro), de acordo com o Mapa 11 desta lei e não se aplicam o gabarito da edificação e o número máximo de pavimentos, de acordo com o artigo 364 desta lei. e) As leis específicas de operações urbanas consorciadas poderão estabelecer coeficientes mínimos superiores ao estabelecido neste quadro, até o limite do coeficiente básico. f) Aplica-se a legislação estadual pertinente, especialmente as leis específicas das Bacias Billings e Guarapiranga
+
+1
+
+g) No caso de eventual divergência nos limites de gabarito estabelecidos neste PDE, prevalece o disposto na legislação estadual das Bacias Billings e Guarapiranga onde aplicável.
+
+Razão de veto: No Quadro 2-A, Características de Aproveitamento Construtivo por Macroárea, os itens “Controle e Qualificação Urbana e Ambiental” e “Redução da Vulnerabilidade Urbana e Recuperação
+
+Ambiental”, relacionados na classe “Área de Proteção de Mananciais”, em decorrência de erro material no coeficiente de aproveitamento previsto, qual seja, constou 0,1 para os referidos itens, ao invés de 1.
+
+2

@@ -1,0 +1,8 @@
+# Amostra de ENTRADA do estagio E5 (gerar_alvos). SQ+Codlog REAIS do Quadro 14; zona/area_adicional ilustrativos ate o JOIN geo+IPTU existir. dono/endereco vem de socios.csv/IPTU_2026 (Supabase).
+sql,codlog,zona,area_adicional,fp,fs,dono,endereco
+001003,038121,ZEU,1000,1.2,1.0,(a resolver via socios.csv),(via IPTU_2026)
+001003,061565,ZM,1000,1.2,1.0,(a resolver via socios.csv),(via IPTU_2026)
+001003,104850,ZC,1000,1.2,1.0,(a resolver via socios.csv),(via IPTU_2026)
+001003,189936,ZEIS-2,1000,1.2,1.0,(a resolver via socios.csv),(via IPTU_2026)
+001004,016730,ZEU,1000,1.2,1.0,(a resolver via socios.csv),(via IPTU_2026)
+001004,038121,ZM,1000,1.2,1.0,(a resolver via socios.csv),(via IPTU_2026)

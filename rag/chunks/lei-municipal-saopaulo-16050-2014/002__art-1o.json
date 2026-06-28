@@ -1,0 +1,34 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16050-2014::002-art-1o",
+  "lei_id": "lei-municipal-saopaulo-16050-2014",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 1º",
+  "numero": "1",
+  "caminho_hierarquico": [
+    "TÍTULO I",
+    "CAPÍTULO I",
+    "Art. 1º"
+  ],
+  "texto": "Art. 1º Esta lei dispõe sobre a Política de Desenvolvimento Urbano, o Sistema de Planejamento Urbano e o Plano Diretor\n\nEstratégico do Município de São Paulo e aplica-se à totalidade do seu território.\n\n§ 1º A Política de Desenvolvimento Urbano é o conjunto de planos e ações que tem como objetivo ordenar o pleno\n\ndesenvolvimento das funções sociais da cidade e o uso socialmente justo e ecologicamente equilibrado e diversificado de seu\n\nterritório, de forma a assegurar o bem-estar e a qualidade de vida de seus habitantes.\n\n§ 2º O Sistema de Planejamento Urbano corresponde ao conjunto de órgãos, normas, recursos humanos e técnicos que tem como\n\nobjetivo coordenar as ações referentes ao desenvolvimento urbano, de iniciativa dos setores público e privado, integrando-as com\n\nos diversos programas setoriais, visando à dinamização e à modernização da ação governamental.\n\n§ 3º O Plano Diretor Estratégico é o instrumento básico da Política de Desenvolvimento Urbano do Município de São Paulo,\n\ndeterminante para todos os agentes públicos e privados que atuam em seu território.\n\n§ 4º Os conceitos utilizados nesta lei estão definidos no Quadro 1.",
+  "citacao": {
+    "norma": "lei municipal nº 16050/2014 — São Paulo - SP",
+    "dispositivo": "TÍTULO I › CAPÍTULO I › Art. 1º",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2014-07-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 95 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2014-07-31. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

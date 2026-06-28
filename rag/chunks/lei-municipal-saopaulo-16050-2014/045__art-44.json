@@ -1,0 +1,35 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16050-2014::045-art-44",
+  "lei_id": "lei-municipal-saopaulo-16050-2014",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 44",
+  "numero": "44",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO II",
+    "Seção IV",
+    "Art. 44"
+  ],
+  "texto": "Art. 44. As Zonas Especiais de Interesse Social (ZEIS), demarcadas nos Mapas 4 e 4A, são porções do território destinadas,\n\npredominantemente, à moradia digna para a população da baixa renda por intermédio de melhorias urbanísticas, recuperação\n\nambiental e regularização fundiária de assentamentos precários e irregulares, bem como à provisão de novas Habitações de\n\nInteresse Social – HIS e Habitações de Mercado Popular – HMP a serem dotadas de equipamentos sociais, infraestruturas, áreas\n\nverdes e comércios e serviços locais, situadas na zona urbana.\n\n§ 1º Para efeito da disciplina de parcelamento, uso e ocupação do solo, as disposições relativas às ZEIS prevalecem sobre aquelas\n\nreferentes a qualquer outra zona de uso incidente sobre o lote ou gleba.\n\nhttps://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 24/166\n\n27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal\n\n§ 2º Nas ZEIS, o agente promotor público e privado deve comprovar o atendimento aos percentuais mínimos de área construída\n\npor faixas de renda, referente à HIS 1, em ZEIS 1, ZEIS 2, ZEIS 3 e ZEIS 4, e de HIS em ZEIS 5 estabelecidos no Quadro 4 da\n\npresente lei.\n\n§ 3º Novas ZEIS podem ser demarcadas na revisão da legislação de Parcelamento, Uso e Ocupação do Solo.",
+  "citacao": {
+    "norma": "lei municipal nº 16050/2014 — São Paulo - SP",
+    "dispositivo": "TÍTULO II › CAPÍTULO II › Seção IV › Art. 44",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2014-07-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 95 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2014-07-31. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

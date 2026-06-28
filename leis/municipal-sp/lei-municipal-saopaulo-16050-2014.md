@@ -1,14 +1,7172 @@
-# Lei Municipal nº 16.050, de 31 de julho de 2014 — São Paulo/SP
+# LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
 
-**URL oficial:** https://legislacao.prefeitura.sp.gov.br/lei-16050-de-31-de-julho-de-2014
-**Data de captura:** 2026-06-18
-
-> PROVENIENCIA: texto NAO-VERBATIM. O ambiente (sandbox) bloqueia WebFetch e curl para todos os hosts juridicos (.gov.br/.com.br/JusBrasil/leismunicipais retornam HTTP 403 por anti-bot, e o egress allowlist do shell bloqueia ate example.com). Conteudo abaixo foi extraido via WebSearch (resumos sourced do buscador), NAO do corpo integral da norma. REQUER re-captura verbatim do Catalogo de Legislacao Municipal a partir de ambiente com egress liberado. confianca_extracao=baixa.
+**Proveniência:** VERBATIM via Google Drive (fileId=1wOSDStL2wPYQTB7hxXea354QH1VQxdh2), conta eduardo@saobentoservicos, re-ingerido 2026-06-24 de `_entrada/tdc/lei-no-16-050-de-31-de-julho-de-2014-catalogo-de-legislacao-municipal.txt`. PDF com camada de texto (sem OCR). Extração pura (1.2), nada interpretado.
+**confianca_extracao:** alta (articulado integral verbatim)
 
 ## Ementa
 
-Aprova a Política de Desenvolvimento Urbano e o Plano Diretor Estratégico do Município de São Paulo (PDE) e revoga a Lei nº 13.430, de 2002.
+(ver texto integral)
 
-## Conteudo (resumo sourced, nao-verbatim)
+## Texto integral (verbatim)
 
-Plano Diretor Estrategico (PDE) de Sao Paulo. Aprova a Politica de Desenvolvimento Urbano, ordena o territorio em macrozonas e redes, e disciplina o uso do solo e sistemas urbanos/ambientais. Define a Funcao Social da Propriedade Urbana (coeficientes minimos de utilizacao - Quadros 2 e 2A). Instrumentos contra ociosidade/retencao especulativa: Parcelamento, Edificacao e Utilizacao Compulsorios (PEUC) e IPTU Progressivo no Tempo — se nao cumpridos os prazos do PEUC, a aliquota do IPTU e majorada ano a ano ate o limite de 15% (fundamento: Estatuto da Cidade, Lei Federal 10.257/2001). Revoga a Lei 13.430/2002. Texto integral e quadros NAO verbatim.
+LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal 
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+LEI Nº 16.050 DE 31 DE JULHO DE 2014
+
+RAZÕES DO VETO REGULAMENTAÇÕES ALTERAÇÕES REVOGAÇÕES CORRELAÇÕES
+
+ANEXOS TEMAS RELACIONADOS
+
+Aprova a Política de Desenvolvimento Urbano e o Plano Diretor
+
+Estratégico do Município de São Paulo e revoga a Lei nº
+
+13.430/2002.
+
+LEI Nº 16.050, DE 31 DE JULHO DE 2014
+
+(Projeto de Lei nº 688/13, do Executivo, aprovado na forma de Substitutivo do Legislativo)
+
+Aprova a Política de Desenvolvimento Urbano e o Plano Diretor Estratégico do Município de São Paulo e revoga a Lei nº
+
+13.430/2002.
+
+FERNANDO HADDAD, Prefeito do Município de São Paulo, no uso das atribuições que lhe são conferidas por lei, faz saber que a
+
+Câmara Municipal, em sessão de 2 de julho de 2014, decretou e eu promulgo a seguinte lei:
+
+TÍTULO I
+
+DA ABRANGÊNCIA, DOS CONCEITOS, PRINCÍPIOS E OBJETIVOS
+
+CAPÍTULO I
+
+DA ABRANGÊNCIA E DOS CONCEITOS
+
+Art. 1º Esta lei dispõe sobre a Política de Desenvolvimento Urbano, o Sistema de Planejamento Urbano e o Plano Diretor
+
+Estratégico do Município de São Paulo e aplica-se à totalidade do seu território.
+
+§ 1º A Política de Desenvolvimento Urbano é o conjunto de planos e ações que tem como objetivo ordenar o pleno
+
+desenvolvimento das funções sociais da cidade e o uso socialmente justo e ecologicamente equilibrado e diversificado de seu
+
+território, de forma a assegurar o bem-estar e a qualidade de vida de seus habitantes.
+
+§ 2º O Sistema de Planejamento Urbano corresponde ao conjunto de órgãos, normas, recursos humanos e técnicos que tem como
+
+objetivo coordenar as ações referentes ao desenvolvimento urbano, de iniciativa dos setores público e privado, integrando-as com
+
+os diversos programas setoriais, visando à dinamização e à modernização da ação governamental.
+
+§ 3º O Plano Diretor Estratégico é o instrumento básico da Política de Desenvolvimento Urbano do Município de São Paulo,
+
+determinante para todos os agentes públicos e privados que atuam em seu território.
+
+§ 4º Os conceitos utilizados nesta lei estão definidos no Quadro 1.
+
+Art. 2º A presente lei tem como base os fundamentos expressos na Constituição Federal, no Estatuto da Cidade e na Lei Orgânica
+
+do Município de São Paulo.
+
+§ 1º O Plano Diretor deverá considerar o disposto nos planos e leis nacionais e estaduais relacionadas às políticas de
+
+desenvolvimento urbano, incluindo saneamento básico, habitação, mobilidade e ordenamento territorial, e à política de meio
+
+ambiente.
+
+§ 2º O Plano Diretor deve se articular com o planejamento metropolitano e com os planos dos demais municípios da Região
+
+Metropolitana.
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 1/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+§ 3º A aplicação desta Lei será orientada pelos Objetivos do Desenvolvimento Sustentável – ODS da Agenda 2030 para o
+
+Desenvolvimento Sustentável, bem como pelas ações para o enfrentamento das Mudanças Climáticas, em conformidade com
+
+acordos internacionais.(Incluído pela Lei nº 17.975/2023)
+
+Art. 3º O Plano Diretor Estratégico orienta o planejamento urbano municipal e seus objetivos, diretrizes e prioridades devem ser
+
+respeitados pelos seguintes planos e normas:
+
+I - Plano Plurianual, Lei de Diretrizes Orçamentárias, Lei Orçamentária Anual, o Programa de Metas e o Plano de Ação para
+
+implementação da Agenda Municipal 2030;(Redação dada pela Lei nº 17.975/2023)
+
+II - Lei de Parcelamento, Uso e Ocupação do Solo, Planos Regionais das Subprefeituras, Planos de Bairros, planos setoriais de
+
+políticas urbano-ambientais e demais normas correlatas.
+
+III - Plano Municipal Cidade Inteligente.(Incluído pela Lei nº 17.975/2023)
+
+Art. 4º Os objetivos previstos neste Plano Diretor devem ser alcançados até 2029.
+
+Parágrafo único. O Executivo deverá encaminhar à Câmara Municipal proposta de revisão deste Plano Diretor, a ser elaborada de
+
+forma participativa, em 2021.
+
+CAPÍTULO II
+
+DOS PRINCÍPIOS, DIRETRIZES E OBJETIVOS
+
+Art. 5º Os princípios que regem a Política de Desenvolvimento Urbano e o Plano Diretor Estratégico são:
+
+I - Função Social da Cidade;
+
+II - Função Social da Propriedade Urbana;
+
+III - Função Social da Propriedade Rural;
+
+IV - Equidade e Inclusão Social e Territorial;
+
+V - Direito à Cidade;
+
+VI - Direito ao Meio Ambiente Ecologicamente Equilibrado;
+
+VII - Gestão Democrática.
+
+§ 1º Função Social da Cidade compreende o atendimento das necessidades dos cidadãos quanto à qualidade de vida, à justiça
+
+social, ao acesso universal aos direitos sociais e ao desenvolvimento socioeconômico e ambiental, incluindo o direito à terra
+
+urbana, à moradia digna, ao saneamento ambiental, à infraestrutura urbana, ao transporte, aos serviços públicos, ao trabalho, ao
+
+sossego e ao lazer.
+
+§ 2º Função Social da Propriedade Urbana é elemento constitutivo do direito de propriedade e é atendida quando a propriedade
+
+cumpre os critérios e graus de exigência de ordenação territorial estabelecidos pela legislação, em especial atendendo aos
+
+coeficientes mínimos de utilização determinados nos Quadros 2 e 2A desta lei.
+
+§ 3º Função Social da Propriedade Rural é elemento constitutivo do direito de propriedade e é atendida quando, simultaneamente,
+
+a propriedade é utilizada de forma racional e adequada, conservando seus recursos naturais, favorecendo o bem-estar dos
+
+proprietários e dos trabalhadores e observando as disposições que regulam as relações de trabalho.
+
+§ 4º Equidade Social e Territorial compreende a garantia da justiça social a partir da redução das vulnerabilidades urbanas e das
+
+desigualdades sociais entre grupos populacionais e entre os distritos e bairros do Município de São Paulo.
+
+§ 5º Direito à Cidade compreende o processo de universalização do acesso aos benefícios e às comodidades da vida urbana por
+
+parte de todos os cidadãos, seja pela oferta e uso dos serviços, equipamentos e infraestruturas públicas.
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 2/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+§ 6º Direito ao Meio Ambiente Ecologicamente Equilibrado é o direito sobre o patrimônio ambiental, bem de uso comum e essencial
+
+à sadia qualidade de vida, constituído por elementos do sistema ambiental natural e do sistema urbano de forma que estes se
+
+organizem equilibradamente para a melhoria da qualidade ambiental e bem-estar humano.
+
+§ 7º Gestão Democrática é a garantia da participação de representantes dos diferentes segmentos da população, diretamente ou
+
+por intermédio de associações representativas, nos processos de planejamento e gestão da cidade, de realização de investimentos
+
+públicos e na elaboração, implementação e avaliação de planos, programas e projetos de desenvolvimento urbano.
+
+Art. 6º A Política de Desenvolvimento Urbano e o Plano Diretor Estratégico se orientam pelas seguintes diretrizes:
+
+I - justa distribuição dos benefícios e ônus do processo de urbanização;
+
+II - retorno para a coletividade da valorização de imóveis decorrente dos investimentos públicos e das alterações da legislação de
+
+uso e ocupação do solo;
+
+III - distribuição de usos e intensidades de ocupação do solo de forma equilibrada, para evitar ociosidade ou sobrecarga em relação
+
+à infraestrutura disponível, aos transportes e ao meio ambiente, e para melhor alocar os investimentos públicos e privados;
+
+IV - compatibilização da intensificação da ocupação do solo com a ampliação da capacidade de infraestrutura para atender às
+
+demandas atuais e futuras;
+
+V - adequação das condições de uso e ocupação do solo às características do meio físico, para impedir a deterioração e
+
+degeneração de áreas do Município;
+
+VI - proteção da paisagem dos bens e áreas de valor histórico, cultural e religioso, dos recursos naturais e dos mananciais hídricos
+
+superficiais e subterrâneos de abastecimento de água do Município;
+
+VII - utilização racional dos recursos naturais, em especial da água e do solo, de modo a garantir uma cidade sustentável para as
+
+presentes e futuras gerações;
+
+VIII - adoção de padrões de produção e consumo de bens e serviços compatíveis com os limites da sustentabilidade ambiental,
+
+social e econômica do Município;
+
+IX - planejamento da distribuição espacial da população e das atividades econômicas de modo a evitar e corrigir as distorções do
+
+crescimento urbano e seus efeitos negativos sobre o meio ambiente, a mobilidade e a qualidade de vida urbana e segurança
+
+pública municipal;(Redação dada pela Lei nº 17.975/2023)
+
+X - incentivo à produção de Habitação de Interesse Social, de equipamentos sociais e culturais e à proteção e ampliação de áreas
+
+livres e verdes;
+
+XI - prioridade no sistema viário para o transporte coletivo e modos não motorizados;
+
+XII - revisão e simplificação da legislação de Parcelamento, Uso e Ocupação do Solo e das normas edilícias, com vistas a
+
+aproximar a legislação da realidade urbana, assim como facilitar sua compreensão pela população;
+
+XIII - ordenação e controle do uso do solo, de forma a evitar:
+
+a) a proximidade ou conflitos entre usos incompatíveis ou inconvenientes;
+
+b) o parcelamento, a edificação ou o uso excessivos ou inadequados do solo em relação à infraestrutura urbana;
+
+c) a instalação de empreendimentos ou atividades que possam funcionar como polos geradores de tráfego, sem a previsão da
+
+infraestrutura correspondente;
+
+d) a retenção especulativa de imóvel urbano, que resulta na sua subutilização ou não utilização;
+
+e) a deterioração das áreas urbanizadas e os conflitos entre usos e a função das vias que lhes dão acesso;
+
+f) a poluição e a degradação ambiental;
+
+g) a excessiva ou inadequada impermeabilização do solo;
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 3/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+h) o uso inadequado dos espaços públicos;
+
+XIV - cooperação entre os governos, a iniciativa privada e os demais setores da sociedade no processo de urbanização, em
+
+atendimento ao interesse social.
+
+Art. 7º A Política de Desenvolvimento Urbano e o Plano Diretor Estratégico se orientam pelos seguintes objetivos estratégicos:
+
+I - conter o processo de expansão horizontal da aglomeração urbana, contribuindo para preservar o cinturão verde metropolitano;
+
+II - acomodar o crescimento urbano nas áreas subutilizadas dotadas de infraestrutura e no entorno da rede de transporte coletivo
+
+de alta e média capacidade;
+
+III - reduzir a necessidade de deslocamento, equilibrando a relação entre os locais de emprego e de moradia;
+
+IV - expandir as redes de transporte coletivo de alta e média capacidade e os modos não motorizados, racionalizando o uso de
+
+automóvel;
+
+V - implementar uma política fundiária e de uso e ocupação do solo que garanta o acesso à terra para as funções sociais da cidade
+
+e proteja o patrimônio ambiental e cultural;
+
+VI - reservar glebas e terrenos, em áreas dotadas de infraestrutura e transportes coletivos, em quantidade suficiente para atender
+
+ao déficit acumulado e às necessidades futuras de habitação social;
+
+VII - promover a regularização e a urbanização de assentamentos precários;
+
+VIII - contribuir para a universalização do abastecimento de água, a coleta e o tratamento ambientalmente adequado dos esgotos e
+
+dos resíduos sólidos;
+
+IX - ampliar e requalificar os espaços públicos, as áreas verdes e permeáveis e a paisagem;
+
+X - proteger as áreas de preservação permanente, as unidades de conservação, as áreas de proteção dos mananciais e a
+
+biodiversidade;
+
+XI - contribuir para mitigação de fatores antropogênicos que contribuem para a mudança climática, inclusive por meio da redução e
+
+remoção de gases de efeito estufa, da utilização de fontes renováveis de energia e da construção sustentável, e para a adaptação
+
+aos efeitos reais ou esperados das mudanças climáticas;
+
+XII - proteger o patrimônio histórico, cultural e religioso e valorizar a memória, o sentimento de pertencimento à cidade e a
+
+diversidade;
+
+XIII - reduzir as desigualdades socioterritoriais para garantir, em todos os distritos da cidade, o acesso a equipamentos sociais, a
+
+infraestrutura e serviços urbanos;
+
+XIV - fomentar atividades econômicas sustentáveis, fortalecendo as atividades já estabelecidas e estimulando a inovação, o
+
+empreendedorismo, a economia solidária e a redistribuição das oportunidades de trabalho no território, tanto na zona urbana como
+
+na rural;
+
+XV - fortalecer uma gestão urbana integrada, descentralizada e participativa;
+
+XVI - recuperar e reabilitar as áreas centrais da cidade;
+
+XVII - garantir que os planos setoriais previstos neste Plano Diretor Estratégico sejam articulados de modo transversal e
+
+intersetorial. Parágrafo único. Os objetivos estratégicos se desdobram em objetivos por porções homogêneas de território,
+
+estabelecidos por macroáreas, e nos objetivos estratégicos das políticas urbanas setoriais, definidas nesta lei.
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 4/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+TÍTULO II
+
+DA ORDENAÇÃO TERRITORIAL
+
+CAPÍTULO I
+
+DA ESTRUTURAÇÃO E ORDENAÇÃO TERRITORIAL
+
+Art. 8º Para garantir um desenvolvimento urbano sustentável e equilibrado entre as várias visões existentes no Município sobre seu
+
+futuro, o Plano Diretor observa e considera, em sua estratégia de ordenamento territorial, as seguintes cinco dimensões:
+
+I - a dimensão social, fundamental para garantir os direitos sociais para todos os cidadãos, em especial, o direito à moradia, à
+
+mobilidade, à infraestrutura básica e ao acesso aos equipamentos sociais;
+
+II - a dimensão ambiental, fundamental para garantir o necessário equilíbrio entre as áreas edificadas e os espaços livres e verdes
+
+no interior da área urbanizada e entre esta e as áreas preservadas e protegidas no conjunto do Município;
+
+III - a dimensão imobiliária, fundamental para garantir a produção dos edifícios destinados à moradia e ao trabalho;
+
+IV - a dimensão econômica, fundamental para garantir as atividades produtivas, comerciais e/ou de serviços indispensáveis para
+
+gerar trabalho e renda;
+
+V - a dimensão cultural, fundamental para garantir a memória, a identidade e os espaços culturais e criativos, essenciais para a
+
+vida das cidadãs e dos cidadãos.
+
+VI - a dimensão climática, fundamental para diminuir a emissão de gases de efeito estufa e para promover a adaptação aos
+
+impactos adversos da mudança do clima e combater o aquecimento global, de modo a facultar a manutenção do funcionamento
+
+dos ecossistemas e garantir o conforto ambiental no Município.(Incluído pela Lei nº 17.975/2023)
+
+Art. 9º A estratégia territorial do Plano Diretor, na perspectiva de observar de maneira equilibrada as dimensões definidas no artigo
+
+anterior e, ainda, os princípios, diretrizes e objetivos da Política Urbana, estrutura-se a partir dos seguintes elementos:
+
+I - macrozonas e macroáreas, áreas homogêneas que orientam, ao nível do território, os objetivos específicos de desenvolvimento
+
+urbano e a aplicação dos instrumentos urbanísticos e ambientais;
+
+II - rede de estruturação e transformação urbana, onde se concentram as transformações estratégicas propostas pelo Plano
+
+Diretor, composta pelos seguintes elementos estruturadores do território:
+
+a) Macroárea de Estruturação Metropolitana, que tem um papel estratégico na reestruturação urbana no Município por apresentar
+
+grande potencial de transformação urbana, que precisa ser planejado e equilibrado;
+
+b) rede estrutural de transporte coletivo, definidora dos eixos de estruturação da transformação urbana, ao longo da qual se propõe
+
+concentrar o processo de adensamento demográfico e urbano e qualificar o espaço público;
+
+c) rede hídrica e ambiental constituída pelo conjunto de cursos d´água, cabeceiras de drenagem, nascentes, olhos d´água,
+
+represas e lagos naturais e artificiais, planícies aluviais e águas subterrâneas e pelo conjunto de parques, unidades de
+
+conservação, áreas verdes e áreas protegidas, localizados em todo o território do Município, que constituem seu arcabouço
+
+ambiental e desempenham funções estratégicas para garantir o equilíbrio e a sustentabilidade urbanos;(Redação dada pela Lei nº
+
+17.975/2023)
+
+d) rede de estruturação local, que articula as políticas públicas setoriais no território indispensáveis para garantir os direitos de
+
+cidadania e reduzir a desigualdade socioterritorial e gerar novas centralidades em regiões menos estruturadas, além de qualificar
+
+as existentes.
+
+Parágrafo único. Fica o território do Município de São Paulo dividido nas seguintes macrozonas, cada uma delas subdividas em
+
+quatro macroáreas, conforme Mapas 1 e 2, anexos:
+
+I - Macrozona de Estruturação e Qualificação Urbana;
+
+II - Macrozona de Proteção e Recuperação Ambiental.
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 5/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+Seção I
+
+Da Macrozona de Estruturação e Qualificação Urbana
+
+Art. 10. A Macrozona de Estruturação e Qualificação Urbana, situada integralmente na Zona Urbana, apresenta grande diversidade
+
+de padrões de uso e ocupação do solo, desigualdade socioespacial, padrões diferenciados de urbanização e é a área do Município
+
+mais propícia para abrigar os usos e atividades urbanos.
+
+§ 1º Para orientar o desenvolvimento urbano e dirigir a aplicação dos instrumentos urbanísticos e jurídicos para atingir os objetivos
+
+específicos, a Macrozona de Estruturação e Qualificação Urbana subdivide-se em 4 (quatro) macroáreas, delimitadas no Mapa 2
+
+anexo:
+
+I - Macroárea de Estruturação Metropolitana;
+
+II - Macroárea de Urbanização Consolidada;
+
+III - Macroárea de Qualificação da Urbanização;
+
+IV - Macroárea de Redução da Vulnerabilidade Urbana.
+
+§ 2º Os objetivos da Macrozona de Estruturação e Qualificação Urbana são:
+
+I - promoção da convivência mais equilibrada entre a urbanização e a conservação ambiental, entre mudanças estruturais
+
+provenientes de grandes obras públicas e privadas e as condições de vida dos moradores;
+
+II - compatibilidade do uso e ocupação do solo com a oferta de sistemas de transporte coletivo e de infraestrutura para os serviços
+
+públicos;
+
+III - orientação dos processos de reestruturação urbana de modo a repovoar os espaços com poucos moradores, fortalecer as
+
+bases da economia local e regional, aproveitar a realização de investimentos públicos e privados em equipamentos e
+
+infraestruturas para melhorar as condições dos espaços urbanos e atender necessidades sociais, respeitando as condicionantes do
+
+meio físico e biótico e as características dos bens e áreas de valor histórico, cultural, religioso e ambiental;
+
+IV - eliminação e redução das situações de vulnerabilidades urbanas que expõem diversos grupos sociais, especialmente os de
+
+baixa renda como pessoas em situação de rua, catadores e trabalhadores ambulantes, a situações de riscos, perigos e ameaças;
+
+V - diminuição das desigualdades na oferta e distribuição dos serviços, equipamentos e infraestruturas urbanas entre os distritos;
+
+VI - desconcentração das oportunidades de trabalho, emprego e renda, beneficiando os bairros periféricos;
+
+VII - manutenção, proteção e requalificação das zonas exclusivamente residenciais consideradas as disposições dos arts. 27 e 33
+
+desta lei.
+
+Subseção I
+
+Da Macroárea de Estruturação Metropolitana
+
+Art. 11. A Macroárea de Estruturação Metropolitana abrange áreas das planícies fluviais dos rios Tietê, Pinheiros e Tamanduateí,
+
+com articulação com o Centro e prolongamento junto às avenidas Jacu-Pêssego, Cupecê e Raimundo Pereira de Magalhães e das
+
+rodovias Anhanguera e Fernão Dias e caracteriza-se pela existência de vias estruturais, sistema ferroviário e rodovias que
+
+articulam diferentes municípios e polos de empregos da Região Metropolitana de São Paulo, onde se verificam processos de
+
+transformação econômica e de padrões de uso e ocupação do solo, com a necessidade de equilíbrio na relação entre emprego e
+
+moradia.
+
+Parágrafo único. As porções dos territórios que integram a Macroárea de Estruturação Metropolitana passam por processos de
+
+mudanças nos padrões de uso e ocupação e conversão econômica, com concentração de oportunidades de trabalho e emprego
+
+geradas pela existência de legados industriais herdados do passado, novas atividades produtivas, polos de atividades terciárias,
+
+grandes vias estruturais e infraestruturas que fazem parte dos sistemas de transporte coletivo de massa.
+
+Art. 12. A Macroárea de Estruturação Metropolitana é composta por três setores, conforme Mapa 2A, agregados a partir de dez
+
+subsetores distintos:
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 6/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+I - Setor Orla Ferroviária e Fluvial, formado pelos seguintes subsetores:
+
+a) Arco Leste;
+
+b) Arco Tietê;
+
+c) Arco Tamanduateí;
+
+d) Arco Pinheiros;
+
+e) Arco Faria Lima - Águas Espraiadas - Chucri Zaidan;
+
+f) Arco Jurubatuba;
+
+II - Setor Eixos de Desenvolvimento, formado pelos seguintes subsetores:
+
+a) Arco Jacu-Pêssego;
+
+b) Avenida Cupecê;
+
+c) Noroeste - Avenida Raimundo Pereira de Magalhães e Rodovia Anhanguera;
+
+d) Fernão Dias;
+
+III - Setor Central, organizado a partir do território da Operação Urbana Centro e entorno.
+
+§ 1º Os objetivos específicos a serem alcançados no Setor Orla Ferroviária e Fluvial da Macroárea de Estruturação Metropolitana
+
+são:
+
+I - transformações estruturais orientadas para o maior aproveitamento da terra urbana com o aumento nas densidades construtiva
+
+e demográfica e implantação de novas atividades econômicas de abrangência metropolitana, atendendo a critérios de
+
+sustentabilidade e garantindo a proteção do patrimônio arquitetônico e cultural, em especial o ferroviário e o industrial;
+
+II - recuperação da qualidade dos sistemas ambientais existentes, especialmente dos rios, córregos e áreas vegetadas,
+
+articulando-os adequadamente com os sistemas urbanos, principalmente de drenagem, saneamento básico e mobilidade, com
+
+especial atenção à recuperação das planícies fluviais e mitigação das ilhas de calor;
+
+III - manutenção da população moradora, inclusive através da promoção da urbanização e regularização fundiária de
+
+assentamentos precários e irregulares ocupados pela população de baixa renda com oferta adequada de serviços, equipamentos e
+
+infraestruturas urbanas;
+
+IV - produção de HIS e HMP;
+
+V - incremento e qualificação da oferta de diferentes sistemas de transporte coletivo, articulando-os aos modos não motorizados de
+
+transporte e promovendo melhorias na qualidade urbana e ambiental do entorno;
+
+VI - regulação da produção imobiliária para captura, pela municipalidade, da valorização imobiliária decorrente de investimentos
+
+públicos, para financiamento de melhorias e benefícios públicos;
+
+VII - redefinição dos parâmetros de uso e ocupação do solo para qualificação dos espaços públicos e da paisagem urbana;
+
+VIII - minimização dos problemas das áreas com riscos geológico-geotécnicos e de inundações e solos contaminados,
+
+acompanhada da prevenção do surgimento de novas situações de vulnerabilidade;
+
+IX - compatibilização de usos e tipologias de parcelamento do solo urbano com as condicionantes geológico-geotécnicas e
+
+hidrológicas;
+
+X - recuperação, preservação e proteção de imóveis relacionados ao patrimônio industrial e ferroviário, bem como locais de
+
+referência da memória operária, incentivando usos e atividades compatíveis com sua preservação;
+
+XI - manutenção e estímulo ao emprego industrial e atividades econômicas de abrangência metropolitana.
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 7/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+§ 2º Os objetivos específicos a serem alcançados no Setor Eixos de Desenvolvimento da Macroárea de Estruturação Metropolitana
+
+são:
+
+I - promover transformações estruturais orientadas para o maior aproveitamento da terra urbana com o objetivo de ampliar a
+
+geração de empregos e renda e intensificar as atividades econômicas;
+
+II - recuperação da qualidade dos sistemas ambientais existentes, especialmente dos rios, córregos e áreas vegetadas,
+
+articulando-os adequadamente com os sistemas urbanos, principalmente de drenagem, saneamento básico e mobilidade;
+
+III - promoção da urbanização e regularização fundiária de assentamentos precários e irregulares ocupados pela população de
+
+baixa renda com oferta adequada de serviços, equipamentos e infraestruturas urbanas;
+
+IV - incremento e qualificação da oferta de diferentes sistemas de transporte coletivo, articulando-os aos modos não motorizados
+
+de transporte e promovendo melhorias na qualidade urbana e ambiental do entorno;
+
+V - implantação de atividades não residenciais capazes de gerar emprego e renda;
+
+VI - redefinição dos parâmetros de uso e ocupação do solo para qualificação dos espaços públicos e da paisagem urbana;
+
+VII - minimização dos problemas das áreas com riscos geológico-geotécnicos e de inundações e solos contaminados,
+
+acompanhada da prevenção do surgimento de novas situações de vulnerabilidade, em especial no que se refere à implantação de
+
+atividades em áreas de ocorrência de solos e rochas sujeitos a colapsos estruturais e subsidência, mapeados na Carta Geotécnica
+
+do Município de São Paulo;
+
+VIII - incentivo à atividade econômico-industrial de escala metropolitana.
+
+§ 3º Os objetivos específicos da Macroárea de Estruturação Metropolitana no Setor Central são:
+
+I - fortalecimento do caráter de centralidade municipal, aumentando a densidade demográfica e a oferta habitacional, respeitando o
+
+patrimônio histórico, cultural e religioso, otimizando a oferta de infraestrutura existente; renovando os padrões de uso e ocupação e
+
+fortalecendo a base econômica local;
+
+II - valorização das áreas de patrimônio cultural com a proteção e recuperação de imóveis e locais de referência da população da
+
+cidade, estimulando usos e atividades compatíveis com a preservação e sua inserção na área central;
+
+III - qualificação da oferta de diferentes sistemas de transporte coletivo, articulando-os aos modos não motorizados de transporte e
+
+promovendo melhorias na qualidade urbana e ambiental do entorno;
+
+IV - estímulo à provisão habitacional de interesse social para a população de baixa e média renda de modo a aproximar a moradia
+
+do emprego;
+
+V - requalificação e reabilitação das áreas deterioradas e subutilizadas, ocupadas de modo precário pela população de baixa
+
+renda, como cortiços, porões, quitinetes e moradias similares, em bairros como Glicério, Cambuci, Liberdade, Pari, Canindé, Brás,
+
+entre outros;
+
+VI - redefinição dos parâmetros de uso e ocupação do solo que promovam mescla e maior proximidade de diferentes tipologias
+
+residenciais para grupos de baixa, média e alta renda;
+
+VII - revisão e atualização da Operação Urbana Centro;
+
+VIII - instituição de programas de requalificação urbana e integração entre os usos residenciais e não residenciais para vários
+
+subsetores da área central, considerando-se os usos não residenciais e suas especialidades, entre elas, a zona cerealista, a área
+
+da Rua 25 de Março, o Mercado Municipal.
+
+§ 4º Para alcançar os objetivos previstos deverão ser, nos prazos previstos no art. 76, elaborados projetos de intervenção urbana
+
+nos subsetores da Macroárea de Estruturação Metropolitana que poderão ser viabilizados através dos instrumentos urbanísticos
+
+previstos no Capítulo III do Título II desta lei.
+
+Subseção II
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 8/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+Da Macroárea de Urbanização Consolidada
+
+Art. 13. A Macroárea de Urbanização Consolidada localiza-se na região sudoeste do Município, é caracterizada por um padrão
+
+elevado de urbanização, forte saturação viária, e elevada concentração de empregos e serviços e é formada pelas zonas
+
+exclusivamente residenciais e por bairros predominantemente residenciais que sofreram um forte processo de transformação,
+
+verticalização e atração de usos não residenciais, sobretudo serviços e comércio.
+
+Parágrafo único. Os objetivos de ordenação do território na Macroárea da Urbanização Consolidada são:
+
+I - controle do processo de adensamento construtivo e da saturação viária, por meio da contenção do atual padrão de
+
+verticalização, da restrição à instalação de usos geradores de tráfego e do desestímulo às atividades não residenciais
+
+incompatíveis com o uso residencial;
+
+II - manutenção das áreas verdes significativas;
+
+III - estímulo ao adensamento populacional onde este ainda for viável, com diversidade social, para aproveitar melhor a
+
+infraestrutura instalada e equilibrar a relação entre oferta de empregos e moradia;
+
+IV - incentivar a fruição pública e usos mistos no térreo dos edifícios, em especial nas centralidades existentes e nos eixos de
+
+estruturação da transformação urbana.
+
+V - incentivar a fruição pública, praças urbanas e usos mistos no térreo dos edifícios, em especial nas centralidades existentes e
+
+nos eixos de estruturação da transformação urbana.(Incluído pela Lei nº 17.975/2023)
+
+Subseção III
+
+Da Macroárea de Qualificação da Urbanização
+
+Art. 14. A Macroárea de Qualificação da Urbanização é caracterizada pela existência de usos residenciais e não residenciais
+
+instalados em edificações horizontais e verticais, com um padrão médio de urbanização e de oferta de serviços e equipamentos.
+
+Parágrafo único. Os objetivos específicos da Macroárea da Qualificação da Urbanização são:
+
+I - controle dos processos de adensamento construtivo em níveis intermediários de modo a evitar prejuízos para os bairros e
+
+sobrecargas no sistema viário local de áreas localizadas em pontos distantes dos sistemas de transporte coletivo de massa;
+
+II - melhoria e complementação do sistema de mobilidade urbana, com integração entre os sistemas de transporte coletivo, viário,
+
+cicloviário, hidroviário e de circulação de pedestres, dotando-o de condições adequadas de acessibilidade universal e sinalizações
+
+adequadas;
+
+III - melhoria das condições urbanísticas dos bairros existentes com oferta adequada de serviços, equipamentos e infraestruturas
+
+urbanas;
+
+IV - incentivo à consolidação das centralidades de bairro existentes, melhorando a oferta de serviços, comércios e equipamentos
+
+comunitários;
+
+V - ampliação da oferta de oportunidades de trabalho e emprego nos Eixos de Estruturação da Transformação Urbana e
+
+centralidades existentes, criando polos de atração em localidades intermediárias entre centro e periferia;
+
+VI - promoção da urbanização e regularização fundiária de assentamentos precários e irregulares existentes, ocupados pela
+
+população de baixa renda, com oferta adequada de serviços, equipamentos e infraestruturas urbanas;
+
+VII - estímulo à provisão habitacional de interesse social para a população de baixa renda, incluindo pessoas que ocupam
+
+logradouros e praças públicas, de forma a contribuir para a redução do déficit habitacional existente;
+
+VIII - proteção, recuperação e valorização dos bens e áreas de valor histórico, cultural e religioso.
+
+Subseção IV
+
+Da Macroárea de Redução da Vulnerabilidade Urbana
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 9/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+Art. 15. A Macroárea de Redução da Vulnerabilidade Urbana localizada na periferia da área urbanizada do território municipal
+
+caracteriza-se pela existência de elevados índices de vulnerabilidade social, baixos índices de desenvolvimento humano e é
+
+ocupada por população predominantemente de baixa renda em assentamentos precários e irregulares, que apresentam
+
+precariedades territoriais, irregularidades fundiárias, riscos geológicos e de inundação e déficits na oferta de serviços,
+
+equipamentos e infraestruturas urbanas.
+
+§ 1º Na Macroárea de Redução da Vulnerabilidade Urbana, em decorrência do processo histórico de sua formação, predominam
+
+áreas com baixa qualidade urbana e ambiental.
+
+§ 2º Os objetivos específicos da Macroárea de Redução da Vulnerabilidade Urbana são:
+
+I - fortalecer as capacidades de proteção social a partir de melhorias nas condições de vida, de convivência e de acesso às
+
+políticas públicas;
+
+II - incentivar usos não residenciais nos Eixos de Estruturação da Transformação Urbana e centralidades de bairro, para gerar
+
+empregos e reduzir a distância entre moradia e trabalho;
+
+III - incentivar a consolidação das centralidades de bairro existentes, melhorando a oferta dando prioridade à implantação de
+
+serviços, comércios e equipamentos comunitários, mediante participação da população local nas decisões;
+
+IV - promover a urbanização e regularização fundiária dos assentamentos urbanos precários, dotando-os de serviços,
+
+equipamentos e infraestrutura urbana completa e garantindo a segurança na posse e a recuperação da qualidade urbana e
+
+ambiental;
+
+V - promover a construção de Habitação de Interesse Social;
+
+VI - melhorar e completar o sistema de mobilidade urbana, com a integração entre os sistemas de transporte coletivo, ferroviário,
+
+viário, cicloviário e de circulação de pedestres, dotando-o de condições adequadas de acessibilidade universal e sinalizações
+
+adequadas, nos termos da legislação vigente;
+
+VII - minimizar os problemas existentes nas áreas com riscos geológico-geotécnicos, de inundações e decorrentes de solos
+
+contaminados e prevenção do surgimento de novas ocupações e de situações de vulnerabilidade;
+
+VIII - compatibilizar usos e tipologias de parcelamento do solo urbano com as condicionantes geológico-geotécnicas e de relevo;
+
+IX - proteger, recuperar e valorizar os bens e áreas de valor histórico, cultural, paisagístico e religioso.
+
+Seção II
+
+Da Macrozona de Proteção e Recuperação Ambiental
+
+Art. 16. A Macrozona de Proteção e Recuperação Ambiental, conforme Mapa 1 anexo, é um território ambientalmente frágil devido
+
+às suas características geológicas e geotécnicas, à presença de mananciais de abastecimento hídrico e à significativa
+
+biodiversidade, demandando cuidados especiais para sua conservação.
+
+§ 1º A Macrozona de Proteção e Recuperação Ambiental tem função precípua de prestar serviços ambientais essenciais para a
+
+sustentação da vida urbana das gerações presentes e futuras.
+
+§ 2º A Macrozona de Proteção e Recuperação Ambiental contém remanescentes florestais significativos em diversos estágios
+
+sucessionais e áreas de produção agrícola que contribuem para a manutenção da biodiversidade, conservação do solo e
+
+manutenção dos recursos hídricos superficiais e subterrâneos, bem como para a produção de alimentos e serviços essenciais à
+
+segurança alimentar e à conservação dos serviços ambientais.
+
+§ 3º As características geológicas e geotécnicas da Macrozona de Proteção e Recuperação Ambiental demandam critérios
+
+específicos de ocupação, admitindo diversas tipologias de assentamentos urbanos e atividades econômicas, inclusive agrícolas e
+
+de extração mineral.
+
+§ 4º A Macrozona de Proteção e Recuperação Ambiental divide-se em 4 (quatro) macroáreas delimitadas no Mapa 1A, anexo:
+
+I - Macroárea de Redução da Vulnerabilidade e Recuperação Ambiental;
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 10/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+II - Macroárea de Controle e Qualificação Urbana e Ambiental;
+
+III - Macroárea de Contenção Urbana e Uso Sustentável;
+
+IV - Macroárea de Preservação de Ecossistemas Naturais.
+
+§ 5º As macroáreas de Contenção Urbana e Uso Sustentável e de Preservação de Ecossistemas Naturais correspondem à zona
+
+rural do Município.
+
+Art. 17. Os objetivos específicos da Macrozona de Proteção e Recuperação Ambiental são:
+
+I - conservação e recuperação dos serviços ambientais prestados pelos sistemas ambientais existentes, em especial aqueles
+
+relacionados com a produção da água, biodiversidade, proteção do solo e regulação climática;
+
+II - proteção da biodiversidade, dos recursos hídricos e das áreas geotecnicamente frágeis;
+
+III - compatibilização de usos e tipologias de parcelamento do solo urbano com as condicionantes de relevo, geológico-geotécnicas,
+
+com a legislação de proteção e recuperação aos mananciais e com a preservação de bens e áreas de valor histórico, paisagístico,
+
+arqueológico, cultural e religioso;
+
+IV - respeito à legislação referente à Mata Atlântica, à proteção e recuperação dos mananciais e às Unidades de Conservação;
+
+V - compatibilidade com as diretrizes socioambientais da Reserva da Biosfera do Cinturão Verde da Cidade de São Paulo;
+
+VI - promoção de atividades econômicas compatíveis com o desenvolvimento sustentável;
+
+VII - melhoria das condições urbanas e ambientais nos assentamentos, promovendo a compatibilização entre a garantia de
+
+moradias dignas e sua regularização, preservação da qualidade ambiental e dos bens e áreas de valor histórico e cultural;
+
+VIII - levantamento cadastral dos assentamentos urbanos consolidados que ainda não integram os cadastros municipais para
+
+efeitos tributários e de controle de uso e ocupação do solo;
+
+IX - eliminação e redução das situações de vulnerabilidade urbana que expõem diversos grupos sociais, especialmente os de baixa
+
+renda, a situações de riscos, perigos e ameaças;
+
+X - minimização dos problemas existentes nas áreas com riscos geológico-geotécnicos, de inundações e decorrentes de solos
+
+contaminados e prevenção do surgimento de novas situações de risco;
+
+XI - contenção da expansão urbana sobre áreas de interesse ambiental e de proteção e recuperação dos mananciais hídricos e
+
+áreas de produção agrícola sustentável;
+
+XII - cumprimento das determinações previstas para as Unidades de Conservação de Proteção Integral, inclusive zona de
+
+amortecimento, e de Uso Sustentável existentes e as que vierem a ser criadas, nos termos da legislação federal, estadual e
+
+municipal pertinentes;
+
+XIII - gestão integrada das unidades de conservação estaduais e municipais e terras indígenas;
+
+XIV - garantia de proteção das terras indígenas, delimitadas e em processo de homologação, imprescindíveis à preservação dos
+
+recursos ambientais necessários ao bem-estar e à reprodução física e cultural desses povos, segundo seus usos e costumes, de
+
+forma a coibir a ocupação dessas áreas;
+
+XV - articulação entre órgãos e entidades municipais, estaduais e federais para garantir a conservação, preservação e recuperação
+
+urbana e ambiental, inclusive a fiscalização integrada do território;
+
+XVI - articulação com municípios vizinhos para a construção de estratégias integradas de conservação e recuperação ambiental;
+
+XVII - proteção das zonas exclusivamente residenciais, observadas as disposições dos arts. 27 e 33 desta lei.
+
+Subseção I
+
+Da Macroárea de Redução da Vulnerabilidade e Recuperação Ambiental
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 11/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+Art. 18. A Macroárea de Redução da Vulnerabilidade e Recuperação Ambiental localiza-se no extremo da área urbanizada do
+
+território municipal, e se caracteriza pela predominância de elevados índices de vulnerabilidade socioambiental, baixos índices de
+
+desenvolvimento humano e assentamentos precários e irregulares, como favelas, loteamentos irregulares, conjuntos habitacionais
+
+populares, que apresentam diversos tipos de precariedades territoriais e sanitárias, irregularidades fundiárias e déficits na oferta de
+
+serviços, equipamentos e infraestruturas urbanas, ocupada predominantemente por moradias da população de baixa renda que,
+
+em alguns casos, vive em áreas de riscos geológicos e de inundação.
+
+§ 1º Na Macroárea de Redução da Vulnerabilidade e Recuperação Ambiental a ocupação decorrente da produção pública e privada
+
+de baixa renda, a falta de investimentos públicos articulados entre si e a irregularidade da ocupação resultam em várias áreas com
+
+baixa qualidade ambiental e comprometimento da prestação de serviços ambientais.
+
+§ 2º Os objetivos específicos da Macroárea de Redução da Vulnerabilidade e Recuperação Ambiental são:
+
+I – fortalecimento das capacidades de proteção social a partir de melhorias nas condições socioambientais, de convivência e de
+
+acesso às políticas públicas;
+
+II – promoção da urbanização e regularização fundiária dos assentamentos urbanos precários, dotando-os de serviços,
+
+equipamentos e infraestrutura urbana completa e garantindo a segurança na posse e a recuperação da qualidade urbana e
+
+ambiental;
+
+III – construção de Habitação de Interesse Social para reassentamento de populações moradoras de áreas de risco, de áreas de
+
+preservação permanente, quando não houver outra alternativa, e das que residem em assentamentos precários na Macrozona de
+
+Proteção Ambiental;
+
+IV – articulação entre órgãos e entidades municipais e estaduais para garantir a conservação, preservação e recuperação urbana e
+
+ambiental;
+
+V – melhoria e complementação do sistema de mobilidade com a integração entre os sistemas de transporte coletivo, viário,
+
+cicloviário e de circulação de pedestres, dotando-o de condições adequadas de acessibilidade universal e sinalizações adequadas;
+
+VI – minimização dos problemas existentes nas áreas com riscos geológico-geotécnicos, de inundações e decorrentes de solos
+
+contaminados e prevenção do surgimento de novas situações de vulnerabilidade;
+
+VII – incentivo à consolidação das centralidades de bairro existentes, facilitando a implantação de serviços, comércios e
+
+equipamentos comunitários;
+
+VIII – compatibilização de usos e tipologias para o parcelamento e uso do solo urbano com as condicionantes geológico-
+
+geotécnicas e de relevo, com a legislação estadual de proteção e recuperação aos mananciais e a legislação referente às unidades
+
+de conservação existentes, inclusive sua zona de amortecimento;
+
+IX – universalização do saneamento ambiental, inclusive para os assentamentos isolados, em especial os assinalados nos Mapas
+
+6 e 7 anexos, respeitadas as condicionantes de relevo, geológico-geotécnicas, a legislação estadual de proteção e recuperação
+
+aos mananciais e a legislação referente às unidades de conservação existentes, incluindo sua zona de amortecimento;
+
+X – proteção, recuperação e valorização dos bens e áreas de valor histórico, cultural, religioso e ambiental;
+
+XI – incentivar usos não residenciais nos eixos de estruturação da transformação urbana e nas centralidades de bairro, visando
+
+gerar empregos e reduzir a distância entre moradia e trabalho.
+
+Subseção II
+
+Da Macroárea de Controle e Qualificação Urbana e Ambiental
+
+Art. 19. A Macroárea de Controle e Qualificação Urbana e Ambiental é caracterizada pela existência de vazios intraurbanos com ou
+
+sem cobertura vegetal e áreas urbanizadas com distintos padrões de ocupação, predominantemente horizontais, ocorrendo, ainda,
+
+reflorestamento, áreas de exploração mineral, e algumas áreas com concentração de atividades industriais, sendo este um
+
+território propício para a qualificação urbanística e ambiental e para provisão de habitação, equipamentos e serviços, respeitadas
+
+as condicionantes ambientais.
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 12/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+Parágrafo único. Os objetivos específicos da Macroárea de Controle e Qualificação Urbana e Ambiental são:
+
+I – melhoria das condições urbanísticas e ambientais dos bairros existentes com oferta adequada de serviços, equipamentos e
+
+infraestruturas;
+
+II – incentivo aos usos não residenciais, inclusive as atividades industriais e de logística, visando à ampliação da oferta de
+
+oportunidades de trabalho e a redução do deslocamento entre moradia e trabalho;
+
+III – promoção da urbanização e regularização fundiária dos assentamentos urbanos precários e irregulares existentes, dotando-os
+
+de serviços, equipamentos e infraestruturas urbanas, garantido o direito social à moradia adequada;
+
+IV – contenção da expansão e do adensamento construtivo e demográfico dos assentamentos urbanos precários e irregulares
+
+existentes;
+
+V – construção de habitações de interesse social nos vazios intraurbanos, definidos como ZEIS 4, com provisão de equipamentos e
+
+serviços, respeitadas as condicionantes ambientais, para reassentamento de populações moradoras na própria Macrozona de
+
+Proteção Ambiental, em especial aquelas provenientes de áreas de risco e de preservação permanente;
+
+VI – melhoria e complementação do sistema de mobilidade com a integração entre os sistemas de transporte coletivo, viário,
+
+cicloviário e de circulação de pedestres, dotando-o de condições adequadas de acessibilidade universal e sinalização;
+
+VII – minimização dos riscos geológico-geotécnicos e dos riscos decorrentes da contaminação do solo e prevenção de novas
+
+situações de risco;
+
+VIII – controle, qualificação e regularização das atividades não residenciais existentes, inclusive as industriais, em especial na
+
+bacia hidrográfica do córrego Aricanduva;
+
+IX – recuperação das áreas mineradas e degradadas suscetíveis a processos erosivos, minimizando a ocorrência de poluição
+
+difusa;
+
+X – universalização do saneamento ambiental, por meio da expansão da rede de água e esgoto e de outras tecnologias adequadas
+
+a cada caso;
+
+XI – apoio e incentivo à agricultura urbana e periurbana;
+
+XII – proteção do patrimônio ambiental, histórico e cultural;
+
+XIII – manutenção e incentivo das atividades minerárias e usos correlatos, assegurando a condição rural dos imóveis.
+
+Subseção III
+
+Da Macroárea de Contenção Urbana e Uso Sustentável
+
+Art. 20. A Macroárea de Contenção Urbana e Uso Sustentável, conforme Mapa 2 anexo, localizada ao sul do território municipal é
+
+caracterizada pela existência de fragmentos significativos de vegetação nativa, entremeados por atividades agrícolas, sítios e
+
+chácaras de recreio que protegem e/ou impactam, em graus distintos, a qualidade dos recursos hídricos e da biodiversidade, com
+
+características geológico-geotécnicas e de relevo que demandam critérios específicos para ocupação, abrigando também áreas de
+
+exploração mineral, ativas e desativadas.
+
+§ 1º A Macroárea de Contenção Urbana e Uso Sustentável localiza-se integralmente na Área de Proteção de Mananciais definida
+
+na legislação estadual, abrangendo o território das Áreas de Proteção Ambiental Capivari-Monos e Bororé-Colônia.
+
+§ 2º A Macroárea de Contenção Urbana e Uso Sustentável integra a zona rural, sendo vedado o parcelamento do solo para fins
+
+urbanos.
+
+§ 3º Os objetivos específicos da Macroárea de Contenção Urbana e Uso Sustentável são:
+
+I – contenção da urbanização do território;
+
+II – proteção da paisagem rural considerando seu valor ambiental, histórico e cultural;
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 13/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+III – promoção do desenvolvimento da zona rural com sustentabilidade ambiental, econômica e social, e estímulo à agricultura
+
+orgânica;
+
+IV – conservação e recuperação dos fragmentos florestais, corredores ecológicos e das áreas de preservação permanente;
+
+V – manutenção da permeabilidade do solo e controle dos processos erosivos;
+
+VI – compatibilização dos usos com as condicionantes geológico-geotécnicas e de relevo dos terrenos, com a legislação de
+
+proteção e recuperação aos mananciais e com a legislação referente à Mata Atlântica;
+
+VII – gestão integrada das unidades de conservação estaduais e municipais e terras indígenas;
+
+VIII – garantia de proteção às terras indígenas, delimitadas e em processo de homologação, de forma a coibir a ocupação dessas
+
+áreas até que sua situação seja definida pelo Ministério da Justiça;
+
+IX – garantia de saneamento ambiental com uso de tecnologias adequadas a cada situação;
+
+X – garantia de trafegabilidade das estradas rurais, conservando a permeabilidade do solo e minimizando os impactos sobre os
+
+recursos hídricos e a biodiversidade;
+
+XI – manutenção e recuperação dos serviços ambientais prestados pelos sistemas ambientais existentes, em especial aqueles
+
+relacionados com a produção da água, conservação da biodiversidade, regulação climática e proteção ao solo;
+
+XII – manutenção das áreas de mineração ativa, com controle ambiental, e recuperação ambiental das áreas de mineração
+
+paralisadas e desativadas;
+
+XIII – incentivo à criação de Reservas Particulares do Patrimônio Natural (RPPN);
+
+XIV – cumprimento das determinações previstas para as Unidades de Conservação de Proteção Integral, inclusive zona de
+
+amortecimento, e de Uso Sustentável existentes e as que vierem a ser criadas, nos termos da legislação federal, estadual e
+
+municipal pertinente.
+
+§ 4º (VETADO)
+
+Subseção IV
+
+Da Macroárea de Preservação de Ecossistemas Naturais
+
+Art. 21. A Macroárea de Preservação de Ecossistemas Naturais, conforme Mapa 2 anexo, é caracterizada pela existência de
+
+sistemas ambientais cujos elementos e processo ainda conservam suas características naturais.
+
+§ 1º Na Macroárea de Preservação de Ecossistemas Naturais predominam áreas de remanescentes florestais naturais e
+
+ecossistemas associados com expressiva distribuição espacial e relativo grau de continuidade e conservação, mantenedoras da
+
+biodiversidade e conservação do solo, bem como várzeas preservadas, cabeceiras de drenagem, nascentes e cursos d’água ainda
+
+pouco impactados por atividades antrópicas e áreas com fragilidades geológico-geotécnicas e de relevo suscetíveis a processos
+
+erosivos, escorregamentos ou outros movimentos de massa.
+
+§ 2º A Macroárea de Preservação de Ecossistemas Naturais integra a zona rural.
+
+§ 3º Os objetivos específicos da Macroárea de Preservação de Ecossistemas Naturais são:
+
+I – manutenção das condições naturais dos elementos e processos que compõem os sistemas ambientais;
+
+II – preservação dos bens e áreas de interesse histórico e cultural;
+
+III – proteção das espécies vegetais e animais, especialmente as ameaçadas de extinção;
+
+IV – respeito às fragilidades geológico-geotécnicas e de relevo dos seus terrenos;
+
+V – implementação e gestão das unidades de conservação existentes;
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 14/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+VI – criação de novas unidades de conservação de proteção integral;
+
+VII – promoção de atividades ligadas à pesquisa, ao ecoturismo e à educação ambiental.
+
+Seção III
+
+Da Rede de Estruturação e Transformação Urbana
+
+Subseção I
+
+A Rede Estrutural de Transporte Coletivo
+
+Art. 22. A rede estrutural de transportes coletivos é o sistema de infraestrutura que propicia a implantação dos eixos de
+
+estruturação da transformação urbana.
+
+§ 1º As áreas que integram os eixos de estruturação da transformação urbana estão definidas por faixas de influências do sistema
+
+estrutural de transporte coletivo de média e alta capacidade que atravessam as macroáreas que integram a zona urbana do
+
+Município, conforme Mapas 3 e 3A anexos, considerando as linhas, ativas ou em planejamento, do trem, metrô, monotrilho, VLT
+
+(Veículo Leve sobre Trilhos), VLP (Veículo Leve sobre Pneus) e corredores de ônibus municipais e intermunicipais de média
+
+capacidade com operação em faixa exclusiva à esquerda do tráfego geral.
+
+§ 2º Os eixos de estruturação da transformação urbana são porções do território onde é necessário um processo de transformação
+
+do uso do solo, com o adensamento populacional e construtivo articulado a uma qualificação urbanística dos espaços públicos,
+
+mudança dos padrões construtivos e ampliação da oferta de serviços e equipamentos públicos.
+
+Art. 23. Os objetivos urbanísticos estratégicos a serem cumpridos pelos eixos de estruturação da transformação urbana são os
+
+seguintes:
+
+I – promover melhor aproveitamento do solo nas proximidades do sistema estrutural de transporte coletivo com aumento na
+
+densidade construtiva, demográfica, habitacional e de atividades urbanas;
+
+II – compatibilizar o adensamento com o respeito às características ambientais, geológico-geotécnicas e os bens e áreas de valor
+
+histórico, cultural, paisagístico e religioso;
+
+III – qualificar as centralidades existentes e estimular a criação de novas centralidades incrementando a oferta de comércios,
+
+serviços e emprego, em especial na Macroárea de Redução da Vulnerabilidade Urbana e na Macroárea de Redução da
+
+Vulnerabilidade e Recuperação Ambiental;
+
+IV – ampliar a oferta de habitações de interesse social na proximidade do sistema estrutural de transporte coletivo;
+
+V – promover a qualificação urbanística e ambiental, incluindo a ampliação de calçadas, enterramento da fiação e instalação de
+
+galerias para uso compartilhado de serviços públicos;
+
+VI – garantir espaço para a ampliação da oferta de serviços e equipamentos públicos;
+
+VII – desestimular o uso do transporte individual motorizado, articulando o transporte coletivo com modos não motorizados de
+
+transporte;
+
+VIII – orientar a produção imobiliária da iniciativa privada de modo a gerar:
+
+a) diversificação nas formas de implantação das edificações nos lotes;
+
+b) maior fruição pública nos térreos dos empreendimentos;
+
+c) fachadas ativas no térreo dos edifícios;
+
+d) ampliação das calçadas, dos espaços livres, praças urbanas, das áreas verdes e permeáveis nos lotes;(Redação dada pela Lei
+
+nº 17.975/2023)
+
+e) convivência entre os espaços públicos e privados e entre usos residenciais e não residenciais;
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 15/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+f) ampliação da produção de Habitação de Interesse Social e de mercado popular;
+
+IX – prever a implantação de mercados populares com áreas para o comércio ambulante e usos complementares, em especial em
+
+locais com grande circulação de pedestres e nas proximidades de estações de trem e metrô e terminais de ônibus, observando-se
+
+a compatibilidade entre o equipamento, as instalações, o fluxo seguro de pedestres e as normas de acessibilidade.
+
+Parágrafo único. Nos eixos de estruturação da transformação urbana, poderão ser desenvolvidos Projetos de Intervenção Urbana
+
+para promover os objetivos estabelecidos no “caput” desse artigo.
+
+Subseção II
+
+Da Rede Hídrica Ambiental
+
+Art. 24. A rede hídrica ambiental, conforme Mapa 5 anexo, é constituída pelo conjunto de cursos d´água, cabeceiras de drenagem,
+
+nascentes, olhos d´água, represas e lagos naturais e artificiais, planícies aluviais e águas subterrâneas, e pelo conjunto de
+
+parques, unidades de conservação, áreas verdes e áreas protegidas, localizados em todo o território do Município, que constituem
+
+seu arcabouço ambiental e desempenham funções estratégicas para garantir o equilíbrio e a sustentabilidade urbanos.(Redação
+
+dada pela Lei nº 17.975/2023)
+
+Art. 25. Os objetivos urbanísticos e ambientais estratégicos relacionados à recuperação e proteção da rede hídrica ambiental são
+
+os seguintes:
+
+I – ampliar progressivamente as áreas permeáveis ao longo dos fundos de vales e cabeceiras de drenagem, as áreas verdes
+
+significativas e a arborização, especialmente na Macrozona de Estruturação e Qualificação Urbana, para minimização dos
+
+processos erosivos, enchentes e ilhas de calor;
+
+II - qualificar e ampliar a rede de parques, considerando populações com todas as faixas de renda (inferior, intermediária e alta),
+
+para equilibrar a relação entre o ambiente construído, as áreas verdes e os espaços livres, objetivando garantir espaços de lazer,
+
+sociabilidade e recreação para a população;(Redação dada pela Lei nº 17.975/2023)
+
+III – integrar as áreas de vegetação significativa de interesse ecológico e paisagístico, protegidas ou não, de modo a garantir e
+
+fortalecer sua proteção e preservação e criar corredores ecológicos;
+
+IV – proteger nascentes, olhos d´água, cabeceiras de drenagem e planícies aluviais;
+
+V – recuperar áreas degradadas, qualificando-as para usos adequados;
+
+VI – articular, através de caminhos de pedestres e ciclovias, preferencialmente nos fundos de vale, as áreas verdes significativas,
+
+os espaços livres e os parques urbanos e lineares;
+
+VII – promover, em articulação com o Governo Estadual, estratégias e mecanismos para disciplinar a drenagem de águas
+
+subterrâneas.
+
+VIII - adotar Soluções baseadas na Natureza nas intervenções, especialmente do Sistema de Saneamento Ambiental, com o intuito
+
+de promover melhoria da qualidade urbanística e ambiental das bacias hidrográficas;(Incluído pela Lei nº 17.975/2023)
+
+IX - promover, em Articulação com o Governo Estadual, estratégias e mecanismos para a implantação do Sistema Hidroviário de
+
+forma sustentável, especialmente para o Rio Tietê;(Incluído pela Lei nº 17.975/2023)
+
+X - promover a implantação de sistemas de energias limpas e renováveis e ambientalmente sustentáveis ou sistemas de energias
+
+menos poluentes integrados à rede hídrica ambiental.(Incluído pela Lei nº 17.975/2023)
+
+§ 1º Na hipótese de ser necessária remoção de população moradora em assentamentos informais para a implementação de
+
+quaisquer ações ligadas aos objetivos estabelecidos no “caput” deverá ser garantida a construção de habitações de interesse
+
+social em local próximo na mesma região e, caso não seja possível, preferencialmente na mesma Subprefeitura ou na mesma
+
+macroárea.
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 16/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+§ 2º Para implementar os objetivos estabelecidos no caput deste artigo, deverá ser implementado o Programa de Recuperação dos
+
+Fundos de Vale, detalhado no art. 272, e criados instrumentos para permitir a implantação dos parques propostos relacionados no
+
+Quadro 7 desta Lei.(Redação dada pela Lei nº 17.975/2023)
+
+§ 3º Poderão ser desenvolvidos Projetos de Intervenção Urbana para garantir os objetivos estabelecidos no “caput” desse artigo.
+
+§ 4º A Rede Hídrica Ambiental tem como unidade territorial de estudo e planejamento a bacia hidrográfica, respeitadas as unidades
+
+político-administrativas do Município e consideradas as diferentes escalas de planejamento e intervenção.
+
+Subseção III
+
+Da Rede de Estruturação Local
+
+Art. 26. A Rede de Estruturação Local compreende porções do território destinadas ao desenvolvimento urbano local, mediante
+
+integração de políticas e investimentos públicos em habitação, saneamento, drenagem, áreas verdes, mobilidade e equipamentos
+
+urbanos e sociais, especialmente nas áreas de maior vulnerabilidade social e ambiental.
+
+§ 1º Esses territórios são caracterizados a partir da articulação dos elementos locais dos seguintes Sistemas Urbanos e
+
+Ambientais:
+
+I – sistema de áreas protegidas, áreas verdes e espaços livres;
+
+II – sistema de saneamento ambiental;
+
+III – sistema de mobilidade;
+
+IV – sistema de equipamentos urbanos e sociais;
+
+V – polos e centralidades previstos na política de desenvolvimento econômico sustentável.
+
+§ 2º Os objetivos da Rede de Estruturação Local são:
+
+I – promover a intervenção, mediante projetos urbanísticos que integrem as políticas e investimentos públicos, especialmente nas
+
+áreas de risco nos territórios de alta vulnerabilidade social e urbana;
+
+II – requalificar os sistemas ambientais da cidade, considerando as infraestruturas de saneamento e drenagem, a partir da
+
+constituição e articulação de espaços livres que contribua para a ampliação e requalificação dos espaços públicos, da moradia, da
+
+rede de equipamentos urbanos e sociais e de parques lineares, existentes ou planejados;
+
+III – aprimorar e articular o sistema de mobilidade local ao Sistema de Transporte Coletivo, priorizando os modos de transporte não
+
+motorizados;
+
+IV – promover o desenvolvimento econômico local visando ao incremento de atividades produtivas articuladas às transformações
+
+do território como mecanismo de inclusão social;
+
+V – garantir, em todos os distritos, no horizonte temporal previsto nesta lei, a implantação da rede básica de equipamentos e de
+
+serviços públicos de caráter local nas áreas de educação, saúde, cultura, esporte, lazer, segurança, áreas verdes e atendimento ao
+
+cidadão, dimensionados para atender à totalidade da população residente.
+
+§ 3º Os objetivos estabelecidos no “caput” desse artigo poderão ser implementados por meio de Projeto de Intervenção Urbana.
+
+CAPÍTULO II
+
+DA REGULAÇÃO DO PARCELAMENTO, USO E OCUPAÇÃO DO SOLO E DA PAISAGEM URBANA
+
+Seção I
+
+Das Diretrizes para a Revisão da LPUOS
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 17/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+Art. 27. De acordo com os objetivos e diretrizes expressos neste PDE para macrozonas, macroáreas e rede de estruturação da
+
+transformação urbana, a legislação de Parcelamento, Uso e Ocupação do Solo – LPUOS deve ser revista, simplificada e
+
+consolidada segundo as seguintes diretrizes:
+
+I – evitar a dissociação entre a disciplina legal, a realidade urbana e as diretrizes de desenvolvimento urbano estabelecidas neste
+
+PDE;
+
+II – simplificar sua redação para facilitar sua compreensão, aplicação e fiscalização;
+
+III – considerar as condições ambientais, da infraestrutura, circulação e dos serviços urbanos;
+
+IV – estabelecer parâmetros e mecanismos relacionados à drenagem das águas pluviais, que evitem o sobrecarregamento das
+
+redes, alagamentos e enchentes;
+
+V – criar parâmetros de ocupação do solo relacionados a aspectos geológicos, geotécnicos e hidrológicos;
+
+VI – condicionar a implantação de atividades que demandem a utilização de águas subterrâneas ou interferência com o lençol
+
+freático em terrenos e glebas localizados em área de ocorrência de maciços de solo e rocha sujeitos a riscos de colapsos
+
+estruturais e subsidência, mapeados na Carta Geotécnica do Município de São Paulo, à apresentação de estudos geotécnicos e
+
+hidrogeológicos que demonstrem a segurança da implantação;
+
+VII – criar mecanismos para proteção da vegetação arbórea significativa;
+
+VIII – estimular a requalificação de imóveis protegidos pela legislação de bens culturais, criando normas que permitam sua
+
+ocupação por usos e atividades adequados às suas características e ao entorno em todas as zonas de uso;
+
+IX – proporcionar a composição de conjuntos urbanos que superem exclusivamente o lote como unidade de referência de
+
+configuração urbana, sendo também adotada a quadra como referência de composição do sistema edificado;
+
+X - promover a articulação entre espaço público e espaço privado, por meio de estímulos à manutenção de espaços abertos para
+
+fruição pública e praças urbanas no pavimento de acesso às edificações;(Redação dada pela Lei nº 17.975/2023)
+
+XI – estimular a implantação de atividades de comércio e serviços nas regiões onde a densidade populacional é elevada e há baixa
+
+oferta de emprego, criando regras para a adequada convivência entre usos residenciais e não residenciais;
+
+XII – estimular o comércio e os serviços locais, especificamente os instalados em fachadas ativas, com acesso direto e abertura
+
+para o logradouro;
+
+XIII – fomentar o uso misto no lote entre usos residenciais e não residenciais, especialmente nas áreas bem servidas pelo
+
+transporte público coletivo de passageiros;
+
+XIV – estabelecer limites mínimos e máximos de área construída computável destinada a estacionamento de veículos,
+
+condicionando o número máximo à compensação urbanística por sua utilização;
+
+XV – evitar conflitos entre os usos impactantes e sua vizinhança;
+
+XVI – criar formas efetivas para prevenir e mitigar os impactos causados por empreendimentos ou atividades classificados como
+
+polos geradores de tráfego ou geradores de impacto de vizinhança;
+
+XVII – promover o adensamento construtivo e populacional e a concentração de usos e atividades em áreas com transporte
+
+coletivo de média e alta capacidade instalado e planejado;
+
+XVIII – estimular a reabilitação do patrimônio arquitetônico, especialmente na área central, criando regras e parâmetros que
+
+facilitem a reciclagem e retrofit das edificações para novos usos;
+
+XIX – criar normas para a regularização de edificações, de forma a garantir estabilidade e segurança, para permitir sua adequada
+
+ocupação pelos usos residenciais e não residenciais;
+
+XX – criar normas para destinação de área pública quando o remembramento de lotes for utilizado para a implantação de
+
+empreendimentos de grande porte;
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 18/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+XXI – criar, nas áreas rurais, um padrão de uso e ocupação compatível com as diretrizes de desenvolvimento econômico
+
+sustentável previstas, em especial as relacionadas às cadeias produtivas da agricultura e do turismo sustentáveis;
+
+XXII – criar, nas áreas onde a rede viária ainda é inadequada, principalmente nas macroáreas de redução da vulnerabilidade, uma
+
+relação entre usos permitidos e características da via compatíveis com o tecido urbano local sem impedir a instalação de atividades
+
+geradoras de renda e emprego;
+
+XXIII – definir, nas áreas de proteção aos mananciais, disciplina compatível com a legislação estadual;
+
+XXIV – condicionar, na Macrozona de Proteção e Recuperação Ambiental, o parcelamento e a urbanização de glebas com maciços
+
+arbóreos significativos à averbação prévia da área verde, que passará a integrar o Sistema de Áreas Protegidas, Áreas Verdes e
+
+Espaços Livres, podendo ser exigida a criação de RPPN municipal ou a doação para parque ou área verde pública municipal;
+
+XXV – promover, nas macroáreas de Contenção Urbana e Uso Sustentável e de Preservação de Ecossistemas Naturais, atividades
+
+ligadas à pesquisa, ao ecoturismo e à educação ambiental;
+
+XXVI – considerar, na disciplina de uso e ocupação do solo, a compatibilidade com os planos de manejo das unidades de
+
+conservação, inclusive normas relativas às zonas de amortecimento dessas unidades;
+
+XXVII – evitar disciplinar de forma desigual o uso e a ocupação do solo de áreas com as mesmas características ao longo de
+
+avenidas que atravessam os limites de subprefeituras, ou determinam os limites entre elas;
+
+XXVIII – definir precisamente os limites dos atuais e futuros corredores de comércio e serviços em ZER, bem como as atividades
+
+neles permitidas, adequando-os às diretrizes de equilíbrio entre usos residenciais e não residenciais;
+
+XXIX – adotar medidas para redução de velocidade dos veículos automotores, visando garantir a segurança de pedestres e
+
+ciclistas, tais como “traffic calming”;
+
+XXX – estudar a possibilidade da instalação e do funcionamento de instituições de longa permanência para idosos em áreas
+
+delimitadas e restritas em ZER, mantidas as características urbanísticas e paisagísticas dessa zona;
+
+XXXI – criar formas efetivas para preservação e proteção das áreas verdes significativas;
+
+XXXII – criar formas de incentivo ao uso de sistemas de cogeração de energia e equipamentos e instalações que compartilhem
+
+energia elétrica, eólica, solar e gás natural, principalmente nos empreendimentos de grande porte;
+
+XXXIII - garantir, na aprovação de projetos de parcelamento e edificação, o uso seguro das áreas com potencial de contaminação e
+
+contaminadas, inclusive águas subterrâneas, de acordo com a legislação pertinente, devendo a remediação ocorrer até a
+
+concessão do Certificado de Conclusão;(Redação dada pela Lei nº 17.975/2023)
+
+XXXIV – criar incentivos urbanísticos para os proprietários que doarem ao Município áreas necessárias à ampliação do sistema
+
+viário e do sistema de áreas verdes, proporcionarem usos mistos no mesmo lote, produzirem unidades de Habitação de Interesse
+
+Social;
+
+XXXV – (VETADO);
+
+XXXVI – identificar áreas ZEPAG localizadas nas extremidades periféricas e próximas às áreas urbanas, incorporando-as às ZEIS
+
+para construção de moradias de interesse social, respeitadas as disposições da legislação ambiental;
+
+XXXVII – prever, para garantir a fluidez do tráfego nas vias do sistema viário estrutural, restrições e condicionantes à implantação
+
+de empreendimentos nos lotes lindeiros a estas vias;
+
+XXXVIII – rever a classificação de áreas localizadas em ZPI que já não têm mais atividades industriais, adequando seu
+
+enquadramento às diretrizes de desenvolvimento estabelecidas para a região e às características predominantes de ocupação do
+
+entorno;
+
+XXXIX - rever a classificação de áreas demarcadas como ZEPAM ocupadas com reflorestamento, agricultura, extrativismo,
+
+loteamentos irregulares, assentamentos precários, favelas, que não tenham os atributos que justificaram a criação da ZEPAM,
+
+adequando seu enquadramento às diretrizes de desenvolvimento estabelecidas para a região e às características de ocupação do
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 19/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+entorno, respeitado o disposto no art. 69 desta Lei, sobretudo de áreas que possam ser enquadradas como ZEIS-4;(Redação dada
+
+pela Lei nº 17.975/2023)
+
+XL – retificar a delimitação de ZEPAM que tenha incluídos em seus perímetros loteamentos protocolados ou aprovados anteriores a
+
+sua criação;
+
+XLI – prever as condições de controle para que as atividades mineradoras possam continuar produzindo de forma ambientalmente
+
+adequada;
+
+XLII – garantir a manutenção e ampliação das áreas industriais compatíveis com o entorno e prever a criação de novas áreas
+
+adequadas às especificidades do uso industrial, de modo a garantir a preservação do nível de emprego industrial na cidade;
+
+XLIII – identificar os polos de saúde, educação e pesquisa, demarcando seus perímetros e áreas de abrangência;
+
+XLIV – criar condições especiais de uso e ocupação do solo que permitam aos polos de saúde e educação ocuparem áreas ou
+
+quadras no seu entorno com o objetivo de regularizar, reformar e construir unidades complementares às instaladas nesses polos;
+
+XLV - nos perímetros das zonas exclusivamente residenciais ZER-1, ZER-2 e ZER-3 não incidirão índices e parâmetros
+
+urbanísticos menos restritivos do que aqueles atualmente aplicados;(Redação dada pela Lei nº 17.975/2023)
+
+XLVI – criar condições especiais para a construção de edifícios-garagem em áreas estratégicas como as extremidades dos eixos
+
+de mobilidade urbana, junto às estações de metrô, monotrilho e terminais de integração e de transferência entre modais;
+
+XLVII – (VETADO)
+
+XLVIII – nos bairros tombados pela legislação de bens culturais, serão observadas as restrições das resoluções dos órgãos
+
+municipal, estadual e federal de preservação do patrimônio cultural.
+
+XLIX - criar incentivos urbanísticos para edificações que adotem medidas de sustentabilidade, como cogeração de energias
+
+renováveis, pré-tratamento de esgoto, reúso de água, utilização de materiais sustentáveis, entre outros, e melhorias climáticas que
+
+contribuam para redução de ilhas de calor e poluição, como arborização horizontal e vertical, entre outros.(Incluído pela Lei nº
+
+17.975/2023)
+
+§ 1º (VETADO)
+
+§ 2º Os Planos de Bairro, quando existentes, deverão ser considerados na revisão da legislação de Parcelamento, Uso e
+
+Ocupação do Solo – LPUOS, Lei nº 13.885, de 25 de agosto de 2004.
+
+Art. 28. A legislação de Parcelamento, Uso e Ocupação do Solo – LPUOS, segundo os objetivos e diretrizes estabelecidos nesta
+
+lei, deverá estabelecer normas relativas a:
+
+I – condições físicas, ambientais e paisagísticas para as zonas e zonas especiais e suas relações com os sistemas de
+
+infraestrutura, obedecendo às diretrizes estabelecidas para cada macroárea;
+
+II – condições de acesso a serviços, equipamentos e infraestrutura urbana disponíveis e planejados;
+
+III – parcelamento, usos e volumetria compatíveis com os objetivos da política de desenvolvimento urbano estabelecidos nesta lei;
+
+IV – condições de conforto ambiental;
+
+V – (VETADO)
+
+VI – acessibilidade nas edificações e no espaço público.
+
+Parágrafo único. (VETADO)
+
+Art. 29. A legislação de Parcelamento, Uso e Ocupação do Solo – LPUOS deverá apresentar estratégia para controle de:
+
+I – parcelamento do solo, englobando dimensões mínimas e máximas de lotes e quadras;
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 20/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+II – remembramento de lotes, englobando dimensões máximas do lote resultante e previsão das condições para destinação de
+
+áreas públicas;
+
+III – densidades construtivas e demográficas;
+
+IV – volumetria da edificação no lote e na quadra;
+
+V – relação entre espaços públicos e privados;
+
+VI – movimento de terra e uso do subsolo sujeito a aprovação do Plano de Intervenção pelo órgão público competente, quando se
+
+tratar de terra contaminada ou com suspeita de contaminação;
+
+VII – circulação viária, polos geradores de tráfego e estacionamentos;
+
+VIII – insolação, aeração, permeabilidade do solo e índice mínimo de cobertura vegetal;
+
+IX – usos e atividades;
+
+X – funcionamento das atividades incômodas;
+
+XI – áreas não edificáveis;
+
+XII – fragilidade ambiental e da aptidão física à urbanização, especialmente as áreas suscetíveis à ocorrência de deslizamentos,
+
+inundações ou processos geológicos e hidrológicos correlatos indicados no Mapeamento de Áreas de Risco e na Carta Geotécnica
+
+do Município de São Paulo;
+
+XIII – bens e áreas de valor histórico, cultural, paisagístico e religioso;
+
+XIV – áreas de preservação permanente;
+
+XV – espaços para instalação de galerias para uso compartilhado de serviços públicos, inclusive centrais de produção de utilidades
+
+energéticas localizadas;
+
+XVI – poluição atmosférica e qualidade do ar;
+
+XVII – poluição atmosférica sonora;
+
+XVIII – interferências negativas na paisagem urbana.
+
+Seção II
+
+Da Classificação dos Usos e Atividades
+
+Art. 30. A legislação de Parcelamento, Uso e Ocupação do Solo deverá classificar o uso do solo em:
+
+I – residencial, que envolve a moradia de um indivíduo ou grupo de indivíduos;
+
+II – não residencial, que envolve:
+
+a) atividades comerciais;
+
+b) de serviços;
+
+c) industriais; e
+
+d) institucionais.
+
+§ 1º As categorias de uso não residencial poderão ser subdivididas em subcategorias com regulação própria.
+
+§ 2º As categorias de uso não residencial serão classificadas segundo níveis de incomodidade e compatibilidade com o uso
+
+residencial, com a vizinhança e adequação ao meio ambiente em:
+
+I – não incômodas, que não causam impacto nocivo ao meio ambiente e à vida urbana;
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 21/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+II – incômodas compatíveis com o uso residencial;
+
+III – incômodas incompatíveis com o uso residencial;
+
+IV – compatíveis com o desenvolvimento sustentável.
+
+§ 3º Os usos e atividades serão classificados de acordo com os incisos do § 2º em razão do impacto que causam, especialmente:
+
+I – impacto urbanístico em relação à sobrecarga da infraestrutura instalada e planejada para os serviços públicos ou alteração
+
+negativa da paisagem urbana;
+
+II – poluição atmosférica sonora (não particulada), em relação ao conjunto de fenômenos vibratórios que se propagam num meio
+
+físico elástico (ar, água ou sólido), gerando impacto sonoro indesejável pelo uso de máquinas, utensílios ruidosos, aparelhos
+
+sonoros ou similares, meios de transporte aéreo, hídrico ou terrestre motorizado e concentração de pessoas ou animais em recinto
+
+fechado ou ambiente externo, que cause ou possa causar prejuízo à saúde, ao bem-estar e/ou às atividades dos seres humanos,
+
+da fauna e da flora;
+
+III – poluição atmosférica particulada relativa ao uso de combustíveis nos processos de produção ou lançamento de material
+
+particulado inerte e gases contaminantes prejudiciais ao meio ambiente e à saúde humana na atmosfera acima do admissível;
+
+IV – poluição hídrica relativa à geração de efluentes líquidos incompatíveis ao lançamento na rede hidrográfica ou sistema coletor
+
+de esgotos ou poluição do lençol freático;
+
+V – poluição por resíduos sólidos relativa à produção, manipulação ou estocagem de resíduos sólidos, com riscos potenciais ao
+
+meio ambiente e à saúde pública;
+
+VI – vibração por meio do uso de máquinas ou equipamentos que produzam choque ou vibração sensível além dos limites da
+
+propriedade;
+
+VII – periculosidade em relação às atividades que apresentam risco ao meio ambiente e à saúde humana, em função da radiação
+
+emitida, da comercialização, uso ou estocagem de materiais perigosos compreendendo explosivos, gás natural e liquefeito de
+
+petróleo (GLP), combustíveis infláveis e tóxicos, conforme normas que regulem o assunto;
+
+VIII – geração de tráfego pela operação ou atração de veículos pesados, tais como caminhões, ônibus ou geração de tráfego
+
+intenso, em razão do porte do estabelecimento, da concentração de pessoas e do número de vagas de estacionamento criadas.
+
+§ 4º A LPUOS poderá criar novas subcategorias de uso e rever relação entre usos permitidos, zonas de uso e categorias de via,
+
+adequando essa disciplina às diretrizes expressas neste PDE, especialmente as relacionadas nos incisos do art. 27 desta lei.
+
+Seção III
+
+Do Zoneamento
+
+Art. 31. A divisão do território municipal em zonas deve observar os objetivos e as diretrizes definidos nesta lei para as macrozonas,
+
+macroáreas, rede de estruturação da transformação urbana e rede hídrica ambiental.
+
+Art. 32. O zoneamento do Município deverá incluir, dentre outras, as seguintes zonas:
+
+I – Zona Exclusivamente Residencial – ZER;
+
+II – Zonas Predominantemente Residenciais – ZPR;
+
+III – Zonas Mistas – ZM;
+
+IV – Zonas de Centralidades – ZC;
+
+V – Zona de Desenvolvimento Econômico – ZDE;
+
+VI – Zona Predominantemente Industrial – ZPI;
+
+VII – Zona de Ocupação Especial – ZOE;
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 22/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+VIII – Zona de Preservação e Desenvolvimento Sustentável – ZPDS;
+
+IX – Zonas Especiais de Interesse Social – ZEIS;
+
+X – Zonas Especiais de Preservação Cultural – ZEPEC;
+
+XI – Zonas Especiais de Preservação Ambiental – ZEPAM;
+
+XII – Zona Especial de Preservação – ZEP;
+
+XIII – Zona de Transição – ZT.
+
+§ 1º As zonas especiais são porções do território com diferentes características ou com destinação específica que requerem
+
+normas próprias de uso e ocupação do solo, podendo estar situadas em qualquer macrozona do Município.
+
+§ 2º (VETADO)
+
+§ 3º (VETADO)
+
+§ 4º (VETADO)
+
+Art. 33. As Zonas Exclusivamente Residenciais – ZER são porções do território destinadas exclusivamente ao uso residencial de
+
+habitações unifamiliares e multifamiliares, tipologias diferenciadas, níveis de ruído compatíveis com o uso exclusivamente
+
+residencial e com vias de tráfego leve e local, podendo ser classificadas em:
+
+I – ZER-1, de baixa densidade construtiva e demográfica;
+
+II – ZER-2, de média densidade construtiva e demográfica; e
+
+III – ZER-3, de alta densidade construtiva e demográfica.
+
+§ 1º Nas ZER-1, o gabarito de altura máximo da edificação é igual a 10 (dez) metros e ficam estabelecidos os seguintes
+
+coeficientes de aproveitamento:
+
+I – mínimo igual a 0,05 (cinco centésimos);
+
+II – básico igual a 1,0 (um);
+
+III – máximo igual a 1,0 (um).
+
+§ 2º A vegetação das Zonas Exclusivamente Residenciais, quando for considerada significativa pelo órgão ambiental, passará a
+
+integrar o sistema de áreas verdes do Município.
+
+§ 3º A Lei de Parcelamento, Uso e Ocupação do Solo e os Planos Regionais regulamentarão as interfaces das Zonas
+
+Exclusivamente Residenciais através de dispositivos que garantam a adequada transição de intensidade de usos, volumetrias,
+
+gabaritos e outros parâmetros com as demais zonas.
+
+§ 4º Os corredores de comércio e serviços em ZER deverão manter as características paisagísticas da zona.
+
+§ 5º (VETADO)
+
+Art. 34. As Zonas Predominantemente Residenciais – ZPR são porções do território destinadas majoritariamente ao uso residencial
+
+de habitações unifamiliares, multifamiliares e aos serviços de moradia, tais como casas de repouso e asilos, bem como atividades
+
+não residenciais compatíveis com o uso residencial, com densidades demográficas e construtivas baixas e médias.
+
+Art. 35. As Zonas Mistas – ZM são porções do território destinadas à implantação de usos residenciais e não residenciais, inclusive
+
+no mesmo lote ou edificação, segundo critérios gerais de compatibilidade de incomodidade e qualidade ambiental, que têm como
+
+referência o uso residencial podendo ser subdivididas em zonas mistas de baixa, média e alta densidades.
+
+Parágrafo único. (VETADO)
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 23/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+Art. 36. As Zonas de Centralidades – ZC são porções do território destinadas à localização de atividades típicas de áreas centrais
+
+ou de subcentros regionais ou de bairros, caracterizadas pela coexistência entre os usos não residenciais e a habitação, porém
+
+com predominância de usos não residenciais, podendo ser subdivididas em zonas de centralidades de baixa, média e alta
+
+densidade.
+
+Art. 37. As Zonas de Desenvolvimento Econômico – ZDE são porções do território com predominância de uso industrial, destinadas
+
+à manutenção, incentivo e modernização desses usos, às atividades produtivas de alta intensidade em conhecimento e tecnologia
+
+e aos centros de pesquisa aplicada e desenvolvimento tecnológico, entre outras atividades econômicas onde não deverão ser
+
+permitidos os empreendimentos imobiliários para uso residencial.
+
+Art. 38. As Zonas Predominantemente Industriais – ZPI são porções do território destinadas à implantação de usos diversificados
+
+onde a preferência é dada aos usos industriais incômodos e às atividades não residenciais incômodas, restringindo
+
+empreendimentos de uso residencial.
+
+Parágrafo único. A produção de Habitação de Interesse Social – HIS 1 poderá ser admitida ouvida a CAEHIS.
+
+Art. 39. As Zonas de Ocupação Especial – ZOE são porções do território destinadas a abrigar predominantemente atividades que,
+
+por suas características únicas, como aeroportos, centros de convenção, grandes áreas de lazer, recreação e esportes, necessitem
+
+disciplina especial de uso e ocupação do solo.
+
+Art. 40. As Zonas de Transição – ZT são porções do território que têm como função a transição de densidade e volumetria e uso
+
+entre zonas com densidades demográficas e construtivas distintas.
+
+Art. 41. As Zonas de Preservação e Desenvolvimento Sustentável – ZPDS são porções do território destinadas à conservação da
+
+paisagem e à implantação de atividades econômicas compatíveis com a manutenção e recuperação dos serviços ambientais por
+
+elas prestados, em especial os relacionados às cadeias produtivas da agricultura e do turismo, de densidades demográfica e
+
+construtiva baixas.
+
+Parágrafo único. A revisão da LPUOS poderá incorporar aos perímetros das ZPDS as atuais Zonas de Lazer e Turismo – ZLT e
+
+Zonas Especiais de Produção Agrícola e Extração Mineral – ZEPAG, quando as características dessas áreas e as diretrizes para
+
+sua ocupação forem correspondentes às das ZPDS.
+
+Art. 42. A tipologia de zonas, descrita nos arts. 32 a 40 desta lei, ressalvada a ZER-1, poderá ser ampliada na revisão da LPUOS
+
+com a criação de novos tipos e com a divisão das zonas citadas em subtipos considerando características físico-ambientais,
+
+densidades demográfica e construtiva existentes e planejadas, tipologia de edificações e diversidade de atividades permitidas,
+
+segundo os objetivos e as diretrizes de desenvolvimento urbano definidos neste PDE.
+
+Art. 43. A revisão da legislação de Parcelamento, Uso e Ocupação do Solo poderá prever incentivos urbanísticos para os
+
+proprietários que doarem ao Município áreas necessárias à ampliação do sistema viário e do sistema de áreas verdes,
+
+proporcionarem usos mistos no mesmo lote, produzirem unidades de Habitação de Interesse Social, destinarem a faixa resultante
+
+do recuo frontal para fruição pública, dentre outras medidas estabelecidas em lei.
+
+Seção IV
+
+Da Zona Especial de Interesse Social (ZEIS)
+
+Subseção I
+
+Dos Conceitos e Classificação da ZEIS
+
+Art. 44. As Zonas Especiais de Interesse Social (ZEIS), demarcadas nos Mapas 4 e 4A, são porções do território destinadas,
+
+predominantemente, à moradia digna para a população da baixa renda por intermédio de melhorias urbanísticas, recuperação
+
+ambiental e regularização fundiária de assentamentos precários e irregulares, bem como à provisão de novas Habitações de
+
+Interesse Social – HIS e Habitações de Mercado Popular – HMP a serem dotadas de equipamentos sociais, infraestruturas, áreas
+
+verdes e comércios e serviços locais, situadas na zona urbana.
+
+§ 1º Para efeito da disciplina de parcelamento, uso e ocupação do solo, as disposições relativas às ZEIS prevalecem sobre aquelas
+
+referentes a qualquer outra zona de uso incidente sobre o lote ou gleba.
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 24/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+§ 2º Nas ZEIS, o agente promotor público e privado deve comprovar o atendimento aos percentuais mínimos de área construída
+
+por faixas de renda, referente à HIS 1, em ZEIS 1, ZEIS 2, ZEIS 3 e ZEIS 4, e de HIS em ZEIS 5 estabelecidos no Quadro 4 da
+
+presente lei.
+
+§ 3º Novas ZEIS podem ser demarcadas na revisão da legislação de Parcelamento, Uso e Ocupação do Solo.
+
+Art. 45. As ZEIS classificam-se em 5 (cinco) categorias, definidas nos seguintes termos:
+
+I – ZEIS 1 são áreas caracterizadas pela presença de favelas, loteamentos irregulares e empreendimentos habitacionais de
+
+interesse social, e assentamentos habitacionais populares, habitados predominantemente por população de baixa renda, onde haja
+
+interesse público em manter a população moradora e promover a regularização fundiária e urbanística, recuperação ambiental e
+
+produção de Habitação de Interesse Social;
+
+II – ZEIS 2 são áreas caracterizadas por glebas ou lotes não edificados ou subutilizados, adequados à urbanização e onde haja
+
+interesse público ou privado em produzir Empreendimentos de Habitação de Interesse Social;
+
+III – ZEIS 3 são áreas com ocorrência de imóveis ociosos, subutilizados, não utilizados, encortiçados ou deteriorados localizados
+
+em regiões dotadas de serviços, equipamentos e infraestruturas urbanas, boa oferta de empregos, onde haja interesse público ou
+
+privado em promover Empreendimentos de Habitação de Interesse Social;
+
+IV – ZEIS 4 são áreas caracterizadas por glebas ou lotes não edificados e adequados à urbanização e edificação situadas na Área
+
+de Proteção aos Mananciais das bacias hidrográficas dos reservatórios de Guarapiranga e Billings, exclusivamente nas
+
+Macroáreas de Redução da Vulnerabilidade e Recuperação Ambiental e de Controle e Recuperação Urbana e Ambiental,
+
+destinadas à promoção de Habitação de Interesse Social para o atendimento de famílias residentes em assentamentos localizados
+
+na referida Área de Proteção aos Mananciais, preferencialmente em função de reassentamento resultante de plano de urbanização
+
+ou da desocupação de áreas de risco e de preservação permanente, com atendimento à legislação estadual;
+
+V – ZEIS 5 são lotes ou conjunto de lotes, preferencialmente vazios ou subutilizados, situados em áreas dotadas de serviços,
+
+equipamentos e infraestruturas urbanas, onde haja interesse privado em produzir empreendimentos habitacionais de mercado
+
+popular e de interesse social.
+
+§ 1º Deverá ser evitada a demarcação de novas ZEIS nas áreas que apresentem risco à saúde ou à vida, salvo quando saneados,
+
+e em terrenos onde as condições físicas e ambientais não recomendem a construção.
+
+§ 2º Não será admitida a demarcação de ZEIS 2, 3, 4 e 5 em áreas totalmente ocupadas por vegetação remanescente de Mata
+
+Atlântica ou inseridas totalmente em Áreas de Preservação Permanente (APP).
+
+Art. 46. Habitação de Interesse Social – HIS e Habitação de Mercado Popular – HMP são as tipologias habitacionais destinadas ao
+
+atendimento de famílias de baixa renda, em empreendimentos que se utilizem do regime jurídico previsto nesta Lei para esta
+
+modalidade de provisão habitacional, de promoção pública ou privada.(Redação dada pela Lei nº 17.975/2023)
+
+§ 1º São promotores de HIS e HMP aqueles que aderirem ao regramento específico regulado por esta Lei.(Redação dada pela Lei
+
+nº 17.975/2023)
+
+§ 2º Para fins de caracterização das tipologias de Habitação de Interesse Social – HIS 1, Habitação de Interesse Social – HIS 2 e
+
+Habitação de Mercado Popular – HMP serão observadas as seguintes faixas:(Redação dada pela Lei nº 17.975/2023)
+
+I - HIS 1: até 3 (três) salários mínimos de renda familiar mensal ou até 0,5 (meio) salário mínimo per capita mensal;(Redação dada
+
+pela Lei nº 17.975/2023)
+
+II - HIS 2: até 6 (seis) salários mínimos de renda familiar mensal ou até 1 (um) salário mínimo per capita mensal;(Redação dada
+
+pela Lei nº 17.975/2023)
+
+III - HMP: até 10 (dez) salários mínimos de renda familiar mensal ou até 1,5 (um e meio) salário mínimo per capita mensal.
+
+(Redação dada pela Lei nº 17.975/2023)
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 25/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+Art. 47. A produção privada de unidades de HIS 1, HIS 2 e HMP utilizando os benefícios urbanísticos e fiscais previstos nesta Lei
+
+caracterizará adesão a regime jurídico próprio, qualificado, concomitantemente:(Redação dada pela Lei nº 17.975/2023)
+
+(Regulamentado pelo Decreto nº 63.130/2024)
+
+I - pela fruição dos benefícios fiscais e urbanísticos pertinentes à implantação das tipologias de HIS 1, HIS 2 e HMP;(Incluído pela
+
+Lei nº 17.975/2023)
+
+II - pela necessidade de atendimento, de forma permanente, da faixa de renda destinatária das unidades habitacionais produzidas
+
+em cada uma das tipologias apontadas no inciso I.(Incluído pela Lei nº 17.975/2023)
+
+§ 1º Para fins de proporcionar o atendimento, de forma permanente, da destinação das unidades habitacionais produzidas no
+
+regime jurídico tratado neste artigo, os imóveis produzidos utilizando os benefícios trazidos nesta Lei sujeitam-se às seguintes
+
+regras:(Incluído pela Lei nº 17.975/2023)
+
+I - deverá ser realizada a averbação, na matrícula de cada unidade habitacional das tipologias de HIS 1, HIS 2 e HMP produzidas
+
+mediante adesão ao regime jurídico exposto neste artigo, de que tais receberam os benefícios previstos nesta Lei e que deverão
+
+ser destinadas a famílias com o perfil de renda declarado no licenciamento do empreendimento;(Incluído pela Lei nº 17.975/2023)
+
+II - a destinação destas unidades dependerá de emissão de certidão atestando o enquadramento das famílias na respectiva faixa
+
+de renda estabelecida no art. 46 desta Lei.(Incluído pela Lei nº 17.975/2023)
+
+§ 2º A inobservância ao exposto nesta Lei acarretará:(Incluído pela Lei nº 17.975/2023)
+
+a) ao promotor do empreendimento, o dever de pagamento integral do potencial construtivo adicional utilizado, impostos, custas e
+
+demais encargos referentes à sua implantação, além de multa equivalente ao dobro deste valor financeiro apurado, devidamente
+
+corrigido;(Incluído pela Lei nº 17.975/2023)
+
+b) a terceiros adquirentes, cobrança dos valores indicados no item anterior, calculados de forma proporcional à fração ideal do
+
+imóvel adquirido, estando autorizado o Poder Público a adotar as medidas processuais análogas às previstas nos incisos I e II do
+
+art. 107 desta Lei.(Incluído pela Lei nº 17.975/2023)
+
+§ 3º Fica o Poder Público:(Incluído pela Lei nº 17.975/2023)
+
+I - autorizado a celebrar com o Serviço Registrário Imobiliário acordo para fins de receber notificações sobre a comercialização de
+
+imóveis caracterizados como HIS 1, HIS 2 e HMP produzidos mediante adesão ao regime jurídico previsto neste artigo;(Incluído
+
+pela Lei nº 17.975/2023)
+
+II - (VETADO)(Incluído pela Lei nº 17.975/2023)
+
+§ 4º O Poder Público editará, em até 30 (trinta) dias da aprovação desta Lei, decreto regulamentando as formas de fiscalização
+
+sobre o efetivo atendimento da provisão habitacional para as faixas de renda destinatárias das unidades de HIS 1, HIS 2 e HMP
+
+produzidas nos termos deste artigo, bem como sobre o procedimento de aplicação das sanções nele previstas.(Incluído pela Lei nº
+
+17.975/2023)
+
+§ 5º A comprovação de atendimento à faixa de renda familiar que trata o inciso II do caput deste artigo deverá ser atendida no
+
+momento da assinatura do compromisso de compra e venda ou no contrato de compra e venda.(Incluído pela Lei nº 17.975/2023)
+
+§ 6º Os empreendedores que produzirem unidades de HIS 1 mediante a adesão ao regime jurídico previsto neste artigo deverão
+
+destiná-las prioritariamente à demanda indicada pelo Poder Público.(Incluído pela Lei nº 17.975/2023)
+
+§ 7º Para atendimento ao previsto no parágrafo anterior, o Poder Executivo regulamentará o atendimento previsto no parágrafo, no
+
+prazo de 90 (noventa) dias.(Incluído pela Lei nº 17.975/2023)
+
+I - (VETADO)(Incluído pela Lei nº 17.975/2023)
+
+II - (VETADO)(Incluído pela Lei nº 17.975/2023)
+
+§ 8º A obrigação prevista no inciso II do caput ficará limitada ao prazo de 10 (dez) anos, contados da alienação da unidade para as
+
+famílias enquadradas nas respectivas faixas de renda.(Incluído pela Lei nº 17.975/2023)
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 26/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+§ 9º Os benefícios pertinentes ao regime jurídico previsto neste artigo poderão ser também utilizados por empreendimentos
+
+destinados, total ou parcialmente, para locação das unidades habitacionais de HIS 1, HIS 2 e HMP, observadas as seguintes
+
+regras:(Incluído pela Lei nº 17.975/2023)
+
+I - as unidades destinadas para esta finalidade deverão indicar tal condição mediante averbação na matrícula, em adição à
+
+averbação prevista no inciso I do § 1º deste artigo;(Incluído pela Lei nº 17.975/2023)
+
+II - (VETADO)(Incluído pela Lei nº 17.975/2023)
+
+III - a celebração do contrato de locação subordina-se à obtenção da certidão prevista no § 1º, inciso II deste artigo, devendo os
+
+locatários oferecer a documentação exigida em decreto para manutenção no banco de dados previsto no § 3º, inciso II.(Incluído
+
+pela Lei nº 17.975/2023)
+
+§ 10. (VETADO)(Incluído pela Lei nº 17.975/2023)
+
+§ 11. As previsões contidas no inciso II do caput e no § 6º deste artigo não se aplicam quando as unidades forem comercializadas
+
+por meio de programas habitacionais desenvolvidos pelo Governo Federal, Estadual ou Municipal.(Incluído pela Lei nº
+
+17.975/2023)
+
+Subseção II
+
+Das Regras Aplicáveis às ZEIS
+
+Art. 48. Nas ZEIS 1 e 3, quando habitadas por população de baixa renda, deverão ser constituídos Conselhos Gestores compostos
+
+por representantes dos moradores, do Executivo e da sociedade civil organizada, para participar da formulação e implementação
+
+das intervenções a serem realizadas em suas áreas.
+
+§ 1º Moradores de áreas já ocupadas, poderão solicitar ao Executivo a criação de Conselhos Gestores, desde que tenha a
+
+anuência expressa de ao menos 20% (vinte por cento) dos moradores da área da respectiva ZEIS.
+
+§ 2º (VETADO)
+
+§ 3º (VETADO)
+
+§ 4º A instalação do Conselho Gestor deverá preceder a elaboração do Plano de Ação Integrada, que por ele deverá ser aprovado.
+
+(Redação dada pela Lei nº 17.975/2023)
+
+§ 5º O Executivo deverá regulamentar, por decreto, o funcionamento dos conselhos gestores de ZEIS contendo, no mínimo, as
+
+situações em que haverá a obrigatoriedade de instituição do conselho e as regras e os procedimentos para sua composição e
+
+funcionamento.(Incluído pela Lei nº 17.975/2023)
+
+Art. 49. (VETADO)
+
+Art. 50. Os Planos de Ação Integrada em ZEIS 1 ou ZEIS 3 ocupadas por população de baixa renda deverão ser formulados
+
+preferencialmente pelo Executivo, com a participação direta de seus respectivos moradores e conselhos gestores.(Redação dada
+
+pela Lei nº 17.975/2023)
+
+§ 1º Os moradores, suas entidades representativas e os membros do respectivo Conselho Gestor da ZEIS 1 e das ZEIS 3 poderão
+
+tomar a iniciativa de elaborar planos de urbanização que serão submetidos à Prefeitura para aprovação.(Redação dada pela Lei nº
+
+17.975/2023)
+
+§ 2º No caso de iniciativa definida no parágrafo anterior, assim como para a realização de regularização fundiária, a Prefeitura
+
+poderá disponibilizar assistência técnica, jurídica e social à população moradora das ZEIS.
+
+§ 3º Após deliberação do Conselho Gestor da ZEIS e a aprovação da Comissão de Avaliação de Empreendimentos de Habitação
+
+de Interesse Social – CAEHIS, os parâmetros urbanísticos das ZEIS definidos no projeto de urbanização serão formalizados por
+
+decreto, devendo as normas edilícias para os EZEIS e EHIS destinados ao reassentamento das famílias de baixa renda e as
+
+condições de estabilidade, segurança e salubridade das edificações e equipamentos.(Incluído pela Lei nº 17.975/2023)
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 27/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+§ 4º Para atender ao disposto no art. 292 desta Lei, o Plano de Ação Integrada em ZEIS 1 ou ZEIS 3 poderá abranger zonas
+
+distintas de ZEIS desde que:(Incluído pela Lei nº 17.975/2023)
+
+a) as zonas distintas de ZEIS sejam ocupadas por assentamentos precários localizados no mesmo contexto urbano das ZEIS
+
+objeto do Plano de Ação Integrada, incluindo aspectos físico-ambientais, urbanísticos, fundiários, socioeconômicos e demográficos,
+
+entre outros;(Incluído pela Lei nº 17.975/2023)
+
+b) o Plano de Ação Integrada preveja ação pública para atendimento de famílias de baixa renda moradoras destas zonas distintas
+
+de ZEIS;(Incluído pela Lei nº 17.975/2023)
+
+c) os parâmetros definidos no projeto de urbanização observem o disposto no art. 60 desta Lei.(Incluído pela Lei nº 17.975/2023)
+
+§ 5º O Plano de Ação Integrada, especialmente quando abranger áreas não demarcadas como ZEIS 1 ou ZEIS 3, deverá
+
+considerar o Sistema de Planejamento Urbano, prevendo a participação do órgão municipal de planejamento urbano e garantindo a
+
+integração das propostas previstas com o planejamento setorial.(Incluído pela Lei nº 17.975/2023)
+
+Art. 51. Os planos de Ação Integrada em ZEIS 1 ou ZEIS 3 devem ser realizados e aprovados pelo Conselho Gestor das ZEIS em
+
+duas etapas, sendo elas:(Redação dada pela Lei nº 17.975/2023)
+
+I - Plano Urbanístico ou de Massas, conforme critérios definidos pelo órgão municipal de habitação, devendo conter, no mínimo:
+
+(Redação dada pela Lei nº 17.975/2023)
+
+a) análise sobre o contexto da área, incluindo aspectos físico-ambientais, urbanísticos, fundiários, socioeconômicos e
+
+demográficos, entre outros;(Incluído pela Lei nº 17.975/2023)
+
+b) plano de trabalho social;(Incluído pela Lei nº 17.975/2023)
+
+c) formas de participação dos beneficiários na implementação da intervenção;(Incluído pela Lei nº 17.975/2023)
+
+d) diretrizes gerais da intervenção;(Incluído pela Lei nº 17.975/2023)
+
+e) diretrizes para a implantação de infraestrutura que for necessária e mitigação ou eliminação de áreas de risco quando existente;
+
+(Incluído pela Lei nº 17.975/2023)
+
+f) dimensionamento preliminar físico e financeiro das intervenções propostas;(Incluído pela Lei nº 17.975/2023)
+
+g) soluções para a regularização fundiária da área objeto de intervenção, de forma a garantir a segurança de posse dos imóveis
+
+para os moradores;(Incluído pela Lei nº 17.975/2023)
+
+h) soluções e instrumentos aplicáveis para viabilizar a regularização dos usos não residenciais já instalados, em especial aqueles
+
+destinados à geração de emprego e renda e à realização de atividades religiosas e associativas de caráter social;(Incluído pela Lei
+
+nº 17.975/2023)
+
+II - Projeto Urbanístico, que deverá conter, no mínimo:(Redação dada pela Lei nº 17.975/2023)
+
+a) cadastramento dos moradores da área, a ser realizado pela Secretaria Municipal de Habitação, consultado o Conselho Gestor
+
+da respectiva ZEIS;(Incluído pela Lei nº 17.975/2023)
+
+b) projeto de urbanismo contendo as soluções urbanas que permitirão a integração da área ao tecido da cidade, além de áreas
+
+verdes, equipamentos sociais e usos complementares ao habitacional;(Incluído pela Lei nº 17.975/2023)
+
+c) projeto de parcelamento das quadras, com parcelamento dos lotes apenas para os lotes criados para a implantação de
+
+conjuntos habitacionais;(Incluído pela Lei nº 17.975/2023)
+
+d) projetos de engenharia contemplando o atendimento integral por rede pública de água e esgotos, bem como coleta,
+
+preferencialmente seletiva, regular e transporte dos resíduos sólidos;(Incluído pela Lei nº 17.975/2023)
+
+e) projetos de engenharia contemplando pavimentação, sistema de drenagem e manejo das águas pluviais;(Incluído pela Lei nº
+
+17.975/2023)
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 28/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+f) projetos de engenharia contemplando a consolidação geotécnica visando mitigação ou eliminação das áreas de risco;(Incluído
+
+pela Lei nº 17.975/2023)
+
+g) projeto de paisagismo para as vias públicas e áreas verdes;(Incluído pela Lei nº 17.975/2023)
+
+h) projetos habitacionais para o reassentamento das famílias;(Incluído pela Lei nº 17.975/2023)
+
+i) diretrizes, índices e parâmetros urbanísticos para o parcelamento, uso e ocupação do solo dos lotes criados ou utilizados para o
+
+reassentamento das famílias, da integralidade do perímetro definido para o plano de intervenção;(Incluído pela Lei nº 17.975/2023)
+
+j) dimensionamento do cronograma físico e financeiro das intervenções propostas e sua vinculação ao planejamento orçamentário
+
+municipal e Programa de Metas;(Incluído pela Lei nº 17.975/2023)
+
+k) plano de trabalho técnico social.(Incluído pela Lei nº 17.975/2023)
+
+§ 1º Em ZEIS 1 e ZEIS 3, a regularização do parcelamento do solo, bem como das edificações e usos pré-existentes, deverá
+
+observar as diretrizes, índices e parâmetros urbanísticos estabelecidos pelo plano de urbanização aprovado pelo respectivo
+
+Conselho Gestor e pela CAEHIS.(Redação dada pela Lei nº 17.975/2023)
+
+§ 2º Os Planos de Ação Integrada em ZEIS 1 ou ZEIS 3 serão realizados considerando as características da intervenção.(Redação
+
+dada pela Lei nº 17.975/2023)
+
+§ 3º Deverá ser elaborado Plano de Reassentamento para as famílias que serão removidas, a ser aprovado pelo Conselho Gestor
+
+da ZEIS previamente à remoção, ressalvados casos de caráter emergencial.(Redação dada pela Lei nº 17.975/2023)
+
+§ 4º Nas ZEIS 3, em caso de demolição ou reforma de edificação usada como cortiço ou ocupação irregular, as moradias
+
+produzidas no terreno deverão ser destinadas prioritariamente à população moradora no antigo imóvel.(Incluído pela Lei nº
+
+17.975/2023)
+
+§ 5º Nas ZEIS 3, no caso de reforma de edificação existente para a produção de EHIS, serão admitidas, a critério da Comissão de
+
+Avaliação de Empreendimentos de HIS – CAEHIS, variações de parâmetros e normas edilícias, sem prejuízo das condições de
+
+estabilidade, segurança e salubridade das edificações e equipamentos.(Incluído pela Lei nº 17.975/2023)
+
+§ 6º Nas ZEIS 1 situadas em Áreas de Proteção e Recuperação dos Mananciais, aplicam-se as disposições das leis estaduais
+
+específicas.(Incluído pela Lei nº 17.975/2023)
+
+Art. 52. (Revogado pela Lei nº 17.975/2023)
+
+Art. 53. Nas ZEIS 2 e 4 ficam estabelecidas as seguintes disposições complementares:
+
+I – averbação prévia de área verde, podendo esta ser doada para a criação de parque municipal ou praça pública;
+
+II – preservação, ou recuperação quando for o caso, das áreas de preservação permanente;
+
+III – atendimento integral por rede pública de água e esgotos, bem como coleta, preferencialmente seletiva, regular e transporte
+
+dos resíduos sólidos;
+
+IV – sistema de drenagem e manejo das águas pluviais;
+
+V – atendimento às condicionantes dos planos de manejo quando se tratar de área inserida em unidade de conservação, inclusive
+
+zona de amortecimento.
+
+Art. 54. Nas ZEIS 4, além do disposto no artigo anterior ficam estabelecidas as seguintes disposições complementares:
+
+I – atendimento às diretrizes e parâmetros da legislação estadual de proteção aos mananciais;
+
+II – atendimento por sistema completo de abastecimento de água, coleta, tratamento e disposição final ou exportação de esgotos e
+
+sistema de coleta regular de resíduos sólidos, incluindo programas de redução, reciclagem e reúso desses resíduos, observadas
+
+as disposições específicas de cada subárea de ocupação dirigida, estabelecidas pelas leis estaduais de proteção e recuperação
+
+dos mananciais.
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 29/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+Parágrafo único. As ZEIS 4 inseridas nas APAs Bororé-Colônia e Capivari-Monos serão destinadas exclusivamente ao
+
+reassentamento das famílias oriundas de ZEIS 1 situadas no interior da APA, garantido o acompanhamento do processo pelo
+
+respectivo Conselho Gestor.
+
+Subseção III
+
+Da Disciplina de Uso e Ocupação do Solo em ZEIS
+
+Art. 55. Em ZEIS, o licenciamento de edificação nova ou de reforma com mudança de uso deverá atender à destinação de
+
+percentuais mínimos de área construída total para HIS 1 e HIS 2, conforme Quadro 4, anexo à presente lei.
+
+§ 1º As exigências estabelecidas no “caput” aplicam-se aos imóveis dotados de área de terreno superior a 1.000m2 (mil metros
+
+quadrados) situados em ZEIS 1, 2, 4 e 5, bem como àqueles dotados de área de terreno superior a 500m2 (quinhentos metros
+
+quadrados) quando situados em ZEIS 3, excetuados os imóveis:
+
+I – públicos destinados a equipamentos sociais de educação, saúde, assistência social, cultura, esportes e lazer, bem como à
+
+infraestrutura urbana;
+
+II – integrantes do Sistema Municipal de Áreas Protegidas, Áreas Verdes e Espaços Livres;
+
+III – classificados como ZEPEC-BIR, tombados ou que tenham processo de tombamento aberto pelo órgão competente de
+
+qualquer ente federativo.
+
+IV - destinados a locais de todo culto;(Incluído pela Lei nº 17.975/2023)
+
+V - Em reformas com ou sem aumento de área e sem mudança de uso para imóveis industriais, comerciais e de serviços
+
+regularmente instalados e em funcionamento.(Incluído pela Lei nº 17.975/2023)
+
+§ 2º Em ZEIS, no caso de imóveis que se enquadram na exigência de destinação de área construída para HIS 1 e HIS 2 de acordo
+
+com o “caput” e § 1º deste artigo, o licenciamento de planos e projetos de parcelamento do solo, em data posterior à aprovação
+
+desta lei, submeterá todos os lotes resultantes à exigência de destinação de área construída para HIS independentemente das
+
+dimensões dos lotes resultantes.
+
+§ 3º Em ZEIS, a reforma sem mudança de uso que envolver a demolição ou ampliação de 50% (cinquenta por cento) ou mais do
+
+total da área edificada no lote será considerada edificação nova para fins de aplicação das exigências estabelecidas no “caput”
+
+deste artigo.
+
+§ 4º As exigências estabelecidas no “caput” deste artigo poderão ser atendidas tendo por referência um conjunto de lotes,
+
+contíguos ou não, desde que:
+
+I – os lotes estejam localizados em ZEIS, na mesma Subprefeitura;
+
+II – sejam observados no conjunto de lotes, para cálculo do total de área construída destinada para HIS 1 e HIS 2, as exigências
+
+estabelecidas no Quadro 4 para cada lote, conforme as categorias de ZEIS nas quais os lotes envolvidos estiverem localizados.
+
+§ 5º A emissão do Certificado de Conclusão da totalidade das HIS exigidas nos termos deste artigo constitui condição para a
+
+emissão do Certificado de Conclusão das edificações correspondentes aos demais usos licenciados.
+
+§ 6º Será regulamentada por decreto a forma de comprovação do atendimento da demanda habitacional, observados os valores
+
+máximos da renda familiar mensal e per capita estabelecidos nesta lei para HIS 1, HIS 2 e HMP.
+
+Art. 56. Em ZEIS, até a revisão da Lei nº 13.885, de 25 de agosto de 2004, nos imóveis que não se enquadram nas exigências de
+
+destinação de área construída para HIS, aplicam-se conjuntamente as disposições:
+
+a) do Quadro 2/j anexo à Parte III da Lei nº 13.885, de 2004, quanto às características de aproveitamento, dimensionamento e
+
+ocupação dos lotes;
+
+b) do Quadro 2/i anexo à Parte III da Lei nº 13.885, de 2004, quanto às condições de instalação dos usos não residenciais nR
+
+permitidos em ZEIS.
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 30/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+Parágrafo único. Até a revisão da Lei nº 13.885, de 2004, aplicam-se para as ZEIS 5 os mesmos parâmetros estabelecidos para a
+
+ZEIS 3 nos quadros referidos no “caput”.
+
+Art. 57. Consideram-se Empreendimentos em ZEIS – EZEIS aqueles que atendem à exigência de destinação obrigatória de área
+
+construída para HIS 1 e HIS 2, conforme estabelecido no Quadro 4, anexo à presente lei.
+
+§ 1º Nos EZEIS serão consideradas não computáveis as áreas destinadas a usos não residenciais até o limite de 20% (vinte por
+
+cento) da área computável destinada a usos residenciais classificados como HIS e HMP.
+
+§ 2º Os usos não residenciais permitidos em EZEIS são aqueles definidos no Quadro 2/i anexo à Parte III da Lei nº 13.885, de 25
+
+de agosto de 2004, até a sua revisão, aplicando-se para a ZEIS 5 os mesmos parâmetros da ZEIS 3.
+
+§ 3º Todas as categorias de uso do solo integrantes de EZEIS, inclusive usos não residenciais, deverão obedecer à disciplina
+
+específica de parcelamento, uso e ocupação do solo para EHIS e EHMP.
+
+§ 4º Nos EZEIS situados na Área de Proteção e Recuperação dos Mananciais os parâmetros urbanísticos e as características de
+
+dimensionamento, ocupação e aproveitamento dos lotes deverão obedecer à legislação estadual, no que couber.
+
+§ 5º. Para as ZEIS 2, 3 e 5 localizadas em quadras integral ou parcialmente contidas nas áreas de influência dos Eixos de
+
+Estruturação da Transformação Urbana existentes ou ativados, fica permitido o acréscimo de 50% (cinquenta por cento) do
+
+coeficiente de aproveitamento máximo previsto especificamente para o licenciamento de EZEIS, exceto nos casos de sobreposição
+
+com áreas de interesse de preservação cultural ou ambiental.(Redação dada pela Lei nº 18.157/2024)
+
+§ 6º O disposto no § 5º deste artigo não se aplica às ZEIS localizadas na Macrozona de Proteção e Recuperação Ambiental.
+
+(Incluído pela Lei nº 17.975/2023)
+
+§ 7º Lei específica definirá as quadras passíveis da aplicação das disposições do § 5º deste artigo demarcando inclusive as áreas
+
+atingidas por Eixos de Estruturação da Transformação Urbana previstos, que só poderão ser beneficiadas quando ativados.
+
+(Incluído pela Lei nº 17.975/2023)
+
+§ 8º Para as quadras parcialmente contidas nas áreas de influência dos eixos, fica permitido o uso como eixo de estruturação, e
+
+seus respectivos parâmetros urbanísticos, em todo o perímetro da quadra.(Incluído pela Lei nº 18.157/2024)
+
+Art. 58. Nas ZEIS 1, 2, 3, 4 e 5 a concessão do direito de construir acima do coeficiente de aproveitamento básico até o limite do
+
+coeficiente de aproveitamento máximo é gratuita para todas as categorias de uso integrantes das EZEIS.
+
+§ 1º As disposições do “caput” aplicam-se também no caso de ZEIS 1, 2, 3, 4 cujos limites estejam compreendidos dentro dos
+
+perímetros de Operações Urbanas e Operações Urbanas Consorciadas, observado o coeficiente máximo estabelecido na lei
+
+específica de cada OUC.
+
+§ 2º Em todas as demais zonas de uso, inclusive dentro dos perímetros de Operações Urbanas e Operações Urbanas
+
+Consorciadas, aplica-se à produção de HIS, nos tipos HIS 1 e HIS 2, o fator de interesse social estabelecido no Quadro 5 anexo à
+
+presente lei.
+
+Subseção IV
+
+Da Disciplina dos Empreendimentos EHIS e EHMP
+
+Art. 59. Os Empreendimentos de Habitação de Interesse Social – EHIS e Empreendimentos de Habitação de Mercado Popular –
+
+EHMP são permitidos em todo o território do Município, com exceção das Macroáreas de Preservação dos Ecossistemas Naturais
+
+e de Contenção Urbana e Uso Sustentável e das ZER-1.
+
+Art. 60. Nas zonas em que são permitidos empreendimentos habitacionais EZEIS, EHIS, EHMP, HIS e HMP deverá ser observado:
+
+I – o coeficiente de aproveitamento máximo:
+
+a) em ZEIS, conforme definido no Quadro 3 anexo à presente lei;
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 31/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+b) nas demais zonas de uso, conforme os máximos definidos nos Quadros 2 e 2A desta lei ou nas leis de operação urbana
+
+consorciada;
+
+c) nos lotes localizados nas MEM, MUC e MQU poderão ter acréscimo de até 50% (cinquenta por cento) ao C.A. max permitido
+
+conforme Quadros 2 e 2A desde que o acréscimo seja destinado exclusivamente ao uso HIS;(Incluído pela Lei nº 17.975/2023)
+
+d) nos lotes localizados nas MEM, MUC e MQU poderão ter acréscimo de até 25% (vinte e cinco por cento) ao C.A. max permitido
+
+conforme Quadros 2 e 2A desde que o acréscimo seja destinado exclusivamente ao uso HMP e mediante pagamento de outorga
+
+onerosa;(Incluído pela Lei nº 17.975/2023)
+
+e) será considerado não computável, até o limite de 50% (cinquenta por cento) da área construída computável máxima permitida, a
+
+área destinada a HIS 1.(Incluído pela Lei nº 17.975/2023)
+
+II – o gabarito máximo definido nos Quadros 2 e 2A desta lei ou das leis de operação urbana consorciada, excetuadas todas as
+
+categorias de ZEIS;
+
+III – as demais normas, índices e parâmetros de parcelamento, uso e ocupação do solo estabelecidos em decreto específico para
+
+EZEIS, EHIS, EHMP, HIS e HMP.
+
+§ 1º No caso de demolição ou reforma de edificação existente, para a construção de EHIS, EHMP ou EZEIS é permitida a
+
+utilização da taxa de ocupação e do coeficiente de aproveitamento do edifício demolido ou reformado, mesmo que maiores do que
+
+os referidos no “caput” deste artigo.
+
+§ 2º Nas áreas de proteção de mananciais, definidas por lei estadual, o licenciamento de EHIS, EHMP, HIS, HMP e EZEIS deve
+
+obedecer à legislação estadual aplicável.
+
+§ 3º Em ZEPEC, ZEPAM e unidades de conservação ambiental, o licenciamento de EHIS, EHMP, HIS e HMP deve atender parecer
+
+dos órgãos técnicos competentes, no que se refere às questões ambientais e culturais.
+
+§ 4º Nos EHIS e nos EHMP serão consideradas não computáveis as áreas destinadas a usos não residenciais abertos ao público
+
+ou de uso institucional, quando localizadas no pavimento ao nível do passeio público, até o limite de 20% (vinte por cento) da área
+
+computável destinada a usos residenciais classificados como HIS e HMP.
+
+§ 5º O disposto nas alíneas “c” e “d” deste artigo se aplicam a todos os empreendimentos, exceto os EHIS e EHMP, o disposto na
+
+alínea “e” se aplica a qualquer empreendimento, a serem executados dentro das macroáreas citadas e poderão ser cumulativos.
+
+(Incluído pela Lei nº 17.975/2023)
+
+Seção V
+
+Da Zona Especial de Preservação Cultural (ZEPEC)
+
+Art. 61. As Zonas Especiais de Preservação Cultural (ZEPEC) são porções do território destinadas à preservação, valorização e
+
+salvaguarda dos bens de valor histórico, artístico, arquitetônico, arqueológico e paisagístico, doravante definidos como patrimônio
+
+cultural, podendo se configurar como elementos construídos, edificações e suas respectivas áreas ou lotes; conjuntos
+
+arquitetônicos, sítios urbanos ou rurais; sítios arqueológicos, áreas indígenas, espaços públicos; templos religiosos, elementos
+
+paisagísticos; conjuntos urbanos, espaços e estruturas que dão suporte ao patrimônio imaterial e/ou a usos de valor socialmente
+
+atribuído.
+
+Parágrafo único. Os imóveis ou áreas tombadas ou protegidas por legislação Municipal, Estadual ou Federal enquadram-se como
+
+ZEPEC.
+
+Art. 62. A ZEPEC tem como objetivos:
+
+I – promover e incentivar a preservação, conservação, restauro e valorização do patrimônio cultural no âmbito do Município;
+
+II – preservar a identidade dos bairros e das áreas de interesse histórico, paisagístico e cultural, valorizando as características
+
+históricas, sociais e culturais;
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 32/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+III – identificar e preservar imóveis e lugares dotados de identidade cultural, religiosa e de interesse público, cujos usos,
+
+apropriações e/ou características apresentam um valor que lhe são socialmente atribuídos pela população;
+
+IV – estimular a fruição e o uso público do patrimônio cultural;
+
+V – possibilitar o desenvolvimento ordenado e sustentável das áreas de interesse histórico e cultural, tendo como premissa a
+
+preservação do patrimônio cultural;
+
+VI – propiciar a realização de ações articuladas para melhoria de infraestrutura, turismo, da economia criativa e de
+
+desenvolvimento sustentável;
+
+VII – integrar as comunidades locais à cultura da preservação e identidade cultural;
+
+VIII – propiciar espaços e catalisar manifestações culturais e artísticas;
+
+IX - proteger as áreas indígenas demarcadas pelo Governo Federal, promovendo o reconhecimento e preservação do modo de
+
+vida dos povos originários, incentivando a conservação e valorização de seu patrimônio cultural, segundo seus usos e costumes;
+
+(Redação dada pela Lei nº 17.975/2023)
+
+X – propiciar a preservação e a pesquisa dos sítios arqueológicos;
+
+XI – proteger e documentar o patrimônio imaterial, definido nos termos do registro do patrimônio imaterial.
+
+XII - proteger as áreas quilombolas demarcadas pelo Governo Federal, promovendo o reconhecimento e preservação dos espaços
+
+e os lugares históricos e culturais da população negra, que resgatem e valorizem a sua memória e identidade e suas formas de
+
+viver e de se expressar;(Incluído pela Lei nº 17.975/2023)
+
+XIII - proteger e valorizar as áreas de entorno de bens culturais reconhecendo o ambiente e/ou paisagem na qual estão integrados.
+
+(Incluído pela Lei nº 17.975/2023)
+
+Art. 63. As ZEPEC classificam-se em 4 (quatro) categorias de acordo com as respectivas resoluções de tombamento ou
+
+instrumentos de proteção instituídos por órgãos municipais, estaduais e federais:
+
+I – Bens Imóveis Representativos (BIR) – elementos construídos, edificações e suas respectivas áreas ou lotes, com valor
+
+histórico, arquitetônico, paisagístico, artístico, arqueológico e/ou cultural, inclusive os que tenham valor referencial para a
+
+comunidade;
+
+II – Áreas de Urbanização Especial (AUE) – porções do território com características singulares do ponto de vista da morfologia
+
+urbana, arquitetônica, paisagística, ou do ponto de vista cultural e simbólico, ou conjuntos urbanos dotados de identidade e
+
+memória, possuidores de características homogêneas quanto ao traçado viário, vegetação e índices urbanísticos, que constituem
+
+documentos representativos do processo de urbanização de determinada época;
+
+III – Áreas de Proteção Paisagística (APPa) – sítios e logradouros com características ambientais, naturais ou antrópicas, tais como
+
+parques, jardins, praças, monumentos, viadutos, pontes, passarelas e formações naturais significativas, áreas indígenas, entre
+
+outras;
+
+IV – Área de Proteção Cultural (APC) – imóveis de produção e fruição cultural, destinados à formação, produção e exibição pública
+
+de conteúdos culturais e artísticos, como teatros e cinemas de rua, circos, centros culturais, residências artísticas e assemelhados,
+
+assim como espaços com significado afetivo, simbólico e religioso para a comunidade, cuja proteção é necessária à manutenção
+
+da identidade e memória do Município e de seus habitantes, para a dinamização da vida cultural, social, urbana, turística e
+
+econômica da cidade.
+
+Parágrafo único. Os bens ou áreas que se enquadram como ZEPEC poderão ser classificados em mais de uma das categorias
+
+definidas no presente artigo.
+
+Art. 64. As ZEPEC deverão ser identificadas e instituídas por meio dos seguintes instrumentos existentes e os a serem criados:
+
+I – tombamento;
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 33/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+II – inventário do patrimônio cultural;
+
+III – registro das Áreas de Proteção Cultural e Territórios de Interesse da Cultura e da Paisagem;
+
+IV – registro do patrimônio imaterial;
+
+V – chancela da paisagem cultural;
+
+VI – Levantamento e Cadastro Arqueológico do Município – LECAM.
+
+§ 1º A identificação de bens, imóveis, espaços ou áreas a serem enquadrados na categoria de ZEPEC deve ser feita pelo órgão a
+
+partir de indicações apresentadas pelo próprio órgão competente, assim como por munícipes ou entidades representativas da
+
+sociedade, a qualquer tempo, ou, preferencialmente, nos Planos Regionais das Subprefeituras e nos Planos de Bairro.
+
+§ 2º Para os casos de enquadramento em ZEPEC-BIR, AUE, APPa, as propostas deverão ser analisadas por órgão competente,
+
+que poderá, caso julgue a proposta pertinente, abrir processo de enquadramento e emitir parecer a ser submetido à aprovação do
+
+CONPRESP.
+
+§ 3º As propostas de enquadramento em ZEPEC-APC deverão ser analisadas por comissão integrada por membros de órgão
+
+responsável pela preservação do patrimônio e de órgão responsável pelo desenvolvimento urbano, que deverá emitir parecer e
+
+encaminhar o processo à deliberação do órgão competente, a ser definido pelo Executivo.
+
+§ 4º Fica permitida, nas ZEPEC, a instalação das atividades classificadas como nR3, condicionada à deliberação favorável do
+
+CONPRESP.
+
+Art. 65. Aplicam-se nas ZEPEC os seguintes instrumentos de política urbana e patrimonial:
+
+I – transferência do potencial construtivo nas ZEPEC-BIR e ZEPEC-APC;
+
+II – outorga onerosa do potencial construtivo adicional;
+
+III – incentivos fiscais de IPTU e ISS nas ZEPEC-BIR e ZEPEC-APC, regulamentados por lei específica;
+
+IV – isenção de taxas municipais para instalação e funcionamento de atividades culturais na ZEPEC-APC;
+
+V – simplificação dos procedimentos para instalação e funcionamento e obtenção das autorizações e alvarás necessários na
+
+ZEPEC-APC.
+
+Art. 66. A aplicação dos instrumentos de política urbana nas ZEPEC-BIR deve seguir as seguintes disposições:
+
+§ 1º A transferência do direito de construir de imóveis classificados como ZEPEC-BIR se dará de acordo com o disposto nos arts.
+
+124, 125, 128 e 133 desta Lei.(Redação dada pela Lei nº 17.975/2023)
+
+§ 2º A concessão de incentivo fiscal de IPTU para imóvel classificado como ZEPEC-BIR, regulamentada por lei específica, estará
+
+condicionada à sua restauração, conservação, manutenção e não descaracterização, tomando por referência os motivos que
+
+justificaram o seu tombamento, atestado pelo órgão competente.
+
+Art. 67. A edificação ou o espaço enquadrados como ZEPEC-APC e, preferencialmente, localizados em Território de Interesse da
+
+Cultura e da Paisagem, previsto no art. 314, poderão ser protegidos pelos instrumentos previstos no art. 313, ficando a
+
+descaracterização do seu uso ou atividade, ou a demolição da edificação onde está instalado sujeitos à autorização do órgão
+
+competente, que deverá propor mecanismos ou instrumentos previstos nesta lei para garantir sua proteção.
+
+§ 1º A demolição ou ampliação do imóvel enquadrado como ZEPEC-APC onde o uso ou a atividade enquadrada estiverem
+
+instalados, poderá ser autorizada caso a nova edificação a ser construída no mesmo local destine área equivalente, que mantenha
+
+as atividades e valores que geraram seu enquadramento, atestado por parecer do órgão competente.
+
+§ 2º Na hipótese referida no § 1º, a área ou espaço destinado às atividades que geraram seu enquadramento como ZEPEC-APC,
+
+quando situado no nível do passeio público, não será computável.
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 34/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+§ 3º Em caso de interrupção de atividades devido à demolição, reforma ou ampliação de imóvel enquadrado como ZEPEC-APC, o
+
+responsável pelas obras poderá prover espaço provisório que atenda às necessidades operacionais para a manutenção das
+
+atividades enquanto o novo espaço objeto do § 1º não estiver construído e apto a ser ocupado.
+
+§ 4º Fica autorizada a transferência do potencial construtivo dos imóveis enquadrados como ZEPEC-APC, nas mesmas condições
+
+aplicadas à ZEPEC-BIR, condicionada à manutenção dos atributos que geraram o seu enquadramento como ZEPEC-APC,
+
+atestado por parecer do órgão competente.
+
+§ 5º Os imóveis e atividades enquadrados como ZEPEC-APC se beneficiam de isenção fiscal de IPTU e ISS, regulamentada por lei
+
+específica, condicionada à manutenção dos atributos que geraram o seu enquadramento, atestado por parecer do órgão
+
+competente.
+
+Art. 68. Os proprietários de imóveis classificados como ZEPEC, que sofreram abandono ou alterações nas características que
+
+motivaram a proteção, deverão firmar Termo de Ajustamento de Conduta Cultural – TACC visando à recomposição dos danos
+
+causados ou outras compensações culturais.
+
+Seção VI
+
+Da Zona Especial de Proteção Ambiental (ZEPAM)
+
+Art. 69. As Zonas Especiais de Proteção Ambiental (ZEPAM) são porções do território do Município destinadas à preservação e
+
+proteção do patrimônio ambiental, que têm como principais atributos remanescentes de Mata Atlântica e outras formações de
+
+vegetação nativa, arborização de relevância ambiental, vegetação significativa, alto índice de permeabilidade e existência de
+
+nascentes, entre outros que prestam relevantes serviços ambientais, entre os quais a conservação da biodiversidade, controle de
+
+processos erosivos e de inundação, produção de água e regulação microclimática.
+
+Parágrafo único. As Zonas Especiais de Proteção Ambiental – ZEPAM também poderão ser demarcadas em razão:
+
+I – da ocorrência de formações geomorfológicas de interesse ambiental como planícies aluviais, anfiteatros e vales encaixados
+
+associados às cabeceiras de drenagem e outras ocorrências de fragilidade geológica e geotécnica assinaladas na Carta
+
+Geotécnica do MSP;
+
+II – do interesse da municipalidade na criação de Áreas Verdes Públicas.
+
+Art. 70. Ficam mantidos os coeficientes de aproveitamento básico e máximo, as taxas de ocupação e permeabilidade e demais
+
+índices e parâmetros relativos às ZEPAM estabelecidos na Lei nº 13.885, de 2004, até a sua revisão.
+
+Art. 71. Com o objetivo de promover e incentivar a preservação das ocorrências ambientais que caracterizam as áreas demarcadas
+
+como ZEPAM, poderão ser aplicados os seguintes instrumentos:
+
+I – transferência do potencial construtivo nas ZEPAM localizadas na Macrozona de Estruturação e Qualificação Urbana, segundo
+
+as condições estabelecidas no art. 122 e seguintes desta lei;
+
+II – pagamento por serviços ambientais nas ZEPAM localizadas na Macrozona de Proteção e Recuperação Ambiental, segundo as
+
+condições estabelecidas no art. 158 e seguintes desta lei.
+
+Art. 72. A transferência de potencial construtivo também poderá ser utilizada nos casos de doação ou de desapropriação amigável
+
+de áreas demarcadas como ZEPAM, localizadas na Macrozona de Estruturação e Qualificação Urbana, para a implantação dos
+
+parques delimitados no Quadro 7 anexo, nos termos e condições estabelecidos nos arts. 126 a 128 desta lei.
+
+Art. 73. A revisão da Lei nº 13.885, de 25 de agosto de 2004, não poderá excluir das ZEPAM:
+
+I – áreas remanescentes de Mata Atlântica, em especial as incluídas no Plano Municipal da Mata Atlântica;
+
+II – áreas priorizadas no Plano Municipal de Áreas Prestadoras de Serviços Ambientais;
+
+III – áreas onde ocorram deformações geomorfológicas de interesse ambiental como planícies aluviais, anfiteatros e vales
+
+encaixados associados às cabeceiras de drenagem e outras ocorrências de fragilidade geológica e geotécnica assinaladas na
+
+Carta Geotécnica do Município de São Paulo;
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 35/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+IV – áreas que contenham alta densidade de nascentes.
+
+§ 1º As vedações de que trata este artigo não se aplicam no caso de implantação de obras, empreendimentos, infraestrutura de
+
+utilidade pública devidamente licenciados pelo órgão ambiental competente.
+
+§ 2º A inclusão ou exclusão de áreas na categoria de ZEPAM deverão ser acompanhadas de parecer consubstanciado emitido pelo
+
+órgão ambiental municipal.
+
+Seção VII
+
+Da Zona Especial de Preservação (ZEP)
+
+Art. 74. As Zonas Especiais de Preservação – ZEP são porções do território destinadas a parques estaduais, parques naturais
+
+municipais e outras Unidades de Conservação de Proteção Integral definidas pela legislação, existentes e que vierem a ser criadas
+
+no Município, tendo por objetivo a preservação dos ecossistemas e permitindo apenas a pesquisa, o ecoturismo e a educação
+
+ambiental.
+
+Parágrafo único. Independentemente de sua classificação, serão admitidos nas áreas de influência dos eixos os terminais
+
+rodoviários e hidroviários urbanos e interurbanos.
+
+Seção VIII
+
+Dos Eixos de Estruturação da Transformação Urbana
+
+Art. 75. Os eixos de estruturação da transformação urbana, definidos pelos elementos estruturais dos sistemas de transporte
+
+coletivo de média e alta capacidade, existentes e planejados, determinam áreas de influência potencialmente aptas ao
+
+adensamento construtivo e populacional e ao uso misto entre usos residenciais e não residenciais.
+
+Parágrafo único. As disposições relativas à instalação e ao funcionamento de usos e atividades, índices e parâmetros de ocupação
+
+do solo definidas neste PDE para as áreas de influência dos eixos prevalecem sobre o estabelecido na LPUOS – Lei nº 13.885, de
+
+2004\.
+
+Art. 76. As áreas de influência dos eixos delimitados nos Mapas 3 e 3A contêm quadras inteiras e são determinadas segundo as
+
+capacidades e características dos modais:
+
+I – nas linhas de trem, metrô, monotrilho, Veículos Leves sobre Trilhos (VLT) e Veículos Leves sobre Pneus (VLP) elevadas,
+
+contêm:
+
+a) quadras internas às circunferências com raio de 400m (quatrocentos metros) centradas nas estações; e
+
+b) quadras alcançadas pelas circunferências citadas na alínea anterior e internas às circunferências, centradas nos mesmos
+
+pontos, com raio de 600m (seiscentos metros);
+
+II – nas linhas de Veículos Leves sobre Pneus (VLP) não elevadas e nas linhas de corredores de ônibus municipais e
+
+intermunicipais com operação em faixa exclusiva à esquerda do tráfego geral, contêm as quadras internas às linhas paralelas ao
+
+eixo das vias distanciadas 150m (cento e cinquenta metros) do eixo e as quadras alcançadas por estas linhas e inteiramente
+
+contidas entre linhas paralelas ao eixo das vias distanciadas 300m (trezentos metros) do eixo;
+
+III – nas linhas 1 Azul, 3 Vermelha do Metrô e 15 Prata do Monotrilho, aplicam-se simultaneamente os critérios estabelecidos nos
+
+incisos I e II do “caput”.
+
+§ 1º Ficam excluídas das áreas de influência dos eixos:
+
+I – as Zonas Exclusivamente Residenciais – ZER;
+
+II – as Zonas de Ocupação Especial – ZOE;
+
+III – as Zonas Especiais de Preservação Ambiental – ZEPAM;
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 36/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+IV - as Zonas Especiais de Interesse Social – ZEIS, observado o previsto no § 5º do art. 57 desta Lei;(Redação dada pela Lei nº
+
+17.975/2023)
+
+V – os perímetros das operações urbanas conforme estabelecido na legislação em vigor;
+
+VI – as Zonas Especiais de Preservação Cultural – ZEPEC;
+
+VII – as áreas que integram o Sistema de Áreas Protegidas, Áreas Verdes e Espaços Livres;
+
+VIII – as áreas contidas na Macroárea de Estruturação Metropolitana, nos subsetores:
+
+a) Arco Tietê;
+
+b) Arco Tamanduateí;
+
+c) Arco Pinheiros;
+
+d) Arco Jurubatuba.
+
+IX - as Zonas Predominantemente Residenciais – ZPR;(Incluído pela Lei nº 17.975/2023)
+
+X - as Zonas Corredor – ZCOR;(Incluído pela Lei nº 17.975/2023)
+
+XI - as Zonas de Transição – ZT;(Incluído pela Lei nº 17.975/2023)
+
+XII - vilas, conforme resolução SMUL.ATECC.CTLU / 001 / 2022.(Incluído pela Lei nº 17.975/2023)
+
+§ 2º As áreas de influência dos eixos, definidas segundo os critérios dispostos no “caput” e no § 1º deste artigo, estão delimitadas
+
+nos Mapas 3 e 3A anexos a esta lei.
+
+§ 3º Deverão ser encaminhados à Câmara Municipal projetos de lei tratando da disciplina especial de uso e ocupação do solo,
+
+definidos por meio de Planos de Intervenção Urbana, para os seguintes subsetores da Macroárea de Estruturação Metropolitana:
+
+(Redação dada pela Lei nº 17.975/2023)
+
+I – Arco Tamanduateí, até 2015;
+
+II - Arco Tietê, até 2025;(Redação dada pela Lei nº 18.209/2024)
+
+III – Arco Jurubatuba, até 2017;
+
+IV – Arco Pinheiros, até 2018.
+
+V - Arco Leste, até 2025.(Redação dada pela Lei nº 18.209/2024)
+
+§ 4º Os prazos estabelecidos no parágrafo anterior poderão ser prorrogados pelo prazo de 6 (seis) meses, desde que devidamente
+
+justificados pelo Executivo, e, em caso de não cumprimento dos referidos prazos, fica revogada a alínea correspondente ao
+
+respectivo subsetor no inciso VIII do § 1º.
+
+§ 5º (VETADO)
+
+§ 6º (VETADO)
+
+§ 7º Até a aprovação pela Câmara Municipal do projeto de lei mencionado no inciso II do § 3º deste artigo, incidirão sobre as áreas
+
+de influência dos Eixos de Estruturação da Transformação Urbana existentes e previstos no território do Arco Tietê não abrangido
+
+por Operações Urbanas Consorciadas ou por Projetos de Intervenção Urbana em curso os seguintes parâmetros e índices
+
+urbanísticos:(Incluído pela Lei nº 17.975/2023)
+
+a) coeficiente de aproveitamento máximo: igual a 4,0 (quatro);(Incluído pela Lei nº 17.975/2023)
+
+b) gabarito de altura máxima: sem restrição;(Incluído pela Lei nº 17.975/2023)
+
+c) fatores de planejamento: 2,0 (dois) para os usos residenciais e não residenciais(Incluído pela Lei nº 17.975/2023)
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 37/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+Art. 77. As áreas de influência dos eixos poderão ter seus limites revistos pela revisão da legislação de parcelamento de uso e
+
+ocupação do solo – LPUOS, com base em parâmetros que considerem:(Redação dada pela Lei nº 17.975/2023)
+
+I – a exclusão de quadras ou imóveis considerados de interesse de preservação cultural ou ambiental;
+
+II – a exclusão de quadras para corrigir perímetros irregulares que gerem impacto negativo no entorno;
+
+III – a inclusão de quadras não demarcadas que fiquem isoladas entre áreas de influência de dois ou mais eixos;
+
+IV – a inclusão de quadras lindeiras às vias estruturais quando estas forem o limite das áreas de influência demarcadas;
+
+V – a exclusão de quadras cujas características não correspondam às diretrizes de transformação urbana expressas nesta lei;
+
+VI – a revisão dos perímetros de forma que:
+
+a) nas áreas de influência correspondentes às estações de trem, metrô, monotrilho, VLT e VLP elevadas, incluam quadras
+
+alcançadas em um raio de 700m (setecentos metros) das estações;(Redação dada pela Lei nº 17.975/2023)
+
+b) nas áreas de influência correspondentes aos corredores de ônibus e VLT em nível, incluam quadras alcançadas na faixa definida
+
+por linhas paralelas a 400m (quatrocentos metros) do eixo das vias.(Redação dada pela Lei nº 17.975/2023)
+
+§ 1º A ampliação e a exclusão das áreas de influência dos eixos que trata nos incisos de I, II, III, IV, V e VI, e no caput deste artigo
+
+somente poderão ser feitas através de revisão e publicação da LPUOS.(Incluído pela Lei nº 17.975/2023)
+
+§ 2º Na revisão da LPUOS para a aplicação do caput deverão ser considerados os seguintes parâmetros, podendo também serem
+
+subsidiados pelo Poder Executivo:(Incluído pela Lei nº 17.975/2023)
+
+I - características de uso e ocupação local;(Incluído pela Lei nº 17.975/2023)
+
+II - áreas de interesse histórico, cultural, ambiental e de paisagem urbana;(Incluído pela Lei nº 17.975/2023)
+
+III - características do sistema viário e relevo.(Incluído pela Lei nº 17.975/2023)
+
+Art. 77-A. Com base nos critérios previstos no art. 76 desta Lei, oportuna revisão da Lei nº 16.402, de 22 de março de 2016 – Lei
+
+de Parcelamento, Uso e Ocupação do Solo – LPUOS, considerará para a delimitação de Zona Eixo de Estruturação da
+
+Transformação Urbana Previsto (ZEUP) ou Zona Eixo de Estruturação da Transformação Urbana Previsto Ambiental (ZEUPa), as
+
+áreas de influência decorrentes dos elementos estruturais do sistema de transporte coletivo de alta e média capacidade indicados
+
+no Mapa 9 desta Lei.(Incluído pela Lei nº 17.975/2023)
+
+Parágrafo único. A demarcação de novas ZEUP e ZEUPa deverá considerar, para o transporte metroviário, somente os trechos
+
+previstos até 2029 no Mapa 9.(Incluído pela Lei nº 17.975/2023)
+
+Art. 77-B. Nas hipóteses em que a implantação dos elementos de transporte público que definem os Eixos de Estruturação da
+
+Transformação Urbana previstos se der de forma diversa do proposto no Mapa 9, seja pela alteração da localização dos
+
+respectivos corredores, linhas ou estações, modificação do modal previsto ou, ainda, alteração substancial do traçado decorrente
+
+de planejamento urbano, os novos limites das áreas de influência geradas deverão ser revistos no âmbito de alteração da Lei nº
+
+16.402, de 2016 – Lei de Parcelamento, Uso e Ocupação do Solo – LPUOS, com base nos critérios previstos no art. 76 desta Lei.
+
+(Incluído pela Lei nº 17.975/2023)
+
+Art. 78. Nas áreas de influência dos eixos:
+
+I – é admitida a instalação dos usos residenciais R e não residenciais nR, exceto as atividades classificadas como geradoras de
+
+impacto ambiental na LPUOS e sua regulamentação, condicionada ao atendimento das disposições relativas:
+
+a) à largura mínima da via, de acordo com as disposições dos arts. 178, 179 e 180 da Lei nº 13.885, de 25 de agosto de 2004, até
+
+sua revisão;
+
+b) ao embarque, desembarque, carga e descarga e aos parâmetros de incomodidade previstos no Quadro 2/c da Lei nº 13.885, de
+
+25 de agosto de 2004, até sua revisão;
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 38/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+II – é admitida a instalação do uso misto no lote e na edificação, sem a necessidade de previsão de acessos independentes e
+
+compartimentação das áreas destinadas à carga e descarga, circulação, manobra e estacionamento de veículos, desde que sejam
+
+demarcadas as vagas correspondentes às unidades residenciais e às áreas não residenciais;
+
+III – está dispensado o atendimento às disposições relativas ao número mínimo de vagas para estacionamento estabelecidas pela
+
+LPUOS, desde que atendidas às exigências específicas da legislação e normas técnicas de acessibilidade, atendimento médico de
+
+emergência e segurança contra incêndio;
+
+IV – é vedada, nos espaços destinados a estacionamento, a ocupação por vagas:
+
+a) da área livre entre o alinhamento do lote e o alinhamento da edificação no pavimento ao nível do passeio público, com exceção
+
+das vagas exigidas pela legislação e normas técnicas de acessibilidade, atendimento médico de emergência e segurança contra
+
+incêndio;
+
+b) (Revogado pela Lei nº 17.975/2023)
+
+V - na instalação dos usos e atividades classificados como polos geradores de tráfego, é vedado o acesso direto de veículos por
+
+vias onde estão implantados ou planejados os corredores de ônibus municipais e intermunicipais, exceto aquelas que cumpram as
+
+exigências específicas da legislação de cargas e descarga, normas técnicas de acessibilidade, atendimento médico de emergência
+
+e segurança contra incêndio.(Redação dada pela Lei nº 17.975/2023)
+
+§ 1º Independentemente de sua classificação, são admitidos nas áreas de influência dos eixos os terminais rodoviários urbanos e
+
+interurbanos.
+
+§ 2º O acesso de veículos mencionado no inciso V deste artigo poderá ser admitido pela CAIEPS, após análise da CET, desde que
+
+seja prevista pista de acomodação no interior do lote.
+
+Art. 79. Nas áreas de influência dos eixos, a construção e a ampliação de edificações deverão atender aos parâmetros de
+
+ocupação do solo estabelecidos no Quadro 2 anexo.
+
+§ 1º Nos empreendimentos de uso residencial, o número mínimo de unidades habitacionais será calculado segundo a seguinte
+
+equação:
+
+N = (Cau x At) / (CAmax x Q), onde:
+
+N – número mínimo de unidades;
+
+CAu – coeficiente de aproveitamento utilizado no projeto;
+
+CAmax – coeficiente de aproveitamento máximo;
+
+At – área do terreno;
+
+Q – quota máxima de terreno por unidade habitacional, conforme Quadro 2 anexo a esta lei.
+
+§ 2º Nas edificações destinadas ao uso misto, a cota máxima de terreno por unidade deverá ser aplicada à parcela de terreno
+
+correspondente ao potencial construtivo utilizado para o uso residencial.
+
+§ 3º Nas áreas de influência dos eixos, quando novos empreendimentos forem implantados em gleba ou lote com área superior a
+
+40.000m² (quarenta mil metros quadrados), devem ser atendidas as seguintes condições:
+
+I – nos casos em que o parcelamento não for exigido pela LPUOS, será obrigatória a doação de área correspondente a 20% (vinte
+
+por cento) da área total da gleba ou lote, sendo no mínimo 15% (quinze por cento) para área verde, podendo o restante ser
+
+destinado para equipamento público, respeitadas as seguintes restrições:
+
+a) as áreas públicas deverão se localizar junto ao alinhamento da via e por ela ter acesso em nível;
+
+b) as áreas públicas deverão ter sua localização aprovada pela municipalidade;
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 39/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+c) o percentual de área a ser doado poderá ser atendido com a doação de 2 (duas) áreas não contíguas, desde que nenhuma
+
+delas tenha área inferior a 5% (cinco por cento) da área total;
+
+II – o órgão responsável pela aprovação do empreendimento poderá exigir que uma parte da área a ser doada se destine a
+
+circulação de pedestres entre logradouros, não estando esta parcela sujeita ao disposto na alínea “c” deste parágrafo;
+
+III – observar taxa de permeabilidade de no mínimo 20% (vinte por cento) da área do lote;
+
+IV – a vedação por muro não poderá exceder 25% (vinte e cinco por cento) da extensão das faces de quadra ou das testadas dos
+
+lotes.
+
+§ 4º Nas áreas de influência dos eixos, quando a área do lote for superior a 5.000m² (cinco mil metros quadrados) e menor ou igual
+
+a 40.000m² (quarenta mil metros quadrados), será obrigatório:
+
+I – destinar para fruição pública área equivalente à no mínimo 20% (vinte por cento) da área do lote, em espaço livre ou edificado,
+
+ao nível do passeio público ou no pavimento térreo;
+
+II – observar taxa de permeabilidade de no mínimo 20% (vinte por cento) da área do lote;
+
+III – observar limite de 25% (vinte e cinco por cento) de vedação da testada do lote com muros.
+
+§ 5º Aplica-se o benefício previsto no art. 82 desta lei à área destinada à fruição pública nos termos do parágrafo anterior.
+
+§ 6º Nas áreas de influência dos eixos, nas faces de quadra lindeiras às ZER, não se aplicam o inciso VIII do § 1º do art. 158 e o
+
+art. 197 da Lei nº 13.885, de 2004.
+
+§ 7º Nas áreas de influência dos eixos, nos lotes com frente para os eixos relacionados nos incisos II e III do art. 76, o passeio
+
+deverá ter largura mínima de 5m (cinco metros), em contrapartida à doação de área para este fim:
+
+I – fica dispensado o recuo obrigatório de frente;
+
+II – os potenciais construtivos básico e máximo do remanescente do lote serão calculados em função de sua área original e não
+
+será cobrada outorga onerosa do direito de construir relativa ao potencial construtivo máximo correspondente à área doada.
+
+§ 8º Nas áreas de influência dos eixos, exceto nas vias onde estão instalados os corredores de ônibus municipais e
+
+intermunicipais, o passeio deverá ter largura mínima de 3m (três metros), em contrapartida à doação de área para este fim:
+
+I – o recuo de frente será definido a partir do alinhamento original do lote;
+
+II – os potenciais construtivos básico e máximo do remanescente do lote serão calculados em função de sua área original e não
+
+será cobrada outorga onerosa do direito de construir relativa ao potencial construtivo máximo correspondente à área doada.
+
+§ 9º Nas áreas de influência dos eixos, a cota máxima de terreno por unidade habitacional poderá ser superada, até o limite de 30
+
+m² (trinta metros quadrados) de terreno por unidade, mediante aplicação de Fator Social na seguinte conformidade:(Incluído pela
+
+Lei nº 17.975/2023)
+
+I - para as unidades de área maior que 70m² (setenta metros quadrados), variando de 1 (um) a 2 (dois), na proporção da cota-parte
+
+utilizada entre 20m² (vinte metros quadrados) e 30m² (trinta metros quadrados) de terreno por unidade;(Incluído pela Lei nº
+
+17.975/2023)
+
+II - para as demais unidades, conforme o disposto no Quadro 5 da Lei.(Incluído pela Lei nº 17.975/2023)
+
+§ 10 A cota-parte máxima de terreno poderá ser superior a 30, desde que seja aplicado Fator Social (FS) 3 (três) para qualquer
+
+uso, exceto HIS e HMP.(Redação dada pela Lei nº 18.157/2024)
+
+Art. 80. Nas áreas de influência dos eixos, serão consideradas não computáveis:
+
+I – as áreas que atendam às condições previstas nos incisos I, III e IV do art. 189 da Lei nº 13.885, de 25 de agosto de 2004, até
+
+sua revisão;
+
+II – as áreas assim consideradas na legislação edilícia;
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 40/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+III – as áreas cobertas, em qualquer pavimento, ocupadas por circulação, manobra e estacionamento de veículos, desde que seja
+
+observada a cota de garagem máxima fixada no Quadro 2 desta lei, e o número de vagas não ultrapasse:
+
+a) nos usos R, alternativamente:(Redação dada pela Lei nº 17.975/2023)
+
+1\. 1 (uma) vaga por unidade habitacional maior ou igual a 30 m² (trinta metros quadrados) de área construída computável;(Incluído
+
+pela Lei nº 17.975/2023)
+
+2\. 1 (uma) vaga a cada 60m² (sessenta metros quadrados) de área construída privativa, desprezadas as frações;(Incluído pela Lei
+
+nº 17.975/2023)
+
+b) nos usos nR, 1 (uma) vaga para cada 70m² (setenta metros quadrados) de área construída computável, excluídas as áreas
+
+computáveis ocupadas por vagas, desprezadas as frações;
+
+c) nos usos mistos, as alternativas definidas na alínea “a” para usos residenciais e 1 (uma) vaga a cada 70 m² (setenta metros
+
+quadrados) de área construída computável destinada a usos nR, excluídas as áreas computáveis ocupadas por vagas,
+
+desprezadas as frações;(Redação dada pela Lei nº 17.975/2023)
+
+IV – as áreas construídas no nível da rua com acesso direto ao logradouro, em lotes com testada superior a 20m (vinte metros), até
+
+o limite de 50% (cinquenta por cento) da área do lote, destinadas a usos classificados nas subcategorias de usos nR1 ou nR2;
+
+V – a área destinada aos usos não residenciais nR, até o limite de 20% (vinte por cento) da área construída computável total do
+
+empreendimento, nos empreendimentos de uso misto e nos Empreendimentos de Habitação de Interesse Social – EHIS.
+
+§ 1º A parcela de área destinada à circulação, manobra e ao estacionamento de veículos que ultrapassar a área resultante da
+
+aplicação da cota máxima de garagem será considerada computável.
+
+§ 2º Quando o número de vagas de estacionamento ultrapassar os limites fixados no inciso III do “caput”, a área correspondente,
+
+incluindo as áreas de circulação e manobra dessas vagas, será considerada computável.
+
+§ 3º Nas áreas de influência dos eixos, não se aplicam as disposições da Lei nº 14.044, de 2 de setembro de 2005.
+
+§ 4º Como incentivo aos empreendimentos sem vagas de estacionamento de veículos, excetuadas as vagas necessárias ao
+
+atendimento das condições de instalação fixadas na LPUOS, serão consideradas não computáveis até o limite de 10% (dez por
+
+cento) da área construída computável, as áreas cobertas de uso residencial ou não residencial, em qualquer pavimento.(Incluído
+
+pela Lei nº 17.975/2023)
+
+§ 5º Para efeito de cálculo do número de vagas de estacionamento de veículos nos empreendimentos que se utilizarem dos
+
+benefícios do art. 60 da Lei nº 16.050, de 2014, a aplicação do benefício fica restrito a 50% (cinquenta por cento) do número de
+
+vagas destinadas a estas áreas/unidades beneficiadas.(Incluído pela Lei nº 17.975/2023)
+
+§ 6º Aplica-se o disposto no inciso III deste artigo para ZEU, ZEUa, ZEUP, ZEUPa, ZEM e ZEMP.(Incluído pela Lei nº 17.975/2023)
+
+Art. 81. Nas áreas de influência dos eixos, quando uma parcela do imóvel for doada à municipalidade para execução de
+
+melhoramentos públicos, os potenciais construtivos básico e máximo do remanescente do lote serão calculados em função de sua
+
+área original e não será cobrada outorga onerosa do direito de construir relativa ao potencial construtivo máximo correspondente à
+
+área doada.
+
+§ 1º Quando a parcela doada ultrapassar 30% (trinta por cento) da área do lote, o potencial construtivo máximo correspondente à
+
+área que ultrapassou esse limite não poderá ser utilizado no remanescente do lote, esse potencial constará de Declaração de
+
+Potencial Construtivo Passível de Transferência que será emitida em nome do proprietário do imóvel.
+
+§ 2º O proprietário do imóvel poderá optar entre o benefício previsto no “caput” e a transferência total ou parcial do direito de
+
+construir correspondente ao potencial construtivo relativo à área doada, de acordo com as disposições dos arts. 122 e seguintes
+
+desta lei.
+
+Art. 82. Nas áreas de influência dos eixos, quando uma parcela do lote for destinada à fruição pública, os potenciais construtivos
+
+básico e máximo do remanescente do lote serão calculados em função de sua área original, e não será cobrada outorga onerosa
+
+correspondente à metade do potencial construtivo máximo relativo à área destinada à fruição pública, desde que atendidas
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 41/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+simultaneamente as seguintes condições:
+
+I – a área destinada à fruição pública tenha no mínimo 250m² (duzentos e cinquenta metros quadrados) e esteja localizada junto ao
+
+alinhamento da via, ao nível do passeio público, sem fechamento e não ocupada por construções ou estacionamento de veículos;
+
+II – a área destinada à fruição pública deverá permanecer permanentemente aberta;
+
+III – a área destinada à fruição pública seja devidamente averbada em Cartório de Registro de Imóveis.
+
+Art. 82-A. Nas áreas de influência dos eixos, quando uma parcela do lote for destinada à praça pública, poderá ser acrescido além
+
+do C.A. max 50% da área destinada a praça urbana os potenciais construtivos básico e máximo do remanescente do lote serão
+
+calculados em função de sua área original, e não será cobrada outorga onerosa correspondente à metade do potencial construtivo
+
+máximo relativo à área destinada à fruição pública, desde que atendidas simultaneamente as seguintes condições:(Incluído pela
+
+Lei nº 17.975/2023)
+
+I - a área destinada à praça urbana tenha no mínimo 250m² (duzentos e cinquenta metros quadrados) e esteja localizada junto ao
+
+alinhamento da via, ao nível do passeio público, sem fechamento e não ocupada por construções ou estacionamento de veículos;
+
+(Incluído pela Lei nº 17.975/2023)
+
+II - a área destinada à praça urbana deverá permanecer permanentemente aberta e não poderá ser fechada à circulação de
+
+pedestres por nenhum objeto de vedação, temporário ou permanente, podendo ter controle de acesso no período noturno;(Incluído
+
+pela Lei nº 17.975/2023)
+
+III - a área destinada à praça urbana seja devidamente averbada em Cartório de Registro de Imóveis;(Incluído pela Lei nº
+
+17.975/2023)
+
+IV - a limpeza e conservação será de responsabilidade do proprietário;(Incluído pela Lei nº 17.975/2023)
+
+V - ter testada mínima de 5m (cinco metros) voltada para todos os logradouros públicos que fizer divisa com a praça;(Incluído pela
+
+Lei nº 17.975/2023)
+
+VI - fachada ativa poderá ser voltada a praça urbana comunitária, desde que garantido o acesso direto ao logradouro público;
+
+(Incluído pela Lei nº 17.975/2023)
+
+VII - no mínimo, 50% (cinquenta por cento) de sua área ajardinada sobre solo natural, sendo no mínimo 30% (trinta por cento) da
+
+área ajardinada destinada a jardim de chuva e 1 (uma) árvore a cada 25 m² (vinte e cinco metros quadrados) de área ajardinada;
+
+(Incluído pela Lei nº 17.975/2023)
+
+VIII - nas praças urbanas públicas poderão ser instalados equipamentos de esporte, lazer, cultura e mobiliário urbano.(Incluído pela
+
+Lei nº 17.975/2023)
+
+Art. 83. As condições de instalação de usos e atividades e os índices e parâmetros de ocupação estabelecidos nesta Lei para as
+
+áreas de influência dos eixos de estruturação da transformação urbana planejados, delimitados no Mapa 3A anexo, passarão a
+
+vigorar após a emissão da Ordem de Serviços das obras das infraestruturas do sistema de transporte que define o eixo, após a
+
+emissão pelos órgãos competentes de todas as autorizações e licenças, especialmente a licença ambiental, correspondentes à
+
+obra em questão ou através da revisão da LPUOS.(Redação dada pela Lei nº 17.975/2023)
+
+§ 1º A vigência da disciplina de que trata o “caput” será declarado por decreto, que indicará qual a área de influência do eixo ou
+
+trecho de eixo, constante do Mapa 3A anexo, correspondente à obra nos termos do “caput”.
+
+§ 2º As áreas remanescentes das desapropriações necessárias à implantação de melhoramentos viários, relacionados à
+
+implantação de sistemas de transporte coletivo deverão, quando a dimensão for suficiente, ser destinadas à produção de
+
+Habitação de Interesse Social com equipamentos sociais ou usos não residenciais no pavimento térreo.
+
+§ 3º Até que seja feita a revisão da Lei nº 16.402, de 2016 – Lei de Parcelamento, Uso e Ocupação do Solo – LPUOS,
+
+permanecem válidas para ativação as quadras das Zonas de Estruturação Urbana Previstos – ZEUP e Zonas de Estruturação
+
+Urbana Previstos Ambientais – ZEUPa inteiramente alcançadas pelas áreas de influência do eixo correspondente ao elemento da
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 42/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+infraestrutura de transporte licenciada, devendo o decreto de ativação demarcar as quadras ativadas, com base nos critérios
+
+previstos no art. 76 desta Lei.(Incluído pela Lei nº 17.975/2023)
+
+§ 4º Na hipótese de que trata o § 3º deste artigo, a ativação apenas poderá ocorrer nos casos em que o traçado efetivamente
+
+implantado para o eixo de transporte esteja compreendido, pelo menos parcialmente, no perímetro delimitado para a respectiva
+
+ZEUP ou ZEUPa.(Incluído pela Lei nº 17.975/2023)
+
+§ 5º A revisão da LPUOS deverá determinar parâmetros para ativação, através de contrapartida financeira exclusiva para a
+
+execução da infraestrutura de transporte licenciada, na área de influência da respectiva ZEUp.(Incluído pela Lei nº 17.975/2023)
+
+§ 6º Poderá ser criada conta segregada no FUNDURB para vincular o investimento do valor de contrapartida arrecadada nos
+
+perímetros de influência dos eixos previstos.(Incluído pela Lei nº 17.975/2023)
+
+Art. 84. Quando na implantação dos sistemas de transporte coletivo que definem os eixos de estruturação da transformação urbana
+
+for necessária a remoção de famílias moradoras de baixa renda, deverá ser promovido o atendimento da população afetada
+
+mediante construção de HIS localizada preferencialmente no entorno.
+
+Seção IX
+
+Das Diretrizes para o Ordenamento da Paisagem
+
+Art. 85. A paisagem da cidade é um bem ambiental e constitui elemento essencial ao bem-estar e à sensação de conforto individual
+
+e social, fundamental para a qualidade de vida.
+
+Art. 86. Para garantir as ações públicas e privadas relacionadas ao ordenamento e proteção da paisagem, a Prefeitura deverá
+
+elaborar Plano de Ordenamento e Proteção da Paisagem do território municipal, preferencialmente de forma articulada com os
+
+municípios vizinhos.
+
+Art. 87. As ações públicas e privadas com interferência na paisagem deverão atender ao interesse público, conforme os seguintes
+
+objetivos:
+
+I – garantir o direito do cidadão à fruição da paisagem;
+
+II – propiciar a identificação, leitura e apreensão da paisagem e de seus elementos constitutivos, públicos e privados, pelo cidadão;
+
+III – incentivar a preservação da memória e do patrimônio histórico, cultural, religioso e ambiental e a valorização do ambiente
+
+natural e construído;
+
+IV – garantir a segurança, a fluidez e o conforto nos deslocamentos de veículos e pedestres, adequando os passeios às
+
+necessidades das pessoas com deficiência e mobilidade reduzida;
+
+V – proporcionar a preservação e a visualização das características peculiares dos logradouros e das fachadas dos edifícios;
+
+VI – contribuir para a preservação e a visualização dos elementos naturais tomados em seu conjunto e em suas peculiaridades
+
+ambientais;
+
+VII – facilitar o acesso e utilização das funções e serviços de interesse coletivo nas vias e logradouros e o fácil e rápido acesso aos
+
+serviços de emergência, tais como bombeiros, ambulâncias e polícia;
+
+VIII – condicionar a regulação do uso e ocupação do solo e a implantação de infraestrutura à preservação da paisagem urbana em
+
+seu conjunto e à melhora da qualidade de vida da população;
+
+IX – condicionar a instalação de galerias compartilhadas para os serviços públicos, principalmente energia elétrica, gás canalizado,
+
+saneamento e telecomunicações, desde que compatíveis.
+
+Art. 88. São diretrizes específicas para o ordenamento e a gestão da paisagem:
+
+I – elaborar normas de ordenamento territorial relacionadas à inserção de elementos na paisagem urbana que considere as
+
+diferentes porções da cidade em sua totalidade, a diversidade dos bairros, os bens culturais e ambientais de interesse de
+
+preservação, o sistema edificado e a infraestrutura;
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 43/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+II – condicionar a implantação dos sistemas de infraestrutura à sua adequada inserção na paisagem, especialmente no que se
+
+refere à fragilidade ambiental e aos condicionantes geológico-geotécnicos, à diversidade dos bairros da cidade, à preservação dos
+
+bens culturais e ambientais de interesse para preservação e ao sistema edificado existente;
+
+III – identificar elementos significativos e referenciais da paisagem urbana e estabelecer medidas de preservação de eixos visuais
+
+que garantam sua apreensão pelos cidadãos;
+
+IV – garantir a participação da comunidade nos processos de identificação, valorização, preservação e conservação dos territórios
+
+culturais e elementos significativos da paisagem;
+
+V – promover o combate à poluição visual, bem como à degradação ambiental;
+
+VI – proteger, recuperar e valorizar o patrimônio cultural, paisagístico, bem como o meio ambiente natural ou construído da cidade;
+
+VII – estabelecer o regramento das características de aproveitamento, dimensionamento e ocupação de lotes e glebas de forma
+
+compatível aos objetivos e diretrizes desta lei, introduzindo a paisagem urbana como critério de composição do sistema edificado;
+
+VIII – promover ações de melhoria da paisagem urbana nos espaços públicos, em especial o enterramento do cabeamento aéreo,
+
+a arborização urbana, o alargamento, qualificação e manutenção de calçadas, em atendimento às normas de acessibilidade
+
+universal, dentre outras medidas que contribuam para a promoção da cultura da sustentabilidade e garantam o direito à cidade;
+
+IX – ordenar a inserção de anúncios nos espaços públicos, proibindo a publicidade, em atendimento aos objetivos expressos nesta
+
+lei;
+
+X – incentivar a recuperação da paisagem degradada;
+
+XI – assegurar a proteção da paisagem rural;
+
+XII – incentivar ações públicas e privadas de recuperação, restauração e manutenção de fachadas e passeios públicos em áreas
+
+degradadas.
+
+XIII - promover ações, programas de indução à implantação de calçadas verdes, infraestruturas verdes, entre outras soluções que
+
+auxiliem na efetivação dos objetivos e diretrizes da política ambiental, conforme arts. 194 e 195 desta Lei;(Incluído pela Lei nº
+
+17.975/2023)
+
+XIV - promover ações e programas de indução à manutenção da vegetação urbana existente bem como seu incremento, somado a
+
+programas de educação ambiental para a população;(Incluído pela Lei nº 17.975/2023)
+
+XV - planejar e implementar ações que minimizem os impactos ambientais;(Incluído pela Lei nº 17.975/2023)
+
+XVI - incentivar o uso de novas tecnologias ambientalmente corretas na implantação de intervenções ligadas ao sistema de
+
+escoamento e drenagem.(Incluído pela Lei nº 17.975/2023)
+
+Parágrafo único. Para contribuir na orientação das ações públicas e privadas relacionadas ao ordenamento da paisagem, a
+
+Prefeitura poderá elaborar Plano de Ordenamento da Paisagem do território municipal, considerando, quando for o caso, as
+
+determinações previstas nesta lei, de forma articulada com os municípios vizinhos.
+
+CAPÍTULO III
+
+DOS INSTRUMENTOS DE POLÍTICA URBANA E DE GESTÃO AMBIENTAL
+
+Art. 89. Os instrumentos de política urbana e gestão ambiental serão utilizados para a efetivação dos princípios e objetivos deste
+
+Plano Diretor Estratégico.
+
+§ 1º As intervenções no território municipal poderão conjugar a utilização de dois ou mais instrumentos de política urbana e de
+
+gestão ambiental, com a finalidade de atingir os objetivos do processo de urbanização previsto para o território.(Renumerado pela
+
+Lei nº 17.975/2023)
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 44/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+§ 2º A utilização dos instrumentos de política urbana e gestão ambiental deverá evitar o uso de soluções que causem desequilíbrio
+
+nos ecossistemas naturais levando a um ponto de não retorno e adotar medidas de não arrependimento, em consonância com o
+
+Plano Nacional de Adaptação à Mudança do Clima e o Plano de Ação Climática do Município de São Paulo.(Incluído pela Lei nº
+
+17.975/2023)
+
+Seção I
+
+Dos Instrumentos Indutores da Função Social da Propriedade
+
+Art. 90. O Poder Executivo poderá exigir do proprietário do solo urbano não edificado, subutilizado, ou não utilizado, que promova
+
+seu adequado aproveitamento, sob pena de, nos termos estabelecidos nesta Lei:(Redação dada pela Lei nº 17.975/2023)
+
+I - Parcelamento, Edificação ou Utilização Compulsórios – PEUC;(Redação dada pela Lei nº 17.975/2023)
+
+II - Imposto Predial e Territorial Urbano – IPTU Progressivo no Tempo;(Redação dada pela Lei nº 17.975/2023)
+
+III - desapropriação com pagamento mediante títulos da dívida pública;(Redação dada pela Lei nº 17.975/2023)
+
+IV - desapropriação por hasta pública.(Incluído pela Lei nº 17.975/2023)
+
+§ 1º A aplicação dos instrumentos referidos no caput deste artigo dependerá da avaliação dos imóveis passíveis de notificação para
+
+PEUC ou daqueles já notificados, objetivando orientar a definição da ferramenta cabível, de acordo com os respectivos casos
+
+concretos e com vistas ao atendimento do interesse público.(Redação dada pela Lei nº 17.975/2023)
+
+§ 2º A partir da avaliação dos casos concretos, além dos instrumentos citados no caput deste artigo, também poderão ser
+
+utilizados, com a finalidade de promover o cumprimento da função social da propriedade:(Incluído pela Lei nº 17.975/2023)
+
+I - a promoção de chamamentos públicos para a realização de consórcio imobiliário com a finalidade de implantação de unidades
+
+de habitação de interesse social;(Incluído pela Lei nº 17.975/2023)
+
+II - a promoção de desapropriação amigável, inclusive no caso em que o valor da dívida relativa ao IPTU supere o valor do imóvel,
+
+nos termos do § 5º do art. 99 desta Lei;(Incluído pela Lei nº 17.975/2023)
+
+III - a utilização do procedimento de regularização fundiária urbana, na forma da normatização aplicável.(Incluído pela Lei nº
+
+17.975/2023)
+
+Subseção I
+
+Do Âmbito de Aplicação
+
+Art. 91. Para aplicação dos instrumentos indutores da função social da propriedade, são consideradas passíveis de aplicação dos
+
+instrumentos indutores do uso social da propriedade os imóveis não edificados, subutilizados, ou não utilizados localizados nas
+
+seguintes partes do território:
+
+I – Zonas Especiais de Interesse Social 2, 3 e 5;
+
+II – no perímetro da Operação Urbana Centro;
+
+III – áreas de influência dos Eixos de Estruturação da Transformação Urbana;
+
+IV – nos perímetros e perímetros expandidos das Operações Urbanas Consorciadas;
+
+V – nos perímetros das Subprefeituras da Sé e da Mooca;
+
+VI – nas Macroáreas de Urbanização Consolidada e de Qualificação da Urbanização;
+
+VII – na Macroárea de Redução da Vulnerabilidade Urbana, exclusivamente para glebas ou lotes com área superior a 20.000m²
+
+(vinte mil metros quadrados);
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 45/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+VIII – em todas as áreas do perímetro urbano, definidas como tal no Mapa 2A, nas quais não incide o IPTU, ressalvadas as áreas
+
+efetivamente utilizadas para a exploração agrícola, pecuária, extrativa vegetal ou agroindustrial e as exceções previstas nos arts.
+
+92 e 94.
+
+IX - nas áreas objetos de Planos de Intervenção Urbana (PIU), nas Áreas de Intervenção Urbana (AIU), nas Áreas de Estruturação
+
+Local (AEL) e nas áreas objeto de Concessões Urbanísticas;(Incluído pela Lei nº 17.975/2023)
+
+X - na Macroárea de Estruturação Metropolitana (MEM).(Incluído pela Lei nº 17.975/2023)
+
+§ 1º As áreas passíveis de aplicação dos instrumentos indutores da função social da propriedade devem ser priorizadas, em
+
+consonância com a estratégia de ordenação territorial deduzida da aplicação dos demais instrumentos de política urbana.(Incluído
+
+pela Lei nº 17.975/2023)
+
+§ 2º O Executivo poderá elaborar Plano Estratégico de Gestão e Destinação dos imóveis descumpridores da função social da
+
+propriedade, observado o interesse público e as diretrizes desta Lei, com o objetivo de planejamento da destinação dos imóveis
+
+após o 5º ano de aplicação do IPTU Progressivo no Tempo e para delinear estratégias de ação territorial intersecretarial para
+
+orientar e priorizar as áreas onde se mostra mais apropriada a aplicação de ações voltadas ao combate à ociosidade urbana, em
+
+consonância com a Política de Desenvolvimento Urbano definida por esta Lei.(Incluído pela Lei nº 17.975/2023)
+
+Art. 92. São considerados imóveis não edificados os lotes e glebas com área superior a 500m² (quinhentos metros quadrados),
+
+com coeficiente de aproveitamento utilizado igual a 0 (zero).
+
+§ 1º As obrigações estabelecidas por esta lei aos proprietários de imóveis caracterizados no “caput” não serão aplicadas enquanto
+
+o terreno não tiver acesso à infraestrutura básica, assim definida pela legislação federal de parcelamento do solo urbano,
+
+ressalvados os casos em que os equipamentos urbanos ali estabelecidos possam ser exigidos no processo de licenciamento.
+
+§ 2º A tipificação estabelecida no “caput” se estende aos lotes com metragem inferior a 500m² (quinhentos metros quadrados),
+
+quando:
+
+a) originários de desmembramentos aprovados após a publicação desta lei; ou que,
+
+b) somados a outros contíguos do mesmo proprietário perfaçam área superior a 500m² (quinhentos metros quadrados).
+
+Art. 93. São considerados imóveis subutilizados os lotes e glebas com área superior a 500m² (quinhentos metros quadrados) que
+
+apresentem coeficiente de aproveitamento inferior ao mínimo definido, para a respectiva zona de uso, na Lei nº 16.402, de 2016,
+
+ou em legislação específica incidente.(Redação dada pela Lei nº 17.975/2023)
+
+Parágrafo único. Não se aplica nos casos das atividades de sede de representação diplomática, sede de partidos políticos, e
+
+templos de todo culto.(Incluído pela Lei nº 17.975/2023)
+
+Art. 94. Ficam excluídos das categorias de não edificados ou subutilizados os imóveis que:
+
+I – abriguem atividades que não necessitem de edificação para suas finalidades, com exceção de estacionamentos;
+
+II – integrem o Sistema Municipal de Áreas Protegidas, Áreas Verdes e Espaços Livres, forem classificados como ZEPAM ou
+
+cumpram função ambiental relevante;
+
+III – forem classificados como ZEPEC, tombados, ou que tenham processo de tombamento aberto pelo órgão competente de
+
+qualquer ente federativo, ou ainda cujo potencial construtivo tenha sido transferido;
+
+IV – estejam nestas condições devido a impossibilidades jurídicas momentaneamente insanáveis pela simples conduta do
+
+proprietário, e apenas enquanto estas perdurarem.
+
+Parágrafo único. As exceções previstas no “caput” serão regulamentadas pelo Poder Executivo, considerando os princípios e
+
+objetivos desta lei.
+
+Art. 95. São considerados imóveis não utilizados aqueles com coeficiente de aproveitamento utilizado igual ou superior ao
+
+coeficiente de aproveitamento mínimo definido, para a respectiva zona, na Lei nº 16.402, de 2016, ou em legislação específica
+
+incidente, e que tenham, no mínimo, 60% (sessenta por cento) de sua área construída desocupada por mais de 1 (um) ano
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 46/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+ininterrupto.(Redação dada pela Lei nº 17.975/2023)
+
+§ 1º Quando se tratar de edificação constituída por unidades autônomas para fins residenciais ou não residenciais, a não utilização
+
+será aferida pela desocupação de pelo menos 60% (sessenta por cento) dentre elas, também pelo prazo de 1 (um) ano.
+
+§ 2º A desocupação dos imóveis poderá ser comprovada, por meio de consulta às concessionárias, pela não utilização ou pela
+
+interrupção do fornecimento de serviços essenciais como água, luz e gás.
+
+§ 3º A classificação do imóvel como não utilizado poderá ser suspensa devido a impossibilidades jurídicas momentaneamente
+
+insanáveis pela simples conduta do proprietário, e apenas enquanto estas perdurarem, conforme regulamentação do Poder
+
+Executivo.
+
+§ 4º O Executivo deverá notificar todos os imóveis não edificados, subutilizados e não utilizados na Macroárea de Urbanização
+
+Consolidada e na Macroárea de Estruturação Metropolitana e da Macroárea de Qualificação da Urbanização no prazo máximo de 4
+
+(quatro) anos.(Incluído pela Lei nº 17.975/2023)
+
+Subseção II
+
+Do Parcelamento, Edificação e Utilização Compulsórios
+
+Art. 96. Os imóveis não edificados, subutilizados e não utilizados são sujeitos ao parcelamento, edificação e utilização
+
+compulsórios.
+
+§ 1º Os proprietários dos imóveis não parcelados, não edificados ou subutilizados deverão ser notificados pela Prefeitura e terão
+
+prazo máximo de 1 (um) ano a partir do recebimento da notificação para protocolar, junto ao órgão competente, pedido de
+
+aprovação e execução de projeto de parcelamento ou edificação desses imóveis, conforme o caso.
+
+§ 2º Os proprietários dos imóveis notificados nos termos do parágrafo anterior deverão iniciar a execução do parcelamento ou
+
+edificação desses imóveis no prazo máximo de 2 (dois) anos a contar da expedição do alvará de execução do projeto, cabendo aos
+
+proprietários a comunicação à administração pública.
+
+§ 3º Os proprietários dos imóveis não utilizados deverão ser notificados pela Prefeitura e terão prazo máximo de 1 (um) ano, a
+
+contar do recebimento da notificação, para ocupá-los, cabendo aos proprietários a comunicação à administração pública.
+
+§ 4º Caso o proprietário alegue como impossibilidade jurídica a inviabilidade de ocupação do imóvel não utilizado em razão de
+
+normas edilícias, o Executivo poderá conceder prazo de 1 (um) ano, a partir da notificação, exclusivamente para promover a
+
+regularização da edificação se possível, nos termos da legislação vigente, ou a sua demolição, fluindo a partir de então prazo igual
+
+para apresentação de projeto de nova edificação ou documentação relativa à regularização do imóvel.
+
+§ 5º O proprietário terá o prazo de até 5 (cinco) anos, a partir do início das obras previstas no § 2º para comunicar a conclusão do
+
+parcelamento do solo, ou da edificação do imóvel, ou da primeira etapa de conclusão de obras no caso de empreendimentos de
+
+grande porte.
+
+§ 6º Os prazos previstos neste artigo serão contados em dobro quando o proprietário notificado for cooperativa habitacional ou
+
+associação sem fins lucrativos.
+
+§ 7º No setor Orla Ferroviária e Fluvial da Macroárea de Estruturação Metropolitana, a notificação se dará a partir da aprovação da
+
+lei específica de reordenamento territorial da região ou do setor onde esteja inserido o imóvel em questão.
+
+§ 8º Nas glebas ou lotes com área superior a 20.000m² (vinte mil metros quadrados) localizados na Macroárea de Redução da
+
+Vulnerabilidade Urbana, mencionados no inciso VII do art. 91, a notificação deverá se referir exclusivamente ao parcelamento
+
+compulsório.
+
+§ 9º A transmissão do imóvel, por ato “inter vivos” ou “causa mortis”, posterior à data da notificação prevista nos §§ 1º e 3º,
+
+transfere as obrigações de parcelamento, edificação ou utilização sem interrupção de quaisquer prazos.
+
+Art. 97. A notificação de que trata o artigo anterior far-se-á:
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 47/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+I – por funcionário do órgão competente do Poder Público Municipal, ao proprietário do imóvel ou, no caso de este ser pessoa
+
+jurídica, a quem tenha poderes de gerência geral ou administração;
+
+II – por carta registrada com aviso de recebimento quando o proprietário for residente ou tiver sua sede fora do território do
+
+Município;
+
+III – por edital, quando frustrada, por 3 (três) vezes, a tentativa de notificação na forma prevista pelos incisos I e II deste artigo.
+
+§ 1º A notificação referida no “caput” deste artigo deverá ser averbada na matrícula do imóvel no Cartório de Registro de Imóveis,
+
+pela Prefeitura do Município de São Paulo.
+
+§ 2º Uma vez promovido, pelo proprietário, o adequado aproveitamento do imóvel na conformidade do que dispõe esta lei, caberá à
+
+Prefeitura do Município de São Paulo efetuar o cancelamento da averbação tratada no parágrafo anterior.
+
+§ 3º O proprietário poderá promover o cancelamento a que se refere o § 2º deste artigo, às suas custas, apresentando a
+
+documentação pertinente que comprove o adequado aproveitamento.(Incluído pela Lei nº 17.975/2023)
+
+Subseção III
+
+Do Imposto Predial e Territorial Urbano (IPTU) Progressivo no Tempo
+
+Art. 98. Caso os proprietários dos imóveis mencionados na subseção anterior não cumpram as obrigações nos prazos ali
+
+estabelecidos, a Prefeitura deverá aplicar alíquotas progressivas de IPTU majoradas anualmente pelo prazo de 5 (cinco) anos
+
+consecutivos até atingir a alíquota máxima de 15% (quinze por cento).
+
+§ 1º A alíquota a ser aplicada a cada ano será igual ao dobro do valor da alíquota do ano anterior.
+
+§ 2º Será adotada a alíquota de 15% (quinze por cento) a partir do ano em que o valor calculado venha a ultrapassar o limite
+
+estabelecido no “caput” deste artigo.
+
+§ 3º Será mantida a cobrança do Imposto pela alíquota majorada até que se cumpra a obrigação de parcelar, edificar, utilizar o
+
+imóvel ou que ocorra a sua desapropriação.
+
+§ 4º É vedada a concessão de isenções, anistias, incentivos ou benefícios fiscais relativos ao IPTU Progressivo de que trata esta
+
+lei.
+
+§ 5º Serão suspensas quaisquer isenções do IPTU incidentes em um dado imóvel quando o proprietário for notificado para o
+
+parcelamento, edificação ou utilização compulsórios.
+
+§ 6º Observadas as alíquotas previstas neste artigo, aplica-se ao IPTU Progressivo a legislação tributária vigente no Município de
+
+São Paulo.
+
+§ 7º Comprovado o cumprimento da obrigação de parcelar, edificar ou utilizar o imóvel, ocorrerá o lançamento do IPTU sem a
+
+aplicação das alíquotas previstas nesta lei no exercício seguinte.
+
+Subseção IV
+
+Da Desapropriação Mediante Pagamento em Títulos da Dívida Pública e da Desapropriação por Hasta Pública
+
+Art. 99. Decorrido o prazo de 5 (cinco) anos de cobrança do IPTU Progressivo no Tempo sem que os proprietários dos imóveis
+
+tenham cumprido a obrigação de parcelar, edificar ou utilizar, conforme o caso, a Prefeitura poderá proceder à desapropriação
+
+desses imóveis com pagamento em títulos da dívida pública.
+
+§ 1º Os títulos da dívida pública terão prévia aprovação do Senado Federal e serão resgatados no prazo de até dez anos, em
+
+prestações anuais, iguais e sucessivas, assegurados o valor real da indenização e os juros legais, nos termos do art. 8º da Lei
+
+Federal nº 10.257, de 2001.
+
+§ 2º Findo o prazo do artigo anterior, a Prefeitura deverá publicar o respectivo decreto de desapropriação do imóvel em até 1 (um)
+
+ano, salvo em caso de ausência de interesse público na aquisição, que deverá ser devidamente justificada.
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 48/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+§ 3º É vedado ao Executivo proceder à desapropriação do imóvel que se enquadre na hipótese do “caput” de forma diversa da
+
+prevista neste artigo, contanto que a emissão de títulos da dívida pública tenha sido previamente autorizada pelo Senado Federal.
+
+§ 4º Adjudicada a propriedade do imóvel à Prefeitura, esta deverá determinar a destinação urbanística do bem, vinculada à
+
+implantação de ações estratégicas do Plano Diretor, ou iniciar o procedimento para sua alienação ou concessão, nos termos do art.
+
+8º do Estatuto da Cidade.
+
+§ 5º Caso o valor da dívida relativa ao IPTU supere o valor do imóvel, a Prefeitura deverá proceder à desapropriação do imóvel e,
+
+na hipótese de não ter interesse público para utilização em programas do Município, poderá aliená-lo a terceiros.
+
+§ 6º Ficam mantidas para o adquirente ou concessionário do imóvel as mesmas obrigações de parcelamento, edificação ou
+
+utilização previstas nesta lei.
+
+§ 7º Nos casos de alienação do imóvel previstas nos §§ 4º e 5º deste artigo, os recursos auferidos deverão ser destinados ao
+
+Fundo Municipal de Habitação.
+
+Art. 99-A. O Poder Público Municipal, com base no art. 4º e no art. 5º, alínea “i”, do Decreto-Lei Federal nº 3.365, de 21 de junho de
+
+1941, poderá promover a desapropriação por hasta pública de imóveis notificados como descumpridores da função social da
+
+propriedade.(Incluído pela Lei nº 17.975/2023)
+
+§ 1º A desapropriação por hasta pública somente será possível após a averbação da notificação por descumprimento da função
+
+social da propriedade no Cartório de Registro de Imóveis.(Incluído pela Lei nº 17.975/2023)
+
+§ 2º O decreto de utilidade pública para a desapropriação por hasta pública fixará as razões da desapropriação e conterá, dentre
+
+outras disposições fixadas em regulamento:(Incluído pela Lei nº 17.975/2023)
+
+I - valor da avaliação administrativa do bem;(Incluído pela Lei nº 17.975/2023)
+
+II - vedação de lances de valor inferior ao da avaliação administrativa do bem;(Incluído pela Lei nº 17.975/2023)
+
+III - prazo para aproveitamento do imóvel, nos termos da lei ou conforme fixado no decreto de utilidade pública;(Incluído pela Lei nº
+
+17.975/2023)
+
+IV - estipulação de sanções a serem aplicadas pelo descumprimento das obrigações;(Incluído pela Lei nº 17.975/2023)
+
+V - garantia, por hipoteca do próprio imóvel, em caso de aplicação de sanção pecuniária, nos termos do inciso IV deste parágrafo;
+
+(Incluído pela Lei nº 17.975/2023)
+
+VI - obrigação do arrematante de efetuar o pagamento à vista, por meio de depósito em conta corrente posta à disposição do
+
+expropriado;(Incluído pela Lei nº 17.975/2023)
+
+VII - registro da existência e quantificação de débitos do expropriado com o Poder Público Municipal ou suas autarquias, que serão
+
+abatidos do valor depositado na conta corrente posta à disposição do expropriado, realizando-se o pagamento à Administração
+
+Municipal das importâncias devidas;(Incluído pela Lei nº 17.975/2023)
+
+VIII - previsão de pagamento imediato, pelo arrematante, de débitos do expropriado com o Poder Público Municipal ou suas
+
+autarquias, como requisito para expedição da carta de arrematação;(Incluído pela Lei nº 17.975/2023)
+
+IX - previsão de instituição de hipoteca sobre o imóvel, em favor da entidade pública expropriante, como garantia real do
+
+cumprimento das obrigações;(Incluído pela Lei nº 17.975/2023)
+
+X - previsão de que a avaliação administrativa do imóvel a que se refere o inciso I constituirá o valor do imóvel para fins do art.
+
+1.484 da Lei Federal nº 10.406, de 10 de janeiro de 2002 – Código Civil, ainda que o lance vencedor da hasta pública tenha sido
+
+superior.(Incluído pela Lei nº 17.975/2023)
+
+§ 3º A carta de arrematação expedida em favor do arrematante pela entidade pública expropriante constituirá título hábil para o
+
+registro imobiliário da alienação e da hipoteca, na forma do art. 167, inciso I, item 26, da Lei Federal nº 6.015, de 31 de dezembro
+
+de 1973.(Incluído pela Lei nº 17.975/2023)
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 49/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+Subseção V
+
+Da Listagem dos Imóveis que não Cumprem a Função Social
+
+Art. 100. Será disponibilizada ao público para consulta a listagem dos imóveis cujos proprietários foram notificados em virtude do
+
+descumprimento da função social da propriedade, na Secretaria Municipal de Desenvolvimento Urbano e nas Subprefeituras, bem
+
+como em portal eletrônico oficial do Executivo.
+
+§ 1º Uma primeira versão da listagem prevista no “caput” deste artigo deverá ser publicada pelo Executivo no prazo de 6 (seis)
+
+meses, contado a partir da promulgação desta lei.
+
+§ 2º O imóvel permanecerá na listagem até que o proprietário promova seu parcelamento, edificação ou utilização, conforme o
+
+caso, ou imissão na posse pelo Poder Público.
+
+§ 3º Na listagem deverão constar, no mínimo, as seguintes informações:
+
+I – número do Setor-Quadra-Lote;
+
+II – endereço do imóvel;
+
+III – data da notificação prevista no art. 97;
+
+IV – identificação do instrumento para cumprimento da função social aplicado no momento;
+
+V – data de início da aplicação do respectivo instrumento;
+
+VI – data de protocolo, junto ao órgão competente, do pedido de aprovação e execução de projeto de parcelamento ou edificação
+
+desses imóveis, se o caso;
+
+VII – data da expedição do alvará de execução do projeto, se o caso;
+
+VIII – data da comunicação da ocupação do imóvel, se o caso;
+
+IX – data da comunicação da conclusão do parcelamento do solo, ou da edificação do imóvel ou da primeira etapa de conclusão de
+
+obras na hipótese de empreendimentos de grande porte, se o caso.
+
+§ 4º Caso o proprietário informe a observância do previsto nos incisos V, VI, VII e VIII do § 4º, a Prefeitura terá o prazo de 2 (dois)
+
+meses a partir do recebimento da informação pelo órgão competente para verificar o efetivo parcelamento, edificação ou utilização
+
+do imóvel e proceder à sua exclusão da listagem.
+
+§ 5º Caso o imóvel se encontre na fase de aplicação de IPTU Progressivo no Tempo, a listagem também deverá conter:
+
+I – data da primeira aplicação de alíquota progressiva, com a respectiva alíquota;
+
+II – valor da alíquota de cada ano subsequente.
+
+§ 6º Caso o imóvel encontre-se na fase de aplicação de desapropriação mediante pagamento da dívida pública, a listagem também
+
+deverá conter:
+
+I – data da publicação do respectivo decreto de desapropriação do imóvel;
+
+II – data de propositura de ação de desapropriação;
+
+III – data da efetiva imissão na posse;
+
+IV – destinação do imóvel;
+
+V – justificativa da ausência de interesse na aquisição do imóvel.
+
+§ 7º Tão logo decorram os prazos previstos nos arts. 96 e 98 sem que o proprietário cumpra as obrigações neles estabelecidas, a
+
+Prefeitura deverá atualizar as informações presentes na listagem.
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 50/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+Art. 101. Para elaboração da listagem de que trata o art. 100, a Prefeitura poderá:
+
+I – realizar levantamento para identificar os imóveis que se caracterizem como não edificados, subutilizados ou não utilizados;
+
+II – analisar indicações de imóveis e áreas feitas por pessoas físicas e jurídicas.
+
+Parágrafo único. (VETADO)
+
+Subseção VI
+
+Do Consórcio Imobiliário
+
+Art. 102. O Poder Público poderá facultar a realização de consórcios imobiliários como forma de viabilização financeira do
+
+aproveitamento do imóvel, tanto no caso de imóveis que estejam sujeitos ao parcelamento, edificação e utilização compulsória nos
+
+termos desta Lei, independentemente da notificação a seus proprietários, como no caso de áreas que sejam objeto de
+
+regularização fundiária urbana.(Redação dada pela Lei nº 17.975/2023)
+
+§ 1º A Prefeitura poderá promover o aproveitamento do imóvel que receber nos termos deste artigo, diretamente ou por outra
+
+modalidade admitida em lei.
+
+§ 2º O proprietário que transferir seu imóvel à Prefeitura para a realização de consórcio imobiliário receberá, como pagamento,
+
+unidades imobiliárias devidamente urbanizadas ou edificadas.(Redação dada pela Lei nº 17.975/2023)
+
+§ 3º O valor das unidades imobiliárias a serem entregues ao proprietário será correspondente ao valor do imóvel antes da
+
+execução das obras.(Redação dada pela Lei nº 17.975/2023)
+
+I – refletir o valor de referência para pagamento de outorga onerosa, descontado o montante incorporado em função das obras
+
+realizadas na área onde se localiza o imóvel transferido para a realização do consórcio imobiliário;
+
+II – excluir do seu cálculo expectativas de ganhos, lucros cessantes e juros compensatórios, bem como eventuais custos para a
+
+recuperação da área em razão da existência de passivos ambientais.
+
+§ 4º A Prefeitura deverá proceder ao aproveitamento adequado das unidades imobiliárias que lhe cabem, resultantes do consórcio
+
+imobiliário, no prazo máximo de 5 (cinco) anos, contados a partir da sua incorporação ao patrimônio público.
+
+§ 5º A proposta de consórcio imobiliário não suspende os prazos estipulados no art. 96, devendo o Poder Executivo expedir
+
+regulamento sobre outros procedimentos acerca da aceitação das propostas e viabilização dos ajustes.
+
+§ 6º O Poder Executivo poderá adotar programas que objetivem a aproximação entre proprietários notificados para o parcelamento,
+
+edificação e utilização compulsórios e agentes econômicos interessados em empreendimentos imobiliários ou da construção civil,
+
+respeitados os princípios que regem a administração pública.
+
+Subseção VII
+
+Do Direito de Preempção
+
+Art. 103. A Prefeitura poderá exercer o direito de preempção, nos termos da legislação federal, para aquisição de imóvel urbano
+
+objeto de alienação onerosa entre particulares sempre que necessitar de áreas para cumprir os objetivos e implantar as ações
+
+prioritárias deste Plano Diretor.
+
+Parágrafo único. O direito de preempção será exercido sempre que o Poder Público necessitar de áreas para:
+
+I – execução de programas e projetos habitacionais de interesse social;
+
+II – regularização fundiária;
+
+III – constituição de reserva fundiária;
+
+IV – ordenamento e direcionamento da expansão urbana;
+
+V – implantação de equipamentos urbanos e comunitários;
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 51/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+VI – criação de espaços públicos de lazer ou áreas verdes;
+
+VII – criação de unidades de conservação ou proteção de outras áreas de interesse ambiental;
+
+VIII – proteção de áreas de interesse histórico, cultural ou paisagístico.
+
+Art. 104. Serão definidos em lei os imóveis ou áreas que estarão sujeitos à incidência do direito de preempção.
+
+§ 1º A Prefeitura terá preferência de aquisição dos imóveis sujeitos ao direito de preempção pelo prazo de cinco anos.
+
+§ 2º Os Planos Regionais das Subprefeituras e leis específicas também poderão indicar imóveis ou áreas sujeitas ao direito de
+
+preempção.
+
+Art. 105. A Prefeitura dará publicidade à incidência do direito de preempção e instituirá controles administrativos para possibilitar a
+
+eficácia do instrumento, podendo utilizar, dentre outros meios, o controle por meio de sistemas informatizados, averbação da
+
+incidência do direito de preempção na matrícula dos imóveis atingidos e declaração nos documentos de cobrança do IPTU.
+
+§ 1º No caso de existência de terceiros interessados na compra do imóvel, o proprietário deverá comunicar sua intenção de alienar
+
+onerosamente o imóvel ao órgão competente da Prefeitura em até 30 (trinta) dias, contados da celebração do contrato preliminar
+
+entre o proprietário e o terceiro interessado.
+
+§ 2º A declaração de intenção de venda do imóvel deve ser apresentada com os seguintes documentos:
+
+I – proposta de compra apresentada pelo terceiro interessado na aquisição do imóvel, na qual constarão preço, condições de
+
+pagamento e prazo de validade;
+
+II – endereço do proprietário, para recebimento de notificação e de outras comunicações;
+
+III – certidão de inteiro teor da matrícula do imóvel, expedida pelo Cartório de Registro de Imóveis da circunscrição imobiliária
+
+competente;
+
+IV – declaração assinada pelo proprietário, sob as penas da lei, de que não incidem quaisquer encargos e ônus sobre o imóvel,
+
+inclusive os de natureza real, tributária ou pessoal reipersecutória.
+
+Art. 106. Recebida a declaração de intenção de venda a que se refere o § 2º do artigo anterior, a Prefeitura deverá manifestar, por
+
+escrito, dentro do prazo de 30 (trinta) dias, o interesse em exercer a preferência para aquisição do imóvel.
+
+§ 1º A manifestação de interesse da Prefeitura na aquisição do imóvel conterá a destinação futura do bem a ser adquirido,
+
+vinculada ao cumprimento dos objetivos e ações prioritárias deste Plano Diretor.
+
+§ 2º A Prefeitura fará publicar, em órgão oficial e em pelo menos um jornal local ou regional de grande circulação, edital de aviso da
+
+declaração de intenção de venda recebida e da intenção de aquisição do imóvel nas condições da proposta apresentada.
+
+§ 3º Findo o prazo de 30 (trinta) dias para manifestação da Prefeitura, é facultado ao proprietário alienar onerosamente o seu
+
+imóvel ao proponente interessado nas condições da proposta apresentada sem prejuízo do direito da Prefeitura exercer a
+
+preferência em face de outras propostas de aquisições onerosas futuras dentro do prazo legal de vigência do direito de preempção.
+
+§ 4º Concretizada a venda a terceiro, o proprietário fica obrigado a entregar ao órgão competente da Prefeitura cópia do
+
+instrumento particular ou público de alienação do imóvel dentro do prazo de 30 (trinta) dias após sua assinatura, sob pena de
+
+pagamento de multa diária em valor equivalente a 0,66% (sessenta e seis centésimos por cento) do valor total da alienação.
+
+Art. 107. Concretizada a venda do imóvel a terceiro com descumprimento ao direito de preempção, a Prefeitura promoverá as
+
+medidas judiciais cabíveis para:
+
+I – anular a comercialização do imóvel efetuada em condições diversas da proposta de compra apresentada pelo terceiro
+
+interessado;
+
+II – imitir-se na posse do imóvel sujeito ao direito de preempção que tenha sido alienado a terceiros apesar da manifestação de
+
+interesse da Prefeitura em exercer o direito de preferência.
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 52/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+§ 1º Em caso de anulação da venda do imóvel efetuada pelo proprietário, a Prefeitura poderá adquiri-lo pelo valor da base de
+
+cálculo do Imposto Predial e Territorial Urbano ou pelo valor indicado na proposta apresentada, se este for inferior àquele.
+
+§ 2º Outras sanções pelo descumprimento das normas relativas ao direito de preempção poderão ser estabelecidas em lei.
+
+Subseção VIII
+
+Da Arrecadação de Bens Abandonados
+
+Art. 108. O imóvel que o proprietário abandonar, com a intenção de não mais o conservar em seu patrimônio, e que se não
+
+encontrar na posse de outrem, poderá ser arrecadado, como bem vago, e após três anos ser incorporado à propriedade do
+
+Município, conforme estabelece a legislação federal.
+
+§ 1º Poderá haver arrecadação pelo Município de imóvel abandonado quando ocorrerem as seguintes circunstâncias:
+
+I – o imóvel encontrar-se vago, sem utilização e sem responsável pela sua manutenção, integridade, limpeza e segurança;
+
+II – o proprietário não tiver mais a intenção de conservá-lo em seu patrimônio;
+
+III – não estiver na posse de outrem;
+
+IV – cessados os atos de posse, estar o proprietário inadimplente com o pagamento dos tributos municipais incidentes sobre a
+
+propriedade imóvel.
+
+§ 2º A Prefeitura deverá adotar as providências cabíveis à incorporação definitiva do bem abandonado ao patrimônio público, nos
+
+termos estabelecidos pelo regulamento, cabendo ao Poder Executivo:
+
+I – tomar as medidas administrativas necessárias para a arrecadação dos bens abandonados, observando-se desde o início o
+
+direito ao contraditório e à ampla defesa;
+
+II – adotar as medidas judiciais cabíveis para regularização do imóvel arrecadado junto ao Serviço Registrário Imobiliário, bem
+
+como para sua destinação às finalidades previstas nesta lei.
+
+Art. 109. O imóvel que passar à propriedade do Município em razão de abandono poderá ser empregado diretamente pela
+
+Administração, para programas de habitações de interesse social, de regularização fundiária, instalação de equipamentos públicos
+
+sociais ou de quaisquer outras finalidades urbanísticas.
+
+Parágrafo único. Não sendo possível a destinação indicada no artigo anterior em razão das características do imóvel ou por
+
+inviabilidade econômica e financeira, o bem deverá ser alienado e o valor arrecadado será destinado ao Fundo Municipal de
+
+Habitação para a aquisição de terrenos e glebas.
+
+Art. 110. O procedimento para arrecadação terá início de ofício ou mediante denúncia, que informará a localização do imóvel em
+
+cujos atos de posse tenham cessado.
+
+§ 1º Para dar seguimento ao procedimento de arrecadação, a Prefeitura deverá:
+
+I – abrir processo administrativo que deverá conter os seguintes documentos:
+
+a) requerimento ou denúncia que motivou a diligência;
+
+b) certidão imobiliária atualizada;
+
+c) certidão positiva de existência de ônus fiscais municipais;
+
+d) outras provas do estado de abandono do imóvel, quando houver;
+
+e) cópias de ao menos 3 (três) notificações encaminhadas ao endereço do imóvel ou àquele constante da matrícula ou transcrição
+
+imobiliária;
+
+II – realizar atos de diligência, mediante elaboração de relatório circunstanciado contendo a descrição das condições do imóvel;
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 53/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+III – confirmar a situação de abandono, com a lavratura do respectivo Auto de Infração e a instrução de processo administrativo.
+
+§ 2º (VETADO)
+
+Subseção IX
+
+Da Cota de Solidariedade
+
+Art. 111. Fica estabelecida como exigência para o certificado de conclusão de empreendimentos imobiliários de grande porte ou
+
+implantação de planos e projetos urbanísticos a Cota de Solidariedade, que consiste na produção de Habitação de Interesse Social
+
+pelo próprio promotor, doação de terrenos para produção de HIS ou a doação de recursos ao Município para fins de produção de
+
+Habitação de Interesse Social e equipamentos públicos sociais complementares à moradia.(Regulamentado pelo Decreto nº
+
+56.538/2015)
+
+Parágrafo único. A doação prevista no “caput” não exime a necessidade de destinação de áreas ao Município nos termos da
+
+legislação de parcelamento do solo.(Regulamentado pelo Decreto nº 56.538/2015)
+
+Art. 112. Os empreendimentos com área construída computável superior a 20.000m² (vinte mil metros quadrados) ficam obrigados
+
+a destinar 10% (dez por cento) da área construída computável para Habitação de Interesse Social, voltada a atender famílias com
+
+renda até 6 (seis) salários mínimos, de acordo com regulamentação definida nesta lei.(Regulamentado pelo Decreto nº
+
+56.538/2015)
+
+§ 1º A área construída destinada à Habitação de Interesse Social no empreendimento referido no “caput” desse artigo será
+
+considerada não computável.(Regulamentado pelo Decreto nº 56.538/2015)
+
+§ 2º Alternativamente ao cumprimento da exigência estabelecida no caput deste artigo, o empreendedor poderá:(Redação dada
+
+pela Lei nº 17.975/2023)
+
+I – produzir, isoladamente ou de forma associada, a ser regulamentada por decreto, Empreendimento de Habitação de Interesse
+
+Social com, no mínimo, a mesma área construída exigida no caput deste artigo em outro terreno, desde que situado na Macrozona
+
+de Estruturação e Qualificação Urbana, excluída a Macroárea de Redução da Vulnerabilidade Urbana e os Subsetores Jacu-
+
+Pêssego, Arco Leste, Noroeste e Fernão Dias do Setor Eixos de Desenvolvimento da Macroárea de Estruturação Metropolitana;
+
+(Redação dada pela Lei nº 17.975/2023)
+
+II – doar terreno, isoladamente ou de forma associada, a ser regulamentada por decreto, de valor equivalente a 20% (vinte por
+
+cento) do valor da área total do terreno do empreendimento, calculado conforme Cadastro de Valor de Terreno para fins de Outorga
+
+Onerosa, desde que o terreno doado esteja situado na Macrozona de Estruturação e Qualificação Urbana, excluída a Macroárea
+
+de Redução da Vulnerabilidade Urbana e os Subsetores Jacu-Pêssego, Arco Leste, Noroeste e Fernão Dias do Setor Eixos de
+
+Desenvolvimento da Macroárea de Estruturação Metropolitana;(Redação dada pela Lei nº 17.975/2023)
+
+III - depositar no Fundo de Desenvolvimento Urbano – FUNDURB, em sua conta segregada para Habitação de Interesse Social,
+
+20% (vinte por cento) do valor da área total do terreno, calculado conforme Cadastro de Valor de Terreno para fins de Outorga
+
+Onerosa, destinado à aquisição de terreno ou subsídio para produção de HIS, preferencialmente em ZEIS 3.(Redação dada pela
+
+Lei nº 17.975/2023)
+
+§ 3º Atendida a exigência estabelecida no caput, inclusive pelas alternativas previstas no § 2º, o empreendimento poderá
+
+beneficiar-se de acréscimo de 20% (vinte por cento) na área computável, obtida mediante o pagamento da outorga onerosa.
+
+(Redação dada pela Lei nº 17.975/2023)
+
+§ 4º O Executivo deverá fiscalizar a destinação das unidades, garantindo o atendimento da faixa de renda prevista no “caput” deste
+
+artigo.(Regulamentado pelo Decreto nº 56.538/2015)
+
+§ 5º A obrigação estabelecida no “caput” se estende aos empreendimentos com área construída computável inferior a 20.000m²
+
+(vinte mil metros quadrados), quando:(Regulamentado pelo Decreto nº 56.538/2015)
+
+a) originários de desmembramentos aprovados após a publicação desta lei, com área computável equivalente superior a 20.000m²
+
+(vinte mil metros quadrados), calculada conforme a equação a seguir:(Regulamentado pelo Decreto nº 56.538/2015)
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 54/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+ACce = (ACc x ATo) / ATd, onde:
+
+ACce – área construída computável equivalente;
+
+ACc – área construída computável do terreno desmembrado;
+
+ATo – área do terreno original;
+
+ATd – área do terreno desmembrado;
+
+b) (VETADO)
+
+§ 6º A doação de área prevista do inciso II do § 2º deste artigo só será aceita após a análise e aprovação do órgão competente.
+
+(Regulamentado pelo Decreto nº 56.538/2015)
+
+§ 7º Os empreendimentos de uso não residencial localizados em áreas onde o fator de planejamento para os usos nR é igual a
+
+zero, de acordo com o Quadro 6 desta lei, ficam dispensados da obrigação determinada no “caput”.(Regulamentado pelo Decreto
+
+nº 56.538/2015)
+
+§ 8º A cota de solidariedade prevista nos Arts. 111 e 112 da Lei nº 16.050, de 2014, poderá ser adotada, por opção do interessado,
+
+nos empreendimentos com área construída computável igual ou inferior a 20.000 m² (vinte mil metros quadrados), recebendo o
+
+empreendedor, como contrapartida, os benefícios previstos nos §§ 2º e 3º deste artigo.(Redação dada pela Lei nº 17.975/2023)
+
+Seção II
+
+Do Direito de Construir
+
+Subseção I
+
+Do Direito de Superfície
+
+Art. 113. O Município poderá receber em concessão, diretamente ou por meio de seus órgãos, empresas ou autarquias, nos termos
+
+da legislação em vigor, o direito de superfície de bens imóveis para viabilizar a implementação de ações e objetivos previstos nesta
+
+lei, inclusive mediante a utilização do espaço aéreo e subterrâneo.
+
+Art. 114. O Município poderá ceder, mediante contrapartida de interesse público, o direito de superfície de seus bens imóveis,
+
+inclusive o espaço aéreo e subterrâneo, com o objetivo de implantar as ações e objetivos previstos nesta lei, incluindo instalação
+
+de galerias compartilhadas de serviços públicos e para a produção de utilidades energéticas.
+
+Subseção II
+
+Da Outorga Onerosa do Direito de Construir
+
+Art. 115. A Prefeitura poderá outorgar onerosamente o direito de construir correspondente ao potencial construtivo adicional
+
+mediante contrapartida financeira a ser prestada pelos beneficiários, nos termos dos arts. 28 a 31 e seguintes do Estatuto da
+
+Cidade, e de acordo com os critérios e procedimentos estabelecidos nesta lei.
+
+§ 1º Os recursos auferidos com as contrapartidas financeiras oriundas da outorga onerosa de potencial construtivo adicional serão
+
+destinados ao Fundo Municipal de Desenvolvimento Urbano – FUNDURB.(Redação dada pela Lei nº 17.975/2023)
+
+§ 2º Fica autorizada a cobrança de outorga onerosa em projetos de regularização de edificações existentes desde que os projetos
+
+atendam integralmente a legislação pertinente vigente.(Incluído pela Lei nº 17.975/2023)
+
+§ 3º Ficam excluídos do disposto no parágrafo anterior os lotes internos aos perímetros das Operações urbanas.(Incluído pela Lei
+
+nº 17.975/2023)
+
+Art. 116. O potencial construtivo adicional é bem jurídico dominical, de titularidade da Prefeitura, com funções urbanísticas e
+
+socioambientais.
+
+§ 1º Considera-se potencial construtivo adicional o correspondente à diferença entre o potencial construtivo utilizado e o potencial
+
+construtivo básico.
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 55/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+§ 2º Para o cálculo do potencial construtivo adicional deverão ser utilizados:
+
+I – o coeficiente de aproveitamento básico 1 (um) estabelecido nos Quadros 2 e 2A desta lei;
+
+II – o coeficiente de aproveitamento máximo 4 (quatro) estabelecido no Quadro 2 desta Lei para as áreas de influência dos Eixos
+
+de Estruturação da Transformação Urbana;(Redação dada pela Lei nº 17.975/2023)
+
+III – o coeficiente de aproveitamento máximo 4 (quatro) estabelecido para as ZEIS 2, ZEIS 3 e ZEIS 5;
+
+IV – o coeficiente de aproveitamento máximo fixado nas leis de operações urbanas em vigor;
+
+V – o coeficiente de aproveitamento máximo 2 (dois) para as áreas não relacionadas nos incisos II e III, estabelecido segundo cada
+
+macroárea no Quadro 2A desta lei, exceto nas zonas onde a Lei nº 13.885, de 25 de agosto de 2004, fixou índices menores;
+
+VI – o coeficiente de aproveitamento máximo definido pelas leis especiais relacionadas no art. 369 desta lei;
+
+VII – o coeficiente de aproveitamento resultante da aplicação da cota de solidariedade.
+
+§ 3º Leis específicas que criarem novas Operações Urbanas Consorciadas e Áreas de Intervenção Urbana poderão fixar
+
+coeficientes de aproveitamento máximo distintos dos limites estabelecidos nesta lei mediante Projeto de Intervenção Urbana,
+
+mantendo o coeficiente de aproveitamento básico 1 (um).
+
+§ 4º O impacto na infraestrutura e no meio ambiente advindo da utilização do potencial construtivo adicional deverá ser monitorado
+
+permanentemente pela Prefeitura, que publicará relatórios periodicamente.
+
+Art. 117. A contrapartida financeira à outorga onerosa de potencial construtivo adicional será calculada segundo a seguinte
+
+equação:
+
+C = (At / Ac) x V x Fs x Fp, onde:
+
+C – contrapartida financeira relativa a cada m² de potencial construtivo adicional;
+
+At – área de terreno em m²;
+
+Ac – área construída computável total pretendida no empreendimento em m²;
+
+V – valor do m² do terreno constante do Cadastro de Valor de Terreno para fins de Outorga Onerosa, conforme Quadro 14 anexo;
+
+Fs – fator de interesse social, entre 0 (zero) e 1 (um), conforme Quadro 5 anexo;
+
+Fp – fator de planejamento entre 0 (zero) e 1,3 (um e três décimos), conforme Quadro 6 anexo.
+
+§ 1º A contrapartida financeira total calcula-se pela multiplicação da contrapartida financeira relativa a cada m² pelo potencial
+
+construtivo adicional adquirido.
+
+§ 2º Em caso de não cumprimento da destinação que motivou a utilização dos fatores Fs e Fp, a Prefeitura procederá à cassação
+
+da licença ou ao cancelamento da isenção ou redução, bem como a sua cobrança em dobro a título de multa, acrescida de juros e
+
+correção monetária.
+
+§ 3º Na hipótese de um empreendimento envolver mais de um imóvel, deverá prevalecer o maior valor de metro quadrado dos
+
+imóveis envolvidos no projeto.
+
+§ 4º Ficam mantidos os critérios de cálculo das contrapartidas financeiras estabelecidos nas leis de Operações Urbanas e
+
+Operações Urbanas Consorciadas em vigor.
+
+§ 5º Para empreendimentos residenciais localizados nos Eixos de Estruturação da Transformação Urbana, onde há incidência da
+
+cota parte máxima de terreno por unidade, a definição do valor do fator Fs a ser aplicado no cálculo da contrapartida financeira
+
+deverá ser estabelecido proporcionalmente às unidades do empreendimento.
+
+§ 6º Para a aplicação da contrapartida financeira relativa à outorga de potencial construtivo adicional serão adotados os seguintes
+
+procedimentos:(Incluído pela Lei nº 17.975/2023)
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 56/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+I - nos projetos modificativos para o mesmo uso, nos termos da LPUOS e da legislação edilícia, o valor referente à outorga
+
+onerosa, quando necessária, será calculado sobre a área computável adicional proposta, nos termos da legislação vigente;
+
+(Incluído pela Lei nº 17.975/2023)
+
+II - no caso de projeto aprovado, cuja edificação não tenha sido executada, em que tenha havido o pagamento de contrapartida
+
+financeira relativa à outorga onerosa de potencial construtivo adicional, o valor comprovadamente pago, sem atualização, será
+
+descontado do montante referente à outorga onerosa devida em novo projeto aprovado no mesmo imóvel, observado o seguinte:
+
+(Incluído pela Lei nº 17.975/2023)
+
+a) a outorga onerosa do novo projeto será calculada nos termos da legislação vigente;(Incluído pela Lei nº 17.975/2023)
+
+b) o novo projeto deverá ser protocolizado no prazo de 5 (cinco) anos, contados da data da expedição do alvará de aprovação não
+
+executado;(Incluído pela Lei nº 17.975/2023)
+
+III - no caso de mudança de uso, categoria de uso ou subcategoria de uso em edificação em que tenha havido contrapartida
+
+financeira relativa à outorga onerosa de potencial construtivo adicional ou que teve benefícios referentes a leis específicas, será
+
+devida outorga onerosa calculada para o novo uso pretendido, nos termos da legislação vigente, descontando-se os valores
+
+efetivamente pagos, sem atualização;(Incluído pela Lei nº 17.975/2023)
+
+IV - no caso de reforma com acréscimo de área e demolição parcial de área construída, caberá pagamento da outorga referente às
+
+novas áreas, quando ultrapassado o coeficiente de aproveitamento básico até o coeficiente de aproveitamento máximo ou ainda
+
+quando ultrapassado o coeficiente correspondente à área existente a manter até o coeficiente de aproveitamento máximo.(Incluído
+
+pela Lei nº 17.975/2023)
+
+§ 7º Em nenhuma hipótese haverá devolução de valores pagos relativos à outorga onerosa, sendo vedada a transferência para
+
+outro imóvel.(Incluído pela Lei nº 17.975/2023)
+
+§ 8º Para efeito de cálculo da cobrança de outorga onerosa que trata o § 2º do art. 115 desta Lei, o valor deverá ser calculado
+
+conforme o caput deste artigo e deverá ser acrescido 5% (cinco por cento) ao valor.(Incluído pela Lei nº 17.975/2023)
+
+§ 9º Para efeito de cálculo de coeficiente de aproveitamento e outorga onerosa em reformas, as áreas existentes, a construir ou a
+
+transformar deverão ser consideradas como áreas computáveis ou não computáveis desde que não ultrapasse o coeficiente
+
+máximo, mediante o pagamento de outorga onerosa a partir do C.A. básico que sejam permitidos pela legislação vigente.(Incluído
+
+pela Lei nº 17.975/2023)
+
+§ 10. No caso de execução de demolição total do imóvel regular, com ou sem mudança de uso, os índices e taxas poderão ser
+
+mantidos mesmo que maiores que o permitido pela legislação vigente, mediante pagamento de outorga onerosa a partir do C.A.
+
+básico.(Incluído pela Lei nº 17.975/2023)
+
+Art. 118. O Cadastro de Valor de Terreno para fins de Outorga Onerosa deverá ser atualizado anualmente pelo Executivo, ouvido o
+
+Conselho Municipal de Valores Imobiliários – CMVI, e deverá ser publicado até o dia 31 de dezembro de cada ano, com validade a
+
+partir do dia 1º de janeiro do ano seguinte.(Redação dada pela Lei nº 17.975/2023)
+
+§ 1º A atualização por ato do Executivo de que trata o caput ficará limitada à variação do Índice de Preços ao Consumidor Amplo
+
+(IPCA) somada à variação positiva real do PIB acumuladas no período.(Redação dada pela Lei nº 17.975/2023)
+
+§ 2º Quando a atualização dos valores dos terrenos constantes do Cadastro de Valor de Terreno para fins de Outorga Onerosa for
+
+superior ao limite definido no parágrafo anterior, o reajuste do valor do cadastro correspondente à variação excedente deverá ser
+
+aprovado por lei.
+
+§ 3º Na hipótese prevista no parágrafo anterior, o Executivo deverá enviar projeto de lei ao Legislativo, até 30 de setembro de cada
+
+ano, e até a aprovação ou rejeição desse projeto a Sessão Ordinária da Câmara Municipal não será interrompida.
+
+§ 4º O Quadro 14 anexo a esta lei contém o Cadastro de Valor de Terreno para fins de Outorga Onerosa que passará a valer a
+
+partir da data de publicação desta lei.
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 57/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+Art. 119. De acordo com o art. 31 da Lei nº 14.933, de 5 de junho de 2009, que instituiu a Política de Mudança do Clima no
+
+Município de São Paulo, lei específica deverá estabelecer fator de redução da contrapartida financeira à outorga onerosa para
+
+empreendimentos que adotem tecnologias e procedimentos construtivos sustentáveis, considerando, entre outros:
+
+I – o uso de energias renováveis, eficiência energética e cogeração de energia;
+
+II – a utilização de equipamentos, tecnologias ou medidas que resultem redução significativa das emissões de gases de efeito
+
+estufa ou ampliem a capacidade de sua absorção ou armazenamento;
+
+III – o uso racional e o reúso da água;
+
+IV – a utilização de materiais de construção sustentáveis.
+
+Art. 120. Os fatores de planejamento poderão ser revistos a cada 4 (quatro) anos por meio de lei específica.
+
+Parágrafo único. A revisão da LPUOS poderá estabelecer fatores de planejamento para incentivar tipologias urbanas e ambientais
+
+desejáveis e de acordo com as diretrizes previstas nesta lei.
+
+Art. 121. (VETADO)
+
+Subseção III
+
+Da Transferência do Direito de Construir
+
+Art. 122. A transferência do direito de construir correspondente ao potencial construtivo passível de ser utilizado em outro local,
+
+prevista nos termos do art. 35 da Lei Federal nº 10.257, de 2001 – Estatuto da Cidade e disciplinada em lei municipal, observará as
+
+disposições, condições e parâmetros estabelecidos neste Plano Diretor Estratégico.
+
+Art. 123. Fica autorizada a transferência do potencial construtivo de imóveis urbanos privados ou públicos, para fins de viabilizar:
+
+(Regulamentado pelo Decreto nº 58.289/2018)
+
+I – a preservação de bem de interesse histórico, paisagístico, ambiental, social ou cultural;(Regulamentado pelo Decreto nº
+
+58.289/2018)
+
+II – a execução de melhoramentos viários para a implantação de corredores de ônibus;(Regulamentado pelo Decreto nº
+
+58.289/2018)
+
+III - a implantação de parques propostos situados na zona urbana;(Redação dada pela Lei nº 17.975/2023)
+
+IV - a preservação de áreas de propriedade particular, de interesse ambiental, localizadas em ZEPAM, situadas na zona urbana,
+
+que atendam os parâmetros estabelecidos na LPUOS;(Redação dada pela Lei nº 17.975/2023)
+
+V – programas de regularização fundiária e urbanização de áreas ocupadas por população de baixa renda;(Regulamentado pelo
+
+Decreto nº 58.289/2018)
+
+VI – programas de provisão de Habitação de Interesse Social.(Regulamentado pelo Decreto nº 58.289/2018)
+
+VII - (VETADO)
+
+§ 1º A Prefeitura poderá receber imóveis para o atendimento às finalidades previstas neste artigo, oferecendo como contrapartida
+
+ao proprietário a possibilidade de transferência do potencial construtivo do bem doado, nas condições previstas nesta lei.
+
+(Regulamentado pelo Decreto nº 58.289/2018)
+
+§ 2º A transferência prevista no “caput”, nos casos em que não houver doação do imóvel cedente, fica condicionada às disposições
+
+previstas em lei, em especial ao atendimento às providências relativas à conservação do imóvel cedente, e caso estas providências
+
+não forem tomadas, o proprietário do imóvel ficará sujeito às sanções cabíveis.(Regulamentado pelo Decreto nº 58.289/2018)
+
+§ 3º O controle da transferência de potencial construtivo será realizado pela Secretaria Municipal de Desenvolvimento Urbano, que
+
+expedirá, mediante requerimento, Declaração de Potencial Construtivo Passível de Transferência e Certidão de Transferência de
+
+Potencial Construtivo.(Regulamentado pelo Decreto nº 58.289/2018)
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 58/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+§ 4º (VETADO)(Incluído pela Lei nº 17.975/2023)
+
+§ 5º A declaração de potencial construtivo emitida antes da vigência da Lei nº 16.050, de 2014, para imóveis enquadrados como
+
+ZEPAM quando o imóvel cedente apresentar estado de conservação e preservação satisfatórias o interessado poderá solicitar a
+
+renovação da declaração considerando:(Incluído pela Lei nº 17.975/2023)
+
+a) considerado a deterioração, os custos de manutenção e a permanente conservação do imóvel, quando completados 10 (dez)
+
+anos da emissão da Declaração de Potencial Construtivo, será concedido aos imóveis que obtiveram o Termo de Compromisso
+
+Ambiental (TCA), emitido pelo órgão competente, a atribuição de novo Potencial Construtivo Transferível (TDC) com montante
+
+equivalente a 70% (setenta por cento) do Potencial Construtivo Transferível inicialmente atribuído;(Incluído pela Lei nº
+
+17.975/2023)
+
+b) o proprietário poderá optar, quando completados 15 (quinze) anos, pela atribuição de novo Potencial Construtivo Transferível
+
+(TDC) com montante equivalente a 100% (cem por cento) do Potencial Construtivo Transferível inicialmente atribuído. Os
+
+benefícios dispostos nos incisos I e II não são cumulativos;(Incluído pela Lei nº 17.975/2023)
+
+c) A data de referência e a data de emissão da Declaração de Potencial permanecem as mesmas após a concessão do benefício;
+
+(Incluído pela Lei nº 17.975/2023)
+
+d) O benefício disposto nos incisos I e II será adicionado ao saldo remanescente na Declaração de Potencial, quando houver,
+
+deverá seguir o § 3º do art. 124.(Incluído pela Lei nº 17.975/2023)
+
+Art. 124. O potencial construtivo passível de transferência, nos casos em que não há a doação do imóvel cedente, deverá observar
+
+as seguintes disposições:(Regulamentado pelo Decreto nº 57.536./2016)
+
+I – os imóveis enquadrados como ZEPEC-BIR e ZEPEC-APC poderão transferir o potencial construtivo básico definido em razão
+
+de sua localização;(Regulamentado pelo Decreto nº 57.536./2016)
+
+II - os imóveis enquadrados como ZEPAM, localizados na zona urbana poderão transferir seu potencial construtivo básico;
+
+(Redação dada pela Lei nº 17.975/2023)
+
+III - (VETADO)(Incluído pela Lei nº 17.975/2023)
+
+§ 1º A transferência de potencial construtivo prevista no inciso II do “caput”:(Regulamentado pelo Decreto nº 57.536./2016)
+
+I – dependerá de autorização do Conselho Gestor do FUNDURB e de parecer favorável da Secretaria do Verde e Meio Ambiente –
+
+SVMA;(Regulamentado pelo Decreto nº 57.536./2016)
+
+II – ficará condicionada à celebração de Termo de Compromisso Ambiental – TCA, que deverá ser averbado na matrícula do
+
+imóvel, no qual o proprietário do imóvel cedente assume as obrigações de preservação das características da área, e são definidas
+
+as sanções cabíveis previstas pela legislação ambiental no caso de descumprimento das obrigações assumidas.(Regulamentado
+
+pelo Decreto nº 57.536./2016)
+
+§ 2º Não poderão ser realizadas transferências de potencial construtivo originário de bairros tombados em Área de Urbanização
+
+Especial (AUE) e das Áreas de Proteção Paisagística (APPa).(Regulamentado pelo Decreto nº 57.536./2016)
+
+§ 3º Quando o potencial construtivo passível de transferência ultrapassar 50.000m2 (cinquenta mil metros quadrados), a
+
+transferência do que exceder este limite se dará de forma gradativa em dez parcelas anuais, incluindo as declarações já emitidas
+
+anteriormente à publicação desta lei.(Regulamentado pelo Decreto nº 57.536./2016)
+
+§ 4º Fica regulada nos termos da lei específica, a transferência do direito de construir para fins de Regularização Fundiária Urbana
+
+– Reurb.(Incluído Lei nº 17.975/2023)
+
+§ 5º A certidão que trata o § 1º deverá atender integralmente os arts. 124 e 125 desta Lei.(Incluído Lei nº 17.975/2023)
+
+§ 6º O Poder Executivo regulamentará os fatores e o termos para a emissão de novas certidões de que trata o § 1º deste artigo.
+
+(Incluído Lei nº 17.975/2023)
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 59/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+Art. 125. Nos casos de transferência do direito de construir, nos quais não há a doação do imóvel cedente, previstos nos incisos do
+
+art. 124 desta lei, o potencial construtivo passível de transferência será calculado segundo a equação a seguir:(Regulamentado
+
+pelo Decreto nº 57.536./2016)
+
+PCpt = Atc x CAbas x Fi, onde:(Regulamentado pelo Decreto nº 57.536./2016)
+
+PCpt – potencial construtivo passível de transferência;(Regulamentado pelo Decreto nº 57.536./2016)
+
+Atc – área do terreno cedente;(Regulamentado pelo Decreto nº 57.536./2016)
+
+CAbas – coeficiente de aproveitamento básico do terreno cedente, vigente na data de referência;(Regulamentado pelo Decreto nº
+
+57.536./2016)
+
+Fi – Fator de incentivo = 1.(Regulamentado pelo Decreto nº 57.536./2016)
+
+§ 1º Na Declaração de Potencial Construtivo Passível de Transferência expedida pela Secretaria Municipal de Desenvolvimento
+
+Urbano, deverá constar no mínimo:(Regulamentado pelo Decreto nº 57.536./2016)
+
+I – o potencial construtivo passível de transferência;(Regulamentado pelo Decreto nº 57.536./2016)
+
+II – a data de referência;(Regulamentado pelo Decreto nº 57.536./2016)
+
+III – valor unitário, valor por 1m2 (um metro quadrado), do terreno cedente de acordo com o Cadastro de Valor de Terreno para fins
+
+de Outorga Onerosa, vigente na data de referência;(Regulamentado pelo Decreto nº 57.536./2016)
+
+IV – informação de que o potencial construtivo passível de transferência foi originado sem doação de terreno.(Regulamentado pelo
+
+Decreto nº 57.536./2016)
+
+§ 2º Será considerada como data de referência a data do protocolo da solicitação da Declaração de Potencial Construtivo Passível
+
+de Transferência à Secretaria Municipal de Desenvolvimento Urbano.(Regulamentado pelo Decreto nº 57.536./2016)
+
+Art. 126. A transferência do potencial construtivo poderá ser utilizada nos casos de doação de imóveis ou nos casos de
+
+desapropriação amigável para viabilizar:(Regulamentado pelo Decreto nº 58.289/2018)
+
+I – melhoramentos viários para implantação de corredores de ônibus;(Regulamentado pelo Decreto nº 58.289/2018)
+
+II – programas de provisão de Habitação de Interesse Social;(Regulamentado pelo Decreto nº 58.289/2018)
+
+III – programas de regularização fundiária e urbanização de áreas ocupadas por população de baixa renda;(Regulamentado pelo
+
+Decreto nº 58.289/2018)
+
+IV - implantação de parques propostos, de acordo com o Quadro 7 anexo a esta Lei, situados na zona urbana.(Redação dada pela
+
+Lei nº 17.975/2023)
+
+§ 1º Nos casos em que a doação for proposta pelo proprietário para uma das finalidades descritas nos incisos do caput deste
+
+artigo, deverá ser avaliada a conveniência e o interesse público no recebimento da área, mediante análise da vantajosidade da
+
+medida, cotejando-se a economicidade de seu recebimento, o valor do bem a ser doado, aferido em avaliação específica, admitida
+
+a possibilidade de previsão de contrapartidas compatíveis com os objetivos da política urbana em desenvolvimento.(Redação dada
+
+pela Lei nº 17.975/2023)
+
+§ 2º Nos casos de desapropriação amigável, com a concordância do proprietário, os bens poderão ser indenizados exclusivamente
+
+mediante a transferência do potencial construtivo calculado nos termos do art. 127.(Regulamentado pelo Decreto nº 58.289/2018)
+
+Art. 127. Nos casos de utilização da transferência do direito de construir nas desapropriações amigáveis e doações, previstos no
+
+art. 126 desta lei, o potencial construtivo passível de transferência será calculado segundo a equação a seguir:(Regulamentado
+
+pelo Decreto nº 58.289/2018)
+
+PCpt = Atc x CAmax x Fi, onde:(Regulamentado pelo Decreto nº 58.289/2018)
+
+PCpt – potencial construtivo passível de transferência;(Regulamentado pelo Decreto nº 58.289/2018)
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 60/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+Atc – área do terreno doado;(Regulamentado pelo Decreto nº 58.289/2018)
+
+CAmax – coeficiente de aproveitamento máximo do terreno doado, vigente na data de doação;(Regulamentado pelo Decreto nº
+
+58.289/2018)
+
+Fi – fator de incentivo à doação, vigente na data da doação.(Regulamentado pelo Decreto nº 58.289/2018)
+
+§ 1º Segundo a finalidade de transferência, ficam definidos os seguintes fatores de incentivo à doação:(Regulamentado pelo
+
+Decreto nº 58.289/2018)
+
+I – 2,0 (dois) para melhoramentos viários para implantação de corredores de ônibus;(Regulamentado pelo Decreto nº 58.289/2018)
+
+II – 1,9 (um e nove décimos) para programas de construção de Habitação de Interesse Social;(Regulamentado pelo Decreto nº
+
+58.289/2018)
+
+III – 0,8 (oito décimos) para programas de regularização fundiária e urbanização de áreas ocupadas por população de baixa renda;
+
+(Regulamentado pelo Decreto nº 58.289/2018)
+
+IV - 1,4 (um e quatro décimos) para implantação de parque com valor de terreno no Quadro 14 inferior ou igual a R$2.000/m²,
+
+observadas as atualizações subsequentes;(Redação dada pela Lei nº 17.975/2023)
+
+V - 1 (um inteiro) para implantação de parque com valor de terreno no Quadro 14 superior a R$2.000/m², observadas as
+
+atualizações subsequentes.(Incluído pela Lei nº 17.975/2023)
+
+§ 2º Na Declaração de Potencial Construtivo Passível de Transferência expedida pela Secretaria Municipal de Desenvolvimento
+
+Urbano, deverá constar no mínimo:(Regulamentado pelo Decreto nº 58.289/2018)
+
+I – potencial construtivo passível de transferência;(Regulamentado pelo Decreto nº 58.289/2018)
+
+II – a data da doação;(Regulamentado pelo Decreto nº 58.289/2018)
+
+III – coeficiente de aproveitamento máximo do terreno doado, vigente na data de doação;(Regulamentado pelo Decreto nº
+
+58.289/2018)
+
+IV – valor unitário, valor por 1m² (um metro quadrado), do terreno doado de acordo com o Cadastro de Valor de Terreno para fins
+
+de Outorga Onerosa, vigente na data de doação;(Regulamentado pelo Decreto nº 58.289/2018)
+
+V – Informação de que o potencial construtivo passível de transferência foi originado com doação de terreno.(Regulamentado pelo
+
+Decreto nº 58.289/2018)
+
+§ 3º Será considerada como data de doação a data de emissão da Declaração de Potencial Construtivo Passível de Transferência
+
+à Secretaria Municipal de Desenvolvimento Urbano.(Regulamentado pelo Decreto nº 58.289/2018)
+
+Art. 128. Nos casos de transferência do direito de construir com ou sem doação, previstos nos arts. 125 e 127 desta lei, o potencial
+
+construtivo a ser transferido para o imóvel receptor será calculado segundo a equação a seguir:(Regulamentado pelo Decreto nº
+
+58.289/2018)
+
+PCr = (PCpt x VTcd) / (Cr x CAmaxcd), onde:(Regulamentado pelo Decreto nº 58.289/2018)
+
+PCr – potencial construtivo equivalente a ser recebido no imóvel receptor;(Regulamentado pelo Decreto nº 58.289/2018)
+
+PCpt – potencial construtivo passível de transferência, conforme consta da declaração expedida pela Secretaria Municipal de
+
+Desenvolvimento Urbano;(Regulamentado pelo Decreto nº 58.289/2018)
+
+VTcd – valor unitário, valor por 1m2 (um metro quadrado), do terreno cedente ou doado de acordo com o Cadastro de Valor de
+
+Terreno para fins de Outorga Onerosa vigente na data de referência ou doação, conforme consta da declaração expedida pela
+
+Secretaria Municipal de Desenvolvimento Urbano;(Regulamentado pelo Decreto nº 58.289/2018)
+
+Cr – valor unitário, valor por 1m2 (um metro quadrado), da contrapartida da outorga onerosa no imóvel receptor;(Regulamentado
+
+pelo Decreto nº 58.289/2018)
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 61/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+CAmaxcd – coeficiente de aproveitamento máximo do imóvel cedente ou doado, vigente na data de referência ou de doação,
+
+conforme consta da declaração expedida pela Secretaria Municipal de Desenvolvimento Urbano.(Regulamentado pelo Decreto nº
+
+58.289/2018)
+
+§ 1º Nos casos em que o potencial construtivo passível de transferência foi originado nas hipóteses dispostas no art. 125, o
+
+potencial construtivo equivalente a ser recebido no imóvel receptor (PCr) será calculado adotando-se o coeficiente de
+
+aproveitamento máximo do imóvel cedente (CAmaxcd) igual a 4 (quatro).(Regulamentado pelo Decreto nº 58.289/2018)
+
+§ 2º Para fins do cálculo disposto no “caput” deste artigo, o valor do terreno cedente ou doado vigente na data de referência ou
+
+doação, de acordo com o Cadastro de Valor de Terreno para fins de Outorga Onerosa conforme consta da declaração expedida
+
+pela Secretaria Municipal de Desenvolvimento Urbano será corrigido pelo IPCA acumulado entre o mês imediatamente posterior ao
+
+mês de referência ou de doação que consta da Declaração de Potencial Construtivo Passível de Transferência e o último mês
+
+anterior à data de protocolo do pedido de Certidão de Transferência de Potencial Construtivo para o qual o IPCA estiver disponível.
+
+(Regulamentado pelo Decreto nº 58.289/2018)
+
+§ 3º Para cálculo do valor unitário, valor por 1m² (um metro quadrado), da contrapartida correspondente à outorga onerosa no
+
+imóvel receptor (Cr), será considerada a equação definida no art. 117, adotando-se:(Regulamentado pelo Decreto nº 58.289/2018)
+
+I – a área construída computável total pretendida no terreno receptor, em m²;(Regulamentado pelo Decreto nº 58.289/2018)
+
+II – o fator social no imóvel receptor correspondente ao seu uso ou atividade, de acordo com o Quadro 5 desta lei;(Regulamentado
+
+pelo Decreto nº 58.289/2018)
+
+III – o fator de planejamento correspondente ao uso e à macroárea onde está localizado o imóvel receptor, na data de
+
+transferência;(Regulamentado pelo Decreto nº 58.289/2018)
+
+IV – valor unitário, valor por 1m² (um metro quadrado), do terreno receptor de acordo com o Cadastro de Valor de Terreno para fins
+
+de Outorga Onerosa, vigente na data de transferência.(Regulamentado pelo Decreto nº 58.289/2018)
+
+§ 4º Será considerada como data de transferência a data do protocolo do pedido de Certidão de Transferência de Potencial
+
+Construtivo à Secretaria Municipal de Desenvolvimento Urbano.(Regulamentado pelo Decreto nº 58.289/2018)
+
+Art. 129. A expedição da Certidão de Transferência de Potencial Construtivo de imóveis enquadrados como ZEPEC-BIR fica
+
+condicionada à comprovação, pelo proprietário e responsável técnico, do bom estado de preservação e conservação do imóvel
+
+cedente, definido a partir de critérios do órgão municipal de patrimônio cultural.(Redação dada pela Lei nº 17.975/2023)
+
+§ 1º Quando o imóvel cedente apresentar estado de conservação e preservação inadequado ou insatisfatório, deverá ser exigida
+
+do proprietário a adoção de medidas de restauro ou de conservação.(Redação dada pela Lei nº 17.975/2023)
+
+§ 2º Nos casos enquadrados no disposto no parágrafo anterior, a expedição da certidão de transferência de potencial construtivo
+
+fica condicionada à verificação das condições de conservação e preservação do imóvel cedente.
+
+I - considerado a deterioração, os custos de manutenção e a permanente conservação do imóvel, quando completados 10 (dez)
+
+anos da emissão da Declaração de Potencial Construtivo, será concedido aos imóveis que obtiverem o Atestado de Conservação
+
+do Imóvel, emitido pelo órgão competente, a atribuição de novo Potencial Construtivo Transferível (TDC) com montante equivalente
+
+a 70% (setenta por cento) do Potencial Construtivo Transferível inicialmente atribuído;(Incluído pela Lei nº 17.975/2023)
+
+II - o proprietário poderá optar, quando completados 15 (quinze) anos, pela atribuição de novo Potencial Construtivo Transferível
+
+(TDC) com montante equivalente a 100% (cem por cento) do Potencial Construtivo Transferível inicialmente atribuído. Os
+
+benefícios dispostos nos incisos I e II não são cumulativos;(Incluído pela Lei nº 17.975/2023)
+
+III - a data de referência e a data de emissão da Declaração de Potencial permanecem as mesmas após a concessão do benefício;
+
+(Incluído pela Lei nº 17.975/2023)
+
+IV – o benefício disposto nos incisos I e II será adicionado ao saldo remanescente na Declaração de Potencial, quando houver.
+
+(Incluído pela Lei nº 17.975/2023)
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 62/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+Art. 130. São passíveis de receber o potencial construtivo transferido, até o limite do potencial construtivo máximo, os imóveis
+
+localizados em áreas onde o coeficiente de aproveitamento máximo for maior que 1,0 (um), desde que não estejam localizados nos
+
+perímetros de abrangência das operações urbanas consorciadas em vigor.(Regulamentado pelo Decreto nº 58.289/2018)
+
+Art. 131. Será possível a expedição de sucessivas Certidões de Transferência de Potencial Construtivo derivadas de uma mesma
+
+Declaração de Potencial Construtivo Passível de Transferência, ficando a expedição das certidões, nos casos previstos no art. 125,
+
+condicionadas à comprovação do estado de conservação e preservação do imóvel.(Regulamentado pelo Decreto nº 58.289/2018)
+
+Art. 132. Permanecem válidas as Declarações de Potencial Construtivo Passível de Transferência e as Certidões de Potencial
+
+Construtivo Transferido emitidas até a data de entrada em vigor desta lei.(Regulamentado pelo Decreto nº 55.888/2015)
+
+Parágrafo único. Decreto do Executivo estabelecerá as regras para expedição das Certidões de Potencial Construtivo Transferido
+
+com base nas Declarações de Potencial Construtivo Passível de Transferência expedidas anteriormente à publicação desta lei.
+
+Art. 133. Lei específica poderá redefinir os fatores de incentivo, seus critérios de aplicação, bem como rever os perímetros de
+
+aplicação do potencial construtivo passível de transferência estabelecidos nesta lei.
+
+§ 1º Os empreendimentos localizados fora dos EETU poderão beneficiar-se de acréscimo de 10% (dez por cento) na área
+
+computável, obtida mediante o pagamento da outorga onerosa, desde que obrigatoriamente através de transferência de direito de
+
+construir de imóvel localizado em ZEPEC-BIR e ZEPEC-APC.(Incluído pela Lei nº 17.975/2023)
+
+§ 2º O benefício cedido no § 1º desde artigo não se enquadra no limite estabelecido no § 5º do art. 24 da Lei nº 16.402, de 2016.
+
+(Incluído pela Lei nº 17.975/2023)
+
+Seção III
+
+Dos Instrumentos de Ordenamento e Reestruturação Urbana
+
+Art. 134. Com o objetivo de promover o ordenamento e a reestruturação urbana em áreas subutilizadas e/ou com potencial de
+
+transformação e qualificação, preferencialmente relacionadas com a Rede de Estruturação e Transformação Urbana, o Poder
+
+Público Municipal poderá utilizar os seguintes instrumentos de ordenamento e reestruturação urbana:(Redação dada pela Lei nº
+
+17.975/2023)
+
+I - Operações Urbanas Consorciadas;(Incluído pela Lei nº 17.975/2023)
+
+II - Concessão Urbanística;(Incluído pela Lei nº 17.975/2023)
+
+III - Áreas de Intervenção Urbana;(Incluído pela Lei nº 17.975/2023)
+
+IV - Áreas de Estruturação Local;(Incluído pela Lei nº 17.975/2023)
+
+V - Reordenamento Urbanístico Integrado.(Incluído pela Lei nº 17.975/2023)
+
+§ 1º Para a implementação dos instrumentos referidos no caput deste artigo, o Poder Público Municipal conduzirá Planos de
+
+Intervenção Urbana – PIU, consistentes em procedimento com tramitação previamente definida, que objetiva a produção de
+
+estudos técnicos mediante participação social, comportando as seguintes modalidades:(Redação dada pela Lei nº 17.975/2023)
+
+I - PIU de Ordenamento e Reestruturação Urbana, que, em atendimento ao previsto no caput deste artigo, busca promover a
+
+definição dos instrumentos de política urbana mais adequados a propiciar o ordenamento e a reestruturação urbana em áreas
+
+subutilizadas e/ou com potencial de transformação e qualificação, com a implementação das intervenções a serem propostas,
+
+objetivando:(Incluído pela Lei nº 17.975/2023)
+
+a) maior aproveitamento da terra urbana subutilizada, com densidades construtivas e demográficas compatíveis com as redes de
+
+infraestrutura e as condições ambientais existentes;(Incluído pela Lei nº 17.975/2023)
+
+b) incremento de atividades econômicas e empregos e atendimento às necessidades de habitação e de equipamentos sociais para
+
+a população;(Incluído pela Lei nº 17.975/2023)
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 63/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+c) integração de políticas e investimentos públicos em habitação, saneamento, drenagem, áreas verdes, mobilidade e
+
+equipamentos urbanos e sociais, entre outras que contribuam para a minimização das mudanças climáticas;(Incluído pela Lei nº
+
+17.975/2023)
+
+II - PIU de Zonas de Ocupação Especial (ZOE): com a finalidade prioritária de promover estudos para a definição de parâmetros
+
+específicos de parcelamento, uso e ocupação do solo adequados às especificidades da zona de ocupação especial, considerando
+
+as características de seu contexto urbano.(Incluído pela Lei nº 17.975/2023)
+
+§ 2º A participação social assegurada no âmbito da elaboração e tramitação do PIU é independente e não se confunde com as
+
+instâncias de controle social, como os Conselhos Gestores, previstos para os instrumentos de ordenamento e reestruturação
+
+urbana listados no caput, a serem definidos pelo PIU e implementados a partir de regulação específica.(Redação dada pela Lei nº
+
+17.975/2023)
+
+§ 3º Os Conselhos Gestores de instrumentos de ordenamento e reestruturação urbana serão compostos por representantes do
+
+Poder Público e da sociedade civil organizada presente no território, instituídos para gestão e controle social dos objetivos,
+
+intervenções e recursos previstos em suas disposições específicas.(Redação dada pela Lei nº 17.975/2023)
+
+§ 4º O PIU deverá contemplar, em seus estudos técnicos, as condicionantes ambientais e da paisagem de seu território para a
+
+formulação de suas propostas(Redação dada pela Lei nº 17.975/2023)
+
+§ 5º O instrumento de ordenamento e reestruturação urbana definido pelo PIU deverá, previamente à sua efetiva implantação, ser
+
+licenciado por meio de instrumento de gestão ambiental mais adequado às suas características, conforme a legislação vigente.
+
+(Redação dada pela Lei nº 17.975/2023)
+
+§ 6º Nas áreas referidas no caput deste artigo, o Executivo Municipal poderá promover, a pedido dos proprietários ou por iniciativa
+
+própria, o Reordenamento Urbanístico Integrado, que trata do processo de reorganização fundiária associado à implantação de
+
+plano de reconhecido interesse público, no qual os registros imobiliários dos terrenos afetados poderão ser objeto de unificação
+
+para posterior reparcelamento, com a implantação do plano urbanístico autorizador da medida, e este instrumento deverá ser
+
+regulamentado por lei específica que deverá conter no mínimo:(Incluído pela Lei nº 17.975/2023)
+
+I - definição de percentual mínimo de adesão ao plano de Reordenamento Urbanístico Integrado referenciado preferencialmente no
+
+número de proprietários e de imóveis contidos no perímetro de intervenção;(Incluído pela Lei nº 17.975/2023)
+
+II - definição do conteúdo mínimo do plano de Reordenamento Urbanístico Integrado;(Incluído pela Lei nº 17.975/2023)
+
+III - definição dos mecanismos de execução do Plano de Reordenamento Urbanístico Integrado, em especial as formas de
+
+financiamento;(Incluído pela Lei nº 17.975/2023)
+
+IV - previsão de contrapartida a ser exigida de forma equitativa a todos os proprietários dos imóveis contidos no perímetro de
+
+intervenção;(Incluído pela Lei nº 17.975/2023)
+
+V - previsão de mecanismos de participação, monitoramento e controle envolvendo obrigatoriamente a sociedade, os proprietários
+
+afetados e o Executivo Municipal;(Incluído pela Lei nº 17.975/2023)
+
+VI - previsão de solução habitacional definitiva dentro do perímetro para a população de baixa renda que estiver inserida no
+
+perímetro do Plano de Reordenamento Urbanístico Integrado.(Incluído pela Lei nº 17.975/2023)
+
+Art. 134-A. O Executivo Municipal poderá elaborar ou autorizar a elaboração de Planos de Intervenção Urbana – PIU, a pedido dos
+
+proprietários, por meio de manifestação de interesse privado – MIP ou por manifestação de outros entes federativos, assegurada a
+
+compatibilidade com a Política Urbana do Município.(Incluído pela Lei nº 17.975/2023)
+
+Parágrafo único. Os Planos de Intervenção Urbana elaborados por entes privados ou outros entes federativos serão coordenados
+
+pelo Executivo Municipal, que deve avalizar o interesse público da iniciativa, orientar a elaboração dos estudos técnicos, promover
+
+a devida participação social e consolidar as propostas em regulação específica.(Incluído pela Lei nº 17.975/2023)
+
+Art. 135. Para promover os objetivos estabelecidos no art. 134 fica a Prefeitura autorizada a constituir ou delegar instituição de
+
+fundo de investimento imobiliário, instituído nos termos da Lei Federal nº 8.668, de 25 de junho de 1993, ou legislação que venha a
+
+sucedê-la, com as seguintes finalidades:
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 64/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+I – instalar a infraestrutura necessária à implantação dos planos urbanísticos e projetos de intervenção urbana;
+
+II – viabilizar eventuais desapropriações;
+
+III – viabilizar a utilização do Reordenamento Urbanístico Integrado;
+
+IV – realizar incorporações imobiliárias;
+
+V – implantar projetos de Habitação de Interesse Social e equipamentos sociais.
+
+Subseção I
+
+Dos Projetos de Intervenção Urbana
+
+Art. 136. Os Planos de Intervenção Urbana de Ordenamento e Reestruturação Territorial objetivam apresentar estudos técnicos
+
+para a transformação e qualificação urbanística, econômica e ambiental de territórios estratégicos para o desenvolvimento urbano
+
+do município, de modo a subsidiar a definição dos instrumentos de ordenamento e reestruturação urbana referidos no art. 134
+
+desta Lei mais adequados à implementação das intervenções propostas.(Redação dada pela Lei nº 17.975/2023)
+
+§ 1º O resultado dos estudos técnicos produzidos por meio do PIU – Ordenamento, assegurada a participação social, deverá
+
+indicar os objetivos prioritários da intervenção e as propostas relativas a aspectos urbanísticos, ambientais, sociais, econômico-
+
+financeiros e gestão democrática, podendo abordar, de acordo com o caso:(Redação dada pela Lei nº 17.975/2023)
+
+I - estudo do perímetro para a realização do Projeto de Intervenção Urbana;(Redação dada pela Lei nº 17.975/2023)
+
+II - indicações, por meio de mapas, desenhos ou outras formas de representação visual, das intervenções propostas;(Redação
+
+dada pela Lei nº 17.975/2023)
+
+III - indicações, por meio de quadros, mapas, desenhos ou outras formas de representação visual, dos parâmetros de controle do
+
+uso, ocupação e parcelamento do solo propostos, quando aplicável, para o perímetro do Projeto de Intervenção Urbana;(Redação
+
+dada pela Lei nº 17.975/2023)
+
+IV - intervenções urbanas para melhorar as condições urbanas, ambientais, morfológicas, paisagísticas, físicas e funcionais dos
+
+espaços públicos;(Redação dada pela Lei nº 17.975/2023)
+
+V - atendimento das necessidades habitacionais e sociais da população de baixa renda residente na área, afetada ou não pelas
+
+intervenções mencionadas no inciso anterior, com prioridade para o atendimento das famílias moradoras de favelas e cortiços que
+
+possam ser realocadas;(Redação dada pela Lei nº 17.975/2023)
+
+VI - instalação de serviços, equipamentos e infraestruturas urbanas a serem ofertadas a partir das demandas existentes, do
+
+incremento de novas densidades habitacionais e construtivas e da transformação nos padrões de uso e ocupação do solo;
+
+(Redação dada pela Lei nº 17.975/2023)
+
+VII - soluções para as áreas de risco e com solos contaminados;(Redação dada pela Lei nº 17.975/2023)
+
+VIII - estudo sobre a viabilidade econômica das intervenções propostas na modelagem urbanística com estimativas de custo,
+
+previsão das dificuldades de execução e avaliação dos impactos positivos e negativos decorrentes das intervenções propostas
+
+sobre a economia local;(Redação dada pela Lei nº 17.975/2023)
+
+IX - estratégias de financiamento das intervenções previstas na modelagem urbanística, com identificação de fontes de recursos
+
+passíveis de serem utilizadas e proposta, se for o caso, de parcerias com outras esferas do setor público e com o setor privado
+
+para a implantação das intervenções previstas;(Redação dada pela Lei nº 17.975/2023)
+
+X - priorização do atendimento das necessidades sociais, da realização das intervenções urbanas e da realização dos
+
+investimentos previstos;(Redação dada pela Lei nº 17.975/2023)
+
+XI - etapas e fases de implementação da intervenção urbana;(Redação dada pela Lei nº 17.975/2023)
+
+XII - instrumentos para a democratização da gestão da elaboração e implementação dos projetos de intervenção urbana, com
+
+mecanismos de participação e controle social;(Redação dada pela Lei nº 17.975/2023)
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 65/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+XIII - instrumentos para o monitoramento e avaliação dos impactos da intervenção urbana.(Redação dada pela Lei nº 17.975/2023)
+
+§ 2º O PIU – Ordenamento poderá estabelecer requisitos adicionais para os instrumentos de ordenamento e reestruturação
+
+urbana, a depender das características e escalas de cada intervenção proposta.(Redação dada pela Lei nº 17.975/2023)
+
+§ 3º Lei específica poderá autorizar a Prefeitura a estabelecer, nos perímetros a serem objeto de PIUs de Ordenamento e
+
+Reestruturação Urbana, medidas preventivas destinadas a evitar a alteração das circunstâncias e das condições de fato existentes
+
+que possam comprometer ou tornar mais onerosa as intervenções necessárias para o local.(Incluído pela Lei nº 17.975/2023)
+
+§ 4º As medidas preventivas referidas no § 3º serão apenas as necessárias para a garantia da integridade dos instrumentos de
+
+ordenamento e reestruturação urbana, respeitando-se os alvarás de execução já expedidos pela Municipalidade.(Incluído pela Lei
+
+nº 17.975/2023)
+
+§ 5º No caso de sobreposição entre perímetros de PIU – Ordenamento e perímetros de ZEIS 1 e 3, a população moradora dessas
+
+áreas poderá participar do PIU através dos instrumentos de participação social definidos em sua elaboração ou através do
+
+Conselho Gestor de ZEIS.(Incluído pela Lei nº 17.975/2023)
+
+§ 6º No caso de sobreposição entre perímetros de PIU – Ordenamento e Planos de Ação Integrada, estes deverão ser elaborados
+
+de forma articulada às disposições do PIU para que as ações previstas componham o programa de intervenções do Plano de
+
+Intervenção Urbana.(Incluído pela Lei nº 17.975/2023)
+
+§ 7º No caso de sobreposição entre perímetros de PIU – Ordenamento e Planos de Urbanização de ZEIS 1, Projetos de
+
+Intervenção de ZEIS 3 e Planos de Ação Integrada já executados, as ações previstas nestes planos devem ser absorvidas pelo
+
+Plano de Intervenção Urbana.(Incluído pela Lei nº 17.975/2023)
+
+Art. 136-A. Os estudos técnicos que compõem os PIUs de Zonas de Ocupação Especial (ZOE) - PIU – ZOE - objetivam a fixação
+
+de parâmetros específicos de parcelamento, uso e ocupação do solo adequados às especificidades da ocupação especial,
+
+considerando as características de seu contexto urbano, assegurada a participação social em sua elaboração.(Incluído pela Lei nº
+
+17.975/2023)
+
+§ 1º Os PIUs – ZOE serão aprovados por decreto, observados os coeficientes de aproveitamento estabelecidos por macroárea
+
+conforme Quadro 2A desta Lei, ou estabelecidos por lei específica.(Incluído pela Lei nº 17.975/2023)
+
+§ 2º O PIU – ZOE que apresentar um programa de intervenções urbanísticas com mecanismos de financiamento deve contar com
+
+instrumento de ordenamento e reestruturação urbana e seu respectivo modelo de gestão democrática para o controle social de sua
+
+implantação.(Incluído pela Lei nº 17.975/2023)
+
+§ 3º O PIU – ZOE deve ser elaborado previamente ao desencadeamento de procedimentos visando à concessão de uso de
+
+equipamentos públicos e sociais localizados em Zonas de Ocupação Especial.(Incluído pela Lei nº 17.975/2023)
+
+Subseção II
+
+Das Operações Urbanas Consorciadas
+
+Art. 137. A Prefeitura poderá realizar Operações Urbanas consorciadas, de acordo com a Lei Federal nº 10.257, de 2001, com o
+
+objetivo de promover, em um determinado perímetro, transformações urbanísticas estruturais, melhorias sociais e valorização
+
+ambiental, previstas no Projeto de Intervenção Urbanística elaborado para a área.
+
+Parágrafo único. Novas operações urbanas consorciadas poderão ser criadas, por lei específica, apenas na Macroárea de
+
+Estruturação Metropolitana, com prioridade para a realização de estudos nos seguintes subsetores:
+
+I – Arco Tamanduateí;
+
+II – Arco Tietê;
+
+III – Arco Jurubatuba;
+
+IV – Arco Pinheiros.
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 66/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+Art. 138. As Operações Urbanas Consorciadas têm por finalidade:
+
+I – otimizar a ocupação de áreas subutilizadas, por meio de intervenções urbanísticas;
+
+II – implantar equipamentos estratégicos para o desenvolvimento urbano;
+
+III – ampliar e melhorar o sistema de transporte coletivo, as redes de infraestrutura e o sistema viário estrutural;
+
+IV – promover a recuperação ambiental de áreas contaminadas e áreas passíveis de inundação;
+
+V – implantar equipamentos públicos sociais, espaços públicos e áreas verdes;
+
+VI – promover Empreendimentos de Habitação de Interesse Social e urbanizar e regularizar assentamentos precários;
+
+VII – proteger, recuperar e valorizar o patrimônio ambiental, histórico e cultural;
+
+VIII – promover o desenvolvimento econômico e a dinamização de áreas visando à geração de empregos.
+
+Art. 139. A lei específica que regulamentar cada Operação Urbana Consorciada poderá prever, mediante contrapartida:
+
+I – a modificação de índices e características de parcelamento, uso e ocupação do solo e subsolo, bem como alterações das
+
+normas edilícias;
+
+II – formas de regularização de edificações executadas em desacordo com a legislação vigente.
+
+§ 1º (VETADO)
+
+§ 2º Os Planos Regionais das subprefeituras deverão observar o disposto nas respectivas leis de operações urbanas consorciadas
+
+nos perímetros localizados em seu território de abrangência.
+
+Art. 140. Nos perímetros de abrangência delimitados pelas leis específicas de criação das operações urbanas consorciadas, a
+
+outorga onerosa do potencial construtivo adicional será regida, exclusivamente, pelas disposições de suas leis específicas.
+
+Art. 141. A lei específica que regulamentar cada Operação Urbana Consorciada deve atender aos objetivos e diretrizes
+
+estabelecidos nesta lei e conter no mínimo:
+
+I – delimitação do perímetro de abrangência da Operação Urbana Consorciada;
+
+II – delimitação do perímetro expandido no qual serão realizados investimentos, com recursos da própria Operação Urbana
+
+Consorciada, que atendam às necessidades habitacionais da população de baixa renda e melhorem as condições dos sistemas
+
+ambientais, de drenagem, de saneamento e de mobilidade, entre outros;
+
+III – finalidade da Operação Urbana Consorciada;
+
+IV – plano urbanístico;
+
+V – programa básico de intervenções urbanas articulado com as finalidades da Operação Urbana Consorciada e com o seu plano
+
+urbanístico;
+
+VI – estudo prévio de impacto ambiental, de vizinhança, quando couber, associado aos estudos necessários à área de intervenção;
+
+VII - programa de atendimento econômico, social e habitacional para a população diretamente afetada pela Operação Urbana
+
+Consorciada, mediante elaboração, pelo órgão competente da política habitacional, de Plano de Reassentamento e aprovação pela
+
+população a ser removida, nos termos dos arts. 134, 291 e 292 desta Lei;(Redação dada pela Lei nº 17.975/2023)
+
+VIII – previsão de glebas e terrenos para a produção habitacional de interesse social dentro de seu perímetro de abrangência ou
+
+perímetro expandido;
+
+IX – a regulamentação das condições específicas de aplicação do parcelamento, edificação e utilização compulsórias para glebas,
+
+lotes e edificações subutilizadas, não utilizadas e não edificadas, de acordo com o previsto nesta lei;
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 67/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+X – mecanismos de garantia de preservação dos imóveis e espaços urbanos de especial valor histórico, cultural, arquitetônico,
+
+paisagístico e ambiental, protegidos por tombamento ou lei;
+
+XI – instrumentos urbanísticos complementares e de gestão ambiental a serem utilizados na implantação da Operação Urbana
+
+Consorciada;
+
+XII – contrapartidas a serem exigidas dos proprietários, usuários permanentes e investidores privados em função dos benefícios
+
+recebidos;
+
+XIII – estoques de potencial construtivo adicional;
+
+XIV – forma de controle e gestão da operação urbana consorciada, com a previsão de um conselho gestor paritário, formado por
+
+representantes do Poder Público e da sociedade civil;
+
+XV – fundo específico que deverá receber os recursos de contrapartidas financeiras e correntes dos benefícios urbanísticos
+
+concedidos;
+
+XVI – regras de transição do regime jurídico da operação urbana consorciada para o regime jurídico ordinário da Lei de
+
+Parcelamento, Uso e Ocupação do Solo, aplicáveis ao final de cada Operação Urbana Consorciada.
+
+XVII - para as Operações Urbanas Consorciadas preexistentes em vigor, as regras de transição aplicáveis para sua finalização
+
+deverão ser definidas por lei específica.(Incluído pela Lei nº 17.975/2023)
+
+§ 1º O perímetro expandido mencionado no inciso II poderá extrapolar os limites da Macroárea de Estruturação Metropolitana.
+
+(Renumerado pela Lei nº 17.975/2023)
+
+§ 2º As áreas e as condições de reassentamento das famílias removidas nos termos do inciso VII deste artigo serão definidos por
+
+SEHAB, garantidos os parâmetros estabelecidos nesta Lei.(Incluído pela Lei nº 17.975/2023)
+
+§ 3º Nas Operações Urbanas Consorciadas preexistentes em vigor, bem como nas leis específicas que disciplinam cada nova
+
+operação urbana consorciada aprovadas durante a vigência desta Lei, a utilização de potencial construtivo adicional à implantação
+
+de Empreendimentos de Habitação de Interesse Social - EHIS e Empreendimentos em ZEIS - EZEIS e ao uso HIS não consome
+
+qualquer estoque de área adicional de construção previsto, mesmo que exista previsão expressa em sentido contrário na
+
+respectiva Lei específica.(Incluído pela Lei nº 18.209/2024)
+
+Art. 142. Os recursos obtidos pelo Poder Público na forma do inciso XII do artigo anterior serão aplicados exclusivamente na
+
+implantação do Programa De Intervenções Urbanas previsto na lei de criação da Operação Urbana Consorciada.
+
+§ 1º No mínimo 35% (trinta e cinco por cento) dos recursos arrecadados deverão ser aplicados em Habitação de Interesse Social,
+
+de forma prioritária dentro do programa de intervenções, ao longo de toda a vigência da Operação Urbana Consorciada,
+
+preferencialmente para a aquisição de glebas e lotes, ações de urbanização e regularização fundiária em assentamentos precários
+
+e locação social previstos no programa de intervenções.(Redação dada pela Lei nº 17.975/2023)
+
+§ 2º Os recursos a que se refere o § 1º deverão ser em sua origem depositados em conta específica.
+
+Art. 143. A lei específica que criar a Operação Urbana Consorciada poderá prever a emissão pelo Município de quantidade
+
+determinada de Certificados de Potencial Adicional de Construção – CEPAC, que serão alienados em leilão ou utilizados
+
+diretamente no pagamento das obras, das desapropriações necessárias à implantação do programa de intervenções, bem como
+
+oferecidos em garantia para obtenção de financiamentos para a implementação da operação.
+
+§ 1º Os Certificados de Potencial Adicional de Construção – CEPAC serão livremente negociados, mas convertidos em direito de
+
+construir unicamente na área objeto da Operação Urbana Consorciada.
+
+§ 2º A vinculação dos Certificados de Potencial Adicional de Construção – CEPAC poderá ser realizada no ato da aprovação de
+
+projeto de edificação específico para o terreno.
+
+§ 3º A pedido do interessado os Certificados de Potencial Adicional de Construção – CEPAC poderão ser vinculados diretamente ao
+
+terreno, de modo desvinculado da aprovação da edificação, o que deverá ser objeto de certidão.
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 68/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+§ 4º Apresentado pedido de licença para construir ou para modificação de uso, os Certificados de Potencial Adicional de
+
+Construção – CEPAC serão utilizados no pagamento da contrapartida correspondente aos benefícios urbanísticos concedidos,
+
+respeitados os limites estabelecidos nas leis de cada Operação Urbana Consorciada.
+
+§ 5º A lei a que se refere o “caput” deverá estabelecer:
+
+I – a quantidade de Certificados de Potencial Construtivo Adicional de Construção – CEPAC a ser emitida, obrigatoriamente
+
+proporcional ao estoque de potencial construtivo adicional previsto para a Operação Urbana Consorciada e de acordo com critérios
+
+de flexibilização de parâmetros e regularizações previstas na OUC;
+
+II – o valor mínimo do CEPAC;
+
+III – as formas de cálculo das contrapartidas;
+
+IV – as formas de conversão e equivalência dos CEPAC em metros quadrados de potencial construtivo adicional e de metros
+
+quadrados de terreno de alteração de uso;
+
+V – o limite mínimo dos recursos destinados para aquisição de terrenos para implantação de Empreendimentos de Habitação de
+
+Interesse Social.
+
+§ 6º A Prefeitura poderá estabelecer mecanismos que estimulem a implementação do Projeto de Intervenção Urbana da operação
+
+urbana por meio da vinculação dos CEPACs, podendo prever estímulos e desestímulos em função do tempo decorrido entre o
+
+leilão do CEPAC e a sua vinculação.
+
+§ 7º A Prefeitura editará norma geral regulamentando as operações relativas aos Certificados de Potencial Construtivo Adicional de
+
+Construção – CEPAC.
+
+Subseção III
+
+Da Concessão Urbanística
+
+Art. 144. Com base em autorização legislativa específica, poderá ser realizada concessão para implantar Projeto de Intervenção
+
+Urbana elaborado pelo Poder Público, consideradas as diretrizes do Plano Diretor Estratégico.
+
+§ 1º A implantação poderá ser delegada à empresa estatal municipal ou, mediante licitação, a empresa ou a conjunto de empresas
+
+em consórcio.
+
+§ 2º O Projeto de Intervenção Urbana a que faz referência o “caput” deverá ser elaborado pelo Executivo previamente à solicitação
+
+de autorização à Câmara Municipal.
+
+§ 3º A concessionária poderá obter sua remuneração mediante exploração:
+
+I – dos terrenos;
+
+II – do potencial construtivo a ser utilizado na implantação do Projeto de Intervenção Urbana;
+
+III – das edificações destinadas a usos privados que resultarem da obra realizada;
+
+IV – da renda derivada da exploração de espaços públicos;
+
+V – das receitas acessórias, nos termos que forem fixados no respectivo edital de licitação e contrato de concessão urbanística.
+
+§ 4º A intervenção nos imóveis particulares para a implantação do Projeto de Intervenção Urbana, elaborado pelo Executivo
+
+dependerá de prévia negociação com os proprietários dos imóveis diretamente atingidos que, desde que compatível com a
+
+intervenção planejada, poderão ser convidados a realizar, por conta própria, nos termos e condições determinadas pela delegação
+
+realizada pelo Poder Público ou do competente edital de licitação, a intervenção proposta.
+
+§ 5º (VETADO)
+
+§ 6º A concessão urbanística fica sujeita ao regime jurídico federal das concessões comuns e das parcerias público-privadas, com
+
+as complementações constantes da legislação específica estadual e municipal.
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 69/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+§ 7º Deverá ser constituído Conselho Gestor próprio, paritário, com representantes do Poder Público e da sociedade civil para
+
+controle social e acompanhamento contínuo de cada concessão urbanística.
+
+Subseção IV
+
+Das Áreas de Intervenção Urbana (AIU)
+
+Art. 145. As áreas de intervenção urbana são porções de território definidas em lei destinadas à reestruturação, transformação,
+
+recuperação e melhoria ambiental de setores urbanos com efeitos positivos na qualidade de vida, no atendimento às necessidades
+
+sociais, na efetivação de direitos sociais e na promoção do desenvolvimento econômico, previstas no Projeto de Intervenção
+
+Urbanística elaborado para a área.
+
+§ 1º São territórios passíveis de serem qualificados como áreas de intervenção urbana os perímetros que se caracterizem como:
+
+I – áreas urbanizadas que demandem recuperação, reabilitação ou requalificação para aplicação de programas de
+
+desenvolvimento econômico;
+
+II – áreas com existência de relevantes concentrações de imóveis não utilizados ou subutilizados;
+
+III – áreas com processos de expansão urbana e de mudanças nos padrões de uso e ocupação do solo em larga escala;
+
+IV – áreas compatíveis com processos de remodelagem e reestruturação urbana, econômica, social e ambiental;
+
+V – áreas com relevantes conjuntos arquitetônicos e urbanísticos com valor histórico e cultural;
+
+VI – perímetros de ZEIS 3, destinados a requalificação urbana com prioridade para a implantação de HIS;
+
+VII – qualificação de áreas de acordo com os objetivos da Rede Hídrica e Ambiental, incluindo os parques propostos e seus
+
+entornos.
+
+§ 2º As áreas de intervenção urbana deverão ser propostas pelo Executivo e geridas com a participação dos proprietários,
+
+moradores, usuários permanentes e investidores públicos e privados, promovendo formas de ocupação mais intensa, qualificada e
+
+inclusiva do espaço urbano combinadas com medidas que promovam o desenvolvimento econômico, racionalizem e democratizem
+
+a utilização das redes de infraestrutura e a preservação dos sistemas ambientais.
+
+§ 3º As leis específicas que regulamentarão as áreas de intervenção urbana conterão, no mínimo:
+
+I – finalidade e delimitação do perímetro de abrangência da AIU;
+
+II – Projeto de Intervenção Urbana, com a definição das intervenções propostas que atendam as demandas sociais e equacionem
+
+os problemas urbanísticos existentes ou decorrentes da implantação de novas infraestruturas, respeitando e integrando as áreas
+
+de valor histórico, cultural e ambiental;
+
+III – parâmetros específicos para o controle do uso e ocupação do solo no perímetro da área de intervenção urbana;
+
+IV – mecanismos de recuperação, para a coletividade, de parte da valorização de imóveis urbanos decorrentes dos investimentos
+
+realizados pelo Poder Público e para a promoção da justa distribuição dos ônus e benefícios decorrentes do processo de
+
+urbanização;
+
+V – instrumentos de controle social para a democratização da gestão, com a previsão de um conselho gestor paritário, formado por
+
+representantes do Poder Público e da sociedade civil;
+
+VI – propostas para ofertar serviços, equipamentos e infraestruturas urbanas articuladas com o incremento de novas densidades
+
+habitacionais e construtivas e com a transformação nos padrões de uso e ocupação do solo;
+
+VII – mecanismos para integração de políticas setoriais de diferentes níveis de governo, em especial relacionada com os elementos
+
+estruturadores do território;
+
+VIII – mecanismos para a implantação compartilhada das intervenções propostas e de arrecadação de receitas mediante parcerias
+
+do Poder Público com o setor privado;
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 70/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+IX – soluções para a provisão de Habitação de Interesse Social para a população de baixa renda residente dentro das áreas de
+
+intervenção urbana ou em sua vizinhança, com prioridade para o atendimento das necessidades habitacionais das famílias
+
+moradoras de favelas e cortiços, que possam ser realocadas, e das pessoas que ocupam logradouros e praças públicas;
+
+X – regulamentação das condições específicas de aplicação do parcelamento, edificação e utilização compulsórias para glebas,
+
+lotes e edificações subutilizadas, não utilizadas e não edificadas, de acordo com o previsto nesta lei;
+
+XI – mecanismos de garantia de preservação dos imóveis e espaços urbanos de especial valor histórico, cultural, arquitetônico,
+
+paisagístico e ambiental, protegidos por tombamento ou lei, quando couber.
+
+§ 4º Até a aprovação das leis específicas de cada Área de Intervenção Urbana, prevalecem as condições estabelecidas pela
+
+legislação de Parcelamento, Uso e Ocupação do Solo.
+
+§ 5º As leis específicas que regulamentarão as Áreas de Intervenção Urbana poderão definir:
+
+I – valor específico para a outorga onerosa do direito de construir, mediante Fp e Fs próprios;
+
+II – possibilidade de realização de leilão de outorga onerosa do direito de construir;
+
+III – conta segregada no Fundo de Desenvolvimento Urbano – FUNDURB para vincular o investimento do valor arrecadado nos
+
+perímetros de abrangência e expandido;
+
+IV – delimitação do perímetro expandido no qual serão realizados investimentos, com recursos da própria AIU, que atendam às
+
+necessidades habitacionais da população de baixa renda e melhorem as condições dos sistemas ambientais, de drenagem, de
+
+saneamento e de mobilidade, entre outros.
+
+Art. 146. No caso de criação de conta segregada, conforme previsto no inciso III do § 5º do artigo anterior, os recursos serão
+
+aplicados exclusivamente na implantação do Programa De Intervenções Urbanas previsto na lei de criação da Área de Intervenção
+
+Urbana.
+
+Parágrafo único. No mínimo 35% (trinta e cinco por cento) dos recursos arrecadados deverão ser aplicados em Habitação de
+
+Interesse Social, em conta segregada da AIU, para aplicação no perímetro de abrangência ou em seu perímetro expandido, ou no
+
+FUNDURB, em sua conta segregada para Habitação de Interesse Social, preferencialmente para a aquisição de glebas e terras,
+
+implantação de infraestrutura e equipamentos sociais para atender a população moradora.(Redação dada pela Lei nº 17.975/2023)
+
+Art. 147. Cada Área de Intervenção Urbana poderá prever a quantidade de potencial construtivo adicional utilizável em seu
+
+perímetro de intervenção, com base na estrutura, forma, paisagem, características e funções urbanas previstas para o local bem
+
+como nos parâmetros de uso, ocupação, parcelamento e edificação propostos.
+
+Art. 148. (Revogado pela Lei nº 17.975/2023)
+
+Subseção V
+
+Das Áreas de Estruturação Local (AEL)
+
+Art. 149. As Áreas de Estruturação Local são porções do território destinadas à transformação urbana local mediante integração de
+
+políticas públicas setoriais, associadas à Rede de Estruturação da Transformação Urbana, implantadas por meio de Projetos de
+
+Intervenção Urbana, destinadas ao desenvolvimento urbano especialmente nas áreas de maior vulnerabilidade social e ambiental.
+
+§ 1º São objetivos das Áreas de Estruturação Local:
+
+I – qualificação integrada de desenvolvimento local, associando medidas de reestruturação fundiária e promoção de infraestrutura e
+
+equipamentos urbanos e sociais;
+
+II – qualificação da oferta de Habitação de Interesse Social, promovendo regularização urbanística e fundiária de assentamentos
+
+precários, considerando a necessidade de reassentamento de populações que residem em áreas de risco, de forma integrada às
+
+melhorias urbanas e ambientais;
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 71/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+III – integração do desenvolvimento urbano local com o Sistema de Transporte Coletivo, garantindo a acessibilidade pela previsão
+
+de novas conexões e transposições, considerando modos motorizados e não motorizados, com previsão de transporte vertical
+
+mecanizado, tais como teleféricos, funiculares, elevadores e escadas rolantes, quando couber;
+
+IV – ampliação da oferta de equipamentos urbanos e sociais, articulando-os no território à rede existente;
+
+V – qualificação e fortalecimento das centralidades locais por meio de sua articulação aos equipamentos urbanos e sociais,
+
+habitação, áreas verdes, saneamento e mobilidade local;
+
+VI – adensamento qualificado de porções do território e, ao mesmo tempo, o aumento de áreas livres e áreas verdes, com percurso
+
+para pedestres e áreas de lazer;
+
+VII – mecanismos de gestão e participação articulados aos Conselhos Gestores de ZEIS e instâncias de representação vinculadas
+
+às Subprefeituras.
+
+§ 2º Os Projetos de Intervenção Urbana das Áreas de Estruturação Local devem estar em consonância aos Planos Regionais
+
+Estratégicos, aos Planos de Bairro e aos planos setoriais das políticas dos Sistemas Urbanos e Ambientais.
+
+§ 3º A priorização dos projetos deverá considerar o grau de precariedade urbana e ambiental e de vulnerabilidade social.
+
+Seção IV
+
+Dos Instrumentos de Gestão Ambiental
+
+Subseção I
+
+Do Estudo e Relatório de Impacto Ambiental
+
+Art. 150. A localização, construção, instalação, ampliação, modificação e operação de empreendimentos e atividades utilizadoras
+
+de recursos ambientais, considerados efetiva ou potencialmente poluidores, bem como os empreendimentos e atividades capazes,
+
+sob qualquer forma, de causar significativas transformações urbanísticas e degradação ambiental, dependerão de prévio
+
+licenciamento do órgão ambiental municipal competente, sem prejuízo de outras licenças legalmente exigíveis.
+
+§ 1º A Licença Ambiental para empreendimentos ou atividades descritas no “caput” deste artigo será emitida somente após a
+
+avaliação do prévio Estudo de Impacto Ambiental e respectivo Relatório de Impacto sobre o Meio Ambiente (EIA/RIMA).
+
+§ 2º O estudo a ser apresentado para a solicitação da Licença Ambiental deverá contemplar, entre outros, os seguintes itens:
+
+I – definição das áreas de influência direta e indireta;
+
+II – diagnóstico ambiental da área;
+
+III – descrição da ação proposta e suas alternativas;
+
+IV – identificação, análise e previsão dos impactos significativos, positivos e negativos;
+
+V – avaliação dos impactos acumulados e sinérgicos pela intervenção proposta e a saturação dos índices urbanísticos da área;
+
+VI – proposição das medidas compensatórias dos impactos ambientais negativos, para aprovação da SVMA, respeitado o disposto
+
+na legislação federal e estadual;
+
+VII – definição das medidas mitigadoras dos impactos negativos, bem como daquelas intensificadoras dos impactos positivos;
+
+VIII – planejamento de espaços para instalação de galerias para uso compartilhado de serviços públicos, inclusive centrais de
+
+produção de utilidades energéticas localizadas.
+
+§ 3º Até a edição de ato normativo que defina os empreendimentos e atividades sujeitos ao licenciamento ambiental, bem como os
+
+procedimentos e critérios aplicáveis, deverá ser adotada a Resolução nº 61 do Conselho Municipal de Meio Ambiente e
+
+Desenvolvimento Sustentável – CADES, de 5 de outubro de 2001 e Portaria nº 80, de 2007, da Secretaria Municipal do Verde e do
+
+Meio Ambiente, ou outro ato que vier a substituí-la.
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 72/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+§ 4º Para empreendimentos sujeitos ao licenciamento ambiental situados no interior de unidades de conservação de uso
+
+sustentável ou na zona de amortecimento de unidades de conservação de proteção integral, as medidas mitigadoras e
+
+compensatórias deverão atender ao disposto nos seus planos de manejo, priorizando a viabilização de ações e projetos previstos,
+
+e sujeitas à aprovação dos respectivos Conselhos Gestores.
+
+§ 5º Os impactos decorrentes de empreendimentos e atividades sujeitos à avaliação de EIA/RIMA deverão ser objeto de
+
+monitoramento pelo Executivo.
+
+Subseção II
+
+Do Estudo e Relatório de Impacto de Vizinhança
+
+Art. 151. A construção, ampliação, instalação, modificação e operação de empreendimentos, atividades e intervenções urbanísticas
+
+causadoras de impactos ambientais, culturais, urbanos e socioeconômicos de vizinhança estarão sujeitos à avaliação do Estudo de
+
+Impacto de Vizinhança e seu respectivo Relatório de Impacto de Vizinhança (EIV/RIV) por parte do órgão municipal competente,
+
+previamente à emissão das licenças ou alvarás de construção, reforma ou funcionamento.
+
+§ 1º Lei municipal definirá os empreendimentos, atividades e intervenções urbanísticas, públicos ou privados, referidos no “caput”
+
+deste artigo, que deverão ser objeto de Estudos e Relatórios de Impacto de Vizinhança durante o seu processo de licenciamento
+
+urbano e ambiental.
+
+§ 2º A lei municipal mencionada no parágrafo anterior deverá detalhar os objetivos do EIV/RIV e definir os seus parâmetros,
+
+procedimentos, prazos de análise, competência, conteúdos e formas de gestão democrática a serem adotadas na sua elaboração,
+
+análise e avaliação.
+
+§ 3º O Estudo e Relatório de Impacto de Vizinhança tem por objetivo, no mínimo:
+
+I – definir medidas mitigadoras e compensatórias em relação aos impactos negativos de empreendimentos, atividades e
+
+intervenções urbanísticas;
+
+II – definir medidas intensificadoras em relação aos impactos positivos de empreendimentos, atividades e intervenções
+
+urbanísticas;
+
+III – democratizar o processo de licenciamento urbano e ambiental;
+
+IV – orientar a realização de adaptações aos projetos objeto de licenciamento urbano e ambiental, de forma a adequá-los às
+
+características urbanísticas, ambientais, culturais e socioeconômicas locais;
+
+V – assegurar a utilização adequada e sustentável dos recursos ambientais, culturais, urbanos e humanos;
+
+VI – subsidiar processos de tomadas de decisão relativos ao licenciamento urbano e ambiental;
+
+VII – contribuir para a garantia de boas condições de saúde e segurança da população;
+
+VIII – evitar mudanças irreversíveis e danos graves ao meio ambiente, às atividades culturais e ao espaço urbano.
+
+§ 4° O Estudo e Relatório de Impacto de Vizinhança deverão contemplar os efeitos positivos e negativos do empreendimento,
+
+atividade e intervenção urbanística sobre a qualidade de vida da população residente, usuária e circulante na área e em suas
+
+proximidades incluindo, no mínimo, a análise sobre:
+
+I – o adensamento populacional e seus efeitos sobre o espaço urbano e a população moradora e usuária da área;
+
+II – as demandas por serviços, equipamentos e infraestruturas urbanas e comunitárias;
+
+III – as alterações no uso e ocupação do solo e seus efeitos na estrutura urbana;
+
+IV – os efeitos da valorização imobiliária no perfil sócioeconômico da área e da população moradora e usuária;
+
+V – os efeitos na valorização ou desvalorização imobiliária;
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 73/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+VI – a geração de tráfego e de demandas por melhorias e complementações nos sistemas de transporte coletivo e de circulação
+
+não motorizada, em especial de bicicletas e pedestres;
+
+VII – os efeitos da volumetria do empreendimento e das intervenções urbanísticas propostas sobre a ventilação, iluminação,
+
+paisagem urbana, recursos naturais e patrimônios culturais do entorno;
+
+VIII – a geração de poluição ambiental e sonora na área;
+
+IX – as águas superficiais e subterrâneas existentes na área;
+
+X – o acúmulo de impactos urbanos, ambientais, socioeconômicos e culturais gerados tanto pelos empreendimentos, atividades e
+
+intervenções urbanísticas propostas quanto já existentes.
+
+XI - possíveis impactos na segurança pública.(Incluído pela Lei nº 17.975/2023)
+
+§ 5º A elaboração do Estudo e Relatório de Impacto de Vizinhança não substitui a elaboração do Estudo de Impacto Ambiental.
+
+§ 6º Fica mantida a exigência de elaboração de EIV/RIV para empreendimentos, atividades e intervenções urbanísticas, mesmo
+
+que estejam inseridos em áreas de Operações Urbanas Consorciadas e Áreas de Intervenção Urbana que já tenham sido
+
+licenciadas por meio de EIA/RIMA ou outro instrumento de licenciamento ambiental.
+
+§ 7º A Prefeitura deverá exigir dos responsáveis pela realização dos empreendimentos, instalação de atividades e implantação das
+
+intervenções urbanísticas públicas e privadas, obrigados à apresentação do estudo e relatório nos termos do § 1º, a execução das
+
+medidas mitigadoras, compensatórias e adaptativas definidas no EIV/RIV.
+
+§ 8º O EIV/RIV deverá ser objeto de audiência pública promovida pela Prefeitura, previamente à decisão final sobre o seu
+
+licenciamento urbano e ambiental, nos termos do art. 332.
+
+§ 9º (VETADO)
+
+§ 10. Lei específica deverá detalhar os critérios de avaliação do EIV/RIV para o licenciamento de empreendimentos, atividades e
+
+intervenções urbanísticas de qualquer porte, quando situadas em imóveis localizados junto às divisas das terras indígenas
+
+demarcadas ou em processo de demarcação pelo governo.(Incluído pela Lei nº 17.975/2023)
+
+Subseção III
+
+Do Estudo de Viabilidade Ambiental
+
+Art. 152. No processo de licenciamento ambiental de empreendimentos e atividades com médio potencial de degradação
+
+ambiental, conforme regulamentação, o Executivo poderá exigir previamente a elaboração de estudo de viabilidade ambiental.
+
+(Redação dada pela Lei nº 17.975/2023)
+
+Parágrafo único. O estudo de viabilidade ambiental deverá analisar, no mínimo, os possíveis impactos ambientais dos
+
+empreendimentos e atividades mencionados no “caput”, considerando sua abrangência, características e localizações específicas.
+
+Art. 152-A. No processo de licenciamento ambiental de empreendimentos e atividades com baixo potencial de degradação
+
+ambiental, conforme resolução, o Executivo poderá exigir previamente a elaboração de Estudo Ambiental Simplificado – EAS.
+
+(Incluído pela Lei nº 17.975/2023)
+
+Parágrafo único. O Estudo Ambiental Simplificado deverá analisar, no mínimo, os possíveis impactos ambientais dos
+
+empreendimentos e atividades mencionados no caput, considerando sua localização e características específicas.(Incluído pela Lei
+
+nº 17.975/2023)
+
+Subseção IV
+
+Da Avaliação Ambiental Estratégica
+
+Art. 153. O Executivo, caso julgue necessário, poderá realizar a Avaliação Ambiental Estratégica (AAE) com o objetivo de auxiliar,
+
+antecipadamente, os tomadores de decisões no processo de identificação e avaliação dos impactos e efeitos que a implementação
+
+de políticas, planos ou programas pode desencadear na sustentabilidade ambiental, social, econômica e urbana.
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 74/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+§ 1º A AAE poderá ser realizada de forma participativa e se constitui em processo contínuo, devendo ser realizada previamente à
+
+implementação de políticas, planos e programas.
+
+§ 2º Ato do Executivo regulamentará a abrangência da aplicação da AAE e os conteúdos, parâmetros, procedimentos e formas de
+
+gestão democrática a serem observados na sua elaboração, análise e avaliação.
+
+Subseção V
+
+Do Termo de Compromisso Ambiental
+
+Art. 154. O Termo de Compromisso Ambiental (TCA) é instrumento a ser firmado entre o órgão municipal integrante do SISNAMA e
+
+pessoas físicas ou jurídicas, referente a contrapartidas, obrigações e compensações nos casos de:
+
+I – autorização prévia para supressão de espécies arbóreas;
+
+II – intervenções em área de preservação permanente, com ou sem manejo arbóreo;
+
+III – licenciamento ambiental de empreendimentos com significativa emissão de gases de efeito estufa;
+
+IV – transferência do potencial construtivo sem previsão de doação de área, aplicada a imóveis grafados como ZEPAM localizados
+
+na Macrozona de Estruturação Urbana.
+
+§ 1º No caso previsto no inciso I, deverão ser estabelecidos critérios específicos para áreas enquadradas como ZEPAM.
+
+§ 2º No caso previsto no inciso III, a compensação das emissões deverá ser condicionada à apresentação de um plano de
+
+mitigação de emissões, devendo ser estabelecido, por Ato do Executivo, os critérios para esta compensação.
+
+§ 3º As obrigações, contrapartidas e compensações de empreendimentos situados no interior de unidades de conservação de uso
+
+sustentável ou na zona de amortecimento de unidades de conservação de proteção integral, as medidas mitigadoras e
+
+compensatórias deverão atender ao disposto nos seus planos de manejo, priorizando a viabilização de ações e projetos previstos
+
+no mesmo, e sujeitas à aprovação dos respectivos Conselhos Gestores.
+
+Art. 155. Esgotadas as possibilidades de realização da compensação ambiental no local do empreendimento, nos casos previstos
+
+nos incisos I e II do artigo anterior, esta poderá ser convertida em recursos financeiros, que deverão ser obrigatoriamente
+
+depositados no Fundo Especial de Meio Ambiente e Desenvolvimento Sustentável (FEMA).
+
+Parágrafo único. Nos casos previstos no “caput” deste artigo os recursos deverão ser prioritariamente aplicados para a viabilização
+
+da implantação de áreas verdes públicas, e para a implantação do instrumento do Pagamento por Serviços Ambientais, em
+
+conformidade com o art. 158 e os pressupostos do Sistema Municipal de Áreas Protegidas, Espaços Livres e Áreas Verdes,
+
+definidos nesta lei.
+
+Subseção VI
+
+Do Termo de Compromisso de Ajustamento de Conduta Ambiental
+
+Art. 156. Para cumprimento do disposto nesta Lei, o órgão ambiental municipal poderá celebrar, com força de título executivo
+
+extrajudicial, nos termos da legislação municipal, Termo de Ajustamento de Conduta Ambiental – TAC com pessoas físicas e
+
+jurídicas responsáveis pela construção, instalação, ampliação e funcionamento de estabelecimentos e atividades utilizadores de
+
+recursos ambientais, considerados, efetiva ou potencialmente, poluidores, ou, ainda, com terceiros interessados na promoção da
+
+reparação.(Redação dada pela Lei nº 17.975/2023)
+
+Parágrafo único. O Termo de Ajustamento de Conduta Ambiental – TAC tem por objetivo precípuo a recuperação do meio ambiente
+
+degradado, ou, não sendo possível, a reparação do meio ambiente degradado, mediante a fixação de obrigações e condicionantes
+
+técnicos que deverão ser rigorosamente cumpridas pelo infrator em relação à atividade degradadora a que deu causa, de modo a
+
+cessar, adaptar, recompor, corrigir ou minimizar seus efeitos negativos sobre o meio ambiente.(Redação dada pela Lei nº
+
+17.975/2023)
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 75/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+Art. 157. O Termo de Ajustamento de Conduta Ambiental – TAC é um instrumento com efeito de título executivo extrajudicial, que
+
+tem como objetivo a recuperação do meio ambiente degradado ou o condicionamento de situação de risco potencial a integridades
+
+ambientais, por meio da fixação de obrigações e condicionantes técnicos, estabelecidos pelo órgão ambiental municipal.(Redação
+
+dada pela Lei nº 17.975/2023)
+
+§ 1º O Termo de Ajustamento de Conduta Ambiental poderá ser realizado, nos termos da Lei Federal, com pessoas físicas e
+
+jurídicas responsáveis por ocasionar danos ambientais, que deverão cumprir rigorosamente as obrigações e condicionantes
+
+referidas no parágrafo anterior de modo a cessar, adaptar, recompor, corrigir ou minimizar os efeitos negativos do dano ambiental
+
+ocasionado.
+
+§ 2º As obrigações e condicionantes técnicos decorrentes de empreendimentos situados no interior de unidades de conservação de
+
+uso sustentável ou na zona de amortecimento de unidades de conservação de proteção integral, as medidas mitigadoras e
+
+reparatórias deverão atender ao disposto nos seus planos de manejo, priorizando a viabilização de ações e projetos previstos no
+
+mesmo, sujeitas à aprovação dos respectivos Conselhos Gestores.(Redação dada pela Lei nº 17.975/2023)
+
+§ 3º A autoridade ambiental poderá converter a multa simples em serviços de preservação, conservação e recuperação da
+
+qualidade do meio ambiente, nos termos da legislação federal e estadual pertinentes, preferencialmente para execução de
+
+programas e projetos ambientais propostos pelo órgão ambiental municipal, em áreas integrantes do sistema de áreas protegidas,
+
+verdes e espaços livres, respeitado o disposto no § 2º deste artigo.
+
+Subseção VII
+
+Do Pagamento por Prestação de Serviços Ambientais
+
+Art. 158. A Prefeitura poderá aplicar o pagamento por prestação de serviços ambientais para os proprietários ou possuidores de
+
+imóvel urbano ou rural, privado ou público, conforme disposto na legislação federal, estadual e municipal pertinente.
+
+Parágrafo único. O pagamento por serviços ambientais constitui-se em retribuição, monetária ou não, aos proprietários ou
+
+possuidores de áreas com ecossistemas provedores de serviços ambientais, cujas ações mantêm, restabelecem ou recuperam
+
+estes serviços, podendo ser remuneradas, entre outras, as seguintes ações:
+
+I – manutenção, recuperação, recomposição e enriquecimento de remanescentes florestais;
+
+II – recuperação de nascentes, matas ciliares e demais áreas de preservação permanente;
+
+III – recuperação, recomposição e enriquecimento de áreas de reserva legal;
+
+IV – conversão da agricultura familiar convencional para agricultura orgânica;
+
+V – cessão de área para soltura de animais silvestres, mediante critérios a serem definidos pelos órgãos municipais responsáveis
+
+pela conservação da fauna silvestre e da biodiversidade.
+
+Art. 159. Os pagamentos por serviços ambientais deverão ser implantados através de programas definidos pela SVMA, entre os
+
+quais, os que contemplem:
+
+I – remuneração de atividades humanas de manutenção, restabelecimento e recuperação dos ecossistemas provedores de
+
+serviços ambientais;
+
+II – remuneração dos proprietários ou possuidores, de áreas com ecossistemas provedores de serviços ambientais, mediante
+
+prévia valoração destes serviços;
+
+III – o disposto no art. 36 da Lei Municipal nº 14.933, de 5 de junho de 2009, ou que vier a lhe suceder;
+
+IV – outros programas instituídos pelo Poder Executivo em consonância com as disposições desta lei e da legislação estadual ou
+
+federal pertinente.
+
+§ 1º Os critérios de valoração a que se refere o inciso II deste artigo serão definidos em regramento próprio, a ser editado por
+
+SVMA.
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 76/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+§ 2º A participação do recebedor das vantagens relativas aos programas de pagamentos por serviços ambientais será voluntária.
+
+Art. 160. A SVMA fica autorizada, através do Fundo Municipal de Meio Ambiente e Desenvolvimento Sustentável – FEMA, sempre
+
+que julgar conveniente e oportuno, a proceder chamada a proprietários ou detentores de posse mansa e pacífica de imóvel
+
+interessados em participar de programas de pagamentos por serviços ambientais.
+
+§ 1º O percentual de recursos do FEMA a ser destinado a programas de Pagamento por Serviços Ambientais será definido
+
+anualmente pelo Conselho do Fundo Especial de Meio Ambiente e Desenvolvimento Sustentável – CONFEMA, mediante diretrizes
+
+a serem estabelecidas pelo Conselho de Meio Ambiente e Desenvolvimento Sustentável – CADES, não podendo ser inferior a 10%
+
+(dez por cento) dos recursos arrecadados no ano anterior pelo FEMA.
+
+§ 2º Os objetivos, critérios de seleção, duração e demais detalhes e regras serão definidos em edital específico da chamada e
+
+obedecerão, em qualquer hipótese, às diretrizes do Plano Municipal de Conservação e Recuperação das Áreas Prestadoras de
+
+Serviços Ambientais e demais normas aplicáveis.
+
+§ 3º Os recursos do FEMA poderão ser acrescidos de recursos provenientes de outras fontes tais como demais fundos públicos ou
+
+privados, cooperações, parcerias, doações e repasses.
+
+§ 4º Os proprietários de imóveis que promoverem a criação de Reserva Particular do Patrimônio Natural – RPPN ou atribuição de
+
+caráter de preservação permanente em parte da propriedade, conforme preconizado no art. 36 da Lei nº 14.933, de 5 de junho de
+
+2009, bem como os proprietários de imóveis situados em ZEPAM na Macrozona de Proteção e Recuperação Ambiental, em
+
+especial na Área de Proteção e Recuperação aos Mananciais, e aqueles inseridos nas Áreas de Proteção Ambiental Capivari-
+
+Monos e Bororé-Colônia, terão prioridade nos programas de pagamento por serviços ambientais, desde que atendam aos
+
+requisitos gerais fixados na presente lei.
+
+Art. 161. São requisitos gerais para a participação de proprietários ou possuidores de áreas prestadoras de serviços ambientais,
+
+em programas de pagamentos por serviços ambientais:
+
+I – enquadramento e habilitação em programa específico definido por SVMA;
+
+II - adequação do imóvel em relação à legislação ambiental ou, se for o caso, a assinatura de Termo de Compromisso de
+
+Adequação Ambiental – TAA, firmado entre o proprietário ou possuidor de área prestadora de serviços ambientais e a SVMA, no
+
+qual deverão ser estabelecidos as obrigações e os prazos para o cumprimento do que estabelece a legislação ambiental;(Redação
+
+dada pela Lei nº 17.975/2023)
+
+III – comprovação do uso ou ocupação regular do imóvel a ser contemplado;
+
+IV – formalização de instrumento contratual específico entre o proprietário ou possuidor de área prestadora de serviços ambientais
+
+e a SVMA.
+
+Parágrafo único. O descumprimento injustificado de cláusulas previstas no Termo de Compromisso de Adequação Ambiental e no
+
+instrumento contratual específico, referidos nos incisos II e IV, além das penalidades previstas nos respectivos instrumentos,
+
+acarretará a suspensão dos pagamentos e a exclusão do interessado do cadastro de provedores de serviços ambientais até a
+
+comprovação do cumprimento das obrigações vencidas.
+
+Art. 162. O contrato de pagamento por serviços ambientais será regulamentado por ato do Executivo.
+
+Art. 163. O monitoramento e fiscalização da aplicação deste instrumento serão exercidos pela SVMA, e os resultados deverão ser
+
+apresentados anualmente ao Conselho Municipal de Meio Ambiente e Desenvolvimento Sustentável – CADES e ao Conselho do
+
+Fundo Especial de Meio Ambiente e Desenvolvimento Sustentável – CONFEMA.
+
+Seção V
+
+Dos Instrumentos de Regularização Fundiária
+
+Art. 164. A Prefeitura ou os demais legitimados na forma da lei, com base nas atribuições previstas no inciso VIII do art. 30 da
+
+Constituição da República, na Lei Federal nº 10.257, de 2001 – Estatuto da Cidade, na Lei Federal nº 11.977, de 7 de julho de 2009
+
+e alterações posteriores, e na legislação municipal de regularização de loteamentos, parcelamentos do solo e edificações,
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 77/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+consolidados até a data de aprovação desta lei, deverá incorporar os assentamentos precários, favelas, loteamentos irregulares e
+
+cortiços, visando à sua regularização urbanística e fundiária, mediante a utilização de instrumentos urbanísticos próprios:
+
+I – Zonas Especiais de Interesse Social;
+
+II – a concessão do direito real de uso;
+
+III – a concessão de uso especial para fins de moradia;
+
+IV – a usucapião especial de imóvel urbano, individual ou coletivo;
+
+V – a demarcação urbanística;
+
+VI – a legitimação de posse;
+
+VII – a assistência técnica, jurídica e social gratuita.
+
+§ 1º Também são considerados passíveis de regularização fundiária as propriedades agrícolas localizadas na Macroárea de
+
+Contenção Urbana e Uso Sustentável.(Renumerado pela Lei nº 17.975/2023)
+
+§ 2º Deverá ser observada a legislação municipal específica sobre Regularização Fundiária Urbana – REURB, aplicando-se os
+
+conceitos e diretrizes dela decorrentes, inclusive para orientar a incidência dos instrumentos relacionados no caput deste artigo.
+
+(Incluído pela Lei nº 17.975/2023)
+
+Art. 165. O Executivo deverá outorgar título de concessão de uso especial para fins de moradia àquele que, até 30 de junho de
+
+2001, residia em imóvel público situado em área urbana com até 250m² (duzentos e cinquenta metros quadrados), por 5 (cinco)
+
+anos, ininterruptamente e sem oposição, desde que não seja proprietário ou concessionário de outro imóvel urbano ou rural, de
+
+acordo com art. 1º da Medida Provisória nº 2.220, de 2001.
+
+§ 1º O Executivo deverá assegurar o exercício do direito de concessão de uso especial para fim de moradia, individual ou
+
+coletivamente, em local diferente daquele que gerou esse direito, nas hipóteses de a moradia estar localizada em área de risco
+
+cuja condição não possa ser equacionada e resolvida por obras e outras intervenções.
+
+§ 2º O Executivo poderá assegurar o exercício do direito de concessão de uso especial para fins de moradia, individual ou
+
+coletivamente, em local diferente daquele que gerou esse direito, nas hipóteses de:
+
+I – ser área de uso comum do povo com outras destinações prioritárias de interesse público, definidas no Plano Diretor;
+
+II – ser área onde houver necessidade de desadensamento por motivo de projeto e obra de urbanização;
+
+III – ser área de comprovado interesse da defesa nacional, da preservação ambiental e da proteção dos ecossistemas naturais;
+
+IV – ser área reservada à construção de represas e obras congêneres.
+
+§ 3º Para atendimento do direito previsto nos parágrafos anteriores, a moradia deverá estar localizada próxima ao local que deu
+
+origem ao direito de que trata este artigo, e em casos de impossibilidade, em outro local, desde que haja manifesta concordância
+
+do beneficiário.
+
+§ 4º A concessão de uso especial para fins de moradia poderá ser solicitada de forma individual ou coletiva.
+
+§ 5º Buscar-se-á respeitar, quando de interesse da comunidade, as atividades econômicas locais promovidas pelo próprio morador,
+
+vinculadas à moradia, como pequenas atividades comerciais, indústria doméstica, artesanato, oficinas de serviços e outros.
+
+§ 6º Extinta a concessão de uso especial para fins de moradia, o Poder Público recuperará o domínio pleno do terreno.
+
+§ 7º É responsabilidade do Poder Público promover as obras de urbanização nas áreas onde foi obtido título de concessão de uso
+
+especial para fins de moradia.
+
+§ 8º O atendimento habitacional em programas de apoio habitacional, tais como bolsa-aluguel, aluguel social, parceria social, ou
+
+por intermédio de indenização por benfeitorias, dentre outros, será realizado por período determinado e vinculado ao atendimento
+
+definitivo em programa de produção de Habitação de Interesse Social.
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 78/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+Art. 166. A concessão de uso especial para fins de moradia poderá ser outorgada mediante requerimento do interessado, dirigido à
+
+Secretaria Municipal de Habitação.
+
+Art. 167. O atendimento habitacional em programas de apoio habitacional, tais como bolsa-aluguel, parceria social, ou por
+
+intermédio de indenização por benfeitorias, dentre outros, será realizado por período determinado e vinculado ao atendimento
+
+definitivo em programa de produção de Habitação de Interesse Social.
+
+Parágrafo único. O aluguel social deverá ser previsto em programa específico, como atendimento definitivo nos termos do Serviço
+
+de Moradia Social previsto nos arts. 295 e 296 desta lei.
+
+Art. 168. O Executivo promoverá o plano de urbanização com a participação dos moradores de áreas usucapidas para a melhoria
+
+das condições habitacionais e de saneamento ambiental nas áreas habitadas por população de baixa renda, usucapidas
+
+coletivamente por seus possuidores para fim de moradia, nos termos da Lei Federal nº 10.257, de 10 de julho de 2001 – Estatuto
+
+da Cidade.
+
+Art. 169. A regularização fundiária de interesse social que envolva apenas a regularização jurídica da situação dominial do imóvel
+
+poderá, a critério da administração, dispensar a apresentação do plano mencionado no art. 47 desta lei, hipótese em que serão
+
+exigíveis apenas os documentos necessários à viabilização do registro do projeto de regularização.
+
+Art. 170. A regularização fundiária em áreas ambientalmente protegidas deverá observar os dispositivos previstos em legislação
+
+pertinente.
+
+Art. 171. Cabe à Prefeitura garantir assistência técnica, jurídica, urbanística e social gratuita à população, indivíduos, entidades,
+
+grupos comunitários e movimentos na área de Habitação de Interesse Social e de Agricultura Familiar, buscando promover a
+
+inclusão social, jurídica, ambiental e urbanística da população de baixa renda à cidade, na garantia da moradia digna e no
+
+reconhecimento dos serviços ambientais e sociais prestados pelos agricultores familiares, particularmente nas ações visando à
+
+regularização fundiária e qualificação dos assentamentos precários existentes e à regularização fundiária e ambiental dos imóveis
+
+rurais.
+
+Seção VI
+
+Dos Instrumentos de Proteção ao Patrimônio Cultural
+
+Art. 172. Os instrumentos de identificação, proteção e valorização do patrimônio cultural paulistano visam à integração de áreas,
+
+imóveis, edificações e lugares de valor cultural e social aos objetivos e diretrizes do Plano Diretor Estratégico, e correspondem aos
+
+seguintes instrumentos legais:
+
+I – tombamento;
+
+II – inventário do patrimônio cultural;
+
+III – registro das áreas de proteção cultural e Territórios de Interesse da Cultura e da Paisagem;
+
+IV – registro do patrimônio imaterial;
+
+V – chancela da paisagem cultural;
+
+VI – Levantamento e Cadastro Arqueológico do Município – LECAM.
+
+§ 1º O tombamento obedecerá ao disposto na Lei Municipal nº 10.032, de 1985, e alterações posteriores, assim como às
+
+legislações estadual e federal que regulam esse instrumento, no que couber.
+
+§ 2º O inventário como instrumento de promoção e proteção do patrimônio cultural obedecerá ao disposto em legislação municipal
+
+específica, que se submeterá às disposições constantes no § 1º do art. 216 da Constituição Federal.
+
+§ 3º O registro das áreas de proteção cultural e Territórios de Interesse da Cultura e da Paisagem obedecerá ao disposto em
+
+legislação específica, que se submeterá às disposições constantes no § 1º do art. 216 da Constituição Federal.
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 79/166
+
+27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal
+
+§ 4º O registro de bens imateriais obedecerá ao disposto na Lei Municipal nº 14.406, de 2007, e alterações posteriores, assim
+
+como às legislações estadual e federal que regulam esse instrumento, baseado na Constituição Federal, e que consiste em um
+
+conjunto de procedimentos técnicos, administrativos e jurídicos realizados pelo Executivo, com vistas ao reconhecimento do
+
+patrimônio imaterial, sua inscrição em Livros de Registro (dos Saberes, Celebrações, Formas de Expressão, Sítios e Espaços) e
+
+definição de políticas públicas de salvaguarda como forma de apoiar sua continuidade.
+
+§ 5º A Chancela da Paisagem Cultural, instituída pela Portaria IPHAN 127/2009, tem como objetivo reconhecer uma porção
+
+peculiar do território nacional, representativa do processo de interação do homem com o meio natural, à qual a vida e a ciência
+
+humana imprimiram marcas ou atribuíram valores, e deve obedecer ao disposto em legislação específica, assim como as
+
+legislações estadual e federal que regulam esse instrumento.
+
+§ 6º O Levantamento e Cadastro Arqueológico do Município de São Paulo – LECAM-SP é um sistema de informações que deverá
+
+servir como base de planejamento da cidade, visando à preservação e à valorização das áreas de interesse arqueológico do
+
+Município, e que obedecerá ao disposto em legislação municipal específica, que se submeterá às disposições constantes no § 1º
+
+do art. 216 da Constituição Federal.
+
+Subseção I
+
+Do Termo de Ajustamento de Conduta Cultural – TACC
+
+Art. 173. Para cumprimento do disposto nesta lei, o Executivo poderá celebrar, com força de título executivo extrajudicial, nos
+
+termos da lei federal, Termo de Compromisso de Ajustamento de Conduta Cultural com pessoas físicas e jurídicas responsáveis
+
+pela reparação integral de danos ou descaracterizações causadas a bens, imóveis, áreas ou espaços protegidos em função de seu
+
+valor histórico e cultural.
+
+§ 1º O Termo de Compromisso de Ajustamento de Conduta Cultural tem por objetivo precípuo a recuperação de bens, imóveis,
+
+áreas ou espaços protegidos pelo seu valor histórico e cultural que tenham sofrido abandono ou intervenções, mediante a fixação
+
+de obrigações que deverão ser rigorosamente cumpridas pelo infrator, visando à reparação integral dos danos causados.
+
+§ 2º Sem prejuízo da aplicação das penalidades previstas no Decreto nº 54.805/2014, os imóveis enquadrados como ZEPEC pela
+
+Lei nº 13.885, de 2004, e que, ao tempo da edição da presente lei se encontram demolidos, poderão ser objeto de TACC, a ser
+
+elaborado conjuntamente pelo proprietário do imóvel e pelo Executivo Municipal, visando à reparação dos danos causados ao
+
+patrimônio histórico e cultural.
+
+TÍTULO III
+
+DA POLÍTICA E DOS SISTEMAS URBANOS E AMBIENTAIS
+
+Art. 174. As políticas públicas setoriais, em especial as urbanas e ambientais, integram a Política de Desenvolvimento Urbano do
+
+Município e definem as ações que devem ser implementadas pelo Executivo para cumprir os objetivos estratégicos deste Plano
+
+Diretor Estratégico.
+
+§ 1º As políticas e os sistemas urbanos e ambientais tratados nesta lei são as que se relacionam direta ou indiretamente com
+
+questões de ordenamento territorial, a saber:(Renumerado pela Lei nº 17.975/2023)
+
+I – Política de Desenvolvimento Econômico Sustentável;
+
+II – Política e Sistema de Mobilidade;
+
+III – Política e Sistema Ambiental;
+
+IV – Política e Sistema de Saneamento Ambiental;
+
+V – Sistema de Áreas Protegidas, Áreas Verdes e Espaços Livres;
+
+VI – Desenvolvimento Social e Sistema de Equipamentos Urbanos e Sociais;
+
+VII – Política de Habitação Social;
+
+https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 80/166
+
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014/razoes-do-veto>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014/regulamentacoes>   
+[\#164](#164)   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014/revogado-por>   
+[\#165](#165)   
+[\#165](#165)   
+[\#166](#166)   
+<http://documentacao.camara.sp.gov.br/cgi-bin/wxis.bin/iah/scripts/?IsisScript=iah.xis&form=A&navBar=OFF&hits=200&lang=pt&nextAction=search&base=proje&conectSearch=init&exprSearch=%22PROJETO%20DE%20LEI%22&indexSearch=%5EnCm%5ELTipo+de+projeto%5Etshort%5Ex%2F20%5EyDATABASE&conectSearch=and&exprSearch=688&indexSearch=%5EnPj%5ELN%FAmero+do+projeto%5Ex%2F30%5EyDATABASE&conectSearch=and&exprSearch=2013&indexSearch=%5EnDp%5ELAno+do+projeto%5Ex%2F40%5Etshort%5EyDATABASE>   
+<http://documentacao.camara.sp.gov.br/cgi-bin/wxis.exe/iah/scripts/?IsisScript=iah.xis&form=A&navBar=OFF&hits=200&lang=pt&nextAction=search&base=proje&conectSearch=init&exprSearch=%22PROJETO%20DE%20LEI%22&indexSearch=%5EnCm%5ELTipo+de+projeto%5Etshort%5Ex%2F20%5EyDATABASE&conectSearch=and&exprSearch=688&indexSearch=%5EnPj%5ELN%FAmero+do+projeto%5Ex%2F30%5EyDATABASE&conectSearch=and&exprSearch=2013&indexSearch=%5EnDp%5ELAno+do+projeto%5Ex%2F40%5Etshort%5EyDATABASE>   
+<http://legislacao.prefeitura.sp.gov.br/leis/lei-13430-de-01-de-setembro-de-2002>   
+<http://legislacao.prefeitura.sp.gov.br/leis/lei-13430-de-01-de-setembro-de-2002>   
+<http://www.planalto.gov.br/ccivil_03/Constituicao/Constituicao.htm>   
+<http://www.planalto.gov.br/ccivil_03/leis/LEIS_2001/L10257.htm>   
+<http://legislacao.prefeitura.sp.gov.br/leis/lei-0-de-04-de-abril-de-1990>   
+<http://legislacao.prefeitura.sp.gov.br/leis/lei-0-de-04-de-abril-de-1990>   
+<http://legislacao.prefeitura.sp.gov.br/leis/lei-13430-de-01-de-setembro-de-2002>   
+<http://legislacao.prefeitura.sp.gov.br/leis/lei-13430-de-01-de-setembro-de-2002>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<http://legislacao.prefeitura.sp.gov.br/leis/lei-12349-de-06-de-junho-de-1997>   
+<http://legislacao.prefeitura.sp.gov.br/leis/lei-12349-de-06-de-junho-de-1997>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<http://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014#anexos>   
+<http://iflorestal.sp.gov.br/o-instituto/rbcv/>   
+<http://www.planalto.gov.br/ccivil_03/leis/l9985.htm>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-45892-de-17-de-maio-de-2005>   
+<http://legislacao.prefeitura.sp.gov.br/leis/lei-14162-de-24-de-maio-de-2006>   
+<http://www.planalto.gov.br/ccivil_03/_Ato2004-2006/2006/Decreto/D5746.htm>   
+<http://www.planalto.gov.br/ccivil_03/leis/l9985.htm>   
+<http://legislacao.prefeitura.sp.gov.br/leis/projeto-de-lei-camara-municipal-688-de-17-de-junho-de-2014>   
+<http://www.planalto.gov.br/ccivil_03/leis/l9985.htm>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<http://legislacao.prefeitura.sp.gov.br/leis/projeto-de-lei-camara-municipal-688-de-17-de-junho-de-2014>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<http://legislacao.prefeitura.sp.gov.br/leis/projeto-de-lei-camara-municipal-688-de-17-de-junho-de-2014>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<http://legislacao.prefeitura.sp.gov.br/leis/projeto-de-lei-camara-municipal-688-de-17-de-junho-de-2014>   
+<http://legislacao.prefeitura.sp.gov.br/leis/lei-13885-de-25-de-agosto-de-2004>   
+<http://legislacao.prefeitura.sp.gov.br/leis/projeto-de-lei-camara-municipal-688-de-17-de-junho-de-2014>   
+<http://legislacao.prefeitura.sp.gov.br/leis/projeto-de-lei-camara-municipal-688-de-17-de-junho-de-2014>   
+<http://legislacao.prefeitura.sp.gov.br/leis/projeto-de-lei-camara-municipal-688-de-17-de-junho-de-2014>   
+<http://legislacao.prefeitura.sp.gov.br/leis/projeto-de-lei-camara-municipal-688-de-17-de-junho-de-2014>   
+<http://legislacao.prefeitura.sp.gov.br/leis/projeto-de-lei-camara-municipal-688-de-17-de-junho-de-2014>   
+<http://legislacao.prefeitura.sp.gov.br/leis/projeto-de-lei-camara-municipal-688-de-17-de-junho-de-2014>   
+<http://legislacao.prefeitura.sp.gov.br/leis/projeto-de-lei-camara-municipal-688-de-17-de-junho-de-2014>   
+<http://www.al.sp.gov.br/legislacao/norma.do?id=5976>   
+<http://www.al.sp.gov.br/legislacao/norma.do?id=5976>   
+<http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12651.htm>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/decreto-63130-de-19-de-janeiro-de-2024>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/razoes-do-veto-ao-projeto-de-lei-127-2023-oficio-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/razoes-do-veto-ao-projeto-de-lei-127-2023-oficio-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/razoes-do-veto-ao-projeto-de-lei-127-2023-oficio-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/razoes-do-veto-ao-projeto-de-lei-127-2023-oficio-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/razoes-do-veto-ao-projeto-de-lei-127-2023-oficio-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<http://legislacao.prefeitura.sp.gov.br/leis/projeto-de-lei-camara-municipal-688-de-17-de-junho-de-2014>   
+<http://legislacao.prefeitura.sp.gov.br/leis/projeto-de-lei-camara-municipal-688-de-17-de-junho-de-2014>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<http://legislacao.prefeitura.sp.gov.br/leis/projeto-de-lei-camara-municipal-688-de-17-de-junho-de-2014>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<http://legislacao.prefeitura.sp.gov.br/leis/lei-14162-de-24-de-maio-de-2006>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-45892-de-17-de-maio-de-2005>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<http://legislacao.prefeitura.sp.gov.br/leis/lei-13885-de-25-de-agosto-de-2004>   
+<http://legislacao.prefeitura.sp.gov.br/leis/lei-13885-de-25-de-agosto-de-2004>   
+<http://legislacao.prefeitura.sp.gov.br/leis/lei-13885-de-25-de-agosto-de-2004>   
+<http://legislacao.prefeitura.sp.gov.br/leis/lei-13885-de-25-de-agosto-de-2004>   
+<http://legislacao.prefeitura.sp.gov.br/leis/lei-13885-de-25-de-agosto-de-2004>   
+<http://legislacao.prefeitura.sp.gov.br/leis/lei-13885-de-25-de-agosto-de-2004>   
+<http://www.al.sp.gov.br/legislacao/norma.do?id=5976>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-18157-de-17-de-julho-de-2024>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-18157-de-17-de-julho-de-2024>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<http://www.planalto.gov.br/ccivil_03/decreto/D3551.htm>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<http://www.planalto.gov.br/ccivil_03/decreto/D3551.htm>   
+<http://portal.iphan.gov.br/portal/baixaFcdAnexo.do?id=1236>   
+<http://www.prefeitura.sp.gov.br/cidade/upload/dfc0d_Lei_N_10.032-85_e_Lei_10.236-86_Criam_e_alteram_o_CONPRESP.pdf>   
+<http://www.prefeitura.sp.gov.br/cidade/upload/dfc0d_Lei_N_10.032-85_e_Lei_10.236-86_Criam_e_alteram_o_CONPRESP.pdf>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<http://legislacao.prefeitura.sp.gov.br/leis/lei-13885-de-25-de-agosto-de-2004>   
+<http://legislacao.prefeitura.sp.gov.br/leis/lei-13885-de-25-de-agosto-de-2004>   
+<http://www.planalto.gov.br/ccivil_03/leis/l9985.htm>   
+<http://legislacao.prefeitura.sp.gov.br/leis/lei-13885-de-25-de-agosto-de-2004>   
+<http://legislacao.prefeitura.sp.gov.br/leis/lei-13885-de-25-de-agosto-de-2004>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/resolucao-secretaria-municipal-de-urbanismo-e-licenciamento-smul-ctlu-1-de-22-de-fevereiro-de-2022>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-18209-de-20-de-dezembro-de-2024>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-18209-de-20-de-dezembro-de-2024>   
+<http://legislacao.prefeitura.sp.gov.br/leis/projeto-de-lei-camara-municipal-688-de-17-de-junho-de-2014>   
+<http://legislacao.prefeitura.sp.gov.br/leis/projeto-de-lei-camara-municipal-688-de-17-de-junho-de-2014>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-16042-de-14-de-julho-de-2014>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-16402-de-22-de-marco-de-2016>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-16402-de-22-de-marco-de-2016>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<http://legislacao.prefeitura.sp.gov.br/leis/lei-13885-de-25-de-agosto-de-2004>   
+<http://legislacao.prefeitura.sp.gov.br/leis/lei-13885-de-25-de-agosto-de-2004>   
+<http://legislacao.prefeitura.sp.gov.br/leis/lei-13885-de-25-de-agosto-de-2004>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<http://legislacao.prefeitura.sp.gov.br/leis/lei-13885-de-25-de-agosto-de-2004>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-18157-de-17-de-julho-de-2024>   
+<http://legislacao.prefeitura.sp.gov.br/leis/lei-13885-de-25-de-agosto-de-2004>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<http://legislacao.prefeitura.sp.gov.br/leis/lei-14044-de-02-de-setembro-de-2005>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-16402-de-22-de-marco-de-2016>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<http://legislacao.prefeitura.sp.gov.br/leis/lei-12349-de-06-de-junho-de-1997>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-16402-de-22-de-marco-de-2016>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-16402-de-22-de-marco-de-2016>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<http://www.planalto.gov.br/ccivil_03/Leis/LEIS_2001/L10257.htm>   
+<http://www.planalto.gov.br/ccivil_03/Leis/LEIS_2001/L10257.htm>   
+<https://www.planalto.gov.br/ccivil_03/decreto-lei/del3365.htm>   
+<https://www.planalto.gov.br/ccivil_03/decreto-lei/del3365.htm>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm#:~:text=LEI%20N%C2%BA%2010.406%2C%20DE%2010%20DE%20JANEIRO%20DE%202002&text=Institui%20o%20C%C3%B3digo%20Civil.&text=Art.,e%20deveres%20na%20ordem%20civil.>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://www.planalto.gov.br/ccivil_03/leis/l6015compilada.htm>   
+<https://www.planalto.gov.br/ccivil_03/leis/l6015compilada.htm>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<http://legislacao.prefeitura.sp.gov.br/leis/projeto-de-lei-camara-municipal-688-de-17-de-junho-de-2014>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<http://legislacao.prefeitura.sp.gov.br/leis/projeto-de-lei-camara-municipal-688-de-17-de-junho-de-2014>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-56538-de-23-de-outubro-de-2015>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-56538-de-23-de-outubro-de-2015>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-56538-de-23-de-outubro-de-2015>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-56538-de-23-de-outubro-de-2015>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-56538-de-23-de-outubro-de-2015>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-56538-de-23-de-outubro-de-2015>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-56538-de-23-de-outubro-de-2015>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-56538-de-23-de-outubro-de-2015>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-56538-de-23-de-outubro-de-2015>   
+<http://legislacao.prefeitura.sp.gov.br/leis/projeto-de-lei-camara-municipal-688-de-17-de-junho-de-2014>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-56538-de-23-de-outubro-de-2015>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-56538-de-23-de-outubro-de-2015>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-56538-de-23-de-outubro-de-2015>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<http://www.planalto.gov.br/ccivil_03/Leis/LEIS_2001/L10257.htm>   
+<http://www.planalto.gov.br/ccivil_03/Leis/LEIS_2001/L10257.htm>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<http://legislacao.prefeitura.sp.gov.br/leis/lei-13885-de-25-de-agosto-de-2004>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<http://legislacao.prefeitura.sp.gov.br/leis/lei-14933-de-05-de-junho-de-2009>   
+<http://legislacao.prefeitura.sp.gov.br/leis/projeto-de-lei-camara-municipal-688-de-17-de-junho-de-2014>   
+<http://www.planalto.gov.br/ccivil_03/Leis/LEIS_2001/L10257.htm>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<https://legislacao.prefeitura.sp.gov.br/leis/razoes-do-veto-ao-projeto-de-lei-127-2023-oficio-de-8-de-julho-de-2023>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<https://legislacao.prefeitura.sp.gov.br/leis/razoes-do-veto-ao-projeto-de-lei-127-2023-oficio-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<http://legislacao.prefeitura.sp.gov.br/>   
+<http://legislacao.prefeitura.sp.gov.br/>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/razoes-do-veto-ao-projeto-de-lei-127-2023-oficio-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<http://legislacao.prefeitura.sp.gov.br/>   
+<http://legislacao.prefeitura.sp.gov.br/>   
+<http://legislacao.prefeitura.sp.gov.br/>   
+<http://legislacao.prefeitura.sp.gov.br/>   
+<http://legislacao.prefeitura.sp.gov.br/>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<http://legislacao.prefeitura.sp.gov.br/>   
+<http://legislacao.prefeitura.sp.gov.br/>   
+<http://legislacao.prefeitura.sp.gov.br/>   
+<http://legislacao.prefeitura.sp.gov.br/>   
+<http://legislacao.prefeitura.sp.gov.br/>   
+<http://legislacao.prefeitura.sp.gov.br/>   
+<http://legislacao.prefeitura.sp.gov.br/>   
+<http://legislacao.prefeitura.sp.gov.br/>   
+<http://legislacao.prefeitura.sp.gov.br/>   
+<http://legislacao.prefeitura.sp.gov.br/>   
+<http://legislacao.prefeitura.sp.gov.br/>   
+<http://legislacao.prefeitura.sp.gov.br/>   
+<http://legislacao.prefeitura.sp.gov.br/>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-58289-de-26-de-junho-de-2018>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-55888-de-04-de-fevereiro-de-2015>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-16402-de-22-de-marco-de-2016>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<http://www.planalto.gov.br/ccivil_03/leis/l8668.htm>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<http://www.planalto.gov.br/ccivil_03/leis/LEIS_2001/L10257.htm>   
+<http://legislacao.prefeitura.sp.gov.br/leis/projeto-de-lei-camara-municipal-688-de-17-de-junho-de-2014>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-18209-de-20-de-dezembro-de-2024>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<http://legislacao.prefeitura.sp.gov.br/leis/projeto-de-lei-camara-municipal-688-de-17-de-junho-de-2014>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<http://legislacao.prefeitura.sp.gov.br/leis/resolucao-secretaria-municipal-do-meio-ambiente-61-de-23-de-outubro-de-2001>   
+<http://legislacao.prefeitura.sp.gov.br/leis/resolucao-secretaria-municipal-do-meio-ambiente-61-de-23-de-outubro-de-2001>   
+<http://legislacao.prefeitura.sp.gov.br/leis/portaria-secretaria-municipal-do-verde-e-do-meio-ambiente-80-de-1-de-novembro-de-2007>   
+<http://www.planalto.gov.br/ccivil_03/leis/l9985.htm>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<http://legislacao.prefeitura.sp.gov.br/leis/projeto-de-lei-camara-municipal-688-de-17-de-junho-de-2014>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<http://www.planalto.gov.br/ccivil_03/leis/l6938.htm>   
+<http://www.planalto.gov.br/ccivil_03/leis/l9985.htm>   
+<http://legislacao.prefeitura.sp.gov.br/leis/lei-13155-de-29-de-junho-de-2001>   
+<http://legislacao.prefeitura.sp.gov.br/leis/lei-13155-de-29-de-junho-de-2001>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<http://legislacao.prefeitura.sp.gov.br/leis/lei-14933-de-05-de-junho-de-2009>   
+<http://legislacao.prefeitura.sp.gov.br/leis/lei-13155-de-29-de-junho-de-2001>   
+<http://legislacao.prefeitura.sp.gov.br/leis/lei-13155-de-29-de-junho-de-2001>   
+<http://legislacao.prefeitura.sp.gov.br/leis/lei-13155-de-29-de-junho-de-2001>   
+<http://legislacao.prefeitura.sp.gov.br/leis/lei-13155-de-29-de-junho-de-2001>   
+<http://www.prefeitura.sp.gov.br/cidade/secretarias/upload/chamadas/res_020_confema_2011_1313770366.pdf>   
+<http://legislacao.prefeitura.sp.gov.br/leis/lei-13155-de-29-de-junho-de-2001>   
+<http://www.mma.gov.br/port/conama/doc/LeiCADES.pdf>   
+<http://legislacao.prefeitura.sp.gov.br/leis/lei-13155-de-29-de-junho-de-2001>   
+<http://legislacao.prefeitura.sp.gov.br/leis/lei-13155-de-29-de-junho-de-2001>   
+<http://www.planalto.gov.br/ccivil_03/leis/l9985.htm>   
+<http://legislacao.prefeitura.sp.gov.br/leis/lei-14933-de-05-de-junho-de-2009>   
+<http://legislacao.prefeitura.sp.gov.br/leis/lei-14933-de-05-de-junho-de-2009>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-45892-de-17-de-maio-de-2005>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-45892-de-17-de-maio-de-2005>   
+<http://legislacao.prefeitura.sp.gov.br/leis/lei-14162-de-24-de-maio-de-2006>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<http://www.mma.gov.br/port/conama/doc/LeiCADES.pdf>   
+<http://legislacao.prefeitura.sp.gov.br/leis/lei-13155-de-29-de-junho-de-2001>   
+<http://www.prefeitura.sp.gov.br/cidade/secretarias/upload/chamadas/res_020_confema_2011_1313770366.pdf>   
+<http://legislacao.prefeitura.sp.gov.br/leis/lei-13155-de-29-de-junho-de-2001>   
+<http://www.planalto.gov.br/ccivil_03/Constituicao/Constituicao.htm>   
+<http://www.planalto.gov.br/ccivil_03/Constituicao/Constituicao.htm>   
+<http://www.planalto.gov.br/ccivil_03/Leis/LEIS_2001/L10257.htm>   
+<http://www.planalto.gov.br/ccivil_03/_ato2007-2010/2009/lei/l11977.htm>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   
+<http://www.planalto.gov.br/ccivil_03/Leis/LEIS_2001/L10257.htm>   
+<http://www.planalto.gov.br/ccivil_03/Leis/LEIS_2001/L10257.htm>   
+<http://www.prefeitura.sp.gov.br/cidade/upload/dfc0d_Lei_N_10.032-85_e_Lei_10.236-86_Criam_e_alteram_o_CONPRESP.pdf>   
+<http://www.planalto.gov.br/ccivil_03/decreto/D3551.htm>   
+<http://portal.iphan.gov.br/portal/baixaFcdAnexo.do?id=1236>   
+<http://legislacao.prefeitura.sp.gov.br/leis/lei-10032-de-27-de-dezembro-de-1985>   
+<http://www.planalto.gov.br/ccivil_03/Constituicao/Constituicao.htm>   
+<http://www.planalto.gov.br/ccivil_03/Constituicao/Constituicao.htm>   
+<http://legislacao.prefeitura.sp.gov.br/leis/lei-14406-de-21-de-maio-de-2007>   
+<http://www.planalto.gov.br/ccivil_03/Constituicao/Constituicao.htm>   
+<http://www.planalto.gov.br/ccivil_03/decreto/D3551.htm>   
+<http://portal.iphan.gov.br/portal/baixaFcdAnexo.do?id=1236>   
+<http://www.planalto.gov.br/ccivil_03/Constituicao/Constituicao.htm>   
+<http://legislacao.prefeitura.sp.gov.br/leis/decreto-54805-de-31-de-janeiro-de-2014>   
+<http://legislacao.prefeitura.sp.gov.br/leis/lei-13885-de-25-de-agosto-de-2004>   
+<https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023>   

@@ -1,61 +1,34 @@
 {
   "id": "lei-municipal-saopaulo-16050-2014",
-  "tipo_norma": "lei_ordinaria",
-  "esfera": "municipal",
-  "jurisdicao": "São Paulo/SP",
-  "numero": "16.050",
-  "ano": 2014,
-  "ementa": "Aprova a Política de Desenvolvimento Urbano e o Plano Diretor Estratégico do Município de São Paulo (PDE) e revoga a Lei nº 13.430, de 2002.",
+  "tipo_norma": "lei municipal",
+  "esfera": "Municipal-SP",
+  "jurisdicao": "São Paulo - SP",
+  "numero": "16050",
+  "ano": "2014",
+  "ementa": "(ver texto integral)",
   "tema": [
-    "IPTU",
-    "Plano_Diretor",
-    "PDE",
-    "IPTU_progressivo_no_tempo",
-    "funcao_social"
-  ],
-  "dispositivos_chave": [
-    "Aprova a Politica de Desenvolvimento Urbano e o Plano Diretor Estrategico (PDE); aplica-se a todo o territorio do Municipio",
-    "Ordenacao territorial em macrozonas e redes; uso do solo; sistemas urbanos e ambientais",
-    "Funcao Social da Propriedade Urbana (coeficientes minimos de utilizacao - Quadros 2 e 2A)",
-    "Parcelamento, Edificacao e Utilizacao Compulsorios (PEUC)",
-    "IPTU Progressivo no Tempo: aumento anual da aliquota ate o limite de 15% para imoveis que descumprem a funcao social/PEUC"
+    "TDC",
+    "urbanística"
   ],
   "vigencia": {
-    "em_vigor": true,
-    "observacao": "Vigente; revisao intermediaria conduzida pela Lei 17.975/2023. Revoga a Lei 13.430/2002."
+    "inicio": "2014-07-31",
+    "fim": null,
+    "revogada_por": null,
+    "altera": [],
+    "alterada_por": [
+      "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+    ],
+    "obs": "TEXTO CONSOLIDADO: 95 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2014-07-31. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
   },
-  "remissoes": [
-    {
-      "norma": "Lei 13.430/2002",
-      "relacao": "revoga (PDE anterior)"
-    },
-    {
-      "norma": "Lei Federal 10.257/2001 (Estatuto da Cidade)",
-      "relacao": "fundamento do IPTU progressivo no tempo e PEUC"
-    },
-    {
-      "norma": "Lei 17.975/2023",
-      "relacao": "revisao intermediaria do PDE"
-    }
-  ],
-  "jurisprudencia_relacionada": [],
-  "tem_tabela": true,
-  "tabelas_extraidas": [
-    "Quadros 2 e 2A (coeficientes minimos de utilizacao / funcao social)"
-  ],
-  "tem_formula": true,
-  "formulas_referenciadas": [
-    "IPTU Progressivo no Tempo: aliquota majorada ano a ano ate o limite de 15% (apos descumprimento do PEUC)"
-  ],
   "fonte": {
-    "origem": "web-oficial",
-    "url": "https://legislacao.prefeitura.sp.gov.br/lei-16050-de-31-de-julho-de-2014",
+    "origem": "Google Drive",
+    "path": "_entrada/tdc/lei-no-16-050-de-31-de-julho-de-2014-catalogo-de-legislacao-municipal.txt",
     "hash": null,
     "ocr": false,
-    "metodo": "WebSearch (nao-verbatim; WebFetch/curl bloqueados HTTP 403)",
-    "obs": "texto nao-verbatim; capturado via WebSearch por bloqueio de WebFetch/curl (HTTP 403)."
+    "fileId": "1wOSDStL2wPYQTB7hxXea354QH1VQxdh2"
   },
-  "status_pipeline": "bruto",
-  "confianca_extracao": "baixa",
-  "revisado_por_humano": false
+  "status_pipeline": "indexado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "versao_texto": "consolidada"
 }

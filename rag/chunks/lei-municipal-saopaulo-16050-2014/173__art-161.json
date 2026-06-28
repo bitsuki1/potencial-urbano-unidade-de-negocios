@@ -1,0 +1,35 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16050-2014::173-art-161",
+  "lei_id": "lei-municipal-saopaulo-16050-2014",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 161",
+  "numero": "161",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO III",
+    "Seção IV",
+    "Art. 161"
+  ],
+  "texto": "Art. 161. São requisitos gerais para a participação de proprietários ou possuidores de áreas prestadoras de serviços ambientais,\n\nem programas de pagamentos por serviços ambientais:\n\nI – enquadramento e habilitação em programa específico definido por SVMA;\n\nII - adequação do imóvel em relação à legislação ambiental ou, se for o caso, a assinatura de Termo de Compromisso de\n\nAdequação Ambiental – TAA, firmado entre o proprietário ou possuidor de área prestadora de serviços ambientais e a SVMA, no\n\nqual deverão ser estabelecidos as obrigações e os prazos para o cumprimento do que estabelece a legislação ambiental;(Redação\n\ndada pela Lei nº 17.975/2023)\n\nIII – comprovação do uso ou ocupação regular do imóvel a ser contemplado;\n\nIV – formalização de instrumento contratual específico entre o proprietário ou possuidor de área prestadora de serviços ambientais\n\ne a SVMA.\n\nParágrafo único. O descumprimento injustificado de cláusulas previstas no Termo de Compromisso de Adequação Ambiental e no\n\ninstrumento contratual específico, referidos nos incisos II e IV, além das penalidades previstas nos respectivos instrumentos,\n\nacarretará a suspensão dos pagamentos e a exclusão do interessado do cadastro de provedores de serviços ambientais até a\n\ncomprovação do cumprimento das obrigações vencidas.",
+  "citacao": {
+    "norma": "lei municipal nº 16050/2014 — São Paulo - SP",
+    "dispositivo": "TÍTULO II › CAPÍTULO III › Seção IV › Art. 161",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2014-07-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 95 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2014-07-31. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

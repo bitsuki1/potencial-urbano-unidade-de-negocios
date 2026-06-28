@@ -1,0 +1,30 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17844-2022::044-art-40-a",
+  "lei_id": "lei-municipal-saopaulo-17844-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 40-A",
+  "numero": "40-A",
+  "caminho_hierarquico": [
+    "CAPÍTULO IV",
+    "Seção I",
+    "Art. 40-A"
+  ],
+  "texto": "Art. 40-A. As edificações de que trata esta Lei, enquanto seus processos de regularização estiverem\n\nem andamento, não serão passíveis de sanção em decorrência de infrações regularizáveis conforme o",
+  "citacao": {
+    "norma": "lei municipal nº 17844/2022 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO IV › Seção I › Art. 40-A",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2022-09-14",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": []
+    }
+  },
+  "tema": [
+    "IPTU"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

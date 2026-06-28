@@ -8,6 +8,14 @@
 > estado VOLÁTIL (contagens, status do pipeline, lotes carregados) vira **PONTEIRO ao SSOT real** — nunca cópia.
 > Cópia de dado volátil apodrece a cada trabalho e cria duas verdades (fere D1 + zero-compressão).
 
+
+## 🔒 REGRA DE OURO + CAIXAS v2 (modelo carregar-depois · slug `potencial-urbano`)
+> SSOT: `escritorio-do-mou/processos/COMO-FUNCIONAM-AS-CAIXAS.md`. Naming: `caixa-de-entrada/`+`caixa-de-saida/`.
+- NUNCA escreva no canônico do Escritório (a caneta é do maestro, D56/D104). Você só toca a sua `caixa`.
+- MANDAR: escreva `caixa-de-saida/para-<destino>/AAAA-MM-DD_potencial-urbano_assunto.md` (para-escritorio/ ou para-<outro>/). Commit. FIM.
+- RECEBER: no boot, leia `caixa-de-entrada/` PRIMEIRO; aplique; mova p/ `caixa-de-entrada/processados/`.
+- O escritório CARREGA as cartas quando co-montado (você não escreve em outro repo). Resposta a "posso escrever no escritório?": NÃO.
+
 ---
 
 > **Arquivo GERENCIAL do escritório (canal D44) — NÃO é instrução de sistema do Claude Code.** Não substitui a constituição deste repo (`CLAUDE.md`). Diretriz aplicada sob o gate do projeto (D21).
@@ -103,6 +111,7 @@ A auditoria 2026-06-20 contestou a contagem "27 leis verbatim integrais". O mani
 > Trazido pelo Escritório do MOU (PMO). Forense de fechamento. O escritório recuperou o additive seguro; o resto é reconciliação SUA (D104).
 - **4 leis municipais SP IPTU/zoneamento RECUPERADAS ao main** por mim (additive): Lei 16.402/2016 (zoneamento), Decreto 57.443/2016, Leis 16.642/2017, 17.733/2022. Decisão "começa por TDC" mantida — guardadas para a fase IPTU.
 - **`claude/project-audit-roadmap-2thi1g`** (24/jun, +14 commit, ~91 arquivos únicos): além das 4 leis (já recuperadas), contém material de auditoria/mapeamento IPTU-TDC. ⚠️ tem arquivos que CONFLITAM com o main (ex.: outras leis com versão diferente — `lei-16050`, `lei-17844` divergem; NÃO sobrescrever às cegas, foi pego no resgate). Reconciliar: o que é corpus novo (additive) entra; versão de lei já existente, você decide a canônica. DoD: branch reconciliada OU declarada superseded. Gatilho: onda PU / orquestrador montado.
+- **🟥 DECISÃO DO MOU (2026-06-28) — REGRA "VERBATIM SEMPRE" + dono da execução.** Em conflito de lei entre a branch e o main, a versão **VERBATIM INTEGRAL** (a da branch — texto da lei na íntegra, `confianca_extracao:alta`) **SEMPRE** ganha sobre o stub/resumo do main (stub não se cita — fere P1.7). Aplica-se a `lei-16050/2014` (PDE, 7.172 linhas verbatim vs 14 no main) e `lei-17844/2022` (3.748 vs 14). **Quem EXECUTA = o Escritório/instância do PU sob o gate (D38/D21); NÃO o MOU** (balcão único, D56 — ele não roda prompt). **Timing:** executar DEPOIS de "arrumar a casa" (regularização), ordem do MOU 2026-06-28. **Refino factual (regularização 2026-06-28, auditado anti-self):** a branch tem **389 arquivos únicos** (não ~91) — ouro real: Q14 6.715 valores, PDE/17.844 verbatim, E5 provado. NÃO apagar a branch antes do PR mergeado e provado verde.
 
 ## Diretrizes — 2026-06-27 · PACOTE DE PADRONIZAÇÃO DE PROJETOS (trazido pelo Escritório do MOU)
 
