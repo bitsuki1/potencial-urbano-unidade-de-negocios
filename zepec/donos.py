@@ -8,22 +8,28 @@ from pathlib import Path
 Z=Path(__file__).resolve().parent
 def sm(s):
     d=re.sub(r'\D','',s or ''); return d[:10] if len(d)>=10 else ''
+def sm_parts(se,qu,lo):
+    s=re.sub(r'\D','',se or ''); q=re.sub(r'\D','',qu or ''); m=re.match(r'(\d{4})',(lo or '').strip())
+    return (s+q+m.group(1)) if (len(s)==3 and len(q)==3 and m) else ''
 
-# (arquivo, linha_cabecalho, col_sql, col_dono, col_atc, col_end, nome_fonte)
+# (arquivo, linha_cabecalho, col_sql (int OU tupla setor,quadra,lote), col_dono, col_atc, col_end|None, fonte)
 SOURCES=[
-    ("raw/externo/ANUAL-2022.csv", 0, 7, 13, 14, 15, "ANUAL-2022 (alvaras)"),
+    ("raw/externo/ANUAL-2022.csv",       0, 7,        13, 14, 15,   "ANUAL-2022 (alvaras)"),
+    ("raw/externo/sissel_ANO_2024.csv", 10, 22,       32, 33, 34,   "SISSEL-2024 (processos)"),
+    ("raw/externo/OODC_2024-2025.csv",   0, (6,7,8),  19, 58, None,  "OODC-2024-2025 (outorga)"),
 ]
 donos={}   # sql -> dict
 for arq,hr,cs,cd,ca,ce,fonte in SOURCES:
     p=Z/arq
     if not p.exists(): continue
-    rows=list(csv.reader(open(p,encoding='utf-8')))[hr+1:]
-    for r in rows:
-        if len(r)<=max(cs,cd,ca,ce): continue
-        k=sm(r[cs]); dono=r[cd].strip()
+    for r in list(csv.reader(open(p,encoding='utf-8')))[hr+1:]:
+        need=max([cd,ca]+([cs] if isinstance(cs,int) else list(cs))+([ce] if ce is not None else []))
+        if len(r)<=need: continue
+        k=sm_parts(r[cs[0]],r[cs[1]],r[cs[2]]) if isinstance(cs,tuple) else sm(r[cs])
+        dono=r[cd].strip()
         if not k or not dono: continue
         donos.setdefault(k, {"proprietario":dono,"area_terreno":r[ca].strip(),
-                             "endereco_fonte":r[ce].strip(),"fonte_dono":fonte})
+                             "endereco_fonte":(r[ce].strip() if ce is not None else ''),"fonte_dono":fonte})
 
 with (Z/"limpo/donos_encontrados.csv").open('w',newline='',encoding='utf-8') as f:
     w=csv.writer(f); w.writerow(['sql_mestre','proprietario','area_terreno','endereco_fonte','fonte_dono'])
