@@ -55,6 +55,12 @@ def negociabilidade(nome, tem_decl, tem_cert, vedado, esg, sem_lote, ouc):
     if sinais: return 'verificar','', ' | '.join(sinais)
     return 'sim','lote identificavel, sem sinal contrario',''
 
+# 1b) camada de donos (se ja gerada por donos.py)
+donos={}
+_dp=Z/"limpo/donos_encontrados.csv"
+if _dp.exists():
+    for r in csv.DictReader(open(_dp,encoding='utf-8')): donos[r['sql_mestre']]=r
+
 # 2) agrega a base unificada por SQL_MESTRE (e guarda os sem-SQL como individuais)
 rows=list(csv.reader(open(Z/"limpo/zepec_unificada.csv",encoding='utf-8')))
 idx={c:i for i,c in enumerate(rows[0])}; g=lambda r,c: r[idx[c]]
@@ -80,6 +86,7 @@ def classifica(tem_decl, tem_cert, eh_tombado, vedado, esg):
     return 'INCERTO','baixa'
 
 COLS=['sql_mestre','setor','quadra','lote','nome_bem','endereco_mestre','distrito',
+      'proprietario','fonte_dono',
       'tipo_zepec','esfera','estado_venda','certeza','negociavel','motivo_negociavel','sinais_revisar',
       'm2_ja_transferido','n_transferencias','tem_declaracao','tem_certidao','esgotado','data_ref','origens','obs']
 out=[]
@@ -104,7 +111,10 @@ def monta(sm, rs):
     return dict(sql_mestre=sm,setor=first(rs,'setor'),quadra=first(rs,'quadra'),lote=first(rs,'lote'),
         nome_bem=first(rs,'nome_bem',['TOMBADO_CADASTRO','ZEPEC_APC']),
         endereco_mestre=first(rs,'endereco_mestre',['DECLARACAO_BIR','CERTIDAO_BIR_CEDENTE','TOMBADO_CADASTRO','ZEPEC_APC']) or first(rs,'endereco_mestre'),
-        distrito=first(rs,'distrito'),tipo_zepec=tz,esfera=first(rs,'esfera',['TOMBADO_CADASTRO']),
+        distrito=first(rs,'distrito'),
+        proprietario=(donos.get(sm,{}).get('proprietario','') if sm else ''),
+        fonte_dono=(donos.get(sm,{}).get('fonte_dono','') if sm else ''),
+        tipo_zepec=tz,esfera=first(rs,'esfera',['TOMBADO_CADASTRO']),
         estado_venda=estado,certeza=cert,negociavel=neg,motivo_negociavel=motivo,sinais_revisar=sinais,
         m2_ja_transferido=(f"{round(transferido[sm],2)}" if sm and sm in transferido else ''),
         n_transferencias=(n_transf[sm] if sm and sm in n_transf else ''),
