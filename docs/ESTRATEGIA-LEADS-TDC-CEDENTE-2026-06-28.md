@@ -1,3 +1,11 @@
+> # ⚠️ SUPERADO (2026-06-28, mesma sessão) — redireção do MOU.
+> O MOU corrigiu o rumo: **agnóstico — sem opinião, sem valor, sem cruzar com lista receptora.** A lista
+> oficial **é** a planilha ZEPEC; o trabalho é **enriquecê-la**, não derivar/pontuar/precificar.
+> Logo, ficam REJEITADAS as partes deste doc: modelo de **valor** (§2), **rubrica/tiers** (§3), **casamento
+> cedente↔receptor** (§3 C3/§5), e as **opiniões/recomendações** (§6 E-01..03, §7).
+> **Vale como referência apenas** o mapeamento legal AGNÓSTICO de QUEM pode ceder (§1, arts. 122–133 — fato, citado).
+> **Doc vigente:** `docs/ENRIQUECIMENTO-PLANILHAS-ZEPEC-2026-06-28.md`. (nada se descarta — este fica como rastro.)
+
 # ESTRATÉGIA — Lista de Leads TDC, lado CEDENTE (venda de créditos)
 > Estudo estratégico · orquestrador do Potencial Urbano (PU 14) · 2026-06-28.
 > Direção do MOU (2026-06-28): mirar o **lado cedente** (quem GERA e VENDE potencial construtivo) e **elaborar estratégia** antes de codar.
