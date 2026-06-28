@@ -54,7 +54,7 @@ Cada campo entra carimbando `fonte` + `ano` + `oficialidade` (só fato, sem juí
 
 ## RESULTADO Etapa 1–3 (FEITO 2026-06-28) — `zepec/limpo/zepec_unificada.csv`
 `zepec/montar_base.py` juntou as 4 fontes **com tag `origem`**, canonizou **SQL→SQL_MESTRE** (10 díg, decomposto, DV à parte) e **estruturou o endereço** (tipo DNE + logradouro + números). Multi-lote por célula **explodido** (1 linha = 1 imóvel).
-- **7.175 linhas:** DECLARACAO_BIR 565 · CERTIDAO_BIR_CEDENTE 196 · TOMBADO_CADASTRO 6.409 · ZEPEC_APC 5.
+- **7.175 linhas (grão IMÓVEL, multi-lote explodido):** DECLARACAO_BIR 565 (de 407 declarações-fonte) · CERTIDAO_BIR_CEDENTE 196 (de 168 certidões-fonte) · TOMBADO_CADASTRO 6.409 · ZEPEC_APC 5.
 - **SQL_MESTRE: 5.336 ok · 1.791 ausente · 48 inválido.**
 - **Endereço: 5.307 com tipo reconhecido · 1.168 multi (vários nºs/ruas).**
 - Esfera derivada (municipal/estadual/federal) e categoria (BIR/APPa/AUE) trazidas do cadastro de tombados.

@@ -6,7 +6,7 @@
 |---|---|---|---|
 | 1 | ALTA | **Multi-lote: chave SQL divergia** entre base (explode) e ferramenta (só 1º lote) → `esgotado`/`m²`/OUC no SQL errado | ✅ **CORRIGIDO** — ferramenta agora explode lotes; flags p/ todos os irmãos, m² só no 1º (área é do conjunto, não duplica). Esgotado 6→9 |
 | 2 | ALTA | `esgotado` lido da col 14 por coincidência | ✅ documentado (col 14 = "N. Declaração Saldo"); regra mantida, índice explícito |
-| 3 | ALTA | Contagem 565≠407 (explosão infla "nº declarações") | 🔶 a rotular: `n_declaracoes`(407) vs `n_imoveis`(565) nos relatórios |
+| 3 | ALTA | Contagem 565≠407 (explosão infla "nº declarações") | ✅ **CORRIGIDO** — `montar_base` rotula grão: declaracoes-FONTE 407 → imoveis 565; certidoes 168 → 196 |
 | 4 | MÉD | `certeza='alta'` em conflito vedado×prova | 🔶 a rebaixar p/ média |
 | 5 | MÉD | negociável `sim` em vedado-que-vendeu sem sinal | 🔶 a marcar verificar+sinal |
 | 6-12| BAIXA | m² órfão sem SQL; denominador de cobertura; `_num` BR/US latente; OUC regex frágil; data ambígua em `data_ref` | 🔶 registrados |
@@ -33,7 +33,7 @@
 **Novas soluções propostas:** processo SEI do TDC = dono mais limpo (priorizar) · **FUNDURB = R$/m² regulatório** (Art.24 §5º LPUOS, ≠ preço de mercado) (o comparável de PREÇO que faltava) · validar engine segregando doação (Art.127) de sem-doação (Art.125) · OUC e áreas contaminadas como gates · Art.128+IPCA como 2ª checagem de preço.
 
 ## Pendências priorizadas (próxima rodada)
-1. Achados 3/4/5 do Agente 1 (rótulo de grão + certeza/negociável em conflito vedado).
+1. ✅ FEITO (etapa 2): achados 3/4/5 do Agente 1 — grão rotulado + certeza/negociável em conflito vedado.
 2. Modelar a **via de doação** (Art. 126/127) — alavanca comercial.
 3. Engine de preço com **Art. 128 + V por data** (não só PCpt×V).
 4. **FUNDURB** como fonte de preço real + intercorrências (já puxado).
