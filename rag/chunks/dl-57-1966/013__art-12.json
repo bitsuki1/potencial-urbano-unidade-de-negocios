@@ -8,6 +8,7 @@
     "Art. 12"
   ],
   "texto": "Art 12. Os tabeliães e oficiais do Registro de Imóvel franquearão seus livros, registros e demais papéis ao IBRA, por seus representantes devidamente credenciados, para a obtenção de elementos necessários ao Cadastro de Imóveis Rurais.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

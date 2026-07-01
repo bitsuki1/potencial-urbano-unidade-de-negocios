@@ -10,6 +10,7 @@
     "Art. 222"
   ],
   "texto": "Art. 222. São admitidos a registro unicamente:\n\na) escrituras públicas, inclusive as lavradas em consulados brasileiros;\n\nb) escritos particulares autorizado em lei, assinados pelas partes e testemunhas, com as firmas reconhecidas, dispensado o reconhecimento quando se tratar de atos praticados por entidades vinculadas ao Sistema Financeiro de Habitação;\n\nc) atos autênticos de países estrangeiros, com força de instrumento público, legalizados e traduzidos competentemente no idioma nacional e registrados no cartório de registro de títulos e documentos;\n\nd) cartas de sentença, mandados, formais de partilha e certidões extraídos de autos de processo.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

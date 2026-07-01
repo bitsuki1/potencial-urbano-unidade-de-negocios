@@ -10,6 +10,7 @@
     "Art. 20"
   ],
   "texto": "Art. 20. Aplicam-se ao ocupante do imóvel, a qualquer título, tôdas as obrigações referentes ao uso, fruição e destino da unidade.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

@@ -8,6 +8,7 @@
     "Art. 17"
   ],
   "texto": "Art 17. O Poder Executivo baixará dentro do prazo de 30 dias, regulamento sôbre a aplicação dêste Decreto-Lei.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

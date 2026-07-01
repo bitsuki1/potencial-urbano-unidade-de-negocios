@@ -9,6 +9,7 @@
     "Art. 196"
   ],
   "texto": "Art. 196. Os Registros Públicos de Empresas manterão banco de dados público e gratuito, disponível na rede mundial de computadores, contendo a relação de todos os devedores falidos ou em recuperação judicial.\n\nParágrafo único. Os Registros Públicos de Empresas deverão promover a integração de seus bancos de dados em âmbito nacional.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

@@ -10,6 +10,7 @@
     "Art. 38"
   ],
   "texto": "Art. 38. Antes da assinatura dos assentos, serão estes lidos às partes e às testemunhas, do que se fará menção.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

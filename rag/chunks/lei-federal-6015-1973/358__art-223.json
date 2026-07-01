@@ -10,6 +10,7 @@
     "Art. 223"
   ],
   "texto": "Art. 223. Em todas as escrituras e atos relativos a imóveis, bem como nas declarações de bens prestadas nos inventários e nos autos de partilha, o tabelião ou escrivão deve fazer referência à matrícula ou ao registro anterior, seu número e cartório.\n\n§ 1º Ficam sujeitas à mesma obrigação as partes que, por instrumento particular, celebrarem os atos relativos a imóveis.\n\n§ 2º Nas escrituras lavradas em decorrência de autorização judicial serão mencionados, por certidão em breve relatório, com todas as minúcias que permitam identificá-los, os respectivos alvarás.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

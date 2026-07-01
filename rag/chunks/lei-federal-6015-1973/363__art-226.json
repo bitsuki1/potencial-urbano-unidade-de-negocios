@@ -10,6 +10,7 @@
     "Art. 226"
   ],
   "texto": "Art. 226. Se o imóvel não estiver matriculado no Registro de Imóveis e lançado em nome do outorgante, far-se-á a matrícula pelo primeiro título que, na seqüência cronológica dos títulos de domínio, estiver registrado, qualquer que seja a sua natureza. Na matrícula assim formalizada, serão lançados a registro todos os títulos posteriores, até o registro do título apresentado.                      (Suprimido pela Lei nº 6.216, de 1975).\n\nParágrafo único. Se o imóvel estiver matriculado, mas da matrícula não constar lançamento em nome do outorgante, far-se-á na matrícula o registro pelo primeiro título que, na seqüência cronológica dos títulos de domínio, estiver registrado e registro de todos os títulos posteriores, até o lançamento do título apresentado.                        (Suprimido pela Lei nº 6.216, de 1975).",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

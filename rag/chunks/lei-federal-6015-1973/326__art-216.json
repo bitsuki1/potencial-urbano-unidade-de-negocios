@@ -10,6 +10,7 @@
     "Art. 216"
   ],
   "texto": "Art. 216. São nulos os registros feitos após sentença de abertura de falência, ou do termo legal nele fixado, salvo se a apresentação tiver sido feita anteriormente.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

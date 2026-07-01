@@ -10,6 +10,7 @@
     "Art. 17"
   ],
   "texto": "Art. 17. Da decisão judicial sobre a impugnação caberá agravo.\n\nParágrafo único. Recebido o agravo, o relator poderá conceder efeito suspensivo à decisão que reconhece o crédito ou determinar a inscrição ou modificação do seu valor ou classificação no quadro-geral de credores, para fins de exercício de direito de voto em assembléia-geral.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

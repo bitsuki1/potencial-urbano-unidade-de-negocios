@@ -9,6 +9,7 @@
     "Art. 14"
   ],
   "texto": "Art. 14. A LCI poderá contar com garantia fidejussória adicional de instituição financeira.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

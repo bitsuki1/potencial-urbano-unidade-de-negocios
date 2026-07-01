@@ -11,6 +11,7 @@
     "Art. 50"
   ],
   "texto": "Art. 50. Será designada no contrato de construção, ou eleita em assembléia especial devidamente convocada antes do início da obra, uma Comissão de Representantes, composta de 3 membros, pelo menos, escolhidos entre os contratantes, para representá-los junto ao construtor ou ao incorporador, no caso do art. 43, em tudo que interessar ao bom andamento da obra.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

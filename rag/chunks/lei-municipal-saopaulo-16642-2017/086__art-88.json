@@ -10,6 +10,7 @@
     "Art. 88"
   ],
   "texto": "Art. 88. Decorrido o prazo concedido, a Prefeitura deve adotar as seguintes medidas:\n\nI - pelo desatendimento da intimação, aplicar multas diárias ao infrator até que sejam adotadas as medidas exigidas;\n\nII - verificada a desobediência à interdição:\n\na) solicitar auxílio policial para o imediato cumprimento da interdição, lavrando o respectivo auto;\n\nb) noticiar imediatamente, à autoridade policial, o desrespeito à interdição, requerendo a instauração de inquérito policial para a apuração da responsabilidade do infrator por crime de desobediência;\n\nc) encaminhar o processo para as providências de ajuizamento da ação judicial cabível, sem prejuízo da incidência de multas diárias caso persista o desatendimento da intimação prevista no inciso I deste artigo.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

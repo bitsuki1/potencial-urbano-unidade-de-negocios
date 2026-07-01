@@ -8,6 +8,7 @@
     "Art. 8º"
   ],
   "texto": "Art. 8º O disposto no artigo anterior não dá direito à restituição das importâncias pagas, no todo ou em parte, ou depositadas por conta dos débitos.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

@@ -10,6 +10,7 @@
     "Art. 44"
   ],
   "texto": "Art. 44. O registro do edital de casamento conterá todas as indicações quanto à época de publicação e aos documentos apresentados, abrangendo também o edital remetido por outro oficial processante.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

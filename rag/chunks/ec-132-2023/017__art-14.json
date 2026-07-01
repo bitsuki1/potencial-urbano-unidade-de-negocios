@@ -8,6 +8,7 @@
     "Art. 14"
   ],
   "texto": "Art. 14. A União custeará, com posterior ressarcimento pelo Comitê Gestor do Imposto sobre Bens e Serviços de que trata o art. 156-B da Constituição Federal, as despesas necessárias para sua instalação.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

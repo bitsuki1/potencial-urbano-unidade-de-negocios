@@ -10,6 +10,7 @@
     "Art. 41"
   ],
   "texto": "Art. 41. Reputam-se inexistentes e sem efeitos jurídicos quaisquer emendas ou alterações posteriores, não ressalvadas ou não lançadas na forma indicada nos artigos 39 e 40.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

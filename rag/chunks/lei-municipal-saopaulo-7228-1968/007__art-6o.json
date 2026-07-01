@@ -8,6 +8,7 @@
     "Art. 6º"
   ],
   "texto": "Art. 6º Nenhum lançamento do imposto predial referente a imóvel construído, devidamente inscrito, será inferior ao montante devido, àquele título, no exercício de 1967, salvo ocorrendo modificação substancial nas características do imóvel.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

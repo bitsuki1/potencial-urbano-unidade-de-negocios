@@ -10,6 +10,7 @@
     "Art. 32"
   ],
   "texto": "Art. 32. O incorporador sòmente poderá negociar sôbre unidades autônomas após ter arquivado, no cartório competente de Registro de Imóveis, os seguintes documentos:",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

@@ -8,6 +8,7 @@
     "Art. 18"
   ],
   "texto": "Art. 18. O rendimento auferido por pessoas físicas ou pessoas jurídicas não tributadas com base no lucro real, inclusive isentas, decorrente da alienação de quotas ou da liquidação de Fundo de Investimento Imobiliário, sujeita-se à incidência do imposto sobre a renda, à mesma alíquota prevista para a tributação de rendimentos obtidos na alienação ou resgate de quotas de Fundos Mútuos de Ações.\n        § 1º A base de cálculo do imposto é constituída pela diferença positiva entre o valor de cessão das quotas ou de liquidação de investimento e o custo médio de aquisição da quota, atualizado de acordo com a variação do valor da Ufir diária da data de aquisição das quotas até a conversão das quotas em cruzeiros.\n         § 2º O rendimento auferido por investidores residentes ou domiciliados no exterior sujeita-se à incidência de imposto sobre a renda, nos termos da legislação aplicável a essa classe de contribuintes.\n         § 3º É vedada a compensação do prejuízo havido em uma operação de cessão de quotas ou de liquidação do investimento com lucro obtido em outra, da mesma ou de diferente espécie.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

@@ -10,6 +10,7 @@
     "Art. 40-A"
   ],
   "texto": "Art. 40-A. As edificações de que trata esta Lei, enquanto seus processos de regularização estiverem\n\nem andamento, não serão passíveis de sanção em decorrência de infrações regularizáveis conforme o",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

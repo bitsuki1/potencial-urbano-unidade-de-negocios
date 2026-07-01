@@ -9,6 +9,7 @@
     "Art. 112"
   ],
   "texto": "Art. 112. Ficam isentos do pagamento da TEV/COE e taxas em geral, bem como dispensados do pagamento dos preços públicos os pedidos de parcelamento do solo de interesse social e de mercado popular.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

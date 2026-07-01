@@ -10,6 +10,7 @@
     "Art. 155"
   ],
   "texto": "Art. 155. Julgadas as contas do administrador judicial, ele apresentará o relatório final da falência no prazo de 10 (dez) dias, indicando o valor do ativo e o do produto de sua realização, o valor do passivo e o dos pagamentos feitos aos credores, e especificará justificadamente as responsabilidades com que continuará o falido.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

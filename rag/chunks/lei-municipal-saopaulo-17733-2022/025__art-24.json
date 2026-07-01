@@ -9,6 +9,7 @@
     "Art. 24"
   ],
   "texto": "Art. 24. As ERBs regularmente implantadas até a data da entrada em vigor desta Lei, desde que não\n\ntenham sofrido qualquer alteração, deverão renovar o respectivo licenciamento ou cadastramento, no\n\nprazo de 2 (dois) anos, contado da data da publicação do decreto regulamentar.\n\nParágrafo único. As mini ERBs e ERBs móvel regularmente instaladas até a data da entrada em vigor\n\ndesta Lei permanecerão regulares até o término de validade de seu respectivo cadastro.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

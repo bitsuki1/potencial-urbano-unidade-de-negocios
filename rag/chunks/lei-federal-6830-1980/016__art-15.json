@@ -8,6 +8,7 @@
     "Art. 15"
   ],
   "texto": "Art. 15 - Em qualquer fase do processo, será deferida pelo Juiz:\n\nI - ao executado, a substituição da penhora por depósito em dinheiro ou fiança bancária; e\n\nI - ao executado, a substituição da penhora por depósito em dinheiro, fiança bancária ou seguro garantia; e                      (Redação dada pela Lei nº 13.043, de 2014)\n\nII - à Fazenda Pública, a substituição dos bens penhorados por outros, independentemente da ordem enumerada no artigo 11, bem como o reforço da penhora insuficiente.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "compilado",
     "revogado_por": null,

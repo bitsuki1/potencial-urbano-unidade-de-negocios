@@ -8,6 +8,7 @@
     "Art. 14"
   ],
   "texto": "Art 14. O disposto no art. 29 da Lei 5.172, de 25 de outubro de 1966, não abrange o imóvel que, comprovadamente, seja utilizado como \"sítio de recreio\" e no qual a eventual produção não se destine ao comércio, incidindo assim, sôbre o mesmo impôsto sôbre a Propriedade Predial e Territorial Urbana, a que se refere o art. 32 da mesma lei.         (Revogado pela lei nº 5.868, de 1972)",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

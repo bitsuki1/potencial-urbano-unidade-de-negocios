@@ -9,6 +9,7 @@
     "Art. 66"
   ],
   "texto": "Art. 66. Esta Lei entra em vigor na data de sua publicação.\n\nRevogações",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

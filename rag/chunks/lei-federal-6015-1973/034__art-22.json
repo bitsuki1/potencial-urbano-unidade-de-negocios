@@ -10,6 +10,7 @@
     "Art. 22"
   ],
   "texto": "Art. 22. Os livros de registro, bem como as fichas que os substituam, somente sairão do respectivo cartório mediante autorização judicial.                            (Redação dada pela Lei nº 6.216, de 1975)",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "compilado",
     "revogado_por": null,

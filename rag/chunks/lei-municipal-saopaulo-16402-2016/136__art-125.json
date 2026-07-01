@@ -10,6 +10,7 @@
     "Art. 125"
   ],
   "texto": "Art. 125. Não poderão ter destinação diversa as edificações que tenham se beneficiado dos incentivos\n\nespecíficos aos estabelecimentos de ensino, aos hospitais, aos hotéis e aos locais de culto previstos\n\nnesta lei.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

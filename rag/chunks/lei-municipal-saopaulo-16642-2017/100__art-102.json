@@ -9,6 +9,7 @@
     "Art. 102"
   ],
   "texto": "Art. 102. Para os fins deste Código, consideram-se fixados os atuais alinhamentos e nivelamento dos logradouros públicos existentes no Município de São Paulo, oficializados ou pertencentes a loteamento aceito ou regularizado, bem como daqueles oriundos de melhoramento viário executado sob a responsabilidade do Poder Público Municipal, Estadual ou Federal.\n\nParágrafo único. No caso de indefinição, a pedido do interessado, a Prefeitura deve fornecer o alinhamento e nivelamento, mediante a emissão de certidão.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

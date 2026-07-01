@@ -9,6 +9,7 @@
     "Art. 32"
   ],
   "texto": "Art. 32. A constituição da garantia poderá ser feita na própria Cédula de Crédito Bancário ou em documento separado, neste caso fazendo-se, na Cédula, menção a tal circunstância.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

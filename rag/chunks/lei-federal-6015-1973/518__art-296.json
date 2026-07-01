@@ -9,6 +9,7 @@
     "Art. 296"
   ],
   "texto": "Art. 296 - Revogam-se a Lei nº 4.827, de 7 de março de 1924, os Decretos nºs 4.857, de 9 de novembro de 1939, 5.318, de 29 de fevereiro 1940, 5.553, de 6 de maio de 1940, e as demais disposições em contrário.                    (Renumerado do art. 310 com nova redação, pela Lei nº 6.216, de 1975)",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

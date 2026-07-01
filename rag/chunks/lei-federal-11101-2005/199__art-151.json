@@ -10,6 +10,7 @@
     "Art. 151"
   ],
   "texto": "Art. 151. Os créditos trabalhistas de natureza estritamente salarial vencidos nos 3 (três) meses anteriores à decretação da falência, até o limite de 5 (cinco) salários-mínimos por trabalhador, serão pagos tão logo haja disponibilidade em caixa.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

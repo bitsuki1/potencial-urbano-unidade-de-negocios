@@ -10,6 +10,7 @@
     "Art. 178"
   ],
   "texto": "Art. 178. Se a mesma pessoa ou o mesmo imóvel já estiverem no Indicador Pessoal ou no Real, somente se fará referência na respectiva coluna ou ficha, ao número de ordem do livro em que se lavrar o novo registro.                (Suprimido pela Lei nº 6.216, de 1975).",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

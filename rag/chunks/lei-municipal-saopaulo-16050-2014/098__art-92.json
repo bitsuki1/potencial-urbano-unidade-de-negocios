@@ -11,6 +11,7 @@
     "Art. 92"
   ],
   "texto": "Art. 92. São considerados imóveis não edificados os lotes e glebas com área superior a 500m² (quinhentos metros quadrados),\n\ncom coeficiente de aproveitamento utilizado igual a 0 (zero).\n\n§ 1º As obrigações estabelecidas por esta lei aos proprietários de imóveis caracterizados no “caput” não serão aplicadas enquanto\n\no terreno não tiver acesso à infraestrutura básica, assim definida pela legislação federal de parcelamento do solo urbano,\n\nressalvados os casos em que os equipamentos urbanos ali estabelecidos possam ser exigidos no processo de licenciamento.\n\n§ 2º A tipificação estabelecida no “caput” se estende aos lotes com metragem inferior a 500m² (quinhentos metros quadrados),\n\nquando:\n\na) originários de desmembramentos aprovados após a publicação desta lei; ou que,\n\nb) somados a outros contíguos do mesmo proprietário perfaçam área superior a 500m² (quinhentos metros quadrados).",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

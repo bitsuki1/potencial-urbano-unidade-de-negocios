@@ -10,6 +10,7 @@
     "Art. 227"
   ],
   "texto": "Art. 227 - Todo imóvel objeto de título a ser registrado deve estar matriculado no Livro nº 2 - Registro Geral - obedecido o disposto no art. 176.                      (Renumerado do art. 224 com nova redação pela Lei nº 6.216, de 1975).",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

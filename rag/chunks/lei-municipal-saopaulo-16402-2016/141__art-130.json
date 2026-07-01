@@ -9,6 +9,7 @@
     "Art. 130"
   ],
   "texto": "Art. 130. As edificações serão consideradas em situação regular nas hipóteses previstas pela\n\nlegislação edilícia.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

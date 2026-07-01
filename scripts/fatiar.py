@@ -196,6 +196,11 @@ def fatiar_lei(md_path: Path, reportar):
             "numero": d["numero"],
             "caminho_hierarquico": d["caminho"],
             "texto": d["texto"],
+            # B-11d: preâmbulo = boilerplate do portal (órgão, título, data de captura, ementa, fórmula
+            # de promulgação) — CONTEXTO, não dispositivo. Marcado NÃO-CITÁVEL: o RAG não pode fundamentar
+            # uma resposta citando o preâmbulo (defeito real: "Presidência da República Casa Civil…" vinha
+            # como FUNDAMENTADA). `consultar.py` o exclui por padrão (flag --incluir-nao-citavel reabre).
+            "citavel": d["tipo"] != "preambulo",
             # B-11c: vigência POR CHUNK (revogado/compilado/original) — deriva do próprio verbatim (1.6).
             "vigencia_dispositivo": vigencia_dispositivo(d["texto"]),
             # citação pré-montada (1.7): tudo que uma resposta precisa para fundamentar

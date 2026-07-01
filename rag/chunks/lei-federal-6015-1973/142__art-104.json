@@ -10,6 +10,7 @@
     "Art. 104"
   ],
   "texto": "Art. 104. No livro de emancipações, interdições e ausências, será feita a averbação das sentenças que puserem termo à interdição, das substituições dos curadores de interditos ou ausentes, das alterações dos limites de curatela, da cessação ou mudança de internação, bem como da cessação da ausência pelo aparecimento do ausente, de acordo com o disposto nos artigos anteriores.                          (Renumerado do art. 105  pela Lei nº 6.216, de 1975).\n\nParágrafo único. Averbar-se-á, também, no assento de ausência, a sentença de abertura de sucessão provisória, após o trânsito em julgado, com referência especial ao testamento do ausente se houver e indicação de seus herdeiros habilitados.                    (Renumerado com nova redação pela Lei nº 6.216, de 1975).",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

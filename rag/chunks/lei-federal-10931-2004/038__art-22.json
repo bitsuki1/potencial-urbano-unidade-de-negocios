@@ -9,6 +9,7 @@
     "Art. 22"
   ],
   "texto": "Art. 22. A cessão do crédito representado por CCI poderá ser feita por meio de sistemas de registro e de liquidação financeira de títulos privados autorizados pelo Banco Central do Brasil.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

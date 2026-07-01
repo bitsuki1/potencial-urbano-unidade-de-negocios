@@ -10,6 +10,7 @@
     "Art. 89"
   ],
   "texto": "Art. 89. O atendimento da intimação não desobriga o proprietário ou possuidor e o responsável técnico pela obra do cumprimento das formalidades necessárias à regularização da obra, sob pena de aplicação das sanções cabíveis.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

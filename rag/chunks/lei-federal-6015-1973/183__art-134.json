@@ -10,6 +10,7 @@
     "Art. 134"
   ],
   "texto": "Art. 134. O Juiz, em caso de afluência de serviço, poderá autorizar o desdobramento dos livros de registro para escrituração das várias espécie de atos, sem prejuízo da unidade do protocolo e de sua numeração em ordem rigorosa.                     (Renumerado do art. 135 pela Lei nº 6.216, de 1975).\n\nParágrafo único. Esses livros desdobrados terão as indicações de E, F, G, H, etc.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

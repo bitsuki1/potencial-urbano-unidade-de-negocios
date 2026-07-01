@@ -10,6 +10,7 @@
     "Art. 272"
   ],
   "texto": "Art. 272. Se o devedor comparecer e quiser efetuar a remição, notificar-se-á o credor para receber o preço, ficando sem efeito o depósito realizado pelo autor.                      (Renumerado do art. 273, pela Lei nº 6.216, de 1975)",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

@@ -8,6 +8,7 @@
     "Art. 1º"
   ],
   "texto": "Art. 1º Ficam instituídos Fundos de Investimento Imobiliário, sem personalidade jurídica, caracterizados pela comunhão de recursos captados por meio do Sistema de Distribuição de Valores Mobiliários, na forma da Lei nº 6.385, de 7 de dezembro de 1976, destinados a aplicação em empreendimentos imobiliários.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

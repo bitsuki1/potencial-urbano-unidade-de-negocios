@@ -10,6 +10,7 @@
     "Art. 57"
   ],
   "texto": "Art. 57. Para os imóveis classificados como ZEPEC-BIR com área de terreno de até 1.000 m² (mil\n\nmetros quadrados), localizados na AIU-SCE e no âmbito de seus perímetros expandidos, será aplicado\n\nao cálculo do potencial construtivo passível de transferência - PCpt, previsto na legislação urbanística\n\nordinária, o fator setor central – FSCE de 2,0 (dois inteiros), segundo a equação a seguir:\n\nPCpt = ATC x CAbas x Fi x FSCE, onde:\n\nPCpt – potencial construtivo passível de transferência;\n\nATC – área do terreno cedente;\n\nCAbas – coeficiente de aproveitamento básico do terreno cedente, vigente na data de referência;\n\nFi – Fator de Incentivo, vigente na data de referência;\n\nFSCE – fator setor central = 2,0.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

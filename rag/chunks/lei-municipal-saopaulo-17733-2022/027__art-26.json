@@ -9,6 +9,7 @@
     "Art. 26"
   ],
   "texto": "Art. 26. Os processos de licenciamento e regularização de ERB protocolados até a data da entrada em\n\nvigor desta Lei e sem despacho decisório em última instância serão encerrados.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

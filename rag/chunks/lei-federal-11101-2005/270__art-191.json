@@ -9,6 +9,7 @@
     "Art. 191"
   ],
   "texto": "Art. 191. Ressalvadas as disposições específicas desta Lei, as publicações ordenadas serão feitas preferencialmente na imprensa oficial e, se o devedor ou a massa falida comportar, em jornal ou revista de circulação regional ou nacional, bem como em quaisquer outros periódicos que circulem em todo o país.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

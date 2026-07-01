@@ -9,6 +9,7 @@
     "Art. 305"
   ],
   "texto": "Art. 305. No exercício de suas funções, cumpre aos oficiais de registro fazer rigorosa fiscalização do pagamento dos impostos devidos por força dos atos que lhes forem apresentados em razão do ofício.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

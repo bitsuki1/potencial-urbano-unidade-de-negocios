@@ -10,6 +10,7 @@
     "Art. 104"
   ],
   "texto": "Art. 104. A decretação da falência impõe ao falido os seguintes deveres:",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

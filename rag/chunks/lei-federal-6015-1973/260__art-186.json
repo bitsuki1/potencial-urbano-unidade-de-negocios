@@ -10,6 +10,7 @@
     "Art. 186"
   ],
   "texto": "Art. 186. A escrituração do protocolo incumbirá tanto ao oficial titular como ao auxiliar expressamente designado por aquele e autorizado pelo Juiz competente, ainda que o primeiro não esteja afastado ou impedido.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

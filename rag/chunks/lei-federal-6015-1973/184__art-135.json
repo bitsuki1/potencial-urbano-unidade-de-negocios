@@ -10,6 +10,7 @@
     "Art. 135"
   ],
   "texto": "Art. 135. O protocolo deverá conter colunas para as seguintes anotações:                      (Renumerado do art. 136 pela Lei nº 6.216, de 1975).\n\n1°) número de ordem, continuando, indefinidamente, nos seguintes;\n\n2º) dia e mês;\n\n3º) natureza do título e qualidade do lançamento (integral, resumido, penhor, etc.);\n\n4º) o nome do apresentante;\n\n5º) anotações e averbações.\n\nParágrafo único. Em seguida ao registro, far-se-á, no protocolo, remissão ao número da página do livro em que foi ele lançado, mencionando-se, também, o número e a página de outros livros em que houver qualquer nota ou declaração concernente ao mesmo ato.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

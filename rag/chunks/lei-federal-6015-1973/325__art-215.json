@@ -10,6 +10,7 @@
     "Art. 215"
   ],
   "texto": "Art. 215. As nulidades de pleno direito do registro, uma vez provadas, invalidam-no, independentemente de ação direta.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

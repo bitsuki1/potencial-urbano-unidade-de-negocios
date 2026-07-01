@@ -10,6 +10,7 @@
     "Art. 61"
   ],
   "texto": "Art. 61. Proferida a decisão prevista no art. 58 desta Lei, o devedor permanecerá em recuperação judicial até que se cumpram todas as obrigações previstas no plano que se vencerem até 2 (dois) anos depois da concessão da recuperação judicial.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

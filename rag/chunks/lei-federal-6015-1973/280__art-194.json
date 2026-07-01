@@ -10,6 +10,7 @@
     "Art. 194"
   ],
   "texto": "Art. 194.  Os títulos físicos serão digitalizados, devolvidos aos apresentantes e mantidos exclusivamente em arquivo digital, nos termos estabelecidos pela Corregedoria Nacional de Justiça do Conselho Nacional de Justiça. (Redação dada pela Medida Provisória nº 1.085, de 2021)",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "compilado",
     "revogado_por": null,

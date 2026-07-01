@@ -9,6 +9,7 @@
     "Art. 4º"
   ],
   "texto": "Art. 4º Para cada incorporação submetida ao regime especial de tributação, a incorporadora ficará sujeita ao pagamento equivalente a sete por cento da receita mensal recebida, o qual corresponderá ao pagamento mensal unificado dos seguintes impostos e contribuições:",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

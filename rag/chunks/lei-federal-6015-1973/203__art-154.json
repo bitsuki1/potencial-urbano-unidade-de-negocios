@@ -10,6 +10,7 @@
     "Art. 154"
   ],
   "texto": "Art. 154. Nos termos de encerramento diário do protocolo, lavrados ao findar a hora regulamentar, deverão ser mencionados, pelos respectivos números, os títulos apresentados cujos registros ficarem adiados, com a declaração dos motivos do adiamento.                        (Renumerado do art. 155  pela Lei nº 6.216, de 1975).\n\nParágrafo único. Ainda que o expediente continue para ultimação do serviço, nenhuma nova apresentação será admitida depois da hora regulamentar.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

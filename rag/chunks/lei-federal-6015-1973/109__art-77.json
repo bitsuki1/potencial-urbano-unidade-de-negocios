@@ -10,6 +10,7 @@
     "Art. 77"
   ],
   "texto": "Art. 77. Nos casamentos celebrados em iminente risco de vida, sem a presença da autoridade competente, as testemunhas comparecerão, dentro em cinco (5) dias, perante a autoridade judicial mais próxima, a fim de que sejam reduzidas a termo as suas declarações.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

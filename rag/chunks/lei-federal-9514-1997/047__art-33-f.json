@@ -9,6 +9,7 @@
     "Art. 33-F"
   ],
   "texto": "Art. 33-F.  O disposto nos arts. 33-A a 33-E desta Lei não se aplica às operações de transferência de dívida decorrentes de cessão de crédito entre entidades que compõem o Sistema Financeiro da Habitação, desde que a citada transferência independa de manifestação do mutuário. (Incluído pela Lei nº 12.810, de 2013)\n\nCAPÍTULO III\n\nDisposições Gerais e Finais",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

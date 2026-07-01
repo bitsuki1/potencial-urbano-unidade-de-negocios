@@ -10,6 +10,7 @@
     "Art. 169"
   ],
   "texto": "Art. 169. Violar, explorar ou divulgar, sem justa causa, sigilo empresarial ou dados confidenciais sobre operações ou serviços, contribuindo para a condução do devedor a estado de inviabilidade econômica ou financeira:\n\nPena – reclusão, de 2 (dois) a 4 (quatro) anos, e multa.\n\nDivulgação de informações falsas",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

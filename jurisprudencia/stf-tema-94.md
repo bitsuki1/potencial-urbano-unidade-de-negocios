@@ -10,7 +10,7 @@
 ## Contexto da tese de IPTU
 Par lógico da Súmula 668: enquanto a Súmula 668/Tema 155 trata do período **anterior** à EC 29/2000 (progressividade fiscal vedada), o Tema 94 firma que **depois** da EC 29/2000 a progressividade **fiscal** do IPTU (em razão do valor venal) é **constitucional**, desde que prevista em lei municipal.
 
-> ANTÍTESE/nota: redação exata da tese a conferir no acórdão oficial; confiança média.
+> ANTÍTESE/nota: **confiança ALTA** — a tese foi CONFERIDA contra a fonte oficial STF e a redação ajustada ao literal ("de acordo com o valor do imóvel"); leading case RE 586.693, Rel. Min. Marco Aurélio (ver `verificacao_verbatim` no `.json`). _[B-22, 2026-07-01: nota de confiança sincronizada .md↔.json — antes dizia "confiança média", contradizendo o `.json` já verificado.]_
 
 ## Texto capturado (verbatim de tela — 2026-06-18)
 

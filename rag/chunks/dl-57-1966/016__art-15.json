@@ -8,6 +8,7 @@
     "Art. 15"
   ],
   "texto": "Art 15. O disposto no art. 32 da Lei nº 5.172, de 25 de outubro de 1966, não abrange o imóvel de que, comprovadamente, seja utilizado em exploração extrativa vegetal, agrícola, pecuária ou agro-industrial, incidindo assim, sôbre o mesmo, o ITR e demais tributos com o mesmo cobrados.         (Revogado pela lei nº 5.868, de 1972)",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

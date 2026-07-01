@@ -10,6 +10,7 @@
     "Art. 172"
   ],
   "texto": "Art. 172. Praticar, antes ou depois da sentença que decretar a falência, conceder a recuperação judicial ou homologar plano de recuperação extrajudicial, ato de disposição ou oneração patrimonial ou gerador de obrigação, destinado a favorecer um ou mais credores em prejuízo dos demais:\n\nPena – reclusão, de 2 (dois) a 5 (cinco) anos, e multa.\n\nParágrafo único. Nas mesmas penas incorre o credor que, em conluio, possa beneficiar-se de ato previsto no caput deste artigo.\n\nDesvio, ocultação ou apropriação de bens",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

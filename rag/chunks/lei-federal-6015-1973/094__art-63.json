@@ -10,6 +10,7 @@
     "Art. 63"
   ],
   "texto": "Art. 63. No caso de gêmeos, será declarada no assento especial de cada um a ordem de nascimento. Os gêmeos que tiverem o prenome igual deverão ser inscritos com duplo prenome ou nome completo diverso, de modo que possam distinguir-se.                     (Renumerado do art.  64, pela Lei nº 6.216, de 1975).\n\nParágrafo único. Também serão obrigados a duplo prenome, ou a nome completo diverso, os irmãos a que se pretender dar o mesmo prenome.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

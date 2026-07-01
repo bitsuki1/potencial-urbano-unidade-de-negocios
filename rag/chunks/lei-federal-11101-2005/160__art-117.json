@@ -10,6 +10,7 @@
     "Art. 117"
   ],
   "texto": "Art. 117. Os contratos bilaterais não se resolvem pela falência e podem ser cumpridos pelo administrador judicial se o cumprimento reduzir ou evitar o aumento do passivo da massa falida ou for necessário à manutenção e preservação de seus ativos, mediante autorização do Comitê.\n\n§ 1º O contratante pode interpelar o administrador judicial, no prazo de até 90 (noventa) dias, contado da assinatura do termo de sua nomeação, para que, dentro de 10 (dez) dias, declare se cumpre ou não o contrato.\n\n§ 2º A declaração negativa ou o silêncio do administrador judicial confere ao contraente o direito à indenização, cujo valor, apurado em processo ordinário, constituirá crédito quirografário.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

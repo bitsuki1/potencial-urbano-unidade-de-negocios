@@ -10,6 +10,7 @@
     "Art. 179"
   ],
   "texto": "Art. 179 - O Livro nº 4 - Indicador Real - será o repositório de todos os imóveis que figurarem nos demais livros, devendo conter sua identificação, referência aos números de ordem dos outros livros e anotações necessárias.                   (Renumerado do art. 176 com nova redação pela Lei nº 6.216, de 1975).\n\n§ 1º Se não for utilizado o sistema de fichas, o Livro nº 4 conterá, ainda, o número de ordem, que seguirá indefinidamente, nos livros da mesma espécie.\n\n§ 2º Adotado o sistema previsto no parágrafo precedente, os oficiais deverão ter, para auxiliar a consulta, um livro-índice ou fichas pelas ruas, quando se tratar de imóveis urbanos, e pelos nomes e situações, quando rurais.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

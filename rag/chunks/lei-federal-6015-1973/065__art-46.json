@@ -10,6 +10,7 @@
     "Art. 46"
   ],
   "texto": "Art. 46. As declarações de nascimento feitas após o decurso do prazo legal somente serão registradas mediante despacho do Juiz competente do lugar da residência do interessado e recolhimento de multa correspondente a 1/10 do salário mínimo da região.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

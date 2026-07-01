@@ -10,6 +10,7 @@
     "Art. 78"
   ],
   "texto": "Art. 78. Nenhum enterramento será feito sem certidão de oficial de registro do lugar do falecimento, extraída após a lavratura do assento de óbito, em vista do atestado do médico, se houver no lugar, ou, em caso contrário, de duas pessoas qualificadas, que tiverem presenciado ou verificado a morte.\n\nParágrafo único. Antes de proceder ao assento de óbito de criança de menos de um ano, o oficial indagará se foi registrado o nascimento, e fará a verificação no respectivo livro quando houver sido no seu cartório; em caso de falta, tomará previamente o assento omitido.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

@@ -10,6 +10,7 @@
     "Art. 96"
   ],
   "texto": "Art. 96. A falência requerida com base no art. 94, inciso I do caput, desta Lei, não será decretada se o requerido provar:\n\nI – falsidade de título;\n\nII – prescrição;\n\nIII – nulidade de obrigação ou de título;\n\nIV – pagamento da dívida;\n\nV – qualquer outro fato que extinga ou suspenda obrigação ou não legitime a cobrança de título;\n\nVI – vício em protesto ou em seu instrumento;\n\nVII – apresentação de pedido de recuperação judicial no prazo da contestação, observados os requisitos do art. 51 desta Lei;\n\nVIII – cessação das atividades empresariais mais de 2 (dois) anos antes do pedido de falência, comprovada por documento hábil do Registro Público de Empresas, o qual não prevalecerá contra prova de exercício posterior ao ato registrado.\n\n§ 1º Não será decretada a falência de sociedade anônima após liquidado e partilhado seu ativo nem do espólio após 1 (um) ano da morte do devedor.\n\n§ 2º As defesas previstas nos incisos I a VI do caput deste artigo não obstam a decretação de falência se, ao final, restarem obrigações não atingidas pelas defesas em montante que supere o limite previsto naquele dispositivo.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

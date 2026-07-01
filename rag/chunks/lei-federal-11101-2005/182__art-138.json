@@ -10,6 +10,7 @@
     "Art. 138"
   ],
   "texto": "Art. 138. O ato pode ser declarado ineficaz ou revogado, ainda que praticado com base em decisão judicial, observado o disposto no art. 131 desta Lei.\n\nParágrafo único. Revogado o ato ou declarada sua ineficácia, ficará rescindida a sentença que o motivou.\n\nSeção X\n\nDa Realização do Ativo",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

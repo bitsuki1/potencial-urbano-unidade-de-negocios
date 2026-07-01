@@ -11,6 +11,7 @@
     "Art. 42"
   ],
   "texto": "Art. 42. A tipologia de zonas, descrita nos arts. 32 a 40 desta lei, ressalvada a ZER-1, poderá ser ampliada na revisão da LPUOS\n\ncom a criação de novos tipos e com a divisão das zonas citadas em subtipos considerando características físico-ambientais,\n\ndensidades demográfica e construtiva existentes e planejadas, tipologia de edificações e diversidade de atividades permitidas,\n\nsegundo os objetivos e as diretrizes de desenvolvimento urbano definidos neste PDE.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

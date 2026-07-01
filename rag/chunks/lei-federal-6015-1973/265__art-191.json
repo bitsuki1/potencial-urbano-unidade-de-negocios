@@ -10,6 +10,7 @@
     "Art. 191"
   ],
   "texto": "Art. 191. Não serão registrados, no mesmo dia, títulos pelos quais se constituam direitos reais contraditórios sobre o mesmo imóvel.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

@@ -10,6 +10,7 @@
     "Art. 122"
   ],
   "texto": "Art. 122. Compensam-se, com preferência sobre todos os demais credores, as dívidas do devedor vencidas até o dia da decretação da falência, provenha o vencimento da sentença de falência ou não, obedecidos os requisitos da legislação civil.\n\nParágrafo único. Não se compensam:\n\nI – os créditos transferidos após a decretação da falência, salvo em caso de sucessão por fusão, incorporação, cisão ou morte; ou\n\nII – os créditos, ainda que vencidos anteriormente, transferidos quando já conhecido o estado de crise econômico-financeira do devedor ou cuja transferência se operou com fraude ou dolo.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

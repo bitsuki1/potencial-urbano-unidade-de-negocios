@@ -10,6 +10,7 @@
     "Art. 90"
   ],
   "texto": "Art. 90. Da sentença que julgar o pedido de restituição caberá apelação sem efeito suspensivo.\n\nParágrafo único. O autor do pedido de restituição que pretender receber o bem ou a quantia reclamada antes do trânsito em julgado da sentença prestará caução.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

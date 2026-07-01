@@ -10,6 +10,7 @@
     "Art. 45"
   ],
   "texto": "Art. 45. Mediante procedimento administrativo e a pedido do proprietário ou possuidor, a Prefeitura concede Alvará de Autorização para:\n\nI - implantação ou utilização de edificação transitória ou equipamento transitório, incluído estande de vendas no mesmo local de implantação da obra;\n\nII - utilização temporária de edificação licenciada para uso diverso;\n\nIII - avanço de tapume sobre parte do passeio público;\n\nIV - avanço de grua sobre o espaço público;\n\nV - instalação de canteiro de obras e estande de vendas em imóvel distinto daquele em que a obra será executada.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

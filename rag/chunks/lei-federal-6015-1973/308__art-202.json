@@ -10,6 +10,7 @@
     "Art. 202"
   ],
   "texto": "Art. 202. Impugnada a dúvida, o Juiz proferirá a sentença no prazo de cinco (5) dias, com os elementos constantes dos autos.\n\nParágrafo único. Da sentença poderão interpor recurso de apelação, com ambos os efeitos o interessado, o Ministério Público e o terceiro prejudicado.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

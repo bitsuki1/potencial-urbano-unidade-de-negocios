@@ -10,6 +10,7 @@
     "Art. 169"
   ],
   "texto": "Art. 169.  Todos os atos enumerados no art. 167 são obrigatórios e serão efetuados na serventia da situação do imóvel, observado o seguinte:    (Redação dada pela Medida Provisória nº 1.085, de 2021)",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "compilado",
     "revogado_por": null,

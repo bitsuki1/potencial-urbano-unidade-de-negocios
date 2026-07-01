@@ -10,6 +10,7 @@
     "Art. 231"
   ],
   "texto": "Art. 231. Quando dois ou mais imóveis contíguos, pertencentes ao mesmo proprietário, constarem em matrículas autônomas, o proprietário pode requerer a fusão delas em uma só, de novo número, encerrando-se as primitivas.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

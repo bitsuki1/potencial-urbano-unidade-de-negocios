@@ -10,6 +10,7 @@
     "Art. 49"
   ],
   "texto": "Art. 49. Os oficiais do registro civil remeterão à Fundação Instituto Brasileiro de Geografia e Estatística, dentro dos primeiros oito (8) dias dos meses de janeiro, abril, julho e outubro de cada ano, um mapa dos nascimentos, casamentos e óbitos ocorridos no trimestre anterior, com a indicação dos nomes das pessoas às quais se refiram os registros.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

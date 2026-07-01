@@ -8,6 +8,7 @@
     "Art. 8º"
   ],
   "texto": "Art. 8º O fiduciário administrará os bens adquiridos em fidúcia e deles disporá na forma e para os fins estabelecidos no regulamento do fundo ou em assembléia de quotistas, respondendo em caso de má gestão, gestão temerária, conflito de interesses, descumprimento do regulamento do fundo ou de determinação da assembléia de quotistas.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

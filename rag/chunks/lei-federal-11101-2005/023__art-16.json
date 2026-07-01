@@ -10,6 +10,7 @@
     "Art. 16"
   ],
   "texto": "Art. 16. O juiz determinará, para fins de rateio, a reserva de valor para satisfação do crédito impugnado.\n\nParágrafo único. Sendo parcial, a impugnação não impedirá o pagamento da parte incontroversa.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

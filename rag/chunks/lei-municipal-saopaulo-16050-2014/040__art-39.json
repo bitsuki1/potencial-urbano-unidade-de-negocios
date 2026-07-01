@@ -11,6 +11,7 @@
     "Art. 39"
   ],
   "texto": "Art. 39. As Zonas de Ocupação Especial – ZOE são porções do território destinadas a abrigar predominantemente atividades que,\n\npor suas características únicas, como aeroportos, centros de convenção, grandes áreas de lazer, recreação e esportes, necessitem\n\ndisciplina especial de uso e ocupação do solo.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

@@ -9,6 +9,7 @@
     "Art. 5º"
   ],
   "texto": "Art. 5º O condomínio por meação de parede, soalhos, e tetos das unidades isoladas, regular-se-á pelo disposto no Código Civil, no que lhe fôr aplicável.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

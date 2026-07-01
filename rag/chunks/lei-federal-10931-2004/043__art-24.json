@@ -9,6 +9,7 @@
     "Art. 24"
   ],
   "texto": "Art. 24. O resgate da dívida representada pela CCI prova-se com a declaração de quitação, emitida pelo credor, ou, na falta desta, por outros meios admitidos em direito.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

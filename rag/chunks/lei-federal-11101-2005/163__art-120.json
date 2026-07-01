@@ -10,6 +10,7 @@
     "Art. 120"
   ],
   "texto": "Art. 120. O mandato conferido pelo devedor, antes da falência, para a realização de negócios, cessará seus efeitos com a decretação da falência, cabendo ao mandatário prestar contas de sua gestão.\n\n§ 1º O mandato conferido para representação judicial do devedor continua em vigor até que seja expressamente revogado pelo administrador judicial.\n\n§ 2º Para o falido, cessa o mandato ou comissão que houver recebido antes da falência, salvo os que versem sobre matéria estranha à atividade empresarial.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

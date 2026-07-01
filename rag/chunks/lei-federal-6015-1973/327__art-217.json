@@ -10,6 +10,7 @@
     "Art. 217"
   ],
   "texto": "Art. 217. O registro poderá também ser retificado ou anulado por sentença em processo contencioso, ou por efeito do julgado em ação de anulação ou de declaração de nulidade de ato jurídico, ou de julgado sobre fraude à execução.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

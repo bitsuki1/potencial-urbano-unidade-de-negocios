@@ -24,6 +24,12 @@
         "topo_nao_revogado": true
       },
       "_nota": "Prova o outro lado: dispositivo COMPILADO ('Redacao dada por...') NAO e filtrado — redacao vigente alterada por norma posterior segue sendo devolvida como vigente (so o REVOGADO integral e excluido). O topo aqui e um artigo com status 'compilado'."
+    },
+    {
+      "id": "b11d-preambulo-nao-citavel",
+      "pergunta": "Presidência da República Casa Civil Subchefia para Assuntos Jurídicos",
+      "espera": { "fundamentada": false },
+      "_nota": "B-11d: antes, essa consulta de BOILERPLATE de portal retornava o Preambulo (Lei 6830/1980) como FUNDAMENTADA com cobertura 100% (score 43,6) — o RAG citava cabecalho de portal como se fosse dispositivo. Agora o preambulo e NAO-CITAVEL (excluido por padrao; --incluir-nao-citavel reabre p/ auditoria) e a consulta recusa (1.7). Robusto ao crescimento do acervo: todo preambulo e nao-citavel, entao mais leis nao reintroduzem o falso-positivo."
     }
   ],
   "vacinas": [

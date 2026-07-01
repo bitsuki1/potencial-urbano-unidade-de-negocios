@@ -10,6 +10,7 @@
     "Art. 248"
   ],
   "texto": "Art. 248. A averbação da circunstância a que se refere o inciso III, alínea e do artigo 168, será feita a requerimento do interessado, com a firma reconhecida, instruído com documento comprobatório fornecido pela autoridade competente. A alteração do nome só poderá ser averbada quando devidamente comprovada por certidão do registro civil.                      (Suprimido pela Lei nº 6.216, de 1975)",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

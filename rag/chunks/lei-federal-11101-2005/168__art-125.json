@@ -10,6 +10,7 @@
     "Art. 125"
   ],
   "texto": "Art. 125. Na falência do espólio, ficará suspenso o processo de inventário, cabendo ao administrador judicial a realização de atos pendentes em relação aos direitos e obrigações da massa falida.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

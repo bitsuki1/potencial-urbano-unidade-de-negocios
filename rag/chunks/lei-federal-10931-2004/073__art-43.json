@@ -9,6 +9,7 @@
     "Art. 43"
   ],
   "texto": "Art. 43. As instituições financeiras, nas condições estabelecidas pelo Conselho Monetário Nacional, podem emitir título representativo das Cédulas de Crédito Bancário por elas mantidas em depósito, do qual constarão:",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

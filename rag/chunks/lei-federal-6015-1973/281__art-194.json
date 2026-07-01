@@ -10,6 +10,7 @@
     "Art. 194"
   ],
   "texto": "Art. 194. Os títulos físicos serão digitalizados, devolvidos aos apresentantes e mantidos exclusivamente em arquivo digital, nos termos estabelecidos pela Corregedoria Nacional de Justiça do Conselho Nacional de Justiça.     (Redação dada pela Lei nº 14.382, de 2022)",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "compilado",
     "revogado_por": null,

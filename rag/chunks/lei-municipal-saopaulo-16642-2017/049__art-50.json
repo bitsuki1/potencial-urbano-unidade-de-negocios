@@ -10,6 +10,7 @@
     "Art. 50"
   ],
   "texto": "Art. 50. A pedido do interessado, a Prefeitura emite Ficha Técnica do imóvel, da qual devem constar as informações relativas ao uso e ocupação do solo, à incidência de melhoramentos urbanísticos e aos demais dados cadastrais disponíveis.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

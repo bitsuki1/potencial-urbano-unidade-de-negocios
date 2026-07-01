@@ -10,6 +10,7 @@
     "Art. 245"
   ],
   "texto": "Art. 245. A inscrição da penhora faz prova quanto à fraude de qualquer transação posterior.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

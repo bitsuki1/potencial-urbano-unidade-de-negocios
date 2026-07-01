@@ -10,6 +10,7 @@
     "Art. 50"
   ],
   "texto": "Art. 50. Os oficiais do registro serão ainda obrigados a satisfazer às exigências da legislação federal sobre alistamento e sorteio militar, sob as sanções nela estabelecidas.               (Suprimido pela Lei nº 6.216, de 1975)",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

@@ -8,6 +8,7 @@
     "Art. 5º"
   ],
   "texto": "Art. 5º A atualização, em 1969, do valor venal de imóvel que sirva, exclusivamente, de residência do respectivo proprietário enfiteuta, usufrutuário, fiduciário ou compromissário comprador, não poderá exceder a 30% (trinta por cento) do valor venal constante do lançamento no exercício de 1968.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

@@ -10,6 +10,7 @@
     "Art. 135"
   ],
   "texto": "Art. 135. A sentença que julgar procedente a ação revocatória determinará o retorno dos bens à massa falida em espécie, com todos os acessórios, ou o valor de mercado, acrescidos das perdas e danos.\n\nParágrafo único. Da sentença cabe apelação.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

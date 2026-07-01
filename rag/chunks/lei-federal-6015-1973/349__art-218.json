@@ -10,6 +10,7 @@
     "Art. 218"
   ],
   "texto": "Art. 218. O registro pode ser promovido por qualquer interessado.\n\nParágrafo único. Nos atos a título gratuito o registro pode também ser promovido pelo transferente, acompanhado da prova de aceitação do beneficiado.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

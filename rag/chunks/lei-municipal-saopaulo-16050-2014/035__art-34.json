@@ -11,6 +11,7 @@
     "Art. 34"
   ],
   "texto": "Art. 34. As Zonas Predominantemente Residenciais – ZPR são porções do território destinadas majoritariamente ao uso residencial\n\nde habitações unifamiliares, multifamiliares e aos serviços de moradia, tais como casas de repouso e asilos, bem como atividades\n\nnão residenciais compatíveis com o uso residencial, com densidades demográficas e construtivas baixas e médias.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

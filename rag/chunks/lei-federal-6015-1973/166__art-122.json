@@ -10,6 +10,7 @@
     "Art. 122"
   ],
   "texto": "Art. 122. No registro civil das pessoas jurídicas serão matriculados:                 (Renumerado do art. 123 pela Lei nº 6.216, de 1975).\n\nI - os jornais e demais publicações periódicas;\n\nII - as oficinas impressoras de quaisquer natureza, pertencentes a pessoas naturais ou jurídicas;\n\nIII - as empresas de radiodifusão que mantenham serviços de notícias, reportagens, comentários, debates e entrevistas;\n\nIV - as empresas que tenham por objeto o agenciamento de notícias.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

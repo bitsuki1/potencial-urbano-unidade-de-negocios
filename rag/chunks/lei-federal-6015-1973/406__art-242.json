@@ -10,6 +10,7 @@
     "Art. 242"
   ],
   "texto": "Art. 242 - O contrato de locação, com cláusula expressa de vigência no caso de alienação do imóvel, registrado no Livro nº 2, consignará também, o seu valor, a renda, o prazo, o tempo e o lugar do pagamento, bem como pena convencional.                     (Renumerado do art. 239 com nova redação pela Lei nº 6.216, de 1975)",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

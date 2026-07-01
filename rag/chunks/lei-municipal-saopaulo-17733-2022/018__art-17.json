@@ -9,6 +9,7 @@
     "Art. 17"
   ],
   "texto": "Art. 17. As notificações e intimações deverão ser encaminhadas à operadora ou detentora por\n\nmensagem em endereço eletrônico indicado no requerimento da licença ou no cadastro, quando\n\nhouver.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

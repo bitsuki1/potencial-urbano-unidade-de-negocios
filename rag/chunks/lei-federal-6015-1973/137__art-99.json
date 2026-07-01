@@ -10,6 +10,7 @@
     "Art. 99"
   ],
   "texto": "Art. 99. A averbação será feita mediante a indicação minuciosa da sentença ou ato que a determinar.                        (Renumerado do art. 100 pela Lei nº 6.216, de 1975).",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

@@ -10,6 +10,7 @@
     "Art. 80"
   ],
   "texto": "Art. 80. Considerar-se-ão habilitados os créditos remanescentes da recuperação judicial, quando definitivamente incluídos no quadro-geral de credores, tendo prosseguimento as habilitações que estejam em curso.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

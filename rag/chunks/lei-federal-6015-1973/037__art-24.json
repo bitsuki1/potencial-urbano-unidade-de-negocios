@@ -10,6 +10,7 @@
     "Art. 24"
   ],
   "texto": "Art. 24. Os oficiais devem manter em segurança, permanentemente, os livros e documentos e respondem pela sua ordem e conservação.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

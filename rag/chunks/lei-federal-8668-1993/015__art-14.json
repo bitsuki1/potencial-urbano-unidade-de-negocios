@@ -8,6 +8,7 @@
     "Art. 14"
   ],
   "texto": "Art. 14. À instituição administradora do Fundo de Investimento Imobiliário compete:\n\nI - representá-lo ativa e passivamente, judicial e extrajudicialmente;\n\nII - responder pessoalmente pela evicção de direito, no caso de alienação de imóveis pelo fundo.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

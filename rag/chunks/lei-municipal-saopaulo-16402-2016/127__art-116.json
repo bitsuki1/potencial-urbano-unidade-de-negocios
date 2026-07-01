@@ -10,6 +10,7 @@
     "Art. 116"
   ],
   "texto": "Art. 116. Para novas construções ou reformas com ampliação de área construída de hospitais\n\nlocalizados em qualquer zona, toda a área construída destinada à circulação, manobra e\n\nestacionamento de veículos será considerada não computável, respeitado o limite estabelecido no § 2º\n\ndo art. 62 desta lei.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

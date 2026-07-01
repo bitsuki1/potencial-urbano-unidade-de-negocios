@@ -9,6 +9,7 @@
     "Art. 21"
   ],
   "texto": "Art. 21. A emissão e a negociação de CCI independe de autorização do devedor do crédito imobiliário que ela representa.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

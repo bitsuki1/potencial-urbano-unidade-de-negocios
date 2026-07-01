@@ -10,6 +10,7 @@
     "Art. 240"
   ],
   "texto": "Art. 240. As inscrições das hipotecas e anticreses que abonarem, especialmente, empréstimos sob debêntures feitos nos cartórios da situação dos imóveis, nos termos da legislação em vigor, serão provisórios, para ratificação dentro de seis (6) meses a requerimento da sociedade ou de qualquer credor e deverão conter, além dos requisitos enumerados no artigo 242, mais os seguintes:                         (Suprimido pela Lei nº 6.216, de 1975).\n\n1º valor do crédito e do imóvel, ou sua estimativa por acordo entre as partes;\n\n2º juros, penas e demais condições necessárias.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

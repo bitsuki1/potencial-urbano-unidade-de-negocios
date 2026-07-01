@@ -12,7 +12,7 @@
 ## Contexto da tese de IPTU
 O Tema 155 é a "porta" de repercussão geral da progressividade do IPTU **antes** da EC 29/2000 — espelha a Súmula 668. Forma trio com o Tema 94 (progressividade DEPOIS da EC 29, constitucional) e o Tema 523 (seletividade/diferenciação de alíquotas antes da EC 29).
 
-> ANTÍTESE/nota: algumas fontes secundárias rotulam o Tema 155 como "base de cálculo/majoração por decreto" — isso é IMPRECISO. O leading case AI 712743 (Rel. Ellen Gracie) é sobre **progressividade do IPTU antes da EC 29**. A questão de majoração da base de cálculo por decreto (vedação além do índice oficial) é a Súmula 160/STJ + RE 648.245 (Tema 211/STF), não o Tema 155. Confiança média na redação exata; tese a conferir no acórdão.
+> ANTÍTESE/nota: algumas fontes secundárias rotulam o Tema 155 como "base de cálculo/majoração por decreto" — isso é IMPRECISO. O leading case AI 712743 (Rel. Ellen Gracie) é sobre **progressividade do IPTU antes da EC 29**. A questão de majoração da base de cálculo por decreto (vedação além do índice oficial) é a Súmula 160/STJ + RE 648.245 (Tema 211/STF), não o Tema 155. **Confiança ALTA** — tese conferida contra a fonte STF (ver `verificacao_verbatim` no `.json`); a distinção do leading case AI 712743 (Ellen Gracie) permanece registrada como vacina. _[B-22, 2026-07-01: nota sincronizada .md↔.json — antes "confiança média".]_
 
 ## Texto capturado (verbatim de tela — 2026-06-18)
 

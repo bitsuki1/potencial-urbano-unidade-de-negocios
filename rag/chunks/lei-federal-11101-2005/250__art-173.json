@@ -10,6 +10,7 @@
     "Art. 173"
   ],
   "texto": "Art. 173. Apropriar-se, desviar ou ocultar bens pertencentes ao devedor sob recuperação judicial ou à massa falida, inclusive por meio da aquisição por interposta pessoa:\n\nPena – reclusão, de 2 (dois) a 4 (quatro) anos, e multa.\n\nAquisição, recebimento ou uso ilegal de bens",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

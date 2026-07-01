@@ -10,6 +10,7 @@
     "Art. 50"
   ],
   "texto": "Art. 50. Todo nascimento que ocorrer no território nacional deverá ser dado a registro, (VETADO) no lugar em que tiver ocorrido o parto (VETADO), dentro do prazo de 15 (quinze) dias, ampliando-se até 3 (três) meses para os lugares distantes mais de 30 (trinta) quilômetros da sede do cartório.               (Renumerado do art. 51 com nova redação, pela Lei nº 6.216, de 1975).",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

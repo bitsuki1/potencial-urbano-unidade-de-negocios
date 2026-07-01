@@ -288,6 +288,40 @@ def carregar_tabelas():
     return V, CA
 
 
+def fs_por_categoria(categoria, _exato=False):
+    """B-3 (lado Fs): Fator de interesse social Fs por CATEGORIA DE USO, lido do Quadro 5 REAL
+    (`tabelas/quadro5-fator-social-fs.csv`, Anexo da Lei 16.050/2014) — o engine NÃO inventa (1.3).
+    O Quadro 5 traz Fs DISCRETO (não faixa): HIS/públicos=0,0 · privados de interesse social=0,3/0,7 ·
+    'Outras Atividades'=1,0. Casa por categoria (substring normalizado; `_exato` força igualdade).
+    LEVANTA se a categoria não existe no quadro (não chuta valor de faixa — vacina E-01: HMP=0,5 era
+    INVENTADO). NOTA: 'HMP' NÃO consta neste extrato do Quadro 5 — cobrir HMP exige a fonte completa (B-4).
+    Devolve {fs, categoria_fonte, citacao}."""
+    linhas = _ler_csv(TABELAS / "quadro5-fator-social-fs.csv")
+    if not linhas:
+        raise ValueError("Quadro 5 (Fs) ausente em tabelas/ — não há dado para o lookup (1.3).")
+    alvo = "".join(ch for ch in str(categoria).lower() if ch.isalnum() or ch == " ").strip()
+    achados = []
+    for r in linhas:
+        cat = r.get("categoria_uso", "")
+        catn = "".join(ch for ch in cat.lower() if ch.isalnum() or ch == " ").strip()
+        if (catn == alvo) if _exato else (alvo and alvo in catn):
+            achados.append((cat, r.get("fs")))
+    if not achados:
+        raise ValueError(f"categoria {categoria!r} não encontrada no Quadro 5 (Fs). "
+                         f"Fs nasce da tabela, não do chute (1.3) — confira a categoria ou ingira o quadro completo (B-4).")
+    if len({fs for _, fs in achados}) > 1:
+        raise ValueError(f"categoria {categoria!r} casou múltiplos Fs divergentes {achados} — "
+                         f"desambiguar (use _exato=True ou categoria mais específica).")
+    cat_fonte, fs = achados[0]
+    return {
+        "fs": _d(fs, "fs"),
+        "categoria_fonte": cat_fonte,
+        "citacao": {"norma": "PDE (Lei 16.050/2014), Quadro 5 (Anexo) — Fator de interesse social Fs",
+                    "dispositivo": "Quadro 5 do PDE (Fs por categoria de uso)", "confianca": "alta",
+                    "fonte_tabela": "tabelas/quadro5-fator-social-fs.csv"},
+    }
+
+
 def _ca_max_nota(zona):
     """Nota condicional do CA_max da zona (A-080), ou ''. Ex.: ZEIS-3 -> 'g'."""
     for r in _ler_csv(TABELAS / "quadro3-ca-por-zona.csv"):
@@ -382,6 +416,20 @@ def _autoteste():
     #      (1000/4)×2×1×50000 = 25.000.000 (>10^7) tem de calcular, não levantar.
     r_grande = outorga_onerosa(1000, 4, "2", "1", 50000)
     checa("R$ OODC > 10^7 é legítimo (monetário, não-UTXO)", r_grande["valor"], "25000000.000")
+    # B-3 (lado Fs): lookup do Fator social Fs no Quadro 5 REAL — HIS=0,0; 'Outras Atividades'=1,0.
+    if _ler_csv(TABELAS / "quadro5-fator-social-fs.csv"):
+        checa("Fs HIS (Quadro 5)", fs_por_categoria("Habitação de Interesse Social")["fs"], "0.0")
+        checa("Fs Outras Atividades (Quadro 5)", fs_por_categoria("Outras Atividades")["fs"], "1.0")
+        # categoria inexistente LEVANTA (não chuta — 1.3)
+        try:
+            fs_por_categoria("uso inexistente xyz"); falhas.append("Fs categoria inexistente não levantou")
+        except ValueError:
+            pass
+        # categoria ambígua (Fs divergentes no quadro: 'Universidades' = 0,3 e 0,7) LEVANTA
+        try:
+            fs_por_categoria("Universidades"); falhas.append("Fs categoria ambígua (Univ. 0,3/0,7) não levantou")
+        except ValueError:
+            pass
     # B-1 (porte 2026-06-28): OODC sobre DADO REAL — V por SQL (Quadro 14) e CA_max por zona (Quadro 3).
     # SQ 001003/Codlog 038121 -> V=R$3.106,00 ; zona ZEU -> CA_max=4 ; (1000/4)×1.2×1.0×3106 = 931800.
     V, CA = carregar_tabelas()

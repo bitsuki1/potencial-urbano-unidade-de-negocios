@@ -1,8 +1,8 @@
 {
-  "_doc": "Ground-truth ALVO do PRODUTO (TDC = base inicial, decisao MOU 2026-06-20). Estas perguntas SO passarao quando o corpus TDC for re-ingerido VERBATIM (P2) e fatiado/indexado. Hoje o corpus TDC e NAO-VERBATIM (PDE 16.050/2014, LPUOS, etc. sao resumos de WebSearch, confianca baixa) e por isso NAO entra no RAG (guarda de verbatim do fatiar.py). Marcado status=aguardando_verbatim: o runner REPORTA mas NAO bloqueia o build. E a especificacao executavel do destrave de produto — no instante em que o verbatim TDC chegar, basta rodar fatiar/indexar e estas viram o gate de aceite.",
+  "_doc": "Ground-truth ATIVO do PRODUTO TDC (base inicial, decisao MOU 2026-06-20). PROMOVIDO de aguardando_verbatim -> ativo em 2026-07-01 (PU 15): o pre-requisito FOI ATENDIDO — o PDE Lei 16.050/2014 esta VERBATIM/indexado (versao consolidada) e a camada juridica de TDC responde com citacao por dispositivo. Estas 3 perguntas agora sao GATE de aceite da camada juridica do produto TDC (o 'pode' e o 'onde esta escrito'). O 'quanto' (CA, Fi, R$) nasce no engine (1.3), nao aqui. Conferido no merito (PU 15): Art. 122 = conceito de TDC; Art. 124 = hipoteses/condicoes de transferencia (sem doacao); Art. 129 = imovel tombado ZEPEC-BIR gera potencial transferivel (Certidao de Transferencia).",
   "dominio": "TDC",
-  "status": "aguardando_verbatim",
-  "pre_requisito": "Re-ingestao VERBATIM das normas de TDC/outorga (PDE Lei 16.050/2014 arts. de Transferencia do Direito de Construir; LPUOS; correlatas) — bloqueado neste ambiente (egress .gov.br = HTTP 403; Drive = lane exclusiva). Ver PROXIMA-INSTANCIA.md P2 e o pedido ao Drive.",
+  "status": "ativo",
+  "destrave": "PDE 16.050/2014 verbatim/indexado (nome do arquivo mantido por historico). Os itens passam citando os arts. 122/124/129 do PDE — nao mais 'aguardando'.",
   "itens": [
     {
       "id": "tdc-conceito",
@@ -10,6 +10,7 @@
       "espera": {
         "fundamentada": true,
         "lei_id": "lei-municipal-saopaulo-16050-2014",
+        "dispositivo_topo": "Art. 122",
         "texto_contem": "transfer"
       }
     },
@@ -18,7 +19,9 @@
       "pergunta": "em quais hipoteses o proprietario pode transferir o potencial construtivo do seu imovel?",
       "espera": {
         "fundamentada": true,
-        "lei_id": "lei-municipal-saopaulo-16050-2014"
+        "lei_id": "lei-municipal-saopaulo-16050-2014",
+        "dispositivo_topo": "Art. 124",
+        "texto_contem": "potencial construtivo"
       }
     },
     {
@@ -26,13 +29,15 @@
       "pergunta": "imovel tombado pode gerar potencial construtivo transferivel? com que limite?",
       "espera": {
         "fundamentada": true,
-        "lei_id": "lei-municipal-saopaulo-16050-2014"
+        "lei_id": "lei-municipal-saopaulo-16050-2014",
+        "dispositivo_topo": "Art. 129",
+        "topo_nao_revogado": true
       }
     }
   ],
   "vacinas": [
     "Tema 1130 (IRRF) NAO e Potencial Urbano (IPTU/TDC) — nunca associar.",
     "Numero (CA, fator de planejamento, valor do potencial) nasce no ENGINE, nunca no LLM (1.3). Estas perguntas validam SO a camada juridica (o 'pode' e o 'onde esta escrito'); o 'quanto' e do Gen Matematica/engine.",
-    "Nada entra sem citacao + vigencia (1.6/1.7): quando o verbatim TDC chegar, conferir o intervalo de vigencia do PDE (revisao intermediaria Lei 17.975/2023)."
+    "Nada entra sem citacao + vigencia (1.6/1.7): o PDE tem revisao intermediaria (Lei 17.975/2023). Art. 124 e 129 sao 'compilado' (Redacao dada) — redacao vigente alterada; o B-11c garante que redacao REVOGADA nao encabeca (topo_nao_revogado)."
   ]
 }

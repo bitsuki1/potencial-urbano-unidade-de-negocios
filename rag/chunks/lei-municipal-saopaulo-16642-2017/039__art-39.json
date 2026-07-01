@@ -10,6 +10,7 @@
     "Art. 39"
   ],
   "texto": "Art. 39. Mediante procedimento administrativo e a pedido do proprietário ou possuidor, a Prefeitura expede Certificado de Acessibilidade quando da conclusão da adaptação da edificação existente às condições de acessibilidade às pessoas com deficiência ou mobilidade reduzida, conforme as disposições deste Código, normas regulamentares, normas técnicas e legislação correlata.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

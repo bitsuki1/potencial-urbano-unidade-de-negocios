@@ -10,6 +10,7 @@
     "Art. 114"
   ],
   "texto": "Art. 114. O administrador judicial poderá alugar ou celebrar outro contrato referente aos bens da massa falida, com o objetivo de produzir renda para a massa falida, mediante autorização do Comitê.\n\n§ 1º O contrato disposto no caput deste artigo não gera direito de preferência na compra e não pode importar disposição total ou parcial dos bens.\n\n§ 2º O bem objeto da contratação poderá ser alienado a qualquer tempo, independentemente do prazo contratado, rescindindo-se, sem direito a multa, o contrato realizado, salvo se houver anuência do adquirente.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

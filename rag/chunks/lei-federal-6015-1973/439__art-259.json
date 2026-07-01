@@ -10,6 +10,7 @@
     "Art. 259"
   ],
   "texto": "Art. 259. A inscrição da incorporação no livro n. 7 ou o do loteamento no livro n. 8, só será cancelado:\n\na) em cumprimento de sentença;\n\nb) a requerimento do incorporador ou do loteante, enquanto nenhuma unidade ou lote for objeto de transação devidamente averbada, ou mediante o consentimento de todos os compromissários ou cessionários, expresso em documento por eles assinado, ou por procuradores com poderes especiais;\n\nc) por mandado judicial.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

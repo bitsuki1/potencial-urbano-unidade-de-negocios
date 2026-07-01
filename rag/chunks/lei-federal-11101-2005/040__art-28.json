@@ -10,6 +10,7 @@
     "Art. 28"
   ],
   "texto": "Art. 28. Não havendo Comitê de Credores, caberá ao administrador judicial ou, na incompatibilidade deste, ao juiz exercer suas atribuições.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

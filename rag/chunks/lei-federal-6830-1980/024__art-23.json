@@ -8,6 +8,7 @@
     "Art. 23"
   ],
   "texto": "Art. 23 - A alienação de quaisquer bens penhorados será feita em leilão público, no lugar designado pelo Juiz.\n\n§ 1º - A Fazenda Pública e o executado poderão requerer que os bens sejam leiloados englobadamente ou em lotes que indicarem.\n\n§ 2º - Cabe ao arrematante o pagamento da comissão do leiloeiro e demais despesas indicadas no edital.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

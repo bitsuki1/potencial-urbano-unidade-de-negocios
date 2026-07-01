@@ -65,14 +65,19 @@ def _vigente_em(vig, data):
     return True
 
 
-def filtrar(meta, lei=None, tema=None, jurisdicao=None, data=None, incluir_revogado=False):
+def filtrar(meta, lei=None, tema=None, jurisdicao=None, data=None, incluir_revogado=False,
+            incluir_nao_citavel=False):
     """Etapa 1 (2.6): conjunto de chunks elegíveis após filtro de metadado (inclui temporal).
     B-11c (1.6): por padrão EXCLUI dispositivos REVOGADOS — o RAG não pode devolver redação
-    revogada como vigente. `incluir_revogado=True` reabre-os (consulta histórica explícita)."""
+    revogada como vigente. `incluir_revogado=True` reabre-os (consulta histórica explícita).
+    B-11d (1.7): por padrão EXCLUI o preâmbulo/boilerplate NÃO-CITÁVEL — não se fundamenta uma
+    resposta citando cabeçalho de portal. `incluir_nao_citavel=True` reabre-os (auditoria)."""
     elegiveis = set(meta.keys())
     if not incluir_revogado:
         elegiveis = {c for c in elegiveis
                      if (meta[c].get("vigencia_dispositivo") or {}).get("status") != "revogado"}
+    if not incluir_nao_citavel:
+        elegiveis = {c for c in elegiveis if meta[c].get("citavel", True)}
     if lei:
         elegiveis = {c for c in elegiveis if meta[c]["lei_id"] == lei}
     if tema:
@@ -125,10 +130,11 @@ def pontuar(pergunta, inv, elegiveis):
     return scores, termos_casados, termos_pergunta
 
 
-def consultar(pergunta, lei=None, tema=None, jurisdicao=None, data=None, top=3, incluir_revogado=False):
+def consultar(pergunta, lei=None, tema=None, jurisdicao=None, data=None, top=3,
+              incluir_revogado=False, incluir_nao_citavel=False):
     store, inv, meta = carregar_indice()
     elegiveis = filtrar(meta, lei=lei, tema=tema, jurisdicao=jurisdicao, data=data,
-                        incluir_revogado=incluir_revogado)
+                        incluir_revogado=incluir_revogado, incluir_nao_citavel=incluir_nao_citavel)
     scores, termos, termos_pergunta = pontuar(pergunta, inv, elegiveis)
     ranked = sorted(scores.items(), key=lambda kv: kv[1], reverse=True)[:top]
 
@@ -213,10 +219,13 @@ def main(argv):
     p.add_argument("--top", type=int, default=3)
     p.add_argument("--incluir-revogado", action="store_true",
                    help="inclui dispositivos REVOGADOS (consulta histórica; por padrão B-11c os exclui)")
+    p.add_argument("--incluir-nao-citavel", action="store_true",
+                   help="inclui preâmbulo/boilerplate não-citável (auditoria; por padrão B-11d os exclui)")
     p.add_argument("--json", action="store_true", help="saída JSON")
     args = p.parse_args(argv[1:])
     r = consultar(args.pergunta, lei=args.lei, tema=args.tema, jurisdicao=args.jurisdicao,
-                  data=args.data, top=args.top, incluir_revogado=args.incluir_revogado)
+                  data=args.data, top=args.top, incluir_revogado=args.incluir_revogado,
+                  incluir_nao_citavel=args.incluir_nao_citavel)
     if args.json:
         print(json.dumps(r, ensure_ascii=False, indent=2))
     else:

@@ -10,6 +10,7 @@
     "Art. 131"
   ],
   "texto": "Art. 131. Nenhum dos atos referidos nos incisos I, II, III e VI do caput do art. 129 desta Lei que tenham sido previstos e realizados na forma definida no plano de recuperação judicial ou extrajudicial será declarado ineficaz ou revogado.          (Redação dada pela Lei nº 14.112, de 2020)     (Vigência)",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "compilado",
     "revogado_por": null,

@@ -9,6 +9,7 @@
     "Art. 26"
   ],
   "texto": "Art. 26. Vencida e não paga, no todo ou em parte, a dívida e constituído em mora o fiduciante, consolidar-se-á, nos termos deste artigo, a propriedade do imóvel em nome do fiduciário.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

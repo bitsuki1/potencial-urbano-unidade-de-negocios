@@ -8,6 +8,7 @@
     "Art. 13"
   ],
   "texto": "Art. 13. O titular das quotas do Fundo de Investimento Imobiliário:\n\nI - não poderá exercer qualquer direito real sobre os imóveis e empreendimentos integrantes do patrimônio do fundo;\n\nII - não responde pessoalmente por qualquer obrigação legal ou contratual, relativamente aos imóveis e empreendimentos integrantes do fundo ou da administradora, salvo quanto à obrigação de pagamento do valor integral das quotas subscritas.\n\nParágrafo único. O quotista que não integralizar as quotas subscritas, nas condições estabelecidas no regulamento do fundo ou no boletim de subscrição, ficará de pleno direito constituído em mora, podendo a administradora, a sua escolha, promover contra o quotista processo de execução para cobrar as importâncias devidas, servindo o boletim de subscrição como título extrajudicial, nos termos do Código de Processo Civil, ou vender as quotas a terceiros, mesmo após iniciada a cobrança judicial.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

@@ -9,6 +9,7 @@
     "Art. 20"
   ],
   "texto": "Art. 20. O limite máximo de emissão de radiação eletromagnética, considerada a soma das emissões\n\nde radiação de todos os sistemas transmissores em funcionamento em qualquer localidade do\n\nMunicípio, será aquele estabelecido em legislação federal para exposição humana.\n\nParágrafo único. Em se constatando indício de irregularidades quanto aos limites de exposição humana\n\na campos elétricos, magnéticos e eletromagnéticos, deverá ser oficiado o órgão regulador federal de\n\ntelecomunicações, nos moldes que determina o § 2º do art. 18 da Lei Federal nº 13.116, de 2015.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

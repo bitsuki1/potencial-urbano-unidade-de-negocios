@@ -10,6 +10,7 @@
     "Art. 219"
   ],
   "texto": "Art. 219. O registro do penhor rural independe do consentimento do credor hipotecário.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

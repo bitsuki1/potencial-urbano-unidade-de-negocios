@@ -9,6 +9,7 @@
     "Art. 1º"
   ],
   "texto": "Art. 1º Fica aprovado o Código de Obras e Edificações do Município de São Paulo - COE, que disciplina, no Município de São Paulo, as regras gerais a serem observadas no projeto, no licenciamento, na execução, na manutenção e na utilização de obras, edificações e equipamentos, dentro dos limites do imóvel, bem como os respectivos procedimentos administrativos, executivos e fiscalizatórios, sem prejuízo do disposto na legislação estadual e federal pertinente.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

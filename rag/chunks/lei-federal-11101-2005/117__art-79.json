@@ -10,6 +10,7 @@
     "Art. 79"
   ],
   "texto": "Art. 79. Os processos de falência e os seus incidentes preferem a todos os outros na ordem dos feitos, em qualquer instância.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

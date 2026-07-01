@@ -10,6 +10,7 @@
     "Art. 18"
   ],
   "texto": "Art. 18. O contrato de cessão fiduciária em garantia opera a transferência ao credor da titularidade dos créditos cedidos, até a liquidação da dívida garantida, e conterá, além de outros elementos, os seguintes:\n\nI - o total da dívida ou sua estimativa;\n\nII - o local, a data e a forma de pagamento;\n\nIII - a taxa de juros;\n\nIV - a identificação dos direitos creditórios objeto da cessão fiduciária.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

@@ -10,6 +10,7 @@
     "Art. 201"
   ],
   "texto": "Art. 201 - Se não forem requeridas diligências, o juiz proferirá decisão no prazo de quinze dias, com base nos elementos constantes dos autos.                (Renumerado do art. 202 com nova redação pela Lei nº 6.216, de 1975).",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

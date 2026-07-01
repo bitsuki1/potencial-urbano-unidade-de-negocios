@@ -10,6 +10,7 @@
     "Art. 209"
   ],
   "texto": "Art. 209. O registro começado dentro das horas fixadas não será interrompido, salvo motivo de força maior declarado, prorrogando-se o expediente até ser concluído.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

@@ -10,6 +10,7 @@
     "Art. 175"
   ],
   "texto": "Art. 175. Apresentar, em falência, recuperação judicial ou recuperação extrajudicial, relação de créditos, habilitação de créditos ou reclamação falsas, ou juntar a elas título falso ou simulado:\n\nPena – reclusão, de 2 (dois) a 4 (quatro) anos, e multa.\n\nExercício ilegal de atividade",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

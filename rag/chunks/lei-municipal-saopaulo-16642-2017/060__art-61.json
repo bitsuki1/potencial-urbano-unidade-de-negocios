@@ -10,6 +10,7 @@
     "Art. 61"
   ],
   "texto": "Art. 61. Os prazos fixados neste Código são contados em dias corridos, a partir do primeiro dia útil após o evento de origem até o seu dia final inclusive.\n\nParágrafo único. Caso não haja expediente no dia final do prazo, prorroga-se automaticamente o seu término para o dia útil imediatamente posterior.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

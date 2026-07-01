@@ -10,6 +10,7 @@
     "Art. 29"
   ],
   "texto": "Art. 29. Os membros do Comitê não terão sua remuneração custeada pelo devedor ou pela massa falida, mas as despesas realizadas para a realização de ato previsto nesta Lei, se devidamente comprovadas e com a autorização do juiz, serão ressarcidas atendendo às disponibilidades de caixa.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

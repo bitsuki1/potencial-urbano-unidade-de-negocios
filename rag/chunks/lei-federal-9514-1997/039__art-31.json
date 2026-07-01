@@ -9,6 +9,7 @@
     "Art. 31"
   ],
   "texto": "Art. 31. O fiador ou terceiro interessado que pagar a dívida ficará sub-rogado, de pleno direito, no crédito e na propriedade fiduciária.\n\nParágrafo único.  Nos casos de transferência de financiamento para outra instituição financeira, o pagamento da dívida à instituição credora original poderá ser feito, a favor do mutuário, pela nova instituição credora. (Incluído pela Lei nº 12.810, de 2013)",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

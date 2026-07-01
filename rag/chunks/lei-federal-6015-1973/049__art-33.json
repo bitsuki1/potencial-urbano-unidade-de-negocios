@@ -10,6 +10,7 @@
     "Art. 33"
   ],
   "texto": "Art. 33 Haverá, em cada cartório, os seguintes livros, todos com 300 (trezentas) folhas cada um:      (Redação dada pela Lei nº 6.216, de 1975)",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "compilado",
     "revogado_por": null,

@@ -8,6 +8,7 @@
     "Art. 39"
   ],
   "texto": "Art. 39 - A Fazenda Pública não está sujeita ao pagamento de custas e emolumentos. A prática dos atos judiciais de seu interesse independerá de preparo ou de prévio depósito.\n\nParágrafo Único - Se vencida, a Fazenda Pública ressarcirá o valor das despesas feitas pela parte contrária.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

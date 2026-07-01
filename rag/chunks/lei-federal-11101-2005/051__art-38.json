@@ -10,6 +10,7 @@
     "Art. 38"
   ],
   "texto": "Art. 38. O voto do credor será proporcional ao valor de seu crédito, ressalvado, nas deliberações sobre o plano de recuperação judicial, o disposto no § 2º do art. 45 desta Lei.\n\nParágrafo único. Na recuperação judicial, para fins exclusivos de votação em assembléia-geral, o crédito em moeda estrangeira será convertido para moeda nacional pelo câmbio da véspera da data de realização da assembléia.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

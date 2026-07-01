@@ -10,6 +10,7 @@
     "Art. 262"
   ],
   "texto": "Art. 262. Se não ocorrer razão para dúvida, o oficial fará a publicação, em forma de edital, do qual constará:                          (Renumerado do art. 263, pela Lei nº 6.216, de 1975)\n\nI - o resumo da escritura, nome, naturalidade e profissão do instituidor, data do instrumento e nome do tabelião que o fez, situação e característicos do prédio;\n\nII - o aviso de que, se alguém se julgar prejudicado, deverá, dentro em trinta (30) dias, contados da data da publicação, reclamar contra a instituição, por escrito e perante o oficial.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

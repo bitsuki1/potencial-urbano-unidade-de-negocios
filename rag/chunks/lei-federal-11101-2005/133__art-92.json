@@ -10,6 +10,7 @@
     "Art. 92"
   ],
   "texto": "Art. 92. O requerente que tiver obtido êxito no seu pedido ressarcirá a massa falida ou a quem tiver suportado as despesas de conservação da coisa reclamada.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

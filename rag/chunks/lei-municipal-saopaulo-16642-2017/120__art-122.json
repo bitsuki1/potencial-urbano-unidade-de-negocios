@@ -9,6 +9,7 @@
     "Art. 122"
   ],
   "texto": "Art. 122. O Executivo regulamentará esta lei no prazo de até 60 (sessenta) dias contados da data de sua publicação.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

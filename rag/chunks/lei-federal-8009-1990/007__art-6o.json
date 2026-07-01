@@ -8,6 +8,7 @@
     "Art. 6º"
   ],
   "texto": "Art. 6º São canceladas as execuções suspensas pela Medida Provisória nº 143, de 8 de março de 1990, que deu origem a esta lei.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

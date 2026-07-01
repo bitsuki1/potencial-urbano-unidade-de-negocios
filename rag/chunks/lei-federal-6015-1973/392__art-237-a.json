@@ -10,6 +10,7 @@
     "Art. 237-A"
   ],
   "texto": "Art. 237-A.  Após o registro do parcelamento do solo ou da incorporação imobiliária, até a emissão da carta de habite-se, as averbações e registros relativos à pessoa do incorporador ou referentes a direitos reais de garantias, cessões ou demais negócios jurídicos que envolvam o empreendimento serão realizados na matrícula de origem do imóvel e em cada uma das matrículas das unidades autônomas eventualmente abertas.                    (Incluído pela Lei nº 11.977, de 2009)",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

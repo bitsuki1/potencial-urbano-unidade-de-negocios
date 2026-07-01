@@ -10,6 +10,7 @@
     "Art. 237"
   ],
   "texto": "Art. 237. São requisitos do registro no livro n. 2:                     (Suprimido pela Lei nº 6.216, de 1975).\n\n1º o nome, estado civil profissão, nacionalidade e domicílio do transmitente ou do devedor, bem como seu número do Cadastro Individual do Contribuinte ou da cédula de identidade ou, à falta deles, a sua filiação;\n\n2º o nome, estado civil, profissão, nacionalidade e domicílio do adquirinte ou do credor, bem como seu número de Cadastro Individual do Contribuinte ou da cédula de identidade ou, à falta deles, a sua filiação;\n\n3º o título da transmissão ou do ônus;\n\n4º a forma do título, sua procedência e caracterização;\n\n5º o valor do contrato, da coisa ou da dívida, prazo desta, condições e mais especificações, inclusive os juros que houver.\n\nParágrafo único. Serão considerados irregulares para efeito de registro, na matrícula do imóvel no livro n. 2, os títulos nos quais a caracterização do imóvel não coincida com a descrita na respectiva matrícula.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

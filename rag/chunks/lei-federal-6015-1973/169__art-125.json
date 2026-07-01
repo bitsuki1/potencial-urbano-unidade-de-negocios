@@ -10,6 +10,7 @@
     "Art. 125"
   ],
   "texto": "Art. 125. Considera-se clandestino o jornal, ou outra publicação periódica, não matriculado nos termos do artigo 122 ou de cuja matrícula não constem os nomes e as qualificações do diretor ou redator e do proprietário.               (Renumerado do art. 126  pela Lei nº 6.216, de 1975).",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

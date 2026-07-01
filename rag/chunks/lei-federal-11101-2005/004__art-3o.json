@@ -9,6 +9,7 @@
     "Art. 3º"
   ],
   "texto": "Art. 3º É competente para homologar o plano de recuperação extrajudicial, deferir a recuperação judicial ou decretar a falência o juízo do local do principal estabelecimento do devedor ou da filial de empresa que tenha sede fora do Brasil.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

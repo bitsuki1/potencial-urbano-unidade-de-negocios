@@ -10,6 +10,7 @@
     "Art. 139"
   ],
   "texto": "Art. 139. Se a mesma pessoa já estiver mencionada no indicador, somente se fará, na coluna das anotações, uma referência ao número de ordem, página e número do livro em que estiver lançado o novo registro ou averbação.                       (Renumerado do art. 140  pela Lei nº 6.216, de 1975).",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

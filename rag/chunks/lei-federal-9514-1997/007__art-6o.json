@@ -10,6 +10,7 @@
     "Art. 6º"
   ],
   "texto": "Art. 6º O Certificado de Recebíveis Imobiliários - CRI é título de crédito nominativo, de livre negociação, lastreado em créditos imobiliários e constitui promessa de pagamento em dinheiro.\n\nParágrafo único. O CRI é de emissão exclusiva das companhias securitizadoras.        (Revogado pela Medida Provisória nº 1.103, de 2022)     (Revogado pela Lei nº 14.430, de 2022)",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

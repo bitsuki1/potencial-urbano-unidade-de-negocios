@@ -10,6 +10,7 @@
     "Art. 1º"
   ],
   "texto": "Art. 1º O Sistema de Financiamento Imobiliário – SFI tem por finalidade promover o financiamento imobiliário em geral, segundo condições compatíveis com as da formação dos fundos respectivos.\n\nSeção II\n\nDas entidades",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

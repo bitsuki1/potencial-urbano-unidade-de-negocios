@@ -10,6 +10,7 @@
     "Art. 161"
   ],
   "texto": "Art. 161. As certidões do registro integral de títulos terão o mesmo valor probante dos originais, ressalvado o incidente de falsidade destes, oportunamente levantado em juízo.                  (Renumerado do art. 162 pela Lei nº 6.216, de 1975).",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

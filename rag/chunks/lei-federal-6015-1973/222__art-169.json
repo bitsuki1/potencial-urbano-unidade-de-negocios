@@ -10,6 +10,7 @@
     "Art. 169"
   ],
   "texto": "Art. 169 - Todos os atos enumerados no art. 167 são obrigatórios e efetuar-se-ão no Cartório da situação do imóvel, salvo:        (Redação dada pela Lei nº 6.216, de 1975).",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "compilado",
     "revogado_por": null,

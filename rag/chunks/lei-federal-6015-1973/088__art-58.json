@@ -10,6 +10,7 @@
     "Art. 58"
   ],
   "texto": "Art. 58. O prenome será imutável.                     (Renumerado do art. 59, pela Lei nº 6.216, de 1975).",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

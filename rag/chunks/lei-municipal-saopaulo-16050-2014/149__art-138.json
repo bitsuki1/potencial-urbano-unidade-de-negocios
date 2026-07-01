@@ -11,6 +11,7 @@
     "Art. 138"
   ],
   "texto": "Art. 138. As Operações Urbanas Consorciadas têm por finalidade:\n\nI – otimizar a ocupação de áreas subutilizadas, por meio de intervenções urbanísticas;\n\nII – implantar equipamentos estratégicos para o desenvolvimento urbano;\n\nIII – ampliar e melhorar o sistema de transporte coletivo, as redes de infraestrutura e o sistema viário estrutural;\n\nIV – promover a recuperação ambiental de áreas contaminadas e áreas passíveis de inundação;\n\nV – implantar equipamentos públicos sociais, espaços públicos e áreas verdes;\n\nVI – promover Empreendimentos de Habitação de Interesse Social e urbanizar e regularizar assentamentos precários;\n\nVII – proteger, recuperar e valorizar o patrimônio ambiental, histórico e cultural;\n\nVIII – promover o desenvolvimento econômico e a dinamização de áreas visando à geração de empregos.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

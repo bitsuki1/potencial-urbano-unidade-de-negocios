@@ -9,6 +9,7 @@
     "Art. 14"
   ],
   "texto": "Art. 14. Compete às Subprefeituras a ação fiscalizatória referente ao atendimento das normas previstas\n\nnesta Lei, a qual deverá ser desenvolvida de ofício ou mediante notícia de irregularidade, observado o\n\nprocedimento estabelecido neste Capítulo.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

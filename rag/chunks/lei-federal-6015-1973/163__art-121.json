@@ -10,6 +10,7 @@
     "Art. 121"
   ],
   "texto": "Art. 121. Para o registro serão apresentadas duas vias do estatuto, compromisso ou contrato, pelas quais far-se-á o registro mediante petição do representante legal da sociedade, lançando o oficial, nas duas vias, a competente certidão do registro, com o respectivo número de ordem, livro e folha. Uma das vias será entregue ao representante e a outra arquivada em cartório, rubricando o oficial as folhas em que estiver impresso o contrato, compromisso ou estatuto.                     (Redação dada pela Lei nº 9.042, de 1995)",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "compilado",
     "revogado_por": null,

@@ -9,6 +9,7 @@
     "Art. 166"
   ],
   "texto": "Art. 166. Se o plano de recuperação extrajudicial homologado envolver alienação judicial de filiais ou de unidades produtivas isoladas do devedor, o juiz ordenará a sua realização, observado, no que couber, o disposto no art. 142 desta Lei.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

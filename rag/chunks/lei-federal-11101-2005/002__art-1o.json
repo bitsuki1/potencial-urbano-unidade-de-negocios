@@ -9,6 +9,7 @@
     "Art. 1º"
   ],
   "texto": "Art. 1º Esta Lei disciplina a recuperação judicial, a recuperação extrajudicial e a falência do empresário e da sociedade empresária, doravante referidos simplesmente como devedor.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

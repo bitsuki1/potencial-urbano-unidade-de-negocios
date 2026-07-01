@@ -11,6 +11,7 @@
     "Art. 61"
   ],
   "texto": "Art. 61. As Zonas Especiais de Preservação Cultural (ZEPEC) são porções do território destinadas à preservação, valorização e\n\nsalvaguarda dos bens de valor histórico, artístico, arquitetônico, arqueológico e paisagístico, doravante definidos como patrimônio\n\ncultural, podendo se configurar como elementos construídos, edificações e suas respectivas áreas ou lotes; conjuntos\n\narquitetônicos, sítios urbanos ou rurais; sítios arqueológicos, áreas indígenas, espaços públicos; templos religiosos, elementos\n\npaisagísticos; conjuntos urbanos, espaços e estruturas que dão suporte ao patrimônio imaterial e/ou a usos de valor socialmente\n\natribuído.\n\nParágrafo único. Os imóveis ou áreas tombadas ou protegidas por legislação Municipal, Estadual ou Federal enquadram-se como\n\nZEPEC.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

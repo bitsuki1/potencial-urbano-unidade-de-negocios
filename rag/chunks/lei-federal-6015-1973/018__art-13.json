@@ -10,6 +10,7 @@
     "Art. 13"
   ],
   "texto": "Art. 13. Salvo as anotações e as averbações obrigatórias, os atos do registro serão praticados:\n\nI - por ordem judicial;\n\nII - a requerimento verbal ou escrito dos interessados;\n\nIII - a requerimento do Ministério Público, quando a lei autorizar.\n\n§ 1º O reconhecimento de firma nas comunicações ao registro civil pode ser exigido pelo respectivo oficial.\n\n§ 2° A emancipação concedida por sentença judicial será anotada às expensas do interessado.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

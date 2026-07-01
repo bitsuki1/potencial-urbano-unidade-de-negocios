@@ -10,6 +10,7 @@
     "Art. 20"
   ],
   "texto": "Art. 20. O Alvará de Aprovação pode, enquanto vigente, ser objeto de apostilamento para constar eventuais alterações de dados.\n\nParágrafo único. A alteração do projeto aprovado dar-se-á por meio da emissão de novo Alvará de Aprovação.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

@@ -10,6 +10,7 @@
     "Art. 156"
   ],
   "texto": "Art. 156. Apresentado o relatório final, o juiz encerrará a falência por sentença.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

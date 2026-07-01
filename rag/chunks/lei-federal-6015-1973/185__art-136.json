@@ -10,6 +10,7 @@
     "Art. 136"
   ],
   "texto": "Art. 136. O livro de registro integral de títulos será escriturado nos termos do artigo 142, lançado-se, antes de cada registro, o número de ordem, a data do protocolo e o nome do apresentante, e conterá colunas para as seguintes declarações:                          (Renumerado do art. 137 pela Lei nº 6.216, de 1975).\n\n1º) número de ordem;\n\n2º) dia e mês;\n\n3º) transcrição;\n\n4º) anotações e averbações.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

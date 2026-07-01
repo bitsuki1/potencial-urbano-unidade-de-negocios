@@ -10,6 +10,7 @@
     "Art. 8º"
   ],
   "texto": "Art. 8º O serviço começará e terminará às mesmas horas em todos os dias úteis.\n\nParágrafo único. O registro civil de pessoas naturais funcionará todos os dias, sem exceção.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

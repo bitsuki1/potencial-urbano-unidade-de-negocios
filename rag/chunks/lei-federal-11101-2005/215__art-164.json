@@ -9,6 +9,7 @@
     "Art. 164"
   ],
   "texto": "Art. 164. Recebido o pedido de homologação do plano de recuperação extrajudicial previsto nos arts. 162 e 163 desta Lei, o juiz ordenará a publicação de edital no órgão oficial e em jornal de grande circulação nacional ou das localidades da sede e das filiais do devedor, convocando todos os credores do devedor para apresentação de suas impugnações ao plano de recuperação extrajudicial, observado o § 3º deste artigo.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

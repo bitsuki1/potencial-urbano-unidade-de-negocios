@@ -10,6 +10,7 @@
     "Art. 23"
   ],
   "texto": "Art. 23. Todas as diligências judiciais e extrajudiciais que exigirem a apresentação de qualquer livro, ficha substitutiva de livro ou documento, efetuar-se-ão no próprio cartório.                      (Redação dada pela Lei nº 6.216, de 1975)",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "compilado",
     "revogado_por": null,

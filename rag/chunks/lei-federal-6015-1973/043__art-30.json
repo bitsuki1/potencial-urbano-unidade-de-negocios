@@ -10,6 +10,7 @@
     "Art. 30"
   ],
   "texto": "Art. 30. Das pessoas comprovadamente pobres, à vista de atestado da autoridade competente, não será cobrado emolumento pelo registro civil e respectiva certidão.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

@@ -10,6 +10,7 @@
     "Art. 156"
   ],
   "texto": "Art. 156. Apresentado o relatório final, o juiz encerrará a falência por sentença e ordenará a intimação eletrônica às Fazendas Públicas federal e de todos os Estados, Distrito Federal e Municípios em que o devedor tiver estabelecimento e determinará a baixa da falida no Cadastro Nacional da Pessoa Jurídica (CNPJ), expedido pela Secretaria Especial da Receita Federal do Brasil.       (Redação dada pela Lei nº 14.112, de 2020)   (Vigência)\n\nParágrafo único. A sentença de encerramento será publicada por edital e dela caberá apelação.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "compilado",
     "revogado_por": null,

@@ -10,6 +10,7 @@
     "Art. 242"
   ],
   "texto": "Art. 242. A inscrição das emissões de debêntures, a ser feito no livro n. 4, sem prejuízo do disposto no artigo 240, será feito com os seguintes requisitos:                      (Suprimido pela Lei nº 6.216, de 1975).\n\n1º número de ordem;\n\n2º data;\n\n3º nome, objeto e sede da sociedade;\n\n4º data da publicação de seu estatuto no órgão oficial, bem como das alterações que tiver sofrido;\n\n5º data da publicação oficial da ata da assembléia geral que resolveu a emissão e lhe fixou as condições, precisando-se os jornais em que essa publicação foi feita;\n\n6º importe dos empréstimos anteriormente emitidos pela sociedade;\n\n7º o número e valor nominal das obrigações cuja emissão se pretende, com o juro correspondente a cada uma, assim como a época e as condições da amortização, ou do resgate, e do pagamento dos juros;\n\n8º em se tratando de debêntures conversíveis em ações, serão consignados, além dos requisitos acima, os prazos para o exercício do direito à conversão e as bases dela, relativamente ao número de ações a serem emitidas por debêntures, ou entre o valor do principal destas e das ações em que forem convertidas (Lei nº 4.728, de 14 de julho de 1965, artigo 44).",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

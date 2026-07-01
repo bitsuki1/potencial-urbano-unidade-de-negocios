@@ -9,6 +9,7 @@
     "Art. 128"
   ],
   "texto": "Art. 128. O parcelamento, ocupação e uso do solo estão sujeitos aos procedimentos estabelecidos\n\nnesta lei, em leis específicas e nas disposições regulamentares pertinentes.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

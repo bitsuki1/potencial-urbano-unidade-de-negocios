@@ -10,6 +10,7 @@
     "Art. 106"
   ],
   "texto": "Art. 106. Não estando o pedido regularmente instruído, o juiz determinará que seja emendado.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

@@ -10,6 +10,7 @@
     "Art. 65"
   ],
   "texto": "Art. 65. São recuos mínimos da edificação em relação ao perímetro do lote:\n\nI - recuo de frente;\n\nII - recuos laterais;\n\nIII - recuo de fundo.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

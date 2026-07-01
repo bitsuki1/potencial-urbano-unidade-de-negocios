@@ -10,6 +10,7 @@
     "Art. 251"
   ],
   "texto": "Art. 251. O cancelamento da servidão, quando o prédio dominante estiver hipotecado, só poderá ser feito com aquiescência do credor, expressamente manifestada.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

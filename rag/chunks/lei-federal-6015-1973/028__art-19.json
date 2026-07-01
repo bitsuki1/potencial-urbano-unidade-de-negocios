@@ -10,6 +10,7 @@
     "Art. 19"
   ],
   "texto": "Art. 19. A certidão será lavrada em inteiro teor, em resumo, ou em relatório conforme quesitos e devidamente autenticada pelo oficial ou por seus substitutos legais, não podendo ser retardada por mais de cinco (5) dias.\n\n§ 1º É facultado o fornecimento de certidão de inteiro teor, mediante reprodução por sistema autorizado em lei.\n\n§ 2º A certidão de nascimento mencionará sempre à data em que foi lavrado o assento.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

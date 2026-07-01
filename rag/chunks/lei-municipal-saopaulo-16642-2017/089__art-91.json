@@ -10,6 +10,7 @@
     "Art. 91"
   ],
   "texto": "Art. 91. A inobservância de qualquer disposição deste Código constitui infração sujeita à aplicação das penalidades previstas na Tabela de Multas constante do seu Anexo III.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

@@ -10,6 +10,7 @@
     "Art. 141"
   ],
   "texto": "Art. 141. Na alienação conjunta ou separada de ativos, inclusive da empresa ou de suas filiais, promovida sob qualquer das modalidades de que trata este artigo:",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

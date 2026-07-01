@@ -9,6 +9,7 @@
     "Art. 11"
   ],
   "texto": "Art. 11. A utilização de postes de iluminação pública e de obras de arte, tais como túneis, viadutos ou\n\nsimilares, para a instalação de equipamentos destinados à operação de serviços de telecomunicações\n\ndependerá do atendimento das condições técnicas fixadas em regulamento.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

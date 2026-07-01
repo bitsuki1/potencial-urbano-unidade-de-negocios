@@ -10,6 +10,7 @@
     "Art. 271"
   ],
   "texto": "Art. 271. Se o devedor não comparecer ou não remir a hipoteca, os autos serão conclusos ao Juiz para julgar por sentença a remição pedida pelo segundo credor.                       (Renumerado do art. 272, pela Lei nº 6.216, de 1975)",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

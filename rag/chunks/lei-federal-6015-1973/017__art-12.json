@@ -10,6 +10,7 @@
     "Art. 12"
   ],
   "texto": "Art. 12. Nenhuma exigência fiscal, ou dúvida, obstará a apresentação de um título e o seu lançamento do Protocolo com o respectivo número de ordem, nos casos em que da precedência decorra prioridade de direitos para o apresentante.\n\nParágrafo único. Independem de apontamento no Protocolo os títulos apresentados apenas para exame e cálculo dos respectivos emolumentos.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

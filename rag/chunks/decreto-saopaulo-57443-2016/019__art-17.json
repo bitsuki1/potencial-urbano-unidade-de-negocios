@@ -9,6 +9,7 @@
     "Art. 17"
   ],
   "texto": "Art. 17. O agente vistor, sempre que possível, fará relatório fotográfico da operação, preferencialmente\n\nretratando a situação antes da retirada de máquinas, veículos, equipamentos ou materiais de\n\nconstrução.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

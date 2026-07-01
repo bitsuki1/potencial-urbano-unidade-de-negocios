@@ -10,6 +10,7 @@
     "Art. 139"
   ],
   "texto": "Art. 139. Logo após a arrecadação dos bens, com a juntada do respectivo auto ao processo de falência, será iniciada a realização do ativo.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

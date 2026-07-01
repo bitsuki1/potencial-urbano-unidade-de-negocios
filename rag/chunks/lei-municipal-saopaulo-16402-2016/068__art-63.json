@@ -10,6 +10,7 @@
     "Art. 63"
   ],
   "texto": "Art. 63. A taxa de ocupação (TO) máxima do lote não será aplicada à parte dos subsolos utilizados para\n\nestacionamento de veículos.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

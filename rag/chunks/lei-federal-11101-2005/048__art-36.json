@@ -10,6 +10,7 @@
     "Art. 36"
   ],
   "texto": "Art. 36. A assembléia-geral de credores será convocada pelo juiz por edital publicado no órgão oficial e em jornais de grande circulação nas localidades da sede e filiais, com antecedência mínima de 15 (quinze) dias, o qual conterá:",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

@@ -8,6 +8,7 @@
     "Art. 6º"
   ],
   "texto": "Art. 6º O patrimônio do Fundo será constituído pelos bens e direitos adquiridos pela instituição administradora, em caráter fiduciário.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

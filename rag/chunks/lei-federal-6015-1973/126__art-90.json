@@ -10,6 +10,7 @@
     "Art. 90"
   ],
   "texto": "Art. 90. O registro será feito mediante trasladação da sentença oferecida em certidão ou do instrumento, limitando-se, se for de escritura pública, as referências da data, livro, folha e ofício em que for lavrada sem dependência, em qualquer dos casos, da presença de testemunhas, mas com a assinatura do apresentante. Dele sempre constarão:                      (Renumerado do art. 91  pela Lei nº 6.216, de 1975).\n\n1º) data do registro e da emancipação;\n\n2º) nome, prenome, idade, filiação, profissão, naturalidade e residência do emancipado; data e cartório em que foi registrado o seu nascimento;\n\n3º) nome, profissão, naturalidade e residência dos pais ou do tutor.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

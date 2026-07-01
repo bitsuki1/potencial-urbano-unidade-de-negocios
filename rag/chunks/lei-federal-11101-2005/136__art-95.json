@@ -10,6 +10,7 @@
     "Art. 95"
   ],
   "texto": "Art. 95. Dentro do prazo de contestação, o devedor poderá pleitear sua recuperação judicial.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

@@ -10,6 +10,7 @@
     "Art. 116"
   ],
   "texto": "Art. 116. A decretação da falência suspende:\n\nI – o exercício do direito de retenção sobre os bens sujeitos à arrecadação, os quais deverão ser entregues ao administrador judicial;\n\nII – o exercício do direito de retirada ou de recebimento do valor de suas quotas ou ações, por parte dos sócios da sociedade falida.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

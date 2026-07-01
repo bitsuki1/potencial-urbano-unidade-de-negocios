@@ -8,6 +8,7 @@
     "Art. 1º"
   ],
   "texto": "Art 1º Os débitos dos contribuintes, relativos ao Impôsto sôbre a Propriedade Territorial Rural (ITR), Taxas de Serviços Cadastrais e respectivas multas, não liquidadas em cada exercício, serão inscritos como dívida ativa, acrescidos da multa de 20% (vinte por cento).",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

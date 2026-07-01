@@ -61,6 +61,8 @@ def main():
             "vigencia": (c.get("citacao") or {}).get("vigencia", {}),
             # B-11c: vigência por dispositivo (revogado/compilado/original) p/ o filtro pré-busca (2.6).
             "vigencia_dispositivo": c.get("vigencia_dispositivo", {"status": "original"}),
+            # B-11d: dispositivo citável (preâmbulo/boilerplate = não-citável) p/ o filtro pré-busca.
+            "citavel": c.get("citavel", True),
         }
         # indexa texto + rótulo + temas (o nº do artigo e os temas devem ser buscáveis)
         campo = " ".join([

@@ -10,6 +10,7 @@
     "Art. 14"
   ],
   "texto": "Art. 14. As custas devidas aos oficiais do registro, pelos atos que praticarem, incumbirão aos interessados que os requererem e serão pagas no ato do requerimento ou no da apresentação do título.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

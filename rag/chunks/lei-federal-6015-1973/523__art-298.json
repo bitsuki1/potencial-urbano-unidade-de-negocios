@@ -9,6 +9,7 @@
     "Art. 298"
   ],
   "texto": "Art. 298 - Esta Lei entrará em vigor no dia 1º de janeiro 1976.                       (Renumerado do art 295, pela Lei nº 6.941, de 1981)",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

@@ -10,6 +10,7 @@
     "Art. 26"
   ],
   "texto": "Art. 26. Os livros e papéis pertencentes ao arquivo do cartório ali permanecerão indefinidamente.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

@@ -10,6 +10,7 @@
     "Art. 257"
   ],
   "texto": "Art. 257. Se, cancelado o registro, subsistirem o título e os direitos dele decorrentes, poderá o credor promover novo registro, o qual só produzirá efeitos a partir da nova data.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

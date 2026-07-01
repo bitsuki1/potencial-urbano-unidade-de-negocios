@@ -10,6 +10,7 @@
     "Art. 21"
   ],
   "texto": "Art. 21. Pode ser emitido mais de um Alvará de Aprovação para o mesmo imóvel.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

@@ -10,6 +10,7 @@
     "Art. 23"
   ],
   "texto": "Art. 23. Todas as diligências judiciais e extrajudiciais que exigirem a apresentação de qualquer livro ou documento, efetuar-se-ão, sempre que possível, no próprio cartório.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

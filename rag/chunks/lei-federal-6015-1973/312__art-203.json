@@ -10,6 +10,7 @@
     "Art. 203"
   ],
   "texto": "Art. 203. O documento que for objeto de dúvida, decidida esta, será restituído ao interessado, independentemente de traslado.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

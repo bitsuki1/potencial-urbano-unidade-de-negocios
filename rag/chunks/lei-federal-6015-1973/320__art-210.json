@@ -10,6 +10,7 @@
     "Art. 210"
   ],
   "texto": "Art. 210. Durante a prorrogação, nenhuma nova apresentação será admitida, lavrando-se termo de encerramento no protocolo.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

@@ -10,6 +10,7 @@
     "Art. 109"
   ],
   "texto": "Art. 109. O estabelecimento será lacrado sempre que houver risco para a execução da etapa de arrecadação ou para a preservação dos bens da massa falida ou dos interesses dos credores.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

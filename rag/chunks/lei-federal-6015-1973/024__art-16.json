@@ -10,6 +10,7 @@
     "Art. 16"
   ],
   "texto": "Art. 16. Os oficiais e os encarregados das repartições em que se façam os registros são obrigados:\n\n1º a lavrar certidão do que lhes for requerido;\n\n2º a fornecer às partes as informações solicitadas.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

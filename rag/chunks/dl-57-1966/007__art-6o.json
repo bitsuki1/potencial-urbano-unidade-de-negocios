@@ -8,6 +8,7 @@
     "Art. 6º"
   ],
   "texto": "Art 6º As isenções concedidas pelo art. 66 da Lei nº 4.504, de 30 de novembro de 1964, não se referem ao ITR e à Taxa de Serviços Cadastrais.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

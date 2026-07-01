@@ -10,6 +10,7 @@
     "Art. 9º"
   ],
   "texto": "Art. 9º A companhia securitizadora poderá instituir regime fiduciário sobre créditos imobiliários, a fim de lastrear a emissão de Certificados de Recebíveis Imobiliários, sendo agente fiduciário uma instituição financeira ou companhia autorizada para esse fim pelo BACEN e beneficiários os adquirentes dos títulos lastreados nos recebíveis objeto desse regime.          (Revogado pela Medida Provisória nº 1.103, de 2022)    (Revogado pela Lei nº 14.430, de 2022)",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

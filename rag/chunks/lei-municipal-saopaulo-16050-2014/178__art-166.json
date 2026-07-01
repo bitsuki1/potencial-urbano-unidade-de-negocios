@@ -11,6 +11,7 @@
     "Art. 166"
   ],
   "texto": "Art. 166. A concessão de uso especial para fins de moradia poderá ser outorgada mediante requerimento do interessado, dirigido à\n\nSecretaria Municipal de Habitação.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

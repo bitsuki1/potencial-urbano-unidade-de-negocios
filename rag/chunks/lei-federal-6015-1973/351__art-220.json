@@ -10,6 +10,7 @@
     "Art. 220"
   ],
   "texto": "Art. 220. As despesas com o registro incumbem ao interessado que o requerer, salvo convenção em contrário.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

@@ -10,6 +10,7 @@
     "Art. 96"
   ],
   "texto": "Art. 96. Contra os atos de fiscalização previstos neste Código, cabe defesa ao Supervisor Técnico de Fiscalização, da Subprefeitura, no prazo de 15 (quinze) dias, contados:\n\nI - para a intimação e o embargo, a partir da data da respectiva notificação;\n\nII - para a multa, a partir da data de sua publicação no Diário Oficial da Cidade.\n\n§ 1º Contra o despacho decisório que desacolher a defesa, caberá um único recurso, ao Subprefeito, no prazo de 15 (quinze) dias contados da data da publicação do despacho.\n\n§ 2º As defesas e recursos suspendem a exigibilidade dos autos de multa impugnados.\n\n§ 3º A defesa contra o auto de embargo não suspende a ação fiscalizatória e não obsta a aplicação de outras multas previstas neste Código.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

@@ -10,6 +10,7 @@
     "Art. 22"
   ],
   "texto": "Art. 22. Os livros de registro não sairão do respectivo cartório, salvo por autorização judicial, ou ocorrendo força maior.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

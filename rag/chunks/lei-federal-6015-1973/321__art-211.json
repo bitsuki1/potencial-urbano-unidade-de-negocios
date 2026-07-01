@@ -10,6 +10,7 @@
     "Art. 211"
   ],
   "texto": "Art. 211. Todos os atos serão assinados pelo oficial, seu substituto legal ou escrevente, expressamente designado pelo oficial e autorizado pelo Juiz competente, ainda que o primeiro não esteja afastado ou impedido.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

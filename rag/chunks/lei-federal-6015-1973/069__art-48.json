@@ -10,6 +10,7 @@
     "Art. 48"
   ],
   "texto": "Art. 48. Os Juizes farão correição e fiscalização nos livros de registro, conforme as normas da organização Judiciária.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

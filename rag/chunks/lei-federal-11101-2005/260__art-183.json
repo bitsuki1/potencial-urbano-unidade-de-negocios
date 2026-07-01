@@ -10,6 +10,7 @@
     "Art. 183"
   ],
   "texto": "Art. 183. Compete ao juiz criminal da jurisdição onde tenha sido decretada a falência, concedida a recuperação judicial ou homologado o plano de recuperação extrajudicial, conhecer da ação penal pelos crimes previstos nesta Lei.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

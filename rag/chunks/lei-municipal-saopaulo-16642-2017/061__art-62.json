@@ -10,6 +10,7 @@
     "Art. 62"
   ],
   "texto": "Art. 62. Os prazos de validade do Alvará de Aprovação e do Alvará de Execução ficam suspensos enquanto perdurar qualquer um dos seguintes impedimentos ao início ou prosseguimento da obra:\n\nI - decisão judicial determinando ou que implique a paralisação ou o não início da obra;\n\nII - calamidade pública;\n\nIII - declaração de utilidade pública ou interesse social.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

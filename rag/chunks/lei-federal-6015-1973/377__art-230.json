@@ -10,6 +10,7 @@
     "Art. 230"
   ],
   "texto": "Art. 230. Além dos casos de cancelamento previstos nesta Lei, será a matrícula encerrada na hipótese prevista no artigo seguinte ou quando, em virtude da alienações parciais, for o imóvel transferido inteiramente a outros proprietários.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

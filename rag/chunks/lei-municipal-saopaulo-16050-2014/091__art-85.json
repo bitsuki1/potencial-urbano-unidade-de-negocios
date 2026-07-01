@@ -11,6 +11,7 @@
     "Art. 85"
   ],
   "texto": "Art. 85. A paisagem da cidade é um bem ambiental e constitui elemento essencial ao bem-estar e à sensação de conforto individual\n\ne social, fundamental para a qualidade de vida.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

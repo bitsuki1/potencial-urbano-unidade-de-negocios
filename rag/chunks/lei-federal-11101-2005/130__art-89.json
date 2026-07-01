@@ -10,6 +10,7 @@
     "Art. 89"
   ],
   "texto": "Art. 89. A sentença que negar a restituição, quando for o caso, incluirá o requerente no quadro-geral de credores, na classificação que lhe couber, na forma desta Lei.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

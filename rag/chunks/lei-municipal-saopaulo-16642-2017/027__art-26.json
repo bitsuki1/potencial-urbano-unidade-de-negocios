@@ -10,6 +10,7 @@
     "Art. 26"
   ],
   "texto": "Art. 26. Pode ser requerido Alvará de Execução parcial para cada bloco no caso do Alvará de Aprovação compreender edificação constituída de mais de um bloco, observado o seu prazo de vigência.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

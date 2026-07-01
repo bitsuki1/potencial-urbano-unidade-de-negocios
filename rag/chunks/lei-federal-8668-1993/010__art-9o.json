@@ -8,6 +8,7 @@
     "Art. 9º"
   ],
   "texto": "Art. 9º A alienação dos imóveis pertencentes ao patrimônio do fundo será efetivada diretamente pela instituição administradora, constituindo o instrumento de alienação documento hábil para cancelamento, perante o Cartório de Registro de Imóveis, das averbações pertinentes às restrições e destaque de que tratam os § 1º e 2º do art. 7º.\n\nParágrafo único. Os recursos resultantes da alienação constituirão patrimônio do fundo.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

@@ -10,6 +10,7 @@
     "Art. 31"
   ],
   "texto": "Art. 31. O Alvará de Execução pode, enquanto vigente, ser objeto de apostilamento para constar eventuais alterações de dados.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

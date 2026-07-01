@@ -10,6 +10,7 @@
     "Art. 32"
   ],
   "texto": "Art. 32. O Alvará de Execução pode ser expedido juntamente com o Alvará de Aprovação, por meio de um mesmo procedimento, sendo neste caso o prazo de validade equivalente à soma dos prazos de validade de cada Alvará.\n\nSubseção III\n\nDo Certificado de Conclusão",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

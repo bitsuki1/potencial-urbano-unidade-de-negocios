@@ -10,6 +10,7 @@
     "Art. 241"
   ],
   "texto": "Art. 241. A inscrição da hipoteca convencional valerá pelo prazo de trinta (30) anos, findo o qual só será mantido o número anterior se reconstituída por novo título e novo registro.\n\nParágrafo único. Quando o imóvel pertencer a terceiro que o tenha hipotecado em garantia de dívida alheia, serão, também, registrados o seu nome, estado civil, nacionalidade, profissão e domicílio.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

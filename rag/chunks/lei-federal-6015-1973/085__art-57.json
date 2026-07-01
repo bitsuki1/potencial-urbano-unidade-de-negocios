@@ -10,6 +10,7 @@
     "Art. 57"
   ],
   "texto": "Art. 57 - Qualquer alteração posterior de nome, somente por exceção e motivadamente, após audiência do Ministério Público, será permitida por sentença do juiz a que estiver sujeito o registro, arquivando-se o mandato e publicando-se a alteração pela imprensa.                       (Renumerado do art. 58 com nova redação pela Lei nº 6.216, de 1975).",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

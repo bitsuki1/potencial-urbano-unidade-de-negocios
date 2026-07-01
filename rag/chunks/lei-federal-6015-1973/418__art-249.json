@@ -10,6 +10,7 @@
     "Art. 249"
   ],
   "texto": "Art. 249. O cancelamento efetuar-se-á mediante averbação datada e assinada pelo oficial ou seus substitutos legais e declarará a razão do cancelamento e o título em virtude do qual foi ele feito.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

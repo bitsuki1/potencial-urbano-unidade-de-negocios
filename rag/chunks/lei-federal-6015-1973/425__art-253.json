@@ -10,6 +10,7 @@
     "Art. 253"
   ],
   "texto": "Art. 253. O foreiro poderá, nos termos da lei, averbar a renúncia de seu direito, sem dependência do consentimento do senhorio direto.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

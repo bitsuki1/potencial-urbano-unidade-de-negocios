@@ -9,6 +9,7 @@
     "Art. 295"
   ],
   "texto": "Art. 295. O diretor do estabelecimento em que tiver de se efetuar o registro poderá exigir, quando julgar necessário, prova da nacionalidade e do domicílio do autor ou do proprietário, bem como a do tempo da publicação.               (Suprimido pela Lei nº 6.216, de 1975)",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

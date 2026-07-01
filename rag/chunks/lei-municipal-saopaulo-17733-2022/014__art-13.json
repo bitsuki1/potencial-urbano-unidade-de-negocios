@@ -9,6 +9,7 @@
     "Art. 13"
   ],
   "texto": "Art. 13. Nenhuma ERB, ERB móvel ou mini ERB poderá ser instalada sem o prévio alvará ou cadastro\n\nnos termos desta Lei, salvo as condições de exceção previstas no art. 12.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

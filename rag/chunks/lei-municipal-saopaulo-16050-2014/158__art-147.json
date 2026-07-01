@@ -11,6 +11,7 @@
     "Art. 147"
   ],
   "texto": "Art. 147. Cada Área de Intervenção Urbana poderá prever a quantidade de potencial construtivo adicional utilizável em seu\n\nperímetro de intervenção, com base na estrutura, forma, paisagem, características e funções urbanas previstas para o local bem\n\ncomo nos parâmetros de uso, ocupação, parcelamento e edificação propostos.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

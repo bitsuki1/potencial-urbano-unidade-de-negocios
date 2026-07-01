@@ -10,6 +10,7 @@
     "Art. 75"
   ],
   "texto": "Art. 75. A QA é calculada pela seguinte equação:\n\nQA = V^(alfa) x D^(beta)\n\nsendo:\n\nV: indicador Cobertura Vegetal, calculado a partir do Quadro 3B desta lei;\n\nD: indicador Drenagem, calculado a partir do Quadro 3B desta lei;\n\n^: elevado a;\n\nalfa e beta: fatores de ponderação, definidos no Quadro 3A desta lei.\n\nParágrafo único. O Executivo disponibilizará em seu sítio na internet planilha eletrônica para auxiliar os\n\ncálculos relativos à QA a partir do Quadro 3B desta lei.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

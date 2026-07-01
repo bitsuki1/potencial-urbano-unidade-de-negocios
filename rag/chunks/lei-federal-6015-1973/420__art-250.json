@@ -10,6 +10,7 @@
     "Art. 250"
   ],
   "texto": "Art. 250. O cancelamento poderá ser total ou parcial e referir-se a qualquer dos atos do registro, sendo promovido pelos interessados, mediante sentença definitiva ou documento hábil, ou, ainda, a requerimento unânime das partes que convierem no ato registrado, se capazes e conhecidas do oficial.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

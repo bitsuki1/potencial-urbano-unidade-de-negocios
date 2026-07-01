@@ -10,6 +10,7 @@
     "Art. 170"
   ],
   "texto": "Art. 170. Divulgar ou propalar, por qualquer meio, informação falsa sobre devedor em recuperação judicial, com o fim de levá-lo à falência ou de obter vantagem:\n\nPena – reclusão, de 2 (dois) a 4 (quatro) anos, e multa.\n\nIndução a erro",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

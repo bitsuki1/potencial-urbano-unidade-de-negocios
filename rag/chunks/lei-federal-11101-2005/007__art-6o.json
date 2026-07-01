@@ -10,6 +10,7 @@
     "Art. 6º"
   ],
   "texto": "Art. 6º A decretação da falência ou o deferimento do processamento da recuperação judicial suspende o curso da prescrição e de todas as ações e execuções em face do devedor, inclusive aquelas dos credores particulares do sócio solidário.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,

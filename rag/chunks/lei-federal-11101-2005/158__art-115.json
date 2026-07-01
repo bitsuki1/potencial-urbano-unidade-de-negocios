@@ -10,6 +10,7 @@
     "Art. 115"
   ],
   "texto": "Art. 115. A decretação da falência sujeita todos os credores, que somente poderão exercer os seus direitos sobre os bens do falido e do sócio ilimitadamente responsável na forma que esta Lei prescrever.",
+  "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,
