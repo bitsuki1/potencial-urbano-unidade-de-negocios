@@ -1,5 +1,19 @@
 # PRÓXIMA INSTÂNCIA — o que fazer (Potencial Urbano)
 
+> **★ HANDOFF 2026-07-01 (PU 15 — lente loop de IA · estratégia + ondas locais).** Entregou: (1)
+> **`ESTRATEGIA-DE-ENTREGAS-PU.md`** — mapa do processo + roadmap + ondas + separação Classe LOCAL (loop
+> destrava sozinho) × Classe EXTERNA (pedido ao MOU). (2) **Executou a Classe LOCAL, tudo provado pelo gate:**
+> **B-12** FECHADO (guarda DECIMAL(10,3) do UTXO; R$ OODC monetário não), **B-11c** FECHADO (vigência POR
+> CHUNK — o RAG não devolve mais redação revogada como vigente; defeito real do PDE Art. 148 corrigido; eval
+> ATIVO novo), **B-7** parte local (verbatim_integral no MANIFESTO + 7.228 datada; 19 verbatim todas datadas),
+> **B-10** FEITO (mérito jurídico das 32 juris — laudo `docs/AUDITORIA-MERITO-JURIDICO-B10-2026-07-01.md`;
+> lente Gen Advogado + verificação adversarial). (3) Gerou **B-21** (corpus TDC-cego: 0/32, VERIFICADO) e
+> **B-22** (dessinc .md/.json). (4) **Pedido único ao MOU** (Classe Externa) em
+> `caixa-de-saida/para-escritorio/2026-07-01_potencial-urbano_pedido-unico-classe-externa.md`.
+> **Gate VERDE.** **PRÓXIMO LOCAL:** B-22, B-11(d), e avaliar promover `tdc-produto-pendente.json` a ATIVO
+> (os 3 itens TDC já passam — o PDE está verbatim/indexado). **PRÓXIMO EXTERNO:** o pedido único (dado pesado).
+
+
 > **★ HANDOFF 2026-06-27 (2 acionamentos — PU 12).** Laudo: `docs/AUDITORIA-PROFUNDA-2026-06-27.md`.
 > **Acionamento 1:** pacote de padronização do escritório (caixas v2, REGISTRO/ATA, D128, D119/D120, handoff)
 > **consolidado ao `main`** (gate D141) + auditoria 3-lentes + depósito.
