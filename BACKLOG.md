@@ -12,7 +12,11 @@
 > a data. Se esta lista estiver desatualizada, o mecanismo falhou — corrigir antes de seguir.
 >
 > Prioridade: 🟥 produto/valor · 🟦 corpus/RAG · 🟨 higiene/governança · ⬜ qualidade.
-> **Atualizado: 2026-06-28** (regularização do Escritório — ABERTAS reconferidas, substância dos itens INALTERADA; B-17 e demais escaladas no laudo `escritorio-do-mou/caixa-de-entrada/potencial-urbano/2026-06-28_potencial-urbano_arrumacao.md`). _Histórico: 2026-06-27 auditoria profunda (B-15..B-19, `docs/AUDITORIA-PROFUNDA-2026-06-27.md`)._
+> **Estratégia de entregas (lente de loop de IA) que SEQUENCIA estas ABERTAS em ondas:** `ESTRATEGIA-DE-ENTREGAS-PU.md`
+> (PU 15, 2026-07-01). Separa **Classe LOCAL** — o loop de IA destrava sozinho, roda já: B-3·B-5·B-6·B-7·B-10·B-11c·B-12 —
+> da **Classe EXTERNA** — pedido único ao MOU: B-1·B-2·B-4·B-9·B-17 + dado pesado/geo/FUNDURB/despausar-preço.
+> **Substância das ABERTAS INALTERADA** (esta linha só as agrupa por quem destrava).
+> **Atualizado: 2026-07-01** (PU 15 — estratégia de entregas; ABERTAS reconferidas, substância INALTERADA). _Histórico: 2026-06-28 regularização do Escritório; 2026-06-27 auditoria profunda (B-15..B-19, `docs/AUDITORIA-PROFUNDA-2026-06-27.md`)._
 
 ## 🔴 ABERTAS
 
