@@ -10,8 +10,13 @@
 > lente Gen Advogado + verificação adversarial). (3) Gerou **B-21** (corpus TDC-cego: 0/32, VERIFICADO) e
 > **B-22** (dessinc .md/.json). (4) **Pedido único ao MOU** (Classe Externa) em
 > `caixa-de-saida/para-escritorio/2026-07-01_potencial-urbano_pedido-unico-classe-externa.md`.
-> **Gate VERDE.** **PRÓXIMO LOCAL:** B-22, B-11(d), e avaliar promover `tdc-produto-pendente.json` a ATIVO
-> (os 3 itens TDC já passam — o PDE está verbatim/indexado). **PRÓXIMO EXTERNO:** o pedido único (dado pesado).
+> **Gate VERDE.**
+> **★ 2ª onda local (mesma sessão, aprovada):** **eval TDC PROMOVIDO a ATIVO** (destrave P5 — tubo jurídico de
+> TDC vira gate rígido; arts. 122/124/129; evals ativos 10→14), **B-11d** (preâmbulo não-citável — B-11 FECHADO
+> a/b/c/d), **B-22** (4 notas .md↔.json reconciliadas), **B-3 lado Fs** (`fs_por_categoria` sobre o Quadro 5 real).
+> **PRÓXIMO LOCAL (o que resta):** **B-3 Fp** (Quadro 6 — Drive), **B-21** (jurisprudência TDC — captura),
+> **B-5/B-6** (camada semântica/remissões — **exigem DECISÃO de doutrina: embeddings vs keyword-puro D-05**; não
+> fingir). **PRÓXIMO EXTERNO:** o pedido único ao MOU (dado pesado Drive→Supabase → dono/Atc/preço → Onda 3).
 
 
 > **★ HANDOFF 2026-06-27 (2 acionamentos — PU 12).** Laudo: `docs/AUDITORIA-PROFUNDA-2026-06-27.md`.
