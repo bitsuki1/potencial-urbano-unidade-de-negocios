@@ -1,0 +1,33 @@
+{
+  "_doc": "Ground-truth ATIVO do B-11c (vigencia POR CHUNK, 1.6): o RAG NAO pode devolver redacao REVOGADA como vigente. Caso real: PDE 16.050/2014 Art. 148 e Art. 52 foram REVOGADOS pela Lei 17.975/2023 e, antes do B-11c, o Art. 148 (revogado) vinha no TOPO da consulta sobre 'Areas de Estruturacao Local (AEL)' com cobertura 100%. Depois do B-11c, consultar.py exclui dispositivos revogados por padrao (flag --incluir-revogado reabre para consulta historica), e a resposta vigente (Art. 149 define AEL; Art. 91/9 tratam do tema) encabeca. Gate = citacao correta + vigente (Parte 3 + 1.6).",
+  "dominio": "TDC",
+  "status": "ativo",
+  "lei_alvo": "lei-municipal-saopaulo-16050-2014",
+  "itens": [
+    {
+      "id": "b11c-ael-nao-devolve-revogado",
+      "pergunta": "o que são as Áreas de Estruturação Local AEL",
+      "espera": {
+        "fundamentada": true,
+        "lei_id": "lei-municipal-saopaulo-16050-2014",
+        "dispositivo_topo_nao": "Art. 148",
+        "topo_nao_revogado": true
+      },
+      "_nota": "Antes do B-11c o topo era o Art. 148 (Revogado pela Lei 17.975/2023), cobertura 100%. Agora o revogado e excluido do conjunto vigente e o topo e um dispositivo vigente (Art. 91)."
+    },
+    {
+      "id": "b11c-compilado-segue-vigente",
+      "pergunta": "definição das Áreas de Estruturação Local no plano diretor",
+      "espera": {
+        "fundamentada": true,
+        "lei_id": "lei-municipal-saopaulo-16050-2014",
+        "topo_nao_revogado": true
+      },
+      "_nota": "Prova o outro lado: dispositivo COMPILADO ('Redacao dada por...') NAO e filtrado — redacao vigente alterada por norma posterior segue sendo devolvida como vigente (so o REVOGADO integral e excluido). O topo aqui e um artigo com status 'compilado'."
+    }
+  ],
+  "vacinas": [
+    "REVOGACAO INTEGRAL vs PARCIAL: o B-11c marca 'revogado' apenas quando o artigo ABRE com '(Revogado ...)' (revogacao integral do dispositivo). Um artigo cujo texto so tem um paragrafo/inciso interno revogado NAO e marcado revogado inteiro (evita esconder redacao vigente). Granularidade sub-artigo (por paragrafo) exigiria fatiar abaixo do artigo — o chunker mantem o artigo inteiro por fidelidade (2.5).",
+    "CONSULTA HISTORICA: o revogado nao some do acervo (nada se descarta) — fica indexado e volta com --incluir-revogado, sempre FLAGADO como revogado + a norma revogadora. O default e vigente porque o produto responde 'o que vale HOJE'."
+  ]
+}

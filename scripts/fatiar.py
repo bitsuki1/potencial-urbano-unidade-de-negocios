@@ -43,6 +43,37 @@ RE_CAPITULO = re.compile(r"^\s*CAP[ÍI]TULO\s+([IVXLCDM]+|\d+)\b", re.IGNORECASE
 RE_SECAO = re.compile(r"^\s*SE[ÇC][ÃA]O\s+([IVXLCDM]+|\d+)\b", re.IGNORECASE)
 
 
+# B-11c — VIGÊNCIA POR CHUNK (1.6): em texto CONSOLIDADO, um dispositivo pode estar REVOGADO
+# ("(Revogado pela Lei ...)") ou carregar redação ALTERADA ("Redação dada pela Lei ..."). Sem marcar
+# isso, o RAG devolve redação revogada como vigente (defeito real: PDE 16.050 Art. 148/52, revogados
+# pela Lei 17.975/2023, vinham no TOPO da consulta). Aqui a marcação é DETERMINÍSTICA e por chunk.
+# Revogação INTEGRAL do dispositivo: parentética "(Revogado ...)" OU "Revogado pel[oa] Lei/Decreto".
+# NÃO confundir com a cláusula de ENCERRAMENTO "Revogadas as disposições em contrário, esta Lei
+# entrará em vigor..." (art. final que revoga OUTRAS normas e PROMULGA esta — não é o artigo revogado).
+RE_REVOGADO_INICIO = re.compile(r"^\(\s*Revogad[oa]|^Revogad[oa]s?\s+pel[oa]s?\b", re.IGNORECASE)
+RE_REVOGADO_FONTE = re.compile(r"Revogad[oa]s?\s+(?:pel[oa]s?\s+)?"
+                               r"(Lei[^)\n]*|Decreto[^)\n]*|EC[^)\n]*)", re.IGNORECASE)
+RE_REDACAO_DADA = re.compile(r"Reda[çc][ãa]o dada", re.IGNORECASE)
+RE_ROTULO_PREFIXO = re.compile(r"^\s*Art\.?\s*\d+(?:-[A-Z])?\s*[ºoO°.\-–]?\s*")
+
+
+def vigencia_dispositivo(texto: str) -> dict:
+    """Classifica a vigência de UM dispositivo pelo seu próprio texto verbatim (B-11c, 1.6):
+    - 'revogado'  : o artigo ABRE com '(Revogado ...)' — revogação INTEGRAL do dispositivo;
+    - 'compilado' : contém 'Redação dada por ...' — redação vigente ALTERADA por norma posterior;
+    - 'original'  : sem marcador (redação original).
+    Conservador: só marca 'revogado' quando a revogação abre o corpo do artigo (revogação integral),
+    para NÃO rotular um artigo inteiro como revogado quando só um §/inciso interno o foi."""
+    corpo = RE_ROTULO_PREFIXO.sub("", texto).lstrip()
+    if RE_REVOGADO_INICIO.match(corpo):
+        fonte = RE_REVOGADO_FONTE.search(texto)
+        return {"status": "revogado", "revogado_por": (fonte.group(1).strip() if fonte else None),
+                "marcadores": ["revogado_integral"]}
+    if RE_REDACAO_DADA.search(texto):
+        return {"status": "compilado", "revogado_por": None, "marcadores": ["redacao_dada"]}
+    return {"status": "original", "revogado_por": None, "marcadores": []}
+
+
 def slug(texto: str, limite: int = 40) -> str:
     t = unicodedata.normalize("NFKD", texto).encode("ascii", "ignore").decode("ascii")
     t = re.sub(r"[^a-zA-Z0-9]+", "-", t).strip("-").lower()
@@ -165,6 +196,8 @@ def fatiar_lei(md_path: Path, reportar):
             "numero": d["numero"],
             "caminho_hierarquico": d["caminho"],
             "texto": d["texto"],
+            # B-11c: vigência POR CHUNK (revogado/compilado/original) — deriva do próprio verbatim (1.6).
+            "vigencia_dispositivo": vigencia_dispositivo(d["texto"]),
             # citação pré-montada (1.7): tudo que uma resposta precisa para fundamentar
             "citacao": {
                 "norma": f"{meta.get('tipo_norma','norma')} nº {meta.get('numero')}/{meta.get('ano')} — {jurisdicao}",

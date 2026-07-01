@@ -65,9 +65,14 @@ def _vigente_em(vig, data):
     return True
 
 
-def filtrar(meta, lei=None, tema=None, jurisdicao=None, data=None):
-    """Etapa 1 (2.6): conjunto de chunks elegíveis após filtro de metadado (inclui temporal)."""
+def filtrar(meta, lei=None, tema=None, jurisdicao=None, data=None, incluir_revogado=False):
+    """Etapa 1 (2.6): conjunto de chunks elegíveis após filtro de metadado (inclui temporal).
+    B-11c (1.6): por padrão EXCLUI dispositivos REVOGADOS — o RAG não pode devolver redação
+    revogada como vigente. `incluir_revogado=True` reabre-os (consulta histórica explícita)."""
     elegiveis = set(meta.keys())
+    if not incluir_revogado:
+        elegiveis = {c for c in elegiveis
+                     if (meta[c].get("vigencia_dispositivo") or {}).get("status") != "revogado"}
     if lei:
         elegiveis = {c for c in elegiveis if meta[c]["lei_id"] == lei}
     if tema:
@@ -120,9 +125,10 @@ def pontuar(pergunta, inv, elegiveis):
     return scores, termos_casados, termos_pergunta
 
 
-def consultar(pergunta, lei=None, tema=None, jurisdicao=None, data=None, top=3):
+def consultar(pergunta, lei=None, tema=None, jurisdicao=None, data=None, top=3, incluir_revogado=False):
     store, inv, meta = carregar_indice()
-    elegiveis = filtrar(meta, lei=lei, tema=tema, jurisdicao=jurisdicao, data=data)
+    elegiveis = filtrar(meta, lei=lei, tema=tema, jurisdicao=jurisdicao, data=data,
+                        incluir_revogado=incluir_revogado)
     scores, termos, termos_pergunta = pontuar(pergunta, inv, elegiveis)
     ranked = sorted(scores.items(), key=lambda kv: kv[1], reverse=True)[:top]
 
@@ -140,6 +146,7 @@ def consultar(pergunta, lei=None, tema=None, jurisdicao=None, data=None, top=3):
             "citacao": c.get("citacao"),
             "rotulo": c.get("rotulo"),
             "texto": c.get("texto"),
+            "vigencia_dispositivo": c.get("vigencia_dispositivo") or {"status": "original"},
         })
 
     # GATE 1.7 (três travas — ver SCORE_MIN/COBERTURA_MIN acima).
@@ -187,6 +194,10 @@ def imprimir_humano(r):
         print(f"    fonte: {cit.get('fonte_url')}")
         vig = cit.get("vigencia") or {}
         print(f"    vigência: {json.dumps(vig, ensure_ascii=False)}")
+        vd = res.get("vigencia_dispositivo") or {}
+        if vd.get("status") and vd["status"] != "original":
+            extra = f" (revogado por {vd['revogado_por']})" if vd.get("revogado_por") else ""
+            print(f"    dispositivo: {vd['status']}{extra}  ← B-11c (vigência por chunk)")
         print(f"    termos: {', '.join(res['termos_casados'])}")
         trecho = res["texto"].strip().replace("\n", " ")
         print(f"    «{trecho[:300]}{'…' if len(trecho) > 300 else ''}»\n")
@@ -200,10 +211,12 @@ def main(argv):
     p.add_argument("--jurisdicao", help="filtra por jurisdição")
     p.add_argument("--data", help="filtro temporal AAAA-MM-DD (vigência na data do fato gerador)")
     p.add_argument("--top", type=int, default=3)
+    p.add_argument("--incluir-revogado", action="store_true",
+                   help="inclui dispositivos REVOGADOS (consulta histórica; por padrão B-11c os exclui)")
     p.add_argument("--json", action="store_true", help="saída JSON")
     args = p.parse_args(argv[1:])
-    r = consultar(args.pergunta, lei=args.lei, tema=args.tema,
-                  jurisdicao=args.jurisdicao, data=args.data, top=args.top)
+    r = consultar(args.pergunta, lei=args.lei, tema=args.tema, jurisdicao=args.jurisdicao,
+                  data=args.data, top=args.top, incluir_revogado=args.incluir_revogado)
     if args.json:
         print(json.dumps(r, ensure_ascii=False, indent=2))
     else:

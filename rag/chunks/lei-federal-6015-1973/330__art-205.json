@@ -10,6 +10,13 @@
     "Art. 205"
   ],
   "texto": "Art. 205.  Cessarão automaticamente os efeitos da prenotação se, decorridos vinte dias da data do seu lançamento no Protocolo, o título não tiver sido registrado por omissão do interessado em atender às exigências legais.      (Redação dada pela Medida Provisória nº 1.085, de 2021)",
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ]
+  },
   "citacao": {
     "norma": "lei_ordinaria nº 6015/1973 — Brasil",
     "dispositivo": "TÍTULO V › CAPÍTULO III › Art. 205",

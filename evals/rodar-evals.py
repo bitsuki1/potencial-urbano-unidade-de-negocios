@@ -42,6 +42,11 @@ def checar_item(item):
         falhas.append(f"lei_id topo={topo['chunk_id'].split('::')[0]} != {esp['lei_id']}")
     if esp.get("dispositivo_topo") and esp["dispositivo_topo"].lower() not in (topo.get("rotulo") or "").lower():
         falhas.append(f"dispositivo topo={topo.get('rotulo')!r} != {esp['dispositivo_topo']!r}")
+    # B-11c: o topo NÃO pode ser um dispositivo REVOGADO (não se devolve redação revogada como vigente).
+    if esp.get("dispositivo_topo_nao") and esp["dispositivo_topo_nao"].lower() in (topo.get("rotulo") or "").lower():
+        falhas.append(f"topo é {topo.get('rotulo')!r} — dispositivo REVOGADO não pode encabeçar (B-11c)")
+    if esp.get("topo_nao_revogado") and (topo.get("vigencia_dispositivo") or {}).get("status") == "revogado":
+        falhas.append(f"topo {topo.get('rotulo')!r} está REVOGADO (vigencia_dispositivo=revogado) — B-11c")
     if esp.get("texto_contem") and esp["texto_contem"].lower() not in (topo.get("texto") or "").lower():
         falhas.append(f"texto do topo não contém {esp['texto_contem']!r}")
     if falhas:

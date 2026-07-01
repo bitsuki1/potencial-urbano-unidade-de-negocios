@@ -9,6 +9,11 @@
     "Art. 40"
   ],
   "texto": "Art. 40. Nas operações de crédito rotativo, o limite de crédito concedido será recomposto, automaticamente e durante o prazo de vigência da Cédula de Crédito Bancário, sempre que o devedor, não estando em mora ou inadimplente, amortizar ou liquidar a dívida.",
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
   "citacao": {
     "norma": "lei_ordinaria nº 10931/2004 — Brasil",
     "dispositivo": "CAPÍTULO IV › Art. 40",

@@ -10,6 +10,11 @@
     "Art. 64"
   ],
   "texto": "Art. 64. O Certificado de Conclusão, o Certificado de Regularização, o Certificado de Acessibilidade e o Certificado de Segurança perdem sua eficácia caso ocorram alterações de ordem física no imóvel em relação às condições regularmente aceitas pela Prefeitura.",
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
   "citacao": {
     "norma": "lei municipal nº 16642/2017 — São Paulo - SP",
     "dispositivo": "CAPÍTULO IV › Seção I › Art. 64",

@@ -9,6 +9,13 @@
     "Art. 4º"
   ],
   "texto": "Art. 4º Para cada incorporação submetida ao regime especial de tributação, a incorporadora ficará sujeita ao pagamento equivalente a quatro por cento da receita mensal recebida, o qual corresponderá ao pagamento mensal unificado do seguinte imposto e contribuições:             (Redação dada pela Medida Provisória nº 601, de 2012)             (Produção de efeito) (Vigência encerrada)",
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ]
+  },
   "citacao": {
     "norma": "lei_ordinaria nº 10931/2004 — Brasil",
     "dispositivo": "CAPÍTULO I › Art. 4º",

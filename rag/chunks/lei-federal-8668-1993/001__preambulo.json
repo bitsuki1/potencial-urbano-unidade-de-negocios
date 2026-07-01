@@ -6,6 +6,13 @@
   "numero": null,
   "caminho_hierarquico": [],
   "texto": "Presidência da República\nCasa Civil\nSubchefia para Assuntos Jurídicos\n\nLEI No 8.668, DE 25 DE JUNHO DE 1993.\n\n \t\n\nDispõe sobre a constituição e o regime tributário dos Fundos de Investimento Imobiliário e dá outras providências.\n\nDispõe sobre a constituição e o regime tributário dos Fundos de Investimento Imobiliário e dos Fundos de Investimento nas Cadeias Produtivas Agroindustriais (Fiagro); e dá outras providências.      (Redação dada pela Lei nº 14.130, de 2021)\n\nO PRESIDENTE DA REPÚBLICA Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte lei:",
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ]
+  },
   "citacao": {
     "norma": "lei_ordinaria nº 8668/1993 — Brasil",
     "dispositivo": "Preâmbulo",

@@ -59,6 +59,8 @@ def main():
             "tema": c.get("tema", []),
             "jurisdicao": c.get("jurisdicao"),
             "vigencia": (c.get("citacao") or {}).get("vigencia", {}),
+            # B-11c: vigência por dispositivo (revogado/compilado/original) p/ o filtro pré-busca (2.6).
+            "vigencia_dispositivo": c.get("vigencia_dispositivo", {"status": "original"}),
         }
         # indexa texto + rótulo + temas (o nº do artigo e os temas devem ser buscáveis)
         campo = " ".join([

@@ -8,13 +8,32 @@
     "Art. 10"
   ],
   "texto": "Art. 10 - Na fixação do valor dos tributos e das multas e na do \"quantum\" atualizado na forma do artigo 195 da Lei nº 6.989, de 29 de dezembro de 1966, com a redação que lhe deu o artigo 4º da Lei nº 6.999, de 20 de janeiro de 1967, serão desprezadas salvo o disposto no parágrafo único deste artigo as quantias iguais ou inferiores a NCr$ 0,05 (cinco centavos) e arredondados para dezena imediatamente superior as excedentes.\n\nParágrafo Único - Nos casos em que o valor do tributo seja calculado pela soma de importâncias ou alíquotas fixadas por unidade ou por metro quadrado ou linear, serão desprezadas, tão somente as quantias iguais ou inferiores a Ncr$ 0,005 (meio centavo) e arredondadas para o centavo imediatamente superior as excedentes àquela.",
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
   "citacao": {
     "norma": "lei_ordinaria nº 7.228/1968 — São Paulo/SP",
     "dispositivo": "Art. 10",
     "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-7228-de-12-de-dezembro-de-1968",
     "vigencia": {
+      "inicio": "1968-12-12",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei 6.989/1966"
+      ],
+      "alterada_por": [],
       "em_vigor": true,
-      "observacao": "Vigente como norma alteradora; efeitos incorporados ao texto consolidado da Lei 6.989/1966."
+      "observacao": "Vigência DATADA (B-7, 1.6): Art. 11 verbatim — 'esta Lei entrará em vigor na data de sua publicação, salvo o artigo 3º, que produzirá seus efeitos a partir de 1º de janeiro de 1969.' inicio=1968-12-12 (data de promulgação no cabeçalho da norma; a publicação não consta no verbatim, então adota-se a data da norma — não se inventa a data exata de publicação). EFEITO POR REMISSÃO (dado do B-6): o Art. 3º só produz efeitos a partir de 1969-01-01 (por força do Art. 11). Vigente como norma alteradora; efeitos incorporados ao texto consolidado da Lei 6.989/1966.",
+      "efeitos_por_dispositivo": [
+        {
+          "dispositivo": "Art. 3º",
+          "inicio_efeitos": "1969-01-01",
+          "fonte": "Art. 11 (verbatim)"
+        }
+      ]
     }
   },
   "tema": [
