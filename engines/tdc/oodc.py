@@ -93,8 +93,31 @@ def _d(x, nome="valor"):
 
 
 def _q(v: Decimal) -> Decimal:
-    """Quantiza a DECIMAL(10,3)."""
+    """Quantiza a 3 casas (escala do DECIMAL). Usado no R$ da OODC — ver decisão B-12 abaixo."""
     return v.quantize(Decimal(10) ** -PRECISAO, rounding=ROUND_HALF_UP)
+
+
+# B-12 (RESÍDUO FECHADO 2026-07-01) — a guarda de DECIMAL(10,3) TOTAL.
+# `precision_decimal_utxo:[10,3]` = 10 dígitos totais, 3 decimais ⇒ parte inteira ≤ 7 dígitos
+# (máx. 9_999_999.999). DECISÃO (a que o resíduo do B-12 pedia): o [10,3] é a precisão do **UTXO** —
+# a UNIDADE DE CRÉDITO TRANSFERÍVEL, o **potencial construtivo em m²** (PC_pt/PC_r), fisicamente
+# limitado (Art. 124 §3º já parcela PC_pt > 50.000 m²). NÃO se aplica ao **R$ da OODC**, que é
+# MONETÁRIO e rotineiramente passa de dezenas de milhões (um imóvel real já deu R$931.800; grandes
+# terrenos estouram 10^7). Aplicar [10,3] ao R$ RECUSARIA valor legítimo — erro. Então:
+#   • m² PC (UTXO): `_q_utxo` quantiza a 3 casas E LEVANTA se estourar DECIMAL(10,3) (não cabe no tipo);
+#   • R$ OODC (monetário): `_q`, sem teto de 7 dígitos (precisão monetária, não-UTXO).
+DECIMAL_UTXO_INT_MAX = Decimal(10) ** (LOCKS["precision_decimal_utxo"][0] - PRECISAO)  # 10^7
+
+
+def _q_utxo(v: Decimal, nome="PC") -> Decimal:
+    """Quantiza a DECIMAL(10,3) o m² de potencial (UTXO) e EXIGE que caiba no tipo (B-12):
+    parte inteira ≥ 10^7 não representável em DECIMAL(10,3) ⇒ LEVANTA (não trunca silencioso)."""
+    q = v.quantize(Decimal(10) ** -PRECISAO, rounding=ROUND_HALF_UP)
+    if q.copy_abs() >= DECIMAL_UTXO_INT_MAX:
+        raise ValueError(
+            f"{nome}={q} estoura DECIMAL(10,3) (parte inteira ≥ {DECIMAL_UTXO_INT_MAX}); "
+            f"potencial construtivo (UTXO) não cabe no tipo — revisar insumos ou o tipo da coluna.")
+    return q
 
 
 def _exigir_positivo(v: Decimal, nome):
@@ -136,9 +159,9 @@ def potencial_gerado_zepec(atc_matricula, area_desapropriada, ca_basico):
     pc = atc_liq * cab * fi
     return {
         "artefato": "TDC_geracao_ZEPEC_BIR",
-        "valor": _q(pc),
+        "valor": _q_utxo(pc, "PC_pt(ZEPEC)"),
         "formula": "PC_pt = (Atc_Matrícula − Área_Desapropriada) × CA_bas × F_i(=1.0)",
-        "memoria_calculo": f"({atc} − {desap}) × {cab} × {fi} = {_q(pc)}",
+        "memoria_calculo": f"({atc} − {desap}) × {cab} × {fi} = {_q_utxo(pc, 'PC_pt(ZEPEC)')}",
         "inputs": {"atc_matricula": str(atc), "area_desapropriada": str(desap),
                    "ca_basico": str(cab), "fi": str(fi), "atc_liquido": str(atc_liq)},
         "citacao": CITACAO["TDC_geracao_ZEPEC_BIR"],
@@ -156,9 +179,9 @@ def potencial_gerado_doacao(atc, ca_max, modalidade):
     pc = a * cam * fi
     return {
         "artefato": f"TDC_geracao_{modalidade}",
-        "valor": _q(pc),
+        "valor": _q_utxo(pc, "PC_pt(doacao)"),
         "formula": "PC_pt = Atc × CA_max × F_i",
-        "memoria_calculo": f"{a} × {cam} × {fi} = {_q(pc)}",
+        "memoria_calculo": f"{a} × {cam} × {fi} = {_q_utxo(pc, 'PC_pt(doacao)')}",
         "inputs": {"atc": str(a), "ca_max": str(cam), "modalidade": modalidade, "fi": str(fi)},
         "citacao": CITACAO["TDC_geracao_doacao"],
     }
@@ -173,9 +196,9 @@ def potencial_recebido(pc_pt, vt_cd, c_r, ca_maxcd):
     pr = (pcp * vt) / (cr * camcd)
     return {
         "artefato": "TDC_recepcao",
-        "valor": _q(pr),
+        "valor": _q_utxo(pr, "PC_r"),
         "formula": "PC_r = (PC_pt × VT_cd) / (C_r × CA_maxcd)",
-        "memoria_calculo": f"({pcp} × {vt}) / ({cr} × {camcd}) = {_q(pr)}",
+        "memoria_calculo": f"({pcp} × {vt}) / ({cr} × {camcd}) = {_q_utxo(pr, 'PC_r')}",
         "inputs": {"pc_pt": str(pcp), "vt_cd": str(vt), "c_r": str(cr), "ca_maxcd": str(camcd)},
         "citacao": CITACAO["TDC_recepcao"],
     }
@@ -347,6 +370,18 @@ def _autoteste():
     cit = outorga_onerosa(1000, 4, "1.2", "1.0", 3000)["citacao"]
     if "dispositivo" not in cit or "art" not in cit["dispositivo"].lower():
         falhas.append("OODC sem citação por dispositivo (B-12d)")
+    # B-12 (resíduo fechado): guarda DECIMAL(10,3) do UTXO (m² PC).
+    #  (a) PC que ESTOURA o tipo (parte inteira ≥ 10^7) LEVANTA — não trunca silencioso.
+    try:
+        potencial_gerado_doacao("10000000", 1, "doacao_his"); falhas.append("PC_pt 10^7 (Fi 1.9) não levantou overflow DECIMAL(10,3)")
+    except ValueError:
+        pass
+    #  (b) PC no limite (< 10^7) NÃO levanta e quantiza a 3 casas.
+    checa("PC_pt no limite (9.999.999 m²)", potencial_gerado_zepec("9999999", 0, 1)["valor"], "9999999.000")
+    #  (c) DECISÃO B-12: o R$ da OODC é MONETÁRIO — NÃO se sujeita ao teto UTXO (pode passar de 10^7).
+    #      (1000/4)×2×1×50000 = 25.000.000 (>10^7) tem de calcular, não levantar.
+    r_grande = outorga_onerosa(1000, 4, "2", "1", 50000)
+    checa("R$ OODC > 10^7 é legítimo (monetário, não-UTXO)", r_grande["valor"], "25000000.000")
     # B-1 (porte 2026-06-28): OODC sobre DADO REAL — V por SQL (Quadro 14) e CA_max por zona (Quadro 3).
     # SQ 001003/Codlog 038121 -> V=R$3.106,00 ; zona ZEU -> CA_max=4 ; (1000/4)×1.2×1.0×3106 = 931800.
     V, CA = carregar_tabelas()

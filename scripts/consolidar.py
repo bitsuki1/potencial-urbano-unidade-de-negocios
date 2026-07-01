@@ -44,6 +44,13 @@ def coletar(diretorio: Path):
         _id = d.get("id") or jpath.stem
         md = jpath.with_suffix(".md")
         status = d.get("status_pipeline")
+        # B-7/AUD-17: `verbatim_integral` é DERIVADO do marcador do .md ('## Texto integral
+        # (verbatim)'), não declarado à mão — prova mecânica de que o .md carrega o articulado
+        # integral, não um resumo. (confianca_extracao é flag de extração, NÃO prova de verbatim.)
+        verbatim = bool(md.exists() and "## Texto integral (verbatim)" in md.read_text(encoding="utf-8"))
+        # B-7 (1.6): vigência DATADA — inicio da vigência, se o .json a declarar (senão None).
+        vig = d.get("vigencia") or {}
+        vigencia_inicio = vig.get("inicio")
         item = {
             "id": _id,
             "tipo": d.get("tipo_norma") or d.get("tipo"),
@@ -52,6 +59,8 @@ def coletar(diretorio: Path):
             "status_pipeline": status,
             "status_valido": status in VOCAB,
             "confianca_extracao": d.get("confianca_extracao"),
+            "verbatim_integral": verbatim,
+            "vigencia_inicio": vigencia_inicio,
             "revisado_por_humano": d.get("revisado_por_humano", False),
             "fora_de_escopo": _id in FORA_DE_ESCOPO,
             "fora_de_escopo_motivo": FORA_DE_ESCOPO.get(_id),
@@ -125,6 +134,13 @@ def main():
         por_status[i["status_pipeline"]] = por_status.get(i["status_pipeline"], 0) + 1
     status_ilegais = sorted({i["status_pipeline"] for i in todos if not i["status_valido"]})
     nao_verbatim = [i["id"] for i in ativos if i["confianca_extracao"] in ("baixa", "media")]
+    # B-7: contagens DERIVADAS (prova mecânica, não declaração).
+    verbatim_integral_n = sum(1 for i in ativos if i["verbatim_integral"])
+    # Verbatim indexado que ainda NÃO tem vigência DATADA (1.6) — gap honesto, não escondido.
+    indexado_verbatim_sem_vigencia = sorted(
+        i["id"] for i in ativos
+        if i["verbatim_integral"] and i["status_pipeline"] == "indexado" and not i["vigencia_inicio"]
+    )
 
     manifesto = {
         "_doc": (
@@ -144,6 +160,8 @@ def main():
             "_nota": "por_status_pipeline conta SÓ os ativos_no_escopo; os 2 fora-de-escopo (ambos tagueado) não entram aqui. Soma = ativos_no_escopo, não total_itens.",
             "por_status_pipeline_ativos": por_status,
             "status_ilegais_encontrados": status_ilegais,
+            "verbatim_integral_ativos": verbatim_integral_n,
+            "_nota_verbatim_integral": "B-7/AUD-17: verbatim_integral e DERIVADO do marcador '## Texto integral (verbatim)' no .md (prova mecanica, nao declaracao). Difere de confianca_extracao (flag do extrator).",
             "confianca_baixa_ou_media": len(nao_verbatim),
             "_nota_verbatim": "confianca e flag de extracao, nao prova de verbatim. CORRIGIDO na auditoria profunda 2026-06-20 (AUD-01): 13 leis JA estao em verbatim integral e indexadas (12 federais re-ingeridas de _entrada/misto/ + a 7228/1968 municipal) — supera a narrativa antiga 'planalto deu 403, NENHUMA e verbatim', que confundia 'o .md e resumo' com 'o verbatim nao existe'. Faltam 14 municipais (so resumo WebSearch) — re-ingestao verbatim delas e o que resta do pre-requisito do RAG. As 32 juris (curtas) sao verbatim.",
         },
@@ -153,6 +171,8 @@ def main():
             "itens_fora_de_escopo": [i["id"] for i in todos if i["fora_de_escopo"]],
             "indexado_sem_chunks_no_indice": divergencia_indexado,
             "_nota_divergencia": "NV-1 (2026-06-27): ids que dizem status_pipeline=indexado mas NAO tem chunk no rag/index = FALSO-VERDE; o gate (fechar-instancia.py / gate-fechamento.sh) FALHA se esta lista nao for vazia. Vazia = todo 'indexado' e provado pelo indice.",
+            "indexado_verbatim_sem_vigencia_datada": indexado_verbatim_sem_vigencia,
+            "_nota_vigencia": "B-7 (1.6): leis verbatim/indexadas que ainda nao tem vigencia.inicio datada. Gap declarado (nao bloqueia o gate) — a datacao das 13 municipais bruto depende do verbatim do Drive (B-4).",
         },
         "artefatos_nao_corpus": enumerar_nao_corpus(),
         "itens": sorted(todos, key=lambda i: (i["caminho_json"])),
