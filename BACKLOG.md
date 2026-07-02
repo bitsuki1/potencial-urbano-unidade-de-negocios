@@ -16,7 +16,7 @@
 > (PU 15, 2026-07-01). Separa **Classe LOCAL** — o loop de IA destrava sozinho, roda já: B-3·B-5·B-6·B-7·B-10·B-11c·B-12 —
 > da **Classe EXTERNA** — pedido único ao MOU: B-1·B-2·B-4·B-9·B-17 + dado pesado/geo/FUNDURB/despausar-preço.
 > **Substância das ABERTAS INALTERADA** (esta linha só as agrupa por quem destrava).
-> **Atualizado: 2026-07-02** (PU 15 — DESTRAVE DE DADO: MOU subiu os 10 oficiais + IPTU_2026 (894MB) ao Supabase Storage; recortes oficiais no git (`zepec/oficial/`), tabelas `oficiais.*` no Supabase, e a FERRAMENTA enriquecida (`zepec/ferramenta/zepec_cedentes_oficial.csv`: 6.131 cedentes, 64% com Atc oficial, 63% com V outorga Q14). B-1 parcialmente PAGO (Q14 real cidade-inteira no Storage); B-20(b) dono/Atc andou (Atc FEITO via IPTU oficial). Falta p/ PCpt: zoneamento (CAbás). ABERTAS reconferidas, substância inalterada.)_ _Histórico: 2026-07-01 estratégia de entregas; 2026-06-28 regularização; 2026-06-27 auditoria profunda._
+> **Atualizado: 2026-07-02** (PU 15 — H1.3/H1.4 FEITOS: zoneamento oficial subido; overlay lote×zona (16.402) deu ZONA a 3.693 cedentes e CAbás a 3.239; engine rodou -> PCpt+preço-proxy em 2.989 cedentes (mediana R$781k). Ferramenta `zepec/ferramenta/zepec_cedentes_oficial.csv` com potencial/preço + `pendencia_calculo` por linha. Falta: base-zone sob ZEPEC_APC/ZOE (454), e ~1.839 sem SQL. ABERTAS reconferidas.)_
 
 ## 🔴 ABERTAS
 

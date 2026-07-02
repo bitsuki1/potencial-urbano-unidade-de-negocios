@@ -1,74 +1,96 @@
 #!/usr/bin/env python3
 """
-enriquecer_oficial.py — Enriquece a FERRAMENTA (todos os cedentes) com a camada OFICIAL (Fase A, D-DONO-6).
+enriquecer_oficial.py — Enriquece a FERRAMENTA (todos os cedentes) com a camada OFICIAL (Fase A / H1).
 
-Junta, por SQL, a base `zepec/ferramenta/zepec_cedentes.csv` (6.131 imóveis) com:
-  - `zepec/oficial/iptu2026_cedentes.csv`  -> Atc (área do terreno), área construída, valor venal m², uso (IPTU 2026, oficial)
-  - `zepec/oficial/q14_cedentes_2025.csv`  -> V de outorga do m² (Quadro 14 jan/2025, oficial), casado por (SQ, Codlog do IPTU)
+Junta, por SQL, a base `zepec/ferramenta/zepec_cedentes.csv` (6.131) com as fontes oficiais:
+  - `zepec/oficial/iptu2026_cedentes.csv`  -> Atc (área do terreno), área construída, valor venal, uso (IPTU 2026)
+  - `zepec/oficial/q14_cedentes_2025.csv`  -> V de outorga do m² (Quadro 14 jan/2025), por (SQ, Codlog do IPTU)
+  - `zepec/oficial/zona_por_cedente.csv`   -> ZONA do lote (overlay lote×Lei 16.402) + CAbás (Quadro 3)
 
-Saída: `zepec/ferramenta/zepec_cedentes_oficial.csv` — a ferramenta completa + colunas oficiais.
-Agnóstico (R2): só fato, sem juízo. O POTENCIAL (PCpt = Atc × CAbás × Fi) NÃO é calculado aqui:
-falta o CAbás (zona por lote — zoneamento ainda não carregado). Nenhum número é inventado (1.3);
-a coluna `pendencia_calculo` declara exatamente o que falta por imóvel.
+Calcula (H1.4), SÓ quando há Atc E CAbás, via o ENGINE (número nasce no engine, 1.3; cita Art. 125):
+  - PCpt (m²) = Atc × CAbás × Fi(=1, ZEPEC-BIR, sem doação)  [engine `pcpt.pcpt_sem_doacao`]
+  - preço-proxy (R$) = PCpt × V   [PROXY regulatório — Codex Precificação R16; NÃO é preço de mercado]
 
-Vacina (dois "V"): v_venal_m2_iptu (planta genérica IPTU) ≠ v_outorga_m2_q14 (Quadro 14). Não intercambiar.
+Saída: `zepec/ferramenta/zepec_cedentes_oficial.csv`. Onde falta insumo, `pendencia_calculo` declara o quê
+POR LINHA — nada inventado. Vacina dos dois "V": venal (IPTU) ≠ outorga (Quadro 14).
 """
-import csv
+import csv, sys
 from pathlib import Path
 
 AQUI = Path(__file__).resolve().parent
+sys.path.insert(0, str(AQUI.parent / "engines" / "tdc"))
+import pcpt as ENGINE  # noqa: E402
 
-def norm_codlog(c):
-    return (c or "").replace("-", "").strip()
+
+def norm_codlog(c): return (c or "").replace("-", "").strip()
+def _num(x):
+    x = (x or "").strip()
+    return x if x and x not in ("0", "—") else ""
+
 
 def main():
-    iptu = {}
-    for r in csv.DictReader(open(AQUI / "oficial/iptu2026_cedentes.csv", encoding="utf-8")):
-        iptu[r["sql_mestre"]] = r
-
-    q14 = {}
-    for r in csv.DictReader(open(AQUI / "oficial/q14_cedentes_2025.csv", encoding="utf-8")):
-        q14[(r["sq"], norm_codlog(r["codlog"]))] = r["valor_m2_brl"]
+    iptu = {r["sql_mestre"]: r for r in csv.DictReader(open(AQUI / "oficial/iptu2026_cedentes.csv", encoding="utf-8"))}
+    q14 = {(r["sq"], norm_codlog(r["codlog"])): r["valor_m2_brl"]
+           for r in csv.DictReader(open(AQUI / "oficial/q14_cedentes_2025.csv", encoding="utf-8"))}
+    zona = {r["sql_mestre"]: r for r in csv.DictReader(open(AQUI / "oficial/zona_por_cedente.csv", encoding="utf-8"))}
 
     rows = list(csv.DictReader(open(AQUI / "ferramenta/zepec_cedentes.csv", encoding="utf-8")))
-    extras = ["area_terreno_m2", "area_construida_m2", "v_venal_m2_iptu",
-              "v_outorga_m2_q14", "uso_iptu", "cobertura_oficial", "pendencia_calculo"]
+    extras = ["area_terreno_m2", "area_construida_m2", "v_venal_m2_iptu", "v_outorga_m2_q14",
+              "zona", "ca_basico", "pcpt_m2", "preco_proxy_brl", "uso_iptu",
+              "cobertura_oficial", "memoria_calculo", "pendencia_calculo"]
     campos = list(rows[0].keys()) + extras
 
-    n_area = n_v = 0
+    n = {"atc": 0, "v": 0, "zona": 0, "cabas": 0, "pcpt": 0, "preco": 0}
     out = AQUI / "ferramenta/zepec_cedentes_oficial.csv"
     with open(out, "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=campos)
-        w.writeheader()
+        w = csv.DictWriter(f, fieldnames=campos); w.writeheader()
         for r in rows:
             sql = (r.get("sql_mestre") or "").strip()
-            i = iptu.get(sql)
-            cobertura, pend = [], []
+            for k in extras: r.setdefault(k, "")
+            cob, pend = [], []
+            i, z = iptu.get(sql), zona.get(sql)
+
+            atc = _num(i["area_terreno"]) if i else ""
             if i:
-                r["area_terreno_m2"] = i["area_terreno"]
-                r["area_construida_m2"] = i["area_construida"]
-                r["v_venal_m2_iptu"] = i["v_venal_m2"]
-                r["uso_iptu"] = i["uso"]
-                cobertura.append("IPTU2026")
-                n_area += 1
+                r["area_terreno_m2"] = i["area_terreno"]; r["area_construida_m2"] = i["area_construida"]
+                r["v_venal_m2_iptu"] = i["v_venal_m2"]; r["uso_iptu"] = i["uso"]; cob.append("IPTU2026"); n["atc"] += 1
                 v = q14.get((sql[:6], norm_codlog(i.get("codlog"))))
-                if v:
-                    r["v_outorga_m2_q14"] = v
-                    cobertura.append("Q14-2025")
-                    n_v += 1
-                else:
-                    pend.append("V outorga: face (SQ,Codlog) fora do recorte Q14")
+                if v: r["v_outorga_m2_q14"] = v; cob.append("Q14"); n["v"] += 1
             else:
-                pend.append("Atc: SQL sem match no IPTU 2026 (sem cadastro/condominio/SQL invalido)")
-            pend.append("CAbas: zona por lote pendente (zoneamento nao carregado)")
-            r["cobertura_oficial"] = "+".join(cobertura)
-            r["pendencia_calculo"] = " | ".join(pend)
+                pend.append("Atc: SQL sem cadastro no IPTU")
+
+            cabas = ""
+            if z:
+                r["zona"] = z["zona"]; cob.append("Zona"); n["zona"] += 1
+                cabas = _num(z.get("ca_basico"))
+                if cabas: r["ca_basico"] = cabas; n["cabas"] += 1
+                else: pend.append(f"CAbás: zona {z['zona']} sem CA no Quadro 3 (overlay — resolver zona-base)")
+            else:
+                pend.append("Zona: lote sem sobreposição (sem SQL / lote / fora de zona)")
+
+            # H1.4 — PCpt e preço só quando há Atc E CAbás; número do ENGINE (1.3)
+            if atc and cabas:
+                try:
+                    e = ENGINE.pcpt_sem_doacao(atc, cabas)
+                    r["pcpt_m2"] = str(e["valor_m2"]); r["memoria_calculo"] = e["memoria_calculo"]; n["pcpt"] += 1
+                    vq = r["v_outorga_m2_q14"]
+                    if vq:
+                        from decimal import Decimal
+                        preco = (Decimal(str(e["valor_m2"])) * Decimal(str(vq))).quantize(Decimal("0.01"))
+                        r["preco_proxy_brl"] = str(preco); n["preco"] += 1
+                except Exception as ex:
+                    pend.append(f"PCpt: engine recusou ({ex})")
+
+            r["cobertura_oficial"] = "+".join(cob)
+            r["pendencia_calculo"] = " | ".join(pend) if pend else "OK (Atc+CAbás+V) — cálculo completo"
             w.writerow(r)
 
-    print(f"enriquecer_oficial: {len(rows)} cedentes -> {out.name}")
-    print(f"  com Atc/area oficial (IPTU 2026): {n_area} ({n_area/len(rows):.0%})")
-    print(f"  com V de outorga (Q14 2025):      {n_v} ({n_v/len(rows):.0%})")
-    print("  PCpt/preco: NAO calculados (falta CAbas/zona — declarado por linha em pendencia_calculo)")
+    tot = len(rows)
+    print(f"enriquecer_oficial (H1.4): {tot} cedentes -> {out.name}")
+    for k, lbl in [("atc", "Atc (área)"), ("v", "V outorga (Q14)"), ("zona", "Zona"),
+                   ("cabas", "CAbás"), ("pcpt", "PCpt calculado (engine)"), ("preco", "Preço-proxy R$")]:
+        print(f"  {lbl:26}: {n[k]:5} ({n[k]/tot:.0%})")
+
 
 if __name__ == "__main__":
     main()
