@@ -16,7 +16,7 @@
 > (PU 15, 2026-07-01). Separa **Classe LOCAL** — o loop de IA destrava sozinho, roda já: B-3·B-5·B-6·B-7·B-10·B-11c·B-12 —
 > da **Classe EXTERNA** — pedido único ao MOU: B-1·B-2·B-4·B-9·B-17 + dado pesado/geo/FUNDURB/despausar-preço.
 > **Substância das ABERTAS INALTERADA** (esta linha só as agrupa por quem destrava).
-> **Atualizado: 2026-07-02** (PU 15 — H1.3/H1.4 FEITOS: zoneamento oficial subido; overlay lote×zona (16.402) deu ZONA a 3.693 cedentes e CAbás a 3.239; engine rodou -> PCpt+preço-proxy em 2.989 cedentes (mediana R$781k). Ferramenta `zepec/ferramenta/zepec_cedentes_oficial.csv` com potencial/preço + `pendencia_calculo` por linha. Falta: base-zone sob ZEPEC_APC/ZOE (454), e ~1.839 sem SQL. ABERTAS reconferidas.)_
+> **Atualizado: 2026-07-02** (PU 15 — LOOP DE MELHORIA multi-lente rodou COMPLETO: 14 lentes, 85 achados, laudo `docs/LOOP-MELHORIA-H1-2026-07-02.md`. **3 correções JÁ APLICADAS e provadas:** (1) **Fi escalonado LPUOS Art.24 I–VII** no engine (era Fi=1 fixo, ERRADO — verificado no verbatim; agregado R$17,5bi→R$8,8bi, Pinel 10×); (2) **saldo líquido** (abate m² já transferido; 55 abatidos, Dona Veridiana→saldo 0 c/ flag REVISAR); (3) **esgotado/vedado des-precificado** (15). Parcelamento Art.124§3º exposto. Ferramenta re-gerada: 2.937 c/ preço do SALDO. CODEX-CALCULOS corrigido. Restante do loop (matriz+top-3) no laudo — priorizar c/ dono.)_
 
 ## 🔴 ABERTAS
 

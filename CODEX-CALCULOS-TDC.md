@@ -10,7 +10,7 @@
 | **OODC receptor** | `engines/tdc/oodc.py` | outorga onerosa (o lado oposto) | LPUOS / PDE |
 
 ## 2 — As duas fórmulas do cedente (engine `pcpt.py`, auto-teste verde)
-- **SEM doação (Art. 125):** `PCpt = Atc × CAbas × Fi`, **Fi = 1 (fixo)**. Dono **fica** com o imóvel (caso ZEPEC).
+- **SEM doação (Art. 125):** `PCpt = Atc × CAbas × Fi`. ~~Fi = 1 (fixo)~~ **★ CORRIGIDO 2026-07-02 (loop de melhoria, lente jurídica; VERIFICADO no verbatim):** para NOVAS declarações ZEPEC o **Fi é ESCALONADO pela área do lote — LPUOS Lei 16.402/2016, Art. 24, I–VII**: ≤500m²→**1,2** · ≤2.000→**1,0** · ≤5.000→**0,9** · ≤10.000→**0,7** · ≤20.000→**0,5** · ≤50.000→**0,2** · >50.000→**0,1**. O engine `pcpt.py` resolve o Fi e cita o inciso; `fi` explícito sobrepõe (declaração antiga). Impacto da correção: agregado do produto caiu de R$17,5bi p/ R$8,8bi; lotes ≤500m² (maioria) subiram 20%. Dono **fica** com o imóvel (caso ZEPEC).
 - **COM doação (Art. 126/127):** `PCpt = Atc × CAmax × Fi(finalidade)`. Dono **doa** o imóvel. CAmax + Fi até 2,0.
 - **Fi de doação (Art. 127 §1º):** corredor 2,0 · HIS 1,9 · regularização 0,8 · parque 1,4 (V≤R$2.000) / 1,0 (V>R$2.000). Tabela: `tabelas/fi-incentivo-doacao.csv`. O fator do parque é resolvido **dentro do engine** a partir de V (1.3).
 - **Limite (Art. 124 §3º):** PCpt > **50.000 m² → 10 parcelas anuais** (estoque não à vista). Engine emite `estoque_a_vista`/`excedente_parcelado`.

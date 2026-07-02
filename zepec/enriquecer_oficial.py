@@ -36,11 +36,11 @@ def main():
 
     rows = list(csv.DictReader(open(AQUI / "ferramenta/zepec_cedentes.csv", encoding="utf-8")))
     extras = ["area_terreno_m2", "area_construida_m2", "v_venal_m2_iptu", "v_outorga_m2_q14",
-              "zona", "ca_basico", "pcpt_m2", "preco_proxy_brl", "uso_iptu",
-              "cobertura_oficial", "memoria_calculo", "pendencia_calculo"]
+              "zona", "ca_basico", "fi_aplicado", "pcpt_m2", "saldo_pcpt_m2", "parcelas_anuais",
+              "preco_proxy_brl", "uso_iptu", "cobertura_oficial", "memoria_calculo", "pendencia_calculo"]
     campos = list(rows[0].keys()) + extras
 
-    n = {"atc": 0, "v": 0, "zona": 0, "cabas": 0, "pcpt": 0, "preco": 0}
+    n = {"atc": 0, "v": 0, "zona": 0, "cabas": 0, "pcpt": 0, "saldo": 0, "preco": 0}
     out = AQUI / "ferramenta/zepec_cedentes_oficial.csv"
     with open(out, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=campos); w.writeheader()
@@ -68,16 +68,34 @@ def main():
             else:
                 pend.append("Zona: lote sem sobreposição (sem SQL / lote / fora de zona)")
 
-            # H1.4 — PCpt e preço só quando há Atc E CAbás; número do ENGINE (1.3)
+            # H1.4 — PCpt e preço só quando há Atc E CAbás; número do ENGINE (1.3).
+            # ★ Correções do loop de melhoria (2026-07-02):
+            #   (a) Fi ESCALONADO pela área do lote (LPUOS Art. 24 I–VII) — resolvido no engine;
+            #   (b) SALDO líquido: abate o m² JÁ TRANSFERIDO (certidões) do PCpt — preço sai do SALDO;
+            #   (c) ESGOTADO/VEDADO não é precificado (não se vende o invendável);
+            #   (d) parcelamento Art. 124 §3º (>50.000 m² → 10 parcelas) EXPOSTO na saída.
+            from decimal import Decimal
+            vendido_bloqueado = (r.get("esgotado") or "").strip() == "sim" or (r.get("negociavel") or "").strip() == "nao"
             if atc and cabas:
                 try:
                     e = ENGINE.pcpt_sem_doacao(atc, cabas)
-                    r["pcpt_m2"] = str(e["valor_m2"]); r["memoria_calculo"] = e["memoria_calculo"]; n["pcpt"] += 1
-                    vq = r["v_outorga_m2_q14"]
-                    if vq:
-                        from decimal import Decimal
-                        preco = (Decimal(str(e["valor_m2"])) * Decimal(str(vq))).quantize(Decimal("0.01"))
-                        r["preco_proxy_brl"] = str(preco); n["preco"] += 1
+                    r["pcpt_m2"] = str(e["valor_m2"]); r["fi_aplicado"] = e.get("fi", "")
+                    r["memoria_calculo"] = e["memoria_calculo"]; n["pcpt"] += 1
+                    if int(e.get("parcelas_anuais") or 0) > 0:
+                        r["parcelas_anuais"] = str(e["parcelas_anuais"])
+                        pend.append(f"Art.124 §3º: excedente de 50.000 m² sai em {e['parcelas_anuais']} parcelas anuais")
+                    ja = (r.get("m2_ja_transferido") or "").strip()
+                    saldo = Decimal(str(e["valor_m2"])) - (Decimal(ja) if ja else Decimal("0"))
+                    if saldo < 0:
+                        saldo = Decimal("0"); pend.append("saldo: já transferido > PCpt calculado — REVISAR (certidão vs cálculo)")
+                    r["saldo_pcpt_m2"] = str(saldo.quantize(Decimal("0.01"))); n["saldo"] += 1
+                    if vendido_bloqueado:
+                        pend.append("ESGOTADO/VEDADO — não precificar (prova escrita na base)")
+                    else:
+                        vq = r["v_outorga_m2_q14"]
+                        if vq and saldo > 0:
+                            preco = (saldo * Decimal(str(vq))).quantize(Decimal("0.01"))
+                            r["preco_proxy_brl"] = str(preco); n["preco"] += 1
                 except Exception as ex:
                     pend.append(f"PCpt: engine recusou ({ex})")
 
@@ -88,7 +106,7 @@ def main():
     tot = len(rows)
     print(f"enriquecer_oficial (H1.4): {tot} cedentes -> {out.name}")
     for k, lbl in [("atc", "Atc (área)"), ("v", "V outorga (Q14)"), ("zona", "Zona"),
-                   ("cabas", "CAbás"), ("pcpt", "PCpt calculado (engine)"), ("preco", "Preço-proxy R$")]:
+                   ("cabas", "CAbás"), ("pcpt", "PCpt calculado (engine)"), ("saldo", "Saldo líquido (– transferido)"), ("preco", "Preço-proxy R$ (do saldo)")]:
         print(f"  {lbl:26}: {n[k]:5} ({n[k]/tot:.0%})")
 
 

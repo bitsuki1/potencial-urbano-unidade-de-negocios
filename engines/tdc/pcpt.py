@@ -54,6 +54,30 @@ FI_DOACAO = {
     "regularizacao_fundiaria":(Decimal("0.8"), "Art. 127 §1º, III"),
 }
 
+# ★ CORREÇÃO 2026-07-02 (loop de melhoria, lente jurídica — VERIFICADO no verbatim indexado da LPUOS):
+# o Fi da via SEM doação (novas declarações ZEPEC) NÃO é 1 fixo. A LPUOS Lei 16.402/2016, Art. 24,
+# ESCALONA o Fi pela ÁREA DO LOTE (incisos I–VII). Usar Fi=1 p/ todos subestimava lotes ≤500m² em 20%
+# e INFLAVA lotes >50.000m² em 10×. Faixas (limite superior INCLUSIVO, "até X"):
+LEI_LPUOS = "Lei Municipal SP nº 16.402/2016 (LPUOS)"
+FI_ZEPEC_ART24 = [   # (limite_superior_m2 ou None=infinito, Fi, inciso)
+    (Decimal("500"),   Decimal("1.2"), "Art. 24, I"),
+    (Decimal("2000"),  Decimal("1.0"), "Art. 24, II"),
+    (Decimal("5000"),  Decimal("0.9"), "Art. 24, III"),
+    (Decimal("10000"), Decimal("0.7"), "Art. 24, IV"),
+    (Decimal("20000"), Decimal("0.5"), "Art. 24, V"),
+    (Decimal("50000"), Decimal("0.2"), "Art. 24, VI"),
+    (None,             Decimal("0.1"), "Art. 24, VII"),
+]
+
+def fi_zepec_por_area(atc):
+    """Fi da via sem-doação p/ NOVAS declarações ZEPEC, escalonado pela área do lote
+    (LPUOS Art. 24, I–VII). Devolve (Fi, inciso). O engine escolhe o fator (1.3)."""
+    A = _pos(_d(atc, "atc"), "atc")
+    for teto, fi, inciso in FI_ZEPEC_ART24:
+        if teto is None or A <= teto:
+            return fi, inciso
+    raise AssertionError("faixa Art. 24 não resolvida")  # inalcançável
+
 def _d(x, campo):
     """Parse para Decimal. BR (vírgula decimal) ou decimal puro. REJEITA ponto-milhar ambíguo."""
     s = str(x).strip()
@@ -81,13 +105,23 @@ def _estoque(pcpt):
     return {"estoque_a_vista_m2": LIMITE_PARCELAMENTO, "excedente_parcelado_m2": exc, "parcelas_anuais": 10,
             "obs_estoque": "Art. 124 §3º — excedente de 50.000 m² em 10 parcelas anuais"}
 
-def pcpt_sem_doacao(atc, cabas):
-    """Art. 125: PCpt = Atc × CAbas × Fi (Fi=1, FIXO na lei). O dono mantém o imóvel."""
+def pcpt_sem_doacao(atc, cabas, fi=None):
+    """Art. 125 (PDE): PCpt = Atc × CAbas × Fi. O dono mantém o imóvel.
+    Fi: por PADRÃO é resolvido AQUI pelo Art. 24 da LPUOS (escalonado pela área do lote,
+    caso das NOVAS declarações ZEPEC — correção 2026-07-02; antes usava 1 fixo, ERRADO).
+    `fi` explícito sobrepõe (ex.: declaração antiga emitida sob outro fator — informar o da certidão)."""
     A = _pos(_d(atc, "atc"), "atc"); C = _pos(_d(cabas, "cabas"), "cabas")
-    pcpt = (A * C * Decimal("1")).quantize(Q2, ROUND_HALF_UP)
-    return {"via": "sem_doacao", "valor_m2": pcpt,
-            "memoria_calculo": f"PCpt = Atc({A}) × CAbas({C}) × Fi(1) = {pcpt} m²",
-            "citacao": {"dispositivo": "Art. 125", "fonte": LEI}, **_estoque(pcpt)}
+    if fi is None:
+        F, inciso = fi_zepec_por_area(A)
+        disp = f"Art. 125 (PDE) c/c LPUOS {inciso}"
+        fonte = f"{LEI}; {LEI_LPUOS}"
+    else:
+        F = _pos(_d(fi, "fi"), "fi")
+        disp, fonte = "Art. 125 (PDE); Fi informado pelo chamador", LEI
+    pcpt = (A * C * F).quantize(Q2, ROUND_HALF_UP)
+    return {"via": "sem_doacao", "valor_m2": pcpt, "fi": str(F),
+            "memoria_calculo": f"PCpt = Atc({A}) × CAbas({C}) × Fi({F}) = {pcpt} m²",
+            "citacao": {"dispositivo": disp, "fonte": fonte}, **_estoque(pcpt)}
 
 def pcpt_com_doacao(atc, camax, finalidade, v=None):
     """Art. 126/127: PCpt = Atc × CAmax × Fi(finalidade). O dono DOA o imóvel.
@@ -111,15 +145,27 @@ def pcpt_com_doacao(atc, camax, finalidade, v=None):
 
 def _autoteste():
     atc, cabas, camax = "1000", "1.0", "4.0"
-    s = pcpt_sem_doacao(atc, cabas);                       assert s["valor_m2"] == Decimal("1000.00"), s
+    s = pcpt_sem_doacao(atc, cabas);                       assert s["valor_m2"] == Decimal("1000.00"), s  # faixa II Fi=1,0
     d = pcpt_com_doacao(atc, camax, "his");                assert d["valor_m2"] == Decimal("7600.00"), d
     d2 = pcpt_com_doacao(atc, camax, "corredor_onibus");   assert d2["valor_m2"] == Decimal("8000.00"), d2
     reg = pcpt_com_doacao(atc, camax, "regularizacao_fundiaria"); assert reg["valor_m2"] == Decimal("3200.00"), reg  # Fi<1
     pba = pcpt_com_doacao(atc, camax, "parque", v="1500"); assert pba["valor_m2"] == Decimal("5600.00"), pba          # Fi 1,4
     pal = pcpt_com_doacao(atc, camax, "parque", v="3000"); assert pal["valor_m2"] == Decimal("4000.00"), pal          # Fi 1,0
-    # Decimal exato
-    assert pcpt_sem_doacao("3333.33", "0.1")["valor_m2"] == Decimal("333.33")
-    # parse BR
+    # ★ Fi ESCALONADO (LPUOS Art. 24, correção 2026-07-02) — uma prova por faixa/borda:
+    assert pcpt_sem_doacao("400", "1.0")["valor_m2"] == Decimal("480.00")        # I: ≤500 → 1,2
+    assert pcpt_sem_doacao("500", "1.0")["valor_m2"] == Decimal("600.00")        # borda: 500 é "até 500" → 1,2
+    assert pcpt_sem_doacao("501", "1.0")["valor_m2"] == Decimal("501.00")        # II: 1,0
+    assert pcpt_sem_doacao("3000", "1.0")["valor_m2"] == Decimal("2700.00")      # III: 0,9
+    assert pcpt_sem_doacao("8000", "1.0")["valor_m2"] == Decimal("5600.00")      # IV: 0,7
+    assert pcpt_sem_doacao("15000", "1.0")["valor_m2"] == Decimal("7500.00")     # V: 0,5
+    assert pcpt_sem_doacao("30000", "1.0")["valor_m2"] == Decimal("6000.00")     # VI: 0,2
+    assert pcpt_sem_doacao("444030", "1.0")["valor_m2"] == Decimal("44403.00")   # VII: 0,1 (caso real Philipe Pinel)
+    s24 = pcpt_sem_doacao("444030", "1.0"); assert "Art. 24, VII" in s24["citacao"]["dispositivo"], s24  # cita o inciso
+    # `fi` explícito sobrepõe (declaração antiga com fator da certidão)
+    assert pcpt_sem_doacao("444030", "1.0", fi="1")["valor_m2"] == Decimal("444030.00")
+    # Decimal exato (3333.33 → faixa III, Fi=0,9)
+    assert pcpt_sem_doacao("3333.33", "0.1")["valor_m2"] == Decimal("300.00")
+    # parse BR (520,59 > 500 → faixa II, Fi=1,0)
     assert pcpt_sem_doacao("520,59", "1,0")["valor_m2"] == Decimal("520.59")
     # >50.000 m² -> parcelamento (Art.124 §3º): 20000 × 4 × 2 = 160000
     big = pcpt_com_doacao("20000", "4.0", "corredor_onibus")
