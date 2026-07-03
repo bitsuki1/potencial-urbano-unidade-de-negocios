@@ -1,0 +1,42 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16050-2014::084-art-81",
+  "lei_id": "lei-municipal-saopaulo-16050-2014",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 81",
+  "numero": "81",
+  "header_raw": "Art. 81. Nas áreas de influência dos eixos, quando uma parcela do imóvel for doada à municipalidade para execução de",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO II",
+    "Seção VIII",
+    "Art. 81"
+  ],
+  "texto": "Art. 81. Nas áreas de influência dos eixos, quando uma parcela do imóvel for doada à municipalidade para execução de\n\nmelhoramentos públicos, os potenciais construtivos básico e máximo do remanescente do lote serão calculados em função de sua\n\nárea original e não será cobrada outorga onerosa do direito de construir relativa ao potencial construtivo máximo correspondente à\n\nárea doada.\n\n§ 1º Quando a parcela doada ultrapassar 30% (trinta por cento) da área do lote, o potencial construtivo máximo correspondente à\n\nárea que ultrapassou esse limite não poderá ser utilizado no remanescente do lote, esse potencial constará de Declaração de\n\nPotencial Construtivo Passível de Transferência que será emitida em nome do proprietário do imóvel.\n\n§ 2º O proprietário do imóvel poderá optar entre o benefício previsto no “caput” e a transferência total ou parcial do direito de\n\nconstruir correspondente ao potencial construtivo relativo à área doada, de acordo com as disposições dos arts. 122 e seguintes\n\ndesta lei.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "lei municipal nº 16050/2014 — São Paulo - SP",
+    "dispositivo": "TÍTULO II › CAPÍTULO II › Seção VIII › Art. 81",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2014-07-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 95 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2014-07-31. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

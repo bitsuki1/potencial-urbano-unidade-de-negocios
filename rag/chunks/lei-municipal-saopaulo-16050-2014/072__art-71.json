@@ -1,0 +1,42 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16050-2014::072-art-71",
+  "lei_id": "lei-municipal-saopaulo-16050-2014",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 71",
+  "numero": "71",
+  "header_raw": "Art. 71. Com o objetivo de promover e incentivar a preservação das ocorrências ambientais que caracterizam as áreas demarcadas",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO II",
+    "Seção VI",
+    "Art. 71"
+  ],
+  "texto": "Art. 71. Com o objetivo de promover e incentivar a preservação das ocorrências ambientais que caracterizam as áreas demarcadas\n\ncomo ZEPAM, poderão ser aplicados os seguintes instrumentos:\n\nI – transferência do potencial construtivo nas ZEPAM localizadas na Macrozona de Estruturação e Qualificação Urbana, segundo\n\nas condições estabelecidas no art. 122 e seguintes desta lei;\n\nII – pagamento por serviços ambientais nas ZEPAM localizadas na Macrozona de Proteção e Recuperação Ambiental, segundo as\n\ncondições estabelecidas no art. 158 e seguintes desta lei.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "lei municipal nº 16050/2014 — São Paulo - SP",
+    "dispositivo": "TÍTULO II › CAPÍTULO II › Seção VI › Art. 71",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2014-07-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 95 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2014-07-31. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

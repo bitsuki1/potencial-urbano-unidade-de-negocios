@@ -1,0 +1,42 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16050-2014::166-art-158",
+  "lei_id": "lei-municipal-saopaulo-16050-2014",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 158",
+  "numero": "158",
+  "header_raw": "Art. 158. A Prefeitura poderá aplicar o pagamento por prestação de serviços ambientais para os proprietários ou possuidores de",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO III",
+    "Seção IV",
+    "Art. 158"
+  ],
+  "texto": "Art. 158. A Prefeitura poderá aplicar o pagamento por prestação de serviços ambientais para os proprietários ou possuidores de\n\nimóvel urbano ou rural, privado ou público, conforme disposto na legislação federal, estadual e municipal pertinente.\n\nParágrafo único. O pagamento por serviços ambientais constitui-se em retribuição, monetária ou não, aos proprietários ou\n\npossuidores de áreas com ecossistemas provedores de serviços ambientais, cujas ações mantêm, restabelecem ou recuperam\n\nestes serviços, podendo ser remuneradas, entre outras, as seguintes ações:\n\nI – manutenção, recuperação, recomposição e enriquecimento de remanescentes florestais;\n\nII – recuperação de nascentes, matas ciliares e demais áreas de preservação permanente;\n\nIII – recuperação, recomposição e enriquecimento de áreas de reserva legal;\n\nIV – conversão da agricultura familiar convencional para agricultura orgânica;\n\nV – cessão de área para soltura de animais silvestres, mediante critérios a serem definidos pelos órgãos municipais responsáveis\n\npela conservação da fauna silvestre e da biodiversidade.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "lei municipal nº 16050/2014 — São Paulo - SP",
+    "dispositivo": "TÍTULO II › CAPÍTULO III › Seção IV › Art. 158",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2014-07-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 95 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2014-07-31. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

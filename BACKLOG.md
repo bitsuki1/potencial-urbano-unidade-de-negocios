@@ -34,7 +34,7 @@
 >
 > | id | Item (defeito vivo) | DoD (resumo — completa no handoff §8) | Bloqueio |
 > |---|---|---|---|
-> | **T1/C-28** 🟦 | Fórmula PCpt rotulada "Art. 124" (é 125) em `133__art-124.json` | chunk topo=Art.125 c/ a fórmula; eval SOBRE CONTEÚDO verde; ≥6 leis re-fatiadas | — |
+> | ~~**T1/C-28**~~ ✅ | **FEITO (PU 17, 2026-07-03).** `fatiar.py`: guarda de REMISSÃO line-initial (`eh_remissao_line_initial` — conectivo de remissão/vírgula/continuação minúscula, SEM monotonicidade de número) + `header_raw` por chunk. `rodar-evals.py`: comparação de dispositivo endurecida de SUBSTRING→igualdade normalizada (`_norm_disp`; prova adversarial: "Art. 12"≠"Art. 125", "Art. 156"≠"Art. 156-A"). | ✅ **PROVADO:** `133__art-124.json` sumiu; fórmula `PCpt = Atc x CAbas x Fi` agora sob **Art. 125** (`× CAmax ×` sob Art. 127); 0 chunks-remissão restantes; espúrios (16402:114, 17844:108, 126) ausentes; duplo "Art.124" resolvido; novo eval `tdc-formula-pcpt` (conteúdo) verde; 19 leis re-fatiadas; gate VERDE 15/15. | — |
 > | **T2/S2** 🟥 | Gate de CI não cobre o produto (`consolidar.yml` sem `zepec/**`,`engines/**`,`supabase/**`) | CI dispara em push/PR nesses paths; `eval-produto.py` (5-10 cedentes) verde; sabotar 1 Fi FALHA | — |
 > | **T8** 🟥 | Vedação Art.124§2 só substring (`montar_base.py:104`), sem geometria; fail-closed só-preço | usa geometria AUE/APPa do Drive; guard ANTES de atc/cabas zera pcpt/saldo nas vedadas; CONFLITO(4)≠vedado(32) | — |
 > | **T3** 🟥 | Escalonado por default ao já-declarado (`enriquecer_oficial.py:81`) | engine exige Fi da certidão ou PENDENTE (Art.24 caput, novas decl.); fixture prova | — |

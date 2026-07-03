@@ -1,0 +1,36 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17844-2022::106-art-102",
+  "lei_id": "lei-municipal-saopaulo-17844-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 102",
+  "numero": "102",
+  "header_raw": "Art. 102. Ficam aprovados melhoramentos viários, inclusive as concordâncias viárias entre os",
+  "caminho_hierarquico": [
+    "CAPÍTULO VIII",
+    "Art. 102"
+  ],
+  "texto": "Art. 102. Ficam aprovados melhoramentos viários, inclusive as concordâncias viárias entre os\n\nalargamentos, as aberturas de vias, as reconfigurações geométricas e demais compatibilizações e\n\nligações viárias, nos distritos Bom Retiro, Pari, Vila Guilherme, Belém, Brás e Sé, constantes nas\n\nPlantas nº 26.999/01 a nº 26.999/05 e nº 26.999/07 a nº 26.999/13, classificação S-1227 do arquivo da\n\nSuperintendência de Projetos Viários – PROJ-3, da Secretaria Municipal de Infraestrutura Urbana e\n\nObras – SIURB ou no Quadro 1D, integrantes desta Lei.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "lei municipal nº 17844/2022 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO VIII › Art. 102",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2022-09-14",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": []
+    }
+  },
+  "tema": [
+    "IPTU"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

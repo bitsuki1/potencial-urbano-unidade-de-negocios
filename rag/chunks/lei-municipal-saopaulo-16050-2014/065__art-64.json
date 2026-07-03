@@ -1,0 +1,42 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16050-2014::065-art-64",
+  "lei_id": "lei-municipal-saopaulo-16050-2014",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 64",
+  "numero": "64",
+  "header_raw": "Art. 64. As ZEPEC deverão ser identificadas e instituídas por meio dos seguintes instrumentos existentes e os a serem criados:",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO II",
+    "Seção V",
+    "Art. 64"
+  ],
+  "texto": "Art. 64. As ZEPEC deverão ser identificadas e instituídas por meio dos seguintes instrumentos existentes e os a serem criados:\n\nI – tombamento;\n\nhttps://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 33/166\n\n27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal\n\nII – inventário do patrimônio cultural;\n\nIII – registro das Áreas de Proteção Cultural e Territórios de Interesse da Cultura e da Paisagem;\n\nIV – registro do patrimônio imaterial;\n\nV – chancela da paisagem cultural;\n\nVI – Levantamento e Cadastro Arqueológico do Município – LECAM.\n\n§ 1º A identificação de bens, imóveis, espaços ou áreas a serem enquadrados na categoria de ZEPEC deve ser feita pelo órgão a\n\npartir de indicações apresentadas pelo próprio órgão competente, assim como por munícipes ou entidades representativas da\n\nsociedade, a qualquer tempo, ou, preferencialmente, nos Planos Regionais das Subprefeituras e nos Planos de Bairro.\n\n§ 2º Para os casos de enquadramento em ZEPEC-BIR, AUE, APPa, as propostas deverão ser analisadas por órgão competente,\n\nque poderá, caso julgue a proposta pertinente, abrir processo de enquadramento e emitir parecer a ser submetido à aprovação do\n\nCONPRESP.\n\n§ 3º As propostas de enquadramento em ZEPEC-APC deverão ser analisadas por comissão integrada por membros de órgão\n\nresponsável pela preservação do patrimônio e de órgão responsável pelo desenvolvimento urbano, que deverá emitir parecer e\n\nencaminhar o processo à deliberação do órgão competente, a ser definido pelo Executivo.\n\n§ 4º Fica permitida, nas ZEPEC, a instalação das atividades classificadas como nR3, condicionada à deliberação favorável do\n\nCONPRESP.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "lei municipal nº 16050/2014 — São Paulo - SP",
+    "dispositivo": "TÍTULO II › CAPÍTULO II › Seção V › Art. 64",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2014-07-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 95 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2014-07-31. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

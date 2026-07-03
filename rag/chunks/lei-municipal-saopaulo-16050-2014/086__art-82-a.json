@@ -1,0 +1,42 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16050-2014::086-art-82-a",
+  "lei_id": "lei-municipal-saopaulo-16050-2014",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 82-A",
+  "numero": "82-A",
+  "header_raw": "Art. 82-A. Nas áreas de influência dos eixos, quando uma parcela do lote for destinada à praça pública, poderá ser acrescido além",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO II",
+    "Seção VIII",
+    "Art. 82-A"
+  ],
+  "texto": "Art. 82-A. Nas áreas de influência dos eixos, quando uma parcela do lote for destinada à praça pública, poderá ser acrescido além\n\ndo C.A. max 50% da área destinada a praça urbana os potenciais construtivos básico e máximo do remanescente do lote serão\n\ncalculados em função de sua área original, e não será cobrada outorga onerosa correspondente à metade do potencial construtivo\n\nmáximo relativo à área destinada à fruição pública, desde que atendidas simultaneamente as seguintes condições:(Incluído pela\n\nLei nº 17.975/2023)\n\nI - a área destinada à praça urbana tenha no mínimo 250m² (duzentos e cinquenta metros quadrados) e esteja localizada junto ao\n\nalinhamento da via, ao nível do passeio público, sem fechamento e não ocupada por construções ou estacionamento de veículos;\n\n(Incluído pela Lei nº 17.975/2023)\n\nII - a área destinada à praça urbana deverá permanecer permanentemente aberta e não poderá ser fechada à circulação de\n\npedestres por nenhum objeto de vedação, temporário ou permanente, podendo ter controle de acesso no período noturno;(Incluído\n\npela Lei nº 17.975/2023)\n\nIII - a área destinada à praça urbana seja devidamente averbada em Cartório de Registro de Imóveis;(Incluído pela Lei nº\n\n17.975/2023)\n\nIV - a limpeza e conservação será de responsabilidade do proprietário;(Incluído pela Lei nº 17.975/2023)\n\nV - ter testada mínima de 5m (cinco metros) voltada para todos os logradouros públicos que fizer divisa com a praça;(Incluído pela\n\nLei nº 17.975/2023)\n\nVI - fachada ativa poderá ser voltada a praça urbana comunitária, desde que garantido o acesso direto ao logradouro público;\n\n(Incluído pela Lei nº 17.975/2023)\n\nVII - no mínimo, 50% (cinquenta por cento) de sua área ajardinada sobre solo natural, sendo no mínimo 30% (trinta por cento) da\n\nárea ajardinada destinada a jardim de chuva e 1 (uma) árvore a cada 25 m² (vinte e cinco metros quadrados) de área ajardinada;\n\n(Incluído pela Lei nº 17.975/2023)\n\nVIII - nas praças urbanas públicas poderão ser instalados equipamentos de esporte, lazer, cultura e mobiliário urbano.(Incluído pela\n\nLei nº 17.975/2023)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "lei municipal nº 16050/2014 — São Paulo - SP",
+    "dispositivo": "TÍTULO II › CAPÍTULO II › Seção VIII › Art. 82-A",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2014-07-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 95 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2014-07-31. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

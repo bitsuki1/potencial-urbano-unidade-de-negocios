@@ -16930,36 +16930,7 @@
     },
     "citavel": true
   },
-  "lei-federal-4591-1964::083-art-54": {
-    "lei_id": "lei-federal-4591-1964",
-    "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 54",
-    "tema": [
-      "IPTU",
-      "condominio_edilicio",
-      "incorporacao_imobiliaria",
-      "unidade_autonoma"
-    ],
-    "jurisdicao": "Brasil",
-    "vigencia": {
-      "inicio": "1964-12-16",
-      "fim": null,
-      "revogada_por": "parcialmente — a parte de condomínio convive com o Código Civil/2002 (arts. 1.331 e ss.)",
-      "altera": [],
-      "alterada_por": [
-        "Código Civil/2002 (Lei 10.406/2002)",
-        "Lei 10.931/2004 (patrimônio de afetação)",
-        "Lei 4.864/1965"
-      ]
-    },
-    "vigencia_dispositivo": {
-      "status": "original",
-      "revogado_por": null,
-      "marcadores": []
-    },
-    "citavel": true
-  },
-  "lei-federal-4591-1964::084-art-55": {
+  "lei-federal-4591-1964::083-art-55": {
     "lei_id": "lei-federal-4591-1964",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 55",
@@ -16988,7 +16959,7 @@
     },
     "citavel": true
   },
-  "lei-federal-4591-1964::085-art-56": {
+  "lei-federal-4591-1964::084-art-56": {
     "lei_id": "lei-federal-4591-1964",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 56",
@@ -17017,7 +16988,7 @@
     },
     "citavel": true
   },
-  "lei-federal-4591-1964::086-art-57": {
+  "lei-federal-4591-1964::085-art-57": {
     "lei_id": "lei-federal-4591-1964",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 57",
@@ -17046,7 +17017,7 @@
     },
     "citavel": true
   },
-  "lei-federal-4591-1964::087-art-58": {
+  "lei-federal-4591-1964::086-art-58": {
     "lei_id": "lei-federal-4591-1964",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 58",
@@ -17075,7 +17046,7 @@
     },
     "citavel": true
   },
-  "lei-federal-4591-1964::088-art-59": {
+  "lei-federal-4591-1964::087-art-59": {
     "lei_id": "lei-federal-4591-1964",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 59",
@@ -17104,7 +17075,7 @@
     },
     "citavel": true
   },
-  "lei-federal-4591-1964::089-art-60": {
+  "lei-federal-4591-1964::088-art-60": {
     "lei_id": "lei-federal-4591-1964",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 60",
@@ -17133,7 +17104,7 @@
     },
     "citavel": true
   },
-  "lei-federal-4591-1964::090-art-61": {
+  "lei-federal-4591-1964::089-art-61": {
     "lei_id": "lei-federal-4591-1964",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 61",
@@ -17162,7 +17133,7 @@
     },
     "citavel": true
   },
-  "lei-federal-4591-1964::091-art-62": {
+  "lei-federal-4591-1964::090-art-62": {
     "lei_id": "lei-federal-4591-1964",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 62",
@@ -17191,7 +17162,7 @@
     },
     "citavel": true
   },
-  "lei-federal-4591-1964::092-art-63": {
+  "lei-federal-4591-1964::091-art-63": {
     "lei_id": "lei-federal-4591-1964",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 63",
@@ -17220,7 +17191,7 @@
     },
     "citavel": true
   },
-  "lei-federal-4591-1964::093-art-64": {
+  "lei-federal-4591-1964::092-art-64": {
     "lei_id": "lei-federal-4591-1964",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 64",
@@ -17249,7 +17220,7 @@
     },
     "citavel": true
   },
-  "lei-federal-4591-1964::094-art-65": {
+  "lei-federal-4591-1964::093-art-65": {
     "lei_id": "lei-federal-4591-1964",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 65",
@@ -17278,7 +17249,7 @@
     },
     "citavel": true
   },
-  "lei-federal-4591-1964::095-art-66": {
+  "lei-federal-4591-1964::094-art-66": {
     "lei_id": "lei-federal-4591-1964",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 66",
@@ -17307,7 +17278,7 @@
     },
     "citavel": true
   },
-  "lei-federal-4591-1964::096-art-67": {
+  "lei-federal-4591-1964::095-art-67": {
     "lei_id": "lei-federal-4591-1964",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 67",
@@ -17336,10 +17307,39 @@
     },
     "citavel": true
   },
-  "lei-federal-4591-1964::097-art-67-a": {
+  "lei-federal-4591-1964::096-art-67-a": {
     "lei_id": "lei-federal-4591-1964",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 67-A",
+    "tema": [
+      "IPTU",
+      "condominio_edilicio",
+      "incorporacao_imobiliaria",
+      "unidade_autonoma"
+    ],
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "1964-12-16",
+      "fim": null,
+      "revogada_por": "parcialmente — a parte de condomínio convive com o Código Civil/2002 (arts. 1.331 e ss.)",
+      "altera": [],
+      "alterada_por": [
+        "Código Civil/2002 (Lei 10.406/2002)",
+        "Lei 10.931/2004 (patrimônio de afetação)",
+        "Lei 4.864/1965"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": []
+    },
+    "citavel": true
+  },
+  "lei-federal-4591-1964::097-art-68": {
+    "lei_id": "lei-federal-4591-1964",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 68",
     "tema": [
       "IPTU",
       "condominio_edilicio",
@@ -17388,35 +17388,6 @@
       ]
     },
     "vigencia_dispositivo": {
-      "status": "original",
-      "revogado_por": null,
-      "marcadores": []
-    },
-    "citavel": true
-  },
-  "lei-federal-4591-1964::099-art-68": {
-    "lei_id": "lei-federal-4591-1964",
-    "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 68",
-    "tema": [
-      "IPTU",
-      "condominio_edilicio",
-      "incorporacao_imobiliaria",
-      "unidade_autonoma"
-    ],
-    "jurisdicao": "Brasil",
-    "vigencia": {
-      "inicio": "1964-12-16",
-      "fim": null,
-      "revogada_por": "parcialmente — a parte de condomínio convive com o Código Civil/2002 (arts. 1.331 e ss.)",
-      "altera": [],
-      "alterada_por": [
-        "Código Civil/2002 (Lei 10.406/2002)",
-        "Lei 10.931/2004 (patrimônio de afetação)",
-        "Lei 4.864/1965"
-      ]
-    },
-    "vigencia_dispositivo": {
       "status": "compilado",
       "revogado_por": null,
       "marcadores": [
@@ -17425,7 +17396,7 @@
     },
     "citavel": true
   },
-  "lei-federal-4591-1964::100-art-69": {
+  "lei-federal-4591-1964::099-art-69": {
     "lei_id": "lei-federal-4591-1964",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 69",
@@ -17454,7 +17425,7 @@
     },
     "citavel": true
   },
-  "lei-federal-4591-1964::101-art-70": {
+  "lei-federal-4591-1964::100-art-70": {
     "lei_id": "lei-federal-4591-1964",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 70",
@@ -39011,33 +38982,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::049-art-107": {
-    "lei_id": "lei-municipal-saopaulo-16050-2014",
-    "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 107",
-    "tema": [
-      "TDC",
-      "urbanística"
-    ],
-    "jurisdicao": "São Paulo - SP",
-    "vigencia": {
-      "inicio": "2014-07-31",
-      "fim": null,
-      "revogada_por": null,
-      "altera": [],
-      "alterada_por": [
-        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
-      ],
-      "obs": "TEXTO CONSOLIDADO: 95 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2014-07-31. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
-    },
-    "vigencia_dispositivo": {
-      "status": "original",
-      "revogado_por": null,
-      "marcadores": []
-    },
-    "citavel": true
-  },
-  "lei-municipal-saopaulo-16050-2014::050-art-48": {
+  "lei-municipal-saopaulo-16050-2014::049-art-48": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 48",
@@ -39065,7 +39010,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::051-art-49": {
+  "lei-municipal-saopaulo-16050-2014::050-art-49": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 49",
@@ -39091,7 +39036,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::052-art-50": {
+  "lei-municipal-saopaulo-16050-2014::051-art-50": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 50",
@@ -39119,7 +39064,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::053-art-51": {
+  "lei-municipal-saopaulo-16050-2014::052-art-51": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 51",
@@ -39147,7 +39092,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::054-art-52": {
+  "lei-municipal-saopaulo-16050-2014::053-art-52": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 52",
@@ -39175,7 +39120,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::055-art-53": {
+  "lei-municipal-saopaulo-16050-2014::054-art-53": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 53",
@@ -39201,7 +39146,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::056-art-54": {
+  "lei-municipal-saopaulo-16050-2014::055-art-54": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 54",
@@ -39227,7 +39172,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::057-art-55": {
+  "lei-municipal-saopaulo-16050-2014::056-art-55": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 55",
@@ -39253,7 +39198,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::058-art-56": {
+  "lei-municipal-saopaulo-16050-2014::057-art-56": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 56",
@@ -39279,7 +39224,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::059-art-57": {
+  "lei-municipal-saopaulo-16050-2014::058-art-57": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 57",
@@ -39307,7 +39252,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::060-art-58": {
+  "lei-municipal-saopaulo-16050-2014::059-art-58": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 58",
@@ -39333,7 +39278,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::061-art-59": {
+  "lei-municipal-saopaulo-16050-2014::060-art-59": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 59",
@@ -39359,7 +39304,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::062-art-60": {
+  "lei-municipal-saopaulo-16050-2014::061-art-60": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 60",
@@ -39385,7 +39330,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::063-art-61": {
+  "lei-municipal-saopaulo-16050-2014::062-art-61": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 61",
@@ -39411,7 +39356,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::064-art-62": {
+  "lei-municipal-saopaulo-16050-2014::063-art-62": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 62",
@@ -39439,7 +39384,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::065-art-63": {
+  "lei-municipal-saopaulo-16050-2014::064-art-63": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 63",
@@ -39465,7 +39410,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::066-art-64": {
+  "lei-municipal-saopaulo-16050-2014::065-art-64": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 64",
@@ -39491,7 +39436,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::067-art-65": {
+  "lei-municipal-saopaulo-16050-2014::066-art-65": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 65",
@@ -39517,7 +39462,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::068-art-66": {
+  "lei-municipal-saopaulo-16050-2014::067-art-66": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 66",
@@ -39545,7 +39490,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::069-art-67": {
+  "lei-municipal-saopaulo-16050-2014::068-art-67": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 67",
@@ -39571,7 +39516,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::070-art-68": {
+  "lei-municipal-saopaulo-16050-2014::069-art-68": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 68",
@@ -39597,7 +39542,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::071-art-69": {
+  "lei-municipal-saopaulo-16050-2014::070-art-69": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 69",
@@ -39623,7 +39568,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::072-art-70": {
+  "lei-municipal-saopaulo-16050-2014::071-art-70": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 70",
@@ -39649,7 +39594,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::073-art-71": {
+  "lei-municipal-saopaulo-16050-2014::072-art-71": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 71",
@@ -39675,7 +39620,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::074-art-72": {
+  "lei-municipal-saopaulo-16050-2014::073-art-72": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 72",
@@ -39701,7 +39646,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::075-art-73": {
+  "lei-municipal-saopaulo-16050-2014::074-art-73": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 73",
@@ -39727,7 +39672,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::076-art-74": {
+  "lei-municipal-saopaulo-16050-2014::075-art-74": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 74",
@@ -39753,7 +39698,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::077-art-75": {
+  "lei-municipal-saopaulo-16050-2014::076-art-75": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 75",
@@ -39779,7 +39724,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::078-art-76": {
+  "lei-municipal-saopaulo-16050-2014::077-art-76": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 76",
@@ -39807,7 +39752,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::079-art-77": {
+  "lei-municipal-saopaulo-16050-2014::078-art-77": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 77",
@@ -39835,7 +39780,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::080-art-77-a": {
+  "lei-municipal-saopaulo-16050-2014::079-art-77-a": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 77-A",
@@ -39861,7 +39806,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::081-art-77-b": {
+  "lei-municipal-saopaulo-16050-2014::080-art-77-b": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 77-B",
@@ -39887,7 +39832,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::082-art-78": {
+  "lei-municipal-saopaulo-16050-2014::081-art-78": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 78",
@@ -39915,36 +39860,10 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::083-art-79": {
+  "lei-municipal-saopaulo-16050-2014::082-art-79": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 79",
-    "tema": [
-      "TDC",
-      "urbanística"
-    ],
-    "jurisdicao": "São Paulo - SP",
-    "vigencia": {
-      "inicio": "2014-07-31",
-      "fim": null,
-      "revogada_por": null,
-      "altera": [],
-      "alterada_por": [
-        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
-      ],
-      "obs": "TEXTO CONSOLIDADO: 95 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2014-07-31. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
-    },
-    "vigencia_dispositivo": {
-      "status": "original",
-      "revogado_por": null,
-      "marcadores": []
-    },
-    "citavel": true
-  },
-  "lei-municipal-saopaulo-16050-2014::084-art-197": {
-    "lei_id": "lei-municipal-saopaulo-16050-2014",
-    "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 197",
     "tema": [
       "TDC",
       "urbanística"
@@ -39969,7 +39888,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::085-art-80": {
+  "lei-municipal-saopaulo-16050-2014::083-art-80": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 80",
@@ -39997,7 +39916,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::086-art-81": {
+  "lei-municipal-saopaulo-16050-2014::084-art-81": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 81",
@@ -40023,7 +39942,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::087-art-82": {
+  "lei-municipal-saopaulo-16050-2014::085-art-82": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 82",
@@ -40049,7 +39968,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::088-art-82-a": {
+  "lei-municipal-saopaulo-16050-2014::086-art-82-a": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 82-A",
@@ -40075,7 +39994,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::089-art-83": {
+  "lei-municipal-saopaulo-16050-2014::087-art-83": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 83",
@@ -40103,7 +40022,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::090-art-84": {
+  "lei-municipal-saopaulo-16050-2014::088-art-84": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 84",
@@ -40129,7 +40048,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::091-art-85": {
+  "lei-municipal-saopaulo-16050-2014::089-art-85": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 85",
@@ -40155,7 +40074,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::092-art-86": {
+  "lei-municipal-saopaulo-16050-2014::090-art-86": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 86",
@@ -40181,7 +40100,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::093-art-87": {
+  "lei-municipal-saopaulo-16050-2014::091-art-87": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 87",
@@ -40207,7 +40126,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::094-art-88": {
+  "lei-municipal-saopaulo-16050-2014::092-art-88": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 88",
@@ -40233,7 +40152,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::095-art-89": {
+  "lei-municipal-saopaulo-16050-2014::093-art-89": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 89",
@@ -40259,7 +40178,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::096-art-90": {
+  "lei-municipal-saopaulo-16050-2014::094-art-90": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 90",
@@ -40287,7 +40206,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::097-art-91": {
+  "lei-municipal-saopaulo-16050-2014::095-art-91": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 91",
@@ -40313,7 +40232,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::098-art-92": {
+  "lei-municipal-saopaulo-16050-2014::096-art-92": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 92",
@@ -40339,7 +40258,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::099-art-93": {
+  "lei-municipal-saopaulo-16050-2014::097-art-93": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 93",
@@ -40367,7 +40286,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::100-art-94": {
+  "lei-municipal-saopaulo-16050-2014::098-art-94": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 94",
@@ -40393,7 +40312,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::101-art-95": {
+  "lei-municipal-saopaulo-16050-2014::099-art-95": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 95",
@@ -40421,7 +40340,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::102-art-96": {
+  "lei-municipal-saopaulo-16050-2014::100-art-96": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 96",
@@ -40447,7 +40366,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::103-art-97": {
+  "lei-municipal-saopaulo-16050-2014::101-art-97": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 97",
@@ -40473,7 +40392,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::104-art-98": {
+  "lei-municipal-saopaulo-16050-2014::102-art-98": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 98",
@@ -40499,7 +40418,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::105-art-99": {
+  "lei-municipal-saopaulo-16050-2014::103-art-99": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 99",
@@ -40525,7 +40444,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::106-art-99-a": {
+  "lei-municipal-saopaulo-16050-2014::104-art-99-a": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 99-A",
@@ -40551,7 +40470,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::107-art-100": {
+  "lei-municipal-saopaulo-16050-2014::105-art-100": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 100",
@@ -40577,7 +40496,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::108-art-101": {
+  "lei-municipal-saopaulo-16050-2014::106-art-101": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 101",
@@ -40603,7 +40522,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::109-art-102": {
+  "lei-municipal-saopaulo-16050-2014::107-art-102": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 102",
@@ -40631,7 +40550,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::110-art-103": {
+  "lei-municipal-saopaulo-16050-2014::108-art-103": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 103",
@@ -40657,7 +40576,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::111-art-104": {
+  "lei-municipal-saopaulo-16050-2014::109-art-104": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 104",
@@ -40683,7 +40602,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::112-art-105": {
+  "lei-municipal-saopaulo-16050-2014::110-art-105": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 105",
@@ -40709,7 +40628,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::113-art-106": {
+  "lei-municipal-saopaulo-16050-2014::111-art-106": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 106",
@@ -40735,7 +40654,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::114-art-107": {
+  "lei-municipal-saopaulo-16050-2014::112-art-107": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 107",
@@ -40761,7 +40680,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::115-art-108": {
+  "lei-municipal-saopaulo-16050-2014::113-art-108": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 108",
@@ -40787,7 +40706,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::116-art-109": {
+  "lei-municipal-saopaulo-16050-2014::114-art-109": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 109",
@@ -40813,7 +40732,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::117-art-110": {
+  "lei-municipal-saopaulo-16050-2014::115-art-110": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 110",
@@ -40839,7 +40758,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::118-art-111": {
+  "lei-municipal-saopaulo-16050-2014::116-art-111": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 111",
@@ -40865,7 +40784,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::119-art-112": {
+  "lei-municipal-saopaulo-16050-2014::117-art-112": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 112",
@@ -40893,7 +40812,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::120-art-113": {
+  "lei-municipal-saopaulo-16050-2014::118-art-113": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 113",
@@ -40919,7 +40838,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::121-art-114": {
+  "lei-municipal-saopaulo-16050-2014::119-art-114": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 114",
@@ -40945,7 +40864,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::122-art-115": {
+  "lei-municipal-saopaulo-16050-2014::120-art-115": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 115",
@@ -40973,7 +40892,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::123-art-116": {
+  "lei-municipal-saopaulo-16050-2014::121-art-116": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 116",
@@ -41001,7 +40920,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::124-art-117": {
+  "lei-municipal-saopaulo-16050-2014::122-art-117": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 117",
@@ -41027,7 +40946,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::125-art-118": {
+  "lei-municipal-saopaulo-16050-2014::123-art-118": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 118",
@@ -41055,7 +40974,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::126-art-119": {
+  "lei-municipal-saopaulo-16050-2014::124-art-119": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 119",
@@ -41081,7 +41000,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::127-art-120": {
+  "lei-municipal-saopaulo-16050-2014::125-art-120": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 120",
@@ -41107,7 +41026,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::128-art-121": {
+  "lei-municipal-saopaulo-16050-2014::126-art-121": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 121",
@@ -41133,7 +41052,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::129-art-122": {
+  "lei-municipal-saopaulo-16050-2014::127-art-122": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 122",
@@ -41159,7 +41078,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::130-art-123": {
+  "lei-municipal-saopaulo-16050-2014::128-art-123": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 123",
@@ -41187,7 +41106,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::131-art-124": {
+  "lei-municipal-saopaulo-16050-2014::129-art-124": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 124",
@@ -41215,7 +41134,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::132-art-125": {
+  "lei-municipal-saopaulo-16050-2014::130-art-125": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 125",
@@ -41241,33 +41160,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::133-art-124": {
-    "lei_id": "lei-municipal-saopaulo-16050-2014",
-    "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 124",
-    "tema": [
-      "TDC",
-      "urbanística"
-    ],
-    "jurisdicao": "São Paulo - SP",
-    "vigencia": {
-      "inicio": "2014-07-31",
-      "fim": null,
-      "revogada_por": null,
-      "altera": [],
-      "alterada_por": [
-        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
-      ],
-      "obs": "TEXTO CONSOLIDADO: 95 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2014-07-31. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
-    },
-    "vigencia_dispositivo": {
-      "status": "original",
-      "revogado_por": null,
-      "marcadores": []
-    },
-    "citavel": true
-  },
-  "lei-municipal-saopaulo-16050-2014::134-art-126": {
+  "lei-municipal-saopaulo-16050-2014::131-art-126": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 126",
@@ -41295,7 +41188,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::135-art-127": {
+  "lei-municipal-saopaulo-16050-2014::132-art-127": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 127",
@@ -41315,32 +41208,6 @@
       "obs": "TEXTO CONSOLIDADO: 95 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2014-07-31. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
     },
     "vigencia_dispositivo": {
-      "status": "original",
-      "revogado_por": null,
-      "marcadores": []
-    },
-    "citavel": true
-  },
-  "lei-municipal-saopaulo-16050-2014::136-art-126": {
-    "lei_id": "lei-municipal-saopaulo-16050-2014",
-    "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 126",
-    "tema": [
-      "TDC",
-      "urbanística"
-    ],
-    "jurisdicao": "São Paulo - SP",
-    "vigencia": {
-      "inicio": "2014-07-31",
-      "fim": null,
-      "revogada_por": null,
-      "altera": [],
-      "alterada_por": [
-        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
-      ],
-      "obs": "TEXTO CONSOLIDADO: 95 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2014-07-31. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
-    },
-    "vigencia_dispositivo": {
       "status": "compilado",
       "revogado_por": null,
       "marcadores": [
@@ -41349,7 +41216,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::137-art-128": {
+  "lei-municipal-saopaulo-16050-2014::133-art-128": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 128",
@@ -41375,7 +41242,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::138-art-129": {
+  "lei-municipal-saopaulo-16050-2014::134-art-129": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 129",
@@ -41403,7 +41270,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::139-art-130": {
+  "lei-municipal-saopaulo-16050-2014::135-art-130": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 130",
@@ -41429,7 +41296,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::140-art-131": {
+  "lei-municipal-saopaulo-16050-2014::136-art-131": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 131",
@@ -41455,7 +41322,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::141-art-132": {
+  "lei-municipal-saopaulo-16050-2014::137-art-132": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 132",
@@ -41481,7 +41348,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::142-art-133": {
+  "lei-municipal-saopaulo-16050-2014::138-art-133": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 133",
@@ -41507,7 +41374,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::143-art-134": {
+  "lei-municipal-saopaulo-16050-2014::139-art-134": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 134",
@@ -41535,7 +41402,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::144-art-134-a": {
+  "lei-municipal-saopaulo-16050-2014::140-art-134-a": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 134-A",
@@ -41561,7 +41428,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::145-art-135": {
+  "lei-municipal-saopaulo-16050-2014::141-art-135": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 135",
@@ -41587,7 +41454,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::146-art-136": {
+  "lei-municipal-saopaulo-16050-2014::142-art-136": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 136",
@@ -41615,7 +41482,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::147-art-136-a": {
+  "lei-municipal-saopaulo-16050-2014::143-art-136-a": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 136-A",
@@ -41641,7 +41508,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::148-art-137": {
+  "lei-municipal-saopaulo-16050-2014::144-art-137": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 137",
@@ -41667,7 +41534,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::149-art-138": {
+  "lei-municipal-saopaulo-16050-2014::145-art-138": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 138",
@@ -41693,7 +41560,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::150-art-139": {
+  "lei-municipal-saopaulo-16050-2014::146-art-139": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 139",
@@ -41719,7 +41586,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::151-art-140": {
+  "lei-municipal-saopaulo-16050-2014::147-art-140": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 140",
@@ -41745,7 +41612,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::152-art-141": {
+  "lei-municipal-saopaulo-16050-2014::148-art-141": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 141",
@@ -41773,7 +41640,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::153-art-142": {
+  "lei-municipal-saopaulo-16050-2014::149-art-142": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 142",
@@ -41801,7 +41668,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::154-art-143": {
+  "lei-municipal-saopaulo-16050-2014::150-art-143": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 143",
@@ -41827,7 +41694,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::155-art-144": {
+  "lei-municipal-saopaulo-16050-2014::151-art-144": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 144",
@@ -41853,7 +41720,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::156-art-145": {
+  "lei-municipal-saopaulo-16050-2014::152-art-145": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 145",
@@ -41879,7 +41746,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::157-art-146": {
+  "lei-municipal-saopaulo-16050-2014::153-art-146": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 146",
@@ -41907,7 +41774,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::158-art-147": {
+  "lei-municipal-saopaulo-16050-2014::154-art-147": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 147",
@@ -41933,7 +41800,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::159-art-148": {
+  "lei-municipal-saopaulo-16050-2014::155-art-148": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 148",
@@ -41961,7 +41828,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::160-art-149": {
+  "lei-municipal-saopaulo-16050-2014::156-art-149": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 149",
@@ -41987,7 +41854,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::161-art-150": {
+  "lei-municipal-saopaulo-16050-2014::157-art-150": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 150",
@@ -42013,7 +41880,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::162-art-151": {
+  "lei-municipal-saopaulo-16050-2014::158-art-151": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 151",
@@ -42039,7 +41906,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::163-art-152": {
+  "lei-municipal-saopaulo-16050-2014::159-art-152": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 152",
@@ -42067,7 +41934,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::164-art-152-a": {
+  "lei-municipal-saopaulo-16050-2014::160-art-152-a": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 152-A",
@@ -42093,7 +41960,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::165-art-153": {
+  "lei-municipal-saopaulo-16050-2014::161-art-153": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 153",
@@ -42119,7 +41986,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::166-art-154": {
+  "lei-municipal-saopaulo-16050-2014::162-art-154": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 154",
@@ -42145,7 +42012,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::167-art-155": {
+  "lei-municipal-saopaulo-16050-2014::163-art-155": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 155",
@@ -42171,7 +42038,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::168-art-156": {
+  "lei-municipal-saopaulo-16050-2014::164-art-156": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 156",
@@ -42199,7 +42066,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::169-art-157": {
+  "lei-municipal-saopaulo-16050-2014::165-art-157": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 157",
@@ -42227,7 +42094,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::170-art-158": {
+  "lei-municipal-saopaulo-16050-2014::166-art-158": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 158",
@@ -42253,7 +42120,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::171-art-159": {
+  "lei-municipal-saopaulo-16050-2014::167-art-159": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 159",
@@ -42279,7 +42146,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::172-art-160": {
+  "lei-municipal-saopaulo-16050-2014::168-art-160": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 160",
@@ -42305,7 +42172,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::173-art-161": {
+  "lei-municipal-saopaulo-16050-2014::169-art-161": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 161",
@@ -42331,7 +42198,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::174-art-162": {
+  "lei-municipal-saopaulo-16050-2014::170-art-162": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 162",
@@ -42357,7 +42224,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::175-art-163": {
+  "lei-municipal-saopaulo-16050-2014::171-art-163": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 163",
@@ -42383,7 +42250,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::176-art-164": {
+  "lei-municipal-saopaulo-16050-2014::172-art-164": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 164",
@@ -42409,7 +42276,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::177-art-165": {
+  "lei-municipal-saopaulo-16050-2014::173-art-165": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 165",
@@ -42435,7 +42302,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::178-art-166": {
+  "lei-municipal-saopaulo-16050-2014::174-art-166": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 166",
@@ -42461,7 +42328,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::179-art-167": {
+  "lei-municipal-saopaulo-16050-2014::175-art-167": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 167",
@@ -42487,7 +42354,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::180-art-168": {
+  "lei-municipal-saopaulo-16050-2014::176-art-168": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 168",
@@ -42513,7 +42380,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::181-art-169": {
+  "lei-municipal-saopaulo-16050-2014::177-art-169": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 169",
@@ -42539,7 +42406,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::182-art-170": {
+  "lei-municipal-saopaulo-16050-2014::178-art-170": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 170",
@@ -42565,7 +42432,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::183-art-171": {
+  "lei-municipal-saopaulo-16050-2014::179-art-171": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 171",
@@ -42591,7 +42458,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::184-art-172": {
+  "lei-municipal-saopaulo-16050-2014::180-art-172": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 172",
@@ -42617,7 +42484,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::185-art-173": {
+  "lei-municipal-saopaulo-16050-2014::181-art-173": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 173",
@@ -42643,7 +42510,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16050-2014::186-art-174": {
+  "lei-municipal-saopaulo-16050-2014::182-art-174": {
     "lei_id": "lei-municipal-saopaulo-16050-2014",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 174",
@@ -45257,32 +45124,6 @@
       "obs": "TEXTO CONSOLIDADO: 79 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2016-03-22. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
     },
     "vigencia_dispositivo": {
-      "status": "original",
-      "revogado_por": null,
-      "marcadores": []
-    },
-    "citavel": true
-  },
-  "lei-municipal-saopaulo-16402-2016::099-art-59": {
-    "lei_id": "lei-municipal-saopaulo-16402-2016",
-    "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 59",
-    "tema": [
-      "TDC",
-      "urbanística"
-    ],
-    "jurisdicao": "São Paulo - SP",
-    "vigencia": {
-      "inicio": "2016-03-22",
-      "fim": null,
-      "revogada_por": null,
-      "altera": [],
-      "alterada_por": [
-        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
-      ],
-      "obs": "TEXTO CONSOLIDADO: 79 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2016-03-22. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
-    },
-    "vigencia_dispositivo": {
       "status": "compilado",
       "revogado_por": null,
       "marcadores": [
@@ -45291,7 +45132,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16402-2016::100-art-92": {
+  "lei-municipal-saopaulo-16402-2016::099-art-92": {
     "lei_id": "lei-municipal-saopaulo-16402-2016",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 92",
@@ -45317,7 +45158,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16402-2016::101-art-93": {
+  "lei-municipal-saopaulo-16402-2016::100-art-93": {
     "lei_id": "lei-municipal-saopaulo-16402-2016",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 93",
@@ -45343,7 +45184,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16402-2016::102-art-94": {
+  "lei-municipal-saopaulo-16402-2016::101-art-94": {
     "lei_id": "lei-municipal-saopaulo-16402-2016",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 94",
@@ -45369,59 +45210,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16402-2016::103-art-170": {
-    "lei_id": "lei-municipal-saopaulo-16402-2016",
-    "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 170",
-    "tema": [
-      "TDC",
-      "urbanística"
-    ],
-    "jurisdicao": "São Paulo - SP",
-    "vigencia": {
-      "inicio": "2016-03-22",
-      "fim": null,
-      "revogada_por": null,
-      "altera": [],
-      "alterada_por": [
-        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
-      ],
-      "obs": "TEXTO CONSOLIDADO: 79 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2016-03-22. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
-    },
-    "vigencia_dispositivo": {
-      "status": "original",
-      "revogado_por": null,
-      "marcadores": []
-    },
-    "citavel": true
-  },
-  "lei-municipal-saopaulo-16402-2016::104-art-170": {
-    "lei_id": "lei-municipal-saopaulo-16402-2016",
-    "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 170",
-    "tema": [
-      "TDC",
-      "urbanística"
-    ],
-    "jurisdicao": "São Paulo - SP",
-    "vigencia": {
-      "inicio": "2016-03-22",
-      "fim": null,
-      "revogada_por": null,
-      "altera": [],
-      "alterada_por": [
-        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
-      ],
-      "obs": "TEXTO CONSOLIDADO: 79 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2016-03-22. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
-    },
-    "vigencia_dispositivo": {
-      "status": "original",
-      "revogado_por": null,
-      "marcadores": []
-    },
-    "citavel": true
-  },
-  "lei-municipal-saopaulo-16402-2016::105-art-95": {
+  "lei-municipal-saopaulo-16402-2016::102-art-95": {
     "lei_id": "lei-municipal-saopaulo-16402-2016",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 95",
@@ -45447,7 +45236,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16402-2016::106-art-96": {
+  "lei-municipal-saopaulo-16402-2016::103-art-96": {
     "lei_id": "lei-municipal-saopaulo-16402-2016",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 96",
@@ -45473,7 +45262,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16402-2016::107-art-97": {
+  "lei-municipal-saopaulo-16402-2016::104-art-97": {
     "lei_id": "lei-municipal-saopaulo-16402-2016",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 97",
@@ -45499,7 +45288,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16402-2016::108-art-98": {
+  "lei-municipal-saopaulo-16402-2016::105-art-98": {
     "lei_id": "lei-municipal-saopaulo-16402-2016",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 98",
@@ -45525,7 +45314,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16402-2016::109-art-99": {
+  "lei-municipal-saopaulo-16402-2016::106-art-99": {
     "lei_id": "lei-municipal-saopaulo-16402-2016",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 99",
@@ -45551,7 +45340,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16402-2016::110-art-100": {
+  "lei-municipal-saopaulo-16402-2016::107-art-100": {
     "lei_id": "lei-municipal-saopaulo-16402-2016",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 100",
@@ -45577,7 +45366,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16402-2016::111-art-101": {
+  "lei-municipal-saopaulo-16402-2016::108-art-101": {
     "lei_id": "lei-municipal-saopaulo-16402-2016",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 101",
@@ -45603,7 +45392,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16402-2016::112-art-102": {
+  "lei-municipal-saopaulo-16402-2016::109-art-102": {
     "lei_id": "lei-municipal-saopaulo-16402-2016",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 102",
@@ -45631,7 +45420,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16402-2016::113-art-103": {
+  "lei-municipal-saopaulo-16402-2016::110-art-103": {
     "lei_id": "lei-municipal-saopaulo-16402-2016",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 103",
@@ -45659,7 +45448,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16402-2016::114-art-104": {
+  "lei-municipal-saopaulo-16402-2016::111-art-104": {
     "lei_id": "lei-municipal-saopaulo-16402-2016",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 104",
@@ -45685,7 +45474,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16402-2016::115-art-105": {
+  "lei-municipal-saopaulo-16402-2016::112-art-105": {
     "lei_id": "lei-municipal-saopaulo-16402-2016",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 105",
@@ -45711,7 +45500,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16402-2016::116-art-106": {
+  "lei-municipal-saopaulo-16402-2016::113-art-106": {
     "lei_id": "lei-municipal-saopaulo-16402-2016",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 106",
@@ -45739,7 +45528,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16402-2016::117-art-107": {
+  "lei-municipal-saopaulo-16402-2016::114-art-107": {
     "lei_id": "lei-municipal-saopaulo-16402-2016",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 107",
@@ -45767,7 +45556,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16402-2016::118-art-108": {
+  "lei-municipal-saopaulo-16402-2016::115-art-108": {
     "lei_id": "lei-municipal-saopaulo-16402-2016",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 108",
@@ -45793,7 +45582,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16402-2016::119-art-109": {
+  "lei-municipal-saopaulo-16402-2016::116-art-109": {
     "lei_id": "lei-municipal-saopaulo-16402-2016",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 109",
@@ -45821,7 +45610,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16402-2016::120-art-110": {
+  "lei-municipal-saopaulo-16402-2016::117-art-110": {
     "lei_id": "lei-municipal-saopaulo-16402-2016",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 110",
@@ -45847,7 +45636,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16402-2016::121-art-111": {
+  "lei-municipal-saopaulo-16402-2016::118-art-111": {
     "lei_id": "lei-municipal-saopaulo-16402-2016",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 111",
@@ -45873,7 +45662,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16402-2016::122-art-112": {
+  "lei-municipal-saopaulo-16402-2016::119-art-112": {
     "lei_id": "lei-municipal-saopaulo-16402-2016",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 112",
@@ -45901,7 +45690,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16402-2016::123-art-113": {
+  "lei-municipal-saopaulo-16402-2016::120-art-113": {
     "lei_id": "lei-municipal-saopaulo-16402-2016",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 113",
@@ -45927,7 +45716,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16402-2016::124-art-114": {
+  "lei-municipal-saopaulo-16402-2016::121-art-114": {
     "lei_id": "lei-municipal-saopaulo-16402-2016",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 114",
@@ -45955,7 +45744,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16402-2016::125-art-115": {
+  "lei-municipal-saopaulo-16402-2016::122-art-115": {
     "lei_id": "lei-municipal-saopaulo-16402-2016",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 115",
@@ -45983,33 +45772,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16402-2016::126-art-114": {
-    "lei_id": "lei-municipal-saopaulo-16402-2016",
-    "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 114",
-    "tema": [
-      "TDC",
-      "urbanística"
-    ],
-    "jurisdicao": "São Paulo - SP",
-    "vigencia": {
-      "inicio": "2016-03-22",
-      "fim": null,
-      "revogada_por": null,
-      "altera": [],
-      "alterada_por": [
-        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
-      ],
-      "obs": "TEXTO CONSOLIDADO: 79 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2016-03-22. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
-    },
-    "vigencia_dispositivo": {
-      "status": "original",
-      "revogado_por": null,
-      "marcadores": []
-    },
-    "citavel": true
-  },
-  "lei-municipal-saopaulo-16402-2016::127-art-116": {
+  "lei-municipal-saopaulo-16402-2016::123-art-116": {
     "lei_id": "lei-municipal-saopaulo-16402-2016",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 116",
@@ -46035,7 +45798,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16402-2016::128-art-117": {
+  "lei-municipal-saopaulo-16402-2016::124-art-117": {
     "lei_id": "lei-municipal-saopaulo-16402-2016",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 117",
@@ -46063,7 +45826,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16402-2016::129-art-118": {
+  "lei-municipal-saopaulo-16402-2016::125-art-118": {
     "lei_id": "lei-municipal-saopaulo-16402-2016",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 118",
@@ -46089,7 +45852,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16402-2016::130-art-119": {
+  "lei-municipal-saopaulo-16402-2016::126-art-119": {
     "lei_id": "lei-municipal-saopaulo-16402-2016",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 119",
@@ -46115,7 +45878,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16402-2016::131-art-120": {
+  "lei-municipal-saopaulo-16402-2016::127-art-120": {
     "lei_id": "lei-municipal-saopaulo-16402-2016",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 120",
@@ -46141,7 +45904,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16402-2016::132-art-121": {
+  "lei-municipal-saopaulo-16402-2016::128-art-121": {
     "lei_id": "lei-municipal-saopaulo-16402-2016",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 121",
@@ -46167,7 +45930,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16402-2016::133-art-122": {
+  "lei-municipal-saopaulo-16402-2016::129-art-122": {
     "lei_id": "lei-municipal-saopaulo-16402-2016",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 122",
@@ -46193,7 +45956,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16402-2016::134-art-123": {
+  "lei-municipal-saopaulo-16402-2016::130-art-123": {
     "lei_id": "lei-municipal-saopaulo-16402-2016",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 123",
@@ -46219,7 +45982,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16402-2016::135-art-124": {
+  "lei-municipal-saopaulo-16402-2016::131-art-124": {
     "lei_id": "lei-municipal-saopaulo-16402-2016",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 124",
@@ -46247,7 +46010,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16402-2016::136-art-125": {
+  "lei-municipal-saopaulo-16402-2016::132-art-125": {
     "lei_id": "lei-municipal-saopaulo-16402-2016",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 125",
@@ -46273,7 +46036,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16402-2016::137-art-126": {
+  "lei-municipal-saopaulo-16402-2016::133-art-126": {
     "lei_id": "lei-municipal-saopaulo-16402-2016",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 126",
@@ -46299,7 +46062,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16402-2016::138-art-127": {
+  "lei-municipal-saopaulo-16402-2016::134-art-127": {
     "lei_id": "lei-municipal-saopaulo-16402-2016",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 127",
@@ -46325,7 +46088,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16402-2016::139-art-128": {
+  "lei-municipal-saopaulo-16402-2016::135-art-128": {
     "lei_id": "lei-municipal-saopaulo-16402-2016",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 128",
@@ -46351,7 +46114,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16402-2016::140-art-129": {
+  "lei-municipal-saopaulo-16402-2016::136-art-129": {
     "lei_id": "lei-municipal-saopaulo-16402-2016",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 129",
@@ -46377,7 +46140,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16402-2016::141-art-130": {
+  "lei-municipal-saopaulo-16402-2016::137-art-130": {
     "lei_id": "lei-municipal-saopaulo-16402-2016",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 130",
@@ -46403,7 +46166,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16402-2016::142-art-131": {
+  "lei-municipal-saopaulo-16402-2016::138-art-131": {
     "lei_id": "lei-municipal-saopaulo-16402-2016",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 131",
@@ -46429,7 +46192,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16402-2016::143-art-132": {
+  "lei-municipal-saopaulo-16402-2016::139-art-132": {
     "lei_id": "lei-municipal-saopaulo-16402-2016",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 132",
@@ -46455,7 +46218,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16402-2016::144-art-133": {
+  "lei-municipal-saopaulo-16402-2016::140-art-133": {
     "lei_id": "lei-municipal-saopaulo-16402-2016",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 133",
@@ -46481,7 +46244,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16402-2016::145-art-134": {
+  "lei-municipal-saopaulo-16402-2016::141-art-134": {
     "lei_id": "lei-municipal-saopaulo-16402-2016",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 134",
@@ -46507,7 +46270,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16402-2016::146-art-135": {
+  "lei-municipal-saopaulo-16402-2016::142-art-135": {
     "lei_id": "lei-municipal-saopaulo-16402-2016",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 135",
@@ -46535,7 +46298,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-16402-2016::147-art-136": {
+  "lei-municipal-saopaulo-16402-2016::143-art-136": {
     "lei_id": "lei-municipal-saopaulo-16402-2016",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 136",
@@ -50984,29 +50747,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::045-art-40": {
-    "lei_id": "lei-municipal-saopaulo-17844-2022",
-    "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 40",
-    "tema": [
-      "IPTU"
-    ],
-    "jurisdicao": "São Paulo - SP",
-    "vigencia": {
-      "inicio": "2022-09-14",
-      "fim": null,
-      "revogada_por": null,
-      "altera": [],
-      "alterada_por": []
-    },
-    "vigencia_dispositivo": {
-      "status": "original",
-      "revogado_por": null,
-      "marcadores": []
-    },
-    "citavel": true
-  },
-  "lei-municipal-saopaulo-17844-2022::046-art-41": {
+  "lei-municipal-saopaulo-17844-2022::045-art-41": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 41",
@@ -51028,7 +50769,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::047-art-42": {
+  "lei-municipal-saopaulo-17844-2022::046-art-42": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 42",
@@ -51050,7 +50791,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::048-art-43": {
+  "lei-municipal-saopaulo-17844-2022::047-art-43": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 43",
@@ -51072,7 +50813,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::049-art-44": {
+  "lei-municipal-saopaulo-17844-2022::048-art-44": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 44",
@@ -51094,7 +50835,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::050-art-45": {
+  "lei-municipal-saopaulo-17844-2022::049-art-45": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 45",
@@ -51116,7 +50857,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::051-art-46": {
+  "lei-municipal-saopaulo-17844-2022::050-art-46": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 46",
@@ -51138,7 +50879,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::052-art-47": {
+  "lei-municipal-saopaulo-17844-2022::051-art-47": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 47",
@@ -51160,7 +50901,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::053-art-48": {
+  "lei-municipal-saopaulo-17844-2022::052-art-48": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 48",
@@ -51182,7 +50923,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::054-art-49": {
+  "lei-municipal-saopaulo-17844-2022::053-art-49": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 49",
@@ -51204,7 +50945,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::055-art-50": {
+  "lei-municipal-saopaulo-17844-2022::054-art-50": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 50",
@@ -51226,7 +50967,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::056-art-51": {
+  "lei-municipal-saopaulo-17844-2022::055-art-51": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 51",
@@ -51248,7 +50989,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::057-art-52": {
+  "lei-municipal-saopaulo-17844-2022::056-art-52": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 52",
@@ -51270,7 +51011,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::058-art-53": {
+  "lei-municipal-saopaulo-17844-2022::057-art-53": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 53",
@@ -51292,29 +51033,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::059-art-108": {
-    "lei_id": "lei-municipal-saopaulo-17844-2022",
-    "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 108",
-    "tema": [
-      "IPTU"
-    ],
-    "jurisdicao": "São Paulo - SP",
-    "vigencia": {
-      "inicio": "2022-09-14",
-      "fim": null,
-      "revogada_por": null,
-      "altera": [],
-      "alterada_por": []
-    },
-    "vigencia_dispositivo": {
-      "status": "original",
-      "revogado_por": null,
-      "marcadores": []
-    },
-    "citavel": true
-  },
-  "lei-municipal-saopaulo-17844-2022::060-art-54": {
+  "lei-municipal-saopaulo-17844-2022::058-art-54": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 54",
@@ -51336,7 +51055,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::061-art-55": {
+  "lei-municipal-saopaulo-17844-2022::059-art-55": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 55",
@@ -51358,7 +51077,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::062-art-56": {
+  "lei-municipal-saopaulo-17844-2022::060-art-56": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 56",
@@ -51380,7 +51099,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::063-art-57": {
+  "lei-municipal-saopaulo-17844-2022::061-art-57": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 57",
@@ -51402,7 +51121,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::064-art-58": {
+  "lei-municipal-saopaulo-17844-2022::062-art-58": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 58",
@@ -51424,7 +51143,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::065-art-59": {
+  "lei-municipal-saopaulo-17844-2022::063-art-59": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 59",
@@ -51446,7 +51165,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::066-art-60": {
+  "lei-municipal-saopaulo-17844-2022::064-art-60": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 60",
@@ -51468,7 +51187,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::067-art-61": {
+  "lei-municipal-saopaulo-17844-2022::065-art-61": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 61",
@@ -51490,7 +51209,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::068-art-62": {
+  "lei-municipal-saopaulo-17844-2022::066-art-62": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 62",
@@ -51512,7 +51231,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::069-art-63": {
+  "lei-municipal-saopaulo-17844-2022::067-art-63": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 63",
@@ -51534,7 +51253,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::070-art-64": {
+  "lei-municipal-saopaulo-17844-2022::068-art-64": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 64",
@@ -51556,7 +51275,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::071-art-65": {
+  "lei-municipal-saopaulo-17844-2022::069-art-65": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 65",
@@ -51578,7 +51297,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::072-art-66": {
+  "lei-municipal-saopaulo-17844-2022::070-art-66": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 66",
@@ -51600,7 +51319,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::073-art-67": {
+  "lei-municipal-saopaulo-17844-2022::071-art-67": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 67",
@@ -51622,7 +51341,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::074-art-68": {
+  "lei-municipal-saopaulo-17844-2022::072-art-68": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 68",
@@ -51644,7 +51363,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::075-art-69": {
+  "lei-municipal-saopaulo-17844-2022::073-art-69": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 69",
@@ -51666,7 +51385,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::076-art-70": {
+  "lei-municipal-saopaulo-17844-2022::074-art-70": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 70",
@@ -51688,7 +51407,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::077-art-71": {
+  "lei-municipal-saopaulo-17844-2022::075-art-71": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 71",
@@ -51712,7 +51431,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::078-art-72": {
+  "lei-municipal-saopaulo-17844-2022::076-art-72": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 72",
@@ -51734,7 +51453,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::079-art-73": {
+  "lei-municipal-saopaulo-17844-2022::077-art-73": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 73",
@@ -51756,7 +51475,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::080-art-74": {
+  "lei-municipal-saopaulo-17844-2022::078-art-74": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 74",
@@ -51778,7 +51497,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::081-art-75": {
+  "lei-municipal-saopaulo-17844-2022::079-art-75": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 75",
@@ -51800,7 +51519,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::082-art-76": {
+  "lei-municipal-saopaulo-17844-2022::080-art-76": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 76",
@@ -51824,7 +51543,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::083-art-77": {
+  "lei-municipal-saopaulo-17844-2022::081-art-77": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 77",
@@ -51846,7 +51565,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::084-art-78": {
+  "lei-municipal-saopaulo-17844-2022::082-art-78": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 78",
@@ -51868,7 +51587,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::085-art-79": {
+  "lei-municipal-saopaulo-17844-2022::083-art-79": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 79",
@@ -51890,7 +51609,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::086-art-80": {
+  "lei-municipal-saopaulo-17844-2022::084-art-80": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 80",
@@ -51912,29 +51631,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::087-art-146": {
-    "lei_id": "lei-municipal-saopaulo-17844-2022",
-    "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 146",
-    "tema": [
-      "IPTU"
-    ],
-    "jurisdicao": "São Paulo - SP",
-    "vigencia": {
-      "inicio": "2022-09-14",
-      "fim": null,
-      "revogada_por": null,
-      "altera": [],
-      "alterada_por": []
-    },
-    "vigencia_dispositivo": {
-      "status": "original",
-      "revogado_por": null,
-      "marcadores": []
-    },
-    "citavel": true
-  },
-  "lei-municipal-saopaulo-17844-2022::088-art-81": {
+  "lei-municipal-saopaulo-17844-2022::085-art-81": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 81",
@@ -51956,7 +51653,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::089-art-82": {
+  "lei-municipal-saopaulo-17844-2022::086-art-82": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 82",
@@ -51978,7 +51675,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::090-art-83": {
+  "lei-municipal-saopaulo-17844-2022::087-art-83": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 83",
@@ -52000,7 +51697,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::091-art-84": {
+  "lei-municipal-saopaulo-17844-2022::088-art-84": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 84",
@@ -52022,7 +51719,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::092-art-85": {
+  "lei-municipal-saopaulo-17844-2022::089-art-85": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 85",
@@ -52044,7 +51741,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::093-art-86": {
+  "lei-municipal-saopaulo-17844-2022::090-art-86": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 86",
@@ -52066,7 +51763,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::094-art-87": {
+  "lei-municipal-saopaulo-17844-2022::091-art-87": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 87",
@@ -52088,7 +51785,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::095-art-88": {
+  "lei-municipal-saopaulo-17844-2022::092-art-88": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 88",
@@ -52110,7 +51807,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::096-art-89": {
+  "lei-municipal-saopaulo-17844-2022::093-art-89": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 89",
@@ -52132,7 +51829,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::097-art-90": {
+  "lei-municipal-saopaulo-17844-2022::094-art-90": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 90",
@@ -52154,7 +51851,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::098-art-91": {
+  "lei-municipal-saopaulo-17844-2022::095-art-91": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 91",
@@ -52176,7 +51873,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::099-art-92": {
+  "lei-municipal-saopaulo-17844-2022::096-art-92": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 92",
@@ -52198,7 +51895,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::100-art-93": {
+  "lei-municipal-saopaulo-17844-2022::097-art-93": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 93",
@@ -52220,7 +51917,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::101-art-94": {
+  "lei-municipal-saopaulo-17844-2022::098-art-94": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 94",
@@ -52242,7 +51939,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::102-art-95": {
+  "lei-municipal-saopaulo-17844-2022::099-art-95": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 95",
@@ -52264,7 +51961,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::103-art-96": {
+  "lei-municipal-saopaulo-17844-2022::100-art-96": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 96",
@@ -52286,7 +51983,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::104-art-97": {
+  "lei-municipal-saopaulo-17844-2022::101-art-97": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 97",
@@ -52308,7 +52005,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::105-art-98": {
+  "lei-municipal-saopaulo-17844-2022::102-art-98": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 98",
@@ -52330,7 +52027,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::106-art-99": {
+  "lei-municipal-saopaulo-17844-2022::103-art-99": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 99",
@@ -52352,7 +52049,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::107-art-100": {
+  "lei-municipal-saopaulo-17844-2022::104-art-100": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 100",
@@ -52374,7 +52071,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::108-art-101": {
+  "lei-municipal-saopaulo-17844-2022::105-art-101": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 101",
@@ -52396,7 +52093,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::109-art-102": {
+  "lei-municipal-saopaulo-17844-2022::106-art-102": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 102",
@@ -52418,7 +52115,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::110-art-103": {
+  "lei-municipal-saopaulo-17844-2022::107-art-103": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 103",
@@ -52440,7 +52137,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::111-art-104": {
+  "lei-municipal-saopaulo-17844-2022::108-art-104": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 104",
@@ -52462,7 +52159,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::112-art-105": {
+  "lei-municipal-saopaulo-17844-2022::109-art-105": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 105",
@@ -52484,7 +52181,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::113-art-106": {
+  "lei-municipal-saopaulo-17844-2022::110-art-106": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 106",
@@ -52506,29 +52203,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::114-art-6o": {
-    "lei_id": "lei-municipal-saopaulo-17844-2022",
-    "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 6º",
-    "tema": [
-      "IPTU"
-    ],
-    "jurisdicao": "São Paulo - SP",
-    "vigencia": {
-      "inicio": "2022-09-14",
-      "fim": null,
-      "revogada_por": null,
-      "altera": [],
-      "alterada_por": []
-    },
-    "vigencia_dispositivo": {
-      "status": "original",
-      "revogado_por": null,
-      "marcadores": []
-    },
-    "citavel": true
-  },
-  "lei-municipal-saopaulo-17844-2022::115-art-107": {
+  "lei-municipal-saopaulo-17844-2022::111-art-107": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 107",
@@ -52550,7 +52225,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::116-art-107-a": {
+  "lei-municipal-saopaulo-17844-2022::112-art-107-a": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 107-A",
@@ -52572,7 +52247,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::117-art-108": {
+  "lei-municipal-saopaulo-17844-2022::113-art-108": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 108",
@@ -52594,7 +52269,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::118-art-109": {
+  "lei-municipal-saopaulo-17844-2022::114-art-109": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 109",
@@ -52616,7 +52291,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::119-art-110": {
+  "lei-municipal-saopaulo-17844-2022::115-art-110": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 110",
@@ -52638,7 +52313,7 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17844-2022::120-art-111": {
+  "lei-municipal-saopaulo-17844-2022::116-art-111": {
     "lei_id": "lei-municipal-saopaulo-17844-2022",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 111",

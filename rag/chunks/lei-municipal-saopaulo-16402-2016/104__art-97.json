@@ -1,0 +1,42 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16402-2016::104-art-97",
+  "lei_id": "lei-municipal-saopaulo-16402-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 97",
+  "numero": "97",
+  "header_raw": "Art. 97. Classificam-se na subcategoria de uso nRa os seguintes grupos de atividades:(Regulamentado",
+  "caminho_hierarquico": [
+    "TÍTULO V",
+    "CAPÍTULO I",
+    "Seção II",
+    "Art. 97"
+  ],
+  "texto": "Art. 97. Classificam-se na subcategoria de uso nRa os seguintes grupos de atividades:(Regulamentado\n\npelo Decreto nº 57.378/2016)\n\nI - nRa-1: atividades de pesquisa e educação ambiental: empreendimentos realizados por períodos de\n\ntempo limitados e em instalações ou territórios específicos, tais como pesquisa científica, educação\n\nambiental, manejo florestal sustentável, entre outros;\n\nII - nRa-2: atividades de manejo sustentável: aquelas realizadas no meio rural ou ligadas às atividades\n\nrurais, tais como agroindústria, atividades agroflorestais, agropecuária, dentre outras;\n\nIII - nRa-3: ecoturismo e lazer: atividades cujo desenvolvimento relaciona-se à conservação de\n\ncondições ambientais específicas, viabilizando, também, o seu aproveitamento econômico e\n\nfavorecendo o bem-estar e a qualidade de vida, tais como ecoturismo, clubes, pousadas, entre outras;\n\nIV - nRa-4: comércio especializado de produtos agropecuários: comércio para o suprimento das\n\natividades rurais;\n\nV - nRa-5: captação de água mineral/potável de mesa: destinada ao consumo, associado ou não ao\n\nenvase;\n\nVI - nRa-6: local de reunião ou de eventos ambientalmente compatível: estabelecimentos destinados à\n\nfeira de exposição ou show de natureza social, esportiva, religiosa, ecoturística, lazer, agropecuária e\n\nque sejam ambientalmente compatíveis com o equilíbrio ecológico, sem limite de lotação.\n\nVII - nRa-7: atividades ligadas à produção agrícola sustentável no meio urbano, utilizando métodos\n\nagrícolas verticais, como hidroponia, aquaponia, e sistemas similares.(Incluído pela Lei nº 18.081/2024)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "lei municipal nº 16402/2016 — São Paulo - SP",
+    "dispositivo": "TÍTULO V › CAPÍTULO I › Seção II › Art. 97",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2016-03-22",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 79 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2016-03-22. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

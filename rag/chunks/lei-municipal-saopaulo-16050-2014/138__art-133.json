@@ -1,0 +1,42 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16050-2014::138-art-133",
+  "lei_id": "lei-municipal-saopaulo-16050-2014",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 133",
+  "numero": "133",
+  "header_raw": "Art. 133. Lei específica poderá redefinir os fatores de incentivo, seus critérios de aplicação, bem como rever os perímetros de",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO III",
+    "Seção II",
+    "Art. 133"
+  ],
+  "texto": "Art. 133. Lei específica poderá redefinir os fatores de incentivo, seus critérios de aplicação, bem como rever os perímetros de\n\naplicação do potencial construtivo passível de transferência estabelecidos nesta lei.\n\n§ 1º Os empreendimentos localizados fora dos EETU poderão beneficiar-se de acréscimo de 10% (dez por cento) na área\n\ncomputável, obtida mediante o pagamento da outorga onerosa, desde que obrigatoriamente através de transferência de direito de\n\nconstruir de imóvel localizado em ZEPEC-BIR e ZEPEC-APC.(Incluído pela Lei nº 17.975/2023)\n\n§ 2º O benefício cedido no § 1º desde artigo não se enquadra no limite estabelecido no § 5º do art. 24 da Lei nº 16.402, de 2016.\n\n(Incluído pela Lei nº 17.975/2023)\n\nSeção III\n\nDos Instrumentos de Ordenamento e Reestruturação Urbana",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "lei municipal nº 16050/2014 — São Paulo - SP",
+    "dispositivo": "TÍTULO II › CAPÍTULO III › Seção II › Art. 133",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2014-07-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 95 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2014-07-31. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

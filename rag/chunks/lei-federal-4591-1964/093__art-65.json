@@ -1,0 +1,44 @@
+{
+  "chunk_id": "lei-federal-4591-1964::093-art-65",
+  "lei_id": "lei-federal-4591-1964",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 65",
+  "numero": "65",
+  "header_raw": "Art. 65. É crime contra a economia popular promover incorporação, fazendo, em proposta, contratos, prospectos ou comunicação ao público ou aos interessados, afirmação falsa sôbre a construção do condomínio, alienação das frações ideais do terreno ou sôbre a construção das edificações.",
+  "caminho_hierarquico": [
+    "Título II",
+    "CAPíTULO IV",
+    "Art. 65"
+  ],
+  "texto": "Art. 65. É crime contra a economia popular promover incorporação, fazendo, em proposta, contratos, prospectos ou comunicação ao público ou aos interessados, afirmação falsa sôbre a construção do condomínio, alienação das frações ideais do terreno ou sôbre a construção das edificações.\n\nPENA - reclusão de um a quatro anos e multa de cinco a cinqüenta vêzes o maior salário-mínimo legal vigente no País.\n\n§ 1º lncorrem na mesma pena:\n\nI - o incorporador, o corretor e o construtor, individuais bem como os diretores ou gerentes de emprêsa coletiva incorporadora, corretora ou construtora que, em proposta, contrato, publicidade, prospecto, relatório, parecer, balanço ou comunicação ao público ou aos condôminos, candidatos ou subscritores de unidades, fizerem afirmação falsa sôbre a constituição do condomínio, alienação das frações ideais ou sôbre a construção das edificações;\n\nII - o incorporador, o corretor e o construtor individuais, bem como os diretores ou gerentes de emprêsa coletiva, incorporadora, corretora ou construtora que usar, ainda que a título de empréstimo, em proveito próprio ou de terceiros, bens ou haveres destinados a incorporação contratada por administração, sem prévia autorização dos interessados.\n\n§ 2º O julgamento dêstes crimes será de competência de Juízo singular, aplicando-se os artigos 5º, 6º e 7º da Lei nº 1.521, de 26 de dezembro de 1951.\n\n§ 3º Em qualquer fase do procedimento criminal objeto dêste artigo, a prisão do indicado dependerá sempre de mandado do Juízo referido no § 2º.                    (Incluído pela Lei nº 4.864, de 29.11.1965)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 4591/1964 — Brasil",
+    "dispositivo": "Título II › CAPíTULO IV › Art. 65",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l4591.htm",
+    "vigencia": {
+      "inicio": "1964-12-16",
+      "fim": null,
+      "revogada_por": "parcialmente — a parte de condomínio convive com o Código Civil/2002 (arts. 1.331 e ss.)",
+      "altera": [],
+      "alterada_por": [
+        "Código Civil/2002 (Lei 10.406/2002)",
+        "Lei 10.931/2004 (patrimônio de afetação)",
+        "Lei 4.864/1965"
+      ]
+    }
+  },
+  "tema": [
+    "IPTU",
+    "condominio_edilicio",
+    "incorporacao_imobiliaria",
+    "unidade_autonoma"
+  ],
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
+}

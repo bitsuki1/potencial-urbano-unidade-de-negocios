@@ -1,0 +1,44 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16050-2014::107-art-102",
+  "lei_id": "lei-municipal-saopaulo-16050-2014",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 102",
+  "numero": "102",
+  "header_raw": "Art. 102. O Poder Público poderá facultar a realização de consórcios imobiliários como forma de viabilização financeira do",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO III",
+    "Seção I",
+    "Art. 102"
+  ],
+  "texto": "Art. 102. O Poder Público poderá facultar a realização de consórcios imobiliários como forma de viabilização financeira do\n\naproveitamento do imóvel, tanto no caso de imóveis que estejam sujeitos ao parcelamento, edificação e utilização compulsória nos\n\ntermos desta Lei, independentemente da notificação a seus proprietários, como no caso de áreas que sejam objeto de\n\nregularização fundiária urbana.(Redação dada pela Lei nº 17.975/2023)\n\n§ 1º A Prefeitura poderá promover o aproveitamento do imóvel que receber nos termos deste artigo, diretamente ou por outra\n\nmodalidade admitida em lei.\n\n§ 2º O proprietário que transferir seu imóvel à Prefeitura para a realização de consórcio imobiliário receberá, como pagamento,\n\nunidades imobiliárias devidamente urbanizadas ou edificadas.(Redação dada pela Lei nº 17.975/2023)\n\n§ 3º O valor das unidades imobiliárias a serem entregues ao proprietário será correspondente ao valor do imóvel antes da\n\nexecução das obras.(Redação dada pela Lei nº 17.975/2023)\n\nI – refletir o valor de referência para pagamento de outorga onerosa, descontado o montante incorporado em função das obras\n\nrealizadas na área onde se localiza o imóvel transferido para a realização do consórcio imobiliário;\n\nII – excluir do seu cálculo expectativas de ganhos, lucros cessantes e juros compensatórios, bem como eventuais custos para a\n\nrecuperação da área em razão da existência de passivos ambientais.\n\n§ 4º A Prefeitura deverá proceder ao aproveitamento adequado das unidades imobiliárias que lhe cabem, resultantes do consórcio\n\nimobiliário, no prazo máximo de 5 (cinco) anos, contados a partir da sua incorporação ao patrimônio público.\n\n§ 5º A proposta de consórcio imobiliário não suspende os prazos estipulados no art. 96, devendo o Poder Executivo expedir\n\nregulamento sobre outros procedimentos acerca da aceitação das propostas e viabilização dos ajustes.\n\n§ 6º O Poder Executivo poderá adotar programas que objetivem a aproximação entre proprietários notificados para o parcelamento,\n\nedificação e utilização compulsórios e agentes econômicos interessados em empreendimentos imobiliários ou da construção civil,\n\nrespeitados os princípios que regem a administração pública.\n\nSubseção VII\n\nDo Direito de Preempção",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ]
+  },
+  "citacao": {
+    "norma": "lei municipal nº 16050/2014 — São Paulo - SP",
+    "dispositivo": "TÍTULO II › CAPÍTULO III › Seção I › Art. 102",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2014-07-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 95 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2014-07-31. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

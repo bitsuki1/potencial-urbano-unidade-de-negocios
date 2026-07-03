@@ -1,0 +1,42 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16050-2014::162-art-154",
+  "lei_id": "lei-municipal-saopaulo-16050-2014",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 154",
+  "numero": "154",
+  "header_raw": "Art. 154. O Termo de Compromisso Ambiental (TCA) é instrumento a ser firmado entre o órgão municipal integrante do SISNAMA e",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO III",
+    "Seção IV",
+    "Art. 154"
+  ],
+  "texto": "Art. 154. O Termo de Compromisso Ambiental (TCA) é instrumento a ser firmado entre o órgão municipal integrante do SISNAMA e\n\npessoas físicas ou jurídicas, referente a contrapartidas, obrigações e compensações nos casos de:\n\nI – autorização prévia para supressão de espécies arbóreas;\n\nII – intervenções em área de preservação permanente, com ou sem manejo arbóreo;\n\nIII – licenciamento ambiental de empreendimentos com significativa emissão de gases de efeito estufa;\n\nIV – transferência do potencial construtivo sem previsão de doação de área, aplicada a imóveis grafados como ZEPAM localizados\n\nna Macrozona de Estruturação Urbana.\n\n§ 1º No caso previsto no inciso I, deverão ser estabelecidos critérios específicos para áreas enquadradas como ZEPAM.\n\n§ 2º No caso previsto no inciso III, a compensação das emissões deverá ser condicionada à apresentação de um plano de\n\nmitigação de emissões, devendo ser estabelecido, por Ato do Executivo, os critérios para esta compensação.\n\n§ 3º As obrigações, contrapartidas e compensações de empreendimentos situados no interior de unidades de conservação de uso\n\nsustentável ou na zona de amortecimento de unidades de conservação de proteção integral, as medidas mitigadoras e\n\ncompensatórias deverão atender ao disposto nos seus planos de manejo, priorizando a viabilização de ações e projetos previstos\n\nno mesmo, e sujeitas à aprovação dos respectivos Conselhos Gestores.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "lei municipal nº 16050/2014 — São Paulo - SP",
+    "dispositivo": "TÍTULO II › CAPÍTULO III › Seção IV › Art. 154",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2014-07-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 95 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2014-07-31. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

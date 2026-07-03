@@ -1,0 +1,42 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16050-2014::141-art-135",
+  "lei_id": "lei-municipal-saopaulo-16050-2014",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 135",
+  "numero": "135",
+  "header_raw": "Art. 135. Para promover os objetivos estabelecidos no art. 134 fica a Prefeitura autorizada a constituir ou delegar instituição de",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO III",
+    "Seção III",
+    "Art. 135"
+  ],
+  "texto": "Art. 135. Para promover os objetivos estabelecidos no art. 134 fica a Prefeitura autorizada a constituir ou delegar instituição de\n\nfundo de investimento imobiliário, instituído nos termos da Lei Federal nº 8.668, de 25 de junho de 1993, ou legislação que venha a\n\nsucedê-la, com as seguintes finalidades:\n\nhttps://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 64/166\n\n27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal\n\nI – instalar a infraestrutura necessária à implantação dos planos urbanísticos e projetos de intervenção urbana;\n\nII – viabilizar eventuais desapropriações;\n\nIII – viabilizar a utilização do Reordenamento Urbanístico Integrado;\n\nIV – realizar incorporações imobiliárias;\n\nV – implantar projetos de Habitação de Interesse Social e equipamentos sociais.\n\nSubseção I\n\nDos Projetos de Intervenção Urbana",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "lei municipal nº 16050/2014 — São Paulo - SP",
+    "dispositivo": "TÍTULO II › CAPÍTULO III › Seção III › Art. 135",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2014-07-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 95 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2014-07-31. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

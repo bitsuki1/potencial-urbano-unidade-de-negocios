@@ -1,0 +1,42 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16050-2014::061-art-60",
+  "lei_id": "lei-municipal-saopaulo-16050-2014",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 60",
+  "numero": "60",
+  "header_raw": "Art. 60. Nas zonas em que são permitidos empreendimentos habitacionais EZEIS, EHIS, EHMP, HIS e HMP deverá ser observado:",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO II",
+    "Seção IV",
+    "Art. 60"
+  ],
+  "texto": "Art. 60. Nas zonas em que são permitidos empreendimentos habitacionais EZEIS, EHIS, EHMP, HIS e HMP deverá ser observado:\n\nI – o coeficiente de aproveitamento máximo:\n\na) em ZEIS, conforme definido no Quadro 3 anexo à presente lei;\n\nhttps://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 31/166\n\n27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal\n\nb) nas demais zonas de uso, conforme os máximos definidos nos Quadros 2 e 2A desta lei ou nas leis de operação urbana\n\nconsorciada;\n\nc) nos lotes localizados nas MEM, MUC e MQU poderão ter acréscimo de até 50% (cinquenta por cento) ao C.A. max permitido\n\nconforme Quadros 2 e 2A desde que o acréscimo seja destinado exclusivamente ao uso HIS;(Incluído pela Lei nº 17.975/2023)\n\nd) nos lotes localizados nas MEM, MUC e MQU poderão ter acréscimo de até 25% (vinte e cinco por cento) ao C.A. max permitido\n\nconforme Quadros 2 e 2A desde que o acréscimo seja destinado exclusivamente ao uso HMP e mediante pagamento de outorga\n\nonerosa;(Incluído pela Lei nº 17.975/2023)\n\ne) será considerado não computável, até o limite de 50% (cinquenta por cento) da área construída computável máxima permitida, a\n\nárea destinada a HIS 1.(Incluído pela Lei nº 17.975/2023)\n\nII – o gabarito máximo definido nos Quadros 2 e 2A desta lei ou das leis de operação urbana consorciada, excetuadas todas as\n\ncategorias de ZEIS;\n\nIII – as demais normas, índices e parâmetros de parcelamento, uso e ocupação do solo estabelecidos em decreto específico para\n\nEZEIS, EHIS, EHMP, HIS e HMP.\n\n§ 1º No caso de demolição ou reforma de edificação existente, para a construção de EHIS, EHMP ou EZEIS é permitida a\n\nutilização da taxa de ocupação e do coeficiente de aproveitamento do edifício demolido ou reformado, mesmo que maiores do que\n\nos referidos no “caput” deste artigo.\n\n§ 2º Nas áreas de proteção de mananciais, definidas por lei estadual, o licenciamento de EHIS, EHMP, HIS, HMP e EZEIS deve\n\nobedecer à legislação estadual aplicável.\n\n§ 3º Em ZEPEC, ZEPAM e unidades de conservação ambiental, o licenciamento de EHIS, EHMP, HIS e HMP deve atender parecer\n\ndos órgãos técnicos competentes, no que se refere às questões ambientais e culturais.\n\n§ 4º Nos EHIS e nos EHMP serão consideradas não computáveis as áreas destinadas a usos não residenciais abertos ao público\n\nou de uso institucional, quando localizadas no pavimento ao nível do passeio público, até o limite de 20% (vinte por cento) da área\n\ncomputável destinada a usos residenciais classificados como HIS e HMP.\n\n§ 5º O disposto nas alíneas “c” e “d” deste artigo se aplicam a todos os empreendimentos, exceto os EHIS e EHMP, o disposto na\n\nalínea “e” se aplica a qualquer empreendimento, a serem executados dentro das macroáreas citadas e poderão ser cumulativos.\n\n(Incluído pela Lei nº 17.975/2023)\n\nSeção V\n\nDa Zona Especial de Preservação Cultural (ZEPEC)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "lei municipal nº 16050/2014 — São Paulo - SP",
+    "dispositivo": "TÍTULO II › CAPÍTULO II › Seção IV › Art. 60",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2014-07-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 95 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2014-07-31. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

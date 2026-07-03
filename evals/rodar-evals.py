@@ -14,6 +14,7 @@ Uso:  python3 evals/rodar-evals.py            # roda tudo; exit !=0 se algum ATI
 Trazido pela instância orquestradora do Potencial Urbano — 2026-06-20.
 """
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -22,6 +23,16 @@ sys.path.insert(0, str(RAIZ / "scripts"))
 import consultar as C  # noqa: E402
 
 GT_DIR = RAIZ / "evals" / "ground-truth"
+
+
+def _norm_disp(s: str) -> str:
+    """Normaliza um rótulo de dispositivo para comparação EXATA de artigo (C-28/T1).
+    'Art. 125', 'art 125', 'Art. 1º', 'Art. 156-A' -> '125' / '1' / '156-a'.
+    Endurece o antigo teste por SUBSTRING (linha 43): 'Art. 12' É substring de 'Art. 125'
+    e passava falso-verde; agora exige o MESMO número de artigo (o -A/-B conta, 1.7)."""
+    s = (s or "").strip().lower()
+    m = re.search(r"art\.?\s*(\d+(?:\s*-\s*[a-z])?)", s)
+    return re.sub(r"\s+", "", m.group(1)) if m else re.sub(r"\s+", " ", s)
 
 
 def checar_item(item):
@@ -40,8 +51,9 @@ def checar_item(item):
     falhas = []
     if esp.get("lei_id") and topo["chunk_id"].split("::")[0] != esp["lei_id"]:
         falhas.append(f"lei_id topo={topo['chunk_id'].split('::')[0]} != {esp['lei_id']}")
-    if esp.get("dispositivo_topo") and esp["dispositivo_topo"].lower() not in (topo.get("rotulo") or "").lower():
-        falhas.append(f"dispositivo topo={topo.get('rotulo')!r} != {esp['dispositivo_topo']!r}")
+    if esp.get("dispositivo_topo") and _norm_disp(esp["dispositivo_topo"]) != _norm_disp(topo.get("rotulo")):
+        falhas.append(f"dispositivo topo={topo.get('rotulo')!r} != {esp['dispositivo_topo']!r} "
+                      f"(normalizado {_norm_disp(topo.get('rotulo'))!r} != {_norm_disp(esp['dispositivo_topo'])!r})")
     # B-11c: o topo NÃO pode ser um dispositivo REVOGADO (não se devolve redação revogada como vigente).
     if esp.get("dispositivo_topo_nao") and esp["dispositivo_topo_nao"].lower() in (topo.get("rotulo") or "").lower():
         falhas.append(f"topo é {topo.get('rotulo')!r} — dispositivo REVOGADO não pode encabeçar (B-11c)")

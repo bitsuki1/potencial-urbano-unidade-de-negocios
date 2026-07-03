@@ -1,0 +1,36 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17844-2022::110-art-106",
+  "lei_id": "lei-municipal-saopaulo-17844-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 106",
+  "numero": "106",
+  "header_raw": "Art. 106. O art. 16 da Lei nº 17.577, de 20 de julho de 2021, passa a vigorar com a seguinte redação e",
+  "caminho_hierarquico": [
+    "CAPÍTULO VIII",
+    "Art. 106"
+  ],
+  "texto": "Art. 106. O art. 16 da Lei nº 17.577, de 20 de julho de 2021, passa a vigorar com a seguinte redação e\n\nacrescido dos seguintes parágrafos:\n\n“Art. 16. Aplicam-se os seguintes incentivos fiscais à requalificação de edificações localizadas na Área\n\nCentral licenciadas nos termos desta Lei, independentemente da categoria de uso do imóvel após a\n\nrequalificação, e mesmo nas hipóteses de mudança de uso, excetuados os usos elencados no § 1º do\n\nart. 6º desta Lei:\n\n................................................................................................\n\n§ 7º Observados os critérios e limites previstos nos incisos I, II, IV e V do caput deste artigo, os\n\nincentivos fiscais neles elencados não se aplicarão a fatos gerados ocorridos após 31 de dezembro de\n\n2030\\.\n\n§ 8º Para os imóveis compreendidos no perímetro indicado no § 3º, o prazo de que trata o § 7º será até\n\n31 de dezembro de 2037, para os incentivos elencados nos incisos I, II, IV e V do caput deste artigo.\n\n§ 9º Para a fruição do incentivo de que trata o inciso III do caput do presente artigo, o sujeito passivo\n\ndeverá ter usufruído, ainda que parcialmente, da isenção prevista no inciso II do caput deste artigo.”\n\n(NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "lei municipal nº 17844/2022 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO VIII › Art. 106",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2022-09-14",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": []
+    }
+  },
+  "tema": [
+    "IPTU"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

@@ -56,6 +56,35 @@ RE_REVOGADO_FONTE = re.compile(r"Revogad[oa]s?\s+(?:pel[oa]s?\s+)?"
 RE_REDACAO_DADA = re.compile(r"Reda[çc][ãa]o dada", re.IGNORECASE)
 RE_ROTULO_PREFIXO = re.compile(r"^\s*Art\.?\s*\d+(?:-[A-Z])?\s*[ºoO°.\-–]?\s*")
 
+# C-28 / T1 — REMISSÃO line-initial NÃO é cabeçalho de artigo. Uma linha pode ABRIR com "art. N ..."
+# sendo uma REMISSÃO a outro dispositivo DENTRO do corpo do artigo corrente (a frase quebrou de linha),
+# não a abertura do Art. N. Defeito real: a fórmula central `PCpt = Atc × CAbas × Fi` mora numa linha
+# "art. 124 desta lei, o potencial construtivo..." que é o CORPO do Art. 125 (a frase "...previstos nos
+# incisos do\nart. 124 desta lei..." quebrou) — o chunker abria um chunk falso "Art. 124", citando o
+# dispositivo ERRADO na consulta mais importante (viola 1.7). Idem "art. 126 desta lei" (corpo do Art. 127).
+# DISCRIMINADOR (proibido usar monotonicidade de número — falso-positivo em lei alteradora tipo EC-132
+# Art. 2º após Art. 156-B; falso-negativo em remissão para número maior): um cabeçalho REAL, após "Art. N"
+# (+ ordinal/sep), inicia a norma com MAIÚSCULA/dígito OU é a linha inteira; uma REMISSÃO tem, logo após o
+# número, um conectivo de remissão ("desta/da Lei", "e seguintes", "c/c", "§") OU vírgula OU continuação
+# em minúscula (corpo de artigo em redação BR sempre começa maiúsculo após "Art. N.").
+RE_CONECTIVO_REMISSAO = re.compile(
+    r"^(?:,|;|desta\b|deste\b|dessa\b|desse\b|da\s+lei\b|das\s+leis\b|do\s+decreto\b|dos\s+decretos\b|"
+    r"e\s+seguintes\b|e\s+ss\.?|c/c\b|§|inc\b|incisos?\b|al[ií]neas?\b)",
+    re.IGNORECASE)
+
+
+def eh_remissao_line_initial(ln: str, ma: "re.Match") -> bool:
+    """True se a linha, embora comece com 'Art. N', é uma REMISSÃO (corpo do artigo corrente),
+    não a abertura de um novo artigo. `ma` é o match de RE_ARTIGO já calculado (evita recomputar)."""
+    resto = ln[ma.end():].lstrip()
+    if not resto:
+        return False                      # "Art. N" sozinho: cabeçalho legítimo (corpo vem nas próximas linhas)
+    if RE_CONECTIVO_REMISSAO.match(resto):
+        return True                        # conectivo de remissão logo após o número
+    if resto[:1].islower():
+        return True                        # continuação em minúscula: corpo de artigo real inicia MAIÚSCULO
+    return False
+
 
 def vigencia_dispositivo(texto: str) -> dict:
     """Classifica a vigência de UM dispositivo pelo seu próprio texto verbatim (B-11c, 1.6):
@@ -118,6 +147,9 @@ def fatiar_corpo(corpo: str):
         # (ex.: 7.228 transcreve o "Art. 77" da 6.989) — NÃO é dispositivo desta norma; não abre chunk.
         if ma and ln.lstrip()[:1] in ('"', '“', '«'):
             ma = None
+        # GUARDA (C-28/T1): "art. N ..." que é REMISSÃO line-initial (corpo do artigo corrente) não abre chunk.
+        if ma and eh_remissao_line_initial(ln, ma):
+            ma = None
         if mt:
             titulo, capitulo, secao = ln.strip(), None, None
         elif mc:
@@ -131,7 +163,9 @@ def fatiar_corpo(corpo: str):
             # convenção legislativa BR: ordinal ("Art. 1º".."Art. 9º"), cardinal a partir de 10
             rot = f"Art. {n}º" if n.isdigit() and int(n) <= 9 else f"Art. {n}"
             caminho = [x for x in (titulo, capitulo, secao) if x] + [rot]
-            atual = {"tipo": "artigo", "rotulo": rot, "numero": n,
+            # C-28/T1: header_raw = a linha CRUA que abriu o artigo (prova de proveniência do rótulo).
+            # O eval compara rótulo ↔ header_raw e reprova divergência (fim do falso-verde do substring).
+            atual = {"tipo": "artigo", "rotulo": rot, "numero": n, "header_raw": ln.strip(),
                      "caminho": caminho, "linhas": [ln]}
             continue
         atual["linhas"].append(ln)
@@ -194,6 +228,8 @@ def fatiar_lei(md_path: Path, reportar):
             "tipo_dispositivo": d["tipo"],
             "rotulo": d["rotulo"],
             "numero": d["numero"],
+            # C-28/T1: proveniência do rótulo (linha crua que o gerou); ausente em preâmbulo/documento.
+            "header_raw": d.get("header_raw"),
             "caminho_hierarquico": d["caminho"],
             "texto": d["texto"],
             # B-11d: preâmbulo = boilerplate do portal (órgão, título, data de captura, ementa, fórmula

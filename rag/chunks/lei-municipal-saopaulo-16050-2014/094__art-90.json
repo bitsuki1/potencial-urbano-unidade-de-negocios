@@ -1,0 +1,44 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16050-2014::094-art-90",
+  "lei_id": "lei-municipal-saopaulo-16050-2014",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 90",
+  "numero": "90",
+  "header_raw": "Art. 90. O Poder Executivo poderá exigir do proprietário do solo urbano não edificado, subutilizado, ou não utilizado, que promova",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO III",
+    "Seção I",
+    "Art. 90"
+  ],
+  "texto": "Art. 90. O Poder Executivo poderá exigir do proprietário do solo urbano não edificado, subutilizado, ou não utilizado, que promova\n\nseu adequado aproveitamento, sob pena de, nos termos estabelecidos nesta Lei:(Redação dada pela Lei nº 17.975/2023)\n\nI - Parcelamento, Edificação ou Utilização Compulsórios – PEUC;(Redação dada pela Lei nº 17.975/2023)\n\nII - Imposto Predial e Territorial Urbano – IPTU Progressivo no Tempo;(Redação dada pela Lei nº 17.975/2023)\n\nIII - desapropriação com pagamento mediante títulos da dívida pública;(Redação dada pela Lei nº 17.975/2023)\n\nIV - desapropriação por hasta pública.(Incluído pela Lei nº 17.975/2023)\n\n§ 1º A aplicação dos instrumentos referidos no caput deste artigo dependerá da avaliação dos imóveis passíveis de notificação para\n\nPEUC ou daqueles já notificados, objetivando orientar a definição da ferramenta cabível, de acordo com os respectivos casos\n\nconcretos e com vistas ao atendimento do interesse público.(Redação dada pela Lei nº 17.975/2023)\n\n§ 2º A partir da avaliação dos casos concretos, além dos instrumentos citados no caput deste artigo, também poderão ser\n\nutilizados, com a finalidade de promover o cumprimento da função social da propriedade:(Incluído pela Lei nº 17.975/2023)\n\nI - a promoção de chamamentos públicos para a realização de consórcio imobiliário com a finalidade de implantação de unidades\n\nde habitação de interesse social;(Incluído pela Lei nº 17.975/2023)\n\nII - a promoção de desapropriação amigável, inclusive no caso em que o valor da dívida relativa ao IPTU supere o valor do imóvel,\n\nnos termos do § 5º do art. 99 desta Lei;(Incluído pela Lei nº 17.975/2023)\n\nIII - a utilização do procedimento de regularização fundiária urbana, na forma da normatização aplicável.(Incluído pela Lei nº\n\n17.975/2023)\n\nSubseção I\n\nDo Âmbito de Aplicação",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ]
+  },
+  "citacao": {
+    "norma": "lei municipal nº 16050/2014 — São Paulo - SP",
+    "dispositivo": "TÍTULO II › CAPÍTULO III › Seção I › Art. 90",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2014-07-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 95 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2014-07-31. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

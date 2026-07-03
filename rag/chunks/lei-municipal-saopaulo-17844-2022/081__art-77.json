@@ -1,0 +1,36 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17844-2022::081-art-77",
+  "lei_id": "lei-municipal-saopaulo-17844-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 77",
+  "numero": "77",
+  "header_raw": "Art. 77. Para fins da concessão dos bônus equivalentes, serão disponibilizados 540.000 m² (quinhentos",
+  "caminho_hierarquico": [
+    "CAPÍTULO VI",
+    "Art. 77"
+  ],
+  "texto": "Art. 77. Para fins da concessão dos bônus equivalentes, serão disponibilizados 540.000 m² (quinhentos\n\ne quarenta mil metros quadrados) de potencial construtivo adicional para a AIU-SCE, a serem utilizados\n\nexclusivamente para as finalidades previstas nos arts. 61 e seguintes desta Lei.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "lei municipal nº 17844/2022 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO VI › Art. 77",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2022-09-14",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": []
+    }
+  },
+  "tema": [
+    "IPTU"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

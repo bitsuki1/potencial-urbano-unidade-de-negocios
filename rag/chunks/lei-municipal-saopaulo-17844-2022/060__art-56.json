@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17844-2022::060-art-56",
+  "lei_id": "lei-municipal-saopaulo-17844-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 56",
+  "numero": "56",
+  "header_raw": "Art. 56. Aplica-se à AIU-SCE a transferência do direito de construir, regida pelos arts. 122 a 133 da Lei",
+  "caminho_hierarquico": [
+    "CAPÍTULO IV",
+    "Seção IV",
+    "Art. 56"
+  ],
+  "texto": "Art. 56. Aplica-se à AIU-SCE a transferência do direito de construir, regida pelos arts. 122 a 133 da Lei\n\nnº 16.050, de 2014, e pelos arts. 24 a 26 da Lei nº 16.402, de 2016.\n\nhttps://legislacao.prefeitura.sp.gov.br/leis/lei-17844-de-14-de-setembro-de-2022 30/53\n\n03/03/2026, 19:25 LEI Nº 17.844 DE 14 DE SETEMBRO DE 2022 « Catálogo de Legislação Municipal",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "lei municipal nº 17844/2022 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO IV › Seção IV › Art. 56",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2022-09-14",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": []
+    }
+  },
+  "tema": [
+    "IPTU"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17844-2022::076-art-72",
+  "lei_id": "lei-municipal-saopaulo-17844-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 72",
+  "numero": "72",
+  "header_raw": "Art. 72. O plano de reassentamento deverá prever, no mínimo:",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Seção II",
+    "Art. 72"
+  ],
+  "texto": "Art. 72. O plano de reassentamento deverá prever, no mínimo:\n\nI - a caracterização da população impactada;\n\nII - as soluções de reassentamento aplicáveis;\n\nIII - as soluções de atendimento provisório, quando couber;\n\nIV - os mecanismos de trabalho social com a população;\n\nV - o cronograma e o orçamento de implantação das ações até o reassentamento definitivo.\n\n§ 1º As soluções de reassentamento deverão assegurar soluções habitacionais definitivas no perímetro\n\nda AIU-SCE.\n\n§ 2º As famílias impactadas residentes nos perímetros expandidos da AIU-SCE receberão atendimento\n\nhabitacional definitivo no âmbito do respectivo perímetro expandido ou no perímetro da AIU-SCE.\n\nSubseção III\n\nDos Planos Urbanísticos de Vizinhança para as ZEIS do PIU-SC",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "lei municipal nº 17844/2022 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO V › Seção II › Art. 72",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2022-09-14",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": []
+    }
+  },
+  "tema": [
+    "IPTU"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

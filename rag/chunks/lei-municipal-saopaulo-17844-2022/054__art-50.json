@@ -1,0 +1,37 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17844-2022::054-art-50",
+  "lei_id": "lei-municipal-saopaulo-17844-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 50",
+  "numero": "50",
+  "header_raw": "Art. 50. Fica autorizado ao Poder Público promover chamamentos públicos para fins de",
+  "caminho_hierarquico": [
+    "CAPÍTULO IV",
+    "Seção II",
+    "Art. 50"
+  ],
+  "texto": "Art. 50. Fica autorizado ao Poder Público promover chamamentos públicos para fins de\n\noperacionalização de consórcios imobiliários, devendo facilitar a aproximação entre proprietários de\n\nimóveis notificados para PEUC e agentes econômicos interessados em empreendimentos imobiliários.\n\nParágrafo único. Os editais deverão indicar, no mínimo, a destinação futura dos imóveis, os critérios de\n\nelegibilidade destes e a possibilidade de participação de agente econômico privado, quando for o caso.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "lei municipal nº 17844/2022 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO IV › Seção II › Art. 50",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2022-09-14",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": []
+    }
+  },
+  "tema": [
+    "IPTU"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}
