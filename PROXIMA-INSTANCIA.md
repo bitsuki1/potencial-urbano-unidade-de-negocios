@@ -1,5 +1,16 @@
 # PRÓXIMA INSTÂNCIA — o que fazer (Potencial Urbano)
 
+> **★★ HANDOFF 2026-07-03 (Motores 1/2/3 + Escrutínio conjunto + Fase 0 EXECUTADA).** Dossiê completo,
+> zero-compressão: **`docs/HANDOFF-2026-07-03-MOTORES-FASE0.md`** — LEIA-O PRIMEIRO. Entregou: `ROADMAP-PU.md`
+> + `MOTOR-1/2/3-ESTRATEGIA.md` (cada motor por loop de lentes adversariais; nenhum atingiu triplo limpo —
+> resíduo declarado no header) + `docs/ESCRUTINIO-CONJUNTO-MOTORES.md` (48 achados, 5 doenças sistêmicas +
+> crítica adversarial) + `docs/INVENTARIO-DRIVE.md`. **Fase 0 FEITA e provada ao vivo no Supabase**
+> (`csnalylpvysjvejgsymr`): canonicidade git==banco (7 migrations canônicas + fantasmas receptor arquivados),
+> `governanca.de_para` populado (20 fontes, S4), T7 segurança fechado (spend cap + S3 revogadas + RLS deny-all;
+> D-SEG-01). **PRÓXIMO LOCAL:** C-28 (T1) → gate de CI (T2/S2) → cadeia de vedação Art.124§2 (T8, âncora
+> `montar_base.py` — ver correção adversarial) → conservação 3-estados (T4) → overlay por área (G1). **DONO:**
+> 2 verbatim faltam no Drive/repo — Decreto 57.536/16 e Quadro 2A (bloqueiam G2/G4). Escopo: SÓ vendedor/só-tombado.
+>
 > **★ HANDOFF 2026-07-01 (PU 15 — lente loop de IA · estratégia + ondas locais).** Entregou: (1)
 > **`ESTRATEGIA-DE-ENTREGAS-PU.md`** — mapa do processo + roadmap + ondas + separação Classe LOCAL (loop
 > destrava sozinho) × Classe EXTERNA (pedido ao MOU). (2) **Executou a Classe LOCAL, tudo provado pelo gate:**
