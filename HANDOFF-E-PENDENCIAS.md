@@ -1,5 +1,12 @@
 # HANDOFF & PENDÊNCIAS — Projeto RAG IPTU + TDC (Potencial Urbano)
 
+> **⚠️ SUPERADO EM PARTE (2026-07-03).** Este documento descreve o ESCOPO ANTIGO (RAG IPTU+TDC de 3 camadas,
+> incl. "quem é o dono"/comprador e "base de proprietários", esteira E1-E5). **O escopo vigente é outro:**
+> **só lado VENDEDOR (cedente), só já-tombado** (D-ESCOPO-01) — sem comprador/matching/proprietário no núcleo.
+> **Para o estado atual e o que fazer, leia primeiro:** `PROXIMA-INSTANCIA.md` (topo ★★★) →
+> `docs/AUDITORIA-PROFUNDA-E-ENCERRAMENTO-2026-07-03.md` → `docs/HANDOFF-2026-07-03-MOTORES-FASE0.md`.
+> Este arquivo fica como histórico (nada se descarta), NÃO como mapa de execução.
+
 > **Ponto de entrada para uma instância NOVA aberta no repo do projeto.** Estado vive no git, não na
 > conversa. Trabalho conduzido pelo Escritório do MOU (PMO) até 2026-06-18; daqui segue a instância do projeto.
 > Formato dos artefatos segue convenção do escritório: cada item de corpus tem par `<id>.md` + `<id>.json`
