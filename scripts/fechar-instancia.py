@@ -9,6 +9,8 @@ Definition of Done MECÂNICA do encerramento: princípio reincidentemente violad
 Checagens (todas determinísticas, sem rede):
   1. EVALS    — evals/rodar-evals.py sai 0 (nenhum ground-truth ATIVO quebrado; citação correta).
   2. ENGINE   — engines/tdc/oodc.py sai 0 (as fórmulas conferem; número nasce no engine, 1.3).
+  2b.ENGINE CEDENTE — engines/tdc/pcpt.py --demo sai 0 (Fi escalonado Art.24 LPUOS; T2).
+  2c.PRODUTO  — evals/eval-produto.py sai 0 (golden Fi legal sobre 7 cedentes reais; sabotar 1 Fi FALHA; T2).
   3. CORPUS   — nenhum stray tag de tool-call (</invoke> etc.) contaminando o verbatim/índice.
   4. MANIFESTO— regenerar é idempotente: rodar consolidar.py NÃO muda MANIFESTO.json (estava atualizado).
   5. BACKLOG  — BACKLOG.md (HEADER) carrega "Atualizado: <hoje>" (senão a próxima sessão vê backlog velho como novo).
@@ -45,6 +47,18 @@ def check_evals():
 def check_engine():
     rc, _ = _run(["engines/tdc/oodc.py"])
     return rc == 0, "engine OODC/TDC auto-teste OK" if rc == 0 else f"engine quebrou (exit {rc})"
+
+
+def check_engine_cedente():
+    # T2/S2: o engine de CEDENTE (pcpt.py, Fi Art. 24 LPUOS) também é gate — antes só o oodc rodava.
+    rc, _ = _run(["engines/tdc/pcpt.py", "--demo"])
+    return rc == 0, "engine cedente PCpt (Fi escalonado) auto-teste OK" if rc == 0 else f"pcpt quebrou (exit {rc})"
+
+
+def check_produto():
+    # T2/S2: golden-assert do Fi legal sobre 7 cedentes reais; sabotar 1 Fi (engine ou CSV) FALHA aqui.
+    rc, _ = _run(["evals/eval-produto.py"])
+    return rc == 0, "produto: 7 cedentes reais c/ Fi legal (Art.24) OK" if rc == 0 else f"produto divergiu do Fi legal (exit {rc})"
 
 
 def check_stray_tags():
@@ -113,6 +127,8 @@ def main():
     hard = [
         ("EVALS (citação correta, 1.7)", check_evals),
         ("ENGINE (número no engine, 1.3)", check_engine),
+        ("ENGINE CEDENTE (Fi Art.24, T2)", check_engine_cedente),
+        ("PRODUTO (golden Fi cedentes reais, T2)", check_produto),
         ("CORPUS (sem stray tags)", check_stray_tags),
         ("MANIFESTO (idempotente, SSOT)", check_manifesto_idempotente),
         ("BACKLOG (fresco, D83)", check_backlog_fresh),

@@ -16,7 +16,23 @@ on:
       - "scripts/**"
       - "evals/**"
       - "rag/**"
+      # T2/S2 (2026-07-03): o gate PRECISA cobrir o PRODUTO, não só o corpus RAG. Sem estes paths,
+      # sabotar um Fi em engines/ ou o pipeline em zepec/ passava verde (o CI nem disparava).
+      - "engines/**"
+      - "zepec/**"
+      - "tabelas/**"
+      - "supabase/**"
       - ".github/workflows/consolidar.yml"
+  # T2/S2: rodar o gate também em PULL REQUEST (não só push) — o produto é revisado antes do merge.
+  pull_request:
+    paths:
+      - "leis/**"
+      - "scripts/**"
+      - "evals/**"
+      - "engines/**"
+      - "zepec/**"
+      - "tabelas/**"
+      - "supabase/**"
   workflow_dispatch:
 
 permissions:
@@ -50,8 +66,19 @@ jobs:
       - name: Engine OODC/TDC (auto-teste das fórmulas)
         run: python3 engines/tdc/oodc.py
 
-      # Só DEPOIS dos gates verdes: commita os artefatos derivados.
+      # T2/S2 — GATE do engine de CEDENTE (Fi Art. 24 LPUOS): auto-teste do pcpt.py.
+      - name: Engine cedente PCpt (auto-teste do Fi escalonado)
+        run: python3 engines/tdc/pcpt.py --demo
+
+      # T2/S2 — GATE do PRODUTO: golden-assert sobre 7 cedentes reais (um por faixa Art. 24).
+      # Sabotar um Fi no engine OU um Fi drifted no CSV entregue FALHA aqui (prova em docs/commit T2).
+      - name: Produto (golden-assert do Fi sobre cedentes reais)
+        run: python3 evals/eval-produto.py
+
+      # Só DEPOIS dos gates verdes: commita os artefatos derivados. NÃO em pull_request
+      # (PR não deve commitar/pushar; roda só os gates acima como check de merge).
       - name: Commitar artefatos derivados se mudaram (após gates verdes)
+        if: github.event_name != 'pull_request'
         run: |
           if ! git diff --quiet MANIFESTO.json rag/ leis/ ; then
             git config user.name  "github-actions[bot]"
