@@ -1,3 +1,5 @@
+> **⚠️ SUPERADO (2026-06-20) por `drive-arrumacao/SANEAMENTO-DUPLICATAS-DRIVE-2026-06-20.md`.** Documento histórico (2026-06-18); não usar como plano vivo. IDs canônicos do Drive foram reconciliados depois (B-8/AUD-02). _(banner lavrado pela PU 17, 2026-07-03 — DoD do B-8.)_
+
 PLANO DE SANEAMENTO E DECISÕES — IPTU + TDC (Anexo de Execução)
 
 Escritório do MOU — Projeto Potencial Urbano | Data: 2026-06-18

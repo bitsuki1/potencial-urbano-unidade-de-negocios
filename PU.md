@@ -8,12 +8,14 @@
 
 ---
 
-> **★ SUPERADO EM PARTE (2026-06-27).** Este laudo é de 2026-06-20. Mudou desde então: as contagens abaixo
-> ("13 indexado", "1.246 chunks") estão **stale** — hoje são **17 leis / 1.571 chunks** (B-15 indexou as 4 IPTU;
-> número vivo = `MANIFESTO.json`). O "**PRODUTO a ~0% / `tabelas/` vazio**" continua verdade NO MAIN, mas: (a) TDC
-> foi **destravado no main** (consulta cita LPUOS 16.402 Art. 24); (b) o produto pleno (tabelas reais + E5) está
-> **pronto e preso** na branch `project-audit-roadmap-2thi1g` (B-17, cross-repo). Estado canônico atual:
-> `docs/AUDITORIA-PROFUNDA-2026-06-27.md` + `MANIFESTO.json` + `BACKLOG.md`.
+> **★ SUPERADO EM PARTE — banner atualizado 2026-07-03 (PU 17).** Este laudo é de 2026-06-20; TODAS as
+> contagens do corpo abaixo são snapshot daquela data. **Números vivos (MANIFESTO.json):** **19 leis indexadas ·
+> 63 itens · 31 leis · 32 juris** (não mais "13 indexado / 59 itens / 1.246 chunks"). **Produto:** NÃO está mais
+> "a ~0% nem preso em branch" — foi **consolidado no `main`** (união `kp9bgr`→main, D141): `engines/tdc/`,
+> `zepec/**`, `tabelas/q14`+`quadro3`+`quadro5`+`quadro7` versionados. **PORÉM (encerramento honesto 07-03):** os
+> defeitos dos motores seguem VIVOS no código (T1/T2/T8/T4/G1) e os ~R$ 8,83 bi NÃO são confiáveis — Fase 1 não
+> começou. Estado canônico atual: `docs/AUDITORIA-PROFUNDA-E-ENCERRAMENTO-2026-07-03.md` + `ROADMAP-PU.md` +
+> `MANIFESTO.json` + `BACKLOG.md`.
 
 ## 0. VEREDITO (uma linha, honesto)
 A **infraestrutura** (RAG + engine + anti-perda + decisões + beta) está **construída, auditada 3× e VERDE**;

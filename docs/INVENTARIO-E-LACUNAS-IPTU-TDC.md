@@ -1,5 +1,7 @@
 # INVENTÁRIO TOTAL (D24) E MAPA DE LACUNAS — Despejo Drive "Potencial Urbano" (RAG IPTU + TDC / SP)
 
+> **⚠️ SUPERADO EM PARTE (2026-07-03).** A estrutura de Drive descrita aqui NÃO existe mais (a árvore foi achatada — ver PROXIMA §P1). Para fontes atuais use `docs/INVENTARIO-DRIVE.md` (proveniência, D-DONO-4). Mantido pelo valor histórico dos fileIds/lacunas. _(banner lavrado pela PU 17.)_
+
 > **Autor:** Inventariante do Escritório do MOU (PMO). **Data:** 2026-06-18.
 > **Fonte:** Google Drive — raiz "01 — _entrada (despejo IPTU+TDC)" (id `1grhqYgttj7KnJmiu9U73z-lXFHnFthov`).
 > **Método:** enumeração recursiva via MCP Google Drive (`search_files` por `parentId`, `read_file_content`

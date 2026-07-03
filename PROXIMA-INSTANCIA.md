@@ -46,9 +46,9 @@
 > concordam), **B-19** (hook não suja/duplica), **B-12(c/d)** (trava FATAL + citação por dispositivo). **Destrave
 > de bônus:** indexar a LPUOS 16.402 **ligou TDC no main** (eval `tdc-potencial-construtivo-lpuos` verde, Art. 24).
 > Decisões **D-13..D-17** no CODEX §5. **Gate `fechar-instancia.py` = VERDE (exit 0).**
-> **ABERTOS (próximos):** **B-17** (cross-repo/MOU — **produto pronto preso na branch `project-audit-roadmap-2thi1g`**:
-> tabelas reais + engine sobre imóvel real + E5; PR ao main + conflito leis 16.050/17.844 → aceitar verbatim;
-> depositado em `caixa-de-saida/para-escritorio/`); **B-11(c)** vigência-por-chunk; **B-1..B-4/B-9** (Drive).
+> **ABERTOS (próximos) — ⚠️ atualizado PU 17 (2026-07-03):** **B-17 FECHADO** (produto consolidado no `main`
+> pela união `kp9bgr`→main, D141 — não pelo PR; ver rastro do BACKLOG) · **B-11(c) FECHADO** (PU 15). Seguem
+> abertos: **B-4/B-9** (Drive — verbatim das 12 municipais + Q14/Quadro 3 na fonte), **B-5/B-6** (camada semântica).
 > **Pauta MR-14 (frentes A/B/C/D):** deliberação respondida na caixa-de-saída — **aguarda o MOU consolidar**.
 >
 > **★ HANDOFF 2026-06-20 (fim da instância de auditoria):** 2 auditorias profundas rodadas. A 1ª
@@ -70,6 +70,7 @@
 > Doutrina: zero-compressão · dialético · agnosticismo · nada se descarta. Não AFINAR sem destravar.
 
 ## Estado em 2026-06-20 (verificado, pós-auditoria profunda)
+> **⚠️ NOTA PU 17 (2026-07-03): os números DESTE bloco são snapshot de 2026-06-20 (59 itens / 27 leis / 13 indexado / 14 bruto).** Vivo hoje (`MANIFESTO.json`): **63 itens · 31 leis · 19 indexado · 12 municipais bruto**. As 16.050/2014 e 17.844/2022 já saíram de `bruto` (PU 15). Não editei o corpo histórico abaixo — leia-o como registro datado; a verdade viva é o MANIFESTO + o topo ★★★ deste arquivo.
 - **Corpus:** 59 itens — 27 leis + 32 jurisprudências verbatim (`tagueado`). 57 no escopo + 2 fora. Das 27 leis: **13 `indexado`** (12 federais re-ingeridas VERBATIM de `_entrada/misto/` + a 7.228/1968 municipal) e **14 `bruto`** (municipais ainda só resumo WebSearch — ver P2). **1.246 dispositivos** em `rag/chunks/`.
 - **★ AUDITORIA PROFUNDA (2026-06-20):** laudo dialético em `docs/AUDITORIA-PROFUNDA-2026-06-20.md` (4 lentes adversariais + Supabase vivo). 3 destraves EXECUTADOS (AUD-01 federais verbatim; AUD-04 remoção IRRF/Tema 1130; AUD-03/08/09 engine `engines/tdc/oodc.py`) + ~10 correções de código/corpus. Pendências CRÍTICAS abertas: **AUD-02** (IDs canônicos do Drive trocados — risco de DELETE errado, lane do Drive) e **AUD-03** (tabelas `tabelas/` vazias = combustível do engine).
 - **Engine TDC:** `engines/tdc/oodc.py` — Fórmula Mestra (OODC/geração/recepção/travas) agora é CÓDIGO determinístico (1.3), auto-testado no CI. Falta `V`/`CA_max` (tabelas Q14/Quadro 3, ainda no Drive).
@@ -96,7 +97,7 @@
 - **Prioridade (D-PU-3 = TDC):** re-ingerir PRIMEIRO o corpus TDC verbatim (PDE 16.050/2014 e correlatas) — é o que destrava a fatia de PRODUTO (os 3 evals `tdc-produto-pendente.json` já esperam por ele). As demais municipais/federais vêm depois.
 - Fonte: PDFs no Drive (catálogo `inventario/catalogo-juridico-drive.csv`) — **re-ingestão interna**. **MAS:** neste ambiente o egress p/ `.gov.br` deu 403 E o Drive é **lane exclusiva** (cerca anti-conflito) → para obter verbatim do Drive, **abrir pedido ao Drive** (`escritorio-do-mou/caixa-de-entrada/drive/PEDIDOS-AO-DRIVE.md`) OU rodar de ambiente com egress liberado. **Padrão de re-ingestão já provado:** salvar o cru em `_entrada/`, escrever `leis/<id>.md` com cabeçalho `## Texto integral (verbatim)` + `.json` `confianca:"alta"`, rodar `scripts/fatiar.py`.
 - **Gatilho V-2:** ao re-ingerir em lote, avaliar Gemini (contexto grande) p/ enumerar/puxar os links do corpus do Drive de uma vez.
-- IDs municipais (1 feita ✅, **14 a re-ingerir**): 7228-1968 ✅ · pendentes → 10235-1986, 10365-1987, 11152-1991, 11338-1992, 12350-1997, 13250-2001, 13475-2002, 14865-2008, 15044-2009, 16050-2014, 17202-2019, 17577-2021, 17759-2022, 17844-2022.
+- IDs municipais (3 feitas ✅, **12 a re-ingerir** — atualizado PU 17 2026-07-03): 7228-1968 ✅ · 16050-2014 ✅ · 17844-2022 ✅ · pendentes (12) → 10235-1986, 10365-1987, 11152-1991, 11338-1992, 12350-1997, 13250-2001, 13475-2002, 14865-2008, 15044-2009, 17202-2019, 17577-2021, 17759-2022.
 
 ### P3 — Decidir/segregar os 2 itens fora de escopo (decisão MOU)
 - `stf-tema-1020` (é ISS, não IPTU) → realocar para corpus ISS ou remover. `stj-resp-1658054` (previdenciário; nº do REsp NÃO verificado) → confirmar o número ou arquivar como ponto cego. Ambos já sinalizados no MANIFESTO; falta a decisão.

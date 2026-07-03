@@ -1,5 +1,7 @@
 # ESTRATÉGIA DE ENTREGAS — Potencial Urbano
 
+> **⚠️ SUPERADO no papel de SEQUENCIAMENTO (2026-07-03) por `ROADMAP-PU.md`** (marcos M0–M5, painel de 7 especialistas + crítica adversarial). O mapa de PROCESSO e a separação **Classe LOCAL × EXTERNA** deste doc seguem VÁLIDOS como referência — foi ele que antecipou a D153 do escritório em 2 dias. _(banner lavrado pela PU 17.)_
+
 > **Lente: especialista em loop de IA.** PU 15 · 2026-07-01 · branch `claude/potencial-urbano-strategy-kp9bgr`.
 > **O que este documento é:** o mapa do processo inteiro da PU + a leitura do roadmap + a estratégia
 > para chegar à **ferramenta comercial completa, auditável e com dados ricos** — dizendo **quais lentes

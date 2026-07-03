@@ -271,7 +271,13 @@ o engine campo a campo. Fórmula que não bate com caso real não passa.
 - *Tese:* a trava FATAL de gabarito (COMAER/CONPRESP/LPUOS-Q3) virou campo próprio EXECUTADO (antes caía muda em `blocos_nao_avaliados`); a citação do engine aponta o DISPOSITIVO (PDE art. 125 via remissão na LPUOS; Estatuto da Cidade art. 28-31), não a lei inteira.
 - *Antítese:* "cita a lei e está fundamentado." *Vacina:* lei-inteira não é citação (1.7). Onde o artigo do PDE não está no verbatim (PDE ainda bruto, B-4), `confianca:"a_confirmar"` — apontar+sinalizar > blob.
 
-> **Pendência REGISTRADA (não resolvida nesta sessão): B-17 — produto preso na branch órfã `project-audit-roadmap-2thi1g`** (B-1 fechado, TDC verbatim 19×13, engine sobre imóvel real, E5 provado). Consolidar ao main é cross-repo (decisão MOU); depositado em `caixa-de-saida/para-escritorio/`.
+> **B-17 — RESOLVIDO (2026-07-03):** o produto foi consolidado ao `main` pela UNIÃO `kp9bgr`→main (D141), não pelo PR `project-audit-roadmap`. `engines/tdc/`, `zepec/**`, `tabelas/q14`+`quadro3` versionados. _(era "pendência registrada"; atualizado pela PU 17.)_
+
+> **⚠️ PONTEIRO DE DECISÕES (lavrado pela PU 17, 2026-07-03) — o §5 congela em D-17 (2026-06-27).** As decisões
+> de 2026-07-01 e 2026-07-03 vivem FORA do CODEX (namespacing por sessão) e são canônicas onde estão:
+> - **D-DONO-1..6** → `DECISOES-DO-DONO-2026-07-01.md` (forks do dono respondidas).
+> - **D-ESCOPO-01, D-DRIVE-01, D-CANON-01/02, D-SEG-01, D-MOTOR-01, D-AUDIT-01** → `docs/DECISOES-2026-07-03.md`.
+> - Espelho operacional: `governanca.registro_decisoes` (Supabase). Ao lavrar nova decisão, registre lá + aponte aqui (SSOT-por-ponteiro, RO-17).
 
 ---
 
@@ -479,22 +485,24 @@ qualquer alteração); Supabase ADOTADO — projeto `potencial-urbano-iptu-tdc`
 > Atualização 2026-06-27: ver `docs/AUDITORIA-PROFUNDA-2026-06-27.md`, `BACKLOG.md`, `PROXIMA-INSTANCIA.md`.
 > Decisões novas: **D-13…D-17** (§5). Números canônicos vivem no `MANIFESTO.json` (não cravar à mão — NV-5).
 - **Esteira RAG:** EXISTE e provada fim-a-fim (`scripts/fatiar|indexar|consultar` + `evals/`, gate 1.7).
-  **17 leis indexadas** (12 federais + 7.228/1968 + 4 IPTU/zoneamento: LPUOS 16.402, COE 16.642, 17.733,
-  decreto 57.443), **1.571 dispositivos** (era 13/1.246 — B-15 indexou de verdade as 4 que tinham rótulo
-  `indexado` falso). **TDC DESTRAVADO no main:** consulta de potencial construtivo transferível cita a LPUOS
-  16.402 Art. 24 (cobertura 86%). 14 municipais ainda só resumo (re-ingerir — B-4). Engine TDC em CÓDIGO
-  (`engines/tdc/oodc.py`; trava FATAL + citação por dispositivo — D-17).
+  **19 leis indexadas** (12 federais + 7 municipais: 7.228/1968, LPUOS 16.402, COE 16.642, 17.733, decreto
+  57.443, PDE 16.050, 17.844) — _número vivo no `MANIFESTO.json`_ (atualizado 2026-07-01; PU 15 subiu 16.050
+  e 17.844). **TDC DESTRAVADO no main:** consulta de potencial construtivo transferível cita a LPUOS 16.402
+  Art. 24 (cobertura 86%). **12 municipais** ainda só resumo (re-ingerir — B-4). Engine TDC em CÓDIGO
+  (`engines/tdc/oodc.py`; trava FATAL + citação por dispositivo — D-17). _(contagens atualizadas pela PU 17,
+  2026-07-03: era "17 indexadas / 14 municipais" — stale; vivo = 19 / 12.)_
 - **Mecanismo anti-perda ("ladrão" D83):** `BACKLOG.md` + hook de boot + `scripts/fechar-instancia.py`
   (rodar ao fechar; sai 0 = verde).
 - **SSOT:** este Codex (v0.5). Playbook do escritório: `BETA-CONTINUO.md`.
 - **Arrumação física:** plano FINAL de 992 itens (984+8) auditado; motor v5 com fix
   do `/` (FOLDER_IDS). Ainda em ENSAIO — falta o operador rodar até `=== FIM ===`
   e então o move real.
-- **Supabase:** `potencial-urbano-iptu-tdc` (`csnalylpvysjvejgsymr`) — esqueleto
-  canônico LIMPO: hoje **só `governanca`** (`de_para`/`registro_decisoes`, vazias)
-  **+ `public`/PostGIS**. (VACINA 2026-06-20: docs antes diziam "6 schemas" — os 4
-  artefatos + geo + rag ainda não existem; verificado via MCP.)
-  **Sem dado por decisão (RO-23)** até a organização completa e aprovada.
+- **Supabase:** `potencial-urbano-iptu-tdc` (`csnalylpvysjvejgsymr`) — **ATUALIZADO pós-Fase 0 (2026-07-03,
+  PU 16):** além de `governanca` + `public`/PostGIS, a Fase 0 criou o schema **`oficiais.*`** materializado
+  (canonicidade git==banco, 5–7 migrations canônicas; D-CANON-01), **`governanca.de_para` POPULADO** (20
+  fontes, 14 OFICIAL; D-CANON-02) e fechou o T7 de segurança (spend cap + RLS deny-all; D-SEG-01). _(A nota
+  antiga "só governanca vazio / RO-23 sem dado" está SUPERADA — ver `docs/HANDOFF-2026-07-03-MOTORES-FASE0.md`.
+  Corrigido pela PU 17.)_
 - **PENDÊNCIAS DO MOU/escritório (registradas, não bloqueiam):**
   (a) apagar as 2 pastas órfãs vazias no Drive — `05 — Geo`/`99 — Inbox` (AF-29);
   (b) rodar o ensaio até `=== FIM ===` e o move real, quando quiser.
