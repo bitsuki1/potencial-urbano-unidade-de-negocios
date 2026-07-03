@@ -16,6 +16,8 @@
 > (PU 15, 2026-07-01). Separa **Classe LOCAL** — o loop de IA destrava sozinho, roda já: B-3·B-5·B-6·B-7·B-10·B-11c·B-12 —
 > da **Classe EXTERNA** — pedido único ao MOU: B-1·B-2·B-4·B-9·B-17 + dado pesado/geo/FUNDURB/despausar-preço.
 > **Substância das ABERTAS INALTERADA** (esta linha só as agrupa por quem destrava).
+> **★ ROADMAP-MÃE DO PROJETO (2026-07-03): `ROADMAP-PU.md`** — painel de 7 lentes especialistas (RAG, dados, legal-tech, geo, mercado TDC, produto, cético-governança) + crítica adversarial (10 defeitos, todos corrigidos). Organiza TODAS as ABERTAS em **6 marcos de VALOR (M0–M5)** e passa a ser a fonte de SEQUENCIAMENTO (substitui `ESTRATEGIA-DE-ENTREGAS-PU.md` NESSE papel; a substância das ABERTAS aqui segue INALTERADA). **3 forks do dono ainda em aberto** (posição na cadeia · ordem de expansão · régua de preço) — Seção 2 do roadmap, aguardando decisão.
+> **Atualizado: 2026-07-03** (PU 16 — ROADMAP-PU.md escrito por painel de 7 especialistas + crítica adversarial; ver linha ★ acima. Sequenciamento das ABERTAS agora em 6 marcos M0–M5.)
 > **Atualizado: 2026-07-02** (PU 15 — LOOP DE MELHORIA multi-lente rodou COMPLETO: 14 lentes, 85 achados, laudo `docs/LOOP-MELHORIA-H1-2026-07-02.md`. **3 correções JÁ APLICADAS e provadas:** (1) **Fi escalonado LPUOS Art.24 I–VII** no engine (era Fi=1 fixo, ERRADO — verificado no verbatim; agregado R$17,5bi→R$8,8bi, Pinel 10×); (2) **saldo líquido** (abate m² já transferido; 55 abatidos, Dona Veridiana→saldo 0 c/ flag REVISAR); (3) **esgotado/vedado des-precificado** (15). Parcelamento Art.124§3º exposto. Ferramenta re-gerada: 2.937 c/ preço do SALDO. CODEX-CALCULOS corrigido. Restante do loop (matriz+top-3) no laudo — priorizar c/ dono.)_
 
 ## 🔴 ABERTAS
