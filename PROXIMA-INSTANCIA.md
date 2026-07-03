@@ -1,5 +1,13 @@
 # PRÓXIMA INSTÂNCIA — o que fazer (Potencial Urbano)
 
+> **★★★ ENCERRAMENTO HONESTO 2026-07-03 — LEIA ANTES DE TUDO: `docs/AUDITORIA-PROFUNDA-E-ENCERRAMENTO-2026-07-03.md`.**
+> A sessão entregou **PLANO + FUNDAÇÃO, ZERO fix de produto** (verificado: `engines/`/`zepec/*.py` intocados).
+> **Todos os defeitos seguem VIVOS no código:** C-28 (`133__art-124.json` rotula a fórmula como Art. 124),
+> T3 (`enriquecer_oficial.py:81` escalonado por default), T8 (`montar_base.py:104` vedação só substring),
+> G1 (`overlay_zona.py:77` centroide). Os ~2.937 preços / R$ 8,83 bi são byte-idênticos ao pré-sessão e
+> **NÃO são confiáveis**. O gate verde cobre a FUNDAÇÃO, não o produto (T2 vivo). **Fase 1 (código) não começou.**
+> Ordem: T1→T2→T8→T4→G1 (gotchas no handoff §8). Não recomeçar os loops; não confiar nos números atuais.
+>
 > **★★ HANDOFF 2026-07-03 (Motores 1/2/3 + Escrutínio conjunto + Fase 0 EXECUTADA).** Dossiê completo,
 > zero-compressão: **`docs/HANDOFF-2026-07-03-MOTORES-FASE0.md`** — LEIA-O PRIMEIRO. Entregou: `ROADMAP-PU.md`
 > + `MOTOR-1/2/3-ESTRATEGIA.md` (cada motor por loop de lentes adversariais; nenhum atingiu triplo limpo —

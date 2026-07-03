@@ -29,6 +29,23 @@
 > LPUOS 16.402 ligou TDC no main (eval `tdc-potencial-construtivo-lpuos` verde). **ABERTOS:** B-17 (produto
 > preso na branch — cross-repo/MOU), B-11(c) (vigência-por-chunk), e os dependentes de Drive (B-1..B-4, B-9).
 
+> **🔧 FASE 1 — CÓDIGO DOS MOTORES (aberto, 2026-07-03; NÃO começou — auditoria profunda `docs/AUDITORIA-PROFUNDA-E-ENCERRAMENTO-2026-07-03.md`).**
+> Todos os defeitos abaixo estão **VIVOS no código** (verificado em `arquivo:linha`). **DoD mecânica completa de cada item em `docs/HANDOFF-2026-07-03-MOTORES-FASE0.md` §8** + estratégia em `MOTOR-1/2/3-ESTRATEGIA.md`. Ordem de ataque: **T1 → T2 → T8 → T4 → G1**.
+>
+> | id | Item (defeito vivo) | DoD (resumo — completa no handoff §8) | Bloqueio |
+> |---|---|---|---|
+> | **T1/C-28** 🟦 | Fórmula PCpt rotulada "Art. 124" (é 125) em `133__art-124.json` | chunk topo=Art.125 c/ a fórmula; eval SOBRE CONTEÚDO verde; ≥6 leis re-fatiadas | — |
+> | **T2/S2** 🟥 | Gate de CI não cobre o produto (`consolidar.yml` sem `zepec/**`,`engines/**`,`supabase/**`) | CI dispara em push/PR nesses paths; `eval-produto.py` (5-10 cedentes) verde; sabotar 1 Fi FALHA | — |
+> | **T8** 🟥 | Vedação Art.124§2 só substring (`montar_base.py:104`), sem geometria; fail-closed só-preço | usa geometria AUE/APPa do Drive; guard ANTES de atc/cabas zera pcpt/saldo nas vedadas; CONFLITO(4)≠vedado(32) | — |
+> | **T3** 🟥 | Escalonado por default ao já-declarado (`enriquecer_oficial.py:81`) | engine exige Fi da certidão ou PENDENTE (Art.24 caput, novas decl.); fixture prova | — |
+> | **T4** 🟦 | Conservação não gateada (Termo≠Atestado; cohort; Art.129§2 idade) | coluna `elegibilidade_conservacao` 3-estados; fixture Termo→PENDENTE que FALHA se ELEGÍVEL | — |
+> | **T5·T9·T11·T6·T12** ⬜ | disclaimer+27%; parcelamento>50k; saldo por conjunto; arquivar oráculos; endurecer DoDs | ver handoff §8 | — |
+> | **G1** 🟦 | Overlay por centroide/1ª feature (`overlay_zona.py:77`) | overlay por ÁREA + `unary_union` + `representative_point`; SIRGAS oficial no lugar do `_IA` | — |
+> | **G3** 🟦 | 1.839 "sem SQL" tratados como geocode (1.772 = "Light" coletivo) | geocodificar só os 63 reais contra IPTU_2026 COMPLETO; modelar o bem coletivo | — |
+> | **G2** 🟦 | Zona-base sob selo (454); **ZOE usa Quadro 2A**, não Q3 | overlay N:N + FLAG; ZOE só após Quadro 2A | **DONO: Quadro 2A** |
+> | **G4** 🟦 | V por 1 face; Regra da Esquina | RANGE v_min/v_max + flag; MAX só após Decreto 57.536 verbatim | **DONO: Decreto 57.536/16** |
+> | **G5·G6·E1·E2·E3·E4·E5·E7** ⬜ | materializar overlay em `oficiais.*`; eval geo; runner reproduzível+vintage+dedup+loaders | ver handoff §8 (E6 canonicidade JÁ feito) | — |
+
 | # | Item | DoD (como PROVAR que foi feito) | Bloqueio |
 |---|---|---|---|
 | **B-17** 🟥 | **Consolidar o PRODUTO preso na branch `project-audit-roadmap-2thi1g`** ao main (B-1 fechado, TDC verbatim 19×13, engine sobre dado real, E5 provado — ~742 arquivos). | PR `project-audit-roadmap` → main MERGE (resolver conflito leis 16.050/17.844 = aceitar versão verbatim da branch); MANIFESTO regenerado; produto deixa de ser "0%" no SSOT. **Cross-repo: decisão do MOU** (main protegido) — depositado em `caixa-de-saida/para-escritorio/2026-06-27_*`. **✅ AUTORIZADO por D-DONO-3 (2026-07-01)** — falta EXECUTAR: abrir o PR, resolver conflito, merge. | executar merge (dono aprova o PR / libera main protegido) |
