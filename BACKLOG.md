@@ -58,6 +58,7 @@
 | **B-21** 🟦 | **Construir jurisprudência de TDC** (achado B-10: corpus é TDC-cego — 0/32 tratam de TDC, VERIFICADO, apesar de TDC ser a base prioritária do MOU). | capturar acórdãos/temas STF/STJ/TJSP sobre outorga onerosa / solo criado / potencial construtivo / TDC → `jurisprudencia/` verbatim + fatiado/indexado; ≥1 eval de tese TDC-jurisprudencial verde. | captura (egress .gov.br=403 / Drive) |
 | **B-8** 🟨 | **AUD-02 — conflito de IDs canônicos do Drive ANTES de qualquer DELETE** (risco de perder ~3 GB). | docs antigos (`docs/PLANO-SANEAMENTO-E-DECISOES.md`, `docs/INVENTARIO-DRIVE-*.md`) marcados **SUPERADOS** por `SANEAMENTO-DUPLICATAS-2026-06-20`; antes do `DRY_RUN=false`, cada ID "manter" conferido por `get_file_metadata`. | lane do Drive (NÃO tocar — relayar via B-9) |
 | **B-9** 🟨 | **PEDIDO AO DRIVE** consolidando o que depende do Drive: Q14+Quadro 3 (B-1), cru verbatim das 14 municipais (B-4), e o alerta AUD-02 (B-8). | arquivo de pedido depositado no canal do escritório para o MOU relayar à lane do Drive; referência cruzada anotada aqui. | canal: a definir com o MOU (cerca: `caixa-de-entrada/drive/**` é lane do Drive) |
+| **B-23** 🟨 | **Deletar 6 branches remotas redundantes** (`escritorio-instance-organization-4zpyoh`, `potencial-urbano-strategy-kp9bgr`, `project-audit-roadmap-2thi1g`, `pu-drive-saneamento-sufixoN`, `pu-14-instances-ey91o2`, `backlog-audit-separation-w1vu4b`). **Conteúdo único JÁ RESGATADO ao main (PU 17, 2026-07-03)** — nada se perde; auditoria em `docs/` (via lente de branches). **Dono AUTORIZOU a deleção (2026-07-03).** | as 6 branches somem de `git branch -r`. **Bloqueio real:** `git push --delete` = **HTTP 403 (política de egress da organização)** e não há ferramenta MCP de delete-branch → NÃO executável desta sessão. Fazer pela **UI do GitHub** (Settings→Branches) ou via `gh`/API de ambiente com permissão. | infra/egress: deleção de ref remota bloqueada pelo proxy (403) — ação do dono na UI/API |
 
 ## ✅ RESOLVIDAS RECENTES (rastro)
 - **2026-07-03 — PU 17 (organização/processos em ordem): consolidação do rastro + reconciliação de escopo.**
@@ -68,8 +69,9 @@
   **B-10·B-11·B-12·B-13·B-14·B-22** (já eram "(resolvido)" com rastro próprio abaixo — só faltava sair da tabela).
   **Reconciliação de escopo:** **B-2** (1º JOIN → lista de alvos/receptor/OODC) marcado **DESCOPADO por D-ESCOPO-01**
   (escopo vigente = SÓ vendedor/cedente, SÓ já-tombado) — preservado como histórico, não descartado. Callout "PAGOS
-  2026-06-27" corrigido (não lista mais B-17 como aberto). **Branches redundantes resgatadas+deletadas** (auditoria
-  "nada se descarta"): 3 docs 06-29 + tabela Fi + xlsx resgatados ao main antes da deleção. Gate VERDE.
+  2026-06-27" corrigido (não lista mais B-17 como aberto). **Branches redundantes: conteúdo único RESGATADO ao main**
+  (auditoria "nada se descarta"): 3 docs 06-29 + tabela Fi + xlsx. A DELEÇÃO física das 6 branches (dono autorizou)
+  ficou BLOQUEADA por política de egress (HTTP 403) → **B-23** (ação do dono na UI do GitHub). Gate VERDE.
 - **2026-07-01 — PU 15 (lente loop de IA): estratégia + ondas locais de auditabilidade.** `ESTRATEGIA-DE-ENTREGAS-PU.md`
   (mapa do processo + Classe LOCAL × EXTERNA). **PAGOS com gate VERDE:** **B-12** (guarda DECIMAL(10,3) do UTXO;
   R$ OODC monetário livre), **B-11c+d** (vigência por chunk — não devolve revogado como vigente; preâmbulo
