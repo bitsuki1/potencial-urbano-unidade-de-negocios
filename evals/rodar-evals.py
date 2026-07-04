@@ -38,7 +38,8 @@ def _norm_disp(s: str) -> str:
 def checar_item(item):
     esp = item.get("espera", {})
     r = C.consultar(item["pergunta"], lei=esp.get("lei_id"), tema=esp.get("tema"),
-                    jurisdicao=esp.get("jurisdicao"), top=esp.get("top", 3))
+                    jurisdicao=esp.get("jurisdicao"), dominio=esp.get("dominio"),
+                    top=esp.get("top", 3))
     esperado_fund = esp.get("fundamentada", True)
     if r["fundamentada"] != esperado_fund:
         return False, (f"fundamentada={r['fundamentada']} (esperado {esperado_fund}) "

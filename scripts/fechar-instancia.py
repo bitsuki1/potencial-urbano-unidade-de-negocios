@@ -80,6 +80,18 @@ def check_divergencia():
     return rc == 0, "divergência PCpt×certidões surfaçada e flagada OK" if rc == 0 else f"divergência não surfaçada/flagada (exit {rc})"
 
 
+def check_dominio():
+    # Separação TDC×IPTU (plano 2026-07-04): (1) toda norma/acórdão carimbada com dominio válido;
+    # (2) as invariantes de roteamento (não-poluição, não-perda, PDE alcançável do TDC, anti-padrão
+    # eliminado) provadas. Sabotar o carimbo ou vazar iptu-puro numa consulta tdc FALHA aqui.
+    rc1, _ = _run(["scripts/carimbar_dominio.py", "--check"])
+    if rc1 != 0:
+        return False, f"carimbo de domínio incompleto (exit {rc1}) — rode scripts/carimbar_dominio.py"
+    rc2, _ = _run(["evals/eval-dominio.py"])
+    return rc2 == 0, ("domínio TDC×IPTU: carimbo válido + roteamento provado OK" if rc2 == 0
+                      else f"invariantes de domínio regrediram (exit {rc2}) — rode evals/eval-dominio.py")
+
+
 def check_disclaimer():
     # M0: DISCLAIMER.md existe E o bloco está injetado na saída ao cliente (COMO-USAR.md).
     disc = RAIZ / "DISCLAIMER.md"
@@ -162,6 +174,7 @@ def main():
         ("CONSERVAÇÃO (Art.129 3-estados, T4)", check_conservacao),
         ("REGIME PCpt (já-declarado×novo, T3)", check_regime_pcpt),
         ("DIVERGÊNCIA PCpt×certidões (M0)", check_divergencia),
+        ("DOMÍNIO TDC×IPTU (metadado, roteamento)", check_dominio),
         ("DISCLAIMER injetado (M0)", check_disclaimer),
         ("CORPUS (sem stray tags)", check_stray_tags),
         ("MANIFESTO (idempotente, SSOT)", check_manifesto_idempotente),

@@ -6,9 +6,7 @@
   "tema_rg_ou_repetitivo": null,
   "leading_case": "REsp 1111124/PR (rito dos repetitivos, Tema 116)",
   "enunciado_ou_tese": "O contribuinte do IPTU é notificado do lançamento pelo envio do carnê ao seu endereço.",
-  "tema": [
-    "IPTU"
-  ],
+  "tema": [],
   "dispositivos_relacionados": [
     "CTN art. 142",
     "CTN art. 145"
@@ -23,5 +21,9 @@
   "status_pipeline": "tagueado",
   "confianca_extracao": "alta",
   "revisado_por_humano": false,
-  "verificacao_verbatim": "Enunciado confere com a captura verbatim."
+  "verificacao_verbatim": "Enunciado confere com a captura verbatim.",
+  "dominio_primario": "iptu",
+  "dominio": [
+    "iptu"
+  ]
 }

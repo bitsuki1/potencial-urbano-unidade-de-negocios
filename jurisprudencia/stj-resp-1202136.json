@@ -6,9 +6,7 @@
   "tema_rg_ou_repetitivo": null,
   "leading_case": "REsp 1202136/SP (Rel. Min. Mauro Campbell Marques, Segunda Turma, j. 07/06/2011, DJe 14/06/2011)",
   "enunciado_ou_tese": "A existência de taxas tidas por ilegais (ex.: taxa de limpeza pública, conservação de vias, combate a sinistros) embutidas no carnê/boleto de IPTU não invalida a cobrança do imposto: o contribuinte pode afastar a parcela indevida por simples cálculo aritmético, abatendo os valores ilegais do montante cobrado, sem necessidade de anular todo o lançamento do IPTU.",
-  "tema": [
-    "IPTU"
-  ],
+  "tema": [],
   "dispositivos_relacionados": [
     "CTN art. 145",
     "CF/88 art. 145, II"
@@ -23,5 +21,9 @@
   "status_pipeline": "tagueado",
   "confianca_extracao": "alta",
   "revisado_por_humano": false,
-  "verificacao_verbatim": "CONFIRMADO pela captura verbatim do SCON que o conteúdo é taxas ilegais embutidas no carnê do IPTU (Taxa de Limpeza Pública/Conservação de Vias e taxa de combate a sinistros) cuja ilegalidade NÃO anula o IPTU — abatimento por simples cálculo aritmético preserva liquidez/certeza da CDA. CORRIGIDO tipo de 'recurso_repetitivo' para 'acordao': trata-se de acórdão da SEGUNDA TURMA (Rel. Min. Mauro Campbell Marques, j. 07/06/2011), NÃO de recurso repetitivo. Rótulo de tarefa 'taxa de boleto' improcedente. Confiança média->alta."
+  "verificacao_verbatim": "CONFIRMADO pela captura verbatim do SCON que o conteúdo é taxas ilegais embutidas no carnê do IPTU (Taxa de Limpeza Pública/Conservação de Vias e taxa de combate a sinistros) cuja ilegalidade NÃO anula o IPTU — abatimento por simples cálculo aritmético preserva liquidez/certeza da CDA. CORRIGIDO tipo de 'recurso_repetitivo' para 'acordao': trata-se de acórdão da SEGUNDA TURMA (Rel. Min. Mauro Campbell Marques, j. 07/06/2011), NÃO de recurso repetitivo. Rótulo de tarefa 'taxa de boleto' improcedente. Confiança média->alta.",
+  "dominio_primario": "iptu",
+  "dominio": [
+    "iptu"
+  ]
 }

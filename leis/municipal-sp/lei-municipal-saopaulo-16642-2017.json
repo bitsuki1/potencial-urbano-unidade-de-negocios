@@ -7,7 +7,6 @@
   "ano": "2017",
   "ementa": "(ver texto integral)",
   "tema": [
-    "TDC",
     "urbanística"
   ],
   "vigencia": {
@@ -27,5 +26,9 @@
   "status_pipeline": "indexado",
   "confianca_extracao": "alta",
   "revisado_por_humano": false,
-  "versao_texto": "original"
+  "versao_texto": "original",
+  "dominio_primario": "compartilhado",
+  "dominio": [
+    "compartilhado"
+  ]
 }

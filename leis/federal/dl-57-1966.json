@@ -7,7 +7,6 @@
   "ano": 1966,
   "ementa": "Altera dispositivos sobre lançamento e cobrança do Imposto sobre a Propriedade Territorial Rural, institui normas sobre arrecadação da Dívida Ativa correspondente, e dá outras providências.",
   "tema": [
-    "IPTU",
     "ITR",
     "destinacao_economica"
   ],
@@ -49,5 +48,9 @@
   },
   "status_pipeline": "indexado",
   "confianca_extracao": "alta",
-  "revisado_por_humano": false
+  "revisado_por_humano": false,
+  "dominio_primario": "iptu",
+  "dominio": [
+    "iptu"
+  ]
 }

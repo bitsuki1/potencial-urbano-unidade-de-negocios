@@ -6,9 +6,7 @@
   "tema_rg_ou_repetitivo": null,
   "leading_case": null,
   "enunciado_ou_tese": "A Fazenda Pública pode substituir a certidão de dívida ativa (CDA) até a prolação da sentença de embargos, quando se tratar de correção de erro material ou formal, vedada a modificação do sujeito passivo da execução.",
-  "tema": [
-    "IPTU"
-  ],
+  "tema": [],
   "dispositivos_relacionados": [
     "Lei 6.830/80 (LEF) art. 2º, §8º"
   ],
@@ -22,5 +20,9 @@
   "status_pipeline": "tagueado",
   "confianca_extracao": "alta",
   "revisado_por_humano": false,
-  "verificacao_verbatim": "Enunciado confere com a captura verbatim."
+  "verificacao_verbatim": "Enunciado confere com a captura verbatim.",
+  "dominio_primario": "iptu",
+  "dominio": [
+    "iptu"
+  ]
 }

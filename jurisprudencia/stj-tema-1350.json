@@ -6,9 +6,7 @@
   "tema_rg_ou_repetitivo": "1350",
   "leading_case": "REsp 2194708/SC, REsp 2194734/SC e REsp 2194706/SC (afetados 26/05/2025; mérito j. 08/10/2025; DJe 22/10/2025; trânsito 22/12/2025)",
   "enunciado_ou_tese": "Não é possível à Fazenda Pública, ainda que antes da sentença de embargos, substituir ou emendar a Certidão de Dívida Ativa (CDA) para incluir, complementar ou modificar o fundamento legal do crédito tributário.",
-  "tema": [
-    "IPTU"
-  ],
+  "tema": [],
   "dispositivos_relacionados": [
     "Lei 6.830/80 (LEF) art. 2º, §8º",
     "CTN art. 142"
@@ -23,5 +21,9 @@
   "status_pipeline": "tagueado",
   "confianca_extracao": "media",
   "revisado_por_humano": false,
-  "verificacao_verbatim": "2026-06-18 — tese conferida contra captura oficial verbatim (Lote 5, extensão); ver jurisprudencia/_capturas/lote5-stj-temas_20260618.txt"
+  "verificacao_verbatim": "2026-06-18 — tese conferida contra captura oficial verbatim (Lote 5, extensão); ver jurisprudencia/_capturas/lote5-stj-temas_20260618.txt",
+  "dominio_primario": "iptu",
+  "dominio": [
+    "iptu"
+  ]
 }

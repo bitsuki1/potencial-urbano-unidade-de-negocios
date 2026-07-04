@@ -30,11 +30,14 @@
     }
   },
   "tema": [
-    "IPTU",
     "execucao_fiscal",
     "divida_ativa",
     "prescricao_intercorrente"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre a cobrança judicial da Dívida Ativa da Fazenda Pública, e dá outras providências."
 }

@@ -31,10 +31,13 @@
     }
   },
   "tema": [
-    "IPTU",
     "reforma_tributaria",
     "sistema_tributario_nacional"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Altera o Sistema Tributário Nacional."
 }

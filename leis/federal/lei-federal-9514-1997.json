@@ -7,7 +7,6 @@
   "ano": 1997,
   "ementa": "Dispõe sobre o Sistema de Financiamento Imobiliário, institui a alienação fiduciária de coisa imóvel e dá outras providências.",
   "tema": [
-    "IPTU",
     "alienacao_fiduciaria",
     "sistema_financiamento_imobiliario"
   ],
@@ -50,5 +49,9 @@
   },
   "status_pipeline": "indexado",
   "confianca_extracao": "alta",
-  "revisado_por_humano": false
+  "revisado_por_humano": false,
+  "dominio_primario": "iptu",
+  "dominio": [
+    "iptu"
+  ]
 }

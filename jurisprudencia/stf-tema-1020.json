@@ -24,5 +24,9 @@
   "status_pipeline": "tagueado",
   "confianca_extracao": "alta",
   "revisado_por_humano": false,
-  "verificacao_verbatim": "Captura verbatim CONFIRMA que o Tema 1020 é de ISS (não IPTU): título e tese tratam de cadastro de prestador não estabelecido + retenção de ISS pelo tomador (Lei SP 14.042/2005). tema=['ISS'] mantido. Permanece no corpus IPTU-TDC apenas como item sinalizado para realocação/validação pelo escritório."
+  "verificacao_verbatim": "Captura verbatim CONFIRMA que o Tema 1020 é de ISS (não IPTU): título e tese tratam de cadastro de prestador não estabelecido + retenção de ISS pelo tomador (Lei SP 14.042/2005). tema=['ISS'] mantido. Permanece no corpus IPTU-TDC apenas como item sinalizado para realocação/validação pelo escritório.",
+  "dominio_primario": "iptu",
+  "dominio": [
+    "iptu"
+  ]
 }

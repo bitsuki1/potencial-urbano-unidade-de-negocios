@@ -6,9 +6,7 @@
   "numero": "57443",
   "ano": "2016",
   "ementa": "(ver texto integral)",
-  "tema": [
-    "IPTU"
-  ],
+  "tema": [],
   "vigencia": {
     "inicio": "2016-11-10",
     "fim": null,
@@ -25,5 +23,9 @@
   },
   "status_pipeline": "indexado",
   "confianca_extracao": "alta",
-  "revisado_por_humano": false
+  "revisado_por_humano": false,
+  "dominio_primario": "iptu",
+  "dominio": [
+    "iptu"
+  ]
 }

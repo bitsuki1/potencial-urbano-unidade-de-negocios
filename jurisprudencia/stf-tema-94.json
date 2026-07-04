@@ -6,9 +6,7 @@
   "tema_rg_ou_repetitivo": "94",
   "leading_case": "RE 586693/SP (Rel. Min. Marco Aurélio)",
   "enunciado_ou_tese": "É constitucional a Emenda Constitucional nº 29, de 2000, no que estabeleceu a possibilidade de previsão legal de alíquotas progressivas para o IPTU de acordo com o valor do imóvel.",
-  "tema": [
-    "IPTU"
-  ],
+  "tema": [],
   "dispositivos_relacionados": [
     "CF/88 art. 156, §1º (redação da EC 29/2000)",
     "EC 29/2000"
@@ -23,5 +21,9 @@
   "status_pipeline": "tagueado",
   "confianca_extracao": "alta",
   "revisado_por_humano": false,
-  "verificacao_verbatim": "CORRIGIDA a tese para a redação verbatim da fonte STF. O stub trazia '...alíquotas progressivas para o IPTU em razão do valor do imóvel'; a tese oficial firmada é '...de acordo com o valor do imóvel'. Sentido idêntico, redação ajustada ao literal. Confiança elevada de média->alta. Leading case RE 586693, Rel. Min. Marco Aurélio, mérito 25/05/2011, trânsito 02/08/2011."
+  "verificacao_verbatim": "CORRIGIDA a tese para a redação verbatim da fonte STF. O stub trazia '...alíquotas progressivas para o IPTU em razão do valor do imóvel'; a tese oficial firmada é '...de acordo com o valor do imóvel'. Sentido idêntico, redação ajustada ao literal. Confiança elevada de média->alta. Leading case RE 586693, Rel. Min. Marco Aurélio, mérito 25/05/2011, trânsito 02/08/2011.",
+  "dominio_primario": "iptu",
+  "dominio": [
+    "iptu"
+  ]
 }

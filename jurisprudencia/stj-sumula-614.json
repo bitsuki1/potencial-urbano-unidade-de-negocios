@@ -6,9 +6,7 @@
   "tema_rg_ou_repetitivo": null,
   "leading_case": null,
   "enunciado_ou_tese": "O locatário não possui legitimidade ativa para discutir a relação jurídico-tributária de IPTU e de taxas referentes ao imóvel alugado nem para repetir indébito desses tributos.",
-  "tema": [
-    "IPTU"
-  ],
+  "tema": [],
   "dispositivos_relacionados": [
     "CTN art. 34",
     "CTN art. 121",
@@ -25,5 +23,9 @@
   "status_pipeline": "tagueado",
   "confianca_extracao": "alta",
   "revisado_por_humano": false,
-  "verificacao_verbatim": "Enunciado confere com a captura verbatim."
+  "verificacao_verbatim": "Enunciado confere com a captura verbatim.",
+  "dominio_primario": "iptu",
+  "dominio": [
+    "iptu"
+  ]
 }

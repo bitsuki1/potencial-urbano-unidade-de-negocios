@@ -6,9 +6,7 @@
   "tema_rg_ou_repetitivo": null,
   "leading_case": null,
   "enunciado_ou_tese": "A incidência do IPTU sobre imóvel situado em área considerada pela lei local como urbanizável ou de expansão urbana não está condicionada à existência dos melhoramentos elencados no art. 32, § 1º, do CTN.",
-  "tema": [
-    "IPTU"
-  ],
+  "tema": [],
   "dispositivos_relacionados": [
     "CTN art. 32, §1º",
     "CTN art. 32, §2º"
@@ -23,5 +21,9 @@
   "status_pipeline": "tagueado",
   "confianca_extracao": "alta",
   "revisado_por_humano": false,
-  "verificacao_verbatim": "Enunciado confere com a captura verbatim."
+  "verificacao_verbatim": "Enunciado confere com a captura verbatim.",
+  "dominio_primario": "iptu",
+  "dominio": [
+    "iptu"
+  ]
 }

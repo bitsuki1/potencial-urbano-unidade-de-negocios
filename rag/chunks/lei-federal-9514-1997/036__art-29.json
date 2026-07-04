@@ -33,10 +33,13 @@
     }
   },
   "tema": [
-    "IPTU",
     "alienacao_fiduciaria",
     "sistema_financiamento_imobiliario"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre o Sistema de Financiamento Imobiliário, institui a alienação fiduciária de coisa imóvel e dá outras providências."
 }

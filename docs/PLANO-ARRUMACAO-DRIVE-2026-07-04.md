@@ -54,7 +54,7 @@ Raiz `Potencial Urbano` (`1BrM6q36…`). **TIPO** define a pasta; **DOMÍNIO** �
 ```
 `DOM ∈ {TDC, IPTU, COMUM}` · `PROV ∈ {OFI, ADQ, NOS}`. O **INDICE-MESTRE** (§5) é a camada de tag verdadeira; o nome é o espelho legível.
 
-**Lago legado congelado:** o `TODOS TDC` (março/2026, ~1.000+ arquivos, 3 cemitérios de duplicata) **não é reorganizado arquivo-a-arquivo** — vai inteiro para `98 — _LEGADO` como read-only. Saneá-lo é onda separada, só se/quando precisar.
+**Lago legado — SANEAR (decisão do dono 2026-07-04):** o `TODOS TDC` (março/2026, ~1.000+ arquivos, 3 cemitérios de duplicata) é **saneado**, não só congelado: **dedup por hash → a canônica vai para a pasta-tipo correta; as irmãs vão para quarentena datada** (`98/_quarentena-AAAA-MM-DD/`, nunca lixeira — "nada se descarta"). É a **onda 1** da execução Drive.
 
 ---
 
@@ -173,11 +173,11 @@ hash_sha256, bytes, mime, id_pipeline, status_arrumacao, observacao
 
 ---
 
-## 7. Decisões que são do DONO (gate humano — não decido sozinho)
-1. **Lista compartilhado (§4):** confirma as 7 reclassificações? (EC 132, PDE 16.050, LPUOS 16.402, Estatuto da Cidade, CF 182-183, CTN geral, Quadro 14). Alguma sai/entra?
-2. **PDE per-dispositivo agora ou depois?** Recomendo `dominio_primario: compartilhado` **já** e quebra por-dispositivo **numa onda futura** (não bloqueia nada).
-3. **Lago `TODOS TDC` → congelar em `98`** (recomendado) **ou** sanear arquivo-a-arquivo agora (caro, adia o resto)?
-4. **Ordem de entrega:** posso começar **já** pela parte 100% local e reversível (schema `dominio[]` + código `fatiar/indexar/consultar` + `gate-arrumacao.py` + eval de domínio) — tudo na branch, sem tocar o Drive — enquanto você decide 1–3. O Drive (ondas 3–5) só roda com seu "vai".
+## 7. Decisões do DONO — REGISTRADAS 2026-07-04 (gate humano)
+1. **Lista compartilhado (§4):** dono respondeu *"como achar melhor, não quero correr o risco de perder nada"* → adotada a regra que **não perde por construção**: `compartilhado` INCLUI a norma nas consultas dos DOIS domínios; **na dúvida → compartilhado**; nunca se remove uma norma de um domínio. Aplicadas as 6 reclassificações efetivas no corpus atual (EC 132, PDE 16.050, LPUOS 16.402, COE 16.642, registro-imóveis 6.015, tombados 12.350). CF 182-183/Estatuto/CTN/Quadro 14 entram `compartilhado` quando ingeridos. **Registro auditável em `scripts/carimbar_dominio.py` (razão por item); o dono pode estreitar depois e re-rodar.**
+2. **PDE per-dispositivo:** `dominio_primario: compartilhado` **já** (feito); quebra por-dispositivo é **onda futura** (não bloqueia).
+3. **Lago `TODOS TDC`:** dono escolheu **SANEAR** (não congelar). Regra: **dedup por hash + quarentena datada** (invariante "nada se descarta" — irmãs vão para quarentena datada, não pra lixeira). Execução é Drive-side (Apps Script na onda de saneamento); **entra na trilha de ondas 1**, não some.
+4. **Ordem de entrega:** dono autorizou **começar já** a parte 100% local e reversível → **EXECUTADO** nesta branch (ver §9). O Drive (ondas 3–5 + saneamento do lago) só roda com o "vai".
 
 ---
 
@@ -188,4 +188,22 @@ hash_sha256, bytes, mime, id_pipeline, status_arrumacao, observacao
 - Enumerações do Drive já coletadas (TABELAS, MOTOR_1, subárvores) → semente do índice-mestre para além da `_entrada`.
 
 ---
-> **Próximo passo proposto:** com o **de acordo do dono no §7.4**, executo a parte LOCAL (schema + código + gate + eval) nesta branch e trago os diffs para revisão; o Drive fica pausado até o "vai" das ondas 3–5.
+
+## 9. Parte LOCAL — EXECUTADA 2026-07-04 (na branch, sem tocar o Drive)
+Autorizada pelo dono (§7.4). Tudo reversível, provado por gate mecânico, **suíte de evals 15/15 + eval-dominio verde, sem regressão**.
+
+| Entregue | Arquivo | Prova |
+|---|---|---|
+| Carimbo de domínio (63 itens: 31 leis + 32 juris) | `scripts/carimbar_dominio.py` | `--check` verde; distribuição compartilhado=6 · iptu=57 · tdc=0 |
+| Anti-padrão eliminado (IPTU/TDC fora de `tema[]`) | idem | I5 do eval-dominio |
+| Domínio propagado ao chunk | `scripts/fatiar.py` | 1.864 chunks, 0 sem domínio |
+| Domínio como faceta no índice | `scripts/indexar.py` | metadados carregam `dominio` |
+| Filtro `--dominio` (compartilhado sempre entra) | `scripts/consultar.py` | `--dominio tdc` traz PDE Art.125/128, sem vazar IPTU-puro |
+| Eval das invariantes (I1–I5) | `evals/eval-dominio.py` | OK — não-poluição · não-perda · PDE alcançável · vocab fechado · anti-padrão |
+| Gate da arrumação (local verde, Drive pendente honesto) | `scripts/gate-arrumacao.py` | C6/C7/C8 verde; C1–C5 PENDENTE (aguardam índice-mestre) |
+| Domínio no gate de fechamento | `scripts/fechar-instancia.py` | check DOMÍNIO verde |
+| Domínio no CI | `.github/workflows/consolidar.yml` | novo passo gate |
+
+**Distribuição de chunks:** iptu=868 · compartilhado=996 (PDE+LPUOS+COE são grandes → muitos chunks compartilhados). Sob `--dominio tdc`: 989 elegíveis (só compartilhado, IPTU-puro excluído). Sob `--dominio iptu`: 1.843 (iptu + compartilhado).
+
+> **Próximo passo (aguarda "vai" do dono):** ondas Drive 1–5 (incl. saneamento do lago) — geram `inventario/INDICE-MESTRE-DRIVE.csv` e o Apps Script de move; aí C1–C5 do gate passam a bloquear. O Drive segue pausado até sua ordem.

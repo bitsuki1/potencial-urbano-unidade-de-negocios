@@ -7,7 +7,6 @@
   "ano": 2019,
   "ementa": "Lei de regularização de edificações ('anistia'): dispõe sobre a regularização de edificações e remissão de créditos tributários de IPTU decorrentes das regularizações; relaciona-se ao tema de benefício fiscal de IPTU (enchentes) na cadeia 17.202/2019 + 17.759/2022.",
   "tema": [
-    "IPTU",
     "enchentes",
     "regularizacao",
     "remissao",
@@ -47,5 +46,9 @@
   },
   "status_pipeline": "bruto",
   "confianca_extracao": "baixa",
-  "revisado_por_humano": false
+  "revisado_por_humano": false,
+  "dominio_primario": "iptu",
+  "dominio": [
+    "iptu"
+  ]
 }

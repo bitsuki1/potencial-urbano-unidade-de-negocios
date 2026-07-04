@@ -87,6 +87,13 @@ jobs:
       - name: Divergência PCpt × certidões (surfaçar, não esconder)
         run: python3 evals/eval-divergencia-pcpt.py
 
+      # Separação TDC×IPTU (plano 2026-07-04) — GATE: domínio carimbado (vocab fechado) + roteamento
+      # provado (não-poluição, não-perda de 'compartilhado', PDE alcançável do TDC, anti-padrão eliminado).
+      - name: Domínio TDC×IPTU (carimbo válido + roteamento provado)
+        run: |
+          python3 scripts/carimbar_dominio.py --check
+          python3 evals/eval-dominio.py
+
       # Só DEPOIS dos gates verdes: commita os artefatos derivados. NÃO em pull_request
       # (PR não deve commitar/pushar; roda só os gates acima como check de merge).
       - name: Commitar artefatos derivados se mudaram (após gates verdes)

@@ -34,9 +34,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

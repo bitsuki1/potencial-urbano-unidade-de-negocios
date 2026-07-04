@@ -6,9 +6,7 @@
   "tema_rg_ou_repetitivo": null,
   "leading_case": "RE 576321 QO-RG (Tema 146)",
   "enunciado_ou_tese": "A taxa cobrada exclusivamente em razão dos serviços públicos de coleta, remoção e tratamento ou destinação de lixo ou resíduos provenientes de imóveis, não viola o artigo 145, II, da Constituição Federal.",
-  "tema": [
-    "IPTU"
-  ],
+  "tema": [],
   "dispositivos_relacionados": [
     "CF/88 art. 145, II"
   ],
@@ -22,5 +20,9 @@
   "status_pipeline": "tagueado",
   "confianca_extracao": "alta",
   "revisado_por_humano": false,
-  "verificacao_verbatim": "Enunciado confere com a captura verbatim (texto oficial sem a vírgula antes de 'não viola'). Captura confirma Tema 146 RG e relação com SV 29 e Súmula 670."
+  "verificacao_verbatim": "Enunciado confere com a captura verbatim (texto oficial sem a vírgula antes de 'não viola'). Captura confirma Tema 146 RG e relação com SV 29 e Súmula 670.",
+  "dominio_primario": "iptu",
+  "dominio": [
+    "iptu"
+  ]
 }

@@ -6,9 +6,7 @@
   "tema_rg_ou_repetitivo": null,
   "leading_case": null,
   "enunciado_ou_tese": "Faz jus ao benefício da justiça gratuita a pessoa jurídica com ou sem fins lucrativos que demonstrar sua impossibilidade de arcar com os encargos processuais.",
-  "tema": [
-    "IPTU"
-  ],
+  "tema": [],
   "dispositivos_relacionados": [
     "CF/88 art. 5º, LXXIV"
   ],
@@ -22,5 +20,9 @@
   "status_pipeline": "tagueado",
   "confianca_extracao": "alta",
   "revisado_por_humano": false,
-  "verificacao_verbatim": "Enunciado confere com a captura verbatim."
+  "verificacao_verbatim": "Enunciado confere com a captura verbatim.",
+  "dominio_primario": "iptu",
+  "dominio": [
+    "iptu"
+  ]
 }

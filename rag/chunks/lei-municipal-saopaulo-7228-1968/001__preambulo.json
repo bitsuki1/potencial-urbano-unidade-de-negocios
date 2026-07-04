@@ -37,9 +37,12 @@
     }
   },
   "tema": [
-    "IPTU",
     "codigo_tributario"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "São Paulo/SP",
   "ementa": "Altera dispositivos da Lei nº 6.989, de 29 de dezembro de 1966, e dá outras providências."
 }

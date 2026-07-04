@@ -34,12 +34,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

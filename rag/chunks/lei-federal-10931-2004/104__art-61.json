@@ -37,7 +37,6 @@
     }
   },
   "tema": [
-    "IPTU",
     "patrimonio_de_afetacao",
     "incorporacao_imobiliaria",
     "RET",
@@ -45,6 +44,10 @@
     "CCI",
     "CCB"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre o patrimônio de afetação de incorporações imobiliárias, Letra de Crédito Imobiliário, Cédula de Crédito Imobiliário, Cédula de Crédito Bancário, altera o Decreto-Lei nº 911, de 1º de outubro de 1969, as Leis nº 4.591, de 16 de dezembro de 1964, nº 4.728, de 14 de julho de 1965, e nº 10.406, de 10 de janeiro de 2002, e dá outras providências."
 }

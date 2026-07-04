@@ -7,7 +7,6 @@
   "ano": 2008,
   "ementa": "Concede isenção do Imposto Predial e Territorial Urbano (IPTU) em condições específicas (inclusive habitação de interesse social / ZEIS), altera dispositivos de leis tributárias e dá outras providências.",
   "tema": [
-    "IPTU",
     "habitacional_popular",
     "HIS",
     "ZEIS",
@@ -57,5 +56,9 @@
   },
   "status_pipeline": "bruto",
   "confianca_extracao": "baixa",
-  "revisado_por_humano": false
+  "revisado_por_humano": false,
+  "dominio_primario": "iptu",
+  "dominio": [
+    "iptu"
+  ]
 }

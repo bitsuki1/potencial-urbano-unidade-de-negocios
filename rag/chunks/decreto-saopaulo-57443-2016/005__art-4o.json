@@ -28,9 +28,11 @@
       "alterada_por": []
     }
   },
-  "tema": [
-    "IPTU"
+  "tema": [],
+  "dominio": [
+    "iptu"
   ],
+  "dominio_primario": "iptu",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

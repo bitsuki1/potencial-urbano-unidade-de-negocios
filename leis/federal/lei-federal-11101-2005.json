@@ -7,7 +7,6 @@
   "ano": 2005,
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária.",
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
@@ -51,5 +50,9 @@
   },
   "status_pipeline": "indexado",
   "confianca_extracao": "alta",
-  "revisado_por_humano": false
+  "revisado_por_humano": false,
+  "dominio_primario": "iptu",
+  "dominio": [
+    "iptu"
+  ]
 }

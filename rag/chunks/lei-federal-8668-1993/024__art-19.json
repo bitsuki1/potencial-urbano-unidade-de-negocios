@@ -33,10 +33,13 @@
     }
   },
   "tema": [
-    "IPTU",
     "fundo_investimento_imobiliario",
     "propriedade_fiduciaria"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre a constituição e o regime tributário dos Fundos de Investimento Imobiliário e dá outras providências."
 }

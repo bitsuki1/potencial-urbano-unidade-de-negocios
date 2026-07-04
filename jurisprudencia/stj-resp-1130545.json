@@ -6,9 +6,7 @@
   "tema_rg_ou_repetitivo": "387",
   "leading_case": "REsp 1130545/RJ (Rel. Min. Luiz Fux, Primeira Seção, j. 09/08/2010, DJe 22/02/2011)",
   "enunciado_ou_tese": "A retificação de dados cadastrais do imóvel, após a constituição do crédito tributário, autoriza a revisão do lançamento pela autoridade administrativa (desde que não extinto o direito potestativo da Fazenda Pública pelo decurso do prazo decadencial), quando decorrer da apreciação de fato não conhecido por ocasião do lançamento anterior, ex vi do disposto no art. 149, VIII, do CTN.",
-  "tema": [
-    "IPTU"
-  ],
+  "tema": [],
   "dispositivos_relacionados": [
     "CTN art. 149, VIII",
     "CTN art. 146",
@@ -26,5 +24,9 @@
   "revisado_por_humano": false,
   "alerta_qualidade": "RESOLVIDO pela captura verbatim (2026-06-18): o REsp 1.130.545/RJ é o leading case do Tema Repetitivo 387 (não 371). A URL original apontava para AgRg no AREsp 30.272/MG (doc. 1098748), que apenas CITA o REsp 1.130.545/RJ; o inteiro teor do repetitivo foi capturado via SCON. Tese confere.",
   "revisao_pendente": false,
-  "verificacao_verbatim": "CORRIGIDO tema_rg_ou_repetitivo de '371' para '387' (Tema Repetitivo 387/STJ), conforme captura verbatim do SCON. Tese confere com o stub. A captura traz tanto o AgRg no AREsp 30.272/MG (peça referenciada na URL original) quanto o inteiro teor do REsp 1130545/RJ. revisao_pendente baixado para false."
+  "verificacao_verbatim": "CORRIGIDO tema_rg_ou_repetitivo de '371' para '387' (Tema Repetitivo 387/STJ), conforme captura verbatim do SCON. Tese confere com o stub. A captura traz tanto o AgRg no AREsp 30.272/MG (peça referenciada na URL original) quanto o inteiro teor do REsp 1130545/RJ. revisao_pendente baixado para false.",
+  "dominio_primario": "iptu",
+  "dominio": [
+    "iptu"
+  ]
 }

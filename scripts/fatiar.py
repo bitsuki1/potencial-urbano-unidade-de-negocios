@@ -207,6 +207,10 @@ def fatiar_lei(md_path: Path, reportar):
     vigencia = meta.get("vigencia") or {}
     tema = meta.get("tema") or []
     jurisdicao = meta.get("jurisdicao")
+    # Separação TDC×IPTU (plano 2026-07-04): o domínio é METADADO e o chunk HERDA o da norma.
+    # Por-documento hoje; quando o PDE for quebrado por-dispositivo, o chunk recebe o seu próprio.
+    dominio = meta.get("dominio") or []
+    dominio_primario = meta.get("dominio_primario")
 
     dispositivos = fatiar_corpo(corpo)
     if not dispositivos:
@@ -247,6 +251,10 @@ def fatiar_lei(md_path: Path, reportar):
                 "vigencia": vigencia,
             },
             "tema": tema,
+            # Separação TDC×IPTU: domínio herdado da norma (filtro pré-busca 2.6; compartilhado
+            # entra nas consultas dos dois). Vocab fechado {tdc,iptu,compartilhado}.
+            "dominio": dominio,
+            "dominio_primario": dominio_primario,
             "jurisdicao": jurisdicao,
             "ementa": meta.get("ementa"),
         }

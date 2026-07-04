@@ -57,6 +57,10 @@ def main():
             "tipo_dispositivo": c.get("tipo_dispositivo"),
             "rotulo": c.get("rotulo"),
             "tema": c.get("tema", []),
+            # Separação TDC×IPTU: domínio como FACETA filtrável (não texto). O filtro pré-busca (2.6)
+            # inclui sempre 'compartilhado' nas consultas dos dois domínios — ver consultar.filtrar().
+            "dominio": c.get("dominio", []),
+            "dominio_primario": c.get("dominio_primario"),
             "jurisdicao": c.get("jurisdicao"),
             "vigencia": (c.get("citacao") or {}).get("vigencia", {}),
             # B-11c: vigência por dispositivo (revogado/compilado/original) p/ o filtro pré-busca (2.6).

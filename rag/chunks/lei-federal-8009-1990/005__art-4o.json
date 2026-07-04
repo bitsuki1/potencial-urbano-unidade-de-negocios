@@ -30,11 +30,14 @@
     }
   },
   "tema": [
-    "IPTU",
     "bem_de_familia",
     "impenhorabilidade",
     "execucao_fiscal"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre a impenhorabilidade do bem de família."
 }

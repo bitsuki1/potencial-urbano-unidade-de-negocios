@@ -36,11 +36,14 @@
     }
   },
   "tema": [
-    "IPTU",
     "condominio_edilicio",
     "incorporacao_imobiliaria",
     "unidade_autonoma"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
 }

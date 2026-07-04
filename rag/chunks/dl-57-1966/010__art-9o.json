@@ -32,10 +32,13 @@
     }
   },
   "tema": [
-    "IPTU",
     "ITR",
     "destinacao_economica"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Altera dispositivos sobre lançamento e cobrança do Imposto sobre a Propriedade Territorial Rural, institui normas sobre arrecadação da Dívida Ativa correspondente, e dá outras providências."
 }

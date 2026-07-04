@@ -65,19 +65,31 @@ def _vigente_em(vig, data):
     return True
 
 
-def filtrar(meta, lei=None, tema=None, jurisdicao=None, data=None, incluir_revogado=False,
-            incluir_nao_citavel=False):
-    """Etapa 1 (2.6): conjunto de chunks elegíveis após filtro de metadado (inclui temporal).
+def _casa_dominio(dom_chunk, alvo):
+    """Regra de ouro da separação TDC×IPTU (plano 2026-07-04): um chunk casa o domínio-alvo se o
+    alvo está no seu `dominio` OU se ele é 'compartilhado' (lar único que entra nas consultas dos
+    DOIS). Por construção NÃO perde nada — compartilhado (CF/Estatuto/PDE/LPUOS/…) sempre acompanha."""
+    dom_chunk = dom_chunk or []
+    return (alvo in dom_chunk) or ("compartilhado" in dom_chunk)
+
+
+def filtrar(meta, lei=None, tema=None, jurisdicao=None, data=None, dominio=None,
+            incluir_revogado=False, incluir_nao_citavel=False):
+    """Etapa 1 (2.6): conjunto de chunks elegíveis após filtro de metadado (inclui temporal e domínio).
     B-11c (1.6): por padrão EXCLUI dispositivos REVOGADOS — o RAG não pode devolver redação
     revogada como vigente. `incluir_revogado=True` reabre-os (consulta histórica explícita).
     B-11d (1.7): por padrão EXCLUI o preâmbulo/boilerplate NÃO-CITÁVEL — não se fundamenta uma
-    resposta citando cabeçalho de portal. `incluir_nao_citavel=True` reabre-os (auditoria)."""
+    resposta citando cabeçalho de portal. `incluir_nao_citavel=True` reabre-os (auditoria).
+    `dominio` (tdc|iptu): restringe ao domínio, SEMPRE incluindo 'compartilhado' (não-perda)."""
     elegiveis = set(meta.keys())
     if not incluir_revogado:
         elegiveis = {c for c in elegiveis
                      if (meta[c].get("vigencia_dispositivo") or {}).get("status") != "revogado"}
     if not incluir_nao_citavel:
         elegiveis = {c for c in elegiveis if meta[c].get("citavel", True)}
+    if dominio:
+        dn = normalizar(dominio)
+        elegiveis = {c for c in elegiveis if _casa_dominio(meta[c].get("dominio"), dn)}
     if lei:
         elegiveis = {c for c in elegiveis if meta[c]["lei_id"] == lei}
     if tema:
@@ -130,10 +142,10 @@ def pontuar(pergunta, inv, elegiveis):
     return scores, termos_casados, termos_pergunta
 
 
-def consultar(pergunta, lei=None, tema=None, jurisdicao=None, data=None, top=3,
+def consultar(pergunta, lei=None, tema=None, jurisdicao=None, data=None, dominio=None, top=3,
               incluir_revogado=False, incluir_nao_citavel=False):
     store, inv, meta = carregar_indice()
-    elegiveis = filtrar(meta, lei=lei, tema=tema, jurisdicao=jurisdicao, data=data,
+    elegiveis = filtrar(meta, lei=lei, tema=tema, jurisdicao=jurisdicao, data=data, dominio=dominio,
                         incluir_revogado=incluir_revogado, incluir_nao_citavel=incluir_nao_citavel)
     scores, termos, termos_pergunta = pontuar(pergunta, inv, elegiveis)
     ranked = sorted(scores.items(), key=lambda kv: kv[1], reverse=True)[:top]
@@ -174,7 +186,8 @@ def consultar(pergunta, lei=None, tema=None, jurisdicao=None, data=None, top=3,
         if resultados else "NÃO-FUNDAMENTADA (1.7: nenhum dispositivo no corpus indexado)")
     return {
         "pergunta": pergunta,
-        "filtros": {"lei": lei, "tema": tema, "jurisdicao": jurisdicao, "data": data},
+        "filtros": {"lei": lei, "tema": tema, "jurisdicao": jurisdicao, "data": data,
+                    "dominio": dominio},
         "termos_pergunta": termos_pergunta,
         "fundamentada": fundamentada,
         "veredito": veredito,
@@ -214,6 +227,8 @@ def main(argv):
     p.add_argument("pergunta", help="pergunta em linguagem natural")
     p.add_argument("--lei", help="filtra por lei_id")
     p.add_argument("--tema", help="filtra por tema")
+    p.add_argument("--dominio", choices=["tdc", "iptu"],
+                   help="restringe ao domínio (tdc|iptu); 'compartilhado' entra SEMPRE (não-perda)")
     p.add_argument("--jurisdicao", help="filtra por jurisdição")
     p.add_argument("--data", help="filtro temporal AAAA-MM-DD (vigência na data do fato gerador)")
     p.add_argument("--top", type=int, default=3)
@@ -224,7 +239,8 @@ def main(argv):
     p.add_argument("--json", action="store_true", help="saída JSON")
     args = p.parse_args(argv[1:])
     r = consultar(args.pergunta, lei=args.lei, tema=args.tema, jurisdicao=args.jurisdicao,
-                  data=args.data, top=args.top, incluir_revogado=args.incluir_revogado,
+                  data=args.data, dominio=args.dominio, top=args.top,
+                  incluir_revogado=args.incluir_revogado,
                   incluir_nao_citavel=args.incluir_nao_citavel)
     if args.json:
         print(json.dumps(r, ensure_ascii=False, indent=2))

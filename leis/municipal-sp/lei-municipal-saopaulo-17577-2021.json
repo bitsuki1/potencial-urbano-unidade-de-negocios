@@ -7,7 +7,6 @@
   "ano": 2021,
   "ementa": "Dispõe sobre o Programa Requalifica Centro, estabelecendo incentivos e o regime específico para a requalificação de edificações situadas na Área Central, e dá outras providências.",
   "tema": [
-    "IPTU",
     "Requalifica_Centro",
     "incentivo_fiscal",
     "isencao",
@@ -52,5 +51,9 @@
   },
   "status_pipeline": "bruto",
   "confianca_extracao": "media",
-  "revisado_por_humano": false
+  "revisado_por_humano": false,
+  "dominio_primario": "iptu",
+  "dominio": [
+    "iptu"
+  ]
 }
