@@ -74,6 +74,23 @@ def check_regime_pcpt():
     return rc == 0, "regime PCpt: já-declarado=PENDENTE·prospecção=estimativa OK" if rc == 0 else f"regime PCpt regrediu (exit {rc})"
 
 
+def check_divergencia():
+    # M0: a divergência PCpt×certidões é SURFAÇADA e 100% flagada (nunca escondida/firme).
+    rc, _ = _run(["evals/eval-divergencia-pcpt.py"])
+    return rc == 0, "divergência PCpt×certidões surfaçada e flagada OK" if rc == 0 else f"divergência não surfaçada/flagada (exit {rc})"
+
+
+def check_disclaimer():
+    # M0: DISCLAIMER.md existe E o bloco está injetado na saída ao cliente (COMO-USAR.md).
+    disc = RAIZ / "DISCLAIMER.md"
+    como = RAIZ / "zepec" / "ferramenta" / "COMO-USAR.md"
+    if not disc.exists():
+        return False, "DISCLAIMER.md ausente na raiz"
+    if not como.exists() or "DISCLAIMER-BLOCO-INICIO" not in como.read_text(encoding="utf-8"):
+        return False, "bloco DISCLAIMER não injetado em zepec/ferramenta/COMO-USAR.md"
+    return True, "DISCLAIMER.md + bloco na saída ao cliente OK"
+
+
 def check_stray_tags():
     # Só a CORPUS-DATA importa: num .md/.json de lei/jurisprudência/índice, uma tag de tool-call é
     # SEMPRE corrupção (já aconteceu: </invoke> vazou para a 7228 e o índice). Código .py é excluído
@@ -144,6 +161,8 @@ def main():
         ("PRODUTO (golden Fi cedentes reais, T2)", check_produto),
         ("CONSERVAÇÃO (Art.129 3-estados, T4)", check_conservacao),
         ("REGIME PCpt (já-declarado×novo, T3)", check_regime_pcpt),
+        ("DIVERGÊNCIA PCpt×certidões (M0)", check_divergencia),
+        ("DISCLAIMER injetado (M0)", check_disclaimer),
         ("CORPUS (sem stray tags)", check_stray_tags),
         ("MANIFESTO (idempotente, SSOT)", check_manifesto_idempotente),
         ("BACKLOG (fresco, D83)", check_backlog_fresh),

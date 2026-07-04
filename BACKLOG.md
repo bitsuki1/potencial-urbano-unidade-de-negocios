@@ -40,7 +40,7 @@
 > | **T8** 🟥 | Vedação Art.124§2 só substring (`montar_base.py:104`), sem geometria; fail-closed só-preço | usa geometria AUE/APPa do Drive; guard ANTES de atc/cabas zera pcpt/saldo nas vedadas; CONFLITO(4)≠vedado(32) | — |
 > | ~~**T3**~~ ✅ | **FEITO (PU 17, 2026-07-04).** `enriquecer_oficial.py`: `regime_pcpt()` separa **JÁ-DECLARADO** (Art.125 §1º I — PCpt governado pela Declaração) de **PROSPECÇÃO NOVA** (Art.24 caput — escalonado é estimador lícito); colunas `regime_pcpt`+`qualidade_estimativa`; já-declarado ganha pendência explícita ("escalonado é ESTIMATIVA, não o declarado"). `_autoteste_regime()` + gate/CI. | ✅ **PROVADO:** oficial regenerado = **615 JÁ_DECLARADO (PENDENTE_FI_DECLARADO)** · 5516 PROSPECCAO_NOVA; 341 já-declarado com PCpt agora flagados estimativa (não "declarado"); sabotar a separação FALHA o autoteste. | — |
 > | ~~**T4**~~ ✅ | **FEITO (PU 17, 2026-07-04).** `montar_base.py`: classificador `elegibilidade_conservacao()` 3-estados (Art. 129) + `_autoteste_conservacao()` (fixtures: Termo→PENDENTE, RES→SEM_ATESTADO, nunca ELEGÍVEL); campo mal-rotulado corrigido (bp_compres/RES = tombamento → `ato_tombamento`, não `ato_conservacao`); coluna materializada no base. Gate local + CI. | ✅ **PROVADO:** base regenerado = **31 ELEGÍVEL (Atestado) · 111 PENDENTE (Termo) · 7033 SEM_ATESTADO**; 0 linha de tombamento/RES marcada ELEGÍVEL; **sabotar Termo→ELEGÍVEL faz o autoteste FALHAR** (exit 1). Diff cirúrgico (só `ato_conservacao`→`ato_tombamento`). RESTA (M1): propagar `PRÉ-CONDIÇÃO` à ferramenta ao cliente. | — |
-> | **T5·T9·T11·T6·T12** ⬜ | disclaimer+27%; parcelamento>50k; saldo por conjunto; arquivar oráculos; endurecer DoDs | ver handoff §8 | — |
+> | **T5** ✅ · **T6** ✅ · T9·T11·T12 ⬜ | ✅ **T5 (disclaimer + divergência 27%) FEITO** (`DISCLAIMER.md` + bloco em COMO-USAR; `eval-divergencia-pcpt.py` — 55 pares, mediana 1,66, 100% flagados). ✅ **T6 (arquivar oráculos) FEITO** (git rm `engines/tdc/oraculos/*`; 3 papéis declarados no CODEX). RESTA: T9 (parcelamento>50k — já exposto no engine, falta eval), T11 (saldo por conjunto `montar_ferramenta.py:46`), T12 (endurecer DoDs). | ver handoff §8 + `docs/MOTOR-ZERO-M0-FECHAMENTO.md` | — |
 > | **G1** 🟦 | Overlay por centroide/1ª feature (`overlay_zona.py:77`) | overlay por ÁREA + `unary_union` + `representative_point`; SIRGAS oficial no lugar do `_IA` | — |
 > | **G3** 🟦 | 1.839 "sem SQL" tratados como geocode (1.772 = "Light" coletivo) | geocodificar só os 63 reais contra IPTU_2026 COMPLETO; modelar o bem coletivo | — |
 > | **G2** 🟦 | Zona-base sob selo (454); **ZOE usa Quadro 2A**, não Q3 | overlay N:N + FLAG; ZOE só após Quadro 2A | **DONO: Quadro 2A** — prompt de extração pronto: `extracao/PROMPT-EXTRACAO-DECRETO57536-E-QUADRO2A.md` → salvar no Drive `01 — _entrada` |
@@ -62,6 +62,17 @@
 | **B-23** 🟨 | **Deletar 6 branches remotas redundantes** (conteúdo único JÁ RESGATADO ao main — nada se perde; dono autorizou 2026-07-03). **PARCIAL (extensão externa, 2026-07-03): 3/6 DELETADAS** ✅ `escritorio-instance-organization-4zpyoh` · `potencial-urbano-strategy-kp9bgr` · `pu-drive-saneamento-sufixoN`. **RESTAM 3:** (i) `project-audit-roadmap-2thi1g` — 0 arquivos únicos, deletável JÁ; (ii+iii) `pu-14-instances-ey91o2` e `backlog-audit-separation-w1vu4b` — a extensão CORRETAMENTE recusou (safety-check: têm arquivos únicos vs `origin/main` porque o resgate está na branch `jsgvth`, ainda NÃO consolidada ao main). | `git ls-remote --heads origin` mostra só `main` + branch de trabalho. **Ordem correta:** (1) consolidar `jsgvth`→`main` (resgates aterrissam) → (2) então deletar `pu-14` + `backlog-audit` (safety-check passa) + `project-audit-roadmap`. | (i) egress 403 desta sessão → dono na UI/`gh`; (ii+iii) depende de `jsgvth`→`main` primeiro |
 
 ## ✅ RESOLVIDAS RECENTES (rastro)
+- **2026-07-04 — PU 17: MOTOR ZERO (M0) FECHADO — piso de credibilidade.** Entregável: `docs/MOTOR-ZERO-M0-FECHAMENTO.md`.
+  Todos os itens do M0 com PROVA MECÂNICA e gate VERDE (8 checks de conteúdo no `fechar-instancia.py` + CI):
+  **T1** (fórmula cita Art. 125), **T2** (CI cobre o produto — sabotar 1 Fi FALHA), **T4** (conservação Art. 129
+  3-estados), **T3** (regime já-declarado × prospecção nova), **T5** (DISCLAIMER + divergência 27% surfaçada:
+  55 pares, mediana 1,66), **T6** (oráculos arquivados; 3 papéis canônicos declarados), **L1** (Art. 128/117
+  indexados; constante-4/÷4 DECLARADA PENDENTE — sem amparo no verbatim; moot por D-ESCOPO-01), **T7** (segurança,
+  Fase 0). O M0 torna o produto **auditável e honesto** (cada número cita a lei e declara estimativa/pendência),
+  NÃO "certo em escala" (cobertura/geo/preço são M1/M3). Gates novos no CI: engine cedente, produto, conservação,
+  regime PCpt, divergência. **PRÓXIMO: M1** (ferramenta religada) — mas o preço depende do fork (c) do dono, e o
+  grosso de M3 depende dos 2 verbatims (Decreto 57.536 + Quadro 2A) + geometria do Drive.
+
 - **2026-07-03 — PU 17 (organização/processos em ordem): consolidação do rastro + reconciliação de escopo.**
   **Movidos de 🔴 ABERTAS → rastro** (estavam presos com ✅/FECHADO, violando a regra "resolvido→rastro"):
   **B-17** (produto consolidado no `main` pela UNIÃO `kp9bgr`→main / D141 — não pelo PR `project-audit-roadmap`;

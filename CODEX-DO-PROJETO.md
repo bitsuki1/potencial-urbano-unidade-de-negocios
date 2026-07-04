@@ -494,6 +494,14 @@ qualquer alteração); Supabase ADOTADO — projeto `potencial-urbano-iptu-tdc`
 - **Mecanismo anti-perda ("ladrão" D83):** `BACKLOG.md` + hook de boot + `scripts/fechar-instancia.py`
   (rodar ao fechar; sai 0 = verde).
 - **SSOT:** este Codex (v0.5). Playbook do escritório: `BETA-CONTINUO.md`.
+- **★ 3 PAPÉIS DE FONTE-DE-VERDADE (M0/C-R4, 2026-07-04):** o estado do projeto vive em 3 papéis canônicos —
+  **(1) git** = ESTADO real · **(2) `MANIFESTO.json`** = STATUS do pipeline (gerado) · **(3) `BACKLOG.md`** =
+  TRABALHO aberto (com DoD). Os **oráculos** (`engines/tdc/oraculos/*`, que canonizaram o Fi=1 errado e a
+  constante-4 sem amparo no verbatim) foram **arquivados** (git rm; recuperáveis por `git log`). "Nada se
+  descarta" = nada se apaga do **histórico git**, não "tudo fica no working tree". Ver `docs/MOTOR-ZERO-M0-FECHAMENTO.md`.
+- **★ MOTOR ZERO (M0) FECHADO (2026-07-04):** piso de credibilidade — T1·T2·T3·T4·T5·T6·L1·T7, todos com prova
+  mecânica e gate VERDE (8 checks de conteúdo + CI). Constante-4/÷4 **PENDENTE** (sem amparo no Art. 128 verbatim;
+  moot por D-ESCOPO-01). Entregável: `docs/MOTOR-ZERO-M0-FECHAMENTO.md`.
 - **Arrumação física:** plano FINAL de 992 itens (984+8) auditado; motor v5 com fix
   do `/` (FOLDER_IDS). Ainda em ENSAIO — falta o operador rodar até `=== FIM ===`
   e então o move real.

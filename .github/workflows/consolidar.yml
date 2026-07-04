@@ -83,6 +83,10 @@ jobs:
       - name: Regime PCpt (já-declarado × prospecção nova, Art.24 caput × Art.125)
         run: python3 zepec/enriquecer_oficial.py --autoteste
 
+      # M0 — a divergência PCpt×certidões (~1,66×) é SURFAÇADA e 100% flagada, nunca escondida.
+      - name: Divergência PCpt × certidões (surfaçar, não esconder)
+        run: python3 evals/eval-divergencia-pcpt.py
+
       # Só DEPOIS dos gates verdes: commita os artefatos derivados. NÃO em pull_request
       # (PR não deve commitar/pushar; roda só os gates acima como check de merge).
       - name: Commitar artefatos derivados se mudaram (após gates verdes)
