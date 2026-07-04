@@ -64,7 +64,8 @@ def inferir_dominio(titulo, base):
 
 
 # --- tipo por título (override do tipo-base da subpasta). ---
-RE_GEO = re.compile(r"\bmapa\b|\bp[áa]gina\b|\bplanta\b|\.shp\b|\.gpkg\b|\.kml\b|sirgas|shapefile|geosampa|zoneament", re.IGNORECASE)
+# NÃO incluir "zoneamento" aqui: uma LEI de zoneamento é lei, não geo. Só sinais de arquivo geográfico.
+RE_GEO = re.compile(r"\bmapa\b|\bplanta\b|\.shp\b|\.gpkg\b|\.kml\b|\.dwg\b|sirgas|shapefile|geosampa", re.IGNORECASE)
 RE_TABELA = re.compile(r"quadro.*final|\bquadro\b.*\.(xlsx|csv|doc)", re.IGNORECASE)
 RE_JURIS = re.compile(r"st[jf][-_ ]?tema|st[jf][-_ ]?resp|s[úu]mula|\bresp\b\s*\d|\bare\b\s*\d|\brextra\b", re.IGNORECASE)
 RE_NORMA = re.compile(r"\b(lei|decreto|portaria|resolu[çc][ãa]o|instru[çc][ãa]o normativa)\b", re.IGNORECASE)
@@ -76,10 +77,10 @@ def tipo_por_titulo(titulo, base):
         return "geo"
     if RE_TABELA.search(t):
         return "tabela"
-    if base in ("doutrina", "jurisprudencia") and RE_JURIS.search(t):
-        return "jurisprudencia"     # jurisprudência oficial presa em 2.7 volta a ser citável (A2)
-    if base == "jurisprudencia" and RE_NORMA.search(t) and not RE_JURIS.search(t):
-        return "lei"                # 2 leis/infralegal caíram no bucket de juris (A3)
+    if base in ("doutrina", "jurisprudencia", PEND) and RE_JURIS.search(t):
+        return "jurisprudencia"     # jurisprudência oficial (A2) — vale mesmo sem destino (lago, base=PEND)
+    if base in ("jurisprudencia", PEND) and RE_NORMA.search(t) and not RE_JURIS.search(t):
+        return "lei"                # lei/infralegal fora do bucket de leis (A3; e lago sem destino)
     return base
 
 
@@ -128,32 +129,56 @@ def proveniencia(titulo, base, tipo):
     return base
 
 
-def linha_indice(r):
-    destino = r.get("destino", "")
-    titulo = r.get("titulo", "")
+# destino-tipo -> classe/pasta canônica da taxonomia de junho (p/ classificar arquivos SEM destino, ex.: lago).
+TIPO_PARA_DESTINO = {
+    "lei": "02 — Leis & Jurisprudência", "jurisprudencia": "02 — Leis & Jurisprudência/2.6 Jurisprudência",
+    "doutrina": "02 — Leis & Jurisprudência/2.7 Doutrina-Estudos-Avaliação",
+    "tabela": "03 — Tabelas & Engines", "geo": "05 — Geo / Mapas",
+    "governanca": "00 — Governança & Índice",
+}
+
+
+def classificar(titulo, destino=""):
+    """Deriva os campos de classificação de UM arquivo a partir do título (+ destino do de-para, se houver).
+    Reutilizável: o reconciliador chama isto p/ classificar arquivos do LAGO, que não têm destino (R8)."""
     tipo_b, dom_b, prov_b = base_destino(destino)
     tipo = tipo_por_titulo(titulo, tipo_b)
     dom = inferir_dominio(titulo, dom_b)
     prov = proveniencia(titulo, prov_b, tipo)
     dom_prim = dom if dom in ("tdc", "iptu", "compartilhado") else PEND
-    prefixo = ""
-    if dom_prim != PEND and prov != PEND:
-        prefixo = f"[{dom_prim[:3].upper()}][{prov}] "     # C1: prefixo canônico derivável agora
-    vig_ini = vigencia_do_titulo(titulo, tipo)
+    prefixo = f"[{dom_prim[:3].upper()}][{prov}] " if (dom_prim != PEND and prov != PEND) else ""
+    dest_path = destino or (TIPO_PARA_DESTINO.get(tipo, "99 — Inbox / Triagem"))
     return {
-        "drive_id": r.get("drive_id", "").strip(),
-        "nome_origem": titulo.strip(),
-        "nome_canonico": (prefixo + titulo.strip()) if prefixo else PEND,
+        "nome_canonico": (prefixo + (titulo or "").strip()) if prefixo else PEND,
         "tipo_artefato": tipo,
         "dominio": dom,
         "dominio_primario": dom_prim,
         "proveniencia": prov,
         "oficialidade": {"OFI": "OFICIAL", "ADQ": "ADQUIRIDO", "NOS": "NOSSO"}.get(prov, PEND),
+        "vigencia_inicio": vigencia_do_titulo(titulo, tipo),
+        "destino_classe": (dest_path.split(" ")[0] if dest_path else PEND),
+        "destino_path": dest_path,
+    }
+
+
+def linha_indice(r):
+    destino = r.get("destino", "")
+    titulo = r.get("titulo", "")
+    c = classificar(titulo, destino)
+    return {
+        "drive_id": r.get("drive_id", "").strip(),
+        "nome_origem": titulo.strip(),
+        "nome_canonico": c["nome_canonico"],
+        "tipo_artefato": c["tipo_artefato"],
+        "dominio": c["dominio"],
+        "dominio_primario": c["dominio_primario"],
+        "proveniencia": c["proveniencia"],
+        "oficialidade": c["oficialidade"],
         "confianca": PEND,
-        "vigencia_inicio": vig_ini, "vigencia_fim": PEND,
+        "vigencia_inicio": c["vigencia_inicio"], "vigencia_fim": PEND,
         "substitui": "", "substituido_por": "",
-        "destino_classe": (destino.split(" ")[0] if destino else PEND),
-        "destino_path": destino,
+        "destino_classe": c["destino_classe"],
+        "destino_path": c["destino_path"],
         "hash_md5": PEND, "bytes": PEND, "mime": PEND,   # R5: é md5 do Drive, não sha256
         "id_pipeline": "",
         "status_arrumacao": "carimbado",                  # B2: enum §5 (não 'planejado')

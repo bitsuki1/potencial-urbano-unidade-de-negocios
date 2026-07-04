@@ -169,6 +169,15 @@ function sanearLagoTDC() {
   }
   Logger.log('ENUM+HASH COMPLETOS: %s arquivos, %s nativos (não-dedup).', arquivos.length, nativos);
 
+  // R8 — INVENTÁRIO do lago (todos os arquivos, com md5): o reconciliador classifica e TIPIFICA as
+  // canônicas (nome→tipo/domínio) sem precisar varrer o Drive de novo. nome entre aspas (vírgulas no título).
+  Logger.log('INV_INICIO drive_id,nome,md5,bytes');
+  for (var q = 0; q < arquivos.length; q++) {
+    var af = arquivos[q];
+    Logger.log('INV_LINHA %s,"%s",%s,%s', af.id, (af.nome || '').replace(/"/g, "'"), (cache[af.id] || ''), af.size || '');
+  }
+  Logger.log('INV_FIM');
+
   // ---- dedup por md5 (só agora, com tudo hasheado) ----
   var porHash = {}, semHashBin = 0;
   for (var k = 0; k < arquivos.length; k++) {

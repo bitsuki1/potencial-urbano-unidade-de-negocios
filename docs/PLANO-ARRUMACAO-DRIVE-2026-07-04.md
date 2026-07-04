@@ -264,7 +264,7 @@ O dono pediu para eu **preparar e afinar por lentes** (não revisar à mão). Pr
 | R11 | gate | estados terminais (triagem/inbox) davam falso-vermelho | `triagem` como estado resolvido, fora do denominador de pendência |
 | R12 | gate | exit-code verde em 'plano' enganava CI | flag `--require-executed` (exit 4 se Drive não executado) |
 
-### Limitações CONHECIDAS (declaradas, não escondidas — a resolver em onda futura)
-- **R8 — lago = congelado após dedup:** o Sanear só quarentena as irmãs; a **canônica FICA no lago** (não é tipificada). Tipificar/reingerir as canônicas do lago é **onda separada** de reingestão, não esta.
-- **R9 — dedup é por-árvore, não global:** o Sanear deduplica só o lago; a `_entrada` tem suas próprias duplicatas e pode haver cópia byte-idêntica entre `_entrada` e lago que **nenhum** dos dois passes vê. Fecho isso com um passe de hash **global** (ou o reconciliador detectando md5 repetido entre os dois logs) — **onda futura**; hoje a promessa "canônica única" vale DENTRO de cada árvore, não entre elas.
+### R8 e R9 — ENDEREÇADOS (2ª rodada autônoma, 2026-07-04)
+- **R8 — canônicas do lago tipificadas (não mais órfãs):** o Sanear agora emite `INV_LINHA drive_id,"nome",md5,bytes` de TODO o lago. O reconciliador **classifica cada canônica pelo nome** (reusa `semear_indice_mestre.classificar`) e a INDEXA com tipo/domínio/`destino_path` — deixa de ser órfã no legado. *(O move físico da canônica p/ a pasta-tipo é a onda de reingestão — um GAS análogo ao Organizar, dirigido pelo MESTRE; a classificação/índice já está pronta.)*
+- **R9 — dedup GLOBAL cross-tree:** o reconciliador agrupa por `hash_md5` TODOS os itens colocados (`moved`/`espelhado`), de `_entrada` E do lago. Cópia byte-idêntica entre árvores → elege a canônica (maior oficialidade) e emite as extras em `inventario/cross-tree-dups.csv` p/ um GAS de quarentena consumir. A promessa "canônica única" passa a valer ENTRE árvores, não só dentro. Surfaçado no gate (não escondido).
 - **A prova só existe após o dono rodar os GAS:** enquanto `gas-log-*.txt` não existir, o gate fica em fase 'plano' — honesto, não falso-verde.

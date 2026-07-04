@@ -40,7 +40,12 @@ import semear_indice_mestre as SEM  # noqa: E402  (reusa COLUNAS + serializar)
 
 RE_MOVE = re.compile(r"MOVE_LINHA\s+([^,]+),([^,]*),([^,]*),([^,]*),(\w+)")
 RE_CSV = re.compile(r"CSV_LINHA\s+([^,]+),([^,]*),(\w+),([^,\s]*)")
+# R8: inventário do lago (nome entre aspas). Último campo = \S* (NÃO [^,]*, que casa \n e come a linha seguinte).
+RE_INV = re.compile(r'INV_LINHA\s+(\S+),"([^"]*)",([^,]*),(\S*)')
 TRILHA_COLS = ["data_ref", "drive_id", "acao", "origem", "destino", "hash_md5"]
+CROSS = INV / "cross-tree-dups.csv"       # R9: duplicatas byte-idênticas entre árvores (p/ GAS de quarentena)
+CROSS_COLS = ["hash_md5", "canonico_id", "dup_id", "dup_status", "motivo"]
+OFI_RANK = {"OFICIAL": 3, "ADQUIRIDO": 2, "NOSSO": 1, "PENDENTE": 0, "": 0}
 
 
 def _carregar_seed():
@@ -73,6 +78,27 @@ def reconciliar():
         data_ref = re.search(r"gas-log-(.+)\.txt", Path(lp).name)
         data_ref = data_ref.group(1) if data_ref else "?"
         texto = Path(lp).read_text(encoding="utf-8", errors="replace")
+
+        # R8 — INV_LINHA (inventário do lago): UPSERT + CLASSIFICA cada arquivo do lago pelo NOME
+        # (reusa SEM.classificar). Assim a canônica que fica no lago recebe tipo/domínio/destino e
+        # deixa de ser órfã. Não muda status aqui (MANTER/QUARENTENA abaixo é que movem).
+        for m in RE_INV.finditer(texto):
+            did, nome, md5, byts = m.group(1).strip(), m.group(2).strip(), m.group(3).strip(), m.group(4).strip()
+            r = idx.get(did)
+            if r is None:                       # arquivo do lago fora do de-para → INSERE, classificado
+                r = _linha_vazia(did)
+                r["nome_origem"] = nome
+                c = SEM.classificar(nome, "")
+                for k, v in c.items():
+                    r[k] = v
+                r["observacao"] = "lago: TODOS TDC"
+            if md5:
+                r["hash_md5"] = md5
+            if byts:
+                r["bytes"] = byts
+            idx[did] = r
+            if did not in ordem:
+                ordem.append(did)
 
         # MOVE_LINHA (Organizar-Entrada): move p/ pasta-tipo.
         for m in RE_MOVE.finditer(texto):
@@ -132,14 +158,40 @@ def reconciliar():
                     ordem.append(did)
 
     linhas = [idx[d] for d in ordem]
-    return (linhas, trilha_novas, bloqueios), logs
+    cross = _detectar_cross_tree(linhas)
+    return (linhas, trilha_novas, bloqueios, cross), logs
+
+
+def _detectar_cross_tree(linhas):
+    """R9 — dedup GLOBAL: agrupa por hash_md5 os itens fisicamente COLOCADOS (moved/espelhado). Um hash
+    com >1 colocado é duplicata byte-idêntica ENTRE árvores (_entrada × lago) que nenhum passe local vê.
+    Elege a canônica (maior oficialidade; empate → primeira) e devolve as EXTRAS p/ quarentena posterior
+    (via um GAS que consome `inventario/cross-tree-dups.csv`). Não muda o Drive — só SURFAÇA (não esconde)."""
+    colocado = ("moved", "espelhado")
+    por_hash = {}
+    for r in linhas:
+        h = (r.get("hash_md5") or "").strip()
+        if h and h != SEM.PEND and (r.get("status_arrumacao") or "").strip() in colocado:
+            por_hash.setdefault(h, []).append(r)
+    extras = []
+    for h, grupo in por_hash.items():
+        if len(grupo) < 2:
+            continue
+        canon = max(grupo, key=lambda r: OFI_RANK.get((r.get("oficialidade") or "").strip(), 0))
+        for r in grupo:
+            if r is canon:
+                continue
+            extras.append({"hash_md5": h, "canonico_id": canon["drive_id"], "dup_id": r["drive_id"],
+                           "dup_status": r.get("status_arrumacao", ""),
+                           "motivo": f"byte-idêntico a {canon['drive_id']} ({canon.get('oficialidade')})"})
+    return extras
 
 
 def main(check_only):
     res, logs = reconciliar()
     if res is None:
         return 1
-    linhas, trilha_novas, bloqueios = res
+    linhas, trilha_novas, bloqueios, cross = res
     if bloqueios:
         print("reconciliar: BLOQUEIO (R4) — canônica menos oficial que a irmã quarentenada:")
         for b in bloqueios:
@@ -147,26 +199,44 @@ def main(check_only):
         return 2
 
     conteudo = SEM.serializar(linhas)
+    cross_conteudo = ""
+    if cross:
+        buf = StringIO()
+        w = csv.DictWriter(buf, fieldnames=CROSS_COLS, lineterminator="\n")
+        w.writeheader()
+        for x in cross:
+            w.writerow(x)
+        cross_conteudo = buf.getvalue()
+
     if check_only:
         atual = MESTRE.read_text(encoding="utf-8") if MESTRE.exists() else ""
-        if atual != conteudo:
-            print("reconciliar --check: FALHA — MESTRE difere do reconciliado. Rode sem --check.")
+        atual_cross = CROSS.read_text(encoding="utf-8") if CROSS.exists() else ""
+        if atual != conteudo or atual_cross != cross_conteudo:
+            print("reconciliar --check: FALHA — MESTRE/cross-tree difere do reconciliado. Rode sem --check.")
             return 1
         print(f"reconciliar --check: OK — MESTRE em dia ({len(linhas)} linhas).")
         return 0
 
-    MESTRE.write_text(conteudo, encoding="utf-8")
-    # trilha durável (append-only): só cresce, é a prova versionada dos moves.
-    novo_arquivo = not TRILHA.exists()
+    # Trilha durável: REGENERADA dos logs a cada run (os gas-log-*.txt são a fonte, versionados no git),
+    # NÃO append — senão rodar 2× DOBRA as linhas (idempotência quebrada). Regenerar é determinístico.
+    trilha_conteudo = ""
     if trilha_novas:
         buf = StringIO()
         w = csv.DictWriter(buf, fieldnames=TRILHA_COLS, lineterminator="\n")
-        if novo_arquivo:
-            w.writeheader()
+        w.writeheader()
         for t in trilha_novas:
             w.writerow(t)
-        with open(TRILHA, "a", encoding="utf-8") as f:
-            f.write(buf.getvalue())
+        trilha_conteudo = buf.getvalue()
+
+    MESTRE.write_text(conteudo, encoding="utf-8")
+    if cross_conteudo:
+        CROSS.write_text(cross_conteudo, encoding="utf-8")
+    elif CROSS.exists():
+        CROSS.unlink()      # sem cross-tree dups → sem arquivo (idempotência)
+    if trilha_conteudo:
+        TRILHA.write_text(trilha_conteudo, encoding="utf-8")
+    elif TRILHA.exists():
+        TRILHA.unlink()
 
     import collections
     st = collections.Counter(l["status_arrumacao"] for l in linhas)
@@ -177,6 +247,9 @@ def main(check_only):
         print(f"  trilha: +{len(trilha_novas)} moves em {TRILHA.relative_to(RAIZ)}")
     else:
         print("  (nenhum log do GAS ainda — MESTRE == SEED; fase 'plano')")
+    if cross:
+        print(f"  R9 CROSS-TREE: {len(cross)} duplicata(s) byte-idêntica(s) entre árvores → "
+              f"{CROSS.relative_to(RAIZ)} (rode o GAS de quarentena p/ removê-las).")
     return 0
 
 
