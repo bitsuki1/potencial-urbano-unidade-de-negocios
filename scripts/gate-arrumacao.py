@@ -50,18 +50,34 @@ def c8_roteamento():
 
 
 # ---------- DRIVE (pendentes até o índice-mestre existir) ----------
+ARRUMADO = ("moved", "espelhado", "quarentena")  # status que significam "saiu da _entrada de verdade"
+
+
 def _indice_rows():
     with open(INDICE, encoding="utf-8") as f:
         return list(csv.DictReader(f))
+
+
+def _fase():
+    """Fase da arrumação: 'sem-indice' | 'plano' (nada movido ainda) | 'execucao' (algo movido)."""
+    if not INDICE.exists():
+        return "sem-indice"
+    rows = _indice_rows()
+    movidos = [r for r in rows if (r.get("status_arrumacao") or "").strip() in ARRUMADO]
+    return "execucao" if movidos else "plano"
 
 
 def c1_entrada_vazia():
     if not INDICE.exists():
         return None, "índice-mestre ausente — onda Drive ainda não correu"
     rows = _indice_rows()
-    soltos = [r for r in rows if (r.get("destino_classe") or "").strip() in ("", "01", "_entrada")
-              and (r.get("status_arrumacao") or "").strip() not in ("moved", "espelhado", "quarentena")]
-    return (not soltos), (f"0 soltos na _entrada" if not soltos else f"{len(soltos)} ainda soltos na _entrada")
+    # "arrumado" = status ∈ ARRUMADO. Enquanto 'planejado', o arquivo AINDA está na _entrada física
+    # (o Apps Script não rodou) — NÃO é falso-verde: reporta o pendente honestamente.
+    pendentes = [r for r in rows if (r.get("status_arrumacao") or "").strip() not in ARRUMADO]
+    if _fase() == "plano":
+        return None, f"PLANO pronto: {len(rows)} itens planejados, 0 movidos — execução no Drive PENDENTE"
+    return (not pendentes), (f"0 arquivos pendentes na _entrada"
+                             if not pendentes else f"{len(pendentes)}/{len(rows)} ainda não movidos")
 
 
 def c3_indice_bate():
@@ -120,11 +136,16 @@ def main():
     if falhou:
         print("VERMELHO — pendência MECÂNICA na arrumação. Não declare 'arrumado'.")
         sys.exit(1)
-    if not INDICE.exists():
+    fase = _fase()
+    if fase == "sem-indice":
         print("VERDE (parte LOCAL) — domínio carimbado e roteamento provado. "
               "Parte DRIVE (C1–C5) PENDENTE: aguarda a onda de execução no Drive gerar o índice-mestre.")
+    elif fase == "plano":
+        print("VERDE (LOCAL) + PLANO DRIVE pronto — índice-mestre semeado, mas NADA foi movido no Drive "
+              "ainda (status=planejado). NÃO declare 'Drive arrumado': falta rodar o Apps Script e "
+              "reconciliar. 'declarei' ≠ 'provei'.")
     else:
-        print("VERDE — arrumação provada (local + Drive).")
+        print("VERDE — arrumação provada (local + Drive executado).")
     sys.exit(0)
 
 
