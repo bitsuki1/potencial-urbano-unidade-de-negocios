@@ -75,6 +75,10 @@ jobs:
       - name: Produto (golden-assert do Fi sobre cedentes reais)
         run: python3 evals/eval-produto.py
 
+      # T4 — GATE de conservação (Art. 129): Termo≠Atestado; RES.(tombamento)≠conservação.
+      - name: Conservação (Art. 129, 3-estados — Termo→PENDENTE, RES→SEM_ATESTADO)
+        run: python3 zepec/montar_base.py --autoteste
+
       # Só DEPOIS dos gates verdes: commita os artefatos derivados. NÃO em pull_request
       # (PR não deve commitar/pushar; roda só os gates acima como check de merge).
       - name: Commitar artefatos derivados se mudaram (após gates verdes)

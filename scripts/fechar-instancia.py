@@ -61,6 +61,13 @@ def check_produto():
     return rc == 0, "produto: 7 cedentes reais c/ Fi legal (Art.24) OK" if rc == 0 else f"produto divergiu do Fi legal (exit {rc})"
 
 
+def check_conservacao():
+    # T4: gate de conservação (Art. 129) 3-estados; Termo→PENDENTE e RES.(tombamento)→SEM_ATESTADO,
+    # nunca ELEGIVEL. Fixtures FALHAM se a regra regredir.
+    rc, _ = _run(["zepec/montar_base.py", "--autoteste"])
+    return rc == 0, "conservação: Atestado=ELEGIVEL·Termo=PENDENTE·RES=SEM_ATESTADO OK" if rc == 0 else f"conservação regrediu (exit {rc})"
+
+
 def check_stray_tags():
     # Só a CORPUS-DATA importa: num .md/.json de lei/jurisprudência/índice, uma tag de tool-call é
     # SEMPRE corrupção (já aconteceu: </invoke> vazou para a 7228 e o índice). Código .py é excluído
@@ -129,6 +136,7 @@ def main():
         ("ENGINE (número no engine, 1.3)", check_engine),
         ("ENGINE CEDENTE (Fi Art.24, T2)", check_engine_cedente),
         ("PRODUTO (golden Fi cedentes reais, T2)", check_produto),
+        ("CONSERVAÇÃO (Art.129 3-estados, T4)", check_conservacao),
         ("CORPUS (sem stray tags)", check_stray_tags),
         ("MANIFESTO (idempotente, SSOT)", check_manifesto_idempotente),
         ("BACKLOG (fresco, D83)", check_backlog_fresh),
