@@ -68,6 +68,12 @@ def check_conservacao():
     return rc == 0, "conservação: Atestado=ELEGIVEL·Termo=PENDENTE·RES=SEM_ATESTADO OK" if rc == 0 else f"conservação regrediu (exit {rc})"
 
 
+def check_regime_pcpt():
+    # T3: já-declarado (Art.125 §1º I) não recebe o escalonado como valor firme; prospecção-nova sim (Art.24).
+    rc, _ = _run(["zepec/enriquecer_oficial.py", "--autoteste"])
+    return rc == 0, "regime PCpt: já-declarado=PENDENTE·prospecção=estimativa OK" if rc == 0 else f"regime PCpt regrediu (exit {rc})"
+
+
 def check_stray_tags():
     # Só a CORPUS-DATA importa: num .md/.json de lei/jurisprudência/índice, uma tag de tool-call é
     # SEMPRE corrupção (já aconteceu: </invoke> vazou para a 7228 e o índice). Código .py é excluído
@@ -137,6 +143,7 @@ def main():
         ("ENGINE CEDENTE (Fi Art.24, T2)", check_engine_cedente),
         ("PRODUTO (golden Fi cedentes reais, T2)", check_produto),
         ("CONSERVAÇÃO (Art.129 3-estados, T4)", check_conservacao),
+        ("REGIME PCpt (já-declarado×novo, T3)", check_regime_pcpt),
         ("CORPUS (sem stray tags)", check_stray_tags),
         ("MANIFESTO (idempotente, SSOT)", check_manifesto_idempotente),
         ("BACKLOG (fresco, D83)", check_backlog_fresh),
