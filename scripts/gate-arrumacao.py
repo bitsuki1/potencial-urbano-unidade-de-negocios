@@ -28,7 +28,9 @@ from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
 PY = sys.executable
-INDICE = RAIZ / "inventario" / "INDICE-MESTRE-DRIVE.csv"
+MESTRE = RAIZ / "inventario" / "INDICE-MESTRE-DRIVE.csv"   # estado REAL (reconciliador)
+SEED = RAIZ / "inventario" / "INDICE-SEED.csv"             # o PLANO (seeder)
+INDICE = MESTRE if MESTRE.exists() else SEED               # lê o real; cai no plano se ainda não reconciliou
 VOCAB = {"tdc", "iptu", "compartilhado"}
 
 
@@ -49,8 +51,13 @@ def c8_roteamento():
     return rc == 0, linha.strip()
 
 
-# ---------- DRIVE (pendentes até o índice-mestre existir) ----------
-ARRUMADO = ("moved", "espelhado", "quarentena")  # status que significam "saiu da _entrada de verdade"
+# ---------- DRIVE (pendentes até o índice existir) ----------
+MOVIDO = ("moved", "espelhado", "quarentena")           # saiu da _entrada de verdade
+# R11 — estados TERMINAIS deliberados: não "movidos", mas também NÃO pendentes (senão falso-vermelho
+# eterno). 'triagem' = multi-pai/ambíguo p/ decisão humana (99); 'nativo_ignorado' = Google-nativo
+# que o dedup pula de propósito. Contam como RESOLVIDOS no C1, fora do denominador de "ainda na _entrada".
+TERMINAL = ("triagem", "nativo_ignorado")
+RESOLVIDO = MOVIDO + TERMINAL
 
 
 def _indice_rows():
@@ -63,21 +70,20 @@ def _fase():
     if not INDICE.exists():
         return "sem-indice"
     rows = _indice_rows()
-    movidos = [r for r in rows if (r.get("status_arrumacao") or "").strip() in ARRUMADO]
+    movidos = [r for r in rows if (r.get("status_arrumacao") or "").strip() in MOVIDO]
     return "execucao" if movidos else "plano"
 
 
 def c1_entrada_vazia():
     if not INDICE.exists():
-        return None, "índice-mestre ausente — onda Drive ainda não correu"
+        return None, "índice ausente — onda Drive ainda não correu"
     rows = _indice_rows()
-    # "arrumado" = status ∈ ARRUMADO. Enquanto 'planejado', o arquivo AINDA está na _entrada física
-    # (o Apps Script não rodou) — NÃO é falso-verde: reporta o pendente honestamente.
-    pendentes = [r for r in rows if (r.get("status_arrumacao") or "").strip() not in ARRUMADO]
     if _fase() == "plano":
-        return None, f"PLANO pronto: {len(rows)} itens planejados, 0 movidos — execução no Drive PENDENTE"
-    return (not pendentes), (f"0 arquivos pendentes na _entrada"
-                             if not pendentes else f"{len(pendentes)}/{len(rows)} ainda não movidos")
+        return None, f"PLANO pronto: {len(rows)} itens carimbados, 0 movidos — execução no Drive PENDENTE"
+    # Em execução: 'resolvido' = movido OU terminal-deliberado (R11). Só o que ainda não saiu conta.
+    pendentes = [r for r in rows if (r.get("status_arrumacao") or "").strip() not in RESOLVIDO]
+    return (not pendentes), (f"0 pendentes (todos movidos/quarentenados/triados)"
+                             if not pendentes else f"{len(pendentes)}/{len(rows)} ainda não resolvidos")
 
 
 def c3_indice_bate():
@@ -105,8 +111,8 @@ def c5_moved_tem_hash():
         return None, "índice-mestre ausente"
     rows = _indice_rows()
     viol = [r for r in rows if (r.get("status_arrumacao") or "").strip() in ("moved", "espelhado")
-            and not (r.get("hash_sha256") or "").strip()]
-    return (not viol), ("todo item movido tem hash" if not viol else f"{len(viol)} movidos sem hash_sha256")
+            and not (r.get("hash_md5") or "").strip()]   # R5: a hash do Drive é md5, não sha256
+    return (not viol), ("todo item movido tem hash_md5" if not viol else f"{len(viol)} movidos sem hash_md5")
 
 
 def main():
@@ -137,15 +143,22 @@ def main():
         print("VERMELHO — pendência MECÂNICA na arrumação. Não declare 'arrumado'.")
         sys.exit(1)
     fase = _fase()
+    # R12 — contrato de exit-code: por padrão o gate sai 0 em 'plano' (a parte LOCAL está provada e o
+    # PLANO pronto). Um consumidor automático que exige o DRIVE executado passa --require-executed:
+    # aí 'sem-indice'/'plano' saem !=0 (o Drive ainda não foi arrumado — não pode ser lido como verde).
+    require_exec = "--require-executed" in sys.argv
     if fase == "sem-indice":
         print("VERDE (parte LOCAL) — domínio carimbado e roteamento provado. "
-              "Parte DRIVE (C1–C5) PENDENTE: aguarda a onda de execução no Drive gerar o índice-mestre.")
+              "Parte DRIVE (C1–C5) PENDENTE: aguarda o seeder/execução gerar o índice.")
     elif fase == "plano":
-        print("VERDE (LOCAL) + PLANO DRIVE pronto — índice-mestre semeado, mas NADA foi movido no Drive "
-              "ainda (status=planejado). NÃO declare 'Drive arrumado': falta rodar o Apps Script e "
-              "reconciliar. 'declarei' ≠ 'provei'.")
+        print("VERDE (LOCAL) + PLANO DRIVE pronto — índice semeado, mas NADA foi movido no Drive ainda "
+              "(status=carimbado). NÃO declare 'Drive arrumado': falta rodar o Apps Script e reconciliar. "
+              "'declarei' ≠ 'provei'.")
     else:
-        print("VERDE — arrumação provada (local + Drive executado).")
+        print("VERDE — arrumação provada (local + Drive executado + reconciliado).")
+    if require_exec and fase != "execucao":
+        print(f"  (--require-executed: fase '{fase}' ≠ 'execucao' → exit 4 p/ o consumidor automático)")
+        sys.exit(4)
     sys.exit(0)
 
 

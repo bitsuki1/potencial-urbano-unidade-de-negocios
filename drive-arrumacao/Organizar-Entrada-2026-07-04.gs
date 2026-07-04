@@ -1390,11 +1390,22 @@ const PLAN = [
   ["1ai8cGimX4io3bhA96EWYblFsVoh7PnHM","1VxXDspnEwYuiCMXjn9-YPp65h3vtb_pr"]
 ];
 
+// R3 — md5/bytes por arquivo p/ a trilha MOVE_LINHA. md5 exige o serviço avançado "Drive API" v3;
+// sem ele devolve '' (o mover funciona, mas o C5 do gate só fecha com hash — avisa uma vez).
+function _md5OrganizeSeguro_(id) {
+  try { var m = Drive.Files.get(id, {fields:'md5Checksum', supportsAllDrives:true}); return (m && m.md5Checksum) || ''; }
+  catch (e) { return ''; }
+}
+function _bytesSeguro_(file) { try { return file.getSize() || ''; } catch (e) { return ''; } }
+
 function organizarEntrada() {
   const props = PropertiesService.getScriptProperties();
   let i = parseInt(props.getProperty('cursor')||'0', 10);
   const t0 = Date.now();
   let moved=0, skip=0, err=0, jaLa=0;
+  if (typeof Drive === 'undefined' || !Drive.Files)
+    Logger.log('AVISO: serviço "Drive API" v3 desligado — MOVE_LINHA sai sem md5 e o C5 do gate não '
+             + 'fechará p/ estes itens. Ligue em Serviços + > Drive API p/ trilha completa.');
   Logger.log((DRY_RUN?'[ENSAIO] ':'[MOVENDO] ')+'início no item '+i+' de '+PLAN.length);
   for (; i<PLAN.length; i++) {
     if (Date.now()-t0 > TIME_BUDGET_MS) { props.setProperty('cursor', String(i));
@@ -1405,9 +1416,13 @@ function organizarEntrada() {
       const dest = DriveApp.getFolderById(folderId);
       const pais = file.getParents(); let jaEsta=false;
       while (pais.hasNext()) { if (pais.next().getId()===folderId) jaEsta=true; }
-      if (jaEsta) { jaLa++; continue; }
+      // R3 — trilha POR ARQUIVO p/ o reconciliador (drive_id,folderId,md5,bytes,status). Sem isso o
+      // C5 do gate (moved ⇒ hash) nunca fecha p/ a _entrada. md5 via serviço avançado Drive (se ligado).
+      const md5 = _md5OrganizeSeguro_(fileId), bytes = _bytesSeguro_(file);
+      if (jaEsta) { jaLa++; Logger.log('MOVE_LINHA '+fileId+','+folderId+','+md5+','+bytes+',jaLa'); continue; }
       if (!DRY_RUN) file.moveTo(dest);
       moved++;
+      Logger.log('MOVE_LINHA '+fileId+','+folderId+','+md5+','+bytes+','+(DRY_RUN?'dryrun':'moved'));
       if (moved % 50 === 0) Logger.log('… '+moved+' movidos ('+i+'/'+PLAN.length+')');
     } catch(e) { err++; Logger.log('SKIP '+fileId+' — '+e.message); }
   }

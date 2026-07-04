@@ -92,6 +92,17 @@ def check_dominio():
                       else f"invariantes de domínio regrediram (exit {rc2}) — rode evals/eval-dominio.py")
 
 
+def check_indice_arrumacao():
+    # Arrumação Drive: o SEED bate com o de-para e o MESTRE bate com o reconciliado (SEED+logs).
+    # Protege contra drift (alguém edita o índice à mão ou o de-para muda sem re-semear).
+    rc1, _ = _run(["scripts/semear_indice_mestre.py", "--check"])
+    if rc1 != 0:
+        return False, f"INDICE-SEED desatualizado vs de-para (exit {rc1}) — rode semear_indice_mestre.py"
+    rc2, _ = _run(["scripts/reconciliar_arrumacao.py", "--check"])
+    return rc2 == 0, ("índice de arrumação consistente (SEED×de-para, MESTRE×reconciliado)" if rc2 == 0
+                      else f"INDICE-MESTRE desatualizado (exit {rc2}) — rode reconciliar_arrumacao.py")
+
+
 def check_disclaimer():
     # M0: DISCLAIMER.md existe E o bloco está injetado na saída ao cliente (COMO-USAR.md).
     disc = RAIZ / "DISCLAIMER.md"
@@ -175,6 +186,7 @@ def main():
         ("REGIME PCpt (já-declarado×novo, T3)", check_regime_pcpt),
         ("DIVERGÊNCIA PCpt×certidões (M0)", check_divergencia),
         ("DOMÍNIO TDC×IPTU (metadado, roteamento)", check_dominio),
+        ("ÍNDICE ARRUMAÇÃO (SEED×de-para, MESTRE×reconc.)", check_indice_arrumacao),
         ("DISCLAIMER injetado (M0)", check_disclaimer),
         ("CORPUS (sem stray tags)", check_stray_tags),
         ("MANIFESTO (idempotente, SSOT)", check_manifesto_idempotente),

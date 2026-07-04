@@ -25,6 +25,8 @@ O acervo mistura **dois domínios jurídicos** — **TDC** (transferência do di
 ## 2. Árvore do Drive (Lente A — Opção B: TIPO no topo, domínio como subpasta+prefixo)
 Raiz `Potencial Urbano` (`1BrM6q36…`). **TIPO** define a pasta; **DOMÍNIO** é subpasta `.1/.2/.3` + prefixo no nome; **PROVENIÊNCIA** é prefixo no nome.
 
+> **DECISÃO DE TAXONOMIA (R6, 2026-07-04): a EXECUÇÃO usa a taxonomia de JUNHO** (a concreta, já fiada: `00 Governança · 02 Leis&Jurisprudência/2.1..2.7 · 03 Tabelas&Engines · 05 Geo · 99 Inbox` — 1.360 arquivos já mapeados, pastas criadas, seeder+Organizer coerentes). A **Opção B abaixo** (TIPO no topo, domínio em `.1/.2/.3`) é o **alvo de REORGANIZAÇÃO FUTURA**, registrado no backlog — **não roda agora** (migrar às vésperas re-mapearia os 1.360 destinos e colidiria na numeração: junho `03`=Tabelas/`05`=Geo vs Opção B `03`=Jurisprudência/`05`=Engines). **Nunca os dois ao mesmo tempo.** O `98 — _LEGADO` (quarentena do saneamento) é criado como zona-morta adjunta à taxonomia de junho.
+
 ```
 00 — Governança & Índice        ← INDICE-MESTRE, manifestos, logs, relatórios NOSSOS, disclaimers
 01 — _entrada                    ← zona de despejo (deve ficar VAZIA após arrumar — é o gate)
@@ -117,15 +119,34 @@ P4. É matriz constitucional/geral (função social, reforma tributária, CTN ge
 ---
 
 ## 5. Índice-mestre do Drive (Lente D — a fonte da verdade da arrumação)
-**Um** arquivo versionado no git: `inventario/INDICE-MESTRE-DRIVE.csv` (o Drive é espelho; o CSV é a autoridade). Colunas exatas (20):
+**DOIS arquivos, um dono cada** (correção da lente de reconciliação R2 — o seeder não pode sobrescrever a execução):
+- `inventario/INDICE-SEED.csv` — o **PLANO** imutável, escrito só por `scripts/semear_indice_mestre.py` (do de-para).
+- `inventario/INDICE-MESTRE-DRIVE.csv` — o **estado REAL**, escrito só por `scripts/reconciliar_arrumacao.py` (SEED + logs do GAS).
 
+Colunas exatas (20):
 ```
 drive_id, nome_origem, nome_canonico, tipo_artefato, dominio, dominio_primario,
 proveniencia, oficialidade, confianca, vigencia_inicio, vigencia_fim,
 substitui, substituido_por, destino_classe, destino_path,
-hash_sha256, bytes, mime, id_pipeline, status_arrumacao, observacao
+hash_md5, bytes, mime, id_pipeline, status_arrumacao, observacao
 ```
-`status_arrumacao ∈ {bruto, carimbado, moved, quarentena, espelhado}`. Herdado pelo pipeline (`promover_entrada.py` lê `nome_canonico`/`dominio`/`proveniencia` do índice — zero re-trabalho).
+> **`hash_md5`, não `hash_sha256`** (R5): a única hash que o Drive/GAS entrega é o `md5Checksum`. Nomear a coluna pela hash real evita a trilha "dizer sha256 e carregar md5".
+
+`status_arrumacao ∈ {bruto, carimbado, moved, quarentena, espelhado, triagem}`. `triagem` (R11) = estado TERMINAL deliberado (multi-pai/ambíguo → decisão humana em `99`) — conta como resolvido, não como pendência. Herdado pelo pipeline (`promover_entrada.py` lê `nome_canonico`/`dominio`/`proveniencia` — zero re-trabalho).
+
+### O loop que fecha (reconciliação — sem ele a arrumação nunca se PROVA, R1)
+```
+semear_indice_mestre.py → INDICE-SEED.csv (status=carimbado, PLANO)
+        ↓  (dono roda o Apps Script no Drive; cola o Log em inventario/gas-log-<data>.txt)
+Organizar-Entrada.gs emite  MOVE_LINHA drive_id,folderId,md5,bytes,status   (R3)
+Sanear-Lago.gs       emite  CSV_LINHA  drive_id,md5,acao,canonico_id
+        ↓
+reconciliar_arrumacao.py → INDICE-MESTRE-DRIVE.csv (status=moved/quarentena, hash preenchido)
+                         + inventario/arrumacao-log.csv (trilha durável append-only, a prova mora no git — R13)
+        ↓
+gate-arrumacao.py vê fase 'execucao' → C1–C5 passam a BLOQUEAR → arrumação PROVADA
+```
+`reconciliar` faz **UPSERT** (R4): arquivo do lago fora do SEED é inserido; e **bloqueia** se uma irmã OFICIAL for quarentenada sob canônica NOSSA (a canônica tem de ser a de maior oficialidade — "OFICIAL é citável").
 
 ### Mapa Drive → git → Supabase (por tipo)
 | tipo_artefato | Drive | git | Supabase | domínio marcado onde |
@@ -141,7 +162,7 @@ hash_sha256, bytes, mime, id_pipeline, status_arrumacao, observacao
 ### 6 invariantes de governança
 1. **Move, não copia** (`file.moveTo`) — nunca duplica (modo de falha V-3).
 2. **Nada se descarta** — ambíguo → `99`; suspeito de lixo → `98`/quarentena datada, nunca lixeira.
-3. **Dedup por hash** — mesmo `hash_sha256` = 1 canônica; irmãs viram `substituido_por`.
+3. **Dedup por hash** — mesmo `hash_md5` = 1 canônica; irmãs viram `substituido_por`.
 4. **Canônica única** — cada conteúdo tem um `destino_path` só.
 5. **Idempotência** — rodar 2× = mesmo estado (skip-if-already-there).
 6. **Auditabilidade** — todo move é uma linha no índice + log do Apps Script.
@@ -154,7 +175,7 @@ hash_sha256, bytes, mime, id_pipeline, status_arrumacao, observacao
 2. Toda pasta-alvo com **contagem esperada** (bate com o índice).
 3. Índice-mestre **bate** com o Drive (todo `drive_id` do índice existe; todo arquivo do Drive está no índice).
 4. **Nenhum OFICIAL** em `98`/`99`/quarentena.
-5. Todo item `moved` tem `hash_sha256` preenchido.
+5. Todo item `moved` tem `hash_md5` preenchido.
 6. Todo `dominio` ∈ vocab fechado `{tdc,iptu,compartilhado}`.
 7. Nenhum `dominio_primario` vazio em lei/jurisprudência.
 8. `tema[]` **não** contém mais `TDC`/`IPTU` (anti-padrão eliminado).
@@ -206,4 +227,44 @@ Autorizada pelo dono (§7.4). Tudo reversível, provado por gate mecânico, **su
 
 **Distribuição de chunks:** iptu=868 · compartilhado=996 (PDE+LPUOS+COE são grandes → muitos chunks compartilhados). Sob `--dominio tdc`: 989 elegíveis (só compartilhado, IPTU-puro excluído). Sob `--dominio iptu`: 1.843 (iptu + compartilhado).
 
-> **Próximo passo (aguarda "vai" do dono):** ondas Drive 1–5 (incl. saneamento do lago) — geram `inventario/INDICE-MESTRE-DRIVE.csv` e o Apps Script de move; aí C1–C5 do gate passam a bloquear. O Drive segue pausado até sua ordem.
+> **Próximo passo (aguarda "vai" do dono):** ondas Drive 1–5 (incl. saneamento do lago) — o dono roda os Apps Scripts, cola os Logs em `inventario/gas-log-*.txt`, `reconciliar_arrumacao.py` fecha o loop, e aí C1–C5 do gate provam a arrumação. O Drive segue pausado até sua ordem.
+
+---
+
+## 10. Preparação das ondas Drive + REVISÃO POR LENTES (2026-07-04)
+O dono pediu para eu **preparar e afinar por lentes** (não revisar à mão). Preparei os artefatos e rodei **3 lentes de revisão adversarial local** (sem tocar o Drive). Achados e resolução:
+
+### Artefatos preparados
+| Artefato | Papel |
+|---|---|
+| `scripts/semear_indice_mestre.py` → `inventario/INDICE-SEED.csv` | PLANO: 1.360 itens classificados (domínio/tipo/proveniência inferidos do de-para) |
+| `scripts/reconciliar_arrumacao.py` → `inventario/INDICE-MESTRE-DRIVE.csv` + `arrumacao-log.csv` | fecha o loop: SEED + logs do GAS → estado real + trilha durável |
+| `drive-arrumacao/Sanear-Lago-TDC-2026-07-04.gs` | onda 1: dedup por md5 + quarentena datada (move, não lixeira) |
+| `drive-arrumacao/Organizar-Entrada-2026-07-04.gs` | onda 3: move a `_entrada` (agora emite `MOVE_LINHA` com hash) |
+| `scripts/gate-arrumacao.py` | gate por fase (plano/execução) — não declara feito sem prova |
+
+### Achados das lentes e resolução
+| # | Lente | Achado | Resolução |
+|---|---|---|---|
+| F1 | GAS | "Retomável" era ficção (cursor nunca persistido) | cache de md5 em JSON no Drive + trava "só dedup após enum+hash completos" |
+| F2 | GAS | sem Drive API, dizia "0 duplicados" (falso-limpo) | **ABORTA** com mensagem clara se o serviço avançado estiver desligado |
+| F3 | GAS | `moveTo` arranca arquivo multi-pai de pasta boa | multi-pai → `MULTI_PAI_MANUAL` (não move; decisão humana em 99) |
+| F4 | GAS | fallback nome+tamanho prometido e ausente | removida a promessa; md5 é obrigatório (mais seguro que nome+tamanho) |
+| F5 | GAS | dedup sobre hashing incompleto | trava: só agrupa quando 100% enumerado+hasheado |
+| F7/F10 | GAS | data chumbada; reset apagava tudo | data via `formatDate`; reset só do cache deste script |
+| A1 | índice | 2.4 Federal=compartilhado contradizia o SSOT git (iptu) | 2.4 base=iptu + inferência bumpa só EC132/PDE/LPUOS/COE/registro/tombados |
+| A2/A3 | índice | jurisprudência oficial virava doutrina; mapas viravam "lei" | override de tipo por título (juris→jurisprudencia, mapa→geo) |
+| A4 | índice | capturas e-SAJ marcadas OFICIAL | `RE_NOSSO` estendido (e-saj/portal/captura → NOSSO) |
+| B2/B3 | índice | status fora do enum; vigência PENDENTE à toa | status=`carimbado`; `vigencia_inicio` extraída do ano no título |
+| R1/R2 | reconc. | loop não fechava; seeder sobrescreveria a execução | `reconciliar_arrumacao.py` novo; SEED (seeder) × MESTRE (reconciliador) separados |
+| R3 | reconc. | Organizer só logava contadores (C5 insatisfazível) | Organizer emite `MOVE_LINHA drive_id,folderId,md5,bytes,status` |
+| R4 | reconc. | ações do lago sem linha no índice; canônica podia ser NOSSA | UPSERT + bloqueio se OFICIAL quarentenado sob canônica NOSSA |
+| R5 | reconc. | `hash_sha256` carregava md5 | coluna renomeada `hash_md5` (schema, seeder, reconc., gate) |
+| R6 | taxon. | dois esquemas (junho × Opção B) | adotada JUNHO p/ executar; Opção B = backlog de reorg futura (§2) |
+| R11 | gate | estados terminais (triagem/inbox) davam falso-vermelho | `triagem` como estado resolvido, fora do denominador de pendência |
+| R12 | gate | exit-code verde em 'plano' enganava CI | flag `--require-executed` (exit 4 se Drive não executado) |
+
+### Limitações CONHECIDAS (declaradas, não escondidas — a resolver em onda futura)
+- **R8 — lago = congelado após dedup:** o Sanear só quarentena as irmãs; a **canônica FICA no lago** (não é tipificada). Tipificar/reingerir as canônicas do lago é **onda separada** de reingestão, não esta.
+- **R9 — dedup é por-árvore, não global:** o Sanear deduplica só o lago; a `_entrada` tem suas próprias duplicatas e pode haver cópia byte-idêntica entre `_entrada` e lago que **nenhum** dos dois passes vê. Fecho isso com um passe de hash **global** (ou o reconciliador detectando md5 repetido entre os dois logs) — **onda futura**; hoje a promessa "canônica única" vale DENTRO de cada árvore, não entre elas.
+- **A prova só existe após o dono rodar os GAS:** enquanto `gas-log-*.txt` não existir, o gate fica em fase 'plano' — honesto, não falso-verde.
