@@ -124,7 +124,9 @@ def vigencia_do_titulo(titulo, tipo):
 def proveniencia(titulo, base, tipo):
     if RE_NOSSO.search(titulo or ""):
         return "NOS"
-    if tipo == "jurisprudencia":
+    # Lei/norma e jurisprudência são OFICIAIS por natureza — vale MESMO sem destino (arquivo do lago):
+    # sem isso, uma LEI do lago fica proveniência PENDENTE e o bloqueio R4 (OFICIAL≠quarentena) não pega.
+    if tipo in ("lei", "jurisprudencia"):
         return "OFI"
     return base
 

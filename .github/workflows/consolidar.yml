@@ -94,11 +94,13 @@ jobs:
           python3 scripts/carimbar_dominio.py --check
           python3 evals/eval-dominio.py
 
-      # Arrumação Drive — GATE: SEED em dia (× de-para), MESTRE reconciliado, gate por fase (plano/execução).
-      - name: Índice de arrumação (SEED×de-para, MESTRE×reconciliado, gate por fase)
+      # Arrumação Drive — GATE: SEED em dia (× de-para), MESTRE reconciliado, loop end-to-end provado,
+      # gate por fase (plano/execução).
+      - name: Índice de arrumação (SEED×de-para, MESTRE×reconc., loop e2e, gate por fase)
         run: |
           python3 scripts/semear_indice_mestre.py --check
           python3 scripts/reconciliar_arrumacao.py --check
+          python3 evals/eval-arrumacao.py
           python3 scripts/gate-arrumacao.py
 
       # Só DEPOIS dos gates verdes: commita os artefatos derivados. NÃO em pull_request

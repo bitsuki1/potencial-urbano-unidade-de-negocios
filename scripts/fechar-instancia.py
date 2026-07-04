@@ -99,8 +99,12 @@ def check_indice_arrumacao():
     if rc1 != 0:
         return False, f"INDICE-SEED desatualizado vs de-para (exit {rc1}) — rode semear_indice_mestre.py"
     rc2, _ = _run(["scripts/reconciliar_arrumacao.py", "--check"])
-    return rc2 == 0, ("índice de arrumação consistente (SEED×de-para, MESTRE×reconciliado)" if rc2 == 0
-                      else f"INDICE-MESTRE desatualizado (exit {rc2}) — rode reconciliar_arrumacao.py")
+    if rc2 != 0:
+        return False, f"INDICE-MESTRE desatualizado (exit {rc2}) — rode reconciliar_arrumacao.py"
+    # Teste de integração end-to-end da toolchain (R8/R9/idempotência/R4/gate) — sintético, restaura sozinho.
+    rc3, _ = _run(["evals/eval-arrumacao.py"])
+    return rc3 == 0, ("índice consistente + loop de arrumação provado (eval-arrumacao)" if rc3 == 0
+                      else f"eval-arrumacao FALHOU (exit {rc3}) — rode evals/eval-arrumacao.py")
 
 
 def check_disclaimer():
