@@ -42,8 +42,8 @@
 > | **T5·T9·T11·T6·T12** ⬜ | disclaimer+27%; parcelamento>50k; saldo por conjunto; arquivar oráculos; endurecer DoDs | ver handoff §8 | — |
 > | **G1** 🟦 | Overlay por centroide/1ª feature (`overlay_zona.py:77`) | overlay por ÁREA + `unary_union` + `representative_point`; SIRGAS oficial no lugar do `_IA` | — |
 > | **G3** 🟦 | 1.839 "sem SQL" tratados como geocode (1.772 = "Light" coletivo) | geocodificar só os 63 reais contra IPTU_2026 COMPLETO; modelar o bem coletivo | — |
-> | **G2** 🟦 | Zona-base sob selo (454); **ZOE usa Quadro 2A**, não Q3 | overlay N:N + FLAG; ZOE só após Quadro 2A | **DONO: Quadro 2A** |
-> | **G4** 🟦 | V por 1 face; Regra da Esquina | RANGE v_min/v_max + flag; MAX só após Decreto 57.536 verbatim | **DONO: Decreto 57.536/16** |
+> | **G2** 🟦 | Zona-base sob selo (454); **ZOE usa Quadro 2A**, não Q3 | overlay N:N + FLAG; ZOE só após Quadro 2A | **DONO: Quadro 2A** — prompt de extração pronto: `extracao/PROMPT-EXTRACAO-DECRETO57536-E-QUADRO2A.md` → salvar no Drive `01 — _entrada` |
+> | **G4** 🟦 | V por 1 face; Regra da Esquina | RANGE v_min/v_max + flag; MAX só após Decreto 57.536 verbatim | **DONO: Decreto 57.536/16** — prompt de extração pronto: `extracao/PROMPT-EXTRACAO-DECRETO57536-E-QUADRO2A.md` |
 > | **G5·G6·E1·E2·E3·E4·E5·E7** ⬜ | materializar overlay em `oficiais.*`; eval geo; runner reproduzível+vintage+dedup+loaders | ver handoff §8 (E6 canonicidade JÁ feito) | — |
 
 | # | Item | DoD (como PROVAR que foi feito) | Bloqueio |
