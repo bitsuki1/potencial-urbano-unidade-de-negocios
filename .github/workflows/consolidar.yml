@@ -59,6 +59,9 @@ jobs:
       - name: Indexar (rag/index/)
         run: python3 scripts/indexar.py
 
+      - name: Grafo de remissões (rag/grafo/ — B-6)
+        run: python3 scripts/grafo_remissoes.py
+
       - name: Regenerar MANIFESTO.json
         run: python3 scripts/consolidar.py
 

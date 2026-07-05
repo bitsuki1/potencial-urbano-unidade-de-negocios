@@ -212,6 +212,8 @@ def consultar(pergunta, lei=None, tema=None, jurisdicao=None, data=None, dominio
         "fundamentada": fundamentada,
         "veredito": veredito,
         "resultados": resultados,
+        # B-6: remissões do dispositivo topo (grafo local rag/grafo/remissoes.csv).
+        "remissoes_top1": remissoes_do_topo(resultados[0]) if resultados else None,
         # B-03 (auditoria): declara a cobertura do corpus INDEXADO (parcial) — o veredito FUNDAMENTADA
         # vale sobre o que está indexado, não sobre todo o acervo. Honestidade de cobertura.
         "corpus": _cobertura_corpus(meta),
@@ -223,6 +225,40 @@ def _cobertura_corpus(meta):
     total = len(list((RAIZ / "leis").rglob("*.json")))
     return {"leis_indexadas": len(leis_idx), "leis_no_acervo": total,
             "chunks": len(meta), "parcial": len(leis_idx) < total}
+
+
+_GRAFO_CACHE = None
+
+
+def _grafo():
+    """B-6: carrega rag/grafo/remissoes.csv (gerado por scripts/grafo_remissoes.py). Ausente = grafo vazio."""
+    global _GRAFO_CACHE
+    if _GRAFO_CACHE is None:
+        import csv as _csv
+        p = RAIZ / "rag" / "grafo" / "remissoes.csv"
+        _GRAFO_CACHE = list(_csv.DictReader(p.open(encoding="utf-8"))) if p.exists() else []
+    return _GRAFO_CACHE
+
+
+def remissoes_do_topo(res_top):
+    """B-6: arestas do dispositivo topo — quem o CITA dentro da mesma lei (vigência/remissão;
+    ex.: Art. 11 fixa a vigência do Art. 3) e o que ELE cita/carrega (redação dada, revogação,
+    regulamentação, remissões). Extração pura: cada aresta traz o trecho de prova."""
+    cid = res_top.get("chunk_id") or ""
+    lei = cid.split("::")[0]
+    rot = (res_top.get("rotulo") or "")
+    m = None
+    import re as _re
+    mm = _re.search(r"(\d+)", rot)
+    num = mm.group(1) if mm else None
+    citado_por, cita = [], []
+    for e in _grafo():
+        if e["chunk_id"] == cid and e["tipo"] != "remissao_interna":
+            cita.append({k: e[k] for k in ("tipo", "alvo", "trecho_prova")})
+        elif (num and e["lei_id"] == lei and e["chunk_id"] != cid
+              and e["alvo"] == f"Art. {num}" and e["tipo"] in ("vigencia_de", "remissao_interna")):
+            citado_por.append({"de": e["dispositivo"], "tipo": e["tipo"], "trecho_prova": e["trecho_prova"]})
+    return {"citado_por": citado_por[:8], "cita": cita[:8]}
 
 
 def imprimir_humano(r):
@@ -254,7 +290,14 @@ def imprimir_humano(r):
             print(f"    dispositivo: {vd['status']}{extra}  ← B-11c (vigência por chunk)")
         print(f"    termos: {', '.join(res['termos_casados'])}")
         trecho = res["texto"].strip().replace("\n", " ")
-        print(f"    «{trecho[:300]}{'…' if len(trecho) > 300 else ''}»\n")
+        print(f"    «{trecho[:300]}{'…' if len(trecho) > 300 else ''}»")
+        if i == 1 and r.get("remissoes_top1"):
+            rm = r["remissoes_top1"]
+            for e in rm.get("citado_por", []):
+                print(f"    ↩ remissão (B-6): citado por {e['de']} [{e['tipo']}] — «{e['trecho_prova'][:100]}…»")
+            for e in rm.get("cita", []):
+                print(f"    ↪ remissão (B-6): {e['tipo']} → {e['alvo']}")
+        print()
 
 
 def main(argv):

@@ -146,8 +146,9 @@ def check_indice_rag():
     # CI regenerava. Aqui regenera (fatiar+indexar) e compara contra HEAD — espelha o CI.
     rc1, _ = _run(["scripts/fatiar.py"])
     rc2, _ = _run(["scripts/indexar.py"])
-    if rc1 != 0 or rc2 != 0:
-        return False, f"fatiar/indexar quebrou (fatiar {rc1}, indexar {rc2})"
+    rc3, _ = _run(["scripts/grafo_remissoes.py"])   # B-6: o grafo mora em rag/ e regenera junto
+    if rc1 != 0 or rc2 != 0 or rc3 != 0:
+        return False, f"fatiar/indexar/grafo quebrou (fatiar {rc1}, indexar {rc2}, grafo {rc3})"
     d = subprocess.run(["git", "diff", "--quiet", "HEAD", "--", "rag/"], cwd=RAIZ)
     if d.returncode == 0:
         return True, "rag/ commitado == regenerado (índice não-adulterado, bate com leis/+domínio)"
