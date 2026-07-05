@@ -41,7 +41,8 @@ Uso:
     python3 engines/tdc/pcpt.py --demo     # exemplo trabalhado + auto-teste (gate)
 PU 14 · 2026-06-28.
 """
-import sys, re, argparse
+import sys, re, csv, argparse
+from pathlib import Path
 from decimal import Decimal, ROUND_HALF_UP
 
 LEI = "Lei Municipal SP nº 16.050/2014 (PDE)"
@@ -49,27 +50,61 @@ Q2 = Decimal("0.01")
 LIMITE_PARCELAMENTO = Decimal("50000")   # Art. 124 §3º
 V_LIMIAR_PARQUE = Decimal("2000")        # Art. 127 §1º IV/V (Quadro 14, R$/m²)
 
-# Art. 127 §1º — fator de incentivo à doação (parque é resolvido por V, ver pcpt_com_doacao)
-FI_DOACAO = {
-    "corredor_onibus":        (Decimal("2.0"), "Art. 127 §1º, I"),
-    "his":                    (Decimal("1.9"), "Art. 127 §1º, II"),
-    "regularizacao_fundiaria":(Decimal("0.8"), "Art. 127 §1º, III"),
-}
+# ★ AUD-A01 (2026-07-05): os fatores NÃO moram mais hardcoded aqui — são LIDOS de `tabelas/*.csv`
+# (doutrina 1.1: tabela de lei é DADO extraído e é INPUT do engine; o engine não duplica a tabela).
+# Falha ALTO se o CSV sumir/corromper (1.3 fail-closed). O _autoteste ancora os valores LEGAIS
+# (verbatim Art. 24 / Art. 127) de forma independente: sabotar o CSV ⇒ o gate FALHA.
+TABELAS = Path(__file__).resolve().parents[2] / "tabelas"
 
-# ★ CORREÇÃO 2026-07-02 (loop de melhoria, lente jurídica — VERIFICADO no verbatim indexado da LPUOS):
-# o Fi da via SEM doação (novas declarações ZEPEC) NÃO é 1 fixo. A LPUOS Lei 16.402/2016, Art. 24,
-# ESCALONA o Fi pela ÁREA DO LOTE (incisos I–VII). Usar Fi=1 p/ todos subestimava lotes ≤500m² em 20%
-# e INFLAVA lotes >50.000m² em 10×. Faixas (limite superior INCLUSIVO, "até X"):
+def _linhas_csv(nome):
+    p = TABELAS / nome
+    if not p.exists():
+        raise FileNotFoundError(f"tabela obrigatória ausente: {p} (1.1 — o engine lê a tabela, não a inventa)")
+    with open(p, encoding="utf-8") as f:
+        rows = [r for r in csv.reader(f) if r and not r[0].lstrip().startswith("#")]
+    if len(rows) < 2:
+        raise ValueError(f"tabela vazia/corrompida: {p}")
+    hdr = rows[0]
+    return [dict(zip(hdr, r)) for r in rows[1:]]
+
+def _carrega_fi_doacao():
+    """Art. 127 §1º I–V ← tabelas/fi-incentivo-doacao.csv. Devolve (FI_DOACAO, fi_parque_ate, fi_parque_acima)."""
+    doacao, p_ate, p_acima = {}, None, None
+    for r in _linhas_csv("fi-incentivo-doacao.csv"):
+        fin = r["finalidade"].strip()
+        fi = Decimal(r["fi"].strip())
+        # normaliza o inciso p/ o formato de citação do engine ("Art. 127 §1º, I")
+        inciso = re.sub(r"(§1º) (I|II|III|IV|V)$", r"\1, \2", r["inciso"].strip())
+        if fin == "parque_v_ate_2000":     p_ate = (fi, inciso)
+        elif fin == "parque_v_acima_2000": p_acima = (fi, inciso)
+        else:                              doacao[fin] = (fi, inciso)
+    if not doacao or p_ate is None or p_acima is None:
+        raise ValueError("fi-incentivo-doacao.csv incompleto (faltam finalidades ou faixas de parque)")
+    return doacao, p_ate, p_acima
+
+def _carrega_fi_zepec():
+    """LPUOS Art. 24 I–VII (Fi escalonado pela área do lote) ← tabelas/fi-zepec-area-lpuos.csv.
+    Faixas: 'ate X' / 'A a B' (teto=B) / 'acima de X' (teto=None). Limite superior INCLUSIVO."""
+    faixas = []
+    for r in _linhas_csv("fi-zepec-area-lpuos.csv"):
+        fx = r["faixa_area_lote_m2"].strip().lower()
+        fi = Decimal(r["fi"].strip())
+        inciso = re.sub(r"^(Art\. 24) (I|II|III|IV|V|VI|VII)$", r"\1, \2", r["inciso"].strip())
+        if fx.startswith("acima"):
+            teto = None
+        else:
+            m = re.findall(r"\d+", fx)
+            if not m: raise ValueError(f"faixa ilegível na tabela Fi ZEPEC: {fx!r}")
+            teto = Decimal(m[-1])
+        faixas.append((teto, fi, inciso))
+    faixas.sort(key=lambda t: (t[0] is None, t[0] or 0))
+    if len(faixas) != 7 or faixas[-1][0] is not None:
+        raise ValueError(f"fi-zepec-area-lpuos.csv inválido: esperadas 7 faixas Art. 24 I–VII com última aberta (veio {len(faixas)})")
+    return faixas
+
 LEI_LPUOS = "Lei Municipal SP nº 16.402/2016 (LPUOS)"
-FI_ZEPEC_ART24 = [   # (limite_superior_m2 ou None=infinito, Fi, inciso)
-    (Decimal("500"),   Decimal("1.2"), "Art. 24, I"),
-    (Decimal("2000"),  Decimal("1.0"), "Art. 24, II"),
-    (Decimal("5000"),  Decimal("0.9"), "Art. 24, III"),
-    (Decimal("10000"), Decimal("0.7"), "Art. 24, IV"),
-    (Decimal("20000"), Decimal("0.5"), "Art. 24, V"),
-    (Decimal("50000"), Decimal("0.2"), "Art. 24, VI"),
-    (None,             Decimal("0.1"), "Art. 24, VII"),
-]
+FI_DOACAO, _FI_PARQUE_ATE, _FI_PARQUE_ACIMA = _carrega_fi_doacao()   # Art. 127 §1º (tabela extraída)
+FI_ZEPEC_ART24 = _carrega_fi_zepec()                                 # LPUOS Art. 24 I–VII (tabela extraída)
 
 def fi_zepec_por_area(atc):
     """Fi da via sem-doação p/ NOVAS declarações ZEPEC, escalonado pela área do lote
@@ -134,8 +169,8 @@ def pcpt_com_doacao(atc, camax, finalidade, v=None):
         if v is None:
             raise ValueError("finalidade 'parque' exige V (valor do terreno, Quadro 14) para escolher o Fi (Art.127 §1º IV/V)")
         V = _pos(_d(v, "v"), "v")
-        if V <= V_LIMIAR_PARQUE: F, disp = Decimal("1.4"), "Art. 127 §1º, IV (Lei 17.975/2023)"
-        else:                    F, disp = Decimal("1.0"), "Art. 127 §1º, V (Lei 17.975/2023)"
+        F, inc = _FI_PARQUE_ATE if V <= V_LIMIAR_PARQUE else _FI_PARQUE_ACIMA   # da tabela (AUD-A01)
+        disp = f"{inc} (Lei 17.975/2023)"
     elif finalidade in FI_DOACAO:
         F, disp = FI_DOACAO[finalidade]
     else:

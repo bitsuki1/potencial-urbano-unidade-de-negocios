@@ -9,9 +9,16 @@
 | Arquivo | O que é | Quantos |
 |---|---|---|
 | **`lista_prospeccao.csv`** | **pronto para abordar** (`negociavel=sim`, identificável) | **2.740** |
-| `fila_verificar.csv` | sinal sem prova **ou** transacionou sem SQL/dono — **conferir/identificar antes** | 3.350 |
-| `zepec_cedentes.csv` | a base completa (todos os 6.131, todas as colunas) | 6.131 |
-> Fora das listas: 41 imóveis `negociavel=nao` **com prova escrita** (esgotado/vedado por lei).
+| `fila_verificar.csv` | sinal sem prova **ou** transacionou sem SQL/dono — **conferir/identificar antes** | 1.578 |
+| `zepec_cedentes.csv` | a base completa (1 linha por imóvel, todas as colunas) | 4.360 |
+> Fora das listas: 42 imóveis `negociavel=nao` **com prova escrita** (esgotado/vedado por lei/coletivo).
+> **Bem COLETIVO (2026-07-05, decisão do dono):** as 1.772 linhas idênticas "Luminárias Ornamentais da Light"
+> (tombamento coletivo de postes, sem lote cadastral) viraram **1 linha `estado_venda=COLETIVO`**
+> (`negociavel=nao` — não é imóvel comercializável). Os itens seguem íntegros em `zepec/limpo/zepec_unificada.csv`.
+> Por isso a base caiu de 6.131 → 4.360 e a fila de verificação de 3.350 → 1.578 (menos ruído, mesmo fato).
+> **Saldo por CONJUNTO (T11):** onde uma certidão cobre **lotes irmãos**, o m² transferido é do conjunto —
+> a coluna `conjunto_certidao` marca os irmãos e o saldo individual fica em branco com a pendência declarando
+> o **saldo do conjunto** (Σ PCpt − transferido). Não alocamos por lote o que a certidão não aloca.
 
 ## Os segmentos da lista de prospecção (fato, não ranking)
 | Segmento | O que quer dizer |

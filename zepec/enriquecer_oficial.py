@@ -16,6 +16,8 @@ POR LINHA — nada inventado. Vacina dos dois "V": venal (IPTU) ≠ outorga (Qua
 """
 import csv, sys
 from pathlib import Path
+from decimal import Decimal
+from collections import defaultdict
 
 AQUI = Path(__file__).resolve().parent
 sys.path.insert(0, str(AQUI.parent / "engines" / "tdc"))
@@ -79,8 +81,8 @@ def main():
 
     n = {"atc": 0, "v": 0, "zona": 0, "cabas": 0, "pcpt": 0, "saldo": 0, "preco": 0}
     out = AQUI / "ferramenta/zepec_cedentes_oficial.csv"
-    with open(out, "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=campos); w.writeheader()
+    enr = []
+    if True:  # (indentação preservada; a escrita acontece após a passada de CONJUNTO — T11)
         for r in rows:
             sql = (r.get("sql_mestre") or "").strip()
             for k in extras: r.setdefault(k, "")
@@ -147,6 +149,38 @@ def main():
 
             r["cobertura_oficial"] = "+".join(cob)
             r["pendencia_calculo"] = " | ".join(pend) if pend else "OK (Atc+CAbás+V) — cálculo completo"
+            enr.append(r)
+
+    # T11 — SALDO POR CONJUNTO (lotes IRMÃOS na mesma certidão). O m² transferido é do CONJUNTO
+    # (registrado no 1º lote em montar_ferramenta.py); afirmar saldo POR LOTE ali é inventar alocação.
+    # Regra: membros de conjunto têm saldo/preço INDIVIDUAL em branco + pendência declarando o saldo
+    # DO CONJUNTO = max(0, Σ PCpt(membros) − transferido_total). Nada é inventado (1.3).
+    conj = defaultdict(list)
+    for r in enr:
+        if (r.get("conjunto_certidao") or "").strip():
+            conj[r["conjunto_certidao"]].append(r)
+    for cid, membros in sorted(conj.items()):
+        pcpts = [Decimal(m["pcpt_m2"]) for m in membros if (m.get("pcpt_m2") or "").strip()]
+        transf = sum((Decimal(m["m2_ja_transferido"]) for m in membros
+                      if (m.get("m2_ja_transferido") or "").strip()), Decimal("0"))
+        completo = len(pcpts) == len(membros)
+        saldo_conj = max(Decimal("0"), sum(pcpts, Decimal("0")) - transf).quantize(Decimal("0.01")) if pcpts else None
+        if saldo_conj is None:
+            txt_saldo = "PENDENTE (nenhum membro com PCpt calculado)"
+        else:
+            txt_saldo = f"{saldo_conj} m² (Σ PCpt − transferido{'' if completo else '; PARCIAL: há membro sem PCpt'})"
+        nota = (f"T11: conjunto {cid} ({len(membros)} lotes irmãos na mesma certidão) — m² transferido é do "
+                f"CONJUNTO; saldo individual INDETERMINADO; saldo do conjunto = {txt_saldo}")
+        for m in membros:
+            if m.get("saldo_pcpt_m2"): n["saldo"] -= 1
+            if m.get("preco_proxy_brl"): n["preco"] -= 1
+            m["saldo_pcpt_m2"] = ""; m["preco_proxy_brl"] = ""
+            m["pendencia_calculo"] = (m["pendencia_calculo"].replace("OK (Atc+CAbás+V) — cálculo completo", "").strip(" |")
+                                      + " | " + nota).strip(" |")
+
+    with open(out, "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=campos); w.writeheader()
+        for r in enr:
             w.writerow(r)
 
     tot = len(rows)

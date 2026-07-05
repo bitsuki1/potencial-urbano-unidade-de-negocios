@@ -33,6 +33,10 @@ def _sm(sq,lt):
     d=re.sub(r'\D','',sq or ''); m=re.match(r'(\d{4})',(lt or '').strip())
     return d[:3]+d[3:6]+m.group(1) if (len(d)==6 and m) else ''
 cer=list(csv.reader(open(Z/"raw/lista_certidao_ZEPEC-BIR_agosto-2025.csv",encoding='utf-8')))
+# T11 (2026-07-05): certidao que cobre LOTES IRMAOS forma um CONJUNTO — o m2 transferido e do conjunto,
+# nao de um lote. Registramos o conjunto (id + membros) e propagamos a marca a TODOS os irmaos; o saldo
+# desses lotes so existe NO NIVEL DO CONJUNTO (calculado em enriquecer_oficial.py; individual = indeterminado).
+conjunto_de={}; membros_conj=defaultdict(set)
 for r in cer[5:]:
     r=(r+['']*19)[:19]
     lotes=_split_lotes(r[3]); sms=[s for s in (_sm(r[2],lt) for lt in lotes) if s]
@@ -43,7 +47,13 @@ for r in cer[5:]:
     for j,s in enumerate(sms):                 # flags p/ TODOS os lotes irmaos (achado dos agentes)
         if esg: esgotado.add(s)
         if ouc: operacao_urbana.add(s)
-    if a: transferido[sms[0]]+=a; n_transf[sms[0]]+=1   # m2 so no 1o lote (area e do conjunto; nao duplicar)
+    if len(sms)>1:                             # T11: lotes irmaos na MESMA certidao -> conjunto (com merge)
+        cids=sorted({conjunto_de[s] for s in sms if s in conjunto_de})
+        cid=cids[0] if cids else 'CONJ-'+sms[0]
+        for outro in cids[1:]:
+            for s in membros_conj.pop(outro): conjunto_de[s]=cid; membros_conj[cid].add(s)
+        for s in sms: conjunto_de[s]=cid; membros_conj[cid].add(s)
+    if a: transferido[sms[0]]+=a; n_transf[sms[0]]+=1   # m2 registrado no 1o lote; saldo sai POR CONJUNTO (T11)
 
 # padroes de SINAL (suspeita, nao prova) — usados so p/ mandar a VERIFICAR, nunca p/ excluir
 RE_AREA   = re.compile(r'\bBAIRRO\b|PER[IÍ]METRO|N[UÚ]CLEO\s+URBANO|CONJUNTO\s+(URBANO|ARQUITET)', re.I)
@@ -107,7 +117,7 @@ def classifica(tem_decl, tem_cert, eh_tombado, vedado, esg):
 COLS=['sql_mestre','setor','quadra','lote','nome_bem','endereco_mestre','distrito',
       'proprietario','fonte_dono',
       'tipo_zepec','esfera','estado_venda','certeza','negociavel','motivo_negociavel','sinais_revisar',
-      'm2_ja_transferido','n_transferencias','valor_pecuniario_rs','status_fundurb','intercorrencia_fundurb','base_periodo_fundurb_rs',
+      'm2_ja_transferido','n_transferencias','conjunto_certidao','valor_pecuniario_rs','status_fundurb','intercorrencia_fundurb','base_periodo_fundurb_rs',
       'tem_declaracao','tem_certidao','esgotado','data_ref','origens','obs']
 out=[]
 
@@ -142,6 +152,7 @@ def monta(sm, rs):
         estado_venda=estado,certeza=cert,negociavel=neg,motivo_negociavel=motivo,sinais_revisar=sinais,
         m2_ja_transferido=(f"{round(transferido[sm],2)}" if sm and sm in transferido else ''),
         n_transferencias=(n_transf[sm] if sm and sm in n_transf else ''),
+        conjunto_certidao=(conjunto_de.get(sm,'') if sm else ''),
         valor_pecuniario_rs=fu.get('valor_pecuniario_rs',''),status_fundurb=fu.get('status_fundurb',''),
         intercorrencia_fundurb=fu.get('intercorrencia',''),base_periodo_fundurb_rs=fu.get('base_periodo_rs',''),
         tem_declaracao='sim' if tem_decl else 'nao',
@@ -150,10 +161,27 @@ def monta(sm, rs):
 
 for sm,rs in grupos.items():
     if sm: out.append(monta(sm,rs))
-for r in soltos:
-    out.append(monta('', [r]))
 
-ordem={'INTACTO':0,'TEM_SALDO':1,'SO_ELEGIVEL':2,'INCERTO':3,'VEDADO_LEI':4,'ESGOTADO':5}
+# G3 / D-DONO (2026-07-05): bem COLETIVO/SERIADO sem lote cadastral — a MESMA linha da fonte repetida em
+# serie (ex.: 1.772x "Luminarias Ornamentais da Light", tombamento coletivo de postes) NAO e imovel
+# comercializavel individualmente. Cravado no motor: vira 1 linha 'COLETIVO' (negociavel=nao), nao N
+# 'INCERTO' inflando a fila de verificacao. Os itens seguem integros em zepec/limpo/zepec_unificada.csv
+# (nada se joga fora). Limiar factual: nome identico repetido >=20x sem SQL = serie coletiva.
+LIMIAR_COLETIVO=20
+por_nome=defaultdict(list)
+for r in soltos: por_nome[g(r,'nome_bem').strip()].append(r)
+for nome,rs in sorted(por_nome.items()):
+    if nome and len(rs)>=LIMIAR_COLETIVO:
+        o=monta('', rs[:1])
+        o.update(estado_venda='COLETIVO', certeza='alta', negociavel='nao',
+                 motivo_negociavel='tombamento coletivo/seriado sem lote cadastral individual — nao e imovel comercializavel (G3; D-DONO 2026-07-05)',
+                 sinais_revisar='',
+                 obs=f'bem coletivo: {len(rs)} itens identicos na fonte modelados como 1 bem; itens preservados em zepec/limpo/zepec_unificada.csv')
+        out.append(o)
+    else:
+        for r in rs: out.append(monta('', [r]))
+
+ordem={'INTACTO':0,'TEM_SALDO':1,'SO_ELEGIVEL':2,'INCERTO':3,'VEDADO_LEI':4,'ESGOTADO':5,'COLETIVO':6}
 out.sort(key=lambda o:(ordem.get(o['estado_venda'],9), o['distrito']))
 with (OUT/"zepec_cedentes.csv").open('w',newline='',encoding='utf-8') as f:
     w=csv.DictWriter(f,fieldnames=COLS); w.writeheader(); w.writerows(out)

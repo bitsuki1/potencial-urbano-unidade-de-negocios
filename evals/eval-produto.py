@@ -120,7 +120,21 @@ def main():
         print(f"  [{status}] {g['sql']} faixa {inc} (área {area} m²): "
               + (f"Fi={fi_esp} pcpt={pcpt_esp} m²" if not detalhes else " ; ".join(detalhes)))
 
-    print(f"\nRESUMO: {len(GOLDEN)-falhas}/{len(GOLDEN)} PASS, {falhas} falha(s).")
+    # T9 — parcelamento Art. 124 §3º (>50.000 m² → 10 parcelas anuais). O engine já prova o caso >50k
+    # no autoteste (não-vácuo); AQUI o invariante de PRODUTO: nenhuma linha entregue com PCpt > 50.000
+    # pode sair sem `parcelas_anuais=10` + pendência citando o Art. 124 §3º. Cobertura declarada (sem
+    # cap silencioso): hoje 0 cedentes reais >50k — o check guarda a regressão quando a cobertura crescer.
+    LIMITE = Decimal("50000")
+    grandes = [r for r in csv_idx.values() if (r.get("pcpt_m2") or "").strip() and Decimal(r["pcpt_m2"]) > LIMITE]
+    t9_falhas = [r["sql_mestre"] for r in grandes
+                 if (r.get("parcelas_anuais") or "").strip() != "10" or "Art.124 §3º" not in (r.get("pendencia_calculo") or "")]
+    print(f"  [{'PASS' if not t9_falhas else 'FALHA'}] T9 parcelamento Art.124 §3º: "
+          f"{len(grandes)} linha(s) com PCpt>50.000 m² no produto; sem flag = {len(t9_falhas)}")
+    if t9_falhas:
+        falhas += 1
+        print(f"    SQLs sem parcelamento flagado: {t9_falhas[:10]}", file=sys.stderr)
+
+    print(f"\nRESUMO: {len(GOLDEN)+1-falhas}/{len(GOLDEN)+1} PASS, {falhas} falha(s).")
     if falhas:
         print("GATE VERMELHO: engine/produto divergiu do Fi legal (Art. 24 LPUOS). "
               "Um Fi sabotado ou o produto com Fi drifted da lei quebra aqui (T2).", file=sys.stderr)
