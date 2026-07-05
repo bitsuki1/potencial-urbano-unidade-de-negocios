@@ -1,0 +1,16 @@
+name: linter-estado
+# WIRE REMOTO-SAFE do linter (kit A9 do Escritório do MOU). Hooks locais não disparam em sessão remota
+# (V-HOOK-REMOTO) — a Action roda no SERVIDOR a cada push, então o check de estado vale mesmo em remoto.
+# Falha (❌) só em 🟥 (ex.: CLAUDE.md/AGENTS.md inchado). Os 🟨 aparecem no log como aviso, não travam.
+on:
+  push:
+    branches: ['**']
+  pull_request:
+  workflow_dispatch: {}
+jobs:
+  linter-estado:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Linter de estado
+        run: bash linter-estado.sh
