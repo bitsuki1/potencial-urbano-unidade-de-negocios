@@ -277,6 +277,7 @@ o engine campo a campo. Fórmula que não bate com caso real não passa.
 > de 2026-07-01 e 2026-07-03 vivem FORA do CODEX (namespacing por sessão) e são canônicas onde estão:
 > - **D-DONO-1..6** → `DECISOES-DO-DONO-2026-07-01.md` (forks do dono respondidas).
 > - **D-ESCOPO-01, D-DRIVE-01, D-CANON-01/02, D-SEG-01, D-MOTOR-01, D-AUDIT-01** → `docs/DECISOES-2026-07-03.md`.
+> - **D-DONO-7..13** → `docs/DECISOES-2026-07-05.md` (PU 18: preço=preço LEGAL/margem é do usuário — fecha o fork c; projeto não julga produto/mercado — governa forks a/b; inventário-antes-de-extrair; fora-de-escopo arquivados; bem coletivo não-comercializável; B-5/B-6 GO; branches/Supabase via extensão).
 > - Espelho operacional: `governanca.registro_decisoes` (Supabase). Ao lavrar nova decisão, registre lá + aponte aqui (SSOT-por-ponteiro, RO-17).
 
 ---

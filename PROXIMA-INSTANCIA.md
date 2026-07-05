@@ -1,5 +1,20 @@
 # PRÓXIMA INSTÂNCIA — o que fazer (Potencial Urbano)
 
+> **★★★★ PU 18 (2026-07-05, tarde) — DESTRAVE GERAL + DECISÕES DO DONO. LEIA: `docs/DECISOES-2026-07-05.md` (D-DONO-7..13) + `docs/INVENTARIO-DRIVE-VIVO-2026-07-05.md` + rastro do `BACKLOG.md`.**
+> O dono respondeu o relatório de pendências ITEM A ITEM. **Decisões:** preço = **preço LEGAL** (margem é
+> do usuário — fork c encerrado); o projeto **não julga produto/mercado** e não re-pergunta estratégia
+> (forks a/b); **olhar o Drive antes de extrair** (FEITO: inventário vivo via MCP só-leitura). **Pagos com
+> prova:** AUD-A01·A10·B01(fixture)·T9·T11·G3-coletivo (ferramenta 6.131→4.360; 1.772 "Light"=1 bem
+> COLETIVO) · **B-6 FECHADO** (grafo de remissões + 2 bugs lexicais no tokenizador; eval data-por-remissao
+> ATIVO; 18/18) · P3/item-8 (fora-de-escopo ARQUIVADOS; corpus 61 itens). **Inventário do Drive provou:**
+> arrumação NUNCA rodou (0/1.360 movidos); **Decreto 57.536 + Quadro 2A + Quadro 6 + AUE/APPa + SIRGAS
+> 96 distritos EXISTEM no Drive** (extração da onda TDC destravada); 5 municipais NÃO existem no Drive
+> (captura externa); 58.289/18 sem corpo; ~28 GB duplicatas vivas. **PRÓXIMO:** (1) extrair do Drive a onda
+> TDC (57.536 → `_entrada` → promover/fatiar/indexar; AUD-A11) + as 7 municipais com PDF; (2) T8/G1 com a
+> geometria oficial agora localizada; (3) restam AUD-C05/C06, B08/B09, T12, G5·G6·E1–E5·E7. **DONO:** rodar
+> os 2 prompts de `extracao/PROMPT-EXTENSAO-BRANCHES-E-SUPABASE.md` + Apps Scripts da arrumação + chave de
+> embeddings (B-5) + revisão humana de ≥1 lei-âncora.
+>
 > **★★★ ESTADO PÓS-M0 + AUDITORIA 2026-07-05 — LEIA ANTES DE TUDO: `docs/AUDITORIA-PROFUNDA-2026-07-05.md`.**
 > **MOTOR ZERO (M0) FECHADO** (`docs/MOTOR-ZERO-M0-FECHAMENTO.md`): T1(C-28), T2, T3, T4 **FEITOS e provados**
 > pelo gate (`scripts/fechar-instancia.py` roda `eval-produto`, cobre o PRODUTO, não só a fundação). SEGUEM
