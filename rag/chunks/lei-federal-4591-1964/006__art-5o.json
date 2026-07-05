@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 5º",
   "numero": "5",
+  "header_raw": "Art. 5º O condomínio por meação de parede, soalhos, e tetos das unidades isoladas, regular-se-á pelo disposto no Código Civil, no que lhe fôr aplicável.",
   "caminho_hierarquico": [
     "TÍTULO I",
     "Art. 5º"
@@ -32,11 +33,14 @@
     }
   },
   "tema": [
-    "IPTU",
     "condominio_edilicio",
     "incorporacao_imobiliaria",
     "unidade_autonoma"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
 }

@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 14",
   "numero": "14",
+  "header_raw": "Art. 14. Caso não haja impugnações, o juiz homologará, como quadro-geral de credores, a relação dos credores constante do edital de que trata o art. 7º , § 2º , desta Lei, dispensada a publicação de que trata o art. 18 desta Lei.",
   "caminho_hierarquico": [
     "CAPÍTULO II",
     "Seção II",
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

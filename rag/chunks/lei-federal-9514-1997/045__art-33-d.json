@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 33-D",
   "numero": "33-D",
+  "header_raw": "Art. 33-D.  A instituição credora original poderá exigir ressarcimento financeiro pelo custo de originação da operação de crédito, o qual não poderá ser repassado ao mutuário.       (Incluído pela Lei nº 12.810, de 2013)",
   "caminho_hierarquico": [
     "CAPÍTULO II-A",
     "Art. 33-D"
@@ -32,10 +33,13 @@
     }
   },
   "tema": [
-    "IPTU",
     "alienacao_fiduciaria",
     "sistema_financiamento_imobiliario"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre o Sistema de Financiamento Imobiliário, institui a alienação fiduciária de coisa imóvel e dá outras providências."
 }

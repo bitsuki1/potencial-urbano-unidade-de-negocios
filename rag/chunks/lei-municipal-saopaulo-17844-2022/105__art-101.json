@@ -1,0 +1,38 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17844-2022::105-art-101",
+  "lei_id": "lei-municipal-saopaulo-17844-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 101",
+  "numero": "101",
+  "header_raw": "Art. 101. Nos trechos indicados nas Plantas nº 26.999/01 a nº 26.999/05 e nº 26.999/07 a nº 26.999/13,",
+  "caminho_hierarquico": [
+    "CAPÍTULO VIII",
+    "Art. 101"
+  ],
+  "texto": "Art. 101. Nos trechos indicados nas Plantas nº 26.999/01 a nº 26.999/05 e nº 26.999/07 a nº 26.999/13,\n\nClassificação S-1227, anexas a esta Lei, ficam revogados os alinhamentos viários aprovados em lei, na\n\nseguinte conformidade:\n\nI - a abertura de nova via de ligação prevista pela Lei nº 16.541, de 2016, no trecho entre a Av. do\n\nEstado e um ponto 110 metros aquém da Av. Santos Dumont, conforme indicado nas plantas 26.999/03\n\ne 26.999/04;\n\nII - a abertura de nova via de ligação prevista pela Lei nº 16.541, de 2016, no trecho entre a Av. do\n\nEstado e 110 metros aquém da Av. do Estado, conforme indicado na planta 26.999/03;\n\nIII - o alargamento da Rua Pedro Vicente previsto pela Lei nº 16.541, de 2016, no trecho entre a Av.\n\nCruzeiro do Sul e a Rua Canindé, conforme indicado na planta 26.999/07;\n\nIV - a abertura de nova via de ligação prevista pela Lei nº 16.541, de 2016, no trecho entre a Rua Santa\n\nRita e a Rua Catumbi, conforme indicado nas plantas 26.999/10 e 26.999/11.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "lei municipal nº 17844/2022 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO VIII › Art. 101",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2022-09-14",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": []
+    }
+  },
+  "tema": [],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

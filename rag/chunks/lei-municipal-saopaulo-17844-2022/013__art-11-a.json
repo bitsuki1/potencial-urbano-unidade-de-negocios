@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 11-A",
   "numero": "11-A",
+  "header_raw": "Art. 11-A. O número de vagas exigido para a edificação, independentemente da categoria de uso, área",
   "caminho_hierarquico": [
     "CAPÍTULO II",
     "Seção I",
@@ -28,9 +29,11 @@
       "alterada_por": []
     }
   },
-  "tema": [
-    "IPTU"
+  "tema": [],
+  "dominio": [
+    "tdc"
   ],
+  "dominio_primario": "tdc",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 29",
   "numero": "29",
+  "header_raw": "Art. 29. O Projeto Estratégico Santa Rita corresponde aos lotes 0001 a 0003 e 0067 da Quadra 003 do",
   "caminho_hierarquico": [
     "CAPÍTULO II",
     "Seção III",
@@ -28,9 +29,11 @@
       "alterada_por": []
     }
   },
-  "tema": [
-    "IPTU"
+  "tema": [],
+  "dominio": [
+    "tdc"
   ],
+  "dominio_primario": "tdc",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

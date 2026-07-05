@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 255",
   "numero": "255",
+  "header_raw": "Art. 255 - Além dos casos previstos nesta Lei, a inscrição de incorporação ou loteamento só será cancelada a requerimento do incorporador ou loteador, enquanto nenhuma unidade ou lote for objeto de transação averbada, ou mediante o consentimento de todos os compromissários ou cessionários.                      (Renumerado do art. 259 com nova redação pela Lei nº 6.216, de 1975)",
   "caminho_hierarquico": [
     "TÍTULO V",
     "CAPÍTULO VIII",
@@ -33,12 +34,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

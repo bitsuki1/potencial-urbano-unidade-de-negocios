@@ -105,12 +105,60 @@ def cessao_vedada(cat):
     c=(cat or '').lower()
     return 'sim' if ('urbanização especial' in c or 'proteção paisagística' in c) else ''
 
+
+# T4 — GATE DE CONSERVAÇÃO (Art. 129, Lei 16.050/2014, red. Lei 17.975/2023). 3 estados de elegibilidade.
+# Defeito vivo (encerramento 07-03): para TOMBADO_CADASTRO, `ato_conservacao` recebia `bp_compres` = a
+# RESOLUÇÃO DE TOMBAMENTO (ex.: "RES. 22/02"), NÃO uma evidência de conservação — uma regra global leria
+# isso como "tem conservação => elegível", falso-positivo. E o Termo de Compromisso é COMPROMISSO DE
+# REMEDIAR (evidencia conservação INADEQUADA), logo NÃO elegível — só o Atestado de Conservação elegibiliza.
+# Fonte real da evidência: coluna col[7] da lista de certidões ("Atestado de Conservação NNN/AAAA" |
+# "Termo de Compromisso NNN/AAAA" | "-"). O montante fica amarrado à idade por Art. 129 §2º (Lei 17.975/23):
+# 70% aos 10 anos com Atestado, 100% aos 15 — tratado no engine de valor, não aqui.
+CIT_CONSERV = "Lei 16.050/2014 (PDE), Art. 129 (red. Lei 17.975/2023)"
+
+def elegibilidade_conservacao(ato_conservacao):
+    """Classifica a elegibilidade de conservação (Art. 129) a partir da evidência textual.
+    Devolve (estado, citacao). Estados:
+      ELEGIVEL             — Atestado de Conservação (Art. 129): condição de conservação atestada.
+      PENDENTE_CONSERVACAO — Termo de Compromisso: compromisso de REMEDIAR => conservação inadequada, NÃO elegível.
+      SEM_ATESTADO         — sem evidência de conservação (inclui resolução de TOMBAMENTO 'RES. ...', '-', vazio):
+                             tombamento NÃO é atestado de conservação; cedente não entra em 'pronto para abordar'.
+    Nunca fabrica: só o Atestado de Conservação elegibiliza; qualquer outra coisa NÃO."""
+    a = (ato_conservacao or "").strip().lower()
+    if "atestado de conserva" in a:
+        return "ELEGIVEL", CIT_CONSERV
+    if "termo de compromisso" in a:
+        return "PENDENTE_CONSERVACAO", CIT_CONSERV
+    return "SEM_ATESTADO", CIT_CONSERV
+
+def _autoteste_conservacao():
+    """Fixtures OBRIGATÓRIAS que FALHAM se a regra regredir (T4). Rodável isolado do dado pesado."""
+    casos = [
+        ("Atestado de Conservação 001/2016", "ELEGIVEL"),
+        ("Termo de Compromisso 008/2016",    "PENDENTE_CONSERVACAO"),  # compromisso de remediar != elegível
+        ("RES. 22/02",                       "SEM_ATESTADO"),          # resolução de TOMBAMENTO != conservação
+        ("RES. 05/2022",                     "SEM_ATESTADO"),
+        ("-",                                "SEM_ATESTADO"),
+        ("",                                 "SEM_ATESTADO"),
+        ("  termo de compromisso 002/2018 ", "PENDENTE_CONSERVACAO"),  # robusto a caixa/espaços
+    ]
+    for ato, esp in casos:
+        got, _ = elegibilidade_conservacao(ato)
+        assert got == esp, f"conservacao: {ato!r} -> {got} (esperado {esp})"
+    # a garantia central do T4, explícita: NEM Termo NEM tombamento (RES.) podem ser ELEGIVEL
+    for ato in ("Termo de Compromisso 008/2016", "RES. 22/02", "RES. 05/2022", "-", ""):
+        assert elegibilidade_conservacao(ato)[0] != "ELEGIVEL", f"conservacao: {ato!r} NÃO pode ser ELEGIVEL"
+    return True
+
+
 COLS=['origem','tipo_zepec','esfera','categoria','cessao_vedada_art124p2',
       'sql_mestre','setor','quadra','lote','dv','sql_status',
       'endereco_mestre','end_tipo','end_logradouro','end_numeros','end_multi','end_raw',
       'distrito','nome_bem','n_declaracao','n_processo','ato_conservacao','zepec_cod',
       'data_pub_raw','data_pub_iso','data_amb','ano','situacao','status_declaracao',
-      'obs_a_observar','fonte_arquivo']
+      'obs_a_observar','fonte_arquivo',
+      # T4 — conservação (Art. 129): separa o TOMBAMENTO (RES.) da EVIDÊNCIA DE CONSERVAÇÃO e deriva o gate.
+      'ato_tombamento','elegibilidade_conservacao','elegibilidade_conservacao_citacao']
 
 def main():
     out=[]; rel=Counter()
@@ -170,7 +218,9 @@ def main():
             sql_mestre=sm,setor=se,quadra=qu,lote=lo,dv=dv,sql_status=stt,
             endereco_mestre=em,end_tipo=et,end_logradouro=el,end_numeros=en,end_multi=mu,end_raw=r[8],
             distrito=titlecase_pt(nc(r[24])),nome_bem=titlecase_pt(r[0]),n_declaracao='',n_processo=nc(r[26]),
-            ato_conservacao=nc(r[5]),zepec_cod=nc(r[12]),data_pub_raw=nc(r[14]),data_pub_iso=di,data_amb=da,
+            # T4: bp_compres (r[5]) é a RESOLUÇÃO DE TOMBAMENTO ("RES. 22/02"), NÃO conservação — vai para
+            # ato_tombamento; ato_conservacao fica vazio (cadastro de tombado não traz atestado de conservação).
+            ato_conservacao='',ato_tombamento=nc(r[5]),zepec_cod=nc(r[12]),data_pub_raw=nc(r[14]),data_pub_iso=di,data_amb=da,
             ano=nc(r[15]),situacao=cat,status_declaracao=nc(r[23]),
             obs_a_observar='', fonte_arquivo='SIRGAS_SHP_benstombados1'))
         rel['tombado_linhas']+=1
@@ -189,6 +239,14 @@ def main():
             fonte_arquivo='SIRGAS_SHP_ZEPEC1_apc'))
         rel['apc_linhas']+=1
 
+    # T4 — deriva o gate de conservação (Art. 129) por linha, a partir da evidência já capturada
+    # (ato_conservacao vem de col[7] da certidão p/ CERTIDAO_BIR_CEDENTE; vazio nos demais => SEM_ATESTADO).
+    for o in out:
+        est, cit = elegibilidade_conservacao(o.get('ato_conservacao',''))
+        o['elegibilidade_conservacao']=est
+        o['elegibilidade_conservacao_citacao']=cit
+        o.setdefault('ato_tombamento','')
+
     with (OUT/"zepec_unificada.csv").open('w',newline='',encoding='utf-8') as f:
         w=csv.DictWriter(f,fieldnames=COLS); w.writeheader(); w.writerows(out)
 
@@ -202,4 +260,11 @@ def main():
     for k,v in sorted(rel.items()):
         if 'data' in k or 'sql_inval' in k: print(f"  {k}: {v}")
 
-if __name__=="__main__": main()
+if __name__=="__main__":
+    import sys
+    if "--autoteste" in sys.argv:
+        _autoteste_conservacao()
+        print("AUTO-TESTE conservação (T4): OK — Atestado=ELEGIVEL · Termo=PENDENTE · RES./vazio=SEM_ATESTADO "
+              "(nem Termo nem tombamento elegibilizam).")
+    else:
+        main()

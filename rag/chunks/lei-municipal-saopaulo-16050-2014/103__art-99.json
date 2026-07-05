@@ -1,0 +1,45 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16050-2014::103-art-99",
+  "lei_id": "lei-municipal-saopaulo-16050-2014",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 99",
+  "numero": "99",
+  "header_raw": "Art. 99. Decorrido o prazo de 5 (cinco) anos de cobrança do IPTU Progressivo no Tempo sem que os proprietários dos imóveis",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO III",
+    "Seção I",
+    "Art. 99"
+  ],
+  "texto": "Art. 99. Decorrido o prazo de 5 (cinco) anos de cobrança do IPTU Progressivo no Tempo sem que os proprietários dos imóveis\n\ntenham cumprido a obrigação de parcelar, edificar ou utilizar, conforme o caso, a Prefeitura poderá proceder à desapropriação\n\ndesses imóveis com pagamento em títulos da dívida pública.\n\n§ 1º Os títulos da dívida pública terão prévia aprovação do Senado Federal e serão resgatados no prazo de até dez anos, em\n\nprestações anuais, iguais e sucessivas, assegurados o valor real da indenização e os juros legais, nos termos do art. 8º da Lei\n\nFederal nº 10.257, de 2001.\n\n§ 2º Findo o prazo do artigo anterior, a Prefeitura deverá publicar o respectivo decreto de desapropriação do imóvel em até 1 (um)\n\nano, salvo em caso de ausência de interesse público na aquisição, que deverá ser devidamente justificada.\n\nhttps://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 48/166\n\n27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal\n\n§ 3º É vedado ao Executivo proceder à desapropriação do imóvel que se enquadre na hipótese do “caput” de forma diversa da\n\nprevista neste artigo, contanto que a emissão de títulos da dívida pública tenha sido previamente autorizada pelo Senado Federal.\n\n§ 4º Adjudicada a propriedade do imóvel à Prefeitura, esta deverá determinar a destinação urbanística do bem, vinculada à\n\nimplantação de ações estratégicas do Plano Diretor, ou iniciar o procedimento para sua alienação ou concessão, nos termos do art.\n\n8º do Estatuto da Cidade.\n\n§ 5º Caso o valor da dívida relativa ao IPTU supere o valor do imóvel, a Prefeitura deverá proceder à desapropriação do imóvel e,\n\nna hipótese de não ter interesse público para utilização em programas do Município, poderá aliená-lo a terceiros.\n\n§ 6º Ficam mantidas para o adquirente ou concessionário do imóvel as mesmas obrigações de parcelamento, edificação ou\n\nutilização previstas nesta lei.\n\n§ 7º Nos casos de alienação do imóvel previstas nos §§ 4º e 5º deste artigo, os recursos auferidos deverão ser destinados ao\n\nFundo Municipal de Habitação.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "lei municipal nº 16050/2014 — São Paulo - SP",
+    "dispositivo": "TÍTULO II › CAPÍTULO III › Seção I › Art. 99",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2014-07-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 95 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2014-07-31. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "urbanística"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

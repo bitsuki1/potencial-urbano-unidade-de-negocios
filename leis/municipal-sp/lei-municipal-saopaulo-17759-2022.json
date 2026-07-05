@@ -7,7 +7,6 @@
   "ano": 2022,
   "ementa": "Facilita a concessão de isenção de IPTU a imóveis edificados prejudicados por enchentes, alterando o Decreto nº 48.767, de 27 de setembro de 2007, e dá outras providências.",
   "tema": [
-    "IPTU",
     "enchentes",
     "isencao",
     "beneficio_fiscal"
@@ -48,5 +47,9 @@
   },
   "status_pipeline": "bruto",
   "confianca_extracao": "media",
-  "revisado_por_humano": false
+  "revisado_por_humano": false,
+  "dominio_primario": "iptu",
+  "dominio": [
+    "iptu"
+  ]
 }

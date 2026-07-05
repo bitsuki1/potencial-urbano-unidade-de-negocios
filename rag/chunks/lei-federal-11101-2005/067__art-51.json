@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 51",
   "numero": "51",
+  "header_raw": "Art. 51. A petição inicial de recuperação judicial será instruída com:",
   "caminho_hierarquico": [
     "CAPÍTULO III",
     "Seção II",
@@ -34,12 +35,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

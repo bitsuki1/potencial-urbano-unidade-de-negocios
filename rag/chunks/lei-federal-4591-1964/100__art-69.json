@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 69",
   "numero": "69",
+  "header_raw": "Art. 69. O Poder Executivo baixará, no prazo de 90 dias, regulamento sôbre o registro no Registro de Imóveis (VETADO).",
   "caminho_hierarquico": [
     "Título II",
     "CAPÍTULO V",
@@ -33,11 +34,14 @@
     }
   },
   "tema": [
-    "IPTU",
     "condominio_edilicio",
     "incorporacao_imobiliaria",
     "unidade_autonoma"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
 }

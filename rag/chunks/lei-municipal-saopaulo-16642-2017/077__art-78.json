@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 78",
   "numero": "78",
+  "header_raw": "Art. 78. Na requalificação, são aceitas soluções que, por implicação de caráter estrutural, não atendam às disposições previstas na LOE, PDE ou LPUOS, desde que não comprometam a salubridade, nem acarretem redução de acessibilidade e de segurança de uso.",
   "caminho_hierarquico": [
     "CAPÍTULO V",
     "Seção III",
@@ -29,9 +30,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

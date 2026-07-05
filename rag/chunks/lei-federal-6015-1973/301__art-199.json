@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 199",
   "numero": "199",
+  "header_raw": "Art. 199. Prenotado o título, e lançada nele a dúvida, rubricará o oficial todas as suas folhas, remetendo-o ao juízo competente.                  (Vide renumeração Lei nº 6.216, de 1975).",
   "caminho_hierarquico": [
     "TÍTULO V",
     "CAPÍTULO III",
@@ -33,12 +34,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

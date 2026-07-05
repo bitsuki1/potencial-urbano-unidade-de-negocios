@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 39",
   "numero": "39",
+  "header_raw": "Art. 39. São parâmetros de parcelamento do solo, dentre outros:",
   "caminho_hierarquico": [
     "TÍTULO III",
     "CAPÍTULO I",
@@ -32,9 +33,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 14",
   "numero": "14",
+  "header_raw": "Art. 14. À instituição administradora do Fundo de Investimento Imobiliário compete:",
   "caminho_hierarquico": [
     "Art. 14"
   ],
@@ -30,10 +31,13 @@
     }
   },
   "tema": [
-    "IPTU",
     "fundo_investimento_imobiliario",
     "propriedade_fiduciaria"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre a constituição e o regime tributário dos Fundos de Investimento Imobiliário e dá outras providências."
 }

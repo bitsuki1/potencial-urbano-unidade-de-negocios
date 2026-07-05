@@ -1,0 +1,39 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17844-2022::055-art-51",
+  "lei_id": "lei-municipal-saopaulo-17844-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 51",
+  "numero": "51",
+  "header_raw": "Art. 51. Em se tratando da realização de consórcios imobiliários promovidos por iniciativa do Poder",
+  "caminho_hierarquico": [
+    "CAPÍTULO IV",
+    "Seção II",
+    "Art. 51"
+  ],
+  "texto": "Art. 51. Em se tratando da realização de consórcios imobiliários promovidos por iniciativa do Poder\n\nPúblico, deverão ser indicados, previamente ao chamamento público, os recursos que comporão os\n\ncustos do projeto e da obra.\n\nParágrafo único. Para a promoção do consórcio imobiliário, o Poder Público poderá utilizar recursos da\n\nconta segregada da AIU-SCE, bem como dos demais fundos municipais com atuação na\n\ntransformação e requalificação do território para fins urbanísticos, ambientais e habitacionais.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "lei municipal nº 17844/2022 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO IV › Seção II › Art. 51",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2022-09-14",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": []
+    }
+  },
+  "tema": [],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

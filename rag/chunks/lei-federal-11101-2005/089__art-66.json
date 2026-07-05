@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 66",
   "numero": "66",
+  "header_raw": "Art. 66. Após a distribuição do pedido de recuperação judicial, o devedor não poderá alienar ou onerar bens ou direitos de seu ativo não circulante, inclusive para os fins previstos no art. 67 desta Lei, salvo mediante autorização do juiz, depois de ouvido o Comitê de Credores, se houver, com exceção daqueles previamente autorizados no plano de recuperação judicial.     (Redação dada pela Lei nº 14.112, de 2020)  (Vigência)",
   "caminho_hierarquico": [
     "CAPÍTULO III",
     "Seção IV",
@@ -34,12 +35,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

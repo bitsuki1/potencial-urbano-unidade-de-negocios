@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 19",
   "numero": "19",
+  "header_raw": "Art. 19. A certidão será lavrada em inteiro teor, em resumo, ou em relatório conforme quesitos e devidamente autenticada pelo oficial ou por seus substitutos legais, não podendo ser retardada por mais de cinco (5) dias.",
   "caminho_hierarquico": [
     "TÍTULO I",
     "CAPÍTULO IV",
@@ -33,12 +34,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

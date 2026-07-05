@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 66",
   "numero": "66",
+  "header_raw": "Art. 66. O cadastro de equipamentos perde a eficácia caso ocorra alteração de ordem física no equipamento em relação às condições regularmente cadastradas na Prefeitura ou caso a respectiva renovação não seja solicitada dentro do prazo legal.",
   "caminho_hierarquico": [
     "CAPÍTULO IV",
     "Seção I",
@@ -29,9 +30,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

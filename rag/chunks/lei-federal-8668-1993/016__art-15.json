@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 15",
   "numero": "15",
+  "header_raw": "Art. 15. As demonstrações financeiras dos Fundos de Investimento Imobiliário serão publicadas pelas administradoras, na forma que vier a ser regulamentada pela Comissão de Valores Mobiliários.",
   "caminho_hierarquico": [
     "Art. 15"
   ],
@@ -30,10 +31,13 @@
     }
   },
   "tema": [
-    "IPTU",
     "fundo_investimento_imobiliario",
     "propriedade_fiduciaria"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre a constituição e o regime tributário dos Fundos de Investimento Imobiliário e dá outras providências."
 }

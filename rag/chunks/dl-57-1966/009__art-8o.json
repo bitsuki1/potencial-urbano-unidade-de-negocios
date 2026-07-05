@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 8º",
   "numero": "8",
+  "header_raw": "Art 8º Para fins de cadastramento e do lançamento do ITR, a área destinada a exploração mineral, em um imóvel rural, será considerada como inaproveitável, desde que seja comprovado que a mencionada destinação impede a exploração da mesma em atividades agrícolas, pecuária ou agro-industrial e que sejam satisfeitas as exigências estabelecidas na regulamentação dêste Decreto-Lei.",
   "caminho_hierarquico": [
     "Art. 8º"
   ],
@@ -31,10 +32,13 @@
     }
   },
   "tema": [
-    "IPTU",
     "ITR",
     "destinacao_economica"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Altera dispositivos sobre lançamento e cobrança do Imposto sobre a Propriedade Territorial Rural, institui normas sobre arrecadação da Dívida Ativa correspondente, e dá outras providências."
 }

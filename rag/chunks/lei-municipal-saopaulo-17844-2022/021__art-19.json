@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 19",
   "numero": "19",
+  "header_raw": "Art. 19. Aplicam-se aos empreendimentos de uso misto situados na Área de Qualificação Q2,",
   "caminho_hierarquico": [
     "CAPÍTULO II",
     "Seção I",
@@ -28,9 +29,11 @@
       "alterada_por": []
     }
   },
-  "tema": [
-    "IPTU"
+  "tema": [],
+  "dominio": [
+    "tdc"
   ],
+  "dominio_primario": "tdc",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

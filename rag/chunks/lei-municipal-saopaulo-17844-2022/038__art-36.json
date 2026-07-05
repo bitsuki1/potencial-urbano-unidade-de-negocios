@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 36",
   "numero": "36",
+  "header_raw": "Art. 36. Para fins de aproveitamento do parque edificado na AIU-SCE, aprovado segundo legislações",
   "caminho_hierarquico": [
     "CAPÍTULO IV",
     "Seção I",
@@ -28,9 +29,11 @@
       "alterada_por": []
     }
   },
-  "tema": [
-    "IPTU"
+  "tema": [],
+  "dominio": [
+    "tdc"
   ],
+  "dominio_primario": "tdc",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

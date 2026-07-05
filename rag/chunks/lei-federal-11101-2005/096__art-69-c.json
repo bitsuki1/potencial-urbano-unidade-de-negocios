@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 69-C",
   "numero": "69-C",
+  "header_raw": "Art. 69-C. O juiz poderá autorizar a constituição de garantia subordinada sobre um ou mais ativos do devedor em favor do financiador de devedor em recuperação judicial, dispensando a anuência do detentor da garantia original.       (Incluído pela Lei nº 14.112, de 2020)    (Vigência)",
   "caminho_hierarquico": [
     "CAPÍTULO III",
     "Seção IV",
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

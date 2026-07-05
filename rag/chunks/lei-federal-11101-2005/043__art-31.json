@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 31",
   "numero": "31",
+  "header_raw": "Art. 31. O juiz, de ofício ou a requerimento fundamentado de qualquer interessado, poderá determinar a destituição do administrador judicial ou de quaisquer dos membros do Comitê de Credores quando verificar desobediência aos preceitos desta Lei, descumprimento de deveres, omissão, negligência ou prática de ato lesivo às atividades do devedor ou a terceiros.",
   "caminho_hierarquico": [
     "CAPÍTULO II",
     "Seção III",
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

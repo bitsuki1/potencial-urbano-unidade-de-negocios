@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 96",
   "numero": "96",
+  "header_raw": "Art. 96. Contra os atos de fiscalização previstos neste Código, cabe defesa ao Supervisor Técnico de Fiscalização, da Subprefeitura, no prazo de 15 (quinze) dias, contados:",
   "caminho_hierarquico": [
     "CAPÍTULO VI",
     "Seção III",
@@ -29,9 +30,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

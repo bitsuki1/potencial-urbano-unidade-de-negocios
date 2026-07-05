@@ -1,0 +1,47 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16050-2014::099-art-95",
+  "lei_id": "lei-municipal-saopaulo-16050-2014",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 95",
+  "numero": "95",
+  "header_raw": "Art. 95. São considerados imóveis não utilizados aqueles com coeficiente de aproveitamento utilizado igual ou superior ao",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO III",
+    "Seção I",
+    "Art. 95"
+  ],
+  "texto": "Art. 95. São considerados imóveis não utilizados aqueles com coeficiente de aproveitamento utilizado igual ou superior ao\n\ncoeficiente de aproveitamento mínimo definido, para a respectiva zona, na Lei nº 16.402, de 2016, ou em legislação específica\n\nincidente, e que tenham, no mínimo, 60% (sessenta por cento) de sua área construída desocupada por mais de 1 (um) ano\n\nhttps://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 46/166\n\n27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal\n\nininterrupto.(Redação dada pela Lei nº 17.975/2023)\n\n§ 1º Quando se tratar de edificação constituída por unidades autônomas para fins residenciais ou não residenciais, a não utilização\n\nserá aferida pela desocupação de pelo menos 60% (sessenta por cento) dentre elas, também pelo prazo de 1 (um) ano.\n\n§ 2º A desocupação dos imóveis poderá ser comprovada, por meio de consulta às concessionárias, pela não utilização ou pela\n\ninterrupção do fornecimento de serviços essenciais como água, luz e gás.\n\n§ 3º A classificação do imóvel como não utilizado poderá ser suspensa devido a impossibilidades jurídicas momentaneamente\n\ninsanáveis pela simples conduta do proprietário, e apenas enquanto estas perdurarem, conforme regulamentação do Poder\n\nExecutivo.\n\n§ 4º O Executivo deverá notificar todos os imóveis não edificados, subutilizados e não utilizados na Macroárea de Urbanização\n\nConsolidada e na Macroárea de Estruturação Metropolitana e da Macroárea de Qualificação da Urbanização no prazo máximo de 4\n\n(quatro) anos.(Incluído pela Lei nº 17.975/2023)\n\nSubseção II\n\nDo Parcelamento, Edificação e Utilização Compulsórios",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ]
+  },
+  "citacao": {
+    "norma": "lei municipal nº 16050/2014 — São Paulo - SP",
+    "dispositivo": "TÍTULO II › CAPÍTULO III › Seção I › Art. 95",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2014-07-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 95 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2014-07-31. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "urbanística"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

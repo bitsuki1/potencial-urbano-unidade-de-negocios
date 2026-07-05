@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 10",
   "numero": "10",
+  "header_raw": "Art. 10. As Zonas Corredores (ZCOR) incidem em lotes lindeiros à ZER ou à ZPR que fazem frente",
   "caminho_hierarquico": [
     "TÍTULO II",
     "CAPÍTULO II",
@@ -32,9 +33,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

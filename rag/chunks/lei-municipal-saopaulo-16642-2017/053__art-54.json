@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 54",
   "numero": "54",
+  "header_raw": "Art. 54. Também ficam isentos do pagamento da TEV/COE e dispensados do pagamento dos preços públicos os pedidos referentes a empreendimentos públicos do Município, Estado e União e das entidades da Administração Pública Indireta.",
   "caminho_hierarquico": [
     "CAPÍTULO III",
     "Art. 54"
@@ -28,9 +29,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

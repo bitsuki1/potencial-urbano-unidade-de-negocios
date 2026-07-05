@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 293",
   "numero": "293",
+  "header_raw": "Art. 293. Aplicam-se aos registros referidos no artigo 1°, § 1º, incisos I, II e III, desta Lei, as disposições relativas ao processo de dúvida no registro de imóveis.                      (Renumerado do art. 309 pela Lei nº 6.216, de 1975)",
   "caminho_hierarquico": [
     "TÍTULO VI",
     "Art. 293"
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

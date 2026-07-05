@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 215",
   "numero": "215",
+  "header_raw": "Art. 215 - São nulos os registros efetuados após sentença de abertura de falência, ou do termo legal nele fixado, salvo se a apresentação tiver sido feita anteriormente.                    (Renumerado do art. 216 com nova redação pela Lei nº 6.216, de 1975).",
   "caminho_hierarquico": [
     "TÍTULO V",
     "CAPÍTULO III",
@@ -33,12 +34,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

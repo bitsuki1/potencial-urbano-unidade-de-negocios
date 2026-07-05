@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 193-A",
   "numero": "193-A",
+  "header_raw": "Art. 193-A. O pedido de recuperação judicial, o deferimento de seu processamento ou a homologação do plano de recuperação judicial não afetarão ou suspenderão, nos termos da legislação aplicável, o exercício dos direitos de vencimento antecipado e de compensação no âmbito de operações compromissadas e de derivativos, de modo que essas operações poderão ser vencidas antecipadamente, desde que assim previsto nos contratos celebrados entre as partes ou em regulamento, proibidas, no entanto, medidas que impliquem a redução, sob qualquer forma, das garantias ou de sua condição de excussão, a restrição do exercício de direitos, inclusive de vencimento antecipado por inexecução, e a compensação previstas contratualmente ou em regulamento.     (Incluído pela Lei nº 14.112, de 2020)   (Vigência)",
   "caminho_hierarquico": [
     "CAPÍTULO VIII",
     "Art. 193-A"
@@ -31,12 +32,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

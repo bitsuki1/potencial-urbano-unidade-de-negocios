@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 27",
   "numero": "27",
+  "header_raw": "Art. 27. De acordo com os objetivos e diretrizes expressos neste PDE para macrozonas, macroáreas e rede de estruturação da",
   "caminho_hierarquico": [
     "TÍTULO II",
     "CAPÍTULO II",
@@ -35,9 +36,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

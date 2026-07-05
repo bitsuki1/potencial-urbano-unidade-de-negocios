@@ -1,0 +1,45 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16402-2016::115-art-108",
+  "lei_id": "lei-municipal-saopaulo-16402-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 108",
+  "numero": "108",
+  "header_raw": "Art. 108. Os usos residenciais e não residenciais potencialmente geradores de impactos urbanísticos e",
+  "caminho_hierarquico": [
+    "TÍTULO V",
+    "CAPÍTULO I",
+    "Seção II",
+    "Art. 108"
+  ],
+  "texto": "Art. 108. Os usos residenciais e não residenciais potencialmente geradores de impactos urbanísticos e\n\nambientais serão enquadrados conforme as seguintes subcategorias especiais:\n\nI - Polos Geradores de Tráfego (PGT): edificações permanentes que atraem ou produzem grande\n\nnúmero de viagens ao longo do dia e/ou por período determinado, causando impacto no sistema viário\n\ne de transporte, podendo comprometer a acessibilidade, a mobilidade e a segurança de veículos e\n\npedestres e que devem observar as diretrizes e condicionantes estabelecidas por órgão municipal\n\ncompetente e pela legislação específica;\n\nII - Empreendimentos Geradores de Impacto de Vizinhança (EGIV): aqueles que podem gerar impacto\n\nsignificativo, alteração no seu entorno ou sobrecarga na capacidade de atendimento da infraestrutura e\n\ndevem elaborar Estudo de Impacto de Vizinhança (EIV) e respectivo Relatório de Impacto de\n\nVizinhança (RIV);\n\nIII - Empreendimentos Geradores de Impacto Ambiental (EGIA): aqueles que podem causar alteração\n\ndas propriedades físicas, químicas e biológicas do meio ambiente e que direta ou indiretamente\n\nafetem:\n\na) a saúde, a segurança e o bem-estar da população;\n\nb) as atividades sociais e econômicas;\n\nhttps://legislacao.prefeitura.sp.gov.br/leis/lei-16402-de-22-de-marco-de-2016 67/99\n\n07/03/2026, 23:27 LEI Nº 16.402 DE 22 DE MARÇO DE 2016 « Catálogo de Legislação Municipal\n\nc) a biota;\n\nd) as condições paisagísticas e sanitárias do meio ambiente;\n\ne) a qualidade dos recursos ambientais.\n\n§ 1º Os empreendimentos geradores de impacto ambiental, nos termos da legislação específica,\n\ndeverão elaborar Estudo de Impacto Ambiental (EIA) e respectivo Relatório de Impacto Ambiental\n\n(RIMA) ou demais instrumentos previstos no licenciamento ambiental, que serão analisados e\n\naprovados pela autoridade ambiental competente, ficando o empreendedor obrigado a cumprir as\n\ndisposições estabelecidas no EIA/RIMA ou nos demais instrumentos para emissão das respectivas\n\nlicenças ambientais.\n\n§ 2º A elaboração do EIA/RIMA poderá englobar a elaboração do Estudo de Impacto de Vizinhança\n\n(EIV) e respectivo Relatório de Impacto de Vizinhança (RIV), quando for o caso, a critério do Executivo.\n\n§ 3º A elaboração do EIV/RIV para Operações Urbanas Consorciadas, nos termos da Lei Federal nº\n\n10.257, de 10 de julho de 2001 – Estatuto da Cidade, e da Lei nº 16.050, de 31 de julho de 2014 –\n\nPDE, não dispensará a elaboração de EIV/RIV para empreendimento inserido no perímetro da\n\nrespectiva Operação Urbana Consorciada.\n\n§ 4º A elaboração do EIV/RIV deverá englobar a elaboração do Estudo de Impacto de Trânsito e\n\nTransportes (EITT) e respectivo Relatório de Impacto de Trânsito e Transportes (RITT), nos casos de\n\nempreendimentos que também sejam enquadrados em Polos Geradores de Tráfego (PGT).\n\n§ 5º O EIV/RIV será analisado e aprovado pelo órgão municipal competente.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "lei municipal nº 16402/2016 — São Paulo - SP",
+    "dispositivo": "TÍTULO V › CAPÍTULO I › Seção II › Art. 108",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2016-03-22",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 79 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2016-03-22. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "urbanística"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

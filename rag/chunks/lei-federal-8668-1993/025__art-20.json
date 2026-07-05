@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 20",
   "numero": "20",
+  "header_raw": "Art. 20. Aplica-se à instituição administradora, aos seus administradores e gerentes diretamente responsáveis pela administração do fundo, bem como aos demais infratores das normas desta lei, o disposto no art. 11 da Lei nº 6.385, de 7 de dezembro de 1976, independentemente de outras sanções legais eventualmente cabíveis.",
   "caminho_hierarquico": [
     "Art. 20"
   ],
@@ -30,10 +31,13 @@
     }
   },
   "tema": [
-    "IPTU",
     "fundo_investimento_imobiliario",
     "propriedade_fiduciaria"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre a constituição e o regime tributário dos Fundos de Investimento Imobiliário e dá outras providências."
 }

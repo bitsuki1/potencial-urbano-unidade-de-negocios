@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 127-A",
   "numero": "127-A",
+  "header_raw": "Art. 127-A. O registro facultativo para conservação de documentos ou conjunto de documentos de que trata o inciso VII do caput do art. 127 desta Lei terá a finalidade de arquivamento de conteúdo e data, não gerará efeitos em relação a terceiros e não poderá servir como instrumento para cobrança de dívidas, mesmo que de forma velada, nem para protesto, notificação extrajudicial, medida judicial ou negativação nos serviços de proteção ao crédito ou congêneres.      (Incluído pela Lei nº 14.382, de 2022)",
   "caminho_hierarquico": [
     "TÍTULO IV",
     "CAPÍTULO I",
@@ -33,12 +34,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

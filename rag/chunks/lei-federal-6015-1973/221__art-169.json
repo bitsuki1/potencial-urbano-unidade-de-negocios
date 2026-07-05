@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 169",
   "numero": "169",
+  "header_raw": "Art. 169. Todos os atos enumerados no artigo 168, são obrigatórios, e as \"inscrições\" e \"transcrições\" nele mencionadas efetuar-se-ão no cartório da situação do imóvel.",
   "caminho_hierarquico": [
     "TÍTULO V",
     "CAPÍTULO I",
@@ -33,12 +34,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 24",
   "numero": "24",
+  "header_raw": "Art. 24. Haverá, anualmente, uma assembléia geral ordinária dos condôminos, convocada pelo síndico na forma prevista na Convenção, à qual compete, além das demais matérias inscritas na ordem do dia, aprovar, por maioria dos presentes, as verbas para as despesas de condomínio, compreendendo as de conservação da edificação ou conjunto de edificações, manutenção de seus serviços e correlatas.",
   "caminho_hierarquico": [
     "TÍTULO I",
     "Capítulo VII",
@@ -35,11 +36,14 @@
     }
   },
   "tema": [
-    "IPTU",
     "condominio_edilicio",
     "incorporacao_imobiliaria",
     "unidade_autonoma"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
 }

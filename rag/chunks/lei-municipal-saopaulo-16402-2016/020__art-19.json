@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 19",
   "numero": "19",
+  "header_raw": "Art. 19. As Zonas Especiais de Proteção Ambiental (ZEPAM) são porções do território do Município",
   "caminho_hierarquico": [
     "TÍTULO II",
     "CAPÍTULO III",
@@ -32,9 +33,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

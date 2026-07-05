@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 96",
   "numero": "96",
+  "header_raw": "Art. 96. A falência requerida com base no art. 94, inciso I do caput, desta Lei, não será decretada se o requerido provar:",
   "caminho_hierarquico": [
     "CAPÍTULO V",
     "Seção IV",
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

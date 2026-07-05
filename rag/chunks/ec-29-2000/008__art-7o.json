@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 7º",
   "numero": "7",
+  "header_raw": "Art. 7º O Ato das Disposições Constitucionais Transitórias passa a vigorar acrescido do seguinte art. 77:",
   "caminho_hierarquico": [
     "Art. 7º"
   ],
@@ -30,9 +31,12 @@
     }
   },
   "tema": [
-    "IPTU",
     "progressividade_fiscal"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Altera os arts. 34, 35, 156, 160, 167 e 198 da Constituição Federal e acrescenta artigo ao Ato das Disposições Constitucionais Transitórias, para assegurar os recursos mínimos para o financiamento das ações e serviços públicos de saúde."
 }

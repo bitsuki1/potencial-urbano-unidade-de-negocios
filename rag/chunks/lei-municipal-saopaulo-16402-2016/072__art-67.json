@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 67",
   "numero": "67",
+  "header_raw": "Art. 67. Nos projetos de novas edificações ou nas reformas com alteração de mais de 50% (cinquenta",
   "caminho_hierarquico": [
     "TÍTULO IV",
     "CAPÍTULO I",
@@ -34,9 +35,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

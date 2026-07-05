@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 32",
   "numero": "32",
+  "header_raw": "Art. 32. Em AVP-1 e AVP-2, as reformas essenciais à segurança e higiene das edificações e a",
   "caminho_hierarquico": [
     "TÍTULO II",
     "CAPÍTULO IV",
@@ -32,9 +33,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

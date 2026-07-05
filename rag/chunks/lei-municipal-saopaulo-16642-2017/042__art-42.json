@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 42",
   "numero": "42",
+  "header_raw": "Art. 42. O Certificado de Acessibilidade pode ser requerido junto com o Certificado de Regularização ou Certificado de Segurança relativo à edificação.",
   "caminho_hierarquico": [
     "CAPÍTULO II",
     "Seção II",
@@ -29,9 +30,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

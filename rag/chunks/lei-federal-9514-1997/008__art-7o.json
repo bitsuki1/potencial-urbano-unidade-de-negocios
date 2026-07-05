@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 7º",
   "numero": "7",
+  "header_raw": "Art. 7º O CRI terá as seguintes características:      (Revogado pela Medida Provisória nº 1.103, de 2022)     (Revogado pela Lei nº 14.430, de 2022)",
   "caminho_hierarquico": [
     "CAPÍTULO I",
     "Seção IV",
@@ -33,10 +34,13 @@
     }
   },
   "tema": [
-    "IPTU",
     "alienacao_fiduciaria",
     "sistema_financiamento_imobiliario"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre o Sistema de Financiamento Imobiliário, institui a alienação fiduciária de coisa imóvel e dá outras providências."
 }

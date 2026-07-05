@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 82-A",
   "numero": "82-A",
+  "header_raw": "Art. 82-A. É vedada a extensão da falência ou de seus efeitos, no todo ou em parte, aos sócios de responsabilidade limitada, aos controladores e aos administradores da sociedade falida, admitida, contudo, a desconsideração da personalidade jurídica.     (Incluído pela Lei nº 14.112, de 2020)    (Vigência)",
   "caminho_hierarquico": [
     "CAPÍTULO V",
     "Seção I",
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

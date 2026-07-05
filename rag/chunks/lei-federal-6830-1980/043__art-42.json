@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 42",
   "numero": "42",
+  "header_raw": "Art. 42 - Revogadas as disposições em contrário, esta Lei entrará em vigor 90 (noventa) dias após a data de sua publicação.",
   "caminho_hierarquico": [
     "Art. 42"
   ],
@@ -29,11 +30,14 @@
     }
   },
   "tema": [
-    "IPTU",
     "execucao_fiscal",
     "divida_ativa",
     "prescricao_intercorrente"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre a cobrança judicial da Dívida Ativa da Fazenda Pública, e dá outras providências."
 }

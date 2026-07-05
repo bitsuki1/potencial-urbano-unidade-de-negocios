@@ -6,9 +6,7 @@
   "tema_rg_ou_repetitivo": "174",
   "leading_case": "REsp 1112646/SP (Rel. Min. Herman Benjamin, Primeira Seção, j. 26/08/2009)",
   "enunciado_ou_tese": "Não incide IPTU, mas ITR, sobre imóvel localizado na área urbana do Município, desde que comprovadamente utilizado em exploração extrativa, vegetal, agrícola, pecuária ou agroindustrial (art. 15 do DL 57/1966).",
-  "tema": [
-    "IPTU"
-  ],
+  "tema": [],
   "dispositivos_relacionados": [
     "CTN art. 32",
     "Decreto-Lei 57/1966 art. 15"
@@ -23,5 +21,9 @@
   "status_pipeline": "tagueado",
   "confianca_extracao": "alta",
   "revisado_por_humano": false,
-  "verificacao_verbatim": "2026-06-18 — tese conferida contra captura oficial verbatim (Lote 5, extensão); ver jurisprudencia/_capturas/lote5-stj-temas_20260618.txt"
+  "verificacao_verbatim": "2026-06-18 — tese conferida contra captura oficial verbatim (Lote 5, extensão); ver jurisprudencia/_capturas/lote5-stj-temas_20260618.txt",
+  "dominio_primario": "iptu",
+  "dominio": [
+    "iptu"
+  ]
 }

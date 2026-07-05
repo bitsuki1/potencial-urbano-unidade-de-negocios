@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 220",
   "numero": "220",
+  "header_raw": "Art. 220. As despesas com o registro incumbem ao interessado que o requerer, salvo convenção em contrário.",
   "caminho_hierarquico": [
     "TÍTULO V",
     "CAPÍTULO IV",
@@ -33,12 +34,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

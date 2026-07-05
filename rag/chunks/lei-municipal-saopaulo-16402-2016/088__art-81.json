@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 81",
   "numero": "81",
+  "header_raw": "Art. 81. Todos os lotes deverão atender as taxas de permeabilidade mínima estabelecidas para cada",
   "caminho_hierarquico": [
     "TÍTULO IV",
     "CAPÍTULO I",
@@ -32,9 +33,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

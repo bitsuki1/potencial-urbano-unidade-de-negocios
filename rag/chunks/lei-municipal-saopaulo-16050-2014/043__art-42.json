@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 42",
   "numero": "42",
+  "header_raw": "Art. 42. A tipologia de zonas, descrita nos arts. 32 a 40 desta lei, ressalvada a ZER-1, poderá ser ampliada na revisão da LPUOS",
   "caminho_hierarquico": [
     "TÍTULO II",
     "CAPÍTULO II",
@@ -33,9 +34,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 121",
   "numero": "121",
+  "header_raw": "Art. 121. Para o registro serão apresentadas duas vias do estatuto, compromisso ou contrato, pelas quais far-se-á o registro mediante petição do representante legal da sociedade, lançando o oficial, nas duas vias, a competente certidão do registro, com o respectivo número de ordem, livro e folha. Uma das vias será entregue ao representante e a outra arquivada em cartório, rubricando o oficial as folhas em que estiver impresso o contrato, compromisso ou estatuto.                     (Redação dada pela Lei nº 9.042, de 1995)",
   "caminho_hierarquico": [
     "TÍTULO III",
     "CAPÍTULO II",
@@ -35,12 +36,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 26",
   "numero": "26",
+  "header_raw": "Art. 26. O Projeto Estratégico Canindé-Portuguesa é composto por imóveis públicos e privados e",
   "caminho_hierarquico": [
     "CAPÍTULO II",
     "Seção III",
@@ -28,9 +29,11 @@
       "alterada_por": []
     }
   },
-  "tema": [
-    "IPTU"
+  "tema": [],
+  "dominio": [
+    "tdc"
   ],
+  "dominio_primario": "tdc",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

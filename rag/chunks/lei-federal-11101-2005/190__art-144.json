@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 144",
   "numero": "144",
+  "header_raw": "Art. 144. Havendo motivos justificados, o juiz poderá autorizar, mediante requerimento fundamentado do administrador judicial ou do Comitê, modalidades de alienação judicial diversas das previstas no art. 142 desta Lei.",
   "caminho_hierarquico": [
     "CAPÍTULO V",
     "Seção X",
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

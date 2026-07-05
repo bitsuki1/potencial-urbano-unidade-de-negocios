@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 57",
   "numero": "57",
+  "header_raw": "Art. 57.  A alteração posterior de nome, somente por exceção e motivadamente, após audiência do Ministério Público, será permitida por sentença do juiz a que estiver sujeito o registro, arquivando-se o mandado e publicando-se a alteração pela imprensa, ressalvada a hipótese do art. 110 desta Lei.                       (Redação dada pela Lei nº 12.100, de 2009).",
   "caminho_hierarquico": [
     "TÍTULO II",
     "CAPÍTULO IV",
@@ -35,12 +36,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

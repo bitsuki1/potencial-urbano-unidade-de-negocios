@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 90",
   "numero": "90",
+  "header_raw": "Art. 90. O proprietário ou possuidor do imóvel que constatar perigo de ruína ou contaminação pode, devidamente assistido por profissional habilitado, dar início imediato às obras de emergência, comunicando o fato, por escrito, à Prefeitura e justificando e informando a natureza dos serviços a serem executados, observadas as exigências da legislação pertinente à matéria.",
   "caminho_hierarquico": [
     "CAPÍTULO VI",
     "Seção II",
@@ -29,9 +30,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

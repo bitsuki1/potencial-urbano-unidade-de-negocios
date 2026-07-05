@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 208",
   "numero": "208",
+  "header_raw": "Art. 208. No processo de dúvida, somente serão devidas custas, a serem pagas pelo interessado, quando a dúvida for julgada procedente.",
   "caminho_hierarquico": [
     "TÍTULO V",
     "CAPÍTULO III",
@@ -33,12 +34,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

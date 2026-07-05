@@ -7,7 +7,6 @@
   "ano": 1997,
   "ementa": "Concede incentivo fiscal aos proprietários de imóveis ou aos patrocinadores das obras de recuperação externa e conservação de imóveis localizados na Área Especial de Intervenção objeto do Programa de Requalificação Urbana e Funcional do Centro de São Paulo - PROCENTRO (ou equivalente), e dá outras providências.",
   "tema": [
-    "IPTU",
     "fachadas",
     "restauro",
     "preservacao",
@@ -50,5 +49,9 @@
   },
   "status_pipeline": "bruto",
   "confianca_extracao": "media",
-  "revisado_por_humano": false
+  "revisado_por_humano": false,
+  "dominio_primario": "compartilhado",
+  "dominio": [
+    "compartilhado"
+  ]
 }

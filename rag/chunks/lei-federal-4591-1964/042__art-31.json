@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 31",
   "numero": "31",
+  "header_raw": "Art. 31. A iniciativa e a responsabilidade das incorporações imobiliárias caberão ao incorporador, que sòmente poderá ser:",
   "caminho_hierarquico": [
     "Título II",
     "CAPÍTULO I",
@@ -33,11 +34,14 @@
     }
   },
   "tema": [
-    "IPTU",
     "condominio_edilicio",
     "incorporacao_imobiliaria",
     "unidade_autonoma"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
 }

@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 30-C",
   "numero": "30-C",
+  "header_raw": "Art. 30-C - A insolvência do incorporador não atingirá os patrimônios de afetação constituídos, não integrando a massa concursal o terreno, as acessões e demais bens, direitos creditórios, obrigações e encargos objeto da incorporação.          (Incluído pela Medida Provisória nº 2.221, de 2001)             Revogado pela Lei nº 10.931, de 2004",
   "caminho_hierarquico": [
     "Título II",
     "CAPÍTULO I",
@@ -33,11 +34,14 @@
     }
   },
   "tema": [
-    "IPTU",
     "condominio_edilicio",
     "incorporacao_imobiliaria",
     "unidade_autonoma"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
 }

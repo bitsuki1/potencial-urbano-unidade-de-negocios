@@ -7,7 +7,6 @@
   "ano": 1968,
   "ementa": "Altera dispositivos da Lei nº 6.989, de 29 de dezembro de 1966, e dá outras providências.",
   "tema": [
-    "IPTU",
     "codigo_tributario"
   ],
   "dispositivos_chave": [
@@ -18,12 +17,18 @@
     "inicio": "1968-12-12",
     "fim": null,
     "revogada_por": null,
-    "altera": ["Lei 6.989/1966"],
+    "altera": [
+      "Lei 6.989/1966"
+    ],
     "alterada_por": [],
     "em_vigor": true,
     "observacao": "Vigência DATADA (B-7, 1.6): Art. 11 verbatim — 'esta Lei entrará em vigor na data de sua publicação, salvo o artigo 3º, que produzirá seus efeitos a partir de 1º de janeiro de 1969.' inicio=1968-12-12 (data de promulgação no cabeçalho da norma; a publicação não consta no verbatim, então adota-se a data da norma — não se inventa a data exata de publicação). EFEITO POR REMISSÃO (dado do B-6): o Art. 3º só produz efeitos a partir de 1969-01-01 (por força do Art. 11). Vigente como norma alteradora; efeitos incorporados ao texto consolidado da Lei 6.989/1966.",
     "efeitos_por_dispositivo": [
-      {"dispositivo": "Art. 3º", "inicio_efeitos": "1969-01-01", "fonte": "Art. 11 (verbatim)"}
+      {
+        "dispositivo": "Art. 3º",
+        "inicio_efeitos": "1969-01-01",
+        "fonte": "Art. 11 (verbatim)"
+      }
     ]
   },
   "remissoes": [
@@ -48,5 +53,9 @@
   },
   "status_pipeline": "indexado",
   "confianca_extracao": "alta",
-  "revisado_por_humano": false
+  "revisado_por_humano": false,
+  "dominio_primario": "iptu",
+  "dominio": [
+    "iptu"
+  ]
 }

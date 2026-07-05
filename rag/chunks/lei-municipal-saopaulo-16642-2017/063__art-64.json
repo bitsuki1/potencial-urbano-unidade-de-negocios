@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 64",
   "numero": "64",
+  "header_raw": "Art. 64. O Certificado de Conclusão, o Certificado de Regularização, o Certificado de Acessibilidade e o Certificado de Segurança perdem sua eficácia caso ocorram alterações de ordem física no imóvel em relação às condições regularmente aceitas pela Prefeitura.",
   "caminho_hierarquico": [
     "CAPÍTULO IV",
     "Seção I",
@@ -29,9 +30,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

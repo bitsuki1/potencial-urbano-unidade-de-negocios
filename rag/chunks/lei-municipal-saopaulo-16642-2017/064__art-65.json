@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 65",
   "numero": "65",
+  "header_raw": "Art. 65. O Alvará de Autorização é expedido a título precário, podendo ser cancelado a qualquer tempo por desvirtuamento de seu objeto ou desinteresse em sua manutenção ou revalidação.",
   "caminho_hierarquico": [
     "CAPÍTULO IV",
     "Seção I",
@@ -29,9 +30,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

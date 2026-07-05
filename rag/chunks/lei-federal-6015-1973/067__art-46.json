@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 46",
   "numero": "46",
+  "header_raw": "Art. 46.  As declarações de nascimento feitas após o decurso do prazo legal serão registradas no lugar de residência do interessado.                  (Redação dada pela Lei nº 11.790, de 2008).",
   "caminho_hierarquico": [
     "TÍTULO II",
     "CAPÍTULO III",
@@ -35,12 +36,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

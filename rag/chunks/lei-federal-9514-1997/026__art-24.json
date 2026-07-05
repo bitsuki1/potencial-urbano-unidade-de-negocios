@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 24",
   "numero": "24",
+  "header_raw": "Art. 24. O contrato que serve de título ao negócio fiduciário conterá:",
   "caminho_hierarquico": [
     "CAPÍTULO II",
     "Art. 24"
@@ -34,10 +35,13 @@
     }
   },
   "tema": [
-    "IPTU",
     "alienacao_fiduciaria",
     "sistema_financiamento_imobiliario"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre o Sistema de Financiamento Imobiliário, institui a alienação fiduciária de coisa imóvel e dá outras providências."
 }

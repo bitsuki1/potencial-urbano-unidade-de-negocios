@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 115",
   "numero": "115",
+  "header_raw": "Art. 115. Não poderão ser registrados os atos constitutivos de pessoas jurídicas, quando o seu objeto ou circunstâncias relevantes indiquem destino ou atividades ilícitos ou contrários, nocivos ou perigosos ao bem público, à segurança do Estado e da coletividade, à ordem pública ou social, à moral e aos bons costumes.                     (Renumerado do art. 116 pela Lei nº 6.216, de 1975).",
   "caminho_hierarquico": [
     "TÍTULO III",
     "CAPÍTULO I",
@@ -33,12 +34,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

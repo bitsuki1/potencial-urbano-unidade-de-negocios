@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 228",
   "numero": "228",
+  "header_raw": "Art. 228 - A matrícula será efetuada por ocasião do primeiro registro a ser lançado na vigência desta Lei, mediante os elementos constantes do título apresentado e do registro anterior nele mencionado.             (Renumerado do art. 225 com nova redação pela Lei nº 6.216, de 1975).",
   "caminho_hierarquico": [
     "TÍTULO V",
     "CAPÍTULO VI",
@@ -33,12 +34,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

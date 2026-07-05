@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 7º",
   "numero": "7",
+  "header_raw": "Art. 7º Ficam cancelados, para todos os efeitos:",
   "caminho_hierarquico": [
     "Art. 7º"
   ],
@@ -38,9 +39,12 @@
     }
   },
   "tema": [
-    "IPTU",
     "codigo_tributario"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "São Paulo/SP",
   "ementa": "Altera dispositivos da Lei nº 6.989, de 29 de dezembro de 1966, e dá outras providências."
 }

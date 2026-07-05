@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 76",
   "numero": "76",
+  "header_raw": "Art. 76. Ocorrendo iminente risco de vida de algum dos contraentes, e não sendo possível a presença da autoridade competente para presidir o ato, o casamento poderá realizar-se na presença de seis testemunhas, que comparecerão, dentro de 5 (cinco) dias, perante a autoridade judiciária mais próxima, a fim de que sejam reduzidas a termo suas declarações.                            (Renumerado do art. 77,  com nova redação pela Lei nº 6.216, de 1975).",
   "caminho_hierarquico": [
     "TÍTULO II",
     "CAPÍTULO VIII",
@@ -33,12 +34,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 77",
   "numero": "77",
+  "header_raw": "Art. 77. Nos casamentos celebrados em iminente risco de vida, sem a presença da autoridade competente, as testemunhas comparecerão, dentro em cinco (5) dias, perante a autoridade judicial mais próxima, a fim de que sejam reduzidas a termo as suas declarações.",
   "caminho_hierarquico": [
     "TÍTULO II",
     "CAPÍTULO VIII",
@@ -33,12 +34,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

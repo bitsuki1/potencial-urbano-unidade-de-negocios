@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 1º",
   "numero": "1",
+  "header_raw": "Art. 1º A alínea e do inciso VII do art. 34 passa a vigorar com a seguinte redação:",
   "caminho_hierarquico": [
     "Art. 1º"
   ],
@@ -30,9 +31,12 @@
     }
   },
   "tema": [
-    "IPTU",
     "progressividade_fiscal"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Altera os arts. 34, 35, 156, 160, 167 e 198 da Constituição Federal e acrescenta artigo ao Ato das Disposições Constitucionais Transitórias, para assegurar os recursos mínimos para o financiamento das ações e serviços públicos de saúde."
 }

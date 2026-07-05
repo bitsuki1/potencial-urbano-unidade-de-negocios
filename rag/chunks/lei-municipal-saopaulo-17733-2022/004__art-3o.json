@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 3º",
   "numero": "3",
+  "header_raw": "Art. 3º Os componentes da ERB, ERB móvel e mini ERB não serão considerados área construída ou",
   "caminho_hierarquico": [
     "CAPÍTULO I",
     "Art. 3º"
@@ -27,9 +28,11 @@
       "alterada_por": []
     }
   },
-  "tema": [
-    "IPTU"
+  "tema": [],
+  "dominio": [
+    "iptu"
   ],
+  "dominio_primario": "iptu",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

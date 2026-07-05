@@ -1,0 +1,39 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17844-2022::095-art-91",
+  "lei_id": "lei-municipal-saopaulo-17844-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 91",
+  "numero": "91",
+  "header_raw": "Art. 91. A implantação do PIU-SCE e do seu Programa de Intervenções se dará mediante ação",
+  "caminho_hierarquico": [
+    "CAPÍTULO VII",
+    "Seção III",
+    "Art. 91"
+  ],
+  "texto": "Art. 91. A implantação do PIU-SCE e do seu Programa de Intervenções se dará mediante ação\n\nconcertada entre os órgãos e entidades municipais, estaduais e federais e agentes privados,\n\natendendo-se, no mínimo, às disposições desta Lei.\n\nParágrafo único. A articulação das ações previstas no caput deste artigo caberá à SP-Urbanismo.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "lei municipal nº 17844/2022 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO VII › Seção III › Art. 91",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2022-09-14",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": []
+    }
+  },
+  "tema": [],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

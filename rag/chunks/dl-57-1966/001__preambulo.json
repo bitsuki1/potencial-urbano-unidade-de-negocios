@@ -4,6 +4,7 @@
   "tipo_dispositivo": "preambulo",
   "rotulo": "Preâmbulo",
   "numero": null,
+  "header_raw": null,
   "caminho_hierarquico": [],
   "texto": "Presidência da República\nCasa Civil\nSubchefia para Assuntos Jurídicos\n\nDECRETO-LEI Nº 57, DE 18 DE NOVEMBRO DE 1966.\n\nRegulamento\n\n(Vide Lei nº 8.022, de 1990)\n(Vide Lei nº 8.847, de 1994)\n\n\t\n\nAltera dispositivos sôbre lançamento e cobrança do Impôsto sôbre a Propriedade Territorial Rural, institui normas sôbre arrecadação da Dívida Ativa correspondente, e dá outras providências.\n\n        O PRESIDENTE DA REPÚBLICA , no uso das atribuições que lhe são conferidas pelo artigo 31, Parágrafo Único, do Ato Institucional nº 2, de 27 de outubro de 1965, e pelo artigo 2º do Ato Complementar nº 23, de 20 de outubro 1996,\n\n        DECRETA:",
   "citavel": false,
@@ -29,10 +30,13 @@
     }
   },
   "tema": [
-    "IPTU",
     "ITR",
     "destinacao_economica"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Altera dispositivos sobre lançamento e cobrança do Imposto sobre a Propriedade Territorial Rural, institui normas sobre arrecadação da Dívida Ativa correspondente, e dá outras providências."
 }

@@ -9,6 +9,8 @@ Definition of Done MECÂNICA do encerramento: princípio reincidentemente violad
 Checagens (todas determinísticas, sem rede):
   1. EVALS    — evals/rodar-evals.py sai 0 (nenhum ground-truth ATIVO quebrado; citação correta).
   2. ENGINE   — engines/tdc/oodc.py sai 0 (as fórmulas conferem; número nasce no engine, 1.3).
+  2b.ENGINE CEDENTE — engines/tdc/pcpt.py --demo sai 0 (Fi escalonado Art.24 LPUOS; T2).
+  2c.PRODUTO  — evals/eval-produto.py sai 0 (golden Fi legal sobre 7 cedentes reais; sabotar 1 Fi FALHA; T2).
   3. CORPUS   — nenhum stray tag de tool-call (</invoke> etc.) contaminando o verbatim/índice.
   4. MANIFESTO— regenerar é idempotente: rodar consolidar.py NÃO muda MANIFESTO.json (estava atualizado).
   5. BACKLOG  — BACKLOG.md (HEADER) carrega "Atualizado: <hoje>" (senão a próxima sessão vê backlog velho como novo).
@@ -47,6 +49,75 @@ def check_engine():
     return rc == 0, "engine OODC/TDC auto-teste OK" if rc == 0 else f"engine quebrou (exit {rc})"
 
 
+def check_engine_cedente():
+    # T2/S2: o engine de CEDENTE (pcpt.py, Fi Art. 24 LPUOS) também é gate — antes só o oodc rodava.
+    rc, _ = _run(["engines/tdc/pcpt.py", "--demo"])
+    return rc == 0, "engine cedente PCpt (Fi escalonado) auto-teste OK" if rc == 0 else f"pcpt quebrou (exit {rc})"
+
+
+def check_produto():
+    # T2/S2: golden-assert do Fi legal sobre 7 cedentes reais; sabotar 1 Fi (engine ou CSV) FALHA aqui.
+    rc, _ = _run(["evals/eval-produto.py"])
+    return rc == 0, "produto: 7 cedentes reais c/ Fi legal (Art.24) OK" if rc == 0 else f"produto divergiu do Fi legal (exit {rc})"
+
+
+def check_conservacao():
+    # T4: gate de conservação (Art. 129) 3-estados; Termo→PENDENTE e RES.(tombamento)→SEM_ATESTADO,
+    # nunca ELEGIVEL. Fixtures FALHAM se a regra regredir.
+    rc, _ = _run(["zepec/montar_base.py", "--autoteste"])
+    return rc == 0, "conservação: Atestado=ELEGIVEL·Termo=PENDENTE·RES=SEM_ATESTADO OK" if rc == 0 else f"conservação regrediu (exit {rc})"
+
+
+def check_regime_pcpt():
+    # T3: já-declarado (Art.125 §1º I) não recebe o escalonado como valor firme; prospecção-nova sim (Art.24).
+    rc, _ = _run(["zepec/enriquecer_oficial.py", "--autoteste"])
+    return rc == 0, "regime PCpt: já-declarado=PENDENTE·prospecção=estimativa OK" if rc == 0 else f"regime PCpt regrediu (exit {rc})"
+
+
+def check_divergencia():
+    # M0: a divergência PCpt×certidões é SURFAÇADA e 100% flagada (nunca escondida/firme).
+    rc, _ = _run(["evals/eval-divergencia-pcpt.py"])
+    return rc == 0, "divergência PCpt×certidões surfaçada e flagada OK" if rc == 0 else f"divergência não surfaçada/flagada (exit {rc})"
+
+
+def check_dominio():
+    # Separação TDC×IPTU (plano 2026-07-04): (1) toda norma/acórdão carimbada com dominio válido;
+    # (2) as invariantes de roteamento (não-poluição, não-perda, PDE alcançável do TDC, anti-padrão
+    # eliminado) provadas. Sabotar o carimbo ou vazar iptu-puro numa consulta tdc FALHA aqui.
+    rc1, _ = _run(["scripts/carimbar_dominio.py", "--check"])
+    if rc1 != 0:
+        return False, f"carimbo de domínio incompleto (exit {rc1}) — rode scripts/carimbar_dominio.py"
+    rc2, _ = _run(["evals/eval-dominio.py"])
+    return rc2 == 0, ("domínio TDC×IPTU: carimbo válido + roteamento provado OK" if rc2 == 0
+                      else f"invariantes de domínio regrediram (exit {rc2}) — rode evals/eval-dominio.py")
+
+
+def check_indice_arrumacao():
+    # Arrumação Drive: o SEED bate com o de-para e o MESTRE bate com o reconciliado (SEED+logs).
+    # Protege contra drift (alguém edita o índice à mão ou o de-para muda sem re-semear).
+    rc1, _ = _run(["scripts/semear_indice_mestre.py", "--check"])
+    if rc1 != 0:
+        return False, f"INDICE-SEED desatualizado vs de-para (exit {rc1}) — rode semear_indice_mestre.py"
+    rc2, _ = _run(["scripts/reconciliar_arrumacao.py", "--check"])
+    if rc2 != 0:
+        return False, f"INDICE-MESTRE desatualizado (exit {rc2}) — rode reconciliar_arrumacao.py"
+    # Teste de integração end-to-end da toolchain (R8/R9/idempotência/R4/gate) — sintético, restaura sozinho.
+    rc3, _ = _run(["evals/eval-arrumacao.py"])
+    return rc3 == 0, ("índice consistente + loop de arrumação provado (eval-arrumacao)" if rc3 == 0
+                      else f"eval-arrumacao FALHOU (exit {rc3}) — rode evals/eval-arrumacao.py")
+
+
+def check_disclaimer():
+    # M0: DISCLAIMER.md existe E o bloco está injetado na saída ao cliente (COMO-USAR.md).
+    disc = RAIZ / "DISCLAIMER.md"
+    como = RAIZ / "zepec" / "ferramenta" / "COMO-USAR.md"
+    if not disc.exists():
+        return False, "DISCLAIMER.md ausente na raiz"
+    if not como.exists() or "DISCLAIMER-BLOCO-INICIO" not in como.read_text(encoding="utf-8"):
+        return False, "bloco DISCLAIMER não injetado em zepec/ferramenta/COMO-USAR.md"
+    return True, "DISCLAIMER.md + bloco na saída ao cliente OK"
+
+
 def check_stray_tags():
     # Só a CORPUS-DATA importa: num .md/.json de lei/jurisprudência/índice, uma tag de tool-call é
     # SEMPRE corrupção (já aconteceu: </invoke> vazou para a 7228 e o índice). Código .py é excluído
@@ -67,6 +138,34 @@ def check_stray_tags():
             except (UnicodeDecodeError, OSError):
                 pass
     return (not sujos), "sem stray tags no corpus/índice" if not sujos else f"stray tags em: {sujos[:5]}"
+
+
+def check_indice_rag():
+    # B-02 (auditoria 2026-07-05): o fechamento LOCAL nunca regenerava rag/chunks+rag/index — um índice
+    # adulterado à mão (ou drifted do verbatim das leis/ ou do domínio do JSON) passava localmente; só o
+    # CI regenerava. Aqui regenera (fatiar+indexar) e compara contra HEAD — espelha o CI.
+    rc1, _ = _run(["scripts/fatiar.py"])
+    rc2, _ = _run(["scripts/indexar.py"])
+    if rc1 != 0 or rc2 != 0:
+        return False, f"fatiar/indexar quebrou (fatiar {rc1}, indexar {rc2})"
+    d = subprocess.run(["git", "diff", "--quiet", "HEAD", "--", "rag/"], cwd=RAIZ)
+    if d.returncode == 0:
+        return True, "rag/ commitado == regenerado (índice não-adulterado, bate com leis/+domínio)"
+    return False, "rag/ regenerado difere do commitado — rode fatiar+indexar e re-commite"
+
+
+def check_handoff_nao_stale():
+    # C-08 (auditoria): o handoff PRIMÁRIO (PROXIMA-INSTANCIA.md) é o 1º que a próxima instância lê. Ele
+    # afirmava "Fase 1 não começou / ZERO fix de produto / T2-T3 vivos" quando T1–T4 estavam FEITOS. Este
+    # check reprova se as frases-stale conhecidas reaparecerem (anti-regressão mecânica do overclaim A-12).
+    hp = RAIZ / "PROXIMA-INSTANCIA.md"
+    if not hp.exists():
+        return False, "PROXIMA-INSTANCIA.md ausente (handoff primário)"
+    txt = hp.read_text(encoding="utf-8")
+    stale = [s for s in ("Fase 1 (código) não começou", "ZERO fix de produto",
+                         "gate verde cobre a FUNDAÇÃO, não o produto") if s in txt]
+    return (not stale), ("handoff sem frases-stale conhecidas" if not stale
+                         else f"handoff com afirmação stale (A-12): {stale[0]!r} — atualize o banner")
 
 
 def check_manifesto_idempotente():
@@ -113,9 +212,23 @@ def main():
     hard = [
         ("EVALS (citação correta, 1.7)", check_evals),
         ("ENGINE (número no engine, 1.3)", check_engine),
+        ("ENGINE CEDENTE (Fi Art.24, T2)", check_engine_cedente),
+        ("PRODUTO (golden Fi cedentes reais, T2)", check_produto),
+        ("CONSERVAÇÃO (Art.129 3-estados, T4)", check_conservacao),
+        ("REGIME PCpt (já-declarado×novo, T3)", check_regime_pcpt),
+        ("DIVERGÊNCIA PCpt×certidões (M0)", check_divergencia),
+        ("DOMÍNIO TDC×IPTU (metadado, roteamento)", check_dominio),
+        ("ÍNDICE ARRUMAÇÃO (SEED×de-para, MESTRE×reconc.)", check_indice_arrumacao),
+        ("DISCLAIMER injetado (M0)", check_disclaimer),
         ("CORPUS (sem stray tags)", check_stray_tags),
+        ("ÍNDICE RAG (rag/ regenerado == commitado, B-02)", check_indice_rag),
+        ("HANDOFF (sem frase-stale, C-08)", check_handoff_nao_stale),
         ("MANIFESTO (idempotente, SSOT)", check_manifesto_idempotente),
         ("BACKLOG (fresco, D83)", check_backlog_fresh),
+        # C-03 (auditoria): durabilidade é HARD — "perda de dados" é o modo de falha nº1; commit não
+        # pushado/working-tree sujo somem no reset do container. Rode este gate SÓ ao fechar (já commitado).
+        ("GIT limpo (durabilidade, C-03)", check_git_clean),
+        ("GIT pushado (durabilidade, C-03)", check_pushed),
     ]
     print("═══ GATE DE FECHAMENTO — Potencial Urbano (D83: 'declarei feito' ≠ 'provei feito') ═══")
     falhou = False
@@ -123,10 +236,6 @@ def main():
         ok, msg = fn()
         print(f"  [{'VERDE ' if ok else 'VERMELHO'}] {nome}: {msg}")
         falhou = falhou or not ok
-    # SOFT (não derrubam o gate, mas avisam — durabilidade não é invariante mecânica do conteúdo)
-    for nome, fn in (("GIT limpo", check_git_clean), ("GIT pushado", check_pushed)):
-        ok, msg = fn()
-        print(f"  [{'verde ' if ok else 'AVISO '}] {nome} (durabilidade): {msg}")
 
     print("─────────────────────────────────────────────────────────────────────────────")
     if falhou:

@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 51",
   "numero": "51",
+  "header_raw": "Art. 51. Sem prejuízo das disposições do Código Civil, as obrigações em geral também poderão ser garantidas, inclusive por terceiros, por cessão fiduciária de direitos creditórios decorrentes de contratos de alienação de imóveis, por caução de direitos creditórios ou aquisitivos decorrentes de contratos de venda ou promessa de venda de imóveis e por alienação fiduciária de coisa imóvel.",
   "caminho_hierarquico": [
     "CAPÍTULO V",
     "Art. 51"
@@ -36,7 +37,6 @@
     }
   },
   "tema": [
-    "IPTU",
     "patrimonio_de_afetacao",
     "incorporacao_imobiliaria",
     "RET",
@@ -44,6 +44,10 @@
     "CCI",
     "CCB"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre o patrimônio de afetação de incorporações imobiliárias, Letra de Crédito Imobiliário, Cédula de Crédito Imobiliário, Cédula de Crédito Bancário, altera o Decreto-Lei nº 911, de 1º de outubro de 1969, as Leis nº 4.591, de 16 de dezembro de 1964, nº 4.728, de 14 de julho de 1965, e nº 10.406, de 10 de janeiro de 2002, e dá outras providências."
 }

@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 17",
   "numero": "17",
+  "header_raw": "Art. 17. As notificações e intimações deverão ser encaminhadas à operadora ou detentora por",
   "caminho_hierarquico": [
     "CAPÍTULO V",
     "Art. 17"
@@ -27,9 +28,11 @@
       "alterada_por": []
     }
   },
-  "tema": [
-    "IPTU"
+  "tema": [],
+  "dominio": [
+    "iptu"
   ],
+  "dominio_primario": "iptu",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 88",
   "numero": "88",
+  "header_raw": "Art. 88. Em lotes com área até 10.000m² (dez mil metros quadrados) localizados nas ZEU, ZEUa,",
   "caminho_hierarquico": [
     "TÍTULO IV",
     "CAPÍTULO II",
@@ -32,9 +33,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

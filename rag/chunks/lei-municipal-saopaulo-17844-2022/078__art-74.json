@@ -1,0 +1,39 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17844-2022::078-art-74",
+  "lei_id": "lei-municipal-saopaulo-17844-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 74",
+  "numero": "74",
+  "header_raw": "Art. 74. Com a finalidade de fomentar a atividade econômica na AIU-SCE e incentivar as atividades de",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Seção III",
+    "Art. 74"
+  ],
+  "texto": "Art. 74. Com a finalidade de fomentar a atividade econômica na AIU-SCE e incentivar as atividades de\n\neconomia criativa, em consonância aos incentivos urbanísticos e instrumentos trazidos nesta Lei, será\n\nelaborado Plano de Desenvolvimento para o Polo de Economia Criativa Distrito Criativo Sé/República\n\nprevisto no art. 182 e seguintes da Lei nº 16.050, de 2014, a ser aprovado por Lei específica.\n\nCAPÍTULO VI\n\nDA OUTORGA ONEROSA DE POTENCIAL CONSTRUTIVO ADICIONAL, DA CONTA SEGREGADA\n\nNO FUNDURB E DA DESTINAÇÃO DOS RECURSOS ARRECADADOS",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "lei municipal nº 17844/2022 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO V › Seção III › Art. 74",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2022-09-14",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": []
+    }
+  },
+  "tema": [],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

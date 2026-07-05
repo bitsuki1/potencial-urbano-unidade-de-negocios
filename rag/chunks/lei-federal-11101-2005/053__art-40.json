@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 40",
   "numero": "40",
+  "header_raw": "Art. 40. Não será deferido provimento liminar, de caráter cautelar ou antecipatório dos efeitos da tutela, para a suspensão ou adiamento da assembléia-geral de credores em razão de pendência de discussão acerca da existência, da quantificação ou da classificação de créditos.",
   "caminho_hierarquico": [
     "CAPÍTULO II",
     "Seção IV",
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 28",
   "numero": "28",
+  "header_raw": "Art. 28. Não havendo Comitê de Credores, caberá ao administrador judicial ou, na incompatibilidade deste, ao juiz exercer suas atribuições.",
   "caminho_hierarquico": [
     "CAPÍTULO II",
     "Seção III",
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

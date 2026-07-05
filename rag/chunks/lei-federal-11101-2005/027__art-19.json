@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 19",
   "numero": "19",
+  "header_raw": "Art. 19. O administrador judicial, o Comitê, qualquer credor ou o representante do Ministério Público poderá, até o encerramento da recuperação judicial ou da falência, observado, no que couber, o procedimento ordinário previsto no Código de Processo Civil, pedir a exclusão, outra classificação ou a retificação de qualquer crédito, nos casos de descoberta de falsidade, dolo, simulação, fraude, erro essencial ou, ainda, documentos ignorados na época do julgamento do crédito ou da inclusão no quadro-geral de credores.",
   "caminho_hierarquico": [
     "CAPÍTULO II",
     "Seção II",
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

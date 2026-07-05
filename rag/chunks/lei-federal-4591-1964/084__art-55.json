@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 55",
   "numero": "55",
+  "header_raw": "Art. 55. Nas incorporações em que a construção seja feita pelo regime de empreitada, esta poderá ser a preço fixo, ou a preço reajustável por índices préviamente determinados.",
   "caminho_hierarquico": [
     "Título II",
     "CAPíTULO III",
@@ -34,11 +35,14 @@
     }
   },
   "tema": [
-    "IPTU",
     "condominio_edilicio",
     "incorporacao_imobiliaria",
     "unidade_autonoma"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
 }

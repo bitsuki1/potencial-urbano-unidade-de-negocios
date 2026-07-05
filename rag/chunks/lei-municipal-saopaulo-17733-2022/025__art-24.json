@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 24",
   "numero": "24",
+  "header_raw": "Art. 24. As ERBs regularmente implantadas até a data da entrada em vigor desta Lei, desde que não",
   "caminho_hierarquico": [
     "CAPÍTULO VIII",
     "Art. 24"
@@ -27,9 +28,11 @@
       "alterada_por": []
     }
   },
-  "tema": [
-    "IPTU"
+  "tema": [],
+  "dominio": [
+    "iptu"
   ],
+  "dominio_primario": "iptu",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 33",
   "numero": "33",
+  "header_raw": "Art. 33. Compõem o conjunto de intervenções específicas territorializadas do PIU-SCE:",
   "caminho_hierarquico": [
     "CAPÍTULO III",
     "Art. 33"
@@ -27,9 +28,11 @@
       "alterada_por": []
     }
   },
-  "tema": [
-    "IPTU"
+  "tema": [],
+  "dominio": [
+    "tdc"
   ],
+  "dominio_primario": "tdc",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

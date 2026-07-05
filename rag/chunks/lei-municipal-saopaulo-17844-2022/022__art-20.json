@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 20",
   "numero": "20",
+  "header_raw": "Art. 20. Aos novos empreendimentos localizados em lotes que tenham frente para os Eixos",
   "caminho_hierarquico": [
     "CAPÍTULO II",
     "Seção II",
@@ -28,9 +29,11 @@
       "alterada_por": []
     }
   },
-  "tema": [
-    "IPTU"
+  "tema": [],
+  "dominio": [
+    "tdc"
   ],
+  "dominio_primario": "tdc",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

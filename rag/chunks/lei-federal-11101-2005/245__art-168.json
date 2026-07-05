@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 168",
   "numero": "168",
+  "header_raw": "Art. 168. Praticar, antes ou depois da sentença que decretar a falência, conceder a recuperação judicial ou homologar a recuperação extrajudicial, ato fraudulento de que resulte ou possa resultar prejuízo aos credores, com o fim de obter ou assegurar vantagem indevida para si ou para outrem.",
   "caminho_hierarquico": [
     "CAPÍTULO VII",
     "Seção I",
@@ -34,12 +35,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

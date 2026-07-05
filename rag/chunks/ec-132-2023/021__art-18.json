@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 18",
   "numero": "18",
+  "header_raw": "Art. 18. O Poder Executivo deverá encaminhar ao Congresso Nacional:",
   "caminho_hierarquico": [
     "Art. 18"
   ],
@@ -30,10 +31,13 @@
     }
   },
   "tema": [
-    "IPTU",
     "reforma_tributaria",
     "sistema_tributario_nacional"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Altera o Sistema Tributário Nacional."
 }

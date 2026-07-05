@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 24",
   "numero": "24",
+  "header_raw": "Art. 24. Na emissão de novas declarações de potencial construtivo passível de transferência de imóveis",
   "caminho_hierarquico": [
     "TÍTULO II",
     "CAPÍTULO III",
@@ -33,9 +34,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

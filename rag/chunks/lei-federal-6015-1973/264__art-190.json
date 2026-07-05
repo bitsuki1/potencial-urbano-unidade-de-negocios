@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 190",
   "numero": "190",
+  "header_raw": "Art. 190. Apresentado título de segunda hipoteca, com referência expressa à existência de outra anterior, o oficial, depois de prenotá-lo, aguardará durante trinta (30) dias, que os interessados na primeira promovam a inscrição. Esgotado esse prazo, que correrá da data da apresentação, sem que seja apresentado o título anterior, o segundo será inscrito e obterá preferência sobre aquele.",
   "caminho_hierarquico": [
     "TÍTULO V",
     "CAPÍTULO III",
@@ -33,12 +34,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

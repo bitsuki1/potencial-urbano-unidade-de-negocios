@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 155",
   "numero": "155",
+  "header_raw": "Art. 155. Julgadas as contas do administrador judicial, ele apresentará o relatório final da falência no prazo de 10 (dez) dias, indicando o valor do ativo e o do produto de sua realização, o valor do passivo e o dos pagamentos feitos aos credores, e especificará justificadamente as responsabilidades com que continuará o falido.",
   "caminho_hierarquico": [
     "CAPÍTULO V",
     "Seção XII",
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

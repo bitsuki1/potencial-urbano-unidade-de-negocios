@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 20",
   "numero": "20",
+  "header_raw": "Art. 20. Aplicam-se ao ocupante do imóvel, a qualquer título, tôdas as obrigações referentes ao uso, fruição e destino da unidade.",
   "caminho_hierarquico": [
     "TÍTULO I",
     "Capítulo V",
@@ -33,11 +34,14 @@
     }
   },
   "tema": [
-    "IPTU",
     "condominio_edilicio",
     "incorporacao_imobiliaria",
     "unidade_autonoma"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
 }

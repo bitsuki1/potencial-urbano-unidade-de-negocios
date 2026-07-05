@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 183",
   "numero": "183",
+  "header_raw": "Art. 183. Compete ao juiz criminal da jurisdição onde tenha sido decretada a falência, concedida a recuperação judicial ou homologado o plano de recuperação extrajudicial, conhecer da ação penal pelos crimes previstos nesta Lei.",
   "caminho_hierarquico": [
     "CAPÍTULO VII",
     "Seção III",
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 129",
   "numero": "129",
+  "header_raw": "Art. 129. São ineficazes em relação à massa falida, tenha ou não o contratante conhecimento do estado de crise econômico-financeira do devedor, seja ou não intenção deste fraudar credores:",
   "caminho_hierarquico": [
     "CAPÍTULO V",
     "Seção IX",
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

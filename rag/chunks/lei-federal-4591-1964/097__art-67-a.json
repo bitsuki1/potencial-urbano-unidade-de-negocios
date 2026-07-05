@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 67-A",
   "numero": "67-A",
+  "header_raw": "Art. 67-A.  Em caso de desfazimento do contrato celebrado exclusivamente com o incorporador, mediante distrato ou resolução por inadimplemento absoluto de obrigação do adquirente, este fará jus à restituição das quantias que houver pago diretamente ao incorporador, atualizadas com base no índice contratualmente estabelecido para a correção monetária das parcelas do preço do imóvel, delas deduzidas, cumulativamente:                   (Incluído pela Lei nº 13.786, de 2018)",
   "caminho_hierarquico": [
     "Título II",
     "CAPÍTULO V",
@@ -33,11 +34,14 @@
     }
   },
   "tema": [
-    "IPTU",
     "condominio_edilicio",
     "incorporacao_imobiliaria",
     "unidade_autonoma"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
 }

@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 28",
   "numero": "28",
+  "header_raw": "Art. 28. Esta Lei observa o previsto nas alíneas “a” e “b” do § 2º do art. 46 da Lei Orgânica do Município",
   "caminho_hierarquico": [
     "CAPÍTULO VIII",
     "Art. 28"
@@ -27,9 +28,11 @@
       "alterada_por": []
     }
   },
-  "tema": [
-    "IPTU"
+  "tema": [],
+  "dominio": [
+    "iptu"
   ],
+  "dominio_primario": "iptu",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

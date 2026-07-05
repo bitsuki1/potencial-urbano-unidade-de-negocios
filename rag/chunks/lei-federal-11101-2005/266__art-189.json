@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 189",
   "numero": "189",
+  "header_raw": "Art. 189. Aplica-se a Lei nº 5.869, de 11 de janeiro de 1973 - Código de Processo Civil, no que couber, aos procedimentos previstos nesta Lei.",
   "caminho_hierarquico": [
     "CAPÍTULO VIII",
     "Art. 189"
@@ -31,12 +32,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

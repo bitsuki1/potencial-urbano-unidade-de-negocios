@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 198",
   "numero": "198",
+  "header_raw": "Art. 198. Os devedores proibidos de requerer concordata nos termos da legislação específica em vigor na data da publicação desta Lei ficam proibidos de requerer recuperação judicial ou extrajudicial nos termos desta Lei.",
   "caminho_hierarquico": [
     "CAPÍTULO VIII",
     "Art. 198"
@@ -31,12 +32,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

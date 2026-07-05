@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 35",
   "numero": "35",
+  "header_raw": "Art. 35. As Zonas Mistas – ZM são porções do território destinadas à implantação de usos residenciais e não residenciais, inclusive",
   "caminho_hierarquico": [
     "TÍTULO II",
     "CAPÍTULO II",
@@ -33,9 +34,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

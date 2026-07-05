@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 163",
   "numero": "163",
+  "header_raw": "Art. 163. O devedor poderá, também, requerer a homologação de plano de recuperação extrajudicial que obriga a todos os credores por ele abrangidos, desde que assinado por credores que representem mais de 3/5 (três quintos) de todos os créditos de cada espécie por ele abrangidos.",
   "caminho_hierarquico": [
     "CAPÍTULO VI",
     "Art. 163"
@@ -31,12 +32,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

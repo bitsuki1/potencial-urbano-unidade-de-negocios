@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 69-I",
   "numero": "69-I",
+  "header_raw": "Art. 69-I. A consolidação processual, prevista no art. 69-G desta Lei, acarreta a coordenação de atos processuais, garantida a independência dos devedores, dos seus ativos e dos seus passivos.   (Incluído pela Lei nº 14.112, de 2020)    (Vigência)",
   "caminho_hierarquico": [
     "CAPÍTULO III",
     "Seção IV",
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

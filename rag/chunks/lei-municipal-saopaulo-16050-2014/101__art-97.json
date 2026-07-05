@@ -1,0 +1,45 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16050-2014::101-art-97",
+  "lei_id": "lei-municipal-saopaulo-16050-2014",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 97",
+  "numero": "97",
+  "header_raw": "Art. 97. A notificação de que trata o artigo anterior far-se-á:",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO III",
+    "Seção I",
+    "Art. 97"
+  ],
+  "texto": "Art. 97. A notificação de que trata o artigo anterior far-se-á:\n\nhttps://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 47/166\n\n27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal\n\nI – por funcionário do órgão competente do Poder Público Municipal, ao proprietário do imóvel ou, no caso de este ser pessoa\n\njurídica, a quem tenha poderes de gerência geral ou administração;\n\nII – por carta registrada com aviso de recebimento quando o proprietário for residente ou tiver sua sede fora do território do\n\nMunicípio;\n\nIII – por edital, quando frustrada, por 3 (três) vezes, a tentativa de notificação na forma prevista pelos incisos I e II deste artigo.\n\n§ 1º A notificação referida no “caput” deste artigo deverá ser averbada na matrícula do imóvel no Cartório de Registro de Imóveis,\n\npela Prefeitura do Município de São Paulo.\n\n§ 2º Uma vez promovido, pelo proprietário, o adequado aproveitamento do imóvel na conformidade do que dispõe esta lei, caberá à\n\nPrefeitura do Município de São Paulo efetuar o cancelamento da averbação tratada no parágrafo anterior.\n\n§ 3º O proprietário poderá promover o cancelamento a que se refere o § 2º deste artigo, às suas custas, apresentando a\n\ndocumentação pertinente que comprove o adequado aproveitamento.(Incluído pela Lei nº 17.975/2023)\n\nSubseção III\n\nDo Imposto Predial e Territorial Urbano (IPTU) Progressivo no Tempo",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "lei municipal nº 16050/2014 — São Paulo - SP",
+    "dispositivo": "TÍTULO II › CAPÍTULO III › Seção I › Art. 97",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2014-07-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 95 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2014-07-31. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "urbanística"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

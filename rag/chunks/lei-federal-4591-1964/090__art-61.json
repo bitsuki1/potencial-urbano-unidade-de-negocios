@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 61",
   "numero": "61",
+  "header_raw": "Art. 61. A Comissão de Representantes terá podêres para, em nome de todos os contratantes e na forma prevista no contrato:",
   "caminho_hierarquico": [
     "Título II",
     "CAPíTULO III",
@@ -34,11 +35,14 @@
     }
   },
   "tema": [
-    "IPTU",
     "condominio_edilicio",
     "incorporacao_imobiliaria",
     "unidade_autonoma"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
 }

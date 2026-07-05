@@ -5,7 +5,9 @@ pcpt.py — Engine determinístico do POTENCIAL CONSTRUTIVO PASSÍVEL DE TRANSFE
 Complementa oodc.py (lado receptor). Modela as DUAS vias de geração de TDC (achado do agente legal
 2026-06-28: a via de doação estava fora do modelo):
 
-  • SEM doação (Art. 125, Lei 16.050/2014): PCpt = Atc × CAbas × Fi, com Fi = 1 (FIXO na lei).
+  • SEM doação (Art. 125, Lei 16.050/2014): PCpt = Atc × CAbas × Fi, com Fi ESCALONADO pela ÁREA do
+    lote (LPUOS Lei 16.402/2016, Art. 24, I–VII: 1,2 / 1,0 / 0,9 / 0,7 / 0,5 / 0,2 / 0,1) — NÃO é fixo
+    em 1 (correção 2026-07-02; a doutrina "Fi=1,0 estático" era stale — ver auditoria A-02 2026-07-05).
     O proprietário MANTÉM o imóvel (caso ZEPEC-BIR/ZEPAM, Art. 124 I–II).
 
   • COM doação (Art. 126/127): PCpt = Atc × CAmax × Fi(finalidade).

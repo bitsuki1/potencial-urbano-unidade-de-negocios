@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 308",
   "numero": "308",
+  "header_raw": "Art. 308. O encerramento dos livros em uso, antes da vigência da presente Lei, não exclui a validade dos atos neles registrados, nem impede que, neles, se façam as averbações e anotações posteriores.",
   "caminho_hierarquico": [
     "TÍTULO VI",
     "Art. 308"
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

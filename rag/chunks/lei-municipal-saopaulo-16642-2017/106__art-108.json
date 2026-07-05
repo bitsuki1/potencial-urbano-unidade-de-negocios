@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 108",
   "numero": "108",
+  "header_raw": "Art. 108. Para fins de aplicação dos índices de ocupação e aproveitamento do solo, observados os limites estabelecidos na LPUOS, não é considerada área construída computável:",
   "caminho_hierarquico": [
     "CAPÍTULO VIII",
     "Art. 108"
@@ -28,9 +29,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

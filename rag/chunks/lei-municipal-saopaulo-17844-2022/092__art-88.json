@@ -1,0 +1,39 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17844-2022::092-art-88",
+  "lei_id": "lei-municipal-saopaulo-17844-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 88",
+  "numero": "88",
+  "header_raw": "Art. 88. Para a aplicação e monitoramento dos instrumentos de qualificação e transformação do",
+  "caminho_hierarquico": [
+    "CAPÍTULO VII",
+    "Seção II",
+    "Art. 88"
+  ],
+  "texto": "Art. 88. Para a aplicação e monitoramento dos instrumentos de qualificação e transformação do\n\nterritório do PIU-SCE e da implantação do Programa de Intervenções, SP-Urbanismo promoverá o\n\ncadastro atualizado das propostas de adesão aos benefícios e incentivos previstos nesta Lei, bem\n\ncomo dos investimentos, projetos e programas públicos desenvolvidos na AIU-SCE.\n\n§ 1º Deverão ser definidos por regulamento indicadores de monitoramento e avaliação que expressem,\n\nno mínimo:\n\nI - os resultados alcançados em relação aos objetivos do PIU-SCE;\n\nII - os avanços da implantação do Programa de Intervenções;\n\nIII - o desempenho dos instrumentos de qualificação e transformação do território;\n\nIV - a alocação dos recursos arrecadados.\n\n§ 2º A SP-Urbanismo deverá elaborar relatório semestral contendo os elementos de monitoramento\n\nprevistos no caput para posterior submissão ao Conselho Gestor da AIU-SCE, garantida a ampla\n\npublicização dos documentos elaborados.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "lei municipal nº 17844/2022 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO VII › Seção II › Art. 88",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2022-09-14",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": []
+    }
+  },
+  "tema": [],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

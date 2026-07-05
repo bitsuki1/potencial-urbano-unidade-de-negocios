@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 175",
   "numero": "175",
+  "header_raw": "Art. 175. Apresentar, em falência, recuperação judicial ou recuperação extrajudicial, relação de créditos, habilitação de créditos ou reclamação falsas, ou juntar a elas título falso ou simulado:",
   "caminho_hierarquico": [
     "CAPÍTULO VII",
     "Seção I",
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

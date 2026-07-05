@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 252",
   "numero": "252",
+  "header_raw": "Art. 252 - O registro, enquanto não cancelado, produz todos os efeitos legais ainda que, por outra maneira, se prove que o título está desfeito, anulado, extinto ou rescindido.                     (Renumerado do art. 255 com nova redação pela Lei nº 6.216, de 1975)",
   "caminho_hierarquico": [
     "TÍTULO V",
     "CAPÍTULO VIII",
@@ -33,12 +34,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

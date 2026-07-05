@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 167-Y",
   "numero": "167-Y",
+  "header_raw": "Art. 167-Y. Sem prejuízo dos direitos sobre bens ou decorrentes de garantias reais, o credor que tiver recebido pagamento parcial de seu crédito em processo de insolvência no exterior não poderá ser pago pelo mesmo crédito em processo no Brasil referente ao mesmo devedor enquanto os pagamentos aos credores da mesma classe forem proporcionalmente inferiores ao valor já recebido no exterior.    (Incluído pela Lei nº 14.112, de 2020)    (Vigência)",
   "caminho_hierarquico": [
     "CAPÍTULO VI-A",
     "Art. 167-Y"
@@ -31,12 +32,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

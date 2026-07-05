@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 20",
   "numero": "20",
+  "header_raw": "Art. 20. Na hipótese de falência do devedor cedente e se não tiver havido a tradição dos títulos representativos dos créditos cedidos fiduciariamente, ficará assegurada ao cessionário fiduciário a restituição na forma da legislação pertinente.",
   "caminho_hierarquico": [
     "CAPÍTULO I",
     "Seção VII",
@@ -33,10 +34,13 @@
     }
   },
   "tema": [
-    "IPTU",
     "alienacao_fiduciaria",
     "sistema_financiamento_imobiliario"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre o Sistema de Financiamento Imobiliário, institui a alienação fiduciária de coisa imóvel e dá outras providências."
 }

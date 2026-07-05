@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 25",
   "numero": "25",
+  "header_raw": "Art. 25. Os imóveis enquadrados em ZEPEC-BIR, para os quais já tenha sido emitida Declaração de",
   "caminho_hierarquico": [
     "TÍTULO II",
     "CAPÍTULO III",
@@ -35,9 +36,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

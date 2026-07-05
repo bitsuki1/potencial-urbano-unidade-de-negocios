@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 97",
   "numero": "97",
+  "header_raw": "Art. 97. Ao proprietário ou possuidor devem ser aplicadas multas nos valores indicados na Tabela de Multas e, ao responsável técnico pela obra, multas na proporção de 80% (oitenta por cento) dos referidos valores.",
   "caminho_hierarquico": [
     "CAPÍTULO VI",
     "Seção III",
@@ -29,9 +30,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

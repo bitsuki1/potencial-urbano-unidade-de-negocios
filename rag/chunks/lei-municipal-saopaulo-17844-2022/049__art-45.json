@@ -1,0 +1,39 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17844-2022::049-art-45",
+  "lei_id": "lei-municipal-saopaulo-17844-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 45",
+  "numero": "45",
+  "header_raw": "Art. 45. São considerados passíveis de aplicação dos instrumentos indutores da função social da",
+  "caminho_hierarquico": [
+    "CAPÍTULO IV",
+    "Seção II",
+    "Art. 45"
+  ],
+  "texto": "Art. 45. São considerados passíveis de aplicação dos instrumentos indutores da função social da\n\npropriedade os imóveis não edificados, subutilizados, ou não utilizados localizados na AIU-SCE, nos\n\ntermos estabelecidos pela Lei nº 16.050, de 2014.\n\nParágrafo único. O Poder Público notificará proprietários de imóveis não edificados, subutilizados, ou\n\nnão utilizados, para fins de promover seu aproveitamento, nos termos desta Lei e da legislação de\n\nregência.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "lei municipal nº 17844/2022 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO IV › Seção II › Art. 45",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2022-09-14",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": []
+    }
+  },
+  "tema": [],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

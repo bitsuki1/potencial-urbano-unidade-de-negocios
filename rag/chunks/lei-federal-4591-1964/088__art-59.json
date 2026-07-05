@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 59",
   "numero": "59",
+  "header_raw": "Art. 59. No regime de construção por administração, será obrigatório constar do respectivo contrato o montante do orçamento do custo da obra, elaborado com estrita observância dos critérios e normas referidos no inciso II, do art. 53 e a data em que se iniciará efetivamente a obra.",
   "caminho_hierarquico": [
     "Título II",
     "CAPíTULO III",
@@ -34,11 +35,14 @@
     }
   },
   "tema": [
-    "IPTU",
     "condominio_edilicio",
     "incorporacao_imobiliaria",
     "unidade_autonoma"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
 }

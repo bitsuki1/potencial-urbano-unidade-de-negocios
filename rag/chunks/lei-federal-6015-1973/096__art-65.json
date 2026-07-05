@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 65",
   "numero": "65",
+  "header_raw": "Art. 65. No primeiro porto a que se chegar, o comandante depositará imediatamente, na capitania do porto, ou em sua falta, na estação fiscal, ou ainda, no consulado, em se tratando de porto estrangeiro, duas cópias autenticadas dos assentos referidos no artigo anterior, uma das quais será remetida, por intermédio do Ministério da Justiça, ao oficial do registro, para o registro, no lugar de residência dos pais ou, se não for possível descobri-lo, no 1º Ofício do Distrito Federal. Uma terceira cópia será entregue pelo comandante ao interessado que, após conferência na capitania do porto, por ela poderá, também, promover o registro no cartório competente.                      (Renumerado do art. 66, pela Lei nº 6.216, de 1975).",
   "caminho_hierarquico": [
     "TÍTULO II",
     "CAPÍTULO IV",
@@ -33,12 +34,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

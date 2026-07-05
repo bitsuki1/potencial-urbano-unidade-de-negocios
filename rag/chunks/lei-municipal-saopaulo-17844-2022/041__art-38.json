@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 38",
   "numero": "38",
+  "header_raw": "Art. 38. Fica garantido ao proprietário de edificação regularmente existente e contida na área da AIU-",
   "caminho_hierarquico": [
     "CAPÍTULO IV",
     "Seção I",
@@ -28,9 +29,11 @@
       "alterada_por": []
     }
   },
-  "tema": [
-    "IPTU"
+  "tema": [],
+  "dominio": [
+    "tdc"
   ],
+  "dominio_primario": "tdc",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

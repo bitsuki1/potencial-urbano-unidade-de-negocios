@@ -2,7 +2,7 @@
     "negative_prompts": [
         "NEVER use 'Valor Venal de IPTU' for Equivalência calculations. Use EXCLUSIVELY the values from Quadro 14, to comply with STJ Theme 1113 and PDE Art. 128.",
         "NEVER use Area Subtraction '(CA_max - CA_ut)' for Generation in ZEPEC-BIR. This is revoked. Use ONLY the Basic Coefficient '(CA_bas)'.",
-        "NEVER apply a Regressive Table for Incentive Factor (F_i) in ZEPEC. The F_i factor is STATIC at 1.0 (Lei 17.975/2023).",
+        "ALWAYS apply the SCALED table for the Incentive Factor (F_i) by lot AREA — LPUOS Lei 16.402/2016, Art. 24, I–VII (1.2/1.0/0.9/0.7/0.5/0.2/0.1). The old 'F_i STATIC at 1.0' rule was STALE and WRONG (audit A-02, 2026-07-05): it negated the actual statute and cited the wrong law. The engine of record is engines/tdc/pcpt.py.",
         "NEVER apply a 5-year 'Caducidade' (expiration) to the right itself. The right is perpetual. The 30-day limit ONLY applies to the initial cartorial registry (TTL).",
         "NEVER use Hybrid Area Calculations that exclude the IPTU. Any divergence must obligatorily be benchmarked against the fiscal IPTU.",
         "NEVER use a Moving Window (Janela Móvel) for the FUNDURB limit. The 5% ceiling applies STRICTLY to the closed fiscal year revenue, respecting the Q1 freeze (Epoch Hashing)."

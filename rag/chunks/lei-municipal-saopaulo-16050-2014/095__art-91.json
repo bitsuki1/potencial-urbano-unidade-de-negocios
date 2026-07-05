@@ -1,0 +1,45 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16050-2014::095-art-91",
+  "lei_id": "lei-municipal-saopaulo-16050-2014",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 91",
+  "numero": "91",
+  "header_raw": "Art. 91. Para aplicação dos instrumentos indutores da função social da propriedade, são consideradas passíveis de aplicação dos",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO III",
+    "Seção I",
+    "Art. 91"
+  ],
+  "texto": "Art. 91. Para aplicação dos instrumentos indutores da função social da propriedade, são consideradas passíveis de aplicação dos\n\ninstrumentos indutores do uso social da propriedade os imóveis não edificados, subutilizados, ou não utilizados localizados nas\n\nseguintes partes do território:\n\nI – Zonas Especiais de Interesse Social 2, 3 e 5;\n\nII – no perímetro da Operação Urbana Centro;\n\nIII – áreas de influência dos Eixos de Estruturação da Transformação Urbana;\n\nIV – nos perímetros e perímetros expandidos das Operações Urbanas Consorciadas;\n\nV – nos perímetros das Subprefeituras da Sé e da Mooca;\n\nVI – nas Macroáreas de Urbanização Consolidada e de Qualificação da Urbanização;\n\nVII – na Macroárea de Redução da Vulnerabilidade Urbana, exclusivamente para glebas ou lotes com área superior a 20.000m²\n\n(vinte mil metros quadrados);\n\nhttps://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 45/166\n\n27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal\n\nVIII – em todas as áreas do perímetro urbano, definidas como tal no Mapa 2A, nas quais não incide o IPTU, ressalvadas as áreas\n\nefetivamente utilizadas para a exploração agrícola, pecuária, extrativa vegetal ou agroindustrial e as exceções previstas nos arts.\n\n92 e 94.\n\nIX - nas áreas objetos de Planos de Intervenção Urbana (PIU), nas Áreas de Intervenção Urbana (AIU), nas Áreas de Estruturação\n\nLocal (AEL) e nas áreas objeto de Concessões Urbanísticas;(Incluído pela Lei nº 17.975/2023)\n\nX - na Macroárea de Estruturação Metropolitana (MEM).(Incluído pela Lei nº 17.975/2023)\n\n§ 1º As áreas passíveis de aplicação dos instrumentos indutores da função social da propriedade devem ser priorizadas, em\n\nconsonância com a estratégia de ordenação territorial deduzida da aplicação dos demais instrumentos de política urbana.(Incluído\n\npela Lei nº 17.975/2023)\n\n§ 2º O Executivo poderá elaborar Plano Estratégico de Gestão e Destinação dos imóveis descumpridores da função social da\n\npropriedade, observado o interesse público e as diretrizes desta Lei, com o objetivo de planejamento da destinação dos imóveis\n\napós o 5º ano de aplicação do IPTU Progressivo no Tempo e para delinear estratégias de ação territorial intersecretarial para\n\norientar e priorizar as áreas onde se mostra mais apropriada a aplicação de ações voltadas ao combate à ociosidade urbana, em\n\nconsonância com a Política de Desenvolvimento Urbano definida por esta Lei.(Incluído pela Lei nº 17.975/2023)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "lei municipal nº 16050/2014 — São Paulo - SP",
+    "dispositivo": "TÍTULO II › CAPÍTULO III › Seção I › Art. 91",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2014-07-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 95 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2014-07-31. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "urbanística"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

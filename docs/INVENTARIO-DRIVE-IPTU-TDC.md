@@ -1,3 +1,5 @@
+> **⚠️ SUPERADO (2026-07-03) por `docs/INVENTARIO-DRIVE.md`** (fontes por proveniência, D-DONO-4). Documento histórico (2026-06-18); descreve a árvore do Drive ANTES do achatamento (estrutura que não existe mais). Fileids antigos têm só valor histórico. _(banner lavrado pela PU 17 — DoD do B-8.)_
+
 MAPA IPTU + TDC — INVENTÁRIO CLASSIFICADO E ESTRATÉGIA DE TRATAMENTO
 
 Escritório do MOU (PMO de portfólio) — Projeto Potencial Urbano

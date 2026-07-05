@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 23",
   "numero": "23",
+  "header_raw": "Art. 23. Com o intuito de ampliar a oferta de habitações de interesse social, em especial para a",
   "caminho_hierarquico": [
     "CAPÍTULO II",
     "Seção III",
@@ -28,9 +29,11 @@
       "alterada_por": []
     }
   },
-  "tema": [
-    "IPTU"
+  "tema": [],
+  "dominio": [
+    "tdc"
   ],
+  "dominio_primario": "tdc",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 14",
   "numero": "14",
+  "header_raw": "Art. 14. Na ocorrência de sinistro total, ou que destrua mais de dois terços de uma edificação, seus condôminos reunir-se-ão em assembléia especial, e deliberarão sôbre a sua reconstrução ou venda do terreno e materiais, por quorum mínimo de votos que representem metade, mais uma das frações ideais do respectivo terreno.",
   "caminho_hierarquico": [
     "TÍTULO I",
     "Capítulo IV",
@@ -33,11 +34,14 @@
     }
   },
   "tema": [
-    "IPTU",
     "condominio_edilicio",
     "incorporacao_imobiliaria",
     "unidade_autonoma"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
 }

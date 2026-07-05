@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 62",
   "numero": "62",
+  "header_raw": "Art. 62. Após o período previsto no art. 61 desta Lei, no caso de descumprimento de qualquer obrigação prevista no plano de recuperação judicial, qualquer credor poderá requerer a execução específica ou a falência com base no art. 94 desta Lei.",
   "caminho_hierarquico": [
     "CAPÍTULO III",
     "Seção IV",
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

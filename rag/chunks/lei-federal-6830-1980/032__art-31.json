@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 31",
   "numero": "31",
+  "header_raw": "Art. 31 - Nos processos de falência, concordata, liquidação, inventário, arrolamento ou concurso de credores, nenhuma alienação será judicialmente autorizada sem a prova de quitação da Dívida Ativa ou a concordância da Fazenda Pública.",
   "caminho_hierarquico": [
     "Art. 31"
   ],
@@ -29,11 +30,14 @@
     }
   },
   "tema": [
-    "IPTU",
     "execucao_fiscal",
     "divida_ativa",
     "prescricao_intercorrente"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre a cobrança judicial da Dívida Ativa da Fazenda Pública, e dá outras providências."
 }

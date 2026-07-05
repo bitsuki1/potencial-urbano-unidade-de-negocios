@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 186",
   "numero": "186",
+  "header_raw": "Art. 186 - O número de ordem determinará a prioridade do título, e esta a preferência dos direitos reais, ainda que apresentados pela mesma pessoa mais de um título simultaneamente.                   (Renumerado do art. 187 com nova redação pela Lei nº 6.216, de 1975).",
   "caminho_hierarquico": [
     "TÍTULO V",
     "CAPÍTULO III",
@@ -33,12 +34,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

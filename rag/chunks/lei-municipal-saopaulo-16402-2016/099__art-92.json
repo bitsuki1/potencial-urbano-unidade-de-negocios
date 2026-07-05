@@ -1,0 +1,44 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16402-2016::099-art-92",
+  "lei_id": "lei-municipal-saopaulo-16402-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 92",
+  "numero": "92",
+  "header_raw": "Art. 92. Os usos e atividades no Município são classificados em categorias, sendo permitidos ou",
+  "caminho_hierarquico": [
+    "TÍTULO V",
+    "CAPÍTULO I",
+    "Art. 92"
+  ],
+  "texto": "Art. 92. Os usos e atividades no Município são classificados em categorias, sendo permitidos ou\n\nproibidos de acordo com a zona em que se localiza o imóvel, conforme Quadro 4 desta lei.\n\n§ 1º A instalação das atividades enquadradas na subcategoria de uso Ind-3 é proibida no Município de\n\nSão Paulo.\n\n§ 2º Nas ZEPEC-BIR, adicionalmente aos usos permitidos na zona onde o imóvel se localiza, são\n\npermitidos ainda usos relacionados à visitação do imóvel e usos acessórios, bem como local de\n\nexposições.\n\n§ 3º Nas ZOE, os usos permitidos e respectivos usos acessórios serão autorizados de acordo com a\n\ncaracterística específica de cada ZOE.\n\n§ 4º Nos lotes localizados nas ZCOR-1 e ZCOR-2 inseridas no perímetro de ZEPEC/AUE nas\n\nSubprefeituras Sé, Lapa e Pinheiros, incluindo os lotes externos e lindeiros às ZEPEC/AUE nas\n\nrespectivas subprefeituras, fica proibida a instalação de usos enquadrados nas subcategorias de uso\n\nnR1-2 e nR1-13 e proibidas as seguintes atividades: buffet, buffet infantil, salão de festas e eventos,\n\nauditórios, cinemas, teatros, anfiteatros e arenas, exceto o uso enquadrado na subcategoria nR1-2\n\ncomprovadamente instalado ou em licenciamento protocolado até a publicação desta Lei.(Incluído pela\n\nLei nº 18.081/2024)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "lei municipal nº 16402/2016 — São Paulo - SP",
+    "dispositivo": "TÍTULO V › CAPÍTULO I › Art. 92",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2016-03-22",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 79 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2016-03-22. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "urbanística"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

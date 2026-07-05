@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 103",
   "numero": "103",
+  "header_raw": "Art. 103. Enquanto não executados, devem ser observados os novos alinhamentos aprovados constantes das leis de melhoramento viário.",
   "caminho_hierarquico": [
     "CAPÍTULO VII",
     "Art. 103"
@@ -28,9 +29,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

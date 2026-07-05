@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 121",
   "numero": "121",
+  "header_raw": "Art. 121.  O registro será feito com base em uma via do estatuto, compromisso ou contrato, apresentada em papel ou em meio eletrônico, a requerimento do representante legal da pessoa jurídica.      (Redação dada pela Medida Provisória nº 1.085, de 2021)",
   "caminho_hierarquico": [
     "TÍTULO III",
     "CAPÍTULO II",
@@ -35,12 +36,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

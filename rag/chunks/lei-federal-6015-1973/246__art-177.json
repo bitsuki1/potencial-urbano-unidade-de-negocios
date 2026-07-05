@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 177",
   "numero": "177",
+  "header_raw": "Art. 177. O livro n. 6 - Indicador Pessoal - será distribuído alfabeticamente e nele se escreverão, por extenso, os nomes de todas as pessoas que, individual ou coletivamente, ativa ou passivamente, direta ou indiretamente, figurarem nos livros de registro.",
   "caminho_hierarquico": [
     "TÍTULO V",
     "CAPÍTULO II",
@@ -33,12 +34,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

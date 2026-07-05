@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 120",
   "numero": "120",
+  "header_raw": "Art. 120. O mandato conferido pelo devedor, antes da falência, para a realização de negócios, cessará seus efeitos com a decretação da falência, cabendo ao mandatário prestar contas de sua gestão.",
   "caminho_hierarquico": [
     "CAPÍTULO V",
     "Seção VIII",
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

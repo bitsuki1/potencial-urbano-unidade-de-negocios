@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 28",
   "numero": "28",
+  "header_raw": "Art. 28. Além dos casos expressamente consignados, os oficiais são civilmente responsáveis por todos os prejuízos que, pessoalmente, ou pelos prepostos ou substitutos que indicarem, causarem, por culpa ou dolo, aos interessados no registro.",
   "caminho_hierarquico": [
     "TÍTULO I",
     "CAPÍTULO VI",
@@ -33,12 +34,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

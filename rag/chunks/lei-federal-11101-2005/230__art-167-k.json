@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 167-K",
   "numero": "167-K",
+  "header_raw": "Art. 167-K. Após o pedido de reconhecimento do processo estrangeiro, o representante estrangeiro deverá imediatamente informar ao juiz:   (Incluído pela Lei nº 14.112, de 2020)   (Vigência)",
   "caminho_hierarquico": [
     "CAPÍTULO VI-A",
     "Art. 167-K"
@@ -31,12 +32,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

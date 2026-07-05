@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 7º",
   "numero": "7",
+  "header_raw": "Art. 7º-A  O disposto nos art. 3º a art. 7º não se aplica à escrituração por meio eletrônico de que trata o § 3º do art. 1º.       (Incluído pela Medida Provisória nº 1.085, de 2021)",
   "caminho_hierarquico": [
     "TÍTULO I",
     "CAPÍTULO II",
@@ -33,12 +34,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 16",
   "numero": "16",
+  "header_raw": "Art. 16. Os oficiais e os encarregados das repartições em que se façam os registros são obrigados:",
   "caminho_hierarquico": [
     "TÍTULO I",
     "CAPÍTULO IV",
@@ -33,12 +34,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

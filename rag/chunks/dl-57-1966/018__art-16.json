@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 16",
   "numero": "16",
+  "header_raw": "Art 16. Os loteamentos das áreas situadas fora da zona urbana, referidos no parágrafo 2º do art. 32 da Lei 5.172 de 25 de outubro de 1966, só serão permitidos quando atendido o disposto no art. 61 da Lei 4.504, de 30 de novembro de 1964.",
   "caminho_hierarquico": [
     "Art. 16"
   ],
@@ -31,10 +32,13 @@
     }
   },
   "tema": [
-    "IPTU",
     "ITR",
     "destinacao_economica"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Altera dispositivos sobre lançamento e cobrança do Imposto sobre a Propriedade Territorial Rural, institui normas sobre arrecadação da Dívida Ativa correspondente, e dá outras providências."
 }

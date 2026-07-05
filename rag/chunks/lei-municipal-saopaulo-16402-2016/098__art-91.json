@@ -4,17 +4,20 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 91",
   "numero": "91",
+  "header_raw": "Art. 91. Nas zonas ZCOR-2, ZCOR-3 e ZCORa, o gabarito de altura máxima poderá ser majorado em",
   "caminho_hierarquico": [
     "TÍTULO IV",
     "CAPÍTULO II",
     "Art. 91"
   ],
-  "texto": "Art. 91. Nas zonas ZCOR-2, ZCOR-3 e ZCORa, o gabarito de altura máxima poderá ser majorado em\n\naté 50% (cinquenta por cento) do estabelecido no Quadro 3 desta lei, desde que:\n\nI (Revogado pela Lei nº 18.081/2024)\n\nII - haja anuência expressa, devidamente firmada e registrada em Cartório de Registro de Títulos e\n\nDocumentos, de todos os proprietários limítrofes do imóvel;\n\nIII - haja manifestação do órgão municipal de preservação cultural, quando se tratar de imóvel\n\nenquadrado como ZEPEC;\n\nIV - sejam observados os parâmetros mais restritivos, quando for o caso, nos termos do disposto no",
+  "texto": "Art. 91. Nas zonas ZCOR-2, ZCOR-3 e ZCORa, o gabarito de altura máxima poderá ser majorado em\n\naté 50% (cinquenta por cento) do estabelecido no Quadro 3 desta lei, desde que:\n\nI (Revogado pela Lei nº 18.081/2024)\n\nII - haja anuência expressa, devidamente firmada e registrada em Cartório de Registro de Títulos e\n\nDocumentos, de todos os proprietários limítrofes do imóvel;\n\nIII - haja manifestação do órgão municipal de preservação cultural, quando se tratar de imóvel\n\nenquadrado como ZEPEC;\n\nIV - sejam observados os parâmetros mais restritivos, quando for o caso, nos termos do disposto no\n\nart. 59 desta Lei;(Redação dada pela Lei nº 18.081/2024)\n\nhttps://legislacao.prefeitura.sp.gov.br/leis/lei-16402-de-22-de-marco-de-2016 53/99\n\n07/03/2026, 23:27 LEI Nº 16.402 DE 22 DE MARÇO DE 2016 « Catálogo de Legislação Municipal\n\nV - os Lotes contidos nas ZCOR-3 com frente para a Rua Eusébio Matoso, e os que fazem frente para\n\na Av. Rebouças, além do benefício estabelecido no caput deste artigo, o coeficiente de aproveitamento\n\nmáximo também poderá ser majorado em até 50% (cinquenta por cento) do estabelecido no Quadro 3\n\ndesta lei;(Incluído pela Lei nº 18.081/2024)\n\nVI - está vedado a utilização do recuo de frente para vaga de garagem aos lotes referidos no inciso V\n\ndeste artigo.(Incluído pela Lei nº 18.081/2024)\n\nTÍTULO V\n\nDO USO DO SOLO\n\nCAPÍTULO I\n\nDAS CATEGORIAS DE USO DO SOLO E SUA OCORRÊNCIA NO TERRITÓRIO",
   "citavel": true,
   "vigencia_dispositivo": {
-    "status": "original",
+    "status": "compilado",
     "revogado_por": null,
-    "marcadores": []
+    "marcadores": [
+      "redacao_dada"
+    ]
   },
   "citacao": {
     "norma": "lei municipal nº 16402/2016 — São Paulo - SP",
@@ -32,9 +35,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

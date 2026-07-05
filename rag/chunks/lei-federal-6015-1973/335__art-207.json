@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 207",
   "numero": "207",
+  "header_raw": "Art. 207 - No processo, de dúvida, somente serão devidas custas, a serem pagas pelo interessado, quando a dúvida for julgada procedente.                       (Renumerado do art. 208 com nova redação pela Lei nº 6.216, de 1975).",
   "caminho_hierarquico": [
     "TÍTULO V",
     "CAPÍTULO III",
@@ -33,12 +34,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

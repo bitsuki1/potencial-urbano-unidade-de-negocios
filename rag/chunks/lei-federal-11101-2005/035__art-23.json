@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 23",
   "numero": "23",
+  "header_raw": "Art. 23. O administrador judicial que não apresentar, no prazo estabelecido, suas contas ou qualquer dos relatórios previstos nesta Lei será intimado pessoalmente a fazê-lo no prazo de 5 (cinco) dias, sob pena de desobediência.",
   "caminho_hierarquico": [
     "CAPÍTULO II",
     "Seção III",
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

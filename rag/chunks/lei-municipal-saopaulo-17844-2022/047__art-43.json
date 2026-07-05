@@ -1,0 +1,39 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17844-2022::047-art-43",
+  "lei_id": "lei-municipal-saopaulo-17844-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 43",
+  "numero": "43",
+  "header_raw": "Art. 43. Os pedidos de regularização de edificações cujo coeficiente de aproveitamento efetivo do lote",
+  "caminho_hierarquico": [
+    "CAPÍTULO IV",
+    "Seção I",
+    "Art. 43"
+  ],
+  "texto": "Art. 43. Os pedidos de regularização de edificações cujo coeficiente de aproveitamento efetivo do lote\n\nexceder a 4 (quatro) vezes a área do lote deverão ser submetidos à deliberação da Câmara Técnica de\n\nLegislação Urbanística – CTLU, sem prejuízo de análise e instrução prévias por SMUL.\n\nSeção II\n\nDos instrumentos indutores da função social da propriedade",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "lei municipal nº 17844/2022 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO IV › Seção I › Art. 43",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2022-09-14",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": []
+    }
+  },
+  "tema": [],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

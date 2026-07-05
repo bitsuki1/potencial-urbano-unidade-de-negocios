@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 67",
   "numero": "67",
+  "header_raw": "Art. 67. Os créditos decorrentes de obrigações contraídas pelo devedor durante a recuperação judicial, inclusive aqueles relativos a despesas com fornecedores de bens ou serviços e contratos de mútuo, serão considerados extraconcursais, em caso de decretação de falência, respeitada, no que couber, a ordem estabelecida no art. 83 desta Lei.",
   "caminho_hierarquico": [
     "CAPÍTULO III",
     "Seção IV",
@@ -34,12 +35,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

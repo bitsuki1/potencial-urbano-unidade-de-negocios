@@ -1,0 +1,45 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16050-2014::111-art-106",
+  "lei_id": "lei-municipal-saopaulo-16050-2014",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 106",
+  "numero": "106",
+  "header_raw": "Art. 106. Recebida a declaração de intenção de venda a que se refere o § 2º do artigo anterior, a Prefeitura deverá manifestar, por",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO III",
+    "Seção I",
+    "Art. 106"
+  ],
+  "texto": "Art. 106. Recebida a declaração de intenção de venda a que se refere o § 2º do artigo anterior, a Prefeitura deverá manifestar, por\n\nescrito, dentro do prazo de 30 (trinta) dias, o interesse em exercer a preferência para aquisição do imóvel.\n\n§ 1º A manifestação de interesse da Prefeitura na aquisição do imóvel conterá a destinação futura do bem a ser adquirido,\n\nvinculada ao cumprimento dos objetivos e ações prioritárias deste Plano Diretor.\n\n§ 2º A Prefeitura fará publicar, em órgão oficial e em pelo menos um jornal local ou regional de grande circulação, edital de aviso da\n\ndeclaração de intenção de venda recebida e da intenção de aquisição do imóvel nas condições da proposta apresentada.\n\n§ 3º Findo o prazo de 30 (trinta) dias para manifestação da Prefeitura, é facultado ao proprietário alienar onerosamente o seu\n\nimóvel ao proponente interessado nas condições da proposta apresentada sem prejuízo do direito da Prefeitura exercer a\n\npreferência em face de outras propostas de aquisições onerosas futuras dentro do prazo legal de vigência do direito de preempção.\n\n§ 4º Concretizada a venda a terceiro, o proprietário fica obrigado a entregar ao órgão competente da Prefeitura cópia do\n\ninstrumento particular ou público de alienação do imóvel dentro do prazo de 30 (trinta) dias após sua assinatura, sob pena de\n\npagamento de multa diária em valor equivalente a 0,66% (sessenta e seis centésimos por cento) do valor total da alienação.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "lei municipal nº 16050/2014 — São Paulo - SP",
+    "dispositivo": "TÍTULO II › CAPÍTULO III › Seção I › Art. 106",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2014-07-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 95 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2014-07-31. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "urbanística"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

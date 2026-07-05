@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 266",
   "numero": "266",
+  "header_raw": "Art. 266. Para remir o imóvel hipotecado, o adquirente requererá, no prazo legal, a citação dos credores hipotecários propondo, para a remição, no mínimo, o preço por que adquiriu o imóvel.                        (Renumerado do art. 267, pela Lei nº 6.216, de 1975)",
   "caminho_hierarquico": [
     "TÍTULO V",
     "CAPÍTULO X",
@@ -33,12 +34,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

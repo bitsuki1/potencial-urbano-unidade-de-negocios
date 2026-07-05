@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 3º",
   "numero": "3",
+  "header_raw": "Art. 3º Para fins de aplicação das disposições deste Código ficam adotadas as seguintes definições:",
   "caminho_hierarquico": [
     "CAPÍTULO I",
     "Art. 3º"
@@ -28,9 +29,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

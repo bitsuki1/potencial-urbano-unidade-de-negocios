@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 127",
   "numero": "127",
+  "header_raw": "Art. 127. O credor de coobrigados solidários cujas falências sejam decretadas tem o direito de concorrer, em cada uma delas, pela totalidade do seu crédito, até recebê-lo por inteiro, quando então comunicará ao juízo.",
   "caminho_hierarquico": [
     "CAPÍTULO V",
     "Seção VIII",
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

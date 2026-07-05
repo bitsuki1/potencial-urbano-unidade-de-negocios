@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 12",
   "numero": "12",
+  "header_raw": "Art. 12. Cada condômino concorrerá nas despesas do condomínio, recolhendo, nos prazos previstos na Convenção, a quota-parte que lhe couber em rateio.",
   "caminho_hierarquico": [
     "TÍTULO I",
     "CAPíTULO III",
@@ -33,11 +34,14 @@
     }
   },
   "tema": [
-    "IPTU",
     "condominio_edilicio",
     "incorporacao_imobiliaria",
     "unidade_autonoma"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
 }

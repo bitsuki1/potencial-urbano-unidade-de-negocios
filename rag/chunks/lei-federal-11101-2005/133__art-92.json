@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 92",
   "numero": "92",
+  "header_raw": "Art. 92. O requerente que tiver obtido êxito no seu pedido ressarcirá a massa falida ou a quem tiver suportado as despesas de conservação da coisa reclamada.",
   "caminho_hierarquico": [
     "CAPÍTULO V",
     "Seção III",
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

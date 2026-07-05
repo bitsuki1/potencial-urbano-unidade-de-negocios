@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 25",
   "numero": "25",
+  "header_raw": "Art. 25. Os objetivos urbanísticos e ambientais estratégicos relacionados à recuperação e proteção da rede hídrica ambiental são",
   "caminho_hierarquico": [
     "TÍTULO II",
     "CAPÍTULO I",
@@ -35,9 +36,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

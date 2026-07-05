@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 7º",
   "numero": "7",
+  "header_raw": "Art. 7º As Zonas Eixo de Estruturação da Transformação Urbana (ZEU) são porções do território",
   "caminho_hierarquico": [
     "TÍTULO II",
     "CAPÍTULO I",
@@ -32,9 +33,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

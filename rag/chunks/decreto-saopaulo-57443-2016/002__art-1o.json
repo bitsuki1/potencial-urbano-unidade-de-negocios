@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 1º",
   "numero": "1",
+  "header_raw": "Art. 1º Este decreto regulamenta aspectos relacionados aos procedimentos de fiscalização de que",
   "caminho_hierarquico": [
     "Art. 1º"
   ],
@@ -26,9 +27,11 @@
       "alterada_por": []
     }
   },
-  "tema": [
-    "IPTU"
+  "tema": [],
+  "dominio": [
+    "iptu"
   ],
+  "dominio_primario": "iptu",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 98",
   "numero": "98",
+  "header_raw": "Art. 98. A reincidência da infração, assim considerada a referente à mesma obra e ao mesmo documento, gera a aplicação das penalidades com acréscimo de 20% (vinte por cento) a cada reincidência, até o limite de 2 (duas) vezes o valor da multa inicial.",
   "caminho_hierarquico": [
     "CAPÍTULO VI",
     "Seção III",
@@ -29,9 +30,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

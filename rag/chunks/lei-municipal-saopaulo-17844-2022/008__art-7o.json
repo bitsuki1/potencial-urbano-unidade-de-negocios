@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 7º",
   "numero": "7",
+  "header_raw": "Art. 7º Aplicam-se à AIU-SCE os parâmetros de parcelamento, uso e ocupação do solo estabelecidos",
   "caminho_hierarquico": [
     "CAPÍTULO II",
     "Seção I",
@@ -30,9 +31,11 @@
       "alterada_por": []
     }
   },
-  "tema": [
-    "IPTU"
+  "tema": [],
+  "dominio": [
+    "tdc"
   ],
+  "dominio_primario": "tdc",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

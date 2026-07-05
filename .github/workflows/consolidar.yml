@@ -16,6 +16,28 @@ on:
       - "scripts/**"
       - "evals/**"
       - "rag/**"
+      # T2/S2 (2026-07-03): o gate PRECISA cobrir o PRODUTO, não só o corpus RAG. Sem estes paths,
+      # sabotar um Fi em engines/ ou o pipeline em zepec/ passava verde (o CI nem disparava).
+      - "engines/**"
+      - "zepec/**"
+      - "tabelas/**"
+      - "supabase/**"
+      - ".github/workflows/consolidar.yml"
+  # T2/S2: rodar o gate também em PULL REQUEST (não só push) — o produto é revisado antes do merge.
+  # B-11 (auditoria 2026-07-05): paths do PR ALINHADOS ao push — faltavam jurisprudencia/** e rag/**
+  # e inventario/**, então um PR que só mexesse nesses não disparava os gates (só no push pós-merge).
+  pull_request:
+    paths:
+      - "leis/**"
+      - "jurisprudencia/**"
+      - "scripts/**"
+      - "evals/**"
+      - "rag/**"
+      - "engines/**"
+      - "zepec/**"
+      - "tabelas/**"
+      - "inventario/**"
+      - "supabase/**"
       - ".github/workflows/consolidar.yml"
   workflow_dispatch:
 
@@ -50,8 +72,47 @@ jobs:
       - name: Engine OODC/TDC (auto-teste das fórmulas)
         run: python3 engines/tdc/oodc.py
 
-      # Só DEPOIS dos gates verdes: commita os artefatos derivados.
+      # T2/S2 — GATE do engine de CEDENTE (Fi Art. 24 LPUOS): auto-teste do pcpt.py.
+      - name: Engine cedente PCpt (auto-teste do Fi escalonado)
+        run: python3 engines/tdc/pcpt.py --demo
+
+      # T2/S2 — GATE do PRODUTO: golden-assert sobre 7 cedentes reais (um por faixa Art. 24).
+      # Sabotar um Fi no engine OU um Fi drifted no CSV entregue FALHA aqui (prova em docs/commit T2).
+      - name: Produto (golden-assert do Fi sobre cedentes reais)
+        run: python3 evals/eval-produto.py
+
+      # T4 — GATE de conservação (Art. 129): Termo≠Atestado; RES.(tombamento)≠conservação.
+      - name: Conservação (Art. 129, 3-estados — Termo→PENDENTE, RES→SEM_ATESTADO)
+        run: python3 zepec/montar_base.py --autoteste
+
+      # T3 — GATE do regime do PCpt: já-declarado (Art.125 §1º I) não recebe o escalonado como firme.
+      - name: Regime PCpt (já-declarado × prospecção nova, Art.24 caput × Art.125)
+        run: python3 zepec/enriquecer_oficial.py --autoteste
+
+      # M0 — a divergência PCpt×certidões (~1,66×) é SURFAÇADA e 100% flagada, nunca escondida.
+      - name: Divergência PCpt × certidões (surfaçar, não esconder)
+        run: python3 evals/eval-divergencia-pcpt.py
+
+      # Separação TDC×IPTU (plano 2026-07-04) — GATE: domínio carimbado (vocab fechado) + roteamento
+      # provado (não-poluição, não-perda de 'compartilhado', PDE alcançável do TDC, anti-padrão eliminado).
+      - name: Domínio TDC×IPTU (carimbo válido + roteamento provado)
+        run: |
+          python3 scripts/carimbar_dominio.py --check
+          python3 evals/eval-dominio.py
+
+      # Arrumação Drive — GATE: SEED em dia (× de-para), MESTRE reconciliado, loop end-to-end provado,
+      # gate por fase (plano/execução).
+      - name: Índice de arrumação (SEED×de-para, MESTRE×reconc., loop e2e, gate por fase)
+        run: |
+          python3 scripts/semear_indice_mestre.py --check
+          python3 scripts/reconciliar_arrumacao.py --check
+          python3 evals/eval-arrumacao.py
+          python3 scripts/gate-arrumacao.py
+
+      # Só DEPOIS dos gates verdes: commita os artefatos derivados. NÃO em pull_request
+      # (PR não deve commitar/pushar; roda só os gates acima como check de merge).
       - name: Commitar artefatos derivados se mudaram (após gates verdes)
+        if: github.event_name != 'pull_request'
         run: |
           if ! git diff --quiet MANIFESTO.json rag/ leis/ ; then
             git config user.name  "github-actions[bot]"

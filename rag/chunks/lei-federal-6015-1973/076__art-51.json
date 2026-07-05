@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 51",
   "numero": "51",
+  "header_raw": "Art. 51. Os nascimentos ocorridos a bordo, quando não registrados nos termos do artigo 65, deverão ser declarados dentro de cinco (5) dias, a contar da chegada do navio ou aeronave ao local do destino, no respectivo cartório ou consulado.                (Renumerado do art. 52, pela Lei nº 6.216, de 1975).",
   "caminho_hierarquico": [
     "TÍTULO II",
     "CAPÍTULO IV",
@@ -33,12 +34,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

@@ -1,0 +1,45 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16050-2014::091-art-87",
+  "lei_id": "lei-municipal-saopaulo-16050-2014",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 87",
+  "numero": "87",
+  "header_raw": "Art. 87. As ações públicas e privadas com interferência na paisagem deverão atender ao interesse público, conforme os seguintes",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO II",
+    "Seção IX",
+    "Art. 87"
+  ],
+  "texto": "Art. 87. As ações públicas e privadas com interferência na paisagem deverão atender ao interesse público, conforme os seguintes\n\nobjetivos:\n\nI – garantir o direito do cidadão à fruição da paisagem;\n\nII – propiciar a identificação, leitura e apreensão da paisagem e de seus elementos constitutivos, públicos e privados, pelo cidadão;\n\nIII – incentivar a preservação da memória e do patrimônio histórico, cultural, religioso e ambiental e a valorização do ambiente\n\nnatural e construído;\n\nIV – garantir a segurança, a fluidez e o conforto nos deslocamentos de veículos e pedestres, adequando os passeios às\n\nnecessidades das pessoas com deficiência e mobilidade reduzida;\n\nV – proporcionar a preservação e a visualização das características peculiares dos logradouros e das fachadas dos edifícios;\n\nVI – contribuir para a preservação e a visualização dos elementos naturais tomados em seu conjunto e em suas peculiaridades\n\nambientais;\n\nVII – facilitar o acesso e utilização das funções e serviços de interesse coletivo nas vias e logradouros e o fácil e rápido acesso aos\n\nserviços de emergência, tais como bombeiros, ambulâncias e polícia;\n\nVIII – condicionar a regulação do uso e ocupação do solo e a implantação de infraestrutura à preservação da paisagem urbana em\n\nseu conjunto e à melhora da qualidade de vida da população;\n\nIX – condicionar a instalação de galerias compartilhadas para os serviços públicos, principalmente energia elétrica, gás canalizado,\n\nsaneamento e telecomunicações, desde que compatíveis.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "lei municipal nº 16050/2014 — São Paulo - SP",
+    "dispositivo": "TÍTULO II › CAPÍTULO II › Seção IX › Art. 87",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2014-07-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 95 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2014-07-31. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "urbanística"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

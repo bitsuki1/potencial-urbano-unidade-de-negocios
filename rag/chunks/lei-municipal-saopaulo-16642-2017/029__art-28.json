@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 28",
   "numero": "28",
+  "header_raw": "Art. 28. Quando destinado à demolição total, execução de muro de arrimo e movimento de terra desvinculados de obra de edificação, o Alvará de Execução perde a eficácia se as obras não forem concluídas dentro do prazo de 2 (dois) anos contados da data da publicação do despacho de deferimento do pedido.",
   "caminho_hierarquico": [
     "CAPÍTULO II",
     "Seção II",
@@ -29,9 +30,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

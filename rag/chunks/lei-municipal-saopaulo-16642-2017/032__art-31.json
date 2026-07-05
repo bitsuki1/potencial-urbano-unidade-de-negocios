@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 31",
   "numero": "31",
+  "header_raw": "Art. 31. O Alvará de Execução pode, enquanto vigente, ser objeto de apostilamento para constar eventuais alterações de dados.",
   "caminho_hierarquico": [
     "CAPÍTULO II",
     "Seção II",
@@ -29,9 +30,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

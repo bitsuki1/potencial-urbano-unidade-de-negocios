@@ -1,3 +1,4 @@
+# Quadro 7 (Parques Municipais existentes e propostos) — Anexo PDE Lei 16.050/2014. Fonte: _entrada/tdc/pde2013-subst2-quadro-7-parques-municipais-existentes-propostos.txt (extração pura via extrair_quadro7.py). Substrato da via de expansão 'parques' (Art. 126 IV).
 codigo,situacao,categoria,proposto,revisar,local_bruto,endereco_bruto
 PQ_AF_01,EXISTENTE,LINEAR,nao,,ARICANDUVA ARICANDUVA LINEAR IPIRANGUINHA,AV. CIPRIANO RODRIGUES
 PQ_AF_02,EM PLANEJAMENTO,LINEAR,sim,,ARICANDUVA ARICANDUVA TAPERA,R PROFESSOARA ALZIRA DE OLIVEIRA GILIOLI

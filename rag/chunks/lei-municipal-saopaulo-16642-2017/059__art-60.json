@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 60",
   "numero": "60",
+  "header_raw": "Art. 60. O prazo para a interposição de recurso é de 30 (trinta) dias a contar da data da publicação do despacho de indeferimento, após o qual o processo deve ser arquivado, sem prejuízo da ação fiscal correspondente e cobrança das taxas devidas.",
   "caminho_hierarquico": [
     "CAPÍTULO IV",
     "Seção I",
@@ -29,9 +30,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

@@ -7,7 +7,6 @@
   "ano": 2009,
   "ementa": "Atualiza os valores unitários de metro quadrado de construção e de terreno previstos na Lei nº 10.235, de 16 de dezembro de 1986, institui novos padrões de construção e dispõe sobre o Imposto Predial e Territorial Urbano.",
   "tema": [
-    "IPTU",
     "PGV",
     "tipologias_construtivas",
     "valor_venal",
@@ -50,5 +49,9 @@
   },
   "status_pipeline": "bruto",
   "confianca_extracao": "baixa",
-  "revisado_por_humano": false
+  "revisado_por_humano": false,
+  "dominio_primario": "iptu",
+  "dominio": [
+    "iptu"
+  ]
 }

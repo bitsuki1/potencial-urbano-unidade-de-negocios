@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 63",
   "numero": "63",
+  "header_raw": "Art. 63. Os documentos de controle da atividade edilícia de que trata este Código podem, enquanto vigentes, a qualquer tempo, mediante ato da autoridade competente, ser:",
   "caminho_hierarquico": [
     "CAPÍTULO IV",
     "Seção I",
@@ -29,9 +30,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

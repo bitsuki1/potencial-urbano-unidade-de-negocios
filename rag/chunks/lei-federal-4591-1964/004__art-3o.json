@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 3º",
   "numero": "3",
+  "header_raw": "Art. 3º O terreno em que se levantam a edificação ou o conjunto de edificações e suas instalações, bem como as fundações, paredes externas, o teto, as áreas internas de ventilação, e tudo o mais que sirva a qualquer dependência de uso comum dos proprietários ou titulares de direito à aquisição de unidades ou ocupantes, constituirão condomínio de todos, e serão insuscetíveis de divisão, ou de alienação destacada da respectiva unidade. Serão, também, insuscetíveis de utilização exclusiva por qualquer condômino (VETADO).",
   "caminho_hierarquico": [
     "TÍTULO I",
     "Art. 3º"
@@ -32,11 +33,14 @@
     }
   },
   "tema": [
-    "IPTU",
     "condominio_edilicio",
     "incorporacao_imobiliaria",
     "unidade_autonoma"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
 }

@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 25",
   "numero": "25",
+  "header_raw": "Art. 25. As ERBs irregularmente implantadas até a data da entrada em vigor desta Lei deverão a ela se",
   "caminho_hierarquico": [
     "CAPÍTULO VIII",
     "Art. 25"
@@ -27,9 +28,11 @@
       "alterada_por": []
     }
   },
-  "tema": [
-    "IPTU"
+  "tema": [],
+  "dominio": [
+    "iptu"
   ],
+  "dominio_primario": "iptu",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

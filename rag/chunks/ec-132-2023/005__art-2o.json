@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 2º",
   "numero": "2",
+  "header_raw": "Art. 2º O Ato das Disposições Constitucionais Transitórias passa a vigorar com as seguintes alterações:",
   "caminho_hierarquico": [
     "Art. 2º"
   ],
@@ -30,10 +31,13 @@
     }
   },
   "tema": [
-    "IPTU",
     "reforma_tributaria",
     "sistema_tributario_nacional"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Altera o Sistema Tributário Nacional."
 }

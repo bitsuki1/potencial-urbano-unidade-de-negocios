@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 12",
   "numero": "12",
+  "header_raw": "Art. 12. A Macroárea de Estruturação Metropolitana é composta por três setores, conforme Mapa 2A, agregados a partir de dez",
   "caminho_hierarquico": [
     "TÍTULO II",
     "CAPÍTULO I",
@@ -33,9 +34,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

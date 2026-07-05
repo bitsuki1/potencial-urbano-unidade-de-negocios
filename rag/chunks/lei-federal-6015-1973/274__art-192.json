@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 192",
   "numero": "192",
+  "header_raw": "Art. 192. Prevalecerão, para efeito de prioridade de registro, quando apresentados no mesmo dia, os títulos prenotados no protocolo sob número de ordem mais baixo, protelando-se o registro dos apresentados posteriormente, pelo prazo correspondente a, pelo menos, um expediente diário.",
   "caminho_hierarquico": [
     "TÍTULO V",
     "CAPÍTULO III",
@@ -33,12 +34,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

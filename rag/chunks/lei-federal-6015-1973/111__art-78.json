@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 78",
   "numero": "78",
+  "header_raw": "Art. 78. Nenhum enterramento será feito sem certidão de oficial de registro do lugar do falecimento, extraída após a lavratura do assento de óbito, em vista do atestado do médico, se houver no lugar, ou, em caso contrário, de duas pessoas qualificadas, que tiverem presenciado ou verificado a morte.",
   "caminho_hierarquico": [
     "TÍTULO II",
     "CAPÍTULO IX",
@@ -33,12 +34,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

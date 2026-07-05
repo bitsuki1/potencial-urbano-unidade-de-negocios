@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 38",
   "numero": "38",
+  "header_raw": "Art. 38. Os parcelamentos deverão atender, pelo menos, aos seguintes requisitos:",
   "caminho_hierarquico": [
     "TÍTULO III",
     "CAPÍTULO I",
@@ -32,9 +33,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

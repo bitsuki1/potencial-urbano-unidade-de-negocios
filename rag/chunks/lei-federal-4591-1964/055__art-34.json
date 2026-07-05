@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 34",
   "numero": "34",
+  "header_raw": "Art. 34. O incorporador poderá fixar, para efetivação da incorporação, prazo de carência, dentro do qual lhe é lícito desistir do empreendimento.",
   "caminho_hierarquico": [
     "Título II",
     "CAPÍTULO II",
@@ -33,11 +34,14 @@
     }
   },
   "tema": [
-    "IPTU",
     "condominio_edilicio",
     "incorporacao_imobiliaria",
     "unidade_autonoma"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
 }

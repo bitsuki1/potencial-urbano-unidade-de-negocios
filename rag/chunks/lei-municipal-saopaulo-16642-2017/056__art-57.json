@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 57",
   "numero": "57",
+  "header_raw": "Art. 57. O processo que apresentar elementos incompletos ou incorretos ou necessitar de complementação da documentação ou esclarecimentos deve ser objeto de um único comunicado (\"comunique-se\") para que as falhas sejam sanadas.",
   "caminho_hierarquico": [
     "CAPÍTULO IV",
     "Seção I",
@@ -29,9 +30,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

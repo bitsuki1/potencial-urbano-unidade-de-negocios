@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 2º",
   "numero": "2",
+  "header_raw": "Art. 2º Esta Emenda Constitucional entra em vigor na data de sua publicação.",
   "caminho_hierarquico": [
     "Art. 2º"
   ],
@@ -29,10 +30,13 @@
     }
   },
   "tema": [
-    "IPTU",
     "imunidade_tributaria",
     "templos"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Acrescenta § 1º-A ao art. 156 da Constituição Federal para prever a não incidência sobre templos de qualquer culto do imposto sobre a propriedade predial e territorial urbana (IPTU), ainda que as entidades abrangidas pela imunidade de que trata a alínea 'b' do inciso VI do caput do art. 150 desta Constituição sejam apenas locatárias do bem imóvel."
 }

@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 45",
   "numero": "45",
+  "header_raw": "Art. 45. É lícito ao incorporador recolher o impôsto do sêlo devido, mediante apresentação dos contratos preliminares, até 10 dias a contar do vencimento do prazo de carência a que se refere o art. 34, extinta a obrigação se, dentro deste prazo, fôr denunciada a incorporação.",
   "caminho_hierarquico": [
     "Título II",
     "CAPÍTULO II",
@@ -33,11 +34,14 @@
     }
   },
   "tema": [
-    "IPTU",
     "condominio_edilicio",
     "incorporacao_imobiliaria",
     "unidade_autonoma"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
 }

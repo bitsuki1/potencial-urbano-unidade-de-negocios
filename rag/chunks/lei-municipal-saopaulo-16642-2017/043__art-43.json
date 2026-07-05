@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 43",
   "numero": "43",
+  "header_raw": "Art. 43. Mediante procedimento administrativo e a pedido do proprietário ou possuidor, a Prefeitura expede Certificado de Segurança, documento que comprova a adaptação da edificação existente às condições de segurança de uso, conforme o disposto neste Código, as normas técnicas aplicáveis e a legislação correlata.",
   "caminho_hierarquico": [
     "CAPÍTULO II",
     "Seção II",
@@ -29,9 +30,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

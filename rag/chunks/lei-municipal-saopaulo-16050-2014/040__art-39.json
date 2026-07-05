@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 39",
   "numero": "39",
+  "header_raw": "Art. 39. As Zonas de Ocupação Especial – ZOE são porções do território destinadas a abrigar predominantemente atividades que,",
   "caminho_hierarquico": [
     "TÍTULO II",
     "CAPÍTULO II",
@@ -33,9 +34,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

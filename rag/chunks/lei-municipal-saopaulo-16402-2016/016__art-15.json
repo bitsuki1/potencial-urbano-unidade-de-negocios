@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 15",
   "numero": "15",
+  "header_raw": "Art. 15. As Zonas de Ocupação Especial (ZOE) são porções do território que, por suas características",
   "caminho_hierarquico": [
     "TÍTULO II",
     "CAPÍTULO II",
@@ -32,9 +33,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

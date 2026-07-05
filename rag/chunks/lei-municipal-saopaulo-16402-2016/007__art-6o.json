@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 6º",
   "numero": "6",
+  "header_raw": "Art. 6º As zonas do Município têm suas características definidas em função do território no qual se",
   "caminho_hierarquico": [
     "TÍTULO II",
     "Art. 6º"
@@ -31,9 +32,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

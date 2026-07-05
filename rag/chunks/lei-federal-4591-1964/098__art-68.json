@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 68",
   "numero": "68",
+  "header_raw": "Art. 68. Os proprietários ou titulares de direito aquisitivo, sôbre as terras rurais ou os terrenos onde pretendam constituir ou mandar construir habitações isoladas para aliená-las antes de concluídas, mediante pagamento do preço a prazo, deverão, previamente, satisfazer às exigências constantes no art. 32, ficando sujeitos ao regime instituído nesta Lei para os incorporadores, no que lhes fôr aplicável.",
   "caminho_hierarquico": [
     "Título II",
     "CAPÍTULO V",
@@ -33,11 +34,14 @@
     }
   },
   "tema": [
-    "IPTU",
     "condominio_edilicio",
     "incorporacao_imobiliaria",
     "unidade_autonoma"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
 }

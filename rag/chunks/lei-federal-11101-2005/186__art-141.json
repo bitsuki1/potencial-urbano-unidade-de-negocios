@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 141",
   "numero": "141",
+  "header_raw": "Art. 141. Na alienação conjunta ou separada de ativos, inclusive da empresa ou de suas filiais, promovida sob qualquer das modalidades de que trata o art. 142:     (Redação dada pela Lei nº 14.112, de 2020)    (Vigência)",
   "caminho_hierarquico": [
     "CAPÍTULO V",
     "Seção X",
@@ -34,12 +35,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

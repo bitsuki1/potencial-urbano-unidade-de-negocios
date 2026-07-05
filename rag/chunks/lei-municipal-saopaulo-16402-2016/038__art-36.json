@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 36",
   "numero": "36",
+  "header_raw": "Art. 36. Somente será permitido o parcelamento do solo para fins urbanos na zona urbana, definida",
   "caminho_hierarquico": [
     "TÍTULO III",
     "Art. 36"
@@ -31,9 +32,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

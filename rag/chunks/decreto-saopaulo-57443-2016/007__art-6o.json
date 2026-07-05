@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 6º",
   "numero": "6",
+  "header_raw": "Art. 6º Nas ações realizadas de ofício, sendo possível a obtenção dos dados necessários à",
   "caminho_hierarquico": [
     "CAPÍTULO I",
     "Art. 6º"
@@ -27,9 +28,11 @@
       "alterada_por": []
     }
   },
-  "tema": [
-    "IPTU"
+  "tema": [],
+  "dominio": [
+    "iptu"
   ],
+  "dominio_primario": "iptu",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

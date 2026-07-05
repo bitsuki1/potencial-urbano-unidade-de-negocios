@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 48",
   "numero": "48",
+  "header_raw": "Art. 48. A construção de imóveis, objeto de incorporação nos moldes previstos nesta Lei poderá ser contratada sob o regime de empreitada ou de administração conforme adiante definidos e poderá estar incluída no contrato com o incorporador (VETADO), ou ser contratada diretamente entre os adquirentes e o construtor.",
   "caminho_hierarquico": [
     "Título II",
     "CAPíTULO III",
@@ -34,11 +35,14 @@
     }
   },
   "tema": [
-    "IPTU",
     "condominio_edilicio",
     "incorporacao_imobiliaria",
     "unidade_autonoma"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
 }

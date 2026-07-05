@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 6º",
   "numero": "6",
+  "header_raw": "Art. 6º O possuidor tem os mesmos direitos do proprietário, desde que apresente a certidão de registro imobiliário e um dos seguintes documentos:",
   "caminho_hierarquico": [
     "CAPÍTULO II",
     "Seção I",
@@ -29,9 +30,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

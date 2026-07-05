@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 77",
   "numero": "77",
+  "header_raw": "Art. 77. A decretação da falência determina o vencimento antecipado das dívidas do devedor e dos sócios ilimitada e solidariamente responsáveis, com o abatimento proporcional dos juros, e converte todos os créditos em moeda estrangeira para a moeda do País, pelo câmbio do dia da decisão judicial, para todos os efeitos desta Lei.",
   "caminho_hierarquico": [
     "CAPÍTULO V",
     "Seção I",
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

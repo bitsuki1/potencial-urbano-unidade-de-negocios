@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 7º",
   "numero": "7",
+  "header_raw": "Art. 7º Esta lei entra em vigor na data de sua publicação.",
   "caminho_hierarquico": [
     "Art. 7º"
   ],
@@ -29,11 +30,14 @@
     }
   },
   "tema": [
-    "IPTU",
     "bem_de_familia",
     "impenhorabilidade",
     "execucao_fiscal"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre a impenhorabilidade do bem de família."
 }

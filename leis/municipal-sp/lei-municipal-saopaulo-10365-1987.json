@@ -7,7 +7,6 @@
   "ano": 1987,
   "ementa": "Disciplina o corte e a poda de vegetação de porte arbóreo existente no Município de São Paulo e dá outras providências.",
   "tema": [
-    "IPTU",
     "vegetacao",
     "APP",
     "meio_ambiente"
@@ -47,5 +46,9 @@
   },
   "status_pipeline": "bruto",
   "confianca_extracao": "baixa",
-  "revisado_por_humano": false
+  "revisado_por_humano": false,
+  "dominio_primario": "iptu",
+  "dominio": [
+    "iptu"
+  ]
 }

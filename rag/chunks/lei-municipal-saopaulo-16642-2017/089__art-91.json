@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 91",
   "numero": "91",
+  "header_raw": "Art. 91. A inobservância de qualquer disposição deste Código constitui infração sujeita à aplicação das penalidades previstas na Tabela de Multas constante do seu Anexo III.",
   "caminho_hierarquico": [
     "CAPÍTULO VI",
     "Seção III",
@@ -29,9 +30,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

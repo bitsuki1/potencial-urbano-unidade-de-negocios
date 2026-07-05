@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 2º",
   "numero": "2",
+  "header_raw": "Art. 2º Cada unidade com saída para a via pública, diretamente ou por processo de passagem comum, será sempre tratada como objeto de propriedade exclusiva, qualquer que seja o número de suas peças e sua destinação, inclusive (VETADO) edifício-garagem, com ressalva das restrições que se lhe imponham.",
   "caminho_hierarquico": [
     "TÍTULO I",
     "Art. 2º"
@@ -32,11 +33,14 @@
     }
   },
   "tema": [
-    "IPTU",
     "condominio_edilicio",
     "incorporacao_imobiliaria",
     "unidade_autonoma"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
 }

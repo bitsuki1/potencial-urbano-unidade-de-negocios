@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 9º",
   "numero": "9",
+  "header_raw": "Art. 9º Mantidos os lançamentos do imposto de indústrias e profissões correspondentes aos exercícios de 1962 a 1966, não serão efetuados outros, ainda que omitido, complementares ou aditivos.",
   "caminho_hierarquico": [
     "Art. 9º"
   ],
@@ -38,9 +39,12 @@
     }
   },
   "tema": [
-    "IPTU",
     "codigo_tributario"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "São Paulo/SP",
   "ementa": "Altera dispositivos da Lei nº 6.989, de 29 de dezembro de 1966, e dá outras providências."
 }

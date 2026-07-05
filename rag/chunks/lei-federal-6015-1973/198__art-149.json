@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 149",
   "numero": "149",
+  "header_raw": "Art. 149. Depois de concluídos os lançamentos nos livros respectivos, será feita, nas anotações do protocolo, referência ao número de ordem sob o qual tiver sido feito o registro, ou a averbação, no livro respectivo, datando e rubricando, em seguida, o oficial ou os servidores referidos no art. 142, § 1º.                        (Renumerado do art. 150 pela Lei nº 6.216, de 1975).",
   "caminho_hierarquico": [
     "TÍTULO IV",
     "CAPÍTULO IV",
@@ -33,12 +34,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

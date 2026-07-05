@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 105",
   "numero": "105",
+  "header_raw": "Art. 105. Para a averbação de escritura de adoção de pessoa cujo registro de nascimento haja sido fora do País, será trasladado, sem ônus para os interessados, no livro \"A\" do Cartório do 1° Ofício ou da 1ª subdivisão judiciária da comarca em que for domiciliado o adotante, aquele registro, legalmente traduzido, se for o caso, para que se faça, à margem dele, a competente averbação.                     (Renumerado do art. 106 pela Lei nº 6.216, de 1975).",
   "caminho_hierarquico": [
     "TÍTULO II",
     "CAPÍTULO XII",
@@ -33,12 +34,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

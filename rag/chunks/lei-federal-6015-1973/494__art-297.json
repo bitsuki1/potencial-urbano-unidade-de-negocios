@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 297",
   "numero": "297",
+  "header_raw": "Art. 297. Haverá para o registro, em cada um dos estabelecimentos, um livro especial que será aberto e encerrado pelo diretor e no qual será lavrado, em relação a cada obra, um termo diferente, que conterá um número de ordem e todos os esclarecimentos necessários e que será assinado pelo secretário.                             (Suprimido pela Lei nº 6.216, de 1975)",
   "caminho_hierarquico": [
     "TÍTULO VI",
     "Art. 297"
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

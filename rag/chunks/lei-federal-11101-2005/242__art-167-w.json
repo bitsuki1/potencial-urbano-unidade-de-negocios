@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 167-W",
   "numero": "167-W",
+  "header_raw": "Art. 167-W. No processo falimentar transnacional, principal ou não principal, nenhum ativo, bem ou recurso remanescente da liquidação será entregue ao falido se ainda houver passivo não satisfeito em qualquer outro processo falimentar transnacional.       (Incluído pela Lei nº 14.112, de 2020)     (Vigência)",
   "caminho_hierarquico": [
     "CAPÍTULO VI-A",
     "Art. 167-W"
@@ -31,12 +32,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

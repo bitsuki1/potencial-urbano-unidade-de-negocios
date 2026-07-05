@@ -8,7 +8,7 @@ Junta, por SQL, a base `zepec/ferramenta/zepec_cedentes.csv` (6.131) com as font
   - `zepec/oficial/zona_por_cedente.csv`   -> ZONA do lote (overlay lote×Lei 16.402) + CAbás (Quadro 3)
 
 Calcula (H1.4), SÓ quando há Atc E CAbás, via o ENGINE (número nasce no engine, 1.3; cita Art. 125):
-  - PCpt (m²) = Atc × CAbás × Fi(=1, ZEPEC-BIR, sem doação)  [engine `pcpt.pcpt_sem_doacao`]
+  - PCpt (m²) = Atc × CAbás × Fi(ESCALONADO pela área, Art. 24 I–VII LPUOS, sem doação)  [engine `pcpt.pcpt_sem_doacao`]
   - preço-proxy (R$) = PCpt × V   [PROXY regulatório — Codex Precificação R16; NÃO é preço de mercado]
 
 Saída: `zepec/ferramenta/zepec_cedentes_oficial.csv`. Onde falta insumo, `pendencia_calculo` declara o quê
@@ -28,6 +28,41 @@ def _num(x):
     return x if x and x not in ("0", "—") else ""
 
 
+# T3 — REGIME DO PCpt (Art. 24 caput LPUOS × Art. 125 §1º I PDE). O Fi ESCALONADO do Art. 24 aplica-se
+# "na emissão de NOVAS declarações" (caput) — logo é o estimador correto para PROSPECÇÃO NOVA (tombado
+# ainda SEM declaração). Para o JÁ-DECLARADO, o PCpt total é o que CONSTA NA DECLARAÇÃO (Art. 125 §1º I):
+# não renasce no engine com CAbás/Atc/Fi de HOJE. Defeito vivo (enriquecer_oficial.py:81): o engine aplicava
+# o escalonado a TODA a base — inclusive ao já-declarado — fabricando um PCpt que NÃO é o declarado. Como o
+# Fi/PCpt da Declaração NÃO está na base, o já-declarado fica ESTIMATIVA/PENDENTE, nunca "o valor declarado".
+def regime_pcpt(r):
+    """Devolve (regime, qualidade_estimativa) para a linha do cedente.
+      JA_DECLARADO   + PENDENTE_FI_DECLARADO      — tem declaração/certidão; o escalonado NÃO é o PCpt
+                                                    declarado (Art. 125 §1º I); Fi da Declaração ausente na base.
+      PROSPECCAO_NOVA + ESTIMATIVA_PROSPECCAO_ART24 — sem declaração; escalonado do Art. 24 caput é o estimador
+                                                    lícito de uma futura declaração."""
+    v = lambda k: (r.get(k) or "").strip().lower() in ("sim", "true", "1")
+    if v("tem_declaracao") or v("tem_certidao"):
+        return "JA_DECLARADO", "PENDENTE_FI_DECLARADO"
+    return "PROSPECCAO_NOVA", "ESTIMATIVA_PROSPECCAO_ART24"
+
+def _autoteste_regime():
+    """Fixtures OBRIGATÓRIAS (T3): já-declarado NUNCA sai como estimativa-de-prospecção firme; prospecção
+    nova é a única em que o escalonado é o estimador legítimo. FALHA se a separação de cohort regredir."""
+    casos = [
+        ({"tem_declaracao": "sim", "tem_certidao": "nao"}, "JA_DECLARADO",   "PENDENTE_FI_DECLARADO"),
+        ({"tem_declaracao": "nao", "tem_certidao": "sim"}, "JA_DECLARADO",   "PENDENTE_FI_DECLARADO"),
+        ({"tem_declaracao": "nao", "tem_certidao": "nao"}, "PROSPECCAO_NOVA","ESTIMATIVA_PROSPECCAO_ART24"),
+        ({"tem_declaracao": "",    "tem_certidao": ""},    "PROSPECCAO_NOVA","ESTIMATIVA_PROSPECCAO_ART24"),
+    ]
+    for r, reg, qual in casos:
+        g_reg, g_qual = regime_pcpt(r)
+        assert (g_reg, g_qual) == (reg, qual), f"regime: {r} -> {(g_reg,g_qual)} (esperado {(reg,qual)})"
+    # a garantia central do T3: quem TEM declaração/certidão nunca recebe a marca de estimativa-de-prospecção
+    for r in ({"tem_declaracao": "sim"}, {"tem_certidao": "sim"}):
+        assert regime_pcpt(r)[1] != "ESTIMATIVA_PROSPECCAO_ART24", f"regime: {r} já-declarado != estimativa-prospecção"
+    return True
+
+
 def main():
     iptu = {r["sql_mestre"]: r for r in csv.DictReader(open(AQUI / "oficial/iptu2026_cedentes.csv", encoding="utf-8"))}
     q14 = {(r["sq"], norm_codlog(r["codlog"])): r["valor_m2_brl"]
@@ -37,7 +72,9 @@ def main():
     rows = list(csv.DictReader(open(AQUI / "ferramenta/zepec_cedentes.csv", encoding="utf-8")))
     extras = ["area_terreno_m2", "area_construida_m2", "v_venal_m2_iptu", "v_outorga_m2_q14",
               "zona", "ca_basico", "fi_aplicado", "pcpt_m2", "saldo_pcpt_m2", "parcelas_anuais",
-              "preco_proxy_brl", "uso_iptu", "cobertura_oficial", "memoria_calculo", "pendencia_calculo"]
+              "preco_proxy_brl", "uso_iptu", "cobertura_oficial", "memoria_calculo", "pendencia_calculo",
+              # T3 — regime do PCpt: separa já-declarado (Art.125 §1º I) de prospecção nova (Art.24 caput).
+              "regime_pcpt", "qualidade_estimativa"]
     campos = list(rows[0].keys()) + extras
 
     n = {"atc": 0, "v": 0, "zona": 0, "cabas": 0, "pcpt": 0, "saldo": 0, "preco": 0}
@@ -99,6 +136,15 @@ def main():
                 except Exception as ex:
                     pend.append(f"PCpt: engine recusou ({ex})")
 
+            # T3 — carimba o REGIME do PCpt. Para o já-declarado, o escalonado calculado acima é ESTIMATIVA,
+            # não o PCpt da Declaração (Art. 125 §1º I) — flaga e declara a pendência (Fi declarado ausente).
+            reg, qual = regime_pcpt(r)
+            r["regime_pcpt"] = reg; r["qualidade_estimativa"] = qual
+            if reg == "JA_DECLARADO" and r.get("pcpt_m2"):
+                pend.append("PCpt do JÁ-DECLARADO governado pela Declaração (Art.125 §1º I); o escalonado é "
+                            "ESTIMATIVA (Art.24 caput = NOVAS declarações), NÃO o valor declarado — Fi/PCpt da "
+                            "Declaração ausente na base (PENDENTE). Confiável só p/ prospecção nova.")
+
             r["cobertura_oficial"] = "+".join(cob)
             r["pendencia_calculo"] = " | ".join(pend) if pend else "OK (Atc+CAbás+V) — cálculo completo"
             w.writerow(r)
@@ -111,4 +157,9 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    if "--autoteste" in sys.argv:
+        _autoteste_regime()
+        print("AUTO-TESTE regime PCpt (T3): OK — já-declarado=PENDENTE_FI_DECLARADO · "
+              "prospecção-nova=ESTIMATIVA_PROSPECCAO_ART24 (escalonado nunca vira 'declarado').")
+    else:
+        main()

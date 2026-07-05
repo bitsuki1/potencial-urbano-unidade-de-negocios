@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 3º",
   "numero": "3",
+  "header_raw": "Art. 3º A Constituição Federal passa a vigorar com as seguintes alterações:      Vigência",
   "caminho_hierarquico": [
     "Art. 3º"
   ],
@@ -30,10 +31,13 @@
     }
   },
   "tema": [
-    "IPTU",
     "reforma_tributaria",
     "sistema_tributario_nacional"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Altera o Sistema Tributário Nacional."
 }

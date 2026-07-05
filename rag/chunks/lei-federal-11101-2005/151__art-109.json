@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 109",
   "numero": "109",
+  "header_raw": "Art. 109. O estabelecimento será lacrado sempre que houver risco para a execução da etapa de arrecadação ou para a preservação dos bens da massa falida ou dos interesses dos credores.",
   "caminho_hierarquico": [
     "CAPÍTULO V",
     "Seção VII",
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

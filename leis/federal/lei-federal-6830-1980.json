@@ -7,7 +7,6 @@
   "ano": 1980,
   "ementa": "Dispõe sobre a cobrança judicial da Dívida Ativa da Fazenda Pública, e dá outras providências.",
   "tema": [
-    "IPTU",
     "execucao_fiscal",
     "divida_ativa",
     "prescricao_intercorrente"
@@ -50,5 +49,9 @@
   },
   "status_pipeline": "indexado",
   "confianca_extracao": "alta",
-  "revisado_por_humano": false
+  "revisado_por_humano": false,
+  "dominio_primario": "iptu",
+  "dominio": [
+    "iptu"
+  ]
 }

@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 172",
   "numero": "172",
+  "header_raw": "Art. 172. Praticar, antes ou depois da sentença que decretar a falência, conceder a recuperação judicial ou homologar plano de recuperação extrajudicial, ato de disposição ou oneração patrimonial ou gerador de obrigação, destinado a favorecer um ou mais credores em prejuízo dos demais:",
   "caminho_hierarquico": [
     "CAPÍTULO VII",
     "Seção I",
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

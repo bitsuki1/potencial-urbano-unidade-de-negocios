@@ -37,7 +37,11 @@ MARCADOR_VERBATIM = "## Texto integral (verbatim)"
 # Regex de dispositivos (início de linha). Aceita "Art. 1º", "Art 1o", "Art. 10 -", "Art. 156-A".
 # CAPTURA o sufixo -A/-B (achado A2-02/B-11): "Art. 156-A" é dispositivo DISTINTO de "Art. 156";
 # rotulá-lo "Art. 156" cita dispositivo inexistente (viola 1.7).
-RE_ARTIGO = re.compile(r"^\s*Art\.?\s*(\d+(?:-[A-Z])?)\s*[ºoO°.\-–]?", re.IGNORECASE)
+# A-04 (auditoria 2026-07-05): NÃO incluir 'o/O' na classe do marcador ordinal — num artigo cardinal
+# cujo corpo começa com "O"/"Os" ("Art. 54 Os sindicatos…") o 'O' era engolido e a linha caía como
+# remissão (corpo em minúscula), fundindo o Art. 54 no 53 e citando o dispositivo ERRADO (viola 1.7).
+# O ordinal real vem como 'º'/'°'; "1o/9o" ainda é coberto pelo rótulo (grupo é só o dígito).
+RE_ARTIGO = re.compile(r"^\s*Art\.?\s*(\d+(?:-[A-Z])?)\s*[º°.\-–]?", re.IGNORECASE)
 RE_TITULO = re.compile(r"^\s*T[ÍI]TULO\s+([IVXLCDM]+|\d+)\b", re.IGNORECASE)
 RE_CAPITULO = re.compile(r"^\s*CAP[ÍI]TULO\s+([IVXLCDM]+|\d+)\b", re.IGNORECASE)
 RE_SECAO = re.compile(r"^\s*SE[ÇC][ÃA]O\s+([IVXLCDM]+|\d+)\b", re.IGNORECASE)
@@ -55,6 +59,37 @@ RE_REVOGADO_FONTE = re.compile(r"Revogad[oa]s?\s+(?:pel[oa]s?\s+)?"
                                r"(Lei[^)\n]*|Decreto[^)\n]*|EC[^)\n]*)", re.IGNORECASE)
 RE_REDACAO_DADA = re.compile(r"Reda[çc][ãa]o dada", re.IGNORECASE)
 RE_ROTULO_PREFIXO = re.compile(r"^\s*Art\.?\s*\d+(?:-[A-Z])?\s*[ºoO°.\-–]?\s*")
+
+# C-28 / T1 — REMISSÃO line-initial NÃO é cabeçalho de artigo. Uma linha pode ABRIR com "art. N ..."
+# sendo uma REMISSÃO a outro dispositivo DENTRO do corpo do artigo corrente (a frase quebrou de linha),
+# não a abertura do Art. N. Defeito real: a fórmula central `PCpt = Atc × CAbas × Fi` mora numa linha
+# "art. 124 desta lei, o potencial construtivo..." que é o CORPO do Art. 125 (a frase "...previstos nos
+# incisos do\nart. 124 desta lei..." quebrou) — o chunker abria um chunk falso "Art. 124", citando o
+# dispositivo ERRADO na consulta mais importante (viola 1.7). Idem "art. 126 desta lei" (corpo do Art. 127).
+# DISCRIMINADOR (proibido usar monotonicidade de número — falso-positivo em lei alteradora tipo EC-132
+# Art. 2º após Art. 156-B; falso-negativo em remissão para número maior): um cabeçalho REAL, após "Art. N"
+# (+ ordinal/sep), inicia a norma com MAIÚSCULA/dígito OU é a linha inteira; uma REMISSÃO tem, logo após o
+# número, um conectivo de remissão ("desta/da Lei", "e seguintes", "c/c", "§") OU vírgula OU continuação
+# em minúscula (corpo de artigo em redação BR sempre começa maiúsculo após "Art. N.").
+RE_CONECTIVO_REMISSAO = re.compile(
+    r"^(?:,|;|desta\b|deste\b|dessa\b|desse\b|da\s+lei\b|das\s+leis\b|do\s+decreto\b|dos\s+decretos\b|"
+    r"e\s+seguintes\b|e\s+ss\.?|c/c\b|§|inc\b|incisos?\b|al[ií]neas?\b)",
+    re.IGNORECASE)
+
+
+def eh_remissao_line_initial(ln: str, ma: "re.Match") -> bool:
+    """True se a linha, embora comece com 'Art. N', é uma REMISSÃO (corpo do artigo corrente),
+    não a abertura de um novo artigo. `ma` é o match de RE_ARTIGO já calculado (evita recomputar).
+    A-04: `resto` deriva do FIM DO NÚMERO (não de ma.end()), p/ o marcador ordinal opcional nunca
+    consumir a 1ª letra do corpo — senão 'Art. 54 Os…' perde o 'O' e vira falso-remissão."""
+    resto = ln[ma.start(1) + len(ma.group(1)):].lstrip(" º°.\t")
+    if not resto:
+        return False                      # "Art. N" sozinho: cabeçalho legítimo (corpo vem nas próximas linhas)
+    if RE_CONECTIVO_REMISSAO.match(resto):
+        return True                        # conectivo de remissão logo após o número
+    if resto[:1].islower():
+        return True                        # continuação em minúscula: corpo de artigo real inicia MAIÚSCULO
+    return False
 
 
 def vigencia_dispositivo(texto: str) -> dict:
@@ -118,6 +153,9 @@ def fatiar_corpo(corpo: str):
         # (ex.: 7.228 transcreve o "Art. 77" da 6.989) — NÃO é dispositivo desta norma; não abre chunk.
         if ma and ln.lstrip()[:1] in ('"', '“', '«'):
             ma = None
+        # GUARDA (C-28/T1): "art. N ..." que é REMISSÃO line-initial (corpo do artigo corrente) não abre chunk.
+        if ma and eh_remissao_line_initial(ln, ma):
+            ma = None
         if mt:
             titulo, capitulo, secao = ln.strip(), None, None
         elif mc:
@@ -131,7 +169,9 @@ def fatiar_corpo(corpo: str):
             # convenção legislativa BR: ordinal ("Art. 1º".."Art. 9º"), cardinal a partir de 10
             rot = f"Art. {n}º" if n.isdigit() and int(n) <= 9 else f"Art. {n}"
             caminho = [x for x in (titulo, capitulo, secao) if x] + [rot]
-            atual = {"tipo": "artigo", "rotulo": rot, "numero": n,
+            # C-28/T1: header_raw = a linha CRUA que abriu o artigo (prova de proveniência do rótulo).
+            # O eval compara rótulo ↔ header_raw e reprova divergência (fim do falso-verde do substring).
+            atual = {"tipo": "artigo", "rotulo": rot, "numero": n, "header_raw": ln.strip(),
                      "caminho": caminho, "linhas": [ln]}
             continue
         atual["linhas"].append(ln)
@@ -173,6 +213,10 @@ def fatiar_lei(md_path: Path, reportar):
     vigencia = meta.get("vigencia") or {}
     tema = meta.get("tema") or []
     jurisdicao = meta.get("jurisdicao")
+    # Separação TDC×IPTU (plano 2026-07-04): o domínio é METADADO e o chunk HERDA o da norma.
+    # Por-documento hoje; quando o PDE for quebrado por-dispositivo, o chunk recebe o seu próprio.
+    dominio = meta.get("dominio") or []
+    dominio_primario = meta.get("dominio_primario")
 
     dispositivos = fatiar_corpo(corpo)
     if not dispositivos:
@@ -194,6 +238,8 @@ def fatiar_lei(md_path: Path, reportar):
             "tipo_dispositivo": d["tipo"],
             "rotulo": d["rotulo"],
             "numero": d["numero"],
+            # C-28/T1: proveniência do rótulo (linha crua que o gerou); ausente em preâmbulo/documento.
+            "header_raw": d.get("header_raw"),
             "caminho_hierarquico": d["caminho"],
             "texto": d["texto"],
             # B-11d: preâmbulo = boilerplate do portal (órgão, título, data de captura, ementa, fórmula
@@ -211,6 +257,10 @@ def fatiar_lei(md_path: Path, reportar):
                 "vigencia": vigencia,
             },
             "tema": tema,
+            # Separação TDC×IPTU: domínio herdado da norma (filtro pré-busca 2.6; compartilhado
+            # entra nas consultas dos dois). Vocab fechado {tdc,iptu,compartilhado}.
+            "dominio": dominio,
+            "dominio_primario": dominio_primario,
             "jurisdicao": jurisdicao,
             "ementa": meta.get("ementa"),
         }

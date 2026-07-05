@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 28",
   "numero": "28",
+  "header_raw": "Art. 28. Nas áreas públicas e nas áreas integrantes do SAPAVEL incidem os parâmetros próprios de",
   "caminho_hierarquico": [
     "TÍTULO II",
     "CAPÍTULO IV",
@@ -34,9 +35,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

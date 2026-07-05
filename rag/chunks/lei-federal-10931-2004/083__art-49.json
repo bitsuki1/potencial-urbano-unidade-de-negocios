@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 49",
   "numero": "49",
+  "header_raw": "Art. 49. No caso do não-pagamento tempestivo, pelo devedor, dos tributos e das taxas condominiais incidentes sobre o imóvel objeto do crédito imobiliário respectivo, bem como das parcelas mensais incontroversas de encargos estabelecidos no respectivo contrato e de quaisquer outros encargos que a lei imponha ao proprietário ou ao ocupante de imóvel, poderá o juiz, a requerimento do credor, determinar a cassação de medida liminar, de medida cautelar ou de antecipação dos efeitos da tutela que tenha interferido na eficácia de cláusulas do contrato de crédito imobiliário correspondente ou suspendido encargos dele decorrentes.",
   "caminho_hierarquico": [
     "CAPÍTULO V",
     "Art. 49"
@@ -36,7 +37,6 @@
     }
   },
   "tema": [
-    "IPTU",
     "patrimonio_de_afetacao",
     "incorporacao_imobiliaria",
     "RET",
@@ -44,6 +44,10 @@
     "CCI",
     "CCB"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre o patrimônio de afetação de incorporações imobiliárias, Letra de Crédito Imobiliário, Cédula de Crédito Imobiliário, Cédula de Crédito Bancário, altera o Decreto-Lei nº 911, de 1º de outubro de 1969, as Leis nº 4.591, de 16 de dezembro de 1964, nº 4.728, de 14 de julho de 1965, e nº 10.406, de 10 de janeiro de 2002, e dá outras providências."
 }

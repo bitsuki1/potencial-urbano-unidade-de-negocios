@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 65",
   "numero": "65",
+  "header_raw": "Art. 65. É crime contra a economia popular promover incorporação, fazendo, em proposta, contratos, prospectos ou comunicação ao público ou aos interessados, afirmação falsa sôbre a construção do condomínio, alienação das frações ideais do terreno ou sôbre a construção das edificações.",
   "caminho_hierarquico": [
     "Título II",
     "CAPíTULO IV",
@@ -33,11 +34,14 @@
     }
   },
   "tema": [
-    "IPTU",
     "condominio_edilicio",
     "incorporacao_imobiliaria",
     "unidade_autonoma"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
 }

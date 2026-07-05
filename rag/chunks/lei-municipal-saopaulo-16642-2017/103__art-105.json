@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 105",
   "numero": "105",
+  "header_raw": "Art. 105. É permitida a execução de qualquer obra em imóvel totalmente atingido por plano de melhoramento público e sem declaração de utilidade pública ou de interesse social em vigor, observado o disposto na LOE, PDE e LPUOS.",
   "caminho_hierarquico": [
     "CAPÍTULO VII",
     "Art. 105"
@@ -28,9 +29,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

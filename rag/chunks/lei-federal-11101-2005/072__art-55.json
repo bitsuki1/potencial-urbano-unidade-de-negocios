@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 55",
   "numero": "55",
+  "header_raw": "Art. 55. Qualquer credor poderá manifestar ao juiz sua objeção ao plano de recuperação judicial no prazo de 30 (trinta) dias contado da publicação da relação de credores de que trata o § 2º do art. 7º desta Lei.",
   "caminho_hierarquico": [
     "CAPÍTULO III",
     "Seção IV",
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

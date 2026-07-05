@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 32",
   "numero": "32",
+  "header_raw": "Art. 32. O zoneamento do Município deverá incluir, dentre outras, as seguintes zonas:",
   "caminho_hierarquico": [
     "TÍTULO II",
     "CAPÍTULO II",
@@ -33,9 +34,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 39",
   "numero": "39",
+  "header_raw": "Art. 39. Mediante procedimento administrativo e a pedido do proprietário ou possuidor, a Prefeitura expede Certificado de Acessibilidade quando da conclusão da adaptação da edificação existente às condições de acessibilidade às pessoas com deficiência ou mobilidade reduzida, conforme as disposições deste Código, normas regulamentares, normas técnicas e legislação correlata.",
   "caminho_hierarquico": [
     "CAPÍTULO II",
     "Seção II",
@@ -29,9 +30,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

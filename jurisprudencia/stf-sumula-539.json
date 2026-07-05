@@ -6,9 +6,7 @@
   "tema_rg_ou_repetitivo": null,
   "leading_case": null,
   "enunciado_ou_tese": "É constitucional a lei do Município que reduz o imposto predial urbano sobre imóvel ocupado pela residência do proprietário, que não possua outro.",
-  "tema": [
-    "IPTU"
-  ],
+  "tema": [],
   "dispositivos_relacionados": [
     "CF/88 art. 150, II (isonomia)",
     "CTN art. 33"
@@ -23,5 +21,9 @@
   "status_pipeline": "tagueado",
   "confianca_extracao": "alta",
   "revisado_por_humano": false,
-  "verificacao_verbatim": "Enunciado confere com a captura verbatim. Sem alteração de conteúdo."
+  "verificacao_verbatim": "Enunciado confere com a captura verbatim. Sem alteração de conteúdo.",
+  "dominio_primario": "iptu",
+  "dominio": [
+    "iptu"
+  ]
 }

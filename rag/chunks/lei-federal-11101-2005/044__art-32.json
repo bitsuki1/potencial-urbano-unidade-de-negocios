@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 32",
   "numero": "32",
+  "header_raw": "Art. 32. O administrador judicial e os membros do Comitê responderão pelos prejuízos causados à massa falida, ao devedor ou aos credores por dolo ou culpa, devendo o dissidente em deliberação do Comitê consignar sua discordância em ata para eximir-se da responsabilidade.",
   "caminho_hierarquico": [
     "CAPÍTULO II",
     "Seção III",
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

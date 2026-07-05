@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 198",
   "numero": "198",
+  "header_raw": "Art. 198. Se houver exigência a ser satisfeita, ela será indicada pelo oficial por escrito, dentro do prazo previsto no art. 188 desta Lei e de uma só vez, articuladamente, de forma clara e objetiva, com data, identificação e assinatura do oficial ou preposto responsável, para que:   (Redação dada pela Lei nº 14.382, de 2022)",
   "caminho_hierarquico": [
     "TÍTULO V",
     "CAPÍTULO III",
@@ -35,12 +36,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

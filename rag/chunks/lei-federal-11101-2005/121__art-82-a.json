@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 82-A",
   "numero": "82-A",
+  "header_raw": "Art. 82-A. A extensão dos efeitos da falência somente será admitida quando estiverem presentes os requisitos da desconsideração da personalidade jurídica de que trata o art. 50 da Lei nº 10.406, de 10 de janeiro de 2002 - Código Civil.         (Incluído pela Medida Provisória nº 881, de 2019)",
   "caminho_hierarquico": [
     "CAPÍTULO V",
     "Seção I",
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

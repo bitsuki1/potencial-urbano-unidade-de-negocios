@@ -1,0 +1,44 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16402-2016::125-art-118",
+  "lei_id": "lei-municipal-saopaulo-16402-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 118",
+  "numero": "118",
+  "header_raw": "Art. 118. Quando as ruas de acesso aos hospitais enquadrados nas subcategorias nR2 e nR3 tiverem",
+  "caminho_hierarquico": [
+    "TÍTULO V",
+    "CAPÍTULO III",
+    "Art. 118"
+  ],
+  "texto": "Art. 118. Quando as ruas de acesso aos hospitais enquadrados nas subcategorias nR2 e nR3 tiverem\n\nlargura inferior a 12m (doze metros), os projetos de reforma com ampliação de área construída deverão\n\nser analisados por comissão intersecretarial e submetidos à apreciação da CTLU.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "lei municipal nº 16402/2016 — São Paulo - SP",
+    "dispositivo": "TÍTULO V › CAPÍTULO III › Art. 118",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2016-03-22",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 79 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2016-03-22. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "urbanística"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

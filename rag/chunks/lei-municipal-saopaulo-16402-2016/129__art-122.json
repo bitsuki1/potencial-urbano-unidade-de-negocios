@@ -1,0 +1,44 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16402-2016::129-art-122",
+  "lei_id": "lei-municipal-saopaulo-16402-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 122",
+  "numero": "122",
+  "header_raw": "Art. 122. Os estabelecimentos de ensino classificados nas subcategorias nR1 e nR2 poderão instalar-",
+  "caminho_hierarquico": [
+    "TÍTULO V",
+    "CAPÍTULO III",
+    "Art. 122"
+  ],
+  "texto": "Art. 122. Os estabelecimentos de ensino classificados nas subcategorias nR1 e nR2 poderão instalar-\n\nse em imóveis localizados nas ZER-1, ZER-2 e ZERa, desde que o interessado obtenha a anuência\n\nexpressa, devidamente firmada e registrada em Cartório de Registro de Títulos e Documentos, de\n\ntodos os proprietários limítrofes do imóvel em que se pretenda a instalação do estabelecimento escolar,\n\nbem como de, pelo menos, 2/3 (dois terços) dos proprietários dos imóveis que tenham mais de 50%\n\n(cinquenta por cento) de sua área contida na faixa de 100m (cem metros) medida a partir do perímetro\n\nexterno do lote a ser ocupado pelo estabelecimento escolar.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "lei municipal nº 16402/2016 — São Paulo - SP",
+    "dispositivo": "TÍTULO V › CAPÍTULO III › Art. 122",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2016-03-22",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 79 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2016-03-22. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "urbanística"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

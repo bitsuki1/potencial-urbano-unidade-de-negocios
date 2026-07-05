@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 114",
   "numero": "114",
+  "header_raw": "Art. 114. O administrador judicial poderá alugar ou celebrar outro contrato referente aos bens da massa falida, com o objetivo de produzir renda para a massa falida, mediante autorização do Comitê.",
   "caminho_hierarquico": [
     "CAPÍTULO V",
     "Seção VII",
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

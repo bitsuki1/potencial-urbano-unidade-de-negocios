@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 71",
   "numero": "71",
+  "header_raw": "Art. 71. Os nubentes habilitados para o casamento poderão pedir ao oficial que lhe forneça a respectiva certidão, para se casarem perante autoridade ou ministro religioso, nela mencionando o prazo legal de validade da habilitação.                      (Renumerado do art. 72  pela Lei nº 6.216, de 1975).",
   "caminho_hierarquico": [
     "TÍTULO II",
     "CAPÍTULO VII",
@@ -33,12 +34,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

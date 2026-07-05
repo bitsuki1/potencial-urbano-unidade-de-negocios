@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 75",
   "numero": "75",
+  "header_raw": "Art. 75. A edificação existente irregular, no todo ou em parte, que atenda ao disposto na LOE, PDE ou LPUOS pode ser regularizada e reformada, expedindo-se o Certificado de Regularização para a área a ser regularizada e Alvará de Aprovação para a reforma pretendida.",
   "caminho_hierarquico": [
     "CAPÍTULO V",
     "Seção II",
@@ -29,9 +30,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

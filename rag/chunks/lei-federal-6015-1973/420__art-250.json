@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 250",
   "numero": "250",
+  "header_raw": "Art. 250. O cancelamento poderá ser total ou parcial e referir-se a qualquer dos atos do registro, sendo promovido pelos interessados, mediante sentença definitiva ou documento hábil, ou, ainda, a requerimento unânime das partes que convierem no ato registrado, se capazes e conhecidas do oficial.",
   "caminho_hierarquico": [
     "TÍTULO V",
     "CAPÍTULO VIII",
@@ -33,12 +34,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

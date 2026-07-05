@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 3º",
   "numero": "3",
+  "header_raw": "Art. 3º Como estratégia de ordenamento territorial, o território do Município fica dividido em zonas,",
   "caminho_hierarquico": [
     "TÍTULO I",
     "Art. 3º"
@@ -31,9 +32,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

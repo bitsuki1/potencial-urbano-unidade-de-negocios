@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 82",
   "numero": "82",
+  "header_raw": "Art. 82. A responsabilidade pessoal dos sócios de responsabilidade limitada, dos controladores e dos administradores da sociedade falida, estabelecida nas respectivas leis, será apurada no próprio juízo da falência, independentemente da realização do ativo e da prova da sua insuficiência para cobrir o passivo, observado o procedimento ordinário previsto no Código de Processo Civil.",
   "caminho_hierarquico": [
     "CAPÍTULO V",
     "Seção I",
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

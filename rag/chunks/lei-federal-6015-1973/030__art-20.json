@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 20",
   "numero": "20",
+  "header_raw": "Art. 20. No caso de recusa ou retardamento na expedição da certidão, o interessado poderá reclamar à autoridade competente, que aplicará, se for o caso, a pena disciplinar cabível.",
   "caminho_hierarquico": [
     "TÍTULO I",
     "CAPÍTULO IV",
@@ -33,12 +34,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

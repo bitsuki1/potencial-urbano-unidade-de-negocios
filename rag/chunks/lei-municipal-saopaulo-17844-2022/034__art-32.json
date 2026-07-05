@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 32",
   "numero": "32",
+  "header_raw": "Art. 32. Aplicam-se às ZOE contidas no perímetro do PIU-SCE:",
   "caminho_hierarquico": [
     "CAPÍTULO II",
     "Seção V",
@@ -28,9 +29,11 @@
       "alterada_por": []
     }
   },
-  "tema": [
-    "IPTU"
+  "tema": [],
+  "dominio": [
+    "tdc"
   ],
+  "dominio_primario": "tdc",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

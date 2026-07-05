@@ -7,7 +7,6 @@
   "ano": 1992,
   "ementa": "Concede isenção e desconto do Imposto Territorial Urbano incidente sobre imóveis situados em área de proteção aos mananciais, e dá outras providências.",
   "tema": [
-    "IPTU",
     "mananciais",
     "ZEPAM",
     "isencao",
@@ -61,5 +60,9 @@
   },
   "status_pipeline": "bruto",
   "confianca_extracao": "baixa",
-  "revisado_por_humano": false
+  "revisado_por_humano": false,
+  "dominio_primario": "iptu",
+  "dominio": [
+    "iptu"
+  ]
 }

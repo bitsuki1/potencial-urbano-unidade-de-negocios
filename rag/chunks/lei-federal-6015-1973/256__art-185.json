@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 185",
   "numero": "185",
+  "header_raw": "Art. 185. Todos os títulos tomarão, no protocolo, a data da sua apresentação e o número de ordem que, em razão dela, lhes competir, sendo neles lançados o nome do apresentante e a identidade do título, reproduzindo-se, neste, a data e o número de ordem.",
   "caminho_hierarquico": [
     "TÍTULO V",
     "CAPÍTULO III",
@@ -33,12 +34,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

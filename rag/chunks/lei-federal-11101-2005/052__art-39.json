@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 39",
   "numero": "39",
+  "header_raw": "Art. 39. Terão direito a voto na assembléia-geral as pessoas arroladas no quadro-geral de credores ou, na sua falta, na relação de credores apresentada pelo administrador judicial na forma do art. 7º , § 2º , desta Lei, ou, ainda, na falta desta, na relação apresentada pelo próprio devedor nos termos dos arts. 51, incisos III e IV do caput, 99, inciso III do caput, ou 105, inciso II do caput, desta Lei, acrescidas, em qualquer caso, das que estejam habilitadas na data da realização da assembléia ou que tenham créditos admitidos ou alterados por decisão judicial, inclusive as que tenham obtido reserva de importâncias, observado o disposto nos §§ 1º e 2º do art. 10 desta Lei.",
   "caminho_hierarquico": [
     "CAPÍTULO II",
     "Seção IV",
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

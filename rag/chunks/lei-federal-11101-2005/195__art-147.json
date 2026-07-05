@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 147",
   "numero": "147",
+  "header_raw": "Art. 147. As quantias recebidas a qualquer título serão imediatamente depositadas em conta remunerada de instituição financeira, atendidos os requisitos da lei ou das normas de organização judiciária.",
   "caminho_hierarquico": [
     "CAPÍTULO V",
     "Seção X",
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

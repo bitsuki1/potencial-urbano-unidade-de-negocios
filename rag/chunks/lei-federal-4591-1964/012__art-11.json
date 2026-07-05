@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 11",
   "numero": "11",
+  "header_raw": "Art. 11. Para efeitos tributários, cada unidade autônoma será tratada como prédio isolado, contribuindo o respectivo condômino, diretamente, com as importâncias relativas aos impostos e taxas federais, estaduais e municipais, na forma dos respectivos lançamentos.",
   "caminho_hierarquico": [
     "TÍTULO I",
     "Capítulo II",
@@ -33,11 +34,14 @@
     }
   },
   "tema": [
-    "IPTU",
     "condominio_edilicio",
     "incorporacao_imobiliaria",
     "unidade_autonoma"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
 }

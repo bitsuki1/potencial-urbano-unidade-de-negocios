@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 122",
   "numero": "122",
+  "header_raw": "Art. 122. Compensam-se, com preferência sobre todos os demais credores, as dívidas do devedor vencidas até o dia da decretação da falência, provenha o vencimento da sentença de falência ou não, obedecidos os requisitos da legislação civil.",
   "caminho_hierarquico": [
     "CAPÍTULO V",
     "Seção VIII",
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

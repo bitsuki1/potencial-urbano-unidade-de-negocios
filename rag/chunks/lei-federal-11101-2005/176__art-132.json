@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 132",
   "numero": "132",
+  "header_raw": "Art. 132. A ação revocatória, de que trata o art. 130 desta Lei, deverá ser proposta pelo administrador judicial, por qualquer credor ou pelo Ministério Público no prazo de 3 (três) anos contado da decretação da falência.",
   "caminho_hierarquico": [
     "CAPÍTULO V",
     "Seção IX",
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

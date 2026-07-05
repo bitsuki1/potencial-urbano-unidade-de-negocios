@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 200",
   "numero": "200",
+  "header_raw": "Art. 200. Ressalvado o disposto no art. 192 desta Lei, ficam revogados o Decreto-Lei nº 7.661, de 21 de junho de 1945, e os arts. 503 a 512 do Decreto-Lei nº 3.689, de 3 de outubro de 1941 - Código de Processo Penal.",
   "caminho_hierarquico": [
     "CAPÍTULO VIII",
     "Art. 200"
@@ -31,12 +32,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 213",
   "numero": "213",
+  "header_raw": "Art. 213. O oficial retificará o registro ou a averbação:                  (Redação dada pela Lei nº 10.931, de 2004)",
   "caminho_hierarquico": [
     "TÍTULO V",
     "CAPÍTULO III",
@@ -35,12 +36,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

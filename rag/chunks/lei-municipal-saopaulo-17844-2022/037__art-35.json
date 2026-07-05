@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 35",
   "numero": "35",
+  "header_raw": "Art. 35. Os Instrumentos de Qualificação e Transformação do Território trazidos nesta Lei visam efetivar",
   "caminho_hierarquico": [
     "CAPÍTULO IV",
     "Art. 35"
@@ -27,9 +28,11 @@
       "alterada_por": []
     }
   },
-  "tema": [
-    "IPTU"
+  "tema": [],
+  "dominio": [
+    "tdc"
   ],
+  "dominio_primario": "tdc",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

@@ -1,0 +1,45 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16050-2014::055-art-54",
+  "lei_id": "lei-municipal-saopaulo-16050-2014",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 54",
+  "numero": "54",
+  "header_raw": "Art. 54. Nas ZEIS 4, além do disposto no artigo anterior ficam estabelecidas as seguintes disposições complementares:",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO II",
+    "Seção IV",
+    "Art. 54"
+  ],
+  "texto": "Art. 54. Nas ZEIS 4, além do disposto no artigo anterior ficam estabelecidas as seguintes disposições complementares:\n\nI – atendimento às diretrizes e parâmetros da legislação estadual de proteção aos mananciais;\n\nII – atendimento por sistema completo de abastecimento de água, coleta, tratamento e disposição final ou exportação de esgotos e\n\nsistema de coleta regular de resíduos sólidos, incluindo programas de redução, reciclagem e reúso desses resíduos, observadas\n\nas disposições específicas de cada subárea de ocupação dirigida, estabelecidas pelas leis estaduais de proteção e recuperação\n\ndos mananciais.\n\nhttps://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 29/166\n\n27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal\n\nParágrafo único. As ZEIS 4 inseridas nas APAs Bororé-Colônia e Capivari-Monos serão destinadas exclusivamente ao\n\nreassentamento das famílias oriundas de ZEIS 1 situadas no interior da APA, garantido o acompanhamento do processo pelo\n\nrespectivo Conselho Gestor.\n\nSubseção III\n\nDa Disciplina de Uso e Ocupação do Solo em ZEIS",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "lei municipal nº 16050/2014 — São Paulo - SP",
+    "dispositivo": "TÍTULO II › CAPÍTULO II › Seção IV › Art. 54",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2014-07-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 95 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2014-07-31. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "urbanística"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

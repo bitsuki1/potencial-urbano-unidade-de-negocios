@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 183",
   "numero": "183",
+  "header_raw": "Art. 183. O livro n. 7 - Registro de Incorporação - destina-se ao registro dos memoriais de incorporação dos atos institutivos e das convenções de condomínio, previstos na Lei nº 4.591, de 16 de dezembro de 1964, e será escriturado de acordo com o modelo previsto no anexo desta Lei.                      (Suprimido pela Lei nº 6.216, de 1975).",
   "caminho_hierarquico": [
     "TÍTULO V",
     "CAPÍTULO II",
@@ -33,12 +34,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

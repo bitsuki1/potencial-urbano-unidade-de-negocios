@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 20-A",
   "numero": "20-A",
+  "header_raw": "Art. 20-A. A conciliação e a mediação deverão ser incentivadas em qualquer grau de jurisdição, inclusive no âmbito de recursos em segundo grau de jurisdição e nos Tribunais Superiores, e não implicarão a suspensão dos prazos previstos nesta Lei, salvo se houver consenso entre as partes em sentido contrário ou determinação judicial.       (Incluído pela Lei nº 14.112, de 2020)   (Vigência)",
   "caminho_hierarquico": [
     "CAPÍTULO II",
     "Seção II-A",
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

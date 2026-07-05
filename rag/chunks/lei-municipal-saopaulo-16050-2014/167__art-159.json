@@ -1,0 +1,45 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16050-2014::167-art-159",
+  "lei_id": "lei-municipal-saopaulo-16050-2014",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 159",
+  "numero": "159",
+  "header_raw": "Art. 159. Os pagamentos por serviços ambientais deverão ser implantados através de programas definidos pela SVMA, entre os",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO III",
+    "Seção IV",
+    "Art. 159"
+  ],
+  "texto": "Art. 159. Os pagamentos por serviços ambientais deverão ser implantados através de programas definidos pela SVMA, entre os\n\nquais, os que contemplem:\n\nI – remuneração de atividades humanas de manutenção, restabelecimento e recuperação dos ecossistemas provedores de\n\nserviços ambientais;\n\nII – remuneração dos proprietários ou possuidores, de áreas com ecossistemas provedores de serviços ambientais, mediante\n\nprévia valoração destes serviços;\n\nIII – o disposto no art. 36 da Lei Municipal nº 14.933, de 5 de junho de 2009, ou que vier a lhe suceder;\n\nIV – outros programas instituídos pelo Poder Executivo em consonância com as disposições desta lei e da legislação estadual ou\n\nfederal pertinente.\n\n§ 1º Os critérios de valoração a que se refere o inciso II deste artigo serão definidos em regramento próprio, a ser editado por\n\nSVMA.\n\nhttps://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 76/166\n\n27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal\n\n§ 2º A participação do recebedor das vantagens relativas aos programas de pagamentos por serviços ambientais será voluntária.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "lei municipal nº 16050/2014 — São Paulo - SP",
+    "dispositivo": "TÍTULO II › CAPÍTULO III › Seção IV › Art. 159",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2014-07-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 95 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2014-07-31. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "urbanística"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

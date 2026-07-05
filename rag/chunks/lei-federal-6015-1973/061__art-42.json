@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 42",
   "numero": "42",
+  "header_raw": "Art. 42. A testemunha para os assentos de registro deve satisfazer às condições exigidas pela lei civil, sendo admitido o parente, em qualquer grau, do registrado.",
   "caminho_hierarquico": [
     "TÍTULO II",
     "CAPÍTULO II",
@@ -33,12 +34,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

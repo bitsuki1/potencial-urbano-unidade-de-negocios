@@ -1,0 +1,12 @@
+# Fator de Incentivo (Fi) por FAIXA DE ÁREA DO LOTE — Art. 24 da LPUOS (Lei 16.402/2016), incisos I-VII.
+# Aplica-se a NOVAS declarações de potencial transferível de imóveis ZEPEC (via Art.125 da 16.050, SEM doação).
+# ACHADO da auditoria 2026-06-29: corrige o Fi=1 que o engine usava (Art.125 isolado). Fonte verbatim: _entrada/tdc/l16402.txt L316+.
+# Uso: engines/tdc/pcpt.py::fi_zepec_por_area(area_lote). Extração pura (PU 14).
+faixa_area_lote_m2,fi,inciso
+"ate 500",1.2,"Art. 24 I"
+"500 a 2000",1.0,"Art. 24 II"
+"2000 a 5000",0.9,"Art. 24 III"
+"5000 a 10000",0.7,"Art. 24 IV"
+"10000 a 20000",0.5,"Art. 24 V"
+"20000 a 50000",0.2,"Art. 24 VI"
+"acima de 50000",0.1,"Art. 24 VII"

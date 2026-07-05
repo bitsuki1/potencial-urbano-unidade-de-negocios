@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 16",
   "numero": "16",
+  "header_raw": "Art. 16. Para fins de rateio na falência, deverá ser formado quadro-geral de credores, composto pelos créditos não impugnados constantes do edital de que trata o § 2º do art. 7º desta Lei, pelo julgamento de todas as impugnações apresentadas no prazo previsto no art. 8º desta Lei e pelo julgamento realizado até então das habilitações de crédito recebidas como retardatárias.     (Redação dada pela Lei nº 14.112, de 2020)      (Vigência)",
   "caminho_hierarquico": [
     "CAPÍTULO II",
     "Seção II",
@@ -34,12 +35,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

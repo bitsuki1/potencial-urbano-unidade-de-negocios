@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 137",
   "numero": "137",
+  "header_raw": "Art. 137. O juiz poderá, a requerimento do autor da ação revocatória, ordenar, como medida preventiva, na forma da lei processual civil, o seqüestro dos bens retirados do patrimônio do devedor que estejam em poder de terceiros.",
   "caminho_hierarquico": [
     "CAPÍTULO V",
     "Seção IX",
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

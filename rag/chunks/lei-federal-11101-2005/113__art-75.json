@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 75",
   "numero": "75",
+  "header_raw": "Art. 75. A falência, ao promover o afastamento do devedor de suas atividades, visa a:      (Redação dada pela Lei nº 14.112, de 2020)   (Vigência)",
   "caminho_hierarquico": [
     "CAPÍTULO V",
     "Seção I",
@@ -34,12 +35,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

@@ -1,0 +1,39 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17844-2022::068-art-64",
+  "lei_id": "lei-municipal-saopaulo-17844-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 64",
+  "numero": "64",
+  "header_raw": "Art. 64. Para incentivar a preservação de imóveis classificados como ZEPEC-BIR na AIU-SCE, será",
+  "caminho_hierarquico": [
+    "CAPÍTULO IV",
+    "Seção IV",
+    "Art. 64"
+  ],
+  "texto": "Art. 64. Para incentivar a preservação de imóveis classificados como ZEPEC-BIR na AIU-SCE, será\n\nconcedido bônus equivalente de preservação, que poderá ser utilizado cumulativamente à\n\ntransferência do direito de construir, regida pelos arts. 122 a 133 da Lei nº 16.050, de 2014, com as\n\nalterações previstas nesta Lei.\n\n§ 1º O bônus equivalente de preservação (BPRES) constante em declaração será calculado pela\n\naplicação da seguinte equação:\n\nBPRES = (ACC – PCpt) x FBn, onde:\n\nBPRES – Quantidade de metros quadrados correspondente ao bônus equivalente de preservação;\n\nACC – Área construída total do imóvel tombado (computável e não computável);\n\nPCpt – Potencial construtivo passível de transferência, calculado para fins de Transferência do Direito\n\nde Construir, nos termos dos arts. 55 e seguintes desta Lei;\n\nFBn – Fator de Bonificação = 0,6.\n\n§ 2º A concessão de parte ou da totalidade do bônus equivalente de preservação está condicionada à\n\nnecessidade de restauração do imóvel preservado.\n\n§ 3º Os imóveis já beneficiados com declaração de potencial construtivo passível de transferência\n\nemitida nos termos do art. 7º da Lei nº 12.349, de 1997, não poderão pleitear bônus equivalente de\n\npreservação.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "lei municipal nº 17844/2022 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO IV › Seção IV › Art. 64",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2022-09-14",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": []
+    }
+  },
+  "tema": [],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

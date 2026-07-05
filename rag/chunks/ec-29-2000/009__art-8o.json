@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 8º",
   "numero": "8",
+  "header_raw": "Art. 8º Esta Emenda Constitucional entra em vigor na data de sua publicação.",
   "caminho_hierarquico": [
     "Art. 8º"
   ],
@@ -30,9 +31,12 @@
     }
   },
   "tema": [
-    "IPTU",
     "progressividade_fiscal"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Altera os arts. 34, 35, 156, 160, 167 e 198 da Constituição Federal e acrescenta artigo ao Ato das Disposições Constitucionais Transitórias, para assegurar os recursos mínimos para o financiamento das ações e serviços públicos de saúde."
 }

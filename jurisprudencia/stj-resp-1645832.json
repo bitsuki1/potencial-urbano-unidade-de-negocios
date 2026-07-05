@@ -6,9 +6,7 @@
   "tema_rg_ou_repetitivo": null,
   "leading_case": "REsp 1645832/SP (Rel. Min. Herman Benjamin, Segunda Turma, j. 07/03/2017)",
   "enunciado_ou_tese": "A Planta Genérica de Valores, por conter dados indispensáveis à apuração da base de cálculo do IPTU, deve ser objeto de publicação oficial. A mera afixação da Planta de Valores no átrio da sede do município não supre a mencionada exigência.",
-  "tema": [
-    "IPTU"
-  ],
+  "tema": [],
   "dispositivos_relacionados": [
     "CTN art. 33",
     "CTN art. 97, §1º e §2º",
@@ -24,5 +22,9 @@
   "status_pipeline": "tagueado",
   "confianca_extracao": "alta",
   "revisado_por_humano": false,
-  "verificacao_verbatim": "CONFIRMADA a tese pela ementa verbatim do SCON; campo enunciado_ou_tese ajustado para a redação literal da ementa ('...apuração da base de cálculo...mera afixação...no átrio da sede do município não supre...'). CORRIGIDO tipo de 'recurso_repetitivo' para 'acordao' (Segunda Turma, NÃO repetitivo). Confiança média->alta. Rel. Min. Herman Benjamin, j. 07/03/2017, DJe 19/04/2017."
+  "verificacao_verbatim": "CONFIRMADA a tese pela ementa verbatim do SCON; campo enunciado_ou_tese ajustado para a redação literal da ementa ('...apuração da base de cálculo...mera afixação...no átrio da sede do município não supre...'). CORRIGIDO tipo de 'recurso_repetitivo' para 'acordao' (Segunda Turma, NÃO repetitivo). Confiança média->alta. Rel. Min. Herman Benjamin, j. 07/03/2017, DJe 19/04/2017.",
+  "dominio_primario": "iptu",
+  "dominio": [
+    "iptu"
+  ]
 }

@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 52",
   "numero": "52",
+  "header_raw": "Art. 52. Estando em termos a documentação exigida no art. 51 desta Lei, o juiz deferirá o processamento da recuperação judicial e, no mesmo ato:",
   "caminho_hierarquico": [
     "CAPÍTULO III",
     "Seção II",
@@ -34,12 +35,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

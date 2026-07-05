@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 167-H",
   "numero": "167-H",
+  "header_raw": "Art. 167-H. O representante estrangeiro pode ajuizar, perante o juiz, pedido de reconhecimento do processo estrangeiro em que atua.      (Incluído pela Lei nº 14.112, de 2020)   (Vigência)",
   "caminho_hierarquico": [
     "CAPÍTULO VI-A",
     "Art. 167-H"
@@ -31,12 +32,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

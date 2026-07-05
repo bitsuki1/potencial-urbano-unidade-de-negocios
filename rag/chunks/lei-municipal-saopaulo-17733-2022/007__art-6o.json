@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 6º",
   "numero": "6",
+  "header_raw": "Art. 6º O prazo para emissão do Alvará de Implantação referido no art. 5º desta Lei não poderá ser",
   "caminho_hierarquico": [
     "CAPÍTULO II",
     "Art. 6º"
@@ -27,9 +28,11 @@
       "alterada_por": []
     }
   },
-  "tema": [
-    "IPTU"
+  "tema": [],
+  "dominio": [
+    "iptu"
   ],
+  "dominio_primario": "iptu",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

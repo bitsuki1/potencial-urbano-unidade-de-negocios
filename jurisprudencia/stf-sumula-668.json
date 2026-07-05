@@ -6,9 +6,7 @@
   "tema_rg_ou_repetitivo": null,
   "leading_case": null,
   "enunciado_ou_tese": "É inconstitucional a lei municipal que tenha estabelecido, antes da Emenda Constitucional 29/2000, alíquotas progressivas para o IPTU, salvo se destinada a assegurar o cumprimento da função social da propriedade urbana.",
-  "tema": [
-    "IPTU"
-  ],
+  "tema": [],
   "dispositivos_relacionados": [
     "CF/88 art. 145, §1º",
     "CF/88 art. 156, §1º (redação anterior à EC 29/2000)",
@@ -25,5 +23,9 @@
   "status_pipeline": "tagueado",
   "confianca_extracao": "alta",
   "revisado_por_humano": false,
-  "verificacao_verbatim": "Enunciado confere com a captura verbatim. Captura acrescenta: indicada para conversão em SV na PSV 96; Tema 523 RG."
+  "verificacao_verbatim": "Enunciado confere com a captura verbatim. Captura acrescenta: indicada para conversão em SV na PSV 96; Tema 523 RG.",
+  "dominio_primario": "iptu",
+  "dominio": [
+    "iptu"
+  ]
 }

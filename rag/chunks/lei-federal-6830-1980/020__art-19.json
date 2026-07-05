@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 19",
   "numero": "19",
+  "header_raw": "Art. 19 - Não sendo embargada a execução ou sendo rejeitados os embargos, no caso de garantia prestada por terceiro, será este intimado, sob pena de contra ele prosseguir a execução nos próprios autos, para, no prazo de 15 (quinze) dias:",
   "caminho_hierarquico": [
     "Art. 19"
   ],
@@ -29,11 +30,14 @@
     }
   },
   "tema": [
-    "IPTU",
     "execucao_fiscal",
     "divida_ativa",
     "prescricao_intercorrente"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre a cobrança judicial da Dívida Ativa da Fazenda Pública, e dá outras providências."
 }

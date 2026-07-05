@@ -6,9 +6,7 @@
   "tema_rg_ou_repetitivo": "566",
   "leading_case": "REsp 1340553/RS (Rel. Min. Mauro Campbell Marques, Primeira Seção, j. 12/09/2018)",
   "enunciado_ou_tese": "O prazo de 1 (um) ano de suspensão do processo e o respectivo prazo prescricional previstos no art. 40, §§ 1º e 2º da Lei 6.830/80 - LEF têm início automaticamente na data da ciência da Fazenda Pública a respeito da não localização do devedor ou da inexistência de bens penhoráveis no endereço fornecido.",
-  "tema": [
-    "IPTU"
-  ],
+  "tema": [],
   "dispositivos_relacionados": [
     "Lei 6.830/80 (LEF) art. 40, §§1º e 2º",
     "CTN art. 174"
@@ -23,5 +21,9 @@
   "status_pipeline": "tagueado",
   "confianca_extracao": "alta",
   "revisado_por_humano": false,
-  "verificacao_verbatim": "2026-06-18 — tese conferida contra captura oficial verbatim (Lote 5, extensão); ver jurisprudencia/_capturas/lote5-stj-temas_20260618.txt"
+  "verificacao_verbatim": "2026-06-18 — tese conferida contra captura oficial verbatim (Lote 5, extensão); ver jurisprudencia/_capturas/lote5-stj-temas_20260618.txt",
+  "dominio_primario": "iptu",
+  "dominio": [
+    "iptu"
+  ]
 }

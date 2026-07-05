@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 27",
   "numero": "27",
+  "header_raw": "Art. 27. A Prefeitura, como forma de viabilizar a expansão da cobertura dos serviços de",
   "caminho_hierarquico": [
     "CAPÍTULO VIII",
     "Art. 27"
@@ -27,9 +28,11 @@
       "alterada_por": []
     }
   },
-  "tema": [
-    "IPTU"
+  "tema": [],
+  "dominio": [
+    "iptu"
   ],
+  "dominio_primario": "iptu",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

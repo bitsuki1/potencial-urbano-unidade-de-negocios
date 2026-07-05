@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 6º",
   "numero": "6",
+  "header_raw": "Art. 6º A Política de Desenvolvimento Urbano e o Plano Diretor Estratégico se orientam pelas seguintes diretrizes:",
   "caminho_hierarquico": [
     "TÍTULO I",
     "CAPÍTULO II",
@@ -34,9 +35,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

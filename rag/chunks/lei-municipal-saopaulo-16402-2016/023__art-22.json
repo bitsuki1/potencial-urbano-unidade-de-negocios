@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 22",
   "numero": "22",
+  "header_raw": "Art. 22. As ZEPECs classificam-se em 4 (quatro) categorias, definidas nos termos dos incisos I a IV do",
   "caminho_hierarquico": [
     "TÍTULO II",
     "CAPÍTULO III",
@@ -33,9 +34,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

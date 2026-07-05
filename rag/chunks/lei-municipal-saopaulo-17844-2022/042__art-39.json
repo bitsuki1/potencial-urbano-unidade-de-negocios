@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 39",
   "numero": "39",
+  "header_raw": "Art. 39. Fica o Poder Executivo autorizado a realizar chamamentos públicos a serem dedicados à",
   "caminho_hierarquico": [
     "CAPÍTULO IV",
     "Seção I",
@@ -28,9 +29,11 @@
       "alterada_por": []
     }
   },
-  "tema": [
-    "IPTU"
+  "tema": [],
+  "dominio": [
+    "tdc"
   ],
+  "dominio_primario": "tdc",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

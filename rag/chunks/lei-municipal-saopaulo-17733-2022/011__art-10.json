@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 10",
   "numero": "10",
+  "header_raw": "Art. 10. A utilização de bem municipal para a implantação da ERB e instalação da ERB móvel e mini",
   "caminho_hierarquico": [
     "CAPÍTULO IV",
     "Art. 10"
@@ -27,9 +28,11 @@
       "alterada_por": []
     }
   },
-  "tema": [
-    "IPTU"
+  "tema": [],
+  "dominio": [
+    "iptu"
   ],
+  "dominio_primario": "iptu",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

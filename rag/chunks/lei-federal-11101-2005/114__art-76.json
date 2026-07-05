@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 76",
   "numero": "76",
+  "header_raw": "Art. 76. O juízo da falência é indivisível e competente para conhecer todas as ações sobre bens, interesses e negócios do falido, ressalvadas as causas trabalhistas, fiscais e aquelas não reguladas nesta Lei em que o falido figurar como autor ou litisconsorte ativo.",
   "caminho_hierarquico": [
     "CAPÍTULO V",
     "Seção I",
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

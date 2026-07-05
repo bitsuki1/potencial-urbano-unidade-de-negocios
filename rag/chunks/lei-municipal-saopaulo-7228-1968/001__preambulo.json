@@ -4,6 +4,7 @@
   "tipo_dispositivo": "preambulo",
   "rotulo": "Preâmbulo",
   "numero": null,
+  "header_raw": null,
   "caminho_hierarquico": [],
   "texto": "LEI Nº 7.228 DE 12 DE DEZEMBRO DE 1968\n\nAltera dispositivo da Lei nº 6.989/1966, e dá outras providências.\n\nLei nº 7.228, de 12 de dezembro de 1968.\n\nAltera dispositivos da Lei nº 6.989, de 29 de dezembro de 1966, e dá outras providências.\n\nJosé Vicente de Faria Lima, Prefeito do Município de São Paulo, de acordo com o disposto no artigo 20 da Lei Estadual nº 9842, de 19 de setembro de 1967, promulga a seguinte Lei:",
   "citavel": false,
@@ -36,9 +37,12 @@
     }
   },
   "tema": [
-    "IPTU",
     "codigo_tributario"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "São Paulo/SP",
   "ementa": "Altera dispositivos da Lei nº 6.989, de 29 de dezembro de 1966, e dá outras providências."
 }

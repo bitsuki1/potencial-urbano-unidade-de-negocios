@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 5º",
   "numero": "5",
+  "header_raw": "Art. 5º Os princípios que regem a Política de Desenvolvimento Urbano e o Plano Diretor Estratégico são:",
   "caminho_hierarquico": [
     "TÍTULO I",
     "CAPÍTULO II",
@@ -32,9 +33,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 35",
   "numero": "35",
+  "header_raw": "Art. 35 - Nos processos regulados por esta Lei, poderá ser dispensada a audiência de revisor, no julgamento das apelações.",
   "caminho_hierarquico": [
     "Art. 35"
   ],
@@ -29,11 +30,14 @@
     }
   },
   "tema": [
-    "IPTU",
     "execucao_fiscal",
     "divida_ativa",
     "prescricao_intercorrente"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre a cobrança judicial da Dívida Ativa da Fazenda Pública, e dá outras providências."
 }

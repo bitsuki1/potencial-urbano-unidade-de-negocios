@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 8º",
   "numero": "8",
+  "header_raw": "Art. 8º No prazo de 10 (dez) dias, contado da publicação da relação referida no art. 7º , § 2º , desta Lei, o Comitê, qualquer credor, o devedor ou seus sócios ou o Ministério Público podem apresentar ao juiz impugnação contra a relação de credores, apontando a ausência de qualquer crédito ou manifestando-se contra a legitimidade, importância ou classificação de crédito relacionado.",
   "caminho_hierarquico": [
     "CAPÍTULO II",
     "Seção II",
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

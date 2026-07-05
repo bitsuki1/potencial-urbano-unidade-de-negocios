@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 160",
   "numero": "160",
+  "header_raw": "Art. 160. O oficial será obrigado, quando o apresentante o requerer, a notificar do registro ou da averbação os demais interessados que figurarem no título, documento, o papel apresentado, e a quaisquer terceiros que lhes sejam indicados, podendo requisitar dos oficiais de registro em outros Municípios, as notificações necessárias. Por esse processo, também, poderão ser feitos avisos, denúncias e notificações, quando não for exigida a intervenção judicial.                        (Renumerado do art. 161 pela Lei nº 6.216, de 1975).",
   "caminho_hierarquico": [
     "TÍTULO IV",
     "CAPÍTULO IV",
@@ -33,12 +34,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

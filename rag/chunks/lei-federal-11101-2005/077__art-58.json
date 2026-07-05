@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 58",
   "numero": "58",
+  "header_raw": "Art. 58. Cumpridas as exigências desta Lei, o juiz concederá a recuperação judicial do devedor cujo plano não tenha sofrido objeção de credor nos termos do art. 55 desta Lei ou tenha sido aprovado pela assembleia-geral de credores na forma dos arts. 45 ou 56-A desta Lei.       (Redação dada pela Lei nº 14.112, de 2020)    (Vigência)",
   "caminho_hierarquico": [
     "CAPÍTULO III",
     "Seção IV",
@@ -34,12 +35,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

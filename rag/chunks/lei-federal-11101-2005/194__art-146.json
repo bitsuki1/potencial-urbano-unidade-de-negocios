@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 146",
   "numero": "146",
+  "header_raw": "Art. 146. Em qualquer modalidade de realização do ativo adotada, fica a massa falida dispensada da apresentação de certidões negativas.",
   "caminho_hierarquico": [
     "CAPÍTULO V",
     "Seção X",
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

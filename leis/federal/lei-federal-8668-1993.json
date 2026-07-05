@@ -7,7 +7,6 @@
   "ano": 1993,
   "ementa": "Dispõe sobre a constituição e o regime tributário dos Fundos de Investimento Imobiliário e dá outras providências.",
   "tema": [
-    "IPTU",
     "fundo_investimento_imobiliario",
     "propriedade_fiduciaria"
   ],
@@ -45,5 +44,9 @@
   },
   "status_pipeline": "indexado",
   "confianca_extracao": "alta",
-  "revisado_por_humano": false
+  "revisado_por_humano": false,
+  "dominio_primario": "iptu",
+  "dominio": [
+    "iptu"
+  ]
 }

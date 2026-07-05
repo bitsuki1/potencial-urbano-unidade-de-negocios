@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 84",
   "numero": "84",
+  "header_raw": "Art. 84. A Prefeitura, nos 5 (cinco) dias subsequentes ao embargo, deve vistoriar a obra e, se constatada resistência ao embargo, adotar os seguintes procedimentos:",
   "caminho_hierarquico": [
     "CAPÍTULO VI",
     "Seção I",
@@ -29,9 +30,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

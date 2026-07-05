@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 15",
   "numero": "15",
+  "header_raw": "Art. 15. A Macroárea de Redução da Vulnerabilidade Urbana localizada na periferia da área urbanizada do território municipal",
   "caminho_hierarquico": [
     "TÍTULO II",
     "CAPÍTULO I",
@@ -33,9 +34,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

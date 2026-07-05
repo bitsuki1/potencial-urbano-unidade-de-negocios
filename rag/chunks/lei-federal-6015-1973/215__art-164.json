@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 164",
   "numero": "164",
+  "header_raw": "Art. 164. O cancelamento poderá ser feito em virtude de sentença ou de documento autêntico de quitação ou de exoneração do título registrado.                      (Renumerado do art. 165 pela Lei nº 6.216, de 1975).",
   "caminho_hierarquico": [
     "TÍTULO IV",
     "CAPÍTULO V",
@@ -33,12 +34,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

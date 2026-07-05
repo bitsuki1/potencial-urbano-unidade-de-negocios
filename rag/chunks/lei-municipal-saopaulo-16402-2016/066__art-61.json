@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 61",
   "numero": "61",
+  "header_raw": "Art. 61. Para fins do disposto nesta lei, o nível do pavimento térreo não poderá exceder a cota de 1m",
   "caminho_hierarquico": [
     "TÍTULO IV",
     "CAPÍTULO I",
@@ -34,9 +35,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

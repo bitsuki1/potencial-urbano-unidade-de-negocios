@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 18",
   "numero": "18",
+  "header_raw": "Art. 18. O Executivo deverá disponibilizar sistema de informação de localização de ERBs, ERBs móvel",
   "caminho_hierarquico": [
     "CAPÍTULO V",
     "Art. 18"
@@ -27,9 +28,11 @@
       "alterada_por": []
     }
   },
-  "tema": [
-    "IPTU"
+  "tema": [],
+  "dominio": [
+    "iptu"
   ],
+  "dominio_primario": "iptu",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

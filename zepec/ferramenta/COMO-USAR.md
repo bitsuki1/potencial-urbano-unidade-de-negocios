@@ -1,6 +1,10 @@
 # Como usar a ferramenta de cedentes ZEPEC (time comercial)
 > PU 14 · 2026-06-28. Princípio: **só fato, sem juízo de valor**. As listas separam por ESTÁGIO e PROVA, não por "melhor/pior" — a priorização comercial é sua.
 
+<!-- DISCLAIMER-BLOCO-INICIO -->
+> **AVISO (M0 — texto canônico em `DISCLAIMER.md`; leia antes de usar qualquer número):** ferramenta de **decision-support, não parecer/laudo**. `preco_proxy_brl` é **proxy regulatório** (PCpt × V), não preço de mercado. Valor **venal (IPTU) ≠ outorga (Q14)**. O PCpt é **estimativa só p/ prospecção nova** — para o **já-declarado** (`regime_pcpt=JA_DECLARADO`) vale a **Declaração** (Art. 125 §1º I), não o número aqui. Divergência conhecida ≈1,66× (mediana) vs certidões (m² oficial vence). Conservação: só **Atestado** elegibiliza (Termo = PENDENTE). `V` do Q14 é **jan/2025**. Número nasce no engine, citado (1.3/1.7); onde a fonte não ampara, o campo diz **PENDENTE**.
+<!-- DISCLAIMER-BLOCO-FIM -->
+
 ## Os 3 arquivos
 | Arquivo | O que é | Quantos |
 |---|---|---|

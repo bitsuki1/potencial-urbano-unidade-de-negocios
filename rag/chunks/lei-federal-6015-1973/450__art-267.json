@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 267",
   "numero": "267",
+  "header_raw": "Art. 267. Se o credor, citado, não se opuser à remição, ou não comparecer, lavrar-se-á termo de pagamento e quitação e o Juiz ordenará, por sentença, o cancelamento de hipoteca.                         (Renumerado do art. 268, pela Lei nº 6.216, de 1975)",
   "caminho_hierarquico": [
     "TÍTULO V",
     "CAPÍTULO X",
@@ -33,12 +34,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

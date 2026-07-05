@@ -1,0 +1,45 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16050-2014::181-art-173",
+  "lei_id": "lei-municipal-saopaulo-16050-2014",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 173",
+  "numero": "173",
+  "header_raw": "Art. 173. Para cumprimento do disposto nesta lei, o Executivo poderá celebrar, com força de título executivo extrajudicial, nos",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO III",
+    "Seção VI",
+    "Art. 173"
+  ],
+  "texto": "Art. 173. Para cumprimento do disposto nesta lei, o Executivo poderá celebrar, com força de título executivo extrajudicial, nos\n\ntermos da lei federal, Termo de Compromisso de Ajustamento de Conduta Cultural com pessoas físicas e jurídicas responsáveis\n\npela reparação integral de danos ou descaracterizações causadas a bens, imóveis, áreas ou espaços protegidos em função de seu\n\nvalor histórico e cultural.\n\n§ 1º O Termo de Compromisso de Ajustamento de Conduta Cultural tem por objetivo precípuo a recuperação de bens, imóveis,\n\náreas ou espaços protegidos pelo seu valor histórico e cultural que tenham sofrido abandono ou intervenções, mediante a fixação\n\nde obrigações que deverão ser rigorosamente cumpridas pelo infrator, visando à reparação integral dos danos causados.\n\n§ 2º Sem prejuízo da aplicação das penalidades previstas no Decreto nº 54.805/2014, os imóveis enquadrados como ZEPEC pela\n\nLei nº 13.885, de 2004, e que, ao tempo da edição da presente lei se encontram demolidos, poderão ser objeto de TACC, a ser\n\nelaborado conjuntamente pelo proprietário do imóvel e pelo Executivo Municipal, visando à reparação dos danos causados ao\n\npatrimônio histórico e cultural.\n\nTÍTULO III\n\nDA POLÍTICA E DOS SISTEMAS URBANOS E AMBIENTAIS",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "lei municipal nº 16050/2014 — São Paulo - SP",
+    "dispositivo": "TÍTULO II › CAPÍTULO III › Seção VI › Art. 173",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2014-07-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 95 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2014-07-31. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "urbanística"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

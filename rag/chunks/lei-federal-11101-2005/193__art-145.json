@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 145",
   "numero": "145",
+  "header_raw": "Art. 145. Por deliberação tomada nos termos do art. 42 desta Lei, os credores poderão adjudicar os bens alienados na falência ou adquiri-los por meio de constituição de sociedade, de fundo ou de outro veículo de investimento, com a participação, se necessária, dos atuais sócios do devedor ou de terceiros, ou mediante conversão de dívida em capital.    (Redação dada pela Lei nº 14.112, de 2020)   (Vigência)",
   "caminho_hierarquico": [
     "CAPÍTULO V",
     "Seção X",
@@ -34,12 +35,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

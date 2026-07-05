@@ -1,0 +1,43 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16402-2016::140-art-133",
+  "lei_id": "lei-municipal-saopaulo-16402-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 133",
+  "numero": "133",
+  "header_raw": "Art. 133. Nos casos dos empreendimentos considerados de baixo risco referidos no art. 127 desta lei, o",
+  "caminho_hierarquico": [
+    "TÍTULO VI",
+    "Art. 133"
+  ],
+  "texto": "Art. 133. Nos casos dos empreendimentos considerados de baixo risco referidos no art. 127 desta lei, o\n\nuso poderá ser instalado em edificação não regular de acordo com as definições da legislação edilícia,\n\ndesde que asseguradas as condições de higiene, segurança de uso, estabilidade, habitabilidade da\n\nedificação, assim como as condições de instalação e os parâmetros de incomodidade.(Regulamentado\n\npelo Decreto nº 57.298/2016)\n\n§ 1º O disposto no “caput” deste artigo não exime o proprietário da edificação dos procedimentos e\n\npenalidades decorrentes da legislação edilícia.(Regulamentado pelo Decreto nº 57.298/2016)\n\n§ 2º Aplica-se o disposto no “caput” nas atividades auxiliares dos empreendimentos enquadrados no\n\ngrupo de atividade INFRA-1 da subcategoria de uso INFRA.(Regulamentado pelo Decreto nº\n\n57.298/2016)\n\nCAPÍTULO I\n\nDOS PARCELAMENTOS E EDIFICAÇÕES EXISTENTES E USOS INSTALADOS",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "lei municipal nº 16402/2016 — São Paulo - SP",
+    "dispositivo": "TÍTULO VI › Art. 133",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2016-03-22",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 79 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2016-03-22. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "urbanística"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

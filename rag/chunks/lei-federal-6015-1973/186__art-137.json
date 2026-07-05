@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 137",
   "numero": "137",
+  "header_raw": "Art. 137. O livro de registro, por extrato, conterá colunas para as seguintes declarações:                         (Renumerado do art. 138  pela Lei nº 6.216, de 1975).",
   "caminho_hierarquico": [
     "TÍTULO IV",
     "CAPÍTULO II",
@@ -33,12 +34,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

@@ -40,6 +40,11 @@ for i,(p,cod) in enumerate(pos):
                  "revisar":"" if sit else "sem situacao na fonte (PDF) — conferir manual",
                  "local_bruto":local[:300],"endereco_bruto":end[:300]})
 with (Z.parent/"tabelas/quadro7-parques.csv").open('w',newline='',encoding='utf-8') as f:
+    # C-01 (auditoria 2026-07-05): cabeçalho de proveniência (como os demais quadros) — antes o CSV
+    # saía sem fonte/data, único dado sem origem rastreável (viola 1.3/1.7).
+    f.write("# Quadro 7 (Parques Municipais existentes e propostos) — Anexo PDE Lei 16.050/2014. "
+            "Fonte: _entrada/tdc/pde2013-subst2-quadro-7-parques-municipais-existentes-propostos.txt "
+            "(extração pura via extrair_quadro7.py). Substrato da via de expansão 'parques' (Art. 126 IV).\n")
     w=csv.DictWriter(f,fieldnames=["codigo","situacao","categoria","proposto","revisar","local_bruto","endereco_bruto"])
     w.writeheader(); w.writerows(recs)
 from collections import Counter

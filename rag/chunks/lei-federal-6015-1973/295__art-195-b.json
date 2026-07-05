@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 195-B",
   "numero": "195-B",
+  "header_raw": "Art. 195-B.  A União, os Estados e o Distrito Federal poderão solicitar ao registro de imóveis competente a abertura de matrícula de parte ou da totalidade de imóveis urbanos sem registro anterior, cujo domínio lhe tenha sido assegurado pela legislação, por meio de requerimento acompanhado dos documentos previstos nos incisos I, II e III do caput do art. 195-A, inclusive para as terras devolutas, dispensado o procedimento discriminatório administrativo ou judicial.                (Redação dada pela Medida Provisória nº 759, de 2016)",
   "caminho_hierarquico": [
     "TÍTULO V",
     "CAPÍTULO III",
@@ -35,12 +36,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 54",
   "numero": "54",
+  "header_raw": "Art. 54 Os sindicatos estaduais da indústria da construção civil ficam obrigados a divulgar mensalmente, até o dia 5 de cada mês, os custos unitários de construção a serem adotados nas respectivas regiões jurisdicionais, calculados com observância dos critérios e normas a que se refere o inciso I, do artigo anterior.",
   "caminho_hierarquico": [
     "Título II",
     "CAPíTULO III",
@@ -34,11 +35,14 @@
     }
   },
   "tema": [
-    "IPTU",
     "condominio_edilicio",
     "incorporacao_imobiliaria",
     "unidade_autonoma"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
 }

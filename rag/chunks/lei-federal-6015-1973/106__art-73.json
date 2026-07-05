@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 73",
   "numero": "73",
+  "header_raw": "Art. 73. No prazo de trinta dias a contar da realização, o celebrante ou qualquer interessado poderá, apresentando o assento ou termo do casamento religioso, requerer-lhe o registro ao oficial do cartório que expediu a certidão.                       (Renumerado do art. 74, pela Lei nº 6.216, de 1975).",
   "caminho_hierarquico": [
     "TÍTULO II",
     "CAPÍTULO VII",
@@ -35,12 +36,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

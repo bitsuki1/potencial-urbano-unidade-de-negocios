@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 14-A",
   "numero": "14-A",
+  "header_raw": "Art. 14-A Contra a aplicação das multas previstas nos incisos I, II e III do artigo 148 da Lei nº 16.402, de",
   "caminho_hierarquico": [
     "CAPÍTULO III",
     "Art. 14-A"
@@ -27,9 +28,11 @@
       "alterada_por": []
     }
   },
-  "tema": [
-    "IPTU"
+  "tema": [],
+  "dominio": [
+    "iptu"
   ],
+  "dominio_primario": "iptu",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

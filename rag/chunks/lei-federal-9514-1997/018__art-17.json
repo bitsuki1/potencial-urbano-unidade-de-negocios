@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 17",
   "numero": "17",
+  "header_raw": "Art. 17. As operações de financiamento imobiliário em geral poderão ser garantidas por:",
   "caminho_hierarquico": [
     "CAPÍTULO I",
     "Seção VII",
@@ -33,10 +34,13 @@
     }
   },
   "tema": [
-    "IPTU",
     "alienacao_fiduciaria",
     "sistema_financiamento_imobiliario"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre o Sistema de Financiamento Imobiliário, institui a alienação fiduciária de coisa imóvel e dá outras providências."
 }

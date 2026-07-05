@@ -6,9 +6,7 @@
   "tema_rg_ou_repetitivo": null,
   "leading_case": null,
   "enunciado_ou_tese": "O serviço de iluminação pública não pode ser remunerado mediante taxa.",
-  "tema": [
-    "IPTU"
-  ],
+  "tema": [],
   "dispositivos_relacionados": [
     "CF/88 art. 145, II"
   ],
@@ -22,5 +20,9 @@
   "status_pipeline": "tagueado",
   "confianca_extracao": "alta",
   "revisado_por_humano": false,
-  "verificacao_verbatim": "A captura verbatim da fonte STF traz o verbete já como SÚMULA VINCULANTE 41 (resultante da conversão da Súmula 670), DJE de 20-3-2015, Tema 44 RG. Enunciado idêntico ao do stub ('O serviço de iluminação pública não pode ser remunerado mediante taxa.'). Campo 'situacao' enriquecido com Tema 44; enunciado/tese sem alteração."
+  "verificacao_verbatim": "A captura verbatim da fonte STF traz o verbete já como SÚMULA VINCULANTE 41 (resultante da conversão da Súmula 670), DJE de 20-3-2015, Tema 44 RG. Enunciado idêntico ao do stub ('O serviço de iluminação pública não pode ser remunerado mediante taxa.'). Campo 'situacao' enriquecido com Tema 44; enunciado/tese sem alteração.",
+  "dominio_primario": "iptu",
+  "dominio": [
+    "iptu"
+  ]
 }

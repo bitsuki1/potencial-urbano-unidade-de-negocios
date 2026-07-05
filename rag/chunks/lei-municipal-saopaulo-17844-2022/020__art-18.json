@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 18",
   "numero": "18",
+  "header_raw": "Art. 18. No âmbito do Perímetro de Adesão da AIU-SCE, são vedadas a utilização para estacionamento",
   "caminho_hierarquico": [
     "CAPÍTULO II",
     "Seção I",
@@ -28,9 +29,11 @@
       "alterada_por": []
     }
   },
-  "tema": [
-    "IPTU"
+  "tema": [],
+  "dominio": [
+    "tdc"
   ],
+  "dominio_primario": "tdc",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

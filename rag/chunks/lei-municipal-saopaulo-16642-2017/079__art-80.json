@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 80",
   "numero": "80",
+  "header_raw": "Art. 80. A Prefeitura pode recusar, no todo ou em parte, a reconstrução nos moldes anteriores de edificação com índices e volumetria em desacordo com o disposto na LOE, PDE ou LPUOS que seja considerada prejudicial ao interesse urbanístico.",
   "caminho_hierarquico": [
     "CAPÍTULO V",
     "Seção IV",
@@ -29,9 +30,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

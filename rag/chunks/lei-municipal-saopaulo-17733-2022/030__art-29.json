@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 29",
   "numero": "29",
+  "header_raw": "Art. 29. Esta Lei entrará em vigor na data da publicação de seu decreto regulamentar, revogadas as",
   "caminho_hierarquico": [
     "CAPÍTULO VIII",
     "Art. 29"
@@ -27,9 +28,11 @@
       "alterada_por": []
     }
   },
-  "tema": [
-    "IPTU"
+  "tema": [],
+  "dominio": [
+    "iptu"
   ],
+  "dominio_primario": "iptu",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 86",
   "numero": "86",
+  "header_raw": "Art. 86. Constatada situação de risco, em vistoria técnica realizada por servidor com competência específica, além das autuações referidas nos arts. 82 a 84 deste Código, deve ser imediatamente lavrado o auto de interdição, seguindo-se, no que couber, os procedimentos previstos na Seção II deste Capítulo.",
   "caminho_hierarquico": [
     "CAPÍTULO VI",
     "Seção I",
@@ -29,9 +30,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

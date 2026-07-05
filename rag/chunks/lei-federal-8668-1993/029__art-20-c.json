@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 20-C",
   "numero": "20-C",
+  "header_raw": "Art. 20-C.  Os rendimentos e os ganhos de capital auferidos e distribuídos, quando distribuídos pelos Fiagro, sujeitam-se à incidência do imposto sobre a renda na fonte à alíquota de 20% (vinte por cento)    (Incluído pela Lei nº 14.130, de 2021)     (Vide Medida Provisória nº 1.303, de 2025)   Produção de efeitos Vigência encerrada",
   "caminho_hierarquico": [
     "Art. 20-C"
   ],
@@ -30,10 +31,13 @@
     }
   },
   "tema": [
-    "IPTU",
     "fundo_investimento_imobiliario",
     "propriedade_fiduciaria"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre a constituição e o regime tributário dos Fundos de Investimento Imobiliário e dá outras providências."
 }

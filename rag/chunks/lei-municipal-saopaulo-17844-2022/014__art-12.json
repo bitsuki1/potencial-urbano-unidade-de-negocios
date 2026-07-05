@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 12",
   "numero": "12",
+  "header_raw": "Art. 12. Na hipótese de doação de parcela de imóvel para implantação de áreas verdes e de",
   "caminho_hierarquico": [
     "CAPÍTULO II",
     "Seção I",
@@ -28,9 +29,11 @@
       "alterada_por": []
     }
   },
-  "tema": [
-    "IPTU"
+  "tema": [],
+  "dominio": [
+    "tdc"
   ],
+  "dominio_primario": "tdc",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

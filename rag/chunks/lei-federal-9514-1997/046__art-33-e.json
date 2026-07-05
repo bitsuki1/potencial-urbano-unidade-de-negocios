@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 33-E",
   "numero": "33-E",
+  "header_raw": "Art. 33-E.  O Conselho Monetário Nacional e o Conselho Curador do Fundo de Garantia do Tempo de Serviço, no âmbito de suas respectivas competências, expedirão as instruções que se fizerem necessárias à execução do disposto no parágrafo único do art. 31 e nos arts. 33-A a 33-D desta Lei. (Incluído pela Lei nº 12.810, de 2013)",
   "caminho_hierarquico": [
     "CAPÍTULO II-A",
     "Art. 33-E"
@@ -32,10 +33,13 @@
     }
   },
   "tema": [
-    "IPTU",
     "alienacao_fiduciaria",
     "sistema_financiamento_imobiliario"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre o Sistema de Financiamento Imobiliário, institui a alienação fiduciária de coisa imóvel e dá outras providências."
 }

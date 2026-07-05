@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 14",
   "numero": "14",
+  "header_raw": "Art. 14. A atividade edilícia em imóvel da União, do Estado e do Município e de suas respectivas autarquias universitárias independe da expedição dos documentos de que trata este Código, ficando, no entanto, sujeita ao atendimento de suas disposições e da legislação pertinente à matéria.",
   "caminho_hierarquico": [
     "CAPÍTULO II",
     "Seção II",
@@ -29,9 +30,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

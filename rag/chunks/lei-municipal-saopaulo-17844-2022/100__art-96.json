@@ -1,0 +1,39 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17844-2022::100-art-96",
+  "lei_id": "lei-municipal-saopaulo-17844-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 96",
+  "numero": "96",
+  "header_raw": "Art. 96. A SP-Urbanismo será remunerada, pelo apoio à gestão da implantação do Programa de",
+  "caminho_hierarquico": [
+    "CAPÍTULO VII",
+    "Seção III",
+    "Art. 96"
+  ],
+  "texto": "Art. 96. A SP-Urbanismo será remunerada, pelo apoio à gestão da implantação do Programa de\n\nIntervenções previsto nesta Lei, com 5% (cinco por cento) dos recursos arrecadados com a outorga de\n\npotencial construtivo adicional da área de abrangência de seu perímetro.\n\nCAPÍTULO VIII\n\nDAS DISPOSIÇÕES FINAIS E TRANSITÓRIAS",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "lei municipal nº 17844/2022 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO VII › Seção III › Art. 96",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2022-09-14",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": []
+    }
+  },
+  "tema": [],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

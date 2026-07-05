@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 15",
   "numero": "15",
+  "header_raw": "Art. 15. Constatado o desatendimento das obrigações e exigências legais, a operadora ou a detentora",
   "caminho_hierarquico": [
     "CAPÍTULO V",
     "Art. 15"
@@ -27,9 +28,11 @@
       "alterada_por": []
     }
   },
-  "tema": [
-    "IPTU"
+  "tema": [],
+  "dominio": [
+    "iptu"
   ],
+  "dominio_primario": "iptu",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

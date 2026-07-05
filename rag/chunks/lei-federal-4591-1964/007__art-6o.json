@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 6º",
   "numero": "6",
+  "header_raw": "Art. 6º Sem prejuízo do disposto nesta Lei, regular-se-á pelas disposições de direito comum o condomínio por quota ideal de mais de uma pessoa sôbre a mesma unidade autônoma.",
   "caminho_hierarquico": [
     "TÍTULO I",
     "Art. 6º"
@@ -32,11 +33,14 @@
     }
   },
   "tema": [
-    "IPTU",
     "condominio_edilicio",
     "incorporacao_imobiliaria",
     "unidade_autonoma"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
 }

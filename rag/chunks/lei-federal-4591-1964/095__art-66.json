@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 66",
   "numero": "66",
+  "header_raw": "Art. 66. São contravenções relativas à economia popular, puníveis na forma do artigo 10 da Lei nº 1.521, de 26 de dezembro de 1951:",
   "caminho_hierarquico": [
     "Título II",
     "CAPíTULO IV",
@@ -33,11 +34,14 @@
     }
   },
   "tema": [
-    "IPTU",
     "condominio_edilicio",
     "incorporacao_imobiliaria",
     "unidade_autonoma"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
 }

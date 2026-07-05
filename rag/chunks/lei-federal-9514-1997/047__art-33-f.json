@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 33-F",
   "numero": "33-F",
+  "header_raw": "Art. 33-F.  O disposto nos arts. 33-A a 33-E desta Lei não se aplica às operações de transferência de dívida decorrentes de cessão de crédito entre entidades que compõem o Sistema Financeiro da Habitação, desde que a citada transferência independa de manifestação do mutuário. (Incluído pela Lei nº 12.810, de 2013)",
   "caminho_hierarquico": [
     "CAPÍTULO II-A",
     "Art. 33-F"
@@ -32,10 +33,13 @@
     }
   },
   "tema": [
-    "IPTU",
     "alienacao_fiduciaria",
     "sistema_financiamento_imobiliario"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre o Sistema de Financiamento Imobiliário, institui a alienação fiduciária de coisa imóvel e dá outras providências."
 }

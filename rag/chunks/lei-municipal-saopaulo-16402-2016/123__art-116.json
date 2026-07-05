@@ -1,0 +1,44 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16402-2016::123-art-116",
+  "lei_id": "lei-municipal-saopaulo-16402-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 116",
+  "numero": "116",
+  "header_raw": "Art. 116. Para novas construções ou reformas com ampliação de área construída de hospitais",
+  "caminho_hierarquico": [
+    "TÍTULO V",
+    "CAPÍTULO III",
+    "Art. 116"
+  ],
+  "texto": "Art. 116. Para novas construções ou reformas com ampliação de área construída de hospitais\n\nlocalizados em qualquer zona, toda a área construída destinada à circulação, manobra e\n\nestacionamento de veículos será considerada não computável, respeitado o limite estabelecido no § 2º\n\ndo art. 62 desta lei.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "lei municipal nº 16402/2016 — São Paulo - SP",
+    "dispositivo": "TÍTULO V › CAPÍTULO III › Art. 116",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2016-03-22",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 79 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2016-03-22. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "urbanística"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

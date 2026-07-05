@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 72",
   "numero": "72",
+  "header_raw": "Art. 72. Nos terrenos localizados na Unidade Geotécnica I (UG-I) da carta geotécnica de aptidão à",
   "caminho_hierarquico": [
     "TÍTULO IV",
     "CAPÍTULO I",
@@ -34,9 +35,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

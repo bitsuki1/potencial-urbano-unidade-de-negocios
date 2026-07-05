@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 237-A",
   "numero": "237-A",
+  "header_raw": "Art. 237-A. Após o registro do parcelamento do solo, na modalidade loteamento ou na modalidade desmembramento, e da incorporação imobiliária, de condomínio edilício ou de condomínio de lotes, até que tenha sido averbada a conclusão das obras de infraestrutura ou da construção, as averbações e os registros relativos à pessoa do loteador ou do incorporador ou referentes a quaisquer direitos reais, inclusive de garantias, cessões ou demais negócios jurídicos que envolvam o empreendimento e suas unidades, bem como a própria averbação da conclusão do empreendimento, serão realizados na matrícula de origem do imóvel a ele destinado e replicados, sem custo adicional, em cada uma das matrículas recipiendárias dos lotes ou das unidades autônomas eventualmente abertas.   (Redação dada pela Lei nº 14.382, de 2022)",
   "caminho_hierarquico": [
     "TÍTULO V",
     "CAPÍTULO VII",
@@ -35,12 +36,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

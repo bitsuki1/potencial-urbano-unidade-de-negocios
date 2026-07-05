@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 43",
   "numero": "43",
+  "header_raw": "Art. 43. A área máxima de quadra no território da zona urbana do Município é de 20.000m² (vinte mil",
   "caminho_hierarquico": [
     "TÍTULO III",
     "CAPÍTULO I",
@@ -32,9 +33,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 139",
   "numero": "139",
+  "header_raw": "Art. 139. Se a mesma pessoa já estiver mencionada no indicador, somente se fará, na coluna das anotações, uma referência ao número de ordem, página e número do livro em que estiver lançado o novo registro ou averbação.                       (Renumerado do art. 140  pela Lei nº 6.216, de 1975).",
   "caminho_hierarquico": [
     "TÍTULO IV",
     "CAPÍTULO II",
@@ -33,12 +34,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

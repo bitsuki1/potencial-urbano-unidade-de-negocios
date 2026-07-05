@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 25",
   "numero": "25",
+  "header_raw": "Art. 25. O Projeto Estratégico Detran-SP abrange a totalidade dos lotes das quadras 004, 009, 092 e",
   "caminho_hierarquico": [
     "CAPÍTULO II",
     "Seção III",
@@ -28,9 +29,11 @@
       "alterada_por": []
     }
   },
-  "tema": [
-    "IPTU"
+  "tema": [],
+  "dominio": [
+    "tdc"
   ],
+  "dominio_primario": "tdc",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 52",
   "numero": "52",
+  "header_raw": "Art. 52. A Taxa para Exame e Verificação dos Pedidos de Documentos de Controle da Atividade Edilícia - TEV/COE, fundada no poder de polícia do Município, tem como fato gerador os pedidos de alvará, certificado, autorização, cadastro e manutenção previstos neste Código.",
   "caminho_hierarquico": [
     "CAPÍTULO III",
     "Art. 52"
@@ -30,9 +31,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

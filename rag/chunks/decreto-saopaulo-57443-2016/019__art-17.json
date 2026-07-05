@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 17",
   "numero": "17",
+  "header_raw": "Art. 17. O agente vistor, sempre que possível, fará relatório fotográfico da operação, preferencialmente",
   "caminho_hierarquico": [
     "CAPÍTULO IV",
     "Art. 17"
@@ -27,9 +28,11 @@
       "alterada_por": []
     }
   },
-  "tema": [
-    "IPTU"
+  "tema": [],
+  "dominio": [
+    "iptu"
   ],
+  "dominio_primario": "iptu",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

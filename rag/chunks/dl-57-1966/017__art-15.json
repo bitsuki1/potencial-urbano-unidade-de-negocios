@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 15",
   "numero": "15",
+  "header_raw": "Art 15. O disposto no art. 32 da Lei nº 5.172, de 25 de outubro de 1966, não abrange o imóvel de que, comprovadamente, seja utilizado em exploração extrativa vegetal, agrícola, pecuária ou agro-industrial, incidindo assim, sôbre o mesmo, o ITR e demais tributos com o mesmo cobrados.         (Revogação suspensa pela RSF nº 9, de 2005)",
   "caminho_hierarquico": [
     "Art. 15"
   ],
@@ -31,10 +32,13 @@
     }
   },
   "tema": [
-    "IPTU",
     "ITR",
     "destinacao_economica"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Altera dispositivos sobre lançamento e cobrança do Imposto sobre a Propriedade Territorial Rural, institui normas sobre arrecadação da Dívida Ativa correspondente, e dá outras providências."
 }

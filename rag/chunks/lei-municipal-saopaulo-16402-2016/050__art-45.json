@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 45",
   "numero": "45",
+  "header_raw": "Art. 45. Da área total do lote ou gleba objeto de parcelamento deverá ser destinado percentual mínimo",
   "caminho_hierarquico": [
     "TÍTULO III",
     "CAPÍTULO I",
@@ -32,9 +33,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

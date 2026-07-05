@@ -1,3 +1,8 @@
+> **⚠️ RECONCILIAÇÃO PU 17 (2026-07-03) — LER ANTES DE AGIR SOBRE ESTE PEDIDO.** O escritório (carta `ack-e-orfas`) + verificação no boot atualizam 2 itens do §2:
+> - **Item 5(a) — merge do Produto B / B-17: RESOLVIDO.** O produto JÁ está no `main` (verificado: `engines/tdc/`, ZEPEC, oráculos presentes; DE-47 registra consolidação em 2026-06-28). **RETIRADO do pedido** — não levar ao MOU. A branch de origem `project-audit-roadmap-2thi1g` está coberta pelo main.
+> - **Item 5(b) — despausar o preço: NÃO é pedido ao MOU; é decisão do DONO em aberto.** A direção MOU de 2026-06-28 foi **agnóstico, SEM preço**; "despausar" contraria essa direção e depende do **Atc do IPTU** (B-20b, ainda parado). Fica como **fork do dono** (régua de preço — `ROADMAP-PU.md §2`), não como item externo pendente.
+> - Itens **1, 2, 3, 4** do §2 seguem VÁLIDOS (dado pesado Drive→Supabase, verbatim das 13 municipais, perímetros geo, semântica FUNDURB). A carta VPS-BRASIL (2026-07-03) pode ser o VEÍCULO dos itens 1 e 2 (IP-BR + job de carga) — ver `caixa-de-saida/para-escritorio/2026-07-03_potencial-urbano_resposta-VPS-brasil.md`.
+
 # Potencial Urbano → Escritório do MOU — PEDIDO ÚNICO (Classe Externa) + relatório PU 15
 
 > **De:** orquestrador do Potencial Urbano (PU 15, lente loop de IA) · **Data:** 2026-07-01

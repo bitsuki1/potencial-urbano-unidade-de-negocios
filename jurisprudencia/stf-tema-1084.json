@@ -6,9 +6,7 @@
   "tema_rg_ou_repetitivo": "1084",
   "leading_case": "ARE 1245097/MG (Rel. Min. Roberto Barroso)",
   "enunciado_ou_tese": "É constitucional a lei municipal que delega ao Poder Executivo a avaliação individualizada, para fins de cobrança do IPTU, de imóvel novo não previsto na Planta Genérica de Valores, desde que fixados em lei os critérios para a avaliação técnica e assegurado ao contribuinte o direito ao contraditório.",
-  "tema": [
-    "IPTU"
-  ],
+  "tema": [],
   "dispositivos_relacionados": [
     "CF/88 art. 150, I (legalidade tributária)",
     "CTN art. 33",
@@ -24,5 +22,9 @@
   "status_pipeline": "tagueado",
   "confianca_extracao": "alta",
   "revisado_por_humano": false,
-  "verificacao_verbatim": "Tese confere com a captura verbatim. Leading case ARE 1245097 confirmado; trânsito em julgado 26/10/2023."
+  "verificacao_verbatim": "Tese confere com a captura verbatim. Leading case ARE 1245097 confirmado; trânsito em julgado 26/10/2023.",
+  "dominio_primario": "iptu",
+  "dominio": [
+    "iptu"
+  ]
 }

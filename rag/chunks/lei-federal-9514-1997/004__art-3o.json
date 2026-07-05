@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 3º",
   "numero": "3",
+  "header_raw": "Art. 3º As companhias securitizadoras de créditos imobiliários, instituições não financeiras constituídas sob a forma de sociedade por ações, terão por finalidade a aquisição e securitização desses créditos e a emissão e colocação, no mercado financeiro, de Certificados de Recebíveis Imobiliários, podendo emitir outros títulos de crédito, realizar negócios e prestar serviços compatíveis com as suas atividades.",
   "caminho_hierarquico": [
     "CAPÍTULO I",
     "Seção II",
@@ -33,10 +34,13 @@
     }
   },
   "tema": [
-    "IPTU",
     "alienacao_fiduciaria",
     "sistema_financiamento_imobiliario"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre o Sistema de Financiamento Imobiliário, institui a alienação fiduciária de coisa imóvel e dá outras providências."
 }

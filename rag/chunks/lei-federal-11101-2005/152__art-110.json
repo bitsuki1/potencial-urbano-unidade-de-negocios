@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 110",
   "numero": "110",
+  "header_raw": "Art. 110. O auto de arrecadação, composto pelo inventário e pelo respectivo laudo de avaliação dos bens, será assinado pelo administrador judicial, pelo falido ou seus representantes e por outras pessoas que auxiliarem ou presenciarem o ato.",
   "caminho_hierarquico": [
     "CAPÍTULO V",
     "Seção VII",
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

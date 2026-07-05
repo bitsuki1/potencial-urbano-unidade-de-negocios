@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 5º",
   "numero": "5",
+  "header_raw": "Art. 5º Nas ações programadas, motivadas por denúncia ou ordem de serviço, previamente à",
   "caminho_hierarquico": [
     "CAPÍTULO I",
     "Art. 5º"
@@ -27,9 +28,11 @@
       "alterada_por": []
     }
   },
-  "tema": [
-    "IPTU"
+  "tema": [],
+  "dominio": [
+    "iptu"
   ],
+  "dominio_primario": "iptu",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

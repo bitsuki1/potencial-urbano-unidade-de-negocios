@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 21",
   "numero": "21",
+  "header_raw": "Art. 21. A Macroárea de Preservação de Ecossistemas Naturais, conforme Mapa 2 anexo, é caracterizada pela existência de",
   "caminho_hierarquico": [
     "TÍTULO II",
     "CAPÍTULO I",
@@ -33,9 +34,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

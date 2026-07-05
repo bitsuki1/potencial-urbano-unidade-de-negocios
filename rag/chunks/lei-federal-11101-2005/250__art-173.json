@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 173",
   "numero": "173",
+  "header_raw": "Art. 173. Apropriar-se, desviar ou ocultar bens pertencentes ao devedor sob recuperação judicial ou à massa falida, inclusive por meio da aquisição por interposta pessoa:",
   "caminho_hierarquico": [
     "CAPÍTULO VII",
     "Seção I",
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

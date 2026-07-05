@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 117",
   "numero": "117",
+  "header_raw": "Art. 117. O Executivo, à vista da evolução tecnológica e dos costumes, promoverá a constante atualização das prescrições deste Código, fixando, para tanto, os seguintes objetivos: I - promoção das adequações e remanejamentos administrativos necessários ao processo de modernização e atualização deste Código, inclusive no que se refere à estrutura operacional da fiscalização;",
   "caminho_hierarquico": [
     "CAPÍTULO VIII",
     "Art. 117"
@@ -28,9 +29,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 134",
   "numero": "134",
+  "header_raw": "Art. 134. A ação revocatória correrá perante o juízo da falência e obedecerá ao procedimento ordinário previsto na Lei nº 5.869, de 11 de janeiro de 1973 - Código de Processo Civil.",
   "caminho_hierarquico": [
     "CAPÍTULO V",
     "Seção IX",
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

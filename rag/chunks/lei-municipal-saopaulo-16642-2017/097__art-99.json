@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 99",
   "numero": "99",
+  "header_raw": "Art. 99. Para a aplicação dos dispositivos deste Capítulo, os prazos devem ser dilatados até o triplo dos prazos previstos e reduzidos os valores das multas em 90% (noventa por cento) dos valores devidos para:",
   "caminho_hierarquico": [
     "CAPÍTULO VI",
     "Seção III",
@@ -29,9 +30,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

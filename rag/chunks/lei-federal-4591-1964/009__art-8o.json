@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 8º",
   "numero": "8",
+  "header_raw": "Art. 8º Quando, em terreno onde não houver edificação, o proprietário, o promitente comprador, o cessionário dêste ou o promitente cessionário sôbre êle desejar erigir mais de uma edificação, observar-se-á também o seguinte:",
   "caminho_hierarquico": [
     "TÍTULO I",
     "Art. 8º"
@@ -32,11 +33,14 @@
     }
   },
   "tema": [
-    "IPTU",
     "condominio_edilicio",
     "incorporacao_imobiliaria",
     "unidade_autonoma"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
 }

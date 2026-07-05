@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 42",
   "numero": "42",
+  "header_raw": "Art. 42. No caso de rescisão do contrato relativo à fração ideal de terreno e partes comuns, a pessoa em cujo favor se tenha operado a resolução sub-rogar-se-á nos direitos e obrigações contratualmente atribuídos ao inadimplente, com relação a construção.",
   "caminho_hierarquico": [
     "Título II",
     "CAPÍTULO II",
@@ -33,11 +34,14 @@
     }
   },
   "tema": [
-    "IPTU",
     "condominio_edilicio",
     "incorporacao_imobiliaria",
     "unidade_autonoma"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
 }

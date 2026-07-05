@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 122",
   "numero": "122",
+  "header_raw": "Art. 122. O Executivo regulamentará esta lei no prazo de até 60 (sessenta) dias contados da data de sua publicação.",
   "caminho_hierarquico": [
     "CAPÍTULO VIII",
     "Art. 122"
@@ -28,9 +29,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

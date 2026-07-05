@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 296",
   "numero": "296",
+  "header_raw": "Art. 296. No caso de permissão para ser traduzida ou reduzida a compêndio alguma obra não entregue ao domínio comum, assim como no de contrato de edição ou no de cessão e sucessão, é indispensável que se faça a respectiva prova.                       (Suprimido pela Lei nº 6.216, de 1975)",
   "caminho_hierarquico": [
     "TÍTULO VI",
     "Art. 296"
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 294",
   "numero": "294",
+  "header_raw": "Art. 294. A cada obra a ser registrada deverá corresponder um requerimento, no qual se fará declaração expressa da nacionalidade e do domicílio do autor, da nacionalidade e do domicílio do proprietário atual no caso de ter havido transferência de direitos do título da obra, do lugar e do tempo da publicação, do sistema de reprodução que houver sido empregado e de todos os característicos que à mesma obra forem essenciais, de modo a ser possível distingui-la, em todo o tempo, de qualquer outra congênere.                   (Suprimido pela Lei nº 6.216, de 1975)",
   "caminho_hierarquico": [
     "TÍTULO VI",
     "Art. 294"
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

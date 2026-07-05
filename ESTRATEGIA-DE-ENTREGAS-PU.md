@@ -1,5 +1,7 @@
 # ESTRATÉGIA DE ENTREGAS — Potencial Urbano
 
+> **⚠️ SUPERADO no papel de SEQUENCIAMENTO (2026-07-03) por `ROADMAP-PU.md`** (marcos M0–M5, painel de 7 especialistas + crítica adversarial). O mapa de PROCESSO e a separação **Classe LOCAL × EXTERNA** deste doc seguem VÁLIDOS como referência — foi ele que antecipou a D153 do escritório em 2 dias. _(banner lavrado pela PU 17.)_
+
 > **Lente: especialista em loop de IA.** PU 15 · 2026-07-01 · branch `claude/potencial-urbano-strategy-kp9bgr`.
 > **O que este documento é:** o mapa do processo inteiro da PU + a leitura do roadmap + a estratégia
 > para chegar à **ferramenta comercial completa, auditável e com dados ricos** — dizendo **quais lentes
@@ -71,7 +73,7 @@ Esteira: **E1 corpus → E2 preço → E3 proprietários → E4 cruzamento (moto
 ## 2. ESTADO MEDIDO (âncora — números do `MANIFESTO.json` + gate, 2026-07-01)
 
 - **Gate mecânico:** evals(1.7) VERDE · engine(1.3) VERDE · sem stray tags VERDE · MANIFESTO idempotente VERDE.
-- **Corpus:** 63 itens (31 leis + 32 juris); **61 no escopo**; **17 leis indexadas** (TDC ligado no `main`: eval
+- **Corpus:** 63 itens (31 leis + 32 juris); **61 no escopo**; **19 leis indexadas** (snapshot 07-01 dizia 17; vivo na auditoria 2026-07-05 = 19) (TDC ligado no `main`: eval
   `tdc-potencial-construtivo-lpuos` verde, LPUOS 16.402 Art. 24); 14 municipais ainda não-verbatim.
 - **Engines (determinísticos, auto-teste verde):** `engines/tdc/pcpt.py` (cedente, 2 vias Art.125 / 126-127),
   `engines/tdc/oodc.py` (receptor).

@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 112",
   "numero": "112",
+  "header_raw": "Art. 112. Os bens arrecadados poderão ser removidos, desde que haja necessidade de sua melhor guarda e conservação, hipótese em que permanecerão em depósito sob responsabilidade do administrador judicial, mediante compromisso.",
   "caminho_hierarquico": [
     "CAPÍTULO V",
     "Seção VII",
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

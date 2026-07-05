@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 69-J",
   "numero": "69-J",
+  "header_raw": "Art. 69-J. O juiz poderá, de forma excepcional, independentemente da realização de assembleia-geral, autorizar a consolidação substancial de ativos e passivos dos devedores integrantes do mesmo grupo econômico que estejam em recuperação judicial sob consolidação processual, apenas quando constatar a interconexão e a confusão entre ativos ou passivos dos devedores, de modo que não seja possível identificar a sua titularidade sem excessivo dispêndio de tempo ou de recursos, cumulativamente com a ocorrência de, no mínimo, 2 (duas) das seguintes hipóteses:     (Incluído pela Lei nº 14.112, de 2020)   (Vigência)",
   "caminho_hierarquico": [
     "CAPÍTULO III",
     "Seção IV",
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

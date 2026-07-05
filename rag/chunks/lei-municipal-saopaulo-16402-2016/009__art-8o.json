@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 8º",
   "numero": "8",
+  "header_raw": "Art. 8º As Zonas Eixo de Estruturação da Transformação Metropolitana (ZEM) são porções do território",
   "caminho_hierarquico": [
     "TÍTULO II",
     "CAPÍTULO I",
@@ -34,9 +35,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

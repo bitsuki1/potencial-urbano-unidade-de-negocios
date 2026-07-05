@@ -33,6 +33,17 @@
         "dispositivo_topo": "Art. 129",
         "topo_nao_revogado": true
       }
+    },
+    {
+      "id": "tdc-formula-pcpt",
+      "_nota": "C-28/T1: eval SOBRE CONTEUDO (dispositivo E texto na MESMA linha). Prova que a formula central do PCpt sem-doacao esta citada como Art. 125 (nao 'Art. 124', o falso-verde do chunk remissao-line-initial) E que o texto do topo contem a formula COMPLETA com CAbas (distingue do Art. 127, que usa CAmax). Assertar so 'PCpt = Atc' testaria o eixo errado (prefixo compartilhado) — PROIBIDO.",
+      "pergunta": "qual a formula do potencial construtivo passivel de transferencia sem doacao e em que artigo do Plano Diretor ela esta?",
+      "espera": {
+        "fundamentada": true,
+        "lei_id": "lei-municipal-saopaulo-16050-2014",
+        "dispositivo_topo": "Art. 125",
+        "texto_contem": "PCpt = Atc x CAbas x Fi"
+      }
     }
   ],
   "vacinas": [

@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 8º",
   "numero": "8",
+  "header_raw": "Art. 8º Revogam-se as disposições em contrário.",
   "caminho_hierarquico": [
     "Art. 8º"
   ],
@@ -29,11 +30,14 @@
     }
   },
   "tema": [
-    "IPTU",
     "bem_de_familia",
     "impenhorabilidade",
     "execucao_fiscal"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre a impenhorabilidade do bem de família."
 }

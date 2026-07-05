@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 20",
   "numero": "20",
+  "header_raw": "Art. 20. Até que lei disponha sobre a matéria, a contribuição para o Programa de Formação do Patrimônio do Servidor Público, criado pela Lei Complementar nº 8, de 3 de dezembro de 1970, de que trata o art. 239 da Constituição Federal, permanecerá sendo cobrada na forma do art. 2º, III, da Lei nº 9.715, de 25 de novembro de 1998, e dos demais dispositivos legais a ele referentes em vigor na data de publicação desta Emenda Constitucional.",
   "caminho_hierarquico": [
     "Art. 20"
   ],
@@ -30,10 +31,13 @@
     }
   },
   "tema": [
-    "IPTU",
     "reforma_tributaria",
     "sistema_tributario_nacional"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Altera o Sistema Tributário Nacional."
 }

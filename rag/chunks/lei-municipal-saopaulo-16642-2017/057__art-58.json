@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 58",
   "numero": "58",
+  "header_raw": "Art. 58. No pedido de Certificado de Regularização e nos pedidos de Certificado de Acessibilidade e Certificado de Segurança, quando houver necessidade de execução de obras ou serviços para a adaptação da edificação às normas técnicas aplicáveis, podem ser emitidas, respectivamente:",
   "caminho_hierarquico": [
     "CAPÍTULO IV",
     "Seção I",
@@ -29,9 +30,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

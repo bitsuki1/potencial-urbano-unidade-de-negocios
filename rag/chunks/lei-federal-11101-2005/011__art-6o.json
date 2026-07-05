@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 6º",
   "numero": "6",
+  "header_raw": "Art. 6º-C. É vedada atribuição de responsabilidade a terceiros em decorrência do mero inadimplemento de obrigações do devedor falido ou em recuperação judicial, ressalvadas as garantias reais e fidejussórias, bem como as demais hipóteses reguladas por esta Lei.        (Incluído pela Lei nº 14.112, de 2020)      (Vigência)",
   "caminho_hierarquico": [
     "CAPÍTULO II",
     "Seção I",
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

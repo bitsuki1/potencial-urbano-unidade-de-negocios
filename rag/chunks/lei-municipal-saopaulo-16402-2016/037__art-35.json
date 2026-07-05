@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 35",
   "numero": "35",
+  "header_raw": "Art. 35. A disciplina do parcelamento do solo regula a divisão ou redivisão do solo, objetivando o",
   "caminho_hierarquico": [
     "TÍTULO III",
     "Art. 35"
@@ -31,9 +32,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

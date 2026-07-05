@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 25",
   "numero": "25",
+  "header_raw": "Art. 25. Caberá ao devedor ou à massa falida arcar com as despesas relativas à remuneração do administrador judicial e das pessoas eventualmente contratadas para auxiliá-lo.",
   "caminho_hierarquico": [
     "CAPÍTULO II",
     "Seção III",
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

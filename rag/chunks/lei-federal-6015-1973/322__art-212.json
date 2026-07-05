@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 212",
   "numero": "212",
+  "header_raw": "Art. 212. Na via do título restituída ao apresentante, com todas as folhas rubricadas, serão declarados, de forma resumida, os atos praticados em decorrência de sua apresentação, nela se consignando, obrigatoriamente, os lançamentos feitos nos Indicadores Real e Pessoal.",
   "caminho_hierarquico": [
     "TÍTULO V",
     "CAPÍTULO III",
@@ -33,12 +34,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

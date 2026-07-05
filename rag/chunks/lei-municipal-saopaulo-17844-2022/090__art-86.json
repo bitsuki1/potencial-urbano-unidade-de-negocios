@@ -1,0 +1,39 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17844-2022::090-art-86",
+  "lei_id": "lei-municipal-saopaulo-17844-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 86",
+  "numero": "86",
+  "header_raw": "Art. 86. Os Conselhos Gestores das ZEIS 1 e 3 contidas na AIU-SCE deverão participar da elaboração",
+  "caminho_hierarquico": [
+    "CAPÍTULO VII",
+    "Seção I",
+    "Art. 86"
+  ],
+  "texto": "Art. 86. Os Conselhos Gestores das ZEIS 1 e 3 contidas na AIU-SCE deverão participar da elaboração\n\ndos Planos de Urbanização ou Projetos de Intervenção no âmbito dos respectivos perímetros de ZEIS,\n\ne acompanhar a implementação de Propostas de Diretrizes de Investimento – PDI nas quais estejam\n\ncontidos.\n\nParágrafo único. O Conselho Gestor da AIU-SCE comunicará a SEHAB acerca do desenvolvimento\n\ndas PDI que contenham intervenção direta em ZEIS 1 ou 3, solicitando o início do processo de\n\nconstituição de seus Conselhos Gestores.\n\nSeção II\n\nDa atuação da SP-Urbanismo",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "lei municipal nº 17844/2022 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO VII › Seção I › Art. 86",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2022-09-14",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": []
+    }
+  },
+  "tema": [],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

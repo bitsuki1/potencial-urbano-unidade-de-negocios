@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 4º",
   "numero": "4",
+  "header_raw": "Art. 4º As operações de financiamento imobiliário em geral serão livremente efetuadas pelas entidades autorizadas a operar no SFI, segundo condições de mercado e observadas as prescrições legais.",
   "caminho_hierarquico": [
     "CAPÍTULO I",
     "Seção III",
@@ -33,10 +34,13 @@
     }
   },
   "tema": [
-    "IPTU",
     "alienacao_fiduciaria",
     "sistema_financiamento_imobiliario"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre o Sistema de Financiamento Imobiliário, institui a alienação fiduciária de coisa imóvel e dá outras providências."
 }

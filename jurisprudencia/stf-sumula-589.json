@@ -6,9 +6,7 @@
   "tema_rg_ou_repetitivo": null,
   "leading_case": null,
   "enunciado_ou_tese": "É inconstitucional a fixação de adicional progressivo do imposto predial e territorial urbano em função do número de imóveis do contribuinte.",
-  "tema": [
-    "IPTU"
-  ],
+  "tema": [],
   "dispositivos_relacionados": [
     "CTN art. 33"
   ],
@@ -22,5 +20,9 @@
   "status_pipeline": "tagueado",
   "confianca_extracao": "alta",
   "revisado_por_humano": false,
-  "verificacao_verbatim": "Enunciado confere com a captura verbatim. Sem alteração de conteúdo."
+  "verificacao_verbatim": "Enunciado confere com a captura verbatim. Sem alteração de conteúdo.",
+  "dominio_primario": "iptu",
+  "dominio": [
+    "iptu"
+  ]
 }

@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 63",
   "numero": "63",
+  "header_raw": "Art. 63. É lícito estipular no contrato, sem prejuízo de outras sanções, que a falta de pagamento, por parte do adquirente ou contratante, de 3 prestações do preço da construção, quer estabelecidas inicialmente, quer alteradas ou criadas posteriormente, quando fôr o caso, depois de prévia notificação com o prazo de 10 dias para purgação da mora, implique na rescisão do contrato, conforme nêle se fixar, ou que, na falta de pagamento, pelo débito respondem os direitos à respectiva fração ideal de terreno e à parte construída adicionada, na forma abaixo estabelecida, se outra forma não fixar o contrato.",
   "caminho_hierarquico": [
     "Título II",
     "CAPíTULO IV",
@@ -33,11 +34,14 @@
     }
   },
   "tema": [
-    "IPTU",
     "condominio_edilicio",
     "incorporacao_imobiliaria",
     "unidade_autonoma"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre o condomínio em edificações e as incorporações imobiliárias."
 }

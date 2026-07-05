@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 124",
   "numero": "124",
+  "header_raw": "Art. 124. Contra a massa falida não são exigíveis juros vencidos após a decretação da falência, previstos em lei ou em contrato, se o ativo apurado não bastar para o pagamento dos credores subordinados.",
   "caminho_hierarquico": [
     "CAPÍTULO V",
     "Seção VIII",
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

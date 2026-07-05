@@ -149,21 +149,24 @@ def outorga_onerosa(area_adicional, ca_max, fp, fs, v):
 
 
 def potencial_gerado_zepec(atc_matricula, area_desapropriada, ca_basico):
-    """ZEPEC-BIR: PC_pt = Atc_Liquido × CA_bas × 1.0 ; Atc_Liquido = Atc_Matricula − Área_Desapropriada.
-    (semantic_chunks CHK_03). F_i = 1.0 (zepec_bir)."""
+    """ZEPEC-BIR: PC_pt = Atc_Liquido × CA_bas × F_i(area) ; Atc_Liquido = Atc_Matricula − Área_Desapropriada.
+    A-02 (auditoria 2026-07-05): DELEGA ao engine de referência `pcpt.pcpt_sem_doacao`, que aplica o F_i
+    ESCALONADO pela ÁREA (LPUOS Art. 24, I–VII). Antes usava F_i=1,0 estático (stale/errado) — fonte única
+    agora é o pcpt; esta função é só o adaptador com a subtração de área desapropriada (CHK_03)."""
+    import importlib
+    _pcpt = importlib.import_module("pcpt")
     atc = _exigir_positivo(_d(atc_matricula, "atc_matricula"), "atc_matricula")
     desap = _d(area_desapropriada, "area_desapropriada")
     cab = _exigir_positivo(_d(ca_basico, "ca_basico"), "ca_basico")
-    fi = _d(FATOR_INCENTIVO["zepec_bir"], "fi")
     atc_liq = atc - desap
-    pc = atc_liq * cab * fi
+    e = _pcpt.pcpt_sem_doacao(str(atc_liq), str(cab))   # F_i escalonado nasce AQUI (fonte única)
     return {
         "artefato": "TDC_geracao_ZEPEC_BIR",
-        "valor": _q_utxo(pc, "PC_pt(ZEPEC)"),
-        "formula": "PC_pt = (Atc_Matrícula − Área_Desapropriada) × CA_bas × F_i(=1.0)",
-        "memoria_calculo": f"({atc} − {desap}) × {cab} × {fi} = {_q_utxo(pc, 'PC_pt(ZEPEC)')}",
+        "valor": _q_utxo(_d(e["valor_m2"], "PC_pt"), "PC_pt(ZEPEC)"),
+        "formula": "PC_pt = (Atc_Matrícula − Área_Desapropriada) × CA_bas × F_i(área, Art.24)",
+        "memoria_calculo": f"({atc} − {desap})={atc_liq} → {e['memoria_calculo']}",
         "inputs": {"atc_matricula": str(atc), "area_desapropriada": str(desap),
-                   "ca_basico": str(cab), "fi": str(fi), "atc_liquido": str(atc_liq)},
+                   "ca_basico": str(cab), "fi": str(e["fi"]), "atc_liquido": str(atc_liq)},
         "citacao": CITACAO["TDC_geracao_ZEPEC_BIR"],
     }
 
@@ -362,8 +365,8 @@ def _autoteste():
 
     # OODC: (1000/4)×1.2×1.0×3000 = 250×3600 = 900000
     checa("OODC", outorga_onerosa(1000, 4, "1.2", "1.0", 3000)["valor"], "900000.000")
-    # ZEPEC: (500−50)×2.0×1.0 = 900
-    checa("ZEPEC", potencial_gerado_zepec(500, 50, 2)["valor"], "900.000")
+    # ZEPEC (A-02: F_i escalonado): Atc_liq=(500−50)=450 → área ≤500 → F_i=1,2 → 450×2×1,2 = 1080
+    checa("ZEPEC (Fi escalonado Art.24)", potencial_gerado_zepec(500, 50, 2)["valor"], "1080.000")
     # Doação viário: 300×2.5×2.0 = 1500
     checa("doacao_viario", potencial_gerado_doacao(300, "2.5", "doacao_viario")["valor"], "1500.000")
     # F_i HIS = 1.9: 100×1×1.9 = 190
@@ -410,8 +413,9 @@ def _autoteste():
         potencial_gerado_doacao("10000000", 1, "doacao_his"); falhas.append("PC_pt 10^7 (Fi 1.9) não levantou overflow DECIMAL(10,3)")
     except ValueError:
         pass
-    #  (b) PC no limite (< 10^7) NÃO levanta e quantiza a 3 casas.
-    checa("PC_pt no limite (9.999.999 m²)", potencial_gerado_zepec("9999999", 0, 1)["valor"], "9999999.000")
+    #  (b) PC alto (< 10^7) NÃO levanta e quantiza a 3 casas. (via doação; A-02 delegou o zepec ao pcpt,
+    #      cujo F_i escalonado não produz mais 9.999.999 a partir de 9.999.999 m²). 5.000.000×1,9 = 9.500.000.
+    checa("PC_pt alto (<10^7) não levanta", potencial_gerado_doacao("5000000", 1, "doacao_his")["valor"], "9500000.000")
     #  (c) DECISÃO B-12: o R$ da OODC é MONETÁRIO — NÃO se sujeita ao teto UTXO (pode passar de 10^7).
     #      (1000/4)×2×1×50000 = 25.000.000 (>10^7) tem de calcular, não levantar.
     r_grande = outorga_onerosa(1000, 4, "2", "1", 50000)

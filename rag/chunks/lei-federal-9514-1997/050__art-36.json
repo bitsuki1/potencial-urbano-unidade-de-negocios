@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 36",
   "numero": "36",
+  "header_raw": "Art. 36. Nos contratos de venda de imóveis a prazo, inclusive alienação fiduciária, de arrendamento mercantil de imóveis, de financiamento imobiliário em geral e nos títulos de que tratam os arts. 6º, 7º e 8º, admitir-se-á, respeitada a legislação pertinente, a estipulação de cláusula de reajuste e das condições e critérios de sua aplicação.       (Revogado pela Medida Provisória nº 2.223, de 2001)",
   "caminho_hierarquico": [
     "CAPÍTULO III",
     "Art. 36"
@@ -32,10 +33,13 @@
     }
   },
   "tema": [
-    "IPTU",
     "alienacao_fiduciaria",
     "sistema_financiamento_imobiliario"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre o Sistema de Financiamento Imobiliário, institui a alienação fiduciária de coisa imóvel e dá outras providências."
 }

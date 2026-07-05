@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 12",
   "numero": "12",
+  "header_raw": "Art. 12. Fica dispensada do cadastramento eletrônico previsto nesta Lei a instalação de ERB móvel ou",
   "caminho_hierarquico": [
     "CAPÍTULO IV",
     "Art. 12"
@@ -27,9 +28,11 @@
       "alterada_por": []
     }
   },
-  "tema": [
-    "IPTU"
+  "tema": [],
+  "dominio": [
+    "iptu"
   ],
+  "dominio_primario": "iptu",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

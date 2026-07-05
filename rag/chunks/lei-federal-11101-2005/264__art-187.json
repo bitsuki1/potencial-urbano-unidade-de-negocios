@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 187",
   "numero": "187",
+  "header_raw": "Art. 187. Intimado da sentença que decreta a falência ou concede a recuperação judicial, o Ministério Público, verificando a ocorrência de qualquer crime previsto nesta Lei, promoverá imediatamente a competente ação penal ou, se entender necessário, requisitará a abertura de inquérito policial.",
   "caminho_hierarquico": [
     "CAPÍTULO VII",
     "Seção III",
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

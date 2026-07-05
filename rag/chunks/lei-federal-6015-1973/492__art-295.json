@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 295",
   "numero": "295",
+  "header_raw": "Art. 295. O diretor do estabelecimento em que tiver de se efetuar o registro poderá exigir, quando julgar necessário, prova da nacionalidade e do domicílio do autor ou do proprietário, bem como a do tempo da publicação.               (Suprimido pela Lei nº 6.216, de 1975)",
   "caminho_hierarquico": [
     "TÍTULO VI",
     "Art. 295"
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

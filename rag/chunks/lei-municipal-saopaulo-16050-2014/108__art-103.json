@@ -1,0 +1,45 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16050-2014::108-art-103",
+  "lei_id": "lei-municipal-saopaulo-16050-2014",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 103",
+  "numero": "103",
+  "header_raw": "Art. 103. A Prefeitura poderá exercer o direito de preempção, nos termos da legislação federal, para aquisição de imóvel urbano",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO III",
+    "Seção I",
+    "Art. 103"
+  ],
+  "texto": "Art. 103. A Prefeitura poderá exercer o direito de preempção, nos termos da legislação federal, para aquisição de imóvel urbano\n\nobjeto de alienação onerosa entre particulares sempre que necessitar de áreas para cumprir os objetivos e implantar as ações\n\nprioritárias deste Plano Diretor.\n\nParágrafo único. O direito de preempção será exercido sempre que o Poder Público necessitar de áreas para:\n\nI – execução de programas e projetos habitacionais de interesse social;\n\nII – regularização fundiária;\n\nIII – constituição de reserva fundiária;\n\nIV – ordenamento e direcionamento da expansão urbana;\n\nV – implantação de equipamentos urbanos e comunitários;\n\nhttps://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 51/166\n\n27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal\n\nVI – criação de espaços públicos de lazer ou áreas verdes;\n\nVII – criação de unidades de conservação ou proteção de outras áreas de interesse ambiental;\n\nVIII – proteção de áreas de interesse histórico, cultural ou paisagístico.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "lei municipal nº 16050/2014 — São Paulo - SP",
+    "dispositivo": "TÍTULO II › CAPÍTULO III › Seção I › Art. 103",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2014-07-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 95 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2014-07-31. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "urbanística"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

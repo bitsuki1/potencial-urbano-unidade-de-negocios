@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 68",
   "numero": "68",
+  "header_raw": "Art. 68. Caso se tenha notícia de fato que possa ensejar a cassação ou anulação do documento expedido, nos termos dos incisos II e III do art. 63 deste Código, a Prefeitura deve notificar o interessado para a apresentação de defesa no prazo de 30 (trinta) dias, de forma a garantir o contraditório e a ampla defesa, podendo, na defesa, comprovar ter sido sanada a irregularidade.",
   "caminho_hierarquico": [
     "CAPÍTULO IV",
     "Seção I",
@@ -29,9 +30,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

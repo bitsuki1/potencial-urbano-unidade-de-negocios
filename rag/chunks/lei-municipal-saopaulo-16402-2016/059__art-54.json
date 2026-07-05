@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 54",
   "numero": "54",
+  "header_raw": "Art. 54. Qualquer modificação no projeto ou na execução de parcelamento do solo, nas modalidades de",
   "caminho_hierarquico": [
     "TÍTULO III",
     "CAPÍTULO II",
@@ -32,9 +33,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

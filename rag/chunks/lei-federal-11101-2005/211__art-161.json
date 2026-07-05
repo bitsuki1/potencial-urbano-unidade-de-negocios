@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 161",
   "numero": "161",
+  "header_raw": "Art. 161. O devedor que preencher os requisitos do art. 48 desta Lei poderá propor e negociar com credores plano de recuperação extrajudicial.",
   "caminho_hierarquico": [
     "CAPÍTULO VI",
     "Art. 161"
@@ -33,12 +34,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "falencia",
     "recuperacao_judicial",
     "credito_tributario",
     "concurso_de_credores"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Regula a recuperação judicial, a extrajudicial e a falência do empresário e da sociedade empresária."
 }

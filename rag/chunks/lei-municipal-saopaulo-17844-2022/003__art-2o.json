@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 2º",
   "numero": "2",
+  "header_raw": "Art. 2º Para fins de implantação do PIU-SCE fica criada a Área de Intervenção Urbana Setor Central –",
   "caminho_hierarquico": [
     "CAPÍTULO I",
     "Seção I",
@@ -28,9 +29,11 @@
       "alterada_por": []
     }
   },
-  "tema": [
-    "IPTU"
+  "tema": [],
+  "dominio": [
+    "tdc"
   ],
+  "dominio_primario": "tdc",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

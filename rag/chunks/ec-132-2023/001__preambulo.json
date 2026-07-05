@@ -4,6 +4,7 @@
   "tipo_dispositivo": "preambulo",
   "rotulo": "Preâmbulo",
   "numero": null,
+  "header_raw": null,
   "caminho_hierarquico": [],
   "texto": "Presidência da República\nCasa Civil\nSecretaria Especial para Assuntos Jurídicos\n\nEMENDA CONSTITUCIONAL Nº 132, DE 20 DE DEZEMBRO DE 2023\n\nVigência\t\n\nAltera o Sistema Tributário Nacional.\n\nAs Mesas da Câmara dos Deputados e do Senado Federal, nos termos do § 3º do art. 60 da Constituição Federal, promulgam a seguinte Emenda ao texto constitucional:",
   "citavel": false,
@@ -28,10 +29,13 @@
     }
   },
   "tema": [
-    "IPTU",
     "reforma_tributaria",
     "sistema_tributario_nacional"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Altera o Sistema Tributário Nacional."
 }

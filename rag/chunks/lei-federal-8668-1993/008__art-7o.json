@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 7º",
   "numero": "7",
+  "header_raw": "Art. 7º Os bens e direitos integrantes do patrimônio do Fundo de Investimento Imobiliário, em especial os bens imóveis mantidos sob a propriedade fiduciária da instituição administradora, bem como seus frutos e rendimentos, não se comunicam com o patrimônio desta, observadas, quanto a tais bens e direitos, as seguintes restrições:",
   "caminho_hierarquico": [
     "Art. 7º"
   ],
@@ -32,10 +33,13 @@
     }
   },
   "tema": [
-    "IPTU",
     "fundo_investimento_imobiliario",
     "propriedade_fiduciaria"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre a constituição e o regime tributário dos Fundos de Investimento Imobiliário e dá outras providências."
 }

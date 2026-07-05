@@ -90,7 +90,11 @@ def enumerar_nao_corpus():
         "engines": {"arquivos": conta("engines"), "executavel_py": engines_py,
                     "status": "engine OODC/TDC executável (engines/tdc/oodc.py); demais são prosa/conhecimento"},
         "tabelas": {"arquivos": conta("tabelas"),
-                    "status": "VAZIO — Q14/Quadro 3 ainda no Drive, não ingeridos (AUD-04: combustível do engine)"},
+                    "status": ("VAZIO — nenhuma tabela ingerida (AUD-04: combustível do engine)"
+                               if conta("tabelas") == 0 else
+                               f"{conta('tabelas')} tabela(s) no git (Q14 valor-terreno, Quadro 3 CA/zona, "
+                               "Quadro 5 Fs, Quadro 7 parques, Fi-área LPUOS Art.24) — combustível do engine "
+                               "PRESENTE; derivado dos arquivos, não hardcoded")},
         "tese_iptu": {"arquivos": conta("tese/iptu"), "status": "vazio"},
         "tese_tdc": {"arquivos": conta("tese/tdc"), "status": "vazio"},
         "extracao_gems": {"arquivos": conta("extracao/gems"),

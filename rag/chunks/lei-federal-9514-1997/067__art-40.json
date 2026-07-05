@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 40",
   "numero": "40",
+  "header_raw": "Art. 40. Os incisos I e II do art. 167 da Lei nº 6.015, de 31 de dezembro de 1973, passam a vigorar acrescidos, respectivamente, dos seguintes itens:",
   "caminho_hierarquico": [
     "CAPÍTULO III",
     "Art. 40"
@@ -32,10 +33,13 @@
     }
   },
   "tema": [
-    "IPTU",
     "alienacao_fiduciaria",
     "sistema_financiamento_imobiliario"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre o Sistema de Financiamento Imobiliário, institui a alienação fiduciária de coisa imóvel e dá outras providências."
 }

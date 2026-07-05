@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 292",
   "numero": "292",
+  "header_raw": "Art. 292. As obras literárias e científicas, cartas geográficas e quaisquer outros escritos, inclusive composições teatrais, serão registradas na Biblioteca Nacional; as composições musicais, na Escola Nacional de Música, e as obras de caráter artístico, inclusive fotografias, na Escola Nacional de Belas Artes da Universidade Federal do Rio de Janeiro; as obras cinematográficas, no Instituto Nacional do Cinema.                       (Suprimido pela Lei nº 6.216, de 1975)",
   "caminho_hierarquico": [
     "TÍTULO VI",
     "Art. 292"
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

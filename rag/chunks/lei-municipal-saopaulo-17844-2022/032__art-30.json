@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 30",
   "numero": "30",
+  "header_raw": "Art. 30. Ficam instituídos os Projetos Especiais Minhocão, Parque Dom Pedro II e Largo da Concórdia,",
   "caminho_hierarquico": [
     "CAPÍTULO II",
     "Seção IV",
@@ -28,9 +29,11 @@
       "alterada_por": []
     }
   },
-  "tema": [
-    "IPTU"
+  "tema": [],
+  "dominio": [
+    "tdc"
   ],
+  "dominio_primario": "tdc",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

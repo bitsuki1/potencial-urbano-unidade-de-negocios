@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 301",
   "numero": "301",
+  "header_raw": "Art. 301. Proceder-se-á do mesmo modo quando, depois de efetuado o registro de uma obra, for ele novamente requerido em nome de outra pessoa, caso em que, sendo decidido que os direitos cabem ao último requerente, se lavrará novo termo de registro, fazendo-se o cancelamento do anterior.                        (Suprimido pela Lei nº 6.216, de 1975)",
   "caminho_hierarquico": [
     "TÍTULO VI",
     "Art. 301"
@@ -32,12 +33,15 @@
     }
   },
   "tema": [
-    "IPTU",
     "registros_publicos",
     "registro_de_imoveis",
     "matricula",
     "titularidade"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre os registros públicos, e dá outras providências."
 }

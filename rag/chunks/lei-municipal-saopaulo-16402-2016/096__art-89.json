@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 89",
   "numero": "89",
+  "header_raw": "Art. 89. No caso das torres das edificações destinadas aos locais de culto, o gabarito de altura máxima",
   "caminho_hierarquico": [
     "TÍTULO IV",
     "CAPÍTULO II",
@@ -32,9 +33,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

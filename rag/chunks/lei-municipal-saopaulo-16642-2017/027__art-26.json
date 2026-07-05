@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 26",
   "numero": "26",
+  "header_raw": "Art. 26. Pode ser requerido Alvará de Execução parcial para cada bloco no caso do Alvará de Aprovação compreender edificação constituída de mais de um bloco, observado o seu prazo de vigência.",
   "caminho_hierarquico": [
     "CAPÍTULO II",
     "Seção II",
@@ -29,9 +30,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

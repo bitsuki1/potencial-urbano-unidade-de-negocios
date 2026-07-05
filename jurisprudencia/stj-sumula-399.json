@@ -6,9 +6,7 @@
   "tema_rg_ou_repetitivo": null,
   "leading_case": "REsp 1111202/SP (rito dos repetitivos, Tema 122)",
   "enunciado_ou_tese": "Cabe à legislação municipal estabelecer o sujeito passivo do IPTU.",
-  "tema": [
-    "IPTU"
-  ],
+  "tema": [],
   "dispositivos_relacionados": [
     "CTN art. 34"
   ],
@@ -22,5 +20,9 @@
   "status_pipeline": "tagueado",
   "confianca_extracao": "alta",
   "revisado_por_humano": false,
-  "verificacao_verbatim": "Enunciado confere com a captura verbatim."
+  "verificacao_verbatim": "Enunciado confere com a captura verbatim.",
+  "dominio_primario": "iptu",
+  "dominio": [
+    "iptu"
+  ]
 }

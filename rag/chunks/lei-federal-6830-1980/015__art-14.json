@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 14",
   "numero": "14",
+  "header_raw": "Art. 14 - 0 Oficial de Justiça entregará contrafé e cópia do termo ou do auto de penhora ou arresto, com a ordem de registro de que trata o artigo 7º, inciso IV:",
   "caminho_hierarquico": [
     "Art. 14"
   ],
@@ -29,11 +30,14 @@
     }
   },
   "tema": [
-    "IPTU",
     "execucao_fiscal",
     "divida_ativa",
     "prescricao_intercorrente"
   ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
   "jurisdicao": "Brasil",
   "ementa": "Dispõe sobre a cobrança judicial da Dívida Ativa da Fazenda Pública, e dá outras providências."
 }

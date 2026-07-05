@@ -4,6 +4,7 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 85",
   "numero": "85",
+  "header_raw": "Art. 85. Esgotadas todas as providências administrativas para a paralisação da obra, o servidor municipal deve:",
   "caminho_hierarquico": [
     "CAPÍTULO VI",
     "Seção I",
@@ -29,9 +30,12 @@
     }
   },
   "tema": [
-    "TDC",
     "urbanística"
   ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
   "jurisdicao": "São Paulo - SP",
   "ementa": "(ver texto integral)"
 }

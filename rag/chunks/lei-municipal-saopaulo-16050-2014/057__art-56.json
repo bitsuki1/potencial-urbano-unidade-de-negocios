@@ -1,0 +1,45 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16050-2014::057-art-56",
+  "lei_id": "lei-municipal-saopaulo-16050-2014",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 56",
+  "numero": "56",
+  "header_raw": "Art. 56. Em ZEIS, até a revisão da Lei nº 13.885, de 25 de agosto de 2004, nos imóveis que não se enquadram nas exigências de",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO II",
+    "Seção IV",
+    "Art. 56"
+  ],
+  "texto": "Art. 56. Em ZEIS, até a revisão da Lei nº 13.885, de 25 de agosto de 2004, nos imóveis que não se enquadram nas exigências de\n\ndestinação de área construída para HIS, aplicam-se conjuntamente as disposições:\n\na) do Quadro 2/j anexo à Parte III da Lei nº 13.885, de 2004, quanto às características de aproveitamento, dimensionamento e\n\nocupação dos lotes;\n\nb) do Quadro 2/i anexo à Parte III da Lei nº 13.885, de 2004, quanto às condições de instalação dos usos não residenciais nR\n\npermitidos em ZEIS.\n\nhttps://legislacao.prefeitura.sp.gov.br/leis/lei-16050-de-31-de-julho-de-2014 30/166\n\n27/02/2026, 11:39 LEI Nº 16.050 DE 31 DE JULHO DE 2014 « Catálogo de Legislação Municipal\n\nParágrafo único. Até a revisão da Lei nº 13.885, de 2004, aplicam-se para as ZEIS 5 os mesmos parâmetros estabelecidos para a\n\nZEIS 3 nos quadros referidos no “caput”.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "lei municipal nº 16050/2014 — São Paulo - SP",
+    "dispositivo": "TÍTULO II › CAPÍTULO II › Seção IV › Art. 56",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2014-07-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 95 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2014-07-31. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "urbanística"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}
