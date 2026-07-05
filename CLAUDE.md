@@ -93,6 +93,7 @@ Este repo é a unidade **Potencial Urbano** (RAG Jurídico IPTU/TDC) do portfól
 - Se montou TAMBÉM o `escritorio-do-mou`, o chapéu é o do ESCRITÓRIO (a constituição dele manda); este repo é DADO a ler/servir.
 - As **diretrizes do escritório** para este projeto vivem em `DO_ESCRITORIO.md` (raiz) — canal D44; diretriz é proposta fundamentada, não ordem cega.
 - **Doutrina herdada (obrigatória):** zero-compressão · dialético · agnosticismo · nada se joga fora. SSOT da doutrina = `escritorio-do-mou/CLAUDE.md`. Em divergência, vale o escritório.
+- **Escopo é do dono (D21/D157/A-296):** a instância propõe, o dono decide. O que ele pediu **nunca** é "extra"; **nunca** se oferece "parar" um item solicitado. Bloqueio = fato + caminho (recomendação fechada); o dono decide o **COMO**, não o **SE**.
 
 ### Políticas transversais do portfólio (aplicam-se a esta unidade)
 > Descidas do escritório em 2026-06-27 (canal D44; SSOT no `escritorio-do-mou`). Aplicadas sob o gate do projeto (D21).
