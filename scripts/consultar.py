@@ -16,9 +16,10 @@ inventa fato: DEVOLVE o(s) dispositivo(s) verbatim; a redação fica com o LLM r
 citações (1.3).
 
 FILTRO TEMPORAL (2.6/1.6): `--data AAAA-MM-DD` exclui dispositivos cuja vigência (inicio/fim) não
-cobre a data. LIMITE HONESTO: normas sem `vigencia.inicio/fim` (hoje as 15 municipais só têm
-`em_vigor:true`, achado A-3) NÃO podem ser filtradas por data e são mantidas — o eixo temporal
-existe mas degrada à honestidade do metadado disponível.
+cobre a data. Os chunks indexados HOJE carregam `vigencia.inicio` datada e o filtro FUNCIONA
+(--data 1900→0 resultados, 2050→traz os vigentes). LIMITE HONESTO remanescente (C-05): dispositivo
+`compilado` ("Redação dada pela Lei X/AAAA") ainda usa o `inicio` da lei-MÃE, não a data da redação
+nova — imprecisão a fechar. Normas sem `inicio` (as 12 municipais `bruto`, não indexadas) não entram.
 
 Uso:
     python3 scripts/consultar.py "valor venal de imóvel residencial pode subir quanto em 1969?"
@@ -113,12 +114,24 @@ BM25_K1, BM25_B = 1.5, 0.75
 #   ≥2 termos casados quando a pergunta tem ≥2 termos de conteúdo (mata "direito" p/ "direito de construir").
 COBERTURA_MIN = 0.34
 SCORE_MIN = 1.5
+# B-04 (auditoria 2026-07-05): a cobertura sem peso é gameável em pergunta LONGA — casar 3 palavras
+# comuns com todos os termos-tema ausentes passava FUNDAMENTADA. A trava de COBERTURA PONDERADA POR IDF
+# exige que o top-1 cubra fração suficiente do PESO discriminativo da pergunta: termos raros/específicos
+# (inclusive os AUSENTES do corpus — idf máximo) pesam no denominador, então uma pergunta cujo miolo
+# temático não casa é rejeitada, mesmo casando muitos termos comuns.
+WCOB_MIN = 0.40   # calibrado (auditoria): armadilha multi-termo=0,30 ✗ · mínimo legítimo dos evals=0,48 ✓
+
+
+def _idf(tok, N, df):
+    # df ausente (tok fora do corpus) → df=0 → idf máximo (termo maximamente específico e não-casável).
+    d = df.get(tok, 0)
+    return math.log(1 + (N - d + 0.5) / (d + 0.5))
 
 
 def pontuar(pergunta, inv, elegiveis):
     """Etapa 2 (2.6): BM25 sobre o índice invertido, restrito aos elegíveis.
     BM25 normaliza por tamanho do dispositivo — artigo longo (muito texto citado) não vence
-    só por ser grande. Retorna (scores, termos_casados, termos_conteudo_da_pergunta)."""
+    só por ser grande. Retorna (scores, termos_casados, termos_pergunta, idf_por_termo)."""
     N = inv.get("N", 0) or 1
     avgdl = inv.get("avgdl") or 1.0
     df = inv.get("df", {})
@@ -126,12 +139,13 @@ def pontuar(pergunta, inv, elegiveis):
     postings = inv.get("postings", {})
 
     termos_pergunta = list(dict.fromkeys(tokenizar(pergunta)))  # distintos, ordem preservada
+    idf_por_termo = {tok: _idf(tok, N, df) for tok in termos_pergunta}
     scores = {}
     termos_casados = {}
     for tok in termos_pergunta:
         if tok not in postings:
             continue
-        idf = math.log(1 + (N - df.get(tok, 1) + 0.5) / (df.get(tok, 1) + 0.5))
+        idf = idf_por_termo[tok]
         for cid, tf in postings[tok].items():
             if cid not in elegiveis:
                 continue
@@ -139,7 +153,7 @@ def pontuar(pergunta, inv, elegiveis):
             denom = tf + BM25_K1 * (1 - BM25_B + BM25_B * dl / avgdl)
             scores[cid] = scores.get(cid, 0.0) + idf * (tf * (BM25_K1 + 1)) / denom
             termos_casados.setdefault(cid, set()).add(tok)
-    return scores, termos_casados, termos_pergunta
+    return scores, termos_casados, termos_pergunta, idf_por_termo
 
 
 def consultar(pergunta, lei=None, tema=None, jurisdicao=None, data=None, dominio=None, top=3,
@@ -147,10 +161,11 @@ def consultar(pergunta, lei=None, tema=None, jurisdicao=None, data=None, dominio
     store, inv, meta = carregar_indice()
     elegiveis = filtrar(meta, lei=lei, tema=tema, jurisdicao=jurisdicao, data=data, dominio=dominio,
                         incluir_revogado=incluir_revogado, incluir_nao_citavel=incluir_nao_citavel)
-    scores, termos, termos_pergunta = pontuar(pergunta, inv, elegiveis)
+    scores, termos, termos_pergunta, idf_termo = pontuar(pergunta, inv, elegiveis)
     ranked = sorted(scores.items(), key=lambda kv: kv[1], reverse=True)[:top]
 
     n_conteudo = len(termos_pergunta) or 1
+    idf_total = sum(idf_termo.values()) or 1.0
     resultados = []
     for cid, score in ranked:
         c = store[cid]
@@ -159,6 +174,8 @@ def consultar(pergunta, lei=None, tema=None, jurisdicao=None, data=None, dominio
             "chunk_id": cid,
             "score": round(score, 4),
             "cobertura": round(len(casados) / n_conteudo, 3),
+            # B-04: cobertura PONDERADA por IDF (peso discriminativo casado / peso total da pergunta).
+            "cobertura_idf": round(sum(idf_termo[t] for t in casados) / idf_total, 3),
             "n_casados": len(casados),
             "termos_casados": casados,
             "citacao": c.get("citacao"),
@@ -167,18 +184,21 @@ def consultar(pergunta, lei=None, tema=None, jurisdicao=None, data=None, dominio
             "vigencia_dispositivo": c.get("vigencia_dispositivo") or {"status": "original"},
         })
 
-    # GATE 1.7 (três travas — ver SCORE_MIN/COBERTURA_MIN acima).
+    # GATE 1.7 (quatro travas — ver SCORE_MIN/COBERTURA_MIN/WCOB_MIN acima).
     motivo = "nenhum dispositivo no corpus indexado"
     fundamentada = False
     if resultados:
         top1 = resultados[0]
-        cob, sc, ncas = top1["cobertura"], top1["score"], top1["n_casados"]
+        cob, sc, ncas, wcob = top1["cobertura"], top1["score"], top1["n_casados"], top1["cobertura_idf"]
         if cob < COBERTURA_MIN:
             motivo = f"cobertura {cob:.0%} < {COBERTURA_MIN:.0%}"
         elif sc < SCORE_MIN:
             motivo = f"score {sc} < piso {SCORE_MIN}"
         elif n_conteudo >= 2 and ncas < 2:
             motivo = f"só {ncas} termo casado (match genérico) para pergunta de {n_conteudo} termos"
+        elif wcob < WCOB_MIN:
+            motivo = (f"cobertura-IDF {wcob:.0%} < {WCOB_MIN:.0%} (só termos comuns casaram; "
+                      f"o miolo discriminativo da pergunta não foi coberto)")
         else:
             fundamentada = True
     veredito = "FUNDAMENTADA" if fundamentada else (
@@ -192,14 +212,29 @@ def consultar(pergunta, lei=None, tema=None, jurisdicao=None, data=None, dominio
         "fundamentada": fundamentada,
         "veredito": veredito,
         "resultados": resultados,
+        # B-03 (auditoria): declara a cobertura do corpus INDEXADO (parcial) — o veredito FUNDAMENTADA
+        # vale sobre o que está indexado, não sobre todo o acervo. Honestidade de cobertura.
+        "corpus": _cobertura_corpus(meta),
     }
+
+
+def _cobertura_corpus(meta):
+    leis_idx = {m.get("lei_id") for m in meta.values() if m.get("lei_id")}
+    total = len(list((RAIZ / "leis").rglob("*.json")))
+    return {"leis_indexadas": len(leis_idx), "leis_no_acervo": total,
+            "chunks": len(meta), "parcial": len(leis_idx) < total}
 
 
 def imprimir_humano(r):
     print(f"PERGUNTA: {r['pergunta']}")
     if any(r["filtros"].values()):
         print(f"FILTROS:  {json.dumps(r['filtros'], ensure_ascii=False)}")
-    print(f"VEREDITO: {r['veredito']}\n")
+    print(f"VEREDITO: {r['veredito']}")
+    cc = r.get("corpus") or {}
+    if cc.get("parcial"):
+        print(f"CORPUS:   PARCIAL — {cc['leis_indexadas']}/{cc['leis_no_acervo']} leis indexadas "
+              f"({cc['chunks']} chunks). A resposta vale sobre o corpus indexado, não todo o acervo.")
+    print()
     if not r["fundamentada"]:
         print("Resposta NÃO emitida — sem dispositivo que fundamente com citação (CLAUDE.md 1.7).")
         if r["resultados"]:

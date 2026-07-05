@@ -97,6 +97,24 @@ def main():
         gate = _run("scripts/gate-arrumacao.py")
         _ck("PLANO pronto" not in gate.stdout, "gate ainda em fase 'plano' após um move (deveria ser execução)")
 
+        # Correções da auditoria 2026-07-05: A-07 (PENDENTE≠hash), A-09 (multi-pai→triagem),
+        # B-05 (nativo→nativo_ignorado), B-06 (jaLaDRYRUN ignorado).
+        LOG.write_text(
+            f"MOVE_LINHA ZZsemhash,F,,,moved\n"           # movido SEM md5 → C5 deve reprovar
+            f"MOVE_LINHA ZZnativo,F,,,nativo\n"            # nativo → terminal, C5 não exige hash
+            f"MOVE_LINHA ZZmp,F,mmm,9,MULTI_PAI_MANUAL\n"  # multi-pai → triagem (não movido)
+            f"MOVE_LINHA ZZja,F,,,jaLaDRYRUN\n", encoding="utf-8")  # ensaio → ignorado
+        _reconciliar()
+        me = _mestre()
+        _ck(me.get("ZZnativo", {}).get("status_arrumacao") == "nativo_ignorado", "B-05: nativo não virou terminal")
+        _ck(me.get("ZZmp", {}).get("status_arrumacao") == "triagem", "A-09: multi-pai não virou triagem")
+        _ck("ZZja" not in me, "B-06: jaLaDRYRUN não foi ignorado (entrou no índice)")
+        g2 = _run("scripts/gate-arrumacao.py")
+        _ck("VERMELHO" in g2.stdout and "ZZsemhash" not in g2.stdout or "sem hash_md5" in g2.stdout,
+            "A-07: C5 não reprovou o movido sem hash (PENDENTE/vazio)")
+        # limpa este bloco antes do R4
+        LOG.unlink(); _reconciliar()
+
         # R4 — OFICIAL quarentenado sob canônica NOSSA deve BLOQUEAR (exit 2)
         LOG.write_text(
             'INV_INICIO\n'

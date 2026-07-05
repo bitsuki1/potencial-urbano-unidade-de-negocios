@@ -33,6 +33,13 @@ def main():
     store, inv, meta = C.carregar_indice()
     falhas = []
 
+    # I0 (B-01, auditoria 2026-07-05): o facet `tdc` NÃO pode ser vácuo — se não houver chunk tdc-puro,
+    # o teste de não-poluição tdc→ipto é tautológico e `--dominio tdc` vira "só compartilhado". Guarda
+    # contra a regressão que a auditoria pegou (0 chunks tdc por a 17.844 estar mistagueada iptu).
+    n_tdc_puro = sum(1 for v in meta.values() if (v.get("dominio") or []) == ["tdc"])
+    if n_tdc_puro == 0:
+        falhas.append("I0: 0 chunks tdc-puro — o facet 'tdc' está vácuo (a separação TDC seria oca)")
+
     # I1 + I2 — não-poluição e não-perda, nos dois sentidos.
     eleg_tdc = C.filtrar(meta, dominio="tdc")
     eleg_iptu = C.filtrar(meta, dominio="iptu")

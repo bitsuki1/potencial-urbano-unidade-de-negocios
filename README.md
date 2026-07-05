@@ -1,6 +1,14 @@
 # potencial-urbano-unidade-de-negocios
 Projeto RAG jurídico IPTU/TDC — Potencial Urbano. Documento de fundação e pipeline.
 
+> **COBERTURA DO CORPUS (honestidade — auditoria A-11, 2026-07-05):** o RAG indexado hoje é **PARCIAL e
+> majoritariamente IPTU**: 19 de 31 leis fatiadas/indexadas; **0 leis exclusivamente TDC no corpus git**
+> exceto a Lei 17.844/2022. A massa normativa **TDC** (Decreto 57.536/2016 e decretos ZEPEC/CONPRESP)
+> **AINDA NÃO foi ingerida** — logo o RAG **não fundamenta consultas TDC-normativas** sobre esses textos
+> (as tabelas TDC existem e o engine `pcpt.py` está provado, mas o texto-fonte de vários dispositivos que
+> elas citam está fora do RAG). A consulta declara "CORPUS: PARCIAL" no veredito. Ingerir o TDC normativo
+> é decisão de escopo do dono (BACKLOG).
+
 ## Boot / instanciação
 Toda instância nova roda o **ritual de boot**: ler `PROXIMA-INSTANCIA.md` → `HANDOFF-E-PENDENCIAS.md` → `MANIFESTO.json` → `BACKLOG.md`, processar a `caixa-de-entrada/`, confirmar o chapéu no `REGISTRO-DE-INSTANCIAS.md` e, ao fechar, rodar `python3 scripts/fechar-instancia.py` (gate mecânico).
 

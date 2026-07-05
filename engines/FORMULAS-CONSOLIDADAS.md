@@ -46,26 +46,30 @@ localizadas** sob esses nomes. O equivalente funcional encontrado e lido é o co
 
 ## 1.1 Geração de Potencial Construtivo — ZEPEC-BIR (preservação/tombamento)
 
-**Prosa.** Para imóvel enquadrado como ZEPEC-BIR (Bens de Interesse de Restauro / tombados), o potencial passível de
-transferência é gerado pelo **Coeficiente Básico** sobre a área computável líquida, com Fator de Incentivo estático
-igual a 1,0. As versões lidas são explícitas em **revogar** a antiga subtração de área `(CA_max − CA_ut)`.
+> **CORREÇÃO A-02 (auditoria 2026-07-05):** a versão abaixo ensinava **F_i = 1,0 estático** — isto era
+> **STALE e ERRADO**. O F_i é **ESCALONADO pela ÁREA do lote** (LPUOS Lei 16.402/2016, Art. 24, I–VII),
+> conforme o verbatim da lei e o engine de referência `engines/tdc/pcpt.py` (provado em 7 cedentes reais
+> por `evals/eval-produto.py`). O texto original fica abaixo TACHADO como registro do erro.
+
+**Prosa (corrigida).** Para imóvel ZEPEC-BIR (tombados), o potencial passível de transferência é gerado pelo
+**Coeficiente Básico** sobre a área computável líquida, com **Fator de Incentivo F_i escalonado pela área do
+lote** (Art. 24: ≤500 m²→1,2 · ≤2.000→1,0 · ≤5.000→0,9 · ≤10.000→0,7 · ≤20.000→0,5 · ≤50.000→0,2 · >50.000→0,1).
 
 ```
-PC_pt = Atc_Liquido × CA_bas × F_i        (com F_i = 1,0 para ZEPEC-BIR)
+PC_pt = Atc_Liquido × CA_bas × F_i(area)        F_i pela faixa de ÁREA — LPUOS Art. 24, I–VII
 Atc_Liquido = Atc_Matricula − Area_Desapropriada_Averbada
 ```
 
 **Variáveis:**
 - `PC_pt` — Potencial Construtivo passível de Transferência (m²).
-- `Atc_Liquido` — Área de Terreno Computável líquida.
-- `Atc_Matricula` — área de terreno conforme matrícula.
-- `Area_Desapropriada_Averbada` — área já desapropriada e averbada (subtraída).
-- `CA_bas` — Coeficiente de Aproveitamento Básico do lote.
-- `F_i` — Fator de Incentivo; **literal = 1,0** para ZEPEC-BIR.
+- `Atc_Liquido` — Área de Terreno Computável líquida (matrícula − desapropriada averbada).
+- `CA_bas` — Coeficiente de Aproveitamento Básico do lote (Quadro 3).
+- `F_i` — Fator de Incentivo **escalonado pela área** (Art. 24, I–VII LPUOS). **NÃO é 1,0 fixo.**
 
-**Base legal:** PDE Lei 16.050/2014; LPUOS Lei 16.402/2016; F_i estático atribuído à **Lei 17.975/2023** (F-F).
-**Fonte:** F-D (CHK_03), F-E (`fator_incentivo_fi.zepec_bir = 1.0`), F-F (negative prompt nº 2 e nº 3).
-**Divergência:** ver §1.5 (conflito de redação OO vs. geração) — sem conflito interno nesta fórmula entre as versões lidas.
+**Base legal:** PDE Lei 16.050/2014 (Art. 125); LPUOS Lei 16.402/2016 (Art. 24 — o escalonamento).
+**Engine de referência:** `engines/tdc/pcpt.py` (`pcpt_sem_doacao`); gate `evals/eval-produto.py`.
+
+> ~~[ERRADO — registro do stale] PC_pt = Atc_Liquido × CA_bas × F_i (com F_i = 1,0 para ZEPEC-BIR); F_i estático atribuído à Lei 17.975/2023.~~
 
 ## 1.2 Geração de Potencial Construtivo — DOAÇÃO (HIS / Viário / Parques)
 

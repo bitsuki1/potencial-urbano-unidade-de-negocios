@@ -18586,7 +18586,39 @@
     },
     "citavel": true
   },
-  "lei-federal-4591-1964::083-art-55": {
+  "lei-federal-4591-1964::083-art-54": {
+    "lei_id": "lei-federal-4591-1964",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 54",
+    "tema": [
+      "condominio_edilicio",
+      "incorporacao_imobiliaria",
+      "unidade_autonoma"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "1964-12-16",
+      "fim": null,
+      "revogada_por": "parcialmente — a parte de condomínio convive com o Código Civil/2002 (arts. 1.331 e ss.)",
+      "altera": [],
+      "alterada_por": [
+        "Código Civil/2002 (Lei 10.406/2002)",
+        "Lei 10.931/2004 (patrimônio de afetação)",
+        "Lei 4.864/1965"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": []
+    },
+    "citavel": true
+  },
+  "lei-federal-4591-1964::084-art-55": {
     "lei_id": "lei-federal-4591-1964",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 55",
@@ -18618,7 +18650,7 @@
     },
     "citavel": true
   },
-  "lei-federal-4591-1964::084-art-56": {
+  "lei-federal-4591-1964::085-art-56": {
     "lei_id": "lei-federal-4591-1964",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 56",
@@ -18650,7 +18682,7 @@
     },
     "citavel": true
   },
-  "lei-federal-4591-1964::085-art-57": {
+  "lei-federal-4591-1964::086-art-57": {
     "lei_id": "lei-federal-4591-1964",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 57",
@@ -18682,7 +18714,7 @@
     },
     "citavel": true
   },
-  "lei-federal-4591-1964::086-art-58": {
+  "lei-federal-4591-1964::087-art-58": {
     "lei_id": "lei-federal-4591-1964",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 58",
@@ -18714,7 +18746,7 @@
     },
     "citavel": true
   },
-  "lei-federal-4591-1964::087-art-59": {
+  "lei-federal-4591-1964::088-art-59": {
     "lei_id": "lei-federal-4591-1964",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 59",
@@ -18746,7 +18778,7 @@
     },
     "citavel": true
   },
-  "lei-federal-4591-1964::088-art-60": {
+  "lei-federal-4591-1964::089-art-60": {
     "lei_id": "lei-federal-4591-1964",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 60",
@@ -18778,7 +18810,7 @@
     },
     "citavel": true
   },
-  "lei-federal-4591-1964::089-art-61": {
+  "lei-federal-4591-1964::090-art-61": {
     "lei_id": "lei-federal-4591-1964",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 61",
@@ -18810,7 +18842,7 @@
     },
     "citavel": true
   },
-  "lei-federal-4591-1964::090-art-62": {
+  "lei-federal-4591-1964::091-art-62": {
     "lei_id": "lei-federal-4591-1964",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 62",
@@ -18842,7 +18874,7 @@
     },
     "citavel": true
   },
-  "lei-federal-4591-1964::091-art-63": {
+  "lei-federal-4591-1964::092-art-63": {
     "lei_id": "lei-federal-4591-1964",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 63",
@@ -18874,7 +18906,7 @@
     },
     "citavel": true
   },
-  "lei-federal-4591-1964::092-art-64": {
+  "lei-federal-4591-1964::093-art-64": {
     "lei_id": "lei-federal-4591-1964",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 64",
@@ -18906,7 +18938,7 @@
     },
     "citavel": true
   },
-  "lei-federal-4591-1964::093-art-65": {
+  "lei-federal-4591-1964::094-art-65": {
     "lei_id": "lei-federal-4591-1964",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 65",
@@ -18938,7 +18970,7 @@
     },
     "citavel": true
   },
-  "lei-federal-4591-1964::094-art-66": {
+  "lei-federal-4591-1964::095-art-66": {
     "lei_id": "lei-federal-4591-1964",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 66",
@@ -18970,7 +19002,7 @@
     },
     "citavel": true
   },
-  "lei-federal-4591-1964::095-art-67": {
+  "lei-federal-4591-1964::096-art-67": {
     "lei_id": "lei-federal-4591-1964",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 67",
@@ -19002,42 +19034,10 @@
     },
     "citavel": true
   },
-  "lei-federal-4591-1964::096-art-67-a": {
+  "lei-federal-4591-1964::097-art-67-a": {
     "lei_id": "lei-federal-4591-1964",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 67-A",
-    "tema": [
-      "condominio_edilicio",
-      "incorporacao_imobiliaria",
-      "unidade_autonoma"
-    ],
-    "dominio": [
-      "iptu"
-    ],
-    "dominio_primario": "iptu",
-    "jurisdicao": "Brasil",
-    "vigencia": {
-      "inicio": "1964-12-16",
-      "fim": null,
-      "revogada_por": "parcialmente — a parte de condomínio convive com o Código Civil/2002 (arts. 1.331 e ss.)",
-      "altera": [],
-      "alterada_por": [
-        "Código Civil/2002 (Lei 10.406/2002)",
-        "Lei 10.931/2004 (patrimônio de afetação)",
-        "Lei 4.864/1965"
-      ]
-    },
-    "vigencia_dispositivo": {
-      "status": "original",
-      "revogado_por": null,
-      "marcadores": []
-    },
-    "citavel": true
-  },
-  "lei-federal-4591-1964::097-art-68": {
-    "lei_id": "lei-federal-4591-1964",
-    "tipo_dispositivo": "artigo",
-    "rotulo": "Art. 68",
     "tema": [
       "condominio_edilicio",
       "incorporacao_imobiliaria",
@@ -19092,6 +19092,38 @@
       ]
     },
     "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": []
+    },
+    "citavel": true
+  },
+  "lei-federal-4591-1964::099-art-68": {
+    "lei_id": "lei-federal-4591-1964",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 68",
+    "tema": [
+      "condominio_edilicio",
+      "incorporacao_imobiliaria",
+      "unidade_autonoma"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "1964-12-16",
+      "fim": null,
+      "revogada_por": "parcialmente — a parte de condomínio convive com o Código Civil/2002 (arts. 1.331 e ss.)",
+      "altera": [],
+      "alterada_por": [
+        "Código Civil/2002 (Lei 10.406/2002)",
+        "Lei 10.931/2004 (patrimônio de afetação)",
+        "Lei 4.864/1965"
+      ]
+    },
+    "vigencia_dispositivo": {
       "status": "compilado",
       "revogado_por": null,
       "marcadores": [
@@ -19100,7 +19132,7 @@
     },
     "citavel": true
   },
-  "lei-federal-4591-1964::099-art-69": {
+  "lei-federal-4591-1964::100-art-69": {
     "lei_id": "lei-federal-4591-1964",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 69",
@@ -19132,7 +19164,7 @@
     },
     "citavel": true
   },
-  "lei-federal-4591-1964::100-art-70": {
+  "lei-federal-4591-1964::101-art-70": {
     "lei_id": "lei-federal-4591-1964",
     "tipo_dispositivo": "artigo",
     "rotulo": "Art. 70",
@@ -54928,9 +54960,9 @@
     "rotulo": "Preâmbulo",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -54952,9 +54984,9 @@
     "rotulo": "Art. 1º",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -54978,9 +55010,9 @@
     "rotulo": "Art. 2º",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -55002,9 +55034,9 @@
     "rotulo": "Art. 3º",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -55026,9 +55058,9 @@
     "rotulo": "Art. 4º",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -55050,9 +55082,9 @@
     "rotulo": "Art. 5º",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -55074,9 +55106,9 @@
     "rotulo": "Art. 6º",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -55098,9 +55130,9 @@
     "rotulo": "Art. 7º",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -55124,9 +55156,9 @@
     "rotulo": "Art. 8º",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -55148,9 +55180,9 @@
     "rotulo": "Art. 9º",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -55172,9 +55204,9 @@
     "rotulo": "Art. 10",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -55196,9 +55228,9 @@
     "rotulo": "Art. 11",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -55220,9 +55252,9 @@
     "rotulo": "Art. 11-A",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -55244,9 +55276,9 @@
     "rotulo": "Art. 12",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -55268,9 +55300,9 @@
     "rotulo": "Art. 13",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -55292,9 +55324,9 @@
     "rotulo": "Art. 14",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -55318,9 +55350,9 @@
     "rotulo": "Art. 15",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -55342,9 +55374,9 @@
     "rotulo": "Art. 16",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -55366,9 +55398,9 @@
     "rotulo": "Art. 17",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -55390,9 +55422,9 @@
     "rotulo": "Art. 18",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -55414,9 +55446,9 @@
     "rotulo": "Art. 19",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -55438,9 +55470,9 @@
     "rotulo": "Art. 20",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -55462,9 +55494,9 @@
     "rotulo": "Art. 21",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -55486,9 +55518,9 @@
     "rotulo": "Art. 22",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -55510,9 +55542,9 @@
     "rotulo": "Art. 23",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -55534,9 +55566,9 @@
     "rotulo": "Art. 24",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -55558,9 +55590,9 @@
     "rotulo": "Art. 25",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -55582,9 +55614,9 @@
     "rotulo": "Art. 26",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -55606,9 +55638,9 @@
     "rotulo": "Art. 27",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -55630,9 +55662,9 @@
     "rotulo": "Art. 28",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -55654,9 +55686,9 @@
     "rotulo": "Art. 29",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -55678,9 +55710,9 @@
     "rotulo": "Art. 30",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -55702,9 +55734,9 @@
     "rotulo": "Art. 31",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -55726,9 +55758,9 @@
     "rotulo": "Art. 32",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -55750,9 +55782,9 @@
     "rotulo": "Art. 33",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -55774,9 +55806,9 @@
     "rotulo": "Art. 34",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -55798,9 +55830,9 @@
     "rotulo": "Art. 35",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -55822,9 +55854,9 @@
     "rotulo": "Art. 36",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -55846,9 +55878,9 @@
     "rotulo": "Art. 36-A",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -55870,9 +55902,9 @@
     "rotulo": "Art. 37",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -55894,9 +55926,9 @@
     "rotulo": "Art. 38",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -55918,9 +55950,9 @@
     "rotulo": "Art. 39",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -55942,9 +55974,9 @@
     "rotulo": "Art. 40",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -55968,9 +56000,9 @@
     "rotulo": "Art. 40-A",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -55992,9 +56024,9 @@
     "rotulo": "Art. 41",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -56016,9 +56048,9 @@
     "rotulo": "Art. 42",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -56040,9 +56072,9 @@
     "rotulo": "Art. 43",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -56064,9 +56096,9 @@
     "rotulo": "Art. 44",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -56088,9 +56120,9 @@
     "rotulo": "Art. 45",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -56112,9 +56144,9 @@
     "rotulo": "Art. 46",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -56136,9 +56168,9 @@
     "rotulo": "Art. 47",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -56160,9 +56192,9 @@
     "rotulo": "Art. 48",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -56184,9 +56216,9 @@
     "rotulo": "Art. 49",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -56208,9 +56240,9 @@
     "rotulo": "Art. 50",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -56232,9 +56264,9 @@
     "rotulo": "Art. 51",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -56256,9 +56288,9 @@
     "rotulo": "Art. 52",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -56280,9 +56312,9 @@
     "rotulo": "Art. 53",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -56304,9 +56336,9 @@
     "rotulo": "Art. 54",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -56328,9 +56360,9 @@
     "rotulo": "Art. 55",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -56352,9 +56384,9 @@
     "rotulo": "Art. 56",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -56376,9 +56408,9 @@
     "rotulo": "Art. 57",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -56400,9 +56432,9 @@
     "rotulo": "Art. 58",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -56424,9 +56456,9 @@
     "rotulo": "Art. 59",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -56448,9 +56480,9 @@
     "rotulo": "Art. 60",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -56472,9 +56504,9 @@
     "rotulo": "Art. 61",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -56496,9 +56528,9 @@
     "rotulo": "Art. 62",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -56520,9 +56552,9 @@
     "rotulo": "Art. 63",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -56544,9 +56576,9 @@
     "rotulo": "Art. 64",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -56568,9 +56600,9 @@
     "rotulo": "Art. 65",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -56592,9 +56624,9 @@
     "rotulo": "Art. 66",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -56616,9 +56648,9 @@
     "rotulo": "Art. 67",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -56640,9 +56672,9 @@
     "rotulo": "Art. 68",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -56664,9 +56696,9 @@
     "rotulo": "Art. 69",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -56688,9 +56720,9 @@
     "rotulo": "Art. 70",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -56712,9 +56744,9 @@
     "rotulo": "Art. 71",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -56738,9 +56770,9 @@
     "rotulo": "Art. 72",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -56762,9 +56794,9 @@
     "rotulo": "Art. 73",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -56786,9 +56818,9 @@
     "rotulo": "Art. 74",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -56810,9 +56842,9 @@
     "rotulo": "Art. 75",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -56834,9 +56866,9 @@
     "rotulo": "Art. 76",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -56860,9 +56892,9 @@
     "rotulo": "Art. 77",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -56884,9 +56916,9 @@
     "rotulo": "Art. 78",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -56908,9 +56940,9 @@
     "rotulo": "Art. 79",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -56932,9 +56964,9 @@
     "rotulo": "Art. 80",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -56956,9 +56988,9 @@
     "rotulo": "Art. 81",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -56980,9 +57012,9 @@
     "rotulo": "Art. 82",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -57004,9 +57036,9 @@
     "rotulo": "Art. 83",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -57028,9 +57060,9 @@
     "rotulo": "Art. 84",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -57052,9 +57084,9 @@
     "rotulo": "Art. 85",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -57076,9 +57108,9 @@
     "rotulo": "Art. 86",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -57100,9 +57132,9 @@
     "rotulo": "Art. 87",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -57124,9 +57156,9 @@
     "rotulo": "Art. 88",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -57148,9 +57180,9 @@
     "rotulo": "Art. 89",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -57172,9 +57204,9 @@
     "rotulo": "Art. 90",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -57196,9 +57228,9 @@
     "rotulo": "Art. 91",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -57220,9 +57252,9 @@
     "rotulo": "Art. 92",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -57244,9 +57276,9 @@
     "rotulo": "Art. 93",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -57268,9 +57300,9 @@
     "rotulo": "Art. 94",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -57292,9 +57324,9 @@
     "rotulo": "Art. 95",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -57316,9 +57348,9 @@
     "rotulo": "Art. 96",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -57340,9 +57372,9 @@
     "rotulo": "Art. 97",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -57364,9 +57396,9 @@
     "rotulo": "Art. 98",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -57388,9 +57420,9 @@
     "rotulo": "Art. 99",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -57412,9 +57444,9 @@
     "rotulo": "Art. 100",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -57436,9 +57468,9 @@
     "rotulo": "Art. 101",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -57460,9 +57492,9 @@
     "rotulo": "Art. 102",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -57484,9 +57516,9 @@
     "rotulo": "Art. 103",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -57508,9 +57540,9 @@
     "rotulo": "Art. 104",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -57532,9 +57564,9 @@
     "rotulo": "Art. 105",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -57556,9 +57588,9 @@
     "rotulo": "Art. 106",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -57580,9 +57612,9 @@
     "rotulo": "Art. 107",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -57604,9 +57636,9 @@
     "rotulo": "Art. 107-A",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -57628,9 +57660,9 @@
     "rotulo": "Art. 108",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -57652,9 +57684,9 @@
     "rotulo": "Art. 109",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -57676,9 +57708,9 @@
     "rotulo": "Art. 110",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",
@@ -57700,9 +57732,9 @@
     "rotulo": "Art. 111",
     "tema": [],
     "dominio": [
-      "iptu"
+      "tdc"
     ],
-    "dominio_primario": "iptu",
+    "dominio_primario": "tdc",
     "jurisdicao": "São Paulo - SP",
     "vigencia": {
       "inicio": "2022-09-14",

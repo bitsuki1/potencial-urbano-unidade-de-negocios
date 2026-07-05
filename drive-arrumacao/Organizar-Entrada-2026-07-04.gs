@@ -1402,7 +1402,7 @@ function organizarEntrada() {
   const props = PropertiesService.getScriptProperties();
   let i = parseInt(props.getProperty('cursor')||'0', 10);
   const t0 = Date.now();
-  let moved=0, skip=0, err=0, jaLa=0;
+  let moved=0, skip=0, err=0, jaLa=0, multiPai=0, nativos=0;
   if (typeof Drive === 'undefined' || !Drive.Files)
     Logger.log('AVISO: serviço "Drive API" v3 desligado — MOVE_LINHA sai sem md5 e o C5 do gate não '
              + 'fechará p/ estes itens. Ligue em Serviços + > Drive API p/ trilha completa.');
@@ -1414,20 +1414,26 @@ function organizarEntrada() {
     try {
       const file = DriveApp.getFileById(fileId);
       const dest = DriveApp.getFolderById(folderId);
-      const pais = file.getParents(); let jaEsta=false;
-      while (pais.hasNext()) { if (pais.next().getId()===folderId) jaEsta=true; }
-      // R3 — trilha POR ARQUIVO p/ o reconciliador (drive_id,folderId,md5,bytes,status). Sem isso o
-      // C5 do gate (moved ⇒ hash) nunca fecha p/ a _entrada. md5 via serviço avançado Drive (se ligado).
+      // A-09 — conta os pais E detecta se já está no destino (sem chamar next() duas vezes).
+      const pais = file.getParents(); let jaEsta=false, nPais=0;
+      while (pais.hasNext()) { var p=pais.next(); nPais++; if (p.getId()===folderId) jaEsta=true; }
+      // R3 — trilha POR ARQUIVO p/ o reconciliador (drive_id,folderId,md5,bytes,status). md5 via Drive avançado.
       const md5 = _md5OrganizeSeguro_(fileId), bytes = _bytesSeguro_(file);
-      if (jaEsta) { jaLa++; Logger.log('MOVE_LINHA '+fileId+','+folderId+','+md5+','+bytes+',jaLa'); continue; }
+      const nativo = file.getMimeType().indexOf('application/vnd.google-apps')===0; // B-05: sem md5 por natureza
+      // B-06 — em ENSAIO, jaLa sai marcado DRYRUN p/ o reconciliador NÃO virar fase 'execucao' num teste.
+      if (jaEsta) { jaLa++; Logger.log('MOVE_LINHA '+fileId+','+folderId+','+md5+','+bytes+','+(DRY_RUN?'jaLaDRYRUN':'jaLa')); continue; }
+      // A-09 — multi-pai: moveTo ARRANCARIA o arquivo de outra pasta (talvez boa). NÃO move; decisão manual (99).
+      if (nPais > 1) { multiPai++; Logger.log('MOVE_LINHA '+fileId+','+folderId+','+md5+','+bytes+',MULTI_PAI_MANUAL'); continue; }
       if (!DRY_RUN) file.moveTo(dest);
-      moved++;
-      Logger.log('MOVE_LINHA '+fileId+','+folderId+','+md5+','+bytes+','+(DRY_RUN?'dryrun':'moved'));
+      moved++; if (nativo) nativos++;
+      // B-05 — nativo Google sai com status 'nativo' (o reconciliador o marca terminal 'nativo_ignorado', sem exigir hash).
+      var st = DRY_RUN ? 'dryrun' : (nativo ? 'nativo' : 'moved');
+      Logger.log('MOVE_LINHA '+fileId+','+folderId+','+md5+','+bytes+','+st);
       if (moved % 50 === 0) Logger.log('… '+moved+' movidos ('+i+'/'+PLAN.length+')');
     } catch(e) { err++; Logger.log('SKIP '+fileId+' — '+e.message); }
   }
   props.deleteProperty('cursor');
-  Logger.log('=== FIM === '+(DRY_RUN?'[ENSAIO] ':'')+'movidos='+moved+' | ja_no_destino='+jaLa+' | erros/sumidos='+err+' | total='+PLAN.length);
+  Logger.log('=== FIM === '+(DRY_RUN?'[ENSAIO] ':'')+'movidos='+moved+' (nativos='+nativos+') | ja_no_destino='+jaLa+' | multi_pai_manual='+multiPai+' | erros/sumidos='+err+' | total='+PLAN.length);
   Logger.log(DRY_RUN ? 'ENSAIO ok. Troque DRY_RUN=false e rode de novo p/ mover de verdade.' : 'Concluído. _entrada organizada.');
 }
 

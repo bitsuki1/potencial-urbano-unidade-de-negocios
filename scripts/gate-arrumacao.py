@@ -3,21 +3,24 @@
 gate-arrumacao.py — GATE MECÂNICO da arrumação do Drive + separação TDC×IPTU.
 Espelha `scripts/fechar-instancia.py` ("declarei feito" ≠ "provei feito") para a frente de arrumação.
 
-8 checagens do plano (docs/PLANO-ARRUMACAO-DRIVE-2026-07-04.md §6). Divididas em:
+7 checagens (docs/PLANO-ARRUMACAO-DRIVE-2026-07-04.md §6). Divididas em:
   LOCAL (provável AGORA, sem tocar o Drive) — bloqueiam:
     C6. dominio ∈ {tdc,iptu,compartilhado} em toda norma/acórdão (carimbar_dominio --check).
     C7. dominio_primario não-vazio em toda lei/jurisprudência.
     C8. tema[] não contém mais 'IPTU'/'TDC' (anti-padrão eliminado) + roteamento provado (eval-dominio).
-  DRIVE (execução — dependem do índice-mestre `inventario/INDICE-MESTRE-DRIVE.csv`) — PENDENTE até
-  a arrumação rodar; reportadas honestamente, não fingidas:
+  DRIVE (execução — dependem do índice, alimentado pelos logs do GAS) — PENDENTE até a arrumação rodar:
     C1. '01 — _entrada' com 0 arquivos soltos.
-    C2. toda pasta-alvo com a contagem esperada (bate com o índice).
-    C3. índice-mestre bate com o Drive (todo drive_id existe; todo arquivo está no índice).
-    C4. nenhum OFICIAL em 98/99/quarentena.
-    C5. todo item 'moved' tem hash_sha256.
+    C3. índice tem drive_id + destino_path em toda linha.
+    C4. nenhum OFICIAL em quarentena/98/99.
+    C5. todo item 'moved' tem hash_md5 REAL (vazio/PENDENTE conta como ausente — A-07).
 
-Enquanto o índice-mestre não existir, C1–C5 saem [PENDENTE] (não bloqueiam — a onda Drive ainda não
-correu); quando existir, passam a bloquear. Assim o gate cresce com a execução, sem falso-verde.
+LIMITE HONESTO (A-08, auditoria 2026-07-05): a prova DRIVE repousa nos LOGS que o dono cola de volta
+(`gas-log-*.txt`) — NENHUM check confronta o índice com o Drive AO VIVO (não há credencial aqui). O que
+o plano §6 chama de "C2 contagem por pasta" e "C3 bate com o Drive" NÃO existe como confronto real:
+C3 aqui só valida campos do índice. Portanto "arrumação provada" = "os logs do GAS são consistentes",
+não "o Drive foi auditado". Um confronto real com o Drive (via MCP, sob o gate do dono) é BACKLOG.
+
+Enquanto o índice não existir, C1–C5 saem [PENDENTE] (não bloqueiam — a onda Drive ainda não correu).
 
 Uso:  python3 scripts/gate-arrumacao.py
 """
@@ -101,18 +104,29 @@ def c4_oficial_fora_quarentena():
     if not INDICE.exists():
         return None, "índice-mestre ausente"
     rows = _indice_rows()
-    viol = [r for r in rows if (r.get("proveniencia") or "").strip().upper().startswith("OFI")
-            and (r.get("status_arrumacao") or "").strip() == "quarentena"]
-    return (not viol), ("nenhum OFICIAL em quarentena" if not viol else f"{len(viol)} OFICIAL em quarentena — REVISAR")
+    # B-07 (auditoria): OFICIAL não pode estar em quarentena NEM em 98/99 (zona morta/triagem) — antes
+    # só 'quarentena' era checado, então um OFICIAL roteado a triagem/99 escapava.
+    def _zona_morta(r):
+        st = (r.get("status_arrumacao") or "").strip()
+        dst = (r.get("destino_path") or "").strip()
+        return st in ("quarentena", "triagem") or dst.startswith("98") or dst.startswith("99")
+    viol = [r for r in rows if (r.get("proveniencia") or "").strip().upper().startswith("OFI") and _zona_morta(r)]
+    return (not viol), ("nenhum OFICIAL em quarentena/98/99" if not viol
+                        else f"{len(viol)} OFICIAL em quarentena/98/99 — REVISAR")
 
 
 def c5_moved_tem_hash():
     if not INDICE.exists():
         return None, "índice-mestre ausente"
     rows = _indice_rows()
-    viol = [r for r in rows if (r.get("status_arrumacao") or "").strip() in ("moved", "espelhado")
-            and not (r.get("hash_md5") or "").strip()]   # R5: a hash do Drive é md5, não sha256
-    return (not viol), ("todo item movido tem hash_md5" if not viol else f"{len(viol)} movidos sem hash_md5")
+    # A-07 (auditoria): 'PENDENTE' (placeholder do SEED) e '' contam como AUSENTE — senão mover 1.360
+    # itens com a Drive API desligada (md5 vazio) deixava hash_md5='PENDENTE' e o C5 passava VERDE.
+    def _sem_hash(r):
+        h = (r.get("hash_md5") or "").strip()
+        return h == "" or h == "PENDENTE"
+    viol = [r for r in rows if (r.get("status_arrumacao") or "").strip() in ("moved", "espelhado") and _sem_hash(r)]
+    return (not viol), ("todo item movido tem hash_md5 real" if not viol
+                        else f"{len(viol)} movidos sem hash_md5 (vazio ou PENDENTE)")
 
 
 def main():

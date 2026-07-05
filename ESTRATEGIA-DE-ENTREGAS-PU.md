@@ -73,7 +73,7 @@ Esteira: **E1 corpus → E2 preço → E3 proprietários → E4 cruzamento (moto
 ## 2. ESTADO MEDIDO (âncora — números do `MANIFESTO.json` + gate, 2026-07-01)
 
 - **Gate mecânico:** evals(1.7) VERDE · engine(1.3) VERDE · sem stray tags VERDE · MANIFESTO idempotente VERDE.
-- **Corpus:** 63 itens (31 leis + 32 juris); **61 no escopo**; **17 leis indexadas** (TDC ligado no `main`: eval
+- **Corpus:** 63 itens (31 leis + 32 juris); **61 no escopo**; **19 leis indexadas** (snapshot 07-01 dizia 17; vivo na auditoria 2026-07-05 = 19) (TDC ligado no `main`: eval
   `tdc-potencial-construtivo-lpuos` verde, LPUOS 16.402 Art. 24); 14 municipais ainda não-verbatim.
 - **Engines (determinísticos, auto-teste verde):** `engines/tdc/pcpt.py` (cedente, 2 vias Art.125 / 126-127),
   `engines/tdc/oodc.py` (receptor).

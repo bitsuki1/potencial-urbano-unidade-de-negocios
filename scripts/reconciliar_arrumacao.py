@@ -100,23 +100,38 @@ def reconciliar():
             if did not in ordem:
                 ordem.append(did)
 
-        # MOVE_LINHA (Organizar-Entrada): move p/ pasta-tipo.
+        # MOVE_LINHA (Organizar-Entrada): move p/ pasta-tipo. status ∈ moved|nativo|jaLa|MULTI_PAI_MANUAL
+        # (dryrun/*DRYRUN ignorados — B-06). nativo→terminal 'nativo_ignorado' (B-05, sem exigir hash);
+        # multi-pai→'triagem' (A-09, não movido).
         for m in RE_MOVE.finditer(texto):
             did, folder, md5, byts, status = (x.strip() for x in m.groups())
             if status.lower() in ("skip", "dryrun") or status.endswith("DRYRUN"):
                 continue
+            novo = did not in idx
             r = idx.get(did) or _linha_vazia(did)
-            r["status_arrumacao"] = "moved"
+            if status == "MULTI_PAI_MANUAL":
+                r["status_arrumacao"] = "triagem"
+                r["observacao"] = "multi-pai: NÃO movido (arrancaria de outra pasta) — decidir em 99 (A-09)"
+                acao = "triagem"
+            elif status == "nativo":
+                r["status_arrumacao"] = "nativo_ignorado"    # Google-nativo: sem md5 por natureza (B-05)
+                acao = "nativo_ignorado"
+            else:                                            # moved | jaLa
+                r["status_arrumacao"] = "moved"
+                acao = "moved"
             if md5:
                 r["hash_md5"] = md5
             if byts:
                 r["bytes"] = byts
-            if folder:
-                r["observacao"] = (r.get("observacao") or "") and r["observacao"] or f"folderId={folder}"
+            # B-05: upsert de id fora do SEED precisa de destino_path (senão C3 fica vermelho eterno).
+            if folder and (novo or not (r.get("destino_path") or "").strip()):
+                r["destino_path"] = f"movido→folderId={folder}"
+                if not (r.get("destino_classe") or "").strip():
+                    r["destino_classe"] = "movido"
             idx[did] = r
             if did not in ordem:
                 ordem.append(did)
-            trilha_novas.append({"data_ref": data_ref, "drive_id": did, "acao": "moved",
+            trilha_novas.append({"data_ref": data_ref, "drive_id": did, "acao": acao,
                                  "origem": "_entrada", "destino": folder, "hash_md5": md5})
 
         # CSV_LINHA (Sanear-Lago): dedup por hash.

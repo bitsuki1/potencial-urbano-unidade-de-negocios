@@ -24,15 +24,21 @@ on:
       - "supabase/**"
       - ".github/workflows/consolidar.yml"
   # T2/S2: rodar o gate também em PULL REQUEST (não só push) — o produto é revisado antes do merge.
+  # B-11 (auditoria 2026-07-05): paths do PR ALINHADOS ao push — faltavam jurisprudencia/** e rag/**
+  # e inventario/**, então um PR que só mexesse nesses não disparava os gates (só no push pós-merge).
   pull_request:
     paths:
       - "leis/**"
+      - "jurisprudencia/**"
       - "scripts/**"
       - "evals/**"
+      - "rag/**"
       - "engines/**"
       - "zepec/**"
       - "tabelas/**"
+      - "inventario/**"
       - "supabase/**"
+      - ".github/workflows/consolidar.yml"
   workflow_dispatch:
 
 permissions:

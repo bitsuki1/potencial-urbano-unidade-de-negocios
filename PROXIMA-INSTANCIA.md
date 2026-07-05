@@ -1,12 +1,14 @@
 # PRÓXIMA INSTÂNCIA — o que fazer (Potencial Urbano)
 
-> **★★★ ENCERRAMENTO HONESTO 2026-07-03 — LEIA ANTES DE TUDO: `docs/AUDITORIA-PROFUNDA-E-ENCERRAMENTO-2026-07-03.md`.**
-> A sessão entregou **PLANO + FUNDAÇÃO, ZERO fix de produto** (verificado: `engines/`/`zepec/*.py` intocados).
-> **Todos os defeitos seguem VIVOS no código:** C-28 (`133__art-124.json` rotula a fórmula como Art. 124),
-> T3 (`enriquecer_oficial.py:81` escalonado por default), T8 (`montar_base.py:104` vedação só substring),
-> G1 (`overlay_zona.py:77` centroide). Os ~2.937 preços / R$ 8,83 bi são byte-idênticos ao pré-sessão e
-> **NÃO são confiáveis**. O gate verde cobre a FUNDAÇÃO, não o produto (T2 vivo). **Fase 1 (código) não começou.**
-> Ordem: T1→T2→T8→T4→G1 (gotchas no handoff §8). Não recomeçar os loops; não confiar nos números atuais.
+> **★★★ ESTADO PÓS-M0 + AUDITORIA 2026-07-05 — LEIA ANTES DE TUDO: `docs/AUDITORIA-PROFUNDA-2026-07-05.md`.**
+> **MOTOR ZERO (M0) FECHADO** (`docs/MOTOR-ZERO-M0-FECHAMENTO.md`): T1(C-28), T2, T3, T4 **FEITOS e provados**
+> pelo gate (`scripts/fechar-instancia.py` roda `eval-produto`, cobre o PRODUTO, não só a fundação). SEGUEM
+> VIVOS: **T8** (vedação só substring) e **G1** (overlay centroide) — ver BACKLOG. A separação **TDC×IPTU**
+> foi implementada (domínio como metadado; `--dominio`), a arrumação do Drive tem toolchain provada em
+> PLANO (nada movido no Drive ainda — falta o dono rodar os Apps Scripts). A **auditoria 2026-07-05** (7
+> lentes) corrigiu falso-verde de gate, doutrina Fi=1,0 stale e a lei-núcleo TDC mistagueada; o **corpus é
+> PARCIAL** (19/31 leis; TDC normativo — Decreto 57.536 — AINDA NÃO ingerido). Números do produto: confiáveis
+> onde o gate cobre (Fi/PCpt dos cedentes); o resto é PENDENTE declarado. **Não recomeçar o que o gate já prova.**
 >
 > **★★ HANDOFF 2026-07-03 (Motores 1/2/3 + Escrutínio conjunto + Fase 0 EXECUTADA).** Dossiê completo,
 > zero-compressão: **`docs/HANDOFF-2026-07-03-MOTORES-FASE0.md`** — LEIA-O PRIMEIRO. Entregou: `ROADMAP-PU.md`

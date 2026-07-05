@@ -37,7 +37,11 @@ MARCADOR_VERBATIM = "## Texto integral (verbatim)"
 # Regex de dispositivos (início de linha). Aceita "Art. 1º", "Art 1o", "Art. 10 -", "Art. 156-A".
 # CAPTURA o sufixo -A/-B (achado A2-02/B-11): "Art. 156-A" é dispositivo DISTINTO de "Art. 156";
 # rotulá-lo "Art. 156" cita dispositivo inexistente (viola 1.7).
-RE_ARTIGO = re.compile(r"^\s*Art\.?\s*(\d+(?:-[A-Z])?)\s*[ºoO°.\-–]?", re.IGNORECASE)
+# A-04 (auditoria 2026-07-05): NÃO incluir 'o/O' na classe do marcador ordinal — num artigo cardinal
+# cujo corpo começa com "O"/"Os" ("Art. 54 Os sindicatos…") o 'O' era engolido e a linha caía como
+# remissão (corpo em minúscula), fundindo o Art. 54 no 53 e citando o dispositivo ERRADO (viola 1.7).
+# O ordinal real vem como 'º'/'°'; "1o/9o" ainda é coberto pelo rótulo (grupo é só o dígito).
+RE_ARTIGO = re.compile(r"^\s*Art\.?\s*(\d+(?:-[A-Z])?)\s*[º°.\-–]?", re.IGNORECASE)
 RE_TITULO = re.compile(r"^\s*T[ÍI]TULO\s+([IVXLCDM]+|\d+)\b", re.IGNORECASE)
 RE_CAPITULO = re.compile(r"^\s*CAP[ÍI]TULO\s+([IVXLCDM]+|\d+)\b", re.IGNORECASE)
 RE_SECAO = re.compile(r"^\s*SE[ÇC][ÃA]O\s+([IVXLCDM]+|\d+)\b", re.IGNORECASE)
@@ -75,8 +79,10 @@ RE_CONECTIVO_REMISSAO = re.compile(
 
 def eh_remissao_line_initial(ln: str, ma: "re.Match") -> bool:
     """True se a linha, embora comece com 'Art. N', é uma REMISSÃO (corpo do artigo corrente),
-    não a abertura de um novo artigo. `ma` é o match de RE_ARTIGO já calculado (evita recomputar)."""
-    resto = ln[ma.end():].lstrip()
+    não a abertura de um novo artigo. `ma` é o match de RE_ARTIGO já calculado (evita recomputar).
+    A-04: `resto` deriva do FIM DO NÚMERO (não de ma.end()), p/ o marcador ordinal opcional nunca
+    consumir a 1ª letra do corpo — senão 'Art. 54 Os…' perde o 'O' e vira falso-remissão."""
+    resto = ln[ma.start(1) + len(ma.group(1)):].lstrip(" º°.\t")
     if not resto:
         return False                      # "Art. N" sozinho: cabeçalho legítimo (corpo vem nas próximas linhas)
     if RE_CONECTIVO_REMISSAO.match(resto):

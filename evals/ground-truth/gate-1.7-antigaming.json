@@ -1,0 +1,19 @@
+{
+  "_doc": "Ground-truth ATIVO — prova que o gate 1.7 NÃO é gameável (achado B-04 da auditoria 2026-07-05). Perguntas LONGAS cujo miolo discriminativo NÃO está no corpus devem sair NÃO-FUNDAMENTADA mesmo casando várias palavras comuns. Cada item é negativo (fundamentada=false); se a trava de cobertura-IDF (WCOB_MIN) regredir, estes falham.",
+  "dominio": "IPTU",
+  "status": "ativo",
+  "lei_alvo": "n/a (teste de gate, não de lei)",
+  "itens": [
+    {
+      "id": "b04-decadencia-contrib-melhoria-fora-do-corpus",
+      "pergunta": "qual o prazo de decadência para lançamento de contribuição de melhoria sobre imóvel rural federal",
+      "espera": { "fundamentada": false }
+    },
+    {
+      "id": "b04-tema-ausente-so-palavras-comuns",
+      "pergunta": "qual o procedimento administrativo de licenciamento ambiental para atividade industrial poluente em zona rural",
+      "espera": { "fundamentada": false }
+    }
+  ],
+  "vacinas": ["cobertura-IDF pondera termos discriminativos; casar só palavras comuns não fundamenta (B-04)"]
+}

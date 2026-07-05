@@ -54,7 +54,13 @@ COMPARTILHADO = {
 # --- TDC puro: efeito exclusivo de potencial construtivo. Hoje VAZIO em leis/ — a massa normativa TDC
 # (Decreto 57.536/2016, decretos ZEPEC/CONPRESP) ainda não foi ingerida; entrará marcada 'tdc'. ---
 TDC = {
-    # (reservado — preenche quando a massa normativa TDC entrar via extração)
+    # A-05 (auditoria 2026-07-05): a Lei 17.844/2022 é a lei-NÚCLEO da Transferência do Direito de
+    # Construir (menciona TDC/potencial construtivo 77×). Estava mistagueada `iptu` → `--dominio tdc`
+    # a excluía silenciosamente (a lei mais on-point do projeto sumia da consulta TDC).
+    "lei-municipal-saopaulo-17844-2022":
+        "Lei da Transferência do Direito de Construir (TDC) — potencial construtivo passível de "
+        "transferência; efeito jurídico é TDC puro (não tributo IPTU).",
+    # (mais massa normativa TDC — Decreto 57.536, decretos ZEPEC — entra quando ingerida; ver A-11)
 }
 # Todo o resto → iptu (o corpus de leis/ e TODA a jurisprudencia/ foram montados p/ a tese IPTU).
 

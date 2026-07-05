@@ -140,6 +140,34 @@ def check_stray_tags():
     return (not sujos), "sem stray tags no corpus/índice" if not sujos else f"stray tags em: {sujos[:5]}"
 
 
+def check_indice_rag():
+    # B-02 (auditoria 2026-07-05): o fechamento LOCAL nunca regenerava rag/chunks+rag/index — um índice
+    # adulterado à mão (ou drifted do verbatim das leis/ ou do domínio do JSON) passava localmente; só o
+    # CI regenerava. Aqui regenera (fatiar+indexar) e compara contra HEAD — espelha o CI.
+    rc1, _ = _run(["scripts/fatiar.py"])
+    rc2, _ = _run(["scripts/indexar.py"])
+    if rc1 != 0 or rc2 != 0:
+        return False, f"fatiar/indexar quebrou (fatiar {rc1}, indexar {rc2})"
+    d = subprocess.run(["git", "diff", "--quiet", "HEAD", "--", "rag/"], cwd=RAIZ)
+    if d.returncode == 0:
+        return True, "rag/ commitado == regenerado (índice não-adulterado, bate com leis/+domínio)"
+    return False, "rag/ regenerado difere do commitado — rode fatiar+indexar e re-commite"
+
+
+def check_handoff_nao_stale():
+    # C-08 (auditoria): o handoff PRIMÁRIO (PROXIMA-INSTANCIA.md) é o 1º que a próxima instância lê. Ele
+    # afirmava "Fase 1 não começou / ZERO fix de produto / T2-T3 vivos" quando T1–T4 estavam FEITOS. Este
+    # check reprova se as frases-stale conhecidas reaparecerem (anti-regressão mecânica do overclaim A-12).
+    hp = RAIZ / "PROXIMA-INSTANCIA.md"
+    if not hp.exists():
+        return False, "PROXIMA-INSTANCIA.md ausente (handoff primário)"
+    txt = hp.read_text(encoding="utf-8")
+    stale = [s for s in ("Fase 1 (código) não começou", "ZERO fix de produto",
+                         "gate verde cobre a FUNDAÇÃO, não o produto") if s in txt]
+    return (not stale), ("handoff sem frases-stale conhecidas" if not stale
+                         else f"handoff com afirmação stale (A-12): {stale[0]!r} — atualize o banner")
+
+
 def check_manifesto_idempotente():
     rc, _ = _run(["scripts/consolidar.py"])
     if rc != 0:
@@ -193,8 +221,14 @@ def main():
         ("ÍNDICE ARRUMAÇÃO (SEED×de-para, MESTRE×reconc.)", check_indice_arrumacao),
         ("DISCLAIMER injetado (M0)", check_disclaimer),
         ("CORPUS (sem stray tags)", check_stray_tags),
+        ("ÍNDICE RAG (rag/ regenerado == commitado, B-02)", check_indice_rag),
+        ("HANDOFF (sem frase-stale, C-08)", check_handoff_nao_stale),
         ("MANIFESTO (idempotente, SSOT)", check_manifesto_idempotente),
         ("BACKLOG (fresco, D83)", check_backlog_fresh),
+        # C-03 (auditoria): durabilidade é HARD — "perda de dados" é o modo de falha nº1; commit não
+        # pushado/working-tree sujo somem no reset do container. Rode este gate SÓ ao fechar (já commitado).
+        ("GIT limpo (durabilidade, C-03)", check_git_clean),
+        ("GIT pushado (durabilidade, C-03)", check_pushed),
     ]
     print("═══ GATE DE FECHAMENTO — Potencial Urbano (D83: 'declarei feito' ≠ 'provei feito') ═══")
     falhou = False
@@ -202,10 +236,6 @@ def main():
         ok, msg = fn()
         print(f"  [{'VERDE ' if ok else 'VERMELHO'}] {nome}: {msg}")
         falhou = falhou or not ok
-    # SOFT (não derrubam o gate, mas avisam — durabilidade não é invariante mecânica do conteúdo)
-    for nome, fn in (("GIT limpo", check_git_clean), ("GIT pushado", check_pushed)):
-        ok, msg = fn()
-        print(f"  [{'verde ' if ok else 'AVISO '}] {nome} (durabilidade): {msg}")
 
     print("─────────────────────────────────────────────────────────────────────────────")
     if falhou:

@@ -8,7 +8,7 @@ Junta, por SQL, a base `zepec/ferramenta/zepec_cedentes.csv` (6.131) com as font
   - `zepec/oficial/zona_por_cedente.csv`   -> ZONA do lote (overlay lote×Lei 16.402) + CAbás (Quadro 3)
 
 Calcula (H1.4), SÓ quando há Atc E CAbás, via o ENGINE (número nasce no engine, 1.3; cita Art. 125):
-  - PCpt (m²) = Atc × CAbás × Fi(=1, ZEPEC-BIR, sem doação)  [engine `pcpt.pcpt_sem_doacao`]
+  - PCpt (m²) = Atc × CAbás × Fi(ESCALONADO pela área, Art. 24 I–VII LPUOS, sem doação)  [engine `pcpt.pcpt_sem_doacao`]
   - preço-proxy (R$) = PCpt × V   [PROXY regulatório — Codex Precificação R16; NÃO é preço de mercado]
 
 Saída: `zepec/ferramenta/zepec_cedentes_oficial.csv`. Onde falta insumo, `pendencia_calculo` declara o quê

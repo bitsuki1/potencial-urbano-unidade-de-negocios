@@ -95,7 +95,7 @@ def main():
             detalhes.append(f"engine Fi={e['fi']} != legal {fi_esp} ({inc})")
         if e["valor_m2"] != pcpt_esp:
             detalhes.append(f"engine pcpt={e['valor_m2']} != legal {pcpt_esp}")
-        # (b) PRODUTO ENTREGUE (CSV oficial)
+        # (b) PRODUTO ENTREGUE (CSV oficial) — Fi E o NÚMERO que vai ao cliente (pcpt_m2).
         row = csv_idx.get(g["sql"])
         if row is None:
             detalhes.append(f"SQL {g['sql']} ausente no CSV oficial")
@@ -103,6 +103,16 @@ def main():
             fi_ap = (row.get("fi_aplicado") or "").strip()
             if fi_ap and Decimal(fi_ap) != fi_esp:
                 detalhes.append(f"produto fi_aplicado={fi_ap} != legal {fi_esp}")
+            # A-03 (auditoria 2026-07-05): gatear o PCpt ENTREGUE. Recomputa do PRÓPRIO CSV
+            # (área × CAbás × Fi_legal) e compara ao pcpt_m2 gravado — sabotar pcpt_m2 no CSV FALHA aqui.
+            pcpt_ent = (row.get("pcpt_m2") or "").strip()
+            area_csv = (row.get("area_terreno_m2") or "").strip()
+            cabas_csv = (row.get("ca_basico") or "").strip()
+            if pcpt_ent and area_csv and cabas_csv:
+                pcpt_csv_esp = (Decimal(area_csv) * Decimal(cabas_csv) * fi_esp).quantize(Q2, ROUND_HALF_UP)
+                if Decimal(pcpt_ent) != pcpt_csv_esp:
+                    detalhes.append(f"produto pcpt_m2={pcpt_ent} != {pcpt_csv_esp} "
+                                    f"(área {area_csv}×CAbás {cabas_csv}×Fi {fi_esp} do próprio CSV)")
 
         status = "PASS" if not detalhes else "FALHA"
         if detalhes:
