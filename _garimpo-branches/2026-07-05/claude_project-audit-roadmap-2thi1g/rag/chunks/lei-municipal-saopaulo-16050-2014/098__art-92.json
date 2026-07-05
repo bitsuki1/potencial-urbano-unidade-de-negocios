@@ -1,0 +1,35 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16050-2014::098-art-92",
+  "lei_id": "lei-municipal-saopaulo-16050-2014",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 92",
+  "numero": "92",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO III",
+    "Seção I",
+    "Art. 92"
+  ],
+  "texto": "Art. 92. São considerados imóveis não edificados os lotes e glebas com área superior a 500m² (quinhentos metros quadrados),\n\ncom coeficiente de aproveitamento utilizado igual a 0 (zero).\n\n§ 1º As obrigações estabelecidas por esta lei aos proprietários de imóveis caracterizados no “caput” não serão aplicadas enquanto\n\no terreno não tiver acesso à infraestrutura básica, assim definida pela legislação federal de parcelamento do solo urbano,\n\nressalvados os casos em que os equipamentos urbanos ali estabelecidos possam ser exigidos no processo de licenciamento.\n\n§ 2º A tipificação estabelecida no “caput” se estende aos lotes com metragem inferior a 500m² (quinhentos metros quadrados),\n\nquando:\n\na) originários de desmembramentos aprovados após a publicação desta lei; ou que,\n\nb) somados a outros contíguos do mesmo proprietário perfaçam área superior a 500m² (quinhentos metros quadrados).",
+  "citacao": {
+    "norma": "lei municipal nº 16050/2014 — São Paulo - SP",
+    "dispositivo": "TÍTULO II › CAPÍTULO III › Seção I › Art. 92",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2014-07-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 95 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2014-07-31. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

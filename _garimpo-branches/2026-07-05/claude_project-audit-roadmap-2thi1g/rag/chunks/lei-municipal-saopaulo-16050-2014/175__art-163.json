@@ -1,0 +1,35 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-16050-2014::175-art-163",
+  "lei_id": "lei-municipal-saopaulo-16050-2014",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 163",
+  "numero": "163",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "CAPÍTULO III",
+    "Seção IV",
+    "Art. 163"
+  ],
+  "texto": "Art. 163. O monitoramento e fiscalização da aplicação deste instrumento serão exercidos pela SVMA, e os resultados deverão ser\n\napresentados anualmente ao Conselho Municipal de Meio Ambiente e Desenvolvimento Sustentável – CADES e ao Conselho do\n\nFundo Especial de Meio Ambiente e Desenvolvimento Sustentável – CONFEMA.\n\nSeção V\n\nDos Instrumentos de Regularização Fundiária",
+  "citacao": {
+    "norma": "lei municipal nº 16050/2014 — São Paulo - SP",
+    "dispositivo": "TÍTULO II › CAPÍTULO III › Seção IV › Art. 163",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2014-07-31",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "(múltiplas — ver 'Redação dada por' no texto; detalhar B-7)"
+      ],
+      "obs": "TEXTO CONSOLIDADO: 95 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2014-07-31. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
+    }
+  },
+  "tema": [
+    "TDC",
+    "urbanística"
+  ],
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "(ver texto integral)"
+}

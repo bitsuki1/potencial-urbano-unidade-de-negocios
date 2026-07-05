@@ -31,7 +31,7 @@ if [ -d "$ROOT/caixa-de-entrada" ]; then
     [ -f "$dir/processados/$base" ] && continue
     grep -qE '^STATUS:[[:space:]]*(APLICADA|ROTEADA|RESPONDIDA|RECUSADA|CONTRAPROPOSTA)' "$f" 2>/dev/null && continue
     paradas=$((paradas+1))
-  done < <(find "$ROOT/caixa-de-entrada" -type f -name '*.md' ! -path '*/processados/*' 2>/dev/null)
+  done < <(find "$ROOT/caixa-de-entrada" -type f -name '*.md' ! -path '*/processados/*' \( -path '*/do-escritorio/*' -o -path '*/de-*/*' \) 2>/dev/null)
   [ "$paradas" -gt 0 ] && yel "[3] $paradas carta(s) na caixa sem processar (aplicar+mover OU STATUS)" || grn "[3] caixa-de-entrada sem carta pendente"
 fi
 
