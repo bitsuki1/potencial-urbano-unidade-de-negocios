@@ -1,3 +1,5 @@
+STATUS: ROTEADA (Escritório do MOU — 2026-07-05) → orquestrador do PU. A metade EMPURRA (auto-consolida HEAD→main) já existe em `.claude/hooks/surface-backlog.sh`; a metade PUXAR (`merge origin/main`→branch no boot) NÃO está implementada. Alterar o hook = mecanismo/infra do orquestrador do PU, fora do escopo hygiene do arrumador. Registrado, nada se perde.
+
 # DESPACHO A TODAS AS UNIDADES — boot PUXA a main no arranque (fecha "outros não lêem") · 2026-06-27
 
 > **Tipo:** PATCH de processo (mexe no boot do projeto = canônico → é PROPOSTA; quem aplica é a instância do projeto, sob gate D21). **Fonte única; difusão rastreada em `caixa-de-saida/DIFUSAO-STATUS.md`.**

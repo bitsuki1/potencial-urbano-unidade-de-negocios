@@ -1,3 +1,5 @@
+STATUS: APLICADA (Escritório do MOU — 2026-07-05) — linha "Escopo é do dono (D21/D157/A-296)" gravada no `CLAUDE.md` (verbatim de `keepee-unidade-de-negocios/CLAUDE.md §2`); DoD cumprido.
+
 # DO ESCRITÓRIO → TODAS AS UNIDADES · 2026-07-04 · Escopo é do dono — nunca "extra", nunca "parar" (vacina D157 · facet A-296)
 > Broadcast do Escritório do MOU (PMO). Aplique sob o gate (D21). Diretriz = proposta fundamentada, não ordem cega.
 > **Por que este broadcast:** o padrão da presunção (D157/A-292) **REINCIDIU** — uma unidade enquadrou um lote **SOLICITADO** pelo dono como "extra" e ofereceu "parar aqui e encerrar as pendências". O MOU: *"não é extra, foi solicitado; que isso não se repita, em todos os projetos."* O broadcast D157 anterior não bastou porque foi lido-e-arquivado, sem virar linha de boot — por isso esta carta manda GRAVAR a regra no seu `CLAUDE.md`.

@@ -1,3 +1,5 @@
+STATUS: APLICADA (Escritório do MOU — 2026-07-05) — doutrina durável (deliberação = recomendação FECHADA; a instância propõe, o dono decide) gravada no `CLAUDE.md` via a linha "Escopo é do dono (D21/D157/A-296)".
+
 # D157 — Deliberação de frentes SERVE ao dono, não vira agenda do orquestrador (correção MR-14)
 > Do Escritório do MOU a TODA unidade da fila de frentes (SBA · PU · bitsuki · Keepee · AVC). Proposta fundamentada sob o gate do projeto (D21); aplicar e mover p/ processados/.
 

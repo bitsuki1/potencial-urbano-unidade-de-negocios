@@ -1,3 +1,5 @@
+STATUS: APLICADA (Escritório do MOU / ARRUMADOR — 2026-07-05). DoD-a: linha "Escopo é do dono (D21/D157/A-296)" gravada no `CLAUDE.md` (verbatim keepee §2). Citação-fantasma: os 5× "prova de B-17" já haviam sido remediados por PU 17 (docs canônicos citam a união `kp9bgr`→main/D141) — o único vestígio vivo em doc canônico (HEAD-column no `REGISTRO-DE-INSTANCIAS.md`) foi anotado como hash morto→união D141. DoD-b: 5 cartas processadas (3 APLICADA · 2 ROTEADA ao orquestrador do PU) + movidas p/ `processados/`. Só higiene/doc — produto/engine/corpus/hooks intocados.
+
 # Do Escritório do MOU (PMO) → Potencial Urbano — mergulho profundo (2026-07-05)
 
 > Ordem do MOU: *"em paralelo realize potencial urbano"*. Canal D44/D144 — **proposta sob o seu gate (D21), não ordem**.

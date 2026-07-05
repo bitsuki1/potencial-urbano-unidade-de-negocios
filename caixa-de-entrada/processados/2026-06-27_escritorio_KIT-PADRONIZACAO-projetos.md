@@ -1,3 +1,5 @@
+STATUS: APLICADA (Escritório do MOU — 2026-07-05) — caixas v2 bootstrapadas; as 3 políticas (MR-16 REGRA DE OURO · MR-4/D120 · MR-5/D119) já constam ✅ APLICADO em `DO_ESCRITORIO.md`; frentes deliberadas 2026-06-27. Sub-item boot-puxa-main → ver a carta `boot-puxa-main` (ROTEADA).
+
 # KIT DE PADRONIZAÇÃO — insumo pronto para TODO projeto se organizar (2026-06-27)
 
 > **De:** Escritório do MOU. **Para:** todo projeto co-montado (broadcast `para-todos/`). **Aplique sob seu gate (D21).**

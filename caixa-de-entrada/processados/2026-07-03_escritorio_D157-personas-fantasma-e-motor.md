@@ -1,3 +1,5 @@
+STATUS: ROTEADA (Escritório do MOU — 2026-07-05) → orquestrador do PU. Doutrina durável já no `CLAUDE.md` (Escopo é do dono). Ações remanescentes — retirar "Personas" (import fantasma da Profinders) da pauta MR-14 (`DO_ESCRITORIO.md §D-PU-FRENTES`) + formalizar o motor OODC como frente F-PU-A — são lane de PRODUTO/pauta do orquestrador, fora do escopo hygiene do arrumador. Roteadas, não perdidas.
+
 # Do Escritório → Potencial Urbano — D157: a "persona fantasma" + o motor que você travou
 > Proposta fundamentada sob o gate do projeto (D21), não ordem. Depositado via caixa (D144). Ver também o broadcast `D157-deliberacao-serve-ao-dono`.
 
