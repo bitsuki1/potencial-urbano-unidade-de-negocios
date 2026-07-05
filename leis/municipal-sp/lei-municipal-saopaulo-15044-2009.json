@@ -42,10 +42,12 @@
   "fonte": {
     "origem": "web-oficial",
     "url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-15044-de-03-de-dezembro-de-2009",
-    "hash": null,
+    "hash": "sha256:196cd516ed3eba656c11d5efad0d3214fe2a17f8785a52234668b1c9aa500fa0",
     "ocr": false,
     "metodo": "WebSearch (nao-verbatim; WebFetch/curl bloqueados HTTP 403)",
-    "obs": "texto nao-verbatim; capturado via WebSearch por bloqueio de WebFetch/curl (HTTP 403)."
+    "obs": "texto nao-verbatim; capturado via WebSearch por bloqueio de WebFetch/curl (HTTP 403).",
+    "hash_alvo": "leis/municipal-sp/lei-municipal-saopaulo-15044-2009.md",
+    "hash_nota": "hash da transcrição do corpus (.md) — cru ausente localmente (B-4/B-9); trocar pelo hash do cru quando ele chegar"
   },
   "status_pipeline": "bruto",
   "confianca_extracao": "baixa",

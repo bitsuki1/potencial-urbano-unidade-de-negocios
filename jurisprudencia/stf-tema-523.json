@@ -15,8 +15,10 @@
   "fonte": {
     "origem": "web-oficial",
     "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=4178349&numeroProcesso=666156&classeProcesso=RE&numeroTema=523",
-    "hash": null,
-    "captura_verbatim": "jurisprudencia/_capturas/stf-tema-523.txt"
+    "hash": "sha256:c281c0a7d0f1a4f7731cab415d06695040fc5030c5860aba7f7b5bb923ca7a43",
+    "captura_verbatim": "jurisprudencia/_capturas/stf-tema-523.txt",
+    "hash_alvo": "jurisprudencia/stf-tema-523.md",
+    "hash_nota": "hash da transcrição do corpus (.md) — cru ausente localmente (B-4/B-9); trocar pelo hash do cru quando ele chegar"
   },
   "status_pipeline": "tagueado",
   "confianca_extracao": "alta",

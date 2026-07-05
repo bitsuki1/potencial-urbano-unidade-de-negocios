@@ -16,8 +16,10 @@
   "fonte": {
     "origem": "web-oficial",
     "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=2613544&numeroProcesso=712743&classeProcesso=AI&numeroTema=155",
-    "hash": null,
-    "captura_verbatim": "jurisprudencia/_capturas/stf-tema-155.txt"
+    "hash": "sha256:7e4b12c2e68f71b8e6c98e0e002bcf6f56391836f023dc84e5a9cdfba10ee151",
+    "captura_verbatim": "jurisprudencia/_capturas/stf-tema-155.txt",
+    "hash_alvo": "jurisprudencia/stf-tema-155.md",
+    "hash_nota": "hash da transcrição do corpus (.md) — cru ausente localmente (B-4/B-9); trocar pelo hash do cru quando ele chegar"
   },
   "status_pipeline": "tagueado",
   "confianca_extracao": "alta",

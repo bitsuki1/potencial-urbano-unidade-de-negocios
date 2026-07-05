@@ -100,6 +100,12 @@ def promover(_id, reportar):
     fonte["metodo"] = "VERBATIM DE TELA (planalto); re-ingerido de _entrada/misto/ em 2026-06-20 (AUD-01)"
     fonte["obs"] = "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior."
     fonte["ocr"] = False
+    # AUD-A10 — Gate 1 'hash confere': carimba o sha256 do CRU na ingestão (o consolidar.py
+    # recomputa e FALHA se divergir). Sem isso, item novo entra com hash nulo e derruba o gate.
+    import hashlib
+    fonte["hash"] = "sha256:" + hashlib.sha256(cru.read_bytes()).hexdigest()
+    fonte["hash_alvo"] = str(cru.relative_to(RAIZ))
+    fonte.pop("hash_nota", None)
     meta["fonte"] = fonte
     meta["confianca_extracao"] = "alta"
     # status_pipeline volta a 'bruto' para o fatiar.py reprocessar e marcar fatiado/indexado

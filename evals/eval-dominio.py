@@ -78,6 +78,25 @@ def main():
     if tema_sujo:
         falhas.append(f"I5: {tema_sujo} chunks ainda com IPTU/TDC em tema[] (anti-padrão)")
 
+    # I6 (AUD-B01) — fixture INDEPENDENTE: o `carimbar --check` compara o corpus contra o mesmo
+    # mapa que o escreveu (tautologia). Aqui as âncoras vêm de `evals/ground-truth/dominio-fixture.json`
+    # (juízo lavrado a partir das EMENTAS) e são conferidas contra o .json de cada lei: mudar o mapa
+    # do carimbar (ex.: 17.844 de volta a iptu) passa no --check mas FALHA aqui.
+    import json as _json
+    fx_path = RAIZ / "evals" / "ground-truth" / "dominio-fixture.json"
+    if not fx_path.exists():
+        falhas.append("I6: fixture de domínio ausente (evals/ground-truth/dominio-fixture.json)")
+    else:
+        fx = _json.loads(fx_path.read_text(encoding="utf-8"))["ancoras"]
+        for stem, esperado in sorted(fx.items()):
+            achado = None
+            for p in list((RAIZ / "leis").rglob(f"{stem}.json")) + list((RAIZ / "jurisprudencia").glob(f"{stem}.json")):
+                achado = _json.loads(p.read_text(encoding="utf-8")).get("dominio_primario")
+            if achado is None:
+                falhas.append(f"I6: âncora da fixture não encontrada no corpus: {stem}")
+            elif achado != esperado["dominio_primario"]:
+                falhas.append(f"I6: {stem} dominio_primario={achado!r} != fixture {esperado['dominio_primario']!r}")
+
     if falhas:
         print("eval-dominio: FALHA")
         for f in falhas:
@@ -87,7 +106,7 @@ def main():
     n_iptu = len(eleg_iptu)
     print("eval-dominio: OK — separação TDC×IPTU provada.")
     print(f"  I1 não-poluição · I2 não-perda · I3 PDE alcançável do TDC (FUNDAMENTADA) · "
-          f"I4 vocab fechado · I5 anti-padrão eliminado")
+          f"I4 vocab fechado · I5 anti-padrão eliminado · I6 fixture independente (AUD-B01)")
     print(f"  elegíveis: --dominio tdc → {n_tdc} chunks (iptu-puro excluído; compartilhado incluído) · "
           f"--dominio iptu → {n_iptu} chunks")
     return 0

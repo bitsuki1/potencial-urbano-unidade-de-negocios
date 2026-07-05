@@ -39,10 +39,12 @@
   "fonte": {
     "origem": "web-oficial",
     "url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-10365-de-22-de-setembro-de-1987",
-    "hash": null,
+    "hash": "sha256:01f469bcd751680104c9e4b5ada22464d7db1fcccfe3cfaeadcd924e06f4de0d",
     "ocr": false,
     "metodo": "WebSearch (nao-verbatim; WebFetch/curl bloqueados HTTP 403)",
-    "obs": "texto nao-verbatim; capturado via WebSearch por bloqueio de WebFetch/curl (HTTP 403)."
+    "obs": "texto nao-verbatim; capturado via WebSearch por bloqueio de WebFetch/curl (HTTP 403).",
+    "hash_alvo": "leis/municipal-sp/lei-municipal-saopaulo-10365-1987.md",
+    "hash_nota": "hash da transcrição do corpus (.md) — cru ausente localmente (B-4/B-9); trocar pelo hash do cru quando ele chegar"
   },
   "status_pipeline": "bruto",
   "confianca_extracao": "baixa",

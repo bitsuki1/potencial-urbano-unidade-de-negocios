@@ -14,6 +14,7 @@ Vocabulário canônico de status_pipeline (CLAUDE.md Parte 2.3):
 
 Trazido pela Auditoria triplo-limpo do Escritório do MOU — 2026-06-19.
 """
+import hashlib
 import json
 import sys
 import datetime
@@ -21,15 +22,32 @@ from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
 VOCAB = ["bruto", "fatiado", "tagueado", "validado", "indexado"]
-# Itens preservados no corpus mas fora do escopo IPTU/TDC (D24: nada se descarta,
-# mas não contam como corpus ativo). Ponto cego declarado, aguardando decisão do MOU.
-FORA_DE_ESCOPO = {
-    "stf-tema-1020": "Tema de ISS, não IPTU (verbatim confirma) — realocar p/ corpus ISS",
-    "stj-resp-1658054": "Previdenciário confirmado pela captura (REsp 1.658.054/RS, DJe 29/06/2017, contribuições s/ verbas trabalhistas) — fora do escopo IPTU/TDC; arquivar",
-}
+# Itens fora do escopo IPTU/TDC. DECISÃO DO DONO (2026-07-05): os 2 que aguardavam decisão
+# (stf-tema-1020 = ISS; stj-resp-1658054 = previdenciário) foram ARQUIVADOS — removidos do
+# working tree via `git rm` (recuperáveis pelo histórico git; "nada se apaga do histórico").
+# O dict fica como mecanismo: se um item voltar/entrar fora de escopo, registre aqui.
+FORA_DE_ESCOPO = {}
 
 
-def coletar(diretorio: Path):
+def _verifica_hash(d, jpath, hash_nulo, hash_divergente):
+    """AUD-A10 — o Gate 1 do pipeline ('hash confere', Parte 3) DE VERDADE: recomputa o sha256
+    do alvo declarado (fonte.hash_alvo) e compara com fonte.hash. Nulo ou divergente = gate
+    VERMELHO (consolidar sai 1). Backfill inicial: scripts/backfill_hash.py."""
+    fonte = d.get("fonte") or {}
+    h, alvo = fonte.get("hash"), fonte.get("hash_alvo")
+    if not h:
+        hash_nulo.append(jpath.stem)
+        return
+    p = RAIZ / alvo if alvo else None
+    if p is None or not p.exists():
+        hash_divergente.append(f"{jpath.stem} (alvo ausente: {alvo})")
+        return
+    atual = "sha256:" + hashlib.sha256(p.read_bytes()).hexdigest()
+    if atual != h:
+        hash_divergente.append(f"{jpath.stem} ({alvo})")
+
+
+def coletar(diretorio: Path, hash_nulo, hash_divergente):
     itens = []
     for jpath in sorted(diretorio.rglob("*.json")):
         if "_capturas" in jpath.parts:
@@ -41,6 +59,7 @@ def coletar(diretorio: Path):
         except json.JSONDecodeError as e:
             print(f"ERRO JSON malformado: {jpath} -> {e}", file=sys.stderr)
             sys.exit(1)
+        _verifica_hash(d, jpath, hash_nulo, hash_divergente)
         _id = d.get("id") or jpath.stem
         md = jpath.with_suffix(".md")
         status = d.get("status_pipeline")
@@ -122,8 +141,9 @@ def lei_ids_realmente_indexados():
 
 
 def main():
-    leis = coletar(RAIZ / "leis")
-    juris = coletar(RAIZ / "jurisprudencia")
+    hash_nulo, hash_divergente = [], []
+    leis = coletar(RAIZ / "leis", hash_nulo, hash_divergente)
+    juris = coletar(RAIZ / "jurisprudencia", hash_nulo, hash_divergente)
     todos = leis + juris
 
     ativos = [i for i in todos if not i["fora_de_escopo"]]
@@ -161,13 +181,13 @@ def main():
             "jurisprudencia": len(juris),
             "ativos_no_escopo": len(ativos),
             "fora_de_escopo": len(todos) - len(ativos),
-            "_nota": "por_status_pipeline conta SÓ os ativos_no_escopo; os 2 fora-de-escopo (ambos tagueado) não entram aqui. Soma = ativos_no_escopo, não total_itens.",
+            "_nota": "por_status_pipeline conta SÓ os ativos_no_escopo. Os 2 fora-de-escopo históricos (stf-tema-1020/ISS, stj-resp-1658054/previdenciário) foram ARQUIVADOS por decisão do dono em 2026-07-05 (git rm; recuperáveis pelo histórico).",
             "por_status_pipeline_ativos": por_status,
             "status_ilegais_encontrados": status_ilegais,
             "verbatim_integral_ativos": verbatim_integral_n,
             "_nota_verbatim_integral": "B-7/AUD-17: verbatim_integral e DERIVADO do marcador '## Texto integral (verbatim)' no .md (prova mecanica, nao declaracao). Difere de confianca_extracao (flag do extrator).",
             "confianca_baixa_ou_media": len(nao_verbatim),
-            "_nota_verbatim": "confianca e flag de extracao, nao prova de verbatim. CORRIGIDO na auditoria profunda 2026-06-20 (AUD-01): 13 leis JA estao em verbatim integral e indexadas (12 federais re-ingeridas de _entrada/misto/ + a 7228/1968 municipal) — supera a narrativa antiga 'planalto deu 403, NENHUMA e verbatim', que confundia 'o .md e resumo' com 'o verbatim nao existe'. Faltam 14 municipais (so resumo WebSearch) — re-ingestao verbatim delas e o que resta do pre-requisito do RAG. As 32 juris (curtas) sao verbatim.",
+            "_nota_verbatim": "confianca e flag de extracao, nao prova de verbatim. CORRIGIDO na auditoria profunda 2026-06-20 (AUD-01): 13 leis JA estao em verbatim integral e indexadas (12 federais re-ingeridas de _entrada/misto/ + a 7228/1968 municipal) — supera a narrativa antiga 'planalto deu 403, NENHUMA e verbatim', que confundia 'o .md e resumo' com 'o verbatim nao existe'. Faltam 12 municipais (so resumo WebSearch) — re-ingestao verbatim delas e o que resta do pre-requisito do RAG. As juris (curtas) sao verbatim.",
         },
         "alertas": {
             "status_fora_do_vocabulario": status_ilegais,
@@ -177,6 +197,9 @@ def main():
             "_nota_divergencia": "NV-1 (2026-06-27): ids que dizem status_pipeline=indexado mas NAO tem chunk no rag/index = FALSO-VERDE; o gate (fechar-instancia.py / gate-fechamento.sh) FALHA se esta lista nao for vazia. Vazia = todo 'indexado' e provado pelo indice.",
             "indexado_verbatim_sem_vigencia_datada": indexado_verbatim_sem_vigencia,
             "_nota_vigencia": "B-7 (1.6): leis verbatim/indexadas que ainda nao tem vigencia.inicio datada. Gap declarado (nao bloqueia o gate) — a datacao das 13 municipais bruto depende do verbatim do Drive (B-4).",
+            "fonte_hash_nulo": sorted(hash_nulo),
+            "fonte_hash_divergente": sorted(hash_divergente),
+            "_nota_hash": "AUD-A10: Gate 1 'hash confere' (Parte 3) — fonte.hash recomputado do fonte.hash_alvo a cada consolidacao; nulo/divergente = consolidar sai 1 (gate VERMELHO). Backfill: scripts/backfill_hash.py.",
         },
         "artefatos_nao_corpus": enumerar_nao_corpus(),
         "itens": sorted(todos, key=lambda i: (i["caminho_json"])),
@@ -204,6 +227,17 @@ def main():
     if divergencia_indexado:
         print(f"  ALERTA NV-1 'indexado' SEM chunk no indice (falso-verde): {divergencia_indexado}")
     print(f"  por status: {por_status}")
+    # AUD-A10 — Gate 1 'hash confere': nulo ou divergente DERRUBA a consolidação (exit 1).
+    if hash_nulo or hash_divergente:
+        if hash_nulo:
+            print(f"  GATE VERMELHO fonte.hash NULO ({len(hash_nulo)}): {hash_nulo[:8]}{'...' if len(hash_nulo) > 8 else ''}",
+                  file=sys.stderr)
+        if hash_divergente:
+            print(f"  GATE VERMELHO fonte.hash DIVERGENTE ({len(hash_divergente)}): {hash_divergente[:8]}",
+                  file=sys.stderr)
+        print("  (backfill inicial: python3 scripts/backfill_hash.py; divergência = alvo mudou sem re-carimbo intencional)",
+              file=sys.stderr)
+        sys.exit(1)
 
 
 if __name__ == "__main__":

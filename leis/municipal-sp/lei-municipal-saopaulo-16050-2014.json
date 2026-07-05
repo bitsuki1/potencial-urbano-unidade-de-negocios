@@ -22,9 +22,10 @@
   "fonte": {
     "origem": "Google Drive",
     "path": "_entrada/tdc/lei-no-16-050-de-31-de-julho-de-2014-catalogo-de-legislacao-municipal.txt",
-    "hash": null,
+    "hash": "sha256:3c480f3ba956cc989bd43ad2d2e420e1beacf86246bacffbb305893d4a8efe0d",
     "ocr": false,
-    "fileId": "1wOSDStL2wPYQTB7hxXea354QH1VQxdh2"
+    "fileId": "1wOSDStL2wPYQTB7hxXea354QH1VQxdh2",
+    "hash_alvo": "_entrada/tdc/lei-no-16-050-de-31-de-julho-de-2014-catalogo-de-legislacao-municipal.txt"
   },
   "status_pipeline": "indexado",
   "confianca_extracao": "alta",

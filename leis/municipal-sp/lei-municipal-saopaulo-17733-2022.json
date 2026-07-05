@@ -17,9 +17,10 @@
   "fonte": {
     "origem": "Google Drive",
     "path": "_entrada/iptu/lei-no-17-733-de-11-de-janeiro-de-2022-catalogo-de-legislacao-municipa.txt",
-    "hash": null,
+    "hash": "sha256:6a00b423945616c248e5736856570751356587bacd25b20e6d2f4cfb1f8d5453",
     "ocr": false,
-    "fileId": "13cu1rgCXTnPeBvd0uryDTABBFmFhctHy"
+    "fileId": "13cu1rgCXTnPeBvd0uryDTABBFmFhctHy",
+    "hash_alvo": "_entrada/iptu/lei-no-17-733-de-11-de-janeiro-de-2022-catalogo-de-legislacao-municipa.txt"
   },
   "status_pipeline": "indexado",
   "confianca_extracao": "alta",

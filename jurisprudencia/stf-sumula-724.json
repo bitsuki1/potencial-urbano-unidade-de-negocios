@@ -14,8 +14,10 @@
   "fonte": {
     "origem": "web-oficial",
     "url": "https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=1644",
-    "hash": null,
-    "captura_verbatim": "jurisprudencia/_capturas/stf-sumula-724.txt"
+    "hash": "sha256:3cc9eb1020609b7ba358ab5576f8a2cee183e23dd11ba38e29f6ef6e70c1c413",
+    "captura_verbatim": "jurisprudencia/_capturas/stf-sumula-724.txt",
+    "hash_alvo": "jurisprudencia/stf-sumula-724.md",
+    "hash_nota": "hash da transcrição do corpus (.md) — cru ausente localmente (B-4/B-9); trocar pelo hash do cru quando ele chegar"
   },
   "status_pipeline": "tagueado",
   "confianca_extracao": "alta",

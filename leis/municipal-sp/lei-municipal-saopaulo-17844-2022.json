@@ -17,9 +17,10 @@
   "fonte": {
     "origem": "Google Drive",
     "path": "_entrada/iptu/lei-no-17-844-de-14-de-setembro-de-2022-catalogo-de-legislacao-municip.txt",
-    "hash": null,
+    "hash": "sha256:9b53997fb2d8aef70aa61c7d8301f3d80969b5d426b710f8f54c0beb7ed8eb55",
     "ocr": false,
-    "fileId": "1LaCDRmdJ41EWnQbrt3WzOMouDIceQs6Z"
+    "fileId": "1LaCDRmdJ41EWnQbrt3WzOMouDIceQs6Z",
+    "hash_alvo": "_entrada/iptu/lei-no-17-844-de-14-de-setembro-de-2022-catalogo-de-legislacao-municip.txt"
   },
   "status_pipeline": "indexado",
   "confianca_extracao": "alta",

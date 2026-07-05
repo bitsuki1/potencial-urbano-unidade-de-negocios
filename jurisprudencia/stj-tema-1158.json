@@ -15,8 +15,10 @@
   "fonte": {
     "origem": "web-oficial",
     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2025/31032025-Repetitivo-define-que-IPTU-e-obrigacao-do-devedor-fiduciante-ate-o-banco-ser-imitido-na-posse-do-imovel.aspx",
-    "hash": null,
-    "captura_verbatim": "jurisprudencia/_capturas/lote5-stj-temas_20260618.txt"
+    "hash": "sha256:abf2d9db3b82f29412722d9462cfcd46fd02fbc4b4d63b8cf6fae00f0e405bb7",
+    "captura_verbatim": "jurisprudencia/_capturas/lote5-stj-temas_20260618.txt",
+    "hash_alvo": "jurisprudencia/stj-tema-1158.md",
+    "hash_nota": "hash da transcrição do corpus (.md) — cru ausente localmente (B-4/B-9); trocar pelo hash do cru quando ele chegar"
   },
   "status_pipeline": "tagueado",
   "confianca_extracao": "alta",

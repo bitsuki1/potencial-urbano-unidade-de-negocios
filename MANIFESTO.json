@@ -1,6 +1,6 @@
 {
   "_doc": "Fonte da verdade do status_pipeline de cada item. GERADO por scripts/consolidar.py a partir dos .json individuais — NAO editar a mao (Principio 1.5/2.3 do CLAUDE.md). Roda a cada push via .github/workflows/consolidar.yml.",
-  "gerado_em": "2026-07-04T11:34:02.585862+00:00",
+  "gerado_em": "2026-07-05T20:55:28.751629+00:00",
   "vocabulario_status": [
     "bruto",
     "fatiado",
@@ -9,12 +9,12 @@
     "indexado"
   ],
   "resumo": {
-    "total_itens": 63,
+    "total_itens": 61,
     "leis": 31,
-    "jurisprudencia": 32,
+    "jurisprudencia": 30,
     "ativos_no_escopo": 61,
-    "fora_de_escopo": 2,
-    "_nota": "por_status_pipeline conta SÓ os ativos_no_escopo; os 2 fora-de-escopo (ambos tagueado) não entram aqui. Soma = ativos_no_escopo, não total_itens.",
+    "fora_de_escopo": 0,
+    "_nota": "por_status_pipeline conta SÓ os ativos_no_escopo. Os 2 fora-de-escopo históricos (stf-tema-1020/ISS, stj-resp-1658054/previdenciário) foram ARQUIVADOS por decisão do dono em 2026-07-05 (git rm; recuperáveis pelo histórico).",
     "por_status_pipeline_ativos": {
       "indexado": 19,
       "bruto": 12,
@@ -24,7 +24,7 @@
     "verbatim_integral_ativos": 19,
     "_nota_verbatim_integral": "B-7/AUD-17: verbatim_integral e DERIVADO do marcador '## Texto integral (verbatim)' no .md (prova mecanica, nao declaracao). Difere de confianca_extracao (flag do extrator).",
     "confianca_baixa_ou_media": 15,
-    "_nota_verbatim": "confianca e flag de extracao, nao prova de verbatim. CORRIGIDO na auditoria profunda 2026-06-20 (AUD-01): 13 leis JA estao em verbatim integral e indexadas (12 federais re-ingeridas de _entrada/misto/ + a 7228/1968 municipal) — supera a narrativa antiga 'planalto deu 403, NENHUMA e verbatim', que confundia 'o .md e resumo' com 'o verbatim nao existe'. Faltam 14 municipais (so resumo WebSearch) — re-ingestao verbatim delas e o que resta do pre-requisito do RAG. As 32 juris (curtas) sao verbatim."
+    "_nota_verbatim": "confianca e flag de extracao, nao prova de verbatim. CORRIGIDO na auditoria profunda 2026-06-20 (AUD-01): 13 leis JA estao em verbatim integral e indexadas (12 federais re-ingeridas de _entrada/misto/ + a 7228/1968 municipal) — supera a narrativa antiga 'planalto deu 403, NENHUMA e verbatim', que confundia 'o .md e resumo' com 'o verbatim nao existe'. Faltam 12 municipais (so resumo WebSearch) — re-ingestao verbatim delas e o que resta do pre-requisito do RAG. As juris (curtas) sao verbatim."
   },
   "alertas": {
     "status_fora_do_vocabulario": [],
@@ -45,14 +45,14 @@
       "stj-tema-262",
       "stj-tema-399"
     ],
-    "itens_fora_de_escopo": [
-      "stf-tema-1020",
-      "stj-resp-1658054"
-    ],
+    "itens_fora_de_escopo": [],
     "indexado_sem_chunks_no_indice": [],
     "_nota_divergencia": "NV-1 (2026-06-27): ids que dizem status_pipeline=indexado mas NAO tem chunk no rag/index = FALSO-VERDE; o gate (fechar-instancia.py / gate-fechamento.sh) FALHA se esta lista nao for vazia. Vazia = todo 'indexado' e provado pelo indice.",
     "indexado_verbatim_sem_vigencia_datada": [],
-    "_nota_vigencia": "B-7 (1.6): leis verbatim/indexadas que ainda nao tem vigencia.inicio datada. Gap declarado (nao bloqueia o gate) — a datacao das 13 municipais bruto depende do verbatim do Drive (B-4)."
+    "_nota_vigencia": "B-7 (1.6): leis verbatim/indexadas que ainda nao tem vigencia.inicio datada. Gap declarado (nao bloqueia o gate) — a datacao das 13 municipais bruto depende do verbatim do Drive (B-4).",
+    "fonte_hash_nulo": [],
+    "fonte_hash_divergente": [],
+    "_nota_hash": "AUD-A10: Gate 1 'hash confere' (Parte 3) — fonte.hash recomputado do fonte.hash_alvo a cada consolidacao; nulo/divergente = consolidar sai 1 (gate VERMELHO). Backfill: scripts/backfill_hash.py."
   },
   "artefatos_nao_corpus": {
     "_nota": "Estado dos artefatos NÃO-corpus (1.1: Tabela/Engine/Tese). Fechamento do D24-do-git (AUD-09).",
@@ -173,21 +173,6 @@
       "fonte_url": "https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=26&sumula=1248"
     },
     {
-      "id": "stf-tema-1020",
-      "tipo": "tema_repercussao_geral",
-      "caminho_md": "jurisprudencia/stf-tema-1020.md",
-      "caminho_json": "jurisprudencia/stf-tema-1020.json",
-      "status_pipeline": "tagueado",
-      "status_valido": true,
-      "confianca_extracao": "alta",
-      "verbatim_integral": false,
-      "vigencia_inicio": null,
-      "revisado_por_humano": false,
-      "fora_de_escopo": true,
-      "fora_de_escopo_motivo": "Tema de ISS, não IPTU (verbatim confirma) — realocar p/ corpus ISS",
-      "fonte_url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=5563078&numeroProcesso=1167509&classeProcesso=RE&numeroTema=1020"
-    },
-    {
       "id": "stf-tema-1084",
       "tipo": "tema_repercussao_geral",
       "caminho_md": "jurisprudencia/stf-tema-1084.md",
@@ -306,21 +291,6 @@
       "fora_de_escopo": false,
       "fora_de_escopo_motivo": null,
       "fonte_url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2022/06112022-ITBI-e-IPTU-o-STJ-e-os-impostos-municipais-que-incidem-sobre-imoveis--parte-2-.aspx"
-    },
-    {
-      "id": "stj-resp-1658054",
-      "tipo": "recurso_repetitivo",
-      "caminho_md": "jurisprudencia/stj-resp-1658054.md",
-      "caminho_json": "jurisprudencia/stj-resp-1658054.json",
-      "status_pipeline": "tagueado",
-      "status_valido": true,
-      "confianca_extracao": "alta",
-      "verbatim_integral": false,
-      "vigencia_inicio": null,
-      "revisado_por_humano": false,
-      "fora_de_escopo": true,
-      "fora_de_escopo_motivo": "Previdenciário confirmado pela captura (REsp 1.658.054/RS, DJe 29/06/2017, contribuições s/ verbas trabalhistas) — fora do escopo IPTU/TDC; arquivar",
-      "fonte_url": "https://scon.stj.jus.br/SCON/"
     },
     {
       "id": "stj-sumula-314",

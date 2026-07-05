@@ -50,10 +50,12 @@
   "fonte": {
     "origem": "web-oficial",
     "url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-11152-de-30-de-dezembro-de-1991",
-    "hash": null,
+    "hash": "sha256:cfc313dd7fd73da32727cb2a6e6694f4cf6f72f14fc1a3bacdf764133f4cf46f",
     "ocr": false,
     "metodo": "WebSearch (nao-verbatim; WebFetch/curl bloqueados HTTP 403)",
-    "obs": "texto nao-verbatim; capturado via WebSearch por bloqueio de WebFetch/curl (HTTP 403)."
+    "obs": "texto nao-verbatim; capturado via WebSearch por bloqueio de WebFetch/curl (HTTP 403).",
+    "hash_alvo": "leis/municipal-sp/lei-municipal-saopaulo-11152-1991.md",
+    "hash_nota": "hash da transcrição do corpus (.md) — cru ausente localmente (B-4/B-9); trocar pelo hash do cru quando ele chegar"
   },
   "status_pipeline": "bruto",
   "confianca_extracao": "baixa",

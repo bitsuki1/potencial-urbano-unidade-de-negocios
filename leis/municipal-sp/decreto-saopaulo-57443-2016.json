@@ -17,9 +17,10 @@
   "fonte": {
     "origem": "Google Drive",
     "path": "_entrada/iptu/decreto-no-57-443-de-10-de-novembro-de-2016-catalogo-de-legislacao-mun.txt",
-    "hash": null,
+    "hash": "sha256:534f6535955be3a875d1322226d9af7e93d97431b177e8857788e29fca94c6ac",
     "ocr": false,
-    "fileId": "1PieuCjPGrWio22UwcYEmGR33JM58OHEx"
+    "fileId": "1PieuCjPGrWio22UwcYEmGR33JM58OHEx",
+    "hash_alvo": "_entrada/iptu/decreto-no-57-443-de-10-de-novembro-de-2016-catalogo-de-legislacao-mun.txt"
   },
   "status_pipeline": "indexado",
   "confianca_extracao": "alta",

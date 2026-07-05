@@ -14,8 +14,10 @@
   "fonte": {
     "origem": "web-oficial",
     "url": "https://arquivocidadao.stj.jus.br/index.php/sumula-392-2",
-    "hash": null,
-    "captura_verbatim": "jurisprudencia/_capturas/stj-sumula-392.txt"
+    "hash": "sha256:579521525465118ede9c8f862017713ecb72ef8524bc289722b15602a60d1997",
+    "captura_verbatim": "jurisprudencia/_capturas/stj-sumula-392.txt",
+    "hash_alvo": "jurisprudencia/stj-sumula-392.md",
+    "hash_nota": "hash da transcrição do corpus (.md) — cru ausente localmente (B-4/B-9); trocar pelo hash do cru quando ele chegar"
   },
   "status_pipeline": "tagueado",
   "confianca_extracao": "alta",

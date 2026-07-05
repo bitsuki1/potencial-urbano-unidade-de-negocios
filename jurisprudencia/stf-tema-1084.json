@@ -16,8 +16,10 @@
   "fonte": {
     "origem": "web-oficial",
     "url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=5813878&numeroProcesso=1245097&classeProcesso=ARE&numeroTema=1084",
-    "hash": null,
-    "captura_verbatim": "jurisprudencia/_capturas/stf-tema-1084.txt"
+    "hash": "sha256:797739e95dbf790b060f8a35f9da14648ab42b7ce61fa0be67ae1ae5ba61ef86",
+    "captura_verbatim": "jurisprudencia/_capturas/stf-tema-1084.txt",
+    "hash_alvo": "jurisprudencia/stf-tema-1084.md",
+    "hash_nota": "hash da transcrição do corpus (.md) — cru ausente localmente (B-4/B-9); trocar pelo hash do cru quando ele chegar"
   },
   "status_pipeline": "tagueado",
   "confianca_extracao": "alta",

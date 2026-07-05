@@ -15,8 +15,10 @@
   "fonte": {
     "origem": "web-oficial",
     "url": "https://scon.stj.jus.br/SCON/jurisprudencia/toc.jsp?b=ACOR&livre=(('RESP'.clas.%20e%20@num='1112646'))",
-    "hash": null,
-    "captura_verbatim": "jurisprudencia/_capturas/stj-resp-1112646.txt"
+    "hash": "sha256:e83d94ab08d0a3e857eba6728aae3650e34fa024d51b502317648e518c886c02",
+    "captura_verbatim": "jurisprudencia/_capturas/stj-resp-1112646.txt",
+    "hash_alvo": "jurisprudencia/stj-resp-1112646.md",
+    "hash_nota": "hash da transcrição do corpus (.md) — cru ausente localmente (B-4/B-9); trocar pelo hash do cru quando ele chegar"
   },
   "status_pipeline": "tagueado",
   "confianca_extracao": "alta",

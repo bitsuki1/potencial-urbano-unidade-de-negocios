@@ -35,11 +35,12 @@
   "fonte": {
     "origem": "web-oficial",
     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc116.htm",
-    "hash": null,
+    "hash": "sha256:4f315fe93221996b7f44a9f6f0af2df6202f64fe3c83507561c43ceb17887276",
     "ocr": false,
     "path": "_entrada/misto/ec-116-2022.txt",
     "metodo": "VERBATIM DE TELA (planalto); re-ingerido de _entrada/misto/ em 2026-06-20 (AUD-01)",
-    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior."
+    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior.",
+    "hash_alvo": "_entrada/misto/ec-116-2022.txt"
   },
   "status_pipeline": "indexado",
   "confianca_extracao": "alta",

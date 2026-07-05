@@ -14,8 +14,10 @@
   "fonte": {
     "origem": "web-oficial",
     "url": "https://www.stj.jus.br/docs_internet/revista/eletronica/stj-revista-sumulas-2013_37_capSumula399.pdf",
-    "hash": null,
-    "captura_verbatim": "jurisprudencia/_capturas/stj-sumula-399.txt"
+    "hash": "sha256:9fcdf7df6094aa9292569b61dd8bc7a394c6db0d8c0b993acb2c5c5b9ec2b38e",
+    "captura_verbatim": "jurisprudencia/_capturas/stj-sumula-399.txt",
+    "hash_alvo": "jurisprudencia/stj-sumula-399.md",
+    "hash_nota": "hash da transcrição do corpus (.md) — cru ausente localmente (B-4/B-9); trocar pelo hash do cru quando ele chegar"
   },
   "status_pipeline": "tagueado",
   "confianca_extracao": "alta",

@@ -15,8 +15,10 @@
   "fonte": {
     "origem": "web-oficial",
     "url": "https://jurishand.com/sumula-stj-397-de-07-outubro-2009",
-    "hash": null,
-    "captura_verbatim": "jurisprudencia/_capturas/stj-sumula-397.txt"
+    "hash": "sha256:6c06c8c0e7980779a3f779cc91f142d87b9e2ff969e255ba26576176b86aeeca",
+    "captura_verbatim": "jurisprudencia/_capturas/stj-sumula-397.txt",
+    "hash_alvo": "jurisprudencia/stj-sumula-397.md",
+    "hash_nota": "hash da transcrição do corpus (.md) — cru ausente localmente (B-4/B-9); trocar pelo hash do cru quando ele chegar"
   },
   "status_pipeline": "tagueado",
   "confianca_extracao": "alta",

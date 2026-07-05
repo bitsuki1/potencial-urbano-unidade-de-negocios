@@ -15,8 +15,10 @@
   "fonte": {
     "origem": "web-oficial",
     "url": "https://ww2.stj.jus.br/docs_internet/revista/eletronica/stj-revista-sumulas-2014_38_capSumula409.pdf",
-    "hash": null,
-    "captura_verbatim": "jurisprudencia/_capturas/stj-sumula-409.txt"
+    "hash": "sha256:c0671c8b6c2f4b801931f62382ecd6832b7c4ed1ff078e5dde814fc6b73c8c6c",
+    "captura_verbatim": "jurisprudencia/_capturas/stj-sumula-409.txt",
+    "hash_alvo": "jurisprudencia/stj-sumula-409.md",
+    "hash_nota": "hash da transcrição do corpus (.md) — cru ausente localmente (B-4/B-9); trocar pelo hash do cru quando ele chegar"
   },
   "status_pipeline": "tagueado",
   "confianca_extracao": "alta",

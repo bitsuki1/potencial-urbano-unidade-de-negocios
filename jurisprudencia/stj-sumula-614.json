@@ -17,8 +17,10 @@
   "fonte": {
     "origem": "web-oficial",
     "url": "https://scon.stj.jus.br/SCON/sumstj/doc.jsp?livre=%22614%22.num.&b=SUMU",
-    "hash": null,
-    "captura_verbatim": "jurisprudencia/_capturas/stj-sumula-614.txt"
+    "hash": "sha256:3349bdbbe3b9b3e28ce91fd842509d7c39b916af81f48394efdfee2903bc93d3",
+    "captura_verbatim": "jurisprudencia/_capturas/stj-sumula-614.txt",
+    "hash_alvo": "jurisprudencia/stj-sumula-614.md",
+    "hash_nota": "hash da transcrição do corpus (.md) — cru ausente localmente (B-4/B-9); trocar pelo hash do cru quando ele chegar"
   },
   "status_pipeline": "tagueado",
   "confianca_extracao": "alta",

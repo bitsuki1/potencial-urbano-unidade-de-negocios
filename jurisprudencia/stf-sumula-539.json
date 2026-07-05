@@ -15,8 +15,10 @@
   "fonte": {
     "origem": "web-oficial",
     "url": "https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=3338",
-    "hash": null,
-    "captura_verbatim": "jurisprudencia/_capturas/stf-sumula-539.txt"
+    "hash": "sha256:e4df1633896b14608b5e39c974271357f53cc19cb06c328eda66c93771e20f98",
+    "captura_verbatim": "jurisprudencia/_capturas/stf-sumula-539.txt",
+    "hash_alvo": "jurisprudencia/stf-sumula-539.md",
+    "hash_nota": "hash da transcrição do corpus (.md) — cru ausente localmente (B-4/B-9); trocar pelo hash do cru quando ele chegar"
   },
   "status_pipeline": "tagueado",
   "confianca_extracao": "alta",

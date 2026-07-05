@@ -16,8 +16,10 @@
   "fonte": {
     "origem": "web-oficial",
     "url": "https://www.stj.jus.br/websecstj/cgi/revista/REJ.cgi/ITA?seq=1098748&nreg=201100996000&dt=20111027&formato=HTML",
-    "hash": null,
-    "captura_verbatim": "jurisprudencia/_capturas/stj-resp-1130545.txt"
+    "hash": "sha256:2cf6bf9ef4926db0c5121b9747235bdb54432918bf3e17c310ad647ca1f767aa",
+    "captura_verbatim": "jurisprudencia/_capturas/stj-resp-1130545.txt",
+    "hash_alvo": "jurisprudencia/stj-resp-1130545.md",
+    "hash_nota": "hash da transcrição do corpus (.md) — cru ausente localmente (B-4/B-9); trocar pelo hash do cru quando ele chegar"
   },
   "status_pipeline": "tagueado",
   "confianca_extracao": "alta",

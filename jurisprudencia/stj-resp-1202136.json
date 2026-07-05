@@ -15,8 +15,10 @@
   "fonte": {
     "origem": "web-oficial",
     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2022/06112022-ITBI-e-IPTU-o-STJ-e-os-impostos-municipais-que-incidem-sobre-imoveis--parte-2-.aspx",
-    "hash": null,
-    "captura_verbatim": "jurisprudencia/_capturas/stj-resp-1202136.txt"
+    "hash": "sha256:4985b5196e978b37b330a90637bd00bac031176b78c6797cc3c88b07e8569ece",
+    "captura_verbatim": "jurisprudencia/_capturas/stj-resp-1202136.txt",
+    "hash_alvo": "jurisprudencia/stj-resp-1202136.md",
+    "hash_nota": "hash da transcrição do corpus (.md) — cru ausente localmente (B-4/B-9); trocar pelo hash do cru quando ele chegar"
   },
   "status_pipeline": "tagueado",
   "confianca_extracao": "alta",

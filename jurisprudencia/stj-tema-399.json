@@ -12,8 +12,10 @@
   "fonte": {
     "origem": "web-oficial",
     "url": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=399&cod_tema_final=399",
-    "hash": null,
-    "captura_verbatim": "jurisprudencia/_capturas/lote5-stj-temas_20260618.txt"
+    "hash": "sha256:190cd04c96ee3aeb196895b442e3ab8b4917453aac7f714cecf15f81d894ec9f",
+    "captura_verbatim": "jurisprudencia/_capturas/lote5-stj-temas_20260618.txt",
+    "hash_alvo": "jurisprudencia/stj-tema-399.md",
+    "hash_nota": "hash da transcrição do corpus (.md) — cru ausente localmente (B-4/B-9); trocar pelo hash do cru quando ele chegar"
   },
   "status_pipeline": "tagueado",
   "confianca_extracao": "baixa",

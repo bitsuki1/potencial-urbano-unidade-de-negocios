@@ -15,8 +15,10 @@
   "fonte": {
     "origem": "web-oficial",
     "url": "https://processo.stj.jus.br/SCON/sumstj/doc.jsp?sumula=626&b=SUMU",
-    "hash": null,
-    "captura_verbatim": "jurisprudencia/_capturas/stj-sumula-626.txt"
+    "hash": "sha256:88592334d4010ecbecb7dfb13ab44de37aa0f7c44e7813d04dbfd03bf4c90412",
+    "captura_verbatim": "jurisprudencia/_capturas/stj-sumula-626.txt",
+    "hash_alvo": "jurisprudencia/stj-sumula-626.md",
+    "hash_nota": "hash da transcrição do corpus (.md) — cru ausente localmente (B-4/B-9); trocar pelo hash do cru quando ele chegar"
   },
   "status_pipeline": "tagueado",
   "confianca_extracao": "alta",

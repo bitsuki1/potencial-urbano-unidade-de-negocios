@@ -53,10 +53,12 @@
   "fonte": {
     "origem": "web-oficial",
     "url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-11338-de-30-de-dezembro-de-1992",
-    "hash": null,
+    "hash": "sha256:ce6e83528e0ef32f81548321f36be90f2b4cf619ee2ed9a7b1e1070dea3f16f0",
     "ocr": false,
     "metodo": "WebSearch (nao-verbatim; WebFetch/curl bloqueados HTTP 403)",
-    "obs": "texto nao-verbatim; capturado via WebSearch por bloqueio de WebFetch/curl (HTTP 403)."
+    "obs": "texto nao-verbatim; capturado via WebSearch por bloqueio de WebFetch/curl (HTTP 403).",
+    "hash_alvo": "leis/municipal-sp/lei-municipal-saopaulo-11338-1992.md",
+    "hash_nota": "hash da transcrição do corpus (.md) — cru ausente localmente (B-4/B-9); trocar pelo hash do cru quando ele chegar"
   },
   "status_pipeline": "bruto",
   "confianca_extracao": "baixa",

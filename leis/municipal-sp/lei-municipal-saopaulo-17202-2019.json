@@ -39,10 +39,12 @@
   "fonte": {
     "origem": "web-oficial",
     "url": "https://legislacao.prefeitura.sp.gov.br/lei-17202-de-16-de-outubro-de-2019",
-    "hash": null,
+    "hash": "sha256:da9348c459b4fa49df44d278be0097bb61b80c6e22b1be8e5b9b6a9c54bfd61e",
     "ocr": false,
     "metodo": "WebSearch (nao-verbatim; WebFetch/curl bloqueados HTTP 403)",
-    "obs": "texto nao-verbatim; capturado via WebSearch por bloqueio de WebFetch/curl (HTTP 403)."
+    "obs": "texto nao-verbatim; capturado via WebSearch por bloqueio de WebFetch/curl (HTTP 403).",
+    "hash_alvo": "leis/municipal-sp/lei-municipal-saopaulo-17202-2019.md",
+    "hash_nota": "hash da transcrição do corpus (.md) — cru ausente localmente (B-4/B-9); trocar pelo hash do cru quando ele chegar"
   },
   "status_pipeline": "bruto",
   "confianca_extracao": "baixa",

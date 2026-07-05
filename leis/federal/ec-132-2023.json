@@ -36,11 +36,12 @@
   "fonte": {
     "origem": "web-oficial",
     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm",
-    "hash": null,
+    "hash": "sha256:5b7ec9eaabf07e5caecf830c17b48795b51bf8634a10847ff2e0585ed78c283a",
     "ocr": false,
     "path": "_entrada/misto/ec-132-2023.txt",
     "metodo": "VERBATIM DE TELA (planalto); re-ingerido de _entrada/misto/ em 2026-06-20 (AUD-01)",
-    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior."
+    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior.",
+    "hash_alvo": "_entrada/misto/ec-132-2023.txt"
   },
   "status_pipeline": "indexado",
   "confianca_extracao": "alta",

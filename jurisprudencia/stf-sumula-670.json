@@ -14,8 +14,10 @@
   "fonte": {
     "origem": "web-oficial",
     "url": "https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=26&sumula=2218",
-    "hash": null,
-    "captura_verbatim": "jurisprudencia/_capturas/stf-sumula-670.txt"
+    "hash": "sha256:665c473f0eb79fbf51472883735f9578f62c1267e43749839462affa23bee3d0",
+    "captura_verbatim": "jurisprudencia/_capturas/stf-sumula-670.txt",
+    "hash_alvo": "jurisprudencia/stf-sumula-670.md",
+    "hash_nota": "hash da transcrição do corpus (.md) — cru ausente localmente (B-4/B-9); trocar pelo hash do cru quando ele chegar"
   },
   "status_pipeline": "tagueado",
   "confianca_extracao": "alta",

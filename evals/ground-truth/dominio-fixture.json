@@ -1,0 +1,46 @@
+{
+  "_doc": "AUD-B01 (auditoria 2026-07-05): fixture de domínio INDEPENDENTE do mapa de scripts/carimbar_dominio.py. O `carimbar --check` compara o corpus contra o MESMO mapa que o escreveu (tautologia: prova consistência, não correção). Esta fixture foi escrita a partir da LEITURA DAS EMENTAS/objeto de cada norma (juízo independente, lavrado aqui em 2026-07-05, PU 18) e trava as âncoras: se alguém editar o mapa do carimbar (ex.: devolver a 17.844 para iptu), o --check continua verde mas ESTE eval FALHA. Consumida por evals/eval-dominio.py (invariante I6).",
+  "_regra": "dominio_primario esperado por item, derivado do EFEITO JURÍDICO da norma (potencial construtivo→tdc; tributo→iptu; ambos/matriz→compartilhado).",
+  "ancoras": {
+    "lei-municipal-saopaulo-17844-2022": {
+      "dominio_primario": "tdc",
+      "razao": "Ementa/objeto: disciplina a Transferência do Direito de Construir (potencial construtivo passível de transferência) — efeito jurídico exclusivo de TDC, não tributo."
+    },
+    "lei-municipal-saopaulo-16050-2014": {
+      "dominio_primario": "compartilhado",
+      "razao": "PDE: arts. 122-133 regem TDC/outorga E o plano fixa parâmetros que afetam a base de cálculo tributária — serve aos dois domínios."
+    },
+    "lei-municipal-saopaulo-16402-2016": {
+      "dominio_primario": "compartilhado",
+      "razao": "LPUOS/zoneamento: CAbás alimenta o PCpt (TDC) E os parâmetros urbanísticos refletem no IPTU."
+    },
+    "lei-municipal-saopaulo-7228-1968": {
+      "dominio_primario": "iptu",
+      "razao": "Lei tributária municipal (altera a 6.989/1966, IPTU-SP) — efeito de tributo."
+    },
+    "lei-federal-6830-1980": {
+      "dominio_primario": "iptu",
+      "razao": "Execução fiscal (cobrança de dívida ativa tributária) — tese IPTU, sem efeito de potencial construtivo."
+    },
+    "lei-federal-8009-1990": {
+      "dominio_primario": "iptu",
+      "razao": "Impenhorabilidade do bem de família (exceção do IPTU no art. 3º) — tese tributária."
+    },
+    "dl-57-1966": {
+      "dominio_primario": "iptu",
+      "razao": "Critério ITR×IPTU (destinação rural/urbana) — delimitação do tributo."
+    },
+    "decreto-saopaulo-57443-2016": {
+      "dominio_primario": "iptu",
+      "razao": "Regulamento do IPTU paulistano — tributo."
+    },
+    "lei-federal-6015-1973": {
+      "dominio_primario": "compartilhado",
+      "razao": "Registros públicos: registro da certidão de TDC E titularidade para lançamento do IPTU."
+    },
+    "lei-municipal-saopaulo-12350-1997": {
+      "dominio_primario": "compartilhado",
+      "razao": "Incentivo fiscal (IPTU) a imóveis tombados — universo ZEPEC da prospecção TDC E benefício tributário."
+    }
+  }
+}

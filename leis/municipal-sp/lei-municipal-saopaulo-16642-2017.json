@@ -19,9 +19,10 @@
   "fonte": {
     "origem": "Google Drive",
     "path": "_entrada/tdc/l16642.txt",
-    "hash": null,
+    "hash": "sha256:367b55e31db8efc63fb76f566016b743022b361c214a9ac74617fbc3492ac115",
     "ocr": false,
-    "fileId": "1CPtqgZ4ucdXvA0VJ7VW5p1xNwrgddRx0"
+    "fileId": "1CPtqgZ4ucdXvA0VJ7VW5p1xNwrgddRx0",
+    "hash_alvo": "_entrada/tdc/l16642.txt"
   },
   "status_pipeline": "indexado",
   "confianca_extracao": "alta",

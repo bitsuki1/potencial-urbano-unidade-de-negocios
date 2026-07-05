@@ -14,8 +14,10 @@
   "fonte": {
     "origem": "web-oficial",
     "url": "https://www.stj.jus.br/docs_internet/revista/eletronica/stj-revista-sumulas-2017_43_capSumulas481-485.pdf",
-    "hash": null,
-    "captura_verbatim": "jurisprudencia/_capturas/stj-sumula-481.txt"
+    "hash": "sha256:0720208dc4b9743a4134a3cc25db5c46468b818127f22f9cd755ae574f536fa1",
+    "captura_verbatim": "jurisprudencia/_capturas/stj-sumula-481.txt",
+    "hash_alvo": "jurisprudencia/stj-sumula-481.md",
+    "hash_nota": "hash da transcrição do corpus (.md) — cru ausente localmente (B-4/B-9); trocar pelo hash do cru quando ele chegar"
   },
   "status_pipeline": "tagueado",
   "confianca_extracao": "alta",
