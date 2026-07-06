@@ -101,6 +101,26 @@
   .motor.build{border-top-color:var(--build)} .build .bl{color:var(--build)}
   .build .pill{background:var(--build-bg);color:var(--build)}
 
+  .phys{margin:14px 0 0;padding:13px 15px;background:var(--accent-soft);border:1px solid var(--line);
+    border-radius:11px;font-size:14.5px;color:var(--ink);line-height:1.5}
+  .phys .k{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:10.5px;
+    letter-spacing:.09em;text-transform:uppercase;color:var(--accent);font-weight:700;
+    display:block;margin:0 0 4px}
+  .phys b{font-weight:650}
+
+  /* materia-prima */
+  .raw{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;margin:0 0 22px}
+  .raw .cell{background:var(--surface);border:1px solid var(--line);border-radius:13px;padding:18px 18px}
+  .raw .cell .t{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);
+    font-weight:700;margin:0 0 8px}
+  .raw .cell h3{margin:0 0 6px;font-size:17px;font-weight:600;letter-spacing:-.01em}
+  .raw .cell p{margin:0;font-size:14px;color:var(--muted);line-height:1.5}
+  .raw .cell .tech{display:inline-block;margin-top:9px;font-family:ui-monospace,Menlo,Consolas,monospace;
+    font-size:11px;color:var(--faint);border:1px solid var(--line);border-radius:6px;padding:2px 7px}
+  .machine{background:var(--accent-soft);border:1px solid var(--line);border-radius:14px;padding:22px 24px}
+  .machine p{margin:0;font-size:16.5px;color:var(--ink);max-width:64ch}
+  .machine p b{font-weight:650}
+
   /* ---------- fit / order ---------- */
   .fit{background:var(--accent-soft);border:1px solid var(--line);border-radius:16px;padding:26px 28px}
   .fit p{margin:0;font-size:16.5px;color:var(--ink);max-width:64ch}
@@ -126,6 +146,7 @@
     .step:nth-child(2){border-right:none}
     .step:nth-child(1),.step:nth-child(2){border-bottom:1px solid var(--line)}
     .m-blocks{grid-template-columns:1fr;gap:18px}
+    .raw{grid-template-columns:1fr}
   }
   @media (max-width:480px){.steps{grid-template-columns:1fr}
     .step{border-right:none;border-bottom:1px solid var(--line)}.step:last-child{border-bottom:none}}
@@ -185,11 +206,44 @@
       para ir ao dossiê do imóvel.</p>
   </section>
 
+  <!-- MATERIA-PRIMA -->
+  <section>
+    <p class="lbl">O que confunde — resolvido</p>
+    <h2 class="serif">De que são feitos</h2>
+    <p class="sub">Um motor <b>não é</b> um acervo de busca, nem um monte de documentos, nem uma planilha.
+      Essas são as <b>matérias-primas</b> — todas oficiais. O motor é a <b>máquina que roda em volta delas</b>.</p>
+    <div class="raw">
+      <div class="cell">
+        <p class="t">Matéria-prima 1</p>
+        <h3 class="serif">As leis</h3>
+        <p>Viram um acervo pesquisável: você pergunta em português e ele acha o artigo e cita.</p>
+        <span class="tech">é o que chamam de “RAG”</span>
+      </div>
+      <div class="cell">
+        <p class="t">Matéria-prima 2</p>
+        <h3 class="serif">As tabelas</h3>
+        <p>Os valores que a lei fixa (alíquotas, índices, faixas) viram planilhas de números.</p>
+        <span class="tech">planilhas / CSV</span>
+      </div>
+      <div class="cell">
+        <p class="t">Matéria-prima 3</p>
+        <h3 class="serif">Os mapas</h3>
+        <p>A planta da cidade — o desenho dos lotes e das zonas — vira arquivo de geografia.</p>
+        <span class="tech">arquivos de mapa</span>
+      </div>
+    </div>
+    <div class="machine">
+      <p>Um <b>motor</b> lê essa matéria-prima e <b>produz ou confere um número</b>, sempre citando a lei.
+        Uns são <b>finos</b> (o Motor 0 é só verificação); outros são <b>gordos</b> — um banco de dados
+        inteiro, ou os mapas mais o programa que os cruza. Abaixo, de que cada um é feito, na prática.</p>
+    </div>
+  </section>
+
   <!-- MOTORES -->
   <section>
     <p class="lbl">Os quatro motores</p>
     <h2 class="serif">O que é cada um, e o que entrega</h2>
-    <p class="sub">Para cada motor: o que ele é, como se chega nele e o que fica pronto no fim.</p>
+    <p class="sub">Para cada motor: de que é feito, o que é, como se chega nele e o que fica pronto.</p>
 
     <div class="motors">
 
@@ -200,6 +254,10 @@
           <h3 class="m-name serif">O piso de honestidade</h3>
           <span class="pill">✓ PRONTO</span>
         </div>
+        <p class="phys"><span class="k">De que é feito</span>Cinco testes automáticos + um porteiro que
+          roda a cada mudança (e <b>reprova se um número for adulterado</b>) + um arquivo de aviso + duas
+          colunas a mais na planilha de imóveis. <b>Não é banco nem documento — é a camada de verificação
+          tecida na esteira.</b></p>
         <div class="m-blocks">
           <div class="blk"><p class="bl">O que é</p><p>A regra de honestidade da máquina: nenhum número
             sai sem <b>duas coisas</b> — o artigo da lei que o gerou, e uma etiqueta dizendo o que ele é
@@ -220,6 +278,9 @@
           <h3 class="m-name serif">Os dados e a esteira</h3>
           <span class="pill">COMEÇA POR AQUI</span>
         </div>
+        <p class="phys"><span class="k">De que é feito</span>Um <b>banco de dados</b> (o Supabase) + os
+          programas que o enchem e o reconstroem + o registro de origem de cada dado. <b>É a esteira e o
+          banco</b> — o mais “gordo” dos quatro.</p>
         <div class="m-blocks">
           <div class="blk"><p class="bl">O que é</p><p>O encanamento: o banco de dados e a esteira de onde
             todos os outros motores leem. Hoje há uma bagunça — o que roda no banco não está guardado no
@@ -240,6 +301,9 @@
           <h3 class="m-name serif">As travas da lei</h3>
           <span class="pill">A CONSTRUIR</span>
         </div>
+        <p class="phys"><span class="k">De que é feito</span>Um conjunto de <b>regras em programa</b> que
+          leem as leis (já no acervo de busca) e a lista de imóveis, e marcam cada um <b>pode / não-pode</b>.
+          É código de regra + os textos de lei que ele cita.</p>
         <div class="m-blocks">
           <div class="blk"><p class="bl">O que é</p><p>A lei virada em <b>barreiras automáticas</b>. A TDC
             tem regras duras: alguns imóveis não podem transferir; outros só se estiverem conservados; há
@@ -261,6 +325,9 @@
           <h3 class="m-name serif">O mapa da cidade</h3>
           <span class="pill">A CONSTRUIR</span>
         </div>
+        <p class="phys"><span class="k">De que é feito</span>As <b>plantas oficiais</b> da cidade (arquivos
+          de mapa) + um programa que <b>cruza cada imóvel com a sua zona</b> + um banco de mapas. É mapa +
+          o programa que lê o mapa.</p>
         <div class="m-blocks">
           <div class="blk"><p class="bl">O que é</p><p>Descobre <b>onde cada imóvel cai no mapa</b> e qual
             regra de zoneamento vale ali — porque quanto se pode construir e transferir depende da zona.
