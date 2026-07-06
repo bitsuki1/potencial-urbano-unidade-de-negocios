@@ -39,19 +39,48 @@ def _drive():
     return build("drive", "v3", credentials=creds, cache_discovery=False)
 
 
-def enumerar(drive):
-    files, tok = [], None
-    q = "trashed = false and mimeType != 'application/vnd.google-apps.folder'"
+def _list_all(drive, q, fields):
+    out, tok = [], None
     while True:
         resp = drive.files().list(
-            q=q, spaces="drive",
-            fields="nextPageToken, files(id,name,size,parents,createdTime)",
+            q=q, spaces="drive", fields=f"nextPageToken, {fields}",
             pageSize=1000, pageToken=tok,
             includeItemsFromAllDrives=True, supportsAllDrives=True, corpora="allDrives").execute()
-        files.extend(resp.get("files", []))
+        out.extend(resp.get("files", []))
         tok = resp.get("nextPageToken")
         if not tok:
             break
+    return out
+
+
+def pastas_sob(drive, raiz):
+    """Conjunto de IDs de pasta que são DESCENDENTES de `raiz` (inclui raiz). Enumera todas as
+    pastas 1×, monta o mapa pai→filhos e faz BFS. Serve p/ ESCOPAR o dedup só à subárvore do
+    Potencial Urbano — o robô enxerga o portfólio inteiro (todas as unidades), e não queremos
+    mexer nas outras."""
+    folders = _list_all(drive, "mimeType = 'application/vnd.google-apps.folder' and trashed = false",
+                        "files(id,parents)")
+    filhos = defaultdict(list)
+    for f in folders:
+        for p in (f.get("parents") or []):
+            filhos[p].append(f["id"])
+    sob, fila = {raiz}, [raiz]
+    while fila:
+        cur = fila.pop()
+        for c in filhos.get(cur, []):
+            if c not in sob:
+                sob.add(c); fila.append(c)
+    return sob
+
+
+def enumerar(drive):
+    """Arquivos (não-lixeira, não-pasta) DENTRO da subárvore do Potencial Urbano (escopo)."""
+    sob = pastas_sob(drive, POTENCIAL_URBANO_ID)
+    print(f"pastas na subárvore do Potencial Urbano: {len(sob)}")
+    todos = _list_all(drive, "trashed = false and mimeType != 'application/vnd.google-apps.folder'",
+                      "files(id,name,size,parents,createdTime)")
+    files = [f for f in todos if any(p in sob for p in (f.get("parents") or []))]
+    print(f"enumerados no portfólio: {len(todos)} · dentro do Potencial Urbano: {len(files)}")
     return files
 
 
@@ -77,7 +106,6 @@ def achar_ou_criar_quarentena(drive):
 def main():
     drive = _drive()
     files = enumerar(drive)
-    print(f"enumerados: {len(files)} arquivos")
 
     grupos = defaultdict(list)
     for f in files:
