@@ -1,0 +1,269 @@
+<title>Potencial Urbano — Painel de decisões do dono</title>
+<style>
+  :root{
+    --bg:#eceef1; --surface:#ffffff; --ink:#15191f; --muted:#54606c; --faint:#808b96;
+    --line:#d5dce3; --accent:#2f6a93; --accent-soft:#dde9f1;
+    --go:#1f8a72; --go-bg:#d9ece6;
+    --spend:#a8781f; --spend-bg:#f1e7cf;
+    --human:#6b4f9e; --human-bg:#e8e1f3;
+    --confirm:#3f7d9e; --confirm-bg:#e2eef4;
+    --alarm:#b0402f; --alarm-bg:#f4ddd7;
+    --grid:rgba(47,106,147,.08);
+  }
+  @media (prefers-color-scheme:dark){
+    :root{
+      --bg:#12161b; --surface:#1a1f26; --ink:#e7ecf1; --muted:#9aa6b1; --faint:#6f7b86;
+      --line:#2a323b; --accent:#5b9fce; --accent-soft:#1a2c3a;
+      --go:#4fbfa2; --go-bg:#13312a; --spend:#d4a34f; --spend-bg:#2c2413;
+      --human:#b498e0; --human-bg:#241c33; --confirm:#6fb6d6; --confirm-bg:#182731;
+      --alarm:#e0806f; --alarm-bg:#2e1a15; --grid:rgba(91,159,206,.09);
+    }
+  }
+  :root[data-theme="light"]{
+    --bg:#eceef1; --surface:#ffffff; --ink:#15191f; --muted:#54606c; --faint:#808b96;
+    --line:#d5dce3; --accent:#2f6a93; --accent-soft:#dde9f1;
+    --go:#1f8a72; --go-bg:#d9ece6; --spend:#a8781f; --spend-bg:#f1e7cf;
+    --human:#6b4f9e; --human-bg:#e8e1f3; --confirm:#3f7d9e; --confirm-bg:#e2eef4;
+    --alarm:#b0402f; --alarm-bg:#f4ddd7; --grid:rgba(47,106,147,.08);
+  }
+  :root[data-theme="dark"]{
+    --bg:#12161b; --surface:#1a1f26; --ink:#e7ecf1; --muted:#9aa6b1; --faint:#6f7b86;
+    --line:#2a323b; --accent:#5b9fce; --accent-soft:#1a2c3a;
+    --go:#4fbfa2; --go-bg:#13312a; --spend:#d4a34f; --spend-bg:#2c2413;
+    --human:#b498e0; --human-bg:#241c33; --confirm:#6fb6d6; --confirm-bg:#182731;
+    --alarm:#e0806f; --alarm-bg:#2e1a15; --grid:rgba(91,159,206,.09);
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.6;font-size:16.5px;-webkit-font-smoothing:antialiased}
+  .serif{font-family:Georgia,"Iowan Old Style","Times New Roman",serif}
+  .wrap{max-width:880px;margin:0 auto;padding:0 24px}
+  .hero{padding:60px 0 40px;background:
+      linear-gradient(var(--grid) 1px,transparent 1px) 0 0/30px 30px,
+      linear-gradient(90deg,var(--grid) 1px,transparent 1px) 0 0/30px 30px;
+    border-bottom:1px solid var(--line)}
+  .kick{margin:0 0 18px;font-size:12.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:600}
+  .kick::before{content:"";display:inline-block;width:26px;height:1px;background:var(--accent);vertical-align:middle;margin-right:10px}
+  h1{font-size:clamp(36px,6.5vw,58px);line-height:1.03;margin:0 0 22px;letter-spacing:-.02em;font-weight:600;text-wrap:balance}
+  .deck{font-size:18.5px;color:var(--muted);max-width:62ch;margin:0}
+  .deck b{color:var(--ink);font-weight:600}
+  section{padding:46px 0}
+  .lbl{margin:0 0 8px;font-size:12px;letter-spacing:.13em;text-transform:uppercase;color:var(--faint);font-weight:600}
+  h2{font-size:clamp(24px,3.6vw,31px);line-height:1.12;margin:0 0 12px;letter-spacing:-.015em;font-weight:600;text-wrap:balance}
+  .sub{font-size:16px;color:var(--muted);max-width:64ch;margin:0 0 26px}
+  .sub b{color:var(--ink)}
+
+  .verdict{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:22px 24px;margin:0 0 16px}
+  .verdict p{margin:0 0 12px;font-size:16px}
+  .verdict p:last-child{margin:0}
+  .verdict b{font-weight:650}
+  .badnews{border-left:4px solid var(--alarm);background:var(--alarm-bg)}
+
+  .alarm{display:flex;gap:14px;align-items:flex-start;background:var(--alarm-bg);border:1px solid var(--line);
+    border-left:4px solid var(--alarm);border-radius:12px;padding:18px 20px;margin:0 0 14px}
+  .alarm .ic{font-size:22px;flex:none;line-height:1.2}
+  .alarm h3{margin:0 0 6px;font-size:17px;font-weight:700;color:var(--alarm)}
+  .alarm p{margin:0;font-size:15px;color:var(--ink)}
+  .alarm p b{font-weight:650}
+
+  .seq{counter-reset:s;display:flex;flex-direction:column;gap:0}
+  .seq .row{display:grid;grid-template-columns:34px 1fr;gap:14px;padding:14px 0;border-top:1px solid var(--line)}
+  .seq .row:first-child{border-top:none}
+  .seq .num{font-family:ui-monospace,Menlo,Consolas,monospace;font-weight:700;color:var(--accent);font-size:15px;padding-top:1px}
+  .seq .t{font-size:15.5px}
+  .seq .t b{font-weight:650;color:var(--ink)}
+  .seq .t span{color:var(--muted)}
+
+  .bucket{margin:34px 0 14px;display:flex;align-items:center;gap:12px}
+  .bucket .chip{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:11px;font-weight:700;letter-spacing:.04em;
+    padding:5px 11px;border-radius:20px;white-space:nowrap}
+  .bucket h3{margin:0;font-size:18px;font-weight:650}
+  .bucket .rule{flex:1;height:1px;background:var(--line)}
+  .b-go .chip{background:var(--go-bg);color:var(--go)} .b-spend .chip{background:var(--spend-bg);color:var(--spend)}
+  .b-human .chip{background:var(--human-bg);color:var(--human)} .b-confirm .chip{background:var(--confirm-bg);color:var(--confirm)}
+
+  .card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:20px 22px;margin:0 0 13px;border-left:4px solid var(--accent)}
+  .card.go{border-left-color:var(--go)} .card.spend{border-left-color:var(--spend)}
+  .card.human{border-left-color:var(--human)} .card.confirm{border-left-color:var(--confirm)}
+  .card .id{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12px;color:var(--faint);font-weight:700}
+  .card h4{margin:4px 0 12px;font-size:19px;font-weight:600;letter-spacing:-.01em;line-height:1.2}
+  .card .field{margin:0 0 9px;font-size:14.7px;line-height:1.55}
+  .card .field .k{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:10.5px;letter-spacing:.08em;
+    text-transform:uppercase;font-weight:700;color:var(--faint);display:block;margin:0 0 2px}
+  .card .field.rec{background:var(--accent-soft);border-radius:9px;padding:11px 13px;margin-top:12px;color:var(--ink)}
+  .card.go .field.rec{background:var(--go-bg)} .card.spend .field.rec{background:var(--spend-bg)}
+  .card.human .field.rec{background:var(--human-bg)} .card.confirm .field.rec{background:var(--confirm-bg)}
+  .card .field.rec .k{color:inherit;opacity:.8}
+  .card .field b{color:var(--ink);font-weight:650}
+  code{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.9em;background:var(--accent-soft);padding:1px 5px;border-radius:5px}
+
+  .foot{padding:32px 0 60px;border-top:1px solid var(--line);margin-top:12px;
+    font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12.5px;color:var(--faint);
+    display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+</style>
+
+<div class="hero">
+  <div class="wrap">
+    <p class="kick">Potencial Urbano · planejamento dos motores</p>
+    <h1 class="serif">O que preciso que você decida</h1>
+    <p class="deck">O planejamento fino dos 5 motores fechou (40 agentes, 7 rodadas de lentes). Ele é
+      <b>honesto</b>: em vez de dizer "está tudo pronto", mostrou que <b>ainda não construímos com prova</b>
+      — e que há <b>~40 decisões suas</b> espalhadas. Esta página junta as que importam num lugar só,
+      cada uma explicada, pra você decidir de uma sentada. Nada virou código.</p>
+  </div>
+</div>
+
+<div class="wrap">
+
+  <!-- VEREDITO -->
+  <section>
+    <p class="lbl">O que o plano descobriu</p>
+    <h2 class="serif">A boa notícia é a má notícia: o plano é honesto</h2>
+    <div class="verdict badnews">
+      <p><b>Os 5 motores não "fecham" sozinhos</b> — e o motivo é o mesmo em todos: a gente <b>afirma</b>
+        que cada número é provado, mas <b>não há um teste automático que prove</b>. Sem esse "porteiro",
+        todo "já funciona" é conversa. É barato de resolver, e destrava os cinco de uma vez.</p>
+      <p>O plano também <b>acerta no essencial</b>: separar o que roda hoje (planilhas leves) do que é
+        faxina de banco (não trava valor); cortar o que não cabe (preço pausado, comprador fora); e as
+        travas mecânicas reais. O problema não é a direção — é que falta o chão de prova embaixo.</p>
+    </div>
+    <div class="alarm">
+      <span class="ic">🔴</span>
+      <div>
+        <h3>Antes de tudo — um vazamento real (não é decisão, é ação)</h3>
+        <p>O arquivo <code>zepec/oficial/iptu2026_cedentes.csv</code> está <b>versionado no Git com uma
+          coluna de endereço</b> de proprietários. Verifiquei — é verdade, hoje. <b>Ação imediata:</b>
+          tirar do Git, limpar o histórico e bloquear commit de dado pessoal, <b>antes</b> de subir
+          qualquer novo IPTU. Isso não espera decisão; é higiene de segurança.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEQUENCIA -->
+  <section>
+    <p class="lbl">A ordem que o plano recomenda</p>
+    <h2 class="serif">Por onde ir — do mais barato ao mais pesado</h2>
+    <p class="sub">Antes de construir motor nenhum, dois passos baratos destravam tudo. O resto vem em
+      ramos, e o banco pesado fica por último (só quando alguém precisar dele).</p>
+    <div class="seq">
+      <div class="row"><div class="num">0</div><div class="t"><b>Esta sessão de decisões.</b> <span>Resolver as ~40 decisões de uma vez — senão as aprovações viram o gargalo (você é uma pessoa só).</span></div></div>
+      <div class="row"><div class="num">1</div><div class="t"><b>Limpar o PII.</b> <span>O incidente acima, antes de qualquer novo dado.</span></div></div>
+      <div class="row"><div class="num">2</div><div class="t"><b>Um gate mínimo de prova + travar versões de ferramentas.</b> <span>A raiz de todos os "declarei ≠ provei". Barato, e primeiro.</span></div></div>
+      <div class="row"><div class="num">3</div><div class="t"><b>Higiene dos 3 scripts do caminho.</b> <span>Tirar o <code>/tmp</code> morto e caminhos fixos — sem isso nada reproduz do zero.</span></div></div>
+      <div class="row"><div class="num">4</div><div class="t"><b>Caminho curto até o 1º valor:</b> <span>religar a lista comercial ao enriquecimento → uma lista reprodutível, já com a vedação legal e o saldo.</span></div></div>
+      <div class="row"><div class="num">5</div><div class="t"><b>Em paralelo:</b> <span>conferir o mapa (ground-truth) → overlay por área; e cabear a citação da Lei ao número.</span></div></div>
+      <div class="row"><div class="num">6</div><div class="t"><b>Cálculo (Fórmulas)</b> <span>só depois de o mapa ter teste — até lá, todo número sai marcado "zona não conferida".</span></div></div>
+      <div class="row"><div class="num">7</div><div class="t"><b>Banco pesado + bases sensíveis:</b> <span>diferidos, só quando existir quem realmente use (sem consumidor, adia).</span></div></div>
+    </div>
+  </section>
+
+  <!-- DECISOES -->
+  <section>
+    <p class="lbl">O painel</p>
+    <h2 class="serif">As decisões, agrupadas por tipo</h2>
+    <p class="sub">Quatro tipos: <b>destrava já</b> (custo zero, resolve numa linha) · <b>autoriza gasto</b> ·
+      <b>trabalho humano</b> (nomear quem faz) · <b>confirmação</b> (não reabre o assunto). Em cada uma:
+      o que é, por que importa, as opções e minha recomendação.</p>
+
+    <!-- BUCKET GO -->
+    <div class="bucket b-go"><span class="chip">DESTRAVA JÁ · custo zero</span><h3>Resolve numa linha</h3><div class="rule"></div></div>
+
+    <div class="card go">
+      <span class="id">D2</span><h4>Como guardar as leis (o CODEX)</h4>
+      <p class="field"><span class="k">O que é</span>Você já intuiu: um <b>documento único</b> vira um monstro que trava toda vez que uma lei muda (o problema da regressão/síntese).</p>
+      <p class="field"><span class="k">Opções</span>(A) codex único · (B) uma peça por lei + o "por que está em uso" como etiqueta, e o codex vira só uma <b>visão gerada</b> · (C) híbrido puxando pro B.</p>
+      <p class="field rec"><span class="k">Recomendo</span><b>(C), mas mecanizado.</b> Não basta "rebaixar o codex por escrito" — o Fi=1 errado foi "riscado" e o motor continuou lendo. Então: <b>apagar de fato</b> o número velho + um teste que reprova se algum valor de fórmula for lido do codex.</p>
+    </div>
+
+    <div class="card go">
+      <span class="id">D5</span><h4>Religar a lista comercial ao cálculo</h4>
+      <p class="field"><span class="k">O que é</span>A lista que iria ao cliente hoje lê a base <b>crua</b> — sem preço e <b>sem a vedação legal</b> (Art.124§2). Ou seja, o valor dos 5 motores <b>ainda não chega ao cliente</b>.</p>
+      <p class="field"><span class="k">Opções</span>(A) religar (troca de 1 linha, propaga vedação/saldo/zona) · (B) você cravar que a lista é sem-preço de propósito.</p>
+      <p class="field rec"><span class="k">Recomendo</span><b>(A) — é bloqueio de entrega, não cosmético.</b> Se for (B), precisa ficar escrito pra parar de aparecer como dívida.</p>
+    </div>
+
+    <div class="card go">
+      <span class="id">D3</span><h4>Quem manda na procedência do dado</h4>
+      <p class="field"><span class="k">O que é</span>Dois arquivos hoje se dizem "a fonte única" de onde veio cada dado (<code>de_para</code> e <code>MANIFESTO</code>).</p>
+      <p class="field rec"><span class="k">Recomendo</span>O <b><code>de_para</code> manda</b>; o <code>MANIFESTO</code> é <b>gerado</b> a partir dele, nunca uma fonte paralela. Nunca criar um terceiro.</p>
+    </div>
+
+    <div class="card go">
+      <span class="id">D6</span><h4>Lista: ranking ou segmentação?</h4>
+      <p class="field"><span class="k">O que é</span>O documento promete "fila priorizada", mas o que existe é uma <b>segmentação</b> (quem tem dono, qual estado) — não um ranking.</p>
+      <p class="field rec"><span class="k">Recomendo</span>Assumir <b>segmentação</b> e corrigir o texto. Se quiser ordenar, só por critério do <b>próprio cedente</b> (estado do funil, atestado em mãos) — nunca por demanda/proximidade (isso é comprador, fora do escopo).</p>
+    </div>
+
+    <div class="card go">
+      <span class="id">D7</span><h4>A "divergência de 27%"</h4>
+      <p class="field"><span class="k">O que é</span>Esse número é usado como se fosse uma coisa só, mas são <b>três razões diferentes</b> (erro do nosso estimador ≈1,66; conversão de mercado do receptor 1,247; e uma terceira).</p>
+      <p class="field rec"><span class="k">Recomendo</span><b>Desambiguar</b> e congelar o uso solto do "27%". Cada número anda com sua definição ao lado; o teste recalcula do dado vivo.</p>
+    </div>
+
+    <div class="card go">
+      <span class="id">D4</span><h4>Data (vintage) no caminho do número</h4>
+      <p class="field"><span class="k">O que é</span>A promessa "todo dado tem data" é <b>falsa</b> justamente na tabela que o número usa (o motor chega a <b>jogar fora</b> a linha que carrega a data).</p>
+      <p class="field rec"><span class="k">Recomendo</span>O mínimo: <b>parar de descartar a data</b> e o motor selecionar por ela. E decidir <b>quem informa a "data do fato gerador"</b> — hoje fica num vão.</p>
+    </div>
+
+    <div class="card go">
+      <span class="id">D11</span><h4>Carregar as duas versões do valor do m² (Q14)</h4>
+      <p class="field"><span class="k">O que é</span>Carregar 2013 e 2025 esbarra num detalhe: o acervo só sabe datar a lei de 2014, não a atualização de 2025.</p>
+      <p class="field rec"><span class="k">Recomendo</span>Carregar com data <b>"pendente"</b> (flag) e o motor <b>abortar em vez de adivinhar</b> — nunca inventar data (fere a doutrina). Manter as duas versões.</p>
+    </div>
+
+    <!-- BUCKET SPEND -->
+    <div class="bucket b-spend"><span class="chip">AUTORIZA GASTO</span><h3>Decidir só se/quando houver quem use</h3><div class="rule"></div></div>
+
+    <div class="card spend">
+      <span class="id">D8</span><h4>Pagar mais pelo banco (Supabase) p/ dados pesados</h4>
+      <p class="field"><span class="k">O que é</span>Upsize pago pra carregar a cidade inteira em banco geográfico.</p>
+      <p class="field rec"><span class="k">Recomendo</span><b>Adiar e medir primeiro.</b> Hoje nada no escopo usa a cidade inteira; provavelmente nem precisa pagar. Levo a você só se a medição estourar o plano atual.</p>
+    </div>
+
+    <div class="card spend">
+      <span class="id">D9</span><h4>Segurança das bases pesadas (sócios/empresas) — Fase B</h4>
+      <p class="field"><span class="k">O que é</span>As bases de <code>sócios</code> (3,4GB) e <code>empresas</code> (2,3GB) que acham o dono — hoje o <b>responsável pela segurança delas é órfão</b> no plano.</p>
+      <p class="field rec"><span class="k">Recomendo</span>Dar dono a esse gate (a Esteira) e <b>travar a Fase B até a segurança estar provada</b> (rotacionar a chave antiga, carregar com privilégio mínimo, testar o bloqueio com o papel real). Não é "depende do chão" — é bloqueada-sem-dono.</p>
+    </div>
+
+    <div class="card spend">
+      <span class="id">D14</span><h4>Carregar o IPTU bruto (937 MB)</h4>
+      <p class="field"><span class="k">O que é</span>O IPTU está adiado (decidiu-se TDC primeiro), mas a carga do bruto entraria como custo e sairia como vácuo (não há motor de IPTU ainda).</p>
+      <p class="field rec"><span class="k">Recomendo</span>Registrar <b>"IPTU fora desta rodada"</b> de forma explícita e <b>adiar a carga junto</b>. Não deixar entrar em silêncio.</p>
+    </div>
+
+    <!-- BUCKET HUMAN -->
+    <div class="bucket b-human"><span class="chip">TRABALHO HUMANO</span><h3>Nomear quem faz (não dá pra automatizar)</h3><div class="rule"></div></div>
+
+    <div class="card human">
+      <span class="id">D13</span><h4>Conferência do mapa (ground-truth GeoSampa)</h4>
+      <p class="field"><span class="k">O que é</span>O Motor do Mapa é a <b>única camada sem teste</b> — e as Fórmulas confiam na zona sem conferir. Pra ter teste, precisa conferir <b>30–50 lotes à mão</b> no GeoSampa.</p>
+      <p class="field rec"><span class="k">Recomendo</span><b>Contratar como decisão:</b> nomear quem faz, quantos, critério de aceite, ritmo. É bloqueante do "selo" do mapa — sem isso, todo número sai marcado "zona não conferida".</p>
+    </div>
+
+    <div class="card human">
+      <span class="id">D10</span><h4>Quem extrai as tabelas que faltam (Fp / Quadro 2A)</h4>
+      <p class="field"><span class="k">O que é</span>Um dos artefatos da doutrina (as Tabelas) tem quem <b>consome</b> mas <b>ninguém que produz</b> — faltam o Fp (Quadro 6) e o Quadro 2A, e "extrair do texto" está marcado como "não é comigo" em <b>todos</b> os motores.</p>
+      <p class="field rec"><span class="k">Recomendo</span>Dar <b>dono</b> a essa extração (Motor da Lei ou a Esteira) + backlog com teste de âncora. Sem isso, a via com-doação e os 77 imóveis "ZOE" ficam travados.</p>
+    </div>
+
+    <!-- BUCKET CONFIRM -->
+    <div class="bucket b-confirm"><span class="chip">CONFIRMAÇÃO</span><h3>Não reabre o assunto — só ratifica</h3><div class="rule"></div></div>
+
+    <div class="card confirm">
+      <span class="id">D12</span><h4>O preço fica pausado</h4>
+      <p class="field"><span class="k">O que é</span>A perna do preço (art128) segue pausada por decisão anterior. Não se re-pergunta o "se".</p>
+      <p class="field rec"><span class="k">Recomendo</span><b>Confirmar pausado.</b> Decidir só o <b>como/quando</b> religar. Enquanto isso, nenhum R$ do lado comprador encosta no produto, e a legenda "preço não está aqui" fica honesta.</p>
+    </div>
+
+    <p class="sub" style="margin-top:26px">Plano inteiro (as 5 fichas, as lentes de cada rodada, riscos e resíduo) em
+      <code>docs/PLANO-MOTORES-CONSOLIDADO-2026-07-06.md</code>. Esta página é o recorte do que precisa de você.</p>
+  </section>
+
+  <div class="foot">
+    <span>Potencial Urbano · painel de decisões · lado vendedor</span>
+    <span>planejamento fino · 2026-07-06</span>
+  </div>
+</div>
