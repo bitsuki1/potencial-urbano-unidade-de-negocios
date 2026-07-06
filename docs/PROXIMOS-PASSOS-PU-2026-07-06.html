@@ -12,10 +12,8 @@
     :root{
       --bg:#12161b; --surface:#1a1f26; --ink:#e7ecf1; --muted:#9aa6b1; --faint:#6f7b86;
       --line:#2a323b; --accent:#5b9fce; --accent-soft:#1a2c3a;
-      --done:#4fbfa2; --done-bg:#13332b;
-      --build:#d4a34f; --build-bg:#2c2413;
-      --crit:#d9705e; --crit-bg:#2f1c17;
-      --grid:rgba(91,159,206,.10);
+      --done:#4fbfa2; --done-bg:#13332b; --build:#d4a34f; --build-bg:#2c2413;
+      --crit:#d9705e; --crit-bg:#2f1c17; --grid:rgba(91,159,206,.10);
     }
   }
   :root[data-theme="light"]{
@@ -36,13 +34,10 @@
     font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
     line-height:1.62;font-size:16.5px;-webkit-font-smoothing:antialiased}
   .serif{font-family:Georgia,"Iowan Old Style","Times New Roman",serif}
-  .mono{font-family:ui-monospace,SFMono-Regular,Menlo,"Cascadia Mono",Consolas,monospace}
   .wrap{max-width:900px;margin:0 auto;padding:0 24px}
 
-  /* ---------- hero ---------- */
   .hero{padding:64px 0 44px;
-    background:
-      linear-gradient(var(--grid) 1px,transparent 1px) 0 0/32px 32px,
+    background:linear-gradient(var(--grid) 1px,transparent 1px) 0 0/32px 32px,
       linear-gradient(90deg,var(--grid) 1px,transparent 1px) 0 0/32px 32px;
     border-bottom:1px solid var(--line)}
   .kick{margin:0 0 20px;font-size:12.5px;letter-spacing:.14em;text-transform:uppercase;
@@ -54,66 +49,34 @@
   .deck{font-size:19px;color:var(--muted);max-width:60ch;margin:0 0 16px}
   .deck b{color:var(--ink);font-weight:600}
   .deck em{font-style:italic;color:var(--ink)}
-  .note{font-size:15px;color:var(--faint);max-width:60ch;margin:18px 0 0;
+  .note{font-size:15px;color:var(--faint);max-width:62ch;margin:18px 0 0;
     padding-left:16px;border-left:2px solid var(--line)}
+  .note b{color:var(--muted)}
 
-  /* ---------- section frame ---------- */
   section{padding:52px 0}
   .lbl{margin:0 0 8px;font-size:12px;letter-spacing:.13em;text-transform:uppercase;
     color:var(--faint);font-weight:600}
   h2{font-size:clamp(26px,4vw,34px);line-height:1.12;margin:0 0 10px;letter-spacing:-.015em;
     font-weight:600;text-wrap:balance}
-  .sub{font-size:16.5px;color:var(--muted);max-width:62ch;margin:0 0 34px}
+  .sub{font-size:16.5px;color:var(--muted);max-width:64ch;margin:0 0 34px}
+  .sub b{color:var(--ink)}
 
-  /* ---------- process ---------- */
-  .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:0;counter-reset:s;
-    border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--surface)}
-  .step{padding:22px 20px 24px;border-right:1px solid var(--line);position:relative}
+  .steps{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);
+    border-radius:14px;overflow:hidden;background:var(--surface)}
+  .step{padding:22px 20px 24px;border-right:1px solid var(--line)}
   .step:last-child{border-right:none}
-  .step .n{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:13px;
-    color:var(--accent);font-weight:700;letter-spacing:.02em}
-  .step h3{font-size:16.5px;margin:10px 0 7px;font-weight:650;letter-spacing:-.01em}
+  .step .n{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:13px;color:var(--accent);
+    font-weight:700}
+  .step h3{font-size:16.5px;margin:10px 0 7px;font-weight:650}
   .step p{font-size:14px;color:var(--muted);margin:0;line-height:1.5}
   .arrow-out{margin:16px 0 0;font-size:15px;color:var(--ink)}
   .arrow-out b{color:var(--accent)}
 
-  /* ---------- motor cards ---------- */
-  .motors{display:flex;flex-direction:column;gap:20px}
-  .motor{background:var(--surface);border:1px solid var(--line);border-radius:16px;
-    padding:26px 28px;border-top:4px solid var(--accent)}
-  .m-head{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin:0 0 4px}
-  .m-tag{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:12px;
-    font-weight:700;letter-spacing:.06em;color:var(--faint)}
-  .m-name{font-size:27px;font-weight:600;letter-spacing:-.015em;margin:0;line-height:1.1}
-  .pill{margin-left:auto;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
-    font-size:11px;font-weight:700;letter-spacing:.04em;padding:5px 11px;border-radius:20px;
-    white-space:nowrap;align-self:center}
-  .m-blocks{display:grid;grid-template-columns:1fr 1fr 1fr;gap:22px;margin-top:22px}
-  .blk .bl{font-size:11.5px;letter-spacing:.09em;text-transform:uppercase;font-weight:700;
-    margin:0 0 7px;color:var(--accent)}
-  .blk p{margin:0;font-size:14.5px;color:var(--muted);line-height:1.55}
-  .blk p b{color:var(--ink);font-weight:600}
-
-  .motor.done{border-top-color:var(--done)} .done .bl{color:var(--done)}
-  .done .pill{background:var(--done-bg);color:var(--done)}
-  .motor.crit{border-top-color:var(--crit)} .crit .bl{color:var(--crit)}
-  .crit .pill{background:var(--crit-bg);color:var(--crit)}
-  .motor.build{border-top-color:var(--build)} .build .bl{color:var(--build)}
-  .build .pill{background:var(--build-bg);color:var(--build)}
-
-  .phys{margin:14px 0 0;padding:13px 15px;background:var(--accent-soft);border:1px solid var(--line);
-    border-radius:11px;font-size:14.5px;color:var(--ink);line-height:1.5}
-  .phys .k{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:10.5px;
-    letter-spacing:.09em;text-transform:uppercase;color:var(--accent);font-weight:700;
-    display:block;margin:0 0 4px}
-  .phys b{font-weight:650}
-
-  /* materia-prima */
   .raw{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;margin:0 0 22px}
-  .raw .cell{background:var(--surface);border:1px solid var(--line);border-radius:13px;padding:18px 18px}
+  .raw .cell{background:var(--surface);border:1px solid var(--line);border-radius:13px;padding:18px}
   .raw .cell .t{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);
     font-weight:700;margin:0 0 8px}
-  .raw .cell h3{margin:0 0 6px;font-size:17px;font-weight:600;letter-spacing:-.01em}
+  .raw .cell h3{margin:0 0 6px;font-size:17px;font-weight:600}
   .raw .cell p{margin:0;font-size:14px;color:var(--muted);line-height:1.5}
   .raw .cell .tech{display:inline-block;margin-top:9px;font-family:ui-monospace,Menlo,Consolas,monospace;
     font-size:11px;color:var(--faint);border:1px solid var(--line);border-radius:6px;padding:2px 7px}
@@ -121,14 +84,71 @@
   .machine p{margin:0;font-size:16.5px;color:var(--ink);max-width:64ch}
   .machine p b{font-weight:650}
 
-  /* ---------- fit / order ---------- */
+  .frame{border:1px solid var(--line);border-radius:16px;background:var(--surface);padding:20px}
+  .band{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:11px;letter-spacing:.07em;
+    text-transform:uppercase;font-weight:700;text-align:center;padding:9px;border-radius:9px}
+  .band.seal{color:var(--done);background:var(--done-bg);margin:0 0 16px}
+  .band.floor{color:var(--crit);background:var(--crit-bg);margin:16px 0 0}
+  .band small{display:block;font-weight:500;letter-spacing:.02em;text-transform:none;
+    color:var(--muted);margin-top:3px;font-size:11.5px}
+  .chain{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+  .pair{display:flex;flex-direction:column;gap:8px;flex:1;min-width:150px}
+  .node{background:var(--accent-soft);border:1px solid var(--line);border-radius:11px;
+    padding:12px 12px;text-align:center;flex:1;min-width:130px}
+  .node.pairnode{padding:10px 12px}
+  .node .cn{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:10px;color:var(--faint);letter-spacing:.04em}
+  .node .cname{font-weight:650;font-size:15px;margin-top:3px}
+  .node .cwhat{font-size:11.5px;color:var(--muted);margin-top:3px;line-height:1.35}
+  .arw{display:flex;align-items:center;justify-content:center;color:var(--accent);font-weight:800;font-size:18px}
+  .frame .fn{margin:14px 0 0;font-size:13px;color:var(--muted);line-height:1.5}
+  .frame .fn b{color:var(--ink)}
+  @media (max-width:640px){.arw{transform:rotate(90deg);width:100%;height:14px}.pair{min-width:0}}
+
+  .grouplbl{margin:30px 0 14px;font-size:12px;letter-spacing:.11em;text-transform:uppercase;
+    color:var(--faint);font-weight:700;display:flex;align-items:center;gap:12px}
+  .grouplbl::after{content:"";flex:1;height:1px;background:var(--line)}
+  .motors{display:flex;flex-direction:column;gap:18px}
+  .motor{background:var(--surface);border:1px solid var(--line);border-radius:16px;
+    padding:24px 26px;border-top:4px solid var(--accent)}
+  .m-head{display:flex;align-items:baseline;gap:13px;flex-wrap:wrap;margin:0 0 4px}
+  .m-tag{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12px;font-weight:700;
+    letter-spacing:.06em;color:var(--faint)}
+  .m-name{font-size:25px;font-weight:600;letter-spacing:-.015em;margin:0;line-height:1.1}
+  .pill{margin-left:auto;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:11px;
+    font-weight:700;letter-spacing:.04em;padding:5px 11px;border-radius:20px;white-space:nowrap;align-self:center}
+  .phys{margin:14px 0 0;padding:13px 15px;background:var(--accent-soft);border:1px solid var(--line);
+    border-radius:11px;font-size:14.5px;color:var(--ink);line-height:1.5}
+  .phys .k{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:10.5px;letter-spacing:.09em;
+    text-transform:uppercase;color:var(--accent);font-weight:700;display:block;margin:0 0 4px}
+  .phys b{font-weight:650}
+  .m-blocks{display:grid;grid-template-columns:1fr 1fr 1fr;gap:22px;margin-top:20px}
+  .blk .bl{font-size:11.5px;letter-spacing:.09em;text-transform:uppercase;font-weight:700;
+    margin:0 0 7px;color:var(--accent)}
+  .blk p{margin:0;font-size:14.5px;color:var(--muted);line-height:1.55}
+  .blk p b{color:var(--ink);font-weight:600}
+  .motor.done{border-top-color:var(--done)} .done .bl{color:var(--done)}
+  .done .pill{background:var(--done-bg);color:var(--done)}
+  .motor.crit{border-top-color:var(--crit)} .crit .bl{color:var(--crit)}
+  .crit .pill{background:var(--crit-bg);color:var(--crit)}
+  .motor.build{border-top-color:var(--build)} .build .bl{color:var(--build)}
+  .build .pill{background:var(--build-bg);color:var(--build)}
+  .flag{margin:12px 0 0;font-size:13px;color:var(--build);font-weight:600}
+
+  .scope{display:flex;gap:12px;align-items:flex-start;background:var(--crit-bg);
+    border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin:22px 0 0;font-size:15px}
+  .scope .x{color:var(--crit);font-weight:800;flex:none}
+  .scope b{color:var(--ink)}
+
+  .honest{display:flex;gap:12px;align-items:flex-start;background:var(--build-bg);
+    border:1px solid var(--line);border-radius:12px;padding:15px 17px;margin:22px 0 0;font-size:14.5px}
+  .honest .i{color:var(--build);font-weight:800;flex:none}
+  .honest b{color:var(--ink)}
+
   .fit{background:var(--accent-soft);border:1px solid var(--line);border-radius:16px;padding:26px 28px}
   .fit p{margin:0;font-size:16.5px;color:var(--ink);max-width:64ch}
   .fit p b{font-weight:650}
   .fit .order{margin-top:16px;font-size:15px;color:var(--muted)}
   .fit .order b{color:var(--ink)}
-
-  /* ---------- need ---------- */
   .need{border:1px dashed var(--line);border-radius:16px;padding:24px 26px}
   .need h3{margin:0 0 6px;font-size:17px;font-weight:650}
   .need>p{margin:0 0 14px;font-size:15px;color:var(--muted)}
@@ -138,8 +158,8 @@
   .need li .m{color:var(--accent);font-weight:700;font-family:ui-monospace,Menlo,Consolas,monospace}
 
   .foot{padding:34px 0 60px;border-top:1px solid var(--line);margin-top:8px;
-    font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:12.5px;
-    color:var(--faint);display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+    font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12.5px;color:var(--faint);
+    display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
 
   @media (max-width:760px){
     .steps{grid-template-columns:1fr 1fr}
@@ -155,225 +175,260 @@
 <div class="hero">
   <div class="wrap">
     <p class="kick">Potencial Urbano · como a máquina funciona</p>
-    <h1 class="serif">O que é um motor</h1>
-    <p class="deck">Nós vendemos uma resposta que precisa se defender na frente de um comprador e, no
-      limite, num cartório: <em>“este imóvel pode vender tanto de potencial construtivo, por tanto — e
-      aqui está a lei que garante isso.”</em> Um <b>motor</b> é a peça que produz essa resposta: um
-      cálculo automático que pega a <b>lei</b> e o <b>dado oficial</b> e devolve um <b>número que se
-      sustenta sozinho</b>, com o artigo da lei ao lado. O número nunca é um “eu acho” da inteligência
-      artificial — é uma conta que qualquer um confere contra a lei.</p>
-    <p class="note">Potencial construtivo é o quanto um imóvel tombado, que não pode crescer, tem direito
-      de <b>vender</b> para quem quer construir mais em outro lugar — a Transferência do Direito de
-      Construir (TDC). São quatro motores. Um já está pronto; os outros três construímos agora.</p>
+    <h1 class="serif">Os motores</h1>
+    <p class="deck">Nosso cliente é o <b>dono do imóvel tombado</b> que pode vender potencial construtivo.
+      A gente entrega a ele uma resposta que se defende sozinha, no limite num cartório: <em>“você pode
+      vender tanto de metragem, que vale tanto — e aqui está a lei que garante isso.”</em> Um <b>motor</b>
+      é a peça que produz essa resposta: um cálculo automático que pega a <b>lei</b> e o <b>dado
+      oficial</b> e devolve um <b>número que aponta para o artigo</b>. Nunca um “eu acho” da IA.</p>
+    <p class="note">Potencial construtivo é o quanto um imóvel tombado, que não pode crescer, tem direito de
+      <b>vender</b> para quem quer construir mais em outro lugar (a Transferência do Direito de Construir,
+      TDC). Tudo aqui é do lado do <b>vendedor</b> — quem compra não é assunto nosso.</p>
   </div>
 </div>
 
 <div class="wrap">
 
-  <!-- COMO NASCE -->
   <section>
     <p class="lbl">O caminho — igual para todos</p>
     <h2 class="serif">Como se chega a um motor</h2>
-    <p class="sub">Todo motor nasce do mesmo percurso. É esse percurso que faz o número no fim ser
-      confiável — dá para apontar, passo a passo, de onde ele veio.</p>
+    <p class="sub">Todo motor nasce do mesmo percurso. É ele que faz o número, no fim, ser confiável — dá
+      para apontar de onde veio, passo a passo.</p>
     <div class="steps">
-      <div class="step">
-        <div class="n">01 · FONTE</div>
-        <h3>Parte da lei e do dado oficial</h3>
-        <p>O texto da norma, a planta da cidade, o cadastro de imóveis. Só fonte oficial — nada de fonte
-          duvidosa, nada inventado.</p>
-      </div>
-      <div class="step">
-        <div class="n">02 · CONFERIR</div>
-        <h3>Limpar e carimbar a origem</h3>
-        <p>A lei entra palavra por palavra; cada dado ganha de onde veio e de quando é. Sempre dá para
-          dizer a procedência.</p>
-      </div>
-      <div class="step">
-        <div class="n">03 · FIXAR</div>
-        <h3>Virar uma conta que não muda</h3>
-        <p>A condição da lei (ou a fórmula) vira um cálculo que dá <b>sempre</b> o mesmo resultado — não
-          depende de opinião nem da IA.</p>
-      </div>
-      <div class="step">
-        <div class="n">04 · PROVAR</div>
-        <h3>Um teste que acusa erro</h3>
-        <p>Uma verificação automática confere contra casos reais. Se alguém troca um valor escondido, o
-          teste reprova e barra a saída.</p>
-      </div>
+      <div class="step"><div class="n">01 · FONTE</div><h3>Parte da lei e do dado oficial</h3>
+        <p>O texto da norma, a planta da cidade, o cadastro de imóveis. Só fonte oficial — nada inventado.</p></div>
+      <div class="step"><div class="n">02 · CONFERIR</div><h3>Limpar e carimbar a origem</h3>
+        <p>A lei entra palavra por palavra; cada dado ganha de onde veio e de quando é.</p></div>
+      <div class="step"><div class="n">03 · FIXAR</div><h3>Virar uma conta que não muda</h3>
+        <p>A condição da lei (ou a fórmula) vira um cálculo que dá <b>sempre</b> o mesmo resultado.</p></div>
+      <div class="step"><div class="n">04 · PROVAR</div><h3>Um teste que acusa erro</h3>
+        <p>Confere contra casos reais. Se alguém troca um valor escondido, o teste reprova e barra.</p></div>
     </div>
-    <p class="arrow-out">No fim, sai <b>um número que aponta para o artigo</b> de onde nasceu — pronto
-      para ir ao dossiê do imóvel.</p>
+    <p class="arrow-out">No fim, sai <b>um número que aponta para o artigo</b> de onde nasceu — pronto para
+      o dossiê do imóvel.</p>
   </section>
 
-  <!-- MATERIA-PRIMA -->
   <section>
     <p class="lbl">O que confunde — resolvido</p>
     <h2 class="serif">De que são feitos</h2>
-    <p class="sub">Um motor <b>não é</b> um acervo de busca, nem um monte de documentos, nem uma planilha.
-      Essas são as <b>matérias-primas</b> — todas oficiais. O motor é a <b>máquina que roda em volta delas</b>.</p>
+    <p class="sub">Um motor <b>não é</b> um acervo de busca, nem documentos, nem uma planilha. Essas são as
+      <b>matérias-primas</b> — todas oficiais. O motor é a <b>máquina que roda em volta delas</b>.</p>
     <div class="raw">
-      <div class="cell">
-        <p class="t">Matéria-prima 1</p>
-        <h3 class="serif">As leis</h3>
+      <div class="cell"><p class="t">Matéria-prima 1</p><h3 class="serif">As leis</h3>
         <p>Viram um acervo pesquisável: você pergunta em português e ele acha o artigo e cita.</p>
-        <span class="tech">é o que chamam de “RAG”</span>
-      </div>
-      <div class="cell">
-        <p class="t">Matéria-prima 2</p>
-        <h3 class="serif">As tabelas</h3>
+        <span class="tech">é o que chamam de “RAG”</span></div>
+      <div class="cell"><p class="t">Matéria-prima 2</p><h3 class="serif">As tabelas</h3>
         <p>Os valores que a lei fixa (alíquotas, índices, faixas) viram planilhas de números.</p>
-        <span class="tech">planilhas / CSV</span>
-      </div>
-      <div class="cell">
-        <p class="t">Matéria-prima 3</p>
-        <h3 class="serif">Os mapas</h3>
+        <span class="tech">planilhas / CSV</span></div>
+      <div class="cell"><p class="t">Matéria-prima 3</p><h3 class="serif">Os mapas</h3>
         <p>A planta da cidade — o desenho dos lotes e das zonas — vira arquivo de geografia.</p>
-        <span class="tech">arquivos de mapa</span>
-      </div>
+        <span class="tech">arquivos de mapa</span></div>
     </div>
-    <div class="machine">
-      <p>Um <b>motor</b> lê essa matéria-prima e <b>produz ou confere um número</b>, sempre citando a lei.
-        Uns são <b>finos</b> (o Motor 0 é só verificação); outros são <b>gordos</b> — um banco de dados
-        inteiro, ou os mapas mais o programa que os cruza. Abaixo, de que cada um é feito, na prática.</p>
-    </div>
+    <div class="machine"><p>Um <b>motor</b> lê essa matéria-prima e <b>produz ou confere um número</b>,
+      sempre citando a lei. Uns são <b>finos</b> (só verificação); outros são <b>gordos</b> — um banco
+      inteiro, ou os mapas mais o programa que os cruza.</p></div>
   </section>
 
-  <!-- MOTORES -->
   <section>
-    <p class="lbl">Os quatro motores</p>
-    <h2 class="serif">O que é cada um, e o que entrega</h2>
-    <p class="sub">Para cada motor: de que é feito, o que é, como se chega nele e o que fica pronto.</p>
-
-    <div class="motors">
-
-      <!-- MOTOR 0 -->
-      <div class="motor done">
-        <div class="m-head">
-          <span class="m-tag">MOTOR 0</span>
-          <h3 class="m-name serif">O piso de honestidade</h3>
-          <span class="pill">✓ PRONTO</span>
+    <p class="lbl">A moldura</p>
+    <h2 class="serif">Um chão, um selo e quatro motores</h2>
+    <p class="sub">Não são seis caixas soltas. É um <b>chão</b> em que tudo assenta, um <b>selo</b> que
+      envolve tudo, e a <b>corrente</b> dos quatro motores — em que a <b>Lei</b> e o <b>Mapa</b> correm em
+      paralelo e se juntam nas <b>Fórmulas</b>.</p>
+    <div class="frame">
+      <div class="band seal">Selo · Honestidade — envolve tudo
+        <small>todo número sai citando a lei, com vigência e rótulo (fato / estimativa / pendência)</small></div>
+      <div class="chain">
+        <div class="pair">
+          <div class="node pairnode"><div class="cn">MOTOR · em paralelo</div><div class="cname">A Lei</div>
+            <div class="cwhat">o que pode / o que é vedado</div></div>
+          <div class="node pairnode"><div class="cn">MOTOR · em paralelo</div><div class="cname">O Mapa</div>
+            <div class="cwhat">onde está, qual a zona</div></div>
         </div>
-        <p class="phys"><span class="k">De que é feito</span>Cinco testes automáticos + um porteiro que
-          roda a cada mudança (e <b>reprova se um número for adulterado</b>) + um arquivo de aviso + duas
-          colunas a mais na planilha de imóveis. <b>Não é banco nem documento — é a camada de verificação
-          tecida na esteira.</b></p>
-        <div class="m-blocks">
-          <div class="blk"><p class="bl">O que é</p><p>A regra de honestidade da máquina: nenhum número
-            sai sem <b>duas coisas</b> — o artigo da lei que o gerou, e uma etiqueta dizendo o que ele é
-            (um teto legal, uma estimativa, ou uma lacuna ainda aberta).</p></div>
-          <div class="blk"><p class="bl">Como se chega</p><p>Pondo um porteiro automático que <b>recusa
-            publicar</b> qualquer número sem citação ou etiqueta; corrigindo o erro mais caro (a conta
-            principal apontava para o artigo errado); e carimbando um aviso em toda planilha e dossiê.</p></div>
-          <div class="blk"><p class="bl">O que entrega</p><p>Um produto que pode ser mostrado a um
-            comprador exigente e <b>sobrevive à primeira auditoria</b> — cada número se defende sozinho.
-            Já está de pé e provado.</p></div>
-        </div>
+        <div class="arw">→</div>
+        <div class="node"><div class="cn">MOTOR</div><div class="cname">As Fórmulas</div>
+          <div class="cwhat">m² e o preço legal</div></div>
+        <div class="arw">→</div>
+        <div class="node"><div class="cn">MOTOR</div><div class="cname">O Comercial</div>
+          <div class="cwhat">quem abordar + dossiê</div></div>
       </div>
-
-      <!-- MOTOR 2 -->
-      <div class="motor crit">
-        <div class="m-head">
-          <span class="m-tag">MOTOR 2</span>
-          <h3 class="m-name serif">Os dados e a esteira</h3>
-          <span class="pill">COMEÇA POR AQUI</span>
-        </div>
-        <p class="phys"><span class="k">De que é feito</span>Um <b>banco de dados</b> (o Supabase) + os
-          programas que o enchem e o reconstroem + o registro de origem de cada dado. <b>É a esteira e o
-          banco</b> — o mais “gordo” dos quatro.</p>
-        <div class="m-blocks">
-          <div class="blk"><p class="bl">O que é</p><p>O encanamento: o banco de dados e a esteira de onde
-            todos os outros motores leem. Hoje há uma bagunça — o que roda no banco não está guardado no
-            código, e o que está no código nunca foi ligado. Os números <b>não são reconstruíveis</b>.</p></div>
-          <div class="blk"><p class="bl">Como se chega</p><p>Fazendo o banco poder ser <b>refeito a partir
-            do código</b> (uma só fonte da verdade), registrando de onde veio e quando cada dado, e
-            ligando conferências automáticas a cada mudança.</p></div>
-          <div class="blk"><p class="bl">O que entrega</p><p>Uma base confiável: qualquer um refaz tudo do
-            zero e chega nos <b>mesmos números</b>. É o trilho — sem ele os Motores 1 e 3 não assentam.
-            Por isso vem primeiro.</p></div>
-        </div>
-      </div>
-
-      <!-- MOTOR 1 -->
-      <div class="motor build">
-        <div class="m-head">
-          <span class="m-tag">MOTOR 1</span>
-          <h3 class="m-name serif">As travas da lei</h3>
-          <span class="pill">A CONSTRUIR</span>
-        </div>
-        <p class="phys"><span class="k">De que é feito</span>Um conjunto de <b>regras em programa</b> que
-          leem as leis (já no acervo de busca) e a lista de imóveis, e marcam cada um <b>pode / não-pode</b>.
-          É código de regra + os textos de lei que ele cita.</p>
-        <div class="m-blocks">
-          <div class="blk"><p class="bl">O que é</p><p>A lei virada em <b>barreiras automáticas</b>. A TDC
-            tem regras duras: alguns imóveis não podem transferir; outros só se estiverem conservados; há
-            regra de parcelamento e limite. Cada regra vira uma trava — se a lei proíbe, o imóvel <b>nunca
-            aparece como vendável</b>.</p></div>
-          <div class="blk"><p class="bl">Como se chega</p><p>Lendo cada artigo relevante palavra por
-            palavra, transformando a condição num teste sobre a lista real de imóveis, e <b>provando que o
-            teste barra</b> os casos proibidos — não só promete barrar.</p></div>
-          <div class="blk"><p class="bl">O que entrega</p><p>A garantia de nunca oferecer, por engano,
-            algo que a lei veda. Todo “pode / não pode” <b>aponta para o artigo</b>. Protege a
-            credibilidade e protege você juridicamente.</p></div>
-        </div>
-      </div>
-
-      <!-- MOTOR 3 -->
-      <div class="motor build">
-        <div class="m-head">
-          <span class="m-tag">MOTOR 3</span>
-          <h3 class="m-name serif">O mapa da cidade</h3>
-          <span class="pill">A CONSTRUIR</span>
-        </div>
-        <p class="phys"><span class="k">De que é feito</span>As <b>plantas oficiais</b> da cidade (arquivos
-          de mapa) + um programa que <b>cruza cada imóvel com a sua zona</b> + um banco de mapas. É mapa +
-          o programa que lê o mapa.</p>
-        <div class="m-blocks">
-          <div class="blk"><p class="bl">O que é</p><p>Descobre <b>onde cada imóvel cai no mapa</b> e qual
-            regra de zoneamento vale ali — porque quanto se pode construir e transferir depende da zona.
-            Sem isso, metade da base não fecha conta.</p></div>
-          <div class="blk"><p class="bl">Como se chega</p><p>Carregando as <b>plantas oficiais</b> (o
-            desenho dos lotes e das zonas), encaixando cada imóvel na sua zona <b>pela área</b> que ocupa
-            (não só pelo pontinho do centro, que joga lote de esquina na zona errada), achando os
-            endereços sem código, e aplicando a regra da esquina do decreto.</p></div>
-          <div class="blk"><p class="bl">O que entrega</p><p>Cada imóvel na <b>zona certa, com o parâmetro
-            certo</b> — o potencial a vender sai correto e a cobertura salta de cerca de metade para quase
-            toda a base. Cada número do mapa ganha sua conferência.</p></div>
-        </div>
-      </div>
-
+      <div class="band floor">Chão · a Esteira de Dados — o alicerce
+        <small>o banco e a esteira; o cálculo de hoje roda na esteira, não depende de reconciliar o banco</small></div>
+      <p class="fn"><b>Lei e Mapa correm em qualquer ordem entre si;</b> só as Fórmulas dependem dos dois; o
+        Comercial é o último. Estes quatro são <b>lentes de valor sobre um mesmo pipeline</b> — não quatro
+        programas separados. Há costura a pagar entre eles (no backlog), então isto é um mapa de valor, não
+        a planta final da máquina.</p>
     </div>
   </section>
 
-  <!-- COMO SE ENCAIXAM -->
+  <section>
+    <p class="lbl">O chão e o selo</p>
+    <h2 class="serif">O que sustenta e o que garante</h2>
+    <p class="sub">Estes dois <b>não são motores de valor</b> — não é deles que sai o número que vai ao
+      cliente. São a base e a disciplina que fazem os quatro motores funcionarem com confiança.</p>
+    <div class="motors">
+      <div class="motor crit">
+        <div class="m-head"><span class="m-tag">CHÃO</span><h3 class="m-name serif">A Esteira de Dados</h3>
+          <span class="pill">COMEÇA POR AQUI</span></div>
+        <p class="phys"><span class="k">De que é feito</span>Um <b>banco de dados</b> (o Supabase) + os
+          programas que o enchem e o <b>reconstroem do zero</b> + o registro de origem de cada dado.</p>
+        <div class="m-blocks">
+          <div class="blk"><p class="bl">O que é</p><p>O encanamento de onde os motores leem. Hoje há
+            bagunça: o que roda no banco não está no código, e o que está no código nunca foi ligado — os
+            números <b>não são reconstruíveis</b>.</p></div>
+          <div class="blk"><p class="bl">Como se arruma</p><p>Fazer o banco poder ser <b>refeito a partir do
+            código</b>, registrar de onde veio cada dado, e ligar conferências automáticas.</p></div>
+          <div class="blk"><p class="bl">Ressalva honesta</p><p>O cálculo de hoje roda na <b>esteira de
+            planilhas</b>, que já se reconstrói do zero — <b>não</b> depende de arrumar o banco antes. Arrumar
+            o banco é higiene, não trava o valor.</p></div>
+        </div>
+      </div>
+      <div class="motor done">
+        <div class="m-head"><span class="m-tag">SELO</span><h3 class="m-name serif">A Honestidade</h3>
+          <span class="pill">✓ PRONTO</span></div>
+        <p class="phys"><span class="k">De que é feito</span>Cinco testes automáticos + um porteiro que roda
+          a cada mudança (e <b>reprova se um número for adulterado</b>) + um arquivo de aviso + duas colunas
+          na planilha. <b>Não produz número — só confere.</b> Por isso é selo, não motor.</p>
+        <div class="m-blocks">
+          <div class="blk"><p class="bl">O que é</p><p>A regra que <b>envolve todo motor</b>: nenhum número
+            sai sem o artigo da lei, sem a <b>vigência</b> (qual redação valia) e sem uma etiqueta (fato,
+            estimativa ou lacuna).</p></div>
+          <div class="blk"><p class="bl">Como se chega</p><p>Um porteiro que recusa publicar sem citação; a
+            correção do erro mais caro (a conta principal citava o artigo errado); um aviso em toda saída.</p></div>
+          <div class="blk"><p class="bl">O que entrega</p><p>Um produto que <b>sobrevive à primeira
+            auditoria</b> — cada número se defende sozinho. Já está de pé e provado.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <p class="lbl">A corrente de valor</p>
+    <h2 class="serif">Os quatro motores</h2>
+    <p class="sub">Cada um: de que é feito, o que é, como se chega e o que entrega. A Lei e o Mapa correm em
+      paralelo; as Fórmulas usam os dois; o Comercial é o último.</p>
+
+    <div class="grouplbl">Em paralelo: Lei + Mapa</div>
+    <div class="motors">
+      <div class="motor build">
+        <div class="m-head"><span class="m-tag">MOTOR</span><h3 class="m-name serif">A Lei</h3>
+          <span class="pill">A CONSTRUIR</span></div>
+        <p class="phys"><span class="k">De que é feito</span>O <b>acervo jurídico pesquisável</b> (as leis
+          indexadas) + <b>regras em programa</b> que marcam cada imóvel <b>pode / não-pode</b>, citando o artigo.</p>
+        <div class="m-blocks">
+          <div class="blk"><p class="bl">O que é</p><p>A lei virada em duas coisas: <b>resposta com
+            citação</b> e <b>travas automáticas</b> (o que a lei veda nunca aparece como vendável).</p></div>
+          <div class="blk"><p class="bl">Como se chega</p><p>Ler cada artigo palavra por palavra, virar a
+            condição num teste sobre a lista real, e <b>provar que barra</b> os casos proibidos.</p></div>
+          <div class="blk"><p class="bl">O que entrega</p><p>Todo “pode / não-pode” <b>aponta para o
+            artigo</b>. Protege a credibilidade e protege você juridicamente.</p></div>
+        </div>
+        <p class="flag">⚠ Ainda alvo, não pronto: hoje o acervo de busca e as travas estão <b>desligados</b> um
+          do outro (a trava não cita a partir do acervo). Fechar isso é parte da construção.</p>
+      </div>
+
+      <div class="motor build">
+        <div class="m-head"><span class="m-tag">MOTOR</span><h3 class="m-name serif">O Mapa</h3>
+          <span class="pill">A CONSTRUIR</span></div>
+        <p class="phys"><span class="k">De que é feito</span>As <b>plantas oficiais</b> da cidade (arquivos
+          de mapa) + um programa que <b>cruza cada imóvel com a sua zona</b> + um banco de mapas.</p>
+        <div class="m-blocks">
+          <div class="blk"><p class="bl">O que é</p><p>Descobre <b>onde cada imóvel cai</b> e qual regra de
+            zona vale ali — quanto se pode vender depende da zona. Sem isso, metade da base não fecha conta.</p></div>
+          <div class="blk"><p class="bl">Como se chega</p><p>Carregar as plantas oficiais, encaixar cada
+            imóvel na zona <b>pela área</b> que ocupa (não pelo pontinho do centro), achar os endereços sem
+            código, aplicar a regra da esquina.</p></div>
+          <div class="blk"><p class="bl">O que entrega</p><p>Cada imóvel na <b>zona certa</b> — e a cobertura
+            salta de cerca de metade para quase toda a base.</p></div>
+        </div>
+        <p class="flag">⚠ É o único elo ainda <b>fora do selo</b>: a zona já vira número sem um teste que a
+          confira, e o gerador não roda do zero. Colocá-lo sob o selo faz parte da construção.</p>
+      </div>
+    </div>
+
+    <div class="grouplbl">Depois: Fórmulas → Comercial</div>
+    <div class="motors">
+      <div class="motor build">
+        <div class="m-head"><span class="m-tag">MOTOR</span><h3 class="m-name serif">As Fórmulas</h3>
+          <span class="pill">PREÇO PAUSADO</span></div>
+        <p class="phys"><span class="k">De que é feito</span>Os <b>programas de cálculo</b> que leem a zona
+          (do Mapa), o índice da lei e a metragem, e devolvem <b>m² e R$</b>. Só rodam depois de Lei e Mapa.</p>
+        <div class="m-blocks">
+          <div class="blk"><p class="bl">O que é</p><p>A conta que transforma “imóvel na zona X” em <b>“pode
+            vender tanto de m², que valem tanto pela lei”</b> — determinística, citada.</p></div>
+          <div class="blk"><p class="bl">Como se chega</p><p>Pegar a fórmula direto do artigo, ligar aos
+            valores oficiais das tabelas, e conferir contra casos reais — a diferença de ~27% vs as certidões
+            fica <b>à mostra</b>, não escondida.</p></div>
+          <div class="blk"><p class="bl">O que entrega</p><p>O <b>preço legal</b> de cada imóvel, com o
+            dispositivo ao lado. A margem é sua.</p></div>
+        </div>
+        <p class="flag">⚠ O preço está <b>oficialmente pausado</b> (falta fechar um artigo-chave). O motor
+          calcula a metragem; o número de R$ entra quando o preço for despausado.</p>
+      </div>
+
+      <div class="motor build">
+        <div class="m-head"><span class="m-tag">MOTOR</span><h3 class="m-name serif">O Comercial</h3>
+          <span class="pill">JÁ EXISTE — A COMPLETAR</span></div>
+        <p class="phys"><span class="k">De que é feito</span>O pipeline que vira a base numa <b>lista de
+          vendedores</b> com saldo e pendência (o nosso <code>zepec/</code>), mais o cruzamento que
+          <b>descobre quem é o dono</b>.</p>
+        <div class="m-blocks">
+          <div class="blk"><p class="bl">O que é</p><p>A <b>ponte até o cliente</b>: pega o que os motores
+            calcularam e entrega <b>quem abordar</b> e o dossiê para levar. Sempre do lado do vendedor.</p></div>
+          <div class="blk"><p class="bl">Como se chega</p><p>Filtrar quem está <b>pronto</b> (apto pela lei
+            + com saldo a vender), descobrir o dono (juntando sócios e empresas), e montar o <b>dossiê de uma
+            página</b> por imóvel.</p></div>
+          <div class="blk"><p class="bl">O que entrega</p><p>A lista de <b>vendedores a abordar</b> + o
+            dossiê. É onde o produto encontra o cliente.</p></div>
+        </div>
+        <p class="flag">⚠ “Pronto” hoje = <b>apto + saldo</b> (duas pernas). O <b>preço</b> é a terceira perna,
+          pendente até despausar. E a lista é uma <b>segmentação</b> (quem tem dono, qual estado), ainda não um
+          ranking priorizado.</p>
+      </div>
+    </div>
+
+    <div class="scope">
+      <span class="x">✕</span>
+      <span><b>Fora de escopo, de propósito: o comprador.</b> Nosso cliente é o vendedor. Não fazemos
+        casamento com quem compra, nem juízo de mercado/demanda — só damos ao dono o fato legal do que ele
+        tem e quanto vale pela lei.</span>
+    </div>
+    <div class="honest">
+      <span class="i">✻</span>
+      <span><b>Honestidade sobre a máquina:</b> estes quatro são <b>lentes de valor sobre um pipeline
+        compartilhado</b>, não quatro programas separados. Um escrutínio adversarial (7 lentes) confirmou que
+        a moldura é um bom mapa, mas que a “corrente” ainda <b>não flui limpa no código</b> — há costura a
+        pagar, registrada no laudo e no backlog. Nada aqui é fingido pronto.</span>
+    </div>
+  </section>
+
   <section>
     <p class="lbl">A ordem</p>
     <h2 class="serif">Como se encaixam</h2>
     <div class="fit">
-      <p>O <b>Motor 2</b> é o trilho: arruma o banco e a esteira. Sobre ele correm o <b>Motor 1</b> (as
-        travas da lei) e o <b>Motor 3</b> (o mapa), que se encontram numa trava específica — a que proíbe
-        transferir em certas áreas, e que só fica completa quando o mapa existe. O <b>Motor 0</b> (a
-        honestidade) já está embaixo de tudo.</p>
-      <p class="order">Ordem natural: <b>Motor 2 primeiro</b> (o trilho) → depois <b>Motor 1 e Motor 3</b>
-        correndo juntos. É a recomendação; se você quiser outra ordem, é só dizer.</p>
+      <p>O <b>Chão (a Esteira de Dados)</b> sustenta tudo. Sobre ele, a <b>Lei</b> diz o que pode e o
+        <b>Mapa</b> diz onde e em que zona — <b>em paralelo</b>. As <b>Fórmulas</b> usam zona + lei para o
+        preço legal; o <b>Comercial</b> vira tudo em quem abordar e o dossiê. E o <b>Selo (Honestidade)</b>
+        envolve os quatro — nenhum número sai sem citar a lei e a vigência.</p>
+      <p class="order">Ordem natural: <b>arrumar o Chão</b> → <b>Lei e Mapa</b> (em qualquer ordem entre si) →
+        <b>Fórmulas</b> → <b>Comercial</b>. É a recomendação; se você quiser outra ordem, é só dizer.</p>
     </div>
   </section>
 
-  <!-- PRECISO DE VOCE -->
   <section>
     <div class="need">
       <h3>No caminho, vou precisar de você</h3>
-      <p>Os motores rodam comigo, no repositório. Estas três coisas dependem de você — nenhuma trava os motores, só abrem camadas extras:</p>
+      <p>Os motores rodam comigo, no repositório. Estas três dependem de você — nenhuma trava os motores:</p>
       <ul>
-        <li><span class="m">1</span><span><b>Uma chave de acesso</b> para ligar a busca inteligente do acervo de leis (colar um código).</span></li>
-        <li><span class="m">2</span><span><b>Baixar 5 leis e alguns julgados</b> que não estão no nosso Drive — o acesso automático aos sites do governo é bloqueado daqui.</span></li>
-        <li><span class="m">3</span><span><b>Liberar as bases pesadas</b> de sócios e empresas para descobrir o dono dos imóveis — depois da trava de segurança.</span></li>
+        <li><span class="m">1</span><span><b>Uma chave de acesso</b> para ligar a busca inteligente do acervo de leis — reforça o <b>Motor da Lei</b>.</span></li>
+        <li><span class="m">2</span><span><b>Baixar 5 leis e alguns julgados</b> que não estão no nosso Drive (o acesso automático aos sites do governo é bloqueado daqui) — reforça o <b>Motor da Lei</b>.</span></li>
+        <li><span class="m">3</span><span><b>Liberar as bases pesadas</b> de sócios e empresas — é o que o <b>Motor Comercial</b> usa para descobrir o dono do imóvel (depois da trava de segurança).</span></li>
       </ul>
     </div>
   </section>
 
   <div class="foot">
-    <span>Potencial Urbano · inteligência de TDC</span>
-    <span>mapa dos motores · 2026-07-06</span>
+    <span>Potencial Urbano · inteligência de TDC · lado vendedor</span>
+    <span>mapa dos motores · 2026-07-06 · revisado por escrutínio adversarial</span>
   </div>
 </div>

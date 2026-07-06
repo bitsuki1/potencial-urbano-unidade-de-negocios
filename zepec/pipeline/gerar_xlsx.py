@@ -20,7 +20,7 @@ COLS = [
     ("tipo_zepec",            "Tipo ZEPEC"),
     ("esfera",                "Esferas (quem tombou)"),
     ("m2_ja_transferido",     "m² já transferido"),
-    ("status_fundurb",        "FUNDURB (liquidez)"),
+    ("status_fundurb",        "Status FUNDURB do cedente"),
     ("intercorrencia_fundurb","Intercorrência FUNDURB"),
     ("data_ref",              "Data ref."),
     ("sql_mestre",            "SQL (chave do imóvel)"),
@@ -91,7 +91,7 @@ for i, r in enumerate(rows):
 # larguras
 larg = {"Segmento (estágio·dono)":20,"Estágio de venda":15,"Bem tombado":34,"Endereço":30,"Distrito":16,
         "Proprietário":34,"Tipo ZEPEC":12,"Esferas (quem tombou)":22,"m² já transferido":14,
-        "FUNDURB (liquidez)":16,"Intercorrência FUNDURB":20,"Data ref.":12,"SQL (chave do imóvel)":18}
+        "Status FUNDURB do cedente":22,"Intercorrência FUNDURB":20,"Data ref.":12,"SQL (chave do imóvel)":18}
 for j, (_, titulo) in enumerate(COLS, start=1):
     ws.column_dimensions[get_column_letter(j)].width = larg.get(titulo, 16)
 
@@ -112,7 +112,7 @@ legenda = [
     ("Esferas", "Quem tombou o bem: municipal (CONPRESP) / estadual (CONDEPHAAT) / federal (IPHAN). Mais esferas = mais órgãos na negociação."),
     ("m² já transferido", "Quanto de potencial o imóvel já vendeu (0 = intacto)."),
     ("SQL", "'CPF do imóvel' (setor-quadra-lote) — a chave que liga tudo."),
-    ("FUNDURB (liquidez)", "Sinal de 'tem janela de mercado agora?'. Hoje INDETERMINADO até confirmar a semântica com a Prefeitura (SMUL)."),
+    ("Status FUNDURB do cedente", "Status do processo pecuniário FUNDURB do próprio cedente. Hoje INDETERMINADO até confirmar a semântica com a Prefeitura (SMUL)."),
     ("Proprietário", "Cobertura PARCIAL hoje — sobe em escala quando o IPTU/ITBI subir ao Supabase."),
     ("Preço (R$)", "NÃO está aqui (decisão de pausar). Quando despausar + subir o dado pesado, entra o valor estimado por imóvel."),
     ("Princípio", "Só fato, sem 'vale/melhor/pior'. A priorização comercial é do time. Preço nasce do engine, nunca é inventado."),
