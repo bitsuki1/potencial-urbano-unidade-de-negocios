@@ -1,234 +1,204 @@
-<title>Potencial Urbano — Próximos passos</title>
+<title>Potencial Urbano — Os motores</title>
 <style>
   :root{
     --bg:#f4f4f2; --card:#ffffff; --ink:#1c1c1a; --mut:#6b6b66; --line:#e4e4df;
-    --eyebrow:#8a8a82;
-    --green:#3f9e5a; --green-bg:#eaf5ed;
-    --amber:#c9922b; --amber-bg:#f7f0e0;
-    --gray:#8a8a86; --gray-bg:#eeeeeb;
+    --eyebrow:#8a8a82; --chip:#ecebe7; --chip-ink:#5a5a54;
     --done:#3f7d9e; --done-bg:#e7f1f5;
-    --chip:#ecebe7; --chip-ink:#5a5a54;
+    --gate:#b57d2a; --gate-bg:#f6efe0;
+    --crit:#b8493f; --crit-bg:#f6e7e5;
+    --geo:#3f9e5a; --geo-bg:#eaf5ed;
+    --soft:#eeeeeb;
   }
   @media (prefers-color-scheme:dark){
     :root{
       --bg:#17171a; --card:#202024; --ink:#ececea; --mut:#9c9c98; --line:#2e2e33;
-      --eyebrow:#83837c;
-      --green:#63c07f; --green-bg:#1c2a20;
-      --amber:#e0b45f; --amber-bg:#2a2418;
-      --gray:#9a9a95; --gray-bg:#26262a;
+      --eyebrow:#83837c; --chip:#2c2c31; --chip-ink:#b6b6b0;
       --done:#6fb6d6; --done-bg:#182731;
-      --chip:#2c2c31; --chip-ink:#b6b6b0;
+      --gate:#e0b45f; --gate-bg:#2a2418;
+      --crit:#e08479; --crit-bg:#2e1c19;
+      --geo:#63c07f; --geo-bg:#1c2a20;
+      --soft:#26262a;
     }
   }
   :root[data-theme="light"]{
     --bg:#f4f4f2; --card:#ffffff; --ink:#1c1c1a; --mut:#6b6b66; --line:#e4e4df;
-    --eyebrow:#8a8a82;
-    --green:#3f9e5a; --green-bg:#eaf5ed; --amber:#c9922b; --amber-bg:#f7f0e0;
-    --gray:#8a8a86; --gray-bg:#eeeeeb; --done:#3f7d9e; --done-bg:#e7f1f5;
-    --chip:#ecebe7; --chip-ink:#5a5a54;
+    --eyebrow:#8a8a82; --chip:#ecebe7; --chip-ink:#5a5a54;
+    --done:#3f7d9e; --done-bg:#e7f1f5; --gate:#b57d2a; --gate-bg:#f6efe0;
+    --crit:#b8493f; --crit-bg:#f6e7e5; --geo:#3f9e5a; --geo-bg:#eaf5ed; --soft:#eeeeeb;
   }
   :root[data-theme="dark"]{
     --bg:#17171a; --card:#202024; --ink:#ececea; --mut:#9c9c98; --line:#2e2e33;
-    --eyebrow:#83837c;
-    --green:#63c07f; --green-bg:#1c2a20; --amber:#e0b45f; --amber-bg:#2a2418;
-    --gray:#9a9a95; --gray-bg:#26262a; --done:#6fb6d6; --done-bg:#182731;
-    --chip:#2c2c31; --chip-ink:#b6b6b0;
+    --eyebrow:#83837c; --chip:#2c2c31; --chip-ink:#b6b6b0;
+    --done:#6fb6d6; --done-bg:#182731; --gate:#e0b45f; --gate-bg:#2a2418;
+    --crit:#e08479; --crit-bg:#2e1c19; --geo:#63c07f; --geo-bg:#1c2a20; --soft:#26262a;
   }
   *{box-sizing:border-box}
   body{margin:0;background:var(--bg);color:var(--ink);
     font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
     line-height:1.5;-webkit-font-smoothing:antialiased}
-  .wrap{max-width:820px;margin:0 auto;padding:56px 24px 80px}
+  .wrap{max-width:840px;margin:0 auto;padding:56px 24px 80px}
+  .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
   .eyebrow{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
     font-size:13px;letter-spacing:.02em;color:var(--eyebrow);margin:0 0 14px}
   h1{font-size:40px;line-height:1.08;margin:0 0 14px;letter-spacing:-.02em;font-weight:800}
-  .lede{font-size:17px;color:var(--mut);margin:0 0 20px;max-width:60ch}
+  .lede{font-size:17px;color:var(--mut);margin:0 0 18px;max-width:64ch}
+  .lede b{color:var(--ink)}
   .updated{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
-    font-size:12.5px;color:var(--eyebrow);margin:0 0 22px}
-  .legend{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;
-    padding:0 0 8px;margin:0 0 34px;border-bottom:1px solid var(--line)}
-  .legend .item{display:flex;gap:8px;align-items:center;font-size:13.5px;color:var(--mut)}
-  .tag{display:inline-block;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
-    font-size:11px;letter-spacing:.03em;padding:3px 8px;border-radius:6px;
-    background:var(--chip);color:var(--chip-ink);font-weight:600;white-space:nowrap}
-  .tag.voce{background:#e3ecf6;color:#3c5b82}
-  .tag.eu{background:#efe6f6;color:#6b4b86}
-  @media (prefers-color-scheme:dark){.tag.voce{background:#1e2a3a;color:#8fb2df}.tag.eu{background:#2a2036;color:#c3a2e0}}
-  :root[data-theme="dark"] .tag.voce{background:#1e2a3a;color:#8fb2df}
-  :root[data-theme="dark"] .tag.eu{background:#2a2036;color:#c3a2e0}
-  :root[data-theme="light"] .tag.voce{background:#e3ecf6;color:#3c5b82}
-  :root[data-theme="light"] .tag.eu{background:#efe6f6;color:#6b4b86}
+    font-size:12.5px;color:var(--eyebrow);margin:0 0 26px}
 
-  .sec{margin:38px 0 0}
-  .sec-head{display:flex;align-items:baseline;gap:12px;margin:0 0 4px}
-  .dot{width:11px;height:11px;border-radius:50%;flex:none;align-self:center}
-  .sec-title{font-size:21px;font-weight:750;margin:0;letter-spacing:-.01em}
-  .sec-tag{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
-    font-size:10.5px;letter-spacing:.05em;padding:3px 8px;border-radius:6px;font-weight:700}
-  .count{margin-left:auto;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
-    font-size:14px;color:var(--eyebrow)}
-  .sec-sub{color:var(--mut);font-size:14px;margin:2px 0 16px;padding-left:23px}
+  /* como se encaixam */
+  .flow{background:var(--card);border:1px solid var(--line);border-radius:12px;
+    padding:16px 18px;margin:0 0 34px}
+  .flow h4{margin:0 0 10px;font-size:12px;letter-spacing:.06em;text-transform:uppercase;
+    color:var(--eyebrow);font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+  .flow p{margin:0;font-size:14.5px;color:var(--mut)}
+  .flow p b{color:var(--ink)}
 
-  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;
-    padding:16px 18px;margin:0 0 12px;border-left-width:4px}
-  .card h3{margin:0 0 6px;font-size:16px;font-weight:700;display:flex;align-items:center;
-    gap:10px;flex-wrap:wrap}
-  .card p{margin:0;font-size:14.5px;color:var(--mut)}
-  .card .wait{display:block;margin-top:8px;font-size:12.5px;color:var(--eyebrow);
-    font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+  /* motor card */
+  .motor{background:var(--card);border:1px solid var(--line);border-radius:14px;
+    padding:20px 22px;margin:0 0 16px;border-left-width:5px}
+  .m-top{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:0 0 4px}
+  .m-num{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+    font-size:12px;font-weight:700;padding:3px 9px;border-radius:7px;letter-spacing:.02em}
+  .m-name{font-size:20px;font-weight:770;letter-spacing:-.01em;margin:0}
+  .m-code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+    font-size:12.5px;color:var(--eyebrow)}
+  .status{margin-left:auto;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+    font-size:11px;font-weight:700;letter-spacing:.03em;padding:4px 10px;border-radius:20px;white-space:nowrap}
+  .m-purpose{font-size:15px;color:var(--mut);margin:6px 0 16px}
+  .m-purpose b{color:var(--ink)}
+  .rows{display:grid;gap:10px}
+  .row{display:grid;grid-template-columns:90px 1fr;gap:12px;align-items:start;
+    font-size:14px;padding-top:10px;border-top:1px dashed var(--line)}
+  .row .k{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:11.5px;
+    letter-spacing:.03em;color:var(--eyebrow);padding-top:2px;text-transform:uppercase}
+  .row .v{color:var(--ink)} .row .v b{font-weight:700}
+  .row .v .disp{color:var(--mut)}
 
-  .done .dot{background:var(--done)} .done .sec-tag{background:var(--done-bg);color:var(--done)}
-  .done .card{border-left-color:var(--done)}
-  .now .dot{background:var(--green)} .now .sec-tag{background:var(--green-bg);color:var(--green)}
-  .now .card{border-left-color:var(--green)}
-  .wait-s .dot{background:var(--amber)} .wait-s .sec-tag{background:var(--amber-bg);color:var(--amber)}
-  .wait-s .card{border-left-color:var(--amber)}
-  .later .dot{background:var(--gray)} .later .sec-tag{background:var(--gray-bg);color:var(--gray)}
-  .later .card{border-left-color:var(--gray)}
+  /* accents */
+  .zero{border-left-color:var(--done)} .zero .m-num{background:var(--done-bg);color:var(--done)}
+  .zero .status{background:var(--done-bg);color:var(--done)}
+  .gate{border-left-color:var(--gate)} .gate .m-num{background:var(--gate-bg);color:var(--gate)}
+  .gate .status{background:var(--gate-bg);color:var(--gate)}
+  .crit{border-left-color:var(--crit)} .crit .m-num{background:var(--crit-bg);color:var(--crit)}
+  .crit .status{background:var(--crit-bg);color:var(--crit)}
+  .geo{border-left-color:var(--geo)} .geo .m-num{background:var(--geo-bg);color:var(--geo)}
+  .geo .status{background:var(--geo-bg);color:var(--geo)}
 
-  .callout{background:var(--green-bg);border:1px solid var(--line);border-radius:12px;
-    padding:16px 18px;margin:30px 0 4px;font-size:15px}
-  .callout b{color:var(--ink)}
+  /* preciso de voce */
+  .need{margin-top:34px;background:var(--soft);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+  .need h4{margin:0 0 6px;font-size:13px;font-weight:750}
+  .need p{margin:0 0 10px;font-size:13.5px;color:var(--mut)}
+  .need ul{margin:0;padding-left:18px;font-size:13.5px;color:var(--mut)}
+  .need li{margin:4px 0} .need li b{color:var(--ink)}
+
+  .done-note{display:flex;gap:10px;align-items:flex-start;font-size:13.5px;color:var(--mut);
+    background:var(--geo-bg);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:0 0 30px}
+  .done-note .ck{color:var(--geo);font-weight:800;flex:none}
+
   .foot{margin-top:52px;padding-top:18px;border-top:1px solid var(--line);
     font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
     font-size:12px;color:var(--eyebrow);text-align:center}
+  @media (max-width:560px){.row{grid-template-columns:1fr}.row .k{padding-top:0}}
 </style>
 
 <div class="wrap">
-  <p class="eyebrow">Potencial Urbano · Inteligência de TDC (lado cedente)</p>
-  <h1>Próximos passos</h1>
-  <p class="lede">Onde paramos e o que vem — agora que o Drive está limpo. Agrupado por estado:
-    o que roda já, o que espera você, o que vem em sequência. Não por prioridade.</p>
-  <p class="updated">atualizado 2026-07-06 · o Drive limpo fechou a higiene; a estrada agora é motor</p>
+  <p class="eyebrow">Potencial Urbano · inteligência de TDC (lado cedente)</p>
+  <h1>Os motores</h1>
+  <p class="lede">Um <b>motor</b> é um engine determinístico e blindado: pega <b>lei + dado</b> e devolve
+    um <b>número auditável</b>, citado até o dispositivo (nunca inventado pelo LLM). São quatro. O
+    <b>Motor Zero</b> já está fechado e provado; os outros três têm a estratégia pronta e entram agora.</p>
+  <p class="updated">atualizado 2026-07-06 · Drive limpo → foco total nos motores</p>
 
-  <div class="legend">
-    <span class="item"><span class="tag voce">VOCÊ</span> ação sua</span>
-    <span class="item"><span class="tag eu">EU</span> eu rodo no repositório (você não faz nada)</span>
+  <div class="done-note">
+    <span class="ck">✓</span>
+    <span><b>Higiene do Drive fechada nesta sessão</b> — 1.360 arquivos arrumados e 2.082 duplicatas
+      (~41,5 GB) na lixeira, verificado por leitura própria; as 4 tabelas-mestre intactas. Não trava mais nada.</span>
   </div>
 
-  <!-- FEITO -->
-  <div class="sec done">
-    <div class="sec-head">
-      <span class="dot"></span>
-      <h2 class="sec-title">Feito nesta sessão</h2>
-      <span class="sec-tag">DRIVE LIMPO</span>
-      <span class="count">2</span>
-    </div>
-    <p class="sec-sub">O entregável da sessão. Verificado por leitura própria do Drive — não por relatório de terceiro.</p>
-
-    <div class="card">
-      <h3>Arrumação — 1.360 arquivos organizados <span class="tag eu">EU</span></h3>
-      <p>O robô moveu os 1.360 arquivos para o lugar certo (1.360/1.360, zero erro).</p>
-    </div>
-    <div class="card">
-      <h3>Duplicatas — 2.082 cópias na lixeira <span class="tag eu">EU</span> <span class="tag voce">VOCÊ deu o clique final</span></h3>
-      <p>~41,5 GB liberados. A pasta de quarentena voltou <b>vazia</b>; as 4 tabelas-mestre
-        (socios, empresas, IPTU 2026, holdings) confirmadas <b>vivas</b> e intactas. Só a Potencial
-        Urbano foi tocada — as outras unidades do MOU não.</p>
-    </div>
+  <div class="flow">
+    <h4>Como se encaixam</h4>
+    <p><b>Motor 2 (Dados/Infra)</b> é o trilho — arruma o banco e a esteira sobre a qual os outros correm
+      (é o caminho crítico). <b>Motor 1 (Travas)</b> e <b>Motor 3 (Espacial)</b> correm sobre esse trilho
+      e se cruzam numa trava (vedação espacial). <b>Motor Zero</b>, o piso de credibilidade, já está de pé.</p>
   </div>
 
-  <!-- DISPONÍVEL AGORA -->
-  <div class="sec now">
-    <div class="sec-head">
-      <span class="dot"></span>
-      <h2 class="sec-title">Disponível agora</h2>
-      <span class="sec-tag">RELIGAR OS MOTORES</span>
-      <span class="count">5</span>
+  <!-- MOTOR ZERO -->
+  <div class="motor zero">
+    <div class="m-top">
+      <span class="m-num">MOTOR 0</span>
+      <span class="m-name">Piso de credibilidade</span>
+      <span class="m-code">M0</span>
+      <span class="status">✓ FECHADO</span>
     </div>
-    <p class="sec-sub">Nada trava. Eu rodo tudo isto no repositório — você não precisa fazer nada. É o caminho de "voltar a produzir motores".</p>
-
-    <div class="card">
-      <h3>Religar a ferramenta comercial <span class="tag eu">EU</span></h3>
-      <p>A lista de prospecção volta a mostrar o que o motor já calcula — preço, saldo líquido, zona,
-        pendência. Hoje a "porta de entrada" está mais pobre que o engine e o manual ainda nega o preço.</p>
-    </div>
-    <div class="card">
-      <h3>Preço em 3 números, sempre citado <span class="tag eu">EU</span></h3>
-      <p>O <b>preço legal</b> que você pediu: teto regulatório · equivalente-outorga (Art. 128) · banda
-        de mercado real — os três juntos, cada um com o dispositivo de origem. A margem fica com você;
-        o motor entrega o número da lei.</p>
-    </div>
-    <div class="card">
-      <h3>Dossiê por imóvel <span class="tag eu">EU</span></h3>
-      <p>Uma página citável por imóvel: memória de cálculo com o dispositivo, à-vista × parcelado
-        (Art. 124 §3º), checklist de conservação. Piloto nos 19 imóveis com dono já conhecido.</p>
-    </div>
-    <div class="card">
-      <h3>Lado da demanda — o diferenciador <span class="tag eu">EU</span></h3>
-      <p>Montar a base das 167 certidões reais de recepção + um score de liquidez por distrito. A lista
-        deixa de ser um censo e passa a responder <b>"quem tem comprador plausível agora"</b> — o que
-        vale para vender ao incorporador receptor.</p>
-    </div>
-    <div class="card">
-      <h3>Excel do dono num comando <span class="tag eu">EU</span></h3>
-      <p>Abas Resumo / Prospecção / Pendências / Dicionário, geradas do zero por <code>make produto</code>,
-        datadas e reproduzíveis.</p>
+    <p class="m-purpose">Nenhum número sai sem citar a lei e sem dizer o que é (estimativa, teto, pendência).
+      É o que deixa o produto <b>ser mostrado a um comprador sem detonar credibilidade na 1ª auditoria</b>.</p>
+    <div class="rows">
+      <div class="row"><div class="k">Já tem</div><div class="v">Fórmula central citada no dispositivo certo (erro C-28 sumiu) · gate de CI que <b>reprova ao sabotar 1 fator</b> · trava de conservação (Art. 129) · regime do já-declarado · divergência de 27% exposta · DISCLAIMER em toda saída · oráculos velhos arquivados. <b>7 itens, todos com prova mecânica.</b></div></div>
+      <div class="row"><div class="k">Próximo</div><div class="v"><span class="disp">Nada — serve de base para os três motores abaixo.</span></div></div>
     </div>
   </div>
 
-  <!-- PRECISO DE VOCÊ -->
-  <div class="sec wait-s">
-    <div class="sec-head">
-      <span class="dot"></span>
-      <h2 class="sec-title">Preciso de você</h2>
-      <span class="sec-tag">DESTRAVA CAMADA</span>
-      <span class="count">3</span>
+  <!-- MOTOR 1 -->
+  <div class="motor gate">
+    <div class="m-top">
+      <span class="m-num">MOTOR 1</span>
+      <span class="m-name">Travas</span>
+      <span class="m-code">M-GATE</span>
+      <span class="status">EM CONSTRUÇÃO</span>
     </div>
-    <p class="sec-sub">Ações pequenas suas que abrem camadas extras. Nenhuma bloqueia os motores acima — são aprofundamento.</p>
-
-    <div class="card">
-      <h3>Chave de embeddings (Gemini/Voyage) <span class="tag voce">VOCÊ</span></h3>
-      <p>Colar 1 segredo no GitHub → eu ligo a busca semântica (acha por sentido, não só por palavra).
-        Opcional: a regra de "toda resposta com citação" continua valendo do mesmo jeito.</p>
-    </div>
-    <div class="card">
-      <h3>Revisar 1 lei-âncora <span class="tag voce">VOCÊ</span></h3>
-      <p>Hoje 0 de 61 leis têm carimbo humano. Ler 1 e aprovar dá o selo <code>revisado_por_humano</code>
-        e ancora a confiança do corpus. 15 minutos.</p>
-      <span class="wait">↳ eu preparo a lei e o roteiro de conferência</span>
-    </div>
-    <div class="card">
-      <h3>Capturar 5 normas + jurisprudência de fora <span class="tag voce">VOCÊ / MOU</span></h3>
-      <p>5 leis municipais e os acórdãos de TDC não estão no Drive, e o acesso aos portais .gov.br é
-        bloqueado deste ambiente. Precisam ser baixados por você/MOU. Reforça a defesa em cartório —
-        não trava a venda.</p>
+    <p class="m-purpose">As regras legais viram <b>gates provados</b>: o que a lei veda ou condiciona nunca
+      passa como vendável. Elegibilidade, vedação, saldo, parcelamento — cada um decidido por um teste,
+      não por opinião. <b>12 travas (T1–T12).</b></p>
+    <div class="rows">
+      <div class="row"><div class="k">Já tem</div><div class="v">As travas do piso já fechadas e provadas (chunker, CI, conservação, regime, segurança, saldo por conjunto, parcelamento >50 mil).</div></div>
+      <div class="row"><div class="k">Próximo</div><div class="v">Fechar as travas restantes — em destaque a <b>vedação espacial (T8, Art. 124 §2º)</b>, que se casa com o Motor 3 — cada uma com <b>golden-assert sobre o cohort real</b> (o resíduo declarado: provar contra o dado, não em prosa).</div></div>
     </div>
   </div>
 
-  <!-- EM SEQUÊNCIA -->
-  <div class="sec later">
-    <div class="sec-head">
-      <span class="dot"></span>
-      <h2 class="sec-title">Em sequência</h2>
-      <span class="sec-tag">DEPOIS</span>
-      <span class="count">3</span>
+  <!-- MOTOR 2 -->
+  <div class="motor crit">
+    <div class="m-top">
+      <span class="m-num">MOTOR 2</span>
+      <span class="m-name">Dados / Infra</span>
+      <span class="m-code">M-DADOS</span>
+      <span class="status">CAMINHO CRÍTICO</span>
     </div>
-    <p class="sec-sub">Depende de um marco anterior ou de uma decisão sua no momento certo. Registrado para não cair.</p>
-
-    <div class="card">
-      <h3>Espinha espacial — cobertura 49% → 70%+ <span class="tag eu">EU</span></h3>
-      <p>Cruzar lote × zona da cidade e geocodificar os 1.839 imóveis sem SQL. Roda em paralelo; os
-        ganhos entram no produto depois que a ferramenta estiver religada.</p>
-    </div>
-    <div class="card">
-      <h3>Dono em escala — de 19 para centenas <span class="tag voce">VOCÊ / MOU</span></h3>
-      <p>Juntar socios/empresas/holdings para achar o proprietário dos imóveis prontos. Só depois do
-        gate de segurança (são dados sensíveis) e da priorização por liquidez.</p>
-      <span class="wait">↳ aguarda: gate de segurança + lado da demanda</span>
-    </div>
-    <div class="card">
-      <h3>Abrir novas vias / virar principal <span class="tag voce">DECISÃO SUA</span></h3>
-      <p>Operacionalizar ZEPAM/ZEIS/parques ou comprar crédito. Congelado de propósito até haver sinal
-        de demanda — o mercado já tem ~92 anos de estoque. Decisão sua, quando o momento chegar.</p>
+    <p class="m-purpose">O trilho: a esteira de dados e o banco de onde tudo lê. Hoje há uma <b>crise de
+      canonicidade</b> — o que roda no banco não está no git, e o que está no git nunca foi aplicado.
+      Enquanto isso não fecha, os números não são reprodutíveis.</p>
+    <div class="rows">
+      <div class="row"><div class="k">Já tem</div><div class="v">Diagnóstico verificado ao vivo no Supabase · dados oficiais carregados (3.905/3.676) · gate de segurança da Fase 0 (spend cap, RLS deny-all).</div></div>
+      <div class="row"><div class="k">Próximo</div><div class="v"><b>Banco reconstruível do git</b> (migrations canônicas) · popular a proveniência/vigência (<code>governanca.de_para</code>, hoje vazio) · CI cobrindo <code>zepec/engines/tabelas/supabase</code> · runner que roda de checkout limpo. <b>Destrava os Motores 1 e 3.</b></div></div>
     </div>
   </div>
 
-  <div class="callout">
-    <b>Recomendação:</b> começar pela faixa verde — <b>religar os motores comerciais</b>. Tudo ali roda
-    comigo, no repositório; você não precisa tocar em nada. A faixa amarela a gente destrava quando você
-    puder; a branca vem em sequência.
+  <!-- MOTOR 3 -->
+  <div class="motor geo">
+    <div class="m-top">
+      <span class="m-num">MOTOR 3</span>
+      <span class="m-name">Espacial</span>
+      <span class="m-code">M-GEO</span>
+      <span class="status">EM CONSTRUÇÃO</span>
+    </div>
+    <p class="m-purpose">Onde cada imóvel cai no mapa e qual regime da zona se aplica — o que hoje falta
+      para calcular metade da base. Cobertura, zona certa e a Regra da Esquina, cada número com eval.</p>
+    <div class="rows">
+      <div class="row"><div class="k">Já tem</div><div class="v">Diagnóstico que desfez o falso "buraco" de 1.839 sem SQL (só <b>63 são reais</b>; 1.772 são a mesma linha coletiva da Light) · Decreto 57.536/16 (Regra da Esquina) já ingerido · shapefiles oficiais localizados no Drive.</div></div>
+      <div class="row"><div class="k">Próximo</div><div class="v">Ingerir os <b>shapefiles oficiais</b> com proveniência (trocam os nossos) · overlay lote×zona <b>por área</b> (não centroide — corrige zona/CAbás errados) · geocodificar os 63 reais · <b>eval da camada espacial</b> (a única sem eval hoje).</div></div>
+    </div>
   </div>
 
-  <div class="foot">Potencial Urbano · orquestrador · próximos passos · 2026-07-06</div>
+  <!-- PRECISO DE VOCE -->
+  <div class="need">
+    <h4>No caminho, vou precisar de você (pequeno — não trava os motores)</h4>
+    <p>Os motores acima rodam comigo, no repositório. Estas três abrem camadas extras quando você puder:</p>
+    <ul>
+      <li><b>Chave de embeddings (Gemini/Voyage)</b> — colar 1 segredo → ligo a busca semântica do corpus.</li>
+      <li><b>Capturar 5 leis + jurisprudência de fora do Drive</b> — o acesso .gov.br é bloqueado daqui (reforça o Motor 1).</li>
+      <li><b>Liberar os dados pesados (socios/empresas)</b> — depois do gate de segurança, para achar o dono dos imóveis (fecha o valor do Motor 2).</li>
+    </ul>
+  </div>
+
+  <div class="foot">Potencial Urbano · orquestrador · mapa dos motores · 2026-07-06</div>
 </div>
