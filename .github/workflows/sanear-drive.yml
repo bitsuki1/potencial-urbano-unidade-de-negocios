@@ -1,0 +1,38 @@
+# Saneamento de DUPLICATAS do Drive via CONTA DE SERVIÇO (o "robô") — disparo MANUAL, ensaio primeiro.
+# APAGA (lixeira, recuperável ~30d) as duplicatas auditadas, mantendo 1 canônica por grupo.
+# O log é lido pelo assistente pela API; a aceitação é a contagem/tamanho antes-depois.
+# Pré-requisito: secret GOOGLE_SA_KEY (JSON da conta de serviço).
+name: sanear-drive
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "true = ENSAIO (não apaga nada). Só 'false' manda para a lixeira."
+        required: true
+        default: "true"
+        type: choice
+        options: ["true", "false"]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: sanear-drive
+  cancel-in-progress: false
+
+jobs:
+  sanear:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Instalar libs do Google
+        run: pip install --quiet google-api-python-client google-auth
+      - name: Sanear duplicatas (DRY_RUN=${{ inputs.dry_run }})
+        env:
+          GOOGLE_SA_KEY: ${{ secrets.GOOGLE_SA_KEY }}
+          DRY_RUN: ${{ inputs.dry_run }}
+        run: python3 scripts/sanear_duplicatas_sa.py
