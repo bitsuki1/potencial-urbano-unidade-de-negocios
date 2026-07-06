@@ -1,5 +1,20 @@
 # PRÓXIMA INSTÂNCIA — o que fazer (Potencial Urbano)
 
+> **★★★★★ PU 18 (2026-07-06) — DRIVE LIMPO: dedup ESCOPADO à PU CONCLUÍDO (robô). FALTA 1 CLIQUE DO DONO.**
+> Entregável da sessão = "o Drive limpo e saudável". **Arrumação:** 1.360/1.360 movidos (verificado). **Saneamento
+> fase 1:** 13 duplicatas de CSV pesado → lixeira (verificado). **Dedup escopado à subárvore do Potencial Urbano**
+> (não tocou outras unidades do MOU — decisão do dono "focar na PU mesmo"): o robô (conta de serviço, Editor) MOVEU
+> **2.082 duplicatas** (417 grupos, ~41,52 GB) para a pasta única **`99 — DUPLICATAS-A-EXCLUIR`**
+> (id `1tk7qx26pBLj7p0Gvxx4VNC53LlzdhUcl`, dentro do Potencial Urbano). **VERIFICADO** por leitura própria: log da
+> Action `dedup-quarentena` run 28803222539 = `para_quarentena=2082 erros=0`; a pasta contém ~2.082 itens (ruído de
+> consistência eventual do índice na listagem); as **4 canônicas** (socios/empresas/IPTU_2026/holdings em
+> "03 — Tabelas & Engines" `1v4H2Ys...`) confirmadas VIVAS, com tamanho certo, FORA da quarentena.
+> **AÇÃO ÚNICA DO DONO (fecha o entregável, libera ~41,52 GB):** abrir/rodar `drive-arrumacao/Trash-Quarentena-DONO-2026-07-06.gs`
+> (Apps Script na conta do dono; DRY_RUN=true → confere ~2082 no Log → DRY_RUN=false → roda; depois ESVAZIAR A LIXEIRA).
+> Alternativa manual: abrir a pasta `99 — DUPLICATAS-A-EXCLUIR`, selecionar tudo, excluir. O robô é Editor e NÃO pode
+> mandar arquivo de outro dono à lixeira (403) — por isso o dono dá o último clique. **Toolchain:** `scripts/dedup_quarentena_sa.py`
+> + `.github/workflows/dedup-quarentena.yml` (ensaio→real, escopo por `pastas_sob()` BFS). **Rastro completo abaixo neste bloco.**
+>
 > **★★★★ PU 18 (2026-07-05, tarde) — DESTRAVE GERAL + DECISÕES DO DONO. LEIA: `docs/DECISOES-2026-07-05.md` (D-DONO-7..13) + `docs/INVENTARIO-DRIVE-VIVO-2026-07-05.md` + rastro do `BACKLOG.md`.**
 > O dono respondeu o relatório de pendências ITEM A ITEM. **Decisões:** preço = **preço LEGAL** (margem é
 > do usuário — fork c encerrado); o projeto **não julga produto/mercado** e não re-pergunta estratégia
