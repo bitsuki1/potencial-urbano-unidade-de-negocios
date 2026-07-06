@@ -1,0 +1,26 @@
+# Varredura de DUPLICATAS do Drive via CONTA DE SERVIÇO (o "robô") — SÓ RELATÓRIO, nunca apaga.
+# Enumera tudo que o robô enxerga, agrupa por nome+tamanho, lista as duplicatas + GB recuperáveis.
+# O log é lido pelo assistente pela API; a partir dele o assistente gera um Trash-*.gs p/ o dono rodar.
+# Pré-requisito: secret GOOGLE_SA_KEY.
+name: dedup-scan
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Instalar libs do Google
+        run: pip install --quiet google-api-python-client google-auth
+      - name: Varrer duplicatas (só relatório)
+        env:
+          GOOGLE_SA_KEY: ${{ secrets.GOOGLE_SA_KEY }}
+        run: python3 scripts/dedup_scan_sa.py
