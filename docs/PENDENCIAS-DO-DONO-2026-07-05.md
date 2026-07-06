@@ -13,8 +13,16 @@
 - **Secret `GOOGLE_SA_KEY`: SETADO e VÁLIDO** (autenticou como `escritorio-do-mou@portfolio-do-mou`).
 - **Branches antigas: APAGADAS** — sobrou só `main` + branch de trabalho + `jsgvth`.
 - **5 leis faltantes: CAPTURADAS** no Doc `LEIS-FALTANTES-VERBATIM-PU` (Drive) — a ingerir/verificar.
-- **PRÓXIMO no Drive:** (a) triar as 5 subpastas restantes na `_entrada`; (b) saneamento de duplicatas
-  (~28 GB, operação separada); (c) ingerir as 5 leis do Doc.
+- **SANEAMENTO DE DUPLICATAS (parcial FEITO, 2026-07-06):** as 13 duplicatas AUDITADAS foram para a
+  lixeira (o robô Editor recebeu 403 — só o dono exclui; feito pelo mini Apps Script do dono
+  `drive-arrumacao/Trash-13-Duplicatas-DONO-2026-07-06.gs`). **VERIFICADO pelo assistente:** 13/13
+  ausentes da busca de vivos (na lixeira), 4/4 canônicas preservadas. ~15,5 GB a liberar.
+  **FOLLOW-UP (achado 2026-07-06):** a busca revelou MAIS cópias vivas fora da lista de 20/06 —
+  `socios.csv` ~4, `empresas.csv` ~4, `IPTU_2026.csv` ~2, `holdings.csv` ~3 (em `99_LIXEIRA_DUPLICADOS`
+  e outras pastas legadas). ~25 GB adicionais → precisa de uma varredura de dedup NOVA (por nome+tamanho)
+  gerando lista nova → mesmo padrão (robô lista, dono exclui pelo mini-script).
+- **PRÓXIMO no Drive:** (a) triar as 5 subpastas restantes na `_entrada`; (b) dedup follow-up (~25 GB
+  acima); (c) ingerir as 5 leis do Doc `LEIS-FALTANTES`.
 
 ---
 
