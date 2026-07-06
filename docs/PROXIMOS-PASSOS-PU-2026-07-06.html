@@ -1,0 +1,204 @@
+<title>Potencial Urbano — Os motores</title>
+<style>
+  :root{
+    --bg:#f4f4f2; --card:#ffffff; --ink:#1c1c1a; --mut:#6b6b66; --line:#e4e4df;
+    --eyebrow:#8a8a82; --chip:#ecebe7; --chip-ink:#5a5a54;
+    --done:#3f7d9e; --done-bg:#e7f1f5;
+    --gate:#b57d2a; --gate-bg:#f6efe0;
+    --crit:#b8493f; --crit-bg:#f6e7e5;
+    --geo:#3f9e5a; --geo-bg:#eaf5ed;
+    --soft:#eeeeeb;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{
+      --bg:#17171a; --card:#202024; --ink:#ececea; --mut:#9c9c98; --line:#2e2e33;
+      --eyebrow:#83837c; --chip:#2c2c31; --chip-ink:#b6b6b0;
+      --done:#6fb6d6; --done-bg:#182731;
+      --gate:#e0b45f; --gate-bg:#2a2418;
+      --crit:#e08479; --crit-bg:#2e1c19;
+      --geo:#63c07f; --geo-bg:#1c2a20;
+      --soft:#26262a;
+    }
+  }
+  :root[data-theme="light"]{
+    --bg:#f4f4f2; --card:#ffffff; --ink:#1c1c1a; --mut:#6b6b66; --line:#e4e4df;
+    --eyebrow:#8a8a82; --chip:#ecebe7; --chip-ink:#5a5a54;
+    --done:#3f7d9e; --done-bg:#e7f1f5; --gate:#b57d2a; --gate-bg:#f6efe0;
+    --crit:#b8493f; --crit-bg:#f6e7e5; --geo:#3f9e5a; --geo-bg:#eaf5ed; --soft:#eeeeeb;
+  }
+  :root[data-theme="dark"]{
+    --bg:#17171a; --card:#202024; --ink:#ececea; --mut:#9c9c98; --line:#2e2e33;
+    --eyebrow:#83837c; --chip:#2c2c31; --chip-ink:#b6b6b0;
+    --done:#6fb6d6; --done-bg:#182731; --gate:#e0b45f; --gate-bg:#2a2418;
+    --crit:#e08479; --crit-bg:#2e1c19; --geo:#63c07f; --geo-bg:#1c2a20; --soft:#26262a;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.5;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:840px;margin:0 auto;padding:56px 24px 80px}
+  .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+  .eyebrow{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+    font-size:13px;letter-spacing:.02em;color:var(--eyebrow);margin:0 0 14px}
+  h1{font-size:40px;line-height:1.08;margin:0 0 14px;letter-spacing:-.02em;font-weight:800}
+  .lede{font-size:17px;color:var(--mut);margin:0 0 18px;max-width:64ch}
+  .lede b{color:var(--ink)}
+  .updated{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+    font-size:12.5px;color:var(--eyebrow);margin:0 0 26px}
+
+  /* como se encaixam */
+  .flow{background:var(--card);border:1px solid var(--line);border-radius:12px;
+    padding:16px 18px;margin:0 0 34px}
+  .flow h4{margin:0 0 10px;font-size:12px;letter-spacing:.06em;text-transform:uppercase;
+    color:var(--eyebrow);font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+  .flow p{margin:0;font-size:14.5px;color:var(--mut)}
+  .flow p b{color:var(--ink)}
+
+  /* motor card */
+  .motor{background:var(--card);border:1px solid var(--line);border-radius:14px;
+    padding:20px 22px;margin:0 0 16px;border-left-width:5px}
+  .m-top{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:0 0 4px}
+  .m-num{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+    font-size:12px;font-weight:700;padding:3px 9px;border-radius:7px;letter-spacing:.02em}
+  .m-name{font-size:20px;font-weight:770;letter-spacing:-.01em;margin:0}
+  .m-code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+    font-size:12.5px;color:var(--eyebrow)}
+  .status{margin-left:auto;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+    font-size:11px;font-weight:700;letter-spacing:.03em;padding:4px 10px;border-radius:20px;white-space:nowrap}
+  .m-purpose{font-size:15px;color:var(--mut);margin:6px 0 16px}
+  .m-purpose b{color:var(--ink)}
+  .rows{display:grid;gap:10px}
+  .row{display:grid;grid-template-columns:90px 1fr;gap:12px;align-items:start;
+    font-size:14px;padding-top:10px;border-top:1px dashed var(--line)}
+  .row .k{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:11.5px;
+    letter-spacing:.03em;color:var(--eyebrow);padding-top:2px;text-transform:uppercase}
+  .row .v{color:var(--ink)} .row .v b{font-weight:700}
+  .row .v .disp{color:var(--mut)}
+
+  /* accents */
+  .zero{border-left-color:var(--done)} .zero .m-num{background:var(--done-bg);color:var(--done)}
+  .zero .status{background:var(--done-bg);color:var(--done)}
+  .gate{border-left-color:var(--gate)} .gate .m-num{background:var(--gate-bg);color:var(--gate)}
+  .gate .status{background:var(--gate-bg);color:var(--gate)}
+  .crit{border-left-color:var(--crit)} .crit .m-num{background:var(--crit-bg);color:var(--crit)}
+  .crit .status{background:var(--crit-bg);color:var(--crit)}
+  .geo{border-left-color:var(--geo)} .geo .m-num{background:var(--geo-bg);color:var(--geo)}
+  .geo .status{background:var(--geo-bg);color:var(--geo)}
+
+  /* preciso de voce */
+  .need{margin-top:34px;background:var(--soft);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+  .need h4{margin:0 0 6px;font-size:13px;font-weight:750}
+  .need p{margin:0 0 10px;font-size:13.5px;color:var(--mut)}
+  .need ul{margin:0;padding-left:18px;font-size:13.5px;color:var(--mut)}
+  .need li{margin:4px 0} .need li b{color:var(--ink)}
+
+  .done-note{display:flex;gap:10px;align-items:flex-start;font-size:13.5px;color:var(--mut);
+    background:var(--geo-bg);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:0 0 30px}
+  .done-note .ck{color:var(--geo);font-weight:800;flex:none}
+
+  .foot{margin-top:52px;padding-top:18px;border-top:1px solid var(--line);
+    font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+    font-size:12px;color:var(--eyebrow);text-align:center}
+  @media (max-width:560px){.row{grid-template-columns:1fr}.row .k{padding-top:0}}
+</style>
+
+<div class="wrap">
+  <p class="eyebrow">Potencial Urbano · inteligência de TDC (lado cedente)</p>
+  <h1>Os motores</h1>
+  <p class="lede">Um <b>motor</b> é um engine determinístico e blindado: pega <b>lei + dado</b> e devolve
+    um <b>número auditável</b>, citado até o dispositivo (nunca inventado pelo LLM). São quatro. O
+    <b>Motor Zero</b> já está fechado e provado; os outros três têm a estratégia pronta e entram agora.</p>
+  <p class="updated">atualizado 2026-07-06 · Drive limpo → foco total nos motores</p>
+
+  <div class="done-note">
+    <span class="ck">✓</span>
+    <span><b>Higiene do Drive fechada nesta sessão</b> — 1.360 arquivos arrumados e 2.082 duplicatas
+      (~41,5 GB) na lixeira, verificado por leitura própria; as 4 tabelas-mestre intactas. Não trava mais nada.</span>
+  </div>
+
+  <div class="flow">
+    <h4>Como se encaixam</h4>
+    <p><b>Motor 2 (Dados/Infra)</b> é o trilho — arruma o banco e a esteira sobre a qual os outros correm
+      (é o caminho crítico). <b>Motor 1 (Travas)</b> e <b>Motor 3 (Espacial)</b> correm sobre esse trilho
+      e se cruzam numa trava (vedação espacial). <b>Motor Zero</b>, o piso de credibilidade, já está de pé.</p>
+  </div>
+
+  <!-- MOTOR ZERO -->
+  <div class="motor zero">
+    <div class="m-top">
+      <span class="m-num">MOTOR 0</span>
+      <span class="m-name">Piso de credibilidade</span>
+      <span class="m-code">M0</span>
+      <span class="status">✓ FECHADO</span>
+    </div>
+    <p class="m-purpose">Nenhum número sai sem citar a lei e sem dizer o que é (estimativa, teto, pendência).
+      É o que deixa o produto <b>ser mostrado a um comprador sem detonar credibilidade na 1ª auditoria</b>.</p>
+    <div class="rows">
+      <div class="row"><div class="k">Já tem</div><div class="v">Fórmula central citada no dispositivo certo (erro C-28 sumiu) · gate de CI que <b>reprova ao sabotar 1 fator</b> · trava de conservação (Art. 129) · regime do já-declarado · divergência de 27% exposta · DISCLAIMER em toda saída · oráculos velhos arquivados. <b>7 itens, todos com prova mecânica.</b></div></div>
+      <div class="row"><div class="k">Próximo</div><div class="v"><span class="disp">Nada — serve de base para os três motores abaixo.</span></div></div>
+    </div>
+  </div>
+
+  <!-- MOTOR 1 -->
+  <div class="motor gate">
+    <div class="m-top">
+      <span class="m-num">MOTOR 1</span>
+      <span class="m-name">Travas</span>
+      <span class="m-code">M-GATE</span>
+      <span class="status">EM CONSTRUÇÃO</span>
+    </div>
+    <p class="m-purpose">As regras legais viram <b>gates provados</b>: o que a lei veda ou condiciona nunca
+      passa como vendável. Elegibilidade, vedação, saldo, parcelamento — cada um decidido por um teste,
+      não por opinião. <b>12 travas (T1–T12).</b></p>
+    <div class="rows">
+      <div class="row"><div class="k">Já tem</div><div class="v">As travas do piso já fechadas e provadas (chunker, CI, conservação, regime, segurança, saldo por conjunto, parcelamento >50 mil).</div></div>
+      <div class="row"><div class="k">Próximo</div><div class="v">Fechar as travas restantes — em destaque a <b>vedação espacial (T8, Art. 124 §2º)</b>, que se casa com o Motor 3 — cada uma com <b>golden-assert sobre o cohort real</b> (o resíduo declarado: provar contra o dado, não em prosa).</div></div>
+    </div>
+  </div>
+
+  <!-- MOTOR 2 -->
+  <div class="motor crit">
+    <div class="m-top">
+      <span class="m-num">MOTOR 2</span>
+      <span class="m-name">Dados / Infra</span>
+      <span class="m-code">M-DADOS</span>
+      <span class="status">CAMINHO CRÍTICO</span>
+    </div>
+    <p class="m-purpose">O trilho: a esteira de dados e o banco de onde tudo lê. Hoje há uma <b>crise de
+      canonicidade</b> — o que roda no banco não está no git, e o que está no git nunca foi aplicado.
+      Enquanto isso não fecha, os números não são reprodutíveis.</p>
+    <div class="rows">
+      <div class="row"><div class="k">Já tem</div><div class="v">Diagnóstico verificado ao vivo no Supabase · dados oficiais carregados (3.905/3.676) · gate de segurança da Fase 0 (spend cap, RLS deny-all).</div></div>
+      <div class="row"><div class="k">Próximo</div><div class="v"><b>Banco reconstruível do git</b> (migrations canônicas) · popular a proveniência/vigência (<code>governanca.de_para</code>, hoje vazio) · CI cobrindo <code>zepec/engines/tabelas/supabase</code> · runner que roda de checkout limpo. <b>Destrava os Motores 1 e 3.</b></div></div>
+    </div>
+  </div>
+
+  <!-- MOTOR 3 -->
+  <div class="motor geo">
+    <div class="m-top">
+      <span class="m-num">MOTOR 3</span>
+      <span class="m-name">Espacial</span>
+      <span class="m-code">M-GEO</span>
+      <span class="status">EM CONSTRUÇÃO</span>
+    </div>
+    <p class="m-purpose">Onde cada imóvel cai no mapa e qual regime da zona se aplica — o que hoje falta
+      para calcular metade da base. Cobertura, zona certa e a Regra da Esquina, cada número com eval.</p>
+    <div class="rows">
+      <div class="row"><div class="k">Já tem</div><div class="v">Diagnóstico que desfez o falso "buraco" de 1.839 sem SQL (só <b>63 são reais</b>; 1.772 são a mesma linha coletiva da Light) · Decreto 57.536/16 (Regra da Esquina) já ingerido · shapefiles oficiais localizados no Drive.</div></div>
+      <div class="row"><div class="k">Próximo</div><div class="v">Ingerir os <b>shapefiles oficiais</b> com proveniência (trocam os nossos) · overlay lote×zona <b>por área</b> (não centroide — corrige zona/CAbás errados) · geocodificar os 63 reais · <b>eval da camada espacial</b> (a única sem eval hoje).</div></div>
+    </div>
+  </div>
+
+  <!-- PRECISO DE VOCE -->
+  <div class="need">
+    <h4>No caminho, vou precisar de você (pequeno — não trava os motores)</h4>
+    <p>Os motores acima rodam comigo, no repositório. Estas três abrem camadas extras quando você puder:</p>
+    <ul>
+      <li><b>Chave de embeddings (Gemini/Voyage)</b> — colar 1 segredo → ligo a busca semântica do corpus.</li>
+      <li><b>Capturar 5 leis + jurisprudência de fora do Drive</b> — o acesso .gov.br é bloqueado daqui (reforça o Motor 1).</li>
+      <li><b>Liberar os dados pesados (socios/empresas)</b> — depois do gate de segurança, para achar o dono dos imóveis (fecha o valor do Motor 2).</li>
+    </ul>
+  </div>
+
+  <div class="foot">Potencial Urbano · orquestrador · mapa dos motores · 2026-07-06</div>
+</div>
