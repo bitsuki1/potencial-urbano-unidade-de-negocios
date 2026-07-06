@@ -6,12 +6,15 @@
 ---
 
 ## ✅ ATUALIZAÇÃO 2026-07-06 (verificado pelo assistente)
-- **Secret `GOOGLE_SA_KEY`: SETADO e VÁLIDO** — o ensaio (dry-run) autenticou como
-  `escritorio-do-mou@portfolio-do-mou.iam.gserviceaccount.com` e rodou limpo:
-  **1.360 movidos / 0 erros / 0 multi-pai** (666 Geo · 468 Leis · 166 Tabelas · 54 Gov · 6 Inbox),
-  batendo o de-para auditado. Log lido direto da API do GitHub (não relatório de extensão).
+- **ARRUMAÇÃO DO DRIVE: FEITA.** Move real via robô concluído (job success): log da API =
+  `=== FIM === modo=REAL movidos=1360 ja_no_destino=0 multi_pai_manual=0 erros=0 total=1360`.
+  Prova independente: a `_entrada` esvaziou — sobraram só 6 itens NÃO-do-plano (5 subpastas
+  `IPTU`/`IPTU-Sergio`/`NOVOS`/`Todos`/`Outros` + o Doc `LEIS-FALTANTES`). Zero perdas, zero erros.
+- **Secret `GOOGLE_SA_KEY`: SETADO e VÁLIDO** (autenticou como `escritorio-do-mou@portfolio-do-mou`).
 - **Branches antigas: APAGADAS** — sobrou só `main` + branch de trabalho + `jsgvth`.
-- **FALTA:** o **OK do dono para o move REAL** (dry_run=false). Depois eu conto a `_entrada` (deve zerar).
+- **5 leis faltantes: CAPTURADAS** no Doc `LEIS-FALTANTES-VERBATIM-PU` (Drive) — a ingerir/verificar.
+- **PRÓXIMO no Drive:** (a) triar as 5 subpastas restantes na `_entrada`; (b) saneamento de duplicatas
+  (~28 GB, operação separada); (c) ingerir as 5 leis do Doc.
 
 ---
 
