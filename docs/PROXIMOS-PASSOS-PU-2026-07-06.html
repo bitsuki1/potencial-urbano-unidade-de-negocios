@@ -1,0 +1,234 @@
+<title>Potencial Urbano — Próximos passos</title>
+<style>
+  :root{
+    --bg:#f4f4f2; --card:#ffffff; --ink:#1c1c1a; --mut:#6b6b66; --line:#e4e4df;
+    --eyebrow:#8a8a82;
+    --green:#3f9e5a; --green-bg:#eaf5ed;
+    --amber:#c9922b; --amber-bg:#f7f0e0;
+    --gray:#8a8a86; --gray-bg:#eeeeeb;
+    --done:#3f7d9e; --done-bg:#e7f1f5;
+    --chip:#ecebe7; --chip-ink:#5a5a54;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{
+      --bg:#17171a; --card:#202024; --ink:#ececea; --mut:#9c9c98; --line:#2e2e33;
+      --eyebrow:#83837c;
+      --green:#63c07f; --green-bg:#1c2a20;
+      --amber:#e0b45f; --amber-bg:#2a2418;
+      --gray:#9a9a95; --gray-bg:#26262a;
+      --done:#6fb6d6; --done-bg:#182731;
+      --chip:#2c2c31; --chip-ink:#b6b6b0;
+    }
+  }
+  :root[data-theme="light"]{
+    --bg:#f4f4f2; --card:#ffffff; --ink:#1c1c1a; --mut:#6b6b66; --line:#e4e4df;
+    --eyebrow:#8a8a82;
+    --green:#3f9e5a; --green-bg:#eaf5ed; --amber:#c9922b; --amber-bg:#f7f0e0;
+    --gray:#8a8a86; --gray-bg:#eeeeeb; --done:#3f7d9e; --done-bg:#e7f1f5;
+    --chip:#ecebe7; --chip-ink:#5a5a54;
+  }
+  :root[data-theme="dark"]{
+    --bg:#17171a; --card:#202024; --ink:#ececea; --mut:#9c9c98; --line:#2e2e33;
+    --eyebrow:#83837c;
+    --green:#63c07f; --green-bg:#1c2a20; --amber:#e0b45f; --amber-bg:#2a2418;
+    --gray:#9a9a95; --gray-bg:#26262a; --done:#6fb6d6; --done-bg:#182731;
+    --chip:#2c2c31; --chip-ink:#b6b6b0;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.5;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:820px;margin:0 auto;padding:56px 24px 80px}
+  .eyebrow{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+    font-size:13px;letter-spacing:.02em;color:var(--eyebrow);margin:0 0 14px}
+  h1{font-size:40px;line-height:1.08;margin:0 0 14px;letter-spacing:-.02em;font-weight:800}
+  .lede{font-size:17px;color:var(--mut);margin:0 0 20px;max-width:60ch}
+  .updated{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+    font-size:12.5px;color:var(--eyebrow);margin:0 0 22px}
+  .legend{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;
+    padding:0 0 8px;margin:0 0 34px;border-bottom:1px solid var(--line)}
+  .legend .item{display:flex;gap:8px;align-items:center;font-size:13.5px;color:var(--mut)}
+  .tag{display:inline-block;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+    font-size:11px;letter-spacing:.03em;padding:3px 8px;border-radius:6px;
+    background:var(--chip);color:var(--chip-ink);font-weight:600;white-space:nowrap}
+  .tag.voce{background:#e3ecf6;color:#3c5b82}
+  .tag.eu{background:#efe6f6;color:#6b4b86}
+  @media (prefers-color-scheme:dark){.tag.voce{background:#1e2a3a;color:#8fb2df}.tag.eu{background:#2a2036;color:#c3a2e0}}
+  :root[data-theme="dark"] .tag.voce{background:#1e2a3a;color:#8fb2df}
+  :root[data-theme="dark"] .tag.eu{background:#2a2036;color:#c3a2e0}
+  :root[data-theme="light"] .tag.voce{background:#e3ecf6;color:#3c5b82}
+  :root[data-theme="light"] .tag.eu{background:#efe6f6;color:#6b4b86}
+
+  .sec{margin:38px 0 0}
+  .sec-head{display:flex;align-items:baseline;gap:12px;margin:0 0 4px}
+  .dot{width:11px;height:11px;border-radius:50%;flex:none;align-self:center}
+  .sec-title{font-size:21px;font-weight:750;margin:0;letter-spacing:-.01em}
+  .sec-tag{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+    font-size:10.5px;letter-spacing:.05em;padding:3px 8px;border-radius:6px;font-weight:700}
+  .count{margin-left:auto;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+    font-size:14px;color:var(--eyebrow)}
+  .sec-sub{color:var(--mut);font-size:14px;margin:2px 0 16px;padding-left:23px}
+
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;
+    padding:16px 18px;margin:0 0 12px;border-left-width:4px}
+  .card h3{margin:0 0 6px;font-size:16px;font-weight:700;display:flex;align-items:center;
+    gap:10px;flex-wrap:wrap}
+  .card p{margin:0;font-size:14.5px;color:var(--mut)}
+  .card .wait{display:block;margin-top:8px;font-size:12.5px;color:var(--eyebrow);
+    font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+
+  .done .dot{background:var(--done)} .done .sec-tag{background:var(--done-bg);color:var(--done)}
+  .done .card{border-left-color:var(--done)}
+  .now .dot{background:var(--green)} .now .sec-tag{background:var(--green-bg);color:var(--green)}
+  .now .card{border-left-color:var(--green)}
+  .wait-s .dot{background:var(--amber)} .wait-s .sec-tag{background:var(--amber-bg);color:var(--amber)}
+  .wait-s .card{border-left-color:var(--amber)}
+  .later .dot{background:var(--gray)} .later .sec-tag{background:var(--gray-bg);color:var(--gray)}
+  .later .card{border-left-color:var(--gray)}
+
+  .callout{background:var(--green-bg);border:1px solid var(--line);border-radius:12px;
+    padding:16px 18px;margin:30px 0 4px;font-size:15px}
+  .callout b{color:var(--ink)}
+  .foot{margin-top:52px;padding-top:18px;border-top:1px solid var(--line);
+    font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+    font-size:12px;color:var(--eyebrow);text-align:center}
+</style>
+
+<div class="wrap">
+  <p class="eyebrow">Potencial Urbano · Inteligência de TDC (lado cedente)</p>
+  <h1>Próximos passos</h1>
+  <p class="lede">Onde paramos e o que vem — agora que o Drive está limpo. Agrupado por estado:
+    o que roda já, o que espera você, o que vem em sequência. Não por prioridade.</p>
+  <p class="updated">atualizado 2026-07-06 · o Drive limpo fechou a higiene; a estrada agora é motor</p>
+
+  <div class="legend">
+    <span class="item"><span class="tag voce">VOCÊ</span> ação sua</span>
+    <span class="item"><span class="tag eu">EU</span> eu rodo no repositório (você não faz nada)</span>
+  </div>
+
+  <!-- FEITO -->
+  <div class="sec done">
+    <div class="sec-head">
+      <span class="dot"></span>
+      <h2 class="sec-title">Feito nesta sessão</h2>
+      <span class="sec-tag">DRIVE LIMPO</span>
+      <span class="count">2</span>
+    </div>
+    <p class="sec-sub">O entregável da sessão. Verificado por leitura própria do Drive — não por relatório de terceiro.</p>
+
+    <div class="card">
+      <h3>Arrumação — 1.360 arquivos organizados <span class="tag eu">EU</span></h3>
+      <p>O robô moveu os 1.360 arquivos para o lugar certo (1.360/1.360, zero erro).</p>
+    </div>
+    <div class="card">
+      <h3>Duplicatas — 2.082 cópias na lixeira <span class="tag eu">EU</span> <span class="tag voce">VOCÊ deu o clique final</span></h3>
+      <p>~41,5 GB liberados. A pasta de quarentena voltou <b>vazia</b>; as 4 tabelas-mestre
+        (socios, empresas, IPTU 2026, holdings) confirmadas <b>vivas</b> e intactas. Só a Potencial
+        Urbano foi tocada — as outras unidades do MOU não.</p>
+    </div>
+  </div>
+
+  <!-- DISPONÍVEL AGORA -->
+  <div class="sec now">
+    <div class="sec-head">
+      <span class="dot"></span>
+      <h2 class="sec-title">Disponível agora</h2>
+      <span class="sec-tag">RELIGAR OS MOTORES</span>
+      <span class="count">5</span>
+    </div>
+    <p class="sec-sub">Nada trava. Eu rodo tudo isto no repositório — você não precisa fazer nada. É o caminho de "voltar a produzir motores".</p>
+
+    <div class="card">
+      <h3>Religar a ferramenta comercial <span class="tag eu">EU</span></h3>
+      <p>A lista de prospecção volta a mostrar o que o motor já calcula — preço, saldo líquido, zona,
+        pendência. Hoje a "porta de entrada" está mais pobre que o engine e o manual ainda nega o preço.</p>
+    </div>
+    <div class="card">
+      <h3>Preço em 3 números, sempre citado <span class="tag eu">EU</span></h3>
+      <p>O <b>preço legal</b> que você pediu: teto regulatório · equivalente-outorga (Art. 128) · banda
+        de mercado real — os três juntos, cada um com o dispositivo de origem. A margem fica com você;
+        o motor entrega o número da lei.</p>
+    </div>
+    <div class="card">
+      <h3>Dossiê por imóvel <span class="tag eu">EU</span></h3>
+      <p>Uma página citável por imóvel: memória de cálculo com o dispositivo, à-vista × parcelado
+        (Art. 124 §3º), checklist de conservação. Piloto nos 19 imóveis com dono já conhecido.</p>
+    </div>
+    <div class="card">
+      <h3>Lado da demanda — o diferenciador <span class="tag eu">EU</span></h3>
+      <p>Montar a base das 167 certidões reais de recepção + um score de liquidez por distrito. A lista
+        deixa de ser um censo e passa a responder <b>"quem tem comprador plausível agora"</b> — o que
+        vale para vender ao incorporador receptor.</p>
+    </div>
+    <div class="card">
+      <h3>Excel do dono num comando <span class="tag eu">EU</span></h3>
+      <p>Abas Resumo / Prospecção / Pendências / Dicionário, geradas do zero por <code>make produto</code>,
+        datadas e reproduzíveis.</p>
+    </div>
+  </div>
+
+  <!-- PRECISO DE VOCÊ -->
+  <div class="sec wait-s">
+    <div class="sec-head">
+      <span class="dot"></span>
+      <h2 class="sec-title">Preciso de você</h2>
+      <span class="sec-tag">DESTRAVA CAMADA</span>
+      <span class="count">3</span>
+    </div>
+    <p class="sec-sub">Ações pequenas suas que abrem camadas extras. Nenhuma bloqueia os motores acima — são aprofundamento.</p>
+
+    <div class="card">
+      <h3>Chave de embeddings (Gemini/Voyage) <span class="tag voce">VOCÊ</span></h3>
+      <p>Colar 1 segredo no GitHub → eu ligo a busca semântica (acha por sentido, não só por palavra).
+        Opcional: a regra de "toda resposta com citação" continua valendo do mesmo jeito.</p>
+    </div>
+    <div class="card">
+      <h3>Revisar 1 lei-âncora <span class="tag voce">VOCÊ</span></h3>
+      <p>Hoje 0 de 61 leis têm carimbo humano. Ler 1 e aprovar dá o selo <code>revisado_por_humano</code>
+        e ancora a confiança do corpus. 15 minutos.</p>
+      <span class="wait">↳ eu preparo a lei e o roteiro de conferência</span>
+    </div>
+    <div class="card">
+      <h3>Capturar 5 normas + jurisprudência de fora <span class="tag voce">VOCÊ / MOU</span></h3>
+      <p>5 leis municipais e os acórdãos de TDC não estão no Drive, e o acesso aos portais .gov.br é
+        bloqueado deste ambiente. Precisam ser baixados por você/MOU. Reforça a defesa em cartório —
+        não trava a venda.</p>
+    </div>
+  </div>
+
+  <!-- EM SEQUÊNCIA -->
+  <div class="sec later">
+    <div class="sec-head">
+      <span class="dot"></span>
+      <h2 class="sec-title">Em sequência</h2>
+      <span class="sec-tag">DEPOIS</span>
+      <span class="count">3</span>
+    </div>
+    <p class="sec-sub">Depende de um marco anterior ou de uma decisão sua no momento certo. Registrado para não cair.</p>
+
+    <div class="card">
+      <h3>Espinha espacial — cobertura 49% → 70%+ <span class="tag eu">EU</span></h3>
+      <p>Cruzar lote × zona da cidade e geocodificar os 1.839 imóveis sem SQL. Roda em paralelo; os
+        ganhos entram no produto depois que a ferramenta estiver religada.</p>
+    </div>
+    <div class="card">
+      <h3>Dono em escala — de 19 para centenas <span class="tag voce">VOCÊ / MOU</span></h3>
+      <p>Juntar socios/empresas/holdings para achar o proprietário dos imóveis prontos. Só depois do
+        gate de segurança (são dados sensíveis) e da priorização por liquidez.</p>
+      <span class="wait">↳ aguarda: gate de segurança + lado da demanda</span>
+    </div>
+    <div class="card">
+      <h3>Abrir novas vias / virar principal <span class="tag voce">DECISÃO SUA</span></h3>
+      <p>Operacionalizar ZEPAM/ZEIS/parques ou comprar crédito. Congelado de propósito até haver sinal
+        de demanda — o mercado já tem ~92 anos de estoque. Decisão sua, quando o momento chegar.</p>
+    </div>
+  </div>
+
+  <div class="callout">
+    <b>Recomendação:</b> começar pela faixa verde — <b>religar os motores comerciais</b>. Tudo ali roda
+    comigo, no repositório; você não precisa tocar em nada. A faixa amarela a gente destrava quando você
+    puder; a branca vem em sequência.
+  </div>
+
+  <div class="foot">Potencial Urbano · orquestrador · próximos passos · 2026-07-06</div>
+</div>
