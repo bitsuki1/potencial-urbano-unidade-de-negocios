@@ -1,0 +1,38 @@
+# Quarentena de DUPLICATAS via CONTA DE SERVIÇO (o "robô") — disparo MANUAL, ensaio primeiro.
+# MOVE (não apaga) as cópias duplicadas para uma pasta única "99 — DUPLICATAS-A-EXCLUIR",
+# mantendo 1 canônica por grupo. Depois o DONO abre a pasta, seleciona tudo e exclui.
+# O log é lido pelo assistente pela API. Pré-requisito: secret GOOGLE_SA_KEY.
+name: dedup-quarentena
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "true = ENSAIO (não move nada). Só 'false' move p/ a quarentena."
+        required: true
+        default: "true"
+        type: choice
+        options: ["true", "false"]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: dedup-quarentena
+  cancel-in-progress: false
+
+jobs:
+  quarentena:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Instalar libs do Google
+        run: pip install --quiet google-api-python-client google-auth
+      - name: Quarentena de duplicatas (DRY_RUN=${{ inputs.dry_run }})
+        env:
+          GOOGLE_SA_KEY: ${{ secrets.GOOGLE_SA_KEY }}
+          DRY_RUN: ${{ inputs.dry_run }}
+        run: python3 scripts/dedup_quarentena_sa.py
