@@ -1,0 +1,45 @@
+{
+  "id": "termo-006-2026",
+  "tipo": "gabarito-tdc-fim-a-fim",
+  "descricao": "Termo de Compromisso CONPRESP 006/2026 — TDC do imóvel tombado Líbero Badaró 306/310. Gabarito de ponta a ponta: o pipeline (Mapa->zona->Fórmulas) deve reproduzir o m² transferível oficial.",
+  "fonte": {
+    "documento": "Termo de Compromisso nº 006/2026",
+    "processo_administrativo": "6025.2024/0013449-9",
+    "orgao": "CONPRESP / SMC — Prefeitura do Município de São Paulo",
+    "data": "2026-05-15",
+    "origem": "coleção do dono (PDF escaneado); ato público publicável no Diário Oficial da Cidade",
+    "confianca": "alta"
+  },
+  "imovel": {
+    "sql_contribuinte": "001.080.0016-8",
+    "endereco": "Rua Líbero Badaró, 306 e 310 — Centro — São Paulo/SP",
+    "matricula": "4º CRI nº 113.962",
+    "tombamento": "Anexo I da Resolução 37/CONPRESP/1992",
+    "classe": "ZEPEC-BIR"
+  },
+  "base_legal": {
+    "leis": ["Lei 16.050/2014 (arts. 128, 129 §§1º/2º, 130, 131, 132)", "Lei 16.402/2016 (art. 24 §1º)", "Lei 17.844/2022"],
+    "resolucao": "23/CONPRESP/2015",
+    "declaracao_potencial": "SMUL/DEUSO nº 0539/23"
+  },
+  "resposta_certa": {
+    "m2_transferivel": 717.60,
+    "unidade": "m²",
+    "fonte_do_numero": "Declaração de Potencial Construtivo Passível de Transferência SMUL/DEUSO 0539/23 (cláusula 1.2 do Termo)",
+    "nota": "O VALOR em R$ NÃO é fixado no termo — depende do receptor e da negociação (coerente com D-DONO-7: preço legal + margem do usuário). O gabarito trava o m², não o R$."
+  },
+  "tolerancia": {
+    "zona": "idêntica ao GeoSampa (categórica)",
+    "m2": "±5% de 717.60 (i.e., 681.72 a 753.48), com o gap explicado pela data de protocolo",
+    "regra": "zona errada OU m² fora sem explicação = FALHA (build vermelho)"
+  },
+  "a_preencher_pelo_pipeline": {
+    "zona_geosampa": "PENDENTE (Camada 1 — puxar do GeoSampa por SQL)",
+    "zona_nosso_motor": "PENDENTE (Motor do Mapa)",
+    "cabas": "PENDENTE",
+    "atc_area_terreno": "PENDENTE (IPTU)",
+    "fi": "PENDENTE (faixa de área, Art.24 LPUOS)",
+    "m2_nosso_motor": "PENDENTE (Motor das Fórmulas)",
+    "status": "AGUARDANDO_PIPELINE"
+  }
+}
