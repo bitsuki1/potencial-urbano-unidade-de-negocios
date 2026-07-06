@@ -1,204 +1,312 @@
-<title>Potencial Urbano — Os motores</title>
+<title>Potencial Urbano — Os motores, explicados</title>
 <style>
   :root{
-    --bg:#f4f4f2; --card:#ffffff; --ink:#1c1c1a; --mut:#6b6b66; --line:#e4e4df;
-    --eyebrow:#8a8a82; --chip:#ecebe7; --chip-ink:#5a5a54;
-    --done:#3f7d9e; --done-bg:#e7f1f5;
-    --gate:#b57d2a; --gate-bg:#f6efe0;
-    --crit:#b8493f; --crit-bg:#f6e7e5;
-    --geo:#3f9e5a; --geo-bg:#eaf5ed;
-    --soft:#eeeeeb;
+    --bg:#e9edf1; --surface:#ffffff; --ink:#161c22; --muted:#56616b; --faint:#7c8790;
+    --line:#d3dbe2; --accent:#2d6b96; --accent-soft:#dce8f1;
+    --done:#1f8a72; --done-bg:#d9ece6;
+    --build:#a8781f; --build-bg:#f0e6cf;
+    --crit:#b04a3a; --crit-bg:#f1ddd8;
+    --grid:rgba(45,107,150,.09);
   }
   @media (prefers-color-scheme:dark){
     :root{
-      --bg:#17171a; --card:#202024; --ink:#ececea; --mut:#9c9c98; --line:#2e2e33;
-      --eyebrow:#83837c; --chip:#2c2c31; --chip-ink:#b6b6b0;
-      --done:#6fb6d6; --done-bg:#182731;
-      --gate:#e0b45f; --gate-bg:#2a2418;
-      --crit:#e08479; --crit-bg:#2e1c19;
-      --geo:#63c07f; --geo-bg:#1c2a20;
-      --soft:#26262a;
+      --bg:#12161b; --surface:#1a1f26; --ink:#e7ecf1; --muted:#9aa6b1; --faint:#6f7b86;
+      --line:#2a323b; --accent:#5b9fce; --accent-soft:#1a2c3a;
+      --done:#4fbfa2; --done-bg:#13332b;
+      --build:#d4a34f; --build-bg:#2c2413;
+      --crit:#d9705e; --crit-bg:#2f1c17;
+      --grid:rgba(91,159,206,.10);
     }
   }
   :root[data-theme="light"]{
-    --bg:#f4f4f2; --card:#ffffff; --ink:#1c1c1a; --mut:#6b6b66; --line:#e4e4df;
-    --eyebrow:#8a8a82; --chip:#ecebe7; --chip-ink:#5a5a54;
-    --done:#3f7d9e; --done-bg:#e7f1f5; --gate:#b57d2a; --gate-bg:#f6efe0;
-    --crit:#b8493f; --crit-bg:#f6e7e5; --geo:#3f9e5a; --geo-bg:#eaf5ed; --soft:#eeeeeb;
+    --bg:#e9edf1; --surface:#ffffff; --ink:#161c22; --muted:#56616b; --faint:#7c8790;
+    --line:#d3dbe2; --accent:#2d6b96; --accent-soft:#dce8f1;
+    --done:#1f8a72; --done-bg:#d9ece6; --build:#a8781f; --build-bg:#f0e6cf;
+    --crit:#b04a3a; --crit-bg:#f1ddd8; --grid:rgba(45,107,150,.09);
   }
   :root[data-theme="dark"]{
-    --bg:#17171a; --card:#202024; --ink:#ececea; --mut:#9c9c98; --line:#2e2e33;
-    --eyebrow:#83837c; --chip:#2c2c31; --chip-ink:#b6b6b0;
-    --done:#6fb6d6; --done-bg:#182731; --gate:#e0b45f; --gate-bg:#2a2418;
-    --crit:#e08479; --crit-bg:#2e1c19; --geo:#63c07f; --geo-bg:#1c2a20; --soft:#26262a;
+    --bg:#12161b; --surface:#1a1f26; --ink:#e7ecf1; --muted:#9aa6b1; --faint:#6f7b86;
+    --line:#2a323b; --accent:#5b9fce; --accent-soft:#1a2c3a;
+    --done:#4fbfa2; --done-bg:#13332b; --build:#d4a34f; --build-bg:#2c2413;
+    --crit:#d9705e; --crit-bg:#2f1c17; --grid:rgba(91,159,206,.10);
   }
   *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
   body{margin:0;background:var(--bg);color:var(--ink);
     font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-    line-height:1.5;-webkit-font-smoothing:antialiased}
-  .wrap{max-width:840px;margin:0 auto;padding:56px 24px 80px}
-  .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
-  .eyebrow{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
-    font-size:13px;letter-spacing:.02em;color:var(--eyebrow);margin:0 0 14px}
-  h1{font-size:40px;line-height:1.08;margin:0 0 14px;letter-spacing:-.02em;font-weight:800}
-  .lede{font-size:17px;color:var(--mut);margin:0 0 18px;max-width:64ch}
-  .lede b{color:var(--ink)}
-  .updated{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
-    font-size:12.5px;color:var(--eyebrow);margin:0 0 26px}
+    line-height:1.62;font-size:16.5px;-webkit-font-smoothing:antialiased}
+  .serif{font-family:Georgia,"Iowan Old Style","Times New Roman",serif}
+  .mono{font-family:ui-monospace,SFMono-Regular,Menlo,"Cascadia Mono",Consolas,monospace}
+  .wrap{max-width:900px;margin:0 auto;padding:0 24px}
 
-  /* como se encaixam */
-  .flow{background:var(--card);border:1px solid var(--line);border-radius:12px;
-    padding:16px 18px;margin:0 0 34px}
-  .flow h4{margin:0 0 10px;font-size:12px;letter-spacing:.06em;text-transform:uppercase;
-    color:var(--eyebrow);font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
-  .flow p{margin:0;font-size:14.5px;color:var(--mut)}
-  .flow p b{color:var(--ink)}
+  /* ---------- hero ---------- */
+  .hero{padding:64px 0 44px;
+    background:
+      linear-gradient(var(--grid) 1px,transparent 1px) 0 0/32px 32px,
+      linear-gradient(90deg,var(--grid) 1px,transparent 1px) 0 0/32px 32px;
+    border-bottom:1px solid var(--line)}
+  .kick{margin:0 0 20px;font-size:12.5px;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--accent);font-weight:600}
+  .kick::before{content:"";display:inline-block;width:26px;height:1px;background:var(--accent);
+    vertical-align:middle;margin-right:10px}
+  h1{font-size:clamp(40px,7vw,66px);line-height:1.02;margin:0 0 26px;letter-spacing:-.02em;
+    font-weight:600;text-wrap:balance}
+  .deck{font-size:19px;color:var(--muted);max-width:60ch;margin:0 0 16px}
+  .deck b{color:var(--ink);font-weight:600}
+  .deck em{font-style:italic;color:var(--ink)}
+  .note{font-size:15px;color:var(--faint);max-width:60ch;margin:18px 0 0;
+    padding-left:16px;border-left:2px solid var(--line)}
 
-  /* motor card */
-  .motor{background:var(--card);border:1px solid var(--line);border-radius:14px;
-    padding:20px 22px;margin:0 0 16px;border-left-width:5px}
-  .m-top{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:0 0 4px}
-  .m-num{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
-    font-size:12px;font-weight:700;padding:3px 9px;border-radius:7px;letter-spacing:.02em}
-  .m-name{font-size:20px;font-weight:770;letter-spacing:-.01em;margin:0}
-  .m-code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
-    font-size:12.5px;color:var(--eyebrow)}
-  .status{margin-left:auto;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
-    font-size:11px;font-weight:700;letter-spacing:.03em;padding:4px 10px;border-radius:20px;white-space:nowrap}
-  .m-purpose{font-size:15px;color:var(--mut);margin:6px 0 16px}
-  .m-purpose b{color:var(--ink)}
-  .rows{display:grid;gap:10px}
-  .row{display:grid;grid-template-columns:90px 1fr;gap:12px;align-items:start;
-    font-size:14px;padding-top:10px;border-top:1px dashed var(--line)}
-  .row .k{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:11.5px;
-    letter-spacing:.03em;color:var(--eyebrow);padding-top:2px;text-transform:uppercase}
-  .row .v{color:var(--ink)} .row .v b{font-weight:700}
-  .row .v .disp{color:var(--mut)}
+  /* ---------- section frame ---------- */
+  section{padding:52px 0}
+  .lbl{margin:0 0 8px;font-size:12px;letter-spacing:.13em;text-transform:uppercase;
+    color:var(--faint);font-weight:600}
+  h2{font-size:clamp(26px,4vw,34px);line-height:1.12;margin:0 0 10px;letter-spacing:-.015em;
+    font-weight:600;text-wrap:balance}
+  .sub{font-size:16.5px;color:var(--muted);max-width:62ch;margin:0 0 34px}
 
-  /* accents */
-  .zero{border-left-color:var(--done)} .zero .m-num{background:var(--done-bg);color:var(--done)}
-  .zero .status{background:var(--done-bg);color:var(--done)}
-  .gate{border-left-color:var(--gate)} .gate .m-num{background:var(--gate-bg);color:var(--gate)}
-  .gate .status{background:var(--gate-bg);color:var(--gate)}
-  .crit{border-left-color:var(--crit)} .crit .m-num{background:var(--crit-bg);color:var(--crit)}
-  .crit .status{background:var(--crit-bg);color:var(--crit)}
-  .geo{border-left-color:var(--geo)} .geo .m-num{background:var(--geo-bg);color:var(--geo)}
-  .geo .status{background:var(--geo-bg);color:var(--geo)}
+  /* ---------- process ---------- */
+  .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:0;counter-reset:s;
+    border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--surface)}
+  .step{padding:22px 20px 24px;border-right:1px solid var(--line);position:relative}
+  .step:last-child{border-right:none}
+  .step .n{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:13px;
+    color:var(--accent);font-weight:700;letter-spacing:.02em}
+  .step h3{font-size:16.5px;margin:10px 0 7px;font-weight:650;letter-spacing:-.01em}
+  .step p{font-size:14px;color:var(--muted);margin:0;line-height:1.5}
+  .arrow-out{margin:16px 0 0;font-size:15px;color:var(--ink)}
+  .arrow-out b{color:var(--accent)}
 
-  /* preciso de voce */
-  .need{margin-top:34px;background:var(--soft);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
-  .need h4{margin:0 0 6px;font-size:13px;font-weight:750}
-  .need p{margin:0 0 10px;font-size:13.5px;color:var(--mut)}
-  .need ul{margin:0;padding-left:18px;font-size:13.5px;color:var(--mut)}
-  .need li{margin:4px 0} .need li b{color:var(--ink)}
+  /* ---------- motor cards ---------- */
+  .motors{display:flex;flex-direction:column;gap:20px}
+  .motor{background:var(--surface);border:1px solid var(--line);border-radius:16px;
+    padding:26px 28px;border-top:4px solid var(--accent)}
+  .m-head{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin:0 0 4px}
+  .m-tag{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:12px;
+    font-weight:700;letter-spacing:.06em;color:var(--faint)}
+  .m-name{font-size:27px;font-weight:600;letter-spacing:-.015em;margin:0;line-height:1.1}
+  .pill{margin-left:auto;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+    font-size:11px;font-weight:700;letter-spacing:.04em;padding:5px 11px;border-radius:20px;
+    white-space:nowrap;align-self:center}
+  .m-blocks{display:grid;grid-template-columns:1fr 1fr 1fr;gap:22px;margin-top:22px}
+  .blk .bl{font-size:11.5px;letter-spacing:.09em;text-transform:uppercase;font-weight:700;
+    margin:0 0 7px;color:var(--accent)}
+  .blk p{margin:0;font-size:14.5px;color:var(--muted);line-height:1.55}
+  .blk p b{color:var(--ink);font-weight:600}
 
-  .done-note{display:flex;gap:10px;align-items:flex-start;font-size:13.5px;color:var(--mut);
-    background:var(--geo-bg);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:0 0 30px}
-  .done-note .ck{color:var(--geo);font-weight:800;flex:none}
+  .motor.done{border-top-color:var(--done)} .done .bl{color:var(--done)}
+  .done .pill{background:var(--done-bg);color:var(--done)}
+  .motor.crit{border-top-color:var(--crit)} .crit .bl{color:var(--crit)}
+  .crit .pill{background:var(--crit-bg);color:var(--crit)}
+  .motor.build{border-top-color:var(--build)} .build .bl{color:var(--build)}
+  .build .pill{background:var(--build-bg);color:var(--build)}
 
-  .foot{margin-top:52px;padding-top:18px;border-top:1px solid var(--line);
-    font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
-    font-size:12px;color:var(--eyebrow);text-align:center}
-  @media (max-width:560px){.row{grid-template-columns:1fr}.row .k{padding-top:0}}
+  /* ---------- fit / order ---------- */
+  .fit{background:var(--accent-soft);border:1px solid var(--line);border-radius:16px;padding:26px 28px}
+  .fit p{margin:0;font-size:16.5px;color:var(--ink);max-width:64ch}
+  .fit p b{font-weight:650}
+  .fit .order{margin-top:16px;font-size:15px;color:var(--muted)}
+  .fit .order b{color:var(--ink)}
+
+  /* ---------- need ---------- */
+  .need{border:1px dashed var(--line);border-radius:16px;padding:24px 26px}
+  .need h3{margin:0 0 6px;font-size:17px;font-weight:650}
+  .need>p{margin:0 0 14px;font-size:15px;color:var(--muted)}
+  .need ul{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+  .need li{display:grid;grid-template-columns:22px 1fr;gap:10px;font-size:15px;color:var(--muted)}
+  .need li b{color:var(--ink);font-weight:600}
+  .need li .m{color:var(--accent);font-weight:700;font-family:ui-monospace,Menlo,Consolas,monospace}
+
+  .foot{padding:34px 0 60px;border-top:1px solid var(--line);margin-top:8px;
+    font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:12.5px;
+    color:var(--faint);display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+
+  @media (max-width:760px){
+    .steps{grid-template-columns:1fr 1fr}
+    .step:nth-child(2){border-right:none}
+    .step:nth-child(1),.step:nth-child(2){border-bottom:1px solid var(--line)}
+    .m-blocks{grid-template-columns:1fr;gap:18px}
+  }
+  @media (max-width:480px){.steps{grid-template-columns:1fr}
+    .step{border-right:none;border-bottom:1px solid var(--line)}.step:last-child{border-bottom:none}}
 </style>
 
+<div class="hero">
+  <div class="wrap">
+    <p class="kick">Potencial Urbano · como a máquina funciona</p>
+    <h1 class="serif">O que é um motor</h1>
+    <p class="deck">Nós vendemos uma resposta que precisa se defender na frente de um comprador e, no
+      limite, num cartório: <em>“este imóvel pode vender tanto de potencial construtivo, por tanto — e
+      aqui está a lei que garante isso.”</em> Um <b>motor</b> é a peça que produz essa resposta: um
+      cálculo automático que pega a <b>lei</b> e o <b>dado oficial</b> e devolve um <b>número que se
+      sustenta sozinho</b>, com o artigo da lei ao lado. O número nunca é um “eu acho” da inteligência
+      artificial — é uma conta que qualquer um confere contra a lei.</p>
+    <p class="note">Potencial construtivo é o quanto um imóvel tombado, que não pode crescer, tem direito
+      de <b>vender</b> para quem quer construir mais em outro lugar — a Transferência do Direito de
+      Construir (TDC). São quatro motores. Um já está pronto; os outros três construímos agora.</p>
+  </div>
+</div>
+
 <div class="wrap">
-  <p class="eyebrow">Potencial Urbano · inteligência de TDC (lado cedente)</p>
-  <h1>Os motores</h1>
-  <p class="lede">Um <b>motor</b> é um engine determinístico e blindado: pega <b>lei + dado</b> e devolve
-    um <b>número auditável</b>, citado até o dispositivo (nunca inventado pelo LLM). São quatro. O
-    <b>Motor Zero</b> já está fechado e provado; os outros três têm a estratégia pronta e entram agora.</p>
-  <p class="updated">atualizado 2026-07-06 · Drive limpo → foco total nos motores</p>
 
-  <div class="done-note">
-    <span class="ck">✓</span>
-    <span><b>Higiene do Drive fechada nesta sessão</b> — 1.360 arquivos arrumados e 2.082 duplicatas
-      (~41,5 GB) na lixeira, verificado por leitura própria; as 4 tabelas-mestre intactas. Não trava mais nada.</span>
-  </div>
+  <!-- COMO NASCE -->
+  <section>
+    <p class="lbl">O caminho — igual para todos</p>
+    <h2 class="serif">Como se chega a um motor</h2>
+    <p class="sub">Todo motor nasce do mesmo percurso. É esse percurso que faz o número no fim ser
+      confiável — dá para apontar, passo a passo, de onde ele veio.</p>
+    <div class="steps">
+      <div class="step">
+        <div class="n">01 · FONTE</div>
+        <h3>Parte da lei e do dado oficial</h3>
+        <p>O texto da norma, a planta da cidade, o cadastro de imóveis. Só fonte oficial — nada de fonte
+          duvidosa, nada inventado.</p>
+      </div>
+      <div class="step">
+        <div class="n">02 · CONFERIR</div>
+        <h3>Limpar e carimbar a origem</h3>
+        <p>A lei entra palavra por palavra; cada dado ganha de onde veio e de quando é. Sempre dá para
+          dizer a procedência.</p>
+      </div>
+      <div class="step">
+        <div class="n">03 · FIXAR</div>
+        <h3>Virar uma conta que não muda</h3>
+        <p>A condição da lei (ou a fórmula) vira um cálculo que dá <b>sempre</b> o mesmo resultado — não
+          depende de opinião nem da IA.</p>
+      </div>
+      <div class="step">
+        <div class="n">04 · PROVAR</div>
+        <h3>Um teste que acusa erro</h3>
+        <p>Uma verificação automática confere contra casos reais. Se alguém troca um valor escondido, o
+          teste reprova e barra a saída.</p>
+      </div>
+    </div>
+    <p class="arrow-out">No fim, sai <b>um número que aponta para o artigo</b> de onde nasceu — pronto
+      para ir ao dossiê do imóvel.</p>
+  </section>
 
-  <div class="flow">
-    <h4>Como se encaixam</h4>
-    <p><b>Motor 2 (Dados/Infra)</b> é o trilho — arruma o banco e a esteira sobre a qual os outros correm
-      (é o caminho crítico). <b>Motor 1 (Travas)</b> e <b>Motor 3 (Espacial)</b> correm sobre esse trilho
-      e se cruzam numa trava (vedação espacial). <b>Motor Zero</b>, o piso de credibilidade, já está de pé.</p>
-  </div>
+  <!-- MOTORES -->
+  <section>
+    <p class="lbl">Os quatro motores</p>
+    <h2 class="serif">O que é cada um, e o que entrega</h2>
+    <p class="sub">Para cada motor: o que ele é, como se chega nele e o que fica pronto no fim.</p>
 
-  <!-- MOTOR ZERO -->
-  <div class="motor zero">
-    <div class="m-top">
-      <span class="m-num">MOTOR 0</span>
-      <span class="m-name">Piso de credibilidade</span>
-      <span class="m-code">M0</span>
-      <span class="status">✓ FECHADO</span>
-    </div>
-    <p class="m-purpose">Nenhum número sai sem citar a lei e sem dizer o que é (estimativa, teto, pendência).
-      É o que deixa o produto <b>ser mostrado a um comprador sem detonar credibilidade na 1ª auditoria</b>.</p>
-    <div class="rows">
-      <div class="row"><div class="k">Já tem</div><div class="v">Fórmula central citada no dispositivo certo (erro C-28 sumiu) · gate de CI que <b>reprova ao sabotar 1 fator</b> · trava de conservação (Art. 129) · regime do já-declarado · divergência de 27% exposta · DISCLAIMER em toda saída · oráculos velhos arquivados. <b>7 itens, todos com prova mecânica.</b></div></div>
-      <div class="row"><div class="k">Próximo</div><div class="v"><span class="disp">Nada — serve de base para os três motores abaixo.</span></div></div>
-    </div>
-  </div>
+    <div class="motors">
 
-  <!-- MOTOR 1 -->
-  <div class="motor gate">
-    <div class="m-top">
-      <span class="m-num">MOTOR 1</span>
-      <span class="m-name">Travas</span>
-      <span class="m-code">M-GATE</span>
-      <span class="status">EM CONSTRUÇÃO</span>
-    </div>
-    <p class="m-purpose">As regras legais viram <b>gates provados</b>: o que a lei veda ou condiciona nunca
-      passa como vendável. Elegibilidade, vedação, saldo, parcelamento — cada um decidido por um teste,
-      não por opinião. <b>12 travas (T1–T12).</b></p>
-    <div class="rows">
-      <div class="row"><div class="k">Já tem</div><div class="v">As travas do piso já fechadas e provadas (chunker, CI, conservação, regime, segurança, saldo por conjunto, parcelamento >50 mil).</div></div>
-      <div class="row"><div class="k">Próximo</div><div class="v">Fechar as travas restantes — em destaque a <b>vedação espacial (T8, Art. 124 §2º)</b>, que se casa com o Motor 3 — cada uma com <b>golden-assert sobre o cohort real</b> (o resíduo declarado: provar contra o dado, não em prosa).</div></div>
-    </div>
-  </div>
+      <!-- MOTOR 0 -->
+      <div class="motor done">
+        <div class="m-head">
+          <span class="m-tag">MOTOR 0</span>
+          <h3 class="m-name serif">O piso de honestidade</h3>
+          <span class="pill">✓ PRONTO</span>
+        </div>
+        <div class="m-blocks">
+          <div class="blk"><p class="bl">O que é</p><p>A regra de honestidade da máquina: nenhum número
+            sai sem <b>duas coisas</b> — o artigo da lei que o gerou, e uma etiqueta dizendo o que ele é
+            (um teto legal, uma estimativa, ou uma lacuna ainda aberta).</p></div>
+          <div class="blk"><p class="bl">Como se chega</p><p>Pondo um porteiro automático que <b>recusa
+            publicar</b> qualquer número sem citação ou etiqueta; corrigindo o erro mais caro (a conta
+            principal apontava para o artigo errado); e carimbando um aviso em toda planilha e dossiê.</p></div>
+          <div class="blk"><p class="bl">O que entrega</p><p>Um produto que pode ser mostrado a um
+            comprador exigente e <b>sobrevive à primeira auditoria</b> — cada número se defende sozinho.
+            Já está de pé e provado.</p></div>
+        </div>
+      </div>
 
-  <!-- MOTOR 2 -->
-  <div class="motor crit">
-    <div class="m-top">
-      <span class="m-num">MOTOR 2</span>
-      <span class="m-name">Dados / Infra</span>
-      <span class="m-code">M-DADOS</span>
-      <span class="status">CAMINHO CRÍTICO</span>
-    </div>
-    <p class="m-purpose">O trilho: a esteira de dados e o banco de onde tudo lê. Hoje há uma <b>crise de
-      canonicidade</b> — o que roda no banco não está no git, e o que está no git nunca foi aplicado.
-      Enquanto isso não fecha, os números não são reprodutíveis.</p>
-    <div class="rows">
-      <div class="row"><div class="k">Já tem</div><div class="v">Diagnóstico verificado ao vivo no Supabase · dados oficiais carregados (3.905/3.676) · gate de segurança da Fase 0 (spend cap, RLS deny-all).</div></div>
-      <div class="row"><div class="k">Próximo</div><div class="v"><b>Banco reconstruível do git</b> (migrations canônicas) · popular a proveniência/vigência (<code>governanca.de_para</code>, hoje vazio) · CI cobrindo <code>zepec/engines/tabelas/supabase</code> · runner que roda de checkout limpo. <b>Destrava os Motores 1 e 3.</b></div></div>
-    </div>
-  </div>
+      <!-- MOTOR 2 -->
+      <div class="motor crit">
+        <div class="m-head">
+          <span class="m-tag">MOTOR 2</span>
+          <h3 class="m-name serif">Os dados e a esteira</h3>
+          <span class="pill">COMEÇA POR AQUI</span>
+        </div>
+        <div class="m-blocks">
+          <div class="blk"><p class="bl">O que é</p><p>O encanamento: o banco de dados e a esteira de onde
+            todos os outros motores leem. Hoje há uma bagunça — o que roda no banco não está guardado no
+            código, e o que está no código nunca foi ligado. Os números <b>não são reconstruíveis</b>.</p></div>
+          <div class="blk"><p class="bl">Como se chega</p><p>Fazendo o banco poder ser <b>refeito a partir
+            do código</b> (uma só fonte da verdade), registrando de onde veio e quando cada dado, e
+            ligando conferências automáticas a cada mudança.</p></div>
+          <div class="blk"><p class="bl">O que entrega</p><p>Uma base confiável: qualquer um refaz tudo do
+            zero e chega nos <b>mesmos números</b>. É o trilho — sem ele os Motores 1 e 3 não assentam.
+            Por isso vem primeiro.</p></div>
+        </div>
+      </div>
 
-  <!-- MOTOR 3 -->
-  <div class="motor geo">
-    <div class="m-top">
-      <span class="m-num">MOTOR 3</span>
-      <span class="m-name">Espacial</span>
-      <span class="m-code">M-GEO</span>
-      <span class="status">EM CONSTRUÇÃO</span>
+      <!-- MOTOR 1 -->
+      <div class="motor build">
+        <div class="m-head">
+          <span class="m-tag">MOTOR 1</span>
+          <h3 class="m-name serif">As travas da lei</h3>
+          <span class="pill">A CONSTRUIR</span>
+        </div>
+        <div class="m-blocks">
+          <div class="blk"><p class="bl">O que é</p><p>A lei virada em <b>barreiras automáticas</b>. A TDC
+            tem regras duras: alguns imóveis não podem transferir; outros só se estiverem conservados; há
+            regra de parcelamento e limite. Cada regra vira uma trava — se a lei proíbe, o imóvel <b>nunca
+            aparece como vendável</b>.</p></div>
+          <div class="blk"><p class="bl">Como se chega</p><p>Lendo cada artigo relevante palavra por
+            palavra, transformando a condição num teste sobre a lista real de imóveis, e <b>provando que o
+            teste barra</b> os casos proibidos — não só promete barrar.</p></div>
+          <div class="blk"><p class="bl">O que entrega</p><p>A garantia de nunca oferecer, por engano,
+            algo que a lei veda. Todo “pode / não pode” <b>aponta para o artigo</b>. Protege a
+            credibilidade e protege você juridicamente.</p></div>
+        </div>
+      </div>
+
+      <!-- MOTOR 3 -->
+      <div class="motor build">
+        <div class="m-head">
+          <span class="m-tag">MOTOR 3</span>
+          <h3 class="m-name serif">O mapa da cidade</h3>
+          <span class="pill">A CONSTRUIR</span>
+        </div>
+        <div class="m-blocks">
+          <div class="blk"><p class="bl">O que é</p><p>Descobre <b>onde cada imóvel cai no mapa</b> e qual
+            regra de zoneamento vale ali — porque quanto se pode construir e transferir depende da zona.
+            Sem isso, metade da base não fecha conta.</p></div>
+          <div class="blk"><p class="bl">Como se chega</p><p>Carregando as <b>plantas oficiais</b> (o
+            desenho dos lotes e das zonas), encaixando cada imóvel na sua zona <b>pela área</b> que ocupa
+            (não só pelo pontinho do centro, que joga lote de esquina na zona errada), achando os
+            endereços sem código, e aplicando a regra da esquina do decreto.</p></div>
+          <div class="blk"><p class="bl">O que entrega</p><p>Cada imóvel na <b>zona certa, com o parâmetro
+            certo</b> — o potencial a vender sai correto e a cobertura salta de cerca de metade para quase
+            toda a base. Cada número do mapa ganha sua conferência.</p></div>
+        </div>
+      </div>
+
     </div>
-    <p class="m-purpose">Onde cada imóvel cai no mapa e qual regime da zona se aplica — o que hoje falta
-      para calcular metade da base. Cobertura, zona certa e a Regra da Esquina, cada número com eval.</p>
-    <div class="rows">
-      <div class="row"><div class="k">Já tem</div><div class="v">Diagnóstico que desfez o falso "buraco" de 1.839 sem SQL (só <b>63 são reais</b>; 1.772 são a mesma linha coletiva da Light) · Decreto 57.536/16 (Regra da Esquina) já ingerido · shapefiles oficiais localizados no Drive.</div></div>
-      <div class="row"><div class="k">Próximo</div><div class="v">Ingerir os <b>shapefiles oficiais</b> com proveniência (trocam os nossos) · overlay lote×zona <b>por área</b> (não centroide — corrige zona/CAbás errados) · geocodificar os 63 reais · <b>eval da camada espacial</b> (a única sem eval hoje).</div></div>
+  </section>
+
+  <!-- COMO SE ENCAIXAM -->
+  <section>
+    <p class="lbl">A ordem</p>
+    <h2 class="serif">Como se encaixam</h2>
+    <div class="fit">
+      <p>O <b>Motor 2</b> é o trilho: arruma o banco e a esteira. Sobre ele correm o <b>Motor 1</b> (as
+        travas da lei) e o <b>Motor 3</b> (o mapa), que se encontram numa trava específica — a que proíbe
+        transferir em certas áreas, e que só fica completa quando o mapa existe. O <b>Motor 0</b> (a
+        honestidade) já está embaixo de tudo.</p>
+      <p class="order">Ordem natural: <b>Motor 2 primeiro</b> (o trilho) → depois <b>Motor 1 e Motor 3</b>
+        correndo juntos. É a recomendação; se você quiser outra ordem, é só dizer.</p>
     </div>
-  </div>
+  </section>
 
   <!-- PRECISO DE VOCE -->
-  <div class="need">
-    <h4>No caminho, vou precisar de você (pequeno — não trava os motores)</h4>
-    <p>Os motores acima rodam comigo, no repositório. Estas três abrem camadas extras quando você puder:</p>
-    <ul>
-      <li><b>Chave de embeddings (Gemini/Voyage)</b> — colar 1 segredo → ligo a busca semântica do corpus.</li>
-      <li><b>Capturar 5 leis + jurisprudência de fora do Drive</b> — o acesso .gov.br é bloqueado daqui (reforça o Motor 1).</li>
-      <li><b>Liberar os dados pesados (socios/empresas)</b> — depois do gate de segurança, para achar o dono dos imóveis (fecha o valor do Motor 2).</li>
-    </ul>
-  </div>
+  <section>
+    <div class="need">
+      <h3>No caminho, vou precisar de você</h3>
+      <p>Os motores rodam comigo, no repositório. Estas três coisas dependem de você — nenhuma trava os motores, só abrem camadas extras:</p>
+      <ul>
+        <li><span class="m">1</span><span><b>Uma chave de acesso</b> para ligar a busca inteligente do acervo de leis (colar um código).</span></li>
+        <li><span class="m">2</span><span><b>Baixar 5 leis e alguns julgados</b> que não estão no nosso Drive — o acesso automático aos sites do governo é bloqueado daqui.</span></li>
+        <li><span class="m">3</span><span><b>Liberar as bases pesadas</b> de sócios e empresas para descobrir o dono dos imóveis — depois da trava de segurança.</span></li>
+      </ul>
+    </div>
+  </section>
 
-  <div class="foot">Potencial Urbano · orquestrador · mapa dos motores · 2026-07-06</div>
+  <div class="foot">
+    <span>Potencial Urbano · inteligência de TDC</span>
+    <span>mapa dos motores · 2026-07-06</span>
+  </div>
 </div>
