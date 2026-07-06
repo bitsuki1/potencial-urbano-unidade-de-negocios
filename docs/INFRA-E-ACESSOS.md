@@ -4,29 +4,35 @@
 > Criado em 2026-07-05 (PU 18) ao descobrir um recurso que NENHUM doc registrava — o dono
 > perguntou "instalamos um robô no Drive e não lembro para que serve". Anti-perda (D83): agora está aqui.
 
-## Conta de serviço do Drive (o "robô") — DESCOBERTO 2026-07-05
+## Conta de serviço do Drive (o "robô") — CONFIRMADO 2026-07-05 (SSOT = escritório, cofre)
+> **Descoberto/confirmado ao cruzar com `escritorio-do-mou/cofre/COFRE-DE-ACESSOS.md` (M-81, trilho D153-B
+> "Drive acessível a todos").** O dono não lembrava para que servia; o cofre do escritório tinha o registro
+> completo. Este arquivo é a CÓPIA DE CONVENIÊNCIA no PU; a fonte da verdade é o cofre do escritório.
 - **Identidade:** `escritorio-do-mou@portfolio-do-mou.iam.gserviceaccount.com` (conta de serviço do Google Cloud).
-- **Projeto Google Cloud:** `portfolio-do-mou`.
+- **Projeto Google Cloud:** `portfolio-do-mou` (nº `496034297673`) — criado pelo MOU em 2026-07-03.
+- **Escopo:** `https://www.googleapis.com/auth/drive` (Drive completo — LÊ e ESCREVE).
 - **Papel no Drive:** **Editor (writer)** sobre a pasta-raiz **`PORTFÓLIO DO MOU`** (`1DkJl24-tQrLhO-WeuuAjwa8ahws8VbYf`)
   e, por herança, toda a árvore abaixo — inclui `POTENCIAL URBANO` (`1BrM6q36meTtn5guJoiGbqvCtZF11Uau3`)
   e a zona de despejo `01 — _entrada` (`1grhqYgttj7KnJmiu9U73z-lXFHnFthov`). Confirmado via
   `get_file_permissions` (MCP, 2026-07-05) e pela tela de Compartilhar do dono.
 - **Dono humano da pasta:** `eduardo@saobentoservicos.com.br` (Proprietário). Acesso geral: **Restrito**.
-- **Para que serve (inferência — não estava documentado):** identidade programática do **Escritório do MOU**
-  (PMO do portfólio) para **ler E ESCREVER o Drive do portfólio sem interação humana** — casa com a doutrina
-  "Ingestão determinística via Drive/Supabase connector" (CLAUDE.md Parte 3). Provavelmente criada para
-  ingestão/organização automática e ficou ociosa (a arrumação do Drive nunca rodou — ver
-  `docs/INVENTARIO-DRIVE-VIVO-2026-07-05.md`).
-- **Capacidade relevante:** como **writer**, PODE mover/organizar arquivos (`files.update` com
-  addParents/removeParents) e criar — é o caminho ROBUSTO para a arrumação (dispensa Apps Script +
-  consentimento OAuth + limite de 6 min). Pode enviar à lixeira; **não** apaga permanentemente como owner.
-- **Onde mora a CHAVE (segredo — NÃO no git):** Google Cloud Console → projeto `portfolio-do-mou` →
-  IAM e administrador → Contas de serviço → esta conta → aba **Chaves** → *Adicionar chave → Criar nova
-  chave → JSON*. O `.json` baixado é a credencial. Guardar em local seguro; quem tiver o arquivo age como
-  o robô. Uso previsto: Colab/CI, nunca colada em chat nem commitada.
+- **PARA QUE SERVE (agora documentado):** identidade programática do **Escritório do MOU** para **ler E
+  ESCREVER o Drive do portfólio sem interação humana** — feita para os **workflows automáticos (GitHub
+  Actions)** de cada unidade operarem o Drive (M-81 / D153-B). Casa com a doutrina "Ingestão determinística
+  via Drive/Supabase connector" (CLAUDE.md Parte 3).
+- **ESTADO (cofre, 2026-07-03): ✅✅ PROVADO PONTA-A-PONTA** — chave válida + Drive API ATIVA + pasta
+  PORTFÓLIO DO MOU compartilhada + **ESCRITA testada** (criou+apagou arquivo). Resíduo declarado: setar o
+  secret `GOOGLE_SA_KEY` no repo de cada unidade (UI do MOU) para os workflows automáticos rodarem.
+- **ONDE MORA A CHAVE (segredo — NUNCA no git):** valor da `private_key` vive como **GitHub Secret
+  `GOOGLE_SA_KEY`** (setado por repo, na UI do MOU). É o mesmo desenho do `BITRIX_WEBHOOK`. Para gerar/rotacionar:
+  Google Cloud Console → projeto `portfolio-do-mou` → IAM → Contas de serviço → esta conta → **Chaves** →
+  *Adicionar chave → Criar nova → JSON*. NUNCA colar em chat nem commitar.
+- **CAMINHO ROBUSTO para a arrumação:** um **GitHub Action** neste repo que lê o secret `GOOGLE_SA_KEY`,
+  autentica como o robô e move os 1.360 arquivos pelo de-para auditado (`drive-arrumacao/de-para-COMPLETO-2026-07-04.csv`),
+  DRY_RUN primeiro. Dispensa a extensão, o Apps Script, o consentimento OAuth e o limite de 6 min.
 - **Nota de segurança (para o dono decidir depois):** writer sobre o portfólio INTEIRO inclui os CSVs de
-  PII (sócios/CPF). Superfície ampla. Recomendação: estreitar o acesso do robô só às pastas que ele opera
-  e rotacionar a chave após cada uso pesado (casa com o gate de segurança do ROADMAP, risco #5).
+  PII (sócios/CPF). Superfície ampla. Recomendação: estreitar o acesso do robô só às pastas que opera e
+  rotacionar a chave após cada uso pesado (casa com o gate de segurança do ROADMAP, risco #5).
 
 ## Supabase
 - **Projeto:** `potencial-urbano-iptu-tdc` — ref `csnalylpvysjvejgsymr`, região `sa-east-1` (Postgres 17 +
