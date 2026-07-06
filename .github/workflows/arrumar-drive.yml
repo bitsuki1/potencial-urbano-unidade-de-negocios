@@ -1,0 +1,38 @@
+# Arrumação do Drive via CONTA DE SERVIÇO (o "robô") — disparo MANUAL, ensaio primeiro.
+# Roda o move dirigido pelo de-para auditado. O log deste workflow é lido pelo assistente
+# direto pela API (fonte confiável) — a aceitação final é a CONTAGEM da _entrada antes/depois.
+# Pré-requisito: secret GOOGLE_SA_KEY (JSON da conta de serviço) setado neste repo.
+name: arrumar-drive
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "true = ENSAIO (não move nada). Só 'false' move de verdade."
+        required: true
+        default: "true"
+        type: choice
+        options: ["true", "false"]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: arrumar-drive          # nunca duas execuções simultâneas movendo os mesmos arquivos
+  cancel-in-progress: false
+
+jobs:
+  arrumar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Instalar libs do Google
+        run: pip install --quiet google-api-python-client google-auth
+      - name: Rodar arrumação (DRY_RUN=${{ inputs.dry_run }})
+        env:
+          GOOGLE_SA_KEY: ${{ secrets.GOOGLE_SA_KEY }}
+          DRY_RUN: ${{ inputs.dry_run }}
+        run: python3 scripts/arrumar_drive_sa.py
