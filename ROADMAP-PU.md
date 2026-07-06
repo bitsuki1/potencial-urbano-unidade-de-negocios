@@ -6,6 +6,18 @@
 
 ---
 
+> ## ★★★★★ CORREÇÃO ESTRUTURAL — 2026-07-06 (LER ANTES DE TUDO) · fonte: `docs/DECISOES-2026-07-05.md` §2026-07-06 (D-DONO-14/15/16)
+> Numa conversa sobre os motores, o dono **validou a taxonomia** e **corrigiu o escopo comercial**. Duas coisas mudam a leitura deste documento:
+>
+> **1) Taxonomia canônica dos motores (D-DONO-14):** **1 alicerce + 1 selo + 4 motores de valor**, e os quatro são uma **CORRENTE**, não caixas paralelas:
+> - **Alicerce (chão):** Motor dos **Dados** / a Esteira (banco + pipeline reconstruíveis do git, com procedência).
+> - **Selo (em volta):** **Honestidade** (citação + rótulo + teste) — NÃO é motor, é a disciplina que todo motor passa.
+> - **Corrente de valor:** **Motor da Lei** → **Motor do Mapa** → **Motor das Fórmulas** (preço legal) → **Motor Comercial**.
+>
+> **2) ESCOPO — cliente = VENDEDOR; comprador FORA (D-DONO-15):** *"comprador não nos interessa aqui, apenas vendedores — eles são os nossos clientes."* Isto **SUPERA** a tese central da Seção 1 abaixo (fosso = match de dois lados; o incorporador receptor como cliente) e o **Marco M2 (demanda/matching)**: `receptores.csv`-como-fosso, score de liquidez, re-rank por chance de venda, dossiê do receptor → **fora de escopo**. O **Motor Comercial (D-DONO-16)** é 100% lado-vendedor: originação, qualificação (apto+saldo+preço), "achar o dono" e o **dossiê** ao cliente — o pipeline `zepec/` existente. **Não** faz match com comprador.
+>
+> *O corpo abaixo fica como registro histórico (nada se apaga); onde ele apostava na demanda, vale esta correção.*
+
 ## 1. Visão e tese do produto
 
 O Potencial Urbano vende **inteligência acionável de Transferência do Direito de Construir (TDC) em São Paulo, lado cedente** — imóveis tombados/ZEPEC que podem vender potencial construtivo. O ativo defensável **não é a lista de 6.131 cedentes** (a ZEPEC é pública e oficial — commodity), nem o agregado de R$ 8,83 bi (proxy regulatório, ficção de liquidez que o comprador desconta na primeira conversa). O ativo é o **pipeline auditável fator→dispositivo→eval** — cada número derivado de lei indexada, citado e reproduzível — casado com o **lado escasso do mercado: a DEMANDA**. O fato dominante dos próprios dados reordena tudo: o mercado absorve ~54k m²/ano contra ~5,0M m² de oferta (≈92 anos de estoque teórico) e o teto pecuniário do FUNDURB (~R$ 7,8 mi/ano) torna fisicamente impossível monetizar os bilhões exibidos. Logo, o produto-fim não é um catálogo de oferta nem um SaaS de consulta — é o **MATCH**: saber qual cedente tem comprador plausível agora, com o dossiê citável que fecha a transferência. Cliente imediato: a gestora com contrato (OPIT-SP/Bairro Vivo); cliente-alvo de maior urgência e disposição a pagar: o **incorporador receptor** que precisa de crédito para viabilizar um empreendimento específico.
@@ -17,6 +29,7 @@ O Potencial Urbano vende **inteligência acionável de Transferência do Direito
 > Os três forks continuam **NÃO decididos pelo dono**. Abaixo, a recomendação consolidada dos especialistas com os dissensos na cara. O roadmap (Seção 4) foi desenhado para ser **robusto aos três** o máximo possível — mas cada fork tem um ponto de bifurcação real marcado nos marcos.
 
 ### Fork (a) — Posição na cadeia: vender inteligência/dados × corretagem/gestão × principal (comprar crédito)
+> **⛔ SUPERADO EM PARTE por D-DONO-15 (2026-07-06):** cliente = VENDEDOR; comprador fora de escopo. Cai a via "principal/comprar crédito" e a dependência de demanda. O projeto é inteligência para o cedente. O texto abaixo é registro histórico.
 
 **Recomendação consolidada (maioria):** **Corretagem/gestão como negócio, inteligência como arma (habilitador de originação + matching), principal só back-to-back.** O contrato OPIT-SP/Bairro Vivo já confirma que a operação É gestão comercial. Vender "dados" sobre uma lista pública com agregado fictício tem moat fraco; o moat real é a camada de matching de dois lados. Ser principal neste mercado é warehousing de capital morto (92 anos de estoque, banco recusa TDC como colateral, haircut de iliquidez 30–45%, teto FUNDURB) — só faz sentido com crédito específico e receptor já assinado.
 
@@ -120,6 +133,7 @@ A proposta na mesa era **ETAPAS (Bronze/Silver/Gold) × MOTORES M0–M6**, com "
 ---
 
 ### M2 — Lado da demanda / matching: o diferenciador
+> **⛔ SUPERADO por D-DONO-15 (2026-07-06):** comprador FORA de escopo. `receptores.csv`-como-fosso, score de liquidez, re-rank por chance de venda, dossiê do receptor e reenquadrar-headline-por-demanda saem. O que RESTA e migra para o **Motor Comercial (lado-vendedor, D-DONO-16):** qualificação do cedente (apto+saldo+preço), "achar o dono", fila de prospecção e dossiê. O texto abaixo é registro histórico.
 **O que fica vendável/usável:** o produto responde **"este crédito vende?"** e não só "este imóvel pode ceder?". A lista deixa de ser censo e vira **priorização por chance real de fechamento**. É o moat de dois lados e o caminho para vender ao incorporador receptor. **Item mais citado por todas as lentes de mercado/produto.**
 
 **Entregas principais:**
