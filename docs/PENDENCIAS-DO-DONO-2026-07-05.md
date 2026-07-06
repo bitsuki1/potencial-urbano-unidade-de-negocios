@@ -5,6 +5,16 @@
 
 ---
 
+## ✅ ATUALIZAÇÃO 2026-07-06 (verificado pelo assistente)
+- **Secret `GOOGLE_SA_KEY`: SETADO e VÁLIDO** — o ensaio (dry-run) autenticou como
+  `escritorio-do-mou@portfolio-do-mou.iam.gserviceaccount.com` e rodou limpo:
+  **1.360 movidos / 0 erros / 0 multi-pai** (666 Geo · 468 Leis · 166 Tabelas · 54 Gov · 6 Inbox),
+  batendo o de-para auditado. Log lido direto da API do GitHub (não relatório de extensão).
+- **Branches antigas: APAGADAS** — sobrou só `main` + branch de trabalho + `jsgvth`.
+- **FALTA:** o **OK do dono para o move REAL** (dry_run=false). Depois eu conto a `_entrada` (deve zerar).
+
+---
+
 ## 🔴 1. AGORA — destrava a arrumação do Drive (5 min)
 **Setar o secret `GOOGLE_SA_KEY`** (a chave JSON do robô que você baixou do Google Cloud).
 Sem ele o workflow que move os 1.360 arquivos não roda.
