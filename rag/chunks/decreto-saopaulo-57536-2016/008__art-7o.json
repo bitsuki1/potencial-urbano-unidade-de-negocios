@@ -1,0 +1,46 @@
+{
+  "chunk_id": "decreto-saopaulo-57536-2016::008-art-7o",
+  "lei_id": "decreto-saopaulo-57536-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 7º",
+  "numero": "7",
+  "header_raw": "Art. 7º O descumprimento do prazo previsto no § 2º do artigo 6º deste decreto implicará na anulação das 3 (três) vias da Declaração e consequentemente do registro no Livro de Controle Interno da SMDU, bem como no indeferimento do pedido e arquivamento do respectivo processo administrativo.",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Art. 7º"
+  ],
+  "texto": "Art. 7º O descumprimento do prazo previsto no § 2º do artigo 6º deste decreto implicará na anulação das 3 (três) vias da Declaração e consequentemente do registro no Livro de Controle Interno da SMDU, bem como no indeferimento do pedido e arquivamento do respectivo processo administrativo.\n\nParágrafo único. Nos casos de anulação da Declaração de Potencial Construtivo Passível de Transferência, o interessado poderá encaminhar novo pedido ao DEUSO na forma prevista pelo artigo 5º deste decreto.\n\nCAPÍTULO III\n\nDO PROCEDIMENTO DE EMISSÃO DE CERTIDÃO DE TRANSFERÊNCIA DE POTENCIAL CONSTRUTIVO SEM DOAÇÃO DE IMÓVEL",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "decreto municipal nº 57536/2016 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO II › Art. 7º",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2016-12-15",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [],
+      "regulamenta": [
+        "Lei 16.050/2014, arts. 124 e 125"
+      ]
+    }
+  },
+  "tema": [
+    "transferencia do direito de construir",
+    "potencial construtivo",
+    "zepec",
+    "cedente"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "Regulamenta a Transferência do Direito de Construir nos casos em que não há doação do imóvel cedente, prevista nos artigos 124 e 125 da Lei nº 16.050/2014 (PDE)."
+}

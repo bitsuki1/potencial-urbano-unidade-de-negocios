@@ -1,0 +1,46 @@
+{
+  "chunk_id": "decreto-saopaulo-57536-2016::023-art-24",
+  "lei_id": "decreto-saopaulo-57536-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 24",
+  "numero": "24",
+  "header_raw": "Art. 24. Integram este decreto os seguintes anexos:",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 24"
+  ],
+  "texto": "Art. 24. Integram este decreto os seguintes anexos:\n\nI - Anexo I: Requerimento de Declaração de Potencial Construtivo Passível de Transferência sem doação de imóvel cedente;\n\nII - Anexo II: Modelo de Declaração de Potencial Construtivo Passível de Transferência sem doação de imóvel cedente - ZEPEC-BIR / ZEPEC-APC;\n\nIII - Anexo III: Modelo de Declaração de Potencial Construtivo Passível de Transferência sem doação de imóvel cedente - ZEPAM;\n\nIV - Anexo IV: Requerimento de Certidão de Transferência de Potencial Construtivo sem doação de imóvel cedente;\n\nV - Anexo V: Modelo de Despacho Saneador;\n\nVI - Anexo VI: Modelo de Certidão de Transferência de Potencial Construtivo sem doação de imóvel cedente - ZEPEC-BIR / ZEPEC-APC;\n\nVII - Anexo VII: Modelo de Certidão de Transferência de Potencial Construtivo sem doação de imóvel cedente - ZEPAM;\n\nVIII - Anexo VIII: Modelo de Declaração de Saldo de Potencial Construtivo Passível de Transferência sem doação de imóvel cedente - ZEPEC-BIR/ZEPEC-APC;\n\nIX - Anexo IX: Modelo de Declaração de Saldo de Potencial Construtivo Passível de Transferência sem doação de imóvel cedente - ZEPAM;\n\nX - Anexo X: Modelo de Extrato de Potencial Construtivo Transferido.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "decreto municipal nº 57536/2016 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO III › Art. 24",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2016-12-15",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [],
+      "regulamenta": [
+        "Lei 16.050/2014, arts. 124 e 125"
+      ]
+    }
+  },
+  "tema": [
+    "transferencia do direito de construir",
+    "potencial construtivo",
+    "zepec",
+    "cedente"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "Regulamenta a Transferência do Direito de Construir nos casos em que não há doação do imóvel cedente, prevista nos artigos 124 e 125 da Lei nº 16.050/2014 (PDE)."
+}

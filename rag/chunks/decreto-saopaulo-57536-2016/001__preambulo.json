@@ -1,0 +1,43 @@
+{
+  "chunk_id": "decreto-saopaulo-57536-2016::001-preambulo",
+  "lei_id": "decreto-saopaulo-57536-2016",
+  "tipo_dispositivo": "preambulo",
+  "rotulo": "Preâmbulo",
+  "numero": null,
+  "header_raw": null,
+  "caminho_hierarquico": [],
+  "texto": "DECRETO Nº 57.536, DE 15 DE DEZEMBRO DE 2016\n\nRegulamenta a Transferência do Direito de Construir nos casos em que não há doação do imóvel cedente, prevista nos artigos 124 e 125 da Lei nº 16.050, de 31 de julho de 2014 - Plano Diretor Estratégico do Município de São Paulo - PDE.\n\nFERNANDO HADDAD, Prefeito do Município de São Paulo, no uso das atribuições que lhe são conferidas por lei,\n\nD E C R E T A:\n\nCAPÍTULO I\n\nDISPOSIÇÕES GERAIS",
+  "citavel": false,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "decreto municipal nº 57536/2016 — São Paulo - SP",
+    "dispositivo": "Preâmbulo",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2016-12-15",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [],
+      "regulamenta": [
+        "Lei 16.050/2014, arts. 124 e 125"
+      ]
+    }
+  },
+  "tema": [
+    "transferencia do direito de construir",
+    "potencial construtivo",
+    "zepec",
+    "cedente"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "Regulamenta a Transferência do Direito de Construir nos casos em que não há doação do imóvel cedente, prevista nos artigos 124 e 125 da Lei nº 16.050/2014 (PDE)."
+}

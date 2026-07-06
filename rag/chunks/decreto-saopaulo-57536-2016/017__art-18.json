@@ -1,0 +1,46 @@
+{
+  "chunk_id": "decreto-saopaulo-57536-2016::017-art-18",
+  "lei_id": "decreto-saopaulo-57536-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 18",
+  "numero": "18",
+  "header_raw": "Art. 18. Transferido integralmente o potencial construtivo, DEUSO dará baixa da Declaração de Potencial Construtivo Passível de Transferência, emitindo extrato no qual constarão informações de todas as Certidões de Potencial Construtivo Passível de Transferência derivadas da Declaração, conforme modelo constante do Anexo X deste decreto.",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 18"
+  ],
+  "texto": "Art. 18. Transferido integralmente o potencial construtivo, DEUSO dará baixa da Declaração de Potencial Construtivo Passível de Transferência, emitindo extrato no qual constarão informações de todas as Certidões de Potencial Construtivo Passível de Transferência derivadas da Declaração, conforme modelo constante do Anexo X deste decreto.\n\nCAPÍTULO III\n\nDAS DISPOSIÇÕES FINAIS",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "decreto municipal nº 57536/2016 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO III › Art. 18",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2016-12-15",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [],
+      "regulamenta": [
+        "Lei 16.050/2014, arts. 124 e 125"
+      ]
+    }
+  },
+  "tema": [
+    "transferencia do direito de construir",
+    "potencial construtivo",
+    "zepec",
+    "cedente"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "Regulamenta a Transferência do Direito de Construir nos casos em que não há doação do imóvel cedente, prevista nos artigos 124 e 125 da Lei nº 16.050/2014 (PDE)."
+}

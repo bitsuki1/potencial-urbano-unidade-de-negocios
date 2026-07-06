@@ -1,0 +1,20 @@
+{
+ "_doc": "Ground-truth ATIVO — Decreto 57.536/2016 (núcleo normativo da TDC SEM doação; regulamenta arts. 124/125 do PDE). Ingerido verbatim do Drive em 2026-07-05 (PU 18), fecha AUD-A11 (corpus TDC-normativo deixa de ser 0). Cada item conferido contra o articulado verbatim; domínio tdc. Gate = citação correta (Parte 3).",
+ "dominio": "TDC",
+ "status": "ativo",
+ "lei_alvo": "decreto-saopaulo-57536-2016",
+ "itens": [
+  {
+   "id": "d57536-duas-etapas",
+   "pergunta": "quais as etapas da transferencia do direito de construir sem doacao do imovel cedente?",
+   "espera": {"fundamentada": true, "dominio": "tdc",
+              "lei_id": "decreto-saopaulo-57536-2016", "dispositivo_topo": "Art. 2", "texto_contem": "duas etapas"}
+  },
+  {
+   "id": "d57536-protocolo-deuso",
+   "pergunta": "quais documentos devem instruir o requerimento protocolado em DEUSO?",
+   "espera": {"fundamentada": true, "dominio": "tdc",
+              "lei_id": "decreto-saopaulo-57536-2016", "dispositivo_topo": "Art. 5", "texto_contem": "DEUSO"}
+  }
+ ]
+}

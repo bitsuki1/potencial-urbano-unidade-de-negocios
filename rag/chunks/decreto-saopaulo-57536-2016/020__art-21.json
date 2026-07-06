@@ -1,0 +1,46 @@
+{
+  "chunk_id": "decreto-saopaulo-57536-2016::020-art-21",
+  "lei_id": "decreto-saopaulo-57536-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 21",
+  "numero": "21",
+  "header_raw": "Art. 21. Aos requerimentos de Certidões de Transferência de Potencial Construtivo formulados com base em Declarações de Potencial Construtivo Passível de Transferência expedidas até 31 de julho de 2014, será aplicada a fórmula prevista pelo artigo 128 do PDE, devendo ser adotado o Quadro 14 do citado Plano e, como data de referência, 1º de agosto de 2014.",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 21"
+  ],
+  "texto": "Art. 21. Aos requerimentos de Certidões de Transferência de Potencial Construtivo formulados com base em Declarações de Potencial Construtivo Passível de Transferência expedidas até 31 de julho de 2014, será aplicada a fórmula prevista pelo artigo 128 do PDE, devendo ser adotado o Quadro 14 do citado Plano e, como data de referência, 1º de agosto de 2014.\n\nParágrafo único. Deverá constar no corpo das Certidões expedidas na forma do \"caput\" deste artigo a informação de que o potencial construtivo passível de transferência ali certificado, calculado na forma das Leis nº 16.050, de 2014, e nº 16.402, de 2016, originou-se de Declaração de Potencial Construtivo Passível de Transferência emitida sob a égide das Leis nº 13.430, de 13 de setembro de 2002, e nº 13.885, de 25 de agosto de 2004, conforme modelo a ser definido pela Secretaria Municipal de Desenvolvimento Urbano.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "decreto municipal nº 57536/2016 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO III › Art. 21",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2016-12-15",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [],
+      "regulamenta": [
+        "Lei 16.050/2014, arts. 124 e 125"
+      ]
+    }
+  },
+  "tema": [
+    "transferencia do direito de construir",
+    "potencial construtivo",
+    "zepec",
+    "cedente"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "Regulamenta a Transferência do Direito de Construir nos casos em que não há doação do imóvel cedente, prevista nos artigos 124 e 125 da Lei nº 16.050/2014 (PDE)."
+}

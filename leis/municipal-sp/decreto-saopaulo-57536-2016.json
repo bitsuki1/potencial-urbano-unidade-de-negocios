@@ -1,0 +1,55 @@
+{
+  "id": "decreto-saopaulo-57536-2016",
+  "tipo_norma": "decreto municipal",
+  "esfera": "Municipal-SP",
+  "jurisdicao": "São Paulo - SP",
+  "numero": "57536",
+  "ano": "2016",
+  "ementa": "Regulamenta a Transferência do Direito de Construir nos casos em que não há doação do imóvel cedente, prevista nos artigos 124 e 125 da Lei nº 16.050/2014 (PDE).",
+  "tema": [
+    "transferencia do direito de construir",
+    "potencial construtivo",
+    "zepec",
+    "cedente"
+  ],
+  "dispositivos_chave": [
+    "Art. 1º",
+    "Art. 2º"
+  ],
+  "vigencia": {
+    "inicio": "2016-12-15",
+    "fim": null,
+    "revogada_por": null,
+    "altera": [],
+    "alterada_por": [],
+    "regulamenta": [
+      "Lei 16.050/2014, arts. 124 e 125"
+    ]
+  },
+  "remissoes": [
+    "Lei 16.050/2014 (PDE) arts. 124-125",
+    "Lei 16.402/2016 (LPUOS)"
+  ],
+  "jurisprudencia_relacionada": [],
+  "tem_tabela": false,
+  "tabelas_extraidas": [],
+  "tem_formula": true,
+  "formulas_referenciadas": [
+    "PCpt = Atc x CAbas x Fi (Art. 125 PDE, regulamentado aqui)"
+  ],
+  "fonte": {
+    "origem": "Google Drive",
+    "path": "_entrada/tdc/decreto-57536-2016.txt",
+    "hash": "sha256:51d438341cd333cc5e27c05aad84a63e57581da592b5d0ddd3799316a1ac027b",
+    "ocr": false,
+    "fileId": "1O6swdMMqOCE86d3EllLWcGLws0JMZU6a",
+    "hash_alvo": "_entrada/tdc/decreto-57536-2016.txt"
+  },
+  "status_pipeline": "indexado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "dominio_primario": "tdc",
+  "dominio": [
+    "tdc"
+  ]
+}

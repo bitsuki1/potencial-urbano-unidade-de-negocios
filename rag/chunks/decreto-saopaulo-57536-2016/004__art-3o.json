@@ -1,0 +1,46 @@
+{
+  "chunk_id": "decreto-saopaulo-57536-2016::004-art-3o",
+  "lei_id": "decreto-saopaulo-57536-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 3º",
+  "numero": "3",
+  "header_raw": "Art. 3º A Transferência do Direito de Construir nos casos em que não há doação do imóvel cedente deverá atender às seguintes disposições:",
+  "caminho_hierarquico": [
+    "CAPÍTULO I",
+    "Art. 3º"
+  ],
+  "texto": "Art. 3º A Transferência do Direito de Construir nos casos em que não há doação do imóvel cedente deverá atender às seguintes disposições:\n\nI - o potencial construtivo transferido fica vinculado ao imóvel receptor, à área do projeto e ao uso declarado, não sendo admitida transferência diversa;\n\nII - em caso de desmembramento, o potencial construtivo deverá ser proporcional à área dos lotes resultantes;\n\nIII - no caso de remembramento de lotes envolvendo o imóvel receptor, deverá ser realizado novo pedido de transferência;\n\nIV - no caso de lotes com frente para distintas faces de uma mesma quadra, será utilizado o maior valor do metro quadrado de terreno fixado no Cadastro de Valores de Terreno para fins de Outorga Onerosa constante do Quadro 14 do PDE.\n\nParágrafo único. O potencial construtivo passível de transferência poderá ser destinado, no todo ou em parte, para um ou mais lotes.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "decreto municipal nº 57536/2016 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO I › Art. 3º",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2016-12-15",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [],
+      "regulamenta": [
+        "Lei 16.050/2014, arts. 124 e 125"
+      ]
+    }
+  },
+  "tema": [
+    "transferencia do direito de construir",
+    "potencial construtivo",
+    "zepec",
+    "cedente"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "Regulamenta a Transferência do Direito de Construir nos casos em que não há doação do imóvel cedente, prevista nos artigos 124 e 125 da Lei nº 16.050/2014 (PDE)."
+}

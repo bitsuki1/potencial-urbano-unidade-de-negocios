@@ -1,0 +1,46 @@
+{
+  "chunk_id": "decreto-saopaulo-57536-2016::016-art-16",
+  "lei_id": "decreto-saopaulo-57536-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 16",
+  "numero": "16",
+  "header_raw": "Art. 16. Para a emissão de cada Certidão de Transferência de Potencial Construtivo, DEUSO aplicará a fórmula prevista no artigo 128 do PDE tomando por base os dados constantes da Declaração de Potencial Construtivo Passível de Transferência originalmente expedida. Art. 17. Para fins do § 5º do artigo 24 da Lei nº 16.402, de 2016, a Declaração de Saldo de Potencial Construtivo Passível de Transferência expedida com base em Declaração emitida anteriormente à referida lei não será considerada nova declaração, não estando, portanto, sujeita à aplicação do previsto no artigo 9º deste decreto.",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 16"
+  ],
+  "texto": "Art. 16. Para a emissão de cada Certidão de Transferência de Potencial Construtivo, DEUSO aplicará a fórmula prevista no artigo 128 do PDE tomando por base os dados constantes da Declaração de Potencial Construtivo Passível de Transferência originalmente expedida. Art. 17. Para fins do § 5º do artigo 24 da Lei nº 16.402, de 2016, a Declaração de Saldo de Potencial Construtivo Passível de Transferência expedida com base em Declaração emitida anteriormente à referida lei não será considerada nova declaração, não estando, portanto, sujeita à aplicação do previsto no artigo 9º deste decreto.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "decreto municipal nº 57536/2016 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO III › Art. 16",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2016-12-15",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [],
+      "regulamenta": [
+        "Lei 16.050/2014, arts. 124 e 125"
+      ]
+    }
+  },
+  "tema": [
+    "transferencia do direito de construir",
+    "potencial construtivo",
+    "zepec",
+    "cedente"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "Regulamenta a Transferência do Direito de Construir nos casos em que não há doação do imóvel cedente, prevista nos artigos 124 e 125 da Lei nº 16.050/2014 (PDE)."
+}

@@ -1,0 +1,46 @@
+{
+  "chunk_id": "decreto-saopaulo-57536-2016::014-art-14",
+  "lei_id": "decreto-saopaulo-57536-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 14",
+  "numero": "14",
+  "header_raw": "Art. 14. Nos casos em que houver transferência parcial de potencial construtivo passível de transferência do imóvel cedente, será gerada Declaração de Saldo de Potencial Construtivo Passível de Transferência, conforme modelos especificados nos Anexos VIII e IX deste decreto, em substituição à declaração que originou a referida transferência, contendo o",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 14"
+  ],
+  "texto": "Art. 14. Nos casos em que houver transferência parcial de potencial construtivo passível de transferência do imóvel cedente, será gerada Declaração de Saldo de Potencial Construtivo Passível de Transferência, conforme modelos especificados nos Anexos VIII e IX deste decreto, em substituição à declaração que originou a referida transferência, contendo o\n\nCâmara Municipal de São Paulo Decreto 57.536 de 15/12/2016 Secretaria de Documentação Página 5 de 8 Disponibilizado pela Equipe de Documentação do Legislativo\n\nsaldo de potencial construtivo passível de transferência do imóvel cedente, respeitado o rito estabelecido no artigo 6º deste decreto.\n\n§ 1º O potencial construtivo remanescente deverá constar da comunicação prevista no § 1º do artigo 12 deste decreto, bem como das averbações a que se refere o § 2º do citado dispositivo.\n\n§ 2º Para fins de aplicação do disposto no \"caput\" deste artigo, a declaração que for objeto de substituição perderá seus efeitos pela expedição da Declaração de Saldo de Potencial Construtivo Passível de Transferência, devendo esta prever explicitamente que o saldo de potencial construtivo passível de transferência é originado da antiga declaração.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "decreto municipal nº 57536/2016 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO III › Art. 14",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2016-12-15",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [],
+      "regulamenta": [
+        "Lei 16.050/2014, arts. 124 e 125"
+      ]
+    }
+  },
+  "tema": [
+    "transferencia do direito de construir",
+    "potencial construtivo",
+    "zepec",
+    "cedente"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "Regulamenta a Transferência do Direito de Construir nos casos em que não há doação do imóvel cedente, prevista nos artigos 124 e 125 da Lei nº 16.050/2014 (PDE)."
+}

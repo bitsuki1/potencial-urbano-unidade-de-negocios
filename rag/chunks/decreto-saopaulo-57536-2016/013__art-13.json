@@ -1,0 +1,46 @@
+{
+  "chunk_id": "decreto-saopaulo-57536-2016::013-art-13",
+  "lei_id": "decreto-saopaulo-57536-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 13",
+  "numero": "13",
+  "header_raw": "Art. 13. O descumprimento do prazo previsto no § 2º do artigo 12 deste decreto implicará na anulação das 3 (três) vias da Certidão de Potencial Construtivo Passível de Transferência e consequentemente do registro no Livro de Controle Interno da SMDU, bem como no indeferimento do pedido e arquivamento do respectivo processo administrativo.",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 13"
+  ],
+  "texto": "Art. 13. O descumprimento do prazo previsto no § 2º do artigo 12 deste decreto implicará na anulação das 3 (três) vias da Certidão de Potencial Construtivo Passível de Transferência e consequentemente do registro no Livro de Controle Interno da SMDU, bem como no indeferimento do pedido e arquivamento do respectivo processo administrativo.\n\n§ 1º Ocorrendo a anulação na forma do \"caput\" deste artigo\", a Declaração de Potencial Construtivo Passível de Transferência que originou o pedido continuará válida para todos os fins.\n\n§ 2º Em decorrência do previsto no § 1º deste artigo, tratando-se de caso em que haja potencial construtivo remanescente, eventual Declaração de Saldo de Potencial Construtivo Passível de Transferência expedida também será anulada.\n\n§ 3º Anulada a Certidão de Transferência de Potencial Construtivo na forma do \"caput\" deste artigo, o interessado poderá encaminhar nova solicitação ao DEUSO, na forma do artigo 8º deste decreto.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "decreto municipal nº 57536/2016 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO III › Art. 13",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2016-12-15",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [],
+      "regulamenta": [
+        "Lei 16.050/2014, arts. 124 e 125"
+      ]
+    }
+  },
+  "tema": [
+    "transferencia do direito de construir",
+    "potencial construtivo",
+    "zepec",
+    "cedente"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "Regulamenta a Transferência do Direito de Construir nos casos em que não há doação do imóvel cedente, prevista nos artigos 124 e 125 da Lei nº 16.050/2014 (PDE)."
+}

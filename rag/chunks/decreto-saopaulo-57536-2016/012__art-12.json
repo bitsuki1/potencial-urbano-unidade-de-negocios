@@ -1,0 +1,46 @@
+{
+  "chunk_id": "decreto-saopaulo-57536-2016::012-art-12",
+  "lei_id": "decreto-saopaulo-57536-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 12",
+  "numero": "12",
+  "header_raw": "Art. 12. Deferido o pedido, DEUSO emitirá 3 (três) vias da Certidão de Transferência de Potencial Construtivo, conforme as seguintes finalidades:",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 12"
+  ],
+  "texto": "Art. 12. Deferido o pedido, DEUSO emitirá 3 (três) vias da Certidão de Transferência de Potencial Construtivo, conforme as seguintes finalidades:\n\nI - 1 (uma) a ser arquivada no Livro de Controle Interno do DEUSO;\n\nII - 1 (uma) a ser juntada no processo administrativo do requerimento do interessado;\n\nIII - 1 (uma) a ser entregue ao interessado ou procurador devidamente constituído.\n\n§ 1º DEUSO comunicará os responsáveis pelos imóveis cedente e receptor, por meio de publicação no Diário Oficial da Cidade, sobre o potencial construtivo passível de transferência e, se o caso, sobre o potencial construtivo remanescente, para que sejam adotadas providências de averbação nas matrículas dos imóveis receptor e cedente.\n\n§ 2º O interessado terá prazo de 30 (trinta) dias, contado da publicação a que se refere o § 1º deste artigo, para apresentar vias originais ou cópias autenticadas das matrículas atualizadas dos imóveis receptor e cedente, contendo as averbações dos valores referentes à transferência de potencial construtivo efetuada.\n\n§ 3º O prazo previsto no § 2º deste artigo poderá ser prorrogado por igual período, mediante justificativa do interessado.\n\n§ 4º O interessado poderá retirar sua via da Certidão de Transferência de Potencial Construtivo em DEUSO somente após a apresentação das matrículas ou respectivas cópias e da devolução da Declaração de Potencial Construtivo Passível de Transferência que originou o processo de transferência.\n\n§ 5º A Certidão de Transferência de Potencial Construtivo será publicada no Diário Oficial da Cidade e seus dados serão disponibilizados e atualizados mensalmente no Portal da Prefeitura do Município de São Paulo na Internet.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "decreto municipal nº 57536/2016 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO III › Art. 12",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2016-12-15",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [],
+      "regulamenta": [
+        "Lei 16.050/2014, arts. 124 e 125"
+      ]
+    }
+  },
+  "tema": [
+    "transferencia do direito de construir",
+    "potencial construtivo",
+    "zepec",
+    "cedente"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "Regulamenta a Transferência do Direito de Construir nos casos em que não há doação do imóvel cedente, prevista nos artigos 124 e 125 da Lei nº 16.050/2014 (PDE)."
+}

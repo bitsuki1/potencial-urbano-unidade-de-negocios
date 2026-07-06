@@ -1,0 +1,46 @@
+{
+  "chunk_id": "decreto-saopaulo-57536-2016::006-art-5o",
+  "lei_id": "decreto-saopaulo-57536-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 5º",
+  "numero": "5",
+  "header_raw": "Art. 5º O requerimento de Declaração de Potencial Construtivo Passível de Transferência, conforme modelo constante do Anexo I deste decreto, deverá ser protocolado em DEUSO, instruído com os seguintes documentos:",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Art. 5º"
+  ],
+  "texto": "Art. 5º O requerimento de Declaração de Potencial Construtivo Passível de Transferência, conforme modelo constante do Anexo I deste decreto, deverá ser protocolado em DEUSO, instruído com os seguintes documentos:\n\nI - no caso de imóvel pertencente a pessoa física, cópia do RG e CPF de todos os proprietários do imóvel;\n\nII - no caso de condomínio edilício, ata de assembleia de aprovação unânime de todos os coproprietários, nos termos da lei específica;\n\nIII - no caso de imóvel pertencente a pessoa jurídica:\n\na) CNPJ e estatuto social, acompanhado de ata de eleição da atual diretoria, para sociedades em ações e entidades sem fins lucrativos;\n\nb) para as demais sociedades, contrato social acompanhado de sua última alteração ou consolidação;\n\nIV- caso haja representação por procurador, procuração firmada pelo(s) proprietário(s) e cópias do RG e CPF do procurador;\n\nV - cópia da notificação ou recibo do IPTU do imóvel do exercício atual;\n\nVI - certidão de matrícula ou transcrição imobiliária do imóvel dentro da validade prevista pelo órgão registral em relação à data do protocolo do pedido;\n\nVII - formulário de requerimento da Declaração de Potencial Construtivo Transferível.\n\n§ 1º Especificamente para os imóveis enquadrados como ZEPAM, além dos documentos enumerados no \"caput\" deste artigo, deverá ser apresentado levantamento planimétrico do imóvel contendo a área total do lote em metros quadrados.\n\n§ 2º Caso os documentos previstos neste artigo não estejam conformes, DEUSO comunicará o interessado, por meio de publicação no Diário Oficial da Cidade, para fins de regularização, no prazo de 30 (trinta) dias.\n\n§ 3º Se os documentos apresentados atestarem a inviabilidade da transferência, o pedido será indeferido.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "decreto municipal nº 57536/2016 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO II › Art. 5º",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2016-12-15",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [],
+      "regulamenta": [
+        "Lei 16.050/2014, arts. 124 e 125"
+      ]
+    }
+  },
+  "tema": [
+    "transferencia do direito de construir",
+    "potencial construtivo",
+    "zepec",
+    "cedente"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "Regulamenta a Transferência do Direito de Construir nos casos em que não há doação do imóvel cedente, prevista nos artigos 124 e 125 da Lei nº 16.050/2014 (PDE)."
+}

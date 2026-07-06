@@ -1,0 +1,46 @@
+{
+  "chunk_id": "decreto-saopaulo-57536-2016::009-art-8o",
+  "lei_id": "decreto-saopaulo-57536-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 8º",
+  "numero": "8",
+  "header_raw": "Art. 8º O requerimento de Certidão de Transferência de Potencial Construtivo, conforme modelo constante do Anexo IV deste decreto, deverá ser protocolado em DEUSO, instruído com os seguintes documentos:",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 8º"
+  ],
+  "texto": "Art. 8º O requerimento de Certidão de Transferência de Potencial Construtivo, conforme modelo constante do Anexo IV deste decreto, deverá ser protocolado em DEUSO, instruído com os seguintes documentos:\n\nI - dados do imóvel cedente:\n\na) no caso de imóvel pertencente a pessoa física, cópia do RG e CPF de todos os proprietários do imóvel;\n\nb) no caso de condomínio edilício: ata de assembleia de aprovação unânime de todos os coproprietários, nos termos da lei específica;\n\nc) no caso de imóvel pertencente a pessoa jurídica:\n\n1\\. CNPJ e estatuto social, acompanhado de ata de eleição da atual diretoria, para sociedades em ações e entidades sem fins lucrativos;\n\n2\\. para as demais sociedades, contrato social acompanhado de sua última alteração ou consolidação;\n\nd) caso haja representação por procurador, procuração firmada pelo(s) proprietário(s) e cópias do RG e CPF do procurador;\n\ne) cópia da notificação ou recibo do IPTU do imóvel do exercício atual;\n\nf) certidão de matrícula ou transcrição imobiliária do imóvel dentro da validade prevista pelo órgão registral em relação à data do protocolo do pedido, constando a averbação de sua respectiva Declaração de Potencial Construtivo Passível de Transferência;\n\ng) cópia da Declaração de Potencial Construtivo Passível de Transferência ou de Declaração de Saldo de Potencial Construtivo Passível de Transferência, quando for o caso;\n\nh) para os imóveis enquadrados como ZEPAM, também deverá ser apresentado o Termo de Compromisso Ambiental - TCA celebrado com a Secretaria Municipal do Verde e do Meio Ambiente - SVMA;\n\ni) para os imóveis enquadrados como ZEPEC-BIR, também deverá ser apresentada cópia autenticada de Atestado de Conservação ou de Termo de Compromisso válido emitido pela Secretaria Municipal de Cultura - SMC, nos termos da Resolução 23/CONPRESP/2015 ou regulamentação equivalente;\n\nCâmara Municipal de São Paulo Decreto 57.536 de 15/12/2016 Secretaria de Documentação Página 3 de 8 Disponibilizado pela Equipe de Documentação do Legislativo\n\nII - dados do imóvel receptor:\n\na) no caso de imóvel pertencente a pessoa física, cópia do RG e CPF de todos os proprietários do imóvel;\n\nb) no caso de condomínio edilício: ata de assembleia de aprovação unânime de todos os coproprietários, nos termos da lei específica;\n\nc) no caso de imóvel pertencente a pessoa jurídica:\n\n1\\. CNPJ e estatuto social, acompanhado de ata de eleição da atual diretoria, para sociedades em ações e entidades sem fins lucrativos;\n\n2\\. para as demais sociedades, contrato social acompanhado de sua última alteração ou consolidação;\n\nd) caso haja representação por procurador, procuração firmada pelo(s) proprietário(s) e cópias do RG e CPF do procurador;\n\ne) cópia da notificação ou recibo do IPTU do imóvel do exercício atual;\n\nf) certidão de matrícula ou transcrição imobiliária do imóvel dentro da validade prevista pelo órgão registral em relação à data do protocolo do pedido;\n\ng) projeto da edificação no qual conste o quadro de áreas conforme as categorias e subcategorias de uso correspondentes às previstas no Capítulo I do Título V da Lei nº 16.402, de 22 de março de 2016 - Lei de Parcelamento, Uso e Ocupação do Solo do Município de São Paulo (LPUOS).\n\n§ 1º Recebido o requerimento a que se refere o \"caput\" deste artigo, no prazo de 15 (quinze) dias, DEUSO deverá analisar os documentos apresentados e prosseguir na seguinte conformidade:\n\nI - caso os documentos apresentados não estejam conformes, DEUSO comunicará o interessado, por meio de publicação no Diário Oficial da Cidade, para fins de regularização, no prazo de 30 trinta dias;\n\nII - verificada a conformidade dos documentos, DEUSO publicará, no Diário Oficial da Cidade, no prazo referido no \"caput\" deste parágrafo, Despacho Saneador que ateste a sua regularidade, conforme modelo constante do Anexo V deste decreto;\n\nIII - se os documentos apresentados atestarem a inviabilidade da transferência, o pedido será indeferido.\n\n§ 2º O prazo previsto no \"caput\" do §1º deste artigo poderá ser prorrogado por igual período, nos casos que apresentem maior complexidade de análise, desde que justificados pelo DEUSO.\n\n§ 3º Na eventual necessidade de consulta a outro órgão público, desde que justificada por DEUSO, o prazo previsto no §1º deste artigo não se aplica, até que seja concluída a referida consulta.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "decreto municipal nº 57536/2016 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO III › Art. 8º",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2016-12-15",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [],
+      "regulamenta": [
+        "Lei 16.050/2014, arts. 124 e 125"
+      ]
+    }
+  },
+  "tema": [
+    "transferencia do direito de construir",
+    "potencial construtivo",
+    "zepec",
+    "cedente"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "Regulamenta a Transferência do Direito de Construir nos casos em que não há doação do imóvel cedente, prevista nos artigos 124 e 125 da Lei nº 16.050/2014 (PDE)."
+}

@@ -1,0 +1,46 @@
+{
+  "chunk_id": "decreto-saopaulo-57536-2016::019-art-20",
+  "lei_id": "decreto-saopaulo-57536-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 20",
+  "numero": "20",
+  "header_raw": "Art. 20. A disposição contida no artigo 25 da Lei nº 16.402, de 2016, relativa às reformas com ampliação de área construída de imóvel classificado como ZEPEC- BIR, aplica- se às Declarações de Potencial Construtivo Passível de Transferência expedidas após a vigência da Lei nº 16.050, de 2014, inclusive àquelas emitidas posteriormente à Lei nº 16.402, de 2016. § 1º Para fins de aplicação do referido artigo 25 da Lei nº 16.402, de 2016, nos casos em que o potencial constante da Declaração de Potencial Construtivo Passível de Transferência for menor que o potencial construtivo correspondente ao coeficiente de aproveitamento básico da zona, a área construída acrescida não será descontada da declaração expedida, observado o limite de acréscimo decorrente da diferença entre os potenciais construtivos da declaração e do coeficiente de aproveitamento básico.",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 20"
+  ],
+  "texto": "Art. 20. A disposição contida no artigo 25 da Lei nº 16.402, de 2016, relativa às reformas com ampliação de área construída de imóvel classificado como ZEPEC- BIR, aplica- se às Declarações de Potencial Construtivo Passível de Transferência expedidas após a vigência da Lei nº 16.050, de 2014, inclusive àquelas emitidas posteriormente à Lei nº 16.402, de 2016. § 1º Para fins de aplicação do referido artigo 25 da Lei nº 16.402, de 2016, nos casos em que o potencial constante da Declaração de Potencial Construtivo Passível de Transferência for menor que o potencial construtivo correspondente ao coeficiente de aproveitamento básico da zona, a área construída acrescida não será descontada da declaração expedida, observado o limite de acréscimo decorrente da diferença entre os potenciais construtivos da declaração e do coeficiente de aproveitamento básico.\n\n§ 2º Para efetivação do desconto de que trata o artigo 25 da Lei nº 16.402, de 2016, o órgão responsável pelo licenciamento da reforma deverá encaminhar o respectivo processo à Divisão de Monitoramento de Uso do Solo do DEUSO, para que a área acrescida seja\n\nCâmara Municipal de São Paulo Decreto 57.536 de 15/12/2016 Secretaria de Documentação Página 6 de 8 Disponibilizado pela Equipe de Documentação do Legislativo\n\ndescontada do potencial construtivo passível de transferência declaração expedida, excetuada a ressalva prevista no § 1º deste artigo.\n\n§ 3º Em face do disposto neste artigo, o alvará de reforma somente poderá ser expedido após a substituição da Declaração vigente pela Declaração de Saldo de Potencial Construtivo Passível de Transferência, nos termos do que descreve o § 2º do artigo 14 deste decreto, respeitando o rito estabelecido no seu artigo 6º.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "decreto municipal nº 57536/2016 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO III › Art. 20",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2016-12-15",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [],
+      "regulamenta": [
+        "Lei 16.050/2014, arts. 124 e 125"
+      ]
+    }
+  },
+  "tema": [
+    "transferencia do direito de construir",
+    "potencial construtivo",
+    "zepec",
+    "cedente"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "Regulamenta a Transferência do Direito de Construir nos casos em que não há doação do imóvel cedente, prevista nos artigos 124 e 125 da Lei nº 16.050/2014 (PDE)."
+}

@@ -60,7 +60,10 @@ TDC = {
     "lei-municipal-saopaulo-17844-2022":
         "Lei da Transferência do Direito de Construir (TDC) — potencial construtivo passível de "
         "transferência; efeito jurídico é TDC puro (não tributo IPTU).",
-    # (mais massa normativa TDC — Decreto 57.536, decretos ZEPEC — entra quando ingerida; ver A-11)
+    "decreto-saopaulo-57536-2016":
+        "Decreto que REGULAMENTA a TDC sem doação (arts. 124/125 do PDE) — núcleo normativo do rito "
+        "cedente (etapas, DPC, extrato de transferência). Efeito jurídico é TDC puro. Ingerido 2026-07-05 (AUD-A11).",
+    # (mais massa normativa TDC — decretos ZEPEC/CONPRESP — entra quando ingerida; ver A-11)
 }
 # Todo o resto → iptu (o corpus de leis/ e TODA a jurisprudencia/ foram montados p/ a tese IPTU).
 

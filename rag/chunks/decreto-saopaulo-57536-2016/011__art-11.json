@@ -1,0 +1,46 @@
+{
+  "chunk_id": "decreto-saopaulo-57536-2016::011-art-11",
+  "lei_id": "decreto-saopaulo-57536-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 11",
+  "numero": "11",
+  "header_raw": "Art. 11. Nas hipóteses em que o valor do potencial construtivo transferível solicitado supere o valor apurado nos termos do § 5º do artigo 24 da Lei nº 16.402, de 2016, DEUSO comunicará o interessado, por meio de publicação no Diário Oficial da Cidade, sobre o montante de potencial construtivo passível de transferência disponível para o pedido e solicitará manifestação quanto ao aceite, no prazo de 5 (cinco) dias, contado da publicação.",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 11"
+  ],
+  "texto": "Art. 11. Nas hipóteses em que o valor do potencial construtivo transferível solicitado supere o valor apurado nos termos do § 5º do artigo 24 da Lei nº 16.402, de 2016, DEUSO comunicará o interessado, por meio de publicação no Diário Oficial da Cidade, sobre o montante de potencial construtivo passível de transferência disponível para o pedido e solicitará manifestação quanto ao aceite, no prazo de 5 (cinco) dias, contado da publicação.\n\n§ 1º Recebido o aceite do interessado a respeito do montante disponível, o pedido será deferido, prosseguindo-se na forma do artigo 12 deste decreto.\n\n§ 2º No caso de o interessado não aceitar o montante disponível, o pedido será indeferido e o respectivo processo arquivado.\n\n§ 3º Indeferido o pedido na forma do § 2º deste artigo, poderá ser formulado novo requerimento de Certidão de Transferência de Potencial Construtivo, estando a efetivação da transferência vinculada ao atendimento do § 5º do artigo 24 da Lei nº 16.402, de 2016, e das disposições deste decreto.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": []
+  },
+  "citacao": {
+    "norma": "decreto municipal nº 57536/2016 — São Paulo - SP",
+    "dispositivo": "CAPÍTULO III › Art. 11",
+    "fonte_url": null,
+    "vigencia": {
+      "inicio": "2016-12-15",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [],
+      "regulamenta": [
+        "Lei 16.050/2014, arts. 124 e 125"
+      ]
+    }
+  },
+  "tema": [
+    "transferencia do direito de construir",
+    "potencial construtivo",
+    "zepec",
+    "cedente"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo - SP",
+  "ementa": "Regulamenta a Transferência do Direito de Construir nos casos em que não há doação do imóvel cedente, prevista nos artigos 124 e 125 da Lei nº 16.050/2014 (PDE)."
+}
