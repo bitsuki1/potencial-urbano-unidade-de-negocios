@@ -1,0 +1,8 @@
+# Dependências fixadas (fim do "runner não-pinado" — escrutínio 2026-07-06, Passo 1 do plano).
+# O GATE do consolidar.yml é stdlib (não precisa destas); ficam fixadas para os scripts de geo
+# (overlay_zona), planilha (gerar_xlsx) e Drive (robô), garantindo reprodutibilidade byte-a-byte.
+pyshp==2.3.1
+shapely==2.0.6
+openpyxl==3.1.5
+google-api-python-client==2.149.0
+google-auth==2.35.0
