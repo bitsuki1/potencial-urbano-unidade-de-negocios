@@ -1,6 +1,6 @@
 {
   "_doc": "Fonte da verdade do status_pipeline de cada item. GERADO por scripts/consolidar.py a partir dos .json individuais — NAO editar a mao (Principio 1.5/2.3 do CLAUDE.md). Roda a cada push via .github/workflows/consolidar.yml.",
-  "gerado_em": "2026-07-06T01:30:07.890267+00:00",
+  "gerado_em": "2026-07-07T11:33:19.934262+00:00",
   "vocabulario_status": [
     "bruto",
     "fatiado",
@@ -65,8 +65,8 @@
       "status": "engine OODC/TDC executável (engines/tdc/oodc.py); demais são prosa/conhecimento"
     },
     "tabelas": {
-      "arquivos": 7,
-      "status": "7 tabela(s) no git (Q14 valor-terreno, Quadro 3 CA/zona, Quadro 5 Fs, Quadro 7 parques, Fi-área LPUOS Art.24) — combustível do engine PRESENTE; derivado dos arquivos, não hardcoded"
+      "arquivos": 8,
+      "status": "8 tabela(s) no git (Q14 valor-terreno, Quadro 3 CA/zona, Quadro 5 Fs, Quadro 7 parques, Fi-área LPUOS Art.24) — combustível do engine PRESENTE; derivado dos arquivos, não hardcoded"
     },
     "tese_iptu": {
       "arquivos": 0,
