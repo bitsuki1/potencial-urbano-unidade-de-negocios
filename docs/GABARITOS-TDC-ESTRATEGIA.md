@@ -56,8 +56,9 @@ macroáreas de exceção (verificação por macroárea, geo, é refinamento; o n
 - [x] 1º gabarito registrado + **cruzado com o repo** → status BLOQUEADO_POR_CABAS_AUSENTE (caminho VPS).
 - [x] Índice oficial de declarações localizado (407 linhas, sem m²) — worklist do OCR.
 - [x] Gap de CAbás dimensionado (454 = 377 ZEPEC + 77 ZOE) + listas-alvo em `zepec/pipeline/alvos/`.
-- [x] **ZOE: Quadro 2A extraído** → `tabelas/quadro2a-ca-macroarea.csv` (CAbás=1). *(item 3, sem bloqueio)*
-- [ ] **377 ZEPEC:** rodar a Action `geosampa-siszon` no VPS (aguarda label `brasil`).
+- [x] **ZOE: Quadro 2A extraído E APLICADO** → `tabelas/quadro2a-ca-macroarea.csv` + 77 ZOE preenchidos com CAbás=1 em `zona_por_cedente.csv` (fonte rastreável). **Sem CAbás: 454 → 377.** *(item 3, sem bloqueio, FEITO)*
+- [x] **overlay_zona.py:** conserto do `/tmp` morto — caminhos parametrizados (`GEO_DL`/`PU_REPO`), reprodutível.
+- [ ] **377 ZEPEC (zona-base sob o selo):** tentativa local ESGOTADA — a zona-base sob o selo não está na camada de zoneamento (é determinação do SISZON). **Genuinamente precisa do SISZON** (Action `geosampa-siszon` no VPS, label `brasil`) — dependência do dono que NÃO consegui rotear por fora.
 - [ ] **m² das declarações:** OCR (aguarda `GEMINI_API_KEY`) sobre a coleção do dono + índice.
 - [ ] Fp/Quadro 6 (a outra tabela do D10) — verificar se há verbatim local; senão captura.
 - [ ] Ligar o acervo ao gate de CI (tolerância ±5%).

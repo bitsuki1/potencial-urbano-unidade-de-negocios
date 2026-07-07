@@ -5,8 +5,12 @@ from shapely.ops import unary_union
 from shapely.strtree import STRtree
 from shapely.prepared import prep
 
-DL="/tmp/claude-0/-home-user-potencial-urbano-unidade-de-negocios/2359fb9f-e373-5054-bf05-a75b20e69771/scratchpad/geo/dl"
-REPO="/home/user/potencial-urbano-unidade-de-negocios"
+import os as _os
+# Caminhos parametrizados (fim do "/tmp morto" — escrutínio GEO/repro). Defaults reprodutíveis:
+#  GEO_DL = pasta dos shapefiles (zonas + SIRGAS_SHP_LOTES_*); default = zepec/raw/geo no repo.
+#  PU_REPO = raiz do repo; default = 2 níveis acima deste arquivo.
+REPO=_os.environ.get("PU_REPO", _os.path.dirname(_os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))))
+DL=_os.environ.get("GEO_DL", _os.path.join(REPO,"zepec/raw/geo"))
 
 ZMAP={
  "ZC":"ZC","ZC_a":"ZCa","ZC_ZEIS":"ZC-ZEIS",
