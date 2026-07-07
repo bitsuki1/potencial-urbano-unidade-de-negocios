@@ -34,6 +34,28 @@
   PII (sócios/CPF). Superfície ampla. Recomendação: estreitar o acesso do robô só às pastas que opera e
   rotacionar a chave após cada uso pesado (casa com o gate de segurança do ROADMAP, risco #5).
 
+## VPS Brasil — runner GitHub `brasil` (atualizado 2026-07-09)
+> 1º ativo de infraestrutura permanente do portfólio (carta do escritório D155, 2026-07-03;
+> nossa resposta em `caixa-de-saida/para-escritorio/processados/2026-07-03_potencial-urbano_resposta-VPS-brasil.md`).
+- **O que é:** VPS Ubuntu 22.04, sempre ligada, **IP brasileiro fixo** (~R$60/mês), montada como
+  **self-hosted runner do GitHub com o label `brasil`**. Qualquer Action de repo privado `bitsuki1`
+  pode rodar NELA via `runs-on: [self-hosted, brasil]`. Setup ref: `sba-unidades-de-negocios/tools/br-runner/SETUP.md`.
+- **O que destrava (relevante ao PU):** (a) fontes **.gov.br geofenced** que só respondem a IP-BR;
+  (b) **navegador headless** para fonte que exige browser — **é o caso do GeoSampa/SISZON** (o proxy do
+  ambiente de sessão bloqueia navegador headless; a VPS não); (c) jobs agendados sempre-no-ar; (d) caches persistentes.
+- **Limites:** 2 GB RAM (carga pesada = streaming/chunked) · sem fonte-com-login · só repos privados `bitsuki1` (trust boundary D155) · segredo no env do runner, nunca no repo.
+- **ESTADO (2026-07-09): label `brasil` PEDIDO ao MOU, ainda NÃO confirmado neste repo.** Nenhuma Action
+  do PU usa `self-hosted` ainda (todas `ubuntu-latest`). **AÇÃO DO DONO/MOU:** habilitar o label `brasil`
+  neste repo para a Action do GeoSampa (`geosampa-siszon`) e futuras capturas .gov.br.
+
+## Gemini API — OCR e contexto grande (atualizado 2026-07-09)
+- **Para que serve no PU:** (a) **OCR + extração** dos Termos/Declarações **escaneados** (ex.: o termo 006/2026 é
+  imagem sem camada de texto) → puxar o **m² transferível** de cada declaração p/ o acervo de gabaritos (Camada 2);
+  (b) contexto grande p/ enumerar/puxar o corpus do Drive (V-2, antes adiado).
+- **ONDE MORA A CHAVE (segredo — NUNCA no git):** GitHub Secret **`GEMINI_API_KEY`** (mesmo desenho do `GOOGLE_SA_KEY`).
+- **ESTADO (2026-07-09): NÃO cabeado — a chave ainda não está setada como secret neste repo.** **AÇÃO DO DONO:**
+  setar `GEMINI_API_KEY` na UI do repo para as Actions de OCR/extração rodarem.
+
 ## Supabase
 - **Projeto:** `potencial-urbano-iptu-tdc` — ref `csnalylpvysjvejgsymr`, região `sa-east-1` (Postgres 17 +
   PostGIS + pgvector + pg_trgm/unaccent/fuzzystrmatch). Dado real vive em `governanca` (RLS deny-all).

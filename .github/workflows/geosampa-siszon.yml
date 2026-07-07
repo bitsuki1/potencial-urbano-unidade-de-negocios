@@ -1,0 +1,36 @@
+# Descoberta do serviço SISZON do GeoSampa — roda no VPS BRASIL (IP-BR, navegador headless).
+# Por que no VPS: o proxy do ambiente de sessão bloqueia navegador headless; a VPS não. IP-BR ajuda
+# em fonte .gov.br. Objetivo: achar o endpoint interno que a consulta de Zoneamento por SQL usa e
+# capturar a ZONA-BASE (o CAbás que falta no gabarito Termo 006/2026). Depois disso, o pull em massa
+# dos ~454 imóveis sob selo é curl simples contra esse endpoint.
+# PRÉ-REQUISITO: label `brasil` habilitado neste repo (ver docs/INFRA-E-ACESSOS.md — pedido ao MOU).
+name: geosampa-siszon
+
+on:
+  workflow_dispatch:
+    inputs:
+      test_sql:
+        description: "SQL de teste (Setor-Quadra-Lote). Default = imóvel do gabarito (Líbero Badaró 306/310)."
+        required: false
+        default: "001080-0016-8"
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: [self-hosted, brasil]   # <-- roda na VPS Brasil; requer o label habilitado
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Instalar Playwright + Chromium
+        run: |
+          npm init -y >/dev/null 2>&1 || true
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Sondar GeoSampa/SISZON (IP-BR)
+        env:
+          TEST_SQL: ${{ inputs.test_sql }}
+        run: node scripts/geosampa_probe.js
