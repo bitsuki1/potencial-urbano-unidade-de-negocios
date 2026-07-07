@@ -33,8 +33,15 @@ em `evals/ground-truth/gabaritos/<id>.json` e uma linha do eval do produto.
 - **Resoluções e Termos do CONPRESP** — publicados no Diário Oficial da Cidade (ex.: Res. SMC/CONPRESP nº 16/2025 atualizou o Termo).
 - **GeoSampa** — WFS `wfs.geosampa.prefeitura.sp.gov.br/geoserver/…`; download SHP/GPKG/GeoJSON; catálogo de metadados (GeoNetwork). *(Tarefa de preparação: fixar a camada exata de lote/zoneamento por SQL — o workspace `geoportal` tem viária; a de lote/SISZON está em outro endpoint.)*
 
+## Achados da preparação (2026-07-09)
+1. **O índice oficial JÁ está no repo:** `zepec/raw/lista_declaracoes_ZEPEC-BIR_agosto-2025.csv` — **~407 declarações** (colunas: N.processo · SQ · Lote · Endereço · Distrito · **N.Declaração** · Data · Ano · Situação · Status). **NÃO traz o m²** — é catálogo de QUAIS imóveis têm declaração, não dos valores. Logo o acervo de gabaritos = pegar o **m²** de uma amostra desses (dos documentos: coleção do dono + termos/declarações publicados). O termo 006/2026 confere no índice (decl. 0539/23, SQ 001080-0016-8, 2024).
+2. **O gabarito já pegou o furo nº1 (ao vivo):** para o SQL do termo, nosso pipeline atribui **zona = `ZEPEC_APC`** (o SELO de preservação) com **CAbás VAZIO** (`zepec/oficial/zona_por_cedente.csv`). Sem CAbás, o motor **não reproduz** os 717,60 m². É o gap **GEO-2** do escrutínio, agora concreto. (Nosso Atc=299 m² → CAbás×Fi implícito ≈ 2,40.)
+3. **O que o GeoSampa resolve, exatamente:** a consulta **SISZON por SQL** devolve a **ZONA-BASE de uso** (Lei 16.402) sob o selo — o **CAbás que falta**. É o valor concreto que precisamos e não temos. (Alternativa/complemento: **Quadro 2A** para ZOE/macroárea — ver D10.)
+4. **Acesso:** `curl` alcança GeoSampa (app/WFS/download = 200); **navegador headless NÃO passa pelo proxy** (reset até em example.com). Então o pull da zona-base é **script curl** (WFS/portal) — follow-up focado — ou 30s do dono pela consulta web.
+
 ## Estado
-- [x] 1º gabarito registrado: **Termo 006/2026** → `evals/ground-truth/gabaritos/termo-006-2026.json`.
-- [ ] Fixar a camada GeoSampa e puxar a zona oficial do SQL 001.080.0016-8 (Camada 1).
-- [ ] Colher +14–29 processos (Camada 2).
+- [x] 1º gabarito registrado + **cruzado com o repo** → `evals/ground-truth/gabaritos/termo-006-2026.json` (status: BLOQUEADO_POR_CABAS_AUSENTE).
+- [x] Índice oficial de declarações localizado no repo (407 linhas, sem m²).
+- [ ] **Resolver a zona-base sob o selo ZEPEC** (SISZON/Quadro 2A) → CAbás. *É o desbloqueio nº1 — vale mais que colher mais processos.*
+- [ ] Colher o **m²** de ~15–29 declarações (coleção do dono + documentos publicados) → completar a Camada 2.
 - [ ] Ligar o acervo ao gate de CI (build vermelho se o pipeline sair da tolerância).
