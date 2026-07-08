@@ -1108,46 +1108,46 @@ sql_mestre,zona,ca_basico,fonte
 0060560069,ZC,1,ZC.shp
 0060560070,ZC,1,ZC.shp
 0060560071,ZC,1,ZC.shp
-0060560072,ZOE,,ZOE.shp
-0060560073,ZOE,,ZOE.shp
-0060560074,ZOE,,ZOE.shp
-0060560075,ZOE,,ZOE.shp
-0060560076,ZOE,,ZOE.shp
-0060560077,ZOE,,ZOE.shp
-0060560078,ZOE,,ZOE.shp
-0060560079,ZOE,,ZOE.shp
-0060560080,ZOE,,ZOE.shp
+0060560072,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0060560073,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0060560074,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0060560075,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0060560076,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0060560077,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0060560078,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0060560079,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0060560080,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
 0060560081,ZEPEC_APC,,ZEPEC_APC.shp
 0060560082,ZEPEC_APC,,ZEPEC_APC.shp
-0060560083,ZOE,,ZOE.shp
-0060560084,ZOE,,ZOE.shp
-0060560086,ZOE,,ZOE.shp
-0060560087,ZOE,,ZOE.shp
-0060560088,ZOE,,ZOE.shp
-0060560089,ZOE,,ZOE.shp
-0060560090,ZOE,,ZOE.shp
-0060560091,ZOE,,ZOE.shp
-0060560092,ZOE,,ZOE.shp
-0060560093,ZOE,,ZOE.shp
+0060560083,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0060560084,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0060560086,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0060560087,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0060560088,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0060560089,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0060560090,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0060560091,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0060560092,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0060560093,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
 0060570001,ZC,1,ZC.shp
 0060570002,ZC,1,ZC.shp
-0060570009,ZOE,,ZOE.shp
-0060570010,ZOE,,ZOE.shp
-0060570011,ZOE,,ZOE.shp
-0060570013,ZOE,,ZOE.shp
-0060570014,ZOE,,ZOE.shp
-0060570015,ZOE,,ZOE.shp
-0060570016,ZOE,,ZOE.shp
-0060570017,ZOE,,ZOE.shp
-0060570018,ZOE,,ZOE.shp
-0060570019,ZOE,,ZOE.shp
-0060570020,ZOE,,ZOE.shp
-0060570021,ZOE,,ZOE.shp
-0060570022,ZOE,,ZOE.shp
-0060570023,ZOE,,ZOE.shp
-0060570024,ZOE,,ZOE.shp
-0060570025,ZOE,,ZOE.shp
-0060570026,ZOE,,ZOE.shp
+0060570009,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0060570010,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0060570011,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0060570013,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0060570014,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0060570015,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0060570016,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0060570017,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0060570018,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0060570019,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0060570020,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0060570021,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0060570022,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0060570023,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0060570024,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0060570025,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0060570026,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
 0060570027,ZC,1,ZC.shp
 0060570028,ZC,1,ZC.shp
 0060570029,ZC,1,ZC.shp
@@ -1161,7 +1161,7 @@ sql_mestre,zona,ca_basico,fonte
 0060570037,ZEPEC_APC,,ZEPEC_APC.shp
 0060570038,ZC,1,ZC.shp
 0060570039,ZC,1,ZC.shp
-0060580000,ZOE,,ZOE.shp
+0060580000,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
 0060590001,ZC,1,ZC.shp
 0060590003,ZC,1,ZC.shp
 0060590004,ZC,1,ZC.shp
@@ -1320,7 +1320,7 @@ sql_mestre,zona,ca_basico,fonte
 0080390002,ZEIS-3,1,ZEIS_3.shp
 0080390048,ZEIS-5,1,ZEIS_5.shp
 0080390049,ZEPEC_APC,,ZEPEC_APC.shp
-0080390054,ZOE,,ZOE.shp
+0080390054,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
 0080450000,ZEPEC_APC,,ZEPEC_APC.shp
 0080530000,ZC,1,ZC.shp
 0080530004,ZC,1,ZC.shp
@@ -2145,7 +2145,7 @@ sql_mestre,zona,ca_basico,fonte
 0110360035,ZER-1,1,ZER_1.shp
 0110620010,ZER-1,1,ZER_1.shp
 0110640016,ZER-1,1,ZER_1.shp
-0110770004,ZOE,,ZOE.shp
+0110770004,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
 0110890001,ZEU,1,ZEU_u.shp
 0110890028,ZEU,1,ZEU_u.shp
 0110890029,ZEU,1,ZEU_u.shp
@@ -2204,11 +2204,11 @@ sql_mestre,zona,ca_basico,fonte
 0130030001,ZC,1,ZC.shp
 0130040035,ZEU,1,ZEU_u.shp
 0130040036,ZEU,1,ZEU_u.shp
-0130050001,ZOE,,ZOE.shp
-0130050002,ZOE,,ZOE.shp
-0130050003,ZOE,,ZOE.shp
+0130050001,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0130050002,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0130050003,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
 0130090000,ZEU,1,ZEU_u.shp
-0130090082,ZOE,,ZOE.shp
+0130090082,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
 0130090136,ZEPEC_APP,,ZEPEC_APP.shp
 0130130215,ZEU,1,ZEU_u.shp
 0130140038,ZC,1,ZC.shp
@@ -2572,27 +2572,27 @@ sql_mestre,zona,ca_basico,fonte
 0280220101,ZC,1,ZC.shp
 0280230029,ZC,1,ZC.shp
 0280370000,ZC,1,ZC.shp
-0280460000,ZOE,,ZOE.shp
-0280460049,ZOE,,ZOE.shp
-0280460057,ZOE,,ZOE.shp
-0280460058,ZOE,,ZOE.shp
-0280460059,ZOE,,ZOE.shp
-0280460060,ZOE,,ZOE.shp
-0280460061,ZOE,,ZOE.shp
-0280460062,ZOE,,ZOE.shp
-0280460063,ZOE,,ZOE.shp
-0280460064,ZOE,,ZOE.shp
-0280460065,ZOE,,ZOE.shp
-0280460066,ZOE,,ZOE.shp
-0280460067,ZOE,,ZOE.shp
-0280460068,ZOE,,ZOE.shp
-0280460069,ZOE,,ZOE.shp
-0280460070,ZOE,,ZOE.shp
-0280460074,ZOE,,ZOE.shp
-0280460112,ZOE,,ZOE.shp
-0280460129,ZOE,,ZOE.shp
-0280460130,ZOE,,ZOE.shp
-0280460134,ZOE,,ZOE.shp
+0280460000,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0280460049,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0280460057,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0280460058,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0280460059,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0280460060,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0280460061,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0280460062,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0280460063,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0280460064,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0280460065,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0280460066,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0280460067,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0280460068,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0280460069,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0280460070,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0280460074,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0280460112,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0280460129,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0280460130,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0280460134,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
 0300720001,ZEU,1,ZEU_u.shp
 0310340080,ZC,1,ZC.shp
 0311020000,ZM,1,ZM_u.shp
@@ -2908,7 +2908,7 @@ sql_mestre,zona,ca_basico,fonte
 0360790001,ZC,1,ZC.shp
 0360790004,ZC,1,ZC.shp
 0360790007,ZC,1,ZC.shp
-0361380154,ZOE,,ZOE.shp
+0361380154,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
 0361440002,ZEPAM,"0,1",ZEPAM.shp
 0361440003,ZEPAM,"0,1",ZEPAM.shp
 0370060036,ZEU,1,ZEU_u.shp
@@ -3235,7 +3235,7 @@ sql_mestre,zona,ca_basico,fonte
 0502150022,ZEM,1,ZEM.shp
 0502150023,ZEM,1,ZEM.shp
 0502150026,ZM,1,ZM_u.shp
-0513190002,ZOE,,ZOE.shp
+0513190002,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
 0530330085,ZM,1,ZM_u.shp
 0542090001,ZM,1,ZM_u.shp
 0542090002,ZM,1,ZM_u.shp
@@ -3318,11 +3318,11 @@ sql_mestre,zona,ca_basico,fonte
 0785190101,ZM,1,ZM_u.shp
 0785190102,ZM,1,ZM_u.shp
 0811800039,ZC,1,ZC.shp
-0812100001,ZOE,,ZOE.shp
+0812100001,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
 0821650001,ZM,1,ZM_u.shp
 0824020116,ZEPAM,"0,1",ZEPAM.shp
-0825170012,ZOE,,ZOE.shp
-0825170014,ZOE,,ZOE.shp
+0825170012,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0825170014,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
 0830250015,ZCOR-1,1,ZCOR_1.shp
 0830460001,ZM,1,ZM_u.shp
 0840030017,ZER-1,1,ZER_1.shp
@@ -3350,12 +3350,12 @@ sql_mestre,zona,ca_basico,fonte
 0895620001,ZEPAM,"0,1",ZEPAM.shp
 0900130015,ZER-1,1,ZER_1.shp
 0904810003,ZER-1,1,ZER_1.shp
-0980470002,ZOE,,ZOE.shp
+0980470002,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
 0980710082,ZC,1,ZC.shp
 0990260019,ZM,1,ZM_u.shp
-0990280082,ZOE,,ZOE.shp
-0990280083,ZOE,,ZOE.shp
-0990280084,ZOE,,ZOE.shp
+0990280082,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0990280083,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+0990280084,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
 0990460092,ZEM,1,ZEM.shp
 1010190001,ZER-1,1,ZER_1.shp
 1014700039,ZER-1,1,ZER_1.shp
@@ -3437,7 +3437,7 @@ sql_mestre,zona,ca_basico,fonte
 1161780001,ZEPAM,"0,1",ZEPAM.shp
 1185410001,ZEU,1,ZEU_u.shp
 1230010010,ZEPEC_APP,,ZEPEC_APP.shp
-1231280001,ZOE,,ZOE.shp
+1231280001,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
 1231330027,ZCOR-1,1,ZCOR_1.shp
 1231480004,ZM,1,ZM_u.shp
 1231640062,ZER-1,1,ZER_1.shp
@@ -3673,13 +3673,13 @@ sql_mestre,zona,ca_basico,fonte
 1960360007,ZM,1,ZM_u.shp
 1960360008,ZM,1,ZM_u.shp
 1970330070,ZM,1,ZM_u.shp
-1970340026,ZOE,,ZOE.shp
+1970340026,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
 2000050001,ZEU,1,ZEU_u.shp
 2000060024,ZER-1,1,ZER_1.shp
 2000170003,ZER-1,1,ZER_1.shp
 2000280018,ZER-1,1,ZER_1.shp
-2000560004,ZOE,,ZOE.shp
-2000580001,ZOE,,ZOE.shp
+2000560004,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
+2000580001,ZOE,1,ZOE.shp +Quadro2A(basico-macroarea)
 2371260001,ZEUa,1,ZEU_a.shp
 2990130028,ZM,1,ZM_u.shp
 2990140000,ZM,1,ZM_u.shp

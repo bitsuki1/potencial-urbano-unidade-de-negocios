@@ -1,0 +1,22 @@
+macrozona,macroarea,ca_minimo,ca_basico,ca_maximo,gabarito_altura_m,num_max_pavimentos,nota
+Estruturação e Qualificação Urbana,Arco Tietê,0.5,1,2,28,Térreo mais 8,min por OUC (e)
+Estruturação e Qualificação Urbana,Centro,0.5,1,2,28,Térreo mais 8,min por OUC (e)
+Estruturação e Qualificação Urbana,Arco Jurubatuba,0.5,1,2,28,Térreo mais 8,min por OUC (e)
+Estruturação e Qualificação Urbana,Arco Pinheiros,0.5,1,2,28,Térreo mais 8,min por OUC (e)
+Estruturação e Qualificação Urbana,Arco Tamanduateí,0.5,1,2,28,Térreo mais 8,min por OUC (e)
+Estruturação e Qualificação Urbana,Faria Lima/Águas Espraiadas/Chucri Zaidan,0.5,1,2,28,Térreo mais 8,min por OUC (e)
+Estruturação e Qualificação Urbana,Arco Jacu-Pêssego,0.5,1,2,28,Térreo mais 8,"min por OUC (e); máx=4 no perímetro de incentivo (d)"
+Estruturação e Qualificação Urbana,Avenida Cupecê,0.5,1,2,28,Térreo mais 8,"min por OUC (e); máx=4 no perímetro de incentivo (d)"
+Estruturação e Qualificação Urbana,Arco Leste,0.3,1,2,28,Térreo mais 8,
+Estruturação e Qualificação Urbana,Noroeste,0.3,1,2,28,Térreo mais 8,
+Estruturação e Qualificação Urbana,Fernão Dias,0.3,1,2,28,Térreo mais 8,
+Estruturação e Qualificação Urbana,Urbanização Consolidada,0.3,1,2,28,Térreo mais 8,
+Estruturação e Qualificação Urbana,Qualificação da Urbanização,0.3,1,2,28,Térreo mais 8,
+Estruturação e Qualificação Urbana,Redução da Vulnerabilidade,0.3,1,2,28,Térreo mais 8,
+Estruturação Metropolitana (fora da área de proteção aos mananciais),Redução da Vulnerabilidade Urbana e Recuperação Ambiental,NA,1,1,15,Térreo mais 4,
+Estruturação Metropolitana (fora da área de proteção aos mananciais),Controle e Qualificação Urbana e Ambiental,NA,1,1,15,Térreo mais 4,
+Estruturação Metropolitana (fora da área de proteção aos mananciais),Preservação de Ecossistemas Naturais,NA,NA,NA,NA,NA,sem aproveitamento
+Área de proteção aos mananciais,Redução da Vulnerabilidade Urbana e Recuperação Ambiental,NA,1,1,15,Térreo mais 4,"básico/máx constavam 0,1; VETADO por erro material → corrigido para 1 (g)"
+Área de proteção aos mananciais,Controle e Qualificação Urbana e Ambiental,NA,1,1,15,Térreo mais 4,"básico/máx constavam 0,1; VETADO por erro material → corrigido para 1 (g)"
+Área de proteção aos mananciais,Contenção Urbana e Uso Sustentável,NA,0.1,0.1,15,NA,não vetado — permanece 0,1 (g)
+Área de proteção aos mananciais,Preservação de Ecossistemas Naturais,NA,NA,NA,NA,NA,sem aproveitamento

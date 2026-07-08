@@ -33,8 +33,32 @@ em `evals/ground-truth/gabaritos/<id>.json` e uma linha do eval do produto.
 - **Resoluções e Termos do CONPRESP** — publicados no Diário Oficial da Cidade (ex.: Res. SMC/CONPRESP nº 16/2025 atualizou o Termo).
 - **GeoSampa** — WFS `wfs.geosampa.prefeitura.sp.gov.br/geoserver/…`; download SHP/GPKG/GeoJSON; catálogo de metadados (GeoNetwork). *(Tarefa de preparação: fixar a camada exata de lote/zoneamento por SQL — o workspace `geoportal` tem viária; a de lote/SISZON está em outro endpoint.)*
 
+## Achados da preparação (2026-07-09)
+1. **O índice oficial JÁ está no repo:** `zepec/raw/lista_declaracoes_ZEPEC-BIR_agosto-2025.csv` — **~407 declarações** (colunas: N.processo · SQ · Lote · Endereço · Distrito · **N.Declaração** · Data · Ano · Situação · Status). **NÃO traz o m²** — é catálogo de QUAIS imóveis têm declaração, não dos valores. Logo o acervo de gabaritos = pegar o **m²** de uma amostra desses (dos documentos: coleção do dono + termos/declarações publicados). O termo 006/2026 confere no índice (decl. 0539/23, SQ 001080-0016-8, 2024).
+2. **O gabarito já pegou o furo nº1 (ao vivo):** para o SQL do termo, nosso pipeline atribui **zona = `ZEPEC_APC`** (o SELO de preservação) com **CAbás VAZIO** (`zepec/oficial/zona_por_cedente.csv`). Sem CAbás, o motor **não reproduz** os 717,60 m². É o gap **GEO-2** do escrutínio, agora concreto. (Nosso Atc=299 m² → CAbás×Fi implícito ≈ 2,40.)
+3. **O que o GeoSampa resolve, exatamente:** a consulta **SISZON por SQL** devolve a **ZONA-BASE de uso** (Lei 16.402) sob o selo — o **CAbás que falta**. É o valor concreto que precisamos e não temos. (Alternativa/complemento: **Quadro 2A** para ZOE/macroárea — ver D10.)
+4. **Acesso:** `curl` alcança GeoSampa (app/WFS/download = 200); **navegador headless NÃO passa pelo proxy** (reset até em example.com). Então o pull da zona-base é **script curl** (WFS/portal) — follow-up focado — ou 30s do dono pela consulta web.
+
+## O gap de CAbás, dimensionado (2026-07-09)
+`zepec/oficial/zona_por_cedente.csv`: **454 cedentes sem CAbás** — partem em DOIS caminhos independentes:
+- **377 selo ZEPEC** (355 APC + 9 APP + 8 AUE + 5 BIR) → precisam da **zona-base sob o selo** (SISZON/GeoSampa = **VPS**, bloqueado no label). Alvo: `zepec/pipeline/alvos/siszon_zepec_sem_cabas.csv`.
+- **77 ZOE** → regime próprio por **Quadro 2A** (macroárea) = **extração LOCAL, sem bloqueio**. Alvo: `zepec/pipeline/alvos/zoe_sem_cabas.csv`.
+- O gabarito 006/2026 (Líbero Badaró) é ZEPEC_APC → está nos 377 (caminho VPS).
+
+## ZOE destravado sem VPS (2026-07-09)
+Extraí o **Quadro 2A** verbatim (`_entrada/tdc/pde2013-subst2-quadro-2a-ca-macroareas.txt`) → **`tabelas/quadro2a-ca-macroarea.csv`**.
+Resultado: o **CA básico = 1** em TODAS as macroáreas com valor (exceto "Preservação de Ecossistemas" = NA e
+"Contenção Urbana"-mananciais = 0,1). Logo, para os 77 ZOE, **CAbás = 1** — salvo se estiverem naquelas 2
+macroáreas de exceção (verificação por macroárea, geo, é refinamento; o núcleo urbano dos ZOE não é preservação).
+*Nada aplicado ao motor ainda (aguarda o "vai" da produção); a TABELA está pronta.*
+
 ## Estado
-- [x] 1º gabarito registrado: **Termo 006/2026** → `evals/ground-truth/gabaritos/termo-006-2026.json`.
-- [ ] Fixar a camada GeoSampa e puxar a zona oficial do SQL 001.080.0016-8 (Camada 1).
-- [ ] Colher +14–29 processos (Camada 2).
-- [ ] Ligar o acervo ao gate de CI (build vermelho se o pipeline sair da tolerância).
+- [x] 1º gabarito registrado + **cruzado com o repo** → status BLOQUEADO_POR_CABAS_AUSENTE (caminho VPS).
+- [x] Índice oficial de declarações localizado (407 linhas, sem m²) — worklist do OCR.
+- [x] Gap de CAbás dimensionado (454 = 377 ZEPEC + 77 ZOE) + listas-alvo em `zepec/pipeline/alvos/`.
+- [x] **ZOE: Quadro 2A extraído E APLICADO** → `tabelas/quadro2a-ca-macroarea.csv` + 77 ZOE preenchidos com CAbás=1 em `zona_por_cedente.csv` (fonte rastreável). **Sem CAbás: 454 → 377.** *(item 3, sem bloqueio, FEITO)*
+- [x] **overlay_zona.py:** conserto do `/tmp` morto — caminhos parametrizados (`GEO_DL`/`PU_REPO`), reprodutível.
+- [ ] **377 ZEPEC (zona-base sob o selo):** tentativa local ESGOTADA — a zona-base sob o selo não está na camada de zoneamento (é determinação do SISZON). **Genuinamente precisa do SISZON** (Action `geosampa-siszon` no VPS, label `brasil`) — dependência do dono que NÃO consegui rotear por fora.
+- [ ] **m² das declarações:** OCR (aguarda `GEMINI_API_KEY`) sobre a coleção do dono + índice.
+- [ ] Fp/Quadro 6 (a outra tabela do D10) — verificar se há verbatim local; senão captura.
+- [ ] Ligar o acervo ao gate de CI (tolerância ±5%).

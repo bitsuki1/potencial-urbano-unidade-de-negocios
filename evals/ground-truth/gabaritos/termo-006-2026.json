@@ -5,14 +5,16 @@
   "fonte": {
     "documento": "Termo de Compromisso nº 006/2026",
     "processo_administrativo": "6025.2024/0013449-9",
+    "processo_declaracao": "6068.2023/0008373-0",
     "orgao": "CONPRESP / SMC — Prefeitura do Município de São Paulo",
     "data": "2026-05-15",
-    "origem": "coleção do dono (PDF escaneado); ato público publicável no Diário Oficial da Cidade",
+    "origem": "coleção do dono (PDF escaneado); confirmado no índice oficial zepec/raw/lista_declaracoes_ZEPEC-BIR_agosto-2025.csv",
     "confianca": "alta"
   },
   "imovel": {
     "sql_contribuinte": "001.080.0016-8",
-    "endereco": "Rua Líbero Badaró, 306 e 310 — Centro — São Paulo/SP",
+    "sql_mestre": "0010800016",
+    "endereco": "Rua Líbero Badaró, 306 e 310 — Sé/Centro — São Paulo/SP",
     "matricula": "4º CRI nº 113.962",
     "tombamento": "Anexo I da Resolução 37/CONPRESP/1992",
     "classe": "ZEPEC-BIR"
@@ -25,21 +27,25 @@
   "resposta_certa": {
     "m2_transferivel": 717.60,
     "unidade": "m²",
-    "fonte_do_numero": "Declaração de Potencial Construtivo Passível de Transferência SMUL/DEUSO 0539/23 (cláusula 1.2 do Termo)",
-    "nota": "O VALOR em R$ NÃO é fixado no termo — depende do receptor e da negociação (coerente com D-DONO-7: preço legal + margem do usuário). O gabarito trava o m², não o R$."
+    "fonte_do_numero": "Declaração de Potencial Construtivo SMUL/DEUSO 0539/23 (cláusula 1.2 do Termo)",
+    "nota": "O VALOR em R$ NÃO é fixado no termo — depende do receptor e da negociação (D-DONO-7). O gabarito trava o m², não o R$."
+  },
+  "cruzamento_com_repo_2026-07-09": {
+    "declaracao_no_indice_oficial": "SIM — linha em lista_declaracoes_ZEPEC-BIR_agosto-2025.csv: processo 6068.2023/0008373-0, SQ 001080 lote 0016-8, decl. 0539/23, Sé, 2024, DISPONÍVEL",
+    "nosso_atc_area_terreno_m2": 299,
+    "fonte_atc": "zepec/oficial/iptu2026_cedentes.csv",
+    "nossa_zona": "ZEPEC_APC",
+    "nosso_cabas": null,
+    "fonte_zona": "zepec/oficial/zona_por_cedente.csv (ZEPEC_APC.shp)",
+    "cabas_x_fi_implicito": 2.40,
+    "conta_implicita": "PCpt 717,60 = Atc 299 × (CAbás×Fi). Logo CAbás×Fi ≈ 2,40.",
+    "ACHADO_CRITICO": "Nosso pipeline NÃO consegue reproduzir 717,60 m² HOJE: a zona que atribuímos é o SELO de preservação (ZEPEC_APC), sem CAbás (ca_basico VAZIO). Falta a ZONA-BASE sob o selo — que dá o CAbás. É exatamente o gap GEO-2 do escrutínio, agora ao vivo. Também há divergência de selo: termo diz ZEPEC-BIR, nosso overlay diz ZEPEC_APC (verificar).",
+    "o_que_o_geosampa_resolve": "A consulta SISZON por SQL devolve a ZONA-BASE de uso (Lei 16.402) e a macroárea sob o selo — o CAbás que falta. É o valor concreto que o GeoSampa dá e que hoje não temos."
   },
   "tolerancia": {
-    "zona": "idêntica ao GeoSampa (categórica)",
-    "m2": "±5% de 717.60 (i.e., 681.72 a 753.48), com o gap explicado pela data de protocolo",
-    "regra": "zona errada OU m² fora sem explicação = FALHA (build vermelho)"
+    "zona": "zona-base idêntica ao GeoSampa/SISZON (categórica)",
+    "m2": "±5% de 717.60 (681.72 a 753.48), com o gap explicado pela data de protocolo",
+    "regra": "zona-base errada OU m² fora sem explicação = FALHA (build vermelho)"
   },
-  "a_preencher_pelo_pipeline": {
-    "zona_geosampa": "PENDENTE (Camada 1 — puxar do GeoSampa por SQL)",
-    "zona_nosso_motor": "PENDENTE (Motor do Mapa)",
-    "cabas": "PENDENTE",
-    "atc_area_terreno": "PENDENTE (IPTU)",
-    "fi": "PENDENTE (faixa de área, Art.24 LPUOS)",
-    "m2_nosso_motor": "PENDENTE (Motor das Fórmulas)",
-    "status": "AGUARDANDO_PIPELINE"
-  }
+  "status": "BLOQUEADO_POR_CABAS_AUSENTE — zona-base sob o selo ZEPEC não resolvida (SISZON/Quadro 2A). O gabarito está pronto; o motor ainda não fecha."
 }
