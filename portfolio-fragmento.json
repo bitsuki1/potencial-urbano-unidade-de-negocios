@@ -1,0 +1,51 @@
+{
+  "nome": "Potencial Urbano",
+  "repo": "potencial-urbano-unidade-de-negocios",
+  "tipo": "un",
+  "tipoLabel": "Unidade",
+  "lifeline": "Acha os donos de imóveis que podem vender potencial construtivo (TDC) e calcula, pela lei, quanto vale — cada número rastreável até o artigo.",
+  "stage": "construção",
+  "health": "warn",
+  "healthNote": "O motor de preço não fecha em 377 imóveis por falta de uma informação do mapa (a zona sob o selo de preservação). A coleta que resolve isso já está rodando pela VPS Brasil.",
+  "lever": { "tx": "Puxar do GeoSampa a zona de uso que fica embaixo do selo ZEPEC — é ela que dá o índice que falta para o cálculo fechar.", "k": "interno: gap CAbás / SISZON" },
+  "now": [
+    "Coleta do GeoSampa rodando pela VPS Brasil (o site tem trava anti-robô; só navegador de verdade passa).",
+    "Primeiro gabarito de conferência montado (imóvel tombado da Líbero Badaró = 717,60 m²) para provar o cálculo de ponta a ponta.",
+    "77 imóveis em zona ZOE já resolvidos localmente (índice tirado do Quadro 2A da lei).",
+    "Terreno do IPTU preparado (método e lições guardados) — só construir com o 'vai' do dono.",
+    "Gate de prova endurecido no CI (nada entra sem citação e sem bater com a lei)."
+  ],
+  "projetos": [
+    {
+      "nome": "TDC (Transferência do Direito de Construir)",
+      "what": "o produto vivo: lista de vendedores + cálculo do potencial pela lei",
+      "stage": "construção",
+      "calor": "hot",
+      "frentes": [
+        { "nome": "Motor do Mapa (zona por imóvel)", "calor": "hot", "prod": "Coleta da zona-base sob o selo ZEPEC pela VPS Brasil, para destravar o índice CAbás de 377 imóveis.",
+          "ent": [["77 imóveis ZOE resolvidos (Quadro 2A)","feito"], ["377 imóveis ZEPEC (coleta GeoSampa)","prod"], ["gabarito Termo 006/2026 fecha ±5%","prox"]] },
+        { "nome": "Motor das Fórmulas (potencial construtivo)", "calor": "hot", "prod": "Cálculo PCpt = Atc x CAbás x Fi, escalonado pela lei; preço legal pausado por decisão do dono.",
+          "ent": [["engine lê tabelas da lei (fail-closed)","feito"], ["eval-produto ancorado na lei (7 faixas)","feito"], ["preço legal (Art.128)","block"]] },
+        { "nome": "Motor da Lei (conteúdo jurídico)", "calor": "hot", "prod": "Leis ao pé da letra, fatiadas por dispositivo, com vigência e citação obrigatória.",
+          "ent": [["TDC indexado e citável","feito"], ["grafo de remissões","feito"]] },
+        { "nome": "Motor Comercial (prospecção lado-vendedor)", "calor": "hot", "prod": "Lista de cedentes (só vendedores; comprador fora de escopo por decisão do dono).",
+          "ent": [["ferramenta de cedentes gerada","feito"], ["religar fila ao enriquecimento","prox"]] }
+      ]
+    },
+    {
+      "nome": "IPTU (terreno)",
+      "what": "próxima unidade de valor; método replica o do TDC",
+      "stage": "plano",
+      "calor": "cold",
+      "frentes": [
+        { "nome": "Preparação", "calor": "cold", "prod": "Expertise e spec do motor (VV x alíquota progressiva) guardados; corpus bruto já no repo, não ingerido.",
+          "ent": [["expertise capturada","feito"], ["construir o motor","block"]] }
+      ]
+    }
+  ],
+  "blocks": [
+    "Acervo de m² para conferência: precisa da coleção de Termos de Compromisso do dono (não há tabela pública por imóvel; sem Gemini no cofre).",
+    "Preço legal (Art.128) segue PAUSADO por decisão do dono — não reabrir sem 'vai'."
+  ],
+  "ssot": "Onde mora: PROXIMA-INSTANCIA.md e BACKLOG.md, no meu repo; decisões do dono em docs/DECISOES-2026-07-05.md."
+}
