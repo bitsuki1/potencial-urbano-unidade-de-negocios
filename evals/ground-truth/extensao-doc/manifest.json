@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Coletor de Gabaritos TDC — Diário Oficial SP (Potencial Urbano)",
+  "version": "1.0.0",
+  "description": "Coleta Termos de Compromisso (CONPRESP) e Declarações de Potencial Construtivo (SMUL/DEUSO) do Diário Oficial da Cidade e extrai o m² transferível, SQL, zona e processo para os gabaritos do TDC.",
+  "permissions": ["activeTab", "scripting", "storage", "downloads"],
+  "host_permissions": [
+    "https://diariooficial.prefeitura.sp.gov.br/*",
+    "https://epubli.prefeitura.sp.gov.br/*",
+    "https://diariooficial.imprensaoficial.com.br/*",
+    "https://api.anthropic.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Coletor de Gabaritos TDC"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://diariooficial.prefeitura.sp.gov.br/*",
+        "https://epubli.prefeitura.sp.gov.br/*",
+        "https://diariooficial.imprensaoficial.com.br/*"
+      ],
+      "js": ["extractor.js", "content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

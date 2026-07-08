@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <style>
+    body { font: 13px/1.45 system-ui, sans-serif; width: 340px; margin: 0; padding: 12px; color: #1a1a1a; }
+    h1 { font-size: 14px; margin: 0 0 8px; }
+    .sub { color: #666; font-size: 11px; margin: 0 0 10px; }
+    button { display: block; width: 100%; padding: 8px; margin: 6px 0; border: 1px solid #245; border-radius: 6px; background: #245; color: #fff; cursor: pointer; font-size: 13px; }
+    button.sec { background: #fff; color: #245; }
+    button:disabled { opacity: .5; cursor: default; }
+    .row { display: flex; gap: 6px; }
+    .row button { margin: 6px 0; }
+    #status { font-size: 12px; color: #333; background: #f2f4f7; border-radius: 6px; padding: 6px 8px; margin: 8px 0; min-height: 16px; white-space: pre-wrap; }
+    #count { font-weight: 600; color: #245; }
+    details { margin-top: 8px; } summary { cursor: pointer; color: #245; font-size: 12px; }
+    input[type=password], textarea { width: 100%; box-sizing: border-box; font: 12px monospace; margin: 4px 0; }
+    label { font-size: 11px; color: #555; }
+  </style>
+</head>
+<body>
+  <h1>Coletor de Gabaritos TDC</h1>
+  <p class="sub">Diário Oficial da Cidade · Termos CONPRESP + Declarações SMUL/DEUSO. Abra a busca ou uma publicação e clique abaixo.</p>
+
+  <button id="extrair">➕ Extrair esta publicação</button>
+  <button id="varrer" class="sec">🔎 Varrer resultados da busca (abre cada item)</button>
+
+  <div id="status">Coletados: <span id="count">0</span></div>
+
+  <div class="row">
+    <button id="csv" class="sec">⬇️ Baixar CSV</button>
+    <button id="json" class="sec">⬇️ Baixar JSON</button>
+  </div>
+  <button id="limpar" class="sec">🗑️ Limpar coleta</button>
+
+  <details>
+    <summary>Refinar com IA (opcional — “prompt bom”)</summary>
+    <label>Chave Claude (x-api-key) — fica só no seu navegador:</label>
+    <input type="password" id="apikey" placeholder="sk-ant-...">
+    <button id="ia" class="sec">✨ Reprocessar coleta com IA</button>
+    <p class="sub">Sem chave, a extração por regex já funciona. Com chave, a IA relê o texto e corrige/preenche os campos.</p>
+  </details>
+
+  <script src="extractor.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
