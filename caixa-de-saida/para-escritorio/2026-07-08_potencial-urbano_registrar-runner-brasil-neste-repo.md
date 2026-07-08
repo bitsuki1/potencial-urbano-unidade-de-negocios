@@ -1,6 +1,17 @@
 # Potencial Urbano → Escritório — registrar o runner `brasil` NESTE repo (bloqueio de infra)
 > PU 18 · 2026-07-08. Canal D44 / caixa. DoD mecânica embutida. Responde ao cofre `ACESSOS-FERRAMENTAS.md` (D160).
 
+> ## ⛔ SUPERADO EM 2026-07-08 (mesma sessão) — NÃO É MAIS PEDIDO
+> O dono co-montou o repo **`portfolio-automacoes`** (hub de ferramentas). Lá o runner `brasil`
+> (`brasil-portfolio`) **já está registrado e online**. Pelo modelo do hub (`HUB-DE-FERRAMENTAS.md`:
+> *"coletas via IP-BR nascem e rodam AQUI"*, com **PU** citado explicitamente), a coleta do GeoSampa
+> foi **movida para o hub** e **roda lá sozinha** — o runner pega o job (queued→in_progress), o que no
+> repo do PU nunca acontecia. **Logo, o escritório NÃO precisa registrar runner algum neste repo.**
+> A coleta vive em `portfolio-automacoes`: `.github/workflows/geosampa-siszon.yml` + `tools/geosampa/`.
+> Registro da decisão: `docs/DECISOES-2026-07-05.md` (D-DONO-19). O texto abaixo fica só como rastro.
+
+---
+
 ## O bloqueio (1 frase)
 O cofre lista o VPS Brasil (label `brasil`) como "pode usar: Potencial Urbano", mas o runner **não está
 registrado neste repo** — como `bitsuki1` é conta de **usuário** (não org), self-hosted runner é **por-repo**;
