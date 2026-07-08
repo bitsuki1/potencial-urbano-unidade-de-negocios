@@ -8,7 +8,7 @@
     "processo_declaracao": "6068.2023/0008373-0",
     "orgao": "CONPRESP / SMC — Prefeitura do Município de São Paulo",
     "data": "2026-05-15",
-    "origem": "coleção do dono (PDF escaneado); confirmado no índice oficial zepec/raw/lista_declaracoes_ZEPEC-BIR_agosto-2025.csv",
+    "origem": "PDF avulso enviado pelo dono nesta sessão (1 documento — NAO presumir 'coleção'); confirmado no índice oficial zepec/raw/lista_declaracoes_ZEPEC-BIR_agosto-2025.csv. Correção 2026-07-08: a instância havia inferido 'coleção do dono'; o dono NAO afirmou ter acervo. Os demais gabaritos serão COLETADOS do Diário Oficial da Cidade via extensão de navegador.",
     "confianca": "alta"
   },
   "imovel": {
