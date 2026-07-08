@@ -96,7 +96,14 @@ Este repo é a unidade **Potencial Urbano** (RAG Jurídico IPTU/TDC) do portfól
 - **Doutrina herdada (obrigatória):** zero-compressão · dialético · agnosticismo · nada se joga fora. SSOT da doutrina = `escritorio-do-mou/CLAUDE.md`. Em divergência, vale o escritório.
 - **Escopo é do dono (D21/D157/A-296):** a instância propõe, o dono decide. O que ele pediu **nunca** é "extra"; **nunca** se oferece "parar" um item solicitado. Bloqueio = fato + caminho (recomendação fechada); o dono decide o **COMO**, não o **SE**.
 - **🔑 IDIOMA — SEMPRE PORTUGUÊS DO BRASIL, EM TUDO (D164, MOU 2026-07-08: "em portugues sempre... nao sei ingles" + "para todos projetos sempre").** O MOU NÃO lê inglês. TODA superfície que ele lê vai em português: chat, selos, entregáveis, título/corpo de PR, commits voltados a ele, perguntas. Nome próprio em inglês sempre glosado. Responder ao MOU em inglês = violação de regra de ouro.
-- **🔑 CAIXA DO ESCRITÓRIO (F4/D-CAIXA-FIX):** ANTES de declarar "nada pendente", confira **`caixa-de-entrada/do-escritorio/`** (fora de `processados/`) — em sessão remota o hook de boot NÃO dispara (A-291/D132), este ponteiro é a rede. Diretriz do escritório só "existe" depois de MESCLADA na `main`.
+- **🔑 CAIXA DO ESCRITÓRIO (F4/D-CAIXA-FIX):** ANTES de declarar "nada pendente", confira **`caixa-de-entrada/do-escritorio/`** (fora de `processados/`) — em sessão remota o hook de boot NÃO dispara (A-291/D132), este ponteiro é a rede. Diretriz só "existe" depois de MESCLADA na `main`.
+- **🧰 Ferramentas do portfólio (D160/D162):** o cofre de TODAS as ferramentas + credenciais (incl. **como gerar a SUA chave Resend, passo a passo**) vive no hub **`portfolio-automacoes`** (`ACESSOS-FERRAMENTAS.md`), sempre co-montado. **USO ≠ ESCRITA.** Cópia local: `cofre/ACESSOS-FERRAMENTAS.md` (pode estar defasada; o HUB é o SSOT).
+
+**Áreas da unidade (DE-52 — materializadas 2026-07-08 com a opinião do próprio PU à DE-53).** As 4 áreas do padrão servem ao PU; a camada de área dá o eixo POR CIMA dos **motores** (o "como" técnico) e da escada Projeto→Frente→Cidade. Donos = decisão do MOU (D21/D157):
+- **Produto** — o assistente de consulta (RAG com citação) + a lista/parecer pronto ao cliente.
+- **Tecnologia e Dados** — o corpus jurídico + método (leis, jurisprudência, tabelas, teses) + os **motores** (Lei · Mapa · Fórmulas) + o **preço LEGAL** (saída de engine, rastreável ao artigo — reparo do PU: preço é dado de engine, NÃO alavanca comercial; a margem é do usuário, D-DONO-7/15).
+- **Comercial e Marketing** — prospecção de vendedores (Motor Comercial) + marca/site. _(Só isto — o "preço" saiu daqui p/ Tec & Dados.)_
+- **Administrativa e Financeira** — contratos/parceiros · societário · financeiro.
 
 ### Políticas transversais do portfólio (aplicam-se a esta unidade)
 > Descidas do escritório em 2026-06-27 (canal D44; SSOT no `escritorio-do-mou`). Aplicadas sob o gate do projeto (D21).

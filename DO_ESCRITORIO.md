@@ -42,7 +42,7 @@ Doutrina: zero-compressão · dialético · agnosticismo · nada se joga fora. (
 | **Constituição do projeto** (princípios, arquitetura, pipeline, Gens) | `CLAUDE.md` (raiz) — Partes 1–4, invioláveis |
 | **Documento de fundação completo** (Partes 5–6: prompt extrator + instanciação) | `PROJETO-RAG-JURIDICO-IPTU-TDC.md` (raiz) |
 | **Estado/contagem/status de CADA item do corpus** | `MANIFESTO.json` (raiz) — GERADO por `scripts/consolidar.py`; **populado** (não mais skeleton) |
-| **Estado oficial geral + decisões + pendências** | `CODEX-DO-PROJETO.md §ESTADO` e `HANDOFF-E-PENDENCIAS.md` |
+| **Estado oficial (SSOT vivo)** | **`PROXIMA-INSTANCIA.md`** (topo ★★★) + `BACKLOG.md` — _(`CODEX §ESTADO` e `HANDOFF-E-PENDENCIAS.md` são HISTÓRICOS/superados; corrigido pelo Escritório 2026-07-08)_ |
 | **Prompt extrator universal** (extração pura — Gen Técnico-RAG) | `extracao/PROMPT-EXTRATOR-UNIVERSAL.md` |
 | **Zona de despejo / ingestão** (brutos que o MOU sobe) | `_entrada/` (`iptu/`, `tdc/`, `misto/`) — ver `_entrada/README.md` |
 | **Leis** (texto normativo limpo + metadados) | `leis/federal/`, `leis/municipal-sp/` — contagem viva no MANIFESTO |
