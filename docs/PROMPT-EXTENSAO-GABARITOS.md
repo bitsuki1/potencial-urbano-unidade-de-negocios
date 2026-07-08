@@ -47,6 +47,11 @@ O QUE EXTRAIR de cada documento (deixe vazio o que não aparecer; não deduza):
 - declaracao           : número da Declaração de Potencial Construtivo SMUL/DEUSO (ex.: 0539/23).
 - termo                : número do Termo de Compromisso CONPRESP (ex.: 006/2026), se houver.
 - zona                 : sigla da zona de uso citada (ex.: ZEPEC-BIR, ZC, ZM), se houver.
+- area_terreno_m2      : área do terreno / área do lote, se citada (ex.: 299,00).
+- coeficiente_ca       : qualquer coeficiente de aproveitamento / CA básico / fator citado no cálculo
+                         (ex.: "CA básico 2,0", "Fp 1,2"), copie como está.
+- trecho_calculo       : copie a frase/parágrafo que mostra COMO o m² foi calculado, se houver
+                         (ex.: "área do terreno x coeficiente..."). É ouro para conferência.
 - resolucao            : resolução de tombamento citada, se houver.
 - data_publicacao      : data da edição do Diário Oficial onde saiu (dd/mm/aaaa).
 - url_fonte            : link da matéria/edição.
@@ -60,7 +65,7 @@ REGRAS:
 
 SAÍDA (gere DOIS arquivos para eu salvar na minha área de trabalho):
 1. "gabaritos-tdc-doc.csv" — cabeçalho exatamente:
-   m2_transferivel,sql_contribuinte,endereco,processo,declaracao,termo,zona,resolucao,data_publicacao,url_fonte
+   m2_transferivel,sql_contribuinte,endereco,processo,declaracao,termo,zona,area_terreno_m2,coeficiente_ca,trecho_calculo,resolucao,data_publicacao,url_fonte
    uma linha por caso, valores entre aspas.
 2. "gabaritos-tdc-doc.json" — lista de objetos com as mesmas chaves.
 Ao final, mostre um resumo: quantos casos, e uma tabela com sql, m2_transferivel e zona.
