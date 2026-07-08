@@ -95,6 +95,8 @@ Este repo é a unidade **Potencial Urbano** (RAG Jurídico IPTU/TDC) do portfól
 - **Retomada (estado vivo):** leia **`PROXIMA-INSTANCIA.md`** (topo ★★★) + **`BACKLOG.md`** ANTES de executar. O hook de boot os surfaça, mas **em sessão remota hooks NÃO disparam** (A-291/D132) — este ponteiro é a rede. _(Acrescentado pelo Escritório — triplo-limpo L2, 2026-07-05.)_
 - **Doutrina herdada (obrigatória):** zero-compressão · dialético · agnosticismo · nada se joga fora. SSOT da doutrina = `escritorio-do-mou/CLAUDE.md`. Em divergência, vale o escritório.
 - **Escopo é do dono (D21/D157/A-296):** a instância propõe, o dono decide. O que ele pediu **nunca** é "extra"; **nunca** se oferece "parar" um item solicitado. Bloqueio = fato + caminho (recomendação fechada); o dono decide o **COMO**, não o **SE**.
+- **🔑 IDIOMA — SEMPRE PORTUGUÊS DO BRASIL, EM TUDO (D164, MOU 2026-07-08: "em portugues sempre... nao sei ingles" + "para todos projetos sempre").** O MOU NÃO lê inglês. TODA superfície que ele lê vai em português: chat, selos, entregáveis, título/corpo de PR, commits voltados a ele, perguntas. Nome próprio em inglês sempre glosado. Responder ao MOU em inglês = violação de regra de ouro.
+- **🔑 CAIXA DO ESCRITÓRIO (F4/D-CAIXA-FIX):** ANTES de declarar "nada pendente", confira **`caixa-de-entrada/do-escritorio/`** (fora de `processados/`) — em sessão remota o hook de boot NÃO dispara (A-291/D132), este ponteiro é a rede. Diretriz do escritório só "existe" depois de MESCLADA na `main`.
 
 ### Políticas transversais do portfólio (aplicam-se a esta unidade)
 > Descidas do escritório em 2026-06-27 (canal D44; SSOT no `escritorio-do-mou`). Aplicadas sob o gate do projeto (D21).
