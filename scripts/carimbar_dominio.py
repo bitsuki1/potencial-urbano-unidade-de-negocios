@@ -50,6 +50,14 @@ COMPARTILHADO = {
     "lei-municipal-saopaulo-16642-2017":
         "COE — Código de Obras e Edificações: define a área construída, que alimenta o potencial (TDC) E "
         "a base de cálculo do IPTU (P3).",
+    "lei-municipal-saopaulo-17975-2023":
+        "Revisão intermediária do PDE (Lei 16.050/2014): arts. 47-52 são TDC (potencial construtivo "
+        "transferível, renovação de declarações) E há parâmetros urbanísticos que afetam o IPTU. "
+        "Mesma lógica do PDE (compartilhado).",
+    "lei-municipal-saopaulo-18081-2024":
+        "Revisão parcial da LPUOS (Lei 16.402/2016): arts. 43-52 são TDC (equivalência, potencial "
+        "construtivo) E parâmetros de zoneamento/CA/TO que refletem no IPTU. "
+        "Mesma lógica da LPUOS (compartilhado).",
 }
 # --- TDC puro: efeito exclusivo de potencial construtivo. Hoje VAZIO em leis/ — a massa normativa TDC
 # (Decreto 57.536/2016, decretos ZEPEC/CONPRESP) ainda não foi ingerida; entrará marcada 'tdc'. ---
@@ -63,6 +71,9 @@ TDC = {
     "decreto-saopaulo-57536-2016":
         "Decreto que REGULAMENTA a TDC sem doação (arts. 124/125 do PDE) — núcleo normativo do rito "
         "cedente (etapas, DPC, extrato de transferência). Efeito jurídico é TDC puro. Ingerido 2026-07-05 (AUD-A11).",
+    "lei-municipal-saopaulo-18222-2024":
+        "PIU Arco Pinheiros — cria AIU-ACP com potencial construtivo adicional de 1.150.000 m² (Art. 23), "
+        "CA máximo 6,0, transferência de potencial construtivo (Arts. 42-43). Efeito dominante é TDC/potencial.",
     # (mais massa normativa TDC — decretos ZEPEC/CONPRESP — entra quando ingerida; ver A-11)
 }
 # Todo o resto → iptu (o corpus de leis/ e TODA a jurisprudencia/ foram montados p/ a tese IPTU).
