@@ -1,5 +1,11 @@
 # PRÓXIMA INSTÂNCIA — o que fazer (Potencial Urbano)
 
+> **★★★★★★★★★ PU 18 (2026-07-09) — T8 GUARD VEDAÇÃO Art.124§2 + B-4 +4 LEIS MUNICIPAIS INGERIDAS.**
+> **T8 guard FEITO (parcial):** `enriquecer_oficial.py` BLOQUEIA PCpt/saldo/preço de imóveis vedados por Art.124§2 (AUE/APPa) ANTES do cálculo. 32 vedadas bloqueadas (13 tinham Atc+CAbás e recebiam PCpt indevido). `vedacao_geo.py` criado (carrega AUE shapefile 741 polígonos EPSG:31983; pronto p/ geometria fina quando coordenadas de lote estiverem disponíveis — LOTES shapefiles ou geocoding). **RESTA:** cruzar coordenadas de lote com shapefile AUE para pegar os ~28 vedados que a substring não alcança (precisa LOTES shapefiles).
+> **B-4 +4 leis municipais** ingeridas do Drive verbatim: Lei 11.152/1991 (alíquotas IPTU progressivas), Lei 15.044/2009 (nova Tabela VI IPTU), Lei 17.202/2019 (regularização edificações, compartilhado), Lei 17.577/2021 (Requalifica Centro, compartilhado). `carimbar_dominio.py` atualizado. **3 leis inacessíveis** pelo MCP Drive (10.235/86, 13.250/01, 14.865/08 = PDFs scan sem camada de texto).
+> **Pipeline:** 2.280 chunks, 28 leis indexadas, 66 MANIFESTO, 3.518 remissões. 20/20 evals + 8/8 eval-produto PASS.
+> **PRÓXIMO na fila:** (1) itens do backlog que restam locais (G5/G6/E1/E7 — materializar overlay, eval geo, runner); (2) T8 geometria fina (BLOCKED: LOTES shapefiles); (3) G1 overlay por área (BLOCKED: idem); (4) B-5 camada semântica (BLOCKED: chave API).
+>
 > **★★★★★★★★ PU 18 (2026-07-09) — +3 LEIS TDC INGERIDAS + MOTOR Fp + T12 AUDITORIA + SHAPEFILES ZEPEC.**
 > **Corpus TDC ampliado:** 3 leis baixadas do Drive e ingeridas verbatim: Lei 17.975/2023 (revisão intermediária PDE, 132 chunks, domínio compartilhado), Lei 18.081/2024 (revisão parcial LPUOS, 98 chunks, domínio compartilhado), Lei 18.222/2024 (PIU Arco Pinheiros, 62 chunks, domínio TDC). Pipeline: **2.201 chunks**, **24 leis indexadas**, **66 itens MANIFESTO**. Grafo de remissões regenerado: **3.416 arestas** (era 2.733). Gate VERDE: 20/20 evals + 8/8 eval-produto.
 > **B-3 FECHADO:** engine Fp (Fator de Planejamento) `engines/tdc/fp.py` + tabela `tabelas/quadro6-fator-planejamento-fp.csv` (Quadro 6 PDE, 15 linhas, baixado do Drive). Decimal exato, fail-closed, citação obrigatória.

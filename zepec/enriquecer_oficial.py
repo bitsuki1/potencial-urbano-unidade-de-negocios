@@ -152,11 +152,18 @@ def main():
             else:
                 pend.append("Zona: lote sem sobreposição (sem SQL / lote / fora de zona)")
 
-            # H1.4 — PCpt e preço: separados por princípio 1.1 (fórmula ≠ comercial).
-            # _calcular_pcpt() = Motor Fórmulas (número nasce no engine, 1.3).
-            # _precificar()    = Motor Comercial (decisão de preço-proxy, Codex R16).
+            # T8 — VEDAÇÃO GEOMÉTRICA Art. 124 §2º (Lei 16.050/2014): categorias AUE/APPa são VEDADAS
+            # à cessão de PCpt. Guard ANTES do cálculo: vedado → PCpt/saldo/preço não calculados.
+            # Hoje a detecção é por substring na categoria (montar_base.py); a geometria via shapefile
+            # ZEPEC_AUE será ligada quando as coordenadas do lote estiverem disponíveis (vedacao_geo.py).
+            vedado_lei = (r.get("motivo_negociavel") or "").strip().startswith("vedado por lei")
             vendido_bloqueado = (r.get("esgotado") or "").strip() == "sim" or (r.get("negociavel") or "").strip() == "nao"
-            if atc and cabas:
+
+            if vedado_lei:
+                pend.append("Art. 124 §2º: cessão VEDADA (AUE/APPa) — PCpt/saldo/preço não calculados "
+                            "(potencial é intransferível; Lei 16.050/2014)")
+                n.setdefault("vedado", 0); n["vedado"] += 1
+            elif atc and cabas:
                 saldo = _calcular_pcpt(r, atc, cabas, pend, n)
                 if saldo is not None:
                     _precificar(r, saldo, vendido_bloqueado, pend, n)
@@ -209,7 +216,8 @@ def main():
     tot = len(rows)
     print(f"enriquecer_oficial (H1.4): {tot} cedentes -> {out.name}")
     for k, lbl in [("atc", "Atc (área)"), ("v", "V outorga (Q14)"), ("zona", "Zona"),
-                   ("cabas", "CAbás"), ("pcpt", "PCpt calculado (engine)"), ("saldo", "Saldo líquido (– transferido)"), ("preco", "Preço-proxy R$ (do saldo)")]:
+                   ("cabas", "CAbás"), ("vedado", "Vedado Art.124§2 (sem PCpt)"),
+                   ("pcpt", "PCpt calculado (engine)"), ("saldo", "Saldo líquido (– transferido)"), ("preco", "Preço-proxy R$ (do saldo)")]:
         print(f"  {lbl:26}: {n[k]:5} ({n[k]/tot:.0%})")
 
 
