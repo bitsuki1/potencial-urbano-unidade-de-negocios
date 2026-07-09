@@ -6,14 +6,14 @@
   "lifeline": "Acha os donos de imóveis que podem vender potencial construtivo (TDC) e calcula, pela lei, quanto vale — cada número rastreável até o artigo.",
   "stage": "construção",
   "health": "ok",
-  "healthNote": "Zona-base resolvida para 366 de 377 imóveis via GeoSampa SISZON. PCpt calculado em 2078 de 2740 da lista de prospecção (era 1879). Gabarito Termo 006/2026 fecha com divergência explicada (Fi declarado ≠ escalonado).",
+  "healthNote": "Zona-base resolvida (366/377). Fp engine construído (Quadro 6). T12 auditoria de DoDs feita (19 lacunas, 1 crítica). PCpt 2078/2740 na prospecção. Shapefiles ZEPEC baixados do Drive.",
   "lever": { "tx": "Fi declarado (do acervo de Termos do dono) é o gap remanescente para fechar o cálculo nos imóveis JA_DECLARADO — o Fi escalonado (Art. 24) já cobre a prospecção nova.", "k": "interno: acervo Termos / Fi declarado" },
   "now": [
-    "Zona-base resolvida: 366/377 imóveis com CAbás preenchido via GeoSampa SISZON + Quadro 3 LPUOS (script resolver_zona_geosampa.py).",
-    "PCpt: 2078/2740 na lista de prospecção (+199 imóveis desbloqueados), preço-proxy: 2003/2740 (+194).",
-    "Gabarito Termo 006/2026: zona ZC confirmada (CAbás=1). Divergência 2× explicada: Fi declarado ≈2,4 vs Fi escalonado 1,2 (T3).",
-    "Pipeline com etapa 3.5 (resolver_zona) costurada no Makefile — cadeia rastreável GeoSampa→Q3→engine.",
-    "IPTU: Lei 15.889/2013 ingerida verbatim (PGV + alíquotas progressivas); tabelas extraídas como CSV.",
+    "B-3 FECHADO: engine Fp (Fator de Planejamento) construído — tabelas/quadro6-fator-planejamento-fp.csv + engines/tdc/fp.py. Decimal exato, citação obrigatória.",
+    "T12 FEITO: auditoria mecânica de todas as 12 travas do Motor 1 — 19 lacunas (1 crítica: PII tracked, 7 altas, 11 médias). docs/T12-AUDITORIA-DODS-2026-07-09.md.",
+    "Shapefiles ZEPEC_AUE baixados do Drive (.shp/.shx/.dbf) para zepec/shapefiles/ — prepara T8 (vedação geométrica) e G1 (overlay por área).",
+    "Zona-base resolvida: 366/377 via GeoSampa SISZON. PCpt: 2078/2740 na prospecção.",
+    "IPTU: Lei 15.889/2013 ingerida verbatim; tabelas extraídas como CSV.",
     "Gate de prova endurecido no CI (nada entra sem citação e sem bater com a lei)."
   ],
   "projetos": [
@@ -25,8 +25,8 @@
       "frentes": [
         { "nome": "Motor do Mapa (zona por imóvel)", "calor": "warm", "prod": "366/377 zonas-base resolvidas via GeoSampa SISZON (Lei 18.177/2024) + Quadro 3 LPUOS. 10 sem lote no GeoSampa, 1 irresolvível (Praça/Canteiro). CAbás total: 3682/3693.",
           "ent": [["77 imóveis ZOE resolvidos (Quadro 2A)","feito"], ["366/377 ZEPEC resolvidos (GeoSampa SISZON)","feito"], ["gabarito Termo 006/2026: zona ZC confirmada","feito"], ["11 irresolvíveis restantes","block"]] },
-        { "nome": "Motor das Fórmulas (potencial construtivo)", "calor": "hot", "prod": "Cálculo PCpt = Atc x CAbás x Fi, escalonado pela lei. PCpt calculado: 3428/3693 no cedentes oficial; 2078/2740 na prospecção.",
-          "ent": [["engine lê tabelas da lei (fail-closed)","feito"], ["eval-produto ancorado na lei (7 faixas)","feito"], ["Fi declarado (acervo Termos)","block"], ["preço legal (Art.128)","block"]] },
+        { "nome": "Motor das Fórmulas (potencial construtivo)", "calor": "hot", "prod": "Cálculo PCpt = Atc x CAbás x Fi, escalonado pela lei. Fp engine pronto (Quadro 6). PCpt calculado: 3428/3693 no cedentes oficial; 2078/2740 na prospecção.",
+          "ent": [["engine lê tabelas da lei (fail-closed)","feito"], ["eval-produto ancorado na lei (7 faixas)","feito"], ["Fp engine (Quadro 6)","feito"], ["Fi declarado (acervo Termos)","block"], ["preço legal (Art.128)","block"]] },
         { "nome": "Motor da Lei (conteúdo jurídico)", "calor": "hot", "prod": "Leis ao pé da letra, fatiadas por dispositivo, com vigência e citação obrigatória.",
           "ent": [["TDC indexado e citável","feito"], ["grafo de remissões","feito"]] },
         { "nome": "Motor Comercial (prospecção lado-vendedor)", "calor": "hot", "prod": "Lista de cedentes (só vendedores; comprador fora de escopo por decisão do dono).",
