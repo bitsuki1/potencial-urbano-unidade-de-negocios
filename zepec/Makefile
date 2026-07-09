@@ -61,10 +61,19 @@ etapa3: $(CEDENTES)
 $(CEDENTES): montar_ferramenta.py $(BASE)
 	$(PYTHON) montar_ferramenta.py
 
+# === ETAPA 3.5 — Resolver zona-base sob o selo ZEPEC (GeoSampa SISZON) ===
+ZONA_CSV := oficial/zona_por_cedente.csv
+ZONAS_GEO := ../../portfolio-automacoes/tools/geosampa/zonas_377.csv
+
+resolver_zona: $(ZONA_CSV)
+
+$(ZONA_CSV): pipeline/resolver_zona_geosampa.py $(ZONAS_GEO)
+	$(PYTHON) pipeline/resolver_zona_geosampa.py
+
 # === ETAPA 4 — Enriquecimento oficial (IPTU + Q14 + Zona) ===
 etapa4: $(OFICIAL)
 
-$(OFICIAL): enriquecer_oficial.py $(CEDENTES)
+$(OFICIAL): enriquecer_oficial.py $(CEDENTES) $(ZONA_CSV)
 	$(PYTHON) enriquecer_oficial.py
 
 # === ETAPA 5 — Listas de prospecção ===

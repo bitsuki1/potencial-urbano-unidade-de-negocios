@@ -1,5 +1,8 @@
 # PRÓXIMA INSTÂNCIA — o que fazer (Potencial Urbano)
 
+> **★★★★★★★ PU 18 (2026-07-09) — ZONA-BASE ZEPEC RESOLVIDA: 366/377 CAbás preenchidos via GeoSampa SISZON.**
+> **Achado:** a coleta GeoSampa (`portfolio-automacoes/tools/geosampa/zonas_377.csv`) JÁ RODOU no runner `brasil` — 366/377 zonas-base sob o selo ZEPEC capturadas. **Ação:** `resolver_zona_geosampa.py` cruza zona_18177 → Quadro 3 LPUOS → CAbás; preenche `zona_por_cedente.csv` (era 3316 → agora **3682**/3693 com CAbás). Makefile atualizado (etapa 3.5). **Impacto na ponta:** prospecção com PCpt = **2.078** (era 1.879, +199); preço-proxy = **2.003** (era 1.809, +194). **Gabarito Termo 006/2026:** zona-base = ZC (CAbás=1); PCpt escalonado = 358,80 m² (Fi=1,2 Art.24); oficial = 717,60 m² (Fi declarado ≈2,4). Divergência 2× EXPLICADA pelo T3 (JA_DECLARADO vs escalonado). Status atualizado: `CABAS_RESOLVIDO_FI_PENDENTE`. 20/20 evals PASS, gate 16/17 (só git). **Irresolvíveis:** 10 sem_lote + 1 Praça/Canteiro sem zona_v3.
+>
 > **★★★★★★ PU 18 (2026-07-09) — COSTURA B-20 RESTANTE FEITA + IPTU PRIMEIRO TERRENO INGERIDO.**
 > **Costura (commit `e5c04cb`):** `enriquecer_oficial.py` refatorado — Motor Fórmulas (`_calcular_pcpt`) separado do Motor Comercial (`_precificar`), cada trava num módulo (fachada `travas.py`), Makefile orquestrador criado. Output idêntico verificado, 20/20 evals PASS.
 > **IPTU ingestão (commit `1d8326e`):** triagem de `_entrada/iptu/` (2/7 IPTU); Lei 15.889/2013 ingerida verbatim (md+json+17 chunks); tabelas extraídas: `iptu-aliquotas-faixa.csv` (15 faixas, Arts. 3/4/5) + `iptu-valor-construcao-m2.csv` (Tabela VI, 31 linhas). Fix I5 (tema[] anti-padrão). Âncora na fixture de domínio. **Pipeline:** 1.909 chunks, 21 leis, 63 MANIFESTO. Eval-domínio I1-I6 VERDE. Gate 17/17 VERDE.

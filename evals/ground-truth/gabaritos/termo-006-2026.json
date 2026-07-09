@@ -34,18 +34,20 @@
     "declaracao_no_indice_oficial": "SIM — linha em lista_declaracoes_ZEPEC-BIR_agosto-2025.csv: processo 6068.2023/0008373-0, SQ 001080 lote 0016-8, decl. 0539/23, Sé, 2024, DISPONÍVEL",
     "nosso_atc_area_terreno_m2": 299,
     "fonte_atc": "zepec/oficial/iptu2026_cedentes.csv",
-    "nossa_zona": "ZEPEC_APC",
-    "nosso_cabas": null,
-    "fonte_zona": "zepec/oficial/zona_por_cedente.csv (ZEPEC_APC.shp)",
-    "cabas_x_fi_implicito": 2.40,
-    "conta_implicita": "PCpt 717,60 = Atc 299 × (CAbás×Fi). Logo CAbás×Fi ≈ 2,40.",
-    "ACHADO_CRITICO": "Nosso pipeline NÃO consegue reproduzir 717,60 m² HOJE: a zona que atribuímos é o SELO de preservação (ZEPEC_APC), sem CAbás (ca_basico VAZIO). Falta a ZONA-BASE sob o selo — que dá o CAbás. É exatamente o gap GEO-2 do escrutínio, agora ao vivo. Também há divergência de selo: termo diz ZEPEC-BIR, nosso overlay diz ZEPEC_APC (verificar).",
-    "o_que_o_geosampa_resolve": "A consulta SISZON por SQL devolve a ZONA-BASE de uso (Lei 16.402) e a macroárea sob o selo — o CAbás que falta. É o valor concreto que o GeoSampa dá e que hoje não temos."
+    "nossa_zona": "ZC",
+    "nosso_cabas": 1,
+    "fonte_zona": "GeoSampa(Lei18177→ZC)+Q3",
+    "nosso_fi_escalonado": 1.2,
+    "nosso_pcpt_escalonado_m2": 358.80,
+    "pcpt_oficial_termo_m2": 717.60,
+    "razao_oficial_vs_escalonado": 2.0,
+    "explicacao_divergencia": "Fi declarado (≈2,4 implícito no Termo) ≠ Fi escalonado Art.24 (1,2 para lote de 299 m², faixa II). T3 flag: JA_DECLARADO / PENDENTE_FI_DECLARADO. O PCpt do Termo é o da Declaração SMUL/DEUSO 0539/23, NÃO o escalonado. Gabarito fecha QUANDO o Fi declarado entrar na base (acervo de Termos).",
+    "zona_base_resolvida": "SIM — GeoSampa SISZON (perimetro_zona_lei_18177_24) → ZC (Zona de Centralidade). CAbás=1 (Quadro 3 LPUOS)."
   },
   "tolerancia": {
     "zona": "zona-base idêntica ao GeoSampa/SISZON (categórica)",
     "m2": "±5% de 717.60 (681.72 a 753.48), com o gap explicado pela data de protocolo",
     "regra": "zona-base errada OU m² fora sem explicação = FALHA (build vermelho)"
   },
-  "status": "BLOQUEADO_POR_CABAS_AUSENTE — zona-base sob o selo ZEPEC não resolvida (SISZON/Quadro 2A). O gabarito está pronto; o motor ainda não fecha."
+  "status": "CABAS_RESOLVIDO_FI_PENDENTE — zona-base ZC (CAbás=1) resolvida via GeoSampa SISZON. PCpt escalonado=358,80 m² (Fi=1,2 Art.24). Oficial=717,60 m² (Fi declarado≈2,4). Gabarito fecha ±5% QUANDO o Fi declarado entrar (acervo de Termos). Divergência 2× EXPLICADA por T3 (JA_DECLARADO vs PROSPECCAO_NOVA)."
 }
