@@ -39,6 +39,42 @@ def _run(args):
     return p.returncode, (p.stdout or "") + (p.stderr or "")
 
 
+def check_pii_arvore():
+    """L-T7-1: nenhum .csv/.json com coluna PII deve estar na árvore git (zepec/ exceto ferramenta/).
+    zepec/ferramenta/ excluído: é a saída do produto (cedentes) — proprietario é esperado (D-DONO-17)."""
+    tokens_pii = {"proprietario", "contribuinte", "documento", "cpf", "cnpj"}
+    r = subprocess.run(
+        ["git", "ls-files", "zepec/limpo", "zepec/oficial", "zepec/raw"],
+        cwd=RAIZ, capture_output=True, text=True,
+    )
+    sujos = []
+    for rel in r.stdout.splitlines():
+        rel = rel.strip()
+        if not rel:
+            continue
+        if not (rel.endswith(".csv") or rel.endswith(".json")):
+            continue
+        fp = RAIZ / rel
+        try:
+            with open(fp, encoding="utf-8") as fh:
+                header = fh.readline().lower()
+        except (OSError, UnicodeDecodeError):
+            continue
+        if any(tok in header for tok in tokens_pii):
+            sujos.append(rel)
+    if sujos:
+        return False, f"PII rastreada no git: {sujos[:5]}"
+    return True, "nenhum arquivo com coluna PII na árvore git (zepec/)"
+
+
+def check_oraculos_ausente():
+    """L-T6-1: engines/tdc/oraculos/ NÃO deveria existir (Fi vem do CSV, não de oráculo)."""
+    p = RAIZ / "engines" / "tdc" / "oraculos"
+    if p.exists() and any(p.iterdir()):
+        return False, f"engines/tdc/oraculos/ NÃO deveria existir (T6 — Fi vem do CSV, não de oráculo)"
+    return True, "engines/tdc/oraculos/ ausente (T6 OK — sem oráculo)"
+
+
 def check_evals():
     rc, _ = _run(["evals/rodar-evals.py"])
     return rc == 0, "evals/rodar-evals.py saiu 0" if rc == 0 else f"evals quebrou (exit {rc}) — rode e veja FALHA"
@@ -211,6 +247,8 @@ def check_pushed():
 
 def main():
     hard = [
+        ("PII (sem dados pessoais na árvore git, T7)", check_pii_arvore),
+        ("ORÁCULO AUSENTE (engines/tdc/oraculos/, T6)", check_oraculos_ausente),
         ("EVALS (citação correta, 1.7)", check_evals),
         ("ENGINE (número no engine, 1.3)", check_engine),
         ("ENGINE CEDENTE (Fi Art.24, T2)", check_engine_cedente),

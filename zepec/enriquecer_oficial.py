@@ -106,8 +106,12 @@ def _precificar(r, saldo, vendido_bloqueado, pend, n):
         return
     vq = r["v_outorga_m2_q14"]
     if vq and saldo > 0:
-        preco = (saldo * Decimal(str(vq))).quantize(Decimal("0.01"))
+        LIMITE_PARCELAMENTO = Decimal("50000")
+        preco_base = min(saldo, LIMITE_PARCELAMENTO)
+        preco = (preco_base * Decimal(str(vq))).quantize(Decimal("0.01"))
         r["preco_proxy_brl"] = str(preco); n["preco"] += 1
+        if saldo > LIMITE_PARCELAMENTO:
+            r["parcelas_anuais"] = "10"
 
 
 def main():
@@ -197,8 +201,10 @@ def main():
         saldo_conj = max(Decimal("0"), sum(pcpts, Decimal("0")) - transf).quantize(Decimal("0.01")) if pcpts else None
         if saldo_conj is None:
             txt_saldo = "PENDENTE (nenhum membro com PCpt calculado)"
+        elif not completo:
+            txt_saldo = f"PENDENTE-CONJUNTO: {saldo_conj} m² parcial (há membro sem PCpt — saldo INDETERMINADO até completar)"
         else:
-            txt_saldo = f"{saldo_conj} m² (Σ PCpt − transferido{'' if completo else '; PARCIAL: há membro sem PCpt'})"
+            txt_saldo = f"{saldo_conj} m² (Σ PCpt − transferido)"
         nota = (f"T11: conjunto {cid} ({len(membros)} lotes irmãos na mesma certidão) — m² transferido é do "
                 f"CONJUNTO; saldo individual INDETERMINADO; saldo do conjunto = {txt_saldo}")
         for m in membros:

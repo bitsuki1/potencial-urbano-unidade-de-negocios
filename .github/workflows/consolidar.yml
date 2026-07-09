@@ -67,6 +67,15 @@ jobs:
       - name: Regenerar MANIFESTO.json
         run: python3 scripts/consolidar.py
 
+      # L-T7-4: nenhum arquivo com coluna PII (proprietario/cpf/cnpj/…) nos dados brutos/limpos.
+      # zepec/ferramenta/ excluído: é a saída do produto (cedentes) — proprietario esperado (D-DONO-17).
+      - name: PII probe (T7)
+        run: |
+          SUJOS=$(git ls-files zepec/limpo zepec/oficial zepec/raw | while read f; do
+            head -1 "$f" 2>/dev/null | grep -qiE 'proprietario|contribuinte|documento|cpf|cnpj' && echo "$f"
+          done)
+          if [ -n "$SUJOS" ]; then echo "PII tracked: $SUJOS"; exit 1; fi
+
       # GATES ANTES de publicar (achado B-13/F-6): se um gate reprovar, o build falha SEM ter
       # commitado/pushado o índice quebrado. Reordenado em 2026-06-20 (antes commitava primeiro).
       # GATE de aceite (Parte 3): falha se algum ground-truth ATIVO quebrar (aguardando_verbatim não bloqueia).
