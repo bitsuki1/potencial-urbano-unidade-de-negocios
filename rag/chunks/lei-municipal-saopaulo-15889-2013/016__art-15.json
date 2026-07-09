@@ -1,0 +1,61 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-15889-2013::016-art-15",
+  "lei_id": "lei-municipal-saopaulo-15889-2013",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 15",
+  "numero": "15",
+  "header_raw": "Art. 15. Os arts. 1º e 2º da Lei nº 11.614, de 13 de julho de 1994, com as alterações da Lei nº 13.776, de 10 de fevereiro de 2004, passam a vigorar com a seguinte redação:",
+  "caminho_hierarquico": [
+    "Art. 15"
+  ],
+  "texto": "Art. 15. Os arts. 1º e 2º da Lei nº 11.614, de 13 de julho de 1994, com as alterações da Lei nº 13.776, de 10 de fevereiro de 2004, passam a vigorar com a seguinte redação:\n\n\"Art. 1º Fica isento do pagamento do Imposto Predial e Territorial Urbano – IPTU o imóvel integrante do patrimônio do aposentado ou pensionista, bem como de beneficiário de renda mensal vitalícia paga pelo Instituto Nacional de Seguridade Social e de beneficiário do Programa de Amparo Social ao Idoso, criado pelo Ministério da Previdência e Assistência Social, ou outro programa que venha a substituí-lo, cujo valor venal, na data do fato gerador do imposto, seja igual ou inferior a R$ 1.000.000,00 (um milhão de reais), na seguinte proporção:\n\nI – 100% (cem por cento), quando o valor bruto recebido pelo interessado for de até 3 (três) salários mínimos;\n\nII – 50% (cinquenta por cento), quando o valor bruto recebido pelo interessado for maior que 3 (três) e até 4 (quatro) salários mínimos;\n\nIII – 30% (trinta por cento), quando o valor bruto recebido pelo interessado for maior que 4 (quatro) e até 5 (cinco) salários mínimos.\n\n§ 1º O valor bruto recebido pelo interessado refere-se ao do mês de janeiro do exercício de incidência do IPTU.\n\n§ 2º A importância fixa prevista no \"caput\" deste artigo será atualizada na forma do disposto no art. 2º da Lei nº 13.105, de 29 de dezembro de 2000.\" (NR)\n\n\"Art. 2º A isenção de que cuida o art. 1º desta lei dependerá de requerimento, na forma, prazo e condições que dispuser o regulamento, onde o interessado deverá comprovar que:\n\nI – não possui outro imóvel neste Município;\n\nII – utiliza o imóvel como sua residência;\n\nIII – recebeu, relativo ao mês de janeiro do exercício de incidência do IPTU, valor bruto de até 5 (cinco) salários mínimos.\" (NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 15.889/2013 — São Paulo/SP",
+    "dispositivo": "Art. 15",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-15889-de-5-de-novembro-de-2013",
+    "vigencia": {
+      "inicio": "2013-11-05",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei 6.989/1966 (art. 7-A, art. 8-A, art. 28)",
+        "Lei 10.235/1986 (Tabela VI, Listagem de Terrenos, arts. 11 e 18)",
+        "Lei 11.614/1994 (arts. 1 e 2 — isencao aposentado/pensionista)",
+        "Lei 15.044/2009 (art. 10 — obrigacao de atualizacao)"
+      ],
+      "alterada_por": [],
+      "revoga": [
+        "Lei 7.954/1973",
+        "Lei 12.275/1996",
+        "Lei 13.698/2003 (arts. 1, 2 e 3)",
+        "Lei 14.256/2006 (art. 24)"
+      ],
+      "em_vigor": true,
+      "observacao": "Vigencia DATADA: Art. 16 verbatim — 'Esta lei entra em vigor na data de sua publicacao, produzindo efeitos a partir de 1o de janeiro de 2014.' Publicada em 05/11/2013 (Diario Oficial nº 211, 06/11/2013). Efeitos fiscais (aliquotas, valores, isencoes) a partir do exercicio de 2014. Cadeia PGV: Lei 10.235/1986 → Lei 15.889/2013 → Lei 18.330/2025."
+    }
+  },
+  "tema": [
+    "imposto_predial",
+    "imposto_territorial_urbano",
+    "pgv",
+    "aliquota_progressiva",
+    "valor_venal",
+    "tabela_vi",
+    "valor_m2_construcao",
+    "isencao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Atualiza os valores unitários de metro quadrado de construção e de terreno previstos na Lei nº 10.235, de 16 de dezembro de 1986; fixa, para efeitos fiscais, novos perímetros para a primeira e a segunda subdivisões da zona urbana do Município e dispõe sobre o Imposto Predial e Imposto Territorial Urbano - IPTU."
+}

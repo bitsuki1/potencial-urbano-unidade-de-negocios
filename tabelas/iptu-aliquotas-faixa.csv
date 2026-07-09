@@ -1,0 +1,16 @@
+uso,faixa_de_brl,faixa_ate_brl,aliquota_pct,parcela_deduzir_brl,dispositivo,lei
+residencial,0,150000.00,-0.3,,Art. 3 (faixa 1),lei-municipal-saopaulo-15889-2013
+residencial,150000.01,300000.00,-0.1,,Art. 3 (faixa 2),lei-municipal-saopaulo-15889-2013
+residencial,300000.01,600000.00,+0.1,,Art. 3 (faixa 3),lei-municipal-saopaulo-15889-2013
+residencial,600000.01,1200000.00,+0.3,,Art. 3 (faixa 4),lei-municipal-saopaulo-15889-2013
+residencial,1200000.01,,+0.5,,Art. 3 (faixa 5),lei-municipal-saopaulo-15889-2013
+nao_residencial,0,150000.00,-0.4,,Art. 4 (faixa 1),lei-municipal-saopaulo-15889-2013
+nao_residencial,150000.01,300000.00,-0.2,,Art. 4 (faixa 2),lei-municipal-saopaulo-15889-2013
+nao_residencial,300000.01,600000.00,0.0,,Art. 4 (faixa 3),lei-municipal-saopaulo-15889-2013
+nao_residencial,600000.01,1200000.00,+0.2,,Art. 4 (faixa 4),lei-municipal-saopaulo-15889-2013
+nao_residencial,1200000.01,,+0.4,,Art. 4 (faixa 5),lei-municipal-saopaulo-15889-2013
+territorial,0,150000.00,-0.4,,Art. 5 (faixa 1),lei-municipal-saopaulo-15889-2013
+territorial,150000.01,300000.00,-0.2,,Art. 5 (faixa 2),lei-municipal-saopaulo-15889-2013
+territorial,300000.01,600000.00,0.0,,Art. 5 (faixa 3),lei-municipal-saopaulo-15889-2013
+territorial,600000.01,1200000.00,+0.2,,Art. 5 (faixa 4),lei-municipal-saopaulo-15889-2013
+territorial,1200000.01,,+0.4,,Art. 5 (faixa 5),lei-municipal-saopaulo-15889-2013

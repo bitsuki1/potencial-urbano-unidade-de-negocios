@@ -1,0 +1,61 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-15889-2013::009-art-8o",
+  "lei_id": "lei-municipal-saopaulo-15889-2013",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 8º",
+  "numero": "8",
+  "header_raw": "Art. 8º As isenções e os descontos previstos nos arts. 6º e 7º desta lei somente serão concedidos a um único imóvel por contribuinte e não se aplicam para as unidades autônomas de condomínio tributadas como garagem e para os estacionamentos comerciais.",
+  "caminho_hierarquico": [
+    "Art. 8º"
+  ],
+  "texto": "Art. 8º As isenções e os descontos previstos nos arts. 6º e 7º desta lei somente serão concedidos a um único imóvel por contribuinte e não se aplicam para as unidades autônomas de condomínio tributadas como garagem e para os estacionamentos comerciais.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 15.889/2013 — São Paulo/SP",
+    "dispositivo": "Art. 8º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-15889-de-5-de-novembro-de-2013",
+    "vigencia": {
+      "inicio": "2013-11-05",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei 6.989/1966 (art. 7-A, art. 8-A, art. 28)",
+        "Lei 10.235/1986 (Tabela VI, Listagem de Terrenos, arts. 11 e 18)",
+        "Lei 11.614/1994 (arts. 1 e 2 — isencao aposentado/pensionista)",
+        "Lei 15.044/2009 (art. 10 — obrigacao de atualizacao)"
+      ],
+      "alterada_por": [],
+      "revoga": [
+        "Lei 7.954/1973",
+        "Lei 12.275/1996",
+        "Lei 13.698/2003 (arts. 1, 2 e 3)",
+        "Lei 14.256/2006 (art. 24)"
+      ],
+      "em_vigor": true,
+      "observacao": "Vigencia DATADA: Art. 16 verbatim — 'Esta lei entra em vigor na data de sua publicacao, produzindo efeitos a partir de 1o de janeiro de 2014.' Publicada em 05/11/2013 (Diario Oficial nº 211, 06/11/2013). Efeitos fiscais (aliquotas, valores, isencoes) a partir do exercicio de 2014. Cadeia PGV: Lei 10.235/1986 → Lei 15.889/2013 → Lei 18.330/2025."
+    }
+  },
+  "tema": [
+    "imposto_predial",
+    "imposto_territorial_urbano",
+    "pgv",
+    "aliquota_progressiva",
+    "valor_venal",
+    "tabela_vi",
+    "valor_m2_construcao",
+    "isencao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Atualiza os valores unitários de metro quadrado de construção e de terreno previstos na Lei nº 10.235, de 16 de dezembro de 1986; fixa, para efeitos fiscais, novos perímetros para a primeira e a segunda subdivisões da zona urbana do Município e dispõe sobre o Imposto Predial e Imposto Territorial Urbano - IPTU."
+}

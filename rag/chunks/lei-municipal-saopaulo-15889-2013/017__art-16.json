@@ -1,0 +1,61 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-15889-2013::017-art-16",
+  "lei_id": "lei-municipal-saopaulo-15889-2013",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 16",
+  "numero": "16",
+  "header_raw": "Art. 16. Esta lei entra em vigor na data de sua publicação, produzindo efeitos a partir de 1º de janeiro de 2014, revogadas a Lei nº 7.954, de 20 de novembro de 1973, a Lei nº 12.275, de 19 de dezembro de 1996, os arts. 1º, 2º e 3º da Lei nº 13.698, de 24 de dezembro de 2003, e o art. 24 da Lei nº 14.256, de 29 de dezembro de 2006.",
+  "caminho_hierarquico": [
+    "Art. 16"
+  ],
+  "texto": "Art. 16. Esta lei entra em vigor na data de sua publicação, produzindo efeitos a partir de 1º de janeiro de 2014, revogadas a Lei nº 7.954, de 20 de novembro de 1973, a Lei nº 12.275, de 19 de dezembro de 1996, os arts. 1º, 2º e 3º da Lei nº 13.698, de 24 de dezembro de 2003, e o art. 24 da Lei nº 14.256, de 29 de dezembro de 2006.\n\nPREFEITURA DO MUNICÍPIO DE SÃO PAULO, aos 5 de novembro de 2013, 460º da fundação de São Paulo.\n\nFERNANDO HADDAD, PREFEITO\n\nANTONIO DONATO MADORMO, Secretário do Governo Municipal\n\nPublicada na Secretaria do Governo Municipal, em 5 de novembro de 2013.\n\n### Anexo I — Tabela VI — Tipos e Padrões de Construção — Valores Unitários de Metro Quadrado de Construção\n\n(Substitui a Tabela VI que integra a Lei nº 10.235, de 16 de dezembro de 1986)\n\n| Tipo | Padrão | 1ª Subdivisão (R$) | 2ª Subdivisão (R$) | Além da 2ª (R$) |\n|------|--------|---------------------|---------------------|------------------|\n| 1 | A | 920,00 | 700,00 | 480,00 |\n| 1 | B | 1.120,00 | 840,00 | 560,00 |\n| 1 | C | 1.420,00 | 1.070,00 | 710,00 |\n| 1 | D | 1.920,00 | 1.370,00 | 960,00 |\n| 1 | E | 2.210,00 | 1.580,00 | 1.180,00 |\n| 1 | F | 2.550,00 | 1.820,00 | 1.440,00 |\n| 2 | A | 1.020,00 | 790,00 | 570,00 |\n| 2 | B | 1.320,00 | 1.040,00 | 750,00 |\n| 2 | C | 1.730,00 | 1.300,00 | 990,00 |\n| 2 | D | 2.020,00 | 1.500,00 | 1.200,00 |\n| 2 | E | 2.500,00 | 1.790,00 | 1.430,00 |\n| 2 | F | 2.910,00 | 2.150,00 | 1.750,00 |\n| 3 | A | 980,00 | 750,00 | 520,00 |\n| 3 | B | 1.350,00 | 1.050,00 | 730,00 |\n| 3 | C | 1.760,00 | 1.310,00 | 1.020,00 |\n| 3 | D | 2.110,00 | 1.600,00 | 1.300,00 |\n| 3 | E | 2.630,00 | 1.930,00 | 1.560,00 |\n| 4 | A | 1.320,00 | 1.090,00 | 850,00 |\n| 4 | B | 1.730,00 | 1.410,00 | 1.100,00 |\n| 4 | C | 2.090,00 | 1.620,00 | 1.290,00 |\n| 4 | D | 2.710,00 | 1.960,00 | 1.500,00 |\n| 4 | E | 3.320,00 | 2.530,00 | 1.750,00 |\n| 5 | A | 650,00 | 520,00 | 380,00 |\n| 5 | B | 840,00 | 680,00 | 510,00 |\n| 5 | C | 930,00 | 770,00 | 620,00 |\n| 5 | D | 1.270,00 | 1.070,00 | 860,00 |\n| 5 | E | 1.670,00 | 1.435,00 | 1.200,00 |\n| 6 | A | 820,00 | 700,00 | 570,00 |\n| 6 | B | 1.130,00 | 940,00 | 750,00 |\n| 6 | C | 1.510,00 | 1.250,00 | 980,00 |\n| 6 | D | 1.890,00 | 1.590,00 | 1.300,00 |",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 15.889/2013 — São Paulo/SP",
+    "dispositivo": "Art. 16",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-15889-de-5-de-novembro-de-2013",
+    "vigencia": {
+      "inicio": "2013-11-05",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei 6.989/1966 (art. 7-A, art. 8-A, art. 28)",
+        "Lei 10.235/1986 (Tabela VI, Listagem de Terrenos, arts. 11 e 18)",
+        "Lei 11.614/1994 (arts. 1 e 2 — isencao aposentado/pensionista)",
+        "Lei 15.044/2009 (art. 10 — obrigacao de atualizacao)"
+      ],
+      "alterada_por": [],
+      "revoga": [
+        "Lei 7.954/1973",
+        "Lei 12.275/1996",
+        "Lei 13.698/2003 (arts. 1, 2 e 3)",
+        "Lei 14.256/2006 (art. 24)"
+      ],
+      "em_vigor": true,
+      "observacao": "Vigencia DATADA: Art. 16 verbatim — 'Esta lei entra em vigor na data de sua publicacao, produzindo efeitos a partir de 1o de janeiro de 2014.' Publicada em 05/11/2013 (Diario Oficial nº 211, 06/11/2013). Efeitos fiscais (aliquotas, valores, isencoes) a partir do exercicio de 2014. Cadeia PGV: Lei 10.235/1986 → Lei 15.889/2013 → Lei 18.330/2025."
+    }
+  },
+  "tema": [
+    "imposto_predial",
+    "imposto_territorial_urbano",
+    "pgv",
+    "aliquota_progressiva",
+    "valor_venal",
+    "tabela_vi",
+    "valor_m2_construcao",
+    "isencao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Atualiza os valores unitários de metro quadrado de construção e de terreno previstos na Lei nº 10.235, de 16 de dezembro de 1986; fixa, para efeitos fiscais, novos perímetros para a primeira e a segunda subdivisões da zona urbana do Município e dispõe sobre o Imposto Predial e Imposto Territorial Urbano - IPTU."
+}
