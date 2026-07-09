@@ -12,7 +12,8 @@
     "Coleta do GeoSampa rodando pela VPS Brasil (o site tem trava anti-robô; só navegador de verdade passa).",
     "Primeiro gabarito de conferência montado (imóvel tombado da Líbero Badaró = 717,60 m²) para provar o cálculo de ponta a ponta.",
     "77 imóveis em zona ZOE já resolvidos localmente (índice tirado do Quadro 2A da lei).",
-    "Terreno do IPTU preparado (método e lições guardados) — só construir com o 'vai' do dono.",
+    "IPTU: Lei 15.889/2013 ingerida verbatim (PGV + alíquotas progressivas); tabelas de alíquotas e Tabela VI extraídas como CSV — primeiro terreno concreto.",
+    "Pipeline costurado: Motor Fórmulas separado do Motor Comercial, travas centralizadas, Makefile orquestrador.",
     "Gate de prova endurecido no CI (nada entra sem citação e sem bater com a lei)."
   ],
   "projetos": [
@@ -38,8 +39,8 @@
       "stage": "plano",
       "calor": "cold",
       "frentes": [
-        { "nome": "Preparação", "calor": "cold", "prod": "Expertise e spec do motor (VV x alíquota progressiva) guardados; corpus bruto já no repo, não ingerido.",
-          "ent": [["expertise capturada","feito"], ["construir o motor","block"]] }
+        { "nome": "Preparação", "calor": "warm", "prod": "Lei 15.889/2013 ingerida verbatim (17 chunks); tabelas de alíquotas (Arts. 3/4/5) e Tabela VI extraídas como CSV. Motor VV×alíquota spec guardado.",
+          "ent": [["expertise capturada","feito"], ["Lei 15.889 ingerida + tabelas extraídas","feito"], ["construir o motor","block"]] }
       ]
     }
   ],

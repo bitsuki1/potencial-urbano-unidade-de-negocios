@@ -1,5 +1,11 @@
 # PRÓXIMA INSTÂNCIA — o que fazer (Potencial Urbano)
 
+> **★★★★★★ PU 18 (2026-07-09) — COSTURA B-20 RESTANTE FEITA + IPTU PRIMEIRO TERRENO INGERIDO.**
+> **Costura (commit `e5c04cb`):** `enriquecer_oficial.py` refatorado — Motor Fórmulas (`_calcular_pcpt`) separado do Motor Comercial (`_precificar`), cada trava num módulo (fachada `travas.py`), Makefile orquestrador criado. Output idêntico verificado, 20/20 evals PASS.
+> **IPTU ingestão (commit `1d8326e`):** triagem de `_entrada/iptu/` (2/7 IPTU); Lei 15.889/2013 ingerida verbatim (md+json+17 chunks); tabelas extraídas: `iptu-aliquotas-faixa.csv` (15 faixas, Arts. 3/4/5) + `iptu-valor-construcao-m2.csv` (Tabela VI, 31 linhas). Fix I5 (tema[] anti-padrão). Âncora na fixture de domínio. **Pipeline:** 1.909 chunks, 21 leis, 63 MANIFESTO. Eval-domínio I1-I6 VERDE. Gate 17/17 VERDE.
+> **PRÓXIMO na fila do cronograma:** (1) gabarito IPTU — calcular VV para 1 SQL do `iptu2026_cedentes.csv` usando tabelas extraídas, comparar com `v_venal_m2` oficial; (2) ingerir mais leis IPTU da `_entrada/` ou do Drive (7 municipais com PDF); (3) itens bloqueados pelo dono (T8, G1, G2, G4, B-4, B-5, B-21).
+> **AUD-C05/C06 FEITOS** esta sessão (fatiar.py data_redacao + chunks tipo=anexo).
+>
 > **★★★★★ PU 18 (2026-07-06) — DRIVE LIMPO: dedup ESCOPADO à PU CONCLUÍDO (robô). FALTA 1 CLIQUE DO DONO.**
 > Entregável da sessão = "o Drive limpo e saudável". **Arrumação:** 1.360/1.360 movidos (verificado). **Saneamento
 > fase 1:** 13 duplicatas de CSV pesado → lixeira (verificado). **Dedup escopado à subárvore do Potencial Urbano**
