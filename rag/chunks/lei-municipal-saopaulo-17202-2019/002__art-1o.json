@@ -1,0 +1,52 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17202-2019::002-art-1o",
+  "lei_id": "lei-municipal-saopaulo-17202-2019",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 1º",
+  "numero": "1",
+  "header_raw": "Art. 1º Poderão ser regularizadas uma ou mais edificações no mesmo lote, independentemente das infrações à legislação edilícia e de parcelamento, uso e ocupação do solo, concluídas até 31 de Julho de 2014, nos termos do art. 367 da Lei nº 16.050, de 31 de Julho de 2014, Plano Diretor Estratégico – PDE, que tenham condições de higiene, segurança de uso, acessibilidade, estabilidade, habitabilidade e salubridade, desde que atendidas as condições estabelecidas nesta Lei.",
+  "caminho_hierarquico": [
+    "CAPÍTULO I",
+    "Art. 1º"
+  ],
+  "texto": "Art. 1º Poderão ser regularizadas uma ou mais edificações no mesmo lote, independentemente das infrações à legislação edilícia e de parcelamento, uso e ocupação do solo, concluídas até 31 de Julho de 2014, nos termos do art. 367 da Lei nº 16.050, de 31 de Julho de 2014, Plano Diretor Estratégico – PDE, que tenham condições de higiene, segurança de uso, acessibilidade, estabilidade, habitabilidade e salubridade, desde que atendidas as condições estabelecidas nesta Lei.\n\n§ 1º Entende-se por edificação concluída aquela em que a área objeto de regularização esteja com as paredes erguidas e a cobertura executada na data referida no caput deste artigo.\n\n§ 2º A Administração Pública Municipal poderá aceitar propostas de obras de adequação para garantir o atendimento às condições de higiene, segurança de uso, acessibilidade, estabilidade, habitabilidade, salubridade, permeabilidade e enquadramento na legislação específica aplicável, por meio de \"Notificação de Exigências Complementares – NEC\".\n\n§ 3º Para a execução das obras referidas no § 2º deste artigo será concedido prazo máximo de 180 (cento e oitenta) dias, prorrogáveis por igual período.\n\n§ 4º Poderão ser regularizadas as edificações destinadas aos usos institucionais, uso religioso e locais de culto em vias com largura maior ou igual a 8 (oito) metros, dispensada a exigência de vagas de estacionamento e área de carga e descarga, sem prejuízo do atendimento às normas técnicas e à legislação pertinente às condições de acessibilidade, respeitado o coeficiente máximo previsto para a respectiva zona de uso e leis específicas, quando for o caso.\n\n§ 5º Deverá constar no Certificado de Regularidade a ressalva de dispensa da exigência de vagas de estacionamento e área de Carga e Descarga.\n\n§ 6º Para a regularização de edificações de que trata esta Lei não serão consideradas as restrições de uso e atividades, bem como a limitação da área construída máxima computável e total em função da largura e classificação da via.\n\n§ 7º No caso de solicitação de regularização do disposto no art. 9º o Executivo poderá autorizar constar em uma única peça gráfica todos os apartamentos e áreas comuns que receberam construções não licenciadas após o certificado de conclusão.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.202/2019 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO I › Art. 1º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17202-de-16-de-outubro-de-2019",
+    "vigencia": {
+      "inicio": "2020-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 22 prorrogado até 31/12/2025 (Lei 18.209/2024). Arts. 6, 8, 9 e 14 alterados pela Lei 18.270/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.346/2020 (art. 22)",
+        "Lei 17.556/2021 (art. 22)",
+        "Lei 17.771/2022 (art. 22)",
+        "Lei 18.062/2023 (art. 22)",
+        "Lei 18.209/2024 (art. 22)",
+        "Lei 18.270/2025 (arts. 6, 8, 9, 14)"
+      ]
+    }
+  },
+  "tema": [
+    "regularizacao_edificacoes",
+    "outorga_onerosa",
+    "permeabilidade",
+    "FUNDURB"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a regularização de edificações, condicionada, quando necessário, à realização de obras, nos termos da previsão do art. 367 do Plano Diretor Estratégico."
+}

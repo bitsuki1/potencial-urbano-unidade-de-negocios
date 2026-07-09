@@ -1,0 +1,59 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-11152-1991::008-art-7o",
+  "lei_id": "lei-municipal-saopaulo-11152-1991",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 7º",
+  "numero": "7",
+  "header_raw": "Art. 7º Ficam anistiadas as infrações previstas no inciso I, do artigo 5º, da Lei nº 10.819, de 28 de dezembro de 1989, em sua redação original, cometidas até a data da entrada em vigor desta Lei e cancelados os Autos de Infração correspondentes, vedada a restituição parcial ou total das importâncias recolhidas a esse titulo.",
+  "caminho_hierarquico": [
+    "Art. 7º"
+  ],
+  "texto": "Art. 7º Ficam anistiadas as infrações previstas no inciso I, do artigo 5º, da Lei nº 10.819, de 28 de dezembro de 1989, em sua redação original, cometidas até a data da entrada em vigor desta Lei e cancelados os Autos de Infração correspondentes, vedada a restituição parcial ou total das importâncias recolhidas a esse titulo.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 11.152/1991 — São Paulo/SP",
+    "dispositivo": "Art. 7º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-11152-de-30-de-dezembro-de-1991",
+    "vigencia": {
+      "inicio": "1992-01-01",
+      "em_vigor": true,
+      "observacao": "Arts. 5º e 6º revogados (Lei 11.457/1993 e Lei 14.125/2005 respectivamente). Demais artigos vigentes; metodologia base do VVC, complementada pela Lei 15.889/2013.",
+      "altera": [
+        "Lei 6.989/1966 (arts. 7, 17, 19, 27, 37, 39, 87, 94)",
+        "Lei 10.235/1986 (art. 8, Tabelas II/III/IV/VI)",
+        "Lei 10.819/1989 (art. 5)"
+      ],
+      "alterada_por": [
+        "Lei 11.457/1993 (revoga art. 5§3)",
+        "Lei 14.125/2005 (revoga art. 6)",
+        "Lei 15.889/2013 (complementa)"
+      ]
+    }
+  },
+  "tema": [
+    "valor_venal",
+    "VVC",
+    "calculo",
+    "aliquotas_iptu",
+    "iptu_predial",
+    "iptu_territorial",
+    "taxas_limpeza",
+    "taxas_conservacao",
+    "fator_obsolescencia",
+    "fator_condominio",
+    "fator_esquina"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Altera a legislação relativa aos Impostos Predial e Territorial Urbano e às Taxas de Limpeza Pública e de Conservação de Vias e Logradouros Públicos, e dá outras providências."
+}

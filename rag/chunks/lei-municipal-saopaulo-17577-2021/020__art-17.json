@@ -1,0 +1,53 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17577-2021::020-art-17",
+  "lei_id": "lei-municipal-saopaulo-17577-2021",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 17",
+  "numero": "17",
+  "header_raw": "Art. 17. Fica autorizado ao Poder Público promover chamamentos públicos para fins de",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 17"
+  ],
+  "texto": "Art. 17. Fica autorizado ao Poder Público promover chamamentos públicos para fins de\n\noperacionalização de consórcios imobiliários, previstos pelo art. 102 da Lei nº 16.050, de 2014, em\n\nedifícios localizados na Área Central elegíveis à requalificação nos termos desta Lei, cabendo-lhe\n\nfacilitar a aproximação entre proprietários de imóveis e agentes econômicos.\n\n§ 1º Os editais de chamamento público deverão indicar, no mínimo, os critérios de elegibilidade dos\n\nimóveis, sua destinação futura e os critérios de participação de agente econômico privado, quando for\n\no caso.\n\n§ 2º Os editais deverão priorizar os imóveis elegíveis à requalificação nos termos desta Lei que\n\nconcomitantemente forem notificados para o parcelamento, edificação e utilização compulsória\n\n(PEUC), estiverem ocupados por movimentos de moradia organizados ou inscritos no cadastro de\n\ndívida ativa.\n\n§ 3º Independentemente da realização do chamamento público de que trata este artigo, os proprietários\n\nde imóveis elegíveis à requalificação poderão propor ao Poder Público a realização de consórcios\n\nimobiliários.\n\nCAPÍTULO IV\n\nDAS DISPOSIÇÕES FINAIS",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.577/2021 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Art. 17",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17577-de-20-de-julho-de-2021",
+    "vigencia": {
+      "inicio": "2021-07-20",
+      "em_vigor": true,
+      "observacao": "Consolidada com alterações das Leis 17.844/2022, 18.065/2023, 18.081/2024, 18.330/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.844/2022 (art. 16)",
+        "Lei 18.065/2023 (altera a lei - arts. 16, 16-A)",
+        "Lei 18.081/2024 (amplia perímetro - setores 017/025/026 Brás)",
+        "Lei 18.330/2025 (art. 16-III, 16-B)"
+      ]
+    }
+  },
+  "tema": [
+    "Requalifica_Centro",
+    "incentivo_fiscal",
+    "isencao",
+    "retrofit",
+    "outorga_onerosa",
+    "ZEPEC_BIR",
+    "remissao_IPTU"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o Programa Requalifica Centro, estabelecendo incentivos e o regime específico para a requalificação de edificações situadas na Área Central, e dá outras providências."
+}

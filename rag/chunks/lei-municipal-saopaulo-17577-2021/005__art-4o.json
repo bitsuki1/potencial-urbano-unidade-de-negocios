@@ -1,0 +1,53 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17577-2021::005-art-4o",
+  "lei_id": "lei-municipal-saopaulo-17577-2021",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 4º",
+  "numero": "4",
+  "header_raw": "Art. 4º Poderão ser requalificadas no âmbito do Programa de que trata esta Lei as edificações",
+  "caminho_hierarquico": [
+    "CAPÍTULO I",
+    "Art. 4º"
+  ],
+  "texto": "Art. 4º Poderão ser requalificadas no âmbito do Programa de que trata esta Lei as edificações\n\nexistentes anteriormente a 23 de setembro de 1992 ou licenciadas com base em legislação edilícia\n\nvigente até esta data, correspondente à entrada em vigor da Lei nº 11.228, de 25 de junho de 1992,\n\nindependentemente de sua condição de regularidade na data do protocolo do pedido.\n\n§ 1º Para fins de comprovação da condição de elegibilidade prevista no caput deste artigo, poderão ser\n\napresentados, dentre outros a serem previstos em regulamento, um ou mais dos seguintes\n\ndocumentos:\n\nI - alvarás ou certificados emitidos pela Prefeitura do Município de São Paulo;\n\nII - auto de infração;\n\nIII - matrícula ou transcrição imobiliária do imóvel, expedida pelo Cartório de Registro de Imóveis\n\ncompetente;\n\nIV - convenção condominial registrada perante o Cartório de Registro de Imóveis;\n\nV - Auto de Vistoria do Corpo de Bombeiros – AVCB;\n\nVI - foto aérea ou levantamentos aerofotogramétricos oficiais.\n\n§ 2º Para os fins de que trata esta Lei, a comprovação da elegibilidade da edificação não dependerá de\n\nlançamento de regularidade no Cadastro de Edificações do Município.\n\nCAPÍTULO II\n\nCONDIÇÕES, REGRAS E INCENTIVOS PARA A REQUALIFICAÇÃO NO ÂMBITO DO PROGRAMA\n\nSeção I\n\nCondições de acessibilidade, de segurança de uso, de higiene e de salubridade",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.577/2021 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO I › Art. 4º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17577-de-20-de-julho-de-2021",
+    "vigencia": {
+      "inicio": "2021-07-20",
+      "em_vigor": true,
+      "observacao": "Consolidada com alterações das Leis 17.844/2022, 18.065/2023, 18.081/2024, 18.330/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.844/2022 (art. 16)",
+        "Lei 18.065/2023 (altera a lei - arts. 16, 16-A)",
+        "Lei 18.081/2024 (amplia perímetro - setores 017/025/026 Brás)",
+        "Lei 18.330/2025 (art. 16-III, 16-B)"
+      ]
+    }
+  },
+  "tema": [
+    "Requalifica_Centro",
+    "incentivo_fiscal",
+    "isencao",
+    "retrofit",
+    "outorga_onerosa",
+    "ZEPEC_BIR",
+    "remissao_IPTU"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o Programa Requalifica Centro, estabelecendo incentivos e o regime específico para a requalificação de edificações situadas na Área Central, e dá outras providências."
+}

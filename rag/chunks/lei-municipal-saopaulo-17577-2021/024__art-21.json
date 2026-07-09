@@ -1,0 +1,53 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17577-2021::024-art-21",
+  "lei_id": "lei-municipal-saopaulo-17577-2021",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 21",
+  "numero": "21",
+  "header_raw": "Art. 21. O Poder Executivo adotará as medidas necessárias para otimizar o processo de análise dos",
+  "caminho_hierarquico": [
+    "CAPÍTULO IV",
+    "Art. 21"
+  ],
+  "texto": "Art. 21. O Poder Executivo adotará as medidas necessárias para otimizar o processo de análise dos\n\npedidos de requalificação formulados com base nesta lei, considerando-se, para a definição do\n\nprocedimento cabível, a complexidade das intervenções.\n\n§ 1º Deverão ser adotadas as medidas necessárias para a desburocratização dos processos de\n\nrequalificação nos termos do caput deste artigo, inclusive daqueles que demandem a aprovação pelos\n\nórgãos de preservação do patrimônio, utilizando-se, sempre que possível, o Escritório Técnico de\n\nGestão Compartilhada de que trata o inciso IX do art. 313 da Lei nº 16.050, de 2014, e avaliando-se a\n\nfixação de prazos para os demais órgãos envolvidos na aprovação.\n\n§ 2º A otimização do processo de análise de que trata o caput deste artigo, mediante a definição do\n\nprocedimento cabível em decorrência da complexidade das intervenções, bem como as medidas de\n\nque trata o § 1º deste artigo, poderão ser implementadas, de forma geral, para os demais pedidos de\n\nrequalificação formulados com base nos arts. 77 e 78 da Lei nº 16.642, de 2017.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.577/2021 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO IV › Art. 21",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17577-de-20-de-julho-de-2021",
+    "vigencia": {
+      "inicio": "2021-07-20",
+      "em_vigor": true,
+      "observacao": "Consolidada com alterações das Leis 17.844/2022, 18.065/2023, 18.081/2024, 18.330/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.844/2022 (art. 16)",
+        "Lei 18.065/2023 (altera a lei - arts. 16, 16-A)",
+        "Lei 18.081/2024 (amplia perímetro - setores 017/025/026 Brás)",
+        "Lei 18.330/2025 (art. 16-III, 16-B)"
+      ]
+    }
+  },
+  "tema": [
+    "Requalifica_Centro",
+    "incentivo_fiscal",
+    "isencao",
+    "retrofit",
+    "outorga_onerosa",
+    "ZEPEC_BIR",
+    "remissao_IPTU"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o Programa Requalifica Centro, estabelecendo incentivos e o regime específico para a requalificação de edificações situadas na Área Central, e dá outras providências."
+}

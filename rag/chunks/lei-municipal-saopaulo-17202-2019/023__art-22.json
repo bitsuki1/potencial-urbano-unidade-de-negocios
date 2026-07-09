@@ -1,0 +1,54 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17202-2019::023-art-22",
+  "lei_id": "lei-municipal-saopaulo-17202-2019",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 22",
+  "numero": "22",
+  "header_raw": "Art. 22. Os interessados terão até 31 de dezembro de 2025 para protocolamento, acompanhado dos documentos exigidos e recolhimentos correspondentes, necessários à regularização de que trata esta Lei. (Redação dada pela Lei nº 18.209/2024)",
+  "caminho_hierarquico": [
+    "CAPÍTULO IX",
+    "Art. 22"
+  ],
+  "texto": "Art. 22. Os interessados terão até 31 de dezembro de 2025 para protocolamento, acompanhado dos documentos exigidos e recolhimentos correspondentes, necessários à regularização de que trata esta Lei. (Redação dada pela Lei nº 18.209/2024)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "2024",
+    "norma_redacao": "Lei nº 18.209/2024"
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.202/2019 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO IX › Art. 22",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17202-de-16-de-outubro-de-2019",
+    "vigencia": {
+      "inicio": "2020-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 22 prorrogado até 31/12/2025 (Lei 18.209/2024). Arts. 6, 8, 9 e 14 alterados pela Lei 18.270/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.346/2020 (art. 22)",
+        "Lei 17.556/2021 (art. 22)",
+        "Lei 17.771/2022 (art. 22)",
+        "Lei 18.062/2023 (art. 22)",
+        "Lei 18.209/2024 (art. 22)",
+        "Lei 18.270/2025 (arts. 6, 8, 9, 14)"
+      ]
+    }
+  },
+  "tema": [
+    "regularizacao_edificacoes",
+    "outorga_onerosa",
+    "permeabilidade",
+    "FUNDURB"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a regularização de edificações, condicionada, quando necessário, à realização de obras, nos termos da previsão do art. 367 do Plano Diretor Estratégico."
+}

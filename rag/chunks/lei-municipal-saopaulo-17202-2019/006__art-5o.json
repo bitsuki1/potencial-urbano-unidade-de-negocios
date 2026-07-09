@@ -1,0 +1,52 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17202-2019::006-art-5o",
+  "lei_id": "lei-municipal-saopaulo-17202-2019",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 5º",
+  "numero": "5",
+  "header_raw": "Art. 5º Independentemente da solicitação ou de protocolamento de requerimento serão consideradas regulares as edificações residenciais das categorias de uso R, R1 e R2h de padrões baixo e médio e que conste com isenção total na notificação de Imposto Predial e Territorial Urbano – IPTU referente ao ano de 2014.",
+  "caminho_hierarquico": [
+    "CAPÍTULO IV",
+    "Art. 5º"
+  ],
+  "texto": "Art. 5º Independentemente da solicitação ou de protocolamento de requerimento serão consideradas regulares as edificações residenciais das categorias de uso R, R1 e R2h de padrões baixo e médio e que conste com isenção total na notificação de Imposto Predial e Territorial Urbano – IPTU referente ao ano de 2014.\n\n§ 1º Não se aplica o caput deste artigo às edificações enquadradas nas hipóteses descritas pelo art. 3º desta Lei.\n\n§ 2º Também não se aplica o previsto no caput deste artigo às hipóteses que dependam de anuências relacionadas nos itens I e II do art. 4º desta Lei, bem como àquelas que, conforme previsto em seu art. 13, demandem o recolhimento de outorga onerosa para a regularização, casos nos quais o requerente deverá proceder de acordo com o previsto no art. 9º.\n\n§ 3º Os imóveis situados nas zonas ZOE, ZEP, ZEPAM, ZEPAG, ZERp, ZPDS e ZLT serão excluídos do procedimento automático.\n\n§ 4º Caso seja constatado, posteriormente, que a edificação não seria passível de regularização automática nos termos do caput deste artigo por se enquadrar em um dos casos previstos em seus §§ 1º, 2º e 3º a mesma retornará ao cadastro de edificações irregulares do Município.\n\n§ 5º Ficam canceladas as multas incidentes sobre as edificações de que trata o caput deste artigo, decorrentes da aplicação da legislação edilícia e de uso e ocupação do solo, aplicadas até a data da publicação desta Lei, vedada a restituição dos valores pagos a esse título.\n\n§ 6º O disposto no § 5º deste artigo aplica-se inclusive aos casos sob apreciação judicial, desde que o interessado manifeste-se expressamente nos autos do processo judicial, e arque com os ônus sucumbenciais.\n\n§ 7º Para as edificações de que trata o caput deste artigo não será cobrado qualquer tipo de taxa ou preço público para regularização das edificações.\n\n§ 8º Para as edificações de que trata o caput deste artigo, a inclusão e a comprovação de regularidade serão disponibilizadas ao interessado no prazo de 1 (um) ano após a regulamentação desta Lei.\n\nCAPÍTULO V\n\nDO PROCEDIMENTO DECLARATÓRIO",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.202/2019 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO IV › Art. 5º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17202-de-16-de-outubro-de-2019",
+    "vigencia": {
+      "inicio": "2020-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 22 prorrogado até 31/12/2025 (Lei 18.209/2024). Arts. 6, 8, 9 e 14 alterados pela Lei 18.270/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.346/2020 (art. 22)",
+        "Lei 17.556/2021 (art. 22)",
+        "Lei 17.771/2022 (art. 22)",
+        "Lei 18.062/2023 (art. 22)",
+        "Lei 18.209/2024 (art. 22)",
+        "Lei 18.270/2025 (arts. 6, 8, 9, 14)"
+      ]
+    }
+  },
+  "tema": [
+    "regularizacao_edificacoes",
+    "outorga_onerosa",
+    "permeabilidade",
+    "FUNDURB"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a regularização de edificações, condicionada, quando necessário, à realização de obras, nos termos da previsão do art. 367 do Plano Diretor Estratégico."
+}

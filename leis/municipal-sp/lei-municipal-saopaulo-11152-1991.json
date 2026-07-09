@@ -9,56 +9,131 @@
   "tema": [
     "valor_venal",
     "VVC",
-    "calculo"
+    "calculo",
+    "aliquotas_iptu",
+    "iptu_predial",
+    "iptu_territorial",
+    "taxas_limpeza",
+    "taxas_conservacao",
+    "fator_obsolescencia",
+    "fator_condominio",
+    "fator_esquina"
   ],
   "dispositivos_chave": [
-    "Art. 11: o valor venal da construcao (VVC) resulta da combinacao entre area construida, valor do m2 conforme a zona, e fator de obsolescencia (idade da edificacao)",
-    "Construcao enquadrada em tipo/padrao da Tabela V",
-    "VVC = area construida bruta x valor unitario m2 (Tabela VI) x fator de obsolescencia (Tabela IV)",
-    "Fator Condominio: quando (valor venal terreno / valor venal construcao) < 0,20, Fator Condominio = 2,20 - 3 x indice obtido"
+    "Art. 1º-I: alíquotas progressivas IPTU predial residencial (0,20%–1,00%) e não-residencial (0,60%–2,40%) sobre VVI em UFM",
+    "Art. 1º-IV: alíquotas progressivas IPTU territorial (0,75%–5,00%) sobre VVI em UFM",
+    "Art. 2º: Fator Condomínio — quando (VVterreno/VVconstrução) < 0,20 → FC = 2,20 − 3×índice; entre 2,01–7,00 → FC = 1,80 − 1/10×índice; > 7,00 → FC = 1,10",
+    "Art. 3º-I: Fatores de Esquina (1ª subdivisão 1,30; 2ª 1,20; além 1,10; Z1 Tipo 1 1,00)",
+    "Art. 3º-II: Fatores Diversos (encravado 0,50; fundo 0,60; interno 0,70; condomínio 1,60)",
+    "Art. 3º-III: Tabela IV completa (60 linhas) — fatores de obsolescência por idade do prédio",
+    "Art. 5º: atualiza Tabela VI (valores unitários m² construção) — Anexo I",
+    "Art. 8º: isenção IPTU para imóveis residenciais padrões A/B/C com VV ≤ 280 UFM"
   ],
   "vigencia": {
+    "inicio": "1992-01-01",
     "em_vigor": true,
-    "observacao": "Vigente; metodologia base do VVC, complementada pela Lei 15.889/2013."
+    "observacao": "Arts. 5º e 6º revogados (Lei 11.457/1993 e Lei 14.125/2005 respectivamente). Demais artigos vigentes; metodologia base do VVC, complementada pela Lei 15.889/2013.",
+    "altera": [
+      "Lei 6.989/1966 (arts. 7, 17, 19, 27, 37, 39, 87, 94)",
+      "Lei 10.235/1986 (art. 8, Tabelas II/III/IV/VI)",
+      "Lei 10.819/1989 (art. 5)"
+    ],
+    "alterada_por": [
+      "Lei 11.457/1993 (revoga art. 5§3)",
+      "Lei 14.125/2005 (revoga art. 6)",
+      "Lei 15.889/2013 (complementa)"
+    ]
   },
   "remissoes": [
     {
-      "norma": "Lei 10.235/1986",
-      "relacao": "tabelas PGV (V, VI, IV)"
+      "norma": "Lei 6.989/1966",
+      "relacao": "código tributário municipal base — arts. 7, 17, 19, 27, 37, 39, 87, 94 alterados pelo Art. 1º; arts. 20 e 40 alterados pelo Art. 9º"
     },
     {
-      "norma": "Lei 6.989/1966",
-      "relacao": "codigo tributario base"
+      "norma": "Lei 10.235/1986",
+      "relacao": "PGV — art. 8 alterado pelo Art. 2º; Tabelas II/III/IV alteradas pelo Art. 3º; Tabela VI atualizada pelo Art. 5º e Anexo I"
+    },
+    {
+      "norma": "Lei 10.394/1987",
+      "relacao": "redação anterior dos arts. 7, 17, 19, 27, 37, 39, 87, 94 da Lei 6.989/1966"
+    },
+    {
+      "norma": "Lei 10.805/1989",
+      "relacao": "redação anterior dos arts. 7, 17, 19, 27, 37, 39, 87, 94 da Lei 6.989/1966; redação anterior dos arts. 20 e 40 da Lei 6.989/1966"
+    },
+    {
+      "norma": "Lei 10.819/1989",
+      "relacao": "art. 5 (infrações cadastrais) alterado pelo Art. 4º; infrações anistiadas pelo Art. 7º"
+    },
+    {
+      "norma": "Lei 10.921/1990",
+      "relacao": "redação anterior dos arts. 7, 17, 19, 27, 37, 39, 87, 94 da Lei 6.989/1966; redação anterior da Tabela VI da Lei 10.235/1986"
+    },
+    {
+      "norma": "Lei 11.457/1993",
+      "relacao": "revoga art. 5º §3º desta lei"
+    },
+    {
+      "norma": "Lei 14.125/2005",
+      "relacao": "revoga art. 6º desta lei"
     },
     {
       "norma": "Lei 15.889/2013",
-      "relacao": "complementa metodologia"
+      "relacao": "complementa metodologia de cálculo do VVC"
+    },
+    {
+      "norma": "Decreto 31.088/1992",
+      "relacao": "regulamenta art. 6º (desconto ITU para obras em andamento)"
+    },
+    {
+      "norma": "Decreto 60.036/2020",
+      "relacao": "correlação indicada no catálogo"
+    },
+    {
+      "norma": "Lei 11.334/1992",
+      "relacao": "correlação indicada no catálogo"
+    },
+    {
+      "norma": "Lei 11.458/1993",
+      "relacao": "correlação indicada no catálogo"
+    },
+    {
+      "norma": "Lei 12.782/1998",
+      "relacao": "correlação indicada no catálogo"
     }
   ],
   "jurisprudencia_relacionada": [],
   "tem_tabela": true,
   "tabelas_extraidas": [
-    "Tabela IV (fator obsolescencia)",
-    "Tabela V (tipos/padroes)",
-    "Tabela VI (valor unitario m2)"
+    "Art. 1º-I: alíquotas IPTU predial residencial (5 faixas VVI em UFM)",
+    "Art. 1º-I: alíquotas IPTU predial não-residencial (8 faixas VVI em UFM)",
+    "Art. 1º-IV: alíquotas IPTU territorial (9 faixas VVI em UFM)",
+    "Art. 1º-VII: Taxa de Limpeza Pública — prédio residencial (3 subdivisões)",
+    "Art. 1º-VII: Taxa de Limpeza Pública — prédio não-residencial (3 subdivisões)",
+    "Art. 1º-VII: Taxa de Limpeza Pública — terreno (3 subdivisões)",
+    "Art. 1º-VIII: Taxa de Conservação de Vias (3 faixas por tipo de via)",
+    "Tabela II — Fatores de Esquina (4 linhas)",
+    "Tabela III — Fatores Diversos (4 linhas + Observação Fator Condomínio)",
+    "Tabela IV — Fatores de Obsolescência (62 linhas, idade 0–60+)",
+    "Anexo I — Tabela VI: valores unitários m² construção (24 tipo-padrões, Cr$)"
   ],
   "tem_formula": true,
   "formulas_referenciadas": [
-    "VVC = area construida bruta x valor unitario m2 (Tab VI) x fator obsolescencia (Tab IV)",
-    "Fator Condominio = 2,20 - 3 x (VVterreno/VVconstrucao) quando indice < 0,20"
+    "Fator Condomínio: se índice (VVterreno/VVconstrução) < 0,20 → FC = 2,20 − 3×índice; se entre 2,01 e 7,00 → FC = 1,80 − 1/10×índice; se > 7,00 → FC = 1,10",
+    "IPTU predial = soma das porções do VVI em cada faixa × alíquota correspondente (progressividade por faixas)",
+    "IPTU territorial = soma das porções do VVI em cada faixa × alíquota correspondente (progressividade por faixas)"
   ],
   "fonte": {
     "origem": "web-oficial",
     "url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-11152-de-30-de-dezembro-de-1991",
-    "hash": "sha256:cfc313dd7fd73da32727cb2a6e6694f4cf6f72f14fc1a3bacdf764133f4cf46f",
-    "ocr": false,
-    "metodo": "WebSearch (nao-verbatim; WebFetch/curl bloqueados HTTP 403)",
-    "obs": "texto nao-verbatim; capturado via WebSearch por bloqueio de WebFetch/curl (HTTP 403).",
+    "hash": "sha256:8d56d2db47ab8694429d7335392819dadf8fb3bccc8f700cffa03f944a43d32f",
     "hash_alvo": "leis/municipal-sp/lei-municipal-saopaulo-11152-1991.md",
-    "hash_nota": "hash da transcrição do corpus (.md) — cru ausente localmente (B-4/B-9); trocar pelo hash do cru quando ele chegar"
+    "ocr": false,
+    "metodo": "PDF-texto Catálogo de Legislação Municipal via Google Drive MCP",
+    "obs": "texto verbatim consolidado (catálogo); capturado via Google Drive MCP read_file_content."
   },
-  "status_pipeline": "bruto",
-  "confianca_extracao": "baixa",
+  "status_pipeline": "tagueado",
+  "confianca_extracao": "alta",
   "revisado_por_humano": false,
   "dominio_primario": "iptu",
   "dominio": [

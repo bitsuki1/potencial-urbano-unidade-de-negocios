@@ -5,52 +5,148 @@
   "jurisdicao": "São Paulo/SP",
   "numero": "17.202",
   "ano": 2019,
-  "ementa": "Lei de regularização de edificações ('anistia'): dispõe sobre a regularização de edificações e remissão de créditos tributários de IPTU decorrentes das regularizações; relaciona-se ao tema de benefício fiscal de IPTU (enchentes) na cadeia 17.202/2019 + 17.759/2022.",
+  "ementa": "Dispõe sobre a regularização de edificações, condicionada, quando necessário, à realização de obras, nos termos da previsão do art. 367 do Plano Diretor Estratégico.",
   "tema": [
-    "enchentes",
-    "regularizacao",
-    "remissao",
-    "isencao"
+    "regularizacao_edificacoes",
+    "outorga_onerosa",
+    "permeabilidade",
+    "FUNDURB"
   ],
   "dispositivos_chave": [
-    "Regularizacao de edificacoes (anistia) — adequacao a normas de construcao e ocupacao do solo",
-    "Regularizacao automatica de edificacoes residenciais R/R1/R2h de padrao baixo e medio com isencao total no IPTU de 2014",
-    "Remissao dos creditos tributarios de IPTU preteritos decorrentes das regularizacoes"
+    "Art. 1º: regularização de edificações concluídas até 31/07/2014 (art. 367 PDE)",
+    "Art. 5º: regularização automática para R/R1/R2h padrões baixo/médio com isenção total IPTU 2014",
+    "Art. 11: fórmula permeabilidade: V = {0,15 × (S − Sp)} × IP × t (IP = 0,06 m/h; t = 1h)",
+    "Art. 13: outorga onerosa regularização: C = (At/Ac) × V × Fs × Fp × Fr (Fr = 1,2; Fr = 0,5 com demolição; Fr = 0 em APP)",
+    "Art. 22: prazo protocolamento até 31/12/2025 (redação Lei 18.209/2024)",
+    "Art. 26: remissão créditos tributários IPTU pretéritos"
   ],
   "vigencia": {
+    "inicio": "2020-01-01",
     "em_vigor": true,
-    "observacao": "ATENCAO: as buscas indicam que o NUCLEO desta lei e regularizacao de edificacoes/anistia, com remissao de IPTU. O beneficio especifico de ISENCAO de IPTU para imoveis atingidos por ENCHENTES foi facilitado/regulamentado pela Lei 17.759/2022. A atribuicao 'enchente = 17.202/2019 (+17.759/2022)' foi dada pela tarefa (correcao do projeto); CONFIRMAR na re-captura verbatim qual dispositivo da 17.202/2019 trata de enchente."
+    "observacao": "Art. 22 prorrogado até 31/12/2025 (Lei 18.209/2024). Arts. 6, 8, 9 e 14 alterados pela Lei 18.270/2025.",
+    "altera": [],
+    "alterada_por": [
+      "Lei 17.346/2020 (art. 22)",
+      "Lei 17.556/2021 (art. 22)",
+      "Lei 17.771/2022 (art. 22)",
+      "Lei 18.062/2023 (art. 22)",
+      "Lei 18.209/2024 (art. 22)",
+      "Lei 18.270/2025 (arts. 6, 8, 9, 14)"
+    ]
   },
   "remissoes": [
     {
-      "norma": "Lei 17.759/2022",
-      "relacao": "facilita isencao de IPTU a imoveis atingidos por enchente (par desta cadeia)"
+      "norma": "Lei Municipal 16.050/2014 (PDE)",
+      "relacao": "art. 367 — fundamento da regularização; Quadro 14 — Cadastro de Valor de Terreno para outorga onerosa (art. 13 §1)"
     },
     {
-      "norma": "Decreto 48.767/2007",
-      "relacao": "alterado quanto a beneficio de imoveis afetados por enchente"
+      "norma": "Lei Municipal 13.885/2004 (LPUOS antiga)",
+      "relacao": "art. 247 — restrições convencionais de loteamentos (art. 3 VII); Quadro 16A — Fs fator de interesse social (art. 13 §1); Quadro 15A — Fp fator de planejamento (art. 13 §1); arts. 199-200 — estoque de potencial construtivo (art. 13 §6)"
+    },
+    {
+      "norma": "Lei Municipal 16.642/2017 (COE)",
+      "relacao": "art. 103 — melhoramento viário (art. 3 V); padronização de projeto (arts. 6 §2 V, 9 IV); rito subsidiário (arts. 7, 10); Anexo I item 6 — definições (art. 12 §1); art. 68 — anulação de certificado (art. 18)"
+    },
+    {
+      "norma": "Lei Municipal 10.209/1986",
+      "relacao": "Operação Interligada — impedimento à regularização (art. 3 II)"
+    },
+    {
+      "norma": "Lei Municipal 11.773/1995",
+      "relacao": "Operação Interligada — impedimento à regularização (art. 3 II)"
+    },
+    {
+      "norma": "Lei Municipal 10.676/1988",
+      "relacao": "marco temporal para planos de melhoramento viário (art. 3 V) e edificações em terrenos públicos (arts. 6 §2 IV, 9 par.ún.)"
+    },
+    {
+      "norma": "Lei Municipal 8.006/1974 (Lei de Hotéis)",
+      "relacao": "parâmetros específicos aplicáveis na outorga onerosa (art. 13 §9 I)"
+    },
+    {
+      "norma": "Lei Municipal 13.703/2003 (Lei de Teatro)",
+      "relacao": "parâmetros específicos aplicáveis na outorga onerosa (art. 13 §9 II)"
+    },
+    {
+      "norma": "Lei Municipal 14.242/2006 (Lei de Hospitais)",
+      "relacao": "parâmetros específicos aplicáveis na outorga onerosa (art. 13 §9 III)"
+    },
+    {
+      "norma": "Lei Municipal 15.526/2012 (Lei de Escolas e Hospitais)",
+      "relacao": "parâmetros específicos aplicáveis na outorga onerosa (art. 13 §9 IV)"
+    },
+    {
+      "norma": "Decreto Federal 5.296/2004",
+      "relacao": "acessibilidade de templos religiosos (art. 12 §4)"
+    },
+    {
+      "norma": "Decreto Federal 10.014/2019",
+      "relacao": "alteração do Decreto 5.296/2004 — acessibilidade de templos religiosos (art. 12 §4)"
+    },
+    {
+      "norma": "Lei Municipal 17.346/2020",
+      "relacao": "alterou art. 22 (prazo de protocolamento)"
+    },
+    {
+      "norma": "Lei Municipal 17.556/2021",
+      "relacao": "alterou art. 22 (prazo de protocolamento)"
+    },
+    {
+      "norma": "Lei Municipal 17.771/2022",
+      "relacao": "alterou art. 22 (prazo de protocolamento)"
+    },
+    {
+      "norma": "Lei Municipal 18.062/2023",
+      "relacao": "alterou art. 22 (prazo de protocolamento)"
+    },
+    {
+      "norma": "Lei Municipal 18.209/2024",
+      "relacao": "alterou art. 22 — prazo até 31/12/2025 (redação vigente)"
+    },
+    {
+      "norma": "Lei Municipal 18.270/2025",
+      "relacao": "alterou arts. 6, 8, 9 e 14 (procedimento declaratório, ISS)"
+    },
+    {
+      "norma": "Decreto Municipal 59.282/2020",
+      "relacao": "regulamentação"
+    },
+    {
+      "norma": "Decreto Municipal 59.311/2020",
+      "relacao": "regulamentação"
+    },
+    {
+      "norma": "Decreto Municipal 60.061/2021",
+      "relacao": "regulamentação"
+    },
+    {
+      "norma": "Decreto Municipal 60.566/2021",
+      "relacao": "prorrogação de prazo (180 dias a partir de 01/10/2021)"
     }
   ],
   "jurisprudencia_relacionada": [],
   "tem_tabela": false,
   "tabelas_extraidas": [],
-  "tem_formula": false,
-  "formulas_referenciadas": [],
+  "tem_formula": true,
+  "formulas_referenciadas": [
+    "Art. 11: V = {0,15 x (S - Sp)} x IP x t (permeabilidade/reservatório)",
+    "Art. 13 §1: C = (At/Ac) x V x Fs x Fp x Fr (outorga onerosa para regularização)"
+  ],
   "fonte": {
     "origem": "web-oficial",
-    "url": "https://legislacao.prefeitura.sp.gov.br/lei-17202-de-16-de-outubro-de-2019",
-    "hash": "sha256:da9348c459b4fa49df44d278be0097bb61b80c6e22b1be8e5b9b6a9c54bfd61e",
+    "url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17202-de-16-de-outubro-de-2019",
+    "path": "leis/municipal-sp/lei-municipal-saopaulo-17202-2019.md",
+    "hash": "sha256:2c2955510a5882db4d163508e096bbbac9e3597334e8daa3ea8a6550f21d8c25",
     "ocr": false,
-    "metodo": "WebSearch (nao-verbatim; WebFetch/curl bloqueados HTTP 403)",
-    "obs": "texto nao-verbatim; capturado via WebSearch por bloqueio de WebFetch/curl (HTTP 403).",
-    "hash_alvo": "leis/municipal-sp/lei-municipal-saopaulo-17202-2019.md",
-    "hash_nota": "hash da transcrição do corpus (.md) — cru ausente localmente (B-4/B-9); trocar pelo hash do cru quando ele chegar"
+    "metodo": "PDF-texto Catálogo de Legislação Municipal via Google Drive MCP",
+    "obs": "texto verbatim consolidado (catálogo); capturado via Google Drive MCP read_file_content.",
+    "hash_alvo": "leis/municipal-sp/lei-municipal-saopaulo-17202-2019.md"
   },
-  "status_pipeline": "bruto",
-  "confianca_extracao": "baixa",
+  "status_pipeline": "tagueado",
+  "confianca_extracao": "alta",
   "revisado_por_humano": false,
-  "dominio_primario": "iptu",
+  "dominio_primario": "compartilhado",
   "dominio": [
-    "iptu"
+    "compartilhado"
   ]
 }

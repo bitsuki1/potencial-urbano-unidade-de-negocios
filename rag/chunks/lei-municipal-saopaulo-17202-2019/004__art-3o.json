@@ -1,0 +1,52 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17202-2019::004-art-3o",
+  "lei_id": "lei-municipal-saopaulo-17202-2019",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 3º",
+  "numero": "3",
+  "header_raw": "Art. 3º Não serão passíveis de regularização nos termos desta Lei as edificações que:",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Art. 3º"
+  ],
+  "texto": "Art. 3º Não serão passíveis de regularização nos termos desta Lei as edificações que:\n\nI - estejam edificadas em logradouros ou terrenos públicos sem permissão ou que avancem sobre eles;\n\nII - tenham sido objeto de Operação Interligada nos termos das Leis nº 10.209, de 9 de setembro de 1986, e nº 11.773, de 18 de maio de 1995;\n\nIII - sejam ou tenham sido objeto das Operações Urbanas ou Operações Urbanas Consorciadas;\n\nIV - estejam situadas em faixas não edificáveis junto a represas, lagos, lagoas, córregos, fundo de vale, faixa de escoamento de águas pluviais, galerias, canalizações e linhas de transmissão de energia de alta tensão;\n\nV - atingidas por melhoramento viário previsto em lei, na forma estabelecida no art. 103 da Lei nº 16.642, de 9 de maio de 2017, exceto aos planos de melhoramento publicados anteriormente a 8 de novembro de 1988, data de entrada em vigor da Lei nº 10.676, de 7 de novembro de 1988, desde que não exista declaração de utilidade pública em vigor por ocasião da emissão da aprovação do projeto;\n\nVI – (VETADO)\n\nVII - não atendam às restrições convencionais de loteamentos aprovados pela Prefeitura, nos termos do disposto no art. 247 da Lei nº 13.885, de 25 de agosto de 2004.\n\nCAPÍTULO III\n\nDAS ANUÊNCIAS",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.202/2019 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Art. 3º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17202-de-16-de-outubro-de-2019",
+    "vigencia": {
+      "inicio": "2020-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 22 prorrogado até 31/12/2025 (Lei 18.209/2024). Arts. 6, 8, 9 e 14 alterados pela Lei 18.270/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.346/2020 (art. 22)",
+        "Lei 17.556/2021 (art. 22)",
+        "Lei 17.771/2022 (art. 22)",
+        "Lei 18.062/2023 (art. 22)",
+        "Lei 18.209/2024 (art. 22)",
+        "Lei 18.270/2025 (arts. 6, 8, 9, 14)"
+      ]
+    }
+  },
+  "tema": [
+    "regularizacao_edificacoes",
+    "outorga_onerosa",
+    "permeabilidade",
+    "FUNDURB"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a regularização de edificações, condicionada, quando necessário, à realização de obras, nos termos da previsão do art. 367 do Plano Diretor Estratégico."
+}

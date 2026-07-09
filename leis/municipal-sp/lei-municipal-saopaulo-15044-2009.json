@@ -5,53 +5,103 @@
   "jurisdicao": "São Paulo/SP",
   "numero": "15.044",
   "ano": 2009,
-  "ementa": "Atualiza os valores unitários de metro quadrado de construção e de terreno previstos na Lei nº 10.235, de 16 de dezembro de 1986, institui novos padrões de construção e dispõe sobre o Imposto Predial e Territorial Urbano.",
+  "ementa": "Atualiza os valores unitários de metro quadrado de construção e de terreno previstos na Lei nº 10.235, de 16 de dezembro de 1986; institui novos padrões de construção e dispõe sobre o Imposto Predial e Territorial Urbano.",
   "tema": [
-    "PGV",
-    "tipologias_construtivas",
+    "imposto_predial",
+    "imposto_territorial_urbano",
+    "pgv",
+    "aliquota_progressiva",
     "valor_venal",
+    "tabela_vi",
+    "valor_m2_construcao",
+    "valor_m2_terreno",
+    "tipologias_construtivas",
+    "isencao",
     "calculo"
   ],
   "dispositivos_chave": [
-    "Atualiza valores unitarios de m2 de construcao e de terreno da Lei 10.235/1986",
-    "Institui novos padroes/tipologias de construcao",
-    "Art. 10: obriga o Executivo a enviar a Camara, no primeiro ano de cada mandato, projeto de revisao dos valores venais de terrenos e edificacoes (revisao periodica da PGV)"
+    "Art. 1º: institui padrão F (tipos 1/2 residencial) e padrão E (tipos 3/4 comercial) na Tabela V",
+    "Art. 2º: Tabela VI nova — valores unitários m² construção (31 combinações tipo-padrão, de R$ 315 a R$ 1.555)",
+    "Art. 3º: novos valores unitários m² de terreno (Listagem de Valores, Anexo III — publicado em suplemento DOC)",
+    "Art. 4º: faixas desconto/acréscimo IPTU predial residencial (-0,2% a +0,6% por faixa de valor venal)",
+    "Art. 5º/6º: faixas desconto/acréscimo IPTU predial não-residencial e territorial (-0,3% a +0,5%)",
+    "Art. 7º: isenção IPTU predial para VV ≤ R$ 70.000 e padrões A/B/C tipo 1/2 para VV entre R$ 70.001 e R$ 92.500",
+    "Art. 7º (art. 3º da Lei 13.698/2003): desconto de R$ 37.000 sobre VV para residencial A/B/C tipo 1/2 entre R$ 92.500 e R$ 185.000",
+    "Art. 8º: limitação da diferença nominal do IPTU a 30% (residencial) e 45% (demais) entre exercícios (2010-2012)",
+    "Art. 9º: limite de R$ 4.800/m² de terreno para tipo 2 residencial vertical",
+    "Art. 10: obrigação do Executivo de enviar revisão da PGV até 15/10 do 1º ano de mandato (redação dada pela Lei 15.889/2013)",
+    "Art. 11: vigência a partir de 01/01/2010; acréscimo de 0,5% dos arts. 5º/6º só após 90 dias da publicação"
   ],
   "vigencia": {
+    "inicio": "2010-01-01",
     "em_vigor": true,
-    "observacao": "Vigente; integra a cadeia de atualizacao da PGV."
+    "observacao": "Art. 10 alterado pela Lei 15.889/2013. Demais artigos vigentes. Tabela VI e listagem de valores m² terreno são os valores-base vigentes para cálculo do IPTU.",
+    "altera": [
+      "Lei 10.235/1986 (Tabelas V e VI, Listagem de Valores)",
+      "Lei 6.989/1966 (arts. 7-A, 8-A, 28)",
+      "Lei 13.698/2003 (arts. 1-3)",
+      "Lei 14.256/2006 (art. 24)"
+    ],
+    "alterada_por": [
+      "Lei 15.889/2013 (altera art. 10)"
+    ]
   },
   "remissoes": [
     {
       "norma": "Lei 10.235/1986",
-      "relacao": "atualiza valores e padroes"
+      "relacao": "lei-mãe da PGV; esta lei substitui Tabela V (acréscimo padrões F e E), Tabela VI (valores m² construção) e Listagem de Valores (m² terreno)"
     },
     {
       "norma": "Lei 6.989/1966",
-      "relacao": "codigo tributario base"
+      "relacao": "código tributário base; arts. 7º-A (predial residencial), 8º-A (predial não-residencial) e 28 (territorial) recebem novas faixas de desconto/acréscimo"
+    },
+    {
+      "norma": "Lei 13.475/2002",
+      "relacao": "redação anterior dos arts. 7º-A, 8º-A e 28 da Lei 6.989/1966, substituída por esta lei"
+    },
+    {
+      "norma": "Lei 13.698/2003",
+      "relacao": "arts. 1º, 2º e 3º recebem nova redação (isenções e desconto IPTU predial, exercício 2010 em diante)"
+    },
+    {
+      "norma": "Lei 14.089/2005",
+      "relacao": "art. 3º ressalvado pelo art. 7º desta lei (compatibilidade com isenções)"
+    },
+    {
+      "norma": "Lei 14.256/2006",
+      "relacao": "art. 24 (teto de m² de terreno para tipo 2 residencial) recebe nova redação — limite de R$ 4.800/m²"
+    },
+    {
+      "norma": "Lei 15.889/2013",
+      "relacao": "altera o art. 10 desta lei (obrigação de revisão periódica da PGV)"
     }
   ],
   "jurisprudencia_relacionada": [],
   "tem_tabela": true,
   "tabelas_extraidas": [
-    "Tabela de valores unitarios atualizados (m2 construcao e terreno)",
-    "Tabela de novos padroes construtivos / tipologias"
+    "Tabela VI — Tipos e Padrões de Construção — Valores Unitários de m² de Construção (Anexo II, 31 combinações tipo-padrão)",
+    "Tabela de desconto/acréscimo IPTU predial residencial (Art. 4º, art. 7º-A da Lei 6.989/1966)",
+    "Tabela de desconto/acréscimo IPTU predial não-residencial (Art. 5º, art. 8º-A da Lei 6.989/1966)",
+    "Tabela de desconto/acréscimo IPTU territorial (Art. 6º, art. 28 da Lei 6.989/1966)",
+    "Descrições de padrões F (tipos 1/2 residencial) e E (tipos 3/4 comercial) (Anexo I)"
   ],
   "tem_formula": false,
   "formulas_referenciadas": [],
   "fonte": {
-    "origem": "web-oficial",
+    "origem": "drive-mcp",
     "url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-15044-de-03-de-dezembro-de-2009",
-    "hash": "sha256:196cd516ed3eba656c11d5efad0d3214fe2a17f8785a52234668b1c9aa500fa0",
+    "path": "leis/municipal-sp/lei-municipal-saopaulo-15044-2009.md",
+    "hash": "sha256:b7e973676599535cffe9469cfc42ec4089a136c7bc3d0775fd3b92051fe4a97b",
     "ocr": false,
-    "metodo": "WebSearch (nao-verbatim; WebFetch/curl bloqueados HTTP 403)",
-    "obs": "texto nao-verbatim; capturado via WebSearch por bloqueio de WebFetch/curl (HTTP 403).",
+    "metodo": "PDF-texto Catálogo de Legislação Municipal via Google Drive MCP",
+    "obs": "texto verbatim consolidado (catálogo); capturado via Google Drive MCP read_file_content.",
     "hash_alvo": "leis/municipal-sp/lei-municipal-saopaulo-15044-2009.md",
-    "hash_nota": "hash da transcrição do corpus (.md) — cru ausente localmente (B-4/B-9); trocar pelo hash do cru quando ele chegar"
+    "drive_file_id": "1a9Y5eAQUrWHzWQQY_rjEeYR5sa6LqHjL"
   },
-  "status_pipeline": "bruto",
-  "confianca_extracao": "baixa",
+  "status_pipeline": "tagueado",
+  "confianca_extracao": "alta",
   "revisado_por_humano": false,
+  "verbatim_integral": true,
   "dominio_primario": "iptu",
   "dominio": [
     "iptu"

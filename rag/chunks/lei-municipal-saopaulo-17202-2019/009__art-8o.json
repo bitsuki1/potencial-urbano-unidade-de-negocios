@@ -1,0 +1,54 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17202-2019::009-art-8o",
+  "lei_id": "lei-municipal-saopaulo-17202-2019",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 8º",
+  "numero": "8",
+  "header_raw": "Art. 8º Os pedidos de regularização protocolados por meio do procedimento declaratório serão analisados e decididos pelo procedimento comum quando constatada alguma das seguintes situações:",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Art. 8º"
+  ],
+  "texto": "Art. 8º Os pedidos de regularização protocolados por meio do procedimento declaratório serão analisados e decididos pelo procedimento comum quando constatada alguma das seguintes situações:\n\nI - apresentar Certificado de Cadastro de Imóvel Rural – CCIR expedido pelo INCRA;\n\nII - incidência de duas ou mais zonas de uso na área de terreno objeto da regularização;\n\nIII - estiver localizado em zona ZOE ou ZEP;\n\nIV - necessite de anuência ou autorização do órgão competente conforme descrito no art. 4º desta Lei;\n\nV - necessite de execução de obras de adequação nos termos do § 2º do art. 1º;\n\nVI - conste processo em andamento referente à regularização e/ou reforma de edificação;\n\nVII - nos casos em que não seja emitido o Certificado de Declaração de ISS por pendência junto à Secretaria Municipal da Fazenda; (Redação dada pela Lei nº 18.270/2025)\n\nVIII - quando necessitar de parcelamento do solo.\n\nCAPÍTULO VI\n\nDO PROCEDIMENTO COMUM PARA REGULARIZAÇÃO DAS DEMAIS EDIFICAÇÕES",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "2025",
+    "norma_redacao": "Lei nº 18.270/2025"
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.202/2019 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO V › Art. 8º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17202-de-16-de-outubro-de-2019",
+    "vigencia": {
+      "inicio": "2020-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 22 prorrogado até 31/12/2025 (Lei 18.209/2024). Arts. 6, 8, 9 e 14 alterados pela Lei 18.270/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.346/2020 (art. 22)",
+        "Lei 17.556/2021 (art. 22)",
+        "Lei 17.771/2022 (art. 22)",
+        "Lei 18.062/2023 (art. 22)",
+        "Lei 18.209/2024 (art. 22)",
+        "Lei 18.270/2025 (arts. 6, 8, 9, 14)"
+      ]
+    }
+  },
+  "tema": [
+    "regularizacao_edificacoes",
+    "outorga_onerosa",
+    "permeabilidade",
+    "FUNDURB"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a regularização de edificações, condicionada, quando necessário, à realização de obras, nos termos da previsão do art. 367 do Plano Diretor Estratégico."
+}

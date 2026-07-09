@@ -1,0 +1,54 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17202-2019::010-art-9o",
+  "lei_id": "lei-municipal-saopaulo-17202-2019",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 9º",
+  "numero": "9",
+  "header_raw": "Art. 9º A regularização das edificações de que trata esta Lei que não se enquadrem na regularização automática prevista no art. 5º e no procedimento declaratório previsto em seu art. 6º, dependerá da apresentação, no prazo estabelecido no art. 22, dos seguintes documentos:",
+  "caminho_hierarquico": [
+    "CAPÍTULO VI",
+    "Art. 9º"
+  ],
+  "texto": "Art. 9º A regularização das edificações de que trata esta Lei que não se enquadrem na regularização automática prevista no art. 5º e no procedimento declaratório previsto em seu art. 6º, dependerá da apresentação, no prazo estabelecido no art. 22, dos seguintes documentos:\n\nI - requerimento por meio eletrônico, em formulário específico, totalmente preenchido, contendo declaração do proprietário ou possuidor ou responsável pelo uso e do responsável técnico responsabilizando-se, sob as penas legais, pela veracidade das informações e pelo atendimento dos requisitos previstos nesta Lei;\n\nII - comprovantes dos seguintes recolhimentos:\n\na) preço público;\n\nb) taxa específica para regularização relativa à área a ser regularizada no valor R$ 10,00 (dez reais) por metro quadrado;\n\nc) comprovante da declaração inicial do Imposto Sobre Serviços de Qualquer Natureza – ISS, relativo à área a ser regularizada, observado o art. 14 desta Lei; (Redação dada pela Lei nº 18.270/2025)\n\nIII - cópia da transcrição ou matrícula do imóvel, e, quando o requerente for possuidor, cópia de documento que o legitime, por meio de escritura, compromisso ou promessa de compra e venda ou cessão de direitos, ou doação pública ou particular, com ou sem registro na circunscrição imobiliária competente, bem como cópia do protocolo do processo de usucapião judicial ou extrajudicial ou decisão judicial reconhecendo o direito de usucapião, entre outros documentos que comprovem sua origem perante o Registro de Imóveis.\n\nParágrafo único. Exceto as edificações instaladas em terrenos públicos, destinados ao uso institucional, uso religioso e locais de culto sem fins lucrativos, anteriormente a 8 de Novembro de 1988, data de entrada em vigor da Lei nº 10.676, de 7 de novembro de 1988, poderão ser regularizadas de acordo com a presente Lei.\n\nIV - peças gráficas simplificadas, compostas de plantas, cortes da edificação e quadro de áreas, observadas as normas em vigor de padronização de projeto de acordo com a Lei nº 16.642, de 2017;\n\nV - prévia anuência ou autorização do órgão competente, conforme art. 4º desta Lei, quando for o caso.\n\n§ 1º Não será aceito requerimento desacompanhado das peças gráficas conforme estabelecido neste artigo.\n\n§ 2º As peças gráficas a que se refere o inciso IV do caput deste artigo deverão ser elaboradas e apresentadas por profissional habilitado, e inscrito no Cadastro de Contribuinte Mobiliário – CCM.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "2025",
+    "norma_redacao": "Lei nº 18.270/2025"
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.202/2019 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO VI › Art. 9º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17202-de-16-de-outubro-de-2019",
+    "vigencia": {
+      "inicio": "2020-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 22 prorrogado até 31/12/2025 (Lei 18.209/2024). Arts. 6, 8, 9 e 14 alterados pela Lei 18.270/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.346/2020 (art. 22)",
+        "Lei 17.556/2021 (art. 22)",
+        "Lei 17.771/2022 (art. 22)",
+        "Lei 18.062/2023 (art. 22)",
+        "Lei 18.209/2024 (art. 22)",
+        "Lei 18.270/2025 (arts. 6, 8, 9, 14)"
+      ]
+    }
+  },
+  "tema": [
+    "regularizacao_edificacoes",
+    "outorga_onerosa",
+    "permeabilidade",
+    "FUNDURB"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a regularização de edificações, condicionada, quando necessário, à realização de obras, nos termos da previsão do art. 367 do Plano Diretor Estratégico."
+}

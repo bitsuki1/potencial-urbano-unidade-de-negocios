@@ -1,0 +1,59 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-11152-1991::004-art-3o",
+  "lei_id": "lei-municipal-saopaulo-11152-1991",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 3º",
+  "numero": "3",
+  "header_raw": "Art. 3º As Tabelas II, III e IV, que integram a Lei nº 10.235, de 16 de dezembro de 1986, passam a vigorar com a seguinte redação:",
+  "caminho_hierarquico": [
+    "Art. 3º"
+  ],
+  "texto": "Art. 3º As Tabelas II, III e IV, que integram a Lei nº 10.235, de 16 de dezembro de 1986, passam a vigorar com a seguinte redação:\n\nI – \"TABELA II - Fatores de Esquina\"\n\n1\\. Terrenos situados na 1 a subdivisão da Zona Urbana 1,3000\n\n2\\. Terrenos situados na 2 a subdivisão da Zona Urbana 1,2000\n\n3\\. Terrenos situados além do perímetro da 2 a subdivisão da Zona Urbana 1,1000\n\n4\\. Terrenos ocupados por construções enquadradas no Tipo 1, da Tabela V, quando localizados em Zonas de Uso Estritamente Residencial (Z1) 1,0000\n\nII – \"TABELA III - Fatores Diversos\"\n\n1\\. Fator terreno encravado 0,50\n\n2\\. Fator terreno de fundo 0,60\n\n3\\. Fator terreno interno 0,70\n\n4\\. Fator condomínio 1,60\n\nObservação: Quando da divisão do valor venal do terreno (somado ao valor do excesso de área, nos casos cabíveis) pelo valor venal da construção resultar índice inferior a 0,20, o Fator Condomínio será igual a 2,20 subtraído de 3 (três) vezes o índice obtido; quando dessa divisão, resultar índice entre 2,01 a 7,00 o Fator Condomínio será igual a 1,80 subtraído de 1/10 (um décimo) do índice obtido; e quando dessa mesma divisão resultar índice superior a 7,00 o Fator Condomínio será igual a 1,10.\"\n\nIII – \"TABELA IV - Fatores de Obsolescência\" (Coeficientes de precisão do valor dos prédios, pela idade)\n\nIdade do Prédio | Fatores de obsolescência | Fatores de obsolescência\n(em anos) | para os Padrões \"a\" e \"b\", | para os Demais Padrões e\n | dos tipos 1 e 2, da Tabela V | Tipos Descritos na Tabela V\n\nMenor que 1 | 1,00 | 1,00\n1 | 0,99 | 0,99\n2 | 0,98 | 0,99\n3 | 0,97 | 0,98\n4 | 0,96 | 0,97\n5 | 0,94 | 0,96\n6 | 0,93 | 0,96\n7 | 0,92 | 0,95\n8 | 0,90 | 0,94\n9 | 0,89 | 0,93\n10 | 0,88 | 0,92\n11 | 0,86 | 0,91\n12 | 0,84 | 0,90\n13 | 0,83 | 0,89\n14 | 0,81 | 0,88\n15 | 0,79 | 0,88\n16 | 0,78 | 0,86\n17 | 0,76 | 0,85\n18 | 0,74 | 0,84\n19 | 0,72 | 0,83\n20 | 0,70 | 0,82\n21 | 0,68 | 0,81\n22 | 0,66 | 0,80\n23 | 0,64 | 0,79\n24 | 0,62 | 0,78\n25 | 0,59 | 0,76\n26 | 0,57 | 0,75\n27 | 0,55 | 0,74\n28 | 0,52 | 0,73\n29 | 0,50 | 0,71\n30 | 0,48 | 0,70\n31 | 0,45 | 0,69\n32 | 0,42 | 0,67\n33 | 0,40 | 0,66\n34 | 0,37 | 0,64\n35 | 0,34 | 0,63\n36 | 0,32 | 0,62\n37 | 0,29 | 0,60\n38 | 0,26 | 0,59\n39 | 0,23 | 0,57\n40 | 0,20 | 0,56\n41 | 0,20 | 0,54\n42 | 0,20 | 0,52\n43 | 0,20 | 0,51\n44 | 0,20 | 0,49\n45 | 0,20 | 0,48\n46 | 0,20 | 0,46\n47 | 0,20 | 0,44\n48 | 0,20 | 0,42\n49 | 0,20 | 0,41\n50 | 0,20 | 0,39\n51 | 0,20 | 0,37\n52 | 0,20 | 0,35\n53 | 0,20 | 0,33\n54 | 0,20 | 0,32\n55 | 0,20 | 0,30\n56 | 0,20 | 0,28\n57 | 0,20 | 0,26\n58 | 0,20 | 0,24\n59 | 0,20 | 0,22\n60 | 0,20 | 0,20\nmaiores que 60 | 0,20 | 0,20",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 11.152/1991 — São Paulo/SP",
+    "dispositivo": "Art. 3º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-11152-de-30-de-dezembro-de-1991",
+    "vigencia": {
+      "inicio": "1992-01-01",
+      "em_vigor": true,
+      "observacao": "Arts. 5º e 6º revogados (Lei 11.457/1993 e Lei 14.125/2005 respectivamente). Demais artigos vigentes; metodologia base do VVC, complementada pela Lei 15.889/2013.",
+      "altera": [
+        "Lei 6.989/1966 (arts. 7, 17, 19, 27, 37, 39, 87, 94)",
+        "Lei 10.235/1986 (art. 8, Tabelas II/III/IV/VI)",
+        "Lei 10.819/1989 (art. 5)"
+      ],
+      "alterada_por": [
+        "Lei 11.457/1993 (revoga art. 5§3)",
+        "Lei 14.125/2005 (revoga art. 6)",
+        "Lei 15.889/2013 (complementa)"
+      ]
+    }
+  },
+  "tema": [
+    "valor_venal",
+    "VVC",
+    "calculo",
+    "aliquotas_iptu",
+    "iptu_predial",
+    "iptu_territorial",
+    "taxas_limpeza",
+    "taxas_conservacao",
+    "fator_obsolescencia",
+    "fator_condominio",
+    "fator_esquina"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Altera a legislação relativa aos Impostos Predial e Territorial Urbano e às Taxas de Limpeza Pública e de Conservação de Vias e Logradouros Públicos, e dá outras providências."
+}

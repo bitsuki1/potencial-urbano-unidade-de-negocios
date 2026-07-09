@@ -58,6 +58,12 @@ COMPARTILHADO = {
         "Revisão parcial da LPUOS (Lei 16.402/2016): arts. 43-52 são TDC (equivalência, potencial "
         "construtivo) E parâmetros de zoneamento/CA/TO que refletem no IPTU. "
         "Mesma lógica da LPUOS (compartilhado).",
+    "lei-municipal-saopaulo-17202-2019":
+        "Regularização de edificações: Art. 13 fórmula outorga onerosa C=(At/Ac)×V×Fs×Fp×Fr "
+        "(potencial construtivo — TDC) E Art. 5/26 referem isenção/remissão IPTU (P3).",
+    "lei-municipal-saopaulo-17577-2021":
+        "Requalifica Centro: Art. 11 ZEPEC-BIR pode requisitar TDC E Art. 16 remissão/isenção IPTU "
+        "progressiva (3+5 anos). Serve aos dois domínios (P3).",
 }
 # --- TDC puro: efeito exclusivo de potencial construtivo. Hoje VAZIO em leis/ — a massa normativa TDC
 # (Decreto 57.536/2016, decretos ZEPEC/CONPRESP) ainda não foi ingerida; entrará marcada 'tdc'. ---

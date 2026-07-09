@@ -1,0 +1,54 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17577-2021::007-art-6o",
+  "lei_id": "lei-municipal-saopaulo-17577-2021",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 6º",
+  "numero": "6",
+  "header_raw": "Art. 6º Aplicam-se os seguintes incentivos urbanísticos à requalificação de edificações no âmbito do",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção II",
+    "Art. 6º"
+  ],
+  "texto": "Art. 6º Aplicam-se os seguintes incentivos urbanísticos à requalificação de edificações no âmbito do\n\nPrograma de que trata esta Lei:\n\nI - as áreas destinadas à instalação de usos não residenciais nos pavimentos térreo e cobertura do\n\nedifício requalificado serão consideradas não computáveis;\n\nII - a permissão de implantação de saliências e terraços, observadas as normas edilícias e garantida as\n\ncondições de aeração, insolação e segurança dos usuários;\n\nIII - o não pagamento de contrapartida financeira em caso de mudança de uso da edificação existente,\n\ndevendo o novo uso ser permitido pela legislação.\n\n§ 1º Estão excluídos do incentivo previsto no inciso I do caput deste artigo os usos enquadrados nos\n\ngrupos de atividades relacionadas a serviços de armazenamento e guarda de bens móveis e edifícios-\n\ngaragem, além dos usos enquadrados nas subcategorias de uso Ind-1a, Ind-1b, Ind-2 e Ind-3.\n\n§ 2º A implantação de saliências e terraços não será considerada como alteração de volumetria, nem\n\ncomputada no cálculo da taxa de ocupação.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.577/2021 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção II › Art. 6º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17577-de-20-de-julho-de-2021",
+    "vigencia": {
+      "inicio": "2021-07-20",
+      "em_vigor": true,
+      "observacao": "Consolidada com alterações das Leis 17.844/2022, 18.065/2023, 18.081/2024, 18.330/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.844/2022 (art. 16)",
+        "Lei 18.065/2023 (altera a lei - arts. 16, 16-A)",
+        "Lei 18.081/2024 (amplia perímetro - setores 017/025/026 Brás)",
+        "Lei 18.330/2025 (art. 16-III, 16-B)"
+      ]
+    }
+  },
+  "tema": [
+    "Requalifica_Centro",
+    "incentivo_fiscal",
+    "isencao",
+    "retrofit",
+    "outorga_onerosa",
+    "ZEPEC_BIR",
+    "remissao_IPTU"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o Programa Requalifica Centro, estabelecendo incentivos e o regime específico para a requalificação de edificações situadas na Área Central, e dá outras providências."
+}

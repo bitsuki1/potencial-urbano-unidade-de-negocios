@@ -1,0 +1,54 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17577-2021::013-art-12",
+  "lei_id": "lei-municipal-saopaulo-17577-2021",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 12",
+  "numero": "12",
+  "header_raw": "Art. 12. Os pedidos de reforma com aumento de área construída referidos no § 1º do art. 3º desta Lei",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção II",
+    "Art. 12"
+  ],
+  "texto": "Art. 12. Os pedidos de reforma com aumento de área construída referidos no § 1º do art. 3º desta Lei\n\nassociados a pedido de requalificação, atenderão aos seguintes regramentos específicos:\n\nI - o aumento de área construída objeto da reforma está limitado aos parâmetros estabelecidos pela Lei\n\nnº 16.402, de 2016, ou por legislação específica;\n\nII - na hipótese de anexação de novo lote, ficam garantidos ao lote anexado os parâmetros\n\nestabelecidos na legislação vigente, independentemente da superação destes parâmetros pelo lote\n\nocupado pela edificação a requalificar;\n\nIII - independentemente da anexação de novo lote, a taxa de ocupação, a taxa de permeabilidade e os\n\nparâmetros dispostos no art. 57 da Lei nº 16.402, de 2016, quando exigidos, serão calculados em\n\nfunção da área não ocupada do lote resultante, excluída a projeção da edificação existente objeto da\n\nrequalificação, mesmo na hipótese de anexação de novo lote;\n\nIV - a quota ambiental é aplicável aos pedidos de reforma associada a requalificação com alteração de\n\nárea construída superior a 20% (vinte por cento);\n\nV - para fins de aplicação do art. 112 da Lei nº 16.050, de 2014, será considerada a área construída\n\ncomputável acrescida em razão de pedido de reforma.\n\n§ 1º Complementarmente às disposições deste artigo, as áreas oriundas de pedido de reforma,\n\nacrescidas à volumetria da edificação requalificada ou construídas em novo bloco, deverão atender\n\nintegralmente ao disposto na Lei nº 16.050, de 2014, Lei nº 16.402, de 2016, e Lei nº 16.642, de 2017,\n\nvigentes.\n\n§ 2º Nas hipóteses de não agravamento da taxa de ocupação em relação às condições urbanísticas\n\noriginais ou de não agregação de novo lote ficam estabelecidas as seguintes condições específicas:\n\nI - não se aplica a exigência de quota ambiental para lotes com taxa de ocupação superior a 0,7 (sete\n\ndécimos);\n\nII - para lotes com taxa de ocupação inferior a 0,7 (sete décimos):\n\na) não se aplica a exigência prevista no art. 79 da Lei nº 16.402, de 2016;\n\nb) o parâmetro de quota ambiental poderá ser atendido, alternativamente, mediante a oferta de\n\nindivíduos arbóreos para enriquecimento de espaços públicos do distrito em que a edificação se\n\nlocaliza, em número necessário ao atingimento da pontuação mínima prevista no Quadro 3A da Lei nº\n\n16.402, de 2016, ou por meio de depósito do numerário correspondente ao Fundo Especial do Meio\n\nAmbiente e Desenvolvimento Sustentável (FEMA).",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.577/2021 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção II › Art. 12",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17577-de-20-de-julho-de-2021",
+    "vigencia": {
+      "inicio": "2021-07-20",
+      "em_vigor": true,
+      "observacao": "Consolidada com alterações das Leis 17.844/2022, 18.065/2023, 18.081/2024, 18.330/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.844/2022 (art. 16)",
+        "Lei 18.065/2023 (altera a lei - arts. 16, 16-A)",
+        "Lei 18.081/2024 (amplia perímetro - setores 017/025/026 Brás)",
+        "Lei 18.330/2025 (art. 16-III, 16-B)"
+      ]
+    }
+  },
+  "tema": [
+    "Requalifica_Centro",
+    "incentivo_fiscal",
+    "isencao",
+    "retrofit",
+    "outorga_onerosa",
+    "ZEPEC_BIR",
+    "remissao_IPTU"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o Programa Requalifica Centro, estabelecendo incentivos e o regime específico para a requalificação de edificações situadas na Área Central, e dá outras providências."
+}

@@ -44841,6 +44841,1015 @@
     },
     "citavel": true
   },
+  "lei-municipal-saopaulo-11152-1991::001-preambulo": {
+    "lei_id": "lei-municipal-saopaulo-11152-1991",
+    "tipo_dispositivo": "preambulo",
+    "rotulo": "Preâmbulo",
+    "tema": [
+      "valor_venal",
+      "VVC",
+      "calculo",
+      "aliquotas_iptu",
+      "iptu_predial",
+      "iptu_territorial",
+      "taxas_limpeza",
+      "taxas_conservacao",
+      "fator_obsolescencia",
+      "fator_condominio",
+      "fator_esquina"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "1992-01-01",
+      "em_vigor": true,
+      "observacao": "Arts. 5º e 6º revogados (Lei 11.457/1993 e Lei 14.125/2005 respectivamente). Demais artigos vigentes; metodologia base do VVC, complementada pela Lei 15.889/2013.",
+      "altera": [
+        "Lei 6.989/1966 (arts. 7, 17, 19, 27, 37, 39, 87, 94)",
+        "Lei 10.235/1986 (art. 8, Tabelas II/III/IV/VI)",
+        "Lei 10.819/1989 (art. 5)"
+      ],
+      "alterada_por": [
+        "Lei 11.457/1993 (revoga art. 5§3)",
+        "Lei 14.125/2005 (revoga art. 6)",
+        "Lei 15.889/2013 (complementa)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": false
+  },
+  "lei-municipal-saopaulo-11152-1991::002-art-1o": {
+    "lei_id": "lei-municipal-saopaulo-11152-1991",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 1º",
+    "tema": [
+      "valor_venal",
+      "VVC",
+      "calculo",
+      "aliquotas_iptu",
+      "iptu_predial",
+      "iptu_territorial",
+      "taxas_limpeza",
+      "taxas_conservacao",
+      "fator_obsolescencia",
+      "fator_condominio",
+      "fator_esquina"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "1992-01-01",
+      "em_vigor": true,
+      "observacao": "Arts. 5º e 6º revogados (Lei 11.457/1993 e Lei 14.125/2005 respectivamente). Demais artigos vigentes; metodologia base do VVC, complementada pela Lei 15.889/2013.",
+      "altera": [
+        "Lei 6.989/1966 (arts. 7, 17, 19, 27, 37, 39, 87, 94)",
+        "Lei 10.235/1986 (art. 8, Tabelas II/III/IV/VI)",
+        "Lei 10.819/1989 (art. 5)"
+      ],
+      "alterada_por": [
+        "Lei 11.457/1993 (revoga art. 5§3)",
+        "Lei 14.125/2005 (revoga art. 6)",
+        "Lei 15.889/2013 (complementa)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-11152-1991::003-art-2o": {
+    "lei_id": "lei-municipal-saopaulo-11152-1991",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 2º",
+    "tema": [
+      "valor_venal",
+      "VVC",
+      "calculo",
+      "aliquotas_iptu",
+      "iptu_predial",
+      "iptu_territorial",
+      "taxas_limpeza",
+      "taxas_conservacao",
+      "fator_obsolescencia",
+      "fator_condominio",
+      "fator_esquina"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "1992-01-01",
+      "em_vigor": true,
+      "observacao": "Arts. 5º e 6º revogados (Lei 11.457/1993 e Lei 14.125/2005 respectivamente). Demais artigos vigentes; metodologia base do VVC, complementada pela Lei 15.889/2013.",
+      "altera": [
+        "Lei 6.989/1966 (arts. 7, 17, 19, 27, 37, 39, 87, 94)",
+        "Lei 10.235/1986 (art. 8, Tabelas II/III/IV/VI)",
+        "Lei 10.819/1989 (art. 5)"
+      ],
+      "alterada_por": [
+        "Lei 11.457/1993 (revoga art. 5§3)",
+        "Lei 14.125/2005 (revoga art. 6)",
+        "Lei 15.889/2013 (complementa)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-11152-1991::004-art-3o": {
+    "lei_id": "lei-municipal-saopaulo-11152-1991",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 3º",
+    "tema": [
+      "valor_venal",
+      "VVC",
+      "calculo",
+      "aliquotas_iptu",
+      "iptu_predial",
+      "iptu_territorial",
+      "taxas_limpeza",
+      "taxas_conservacao",
+      "fator_obsolescencia",
+      "fator_condominio",
+      "fator_esquina"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "1992-01-01",
+      "em_vigor": true,
+      "observacao": "Arts. 5º e 6º revogados (Lei 11.457/1993 e Lei 14.125/2005 respectivamente). Demais artigos vigentes; metodologia base do VVC, complementada pela Lei 15.889/2013.",
+      "altera": [
+        "Lei 6.989/1966 (arts. 7, 17, 19, 27, 37, 39, 87, 94)",
+        "Lei 10.235/1986 (art. 8, Tabelas II/III/IV/VI)",
+        "Lei 10.819/1989 (art. 5)"
+      ],
+      "alterada_por": [
+        "Lei 11.457/1993 (revoga art. 5§3)",
+        "Lei 14.125/2005 (revoga art. 6)",
+        "Lei 15.889/2013 (complementa)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-11152-1991::005-art-4o": {
+    "lei_id": "lei-municipal-saopaulo-11152-1991",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 4º",
+    "tema": [
+      "valor_venal",
+      "VVC",
+      "calculo",
+      "aliquotas_iptu",
+      "iptu_predial",
+      "iptu_territorial",
+      "taxas_limpeza",
+      "taxas_conservacao",
+      "fator_obsolescencia",
+      "fator_condominio",
+      "fator_esquina"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "1992-01-01",
+      "em_vigor": true,
+      "observacao": "Arts. 5º e 6º revogados (Lei 11.457/1993 e Lei 14.125/2005 respectivamente). Demais artigos vigentes; metodologia base do VVC, complementada pela Lei 15.889/2013.",
+      "altera": [
+        "Lei 6.989/1966 (arts. 7, 17, 19, 27, 37, 39, 87, 94)",
+        "Lei 10.235/1986 (art. 8, Tabelas II/III/IV/VI)",
+        "Lei 10.819/1989 (art. 5)"
+      ],
+      "alterada_por": [
+        "Lei 11.457/1993 (revoga art. 5§3)",
+        "Lei 14.125/2005 (revoga art. 6)",
+        "Lei 15.889/2013 (complementa)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-11152-1991::006-art-5o": {
+    "lei_id": "lei-municipal-saopaulo-11152-1991",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 5º",
+    "tema": [
+      "valor_venal",
+      "VVC",
+      "calculo",
+      "aliquotas_iptu",
+      "iptu_predial",
+      "iptu_territorial",
+      "taxas_limpeza",
+      "taxas_conservacao",
+      "fator_obsolescencia",
+      "fator_condominio",
+      "fator_esquina"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "1992-01-01",
+      "em_vigor": true,
+      "observacao": "Arts. 5º e 6º revogados (Lei 11.457/1993 e Lei 14.125/2005 respectivamente). Demais artigos vigentes; metodologia base do VVC, complementada pela Lei 15.889/2013.",
+      "altera": [
+        "Lei 6.989/1966 (arts. 7, 17, 19, 27, 37, 39, 87, 94)",
+        "Lei 10.235/1986 (art. 8, Tabelas II/III/IV/VI)",
+        "Lei 10.819/1989 (art. 5)"
+      ],
+      "alterada_por": [
+        "Lei 11.457/1993 (revoga art. 5§3)",
+        "Lei 14.125/2005 (revoga art. 6)",
+        "Lei 15.889/2013 (complementa)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-11152-1991::007-art-6o": {
+    "lei_id": "lei-municipal-saopaulo-11152-1991",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 6º",
+    "tema": [
+      "valor_venal",
+      "VVC",
+      "calculo",
+      "aliquotas_iptu",
+      "iptu_predial",
+      "iptu_territorial",
+      "taxas_limpeza",
+      "taxas_conservacao",
+      "fator_obsolescencia",
+      "fator_condominio",
+      "fator_esquina"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "1992-01-01",
+      "em_vigor": true,
+      "observacao": "Arts. 5º e 6º revogados (Lei 11.457/1993 e Lei 14.125/2005 respectivamente). Demais artigos vigentes; metodologia base do VVC, complementada pela Lei 15.889/2013.",
+      "altera": [
+        "Lei 6.989/1966 (arts. 7, 17, 19, 27, 37, 39, 87, 94)",
+        "Lei 10.235/1986 (art. 8, Tabelas II/III/IV/VI)",
+        "Lei 10.819/1989 (art. 5)"
+      ],
+      "alterada_por": [
+        "Lei 11.457/1993 (revoga art. 5§3)",
+        "Lei 14.125/2005 (revoga art. 6)",
+        "Lei 15.889/2013 (complementa)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-11152-1991::008-art-7o": {
+    "lei_id": "lei-municipal-saopaulo-11152-1991",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 7º",
+    "tema": [
+      "valor_venal",
+      "VVC",
+      "calculo",
+      "aliquotas_iptu",
+      "iptu_predial",
+      "iptu_territorial",
+      "taxas_limpeza",
+      "taxas_conservacao",
+      "fator_obsolescencia",
+      "fator_condominio",
+      "fator_esquina"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "1992-01-01",
+      "em_vigor": true,
+      "observacao": "Arts. 5º e 6º revogados (Lei 11.457/1993 e Lei 14.125/2005 respectivamente). Demais artigos vigentes; metodologia base do VVC, complementada pela Lei 15.889/2013.",
+      "altera": [
+        "Lei 6.989/1966 (arts. 7, 17, 19, 27, 37, 39, 87, 94)",
+        "Lei 10.235/1986 (art. 8, Tabelas II/III/IV/VI)",
+        "Lei 10.819/1989 (art. 5)"
+      ],
+      "alterada_por": [
+        "Lei 11.457/1993 (revoga art. 5§3)",
+        "Lei 14.125/2005 (revoga art. 6)",
+        "Lei 15.889/2013 (complementa)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-11152-1991::009-art-8o": {
+    "lei_id": "lei-municipal-saopaulo-11152-1991",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 8º",
+    "tema": [
+      "valor_venal",
+      "VVC",
+      "calculo",
+      "aliquotas_iptu",
+      "iptu_predial",
+      "iptu_territorial",
+      "taxas_limpeza",
+      "taxas_conservacao",
+      "fator_obsolescencia",
+      "fator_condominio",
+      "fator_esquina"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "1992-01-01",
+      "em_vigor": true,
+      "observacao": "Arts. 5º e 6º revogados (Lei 11.457/1993 e Lei 14.125/2005 respectivamente). Demais artigos vigentes; metodologia base do VVC, complementada pela Lei 15.889/2013.",
+      "altera": [
+        "Lei 6.989/1966 (arts. 7, 17, 19, 27, 37, 39, 87, 94)",
+        "Lei 10.235/1986 (art. 8, Tabelas II/III/IV/VI)",
+        "Lei 10.819/1989 (art. 5)"
+      ],
+      "alterada_por": [
+        "Lei 11.457/1993 (revoga art. 5§3)",
+        "Lei 14.125/2005 (revoga art. 6)",
+        "Lei 15.889/2013 (complementa)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-11152-1991::010-art-9o": {
+    "lei_id": "lei-municipal-saopaulo-11152-1991",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 9º",
+    "tema": [
+      "valor_venal",
+      "VVC",
+      "calculo",
+      "aliquotas_iptu",
+      "iptu_predial",
+      "iptu_territorial",
+      "taxas_limpeza",
+      "taxas_conservacao",
+      "fator_obsolescencia",
+      "fator_condominio",
+      "fator_esquina"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "1992-01-01",
+      "em_vigor": true,
+      "observacao": "Arts. 5º e 6º revogados (Lei 11.457/1993 e Lei 14.125/2005 respectivamente). Demais artigos vigentes; metodologia base do VVC, complementada pela Lei 15.889/2013.",
+      "altera": [
+        "Lei 6.989/1966 (arts. 7, 17, 19, 27, 37, 39, 87, 94)",
+        "Lei 10.235/1986 (art. 8, Tabelas II/III/IV/VI)",
+        "Lei 10.819/1989 (art. 5)"
+      ],
+      "alterada_por": [
+        "Lei 11.457/1993 (revoga art. 5§3)",
+        "Lei 14.125/2005 (revoga art. 6)",
+        "Lei 15.889/2013 (complementa)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-11152-1991::011-art-10": {
+    "lei_id": "lei-municipal-saopaulo-11152-1991",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 10",
+    "tema": [
+      "valor_venal",
+      "VVC",
+      "calculo",
+      "aliquotas_iptu",
+      "iptu_predial",
+      "iptu_territorial",
+      "taxas_limpeza",
+      "taxas_conservacao",
+      "fator_obsolescencia",
+      "fator_condominio",
+      "fator_esquina"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "1992-01-01",
+      "em_vigor": true,
+      "observacao": "Arts. 5º e 6º revogados (Lei 11.457/1993 e Lei 14.125/2005 respectivamente). Demais artigos vigentes; metodologia base do VVC, complementada pela Lei 15.889/2013.",
+      "altera": [
+        "Lei 6.989/1966 (arts. 7, 17, 19, 27, 37, 39, 87, 94)",
+        "Lei 10.235/1986 (art. 8, Tabelas II/III/IV/VI)",
+        "Lei 10.819/1989 (art. 5)"
+      ],
+      "alterada_por": [
+        "Lei 11.457/1993 (revoga art. 5§3)",
+        "Lei 14.125/2005 (revoga art. 6)",
+        "Lei 15.889/2013 (complementa)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-15044-2009::001-preambulo": {
+    "lei_id": "lei-municipal-saopaulo-15044-2009",
+    "tipo_dispositivo": "preambulo",
+    "rotulo": "Preâmbulo",
+    "tema": [
+      "imposto_predial",
+      "imposto_territorial_urbano",
+      "pgv",
+      "aliquota_progressiva",
+      "valor_venal",
+      "tabela_vi",
+      "valor_m2_construcao",
+      "valor_m2_terreno",
+      "tipologias_construtivas",
+      "isencao",
+      "calculo"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2010-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 10 alterado pela Lei 15.889/2013. Demais artigos vigentes. Tabela VI e listagem de valores m² terreno são os valores-base vigentes para cálculo do IPTU.",
+      "altera": [
+        "Lei 10.235/1986 (Tabelas V e VI, Listagem de Valores)",
+        "Lei 6.989/1966 (arts. 7-A, 8-A, 28)",
+        "Lei 13.698/2003 (arts. 1-3)",
+        "Lei 14.256/2006 (art. 24)"
+      ],
+      "alterada_por": [
+        "Lei 15.889/2013 (altera art. 10)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": false
+  },
+  "lei-municipal-saopaulo-15044-2009::002-art-1o": {
+    "lei_id": "lei-municipal-saopaulo-15044-2009",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 1º",
+    "tema": [
+      "imposto_predial",
+      "imposto_territorial_urbano",
+      "pgv",
+      "aliquota_progressiva",
+      "valor_venal",
+      "tabela_vi",
+      "valor_m2_construcao",
+      "valor_m2_terreno",
+      "tipologias_construtivas",
+      "isencao",
+      "calculo"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2010-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 10 alterado pela Lei 15.889/2013. Demais artigos vigentes. Tabela VI e listagem de valores m² terreno são os valores-base vigentes para cálculo do IPTU.",
+      "altera": [
+        "Lei 10.235/1986 (Tabelas V e VI, Listagem de Valores)",
+        "Lei 6.989/1966 (arts. 7-A, 8-A, 28)",
+        "Lei 13.698/2003 (arts. 1-3)",
+        "Lei 14.256/2006 (art. 24)"
+      ],
+      "alterada_por": [
+        "Lei 15.889/2013 (altera art. 10)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-15044-2009::003-art-2o": {
+    "lei_id": "lei-municipal-saopaulo-15044-2009",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 2º",
+    "tema": [
+      "imposto_predial",
+      "imposto_territorial_urbano",
+      "pgv",
+      "aliquota_progressiva",
+      "valor_venal",
+      "tabela_vi",
+      "valor_m2_construcao",
+      "valor_m2_terreno",
+      "tipologias_construtivas",
+      "isencao",
+      "calculo"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2010-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 10 alterado pela Lei 15.889/2013. Demais artigos vigentes. Tabela VI e listagem de valores m² terreno são os valores-base vigentes para cálculo do IPTU.",
+      "altera": [
+        "Lei 10.235/1986 (Tabelas V e VI, Listagem de Valores)",
+        "Lei 6.989/1966 (arts. 7-A, 8-A, 28)",
+        "Lei 13.698/2003 (arts. 1-3)",
+        "Lei 14.256/2006 (art. 24)"
+      ],
+      "alterada_por": [
+        "Lei 15.889/2013 (altera art. 10)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-15044-2009::004-art-3o": {
+    "lei_id": "lei-municipal-saopaulo-15044-2009",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 3º",
+    "tema": [
+      "imposto_predial",
+      "imposto_territorial_urbano",
+      "pgv",
+      "aliquota_progressiva",
+      "valor_venal",
+      "tabela_vi",
+      "valor_m2_construcao",
+      "valor_m2_terreno",
+      "tipologias_construtivas",
+      "isencao",
+      "calculo"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2010-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 10 alterado pela Lei 15.889/2013. Demais artigos vigentes. Tabela VI e listagem de valores m² terreno são os valores-base vigentes para cálculo do IPTU.",
+      "altera": [
+        "Lei 10.235/1986 (Tabelas V e VI, Listagem de Valores)",
+        "Lei 6.989/1966 (arts. 7-A, 8-A, 28)",
+        "Lei 13.698/2003 (arts. 1-3)",
+        "Lei 14.256/2006 (art. 24)"
+      ],
+      "alterada_por": [
+        "Lei 15.889/2013 (altera art. 10)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-15044-2009::005-art-4o": {
+    "lei_id": "lei-municipal-saopaulo-15044-2009",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 4º",
+    "tema": [
+      "imposto_predial",
+      "imposto_territorial_urbano",
+      "pgv",
+      "aliquota_progressiva",
+      "valor_venal",
+      "tabela_vi",
+      "valor_m2_construcao",
+      "valor_m2_terreno",
+      "tipologias_construtivas",
+      "isencao",
+      "calculo"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2010-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 10 alterado pela Lei 15.889/2013. Demais artigos vigentes. Tabela VI e listagem de valores m² terreno são os valores-base vigentes para cálculo do IPTU.",
+      "altera": [
+        "Lei 10.235/1986 (Tabelas V e VI, Listagem de Valores)",
+        "Lei 6.989/1966 (arts. 7-A, 8-A, 28)",
+        "Lei 13.698/2003 (arts. 1-3)",
+        "Lei 14.256/2006 (art. 24)"
+      ],
+      "alterada_por": [
+        "Lei 15.889/2013 (altera art. 10)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "compilado",
+      "revogado_por": null,
+      "marcadores": [
+        "redacao_dada"
+      ],
+      "data_redacao": "2002",
+      "norma_redacao": "Lei nº 13.475, de 30 de dezembro de 2002"
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-15044-2009::006-art-5o": {
+    "lei_id": "lei-municipal-saopaulo-15044-2009",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 5º",
+    "tema": [
+      "imposto_predial",
+      "imposto_territorial_urbano",
+      "pgv",
+      "aliquota_progressiva",
+      "valor_venal",
+      "tabela_vi",
+      "valor_m2_construcao",
+      "valor_m2_terreno",
+      "tipologias_construtivas",
+      "isencao",
+      "calculo"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2010-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 10 alterado pela Lei 15.889/2013. Demais artigos vigentes. Tabela VI e listagem de valores m² terreno são os valores-base vigentes para cálculo do IPTU.",
+      "altera": [
+        "Lei 10.235/1986 (Tabelas V e VI, Listagem de Valores)",
+        "Lei 6.989/1966 (arts. 7-A, 8-A, 28)",
+        "Lei 13.698/2003 (arts. 1-3)",
+        "Lei 14.256/2006 (art. 24)"
+      ],
+      "alterada_por": [
+        "Lei 15.889/2013 (altera art. 10)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "compilado",
+      "revogado_por": null,
+      "marcadores": [
+        "redacao_dada"
+      ],
+      "data_redacao": "2002",
+      "norma_redacao": "Lei nº 13.475, de 30 de dezembro de 2002"
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-15044-2009::007-art-6o": {
+    "lei_id": "lei-municipal-saopaulo-15044-2009",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 6º",
+    "tema": [
+      "imposto_predial",
+      "imposto_territorial_urbano",
+      "pgv",
+      "aliquota_progressiva",
+      "valor_venal",
+      "tabela_vi",
+      "valor_m2_construcao",
+      "valor_m2_terreno",
+      "tipologias_construtivas",
+      "isencao",
+      "calculo"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2010-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 10 alterado pela Lei 15.889/2013. Demais artigos vigentes. Tabela VI e listagem de valores m² terreno são os valores-base vigentes para cálculo do IPTU.",
+      "altera": [
+        "Lei 10.235/1986 (Tabelas V e VI, Listagem de Valores)",
+        "Lei 6.989/1966 (arts. 7-A, 8-A, 28)",
+        "Lei 13.698/2003 (arts. 1-3)",
+        "Lei 14.256/2006 (art. 24)"
+      ],
+      "alterada_por": [
+        "Lei 15.889/2013 (altera art. 10)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "compilado",
+      "revogado_por": null,
+      "marcadores": [
+        "redacao_dada"
+      ],
+      "data_redacao": "2002",
+      "norma_redacao": "Lei nº 13.475, de 30 de dezembro de 2002"
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-15044-2009::008-art-7o": {
+    "lei_id": "lei-municipal-saopaulo-15044-2009",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 7º",
+    "tema": [
+      "imposto_predial",
+      "imposto_territorial_urbano",
+      "pgv",
+      "aliquota_progressiva",
+      "valor_venal",
+      "tabela_vi",
+      "valor_m2_construcao",
+      "valor_m2_terreno",
+      "tipologias_construtivas",
+      "isencao",
+      "calculo"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2010-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 10 alterado pela Lei 15.889/2013. Demais artigos vigentes. Tabela VI e listagem de valores m² terreno são os valores-base vigentes para cálculo do IPTU.",
+      "altera": [
+        "Lei 10.235/1986 (Tabelas V e VI, Listagem de Valores)",
+        "Lei 6.989/1966 (arts. 7-A, 8-A, 28)",
+        "Lei 13.698/2003 (arts. 1-3)",
+        "Lei 14.256/2006 (art. 24)"
+      ],
+      "alterada_por": [
+        "Lei 15.889/2013 (altera art. 10)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-15044-2009::009-art-8o": {
+    "lei_id": "lei-municipal-saopaulo-15044-2009",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 8º",
+    "tema": [
+      "imposto_predial",
+      "imposto_territorial_urbano",
+      "pgv",
+      "aliquota_progressiva",
+      "valor_venal",
+      "tabela_vi",
+      "valor_m2_construcao",
+      "valor_m2_terreno",
+      "tipologias_construtivas",
+      "isencao",
+      "calculo"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2010-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 10 alterado pela Lei 15.889/2013. Demais artigos vigentes. Tabela VI e listagem de valores m² terreno são os valores-base vigentes para cálculo do IPTU.",
+      "altera": [
+        "Lei 10.235/1986 (Tabelas V e VI, Listagem de Valores)",
+        "Lei 6.989/1966 (arts. 7-A, 8-A, 28)",
+        "Lei 13.698/2003 (arts. 1-3)",
+        "Lei 14.256/2006 (art. 24)"
+      ],
+      "alterada_por": [
+        "Lei 15.889/2013 (altera art. 10)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-15044-2009::010-art-9o": {
+    "lei_id": "lei-municipal-saopaulo-15044-2009",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 9º",
+    "tema": [
+      "imposto_predial",
+      "imposto_territorial_urbano",
+      "pgv",
+      "aliquota_progressiva",
+      "valor_venal",
+      "tabela_vi",
+      "valor_m2_construcao",
+      "valor_m2_terreno",
+      "tipologias_construtivas",
+      "isencao",
+      "calculo"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2010-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 10 alterado pela Lei 15.889/2013. Demais artigos vigentes. Tabela VI e listagem de valores m² terreno são os valores-base vigentes para cálculo do IPTU.",
+      "altera": [
+        "Lei 10.235/1986 (Tabelas V e VI, Listagem de Valores)",
+        "Lei 6.989/1966 (arts. 7-A, 8-A, 28)",
+        "Lei 13.698/2003 (arts. 1-3)",
+        "Lei 14.256/2006 (art. 24)"
+      ],
+      "alterada_por": [
+        "Lei 15.889/2013 (altera art. 10)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "compilado",
+      "revogado_por": null,
+      "marcadores": [
+        "redacao_dada"
+      ],
+      "data_redacao": "2013",
+      "norma_redacao": "Lei nº 15.889/2013"
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-15044-2009::011-art-11": {
+    "lei_id": "lei-municipal-saopaulo-15044-2009",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 11",
+    "tema": [
+      "imposto_predial",
+      "imposto_territorial_urbano",
+      "pgv",
+      "aliquota_progressiva",
+      "valor_venal",
+      "tabela_vi",
+      "valor_m2_construcao",
+      "valor_m2_terreno",
+      "tipologias_construtivas",
+      "isencao",
+      "calculo"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2010-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 10 alterado pela Lei 15.889/2013. Demais artigos vigentes. Tabela VI e listagem de valores m² terreno são os valores-base vigentes para cálculo do IPTU.",
+      "altera": [
+        "Lei 10.235/1986 (Tabelas V e VI, Listagem de Valores)",
+        "Lei 6.989/1966 (arts. 7-A, 8-A, 28)",
+        "Lei 13.698/2003 (arts. 1-3)",
+        "Lei 14.256/2006 (art. 24)"
+      ],
+      "alterada_por": [
+        "Lei 15.889/2013 (altera art. 10)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
   "lei-municipal-saopaulo-15889-2013::001-preambulo": {
     "lei_id": "lei-municipal-saopaulo-15889-2013",
     "tipo_dispositivo": "preambulo",
@@ -59332,6 +60341,2211 @@
       "revogada_por": null,
       "altera": [],
       "alterada_por": []
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17202-2019::001-preambulo": {
+    "lei_id": "lei-municipal-saopaulo-17202-2019",
+    "tipo_dispositivo": "preambulo",
+    "rotulo": "Preâmbulo",
+    "tema": [
+      "regularizacao_edificacoes",
+      "outorga_onerosa",
+      "permeabilidade",
+      "FUNDURB"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 22 prorrogado até 31/12/2025 (Lei 18.209/2024). Arts. 6, 8, 9 e 14 alterados pela Lei 18.270/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.346/2020 (art. 22)",
+        "Lei 17.556/2021 (art. 22)",
+        "Lei 17.771/2022 (art. 22)",
+        "Lei 18.062/2023 (art. 22)",
+        "Lei 18.209/2024 (art. 22)",
+        "Lei 18.270/2025 (arts. 6, 8, 9, 14)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": false
+  },
+  "lei-municipal-saopaulo-17202-2019::002-art-1o": {
+    "lei_id": "lei-municipal-saopaulo-17202-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 1º",
+    "tema": [
+      "regularizacao_edificacoes",
+      "outorga_onerosa",
+      "permeabilidade",
+      "FUNDURB"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 22 prorrogado até 31/12/2025 (Lei 18.209/2024). Arts. 6, 8, 9 e 14 alterados pela Lei 18.270/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.346/2020 (art. 22)",
+        "Lei 17.556/2021 (art. 22)",
+        "Lei 17.771/2022 (art. 22)",
+        "Lei 18.062/2023 (art. 22)",
+        "Lei 18.209/2024 (art. 22)",
+        "Lei 18.270/2025 (arts. 6, 8, 9, 14)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17202-2019::003-art-2o": {
+    "lei_id": "lei-municipal-saopaulo-17202-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 2º",
+    "tema": [
+      "regularizacao_edificacoes",
+      "outorga_onerosa",
+      "permeabilidade",
+      "FUNDURB"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 22 prorrogado até 31/12/2025 (Lei 18.209/2024). Arts. 6, 8, 9 e 14 alterados pela Lei 18.270/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.346/2020 (art. 22)",
+        "Lei 17.556/2021 (art. 22)",
+        "Lei 17.771/2022 (art. 22)",
+        "Lei 18.062/2023 (art. 22)",
+        "Lei 18.209/2024 (art. 22)",
+        "Lei 18.270/2025 (arts. 6, 8, 9, 14)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17202-2019::004-art-3o": {
+    "lei_id": "lei-municipal-saopaulo-17202-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 3º",
+    "tema": [
+      "regularizacao_edificacoes",
+      "outorga_onerosa",
+      "permeabilidade",
+      "FUNDURB"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 22 prorrogado até 31/12/2025 (Lei 18.209/2024). Arts. 6, 8, 9 e 14 alterados pela Lei 18.270/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.346/2020 (art. 22)",
+        "Lei 17.556/2021 (art. 22)",
+        "Lei 17.771/2022 (art. 22)",
+        "Lei 18.062/2023 (art. 22)",
+        "Lei 18.209/2024 (art. 22)",
+        "Lei 18.270/2025 (arts. 6, 8, 9, 14)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17202-2019::005-art-4o": {
+    "lei_id": "lei-municipal-saopaulo-17202-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 4º",
+    "tema": [
+      "regularizacao_edificacoes",
+      "outorga_onerosa",
+      "permeabilidade",
+      "FUNDURB"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 22 prorrogado até 31/12/2025 (Lei 18.209/2024). Arts. 6, 8, 9 e 14 alterados pela Lei 18.270/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.346/2020 (art. 22)",
+        "Lei 17.556/2021 (art. 22)",
+        "Lei 17.771/2022 (art. 22)",
+        "Lei 18.062/2023 (art. 22)",
+        "Lei 18.209/2024 (art. 22)",
+        "Lei 18.270/2025 (arts. 6, 8, 9, 14)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17202-2019::006-art-5o": {
+    "lei_id": "lei-municipal-saopaulo-17202-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 5º",
+    "tema": [
+      "regularizacao_edificacoes",
+      "outorga_onerosa",
+      "permeabilidade",
+      "FUNDURB"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 22 prorrogado até 31/12/2025 (Lei 18.209/2024). Arts. 6, 8, 9 e 14 alterados pela Lei 18.270/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.346/2020 (art. 22)",
+        "Lei 17.556/2021 (art. 22)",
+        "Lei 17.771/2022 (art. 22)",
+        "Lei 18.062/2023 (art. 22)",
+        "Lei 18.209/2024 (art. 22)",
+        "Lei 18.270/2025 (arts. 6, 8, 9, 14)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17202-2019::007-art-6o": {
+    "lei_id": "lei-municipal-saopaulo-17202-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 6º",
+    "tema": [
+      "regularizacao_edificacoes",
+      "outorga_onerosa",
+      "permeabilidade",
+      "FUNDURB"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 22 prorrogado até 31/12/2025 (Lei 18.209/2024). Arts. 6, 8, 9 e 14 alterados pela Lei 18.270/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.346/2020 (art. 22)",
+        "Lei 17.556/2021 (art. 22)",
+        "Lei 17.771/2022 (art. 22)",
+        "Lei 18.062/2023 (art. 22)",
+        "Lei 18.209/2024 (art. 22)",
+        "Lei 18.270/2025 (arts. 6, 8, 9, 14)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "compilado",
+      "revogado_por": null,
+      "marcadores": [
+        "redacao_dada"
+      ],
+      "data_redacao": "2025",
+      "norma_redacao": "Lei nº 18.270/2025"
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17202-2019::008-art-7o": {
+    "lei_id": "lei-municipal-saopaulo-17202-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 7º",
+    "tema": [
+      "regularizacao_edificacoes",
+      "outorga_onerosa",
+      "permeabilidade",
+      "FUNDURB"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 22 prorrogado até 31/12/2025 (Lei 18.209/2024). Arts. 6, 8, 9 e 14 alterados pela Lei 18.270/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.346/2020 (art. 22)",
+        "Lei 17.556/2021 (art. 22)",
+        "Lei 17.771/2022 (art. 22)",
+        "Lei 18.062/2023 (art. 22)",
+        "Lei 18.209/2024 (art. 22)",
+        "Lei 18.270/2025 (arts. 6, 8, 9, 14)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17202-2019::009-art-8o": {
+    "lei_id": "lei-municipal-saopaulo-17202-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 8º",
+    "tema": [
+      "regularizacao_edificacoes",
+      "outorga_onerosa",
+      "permeabilidade",
+      "FUNDURB"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 22 prorrogado até 31/12/2025 (Lei 18.209/2024). Arts. 6, 8, 9 e 14 alterados pela Lei 18.270/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.346/2020 (art. 22)",
+        "Lei 17.556/2021 (art. 22)",
+        "Lei 17.771/2022 (art. 22)",
+        "Lei 18.062/2023 (art. 22)",
+        "Lei 18.209/2024 (art. 22)",
+        "Lei 18.270/2025 (arts. 6, 8, 9, 14)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "compilado",
+      "revogado_por": null,
+      "marcadores": [
+        "redacao_dada"
+      ],
+      "data_redacao": "2025",
+      "norma_redacao": "Lei nº 18.270/2025"
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17202-2019::010-art-9o": {
+    "lei_id": "lei-municipal-saopaulo-17202-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 9º",
+    "tema": [
+      "regularizacao_edificacoes",
+      "outorga_onerosa",
+      "permeabilidade",
+      "FUNDURB"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 22 prorrogado até 31/12/2025 (Lei 18.209/2024). Arts. 6, 8, 9 e 14 alterados pela Lei 18.270/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.346/2020 (art. 22)",
+        "Lei 17.556/2021 (art. 22)",
+        "Lei 17.771/2022 (art. 22)",
+        "Lei 18.062/2023 (art. 22)",
+        "Lei 18.209/2024 (art. 22)",
+        "Lei 18.270/2025 (arts. 6, 8, 9, 14)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "compilado",
+      "revogado_por": null,
+      "marcadores": [
+        "redacao_dada"
+      ],
+      "data_redacao": "2025",
+      "norma_redacao": "Lei nº 18.270/2025"
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17202-2019::011-art-10": {
+    "lei_id": "lei-municipal-saopaulo-17202-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 10",
+    "tema": [
+      "regularizacao_edificacoes",
+      "outorga_onerosa",
+      "permeabilidade",
+      "FUNDURB"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 22 prorrogado até 31/12/2025 (Lei 18.209/2024). Arts. 6, 8, 9 e 14 alterados pela Lei 18.270/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.346/2020 (art. 22)",
+        "Lei 17.556/2021 (art. 22)",
+        "Lei 17.771/2022 (art. 22)",
+        "Lei 18.062/2023 (art. 22)",
+        "Lei 18.209/2024 (art. 22)",
+        "Lei 18.270/2025 (arts. 6, 8, 9, 14)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17202-2019::012-art-11": {
+    "lei_id": "lei-municipal-saopaulo-17202-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 11",
+    "tema": [
+      "regularizacao_edificacoes",
+      "outorga_onerosa",
+      "permeabilidade",
+      "FUNDURB"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 22 prorrogado até 31/12/2025 (Lei 18.209/2024). Arts. 6, 8, 9 e 14 alterados pela Lei 18.270/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.346/2020 (art. 22)",
+        "Lei 17.556/2021 (art. 22)",
+        "Lei 17.771/2022 (art. 22)",
+        "Lei 18.062/2023 (art. 22)",
+        "Lei 18.209/2024 (art. 22)",
+        "Lei 18.270/2025 (arts. 6, 8, 9, 14)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17202-2019::013-art-12": {
+    "lei_id": "lei-municipal-saopaulo-17202-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 12",
+    "tema": [
+      "regularizacao_edificacoes",
+      "outorga_onerosa",
+      "permeabilidade",
+      "FUNDURB"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 22 prorrogado até 31/12/2025 (Lei 18.209/2024). Arts. 6, 8, 9 e 14 alterados pela Lei 18.270/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.346/2020 (art. 22)",
+        "Lei 17.556/2021 (art. 22)",
+        "Lei 17.771/2022 (art. 22)",
+        "Lei 18.062/2023 (art. 22)",
+        "Lei 18.209/2024 (art. 22)",
+        "Lei 18.270/2025 (arts. 6, 8, 9, 14)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17202-2019::014-art-13": {
+    "lei_id": "lei-municipal-saopaulo-17202-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 13",
+    "tema": [
+      "regularizacao_edificacoes",
+      "outorga_onerosa",
+      "permeabilidade",
+      "FUNDURB"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 22 prorrogado até 31/12/2025 (Lei 18.209/2024). Arts. 6, 8, 9 e 14 alterados pela Lei 18.270/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.346/2020 (art. 22)",
+        "Lei 17.556/2021 (art. 22)",
+        "Lei 17.771/2022 (art. 22)",
+        "Lei 18.062/2023 (art. 22)",
+        "Lei 18.209/2024 (art. 22)",
+        "Lei 18.270/2025 (arts. 6, 8, 9, 14)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17202-2019::015-art-14": {
+    "lei_id": "lei-municipal-saopaulo-17202-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 14",
+    "tema": [
+      "regularizacao_edificacoes",
+      "outorga_onerosa",
+      "permeabilidade",
+      "FUNDURB"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 22 prorrogado até 31/12/2025 (Lei 18.209/2024). Arts. 6, 8, 9 e 14 alterados pela Lei 18.270/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.346/2020 (art. 22)",
+        "Lei 17.556/2021 (art. 22)",
+        "Lei 17.771/2022 (art. 22)",
+        "Lei 18.062/2023 (art. 22)",
+        "Lei 18.209/2024 (art. 22)",
+        "Lei 18.270/2025 (arts. 6, 8, 9, 14)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "compilado",
+      "revogado_por": null,
+      "marcadores": [
+        "redacao_dada"
+      ],
+      "data_redacao": "2025",
+      "norma_redacao": "Lei nº 18.270/2025"
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17202-2019::016-art-15": {
+    "lei_id": "lei-municipal-saopaulo-17202-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 15",
+    "tema": [
+      "regularizacao_edificacoes",
+      "outorga_onerosa",
+      "permeabilidade",
+      "FUNDURB"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 22 prorrogado até 31/12/2025 (Lei 18.209/2024). Arts. 6, 8, 9 e 14 alterados pela Lei 18.270/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.346/2020 (art. 22)",
+        "Lei 17.556/2021 (art. 22)",
+        "Lei 17.771/2022 (art. 22)",
+        "Lei 18.062/2023 (art. 22)",
+        "Lei 18.209/2024 (art. 22)",
+        "Lei 18.270/2025 (arts. 6, 8, 9, 14)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17202-2019::017-art-16": {
+    "lei_id": "lei-municipal-saopaulo-17202-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 16",
+    "tema": [
+      "regularizacao_edificacoes",
+      "outorga_onerosa",
+      "permeabilidade",
+      "FUNDURB"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 22 prorrogado até 31/12/2025 (Lei 18.209/2024). Arts. 6, 8, 9 e 14 alterados pela Lei 18.270/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.346/2020 (art. 22)",
+        "Lei 17.556/2021 (art. 22)",
+        "Lei 17.771/2022 (art. 22)",
+        "Lei 18.062/2023 (art. 22)",
+        "Lei 18.209/2024 (art. 22)",
+        "Lei 18.270/2025 (arts. 6, 8, 9, 14)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17202-2019::018-art-17": {
+    "lei_id": "lei-municipal-saopaulo-17202-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 17",
+    "tema": [
+      "regularizacao_edificacoes",
+      "outorga_onerosa",
+      "permeabilidade",
+      "FUNDURB"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 22 prorrogado até 31/12/2025 (Lei 18.209/2024). Arts. 6, 8, 9 e 14 alterados pela Lei 18.270/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.346/2020 (art. 22)",
+        "Lei 17.556/2021 (art. 22)",
+        "Lei 17.771/2022 (art. 22)",
+        "Lei 18.062/2023 (art. 22)",
+        "Lei 18.209/2024 (art. 22)",
+        "Lei 18.270/2025 (arts. 6, 8, 9, 14)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17202-2019::019-art-18": {
+    "lei_id": "lei-municipal-saopaulo-17202-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 18",
+    "tema": [
+      "regularizacao_edificacoes",
+      "outorga_onerosa",
+      "permeabilidade",
+      "FUNDURB"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 22 prorrogado até 31/12/2025 (Lei 18.209/2024). Arts. 6, 8, 9 e 14 alterados pela Lei 18.270/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.346/2020 (art. 22)",
+        "Lei 17.556/2021 (art. 22)",
+        "Lei 17.771/2022 (art. 22)",
+        "Lei 18.062/2023 (art. 22)",
+        "Lei 18.209/2024 (art. 22)",
+        "Lei 18.270/2025 (arts. 6, 8, 9, 14)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17202-2019::020-art-19": {
+    "lei_id": "lei-municipal-saopaulo-17202-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 19",
+    "tema": [
+      "regularizacao_edificacoes",
+      "outorga_onerosa",
+      "permeabilidade",
+      "FUNDURB"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 22 prorrogado até 31/12/2025 (Lei 18.209/2024). Arts. 6, 8, 9 e 14 alterados pela Lei 18.270/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.346/2020 (art. 22)",
+        "Lei 17.556/2021 (art. 22)",
+        "Lei 17.771/2022 (art. 22)",
+        "Lei 18.062/2023 (art. 22)",
+        "Lei 18.209/2024 (art. 22)",
+        "Lei 18.270/2025 (arts. 6, 8, 9, 14)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17202-2019::021-art-20": {
+    "lei_id": "lei-municipal-saopaulo-17202-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 20",
+    "tema": [
+      "regularizacao_edificacoes",
+      "outorga_onerosa",
+      "permeabilidade",
+      "FUNDURB"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 22 prorrogado até 31/12/2025 (Lei 18.209/2024). Arts. 6, 8, 9 e 14 alterados pela Lei 18.270/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.346/2020 (art. 22)",
+        "Lei 17.556/2021 (art. 22)",
+        "Lei 17.771/2022 (art. 22)",
+        "Lei 18.062/2023 (art. 22)",
+        "Lei 18.209/2024 (art. 22)",
+        "Lei 18.270/2025 (arts. 6, 8, 9, 14)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17202-2019::022-art-21": {
+    "lei_id": "lei-municipal-saopaulo-17202-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 21",
+    "tema": [
+      "regularizacao_edificacoes",
+      "outorga_onerosa",
+      "permeabilidade",
+      "FUNDURB"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 22 prorrogado até 31/12/2025 (Lei 18.209/2024). Arts. 6, 8, 9 e 14 alterados pela Lei 18.270/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.346/2020 (art. 22)",
+        "Lei 17.556/2021 (art. 22)",
+        "Lei 17.771/2022 (art. 22)",
+        "Lei 18.062/2023 (art. 22)",
+        "Lei 18.209/2024 (art. 22)",
+        "Lei 18.270/2025 (arts. 6, 8, 9, 14)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17202-2019::023-art-22": {
+    "lei_id": "lei-municipal-saopaulo-17202-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 22",
+    "tema": [
+      "regularizacao_edificacoes",
+      "outorga_onerosa",
+      "permeabilidade",
+      "FUNDURB"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 22 prorrogado até 31/12/2025 (Lei 18.209/2024). Arts. 6, 8, 9 e 14 alterados pela Lei 18.270/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.346/2020 (art. 22)",
+        "Lei 17.556/2021 (art. 22)",
+        "Lei 17.771/2022 (art. 22)",
+        "Lei 18.062/2023 (art. 22)",
+        "Lei 18.209/2024 (art. 22)",
+        "Lei 18.270/2025 (arts. 6, 8, 9, 14)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "compilado",
+      "revogado_por": null,
+      "marcadores": [
+        "redacao_dada"
+      ],
+      "data_redacao": "2024",
+      "norma_redacao": "Lei nº 18.209/2024"
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17202-2019::024-art-23": {
+    "lei_id": "lei-municipal-saopaulo-17202-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 23",
+    "tema": [
+      "regularizacao_edificacoes",
+      "outorga_onerosa",
+      "permeabilidade",
+      "FUNDURB"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 22 prorrogado até 31/12/2025 (Lei 18.209/2024). Arts. 6, 8, 9 e 14 alterados pela Lei 18.270/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.346/2020 (art. 22)",
+        "Lei 17.556/2021 (art. 22)",
+        "Lei 17.771/2022 (art. 22)",
+        "Lei 18.062/2023 (art. 22)",
+        "Lei 18.209/2024 (art. 22)",
+        "Lei 18.270/2025 (arts. 6, 8, 9, 14)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17202-2019::025-art-24": {
+    "lei_id": "lei-municipal-saopaulo-17202-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 24",
+    "tema": [
+      "regularizacao_edificacoes",
+      "outorga_onerosa",
+      "permeabilidade",
+      "FUNDURB"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 22 prorrogado até 31/12/2025 (Lei 18.209/2024). Arts. 6, 8, 9 e 14 alterados pela Lei 18.270/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.346/2020 (art. 22)",
+        "Lei 17.556/2021 (art. 22)",
+        "Lei 17.771/2022 (art. 22)",
+        "Lei 18.062/2023 (art. 22)",
+        "Lei 18.209/2024 (art. 22)",
+        "Lei 18.270/2025 (arts. 6, 8, 9, 14)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17202-2019::026-art-25": {
+    "lei_id": "lei-municipal-saopaulo-17202-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 25",
+    "tema": [
+      "regularizacao_edificacoes",
+      "outorga_onerosa",
+      "permeabilidade",
+      "FUNDURB"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 22 prorrogado até 31/12/2025 (Lei 18.209/2024). Arts. 6, 8, 9 e 14 alterados pela Lei 18.270/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.346/2020 (art. 22)",
+        "Lei 17.556/2021 (art. 22)",
+        "Lei 17.771/2022 (art. 22)",
+        "Lei 18.062/2023 (art. 22)",
+        "Lei 18.209/2024 (art. 22)",
+        "Lei 18.270/2025 (arts. 6, 8, 9, 14)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17202-2019::027-art-26": {
+    "lei_id": "lei-municipal-saopaulo-17202-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 26",
+    "tema": [
+      "regularizacao_edificacoes",
+      "outorga_onerosa",
+      "permeabilidade",
+      "FUNDURB"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 22 prorrogado até 31/12/2025 (Lei 18.209/2024). Arts. 6, 8, 9 e 14 alterados pela Lei 18.270/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.346/2020 (art. 22)",
+        "Lei 17.556/2021 (art. 22)",
+        "Lei 17.771/2022 (art. 22)",
+        "Lei 18.062/2023 (art. 22)",
+        "Lei 18.209/2024 (art. 22)",
+        "Lei 18.270/2025 (arts. 6, 8, 9, 14)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17202-2019::028-art-27": {
+    "lei_id": "lei-municipal-saopaulo-17202-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 27",
+    "tema": [
+      "regularizacao_edificacoes",
+      "outorga_onerosa",
+      "permeabilidade",
+      "FUNDURB"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 22 prorrogado até 31/12/2025 (Lei 18.209/2024). Arts. 6, 8, 9 e 14 alterados pela Lei 18.270/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.346/2020 (art. 22)",
+        "Lei 17.556/2021 (art. 22)",
+        "Lei 17.771/2022 (art. 22)",
+        "Lei 18.062/2023 (art. 22)",
+        "Lei 18.209/2024 (art. 22)",
+        "Lei 18.270/2025 (arts. 6, 8, 9, 14)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17202-2019::029-art-28": {
+    "lei_id": "lei-municipal-saopaulo-17202-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 28",
+    "tema": [
+      "regularizacao_edificacoes",
+      "outorga_onerosa",
+      "permeabilidade",
+      "FUNDURB"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 22 prorrogado até 31/12/2025 (Lei 18.209/2024). Arts. 6, 8, 9 e 14 alterados pela Lei 18.270/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.346/2020 (art. 22)",
+        "Lei 17.556/2021 (art. 22)",
+        "Lei 17.771/2022 (art. 22)",
+        "Lei 18.062/2023 (art. 22)",
+        "Lei 18.209/2024 (art. 22)",
+        "Lei 18.270/2025 (arts. 6, 8, 9, 14)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17202-2019::030-art-29": {
+    "lei_id": "lei-municipal-saopaulo-17202-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 29",
+    "tema": [
+      "regularizacao_edificacoes",
+      "outorga_onerosa",
+      "permeabilidade",
+      "FUNDURB"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 22 prorrogado até 31/12/2025 (Lei 18.209/2024). Arts. 6, 8, 9 e 14 alterados pela Lei 18.270/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.346/2020 (art. 22)",
+        "Lei 17.556/2021 (art. 22)",
+        "Lei 17.771/2022 (art. 22)",
+        "Lei 18.062/2023 (art. 22)",
+        "Lei 18.209/2024 (art. 22)",
+        "Lei 18.270/2025 (arts. 6, 8, 9, 14)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17577-2021::001-preambulo": {
+    "lei_id": "lei-municipal-saopaulo-17577-2021",
+    "tipo_dispositivo": "preambulo",
+    "rotulo": "Preâmbulo",
+    "tema": [
+      "Requalifica_Centro",
+      "incentivo_fiscal",
+      "isencao",
+      "retrofit",
+      "outorga_onerosa",
+      "ZEPEC_BIR",
+      "remissao_IPTU"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-07-20",
+      "em_vigor": true,
+      "observacao": "Consolidada com alterações das Leis 17.844/2022, 18.065/2023, 18.081/2024, 18.330/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.844/2022 (art. 16)",
+        "Lei 18.065/2023 (altera a lei - arts. 16, 16-A)",
+        "Lei 18.081/2024 (amplia perímetro - setores 017/025/026 Brás)",
+        "Lei 18.330/2025 (art. 16-III, 16-B)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": false
+  },
+  "lei-municipal-saopaulo-17577-2021::002-art-1o": {
+    "lei_id": "lei-municipal-saopaulo-17577-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 1º",
+    "tema": [
+      "Requalifica_Centro",
+      "incentivo_fiscal",
+      "isencao",
+      "retrofit",
+      "outorga_onerosa",
+      "ZEPEC_BIR",
+      "remissao_IPTU"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-07-20",
+      "em_vigor": true,
+      "observacao": "Consolidada com alterações das Leis 17.844/2022, 18.065/2023, 18.081/2024, 18.330/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.844/2022 (art. 16)",
+        "Lei 18.065/2023 (altera a lei - arts. 16, 16-A)",
+        "Lei 18.081/2024 (amplia perímetro - setores 017/025/026 Brás)",
+        "Lei 18.330/2025 (art. 16-III, 16-B)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17577-2021::003-art-2o": {
+    "lei_id": "lei-municipal-saopaulo-17577-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 2º",
+    "tema": [
+      "Requalifica_Centro",
+      "incentivo_fiscal",
+      "isencao",
+      "retrofit",
+      "outorga_onerosa",
+      "ZEPEC_BIR",
+      "remissao_IPTU"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-07-20",
+      "em_vigor": true,
+      "observacao": "Consolidada com alterações das Leis 17.844/2022, 18.065/2023, 18.081/2024, 18.330/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.844/2022 (art. 16)",
+        "Lei 18.065/2023 (altera a lei - arts. 16, 16-A)",
+        "Lei 18.081/2024 (amplia perímetro - setores 017/025/026 Brás)",
+        "Lei 18.330/2025 (art. 16-III, 16-B)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17577-2021::004-art-3o": {
+    "lei_id": "lei-municipal-saopaulo-17577-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 3º",
+    "tema": [
+      "Requalifica_Centro",
+      "incentivo_fiscal",
+      "isencao",
+      "retrofit",
+      "outorga_onerosa",
+      "ZEPEC_BIR",
+      "remissao_IPTU"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-07-20",
+      "em_vigor": true,
+      "observacao": "Consolidada com alterações das Leis 17.844/2022, 18.065/2023, 18.081/2024, 18.330/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.844/2022 (art. 16)",
+        "Lei 18.065/2023 (altera a lei - arts. 16, 16-A)",
+        "Lei 18.081/2024 (amplia perímetro - setores 017/025/026 Brás)",
+        "Lei 18.330/2025 (art. 16-III, 16-B)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17577-2021::005-art-4o": {
+    "lei_id": "lei-municipal-saopaulo-17577-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 4º",
+    "tema": [
+      "Requalifica_Centro",
+      "incentivo_fiscal",
+      "isencao",
+      "retrofit",
+      "outorga_onerosa",
+      "ZEPEC_BIR",
+      "remissao_IPTU"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-07-20",
+      "em_vigor": true,
+      "observacao": "Consolidada com alterações das Leis 17.844/2022, 18.065/2023, 18.081/2024, 18.330/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.844/2022 (art. 16)",
+        "Lei 18.065/2023 (altera a lei - arts. 16, 16-A)",
+        "Lei 18.081/2024 (amplia perímetro - setores 017/025/026 Brás)",
+        "Lei 18.330/2025 (art. 16-III, 16-B)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17577-2021::006-art-5o": {
+    "lei_id": "lei-municipal-saopaulo-17577-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 5º",
+    "tema": [
+      "Requalifica_Centro",
+      "incentivo_fiscal",
+      "isencao",
+      "retrofit",
+      "outorga_onerosa",
+      "ZEPEC_BIR",
+      "remissao_IPTU"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-07-20",
+      "em_vigor": true,
+      "observacao": "Consolidada com alterações das Leis 17.844/2022, 18.065/2023, 18.081/2024, 18.330/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.844/2022 (art. 16)",
+        "Lei 18.065/2023 (altera a lei - arts. 16, 16-A)",
+        "Lei 18.081/2024 (amplia perímetro - setores 017/025/026 Brás)",
+        "Lei 18.330/2025 (art. 16-III, 16-B)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17577-2021::007-art-6o": {
+    "lei_id": "lei-municipal-saopaulo-17577-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 6º",
+    "tema": [
+      "Requalifica_Centro",
+      "incentivo_fiscal",
+      "isencao",
+      "retrofit",
+      "outorga_onerosa",
+      "ZEPEC_BIR",
+      "remissao_IPTU"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-07-20",
+      "em_vigor": true,
+      "observacao": "Consolidada com alterações das Leis 17.844/2022, 18.065/2023, 18.081/2024, 18.330/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.844/2022 (art. 16)",
+        "Lei 18.065/2023 (altera a lei - arts. 16, 16-A)",
+        "Lei 18.081/2024 (amplia perímetro - setores 017/025/026 Brás)",
+        "Lei 18.330/2025 (art. 16-III, 16-B)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17577-2021::008-art-7o": {
+    "lei_id": "lei-municipal-saopaulo-17577-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 7º",
+    "tema": [
+      "Requalifica_Centro",
+      "incentivo_fiscal",
+      "isencao",
+      "retrofit",
+      "outorga_onerosa",
+      "ZEPEC_BIR",
+      "remissao_IPTU"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-07-20",
+      "em_vigor": true,
+      "observacao": "Consolidada com alterações das Leis 17.844/2022, 18.065/2023, 18.081/2024, 18.330/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.844/2022 (art. 16)",
+        "Lei 18.065/2023 (altera a lei - arts. 16, 16-A)",
+        "Lei 18.081/2024 (amplia perímetro - setores 017/025/026 Brás)",
+        "Lei 18.330/2025 (art. 16-III, 16-B)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17577-2021::009-art-8o": {
+    "lei_id": "lei-municipal-saopaulo-17577-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 8º",
+    "tema": [
+      "Requalifica_Centro",
+      "incentivo_fiscal",
+      "isencao",
+      "retrofit",
+      "outorga_onerosa",
+      "ZEPEC_BIR",
+      "remissao_IPTU"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-07-20",
+      "em_vigor": true,
+      "observacao": "Consolidada com alterações das Leis 17.844/2022, 18.065/2023, 18.081/2024, 18.330/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.844/2022 (art. 16)",
+        "Lei 18.065/2023 (altera a lei - arts. 16, 16-A)",
+        "Lei 18.081/2024 (amplia perímetro - setores 017/025/026 Brás)",
+        "Lei 18.330/2025 (art. 16-III, 16-B)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17577-2021::010-art-9o": {
+    "lei_id": "lei-municipal-saopaulo-17577-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 9º",
+    "tema": [
+      "Requalifica_Centro",
+      "incentivo_fiscal",
+      "isencao",
+      "retrofit",
+      "outorga_onerosa",
+      "ZEPEC_BIR",
+      "remissao_IPTU"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-07-20",
+      "em_vigor": true,
+      "observacao": "Consolidada com alterações das Leis 17.844/2022, 18.065/2023, 18.081/2024, 18.330/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.844/2022 (art. 16)",
+        "Lei 18.065/2023 (altera a lei - arts. 16, 16-A)",
+        "Lei 18.081/2024 (amplia perímetro - setores 017/025/026 Brás)",
+        "Lei 18.330/2025 (art. 16-III, 16-B)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17577-2021::011-art-10": {
+    "lei_id": "lei-municipal-saopaulo-17577-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 10",
+    "tema": [
+      "Requalifica_Centro",
+      "incentivo_fiscal",
+      "isencao",
+      "retrofit",
+      "outorga_onerosa",
+      "ZEPEC_BIR",
+      "remissao_IPTU"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-07-20",
+      "em_vigor": true,
+      "observacao": "Consolidada com alterações das Leis 17.844/2022, 18.065/2023, 18.081/2024, 18.330/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.844/2022 (art. 16)",
+        "Lei 18.065/2023 (altera a lei - arts. 16, 16-A)",
+        "Lei 18.081/2024 (amplia perímetro - setores 017/025/026 Brás)",
+        "Lei 18.330/2025 (art. 16-III, 16-B)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17577-2021::012-art-11": {
+    "lei_id": "lei-municipal-saopaulo-17577-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 11",
+    "tema": [
+      "Requalifica_Centro",
+      "incentivo_fiscal",
+      "isencao",
+      "retrofit",
+      "outorga_onerosa",
+      "ZEPEC_BIR",
+      "remissao_IPTU"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-07-20",
+      "em_vigor": true,
+      "observacao": "Consolidada com alterações das Leis 17.844/2022, 18.065/2023, 18.081/2024, 18.330/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.844/2022 (art. 16)",
+        "Lei 18.065/2023 (altera a lei - arts. 16, 16-A)",
+        "Lei 18.081/2024 (amplia perímetro - setores 017/025/026 Brás)",
+        "Lei 18.330/2025 (art. 16-III, 16-B)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17577-2021::013-art-12": {
+    "lei_id": "lei-municipal-saopaulo-17577-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 12",
+    "tema": [
+      "Requalifica_Centro",
+      "incentivo_fiscal",
+      "isencao",
+      "retrofit",
+      "outorga_onerosa",
+      "ZEPEC_BIR",
+      "remissao_IPTU"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-07-20",
+      "em_vigor": true,
+      "observacao": "Consolidada com alterações das Leis 17.844/2022, 18.065/2023, 18.081/2024, 18.330/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.844/2022 (art. 16)",
+        "Lei 18.065/2023 (altera a lei - arts. 16, 16-A)",
+        "Lei 18.081/2024 (amplia perímetro - setores 017/025/026 Brás)",
+        "Lei 18.330/2025 (art. 16-III, 16-B)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17577-2021::014-art-13": {
+    "lei_id": "lei-municipal-saopaulo-17577-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 13",
+    "tema": [
+      "Requalifica_Centro",
+      "incentivo_fiscal",
+      "isencao",
+      "retrofit",
+      "outorga_onerosa",
+      "ZEPEC_BIR",
+      "remissao_IPTU"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-07-20",
+      "em_vigor": true,
+      "observacao": "Consolidada com alterações das Leis 17.844/2022, 18.065/2023, 18.081/2024, 18.330/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.844/2022 (art. 16)",
+        "Lei 18.065/2023 (altera a lei - arts. 16, 16-A)",
+        "Lei 18.081/2024 (amplia perímetro - setores 017/025/026 Brás)",
+        "Lei 18.330/2025 (art. 16-III, 16-B)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17577-2021::015-art-14": {
+    "lei_id": "lei-municipal-saopaulo-17577-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 14",
+    "tema": [
+      "Requalifica_Centro",
+      "incentivo_fiscal",
+      "isencao",
+      "retrofit",
+      "outorga_onerosa",
+      "ZEPEC_BIR",
+      "remissao_IPTU"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-07-20",
+      "em_vigor": true,
+      "observacao": "Consolidada com alterações das Leis 17.844/2022, 18.065/2023, 18.081/2024, 18.330/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.844/2022 (art. 16)",
+        "Lei 18.065/2023 (altera a lei - arts. 16, 16-A)",
+        "Lei 18.081/2024 (amplia perímetro - setores 017/025/026 Brás)",
+        "Lei 18.330/2025 (art. 16-III, 16-B)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17577-2021::016-art-15": {
+    "lei_id": "lei-municipal-saopaulo-17577-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 15",
+    "tema": [
+      "Requalifica_Centro",
+      "incentivo_fiscal",
+      "isencao",
+      "retrofit",
+      "outorga_onerosa",
+      "ZEPEC_BIR",
+      "remissao_IPTU"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-07-20",
+      "em_vigor": true,
+      "observacao": "Consolidada com alterações das Leis 17.844/2022, 18.065/2023, 18.081/2024, 18.330/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.844/2022 (art. 16)",
+        "Lei 18.065/2023 (altera a lei - arts. 16, 16-A)",
+        "Lei 18.081/2024 (amplia perímetro - setores 017/025/026 Brás)",
+        "Lei 18.330/2025 (art. 16-III, 16-B)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17577-2021::017-art-16": {
+    "lei_id": "lei-municipal-saopaulo-17577-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 16",
+    "tema": [
+      "Requalifica_Centro",
+      "incentivo_fiscal",
+      "isencao",
+      "retrofit",
+      "outorga_onerosa",
+      "ZEPEC_BIR",
+      "remissao_IPTU"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-07-20",
+      "em_vigor": true,
+      "observacao": "Consolidada com alterações das Leis 17.844/2022, 18.065/2023, 18.081/2024, 18.330/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.844/2022 (art. 16)",
+        "Lei 18.065/2023 (altera a lei - arts. 16, 16-A)",
+        "Lei 18.081/2024 (amplia perímetro - setores 017/025/026 Brás)",
+        "Lei 18.330/2025 (art. 16-III, 16-B)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "compilado",
+      "revogado_por": null,
+      "marcadores": [
+        "redacao_dada"
+      ],
+      "data_redacao": "2022",
+      "norma_redacao": "Lei nº 17.844/2022"
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17577-2021::018-art-16-a": {
+    "lei_id": "lei-municipal-saopaulo-17577-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 16-A",
+    "tema": [
+      "Requalifica_Centro",
+      "incentivo_fiscal",
+      "isencao",
+      "retrofit",
+      "outorga_onerosa",
+      "ZEPEC_BIR",
+      "remissao_IPTU"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-07-20",
+      "em_vigor": true,
+      "observacao": "Consolidada com alterações das Leis 17.844/2022, 18.065/2023, 18.081/2024, 18.330/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.844/2022 (art. 16)",
+        "Lei 18.065/2023 (altera a lei - arts. 16, 16-A)",
+        "Lei 18.081/2024 (amplia perímetro - setores 017/025/026 Brás)",
+        "Lei 18.330/2025 (art. 16-III, 16-B)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17577-2021::019-art-16-b": {
+    "lei_id": "lei-municipal-saopaulo-17577-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 16-B",
+    "tema": [
+      "Requalifica_Centro",
+      "incentivo_fiscal",
+      "isencao",
+      "retrofit",
+      "outorga_onerosa",
+      "ZEPEC_BIR",
+      "remissao_IPTU"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-07-20",
+      "em_vigor": true,
+      "observacao": "Consolidada com alterações das Leis 17.844/2022, 18.065/2023, 18.081/2024, 18.330/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.844/2022 (art. 16)",
+        "Lei 18.065/2023 (altera a lei - arts. 16, 16-A)",
+        "Lei 18.081/2024 (amplia perímetro - setores 017/025/026 Brás)",
+        "Lei 18.330/2025 (art. 16-III, 16-B)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17577-2021::020-art-17": {
+    "lei_id": "lei-municipal-saopaulo-17577-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 17",
+    "tema": [
+      "Requalifica_Centro",
+      "incentivo_fiscal",
+      "isencao",
+      "retrofit",
+      "outorga_onerosa",
+      "ZEPEC_BIR",
+      "remissao_IPTU"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-07-20",
+      "em_vigor": true,
+      "observacao": "Consolidada com alterações das Leis 17.844/2022, 18.065/2023, 18.081/2024, 18.330/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.844/2022 (art. 16)",
+        "Lei 18.065/2023 (altera a lei - arts. 16, 16-A)",
+        "Lei 18.081/2024 (amplia perímetro - setores 017/025/026 Brás)",
+        "Lei 18.330/2025 (art. 16-III, 16-B)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17577-2021::021-art-18": {
+    "lei_id": "lei-municipal-saopaulo-17577-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 18",
+    "tema": [
+      "Requalifica_Centro",
+      "incentivo_fiscal",
+      "isencao",
+      "retrofit",
+      "outorga_onerosa",
+      "ZEPEC_BIR",
+      "remissao_IPTU"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-07-20",
+      "em_vigor": true,
+      "observacao": "Consolidada com alterações das Leis 17.844/2022, 18.065/2023, 18.081/2024, 18.330/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.844/2022 (art. 16)",
+        "Lei 18.065/2023 (altera a lei - arts. 16, 16-A)",
+        "Lei 18.081/2024 (amplia perímetro - setores 017/025/026 Brás)",
+        "Lei 18.330/2025 (art. 16-III, 16-B)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17577-2021::022-art-19": {
+    "lei_id": "lei-municipal-saopaulo-17577-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 19",
+    "tema": [
+      "Requalifica_Centro",
+      "incentivo_fiscal",
+      "isencao",
+      "retrofit",
+      "outorga_onerosa",
+      "ZEPEC_BIR",
+      "remissao_IPTU"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-07-20",
+      "em_vigor": true,
+      "observacao": "Consolidada com alterações das Leis 17.844/2022, 18.065/2023, 18.081/2024, 18.330/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.844/2022 (art. 16)",
+        "Lei 18.065/2023 (altera a lei - arts. 16, 16-A)",
+        "Lei 18.081/2024 (amplia perímetro - setores 017/025/026 Brás)",
+        "Lei 18.330/2025 (art. 16-III, 16-B)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17577-2021::023-art-20": {
+    "lei_id": "lei-municipal-saopaulo-17577-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 20",
+    "tema": [
+      "Requalifica_Centro",
+      "incentivo_fiscal",
+      "isencao",
+      "retrofit",
+      "outorga_onerosa",
+      "ZEPEC_BIR",
+      "remissao_IPTU"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-07-20",
+      "em_vigor": true,
+      "observacao": "Consolidada com alterações das Leis 17.844/2022, 18.065/2023, 18.081/2024, 18.330/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.844/2022 (art. 16)",
+        "Lei 18.065/2023 (altera a lei - arts. 16, 16-A)",
+        "Lei 18.081/2024 (amplia perímetro - setores 017/025/026 Brás)",
+        "Lei 18.330/2025 (art. 16-III, 16-B)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17577-2021::024-art-21": {
+    "lei_id": "lei-municipal-saopaulo-17577-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 21",
+    "tema": [
+      "Requalifica_Centro",
+      "incentivo_fiscal",
+      "isencao",
+      "retrofit",
+      "outorga_onerosa",
+      "ZEPEC_BIR",
+      "remissao_IPTU"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-07-20",
+      "em_vigor": true,
+      "observacao": "Consolidada com alterações das Leis 17.844/2022, 18.065/2023, 18.081/2024, 18.330/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.844/2022 (art. 16)",
+        "Lei 18.065/2023 (altera a lei - arts. 16, 16-A)",
+        "Lei 18.081/2024 (amplia perímetro - setores 017/025/026 Brás)",
+        "Lei 18.330/2025 (art. 16-III, 16-B)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17577-2021::025-art-22": {
+    "lei_id": "lei-municipal-saopaulo-17577-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 22",
+    "tema": [
+      "Requalifica_Centro",
+      "incentivo_fiscal",
+      "isencao",
+      "retrofit",
+      "outorga_onerosa",
+      "ZEPEC_BIR",
+      "remissao_IPTU"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-07-20",
+      "em_vigor": true,
+      "observacao": "Consolidada com alterações das Leis 17.844/2022, 18.065/2023, 18.081/2024, 18.330/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.844/2022 (art. 16)",
+        "Lei 18.065/2023 (altera a lei - arts. 16, 16-A)",
+        "Lei 18.081/2024 (amplia perímetro - setores 017/025/026 Brás)",
+        "Lei 18.330/2025 (art. 16-III, 16-B)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17577-2021::026-art-23": {
+    "lei_id": "lei-municipal-saopaulo-17577-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 23",
+    "tema": [
+      "Requalifica_Centro",
+      "incentivo_fiscal",
+      "isencao",
+      "retrofit",
+      "outorga_onerosa",
+      "ZEPEC_BIR",
+      "remissao_IPTU"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-07-20",
+      "em_vigor": true,
+      "observacao": "Consolidada com alterações das Leis 17.844/2022, 18.065/2023, 18.081/2024, 18.330/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.844/2022 (art. 16)",
+        "Lei 18.065/2023 (altera a lei - arts. 16, 16-A)",
+        "Lei 18.081/2024 (amplia perímetro - setores 017/025/026 Brás)",
+        "Lei 18.330/2025 (art. 16-III, 16-B)"
+      ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17577-2021::027-art-24": {
+    "lei_id": "lei-municipal-saopaulo-17577-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 24",
+    "tema": [
+      "Requalifica_Centro",
+      "incentivo_fiscal",
+      "isencao",
+      "retrofit",
+      "outorga_onerosa",
+      "ZEPEC_BIR",
+      "remissao_IPTU"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-07-20",
+      "em_vigor": true,
+      "observacao": "Consolidada com alterações das Leis 17.844/2022, 18.065/2023, 18.081/2024, 18.330/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.844/2022 (art. 16)",
+        "Lei 18.065/2023 (altera a lei - arts. 16, 16-A)",
+        "Lei 18.081/2024 (amplia perímetro - setores 017/025/026 Brás)",
+        "Lei 18.330/2025 (art. 16-III, 16-B)"
+      ]
     },
     "vigencia_dispositivo": {
       "status": "original",

@@ -1,0 +1,52 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17202-2019::019-art-18",
+  "lei_id": "lei-municipal-saopaulo-17202-2019",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 18",
+  "numero": "18",
+  "header_raw": "Art. 18. A Administração Pública, por meio de seu órgão competente, poderá, a qualquer tempo, mesmo após efetuada a regularização, verificar a veracidade das informações e declarações, valores recolhidos e as condições de estabilidade, de higiene, de salubridade, de permeabilidade, de acessibilidade, de segurança de uso das edificações e de respeito ao direito de vizinhança.",
+  "caminho_hierarquico": [
+    "CAPÍTULO IX",
+    "Art. 18"
+  ],
+  "texto": "Art. 18. A Administração Pública, por meio de seu órgão competente, poderá, a qualquer tempo, mesmo após efetuada a regularização, verificar a veracidade das informações e declarações, valores recolhidos e as condições de estabilidade, de higiene, de salubridade, de permeabilidade, de acessibilidade, de segurança de uso das edificações e de respeito ao direito de vizinhança.\n\nParágrafo único. Constatada, a qualquer tempo, a inveracidade das situações mencionadas no caput deste artigo, o interessado será notificado a saná-las sob pena de anulação do Certificado de Regularização, conforme com o art. 68 da Lei nº 16.642, de 2017.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.202/2019 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO IX › Art. 18",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17202-de-16-de-outubro-de-2019",
+    "vigencia": {
+      "inicio": "2020-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 22 prorrogado até 31/12/2025 (Lei 18.209/2024). Arts. 6, 8, 9 e 14 alterados pela Lei 18.270/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.346/2020 (art. 22)",
+        "Lei 17.556/2021 (art. 22)",
+        "Lei 17.771/2022 (art. 22)",
+        "Lei 18.062/2023 (art. 22)",
+        "Lei 18.209/2024 (art. 22)",
+        "Lei 18.270/2025 (arts. 6, 8, 9, 14)"
+      ]
+    }
+  },
+  "tema": [
+    "regularizacao_edificacoes",
+    "outorga_onerosa",
+    "permeabilidade",
+    "FUNDURB"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a regularização de edificações, condicionada, quando necessário, à realização de obras, nos termos da previsão do art. 367 do Plano Diretor Estratégico."
+}

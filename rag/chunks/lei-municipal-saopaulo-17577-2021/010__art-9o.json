@@ -1,0 +1,54 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17577-2021::010-art-9o",
+  "lei_id": "lei-municipal-saopaulo-17577-2021",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 9º",
+  "numero": "9",
+  "header_raw": "Art. 9º Os pedidos de requalificação de edificação efetuados com base nesta Lei estão sujeitos,",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção II",
+    "Art. 9º"
+  ],
+  "texto": "Art. 9º Os pedidos de requalificação de edificação efetuados com base nesta Lei estão sujeitos,\n\nsuplementarmente à legislação ordinária vigente, ao seguinte regramento:\n\nI - dispensa do atendimento à fachada ativa, à doação de área para fins de alargamento da calçada, à\n\nfruição pública, à taxa de permeabilidade, à quota ambiental e à cota-parte máxima de terreno por\n\nunidade habitacional;\n\nII - dispensa da oferta de vagas para estacionamento de veículos, exceto para os empreendimentos\n\nenquadrados como Polo Gerador de Tráfego, cujas exigências serão fixadas mediante análise do órgão\n\nmunicipal de trânsito;\n\nIII - possibilidade de liberação da exigência de vaga para carga e descarga, mediante análise de órgão\n\nmunicipal de trânsito, para os casos não dispensados pelo Quadro 4A da Lei nº 16.402, de 2016.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.577/2021 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção II › Art. 9º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17577-de-20-de-julho-de-2021",
+    "vigencia": {
+      "inicio": "2021-07-20",
+      "em_vigor": true,
+      "observacao": "Consolidada com alterações das Leis 17.844/2022, 18.065/2023, 18.081/2024, 18.330/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.844/2022 (art. 16)",
+        "Lei 18.065/2023 (altera a lei - arts. 16, 16-A)",
+        "Lei 18.081/2024 (amplia perímetro - setores 017/025/026 Brás)",
+        "Lei 18.330/2025 (art. 16-III, 16-B)"
+      ]
+    }
+  },
+  "tema": [
+    "Requalifica_Centro",
+    "incentivo_fiscal",
+    "isencao",
+    "retrofit",
+    "outorga_onerosa",
+    "ZEPEC_BIR",
+    "remissao_IPTU"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o Programa Requalifica Centro, estabelecendo incentivos e o regime específico para a requalificação de edificações situadas na Área Central, e dá outras providências."
+}

@@ -1,0 +1,59 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-11152-1991::006-art-5o",
+  "lei_id": "lei-municipal-saopaulo-11152-1991",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 5º",
+  "numero": "5",
+  "header_raw": "Art. 5º Ficam atualizados os valores unitários de metro quadrado de construção constantes na Tabela VI, que integra a Lei nº 10.235, de 16 de dezembro de 1986, com a redação que lhe foi conferida pela Lei nº 10.921, de 30 de dezembro de 1990, na forma do Anexo I, desta Lei, bem como aprovados os valores unitários de metro quadrado de terreno, contidos na Listagem de Valores constantes do Anexo II, desta Lei, a serem considerados para o lançamento dos Impostos Predial e Territorial Urbano, relativo ao exercício de 1992, na forma prevista na legislação específica.",
+  "caminho_hierarquico": [
+    "Art. 5º"
+  ],
+  "texto": "Art. 5º Ficam atualizados os valores unitários de metro quadrado de construção constantes na Tabela VI, que integra a Lei nº 10.235, de 16 de dezembro de 1986, com a redação que lhe foi conferida pela Lei nº 10.921, de 30 de dezembro de 1990, na forma do Anexo I, desta Lei, bem como aprovados os valores unitários de metro quadrado de terreno, contidos na Listagem de Valores constantes do Anexo II, desta Lei, a serem considerados para o lançamento dos Impostos Predial e Territorial Urbano, relativo ao exercício de 1992, na forma prevista na legislação específica.\n\n§ 1º Os valores unitários de metro quadrado de construção e de terreno, aprovados neste artigo, referem-se a 1º de setembro de 1991 e, para os fins desta Lei, serão monetariamente atualizados com base na variação acumulada do Índice de Preços ao Consumidor – IPC, da Fundação Instituto de Pesquisas Econômicas da Universidade de São Paulo – FIPE, relativo aos meses de setembro, outubro e novembro de 1991.\n\n§ 2º O Executivo poderá atualizar, anualmente, os valores referidos neste artigo, desde que essa atualização não supere a inflação do período.\n\n§ 3º Para efeito de cálculo dos Impostos Predial e Territorial Urbano, o Executivo poderá desprezar as frações de um milhar da unidade monetária do número que representa o valor venal dos imóveis. (Revogado pela Lei nº 11.457/1993)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 11.152/1991 — São Paulo/SP",
+    "dispositivo": "Art. 5º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-11152-de-30-de-dezembro-de-1991",
+    "vigencia": {
+      "inicio": "1992-01-01",
+      "em_vigor": true,
+      "observacao": "Arts. 5º e 6º revogados (Lei 11.457/1993 e Lei 14.125/2005 respectivamente). Demais artigos vigentes; metodologia base do VVC, complementada pela Lei 15.889/2013.",
+      "altera": [
+        "Lei 6.989/1966 (arts. 7, 17, 19, 27, 37, 39, 87, 94)",
+        "Lei 10.235/1986 (art. 8, Tabelas II/III/IV/VI)",
+        "Lei 10.819/1989 (art. 5)"
+      ],
+      "alterada_por": [
+        "Lei 11.457/1993 (revoga art. 5§3)",
+        "Lei 14.125/2005 (revoga art. 6)",
+        "Lei 15.889/2013 (complementa)"
+      ]
+    }
+  },
+  "tema": [
+    "valor_venal",
+    "VVC",
+    "calculo",
+    "aliquotas_iptu",
+    "iptu_predial",
+    "iptu_territorial",
+    "taxas_limpeza",
+    "taxas_conservacao",
+    "fator_obsolescencia",
+    "fator_condominio",
+    "fator_esquina"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Altera a legislação relativa aos Impostos Predial e Territorial Urbano e às Taxas de Limpeza Pública e de Conservação de Vias e Logradouros Públicos, e dá outras providências."
+}
