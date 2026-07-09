@@ -65,6 +65,51 @@ def _autoteste_regime():
     return True
 
 
+# ---------------------------------------------------------------------------
+# Motor Fórmulas — cálculo PURO do PCpt (princípio 1.1: fórmula é engine).
+# Número nasce no engine (1.3); cita Art. 24 I–VII LPUOS (escalonado) e Art. 125 §1º I PDE.
+# ---------------------------------------------------------------------------
+def _calcular_pcpt(r, atc, cabas, pend, n):
+    """Calcula PCpt (m²) e saldo líquido via ENGINE. Devolve o saldo (Decimal) ou None se falhar.
+    Correções do loop de melhoria (2026-07-02):
+      (a) Fi ESCALONADO pela área do lote (LPUOS Art. 24 I–VII) — resolvido no engine;
+      (b) SALDO líquido: abate o m² JÁ TRANSFERIDO (certidões) do PCpt;
+      (d) parcelamento Art. 124 §3º (>50.000 m² → 10 parcelas) EXPOSTO na saída."""
+    try:
+        e = ENGINE.pcpt_sem_doacao(atc, cabas)
+        r["pcpt_m2"] = str(e["valor_m2"]); r["fi_aplicado"] = e.get("fi", "")
+        r["memoria_calculo"] = e["memoria_calculo"]; n["pcpt"] += 1
+        if int(e.get("parcelas_anuais") or 0) > 0:
+            r["parcelas_anuais"] = str(e["parcelas_anuais"])
+            pend.append(f"Art.124 §3º: excedente de 50.000 m² sai em {e['parcelas_anuais']} parcelas anuais")
+        ja = (r.get("m2_ja_transferido") or "").strip()
+        saldo = Decimal(str(e["valor_m2"])) - (Decimal(ja) if ja else Decimal("0"))
+        if saldo < 0:
+            saldo = Decimal("0"); pend.append("saldo: já transferido > PCpt calculado — REVISAR (certidão vs cálculo)")
+        r["saldo_pcpt_m2"] = str(saldo.quantize(Decimal("0.01"))); n["saldo"] += 1
+        return saldo
+    except Exception as ex:
+        pend.append(f"PCpt: engine recusou ({ex})")
+        return None
+
+
+# ---------------------------------------------------------------------------
+# Motor Comercial — decisão de preço-proxy (princípio 1.1: comercial ≠ fórmula).
+# preço-proxy (R$) = saldo × V (Codex Precificação R16; NÃO é preço de mercado).
+# (c) ESGOTADO/VEDADO não é precificado (não se vende o invendável).
+# ---------------------------------------------------------------------------
+def _precificar(r, saldo, vendido_bloqueado, pend, n):
+    """Calcula preço-proxy regulatório a partir do saldo e do V de outorga (Quadro 14).
+    Separado de _calcular_pcpt por princípio 1.1: decisão comercial ≠ fórmula de engine."""
+    if vendido_bloqueado:
+        pend.append("ESGOTADO/VEDADO — não precificar (prova escrita na base)")
+        return
+    vq = r["v_outorga_m2_q14"]
+    if vq and saldo > 0:
+        preco = (saldo * Decimal(str(vq))).quantize(Decimal("0.01"))
+        r["preco_proxy_brl"] = str(preco); n["preco"] += 1
+
+
 def main():
     iptu = {r["sql_mestre"]: r for r in csv.DictReader(open(AQUI / "oficial/iptu2026_cedentes.csv", encoding="utf-8"))}
     q14 = {(r["sq"], norm_codlog(r["codlog"])): r["valor_m2_brl"]
@@ -107,36 +152,14 @@ def main():
             else:
                 pend.append("Zona: lote sem sobreposição (sem SQL / lote / fora de zona)")
 
-            # H1.4 — PCpt e preço só quando há Atc E CAbás; número do ENGINE (1.3).
-            # ★ Correções do loop de melhoria (2026-07-02):
-            #   (a) Fi ESCALONADO pela área do lote (LPUOS Art. 24 I–VII) — resolvido no engine;
-            #   (b) SALDO líquido: abate o m² JÁ TRANSFERIDO (certidões) do PCpt — preço sai do SALDO;
-            #   (c) ESGOTADO/VEDADO não é precificado (não se vende o invendável);
-            #   (d) parcelamento Art. 124 §3º (>50.000 m² → 10 parcelas) EXPOSTO na saída.
-            from decimal import Decimal
+            # H1.4 — PCpt e preço: separados por princípio 1.1 (fórmula ≠ comercial).
+            # _calcular_pcpt() = Motor Fórmulas (número nasce no engine, 1.3).
+            # _precificar()    = Motor Comercial (decisão de preço-proxy, Codex R16).
             vendido_bloqueado = (r.get("esgotado") or "").strip() == "sim" or (r.get("negociavel") or "").strip() == "nao"
             if atc and cabas:
-                try:
-                    e = ENGINE.pcpt_sem_doacao(atc, cabas)
-                    r["pcpt_m2"] = str(e["valor_m2"]); r["fi_aplicado"] = e.get("fi", "")
-                    r["memoria_calculo"] = e["memoria_calculo"]; n["pcpt"] += 1
-                    if int(e.get("parcelas_anuais") or 0) > 0:
-                        r["parcelas_anuais"] = str(e["parcelas_anuais"])
-                        pend.append(f"Art.124 §3º: excedente de 50.000 m² sai em {e['parcelas_anuais']} parcelas anuais")
-                    ja = (r.get("m2_ja_transferido") or "").strip()
-                    saldo = Decimal(str(e["valor_m2"])) - (Decimal(ja) if ja else Decimal("0"))
-                    if saldo < 0:
-                        saldo = Decimal("0"); pend.append("saldo: já transferido > PCpt calculado — REVISAR (certidão vs cálculo)")
-                    r["saldo_pcpt_m2"] = str(saldo.quantize(Decimal("0.01"))); n["saldo"] += 1
-                    if vendido_bloqueado:
-                        pend.append("ESGOTADO/VEDADO — não precificar (prova escrita na base)")
-                    else:
-                        vq = r["v_outorga_m2_q14"]
-                        if vq and saldo > 0:
-                            preco = (saldo * Decimal(str(vq))).quantize(Decimal("0.01"))
-                            r["preco_proxy_brl"] = str(preco); n["preco"] += 1
-                except Exception as ex:
-                    pend.append(f"PCpt: engine recusou ({ex})")
+                saldo = _calcular_pcpt(r, atc, cabas, pend, n)
+                if saldo is not None:
+                    _precificar(r, saldo, vendido_bloqueado, pend, n)
 
             # T3 — carimba o REGIME do PCpt. Para o já-declarado, o escalonado calculado acima é ESTIMATIVA,
             # não o PCpt da Declaração (Art. 125 §1º I) — flaga e declara a pendência (Fi declarado ausente).
