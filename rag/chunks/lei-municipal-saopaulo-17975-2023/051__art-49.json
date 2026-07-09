@@ -1,0 +1,59 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17975-2023::051-art-49",
+  "lei_id": "lei-municipal-saopaulo-17975-2023",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 49",
+  "numero": "49",
+  "header_raw": "Art. 49. O inciso IV do caput e o § 1º do art. 126 da Lei nº 16.050, de 2014, passam a vigorar com as",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Seção II",
+    "Art. 49"
+  ],
+  "texto": "Art. 49. O inciso IV do caput e o § 1º do art. 126 da Lei nº 16.050, de 2014, passam a vigorar com as\n\nseguintes alterações:\n\n“Art. 126. ...................................................................................\n\n....................................................................................................\n\nIV - implantação de parques propostos, de acordo com o Quadro 7 anexo a esta Lei, situados na zona\n\nurbana.\n\n§ 1º Nos casos em que a doação for proposta pelo proprietário para uma das finalidades descritas nos\n\nincisos do caput deste artigo, deverá ser avaliada a conveniência e o interesse público no recebimento\n\nda área, mediante análise da vantajosidade da medida, cotejando-se a economicidade de seu\n\nrecebimento, o valor do bem a ser doado, aferido em avaliação específica, admitida a possibilidade de\n\nprevisão de contrapartidas compatíveis com os objetivos da política urbana em desenvolvimento.\n\n..........................................................................................” (NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Seção II › Art. 49",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "vigencia": {
+      "inicio": "2023-07-08",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.050/2014 (Plano Diretor Estrategico — PDE)",
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupacao do Solo)"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicacao. Revisao intermediaria do PDE conforme art. 4o da Lei 16.050/2014. Regulamentada por Resolucao SMUL/CIMPDE n. 1/2024, Decreto 63.130/2024 e Decreto 63.728/2024."
+    }
+  },
+  "tema": [
+    "plano_diretor",
+    "revisao_intermediaria",
+    "ordenamento_territorial",
+    "zoneamento",
+    "transferencia_direito_construir",
+    "outorga_onerosa",
+    "potencial_construtivo",
+    "funcao_social_propriedade",
+    "desenvolvimento_urbano",
+    "habitacao_interesse_social",
+    "patrimonio_cultural",
+    "meio_ambiente"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão intermediária do Plano Diretor Estratégico do Município de São Paulo, aprovado pela Lei nº 16.050, de 31 de julho de 2014, nos termos da previsão de seu art. 4º."
+}

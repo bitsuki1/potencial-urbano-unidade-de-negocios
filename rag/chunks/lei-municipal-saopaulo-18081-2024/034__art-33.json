@@ -1,0 +1,59 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-18081-2024::034-art-33",
+  "lei_id": "lei-municipal-saopaulo-18081-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 33",
+  "numero": "33",
+  "header_raw": "Art. 33. O art. 61 da Lei nº 16.402, de 2016, passa a vigorar com a seguinte redação:",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 33"
+  ],
+  "texto": "Art. 33. O art. 61 da Lei nº 16.402, de 2016, passa a vigorar com a seguinte redação:\n\n“Art. 61. ..........................................................................................\n\n.........................................................................................................\n\n§ 3º O nível do pavimento térreo não poderá ser inferior à menor cota dos vértices do terreno.\n\n§ 4º Nos casos de terrenos com declive ou aclive superior a 50% (cinquenta por cento) em relação ao\n\nlogradouro ou aos imóveis contíguos, o nível do pavimento térreo será definido caso a caso por\n\ncomissão intersecretarial.\n\n§ 5º A comissão intersecretarial referida no § 4º deste artigo também apreciará, para os fins de\n\ndefinição do pavimento térreo, os casos que se enquadrem nas seguintes hipóteses:\n\nI - áreas sujeitas a alagamento;\n\nII - restrição à construção de subsolo em terrenos contaminados e, quando exigido por órgão ambiental\n\ncompetente;\n\nIII - lençol freático em níveis próximos ao perfil do terreno.\n\n§ 6º Quando em função das hipóteses do § 5º o nível do pavimento térreo ultrapassar os limites\n\ndo caput e dos § 1º e § 2º deste artigo, a taxa de ocupação deverá ser calculada considerando a\n\nprojeção do subsolo aflorado em relação ao perfil natural do terreno, exceto nos casos de R2h, HIS e\n\nHMP.” (NR)\n\n§ 7º Na análise dos casos previstos nos §§ 4º e 5º, além da documentação técnica obrigatória a ser\n\ndefinida por regulamentação específica, serão considerados:(Incluído pela Lei nº 18.177/2024)\n\nI - as características urbanísticas do entorno do empreendimento;(Incluído pela Lei nº 18.177/2024)\n\nII - a compatibilidade entre as áreas destinadas a subsolo e as exigências mínimas de vagas para\n\nveículos e áreas correlatas estabelecidas na LPUOS;(Incluído pela Lei nº 18.177/2024)\n\nIII - os pareceres técnicos apresentados.(Incluído pela Lei nº 18.177/2024)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 18.081/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Art. 33",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-18081-de-19-de-janeiro-de-2023",
+    "vigencia": {
+      "inicio": "2024-01-19",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupação do Solo)",
+        "Lei nº 17.577/2021",
+        "Lei nº 16.499/2016"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicação. Revisão parcial da LPUOS para compatibilizar com a Lei 17.975/2023 (revisão intermediária do PDE). Vários artigos VETADOS (71, 83, 88-93)."
+    }
+  },
+  "tema": [
+    "parcelamento_uso_ocupacao_solo",
+    "zoneamento",
+    "coeficiente_aproveitamento",
+    "gabarito_altura",
+    "quota_ambiental",
+    "habitacao_interesse_social",
+    "eixo_estruturacao_urbana",
+    "zona_mista",
+    "fachada_ativa",
+    "fruicao_publica",
+    "patrimonio_cultural",
+    "zona_especial_protecao_cultural"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão parcial da Lei nº 16.402, de 22 de março de 2016 (LPUOS), visando à compatibilização de seu texto original com as supervenientes alterações decorrentes da promulgação da Lei nº 17.975, de 8 de julho de 2023 – Revisão Intermediária do Plano Diretor Estratégico do Município de São Paulo, nos termos da previsão de seu art. 126, e dá outras providências."
+}

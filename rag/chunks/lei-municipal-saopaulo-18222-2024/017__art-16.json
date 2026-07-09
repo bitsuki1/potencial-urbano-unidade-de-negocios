@@ -1,0 +1,56 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-18222-2024::017-art-16",
+  "lei_id": "lei-municipal-saopaulo-18222-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 16",
+  "numero": "16",
+  "header_raw": "Art. 16. Aos empreendimentos em lotes com frente para os Eixos Estratégicos, aplicam-se as seguintes",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção I",
+    "Art. 16"
+  ],
+  "texto": "Art. 16. Aos empreendimentos em lotes com frente para os Eixos Estratégicos, aplicam-se as seguintes\n\ndisposições:\n\nI - nos lotes com área superior a 2.500m² (dois mil e quinhentos metros quadrados), o passeio público\n\ndeverá ter largura mínima de 5m (cinco metros);\n\nII - os lotes com área superior a 5.000m² (cinco mil metros quadrados) e menor ou igual a 20.000m²\n\n(vinte mil metros quadrados) deverão:\n\na) atender ao limite máximo de 25% (vinte e cinco por cento) de vedação da testada do lote com\n\nmuros;\n\nb) possuir fachada ativa em no mínimo 25% (vinte e cinco por cento) da testada do lote em\n\nempreendimentos residenciais ou não residenciais;\n\nIII - para os lotes com área superior a 10.000m² (dez mil metros quadrados) e menor ou igual a\n\n20.000m² (vinte mil metros quadrados), nos termos do art. 70 da Lei nº 16.402, de 22 de março de\n\n2016 - LPUOS, a destinação de área para fruição pública deverá ser equivalente a, no mínimo, 20%\n\n(vinte por cento) da área do lote, em espaço livre ou edificado, ao nível do passeio público ou no\n\npavimento térreo;\n\nIV - todos os lotes estão sujeitos às disposições previstas no art. 62 da Lei nº 16.402, de 22 de março\n\nde 2016 - LPUOS, observado o seguinte:\n\na) o art. 62, incisos I, VII, alínea “a”, e VIII, da Lei nº 16.402, de 22 de março de 2016 - LPUOS é\n\naplicável a todos os lotes com frente para os Eixos Estratégicos, independentemente das zonas em\n\nque se situem;\n\nb) além das zonas indicadas no art. 62, inciso V, da Lei nº 16.402, de 22 de março de 2016 - LPUOS,\n\nnão se aplica o incentivo referente às áreas comuns de circulação a todos os lotes integrantes das\n\nÁreas de Transformação com frente para os Eixos Estratégicos, independentemente da zona em que\n\nse situem.\n\n§ 1º Em contrapartida à doação de área para alargamento do passeio público prevista no inciso I\n\ndo caput deste artigo:\n\nI - fica dispensado o recuo obrigatório de frente;\n\nII - os potenciais construtivos básico e máximo do remanescente do lote serão calculados em função\n\nda área original do terreno;\n\nIII - não será cobrada outorga onerosa do direito de construir relativa ao potencial construtivo adicional\n\nda área doada.\n\n§ 2º Para fins de aplicação do inciso IV do caput deste artigo, serão consideradas as áreas construídas\n\nno pavimento imediatamente superior ou inferior de acesso direto ao logradouro, desde que façam\n\nparte do mesmo compartimento edificado.\n\n§ 3º O disposto no inciso IV do caput deste artigo aplica-se aos lotes que tenham, no momento da\n\nentrada em vigor desta Lei, frente para logradouros oficiais demarcados como Eixos Estratégicos,\n\nindependentemente da declaração de vigência da disciplina prevista no § 1º do art. 83 da Lei nº 16.050,\n\nde 31 de julho de 2014 - PDE.\n\n§ 4º Estendem-se as obrigações e incentivos para os lotes contíguos às áreas verdes, originárias de\n\nparcelamento de lotes ou glebas, localizadas de frente para os eixos estratégicos.\n\nSubseção II\n\nDa Centralidade do Jaguaré",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 18.222/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção I › Art. 16",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-18222-de-27-de-dezembro-de-2024",
+    "vigencia": {
+      "inicio": "2024-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Lei nº 18.298/2025"
+      ],
+      "revogada_por": null,
+      "observacao": "Em vigor desde a publicacao; consolidada com alteracoes da Lei 18.298/2025 (27 dispositivos com redacao alterada, 1 incluido, 1 revogado — todos relativos a ZOE-Butantan)."
+    }
+  },
+  "tema": [
+    "plano_intervencao_urbana",
+    "arco_pinheiros",
+    "uso_ocupacao_solo",
+    "zoneamento",
+    "potencial_construtivo",
+    "habitacao_interesse_social",
+    "distrito_inovacao",
+    "meio_ambiente_urbano",
+    "mobilidade_urbana",
+    "outorga_onerosa"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Aprova o Plano de Intervenção Urbana para o território do Arco Pinheiros, em atendimento ao inciso IV do § 3º do art. 76 da Lei nº 16.050, de 31 de julho de 2014 - PDE; cria a Área de Intervenção Urbana Arco Pinheiros."
+}

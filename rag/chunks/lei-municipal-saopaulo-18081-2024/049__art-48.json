@@ -1,0 +1,59 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-18081-2024::049-art-48",
+  "lei_id": "lei-municipal-saopaulo-18081-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 48",
+  "numero": "48",
+  "header_raw": "Art. 48. O art. 82 da Lei nº 16.402, de 2016, passa a vigorar com a seguinte redação:",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 48"
+  ],
+  "texto": "Art. 48. O art. 82 da Lei nº 16.402, de 2016, passa a vigorar com a seguinte redação:\n\n.........................................................................................................\n\n“Art. 82. ..........................................................................................\n\n.........................................................................................................\n\n§ 3º Alternativamente ao incentivo previsto no caput, quando o empreendimento atingir de 2 (duas) a 4\n\n(quatro) vezes a quota ambiental mínima, o empreendedor poderá optar por receber benefício em área\n\nnão computável incentivada, de acordo com as seguintes fórmulas:\n\nI - para terrenos localizados nos perímetros de qualificação ambiental PA-1, PA-4, PA-5, PA-6, PA-7,\n\nPA-10, PA-11, PA-12: NCQA = (VQA Min - 1) x At x 0,07;\n\nII - para os demais perímetros de qualificação ambiental:\n\nNCQA = (VQA Min - 1) x At x 0,09 sendo:\n\nNCQA: área não computável adicional, em metros quadrados, decorrente da majoração da Quota\n\nAmbiental;\nVQA Min: razão entre o valor numérico da QA atingida pelo projeto do empreendimento e o valor\n\nmínimo exigido da QA, variando de 1,5 (um inteiro e cinco décimos) a 4 (quatro), de acordo com o\n\nQuadro 3A desta Lei;\n\nAt: área de terreno.\n\n................................................................................................. ” NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 18.081/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Art. 48",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-18081-de-19-de-janeiro-de-2023",
+    "vigencia": {
+      "inicio": "2024-01-19",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupação do Solo)",
+        "Lei nº 17.577/2021",
+        "Lei nº 16.499/2016"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicação. Revisão parcial da LPUOS para compatibilizar com a Lei 17.975/2023 (revisão intermediária do PDE). Vários artigos VETADOS (71, 83, 88-93)."
+    }
+  },
+  "tema": [
+    "parcelamento_uso_ocupacao_solo",
+    "zoneamento",
+    "coeficiente_aproveitamento",
+    "gabarito_altura",
+    "quota_ambiental",
+    "habitacao_interesse_social",
+    "eixo_estruturacao_urbana",
+    "zona_mista",
+    "fachada_ativa",
+    "fruicao_publica",
+    "patrimonio_cultural",
+    "zona_especial_protecao_cultural"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão parcial da Lei nº 16.402, de 22 de março de 2016 (LPUOS), visando à compatibilização de seu texto original com as supervenientes alterações decorrentes da promulgação da Lei nº 17.975, de 8 de julho de 2023 – Revisão Intermediária do Plano Diretor Estratégico do Município de São Paulo, nos termos da previsão de seu art. 126, e dá outras providências."
+}

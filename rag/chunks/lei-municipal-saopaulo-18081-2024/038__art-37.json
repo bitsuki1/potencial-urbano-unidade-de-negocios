@@ -1,0 +1,59 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-18081-2024::038-art-37",
+  "lei_id": "lei-municipal-saopaulo-18081-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 37",
+  "numero": "37",
+  "header_raw": "Art. 37. O art. 67 da Lei nº 16.402, de 2016, passa a vigorar com a seguinte redação:",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 37"
+  ],
+  "texto": "Art. 37. O art. 67 da Lei nº 16.402, de 2016, passa a vigorar com a seguinte redação:\n\n“Art. 67. Nos projetos de novas edificações ou nas reformas com alteração de mais de 50% (cinquenta\n\npor cento) da área construída total, os passeios públicos deverão ter largura mínima de 5m (cinco\n\nmetros) nas seguintes situações:\n\nI - nas ZEU, ZEUa, ZEUP, ZEUPa, ZEM e ZEMP, nos lotes com qualquer área;\n\nII - nas demais zonas, nos lotes maiores que 2.500m² (dois mil e quinhentos metros quadrados) e\n\nfacultativo para os menores;\n\nIII - nas ZEIS, conforme o item II, exceto para EHIS e EZEIS, as quais devem atender as disposições\n\ndo decreto específico.\n\n§ 1º Para atendimento das disposições previstas neste artigo a faixa necessária ao alargamento do\n\npasseio poderá ser doada à Municipalidade ou gravada como área não edificável, devidamente\n\naverbada no Cartório de Registro de Imóveis, devendo, em ambos os casos, ser integrada ao passeio\n\npúblico com o mesmo tipo de piso existente ou com a execução de um novo piso na totalidade da nova\n\nárea de calçada, sendo vedado qualquer tipo de barreira ou vedação.\n\n§ 2º Nos casos em que o passeio público já apresente largura de 5m (cinco metros) ou quando ocorrer\n\na doação ou a reserva de área não edificável da faixa necessária para seu alargamento, fica\n\ndispensado o atendimento do recuo de frente.\n\n§ 3º No caso de reserva de área não edificável, todos os índices e parâmetros, inclusive os potenciais\n\nconstrutivos básico e máximo do lote serão calculados em função de sua área original, aplicando-se a\n\nregra ordinária da outorga onerosa na hipótese de utilização de potencial construtivo adicional.\n\n§ 4º Na hipótese de reforma fica dispensada a doação prevista no § 1º deste artigo, quando a doação\n\nimplicar demolição da edificação regular existente.\n\n§ 5º O registro da doação ou da reserva da área não edificável prevista no § 1º deste artigo deverá\n\npreceder a emissão do Alvará de Execução da edificação.\n\n§ 6º No caso de regularização, aplicam-se os parâmetros desta Lei a semelhança de reforma ou obra\n\nnova, considerando a última situação regular constante do cadastro do histórico da edificação.” (NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 18.081/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Art. 37",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-18081-de-19-de-janeiro-de-2023",
+    "vigencia": {
+      "inicio": "2024-01-19",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupação do Solo)",
+        "Lei nº 17.577/2021",
+        "Lei nº 16.499/2016"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicação. Revisão parcial da LPUOS para compatibilizar com a Lei 17.975/2023 (revisão intermediária do PDE). Vários artigos VETADOS (71, 83, 88-93)."
+    }
+  },
+  "tema": [
+    "parcelamento_uso_ocupacao_solo",
+    "zoneamento",
+    "coeficiente_aproveitamento",
+    "gabarito_altura",
+    "quota_ambiental",
+    "habitacao_interesse_social",
+    "eixo_estruturacao_urbana",
+    "zona_mista",
+    "fachada_ativa",
+    "fruicao_publica",
+    "patrimonio_cultural",
+    "zona_especial_protecao_cultural"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão parcial da Lei nº 16.402, de 22 de março de 2016 (LPUOS), visando à compatibilização de seu texto original com as supervenientes alterações decorrentes da promulgação da Lei nº 17.975, de 8 de julho de 2023 – Revisão Intermediária do Plano Diretor Estratégico do Município de São Paulo, nos termos da previsão de seu art. 126, e dá outras providências."
+}

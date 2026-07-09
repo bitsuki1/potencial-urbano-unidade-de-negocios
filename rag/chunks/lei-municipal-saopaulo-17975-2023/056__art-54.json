@@ -1,0 +1,59 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17975-2023::056-art-54",
+  "lei_id": "lei-municipal-saopaulo-17975-2023",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 54",
+  "numero": "54",
+  "header_raw": "Art. 54. A Lei nº 16.050, de 2014, passa a vigorar acrescida de art. 134-A com a seguinte redação:",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Seção III",
+    "Art. 54"
+  ],
+  "texto": "Art. 54. A Lei nº 16.050, de 2014, passa a vigorar acrescida de art. 134-A com a seguinte redação:\n\n“Art. 134-A. O Executivo Municipal poderá elaborar ou autorizar a elaboração de Planos de Intervenção\n\nUrbana – PIU, a pedido dos proprietários, por meio de manifestação de interesse privado – MIP ou por\n\nmanifestação de outros entes federativos, assegurada a compatibilidade com a Política Urbana do\n\nMunicípio.\n\nParágrafo único. Os Planos de Intervenção Urbana elaborados por entes privados ou outros entes\n\nfederativos serão coordenados pelo Executivo Municipal, que deve avalizar o interesse público da\n\niniciativa, orientar a elaboração dos estudos técnicos, promover a devida participação social e\n\nconsolidar as propostas em regulação específica.” (NR)\n\nSubseção I\n\nDos Planos de Intervenção Urbana (PIU)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Seção III › Art. 54",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "vigencia": {
+      "inicio": "2023-07-08",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.050/2014 (Plano Diretor Estrategico — PDE)",
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupacao do Solo)"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicacao. Revisao intermediaria do PDE conforme art. 4o da Lei 16.050/2014. Regulamentada por Resolucao SMUL/CIMPDE n. 1/2024, Decreto 63.130/2024 e Decreto 63.728/2024."
+    }
+  },
+  "tema": [
+    "plano_diretor",
+    "revisao_intermediaria",
+    "ordenamento_territorial",
+    "zoneamento",
+    "transferencia_direito_construir",
+    "outorga_onerosa",
+    "potencial_construtivo",
+    "funcao_social_propriedade",
+    "desenvolvimento_urbano",
+    "habitacao_interesse_social",
+    "patrimonio_cultural",
+    "meio_ambiente"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão intermediária do Plano Diretor Estratégico do Município de São Paulo, aprovado pela Lei nº 16.050, de 31 de julho de 2014, nos termos da previsão de seu art. 4º."
+}

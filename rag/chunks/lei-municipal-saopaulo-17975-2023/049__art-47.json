@@ -1,0 +1,59 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17975-2023::049-art-47",
+  "lei_id": "lei-municipal-saopaulo-17975-2023",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 47",
+  "numero": "47",
+  "header_raw": "Art. 47. O art. 123 da Lei nº 16.050, de 2014, passa a vigorar com as seguintes alterações:",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Seção II",
+    "Art. 47"
+  ],
+  "texto": "Art. 47. O art. 123 da Lei nº 16.050, de 2014, passa a vigorar com as seguintes alterações:\n\n“Art. 123. ...................................................................................\n\n....................................................................................................\n\nIII - a implantação de parques propostos situados na zona urbana;\n\nhttps://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023 24/60\n\n04/12/2025, 17:28 LEI Nº 17.975 DE 8 DE JULHO DE 2023 « Catálogo de Legislação Municipal\n\nIV - a preservação de áreas de propriedade particular, de interesse ambiental, localizadas em ZEPAM,\n\nsituadas na zona urbana, que atendam os parâmetros estabelecidos na LPUOS;\n\n....................................................................................................\n\nVII - (VETADO)\n\n....................................................................................................\n\n§ 4º (VETADO)\n\n§ 5º A declaração de potencial construtivo emitida antes da vigência da Lei nº 16.050, de 2014, para\n\nimóveis enquadrados como ZEPAM quando o imóvel cedente apresentar estado de conservação e\n\npreservação satisfatórias o interessado poderá solicitar a renovação da declaração considerando:\n\na) considerado a deterioração, os custos de manutenção e a permanente conservação do imóvel,\n\nquando completados 10 (dez) anos da emissão da Declaração de Potencial Construtivo, será\n\nconcedido aos imóveis que obtiveram o Termo de Compromisso Ambiental (TCA), emitido pelo órgão\n\ncompetente, a atribuição de novo Potencial Construtivo Transferível (TDC) com montante equivalente a\n\n70% (setenta por cento) do Potencial Construtivo Transferível inicialmente atribuído;\n\nb) o proprietário poderá optar, quando completados 15 (quinze) anos, pela atribuição de novo Potencial\n\nConstrutivo Transferível (TDC) com montante equivalente a 100% (cem por cento) do Potencial\n\nConstrutivo Transferível inicialmente atribuído. Os benefícios dispostos nos incisos I e II não são\n\ncumulativos;\n\nc) A data de referência e a data de emissão da Declaração de Potencial permanecem as mesmas após\n\na concessão do benefício;\n\nd) O benefício disposto nos incisos I e II será adicionado ao saldo remanescente na Declaração de\n\nPotencial, quando houver, deverá seguir o § 3º do art. 124.” (NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Seção II › Art. 47",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "vigencia": {
+      "inicio": "2023-07-08",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.050/2014 (Plano Diretor Estrategico — PDE)",
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupacao do Solo)"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicacao. Revisao intermediaria do PDE conforme art. 4o da Lei 16.050/2014. Regulamentada por Resolucao SMUL/CIMPDE n. 1/2024, Decreto 63.130/2024 e Decreto 63.728/2024."
+    }
+  },
+  "tema": [
+    "plano_diretor",
+    "revisao_intermediaria",
+    "ordenamento_territorial",
+    "zoneamento",
+    "transferencia_direito_construir",
+    "outorga_onerosa",
+    "potencial_construtivo",
+    "funcao_social_propriedade",
+    "desenvolvimento_urbano",
+    "habitacao_interesse_social",
+    "patrimonio_cultural",
+    "meio_ambiente"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão intermediária do Plano Diretor Estratégico do Município de São Paulo, aprovado pela Lei nº 16.050, de 31 de julho de 2014, nos termos da previsão de seu art. 4º."
+}

@@ -1,0 +1,55 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-18222-2024::052-art-51",
+  "lei_id": "lei-municipal-saopaulo-18222-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 51",
+  "numero": "51",
+  "header_raw": "Art. 51. Não se aplica a exceção prevista pelo parágrafo único do art. 103 da Lei nº 16.642, de 9 de",
+  "caminho_hierarquico": [
+    "CAPÍTULO VI",
+    "Art. 51"
+  ],
+  "texto": "Art. 51. Não se aplica a exceção prevista pelo parágrafo único do art. 103 da Lei nº 16.642, de 9 de\n\nmaio de 2017, aos alinhamentos viários aprovados pelas seguintes leis, nos trechos indicados:\n\nI - Lei nº 5.266, de 4 de julho de 1957, no trecho entre a Avenida Imperatriz Leopoldina e a Rua Carlos\n\nWeber indicado na Planta nº 26.995/07 integrante desta Lei;\n\nII - Lei nº 5.855, de 7 de novembro de 1961, no trecho indicado na Planta nº 26.995/07 integrante desta\n\nLei;\n\nIII - inciso II do art. 1º da Lei nº 7.765, de 24 de agosto de 1972, indicado na Planta nº 26.995/23\n\nintegrante desta Lei;",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 18.222/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO VI › Art. 51",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-18222-de-27-de-dezembro-de-2024",
+    "vigencia": {
+      "inicio": "2024-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Lei nº 18.298/2025"
+      ],
+      "revogada_por": null,
+      "observacao": "Em vigor desde a publicacao; consolidada com alteracoes da Lei 18.298/2025 (27 dispositivos com redacao alterada, 1 incluido, 1 revogado — todos relativos a ZOE-Butantan)."
+    }
+  },
+  "tema": [
+    "plano_intervencao_urbana",
+    "arco_pinheiros",
+    "uso_ocupacao_solo",
+    "zoneamento",
+    "potencial_construtivo",
+    "habitacao_interesse_social",
+    "distrito_inovacao",
+    "meio_ambiente_urbano",
+    "mobilidade_urbana",
+    "outorga_onerosa"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Aprova o Plano de Intervenção Urbana para o território do Arco Pinheiros, em atendimento ao inciso IV do § 3º do art. 76 da Lei nº 16.050, de 31 de julho de 2014 - PDE; cria a Área de Intervenção Urbana Arco Pinheiros."
+}

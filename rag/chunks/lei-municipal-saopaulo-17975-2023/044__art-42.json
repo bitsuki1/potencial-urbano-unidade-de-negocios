@@ -1,0 +1,59 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17975-2023::044-art-42",
+  "lei_id": "lei-municipal-saopaulo-17975-2023",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 42",
+  "numero": "42",
+  "header_raw": "Art. 42. O art. 112 da Lei nº 16.050, de 2014, passa a vigorar com a seguinte redação:",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Seção I",
+    "Art. 42"
+  ],
+  "texto": "Art. 42. O art. 112 da Lei nº 16.050, de 2014, passa a vigorar com a seguinte redação:\n\n“Art. 112. ...................................................................................\n\n....................................................................................................\n\nhttps://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023 21/60\n\n04/12/2025, 17:28 LEI Nº 17.975 DE 8 DE JULHO DE 2023 « Catálogo de Legislação Municipal\n\n§ 2º Alternativamente ao cumprimento da exigência estabelecida no caput deste artigo, o\n\nempreendedor poderá:\n\nI – produzir, isoladamente ou de forma associada, a ser regulamentada por decreto, Empreendimento\n\nde Habitação de Interesse Social com, no mínimo, a mesma área construída exigida no caput deste\n\nartigo em outro terreno, desde que situado na Macrozona de Estruturação e Qualificação Urbana,\n\nexcluída a Macroárea de Redução da Vulnerabilidade Urbana e os Subsetores Jacu-Pêssego, Arco\n\nLeste, Noroeste e Fernão Dias do Setor Eixos de Desenvolvimento da Macroárea de Estruturação\n\nMetropolitana;\n\nII – doar terreno, isoladamente ou de forma associada, a ser regulamentada por decreto, de valor\n\nequivalente a 20% (vinte por cento) do valor da área total do terreno do empreendimento, calculado\n\nconforme Cadastro de Valor de Terreno para fins de Outorga Onerosa, desde que o terreno doado\n\nesteja situado na Macrozona de Estruturação e Qualificação Urbana, excluída a Macroárea de\n\nRedução da Vulnerabilidade Urbana e os Subsetores Jacu-Pêssego, Arco Leste, Noroeste e Fernão\n\nDias do Setor Eixos de Desenvolvimento da Macroárea de Estruturação Metropolitana;\n\nIII - depositar no Fundo de Desenvolvimento Urbano – FUNDURB, em sua conta segregada para\n\nHabitação de Interesse Social, 20% (vinte por cento) do valor da área total do terreno, calculado\n\nconforme Cadastro de Valor de Terreno para fins de Outorga Onerosa, destinado à aquisição de terreno\n\nou subsídio para produção de HIS, preferencialmente em ZEIS 3.\n\n§ 3º Atendida a exigência estabelecida no caput, inclusive pelas alternativas previstas no § 2º, o\n\nempreendimento poderá beneficiar-se de acréscimo de 20% (vinte por cento) na área computável,\n\nobtida mediante o pagamento da outorga onerosa.\n\n....................................................................................................\n\n§ 8º A cota de solidariedade prevista nos Arts. 111 e 112 da Lei nº 16.050, de 2014, poderá ser adotada,\n\npor opção do interessado, nos empreendimentos com área construída computável igual ou inferior a\n\n20.000 m² (vinte mil metros quadrados), recebendo o empreendedor, como contrapartida, os benefícios\n\nprevistos nos §§ 2º e 3º deste artigo.” (NR)\n\nSeção II\n\nDo Direito de Construir\n\nSubseção I\n\nDa Outorga Onerosa do Direito de Construir",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Seção I › Art. 42",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "vigencia": {
+      "inicio": "2023-07-08",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.050/2014 (Plano Diretor Estrategico — PDE)",
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupacao do Solo)"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicacao. Revisao intermediaria do PDE conforme art. 4o da Lei 16.050/2014. Regulamentada por Resolucao SMUL/CIMPDE n. 1/2024, Decreto 63.130/2024 e Decreto 63.728/2024."
+    }
+  },
+  "tema": [
+    "plano_diretor",
+    "revisao_intermediaria",
+    "ordenamento_territorial",
+    "zoneamento",
+    "transferencia_direito_construir",
+    "outorga_onerosa",
+    "potencial_construtivo",
+    "funcao_social_propriedade",
+    "desenvolvimento_urbano",
+    "habitacao_interesse_social",
+    "patrimonio_cultural",
+    "meio_ambiente"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão intermediária do Plano Diretor Estratégico do Município de São Paulo, aprovado pela Lei nº 16.050, de 31 de julho de 2014, nos termos da previsão de seu art. 4º."
+}

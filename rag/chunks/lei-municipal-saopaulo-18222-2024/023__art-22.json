@@ -1,0 +1,56 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-18222-2024::023-art-22",
+  "lei_id": "lei-municipal-saopaulo-18222-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 22",
+  "numero": "22",
+  "header_raw": "Art. 22. Os Projetos Estratégicos serão implantados a partir da adesão dos proprietários dos lotes e",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção III",
+    "Art. 22"
+  ],
+  "texto": "Art. 22. Os Projetos Estratégicos serão implantados a partir da adesão dos proprietários dos lotes e\n\nglebas contidos em seus perímetros de abrangência, demarcados no Mapa VII desta Lei.\n\n§ 1º A adesão prevista no caput deste artigo determina a aplicação de regras específicas de\n\nparcelamento, uso e ocupação do solo definidas para cada Projeto Estratégico e determina a incidência\n\ndas disposições previstas nos Quadros 2A, 2B e 3A desta Lei.\n\n§ 2º Na hipótese de não adesão dos proprietários dos lotes e glebas localizados nas áreas de\n\nabrangência dos Projetos Estratégicos, aplicam-se a seus territórios:\n\nI - a disciplina prevista nesta Lei para as Áreas de Transformação, Áreas de Qualificação e Áreas de\n\nPreservação, bem como a regência especial pertinente aos Eixos Estratégicos, de acordo com o Mapa\n\nII desta Lei, e, suplementarmente, as disposições da Lei nº 16.402, de 22 de março de 2016 - LPUOS;\n\nII - a obrigatoriedade de implantação dos melhoramentos públicos previstos nesta Lei, dispostos no\n\nMapa V.\n\n§ 3º A adesão ao Projeto Estratégico CEAGESP consistirá na implantação do Distrito de Inovação\n\nTecnológica, atendendo-se às disposições previstas no art. 23 desta Lei.\n\n§ 4º Caberá à SP-Urbanismo a avaliação dos Projetos Estratégicos a serem submetidos a\n\nlicenciamento pela Municipalidade, para fins de declaração do atendimento aos objetivos e diretrizes\n\nurbanísticas trazidas nesta Lei.\n\nSubseção I\n\nDo Projeto Estratégico CEAGESP",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 18.222/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção III › Art. 22",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-18222-de-27-de-dezembro-de-2024",
+    "vigencia": {
+      "inicio": "2024-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Lei nº 18.298/2025"
+      ],
+      "revogada_por": null,
+      "observacao": "Em vigor desde a publicacao; consolidada com alteracoes da Lei 18.298/2025 (27 dispositivos com redacao alterada, 1 incluido, 1 revogado — todos relativos a ZOE-Butantan)."
+    }
+  },
+  "tema": [
+    "plano_intervencao_urbana",
+    "arco_pinheiros",
+    "uso_ocupacao_solo",
+    "zoneamento",
+    "potencial_construtivo",
+    "habitacao_interesse_social",
+    "distrito_inovacao",
+    "meio_ambiente_urbano",
+    "mobilidade_urbana",
+    "outorga_onerosa"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Aprova o Plano de Intervenção Urbana para o território do Arco Pinheiros, em atendimento ao inciso IV do § 3º do art. 76 da Lei nº 16.050, de 31 de julho de 2014 - PDE; cria a Área de Intervenção Urbana Arco Pinheiros."
+}

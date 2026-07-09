@@ -1,5 +1,12 @@
 # PRÓXIMA INSTÂNCIA — o que fazer (Potencial Urbano)
 
+> **★★★★★★★★ PU 18 (2026-07-09) — +3 LEIS TDC INGERIDAS + MOTOR Fp + T12 AUDITORIA + SHAPEFILES ZEPEC.**
+> **Corpus TDC ampliado:** 3 leis baixadas do Drive e ingeridas verbatim: Lei 17.975/2023 (revisão intermediária PDE, 132 chunks, domínio compartilhado), Lei 18.081/2024 (revisão parcial LPUOS, 98 chunks, domínio compartilhado), Lei 18.222/2024 (PIU Arco Pinheiros, 62 chunks, domínio TDC). Pipeline: **2.201 chunks**, **24 leis indexadas**, **66 itens MANIFESTO**. Grafo de remissões regenerado: **3.416 arestas** (era 2.733). Gate VERDE: 20/20 evals + 8/8 eval-produto.
+> **B-3 FECHADO:** engine Fp (Fator de Planejamento) `engines/tdc/fp.py` + tabela `tabelas/quadro6-fator-planejamento-fp.csv` (Quadro 6 PDE, 15 linhas, baixado do Drive). Decimal exato, fail-closed, citação obrigatória.
+> **T12 FEITO:** auditoria mecânica de todas as 12 travas do Motor 1 → `docs/T12-AUDITORIA-DODS-2026-07-09.md`. 19 lacunas (1 CRÍTICA: PII donos_encontrados.csv tracked; 7 altas; 11 médias). Proposta de prova mecânica para cada.
+> **ZEPEC shapefiles:** `.shp/.shx/.dbf/.prj` baixados do Drive (741 polígonos AUE, EPSG:31983, verificados com geopandas) → prepara T8 (vedação geométrica Art.124§2) e G1 (overlay por área).
+> **PRÓXIMO na fila:** (1) ingerir as 7 municipais restantes do Drive (B-4: 10.235/86, 11.152/91, 13.250/01, 14.865/08, 15.044/09, 17.202/19, 17.577/21); (2) T8 (vedação geométrica com shapefiles AUE); (3) G1 (overlay por área — ZEPEC pronto, falta LOTES); (4) regenerar grafo de remissões completo com arestas inter-lei.
+>
 > **★★★★★★★ PU 18 (2026-07-09) — ZONA-BASE ZEPEC RESOLVIDA: 366/377 CAbás preenchidos via GeoSampa SISZON.**
 > **Achado:** a coleta GeoSampa (`portfolio-automacoes/tools/geosampa/zonas_377.csv`) JÁ RODOU no runner `brasil` — 366/377 zonas-base sob o selo ZEPEC capturadas. **Ação:** `resolver_zona_geosampa.py` cruza zona_18177 → Quadro 3 LPUOS → CAbás; preenche `zona_por_cedente.csv` (era 3316 → agora **3682**/3693 com CAbás). Makefile atualizado (etapa 3.5). **Impacto na ponta:** prospecção com PCpt = **2.078** (era 1.879, +199); preço-proxy = **2.003** (era 1.809, +194). **Gabarito Termo 006/2026:** zona-base = ZC (CAbás=1); PCpt escalonado = 358,80 m² (Fi=1,2 Art.24); oficial = 717,60 m² (Fi declarado ≈2,4). Divergência 2× EXPLICADA pelo T3 (JA_DECLARADO vs escalonado). Status atualizado: `CABAS_RESOLVIDO_FI_PENDENTE`. 20/20 evals PASS, gate 16/17 (só git). **Irresolvíveis:** 10 sem_lote + 1 Praça/Canteiro sem zona_v3.
 >

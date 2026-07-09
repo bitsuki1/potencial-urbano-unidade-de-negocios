@@ -1,0 +1,59 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17975-2023::013-art-12",
+  "lei_id": "lei-municipal-saopaulo-17975-2023",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 12",
+  "numero": "12",
+  "header_raw": "Art. 12. O art. 25 da Lei nº 16.050, de 2014, passa a vigorar com alteração da redação do inciso II,",
+  "caminho_hierarquico": [
+    "CAPITULO I",
+    "Seção II",
+    "Art. 12"
+  ],
+  "texto": "Art. 12. O art. 25 da Lei nº 16.050, de 2014, passa a vigorar com alteração da redação do inciso II,\n\nacréscimo dos incisos VIII, IX e X e nova redação do § 2º:\n\n“Art. 25. .....................................................................................\n\n....................................................................................................\n\nII - qualificar e ampliar a rede de parques, considerando populações com todas as faixas de renda\n\n(inferior, intermediária e alta), para equilibrar a relação entre o ambiente construído, as áreas verdes e\n\nos espaços livres, objetivando garantir espaços de lazer, sociabilidade e recreação para a população;\n\n................................................................................................\n\nVIII - adotar Soluções baseadas na Natureza nas intervenções, especialmente do Sistema de\n\nSaneamento Ambiental, com o intuito de promover melhoria da qualidade urbanística e ambiental das\n\nbacias hidrográficas;\n\nIX - promover, em Articulação com o Governo Estadual, estratégias e mecanismos para a implantação\n\ndo Sistema Hidroviário de forma sustentável, especialmente para o Rio Tietê;\n\nX - promover a implantação de sistemas de energias limpas e renováveis e ambientalmente\n\nsustentáveis ou sistemas de energias menos poluentes integrados à rede hídrica ambiental.\n\n....................................................................................................\n\n§ 2º Para implementar os objetivos estabelecidos no caput deste artigo, deverá ser implementado o\n\nPrograma de Recuperação dos Fundos de Vale, detalhado no art. 272, e criados instrumentos para\n\npermitir a implantação dos parques propostos relacionados no Quadro 7 desta Lei.\n\n..........................................................................................” (NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
+    "dispositivo": "CAPITULO I › Seção II › Art. 12",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "vigencia": {
+      "inicio": "2023-07-08",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.050/2014 (Plano Diretor Estrategico — PDE)",
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupacao do Solo)"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicacao. Revisao intermediaria do PDE conforme art. 4o da Lei 16.050/2014. Regulamentada por Resolucao SMUL/CIMPDE n. 1/2024, Decreto 63.130/2024 e Decreto 63.728/2024."
+    }
+  },
+  "tema": [
+    "plano_diretor",
+    "revisao_intermediaria",
+    "ordenamento_territorial",
+    "zoneamento",
+    "transferencia_direito_construir",
+    "outorga_onerosa",
+    "potencial_construtivo",
+    "funcao_social_propriedade",
+    "desenvolvimento_urbano",
+    "habitacao_interesse_social",
+    "patrimonio_cultural",
+    "meio_ambiente"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão intermediária do Plano Diretor Estratégico do Município de São Paulo, aprovado pela Lei nº 16.050, de 31 de julho de 2014, nos termos da previsão de seu art. 4º."
+}

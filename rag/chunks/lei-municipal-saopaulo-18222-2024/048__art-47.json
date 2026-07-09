@@ -1,0 +1,56 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-18222-2024::048-art-47",
+  "lei_id": "lei-municipal-saopaulo-18222-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 47",
+  "numero": "47",
+  "header_raw": "Art. 47. A empresa SP-Urbanismo será remunerada, pela gestão da implantação do Programa de",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Seção I",
+    "Art. 47"
+  ],
+  "texto": "Art. 47. A empresa SP-Urbanismo será remunerada, pela gestão da implantação do Programa de\n\nIntervenções previsto nesta Lei, com 5% (cinco por cento) dos recursos arrecadados com a outorga de\n\npotencial construtivo adicional da área de abrangência de seu perímetro, além da mesma porcentagem\n\nde outras receitas eventuais advindas da implantação da AIU-ACP.\n\nParágrafo único. Sem prejuízo do previsto no caput deste artigo, serão devidos à SP-Urbanismo\n\nhonorários em razão de sua contratação pela Administração Direta ou Indireta do Município para o\n\ndesenvolvimento de Planos de Ação Integrada, Planos de Intervenção Urbana das AEL, monitoramento\n\ndos Projetos Estratégicos e quaisquer outros estudos referentes ao detalhamento da AIU-ACP,\n\nremunerados nos termos dispostos em cada avença.\n\nSeção II\n\nDo Conselho Gestor da Área de Intervenção Urbana do Arco Pinheiros",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 18.222/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO V › Seção I › Art. 47",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-18222-de-27-de-dezembro-de-2024",
+    "vigencia": {
+      "inicio": "2024-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Lei nº 18.298/2025"
+      ],
+      "revogada_por": null,
+      "observacao": "Em vigor desde a publicacao; consolidada com alteracoes da Lei 18.298/2025 (27 dispositivos com redacao alterada, 1 incluido, 1 revogado — todos relativos a ZOE-Butantan)."
+    }
+  },
+  "tema": [
+    "plano_intervencao_urbana",
+    "arco_pinheiros",
+    "uso_ocupacao_solo",
+    "zoneamento",
+    "potencial_construtivo",
+    "habitacao_interesse_social",
+    "distrito_inovacao",
+    "meio_ambiente_urbano",
+    "mobilidade_urbana",
+    "outorga_onerosa"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Aprova o Plano de Intervenção Urbana para o território do Arco Pinheiros, em atendimento ao inciso IV do § 3º do art. 76 da Lei nº 16.050, de 31 de julho de 2014 - PDE; cria a Área de Intervenção Urbana Arco Pinheiros."
+}

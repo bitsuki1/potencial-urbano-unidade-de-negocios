@@ -1,0 +1,59 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17975-2023::058-art-56",
+  "lei_id": "lei-municipal-saopaulo-17975-2023",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 56",
+  "numero": "56",
+  "header_raw": "Art. 56. A Lei nº 16.050, de 2014, passa a vigorar acrescida de art. 136-A, com a seguinte redação:",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Seção III",
+    "Art. 56"
+  ],
+  "texto": "Art. 56. A Lei nº 16.050, de 2014, passa a vigorar acrescida de art. 136-A, com a seguinte redação:\n\n“Art. 136-A. Os estudos técnicos que compõem os PIUs de Zonas de Ocupação Especial (ZOE) - PIU –\n\nZOE - objetivam a fixação de parâmetros específicos de parcelamento, uso e ocupação do solo\n\nadequados às especificidades da ocupação especial, considerando as características de seu contexto\n\nurbano, assegurada a participação social em sua elaboração.\n\n§ 1º Os PIUs – ZOE serão aprovados por decreto, observados os coeficientes de aproveitamento\n\nestabelecidos por macroárea conforme Quadro 2A desta Lei, ou estabelecidos por lei específica.\n\n§ 2º O PIU – ZOE que apresentar um programa de intervenções urbanísticas com mecanismos de\n\nfinanciamento deve contar com instrumento de ordenamento e reestruturação urbana e seu respectivo\n\nmodelo de gestão democrática para o controle social de sua implantação.\n\n§ 3º O PIU – ZOE deve ser elaborado previamente ao desencadeamento de procedimentos visando à\n\nconcessão de uso de equipamentos públicos e sociais localizados em Zonas de Ocupação Especial.”\n\n(NR)\n\nSubseção II\n\nhttps://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023 31/60\n\n04/12/2025, 17:28 LEI Nº 17.975 DE 8 DE JULHO DE 2023 « Catálogo de Legislação Municipal\n\nDas Operações Urbanas Consorciadas",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Seção III › Art. 56",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "vigencia": {
+      "inicio": "2023-07-08",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.050/2014 (Plano Diretor Estrategico — PDE)",
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupacao do Solo)"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicacao. Revisao intermediaria do PDE conforme art. 4o da Lei 16.050/2014. Regulamentada por Resolucao SMUL/CIMPDE n. 1/2024, Decreto 63.130/2024 e Decreto 63.728/2024."
+    }
+  },
+  "tema": [
+    "plano_diretor",
+    "revisao_intermediaria",
+    "ordenamento_territorial",
+    "zoneamento",
+    "transferencia_direito_construir",
+    "outorga_onerosa",
+    "potencial_construtivo",
+    "funcao_social_propriedade",
+    "desenvolvimento_urbano",
+    "habitacao_interesse_social",
+    "patrimonio_cultural",
+    "meio_ambiente"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão intermediária do Plano Diretor Estratégico do Município de São Paulo, aprovado pela Lei nº 16.050, de 31 de julho de 2014, nos termos da previsão de seu art. 4º."
+}

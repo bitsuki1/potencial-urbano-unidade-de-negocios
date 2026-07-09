@@ -1,0 +1,59 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-18081-2024::064-art-63",
+  "lei_id": "lei-municipal-saopaulo-18081-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 63",
+  "numero": "63",
+  "header_raw": "Art. 63. O art. 115 da Lei nº 16.402, de 2016, passa a vigorar com a seguinte redação:",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 63"
+  ],
+  "texto": "Art. 63. O art. 115 da Lei nº 16.402, de 2016, passa a vigorar com a seguinte redação:\n\n“Art. 115. Nas novas construções, regularizações ou reformas com ampliação de área construída em\n\nimóveis reconhecidos como complexos de saúde, educação em saúde e pesquisa em saúde\n\nreconhecidos pela municipalidade, bem como em sua área envoltória nos termos de que trata o art.\n371 da Lei nº 16.050, de 2014, alterado pelo art. 105 da Lei nº 17.975, de 2023, e pelo art. 122 que\n\naltera o Quadro 1 das definições, com a finalidade de suprir e complementar as necessidades de\n\nexpansão dos complexos, ficam permitidas, independentemente da zona de uso onde estejam\n\nlocalizados, com exceção de imóveis contidos nas áreas integrantes do sistema de áreas protegidas,\n\náreas verdes e espaços livres – SAPAVEL:\n\nI - todas e quaisquer atividades complementares, não se restringindo àquelas assistenciais;\n\nII - nos complexos de saúde, educação em saúde e pesquisa em saúde reconhecidos pela\n\nmunicipalidade, nos termos da Lei nº 16.050, de 2014, alterada pela Lei nº 17.975, de 2023, em virtude\n\nde sua atividade comprovadamente existente em saúde, educação em saúde ou pesquisa em saúde,\n\nanterior a 31 de julho de 2014, classificados nos grupos de atividades de grande porte - nr3-3, nr3-8 ou\n\nnr3-9, nos termos da Lei nº 16.402, de 2016, não há restrição de lote mínimo e serão aplicados os\n\nparâmetros de ocupação estabelecidos para a Zona Eixo de Estruturação da Transformação Urbana –\n\nZEU no Quadro 3 da Lei nº 16.402, de 2016, admitindo-se, ainda, a majoração do coeficiente de\n\naproveitamento máximo nos termos previstos no art. 114, mediante a correspondente outorga onerosa\n\nde potencial construtivo adicional, nos termos da Lei nº 16.050, de 2014, alterada pela Lei nº 17.975,\n\nde 2023;\n\nIII - nas áreas envoltórias dos complexos de saúde, educação em saúde e pesquisa em saúde\n\nreconhecidos pela municipalidade, a majoração do coeficiente de aproveitamento máximo disposto no\n\nart. 114, devendo ser considerado o coeficiente de aproveitamento do Quadro 3 da Lei nº 16.402, de\n\n2016, referente à zona de uso onde se encontra o empreendimento.\n\n§ 1º Nos casos previstos no caput o gabarito e a taxa de ocupação máxima poderão ser majorados em\n\n50% (cinquenta por cento) em relação ao definido no Quadro 3 desta Lei, não podendo a to máxima\n\nexceder 85% da área do lote.\n\n§ 2º Nos empreendimentos referidos no inciso III do caput deste artigo o coeficiente de aproveitamento\n\nmáximo poderá exceder o limite estabelecido, contanto que não exceda o limite de gabarito\n\nestabelecido no inciso III do caput e não podendo exceder o potencial construtivo máximo do complexo\n\nde saúde, educação em saúde e pesquisa em saúde.\n\n§ 3º Os complexos de saúde, educação em saúde e pesquisa em saúde reconhecidos anteriormente à\n\npublicação desta Lei pela Prefeitura Municipal de São Paulo e as respectivas áreas envoltórias\n\npermanecem vigentes, sendo tais áreas beneficiadas pelos dispositivos estabelecidos pelos artigos\n\ndesta Lei.\n\n§ 4º Os acessos de autos dos projetos que pleiteiem os benefícios das áreas envoltórias dos\n\ncomplexos de saúde, educação em saúde e pesquisa em saúde reconhecidos pela municipalidade\n\ndeverão estar contidos dentro do limite da faixa de 150m (cento e cinquenta metros), medidos a partir\n\nda demarcação do perímetro do referido complexo.\n\n§ 5º Para os casos referidos no caput deste artigo ficam permitidas as anexações de lotes situados em\n\nquaisquer distintas zonas de uso.\n§ 6º Os pedidos de utilização dos benefícios previstos neste artigo para empreendimentos situados nas\n\náreas envoltórias de complexos de saúde, educação em saúde e pesquisa em saúde, reconhecidos\n\npela municipalidade, poderão ser requeridos pelo(s) proprietário(s) operador(es) dos complexos de\n\nsaúde, educação e pesquisa em saúde ou ainda por terceiros, contanto que a atividade em questão\n\nseja comprovadamente para o usufruto do complexo de saúde, educação em saúde e pesquisa em\n\nsaúde existente, motivador do benefício estabelecido por esta Lei.” (NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 18.081/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Art. 63",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-18081-de-19-de-janeiro-de-2023",
+    "vigencia": {
+      "inicio": "2024-01-19",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupação do Solo)",
+        "Lei nº 17.577/2021",
+        "Lei nº 16.499/2016"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicação. Revisão parcial da LPUOS para compatibilizar com a Lei 17.975/2023 (revisão intermediária do PDE). Vários artigos VETADOS (71, 83, 88-93)."
+    }
+  },
+  "tema": [
+    "parcelamento_uso_ocupacao_solo",
+    "zoneamento",
+    "coeficiente_aproveitamento",
+    "gabarito_altura",
+    "quota_ambiental",
+    "habitacao_interesse_social",
+    "eixo_estruturacao_urbana",
+    "zona_mista",
+    "fachada_ativa",
+    "fruicao_publica",
+    "patrimonio_cultural",
+    "zona_especial_protecao_cultural"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão parcial da Lei nº 16.402, de 22 de março de 2016 (LPUOS), visando à compatibilização de seu texto original com as supervenientes alterações decorrentes da promulgação da Lei nº 17.975, de 8 de julho de 2023 – Revisão Intermediária do Plano Diretor Estratégico do Município de São Paulo, nos termos da previsão de seu art. 126, e dá outras providências."
+}

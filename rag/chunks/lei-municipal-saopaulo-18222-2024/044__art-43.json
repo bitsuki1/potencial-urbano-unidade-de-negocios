@@ -1,0 +1,56 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-18222-2024::044-art-43",
+  "lei_id": "lei-municipal-saopaulo-18222-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 43",
+  "numero": "43",
+  "header_raw": "Art. 43. Caberá à Secretaria Municipal de Habitação - SEHAB, além das outras atribuições previstas",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Seção I",
+    "Art. 43"
+  ],
+  "texto": "Art. 43. Caberá à Secretaria Municipal de Habitação - SEHAB, além das outras atribuições previstas\n\nem lei:\n\nI - operacionalizar o programa de atendimento à população impactada pelo Programa de Intervenções\n\ndo Plano;\n\nII - realizar a promoção de programas e soluções habitacionais, nos termos da política habitacional\n\nprevista para o território, observando-se o disposto nesta Lei e as determinações dos Planos de Ação\n\nIntegrada;\n\nIII - elaborar os estudos técnicos para a indicação dos terrenos destinados ao atendimento habitacional\n\nàs famílias afetadas pelas intervenções públicas previstas nesta Lei, bem como a elaboração dos\n\ncorrespondentes planos de reassentamento;\n\nIV - realizar o cadastro socioeconômico da população de baixa renda moradora da AIU-ACP;\n\nV - atender ao cadastro de demanda habitacional, garantindo-se atendimento preferencial à população\n\natualmente residente no perímetro da AIU-ACP;\n\nVI - realizar a gestão e o monitoramento da pós-ocupação do parque público de habitações de\n\ninteresse social voltado para a locação social e para o atendimento do programa de bolsa-aluguel;\n\nVII - estipular critérios para a realização de cooperações vinculadas a programas habitacionais,\n\natendendo-se as diretrizes da AIU-ACP;\n\nVIII - cooperar com a SP-Urbanismo no desenvolvimento dos Planos de Ação Integrada, no que tange\n\nà definição das soluções para política habitacional para população de baixa renda no território.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 18.222/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO V › Seção I › Art. 43",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-18222-de-27-de-dezembro-de-2024",
+    "vigencia": {
+      "inicio": "2024-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Lei nº 18.298/2025"
+      ],
+      "revogada_por": null,
+      "observacao": "Em vigor desde a publicacao; consolidada com alteracoes da Lei 18.298/2025 (27 dispositivos com redacao alterada, 1 incluido, 1 revogado — todos relativos a ZOE-Butantan)."
+    }
+  },
+  "tema": [
+    "plano_intervencao_urbana",
+    "arco_pinheiros",
+    "uso_ocupacao_solo",
+    "zoneamento",
+    "potencial_construtivo",
+    "habitacao_interesse_social",
+    "distrito_inovacao",
+    "meio_ambiente_urbano",
+    "mobilidade_urbana",
+    "outorga_onerosa"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Aprova o Plano de Intervenção Urbana para o território do Arco Pinheiros, em atendimento ao inciso IV do § 3º do art. 76 da Lei nº 16.050, de 31 de julho de 2014 - PDE; cria a Área de Intervenção Urbana Arco Pinheiros."
+}

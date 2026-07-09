@@ -1,0 +1,59 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-18081-2024::036-art-35",
+  "lei_id": "lei-municipal-saopaulo-18081-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 35",
+  "numero": "35",
+  "header_raw": "Art. 35. O art. 64 da Lei nº 16.402, de 2016, passa a vigorar com a seguinte redação:",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 35"
+  ],
+  "texto": "Art. 35. O art. 64 da Lei nº 16.402, de 2016, passa a vigorar com a seguinte redação:\n\n“Art. 64. Nas quadras que contenham vilas, reconhecidas pelo poder público, ou via sem saída com\n\nlargura inferior a 10m (dez metros), aplicam-se as seguintes disposições:\n\nI - na faixa envoltória da vila ou via sem saída deverá ser observado o gabarito de altura máxima de\n\n28m (vinte e oito metros) nas ZEU, ZEUP, ZEM e ZEMP e de 15m (quinze metros) nas demais zonas,\n\nquando o gabarito definido para a zona não for mais restritivo;\n\nII - os lotes pertencentes à vila não poderão ser remembrados a lotes que não pertençam à vila;\n\nIII - será admitida a instalação dos usos e atividades permitidos na zona em que se situam os imóveis;\nIV - a solicitação de enquadramento de um perímetro urbano como vila poderá ser solicitado pelos\n\nproprietários dos imóveis, via processo administrativo, junto à Secretaria Municipal de Urbanismo e\n\nLicenciamento. A Secretaria deverá editar portaria definindo os procedimentos administrativos para o\n\nreconhecimento do perímetro urbano como vila;\n\nV - caberá à Secretaria de Urbanismo e Licenciamento manter atualizados cadastros e registros dos\n\npedidos de enquadramento de vilas analisadas e reconhecidas ou não, dentro de sua competência. A\n\npublicidade do cadastro deverá ser através da plataforma Geosampa, sendo a mesma atualizada\n\nconstantemente;\n\nVI - após o reconhecimento de um perímetro urbano como vila, mesmo após a publicação desta Lei,\n\naos lotes pertencentes à vila se aplicam os parâmetros urbanístico para ZPR (Zona\n\nPredominantemente Residencial);\n\nVII - os lotes pertencentes à vila poderão ser remembrados entre si desde que haja anuência expressa\n\nde todos os proprietários dos imóveis da respectiva vila;\n\nVIII - será admitida a instalação dos usos e atividades permitidos na zona em que se situam os\n\nimóveis, desde que autorizada pela totalidade dos proprietários dos lotes pertencentes à vila;\n\nIX - o uso não residencial não descaracteriza a vila;\n\nX - no caso de aquisição de todos os lotes da vila por um único proprietário a vila será considerada\n\ndescaracterizada e seu perímetro será enquadrado ao zoneamento lindeiro à via de acesso à vila, e\n\nnão será aplicada a restrição a que se refere o inciso II deste artigo;\n\nXI - no caso de todos os proprietários decidirem descaracterizar a vila, eles poderão solicitar o\n\nenquadramento do perímetro da vila ao zoneamento lindeiro à via de acesso à vila, através de\n\nprocesso administrativo mediante análise e parecer de DEUSO.\n\n§ 1º O disposto no inciso IV será regulamentado em Decreto do executivo definindo os procedimentos\n\nadministrativos para o reconhecimento do perímetro urbano como vila.\n\n§ 2º A faixa envoltória a que se refere o inciso I do caput deste artigo será:\n\nI - no caso de vila, de 20m (vinte metros), medidos a partir do perímetro externo dos lotes;\n\nII - no caso de rua sem saída, de 20m (vinte metros), medidos a partir dos alinhamentos da rua sem\n\nsaída.” (NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 18.081/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Art. 35",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-18081-de-19-de-janeiro-de-2023",
+    "vigencia": {
+      "inicio": "2024-01-19",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupação do Solo)",
+        "Lei nº 17.577/2021",
+        "Lei nº 16.499/2016"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicação. Revisão parcial da LPUOS para compatibilizar com a Lei 17.975/2023 (revisão intermediária do PDE). Vários artigos VETADOS (71, 83, 88-93)."
+    }
+  },
+  "tema": [
+    "parcelamento_uso_ocupacao_solo",
+    "zoneamento",
+    "coeficiente_aproveitamento",
+    "gabarito_altura",
+    "quota_ambiental",
+    "habitacao_interesse_social",
+    "eixo_estruturacao_urbana",
+    "zona_mista",
+    "fachada_ativa",
+    "fruicao_publica",
+    "patrimonio_cultural",
+    "zona_especial_protecao_cultural"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão parcial da Lei nº 16.402, de 22 de março de 2016 (LPUOS), visando à compatibilização de seu texto original com as supervenientes alterações decorrentes da promulgação da Lei nº 17.975, de 8 de julho de 2023 – Revisão Intermediária do Plano Diretor Estratégico do Município de São Paulo, nos termos da previsão de seu art. 126, e dá outras providências."
+}

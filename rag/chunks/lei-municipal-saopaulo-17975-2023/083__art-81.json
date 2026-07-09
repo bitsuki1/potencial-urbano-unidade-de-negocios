@@ -1,0 +1,59 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17975-2023::083-art-81",
+  "lei_id": "lei-municipal-saopaulo-17975-2023",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 81",
+  "numero": "81",
+  "header_raw": "Art. 81. A Lei nº 16.050, de 2014, passa a vigorar acrescida do art. 236-A com a seguinte redação:",
+  "caminho_hierarquico": [
+    "CAPÍTULO VIII",
+    "Seção I",
+    "Art. 81"
+  ],
+  "texto": "Art. 81. A Lei nº 16.050, de 2014, passa a vigorar acrescida do art. 236-A com a seguinte redação:\n\n“Art. 236-A. O Executivo deverá elaborar o Plano Municipal de Rotas Acessíveis, de forma participativa\n\ne respeitando as normas vigentes, de modo a:\n\nI - apontar e priorizar ações e áreas de intervenção em equipamentos, sistema de transporte público,\n\npasseios públicos e a demarcação de vagas exclusivas;\n\nhttps://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023 42/60\n\n04/12/2025, 17:28 LEI Nº 17.975 DE 8 DE JULHO DE 2023 « Catálogo de Legislação Municipal\n\nII - integrar equipamentos públicos e privados de interesse, bem como centralidades comerciais,\n\nculturais, dentre outras, com redes de transporte público, bem como com vagas exclusivas;\n\nIII - prever, para áreas de interesse cultural, turístico, ou de outra relevância, a implantação de\n\nsinalização, planos e mapas acessíveis;\n\nVI - priorizar soluções que abranjam o maior público possível, considerando todos os tipos de\n\ndeficiência.\n\nParágrafo único. O Plano Municipal de Rotas Acessíveis deverá ser apreciado pelo órgão colegiado\n\nmunicipal de acessibilidade.” (NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO VIII › Seção I › Art. 81",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "vigencia": {
+      "inicio": "2023-07-08",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.050/2014 (Plano Diretor Estrategico — PDE)",
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupacao do Solo)"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicacao. Revisao intermediaria do PDE conforme art. 4o da Lei 16.050/2014. Regulamentada por Resolucao SMUL/CIMPDE n. 1/2024, Decreto 63.130/2024 e Decreto 63.728/2024."
+    }
+  },
+  "tema": [
+    "plano_diretor",
+    "revisao_intermediaria",
+    "ordenamento_territorial",
+    "zoneamento",
+    "transferencia_direito_construir",
+    "outorga_onerosa",
+    "potencial_construtivo",
+    "funcao_social_propriedade",
+    "desenvolvimento_urbano",
+    "habitacao_interesse_social",
+    "patrimonio_cultural",
+    "meio_ambiente"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão intermediária do Plano Diretor Estratégico do Município de São Paulo, aprovado pela Lei nº 16.050, de 31 de julho de 2014, nos termos da previsão de seu art. 4º."
+}

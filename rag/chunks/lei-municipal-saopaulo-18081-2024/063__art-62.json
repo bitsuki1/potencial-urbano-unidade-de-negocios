@@ -1,0 +1,59 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-18081-2024::063-art-62",
+  "lei_id": "lei-municipal-saopaulo-18081-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 62",
+  "numero": "62",
+  "header_raw": "Art. 62. O art. 114 da Lei nº 16.402, de 2016, passa a vigorar com a seguinte redação:",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 62"
+  ],
+  "texto": "Art. 62. O art. 114 da Lei nº 16.402, de 2016, passa a vigorar com a seguinte redação:\n\n“Art. 114. Para novas construções e reformas com ampliação de área construída de estabelecimentos\n\nde ensino, hospitais, estabelecimentos de ensino em saúde, estabelecimentos de Ensino da Saúde e\n\npesquisa em saúde e Complexos de Saúde assim declarados pela municipalidade, localizados na\n\ntotalidade do território onde a instalação de tais atividades sejam permitidas pela presente Lei, e para\n\nos hotéis localizados em ZEU, ZEUP, ou ZC, o coeficiente de aproveitamento máximo será majorado\n\nem 50% (cinquenta por cento) do coeficiente de aproveitamento máximo definido no Quadro 3 desta\n\nLei.\n\n§ 1º Quando o coeficiente de aproveitamento utilizado for superior ao básico, ou à área computável\n\nexistente regular acima do coeficiente de aproveitamento básico, incidirá a outorga onerosa de\n\npotencial construtivo adicional, nos termos da Lei nº 16.050, de 2014, alterada pela Lei nº 17.975, de\n\n2023\\.\n\n§ 2º Para estabelecimentos de ensino, hospitais, estabelecimentos de ensino em saúde,\n\nestabelecimentos de Ensino da Saúde e pesquisa em saúde e Complexos de Saúde assim declarados\n\npela municipalidade nas ZEM, ZEMP e ZEUP ou localizados em quadras alcançadas no raio de 700m\n\n(setecentos metros) das estações de trem e de metrô localizadas na macroárea de estruturação\n\nmetropolitana estabelecida na Lei nº 16.050, de 2014, alterada pela Lei nº 17.975, de 2023, serão\n\naplicados os parâmetros estabelecidos para a ZEU, independentemente do zoneamento incidente\n\nsobre o imóvel e do disposto no § 1º do art. 8º desta Lei, quando for o caso, com exceção de imóveis\n\nlocalizados em ZER, ZCOR, ZOE, ZEPAM e áreas integrantes do SAPAVEL.\n\n§ 3º Nos casos previstos no parágrafo anterior, os acessos principais de pedestres e autos deverão\n\nestar inseridos dentro do raio de 600m (seiscentos metros) disposto no § 2º deste artigo.\n\n§ 4º (VETADO)” (NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 18.081/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Art. 62",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-18081-de-19-de-janeiro-de-2023",
+    "vigencia": {
+      "inicio": "2024-01-19",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupação do Solo)",
+        "Lei nº 17.577/2021",
+        "Lei nº 16.499/2016"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicação. Revisão parcial da LPUOS para compatibilizar com a Lei 17.975/2023 (revisão intermediária do PDE). Vários artigos VETADOS (71, 83, 88-93)."
+    }
+  },
+  "tema": [
+    "parcelamento_uso_ocupacao_solo",
+    "zoneamento",
+    "coeficiente_aproveitamento",
+    "gabarito_altura",
+    "quota_ambiental",
+    "habitacao_interesse_social",
+    "eixo_estruturacao_urbana",
+    "zona_mista",
+    "fachada_ativa",
+    "fruicao_publica",
+    "patrimonio_cultural",
+    "zona_especial_protecao_cultural"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão parcial da Lei nº 16.402, de 22 de março de 2016 (LPUOS), visando à compatibilização de seu texto original com as supervenientes alterações decorrentes da promulgação da Lei nº 17.975, de 8 de julho de 2023 – Revisão Intermediária do Plano Diretor Estratégico do Município de São Paulo, nos termos da previsão de seu art. 126, e dá outras providências."
+}

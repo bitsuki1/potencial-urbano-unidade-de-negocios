@@ -1,0 +1,56 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-18222-2024::005-art-4o",
+  "lei_id": "lei-municipal-saopaulo-18222-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 4º",
+  "numero": "4",
+  "header_raw": "Art. 4º O PIU-ACP considera os objetivos específicos a serem alcançados no Setor Orla Ferroviária e",
+  "caminho_hierarquico": [
+    "CAPÍTULO I",
+    "Seção IV",
+    "Art. 4º"
+  ],
+  "texto": "Art. 4º O PIU-ACP considera os objetivos específicos a serem alcançados no Setor Orla Ferroviária e\n\nFluvial da Macroárea de Estruturação Metropolitana, nos termos do § 1º do art. 12, da Lei nº 16.050, de\n\n2014 - PDE, e tem como objetivos gerais:\n\nI - estimular a produção habitacional, preferencialmente aquela de interesse social e de mercado\n\npopular, voltada à população de baixa e média renda, de forma a proporcionar a permanência da\n\npopulação moradora no perímetro;\n\nII - priorizar o atendimento habitacional à população de baixa renda, residente em áreas de risco ou\n\ninsalubres, em Áreas de Preservação Permanente - APP e de difícil acessibilidade internas da AIU-\n\nACP;\n\nIII - promover a urbanização, a regularização fundiária e a qualificação ambiental de assentamentos\n\nprecários;\n\nIV - recuperar a qualidade dos sistemas ambientais existentes, por intermédio da ampliação do sistema\n\nde controle de inundações e alagamentos e da mitigação dos efeitos das ilhas de calor;\n\nV - qualificar o ambiente urbano, por intermédio da preservação e valorização dos recursos naturais e\n\nda proteção e recuperação da APP dos rios, inclusive mediante seu aproveitamento de forma\n\necologicamente sustentável;\n\nVI - direcionar os investimentos públicos e privados para incrementar a oferta de empregos e dinamizar\n\nas atividades econômicas existentes, bem como promover o uso diversificado, intensivo e equilibrado\n\ndo território e racionalizar o uso da infraestrutura, com especial atenção à vocação para o\n\ndesenvolvimento de atividades de pesquisa e produtiva de base científica e tecnológica, associadas à\n\ncriação e à qualificação de novas centralidades de âmbito local;\n\nVII - garantir a melhoria da acessibilidade e da mobilidade da região, especialmente por meio do\n\ntransporte coletivo e não motorizado, e a melhoria das conexões dos diferentes modos de transporte\n\npúblico, associada à qualificação do sistema de espaços públicos;\n\nVIII - promover a integração física entre os dois lados do Rio Pinheiros, de modo a articular os\n\ndiferentes agentes do território e viabilizar novas interações urbanas, com ênfase em inovação, ciência\n\ne tecnologia e no equilíbrio do uso do solo;\n\nIX - incrementar a oferta de espaços públicos e áreas verdes, com a possibilidade de implantação de\n\nnovos equipamentos sociais;\n\nX - promover modelos de gestão que atendam ao princípio da gestão democrática, garantindo o direito\n\nà participação dos interessados nos processos de elaboração e implantação da política de\n\ndesenvolvimento urbano.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 18.222/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO I › Seção IV › Art. 4º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-18222-de-27-de-dezembro-de-2024",
+    "vigencia": {
+      "inicio": "2024-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Lei nº 18.298/2025"
+      ],
+      "revogada_por": null,
+      "observacao": "Em vigor desde a publicacao; consolidada com alteracoes da Lei 18.298/2025 (27 dispositivos com redacao alterada, 1 incluido, 1 revogado — todos relativos a ZOE-Butantan)."
+    }
+  },
+  "tema": [
+    "plano_intervencao_urbana",
+    "arco_pinheiros",
+    "uso_ocupacao_solo",
+    "zoneamento",
+    "potencial_construtivo",
+    "habitacao_interesse_social",
+    "distrito_inovacao",
+    "meio_ambiente_urbano",
+    "mobilidade_urbana",
+    "outorga_onerosa"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Aprova o Plano de Intervenção Urbana para o território do Arco Pinheiros, em atendimento ao inciso IV do § 3º do art. 76 da Lei nº 16.050, de 31 de julho de 2014 - PDE; cria a Área de Intervenção Urbana Arco Pinheiros."
+}

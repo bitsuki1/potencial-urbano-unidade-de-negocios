@@ -1,0 +1,58 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17975-2023::121-art-119",
+  "lei_id": "lei-municipal-saopaulo-17975-2023",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 119",
+  "numero": "119",
+  "header_raw": "Art. 119. Fica instituída a Política da Criança na Cidade:",
+  "caminho_hierarquico": [
+    "CAPÍTULO XII",
+    "Art. 119"
+  ],
+  "texto": "Art. 119. Fica instituída a Política da Criança na Cidade:\n\nParagrafo único. São objetivos da Política da Criança na Cidade:\n\nI - orientar as políticas de planejamento urbano para assegurar o cumprimento dos direitos da criança e\n\ndo adolescente, previstos no Marco Legal da Primeira Infância;\n\nII - tornar a cidade mais amigável à criança, ampliando a oferta de espaços públicos lúdicos e\n\nestimulantes, que incentivem o brincar livre, e a instalação de equipamentos para brincar nas áreas de\n\nuso público;\n\nIII - criar condições para a ocupação da cidade pela criança, com segurança, acessibilidade e\n\nautonomia, possibilitando que ela desenvolva suas habilidades cognitivas, psicológicas e\n\nsocioemocionais no espaço público;\n\nIV - ampliar os processos participativos de escuta às crianças nos planos e projetos a serem realizados\n\npelo Poder Público;\n\nV - ampliar soluções de controle de tráfego, principalmente em rotas escolares e espaços públicos,\n\naplicando estratégias de comunicação visual indicando a prioridade da circulação das crianças;\n\nVI - desenvolver pesquisas que contribuam para qualificar as informações disponíveis a respeito dos\n\ndeslocamentos infantis, a fim de subsidiar a implementação destas ações;\n\nVII - implementar os territórios educadores, previstos no Marco Legal da Primeira Infância, com a\n\nparticipação de equipamentos públicos e privados, promovendo estruturas de governança participativas\n\npara garantia de sua continuidade e preservação;\n\nhttps://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023 54/60\n\n04/12/2025, 17:28 LEI Nº 17.975 DE 8 DE JULHO DE 2023 « Catálogo de Legislação Municipal\n\nVIII - fica a Comissão de Avaliação do Plano Municipal pela Primeira Infância, conforme disposto no art.\n\n4º do Decreto nº 58.514, de 2018, responsável por promover processos de monitoramento e avaliação\n\ndas ações que garantam os direitos da criança na cidade.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO XII › Art. 119",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "vigencia": {
+      "inicio": "2023-07-08",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.050/2014 (Plano Diretor Estrategico — PDE)",
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupacao do Solo)"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicacao. Revisao intermediaria do PDE conforme art. 4o da Lei 16.050/2014. Regulamentada por Resolucao SMUL/CIMPDE n. 1/2024, Decreto 63.130/2024 e Decreto 63.728/2024."
+    }
+  },
+  "tema": [
+    "plano_diretor",
+    "revisao_intermediaria",
+    "ordenamento_territorial",
+    "zoneamento",
+    "transferencia_direito_construir",
+    "outorga_onerosa",
+    "potencial_construtivo",
+    "funcao_social_propriedade",
+    "desenvolvimento_urbano",
+    "habitacao_interesse_social",
+    "patrimonio_cultural",
+    "meio_ambiente"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão intermediária do Plano Diretor Estratégico do Município de São Paulo, aprovado pela Lei nº 16.050, de 31 de julho de 2014, nos termos da previsão de seu art. 4º."
+}

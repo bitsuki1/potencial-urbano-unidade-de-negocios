@@ -1,0 +1,56 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-18222-2024::007-art-6o",
+  "lei_id": "lei-municipal-saopaulo-18222-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 6º",
+  "numero": "6",
+  "header_raw": "Art. 6º O PIU-ACP tem como diretrizes específicas:",
+  "caminho_hierarquico": [
+    "CAPÍTULO I",
+    "Seção IV",
+    "Art. 6º"
+  ],
+  "texto": "Art. 6º O PIU-ACP tem como diretrizes específicas:\n\nI - atendimento das necessidades habitacionais e sociais da população mais vulnerável residente na\n\nárea, afetada ou não pelas intervenções propostas;\n\nII - preservação, recuperação e uso ambientalmente sustentável das APP dos rios Pinheiros e Tietê;\n\nIII - promoção do aumento do adensamento demográfico e construtivo, buscando o equilíbrio entre\n\nemprego e moradia, apoiado no fortalecimento da infraestrutura urbana de transporte coletivo prevista\n\nna Lei nº 16.050, de 31 de julho de 2014 - PDE;\n\nIV - manutenção dos empregos na atividade industrial, preservando-se a relevância econômica da\n\nregião, promovendo-se estratégias para o incremento de novos postos de trabalho no setor, por meio\n\nda potencialização das atividades produtivas existentes;\n\nV - transformação de parcelas das Zonas de Desenvolvimento Econômico - ZDE e das Zonas\n\nPredominantemente Industriais - ZPI nas quais a atividade econômica esteja ociosa, apoiada pela\n\nmelhoria de infraestrutura de transporte de passageiros e mobilidade não motorizada, priorizando-se a\n\nimplantação de atividades voltadas à pesquisa científica e à inovação tecnológica;\n\nVI - implantação de equipamentos institucionais voltados ao incentivo de projetos de inovação\n\ntecnológica, com foco nas principais atividades produtivas existentes e desejadas no território da AIU-\n\nACP;\n\nVII - incentivo à produção de empreendimentos residenciais que incorporem diversidade de usos,\n\natendimento a famílias de diferentes faixas de renda e interação com o entorno imediato, por\n\nintermédio de fachadas ativas, fruição pública e previsão de áreas verdes de acesso ao público;\n\nVIII - fortalecimento da função urbanística das centralidades existentes, por intermédio da qualificação\n\ndas infraestruturas, do adensamento construtivo e populacional e do incremento de áreas verdes,\n\nespaços públicos e equipamentos;\n\nIX - desenvolvimento de novas centralidades, por intermédio de incentivo ao uso misto e de melhorias\n\nurbanísticas associadas à ampliação da rede de mobilidade, bem como implantação de sistema\n\nambiental de áreas verdes e de espaços públicos e equipamentos;\n\nX - melhoria da conectividade da região e da mobilidade intra e interbairros, por intermédio da\n\nimplantação de conexões viárias coletoras ou locais, garantindo especialmente a conexão entre os\n\ndiferentes modos de transporte coletivo e não motorizado;\n\nXI - incentivo à circulação não motorizada, incluindo novas travessias sobre os rios, complementação\n\nda malha cicloviária e a implantação de bicicletários e paraciclos integrados aos terminais e estações\n\ndo sistema estrutural de transporte público;\n\nXII - implantação de um distrito de inovação destinado a agregar empresas, universidades, instituições\n\nde pesquisa, incubadoras, aceleradoras e startups, favorecendo o surgimento de ideias inovadoras e\n\ncriativas em ambientes urbanos de uso misto;\n\nXIII - promoção do desenvolvimento de uma nova frente urbana, incentivando a transformação dos\n\nlotes de frente para o Rio Pinheiros, contemplando empreendimentos de uso misto associados a novos\n\nespaços livres públicos que proporcionem a recuperação da APP;\n\nXIV - qualificação da mão de obra dos moradores da região para atividades voltadas à tecnologia e\n\ninovação, por intermédio da ampliação dos cursos técnicos já disponíveis na área e da implantação de\n\nnovos estabelecimentos de ensino voltados a esta finalidade;\n\nXV - implantação de portos fluviais urbanos com atracadouros para embarque e desembarque de\n\npassageiros, como parte do Sistema de Transporte Público Hidroviário (STPHSP) integrado às redes\n\nmetroferroviária e de corredores de ônibus, existentes e planejadas, nos termos da Lei nº 16.010, de 9\n\nde junho de 2014.\n\nCAPÍTULO II\n\nREGRAS DE USO E OCUPAÇÃO DO SOLO\n\nSeção I\n\nDas Regras Gerais aplicáveis à AIU-ACP",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 18.222/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO I › Seção IV › Art. 6º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-18222-de-27-de-dezembro-de-2024",
+    "vigencia": {
+      "inicio": "2024-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Lei nº 18.298/2025"
+      ],
+      "revogada_por": null,
+      "observacao": "Em vigor desde a publicacao; consolidada com alteracoes da Lei 18.298/2025 (27 dispositivos com redacao alterada, 1 incluido, 1 revogado — todos relativos a ZOE-Butantan)."
+    }
+  },
+  "tema": [
+    "plano_intervencao_urbana",
+    "arco_pinheiros",
+    "uso_ocupacao_solo",
+    "zoneamento",
+    "potencial_construtivo",
+    "habitacao_interesse_social",
+    "distrito_inovacao",
+    "meio_ambiente_urbano",
+    "mobilidade_urbana",
+    "outorga_onerosa"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Aprova o Plano de Intervenção Urbana para o território do Arco Pinheiros, em atendimento ao inciso IV do § 3º do art. 76 da Lei nº 16.050, de 31 de julho de 2014 - PDE; cria a Área de Intervenção Urbana Arco Pinheiros."
+}

@@ -1,0 +1,59 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-18081-2024::035-art-34",
+  "lei_id": "lei-municipal-saopaulo-18081-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 34",
+  "numero": "34",
+  "header_raw": "Art. 34. O art. 62 da Lei nº 16.402, de 2016, passa a vigorar com a seguinte redação:",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 34"
+  ],
+  "texto": "Art. 34. O art. 62 da Lei nº 16.402, de 2016, passa a vigorar com a seguinte redação:\n\n“Art. 62. ..........................................................................................\nI - nas ZEU, ZEUa, ZEUP, ZEUPa, ZEM e ZEMP, as áreas cobertas, em qualquer pavimento, ocupadas\n\npor circulação de veículos e pedestres, manobra e estacionamento de veículos, desde que o número\n\nde vagas, exceto as especiais, motocicletas e bicicletas, não ultrapasse:\n\na) nos usos residenciais, observada a cota de garagem máxima igual a 32 m² (trinta e dois metros\n\nquadrados) por vaga, alternativamente:\n\n1\\. 1 (uma) vaga por unidade habitacional maior ou igual a 30m² (trinta metros quadrados) de área\n\nconstruída computável;\n\n2\\. 1 (uma) vaga a cada 60m² (sessenta metros quadrados) de área construída privativa total do\n\nempreendimento, desprezadas as frações;\n\nb) nos usos não residenciais, 1 (uma) vaga para cada 70m² (setenta metros quadrados) de área\n\nconstruída computável, excluídas as áreas ocupadas por circulação, manobra e estacionamento de\n\nveículos, desprezadas as frações, desde que observada a cota de garagem máxima igual a 32m² (trinta\n\ne dois metros quadrados) por vaga;\n\nc) nos usos mistos, as alternativas definidas na alínea “a” para usos residenciais e na alínea “b” para\n\nusos não residenciais, excluídas as áreas computáveis ocupadas por vagas, desprezadas as frações;\n\nd) como incentivo aos empreendimentos sem vagas de estacionamento de veículos, excetuadas as\n\nvagas necessárias ao atendimento das condições de instalação fixadas nesta Lei, serão consideradas\n\nnão computáveis até o limite de 10% (dez por cento) da área construída computável, as áreas cobertas\n\nde uso residencial ou não residencial, em qualquer pavimento;\n\ne) nos Empreendimentos de Habitação de Interesse Social (EHIS), Empreendimentos de Habitação de\n\nMercado Popular (EHMP) ou Empreendimentos em Zona Especial de Interesse Social (EZEIS), 50%\n\n(cinquenta por cento) das vagas de estacionamento de veículos para as áreas de uso nR incentivado;\n\n.........................................................................................................\n\nXVII - as áreas de fruição pública, cobertas ou descobertas, em qualquer zona de uso;\n\nXVIII - nos clubes esportivos localizados em AC-1, as área destinadas a administração e sanitários até\n\no limite de 20% (vinte por cento) da área construída computável;\n\nXIX - as áreas técnicas e operacionais sem permanência humana dos Hospitais e Complexos de\n\nSaúde, assim declarados pela municipalidade, desde que justificadas através do memorial técnico\n\nconforme RESOLUÇÃO/CEUSO/141/2021 ou a que vier a substituí-la;\n\nXX - a área destinada aos usos educacionais em saúde, até o limite de 20% (vinte por cento) da área\n\nconstruída computável total nos Hospitais e Complexos de Saúde, assim declarados pela\n\nmunicipalidade, localizados em qualquer zona de uso na qual a atividade hospitalar e de Complexo de\n\nSaúde seja permitida;\nXXI - as áreas cobertas destinadas a camarins, salas para oficina e depósito de materiais utilizados nos\n\nteatros.\n\n.........................................................................................................\n\n§ 3º Não se aplica o inciso III do caput deste artigo aos imóveis cuja atividade seja exclusivamente\n\ndestinada a estacionamento de veículos.\n\n§ 4º A fachada ativa de que trata o inciso VII do caput:\n\nI - deve ser calculada sobre a área do lote remanescente de doação de área para alargamento do\n\npasseio ou implantação de melhoramento viário;\n\nII - pode estar localizada em diferentes níveis da edificação, desde que seja garantido acesso por\n\nlogradouro público em todos os níveis;\n\nIII - pode ser atendida em apenas uma testada, desde que em extensão equivalente a 25% (vinte e\n\ncinco por cento) do somatório de todas as testadas;\n\nIV - pode ser parcialmente implantada em pavimento imediatamente superior ao pavimento de acesso,\n\nlimitada a 1/3 (um terço) da área construída total destinada à fachada ativa, desde que se configure em\n\numa subdivisão do mesmo compartimento edificado e seja garantida a permeabilidade visual para o\n\nlogradouro público.\n\n§ 5º Os benefícios previstos nos incisos VII e VIII do caput deste artigo não poderão ser utilizados para\n\nos grupos de atividade nR1-14, nR1-15, nR2-12, nR2-13 e nR3-6.\n\n§ 6º Fica vedada a previsão das atividades flats, apart hotéis, pensionatos ou pensões, do subgrupo de\n\natividades nR1-12, como uso não residencial incentivado nos termos do inciso VIII do caput deste\n\nartigo.\n\n§ 7º Para fins de aplicação do inciso VI, as condições aplicadas ao prédio residencial na legislação\n\nedilícia aplicam-se ao uso residencial em qualquer modalidade.” (NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 18.081/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Art. 34",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-18081-de-19-de-janeiro-de-2023",
+    "vigencia": {
+      "inicio": "2024-01-19",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupação do Solo)",
+        "Lei nº 17.577/2021",
+        "Lei nº 16.499/2016"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicação. Revisão parcial da LPUOS para compatibilizar com a Lei 17.975/2023 (revisão intermediária do PDE). Vários artigos VETADOS (71, 83, 88-93)."
+    }
+  },
+  "tema": [
+    "parcelamento_uso_ocupacao_solo",
+    "zoneamento",
+    "coeficiente_aproveitamento",
+    "gabarito_altura",
+    "quota_ambiental",
+    "habitacao_interesse_social",
+    "eixo_estruturacao_urbana",
+    "zona_mista",
+    "fachada_ativa",
+    "fruicao_publica",
+    "patrimonio_cultural",
+    "zona_especial_protecao_cultural"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão parcial da Lei nº 16.402, de 22 de março de 2016 (LPUOS), visando à compatibilização de seu texto original com as supervenientes alterações decorrentes da promulgação da Lei nº 17.975, de 8 de julho de 2023 – Revisão Intermediária do Plano Diretor Estratégico do Município de São Paulo, nos termos da previsão de seu art. 126, e dá outras providências."
+}

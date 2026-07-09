@@ -1,0 +1,56 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-18222-2024::014-art-13",
+  "lei_id": "lei-municipal-saopaulo-18222-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 13",
+  "numero": "13",
+  "header_raw": "Art. 13. O atendimento habitacional da população moradora das áreas demarcadas como ZEIS 1 e",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção I",
+    "Art. 13"
+  ],
+  "texto": "Art. 13. O atendimento habitacional da população moradora das áreas demarcadas como ZEIS 1 e\n\nZEIS 3 na AIU-ACP, que forem atingidas pelo Plano de Melhoramentos Públicos do Programa de\n\nIntervenções desta Lei, observará o seguinte:\n\nI - qualquer intervenção para a implantação de elementos previstos no Quadro 4 desta Lei será\n\nprecedida da constituição do Conselho Gestor da ZEIS 1 e da ZEIS 3, bem como da elaboração dos\n\nrespectivos Planos de Urbanização ou de Intervenção, nos termos exigidos pela Lei nº 16.050, de 31\n\nde julho de 2014 - PDE, e, se for o caso, de Plano de Reassentamento que defina o atendimento às\n\nfamílias afetadas, preferencialmente de forma definitiva, em terrenos situados no perímetro da AIU-\n\nACP, a uma distância máxima de 1km (um quilômetro) de estação ou de terminal de integração, ou de\n\n500m (quinhentos metros) de corredores ou faixas exclusivas do Sistema de Transporte Público\n\nColetivo;\n\nII - em terrenos não demarcados originalmente como ZEIS onde for realizado o atendimento\n\nhabitacional previsto no inciso I deste artigo deverão ser mantidos os percentuais de área construída\n\ntotal por usos residenciais e não residenciais do Quadro 4 da Lei nº 16.050, de 31 de julho de 2014 -\n\nPDE, previstos para as ZEIS de origem.\n\nParágrafo único. As obras para a implantação das novas unidades de HIS edificadas em função do\n\nprevisto neste artigo integrarão Planos de Ação Integrada, nos termos previstos nesta Lei.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 18.222/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção I › Art. 13",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-18222-de-27-de-dezembro-de-2024",
+    "vigencia": {
+      "inicio": "2024-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Lei nº 18.298/2025"
+      ],
+      "revogada_por": null,
+      "observacao": "Em vigor desde a publicacao; consolidada com alteracoes da Lei 18.298/2025 (27 dispositivos com redacao alterada, 1 incluido, 1 revogado — todos relativos a ZOE-Butantan)."
+    }
+  },
+  "tema": [
+    "plano_intervencao_urbana",
+    "arco_pinheiros",
+    "uso_ocupacao_solo",
+    "zoneamento",
+    "potencial_construtivo",
+    "habitacao_interesse_social",
+    "distrito_inovacao",
+    "meio_ambiente_urbano",
+    "mobilidade_urbana",
+    "outorga_onerosa"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Aprova o Plano de Intervenção Urbana para o território do Arco Pinheiros, em atendimento ao inciso IV do § 3º do art. 76 da Lei nº 16.050, de 31 de julho de 2014 - PDE; cria a Área de Intervenção Urbana Arco Pinheiros."
+}

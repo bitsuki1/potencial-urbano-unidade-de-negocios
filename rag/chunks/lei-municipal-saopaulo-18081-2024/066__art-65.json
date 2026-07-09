@@ -1,0 +1,59 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-18081-2024::066-art-65",
+  "lei_id": "lei-municipal-saopaulo-18081-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 65",
+  "numero": "65",
+  "header_raw": "Art. 65. O art. 124 da Lei nº 16.402, de 2016, passa a vigorar com a seguinte redação:",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 65"
+  ],
+  "texto": "Art. 65. O art. 124 da Lei nº 16.402, de 2016, passa a vigorar com a seguinte redação:\n\n“Art. 124. Os usos enquadrados na subcategoria de uso Ind-2 comprovadamente instalados nas zonas\n\nZM, ZMa, ZC, ZCa, ZEIS, ZEU, ZEUP, ZEUa, ZEUPa, ZEM, ZEMP, ZPI, ZDE e ZPDS e na\n\nsubcategoria de uso Ind-1b nas zonas ZMa, ZCa , ZPDS e ZPI, até a entrada em vigor da Lei nº\n\n16.050, de 31 de julho de 2014 – PDE, são passíveis de regularização e reformas, independentemente\n\nda largura da via, desde que:\n\n.........................................................................................................\n\n§ 2º A regularização prevista no caput poderá ser solicitada até o dia 31 de dezembro de 2026,\n\nretroagindo os seus efeitos conforme o caso, desde que respeitada a legislação em vigor. (Redação\n\ndada pela Lei nº 17.897, de 2023)\n\n.........................................................................................................\n\n§ 4º Para o uso enquadrado na subcategoria de uso Ind-2 comprovadamente instalado em ZPI-2, nos\n\ntermos do caput, aplicam-se os parâmetros de ocupação de ZPI-1 do Quadro 3.\n\n§ 5º Para a comprovação de atividade instalada poderá ser apresentado documento que indique o\n\npleno funcionamento da atividade.\n\n§ 6º Não são passíveis de regularização e reforma, nos termos do caput, os estabelecimentos\n\nformados por um conjunto de cozinhas industriais, utilizadas para produção por diferentes restaurantes\n\ne/ou empresas, destinados à comercialização de refeições e alimentos por serviço de entregas, sem\n\nacesso de público para consumo no local, classificadas como dark kitchen.\n\n§ 7º A reforma e/ou regularização prevista no caput poderá ser aceita mediante apresentação de\n\nCertidão de diretrizes anteriormente emitida pela SMT desde que o acréscimo seja limitado a 20% da\n\nárea construída total objeto da Certidão emitida.” (NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 18.081/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Art. 65",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-18081-de-19-de-janeiro-de-2023",
+    "vigencia": {
+      "inicio": "2024-01-19",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupação do Solo)",
+        "Lei nº 17.577/2021",
+        "Lei nº 16.499/2016"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicação. Revisão parcial da LPUOS para compatibilizar com a Lei 17.975/2023 (revisão intermediária do PDE). Vários artigos VETADOS (71, 83, 88-93)."
+    }
+  },
+  "tema": [
+    "parcelamento_uso_ocupacao_solo",
+    "zoneamento",
+    "coeficiente_aproveitamento",
+    "gabarito_altura",
+    "quota_ambiental",
+    "habitacao_interesse_social",
+    "eixo_estruturacao_urbana",
+    "zona_mista",
+    "fachada_ativa",
+    "fruicao_publica",
+    "patrimonio_cultural",
+    "zona_especial_protecao_cultural"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão parcial da Lei nº 16.402, de 22 de março de 2016 (LPUOS), visando à compatibilização de seu texto original com as supervenientes alterações decorrentes da promulgação da Lei nº 17.975, de 8 de julho de 2023 – Revisão Intermediária do Plano Diretor Estratégico do Município de São Paulo, nos termos da previsão de seu art. 126, e dá outras providências."
+}

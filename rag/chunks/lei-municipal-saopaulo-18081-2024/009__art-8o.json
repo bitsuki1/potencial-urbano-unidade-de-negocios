@@ -1,0 +1,59 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-18081-2024::009-art-8o",
+  "lei_id": "lei-municipal-saopaulo-18081-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 8º",
+  "numero": "8",
+  "header_raw": "Art. 8º Para a aplicação da contrapartida financeira relativa à outorga de potencial construtivo adicional,",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Art. 8º"
+  ],
+  "texto": "Art. 8º Para a aplicação da contrapartida financeira relativa à outorga de potencial construtivo adicional,\n\nnos termos do que estabelece o art. 117 da Lei nº 16.050, de 2014, alterado pelo art. 45 da Lei nº\n\n17.975, de 2023, serão adotados os seguintes procedimentos:\n\nI - é admitida a alteração e compensação de áreas computáveis e não computáveis, sendo devida\n\ncontrapartida financeira relativa à outorga onerosa do direito de construir quando houver aumento do\n\npotencial construtivo adicional regularmente existente em decorrência das modificações propostas,\n\ndesde que não ultrapasse o coeficiente de aproveitamento máximo da lei vigente;\n\nII - nos casos de projeto de reforma com ou sem mudança de uso, as áreas existentes regularizadas\n\ncomputáveis segundo a legislação vigente à época da sua aprovação, a serem mantidas ou\n\ntransferidas, não serão objeto de outorga onerosa e será permitida:\n\na) a conversão de áreas computáveis segundo a legislação vigente na época da aprovação do projeto\n\noriginal em áreas não computáveis e incentivadas, assim consideradas na legislação vigente na data\n\ndo protocolo do projeto de reforma;\n\nb) a transferência ou acréscimo do saldo de área computável gerado na aplicação da alínea “a” deste\n\ninciso II para outras áreas do projeto de reforma;\n\nc) o acréscimo de área computável mediante o pagamento de outorga onerosa ou compra de potencial\n\nadicional, desde que a soma da área computável existente com a área acrescida não supere o limite\n\npermitido pela legislação vigente na data do protocolo do projeto de reforma;\n\nIII - no caso de anexação de lotes, o coeficiente de aproveitamento básico de cada lote deve ser\n\nconsiderado de forma independente;\n\nIV - admite-se o desmembramento de imóvel edificado desde que observados os índices e parâmetros\n\nestabelecidos pela legislação vigente para cada lote resultante, observando que a área computável em\n\ncada um dos lotes ficará sujeita ao pagamento de outorga onerosa do direito de construir quando o\ncoeficiente de aproveitamento básico for ultrapassado, descontados os valores pagos sem correção\n\nmonetária;\n\nV - nos projetos modificativos para o mesmo uso, nos termos do art. 163 da Lei nº 16.402, de 2016, e\n\nda legislação edilícia, o valor referente à outorga onerosa, quando necessária, será calculado sobre a\n\nárea computável adicional proposta, nos termos da legislação vigente;\n\nVI - no caso de mudança de uso, categoria de uso ou subcategoria de uso, com alteração do Fator de\n\ninteresse social (Fs) e/ou do Fator de planejamento (Fp), em edificação em que tenha havido\n\ncontrapartida financeira relativa à outorga onerosa de potencial construtivo adicional ou que teve\n\nbenefícios referentes a leis específicas, será devida outorga onerosa calculada para o novo uso\n\npretendido, nos termos da legislação vigente, descontando-se os valores efetivamente pagos, sem\n\natualização.\n\n§ 1º Em nenhuma hipótese haverá devolução de valores pagos relativos à outorga onerosa, sendo\n\nvedada a transferência para outro imóvel.\n\n§ 2º O procedimento previsto no inciso V do caput deste artigo não se aplica aos pedidos de\n\nrequalificação efetuados nos termos da Lei nº 17.577, de 20 de julho de 2021, nem aos pedidos de\n\nreforma com mudança de uso e nem às edificações licenciadas por legislação com mais de 10 (dez)\n\nanos da emissão do certificado de conclusão.\n\n§ 3º A mudança de uso, categoria de uso ou subcategoria de uso dos empreendimentos que tiveram\n\nbenefícios referentes a leis específicas fica sujeita ao atendimento dos parâmetros e índices\n\nestabelecidos, da cota-parte máxima de terreno por unidade residencial quando couber, estabelecida\n\nno Quadro 3 bem como às condições de instalação do Quadro 4A.\n\n§ 4º Caso o conceito de área computável não exista na legislação vigente na época da aprovação do\n\nprojeto original, será considerada como computável para efeito da aplicação deste artigo a área total\n\nconstruída da edificação com exceção das áreas destinadas a áreas técnicas, terraços e\n\nestacionamentos privativos.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 18.081/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Art. 8º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-18081-de-19-de-janeiro-de-2023",
+    "vigencia": {
+      "inicio": "2024-01-19",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupação do Solo)",
+        "Lei nº 17.577/2021",
+        "Lei nº 16.499/2016"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicação. Revisão parcial da LPUOS para compatibilizar com a Lei 17.975/2023 (revisão intermediária do PDE). Vários artigos VETADOS (71, 83, 88-93)."
+    }
+  },
+  "tema": [
+    "parcelamento_uso_ocupacao_solo",
+    "zoneamento",
+    "coeficiente_aproveitamento",
+    "gabarito_altura",
+    "quota_ambiental",
+    "habitacao_interesse_social",
+    "eixo_estruturacao_urbana",
+    "zona_mista",
+    "fachada_ativa",
+    "fruicao_publica",
+    "patrimonio_cultural",
+    "zona_especial_protecao_cultural"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão parcial da Lei nº 16.402, de 22 de março de 2016 (LPUOS), visando à compatibilização de seu texto original com as supervenientes alterações decorrentes da promulgação da Lei nº 17.975, de 8 de julho de 2023 – Revisão Intermediária do Plano Diretor Estratégico do Município de São Paulo, nos termos da previsão de seu art. 126, e dá outras providências."
+}

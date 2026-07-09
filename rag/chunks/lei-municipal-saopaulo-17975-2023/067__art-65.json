@@ -1,0 +1,59 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17975-2023::067-art-65",
+  "lei_id": "lei-municipal-saopaulo-17975-2023",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 65",
+  "numero": "65",
+  "header_raw": "Art. 65. O caput do art. 157 e seu § 2º da Lei nº 16.050, de 2014, passam a vigorar com a seguinte",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Seção IV",
+    "Art. 65"
+  ],
+  "texto": "Art. 65. O caput do art. 157 e seu § 2º da Lei nº 16.050, de 2014, passam a vigorar com a seguinte\n\nredação:\n\n“Art. 157. O Termo de Ajustamento de Conduta Ambiental – TAC é um instrumento com efeito de título\n\nexecutivo extrajudicial, que tem como objetivo a recuperação do meio ambiente degradado ou o\n\ncondicionamento de situação de risco potencial a integridades ambientais, por meio da fixação de\n\nobrigações e condicionantes técnicos, estabelecidos pelo órgão ambiental municipal.\n\n§ 1º .............................................................................................\n\n§ 2º As obrigações e condicionantes técnicos decorrentes de empreendimentos situados no interior de\n\nunidades de conservação de uso sustentável ou na zona de amortecimento de unidades de\n\nconservação de proteção integral, as medidas mitigadoras e reparatórias deverão atender ao disposto\n\nhttps://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023 34/60\n\n04/12/2025, 17:28 LEI Nº 17.975 DE 8 DE JULHO DE 2023 « Catálogo de Legislação Municipal\n\nnos seus planos de manejo, priorizando a viabilização de ações e projetos previstos no mesmo,\n\nsujeitas à aprovação dos respectivos Conselhos Gestores.\n\n..........................................................................................” (NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Seção IV › Art. 65",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "vigencia": {
+      "inicio": "2023-07-08",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.050/2014 (Plano Diretor Estrategico — PDE)",
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupacao do Solo)"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicacao. Revisao intermediaria do PDE conforme art. 4o da Lei 16.050/2014. Regulamentada por Resolucao SMUL/CIMPDE n. 1/2024, Decreto 63.130/2024 e Decreto 63.728/2024."
+    }
+  },
+  "tema": [
+    "plano_diretor",
+    "revisao_intermediaria",
+    "ordenamento_territorial",
+    "zoneamento",
+    "transferencia_direito_construir",
+    "outorga_onerosa",
+    "potencial_construtivo",
+    "funcao_social_propriedade",
+    "desenvolvimento_urbano",
+    "habitacao_interesse_social",
+    "patrimonio_cultural",
+    "meio_ambiente"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão intermediária do Plano Diretor Estratégico do Município de São Paulo, aprovado pela Lei nº 16.050, de 31 de julho de 2014, nos termos da previsão de seu art. 4º."
+}

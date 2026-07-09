@@ -1,0 +1,56 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-18222-2024::047-art-46",
+  "lei_id": "lei-municipal-saopaulo-18222-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 46",
+  "numero": "46",
+  "header_raw": "Art. 46. Para promover a implantação do Programa de Intervenções da AIU-ACP, a SP-Urbanismo",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Seção I",
+    "Art. 46"
+  ],
+  "texto": "Art. 46. Para promover a implantação do Programa de Intervenções da AIU-ACP, a SP-Urbanismo\n\npoderá:\n\nI - celebrar, participar ou intervir nos contratos que tenham por objeto a instituição de concessões,\n\nparcerias público-privadas, convênios, termos de parceria, compromissos de investimento, acordos de\n\ncooperação ou outros instrumentos congêneres, com entes públicos ou privados;\n\nII - assumir, total ou parcialmente, direitos e obrigações decorrentes dos contratos de que trata o inciso\n\nI do caput deste artigo;\n\nIII - prestar garantias reais, fidejussórias e contratar seguros;\n\nIV - explorar, gravar e alienar onerosamente os bens integrantes de seu patrimônio e da conta\n\nsegregada da AIU-ACP;\n\nV - participar do capital de outras empresas controladas por ente público ou privado;\n\nVI - constituir sociedades de propósito específico, fundos de investimento imobiliário e fundos de\n\nparticipação em imóveis;\n\nVII - receber delegação do Poder Executivo para promover processos desapropriatórios,\n\nexclusivamente para a implantação do Programa de Intervenções da AIU-ACP;\n\nVIII - promover as negociações e celebrar a criação de arranjos institucionais com a Administração\n\nDireta e Indireta de todas as esferas de governo;\n\nIX - monitorar os valores de mercado do potencial construtivo adicional na área de abrangência do\n\nperímetro da AIU-ACP, adotando ou propondo à Administração Direta estratégias para a captura, por\n\nparte do Poder Público, da valorização oriunda do desenvolvimento imobiliário.\n\nParágrafo único. Os instrumentos previstos no caput poderão considerar o aporte de recursos da\n\nAdministração Direta para obras e intervenções capazes de desencadear e fomentar processos de\n\ndesenvolvimento urbano pertinentes ao Programa de Intervenções desta Lei.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 18.222/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO V › Seção I › Art. 46",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-18222-de-27-de-dezembro-de-2024",
+    "vigencia": {
+      "inicio": "2024-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Lei nº 18.298/2025"
+      ],
+      "revogada_por": null,
+      "observacao": "Em vigor desde a publicacao; consolidada com alteracoes da Lei 18.298/2025 (27 dispositivos com redacao alterada, 1 incluido, 1 revogado — todos relativos a ZOE-Butantan)."
+    }
+  },
+  "tema": [
+    "plano_intervencao_urbana",
+    "arco_pinheiros",
+    "uso_ocupacao_solo",
+    "zoneamento",
+    "potencial_construtivo",
+    "habitacao_interesse_social",
+    "distrito_inovacao",
+    "meio_ambiente_urbano",
+    "mobilidade_urbana",
+    "outorga_onerosa"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Aprova o Plano de Intervenção Urbana para o território do Arco Pinheiros, em atendimento ao inciso IV do § 3º do art. 76 da Lei nº 16.050, de 31 de julho de 2014 - PDE; cria a Área de Intervenção Urbana Arco Pinheiros."
+}

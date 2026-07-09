@@ -1,0 +1,59 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17975-2023::033-art-32",
+  "lei_id": "lei-municipal-saopaulo-17975-2023",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 32",
+  "numero": "32",
+  "header_raw": "Art. 32. O caput do art. 83 da Lei nº 16.050, de 2014, passa a vigorar com a seguinte redação e",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção III",
+    "Art. 32"
+  ],
+  "texto": "Art. 32. O caput do art. 83 da Lei nº 16.050, de 2014, passa a vigorar com a seguinte redação e\n\nacrescido dos §§ 3º, 4º, 5º e 6º:\n\n“Art. 83. As condições de instalação de usos e atividades e os índices e parâmetros de ocupação\n\nestabelecidos nesta Lei para as áreas de influência dos eixos de estruturação da transformação urbana\n\nplanejados, delimitados no Mapa 3A anexo, passarão a vigorar após a emissão da Ordem de Serviços\n\ndas obras das infraestruturas do sistema de transporte que define o eixo, após a emissão pelos órgãos\n\ncompetentes de todas as autorizações e licenças, especialmente a licença ambiental, correspondentes\n\nà obra em questão ou através da revisão da LPUOS.\n\n§ 1º .............................................................................................\n\n....................................................................................................\n\n§ 3º Até que seja feita a revisão da Lei nº 16.402, de 2016 – Lei de Parcelamento, Uso e Ocupação do\n\nSolo – LPUOS, permanecem válidas para ativação as quadras das Zonas de Estruturação Urbana\n\nPrevistos – ZEUP e Zonas de Estruturação Urbana Previstos Ambientais – ZEUPa inteiramente\n\nalcançadas pelas áreas de influência do eixo correspondente ao elemento da infraestrutura de\n\ntransporte licenciada, devendo o decreto de ativação demarcar as quadras ativadas, com base nos\n\ncritérios previstos no art. 76 desta Lei.\n\n§ 4º Na hipótese de que trata o § 3º deste artigo, a ativação apenas poderá ocorrer nos casos em que\n\no traçado efetivamente implantado para o eixo de transporte esteja compreendido, pelo menos\n\nparcialmente, no perímetro delimitado para a respectiva ZEUP ou ZEUPa.\n\n§ 5º A revisão da LPUOS deverá determinar parâmetros para ativação, através de contrapartida\n\nfinanceira exclusiva para a execução da infraestrutura de transporte licenciada, na área de influência\n\nda respectiva ZEUp.\n\n§ 6º Poderá ser criada conta segregada no FUNDURB para vincular o investimento do valor de\n\ncontrapartida arrecadada nos perímetros de influência dos eixos previstos.” (NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção III › Art. 32",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "vigencia": {
+      "inicio": "2023-07-08",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.050/2014 (Plano Diretor Estrategico — PDE)",
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupacao do Solo)"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicacao. Revisao intermediaria do PDE conforme art. 4o da Lei 16.050/2014. Regulamentada por Resolucao SMUL/CIMPDE n. 1/2024, Decreto 63.130/2024 e Decreto 63.728/2024."
+    }
+  },
+  "tema": [
+    "plano_diretor",
+    "revisao_intermediaria",
+    "ordenamento_territorial",
+    "zoneamento",
+    "transferencia_direito_construir",
+    "outorga_onerosa",
+    "potencial_construtivo",
+    "funcao_social_propriedade",
+    "desenvolvimento_urbano",
+    "habitacao_interesse_social",
+    "patrimonio_cultural",
+    "meio_ambiente"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão intermediária do Plano Diretor Estratégico do Município de São Paulo, aprovado pela Lei nº 16.050, de 31 de julho de 2014, nos termos da previsão de seu art. 4º."
+}

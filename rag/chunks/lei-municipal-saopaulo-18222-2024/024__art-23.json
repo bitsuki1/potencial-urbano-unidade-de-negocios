@@ -1,0 +1,56 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-18222-2024::024-art-23",
+  "lei_id": "lei-municipal-saopaulo-18222-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 23",
+  "numero": "23",
+  "header_raw": "Art. 23. O Projeto Estratégico CEAGESP prevê a implantação de Distrito de Inovação Tecnológica em",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção III",
+    "Art. 23"
+  ],
+  "texto": "Art. 23. O Projeto Estratégico CEAGESP prevê a implantação de Distrito de Inovação Tecnológica em\n\nseu perímetro, demarcado no Mapa VII desta Lei, consistente em território destinado a reunião de\n\nempresas, universidades, instituições de pesquisa, incubadoras, aceleradoras e startups, favorecendo\n\no surgimento de ideias inovadoras e criativas em ambiente urbano de uso misto, observando-se o\n\nseguinte:\n\nI - nos termos do § 2º, do art. 49, da Lei nº 16.402, de 22 de março de 2016 - LPUOS, os lotes contidos\n\nno perímetro do Projeto Estratégico, independentemente da área, deverão ser reparcelados,\n\natendendo-se às disposições previstas nos Quadros 2A e 2B desta Lei;\n\nII - o reparcelamento da área de abrangência do Projeto Estratégico ocorrerá de forma integral ou\n\nmediante definição de setores, na seguinte conformidade:\n\na) os setores deverão observar área mínima de 30.000m² (trinta mil metros quadrados);\n\nb) o percentual de destinação de área pública por setor não poderá ser menor que 40% (quarenta por\n\ncento) de sua respectiva área, respeitados os percentuais mínimos dispostos no Quadro 2B;\n\nIII - os empreendimentos em Zona Especial de Interesse Social - ZEIS 5 deverão seguir os parâmetros\n\nda Lei nº 16.402, de 22 de março de 2016 - LPUOS e de decretos específicos, no que não\n\nexcepcionados por esta Lei;\n\nIV - o limite máximo do potencial construtivo adicional é de 1.150.000m² (um milhão, cento e cinquenta\n\nmil metros quadrados) de área construída computável, nos termos do inciso II, do art. 159, da Lei nº\n\n16.402, 22 de março de 2016 - LPUOS;\n\nV - o coeficiente de aproveitamento máximo dos lotes resultantes do parcelamento previsto neste artigo\n\nnão poderá ser superior a 6,0 (seis);\n\nVI - os lotes resultantes de parcelamento deverão observar frente mínima de 20m (vinte metros), área\n\nmínima de 1.000m² (mil metros quadrados) e área máxima de 20.000m² (vinte mil metros quadrados),\n\nobservadas as disposições no art. 14 desta Lei;\n\nVII - os parâmetros de coeficiente de aproveitamento mínimo, gabarito de altura máxima, taxa de\n\nocupação, recuos, usos permitidos e incomodidade serão os definidos para a Zona Eixo de\n\nEstruturação da Transformação Urbana - ZEU da Lei nº 16.402, de 22 de março de 2016 - LPUOS.\n\n§ 1º A utilização do regramento urbanístico de que trata o caput deste artigo dependerá de decreto do\n\nExecutivo, que se seguirá à aprovação de projeto de urbanização para implantação de distrito de\n\ninovação, a ser elaborado para a área do projeto estratégico, formalizada juridicamente por arranjo\n\ninterfederativo constituído para esse fim específico, se o caso, e com a participação do Município.\n\n§ 2º O decreto previsto no § 1º deste artigo definirá os demais parâmetros necessários à implantação\n\ndo projeto, incluindo-se a estipulação da cota parte e fator de planejamento.\n\n§ 3º Na hipótese de não ocorrência do disposto no § 1º deste artigo, os parâmetros urbanísticos da\n\nZOE-CEAGESP serão definidos por Plano de Intervenção Urbana específico, elaborado pelo Executivo\n\ne aprovado por lei.\n\n§ 4º As disposições das alíneas “a” e “b” do inciso II do caput deste artigo não se aplicam aos lotes com\n\nnúmero de contribuinte 097.037.0001, 097.043.0001, 097.127.0004 e 097.127.0005.\n\n§ 5º Com o objetivo de promover a conexão intermodal entre as ciclopassarelas previstas no Programa\n\nde Intervenções e as estações de trem, a Quadra 040 do Setor 097 poderá ser incluída no projeto de\n\nurbanização para implantação de Distrito de Inovação previsto neste artigo, autorizando-se, neste caso,\n\na utilização do seu potencial construtivo adicional no perímetro demarcado da ZOE-CEAGESP, que\n\nserá somado ao potencial construtivo indicado no inciso IV do caput deste artigo.\n\n§ 6º Para fins de cálculo da contrapartida financeira pela utilização de potencial construtivo adicional do\n\nProjeto Estratégico CEAGESP, o coeficiente de aproveitamento máximo da fórmula utilizada não\n\npoderá ser superior a 4,0 (quatro).",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 18.222/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção III › Art. 23",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-18222-de-27-de-dezembro-de-2024",
+    "vigencia": {
+      "inicio": "2024-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Lei nº 18.298/2025"
+      ],
+      "revogada_por": null,
+      "observacao": "Em vigor desde a publicacao; consolidada com alteracoes da Lei 18.298/2025 (27 dispositivos com redacao alterada, 1 incluido, 1 revogado — todos relativos a ZOE-Butantan)."
+    }
+  },
+  "tema": [
+    "plano_intervencao_urbana",
+    "arco_pinheiros",
+    "uso_ocupacao_solo",
+    "zoneamento",
+    "potencial_construtivo",
+    "habitacao_interesse_social",
+    "distrito_inovacao",
+    "meio_ambiente_urbano",
+    "mobilidade_urbana",
+    "outorga_onerosa"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Aprova o Plano de Intervenção Urbana para o território do Arco Pinheiros, em atendimento ao inciso IV do § 3º do art. 76 da Lei nº 16.050, de 31 de julho de 2014 - PDE; cria a Área de Intervenção Urbana Arco Pinheiros."
+}

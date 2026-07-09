@@ -1,0 +1,59 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17975-2023::093-art-91",
+  "lei_id": "lei-municipal-saopaulo-17975-2023",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 91",
+  "numero": "91",
+  "header_raw": "Art. 91. O art. 289 da Lei nº 16.050, de 2014, passa a vigorar com as seguintes alterações:",
+  "caminho_hierarquico": [
+    "CAPÍTULO IX",
+    "Seção II",
+    "Art. 91"
+  ],
+  "texto": "Art. 91. O art. 289 da Lei nº 16.050, de 2014, passa a vigorar com as seguintes alterações:\n\n“Art. 289. Com o objetivo de garantir e viabilizar a implantação, operação e gestão dos parques\n\npropostos no Quadro 7 desta Lei, de acordo com o inciso I do art. 288, fica criado o Fundo Municipal de\n\nParques, a ser regulamentado por ato do Executivo, que deverá atuar de forma complementar e\n\narticulada ao Fundo Municipal do Meio Ambiente e Desenvolvimento Sustentável – FEMA.\n\n§ 1º Os recursos do Fundo Municipal de Parques serão destinados à aquisição de áreas, implantação,\n\noperação e gestão dos parques constantes no Quadro 7.\n\n§ 2º Os recursos do Fundo Municipal de Parques serão depositados em conta especial, mantida em\n\ninstituição financeira oficial.\n\n§ 3º Os recursos para o Fundo Municipal de Parques poderão ser provenientes de:\n\nI - dotações orçamentárias a ele especificadamente destinadas;\n\nII - créditos adicionais suplementares a ele destinados;\n\nIII - alienação de áreas públicas municipais;\n\nIV - doações de pessoas físicas ou jurídicas;\n\nV - doações de entidades internacionais;\n\nVI - acordos, contratos, consórcios e convênios;\n\nhttps://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023 45/60\n\n04/12/2025, 17:28 LEI Nº 17.975 DE 8 DE JULHO DE 2023 « Catálogo de Legislação Municipal\n\nVII - rendimentos obtidos com a aplicação de seu próprio patrimônio;\n\nVIII - incentivos fiscais;\n\nIX - outorgas oriundas das concessões de parques municipais;\n\nX - outras receitas eventuais.\n\n§ 4º Para garantir controle social sobre a destinação de seus recursos, fica criado o Conselho Gestor\n\ndo Fundo Municipal de Parques, a ser regulamentado por decreto do Executivo, composto por\n\ncidadãos de reconhecida credibilidade pública, indicados pelo Prefeito, respeitado o critério de paridade\n\nentre representantes do Poder Público e da sociedade.\n\n§ 5º Lei específica poderá criar mecanismo de incentivo fiscal destinado a estimular a doação de\n\nrecursos de pessoas físicas e jurídicas para o Fundo Municipal de Parques.” (NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO IX › Seção II › Art. 91",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "vigencia": {
+      "inicio": "2023-07-08",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.050/2014 (Plano Diretor Estrategico — PDE)",
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupacao do Solo)"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicacao. Revisao intermediaria do PDE conforme art. 4o da Lei 16.050/2014. Regulamentada por Resolucao SMUL/CIMPDE n. 1/2024, Decreto 63.130/2024 e Decreto 63.728/2024."
+    }
+  },
+  "tema": [
+    "plano_diretor",
+    "revisao_intermediaria",
+    "ordenamento_territorial",
+    "zoneamento",
+    "transferencia_direito_construir",
+    "outorga_onerosa",
+    "potencial_construtivo",
+    "funcao_social_propriedade",
+    "desenvolvimento_urbano",
+    "habitacao_interesse_social",
+    "patrimonio_cultural",
+    "meio_ambiente"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão intermediária do Plano Diretor Estratégico do Município de São Paulo, aprovado pela Lei nº 16.050, de 31 de julho de 2014, nos termos da previsão de seu art. 4º."
+}

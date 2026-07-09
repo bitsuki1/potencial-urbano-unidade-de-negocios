@@ -1,0 +1,59 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17975-2023::014-art-13",
+  "lei_id": "lei-municipal-saopaulo-17975-2023",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 13",
+  "numero": "13",
+  "header_raw": "Art. 13. O art. 27 da Lei nº 16.050, de 2014, passa a vigorar com a alteração dos incisos X, XXXII,",
+  "caminho_hierarquico": [
+    "CAPITULO I",
+    "Seção II",
+    "Art. 13"
+  ],
+  "texto": "Art. 13. O art. 27 da Lei nº 16.050, de 2014, passa a vigorar com a alteração dos incisos X, XXXII,\n\nXXXIII, XXXIX, XLV e acrescido do inciso XLIX:\n\nhttps://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023 4/60\n\n04/12/2025, 17:28 LEI Nº 17.975 DE 8 DE JULHO DE 2023 « Catálogo de Legislação Municipal\n\n“Art. 27. .....................................................................................\n\n....................................................................................................\n\nX - promover a articulação entre espaço público e espaço privado, por meio de estímulos à\n\nmanutenção de espaços abertos para fruição pública e praças urbanas no pavimento de acesso às\n\nedificações;\n\n....................................................................................................\n\nXXXII - (VETADO)\n\nXXXIII - garantir, na aprovação de projetos de parcelamento e edificação, o uso seguro das áreas com\n\npotencial de contaminação e contaminadas, inclusive águas subterrâneas, de acordo com a legislação\n\npertinente, devendo a remediação ocorrer até a concessão do Certificado de Conclusão;\n\n....................................................................................................\n\nXXXIX - rever a classificação de áreas demarcadas como ZEPAM ocupadas com reflorestamento,\n\nagricultura, extrativismo, loteamentos irregulares, assentamentos precários, favelas, que não tenham\n\nos atributos que justificaram a criação da ZEPAM, adequando seu enquadramento às diretrizes de\n\ndesenvolvimento estabelecidas para a região e às características de ocupação do entorno, respeitado\n\no disposto no art. 69 desta Lei, sobretudo de áreas que possam ser enquadradas como ZEIS-4;\n\n....................................................................................................\n\nXLV - nos perímetros das zonas exclusivamente residenciais ZER-1, ZER-2 e ZER-3 não incidirão\n\níndices e parâmetros urbanísticos menos restritivos do que aqueles atualmente aplicados;\n\n....................................................................................................\n\nXLIX - criar incentivos urbanísticos para edificações que adotem medidas de sustentabilidade, como\n\ncogeração de energias renováveis, pré-tratamento de esgoto, reúso de água, utilização de materiais\n\nsustentáveis, entre outros, e melhorias climáticas que contribuam para redução de ilhas de calor e\n\npoluição, como arborização horizontal e vertical, entre outros.” (NR)\n\nCAPÍTULO II\n\nDOS AJUSTES DA REVISÃO INTERMEDIÁRIA",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
+    "dispositivo": "CAPITULO I › Seção II › Art. 13",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "vigencia": {
+      "inicio": "2023-07-08",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.050/2014 (Plano Diretor Estrategico — PDE)",
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupacao do Solo)"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicacao. Revisao intermediaria do PDE conforme art. 4o da Lei 16.050/2014. Regulamentada por Resolucao SMUL/CIMPDE n. 1/2024, Decreto 63.130/2024 e Decreto 63.728/2024."
+    }
+  },
+  "tema": [
+    "plano_diretor",
+    "revisao_intermediaria",
+    "ordenamento_territorial",
+    "zoneamento",
+    "transferencia_direito_construir",
+    "outorga_onerosa",
+    "potencial_construtivo",
+    "funcao_social_propriedade",
+    "desenvolvimento_urbano",
+    "habitacao_interesse_social",
+    "patrimonio_cultural",
+    "meio_ambiente"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão intermediária do Plano Diretor Estratégico do Município de São Paulo, aprovado pela Lei nº 16.050, de 31 de julho de 2014, nos termos da previsão de seu art. 4º."
+}

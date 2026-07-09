@@ -1,0 +1,58 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17975-2023::117-art-115",
+  "lei_id": "lei-municipal-saopaulo-17975-2023",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 115",
+  "numero": "115",
+  "header_raw": "Art. 115. A certidão de Diretrizes é documento obrigatório para a obtenção de Alvará de Aprovação e",
+  "caminho_hierarquico": [
+    "CAPÍTULO XII",
+    "Art. 115"
+  ],
+  "texto": "Art. 115. A certidão de Diretrizes é documento obrigatório para a obtenção de Alvará de Aprovação e\n\nExecução, de Alvará de Execução e de Certificado de Regularização para empreendimento qualificado\n\ncomo Polo Gerador de Tráfego.\n\n§ 1º No caso de reforma em empreendimento classificado como Polo Gerador de Tráfego será exigida\n\nnova Certidão de Diretrizes, quando houver:\n\nI - acréscimo de área computável superior a 5%;\n\nII - mudança e/ou acréscimo de uso.\n\n§ 2º O cálculo da contrapartida financeira decorrente da certidão de diretrizes será aplicado sobre o\n\nacréscimo de área e/ou sobre a área objeto da mudança e/ou acréscimo de uso.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO XII › Art. 115",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "vigencia": {
+      "inicio": "2023-07-08",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.050/2014 (Plano Diretor Estrategico — PDE)",
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupacao do Solo)"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicacao. Revisao intermediaria do PDE conforme art. 4o da Lei 16.050/2014. Regulamentada por Resolucao SMUL/CIMPDE n. 1/2024, Decreto 63.130/2024 e Decreto 63.728/2024."
+    }
+  },
+  "tema": [
+    "plano_diretor",
+    "revisao_intermediaria",
+    "ordenamento_territorial",
+    "zoneamento",
+    "transferencia_direito_construir",
+    "outorga_onerosa",
+    "potencial_construtivo",
+    "funcao_social_propriedade",
+    "desenvolvimento_urbano",
+    "habitacao_interesse_social",
+    "patrimonio_cultural",
+    "meio_ambiente"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão intermediária do Plano Diretor Estratégico do Município de São Paulo, aprovado pela Lei nº 16.050, de 31 de julho de 2014, nos termos da previsão de seu art. 4º."
+}

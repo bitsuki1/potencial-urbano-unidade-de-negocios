@@ -1,0 +1,56 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-18222-2024::025-art-24",
+  "lei_id": "lei-municipal-saopaulo-18222-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 24",
+  "numero": "24",
+  "header_raw": "Art. 24. No Projeto Estratégico CEAGESP, o cumprimento da cota de solidariedade prevista nos arts.",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção III",
+    "Art. 24"
+  ],
+  "texto": "Art. 24. No Projeto Estratégico CEAGESP, o cumprimento da cota de solidariedade prevista nos arts.\n\n111 e seguintes da Lei nº 16.050, de 31 de julho de 2014 - PDE, dar-se-á, cumulativamente, mediante:\n\nI - doação de área equivalente a 10% (dez por cento) da área total dos lotes resultantes do\n\nparcelamento dos terrenos no respectivo perímetro;\n\nII - incidência da disciplina disposta no art. 112 da Lei nº 16.050, de 31 de julho de 2014 - PDE, por\n\nocasião das edificações implantadas no Projeto Estratégico CEAGESP.\n\n§ 1º Ao menos 50% (cinquenta por cento) da área doada em cumprimento à cota de solidariedade\n\naplicada, nos termos do inciso I do caput deste artigo, deverá ocorrer em lotes localizados no perímetro\n\ndo Projeto Estratégico CEAGESP que possuam área mínima resultante maior do que 2.000m² (dois mil\n\nmetros quadrados).\n\n§ 2º Na hipótese de a doação prevista no parágrafo anterior não atender integralmente à exigência\n\nprevista no art. 111 da Lei nº 16.050, de 31 de julho de 2014 - PDE, a complementação da cota de\n\nsolidariedade será realizada mediante depósito de valores na conta segregada da AIU-ACP no\n\nFUNDURB.\n\nSubseção II\n\nDo Projeto Estratégico do Núcleo Parque Tecnológico do Jaguaré",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 18.222/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção III › Art. 24",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-18222-de-27-de-dezembro-de-2024",
+    "vigencia": {
+      "inicio": "2024-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Lei nº 18.298/2025"
+      ],
+      "revogada_por": null,
+      "observacao": "Em vigor desde a publicacao; consolidada com alteracoes da Lei 18.298/2025 (27 dispositivos com redacao alterada, 1 incluido, 1 revogado — todos relativos a ZOE-Butantan)."
+    }
+  },
+  "tema": [
+    "plano_intervencao_urbana",
+    "arco_pinheiros",
+    "uso_ocupacao_solo",
+    "zoneamento",
+    "potencial_construtivo",
+    "habitacao_interesse_social",
+    "distrito_inovacao",
+    "meio_ambiente_urbano",
+    "mobilidade_urbana",
+    "outorga_onerosa"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Aprova o Plano de Intervenção Urbana para o território do Arco Pinheiros, em atendimento ao inciso IV do § 3º do art. 76 da Lei nº 16.050, de 31 de julho de 2014 - PDE; cria a Área de Intervenção Urbana Arco Pinheiros."
+}

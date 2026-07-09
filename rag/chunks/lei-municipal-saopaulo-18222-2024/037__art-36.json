@@ -1,0 +1,55 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-18222-2024::037-art-36",
+  "lei_id": "lei-municipal-saopaulo-18222-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 36",
+  "numero": "36",
+  "header_raw": "Art. 36. A contrapartida financeira à outorga onerosa de potencial construtivo adicional será calculada",
+  "caminho_hierarquico": [
+    "CAPÍTULO IV",
+    "Art. 36"
+  ],
+  "texto": "Art. 36. A contrapartida financeira à outorga onerosa de potencial construtivo adicional será calculada\n\nsegundo a equação definida no art. 117, da Lei nº 16.050, de 31 de julho de 2014 - PDE.\n\n§ 1º Aplicam-se na AIU-ACP os Fatores de Planejamento (Fp) definidos no Quadro 3A desta Lei.\n\n§ 2º O potencial construtivo adicional comercializado mediante outorga onerosa será alienado nos\n\ntermos previstos na Lei nº 16.050, de 31 de julho de 2014 - PDE, ou por intermédio de leilões\n\npromovidos pela empresa SP-Urbanismo para a implantação de Planos de Ação Integrada.\n\n§ 3º Na modalidade de leilão, a quantidade de potencial construtivo adicional a ser disponibilizada e os\n\nrespectivos descontos iniciais de seu valor de alienação deverão ser definidos por Plano de Ação\n\nIntegrada, de acordo com as condições de mercado e as necessidades de viabilidade do Programa de\n\nIntervenções, devendo cada edital de leilão prever mecanismos que garantam a aplicação dos\n\nprincípios da justa distribuição dos benefícios e ônus decorrentes do processo de urbanização, da\n\nampla publicidade e da livre concorrência entre os interessados.\n\n§ 4º O potencial construtivo adicional adquirido mediante leilão será imediatamente vinculado ao lote,\n\natendendo-se, no mínimo, às seguintes disposições:\n\nI - o pagamento da contrapartida referente à aquisição de potencial construtivo adicional não\n\ndependerá da existência prévia de requerimento de licenciamento edilício;\n\nII - após o pagamento previsto no inciso I deste parágrafo, a SP-Urbanismo expedirá certidão\n\ndeclarando a quantidade de potencial construtivo adicional incorporada ao lote;\n\nIII - não poderá haver desvinculação do potencial construtivo adicional adquirido mediante leilão\n\nvinculado ao lote;\n\nIV - a utilização do potencial construtivo adicional já vinculado ao lote será efetivada no momento do\n\nlicenciamento edilício, mediante apresentação da certidão expedida pela SP-Urbanismo.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 18.222/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO IV › Art. 36",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-18222-de-27-de-dezembro-de-2024",
+    "vigencia": {
+      "inicio": "2024-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Lei nº 18.298/2025"
+      ],
+      "revogada_por": null,
+      "observacao": "Em vigor desde a publicacao; consolidada com alteracoes da Lei 18.298/2025 (27 dispositivos com redacao alterada, 1 incluido, 1 revogado — todos relativos a ZOE-Butantan)."
+    }
+  },
+  "tema": [
+    "plano_intervencao_urbana",
+    "arco_pinheiros",
+    "uso_ocupacao_solo",
+    "zoneamento",
+    "potencial_construtivo",
+    "habitacao_interesse_social",
+    "distrito_inovacao",
+    "meio_ambiente_urbano",
+    "mobilidade_urbana",
+    "outorga_onerosa"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Aprova o Plano de Intervenção Urbana para o território do Arco Pinheiros, em atendimento ao inciso IV do § 3º do art. 76 da Lei nº 16.050, de 31 de julho de 2014 - PDE; cria a Área de Intervenção Urbana Arco Pinheiros."
+}

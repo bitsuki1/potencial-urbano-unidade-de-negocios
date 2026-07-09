@@ -6,15 +6,15 @@
   "lifeline": "Acha os donos de imóveis que podem vender potencial construtivo (TDC) e calcula, pela lei, quanto vale — cada número rastreável até o artigo.",
   "stage": "construção",
   "health": "ok",
-  "healthNote": "Zona-base resolvida (366/377). Fp engine construído (Quadro 6). T12 auditoria de DoDs feita (19 lacunas, 1 crítica). PCpt 2078/2740 na prospecção. Shapefiles ZEPEC baixados do Drive.",
+  "healthNote": "Corpus TDC ampliado: 24 leis indexadas, 2201 chunks, 3416 remissões. +3 leis TDC (17.975/18.081/18.222). Fp engine (Quadro 6). T12 auditoria (19 lacunas). Zona-base 366/377. ZEPEC shapefiles prontos.",
   "lever": { "tx": "Fi declarado (do acervo de Termos do dono) é o gap remanescente para fechar o cálculo nos imóveis JA_DECLARADO — o Fi escalonado (Art. 24) já cobre a prospecção nova.", "k": "interno: acervo Termos / Fi declarado" },
   "now": [
-    "B-3 FECHADO: engine Fp (Fator de Planejamento) construído — tabelas/quadro6-fator-planejamento-fp.csv + engines/tdc/fp.py. Decimal exato, citação obrigatória.",
-    "T12 FEITO: auditoria mecânica de todas as 12 travas do Motor 1 — 19 lacunas (1 crítica: PII tracked, 7 altas, 11 médias). docs/T12-AUDITORIA-DODS-2026-07-09.md.",
-    "Shapefiles ZEPEC_AUE baixados do Drive (.shp/.shx/.dbf) para zepec/shapefiles/ — prepara T8 (vedação geométrica) e G1 (overlay por área).",
+    "+3 leis TDC ingeridas do Drive: Lei 17.975/2023 (revisão PDE, 132 chunks), Lei 18.081/2024 (revisão LPUOS, 98 chunks), Lei 18.222/2024 (PIU Arco Pinheiros, 62 chunks). Corpus: 24 leis indexadas, 2201 chunks.",
+    "Grafo de remissões regenerado: 3416 arestas (era 2733) cobrindo 24 leis. 20/20 evals + 8/8 eval-produto PASS.",
+    "B-3 FECHADO: engine Fp (Quadro 6) + T12 FEITO: auditoria 12 travas (19 lacunas, 1 crítica PII).",
+    "Shapefiles ZEPEC_AUE baixados do Drive (741 polígonos, EPSG:31983) — prepara T8/G1.",
     "Zona-base resolvida: 366/377 via GeoSampa SISZON. PCpt: 2078/2740 na prospecção.",
-    "IPTU: Lei 15.889/2013 ingerida verbatim; tabelas extraídas como CSV.",
-    "Gate de prova endurecido no CI (nada entra sem citação e sem bater com a lei)."
+    "IPTU: Lei 15.889/2013 ingerida verbatim; tabelas extraídas como CSV. Motor IPTU spec guardado (não construir sem 'vai')."
   ],
   "projetos": [
     {
@@ -27,8 +27,8 @@
           "ent": [["77 imóveis ZOE resolvidos (Quadro 2A)","feito"], ["366/377 ZEPEC resolvidos (GeoSampa SISZON)","feito"], ["gabarito Termo 006/2026: zona ZC confirmada","feito"], ["11 irresolvíveis restantes","block"]] },
         { "nome": "Motor das Fórmulas (potencial construtivo)", "calor": "hot", "prod": "Cálculo PCpt = Atc x CAbás x Fi, escalonado pela lei. Fp engine pronto (Quadro 6). PCpt calculado: 3428/3693 no cedentes oficial; 2078/2740 na prospecção.",
           "ent": [["engine lê tabelas da lei (fail-closed)","feito"], ["eval-produto ancorado na lei (7 faixas)","feito"], ["Fp engine (Quadro 6)","feito"], ["Fi declarado (acervo Termos)","block"], ["preço legal (Art.128)","block"]] },
-        { "nome": "Motor da Lei (conteúdo jurídico)", "calor": "hot", "prod": "Leis ao pé da letra, fatiadas por dispositivo, com vigência e citação obrigatória.",
-          "ent": [["TDC indexado e citável","feito"], ["grafo de remissões","feito"]] },
+        { "nome": "Motor da Lei (conteúdo jurídico)", "calor": "hot", "prod": "24 leis indexadas (2201 chunks), fatiadas por dispositivo, com vigência e citação obrigatória. Grafo: 3416 remissões.",
+          "ent": [["TDC indexado e citável (5+ leis TDC)","feito"], ["grafo de remissões (3416 arestas)","feito"], ["+3 leis TDC ingeridas (17.975/18.081/18.222)","feito"]] },
         { "nome": "Motor Comercial (prospecção lado-vendedor)", "calor": "hot", "prod": "Lista de cedentes (só vendedores; comprador fora de escopo por decisão do dono).",
           "ent": [["ferramenta de cedentes gerada","feito"], ["religar fila ao enriquecimento","prox"]] }
       ]

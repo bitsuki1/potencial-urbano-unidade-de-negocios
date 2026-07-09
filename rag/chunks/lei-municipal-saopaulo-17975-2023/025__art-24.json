@@ -1,0 +1,59 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17975-2023::025-art-24",
+  "lei_id": "lei-municipal-saopaulo-17975-2023",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 24",
+  "numero": "24",
+  "header_raw": "Art. 24. O art. 76 da Lei nº 16.050, de 2014, passa a vigorar com as seguintes alterações:",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção III",
+    "Art. 24"
+  ],
+  "texto": "Art. 24. O art. 76 da Lei nº 16.050, de 2014, passa a vigorar com as seguintes alterações:\n\n“Art. 76. .....................................................................................\n\n§ 1º .............................................................................................\n\nhttps://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023 12/60\n\n04/12/2025, 17:28 LEI Nº 17.975 DE 8 DE JULHO DE 2023 « Catálogo de Legislação Municipal\n\n....................................................................................................\n\nIV - as Zonas Especiais de Interesse Social – ZEIS, observado o previsto no § 5º do art. 57 desta Lei;\n\n....................................................................................................\n\nIX - as Zonas Predominantemente Residenciais – ZPR;\n\nX - as Zonas Corredor – ZCOR;\n\nXI - as Zonas de Transição – ZT;\n\nXII - vilas, conforme resolução SMUL.ATECC.CTLU / 001 / 2022.\n\n....................................................................................................\n\n§ 3º Deverão ser encaminhados à Câmara Municipal projetos de lei tratando da disciplina especial de\n\nuso e ocupação do solo, definidos por meio de Planos de Intervenção Urbana, para os seguintes\n\nsubsetores da Macroárea de Estruturação Metropolitana:\n\n....................................................................................................\n\nII - Arco Tietê, até 2024;\n\n....................................................................................................\n\nV - Arco Leste, até 2024.\n\n....................................................................................................\n\n§ 7º Até a aprovação pela Câmara Municipal do projeto de lei mencionado no inciso II do § 3º deste\n\nartigo, incidirão sobre as áreas de influência dos Eixos de Estruturação da Transformação Urbana\n\nexistentes e previstos no território do Arco Tietê não abrangido por Operações Urbanas Consorciadas\n\nou por Projetos de Intervenção Urbana em curso os seguintes parâmetros e índices urbanísticos:\n\na) coeficiente de aproveitamento máximo: igual a 4,0 (quatro);\n\nb) gabarito de altura máxima: sem restrição;\n\nc) fatores de planejamento: 2,0 (dois) para os usos residenciais e não residenciais.” (NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção III › Art. 24",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "vigencia": {
+      "inicio": "2023-07-08",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.050/2014 (Plano Diretor Estrategico — PDE)",
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupacao do Solo)"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicacao. Revisao intermediaria do PDE conforme art. 4o da Lei 16.050/2014. Regulamentada por Resolucao SMUL/CIMPDE n. 1/2024, Decreto 63.130/2024 e Decreto 63.728/2024."
+    }
+  },
+  "tema": [
+    "plano_diretor",
+    "revisao_intermediaria",
+    "ordenamento_territorial",
+    "zoneamento",
+    "transferencia_direito_construir",
+    "outorga_onerosa",
+    "potencial_construtivo",
+    "funcao_social_propriedade",
+    "desenvolvimento_urbano",
+    "habitacao_interesse_social",
+    "patrimonio_cultural",
+    "meio_ambiente"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão intermediária do Plano Diretor Estratégico do Município de São Paulo, aprovado pela Lei nº 16.050, de 31 de julho de 2014, nos termos da previsão de seu art. 4º."
+}

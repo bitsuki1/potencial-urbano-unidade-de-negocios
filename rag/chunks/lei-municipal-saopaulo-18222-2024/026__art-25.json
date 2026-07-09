@@ -1,0 +1,56 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-18222-2024::026-art-25",
+  "lei_id": "lei-municipal-saopaulo-18222-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 25",
+  "numero": "25",
+  "header_raw": "Art. 25. O Projeto Estratégico Núcleo Parque Tecnológico do Jaguaré prevê o reparcelamento dos lotes",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção III",
+    "Art. 25"
+  ],
+  "texto": "Art. 25. O Projeto Estratégico Núcleo Parque Tecnológico do Jaguaré prevê o reparcelamento dos lotes\n\nintegrantes de seu perímetro, demarcado no Mapa VII desta Lei, observando-se as seguintes\n\ndisposições:\n\nI - ficam permitidas as subcategorias de usos R2v e EHMP, até o limite de 50% (cinquenta por cento)\n\nda área construída computável total do projeto, condicionados à implantação de fachada ativa nos\n\ntermos da alínea “a” do inciso VII do art. 62 da Lei nº 16.402, de 22 de março de 2016 - LPUOS;\n\nII - em lotes com área de até 10.000m² (dez mil metros quadrados), na hipótese de destinação de\n\nparcela à fruição pública, não será devida outorga onerosa correspondente à metade do potencial\n\nconstrutivo adicional previsto para a área destinada a esta finalidade, independentemente da zona em\n\nque se situem, desde que atendidas as disposições dos arts. 70 e 88, incisos I a III, da Lei nº 16.402,\n\nde 22 de março de 2016 - LPUOS;\n\nIII - os lotes resultantes do reparcelamento poderão utilizar o potencial construtivo básico e máximo\n\nconsiderando a área original de terreno.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 18.222/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção III › Art. 25",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-18222-de-27-de-dezembro-de-2024",
+    "vigencia": {
+      "inicio": "2024-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Lei nº 18.298/2025"
+      ],
+      "revogada_por": null,
+      "observacao": "Em vigor desde a publicacao; consolidada com alteracoes da Lei 18.298/2025 (27 dispositivos com redacao alterada, 1 incluido, 1 revogado — todos relativos a ZOE-Butantan)."
+    }
+  },
+  "tema": [
+    "plano_intervencao_urbana",
+    "arco_pinheiros",
+    "uso_ocupacao_solo",
+    "zoneamento",
+    "potencial_construtivo",
+    "habitacao_interesse_social",
+    "distrito_inovacao",
+    "meio_ambiente_urbano",
+    "mobilidade_urbana",
+    "outorga_onerosa"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Aprova o Plano de Intervenção Urbana para o território do Arco Pinheiros, em atendimento ao inciso IV do § 3º do art. 76 da Lei nº 16.050, de 31 de julho de 2014 - PDE; cria a Área de Intervenção Urbana Arco Pinheiros."
+}

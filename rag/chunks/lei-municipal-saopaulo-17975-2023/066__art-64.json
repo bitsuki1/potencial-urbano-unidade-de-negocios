@@ -1,0 +1,59 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17975-2023::066-art-64",
+  "lei_id": "lei-municipal-saopaulo-17975-2023",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 64",
+  "numero": "64",
+  "header_raw": "Art. 64. O caput do art. 156 e seu parágrafo único da Lei nº 16.050, de 2014, passam a vigorar com a",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Seção IV",
+    "Art. 64"
+  ],
+  "texto": "Art. 64. O caput do art. 156 e seu parágrafo único da Lei nº 16.050, de 2014, passam a vigorar com a\n\nseguinte redação:\n\n“Art. 156. Para cumprimento do disposto nesta Lei, o órgão ambiental municipal poderá celebrar, com\n\nforça de título executivo extrajudicial, nos termos da legislação municipal, Termo de Ajustamento de\n\nConduta Ambiental – TAC com pessoas físicas e jurídicas responsáveis pela construção, instalação,\n\nampliação e funcionamento de estabelecimentos e atividades utilizadores de recursos ambientais,\n\nconsiderados, efetiva ou potencialmente, poluidores, ou, ainda, com terceiros interessados na\n\npromoção da reparação.\n\nParágrafo único. O Termo de Ajustamento de Conduta Ambiental – TAC tem por objetivo precípuo a\n\nrecuperação do meio ambiente degradado, ou, não sendo possível, a reparação do meio ambiente\n\ndegradado, mediante a fixação de obrigações e condicionantes técnicos que deverão ser\n\nrigorosamente cumpridas pelo infrator em relação à atividade degradadora a que deu causa, de modo\n\na cessar, adaptar, recompor, corrigir ou minimizar seus efeitos negativos sobre o meio ambiente.” (NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Seção IV › Art. 64",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "vigencia": {
+      "inicio": "2023-07-08",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.050/2014 (Plano Diretor Estrategico — PDE)",
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupacao do Solo)"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicacao. Revisao intermediaria do PDE conforme art. 4o da Lei 16.050/2014. Regulamentada por Resolucao SMUL/CIMPDE n. 1/2024, Decreto 63.130/2024 e Decreto 63.728/2024."
+    }
+  },
+  "tema": [
+    "plano_diretor",
+    "revisao_intermediaria",
+    "ordenamento_territorial",
+    "zoneamento",
+    "transferencia_direito_construir",
+    "outorga_onerosa",
+    "potencial_construtivo",
+    "funcao_social_propriedade",
+    "desenvolvimento_urbano",
+    "habitacao_interesse_social",
+    "patrimonio_cultural",
+    "meio_ambiente"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão intermediária do Plano Diretor Estratégico do Município de São Paulo, aprovado pela Lei nº 16.050, de 31 de julho de 2014, nos termos da previsão de seu art. 4º."
+}

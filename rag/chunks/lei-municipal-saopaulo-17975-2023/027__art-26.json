@@ -1,0 +1,59 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17975-2023::027-art-26",
+  "lei_id": "lei-municipal-saopaulo-17975-2023",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 26",
+  "numero": "26",
+  "header_raw": "Art. 26. A Lei nº 16.050, de 2014, passa a vigorar acrescida de art. 77-A com a seguinte redação:",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção III",
+    "Art. 26"
+  ],
+  "texto": "Art. 26. A Lei nº 16.050, de 2014, passa a vigorar acrescida de art. 77-A com a seguinte redação:\n\n“Art. 77-A. Com base nos critérios previstos no art. 76 desta Lei, oportuna revisão da Lei nº 16.402, de\n\n22 de março de 2016 – Lei de Parcelamento, Uso e Ocupação do Solo – LPUOS, considerará para a\n\ndelimitação de Zona Eixo de Estruturação da Transformação Urbana Previsto (ZEUP) ou Zona Eixo de\n\nEstruturação da Transformação Urbana Previsto Ambiental (ZEUPa), as áreas de influência\n\ndecorrentes dos elementos estruturais do sistema de transporte coletivo de alta e média capacidade\n\nindicados no Mapa 9 desta Lei.\n\nParágrafo único. A demarcação de novas ZEUP e ZEUPa deverá considerar, para o transporte\n\nmetroviário, somente os trechos previstos até 2029 no Mapa 9.” (NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção III › Art. 26",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "vigencia": {
+      "inicio": "2023-07-08",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.050/2014 (Plano Diretor Estrategico — PDE)",
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupacao do Solo)"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicacao. Revisao intermediaria do PDE conforme art. 4o da Lei 16.050/2014. Regulamentada por Resolucao SMUL/CIMPDE n. 1/2024, Decreto 63.130/2024 e Decreto 63.728/2024."
+    }
+  },
+  "tema": [
+    "plano_diretor",
+    "revisao_intermediaria",
+    "ordenamento_territorial",
+    "zoneamento",
+    "transferencia_direito_construir",
+    "outorga_onerosa",
+    "potencial_construtivo",
+    "funcao_social_propriedade",
+    "desenvolvimento_urbano",
+    "habitacao_interesse_social",
+    "patrimonio_cultural",
+    "meio_ambiente"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão intermediária do Plano Diretor Estratégico do Município de São Paulo, aprovado pela Lei nº 16.050, de 31 de julho de 2014, nos termos da previsão de seu art. 4º."
+}

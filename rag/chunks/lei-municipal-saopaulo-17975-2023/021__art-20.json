@@ -1,0 +1,59 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17975-2023::021-art-20",
+  "lei_id": "lei-municipal-saopaulo-17975-2023",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 20",
+  "numero": "20",
+  "header_raw": "Art. 20. O art. 57 da Lei nº 16.050, de 2014, passa a vigorar acrescido de §§ 5º, 6º e 7º, com a seguinte",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção I",
+    "Art. 20"
+  ],
+  "texto": "Art. 20. O art. 57 da Lei nº 16.050, de 2014, passa a vigorar acrescido de §§ 5º, 6º e 7º, com a seguinte\n\nredação:\n\n“Art. 57. .....................................................................................\n\n....................................................................................................\n\n§ 5º Para as ZEIS 2, 3 e 5 localizadas em quadras integralmente contidas nas áreas de influência dos\n\nEixos de Estruturação da Transformação Urbana existentes ou ativados, fica permitido o acréscimo de\n\n50% (cinquenta por cento) do coeficiente de aproveitamento máximo previsto especificamente para o\n\nlicenciamento de EZEIS, exceto nos casos de sobreposição com áreas de interesse de preservação\n\ncultural ou ambiental.\n\n§ 6º O disposto no § 5º deste artigo não se aplica às ZEIS localizadas na Macrozona de Proteção e\n\nRecuperação Ambiental.\n\n§ 7º Lei específica definirá as quadras passíveis da aplicação das disposições do § 5º deste artigo\n\ndemarcando inclusive as áreas atingidas por Eixos de Estruturação da Transformação Urbana\n\nprevistos, que só poderão ser beneficiadas quando ativados.” (NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção I › Art. 20",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "vigencia": {
+      "inicio": "2023-07-08",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.050/2014 (Plano Diretor Estrategico — PDE)",
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupacao do Solo)"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicacao. Revisao intermediaria do PDE conforme art. 4o da Lei 16.050/2014. Regulamentada por Resolucao SMUL/CIMPDE n. 1/2024, Decreto 63.130/2024 e Decreto 63.728/2024."
+    }
+  },
+  "tema": [
+    "plano_diretor",
+    "revisao_intermediaria",
+    "ordenamento_territorial",
+    "zoneamento",
+    "transferencia_direito_construir",
+    "outorga_onerosa",
+    "potencial_construtivo",
+    "funcao_social_propriedade",
+    "desenvolvimento_urbano",
+    "habitacao_interesse_social",
+    "patrimonio_cultural",
+    "meio_ambiente"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão intermediária do Plano Diretor Estratégico do Município de São Paulo, aprovado pela Lei nº 16.050, de 31 de julho de 2014, nos termos da previsão de seu art. 4º."
+}

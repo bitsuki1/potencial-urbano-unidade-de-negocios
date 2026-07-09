@@ -1,0 +1,59 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-18081-2024::058-art-57",
+  "lei_id": "lei-municipal-saopaulo-18081-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 57",
+  "numero": "57",
+  "header_raw": "Art 57. O art. 103 da Lei nº 16.402, de 2016, passa a vigorar com a seguinte redação:",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 57"
+  ],
+  "texto": "Art 57. O art. 103 da Lei nº 16.402, de 2016, passa a vigorar com a seguinte redação:\n\n“Art. 103. ........................................................................................\n\nI - Ind-2-1: fabricação de produtos alimentícios e bebidas:\n\nestabelecimentos destinados à preparação de alimentos, conservas, produtos de cereais, bebidas,\n\ndentre outros, e estabelecimentos formados por um conjunto de cozinhas industriais, utilizadas para\n\nprodução por diferentes restaurantes e/ou empresas, destinados à comercialização de refeições e\n\nalimentos por serviço de entregas, sem acesso de público para consumo no local, configurando\n\noperação conjunta ou conglomerado de cozinhas, popularmente conhecidas como dark kitchens, na\n\nhipótese em que ultrapassar 10 (dez) cozinhas ou 500m² (quinhentos metros quadrados) de área\n\nconstruída computável;\n\n.........................................................................................................\n\n§ 1º ..................................................................................................\n\n§ 2º Ficam classificadas como Ind-2 as atividades descritas nos incisos I e VII do art. 102 desta Lei que\n\napresentem área construída computável superior a 1.000m² (mil metros quadrados) e que não\n\nconfigurem dark kitchens, além daquelas não enquadradas nas demais atividades.\n§ 3º Poderão ser enquadrados na categoria de uso Ind-1b os estabelecimentos industriais com área\n\ncomputável menor ou igual 1.000m² (mil metros quadrados) enquadrados como Ind-2, desde que\n\navaliada pelo órgão competente que a atividade industrial é compatível com a vizinhança residencial no\n\nque diz respeito às características de ocupação dos lotes, de acesso, de localização, de tráfego, de\n\nserviços urbanos e aos níveis de ruído, de vibração e de poluição ambiental.” (NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 18.081/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Art. 57",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-18081-de-19-de-janeiro-de-2023",
+    "vigencia": {
+      "inicio": "2024-01-19",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupação do Solo)",
+        "Lei nº 17.577/2021",
+        "Lei nº 16.499/2016"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicação. Revisão parcial da LPUOS para compatibilizar com a Lei 17.975/2023 (revisão intermediária do PDE). Vários artigos VETADOS (71, 83, 88-93)."
+    }
+  },
+  "tema": [
+    "parcelamento_uso_ocupacao_solo",
+    "zoneamento",
+    "coeficiente_aproveitamento",
+    "gabarito_altura",
+    "quota_ambiental",
+    "habitacao_interesse_social",
+    "eixo_estruturacao_urbana",
+    "zona_mista",
+    "fachada_ativa",
+    "fruicao_publica",
+    "patrimonio_cultural",
+    "zona_especial_protecao_cultural"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão parcial da Lei nº 16.402, de 22 de março de 2016 (LPUOS), visando à compatibilização de seu texto original com as supervenientes alterações decorrentes da promulgação da Lei nº 17.975, de 8 de julho de 2023 – Revisão Intermediária do Plano Diretor Estratégico do Município de São Paulo, nos termos da previsão de seu art. 126, e dá outras providências."
+}
