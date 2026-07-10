@@ -142,7 +142,7 @@
     "obs": "texto verbatim consolidado (catálogo); capturado via Google Drive MCP read_file_content.",
     "hash_alvo": "leis/municipal-sp/lei-municipal-saopaulo-17202-2019.md"
   },
-  "status_pipeline": "tagueado",
+  "status_pipeline": "indexado",
   "confianca_extracao": "alta",
   "revisado_por_humano": false,
   "dominio_primario": "compartilhado",

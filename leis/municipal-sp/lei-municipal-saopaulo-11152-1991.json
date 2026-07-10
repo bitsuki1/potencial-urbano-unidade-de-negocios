@@ -132,7 +132,7 @@
     "metodo": "PDF-texto Catálogo de Legislação Municipal via Google Drive MCP",
     "obs": "texto verbatim consolidado (catálogo); capturado via Google Drive MCP read_file_content."
   },
-  "status_pipeline": "tagueado",
+  "status_pipeline": "indexado",
   "confianca_extracao": "alta",
   "revisado_por_humano": false,
   "dominio_primario": "iptu",

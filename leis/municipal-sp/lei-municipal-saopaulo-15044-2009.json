@@ -98,7 +98,7 @@
     "hash_alvo": "leis/municipal-sp/lei-municipal-saopaulo-15044-2009.md",
     "drive_file_id": "1a9Y5eAQUrWHzWQQY_rjEeYR5sa6LqHjL"
   },
-  "status_pipeline": "tagueado",
+  "status_pipeline": "indexado",
   "confianca_extracao": "alta",
   "revisado_por_humano": false,
   "verbatim_integral": true,

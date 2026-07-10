@@ -11,8 +11,9 @@ Princípios:
 - 1.7 — cada resultado carrega `citacao` (fonte legal); engine não "acha", calcula e cita.
 - DECIMAL(10,3) — aritmética exata (Decimal), como manda `travas_operacionais_v6.1.json`
   (`precision_decimal_utxo:[10,3]`), evitando erro de float.
-- Constantes NÃO duplicadas: F_i e travas são lidos de `motor00/travas_operacionais_v6.1.json`
-  (fonte única). Fórmulas conferidas contra `motor00/semantic_chunks_v6.1.json` (CHK_03) e
+- F_i de doação e ZEPEC DELEGADOS ao pcpt.py, que lê de `tabelas/*.csv` (ENG-01, auditoria
+  2026-07-10 — fonte única, anti-oracle). Travas de precisão (DECIMAL(10,3)) de motor00/
+  (metadado de sistema, não tabela legal). Fórmulas conferidas contra CHK_03 e
   `engines/FORMULAS-CONSOLIDADAS.md`.
 
 DEPENDÊNCIA DE TABELA (achado AUD-04 — `tabelas/` vazio): `V` (valor do terreno, Quadro 14) e
@@ -36,7 +37,6 @@ from pathlib import Path
 AQUI = Path(__file__).resolve().parent
 TRAVAS = json.loads((AQUI / "motor00" / "travas_operacionais_v6.1.json").read_text(encoding="utf-8"))
 LOCKS = TRAVAS["system_locks"]
-FATOR_INCENTIVO = LOCKS["fator_incentivo_fi"]           # zepec_bir, doacao_his, doacao_viario, ...
 PRECISAO = LOCKS["precision_decimal_utxo"][1]           # 3 casas (DECIMAL(10,3))
 
 # Fonte legal comum (CHK_01) — toda citação aponta para cá.
@@ -171,21 +171,22 @@ def potencial_gerado_zepec(atc_matricula, area_desapropriada, ca_basico):
     }
 
 
-def potencial_gerado_doacao(atc, ca_max, modalidade):
-    """Doação: PC_pt = Atc × CA_max × F_i.  modalidade ∈ {doacao_his, doacao_viario,
-    doacao_parques_low_val, doacao_parques_high_val} (F_i de travas_operacionais)."""
-    if modalidade not in FATOR_INCENTIVO:
-        raise ValueError(f"modalidade {modalidade!r} sem F_i; válidas: {sorted(FATOR_INCENTIVO)}")
+def potencial_gerado_doacao(atc, ca_max, finalidade, v=None):
+    """Doação: PC_pt = Atc × CA_max × F_i. DELEGA ao engine pcpt.pcpt_com_doacao (ENG-01: Fi
+    lido de tabelas/*.csv, não de motor00/). finalidade ∈ {corredor_onibus, his,
+    regularizacao_fundiaria, parque}. Para 'parque', V é obrigatório (resolve Fi pelo Art.127 §1º)."""
+    import importlib
+    _pcpt = importlib.import_module("pcpt")
     a = _exigir_positivo(_d(atc, "atc"), "atc")
     cam = _exigir_positivo(_d(ca_max, "ca_max"), "ca_max")
-    fi = _d(FATOR_INCENTIVO[modalidade], "fi")
-    pc = a * cam * fi
+    e = _pcpt.pcpt_com_doacao(str(a), str(cam), finalidade, v=str(v) if v is not None else None)
     return {
-        "artefato": f"TDC_geracao_{modalidade}",
-        "valor": _q_utxo(pc, "PC_pt(doacao)"),
-        "formula": "PC_pt = Atc × CA_max × F_i",
-        "memoria_calculo": f"{a} × {cam} × {fi} = {_q_utxo(pc, 'PC_pt(doacao)')}",
-        "inputs": {"atc": str(a), "ca_max": str(cam), "modalidade": modalidade, "fi": str(fi)},
+        "artefato": f"TDC_geracao_{finalidade}",
+        "valor": _q_utxo(_d(e["valor_m2"], "PC_pt"), "PC_pt(doacao)"),
+        "formula": "PC_pt = Atc × CAmax × Fi",
+        "memoria_calculo": e["memoria_calculo"],
+        "inputs": {"atc": str(a), "ca_max": str(cam), "finalidade": finalidade,
+                   "v": str(v) if v is not None else None},
         "citacao": CITACAO["TDC_geracao_doacao"],
     }
 
@@ -367,10 +368,15 @@ def _autoteste():
     checa("OODC", outorga_onerosa(1000, 4, "1.2", "1.0", 3000)["valor"], "900000.000")
     # ZEPEC (A-02: F_i escalonado): Atc_liq=(500−50)=450 → área ≤500 → F_i=1,2 → 450×2×1,2 = 1080
     checa("ZEPEC (Fi escalonado Art.24)", potencial_gerado_zepec(500, 50, 2)["valor"], "1080.000")
-    # Doação viário: 300×2.5×2.0 = 1500
-    checa("doacao_viario", potencial_gerado_doacao(300, "2.5", "doacao_viario")["valor"], "1500.000")
-    # F_i HIS = 1.9: 100×1×1.9 = 190
-    checa("doacao_his Fi", potencial_gerado_doacao(100, 1, "doacao_his")["valor"], "190.000")
+    # ENG-01 corrigido: delega ao pcpt.py (Fi de tabelas/fi-incentivo-doacao.csv, não motor00/)
+    # Doação corredor: 300×2.5×2.0 = 1500
+    checa("doacao corredor", potencial_gerado_doacao(300, "2.5", "corredor_onibus")["valor"], "1500.000")
+    # HIS: 100×1×1.9 = 190
+    checa("doacao HIS", potencial_gerado_doacao(100, 1, "his")["valor"], "190.000")
+    # ENG-02 corrigido: regularizacao_fundiaria (Art.127 §1º III, Fi=0.8): 100×1×0.8 = 80
+    checa("doacao regularizacao", potencial_gerado_doacao(100, 1, "regularizacao_fundiaria")["valor"], "80.000")
+    # Parque com V: 100×4×1.4 = 560 (V≤2000 → Fi=1.4)
+    checa("doacao parque", potencial_gerado_doacao(100, 4, "parque", v=1500)["valor"], "560.000")
     # Recepção: (900×4000)/(2×2000) = 3.6e6/4000 = 900
     checa("recepcao", potencial_recebido(900, 4000, 2, 2000)["valor"], "900.000")
     # Trava HIS dispara
@@ -410,12 +416,11 @@ def _autoteste():
     # B-12 (resíduo fechado): guarda DECIMAL(10,3) do UTXO (m² PC).
     #  (a) PC que ESTOURA o tipo (parte inteira ≥ 10^7) LEVANTA — não trunca silencioso.
     try:
-        potencial_gerado_doacao("10000000", 1, "doacao_his"); falhas.append("PC_pt 10^7 (Fi 1.9) não levantou overflow DECIMAL(10,3)")
+        potencial_gerado_doacao("10000000", 1, "his"); falhas.append("PC_pt 10^7 (Fi 1.9) não levantou overflow DECIMAL(10,3)")
     except ValueError:
         pass
-    #  (b) PC alto (< 10^7) NÃO levanta e quantiza a 3 casas. (via doação; A-02 delegou o zepec ao pcpt,
-    #      cujo F_i escalonado não produz mais 9.999.999 a partir de 9.999.999 m²). 5.000.000×1,9 = 9.500.000.
-    checa("PC_pt alto (<10^7) não levanta", potencial_gerado_doacao("5000000", 1, "doacao_his")["valor"], "9500000.000")
+    #  (b) PC alto (< 10^7) NÃO levanta e quantiza a 3 casas. 5.000.000×1×1.9 = 9.500.000.
+    checa("PC_pt alto (<10^7) não levanta", potencial_gerado_doacao("5000000", 1, "his")["valor"], "9500000.000")
     #  (c) DECISÃO B-12: o R$ da OODC é MONETÁRIO — NÃO se sujeita ao teto UTXO (pode passar de 10^7).
     #      (1000/4)×2×1×50000 = 25.000.000 (>10^7) tem de calcular, não levantar.
     r_grande = outorga_onerosa(1000, 4, "2", "1", 50000)
@@ -458,7 +463,7 @@ def _demo():
     casos = [
         ("Outorga Onerosa (R>70m², Arco)", outorga_onerosa(1200, 4, "1.2", "1.0", 2500)),
         ("Geração ZEPEC-BIR (tombado)", potencial_gerado_zepec(800, 0, 1)),
-        ("Geração Doação viário (F_i=2.0)", potencial_gerado_doacao(600, "2.5", "doacao_viario")),
+        ("Geração Doação corredor (F_i=2.0)", potencial_gerado_doacao(600, "2.5", "corredor_onibus")),
         ("Recepção no receptor", potencial_recebido(1500, 5000, 2, 2000)),
     ]
     for nome, r in casos:

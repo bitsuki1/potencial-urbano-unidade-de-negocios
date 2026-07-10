@@ -95,18 +95,24 @@ def main():
     (INDEX_DIR / "invertido.json").write_text(
         json.dumps(saida_invertido, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
-    # status_pipeline: fatiado -> indexado para as leis que têm chunks
+    # status_pipeline: fatiado/tagueado/validado -> indexado para as leis que têm chunks
+    # RAG-01 (auditoria 2026-07-10): a guarda anterior só promovia "fatiado", silenciando
+    # leis que passaram por tagueamento mas nunca voltaram a "fatiado" — 4 leis ficavam presas.
     leis_indexadas = sorted({c.get("lei_id") for c in chunks})
+    promovidas = []
     for lei_id in leis_indexadas:
         for jpath in (RAIZ / "leis").rglob(f"{lei_id}.json"):
             meta = json.loads(jpath.read_text(encoding="utf-8"))
-            if meta.get("status_pipeline") == "fatiado":
+            if meta.get("status_pipeline") in ("fatiado", "tagueado", "validado"):
                 meta["status_pipeline"] = "indexado"
                 jpath.write_text(json.dumps(meta, ensure_ascii=False, indent=2) + "\n",
                                  encoding="utf-8")
+                promovidas.append(lei_id)
 
     print(f"indexar: {N} chunks indexados, {len(df)} tokens, "
           f"{len(leis_indexadas)} leis -> rag/index/")
+    if promovidas:
+        print(f"  promovidas a 'indexado': {', '.join(promovidas)}")
     if leis_indexadas:
         print(f"  leis: {', '.join(leis_indexadas)}")
 

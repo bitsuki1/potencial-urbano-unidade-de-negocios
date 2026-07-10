@@ -183,6 +183,12 @@ def main():
         i["id"] for i in todos
         if i["status_pipeline"] == "indexado" and i["id"] not in indexados_reais
     )
+    # NV-1 reverso (RAG-02, auditoria 2026-07-10): itens COM chunks no índice mas NÃO marcados
+    # 'indexado' no JSON = status atrasado (o indexar.py rodou mas a promoção falhou/foi pulada).
+    divergencia_nao_promovido = sorted(
+        i["id"] for i in todos
+        if i["id"] in indexados_reais and i["status_pipeline"] != "indexado"
+    )
     por_status = {}
     for i in ativos:
         por_status[i["status_pipeline"]] = por_status.get(i["status_pipeline"], 0) + 1
@@ -225,6 +231,8 @@ def main():
             "itens_fora_de_escopo": [i["id"] for i in todos if i["fora_de_escopo"]],
             "indexado_sem_chunks_no_indice": divergencia_indexado,
             "_nota_divergencia": "NV-1 (2026-06-27): ids que dizem status_pipeline=indexado mas NAO tem chunk no rag/index = FALSO-VERDE; o gate (fechar-instancia.py / gate-fechamento.sh) FALHA se esta lista nao for vazia. Vazia = todo 'indexado' e provado pelo indice.",
+            "chunks_sem_status_indexado": divergencia_nao_promovido,
+            "_nota_nao_promovido": "NV-1 reverso (RAG-02, 2026-07-10): ids que TEM chunks no indice mas o JSON NAO diz 'indexado' = status atrasado. Rode indexar.py para promover.",
             "indexado_verbatim_sem_vigencia_datada": indexado_verbatim_sem_vigencia,
             "_nota_vigencia": "B-7 (1.6): leis verbatim/indexadas que ainda nao tem vigencia.inicio datada. Gap declarado (nao bloqueia o gate) — a datacao das 13 municipais bruto depende do verbatim do Drive (B-4).",
             "fonte_hash_nulo": sorted(hash_nulo),
@@ -257,6 +265,8 @@ def main():
         print(f"  ALERTA status ilegais: {status_ilegais}")
     if divergencia_indexado:
         print(f"  ALERTA NV-1 'indexado' SEM chunk no indice (falso-verde): {divergencia_indexado}")
+    if divergencia_nao_promovido:
+        print(f"  ALERTA NV-1 reverso: TEM chunks mas status != 'indexado': {divergencia_nao_promovido}")
     print(f"  por status: {por_status}")
     print(f"  tabelas vintage: {len(tab_itens)} CSV(s) rastreadas, {len(tab_sem_vintage)} sem data_base")
     if tab_sem_vintage:

@@ -6,14 +6,15 @@
   "lifeline": "Acha os donos de imóveis que podem vender potencial construtivo (TDC) e calcula, pela lei, quanto vale — cada número rastreável até o artigo.",
   "stage": "construção",
   "health": "ok",
-  "healthNote": "Fp no gate (21 checks). G4 regra da esquina (2755 multi-face 63%). T12 19/19 COMPLETO. E2/E3 entregues. AUD-B08/B09 schema 2.4 (36/36). IPTU gabarito VV (7 cedentes) + ground-truth Lei 15.889 (9 itens, calibrado). Evals: 29/29 RAG + 15/15 produto + 6/6 zona. Corpus: 28 leis, 2280 chunks, 3518 remissões. Zona-base 366/377.",
+  "healthNote": "Auditoria profunda: 6 achados corrigidos (RAG-01/02/03 + ENG-01/02 + RAG-04). Gate 21/21. Evals: 29/29 RAG + 15/15 produto + 6/6 zona. Corpus: 28 leis, 2280 chunks, 2410 remissões (dedup). oodc.py anti-oracle 1.3 corrigido (Fi delegado ao pcpt.py). Zona-base 366/377.",
   "lever": { "tx": "Fi declarado (do acervo de Termos do dono) é o gap remanescente para fechar o cálculo nos imóveis JA_DECLARADO — o Fi escalonado (Art. 24) já cobre a prospecção nova.", "k": "interno: acervo Termos / Fi declarado" },
   "now": [
     "Fp engine adicionado ao gate (CI + fechar-instancia → 21 checks). Qualidade de código: 3 defeitos corrigidos em enriquecer_oficial.py + gerar_xlsx.py refatorado.",
     "IPTU gabarito VV criado: 7 cedentes reais (lançamento 2026) com v_venal_m2 oficial (padrões A–E + TERRENO + apt). Aguarda engine.",
     "IPTU RAG ground-truth Lei 15.889/2013: 9 itens (7 positivos + 2 negativos), calibrados contra BM25 real. Status ATIVO.",
     "Evals: 29/29 RAG + 15/15 eval-produto + 6/6 eval-zona-mutação PASS. Gate 21/21 VERDE.",
-    "Corpus: 28 leis indexadas, 2280 chunks, 3518 remissões. Zona-base 366/377. Tabelas: 10 CSV com vintage+hash."
+    "Corpus: 28 leis indexadas, 2280 chunks, 2410 remissões (dedup RAG-03). Zona-base 366/377. Tabelas: 10 CSV com vintage+hash.",
+    "Auditoria profunda: 6 achados corrigidos — RAG-01 (4 leis presas em tagueado→indexado), RAG-02 (NV-1 reverso), RAG-03 (1108 duplicatas), ENG-01 (anti-oracle oodc.py), ENG-02 (+regularizacao_fundiaria)."
   ],
   "projetos": [
     {
@@ -26,8 +27,8 @@
           "ent": [["366/377 ZEPEC resolvidos (GeoSampa SISZON)","feito"], ["G6 eval mutação zona (5 casos)","feito"], ["11 irresolvíveis restantes","block"]] },
         { "nome": "Motor das Fórmulas (potencial construtivo)", "calor": "hot", "prod": "PCpt = Atc x CAbás x Fi. eval-produto 14/14. Decomposição L-T5-1: Fi explica 100% da divergência (54 cedentes). Pipeline E1 reproduzível (refazer_oficial.sh).",
           "ent": [["engine lê tabelas da lei (fail-closed)","feito"], ["eval-produto 14/14 (7 golden + 7 semânticos)","feito"], ["Fp engine (Quadro 6)","feito"], ["L-T5-1 decomposição Fi-regime","feito"], ["Fi declarado (acervo Termos)","block"]] },
-        { "nome": "Motor da Lei (conteúdo jurídico)", "calor": "hot", "prod": "28 leis indexadas (2280 chunks), fatiadas por dispositivo, com vigência e citação obrigatória. Grafo: 3518 remissões. Schema 2.4: 36/36 lei JSONs completos.",
-          "ent": [["TDC indexado e citável (5+ leis TDC)","feito"], ["grafo de remissões (3518 arestas)","feito"], ["+4 leis municipais ingeridas","feito"], ["T8 guard vedação Art.124§2 (32 vedadas)","feito"], ["AUD-B08/B09 schema 2.4 (36/36)","feito"]] },
+        { "nome": "Motor da Lei (conteúdo jurídico)", "calor": "hot", "prod": "28 leis indexadas (2280 chunks), fatiadas por dispositivo, com vigência e citação obrigatória. Grafo: 2410 remissões (dedup). Schema 2.4: 36/36 lei JSONs completos.",
+          "ent": [["TDC indexado e citável (5+ leis TDC)","feito"], ["grafo de remissões (2410 arestas, dedup)","feito"], ["+4 leis municipais ingeridas","feito"], ["T8 guard vedação Art.124§2 (32 vedadas)","feito"], ["AUD-B08/B09 schema 2.4 (36/36)","feito"]] },
         { "nome": "Motor Comercial (prospecção lado-vendedor)", "calor": "hot", "prod": "Lista de cedentes com elegibilidade_conservacao propagada (18 ELEGIVEL, 68 PENDENTE). 2740 na prospecção. G4: v_outorga_max_q14 + flag multi-face (2755 lotes, 63% — Decreto 57.536/2016 Art. 8 IV).",
           "ent": [["ferramenta com conservação (L-T4-3)","feito"], ["G4 regra da esquina (v_max + flag)","feito"], ["religar fila ao enriquecimento","prox"]] }
       ]
