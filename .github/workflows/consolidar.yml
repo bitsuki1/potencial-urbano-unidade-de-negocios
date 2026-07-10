@@ -142,6 +142,10 @@ jobs:
             echo "::error::rótulo/leitura de DEMANDA no produto seller-only (viola D-DONO-15)"; exit 1; fi
           if grep -rlnE "CODEX-[A-Za-z0-9-]*\.md" engines/ zepec/ scripts/ --include=*.py ; then
             echo "::error::código lê de CODEX-*.md (oráculo) — número de fórmula deve vir de tabela/engine (1.3)"; exit 1; fi
+          # ENG-03: motor00/ contém semantic_chunks e negative_prompts (oráculo); travas_operacionais
+          # é config de engine (precisão, tolerância) e é permitido. Bloqueia path-strings dos demais.
+          if grep -rnE "[\"']motor00/" engines/ zepec/ scripts/ --include=*.py | grep -vE "travas_operacionais" ; then
+            echo "::error::código lê de motor00/ (oráculo) — parâmetro de fórmula deve vir de tabelas/*.csv (1.3)"; exit 1; fi
           echo "anti-oráculo/anti-demanda: OK"
 
       # Só DEPOIS dos gates verdes: commita os artefatos derivados. NÃO em pull_request
