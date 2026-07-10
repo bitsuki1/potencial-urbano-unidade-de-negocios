@@ -7,7 +7,7 @@
   "stage": "construção",
   "health": "ok",
   "healthNote": "MISTÉRIO Fi≈2,4 RESOLVIDO: é Fi(1,2 Art.24) × FSCE(2,0 Art.57 Lei 17.844/2022) — o engine reproduz EXATO 4 Declarações oficiais do Diário Oficial. Auditoria: 10 achados + G2 fechado (zona 377/377). Gate 23/23. Evals: 29/29 RAG + 15/15 produto + 6/6 zona + 4/4 FSCE. Órfãos consolidados: pacote FSCE + 25 gabaritos reais resgatados de branch órfã à produção.",
-  "lever": { "tx": "FSCE (Art.57 Lei 17.844/2022, ×2,0) explica a divergência que estava travada como 'Fi declarado'. Gap remanescente: ativar o FSCE no pipeline — precisa da coluna na_aiu_sce (pertinência à AIU-SCE por cedente, do overlay do perímetro Setor Central).", "k": "interno: overlay perímetro AIU-SCE → coluna na_aiu_sce" },
+  "lever": { "tx": "FSCE (Art.57 Lei 17.844/2022, ×2,0) explica a divergência 'Fi declarado' — PROVADO no engine (4/4 vs Diário Oficial), mas o PRODUTO ainda mostra o valor pela metade nos cedentes do Setor Central. Bloqueio real: o dado na_aiu_sce NÃO existe. O coletor JÁ está na main do hub (siszon_probe.js, PR #18) — falta RE-RODAR a coleta (runner brasil, guard ≥90%) E VALIDAR (amostra anterior deu 94% 'dentro', implausível → INTERSECTS/camada SCE suspeita). Depois: descer na_aiu_sce ao PU → ligar gancho no enriquecer_oficial.", "k": "hub: re-rodar+validar coletor na_aiu_sce → PU" },
   "now": [
     "Fp engine adicionado ao gate (CI + fechar-instancia → 21 checks). Qualidade de código: 3 defeitos corrigidos em enriquecer_oficial.py + gerar_xlsx.py refatorado.",
     "IPTU gabarito VV criado: 7 cedentes reais (lançamento 2026) com v_venal_m2 oficial (padrões A–E + TERRENO + apt). Aguarda engine.",
