@@ -1,0 +1,29 @@
+name: gemini-smoke
+# Teste de fumaça de uso único (PU 18, 2026-07-10): confirma que o segredo GEMINI_API_KEY
+# está anexado a ESTE repo e que a API de embeddings responde. Não commita nada. Manual.
+on:
+  workflow_dispatch: {}
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Testar GEMINI_API_KEY + embeddings (text-embedding-004)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          if [ -z "$GEMINI_API_KEY" ]; then
+            echo "RESULTADO: SEM_CHAVE — o segredo GEMINI_API_KEY NÃO está neste repositório."
+            exit 1
+          fi
+          code=$(curl -sS -o resp.json -w '%{http_code}' \
+            "https://generativelanguage.googleapis.com/v1beta/models/text-embedding-004:embedContent?key=${GEMINI_API_KEY}" \
+            -H 'Content-Type: application/json' \
+            -d '{"model":"models/text-embedding-004","content":{"parts":[{"text":"potencial construtivo passível de transferência"}]}}')
+          echo "HTTP: $code"
+          dim=$(python3 -c "import json;d=json.load(open('resp.json'));print(len(d.get('embedding',{}).get('values',[])))" 2>/dev/null || echo 0)
+          if [ "$code" = "200" ] && [ "$dim" -gt 0 ]; then
+            echo "RESULTADO: OK — chave válida, embeddings responderam (dimensão=$dim)."
+          else
+            echo "RESULTADO: FALHA — HTTP $code. Corpo:"; head -c 400 resp.json
+            exit 1
+          fi
