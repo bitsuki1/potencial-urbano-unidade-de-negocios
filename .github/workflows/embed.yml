@@ -1,0 +1,34 @@
+name: embed-corpus
+# Camada semântica (B-5): roda embed_corpus.py com o segredo GEMINI_API_KEY (a chave nunca
+# sai do servidor) e commita os vetores de volta ao branch. Dispara quando o embutidor OU
+# o corpus/perguntas mudam; ou manualmente. Consumo: ~2.767 chunks, uma vez.
+on:
+  push:
+    paths:
+      - 'scripts/embed_corpus.py'
+      - '.github/workflows/embed.yml'
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  embed:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Embutir corpus + perguntas (Gemini)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python3 scripts/embed_corpus.py
+      - name: Commitar os vetores (canal Action->repo)
+        run: |
+          if git status --porcelain | grep -qE 'rag/index/embeddings.json|evals/ground-truth/query-embeddings.json'; then
+            git config user.name "embed-bot"; git config user.email "bot@users.noreply.github.com"
+            git add rag/index/embeddings.json evals/ground-truth/query-embeddings.json
+            git commit -m "embed: vetores semânticos do corpus + perguntas (gemini-embedding-001) [skip ci]"
+            for i in 1 2 3; do git push origin HEAD:${GITHUB_REF_NAME} && break || { git pull --rebase origin ${GITHUB_REF_NAME} || true; sleep 2; }; done
+          else
+            echo "sem mudança nos vetores"
+          fi
