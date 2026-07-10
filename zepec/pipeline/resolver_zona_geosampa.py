@@ -126,7 +126,12 @@ def main():
         print(f"  {k}: {v}")
     total_cab = sum(1 for r in rows if r.get("ca_basico", "").strip())
     print(f"  ca_basico total: {total_cab}/{len(rows)}")
-    return 0 if stats["resolvido"] > 0 else 1
+    # Idempotência (fix 2026-07-10): estado COMPLETO (0 lacunas) é sucesso mesmo sem nada
+    # novo a resolver — em clone fresco os mtimes empatam, o make re-roda esta etapa e
+    # falhar aqui quebrava o pipeline com o dado 100% resolvido. Falha real = nada
+    # resolvido E ainda há cedente sem CAbás.
+    faltam = len(rows) - total_cab
+    return 0 if (stats["resolvido"] > 0 or faltam == 0) else 1
 
 if __name__ == "__main__":
     sys.exit(main())

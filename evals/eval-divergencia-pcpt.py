@@ -50,14 +50,19 @@ def _decomposicao_fi_regime(rows):
 
     Para cada cedente divergente, calcula:
       pcpt_ratio  = m2_ja_transferido / pcpt_m2   (divergência total)
-      fi_ratio    = fi_implícito / fi_aplicado     (componente de Fi)
+      fi_ratio    = fi_implícito / fi_aplicado     (componente de Fi; o fi_implícito
+                    CONTÉM o FSCE da Declaração quando o cedente é do Setor Central)
+      fsce_ratio  = 1 / fsce_aplicado              (componente FSCE do ENGINE — Art. 57
+                    Lei 17.844/2022; desde 2026-07-10 o pipeline aplica FSCE=2,0 aos
+                    BIR dentro da AIU-SCE, então o denominador pcpt_m2 já o inclui)
       cabas_ratio = 1.0  (mesmo input nos dois lados — sem CAbás oficial separado)
       atc_ratio   = 1.0  (mesmo input nos dois lados — sem Atc oficial separado)
 
     Onde fi_implícito = m2_ja_transferido / (area_terreno_m2 × ca_basico).
 
-    Verifica que fi_ratio × cabas_ratio × atc_ratio ≈ pcpt_ratio (dentro de 1%)
-    e que Fi explica >90% da log-divergência total.
+    Verifica que fi_ratio × fsce_ratio × cabas_ratio × atc_ratio ≈ pcpt_ratio (dentro
+    de 1%) — a divergência residual é INTEIRAMENTE regime de fator (Fi declarado ×
+    FSCE), nunca CAbás/Atc.
     """
     decomp = []  # lista de dicts com os ratios por cedente
     for r in rows:
@@ -68,17 +73,22 @@ def _decomposicao_fi_regime(rows):
         Fi_esc = _dec_br(r.get("fi_aplicado"))
         if not all(v and v > 0 for v in (P, T, Atc, CAbas, Fi_esc)):
             continue
+        Fsce = _dec_br(r.get("fsce_aplicado"))
+        if not (Fsce and Fsce > 0):
+            Fsce = 1
         pcpt_ratio = float(T / P)
         fi_implicito = float(T / (Atc * CAbas))
         fi_ratio = fi_implicito / float(Fi_esc)
+        fsce_ratio = 1.0 / float(Fsce)
         cabas_ratio = 1.0
         atc_ratio = 1.0
         # produto reconstituído
-        produto = fi_ratio * cabas_ratio * atc_ratio
+        produto = fi_ratio * fsce_ratio * cabas_ratio * atc_ratio
         decomp.append({
             "sql": r.get("sql_mestre", "?"),
             "pcpt_ratio": pcpt_ratio,
             "fi_ratio": fi_ratio,
+            "fsce_ratio": fsce_ratio,
             "cabas_ratio": cabas_ratio,
             "atc_ratio": atc_ratio,
             "produto": produto,

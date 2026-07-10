@@ -69,15 +69,20 @@ def _autoteste_regime():
 # Motor Fórmulas — cálculo PURO do PCpt (princípio 1.1: fórmula é engine).
 # Número nasce no engine (1.3); cita Art. 24 I–VII LPUOS (escalonado) e Art. 125 §1º I PDE.
 # ---------------------------------------------------------------------------
-def _calcular_pcpt(r, atc, cabas, pend, n):
+def _calcular_pcpt(r, atc, cabas, pend, n, setor_central=False):
     """Calcula PCpt (m²) e saldo líquido via ENGINE. Devolve o saldo (Decimal) ou None se falhar.
     Correções do loop de melhoria (2026-07-02):
       (a) Fi ESCALONADO pela área do lote (LPUOS Art. 24 I–VII) — resolvido no engine;
       (b) SALDO líquido: abate o m² JÁ TRANSFERIDO (certidões) do PCpt;
-      (d) parcelamento Art. 124 §3º (>50.000 m² → 10 parcelas) EXPOSTO na saída."""
+      (d) parcelamento Art. 124 §3º (>50.000 m² → 10 parcelas) EXPOSTO na saída.
+    setor_central (2026-07-10, ativação FSCE): pertinência à AIU-SCE é ENTRADA geográfica
+      ('1' da camada perímetro AIU-SCE, GeoSampa) — o teto de terreno ≤1.000 m² do Art. 57
+      é resolvido DENTRO do engine (1.3)."""
     try:
-        e = ENGINE.pcpt_sem_doacao(atc, cabas)
+        e = ENGINE.pcpt_sem_doacao(atc, cabas, setor_central=setor_central)
         r["pcpt_m2"] = str(e["valor_m2"]); r["fi_aplicado"] = e.get("fi", "")
+        if e.get("fsce") not in (None, "", "1"):
+            r["fsce_aplicado"] = e["fsce"]; n["fsce"] += 1
         r["memoria_calculo"] = e["memoria_calculo"]; n["pcpt"] += 1
         if int(e.get("parcelas_anuais") or 0) > 0:
             r["parcelas_anuais"] = str(e["parcelas_anuais"])
@@ -129,14 +134,14 @@ def main():
     rows = list(csv.DictReader(open(AQUI / "ferramenta/zepec_cedentes.csv", encoding="utf-8")))
     extras = ["area_terreno_m2", "area_construida_m2", "v_venal_m2_iptu", "v_outorga_m2_q14",
               "v_outorga_max_q14",
-              "zona", "ca_basico", "fi_aplicado", "pcpt_m2", "saldo_pcpt_m2", "parcelas_anuais",
+              "zona", "ca_basico", "fi_aplicado", "fsce_aplicado", "pcpt_m2", "saldo_pcpt_m2", "parcelas_anuais",
               "preco_proxy_brl", "uso_iptu", "cobertura_oficial", "memoria_calculo", "pendencia_calculo",
               # T3 — regime do PCpt: separa já-declarado (Art.125 §1º I) de prospecção nova (Art.24 caput).
               "regime_pcpt", "qualidade_estimativa"]
     campos = list(rows[0].keys()) + extras
 
     n = {"atc": 0, "v": 0, "zona": 0, "cabas": 0, "pcpt": 0, "saldo": 0, "preco": 0,
-         "multi_face": 0, "vedado": 0}
+         "multi_face": 0, "vedado": 0, "fsce": 0}
     out = AQUI / "ferramenta/zepec_cedentes_oficial.csv"
     enr = []
     for r in rows:
@@ -184,7 +189,21 @@ def main():
                         "(potencial é intransferível; Lei 16.050/2014)")
             n["vedado"] += 1
         elif atc and cabas:
-            saldo = _calcular_pcpt(r, atc, cabas, pend, n)
+            # FSCE (Art. 57, Lei 17.844/2022): ZEPEC-BIR dentro da AIU-SCE (Setor Central).
+            # Pertinência é ENTRADA geográfica ('1'/'0'/'?' da camada perímetro AIU-SCE via
+            # GeoSampa, propagada por preencher_cabas_do_wfs.py ao zona_por_cedente.csv).
+            # Fail-closed: só '1' liga o FSCE; '?'/vazio em BIR vira pendência declarada.
+            bir = "BIR" in (r.get("tipo_zepec") or "")
+            sce = ((z.get("na_aiu_sce") or "").strip() if z else "")
+            saldo = _calcular_pcpt(r, atc, cabas, pend, n, setor_central=(bir and sce == "1"))
+            if bir and sce not in ("1", "0"):
+                pend.append("FSCE (Art.57 Lei 17.844/2022): pertinência à AIU-SCE PENDENTE "
+                            "(coleta GeoSampa) — PCpt calculado SEM FSCE")
+            elif bir and sce == "1" and Decimal(str(atc)) > Decimal("1000"):
+                # rastro do teto (lente 2026-07-10): número certo (engine não aplica o FSCE),
+                # mas a linha ficava MUDA sobre o porquê — persiste a razão legal.
+                pend.append("Art. 57 Lei 17.844/2022: imóvel NA AIU-SCE porém terreno > 1.000 m² "
+                            "— FSCE NÃO aplicável (teto do Art. 57); PCpt sem o fator")
             if saldo is not None:
                 _precificar(r, saldo, vendido_bloqueado, pend, n)
 
@@ -239,7 +258,8 @@ def main():
     print(f"enriquecer_oficial (H1.4): {tot} cedentes -> {out.name}")
     for k, lbl in [("atc", "Atc (área)"), ("v", "V outorga (Q14)"), ("multi_face", "Multi-face (G4 Dec.57536)"),
                    ("zona", "Zona"), ("cabas", "CAbás"), ("vedado", "Vedado Art.124§2 (sem PCpt)"),
-                   ("pcpt", "PCpt calculado (engine)"), ("saldo", "Saldo líquido (– transferido)"), ("preco", "Preço-proxy R$ (do saldo)")]:
+                   ("pcpt", "PCpt calculado (engine)"), ("fsce", "FSCE aplicado (Art.57 SCE)"),
+                   ("saldo", "Saldo líquido (– transferido)"), ("preco", "Preço-proxy R$ (do saldo)")]:
         print(f"  {lbl:26}: {n[k]:5} ({n[k]/tot:.0%})")
 
 
