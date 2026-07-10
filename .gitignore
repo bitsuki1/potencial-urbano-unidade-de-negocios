@@ -19,3 +19,6 @@ zepec/limpo/donos_encontrados.csv
 # === Python ===
 __pycache__/
 *.pyc
+
+# Planilha do produto — artefato binário regenerável (make produto); não versionar (churn de zip).
+zepec/ferramenta/*.xlsx

@@ -129,6 +129,13 @@ jobs:
       - name: Produto (golden-assert do Fi sobre cedentes reais)
         run: python3 evals/eval-produto.py
 
+      # M1 produto — GATE do DOSSIÊ 1-página (preço Art. 128 bate o engine + conservação Art. 129 +
+      # checklist citado ao Decreto 57.536 Art. 5º) e do FUNIL de estágios (completude decrescente).
+      - name: Produto M1 (dossiê citado + funil de estágios)
+        run: |
+          python3 zepec/gerar_dossie.py --autoteste
+          python3 zepec/funil.py
+
       # T4 — GATE de conservação (Art. 129): Termo≠Atestado; RES.(tombamento)≠conservação.
       - name: Conservação (Art. 129, 3-estados — Termo→PENDENTE, RES→SEM_ATESTADO)
         run: python3 zepec/montar_base.py --autoteste

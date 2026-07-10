@@ -130,6 +130,16 @@ def check_engine_art128():
     return rc2 == 0, "engine preço legal Art. 128 (numerador + ÷CAmaxcd + IPCA) + prova OK" if rc2 == 0 else f"eval-art128 falhou (exit {rc2})"
 
 
+def check_produto_dossie():
+    # M1 produto: o dossiê 1-página bate o preço no art128 + tem conservação/checklist citados,
+    # e o funil de completude é monotônico (número por estágio). Falha se o dossiê inventar ou o funil furar.
+    rc, _ = _run(["zepec/gerar_dossie.py", "--autoteste"])
+    if rc != 0:
+        return False, f"dossiê quebrou (exit {rc})"
+    rc2, _ = _run(["zepec/funil.py"])
+    return rc2 == 0, "produto M1 (dossiê citado + funil) OK" if rc2 == 0 else f"funil quebrou (exit {rc2})"
+
+
 def check_engine_iptu():
     # IPTU aberto pelo dono em 2026-07-10 ("finalizarmos as duas frentes"): motor VV×alíquota
     # progressiva por porção (Lei 6.989/1966 arts. 7/8/27 + 7-A/8-A/28; Lei 10.235/1986; faixas
@@ -339,6 +349,7 @@ def main():
         ("EVAL IPTU OFICIAL (VV terreno × lançamento real)", check_eval_iptu_oficial),
         ("EVAL SEMÂNTICO (B-5, híbrido ⊇ keyword)", check_eval_semantico),
         ("PRODUTO (golden Fi cedentes reais, T2)", check_produto),
+        ("PRODUTO M1 (dossiê citado + funil de estágios)", check_produto_dossie),
         ("ZONA-MUTAÇÃO (CAbás por zona, G6)", check_zona_mutacao),
         ("FSCE (Art.57 Lei 17.844 — Setor Central)", check_fsce),
         ("CONSERVAÇÃO (Art.129 3-estados, T4)", check_conservacao),
