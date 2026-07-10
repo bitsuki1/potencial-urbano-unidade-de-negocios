@@ -1,5 +1,11 @@
 # PRÓXIMA INSTÂNCIA — o que fazer (Potencial Urbano)
 
+> **★★★★★★★★★★★★★ PU 18 (2026-07-10) — AUD-B08/B09 SCHEMA 2.4 COMPLETADO: 36/36 lei JSONs com zero campos obrigatórios vazios.**
+> **AUD-B08/B09 FEITO:** 6 lei JSONs preenchidas (tema[], dispositivos_chave[], remissoes[]): Decreto 57.443, PDE 16.050, LPUOS 16.402, COE 16.642, Lei 17.733, Lei 17.844. Invariante I5 preservado (tema[] sem "iptu"/"tdc" — routing em `dominio`/`dominio_primario`). PROVADO: grep campo=None em 36 JSONs = 0.
+> **RESTA (B09 parcial):** `vigencia.inicio` das municipais sem verbatim (5 NÃO no Drive + 3 PDFs scan inacessíveis — captura externa).
+> **Gate:** 20/20 evals + 14/14 eval-produto + 6/6 eval-zona-mutacao PASS.
+> **PRÓXIMO:** continuar varredura de itens locais do backlog.
+>
 > **★★★★★★★★★★★★ PU 18 (2026-07-10) — E2/E3 ENTREGUES: vintage obrigatório + medallion convention.**
 > **E3 FEITO:** `docs/CONVENCAO-MEDALLION.md` — convenção medallion de 1 página (Bronze/Silver/Gold). Silver = `oficiais.*`. Sem governança por camada.
 > **E2b FEITO:** upload scripts (`subir-oficiais-para-supabase.gs`, `subir-grandes-colab.py`) todos com `ano=AAAA` no path. Zero `dest` sem vintage.

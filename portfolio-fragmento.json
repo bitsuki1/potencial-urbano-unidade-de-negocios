@@ -6,9 +6,10 @@
   "lifeline": "Acha os donos de imóveis que podem vender potencial construtivo (TDC) e calcula, pela lei, quanto vale — cada número rastreável até o artigo.",
   "stage": "construção",
   "health": "ok",
-  "healthNote": "T12 17/19 lacunas. E2/E3 entregues (vintage + medallion). eval-produto 14/14 PASS. eval-zona-mutacao 6/6. Corpus: 28 leis, 2280 chunks, 3518 remissões. Zona-base 366/377. Tabelas: 10 CSV com vintage+hash.",
+  "healthNote": "T12 17/19 lacunas. E2/E3 entregues (vintage + medallion). AUD-B08/B09 schema 2.4 completado (36/36 lei JSONs sem campos vazios). eval-produto 14/14 PASS. eval-zona-mutacao 6/6. Corpus: 28 leis, 2280 chunks, 3518 remissões. Zona-base 366/377. Tabelas: 10 CSV com vintage+hash.",
   "lever": { "tx": "Fi declarado (do acervo de Termos do dono) é o gap remanescente para fechar o cálculo nos imóveis JA_DECLARADO — o Fi escalonado (Art. 24) já cobre a prospecção nova.", "k": "interno: acervo Termos / Fi declarado" },
   "now": [
+    "AUD-B08/B09: schema 2.4 completado — 36/36 lei JSONs com zero campos obrigatórios vazios (tema/dispositivos_chave/remissoes).",
     "E2/E3 entregues: vintage obrigatório (upload scripts com ano=, tabelas com sha256+data_base, datas por origem no motor) + convenção medallion (Bronze/Silver/Gold, 1 página).",
     "T12 auditoria: 17/19 lacunas resolvidas. Restam 2 baixas.",
     "eval-produto 14/14 PASS. eval-zona-mutação 6/6. Pipeline reproduzível (refazer_oficial.sh).",
@@ -25,8 +26,8 @@
           "ent": [["366/377 ZEPEC resolvidos (GeoSampa SISZON)","feito"], ["G6 eval mutação zona (5 casos)","feito"], ["11 irresolvíveis restantes","block"]] },
         { "nome": "Motor das Fórmulas (potencial construtivo)", "calor": "hot", "prod": "PCpt = Atc x CAbás x Fi. eval-produto 14/14. Decomposição L-T5-1: Fi explica 100% da divergência (54 cedentes). Pipeline E1 reproduzível (refazer_oficial.sh).",
           "ent": [["engine lê tabelas da lei (fail-closed)","feito"], ["eval-produto 14/14 (7 golden + 7 semânticos)","feito"], ["Fp engine (Quadro 6)","feito"], ["L-T5-1 decomposição Fi-regime","feito"], ["Fi declarado (acervo Termos)","block"]] },
-        { "nome": "Motor da Lei (conteúdo jurídico)", "calor": "hot", "prod": "28 leis indexadas (2280 chunks), fatiadas por dispositivo, com vigência e citação obrigatória. Grafo: 3518 remissões.",
-          "ent": [["TDC indexado e citável (5+ leis TDC)","feito"], ["grafo de remissões (3518 arestas)","feito"], ["+4 leis municipais ingeridas","feito"], ["T8 guard vedação Art.124§2 (32 vedadas)","feito"]] },
+        { "nome": "Motor da Lei (conteúdo jurídico)", "calor": "hot", "prod": "28 leis indexadas (2280 chunks), fatiadas por dispositivo, com vigência e citação obrigatória. Grafo: 3518 remissões. Schema 2.4: 36/36 lei JSONs completos.",
+          "ent": [["TDC indexado e citável (5+ leis TDC)","feito"], ["grafo de remissões (3518 arestas)","feito"], ["+4 leis municipais ingeridas","feito"], ["T8 guard vedação Art.124§2 (32 vedadas)","feito"], ["AUD-B08/B09 schema 2.4 (36/36)","feito"]] },
         { "nome": "Motor Comercial (prospecção lado-vendedor)", "calor": "hot", "prod": "Lista de cedentes com elegibilidade_conservacao propagada (18 ELEGIVEL, 68 PENDENTE). 2740 na prospecção.",
           "ent": [["ferramenta com conservação (L-T4-3)","feito"], ["religar fila ao enriquecimento","prox"]] }
       ]
