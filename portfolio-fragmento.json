@@ -29,8 +29,8 @@
           "ent": [["engine lê tabelas da lei (fail-closed)","feito"], ["FSCE ativado no pipeline (23 cedentes)","feito"], ["7 Declarações do DOC reproduzidas","feito"], ["Fp engine (Quadro 6)","feito"], ["preço legal Art. 128 (art128.py) no gate","feito"]] },
         { "nome": "Motor da Lei (conteúdo jurídico)", "calor": "hot", "prod": "38 leis indexadas (2.767 trechos, +36% hoje), fatiadas por dispositivo, com vigência e citação obrigatória. Grafo: 2.973 remissões (559 de redação-dada-por — vigência por dispositivo da lei-mãe 6.989/66). Zero lei pendente de verbatim.",
           "ent": [["as 12 municipais em verbatim (B-4)","feito"], ["Lei 6.989/66 compilada (328 arts)","feito"], ["Decreto 58.289/18 (TDC c/ doação)","feito"], ["captura oficial reusável (script)","feito"]] },
-        { "nome": "Motor Comercial (prospecção lado-vendedor)", "calor": "hot", "prod": "2.740 na prospecção; fila de verificação LIGADA à base enriquecida (PCpt/saldo/preço/vedação nas 926 linhas com cálculo). Regra da esquina (Decreto 57.536/16 Art. 3º IV) ativa.",
-          "ent": [["fila religada ao enriquecimento (provado)","feito"], ["regra da esquina","feito"]] }
+        { "nome": "Motor Comercial (prospecção lado-vendedor)", "calor": "hot", "prod": "2.740 na prospecção; 2.004 ACIONÁVEIS (negociável + preço legal). DOSSIÊ 1-página por imóvel (memória citada + preço Art. 128 + checklist due-diligence Art. 5º/129) + FUNIL de estágios + preço legal na lista/planilha (aba RESUMO). Regra da esquina (Decreto 57.536/16 Art. 3º IV) ativa.",
+          "ent": [["fila religada ao enriquecimento (provado)","feito"], ["regra da esquina","feito"], ["dossiê 1-página (gerar_dossie.py)","feito"], ["funil + RESUMO + preço na lista","feito"], ["make produto c/ trava de regressão","feito"]] }
       ]
     },
     {
