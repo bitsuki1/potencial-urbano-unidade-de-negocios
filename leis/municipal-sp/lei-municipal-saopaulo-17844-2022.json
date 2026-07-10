@@ -105,10 +105,11 @@
   },
   "status_pipeline": "indexado",
   "confianca_extracao": "alta",
-  "revisado_por_humano": false,
+  "revisado_por_humano": true,
   "dominio_primario": "tdc",
   "dominio": [
     "tdc"
   ],
-  "_correcao_metadados": "2026-07-10: dispositivos_chave e ementa corrigidos contra o verbatim (lente adversarial de fidelidade). Erros anteriores: Art.57 dizia 'Fi 1,4' (era FSCE 2,0), Art.1 atribuia a criacao da AIU-SCE (e do Art.2), Art.23 dizia '20% HIS' (sao perimetros de projetos), Art.22 omitia a doacao."
+  "_correcao_metadados": "2026-07-10: dispositivos_chave e ementa corrigidos contra o verbatim (lente adversarial de fidelidade). Erros anteriores: Art.57 dizia 'Fi 1,4' (era FSCE 2,0), Art.1 atribuia a criacao da AIU-SCE (e do Art.2), Art.23 dizia '20% HIS' (sao perimetros de projetos), Art.22 omitia a doacao.",
+  "_revisao": "Dono (MOU) deu 'de acordo' em 2026-07-10 após escrutínio de 3 lentes (fidelidade verbatim + prova numérica + escopo). Verbatim do Art. 57 (FSCE 2,0) confirmado fiel; metadados corrigidos; caveat de proveniência dos perímetros expandidos declarado."
 }
