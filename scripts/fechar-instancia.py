@@ -152,6 +152,13 @@ def check_fatores_tdc():
     return rc == 0, "inventário de fatores TDC (chunk real + eval gated) OK" if rc == 0 else f"fatores-tdc falhou (exit {rc})"
 
 
+def check_fase_b():
+    # Fase B (M5): a cadeia de titularidade (resolver_dono.py) resolve a PF controladora sobre o fixture
+    # sintético (PF direta · PJ→sócio · holding 2 níveis · conflito · documento ausente=PENDENTE). Sem PII.
+    rc, _ = _run(["evals/eval-fase-b.py"])
+    return rc == 0, "Fase B (cadeia de titularidade, fixture) OK" if rc == 0 else f"eval-fase-b falhou (exit {rc})"
+
+
 def check_engine_iptu():
     # IPTU aberto pelo dono em 2026-07-10 ("finalizarmos as duas frentes"): motor VV×alíquota
     # progressiva por porção (Lei 6.989/1966 arts. 7/8/27 + 7-A/8-A/28; Lei 10.235/1986; faixas
@@ -363,6 +370,7 @@ def main():
         ("EVAL SEMÂNTICO (B-5, híbrido ⊇ keyword)", check_eval_semantico),
         ("PRODUTO (golden Fi cedentes reais, T2)", check_produto),
         ("PRODUTO M1 (dossiê citado + funil de estágios)", check_produto_dossie),
+        ("FASE B (cadeia de titularidade, fixture sintético)", check_fase_b),
         ("FATORES TDC (inventário verificado: chunk+eval, M4)", check_fatores_tdc),
         ("ZONA-MUTAÇÃO (CAbás por zona, G6)", check_zona_mutacao),
         ("FSCE (Art.57 Lei 17.844 — Setor Central)", check_fsce),

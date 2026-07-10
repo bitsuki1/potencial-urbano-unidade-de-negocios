@@ -142,6 +142,12 @@ jobs:
           python3 zepec/gerar_dossie.py --autoteste
           python3 zepec/funil.py
 
+      # Fase B (donos em escala, M5) — GATE da cadeia de titularidade sobre FIXTURE SINTÉTICO (sem PII real,
+      # sem o dado pesado): PF direta · PJ→sócio · holding 2 níveis · conflito · documento ausente=PENDENTE.
+      # Fica verde SEM os 5,7 GB; quando o dado chegar, o mesmo eval vira trava de regressão.
+      - name: Fase B (cadeia de titularidade — fixture sintético)
+        run: python3 evals/eval-fase-b.py
+
       # T4 — GATE de conservação (Art. 129): Termo≠Atestado; RES.(tombamento)≠conservação.
       - name: Conservação (Art. 129, 3-estados — Termo→PENDENTE, RES→SEM_ATESTADO)
         run: python3 zepec/montar_base.py --autoteste
