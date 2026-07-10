@@ -1,0 +1,13 @@
+{
+  "versao": 1,
+  "data_confrontacao": "2026-07-05",
+  "metodo": "MCP Google Drive (só-leitura, sessão PU 18)",
+  "resultado": {
+    "total_indice": 1360,
+    "movidos_real": 0,
+    "status": "arrumacao_nunca_rodou",
+    "explicacao": "Confronto índice×Drive via MCP provou 0/1.360 movidos (arrumação nunca rodou). O índice-seed foi carimbado mas o Apps Script não executou."
+  },
+  "prova": "docs/INVENTARIO-DRIVE-VIVO-2026-07-05.md §4",
+  "nota": "Este arquivo é atualizado a cada confrontação real (via MCP Drive ou script). O gate-arrumacao.py lê a data e reprova se a confrontação tiver > 30 dias."
+}
