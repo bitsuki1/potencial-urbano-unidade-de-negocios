@@ -18,7 +18,7 @@
     "G2 FECHADO: 11 irresolvíveis (10 sem_lote + 1 Praça/Canteiro) resolvidos via PDE Art.14 §1º — CAbás=1. Total: 3693/3693 (100%).",
     "EVAL-04: rodar-evals.py agora pula status aguardando_engine (defensivo p/ gabarito IPTU VV).",
     "★ FSCE RESGATADO À PRODUÇÃO (motor Setor Central, Art.57 Lei 17.844/2022, ×2,0): pcpt.py ganha setor_central; reproduz EXATO 717,60/1468/1176/768 de 4 Declarações do Diário Oficial. RESOLVE o mistério Fi≈2,4. Gate 23 checks (+FSCE). 25 gabaritos TDC reais + eval-formula-zepec + eval-zona-cabas resgatados de branch órfã.",
-    "Consolidação de órfãos: 8 branches remotas processadas — 5 100%-superadas (deletadas), 2 cherry-pick de arquivos novos (FSCE + doc encerramento), 1 branch de trabalho reiniciada da main pós-merge do #29.",
+    "Consolidação de órfãos: 8 branches remotas processadas (conteúdo 100% na produção) — 5 100%-superadas, 2 cherry-pick de arquivos novos (FSCE + doc encerramento), 1 reiniciada da main pós-merge do #29. Deleção dos 7 refs pendente do dono (push-delete deu 403; token da sessão não deleta refs).",
     "PENDENTE (dono/dados): ativar FSCE no pipeline exige a coluna na_aiu_sce (pertinência à AIU-SCE por cedente, overlay do perímetro Setor Central); política de CI 'linter só no push' (D168) — decisão do dono."
   ],
   "projetos": [
