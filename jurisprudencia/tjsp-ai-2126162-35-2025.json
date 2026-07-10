@@ -20,10 +20,11 @@
   "fonte": {
     "origem": "web-oficial-extensao",
     "url": "TJSP / e-SAJ — Agravo de Instrumento 2126162-35.2025.8.26.0000 (registro 2025.0000897356)",
-    "hash": "sha256:2f110e5d224419674fed71bc02e554a460cbd3ff257077e0da10012f57a140e1",
+    "hash": "sha256:947d1906e6c52c969c3f4029fc00d612f980fa702aaa26c338026d8fa88b5897",
     "captura_verbatim": "jurisprudencia/_capturas/tjsp-ai-2126162-35-2025.txt",
     "hash_alvo": "jurisprudencia/tjsp-ai-2126162-35-2025.md",
-    "hash_md": "sha256:947d1906e6c52c969c3f4029fc00d612f980fa702aaa26c338026d8fa88b5897"
+    "hash_captura": "sha256:2f110e5d224419674fed71bc02e554a460cbd3ff257077e0da10012f57a140e1",
+    "hash_nota": "hash da transcricao do corpus (.md); hash_captura = do inteiro teor bruto em _capturas/"
   },
   "status_pipeline": "tagueado",
   "confianca_extracao": "alta",

@@ -1,6 +1,6 @@
 {
   "_doc": "Fonte da verdade do status_pipeline de cada item. GERADO por scripts/consolidar.py a partir dos .json individuais — NAO editar a mao (Principio 1.5/2.3 do CLAUDE.md). Roda a cada push via .github/workflows/consolidar.yml.",
-  "gerado_em": "2026-07-10T23:23:37.972803+00:00",
+  "gerado_em": "2026-07-10T23:24:15.895451+00:00",
   "vocabulario_status": [
     "bruto",
     "fatiado",
@@ -40,9 +40,7 @@
     "indexado_verbatim_sem_vigencia_datada": [],
     "_nota_vigencia": "B-7 (1.6): leis verbatim/indexadas que ainda nao tem vigencia.inicio datada. Gap declarado (nao bloqueia o gate) — a datacao das 13 municipais bruto depende do verbatim do Drive (B-4).",
     "fonte_hash_nulo": [],
-    "fonte_hash_divergente": [
-      "tjsp-ai-2126162-35-2025 (jurisprudencia/tjsp-ai-2126162-35-2025.md)"
-    ],
+    "fonte_hash_divergente": [],
     "_nota_hash": "AUD-A10: Gate 1 'hash confere' (Parte 3) — fonte.hash recomputado do fonte.hash_alvo a cada consolidacao; nulo/divergente = consolidar sai 1 (gate VERMELHO). Backfill: scripts/backfill_hash.py."
   },
   "artefatos_nao_corpus": {
