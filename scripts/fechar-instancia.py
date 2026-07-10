@@ -109,6 +109,12 @@ def check_engine():
     return rc == 0, "engine OODC/TDC auto-teste OK" if rc == 0 else f"engine quebrou (exit {rc})"
 
 
+def check_art117():
+    # Reconciliação Art. 117: contrapartida C=(At/Ac)×V×Fs×Fp verbatim + identidade com a fórmula legada.
+    rc, _ = _run(["evals/eval-art117.py"])
+    return rc == 0, "contrapartida Art. 117 (verbatim + reconciliação) OK" if rc == 0 else f"eval-art117 falhou (exit {rc})"
+
+
 def check_engine_fp():
     rc, _ = _run(["engines/tdc/fp.py"])
     return rc == 0, "engine Fp (Quadro 6) auto-teste OK" if rc == 0 else f"Fp quebrou (exit {rc})"
@@ -347,6 +353,7 @@ def main():
         ("ORÁCULO AUSENTE (engines/tdc/oraculos/, T6)", check_oraculos_ausente),
         ("EVALS (citação correta, 1.7)", check_evals),
         ("ENGINE (número no engine, 1.3)", check_engine),
+        ("ART. 117 (contrapartida verbatim + reconciliação oodc)", check_art117),
         ("ENGINE Fp (Quadro 6, Fator de Planejamento)", check_engine_fp),
         ("ENGINE CEDENTE (Fi Art.24, T2)", check_engine_cedente),
         ("ENGINE PREÇO LEGAL (Art. 128 — numerador + ÷CAmaxcd + IPCA)", check_engine_art128),

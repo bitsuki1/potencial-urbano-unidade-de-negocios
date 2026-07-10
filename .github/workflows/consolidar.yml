@@ -86,6 +86,12 @@ jobs:
       - name: Engine OODC/TDC (auto-teste das fórmulas)
         run: python3 engines/tdc/oodc.py
 
+      # Reconciliação Art. 117 (2026-07-10): a contrapartida C = (At/Ac)×V×Fs×Fp reproduz o VERBATIM e
+      # bate a fórmula legada (§1º total) quando Ac = CA_max×At — a "vacina" que dizia o Art. 117 sem fonte
+      # está superada pelo texto indexado. Mutação-sensível.
+      - name: Contrapartida Art. 117 (verbatim + reconciliação com a legada)
+        run: python3 evals/eval-art117.py
+
       # GATE do Fp (Fator de Planejamento, Quadro 6 PDE): auto-teste do lookup por macroárea/subárea/uso.
       - name: Engine Fp Quadro 6 (auto-teste do Fator de Planejamento)
         run: python3 engines/tdc/fp.py
