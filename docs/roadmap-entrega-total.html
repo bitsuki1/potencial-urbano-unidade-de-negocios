@@ -1,0 +1,276 @@
+<style>
+  :root{
+    --bg:#e7ecea; --grid:#d3dcd8; --surface:#f6f9f7; --surface-2:#eef3f1;
+    --ink:#16211f; --ink-soft:#4c5b57; --ink-faint:#75837e; --line:#ccd6d2;
+    --teal:#0f6e68; --teal-deep:#0a4a46; --amber:#a9631a; --amber-deep:#8a4f12;
+    --good:#2f7d5f; --slate:#5f6f79;
+    --teal-tint:rgba(15,110,104,.12); --amber-tint:rgba(169,99,26,.14);
+    --good-tint:rgba(47,125,95,.14); --slate-tint:rgba(95,111,121,.14);
+    --shadow:0 1px 2px rgba(20,33,31,.05),0 8px 24px rgba(20,33,31,.06);
+    --mono:ui-monospace,"SF Mono","Cascadia Code","Roboto Mono",Menlo,Consolas,monospace;
+    --sans:-apple-system,"Segoe UI",system-ui,Roboto,"Helvetica Neue",sans-serif;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{
+      --bg:#0d1413; --grid:#1a2523; --surface:#131d1b; --surface-2:#0f1816;
+      --ink:#e7edea; --ink-soft:#9fb1ac; --ink-faint:#75857f; --line:#26332f;
+      --teal:#41b8ad; --teal-deep:#7fd4cb; --amber:#d99a4e; --amber-deep:#eab778;
+      --good:#5aa983; --slate:#8595a0;
+      --teal-tint:rgba(65,184,173,.14); --amber-tint:rgba(217,154,78,.15);
+      --good-tint:rgba(90,169,131,.15); --slate-tint:rgba(133,149,160,.15);
+      --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px rgba(0,0,0,.35);
+    }
+  }
+  :root[data-theme="light"]{
+    --bg:#e7ecea; --grid:#d3dcd8; --surface:#f6f9f7; --surface-2:#eef3f1;
+    --ink:#16211f; --ink-soft:#4c5b57; --ink-faint:#75837e; --line:#ccd6d2;
+    --teal:#0f6e68; --teal-deep:#0a4a46; --amber:#a9631a; --amber-deep:#8a4f12;
+    --good:#2f7d5f; --slate:#5f6f79;
+    --teal-tint:rgba(15,110,104,.12); --amber-tint:rgba(169,99,26,.14);
+    --good-tint:rgba(47,125,95,.14); --slate-tint:rgba(95,111,121,.14);
+    --shadow:0 1px 2px rgba(20,33,31,.05),0 8px 24px rgba(20,33,31,.06);
+  }
+  :root[data-theme="dark"]{
+    --bg:#0d1413; --grid:#1a2523; --surface:#131d1b; --surface-2:#0f1816;
+    --ink:#e7edea; --ink-soft:#9fb1ac; --ink-faint:#75857f; --line:#26332f;
+    --teal:#41b8ad; --teal-deep:#7fd4cb; --amber:#d99a4e; --amber-deep:#eab778;
+    --good:#5aa983; --slate:#8595a0;
+    --teal-tint:rgba(65,184,173,.14); --amber-tint:rgba(217,154,78,.15);
+    --good-tint:rgba(90,169,131,.15); --slate-tint:rgba(133,149,160,.15);
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px rgba(0,0,0,.35);
+  }
+
+  *{box-sizing:border-box}
+  .page{
+    font-family:var(--sans); color:var(--ink); background:var(--bg);
+    background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);
+    background-size:30px 30px; background-position:-1px -1px;
+    -webkit-font-smoothing:antialiased; line-height:1.5;
+    padding:clamp(20px,5vw,64px) clamp(16px,5vw,48px); min-height:100%;
+  }
+  .wrap{max-width:1060px; margin:0 auto}
+
+  /* masthead */
+  .masthead{border-top:2px solid var(--ink); padding-top:18px; margin-bottom:38px}
+  .eyebrow{font-family:var(--mono); font-size:12px; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--teal); display:flex; align-items:center; gap:10px; flex-wrap:wrap}
+  .eyebrow::before{content:"▚"; color:var(--amber)}
+  h1{font-family:var(--sans); font-weight:800; letter-spacing:-.02em; text-wrap:balance;
+    font-size:clamp(30px,5.4vw,50px); line-height:1.04; margin:14px 0 0}
+  .lede{font-size:clamp(15px,2vw,18px); color:var(--ink-soft); max-width:64ch; margin:16px 0 0}
+  .lede b{color:var(--ink); font-weight:650}
+  .stamp{font-family:var(--mono); font-size:11.5px; color:var(--ink-faint); margin-top:16px;
+    letter-spacing:.03em; padding-top:12px; border-top:1px solid var(--line)}
+
+  /* tiles */
+  .tiles{display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin-bottom:34px}
+  @media(max-width:720px){.tiles{grid-template-columns:repeat(2,1fr)}}
+  .tile{background:var(--surface); border:1px solid var(--line); border-radius:4px;
+    padding:16px 16px 14px; box-shadow:var(--shadow)}
+  .tile .num{font-family:var(--mono); font-weight:700; font-size:clamp(24px,3.4vw,32px);
+    letter-spacing:-.02em; color:var(--ink); font-variant-numeric:tabular-nums; line-height:1}
+  .tile .num .u{font-size:.5em; color:var(--teal); font-weight:600}
+  .tile .cap{font-size:12.5px; color:var(--ink-soft); margin-top:8px; line-height:1.35}
+  .tile.ok .num{color:var(--good)}
+
+  /* legend */
+  .legend{display:flex; gap:20px; flex-wrap:wrap; align-items:center;
+    font-family:var(--mono); font-size:12px; color:var(--ink-soft);
+    padding:12px 16px; background:var(--surface-2); border:1px solid var(--line);
+    border-radius:4px; margin-bottom:30px}
+  .legend .k{display:inline-flex; align-items:center; gap:8px}
+  .dot{width:11px; height:11px; border-radius:2px; flex:none}
+  .dot.teal{background:var(--teal)} .dot.amber{background:var(--amber)}
+
+  /* tracks */
+  .track{margin:0 0 30px}
+  .track-head{display:flex; align-items:baseline; gap:12px; flex-wrap:wrap;
+    padding-bottom:10px; margin-bottom:18px; border-bottom:2px solid var(--thc,var(--line))}
+  .track--you{--thc:var(--amber)} .track--me{--thc:var(--teal)}
+  .track-head .lab{font-family:var(--sans); font-weight:750; font-size:clamp(18px,2.6vw,23px);
+    letter-spacing:-.01em; color:var(--ink)}
+  .track-head .lab .accent{color:var(--thc)}
+  .track-head .meta{font-family:var(--mono); font-size:12px; color:var(--ink-faint);
+    letter-spacing:.03em; margin-left:auto}
+
+  .group{margin-bottom:22px}
+  .group-h{font-family:var(--mono); font-size:11.5px; text-transform:uppercase; letter-spacing:.11em;
+    color:var(--ink-faint); display:flex; align-items:center; gap:10px; margin:0 0 10px}
+  .group-h::after{content:""; height:1px; background:var(--line); flex:1}
+
+  .items{display:grid; gap:8px}
+  .item{display:grid; grid-template-columns:44px 1fr auto; gap:14px; align-items:start;
+    background:var(--surface); border:1px solid var(--line); border-radius:4px;
+    padding:13px 15px; box-shadow:var(--shadow)}
+  @media(max-width:560px){
+    .item{grid-template-columns:36px 1fr; gap:10px}
+    .item .chip{grid-column:2; justify-self:start; margin-top:2px}
+  }
+  .tag{font-family:var(--mono); font-size:11px; font-weight:600; letter-spacing:.02em;
+    color:var(--ink-soft); background:var(--surface-2); border:1px solid var(--line);
+    border-radius:3px; padding:3px 0; text-align:center; margin-top:1px}
+  .item-title{font-weight:640; font-size:15px; color:var(--ink); letter-spacing:-.005em}
+  .item-desc{font-size:13.5px; color:var(--ink-soft); margin-top:3px; max-width:70ch}
+  .item-desc code{font-family:var(--mono); font-size:.92em; background:var(--surface-2);
+    padding:1px 5px; border-radius:3px; color:var(--ink-soft); border:1px solid var(--line)}
+
+  .chip{font-family:var(--mono); font-size:10.5px; font-weight:600; letter-spacing:.05em;
+    text-transform:uppercase; padding:4px 9px; border-radius:3px; white-space:nowrap; align-self:center}
+  .chip--decisao{background:var(--amber-tint); color:var(--amber-deep); border:1px solid var(--amber)}
+  .chip--dado{background:var(--slate-tint); color:var(--slate); border:1px solid var(--slate)}
+  .chip--clique{background:var(--amber-tint); color:var(--amber-deep); border:1px dashed var(--amber)}
+  .chip--pesado{background:var(--slate-tint); color:var(--slate); border:1px solid var(--slate)}
+  .chip--eu{background:var(--teal-tint); color:var(--teal-deep); border:1px solid var(--teal)}
+  .chip--done{background:var(--good-tint); color:var(--good); border:1px solid var(--good)}
+  :root[data-theme="dark"] .chip--decisao,:root[data-theme="dark"] .chip--clique{color:var(--amber-deep)}
+  :root[data-theme="dark"] .chip--eu{color:var(--teal-deep)}
+  @media (prefers-color-scheme:dark){
+    .chip--decisao,.chip--clique{color:var(--amber-deep)} .chip--eu{color:var(--teal-deep)}
+  }
+
+  /* endstate */
+  .endstate{background:var(--surface); border:1px solid var(--line); border-left:3px solid var(--teal);
+    border-radius:4px; padding:clamp(20px,3vw,30px); margin:34px 0 26px; box-shadow:var(--shadow)}
+  .endstate .k{font-family:var(--mono); font-size:11.5px; text-transform:uppercase; letter-spacing:.12em;
+    color:var(--teal); margin-bottom:12px}
+  .endstate p{font-family:var(--serif); font-size:clamp(16px,2.2vw,20px); line-height:1.55;
+    color:var(--ink); margin:0; max-width:66ch}
+  .endstate p b{color:var(--teal-deep); font-weight:600}
+  @media (prefers-color-scheme:dark){.endstate p b{color:var(--teal-deep)}}
+
+  /* corrections */
+  .corrections{border-top:1px solid var(--line); padding-top:18px; margin-top:8px}
+  .corrections .k{font-family:var(--mono); font-size:11px; text-transform:uppercase; letter-spacing:.1em;
+    color:var(--ink-faint); margin-bottom:10px}
+  .corrections ul{margin:0; padding:0; list-style:none; display:grid; gap:7px}
+  .corrections li{font-size:13px; color:var(--ink-soft); padding-left:20px; position:relative; max-width:82ch}
+  .corrections li::before{content:"✓"; position:absolute; left:0; color:var(--good); font-weight:700}
+  .corrections b{color:var(--ink); font-weight:620}
+  .foot{font-family:var(--mono); font-size:11px; color:var(--ink-faint); margin-top:26px;
+    text-align:center; letter-spacing:.03em}
+</style>
+
+<div class="page">
+ <div class="wrap">
+  <header class="masthead">
+    <div class="eyebrow">Potencial Urbano · Unidade RAG Jurídico TDC / IPTU</div>
+    <h1>Roadmap até a entrega total</h1>
+    <p class="lede">O <b>motor</b> está pronto e no verde. O que falta daqui até o produto na mão do cliente é, na maior parte, <b>produto</b> (eu monto sozinho) e <b>dados &amp; decisões</b> (dependem de você). Esta é a lista inteira — nada escondido.</p>
+    <div class="stamp">Levantado por 2 lentes sobre BACKLOG · ROADMAP-PU · caixas do escritório — São Paulo, 10/07/2026</div>
+  </header>
+
+  <section class="tiles" aria-label="Onde estamos hoje">
+    <div class="tile ok"><div class="num">38</div><div class="cap">leis em verbatim, com citação — <b>zero</b> pendente de captura</div></div>
+    <div class="tile ok"><div class="num">27<span class="u">/27</span></div><div class="cap">verificações no portão — todas <b>verdes</b></div></div>
+    <div class="tile"><div class="num">3.334</div><div class="cap">cedentes com <b>preço legal</b> (Art. 128) calculado e provado</div></div>
+    <div class="tile"><div class="num">5</div><div class="cap">motores provados: Lei · Mapa · Fórmulas · IPTU · Preço</div></div>
+  </section>
+
+  <div class="legend">
+    <span class="k"><span class="dot teal"></span> <b>EU FAÇO</b> — a instância resolve sozinha, sem você</span>
+    <span class="k"><span class="dot amber"></span> <b>DEPENDE DE VOCÊ</b> — um clique, uma decisão ou um dado</span>
+  </div>
+
+  <!-- ============ DEPENDE DE VOCÊ ============ -->
+  <section class="track track--you">
+    <div class="track-head">
+      <span class="lab">O que <span class="accent">depende de você</span></span>
+      <span class="meta">sua lista de ação · 15 itens</span>
+    </div>
+
+    <div class="group">
+      <h3 class="group-h">Decisões rápidas (só um "vai")</h3>
+      <div class="items">
+        <div class="item"><span class="tag">preço</span><div class="item-body"><div class="item-title">Despausar o preço legal no produto</div><div class="item-desc">O motor do Art. 128 está pronto e travado. Falta seu "vai" para ele entrar na lista/dossiê do cliente.</div></div><span class="chip chip--decisao">decisão</span></div>
+        <div class="item"><span class="tag">RAG</span><div class="item-body"><div class="item-title">Busca por significado (embeddings)</div><div class="item-desc">A camada já está montada e provada offline no portão; falta você escolher o provedor (usar a chave que já existe ou modelo local) para ligá-la ao vivo.</div></div><span class="chip chip--decisao">decisão</span></div>
+        <div class="item"><span class="tag">selo</span><div class="item-body"><div class="item-title">Conferir 1 lei-âncora (selo humano)</div><div class="item-desc">Nenhuma lei tem ainda o selo <code>revisado_por_humano</code>. Você conferir o Decreto 57.536/2016 contra a fonte fecha a cadeia de credibilidade.</div></div><span class="chip chip--decisao">decisão</span></div>
+        <div class="item"><span class="tag">CI</span><div class="item-body"><div class="item-title">Política do verificador (D168)</div><div class="item-desc">Rodar o linter só no push (economiza cota do GitHub Actions) — sua palavra.</div></div><span class="chip chip--decisao">decisão</span></div>
+      </div>
+    </div>
+
+    <div class="group">
+      <h3 class="group-h">Dados a capturar (as lentes / a extensão ajudam)</h3>
+      <div class="items">
+        <div class="item"><span class="tag">IPTU</span><div class="item-body"><div class="item-title">Valor venal pleno — tabelas do exercício</div><div class="item-desc">Faltam PGV por codlog + ano de construção + faixas do exercício 2026 (Prefeitura). Destrava o produto IPTU e tira o gabarito do estado <code>aguardando_pgv</code>.</div></div><span class="chip chip--dado">captura</span></div>
+        <div class="item"><span class="tag">juris</span><div class="item-body"><div class="item-title">Jurisprudência de TDC (acórdãos)</div><div class="item-desc">O corpus é cego em jurisprudência (0/32). ≥8 acórdãos (STF/STJ/TJSP) em verbatim — os sites <code>.gov.br</code> bloqueiam o robô; a extensão web pega.</div></div><span class="chip chip--dado">captura</span></div>
+        <div class="item"><span class="tag">FSCE</span><div class="item-body"><div class="item-title">Re-coletar os 71 lotes do Setor Central</div><div class="item-desc">Fecha a pertinência à AIU-SCE em 377/377 (hoje 306). É re-rodar a coleta do GeoSampa noutra janela — 1 clique.</div></div><span class="chip chip--clique">1 clique</span></div>
+        <div class="item"><span class="tag">fila</span><div class="item-body"><div class="item-title">Geolocalizar os 63 sem-SQL</div><div class="item-desc">Cruzar contra o IPTU_2026 completo (no Storage) para fechar a fila de prospecção.</div></div><span class="chip chip--dado">dado</span></div>
+        <div class="item"><span class="tag">IPCA</span><div class="item-body"><div class="item-title">Série do IPCA para o §2º</div><div class="item-desc">Você buscou no IBGE e <b>eu já integrei hoje</b> — a correção dos 605 já-declarados está funcionando e provada.</div></div><span class="chip chip--done">feito hoje</span></div>
+        <div class="item"><span class="tag">M&amp;C</span><div class="item-body"><div class="item-title">Semântica do FUNDURB (fonte SMUL)</div><div class="item-desc">Confirmar teto/somatória na fonte. Prioridade baixa — o lado comprador está fora de escopo (D-DONO-15).</div></div><span class="chip chip--dado">dado</span></div>
+      </div>
+    </div>
+
+    <div class="group">
+      <h3 class="group-h">Espinha espacial — geometria fina (precisa dos shapefiles de lote, no Drive)</h3>
+      <div class="items">
+        <div class="item"><span class="tag">M3</span><div class="item-body"><div class="item-title">Overlay por área + esquina + vedação por coordenada</div><div class="item-desc">O código já está refeito; falta o teste com os shapefiles reais de lote (G1), distinguir esquina×interior por coordenada (G4) e o "ponto-em-AUE" para ~28 vedados (T8).</div></div><span class="chip chip--dado">dado + infra</span></div>
+      </div>
+    </div>
+
+    <div class="group">
+      <h3 class="group-h">Cliques de higiene (1 clique cada)</h3>
+      <div class="items">
+        <div class="item"><span class="tag">Drive</span><div class="item-body"><div class="item-title">Esvaziar a quarentena do Drive</div><div class="item-desc">Rodar o script de lixeira já preparado libera ~41,5 GB (2.082 duplicatas).</div></div><span class="chip chip--clique">1 clique</span></div>
+        <div class="item"><span class="tag">infra</span><div class="item-body"><div class="item-title">Fechar a porta da API (Supabase)</div><div class="item-desc">Remover <code>public</code> dos schemas expostos — é clique de painel, não sai por comando. Higiene de segurança.</div></div><span class="chip chip--clique">1 clique</span></div>
+        <div class="item"><span class="tag">infra</span><div class="item-body"><div class="item-title">Apagar a função <code>pu-iptu-extract</code></div><div class="item-desc">Já neutralizada; falta o clique para removê-la de vez.</div></div><span class="chip chip--clique">1 clique</span></div>
+      </div>
+    </div>
+
+    <div class="group">
+      <h3 class="group-h">Dono em escala (o gargalo dos 599)</h3>
+      <div class="items">
+        <div class="item"><span class="tag">M5</span><div class="item-body"><div class="item-title">Descobrir o proprietário dos imóveis prontos</div><div class="item-desc">Carregar sócios/empresas/holdings (dados pesados) sob o portão de segurança leva a identificação de <b>19 → centenas</b>. Depende de dado pesado + infra.</div></div><span class="chip chip--pesado">dado pesado</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EU FAÇO SOZINHO ============ -->
+  <section class="track track--me">
+    <div class="track-head">
+      <span class="lab">O que <span class="accent">eu faço sozinho</span></span>
+      <span class="meta">sem depender de você · 8 itens</span>
+    </div>
+
+    <div class="group">
+      <h3 class="group-h">Produto — a ferramenta pronta ao cliente (Marco M1)</h3>
+      <div class="items">
+        <div class="item"><span class="tag">M1</span><div class="item-body"><div class="item-title">Dossiê de 1 página por imóvel</div><div class="item-desc">Memória de cálculo citada ao artigo, potencial à-vista × parcelado (Art. 124 §3º) e checklist de conservação (Art. 129).</div></div><span class="chip chip--eu">eu faço</span></div>
+        <div class="item"><span class="tag">M1</span><div class="item-body"><div class="item-title">Funil + aba RESUMO no Excel</div><div class="item-desc">O funil como manchete: elegíveis → com SQL → com preço → prontos → acionáveis.</div></div><span class="chip chip--eu">eu faço</span></div>
+        <div class="item"><span class="tag">M1</span><div class="item-body"><div class="item-title">Checklist de due-diligence do vendedor</div><div class="item-desc">GDA, DPC (5 anos), CADIN — do lado cedente (hoje só há gatilhos do lado comprador).</div></div><span class="chip chip--eu">eu faço</span></div>
+        <div class="item"><span class="tag">M1</span><div class="item-body"><div class="item-title"><code>make produto</code> reprodutível do zero</div><div class="item-desc">A lista inteira se reconstrói com contagens de regressão como trava.</div></div><span class="chip chip--eu">eu faço</span></div>
+      </div>
+    </div>
+
+    <div class="group">
+      <h3 class="group-h">Corpus &amp; RAG — endurecimento (Marco M4)</h3>
+      <div class="items">
+        <div class="item"><span class="tag">M4</span><div class="item-body"><div class="item-title">Os 47 fatores de TDC versionados</div><div class="item-desc"><code>fatores-tdc.csv</code> + trava de CI que falha se um fator for dado como "verificado" sem eval/trecho da lei.</div></div><span class="chip chip--eu">eu faço</span></div>
+        <div class="item"><span class="tag">M4</span><div class="item-body"><div class="item-title">Vigência por trecho (redação datada)</div><div class="item-desc">Marcar §§/incisos revogados dentro de artigo vigente; exigir o Fi da certidão para o grupo já-declarado (Art. 25 reescrito pela 18.081/2024).</div></div><span class="chip chip--eu">eu faço</span></div>
+        <div class="item"><span class="tag">M4</span><div class="item-body"><div class="item-title">Política: nenhuma lei sem ≥2 provas</div><div class="item-desc">Trava mecânica que impede indexar lei sem os próprios evals de citação.</div></div><span class="chip chip--eu">eu faço</span></div>
+        <div class="item"><span class="tag">motor</span><div class="item-body"><div class="item-title">Reconciliar <code>oodc.py</code> × Art. 117</div><div class="item-desc">Aposentar a fórmula antiga (herança de oráculo) que contraria o texto do Art. 117. <b>Não</b> toca o preço do vendedor — é limpeza do lado comprador.</div></div><span class="chip chip--eu">eu faço</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ENTREGA TOTAL ============ -->
+  <section class="endstate">
+    <div class="k">O que é "entrega total"</div>
+    <p>O projeto está pronto para o cliente quando a <b>ferramenta de vendedores</b> entrega, por imóvel, um dossiê acionável com o <b>preço legal</b> e a memória de cálculo citada ao dispositivo; quando a <b>espinha espacial</b> cobre ~70%+ dos lotes com overlay reprodutível; quando o <b>RAG</b> cobre em verbatim toda lei que o motor usa — cada linha contestável e defensável em cartório; e quando a <b>identificação do dono</b> sai de 19 para centenas. Hoje o motor já está provado e verde: o que falta é, sobretudo, montar o produto e trazer os dados.</p>
+  </section>
+
+  <!-- ============ CORREÇÕES DE REGISTRO ============ -->
+  <aside class="corrections">
+    <div class="k">Correções de registro — coisas que os documentos ainda diziam "abertas", mas já estão fechadas</div>
+    <ul>
+      <li><b>Branches órfãs:</b> os docs diziam "5 vivas", mas o servidor já as apagou (9 branches) — <b>alinhei os registros</b>.</li>
+      <li><b>Runner "brasil":</b> resolvido — a coleta vive e roda no hub de ferramentas.</li>
+      <li><b>Dados pessoais no histórico:</b> encerrado por sua decisão (repo privado, uso único).</li>
+      <li><b>Canonicidade do banco (Supabase):</b> a crise aguda foi resolvida localmente; sobra só reconciliação fora do caminho crítico.</li>
+      <li><b>Captura das leis (portal oficial):</b> fechada — 38 leis em verbatim, zero pendente.</li>
+      <li><b>Caixa do escritório:</b> nada pendente (tudo já processado).</li>
+    </ul>
+    <div class="foot">Potencial Urbano · unidade do portfólio do MOU · preço é dado de engine, a margem é sua (D-DONO-7)</div>
+  </aside>
+ </div>
+</div>
