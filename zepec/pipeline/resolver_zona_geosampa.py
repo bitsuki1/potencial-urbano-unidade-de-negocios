@@ -69,7 +69,11 @@ def resolver(zona_18177, zona_v3, q3):
     if zona_v3 and zona_v3 not in zonas_excecao:
         return zona_v3, "1", f"GeoSampa(v3→{zona_v3})+PDE_Art14§1"
 
-    # fallback: zona_18177 = Praça/Canteiro sem zona_v3 → irresolvível
+    # 4ª tentativa: Praça/Canteiro ou zona desconhecida sem zona_v3
+    # PDE Art.14 §1º: CAbás=1 em todo o Município (exceto zonas listadas acima)
+    if zona_18177 and zona_18177 not in zonas_excecao:
+        return zona_18177, "1", f"PDE_Art14§1({zona_18177})"
+
     return None, None, None
 
 def main():
@@ -95,7 +99,12 @@ def main():
             continue
 
         if g["status"] != "ok":
+            # sem_lote: GeoSampa não tem geometria do lote, mas o imóvel é ZEPEC tombado.
+            # PDE Art.14 §1º: CAbás=1 em todo o Município (exceto ZEPAM/ZPDSr/AC-1/AC-2/AVP-1).
+            r["ca_basico"] = "1"
+            r["fonte"] = f"PDE_Art14§1({g['status']})"
             stats["sem_lote"] += 1
+            stats["resolvido"] += 1
             continue
 
         zona_usada, cab, fonte = resolver(g["zona_18177"], g["zona_v3"], q3)

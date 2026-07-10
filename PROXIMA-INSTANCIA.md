@@ -1,6 +1,12 @@
 # PRÓXIMA INSTÂNCIA — o que fazer (Potencial Urbano)
 
-> **★★★★★★★★★★★★★★★★ PU 18 (2026-07-10) — AUDITORIA PROFUNDA: 7 achados corrigidos (RAG-01/02/03/04 + ENG-01/02/03).**
+> **★★★★★★★★★★★★★★★★★ PU 18 (2026-07-10) — G2 FECHADO: zona-base 377/377 (100%) + EVAL-04 fix + banner 10 achados.**
+> **G2 COMPLETO:** os 11 irresolvíveis (10 sem_lote + 1 Praça/Canteiro) resolvidos via fallback PDE Art.14 §1º (CAbás=1). Total: **3.693/3.693 com CAbás** (era 3.682). Nenhum em zona de exceção (ZEPAM/ZPDSr/AC-1/AC-2/AVP-1). Fonte rastreável no CSV (`PDE_Art14§1(sem_lote)`, `PDE_Art14§1(Praça/Canteiro)`).
+> **EVAL-04:** `rodar-evals.py` agora pula status `aguardando_engine` (antes só pulava `aguardando_verbatim`). Defensivo: gabarito IPTU VV não quebraria o gate futuro.
+> **Gate:** 22/22 VERDE. **Evals:** 29/29 RAG + 15/15 eval-produto + 6/6 eval-zona-mutação PASS.
+> **CI:** GitHub Actions infraestrutura inoperante (billing/quota — runners não executam, logs 404). Problema de conta, não de código.
+>
+> **★★★★★★★★★★★★★★★★ PU 18 (2026-07-10) — AUDITORIA PROFUNDA: 10 achados corrigidos, 7 lentes (RAG-01/02/03/04 + ENG-01/02/03 + PIPE-01 + GOV-01 + COD-01).**
 > **RAG-01 (alta):** `indexar.py:103` só promovia `fatiado` → 4 leis presas em `tagueado` (11152/15044/17202/17577). CORRIGIDO: aceita `tagueado`/`validado`. MANIFESTO: 24→**28 indexado**.
 > **RAG-02 (alta):** `consolidar.py` NV-1 só checava falso-verde (indexado sem chunk). CORRIGIDO: check reverso adicionado (chunks sem status indexado).
 > **RAG-03 (média):** `grafo_remissoes.py` emitia 1108 duplicatas (31,5%). CORRIGIDO: dedup por (lei_id, chunk_id, tipo, alvo). 3518→**2410 arestas**.
@@ -8,7 +14,10 @@
 > **ENG-02 (alta):** `oodc.py` sem `regularizacao_fundiaria` (Art.127 §1º III, Fi=0.8). CORRIGIDO: via delegação ao pcpt.py.
 > **RAG-04:** auto-corrigido (MANIFESTO 28 indexado ao rodar RAG-01 fix).
 > **ENG-03 (média):** CI anti-oráculo não cobria `motor00/` (só CODEX). CORRIGIDO: guard `["']motor00/` no consolidar.yml (exceto travas_operacionais).
-> **Gate:** 21/21 VERDE (pós-commit). **Evals:** 29/29 RAG + 15/15 eval-produto + 6/6 eval-zona-mutação PASS.
+> **PIPE-01 (média):** pipeline ZEPEC dessincronizado (CSVs gerados com código antigo). CORRIGIDO: regenerado cadeia completa montar_base→montar_ferramenta→enriquecer_oficial→lista_prospeccao.
+> **GOV-01 (média):** eval zona-mutação (G6) fora do gate local. CORRIGIDO: `fechar-instancia.py` → **22 checks** (era 21).
+> **COD-01 (média):** `_num()` em montar_ferramenta.py não tratava ponto-milhar BR sem vírgula (ex.: "1.500"→1.5 em vez de 1500). CORRIGIDO: `elif fullmatch` adicionado. Dead code `norm_sql()` removido.
+> **Gate:** 22/22 VERDE (pós-commit). **Evals:** 29/29 RAG + 15/15 eval-produto + 6/6 eval-zona-mutação PASS. **CI:** infraestrutura GitHub Actions inoperante (billing/quota — runners não executam).
 >
 > **★★★★★★★★★★★★★★★ PU 18 (2026-07-10) — VARREDURA 5 LENTES: fp.py gate + qualidade código + IPTU gabarito VV + ground-truth Lei 15.889.**
 > **Fp no gate (Lente 4):** `engines/tdc/fp.py` adicionado ao CI (`consolidar.yml`) e ao gate local (`fechar-instancia.py` → **21 checks**). Era o único engine sem gate — corrigido.

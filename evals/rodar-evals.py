@@ -83,8 +83,9 @@ def main():
     falhas_ativas = itens_ativos = 0
     for arq in arquivos:
         gt = json.loads(arq.read_text(encoding="utf-8"))
-        aguardando = gt.get("status") == "aguardando_verbatim"
-        marca = "  [AGUARDANDO VERBATIM — não bloqueia build]" if aguardando else ""
+        _status = gt.get("status", "")
+        aguardando = _status in ("aguardando_verbatim", "aguardando_engine")
+        marca = f"  [AGUARDANDO ({_status}) — não bloqueia build]" if aguardando else ""
         print(f"\n=== {arq.name} (domínio {gt.get('dominio','?')}){marca} ===")
         for item in gt.get("itens", []):
             total += 1

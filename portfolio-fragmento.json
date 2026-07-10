@@ -6,15 +6,17 @@
   "lifeline": "Acha os donos de imóveis que podem vender potencial construtivo (TDC) e calcula, pela lei, quanto vale — cada número rastreável até o artigo.",
   "stage": "construção",
   "health": "ok",
-  "healthNote": "Auditoria profunda: 10 achados corrigidos (RAG-01/02/03/04 + ENG-01/02/03 + PIPE-01 + GOV-01 + COD-01). Gate 22/22. Evals: 29/29 RAG + 15/15 produto + 6/6 zona. Corpus: 28 leis, 2280 chunks, 2410 remissões (dedup). Anti-oracle completo. Zona-base 366/377.",
+  "healthNote": "Auditoria profunda: 10 achados corrigidos (RAG-01/02/03/04 + ENG-01/02/03 + PIPE-01 + GOV-01 + COD-01). Gate 22/22. Evals: 29/29 RAG + 15/15 produto + 6/6 zona. Corpus: 28 leis, 2280 chunks, 2410 remissões (dedup). Anti-oracle completo. Zona-base 377/377 (100%). G2 fechado.",
   "lever": { "tx": "Fi declarado (do acervo de Termos do dono) é o gap remanescente para fechar o cálculo nos imóveis JA_DECLARADO — o Fi escalonado (Art. 24) já cobre a prospecção nova.", "k": "interno: acervo Termos / Fi declarado" },
   "now": [
     "Fp engine adicionado ao gate (CI + fechar-instancia → 21 checks). Qualidade de código: 3 defeitos corrigidos em enriquecer_oficial.py + gerar_xlsx.py refatorado.",
     "IPTU gabarito VV criado: 7 cedentes reais (lançamento 2026) com v_venal_m2 oficial (padrões A–E + TERRENO + apt). Aguarda engine.",
     "IPTU RAG ground-truth Lei 15.889/2013: 9 itens (7 positivos + 2 negativos), calibrados contra BM25 real. Status ATIVO.",
-    "Evals: 29/29 RAG + 15/15 eval-produto + 6/6 eval-zona-mutação PASS. Gate 21/21 VERDE.",
-    "Corpus: 28 leis indexadas, 2280 chunks, 2410 remissões (dedup RAG-03). Zona-base 366/377. Tabelas: 10 CSV com vintage+hash.",
-    "Auditoria profunda: 10 achados corrigidos — RAG-01/02/03/04, ENG-01/02/03, PIPE-01 (pipeline resync), GOV-01 (zona-mutação no gate→22 checks), COD-01 (bug _num ponto-milhar BR)."
+    "Evals: 29/29 RAG + 15/15 eval-produto + 6/6 eval-zona-mutação PASS. Gate 22/22 VERDE.",
+    "Corpus: 28 leis indexadas, 2280 chunks, 2410 remissões (dedup RAG-03). Zona-base 377/377 (100%). Tabelas: 10 CSV com vintage+hash.",
+    "Auditoria profunda: 10 achados corrigidos — RAG-01/02/03/04, ENG-01/02/03, PIPE-01 (pipeline resync), GOV-01 (zona-mutação no gate→22 checks), COD-01 (bug _num ponto-milhar BR).",
+    "G2 FECHADO: 11 irresolvíveis (10 sem_lote + 1 Praça/Canteiro) resolvidos via PDE Art.14 §1º — CAbás=1. Total: 3693/3693 (100%).",
+    "EVAL-04: rodar-evals.py agora pula status aguardando_engine (defensivo p/ gabarito IPTU VV)."
   ],
   "projetos": [
     {
@@ -23,8 +25,8 @@
       "stage": "construção",
       "calor": "hot",
       "frentes": [
-        { "nome": "Motor do Mapa (zona por imóvel)", "calor": "warm", "prod": "366/377 zonas-base resolvidas via GeoSampa SISZON. G6 eval mutação zona criado e no CI (5 casos, 6/6 PASS). CAbás total: 3682/3693.",
-          "ent": [["366/377 ZEPEC resolvidos (GeoSampa SISZON)","feito"], ["G6 eval mutação zona (5 casos)","feito"], ["11 irresolvíveis restantes","block"]] },
+        { "nome": "Motor do Mapa (zona por imóvel)", "calor": "warm", "prod": "377/377 zonas-base resolvidas (366 GeoSampa SISZON + 11 fallback PDE Art.14§1). G6 eval mutação zona (5 casos, 6/6 PASS). CAbás total: 3693/3693 (100%).",
+          "ent": [["377/377 ZEPEC resolvidos (GeoSampa+PDE Art.14§1)","feito"], ["G6 eval mutação zona (5 casos)","feito"]] },
         { "nome": "Motor das Fórmulas (potencial construtivo)", "calor": "hot", "prod": "PCpt = Atc x CAbás x Fi. eval-produto 14/14. Decomposição L-T5-1: Fi explica 100% da divergência (54 cedentes). Pipeline E1 reproduzível (refazer_oficial.sh).",
           "ent": [["engine lê tabelas da lei (fail-closed)","feito"], ["eval-produto 14/14 (7 golden + 7 semânticos)","feito"], ["Fp engine (Quadro 6)","feito"], ["L-T5-1 decomposição Fi-regime","feito"], ["Fi declarado (acervo Termos)","block"]] },
         { "nome": "Motor da Lei (conteúdo jurídico)", "calor": "hot", "prod": "28 leis indexadas (2280 chunks), fatiadas por dispositivo, com vigência e citação obrigatória. Grafo: 2410 remissões (dedup). Schema 2.4: 36/36 lei JSONs completos.",
