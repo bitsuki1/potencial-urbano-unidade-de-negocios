@@ -120,6 +120,20 @@ def check_engine_cedente():
     return rc == 0, "engine cedente PCpt (Fi escalonado) auto-teste OK" if rc == 0 else f"pcpt quebrou (exit {rc})"
 
 
+def check_engine_iptu():
+    # IPTU aberto pelo dono em 2026-07-10 ("finalizarmos as duas frentes"): motor VV×alíquota
+    # progressiva por porção (Lei 6.989/1966 arts. 7/8/27 + 7-A/8-A/28; Lei 10.235/1986; faixas
+    # Lei 15.889/2013). Demo ancorado em valores derivados à mão da lei.
+    rc, _ = _run(["engines/iptu/iptu.py", "--demo"])
+    return rc == 0, "engine IPTU (VV × alíquota por porção) auto-teste OK" if rc == 0 else f"iptu quebrou (exit {rc})"
+
+
+def check_eval_iptu():
+    # Golden independente do motor IPTU: âncoras recomputadas + dupla-via CSV×engine + mutação.
+    rc, _ = _run(["evals/eval-iptu.py"])
+    return rc == 0, "eval-iptu: âncoras da lei + dupla-via + mutação OK" if rc == 0 else f"eval-iptu falhou (exit {rc})"
+
+
 def check_produto():
     # T2/S2: golden-assert do Fi legal sobre 7 cedentes reais; sabotar 1 Fi (engine ou CSV) FALHA aqui.
     rc, _ = _run(["evals/eval-produto.py"])
@@ -295,6 +309,8 @@ def main():
         ("ENGINE (número no engine, 1.3)", check_engine),
         ("ENGINE Fp (Quadro 6, Fator de Planejamento)", check_engine_fp),
         ("ENGINE CEDENTE (Fi Art.24, T2)", check_engine_cedente),
+        ("ENGINE IPTU (VV × alíquota por porção)", check_engine_iptu),
+        ("EVAL IPTU (âncoras da lei + mutação)", check_eval_iptu),
         ("PRODUTO (golden Fi cedentes reais, T2)", check_produto),
         ("ZONA-MUTAÇÃO (CAbás por zona, G6)", check_zona_mutacao),
         ("FSCE (Art.57 Lei 17.844 — Setor Central)", check_fsce),

@@ -1,0 +1,12 @@
+idade_de,idade_ate,depreciacao_pct,fator,dispositivo,lei
+0,5,0,1.00,Tabela IV (Arts. 11 e 16),lei-municipal-saopaulo-10235-1986
+6,10,7,0.93,Tabela IV (Arts. 11 e 16),lei-municipal-saopaulo-10235-1986
+11,15,14,0.86,Tabela IV (Arts. 11 e 16),lei-municipal-saopaulo-10235-1986
+16,20,21,0.79,Tabela IV (Arts. 11 e 16),lei-municipal-saopaulo-10235-1986
+21,25,28,0.72,Tabela IV (Arts. 11 e 16),lei-municipal-saopaulo-10235-1986
+26,30,35,0.65,Tabela IV (Arts. 11 e 16),lei-municipal-saopaulo-10235-1986
+31,35,42,0.58,Tabela IV (Arts. 11 e 16),lei-municipal-saopaulo-10235-1986
+36,40,49,0.51,Tabela IV (Arts. 11 e 16),lei-municipal-saopaulo-10235-1986
+41,45,56,0.44,Tabela IV (Arts. 11 e 16),lei-municipal-saopaulo-10235-1986
+46,50,63,0.37,Tabela IV (Arts. 11 e 16),lei-municipal-saopaulo-10235-1986
+51,,70,0.30,Tabela IV (Arts. 11 e 16),lei-municipal-saopaulo-10235-1986

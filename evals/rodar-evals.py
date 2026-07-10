@@ -84,7 +84,7 @@ def main():
     for arq in arquivos:
         gt = json.loads(arq.read_text(encoding="utf-8"))
         _status = gt.get("status", "")
-        aguardando = _status in ("aguardando_verbatim", "aguardando_engine")
+        aguardando = _status in ("aguardando_verbatim", "aguardando_engine", "aguardando_pgv")
         marca = f"  [AGUARDANDO ({_status}) — não bloqueia build]" if aguardando else ""
         print(f"\n=== {arq.name} (domínio {gt.get('dominio','?')}){marca} ===")
         for item in gt.get("itens", []):

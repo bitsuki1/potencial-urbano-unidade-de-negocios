@@ -50,6 +50,21 @@
       "data_base": "2014-07-31",
       "fonte_legal": "PDE Lei 16.050/2014, Quadro 6 (Anexo)",
       "nota": "Fator de planejamento (Fp) por macroárea/uso. Lido por engines/tdc/fp.py."
+    },
+    "iptu-aliquota-base.csv": {
+      "data_base": "2001-12-27",
+      "fonte_legal": "Lei 6.989/1966 arts. 7/8/27, redacao da Lei 13.250/2001 (texto compilado, portal oficial)",
+      "nota": "Aliquotas-BASE do IPTU (1,0% resid.; 1,5% nao-resid.; 1,5% territorial). O ajuste por faixa vive em iptu-aliquotas-faixa.csv."
+    },
+    "iptu-fator-obsolescencia.csv": {
+      "data_base": "1986-12-16",
+      "fonte_legal": "Lei 10.235/1986, Tabela IV c/c Arts. 11 e 16 (texto compilado, portal oficial)",
+      "nota": "Fator por idade do predio (Art. 16: idade = exercicio - ano do termino/ocupacao). Sem anotacao de alteracao no compilado."
+    },
+    "iptu-fatores-terreno.csv": {
+      "data_base": "1991-12-30",
+      "fonte_legal": "Lei 10.235/1986, Tabelas II e III na redacao da Lei 11.152/1991 (+ item ZER pela 15.889/2013)",
+      "nota": "Esquina (Art. 7) e diversos (Art. 8: encravado/fundo/interno). Tabela I (profundidade) NAO extraida - lookup longo; engine recebe o fator (pendencia declarada)."
     }
   }
 }

@@ -94,6 +94,13 @@ jobs:
       - name: Engine cedente PCpt (auto-teste do Fi escalonado + FSCE)
         run: python3 engines/tdc/pcpt.py --demo
 
+      # IPTU (aberto pelo dono 2026-07-10) — GATE do motor VV × alíquota progressiva por porção
+      # (Lei 6.989/1966 arts. 7/8/27 + 7-A/8-A/28; Lei 10.235/1986 Tabelas IV/VI; faixas Lei 15.889/2013).
+      - name: Engine IPTU (auto-teste ancorado na lei)
+        run: python3 engines/iptu/iptu.py --demo
+      - name: Eval IPTU (âncoras recomputadas + dupla-via + mutação)
+        run: python3 evals/eval-iptu.py
+
       # FSCE — GATE do fator Setor Central (Art. 57, Lei 17.844/2022): o engine reproduz EXATO 4 Declarações
       # oficiais do Diário Oficial (PCpt = ATC×CAbás×Fi×FSCE, FSCE=2,0). Explica a divergência Fi≈2,4 (=1,2×2,0).
       - name: Gabarito FSCE (PCpt = ATC×CAbás×Fi×FSCE reproduz o Diário Oficial)
