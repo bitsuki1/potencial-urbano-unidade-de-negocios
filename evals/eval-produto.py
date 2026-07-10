@@ -82,6 +82,7 @@ def main():
         sys.exit(1)
 
     falhas = 0
+    n_checks = 0
     print("=== eval-produto (T2): golden-assert do engine de cedente sobre cedentes REAIS ===")
     for g in GOLDEN:
         area = Decimal(g["area"]); cabas = Decimal(g["cabas"])
@@ -117,6 +118,7 @@ def main():
         status = "PASS" if not detalhes else "FALHA"
         if detalhes:
             falhas += 1
+        n_checks += 1
         print(f"  [{status}] {g['sql']} faixa {inc} (área {area} m²): "
               + (f"Fi={fi_esp} pcpt={pcpt_esp} m²" if not detalhes else " ; ".join(detalhes)))
 
@@ -133,8 +135,37 @@ def main():
     if t9_falhas:
         falhas += 1
         print(f"    SQLs sem parcelamento flagado: {t9_falhas[:10]}", file=sys.stderr)
+    n_checks += 1
 
-    print(f"\nRESUMO: {len(GOLDEN)+1-falhas}/{len(GOLDEN)+1} PASS, {falhas} falha(s).")
+    # L-T9-2: não-vácuo — pelo menos 1 linha com PCpt > 50k deve existir (senão o check acima é vácuo).
+    if not grandes:
+        print("  [FALHA] T9 não-vácuo: 0 linhas com PCpt > 50.000 m² — check é vácuo (L-T9-2)")
+        falhas += 1
+    else:
+        print(f"  [PASS ] T9 não-vácuo: {len(grandes)} linha(s) > 50k confirmam check ativo (L-T9-2)")
+    n_checks += 1
+
+    # L-T11-2: integridade de conjuntos — membros NÃO têm saldo/preço individual (saldo é do conjunto).
+    conj_members = [r for r in csv_idx.values() if (r.get("conjunto_certidao") or "").strip()]
+    conj_bad = [r["sql_mestre"] for r in conj_members
+                if (r.get("saldo_pcpt_m2") or "").strip() or (r.get("preco_proxy_brl") or "").strip()]
+    print(f"  [{'PASS' if not conj_bad else 'FALHA'}] T11 conjuntos: "
+          f"{len(conj_members)} membros, {len(conj_bad)} com saldo/preço individual (deve ser 0)")
+    if conj_bad:
+        falhas += 1
+        print(f"    SQLs com saldo/preço espúrio: {conj_bad[:10]}", file=sys.stderr)
+    n_checks += 1
+
+    # L-T4-5: não-vácuo vedação Art. 124 §2 — pelo menos 1 vedada bloqueada deve existir.
+    vedadas = [r for r in csv_idx.values() if "Art. 124 §2" in (r.get("pendencia_calculo") or "")]
+    if not vedadas:
+        print("  [FALHA] T8 vedação não-vácuo: 0 vedadas Art.124§2 no produto (L-T4-5)")
+        falhas += 1
+    else:
+        print(f"  [PASS ] T8 vedação não-vácuo: {len(vedadas)} vedadas bloqueadas (L-T4-5)")
+    n_checks += 1
+
+    print(f"\nRESUMO: {n_checks-falhas}/{n_checks} PASS, {falhas} falha(s).")
     if falhas:
         print("GATE VERMELHO: engine/produto divergiu do Fi legal (Art. 24 LPUOS). "
               "Um Fi sabotado ou o produto com Fi drifted da lei quebra aqui (T2).", file=sys.stderr)
