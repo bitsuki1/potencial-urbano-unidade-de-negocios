@@ -103,6 +103,9 @@ def _carrega_fi_zepec():
     return faixas
 
 LEI_LPUOS = "Lei Municipal SP nº 16.402/2016 (LPUOS)"
+LEI_SCE = "Lei Municipal SP nº 17.844/2022, Art. 57 (AIU-SCE / Setor Central)"
+FSCE_SCE = Decimal("2.0")            # Art. 57, Lei 17.844/2022: fator setor central
+FSCE_TETO_TERRENO = Decimal("1000")  # Art. 57: só ZEPEC-BIR com terreno ≤ 1.000 m²
 FI_DOACAO, _FI_PARQUE_ATE, _FI_PARQUE_ACIMA = _carrega_fi_doacao()   # Art. 127 §1º (tabela extraída)
 FI_ZEPEC_ART24 = _carrega_fi_zepec()                                 # LPUOS Art. 24 I–VII (tabela extraída)
 
@@ -142,11 +145,17 @@ def _estoque(pcpt):
     return {"estoque_a_vista_m2": LIMITE_PARCELAMENTO, "excedente_parcelado_m2": exc, "parcelas_anuais": 10,
             "obs_estoque": "Art. 124 §3º — excedente de 50.000 m² em 10 parcelas anuais"}
 
-def pcpt_sem_doacao(atc, cabas, fi=None):
+def pcpt_sem_doacao(atc, cabas, fi=None, setor_central=False):
     """Art. 125 (PDE): PCpt = Atc × CAbas × Fi. O dono mantém o imóvel.
     Fi: por PADRÃO é resolvido AQUI pelo Art. 24 da LPUOS (escalonado pela área do lote,
     caso das NOVAS declarações ZEPEC — correção 2026-07-02; antes usava 1 fixo, ERRADO).
-    `fi` explícito sobrepõe (ex.: declaração antiga emitida sob outro fator — informar o da certidão)."""
+    `fi` explícito sobrepõe (ex.: declaração antiga emitida sob outro fator — informar o da certidão).
+
+    setor_central: quando o cedente é ZEPEC-BIR DENTRO da AIU-SCE (Setor Central) E terreno ≤ 1.000 m²,
+      aplica o FATOR SETOR CENTRAL FSCE = 2,0 (Art. 57, Lei 17.844/2022): PCpt = Atc × CAbas × Fi × FSCE.
+      A PERTINÊNCIA à AIU-SCE é ENTRADA (número/gate nasce fora do LLM, 1.3) — quem chama informa (True/False)
+      a partir da camada perímetro AIU-SCE (GeoSampa). Se setor_central=True mas terreno>1.000 m², o FSCE
+      NÃO se aplica (fora do escopo do Art. 57) e o cálculo permanece Atc×CAbas×Fi, com nota."""
     A = _pos(_d(atc, "atc"), "atc"); C = _pos(_d(cabas, "cabas"), "cabas")
     if fi is None:
         F, inciso = fi_zepec_por_area(A)
@@ -155,9 +164,18 @@ def pcpt_sem_doacao(atc, cabas, fi=None):
     else:
         F = _pos(_d(fi, "fi"), "fi")
         disp, fonte = "Art. 125 (PDE); Fi informado pelo chamador", LEI
-    pcpt = (A * C * F).quantize(Q2, ROUND_HALF_UP)
-    return {"via": "sem_doacao", "valor_m2": pcpt, "fi": str(F),
-            "memoria_calculo": f"PCpt = Atc({A}) × CAbas({C}) × Fi({F}) = {pcpt} m²",
+    fsce = Decimal("1")
+    if setor_central:
+        if A <= FSCE_TETO_TERRENO:
+            fsce = FSCE_SCE
+            disp += " × FSCE (Art. 57, Lei 17.844/2022 — AIU-SCE)"
+            fonte += f"; {LEI_SCE}"
+        else:
+            disp += " (AIU-SCE porém terreno>1.000 m²: FSCE NÃO aplicável — Art. 57)"
+    pcpt = (A * C * F * fsce).quantize(Q2, ROUND_HALF_UP)
+    memoria = f"PCpt = Atc({A}) × CAbas({C}) × Fi({F})" + (f" × FSCE({fsce})" if fsce != 1 else "") + f" = {pcpt} m²"
+    return {"via": "sem_doacao", "valor_m2": pcpt, "fi": str(F), "fsce": str(fsce),
+            "memoria_calculo": memoria,
             "citacao": {"dispositivo": disp, "fonte": fonte}, **_estoque(pcpt)}
 
 def pcpt_com_doacao(atc, camax, finalidade, v=None):
@@ -204,6 +222,17 @@ def _autoteste():
     assert pcpt_sem_doacao("3333.33", "0.1")["valor_m2"] == Decimal("300.00")
     # parse BR (520,59 > 500 → faixa II, Fi=1,0)
     assert pcpt_sem_doacao("520,59", "1,0")["valor_m2"] == Decimal("520.59")
+    # ★ FSCE — Setor Central (Art. 57, Lei 17.844/2022): PCpt = Atc × CAbas × Fi × 2,0 (terreno ≤ 1.000 m²).
+    #   Ancorado em 4 Declarações oficiais (Diário Oficial 2026-07-08). CAbas=1 (ZC/ZM, Quadro 3).
+    assert pcpt_sem_doacao("299", "1.0", setor_central=True)["valor_m2"] == Decimal("717.60")   # 299×1×1,2×2 (gab.006)
+    assert pcpt_sem_doacao("734", "1.0", setor_central=True)["valor_m2"] == Decimal("1468.00")  # 734×1×1,0×2
+    assert pcpt_sem_doacao("490", "1.0", setor_central=True)["valor_m2"] == Decimal("1176.00")  # 490×1×1,2×2
+    assert pcpt_sem_doacao("320", "1.0", setor_central=True)["valor_m2"] == Decimal("768.00")   # 320×1×1,2×2 (ZM)
+    fsce = pcpt_sem_doacao("299", "1.0", setor_central=True); assert "Art. 57" in fsce["citacao"]["dispositivo"], fsce
+    # ESCOPO: terreno > 1.000 m² na AIU-SCE NÃO recebe FSCE (Art. 57 exige ≤ 1.000) — fica Atc×CAbas×Fi
+    assert pcpt_sem_doacao("1345", "1.0", setor_central=True)["valor_m2"] == Decimal("1345.00") # 1345>1000 → sem FSCE
+    # fora da AIU-SCE (padrão) segue sem FSCE
+    assert pcpt_sem_doacao("299", "1.0")["valor_m2"] == Decimal("358.80")                        # 299×1×1,2 (sem FSCE)
     # >50.000 m² -> parcelamento (Art.124 §3º): 20000 × 4 × 2 = 160000
     big = pcpt_com_doacao("20000", "4.0", "corredor_onibus")
     assert big["estoque_a_vista_m2"] == Decimal("50000") and big["excedente_parcelado_m2"] == Decimal("110000.00"), big

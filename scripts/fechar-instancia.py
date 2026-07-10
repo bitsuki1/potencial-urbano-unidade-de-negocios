@@ -131,6 +131,13 @@ def check_zona_mutacao():
     return rc == 0, "zona-mutação: 6/6 PASS" if rc == 0 else f"zona-mutação regrediu (exit {rc})"
 
 
+def check_fsce():
+    # FSCE (Art. 57, Lei 17.844/2022): o engine reproduz EXATO 4 Declarações oficiais do Diário Oficial
+    # (PCpt = ATC×CAbás×Fi×FSCE, FSCE=2,0). Explica o Fi≈2,4 (=Fi 1,2 × FSCE 2,0). Sabotar o fator FALHA aqui.
+    rc, _ = _run(["evals/ground-truth/gabaritos/eval-formula-zepec.py"])
+    return rc == 0, "FSCE Art.57: 4/4 reproduz Diário Oficial" if rc == 0 else f"FSCE regrediu (exit {rc})"
+
+
 def check_conservacao():
     # T4: gate de conservação (Art. 129) 3-estados; Termo→PENDENTE e RES.(tombamento)→SEM_ATESTADO,
     # nunca ELEGIVEL. Fixtures FALHAM se a regra regredir.
@@ -290,6 +297,7 @@ def main():
         ("ENGINE CEDENTE (Fi Art.24, T2)", check_engine_cedente),
         ("PRODUTO (golden Fi cedentes reais, T2)", check_produto),
         ("ZONA-MUTAÇÃO (CAbás por zona, G6)", check_zona_mutacao),
+        ("FSCE (Art.57 Lei 17.844 — Setor Central)", check_fsce),
         ("CONSERVAÇÃO (Art.129 3-estados, T4)", check_conservacao),
         ("REGIME PCpt (já-declarado×novo, T3)", check_regime_pcpt),
         ("DIVERGÊNCIA PCpt×certidões (M0)", check_divergencia),

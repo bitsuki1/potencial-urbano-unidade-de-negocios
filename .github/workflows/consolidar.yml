@@ -90,9 +90,18 @@ jobs:
       - name: Engine Fp Quadro 6 (auto-teste do Fator de Planejamento)
         run: python3 engines/tdc/fp.py
 
-      # T2/S2 — GATE do engine de CEDENTE (Fi Art. 24 LPUOS): auto-teste do pcpt.py.
-      - name: Engine cedente PCpt (auto-teste do Fi escalonado)
+      # T2/S2 — GATE do engine de CEDENTE (Fi Art. 24 LPUOS + FSCE Art. 57 Lei 17.844): auto-teste do pcpt.py.
+      - name: Engine cedente PCpt (auto-teste do Fi escalonado + FSCE)
         run: python3 engines/tdc/pcpt.py --demo
+
+      # FSCE — GATE do fator Setor Central (Art. 57, Lei 17.844/2022): o engine reproduz EXATO 4 Declarações
+      # oficiais do Diário Oficial (PCpt = ATC×CAbás×Fi×FSCE, FSCE=2,0). Explica a divergência Fi≈2,4 (=1,2×2,0).
+      - name: Gabarito FSCE (PCpt = ATC×CAbás×Fi×FSCE reproduz o Diário Oficial)
+        run: python3 evals/ground-truth/gabaritos/eval-formula-zepec.py
+
+      # GEO — GATE da zona-base/CAbás (GeoSampa): não regride o gabarito nem a cobertura de CAbás.
+      - name: Zona-base/CAbás (regressão do overlay GeoSampa)
+        run: python3 evals/ground-truth/gabaritos/eval-zona-cabas.py
 
       # T2/S2 — GATE do PRODUTO: golden-assert sobre 7 cedentes reais (um por faixa Art. 24).
       # Sabotar um Fi no engine OU um Fi drifted no CSV entregue FALHA aqui (prova em docs/commit T2).

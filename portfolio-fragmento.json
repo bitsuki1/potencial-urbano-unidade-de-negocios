@@ -6,8 +6,8 @@
   "lifeline": "Acha os donos de imóveis que podem vender potencial construtivo (TDC) e calcula, pela lei, quanto vale — cada número rastreável até o artigo.",
   "stage": "construção",
   "health": "ok",
-  "healthNote": "Auditoria profunda: 10 achados corrigidos (RAG-01/02/03/04 + ENG-01/02/03 + PIPE-01 + GOV-01 + COD-01). Gate 22/22. Evals: 29/29 RAG + 15/15 produto + 6/6 zona. Corpus: 28 leis, 2280 chunks, 2410 remissões (dedup). Anti-oracle completo. Zona-base 377/377 (100%). G2 fechado.",
-  "lever": { "tx": "Fi declarado (do acervo de Termos do dono) é o gap remanescente para fechar o cálculo nos imóveis JA_DECLARADO — o Fi escalonado (Art. 24) já cobre a prospecção nova.", "k": "interno: acervo Termos / Fi declarado" },
+  "healthNote": "MISTÉRIO Fi≈2,4 RESOLVIDO: é Fi(1,2 Art.24) × FSCE(2,0 Art.57 Lei 17.844/2022) — o engine reproduz EXATO 4 Declarações oficiais do Diário Oficial. Auditoria: 10 achados + G2 fechado (zona 377/377). Gate 23/23. Evals: 29/29 RAG + 15/15 produto + 6/6 zona + 4/4 FSCE. Órfãos consolidados: pacote FSCE + 25 gabaritos reais resgatados de branch órfã à produção.",
+  "lever": { "tx": "FSCE (Art.57 Lei 17.844/2022, ×2,0) explica a divergência que estava travada como 'Fi declarado'. Gap remanescente: ativar o FSCE no pipeline — precisa da coluna na_aiu_sce (pertinência à AIU-SCE por cedente, do overlay do perímetro Setor Central).", "k": "interno: overlay perímetro AIU-SCE → coluna na_aiu_sce" },
   "now": [
     "Fp engine adicionado ao gate (CI + fechar-instancia → 21 checks). Qualidade de código: 3 defeitos corrigidos em enriquecer_oficial.py + gerar_xlsx.py refatorado.",
     "IPTU gabarito VV criado: 7 cedentes reais (lançamento 2026) com v_venal_m2 oficial (padrões A–E + TERRENO + apt). Aguarda engine.",
@@ -16,7 +16,10 @@
     "Corpus: 28 leis indexadas, 2280 chunks, 2410 remissões (dedup RAG-03). Zona-base 377/377 (100%). Tabelas: 10 CSV com vintage+hash.",
     "Auditoria profunda: 10 achados corrigidos — RAG-01/02/03/04, ENG-01/02/03, PIPE-01 (pipeline resync), GOV-01 (zona-mutação no gate→22 checks), COD-01 (bug _num ponto-milhar BR).",
     "G2 FECHADO: 11 irresolvíveis (10 sem_lote + 1 Praça/Canteiro) resolvidos via PDE Art.14 §1º — CAbás=1. Total: 3693/3693 (100%).",
-    "EVAL-04: rodar-evals.py agora pula status aguardando_engine (defensivo p/ gabarito IPTU VV)."
+    "EVAL-04: rodar-evals.py agora pula status aguardando_engine (defensivo p/ gabarito IPTU VV).",
+    "★ FSCE RESGATADO À PRODUÇÃO (motor Setor Central, Art.57 Lei 17.844/2022, ×2,0): pcpt.py ganha setor_central; reproduz EXATO 717,60/1468/1176/768 de 4 Declarações do Diário Oficial. RESOLVE o mistério Fi≈2,4. Gate 23 checks (+FSCE). 25 gabaritos TDC reais + eval-formula-zepec + eval-zona-cabas resgatados de branch órfã.",
+    "Consolidação de órfãos: 8 branches remotas processadas — 5 100%-superadas (deletadas), 2 cherry-pick de arquivos novos (FSCE + doc encerramento), 1 branch de trabalho reiniciada da main pós-merge do #29.",
+    "PENDENTE (dono/dados): ativar FSCE no pipeline exige a coluna na_aiu_sce (pertinência à AIU-SCE por cedente, overlay do perímetro Setor Central); política de CI 'linter só no push' (D168) — decisão do dono."
   ],
   "projetos": [
     {
@@ -27,8 +30,8 @@
       "frentes": [
         { "nome": "Motor do Mapa (zona por imóvel)", "calor": "warm", "prod": "377/377 zonas-base resolvidas (366 GeoSampa SISZON + 11 fallback PDE Art.14§1). G6 eval mutação zona (5 casos, 6/6 PASS). CAbás total: 3693/3693 (100%).",
           "ent": [["377/377 ZEPEC resolvidos (GeoSampa+PDE Art.14§1)","feito"], ["G6 eval mutação zona (5 casos)","feito"]] },
-        { "nome": "Motor das Fórmulas (potencial construtivo)", "calor": "hot", "prod": "PCpt = Atc x CAbás x Fi. eval-produto 14/14. Decomposição L-T5-1: Fi explica 100% da divergência (54 cedentes). Pipeline E1 reproduzível (refazer_oficial.sh).",
-          "ent": [["engine lê tabelas da lei (fail-closed)","feito"], ["eval-produto 14/14 (7 golden + 7 semânticos)","feito"], ["Fp engine (Quadro 6)","feito"], ["L-T5-1 decomposição Fi-regime","feito"], ["Fi declarado (acervo Termos)","block"]] },
+        { "nome": "Motor das Fórmulas (potencial construtivo)", "calor": "hot", "prod": "PCpt = Atc x CAbás x Fi x FSCE. eval-produto 15/15 + FSCE 4/4. ★ FSCE (Art.57 Lei 17.844/2022, ×2,0) reproduz EXATO 4 Declarações do Diário Oficial e RESOLVE a divergência Fi≈2,4 (=1,2×2,0). Falta ativar no pipeline (coluna na_aiu_sce).",
+          "ent": [["engine lê tabelas da lei (fail-closed)","feito"], ["eval-produto 15/15","feito"], ["Fp engine (Quadro 6)","feito"], ["FSCE Setor Central (Art.57, reproduz Diário Oficial)","feito"], ["ativar FSCE no pipeline (coluna na_aiu_sce / overlay AIU-SCE)","block"]] },
         { "nome": "Motor da Lei (conteúdo jurídico)", "calor": "hot", "prod": "28 leis indexadas (2280 chunks), fatiadas por dispositivo, com vigência e citação obrigatória. Grafo: 2410 remissões (dedup). Schema 2.4: 36/36 lei JSONs completos.",
           "ent": [["TDC indexado e citável (5+ leis TDC)","feito"], ["grafo de remissões (2410 arestas, dedup)","feito"], ["+4 leis municipais ingeridas","feito"], ["T8 guard vedação Art.124§2 (32 vedadas)","feito"], ["AUD-B08/B09 schema 2.4 (36/36)","feito"]] },
         { "nome": "Motor Comercial (prospecção lado-vendedor)", "calor": "hot", "prod": "Lista de cedentes com elegibilidade_conservacao propagada (18 ELEGIVEL, 68 PENDENTE). 2740 na prospecção. G4: v_outorga_max_q14 + flag multi-face (2755 lotes, 63% — Decreto 57.536/2016 Art. 8 IV).",
@@ -47,8 +50,9 @@
     }
   ],
   "blocks": [
-    "Fi declarado: para os imóveis JA_DECLARADO, o potencial oficial vem da Declaração (Fi ≈2,4 no caso Líbero Badaró). Precisa do acervo de Termos de Compromisso do dono.",
-    "Preço legal (Art.128) segue PAUSADO por decisão do dono — não reabrir sem 'vai'."
+    "Fi≈2,4 RESOLVIDO (não é mais bloqueio de Termos): é Fi(1,2 Art.24) × FSCE(2,0 Art.57 Lei 17.844/2022). O engine reproduz EXATO 4 Declarações do Diário Oficial. Resta ATIVAR no pipeline: coluna na_aiu_sce (pertinência à AIU-SCE por cedente) — overlay do perímetro Setor Central (GeoSampa).",
+    "Preço legal (Art.128) segue PAUSADO por decisão do dono — não reabrir sem 'vai'.",
+    "Política de CI (D168): branch órfã propõe 'linter só no push' (−50% runs de Actions, mas PRs sem linter) — decisão do dono, não aplicada."
   ],
   "ssot": "Onde mora: PROXIMA-INSTANCIA.md e BACKLOG.md, no meu repo; decisões do dono em docs/DECISOES-2026-07-05.md."
 }
