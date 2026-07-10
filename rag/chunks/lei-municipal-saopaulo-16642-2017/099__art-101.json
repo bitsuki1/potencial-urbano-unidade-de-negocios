@@ -34,7 +34,10 @@
     }
   },
   "tema": [
-    "urbanística"
+    "codigo_obras",
+    "edificacoes",
+    "licenciamento",
+    "fiscalizacao"
   ],
   "dominio": [
     "compartilhado"

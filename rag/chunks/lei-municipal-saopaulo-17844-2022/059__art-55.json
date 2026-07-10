@@ -31,7 +31,13 @@
       "alterada_por": []
     }
   },
-  "tema": [],
+  "tema": [
+    "intervencao_urbana",
+    "requalificacao_urbana",
+    "uso_ocupacao_solo",
+    "transferencia_direito_construir",
+    "habitacao_interesse_social"
+  ],
   "dominio": [
     "tdc"
   ],

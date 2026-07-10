@@ -27,7 +27,11 @@
       "alterada_por": []
     }
   },
-  "tema": [],
+  "tema": [
+    "telecomunicacoes",
+    "infraestrutura_urbana",
+    "licenciamento"
+  ],
   "dominio": [
     "iptu"
   ],

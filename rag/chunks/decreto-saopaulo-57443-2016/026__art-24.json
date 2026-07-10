@@ -30,7 +30,12 @@
       "alterada_por": []
     }
   },
-  "tema": [],
+  "tema": [
+    "fiscalizacao_posturas",
+    "uso_ocupacao_solo",
+    "licenciamento",
+    "preservacao_patrimonio"
+  ],
   "dominio": [
     "iptu"
   ],
