@@ -67,8 +67,9 @@ with open(os.path.join(REPO,"zepec/ferramenta/zepec_cedentes.csv")) as f:
 ced_set=set(ced)
 print("cedentes rows valid sql:",len(ced),"unique:",len(ced_set),file=sys.stderr)
 
-# lotes centroids (only for cedente sqls)
-cent={}
+# lotes — coleta TODAS as features por SQL, unary_union, representative_point (G1)
+lotes={}  # sql -> shapely geometry (unioned)
+_lote_parts={}  # sql -> [geom, ...]
 for shp in sorted(glob.glob(DL+"/SIRGAS_SHP_LOTES_*.shp")):
     r=shapefile.Reader(shp)
     flds=[fld[0] for fld in r.fields[1:]]
@@ -77,25 +78,40 @@ for shp in sorted(glob.glob(DL+"/SIRGAS_SHP_LOTES_*.shp")):
     for i in range(len(recs)):
         rec=recs[i]
         sql=f"{str(rec[i_s]).zfill(3)}{str(rec[i_q]).zfill(3)}{str(rec[i_l]).zfill(4)}"
-        if sql in ced_set and sql not in cent:
-            try: cent[sql]=shp_shape(r.shape(i).__geo_interface__).centroid
-            except Exception: pass
-print("cedentes with lote centroid:",len(cent),file=sys.stderr)
+        if sql not in ced_set: continue
+        try:
+            g=shp_shape(r.shape(i).__geo_interface__)
+            if not g.is_valid: g=g.buffer(0)
+            if not g.is_empty: _lote_parts.setdefault(sql,[]).append(g)
+        except Exception: pass
+for sql,parts in _lote_parts.items():
+    lotes[sql]=unary_union(parts) if len(parts)>1 else parts[0]
+del _lote_parts
+print("cedentes with lote geometry:",len(lotes),file=sys.stderr)
 
-# spatial join
+# spatial join — overlay por ÁREA (G1: intersection area, não centroid containment)
 out=[]; no_zone=0; no_lote=0
 for sql in ced_set:
-    c=cent.get(sql)
-    if c is None: no_lote+=1; continue
-    base_hit=None; any_hit=None
-    for idx in tree.query(c):
+    lot=lotes.get(sql)
+    if lot is None: no_lote+=1; continue
+    rp=lot.representative_point()
+    best_i=None; best_area=-1.0
+    for idx in tree.query(lot):
         i=int(idx)
-        if prepared[i].contains(c):
-            if any_hit is None: any_hit=i
-            if in_q3[i]: base_hit=i; break
-    hit=base_hit if base_hit is not None else any_hit
-    if hit is None: no_zone+=1; continue
-    out.append((sql,labels[hit],ca_for(labels[hit]),fonte[hit]))
+        try:
+            inter=geoms[i].intersection(lot)
+            a=inter.area
+        except Exception:
+            a=0.0
+        if a>best_area:
+            best_area=a; best_i=i
+    if best_i is None:
+        for idx in tree.query(rp):
+            i=int(idx)
+            if prepared[i].contains(rp):
+                best_i=i; break
+    if best_i is None: no_zone+=1; continue
+    out.append((sql,labels[best_i],ca_for(labels[best_i]),fonte[best_i]))
 
 out.sort()
 outdir=os.path.join(REPO,"zepec/oficial"); os.makedirs(outdir,exist_ok=True)
