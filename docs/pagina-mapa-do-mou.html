@@ -1,0 +1,501 @@
+<title>Potencial Urbano — minha página no Mapa do MOU</title>
+<style>
+  /* ---- reset ---- */
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  img{max-width:100%;display:block}
+
+  /* ---- tokens: folha de levantamento (claro) ---- */
+  :root{
+    --paper:#F4F5F1; --paper-2:#ECEEE8; --panel:#FAFBF8;
+    --ink:#17211E; --ink-2:#47534F; --ink-3:#727D78;
+    --line:#D2D8D0; --line-2:#B7BFB6;
+    --accent:#0E6E62; --accent-2:#0A4F47; --accent-wash:#E1ECE7;
+    --ok:#2E7D4E; --warn:#8F7317; --block:#A23C2C;
+    --shadow:0 1px 0 rgba(23,33,30,.04), 0 18px 40px -28px rgba(23,33,30,.28);
+    --calor-hot:1; --calor-warm:.5; --calor-cold:0;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{
+      --paper:#0E1513; --paper-2:#131E1B; --panel:#141F1C;
+      --ink:#E8ECE6; --ink-2:#AAB4AF; --ink-3:#7E8884;
+      --line:#243230; --line-2:#384843;
+      --accent:#41BAA7; --accent-2:#8FE3D5; --accent-wash:#132824;
+      --ok:#5FB27E; --warn:#CBA24A; --block:#DB735F;
+      --shadow:0 1px 0 rgba(0,0,0,.2), 0 20px 46px -30px rgba(0,0,0,.7);
+    }
+  }
+  :root[data-theme="light"]{
+    --paper:#F4F5F1; --paper-2:#ECEEE8; --panel:#FAFBF8;
+    --ink:#17211E; --ink-2:#47534F; --ink-3:#727D78;
+    --line:#D2D8D0; --line-2:#B7BFB6;
+    --accent:#0E6E62; --accent-2:#0A4F47; --accent-wash:#E1ECE7;
+    --ok:#2E7D4E; --warn:#8F7317; --block:#A23C2C;
+    --shadow:0 1px 0 rgba(23,33,30,.04), 0 18px 40px -28px rgba(23,33,30,.28);
+  }
+  :root[data-theme="dark"]{
+    --paper:#0E1513; --paper-2:#131E1B; --panel:#141F1C;
+    --ink:#E8ECE6; --ink-2:#AAB4AF; --ink-3:#7E8884;
+    --line:#243230; --line-2:#384843;
+    --accent:#41BAA7; --accent-2:#8FE3D5; --accent-wash:#132824;
+    --ok:#5FB27E; --warn:#CBA24A; --block:#DB735F;
+    --shadow:0 1px 0 rgba(0,0,0,.2), 0 20px 46px -30px rgba(0,0,0,.7);
+  }
+
+  body{
+    font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    background:var(--paper); color:var(--ink);
+    line-height:1.5; -webkit-font-smoothing:antialiased;
+    padding:clamp(14px,3.5vw,44px);
+    /* leve textura de papel milimetrado */
+    background-image:
+      linear-gradient(transparent 95%, color-mix(in srgb,var(--line) 42%, transparent) 100%),
+      linear-gradient(90deg, transparent 95%, color-mix(in srgb,var(--line) 42%, transparent) 100%);
+    background-size:26px 26px, 26px 26px;
+  }
+
+  .sheet{
+    max-width:1120px; margin:0 auto; background:var(--panel);
+    border:1px solid var(--line-2); box-shadow:var(--shadow);
+    position:relative;
+  }
+  /* cantos de prancha cadastral */
+  .sheet::before,.sheet::after{content:"";position:absolute;width:14px;height:14px;border:1.5px solid var(--accent);opacity:.7}
+  .sheet::before{top:-1px;left:-1px;border-right:0;border-bottom:0}
+  .sheet::after{bottom:-1px;right:-1px;border-left:0;border-top:0}
+
+  .pad{padding:clamp(20px,4vw,44px)}
+  .rule{border:0;border-top:1px solid var(--line);margin:0}
+  .rule-strong{border:0;border-top:1.5px solid var(--line-2);margin:0}
+
+  .mono{font-family:ui-monospace,"SF Mono","JetBrains Mono","IBM Plex Mono",Menlo,Consolas,monospace}
+  .eyebrow{
+    font-family:ui-monospace,"SF Mono","JetBrains Mono","IBM Plex Mono",Menlo,Consolas,monospace;
+    text-transform:uppercase; letter-spacing:.16em; font-size:11px; color:var(--ink-3);
+  }
+  .num{font-variant-numeric:tabular-nums;font-family:ui-monospace,"SF Mono","JetBrains Mono",Menlo,Consolas,monospace}
+
+  /* ---------- BLOCO-TÍTULO ---------- */
+  .titleblock{display:grid;grid-template-columns:1.5fr 1fr;gap:clamp(20px,3vw,40px);align-items:end}
+  .unit-kicker{display:flex;align-items:center;gap:10px;margin-bottom:14px}
+  .unit-kicker .tag{
+    font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--accent-2);background:var(--accent-wash);border:1px solid color-mix(in srgb,var(--accent) 30%,transparent);
+    padding:3px 8px;border-radius:2px;
+  }
+  h1{font-size:clamp(30px,5.4vw,52px);line-height:1.02;letter-spacing:-.02em;font-weight:640;text-wrap:balance}
+  h1 .em{color:var(--accent)}
+  .lifeline{
+    font-family:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
+    font-size:clamp(16px,2.1vw,20px);line-height:1.4;color:var(--ink-2);margin-top:16px;max-width:62ch;text-wrap:pretty;
+  }
+  .lifeline b{color:var(--ink);font-weight:600}
+
+  .meta{border:1px solid var(--line);border-radius:3px;overflow:hidden;align-self:end}
+  .meta .row{display:grid;grid-template-columns:auto 1fr;gap:12px;padding:9px 13px;border-bottom:1px solid var(--line);font-size:12.5px}
+  .meta .row:last-child{border-bottom:0}
+  .meta .k{color:var(--ink-3);font-family:ui-monospace,Menlo,monospace;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;align-self:center}
+  .meta .v{color:var(--ink);text-align:right;font-variant-numeric:tabular-nums}
+  .health{display:inline-flex;align-items:center;gap:7px;font-weight:600}
+  .dot{width:9px;height:9px;border-radius:50%;flex:none;box-shadow:0 0 0 3px color-mix(in srgb,var(--ok) 18%,transparent)}
+  .dot.ok{background:var(--ok)}
+
+  /* ---------- FITA DE MÉTRICAS (instrumento) ---------- */
+  .metrics{display:grid;grid-template-columns:repeat(5,1fr)}
+  .metric{padding:16px clamp(12px,1.8vw,20px);border-right:1px solid var(--line)}
+  .metric:last-child{border-right:0}
+  .metric .lab{font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-3)}
+  .metric .big{font-size:clamp(20px,2.6vw,27px);font-weight:640;font-variant-numeric:tabular-nums;letter-spacing:-.01em;margin-top:7px;font-family:ui-monospace,"SF Mono",Menlo,monospace}
+  .metric .sub{font-size:11.5px;color:var(--ink-2);margin-top:3px}
+  .metric .big .ok{color:var(--accent)}
+
+  /* ---------- ALAVANCA ---------- */
+  .lever{background:var(--accent-wash);border:1px solid color-mix(in srgb,var(--accent) 28%,transparent);border-radius:4px;padding:clamp(18px,2.6vw,26px);position:relative;overflow:hidden}
+  .lever::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--accent)}
+  .lever .eyebrow{color:var(--accent-2)}
+  .lever h2{font-size:clamp(19px,2.6vw,24px);letter-spacing:-.01em;margin:9px 0 8px;text-wrap:balance;font-weight:640}
+  .lever p{color:var(--ink-2);max-width:88ch;font-size:14.5px}
+  .lever p + p{margin-top:10px}
+  .lever .formula{font-family:ui-monospace,"SF Mono",Menlo,monospace;color:var(--ink);background:color-mix(in srgb,var(--panel) 65%,transparent);border:1px solid color-mix(in srgb,var(--accent) 26%,transparent);border-radius:3px;padding:2px 7px;font-size:13px;white-space:nowrap}
+  .lever .next{display:flex;gap:10px;align-items:flex-start;margin-top:14px;padding-top:14px;border-top:1px dashed color-mix(in srgb,var(--accent) 34%,transparent)}
+  .lever .next .pin{font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--warn);border:1px solid color-mix(in srgb,var(--warn) 45%,transparent);border-radius:2px;padding:3px 7px;white-space:nowrap;flex:none;margin-top:2px}
+  .lever .next p{font-size:13.5px}
+
+  /* ---------- AGORA ---------- */
+  .section-h{display:flex;align-items:baseline;gap:12px;margin-bottom:16px}
+  .section-h .n{font-family:ui-monospace,Menlo,monospace;color:var(--accent);font-size:13px;font-weight:600}
+  .section-h h3{font-size:clamp(15px,2vw,18px);letter-spacing:.01em;font-weight:640}
+  .section-h .hint{font-size:12px;color:var(--ink-3);margin-left:auto}
+  .agora{display:grid;grid-template-columns:1fr 1fr;gap:11px 26px}
+  .agora .it{display:flex;gap:11px;font-size:14px;color:var(--ink-2);line-height:1.45}
+  .agora .it .mk{color:var(--accent);font-family:ui-monospace,Menlo,monospace;flex:none;font-size:13px;margin-top:1px}
+  .agora .it b{color:var(--ink);font-weight:600}
+  .agora .it .star{color:var(--warn)}
+
+  /* ---------- PROJETOS / FRENTES ---------- */
+  .plates{display:grid;grid-template-columns:1fr;gap:18px}
+  .plate{border:1px solid var(--line-2);border-radius:4px;background:var(--panel);overflow:hidden;transition:transform .18s ease, box-shadow .18s ease}
+  .plate:hover{transform:translateY(-2px);box-shadow:var(--shadow)}
+  .plate-h{display:flex;align-items:center;gap:14px;flex-wrap:wrap;padding:15px 18px;background:var(--paper-2);border-bottom:1px solid var(--line)}
+  .plate-h .idx{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3)}
+  .plate-h .name{font-size:clamp(16px,2.2vw,20px);font-weight:640;letter-spacing:-.01em}
+  .plate-h .what{font-size:12.5px;color:var(--ink-2);flex-basis:100%;margin-top:-2px}
+  .stage{font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;padding:3px 8px;border-radius:2px;border:1px solid var(--line-2);color:var(--ink-2);margin-left:auto}
+  .stage.build{color:var(--accent-2);border-color:color-mix(in srgb,var(--accent) 34%,transparent);background:var(--accent-wash)}
+
+  /* calor = intensidade do acento (o mapa esquenta onde há trabalho) */
+  .calor{display:inline-flex;align-items:center;gap:6px;font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3)}
+  .calor .flame{width:9px;height:9px;border-radius:50%;flex:none;border:1.5px solid var(--accent)}
+  .calor.hot .flame{background:var(--accent);box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 20%,transparent)}
+  .calor.hot{color:var(--accent-2)}
+  .calor.warm .flame{background:linear-gradient(90deg,var(--accent) 50%,transparent 50%)}
+  .calor.cold .flame{border-color:var(--line-2)}
+
+  .frentes{display:flex;flex-direction:column}
+  .frente{display:grid;grid-template-columns:230px 1fr;gap:20px;padding:16px 18px;border-bottom:1px solid var(--line)}
+  .frente:last-child{border-bottom:0}
+  .frente .fl .fname{font-weight:600;font-size:14.5px;display:flex;align-items:center;gap:8px}
+  .frente .fl .fcal{margin-top:8px}
+  .frente .prod{font-size:13.5px;color:var(--ink-2);line-height:1.5}
+  .frente .prod .mono{color:var(--ink);font-size:12.5px}
+  .chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:11px}
+  .chip{display:inline-flex;align-items:center;gap:6px;font-size:11.5px;padding:3px 9px 3px 7px;border-radius:2px;border:1px solid var(--line);background:var(--paper);color:var(--ink-2)}
+  .chip .g{font-family:ui-monospace,Menlo,monospace;font-size:11px;flex:none}
+  .chip.done{border-color:color-mix(in srgb,var(--ok) 40%,transparent);background:color-mix(in srgb,var(--ok) 9%,transparent)}
+  .chip.done .g{color:var(--ok)}
+  .chip.next{border-color:color-mix(in srgb,var(--accent) 40%,transparent);background:color-mix(in srgb,var(--accent) 9%,transparent)}
+  .chip.next .g{color:var(--accent)}
+  .chip.block{border-color:color-mix(in srgb,var(--block) 42%,transparent);background:color-mix(in srgb,var(--block) 9%,transparent);color:var(--ink-2)}
+  .chip.block .g{color:var(--block)}
+
+  /* ---------- BLOQUEIOS ---------- */
+  .blocks{display:grid;grid-template-columns:1fr;gap:0;border:1px solid var(--line);border-radius:4px;overflow:hidden}
+  .brow{display:grid;grid-template-columns:150px 1fr;gap:16px;padding:14px 16px;border-bottom:1px solid var(--line);font-size:13.5px;color:var(--ink-2);line-height:1.5}
+  .brow:last-child{border-bottom:0}
+  .brow .st{font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.1em;text-transform:uppercase;padding:3px 8px;border-radius:2px;align-self:start;text-align:center;white-space:nowrap}
+  .brow .st.owner{color:var(--warn);border:1px solid color-mix(in srgb,var(--warn) 45%,transparent)}
+  .brow .st.paused{color:var(--block);border:1px solid color-mix(in srgb,var(--block) 45%,transparent)}
+  .brow .st.solved{color:var(--ok);border:1px solid color-mix(in srgb,var(--ok) 45%,transparent)}
+  .brow b{color:var(--ink)}
+
+  /* ---------- COLOFÃO / GLOSSÁRIO ---------- */
+  .colophon{display:grid;grid-template-columns:1fr 1.3fr;gap:clamp(20px,3vw,40px)}
+  .colophon .src p{font-size:12.5px;color:var(--ink-2);line-height:1.6;margin-bottom:9px}
+  .colophon .src p b{color:var(--ink)}
+  .colophon .src code{font-family:ui-monospace,Menlo,monospace;font-size:11.5px;background:var(--paper-2);padding:1px 5px;border-radius:2px;border:1px solid var(--line)}
+  .gloss{columns:2;column-gap:26px;font-size:12px;color:var(--ink-2)}
+  .gloss div{break-inside:avoid;margin-bottom:7px;line-height:1.4}
+  .gloss dt{display:inline;font-family:ui-monospace,Menlo,monospace;color:var(--ink);font-weight:600}
+  .gloss dd{display:inline;margin-left:5px}
+
+  footer{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;justify-content:space-between;color:var(--ink-3);font-size:11.5px}
+  footer .mono{font-size:11px}
+
+  /* reveal */
+  @media (prefers-reduced-motion:no-preference){
+    .rv{opacity:0;transform:translateY(10px);animation:rise .6s cubic-bezier(.2,.7,.2,1) forwards}
+    .rv:nth-child(2){animation-delay:.05s}.rv:nth-child(3){animation-delay:.1s}
+    @keyframes rise{to{opacity:1;transform:none}}
+  }
+
+  @media (max-width:840px){
+    .titleblock{grid-template-columns:1fr}
+    .metrics{grid-template-columns:repeat(2,1fr)}
+    .metric:nth-child(2n){border-right:0}
+    .metric{border-bottom:1px solid var(--line)}
+    .agora{grid-template-columns:1fr}
+    .frente{grid-template-columns:1fr;gap:10px}
+    .colophon{grid-template-columns:1fr}
+    .gloss{columns:1}
+    .brow{grid-template-columns:1fr}
+  }
+</style>
+
+<main class="sheet">
+
+  <!-- ============ BLOCO-TÍTULO ============ -->
+  <section class="pad titleblock rv">
+    <div>
+      <div class="unit-kicker">
+        <span class="tag">Unidade · Portfólio do MOU</span>
+        <span class="eyebrow">Marca do grupo: SBA Negócios</span>
+      </div>
+      <h1>Potencial <span class="em">Urbano</span></h1>
+      <p class="lifeline">
+        Acha os donos de imóveis que podem <b>vender potencial construtivo (TDC)</b> e
+        calcula, <b>pela lei</b>, quanto vale — cada número rastreável até o artigo.
+      </p>
+    </div>
+
+    <div class="meta">
+      <div class="row"><span class="k">Folha</span><span class="v">Mapa Vivo do Portfólio</span></div>
+      <div class="row"><span class="k">Saúde</span><span class="v"><span class="health"><span class="dot ok"></span>Saudável</span></span></div>
+      <div class="row"><span class="k">Estágio</span><span class="v">Em construção</span></div>
+      <div class="row"><span class="k">Base ativa</span><span class="v">TDC · IPTU vem depois</span></div>
+      <div class="row"><span class="k">Atualizada</span><span class="v num">2026-07-10 · PU 18</span></div>
+    </div>
+  </section>
+
+  <hr class="rule-strong">
+
+  <!-- ============ FITA DE MÉTRICAS ============ -->
+  <section class="metrics rv">
+    <div class="metric">
+      <div class="lab">Gate mecânico</div>
+      <div class="big"><span class="ok">23/23</span></div>
+      <div class="sub">verde — verificação automática</div>
+    </div>
+    <div class="metric">
+      <div class="lab">Testes de qualidade</div>
+      <div class="big">54/54</div>
+      <div class="sub">29 RAG · 15 produto · 6 zona · 4 FSCE</div>
+    </div>
+    <div class="metric">
+      <div class="lab">Corpus jurídico</div>
+      <div class="big">28</div>
+      <div class="sub">leis indexadas · 2.280 trechos · 2.410 remissões</div>
+    </div>
+    <div class="metric">
+      <div class="lab">Cobertura do mapa</div>
+      <div class="big">100%</div>
+      <div class="sub">zona 377/377 · CAbás 3.693/3.693</div>
+    </div>
+    <div class="metric">
+      <div class="lab">Prospecção viva</div>
+      <div class="big">2.740</div>
+      <div class="sub">cedentes com potencial na lista</div>
+    </div>
+  </section>
+
+  <hr class="rule-strong">
+
+  <!-- ============ MAIOR ALAVANCA ============ -->
+  <section class="pad rv">
+    <div class="lever">
+      <div class="eyebrow">A maior alavanca da unidade</div>
+      <h2>O mistério do “Fi ≈ 2,4” foi resolvido — e o cálculo agora bate com o Diário Oficial</h2>
+      <p>
+        O que travava os Termos não era um fator de interesse de 2,4. É a multiplicação de dois fatores da lei:
+        <span class="formula">PCpt = Atc × CAbás × Fi(1,2) × FSCE(2,0)</span> — o <b>Fator Setor Central</b>
+        (Art. 57 da Lei nº 17.844/2022), que vale 2,0 para imóveis tombados no Setor Central com terreno até 1.000 m².
+      </p>
+      <p>
+        Com ele, o engine <b>reproduz EXATO</b> os valores de <b>4 Declarações oficiais</b> publicadas no Diário Oficial
+        (717,60 · 1.468 · 1.176 · 768 m²). É o método da unidade funcionando ponta a ponta: número que se prova sozinho, rastreável ao artigo.
+      </p>
+      <div class="next">
+        <span class="pin">Falta do dono/dados</span>
+        <p>
+          Para <b>ligar o FSCE no cálculo em série</b> falta uma coluna: a <span class="formula" style="white-space:normal">pertinência ao Setor Central por cedente</span>
+          (o recorte do perímetro AIU-SCE sobre cada imóvel, puxado do GeoSampa). Com essa camada, a lista inteira passa a precificar o Setor Central sozinha.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <!-- ============ AGORA ============ -->
+  <section class="pad rv">
+    <div class="section-h">
+      <span class="n">§1</span>
+      <h3>O que aconteceu nesta rodada</h3>
+      <span class="hint">PU 18 · 10 de julho de 2026</span>
+    </div>
+    <div class="agora">
+      <div class="it"><span class="mk star">★</span><span><b>FSCE resgatado à produção.</b> A fórmula do Setor Central estava “esquecida” numa ramificação órfã; trazida ao repositório principal, resolve de vez a divergência que segurava os Termos.</span></div>
+      <div class="it"><span class="mk">◇</span><span><b>Auditoria profunda: 10 achados corrigidos</b> em 7 frentes — busca jurídica, engines, pipeline, governança e qualidade de código.</span></div>
+      <div class="it"><span class="mk">◇</span><span><b>Mapa 100% coberto (G2 fechado).</b> Os 11 imóveis sem zona foram resolvidos pela regra do próprio Plano Diretor (Art. 14 §1º): 3.693 de 3.693 com coeficiente básico.</span></div>
+      <div class="it"><span class="mk">◇</span><span><b>25 gabaritos reais do Diário Oficial</b> recuperados como prova, e <b>8 ramificações órfãs consolidadas</b> — nada de trabalho perdido.</span></div>
+    </div>
+  </section>
+
+  <hr class="rule-strong">
+
+  <!-- ============ PROJETOS ============ -->
+  <section class="pad rv">
+    <div class="section-h">
+      <span class="n">§2</span>
+      <h3>Projetos e frentes</h3>
+      <span class="hint">Unidade → Projeto → Frente (motores)</span>
+    </div>
+
+    <div class="plates">
+
+      <!-- PROJETO 1 — TDC -->
+      <article class="plate">
+        <header class="plate-h">
+          <span class="idx">Projeto 01</span>
+          <span class="name">TDC — Transferência do Direito de Construir</span>
+          <span class="calor hot"><span class="flame"></span>Quente</span>
+          <span class="stage build">Em construção</span>
+          <span class="what">O produto vivo: a lista de vendedores + o cálculo do potencial pela lei.</span>
+        </header>
+
+        <div class="frentes">
+          <!-- Motor da Lei -->
+          <div class="frente">
+            <div class="fl">
+              <div class="fname">Motor da Lei</div>
+              <div class="prod" style="color:var(--ink-3);font-size:12px;margin-top:3px">conteúdo jurídico</div>
+              <div class="fcal calor hot"><span class="flame"></span>Quente</div>
+            </div>
+            <div>
+              <div class="prod">28 leis indexadas e <b>fatiadas por dispositivo</b>, com vigência e <b>citação obrigatória</b>. Grafo de <span class="mono">2.410 remissões</span> (após deduplicação). Ficha de metadados completa: 36/36.</div>
+              <div class="chips">
+                <span class="chip done"><span class="g">✓</span>TDC indexado e citável</span>
+                <span class="chip done"><span class="g">✓</span>grafo de remissões</span>
+                <span class="chip done"><span class="g">✓</span>+4 leis municipais</span>
+                <span class="chip done"><span class="g">✓</span>vedação Art. 124 §2º</span>
+                <span class="chip done"><span class="g">✓</span>ficha 2.4 · 36/36</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Motor do Mapa -->
+          <div class="frente">
+            <div class="fl">
+              <div class="fname">Motor do Mapa</div>
+              <div class="prod" style="color:var(--ink-3);font-size:12px;margin-top:3px">zona por imóvel</div>
+              <div class="fcal calor warm"><span class="flame"></span>Morno</div>
+            </div>
+            <div>
+              <div class="prod"><span class="mono">377/377</span> zonas-base resolvidas (366 pelo GeoSampa + 11 pela regra do Plano Diretor). Coeficiente básico em <span class="mono">3.693/3.693</span> imóveis. Teste de mutação de zona cobrindo 5 casos.</div>
+              <div class="chips">
+                <span class="chip done"><span class="g">✓</span>377/377 resolvidos</span>
+                <span class="chip done"><span class="g">✓</span>teste de mutação de zona</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Motor das Fórmulas -->
+          <div class="frente">
+            <div class="fl">
+              <div class="fname">Motor das Fórmulas</div>
+              <div class="prod" style="color:var(--ink-3);font-size:12px;margin-top:3px">potencial construtivo</div>
+              <div class="fcal calor hot"><span class="flame"></span>Quente</div>
+            </div>
+            <div>
+              <div class="prod">Cálculo determinístico <span class="mono">PCpt = Atc × CAbás × Fi × FSCE</span>, cada fator lido da tabela da lei (falha fechada). Testes de produto 15/15 + FSCE 4/4. <b>Reproduz EXATO 4 Declarações do Diário Oficial.</b></div>
+              <div class="chips">
+                <span class="chip done"><span class="g">✓</span>lê as tabelas da lei</span>
+                <span class="chip done"><span class="g">✓</span>testes 15/15</span>
+                <span class="chip done"><span class="g">✓</span>Fator Fp (Quadro 6)</span>
+                <span class="chip done"><span class="g">✓</span>FSCE Setor Central</span>
+                <span class="chip block"><span class="g">⊘</span>ligar FSCE em série (coluna do Setor Central)</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Motor Comercial -->
+          <div class="frente">
+            <div class="fl">
+              <div class="fname">Motor Comercial</div>
+              <div class="prod" style="color:var(--ink-3);font-size:12px;margin-top:3px">prospecção lado-vendedor</div>
+              <div class="fcal calor hot"><span class="flame"></span>Quente</div>
+            </div>
+            <div>
+              <div class="prod">Lista de cedentes com <b>elegibilidade de conservação</b> propagada (18 elegíveis, 68 pendentes) e <span class="mono">2.740</span> na prospecção. Regra da esquina: <span class="mono">2.755</span> lotes multi-face sinalizados (Decreto 57.536/2016, Art. 8 IV).</div>
+              <div class="chips">
+                <span class="chip done"><span class="g">✓</span>lista com conservação</span>
+                <span class="chip done"><span class="g">✓</span>regra da esquina</span>
+                <span class="chip next"><span class="g">→</span>religar a fila ao enriquecimento</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- PROJETO 2 — IPTU -->
+      <article class="plate">
+        <header class="plate-h">
+          <span class="idx">Projeto 02</span>
+          <span class="name">IPTU — terreno</span>
+          <span class="calor cold"><span class="flame"></span>Frio</span>
+          <span class="stage">Em plano</span>
+          <span class="what">A próxima unidade de valor — o método replica o do TDC.</span>
+        </header>
+        <div class="frentes">
+          <div class="frente">
+            <div class="fl">
+              <div class="fname">Preparação</div>
+              <div class="prod" style="color:var(--ink-3);font-size:12px;margin-top:3px">fundação antes do motor</div>
+              <div class="fcal calor warm"><span class="flame"></span>Morno</div>
+            </div>
+            <div>
+              <div class="prod">Lei 15.889/2013 ingerida na íntegra; tabelas extraídas. Gabarito de valor venal com <b>7 cedentes reais</b> (lançamento 2026). Referência de busca calibrada (9 itens, ATIVA). Scripts do pipeline prontos.</div>
+              <div class="chips">
+                <span class="chip done"><span class="g">✓</span>expertise capturada</span>
+                <span class="chip done"><span class="g">✓</span>lei + tabelas</span>
+                <span class="chip done"><span class="g">✓</span>gabarito de valor venal</span>
+                <span class="chip done"><span class="g">✓</span>referência de busca</span>
+                <span class="chip block"><span class="g">⊘</span>construir o motor</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <hr class="rule-strong">
+
+  <!-- ============ BLOQUEIOS ============ -->
+  <section class="pad rv">
+    <div class="section-h">
+      <span class="n">§3</span>
+      <h3>Onde a decisão é do dono</h3>
+      <span class="hint">a instância propõe, o dono decide (D21)</span>
+    </div>
+    <div class="blocks">
+      <div class="brow">
+        <span class="st solved">Resolvido</span>
+        <span>O <b>“Fi ≈ 2,4”</b> deixou de ser bloqueio: é Fi 1,2 (Art. 24) × FSCE 2,0 (Art. 57, Lei 17.844/2022). Resta só <b>ligá-lo em série</b> — falta a coluna de pertinência ao Setor Central (recorte do perímetro AIU-SCE sobre cada imóvel).</span>
+      </div>
+      <div class="brow">
+        <span class="st paused">Pausado</span>
+        <span>O <b>preço legal</b> (Art. 128) segue pausado por decisão do dono — não reabro sem um “vai”.</span>
+      </div>
+      <div class="brow">
+        <span class="st owner">Aguarda dono</span>
+        <span>Política de integração contínua (“rodar o verificador só no envio”): economiza metade das execuções, mas deixa os PRs sem verificação — <b>escolha do dono</b>, ainda não aplicada.</span>
+      </div>
+    </div>
+  </section>
+
+  <hr class="rule-strong">
+
+  <!-- ============ COLOFÃO ============ -->
+  <section class="pad colophon rv">
+    <div class="src">
+      <div class="eyebrow" style="margin-bottom:12px">Onde isto mora</div>
+      <p><b>Fonte da verdade:</b> <code>PROXIMA-INSTANCIA.md</code> + <code>BACKLOG.md</code> (neste repositório). Decisões do dono em <code>docs/DECISOES-2026-07-05.md</code>.</p>
+      <p><b>Fragmento do mapa:</b> <code>portfolio-fragmento.json</code>. O Escritório do MOU consolida o HTML do Mapa Vivo a partir dele (D161) — a unidade manda o fragmento, não edita o HTML do escritório.</p>
+      <p><b>Método que serve o portfólio:</b> “lei → número com fonte” e a coleta GeoSampa pela VPS Brasil (ferramentas são de todos, D160).</p>
+    </div>
+    <div>
+      <div class="eyebrow" style="margin-bottom:12px">Glossário — toda sigla explicada (D159)</div>
+      <dl class="gloss">
+        <div><dt>TDC</dt><dd>Transferência do Direito de Construir — vender o potencial que o imóvel não usa.</dd></div>
+        <div><dt>PCpt</dt><dd>Potencial construtivo passível de transferência (o que se vende).</dd></div>
+        <div><dt>Atc</dt><dd>Área do terreno do imóvel cedente.</dd></div>
+        <div><dt>CAbás</dt><dd>Coeficiente de aproveitamento básico da zona.</dd></div>
+        <div><dt>Fi</dt><dd>Fator de interesse (incentivo da lei, Art. 24).</dd></div>
+        <div><dt>FSCE</dt><dd>Fator Setor Central (Art. 57, Lei 17.844/2022; vale 2,0).</dd></div>
+        <div><dt>AIU-SCE</dt><dd>Área de Intervenção Urbana do Setor Central (o perímetro que ativa o FSCE).</dd></div>
+        <div><dt>ZEPEC-BIR</dt><dd>Zona de preservação cultural — imóveis tombados.</dd></div>
+        <div><dt>Gate</dt><dd>Verificação mecânica automática antes de fechar.</dd></div>
+        <div><dt>PU 18</dt><dd>18ª instância desta unidade (contagem interna).</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <footer class="pad" style="padding-top:18px;padding-bottom:22px">
+    <span class="mono">POTENCIAL URBANO · RAG Jurídico IPTU/TDC · unidade do portfólio do MOU</span>
+    <span class="mono">Folha do Mapa Vivo · gerada 2026-07-10</span>
+  </footer>
+
+</main>
