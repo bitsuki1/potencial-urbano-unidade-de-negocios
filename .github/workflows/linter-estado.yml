@@ -3,9 +3,11 @@ name: linter-estado
 # (V-HOOK-REMOTO) — a Action roda no SERVIDOR a cada push, então o check de estado vale mesmo em remoto.
 # Falha (❌) só em 🟥 (ex.: CLAUDE.md/AGENTS.md inchado). Os 🟨 aparecem no log como aviso, não travam.
 on:
+  # D168 (decisão do dono 2026-07-10): linter só no PUSH (não no pull_request) — corta ~metade
+  # das execuções de Actions (cota) sem perder segurança: o gate completo (consolidar.yml) segue
+  # rodando e o gate local roda antes de todo push.
   push:
     branches: ['**']
-  pull_request:
   workflow_dispatch: {}
 jobs:
   linter-estado:
