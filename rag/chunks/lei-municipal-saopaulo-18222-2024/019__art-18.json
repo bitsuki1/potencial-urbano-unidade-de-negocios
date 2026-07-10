@@ -1,0 +1,56 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-18222-2024::019-art-18",
+  "lei_id": "lei-municipal-saopaulo-18222-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 18",
+  "numero": "18",
+  "header_raw": "Art. 18. Nos lotes e glebas contidos na Centralidade do Jaguaré ficam permitidas todas as",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção I",
+    "Art. 18"
+  ],
+  "texto": "Art. 18. Nos lotes e glebas contidos na Centralidade do Jaguaré ficam permitidas todas as\n\nsubcategorias de uso R2v e EHMP, observando-se, para os lotes com mais de 10.000m² (dez mil\n\nmetros quadrados), a disciplina prevista nos arts. 87 e 88 da Lei nº 16.402, de 22 de março de 2016 -\n\nLPUOS, e, ainda, as seguintes disposições:\n\nI - nos termos dispostos no art. 46 da Lei nº 16.402, de 22 de março de 2016 - LPUOS, localização de,\n\nno mínimo, 50% (cinquenta por cento) do percentual exigido para áreas verdes ao longo da Avenida\n\nJaguaré;\n\nII - nas áreas institucionais destinadas em função de novos loteamentos, aplica-se o disposto no art.\n\n45, § 4º, da Lei nº 16.402, de 22 de março de 2016 - LPUOS;\n\nIII - para fins de aplicação do Quadro 2 da Lei nº 16.402, de 22 de março de 2016 - LPUOS, não haverá\n\nárea destinada sem prévia afetação, devendo o percentual ordinariamente previsto para esta finalidade\n\nser distribuído na seguinte conformidade:\n\na) 3% (três por cento) do total da área destinada incorporada ao montante de área institucional do\n\nloteamento, perfazendo o total de 8% (oito por cento) da área total da gleba assinalada a esta\n\nfinalidade;\n\nb) 7% (sete por cento) do total da área inicialmente destinada a esta finalidade incorporada ao\n\nmontante de área verde do loteamento, perfazendo o total de 17% (dezessete por cento) da área total\n\nda gleba assinalada a esta finalidade.\n\nSeção II\n\nDas Zonas de Ocupação Especial",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 18.222/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção I › Art. 18",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-18222-de-27-de-dezembro-de-2024",
+    "vigencia": {
+      "inicio": "2024-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Lei nº 18.298/2025"
+      ],
+      "revogada_por": null,
+      "observacao": "Em vigor desde a publicacao; consolidada com alteracoes da Lei 18.298/2025 (27 dispositivos com redacao alterada, 1 incluido, 1 revogado — todos relativos a ZOE-Butantan)."
+    }
+  },
+  "tema": [
+    "plano_intervencao_urbana",
+    "arco_pinheiros",
+    "uso_ocupacao_solo",
+    "zoneamento",
+    "potencial_construtivo",
+    "habitacao_interesse_social",
+    "distrito_inovacao",
+    "meio_ambiente_urbano",
+    "mobilidade_urbana",
+    "outorga_onerosa"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Aprova o Plano de Intervenção Urbana para o território do Arco Pinheiros, em atendimento ao inciso IV do § 3º do art. 76 da Lei nº 16.050, de 31 de julho de 2014 - PDE; cria a Área de Intervenção Urbana Arco Pinheiros."
+}

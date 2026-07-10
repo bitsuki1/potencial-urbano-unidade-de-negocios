@@ -32,6 +32,7 @@ sys.path.insert(0, str(RAIZ / "engines" / "tdc"))
 import pcpt as ENGINE  # noqa: E402
 
 CSV_OFICIAL = RAIZ / "zepec" / "ferramenta" / "zepec_cedentes_oficial.csv"
+GOLDEN_CSV = RAIZ / "evals" / "ground-truth" / "golden-cedentes-sem-pii.csv"
 Q2 = Decimal("0.01")
 
 # FONTE INDEPENDENTE (LPUOS Art. 24, I–VII): (limite_superior_m2 ou None, Fi_legal, inciso).
@@ -82,6 +83,7 @@ def main():
         sys.exit(1)
 
     falhas = 0
+    n_checks = 0
     print("=== eval-produto (T2): golden-assert do engine de cedente sobre cedentes REAIS ===")
     for g in GOLDEN:
         area = Decimal(g["area"]); cabas = Decimal(g["cabas"])
@@ -117,6 +119,7 @@ def main():
         status = "PASS" if not detalhes else "FALHA"
         if detalhes:
             falhas += 1
+        n_checks += 1
         print(f"  [{status}] {g['sql']} faixa {inc} (área {area} m²): "
               + (f"Fi={fi_esp} pcpt={pcpt_esp} m²" if not detalhes else " ; ".join(detalhes)))
 
@@ -133,8 +136,127 @@ def main():
     if t9_falhas:
         falhas += 1
         print(f"    SQLs sem parcelamento flagado: {t9_falhas[:10]}", file=sys.stderr)
+    n_checks += 1
 
-    print(f"\nRESUMO: {len(GOLDEN)+1-falhas}/{len(GOLDEN)+1} PASS, {falhas} falha(s).")
+    # L-T9-2: não-vácuo — pelo menos 1 linha com PCpt > 50k deve existir (senão o check acima é vácuo).
+    if not grandes:
+        print("  [FALHA] T9 não-vácuo: 0 linhas com PCpt > 50.000 m² — check é vácuo (L-T9-2)")
+        falhas += 1
+    else:
+        print(f"  [PASS ] T9 não-vácuo: {len(grandes)} linha(s) > 50k confirmam check ativo (L-T9-2)")
+    n_checks += 1
+
+    # L-T11-2: integridade de conjuntos — membros NÃO têm saldo/preço individual (saldo é do conjunto).
+    conj_members = [r for r in csv_idx.values() if (r.get("conjunto_certidao") or "").strip()]
+    conj_bad = [r["sql_mestre"] for r in conj_members
+                if (r.get("saldo_pcpt_m2") or "").strip() or (r.get("preco_proxy_brl") or "").strip()]
+    print(f"  [{'PASS' if not conj_bad else 'FALHA'}] T11 conjuntos: "
+          f"{len(conj_members)} membros, {len(conj_bad)} com saldo/preço individual (deve ser 0)")
+    if conj_bad:
+        falhas += 1
+        print(f"    SQLs com saldo/preço espúrio: {conj_bad[:10]}", file=sys.stderr)
+    n_checks += 1
+
+    # L-T11-3: fixture com os conjuntos REAIS — exercita os conjuntos do CSV oficial.
+    # Agrupa por conjunto_certidao e verifica: (1) não-vácuo (>=3 conjuntos),
+    # (2) integridade do agrupamento, (3) membros de multi-membro sem saldo/preço individual.
+    conj_grupos = {}
+    for r in csv_idx.values():
+        c = (r.get("conjunto_certidao") or "").strip()
+        if c:
+            conj_grupos.setdefault(c, []).append(r)
+
+    t11_3_falhas = []
+    # (1) não-vácuo: pelo menos 3 conjuntos reais devem existir no CSV
+    if len(conj_grupos) < 3:
+        t11_3_falhas.append(f"apenas {len(conj_grupos)} conjuntos encontrados (mínimo 3)")
+    # Para cada conjunto:
+    for nome_conj, membros in sorted(conj_grupos.items()):
+        # (2) todos os membros compartilham o mesmo conjunto_certidao (integridade do agrupamento)
+        vals_conj = set((m.get("conjunto_certidao") or "").strip() for m in membros)
+        if len(vals_conj) != 1:
+            t11_3_falhas.append(f"{nome_conj}: membros com conjunto_certidao divergente ({vals_conj})")
+        # (3) multi-membro: nenhum membro individual tem saldo/preço preenchido
+        if len(membros) > 1:
+            for m in membros:
+                s = (m.get("saldo_pcpt_m2") or "").strip()
+                p = (m.get("preco_proxy_brl") or "").strip()
+                if s or p:
+                    t11_3_falhas.append(
+                        f"{nome_conj}/{m['sql_mestre']}: saldo/preço individual "
+                        f"preenchido em conjunto multi-membro")
+
+    print(f"  [{'PASS ' if not t11_3_falhas else 'FALHA'}] T11 conjuntos reais: "
+          f"{len(conj_grupos)} conjuntos exercitados (L-T11-3)")
+    if t11_3_falhas:
+        falhas += 1
+        for msg_f in t11_3_falhas[:10]:
+            print(f"    {msg_f}", file=sys.stderr)
+    n_checks += 1
+
+    # L-T4-5: não-vácuo vedação Art. 124 §2 — pelo menos 1 vedada bloqueada deve existir.
+    vedadas = [r for r in csv_idx.values() if "Art. 124 §2" in (r.get("pendencia_calculo") or "")]
+    if not vedadas:
+        print("  [FALHA] T8 vedação não-vácuo: 0 vedadas Art.124§2 no produto (L-T4-5)")
+        falhas += 1
+    else:
+        print(f"  [PASS ] T8 vedação não-vácuo: {len(vedadas)} vedadas bloqueadas (L-T4-5)")
+    n_checks += 1
+
+    # L-T2-2/T3: regime PCpt — todo JA_DECLARADO deve ter qualidade_estimativa=PENDENTE_FI_DECLARADO
+    ja_decl = [r for r in csv_idx.values() if (r.get("regime_pcpt") or "").strip() == "JA_DECLARADO"]
+    ja_bad = [r["sql_mestre"] for r in ja_decl
+              if (r.get("qualidade_estimativa") or "").strip() != "PENDENTE_FI_DECLARADO"]
+    if ja_bad:
+        print(f"  [FALHA] T3 regime: {len(ja_bad)} JA_DECLARADO sem PENDENTE_FI_DECLARADO (L-T2-2)")
+        falhas += 1
+    elif not ja_decl:
+        print("  [FALHA] T3 regime não-vácuo: 0 JA_DECLARADO no produto (L-T2-2)")
+        falhas += 1
+    else:
+        print(f"  [PASS ] T3 regime: {len(ja_decl)} JA_DECLARADO todos com PENDENTE_FI_DECLARADO (L-T2-2)")
+    n_checks += 1
+
+    # L-T2-2/T4: conservação Art.129 — coluna populada; não-vácuo (≥1 ELEGIVEL + ≥1 PENDENTE).
+    cons_vals = [(r.get("elegibilidade_conservacao") or "").strip() for r in csv_idx.values()]
+    cons_vazio = sum(1 for v in cons_vals if not v)
+    cons_elegivel = sum(1 for v in cons_vals if v == "ELEGIVEL")
+    cons_pendente = sum(1 for v in cons_vals if v == "PENDENTE_CONSERVACAO")
+    if cons_vazio:
+        print(f"  [FALHA] T4 conservação: {cons_vazio} linhas sem elegibilidade_conservacao (L-T2-2)")
+        falhas += 1
+    elif cons_elegivel == 0 or cons_pendente == 0:
+        print(f"  [FALHA] T4 conservação não-vácuo: ELEGIVEL={cons_elegivel} PENDENTE={cons_pendente} (L-T2-2)")
+        falhas += 1
+    else:
+        print(f"  [PASS ] T4 conservação: {cons_elegivel} ELEGIVEL, {cons_pendente} PENDENTE, sem vazio (L-T2-2)")
+    n_checks += 1
+
+    # L-T2-3: golden SEM-PII — fixture versionada deve existir e concordar com FAIXAS_LEGAIS.
+    if not GOLDEN_CSV.exists():
+        print("  [FALHA] L-T2-3: golden-cedentes-sem-pii.csv ausente (fixture SEM-PII não versionada)")
+        falhas += 1
+    else:
+        golden_rows = list(csv.DictReader(open(GOLDEN_CSV, encoding="utf-8")))
+        t23_bad = []
+        for gr in golden_rows:
+            area_g = Decimal(gr["area_terreno_m2"])
+            fi_g = Decimal(gr["fi_legal"])
+            pcpt_g = Decimal(gr["pcpt_esperado_m2"])
+            fi_esp_g, _ = fi_legal(area_g)
+            pcpt_esp_g = (area_g * Decimal(gr["ca_basico"]) * fi_esp_g).quantize(Q2, ROUND_HALF_UP)
+            if fi_g != fi_esp_g:
+                t23_bad.append(f"{gr['sql_mestre']}: fi={fi_g} != legal {fi_esp_g}")
+            if pcpt_g != pcpt_esp_g:
+                t23_bad.append(f"{gr['sql_mestre']}: pcpt={pcpt_g} != legal {pcpt_esp_g}")
+        if t23_bad:
+            print(f"  [FALHA] L-T2-3: golden SEM-PII diverge da lei: {t23_bad[:5]}")
+            falhas += 1
+        else:
+            print(f"  [PASS ] L-T2-3: golden SEM-PII ({len(golden_rows)} cedentes) concorda com FAIXAS_LEGAIS")
+    n_checks += 1
+
+    print(f"\nRESUMO: {n_checks-falhas}/{n_checks} PASS, {falhas} falha(s).")
     if falhas:
         print("GATE VERMELHO: engine/produto divergiu do Fi legal (Art. 24 LPUOS). "
               "Um Fi sabotado ou o produto com Fi drifted da lei quebra aqui (T2).", file=sys.stderr)

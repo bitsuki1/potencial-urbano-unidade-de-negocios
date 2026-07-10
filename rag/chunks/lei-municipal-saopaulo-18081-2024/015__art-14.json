@@ -1,0 +1,59 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-18081-2024::015-art-14",
+  "lei_id": "lei-municipal-saopaulo-18081-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 14",
+  "numero": "14",
+  "header_raw": "Art. 14. O art. 2º da Lei nº 16.402, de 2016, passa a vigorar com a seguinte redação:",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 14"
+  ],
+  "texto": "Art. 14. O art. 2º da Lei nº 16.402, de 2016, passa a vigorar com a seguinte redação:\n\n“Art. 2º ................................................................................................\n\n..............................................................................................................\n\nIII - a promoção da qualificação ambiental do Município, em especial nos territórios de intensa\n\ntransformação, de forma a contribuir na gestão integrada das águas com ênfase na drenagem urbana e\n\nna melhoria da cobertura vegetal priorizando a adoção de Soluções baseadas na Natureza (SbN) e\n\nInfraestruturas Verdes;\n\n.........................................................................................................\n\nV - a preservação, proteção e restauração de imóveis e territórios de interesse cultural, a preservação,\n\nproteção e restauração ecossistêmica das unidades de conservação, áreas de preservação e\n\nrecuperação dos mananciais, áreas de preservação permanente, remanescentes de vegetação\n\nsignificativa, imóveis e territórios de interesse cultural, da atividade produtiva instalada e bairros de\n\nurbanização consolidada;\n\n.........................................................................................................\n\nXIV - estimular o uso e ocupação do solo que seja compatível com a ampliação da vida útil das\n\nedificações; proteção e valorização do patrimônio edificado existente;\n\nXV - estimular a promoção da sustentabilidade dos espaços urbanos construídos com a recuperação\n\nde espaços funcionalmente obsoletos e ociosos;\n\nXVI - estimular a melhoria proporcional e progressiva da segurança, habitabilidade e funcionalidade\n\ndas edificações antigas, em relação à condição anterior, de acordo com parâmetros flexibilizados e\n\ncustomizados e com a devida participação social; valorização da diversidade econômica e sociocultural\n\ndos tecidos urbanos existentes na perspectiva de ampliação de acesso à moradia digna;\n\nXVII - criação de incentivos para reabilitação de edifícios e áreas urbanas num modelo de governança\n\npúblico comunitário.” (NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 18.081/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Art. 14",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-18081-de-19-de-janeiro-de-2023",
+    "vigencia": {
+      "inicio": "2024-01-19",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupação do Solo)",
+        "Lei nº 17.577/2021",
+        "Lei nº 16.499/2016"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicação. Revisão parcial da LPUOS para compatibilizar com a Lei 17.975/2023 (revisão intermediária do PDE). Vários artigos VETADOS (71, 83, 88-93)."
+    }
+  },
+  "tema": [
+    "parcelamento_uso_ocupacao_solo",
+    "zoneamento",
+    "coeficiente_aproveitamento",
+    "gabarito_altura",
+    "quota_ambiental",
+    "habitacao_interesse_social",
+    "eixo_estruturacao_urbana",
+    "zona_mista",
+    "fachada_ativa",
+    "fruicao_publica",
+    "patrimonio_cultural",
+    "zona_especial_protecao_cultural"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão parcial da Lei nº 16.402, de 22 de março de 2016 (LPUOS), visando à compatibilização de seu texto original com as supervenientes alterações decorrentes da promulgação da Lei nº 17.975, de 8 de julho de 2023 – Revisão Intermediária do Plano Diretor Estratégico do Município de São Paulo, nos termos da previsão de seu art. 126, e dá outras providências."
+}

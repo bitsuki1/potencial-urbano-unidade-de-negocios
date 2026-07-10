@@ -1,0 +1,59 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-18081-2024::085-art-84",
+  "lei_id": "lei-municipal-saopaulo-18081-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 84",
+  "numero": "84",
+  "header_raw": "Art. 84. As zonas definidas para cada lote do município são aquelas definidas pelo Mapa 1, anexo a",
+  "caminho_hierarquico": [
+    "CAPÍTULO IV",
+    "Art. 84"
+  ],
+  "texto": "Art. 84. As zonas definidas para cada lote do município são aquelas definidas pelo Mapa 1, anexo a\n\nesta Lei.\n\nParágrafo único. O Mapa 1 – Perímetros das Zonas, exceto ZEPEC, anexo à Lei nº 16.402, de 2016,\n\nfica alterado pelo mapa referido no caput deste artigo, contendo a sobreposição da representação\n\ngráfica da ampliação e exclusão de áreas de influências dos eixos de transformação urbana existentes\n\ne previstas, observando-se o disposto no § 2º do art. 3º desta Lei.\n\n(Vide parágrafo único do art. 8º da Lei nº 18.177/2024, segundo o qual \"Fica substituído o MAPA I\n\nanexo a Lei nº 18.081, de 2024 pelo mapa referido no caput deste artigo\"); (Suspensa a vigência da\n\n\"alteração de zoneamento de ZCOR de lotes na Marginal Pinheiros\", conforme liminar deferida na ADI\n\nnº 2283278-41.2024.8.26.0000)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 18.081/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO IV › Art. 84",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-18081-de-19-de-janeiro-de-2023",
+    "vigencia": {
+      "inicio": "2024-01-19",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupação do Solo)",
+        "Lei nº 17.577/2021",
+        "Lei nº 16.499/2016"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicação. Revisão parcial da LPUOS para compatibilizar com a Lei 17.975/2023 (revisão intermediária do PDE). Vários artigos VETADOS (71, 83, 88-93)."
+    }
+  },
+  "tema": [
+    "parcelamento_uso_ocupacao_solo",
+    "zoneamento",
+    "coeficiente_aproveitamento",
+    "gabarito_altura",
+    "quota_ambiental",
+    "habitacao_interesse_social",
+    "eixo_estruturacao_urbana",
+    "zona_mista",
+    "fachada_ativa",
+    "fruicao_publica",
+    "patrimonio_cultural",
+    "zona_especial_protecao_cultural"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão parcial da Lei nº 16.402, de 22 de março de 2016 (LPUOS), visando à compatibilização de seu texto original com as supervenientes alterações decorrentes da promulgação da Lei nº 17.975, de 8 de julho de 2023 – Revisão Intermediária do Plano Diretor Estratégico do Município de São Paulo, nos termos da previsão de seu art. 126, e dá outras providências."
+}

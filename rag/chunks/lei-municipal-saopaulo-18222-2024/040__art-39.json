@@ -1,0 +1,56 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-18222-2024::040-art-39",
+  "lei_id": "lei-municipal-saopaulo-18222-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 39",
+  "numero": "39",
+  "header_raw": "Art. 39. A implantação do Programa de Intervenções da AIU-ACP dar-se-á mediante arranjos",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Seção I",
+    "Art. 39"
+  ],
+  "texto": "Art. 39. A implantação do Programa de Intervenções da AIU-ACP dar-se-á mediante arranjos\n\ninstitucionais entre os órgãos e entidades municipais, estaduais e federais e agentes privados, cuja\n\ngovernança será regulada por instrumento normativo específico, que disciplinará a articulação e a\n\ndistribuição de competências entre os atores envolvidos.\n\nParágrafo único. A coordenação das ações previstas no caput deste artigo caberá à SP-Urbanismo.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 18.222/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO V › Seção I › Art. 39",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-18222-de-27-de-dezembro-de-2024",
+    "vigencia": {
+      "inicio": "2024-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Lei nº 18.298/2025"
+      ],
+      "revogada_por": null,
+      "observacao": "Em vigor desde a publicacao; consolidada com alteracoes da Lei 18.298/2025 (27 dispositivos com redacao alterada, 1 incluido, 1 revogado — todos relativos a ZOE-Butantan)."
+    }
+  },
+  "tema": [
+    "plano_intervencao_urbana",
+    "arco_pinheiros",
+    "uso_ocupacao_solo",
+    "zoneamento",
+    "potencial_construtivo",
+    "habitacao_interesse_social",
+    "distrito_inovacao",
+    "meio_ambiente_urbano",
+    "mobilidade_urbana",
+    "outorga_onerosa"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Aprova o Plano de Intervenção Urbana para o território do Arco Pinheiros, em atendimento ao inciso IV do § 3º do art. 76 da Lei nº 16.050, de 31 de julho de 2014 - PDE; cria a Área de Intervenção Urbana Arco Pinheiros."
+}

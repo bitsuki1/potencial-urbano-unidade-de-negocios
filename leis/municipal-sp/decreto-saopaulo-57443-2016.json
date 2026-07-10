@@ -6,7 +6,21 @@
   "numero": "57443",
   "ano": "2016",
   "ementa": "(ver texto integral)",
-  "tema": [],
+  "tema": [
+    "fiscalizacao_posturas",
+    "uso_ocupacao_solo",
+    "licenciamento",
+    "preservacao_patrimonio"
+  ],
+  "dispositivos_chave": [
+    "Art. 1 — Regulamenta procedimentos de fiscalizacao de posturas (arts. 26, 139-153 e 176 da Lei 16.402/2016)",
+    "Art. 4 — Enquadramento da irregularidade de atividade sem licenca (art. 141 da Lei 16.402)",
+    "Art. 9 — Custo das providencias executadas pela Prefeitura a cargo do infrator (art. 142 da Lei 16.402)",
+    "Art. 11 — Verificacao de incomodidade e penalidades (art. 148 da Lei 16.402)",
+    "Art. 13 — Procedimento de fechamento administrativo por infracao",
+    "Art. 20 — Fiscalizacao de edificacoes e instalacoes irregulares (art. 176 da Lei 16.402)",
+    "Arts. 21-24 — Fiscalizacao de imoveis ZEPEC: multas por descumprimento de conservacao (arts. 24 e 26 da Lei 16.402)"
+  ],
   "vigencia": {
     "inicio": "2016-11-10",
     "fim": null,
@@ -14,6 +28,56 @@
     "altera": [],
     "alterada_por": []
   },
+  "remissoes": [
+    {
+      "de": "Art. 1",
+      "para": "Lei 16402/2016, arts. 26, 139-153 e 176",
+      "tipo": "remissao_externa",
+      "trecho": "regulamentando os artigos 26, 139 a 153 e 176 da Lei nº 16.402, de 22 de março de 2016"
+    },
+    {
+      "de": "Art. 4",
+      "para": "Lei 16402/2016, art. 141",
+      "tipo": "remissao_externa",
+      "trecho": "para os fins de aplicação do disposto no artigo 141 da Lei nº 16.402, de 2016"
+    },
+    {
+      "de": "Art. 11",
+      "para": "Lei 16402/2016, art. 148",
+      "tipo": "remissao_externa",
+      "trecho": "a aplicação das penalidades de que trata o artigo 148 da Lei nº 16.402, de 2016"
+    },
+    {
+      "de": "Art. 13",
+      "para": "Decreto 49969/2008, art. 43",
+      "tipo": "remissao_externa",
+      "trecho": "para os fins do art. 43 do Decreto nº 49.969, de 28 de agosto de 2008"
+    },
+    {
+      "de": "Art. 20",
+      "para": "Lei 16402/2016, art. 176",
+      "tipo": "remissao_externa",
+      "trecho": "para fins de atendimento ao disposto no artigo 176 da Lei nº 16.402, de 22 de março de 2016"
+    },
+    {
+      "de": "Art. 20",
+      "para": "Lei 18177/2024, art. 9",
+      "tipo": "remissao_externa",
+      "trecho": "na redação conferida pelo artigo 9º da Lei nº 18.177, de 25 de julho de 2024"
+    },
+    {
+      "de": "Art. 21",
+      "para": "Lei 16402/2016, arts. 24 e 26",
+      "tipo": "remissao_externa",
+      "trecho": "multas previstas nos §§ 2º e 3º do artigo 24 e no inciso I do § 1º do artigo 26, ambos da Lei nº 16.402, de 2016"
+    },
+    {
+      "de": "Art. 21",
+      "para": "Lei 15948/2013, art. 35",
+      "tipo": "remissao_externa",
+      "trecho": "de acordo com o artigo 35 da Lei nº 15.948, de 26 de dezembro de 2013"
+    }
+  ],
   "fonte": {
     "origem": "Google Drive",
     "path": "_entrada/iptu/decreto-no-57-443-de-10-de-novembro-de-2016-catalogo-de-legislacao-mun.txt",

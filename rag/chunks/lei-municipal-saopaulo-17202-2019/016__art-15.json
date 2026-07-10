@@ -1,0 +1,52 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17202-2019::016-art-15",
+  "lei_id": "lei-municipal-saopaulo-17202-2019",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 15",
+  "numero": "15",
+  "header_raw": "Art. 15. Não será lançado Imposto sobre Serviços de Qualquer Natureza – ISS relativamente às edificações enquadradas no art. 5º desta Lei, destinadas exclusivamente a uso residencial, sem prejuízo de seu lançamento e cobrança posteriores pela Secretaria Municipal da Fazenda.",
+  "caminho_hierarquico": [
+    "CAPÍTULO VIII",
+    "Art. 15"
+  ],
+  "texto": "Art. 15. Não será lançado Imposto sobre Serviços de Qualquer Natureza – ISS relativamente às edificações enquadradas no art. 5º desta Lei, destinadas exclusivamente a uso residencial, sem prejuízo de seu lançamento e cobrança posteriores pela Secretaria Municipal da Fazenda.\n\n§ 1º Aplicam-se as disposições deste artigo para fatos geradores ocorridos até a data prevista no caput do art. 1º desta Lei.\n\n§ 2º As edificações cujos processos de regularização não forem deferidos nos termos desta Lei, e aquelas cuja regularização venha a ser cancelada, terão o Imposto Sobre Serviços de Qualquer Natureza – ISS lançados.\n\n§ 3º Não se aplica o disposto no caput deste artigo aos créditos tributários já constituídos e referentes ao SQL que se busca regularizar, hipótese na qual a regularização somente será possível com a extinção dos referidos créditos.\n\n§ 4º Em nenhuma hipótese serão restituídos valores de Imposto sobre Serviços de Qualquer Natureza – ISS de que trata o caput deste artigo, pagos anteriormente à edição desta Lei.\n\nCAPÍTULO IX\n\nDAS DISPOSIÇÕES FINAIS",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.202/2019 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO VIII › Art. 15",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17202-de-16-de-outubro-de-2019",
+    "vigencia": {
+      "inicio": "2020-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 22 prorrogado até 31/12/2025 (Lei 18.209/2024). Arts. 6, 8, 9 e 14 alterados pela Lei 18.270/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.346/2020 (art. 22)",
+        "Lei 17.556/2021 (art. 22)",
+        "Lei 17.771/2022 (art. 22)",
+        "Lei 18.062/2023 (art. 22)",
+        "Lei 18.209/2024 (art. 22)",
+        "Lei 18.270/2025 (arts. 6, 8, 9, 14)"
+      ]
+    }
+  },
+  "tema": [
+    "regularizacao_edificacoes",
+    "outorga_onerosa",
+    "permeabilidade",
+    "FUNDURB"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a regularização de edificações, condicionada, quando necessário, à realização de obras, nos termos da previsão do art. 367 do Plano Diretor Estratégico."
+}

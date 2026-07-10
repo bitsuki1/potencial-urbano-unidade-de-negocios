@@ -1,0 +1,59 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17975-2023::047-art-45",
+  "lei_id": "lei-municipal-saopaulo-17975-2023",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 45",
+  "numero": "45",
+  "header_raw": "Art. 45. O art. 117 da Lei nº 16.050, de 2014, passa a vigorar acrescido dos §§ 6º, 7º, 8º, 9º e 10, com a",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Seção II",
+    "Art. 45"
+  ],
+  "texto": "Art. 45. O art. 117 da Lei nº 16.050, de 2014, passa a vigorar acrescido dos §§ 6º, 7º, 8º, 9º e 10, com a\n\nseguinte redação.\n\n“Art. 117. ...................................................................................\n\n....................................................................................................\n\n§ 6º Para a aplicação da contrapartida financeira relativa à outorga de potencial construtivo adicional\n\nserão adotados os seguintes procedimentos:\n\nI - nos projetos modificativos para o mesmo uso, nos termos da LPUOS e da legislação edilícia, o valor\n\nreferente à outorga onerosa, quando necessária, será calculado sobre a área computável adicional\n\nproposta, nos termos da legislação vigente;\n\nII - no caso de projeto aprovado, cuja edificação não tenha sido executada, em que tenha havido o\n\npagamento de contrapartida financeira relativa à outorga onerosa de potencial construtivo adicional, o\n\nvalor comprovadamente pago, sem atualização, será descontado do montante referente à outorga\n\nonerosa devida em novo projeto aprovado no mesmo imóvel, observado o seguinte:\n\na) a outorga onerosa do novo projeto será calculada nos termos da legislação vigente;\n\nb) o novo projeto deverá ser protocolizado no prazo de 5 (cinco) anos, contados da data da expedição\n\ndo alvará de aprovação não executado;\n\nIII - no caso de mudança de uso, categoria de uso ou subcategoria de uso em edificação em que tenha\n\nhavido contrapartida financeira relativa à outorga onerosa de potencial construtivo adicional ou que\n\nteve benefícios referentes a leis específicas, será devida outorga onerosa calculada para o novo uso\n\nhttps://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023 23/60\n\n04/12/2025, 17:28 LEI Nº 17.975 DE 8 DE JULHO DE 2023 « Catálogo de Legislação Municipal\n\npretendido, nos termos da legislação vigente, descontando-se os valores efetivamente pagos, sem\n\natualização;\n\nIV - no caso de reforma com acréscimo de área e demolição parcial de área construída, caberá\n\npagamento da outorga referente às novas áreas, quando ultrapassado o coeficiente de aproveitamento\n\nbásico até o coeficiente de aproveitamento máximo ou ainda quando ultrapassado o coeficiente\n\ncorrespondente à área existente a manter até o coeficiente de aproveitamento máximo.\n\n§ 7º Em nenhuma hipótese haverá devolução de valores pagos relativos à outorga onerosa, sendo\n\nvedada a transferência para outro imóvel.\n\n§ 8º Para efeito de cálculo da cobrança de outorga onerosa que trata o § 2º do art. 115 desta Lei, o\n\nvalor deverá ser calculado conforme o caput deste artigo e deverá ser acrescido 5% (cinco por cento)\n\nao valor.\n\n§ 9º Para efeito de cálculo de coeficiente de aproveitamento e outorga onerosa em reformas, as áreas\n\nexistentes, a construir ou a transformar deverão ser consideradas como áreas computáveis ou não\n\ncomputáveis desde que não ultrapasse o coeficiente máximo, mediante o pagamento de outorga\n\nonerosa a partir do C.A. básico que sejam permitidos pela legislação vigente.\n\n§ 10. No caso de execução de demolição total do imóvel regular, com ou sem mudança de uso, os\n\níndices e taxas poderão ser mantidos mesmo que maiores que o permitido pela legislação vigente,\n\nmediante pagamento de outorga onerosa a partir do C.A. básico.” (NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Seção II › Art. 45",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "vigencia": {
+      "inicio": "2023-07-08",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.050/2014 (Plano Diretor Estrategico — PDE)",
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupacao do Solo)"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicacao. Revisao intermediaria do PDE conforme art. 4o da Lei 16.050/2014. Regulamentada por Resolucao SMUL/CIMPDE n. 1/2024, Decreto 63.130/2024 e Decreto 63.728/2024."
+    }
+  },
+  "tema": [
+    "plano_diretor",
+    "revisao_intermediaria",
+    "ordenamento_territorial",
+    "zoneamento",
+    "transferencia_direito_construir",
+    "outorga_onerosa",
+    "potencial_construtivo",
+    "funcao_social_propriedade",
+    "desenvolvimento_urbano",
+    "habitacao_interesse_social",
+    "patrimonio_cultural",
+    "meio_ambiente"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão intermediária do Plano Diretor Estratégico do Município de São Paulo, aprovado pela Lei nº 16.050, de 31 de julho de 2014, nos termos da previsão de seu art. 4º."
+}

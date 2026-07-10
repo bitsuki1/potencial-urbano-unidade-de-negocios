@@ -1,0 +1,58 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17975-2023::101-art-99",
+  "lei_id": "lei-municipal-saopaulo-17975-2023",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 99",
+  "numero": "99",
+  "header_raw": "Art. 99. O art. 314 da Lei nº 16.050, de 2014, passa a vigorar acrescido dos §§ 6º, 7º e 8º, com a",
+  "caminho_hierarquico": [
+    "CAPÍTULO X",
+    "Art. 99"
+  ],
+  "texto": "Art. 99. O art. 314 da Lei nº 16.050, de 2014, passa a vigorar acrescido dos §§ 6º, 7º e 8º, com a\n\nseguinte alteração:\n\n“Art. 314. ...................................................................................\n\n....................................................................................................\n\n§ 6º Fica criado o TICP Bixiga, que inclui o bairro do Bixiga, cujo perímetro e objetivos específicos\n\ndeverão ser previstos em lei específica.\n\n§ 7º Fica criado o TICP Represas, que inclui as represas Billings e Guarapiranga, cujo perímetro e\n\nobjetivos deverão ser previstos em lei específica.\n\n§ 8º O perímetro do TICP Bixiga, delimitado nos termos da Resolução 22/2002 do Conselho do\n\nPatrimônio Histórico e Cultural e Ambiental da Cidade de São Paulo, fica excluído da Zona de\n\nEstruturação Urbana até que seja formulado seu plano específico de reordenamento do território, de\n\nacordo com o § 6º deste artigo, que deverá incluir articulação com políticas habitacionais que garantam\n\na manutenção da população residente e do perfil racial deste perímetro, usando como parâmetro o\n\nperfil racial do último censo.” (NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO X › Art. 99",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "vigencia": {
+      "inicio": "2023-07-08",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.050/2014 (Plano Diretor Estrategico — PDE)",
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupacao do Solo)"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicacao. Revisao intermediaria do PDE conforme art. 4o da Lei 16.050/2014. Regulamentada por Resolucao SMUL/CIMPDE n. 1/2024, Decreto 63.130/2024 e Decreto 63.728/2024."
+    }
+  },
+  "tema": [
+    "plano_diretor",
+    "revisao_intermediaria",
+    "ordenamento_territorial",
+    "zoneamento",
+    "transferencia_direito_construir",
+    "outorga_onerosa",
+    "potencial_construtivo",
+    "funcao_social_propriedade",
+    "desenvolvimento_urbano",
+    "habitacao_interesse_social",
+    "patrimonio_cultural",
+    "meio_ambiente"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão intermediária do Plano Diretor Estratégico do Município de São Paulo, aprovado pela Lei nº 16.050, de 31 de julho de 2014, nos termos da previsão de seu art. 4º."
+}

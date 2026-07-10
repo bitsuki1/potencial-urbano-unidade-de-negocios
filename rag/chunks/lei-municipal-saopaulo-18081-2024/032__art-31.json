@@ -1,0 +1,59 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-18081-2024::032-art-31",
+  "lei_id": "lei-municipal-saopaulo-18081-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 31",
+  "numero": "31",
+  "header_raw": "Art. 31. O art. 59 da Lei nº 16.402, de 2016, passa a vigorar com a seguinte redação e suprimidos os",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 31"
+  ],
+  "texto": "Art. 31. O art. 59 da Lei nº 16.402, de 2016, passa a vigorar com a seguinte redação e suprimidos os\n\nincisos II e III do 2º.\n\n“Art. 59. Nas ZER-1, ZER-2, ZERa, ZCORa e ZPR, as restrições convencionais de loteamentos\n\naprovadas pela Prefeitura, estabelecidas em instrumento público registrado no Cartório de Registro de\n\nImóveis, referentes a dimensionamento de lotes, recuos, taxa de ocupação, coeficiente de\n\naproveitamento, altura e número de pavimentos das edificações, deverão ser atendidas quando mais\n\nrestritivas que as disposições desta Lei.\n\n§ 1º Os usos permitidos nos loteamentos referidos no caput deste artigo serão aqueles definidos por\n\nesta Lei para as respectivas zonas.\n\n§ 2º A alteração das restrições convencionais dos loteamentos deverá atender às seguintes condições:\n\nI - realização de acordo entre o loteador e os proprietários dos lotes atingidos pela alteração;\nII - emissão de parecer técnico favorável da CTLU;\n\nIII - anuência expressa do Executivo.” (NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 18.081/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Art. 31",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-18081-de-19-de-janeiro-de-2023",
+    "vigencia": {
+      "inicio": "2024-01-19",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupação do Solo)",
+        "Lei nº 17.577/2021",
+        "Lei nº 16.499/2016"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicação. Revisão parcial da LPUOS para compatibilizar com a Lei 17.975/2023 (revisão intermediária do PDE). Vários artigos VETADOS (71, 83, 88-93)."
+    }
+  },
+  "tema": [
+    "parcelamento_uso_ocupacao_solo",
+    "zoneamento",
+    "coeficiente_aproveitamento",
+    "gabarito_altura",
+    "quota_ambiental",
+    "habitacao_interesse_social",
+    "eixo_estruturacao_urbana",
+    "zona_mista",
+    "fachada_ativa",
+    "fruicao_publica",
+    "patrimonio_cultural",
+    "zona_especial_protecao_cultural"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão parcial da Lei nº 16.402, de 22 de março de 2016 (LPUOS), visando à compatibilização de seu texto original com as supervenientes alterações decorrentes da promulgação da Lei nº 17.975, de 8 de julho de 2023 – Revisão Intermediária do Plano Diretor Estratégico do Município de São Paulo, nos termos da previsão de seu art. 126, e dá outras providências."
+}

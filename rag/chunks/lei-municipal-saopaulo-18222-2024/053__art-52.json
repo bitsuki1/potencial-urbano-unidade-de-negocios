@@ -1,0 +1,55 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-18222-2024::053-art-52",
+  "lei_id": "lei-municipal-saopaulo-18222-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 52",
+  "numero": "52",
+  "header_raw": "Art. 52. Ficam parcialmente revogados, nos trechos indicados, os alinhamentos viários aprovados pelas",
+  "caminho_hierarquico": [
+    "CAPÍTULO VI",
+    "Art. 52"
+  ],
+  "texto": "Art. 52. Ficam parcialmente revogados, nos trechos indicados, os alinhamentos viários aprovados pelas\n\nleis abaixo relacionadas, na seguinte conformidade:\n\nI - Lei nº 5.266, de 4 de julho de 1957, no trecho entre as ruas Carlos Weber e Passo da Pátria indicado\n\nna Planta nº 26.995/07 integrante desta Lei;\n\nII - Lei nº 5.855, de 7 de novembro de 1961, no trecho entre a Avenida Eng.º Roberto Zuccolo e a Rua\n\nMajor Paladino indicado na Planta nº 26.995/02 integrante desta Lei;\n\nIII - Lei nº 16.541, de 8 de setembro de 2016, no trecho entre a Rua Major Paladino e a Avenida\n\nErnesto Igel indicado nas Plantas nº 26.995/02 e nº 26.995/03 integrantes desta Lei, no trecho entre as\n\nruas Xavier Kraus e Hayden indicado na Planta nº 26.995/07 integrante desta Lei, e no trecho entre as\n\nruas Dr. Avelino Chaves e Blumenau indicado na Planta nº 26.995/10 integrante desta Lei.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 18.222/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO VI › Art. 52",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-18222-de-27-de-dezembro-de-2024",
+    "vigencia": {
+      "inicio": "2024-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Lei nº 18.298/2025"
+      ],
+      "revogada_por": null,
+      "observacao": "Em vigor desde a publicacao; consolidada com alteracoes da Lei 18.298/2025 (27 dispositivos com redacao alterada, 1 incluido, 1 revogado — todos relativos a ZOE-Butantan)."
+    }
+  },
+  "tema": [
+    "plano_intervencao_urbana",
+    "arco_pinheiros",
+    "uso_ocupacao_solo",
+    "zoneamento",
+    "potencial_construtivo",
+    "habitacao_interesse_social",
+    "distrito_inovacao",
+    "meio_ambiente_urbano",
+    "mobilidade_urbana",
+    "outorga_onerosa"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Aprova o Plano de Intervenção Urbana para o território do Arco Pinheiros, em atendimento ao inciso IV do § 3º do art. 76 da Lei nº 16.050, de 31 de julho de 2014 - PDE; cria a Área de Intervenção Urbana Arco Pinheiros."
+}

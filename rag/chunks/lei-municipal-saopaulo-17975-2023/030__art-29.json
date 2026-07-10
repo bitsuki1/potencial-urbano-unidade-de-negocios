@@ -1,0 +1,59 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17975-2023::030-art-29",
+  "lei_id": "lei-municipal-saopaulo-17975-2023",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 29",
+  "numero": "29",
+  "header_raw": "Art. 29. O art. 79 da Lei nº 16.050, de 2014, passa a vigorar acrescido dos §§ 9º e 10 com a seguinte",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção III",
+    "Art. 29"
+  ],
+  "texto": "Art. 29. O art. 79 da Lei nº 16.050, de 2014, passa a vigorar acrescido dos §§ 9º e 10 com a seguinte\n\nredação:\n\n“Art. 79. .....................................................................................\n\n....................................................................................................\n\n§ 9º Nas áreas de influência dos eixos, a cota máxima de terreno por unidade habitacional poderá ser\n\nsuperada, até o limite de 30 m² (trinta metros quadrados) de terreno por unidade, mediante aplicação\n\nde Fator Social na seguinte conformidade:\n\nI - para as unidades de área maior que 70m² (setenta metros quadrados), variando de 1 (um) a 2 (dois),\n\nna proporção da cota-parte utilizada entre 20m² (vinte metros quadrados) e 30m² (trinta metros\n\nquadrados) de terreno por unidade;\n\nII - para as demais unidades, conforme o disposto no Quadro 5 da Lei.\n\n§ 10. A cota-parte mínima de terreno poderá ser superior a 30 desde que seja aplicado Fator Social\n\n(FS) 3 (três) para qualquer uso.” (NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção III › Art. 29",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "vigencia": {
+      "inicio": "2023-07-08",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.050/2014 (Plano Diretor Estrategico — PDE)",
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupacao do Solo)"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicacao. Revisao intermediaria do PDE conforme art. 4o da Lei 16.050/2014. Regulamentada por Resolucao SMUL/CIMPDE n. 1/2024, Decreto 63.130/2024 e Decreto 63.728/2024."
+    }
+  },
+  "tema": [
+    "plano_diretor",
+    "revisao_intermediaria",
+    "ordenamento_territorial",
+    "zoneamento",
+    "transferencia_direito_construir",
+    "outorga_onerosa",
+    "potencial_construtivo",
+    "funcao_social_propriedade",
+    "desenvolvimento_urbano",
+    "habitacao_interesse_social",
+    "patrimonio_cultural",
+    "meio_ambiente"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão intermediária do Plano Diretor Estratégico do Município de São Paulo, aprovado pela Lei nº 16.050, de 31 de julho de 2014, nos termos da previsão de seu art. 4º."
+}

@@ -1,0 +1,58 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17975-2023::118-art-116",
+  "lei_id": "lei-municipal-saopaulo-17975-2023",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 116",
+  "numero": "116",
+  "header_raw": "Art. 116. Poderão ser criados conselhos locais de comércio, que deverão atender as seguintes regras:",
+  "caminho_hierarquico": [
+    "CAPÍTULO XII",
+    "Art. 116"
+  ],
+  "texto": "Art. 116. Poderão ser criados conselhos locais de comércio, que deverão atender as seguintes regras:\n\nI - os Conselhos Locais do Comércio serão vinculados às suas respectivas subprefeituras, formados\n\npor membros representantes de estabelecimentos comerciais e residentes no perímetro onde o\n\ncorredor de comércio se encontra instalado;\n\nII - os Conselhos Locais do Comércio terão a finalidade de sugerir e contribuir na definição de\n\nprogramas de qualificação urbana por meio de projetos financiados pelo FUNDURB (Fundo Municipal\n\nde Desenvolvimento Urbano), por recursos das subprefeituras ou por fundos oriundos da iniciativa\n\nprivada com gestão participativa do governo, voltados para o desenvolvimento urbano local;\n\nIII - os Conselhos Locais do Comércio, nas Zonas Corredores deverão contar com pelo menos um\n\nrepresentante da Associação Comercial de São Paulo (ACSP), do Clube de Lojistas (CDL) ou outras\n\ninstituições representativas similares;\n\nIV - a presidência dos Conselhos Locais do Comércio será exercida pelo subprefeito(a) local;\n\nV - a instauração dos Conselhos Locais do Comércio será feita por Decreto Regulamentador do\n\nExecutivo Municipal.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO XII › Art. 116",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "vigencia": {
+      "inicio": "2023-07-08",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.050/2014 (Plano Diretor Estrategico — PDE)",
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupacao do Solo)"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicacao. Revisao intermediaria do PDE conforme art. 4o da Lei 16.050/2014. Regulamentada por Resolucao SMUL/CIMPDE n. 1/2024, Decreto 63.130/2024 e Decreto 63.728/2024."
+    }
+  },
+  "tema": [
+    "plano_diretor",
+    "revisao_intermediaria",
+    "ordenamento_territorial",
+    "zoneamento",
+    "transferencia_direito_construir",
+    "outorga_onerosa",
+    "potencial_construtivo",
+    "funcao_social_propriedade",
+    "desenvolvimento_urbano",
+    "habitacao_interesse_social",
+    "patrimonio_cultural",
+    "meio_ambiente"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão intermediária do Plano Diretor Estratégico do Município de São Paulo, aprovado pela Lei nº 16.050, de 31 de julho de 2014, nos termos da previsão de seu art. 4º."
+}

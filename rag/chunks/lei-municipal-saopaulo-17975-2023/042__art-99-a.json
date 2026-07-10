@@ -1,0 +1,59 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17975-2023::042-art-99-a",
+  "lei_id": "lei-municipal-saopaulo-17975-2023",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 99-A",
+  "numero": "99-A",
+  "header_raw": "Art. 99-A. O Poder Público Municipal, com base no art. 4º e no art. 5º, alínea “i”, do Decreto-Lei Federal",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Seção I",
+    "Art. 99-A"
+  ],
+  "texto": "Art. 99-A. O Poder Público Municipal, com base no art. 4º e no art. 5º, alínea “i”, do Decreto-Lei Federal\n\nnº 3.365, de 21 de junho de 1941, poderá promover a desapropriação por hasta pública de imóveis\n\nnotificados como descumpridores da função social da propriedade.\n\n§ 1º A desapropriação por hasta pública somente será possível após a averbação da notificação por\n\ndescumprimento da função social da propriedade no Cartório de Registro de Imóveis.\n\n§ 2º O decreto de utilidade pública para a desapropriação por hasta pública fixará as razões da\n\ndesapropriação e conterá, dentre outras disposições fixadas em regulamento:\n\nI - valor da avaliação administrativa do bem;\n\nII - vedação de lances de valor inferior ao da avaliação administrativa do bem;\n\nIII - prazo para aproveitamento do imóvel, nos termos da lei ou conforme fixado no decreto de utilidade\n\npública;\n\nIV - estipulação de sanções a serem aplicadas pelo descumprimento das obrigações;\n\nV - garantia, por hipoteca do próprio imóvel, em caso de aplicação de sanção pecuniária, nos termos\n\ndo inciso IV deste parágrafo;\n\nVI - obrigação do arrematante de efetuar o pagamento à vista, por meio de depósito em conta corrente\n\nposta à disposição do expropriado;\n\nhttps://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023 20/60\n\n04/12/2025, 17:28 LEI Nº 17.975 DE 8 DE JULHO DE 2023 « Catálogo de Legislação Municipal\n\nVII - registro da existência e quantificação de débitos do expropriado com o Poder Público Municipal ou\n\nsuas autarquias, que serão abatidos do valor depositado na conta corrente posta à disposição do\n\nexpropriado, realizando-se o pagamento à Administração Municipal das importâncias devidas;\n\nVIII - previsão de pagamento imediato, pelo arrematante, de débitos do expropriado com o Poder\n\nPúblico Municipal ou suas autarquias, como requisito para expedição da carta de arrematação;\n\nIX - previsão de instituição de hipoteca sobre o imóvel, em favor da entidade pública expropriante,\n\ncomo garantia real do cumprimento das obrigações;\n\nX - previsão de que a avaliação administrativa do imóvel a que se refere o inciso I constituirá o valor do\n\nimóvel para fins do art. 1.484 da Lei Federal nº 10.406, de 10 de janeiro de 2002 – Código Civil, ainda\n\nque o lance vencedor da hasta pública tenha sido superior.\n\n§ 3º A carta de arrematação expedida em favor do arrematante pela entidade pública expropriante\n\nconstituirá título hábil para o registro imobiliário da alienação e da hipoteca, na forma do art. 167, inciso\n\nI, item 26, da Lei Federal nº 6.015, de 31 de dezembro de 1973.” (NR)\n\nSubseção I\n\nDo Consórcio Imobiliário",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Seção I › Art. 99-A",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "vigencia": {
+      "inicio": "2023-07-08",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.050/2014 (Plano Diretor Estrategico — PDE)",
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupacao do Solo)"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicacao. Revisao intermediaria do PDE conforme art. 4o da Lei 16.050/2014. Regulamentada por Resolucao SMUL/CIMPDE n. 1/2024, Decreto 63.130/2024 e Decreto 63.728/2024."
+    }
+  },
+  "tema": [
+    "plano_diretor",
+    "revisao_intermediaria",
+    "ordenamento_territorial",
+    "zoneamento",
+    "transferencia_direito_construir",
+    "outorga_onerosa",
+    "potencial_construtivo",
+    "funcao_social_propriedade",
+    "desenvolvimento_urbano",
+    "habitacao_interesse_social",
+    "patrimonio_cultural",
+    "meio_ambiente"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão intermediária do Plano Diretor Estratégico do Município de São Paulo, aprovado pela Lei nº 16.050, de 31 de julho de 2014, nos termos da previsão de seu art. 4º."
+}

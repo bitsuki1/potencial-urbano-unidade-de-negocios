@@ -1,0 +1,58 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17975-2023::076-art-74",
+  "lei_id": "lei-municipal-saopaulo-17975-2023",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 74",
+  "numero": "74",
+  "header_raw": "Art. 74. O art. 196 da Lei nº 16.050, de 2014, passa a vigorar com seu parágrafo único renumerado",
+  "caminho_hierarquico": [
+    "CAPÍTULO VI",
+    "Art. 74"
+  ],
+  "texto": "Art. 74. O art. 196 da Lei nº 16.050, de 2014, passa a vigorar com seu parágrafo único renumerado\n\ncomo § 1º e acrescido dos §§ 2º, 3º, 4º, 5º e 6º, com a seguinte redação:\n\n“Art. 196. ...................................................................................\n\n§ 1º .............................................................................................\n\n§ 2º Aplicam-se às novas edificações, equipamentos ou instalações acima do nível do solo, ou que\n\ntenham permanência humana, necessários aos serviços de infraestrutura de utilidade pública de que\n\ntrata o caput deste artigo, os regramentos previstos na legislação urbanística, edilícia ou em leis\n\nespecíficas, podendo ser implantados em qualquer local do Município que as admita, desde que sua\n\nlocalização esteja prevista nesta Lei, no Plano Setorial pertinente, em ajustes deles decorrentes, nos\n\nPlanos Regionais das Subprefeituras ou em leis específicas.\n\n§ 3º Serão consideradas abrangidas nos documentos mencionados no § 2º do caput deste artigo as\n\ninstalações acessórias relacionadas às respectivas redes de infraestrutura, indispensáveis ao seu\n\nfuncionamento, tais como subestações, cabines de medição, caixas de inspeção, dutos de ventilação,\n\npátios de manobra, dentre outras.\n\n§ 4º Aplicam-se às reformas com alteração de área construída de edificações, equipamentos ou\n\ninstalações preexistentes referidas no § 2º do caput deste artigo os regramentos previstos na legislação\n\nurbanística, edilícia ou leis específicas.\n\n§ 5º Caberá à Câmara Técnica de Legislação Urbanística, com base nas suas competências atribuídas\n\npelo art. 330 desta Lei, em especial, para dirimir dúvidas na aplicação desta Lei e da legislação de\n\nParcelamento, Uso e Ocupação do Solo, promover a compatibilização da autorização legal da\n\ninstalação de infraestrutura em qualquer local do Município, com os regramentos previstos na\n\nlegislação urbanística, edilícia ou em leis específicas.\n\n§ 6º No caso de empreendimentos em zonas especiais de proteção ou preservação ambiental e em\n\náreas de preservação permanente, o atendimento ao disposto no § 2º do caput deste artigo estará\n\ncondicionado à demonstração de inexistência de alternativa técnica e/ou locacional à implantação, que\n\ndeverá ser avaliada pelo órgão municipal ambiental competente.” (NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO VI › Art. 74",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "vigencia": {
+      "inicio": "2023-07-08",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.050/2014 (Plano Diretor Estrategico — PDE)",
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupacao do Solo)"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicacao. Revisao intermediaria do PDE conforme art. 4o da Lei 16.050/2014. Regulamentada por Resolucao SMUL/CIMPDE n. 1/2024, Decreto 63.130/2024 e Decreto 63.728/2024."
+    }
+  },
+  "tema": [
+    "plano_diretor",
+    "revisao_intermediaria",
+    "ordenamento_territorial",
+    "zoneamento",
+    "transferencia_direito_construir",
+    "outorga_onerosa",
+    "potencial_construtivo",
+    "funcao_social_propriedade",
+    "desenvolvimento_urbano",
+    "habitacao_interesse_social",
+    "patrimonio_cultural",
+    "meio_ambiente"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão intermediária do Plano Diretor Estratégico do Município de São Paulo, aprovado pela Lei nº 16.050, de 31 de julho de 2014, nos termos da previsão de seu art. 4º."
+}

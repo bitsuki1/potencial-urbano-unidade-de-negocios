@@ -1,0 +1,56 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-18222-2024::045-art-44",
+  "lei_id": "lei-municipal-saopaulo-18222-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 44",
+  "numero": "44",
+  "header_raw": "Art. 44. Caberá à empresa SP-Urbanismo promover a implantação do PIU-ACP de forma global,",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Seção I",
+    "Art. 44"
+  ],
+  "texto": "Art. 44. Caberá à empresa SP-Urbanismo promover a implantação do PIU-ACP de forma global,\n\navaliando sistematicamente a evolução dos processos de desenvolvimento urbano na AIU-ACP,\n\nespecialmente sendo-lhe atribuídas, dentre outras constantes nesta Lei e em seus estatutos, as\n\nseguintes funções:\n\nI - coordenar o Conselho Gestor da AIU-ACP;\n\nII - desenvolver e detalhar os Planos de Ação Integrada e os Planos de Intervenção Urbana das AEL e\n\nmonitorar o desenvolvimento dos Projetos Estratégicos e os Planos de Intervenção Urbana das ZOEs\n\ncontidas em seu perímetro, acompanhando, em todos os casos, suas implantações;\n\nIII - apoiar os processos de aquisição e alienação de terras para implantação da AIU-ACP;\n\nIV - estruturar e coordenar os instrumentos de financiamento da implantação do Programa de\n\nIntervenções da AIU-ACP;\n\nV - implantar sistemática de indicadores para utilização no Sistema Municipal de Informações, inclusive\n\ncom informações georreferenciadas em meio digital;\n\nVI - propiciar o adequado acompanhamento da execução do Programa de Intervenções da AIU-ACP\n\npelo Conselho Gestor e pelos demais órgãos da Administração Direta e Indireta;\n\nVII - secretariar os conselhos criados por esta Lei e solicitar informações e esclarecimentos aos demais\n\nórgãos municipais envolvidos na implantação do Programa de Intervenções da AIU-ACP;\n\nVIII - intermediar a relação entre os órgãos do setor público e entre estes e o setor privado, com a\n\nfinalidade de facilitar os processos de implantação da AIU-ACP;\n\nIX - estruturar as formas de financiamento e modelos jurídicos para a implantação do Programa de\n\nIntervenções da AIU-ACP.\n\nParágrafo único. A SP-Urbanismo:\n\nI - apresentará ao Conselho Gestor da AIU relatórios que demonstrem o andamento das ações\n\nprevistas no Programa de Intervenções de seus respectivos territórios;\n\nII - publicará periodicamente informações sobre o andamento da implantação da AIU, em linguagem\n\nacessível à população.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 18.222/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO V › Seção I › Art. 44",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-18222-de-27-de-dezembro-de-2024",
+    "vigencia": {
+      "inicio": "2024-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Lei nº 18.298/2025"
+      ],
+      "revogada_por": null,
+      "observacao": "Em vigor desde a publicacao; consolidada com alteracoes da Lei 18.298/2025 (27 dispositivos com redacao alterada, 1 incluido, 1 revogado — todos relativos a ZOE-Butantan)."
+    }
+  },
+  "tema": [
+    "plano_intervencao_urbana",
+    "arco_pinheiros",
+    "uso_ocupacao_solo",
+    "zoneamento",
+    "potencial_construtivo",
+    "habitacao_interesse_social",
+    "distrito_inovacao",
+    "meio_ambiente_urbano",
+    "mobilidade_urbana",
+    "outorga_onerosa"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Aprova o Plano de Intervenção Urbana para o território do Arco Pinheiros, em atendimento ao inciso IV do § 3º do art. 76 da Lei nº 16.050, de 31 de julho de 2014 - PDE; cria a Área de Intervenção Urbana Arco Pinheiros."
+}

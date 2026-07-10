@@ -1,0 +1,56 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-18222-2024::011-art-10",
+  "lei_id": "lei-municipal-saopaulo-18222-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 10",
+  "numero": "10",
+  "header_raw": "Art. 10. Na hipótese de doação de parcela de imóvel à Prefeitura do Município de São Paulo para",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção I",
+    "Art. 10"
+  ],
+  "texto": "Art. 10. Na hipótese de doação de parcela de imóvel à Prefeitura do Município de São Paulo para\n\nexecução de melhoramentos públicos destinados à implantação das áreas verdes e melhoramentos\n\nviários indicados nos Mapas IV e V desta Lei, o potencial construtivo básico e o potencial construtivo\n\nmáximo do lote remanescente serão calculados em função de sua área original, não sendo cobrada\n\noutorga onerosa do direito de construir relativa ao potencial construtivo adicional da área doada.\n\n§ 1º O proprietário do imóvel poderá optar entre o benefício previsto no caput deste artigo e a\n\ntransferência total ou parcial do direito de construir correspondente ao potencial construtivo relativo à\n\nárea doada, de acordo com as disposições do art. 122 e seguintes da Lei nº 16.050, de 31 de julho de\n\n2014 - PDE.\n\n§ 2º Aos lotes e glebas com mais de 10.000m² (dez mil metros quadrados) atingidos pelos\n\nmelhoramentos públicos referidos no caput deste artigo, aplica-se a disciplina prevista no art. 87, da Lei\n\nnº 16.402, de 22 de março de 2016 - LPUOS.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 18.222/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção I › Art. 10",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-18222-de-27-de-dezembro-de-2024",
+    "vigencia": {
+      "inicio": "2024-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Lei nº 18.298/2025"
+      ],
+      "revogada_por": null,
+      "observacao": "Em vigor desde a publicacao; consolidada com alteracoes da Lei 18.298/2025 (27 dispositivos com redacao alterada, 1 incluido, 1 revogado — todos relativos a ZOE-Butantan)."
+    }
+  },
+  "tema": [
+    "plano_intervencao_urbana",
+    "arco_pinheiros",
+    "uso_ocupacao_solo",
+    "zoneamento",
+    "potencial_construtivo",
+    "habitacao_interesse_social",
+    "distrito_inovacao",
+    "meio_ambiente_urbano",
+    "mobilidade_urbana",
+    "outorga_onerosa"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Aprova o Plano de Intervenção Urbana para o território do Arco Pinheiros, em atendimento ao inciso IV do § 3º do art. 76 da Lei nº 16.050, de 31 de julho de 2014 - PDE; cria a Área de Intervenção Urbana Arco Pinheiros."
+}

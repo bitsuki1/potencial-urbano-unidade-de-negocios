@@ -67,6 +67,15 @@ jobs:
       - name: Regenerar MANIFESTO.json
         run: python3 scripts/consolidar.py
 
+      # L-T7-4: nenhum arquivo com coluna PII (proprietario/cpf/cnpj/…) nos dados brutos/limpos.
+      # zepec/ferramenta/ excluído: é a saída do produto (cedentes) — proprietario esperado (D-DONO-17).
+      - name: PII probe (T7)
+        run: |
+          SUJOS=$(git ls-files zepec/limpo zepec/oficial zepec/raw | while read f; do
+            if head -1 "$f" 2>/dev/null | grep -qiE 'proprietario|contribuinte|documento|cpf|cnpj'; then echo "$f"; fi
+          done || true)
+          if [ -n "$SUJOS" ]; then echo "PII tracked: $SUJOS"; exit 1; fi
+
       # GATES ANTES de publicar (achado B-13/F-6): se um gate reprovar, o build falha SEM ter
       # commitado/pushado o índice quebrado. Reordenado em 2026-06-20 (antes commitava primeiro).
       # GATE de aceite (Parte 3): falha se algum ground-truth ATIVO quebrar (aguardando_verbatim não bloqueia).
@@ -76,6 +85,10 @@ jobs:
       # GATE do engine (1.3 — número nasce no engine): auto-teste das fórmulas OODC/TDC.
       - name: Engine OODC/TDC (auto-teste das fórmulas)
         run: python3 engines/tdc/oodc.py
+
+      # GATE do Fp (Fator de Planejamento, Quadro 6 PDE): auto-teste do lookup por macroárea/subárea/uso.
+      - name: Engine Fp Quadro 6 (auto-teste do Fator de Planejamento)
+        run: python3 engines/tdc/fp.py
 
       # T2/S2 — GATE do engine de CEDENTE (Fi Art. 24 LPUOS): auto-teste do pcpt.py.
       - name: Engine cedente PCpt (auto-teste do Fi escalonado)
@@ -97,6 +110,10 @@ jobs:
       # M0 — a divergência PCpt×certidões (~1,66×) é SURFAÇADA e 100% flagada, nunca escondida.
       - name: Divergência PCpt × certidões (surfaçar, não esconder)
         run: python3 evals/eval-divergencia-pcpt.py
+
+      # G6 — GATE de mutação do Motor do Mapa: zona sabotada no pipeline DEVE produzir CAbás divergente.
+      - name: Mutação zona (G6 — Motor do Mapa × Quadro 3)
+        run: python3 evals/eval-zona-mutacao.py
 
       # Separação TDC×IPTU (plano 2026-07-04) — GATE: domínio carimbado (vocab fechado) + roteamento
       # provado (não-poluição, não-perda de 'compartilhado', PDE alcançável do TDC, anti-padrão eliminado).
@@ -125,6 +142,10 @@ jobs:
             echo "::error::rótulo/leitura de DEMANDA no produto seller-only (viola D-DONO-15)"; exit 1; fi
           if grep -rlnE "CODEX-[A-Za-z0-9-]*\.md" engines/ zepec/ scripts/ --include=*.py ; then
             echo "::error::código lê de CODEX-*.md (oráculo) — número de fórmula deve vir de tabela/engine (1.3)"; exit 1; fi
+          # ENG-03: motor00/ contém semantic_chunks e negative_prompts (oráculo); travas_operacionais
+          # é config de engine (precisão, tolerância) e é permitido. Bloqueia path-strings dos demais.
+          if grep -rnE "[\"']motor00/" engines/ zepec/ scripts/ --include=*.py | grep -vE "travas_operacionais" ; then
+            echo "::error::código lê de motor00/ (oráculo) — parâmetro de fórmula deve vir de tabelas/*.csv (1.3)"; exit 1; fi
           echo "anti-oráculo/anti-demanda: OK"
 
       # Só DEPOIS dos gates verdes: commita os artefatos derivados. NÃO em pull_request

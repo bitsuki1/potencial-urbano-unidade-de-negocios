@@ -1,0 +1,52 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17202-2019::011-art-10",
+  "lei_id": "lei-municipal-saopaulo-17202-2019",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 10",
+  "numero": "10",
+  "header_raw": "Art. 10. Os processos de que trata esta Lei são considerados especiais e seguem o rito previsto nesta Lei aplicando-se subsidiariamente, no que não for conflitante, o rito definido pela Lei nº 16.642, de 2017.",
+  "caminho_hierarquico": [
+    "CAPÍTULO VI",
+    "Art. 10"
+  ],
+  "texto": "Art. 10. Os processos de que trata esta Lei são considerados especiais e seguem o rito previsto nesta Lei aplicando-se subsidiariamente, no que não for conflitante, o rito definido pela Lei nº 16.642, de 2017.\n\n§ 1º As instâncias administrativas adotadas, de acordo com as competências, para apreciação dos pedidos de que trata esta Lei são as seguintes:\n\nI - Supervisor Técnico de Uso do Solo e Licenciamentos da respectiva Subprefeitura ou Diretor de Divisão da SEL;\n\nII - Coordenador de Planejamento e Desenvolvimento Urbano da respectiva Subprefeitura ou Coordenador da SEL.\n\n§ 2º O prazo para recurso, nos casos de indeferimento de pedido de regularização, será de 60 (sessenta) dias, a contar da publicação do despacho no Diário Oficial da Cidade – DOC, devendo ser notificado o interessado por meio eletrônico.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.202/2019 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO VI › Art. 10",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17202-de-16-de-outubro-de-2019",
+    "vigencia": {
+      "inicio": "2020-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 22 prorrogado até 31/12/2025 (Lei 18.209/2024). Arts. 6, 8, 9 e 14 alterados pela Lei 18.270/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.346/2020 (art. 22)",
+        "Lei 17.556/2021 (art. 22)",
+        "Lei 17.771/2022 (art. 22)",
+        "Lei 18.062/2023 (art. 22)",
+        "Lei 18.209/2024 (art. 22)",
+        "Lei 18.270/2025 (arts. 6, 8, 9, 14)"
+      ]
+    }
+  },
+  "tema": [
+    "regularizacao_edificacoes",
+    "outorga_onerosa",
+    "permeabilidade",
+    "FUNDURB"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a regularização de edificações, condicionada, quando necessário, à realização de obras, nos termos da previsão do art. 367 do Plano Diretor Estratégico."
+}

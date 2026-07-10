@@ -1,0 +1,169 @@
+# Lei Municipal nº 15.889, de 5 de novembro de 2013 — São Paulo/SP
+
+**URL oficial:** https://legislacao.prefeitura.sp.gov.br/leis/lei-15889-de-5-de-novembro-de-2013
+**Data de captura:** 2026-06-24
+**Proveniência:** VERBATIM INTEGRAL — extraido de `_entrada/iptu/anexo-i-integrante-da-lei-no-15-889-de-5-de-novembro-de-2013.txt` (Drive MCP read_file_content, fileId=1XTpOF--3AUoxiyY-87_VHs2kDGiM0ib0). Texto do Diario Oficial (Ano 58, nº 211, 6 de novembro de 2013). Saneado lixo de captura/OCR (hifenizacao de quebra de linha); conteudo normativo preservado integralmente.
+**confianca_extracao:** alta (articulado integral verbatim)
+
+## Ementa
+
+Atualiza os valores unitários de metro quadrado de construção e de terreno previstos na Lei nº 10.235, de 16 de dezembro de 1986; fixa, para efeitos fiscais, novos perímetros para a primeira e a segunda subdivisões da zona urbana do Município e dispõe sobre o Imposto Predial e Imposto Territorial Urbano - IPTU.
+
+## Texto integral (verbatim)
+
+LEI Nº 15.889, DE 5 DE NOVEMBRO DE 2013
+
+(PROJETO DE LEI Nº 711/13, DO EXECUTIVO, APROVADO NA FORMA DE SUBSTITUTIVO DO LEGISLATIVO)
+
+Atualiza os valores unitários de metro quadrado de construção e de terreno previstos na Lei nº 10.235, de 16 de dezembro de 1986; fixa, para efeitos fiscais, novos perímetros para a primeira e a segunda subdivisões da zona urbana do Município e dispõe sobre o Imposto Predial e Imposto Territorial Urbano - IPTU.
+
+FERNANDO HADDAD, Prefeito do Município de São Paulo, no uso das atribuições que lhe são conferidas por lei, faz saber que a Câmara Municipal, em sessão de 29 de outubro de 2013, decretou e eu promulgo a seguinte lei:
+
+Art. 1º A Tabela VI - Tipos e Padrões de Construção – Valores Unitários de Metro Quadrado de Construção e a Listagem de Valores Unitários de Metro Quadrado de Terreno, integrantes da Lei nº 10.235, de 16 de dezembro de 1986, com as alterações posteriores, utilizadas na apuração do valor venal, para fins de lançamento do Imposto Predial e do Imposto Territorial Urbano - IPTU, passam a vigorar na conformidade dos Anexos I e III, respectivamente, desta lei.
+
+Art. 2º A partir do exercício de 2014, a primeira e a segunda subdivisões da zona urbana do Município, para efeitos fiscais, passam a ter as delimitações perimétricas constantes do Anexo II desta lei.
+
+Art. 3º A tabela constante do art. 7º-A da Lei nº 6.989, de 29 de dezembro de 1966, com as alterações posteriores, utilizada no cálculo do Imposto Predial para imóveis de uso exclusiva ou predominantemente residencial, passa a vigorar na seguinte conformidade:
+
+| Faixas de valor venal | Desconto/Acréscimo |
+|---|---|
+| até R$ 150.000,00 | - 0,3% |
+| acima de R$ 150.000,00 até R$ 300.000,00 | - 0,1% |
+| acima de R$ 300.000,00 até R$ 600.000,00 | + 0,1% |
+| acima de R$ 600.000,00 até R$ 1.200.000,00 | + 0,3% |
+| acima de R$ 1.200.000,00 | + 0,5% |
+
+Art. 4º A tabela constante do art. 8º-A da Lei nº 6.989, de 1966, com as alterações posteriores, utilizada no cálculo do Imposto Predial para imóveis com utilização diversa da referida no art. 3º desta lei, passa a vigorar na seguinte conformidade:
+
+| Faixas de valor venal | Desconto/Acréscimo |
+|---|---|
+| até R$ 150.000,00 | - 0,4% |
+| acima de R$ 150.000,00 até R$ 300.000,00 | - 0,2% |
+| acima de R$ 300.000,00 até R$ 600.000,00 | 0,0% |
+| acima de R$ 600.000,00 até R$ 1.200.000,00 | + 0,2% |
+| acima de R$ 1.200.000,00 | + 0,4% |
+
+Art. 5º A tabela constante do art. 28 da Lei nº 6.989, de 1966, com as alterações posteriores, utilizada no cálculo do Imposto Territorial Urbano, passa a vigorar na seguinte conformidade:
+
+| Faixas de valor venal | Desconto/Acréscimo |
+|---|---|
+| até R$ 150.000,00 | - 0,4% |
+| acima de R$ 150.000,00 até R$ 300.000,00 | - 0,2% |
+| acima de R$ 300.000,00 até R$ 600.000,00 | 0,0% |
+| acima de R$ 600.000,00 até R$ 1.200.000,00 | + 0,2% |
+| acima de R$ 1.200.000,00 | + 0,4% |
+
+Art. 6º A partir do exercício de 2014, ressalvado o disposto no art. 8º desta lei, ficam isentos do Imposto Predial os imóveis construídos:
+
+I - cujo valor venal, na data do fato gerador do imposto, seja igual ou inferior a R$ 90.000,00 (noventa mil reais);
+
+II - utilizados exclusiva ou predominantemente como residência, de Padrões A, B ou C, dos Tipos 1 ou 2 da Tabela V, anexa à Lei nº 10.235, de 1986, e cujo valor venal, na data do fato gerador do imposto, seja superior a R$ 90.000,00 (noventa mil reais) e igual ou inferior a R$ 160.000,00 (cento e sessenta mil reais).
+
+Art. 7º A partir do exercício de 2014, ressalvado o disposto no art. 8º desta lei, para fins de lançamento do Imposto Predial, sobre o valor venal do imóvel obtido pela aplicação dos procedimentos previstos na Lei nº 10.235, de 1986, fica concedido o desconto correspondente à diferença entre:
+
+I - R$ 180.000,00 (cento e oitenta mil reais) e o valor venal do imóvel, para os imóveis construídos não referenciados no inciso II do art. 6º desta lei, cujo valor venal, na data do fato gerador do imposto, seja superior a R$ 90.000,00 (noventa mil reais) e igual ou inferior a R$ 180.000,00 (cento e oitenta mil reais);
+
+II - R$ 320.000,00 (trezentos e vinte mil reais) e o valor venal do imóvel, para os imóveis construídos referenciados no inciso II do art. 6º desta lei, e cujo valor venal, na data do fato gerador do imposto, seja superior a R$ 160.000,00 (cento e sessenta mil reais) e igual ou inferior a R$ 320.000,00 (trezentos e vinte mil reais).
+
+Art. 8º As isenções e os descontos previstos nos arts. 6º e 7º desta lei somente serão concedidos a um único imóvel por contribuinte e não se aplicam para as unidades autônomas de condomínio tributadas como garagem e para os estacionamentos comerciais.
+
+Art. 9º A diferença nominal entre o crédito tributário total do IPTU do exercício do lançamento e o do exercício anterior fica limitada:
+
+I – no caso de imóveis com utilização exclusiva ou predominantemente residencial, a 20% (vinte por cento) para fatos geradores ocorridos no exercício de 2014 e a 10% (dez por cento) para fatos geradores ocorridos nos demais exercícios;
+
+II – nos demais casos, a 35% (trinta e cinco por cento) para fatos geradores ocorridos no exercício de 2014 e a 15% (quinze por cento) para fatos geradores ocorridos nos demais exercícios.
+
+§ 1º Caso haja alteração de dados cadastrais do imóvel, nos exercícios a que se refere o "caput" deste artigo, o valor utilizado para apuração do crédito tributário calculado para o exercício anterior corresponderá ao valor que seria obtido se fosse considerada a alteração dos dados cadastrais.
+
+§ 2º Na aplicação dos percentuais previstos nos incisos I e II do "caput" deste artigo não serão consideradas as isenções concedidas com base no valor venal do imóvel.
+
+§ 3º No caso de imóveis construídos para os quais conste excesso de área, a redução do Imposto Predial e do Imposto Territorial Urbano decorrente da limitação referida no "caput" deste artigo será distribuída proporcionalmente aos respectivos créditos tributários calculados para o exercício do lançamento.
+
+Art. 10. A partir do exercício de 2014, o valor unitário de metro quadrado de terreno aplicado para o cálculo do valor venal do terreno, nos termos da Lei nº 10.235, de 1986, fica limitado a R$ 9.300,00 (nove mil e trezentos reais), para os imóveis construídos, utilizados exclusiva ou predominantemente como residência, de qualquer dos padrões do tipo 2 da Tabela V da mesma lei, alterada pela Lei nº 15.044, de 3 de dezembro de 2009.
+
+Art. 11. Os arts. 11 e 18 da Lei nº 10.235, de 1986, passam a vigorar com a seguinte redação:
+
+"Art. 11. A construção será enquadrada em um dos tipos e padrões previstos na Tabela V, e seu valor venal resultará da multiplicação da área construída bruta pelo valor unitário de metro quadrado de construção associado à subdivisão da zona urbana a que pertença, constante da Tabela VI, e pelo fator de obsolescência, constante da Tabela IV." (NR)
+
+"Art. 18. O contribuinte poderá impugnar a base de cálculo obtida pela aplicação dos procedimentos previstos nesta lei, mediante apresentação de avaliação contraditória, na forma e condições estabelecidas pela Secretaria Municipal de Finanças e Desenvolvimento Econômico." (NR)
+
+Art. 12. O item 4 da Tabela II, integrante da Lei nº 10.235, de 1986, acrescido pela Lei nº 11.152, de 30 de dezembro de 1991, passa a vigorar com a seguinte redação:
+
+"TABELA II FATORES DE ESQUINA
+4. Terrenos ocupados por construções enquadradas no Tipo 1, da Tabela V, quando localizados em Zonas Exclusivamente Residenciais (ZER)............1,00000." (NR)
+
+Art. 13. O art. 10 da Lei nº 15.044, de 2009, passa a vigorar com a seguinte redação:
+
+"Art. 10. Fica o Poder Executivo obrigado a encaminhar, até 15 de outubro do exercício referente ao primeiro ano do respectivo mandato, ao Poder Legislativo, projeto de lei com proposta de atualização dos valores unitários de metro quadrado de construção e de terreno previstos na Lei nº 10.235, de 16 de dezembro de 1986." (NR)
+
+Art. 14. A partir do exercício de 2014, ficam remitidos os créditos decorrentes do lançamento do IPTU com valor total inferior a R$ 20,00 (vinte reais), sendo emitida notificação sem valor a pagar.
+
+Art. 15. Os arts. 1º e 2º da Lei nº 11.614, de 13 de julho de 1994, com as alterações da Lei nº 13.776, de 10 de fevereiro de 2004, passam a vigorar com a seguinte redação:
+
+"Art. 1º Fica isento do pagamento do Imposto Predial e Territorial Urbano – IPTU o imóvel integrante do patrimônio do aposentado ou pensionista, bem como de beneficiário de renda mensal vitalícia paga pelo Instituto Nacional de Seguridade Social e de beneficiário do Programa de Amparo Social ao Idoso, criado pelo Ministério da Previdência e Assistência Social, ou outro programa que venha a substituí-lo, cujo valor venal, na data do fato gerador do imposto, seja igual ou inferior a R$ 1.000.000,00 (um milhão de reais), na seguinte proporção:
+
+I – 100% (cem por cento), quando o valor bruto recebido pelo interessado for de até 3 (três) salários mínimos;
+
+II – 50% (cinquenta por cento), quando o valor bruto recebido pelo interessado for maior que 3 (três) e até 4 (quatro) salários mínimos;
+
+III – 30% (trinta por cento), quando o valor bruto recebido pelo interessado for maior que 4 (quatro) e até 5 (cinco) salários mínimos.
+
+§ 1º O valor bruto recebido pelo interessado refere-se ao do mês de janeiro do exercício de incidência do IPTU.
+
+§ 2º A importância fixa prevista no "caput" deste artigo será atualizada na forma do disposto no art. 2º da Lei nº 13.105, de 29 de dezembro de 2000." (NR)
+
+"Art. 2º A isenção de que cuida o art. 1º desta lei dependerá de requerimento, na forma, prazo e condições que dispuser o regulamento, onde o interessado deverá comprovar que:
+
+I – não possui outro imóvel neste Município;
+
+II – utiliza o imóvel como sua residência;
+
+III – recebeu, relativo ao mês de janeiro do exercício de incidência do IPTU, valor bruto de até 5 (cinco) salários mínimos." (NR)
+
+Art. 16. Esta lei entra em vigor na data de sua publicação, produzindo efeitos a partir de 1º de janeiro de 2014, revogadas a Lei nº 7.954, de 20 de novembro de 1973, a Lei nº 12.275, de 19 de dezembro de 1996, os arts. 1º, 2º e 3º da Lei nº 13.698, de 24 de dezembro de 2003, e o art. 24 da Lei nº 14.256, de 29 de dezembro de 2006.
+
+PREFEITURA DO MUNICÍPIO DE SÃO PAULO, aos 5 de novembro de 2013, 460º da fundação de São Paulo.
+
+FERNANDO HADDAD, PREFEITO
+
+ANTONIO DONATO MADORMO, Secretário do Governo Municipal
+
+Publicada na Secretaria do Governo Municipal, em 5 de novembro de 2013.
+
+### Anexo I — Tabela VI — Tipos e Padrões de Construção — Valores Unitários de Metro Quadrado de Construção
+
+(Substitui a Tabela VI que integra a Lei nº 10.235, de 16 de dezembro de 1986)
+
+| Tipo | Padrão | 1ª Subdivisão (R$) | 2ª Subdivisão (R$) | Além da 2ª (R$) |
+|------|--------|---------------------|---------------------|------------------|
+| 1 | A | 920,00 | 700,00 | 480,00 |
+| 1 | B | 1.120,00 | 840,00 | 560,00 |
+| 1 | C | 1.420,00 | 1.070,00 | 710,00 |
+| 1 | D | 1.920,00 | 1.370,00 | 960,00 |
+| 1 | E | 2.210,00 | 1.580,00 | 1.180,00 |
+| 1 | F | 2.550,00 | 1.820,00 | 1.440,00 |
+| 2 | A | 1.020,00 | 790,00 | 570,00 |
+| 2 | B | 1.320,00 | 1.040,00 | 750,00 |
+| 2 | C | 1.730,00 | 1.300,00 | 990,00 |
+| 2 | D | 2.020,00 | 1.500,00 | 1.200,00 |
+| 2 | E | 2.500,00 | 1.790,00 | 1.430,00 |
+| 2 | F | 2.910,00 | 2.150,00 | 1.750,00 |
+| 3 | A | 980,00 | 750,00 | 520,00 |
+| 3 | B | 1.350,00 | 1.050,00 | 730,00 |
+| 3 | C | 1.760,00 | 1.310,00 | 1.020,00 |
+| 3 | D | 2.110,00 | 1.600,00 | 1.300,00 |
+| 3 | E | 2.630,00 | 1.930,00 | 1.560,00 |
+| 4 | A | 1.320,00 | 1.090,00 | 850,00 |
+| 4 | B | 1.730,00 | 1.410,00 | 1.100,00 |
+| 4 | C | 2.090,00 | 1.620,00 | 1.290,00 |
+| 4 | D | 2.710,00 | 1.960,00 | 1.500,00 |
+| 4 | E | 3.320,00 | 2.530,00 | 1.750,00 |
+| 5 | A | 650,00 | 520,00 | 380,00 |
+| 5 | B | 840,00 | 680,00 | 510,00 |
+| 5 | C | 930,00 | 770,00 | 620,00 |
+| 5 | D | 1.270,00 | 1.070,00 | 860,00 |
+| 5 | E | 1.670,00 | 1.435,00 | 1.200,00 |
+| 6 | A | 820,00 | 700,00 | 570,00 |
+| 6 | B | 1.130,00 | 940,00 | 750,00 |
+| 6 | C | 1.510,00 | 1.250,00 | 980,00 |
+| 6 | D | 1.890,00 | 1.590,00 | 1.300,00 |

@@ -25,12 +25,15 @@ Enquanto o índice não existir, C1–C5 saem [PENDENTE] (não bloqueiam — a o
 Uso:  python3 scripts/gate-arrumacao.py
 """
 import csv
+import json
 import subprocess
 import sys
+from datetime import date
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
 PY = sys.executable
+CONFRONTACAO = RAIZ / "inventario" / "confrontacao-drive.json"
 MESTRE = RAIZ / "inventario" / "INDICE-MESTRE-DRIVE.csv"   # estado REAL (reconciliador)
 SEED = RAIZ / "inventario" / "INDICE-SEED.csv"             # o PLANO (seeder)
 INDICE = MESTRE if MESTRE.exists() else SEED               # lê o real; cai no plano se ainda não reconciliou
@@ -129,6 +132,29 @@ def c5_moved_tem_hash():
                         else f"{len(viol)} movidos sem hash_md5 (vazio ou PENDENTE)")
 
 
+def c2_confrontacao_drive():
+    """AUD-A08: lê o resultado da última confrontação índice×Drive (MCP ou script)."""
+    if not CONFRONTACAO.exists():
+        return None, "confrontacao-drive.json ausente — rodar confrontação via MCP Drive"
+    try:
+        c = json.loads(CONFRONTACAO.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, KeyError):
+        return False, "confrontacao-drive.json malformado"
+    dt = c.get("data_confrontacao", "")
+    try:
+        dias = (date.today() - date.fromisoformat(dt)).days
+    except ValueError:
+        return False, f"data_confrontacao inválida: {dt!r}"
+    res = c.get("resultado", {})
+    status = res.get("status", "?")
+    total = res.get("total_indice", "?")
+    movidos = res.get("movidos_real", "?")
+    msg = f"confrontação {dt} ({dias}d atrás): {movidos}/{total} movidos, status={status}"
+    if dias > 30:
+        return False, msg + " — STALE (>30 dias, reconferir)"
+    return True, msg
+
+
 def main():
     print("═══ GATE DA ARRUMAÇÃO — Drive + TDC×IPTU (D83: 'declarei' ≠ 'provei') ═══")
     bloqueiam = [
@@ -137,6 +163,7 @@ def main():
     ]
     drive = [
         ("C1 _entrada com 0 soltos", c1_entrada_vazia),
+        ("C2 confrontação índice×Drive (AUD-A08)", c2_confrontacao_drive),
         ("C3 índice-mestre bate com o Drive", c3_indice_bate),
         ("C4 nenhum OFICIAL em quarentena", c4_oficial_fora_quarentena),
         ("C5 todo movido tem hash", c5_moved_tem_hash),

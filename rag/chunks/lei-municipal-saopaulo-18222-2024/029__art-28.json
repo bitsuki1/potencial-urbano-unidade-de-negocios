@@ -1,0 +1,56 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-18222-2024::029-art-28",
+  "lei_id": "lei-municipal-saopaulo-18222-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 28",
+  "numero": "28",
+  "header_raw": "Art. 28. No Projeto Estratégico Alexandre Mackenzie, a contrapartida urbanística devida em função dos",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção III",
+    "Art. 28"
+  ],
+  "texto": "Art. 28. No Projeto Estratégico Alexandre Mackenzie, a contrapartida urbanística devida em função dos\n\nbenefícios advindos da adesão dos proprietários à sua implantação será a construção de unidades de\n\nHabitação de Interesse Social nas áreas institucionais havidas em função do parcelamento do solo, nos\n\ntermos do art. 45, § 4º da Lei nº 16.402, de 22 de março de 2016 - LPUOS.\n\nParágrafo único. Os valores destinados às edificações previstas no caput serão correspondentes à\n\ncapacidade de arrecadação do projeto estratégico, tendo em vista a alienação integral do seu potencial\n\nconstrutivo adicional, sendo utilizadas, para a definição do número de unidades de Habitação de\n\nInteresse Social a serem entregues, em função do valor de contrapartida, as especificações da\n\nSecretaria Municipal de Habitação sobre o tema.\n\nSeção IV\n\nDas Áreas de Estruturação Local",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 18.222/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção III › Art. 28",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-18222-de-27-de-dezembro-de-2024",
+    "vigencia": {
+      "inicio": "2024-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Lei nº 18.298/2025"
+      ],
+      "revogada_por": null,
+      "observacao": "Em vigor desde a publicacao; consolidada com alteracoes da Lei 18.298/2025 (27 dispositivos com redacao alterada, 1 incluido, 1 revogado — todos relativos a ZOE-Butantan)."
+    }
+  },
+  "tema": [
+    "plano_intervencao_urbana",
+    "arco_pinheiros",
+    "uso_ocupacao_solo",
+    "zoneamento",
+    "potencial_construtivo",
+    "habitacao_interesse_social",
+    "distrito_inovacao",
+    "meio_ambiente_urbano",
+    "mobilidade_urbana",
+    "outorga_onerosa"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Aprova o Plano de Intervenção Urbana para o território do Arco Pinheiros, em atendimento ao inciso IV do § 3º do art. 76 da Lei nº 16.050, de 31 de julho de 2014 - PDE; cria a Área de Intervenção Urbana Arco Pinheiros."
+}

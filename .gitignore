@@ -13,6 +13,9 @@ secrets*.json
 # === Rascunhos/intermediários dos agentes de classificação (Fase 0/Passo 2) ===
 inventario/_*
 
+# === PII — dados pessoais NUNCA no git (L-T7-1) ===
+zepec/limpo/donos_encontrados.csv
+
 # === Python ===
 __pycache__/
 *.pyc

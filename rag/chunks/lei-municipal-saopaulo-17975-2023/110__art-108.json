@@ -1,0 +1,58 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17975-2023::110-art-108",
+  "lei_id": "lei-municipal-saopaulo-17975-2023",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 108",
+  "numero": "108",
+  "header_raw": "Art. 108. O art. 380 da Lei nº 16.050, de 2014, passa a vigorar com a seguinte redação:",
+  "caminho_hierarquico": [
+    "CAPÍTULO XII",
+    "Art. 108"
+  ],
+  "texto": "Art. 108. O art. 380 da Lei nº 16.050, de 2014, passa a vigorar com a seguinte redação:\n\n“Art. 380. Os processos de licenciamento de obras, edificações e atividades e os projetos de\n\nparcelamento do solo, protocolados até a data de publicação desta Lei e sem despacho decisório serão\n\napreciados integralmente de acordo com a legislação em vigor à época do protocolo, exceto nos casos\n\nde manifestação formal do interessado a qualquer tempo, optando pela análise integral de acordo com\n\nsuas disposições.\n\n§ 1º Os processos de licenciamento de obras e edificações referidos no caput serão indeferidos:\n\nI - nos casos previstos no Código de Obras e Edificações (COE) e alterações posteriores;\n\nII - se for requerida a modificação da versão do projeto constante do processo em análise na data de\n\npromulgação desta Lei, nos seguintes termos:\n\na) alteração de uso, categoria de uso;\n\nb) acréscimo superior a mais de 5% (cinco por cento) nas áreas computáveis ou não computáveis;\n\nc) acréscimo superior a 5% (cinco por cento) na taxa de ocupação;\n\nd) o acréscimo de uso é permitido.\n\n§ 2º Serão apreciados nos termos do caput os projetos de parcelamento do solo cuja Certidão de\n\nDiretrizes já tiver sido emitida pelo órgão municipal competente.\n\nhttps://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023 51/60\n\n04/12/2025, 17:28 LEI Nº 17.975 DE 8 DE JULHO DE 2023 « Catálogo de Legislação Municipal\n\n§ 3º Os projetos de parcelamento do solo previstos no parágrafo anterior serão indeferidos quando for\n\nrequerida alteração em mais de 5% (cinco por cento) do projeto após a vigência desta Lei.” (NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO XII › Art. 108",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "vigencia": {
+      "inicio": "2023-07-08",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.050/2014 (Plano Diretor Estrategico — PDE)",
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupacao do Solo)"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicacao. Revisao intermediaria do PDE conforme art. 4o da Lei 16.050/2014. Regulamentada por Resolucao SMUL/CIMPDE n. 1/2024, Decreto 63.130/2024 e Decreto 63.728/2024."
+    }
+  },
+  "tema": [
+    "plano_diretor",
+    "revisao_intermediaria",
+    "ordenamento_territorial",
+    "zoneamento",
+    "transferencia_direito_construir",
+    "outorga_onerosa",
+    "potencial_construtivo",
+    "funcao_social_propriedade",
+    "desenvolvimento_urbano",
+    "habitacao_interesse_social",
+    "patrimonio_cultural",
+    "meio_ambiente"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão intermediária do Plano Diretor Estratégico do Município de São Paulo, aprovado pela Lei nº 16.050, de 31 de julho de 2014, nos termos da previsão de seu art. 4º."
+}

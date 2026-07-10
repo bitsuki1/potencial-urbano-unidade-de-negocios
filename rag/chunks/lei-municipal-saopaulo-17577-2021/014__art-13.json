@@ -1,0 +1,54 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17577-2021::014-art-13",
+  "lei_id": "lei-municipal-saopaulo-17577-2021",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 13",
+  "numero": "13",
+  "header_raw": "Art. 13. Na análise de pedido de requalificação formulado nos termos desta Lei será considerada a",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção II",
+    "Art. 13"
+  ],
+  "texto": "Art. 13. Na análise de pedido de requalificação formulado nos termos desta Lei será considerada a\n\nárea construída total constante em Certificado de Conclusão ou em documento equivalente ou lançada\n\nno Cadastro de Edificações do Município (CEDI) na data de protocolo do pedido de requalificação.\n\n§ 1º São admitidas divergências na área construída total de que trata o caput, existentes em 23 de\n\nsetembro de 1992, limitadas a 5% (cinco por cento), independentemente da conformidade ao\n\ncoeficiente de aproveitamento máximo.\n\n§ 2º As áreas irregulares na data a que se refere o caput deste artigo, quando não passíveis de serem\n\nincorporadas às áreas não computáveis admitidas por esta lei, serão passíveis de regularização\n\nconforme previsto na Lei nº 16.642, de 2017, e em lei específica.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.577/2021 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção II › Art. 13",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17577-de-20-de-julho-de-2021",
+    "vigencia": {
+      "inicio": "2021-07-20",
+      "em_vigor": true,
+      "observacao": "Consolidada com alterações das Leis 17.844/2022, 18.065/2023, 18.081/2024, 18.330/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.844/2022 (art. 16)",
+        "Lei 18.065/2023 (altera a lei - arts. 16, 16-A)",
+        "Lei 18.081/2024 (amplia perímetro - setores 017/025/026 Brás)",
+        "Lei 18.330/2025 (art. 16-III, 16-B)"
+      ]
+    }
+  },
+  "tema": [
+    "Requalifica_Centro",
+    "incentivo_fiscal",
+    "isencao",
+    "retrofit",
+    "outorga_onerosa",
+    "ZEPEC_BIR",
+    "remissao_IPTU"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o Programa Requalifica Centro, estabelecendo incentivos e o regime específico para a requalificação de edificações situadas na Área Central, e dá outras providências."
+}

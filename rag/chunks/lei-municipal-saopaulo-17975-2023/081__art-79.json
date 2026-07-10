@@ -1,0 +1,58 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17975-2023::081-art-79",
+  "lei_id": "lei-municipal-saopaulo-17975-2023",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 79",
+  "numero": "79",
+  "header_raw": "Art. 79. O art. 228 da Lei nº 16.050, de 2014, passa a vigorar com a seguinte redação:",
+  "caminho_hierarquico": [
+    "CAPÍTULO VIII",
+    "Art. 79"
+  ],
+  "texto": "Art. 79. O art. 228 da Lei nº 16.050, de 2014, passa a vigorar com a seguinte redação:\n\n“Art. 228. ...................................................................................\n\n....................................................................................................\n\nIV - promover os modos que compõem a micromobilidade e demais modais não motorizados como\n\nmeio de transporte urbano, em especial o uso de bicicletas, por meio da criação de uma rede estrutural\n\ncicloviária;\n\nV - promover a integração entre os sistemas de transporte público coletivo, de micromobilidade e\n\ndemais modais não motorizados, o transporte individual privado e o coletivo privado rotineiro de\n\npassageiros;\n\n....................................................................................................\n\nXIII - (VETADO)\n\n....................................................................................................\n\nXXV - utilizar indicadores de acessibilidade e mobilidade urbana e determinar as formas de avaliação\n\nda efetividade da adoção das políticas de transporte e uso do solo ao longo do tempo.\n\nParágrafo único. A micromobilidade inclui os meios de transporte autopropelidos, de forma elétrica ou\n\nnão, criados para percorrer pequenas distâncias, nos termos da Resolução CONTRAN nº 947, de 28\n\nde março de 2022.” (NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO VIII › Art. 79",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "vigencia": {
+      "inicio": "2023-07-08",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.050/2014 (Plano Diretor Estrategico — PDE)",
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupacao do Solo)"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicacao. Revisao intermediaria do PDE conforme art. 4o da Lei 16.050/2014. Regulamentada por Resolucao SMUL/CIMPDE n. 1/2024, Decreto 63.130/2024 e Decreto 63.728/2024."
+    }
+  },
+  "tema": [
+    "plano_diretor",
+    "revisao_intermediaria",
+    "ordenamento_territorial",
+    "zoneamento",
+    "transferencia_direito_construir",
+    "outorga_onerosa",
+    "potencial_construtivo",
+    "funcao_social_propriedade",
+    "desenvolvimento_urbano",
+    "habitacao_interesse_social",
+    "patrimonio_cultural",
+    "meio_ambiente"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão intermediária do Plano Diretor Estratégico do Município de São Paulo, aprovado pela Lei nº 16.050, de 31 de julho de 2014, nos termos da previsão de seu art. 4º."
+}

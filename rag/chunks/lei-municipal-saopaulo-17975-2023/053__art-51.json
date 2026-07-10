@@ -1,0 +1,59 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17975-2023::053-art-51",
+  "lei_id": "lei-municipal-saopaulo-17975-2023",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 51",
+  "numero": "51",
+  "header_raw": "Art. 51. O caput e o § 1º do art. 129 da Lei nº 16.050, de 2014, passam a vigorar com a seguinte",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Seção II",
+    "Art. 51"
+  ],
+  "texto": "Art. 51. O caput e o § 1º do art. 129 da Lei nº 16.050, de 2014, passam a vigorar com a seguinte\n\nredação:\n\n“Art. 129. A expedição da Certidão de Transferência de Potencial Construtivo de imóveis enquadrados\n\ncomo ZEPEC-BIR fica condicionada à comprovação, pelo proprietário e responsável técnico, do bom\n\nestado de preservação e conservação do imóvel cedente, definido a partir de critérios do órgão\n\nmunicipal de patrimônio cultural.\n\n§ 1º Quando o imóvel cedente apresentar estado de conservação e preservação inadequado ou\n\ninsatisfatório, deverá ser exigida do proprietário a adoção de medidas de restauro ou de conservação.\n\nhttps://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023 26/60\n\n04/12/2025, 17:28 LEI Nº 17.975 DE 8 DE JULHO DE 2023 « Catálogo de Legislação Municipal\n\n....................................................................................................\n\nI - considerado a deterioração, os custos de manutenção e a permanente conservação do imóvel,\n\nquando completados 10 (dez) anos da emissão da Declaração de Potencial Construtivo, será\n\nconcedido aos imóveis que obtiverem o Atestado de Conservação do Imóvel, emitido pelo órgão\n\ncompetente, a atribuição de novo Potencial Construtivo Transferível (TDC) com montante equivalente a\n\n70% (setenta por cento) do Potencial Construtivo Transferível inicialmente atribuído;\n\nII - o proprietário poderá optar, quando completados 15 (quinze) anos, pela atribuição de novo\n\nPotencial Construtivo Transferível (TDC) com montante equivalente a 100% (cem por cento) do\n\nPotencial Construtivo Transferível inicialmente atribuído. Os benefícios dispostos nos incisos I e II não\n\nsão cumulativos;\n\nIII - a data de referência e a data de emissão da Declaração de Potencial permanecem as mesmas\n\napós a concessão do benefício;\n\nIV – o benefício disposto nos incisos I e II será adicionado ao saldo remanescente na Declaração de\n\nPotencial, quando houver.” (NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Seção II › Art. 51",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "vigencia": {
+      "inicio": "2023-07-08",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.050/2014 (Plano Diretor Estrategico — PDE)",
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupacao do Solo)"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicacao. Revisao intermediaria do PDE conforme art. 4o da Lei 16.050/2014. Regulamentada por Resolucao SMUL/CIMPDE n. 1/2024, Decreto 63.130/2024 e Decreto 63.728/2024."
+    }
+  },
+  "tema": [
+    "plano_diretor",
+    "revisao_intermediaria",
+    "ordenamento_territorial",
+    "zoneamento",
+    "transferencia_direito_construir",
+    "outorga_onerosa",
+    "potencial_construtivo",
+    "funcao_social_propriedade",
+    "desenvolvimento_urbano",
+    "habitacao_interesse_social",
+    "patrimonio_cultural",
+    "meio_ambiente"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão intermediária do Plano Diretor Estratégico do Município de São Paulo, aprovado pela Lei nº 16.050, de 31 de julho de 2014, nos termos da previsão de seu art. 4º."
+}

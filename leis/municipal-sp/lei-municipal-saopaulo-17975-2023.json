@@ -1,0 +1,119 @@
+{
+  "id": "lei-municipal-saopaulo-17975-2023",
+  "tipo_norma": "lei_ordinaria",
+  "esfera": "municipal",
+  "jurisdicao": "São Paulo/SP",
+  "numero": "17.975",
+  "ano": 2023,
+  "ementa": "Dispõe sobre a revisão intermediária do Plano Diretor Estratégico do Município de São Paulo, aprovado pela Lei nº 16.050, de 31 de julho de 2014, nos termos da previsão de seu art. 4º.",
+  "tema": [
+    "plano_diretor",
+    "revisao_intermediaria",
+    "ordenamento_territorial",
+    "zoneamento",
+    "transferencia_direito_construir",
+    "outorga_onerosa",
+    "potencial_construtivo",
+    "funcao_social_propriedade",
+    "desenvolvimento_urbano",
+    "habitacao_interesse_social",
+    "patrimonio_cultural",
+    "meio_ambiente"
+  ],
+  "dominio_primario": "compartilhado",
+  "dominio": [
+    "compartilhado"
+  ],
+  "dispositivos_chave": [
+    "Art. 1: Revisao intermediaria do PDE (Lei 16.050/2014) com ajustes ate 2029",
+    "Arts. 4-7: Integracao dos ODS da Agenda 2030 e enfrentamento das Mudancas Climaticas",
+    "Arts. 8-17: Macrozona de Protecao e Recuperacao Ambiental — alteracoes (ZEPAM, ZEPAG, ZLT, ZPDS)",
+    "Arts. 18-42: Macrozona de Estruturacao e Qualificacao Urbana — zonas, eixos ZEUP/ZEU, HIS/HMP, quota ambiental",
+    "Art. 35: Alteracoes na Cota de Solidariedade (Art. 112 da Lei 16.050)",
+    "Arts. 43-46 (Secao II): Outorga Onerosa do Direito de Construir — contrapartidas, calculo, Cadastro de Valor de Terreno",
+    "Arts. 47-52 (Subseção II): Transferencia do Direito de Construir — TDC, Potencial Construtivo Transferivel, renovacao de declaracoes",
+    "Arts. 53-65: Instrumentos de politica urbana (PEUC, consorcio imobiliario, direito de preempcao, EIV, operacoes urbanas consorciadas, PIU)",
+    "Art. 67: Fundo de Desenvolvimento Urbano (FUNDURB)",
+    "Arts. 68-81: Mobilidade urbana, transporte coletivo, sistema viario",
+    "Arts. 82-89: Habitacao e regularizacao fundiaria (ZEIS 1-5, HIS, HMP)",
+    "Arts. 90-98: Meio ambiente — areas verdes, parques, rede hidrica ambiental",
+    "Art. 99: Desapropriacao por hasta publica (Art. 99-A inserido na Lei 16.050)",
+    "Arts. 100-109: Sistema de planejamento urbano, gestao democratica, conselhos",
+    "Arts. 110-119: Planos regionais, informacoes urbanisticas, fiscalizacao",
+    "Art. 122: Novas definicoes no Quadro 1 da Lei 16.050",
+    "Art. 123: Substituicao dos quadros e mapas da Lei 16.050",
+    "Art. 127: Revogacoes (arts. 52, 148, 362-366 e outros da Lei 16.050)",
+    "Art. 129: Entrada em vigor na data de publicacao (08/07/2023)"
+  ],
+  "vigencia": {
+    "inicio": "2023-07-08",
+    "fim": null,
+    "revogada_por": null,
+    "altera": [
+      "Lei nº 16.050/2014 (Plano Diretor Estrategico — PDE)",
+      "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupacao do Solo)"
+    ],
+    "alterada_por": [],
+    "em_vigor": true,
+    "obs": "Vigente desde a publicacao. Revisao intermediaria do PDE conforme art. 4o da Lei 16.050/2014. Regulamentada por Resolucao SMUL/CIMPDE n. 1/2024, Decreto 63.130/2024 e Decreto 63.728/2024."
+  },
+  "remissoes": [
+    {
+      "norma": "Lei nº 16.050/2014 (Plano Diretor Estrategico)",
+      "relacao": "altera — esta lei revisa/altera dispositivos do PDE (objeto principal)"
+    },
+    {
+      "norma": "Lei nº 16.402/2016 (LPUOS)",
+      "relacao": "altera — dispositivos sobre parcelamento, uso e ocupacao do solo"
+    },
+    {
+      "norma": "Decreto-Lei Federal nº 3.365/1941",
+      "relacao": "fundamenta — base legal para desapropriacao por hasta publica (Art. 99-A)"
+    },
+    {
+      "norma": "Lei nº 10.015/1985",
+      "relacao": "referencia — area de protecao dos mananciais"
+    },
+    {
+      "norma": "Resolucao SMUL/CIMPDE nº 1/2024",
+      "relacao": "regulamenta — regulamentacao desta lei"
+    },
+    {
+      "norma": "Decreto nº 63.130/2024",
+      "relacao": "regulamenta — regulamentacao desta lei"
+    },
+    {
+      "norma": "Decreto nº 63.728/2024",
+      "relacao": "regulamenta — regulamentacao desta lei"
+    }
+  ],
+  "jurisprudencia_relacionada": [],
+  "tem_tabela": true,
+  "tabelas_extraidas": [],
+  "tem_formula": false,
+  "formulas_referenciadas": [],
+  "fonte": {
+    "origem": "Google Drive",
+    "path": "Catálogo de Legislação Municipal — Prefeitura de São Paulo",
+    "url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "hash": "sha256:65af9a132d3ce4d6450af6dc9f462799b702e7cbb8d44801689c0a254e5fed85",
+    "ocr": false,
+    "metodo": "download Google Drive + extração de fileContent",
+    "hash_alvo": "leis/municipal-sp/lei-municipal-saopaulo-17975-2023.md",
+    "hash_nota": "hash do .md no corpus (lei-municipal-saopaulo-17975-2023.md)"
+  },
+  "status_pipeline": "indexado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "versao_texto": "consolidada",
+  "artigos_contados": 129,
+  "anexos": [
+    "ANEXO I — Quadro 5. Fato de interesse social (Fs) da Lei 16.050/2014",
+    "ANEXO II — Quadro 7. Parques Municipais existentes e propostos",
+    "ANEXO III — Mapa 5. Rede Hidrica Ambiental e Sistema de Areas Protegidas",
+    "ANEXO IV — Mapa 8. Acoes Prioritarias no Sistema Viario Estrutural",
+    "ANEXO V — Mapa 9. Acoes Prioritarias no Sistema de Transporte Coletivo",
+    "ANEXO VI — Quadro 15 Unidades de Conservacao Existentes e Propostas",
+    "ANEXO VII — Mapa 12. Acoes Prioritarias no Sistema de Drenagem"
+  ]
+}

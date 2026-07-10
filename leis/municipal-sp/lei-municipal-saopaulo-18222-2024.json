@@ -1,0 +1,112 @@
+{
+  "id": "lei-municipal-saopaulo-18222-2024",
+  "tipo_norma": "lei_ordinaria",
+  "esfera": "municipal",
+  "jurisdicao": "São Paulo/SP",
+  "numero": "18.222",
+  "ano": 2024,
+  "ementa": "Aprova o Plano de Intervenção Urbana para o território do Arco Pinheiros, em atendimento ao inciso IV do § 3º do art. 76 da Lei nº 16.050, de 31 de julho de 2014 - PDE; cria a Área de Intervenção Urbana Arco Pinheiros.",
+  "tema": [
+    "plano_intervencao_urbana",
+    "arco_pinheiros",
+    "uso_ocupacao_solo",
+    "zoneamento",
+    "potencial_construtivo",
+    "habitacao_interesse_social",
+    "distrito_inovacao",
+    "meio_ambiente_urbano",
+    "mobilidade_urbana",
+    "outorga_onerosa"
+  ],
+  "dispositivos_chave": [
+    "Aprovacao do PIU Arco Pinheiros - conjunto integrado de intervencoes de reestruturacao urbana (Art. 1)",
+    "Criacao da Area de Intervencao Urbana do Arco Pinheiros - AIU-ACP (Art. 1 § 1)",
+    "Definicao de Areas de Transformacao, Qualificacao e Preservacao com parametros urbanisticos proprios (Art. 3, Art. 7)",
+    "Parcelamento, uso e ocupacao do solo: taxa de ocupacao, passeios, uso misto, fachada ativa, fruicao publica (Arts. 11-12)",
+    "Atendimento habitacional em ZEIS 1 e ZEIS 3 com Plano de Reassentamento (Art. 13)",
+    "Eixos Estrategicos com incentivos e obrigacoes para lotes confrontantes (Art. 16)",
+    "Zonas de Ocupacao Especial - ZOE: Jaguare, Presidente Altino, CEAGESP, CDP, Butantan, IPT, USP (Art. 19)",
+    "Projeto Estrategico CEAGESP: Distrito de Inovacao Tecnologica com CA maximo 6,0 e potencial construtivo adicional de 1.150.000 m2 (Art. 23)",
+    "Nucleo Parque Tecnologico do Jaguare (Art. 25-26)",
+    "Projetos Estrategicos Frente do Rio Pinheiros (Art. 27-28)",
+    "Areas de Estruturacao Local (Art. 29-30)",
+    "Programa de Intervencoes e Planos de Acao Integrada (Arts. 31-37)",
+    "FUNDURB - conta segregada para a AIU-ACP (Art. 38)",
+    "Transferencia de Potencial Construtivo (Art. 42-43)",
+    "Incentivos fiscais: reducao de IPTU progressivo para uso misto (Art. 45)",
+    "Gestao participativa: Conselho Gestor da AIU-ACP (Art. 47-53)",
+    "Monitoramento e avaliacao periodica do PIU-ACP (Arts. 54-56)",
+    "Revogacao da Lei 7.792/1972 e da Lei 15.160/2010 (Art. 61)"
+  ],
+  "vigencia": {
+    "inicio": "2024-12-27",
+    "fim": null,
+    "em_vigor": true,
+    "altera": [],
+    "alterada_por": [
+      "Lei nº 18.298/2025"
+    ],
+    "revogada_por": null,
+    "observacao": "Em vigor desde a publicacao; consolidada com alteracoes da Lei 18.298/2025 (27 dispositivos com redacao alterada, 1 incluido, 1 revogado — todos relativos a ZOE-Butantan)."
+  },
+  "remissoes": [
+    {
+      "norma": "Lei nº 16.050/2014 (PDE - Plano Diretor Estrategico)",
+      "relacao": "fundamento - PIU atende ao inciso IV do § 3 do art. 76 do PDE"
+    },
+    {
+      "norma": "Lei nº 16.402/2016 (LPUOS - Lei de Parcelamento, Uso e Ocupacao do Solo)",
+      "relacao": "aplicacao subsidiaria; parametros urbanisticos complementares"
+    },
+    {
+      "norma": "Lei nº 17.975/2023 (Revisao do PDE)",
+      "relacao": "incentivos de acrescimo ao CA (art. 21, § 5, alineas c, d, e)"
+    },
+    {
+      "norma": "Lei nº 18.081/2024",
+      "relacao": "alteracoes na LPUOS referenciadas (art. 42, art. 70, art. 71)"
+    },
+    {
+      "norma": "Lei nº 18.298/2025",
+      "relacao": "alteracao posterior - modifica dispositivos sobre ZOE (especialmente ZOE-Butantan)"
+    },
+    {
+      "norma": "Lei nº 7.792/1972",
+      "relacao": "revogada por esta lei (Art. 61, I)"
+    },
+    {
+      "norma": "Lei nº 15.160/2010",
+      "relacao": "revogada por esta lei (Art. 61, II)"
+    },
+    {
+      "norma": "Lei nº 16.010/2014",
+      "relacao": "referencia - Sistema de Transporte Publico Hidroviario"
+    },
+    {
+      "norma": "Lei Federal nº 11.428/2006 (Lei da Mata Atlantica)",
+      "relacao": "referencia - protecao da vegetacao nativa do Bioma Mata Atlantica na ZOE-Butantan"
+    }
+  ],
+  "jurisprudencia_relacionada": [],
+  "tem_tabela": true,
+  "tabelas_extraidas": [],
+  "tem_formula": false,
+  "formulas_referenciadas": [],
+  "fonte": {
+    "origem": "Google Drive",
+    "path": "Catálogo de Legislação Municipal - Lei 18.222/2024",
+    "url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-18222-de-27-de-dezembro-de-2024",
+    "hash": "sha256:6ff37abe21b0b81d905a63fcf07de930630d2a7821ede416abfb0d160af14e7e",
+    "ocr": false,
+    "metodo": "Google Drive download + extração de texto",
+    "hash_alvo": "leis/municipal-sp/lei-municipal-saopaulo-18222-2024.md",
+    "hash_nota": "hash a calcular sobre o .md após gravação"
+  },
+  "status_pipeline": "indexado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "dominio_primario": "tdc",
+  "dominio": [
+    "tdc"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-18081-2024::022-art-21",
+  "lei_id": "lei-municipal-saopaulo-18081-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 21",
+  "numero": "21",
+  "header_raw": "Art. 21. O art. 29 da Lei nº 16.402, de 2016, passa a vigorar com a seguinte redação:",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 21"
+  ],
+  "texto": "Art. 21. O art. 29 da Lei nº 16.402, de 2016, passa a vigorar com a seguinte redação:\n“Art. 29. Nas áreas públicas ocupadas por clubes extintos ou com termo de concessão terminado ou\n\nrevogado na vigência da Lei nº 13.885, de 25 de agosto de 2004, ou a partir da entrada em vigor desta\n\nLei, ficam mantidos os parâmetros de uso e ocupação estabelecidos nos Quadros 3, 4, 4A e 4B desta\n\nLei para a categoria em que o clube se enquadrava.\n\nParágrafo único. Para instalação de equipamentos públicos sociais nas áreas públicas de que trata\n\no caput deste artigo, em casos de comprovada necessidade de modificação dos índices estabelecidos\n\nno Quadro 3 desta Lei, em função da demanda da região a ser atendida, órgão municipal\n\nintersecretarial poderá fixar parâmetros distintos, desde que o uso esteja previsto no Quadro 4 desta\n\nLei e que seja atendida contrapartida ambiental fixada pelo art. 33 desta Lei.” (NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 18.081/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Art. 21",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-18081-de-19-de-janeiro-de-2023",
+    "vigencia": {
+      "inicio": "2024-01-19",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupação do Solo)",
+        "Lei nº 17.577/2021",
+        "Lei nº 16.499/2016"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicação. Revisão parcial da LPUOS para compatibilizar com a Lei 17.975/2023 (revisão intermediária do PDE). Vários artigos VETADOS (71, 83, 88-93)."
+    }
+  },
+  "tema": [
+    "parcelamento_uso_ocupacao_solo",
+    "zoneamento",
+    "coeficiente_aproveitamento",
+    "gabarito_altura",
+    "quota_ambiental",
+    "habitacao_interesse_social",
+    "eixo_estruturacao_urbana",
+    "zona_mista",
+    "fachada_ativa",
+    "fruicao_publica",
+    "patrimonio_cultural",
+    "zona_especial_protecao_cultural"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão parcial da Lei nº 16.402, de 22 de março de 2016 (LPUOS), visando à compatibilização de seu texto original com as supervenientes alterações decorrentes da promulgação da Lei nº 17.975, de 8 de julho de 2023 – Revisão Intermediária do Plano Diretor Estratégico do Município de São Paulo, nos termos da previsão de seu art. 126, e dá outras providências."
+}

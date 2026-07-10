@@ -1,0 +1,59 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-11152-1991::007-art-6o",
+  "lei_id": "lei-municipal-saopaulo-11152-1991",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 6º",
+  "numero": "6",
+  "header_raw": "Art. 6º Os terrenos em que houver obra em andamento, para os quais esta Prefeitura tenha expedido o competente Alvará de Edificação, gozarão de um desconto de 40% (quarenta por cento) no Imposto Territorial Urbano sobre eles incidente, por dois exercícios consecutivos, desde que o interessado, mediante requerimento instruído na forma regulamentar, comprove inexistirem débitos vencidos relativos aos tributos imobiliários incidentes sobre o imóvel e que a obra foi iniciada até o dia 31 de dezembro do exercício anterior ao da aplicação do desconto, na forma regrada na legislação que disciplina a execução de edificações do Município.(Regulamentado pelo Decreto nº 31.088/1992) (Revogado pela Lei nº 14.125/2005)",
+  "caminho_hierarquico": [
+    "Art. 6º"
+  ],
+  "texto": "Art. 6º Os terrenos em que houver obra em andamento, para os quais esta Prefeitura tenha expedido o competente Alvará de Edificação, gozarão de um desconto de 40% (quarenta por cento) no Imposto Territorial Urbano sobre eles incidente, por dois exercícios consecutivos, desde que o interessado, mediante requerimento instruído na forma regulamentar, comprove inexistirem débitos vencidos relativos aos tributos imobiliários incidentes sobre o imóvel e que a obra foi iniciada até o dia 31 de dezembro do exercício anterior ao da aplicação do desconto, na forma regrada na legislação que disciplina a execução de edificações do Município.(Regulamentado pelo Decreto nº 31.088/1992) (Revogado pela Lei nº 14.125/2005)\n\n§ 1º O requerimento referido neste artigo deverá ser protocolado, impreterivelmente, até o dia 28 de fevereiro do exercício para o qual se pretenda a aplicação do desconto\n\n§ 2º O desconto vigorará exclusivamente no período assinalado neste artigo ou até a data de expedição do competente Auto de Conclusão, quando ocorrida antes de findo esse prazo.\n\n§ 3º A concessão deste desconto, em caráter individual, não gera direito adquirido e será anulada de ofício, sempre que se apure que o beneficiado não satisfazia às condições para a concessão do favor, cobrando-se a importância equivalente ao desconto, exercício a exercício, atualizada monetariamente e acrescida de juros de mora, desde as datas originariamente assinaladas para o pagamento integral do Imposto:\n\nI – com imposição de multa moratória e sem prejuízo das medidas criminais cabíveis, nos casos de dolo, fraude ou simulação do interessado ou de terceiro em benefício dele;\n\nII – sem imposição de multa moratória, nos demais casos.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 11.152/1991 — São Paulo/SP",
+    "dispositivo": "Art. 6º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-11152-de-30-de-dezembro-de-1991",
+    "vigencia": {
+      "inicio": "1992-01-01",
+      "em_vigor": true,
+      "observacao": "Arts. 5º e 6º revogados (Lei 11.457/1993 e Lei 14.125/2005 respectivamente). Demais artigos vigentes; metodologia base do VVC, complementada pela Lei 15.889/2013.",
+      "altera": [
+        "Lei 6.989/1966 (arts. 7, 17, 19, 27, 37, 39, 87, 94)",
+        "Lei 10.235/1986 (art. 8, Tabelas II/III/IV/VI)",
+        "Lei 10.819/1989 (art. 5)"
+      ],
+      "alterada_por": [
+        "Lei 11.457/1993 (revoga art. 5§3)",
+        "Lei 14.125/2005 (revoga art. 6)",
+        "Lei 15.889/2013 (complementa)"
+      ]
+    }
+  },
+  "tema": [
+    "valor_venal",
+    "VVC",
+    "calculo",
+    "aliquotas_iptu",
+    "iptu_predial",
+    "iptu_territorial",
+    "taxas_limpeza",
+    "taxas_conservacao",
+    "fator_obsolescencia",
+    "fator_condominio",
+    "fator_esquina"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Altera a legislação relativa aos Impostos Predial e Territorial Urbano e às Taxas de Limpeza Pública e de Conservação de Vias e Logradouros Públicos, e dá outras providências."
+}

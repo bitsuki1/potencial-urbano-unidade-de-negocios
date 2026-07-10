@@ -1,0 +1,54 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17577-2021::006-art-5o",
+  "lei_id": "lei-municipal-saopaulo-17577-2021",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 5º",
+  "numero": "5",
+  "header_raw": "Art. 5º No âmbito do Programa de que trata esta Lei, na requalificação de edificação existente, as áreas",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção I",
+    "Art. 5º"
+  ],
+  "texto": "Art. 5º No âmbito do Programa de que trata esta Lei, na requalificação de edificação existente, as áreas\n\nacrescidas destinadas à acessibilidade e à melhoria das condições de segurança de uso, higiene e\n\nsalubridade da edificação serão consideradas não computáveis para efeito de cálculo do coeficiente de\n\naproveitamento e da taxa de ocupação constantes na legislação ordinária, sendo admitido para tal\n\nfinalidade:\n\nI - ocupar as faixas de recuo na impossibilidade de atendimento nas próprias edificações;\n\nII - excepcionalmente, implantar rampas ou outros dispositivos de acesso ao imóvel que avancem\n\nsobre o logradouro público, observadas as condições desta Lei e aquelas previstas em regulamento.\n\n§ 1º As intervenções em edificações existentes sujeitas à requalificação no âmbito do Programa de que\n\ntrata esta Lei deverão atender às condições de segurança, salubridade, higiene e acessibilidade\n\nnecessárias à instalação da subcategoria de uso pleiteada no pedido, podendo ser aceitas soluções\n\nque, por implicação de caráter estrutural, não atendam às disposições previstas no inciso V, do\n\nparágrafo único, do art. 3º da Lei nº 16.642, de 2017, da Lei nº 16.050, de 2014, ou da Lei nº 16.402,\n\nde 2016.\n\n§ 2º As intervenções em edificações não poderão agravar os itens relativos à segurança, salubridade,\n\nhigiene e acessibilidade até então existentes.\n\n§ 3º A possibilidade prevista no inciso II do caput deste artigo está condicionada à análise pelo órgão\n\nmunicipal competente, devendo ser observada:\n\nI - a impossibilidade de implantação da rampa ou de outros dispositivos de acesso no interior do lote;\n\nII - a existência de calçada com largura superior a 2m (dois metros) e ao atendimento do regramento\n\nmunicipal de padronização de calçadas.\n\n§ 4º Para as finalidades desta Lei, as intervenções decorrentes do caput deste artigo não serão\n\nconsideradas como alteração de volumetria.\n\nSeção II\n\nIncentivos",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.577/2021 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção I › Art. 5º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17577-de-20-de-julho-de-2021",
+    "vigencia": {
+      "inicio": "2021-07-20",
+      "em_vigor": true,
+      "observacao": "Consolidada com alterações das Leis 17.844/2022, 18.065/2023, 18.081/2024, 18.330/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.844/2022 (art. 16)",
+        "Lei 18.065/2023 (altera a lei - arts. 16, 16-A)",
+        "Lei 18.081/2024 (amplia perímetro - setores 017/025/026 Brás)",
+        "Lei 18.330/2025 (art. 16-III, 16-B)"
+      ]
+    }
+  },
+  "tema": [
+    "Requalifica_Centro",
+    "incentivo_fiscal",
+    "isencao",
+    "retrofit",
+    "outorga_onerosa",
+    "ZEPEC_BIR",
+    "remissao_IPTU"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o Programa Requalifica Centro, estabelecendo incentivos e o regime específico para a requalificação de edificações situadas na Área Central, e dá outras providências."
+}

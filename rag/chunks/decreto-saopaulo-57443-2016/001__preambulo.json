@@ -11,7 +11,9 @@
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,
-    "marcadores": []
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
   },
   "citacao": {
     "norma": "decreto municipal nº 57443/2016 — São Paulo - SP",
@@ -25,7 +27,12 @@
       "alterada_por": []
     }
   },
-  "tema": [],
+  "tema": [
+    "fiscalizacao_posturas",
+    "uso_ocupacao_solo",
+    "licenciamento",
+    "preservacao_patrimonio"
+  ],
   "dominio": [
     "iptu"
   ],

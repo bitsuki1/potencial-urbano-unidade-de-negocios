@@ -1,0 +1,59 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-18081-2024::062-art-61",
+  "lei_id": "lei-municipal-saopaulo-18081-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 61",
+  "numero": "61",
+  "header_raw": "Art. 61. O art. 112 da Lei nº 16.402, de 2016, passa a vigorar com a seguinte redação:",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 61"
+  ],
+  "texto": "Art. 61. O art. 112 da Lei nº 16.402, de 2016, passa a vigorar com a seguinte redação:\n\n“Art. 112. São condições de instalação dos usos:\n\n.........................................................................................................\n\n§ 2º Nas edificações ou lotes ocupados por mais de uma atividade não residencial, quando não for\n\npossível diferenciar os parâmetros aplicáveis a cada uso, deverão ser atendidas as condições de\n\ninstalação da atividade mais restritiva para cada uma das categorias de uso definidas.\n\n.........................................................................................................\n\n§ 4º Os empreendimentos de até 500m² (quinhentos metros quadrados) de área construída computável\n\npoderão atender às exigências de vagas de carga e descarga, total ou parcial, por meio de uma central\n\nde armazenamento de carga ou bolsão de estacionamento localizados num raio de até 1.000m (mil\n\nmetros) dos respectivos empreendimentos, desde que autorizado pelo órgão municipal de trânsito\n\ncompetente.\n\n.........................................................................................................\n\n§ 8º Não se aplicam os incisos I, II, III e IV deste artigo aos imóveis localizados em calçadões.\n\n§ 9º Nas licenças de funcionamento ou nas reformas, para as edificações existentes anteriores à\n\npublicação desta Lei, desde que vinculado ao uso anteriormente licenciado para a edificação, as\n\nexigências dos incisos I a IV do caput deste artigo serão aquelas constantes das plantas aprovadas ou\n\nregularizadas com base na legislação em vigor na data dessas aprovações ou regularizações, podendo\n\no interessado optar pelo atendimento do exigido nesta Lei.\n\n§ 10. As larguras de vias constantes no Quadro 4A desta Lei devem ser atendidas em pelo menos uma\n\ndas frentes do imóvel.\n\nI - as larguras de vias constantes no Quadro 4A desta Lei se referem exclusivamente aos acessos de\n\nveículos, estando os acessos de pedestres, ciclistas e fruição pública dispensados do atendimento.\n\n§ 11. No caso de reforma, admite-se o recálculo do número mínimo de vagas nos termos da lei vigente\n\npara a área construída computável total, condicionada à manifestação favorável do órgão competente\n\nno caso de Polos Geradores de Tráfego (PGT).\n\n§ 12. Nos clubes é permitida a instalação de atividades complementares do grupo nR1, bem como\n\nautorização de eventos, observadas as disposições legais pertinentes, inclusive os parâmetros de\n\nincomodidade.\n§ 13. Nos teatros aprovados por esta Lei e por legislação anterior é admitida a autorização de eventos,\n\nobservada a prevalência para fins culturais.\n\n§ 14. Os acessos das edificações regulares que se tornaram não conformes pela legislação atual por\n\nnão atender à largura mínima da via serão considerados tolerados nas reformas com acréscimo de\n\nárea com ou sem acréscimo de uso quando:\n\nI - o lote objeto da análise ocupar mais de 50% da testada da quadra onde o acesso está localizado;\n\nII - o acesso tenha sido aprovado anteriormente pelo órgão detrânsito competente;\n\nIII- a edificação esteja cadastrada como regular no CEDI.” (NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 18.081/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Art. 61",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-18081-de-19-de-janeiro-de-2023",
+    "vigencia": {
+      "inicio": "2024-01-19",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupação do Solo)",
+        "Lei nº 17.577/2021",
+        "Lei nº 16.499/2016"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicação. Revisão parcial da LPUOS para compatibilizar com a Lei 17.975/2023 (revisão intermediária do PDE). Vários artigos VETADOS (71, 83, 88-93)."
+    }
+  },
+  "tema": [
+    "parcelamento_uso_ocupacao_solo",
+    "zoneamento",
+    "coeficiente_aproveitamento",
+    "gabarito_altura",
+    "quota_ambiental",
+    "habitacao_interesse_social",
+    "eixo_estruturacao_urbana",
+    "zona_mista",
+    "fachada_ativa",
+    "fruicao_publica",
+    "patrimonio_cultural",
+    "zona_especial_protecao_cultural"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão parcial da Lei nº 16.402, de 22 de março de 2016 (LPUOS), visando à compatibilização de seu texto original com as supervenientes alterações decorrentes da promulgação da Lei nº 17.975, de 8 de julho de 2023 – Revisão Intermediária do Plano Diretor Estratégico do Município de São Paulo, nos termos da previsão de seu art. 126, e dá outras providências."
+}

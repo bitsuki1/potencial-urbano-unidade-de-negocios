@@ -1,0 +1,58 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17975-2023::131-art-129",
+  "lei_id": "lei-municipal-saopaulo-17975-2023",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 129",
+  "numero": "129",
+  "header_raw": "Art. 129. Esta Lei entrará em vigor na data de sua publicação.",
+  "caminho_hierarquico": [
+    "CAPÍTULO XII",
+    "Art. 129"
+  ],
+  "texto": "Art. 129. Esta Lei entrará em vigor na data de sua publicação.\n\nPREFEITURA DO MUNICÍPIO DE SÃO PAULO, aos 8 de julho de 2023, 470º da fundação de São\n\nPaulo.\n\nRICARDO NUNES\n\nPREFEITO\n\nLEONARDO GAZILLO SILVA\n\nRespondendo pelo cargo de Secretário Municipal de Habitação\n\nRODRIGO PIMENTEL PINTO RAVENA\n\nSecretário Municipal do Verde e do Meio Ambiente\n\nMARCOS DUQUE GADELHO\n\nSecretário Municipal de Urbanismo e Licenciamento\n\nFABRICIO COBRA ARBEX\n\nSecretário Municipal da Casa Civil\n\nEUNICE APARECIDA DE JESUS PRUDENTE\n\nSecretária Municipal de Justiça\n\nPublicada na Casa Civil, em 8 de julho de 2023.\n\nDocumento original assinado nº 086180385\n\nANEXOS I A VII INTEGRANTES DA LEI Nº 17.975, DE 8 DE JULHO DE 2023\n\nANEXO I Nº 086180394\n\nANEXO II Nº 086180397\n\nANEXO III Nº 086180403\n\nANEXO IV Nº 086180421\n\nANEXO V Nº 086180426\n\nhttps://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023 59/60\n\n04/12/2025, 17:28 LEI Nº 17.975 DE 8 DE JULHO DE 2023 « Catálogo de Legislação Municipal\n\nANEXO VI Nº 086180437\n\nANEXO VII Nº 086180449\n\nEste texto não substitui o original publicado no Diário Oficial da Cidade de São Paulo\n\nAnexos\n\nANEXO I Quadro 5. Fato de interesse social (Fs)¹ da Lei 16.050/2014.pdf (263.08 KB) ANEXO II Quadro 7. Parques Municipais existentes e propostos (Lei nº 16.050/2014) .pdf (297.79 KB) ANEXO III Mapa 5. Rede Hídrica Ambiental e Sistema de Áreas Protegidas Verdes e Espaço Livres.pdf (144.99 KB) ANEXO IV Mapa 8. Ações Prioritárias no Sistema Viário Estrutural (Lei nº 16.050/2014).pdf (22.51 MB ANEXO V Mapa 9. Ações Prioritárias no Sistema de Transporte Coletivo (Lei nº 16.050/2014).pd (21.03 MB) ANEXO VI Mapa 8. Quadro 15 Unidades de Conservação Existentes e Propostas.pdf (403.63 KB) ANEXO VII Mapa 12. Ações Prioritárias no Sistema de Drenagem (Lei nº 16.050/2014).pdf (31.62 MB)\n\nCorrelações\n\nRESOLUÇÃO SECRETARIA MUNICIPAL DE URBANISMO E LICENCIAMENTO - SMUL/CIMPDE Nº 1 DE 5 DE MARÇO DE 2024 DECRETO Nº 63.728 DE 10 DE SETEMBRO DE 2024 DECRETO Nº 63.130 DE 19 DE JANEIRO DE 2024",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO XII › Art. 129",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "vigencia": {
+      "inicio": "2023-07-08",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.050/2014 (Plano Diretor Estrategico — PDE)",
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupacao do Solo)"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicacao. Revisao intermediaria do PDE conforme art. 4o da Lei 16.050/2014. Regulamentada por Resolucao SMUL/CIMPDE n. 1/2024, Decreto 63.130/2024 e Decreto 63.728/2024."
+    }
+  },
+  "tema": [
+    "plano_diretor",
+    "revisao_intermediaria",
+    "ordenamento_territorial",
+    "zoneamento",
+    "transferencia_direito_construir",
+    "outorga_onerosa",
+    "potencial_construtivo",
+    "funcao_social_propriedade",
+    "desenvolvimento_urbano",
+    "habitacao_interesse_social",
+    "patrimonio_cultural",
+    "meio_ambiente"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão intermediária do Plano Diretor Estratégico do Município de São Paulo, aprovado pela Lei nº 16.050, de 31 de julho de 2014, nos termos da previsão de seu art. 4º."
+}

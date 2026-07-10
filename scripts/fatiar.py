@@ -58,6 +58,27 @@ RE_REVOGADO_INICIO = re.compile(r"^\(\s*Revogad[oa]|^Revogad[oa]s?\s+pel[oa]s?\b
 RE_REVOGADO_FONTE = re.compile(r"Revogad[oa]s?\s+(?:pel[oa]s?\s+)?"
                                r"(Lei[^)\n]*|Decreto[^)\n]*|EC[^)\n]*)", re.IGNORECASE)
 RE_REDACAO_DADA = re.compile(r"Reda[çc][ãa]o dada", re.IGNORECASE)
+# AUD-C05 — Extrai a norma alteradora e o ANO da redação nova. Cobre os formatos reais do corpus:
+# "Lei nº 17.975/2023", "Lei nº 10.931, de 2004", "Lei 10.931, de 2004" (sem nº),
+# "Lei nº 4.864, de 29.11.1965", "Lei nº 13.144 de 2015" (sem vírgula),
+# "Decreto nº 57.665/2017", "Medida Provisória nº 1.085, de 2021",
+# "Lei Complementar nº 214, de 2025", "Pela Medida Provisória nº 1.085, de 2021",
+# "Lei nº 13.275, de 4 de janeiro de 2002" (data completa com mês por extenso),
+# "pelo art. 1º do Decreto nº 21.928, de 10 de outubro de 1932" (via artigo).
+RE_REDACAO_DADA_FONTE = re.compile(
+    r"[Rr]eda[çc][ãa]o\s+dada\s+"
+    r"(?:[Pp]el[oa]s?\s+(?:art\.?\s*\d+[ºo°]?\s*(?:d[oa]s?\s+|dest[ae]\s+))?)?"
+    r"((?:Lei(?:\s+Complementar)?|Decreto(?:-Lei)?|Emenda\s+Constitucional|EC"
+    r"|Medida\s+Prov[ió]s[oó]ria)"
+    r"(?:\s+n[ºo°]\s*|\s+)[\d.]+"
+    r"(?:/\d{4}"
+    r"|,?\s+de\s+\d{1,2}\s+de\s+\w+\s+de\s+\d{4}"
+    r"|,?\s+de\s+[\d.]+(?:\.\d+)*)?"
+    r")",
+    re.IGNORECASE)
+# Extrai o ano de 4 dígitos da referência da norma alteradora.
+# Aceita ano no final da string, antes de ), ou após / , . ou espaço.
+RE_ANO_4D = re.compile(r"[/,. ](\d{4})(?:\s*$|\))")
 RE_ROTULO_PREFIXO = re.compile(r"^\s*Art\.?\s*\d+(?:-[A-Z])?\s*[ºoO°.\-–]?\s*")
 
 # C-28 / T1 — REMISSÃO line-initial NÃO é cabeçalho de artigo. Uma linha pode ABRIR com "art. N ..."
@@ -98,15 +119,32 @@ def vigencia_dispositivo(texto: str) -> dict:
     - 'compilado' : contém 'Redação dada por ...' — redação vigente ALTERADA por norma posterior;
     - 'original'  : sem marcador (redação original).
     Conservador: só marca 'revogado' quando a revogação abre o corpo do artigo (revogação integral),
-    para NÃO rotular um artigo inteiro como revogado quando só um §/inciso interno o foi."""
+    para NÃO rotular um artigo inteiro como revogado quando só um §/inciso interno o foi.
+
+    AUD-C05 — quando compilado, extrai `data_redacao` (ano da norma alteradora) e `norma_redacao`
+    (referência da norma que deu a redação). Sem isso, `--data` pode devolver redação futura como
+    vigente no passado (293 chunks afetados). O campo é o ANO da lei alteradora (dado verbatim),
+    não a data exata de publicação (que exigiria lookup externo — princípio 1.2)."""
     corpo = RE_ROTULO_PREFIXO.sub("", texto).lstrip()
     if RE_REVOGADO_INICIO.match(corpo):
         fonte = RE_REVOGADO_FONTE.search(texto)
         return {"status": "revogado", "revogado_por": (fonte.group(1).strip() if fonte else None),
-                "marcadores": ["revogado_integral"]}
+                "marcadores": ["revogado_integral"],
+                "data_redacao": None, "norma_redacao": None}
     if RE_REDACAO_DADA.search(texto):
-        return {"status": "compilado", "revogado_por": None, "marcadores": ["redacao_dada"]}
-    return {"status": "original", "revogado_por": None, "marcadores": []}
+        # Extrair a norma alteradora e o ano da redação nova (AUD-C05).
+        norma_redacao = None
+        data_redacao = None
+        m_fonte = RE_REDACAO_DADA_FONTE.search(texto)
+        if m_fonte:
+            norma_redacao = m_fonte.group(1).strip()
+            m_ano = RE_ANO_4D.search(norma_redacao)
+            if m_ano:
+                data_redacao = m_ano.group(1)
+        return {"status": "compilado", "revogado_por": None, "marcadores": ["redacao_dada"],
+                "data_redacao": data_redacao, "norma_redacao": norma_redacao}
+    return {"status": "original", "revogado_por": None, "marcadores": [],
+            "data_redacao": None, "norma_redacao": None}
 
 
 def slug(texto: str, limite: int = 40) -> str:
@@ -183,7 +221,75 @@ def fatiar_corpo(corpo: str):
         atual["tipo"] = "documento"
         atual["rotulo"] = "Documento"
     fechar(atual)
+
+    # AUD-C06 — SEPARAR FECHO/ANEXO do último artigo: quando o último chunk tipo=artigo termina
+    # com um bloco maciço de URLs (links do portal legislativo, referências a quadros/anexos),
+    # esses links são FECHO (assinaturas/navegação do PDF capturado), não parte do dispositivo.
+    # Deixá-los no artigo gera chunk de 6.888 tokens (PDE Art.174) e impede que os anexos sejam
+    # recuperáveis como dispositivos separados. Critério: se >50% das linhas não-vazias do trecho
+    # final são URLs (http/https ou <http...), separar em chunk tipo=anexo (não-citável).
+    if chunks and chunks[-1]["tipo"] == "artigo":
+        _separar_fecho_url(chunks)
+
     return chunks
+
+
+# AUD-C06 — regex para detectar linhas que são URLs puras (capturadas do portal legislativo).
+RE_LINHA_URL = re.compile(r"^\s*(?:<?\s*https?://|https?://|\[\\#)")
+
+
+def _separar_fecho_url(chunks: list):
+    """Se o último chunk tipo=artigo tem um bloco final de URLs, separa em chunk tipo=anexo.
+    O ponto de corte é a PRIMEIRA linha URL após a qual >80% das linhas não-vazias restantes
+    também são URL. Conservador: só separa se o bloco de URLs tiver >=10 linhas não-vazias
+    (evita falso-positivo em artigos com 1-2 links inline no corpo)."""
+    ultimo = chunks[-1]
+    linhas = ultimo["texto"].split("\n")
+    n_linhas = len(linhas)
+    if n_linhas < 15:
+        return  # artigo curto — não há bloco significativo de URLs
+
+    # Procurar o ponto de corte: varrer de trás pra frente até achar texto não-URL
+    # e verificar se o bloco de URLs é significativo.
+    idx_primeiro_url = None
+    for i, ln in enumerate(linhas):
+        if RE_LINHA_URL.match(ln):
+            if idx_primeiro_url is None:
+                idx_primeiro_url = i
+        elif ln.strip():
+            # Linha não-vazia e não-URL: reseta o candidato (o bloco de URL deve ser CONTÍGUO no final)
+            idx_primeiro_url = None
+
+    if idx_primeiro_url is None:
+        return
+
+    # Contar linhas não-vazias no bloco de URLs
+    bloco_urls = linhas[idx_primeiro_url:]
+    linhas_nv_url = [l for l in bloco_urls if l.strip()]
+    if len(linhas_nv_url) < 10:
+        return  # bloco de URLs muito curto — não separar
+
+    # Verificar que >80% das linhas não-vazias do bloco são de fato URLs
+    n_urls = sum(1 for l in linhas_nv_url if RE_LINHA_URL.match(l))
+    if n_urls / len(linhas_nv_url) < 0.8:
+        return
+
+    # Separar: o artigo fica com o texto até o ponto de corte; o bloco vira chunk tipo=anexo.
+    texto_artigo = "\n".join(linhas[:idx_primeiro_url]).rstrip()
+    texto_anexo = "\n".join(bloco_urls).strip()
+
+    if not texto_artigo.strip():
+        return  # segurança: não esvaziar o artigo
+
+    ultimo["texto"] = texto_artigo
+    chunks.append({
+        "tipo": "anexo",
+        "rotulo": "Anexos e referências",
+        "numero": None,
+        "caminho": ultimo["caminho"][:-1] + ["Anexos e referências"],
+        "linhas_separadas_de": ultimo["rotulo"],
+        "texto": texto_anexo,
+    })
 
 
 def fatiar_lei(md_path: Path, reportar):
@@ -246,7 +352,9 @@ def fatiar_lei(md_path: Path, reportar):
             # de promulgação) — CONTEXTO, não dispositivo. Marcado NÃO-CITÁVEL: o RAG não pode fundamentar
             # uma resposta citando o preâmbulo (defeito real: "Presidência da República Casa Civil…" vinha
             # como FUNDAMENTADA). `consultar.py` o exclui por padrão (flag --incluir-nao-citavel reabre).
-            "citavel": d["tipo"] != "preambulo",
+            # AUD-C06: anexo/fecho (URLs do portal) também é NÃO-CITÁVEL — são links de navegação, não
+            # dispositivo legal que fundamente resposta.
+            "citavel": d["tipo"] not in ("preambulo", "anexo"),
             # B-11c: vigência POR CHUNK (revogado/compilado/original) — deriva do próprio verbatim (1.6).
             "vigencia_dispositivo": vigencia_dispositivo(d["texto"]),
             # citação pré-montada (1.7): tudo que uma resposta precisa para fundamentar

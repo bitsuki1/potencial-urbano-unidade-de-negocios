@@ -10,52 +10,119 @@
     "Requalifica_Centro",
     "incentivo_fiscal",
     "isencao",
-    "retrofit"
+    "retrofit",
+    "outorga_onerosa",
+    "ZEPEC_BIR",
+    "remissao_IPTU"
   ],
   "dispositivos_chave": [
-    "Programa Requalifica Centro: incentivos para requalificacao (retrofit) de edificacoes na Area Central (perimetro ~6,4 km2)",
-    "Remissao dos creditos de IPTU",
-    "Isencao de IPTU a partir da emissao do Certificado de Conclusao da obra",
-    "Aplicacao de aliquotas progressivas de IPTU pelo prazo de 5 anos",
-    "Reducao da aliquota de ISS para 2% nos servicos da obra de requalificacao",
-    "Isencao de ITBI-IV aos imoveis objeto de requalificacao",
-    "Isencao de taxas municipais de instalacao e funcionamento por 5 anos",
-    "Elegibilidade: edificios construidos ate 1992"
+    "Art. 1º: define perímetro da Área Central do Programa Requalifica Centro",
+    "Art. 4º: elegibilidade — edificações existentes antes de 23/09/1992 (Lei 11.228/1992)",
+    "Art. 7§2: CA máximo pela Lei 16.402/2016 Quadro 3; acréscimo sujeito a outorga",
+    "Art. 7§3: área construída não computável quando destinada a residencial/cultura/educação/saúde",
+    "Art. 11: ZEPEC-BIR pode requisitar TDC nos termos da legislação ordinária",
+    "Art. 16-I: remissão de TODOS os créditos de IPTU (pretéritos até o certificado de conclusão)",
+    "Art. 16-II/III: isenção IPTU 3 anos + redução gradual em 5 anos (8 anos total)",
+    "Art. 16§3: isenção IPTU 10 anos no sub-perímetro central (Mauá/Ipiranga/São João/Duque de Caxias)",
+    "Art. 16-A: isenção parcial IPTU 50% do acréscimo por atualização de idade (reforma fora do programa)",
+    "Art. 16-B: redução 60% IPTU por 48 meses (reforma dentro ou fora do programa)",
+    "Art. 16§7-8: limite temporal dos benefícios: até 31/12/2030 (geral) e 31/12/2037 (sub-perímetro)"
   ],
   "vigencia": {
+    "inicio": "2021-07-20",
     "em_vigor": true,
-    "observacao": "Vigente; regulamentada/normatizada por atos posteriores da Prefeitura."
+    "observacao": "Consolidada com alterações das Leis 17.844/2022, 18.065/2023, 18.081/2024, 18.330/2025.",
+    "altera": [],
+    "alterada_por": [
+      "Lei 17.844/2022 (art. 16)",
+      "Lei 18.065/2023 (altera a lei - arts. 16, 16-A)",
+      "Lei 18.081/2024 (amplia perímetro - setores 017/025/026 Brás)",
+      "Lei 18.330/2025 (art. 16-III, 16-B)"
+    ]
   },
   "remissoes": [
     {
-      "norma": "ISS / ITBI",
-      "relacao": "reducao/isencao correlatas no programa"
+      "norma": "Lei 16.642/2017 (Código de Obras e Edificações)",
+      "relacao": "complementaridade — requalificação disciplinada complementarmente ao COE (art. 1º, art. 13§2, art. 21§2)"
+    },
+    {
+      "norma": "Lei 16.050/2014 (Plano Diretor Estratégico)",
+      "relacao": "objetivos estratégicos, ZEIS (art. 7§5), outorga (art. 12-V), PEUC/IPTU progressivo (art. 16§14), consórcios imobiliários (art. 17)"
+    },
+    {
+      "norma": "Lei 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupação do Solo)",
+      "relacao": "CA máximo Quadro 3 (art. 7§2), parâmetros de reforma (art. 12), quota ambiental Quadro 3A (art. 12§2-b), art. 25 ZEPEC (art. 11)"
+    },
+    {
+      "norma": "Lei 11.228/1992 (Código de Edificações anterior)",
+      "relacao": "marco temporal de elegibilidade — edificações anteriores a 23/09/1992 (art. 4º)"
+    },
+    {
+      "norma": "Lei 13.701/2003 (ISS municipal)",
+      "relacao": "redução de alíquota ISS para 2% nos serviços do item 7 (art. 16-IV)"
+    },
+    {
+      "norma": "Lei Complementar 157/2016 (ISS — alíquota mínima)",
+      "relacao": "limite de alíquota efetiva mínima de 2% (art. 16-IV)"
+    },
+    {
+      "norma": "Lei 15.150/2010 (Polos Geradores de Tráfego)",
+      "relacao": "dispensa de mitigação PGT para templos religiosos (art. 10)"
+    },
+    {
+      "norma": "Lei 10.235/1986 (IPTU — atualização de idade)",
+      "relacao": "base da isenção parcial de 50% do acréscimo por atualização de idade (art. 16-A)"
+    },
+    {
+      "norma": "Lei 6.989/1966 (IPTU — fato gerador)",
+      "relacao": "referência ao fato gerador de reforma (art. 16-A§1, §2)"
+    },
+    {
+      "norma": "Lei 17.332/2020 (Programa Triângulo SP)",
+      "relacao": "exclusão — isenção do art. 16-A não se aplica a imóveis com benefício do Triângulo SP (art. 16-A§4)"
     },
     {
       "norma": "Lei 17.844/2022 (PIU Setor Central)",
-      "relacao": "contexto de intervencao urbana na area central"
+      "relacao": "alteradora — nova redação do art. 16 caput, inclusão §§7-9"
+    },
+    {
+      "norma": "Lei 18.065/2023",
+      "relacao": "alteradora — nova redação art. 16-I, inclusão §§10-14 e art. 16-A"
+    },
+    {
+      "norma": "Lei 18.081/2024",
+      "relacao": "alteradora — ampliação do perímetro (setores 017/025/026 Brás)"
+    },
+    {
+      "norma": "Lei 18.330/2025",
+      "relacao": "alteradora — nova redação art. 16-III, inclusão art. 16-B"
+    },
+    {
+      "norma": "Lei Orgânica do Município de São Paulo",
+      "relacao": "observância do art. 46§2 alíneas a e b (art. 23)"
     }
   ],
   "jurisprudencia_relacionada": [],
   "tem_tabela": false,
   "tabelas_extraidas": [],
-  "tem_formula": false,
-  "formulas_referenciadas": [],
+  "tem_formula": true,
+  "formulas_referenciadas": [
+    "Art. 16-B: redução 60% do IPTU por 48 meses — regra de cálculo do benefício fiscal"
+  ],
   "fonte": {
     "origem": "web-oficial",
     "url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17577-de-20-de-julho-de-2021",
-    "hash": "sha256:aa6e5fd6c82f21d92a0f26444934f5d422bf24fbef43a668facfe8d4f0713e9d",
+    "hash": "sha256:3cd2455dff41af0b1b46f4f85d9e77bed44012487dd9283b22cae56230f9eabc",
     "ocr": false,
-    "metodo": "WebSearch (nao-verbatim; WebFetch/curl bloqueados HTTP 403)",
-    "obs": "texto nao-verbatim; capturado via WebSearch por bloqueio de WebFetch/curl (HTTP 403).",
-    "hash_alvo": "leis/municipal-sp/lei-municipal-saopaulo-17577-2021.md",
-    "hash_nota": "hash da transcrição do corpus (.md) — cru ausente localmente (B-4/B-9); trocar pelo hash do cru quando ele chegar"
+    "metodo": "PDF-texto Catálogo de Legislação Municipal via Google Drive MCP",
+    "obs": "texto verbatim consolidado (catálogo); capturado via Google Drive MCP read_file_content.",
+    "hash_alvo": "leis/municipal-sp/lei-municipal-saopaulo-17577-2021.md"
   },
-  "status_pipeline": "bruto",
-  "confianca_extracao": "media",
+  "status_pipeline": "indexado",
+  "confianca_extracao": "alta",
   "revisado_por_humano": false,
-  "dominio_primario": "iptu",
+  "dominio_primario": "compartilhado",
   "dominio": [
-    "iptu"
+    "compartilhado"
   ]
 }

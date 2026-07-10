@@ -1,0 +1,56 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-18222-2024::041-art-40",
+  "lei_id": "lei-municipal-saopaulo-18222-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 40",
+  "numero": "40",
+  "header_raw": "Art. 40. Caberá à Secretaria Municipal de Urbanismo e Licenciamento - SMUL, além das outras",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Seção I",
+    "Art. 40"
+  ],
+  "texto": "Art. 40. Caberá à Secretaria Municipal de Urbanismo e Licenciamento - SMUL, além das outras\n\natribuições previstas em lei:\n\nI - autorizar o desenvolvimento dos Planos de Intervenção Urbana das AEL, de novos Planos de\n\nIntervenção Urbana e de novos Projetos Estratégicos no perímetro do Arco Pinheiros, mediante\n\ninteração entre órgãos da administração direta e indireta com outras esferas de governo e com a\n\nsociedade civil;\n\nII - realizar o controle finalístico da transformação urbana através do acompanhamento das políticas\n\npúblicas e do monitoramento dos indexadores da transformação territorial;\n\nIII - identificar as áreas de propriedade do Município no território da AIU-ACP e sua atualização\n\nproveniente das ações autorizadas por esta Lei;\n\nIV - requerer a realização das tarefas concernentes à implantação da AIU-ACP pela SP-Urbanismo;\n\nV - solicitar à SP-Urbanismo a manifestação sobre a conformidade dos projetos sob sua avaliação às\n\ndiretrizes urbanísticas para os Projetos Estratégicos e demais parcelamentos de glebas ou lotes\n\ncontidos no perímetro da AIU-ACP, sem prejuízo do atendimento às exigências previstas nos arts. 51 e\n\n52 da Lei nº 16.402, de 22 de março de 2016 - LPUOS.\n\n§ 1º A oitiva prevista no inciso V do caput deste artigo será prévia e indispensável à expedição de\n\ndiretrizes para os Projetos Estratégicos instituídos por esta Lei e demais parcelamento de glebas ou\n\nlotes contidos no perímetro da AIU-ACP, podendo a SP-Urbanismo solicitar ajustes e adaptações de\n\ncaráter urbanístico nos projetos, para atendimento às disposições da AIU-ACP.\n\n§ 2º A Secretaria Municipal de Urbanismo e Licenciamento - SMUL firmará ajustes com a SP-\n\nUrbanismo para remuneração da prática dos atos necessários ao desenvolvimento, gestão e\n\nacompanhamento da implantação do PIU-ACP.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 18.222/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO V › Seção I › Art. 40",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-18222-de-27-de-dezembro-de-2024",
+    "vigencia": {
+      "inicio": "2024-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Lei nº 18.298/2025"
+      ],
+      "revogada_por": null,
+      "observacao": "Em vigor desde a publicacao; consolidada com alteracoes da Lei 18.298/2025 (27 dispositivos com redacao alterada, 1 incluido, 1 revogado — todos relativos a ZOE-Butantan)."
+    }
+  },
+  "tema": [
+    "plano_intervencao_urbana",
+    "arco_pinheiros",
+    "uso_ocupacao_solo",
+    "zoneamento",
+    "potencial_construtivo",
+    "habitacao_interesse_social",
+    "distrito_inovacao",
+    "meio_ambiente_urbano",
+    "mobilidade_urbana",
+    "outorga_onerosa"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Aprova o Plano de Intervenção Urbana para o território do Arco Pinheiros, em atendimento ao inciso IV do § 3º do art. 76 da Lei nº 16.050, de 31 de julho de 2014 - PDE; cria a Área de Intervenção Urbana Arco Pinheiros."
+}

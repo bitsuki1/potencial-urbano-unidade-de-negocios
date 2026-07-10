@@ -1,0 +1,52 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17202-2019::024-art-23",
+  "lei_id": "lei-municipal-saopaulo-17202-2019",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 23",
+  "numero": "23",
+  "header_raw": "Art. 23. As edificações de que trata esta Lei, enquanto seus processos de regularização estiverem em andamento, não serão passíveis de sanção em decorrência de infrações regularizáveis nos termos ora fixados ou por falta do Auto de Licença de Funcionamento.",
+  "caminho_hierarquico": [
+    "CAPÍTULO IX",
+    "Art. 23"
+  ],
+  "texto": "Art. 23. As edificações de que trata esta Lei, enquanto seus processos de regularização estiverem em andamento, não serão passíveis de sanção em decorrência de infrações regularizáveis nos termos ora fixados ou por falta do Auto de Licença de Funcionamento.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.202/2019 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO IX › Art. 23",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17202-de-16-de-outubro-de-2019",
+    "vigencia": {
+      "inicio": "2020-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 22 prorrogado até 31/12/2025 (Lei 18.209/2024). Arts. 6, 8, 9 e 14 alterados pela Lei 18.270/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.346/2020 (art. 22)",
+        "Lei 17.556/2021 (art. 22)",
+        "Lei 17.771/2022 (art. 22)",
+        "Lei 18.062/2023 (art. 22)",
+        "Lei 18.209/2024 (art. 22)",
+        "Lei 18.270/2025 (arts. 6, 8, 9, 14)"
+      ]
+    }
+  },
+  "tema": [
+    "regularizacao_edificacoes",
+    "outorga_onerosa",
+    "permeabilidade",
+    "FUNDURB"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a regularização de edificações, condicionada, quando necessário, à realização de obras, nos termos da previsão do art. 367 do Plano Diretor Estratégico."
+}

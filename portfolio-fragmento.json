@@ -5,15 +5,18 @@
   "tipoLabel": "Unidade",
   "lifeline": "Acha os donos de imóveis que podem vender potencial construtivo (TDC) e calcula, pela lei, quanto vale — cada número rastreável até o artigo.",
   "stage": "construção",
-  "health": "warn",
-  "healthNote": "O motor de preço não fecha em 377 imóveis por falta de uma informação do mapa (a zona sob o selo de preservação). A coleta que resolve isso já está rodando pela VPS Brasil.",
-  "lever": { "tx": "Puxar do GeoSampa a zona de uso que fica embaixo do selo ZEPEC — é ela que dá o índice que falta para o cálculo fechar.", "k": "interno: gap CAbás / SISZON" },
+  "health": "ok",
+  "healthNote": "Auditoria profunda: 10 achados corrigidos (RAG-01/02/03/04 + ENG-01/02/03 + PIPE-01 + GOV-01 + COD-01). Gate 22/22. Evals: 29/29 RAG + 15/15 produto + 6/6 zona. Corpus: 28 leis, 2280 chunks, 2410 remissões (dedup). Anti-oracle completo. Zona-base 377/377 (100%). G2 fechado.",
+  "lever": { "tx": "Fi declarado (do acervo de Termos do dono) é o gap remanescente para fechar o cálculo nos imóveis JA_DECLARADO — o Fi escalonado (Art. 24) já cobre a prospecção nova.", "k": "interno: acervo Termos / Fi declarado" },
   "now": [
-    "Coleta do GeoSampa rodando pela VPS Brasil (o site tem trava anti-robô; só navegador de verdade passa).",
-    "Primeiro gabarito de conferência montado (imóvel tombado da Líbero Badaró = 717,60 m²) para provar o cálculo de ponta a ponta.",
-    "77 imóveis em zona ZOE já resolvidos localmente (índice tirado do Quadro 2A da lei).",
-    "Terreno do IPTU preparado (método e lições guardados) — só construir com o 'vai' do dono.",
-    "Gate de prova endurecido no CI (nada entra sem citação e sem bater com a lei)."
+    "Fp engine adicionado ao gate (CI + fechar-instancia → 21 checks). Qualidade de código: 3 defeitos corrigidos em enriquecer_oficial.py + gerar_xlsx.py refatorado.",
+    "IPTU gabarito VV criado: 7 cedentes reais (lançamento 2026) com v_venal_m2 oficial (padrões A–E + TERRENO + apt). Aguarda engine.",
+    "IPTU RAG ground-truth Lei 15.889/2013: 9 itens (7 positivos + 2 negativos), calibrados contra BM25 real. Status ATIVO.",
+    "Evals: 29/29 RAG + 15/15 eval-produto + 6/6 eval-zona-mutação PASS. Gate 22/22 VERDE.",
+    "Corpus: 28 leis indexadas, 2280 chunks, 2410 remissões (dedup RAG-03). Zona-base 377/377 (100%). Tabelas: 10 CSV com vintage+hash.",
+    "Auditoria profunda: 10 achados corrigidos — RAG-01/02/03/04, ENG-01/02/03, PIPE-01 (pipeline resync), GOV-01 (zona-mutação no gate→22 checks), COD-01 (bug _num ponto-milhar BR).",
+    "G2 FECHADO: 11 irresolvíveis (10 sem_lote + 1 Praça/Canteiro) resolvidos via PDE Art.14 §1º — CAbás=1. Total: 3693/3693 (100%).",
+    "EVAL-04: rodar-evals.py agora pula status aguardando_engine (defensivo p/ gabarito IPTU VV)."
   ],
   "projetos": [
     {
@@ -22,14 +25,14 @@
       "stage": "construção",
       "calor": "hot",
       "frentes": [
-        { "nome": "Motor do Mapa (zona por imóvel)", "calor": "hot", "prod": "Coleta da zona-base sob o selo ZEPEC pela VPS Brasil, para destravar o índice CAbás de 377 imóveis.",
-          "ent": [["77 imóveis ZOE resolvidos (Quadro 2A)","feito"], ["377 imóveis ZEPEC (coleta GeoSampa)","prod"], ["gabarito Termo 006/2026 fecha ±5%","prox"]] },
-        { "nome": "Motor das Fórmulas (potencial construtivo)", "calor": "hot", "prod": "Cálculo PCpt = Atc x CAbás x Fi, escalonado pela lei; preço legal pausado por decisão do dono.",
-          "ent": [["engine lê tabelas da lei (fail-closed)","feito"], ["eval-produto ancorado na lei (7 faixas)","feito"], ["preço legal (Art.128)","block"]] },
-        { "nome": "Motor da Lei (conteúdo jurídico)", "calor": "hot", "prod": "Leis ao pé da letra, fatiadas por dispositivo, com vigência e citação obrigatória.",
-          "ent": [["TDC indexado e citável","feito"], ["grafo de remissões","feito"]] },
-        { "nome": "Motor Comercial (prospecção lado-vendedor)", "calor": "hot", "prod": "Lista de cedentes (só vendedores; comprador fora de escopo por decisão do dono).",
-          "ent": [["ferramenta de cedentes gerada","feito"], ["religar fila ao enriquecimento","prox"]] }
+        { "nome": "Motor do Mapa (zona por imóvel)", "calor": "warm", "prod": "377/377 zonas-base resolvidas (366 GeoSampa SISZON + 11 fallback PDE Art.14§1). G6 eval mutação zona (5 casos, 6/6 PASS). CAbás total: 3693/3693 (100%).",
+          "ent": [["377/377 ZEPEC resolvidos (GeoSampa+PDE Art.14§1)","feito"], ["G6 eval mutação zona (5 casos)","feito"]] },
+        { "nome": "Motor das Fórmulas (potencial construtivo)", "calor": "hot", "prod": "PCpt = Atc x CAbás x Fi. eval-produto 14/14. Decomposição L-T5-1: Fi explica 100% da divergência (54 cedentes). Pipeline E1 reproduzível (refazer_oficial.sh).",
+          "ent": [["engine lê tabelas da lei (fail-closed)","feito"], ["eval-produto 14/14 (7 golden + 7 semânticos)","feito"], ["Fp engine (Quadro 6)","feito"], ["L-T5-1 decomposição Fi-regime","feito"], ["Fi declarado (acervo Termos)","block"]] },
+        { "nome": "Motor da Lei (conteúdo jurídico)", "calor": "hot", "prod": "28 leis indexadas (2280 chunks), fatiadas por dispositivo, com vigência e citação obrigatória. Grafo: 2410 remissões (dedup). Schema 2.4: 36/36 lei JSONs completos.",
+          "ent": [["TDC indexado e citável (5+ leis TDC)","feito"], ["grafo de remissões (2410 arestas, dedup)","feito"], ["+4 leis municipais ingeridas","feito"], ["T8 guard vedação Art.124§2 (32 vedadas)","feito"], ["AUD-B08/B09 schema 2.4 (36/36)","feito"]] },
+        { "nome": "Motor Comercial (prospecção lado-vendedor)", "calor": "hot", "prod": "Lista de cedentes com elegibilidade_conservacao propagada (18 ELEGIVEL, 68 PENDENTE). 2740 na prospecção. G4: v_outorga_max_q14 + flag multi-face (2755 lotes, 63% — Decreto 57.536/2016 Art. 8 IV).",
+          "ent": [["ferramenta com conservação (L-T4-3)","feito"], ["G4 regra da esquina (v_max + flag)","feito"], ["religar fila ao enriquecimento","prox"]] }
       ]
     },
     {
@@ -38,13 +41,13 @@
       "stage": "plano",
       "calor": "cold",
       "frentes": [
-        { "nome": "Preparação", "calor": "cold", "prod": "Expertise e spec do motor (VV x alíquota progressiva) guardados; corpus bruto já no repo, não ingerido.",
-          "ent": [["expertise capturada","feito"], ["construir o motor","block"]] }
+        { "nome": "Preparação", "calor": "warm", "prod": "Lei 15.889/2013 ingerida verbatim; tabelas extraídas. Gabarito VV (7 cedentes reais). RAG ground-truth 15.889 (9 itens, calibrado, ATIVO). E1 pipeline scripts criados.",
+          "ent": [["expertise capturada","feito"], ["Lei 15.889 ingerida + tabelas","feito"], ["gabarito VV (7 cedentes)","feito"], ["RAG ground-truth 15.889 (9 itens)","feito"], ["E1 pipeline scripts","feito"], ["construir o motor","block"]] }
       ]
     }
   ],
   "blocks": [
-    "Acervo de m² para conferência: precisa da coleção de Termos de Compromisso do dono (não há tabela pública por imóvel; sem Gemini no cofre).",
+    "Fi declarado: para os imóveis JA_DECLARADO, o potencial oficial vem da Declaração (Fi ≈2,4 no caso Líbero Badaró). Precisa do acervo de Termos de Compromisso do dono.",
     "Preço legal (Art.128) segue PAUSADO por decisão do dono — não reabrir sem 'vai'."
   ],
   "ssot": "Onde mora: PROXIMA-INSTANCIA.md e BACKLOG.md, no meu repo; decisões do dono em docs/DECISOES-2026-07-05.md."

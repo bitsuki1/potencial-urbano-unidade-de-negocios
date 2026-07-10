@@ -125,7 +125,7 @@ def elegibilidade_conservacao(ato_conservacao):
                              tombamento NÃO é atestado de conservação; cedente não entra em 'pronto para abordar'.
     Nunca fabrica: só o Atestado de Conservação elegibiliza; qualquer outra coisa NÃO."""
     a = (ato_conservacao or "").strip().lower()
-    if "atestado de conserva" in a:
+    if "atestado" in a and "conserva" in a:          # cobre "Atestado de Conservação" E "Atestado de Preservação e Conservação"
         return "ELEGIVEL", CIT_CONSERV
     if "termo de compromisso" in a:
         return "PENDENTE_CONSERVACAO", CIT_CONSERV
@@ -135,6 +135,7 @@ def _autoteste_conservacao():
     """Fixtures OBRIGATÓRIAS que FALHAM se a regra regredir (T4). Rodável isolado do dado pesado."""
     casos = [
         ("Atestado de Conservação 001/2016", "ELEGIVEL"),
+        ("Atestado de Preservação e Conservação de Imóvel Tombado nº 004/DPH-G/2022", "ELEGIVEL"),  # variante expandida
         ("Termo de Compromisso 008/2016",    "PENDENTE_CONSERVACAO"),  # compromisso de remediar != elegível
         ("RES. 22/02",                       "SEM_ATESTADO"),          # resolução de TOMBAMENTO != conservação
         ("RES. 05/2022",                     "SEM_ATESTADO"),
@@ -148,7 +149,80 @@ def _autoteste_conservacao():
     # a garantia central do T4, explícita: NEM Termo NEM tombamento (RES.) podem ser ELEGIVEL
     for ato in ("Termo de Compromisso 008/2016", "RES. 22/02", "RES. 05/2022", "-", ""):
         assert elegibilidade_conservacao(ato)[0] != "ELEGIVEL", f"conservacao: {ato!r} NÃO pode ser ELEGIVEL"
-    return True
+
+    # --- L-T4-1: assert sobre coorte real (zepec_unificada.csv) — partições mecânicas, não prosa ---
+    csv_path = OUT / "zepec_unificada.csv"
+    n_real = 0
+    if csv_path.exists():
+        with csv_path.open(encoding='utf-8') as _f:
+            linhas = list(csv.DictReader(_f))
+        # CERTIDAO_BIR_CEDENTE com "atestado" em ato_conservacao => deve ser ELEGIVEL
+        cert_atestado = [r for r in linhas
+                         if r['origem'] == 'CERTIDAO_BIR_CEDENTE'
+                         and 'atestado' in r['ato_conservacao'].lower()]
+        assert cert_atestado, "L-T4-1: nenhuma certidão com atestado encontrada no CSV"
+        for r in cert_atestado:
+            assert r['elegibilidade_conservacao'] == 'ELEGIVEL', \
+                f"L-T4-1: CERTIDAO com atestado deve ser ELEGIVEL, got {r['elegibilidade_conservacao']} (ato={r['ato_conservacao']!r})"
+        # CERTIDAO_BIR_CEDENTE com "termo" em ato_conservacao => deve ser PENDENTE_CONSERVACAO
+        cert_termo = [r for r in linhas
+                      if r['origem'] == 'CERTIDAO_BIR_CEDENTE'
+                      and 'termo' in r['ato_conservacao'].lower()]
+        assert cert_termo, "L-T4-1: nenhuma certidão com termo encontrada no CSV"
+        for r in cert_termo:
+            assert r['elegibilidade_conservacao'] == 'PENDENTE_CONSERVACAO', \
+                f"L-T4-1: CERTIDAO com termo deve ser PENDENTE_CONSERVACAO, got {r['elegibilidade_conservacao']} (ato={r['ato_conservacao']!r})"
+        # TOMBADO_CADASTRO: NENHUMA linha pode ter ato_conservacao preenchido (vai para ato_tombamento)
+        tomb = [r for r in linhas if r['origem'] == 'TOMBADO_CADASTRO']
+        assert tomb, "L-T4-1: nenhuma linha TOMBADO_CADASTRO encontrada no CSV"
+        tomb_com_ato = [r for r in tomb if r['ato_conservacao'].strip()]
+        assert not tomb_com_ato, \
+            f"L-T4-1: TOMBADO_CADASTRO não pode ter ato_conservacao preenchido ({len(tomb_com_ato)} violações)"
+        n_real = len(cert_atestado) + len(cert_termo) + len(tomb)
+
+    # --- L-T4-2: fixture discriminante — TOMBADO_CADASTRO com texto tipo Atestado NÃO elegibiliza ---
+    # A proteção é pelo fluxo de dados: ato_conservacao é VAZIO para TOMBADO_CADASTRO (a resolução
+    # de tombamento vai para ato_tombamento). A elegibilidade lê ato_conservacao, não ato_tombamento.
+    tombado_sintetico = dict(
+        origem='TOMBADO_CADASTRO', ato_conservacao='', ato_tombamento='RES. 22/02',
+    )
+    est_tomb, _ = elegibilidade_conservacao(tombado_sintetico['ato_conservacao'])
+    assert est_tomb == 'SEM_ATESTADO', \
+        f"L-T4-2: TOMBADO_CADASTRO com ato_conservacao='' deve ser SEM_ATESTADO, got {est_tomb}"
+    # Mesmo com texto de Atestado no ato_tombamento, a elegibilidade NÃO muda (lê ato_conservacao='')
+    tombado_injetado = dict(
+        origem='TOMBADO_CADASTRO', ato_conservacao='',
+        ato_tombamento='Atestado de Conservação 999/2025',
+    )
+    est_inj, _ = elegibilidade_conservacao(tombado_injetado['ato_conservacao'])
+    assert est_inj == 'SEM_ATESTADO', \
+        f"L-T4-2: TOMBADO_CADASTRO não elegibiliza via ato_tombamento, got {est_inj}"
+
+    # --- L-T4-4: fixture de linhas mescladas (CERTIDAO_BIR_CEDENTE + TOMBADO_CADASTRO no mesmo SQL) ---
+    # 79 imóveis reais aparecem em ambas as fontes. A conservação é governada pelo lado CERTIDAO
+    # (que tem ato_conservacao preenchido); o lado TOMBADO tem ato_conservacao=''.
+    n_mesclados = 0
+    if csv_path.exists():
+        sql_origens = {}
+        for r in linhas:
+            if r['sql_mestre']:
+                sql_origens.setdefault(r['sql_mestre'], {}).setdefault(r['origem'], []).append(r)
+        mesclados = {sql: origens for sql, origens in sql_origens.items()
+                     if 'CERTIDAO_BIR_CEDENTE' in origens and 'TOMBADO_CADASTRO' in origens}
+        assert mesclados, "L-T4-4: nenhum SQL com CERTIDAO+TOMBADO encontrado no CSV"
+        for sql, origens in mesclados.items():
+            # Lado TOMBADO: ato_conservacao DEVE ser vazio
+            for r in origens['TOMBADO_CADASTRO']:
+                assert not r['ato_conservacao'].strip(), \
+                    f"L-T4-4: TOMBADO de SQL mesclado {sql} não pode ter ato_conservacao preenchido"
+            # Lado CERTIDAO: governa a conservação — elegibilidade deve bater com o ato_conservacao
+            for r in origens['CERTIDAO_BIR_CEDENTE']:
+                esperado, _ = elegibilidade_conservacao(r['ato_conservacao'])
+                assert r['elegibilidade_conservacao'] == esperado, \
+                    f"L-T4-4: CERTIDAO de SQL mesclado {sql}: elegibilidade={r['elegibilidade_conservacao']}, esperado={esperado}"
+        n_mesclados = len(mesclados)
+
+    return n_real, n_mesclados
 
 
 COLS=['origem','tipo_zepec','esfera','categoria','cessao_vedada_art124p2',
@@ -263,8 +337,13 @@ def main():
 if __name__=="__main__":
     import sys
     if "--autoteste" in sys.argv:
-        _autoteste_conservacao()
+        n_real, n_mesclados = _autoteste_conservacao()
         print("AUTO-TESTE conservação (T4): OK — Atestado=ELEGIVEL · Termo=PENDENTE · RES./vazio=SEM_ATESTADO "
               "(nem Termo nem tombamento elegibilizam).")
+        if n_real:
+            print(f"  L-T4-1: coorte real verificada ({n_real} linhas conferidas no CSV).")
+        print("  L-T4-2: discriminante TOMBADO_CADASTRO — ato_conservacao='' confirmado (não elegibiliza).")
+        if n_mesclados:
+            print(f"  L-T4-4: linhas mescladas CERTIDAO+TOMBADO — {n_mesclados} SQLs verificados (CERTIDAO governa).")
     else:
         main()

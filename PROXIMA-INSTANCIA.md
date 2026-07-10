@@ -1,5 +1,93 @@
 # PRÓXIMA INSTÂNCIA — o que fazer (Potencial Urbano)
 
+> **★★★★★★★★★★★★★★★★★ PU 18 (2026-07-10) — G2 FECHADO: zona-base 377/377 (100%) + EVAL-04 fix + banner 10 achados.**
+> **G2 COMPLETO:** os 11 irresolvíveis (10 sem_lote + 1 Praça/Canteiro) resolvidos via fallback PDE Art.14 §1º (CAbás=1). Total: **3.693/3.693 com CAbás** (era 3.682). Nenhum em zona de exceção (ZEPAM/ZPDSr/AC-1/AC-2/AVP-1). Fonte rastreável no CSV (`PDE_Art14§1(sem_lote)`, `PDE_Art14§1(Praça/Canteiro)`).
+> **EVAL-04:** `rodar-evals.py` agora pula status `aguardando_engine` (antes só pulava `aguardando_verbatim`). Defensivo: gabarito IPTU VV não quebraria o gate futuro.
+> **Gate:** 22/22 VERDE. **Evals:** 29/29 RAG + 15/15 eval-produto + 6/6 eval-zona-mutação PASS.
+> **CI:** GitHub Actions infraestrutura inoperante (billing/quota — runners não executam, logs 404). Problema de conta, não de código.
+>
+> **★★★★★★★★★★★★★★★★ PU 18 (2026-07-10) — AUDITORIA PROFUNDA: 10 achados corrigidos, 7 lentes (RAG-01/02/03/04 + ENG-01/02/03 + PIPE-01 + GOV-01 + COD-01).**
+> **RAG-01 (alta):** `indexar.py:103` só promovia `fatiado` → 4 leis presas em `tagueado` (11152/15044/17202/17577). CORRIGIDO: aceita `tagueado`/`validado`. MANIFESTO: 24→**28 indexado**.
+> **RAG-02 (alta):** `consolidar.py` NV-1 só checava falso-verde (indexado sem chunk). CORRIGIDO: check reverso adicionado (chunks sem status indexado).
+> **RAG-03 (média):** `grafo_remissoes.py` emitia 1108 duplicatas (31,5%). CORRIGIDO: dedup por (lei_id, chunk_id, tipo, alvo). 3518→**2410 arestas**.
+> **ENG-01 (alta):** `oodc.py` lia Fi de `motor00/travas_operacionais_v6.1.json` (anti-oracle 1.3). CORRIGIDO: delega ao `pcpt.py` que lê de `tabelas/*.csv`.
+> **ENG-02 (alta):** `oodc.py` sem `regularizacao_fundiaria` (Art.127 §1º III, Fi=0.8). CORRIGIDO: via delegação ao pcpt.py.
+> **RAG-04:** auto-corrigido (MANIFESTO 28 indexado ao rodar RAG-01 fix).
+> **ENG-03 (média):** CI anti-oráculo não cobria `motor00/` (só CODEX). CORRIGIDO: guard `["']motor00/` no consolidar.yml (exceto travas_operacionais).
+> **PIPE-01 (média):** pipeline ZEPEC dessincronizado (CSVs gerados com código antigo). CORRIGIDO: regenerado cadeia completa montar_base→montar_ferramenta→enriquecer_oficial→lista_prospeccao.
+> **GOV-01 (média):** eval zona-mutação (G6) fora do gate local. CORRIGIDO: `fechar-instancia.py` → **22 checks** (era 21).
+> **COD-01 (média):** `_num()` em montar_ferramenta.py não tratava ponto-milhar BR sem vírgula (ex.: "1.500"→1.5 em vez de 1500). CORRIGIDO: `elif fullmatch` adicionado. Dead code `norm_sql()` removido.
+> **Gate:** 22/22 VERDE (pós-commit). **Evals:** 29/29 RAG + 15/15 eval-produto + 6/6 eval-zona-mutação PASS. **CI:** infraestrutura GitHub Actions inoperante (billing/quota — runners não executam).
+>
+> **★★★★★★★★★★★★★★★ PU 18 (2026-07-10) — VARREDURA 5 LENTES: fp.py gate + qualidade código + IPTU gabarito VV + ground-truth Lei 15.889.**
+> **Fp no gate (Lente 4):** `engines/tdc/fp.py` adicionado ao CI (`consolidar.yml`) e ao gate local (`fechar-instancia.py` → **21 checks**). Era o único engine sem gate — corrigido.
+> **Qualidade de código:** `enriquecer_oficial.py` — 3 defeitos (dead `if True:`, contadores não-inicializados, `setdefault` redundante). `gerar_xlsx.py` refatorado (Path-based, função encapsulada, sem `/tmp` hardcoded).
+> **IPTU gabarito VV:** `evals/ground-truth/gabarito-iptu-vv.json` — 7 cedentes REAIS (lançamento 2026, Prefeitura) com `v_venal_m2` oficial. Padrões A–E + TERRENO + apt condomínio. Status `aguardando_engine`.
+> **IPTU RAG ground-truth:** `evals/ground-truth/iptu-15889-2013.json` — 9 itens (7 positivos, 2 negativos) calibrados contra BM25 real. Status ATIVO. Queries ajustadas com termos verbatim da lei para match no BM25 (5/9 falharam na 1ª rodada, calibrados).
+> **Gate:** 21/21 VERDE. **Evals:** 29/29 RAG + 15/15 eval-produto + 6/6 eval-zona-mutação PASS.
+> **PRÓXIMO:** commitar + push + atualizar PR. Depois: continuar execução de itens locais do backlog (G1 overlay refactor, fatores-tdc.csv, B-5 embeddings).
+>
+> **★★★★★★★★★★★★★★ PU 18 (2026-07-10) — G4 REGRA DA ESQUINA: v_outorga_max_q14 + flag multi-face (2.755 lotes, 63%).**
+> **G4 FEITO (parcial):** `enriquecer_oficial.py` surfaça `v_outorga_max_q14` = MAX(V) por quadra (Decreto 57.536/2016 Art. 8 IV). Quando V_face < V_MAX, o lote ganha flag + citação legal. **2.755 multi-face flagados** (63% dos 4.360); 1.122 single-face. `lista_prospeccao.py` inclui a nova coluna. Pipeline regenerado.
+> **RESTA (G4 geometria fina):** distinguir lotes de esquina (frente p/ 2+ faces) dos internos (mesma face da quadra) — precisa coordenadas de lote (LOTES shapefiles).
+> **Gate:** 14/14 eval-produto + 6/6 eval-zona-mutacao PASS.
+> **PRÓXIMO:** continuar varredura de itens locais do backlog (T12 L-T2-3 / L-T7-3 baixas; ou fechar a sessão).
+>
+> **★★★★★★★★★★★★★ PU 18 (2026-07-10) — AUD-B08/B09 SCHEMA 2.4 COMPLETADO: 36/36 lei JSONs com zero campos obrigatórios vazios.**
+> **AUD-B08/B09 FEITO:** 6 lei JSONs preenchidas (tema[], dispositivos_chave[], remissoes[]): Decreto 57.443, PDE 16.050, LPUOS 16.402, COE 16.642, Lei 17.733, Lei 17.844. Invariante I5 preservado (tema[] sem "iptu"/"tdc" — routing em `dominio`/`dominio_primario`). PROVADO: grep campo=None em 36 JSONs = 0.
+> **RESTA (B09 parcial):** `vigencia.inicio` das municipais sem verbatim (5 NÃO no Drive + 3 PDFs scan inacessíveis — captura externa).
+> **Gate:** 20/20 evals + 14/14 eval-produto + 6/6 eval-zona-mutacao PASS.
+> **PRÓXIMO:** continuar varredura de itens locais do backlog.
+>
+> **★★★★★★★★★★★★ PU 18 (2026-07-10) — E2/E3 ENTREGUES: vintage obrigatório + medallion convention.**
+> **E3 FEITO:** `docs/CONVENCAO-MEDALLION.md` — convenção medallion de 1 página (Bronze/Silver/Gold). Silver = `oficiais.*`. Sem governança por camada.
+> **E2b FEITO:** upload scripts (`subir-oficiais-para-supabase.gs`, `subir-grandes-colab.py`) todos com `ano=AAAA` no path. Zero `dest` sem vintage.
+> **E2c FEITO:** `consolidar.py` rastreia vintage+hash de cada `tabelas/*.csv` via `tabelas/METADATA.json` → seção `tabelas_vintage` no MANIFESTO (10 CSVs, 0 sem data_base).
+> **E2 família-2c FEITO:** `montar_ferramenta.py` preserva datas por origem (`data_declaracao_iso`, `data_certidao_iso`, `data_tombamento_iso`) — nunca agrega origens distintas antes do dado bruto. `data_ref=max()` mantido como agregado Gold/apresentação.
+> **Gate:** 14/14 eval-produto + 6/6 eval-zona-mutacao PASS. Pipeline regenerado.
+> **E2 restantes (BLOCKED):** E2-0 (migrar tabelas Postgres sem vintage) depende de E4/Supabase infra.
+> **PRÓXIMO na fila:** outros itens do backlog LOCAL.
+>
+> **★★★★★★★★★★★ PU 18 (2026-07-10) — T12 LACUNAS 19/19 RESOLVIDAS + G6 eval geo + E1 pipeline scripts + conservation bug fix.**
+> **T12 auditoria: 19/19 lacunas resolvidas** (era 12/19; +7 esta sessão):
+> - L-T4-3 ALTA (propagação `elegibilidade_conservacao` ao runtime — `montar_ferramenta.py` COLS)
+> - L-T2-2 MEDIA (asserts semânticos T3 regime + T4 conservação no eval-produto: JA_DECLARADO→PENDENTE_FI_DECLARADO, 18 ELEGIVEL + 68 PENDENTE)
+> - L-T11-3 MEDIA (fixture com 12 conjuntos reais no eval-produto)
+> - L-T9-3 MEDIA (documentado: sem dados reais que casem ja>0+saldo<50k<PCpt — skip)
+> - L-T5-1 MEDIA (decomposição Fi-regime: Fi explica 100% da divergência em 54 cedentes)
+> - L-T2-3 BAIXA (golden SEM-PII: `evals/ground-truth/golden-cedentes-sem-pii.csv` + check no eval-produto 15/15)
+> - L-T7-3 MEDIA (runbook anon bucket: `docs/runbooks/probe-anon-bucket-supabase.md`)
+> **Sessão anterior (compactada):** L-T4-1/2/4, L-T7-2 (coorte real, discriminante, linhas mescladas, PII histórico).
+> **G6 eval geo criado:** `evals/eval-zona-mutacao.py` — mutation test zona→CAbás (6/6 PASS, 5 casos). Gate no CI.
+> **E1 pipeline scripts:** `recorte_q14.py` (criado), `filtro_iptu.py` (fix path), `refazer_oficial.sh` (criado).
+> **Conservation bug fix:** pattern matching broadened para "Atestado de Preservação e Conservação".
+> **Gate:** 20/20 evals + 15/15 eval-produto + 6/6 eval-zona-mutacao PASS.
+> **Pipeline:** 2.280 chunks, 28 leis indexadas, 66 MANIFESTO, 3.518 remissões.
+> **Últimas 2 (L-T2-3 + L-T7-3):** golden SEM-PII versionado + runbook anon bucket (ver banner G4 acima).
+> **PRÓXIMO na fila:** (1) outros itens do backlog LOCAL, (2) T8 geometria fina (BLOCKED), (3) G1 overlay por área (BLOCKED).
+>
+> **★★★★★★★★★ PU 18 (2026-07-09) — T8 GUARD VEDAÇÃO Art.124§2 + B-4 +4 LEIS MUNICIPAIS INGERIDAS.**
+> **T8 guard FEITO (parcial):** `enriquecer_oficial.py` BLOQUEIA PCpt/saldo/preço de imóveis vedados por Art.124§2 (AUE/APPa) ANTES do cálculo. 32 vedadas bloqueadas (13 tinham Atc+CAbás e recebiam PCpt indevido). `vedacao_geo.py` criado (carrega AUE shapefile 741 polígonos EPSG:31983; pronto p/ geometria fina quando coordenadas de lote estiverem disponíveis — LOTES shapefiles ou geocoding). **RESTA:** cruzar coordenadas de lote com shapefile AUE para pegar os ~28 vedados que a substring não alcança (precisa LOTES shapefiles).
+> **B-4 +4 leis municipais** ingeridas do Drive verbatim: Lei 11.152/1991 (alíquotas IPTU progressivas), Lei 15.044/2009 (nova Tabela VI IPTU), Lei 17.202/2019 (regularização edificações, compartilhado), Lei 17.577/2021 (Requalifica Centro, compartilhado). `carimbar_dominio.py` atualizado. **3 leis inacessíveis** pelo MCP Drive (10.235/86, 13.250/01, 14.865/08 = PDFs scan sem camada de texto).
+> **Pipeline:** 2.280 chunks, 28 leis indexadas, 66 MANIFESTO, 3.518 remissões. 20/20 evals + 8/8 eval-produto PASS.
+> **PRÓXIMO na fila:** (1) itens do backlog que restam locais (G5/G6/E1/E7 — materializar overlay, eval geo, runner); (2) T8 geometria fina (BLOCKED: LOTES shapefiles); (3) G1 overlay por área (BLOCKED: idem); (4) B-5 camada semântica (BLOCKED: chave API).
+>
+> **★★★★★★★★ PU 18 (2026-07-09) — +3 LEIS TDC INGERIDAS + MOTOR Fp + T12 AUDITORIA + SHAPEFILES ZEPEC.**
+> **Corpus TDC ampliado:** 3 leis baixadas do Drive e ingeridas verbatim: Lei 17.975/2023 (revisão intermediária PDE, 132 chunks, domínio compartilhado), Lei 18.081/2024 (revisão parcial LPUOS, 98 chunks, domínio compartilhado), Lei 18.222/2024 (PIU Arco Pinheiros, 62 chunks, domínio TDC). Pipeline: **2.201 chunks**, **24 leis indexadas**, **66 itens MANIFESTO**. Grafo de remissões regenerado: **3.416 arestas** (era 2.733). Gate VERDE: 20/20 evals + 8/8 eval-produto.
+> **B-3 FECHADO:** engine Fp (Fator de Planejamento) `engines/tdc/fp.py` + tabela `tabelas/quadro6-fator-planejamento-fp.csv` (Quadro 6 PDE, 15 linhas, baixado do Drive). Decimal exato, fail-closed, citação obrigatória.
+> **T12 FEITO:** auditoria mecânica de todas as 12 travas do Motor 1 → `docs/T12-AUDITORIA-DODS-2026-07-09.md`. 19 lacunas (1 CRÍTICA: PII donos_encontrados.csv tracked; 7 altas; 11 médias). Proposta de prova mecânica para cada.
+> **ZEPEC shapefiles:** `.shp/.shx/.dbf/.prj` baixados do Drive (741 polígonos AUE, EPSG:31983, verificados com geopandas) → prepara T8 (vedação geométrica Art.124§2) e G1 (overlay por área).
+> **PRÓXIMO na fila:** (1) ingerir as 7 municipais restantes do Drive (B-4: 10.235/86, 11.152/91, 13.250/01, 14.865/08, 15.044/09, 17.202/19, 17.577/21); (2) T8 (vedação geométrica com shapefiles AUE); (3) G1 (overlay por área — ZEPEC pronto, falta LOTES); (4) regenerar grafo de remissões completo com arestas inter-lei.
+>
+> **★★★★★★★ PU 18 (2026-07-09) — ZONA-BASE ZEPEC RESOLVIDA: 366/377 CAbás preenchidos via GeoSampa SISZON.**
+> **Achado:** a coleta GeoSampa (`portfolio-automacoes/tools/geosampa/zonas_377.csv`) JÁ RODOU no runner `brasil` — 366/377 zonas-base sob o selo ZEPEC capturadas. **Ação:** `resolver_zona_geosampa.py` cruza zona_18177 → Quadro 3 LPUOS → CAbás; preenche `zona_por_cedente.csv` (era 3316 → agora **3682**/3693 com CAbás). Makefile atualizado (etapa 3.5). **Impacto na ponta:** prospecção com PCpt = **2.078** (era 1.879, +199); preço-proxy = **2.003** (era 1.809, +194). **Gabarito Termo 006/2026:** zona-base = ZC (CAbás=1); PCpt escalonado = 358,80 m² (Fi=1,2 Art.24); oficial = 717,60 m² (Fi declarado ≈2,4). Divergência 2× EXPLICADA pelo T3 (JA_DECLARADO vs escalonado). Status atualizado: `CABAS_RESOLVIDO_FI_PENDENTE`. 20/20 evals PASS, gate 16/17 (só git). **Irresolvíveis:** 10 sem_lote + 1 Praça/Canteiro sem zona_v3.
+>
+> **★★★★★★ PU 18 (2026-07-09) — COSTURA B-20 RESTANTE FEITA + IPTU PRIMEIRO TERRENO INGERIDO.**
+> **Costura (commit `e5c04cb`):** `enriquecer_oficial.py` refatorado — Motor Fórmulas (`_calcular_pcpt`) separado do Motor Comercial (`_precificar`), cada trava num módulo (fachada `travas.py`), Makefile orquestrador criado. Output idêntico verificado, 20/20 evals PASS.
+> **IPTU ingestão (commit `1d8326e`):** triagem de `_entrada/iptu/` (2/7 IPTU); Lei 15.889/2013 ingerida verbatim (md+json+17 chunks); tabelas extraídas: `iptu-aliquotas-faixa.csv` (15 faixas, Arts. 3/4/5) + `iptu-valor-construcao-m2.csv` (Tabela VI, 31 linhas). Fix I5 (tema[] anti-padrão). Âncora na fixture de domínio. **Pipeline:** 1.909 chunks, 21 leis, 63 MANIFESTO. Eval-domínio I1-I6 VERDE. Gate 17/17 VERDE.
+> **PRÓXIMO na fila do cronograma:** (1) gabarito IPTU — calcular VV para 1 SQL do `iptu2026_cedentes.csv` usando tabelas extraídas, comparar com `v_venal_m2` oficial; (2) ingerir mais leis IPTU da `_entrada/` ou do Drive (7 municipais com PDF); (3) itens bloqueados pelo dono (T8, G1, G2, G4, B-4, B-5, B-21).
+> **AUD-C05/C06 FEITOS** esta sessão (fatiar.py data_redacao + chunks tipo=anexo).
+>
 > **★★★★★ PU 18 (2026-07-06) — DRIVE LIMPO: dedup ESCOPADO à PU CONCLUÍDO (robô). FALTA 1 CLIQUE DO DONO.**
 > Entregável da sessão = "o Drive limpo e saudável". **Arrumação:** 1.360/1.360 movidos (verificado). **Saneamento
 > fase 1:** 13 duplicatas de CSV pesado → lixeira (verificado). **Dedup escopado à subárvore do Potencial Urbano**

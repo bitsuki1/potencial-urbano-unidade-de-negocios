@@ -1,0 +1,59 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17975-2023::018-art-17",
+  "lei_id": "lei-municipal-saopaulo-17975-2023",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 17",
+  "numero": "17",
+  "header_raw": "Art. 17. O art. 50 da Lei nº 16.050, de 2014, passa a vigorar com as seguintes alterações:",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção I",
+    "Art. 17"
+  ],
+  "texto": "Art. 17. O art. 50 da Lei nº 16.050, de 2014, passa a vigorar com as seguintes alterações:\n\n“Art. 50. Os Planos de Ação Integrada em ZEIS 1 ou ZEIS 3 ocupadas por população de baixa renda\n\ndeverão ser formulados preferencialmente pelo Executivo, com a participação direta de seus\n\nrespectivos moradores e conselhos gestores.\n\n§ 1º Os moradores, suas entidades representativas e os membros do respectivo Conselho Gestor da\n\nZEIS 1 e das ZEIS 3 poderão tomar a iniciativa de elaborar planos de urbanização que serão\n\nsubmetidos à Prefeitura para aprovação.\n\n....................................................................................................\n\n§ 3º Após deliberação do Conselho Gestor da ZEIS e a aprovação da Comissão de Avaliação de\n\nEmpreendimentos de Habitação de Interesse Social – CAEHIS, os parâmetros urbanísticos das ZEIS\n\ndefinidos no projeto de urbanização serão formalizados por decreto, devendo as normas edilícias para\n\nos EZEIS e EHIS destinados ao reassentamento das famílias de baixa renda e as condições de\n\nestabilidade, segurança e salubridade das edificações e equipamentos.\n\n§ 4º Para atender ao disposto no art. 292 desta Lei, o Plano de Ação Integrada em ZEIS 1 ou ZEIS 3\n\npoderá abranger zonas distintas de ZEIS desde que:\n\na) as zonas distintas de ZEIS sejam ocupadas por assentamentos precários localizados no mesmo\n\ncontexto urbano das ZEIS objeto do Plano de Ação Integrada, incluindo aspectos físico-ambientais,\n\nurbanísticos, fundiários, socioeconômicos e demográficos, entre outros;\n\nhttps://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023 8/60\n\n04/12/2025, 17:28 LEI Nº 17.975 DE 8 DE JULHO DE 2023 « Catálogo de Legislação Municipal\n\nb) o Plano de Ação Integrada preveja ação pública para atendimento de famílias de baixa renda\n\nmoradoras destas zonas distintas de ZEIS;\n\nc) os parâmetros definidos no projeto de urbanização observem o disposto no art. 60 desta Lei.\n\n§ 5º O Plano de Ação Integrada, especialmente quando abranger áreas não demarcadas como ZEIS 1\n\nou ZEIS 3, deverá considerar o Sistema de Planejamento Urbano, prevendo a participação do órgão\n\nmunicipal de planejamento urbano e garantindo a integração das propostas previstas com o\n\nplanejamento setorial.” (NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção I › Art. 17",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "vigencia": {
+      "inicio": "2023-07-08",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.050/2014 (Plano Diretor Estrategico — PDE)",
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupacao do Solo)"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicacao. Revisao intermediaria do PDE conforme art. 4o da Lei 16.050/2014. Regulamentada por Resolucao SMUL/CIMPDE n. 1/2024, Decreto 63.130/2024 e Decreto 63.728/2024."
+    }
+  },
+  "tema": [
+    "plano_diretor",
+    "revisao_intermediaria",
+    "ordenamento_territorial",
+    "zoneamento",
+    "transferencia_direito_construir",
+    "outorga_onerosa",
+    "potencial_construtivo",
+    "funcao_social_propriedade",
+    "desenvolvimento_urbano",
+    "habitacao_interesse_social",
+    "patrimonio_cultural",
+    "meio_ambiente"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão intermediária do Plano Diretor Estratégico do Município de São Paulo, aprovado pela Lei nº 16.050, de 31 de julho de 2014, nos termos da previsão de seu art. 4º."
+}

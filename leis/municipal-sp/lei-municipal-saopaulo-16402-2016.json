@@ -9,6 +9,15 @@
   "tema": [
     "urbanística"
   ],
+  "dispositivos_chave": [
+    "Art. 1 — Disciplina o parcelamento, uso e ocupacao do solo (LPUOS)",
+    "Art. 3 — Divisao do territorio em zonas (ZEU, ZEM, ZC, ZM, ZEIS, ZDE, ZPI, etc.)",
+    "Arts. 21-23 — Zonas Especiais de Preservacao Cultural (ZEPEC) e categorias",
+    "Art. 24 — Fator de Incentivo (Fi) escalonado por area de lote para TDC de ZEPEC",
+    "Art. 26 — Exclusao de enquadramento ZEPEC por perda de condicao tombada",
+    "Arts. 139-153 — Fiscalizacao de posturas: licenciamento, incomodidade, penalidades",
+    "Art. 176 — Fiscalizacao de edificacoes e instalacoes"
+  ],
   "vigencia": {
     "inicio": "2016-03-22",
     "fim": null,
@@ -19,6 +28,56 @@
     ],
     "obs": "TEXTO CONSOLIDADO: 79 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2016-03-22. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
   },
+  "remissoes": [
+    {
+      "de": "Art. 1",
+      "para": "Lei 16050/2014 (PDE)",
+      "tipo": "remissao_externa",
+      "trecho": "de acordo com a Lei nº 16.050, de 31 de julho de 2014 – Plano Diretor Estratégico"
+    },
+    {
+      "de": "Art. 7",
+      "para": "Lei 16050/2014, art. 83",
+      "tipo": "remissao_externa",
+      "trecho": "atendidos todos os requisitos estabelecidos no art. 83 da Lei nº 16.050, de 31 de julho de 2014 – PDE"
+    },
+    {
+      "de": "Art. 8",
+      "para": "Lei 16050/2014, art. 117",
+      "tipo": "remissao_externa",
+      "trecho": "Para fins de aplicação do art. 117 da Lei nº 16.050, de 31 de julho de 2014 – PDE"
+    },
+    {
+      "de": "Art. 12",
+      "para": "Lei 16050/2014, art. 45",
+      "tipo": "remissao_externa",
+      "trecho": "definidas nos termos dos incisos I a V do caput do art. 45 da Lei nº 16.050, de 31 de julho de 2014 – PDE"
+    },
+    {
+      "de": "Art. 24",
+      "para": "Lei 16050/2014, art. 125",
+      "tipo": "remissao_externa",
+      "trecho": "nos termos do art. 125 da Lei nº 16.050, de 31 de julho de 2014 – PDE"
+    },
+    {
+      "de": "Art. 24",
+      "para": "Lei 16050/2014, art. 124",
+      "tipo": "remissao_externa",
+      "trecho": "transferências do direito de construir sem doação nos termos do art. 124 da Lei nº 16.050"
+    },
+    {
+      "de": "Art. 26",
+      "para": "Lei 16050/2014, art. 68",
+      "tipo": "remissao_externa",
+      "trecho": "sem prejuízo da aplicação do disposto no art. 68 da Lei nº 16.050, de 31 de julho de 2014 – PDE"
+    },
+    {
+      "de": "Art. 107",
+      "para": "Lei 16050/2014, art. 196",
+      "tipo": "remissao_externa",
+      "trecho": "desde que atendam ao disposto no art. 196, da Lei nº 16.050, de 2014"
+    }
+  ],
   "fonte": {
     "origem": "Google Drive",
     "path": "_entrada/tdc/lei-no-16-402-de-22-de-marco-de-2016-catalogo-de-legislacao-municipal.txt",

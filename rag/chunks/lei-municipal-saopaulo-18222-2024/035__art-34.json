@@ -1,0 +1,55 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-18222-2024::035-art-34",
+  "lei_id": "lei-municipal-saopaulo-18222-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 34",
+  "numero": "34",
+  "header_raw": "Art. 34. Fica o Poder Público autorizado a realizar os procedimentos administrativos e judiciais",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 34"
+  ],
+  "texto": "Art. 34. Fica o Poder Público autorizado a realizar os procedimentos administrativos e judiciais\n\nnecessários à abertura à circulação pública de vias aprovadas em loteamentos, arruamentos ou\n\nsimilares e ainda não implantadas em sua totalidade, ou de vias implantadas e posteriormente\n\nocupadas, com ou sem termos de permissão, nas seguintes regiões:\n\nI - região do Jardim Humaitá:\n\na) Rua Conde de Castro e Sola (CODLOG 67.154-1);\n\nb) Rua Visconde de Costa Franco (CODLOG 63.144-2);\n\nc) Rua Barão Antonio de Camaçari (CODLOG 67.738-8);\n\nII - região da Gastão Vidigal:\n\na) Rua Olga Lopes de Mendonça (CODLOG 73.696-1);\n\nIII - região de Presidente Altino:\n\na) Rua Diogo Pires (CODLOG 71.711-8);\n\nIV - na região do CEAGESP:\n\na) Rua Hayden (CODLOG 08.595-2);\n\nb) Rua Othão (CODLOG 15.217-0);\n\nc) Rua Bruno Bauer (CODLOG 03.683-8);\n\nd) Rua Dr. Seidel (CODLOG 17.978-7);\n\nV - região da AIU Vila Leopoldina-Villa Lobos:\n\na) Rua Prof. Ariovaldo da Silva (CODLOG 61.265-0);\n\nb) Rua Japiaçu (CODLOG 09.936-8);\n\nVI - região Oeste do CEAGESP:\n\na) Rua Potsdam (CODLOG 16.556-5);\n\nb) Rua Japiaçu (CODLOG 09.936-8);\n\nc) Rua Heliópolis (CODLOG 08.650-9).\n\nCAPÍTULO IV\n\nDA OUTORGA ONEROSA DE POTENCIAL ADICIONAL DE CONSTRUÇÃO, DA CONTA\n\nSEGREGADA DO FUNDURB, SUA VINCULAÇÃO E DA DESTINAÇÃO DOS RECURSOS\n\nARRECADADOS",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 18.222/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Art. 34",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-18222-de-27-de-dezembro-de-2024",
+    "vigencia": {
+      "inicio": "2024-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Lei nº 18.298/2025"
+      ],
+      "revogada_por": null,
+      "observacao": "Em vigor desde a publicacao; consolidada com alteracoes da Lei 18.298/2025 (27 dispositivos com redacao alterada, 1 incluido, 1 revogado — todos relativos a ZOE-Butantan)."
+    }
+  },
+  "tema": [
+    "plano_intervencao_urbana",
+    "arco_pinheiros",
+    "uso_ocupacao_solo",
+    "zoneamento",
+    "potencial_construtivo",
+    "habitacao_interesse_social",
+    "distrito_inovacao",
+    "meio_ambiente_urbano",
+    "mobilidade_urbana",
+    "outorga_onerosa"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Aprova o Plano de Intervenção Urbana para o território do Arco Pinheiros, em atendimento ao inciso IV do § 3º do art. 76 da Lei nº 16.050, de 31 de julho de 2014 - PDE; cria a Área de Intervenção Urbana Arco Pinheiros."
+}

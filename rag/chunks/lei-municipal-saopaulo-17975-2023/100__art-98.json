@@ -1,0 +1,58 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17975-2023::100-art-98",
+  "lei_id": "lei-municipal-saopaulo-17975-2023",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 98",
+  "numero": "98",
+  "header_raw": "Art. 98. O art. 305 da Lei nº 16.050, de 2014, passa a vigorar com alteração nos incisos III, VI e XIII e",
+  "caminho_hierarquico": [
+    "CAPÍTULO X",
+    "Art. 98"
+  ],
+  "texto": "Art. 98. O art. 305 da Lei nº 16.050, de 2014, passa a vigorar com alteração nos incisos III, VI e XIII e\n\nacrescido dos incisos XXXIII, XXXIV, XXXV, XXXVI e XXXVII:\n\n“Art. 305. ...................................................................................\n\n....................................................................................................\n\nIII - elaborar planos setoriais de educação, educação ambiental, saúde, esportes, assistência social e\n\ncultura, abrangendo atendimento especializado em saúde e educação indígena nas áreas da cidade\n\ncom maior concentração dessa população;\n\n....................................................................................................\n\nVI - ampliar a rede de Centros de Referência da Assistência Social – CRAS e a rede de Centros de\n\nReferência Especializados de Assistência Social – CREAS e promover ações intersecretariais para a\n\nimplementação de projetos e ações conjuntas;\n\n....................................................................................................\n\nXIII - expandir a rede de equipamentos e infraestrutura para prática esportiva e do esporte inclusivo;\n\n....................................................................................................\n\nhttps://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023 47/60\n\n04/12/2025, 17:28 LEI Nº 17.975 DE 8 DE JULHO DE 2023 « Catálogo de Legislação Municipal\n\nXXXIII - implantar os Núcleos Olímpicos Regionais;\n\nXXXIV - implantar as Casas de Agricultura Ecológica – CAE;\n\nXXXV - ampliar a oferta de hortas urbanas em áreas públicas de forma articulada com programas\n\npedagógicos nas unidades escolares, programas de segurança alimentar, de agroecologia e geração\n\nde renda;\n\nXXXVI - implantar as Escolas de Agroecologia com vistas ao fortalecimento das ações educativas\n\nvoltadas à segurança alimentar e nutricional;\n\nXXXVII - implantar as cadeias produtivas sustentáveis de produção familiar, voltadas aos princípios\n\nativos e botânicos, à produção da agrofloresta e agroecológica, associadas a Polos Tecnológicos, com\n\ncapacidade para estimular pesquisas científicas voltadas às produções sustentáveis.” (NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO X › Art. 98",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "vigencia": {
+      "inicio": "2023-07-08",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.050/2014 (Plano Diretor Estrategico — PDE)",
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupacao do Solo)"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicacao. Revisao intermediaria do PDE conforme art. 4o da Lei 16.050/2014. Regulamentada por Resolucao SMUL/CIMPDE n. 1/2024, Decreto 63.130/2024 e Decreto 63.728/2024."
+    }
+  },
+  "tema": [
+    "plano_diretor",
+    "revisao_intermediaria",
+    "ordenamento_territorial",
+    "zoneamento",
+    "transferencia_direito_construir",
+    "outorga_onerosa",
+    "potencial_construtivo",
+    "funcao_social_propriedade",
+    "desenvolvimento_urbano",
+    "habitacao_interesse_social",
+    "patrimonio_cultural",
+    "meio_ambiente"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão intermediária do Plano Diretor Estratégico do Município de São Paulo, aprovado pela Lei nº 16.050, de 31 de julho de 2014, nos termos da previsão de seu art. 4º."
+}

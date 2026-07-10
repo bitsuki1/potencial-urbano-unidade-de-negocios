@@ -1,0 +1,59 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17975-2023::069-art-67",
+  "lei_id": "lei-municipal-saopaulo-17975-2023",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 67",
+  "numero": "67",
+  "header_raw": "Art. 67. O art. 164 da Lei nº 16.050, de 2014, passa a vigorar acrescido de § 2º, renumerado o",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Seção IV",
+    "Art. 67"
+  ],
+  "texto": "Art. 67. O art. 164 da Lei nº 16.050, de 2014, passa a vigorar acrescido de § 2º, renumerado o\n\nparágrafo único como § 1º:\n\n“Art. 164. ...................................................................................\n\n§ 1º .............................................................................................\n\n§ 2º Deverá ser observada a legislação municipal específica sobre Regularização Fundiária Urbana –\n\nREURB, aplicando-se os conceitos e diretrizes dela decorrentes, inclusive para orientar a incidência\n\ndos instrumentos relacionados no caput deste artigo.” (NR)\n\nCAPÍTULO IV\n\nDA POLÍTICA E DOS SISTEMAS URBANOS E AMBIENTAIS",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Seção IV › Art. 67",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "vigencia": {
+      "inicio": "2023-07-08",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.050/2014 (Plano Diretor Estrategico — PDE)",
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupacao do Solo)"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicacao. Revisao intermediaria do PDE conforme art. 4o da Lei 16.050/2014. Regulamentada por Resolucao SMUL/CIMPDE n. 1/2024, Decreto 63.130/2024 e Decreto 63.728/2024."
+    }
+  },
+  "tema": [
+    "plano_diretor",
+    "revisao_intermediaria",
+    "ordenamento_territorial",
+    "zoneamento",
+    "transferencia_direito_construir",
+    "outorga_onerosa",
+    "potencial_construtivo",
+    "funcao_social_propriedade",
+    "desenvolvimento_urbano",
+    "habitacao_interesse_social",
+    "patrimonio_cultural",
+    "meio_ambiente"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão intermediária do Plano Diretor Estratégico do Município de São Paulo, aprovado pela Lei nº 16.050, de 31 de julho de 2014, nos termos da previsão de seu art. 4º."
+}

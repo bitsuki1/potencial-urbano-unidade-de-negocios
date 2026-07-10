@@ -1,0 +1,53 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17577-2021::023-art-20",
+  "lei_id": "lei-municipal-saopaulo-17577-2021",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 20",
+  "numero": "20",
+  "header_raw": "Art. 20. No âmbito desta Lei, em sendo necessária a apresentação de projeto modificativo para",
+  "caminho_hierarquico": [
+    "CAPÍTULO IV",
+    "Art. 20"
+  ],
+  "texto": "Art. 20. No âmbito desta Lei, em sendo necessária a apresentação de projeto modificativo para\n\nviabilizar as adequações necessárias, o respectivo processo de aprovação seguirá na forma do\n\nrespectivo projeto modificativo, aproveitando-se, no que couber, os atos já praticados.\n\nParágrafo único. A previsão contida no caput deste artigo aplica-se aos casos de projeto modificativo\n\nque envolvam as hipóteses a seguir transcritas, desde que as alterações sejam necessárias à\n\nrealização das adequações em face da situação originalmente existente:\n\nI - alteração de uso, categoria de uso ou subcategoria de uso;\n\nII - acréscimo superior a mais de 5% (cinco por cento) nas áreas computáveis ou não computáveis;\n\nIII - alteração em mais de 5% (cinco por cento) na taxa de ocupação.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.577/2021 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO IV › Art. 20",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17577-de-20-de-julho-de-2021",
+    "vigencia": {
+      "inicio": "2021-07-20",
+      "em_vigor": true,
+      "observacao": "Consolidada com alterações das Leis 17.844/2022, 18.065/2023, 18.081/2024, 18.330/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.844/2022 (art. 16)",
+        "Lei 18.065/2023 (altera a lei - arts. 16, 16-A)",
+        "Lei 18.081/2024 (amplia perímetro - setores 017/025/026 Brás)",
+        "Lei 18.330/2025 (art. 16-III, 16-B)"
+      ]
+    }
+  },
+  "tema": [
+    "Requalifica_Centro",
+    "incentivo_fiscal",
+    "isencao",
+    "retrofit",
+    "outorga_onerosa",
+    "ZEPEC_BIR",
+    "remissao_IPTU"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o Programa Requalifica Centro, estabelecendo incentivos e o regime específico para a requalificação de edificações situadas na Área Central, e dá outras providências."
+}

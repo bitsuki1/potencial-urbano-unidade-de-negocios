@@ -13,16 +13,13 @@ from collections import defaultdict, Counter
 Z = Path(__file__).resolve().parent
 OUT = Z / "ferramenta"; OUT.mkdir(exist_ok=True)
 
-def norm_sql(sq, lote):
-    sqd=re.sub(r'\D','',sq or ''); m=re.match(r'(\d{4})',(lote or '').strip())
-    return (sqd[:3]+sqd[3:6]+m.group(1)) if (len(sqd)==6 and m) else ''
-
 # 1) das certidoes: ESGOTADOS, marca de OPERACAO URBANA e m2 JA TRANSFERIDO por cedente
 from collections import defaultdict as _dd
 esgotado=set(); operacao_urbana=set(); transferido=_dd(float); n_transf=_dd(int)
 def _num(x):
     x=(x or '').strip().replace(' ','')
     if re.search(r',\d{2}$',x): x=x.replace('.','').replace(',','.')
+    elif re.fullmatch(r'\d{1,3}(\.\d{3})+', x): x=x.replace('.','')
     else: x=x.replace(',','')
     try: return float(re.sub(r'[^\d.]','',x))
     except Exception: return None
@@ -118,8 +115,16 @@ COLS=['sql_mestre','setor','quadra','lote','nome_bem','endereco_mestre','distrit
       'proprietario','fonte_dono',
       'tipo_zepec','esfera','estado_venda','certeza','negociavel','motivo_negociavel','sinais_revisar',
       'm2_ja_transferido','n_transferencias','conjunto_certidao','valor_pecuniario_rs','status_fundurb','intercorrencia_fundurb','base_periodo_fundurb_rs',
-      'tem_declaracao','tem_certidao','esgotado','data_ref','origens','obs']
+      'tem_declaracao','tem_certidao','esgotado','elegibilidade_conservacao',
+      'data_declaracao_iso','data_certidao_iso','data_tombamento_iso',
+      'data_ref','origens','obs']
 out=[]
+
+_CONSERV_RANK={'ELEGIVEL':0,'PENDENTE_CONSERVACAO':1,'SEM_ATESTADO':2}
+def _conservacao_agregada(rs):
+    vals=[g(r,'elegibilidade_conservacao') for r in rs if g(r,'elegibilidade_conservacao')]
+    if not vals: return 'SEM_ATESTADO'
+    return min(vals, key=lambda v: _CONSERV_RANK.get(v, 9))
 
 def monta(sm, rs):
     orig=set(g(r,'origem') for r in rs)
@@ -138,6 +143,10 @@ def monta(sm, rs):
     fu=fmatches[0] if fmatches else {}
     tz='/'.join(sorted(set(g(r,'tipo_zepec') for r in rs if g(r,'tipo_zepec'))))
     datas=[g(r,'data_pub_iso') for r in rs if g(r,'data_pub_iso')]
+    # E2 familia-2c: datas por origem (nunca agregar origens distintas antes da camada bruta)
+    data_decl = max((g(r,'data_pub_iso') for r in rs if g(r,'origem')=='DECLARACAO_BIR' and g(r,'data_pub_iso')), default='')
+    data_cert = max((g(r,'data_pub_iso') for r in rs if g(r,'origem')=='CERTIDAO_BIR_CEDENTE' and g(r,'data_pub_iso')), default='')
+    data_tomb = max((g(r,'data_pub_iso') for r in rs if g(r,'origem')=='TOMBADO_CADASTRO' and g(r,'data_pub_iso')), default='')
     obs=[]
     if tem_decl and tem_cert: obs.append('declarou e ja vendeu (tem vinculo)')
     if vedado and (tem_decl or tem_cert): obs.append('tem tag AUE/APPa mas declarou/vendeu — revisar')
@@ -157,7 +166,10 @@ def monta(sm, rs):
         intercorrencia_fundurb=fu.get('intercorrencia',''),base_periodo_fundurb_rs=fu.get('base_periodo_rs',''),
         tem_declaracao='sim' if tem_decl else 'nao',
         tem_certidao='sim' if tem_cert else 'nao',esgotado='sim' if esg else 'nao',
-        data_ref=max(datas) if datas else '',origens='+'.join(sorted(orig)),obs=' | '.join(obs))
+        elegibilidade_conservacao=_conservacao_agregada(rs),
+        data_declaracao_iso=data_decl, data_certidao_iso=data_cert, data_tombamento_iso=data_tomb,
+        data_ref=max(datas) if datas else '',  # Gold/apresentacao: agregado max de TODAS as origens
+        origens='+'.join(sorted(orig)),obs=' | '.join(obs))
 
 for sm,rs in grupos.items():
     if sm: out.append(monta(sm,rs))

@@ -14,7 +14,9 @@
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,
-    "marcadores": []
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
   },
   "citacao": {
     "norma": "lei municipal nº 17733/2022 — São Paulo - SP",
@@ -28,7 +30,11 @@
       "alterada_por": []
     }
   },
-  "tema": [],
+  "tema": [
+    "telecomunicacoes",
+    "infraestrutura_urbana",
+    "licenciamento"
+  ],
   "dominio": [
     "iptu"
   ],

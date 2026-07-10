@@ -1,0 +1,59 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-18081-2024::080-art-79",
+  "lei_id": "lei-municipal-saopaulo-18081-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 79",
+  "numero": "79",
+  "header_raw": "Art. 79. Como estratégia para Implantação do Plano Municipal de Cidade Inteligente previsto na Lei nº",
+  "caminho_hierarquico": [
+    "CAPÍTULO IV",
+    "Art. 79"
+  ],
+  "texto": "Art. 79. Como estratégia para Implantação do Plano Municipal de Cidade Inteligente previsto na Lei nº\n\n17.975, de 2023, o Executivo deverá, no prazo de 90 (noventa) dias, implantar nos sistemas de\n\nemissão de Alvará, a ser editado por Portaria, campo para coletas de dados contendo, além dos\n\ncampos já existentes, no mínimo:\n\nI - Zona de Uso;\n\nII - Uso;\n\nIII - Área Construída por uso (R e nR);\n\nIV - Área permeável;\n\nV - Gabarito de altura;\n\nVI - Número de vagas;\n\nVII - Fruição Pública;\n\nVIII - Vila;\nIX - Quota Ambiental;\n\nX - Capacidade do reservatório de reservação de controle de escoamento superficial;\n\nXI - Capacidade do reservatório de reservação para aproveitamento de águas pluviais;\n\nXII - TCA;\n\nXIII - Tipologia Habitacional : HIS-1 / HIS-2 / HMP / R2v;\n\nXIV - número de unidades habitacionais separado por:\n\na) Área construída inferior a 30m2;\n\nb) Área construída entre 30 e 50m2;\n\nc) Área construída entre 50 e 70m2;\n\nd) Área construída entre 70 e 120m2;\n\ne) Área construída superior a 120m2;\n\nXV - Praça urbana.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 18.081/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO IV › Art. 79",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-18081-de-19-de-janeiro-de-2023",
+    "vigencia": {
+      "inicio": "2024-01-19",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupação do Solo)",
+        "Lei nº 17.577/2021",
+        "Lei nº 16.499/2016"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicação. Revisão parcial da LPUOS para compatibilizar com a Lei 17.975/2023 (revisão intermediária do PDE). Vários artigos VETADOS (71, 83, 88-93)."
+    }
+  },
+  "tema": [
+    "parcelamento_uso_ocupacao_solo",
+    "zoneamento",
+    "coeficiente_aproveitamento",
+    "gabarito_altura",
+    "quota_ambiental",
+    "habitacao_interesse_social",
+    "eixo_estruturacao_urbana",
+    "zona_mista",
+    "fachada_ativa",
+    "fruicao_publica",
+    "patrimonio_cultural",
+    "zona_especial_protecao_cultural"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão parcial da Lei nº 16.402, de 22 de março de 2016 (LPUOS), visando à compatibilização de seu texto original com as supervenientes alterações decorrentes da promulgação da Lei nº 17.975, de 8 de julho de 2023 – Revisão Intermediária do Plano Diretor Estratégico do Município de São Paulo, nos termos da previsão de seu art. 126, e dá outras providências."
+}

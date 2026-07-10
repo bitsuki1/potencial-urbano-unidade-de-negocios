@@ -13,7 +13,9 @@
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,
-    "marcadores": []
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
   },
   "citacao": {
     "norma": "decreto_lei nº 57/1966 — Brasil",

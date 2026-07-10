@@ -1,0 +1,56 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-18222-2024::042-art-41",
+  "lei_id": "lei-municipal-saopaulo-18222-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 41",
+  "numero": "41",
+  "header_raw": "Art. 41. Caberá à Secretaria Municipal do Verde e do Meio Ambiente - SVMA, além das outras",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Seção I",
+    "Art. 41"
+  ],
+  "texto": "Art. 41. Caberá à Secretaria Municipal do Verde e do Meio Ambiente - SVMA, além das outras\n\natribuições previstas em lei:\n\nI - realizar o licenciamento ambiental dos empreendimentos geradores de impacto ambiental e de\n\nvizinhança da AIU-ACP;\n\nII - realizar o monitoramento ambiental da implantação do Programa de Intervenções da AIU no tocante\n\na seu impacto ambiental;\n\nIII - instruir os critérios de detalhamento dos projetos de espaços públicos e áreas verdes voltadas à\n\nqualificação ambiental, previstos no Programa de Intervenção da AIU;\n\nIV - cooperar com a SP-Urbanismo no desenvolvimento dos Planos de Ação Integrada, no que tange à\n\ndefinição de soluções voltadas à mitigação dos problemas ambientais e da promoção de áreas verdes\n\npúblicas;\n\nV - indicar, em consonância com os projetos desenvolvidos pela SP-Urbanismo, o enquadramento das\n\náreas verdes propostas pelo PIU-ACP no Sistema de Áreas Protegidas, Áreas Verdes e Espaços Livres\n\n(SAPAVEL).",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 18.222/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO V › Seção I › Art. 41",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-18222-de-27-de-dezembro-de-2024",
+    "vigencia": {
+      "inicio": "2024-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Lei nº 18.298/2025"
+      ],
+      "revogada_por": null,
+      "observacao": "Em vigor desde a publicacao; consolidada com alteracoes da Lei 18.298/2025 (27 dispositivos com redacao alterada, 1 incluido, 1 revogado — todos relativos a ZOE-Butantan)."
+    }
+  },
+  "tema": [
+    "plano_intervencao_urbana",
+    "arco_pinheiros",
+    "uso_ocupacao_solo",
+    "zoneamento",
+    "potencial_construtivo",
+    "habitacao_interesse_social",
+    "distrito_inovacao",
+    "meio_ambiente_urbano",
+    "mobilidade_urbana",
+    "outorga_onerosa"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Aprova o Plano de Intervenção Urbana para o território do Arco Pinheiros, em atendimento ao inciso IV do § 3º do art. 76 da Lei nº 16.050, de 31 de julho de 2014 - PDE; cria a Área de Intervenção Urbana Arco Pinheiros."
+}

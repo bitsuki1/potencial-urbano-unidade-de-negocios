@@ -9,6 +9,15 @@
   "tema": [
     "urbanística"
   ],
+  "dispositivos_chave": [
+    "Art. 1 — Politica de Desenvolvimento Urbano e Plano Diretor Estrategico do Municipio de Sao Paulo",
+    "Arts. 24-25 — Macrozonamento (Macrozona de Protecao e Recuperacao Ambiental e Macrozona de Estruturacao e Qualificacao Urbana)",
+    "Art. 76 — Eixos de Estruturacao da Transformacao Urbana",
+    "Arts. 115-117 — Outorga Onerosa do Direito de Construir: formula C = (At/Ac) x V x Fs x Fp",
+    "Arts. 122-123 — Transferencia do Direito de Construir: hipoteses (preservacao, melhoramentos viarios, parques, HIS)",
+    "Arts. 124-125 — Potencial construtivo passivel de transferencia: formula PCpt = Atc x CAbas x Fi",
+    "Art. 133 — Lei especifica podera redefinir Fatores de Incentivo e perimetros de aplicacao da TDC"
+  ],
   "vigencia": {
     "inicio": "2014-07-31",
     "fim": null,
@@ -19,6 +28,50 @@
     ],
     "obs": "TEXTO CONSOLIDADO: 95 ocorrências de 'Redação dada' — o .md reflete a redação ATUAL (com emendas posteriores), não a original de 2014-07-31. alterada_por a detalhar por dispositivo (B-7). Achado A-079 (auditoria 2026-06-24). Para filtro temporal (1.6/2.6), distinguir redação por chunk (B-11c)."
   },
+  "remissoes": [
+    {
+      "de": "Art. 2",
+      "para": "Constituicao Federal e Lei Federal 10257/2001 (Estatuto da Cidade)",
+      "tipo": "remissao_externa",
+      "trecho": "tem como base os fundamentos expressos na Constituição Federal, no Estatuto da Cidade e na Lei Orgânica do Município"
+    },
+    {
+      "de": "Art. 77-A",
+      "para": "Lei 16402/2016, art. 76",
+      "tipo": "remissao_externa",
+      "trecho": "Com base nos critérios previstos no art. 76 desta Lei, oportuna revisão da Lei nº 16.402, de 22 de março"
+    },
+    {
+      "de": "Art. 78",
+      "para": "Lei 13885/2004, arts. 178-180",
+      "tipo": "remissao_externa",
+      "trecho": "de acordo com as disposições dos arts. 178, 179 e 180 da Lei nº 13.885, de 25 de agosto de 2004"
+    },
+    {
+      "de": "Art. 119",
+      "para": "Lei 14933/2009, art. 31",
+      "tipo": "remissao_externa",
+      "trecho": "De acordo com o art. 31 da Lei nº 14.933, de 5 de junho de 2009, que instituiu a Política de Mudança do Clima"
+    },
+    {
+      "de": "Art. 122",
+      "para": "Lei Federal 10257/2001, art. 35",
+      "tipo": "remissao_externa",
+      "trecho": "prevista nos termos do art. 35 da Lei Federal nº 10.257, de 2001 – Estatuto da Cidade"
+    },
+    {
+      "de": "Art. 133",
+      "para": "Lei 16402/2016, art. 24",
+      "tipo": "remissao_externa",
+      "trecho": "não se enquadra no limite estabelecido no § 5º do art. 24 da Lei nº 16.402, de 2016"
+    },
+    {
+      "de": "Art. 160",
+      "para": "Lei 14933/2009, art. 36",
+      "tipo": "remissao_externa",
+      "trecho": "conforme preconizado no art. 36 da Lei nº 14.933, de 5 de junho de 2009"
+    }
+  ],
   "fonte": {
     "origem": "Google Drive",
     "path": "_entrada/tdc/lei-no-16-050-de-31-de-julho-de-2014-catalogo-de-legislacao-municipal.txt",

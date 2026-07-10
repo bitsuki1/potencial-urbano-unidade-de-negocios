@@ -1,0 +1,59 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-18081-2024::060-art-59",
+  "lei_id": "lei-municipal-saopaulo-18081-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 59",
+  "numero": "59",
+  "header_raw": "Art 59. O art. 107 da Lei nº 16.402, de 2016, passa a vigorar com a seguinte redação:",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 59"
+  ],
+  "texto": "Art 59. O art. 107 da Lei nº 16.402, de 2016, passa a vigorar com a seguinte redação:\n\n“Art. 107. Os empreendimentos enquadrados na subcategoria de uso INFRA poderão ser implantados\n\nem qualquer local do Município desde que atendam ao disposto no art. 196, da Lei nº 16.050, de 2014,\n\ncom a redação conferida pelo art. 74 da Lei nº 17.975, de 2023.\n\n..............................................................................................................\n\n§ 3º Fica recepcionada a localização das atividades INFRA regularmente existentes, bem como as\n\ninfraestruturas relativas ao abastecimento público de água potável, solução de esgotamento sanitário,\n\nabastecimento de gás, rede de fornecimento de energia elétrica, rede de telecomunicação, rede de\n\ndados e fibra ótica, rede de captação de águas pluviais, necessárias à regularidade de loteamentos\n\nconforme legislação federal.\n\n..............................................................................................................\n\n§ 7º Fica recepcionada a localização das atividades INFRA regularmente existentes, bem como as\n\ninfraestruturas relativas ao abastecimento público de água potável, solução de esgotamento sanitário,\n\nabastecimento de gás, rede de fornecimento de energia elétrica, rede de telecomunicação, rede de\n\ndados e fibra ótica, rede de captação de águas pluviais, necessárias à regularidade de loteamentos\n\nconforme legislação federal, mediante manifestação técnica do(s) órgão(s) competente(s).\n§ 8º Os empreendimentos ou edificações, destinadas à geração de energia elétrica renováveis e\n\ndestinados a microgeração e minigeração distribuída, nos termos da Lei nº 14.300, de 6 de janeiro de\n\n2022, ou que vier a substituí-la, independentemente de localização prevista em regramento próprio\n\npela natureza da atividade serão enquadrados como atividade enquadrados da subcategoria de uso\n\nINFRA-4 e considerados atividades não incômodas, compatíveis com a vizinhança residencial no que\n\ndiz respeito às características de ocupação dos lotes, de acesso, de localização, de tráfego, de\n\nserviços urbanos e aos níveis de ruído, de vibração e de poluição ambiental. Poderão ser implantados\n\nem qualquer área urbana ou rural.\n\n§ 9º O disposto no § 8º não prejudica o atendimento pelo requerente das exigências para o\n\nLicenciamento Ambiental.\n\n§ 10. As quadras que receberem a implantação de INFRA 1 terão obrigatoriamente revisão e\n\nadequação urbanística, em especial no que se refere à transição de usos, índices, parâmetros,\n\ndensidades e adensamento.\n\nI - as quadras atingidas internamente, direta e indiretamente pelas obras de infraestrutura de transporte\n\npúblico coletivo poderão receber novos parâmetros de parcelamento, uso e ocupação do solo definidos\n\npela CTLU;\n\nII - para aplicação das revisões previstas neste parágrafo, as quadras atingidas internamente, direta e\n\nindiretamente por obras de infraestrutura de transporte público coletivo, mesmos com restrições\n\nresultantes de tombamento de bairros, ou por qualquer outro instrumento de proteção instituídos por\n\nórgãos municipais, estaduais e federais e restrições convencionais estabelecidas pelo loteador\n\narquivadas em cartório, deixam de ser Zoneamento Especial de Preservação Cultural, excetuados os\n\nimóveis inseridos no perímetro do Território de Interesse da Cultura e da Paisagem (TICP) Bixiga,\n\ndelimitado nos termos da Resolução nº 22/CONPRESP/2002, conforme estabelecido no art. 314, § 8º,\n\nda Lei nº 16.050, de 2014, alterado pela Lei nº 17.975, de 2023.” (NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 18.081/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Art. 59",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-18081-de-19-de-janeiro-de-2023",
+    "vigencia": {
+      "inicio": "2024-01-19",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupação do Solo)",
+        "Lei nº 17.577/2021",
+        "Lei nº 16.499/2016"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicação. Revisão parcial da LPUOS para compatibilizar com a Lei 17.975/2023 (revisão intermediária do PDE). Vários artigos VETADOS (71, 83, 88-93)."
+    }
+  },
+  "tema": [
+    "parcelamento_uso_ocupacao_solo",
+    "zoneamento",
+    "coeficiente_aproveitamento",
+    "gabarito_altura",
+    "quota_ambiental",
+    "habitacao_interesse_social",
+    "eixo_estruturacao_urbana",
+    "zona_mista",
+    "fachada_ativa",
+    "fruicao_publica",
+    "patrimonio_cultural",
+    "zona_especial_protecao_cultural"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão parcial da Lei nº 16.402, de 22 de março de 2016 (LPUOS), visando à compatibilização de seu texto original com as supervenientes alterações decorrentes da promulgação da Lei nº 17.975, de 8 de julho de 2023 – Revisão Intermediária do Plano Diretor Estratégico do Município de São Paulo, nos termos da previsão de seu art. 126, e dá outras providências."
+}

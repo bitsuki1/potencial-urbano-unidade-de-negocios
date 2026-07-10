@@ -1,0 +1,58 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17975-2023::015-art-14",
+  "lei_id": "lei-municipal-saopaulo-17975-2023",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 14",
+  "numero": "14",
+  "header_raw": "Art. 14. O art. 46 da Lei nº 16.050, de 2014, passa a vigorar com a seguinte redação:",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Art. 14"
+  ],
+  "texto": "Art. 14. O art. 46 da Lei nº 16.050, de 2014, passa a vigorar com a seguinte redação:\n\n“Art. 46. Habitação de Interesse Social – HIS e Habitação de Mercado Popular – HMP são as tipologias\n\nhabitacionais destinadas ao atendimento de famílias de baixa renda, em empreendimentos que se\n\nutilizem do regime jurídico previsto nesta Lei para esta modalidade de provisão habitacional, de\n\npromoção pública ou privada.\n\nhttps://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023 5/60\n\n04/12/2025, 17:28 LEI Nº 17.975 DE 8 DE JULHO DE 2023 « Catálogo de Legislação Municipal\n\n§ 1º São promotores de HIS e HMP aqueles que aderirem ao regramento específico regulado por esta\n\nLei.\n\n§ 2º Para fins de caracterização das tipologias de Habitação de Interesse Social – HIS 1, Habitação de\n\nInteresse Social – HIS 2 e Habitação de Mercado Popular – HMP serão observadas as seguintes\n\nfaixas:\n\nI - HIS 1: até 3 (três) salários mínimos de renda familiar mensal ou até 0,5 (meio) salário mínimo per\n\ncapita mensal;\n\nII - HIS 2: até 6 (seis) salários mínimos de renda familiar mensal ou até 1 (um) salário mínimo per\n\ncapita mensal;\n\nIII - HMP: até 10 (dez) salários mínimos de renda familiar mensal ou até 1,5 (um e meio) salário\n\nmínimo per capita mensal.” (NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Art. 14",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "vigencia": {
+      "inicio": "2023-07-08",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.050/2014 (Plano Diretor Estrategico — PDE)",
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupacao do Solo)"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicacao. Revisao intermediaria do PDE conforme art. 4o da Lei 16.050/2014. Regulamentada por Resolucao SMUL/CIMPDE n. 1/2024, Decreto 63.130/2024 e Decreto 63.728/2024."
+    }
+  },
+  "tema": [
+    "plano_diretor",
+    "revisao_intermediaria",
+    "ordenamento_territorial",
+    "zoneamento",
+    "transferencia_direito_construir",
+    "outorga_onerosa",
+    "potencial_construtivo",
+    "funcao_social_propriedade",
+    "desenvolvimento_urbano",
+    "habitacao_interesse_social",
+    "patrimonio_cultural",
+    "meio_ambiente"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão intermediária do Plano Diretor Estratégico do Município de São Paulo, aprovado pela Lei nº 16.050, de 31 de julho de 2014, nos termos da previsão de seu art. 4º."
+}

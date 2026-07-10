@@ -1,0 +1,59 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-18081-2024::068-art-67",
+  "lei_id": "lei-municipal-saopaulo-18081-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 67",
+  "numero": "67",
+  "header_raw": "Art. 67. O art. 135 da Lei nº 16.402, de 2016, passa a vigorar acrescido de § 4º, alteradas a redações",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 67"
+  ],
+  "texto": "Art. 67. O art. 135 da Lei nº 16.402, de 2016, passa a vigorar acrescido de § 4º, alteradas a redações\n\nde seu caput e § 2º, na seguinte conformidade:\n\n“Art. 135. O uso comprovadamente instalado até a data de publicação desta Lei, permitido para o local\n\nna legislação vigente quando de sua instalação, que tenha se tornado não permitido nos termos desta\n\nLei, será tolerado, desde que:\n\n........................................................................................................\n\n§ 2º As edificações que abrigam o uso não permitido não poderão ser ampliadas, sendo admitidas\n\nsomente reformas essenciais à segurança, higiene e acessibilidade dessas edificações e a instalação\n\nde equipamentos necessários, bem como a implantação de mobiliários e de obras complementares de\n\nacordo com o disposto na legislação edilícia.\n\n.........................................................................................................\n\n§ 4º As edificações existentes, ainda que não conformes, em situação regular ou em condição de\n\nregularização, poderão abrigar usos permitidos, sendo ainda admitidas reformas com acréscimo de\n\nárea construída, desde que não haja agravamento da desconformidade com relação à legislação\n\nvigente.” (NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 18.081/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Art. 67",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-18081-de-19-de-janeiro-de-2023",
+    "vigencia": {
+      "inicio": "2024-01-19",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupação do Solo)",
+        "Lei nº 17.577/2021",
+        "Lei nº 16.499/2016"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicação. Revisão parcial da LPUOS para compatibilizar com a Lei 17.975/2023 (revisão intermediária do PDE). Vários artigos VETADOS (71, 83, 88-93)."
+    }
+  },
+  "tema": [
+    "parcelamento_uso_ocupacao_solo",
+    "zoneamento",
+    "coeficiente_aproveitamento",
+    "gabarito_altura",
+    "quota_ambiental",
+    "habitacao_interesse_social",
+    "eixo_estruturacao_urbana",
+    "zona_mista",
+    "fachada_ativa",
+    "fruicao_publica",
+    "patrimonio_cultural",
+    "zona_especial_protecao_cultural"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão parcial da Lei nº 16.402, de 22 de março de 2016 (LPUOS), visando à compatibilização de seu texto original com as supervenientes alterações decorrentes da promulgação da Lei nº 17.975, de 8 de julho de 2023 – Revisão Intermediária do Plano Diretor Estratégico do Município de São Paulo, nos termos da previsão de seu art. 126, e dá outras providências."
+}

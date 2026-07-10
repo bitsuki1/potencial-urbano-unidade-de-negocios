@@ -1,0 +1,55 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-18222-2024::062-art-61",
+  "lei_id": "lei-municipal-saopaulo-18222-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 61",
+  "numero": "61",
+  "header_raw": "Art. 61. Esta Lei entrará em vigor na data de sua publicação, revogados:",
+  "caminho_hierarquico": [
+    "CAPÍTULO VI",
+    "Art. 61"
+  ],
+  "texto": "Art. 61. Esta Lei entrará em vigor na data de sua publicação, revogados:\n\nI - a Lei nº 7.792, de 29 de setembro de 1972;\n\nII - a Lei nº 15.160, de 17 de maio de 2010;\n\nIII - (VETADO)\n\nPREFEITURA DO MUNICÍPIO DE SÃO PAULO, aos 27 de dezembro de 2024, 471º da fundação de\n\nSão Paulo.\n\nRICARDO NUNES\n\nPREFEITO\n\nFABRICIO COBRA ARBEX\n\nSecretário Municipal da Casa Civil\n\nFERNANDO JOSÉ DA COSTA\n\nSecretário Municipal de Justiça\n\nPublicada na Casa Civil, em 27 de dezembro de 2024.\n\nDocumento original assinado nº 117121200\n\nAnexos integrantes da Lei nº 18.222, de 27 de dezembro de 2024\n\nMapas nº 117121727\n\nPlantas nº 117121822\n\nQuadros nº 117121768\n\nEste texto não substitui o original publicado no Diário Oficial da Cidade de São Paulo",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 18.222/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO VI › Art. 61",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-18222-de-27-de-dezembro-de-2024",
+    "vigencia": {
+      "inicio": "2024-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Lei nº 18.298/2025"
+      ],
+      "revogada_por": null,
+      "observacao": "Em vigor desde a publicacao; consolidada com alteracoes da Lei 18.298/2025 (27 dispositivos com redacao alterada, 1 incluido, 1 revogado — todos relativos a ZOE-Butantan)."
+    }
+  },
+  "tema": [
+    "plano_intervencao_urbana",
+    "arco_pinheiros",
+    "uso_ocupacao_solo",
+    "zoneamento",
+    "potencial_construtivo",
+    "habitacao_interesse_social",
+    "distrito_inovacao",
+    "meio_ambiente_urbano",
+    "mobilidade_urbana",
+    "outorga_onerosa"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Aprova o Plano de Intervenção Urbana para o território do Arco Pinheiros, em atendimento ao inciso IV do § 3º do art. 76 da Lei nº 16.050, de 31 de julho de 2014 - PDE; cria a Área de Intervenção Urbana Arco Pinheiros."
+}

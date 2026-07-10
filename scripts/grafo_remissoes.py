@@ -106,6 +106,17 @@ def main():
         for cj in sorted(lei_dir.glob("*.json")):
             c = json.loads(cj.read_text(encoding="utf-8"))
             linhas.extend(extrair(c, lei_dir.name))
+    # RAG-03 (auditoria 2026-07-10): dedup por (lei_id, chunk_id, tipo, alvo) — o mesmo dispositivo
+    # pode referenciar o mesmo alvo várias vezes no texto, mas a aresta do grafo é UMA só.
+    antes = len(linhas)
+    visto = set()
+    unicos = []
+    for l in linhas:
+        chave = (l["lei_id"], l["chunk_id"], l["tipo"], l["alvo"])
+        if chave not in visto:
+            visto.add(chave)
+            unicos.append(l)
+    linhas = unicos
     dest = OUT / "remissoes.csv"
     with dest.open("w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=["lei_id", "chunk_id", "dispositivo", "tipo", "alvo", "trecho_prova"])
@@ -116,6 +127,8 @@ def main():
     for l in linhas:
         por_tipo[l["tipo"]] = por_tipo.get(l["tipo"], 0) + 1
         leis.add(l["lei_id"])
+    if antes != len(linhas):
+        print(f"grafo_remissoes: dedup {antes} -> {len(linhas)} ({antes - len(linhas)} duplicatas removidas)")
     print(f"grafo_remissoes (B-6): {len(linhas)} arestas de {len(leis)} leis -> {dest.relative_to(RAIZ)}")
     print(f"  por tipo: {dict(sorted(por_tipo.items()))}")
 

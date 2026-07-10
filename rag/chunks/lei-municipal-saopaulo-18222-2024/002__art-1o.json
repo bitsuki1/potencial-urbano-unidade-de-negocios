@@ -1,0 +1,56 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-18222-2024::002-art-1o",
+  "lei_id": "lei-municipal-saopaulo-18222-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 1º",
+  "numero": "1",
+  "header_raw": "Art. 1º Fica aprovado o Plano de Intervenção Urbana Arco Pinheiros - PIU-ACP, que compreende um",
+  "caminho_hierarquico": [
+    "CAPÍTULO I",
+    "Seção I",
+    "Art. 1º"
+  ],
+  "texto": "Art. 1º Fica aprovado o Plano de Intervenção Urbana Arco Pinheiros - PIU-ACP, que compreende um\n\nconjunto integrado de intervenções e medidas promovidas ou coordenadas pela Prefeitura do\n\nMunicípio de São Paulo, por intermédio da São Paulo Urbanismo - SP-Urbanismo, com o propósito de\n\narticular o ordenamento territorial e promover a reestruturação urbana em áreas subutilizadas e com\n\nelevado potencial de transformação no território do Arco Pinheiros.\n\n§ 1º Em atendimento ao inciso IV do § 3º, do art. 76, da Lei nº 16.050, de 31 de julho de 2014 - Plano\n\nDiretor Estratégico (PDE), esta Lei estabelece o regramento urbanístico aplicável ao território\n\nabrangido pelo Arco Pinheiros - ACP e institui a Área de Intervenção Urbana do Arco Pinheiros - AIU-\n\nACP.\n\n§ 2º Integram esta Lei os mapas, quadros e plantas abaixo relacionados:\n\nI - Mapa I - Perímetro da AIU-ACP;\n\nII - Mapa II - Parâmetros Urbanísticos;\n\nIII - Mapa III - Assentamentos Precários e ZEIS;\n\nIV - Mapa IV - Compartimentos Ambientais e Áreas Verdes;\n\nV - Mapa V - Plano de Melhoramentos Viários;\n\nVI - Mapa VI - Programa de Intervenções;\n\nVII - Mapa VII - Perímetros Especiais - Projetos Estratégicos, Áreas de Estruturação Local e Zonas de\n\nOcupação Especial;\n\nVIII - Quadro 1A - Eixos Estratégicos;\n\nIX - Quadro 1B - Melhoramentos Viários;\n\nX - Quadro 1C - Áreas Públicas Destinadas para Áreas Verdes;\n\nXI - Quadro 2A - Projetos Estratégicos e Áreas de Estruturação Local - Objetivos e Disposições\n\nEspecíficas;\n\nXII - Quadro 2B - Projetos Estratégicos - percentuais de destinação de área pública;\n\nXIII - Quadro 3A - Fatores de Planejamento e Parâmetros de Ocupação, exceto quota ambiental;\n\nXIV - Quadro 3B - Cota Ambiental - pontuação mínima, taxa de permeabilidade mínima e fatores de\n\nponderação segundo compartimento ambiental;\n\nXV - Quadro 4 - Programa de Intervenções;\n\nXVI - Plantas nº 26.995/00 a 26.995/36, Classificação P410, do arquivo da Superintendência de\n\nProjetos Viários, da Secretaria Municipal de Infraestrutura Urbana e Obras - SIURB.\n\n§ 3º Os mapas e quadros integrantes desta Lei correspondem aos arquivos digitais da Secretaria\n\nMunicipal de Urbanismo e Licenciamento - SMUL, assinados eletronicamente, disponibilizados no\n\nPortal da Prefeitura do Município de São Paulo na Internet.\n\nSeção II\n\nDa Abrangência Territorial",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 18.222/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO I › Seção I › Art. 1º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-18222-de-27-de-dezembro-de-2024",
+    "vigencia": {
+      "inicio": "2024-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Lei nº 18.298/2025"
+      ],
+      "revogada_por": null,
+      "observacao": "Em vigor desde a publicacao; consolidada com alteracoes da Lei 18.298/2025 (27 dispositivos com redacao alterada, 1 incluido, 1 revogado — todos relativos a ZOE-Butantan)."
+    }
+  },
+  "tema": [
+    "plano_intervencao_urbana",
+    "arco_pinheiros",
+    "uso_ocupacao_solo",
+    "zoneamento",
+    "potencial_construtivo",
+    "habitacao_interesse_social",
+    "distrito_inovacao",
+    "meio_ambiente_urbano",
+    "mobilidade_urbana",
+    "outorga_onerosa"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Aprova o Plano de Intervenção Urbana para o território do Arco Pinheiros, em atendimento ao inciso IV do § 3º do art. 76 da Lei nº 16.050, de 31 de julho de 2014 - PDE; cria a Área de Intervenção Urbana Arco Pinheiros."
+}

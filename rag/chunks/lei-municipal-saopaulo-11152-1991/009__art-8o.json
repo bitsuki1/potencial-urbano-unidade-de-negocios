@@ -1,0 +1,59 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-11152-1991::009-art-8o",
+  "lei_id": "lei-municipal-saopaulo-11152-1991",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 8º",
+  "numero": "8",
+  "header_raw": "Art 8º Ficam isentos do Imposto Predial Urbano, no exercício de 1992, os imóveis construídos, com destinação de uso exclusivamente residenciais, enquadrados nos padrões \"A\", \"B\" ou \"C\" da Tabela V que integra a Lei nº 10.235, de 16 de dezembro de 1986.",
+  "caminho_hierarquico": [
+    "Art. 8º"
+  ],
+  "texto": "Art 8º Ficam isentos do Imposto Predial Urbano, no exercício de 1992, os imóveis construídos, com destinação de uso exclusivamente residenciais, enquadrados nos padrões \"A\", \"B\" ou \"C\" da Tabela V que integra a Lei nº 10.235, de 16 de dezembro de 1986.\n\n§ 1º A isenção referida neste artigo abrangerá, exclusivamente, os imóveis cujo valor venal, para o exercício, seja igual ou inferior a 280 (duzentos e oitenta) Unidades de Valor Fiscal do Município de São Paulo – UFM.\n\n§ 2º A isenção, concedida nos termos deste artigo não exonera os beneficiários do cumprimento das obrigações acessórias a que estão sujeitos.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 11.152/1991 — São Paulo/SP",
+    "dispositivo": "Art. 8º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-11152-de-30-de-dezembro-de-1991",
+    "vigencia": {
+      "inicio": "1992-01-01",
+      "em_vigor": true,
+      "observacao": "Arts. 5º e 6º revogados (Lei 11.457/1993 e Lei 14.125/2005 respectivamente). Demais artigos vigentes; metodologia base do VVC, complementada pela Lei 15.889/2013.",
+      "altera": [
+        "Lei 6.989/1966 (arts. 7, 17, 19, 27, 37, 39, 87, 94)",
+        "Lei 10.235/1986 (art. 8, Tabelas II/III/IV/VI)",
+        "Lei 10.819/1989 (art. 5)"
+      ],
+      "alterada_por": [
+        "Lei 11.457/1993 (revoga art. 5§3)",
+        "Lei 14.125/2005 (revoga art. 6)",
+        "Lei 15.889/2013 (complementa)"
+      ]
+    }
+  },
+  "tema": [
+    "valor_venal",
+    "VVC",
+    "calculo",
+    "aliquotas_iptu",
+    "iptu_predial",
+    "iptu_territorial",
+    "taxas_limpeza",
+    "taxas_conservacao",
+    "fator_obsolescencia",
+    "fator_condominio",
+    "fator_esquina"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Altera a legislação relativa aos Impostos Predial e Territorial Urbano e às Taxas de Limpeza Pública e de Conservação de Vias e Logradouros Públicos, e dá outras providências."
+}

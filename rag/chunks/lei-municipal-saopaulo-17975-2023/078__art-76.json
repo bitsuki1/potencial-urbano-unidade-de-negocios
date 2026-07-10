@@ -1,0 +1,58 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17975-2023::078-art-76",
+  "lei_id": "lei-municipal-saopaulo-17975-2023",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 76",
+  "numero": "76",
+  "header_raw": "Art. 76. A Lei nº 16.050, de 2014, passa a vigorar acrescida de art. 199-A com a seguinte redação:",
+  "caminho_hierarquico": [
+    "CAPÍTULO VII",
+    "Art. 76"
+  ],
+  "texto": "Art. 76. A Lei nº 16.050, de 2014, passa a vigorar acrescida de art. 199-A com a seguinte redação:\n\nhttps://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023 40/60\n\n04/12/2025, 17:28 LEI Nº 17.975 DE 8 DE JULHO DE 2023 « Catálogo de Legislação Municipal\n\n“Art. 199-A. A aplicação da Política de Saneamento Ambiental estabelecida por esta Lei passa a ser\n\norientada pelo marco legal do saneamento básico, atualizado pela Lei Federal nº 14.026, de 15 de julho\n\nde 2020, devendo observância à Política Municipal de Segurança Hídrica e Gestão das Águas,\n\ninstituída pela Lei nº 17.104, de 30 de maio de 2019.\n\n§ 1º Os planos dos Sistemas decorrentes da Política de Saneamento Ambiental deverão ser\n\nelaborados ou revisados conforme o caput, observados os princípios de gestão democrática.\n\n§ 2º As ações prioritárias do Sistema de Drenagem, representadas no Mapa 12 desta Lei, e as\n\ndecorrentes do plano setorial deverão priorizar a adoção de Soluções baseadas na Natureza (SbN) e\n\nInfraestruturas Verdes, especialmente os jardins de chuva, as biovaletas e as bacias de detenção\n\nvegetadas.\n\n§ 3º A abordagem do uso de Infraestruturas Verdes e Soluções baseadas na Natureza colabora com o\n\ncumprimento dos Objetivos de Desenvolvimento Sustentável da Agenda 2030 da Organização das\n\nNações Unidas e nas estratégias de adaptação e mitigação mencionadas no Acordo de Paris, e no\n\nauxílio do avanço dos resultados de programas de gestão, como o Programa Município Verde Azul do\n\nEstado de São Paulo.” (NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO VII › Art. 76",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "vigencia": {
+      "inicio": "2023-07-08",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.050/2014 (Plano Diretor Estrategico — PDE)",
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupacao do Solo)"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicacao. Revisao intermediaria do PDE conforme art. 4o da Lei 16.050/2014. Regulamentada por Resolucao SMUL/CIMPDE n. 1/2024, Decreto 63.130/2024 e Decreto 63.728/2024."
+    }
+  },
+  "tema": [
+    "plano_diretor",
+    "revisao_intermediaria",
+    "ordenamento_territorial",
+    "zoneamento",
+    "transferencia_direito_construir",
+    "outorga_onerosa",
+    "potencial_construtivo",
+    "funcao_social_propriedade",
+    "desenvolvimento_urbano",
+    "habitacao_interesse_social",
+    "patrimonio_cultural",
+    "meio_ambiente"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão intermediária do Plano Diretor Estratégico do Município de São Paulo, aprovado pela Lei nº 16.050, de 31 de julho de 2014, nos termos da previsão de seu art. 4º."
+}

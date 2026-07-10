@@ -1,0 +1,102 @@
+{
+  "id": "lei-municipal-saopaulo-15889-2013",
+  "tipo_norma": "lei_ordinaria",
+  "esfera": "municipal",
+  "jurisdicao": "São Paulo/SP",
+  "numero": "15.889",
+  "ano": 2013,
+  "ementa": "Atualiza os valores unitários de metro quadrado de construção e de terreno previstos na Lei nº 10.235, de 16 de dezembro de 1986; fixa, para efeitos fiscais, novos perímetros para a primeira e a segunda subdivisões da zona urbana do Município e dispõe sobre o Imposto Predial e Imposto Territorial Urbano - IPTU.",
+  "tema": [
+    "imposto_predial",
+    "imposto_territorial_urbano",
+    "pgv",
+    "aliquota_progressiva",
+    "valor_venal",
+    "tabela_vi",
+    "valor_m2_construcao",
+    "isencao"
+  ],
+  "dispositivos_chave": [
+    "Art. 1: Tabela VI (valor unitario m2 construcao) e Listagem de Valores de Terreno (Anexos I e III) substituem as da Lei 10.235/1986",
+    "Art. 2: novos perimetros da 1a e 2a subdivisoes da zona urbana (Anexo II), efeitos fiscais a partir de 2014",
+    "Art. 3: tabela de desconto/acrescimo do Imposto Predial residencial (art. 7-A da Lei 6.989/1966) — aliquotas progressivas por faixa de valor venal",
+    "Art. 4: tabela de desconto/acrescimo do Imposto Predial nao-residencial (art. 8-A da Lei 6.989/1966) — aliquotas progressivas por faixa de valor venal",
+    "Art. 5: tabela de desconto/acrescimo do Imposto Territorial Urbano (art. 28 da Lei 6.989/1966) — aliquotas progressivas por faixa de valor venal",
+    "Art. 6: isencao do Imposto Predial para imoveis com valor venal ate R$ 90.000 (geral) ou ate R$ 160.000 (residencial Padroes A/B/C, Tipos 1/2)",
+    "Art. 7: desconto escalonado para imoveis entre R$ 90.000–180.000 (geral) e R$ 160.000–320.000 (residencial A/B/C Tipos 1/2)",
+    "Art. 9: trava de crescimento do IPTU (20%/10% residencial; 35%/15% demais)",
+    "Art. 10: teto de R$ 9.300/m2 de terreno para residencial tipo 2",
+    "Art. 11: nova redacao arts. 11 e 18 da Lei 10.235/1986 (enquadramento construtivo e impugnacao)",
+    "Anexo I: Tabela VI completa (tipos 1–6, padroes A–F, por subdivisao da zona urbana)"
+  ],
+  "vigencia": {
+    "inicio": "2013-11-05",
+    "fim": null,
+    "revogada_por": null,
+    "altera": [
+      "Lei 6.989/1966 (art. 7-A, art. 8-A, art. 28)",
+      "Lei 10.235/1986 (Tabela VI, Listagem de Terrenos, arts. 11 e 18)",
+      "Lei 11.614/1994 (arts. 1 e 2 — isencao aposentado/pensionista)",
+      "Lei 15.044/2009 (art. 10 — obrigacao de atualizacao)"
+    ],
+    "alterada_por": [],
+    "revoga": [
+      "Lei 7.954/1973",
+      "Lei 12.275/1996",
+      "Lei 13.698/2003 (arts. 1, 2 e 3)",
+      "Lei 14.256/2006 (art. 24)"
+    ],
+    "em_vigor": true,
+    "observacao": "Vigencia DATADA: Art. 16 verbatim — 'Esta lei entra em vigor na data de sua publicacao, produzindo efeitos a partir de 1o de janeiro de 2014.' Publicada em 05/11/2013 (Diario Oficial nº 211, 06/11/2013). Efeitos fiscais (aliquotas, valores, isencoes) a partir do exercicio de 2014. Cadeia PGV: Lei 10.235/1986 → Lei 15.889/2013 → Lei 18.330/2025."
+  },
+  "remissoes": [
+    {
+      "norma": "Lei 6.989/1966",
+      "relacao": "altera tabelas de aliquota do IPTU (arts. 7-A, 8-A e 28)"
+    },
+    {
+      "norma": "Lei 10.235/1986",
+      "relacao": "lei-mae da PGV; esta lei substitui Tabela VI e Listagem de Terrenos"
+    },
+    {
+      "norma": "Lei 11.152/1991",
+      "relacao": "altera item 4 da Tabela II (fator de esquina) acrescido por esta lei"
+    },
+    {
+      "norma": "Lei 11.614/1994",
+      "relacao": "altera isencao de IPTU para aposentados/pensionistas"
+    },
+    {
+      "norma": "Lei 15.044/2009",
+      "relacao": "altera art. 10 (obrigacao de atualizacao PGV)"
+    }
+  ],
+  "jurisprudencia_relacionada": [],
+  "tem_tabela": true,
+  "tabelas_extraidas": [
+    "Tabela VI — Tipos e Padroes de Construcao — Valores Unitarios de m2 (Anexo I)",
+    "Tabela de desconto/acrescimo Imposto Predial residencial (Art. 3)",
+    "Tabela de desconto/acrescimo Imposto Predial nao-residencial (Art. 4)",
+    "Tabela de desconto/acrescimo Imposto Territorial Urbano (Art. 5)"
+  ],
+  "tem_formula": false,
+  "formulas_referenciadas": [],
+  "fonte": {
+    "origem": "drive-mcp",
+    "url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-15889-de-5-de-novembro-de-2013",
+    "path": "_entrada/iptu/anexo-i-integrante-da-lei-no-15-889-de-5-de-novembro-de-2013.txt",
+    "hash": "sha256:ba2d0dc982fd84ee8a58c361100f30449e2214eae40b24f32df216565cc78a9f",
+    "ocr": false,
+    "metodo": "VERBATIM INTEGRAL (Drive MCP read_file_content, Google Drive fileId=1XTpOF--3AUoxiyY-87_VHs2kDGiM0ib0)",
+    "obs": "Texto verbatim do Diario Oficial (Ano 58, nº 211, 06/11/2013). Saneado lixo de captura/OCR (hifenizacao); conteudo normativo integralmente preservado.",
+    "hash_alvo": "_entrada/iptu/anexo-i-integrante-da-lei-no-15-889-de-5-de-novembro-de-2013.txt"
+  },
+  "status_pipeline": "indexado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "verbatim_integral": true,
+  "dominio_primario": "iptu",
+  "dominio": [
+    "iptu"
+  ]
+}

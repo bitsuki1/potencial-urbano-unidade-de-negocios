@@ -1,0 +1,102 @@
+{
+  "id": "lei-municipal-saopaulo-18081-2024",
+  "tipo_norma": "lei_ordinaria",
+  "esfera": "municipal",
+  "jurisdicao": "São Paulo/SP",
+  "numero": "18.081",
+  "ano": 2024,
+  "ementa": "Dispõe sobre a revisão parcial da Lei nº 16.402, de 22 de março de 2016 (LPUOS), visando à compatibilização de seu texto original com as supervenientes alterações decorrentes da promulgação da Lei nº 17.975, de 8 de julho de 2023 – Revisão Intermediária do Plano Diretor Estratégico do Município de São Paulo, nos termos da previsão de seu art. 126, e dá outras providências.",
+  "tema": [
+    "parcelamento_uso_ocupacao_solo",
+    "zoneamento",
+    "coeficiente_aproveitamento",
+    "gabarito_altura",
+    "quota_ambiental",
+    "habitacao_interesse_social",
+    "eixo_estruturacao_urbana",
+    "zona_mista",
+    "fachada_ativa",
+    "fruicao_publica",
+    "patrimonio_cultural",
+    "zona_especial_protecao_cultural"
+  ],
+  "dominio_primario": "compartilhado",
+  "dominio": [
+    "compartilhado"
+  ],
+  "dispositivos_chave": [
+    "Art. 1: Revisao parcial da LPUOS (Lei 16.402/2016) para compatibilizar com a Lei 17.975/2023",
+    "Arts. 2-8: Alteracoes no zoneamento e definicoes de zonas (ZM, ZCOR, ZOE, ZEPEC, ZEIS, ZEUP, ZEU)",
+    "Arts. 9-15: Parametros de parcelamento, uso e ocupacao do solo — CA, TO, gabarito, recuo, taxa de permeabilidade",
+    "Arts. 16-28: Habitacao de interesse social (HIS/HMP) e Cota de Solidariedade",
+    "Arts. 29-42: Incentivos — fachada ativa, fruicao publica, uso misto, calcada",
+    "Arts. 43-52: Transferencia do direito de construir — regras de equivalencia e potencial construtivo",
+    "Arts. 53-68: Estacionamento, carga/descarga, incomodidade",
+    "Art. 72: Alteracao do Quadro 3 da LPUOS (CA/TO/gabarito por zona)",
+    "Art. 73-74: Alteracao dos Quadros 4 e 4-A (usos permitidos por zona)",
+    "Art. 84: Zonas definidas pelo Mapa 1 anexo a esta lei",
+    "Art. 85: Substituicao dos Quadros 1 e 3B da LPUOS",
+    "Art. 86: Acrescimo dos Quadros 3-A, 3-C e 3-D a Lei 16.402",
+    "Art. 87: Acrescimo do Quadro 6 — Obras de drenagem urbana",
+    "Art. 94-97: Vigencia e disposicoes finais"
+  ],
+  "vigencia": {
+    "inicio": "2024-01-19",
+    "fim": null,
+    "revogada_por": null,
+    "altera": [
+      "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupação do Solo)",
+      "Lei nº 17.577/2021",
+      "Lei nº 16.499/2016"
+    ],
+    "alterada_por": [],
+    "em_vigor": true,
+    "obs": "Vigente desde a publicação. Revisão parcial da LPUOS para compatibilizar com a Lei 17.975/2023 (revisão intermediária do PDE). Vários artigos VETADOS (71, 83, 88-93)."
+  },
+  "remissoes": [
+    {
+      "norma": "Lei nº 16.402/2016 (LPUOS)",
+      "relacao": "altera — objeto principal desta lei (revisão parcial)"
+    },
+    {
+      "norma": "Lei nº 17.975/2023 (Revisão Intermediária do PDE)",
+      "relacao": "motivação — compatibilização com alterações do PDE revisado"
+    },
+    {
+      "norma": "Lei nº 16.050/2014 (PDE — Plano Diretor Estratégico)",
+      "relacao": "referência — base do sistema de zoneamento e uso do solo"
+    },
+    {
+      "norma": "Lei nº 17.577/2021",
+      "relacao": "altera — Art. 76 modifica o parágrafo único do art. 1"
+    },
+    {
+      "norma": "Lei nº 16.642/2017",
+      "relacao": "referência — requalificação de edificações (Art. 77)"
+    },
+    {
+      "norma": "Lei nº 16.499/2016",
+      "relacao": "altera — Art. 82 modifica § 2 do art. 2"
+    }
+  ],
+  "jurisprudencia_relacionada": [],
+  "tem_tabela": true,
+  "tabelas_extraidas": [],
+  "tem_formula": false,
+  "formulas_referenciadas": [],
+  "fonte": {
+    "origem": "Google Drive",
+    "path": "Catálogo de Legislação Municipal — Prefeitura de São Paulo",
+    "url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-18081-de-19-de-janeiro-de-2023",
+    "hash": "sha256:85fdc3be127dafc662c748990aee7cc5a4c96f3d6a7f8bee674209a9d9fc89e2",
+    "ocr": false,
+    "metodo": "download Google Drive + extração de texto",
+    "hash_alvo": "leis/municipal-sp/lei-municipal-saopaulo-18081-2024.md",
+    "hash_nota": "hash do .md no corpus"
+  },
+  "status_pipeline": "indexado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "artigos_contados": 90,
+  "artigos_vetados": ["71", "83", "88", "89", "90", "91", "92", "93"]
+}

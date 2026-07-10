@@ -1,14 +1,339 @@
 # Lei Municipal nº 11.152, de 30 de dezembro de 1991 — São Paulo/SP
 
+**Ementa:** Altera a legislação relativa aos Impostos Predial e Territorial Urbano e às Taxas de Limpeza Pública e de Conservação de Vias e Logradouros Públicos, e dá outras providências.
+
 **URL oficial:** https://legislacao.prefeitura.sp.gov.br/leis/lei-11152-de-30-de-dezembro-de-1991
-**Data de captura:** 2026-06-18
+**Data de captura:** 2026-07-09
+**Fonte:** Catálogo de Legislação Municipal (PDF-texto via Google Drive)
 
-> PROVENIENCIA: texto NAO-VERBATIM. O ambiente (sandbox) bloqueia WebFetch e curl para todos os hosts juridicos (.gov.br/.com.br/JusBrasil/leismunicipais retornam HTTP 403 por anti-bot, e o egress allowlist do shell bloqueia ate example.com). Conteudo abaixo foi extraido via WebSearch (resumos sourced do buscador), NAO do corpo integral da norma. REQUER re-captura verbatim do Catalogo de Legislacao Municipal a partir de ambiente com egress liberado. confianca_extracao=baixa.
+## Texto integral (verbatim)
 
-## Ementa
+LEI Nº 11.152, DE 30 DE DEZEMBRO DE 1991
 
-Altera a legislação relativa aos Impostos Predial e Territorial Urbano e às Taxas de Limpeza Pública e de Conservação de Vias e Logradouros Públicos, e dá outras providências.
+(Projeto de Lei Nº 524/1991 - Executivo)
 
-## Conteudo (resumo sourced, nao-verbatim)
+Altera a legislação relativa aos Impostos Predial e Territorial Urbano e às Taxas de Limpeza Pública e de Conservação de Vias e Logradouros Públicos, e dá outras providências
 
-Define a metodologia de calculo do Valor Venal da Construcao (VVC) do IPTU. Art. 11: VVC = area construida bruta x valor unitario de m2 de construcao (Tabela VI) x fator de obsolescencia (Tabela IV), conforme tipo/padrao da Tabela V. Estabelece o Fator Condominio: quando o indice (VV terreno / VV construcao) for inferior a 0,20, o Fator Condominio = 2,20 subtraido de 3 vezes o indice obtido. Complementada pela Lei 15.889/2013. Tabelas/valores NAO verbatim.
+LUIZA ERUNDINA DE SOUSA, Prefeita do Município de São Paulo, usando das atribuições que lhe são conferidas por lei. Faz saber que a Câmara Municipal, em sessão de 30 de dezembro de 1991, decretou e eu promulgo a seguinte Lei:
+
+Art. 1º Os artigos 7º, 17, 19, 27, 37, 39, 87 e 94 e respectivos parágrafos, todos da Lei nº 6.989, de 29 de dezembro de 1966, com a redação que lhes foi conferida pelas Leis nºs 10.394, de 20 de novembro de 1987, 10.805, de 20 de dezembro de 1989 e 10.921, de 30 de dezembro de 1990, passam a vigorar com a seguinte redação:
+
+I – "Art. 7º O imposto calcula-se sobre o valor venal do imóvel, à razão de:
+
+I – tratando-se de imóvel utilizado exclusiva ou predominantemente como residência:
+
+Alíquotas (%) Classes de VVI em UFM
+
+0,20 até 550
+
+0,40 acima de 550 até 1.400
+
+0,60 acima de 1.400 até 4.600
+
+0,80 acima de 4.600 até 15.000
+
+1,00 acima de 15.000
+
+II - nos demais casos;
+
+Alíquotas (%) Classes de VVI em UFM
+
+0,60 até 80
+
+0,75 acima de 80 até 300
+
+0,95 acima de 300 até 500
+
+1,15 acima de 500 até 800
+
+1,30 acima de 800 até 1.200
+
+1,50 acima de 1.200 até 2.600
+
+1,70 acima de 2.600 até 10.000
+
+2,40 acima de 10.000
+
+§ 1º O imposto é calculado sobre a porção do valor venal do imóvel compreendida em cada uma das faixas estabelecidas em Unidades de Valor Fiscal do Município de São Paulo – UFM, mediante a aplicação de alíquota correspondente.
+
+§ 2º O valor do imposto é determinado pela soma dos valores apurados na conformidade deste artigo."
+
+II – "Art. 17. O lançamento considera-se regularmente notificado ao sujeito passivo com a entrega da notificação-recibo, pessoalmente ou pelo correio, no próprio local do imóvel ou no local por ele indicado, observadas as disposições contidas em regulamento.
+
+§ 1º A autoridade administrativa poderá recusar o domicílio eleito pelo sujeito passivo, quando impossibilite ou dificulte a arrecadação ou a fiscalização do tributo.
+
+§ 2º A notificação pelo correio deverá ser precedida de divulgação, a cargo do Executivo, na imprensa oficial e no mínimo, em dois jornais de grande circulação do Município, das datas de entrega nas agências postais das notificações-recibo de cada região da cidade e das suas correspondentes datas de vencimento.
+
+§ 3º Para todos os efeitos de direito, no caso do parágrafo anterior e respeitadas as suas disposições, presume-se feita a notificação do lançamento, e regularmente constituído o crédito tributário correspondente, 5 (cinco) dias após a entrega das notificações-recibo nas agências postais.
+
+§ 4º A presunção referida no parágrafo anterior é relativa e poderá ser ilidida pela comunicação do não recebimento da notificação-recibo, protocolada pelo sujeito passivo junto à Administração Municipal, no prazo máximo de 15 (quinze) dias da data de sua entrega nas agências postais.
+
+§ 5º Na impossibilidade de entrega da notificação-recibo na forma prevista neste artigo, ou no caso de recusa de seu recebimento, a notificação do lançamento far-se-á por edital, consoante o disposto em regulamento.
+
+III – "Art. 19. O pagamento do imposto poderá ser efetuado de uma só vez ou em 10 (dez) prestações, iguais, mensais e sucessivas, na forma e prazo regulamentares, respeitado o limite mínimo, por prestação, de 3% (três por cento) do valor da Unidade de Valor Fiscal do Município de São Paulo – UFM, vigente a 1º de janeiro do exercício a que corresponda o lançamento, ficando facultado ao contribuinte o pagamento simultâneo de diversas prestações.
+
+§ 1º Para efeito de lançamento, o imposto calculado em moeda corrente, na forma do artigo 7º, será convertido em número de Unidades de Valor Fiscal do Município de São Paulo – UFM, pelo valor vigente no mês de ocorrência do fato gerador da obrigação tributária e, para fins de pagamento, reconvertido em moeda corrente, pelo valor da Unidade de Valor Fiscal do Município de São Paulo – UFM, vigente no mês do vencimento.
+
+§ 2º No caso de pagamento antecipado, o valor da prestação expresso em Unidades de Valor Fiscal do Município de São Paulo – UFM, será reconvertido em moeda corrente pelo valor vigente no mês do pagamento.
+
+§ 3º O recolhimento do imposto não importa em presunção, por parte da Prefeitura, para quaisquer fins, da legitimidade da propriedade, do domínio útil ou da posse do imóvel.
+
+§ 4º Do valor do imposto integral, ou do valor das prestações em que se decomponha, poderão ser desprezadas as frações de moeda.
+
+IV – "Art. 27. O imposto calcula-se sobre o valor do imóvel, à razão de:
+
+Alíquotas (%) Classes de Wl em UFM
+
+0,75 até 50
+
+0,95 acima de 50 até 100
+
+1,30 acima de 100 até 200
+
+1,50 acima de 200 até 300
+
+1,70 acima de 300 até 600
+
+1,90 acima de 600 até 1.500
+
+2,80 acima de 1.500 até 4.500
+
+3,70 acima de 4.500 até 9.000
+
+5,00 acima de 9.000
+
+§ 1º O imposto é calculado sobre a porção do valor venal do imóvel compreendida em cada uma das faixas estabelecidas em Unidades de Valor Fiscal do Município de São Paulo – UFM, mediante a aplicação da alíquota correspondente.
+
+§ 2 º O valor do imposto é determinado pela soma dos valores apurados na conformidade deste artigo.
+
+V – "Art. 37. O lançamento considera-se regularmente notificado ao sujeito passivo com a entrega da notificação-recibo, pessoalmente ou pelo correio, no local por ele indicado na forma da legislação tributária específica.
+
+§ 1º A autoridade administrativa poderá recusar o domicílio eleito pelo sujeito passivo, quando impossibilite ou dificulte a arrecadação ou a fiscalização do tributo.
+
+§ 2º A notificação pelo correio deverá ser precedida de divulgação, a cargo do Executivo, na imprensa oficial e, no mínimo, em dois jornais de grande circulação no Município, das datas de entrega nas agências postais das notificações-recibo de cada região da cidade e das suas correspondentes datas de vencimento.
+
+§ 3º Para todos os efeitos de direito, no caso do parágrafo anterior e respeitadas as suas disposições, presume-se feita a notificação do lançamento, e regularmente constituído e crédito tributário correspondente, 5 (cinco) dias após a entrega das notificações-recibo nas agências postais.
+
+§ 4º A presunção referida no parágrafo anterior é relativa e poderá ser ilidida pela comunicação do não recebimento da notificação-recibo, protocolada pelo sujeito passivo junto à Administra- ção Municipal, no prazo máximo de 15 (quinze) dias da data de sua entrega nas agências postais.
+
+§ 5º Na impossibilidade de entrega da notificação-recibo na forma prevista neste artigo, ou no caso de recusa de seu recebimento, a notificação do lançamento far-se-á por edital consoante o disposto em regulamento.
+
+VI – "Art. 39. O pagamento do imposto poderá ser efetuado de uma só vez ou em 10 (dez) prestações iguais, mensais e sucessivas, na forma e prazo regulamentares, respeitado o limite mínimo, por prestação, de 3% (três por cento) do valor da Unidade de Valor Fiscal do Município de São Paulo – UFM, vigente a 1º de janeiro do exercício a que corresponda o lançamento, ficando facultado ao contribuinte o pagamento simultâneo de diversas prestações.
+
+§ 1º Para efeito de lançamento, o imposto, calculado em moeda corrente, na forma do artigo 27, será convertido em número de Unidades de Valor Fiscal do Município de São Paulo – UFM, pelo valor vigente no mês de ocorrência do fato gerador da obrigação tributária e, para fins de pagamento, reconvertido em moeda corrente, pelo valor da Unidade de Valor Fiscal do Município de São Paulo – UFM, vigente no mês do vencimento.
+
+§ 2º No Caso de pagamento antecipado, o valor da prestação expresso em Unidades de Valor Fiscal do Município de São Paulo – UFM, será reconvertido em moeda corrente, pelo valor vigente no mês do pagamento.
+
+§ 3º O recolhimento do imposto não importa em presunção, por parte da Prefeitura, para quaisquer fins, da legitimidade da propriedade, do domínio útil ou da posse do imóvel.
+
+§ 4º Do valor do Imposto integral, ou do valor das prestações em que se decomponha, poderão ser desprezadas as frações de moeda.
+
+VII – "Art. 87. A taxa calcula-se:
+
+I – tratando-se de prédio, em função de sua localização, área construída e utilização, na seguinte conformidade:
+
+a) no caso de imóvel utilizado exclusivamente como residência:
+
+Subdivisão da Zona Urbana Valor Anual por m 2 Construído (% da UFM)
+
+1 a 1,50
+
+2 a 0,70
+
+além da 2 a 0,50
+
+b) nos demais casos:
+
+Subdivisão da Zona Urbana Valor Anual por m 2 Construído (% da UFM)
+
+1 a 6,30
+
+2 a 3,20
+
+além da 2 a 1,70
+
+II – tratando-se de terreno, em função de sua localização e área, na seguinte conformidade:
+
+Subdivisão da Zona Urbana Valor Anual por m 2 de Terreno (% da UFM)
+
+1 a 0,90
+
+2 a 0,50
+
+além da 2 a 0,20
+
+Parágrafo único. A taxa, calculada nos termos deste artigo, não poderá ser inferior a 15% (quinze por cento) da Unidade de Valor Fiscal no Município de São Paulo – UFM, vigente a 1º de janeiro do exercício a que corresponde o lançamento."
+
+VIII – Art. 94. A taxa calcula-se por metro linear ou fração, em toda a extensão do imóvel, no seu limite com a via ou logradouro público, à razão anual de:
+
+I – 17,20% (dezessete inteiros e vinte centésimos por cento) da Unidade de Valor Fiscal do Município de São Paulo – UFM, quando pavimentado no todo ou em parte de sua largura;
+
+II – 6,70% (seis inteiros e setenta centésimos por cento) da Unidade de Valor Fiscal do Município de São Paulo – UFM, quando, embora não pavimentado, possua assentamento de guias e construção de sarjetas ou sarjetões;
+
+III – 4,30% (quatro inteiros e trinta centésimos por cento) da Unidade de Valor Fiscal do Município de São Paulo – UFM, quando não compreendido nos itens anteriores.
+
+Parágrafo único. A taxa calculada nos termos deste artigo não poderá ser inferior a 10% (dez por cento) da Unidade de Valor Fiscal do Município de São Paulo – UFM, vigente a 1º de janeiro do exercício a que corresponda o lançamento.
+
+Art. 2º O artigo 8º da Lei nº 10.235, de 16 de dezembro de 1986, passa a vigorar com a seguinte redação:
+
+"Art. 8º Na avaliação de terrenos encravados, terrenos de fundo, terrenos internos e terrenos nos quais existam prédios em condomínio enquadrados nos tipos 2 e 4, da Tabela V, serão aplicados os fatores de correção constantes da Tabela III.
+
+Parágrafo único. Excetuados o fator condomínio e a fração ideal correspondente a cada unidade autônoma, os fatores terreno encravado e terreno de fundo serão aplicados com exclusão dos demais fatores de correção previstos para a avaliação de terrenos."
+
+Art. 3º As Tabelas II, III e IV, que integram a Lei nº 10.235, de 16 de dezembro de 1986, passam a vigorar com a seguinte redação:
+
+I – "TABELA II - Fatores de Esquina"
+
+1\. Terrenos situados na 1 a subdivisão da Zona Urbana 1,3000
+
+2\. Terrenos situados na 2 a subdivisão da Zona Urbana 1,2000
+
+3\. Terrenos situados além do perímetro da 2 a subdivisão da Zona Urbana 1,1000
+
+4\. Terrenos ocupados por construções enquadradas no Tipo 1, da Tabela V, quando localizados em Zonas de Uso Estritamente Residencial (Z1) 1,0000
+
+II – "TABELA III - Fatores Diversos"
+
+1\. Fator terreno encravado 0,50
+
+2\. Fator terreno de fundo 0,60
+
+3\. Fator terreno interno 0,70
+
+4\. Fator condomínio 1,60
+
+Observação: Quando da divisão do valor venal do terreno (somado ao valor do excesso de área, nos casos cabíveis) pelo valor venal da construção resultar índice inferior a 0,20, o Fator Condomínio será igual a 2,20 subtraído de 3 (três) vezes o índice obtido; quando dessa divisão, resultar índice entre 2,01 a 7,00 o Fator Condomínio será igual a 1,80 subtraído de 1/10 (um décimo) do índice obtido; e quando dessa mesma divisão resultar índice superior a 7,00 o Fator Condomínio será igual a 1,10."
+
+III – "TABELA IV - Fatores de Obsolescência" (Coeficientes de precisão do valor dos prédios, pela idade)
+
+Idade do Prédio | Fatores de obsolescência | Fatores de obsolescência
+(em anos) | para os Padrões "a" e "b", | para os Demais Padrões e
+ | dos tipos 1 e 2, da Tabela V | Tipos Descritos na Tabela V
+
+Menor que 1 | 1,00 | 1,00
+1 | 0,99 | 0,99
+2 | 0,98 | 0,99
+3 | 0,97 | 0,98
+4 | 0,96 | 0,97
+5 | 0,94 | 0,96
+6 | 0,93 | 0,96
+7 | 0,92 | 0,95
+8 | 0,90 | 0,94
+9 | 0,89 | 0,93
+10 | 0,88 | 0,92
+11 | 0,86 | 0,91
+12 | 0,84 | 0,90
+13 | 0,83 | 0,89
+14 | 0,81 | 0,88
+15 | 0,79 | 0,88
+16 | 0,78 | 0,86
+17 | 0,76 | 0,85
+18 | 0,74 | 0,84
+19 | 0,72 | 0,83
+20 | 0,70 | 0,82
+21 | 0,68 | 0,81
+22 | 0,66 | 0,80
+23 | 0,64 | 0,79
+24 | 0,62 | 0,78
+25 | 0,59 | 0,76
+26 | 0,57 | 0,75
+27 | 0,55 | 0,74
+28 | 0,52 | 0,73
+29 | 0,50 | 0,71
+30 | 0,48 | 0,70
+31 | 0,45 | 0,69
+32 | 0,42 | 0,67
+33 | 0,40 | 0,66
+34 | 0,37 | 0,64
+35 | 0,34 | 0,63
+36 | 0,32 | 0,62
+37 | 0,29 | 0,60
+38 | 0,26 | 0,59
+39 | 0,23 | 0,57
+40 | 0,20 | 0,56
+41 | 0,20 | 0,54
+42 | 0,20 | 0,52
+43 | 0,20 | 0,51
+44 | 0,20 | 0,49
+45 | 0,20 | 0,48
+46 | 0,20 | 0,46
+47 | 0,20 | 0,44
+48 | 0,20 | 0,42
+49 | 0,20 | 0,41
+50 | 0,20 | 0,39
+51 | 0,20 | 0,37
+52 | 0,20 | 0,35
+53 | 0,20 | 0,33
+54 | 0,20 | 0,32
+55 | 0,20 | 0,30
+56 | 0,20 | 0,28
+57 | 0,20 | 0,26
+58 | 0,20 | 0,24
+59 | 0,20 | 0,22
+60 | 0,20 | 0,20
+maiores que 60 | 0,20 | 0,20
+
+Art. 4º O inciso I e o parágrafo único do artigo 5º, da Lei nº 10.819, de 28 de dezembro de 1989, mantidas as demais disposições desse artigo, passam a vigorar com a seguinte redação:
+
+I – "I – infrações relativas à inscrição e atualização cadastrais: multa de 5 (cinco) Unidades de Valor Fiscal do Município de São Paulo - UFM, aos que deixarem de efetuar, na forma e prazos estabelecidos, a inscrição imobiliária e respectivas atualizações nas hipóteses dos incisos III e V, do artigo 3º desta lei."
+
+II – "Parágrafo único. Os imóveis com uso e destinação exclusivamente residenciais, situados além da 2ª subdivisão da zona urbana, com área construída de até 80 m² e enquadrados no padrão "A", do tipo 1, da Tabela V, que integra a Lei nº 10.235, de 16 de dezembro de 1986, não se sujeitam às penalidades previstas no inciso I, deste artigo."
+
+Art. 5º Ficam atualizados os valores unitários de metro quadrado de construção constantes na Tabela VI, que integra a Lei nº 10.235, de 16 de dezembro de 1986, com a redação que lhe foi conferida pela Lei nº 10.921, de 30 de dezembro de 1990, na forma do Anexo I, desta Lei, bem como aprovados os valores unitários de metro quadrado de terreno, contidos na Listagem de Valores constantes do Anexo II, desta Lei, a serem considerados para o lançamento dos Impostos Predial e Territorial Urbano, relativo ao exercício de 1992, na forma prevista na legislação específica.
+
+§ 1º Os valores unitários de metro quadrado de construção e de terreno, aprovados neste artigo, referem-se a 1º de setembro de 1991 e, para os fins desta Lei, serão monetariamente atualizados com base na variação acumulada do Índice de Preços ao Consumidor – IPC, da Fundação Instituto de Pesquisas Econômicas da Universidade de São Paulo – FIPE, relativo aos meses de setembro, outubro e novembro de 1991.
+
+§ 2º O Executivo poderá atualizar, anualmente, os valores referidos neste artigo, desde que essa atualização não supere a inflação do período.
+
+§ 3º Para efeito de cálculo dos Impostos Predial e Territorial Urbano, o Executivo poderá desprezar as frações de um milhar da unidade monetária do número que representa o valor venal dos imóveis. (Revogado pela Lei nº 11.457/1993)
+
+Art. 6º Os terrenos em que houver obra em andamento, para os quais esta Prefeitura tenha expedido o competente Alvará de Edificação, gozarão de um desconto de 40% (quarenta por cento) no Imposto Territorial Urbano sobre eles incidente, por dois exercícios consecutivos, desde que o interessado, mediante requerimento instruído na forma regulamentar, comprove inexistirem débitos vencidos relativos aos tributos imobiliários incidentes sobre o imóvel e que a obra foi iniciada até o dia 31 de dezembro do exercício anterior ao da aplicação do desconto, na forma regrada na legislação que disciplina a execução de edificações do Município.(Regulamentado pelo Decreto nº 31.088/1992) (Revogado pela Lei nº 14.125/2005)
+
+§ 1º O requerimento referido neste artigo deverá ser protocolado, impreterivelmente, até o dia 28 de fevereiro do exercício para o qual se pretenda a aplicação do desconto
+
+§ 2º O desconto vigorará exclusivamente no período assinalado neste artigo ou até a data de expedição do competente Auto de Conclusão, quando ocorrida antes de findo esse prazo.
+
+§ 3º A concessão deste desconto, em caráter individual, não gera direito adquirido e será anulada de ofício, sempre que se apure que o beneficiado não satisfazia às condições para a concessão do favor, cobrando-se a importância equivalente ao desconto, exercício a exercício, atualizada monetariamente e acrescida de juros de mora, desde as datas originariamente assinaladas para o pagamento integral do Imposto:
+
+I – com imposição de multa moratória e sem prejuízo das medidas criminais cabíveis, nos casos de dolo, fraude ou simulação do interessado ou de terceiro em benefício dele;
+
+II – sem imposição de multa moratória, nos demais casos.
+
+Art. 7º Ficam anistiadas as infrações previstas no inciso I, do artigo 5º, da Lei nº 10.819, de 28 de dezembro de 1989, em sua redação original, cometidas até a data da entrada em vigor desta Lei e cancelados os Autos de Infração correspondentes, vedada a restituição parcial ou total das importâncias recolhidas a esse titulo.
+
+Art 8º Ficam isentos do Imposto Predial Urbano, no exercício de 1992, os imóveis construídos, com destinação de uso exclusivamente residenciais, enquadrados nos padrões "A", "B" ou "C" da Tabela V que integra a Lei nº 10.235, de 16 de dezembro de 1986.
+
+§ 1º A isenção referida neste artigo abrangerá, exclusivamente, os imóveis cujo valor venal, para o exercício, seja igual ou inferior a 280 (duzentos e oitenta) Unidades de Valor Fiscal do Município de São Paulo – UFM.
+
+§ 2º A isenção, concedida nos termos deste artigo não exonera os beneficiários do cumprimento das obrigações acessórias a que estão sujeitos.
+
+Art. 9º O inciso I, dos artigos 20 e 40, da Lei nº 6.989, de 29 de dezembro de 1966, com a redação que lhes foi conferida pela Lei nº 10.805, de 27 de dezembro de 1989, mantidos seus demais incisos e parágrafos, passa a vigorar com a seguinte redação:
+
+"I – multa equivalente a 30% (trinta por cento) do valor do imposto devido;"
+
+Art. 10. Revogadas as disposições em contrário, esta lei entrará em vigor na data de sua publicação, produzindo efeitos a partir de 1º de janeiro de 1992.
+
+ANEXO I DA LEI Nº 11.152, DE 30 DE DEZEMBRO DE 1991
+
+Tabela VI, da Lei nº 10.235, de 16 de dezembro de 1986
+
+Tipo e Padrões de Construção Valores Unitários de Metro Quadrado de Construção
+
+Tipo-Padrão | Valor-Cr$ | Tipo-Padrão | Valor-Cr$
+
+1-A | 48.209,00 | 4-A | 64.627,00
+1-B | 62.654,00 | 4-B | 88.906,00
+1-C | 79.623,00 | 4-C | 121.187,00
+1-D | 107.781,00 | 4-D | 175.981,00
+1-E | 141.833,00 | |
+
+2-A | 49.386,00 | 5-A | 52.121,00
+2-B | 64.387,00 | 5-B | 68.018,00
+2-C | 92.092.00 | 5-C | 85.269,00
+2-D | 129,082,00 | 5-D | 121.219,00
+2-E | 173.864,00 | 5-E | 175.667,00
+
+3-A | 44.402,00 | 6-A | 43.151,00
+3-B | 59.049,00 | 6-B | 60.785,00
+3-C | 81.632,00 | 6-C | 96.422,00
+3-D | 107.852,00 | 6-D | 140.789,00

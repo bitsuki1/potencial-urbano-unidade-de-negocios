@@ -14,7 +14,9 @@
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,
-    "marcadores": []
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
   },
   "citacao": {
     "norma": "lei municipal nº 17844/2022 — São Paulo - SP",
@@ -28,7 +30,13 @@
       "alterada_por": []
     }
   },
-  "tema": [],
+  "tema": [
+    "intervencao_urbana",
+    "requalificacao_urbana",
+    "uso_ocupacao_solo",
+    "transferencia_direito_construir",
+    "habitacao_interesse_social"
+  ],
   "dominio": [
     "tdc"
   ],

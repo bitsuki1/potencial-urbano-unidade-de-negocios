@@ -65,91 +65,141 @@ def _autoteste_regime():
     return True
 
 
+# ---------------------------------------------------------------------------
+# Motor Fórmulas — cálculo PURO do PCpt (princípio 1.1: fórmula é engine).
+# Número nasce no engine (1.3); cita Art. 24 I–VII LPUOS (escalonado) e Art. 125 §1º I PDE.
+# ---------------------------------------------------------------------------
+def _calcular_pcpt(r, atc, cabas, pend, n):
+    """Calcula PCpt (m²) e saldo líquido via ENGINE. Devolve o saldo (Decimal) ou None se falhar.
+    Correções do loop de melhoria (2026-07-02):
+      (a) Fi ESCALONADO pela área do lote (LPUOS Art. 24 I–VII) — resolvido no engine;
+      (b) SALDO líquido: abate o m² JÁ TRANSFERIDO (certidões) do PCpt;
+      (d) parcelamento Art. 124 §3º (>50.000 m² → 10 parcelas) EXPOSTO na saída."""
+    try:
+        e = ENGINE.pcpt_sem_doacao(atc, cabas)
+        r["pcpt_m2"] = str(e["valor_m2"]); r["fi_aplicado"] = e.get("fi", "")
+        r["memoria_calculo"] = e["memoria_calculo"]; n["pcpt"] += 1
+        if int(e.get("parcelas_anuais") or 0) > 0:
+            r["parcelas_anuais"] = str(e["parcelas_anuais"])
+            pend.append(f"Art.124 §3º: excedente de 50.000 m² sai em {e['parcelas_anuais']} parcelas anuais")
+        ja = (r.get("m2_ja_transferido") or "").strip()
+        saldo = Decimal(str(e["valor_m2"])) - (Decimal(ja) if ja else Decimal("0"))
+        if saldo < 0:
+            saldo = Decimal("0"); pend.append("saldo: já transferido > PCpt calculado — REVISAR (certidão vs cálculo)")
+        r["saldo_pcpt_m2"] = str(saldo.quantize(Decimal("0.01"))); n["saldo"] += 1
+        return saldo
+    except Exception as ex:
+        pend.append(f"PCpt: engine recusou ({ex})")
+        return None
+
+
+# ---------------------------------------------------------------------------
+# Motor Comercial — decisão de preço-proxy (princípio 1.1: comercial ≠ fórmula).
+# preço-proxy (R$) = saldo × V (Codex Precificação R16; NÃO é preço de mercado).
+# (c) ESGOTADO/VEDADO não é precificado (não se vende o invendável).
+# ---------------------------------------------------------------------------
+def _precificar(r, saldo, vendido_bloqueado, pend, n):
+    """Calcula preço-proxy regulatório a partir do saldo e do V de outorga (Quadro 14).
+    Separado de _calcular_pcpt por princípio 1.1: decisão comercial ≠ fórmula de engine."""
+    if vendido_bloqueado:
+        pend.append("ESGOTADO/VEDADO — não precificar (prova escrita na base)")
+        return
+    vq = r["v_outorga_m2_q14"]
+    if vq and saldo > 0:
+        LIMITE_PARCELAMENTO = Decimal("50000")
+        preco_base = min(saldo, LIMITE_PARCELAMENTO)
+        preco = (preco_base * Decimal(str(vq))).quantize(Decimal("0.01"))
+        r["preco_proxy_brl"] = str(preco); n["preco"] += 1
+        if saldo > LIMITE_PARCELAMENTO:
+            r["parcelas_anuais"] = "10"
+
+
 def main():
     iptu = {r["sql_mestre"]: r for r in csv.DictReader(open(AQUI / "oficial/iptu2026_cedentes.csv", encoding="utf-8"))}
     q14 = {(r["sq"], norm_codlog(r["codlog"])): r["valor_m2_brl"]
            for r in csv.DictReader(open(AQUI / "oficial/q14_cedentes_2025.csv", encoding="utf-8"))}
+    # G4 — Decreto 57.536/2016 Art. 8 IV: lotes com frente para distintas faces da mesma quadra
+    # usam o MAIOR valor do Q14. Agrupa por SQ para calcular max.
+    q14_por_sq = defaultdict(list)
+    for (sq, codlog), val in q14.items():
+        q14_por_sq[sq].append(Decimal(val))
+    q14_max = {sq: max(vals) for sq, vals in q14_por_sq.items()}
     zona = {r["sql_mestre"]: r for r in csv.DictReader(open(AQUI / "oficial/zona_por_cedente.csv", encoding="utf-8"))}
 
     rows = list(csv.DictReader(open(AQUI / "ferramenta/zepec_cedentes.csv", encoding="utf-8")))
     extras = ["area_terreno_m2", "area_construida_m2", "v_venal_m2_iptu", "v_outorga_m2_q14",
+              "v_outorga_max_q14",
               "zona", "ca_basico", "fi_aplicado", "pcpt_m2", "saldo_pcpt_m2", "parcelas_anuais",
               "preco_proxy_brl", "uso_iptu", "cobertura_oficial", "memoria_calculo", "pendencia_calculo",
               # T3 — regime do PCpt: separa já-declarado (Art.125 §1º I) de prospecção nova (Art.24 caput).
               "regime_pcpt", "qualidade_estimativa"]
     campos = list(rows[0].keys()) + extras
 
-    n = {"atc": 0, "v": 0, "zona": 0, "cabas": 0, "pcpt": 0, "saldo": 0, "preco": 0}
+    n = {"atc": 0, "v": 0, "zona": 0, "cabas": 0, "pcpt": 0, "saldo": 0, "preco": 0,
+         "multi_face": 0, "vedado": 0}
     out = AQUI / "ferramenta/zepec_cedentes_oficial.csv"
     enr = []
-    if True:  # (indentação preservada; a escrita acontece após a passada de CONJUNTO — T11)
-        for r in rows:
-            sql = (r.get("sql_mestre") or "").strip()
-            for k in extras: r.setdefault(k, "")
-            cob, pend = [], []
-            i, z = iptu.get(sql), zona.get(sql)
+    for r in rows:
+        sql = (r.get("sql_mestre") or "").strip()
+        for k in extras: r.setdefault(k, "")
+        cob, pend = [], []
+        i, z = iptu.get(sql), zona.get(sql)
 
-            atc = _num(i["area_terreno"]) if i else ""
-            if i:
-                r["area_terreno_m2"] = i["area_terreno"]; r["area_construida_m2"] = i["area_construida"]
-                r["v_venal_m2_iptu"] = i["v_venal_m2"]; r["uso_iptu"] = i["uso"]; cob.append("IPTU2026"); n["atc"] += 1
-                v = q14.get((sql[:6], norm_codlog(i.get("codlog"))))
-                if v: r["v_outorga_m2_q14"] = v; cob.append("Q14"); n["v"] += 1
-            else:
-                pend.append("Atc: SQL sem cadastro no IPTU")
+        atc = _num(i["area_terreno"]) if i else ""
+        if i:
+            r["area_terreno_m2"] = i["area_terreno"]; r["area_construida_m2"] = i["area_construida"]
+            r["v_venal_m2_iptu"] = i["v_venal_m2"]; r["uso_iptu"] = i["uso"]; cob.append("IPTU2026"); n["atc"] += 1
+            sq6 = sql[:6]
+            v = q14.get((sq6, norm_codlog(i.get("codlog"))))
+            if v: r["v_outorga_m2_q14"] = v; cob.append("Q14"); n["v"] += 1
+            # G4 — Decreto 57.536/2016 Art. 8 IV: MAX do Q14 por quadra (todas as faces).
+            vmax = q14_max.get(sq6)
+            if vmax is not None:
+                r["v_outorga_max_q14"] = str(vmax)
+                if v and Decimal(v) < vmax:
+                    n["multi_face"] += 1
+                    pend.append(f"Decreto 57.536/2016 Art. 8 IV: se lote tem frente p/ distintas faces, "
+                                f"V=MAX(Q14)=R${vmax}/m² (face atual: R${v}/m²)")
+        else:
+            pend.append("Atc: SQL sem cadastro no IPTU")
 
-            cabas = ""
-            if z:
-                r["zona"] = z["zona"]; cob.append("Zona"); n["zona"] += 1
-                cabas = _num(z.get("ca_basico"))
-                if cabas: r["ca_basico"] = cabas; n["cabas"] += 1
-                else: pend.append(f"CAbás: zona {z['zona']} sem CA no Quadro 3 (overlay — resolver zona-base)")
-            else:
-                pend.append("Zona: lote sem sobreposição (sem SQL / lote / fora de zona)")
+        cabas = ""
+        if z:
+            r["zona"] = z["zona"]; cob.append("Zona"); n["zona"] += 1
+            cabas = _num(z.get("ca_basico"))
+            if cabas: r["ca_basico"] = cabas; n["cabas"] += 1
+            else: pend.append(f"CAbás: zona {z['zona']} sem CA no Quadro 3 (overlay — resolver zona-base)")
+        else:
+            pend.append("Zona: lote sem sobreposição (sem SQL / lote / fora de zona)")
 
-            # H1.4 — PCpt e preço só quando há Atc E CAbás; número do ENGINE (1.3).
-            # ★ Correções do loop de melhoria (2026-07-02):
-            #   (a) Fi ESCALONADO pela área do lote (LPUOS Art. 24 I–VII) — resolvido no engine;
-            #   (b) SALDO líquido: abate o m² JÁ TRANSFERIDO (certidões) do PCpt — preço sai do SALDO;
-            #   (c) ESGOTADO/VEDADO não é precificado (não se vende o invendável);
-            #   (d) parcelamento Art. 124 §3º (>50.000 m² → 10 parcelas) EXPOSTO na saída.
-            from decimal import Decimal
-            vendido_bloqueado = (r.get("esgotado") or "").strip() == "sim" or (r.get("negociavel") or "").strip() == "nao"
-            if atc and cabas:
-                try:
-                    e = ENGINE.pcpt_sem_doacao(atc, cabas)
-                    r["pcpt_m2"] = str(e["valor_m2"]); r["fi_aplicado"] = e.get("fi", "")
-                    r["memoria_calculo"] = e["memoria_calculo"]; n["pcpt"] += 1
-                    if int(e.get("parcelas_anuais") or 0) > 0:
-                        r["parcelas_anuais"] = str(e["parcelas_anuais"])
-                        pend.append(f"Art.124 §3º: excedente de 50.000 m² sai em {e['parcelas_anuais']} parcelas anuais")
-                    ja = (r.get("m2_ja_transferido") or "").strip()
-                    saldo = Decimal(str(e["valor_m2"])) - (Decimal(ja) if ja else Decimal("0"))
-                    if saldo < 0:
-                        saldo = Decimal("0"); pend.append("saldo: já transferido > PCpt calculado — REVISAR (certidão vs cálculo)")
-                    r["saldo_pcpt_m2"] = str(saldo.quantize(Decimal("0.01"))); n["saldo"] += 1
-                    if vendido_bloqueado:
-                        pend.append("ESGOTADO/VEDADO — não precificar (prova escrita na base)")
-                    else:
-                        vq = r["v_outorga_m2_q14"]
-                        if vq and saldo > 0:
-                            preco = (saldo * Decimal(str(vq))).quantize(Decimal("0.01"))
-                            r["preco_proxy_brl"] = str(preco); n["preco"] += 1
-                except Exception as ex:
-                    pend.append(f"PCpt: engine recusou ({ex})")
+        # T8 — VEDAÇÃO GEOMÉTRICA Art. 124 §2º (Lei 16.050/2014): categorias AUE/APPa são VEDADAS
+        # à cessão de PCpt. Guard ANTES do cálculo: vedado → PCpt/saldo/preço não calculados.
+        # Hoje a detecção é por substring na categoria (montar_base.py); a geometria via shapefile
+        # ZEPEC_AUE será ligada quando as coordenadas do lote estiverem disponíveis (vedacao_geo.py).
+        vedado_lei = (r.get("motivo_negociavel") or "").strip().startswith("vedado por lei")
+        vendido_bloqueado = (r.get("esgotado") or "").strip() == "sim" or (r.get("negociavel") or "").strip() == "nao"
 
-            # T3 — carimba o REGIME do PCpt. Para o já-declarado, o escalonado calculado acima é ESTIMATIVA,
-            # não o PCpt da Declaração (Art. 125 §1º I) — flaga e declara a pendência (Fi declarado ausente).
-            reg, qual = regime_pcpt(r)
-            r["regime_pcpt"] = reg; r["qualidade_estimativa"] = qual
-            if reg == "JA_DECLARADO" and r.get("pcpt_m2"):
-                pend.append("PCpt do JÁ-DECLARADO governado pela Declaração (Art.125 §1º I); o escalonado é "
-                            "ESTIMATIVA (Art.24 caput = NOVAS declarações), NÃO o valor declarado — Fi/PCpt da "
-                            "Declaração ausente na base (PENDENTE). Confiável só p/ prospecção nova.")
+        if vedado_lei:
+            pend.append("Art. 124 §2º: cessão VEDADA (AUE/APPa) — PCpt/saldo/preço não calculados "
+                        "(potencial é intransferível; Lei 16.050/2014)")
+            n["vedado"] += 1
+        elif atc and cabas:
+            saldo = _calcular_pcpt(r, atc, cabas, pend, n)
+            if saldo is not None:
+                _precificar(r, saldo, vendido_bloqueado, pend, n)
 
-            r["cobertura_oficial"] = "+".join(cob)
-            r["pendencia_calculo"] = " | ".join(pend) if pend else "OK (Atc+CAbás+V) — cálculo completo"
-            enr.append(r)
+        # T3 — carimba o REGIME do PCpt. Para o já-declarado, o escalonado calculado acima é ESTIMATIVA,
+        # não o PCpt da Declaração (Art. 125 §1º I) — flaga e declara a pendência (Fi declarado ausente).
+        reg, qual = regime_pcpt(r)
+        r["regime_pcpt"] = reg; r["qualidade_estimativa"] = qual
+        if reg == "JA_DECLARADO" and r.get("pcpt_m2"):
+            pend.append("PCpt do JÁ-DECLARADO governado pela Declaração (Art.125 §1º I); o escalonado é "
+                        "ESTIMATIVA (Art.24 caput = NOVAS declarações), NÃO o valor declarado — Fi/PCpt da "
+                        "Declaração ausente na base (PENDENTE). Confiável só p/ prospecção nova.")
+
+        r["cobertura_oficial"] = "+".join(cob)
+        r["pendencia_calculo"] = " | ".join(pend) if pend else "OK (Atc+CAbás+V) — cálculo completo"
+        enr.append(r)
 
     # T11 — SALDO POR CONJUNTO (lotes IRMÃOS na mesma certidão). O m² transferido é do CONJUNTO
     # (registrado no 1º lote em montar_ferramenta.py); afirmar saldo POR LOTE ali é inventar alocação.
@@ -167,8 +217,10 @@ def main():
         saldo_conj = max(Decimal("0"), sum(pcpts, Decimal("0")) - transf).quantize(Decimal("0.01")) if pcpts else None
         if saldo_conj is None:
             txt_saldo = "PENDENTE (nenhum membro com PCpt calculado)"
+        elif not completo:
+            txt_saldo = f"PENDENTE-CONJUNTO: {saldo_conj} m² parcial (há membro sem PCpt — saldo INDETERMINADO até completar)"
         else:
-            txt_saldo = f"{saldo_conj} m² (Σ PCpt − transferido{'' if completo else '; PARCIAL: há membro sem PCpt'})"
+            txt_saldo = f"{saldo_conj} m² (Σ PCpt − transferido)"
         nota = (f"T11: conjunto {cid} ({len(membros)} lotes irmãos na mesma certidão) — m² transferido é do "
                 f"CONJUNTO; saldo individual INDETERMINADO; saldo do conjunto = {txt_saldo}")
         for m in membros:
@@ -185,8 +237,9 @@ def main():
 
     tot = len(rows)
     print(f"enriquecer_oficial (H1.4): {tot} cedentes -> {out.name}")
-    for k, lbl in [("atc", "Atc (área)"), ("v", "V outorga (Q14)"), ("zona", "Zona"),
-                   ("cabas", "CAbás"), ("pcpt", "PCpt calculado (engine)"), ("saldo", "Saldo líquido (– transferido)"), ("preco", "Preço-proxy R$ (do saldo)")]:
+    for k, lbl in [("atc", "Atc (área)"), ("v", "V outorga (Q14)"), ("multi_face", "Multi-face (G4 Dec.57536)"),
+                   ("zona", "Zona"), ("cabas", "CAbás"), ("vedado", "Vedado Art.124§2 (sem PCpt)"),
+                   ("pcpt", "PCpt calculado (engine)"), ("saldo", "Saldo líquido (– transferido)"), ("preco", "Preço-proxy R$ (do saldo)")]:
         print(f"  {lbl:26}: {n[k]:5} ({n[k]/tot:.0%})")
 
 

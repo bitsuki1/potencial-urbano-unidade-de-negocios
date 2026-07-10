@@ -1,0 +1,59 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-18081-2024::005-art-4o",
+  "lei_id": "lei-municipal-saopaulo-18081-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 4º",
+  "numero": "4",
+  "header_raw": "Art. 4º Em cumprimento aos dispositivos dos § 5º e 6º do art. 83 da Lei nº 16.050, de 2014, com a",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Art. 4º"
+  ],
+  "texto": "Art. 4º Em cumprimento aos dispositivos dos § 5º e 6º do art. 83 da Lei nº 16.050, de 2014, com a\n\nredação conferida pelo art. 32 da Lei nº 17.975, de 2023, ficam mantidas as exigências para ativação\n\ndas condições de instalação de usos e atividades e os índices e parâmetros de ocupação para as\n\náreas de influência das Zonas Eixo de Estruturação da Transformação Urbana Previstos (ZEUP), que\n\nsão aqueles estabelecidos no caput do referido art. 83.\n§ 1º A contrapartida financeira relativa ao potencial construtivo adicional nas áreas referidas\n\nno caput deste artigo será realizada, exclusivamente, por meio de pagamento de Outorga Onerosa do\n\nDireito de Construir (OODC), vedada a possibilidade de Transferência do Direito de Construir (TDC).\n\n§ 2º Os recursos auferidos com as contrapartidas financeiras oriundas da outorga onerosa de potencial\n\nconstrutivo adicional referidos no § 1º do caput deste artigo serão destinados ao Fundo Municipal de\n\nDesenvolvimento Urbano (FUNDURB).\n\n§ 3º A constatação pela Prefeitura da conclusão da obra e do início de operação do sistema de\n\ntransporte que define as Zonas Eixo de Estruturação da Transformação Urbana Previstas (ZEUP) e\n\nZonas Eixo de Estruturação da Transformação Metropolitana Previstas (ZEMP) configura o\n\natendimento ao disposto no caput do art. 83 da Lei nº 16.050, 2014, em substituição à apresentação\n\ndas autorizações e licenças dos órgãos competentes, devendo ser editado o decreto de que trata o § 1º\n\ndo referido art. 83.\n\n§ 4º A ativação de Zonas Eixo de Estruturação da Transformação Urbana Previstos (ZEUP) e Zonas\n\nEixo de Estruturação da Transformação Metropolitana Previstos (ZEMP) deverá atender ao disposto no\n\nart. 3º desta Lei, adicionalmente aos requisitos estabelecidos nos arts. 7º e 8º da Lei nº 16.402, de\n\n2016\\.\n\n§ 5º (VETADO)\n\n§ 6º A ativação de Zonas Eixo de Estruturação da Transformação Urbana Previstos (ZEUP) e Zonas\n\nEixo de Estruturação da Transformação Metropolitana Previstos (ZEMP) poderá ser feita mediante\n\ncontrapartida financeira naquelas áreas que seriam ativadas após a execução de corredores urbanos,\n\ndevendo o cálculo ser feito através de depósito no Fundo de Desenvolvimento Urbano – FUNDURB,\n\nem sua conta segregada, de 20% (vinte por cento) do valor da outorga devida da área total do terreno,\n\ncalculado conforme Cadastro de Valor de Terreno para fins de Outorga Onerosa, destinado à aquisição\n\nde terreno ou subsídio para execução da melhoria viária correspondente aos futuros corredores\n\nurbanos.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 18.081/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Art. 4º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-18081-de-19-de-janeiro-de-2023",
+    "vigencia": {
+      "inicio": "2024-01-19",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupação do Solo)",
+        "Lei nº 17.577/2021",
+        "Lei nº 16.499/2016"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicação. Revisão parcial da LPUOS para compatibilizar com a Lei 17.975/2023 (revisão intermediária do PDE). Vários artigos VETADOS (71, 83, 88-93)."
+    }
+  },
+  "tema": [
+    "parcelamento_uso_ocupacao_solo",
+    "zoneamento",
+    "coeficiente_aproveitamento",
+    "gabarito_altura",
+    "quota_ambiental",
+    "habitacao_interesse_social",
+    "eixo_estruturacao_urbana",
+    "zona_mista",
+    "fachada_ativa",
+    "fruicao_publica",
+    "patrimonio_cultural",
+    "zona_especial_protecao_cultural"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão parcial da Lei nº 16.402, de 22 de março de 2016 (LPUOS), visando à compatibilização de seu texto original com as supervenientes alterações decorrentes da promulgação da Lei nº 17.975, de 8 de julho de 2023 – Revisão Intermediária do Plano Diretor Estratégico do Município de São Paulo, nos termos da previsão de seu art. 126, e dá outras providências."
+}

@@ -1,0 +1,60 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-15044-2009::007-art-6o",
+  "lei_id": "lei-municipal-saopaulo-15044-2009",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 6º",
+  "numero": "6",
+  "header_raw": "Art. 6º. As faixas de valores venais constantes do art. 28 da Lei nº 6.989, de 29 de dezembro de 1966, com a redação dada pela Lei nº 13.475, de 30 de dezembro de 2002, referentes aos descontos ou acréscimos a serem adicionados ao valor do imposto, na forma estabelecida no \"caput\" do citado artigo, ficam substituídas pelas seguintes faixas de valores venais, ora instituídas:",
+  "caminho_hierarquico": [
+    "Art. 6º"
+  ],
+  "texto": "Art. 6º. As faixas de valores venais constantes do art. 28 da Lei nº 6.989, de 29 de dezembro de 1966, com a redação dada pela Lei nº 13.475, de 30 de dezembro de 2002, referentes aos descontos ou acréscimos a serem adicionados ao valor do imposto, na forma estabelecida no \"caput\" do citado artigo, ficam substituídas pelas seguintes faixas de valores venais, ora instituídas:\n\n| Faixas de valor venal | Desconto/Acréscimo |\n|---|---|\n| até R$ 95.000,00 | - 0,3% |\n| acima de R$ 95.000,00 até R$ 190.000,00 | - 0,1% |\n| acima de R$ 190.000,00 até R$ 380.000,00 | + 0,1% |\n| acima de R$ 380.000,00 até R$ 760.000,00 | + 0,3% |\n| acima de R$ 760.000,00 | + 0,5% |",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "2002",
+    "norma_redacao": "Lei nº 13.475, de 30 de dezembro de 2002"
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 15.044/2009 — São Paulo/SP",
+    "dispositivo": "Art. 6º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-15044-de-03-de-dezembro-de-2009",
+    "vigencia": {
+      "inicio": "2010-01-01",
+      "em_vigor": true,
+      "observacao": "Art. 10 alterado pela Lei 15.889/2013. Demais artigos vigentes. Tabela VI e listagem de valores m² terreno são os valores-base vigentes para cálculo do IPTU.",
+      "altera": [
+        "Lei 10.235/1986 (Tabelas V e VI, Listagem de Valores)",
+        "Lei 6.989/1966 (arts. 7-A, 8-A, 28)",
+        "Lei 13.698/2003 (arts. 1-3)",
+        "Lei 14.256/2006 (art. 24)"
+      ],
+      "alterada_por": [
+        "Lei 15.889/2013 (altera art. 10)"
+      ]
+    }
+  },
+  "tema": [
+    "imposto_predial",
+    "imposto_territorial_urbano",
+    "pgv",
+    "aliquota_progressiva",
+    "valor_venal",
+    "tabela_vi",
+    "valor_m2_construcao",
+    "valor_m2_terreno",
+    "tipologias_construtivas",
+    "isencao",
+    "calculo"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Atualiza os valores unitários de metro quadrado de construção e de terreno previstos na Lei nº 10.235, de 16 de dezembro de 1986; institui novos padrões de construção e dispõe sobre o Imposto Predial e Territorial Urbano."
+}

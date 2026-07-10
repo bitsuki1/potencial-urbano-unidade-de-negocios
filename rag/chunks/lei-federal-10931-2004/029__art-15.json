@@ -14,7 +14,9 @@
   "vigencia_dispositivo": {
     "status": "original",
     "revogado_por": null,
-    "marcadores": []
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
   },
   "citacao": {
     "norma": "lei_ordinaria nº 10931/2004 — Brasil",

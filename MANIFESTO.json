@@ -1,6 +1,6 @@
 {
   "_doc": "Fonte da verdade do status_pipeline de cada item. GERADO por scripts/consolidar.py a partir dos .json individuais — NAO editar a mao (Principio 1.5/2.3 do CLAUDE.md). Roda a cada push via .github/workflows/consolidar.yml.",
-  "gerado_em": "2026-07-07T11:52:42.093848+00:00",
+  "gerado_em": "2026-07-10T11:32:29.484541+00:00",
   "vocabulario_status": [
     "bruto",
     "fatiado",
@@ -9,21 +9,21 @@
     "indexado"
   ],
   "resumo": {
-    "total_itens": 62,
-    "leis": 32,
+    "total_itens": 66,
+    "leis": 36,
     "jurisprudencia": 30,
-    "ativos_no_escopo": 62,
+    "ativos_no_escopo": 66,
     "fora_de_escopo": 0,
     "_nota": "por_status_pipeline conta SÓ os ativos_no_escopo. Os 2 fora-de-escopo históricos (stf-tema-1020/ISS, stj-resp-1658054/previdenciário) foram ARQUIVADOS por decisão do dono em 2026-07-05 (git rm; recuperáveis pelo histórico).",
     "por_status_pipeline_ativos": {
-      "indexado": 20,
-      "bruto": 12,
+      "indexado": 28,
+      "bruto": 8,
       "tagueado": 30
     },
     "status_ilegais_encontrados": [],
-    "verbatim_integral_ativos": 20,
+    "verbatim_integral_ativos": 28,
     "_nota_verbatim_integral": "B-7/AUD-17: verbatim_integral e DERIVADO do marcador '## Texto integral (verbatim)' no .md (prova mecanica, nao declaracao). Difere de confianca_extracao (flag do extrator).",
-    "confianca_baixa_ou_media": 15,
+    "confianca_baixa_ou_media": 11,
     "_nota_verbatim": "confianca e flag de extracao, nao prova de verbatim. CORRIGIDO na auditoria profunda 2026-06-20 (AUD-01): 13 leis JA estao em verbatim integral e indexadas (12 federais re-ingeridas de _entrada/misto/ + a 7228/1968 municipal) — supera a narrativa antiga 'planalto deu 403, NENHUMA e verbatim', que confundia 'o .md e resumo' com 'o verbatim nao existe'. Faltam 12 municipais (so resumo WebSearch) — re-ingestao verbatim delas e o que resta do pre-requisito do RAG. As juris (curtas) sao verbatim."
   },
   "alertas": {
@@ -31,15 +31,11 @@
     "itens_confianca_baixa_ou_media_a_revisar": [
       "lei-municipal-saopaulo-10235-1986",
       "lei-municipal-saopaulo-10365-1987",
-      "lei-municipal-saopaulo-11152-1991",
       "lei-municipal-saopaulo-11338-1992",
       "lei-municipal-saopaulo-12350-1997",
       "lei-municipal-saopaulo-13250-2001",
       "lei-municipal-saopaulo-13475-2002",
       "lei-municipal-saopaulo-14865-2008",
-      "lei-municipal-saopaulo-15044-2009",
-      "lei-municipal-saopaulo-17202-2019",
-      "lei-municipal-saopaulo-17577-2021",
       "lei-municipal-saopaulo-17759-2022",
       "stj-tema-1350",
       "stj-tema-262",
@@ -48,6 +44,8 @@
     "itens_fora_de_escopo": [],
     "indexado_sem_chunks_no_indice": [],
     "_nota_divergencia": "NV-1 (2026-06-27): ids que dizem status_pipeline=indexado mas NAO tem chunk no rag/index = FALSO-VERDE; o gate (fechar-instancia.py / gate-fechamento.sh) FALHA se esta lista nao for vazia. Vazia = todo 'indexado' e provado pelo indice.",
+    "chunks_sem_status_indexado": [],
+    "_nota_nao_promovido": "NV-1 reverso (RAG-02, 2026-07-10): ids que TEM chunks no indice mas o JSON NAO diz 'indexado' = status atrasado. Rode indexar.py para promover.",
     "indexado_verbatim_sem_vigencia_datada": [],
     "_nota_vigencia": "B-7 (1.6): leis verbatim/indexadas que ainda nao tem vigencia.inicio datada. Gap declarado (nao bloqueia o gate) — a datacao das 13 municipais bruto depende do verbatim do Drive (B-4).",
     "fonte_hash_nulo": [],
@@ -57,16 +55,17 @@
   "artefatos_nao_corpus": {
     "_nota": "Estado dos artefatos NÃO-corpus (1.1: Tabela/Engine/Tese). Fechamento do D24-do-git (AUD-09).",
     "engines": {
-      "arquivos": 8,
+      "arquivos": 9,
       "executavel_py": [
+        "engines/tdc/fp.py",
         "engines/tdc/oodc.py",
         "engines/tdc/pcpt.py"
       ],
       "status": "engine OODC/TDC executável (engines/tdc/oodc.py); demais são prosa/conhecimento"
     },
     "tabelas": {
-      "arquivos": 8,
-      "status": "8 tabela(s) no git (Q14 valor-terreno, Quadro 3 CA/zona, Quadro 5 Fs, Quadro 7 parques, Fi-área LPUOS Art.24) — combustível do engine PRESENTE; derivado dos arquivos, não hardcoded"
+      "arquivos": 12,
+      "status": "12 tabela(s) no git (Q14 valor-terreno, Quadro 3 CA/zona, Quadro 5 Fs, Quadro 7 parques, Fi-área LPUOS Art.24) — combustível do engine PRESENTE; derivado dos arquivos, não hardcoded"
     },
     "tese_iptu": {
       "arquivos": 0,
@@ -81,6 +80,68 @@
       "status": "material de gens (prosa); material IRRF/Tema 1130 removido em 2026-06-20 (AUD-04)"
     }
   },
+  "tabelas_vintage": [
+    {
+      "arquivo": "tabelas/fi-incentivo-doacao.csv",
+      "sha256": "sha256:849a89435c4762e5c4852a7ecb9767acab6c04a04d6c3306f3867713cb453c04",
+      "data_base": "2014-07-31",
+      "fonte_legal": "PDE Lei 16.050/2014, Art. 127 §1º (incisos I-V)"
+    },
+    {
+      "arquivo": "tabelas/fi-zepec-area-lpuos.csv",
+      "sha256": "sha256:1c11904bb559a323242a212b83db2f102568e7ae5d0a6c392936193a3813cb41",
+      "data_base": "2016-07-01",
+      "fonte_legal": "LPUOS Lei 16.402/2016, Art. 24 (incisos I-VII)"
+    },
+    {
+      "arquivo": "tabelas/iptu-aliquotas-faixa.csv",
+      "sha256": "sha256:7877468ee6561d0245e1365dd0a84c65a8c39887b82e31265d2ff36d89422e6e",
+      "data_base": "2013-12-20",
+      "fonte_legal": "Lei Municipal SP 15.889/2013, Arts. 3/4/5"
+    },
+    {
+      "arquivo": "tabelas/iptu-valor-construcao-m2.csv",
+      "sha256": "sha256:eec7cb7e975c8bd154bb4168e0a3682b5224ed5e5bc8a41067ce15edefc99c18",
+      "data_base": "2013-12-20",
+      "fonte_legal": "Lei Municipal SP 15.889/2013, Anexo I (Tabela VI)"
+    },
+    {
+      "arquivo": "tabelas/q14-valor-terreno.csv",
+      "sha256": "sha256:c99ae8b5c67180f49024df8b4726ee7d745bd3ccf55205686fbd54768314274b",
+      "data_base": "2014-07-31",
+      "fonte_legal": "PDE Lei 16.050/2014, Quadro 14 (Anexo)"
+    },
+    {
+      "arquivo": "tabelas/quadro2a-ca-macroarea.csv",
+      "sha256": "sha256:e94f75c49116eea08d8f9c22c3cf56b95d2bdfa41e7b0e142664ffb1c0aa8af6",
+      "data_base": "2014-07-31",
+      "fonte_legal": "PDE Lei 16.050/2014, Quadro 2A (Anexo)"
+    },
+    {
+      "arquivo": "tabelas/quadro3-ca-por-zona.csv",
+      "sha256": "sha256:575bec7665bff0bc9d2303e6e4d594d9212a48e124889192f143bc109f846c59",
+      "data_base": "2016-07-01",
+      "fonte_legal": "LPUOS Lei 16.402/2016, Quadro 3"
+    },
+    {
+      "arquivo": "tabelas/quadro5-fator-social-fs.csv",
+      "sha256": "sha256:14c1ef643a79d5ee710d0fb168e99ab821c59530fc5209740831409fce0c0d6e",
+      "data_base": "2014-07-31",
+      "fonte_legal": "PDE Lei 16.050/2014, Quadro 5 (Anexo)"
+    },
+    {
+      "arquivo": "tabelas/quadro6-fator-planejamento-fp.csv",
+      "sha256": "sha256:22250fd6e090a87c045b1082ed7289561ae48e24bdc48332cc3a999e4f1595fc",
+      "data_base": "2014-07-31",
+      "fonte_legal": "PDE Lei 16.050/2014, Quadro 6 (Anexo)"
+    },
+    {
+      "arquivo": "tabelas/quadro7-parques.csv",
+      "sha256": "sha256:295655f20d0f962cf0c00d788ad0c683043836e7e45a311364eb881b4732d2ac",
+      "data_base": "2014-07-31",
+      "fonte_legal": "PDE Lei 16.050/2014, Quadro 7 (Anexo)"
+    }
+  ],
   "itens": [
     {
       "id": "stf-sumula-539",
@@ -777,11 +838,11 @@
       "tipo": "lei_ordinaria",
       "caminho_md": "leis/municipal-sp/lei-municipal-saopaulo-11152-1991.md",
       "caminho_json": "leis/municipal-sp/lei-municipal-saopaulo-11152-1991.json",
-      "status_pipeline": "bruto",
+      "status_pipeline": "indexado",
       "status_valido": true,
-      "confianca_extracao": "baixa",
-      "verbatim_integral": false,
-      "vigencia_inicio": null,
+      "confianca_extracao": "alta",
+      "verbatim_integral": true,
+      "vigencia_inicio": "1992-01-01",
       "revisado_por_humano": false,
       "fora_de_escopo": false,
       "fora_de_escopo_motivo": null,
@@ -867,15 +928,30 @@
       "tipo": "lei_ordinaria",
       "caminho_md": "leis/municipal-sp/lei-municipal-saopaulo-15044-2009.md",
       "caminho_json": "leis/municipal-sp/lei-municipal-saopaulo-15044-2009.json",
-      "status_pipeline": "bruto",
+      "status_pipeline": "indexado",
       "status_valido": true,
-      "confianca_extracao": "baixa",
-      "verbatim_integral": false,
-      "vigencia_inicio": null,
+      "confianca_extracao": "alta",
+      "verbatim_integral": true,
+      "vigencia_inicio": "2010-01-01",
       "revisado_por_humano": false,
       "fora_de_escopo": false,
       "fora_de_escopo_motivo": null,
       "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-15044-de-03-de-dezembro-de-2009"
+    },
+    {
+      "id": "lei-municipal-saopaulo-15889-2013",
+      "tipo": "lei_ordinaria",
+      "caminho_md": "leis/municipal-sp/lei-municipal-saopaulo-15889-2013.md",
+      "caminho_json": "leis/municipal-sp/lei-municipal-saopaulo-15889-2013.json",
+      "status_pipeline": "indexado",
+      "status_valido": true,
+      "confianca_extracao": "alta",
+      "verbatim_integral": true,
+      "vigencia_inicio": "2013-11-05",
+      "revisado_por_humano": false,
+      "fora_de_escopo": false,
+      "fora_de_escopo_motivo": null,
+      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-15889-de-5-de-novembro-de-2013"
     },
     {
       "id": "lei-municipal-saopaulo-16050-2014",
@@ -927,26 +1003,26 @@
       "tipo": "lei_ordinaria",
       "caminho_md": "leis/municipal-sp/lei-municipal-saopaulo-17202-2019.md",
       "caminho_json": "leis/municipal-sp/lei-municipal-saopaulo-17202-2019.json",
-      "status_pipeline": "bruto",
+      "status_pipeline": "indexado",
       "status_valido": true,
-      "confianca_extracao": "baixa",
-      "verbatim_integral": false,
-      "vigencia_inicio": null,
+      "confianca_extracao": "alta",
+      "verbatim_integral": true,
+      "vigencia_inicio": "2020-01-01",
       "revisado_por_humano": false,
       "fora_de_escopo": false,
       "fora_de_escopo_motivo": null,
-      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17202-de-16-de-outubro-de-2019"
+      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17202-de-16-de-outubro-de-2019"
     },
     {
       "id": "lei-municipal-saopaulo-17577-2021",
       "tipo": "lei_ordinaria",
       "caminho_md": "leis/municipal-sp/lei-municipal-saopaulo-17577-2021.md",
       "caminho_json": "leis/municipal-sp/lei-municipal-saopaulo-17577-2021.json",
-      "status_pipeline": "bruto",
+      "status_pipeline": "indexado",
       "status_valido": true,
-      "confianca_extracao": "media",
-      "verbatim_integral": false,
-      "vigencia_inicio": null,
+      "confianca_extracao": "alta",
+      "verbatim_integral": true,
+      "vigencia_inicio": "2021-07-20",
       "revisado_por_humano": false,
       "fora_de_escopo": false,
       "fora_de_escopo_motivo": null,
@@ -996,6 +1072,51 @@
       "fora_de_escopo": false,
       "fora_de_escopo_motivo": null,
       "fonte_url": null
+    },
+    {
+      "id": "lei-municipal-saopaulo-17975-2023",
+      "tipo": "lei_ordinaria",
+      "caminho_md": "leis/municipal-sp/lei-municipal-saopaulo-17975-2023.md",
+      "caminho_json": "leis/municipal-sp/lei-municipal-saopaulo-17975-2023.json",
+      "status_pipeline": "indexado",
+      "status_valido": true,
+      "confianca_extracao": "alta",
+      "verbatim_integral": true,
+      "vigencia_inicio": "2023-07-08",
+      "revisado_por_humano": false,
+      "fora_de_escopo": false,
+      "fora_de_escopo_motivo": null,
+      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023"
+    },
+    {
+      "id": "lei-municipal-saopaulo-18081-2024",
+      "tipo": "lei_ordinaria",
+      "caminho_md": "leis/municipal-sp/lei-municipal-saopaulo-18081-2024.md",
+      "caminho_json": "leis/municipal-sp/lei-municipal-saopaulo-18081-2024.json",
+      "status_pipeline": "indexado",
+      "status_valido": true,
+      "confianca_extracao": "alta",
+      "verbatim_integral": true,
+      "vigencia_inicio": "2024-01-19",
+      "revisado_por_humano": false,
+      "fora_de_escopo": false,
+      "fora_de_escopo_motivo": null,
+      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-18081-de-19-de-janeiro-de-2023"
+    },
+    {
+      "id": "lei-municipal-saopaulo-18222-2024",
+      "tipo": "lei_ordinaria",
+      "caminho_md": "leis/municipal-sp/lei-municipal-saopaulo-18222-2024.md",
+      "caminho_json": "leis/municipal-sp/lei-municipal-saopaulo-18222-2024.json",
+      "status_pipeline": "indexado",
+      "status_valido": true,
+      "confianca_extracao": "alta",
+      "verbatim_integral": true,
+      "vigencia_inicio": "2024-12-27",
+      "revisado_por_humano": false,
+      "fora_de_escopo": false,
+      "fora_de_escopo_motivo": null,
+      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-18222-de-27-de-dezembro-de-2024"
     },
     {
       "id": "lei-municipal-saopaulo-7228-1968",

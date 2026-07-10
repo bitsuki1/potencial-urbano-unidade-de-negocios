@@ -1,0 +1,58 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17975-2023::105-art-103",
+  "lei_id": "lei-municipal-saopaulo-17975-2023",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 103",
+  "numero": "103",
+  "header_raw": "Art. 103. O Art. 340 da Lei nº 16.050, de 2014, passa a vigorar com a seguinte alteração:",
+  "caminho_hierarquico": [
+    "CAPÍTULO XI",
+    "Art. 103"
+  ],
+  "texto": "Art. 103. O Art. 340 da Lei nº 16.050, de 2014, passa a vigorar com a seguinte alteração:\n\n“Art. 340. ...................................................................................\n\nI - ao menos 40% (quarenta por cento) destinados preferencialmente a projetos e produção de\n\nHabitação de Interesse Social – HIS 1, inclusive a aquisição de terrenos para este fim,\n\npreferencialmente na Macroárea de Estruturação Metropolitana, na Macroárea de Urbanização\n\nConsolidada e na Macroárea de Qualificação da Urbanização e Macroárea de Redução da\n\nVulnerabilidade Urbana e Recuperação Ambiental e na Macroárea de Controle e Qualificação Urbana e\n\nAmbiental, preferencialmente classificados como ZEIS 1, ZEIS 3, ZEIS 4, conforme mapa 4A anexo,\n\nsendo 10% destinados a regularização fundiária e reurbanização de favelas com prioridade para áreas\n\nde risco R3 e R4 e áreas de mananciais;\n\nII - ao menos 30% (trinta por cento) destinados à implantação e realização de melhorias nas vias\n\nestruturais e nos sistemas de transporte público coletivo, cicloviário e de circulação de pedestres.\n\n....................................................................................................\n\n§ 4º No mínimo 50% do recurso utilizado para pavimentação e recapeamento, que trata no inciso III do\n\nart. 339 desta Lei, deverá ser destinado a bairros periféricos.” (NR)\n\nhttps://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023 49/60\n\n04/12/2025, 17:28 LEI Nº 17.975 DE 8 DE JULHO DE 2023 « Catálogo de Legislação Municipal",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO XI › Art. 103",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "vigencia": {
+      "inicio": "2023-07-08",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.050/2014 (Plano Diretor Estrategico — PDE)",
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupacao do Solo)"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicacao. Revisao intermediaria do PDE conforme art. 4o da Lei 16.050/2014. Regulamentada por Resolucao SMUL/CIMPDE n. 1/2024, Decreto 63.130/2024 e Decreto 63.728/2024."
+    }
+  },
+  "tema": [
+    "plano_diretor",
+    "revisao_intermediaria",
+    "ordenamento_territorial",
+    "zoneamento",
+    "transferencia_direito_construir",
+    "outorga_onerosa",
+    "potencial_construtivo",
+    "funcao_social_propriedade",
+    "desenvolvimento_urbano",
+    "habitacao_interesse_social",
+    "patrimonio_cultural",
+    "meio_ambiente"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão intermediária do Plano Diretor Estratégico do Município de São Paulo, aprovado pela Lei nº 16.050, de 31 de julho de 2014, nos termos da previsão de seu art. 4º."
+}

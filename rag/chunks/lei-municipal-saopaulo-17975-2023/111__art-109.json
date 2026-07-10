@@ -1,0 +1,58 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17975-2023::111-art-109",
+  "lei_id": "lei-municipal-saopaulo-17975-2023",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 109",
+  "numero": "109",
+  "header_raw": "Art. 109. O Art. 381 da Lei nº 16.050, de 2014, passa a vigorar com a seguinte redação:",
+  "caminho_hierarquico": [
+    "CAPÍTULO XII",
+    "Art. 109"
+  ],
+  "texto": "Art. 109. O Art. 381 da Lei nº 16.050, de 2014, passa a vigorar com a seguinte redação:\n\n“Art. 381. Os projetos modificativos de projetos de edificação com licenças expedidas nos termos da\n\nlegislação vigente anteriormente à data de publicação desta Lei e protocolados após a data de sua\n\npublicação serão analisados de acordo com as disposições do art. 380 desta Lei.\n\n....................................................................................................\n\n§ 3º Estão excetuados da aplicação das disposições deste artigo os projetos modificativos que\n\npassaram por transação judicial ou paralisação por força de decisão judicial, devendo ser integralmente\n\nanalisados com base na legislação da época do seu protocolo do projeto e que serviu de base à\n\nexpedição do alvará original, salvo por opção do interessado pela análise integralmente nos termos\n\ndesta Lei.\n\n§ 4º Aplicam-se também as disposições do § 3º desde artigo aos projetos modificativos localizados\n\ndentro dos perímetros das Operações Urbanas e Operações Urbanas Consorciadas.” (NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO XII › Art. 109",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "vigencia": {
+      "inicio": "2023-07-08",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [
+        "Lei nº 16.050/2014 (Plano Diretor Estrategico — PDE)",
+        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupacao do Solo)"
+      ],
+      "alterada_por": [],
+      "em_vigor": true,
+      "obs": "Vigente desde a publicacao. Revisao intermediaria do PDE conforme art. 4o da Lei 16.050/2014. Regulamentada por Resolucao SMUL/CIMPDE n. 1/2024, Decreto 63.130/2024 e Decreto 63.728/2024."
+    }
+  },
+  "tema": [
+    "plano_diretor",
+    "revisao_intermediaria",
+    "ordenamento_territorial",
+    "zoneamento",
+    "transferencia_direito_construir",
+    "outorga_onerosa",
+    "potencial_construtivo",
+    "funcao_social_propriedade",
+    "desenvolvimento_urbano",
+    "habitacao_interesse_social",
+    "patrimonio_cultural",
+    "meio_ambiente"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a revisão intermediária do Plano Diretor Estratégico do Município de São Paulo, aprovado pela Lei nº 16.050, de 31 de julho de 2014, nos termos da previsão de seu art. 4º."
+}

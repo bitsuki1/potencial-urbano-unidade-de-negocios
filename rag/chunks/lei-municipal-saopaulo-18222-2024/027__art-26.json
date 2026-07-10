@@ -1,0 +1,56 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-18222-2024::027-art-26",
+  "lei_id": "lei-municipal-saopaulo-18222-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 26",
+  "numero": "26",
+  "header_raw": "Art. 26. Fica permitida a implantação do Projeto Estratégico Núcleo Parque Tecnológico do Jaguaré em",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção III",
+    "Art. 26"
+  ],
+  "texto": "Art. 26. Fica permitida a implantação do Projeto Estratégico Núcleo Parque Tecnológico do Jaguaré em\n\ndois setores independentes, na seguinte conformidade:\n\nI - Setor Governo do Estado de São Paulo;\n\nII - Setor Universidade de São Paulo.\n\n§ 1º Na hipótese de implantação do Projeto Estratégico Núcleo do Parque Tecnológico na forma\n\nprevista no caput deste artigo, aplicam-se as seguintes disposições:\n\nI - serão permitidas as subcategorias de usos R2v e EHMP, até o limite de 20% (vinte por cento) da\n\nárea construída computável total de cada um dos setores, condicionados à implantação de fachada\n\nativa nos termos do art. 62, inciso VII, alínea “a”, da Lei nº 16.402, de 22 de março de 2016 - LPUOS,\n\naplicando-se, no que couber, as demais disposições do art. 25, caput, desta Lei;\n\nII - o percentual de destinação de áreas públicas havidas em função do parcelamento do solo por setor\n\nnão poderá ser menor do que 40% (quarenta por cento) de sua respectiva área, respeitando os\n\npercentuais mínimos dispostos no Quadro 2B desta Lei.\n\n§ 2º Na hipótese de implantação por setores, não se aplica o disposto no inciso III do art. 25 aos lotes\n\nou glebas com mais de 20.000m² (vinte mil metros quadrados) previamente existentes ao processo de\n\nreparcelamento.\n\n§ 3º Para fins de implantação do Projeto Estratégico, o lote com contribuinte nº 082.230.0050 poderá\n\nser incorporado tanto ao perímetro integral quanto ao Setor Governo do Estado de São Paulo.\n\nSubseção III\n\nDos Projetos Estratégicos da Frente do Rio Pinheiros",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 18.222/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção III › Art. 26",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-18222-de-27-de-dezembro-de-2024",
+    "vigencia": {
+      "inicio": "2024-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Lei nº 18.298/2025"
+      ],
+      "revogada_por": null,
+      "observacao": "Em vigor desde a publicacao; consolidada com alteracoes da Lei 18.298/2025 (27 dispositivos com redacao alterada, 1 incluido, 1 revogado — todos relativos a ZOE-Butantan)."
+    }
+  },
+  "tema": [
+    "plano_intervencao_urbana",
+    "arco_pinheiros",
+    "uso_ocupacao_solo",
+    "zoneamento",
+    "potencial_construtivo",
+    "habitacao_interesse_social",
+    "distrito_inovacao",
+    "meio_ambiente_urbano",
+    "mobilidade_urbana",
+    "outorga_onerosa"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Aprova o Plano de Intervenção Urbana para o território do Arco Pinheiros, em atendimento ao inciso IV do § 3º do art. 76 da Lei nº 16.050, de 31 de julho de 2014 - PDE; cria a Área de Intervenção Urbana Arco Pinheiros."
+}

@@ -39,6 +39,66 @@ def _run(args):
     return p.returncode, (p.stdout or "") + (p.stderr or "")
 
 
+def check_pii_arvore():
+    """L-T7-1: nenhum .csv/.json com coluna PII deve estar na árvore git (zepec/ exceto ferramenta/).
+    zepec/ferramenta/ excluído: é a saída do produto (cedentes) — proprietario é esperado (D-DONO-17)."""
+    tokens_pii = {"proprietario", "contribuinte", "documento", "cpf", "cnpj"}
+    r = subprocess.run(
+        ["git", "ls-files", "zepec/limpo", "zepec/oficial", "zepec/raw"],
+        cwd=RAIZ, capture_output=True, text=True,
+    )
+    sujos = []
+    for rel in r.stdout.splitlines():
+        rel = rel.strip()
+        if not rel:
+            continue
+        if not (rel.endswith(".csv") or rel.endswith(".json")):
+            continue
+        fp = RAIZ / rel
+        try:
+            with open(fp, encoding="utf-8") as fh:
+                header = fh.readline().lower()
+        except (OSError, UnicodeDecodeError):
+            continue
+        if any(tok in header for tok in tokens_pii):
+            sujos.append(rel)
+    if sujos:
+        return False, f"PII rastreada no git: {sujos[:5]}"
+    return True, "nenhum arquivo com coluna PII na árvore git (zepec/)"
+
+
+def check_pii_historico():
+    """L-T7-2: verifica se arquivos com PII conhecidos ainda existem no histórico git.
+    Mesmo removidos do HEAD, continuam acessíveis via git log. Rewrite do histórico
+    (git filter-branch / git filter-repo) requer autorização do dono — por isso é WARNING, não FAIL."""
+    # Arquivos PII conhecidos (removidos do HEAD mas possivelmente no histórico)
+    pii_conhecidos = {"zepec/limpo/donos_encontrados.csv"}
+    # Busca arquivos deletados no histórico dentro das pastas zepec de dados
+    r = subprocess.run(
+        ["git", "log", "--all", "--diff-filter=D", "--name-only", "--pretty=format:",
+         "--", "zepec/limpo/*.csv", "zepec/oficial/*.csv", "zepec/raw/*.csv"],
+        cwd=RAIZ, capture_output=True, text=True,
+    )
+    if r.returncode != 0:
+        # Se o git log falhar, não bloqueia — reporta e segue
+        return True, "git log falhou ao varrer histórico (não-fatal)"
+    # Filtra linhas vazias e deduplica
+    deletados = {l.strip() for l in r.stdout.splitlines() if l.strip()}
+    encontrados = sorted(deletados & pii_conhecidos)
+    if encontrados:
+        # WARNING: retorna True (não reprova o gate) mas avisa
+        return True, f"AVISO — PII em histórico git (requer rewrite c/ autorização do dono): {encontrados}"
+    return True, "nenhum arquivo PII conhecido no histórico git"
+
+
+def check_oraculos_ausente():
+    """L-T6-1: engines/tdc/oraculos/ NÃO deveria existir (Fi vem do CSV, não de oráculo)."""
+    p = RAIZ / "engines" / "tdc" / "oraculos"
+    if p.exists() and any(p.iterdir()):
+        return False, f"engines/tdc/oraculos/ NÃO deveria existir (T6 — Fi vem do CSV, não de oráculo)"
+    return True, "engines/tdc/oraculos/ ausente (T6 OK — sem oráculo)"
+
+
 def check_evals():
     rc, _ = _run(["evals/rodar-evals.py"])
     return rc == 0, "evals/rodar-evals.py saiu 0" if rc == 0 else f"evals quebrou (exit {rc}) — rode e veja FALHA"
@@ -47,6 +107,11 @@ def check_evals():
 def check_engine():
     rc, _ = _run(["engines/tdc/oodc.py"])
     return rc == 0, "engine OODC/TDC auto-teste OK" if rc == 0 else f"engine quebrou (exit {rc})"
+
+
+def check_engine_fp():
+    rc, _ = _run(["engines/tdc/fp.py"])
+    return rc == 0, "engine Fp (Quadro 6) auto-teste OK" if rc == 0 else f"Fp quebrou (exit {rc})"
 
 
 def check_engine_cedente():
@@ -59,6 +124,11 @@ def check_produto():
     # T2/S2: golden-assert do Fi legal sobre 7 cedentes reais; sabotar 1 Fi (engine ou CSV) FALHA aqui.
     rc, _ = _run(["evals/eval-produto.py"])
     return rc == 0, "produto: 7 cedentes reais c/ Fi legal (Art.24) OK" if rc == 0 else f"produto divergiu do Fi legal (exit {rc})"
+
+
+def check_zona_mutacao():
+    rc, _ = _run(["evals/eval-zona-mutacao.py"])
+    return rc == 0, "zona-mutação: 6/6 PASS" if rc == 0 else f"zona-mutação regrediu (exit {rc})"
 
 
 def check_conservacao():
@@ -211,10 +281,15 @@ def check_pushed():
 
 def main():
     hard = [
+        ("PII (sem dados pessoais na árvore git, T7)", check_pii_arvore),
+        ("PII HISTÓRICO (dados pessoais no git log, L-T7-2)", check_pii_historico),
+        ("ORÁCULO AUSENTE (engines/tdc/oraculos/, T6)", check_oraculos_ausente),
         ("EVALS (citação correta, 1.7)", check_evals),
         ("ENGINE (número no engine, 1.3)", check_engine),
+        ("ENGINE Fp (Quadro 6, Fator de Planejamento)", check_engine_fp),
         ("ENGINE CEDENTE (Fi Art.24, T2)", check_engine_cedente),
         ("PRODUTO (golden Fi cedentes reais, T2)", check_produto),
+        ("ZONA-MUTAÇÃO (CAbás por zona, G6)", check_zona_mutacao),
         ("CONSERVAÇÃO (Art.129 3-estados, T4)", check_conservacao),
         ("REGIME PCpt (já-declarado×novo, T3)", check_regime_pcpt),
         ("DIVERGÊNCIA PCpt×certidões (M0)", check_divergencia),

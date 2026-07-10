@@ -6,7 +6,20 @@
   "numero": "17733",
   "ano": "2022",
   "ementa": "(ver texto integral)",
-  "tema": [],
+  "tema": [
+    "telecomunicacoes",
+    "infraestrutura_urbana",
+    "licenciamento"
+  ],
+  "dispositivos_chave": [
+    "Art. 1 — Implantacao de ERB, ERB movel e mini ERB no Municipio de Sao Paulo",
+    "Art. 2 — Definicoes: estacao radio-base, ERB movel, mini ERB, operadora, detentora",
+    "Art. 3 — Componentes de ERB nao sao area construida para fins de uso e ocupacao do solo",
+    "Art. 4 — ERBs classificadas como INFRA, instalacao permitida em todas as zonas de uso",
+    "Art. 10 — Obrigatoriedade de licenciamento e cadastramento junto a Prefeitura",
+    "Art. 13 — Vedacao de implantacao de nova ERB sem alvara ou cadastramento previo",
+    "Art. 23 — Procedimento de licenciamento e cadastramento com prazo de 60 dias"
+  ],
   "vigencia": {
     "inicio": "2022-01-11",
     "fim": null,
@@ -14,6 +27,14 @@
     "altera": [],
     "alterada_por": []
   },
+  "remissoes": [
+    {
+      "de": "Art. 4",
+      "para": "Lei 16050/2014, art. 196",
+      "tipo": "remissao_externa",
+      "trecho": "observado o parágrafo único do art. 196 da Lei nº 16.050, de 31 de julho de 2014"
+    }
+  ],
   "fonte": {
     "origem": "Google Drive",
     "path": "_entrada/iptu/lei-no-17-733-de-11-de-janeiro-de-2022-catalogo-de-legislacao-municipa.txt",

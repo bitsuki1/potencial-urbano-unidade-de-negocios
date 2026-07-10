@@ -1,0 +1,56 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-18222-2024::030-art-29",
+  "lei_id": "lei-municipal-saopaulo-18222-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 29",
+  "numero": "29",
+  "header_raw": "Art. 29. As Áreas de Estruturação Local da AIU-ACP são porções do território que apresentam potencial",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção IV",
+    "Art. 29"
+  ],
+  "texto": "Art. 29. As Áreas de Estruturação Local da AIU-ACP são porções do território que apresentam potencial\n\nde transformação urbana local, marcadas pela presença de vulnerabilidade social e ambiental, para as\n\nquais serão elaborados Planos de Intervenção Urbana (PIU) específicos pela SP-Urbanismo,\n\ndiretamente ou sob sua coordenação, nos termos dispostos do art. 149 da Lei nº 16.050, de 31 de julho\n\nde 2014 - PDE.\n\n§ 1º Os estudos desenvolvidos no âmbito do PIU-ACP contêm o diagnóstico das áreas que serão\n\nobjeto de intervenção por intermédio das AEL que institui, com a caracterização dos seus aspectos\n\nsocioterritoriais e definição do programa de interesse público de cada intervenção e de seus\n\nperímetros, veiculando, ainda, as características básicas de cada uma das propostas, devendo os\n\nestudos específicos a serem realizados corresponderem à forma final de cada PIU.\n\n§ 2º A gestão democrática de cada AEL da AIU-ACP será realizada por intermédio da articulação dos\n\nConselhos Gestores das ZEIS localizadas em seu território e o Conselho Gestor da AIU-ACP.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 18.222/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção IV › Art. 29",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-18222-de-27-de-dezembro-de-2024",
+    "vigencia": {
+      "inicio": "2024-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Lei nº 18.298/2025"
+      ],
+      "revogada_por": null,
+      "observacao": "Em vigor desde a publicacao; consolidada com alteracoes da Lei 18.298/2025 (27 dispositivos com redacao alterada, 1 incluido, 1 revogado — todos relativos a ZOE-Butantan)."
+    }
+  },
+  "tema": [
+    "plano_intervencao_urbana",
+    "arco_pinheiros",
+    "uso_ocupacao_solo",
+    "zoneamento",
+    "potencial_construtivo",
+    "habitacao_interesse_social",
+    "distrito_inovacao",
+    "meio_ambiente_urbano",
+    "mobilidade_urbana",
+    "outorga_onerosa"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Aprova o Plano de Intervenção Urbana para o território do Arco Pinheiros, em atendimento ao inciso IV do § 3º do art. 76 da Lei nº 16.050, de 31 de julho de 2014 - PDE; cria a Área de Intervenção Urbana Arco Pinheiros."
+}

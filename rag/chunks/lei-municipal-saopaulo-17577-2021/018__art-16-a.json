@@ -1,0 +1,53 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17577-2021::018-art-16-a",
+  "lei_id": "lei-municipal-saopaulo-17577-2021",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 16-A",
+  "numero": "16-A",
+  "header_raw": "Art. 16-A. Os imóveis localizados no perímetro constante do parágrafo único do art. 1º desta Lei, que",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 16-A"
+  ],
+  "texto": "Art. 16-A. Os imóveis localizados no perímetro constante do parágrafo único do art. 1º desta Lei, que\n\ntenham sofrido reforma, não inseridos no Programa Requalifica Centro, farão jus à isenção parcial do\n\nIPTU devido, em montante equivalente a 50% do acréscimo no valor do referido imposto decorrente da\n\natualização da idade da construção de que trata o art. 16 da Lei nº 10.235, de 16 de dezembro de\n\n1986, e observadas as demais hipóteses de isenção, desconto e imunidade previstas na legislação, se\n\nmais benéficas.(Incluído pela Lei nº 18.065/2023)\n\n§ 1º Vedada a restituição a qualquer título de valores já pagos, a isenção de que trata este artigo\n\naplica-se aos imóveis cuja reforma tenha sido concluída entre a data de entrada em vigor deste artigo\n\nos 4 (quatro) anos subsequentes, e atingirá unicamente os fatos geradores decorrentes da reforma, na\n\nforma do art. 2º, § 1º, inciso II, alínea \"a\" da Lei nº 6.989, de 29 de dezembro de 1966, bem como os\n\ndemais fatos geradores ocorridos nos 48 (quarenta e oito) meses posteriores.(Incluído pela Lei nº\n\n18.065/2023)\n\n§ 2º Vedada a restituição a qualquer título de valores já pagos, bem como a revisão de lançamento já\n\nefetuado e com débito em aberto, a isenção de que trata este artigo aplica-se aos imóveis cuja reforma\n\ntenha sido concluída a partir de 21 de julho de 2021 até a entrada em vigor deste artigo, e atingirá\n\nunicamente os fatos geradores decorrentes da reforma, na forma do art. 2º, § 1º, inciso II, alínea \"a\"\n\nda Lei nº 6.989, de 29 de dezembro de 1966, bem como os demais fatos geradores ocorridos nos 48\n\n(quarenta e oito) meses posteriores.(Incluído pela Lei nº 18.065/2023)\n\n§ 3º A isenção referida neste artigo não gera direito adquirido e será revogada caso não seja\n\napresentado o certificado de conclusão ou de outro modo seja comprovada a conclusão da reforma.\n\n(Incluído pela Lei nº 18.065/2023)\n\n§ 4º A isenção de que trata este artigo não se aplica, ainda, aos imóveis que façam jus a isenção ou\n\ndesconto de IPTU no âmbito do Programa Triângulo SP, instituído pela Lei nº 17.332, de 24 de março\n\nde 2020, bem como aos imóveis objeto do IPTU progressivo no tempo de que trata o art. 98 da Lei nº\n\n16.050, de 31 de julho de 2014.(Incluído pela Lei nº 18.065/2023)\n\n§ 5º A Secretaria Municipal da Fazenda regulamentará a isenção de que trata este artigo.(Incluído pela\n\nLei nº 18.065/2023)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.577/2021 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Art. 16-A",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17577-de-20-de-julho-de-2021",
+    "vigencia": {
+      "inicio": "2021-07-20",
+      "em_vigor": true,
+      "observacao": "Consolidada com alterações das Leis 17.844/2022, 18.065/2023, 18.081/2024, 18.330/2025.",
+      "altera": [],
+      "alterada_por": [
+        "Lei 17.844/2022 (art. 16)",
+        "Lei 18.065/2023 (altera a lei - arts. 16, 16-A)",
+        "Lei 18.081/2024 (amplia perímetro - setores 017/025/026 Brás)",
+        "Lei 18.330/2025 (art. 16-III, 16-B)"
+      ]
+    }
+  },
+  "tema": [
+    "Requalifica_Centro",
+    "incentivo_fiscal",
+    "isencao",
+    "retrofit",
+    "outorga_onerosa",
+    "ZEPEC_BIR",
+    "remissao_IPTU"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o Programa Requalifica Centro, estabelecendo incentivos e o regime específico para a requalificação de edificações situadas na Área Central, e dá outras providências."
+}
