@@ -67,6 +67,30 @@ def check_pii_arvore():
     return True, "nenhum arquivo com coluna PII na árvore git (zepec/)"
 
 
+def check_pii_historico():
+    """L-T7-2: verifica se arquivos com PII conhecidos ainda existem no histórico git.
+    Mesmo removidos do HEAD, continuam acessíveis via git log. Rewrite do histórico
+    (git filter-branch / git filter-repo) requer autorização do dono — por isso é WARNING, não FAIL."""
+    # Arquivos PII conhecidos (removidos do HEAD mas possivelmente no histórico)
+    pii_conhecidos = {"zepec/limpo/donos_encontrados.csv"}
+    # Busca arquivos deletados no histórico dentro das pastas zepec de dados
+    r = subprocess.run(
+        ["git", "log", "--all", "--diff-filter=D", "--name-only", "--pretty=format:",
+         "--", "zepec/limpo/*.csv", "zepec/oficial/*.csv", "zepec/raw/*.csv"],
+        cwd=RAIZ, capture_output=True, text=True,
+    )
+    if r.returncode != 0:
+        # Se o git log falhar, não bloqueia — reporta e segue
+        return True, "git log falhou ao varrer histórico (não-fatal)"
+    # Filtra linhas vazias e deduplica
+    deletados = {l.strip() for l in r.stdout.splitlines() if l.strip()}
+    encontrados = sorted(deletados & pii_conhecidos)
+    if encontrados:
+        # WARNING: retorna True (não reprova o gate) mas avisa
+        return True, f"AVISO — PII em histórico git (requer rewrite c/ autorização do dono): {encontrados}"
+    return True, "nenhum arquivo PII conhecido no histórico git"
+
+
 def check_oraculos_ausente():
     """L-T6-1: engines/tdc/oraculos/ NÃO deveria existir (Fi vem do CSV, não de oráculo)."""
     p = RAIZ / "engines" / "tdc" / "oraculos"
@@ -248,6 +272,7 @@ def check_pushed():
 def main():
     hard = [
         ("PII (sem dados pessoais na árvore git, T7)", check_pii_arvore),
+        ("PII HISTÓRICO (dados pessoais no git log, L-T7-2)", check_pii_historico),
         ("ORÁCULO AUSENTE (engines/tdc/oraculos/, T6)", check_oraculos_ausente),
         ("EVALS (citação correta, 1.7)", check_evals),
         ("ENGINE (número no engine, 1.3)", check_engine),
