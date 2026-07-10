@@ -44,6 +44,10 @@ def regime_pcpt(r):
                                                     lícito de uma futura declaração."""
     v = lambda k: (r.get(k) or "").strip().lower() in ("sim", "true", "1")
     if v("tem_declaracao") or v("tem_certidao"):
+        # L3 (2026-07-10): se o Fi da Declaração está na base (fi_declarado), o PCpt é FIRME (o valor
+        # declarado, Art. 125 §1º I) — não a estimativa. Sem ele, segue PENDENTE (falta o dado da Declaração).
+        if (r.get("fi_declarado") or "").strip():
+            return "JA_DECLARADO", "DECLARADO_FIRME"
         return "JA_DECLARADO", "PENDENTE_FI_DECLARADO"
     return "PROSPECCAO_NOVA", "ESTIMATIVA_PROSPECCAO_ART24"
 
@@ -62,6 +66,10 @@ def _autoteste_regime():
     # a garantia central do T3: quem TEM declaração/certidão nunca recebe a marca de estimativa-de-prospecção
     for r in ({"tem_declaracao": "sim"}, {"tem_certidao": "sim"}):
         assert regime_pcpt(r)[1] != "ESTIMATIVA_PROSPECCAO_ART24", f"regime: {r} já-declarado != estimativa-prospecção"
+    # L3 (2026-07-10): já-declarado COM o Fi da Declaração na base → PCpt FIRME (usa o declarado, Art.125 §1º I);
+    # SEM ele, segue PENDENTE. Prova o mecanismo de redação-datada (pronto p/ quando o fi_declarado subir).
+    assert regime_pcpt({"tem_declaracao": "sim", "fi_declarado": "1.4"}) == ("JA_DECLARADO", "DECLARADO_FIRME")
+    assert regime_pcpt({"tem_declaracao": "sim"}) == ("JA_DECLARADO", "PENDENTE_FI_DECLARADO")
     return True
 
 
@@ -79,7 +87,16 @@ def _calcular_pcpt(r, atc, cabas, pend, n, setor_central=False):
       ('1' da camada perímetro AIU-SCE, GeoSampa) — o teto de terreno ≤1.000 m² do Art. 57
       é resolvido DENTRO do engine (1.3)."""
     try:
-        e = ENGINE.pcpt_sem_doacao(atc, cabas, setor_central=setor_central)
+        # L3 (2026-07-10): já-declarado COM Fi da Declaração usa o valor DECLARADO (Art. 125 §1º I),
+        # não o escalonado (Art. 24 caput = estimador de NOVAS declarações). Redação datada: a Declaração
+        # fixa o Fi vigente na sua data de referência. Sem fi_declarado na base, mantém o escalonado (no-op).
+        fi_dec = _num(r.get("fi_declarado"))
+        ja_declarado = (r.get("tem_declaracao") or "").strip().lower() in ("sim", "true", "1") \
+            or (r.get("tem_certidao") or "").strip().lower() in ("sim", "true", "1")
+        if fi_dec and ja_declarado:
+            e = ENGINE.pcpt_sem_doacao(atc, cabas, fi=fi_dec, setor_central=setor_central)
+        else:
+            e = ENGINE.pcpt_sem_doacao(atc, cabas, setor_central=setor_central)
         r["pcpt_m2"] = str(e["valor_m2"]); r["fi_aplicado"] = e.get("fi", "")
         if e.get("fsce") not in (None, "", "1"):
             r["fsce_aplicado"] = e["fsce"]; n["fsce"] += 1
