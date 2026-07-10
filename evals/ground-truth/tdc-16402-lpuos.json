@@ -1,0 +1,17 @@
+{
+  "dominio": "TDC",
+  "status": "ativo",
+  "_nota": "R6 (M4, 2026-07-10): 2o eval proprio da LPUOS 16.402/2016 — leva a lei critica do Fi escalonado a >=2 evals. O Art. 24 fixa o Fator de Incentivo (Fi) por faixa de area do lote (I-VII), base do PCpt do cedente (via Art. 125 do PDE).",
+  "itens": [
+    {
+      "id": "tdc-fi-escalonado-art24-lpuos",
+      "pergunta": "fator de incentivo Fi escalonado por faixa de area do lote para ZEPEC",
+      "espera": {
+        "fundamentada": true,
+        "lei_id": "lei-municipal-saopaulo-16402-2016",
+        "dispositivo_topo": "Art. 24",
+        "texto_contem": "Fatores de Incentivo"
+      }
+    }
+  ]
+}
