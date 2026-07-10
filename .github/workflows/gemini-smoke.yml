@@ -17,14 +17,25 @@ jobs:
             echo "RESULTADO: SEM_CHAVE — o segredo GEMINI_API_KEY NÃO está neste repositório."
             exit 1
           fi
+          echo "== modelos de EMBEDDING disponíveis para esta chave =="
+          curl -sS "https://generativelanguage.googleapis.com/v1beta/models?key=${GEMINI_API_KEY}&pageSize=200" -o models.json
+          python3 - <<'PY'
+          import json
+          d=json.load(open("models.json"))
+          embs=[m["name"] for m in d.get("models",[]) if "embedContent" in (m.get("supportedGenerationMethods") or [])]
+          print("EMBEDDING_MODELS:", embs or "(nenhum)")
+          PY
+          echo "== testando o primeiro modelo de embedding que existir =="
+          MODEL=$(python3 -c "import json;d=json.load(open('models.json'));e=[m['name'] for m in d.get('models',[]) if 'embedContent' in (m.get('supportedGenerationMethods') or [])];print(e[0] if e else '')")
+          if [ -z "$MODEL" ]; then echo "RESULTADO: SEM MODELO DE EMBEDDING para esta chave"; exit 1; fi
+          echo "usando: $MODEL"
           code=$(curl -sS -o resp.json -w '%{http_code}' \
-            "https://generativelanguage.googleapis.com/v1beta/models/text-embedding-004:embedContent?key=${GEMINI_API_KEY}" \
+            "https://generativelanguage.googleapis.com/v1beta/${MODEL}:embedContent?key=${GEMINI_API_KEY}" \
             -H 'Content-Type: application/json' \
-            -d '{"model":"models/text-embedding-004","content":{"parts":[{"text":"potencial construtivo passível de transferência"}]}}')
-          echo "HTTP: $code"
+            -d "{\"model\":\"${MODEL}\",\"content\":{\"parts\":[{\"text\":\"potencial construtivo passível de transferência\"}]}}")
           dim=$(python3 -c "import json;d=json.load(open('resp.json'));print(len(d.get('embedding',{}).get('values',[])))" 2>/dev/null || echo 0)
           if [ "$code" = "200" ] && [ "$dim" -gt 0 ]; then
-            echo "RESULTADO: OK — chave válida, embeddings responderam (dimensão=$dim)."
+            echo "RESULTADO: OK — modelo $MODEL responde (dimensão=$dim)."
           else
             echo "RESULTADO: FALHA — HTTP $code. Corpo:"; head -c 400 resp.json
             exit 1
