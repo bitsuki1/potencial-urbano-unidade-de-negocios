@@ -1,5 +1,12 @@
 # PRÓXIMA INSTÂNCIA — o que fazer (Potencial Urbano)
 
+> **★★★★★★★★★★★★★★★★★★ PU 18 (2026-07-10) — TUDO À PRODUÇÃO + ÓRFÃOS CONSOLIDADOS + ★ FSCE RESGATADO (mistério Fi≈2,4 RESOLVIDO).**
+> **PR #29 MESCLADO na main** (merge `3fed881`): auditoria 10 achados + G2 (zona 377/377). CI 2/2 verde (infra do Actions voltou).
+> **★ FSCE (a jóia):** resgatado de branch órfã `project-analysis-pending-20wc81` à produção. `pcpt.py` ganha `setor_central` → PCpt = Atc×CAbás×Fi×**FSCE(2,0)** (Art. 57, Lei 17.844/2022, AIU-SCE, terreno ≤1.000 m²). **Reproduz EXATO 717,60 / 1468 / 1176 / 768 de 4 Declarações oficiais do Diário Oficial.** RESOLVE o mistério Fi≈2,4 (=Fi 1,2 × FSCE 2,0 — nunca foi Fi 2,4). Retrocompatível (`setor_central=False` default → gate intacto). Novos gates: `eval-formula-zepec.py` (FSCE 4/4) + `eval-zona-cabas.py`. Gate local **23 checks** (era 22). Também resgatados: **25 gabaritos TDC reais** do Diário Oficial (`gabaritos-doc-extraidos.csv/json`), `GABARITO-FORMULA-ZEPEC-BIR.md`, `preencher_cabas_do_wfs.py`, CSVs de zona, doc de encerramento 07-05.
+> **Consolidação de órfãos (8 branches):** 5 100%-superadas DELETADAS (d164, liberar-ferramentas, opiniao-areas, pu-move-laudo, pu-regularizacao — conteúdo já no main via PU 18); 2 cherry-pick (project-analysis → FSCE; jsgvth → doc encerramento); branch de trabalho reiniciada da main.
+> **PENDENTE (dono/dados):** (1) ATIVAR o FSCE no pipeline — precisa da coluna `na_aiu_sce` (pertinência à AIU-SCE por cedente, do overlay do perímetro Setor Central no GeoSampa); (2) política de CI `linter só no push` (D168) — branch `instance-concurrency` propõe, decisão do dono.
+> **Gate:** 23/23 VERDE. **Evals:** 29/29 RAG + 15/15 produto + 6/6 zona + **4/4 FSCE**.
+>
 > **★★★★★★★★★★★★★★★★★ PU 18 (2026-07-10) — G2 FECHADO: zona-base 377/377 (100%) + EVAL-04 fix + banner 10 achados.**
 > **G2 COMPLETO:** os 11 irresolvíveis (10 sem_lote + 1 Praça/Canteiro) resolvidos via fallback PDE Art.14 §1º (CAbás=1). Total: **3.693/3.693 com CAbás** (era 3.682). Nenhum em zona de exceção (ZEPAM/ZPDSr/AC-1/AC-2/AVP-1). Fonte rastreável no CSV (`PDE_Art14§1(sem_lote)`, `PDE_Art14§1(Praça/Canteiro)`).
 > **EVAL-04:** `rodar-evals.py` agora pula status `aguardando_engine` (antes só pulava `aguardando_verbatim`). Defensivo: gabarito IPTU VV não quebraria o gate futuro.
