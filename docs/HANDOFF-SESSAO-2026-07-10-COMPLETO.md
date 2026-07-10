@@ -94,6 +94,23 @@ O dono autorizou deletar os 7 refs redundantes, mas `git push --delete` deu **HT
 pusha commits mas NÃO deleta refs; não há tool MCP de delete-branch). Corrigi os docs que diziam "deletadas" →
 "consolidadas; refs pendentes de deleção pelo dono". B-23 atualizado.
 
+### A.7 — Varredura final "nada órfão" (PRs #35 no PU + #26 no hub)
+Sob pressão do dono ("não quero nada fora de produção e órfão"), varri os DOIS repos com teste preciso
+(arquivo/conteúdo único fora do main). Achei 3 órfãos de conteúdo REAIS que eu tinha deixado passar, e **resgatei
+os 3**:
+- **[PU] `docs/pagina-mapa-do-mou.html`** (501 linhas) — a página da unidade no Mapa Vivo do Portfólio (D159/D161),
+  criada nesta sessão por outra instância. → main (PR #35).
+- **[PU] política CI D168** — `linter-estado.yml` sem `pull_request` (cota de Actions, "propagada a todos os repos").
+  → main (PR #35).
+- **[HUB] cofre §4.1** — Gmail+Drive por MCP (conta do MOU) no `ACESSOS-FERRAMENTAS.md`, da branch
+  `bitsuki-instance-setup-aabhm7`. → main do hub (PR #26).
+- **NÃO re-injetei 2 "falsos órfãos":** as cartas `caixa-de-entrada/do-escritorio/2026-07-07_...opiniao-areas.md`
+  e `2026-07-08_...REGULARIZACAO-pu.md` aparecem como "novo arquivo" nas branches, mas o conteúdo JÁ está no main em
+  `caixa-de-entrada/processados/` (verificado: a versão processada contém 100% das linhas). Trazê-las de volta à
+  caixa ATIVA seria re-injetar carta processada como pendente (bug do mecanismo de caixa, D144/D-CAIXA-FIX). Deixadas.
+- **Resultado:** ZERO conteúdo órfão nos dois repos. Resta só a DELEÇÃO dos refs redundantes (bloqueada por 403 —
+  ação do dono via UI). Ver PARTE C.
+
 ### A.6 — Auditoria das 23 branches do HUB `portfolio-automacoes` (PR #33)
 Na 1ª passada declarei o hub "limpo" sem olhar — **erro** (ver PARTE D). Auditei as 23 branches com commits únicos:
 - **12 `geosampa-*`**: TODAS SUPERADAS (squash-merges via PRs #6–#19 do hub). Incluindo `geosampa-sce` (a lógica
