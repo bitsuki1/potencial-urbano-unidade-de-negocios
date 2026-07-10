@@ -1,5 +1,12 @@
 # PRÓXIMA INSTÂNCIA — o que fazer (Potencial Urbano)
 
+> **★★★★★★★★★★ PU 18 (2026-07-10) — T12 LACUNAS CORRIGIDAS (5 fixes + 3 fixtures não-vácuos).**
+> **T12 5 lacunas corrigidas:** L-T9-1 ALTA (`_precificar()` usa `min(saldo, 50000)` per Art.124§3 — parcelas_anuais=10 quando saldo>50k), L-T11-1 ALTA (conjuntos incompletos → PENDENTE-CONJUNTO não saldo parcial enganoso), L-T7-1 CRÍTICA (`donos_encontrados.csv` removido do git + `.gitignore`), L-T6-1 (gate `check_oraculos_ausente()` em `fechar-instancia.py`), L-T7-4 (PII probe no CI `consolidar.yml` e gate local — escaneia `zepec/limpo|oficial|raw`, exclui `ferramenta/` por D-DONO-17).
+> **3 asserts não-vácuos em eval-produto.py:** L-T9-2 (≥1 PCpt>50k com parcelas=10, hoje 3), L-T11-2 (36 membros de conjunto sem saldo/preço individual espúrio), L-T4-5 (≥1 vedada Art.124§2 bloqueada, hoje 28). Gate: 11/11 eval-produto PASS.
+> **Fix CI:** PII probe `grep -q` + `set -e` causava falso-positivo quando 0 arquivos PII (troca `&&` por `if/fi` + `|| true`).
+> **Pipeline:** 2.280 chunks, 28 leis indexadas, 66 MANIFESTO, 3.518 remissões. 20/20 evals + 11/11 eval-produto PASS.
+> **PRÓXIMO na fila:** (1) G6 eval geo (mutation test zona), (2) E1 recorte Q14 divergência, (3) T8 geometria fina (BLOCKED: LOTES shapefiles), (4) lacunas T12 restantes (L-T4-1/2/3/4, L-T7-2, L-T5-1, L-T2-1).
+>
 > **★★★★★★★★★ PU 18 (2026-07-09) — T8 GUARD VEDAÇÃO Art.124§2 + B-4 +4 LEIS MUNICIPAIS INGERIDAS.**
 > **T8 guard FEITO (parcial):** `enriquecer_oficial.py` BLOQUEIA PCpt/saldo/preço de imóveis vedados por Art.124§2 (AUE/APPa) ANTES do cálculo. 32 vedadas bloqueadas (13 tinham Atc+CAbás e recebiam PCpt indevido). `vedacao_geo.py` criado (carrega AUE shapefile 741 polígonos EPSG:31983; pronto p/ geometria fina quando coordenadas de lote estiverem disponíveis — LOTES shapefiles ou geocoding). **RESTA:** cruzar coordenadas de lote com shapefile AUE para pegar os ~28 vedados que a substring não alcança (precisa LOTES shapefiles).
 > **B-4 +4 leis municipais** ingeridas do Drive verbatim: Lei 11.152/1991 (alíquotas IPTU progressivas), Lei 15.044/2009 (nova Tabela VI IPTU), Lei 17.202/2019 (regularização edificações, compartilhado), Lei 17.577/2021 (Requalifica Centro, compartilhado). `carimbar_dominio.py` atualizado. **3 leis inacessíveis** pelo MCP Drive (10.235/86, 13.250/01, 14.865/08 = PDFs scan sem camada de texto).

@@ -6,14 +6,14 @@
   "lifeline": "Acha os donos de imóveis que podem vender potencial construtivo (TDC) e calcula, pela lei, quanto vale — cada número rastreável até o artigo.",
   "stage": "construção",
   "health": "ok",
-  "healthNote": "Corpus ampliado: 28 leis indexadas, 2280 chunks, 3518 remissões. T8 guard vedação Art.124§2 (32 vedadas bloqueadas). +4 leis municipais (11.152/15.044/17.202/17.577). Zona-base 366/377. vedacao_geo.py pronto (741 polígonos AUE).",
+  "healthNote": "T12 auditoria: 8/19 lacunas corrigidas (L-T9-1 parcelamento, L-T11-1 conjuntos, L-T7-1/4 PII, L-T6-1 runner). eval-produto 11/11 PASS (7 golden + 4 não-vácuos). CI verde (fix PII probe set-e). Corpus: 28 leis, 2280 chunks, 3518 remissões. Zona-base 366/377.",
   "lever": { "tx": "Fi declarado (do acervo de Termos do dono) é o gap remanescente para fechar o cálculo nos imóveis JA_DECLARADO — o Fi escalonado (Art. 24) já cobre a prospecção nova.", "k": "interno: acervo Termos / Fi declarado" },
   "now": [
-    "T8 guard vedação Art.124§2: enriquecer_oficial.py BLOQUEIA PCpt/saldo/preço de 32 vedadas (AUE/APPa) ANTES do cálculo. vedacao_geo.py criado (741 polígonos AUE, pronto p/ geometria fina).",
-    "+4 leis municipais ingeridas do Drive (11.152/91, 15.044/09, 17.202/19, 17.577/21). Corpus: 28 leis indexadas, 2280 chunks, 3518 remissões.",
-    "Zona-base resolvida: 366/377 via GeoSampa SISZON. PCpt: 2078/2740 na prospecção.",
+    "T12 auditoria: 8/19 lacunas corrigidas — parcelamento Art.124§3 (L-T9-1), conjuntos PENDENTE (L-T11-1), PII probe (L-T7-1/4), runner pinado (L-T6-1). 4 asserts não-vácuos adicionados.",
+    "eval-produto 11/11 PASS (7 golden Fi×PCpt + T9 parcelamento + T9 não-vácuo + T11 conjuntos + T8 vedação). CI verde.",
+    "Corpus: 28 leis indexadas, 2280 chunks, 3518 remissões. Zona-base 366/377.",
     "IPTU: Lei 15.889/2013 ingerida verbatim; tabelas extraídas como CSV. Motor IPTU spec guardado (não construir sem 'vai').",
-    "20/20 evals + 8/8 eval-produto PASS. Gate verde."
+    "E1 investigado: 4291 vs 4292 é newline cosmético; recorte_q14.py/refazer_oficial.sh ainda não existem."
   ],
   "projetos": [
     {
@@ -24,8 +24,8 @@
       "frentes": [
         { "nome": "Motor do Mapa (zona por imóvel)", "calor": "warm", "prod": "366/377 zonas-base resolvidas via GeoSampa SISZON (Lei 18.177/2024) + Quadro 3 LPUOS. 10 sem lote no GeoSampa, 1 irresolvível (Praça/Canteiro). CAbás total: 3682/3693.",
           "ent": [["77 imóveis ZOE resolvidos (Quadro 2A)","feito"], ["366/377 ZEPEC resolvidos (GeoSampa SISZON)","feito"], ["gabarito Termo 006/2026: zona ZC confirmada","feito"], ["11 irresolvíveis restantes","block"]] },
-        { "nome": "Motor das Fórmulas (potencial construtivo)", "calor": "hot", "prod": "Cálculo PCpt = Atc x CAbás x Fi, escalonado pela lei. Fp engine pronto (Quadro 6). PCpt calculado: 3428/3693 no cedentes oficial; 2078/2740 na prospecção.",
-          "ent": [["engine lê tabelas da lei (fail-closed)","feito"], ["eval-produto ancorado na lei (7 faixas)","feito"], ["Fp engine (Quadro 6)","feito"], ["Fi declarado (acervo Termos)","block"], ["preço legal (Art.128)","block"]] },
+        { "nome": "Motor das Fórmulas (potencial construtivo)", "calor": "hot", "prod": "Cálculo PCpt = Atc x CAbás x Fi, escalonado pela lei. Fp engine pronto (Quadro 6). PCpt calculado: 3428/3693 no cedentes oficial; 2078/2740 na prospecção. eval-produto 11/11 (7 golden + 4 não-vácuos).",
+          "ent": [["engine lê tabelas da lei (fail-closed)","feito"], ["eval-produto ancorado na lei (7 faixas + 4 não-vácuos)","feito"], ["Fp engine (Quadro 6)","feito"], ["Fi declarado (acervo Termos)","block"], ["preço legal (Art.128)","block"]] },
         { "nome": "Motor da Lei (conteúdo jurídico)", "calor": "hot", "prod": "28 leis indexadas (2280 chunks), fatiadas por dispositivo, com vigência e citação obrigatória. Grafo: 3518 remissões.",
           "ent": [["TDC indexado e citável (5+ leis TDC)","feito"], ["grafo de remissões (3518 arestas)","feito"], ["+4 leis municipais ingeridas (11.152/15.044/17.202/17.577)","feito"], ["T8 guard vedação Art.124§2 (32 vedadas)","feito"]] },
         { "nome": "Motor Comercial (prospecção lado-vendedor)", "calor": "hot", "prod": "Lista de cedentes (só vendedores; comprador fora de escopo por decisão do dono).",
