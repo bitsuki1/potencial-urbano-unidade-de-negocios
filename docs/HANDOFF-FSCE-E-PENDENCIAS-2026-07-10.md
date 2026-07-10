@@ -19,18 +19,38 @@
   Default `False` → retrocompatível (não muda nada existente).
 - Gates provando: `evals/ground-truth/gabaritos/eval-formula-zepec.py` (4/4 reproduz o Diário Oficial) +
   `pcpt.py --demo` (autoteste FSCE) — ambos no CI e no `fechar-instancia.py`.
-- `scripts/preencher_cabas_do_wfs.py`: **gera a coluna `na_aiu_sce`** ('1' = dentro do perímetro AIU-SCE)
-  a partir de `zepec/oficial/zonas_377_geosampa.csv` (dado GeoSampa WFS) → escreve em `zona_base_cedente.csv`
-  e pode acrescentá-la a `zona_por_cedente.csv`.
+- `scripts/preencher_cabas_do_wfs.py`: **consome** a coluna `na_aiu_sce` do WFS (`zonas_377_geosampa.csv` local
+  ou `tools/geosampa/zonas_377.csv` do hub) — ele só LÊ `na_aiu_sce`, **não a produz**.
 
-**O que FALTA (o hook está DORMENTE — o engine sabe calcular, mas o pipeline nunca passa `setor_central=True`):**
+> ⚠️ **CORREÇÃO HONESTA (2026-07-10, tarde — auditada 2×) — o FSCE está bloqueado por DADO, não por código.**
+> O `zonas_377_geosampa.csv` resgatado **NÃO tem a coluna `na_aiu_sce`**. Mesmo ligando o gancho, `na_sce` sairia
+> falso para todos → **o FSCE nunca ativaria**.
+> **Ponto que corrigi (eu tinha errado antes):** o **coletor** da lógica `na_aiu_sce` **JÁ ESTÁ na main do hub**
+> (`portfolio-automacoes:tools/geosampa/siszon_probe.js`, mesclado via PR #18 — a branch `geosampa-sce` é
+> SUPERADA, não órfã). Ele calcula `na_aiu_sce` por `INTERSECTS(ge_poligono, POINT(x y))` contra
+> `geoportal:requalifica_centro_perimetro_geral` / `geoportal:perimetro_aiu` e emite o header
+> `sql_mestre,zona_v3,zona_18177,na_aiu_sce,status`. **O que falta NÃO é merge — é RODAR e VALIDAR.**
+
+**O que FALTA (na ordem certa — a ativação depende de DADO que ainda não existe):**
+
+0. **[DADO — pré-requisito, no HUB] Produzir e VALIDAR `na_aiu_sce`.**
+   - **Re-rodar** `.github/workflows/geosampa-siszon.yml` no runner `brasil` (hub) até um bulk limpo. O guard exige
+     **≥90% de sucesso (~357/377)** para commitar; runs throttled pelo IP do GeoSampa (Imperva) não gravam.
+     O `main:zonas_377.csv` de hoje tem dado bom (367 ok) mas **sem** a coluna — a única rodada que já a populou
+     (`ef69878`) foi **revertida** por um restore (PR #19) por ter sido throttled (só 306 ok). Precisa uma rodada
+     nova, completa, COM a coluna.
+   - **⚠️ VALIDAR a lógica SCE antes de confiar:** naquela única amostra populada, **288 de 306 lotes deram
+     `na_aiu_sce=1` (~94% "dentro do Setor Central")** — implausível (o perímetro requalifica_centro é pequeno).
+     Sugere que o `INTERSECTS` / a escolha da camada SCE está **over-inclusiva** (camada errada, projeção, ou POINT
+     em SRID trocado). **DoD do dado:** um eval com ~5 SQLs sabidamente FORA do Setor Central deve dar `na_aiu_sce=0`
+     antes de o dado alimentar o FSCE. Sem isso, o FSCE dobraria o PCpt de cedentes que não são do Setor Central.
+   - Trabalho no hub = governança do Escritório do MOU (D38/D120) — o PU propõe por branch/PR atribuído; a RODADA
+     do runner `brasil` é ação do dono/hub.
 
 1. **Popular `na_aiu_sce` no `zona_por_cedente.csv` de produção (377/377).**
-   - O `zona_por_cedente.csv` atual (main) tem 377/377 CAbás, mas **NÃO tem a coluna `na_aiu_sce`**.
-   - `preencher_cabas_do_wfs.py` gera essa coluna, mas foi escrito sobre a cobertura ANTERIOR (366) — precisa
-     **reconciliar**: reaplicar o `na_aiu_sce` (de `zonas_377_geosampa.csv`) por SQL sobre o CSV 377/377 atual,
-     SEM reverter a cobertura de CAbás nova. (Foi por isso que NÃO trouxemos o `zona_por_cedente.csv` da branch
-     órfã — ela tinha `na_aiu_sce` mas cobertura antiga.)
+   - Trazer o `zonas_377.csv` com `na_aiu_sce` do hub para `zepec/oficial/zonas_377_geosampa.csv` do PU.
+   - `preencher_cabas_do_wfs.py` já casa por SQL e faz o patch — reaplicar `na_aiu_sce` sobre o CSV 377/377 atual,
+     SEM reverter a cobertura de CAbás nova.
 
 2. **Ligar o gancho em `zepec/enriquecer_oficial.py`** (hoje NÃO tem FSCE). Receita EXATA (da branch órfã
    `project-analysis-pending-20wc81`, auditada e correta — o **filtro ZEPEC-BIR é obrigatório**):
@@ -55,9 +75,16 @@
 **DoD:** um cedente ZEPEC-BIR conhecido dentro da AIU-SCE (ex.: SQL 0010800016, gabarito Termo 006/2026 = 717,60 m²)
 sai da lista com `pcpt_m2 = 717,60` e memória citando `× FSCE(2.0) (Art. 57, Lei 17.844/2022)`.
 
-**Bloqueio real:** o dado de pertinência `na_aiu_sce` por cedente vem do **overlay do perímetro AIU-SCE** (GeoSampa
-WFS) — `zonas_377_geosampa.csv` traz isso para os 377 sob selo ZEPEC. Se algum cedente BIR estiver fora desses 377,
-precisa de nova coleta GeoSampa (roda no hub `portfolio-automacoes`, runner `brasil`).
+> **Enquadramento honesto do estado atual:** o mistério Fi≈2,4 está **explicado e provado NO ENGINE** (4/4 vs
+> Diário Oficial), mas **o PRODUTO ainda não reflete isso** — a lista de cedentes (`lista_prospeccao.csv`) segue
+> mostrando o PCpt SEM FSCE (pela metade) para os cedentes do Setor Central, porque a cadeia acima (dado→pipeline)
+> não está fechada. "Resolvido" = intelectual/engine; ainda NÃO = no entregável ao cliente.
+
+**Bloqueio real (corrigido):** o dado `na_aiu_sce` **NÃO existe ainda** (nenhuma branch do hub tem o CSV com a
+coluna populada e confiável). O **coletor JÁ está na main do hub** (`siszon_probe.js`, PR #18) — não é problema de
+merge. **Caminho:** re-rodar a coleta (`geosampa-siszon.yml`, runner `brasil`, guard ≥90%) + VALIDAR a lógica SCE
+(a amostra anterior deu 94% "dentro", implausível) → o `zonas_377.csv` com `na_aiu_sce` desce ao PU → itens 1–3.
+(Rodada do runner + governança do hub = ação do dono/Escritório, D38/D120; o PU propõe por branch/PR atribuído.)
 
 ---
 
@@ -83,6 +110,23 @@ precisa de nova coleta GeoSampa (roda no hub `portfolio-automacoes`, runner `bra
 
 ---
 
+## 2b. Branches do HUB `portfolio-automacoes` (auditadas 2026-07-10)
+
+> Honestidade: na 1ª passada eu declarei o hub "limpo" sem olhar — havia **23 branches** com commits únicos.
+> Auditei todas. Resultado: quase tudo já está na main do hub (foram squash-merges via PRs #6–#19), então são
+> **refs redundantes**, não conteúdo órfão.
+
+- **12 branches `geosampa-*`** (PU-relevantes — coleta GeoSampa/zona/CAbás/AIU-SCE): **TODAS SUPERADAS** (PRs #6–#19).
+  Incluindo `geosampa-sce` (a lógica `na_aiu_sce`, PR #18) → já na main. Refs deletáveis (nada se perde).
+- **10 de 11 branches de portfólio** (`cofre-*`, `drive-*`, `hub-*`, `instance-concurrency`): **SUPERADAS** (já na main).
+- **★ 1 exceção com conteúdo ÚNICO não-mesclado:** `claude/bitsuki-instance-setup-aabhm7` — adiciona a seção
+  **§4.1 do cofre (Gmail + Drive via MCP, conta do MOU)** ao `ACESSOS-FERRAMENTAS.md`. Isso é **território
+  ESCRITÓRIO/portfólio (governança do MOU, D38/D120)** — o PU **não mescla**. **Ação: relatar ao dono/Escritório**
+  para consolidar (ou descartar) essa seção do cofre.
+- Deleção dos refs do hub: mesmo bloqueio de 403 do PU (ação do dono via UI). O PU não tem mandato de escrita no hub.
+
+---
+
 ## 3. Decisões e ações que dependem do DONO
 
 1. **Deletar os 7 refs órfãos** (conteúdo 100% no main — nada se perde). O `git push --delete` da sessão dá
@@ -91,11 +135,14 @@ precisa de nova coleta GeoSampa (roda no hub `portfolio-automacoes`, runner `bra
    `claude/d164-caixafix-2026-07-08`, `claude/liberar-ferramentas`, `claude/opiniao-areas-escritorio`,
    `claude/pu-move-laudo-2026-07-08`, `claude/pu-regularizacao-2026-07-08`,
    `claude/project-analysis-pending-20wc81`, `claude/potential-urban-instance-jsgvth`. (Atualiza B-23.)
-2. **Ativar FSCE no pipeline** — ver §1 (precisa reconciliar `na_aiu_sce` sobre o `zona_por_cedente.csv` 377/377).
-3. **Política de CI (D168)** — a branch `claude/instance-concurrency-94pbeg` (NÃO deletar — tem conteúdo único
-   fora do main) propõe **`linter-estado` só no `push`** (tira o gatilho `pull_request`, −50% de runs de Actions,
-   mas deixa os PRs sem o linter). Decisão do dono: aplicar ou descartar. É o único conteúdo órfão restante que
-   é uma **mudança de política** (não um dado) — por isso ficou de fora do consolidado.
+2. **Ativar FSCE no pipeline** — ver §1/§0. Ação-chave: **re-rodar** a coleta GeoSampa no runner `brasil` (hub) e
+   **VALIDAR** a lógica SCE (a amostra anterior deu 94% "dentro", implausível) antes de o `na_aiu_sce` alimentar o FSCE.
+3. **Política de CI (D168)** — a branch **PU** `claude/instance-concurrency-94pbeg` (NÃO deletar — conteúdo único no
+   PU) propõe **`linter-estado` só no `push`** (−50% de runs de Actions, mas PRs sem linter). Decisão do dono.
+4. **[HUB] Seção §4.1 do cofre** — a branch `claude/bitsuki-instance-setup-aabhm7` (hub) tem conteúdo único não
+   mesclado (Gmail+Drive via MCP no `ACESSOS-FERRAMENTAS.md`). Governança do Escritório do MOU (D38/D120): o dono/
+   Escritório decide consolidar ou descartar. O PU não escreve no hub.
+5. **[HUB] Deletar os refs redundantes** das 22 branches superadas do hub (mesmo 403; via UI). Nada se perde.
 
 ---
 
