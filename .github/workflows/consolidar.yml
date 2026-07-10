@@ -72,8 +72,8 @@ jobs:
       - name: PII probe (T7)
         run: |
           SUJOS=$(git ls-files zepec/limpo zepec/oficial zepec/raw | while read f; do
-            head -1 "$f" 2>/dev/null | grep -qiE 'proprietario|contribuinte|documento|cpf|cnpj' && echo "$f"
-          done)
+            if head -1 "$f" 2>/dev/null | grep -qiE 'proprietario|contribuinte|documento|cpf|cnpj'; then echo "$f"; fi
+          done || true)
           if [ -n "$SUJOS" ]; then echo "PII tracked: $SUJOS"; exit 1; fi
 
       # GATES ANTES de publicar (achado B-13/F-6): se um gate reprovar, o build falha SEM ter
