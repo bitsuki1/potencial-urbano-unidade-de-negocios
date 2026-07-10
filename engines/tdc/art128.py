@@ -48,14 +48,65 @@ Uso:
 PU 18 · 2026-07-10.
 """
 import re
+import csv
 import argparse
+from pathlib import Path
 from decimal import Decimal, ROUND_HALF_UP
 
 LEI = "Lei Municipal SP nº 16.050/2014 (PDE)"
 DEC_ESQUINA = "Decreto Municipal SP nº 57.536/2016, Art. 3º, IV"   # regra da esquina (MAX Quadro 14)
 QUADRO14 = "Quadro 14 do PDE (Cadastro de Valor de Terreno para fins de Outorga Onerosa)"
+IPCA_FONTE = "IBGE/SIDRA tabela 1737 (IPCA número-índice) — tabelas/ipca-numero-indice-ibge.csv"
 Q2 = Decimal("0.01")
 CAMAXCD_VIA125 = Decimal("4")     # Art. 128 §1º — origem no Art. 125 (sem doação): CAmaxcd = 4 (fixo)
+TABELAS = Path(__file__).resolve().parents[2] / "tabelas"
+IPCA_CSV = TABELAS / "ipca-numero-indice-ibge.csv"
+
+
+def carregar_ipca(path=IPCA_CSV):
+    """{ 'AAAA-MM': Decimal(numero_indice) } lido de tabelas/ (1.1 — o engine lê a tabela, não a inventa).
+    Falha ALTO se o arquivo sumir/corromper (1.3 fail-closed)."""
+    if not Path(path).exists():
+        raise FileNotFoundError(f"série IPCA ausente: {path} (Art. 128 §2º — o engine lê a tabela, não a inventa)")
+    serie = {}
+    with open(path, encoding="utf-8") as f:
+        for row in csv.reader(f):
+            if not row or row[0].lstrip().startswith("#") or row[0].strip() == "mes":
+                continue
+            serie[row[0].strip()] = Decimal(row[1].strip())
+    if len(serie) < 2:
+        raise ValueError(f"série IPCA vazia/corrompida: {path}")
+    return serie
+
+
+def _mes_anterior(mes):
+    """'AAAA-MM' → mês imediatamente anterior."""
+    if not re.fullmatch(r"\d{4}-\d{2}", str(mes).strip()):
+        raise ValueError(f"mês inválido (use AAAA-MM): {mes!r}")
+    y, m = int(mes[:4]), int(mes[5:7])
+    m -= 1
+    if m == 0:
+        y, m = y - 1, 12
+    return f"{y:04d}-{m:02d}"
+
+
+def fator_ipca(mes_ref, mes_protocolo, serie=None):
+    """Art. 128 §2º — fator de correção do VTcd = índice[último mês ANTES do protocolo, se disponível]
+    ÷ índice[mês de referência]. Devolve (fator, mes_fim). Fail-closed se o mês de referência estiver
+    fora da série. Se o protocolo for no mesmo mês/antes da referência, fator = 1 (sem correção)."""
+    s = serie or carregar_ipca()
+    mr = str(mes_ref).strip()
+    if mr not in s:
+        raise ValueError(f"IPCA: mês de referência {mr} fora da série disponível (jan/2014–{max(s)})")
+    ultimo = max(s)                        # ordenação lexicográfica de 'AAAA-MM' = cronológica
+    fim = _mes_anterior(mes_protocolo)
+    if fim > ultimo:                       # §2º: "para o qual o IPCA estiver disponível"
+        fim = ultimo
+    if fim not in s:
+        raise ValueError(f"IPCA: mês-fim {fim} indisponível na série")
+    if fim <= mr:                          # protocolo ≤ referência → nada a corrigir
+        return Decimal("1"), fim
+    return (s[fim] / s[mr]), fim
 
 
 def _d(x, campo):
@@ -107,17 +158,24 @@ def corrigir_vtcd_ipca(vtcd, ipca_fator, ipca_fonte=None):
     return Vtc, nota
 
 
-def referencia_art128(pcpt, vtcd, via="125", ipca_fator=None, ipca_fonte=None, camaxcd=None, esquina=False):
+def referencia_art128(pcpt, vtcd, via="125", ipca_fator=None, ipca_fonte=None, camaxcd=None,
+                      esquina=False, mes_ref=None, mes_protocolo=None):
     """Valor de referência LEGAL do potencial do cedente (Art. 128). Entradas (1.3):
       pcpt   — potencial vendável (m²), saída do pcpt.py / saldo líquido;
       vtcd   — valor do m² do terreno cedente (Quadro 14), R$/m²;
       via    — '125' (sem doação, CAmaxcd=4 §1º) | '127' (com doação, CAmaxcd real);
-      ipca_fator — fator IPCA acumulado (§2º) ou None (prospecção → sem correção);
+      mes_ref/mes_protocolo — 'AAAA-MM' da Declaração e do protocolo da Certidão: se ambos vierem (e
+        ipca_fator não), o fator do §2º é CALCULADO da série IPCA (tabelas/ipca-numero-indice-ibge.csv);
+      ipca_fator — fator IPCA já pronto (§2º) — sobrepõe mes_ref/mes_protocolo; None+sem meses = prospecção;
       esquina — True se o VTcd já é o MAIOR do Quadro 14 da quadra (Decreto 57.536/2016 Art. 3º IV).
     Devolve OS DOIS números (numerador bruto e ÷CAmaxcd), o memorial auditável e a citação."""
     P = _pos(_d(pcpt, "pcpt"), "pcpt")                    # m²
     Vt = _pos(_d(vtcd, "vtcd"), "vtcd")                   # R$/m² (Quadro 14, face)
     ca, ca_disp = _camaxcd(via, camaxcd)
+    # §2º — se o chamador deu as datas (e não um fator pronto), calcula o fator da série IPCA.
+    if ipca_fator is None and mes_ref and mes_protocolo:
+        ipca_fator, mes_fim = fator_ipca(mes_ref, mes_protocolo)
+        ipca_fonte = f"{IPCA_FONTE}: índice[{mes_fim}] ÷ índice[{mes_ref}]"
     Vtc, ipca_nota = corrigir_vtcd_ipca(Vt, ipca_fator, ipca_fonte)
 
     numerador = (P * Vtc).quantize(Q2, ROUND_HALF_UP)     # R$ — Art. 128 caput (numerador)
@@ -171,6 +229,22 @@ def _autoteste():
     assert ri["vtcd_corrigido_m2"] == "3300.00", ri
     assert ri["numerador_brl"] == "3300000.00" and ri["referencia_brl"] == "825000.00", ri
     assert "§2º" in ri["citacao"]["dispositivo"], ri
+
+    # §2º IPCA da TABELA real (IBGE/SIDRA 1737): fator = índice[mês ANTES do protocolo] ÷ índice[mês ref].
+    serie = carregar_ipca()
+    f, fim = fator_ipca("2020-01", "2026-07", serie=serie)   # protocolo jul/26 → fim jun/26 (disponível)
+    assert fim == "2026-06" and f == serie["2026-06"] / serie["2020-01"], (f, fim)
+    f2, fim2 = fator_ipca("2020-01", "2030-01", serie=serie)  # protocolo à frente → clampa ao último disponível
+    assert fim2 == max(serie), fim2
+    f3, _ = fator_ipca("2025-06", "2025-06", serie=serie)     # protocolo ≤ referência → sem correção (fator 1)
+    assert f3 == Decimal("1"), f3
+    rd = referencia_art128("1000", "3000", mes_ref="2020-01", mes_protocolo="2026-07")  # datas → fator sozinho
+    vtc_esp = (Decimal("3000") * (serie["2026-06"] / serie["2020-01"])).quantize(Q2, ROUND_HALF_UP)
+    assert rd["vtcd_corrigido_m2"] == str(vtc_esp), rd
+    try:                                                       # mês de referência fora da série → fail-closed
+        fator_ipca("2010-01", "2020-01", serie=serie); raise AssertionError("deveria rejeitar mês fora da série")
+    except ValueError:
+        pass
 
     # via 127 (com doação): CAmaxcd real (=2) entra na conta; N igual, VR=N/2.
     r7 = referencia_art128("1000", "3000", via="127", camaxcd="2")
@@ -231,3 +305,8 @@ if __name__ == "__main__":
     print(f"\n  → Referência que INDEPENDE do comprador (Cr cancela): R$ {ref['referencia_brl']}")
     print(f"  → Numerador bruto (potencial × terreno):              R$ {ref['numerador_brl']}")
     print("  (Preço LEGAL de referência — a MARGEM é do usuário; este engine não define preço de venda.)")
+
+    print("\n  Variante JÁ-DECLARADO (§2º IPCA — Declaração de jan/2020, Certidão protocolada em jul/2026):")
+    refi = referencia_art128(str(pcpt_m2), "2819,20", mes_ref="2020-01", mes_protocolo="2026-07")
+    print(f"     VTcd corrigido: R$ 2.819,20 → R$ {refi['vtcd_corrigido_m2']}/m²  (IPCA índice jun/26 ÷ jan/20, IBGE/SIDRA 1737)")
+    print(f"     Referência (÷4): R$ {refi['referencia_brl']}    |    Numerador: R$ {refi['numerador_brl']}")

@@ -1,6 +1,6 @@
 {
   "_doc": "Fonte da verdade do status_pipeline de cada item. GERADO por scripts/consolidar.py a partir dos .json individuais — NAO editar a mao (Principio 1.5/2.3 do CLAUDE.md). Roda a cada push via .github/workflows/consolidar.yml.",
-  "gerado_em": "2026-07-10T21:40:37.641042+00:00",
+  "gerado_em": "2026-07-10T21:55:53.879777+00:00",
   "vocabulario_status": [
     "bruto",
     "fatiado",
@@ -57,8 +57,8 @@
       "status": "engine OODC/TDC executável (engines/tdc/oodc.py); demais são prosa/conhecimento"
     },
     "tabelas": {
-      "arquivos": 15,
-      "status": "15 tabela(s) no git (Q14 valor-terreno, Quadro 3 CA/zona, Quadro 5 Fs, Quadro 7 parques, Fi-área LPUOS Art.24) — combustível do engine PRESENTE; derivado dos arquivos, não hardcoded"
+      "arquivos": 16,
+      "status": "16 tabela(s) no git (Q14 valor-terreno, Quadro 3 CA/zona, Quadro 5 Fs, Quadro 7 parques, Fi-área LPUOS Art.24) — combustível do engine PRESENTE; derivado dos arquivos, não hardcoded"
     },
     "tese_iptu": {
       "arquivos": 0,
@@ -85,6 +85,12 @@
       "sha256": "sha256:1c11904bb559a323242a212b83db2f102568e7ae5d0a6c392936193a3813cb41",
       "data_base": "2016-07-01",
       "fonte_legal": "LPUOS Lei 16.402/2016, Art. 24 (incisos I-VII)"
+    },
+    {
+      "arquivo": "tabelas/ipca-numero-indice-ibge.csv",
+      "sha256": "sha256:323d73edb229acdb99b4f129f3305932e3b96d51e9c0eb5ea38ad7aef073ce4a",
+      "data_base": "2026-06-01",
+      "fonte_legal": "IBGE/SIDRA tabela 1737 (IPCA numero-indice, base dez/1993=100) — insumo da correcao do Art. 128 §2º (PDE)"
     },
     {
       "arquivo": "tabelas/iptu-aliquota-base.csv",

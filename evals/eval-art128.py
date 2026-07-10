@@ -117,9 +117,24 @@ def contexto_fundurb(refs):
           "o FUNDURB é agregado por processo). Banda = sanidade de ordem de grandeza, não igualdade.")
 
 
+def gate_ipca():
+    """(1b) §2º — a correção do VTcd bate a série IBGE/SIDRA 1737 (âncora do dono: jun/26÷jan/20 ≈ 1,4353)."""
+    falhas = []
+    serie = art128.carregar_ipca()
+    f, fim = art128.fator_ipca("2020-01", "2026-07", serie=serie)   # protocolo jul/26 → fim jun/26
+    if fim != "2026-06":
+        falhas.append(f"§2º mês-fim: {fim} ≠ 2026-06 (mês anterior ao protocolo, disponível)")
+    if f != serie["2026-06"] / serie["2020-01"]:
+        falhas.append("§2º fator ≠ índice[2026-06]÷índice[2020-01]")
+    if abs(f - Decimal("1.4353")) > Decimal("0.001"):
+        falhas.append(f"§2º fator {f} fora da âncora IBGE ~1,4353")
+    return falhas, f
+
+
 def main():
     print("═══ PROVA art128 (preço legal, Art. 128 PDE) ═══")
     falhas1 = gate_ancora_verbatim()
+    falhas1b, fipca = gate_ipca()
     falhas2, n_ok, refs = gate_identidade_reais()
 
     if falhas1:
@@ -128,6 +143,13 @@ def main():
             print("   -", f)
     else:
         print("[PASS] âncora VERBATIM: numerador, ÷CAmaxcd(§1º=4) e §2º IPCA reproduzem o Art. 128 (mutação-sensível).")
+
+    if falhas1b:
+        print("[FALHA] §2º IPCA (série IBGE/SIDRA 1737):")
+        for f in falhas1b:
+            print("   -", f)
+    else:
+        print(f"[PASS] §2º IPCA: correção da série IBGE/SIDRA 1737 confere (jun/2026÷jan/2020 = {fipca:.4f} ≈ 1,4353).")
 
     if falhas2:
         print("[FALHA] identidade em dados reais:")
@@ -139,10 +161,10 @@ def main():
 
     contexto_fundurb(refs)
 
-    if falhas1 or falhas2:
-        print(f"\nRESUMO: FALHA ({len(falhas1)+len(falhas2)} problema(s)).")
+    if falhas1 or falhas1b or falhas2:
+        print(f"\nRESUMO: FALHA ({len(falhas1)+len(falhas1b)+len(falhas2)} problema(s)).")
         return 1
-    print(f"\nRESUMO: OK — Art. 128 provado verbatim + {n_ok} cedentes reais; FUNDURB como banda de sanidade.")
+    print(f"\nRESUMO: OK — Art. 128 provado verbatim + §2º IPCA (série IBGE) + {n_ok} cedentes reais; FUNDURB como banda.")
     return 0
 
 

@@ -65,6 +65,11 @@
       "data_base": "1991-12-30",
       "fonte_legal": "Lei 10.235/1986, Tabelas II e III na redacao da Lei 11.152/1991 (+ item ZER pela 15.889/2013)",
       "nota": "Esquina (Art. 7) e diversos (Art. 8: encravado/fundo/interno). Tabela I (profundidade) NAO extraida - lookup longo; engine recebe o fator (pendencia declarada)."
+    },
+    "ipca-numero-indice-ibge.csv": {
+      "data_base": "2026-06-01",
+      "fonte_legal": "IBGE/SIDRA tabela 1737 (IPCA numero-indice, base dez/1993=100) — insumo da correcao do Art. 128 §2º (PDE)",
+      "nota": "Serie mensal jan/2014 a jun/2026 (ultimo divulgado em 10/07/2026). Capturada via API do SIDRA pelo dono. Lida por engines/tdc/art128.py (fator = indice[mes antes do protocolo] / indice[mes de referencia])."
     }
   }
 }
