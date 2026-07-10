@@ -2,6 +2,8 @@ name: gemini-smoke
 # Teste de fumaça de uso único (PU 18, 2026-07-10): confirma que o segredo GEMINI_API_KEY
 # está anexado a ESTE repo e que a API de embeddings responde. Não commita nada. Manual.
 on:
+  push:
+    paths: ['.github/workflows/gemini-smoke.yml']  # roda só quando este arquivo muda (uso único)
   workflow_dispatch: {}
 jobs:
   smoke:
