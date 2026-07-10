@@ -20,7 +20,9 @@
   ],
   "vigencia": {
     "em_vigor": true,
-    "observacao": "Vigente; valores e tabelas atualizados por leis posteriores (cadeia PGV)."
+    "observacao": "Vigente; valores e tabelas atualizados por leis posteriores (cadeia PGV).",
+    "inicio": "1986-12-16",
+    "obs": "inicio = data da lei (proxy da publicação, convenção do corpus); cláusula verbatim: Art. 25. Esta Lei entrará em vigor na data de sua publicação, produzindo afeitos a partir de 1º de janeiro de 1987, revogadas as disposições em contrário, especialmente os artigos 8º e parágrafos,16 e parágrafos, 28 e pa"
   },
   "remissoes": [
     {
@@ -69,16 +71,16 @@
   ],
   "fonte": {
     "origem": "web-oficial",
-    "url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-10235-de-16-de-dezembro-de-1986",
-    "hash": "sha256:c25bef9165e438da136f9b46d95d0a9c45d5484a911f783f391f6606bf651306",
+    "url": "https://legislacao.prefeitura.sp.gov.br/lei-10235-de-16-de-dezembro-de-1986",
+    "hash": "sha256:4564f489d7cd2af46566b4d6e7a7fda0da61112597f1399af4bdd01647e9b33e",
     "ocr": false,
-    "metodo": "WebSearch (nao-verbatim; WebFetch/curl bloqueados HTTP 403)",
-    "obs": "texto nao-verbatim; capturado via WebSearch por bloqueio de WebFetch/curl (HTTP 403).",
-    "hash_alvo": "leis/municipal-sp/lei-municipal-saopaulo-10235-1986.md",
-    "hash_nota": "hash da transcrição do corpus (.md) — cru ausente localmente (B-4/B-9); trocar pelo hash do cru quando ele chegar"
+    "metodo": "VERBATIM INTEGRAL (portal oficial, texto compilado); captura 2026-07-10 (texto COMPILADO do Catálogo de Legislação Municipal, HTTPS direto); promovido de _entrada/misto/",
+    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior.",
+    "hash_alvo": "_entrada/misto/lei-municipal-saopaulo-10235-1986.txt",
+    "path": "_entrada/misto/lei-municipal-saopaulo-10235-1986.txt"
   },
-  "status_pipeline": "bruto",
-  "confianca_extracao": "baixa",
+  "status_pipeline": "indexado",
+  "confianca_extracao": "alta",
   "revisado_por_humano": false,
   "dominio_primario": "iptu",
   "dominio": [

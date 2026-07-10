@@ -1,0 +1,43 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-10365-1987::003-art-2o",
+  "lei_id": "lei-municipal-saopaulo-10365-1987",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 2º",
+  "numero": "2",
+  "header_raw": "Art. 2º - Considera-se vegetação de porte arbóreo aquela composta por espécime ou espécimes vegetais lenhosos, com Diâmetro do Caule à Altura do Peito - DAP superior a 0,05 (cinco centímetros).(Revogado pela Lei nº 17.794/2022)",
+  "caminho_hierarquico": [
+    "Capítulo I",
+    "Art. 2º"
+  ],
+  "texto": "Art. 2º - Considera-se vegetação de porte arbóreo aquela composta por espécime ou espécimes vegetais lenhosos, com Diâmetro do Caule à Altura do Peito - DAP superior a 0,05 (cinco centímetros).(Revogado pela Lei nº 17.794/2022)\n\nParágrafo único - Diâmetro à Altura do Peito - DAP é o diâmetro do caule da árvore à altura de aproximadamente 1,30 m (um metro e trinta centímetros) do solo.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 10.365/1987 — São Paulo/SP",
+    "dispositivo": "Capítulo I › Art. 2º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-10365-de-22-de-setembro-de-1987",
+    "vigencia": {
+      "em_vigor": true,
+      "observacao": "Vigente; alterada pela Lei 17.267/2020 (e relaciona-se com a Lei 10.919/1990).",
+      "inicio": "1987-09-22",
+      "obs": "inicio = data da lei (proxy da publicação, convenção do corpus); cláusula verbatim: Art. 27 - Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário."
+    }
+  },
+  "tema": [
+    "vegetacao",
+    "APP",
+    "meio_ambiente"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Disciplina o corte e a poda de vegetação de porte arbóreo existente no Município de São Paulo e dá outras providências."
+}

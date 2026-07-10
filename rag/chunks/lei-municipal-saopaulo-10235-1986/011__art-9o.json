@@ -1,0 +1,42 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-10235-1986::011-art-9o",
+  "lei_id": "lei-municipal-saopaulo-10235-1986",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 9º",
+  "numero": "9",
+  "header_raw": "Art. 9º Para os efeitos do disposto nesta Lei, consideram-se:",
+  "caminho_hierarquico": [
+    "Art. 9º"
+  ],
+  "texto": "Art. 9º Para os efeitos do disposto nesta Lei, consideram-se:\n\nI – excesso de área ou área de terreno não incorporada, aquela que exceder a 3 (três) vezes a área ocupada pelas edificações, no caso de imóvel situado na primeira subdivisão da zona urbana; 5 (cinco) vezes, na segunda subdivisão da zona urbana, e 10 (dez) vezes, além do perímetro desta última;\n\nII – terreno de esquina, aquele em que os prolongamentos de seus alinhamentos, quando retos, ou das respectivas tangentes, quando curvos, determinam ângulos internos inferiores a 135° (cento e trinta e cinco graus) e superiores a 45° (quarenta e cinco graus);\n\nIII – terreno de 2 (duas) ou mais frentes, aquele que possui mais de uma testada para logradouros públicos, sem estar localizado na sua confluência;\n\nIV – terreno encravado, aquele que não se comunica com a via pública, exceto por servidão de passagem por outro imóvel;\n\nV – terreno de fundo, aquele que, situado no interior da quadra, se comunica com a via pública por um corredor de acesso com largura igual ou inferior a 4m (quatro metros);\n\nVI – terreno interno, aquele localizado em vila, passagem, travessa ou local assemelhado, acessório da malha viária do Município ou de propriedade de particulares, não relacionado na Listagem de Valores, integrante desta Lei.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 10.235/1986 — São Paulo/SP",
+    "dispositivo": "Art. 9º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-10235-de-16-de-dezembro-de-1986",
+    "vigencia": {
+      "em_vigor": true,
+      "observacao": "Vigente; valores e tabelas atualizados por leis posteriores (cadeia PGV).",
+      "inicio": "1986-12-16",
+      "obs": "inicio = data da lei (proxy da publicação, convenção do corpus); cláusula verbatim: Art. 25. Esta Lei entrará em vigor na data de sua publicação, produzindo afeitos a partir de 1º de janeiro de 1987, revogadas as disposições em contrário, especialmente os artigos 8º e parágrafos,16 e parágrafos, 28 e pa"
+    }
+  },
+  "tema": [
+    "PGV",
+    "valor_venal",
+    "calculo"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a forma de apuração do valor venal de imóveis, para efeito de lançamento dos Impostos sobre a Propriedade Predial e Territorial Urbana, concede descontos sobre os valores venais dos imóveis sujeitos à incidência desses impostos no exercício de 1987, e dá outras providências."
+}

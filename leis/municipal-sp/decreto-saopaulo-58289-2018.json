@@ -1,0 +1,59 @@
+{
+  "id": "decreto-saopaulo-58289-2018",
+  "tipo_norma": "decreto municipal",
+  "esfera": "municipal",
+  "jurisdicao": "São Paulo/SP",
+  "numero": "58.289",
+  "ano": 2018,
+  "ementa": "Confere nova regulamentação à Transferência do Direito de Construir com Doação de Imóvel, nos termos dos artigos 123, 126, 127, 128, 130 e 131 da Lei nº 16.050, de 31 de julho de 2014 – Plano Diretor Estratégico – PDE; revoga o Decreto nº 57.535, de 15 de dezembro de 2016.",
+  "tema": [
+    "transferencia_do_direito_de_construir",
+    "doacao_de_imovel",
+    "potencial_construtivo",
+    "desapropriacao_amigavel",
+    "declaracao_de_potencial_construtivo"
+  ],
+  "dispositivos_chave": [
+    "Art. 1: regulamenta a TDC com doação de imóvel / desapropriação amigável (arts. 123 e 126 do PDE)",
+    "Art. 26: vigência na data de publicação; revoga o Decreto 57.535/2016"
+  ],
+  "vigencia": {
+    "inicio": "2018-06-26",
+    "fim": null,
+    "revogada_por": null,
+    "altera": [],
+    "alterada_por": [],
+    "revoga": [
+      "Decreto 57.535/2016"
+    ]
+  },
+  "remissoes": [
+    "Lei 16.050/2014 (PDE) arts. 123, 126, 127, 128, 130, 131",
+    "Decreto 57.535/2016 (revogado por este)",
+    "Decreto 57.536/2016 (regulamenta a TDC SEM doação — par deste decreto)"
+  ],
+  "jurisprudencia_relacionada": [],
+  "tem_tabela": false,
+  "tabelas_extraidas": [],
+  "tem_formula": true,
+  "formulas_referenciadas": [
+    "engines/tdc/pcpt.py (via com_doacao — Fi por finalidade, Art. 127 PDE)"
+  ],
+  "fonte": {
+    "origem": "web-oficial",
+    "url": "https://legislacao.prefeitura.sp.gov.br/decreto-58289-de-26-de-junho-de-2018",
+    "path": "_entrada/misto/decreto-saopaulo-58289-2018.txt",
+    "ocr": false,
+    "metodo": "VERBATIM INTEGRAL (portal oficial, texto compilado); captura 2026-07-10 (texto COMPILADO do Catálogo de Legislação Municipal, HTTPS direto); promovido de _entrada/misto/",
+    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior.",
+    "hash": "sha256:a70ee943b056a13c3eba685e65253100b0385f443d1702f681a2ff0fe14c926c",
+    "hash_alvo": "_entrada/misto/decreto-saopaulo-58289-2018.txt"
+  },
+  "status_pipeline": "indexado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "dominio_primario": "tdc",
+  "dominio": [
+    "tdc"
+  ]
+}

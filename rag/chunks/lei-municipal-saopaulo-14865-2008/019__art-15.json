@@ -1,0 +1,44 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-14865-2008::019-art-15",
+  "lei_id": "lei-municipal-saopaulo-14865-2008",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 15",
+  "numero": "15",
+  "header_raw": "Art. 15. Ficam revogados:",
+  "caminho_hierarquico": [
+    "CAPÍTULO VI",
+    "Art. 15"
+  ],
+  "texto": "Art. 15. Ficam revogados:\n\nI - as Leis nº 9.273, de 10 de junho de 1981, nº 10.816, de 28 de dezembro de 1989, e nº 12.666, de 22 de maio de 1998;\n\nII - o art. 25 da Lei nº 13.476, de 30 de dezembro de 2002, com as alterações introduzidas pela Lei nº 13.701, de 24 de dezembro de 2003;\n\nIII - o § 9º do art. 9º da Lei nº 13.701, de 24 de dezembro de 2003, acrescido pela Lei nº 14.042, de 30 de agosto de 2005, os incisos V e VI do \"caput\" do art. 10 e o inciso I do \"caput\" do art. 15, ambos da Lei nº 13.701, de 2003;\n\nIV - o art. 9º da Lei nº 14.107, de 12 de dezembro de 2005.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 14.865/2008 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO VI › Art. 15",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-14865-de-29-de-dezembro-de-2008",
+    "vigencia": {
+      "em_vigor": true,
+      "observacao": "Vigente (beneficio com termo final 31/12/2030 para a hipotese ZEIS/CDHU). Confirmar alteracoes posteriores.",
+      "inicio": "2008-12-29",
+      "obs": "inicio = data da lei (proxy da publicação, convenção do corpus); cláusula verbatim: Art. 16. Esta lei entrará em vigor na data de sua publicação."
+    }
+  },
+  "tema": [
+    "habitacional_popular",
+    "HIS",
+    "ZEIS",
+    "isencao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Concede isenção do Imposto Predial e Territorial Urbano (IPTU) em condições específicas (inclusive habitação de interesse social / ZEIS), altera dispositivos de leis tributárias e dá outras providências."
+}

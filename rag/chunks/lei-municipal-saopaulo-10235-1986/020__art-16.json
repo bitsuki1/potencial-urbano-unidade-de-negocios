@@ -1,0 +1,42 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-10235-1986::020-art-16",
+  "lei_id": "lei-municipal-saopaulo-10235-1986",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 16",
+  "numero": "16",
+  "header_raw": "Art. 16. A idade de cada prédio, para aplicação do fator de obsolescência de que trata a Tabela IV, corresponderá à diferença entre o exercício a que se refere o lançamento tributário e o ano do término da construção ou, quando anterior, o de sua efetiva ocupação.",
+  "caminho_hierarquico": [
+    "Art. 16"
+  ],
+  "texto": "Art. 16. A idade de cada prédio, para aplicação do fator de obsolescência de que trata a Tabela IV, corresponderá à diferença entre o exercício a que se refere o lançamento tributário e o ano do término da construção ou, quando anterior, o de sua efetiva ocupação.\n\n§ 1º A idade de cada prédio será:\n\nI – reduzida de 20% (vinte por cento), nos casos de pequena reforma ou reforma parcial;\n\nII – contada a partir do ano da conclusão da reforma, quando esta for substancial.\n\n§ 2º Será adotada a média das unidades apuradas, ponderada de acordo com as respectivas áreas, nos casos:\n\nI – de ampliação da área construída;\n\nII – de reconstrução parcial;\n\nIII – de lançamento tributário que abranja 2 (dois) ou mais prédios, concluídos em exercícios diversos.\n\n§ 3º No cálculo da média ponderada, a que se refere o parágrafo anterior, serão consideradas as eventuais alterações na idade dos prédios, resultantes da ocorrência de reformas, na forma do § 1º.\n\n§ 4º Quando o acréscimo de área edificada resultar de construção de abrigo para veículos ou de piscina, não será alterada a idade do prédio.\n\n§ 5º No resultado do cálculo da idade da edificação será desprezada a fração de ano.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 10.235/1986 — São Paulo/SP",
+    "dispositivo": "Art. 16",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-10235-de-16-de-dezembro-de-1986",
+    "vigencia": {
+      "em_vigor": true,
+      "observacao": "Vigente; valores e tabelas atualizados por leis posteriores (cadeia PGV).",
+      "inicio": "1986-12-16",
+      "obs": "inicio = data da lei (proxy da publicação, convenção do corpus); cláusula verbatim: Art. 25. Esta Lei entrará em vigor na data de sua publicação, produzindo afeitos a partir de 1º de janeiro de 1987, revogadas as disposições em contrário, especialmente os artigos 8º e parágrafos,16 e parágrafos, 28 e pa"
+    }
+  },
+  "tema": [
+    "PGV",
+    "valor_venal",
+    "calculo"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a forma de apuração do valor venal de imóveis, para efeito de lançamento dos Impostos sobre a Propriedade Predial e Territorial Urbana, concede descontos sobre os valores venais dos imóveis sujeitos à incidência desses impostos no exercício de 1987, e dá outras providências."
+}

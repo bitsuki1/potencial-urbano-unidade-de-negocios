@@ -1,0 +1,60 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-6989-1966::210-art-105",
+  "lei_id": "lei-municipal-saopaulo-6989-1966",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 105",
+  "numero": "105",
+  "header_raw": "Art. 105 - A responsabilidade de cada um dos proprietários, titulares de domínio útil ou possuidores de imóveis marginais as vias pavimentadas, será proporcional à extensão linear da testada do terreno sobre a via beneficiada, sem prejuízo das correções determinadas por esta Lei.(Revogado pela Lei nº 8.505/1976)",
+  "caminho_hierarquico": [
+    "TITULO II",
+    "CAPITULO III",
+    "SEÇÃO II",
+    "Art. 105"
+  ],
+  "texto": "Art. 105 - A responsabilidade de cada um dos proprietários, titulares de domínio útil ou possuidores de imóveis marginais as vias pavimentadas, será proporcional à extensão linear da testada do terreno sobre a via beneficiada, sem prejuízo das correções determinadas por esta Lei.(Revogado pela Lei nº 8.505/1976)\n\n§ 1º - A quota correspondente a lote de profundidade media igual ou superior a 20,00 metros será reduzida de 20% (vinte por cento).\n\n§ 2º - A quota correspondente a lote de profundidade media igual ou inferior a 10,00 metros será reduzida de 50% (cinqüenta por cento).\n\n§ 3º - A profundidade média é o quociente da área pela testada considerada.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 6.989/1966 — São Paulo/SP",
+    "dispositivo": "TITULO II › CAPITULO III › SEÇÃO II › Art. 105",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-6989-de-29-de-dezembro-de-1966",
+    "vigencia": {
+      "inicio": "1967-01-01",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 10.394/1987",
+        "Lei 10.805/1989",
+        "Lei 10.921/1990",
+        "Lei 11.152/1991",
+        "Lei 11.334/1992",
+        "Lei 12.782/1998",
+        "Lei 13.250/2001",
+        "Lei 15.889/2013"
+      ],
+      "obs": "texto COMPILADO do portal oficial, com anotações de alteração por dispositivo; lista alterada_por = anotações verificadas no texto (não exaustiva)"
+    }
+  },
+  "tema": [
+    "sistema_tributario_municipal",
+    "imposto_predial",
+    "imposto_territorial_urbano",
+    "valor_venal",
+    "aliquota_progressiva",
+    "fato_gerador",
+    "isencao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o sistema tributário do Município e da outras providências."
+}

@@ -1,0 +1,42 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-10235-1986::024-art-18-a",
+  "lei_id": "lei-municipal-saopaulo-10235-1986",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 18-A",
+  "numero": "18-A",
+  "header_raw": "Art. 18-A. Para fins de transparência, a Prefeitura disponibilizará mensalmente os dados abaixo, relativamente às transações imobiliárias tributadas pelo ITBI nos últimos 5 (cinco) anos:(Incluído pela Lei nº 18.161/2024)",
+  "caminho_hierarquico": [
+    "Art. 18-A"
+  ],
+  "texto": "Art. 18-A. Para fins de transparência, a Prefeitura disponibilizará mensalmente os dados abaixo, relativamente às transações imobiliárias tributadas pelo ITBI nos últimos 5 (cinco) anos:(Incluído pela Lei nº 18.161/2024)\n\nI – identificação dos imóveis transacionados;(Incluído pela Lei nº 18.161/2024)\n\nII – o valor declarado pelo contribuinte;(Incluído pela Lei nº 18.161/2024)\n\nIII – o valor venal de referência ou valor inicialmente estimado pela Prefeitura; e(Incluído pela Lei nº 18.161/2024)\n\nIV – a data e a natureza da transação.(Incluído pela Lei nº 18.161/2024)\n\n§ 1º Os dados referidos nos incisos I a IV deste artigo devem conter, no mínimo, informações sobre a localização exata do imóvel, organizados por número de cadastro (SQL), matrícula, cartório de registro e endereço completo, incluindo logradouro, bairro, numeração e complemento do imóvel, quando aplicável.(Incluído pela Lei nº 18.161/2024)\n\n§ 2º Os dados referidos nos incisos I a IV deste artigo serão disponibilizados na rede mundial de computadores, para consulta geral dos interessados, sem a identificação, seja por nome, seja por número de documento, dos compradores e vendedores.(Incluído pela Lei nº 18.161/2024)\n\n§ 3º O disposto no caput deste artigo não se aplica para:(Incluído pela Lei nº 18.161/2024)\n\nI – transações imobiliárias cujo ITBI tenha sido incluído em programa de parcelamento ou de regularização de débitos; e(Incluído pela Lei nº 18.161/2024)\n\nII – transações imobiliárias cujo ITBI tenha sido constituído mediante Auto de Infração e Intimação.(Incluído pela Lei nº 18.161/2024)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 10.235/1986 — São Paulo/SP",
+    "dispositivo": "Art. 18-A",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-10235-de-16-de-dezembro-de-1986",
+    "vigencia": {
+      "em_vigor": true,
+      "observacao": "Vigente; valores e tabelas atualizados por leis posteriores (cadeia PGV).",
+      "inicio": "1986-12-16",
+      "obs": "inicio = data da lei (proxy da publicação, convenção do corpus); cláusula verbatim: Art. 25. Esta Lei entrará em vigor na data de sua publicação, produzindo afeitos a partir de 1º de janeiro de 1987, revogadas as disposições em contrário, especialmente os artigos 8º e parágrafos,16 e parágrafos, 28 e pa"
+    }
+  },
+  "tema": [
+    "PGV",
+    "valor_venal",
+    "calculo"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a forma de apuração do valor venal de imóveis, para efeito de lançamento dos Impostos sobre a Propriedade Predial e Territorial Urbana, concede descontos sobre os valores venais dos imóveis sujeitos à incidência desses impostos no exercício de 1987, e dá outras providências."
+}

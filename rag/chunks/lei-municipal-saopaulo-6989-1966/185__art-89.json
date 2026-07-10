@@ -1,0 +1,60 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-6989-1966::185-art-89",
+  "lei_id": "lei-municipal-saopaulo-6989-1966",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 89",
+  "numero": "89",
+  "header_raw": "Art. 89 - A taxa será devida a partir do primeiro dia do trimestre em que se der o inicio do efetivo funcionamento de qualquer das atividades municipais a que se refere o artigo 86.",
+  "caminho_hierarquico": [
+    "TITULO II",
+    "CAPITULO I",
+    "SEÇÃO IV",
+    "Art. 89"
+  ],
+  "texto": "Art. 89 - A taxa será devida a partir do primeiro dia do trimestre em que se der o inicio do efetivo funcionamento de qualquer das atividades municipais a que se refere o artigo 86.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 6.989/1966 — São Paulo/SP",
+    "dispositivo": "TITULO II › CAPITULO I › SEÇÃO IV › Art. 89",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-6989-de-29-de-dezembro-de-1966",
+    "vigencia": {
+      "inicio": "1967-01-01",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 10.394/1987",
+        "Lei 10.805/1989",
+        "Lei 10.921/1990",
+        "Lei 11.152/1991",
+        "Lei 11.334/1992",
+        "Lei 12.782/1998",
+        "Lei 13.250/2001",
+        "Lei 15.889/2013"
+      ],
+      "obs": "texto COMPILADO do portal oficial, com anotações de alteração por dispositivo; lista alterada_por = anotações verificadas no texto (não exaustiva)"
+    }
+  },
+  "tema": [
+    "sistema_tributario_municipal",
+    "imposto_predial",
+    "imposto_territorial_urbano",
+    "valor_venal",
+    "aliquota_progressiva",
+    "fato_gerador",
+    "isencao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o sistema tributário do Município e da outras providências."
+}

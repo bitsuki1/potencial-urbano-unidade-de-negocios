@@ -19,7 +19,9 @@
   ],
   "vigencia": {
     "em_vigor": true,
-    "observacao": "Vigente como ajuste da cadeia de progressividade; objeto de discussao judicial sobre aumento de carga em 2002."
+    "observacao": "Vigente como ajuste da cadeia de progressividade; objeto de discussao judicial sobre aumento de carga em 2002.",
+    "inicio": "2002-12-30",
+    "obs": "inicio = data da lei (proxy da publicação, convenção do corpus); cláusula verbatim: Art. 6º - Esta lei entrará em vigor na data de sua publicação, produzindo efeitos a partir de 1º de janeiro de 2003."
   },
   "remissoes": [
     {
@@ -46,16 +48,16 @@
   ],
   "fonte": {
     "origem": "web-oficial",
-    "url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-13475-de-30-de-dezembro-de-2002",
-    "hash": "sha256:0861e6fcf5486739ef94b059b4cedc47b2738b229e8f9dd06900b2df074ee608",
+    "url": "https://legislacao.prefeitura.sp.gov.br/lei-13475-de-30-de-dezembro-de-2002",
+    "hash": "sha256:c0fc45bdc578bc6e9ac48b84d4329f7cc8d6c816857d7a21d0a297d421040a87",
     "ocr": false,
-    "metodo": "WebSearch (nao-verbatim; WebFetch/curl bloqueados HTTP 403)",
-    "obs": "texto nao-verbatim; capturado via WebSearch por bloqueio de WebFetch/curl (HTTP 403).",
-    "hash_alvo": "leis/municipal-sp/lei-municipal-saopaulo-13475-2002.md",
-    "hash_nota": "hash da transcrição do corpus (.md) — cru ausente localmente (B-4/B-9); trocar pelo hash do cru quando ele chegar"
+    "metodo": "VERBATIM INTEGRAL (portal oficial, texto compilado); captura 2026-07-10 (texto COMPILADO do Catálogo de Legislação Municipal, HTTPS direto); promovido de _entrada/misto/",
+    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior.",
+    "hash_alvo": "_entrada/misto/lei-municipal-saopaulo-13475-2002.txt",
+    "path": "_entrada/misto/lei-municipal-saopaulo-13475-2002.txt"
   },
-  "status_pipeline": "bruto",
-  "confianca_extracao": "baixa",
+  "status_pipeline": "indexado",
+  "confianca_extracao": "alta",
   "revisado_por_humano": false,
   "dominio_primario": "iptu",
   "dominio": [

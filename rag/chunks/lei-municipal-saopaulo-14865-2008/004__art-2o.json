@@ -1,0 +1,44 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-14865-2008::004-art-2o",
+  "lei_id": "lei-municipal-saopaulo-14865-2008",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 2º",
+  "numero": "2",
+  "header_raw": "Art. 2º-A. Fica concedida isenção do Imposto Predial e Territorial Urbano – IPTU aos imóveis utilizados exclusiva ou predominantemente como residência, de Padrões A, B ou C, dos Tipos 1 ou 2 da Tabela V, anexa à Lei nº 10.235, de 16 de dezembro de 1986, quando localizados, alternativamente:(Incluído pela Lei nº 18.330/2025)",
+  "caminho_hierarquico": [
+    "CAPÍTULO I",
+    "Art. 2º"
+  ],
+  "texto": "Art. 2º-A. Fica concedida isenção do Imposto Predial e Territorial Urbano – IPTU aos imóveis utilizados exclusiva ou predominantemente como residência, de Padrões A, B ou C, dos Tipos 1 ou 2 da Tabela V, anexa à Lei nº 10.235, de 16 de dezembro de 1986, quando localizados, alternativamente:(Incluído pela Lei nº 18.330/2025)\n\nI - em Zona Especial de Interesse Social - ZEIS 1, ZEIS 2 ou ZEIS 4, conforme classificação estabelecida pela Lei nº 16.050, de 31 de julho de 2014; ou(Incluído pela Lei nº 18.330/2025)\n\nII - em Zona Especial de Interesse Social - ZEIS 3 e ZEIS 5, conforme classificação estabelecida pela Lei nº 16.050, de 2014, quando o imóvel for, cumulativamente, situado fora da primeira ou segunda subdivisões da zona urbana do Município, conforme disposto no Anexo II da Lei nº 15.889, de 5 de novembro de 2013.(Incluído pela Lei nº 18.330/2025)\n\nParágrafo único. A isenção de que trata o caput aplicar-se-á às áreas classificadas como ZEIS 1 a ZEIS 5 na data de entrada em vigor deste artigo, e atingirá fatos geradores ocorridos até 31 de dezembro de 2030.(Incluído pela Lei nº 18.330/2025)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 14.865/2008 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO I › Art. 2º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-14865-de-29-de-dezembro-de-2008",
+    "vigencia": {
+      "em_vigor": true,
+      "observacao": "Vigente (beneficio com termo final 31/12/2030 para a hipotese ZEIS/CDHU). Confirmar alteracoes posteriores.",
+      "inicio": "2008-12-29",
+      "obs": "inicio = data da lei (proxy da publicação, convenção do corpus); cláusula verbatim: Art. 16. Esta lei entrará em vigor na data de sua publicação."
+    }
+  },
+  "tema": [
+    "habitacional_popular",
+    "HIS",
+    "ZEIS",
+    "isencao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Concede isenção do Imposto Predial e Territorial Urbano (IPTU) em condições específicas (inclusive habitação de interesse social / ZEIS), altera dispositivos de leis tributárias e dá outras providências."
+}

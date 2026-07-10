@@ -1,0 +1,49 @@
+{
+  "chunk_id": "decreto-saopaulo-58289-2018::027-art-26",
+  "lei_id": "decreto-saopaulo-58289-2018",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 26",
+  "numero": "26",
+  "header_raw": "Art. 26. Este decreto entrará em vigor na data de sua publicação, revogado o Decreto nº 57.535, de 15 de dezembro de 2016.",
+  "caminho_hierarquico": [
+    "CAPÍTULO IV",
+    "Art. 26"
+  ],
+  "texto": "Art. 26. Este decreto entrará em vigor na data de sua publicação, revogado o Decreto nº 57.535, de 15 de dezembro de 2016.\n\nPREFEITURA DO MUNICÍPIO DE SÃO PAULO, aos 26 de junho de 2018, 465º da fundação de São Paulo.\n\nBRUNO COVAS, PREFEITO\n\nHELOÍSA MARIA DE SALLES PENTEADO PROENÇA, Secretária Municipal de Urbanismo e Licenciamento\n\nRUBENS NAMAN RIZEK JUNIOR, Secretário Municipal de Justiça\n\nJULIO FRANCISCO SEMEGHINI NETO, Secretário do Governo Municipal\n\nEDUARDO TUMA, Secretário-Chefe da Casa Civil\n\nPublicado na Casa Civil, em 26 de junho de 2018.\n\nEste texto não substitui o original publicado no Diário Oficial da Cidade de São Paulo",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto municipal nº 58.289/2018 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO IV › Art. 26",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-58289-de-26-de-junho-de-2018",
+    "vigencia": {
+      "inicio": "2018-06-26",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [],
+      "revoga": [
+        "Decreto 57.535/2016"
+      ]
+    }
+  },
+  "tema": [
+    "transferencia_do_direito_de_construir",
+    "doacao_de_imovel",
+    "potencial_construtivo",
+    "desapropriacao_amigavel",
+    "declaracao_de_potencial_construtivo"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Confere nova regulamentação à Transferência do Direito de Construir com Doação de Imóvel, nos termos dos artigos 123, 126, 127, 128, 130 e 131 da Lei nº 16.050, de 31 de julho de 2014 – Plano Diretor Estratégico – PDE; revoga o Decreto nº 57.535, de 15 de dezembro de 2016."
+}

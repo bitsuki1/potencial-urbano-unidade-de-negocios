@@ -1,0 +1,60 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-6989-1966::202-art-97",
+  "lei_id": "lei-municipal-saopaulo-6989-1966",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 97",
+  "numero": "97",
+  "header_raw": "Art. 97 - Constitui fato gerador da taxa de pavimentação e de serviços preparatórios de pavimentação, a execução, pelo Município, de obras ou serviços de pavimentação de vias e logradouros públicos, no todo ou em parte ainda não pavimentados, ou cujo calçamento, por motivo de interesse público, a juízo da Prefeitura, deva ser substituído por outro, de tipo mais perfeito ou custoso.(Revogado pela Lei nº 8.505/1976)",
+  "caminho_hierarquico": [
+    "TITULO II",
+    "CAPITULO III",
+    "SEÇÃO I",
+    "Art. 97"
+  ],
+  "texto": "Art. 97 - Constitui fato gerador da taxa de pavimentação e de serviços preparatórios de pavimentação, a execução, pelo Município, de obras ou serviços de pavimentação de vias e logradouros públicos, no todo ou em parte ainda não pavimentados, ou cujo calçamento, por motivo de interesse público, a juízo da Prefeitura, deva ser substituído por outro, de tipo mais perfeito ou custoso.(Revogado pela Lei nº 8.505/1976)\n\nParágrafo único - Consideram-se obras ou serviços de pavimentação:\n\nI – a pavimentação propriamente dita, da parte carroçável das vias e logradouros públicos;\n\nII – os trabalhos preparatórios ou complementares habituais, tais como:\n\na) estudos topográficos;\n\nb) terraplenagem superficial;\n\nc) obras de escoamento local;\n\nd) guias e sarjetas;\n\ne) consolidação do leito com brita ou pedregulho de cava;\n\nf) pequenas obras de arte;\n\ng) serviços de administração quando contratados.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 6.989/1966 — São Paulo/SP",
+    "dispositivo": "TITULO II › CAPITULO III › SEÇÃO I › Art. 97",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-6989-de-29-de-dezembro-de-1966",
+    "vigencia": {
+      "inicio": "1967-01-01",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 10.394/1987",
+        "Lei 10.805/1989",
+        "Lei 10.921/1990",
+        "Lei 11.152/1991",
+        "Lei 11.334/1992",
+        "Lei 12.782/1998",
+        "Lei 13.250/2001",
+        "Lei 15.889/2013"
+      ],
+      "obs": "texto COMPILADO do portal oficial, com anotações de alteração por dispositivo; lista alterada_por = anotações verificadas no texto (não exaustiva)"
+    }
+  },
+  "tema": [
+    "sistema_tributario_municipal",
+    "imposto_predial",
+    "imposto_territorial_urbano",
+    "valor_venal",
+    "aliquota_progressiva",
+    "fato_gerador",
+    "isencao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o sistema tributário do Município e da outras providências."
+}

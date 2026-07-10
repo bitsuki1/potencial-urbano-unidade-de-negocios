@@ -1,0 +1,49 @@
+{
+  "chunk_id": "decreto-saopaulo-58289-2018::016-art-15",
+  "lei_id": "decreto-saopaulo-58289-2018",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 15",
+  "numero": "15",
+  "header_raw": "Art. 15. Compete à DEUSO, quando observados os procedimentos previstos nos Capítulos II e III deste decreto, a emissão dos seguintes documentos:",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 15"
+  ],
+  "texto": "Art. 15. Compete à DEUSO, quando observados os procedimentos previstos nos Capítulos II e III deste decreto, a emissão dos seguintes documentos:\n\nI - Declaração de Potencial Construtivo Passível de Transferência, declarando o potencial construtivo passível de transferência pelo imóvel emissor, calculado nos termos do artigo 127 do PDE, conforme o modelo especificado no Anexo III deste decreto;\n\nII - Certidão de Transferência de Potencial Construtivo, certificando a transferência do potencial construtivo para o imóvel receptor, calculado nos termos do artigo 128 do PDE, conforme o modelo especificado no Anexo VI deste decreto.\n\n§ 1º Em caso de eventual divergência entre a área registrada e a real, optando o interessado por não providenciar a prévia retificação do registro, o cálculo de que trata o inciso I do “caput” deste artigo será feito pela área que for menor.\n\n§ 2º Nas hipóteses previstas nos incisos I e II do “caput” deste artigo, o cálculo do potencial construtivo passível de transferência observará, também, as seguintes disposições:\n\nI - se o imóvel a ser doado tiver mais de uma face de quadra, será considerado o maior valor de face de quadra apontado pelo Cadastro do Valor de Terreno Para Fins de Outorga Onerosa, constante do Quadro 14 do PDE;\n\nII - o desmembramento de lotes para atendimento da finalidade prevista no artigo 239 do PDE observará, para o cálculo do potencial construtivo, a previsão contida no artigo 81 da referida lei.\n\n§ 3º Para os fins deste decreto, consideram-se sinônimas as expressões Certidão de Potencial Construtivo Transferido, constante do artigo 132 do PDE, e Certidão de Transferência de Potencial Construtivo, constante do § 3º do artigo 123 da referida lei, ambas se referindo ao mesmo documento especificado no inciso II do “caput” deste artigo.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto municipal nº 58.289/2018 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Art. 15",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-58289-de-26-de-junho-de-2018",
+    "vigencia": {
+      "inicio": "2018-06-26",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [],
+      "revoga": [
+        "Decreto 57.535/2016"
+      ]
+    }
+  },
+  "tema": [
+    "transferencia_do_direito_de_construir",
+    "doacao_de_imovel",
+    "potencial_construtivo",
+    "desapropriacao_amigavel",
+    "declaracao_de_potencial_construtivo"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Confere nova regulamentação à Transferência do Direito de Construir com Doação de Imóvel, nos termos dos artigos 123, 126, 127, 128, 130 e 131 da Lei nº 16.050, de 31 de julho de 2014 – Plano Diretor Estratégico – PDE; revoga o Decreto nº 57.535, de 15 de dezembro de 2016."
+}

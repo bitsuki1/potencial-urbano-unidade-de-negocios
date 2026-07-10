@@ -1,14 +1,1462 @@
 # Lei Municipal nº 10.235, de 16 de dezembro de 1986 — São Paulo/SP
 
-**URL oficial:** https://legislacao.prefeitura.sp.gov.br/leis/lei-10235-de-16-de-dezembro-de-1986
-**Data de captura:** 2026-06-18
-
-> PROVENIENCIA: texto NAO-VERBATIM. O ambiente (sandbox) bloqueia WebFetch e curl para todos os hosts juridicos (.gov.br/.com.br/JusBrasil/leismunicipais retornam HTTP 403 por anti-bot, e o egress allowlist do shell bloqueia ate example.com). Conteudo abaixo foi extraido via WebSearch (resumos sourced do buscador), NAO do corpo integral da norma. REQUER re-captura verbatim do Catalogo de Legislacao Municipal a partir de ambiente com egress liberado. confianca_extracao=baixa.
+**URL oficial:** https://legislacao.prefeitura.sp.gov.br/lei-10235-de-16-de-dezembro-de-1986
+**Data de captura:** 2026-07-10 (texto COMPILADO do Catálogo de Legislação Municipal, HTTPS direto)
+**Proveniência:** VERBATIM INTEGRAL — capturado de https://legislacao.prefeitura.sp.gov.br/lei-10235-de-16-de-dezembro-de-1986 (2026-07-10 (texto COMPILADO do Catálogo de Legislação Municipal, HTTPS direto)); promovido de `_entrada/misto/lei-municipal-saopaulo-10235-1986.txt`. Saneado só lixo de captura; boilerplate oficial do portal preservado (anotações de alteração do texto compilado incluídas).
+**confianca_extracao:** alta (articulado integral verbatim)
 
 ## Ementa
 
 Dispõe sobre a forma de apuração do valor venal de imóveis, para efeito de lançamento dos Impostos sobre a Propriedade Predial e Territorial Urbana, concede descontos sobre os valores venais dos imóveis sujeitos à incidência desses impostos no exercício de 1987, e dá outras providências.
 
-## Conteudo (resumo sourced, nao-verbatim)
+## Texto integral (verbatim)
 
-Lei-mae da Planta Generica de Valores (PGV) do Municipio de Sao Paulo. Define a forma de apuracao do valor venal de imoveis para lancamento do IPTU. O valor venal do imovel = valor venal do terreno + valor venal da construcao. O valor venal da construcao resulta da multiplicacao da area construida bruta pelo valor unitario de m2 de construcao (Tabela VI) e pelo fator de obsolescencia (Tabela IV), conforme o tipo/padrao da construcao (Tabela V). Cadeia da PGV: 10.235/1986 -> 15.889/2013 -> 18.330/2025 (alem de atualizacoes intermediarias 13.250/2001, 15.044/2009, 16.768/2017, 17.719/2021). ATENCAO: tabelas e valores numericos NAO foram capturados verbatim — exigem re-fetch do texto oficial.
+LEI Nº 10.235, DE 16 DE DEZEMBRO DE 1986
+
+(Projeto de Lei Nº 303/1986 - Executivo)
+
+Dispõe sobre a forma de apuração do valor venal de imóveis, para efeito de lançamento dos Impostos sobre a Propriedade Predial e Territorial Urbana, concede descontos sobre os valores venais dos imóveis sujeitos à incidência desses impostos, no exercício de 1987, e dá outras providências.
+
+JÂNIO DA SILVA QUADROS, Prefeito do Município de São Paulo, usando das atribuições que lhe são conferidas por lei, faz saber que a Câmara Municipal, em sessão de 27 de novembro de 1986, decretou e eu promulgo a seguinte Lei:
+
+Art. 1º A apuração do valor venal, para fins de lançamento dos Impostos sobre a Propriedade Predial e Territorial Urbana, será feita conforme as normas e métodos ora fixados.
+
+Parágrafo único. Fazem parte integrante desta Lei as Tabelas I a VI e a Listagem de Valores.
+
+Art. 2º Os valores unitários de metro quadrado de construção e de terreno serão determinados
+
+em função dos seguintes elementos, tomados em conjunto ou separadamente:
+
+I – preços correntes das transações e das ofertas à venda no mercado imobiliário;
+
+II – custos de reprodução;
+
+III – locações correntes;
+
+IV – características da região em que se situa o imóvel;
+
+V – outros dados informativos tecnicamente reconhecidos.
+
+Parágrafo único. Os valores unitários, definidos como valores médios para os locais e construções, serão atribuídos:
+
+I – a faces de quadras, a quadras ou quarteirões, a logradouros ou a regiões determinadas, relativamente aos terrenos;
+
+II – a cada um dos padrões previstos para os tipos de edificação indicados na Tabela V, relativamente às construções.
+
+Art. 3º Na determinação do valor venal não serão considerados:
+
+I – o valor dos bens móveis mantidos, em caráter permanente ou temporário, no imóvel, para efeito de sua utilização, exploração, aformoseamento ou comodidade;
+
+II – as vinculações restritivas do direito de propriedade e o estado de comunhão.
+
+Art. 4º O valor venal do terreno e do excesso de área, definido no inciso I do artigo 9º, resultará da multiplicação de sua área total pelo correspondente valor unitário de metro quadrado de terreno, constante da Listagem de Valores, e pelos fatores de correção das Tabelas I, II e III, aplicáveis conforme as características do imóvel.
+
+Parágrafo único. Quando a área total do terreno for representada por número que contenha fração de metro quadrado, será feito o arredondamento para a unidade imediatamente superior.
+
+Art. 5º O valor unitário de metro quadrado de terreno corresponderá:
+
+I – ao da face de quadra da situação do imóvel;
+
+II – no caso de imóvel não construído, com 2 (duas) ou mais esquinas ou de 2 (duas) ou mais frentes, ao do logradouro relativo à frente indicada no título de propriedade ou, na falta deste, ao do logradouro de maior valor;
+
+III – no caso de imóvel construído em terreno com as características do inciso anterior, ao do logradouro relativo à sua frente efetiva ou, havendo mais de uma, à frente principal;
+
+IV – no caso de terreno interno, ao do logradouro que lhe dá acesso ou, havendo mais de um logradouro de acesso, ao do logradouro a que haja sido atribuído o maior valor;
+
+V – no caso de terreno encravado, ao do logradouro correspondente à servidão de passagem.
+
+Parágrafo único. Os logradouros ou trechos de logradouros, que não constarem da Listagem de Valores, terão seus valores unitários de metro quadrado de terreno fixado pelo órgão competente da Secretaria das Finanças.
+
+Art. 6º A profundidade equivalente do terreno, para aplicação do fator de profundidade de que trata a Tabela I, é obtida mediante a divisão da área total pela testada ou, no caso de terrenos de 2 (duas) ou mais frentes, pela soma das testadas, desprezando-se, no resultado, a fração de metro.
+
+§ 1º No caso de terrenos com uma esquina, será adotada:
+
+I – a testada correspondente à frente efetiva ou principal do imóvel, quando construído;
+
+II – a testada correspondente à frente indicada no título de propriedade ou, na sua falta, a correspondente ao maior valor unitário de metro quadrado de terreno, quando não construído.
+
+§ 2º Para os terrenos com 2 (duas) ou mais esquinas, será aplicado o fator de profundidade igual a 1,0000.
+
+Art. 7º Na avaliação de terrenos de esquina, os fatores da Tabela II serão aplicados sobre a área máxima de:
+
+I – 900m² (novecentos metros quadrados), no caso de 1 (uma) esquina;
+
+II – 1.800m² (um mil e oitocentos metros quadrados), no caso de 2 (duas) esquinas;
+
+III – 2.700m² (dois mil e setecentos metros quadrados), no caso de 3 (três) esquinas;
+
+IV – 3.600m² (três mil e seiscentos metros quadrados), nos demais casos.
+
+Art. 8º Na avaliação de terrenos encravados, terrenos de fundo e terrenos internos serão aplicados os fatores de correção constantes da Tabela III.
+
+Parágrafo único. Os fatores terreno encravado e terreno de fundo serão aplicados de forma singular, com exclusão dos demais fatores de correção previstos para a avaliação de terrenos.
+
+Art. 8º Na avaliação de terrenos encravados, terrenos de fundo, terrenos internos e terrenos nos quais existam prédios em condomínio enquadrados nos tipos 2 e 4, da Tabela V, serão aplicados os fatores de correção constantes da Tabela III.(Redação dada pela Lei nº 11.152/1991)
+
+Parágrafo único. Excetuados o fator condomínio e a fração ideal correspondente a cada unidade autônoma, os fatores terreno encravado e terreno de fundo serão aplicados com exclusão dos demais fatores de correção previstos para a avaliação de terrenos.(Redação dada pela Lei nº 11.152/1991)
+
+Art. 9º Para os efeitos do disposto nesta Lei, consideram-se:
+
+I – excesso de área ou área de terreno não incorporada, aquela que exceder a 3 (três) vezes a área ocupada pelas edificações, no caso de imóvel situado na primeira subdivisão da zona urbana; 5 (cinco) vezes, na segunda subdivisão da zona urbana, e 10 (dez) vezes, além do perímetro desta última;
+
+II – terreno de esquina, aquele em que os prolongamentos de seus alinhamentos, quando retos, ou das respectivas tangentes, quando curvos, determinam ângulos internos inferiores a 135° (cento e trinta e cinco graus) e superiores a 45° (quarenta e cinco graus);
+
+III – terreno de 2 (duas) ou mais frentes, aquele que possui mais de uma testada para logradouros públicos, sem estar localizado na sua confluência;
+
+IV – terreno encravado, aquele que não se comunica com a via pública, exceto por servidão de passagem por outro imóvel;
+
+V – terreno de fundo, aquele que, situado no interior da quadra, se comunica com a via pública por um corredor de acesso com largura igual ou inferior a 4m (quatro metros);
+
+VI – terreno interno, aquele localizado em vila, passagem, travessa ou local assemelhado, acessório da malha viária do Município ou de propriedade de particulares, não relacionado na Listagem de Valores, integrante desta Lei.
+
+Art. 10. No cálculo do valor venal do terreno, no qual exista prédio em condomínio, além dos fatores de correção aplicáveis, será utilizada, como fator, a fração ideal correspondente a cada unidade autônoma.
+
+Art. 11. A construção será enquadrada em um dos tipos e padrões previstos na tabela V, e seu valor venal resultará da multiplicação da área construída bruta pelo valor unitário de metro quadrado de construção, constante da Tabela VI, e pelo fator de obsolescência, constante da Tabela IV.
+
+Art. 11. A construção será enquadrada em um dos tipos e padrões previstos na Tabela V, e seu valor venal resultará da multiplicação da área construída bruta pelo valor unitário de metro quadrado de construção associado à subdivisão da zona urbana a que pertença, constante da Tabela VI, e pelo fator de obsolescência, constante da Tabela IV.(Redação dada pela Lei nº 15.889/2013)
+
+Art. 12. A área construída bruta será obtida através da mediação dos contornos externos das paredes ou pilares, computando-se também a superfície das sacadas, cobertas ou descobertas, de cada pavimento.
+
+§ 1º No caso de coberturas de postos de serviço e assemelhadas, será considerada como área construída a sua projeção vertical sobre o terreno.
+
+§ 2º No caso de piscina, a área construída será obtida através da medição dos contornos internos de suas paredes.
+
+§ 3º Quando a área construída bruta for representada por número que contenha fração de metro quadrado, será feito o arredondamento para a unidade imediatamente superior.
+
+Art. 12. A área construída bruta será obtida por meio das seguintes medições da situação fática do imóvel:(Redação dada pela Lei nº 14.256/2006)
+
+I - nas áreas cobertas, pelas medidas de seus contornos externos das paredes ou pilares;(Redação dada pela Lei nº 14.256/2006)
+
+II - nas áreas pavimentadas descobertas de terraços, sacadas, quadras esportivas, helipontos e heliportos, pelas medidas de seus contornos externos;(Redação dada pela Lei nº 14.256/2006)
+
+III - nas coberturas de postos de serviços e assemelhados, pelas medidas de sua projeção vertical sobre o terreno;(Redação dada pela Lei nº 14.256/2006)
+
+IV - nas piscinas, pelas medidas dos contornos internos de suas paredes.(Redação dada pela Lei nº 14.256/2006)
+
+Parágrafo único. Quando a área construída bruta for representada por número que contenha fração de metro quadrado, será feito o arredondamento para a unidade imediatamente superior.(Redação dada pela Lei nº 14.256/2006)
+
+Art. 13. No cálculo da área construída bruta das unidades autônomas de prédios em condomínio, será acrescentada, à área privativa de cada unidade, a parte correspondente nas áreas comuns em função de sua quota-parte.
+
+Art. 14. Para os efeitos desta Lei, as obras paralisadas ou em andamento, as edificações condenadas ou em ruína, as construções de natureza temporária e as construções, de qualquer espécie, inadequadas à sua situação, dimensões, destino ou utilidade, não serão consideradas como área construída.
+
+Art. 15. O valor unitário de metro quadrado de construção será obtido pelo enquadramento da construção num dos dois tipos da Tabela V, em função da sua área predominante, e no padrão de construção cujas características mais se assemelhem às suas.
+
+§ 1º Nos casos em que a área predominante não corresponder à destinação principal da edificação, ou conjunto de edificações, poderá ser adotado critério adverso, a juízo da Administração.
+
+§ 2º Para fins de enquadramento de unidades autônomas de prédio em condomínio em um dos padrões de construção previstos na Tabela V, será considerada a área construída correspondente à área bruta da unidade autônoma acrescida da respectiva área da garagem, ainda que esta seja objeto de lançamento separado.
+
+§ 3º A unidade autônoma poderá ser enquadrada em padrão diverso daquele atribuído ao conjunto a que pertença, desde que apresente benfeitorias que a distingam, de forma significativa, das demais unidades autônomas.
+
+Art. 16. A idade de cada prédio, para aplicação do fator de obsolescência de que trata a Tabela IV, corresponderá à diferença entre o exercício a que se refere o lançamento tributário e o ano do término da construção ou, quando anterior, o de sua efetiva ocupação.
+
+§ 1º A idade de cada prédio será:
+
+I – reduzida de 20% (vinte por cento), nos casos de pequena reforma ou reforma parcial;
+
+II – contada a partir do ano da conclusão da reforma, quando esta for substancial.
+
+§ 2º Será adotada a média das unidades apuradas, ponderada de acordo com as respectivas áreas, nos casos:
+
+I – de ampliação da área construída;
+
+II – de reconstrução parcial;
+
+III – de lançamento tributário que abranja 2 (dois) ou mais prédios, concluídos em exercícios diversos.
+
+§ 3º No cálculo da média ponderada, a que se refere o parágrafo anterior, serão consideradas as eventuais alterações na idade dos prédios, resultantes da ocorrência de reformas, na forma do § 1º.
+
+§ 4º Quando o acréscimo de área edificada resultar de construção de abrigo para veículos ou de piscina, não será alterada a idade do prédio.
+
+§ 5º No resultado do cálculo da idade da edificação será desprezada a fração de ano.
+
+Art. 17. O valor venal de imóvel construído será apurado pela soma do valor do terreno com o valor da construção, calculados na forma desta Lei.
+
+Art. 18. Nos casos singulares de imóveis para os quais a aplicação dos procedimentos previstos nesta Lei possa conduzir a tributação manifestamente injusta ou inadequada, poderá ser adotado, a requerimento do interessado, processo de avaliação especial, sujeito à aprovação do órgão competente da Secretaria das Finanças.
+
+Art. 18. O contribuinte poderá impugnar a base de cálculo obtida pela aplicação dos procedimentos previstos nesta lei, mediante apresentação de avaliação contraditória, na forma e condições estabelecidas pela Secretaria Municipal de Finanças e Desenvolvimento Econômico.(Redação dada pela Lei nº 15.889/2013)
+
+Parágrafo único. O fator especial decorrente de deferimento total ou parcial de avaliação contraditória, aprovado pelo órgão competente da Administração Tributária, também pode ser utilizado na constituição de crédito tributário de exercícios seguintes ao do objeto de impugnação, nos termos e prazos estabelecidos pela Secretaria Municipal da Fazenda. (Incluído pela Lei nº 18.270/2025)
+
+Art. 18-A. Para fins de transparência, a Prefeitura disponibilizará mensalmente os dados abaixo, relativamente às transações imobiliárias tributadas pelo ITBI nos últimos 5 (cinco) anos:(Incluído pela Lei nº 18.161/2024)
+
+I – identificação dos imóveis transacionados;(Incluído pela Lei nº 18.161/2024)
+
+II – o valor declarado pelo contribuinte;(Incluído pela Lei nº 18.161/2024)
+
+III – o valor venal de referência ou valor inicialmente estimado pela Prefeitura; e(Incluído pela Lei nº 18.161/2024)
+
+IV – a data e a natureza da transação.(Incluído pela Lei nº 18.161/2024)
+
+§ 1º Os dados referidos nos incisos I a IV deste artigo devem conter, no mínimo, informações sobre a localização exata do imóvel, organizados por número de cadastro (SQL), matrícula, cartório de registro e endereço completo, incluindo logradouro, bairro, numeração e complemento do imóvel, quando aplicável.(Incluído pela Lei nº 18.161/2024)
+
+§ 2º Os dados referidos nos incisos I a IV deste artigo serão disponibilizados na rede mundial de computadores, para consulta geral dos interessados, sem a identificação, seja por nome, seja por número de documento, dos compradores e vendedores.(Incluído pela Lei nº 18.161/2024)
+
+§ 3º O disposto no caput deste artigo não se aplica para:(Incluído pela Lei nº 18.161/2024)
+
+I – transações imobiliárias cujo ITBI tenha sido incluído em programa de parcelamento ou de regularização de débitos; e(Incluído pela Lei nº 18.161/2024)
+
+II – transações imobiliárias cujo ITBI tenha sido constituído mediante Auto de Infração e Intimação.(Incluído pela Lei nº 18.161/2024)
+
+Art. 19. Os valores unitários de metro quadrado de terreno e de metro quadrado de construção serão expressos em cruzados e, no processo de cálculo para obtenção do valor venal do imóvel, o valor do terreno e o da construção serão sempre arredondados, desprezando-se as frações de cruzado.
+
+Art. 19 - Os valores unitários de metro quadrado de terreno e de metro quadrado de construção serão expressos em moeda corrente e, no processo de cálculo para obtenção do valor venal do imóvel, o valor do terreno e o da construção serão arredondados para a unidade monetária imediatamente superior.(Redação dada pela Lei nº 10.805/1989)
+
+Art. 20. As disposições desta Lei são extensivas aos imóveis localizados nas áreas urbanizáveis e de expansão urbana, referida pela Lei nº 9.195, de 18 de dezembro de 1980.
+
+Art. 21. Para efeito de cálculo dos Impostos sobre a Propriedade Predial e Territorial Urbana incidentes sobre os imóveis localizados além do perímetro da 2ª subdivisão da zona urbana inclusive os localizados nas áreas urbanizáveis ou de expansão urbana, definidas no artigo 1º da Lei nº 9.195, de 18 de dezembro de 1980 – serão concedidos descontos, no exercício de 1987, sobre o valor venal apurado de acordo com esta Lei, na seguinte conformidade:
+
+I – quando se tratar de prédio:
+
+a) do Tipo 1, padrão “A”, utilizado exclusivamente como residência:
+
+| Faixa de área edificada em que se enquadra o imóvel | Desconto correspondente % |
+
+| até 100m2 | 66 |
+
+| acima de 101m2 até 150m2 | 42 |
+
+| acima de 151m2 até 200m2 | 37 |
+
+| acima de 201m2 até 250m2 | 32 |
+
+| acima de 251m2 até 300m2 | 26 |
+
+| acima de 300m2 | 10 |
+
+b) de Tipo 1, padrão “B” ou “C”, utilizado exclusivamente como residência:
+
+| Faixa de área edificada em que se enquadra o imóvel | Desconto correspondente % |
+
+| até 100m2 | 58 |
+
+| acima de 101m2 até 150m2 | 39 |
+
+| acima de 151m2 até 200m2 | 31 |
+
+| acima de 201m2 até 250m2 | 25 |
+
+| c) demais tipos e padrões: "nihil". | |
+
+c) demais tipos e padrões: “nihil”.
+
+| Faixa de terreno em que se enquadra o imóvel | Desconto correspondente % |
+
+| até 250m2 | 65 |
+
+| acima de 251m2 até 300m2 | 35 |
+
+II – quando se tratar de terreno:
+
+Parágrafo único. Não será concedido desconto sobre o valor venal do excesso de área, como definido no inciso I, do artigo 9º, desta Lei.
+
+Art. 22. São isentos do imposto os imóveis construídos localizados além do perímetro da 2ª subdivisão da zona urbana, com destinação e uso exclusivamente residenciais, cujo valor venal, após a aplicação dos descontos previstos no artigo anterior, seja igual ou inferior a 27 (vinte e sete) UFM – Unidade de Valor Fiscal do Município de São Paulo.
+
+Art. 23. Para o exercício de 1987, o valor de um (uma) Unidade de Valor Fiscal do Município de São Paulo – UFM, será de Cz$ 1.290,00 (um mil, duzentos e noventa cruzados).
+
+Art. 24. Fica o Executivo autorizado a baixar instruções eventualmente necessárias à execução desta Lei.
+
+Art. 25. Esta Lei entrará em vigor na data de sua publicação, produzindo afeitos a partir de 1º de janeiro de 1987, revogadas as disposições em contrário, especialmente os artigos 8º e parágrafos,16 e parágrafos, 28 e parágrafos, 35 e o parágrafo único, do artigo 195, todos da Lei nº 6.989, de 29 de dezembro de 1966.
+
+(A Listagem de Valores desta Lei constará de Suplemento publicado nesta data).
+
+(Listagem de Valores - O Anexo II, integrante da presente lei, está sendo publicado nesta data, em suplemento.(Redação dada pela Lei nº 13.250/2001)
+
+(Listagem de Valores - SUPLEMENTO DO DOC DO DIA 30/12/2009 (Redação dada pela Lei 15.044/2009)
+
+(Listagem de Valores - Anexo III, integrante da Lei nº 15.889/2013 (Redação dada pela Lei nº 15.889/2013)
+
+(Listagem de Valores - Anexo Único (Redação dada pela Lei nº 16.768/2017)
+
+TABELAS I A VI INTEGRANTES À LEI Nº 10.235, DE 16 DE DEZEMBRO DE 1986
+
+Tabela I - Fatores de Profundidade
+
+| Profundidade | Fator | Profundidade | Fator |
+
+| Equivalente | | Equivalente | |
+
+| até 10 | 0,7071 | 69 | 0,7614 |
+
+| 11 | 0,7416 | 70 | 0,7559 |
+
+| 12 | 0,7746 | 71 | 0,7506 |
+
+| 13 | 0,8062 | 72 | 0,7454 |
+
+| 14 | 0,8367 | 73 | 0,7402 |
+
+| 15 | 0,8660 | 74 | 0,7352 |
+
+| 16 | 0,8944 | 75 | 0,7303 |
+
+| 17 | 0,9220 | 76 | 0,7255 |
+
+| 18 | 0,9487 | 77 | 0,7207 |
+
+| 19 | 0,9747 | 78 | 0,7161 |
+
+| de 20 a 40 | 1,0000 | 79 | 0,7116 |
+
+| 41 | 0,9877 | 80 | 0,7071 |
+
+| 42 | 0,9759 | 81 e 82 | 0,6984 |
+
+| 43 | 0,9645 | 83 e 84 | 0,6901 |
+
+| 44 | 0,9535 | 85 e 86 | 0,6820 |
+
+| 45 | 0,9428 | 87 e 88 | 0,6742 |
+
+| 46 | 0,9325 | 89 e 90 | 0,6667 |
+
+| 47 | 0,9225 | 91 e 92 | 0,6594 |
+
+| 48 | 0,9129 | 93 e 94 | 0,6523 |
+
+| 49 | 0,9035 | 95 e 96 | 0,6455 |
+
+| 50 | 0,8944 | 97 e 98 | 0,6389 |
+
+| 51 | 0,8856 | 99 e 100 | 0,6325 |
+
+| 52 | 0,8771 | 101 a 105 | 0,6172 |
+
+| 53 | 0,8687 | 106 a 110 | 0,6030 |
+
+| 54 | 0,8607 | 111 a 115 | 0,5898 |
+
+| 55 | 0,8528 | 116 a 120 | 0,5774 |
+
+| 56 | 0,8452 | 121 a 125 | 0,5657 |
+
+| 57 | 0,8377 | 126 a 130 | 0,5547 |
+
+| 58 | 0,8305 | 131 a 135 | 0,5443 |
+
+| 59 | 0,8234 | 136 a 140 | 0,5345 |
+
+| 60 | 0,8165 | 141 a 145 | 0,5252 |
+
+| 61 | 0,8098 | 146 a 150 | 0,5164 |
+
+| 62 | 0,8032 | 151 a 160 | 0,5000 |
+
+| 63 | 0,7968 | 161 a 170 | 0,4851 |
+
+| 64 | 0,7906 | 171 a 180 | 0,4714 |
+
+| 65 | 0,7845 | 181 a 190 | 0,4588 |
+
+| 66 | 0,7785 | 191 a 200 | 0,4472 |
+
+| 67 | 0,7727 | acima de 200 | 0,4472 |
+
+| 68 | 0,7670 | | |
+
+Tabela II - Fatores de Esquina
+
+Tabela III - Fatores Diversos
+
+| 1 - Fator terreno encravado | 0,50 |
+
+| 2 - Fator terreno de fundo | 0,60 |
+
+| 3 - Fator terreno interno | 0,70 |
+
+Observação: Os fatores 1 e 2, nos casos respectivos, serão aplicados singularmente.
+
+Tabela IV - Fatores de Obsolescência
+
+(Coeficientes de depreciação do valor dos prédios, pela idade)
+
+| Idade do Prédio | Depreciação Física e Funcional (%) | Fator de Obsolescência |
+
+| de 0 até 5 anos | 0 | 1,00 |
+
+| de 6 até 10 anos | 7 | 0,93 |
+
+| de 11 até 15 anos | 14 | 0,86 |
+
+| de 16 até 20 anos | 21 | 0,79 |
+
+| de 21 até 25 anos | 28 | 0,72 |
+
+| de 26 até 30 anos | 35 | 0,65 |
+
+| de 31 até 35 anos | 42 | 0,58 |
+
+| de 36 até 40 anos | 49 | 0,51 |
+
+| de 41 até 45 anos | 56 | 0,44 |
+
+| de 46 até 50 anos | 63 | 0,37 |
+
+| 51 anos ou mais | 70 | 0,30 |
+
+I – “TABELA II - Fatores de Esquina”(Redação dada pela Lei nº 11.152/1991)
+
+| 1. Terrenos situados na 1a subdivisão da Zona Urbana | 1,3000 |
+
+| 2. Terrenos situados na 2a subdivisão da Zona Urbana | 1,2000 |
+
+| 3. Terrenos situados além do perímetro da 2a subdivisão da Zona Urbana | 1,1000 |
+
+| 4. Terrenos ocupados por construções enquadradas no Tipo 1, da Tabela V, quando localizados em Zonas de Uso Estritamente Residencial (Z1)4. Terrenos ocupados por construções enquadradas no Tipo 1, da Tabela V, quando localizados em Zonas Exclusivamente Residenciais (ZER)(Redação dada pela Lei nº 15.889/2013) | 1,0000 1,00000. |
+
+II – “TABELA III - Fatores Diversos”(Redação dada pela Lei nº 11.152/1991)
+
+| 1. Fator terreno encravado | 0,50 |
+
+| 2. Fator terreno de fundo | 0,60 |
+
+| 3. Fator terreno interno | 0,70 |
+
+| 4. Fator condomínio | 1,60 |
+
+Observação: Quando da divisão do valor venal do terreno (somado ao valor do excesso de área, nos casos cabíveis) pelo valor venal da construção resultar índice inferior a 0,20, o Fator Condomínio será igual a 2,20 subtraído de 3 (três) vezes o índice obtido; quando dessa divisão, resultar índice entre 2,01 a 7,00 o Fator Condomínio será igual a 1,80 subtraído de 1/10 (um décimo) do índice obtido; e quando dessa mesma divisão resultar índice superior a 7,00 o Fator Condomínio será igual a 1,10.” (Redação dada pela Lei nº 11.152/1991)
+
+III – “TABELA IV - Fatores de Obsolescência” (Coeficientes de precisão do valor dos prédios, pela idade)(Redação dada pela Lei nº 11.152/1991)
+
+| Idade do Prédio | Fatores de obsolescência | Fatores de obsolescência |
+
+| (em anos) | para os Padrões "a" e "b", | para os Demais Padrões e |
+
+| | dos tipos 1 e 2, da Tabela V | Tipos Descritos na Tabela V |
+
+| Menor que 1 | 1,00 | 1,00 |
+
+| 1 | 0,99 | 0,99 |
+
+| 2 | 0,98 | 0,99 |
+
+| 3 | 0,97 | 0,98 |
+
+| 4 | 0,96 | 0,97 |
+
+| 5 | 0,94 | 0,96 |
+
+| 6 | 0,93 | 0,96 |
+
+| 7 | 0,92 | 0,95 |
+
+| 8 | 0,90 | 0,94 |
+
+| 9 | 0,89 | 0,93 |
+
+| 10 | 0,88 | 0,92 |
+
+| 11 | 0,86 | 0,91 |
+
+| 12 | 0,84 | 0,90 |
+
+| 13 | 0,83 | 0,89 |
+
+| 14 | 0,81 | 0,88 |
+
+| 15 | 0,79 | 0,88 |
+
+| 16 | 0,78 | 0,86 |
+
+| 17 | 0,76 | 0,85 |
+
+| 18 | 0,74 | 0,84 |
+
+| 19 | 0,72 | 0,83 |
+
+| 20 | 0,70 | 0,82 |
+
+| 21 | 0,68 | 0,81 |
+
+| 22 | 0,66 | 0,80 |
+
+| 23 | 0,64 | 0,79 |
+
+| 24 | 0,62 | 0,78 |
+
+| 25 | 0,59 | 0,76 |
+
+| 26 | 0,57 | 0,75 |
+
+| 27 | 0,55 | 0,74 |
+
+| 28 | 0,52 | 0,73 |
+
+| 29 | 0,50 | 0,71 |
+
+| 30 | 0,48 | 0,70 |
+
+| 31 | 0,45 | 0,69 |
+
+| 32 | 0,42 | 0,67 |
+
+| 33 | 0,40 | 0,66 |
+
+| 34 | 0,37 | 0,64 |
+
+| 35 | 0,34 | 0,63 |
+
+| 36 | 0,32 | 0,62 |
+
+| 37 | 0,29 | 0,60 |
+
+| 38 | 0,26 | 0,59 |
+
+| 39 | 0,23 | 0,57 |
+
+| 40 | 0,20 | 0,56 |
+
+| 41 | 0,20 | 0,54 |
+
+| 42 | 0,20 | 0,52 |
+
+| 43 | 0,20 | 0,51 |
+
+| 44 | 0,20 | 0,49 |
+
+| 45 | 0,20 | 0,48 |
+
+| 46 | 0,20 | 0,46 |
+
+| 47 | 0,20 | 0,44 |
+
+| 48 | 0,20 | 0,42 |
+
+| 49 | 0,20 | 0,41 |
+
+| 50 | 0,20 | 0,39 |
+
+| 51 | 0,20 | 0,37 |
+
+| 52 | 0,20 | 0,35 |
+
+| 53 | 0,20 | 0,33 |
+
+| 54 | 0,20 | 0,32 |
+
+| 55 | 0,20 | 0,30 |
+
+| 56 | 0,20 | 0,28 |
+
+| 57 | 0,20 | 0,26 |
+
+| 58 | 0,20 | 0,24 |
+
+| 59 | 0,20 | 0,22 |
+
+| 60 | 0,20 | 0,20 |
+
+| maiores que 60 | 0,20 | 0,20 |
+
+Tabela V - Tipos e Padrões de Construção
+
+Tipo 1 – Residencial Horizontal
+
+Residências térreas e assobradadas, com ou sem subsolo.
+
+Padrão “A” – Área bruta, normalmente, até 80m² – 1 (um) pavimento
+
+• Arquitetura modesta; vãos e aberturas pequenos; esquadrias pequenas e simples de ferro ou madeira.
+
+• Estrutura de alvenaria simples.
+
+• Acabamento externo: sem revestimento ou com revestimento rústico; pintura a cal.
+
+• Acabamento interno: paredes rebocadas; pisos de cimento ou de cacos cerâmicos; forro simples ou ausente; pintura a cal.
+
+• Dependências: máximo de 2 (dois) dormitórios; abrigo externo para tanque.
+
+• Instalações elétricas e hidráulicas: mínimas.
+
+Padrão “B” – Área bruta, normalmente, até 120m² – 1 (um) ou 2 (dois) pavimentos
+
+• Arquitetura modesta; vãos e aberturas pequenos; esquadrias pequenas e simples de ferro ou madeira.
+
+• Estrutura de alvenaria ou de concreto armado revestido.
+
+• Acabamento externo: paredes rebocadas; pintura a cal ou látex.
+
+• Acabamento interno: paredes rebocadas, geralmente azulejos até meia-altura; pisos de cerâmica ou tacos; forro de laje; pintura a cal ou látex.
+
+• Dependências: máximo de 3 (três) dormitórios; banheiro interno com até 3 (três) peças, eventualmente um WC externo; abrigo externo para tanque; eventualmente abrigo para carro ou despejo externo.
+
+• Instalações elétricas e hidráulicas: simples e reduzidas.
+
+Padrão “C” – Área bruta, normalmente, até 300m² – 1 (um) ou 2 (dois) pavimentos
+
+• Arquitetura simples; vãos médios (3 a 6m); esquadrias comuns de ferro, madeira ou alumínio.
+
+• Estrutura de alvenaria ou de concreto armado revestido.
+
+• Acabamento externo: paredes rebocadas ou revestidas com pastilhas, litocerâmicas ou pedras brutas; pintura a látex.
+
+• Acabamento interno: paredes rebocadas, massa corrida, azulejos simples; pisos cerâmicos,tacos ou carpete; forro de laje; armários embutidos; pintura a látex ou similar.
+
+• Dependências: até 2 (dois) banheiros internos, eventualmente um WC externo; área de serviço com quarto de empregada; abrigo para carro.
+
+• Instalações elétricas e hidráulicas: compatíveis com o tamanho da edificação.
+
+Padrão “D” – Área bruta, normalmente, até 500m² – 1 (um) ou mais pavimentos
+
+• Arquitetura: preocupação com estilo e forma; vãos grandes; esquadrias de madeira, ferro, alumínio ou alumínio anodizado, de forma, acabamento ou dimensões especiais.
+
+• Estrutura de alvenaria, concreto armado revestido ou aparente.
+
+• Acabamento externo: revestimento condicionado geralmente pela arquitetura, com emprego comum de: massa fina, pedras, cerâmicas, revestimentos que dispensam pintura; pintura a látex, resinas ou similar.
+
+• Acabamento interno: massa corrida, azulejos decorados, lambris de madeira; pisos cerâmicos, de pedras polidas, tábuas corridas, carpete; forro de laje ou madeira nobre; armários embutidos; pintura a látex ou similar.
+
+• Dependências: 3 (três) ou mais banheiros com louças e metais de boa qualidade; até 4 (quatro) das seguintes dependências: escritório, sala de TV ou som, biblioteca, área de serviço, abrigo para 2 (dois) ou mais carros, salão de festas, salão de jogos, jardim de inverno, lareira.
+
+• Dependências acessórias: até 3 (três) das seguintes: jardins amplos, piscina, vestiário, sauna, quadra esportiva.
+
+• Instalações elétricas e hidráulicas: completas e compatíveis com o tamanho da edificação.
+
+Padrão “E” – Área bruta, normalmente, acima de 500m² – 1 (um) ou mais pavimentos Arquitetura: prédio isolado com projeto arquitetônico especial e personalizado; vãos grandes; esquadrias de madeira, ferro, alumínio ou alumínio anodizado, de forma, acabamento ou dimensões especiais.
+
+• Estrutura de alvenaria, concreto armado revestido ou aparente.
+
+• Acabamento externo: revestimento condicionado geralmente pela arquitetura, com emprego comum de: massa fina, pedras, cerâmicas, revestimentos que dispensam pintura; pintura a látex, resinas ou similar.
+
+• Acabamento interno: requintado, com massa corrida, azulejos decorados lisos ou em relevo, lambris de madeira; pisos cerâmicos, de pedras polidas, tábuas corridas, carpete; forro de laje ou madeira nobre; armários embutidos; portas trabalhadas; pintura a látex, resinas ou similar.
+
+• Dependências: vários banheiros completos com louças e metais de primeira qualidade, acabamento esmerado; caracterizando-se, algumas vezes, pela suntuosidade e aspectos personalizados; 4 (quatro) ou mais das seguintes dependências: escritório, sala de TV ou som, biblioteca, área de serviço, abrigo para 2 (dois) ou mais carros, salão de festas, salão de jogos, jardim de inverno, lareira, adega.
+
+• Dependências acessórias: até 3 (três) das seguintes: jardins amplos, piscina, vestiário, sauna, quadra esportiva.
+
+• Instalações elétricas e hidráulicas: completas e compatíveis com o tamanho da edificação.
+
+Tipo 2 – Residencial Vertical
+
+Prédios de Apartamentos.
+
+Padrão “A” – Área bruta, normalmente, até 60m² – em geral, até 4 (quatro) pavimentos
+
+• Arquitetura modesta; vão e aberturas pequenos; esquadrias pequenas e simples de ferro ou madeira.
+
+• Estrutura de alvenaria autoportante ou de concreto armado.
+
+• Acabamento externo: sem revestimento ou com revestimento simples; pintura a cal ou especial substituindo o revestimento.
+
+• Acabamento interno: revestimento rústico; piso cimentado ou de cacos cerâmicos; pintura a cal ou similar.
+
+• Dependências: ausência de quarto para empregada; ausência de garagem.
+
+• Instalações elétricas e hidráulicas: mínimas; aparentes.
+
+Padrão “B” – Área bruta, normalmente, até 85m² – 3 (três) ou mais pavimentos
+
+• Arquitetura modesta; vãos e aberturas pequenos; esquadrias pequenas e simples de ferro ou madeira.
+
+• Estrutura de alvenaria autoportante ou de concreto armado.
+
+• Acabamento externo: paredes rebocadas; pintura a cal ou látex.
+
+• Acabamento interno: paredes rebocadas; azulejos até meia-altura; pisos de cerâmica ou tacos; pintura a cal ou látex.
+
+• Dependências: até 2 (dois) dormitórios; 1 (um) banheiro e eventualmente WC, eventual existências de vagas de uso comum para estacionamento junto a “pilotis”.
+
+• Elevadores: existência condicionada, em geral, pelo número de pavimentos.
+
+• Instalações elétricas e hidráulicas: simples e reduzidas.
+
+Padrão “C” – Área bruta, normalmente, até 200m² – 3 (três) ou mais pavimentos
+
+• Arquitetura simples; vãos e aberturas médios; esquadrias de ferro, madeira ou alumínio.
+
+• Estrutura de concreto armado, revestido ou aparente.
+
+• Acabamento externo: paredes rebocadas, revestidas com pastilhas; pintura a látex ou similar.
+
+• Acabamento interno: paredes rebocadas, massa corrida, azulejos simples ou decorados; pisos cerâmicos, granilite ou similares, tacos, carpete; armários embutidos; pintura a látex ou similar.
+
+• Dependências: até 3 (três) dormitórios; até 2 (dois) banheiros e eventualmente WC; geralmente com quarto de empregada; até 1 (uma) vaga de garagem por apartamento.
+
+• Dependências acessórias de uso comum: salão de festas, salão de jogos, jardins, “playground”.
+
+• Elevadores: de uso comum, servindo a 2 (dois) ou mais apartamentos por andar; eventualmente sem elevador.
+
+• Instalações elétricas e hidráulicas: compatíveis com o tamanho da edificação.
+
+Padrão “D” – Área bruta, normalmente, até 350m² – em geral, 5 (cinco) ou mais pavimentos
+
+• Arquitetura: preocupação com estilo e forma; normalmente com sacada; eventualmente apartamentos dúplex ou diferenciados de cobertura; esquadrias de ferro, madeira, alumínio ou alumínio anodizado.
+
+• Estrutura: de concreto armado, revestido ou aparente.
+
+• Acabamento externo: paredes rebocadas, relevos ou revestimentos que dispensam pintura; pintura a látex, resinas ou similar.
+
+• Acabamento interno: fino, com massa corrida, papel de parede, lambris de madeira, azulejos decorados; pisos cerâmicos ou de pedras polidas, tábuas corridas, carpete; armários embutidos; pintura a látex, resinas ou similar.
+
+• Dependências: 3 (três) ou mais dormitórios; 3 (três) ou mais banheiros, com louças e metais de alta qualidade, incluindo normalmente suíte, eventualmente com “closet”, lavabo; dependências para até 2 (dois) empregados; até 3 (três) vagas de garagem por apartamento; eventualmente com adega.
+
+• Dependências acessórias de uso comum: até 4 (quatro) das seguintes: salão de festas, salão de jogos, jardins, “play-ground”, piscina, sauna, quadra esportiva, sistema de segurança.
+
+• Elevadores: social, eventualmente com “hall” privativo, e elevador de serviço de uso comum.
+
+• Instalações elétricas e hidráulicas: completas e compatíveis com o tamanho da edificação.
+
+Padrão “E” – Área bruta, normalmente, acima de 350m² – em geral, 5 (cinco) ou mais pavimentos com até 2 (dois) apartamentos por andar
+
+• Arquitetura requintada; normalmente, com grandes vãos; presença de sacada; eventualmente apartamentos dúplex ou diferenciados de cobertura; geralmente com tratamento paisagístico; esquadrias de materiais nobres com formas e dimensões especiais.
+
+• Estrutura de concreto armado, revestido ou aparente.
+
+• Acabamento externo: paredes rebocadas, relevos ou revestimentos que dispensam pintura; pintura a látex, resinas ou similar.
+
+Acabamento interno: esmerado, com massa corrida, papel de parede, lambris de madeira, azulejos decorados; pisos cerâmicos ou de pedras polidas, tábuas corridas, carpete; armários embutidos; portas trabalhadas; pintura a látex, resinas ou similar.
+
+• Dependências: 4 (quatro) ou mais dormitórios; vários banheiros completos; normalmente com banheira, com louças e metais da melhor qualidade, incluindo 1 (uma) ou mais suítes com ou sem “closets”; dependências para 2 (dois) ou mais empregados; com 3 (três) ou mais vagas de garagem por apartamento; eventualmente com “solarium” e/ou adega.
+
+• Dependências acessórias de uso comum: 4 (quatro) ou mais das seguintes: salão de festas, salão de jogos, jardins, “play-ground”, piscina, sauna, quadra esportiva, sistema de segurança.
+
+• Elevadores: social, eventualmente com “hall” privativo, e elevador de serviço de uso comum.
+
+• Instalações elétricas e hidráulicas: completas e compatíveis com o tamanho da edificação.
+
+Tipo 3 – Comercial Horizontal
+
+Imóveis comerciais, de serviços ou mistos, com até 2 (dois) pavimentos, com ou sem subsolo.
+
+Padrão “A”
+
+• Arquitetura: vãos e aberturas pequenos; caixilhos simples de ferro ou madeira; vidros comuns; pé-direito até 3m (três metros).
+
+• Estrutura de alvenaria simples.
+
+• Acabamento externo: paredes rebocadas; pintura a cal ou látex.
+
+• Acabamento interno: paredes rebocadas, barra lisa; piso cimentado ou cerâmico; forro simples ou ausente; pintura a cal ou a látex.
+
+• Instalações sanitárias: mínimas.
+
+Padrão “B”
+
+• Arquitetura: vãos médios (em torno de 8m (oito metros&cd_integra_lei=90321' target='_blank'>Arquivo nº ))/; caixilhos de ferro ou madeira, eventualmente de alumínio; vidros comuns; pé-direito até 3 m (três metros).
+
+• Estrutura de alvenaria ou de concreto armado, revestido.
+
+• Acabamento externo: paredes rebocadas, pastilhas, litocerâmicas; pintura a látex ou similar.
+
+• Acabamento interno: paredes rebocadas, revestidas com granilite, azulejos até meiaaltura; pisos cerâmicos, granilite, tacos, borracha; forro simples ou ausente; pintura a látex ou similar.
+
+• Circulação: corredores de circulação, escadas e/ou rampas estreitos; eventualmente elevador para carga.
+
+• Instalações sanitárias: banheiros privativos ou de uso comum, compatíveis com o uso da edificação.
+
+Padrão “C”
+
+• Arquitetura: preocupação com estilo; grandes vãos; caixilho de ferro, alumínio ou madeira; vidros temperados; pé-direito até 5m (cinco metros).
+
+• Estrutura de concreto armado, revestido ou aparente.
+
+• Acabamento externo: revestimento com pedras rústicas ou polidas, relevos, painéis metálicos,revestimentos que dispensam pintura; pintura a látex, resinas ou similar.
+
+• Acabamento interno: preocupação com a arquitetura interna; massa corrida, azulejos decorados, laminados plásticos; pisos cerâmicos, laminados, granilite, carpete; forros especiais; pintura a látex, resinas ou similar.
+
+• Circulação: corredores de circulação, escadas e/ou rampas largos; eventualmente com escadas rolantes e/ou elevadores.
+
+• Instalações sanitárias: banheiros privativos ou de uso comum; louças e metais de boa qualidade.
+
+• Dependências acessórias: existência de garagens ou vagas para estacionamento; eventual existência de plataformas para carga ou descarga.
+
+• Instalações especiais: instalações para equipamentos de ar-condicionado central, de comunicação interna e de segurança contra roubo; câmaras frigoríficas.
+
+Padrão “D”
+
+• Arquitetura: projeto específico à destinação econômica da construção, sendo, algumas vezes, de estilo inovador; caixilhos de alumínio; vidros temperados.
+
+• Estrutura de concreto armado, revestido ou aparente; eventualmente de aço; algumas vezes, de concepção arrojada.
+
+• Acabamento externo: emprego de materiais nobres condicionados pela arquitetura, de modo a formar conjunto harmônico; revestimentos; com pedras polidas; painéis decorativos lisos ou em relevo; revestimentos que dispensam pintura.
+
+• Acabamento interno: requintado, normalmente com projeto específico de arquitetura interna; eventual ocorrência de jardins; mezaninos; espelhos d’água; emprego de materiais nobres; massa corrida, madeiras de lei, metais, pedras polidas (no revestimento e/ou piso); piso romano, carpete; forros especiais; pinturas especiais.
+
+• Circulação: corredores de circulação, escadas e/ou rampas largos; eventualmente com escadas rolantes e/ou elevadores.
+
+• Instalações sanitárias: banheiros privativos ou de uso comum; louças e metais de boa qualidade.
+
+• Dependências acessórias: existência de garagens ou vagas para estacionamento; eventual existência de plataformas para carga ou descarga.
+
+• Instalações especiais: instalações para equipamentos de ar-condicionado central, de comunicação interna e segurança contra roubo e incêndio (“sprinklers”); câmaras frigoríficas.
+
+Tipo 4 – Comercial Vertical
+
+Imóveis comerciais, de serviços ou mistos, com mais de 2 (dois) pavimentos.
+
+Padrão “A” – 3 (três) pavimentos
+
+• Arquitetura: vãos e aberturas pequenos; caixilhos simples de ferro ou madeira; vidros comuns; pé-direito até 3m (três metros).
+
+• Estrutura de concreto armado, revestido, ou de blocos estruturais de concreto, sem revestimento.
+
+• Acabamento externo: paredes rebocadas; pintura a cal ou similar.
+
+• Acabamento interno: paredes rebocadas; pisos cerâmicos ou tacos; forro simples ou ausente; pintura a cal ou látex.
+
+• Circulação: saguões pequenos; corredores de circulação e escadas estreitos; ausência de elevadores e escadas rolantes.
+
+• Instalações sanitárias: mínimas.
+
+Padrão “B” – 3 (três) ou mais pavimentos
+
+• Arquitetura simples; vãos médios (em torno de 6m (seis metros&cd_integra_lei=90321' target='_blank'>Arquivo nº ))/; caixilhos de ferro, madeira ou, eventualmente, alumínio; vidros comuns; pé-direito até 4m (quatro metros) no térreo.
+
+• Estrutura de concreto armado, revestido.
+
+• Acabamento externo: paredes rebocadas, pastilhas, litocerâmicas; pintura a látex ou similar.
+
+• Acabamento interno: paredes rebocadas ou azulejadas; pisos cerâmicos, granilite, tacos, borracha; forro de madeira ou laje; pintura a látex ou similar.
+
+• Circulação: saguões médios; corredores de circulação e escadas de largura média; elevadores compatíveis com o uso, tipo e tamanho da edificação.
+
+• Instalações sanitárias: banheiros privativos ou de uso comum, compatíveis com o uso da edificação.
+
+Padrão “C” – 3 (três) ou mais pavimentos
+
+• Arquitetura: preocupação com estilo; caixilhos de ferro, alumínio ou madeira; vidros temperados; pé-direito até 5m (cinco metros) no térreo.
+
+• Estrutura de concreto armado, revestido ou aparente.
+
+• Acabamento externo: revestimentos com pedras rústicas ou polidas, revestimentos que dispensam pintura; pintura a látex, resinas ou similar.
+
+• Acabamento interno: revestimentos com massa corridas, azulejos, lambris de madeira, laminados plásticos; pisos cerâmicos de primeira qualidade, laminados, granilite, carpete; forros especiais; pintura a látex, resinas ou similar.
+
+• Circulação: saguões amplos; corredores de circulação e escadas largos; elevadores amplos e/ou escadas rolantes; elevador para carga.
+
+• Instalações sanitárias: banheiros privativos ou de uso comum; louças e metais de boa qualidade.
+
+• Dependências acessórias: existência de garagens ou vagas para estacionamento; eventual existência de plataformas para carga ou descarga.
+
+• Instalações especiais: instalações para equipamentos de ar-condicionado central, de comunicação interna e de segurança contra roubo.
+
+Padrão “D” – 3 (três) ou mais pavimentos
+
+• Arquitetura: projeto de estilo inovador, caixilhos de alumínio; vidros temperados; pédireito até 5m (cinco metros) no térreo.
+
+• Estrutura de concreto armado, revestido ou aparente.
+
+• Acabamento externo: revestimentos condicionados pela arquitetura, formando conjunto harmônico com a mesma; pedras polidas, painéis decorativos lisos ou em relevo, revestimentos que dispensam pintura; pintura a látex, resinas ou similar.
+
+• Acabamento interno: requintado, normalmente com projeto específico de arquitetura interna; eventual ocorrência de jardins, mezanino, espelhos d’água; emprego de materiais nobres: massa corrida, madeiras de lei, metais, pedras polidas (no revestimento e/ou piso); piso romano, carpete; forros especiais; pinturas especiais.
+
+• Circulação: saguões amplos; corredores de circulação e escadas largos; elevadores rápidos e amplos, eventualmente panorâmicos, e/ou escadas rolantes; elevador para carga.
+
+• Instalações sanitárias: banheiros privativos ou de uso comum; louças e metais de boa qualidade.
+
+• Dependências acessórias: existência de garagens ou vagas para estacionamento; eventual existência de plataformas para carga ou descarga.
+
+• Instalações especiais: instalações para equipamentos de ar-condicionado central, de comunicação interna e de segurança contra roubo e incêndio (“sprinklers”).
+
+| Tipo 5 | Padrões |
+
+| Barracão/Telheiro | A | B | - | - | - |
+
+| Oficina | A | B | C | D | - |
+
+| Posto de Serviço | - | B | C | D | - |
+
+| Armazém/Depósito | - | B | C | D | - |
+
+| Indústria | - | B | C | D | E |
+
+Padrão “A” – 1 (um) pavimento
+
+• Pé-direito até 4m (quatro metros).
+
+• Vãos de até 5m (cinco metros).
+
+• Arquitetura: sem preocupação arquitetônica; fechamento lateral de até 50% (cinqüenta por cento) em alvenaria de tijolos ou blocos; normalmente sem esquadrias; cobertura com telhas de barro ou de fibrocimento de qualidade inferior.
+
+• Estrutura de madeira, eventualmente com pilares de alvenaria ou concreto; cobertura apoiada sobre estrutura simples de madeira.
+
+• Revestimentos: acabamento rústico; normalmente com ausência de revestimentos; piso em terra batida ou simples cimentado; sem forro.
+
+• Instalações hidráulicas, sanitárias e elétricas: mínimas.
+
+Padrão “B” – 1 (um) pavimento
+
+• Pé-direito até 6m (seis metros)
+
+• Vãos até 10m (dez metros)
+
+• Arquitetura: sem preocupação arquitetônica; fechamento lateral em alvenarias de tijolos ou blocos; esquadrias de madeira ou ferro, simples e reduzidas; cobertura com telhas de barro ou de fibrocimento.
+
+• Estrutura de pequeno porte, de alvenaria, eventualmente com pilares e vigas de concreto armado ou aço; cobertura apoiada sobre estrutura de madeira (tesouras).
+
+• Revestimentos: paredes rebocadas; pisos de concreto simples ou cimentados; sem forro; pintura a cal.
+
+• Instalações hidráulicas, sanitárias e elétricas: de qualidade inferior, simples e reduzidas.
+
+• Outras dependências: eventualmente com escritório de pequenas dimensões.
+
+Padrão “C” – Até 2 (dois) pavimentos
+
+• Pé-direito até 6m (seis metros).
+
+• Vãos até 10m (dez metros).
+
+• Arquitetura: projeto simples; fechamento lateral em alvenaria de tijolos, blocos ou fibrocimento; esquadrias de madeira ou ferro; normalmente com coberturas de telhas de fibrocimento ou de barro.
+
+• Estrutura visível (elementos estruturais identificáveis), normalmente de porte médio, de concreto armado ou metálica; estrutura de cobertura constituída por treliças simples de madeira ou metálicas.
+
+• Revestimentos: paredes rebocadas; pisos simples ou modulados de concreto, cimentados ou cerâmicos; presença parcial de forro; pintura a cal ou látex.
+
+• Instalações hidráulicas, sanitárias e elétricas de qualidade média, adequadas às necessidades mínimas; sanitários com poucas peças.
+
+• Outras dependências: pequenas divisões para escritórios; eventualmente com refeitório e vestiário.
+
+• Instalações gerais: uma das seguintes: casa de força, instalações hidráulicas para combate a incêndio, elevador para carga.
+
+• Instalações especiais (somente para indústrias): até 2 (duas) das seguintes: reservatório enterrado ou semi-enterrado, reservatório elevado, estrutura para ponte rolante, fundações especiais para máquinas, tubulações para vapor, ar comprimido, gás; instalações frigoríficas.
+
+Padrão “D” – 1 (um) ou mais pavimentos
+
+• Pé-direito acima de 5m (cinco metros).
+
+• Vãos acima de 8m (oito metros) em pelo menos 1 (um) pavimento.
+
+• Arquitetura: preocupação com o estilo; fechamento lateral em alvenaria, fibrocimento, pré-moldados; esquadrias de ferro ou alumínio; cobertura com telhas de fibrocimento ou alumínio.
+
+• Estrutura de concreto armado ou eventualmente metálica; estrutura de cobertura constituída por treliças (tesouras) ou arcos metálicos ou por vigas de concreto armado.
+
+• Revestimentos: paredes rebocadas, massa fina parcial, azulejos nas áreas úmidas; pisos de concreto, cerâmicos, sintéticos, industriais (resistentes à abrasão e aos agentes químicos) ou modulares intertravados; eventual presença de forro; pintura a látex, resinas ou similar.
+
+• Instalações hidráulicas, sanitárias e elétricas: completas, compatíveis com o tamanho e o uso da edificação.
+
+• Outras dependências: instalações independentes para atividades administrativas e com até 4 (quatro) das seguintes: almoxarifado, vestiário, refeitório, recepção, portaria, plataformas para carga ou descarga de matérias-primas e/ou produtos acabados, áreas de circulação de pessoas e/ou veículos, pátios para estacionamentos de veículos comerciais e/ou de visitantes.
+
+• Instalações gerais: até 3 (três) das seguintes: casa de força, instalações hidráulicas para combate a incêndio, elevadores para pessoas, elevador para carga, instalações para equipamentos de ar condicionado central.
+
+• Instalações especiais (somente para indústrias): até 3 (três) das seguintes: estação de tratamento de água, estação de tratamento de esgotos ou resíduos, reservatório enterrado ou semi-enterrado, reservatório elevado, fornos, estrutura para ponte rolante, fundações especiais para máquinas, reservatórios cilíndricos de armazenamento, tubulações para vapor, ar comprimido, gás; pontes para suporte de tubulações (“pipe-rack”), instalações frigoríficas, instalações para resfriamento e aeração de água, balança para caminhões.
+
+Padrão “E” – 1 (um) ou mais pavimentos
+
+• Pé-direito acima de 5m (cinco metros)
+
+• Vãos acima de 8m (oito metros) em pelo menos 1 (um) pavimento.
+
+• Arquitetura: projeto arquitetônico complexo, resultante tanto da preocupação com o estilo e forma, quanto, no caso de indústria, de sua conciliação harmônica com os demais projetos de engenharia; projeto paisagístico; fechamento lateral em alvenaria, fibrocimento, chapas perfiladas de alumínio, pré-moldados, concreto aparente; esquadrias de ferro, alumínio ou alumínio anodizado; cobertura com telhas de fibrocimento ou alumínio.
+
+• Estrutura de grande porte, arrojada, de concreto armado ou metálica; no caso de indústria, resultante de projeto integrado de engenharia (civil, mecânica, elétrica, metalúrgica, de minas, etc.); estrutura de cobertura constituída por peças de grandes vãos, tais como:treliças (tesouras), arcos ou arcos atreliçados, vigas pré-moldadas de concreto protendido ou vigas de concreto armado moldadas “in loco”.
+
+• Revestimentos: paredes rebocadas, massa fina parcial, azulejos nas áreas úmidas; pisos de concreto, cerâmicos, sintéticos, industriais (resistentes à abrasão e aos agentes químicos) ou modulares intertravados; eventual presença de forro; pintura a látex, resinas ou similar.
+
+• Instalações hidráulicas, sanitárias e elétricas: completas, compatíveis com o tamanho e o uso da edificação, resultante de projetos específicos.
+
+• Outras dependências: instalações independentes, de alto padrão, para atividades administrativas e com mais de 4 (quatro) das seguintes dependências: almoxarifado, vestiário, refeitório, recepção, portaria, plataformas para carga ou descarga de matériasprimas e/ou produtos acabados, áreas de circulação de pessoas e/ou veículos, pátios para estacionamentos de veículos comerciais e/ou de visitantes.
+
+• Instalações gerais: mais de 3 (três) das seguintes: casa de força, instalações hidráulicas para combate a incêndio, elevadores para pessoas, elevador para carga, instalações para equipamentos de ar condicionado central.
+
+• Instalações especiais (somente para indústrias): mais de 3 (três) das seguintes: estação de tratamento de água, estação de tratamento de esgotos ou resíduos, reservatório enterrado ou semi-enterrado, reservatório elevado, fornos, estrutura para ponte rolante, fundações especiais para máquinas, reservatórios cilíndricos de armazenamento, tubulações para vapor, ar comprimido, gás; pontes para suporte de tubulações (“pipe-rack”), instalações frigoríficas, instalações para resfriamento e aeração de água, balança para caminhões.
+
+| Tipo 6 | Padrões |
+
+| Edifício de Garagens - Prédio vertical, des­tinado única e exclusivamente à guarda de veículos | A | | | |
+
+| Templo; Clube, Ginásio ou Estádio Esporti­vos; Hipódromo; Estações Ferroviária, Ro­doviária ou Metroviária; Aeroporto; Central de Abastecimento; Mercado Municipal; Teatro; Cinema; Museu; Parque de Diver­são; Parque Zoológico; Reservatório; e outras Edificações Assemelhadas | | B | C | D |
+
+Padrão “A” – 3 (três) ou mais pavimentos
+
+• Pé-direito até 3m (três metros).
+
+• Arquitetura funcional, sem preocupação com estilo e formas das fachadas e do conjunto: ausência de esquadrias.
+
+• Estrutura de concreto armado; vãos médios.
+
+• Cobertura em laje de concreto armado impermeabilizada, ou com telhas de fibrocimento.
+
+• Revestimentos: rudimentar; paredes internas e tetos sem revestimento; pisos cimentados.
+
+• Instalações hidráulicas, sanitárias e elétricas: mínimas, sem instalações sanitárias na
+
+maioria dos pavimentos.
+
+Padrão “B” – Normalmente 1 (um) pavimento
+
+• Pé-direito até 4m (quatro metros)
+
+• Arquitetura: sem preocupação arquitetônica.
+
+• Estrutura de madeira, alvenaria ou metálica; pequenos vãos.
+
+• Cobertura: constituída por telhas de barro ou de fibrocimento; sustentada por estrutura de madeira.
+
+• Revestimentos: com ou sem vedação lateral; pisos de terra ou cimentados.
+
+• Instalações administrativas pequenas e simples.
+
+• Instalações hidráulicas, sanitárias e elétricas: simples e reduzidas.
+
+Padrão “C” – 1 (um) ou mais pavimentos
+
+• Pé-direito até 6m (seis metros).
+
+• Arquitetura: preocupação com a funcionalidade da edificação.
+
+• Estrutura de concreto armado ou metálico; vãos médios.
+
+• Cobertura: constituída por telhas de fibrocimento ou alumínio; sustentada por treliças metálicas ou de madeira ou por vigas de concreto armado ou aço.
+
+• Revestimentos: paredes rebocadas; pisos com materiais de boa qualidade; pintura a látex ou similar.
+
+• Instalações administrativas de tamanho médio e com acabamento de qualidade média.
+
+• Instalações hidráulicas, sanitárias e elétricas: de qualidade média e adequadas às necessidades mínimas para o uso da edificação.
+
+Padrão “D” – 1 (um) ou mais pavimentos
+
+• Pé-direito acima de 6m (seis metros)
+
+• Arquitetura: normalmente com projeto arquitetônico específico, preocupação com estilo, forma e funcionalidade da edificação.
+
+• Estrutura de concreto armado ou metálica; grandes vãos.
+
+• Cobertura: constituída por telhas de fibrocimento ou alumínio; sustentada por treliças
+
+planas, treliças espaciais tubulares, arcos, arcos atreliçados metálicos, ou por vigas de aço de concreto protendido.
+
+• Revestimentos: paredes rebocadas; pisos com materiais de qualidade superior; pintura a látex, resinas ou similar.
+
+• Instalações administrativas de porte e com acabamento de boa qualidade.
+
+• Instalações hidráulicas, sanitárias e elétricas: de boa qualidade e compatíveis com o tamanho e o uso da edificação.
+
+ANEXO I, INTEGRANTE DA LEI Nº 15.044, DE 3 DE DEZEMBRO DE 2009
+
+DESCRIÇÃO DE NOVOS PADRÕES DE CONSTRUÇÃO A SEREM INCORPORADOS À TABELA V, QUE INTEGRA A Lei nº 10.235, de 16 de dezembro de 1986
+
+PADRÃO DE CONSTRUÇÃO “F”, A SER INCORPORADO ÀS DESCRIÇÕES DE PADRÕES DO TIPO “1” – RESIDENCIAL HORIZONTAL - INTEGRANTE DA TABELA V, ANEXA À LEI 10.235, DE 16 DE DEZEMBRO DE 1986
+
+PADRÃO F
+
+ÁREA BRUTA, NORMALMENTE, ACIMA DE 700 m² - UM OU MAIS PAVIMENTOS
+
+Arquitetura: prédio isolado com projeto arquitetônico arrojado e/ou suntuoso; vãos grandes; esquadrias de madeira, ferro, alumínio anodizado ou alumínio pintado, eventualmente com sistema de abertura e fechamento automatizado e/ou vidros duplos/anti-ruído, de forma, acabamento ou dimensões especiais.(Incluído pela Lei nº 15.044/2009)
+
+Estrutura de concreto armado revestido ou aparente, de concreto protendido ou de aço.(Incluído pela Lei nº 15.044/2009)
+
+Acabamento externo: revestimento condicionado geralmente pela arquitetura, com emprego comum de: massa fina, pedras, cerâmicas, revestimentos que dispensam pintura; pintura a látex, resinas ou similar.(Incluído pela Lei nº 15.044/2009)
+
+Acabamento interno: requintado, com massa corrida, papéis de parede especiais, azulejos especiais, mármores de dimensões especiais, pastilhas de vidro, laminados, resinas especiais, lambris de madeira; pisos cerâmicos especiais, pedras rústicas ou polidas, tábuas corridas de madeira de lei de 1ª, carpetes especiais; forro de laje de gesso acartonado trabalhado ou madeira nobre; armários embutidos da melhor qualidade; portas trabalhadas e/ou blindadas; pintura a látex, resinas ou similar.(Incluído pela Lei nº 15.044/2009)
+
+Dependências: quatro ou mais suítes com banheiros completos com louças e metais da melhor qualidade, incluindo uma suíte principal com um ou mais “closets” e um ou mais banheiros, normalmente contendo banheira de hidromassagem, bancada com duas cubas, box independente e sauna; seis ou mais das seguintes dependências: escritório, biblioteca, sala íntima, sala de TV ou som, home theater, sala de jantar, sala de almoço, dependências para dois ou mais empregados, sala para motoristas, abrigo ou garagem para quatro ou mais carros, salão de festas, salão de jogos, jardim de inverno, lareira, adega climatizada, despensa, box para lavagem de carros, depósito para louças, cristais e baixelas, cômodo de segurança blindado com sistema de comunicação inviolável, elevador para pessoas, depósito para malas, baús e valises, quarto de hóspedes.(Incluído pela Lei nº 15.044/2009)
+
+Dependências acessórias: quatro ou mais das seguintes: jardins amplos com tratamento paisagístico, piscina eventualmente com formas especiais, vestiário, sauna, quadra esportiva, espaço gourmet, gazebo, guarita, churrasqueira.(Incluído pela Lei nº 15.044/2009)
+
+Instalações elétricas e hidráulicas: completas, eventualmente com instalações independentes para telefonia e informática, compatíveis com as características da edificação.(Incluído pela Lei nº 15.044/2009)
+
+Instalações especiais: eventualmente, instalações para equipamentos de ar condicionado central, gerador de energia, aquecimento de piscina, câmara frigorífica, segurança contra roubo, segurança contra incêndio, aquecimento dos pisos frios, iluminação de piscina com fibra ótica ou “leds”.(Incluído pela Lei nº 15.044/2009)
+
+PADRÃO DE CONSTRUÇÃO “F”, A SER INCORPORADO ÀS DESCRIÇÕES DE PADRÕES DO TIPO “2” – RESIDENCIAL VERTICAL - INTEGRANTE DA TABELA V, ANEXA À LEI 10.235, DE 16 DE DEZEMBRO DE 1986
+
+PADRÃO F
+
+ÁREA BRUTA, NORMALMENTE, ACIMA DE 600 m² - EM GERAL, CINCO OU MAIS PAVIMENTOS COM UM APARTAMENTO POR ANDAR
+
+Arquitetura arrojada e/ou suntuosa, normalmente, com grandes vãos; pé direito elevado no hall de entrada; presença de sacadas ou varandas eventualmente dotadas de churrasqueiras e/ou piscinas; eventualmente apartamentos dúplex ou tríplex (cobertura); geralmente com tratamento paisagístico; esquadrias de materiais nobres, eventualmente com sistema de abertura e fechamento automatizado e/ou vidros duplos anti-ruídos, com formas e dimensões especiais.(Incluído pela Lei nº 15.044/2009)
+
+Estrutura de concreto armado, revestido ou aparente; de concreto protendido ou de aço.(Incluído pela Lei nº 15.044/2009)
+
+Acabamento externo: emprego de materiais nobres condicionados pela arquitetura, formando um conjunto harmônico; revestimentos com pedras rústicas, apicoadas ou polidas; pastilhas de vidro; painéis decorativos lisos ou em relevo; paredes rebocadas, relevos ou revestimentos que dispensam pintura; pintura a látex, resinas ou similar.(Incluído pela Lei nº 15.044/2009)
+
+Acabamento interno: requintado, com massa corrida, papel de parede especial, lambris de madeira, azulejos especiais decorados; pastilhas de vidro, mármores com dimensões especiais, laminados, resinas especiais, pisos cerâmicos especiais ou de pedras rústicas ou polidas, tábuas corridas de madeira de lei de 1ª, carpetes especiais; forro de laje de gesso acartonado trabalhado ou madeira nobre; armários embutidos da melhor qualidade; portas trabalhadas e/ou blindadas; pintura a látex, resinas ou similar.(Incluído pela Lei nº 15.044/2009)
+
+Dependências: quatro ou mais suítes com banheiros completos com louças e metais da melhor qualidade, incluindo uma suíte principal com um ou mais “closets” e um ou mais banheiros, normalmente contendo banheira de hidromassagem, bancada com duas cubas, box independente e sauna; seis ou mais das seguintes dependências: escritório, biblioteca, sala íntima, sala de TV ou som, home theater, sala de jantar, sala de almoço, dependências para dois ou mais empregados, quatro ou mais vagas de garagem por apartamento, , box para lavagem de carros, jardim de inverno, lareira, despensa, depósito para louças, cristais e baixelas, cômodo de segurança blindado com sistema de comunicação inviolável, depósito para malas, baús e valises, adega climatizada no subsolo, depósito no subsolo.(Incluído pela Lei nº 15.044/2009)
+
+Dependências acessórias de uso comum: cinco ou mais das seguintes: estacionamento para visitantes, salão de festas, salão de jogos, sala de ginástica, sauna, sala para motoristas, jardins amplos, “play-ground”, piscina e/ou raia, quadra esportiva, churrasqueira, espaço gourmet, gazebo.(Incluído pela Lei nº 15.044/2009)
+
+Elevadores: um ou mais sociais com “hall” privativo, e um ou mais elevadores de serviço, eventualmente com sistema de bloqueio.(Incluído pela Lei nº 15.044/2009)
+
+Instalações elétricas e hidráulicas: completas, eventualmente com instalação independente para telefonia e nformática, compatíveis com as características da edificação.(Incluído pela Lei nº 15.044/2009)
+
+Instalações especiais: eventualmente, instalação para equipamento de ar condicionado central, geradores de energia para a carga total do edifício, aquecimento de piscina, segurança contra roubo, cômodo de segurança blindado com sistema de comunicação inviolável no subsolo, guarita blindada com sistema de comunicação inviolável, aquecimento dos pisos frios.(Incluído pela Lei nº 15.044/2009)
+
+PADRÃO DE CONSTRUÇÃO “E”, A SER INCORPORADO ÀS DESCRIÇÕES DE PADRÕES DO TIPO “3” – COMERCIAL HORIZONTAL - INTEGRANTE DA TABELA V, ANEXA À LEI 10.235, DE 16 DE DEZEMBRO DE 1986
+
+PADRÃO E
+
+Arquitetura: projeto arquitetônico arrojado e/ou suntuoso; caixilhos de materiais nobres, eventualmente com sistema de abertura e fechamento automatizado e/ou vidros duplos antiruídos, com formas e dimensões especiais.(Incluído pela Lei nº 15.044/2009)
+
+Estrutura de concreto armado, revestido ou aparente; eventualmente de aço; algumas vezes, de concepção arrojada.(Incluído pela Lei nº 15.044/2009)
+
+Acabamento externo: emprego de materiais nobres condicionados pela arquitetura, de modo a formar conjunto harmônico; pele de vidro, painéis de alumínio (“alubond”), pastilhas de vidro, pedras apicoadas ou polidas, painéis decorativos lisos ou em relevo; pintura a látex, resinas ou similar.(Incluído pela Lei nº 15.044/2009)
+
+Acabamento interno: requintado, com projeto específico de arquitetura interna; eventual ocorrência de jardins, mezaninos, espelhos d’água; emprego de materiais nobres: massa corrida, pastilhas de vidro, madeiras de lei, metais, pedras apicoadas ou polidas (no revestimento e/ou piso); piso elevado para instalações; forros especiais; pinturas especiais.(Incluído pela Lei nº 15.044/2009)
+
+Circulação: corredores de circulação, escadas e/ou rampas largos; eventualmente com escadas rolantes e/ou elevadores.(Incluído pela Lei nº 15.044/2009)
+
+Instalações sanitárias: banheiros e copas de uso privativo ou comum; louças e metais da melhor qualidade.(Incluído pela Lei nº 15.044/2009)
+
+Dependências acessórias: existência de garagens ou vagas para estacionamento; eventual existência de plataformas para carga e descarga.(Incluído pela Lei nº 15.044/2009)
+
+Instalações especiais: instalações para equipamentos de ar condicionado central, de telecomunicações e informática, de comunicação interna, de segurança contra roubo e incêndio (“sprinklers”); gerador de energia; câmaras frigoríficas.(Incluído pela Lei nº 15.044/2009)
+
+PADRÃO DE CONSTRUÇÃO “E”, A SER INCORPORADO ÀS DESCRIÇÕES DE PADRÕES DO TIPO “4” – COMERCIAL VERTICAL - INTEGRANTE DA TABELA V, ANEXA À LEI 10.235, DE 16 DE DEZEMBRO DE 1986
+
+PADRÃO E
+
+TRÊS OU MAIS PAVIMENTOS
+
+Arquitetura: prédio isolado com projeto arquitetônico arrojado e/ou suntuoso; caixilhos de materiais nobres, eventualmente com sistema de abertura e fechamento automatizado e/ou vidros duplos anti-ruídos, com formas e dimensões especiais; pé-direito acima de 5 m no térreo.(Incluído pela Lei nº 15.044/2009)
+
+Estrutura de concreto armado, revestido ou aparente; de concreto protendido ou de aço.(Incluído pela Lei nº 15.044/2009)
+
+Acabamento externo: emprego de materiais nobres condicionados pela arquitetura, formando conjunto harmônico; pele de vidro, painéis de alumínio (“alubond”), pastilhas de vidro, pedras apicoadas ou polidas, painéis lisos ou em relevo; pintura a látex, resinas ou similar.(Incluído pela Lei nº 15.044/2009)
+
+Acabamento interno: requintado, com projeto específico de arquitetura interna; eventual ocorrência de jardins, mezaninos, espelhos d’água; emprego de materiais nobres : massa corrida, pastilhas de vidro, madeiras de lei, metais, pedras apicoadas ou polidas (no revestimento e/ou piso); piso elevado para instalações; forros especiais; pinturas especiais.(Incluído pela Lei nº 15.044/2009)
+
+Circulação: saguões amplos; corredores de circulação e escadas largos; elevadores rápidos e amplos, eventualmente panorâmicos, e/ou escadas rolantes; elevador para carga.(Incluído pela Lei nº 15.044/2009)
+
+Instalações sanitárias: banheiros e copas de uso privativo; louças e metais da melhor qualidade.(Incluído pela Lei nº 15.044/2009)
+
+Dependências acessórias: existência de garagens ou vagas para estacionamento, dependências para a administração do condomínio; eventual existência de sala de segurança blindada com sistema de comunicação inviolável, sala de ginástica, salão para convenções, heliponto, plataformas para carga e descarga.(Incluído pela Lei nº 15.044/2009)
+
+Instalações especiais: instalações para equipamentos de ar condicionado central, de telecomunicações e informática, de comunicação interna, de segurança contra roubo, de segurança contra incêndio (“sprinklers”), gerador de energia, sistema de acesso por meio de catracas eletrônicas.(Incluído pela Lei nº 15.044/2009)
+
+Tabela VI - Tipos e padrões de construção
+
+Valor unitário de metro quadrado de construção
+
+TABELA VI (Redação dada pela Lei nº 10.805/1989)
+
+Tipos e Padrões de Construção - Valor Unitário de Metro Quadrado de Construção
+
+|Tipo/Padrão|Valor (NCz$)|Tipo/Padrão|Valor (NCz$)|
+
+|===========|============|===========|============|
+
+|1-A | 826,00|4-A | 1.385,00|
+
+|-----------|------------|-----------|------------|
+
+|1-B | 1.074,00|4-B | 1.904,00|
+
+|-----------|------------|-----------|------------|
+
+|1-C | 1.365,00|4-C | 2.595,00|
+
+|-----------|------------|-----------|------------|
+
+|1-D | 1.846,00|4-D | 3.776,00|
+
+|-----------|------------|-----------|------------|
+
+|1-E | 2.437,00| | |
+
+|-----------|------------|-----------|------------|
+
+| | |5-A | 1.117,00|
+
+|-----------|------------|-----------|------------|
+
+|2-A | 846,00|5-B | 1.457,00|
+
+|-----------|------------|-----------|------------|
+
+|2-B | 1.105,00|5-C | 1.828,00|
+
+|-----------|------------|-----------|------------|
+
+|2-C | 1.578,00|5-D | 2.600,00|
+
+|-----------|------------|-----------|------------|
+
+|2-D | 2.216,00|5-E | 3.763,00|
+
+|-----------|------------|-----------|------------|
+
+|2-E | 2.980,00| | |
+
+|-----------|------------|-----------|------------|
+
+| | |6-A | 924,00|
+
+|-----------|------------|-----------|------------|
+
+|3-A | 981,00|6-B | 1.301,00|
+
+|-----------|------------|-----------|------------|
+
+|3-B | 1.267,00|6-C | 2.068,00|
+
+|-----------|------------|-----------|------------|
+
+|3-C | 1.749,00|6-D | 3.016,00|
+
+|-----------|------------|-----------|------------|
+
+|3-D | 2.311,00| | |
+
+|___________|____________|___________|____________|
+
+TABELA VI (Redação dada pela Lei nº 10.921/1990)
+
+TIPOS E PADRÕES DE CONSTRUÇÃO VALOR UNITÁRIO DE METRO QUADRADO DE CONSTRUÇÃO
+
+|==============|=============|==============|=============|
+
+|1-A | 10.802,00|4-A | 11.481,00|
+
+|--------------|-------------|--------------|-------------|
+
+|1-B | 14.039,00|4-B | 19.921,00|
+
+|--------------|-------------|--------------|-------------|
+
+|1-C | 17.841,00|4-C | 27.154,00|
+
+|--------------|-------------|--------------|-------------|
+
+|1-D | 24.150,00|4-D | 39.431,00|
+
+|--------------|-------------|--------------|-------------|
+
+|1-E | 31.794,00| | |
+
+|--------------|-------------|--------------|-------------|
+
+|2-A | 11.066,00|5-A | 11.679,00|
+
+|--------------|-------------|--------------|-------------|
+
+|2-B | 11.247,00|5-B | 15.241,00|
+
+|--------------|-------------|--------------|-------------|
+
+|2-C | 20.635,00|5-C | 19.106,00|
+
+|--------------|-------------|--------------|-------------|
+
+|2-D | 29.923,00|5-D | 27.161,00|
+
+|--------------|-------------|--------------|-------------|
+
+|2-E | 38.957,00|5-E | 39.361,00|
+
+|--------------|-------------|--------------|-------------|
+
+|3-A | 9.949,00|6-A | 9.669,00|
+
+|--------------|-------------|--------------|-------------|
+
+|3-B | 13.231,00|6-B | 13.620,00|
+
+|--------------|-------------|--------------|-------------|
+
+|3-C | 18.291,00|6-C | 21.605,000|
+
+|--------------|-------------|--------------|-------------|
+
+|3-D | 21.166,00|6-D | 31.546,00|
+
+|______________|_____________|______________|_____________|
+
+Tabela VI, da Lei nº 10.235, de 16 de dezembro de 1986 (Redação dada pela Lei nº 11.152/1991)
+
+Tipo e Padrões de Construção Valores Unitários de Metro Quadrado de Construção
+
+Tabela VI, da Lei nº 10.235, de 16 de dezembro de 1986 (Redação dada pela Lei nº 13.250/2001)
+
+Tipo-padrão......Valor (R$)
+
+1-A..................225,00
+
+1-B..................275,00
+
+1-C..................350,00
+
+1-D..................450,00
+
+1-E..................575,00
+
+2-A..................250,00
+
+2-B..................325,00
+
+2-C..................425,00
+
+2-D..................550,00
+
+2-E..................750,00
+
+3-A..................250,00
+
+3-B..................350,00
+
+3-C..................450,00
+
+3-D..................550,00
+
+4-A..................325,00
+
+4-B..................425,00
+
+4-C..................550,00
+
+4-D..................775,00
+
+5-A..................200,00
+
+5-B..................250,00
+
+5-C..................325,00
+
+5-D..................475,00
+
+5-E..................700,00
+
+6-A..................225,00
+
+6-B..................300,00
+
+6-C..................425,00
+
+6-D..................550,00
+
+ANEXO II, INTEGRANTE DA LEI Nº 15.044, DE 3 DE DEZEMBRO DE 2009
+
+TABELA DE VALORES UNITÁRIOS DE METRO QUADRADO DE CONSTRUÇÃO QUE SUBSTITUI A TABELA VI QUE INTEGRA A Lei nº 10.235, de 16 de dezembro de 1986
+
+TABELA VI - TIPOS E PADRÕES DE CONSTRUÇÃO (Redação dada pela Lei nº 15.044/2009)
+
+| |VALOR UNITÁRIO|
+
+| |DE METRO QUA-|
+
+| |DRADO DE CONS-|
+
+| |TRUÇÃO |
+
+|----+------|--------------|
+
+|TIPO|PADRÃO| VALOR - R$ |
+
+|====|======|==============|
+
+|1 |A | 410,00|
+
+|----|------|--------------|
+
+|1 |B | 500,00|
+
+|----|------|--------------|
+
+|1 |C | 635,00|
+
+|----|------|--------------|
+
+|1 |D | 855,00|
+
+|----|------|--------------|
+
+|1 |E | 1.050,00|
+
+|----|------|--------------|
+
+|1 |F | 1.280,00|
+
+|----|------|--------------|
+
+|2 |A | 455,00|
+
+|----|------|--------------|
+
+|2 |B | 590,00|
+
+|----|------|--------------|
+
+|2 |C | 770,00|
+
+|----|------|--------------|
+
+|2 |D | 1.010,00|
+
+|----|------|--------------|
+
+|2 |E | 1.275,00|
+
+|----|------|--------------|
+
+|2 |F | 1.555,00|
+
+|----|------|--------------|
+
+|3 |A | 440,00|
+
+|----|------|--------------|
+
+|3 |B | 620,00|
+
+|----|------|--------------|
+
+|3 |C | 785,00|
+
+|----|------|--------------|
+
+|3 |D | 960,00|
+
+|----|------|--------------|
+
+|3 |E | 1.170,00|
+
+|----|------|--------------|
+
+|4 |A | 590,00|
+
+|----|------|--------------|
+
+|4 |B | 770,00|
+
+|----|------|--------------|
+
+|4 |C | 945,00|
+
+|----|------|--------------|
+
+|4 |D | 1.210,00|
+
+|----|------|--------------|
+
+|4 |E | 1.475,00|
+
+|----|------|--------------|
+
+|5 |A | 315,00|
+
+|----|------|--------------|
+
+|5 |B | 455,00|
+
+|----|------|--------------|
+
+|5 |C | 550,00|
+
+|----|------|--------------|
+
+|5 |D | 805,00|
+
+|----|------|--------------|
+
+|5 |E | 1.095,00|
+
+|----|------|--------------|
+
+|6 |A | 385,00|
+
+|----|------|--------------|
+
+|6 |B | 505,00|
+
+|----|------|--------------|
+
+|6 |C | 675,00|
+
+|----|------|--------------|
+
+|6 |D | 875,00|
+
+|____|______|______________|
+
+VER ANEXO I que substitui a tabela VI e Listagem de valores atualizada no DOC de 06/11/2013.
+
+Este texto não substitui o original publicado no Diário Oficial da Cidade de São Paulo

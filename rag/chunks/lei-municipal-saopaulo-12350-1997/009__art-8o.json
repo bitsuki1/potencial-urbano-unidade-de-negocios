@@ -1,0 +1,44 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-12350-1997::009-art-8o",
+  "lei_id": "lei-municipal-saopaulo-12350-1997",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 8º",
+  "numero": "8",
+  "header_raw": "Art. 8º As despesas decorrentes desta Lei correrão por conta das dotações orçamentárias próprias, suplementadas se necessário.",
+  "caminho_hierarquico": [
+    "Art. 8º"
+  ],
+  "texto": "Art. 8º As despesas decorrentes desta Lei correrão por conta das dotações orçamentárias próprias, suplementadas se necessário.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 12.350/1997 — São Paulo/SP",
+    "dispositivo": "Art. 8º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-12350-de-6-de-junho-de-1997",
+    "vigencia": {
+      "em_vigor": true,
+      "observacao": "Regulamentada pelo Decreto 37.302/1998 ('Lei das Fachadas'). Verificar na re-captura se ha alteracoes/revogacoes posteriores.",
+      "inicio": "1997-06-06",
+      "obs": "inicio = data da lei (proxy da publicação, convenção do corpus); cláusula verbatim: Art. 9º Esta Lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário."
+    }
+  },
+  "tema": [
+    "fachadas",
+    "restauro",
+    "preservacao",
+    "incentivo_fiscal",
+    "tombados"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Concede incentivo fiscal aos proprietários de imóveis ou aos patrocinadores das obras de recuperação externa e conservação de imóveis localizados na Área Especial de Intervenção objeto do Programa de Requalificação Urbana e Funcional do Centro de São Paulo - PROCENTRO (ou equivalente), e dá outras providências."
+}

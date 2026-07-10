@@ -1,0 +1,50 @@
+{
+  "chunk_id": "decreto-saopaulo-58289-2018::015-art-14",
+  "lei_id": "decreto-saopaulo-58289-2018",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 14",
+  "numero": "14",
+  "header_raw": "Art. 14. No caso de proposta de doação ou de desapropriação amigável de imóvel situado em áreas dotadas de infraestrutura, equipamentos e serviços públicos ocupado por famílias de baixa renda, em situação de vulnerabilidade ou risco social, a Secretaria Municipal de Habitação, excepcionalmente, analisando os ônus, encargos e dívidas incidentes sobre o imóvel, poderá manifestar aceite no recebimento do bem, para viabilizar programa de provisão de Habitação de Interesse Social, em consonância com a respectiva linha programática do Plano Municipal de Habitação.",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção II",
+    "Art. 14"
+  ],
+  "texto": "Art. 14. No caso de proposta de doação ou de desapropriação amigável de imóvel situado em áreas dotadas de infraestrutura, equipamentos e serviços públicos ocupado por famílias de baixa renda, em situação de vulnerabilidade ou risco social, a Secretaria Municipal de Habitação, excepcionalmente, analisando os ônus, encargos e dívidas incidentes sobre o imóvel, poderá manifestar aceite no recebimento do bem, para viabilizar programa de provisão de Habitação de Interesse Social, em consonância com a respectiva linha programática do Plano Municipal de Habitação.\n\nParágrafo único. Eventuais créditos tributários incidentes sobre os imóveis, que tenham se constituído até a data da doação, inscritos ou a inscrever na dívida ativa, tais como Imposto Predial e Territorial Urbano, Taxas de Limpeza, de Conservação de Vias e Logradouros Públicos e de Combate a Sinistros e Contribuição de Melhoria, são de responsabilidade do doador, salvo se lei específica autorizar a concessão da respectiva remissão ou anistia.\n\nCAPÍTULO III\n\nDOS PROCEDIMENTOS DE EXPEDIÇÃO DE DECLARAÇÃO DE POTENCIAL CONSTRUTIVO PASSÍVEL DE TRANSFERÊNCIA E DE CERTIDÃO DE TRANSFERÊNCIA DE POTENCIAL CONSTRUTIVO",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto municipal nº 58.289/2018 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção II › Art. 14",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-58289-de-26-de-junho-de-2018",
+    "vigencia": {
+      "inicio": "2018-06-26",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [],
+      "revoga": [
+        "Decreto 57.535/2016"
+      ]
+    }
+  },
+  "tema": [
+    "transferencia_do_direito_de_construir",
+    "doacao_de_imovel",
+    "potencial_construtivo",
+    "desapropriacao_amigavel",
+    "declaracao_de_potencial_construtivo"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Confere nova regulamentação à Transferência do Direito de Construir com Doação de Imóvel, nos termos dos artigos 123, 126, 127, 128, 130 e 131 da Lei nº 16.050, de 31 de julho de 2014 – Plano Diretor Estratégico – PDE; revoga o Decreto nº 57.535, de 15 de dezembro de 2016."
+}

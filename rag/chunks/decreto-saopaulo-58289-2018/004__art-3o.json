@@ -1,0 +1,49 @@
+{
+  "chunk_id": "decreto-saopaulo-58289-2018::004-art-3o",
+  "lei_id": "decreto-saopaulo-58289-2018",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 3º",
+  "numero": "3",
+  "header_raw": "Art. 3º A doação tem caráter irrevogável e irretratável, sem quaisquer ônus para a Prefeitura do Município de São Paulo, inclusive no tocante ao Imposto sobre Transmissão de Bens Imóveis por Doação, dada a isenção prevista no artigo 6º da Lei Estadual nº 10.705, de 28 de dezembro de 2000.",
+  "caminho_hierarquico": [
+    "CAPÍTULO I",
+    "Art. 3º"
+  ],
+  "texto": "Art. 3º A doação tem caráter irrevogável e irretratável, sem quaisquer ônus para a Prefeitura do Município de São Paulo, inclusive no tocante ao Imposto sobre Transmissão de Bens Imóveis por Doação, dada a isenção prevista no artigo 6º da Lei Estadual nº 10.705, de 28 de dezembro de 2000.\n\nCAPÍTULO II\n\nDA DOAÇÃO DE IMÓVEL\n\nSeção I\n\nDo Procedimento Administrativo de Análise de Propostas de Doação de Imóvel",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto municipal nº 58.289/2018 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO I › Art. 3º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-58289-de-26-de-junho-de-2018",
+    "vigencia": {
+      "inicio": "2018-06-26",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [],
+      "revoga": [
+        "Decreto 57.535/2016"
+      ]
+    }
+  },
+  "tema": [
+    "transferencia_do_direito_de_construir",
+    "doacao_de_imovel",
+    "potencial_construtivo",
+    "desapropriacao_amigavel",
+    "declaracao_de_potencial_construtivo"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Confere nova regulamentação à Transferência do Direito de Construir com Doação de Imóvel, nos termos dos artigos 123, 126, 127, 128, 130 e 131 da Lei nº 16.050, de 31 de julho de 2014 – Plano Diretor Estratégico – PDE; revoga o Decreto nº 57.535, de 15 de dezembro de 2016."
+}

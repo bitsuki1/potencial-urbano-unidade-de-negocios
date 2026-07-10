@@ -1,0 +1,44 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-12350-1997::007-art-6o",
+  "lei_id": "lei-municipal-saopaulo-12350-1997",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 6º",
+  "numero": "6",
+  "header_raw": "Art. 6º Fica concedida isenção do pagamento da Taxa para exame e verificação de projetos, prevista no Código de Obras e Edificações, aos proprietários ou aos patrocinadores das obras de recuperação de imóveis localizados na Área Especial de Intervenção.",
+  "caminho_hierarquico": [
+    "Art. 6º"
+  ],
+  "texto": "Art. 6º Fica concedida isenção do pagamento da Taxa para exame e verificação de projetos, prevista no Código de Obras e Edificações, aos proprietários ou aos patrocinadores das obras de recuperação de imóveis localizados na Área Especial de Intervenção.\n\n§ 1º Respeitadas as respectivas competências, a concessão do benefício previsto no \"caput\" deste artigo será autorizada pela Secretaria da Habitação e Desenvolvimento Urbano - SEHAB ou pela Secretaria das Administrações Regionais - SAR e dependerá de parecer favorável da Comissão PROCENTRO, quanto ao enquadramento do projeto na situação de beneficiários da isenção.\n\n§ 2º O proprietário ou patrocinador deverá requerer o benefício previsto no \"caput\" deste artigo após o protocolamento do pedido de Alvará de Aprovação do projeto de recuperação.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 12.350/1997 — São Paulo/SP",
+    "dispositivo": "Art. 6º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-12350-de-6-de-junho-de-1997",
+    "vigencia": {
+      "em_vigor": true,
+      "observacao": "Regulamentada pelo Decreto 37.302/1998 ('Lei das Fachadas'). Verificar na re-captura se ha alteracoes/revogacoes posteriores.",
+      "inicio": "1997-06-06",
+      "obs": "inicio = data da lei (proxy da publicação, convenção do corpus); cláusula verbatim: Art. 9º Esta Lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário."
+    }
+  },
+  "tema": [
+    "fachadas",
+    "restauro",
+    "preservacao",
+    "incentivo_fiscal",
+    "tombados"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Concede incentivo fiscal aos proprietários de imóveis ou aos patrocinadores das obras de recuperação externa e conservação de imóveis localizados na Área Especial de Intervenção objeto do Programa de Requalificação Urbana e Funcional do Centro de São Paulo - PROCENTRO (ou equivalente), e dá outras providências."
+}

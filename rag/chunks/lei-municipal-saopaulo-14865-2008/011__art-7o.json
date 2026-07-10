@@ -1,0 +1,44 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-14865-2008::011-art-7o",
+  "lei_id": "lei-municipal-saopaulo-14865-2008",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 7º",
+  "numero": "7",
+  "header_raw": "Art. 7º. A Lei nº 13.701, de 2003, com as respectivas alterações posteriores, passa a vigorar acrescida do art. 14-A, com a seguinte redação:",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 7º"
+  ],
+  "texto": "Art. 7º. A Lei nº 13.701, de 2003, com as respectivas alterações posteriores, passa a vigorar acrescida do art. 14-A, com a seguinte redação:\n\n\"Art. 14-A. A base de cálculo do Imposto referente aos serviços descritos no subitem 21.01 da lista do \"caput\" do art. 1º é o preço do serviço, como tal considerada a receita bruta a ele correspondente, sem deduções, excetuados os descontos ou abatimentos concedidos independentemente de qualquer condição.\" (NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 14.865/2008 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Art. 7º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-14865-de-29-de-dezembro-de-2008",
+    "vigencia": {
+      "em_vigor": true,
+      "observacao": "Vigente (beneficio com termo final 31/12/2030 para a hipotese ZEIS/CDHU). Confirmar alteracoes posteriores.",
+      "inicio": "2008-12-29",
+      "obs": "inicio = data da lei (proxy da publicação, convenção do corpus); cláusula verbatim: Art. 16. Esta lei entrará em vigor na data de sua publicação."
+    }
+  },
+  "tema": [
+    "habitacional_popular",
+    "HIS",
+    "ZEIS",
+    "isencao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Concede isenção do Imposto Predial e Territorial Urbano (IPTU) em condições específicas (inclusive habitação de interesse social / ZEIS), altera dispositivos de leis tributárias e dá outras providências."
+}

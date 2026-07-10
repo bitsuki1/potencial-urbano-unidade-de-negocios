@@ -1,0 +1,62 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-6989-1966::162-art-77",
+  "lei_id": "lei-municipal-saopaulo-6989-1966",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 77",
+  "numero": "77",
+  "header_raw": "Art. 77. As infrações serão punidas com multa:",
+  "caminho_hierarquico": [
+    "TITULO I",
+    "CAPITULO IV",
+    "SEÇÃO VIII",
+    "Art. 77"
+  ],
+  "texto": "Art. 77. As infrações serão punidas com multa:\n\nI – de valor igual ao do imposto, observada a imposição mínima de Cr$ 50.000 (cinqüenta mil cruzeiros);\n\na) aos que, sujeito ao pagamento do imposto por estimativa, sonegarem documentos necessários à fixação do valor estimado do imposto;\n\nb) aos que sujeitos a escrita fiscal, deixarem de lançar, no livro próprio, o imposto devido;\n\nII – de 20% (vinte por cento) sobre o montante do imposto, aos que deixarem de efetuar o recolhimento deste nos prazos regulamentares, alem de incorrerem em mora – à razão de 1% (um por cento) ao mês, a partir do mês seguinte ao do vencimento – e em correção monetária, sem prejuízo das custas e demais despesas judiciais;\n\nIII – de 10 (dez por cento) do valor tributário, aos que, não obrigados ao pagamento do imposto, deixarem de emitir notas fiscais ou outros documentos de controle exigidos por Lei;\n\nIV – igual ao valor tributável, aos que emitirem nota fiscal que corresponda a uma operação não tributada ou isenta, e aos que, em proveito próprio ou alheio, se utilizarem dessas notas para efeito de qualquer efeito fiscal;\n\nV – de Cr$ 50.000 (cinqüenta mil cruzeiros) aos que, por qualquer forma, embaraçarem ou ilidirem a ação fiscal, ou se recusarem apresentar livros ou papeis exigidos pela legislação;\n\nVI - igual ao valor do imposto, aos que não retiverem o montante do imposto devido sobre o total da operação;(Incluído pela Lei nº 7.047/1967)\n\nVII - igual ao dobro do montante do imposto devido sobre a operação, aos que não recolherem, no prazo regulamentar, o imposto retido do prestador de serviços.(Incluído pela Lei nº 7.047/1967)\n\nVIII–igual a um terço do salário mínimo vigente no Município, aos que cometerem infração para a qual não haja penalidade especifica neste capitulo.(Redação dada pela Lei nº 7.047/1967)\n\nParágrafo único - Nos casos do inciso I, se a infração resultar de artifício doloso ou aparentar evidente intuito de fraude, a multa será agravada a três vezes o valor do imposto devido, e nunca inferior a Cr$ 150.000 (cento e cinqüenta mil cruzeiros).",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "1967",
+    "norma_redacao": "Lei nº 7.047/1967"
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 6.989/1966 — São Paulo/SP",
+    "dispositivo": "TITULO I › CAPITULO IV › SEÇÃO VIII › Art. 77",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-6989-de-29-de-dezembro-de-1966",
+    "vigencia": {
+      "inicio": "1967-01-01",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 10.394/1987",
+        "Lei 10.805/1989",
+        "Lei 10.921/1990",
+        "Lei 11.152/1991",
+        "Lei 11.334/1992",
+        "Lei 12.782/1998",
+        "Lei 13.250/2001",
+        "Lei 15.889/2013"
+      ],
+      "obs": "texto COMPILADO do portal oficial, com anotações de alteração por dispositivo; lista alterada_por = anotações verificadas no texto (não exaustiva)"
+    }
+  },
+  "tema": [
+    "sistema_tributario_municipal",
+    "imposto_predial",
+    "imposto_territorial_urbano",
+    "valor_venal",
+    "aliquota_progressiva",
+    "fato_gerador",
+    "isencao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o sistema tributário do Município e da outras providências."
+}

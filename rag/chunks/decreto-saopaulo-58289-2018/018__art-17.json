@@ -1,0 +1,49 @@
+{
+  "chunk_id": "decreto-saopaulo-58289-2018::018-art-17",
+  "lei_id": "decreto-saopaulo-58289-2018",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 17",
+  "numero": "17",
+  "header_raw": "Art. 17. De posse da Declaração de Potencial Construtivo Passível de Transferência, o seu titular, definindo o imóvel receptor, poderá protocolar, na DEUSO, o requerimento de Certidão de Transferência de Potencial Construtivo, conforme modelo constante do Anexo IV deste decreto, acompanhado dos documentos relacionados em seu Anexo V.",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 17"
+  ],
+  "texto": "Art. 17. De posse da Declaração de Potencial Construtivo Passível de Transferência, o seu titular, definindo o imóvel receptor, poderá protocolar, na DEUSO, o requerimento de Certidão de Transferência de Potencial Construtivo, conforme modelo constante do Anexo IV deste decreto, acompanhado dos documentos relacionados em seu Anexo V.\n\n§ 1º A Certidão de Transferência de Potencial Construtivo será emitida, em 2 (duas) vias, para os mesmos fins apontados no artigo 16 deste decreto.\n\n§ 2º A DEUSO comunicará ao interessado, por meio de publicação no Diário Oficial da Cidade, o potencial construtivo passível de transferência, para que sejam adotadas as respectivas providências de averbação na matrícula do imóvel receptor.\n\n§ 3º O interessado poderá retirar em DEUSO a sua via da Certidão de Transferência de Potencial Construtivo somente após a apresentação da matrícula ou respectiva cópia, contendo a averbação a que se refere o § 2º deste artigo.\n\n§ 4º A Certidão de Transferência de Potencial Construtivo será publicada no Diário Oficial da Cidade e seus dados disponibilizados no Portal da Prefeitura do Município de São Paulo na internet.\n\n§ 5º A emissão do Alvará de Aprovação de projeto de edificação no imóvel receptor dependerá da apresentação da Certidão de Transferência de Potencial Construtivo e da certidão de matrícula da qual conste a averbação nos termos da Certidão de Transferência de Potencial Construtivo.\n\n§ 6º O potencial construtivo passível de transferência poderá ser destinado, no todo ou em parte, para um ou mais lotes.\n\n§ 7º O potencial construtivo transferido fica vinculado ao imóvel receptor, à área do projeto e ao uso declarado, não sendo admitida transferência diversa.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto municipal nº 58.289/2018 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Art. 17",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-58289-de-26-de-junho-de-2018",
+    "vigencia": {
+      "inicio": "2018-06-26",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [],
+      "revoga": [
+        "Decreto 57.535/2016"
+      ]
+    }
+  },
+  "tema": [
+    "transferencia_do_direito_de_construir",
+    "doacao_de_imovel",
+    "potencial_construtivo",
+    "desapropriacao_amigavel",
+    "declaracao_de_potencial_construtivo"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Confere nova regulamentação à Transferência do Direito de Construir com Doação de Imóvel, nos termos dos artigos 123, 126, 127, 128, 130 e 131 da Lei nº 16.050, de 31 de julho de 2014 – Plano Diretor Estratégico – PDE; revoga o Decreto nº 57.535, de 15 de dezembro de 2016."
+}

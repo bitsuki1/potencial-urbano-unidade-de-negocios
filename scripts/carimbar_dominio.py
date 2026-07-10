@@ -77,6 +77,10 @@ TDC = {
     "decreto-saopaulo-57536-2016":
         "Decreto que REGULAMENTA a TDC sem doação (arts. 124/125 do PDE) — núcleo normativo do rito "
         "cedente (etapas, DPC, extrato de transferência). Efeito jurídico é TDC puro. Ingerido 2026-07-05 (AUD-A11).",
+    "decreto-saopaulo-58289-2018":
+        "Decreto que REGULAMENTA a TDC COM doação (arts. 123/126/127/128/130/131 do PDE) — par do "
+        "57.536/2016; revoga o 57.535/2016. Efeito jurídico é TDC puro. Capturado do portal oficial "
+        "2026-07-10 (fecha AUD-A11: o corpo do 58.289 era o que restava).",
     "lei-municipal-saopaulo-18222-2024":
         "PIU Arco Pinheiros — cria AIU-ACP com potencial construtivo adicional de 1.150.000 m² (Art. 23), "
         "CA máximo 6,0, transferência de potencial construtivo (Arts. 42-43). Efeito dominante é TDC/potencial.",

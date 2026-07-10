@@ -1,0 +1,42 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-13475-2002::002-art-1o",
+  "lei_id": "lei-municipal-saopaulo-13475-2002",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 1º",
+  "numero": "1",
+  "header_raw": "Art. 1º - A Lei nº 6.989, de 29 de dezembro de 1966, passa a vigorar com as seguintes alterações:",
+  "caminho_hierarquico": [
+    "Art. 1º"
+  ],
+  "texto": "Art. 1º - A Lei nº 6.989, de 29 de dezembro de 1966, passa a vigorar com as seguintes alterações:\n\n\"Art. 7º- A - Ao valor do imposto, apurado na forma do artigo 7º, adiciona-se o desconto ou o acréscimo, calculados sobre a porção do valor venal do imóvel compreendida em cada uma das faixas de valor venal da tabela a seguir, sendo o total do desconto ou do acréscimo determinado pela soma dos valores apurados na conformidade deste artigo.\"\n\nFaixas de valor venal Desconto/Acréscimo\n\naté R$ 53.500 -0,2%\n\nacima de R$ 53.500 até R$ 107.000 0,0%\n\nacima de R$ 107.000 até R$ 214.000 +0,2%\n\nacima de R$ 214.000 até R$ 428.000 +0,4%\n\nacima de R$ 428.000 +0,6%\n\n\"Art. 8º- A - Ao valor do imposto, apurado na forma do artigo 8º, adiciona-se o desconto ou o acréscimo, calculados sobre a porção do valor venal do imóvel compreendida em cada uma das faixas de valor venal da tabela a seguir, sendo o total do desconto ou do acréscimo determinado pela soma dos valores apurados na conformidade deste artigo.\"\n\nFaixas de valor venal Desconto/Acréscimo\n\naté R$ 64.200 -0,3%\n\nacima de R$ 64.200 até R$ 128.400 -0,1%\n\nacima de R$ 128.400 até R$ 256.800 +0,1%\n\nacima de R$ 256.800 +0,3%\n\n\"Art. 20 - Os débitos não pagos nos respectivos vencimentos ficam acrescidos de:\n\nI - multa equivalente a 0,33% (trinta e três centésimos por cento), por dia de atraso, sobre o valor do imposto devido, até o limite de 20% (vinte por cento);\n\nII - juros moratórios de 1% (um por cento) ao mês, a partir do mês imediato ao do vencimento, contando-se como mês completo qualquer fração dele;\n\nIII - atualização monetária, na forma da legislação municipal específica.\n\n§ 1º - A multa a que se refere o inciso I será calculada a partir do primeiro dia subseqüente ao do vencimento até o dia em que ocorrer o efetivo recolhimento.\n\n§ 2º - Os juros de mora incidirão sobre o valor integral do crédito tributário, assim considerado o imposto devido acrescido de multa, atualizado monetariamente.\n\n§ 3º - Inscrita ou ajuizada a dívida serão devidos custas, honorários e demais despesas, na forma regulamentar e da legislação.\"\n\n\"Art. 21 - Decorrido o prazo fixado para pagamento da última prestação, o débito será encaminhado para cobrança, com inscrição na Dívida Ativa e, sendo o caso, ajuizamento, ainda que no mesmo exercício a que corresponda o lançamento.\n\n§ 1º - Até a data do encaminhamento para cobrança, poderá ser efetuado o pagamento de quaisquer parcelas.\n\n§ 2º - Para fins de inscrição na Dívida Ativa, o débito será considerado integralmente vencido à data da primeira prestação não paga.\"\n\n\"Art. 28 - Ao valor do imposto, apurado na forma do artigo 27, adiciona-se o desconto ou o acréscimo, calculados sobre a porção do valor venal do imóvel compreendida em cada uma das faixas de valor venal da tabela a seguir, sendo o total do desconto ou do acréscimo determinado pela soma dos valores apurados na conformidade deste artigo.\"\n\nFaixas de valor venal Desconto/Acréscimo\n\naté R$ 64.200 -0,3%\n\nacima de R$ 64.200 até R$ 128.400 -0,1%\n\nacima de R$ 128.400 até R$ 256.800 +0,1%\n\nacima de R$ 256.800 +0,3%\n\n\"Art. 40 - Os débitos não pagos nos respectivos vencimentos ficam acrescidos de:\n\nI - multa equivalente a 0,33% (trinta e três centésimos por cento), por dia de atraso, sobre o valor do imposto devido, até o limite de 20% (vinte por cento);\n\nII - juros moratórios de 1% (um por cento) ao mês, a partir do mês imediato ao do vencimento, contando-se como mês completo qualquer fração dele;\n\nIII - atualização monetária, na forma da legislação municipal específica.\n\n§ 1º - A multa a que se refere o inciso I será calculada a partir do primeiro dia subseqüente ao do vencimento até o dia em que ocorrer o efetivo recolhimento.\n\n§ 2º - Os juros de mora incidirão sobre o valor integral do crédito tributário, assim considerado o imposto devido acrescido de multa, atualizado monetariamente.\n\n§ 3º - Inscrita ou ajuizada a dívida serão devidos custas, honorários e demais despesas, na forma regulamentar e da legislação.\"\n\n\"Art. 41 - Decorrido o prazo fixado para pagamento da última prestação, o débito será encaminhado para cobrança, com inscrição na Dívida Ativa e, sendo o caso, ajuizamento, ainda que no mesmo exercício a que corresponda o lançamento.\n\n§ 1º - Até a data do encaminhamento para cobrança, poderá ser efetuado o pagamento de quaisquer parcelas.\n\n§ 2º - Para fins de inscrição na Dívida Ativa, o débito será considerado integralmente vencido à data da primeira prestação não paga.\"",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 13.475/2002 — São Paulo/SP",
+    "dispositivo": "Art. 1º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-13475-de-30-de-dezembro-de-2002",
+    "vigencia": {
+      "em_vigor": true,
+      "observacao": "Vigente como ajuste da cadeia de progressividade; objeto de discussao judicial sobre aumento de carga em 2002.",
+      "inicio": "2002-12-30",
+      "obs": "inicio = data da lei (proxy da publicação, convenção do corpus); cláusula verbatim: Art. 6º - Esta lei entrará em vigor na data de sua publicação, produzindo efeitos a partir de 1º de janeiro de 2003."
+    }
+  },
+  "tema": [
+    "progressividade",
+    "aliquotas",
+    "calculo"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Altera a legislação do IPTU, ajustando as tabelas/faixas progressivas de alíquotas (fatores de adequação por faixa de valor venal) e dá outras providências."
+}

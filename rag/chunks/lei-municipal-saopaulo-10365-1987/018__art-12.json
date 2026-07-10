@@ -1,0 +1,45 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-10365-1987::018-art-12",
+  "lei_id": "lei-municipal-saopaulo-10365-1987",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 12",
+  "numero": "12",
+  "header_raw": "Art. 12. A realização de poda ou corte de árvores, em logradouros públicos, só será permitida a: (Redação dada pela Lei nº 17.267/2020)(Revogado pela Lei nº 17.794/2022)",
+  "caminho_hierarquico": [
+    "Capítulo II",
+    "Art. 12"
+  ],
+  "texto": "Art. 12. A realização de poda ou corte de árvores, em logradouros públicos, só será permitida a: (Redação dada pela Lei nº 17.267/2020)(Revogado pela Lei nº 17.794/2022)\n\nI - funcionários da Prefeitura com a devida autorização, por escrito, do Administrador Regional competente, ouvido o Engenheiro Agrônomo responsável;\n\nII - funcionários de empresas concessionárias de serviços públicos, desde que cumpridas as seguintes exigências:\n\na) obtenção de prévia autorização, por escrito, do Administrador Regional competente, ouvido o Engenheiro Agrônomo, incluindo, detalhadamente, o número de árvores, a localização, a época e o motivo do corte ou da poda;\n\nb) acompanhamento permanente de Engenheiro Agrônomo responsável, a cargo da empresa.\n\nI - servidores da Prefeitura com a devida autorização, por escrito, do subprefeito competente, ouvido o engenheiro agrônomo ou biólogo responsável;(Redação dada pela Lei nº 15.425/2011)\n\nII - empregados de empresas concessionárias de serviços públicos, desde que cumpridas as seguintes exigências:(Redação dada pela Lei nº 15.425/2011)\n\na) obtenção de prévia autorização, por escrito, do subprefeito competente, ouvido o engenheiro agrônomo ou biólogo responsável, da qual deverá constar, detalhadamente, o número de árvores, a localização, a época e o motivo do corte ou da poda;(Redação dada pela Lei nº 15.425/2011)\n\nb) acompanhamento permanente de engenheiro agrônomo ou biólogo responsável, a cargo da empresa;(Redação dada pela Lei nº 15.425/2011)\n\nIII - Soldados do Corpo de Bombeiros, nas ocasiões de emergências, em que haja risco iminente para a população ou o patrimônio, tanto público como privado.\n\nIV - funcionários de empresas terceirizadas pelo Poder Público, especializadas na poda e no corte de árvores, para realização desse serviço, orientados por Engenheiros Agrônomos ou Biólogos dessas próprias empresas, devidamente inscritos em seu órgão de classe, que realizarão previamente a vistoria das árvores a serem cortadas ou podadas, atestando sobre a necessidade ou não dessas medidas, responsabilizando-se por elas e submetendo-as aos Subprefeitos para autorização final do corte ou da poda.(Incluído pela Lei nº 15.470/2011)\n\nI - servidores da prefeitura; (Redação dada pela Lei nº 17.267/2020)\n\nII - integrantes do Corpo de Bombeiros e da Defesa Civil; (Redação dada pela Lei nº 17.267/2020)\n\nIII - funcionários de empresas contratadas pela prefeitura para a execução destes serviços; (Redação dada pela Lei nº 17.267/2020)\n\nIV - funcionários de empresas concessionárias de serviços públicos ou de outras por elas contratadas para a execução dos serviços. (Redação dada pela Lei nº 17.267/2020)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "2020",
+    "norma_redacao": "Lei nº 17.267/2020"
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 10.365/1987 — São Paulo/SP",
+    "dispositivo": "Capítulo II › Art. 12",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-10365-de-22-de-setembro-de-1987",
+    "vigencia": {
+      "em_vigor": true,
+      "observacao": "Vigente; alterada pela Lei 17.267/2020 (e relaciona-se com a Lei 10.919/1990).",
+      "inicio": "1987-09-22",
+      "obs": "inicio = data da lei (proxy da publicação, convenção do corpus); cláusula verbatim: Art. 27 - Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário."
+    }
+  },
+  "tema": [
+    "vegetacao",
+    "APP",
+    "meio_ambiente"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Disciplina o corte e a poda de vegetação de porte arbóreo existente no Município de São Paulo e dá outras providências."
+}

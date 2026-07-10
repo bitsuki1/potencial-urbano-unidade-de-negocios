@@ -1,0 +1,62 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-6989-1966::095-art-39",
+  "lei_id": "lei-municipal-saopaulo-6989-1966",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 39",
+  "numero": "39",
+  "header_raw": "Art. 39 - O Imposto será pago em prestações mensais, na forma regulamentar, respeitado o máximo de 10 (dez).(Redação dada pela Lei nº 9.156/1980)(Regulamentado pelo Decreto nº 17.081/1980)",
+  "caminho_hierarquico": [
+    "TITULO I",
+    "CAPITULO II",
+    "SEÇÃO VI",
+    "Art. 39"
+  ],
+  "texto": "Art. 39 - O Imposto será pago em prestações mensais, na forma regulamentar, respeitado o máximo de 10 (dez).(Redação dada pela Lei nº 9.156/1980)(Regulamentado pelo Decreto nº 17.081/1980)\n\nParágrafo Único - O recolhimento do imposto não importa em presunção, por parte da Prefeitura, para quaisquer fins, da legitimidade da propriedade, do domínio útil ou da posse do imóvel.(Redação dada pela Lei nº 8.338/1975)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "1980",
+    "norma_redacao": "Lei nº 9.156/1980"
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 6.989/1966 — São Paulo/SP",
+    "dispositivo": "TITULO I › CAPITULO II › SEÇÃO VI › Art. 39",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-6989-de-29-de-dezembro-de-1966",
+    "vigencia": {
+      "inicio": "1967-01-01",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 10.394/1987",
+        "Lei 10.805/1989",
+        "Lei 10.921/1990",
+        "Lei 11.152/1991",
+        "Lei 11.334/1992",
+        "Lei 12.782/1998",
+        "Lei 13.250/2001",
+        "Lei 15.889/2013"
+      ],
+      "obs": "texto COMPILADO do portal oficial, com anotações de alteração por dispositivo; lista alterada_por = anotações verificadas no texto (não exaustiva)"
+    }
+  },
+  "tema": [
+    "sistema_tributario_municipal",
+    "imposto_predial",
+    "imposto_territorial_urbano",
+    "valor_venal",
+    "aliquota_progressiva",
+    "fato_gerador",
+    "isencao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o sistema tributário do Município e da outras providências."
+}

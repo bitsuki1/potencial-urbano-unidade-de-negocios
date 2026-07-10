@@ -1,0 +1,42 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-10235-1986::015-art-12",
+  "lei_id": "lei-municipal-saopaulo-10235-1986",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 12",
+  "numero": "12",
+  "header_raw": "Art. 12. A área construída bruta será obtida através da mediação dos contornos externos das paredes ou pilares, computando-se também a superfície das sacadas, cobertas ou descobertas, de cada pavimento.",
+  "caminho_hierarquico": [
+    "Art. 12"
+  ],
+  "texto": "Art. 12. A área construída bruta será obtida através da mediação dos contornos externos das paredes ou pilares, computando-se também a superfície das sacadas, cobertas ou descobertas, de cada pavimento.\n\n§ 1º No caso de coberturas de postos de serviço e assemelhadas, será considerada como área construída a sua projeção vertical sobre o terreno.\n\n§ 2º No caso de piscina, a área construída será obtida através da medição dos contornos internos de suas paredes.\n\n§ 3º Quando a área construída bruta for representada por número que contenha fração de metro quadrado, será feito o arredondamento para a unidade imediatamente superior.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 10.235/1986 — São Paulo/SP",
+    "dispositivo": "Art. 12",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-10235-de-16-de-dezembro-de-1986",
+    "vigencia": {
+      "em_vigor": true,
+      "observacao": "Vigente; valores e tabelas atualizados por leis posteriores (cadeia PGV).",
+      "inicio": "1986-12-16",
+      "obs": "inicio = data da lei (proxy da publicação, convenção do corpus); cláusula verbatim: Art. 25. Esta Lei entrará em vigor na data de sua publicação, produzindo afeitos a partir de 1º de janeiro de 1987, revogadas as disposições em contrário, especialmente os artigos 8º e parágrafos,16 e parágrafos, 28 e pa"
+    }
+  },
+  "tema": [
+    "PGV",
+    "valor_venal",
+    "calculo"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a forma de apuração do valor venal de imóveis, para efeito de lançamento dos Impostos sobre a Propriedade Predial e Territorial Urbana, concede descontos sobre os valores venais dos imóveis sujeitos à incidência desses impostos no exercício de 1987, e dá outras providências."
+}

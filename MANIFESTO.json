@@ -1,6 +1,6 @@
 {
   "_doc": "Fonte da verdade do status_pipeline de cada item. GERADO por scripts/consolidar.py a partir dos .json individuais — NAO editar a mao (Principio 1.5/2.3 do CLAUDE.md). Roda a cada push via .github/workflows/consolidar.yml.",
-  "gerado_em": "2026-07-10T11:32:29.484541+00:00",
+  "gerado_em": "2026-07-10T16:38:01.200880+00:00",
   "vocabulario_status": [
     "bruto",
     "fatiado",
@@ -9,34 +9,25 @@
     "indexado"
   ],
   "resumo": {
-    "total_itens": 66,
-    "leis": 36,
+    "total_itens": 68,
+    "leis": 38,
     "jurisprudencia": 30,
-    "ativos_no_escopo": 66,
+    "ativos_no_escopo": 68,
     "fora_de_escopo": 0,
     "_nota": "por_status_pipeline conta SÓ os ativos_no_escopo. Os 2 fora-de-escopo históricos (stf-tema-1020/ISS, stj-resp-1658054/previdenciário) foram ARQUIVADOS por decisão do dono em 2026-07-05 (git rm; recuperáveis pelo histórico).",
     "por_status_pipeline_ativos": {
-      "indexado": 28,
-      "bruto": 8,
+      "indexado": 38,
       "tagueado": 30
     },
     "status_ilegais_encontrados": [],
-    "verbatim_integral_ativos": 28,
+    "verbatim_integral_ativos": 38,
     "_nota_verbatim_integral": "B-7/AUD-17: verbatim_integral e DERIVADO do marcador '## Texto integral (verbatim)' no .md (prova mecanica, nao declaracao). Difere de confianca_extracao (flag do extrator).",
-    "confianca_baixa_ou_media": 11,
+    "confianca_baixa_ou_media": 3,
     "_nota_verbatim": "confianca e flag de extracao, nao prova de verbatim. CORRIGIDO na auditoria profunda 2026-06-20 (AUD-01): 13 leis JA estao em verbatim integral e indexadas (12 federais re-ingeridas de _entrada/misto/ + a 7228/1968 municipal) — supera a narrativa antiga 'planalto deu 403, NENHUMA e verbatim', que confundia 'o .md e resumo' com 'o verbatim nao existe'. Faltam 12 municipais (so resumo WebSearch) — re-ingestao verbatim delas e o que resta do pre-requisito do RAG. As juris (curtas) sao verbatim."
   },
   "alertas": {
     "status_fora_do_vocabulario": [],
     "itens_confianca_baixa_ou_media_a_revisar": [
-      "lei-municipal-saopaulo-10235-1986",
-      "lei-municipal-saopaulo-10365-1987",
-      "lei-municipal-saopaulo-11338-1992",
-      "lei-municipal-saopaulo-12350-1997",
-      "lei-municipal-saopaulo-13250-2001",
-      "lei-municipal-saopaulo-13475-2002",
-      "lei-municipal-saopaulo-14865-2008",
-      "lei-municipal-saopaulo-17759-2022",
       "stj-tema-1350",
       "stj-tema-262",
       "stj-tema-399"
@@ -55,8 +46,9 @@
   "artefatos_nao_corpus": {
     "_nota": "Estado dos artefatos NÃO-corpus (1.1: Tabela/Engine/Tese). Fechamento do D24-do-git (AUD-09).",
     "engines": {
-      "arquivos": 9,
+      "arquivos": 10,
       "executavel_py": [
+        "engines/iptu/iptu.py",
         "engines/tdc/fp.py",
         "engines/tdc/oodc.py",
         "engines/tdc/pcpt.py"
@@ -64,8 +56,8 @@
       "status": "engine OODC/TDC executável (engines/tdc/oodc.py); demais são prosa/conhecimento"
     },
     "tabelas": {
-      "arquivos": 12,
-      "status": "12 tabela(s) no git (Q14 valor-terreno, Quadro 3 CA/zona, Quadro 5 Fs, Quadro 7 parques, Fi-área LPUOS Art.24) — combustível do engine PRESENTE; derivado dos arquivos, não hardcoded"
+      "arquivos": 15,
+      "status": "15 tabela(s) no git (Q14 valor-terreno, Quadro 3 CA/zona, Quadro 5 Fs, Quadro 7 parques, Fi-área LPUOS Art.24) — combustível do engine PRESENTE; derivado dos arquivos, não hardcoded"
     },
     "tese_iptu": {
       "arquivos": 0,
@@ -94,10 +86,28 @@
       "fonte_legal": "LPUOS Lei 16.402/2016, Art. 24 (incisos I-VII)"
     },
     {
+      "arquivo": "tabelas/iptu-aliquota-base.csv",
+      "sha256": "sha256:7aa72e2bf8559491fb4cb859b8c416f7fc5911678161bca8e8f326572525e463",
+      "data_base": "2001-12-27",
+      "fonte_legal": "Lei 6.989/1966 arts. 7/8/27, redacao da Lei 13.250/2001 (texto compilado, portal oficial)"
+    },
+    {
       "arquivo": "tabelas/iptu-aliquotas-faixa.csv",
       "sha256": "sha256:7877468ee6561d0245e1365dd0a84c65a8c39887b82e31265d2ff36d89422e6e",
       "data_base": "2013-12-20",
       "fonte_legal": "Lei Municipal SP 15.889/2013, Arts. 3/4/5"
+    },
+    {
+      "arquivo": "tabelas/iptu-fator-obsolescencia.csv",
+      "sha256": "sha256:3ebe713e6011b76ae419edaec9e071ef8ed5c8dac79691e1aab75aaa4be8cb08",
+      "data_base": "1986-12-16",
+      "fonte_legal": "Lei 10.235/1986, Tabela IV c/c Arts. 11 e 16 (texto compilado, portal oficial)"
+    },
+    {
+      "arquivo": "tabelas/iptu-fatores-terreno.csv",
+      "sha256": "sha256:74db27e17405130be2fc54f9f03be0c2d3685f3a0b3e6bad7b59625fba14cfa2",
+      "data_base": "1991-12-30",
+      "fonte_legal": "Lei 10.235/1986, Tabelas II e III na redacao da Lei 11.152/1991 (+ item ZER pela 15.889/2013)"
     },
     {
       "arquivo": "tabelas/iptu-valor-construcao-m2.csv",
@@ -804,34 +814,49 @@
       "fonte_url": null
     },
     {
+      "id": "decreto-saopaulo-58289-2018",
+      "tipo": "decreto municipal",
+      "caminho_md": "leis/municipal-sp/decreto-saopaulo-58289-2018.md",
+      "caminho_json": "leis/municipal-sp/decreto-saopaulo-58289-2018.json",
+      "status_pipeline": "indexado",
+      "status_valido": true,
+      "confianca_extracao": "alta",
+      "verbatim_integral": true,
+      "vigencia_inicio": "2018-06-26",
+      "revisado_por_humano": false,
+      "fora_de_escopo": false,
+      "fora_de_escopo_motivo": null,
+      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-58289-de-26-de-junho-de-2018"
+    },
+    {
       "id": "lei-municipal-saopaulo-10235-1986",
       "tipo": "lei_ordinaria",
       "caminho_md": "leis/municipal-sp/lei-municipal-saopaulo-10235-1986.md",
       "caminho_json": "leis/municipal-sp/lei-municipal-saopaulo-10235-1986.json",
-      "status_pipeline": "bruto",
+      "status_pipeline": "indexado",
       "status_valido": true,
-      "confianca_extracao": "baixa",
-      "verbatim_integral": false,
-      "vigencia_inicio": null,
+      "confianca_extracao": "alta",
+      "verbatim_integral": true,
+      "vigencia_inicio": "1986-12-16",
       "revisado_por_humano": false,
       "fora_de_escopo": false,
       "fora_de_escopo_motivo": null,
-      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-10235-de-16-de-dezembro-de-1986"
+      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-10235-de-16-de-dezembro-de-1986"
     },
     {
       "id": "lei-municipal-saopaulo-10365-1987",
       "tipo": "lei_ordinaria",
       "caminho_md": "leis/municipal-sp/lei-municipal-saopaulo-10365-1987.md",
       "caminho_json": "leis/municipal-sp/lei-municipal-saopaulo-10365-1987.json",
-      "status_pipeline": "bruto",
+      "status_pipeline": "indexado",
       "status_valido": true,
-      "confianca_extracao": "baixa",
-      "verbatim_integral": false,
-      "vigencia_inicio": null,
+      "confianca_extracao": "alta",
+      "verbatim_integral": true,
+      "vigencia_inicio": "1987-09-22",
       "revisado_por_humano": false,
       "fora_de_escopo": false,
       "fora_de_escopo_motivo": null,
-      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-10365-de-22-de-setembro-de-1987"
+      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-10365-de-22-de-setembro-de-1987"
     },
     {
       "id": "lei-municipal-saopaulo-11152-1991",
@@ -853,75 +878,75 @@
       "tipo": "lei_ordinaria",
       "caminho_md": "leis/municipal-sp/lei-municipal-saopaulo-11338-1992.md",
       "caminho_json": "leis/municipal-sp/lei-municipal-saopaulo-11338-1992.json",
-      "status_pipeline": "bruto",
+      "status_pipeline": "indexado",
       "status_valido": true,
-      "confianca_extracao": "baixa",
-      "verbatim_integral": false,
-      "vigencia_inicio": null,
+      "confianca_extracao": "alta",
+      "verbatim_integral": true,
+      "vigencia_inicio": "1992-12-30",
       "revisado_por_humano": false,
       "fora_de_escopo": false,
       "fora_de_escopo_motivo": null,
-      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-11338-de-30-de-dezembro-de-1992"
+      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-11338-de-30-de-dezembro-de-1992"
     },
     {
       "id": "lei-municipal-saopaulo-12350-1997",
       "tipo": "lei_ordinaria",
       "caminho_md": "leis/municipal-sp/lei-municipal-saopaulo-12350-1997.md",
       "caminho_json": "leis/municipal-sp/lei-municipal-saopaulo-12350-1997.json",
-      "status_pipeline": "bruto",
+      "status_pipeline": "indexado",
       "status_valido": true,
-      "confianca_extracao": "media",
-      "verbatim_integral": false,
-      "vigencia_inicio": null,
+      "confianca_extracao": "alta",
+      "verbatim_integral": true,
+      "vigencia_inicio": "1997-06-06",
       "revisado_por_humano": false,
       "fora_de_escopo": false,
       "fora_de_escopo_motivo": null,
-      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-12350-de-6-de-junho-de-1997"
+      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-12350-de-6-de-junho-de-1997"
     },
     {
       "id": "lei-municipal-saopaulo-13250-2001",
       "tipo": "lei_ordinaria",
       "caminho_md": "leis/municipal-sp/lei-municipal-saopaulo-13250-2001.md",
       "caminho_json": "leis/municipal-sp/lei-municipal-saopaulo-13250-2001.json",
-      "status_pipeline": "bruto",
+      "status_pipeline": "indexado",
       "status_valido": true,
-      "confianca_extracao": "baixa",
-      "verbatim_integral": false,
-      "vigencia_inicio": null,
+      "confianca_extracao": "alta",
+      "verbatim_integral": true,
+      "vigencia_inicio": "2001-12-27",
       "revisado_por_humano": false,
       "fora_de_escopo": false,
       "fora_de_escopo_motivo": null,
-      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-13250-de-27-de-dezembro-de-2001"
+      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-13250-de-27-de-dezembro-de-2001"
     },
     {
       "id": "lei-municipal-saopaulo-13475-2002",
       "tipo": "lei_ordinaria",
       "caminho_md": "leis/municipal-sp/lei-municipal-saopaulo-13475-2002.md",
       "caminho_json": "leis/municipal-sp/lei-municipal-saopaulo-13475-2002.json",
-      "status_pipeline": "bruto",
+      "status_pipeline": "indexado",
       "status_valido": true,
-      "confianca_extracao": "baixa",
-      "verbatim_integral": false,
-      "vigencia_inicio": null,
+      "confianca_extracao": "alta",
+      "verbatim_integral": true,
+      "vigencia_inicio": "2002-12-30",
       "revisado_por_humano": false,
       "fora_de_escopo": false,
       "fora_de_escopo_motivo": null,
-      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-13475-de-30-de-dezembro-de-2002"
+      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-13475-de-30-de-dezembro-de-2002"
     },
     {
       "id": "lei-municipal-saopaulo-14865-2008",
       "tipo": "lei_ordinaria",
       "caminho_md": "leis/municipal-sp/lei-municipal-saopaulo-14865-2008.md",
       "caminho_json": "leis/municipal-sp/lei-municipal-saopaulo-14865-2008.json",
-      "status_pipeline": "bruto",
+      "status_pipeline": "indexado",
       "status_valido": true,
-      "confianca_extracao": "baixa",
-      "verbatim_integral": false,
-      "vigencia_inicio": null,
+      "confianca_extracao": "alta",
+      "verbatim_integral": true,
+      "vigencia_inicio": "2008-12-29",
       "revisado_por_humano": false,
       "fora_de_escopo": false,
       "fora_de_escopo_motivo": null,
-      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-14865-de-29-de-dezembro-de-2008"
+      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-14865-de-29-de-dezembro-de-2008"
     },
     {
       "id": "lei-municipal-saopaulo-15044-2009",
@@ -1048,15 +1073,15 @@
       "tipo": "lei_ordinaria",
       "caminho_md": "leis/municipal-sp/lei-municipal-saopaulo-17759-2022.md",
       "caminho_json": "leis/municipal-sp/lei-municipal-saopaulo-17759-2022.json",
-      "status_pipeline": "bruto",
+      "status_pipeline": "indexado",
       "status_valido": true,
-      "confianca_extracao": "media",
-      "verbatim_integral": false,
-      "vigencia_inicio": null,
+      "confianca_extracao": "alta",
+      "verbatim_integral": true,
+      "vigencia_inicio": "2022-03-15",
       "revisado_por_humano": false,
       "fora_de_escopo": false,
       "fora_de_escopo_motivo": null,
-      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17759-de-15-de-marco-de-2022"
+      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17759-de-15-de-marco-de-2022"
     },
     {
       "id": "lei-municipal-saopaulo-17844-2022",
@@ -1117,6 +1142,21 @@
       "fora_de_escopo": false,
       "fora_de_escopo_motivo": null,
       "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-18222-de-27-de-dezembro-de-2024"
+    },
+    {
+      "id": "lei-municipal-saopaulo-6989-1966",
+      "tipo": "lei_ordinaria",
+      "caminho_md": "leis/municipal-sp/lei-municipal-saopaulo-6989-1966.md",
+      "caminho_json": "leis/municipal-sp/lei-municipal-saopaulo-6989-1966.json",
+      "status_pipeline": "indexado",
+      "status_valido": true,
+      "confianca_extracao": "alta",
+      "verbatim_integral": true,
+      "vigencia_inicio": "1967-01-01",
+      "revisado_por_humano": false,
+      "fora_de_escopo": false,
+      "fora_de_escopo_motivo": null,
+      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-6989-de-29-de-dezembro-de-1966"
     },
     {
       "id": "lei-municipal-saopaulo-7228-1968",

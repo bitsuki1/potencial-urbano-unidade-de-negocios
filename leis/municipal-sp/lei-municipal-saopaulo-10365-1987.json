@@ -19,7 +19,9 @@
   ],
   "vigencia": {
     "em_vigor": true,
-    "observacao": "Vigente; alterada pela Lei 17.267/2020 (e relaciona-se com a Lei 10.919/1990)."
+    "observacao": "Vigente; alterada pela Lei 17.267/2020 (e relaciona-se com a Lei 10.919/1990).",
+    "inicio": "1987-09-22",
+    "obs": "inicio = data da lei (proxy da publicação, convenção do corpus); cláusula verbatim: Art. 27 - Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário."
   },
   "remissoes": [
     {
@@ -38,16 +40,16 @@
   "formulas_referenciadas": [],
   "fonte": {
     "origem": "web-oficial",
-    "url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-10365-de-22-de-setembro-de-1987",
-    "hash": "sha256:01f469bcd751680104c9e4b5ada22464d7db1fcccfe3cfaeadcd924e06f4de0d",
+    "url": "https://legislacao.prefeitura.sp.gov.br/lei-10365-de-22-de-setembro-de-1987",
+    "hash": "sha256:aa50f5c9a93c3f8d277dfff2484a9c385a28e905cca9fd9445915f5d7913e484",
     "ocr": false,
-    "metodo": "WebSearch (nao-verbatim; WebFetch/curl bloqueados HTTP 403)",
-    "obs": "texto nao-verbatim; capturado via WebSearch por bloqueio de WebFetch/curl (HTTP 403).",
-    "hash_alvo": "leis/municipal-sp/lei-municipal-saopaulo-10365-1987.md",
-    "hash_nota": "hash da transcrição do corpus (.md) — cru ausente localmente (B-4/B-9); trocar pelo hash do cru quando ele chegar"
+    "metodo": "VERBATIM INTEGRAL (portal oficial, texto compilado); captura 2026-07-10 (texto COMPILADO do Catálogo de Legislação Municipal, HTTPS direto); promovido de _entrada/misto/",
+    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior.",
+    "hash_alvo": "_entrada/misto/lei-municipal-saopaulo-10365-1987.txt",
+    "path": "_entrada/misto/lei-municipal-saopaulo-10365-1987.txt"
   },
-  "status_pipeline": "bruto",
-  "confianca_extracao": "baixa",
+  "status_pipeline": "indexado",
+  "confianca_extracao": "alta",
   "revisado_por_humano": false,
   "dominio_primario": "iptu",
   "dominio": [
