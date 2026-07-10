@@ -141,6 +141,13 @@ def check_eval_iptu_oficial():
     return rc == 0, "eval-iptu-oficial: VV terreno confrontado com o lançamento real OK" if rc == 0 else f"eval-iptu-oficial falhou (exit {rc})"
 
 
+def check_eval_semantico():
+    # B-5 (2.6): camada de significado (embeddings Gemini). Eval OFFLINE (vetores commitados):
+    # o híbrido não regride a palavra-chave (⊇) e agrega ganhos. Pula se os vetores não existirem.
+    rc, _ = _run(["evals/eval-semantico.py"])
+    return rc == 0, "eval-semantico: híbrido não regride keyword (+ ganhos de significado)" if rc == 0 else f"eval-semantico falhou (exit {rc})"
+
+
 def check_produto():
     # T2/S2: golden-assert do Fi legal sobre 7 cedentes reais; sabotar 1 Fi (engine ou CSV) FALHA aqui.
     rc, _ = _run(["evals/eval-produto.py"])
@@ -319,6 +326,7 @@ def main():
         ("ENGINE IPTU (VV × alíquota por porção)", check_engine_iptu),
         ("EVAL IPTU (âncoras da lei + mutação)", check_eval_iptu),
         ("EVAL IPTU OFICIAL (VV terreno × lançamento real)", check_eval_iptu_oficial),
+        ("EVAL SEMÂNTICO (B-5, híbrido ⊇ keyword)", check_eval_semantico),
         ("PRODUTO (golden Fi cedentes reais, T2)", check_produto),
         ("ZONA-MUTAÇÃO (CAbás por zona, G6)", check_zona_mutacao),
         ("FSCE (Art.57 Lei 17.844 — Setor Central)", check_fsce),

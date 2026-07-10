@@ -35,17 +35,10 @@ def lei_do_chunk(cid):
 
 
 def keyword_rank(pergunta, top=30):
-    """Ranking de chunk_ids por BM25 (reusa o consultar.py real)."""
+    """Ranking de chunk_ids por BM25 (reusa o consultar.py real, sem filtro de domínio)."""
     import consultar
-    inv, meta = consultar.INV, consultar.META if hasattr(consultar, "INV") else (None, None)
-    # consultar expõe carregar_indice(); usamos a API pública consultar() e pegamos os chunk_ids
-    res = consultar.consultar(pergunta, top=top)
-    ids = []
-    for r in (res.get("resultados") if isinstance(res, dict) else res) or []:
-        cid = r.get("chunk_id") if isinstance(r, dict) else None
-        if cid:
-            ids.append(cid)
-    return ids
+    res = consultar.consultar(pergunta, top=top, incluir_revogado=True)
+    return [r["chunk_id"] for r in res.get("resultados", []) if r.get("chunk_id")]
 
 
 def main():

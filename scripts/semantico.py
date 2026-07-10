@@ -54,3 +54,30 @@ def rrf(*rankings, k=60, top=None):
 def query_vec(sha1_or_map, mapa_perguntas):
     """Helper: recupera o vetor de uma pergunta pelo sha1 (do query-embeddings.json)."""
     return mapa_perguntas.get(sha1_or_map)
+
+
+MODEL = "models/gemini-embedding-001"
+DIM = 768
+
+
+def embed_query(texto):
+    """Embute UMA pergunta ao vivo (RETRIEVAL_QUERY) via Gemini — SÓ se GEMINI_API_KEY estiver
+    no ambiente. Devolve vetor normalizado ou None (queda graciosa: sem chave → sem semântico,
+    o retrieval segue keyword-only). Nunca é chamado no gate (que roda sem a chave)."""
+    import os
+    key = os.environ.get("GEMINI_API_KEY")
+    if not key:
+        return None
+    import json as _j
+    import math as _m
+    import urllib.request as _u
+    body = _j.dumps({"model": MODEL, "content": {"parts": [{"text": texto[:8000]}]},
+                     "taskType": "RETRIEVAL_QUERY", "outputDimensionality": DIM}).encode()
+    url = f"https://generativelanguage.googleapis.com/v1beta/{MODEL}:embedContent?key={key}"
+    try:
+        with _u.urlopen(_u.Request(url, data=body, headers={"Content-Type": "application/json"}), timeout=30) as r:
+            v = _j.loads(r.read())["embedding"]["values"]
+        n = _m.sqrt(sum(x * x for x in v)) or 1.0
+        return [x / n for x in v]
+    except Exception:
+        return None
