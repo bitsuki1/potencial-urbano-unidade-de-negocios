@@ -107,6 +107,10 @@ jobs:
       - name: Divergência PCpt × certidões (surfaçar, não esconder)
         run: python3 evals/eval-divergencia-pcpt.py
 
+      # G6 — GATE de mutação do Motor do Mapa: zona sabotada no pipeline DEVE produzir CAbás divergente.
+      - name: Mutação zona (G6 — Motor do Mapa × Quadro 3)
+        run: python3 evals/eval-zona-mutacao.py
+
       # Separação TDC×IPTU (plano 2026-07-04) — GATE: domínio carimbado (vocab fechado) + roteamento
       # provado (não-poluição, não-perda de 'compartilhado', PDE alcançável do TDC, anti-padrão eliminado).
       - name: Domínio TDC×IPTU (carimbo válido + roteamento provado)

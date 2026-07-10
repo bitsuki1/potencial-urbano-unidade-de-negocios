@@ -1,0 +1,48 @@
+{
+  "id": "zona-mutacao-g6",
+  "tipo": "gabarito-zona-mutacao",
+  "descricao": "Teste de mutação (G6): zona sabotada no pipeline DEVE produzir CAbás divergente. Gabarito ancora no Quadro 3 (LPUOS Lei 16.402/2016) — se alguém alterar zona_por_cedente.csv ou o overlay, o assert categórico (zona) e numérico (CAbás) acusam.",
+  "fonte": "zepec/oficial/zona_por_cedente.csv (pipeline geo) × tabelas/quadro3-ca-por-zona.csv (LPUOS Quadro 3)",
+  "casos": [
+    {
+      "sql_mestre": "0010870001",
+      "zona_certa": "ZEPAM",
+      "ca_basico_certo": "0.1",
+      "zona_sabotada": "ZC",
+      "ca_basico_sabotado": "1",
+      "nota": "ZEPAM (CAbás=0,1) → ZC (CAbás=1): erro 10× — âncora mais forte de mutação"
+    },
+    {
+      "sql_mestre": "0130090136",
+      "zona_certa": "AC-1",
+      "ca_basico_certo": "0.6",
+      "zona_sabotada": "ZEU",
+      "ca_basico_sabotado": "1",
+      "nota": "AC-1 (CAbás=0,6) → ZEU (CAbás=1): erro ~1,67×"
+    },
+    {
+      "sql_mestre": "0010180001",
+      "zona_certa": "ZC",
+      "ca_basico_certo": "1",
+      "zona_sabotada": "ZEPAM",
+      "ca_basico_sabotado": "0.1",
+      "nota": "ZC (CAbás=1) → ZEPAM (CAbás=0,1): erro 10× (inverso do caso 1)"
+    },
+    {
+      "sql_mestre": "0050480009",
+      "zona_certa": "ZEU",
+      "ca_basico_certo": "1",
+      "zona_sabotada": "AC-2",
+      "ca_basico_sabotado": "0.4",
+      "nota": "ZEU (CAbás=1) → AC-2 (CAbás=0,4): erro 2,5×"
+    },
+    {
+      "sql_mestre": "0040170001",
+      "zona_certa": "ZM",
+      "ca_basico_certo": "1",
+      "zona_sabotada": "ZPDSr",
+      "ca_basico_sabotado": "0.2",
+      "nota": "ZM (CAbás=1) → ZPDSr (CAbás=0,2): erro 5×"
+    }
+  ]
+}
