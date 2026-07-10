@@ -1,0 +1,42 @@
+{
+  "id": "tjsp-ai-2257458-20-2024",
+  "tipo": "acordao",
+  "tribunal": "TJSP",
+  "numero": "2257458-20.2024.8.26.0000",
+  "orgao_julgador": "5a Camara de Direito Privado",
+  "relator": "Des. J.L. Monaco da Silva",
+  "data_julgamento": "2024-11-05",
+  "tema_rg_ou_repetitivo": null,
+  "leading_case": null,
+  "enunciado_ou_tese": "Cumprimento de sentenca (penhora de valores): o acordao caracteriza a TDC como especie de COMPENSACAO estatal pela limitacao ao direito de propriedade decorrente do tombamento, de natureza compensatoria, mantendo a penhora por ausencia de vinculacao especifica na utilizacao da verba.",
+  "tema": [
+    "tdc",
+    "natureza-compensatoria",
+    "penhora"
+  ],
+  "dispositivos_relacionados": [
+    "Lei Municipal SP no 16.050/2014"
+  ],
+  "situacao": "vigente",
+  "vigencia": {
+    "inicio": "2024-11-05",
+    "fim": null,
+    "nota": "acordao (resumo de metadados)"
+  },
+  "fonte": {
+    "origem": "web-extensao-resumo",
+    "url": "TJSP e-SAJ (consulta processual 2o grau) — https://esaj.tjsp.jus.br/cposg/open.do",
+    "hash": "sha256:01fe3347dcc86d69e85391e75c00dae80ce6c47e82d8c27f219201259bda6fe4",
+    "hash_alvo": "jurisprudencia/tjsp-ai-2257458-20-2024.md",
+    "captura_verbatim": null,
+    "hash_nota": "hash do .md (FICHA de metadados). Inteiro teor NAO reproduzido (direitos autorais); verbatim a capturar no portal."
+  },
+  "status_pipeline": "tagueado",
+  "confianca_extracao": "media",
+  "revisado_por_humano": false,
+  "verificacao_verbatim": "RESUMO em linguagem propria (extensao) — inteiro teor NAO reproduzido por direitos autorais. Identificacao (processo/orgao/relator/data) confere.",
+  "dominio_primario": "tdc",
+  "dominio": [
+    "tdc"
+  ]
+}

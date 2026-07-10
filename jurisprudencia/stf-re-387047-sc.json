@@ -1,0 +1,45 @@
+{
+  "id": "stf-re-387047-sc",
+  "tipo": "acordao",
+  "tribunal": "STF",
+  "numero": "RE 387.047/SC",
+  "orgao_julgador": "Tribunal Pleno",
+  "relator": "Min. Eros Grau",
+  "data_julgamento": "2008-03-06",
+  "tema_rg_ou_repetitivo": null,
+  "leading_case": null,
+  "enunciado_ou_tese": "Base constitucional do 'solo criado' (do qual deriva a TDC): a Lei 3.338/89 de Florianopolis sobre outorga onerosa do direito de construir acima do coeficiente unico. O STF concluiu que a cobranca NAO E TRIBUTO, mas onus urbanistico vinculado a funcao social da propriedade (arts. 182 e 170, III, da CF). Recurso desprovido. DJ 02/05/2008.",
+  "tema": [
+    "solo-criado",
+    "outorga-onerosa",
+    "nao-tributo",
+    "funcao-social"
+  ],
+  "dispositivos_relacionados": [
+    "CF/1988, art. 182",
+    "CF/1988, art. 170, III",
+    "Lei Federal no 10.257/2001"
+  ],
+  "situacao": "vigente",
+  "vigencia": {
+    "inicio": "2008-03-06",
+    "fim": null,
+    "nota": "acordao (resumo de metadados)"
+  },
+  "fonte": {
+    "origem": "web-extensao-resumo",
+    "url": "STF — https://portal.stf.jus.br/jurisprudencia/ (pesquisa de jurisprudencia)",
+    "hash": "sha256:6d1444126f6da748f4c6bd90dfc8971d7cf4ec7eed25f157e06455c707285658",
+    "hash_alvo": "jurisprudencia/stf-re-387047-sc.md",
+    "captura_verbatim": null,
+    "hash_nota": "hash do .md (FICHA de metadados). Inteiro teor NAO reproduzido (direitos autorais); verbatim a capturar no portal."
+  },
+  "status_pipeline": "tagueado",
+  "confianca_extracao": "media",
+  "revisado_por_humano": false,
+  "verificacao_verbatim": "RESUMO em linguagem propria (extensao) — inteiro teor NAO reproduzido por direitos autorais. Identificacao (processo/orgao/relator/data) confere.",
+  "dominio_primario": "tdc",
+  "dominio": [
+    "tdc"
+  ]
+}
