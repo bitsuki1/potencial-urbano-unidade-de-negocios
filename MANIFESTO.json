@@ -1,6 +1,6 @@
 {
   "_doc": "Fonte da verdade do status_pipeline de cada item. GERADO por scripts/consolidar.py a partir dos .json individuais — NAO editar a mao (Principio 1.5/2.3 do CLAUDE.md). Roda a cada push via .github/workflows/consolidar.yml.",
-  "gerado_em": "2026-07-10T22:40:13.130834+00:00",
+  "gerado_em": "2026-07-10T23:23:37.972803+00:00",
   "vocabulario_status": [
     "bruto",
     "fatiado",
@@ -9,15 +9,15 @@
     "indexado"
   ],
   "resumo": {
-    "total_itens": 68,
+    "total_itens": 69,
     "leis": 38,
-    "jurisprudencia": 30,
-    "ativos_no_escopo": 68,
+    "jurisprudencia": 31,
+    "ativos_no_escopo": 69,
     "fora_de_escopo": 0,
     "_nota": "por_status_pipeline conta SÓ os ativos_no_escopo. Os 2 fora-de-escopo históricos (stf-tema-1020/ISS, stj-resp-1658054/previdenciário) foram ARQUIVADOS por decisão do dono em 2026-07-05 (git rm; recuperáveis pelo histórico).",
     "por_status_pipeline_ativos": {
       "indexado": 38,
-      "tagueado": 30
+      "tagueado": 31
     },
     "status_ilegais_encontrados": [],
     "verbatim_integral_ativos": 38,
@@ -40,7 +40,9 @@
     "indexado_verbatim_sem_vigencia_datada": [],
     "_nota_vigencia": "B-7 (1.6): leis verbatim/indexadas que ainda nao tem vigencia.inicio datada. Gap declarado (nao bloqueia o gate) — a datacao das 13 municipais bruto depende do verbatim do Drive (B-4).",
     "fonte_hash_nulo": [],
-    "fonte_hash_divergente": [],
+    "fonte_hash_divergente": [
+      "tjsp-ai-2126162-35-2025 (jurisprudencia/tjsp-ai-2126162-35-2025.md)"
+    ],
     "_nota_hash": "AUD-A10: Gate 1 'hash confere' (Parte 3) — fonte.hash recomputado do fonte.hash_alvo a cada consolidacao; nulo/divergente = consolidar sai 1 (gate VERMELHO). Backfill: scripts/backfill_hash.py."
   },
   "artefatos_nao_corpus": {
@@ -615,6 +617,21 @@
       "fora_de_escopo": false,
       "fora_de_escopo_motivo": null,
       "fonte_url": "https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=566&cod_tema_final=566"
+    },
+    {
+      "id": "tjsp-ai-2126162-35-2025",
+      "tipo": "acordao",
+      "caminho_md": "jurisprudencia/tjsp-ai-2126162-35-2025.md",
+      "caminho_json": "jurisprudencia/tjsp-ai-2126162-35-2025.json",
+      "status_pipeline": "tagueado",
+      "status_valido": true,
+      "confianca_extracao": "alta",
+      "verbatim_integral": false,
+      "vigencia_inicio": "2025-08-28",
+      "revisado_por_humano": false,
+      "fora_de_escopo": false,
+      "fora_de_escopo_motivo": null,
+      "fonte_url": "TJSP / e-SAJ — Agravo de Instrumento 2126162-35.2025.8.26.0000 (registro 2025.0000897356)"
     },
     {
       "id": "dl-57-1966",
