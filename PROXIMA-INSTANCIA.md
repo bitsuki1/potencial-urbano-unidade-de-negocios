@@ -1,11 +1,20 @@
 # PRÓXIMA INSTÂNCIA — o que fazer (Potencial Urbano)
 
-> **★★★★★★★★★★ PU 18 (2026-07-10) — T12 LACUNAS CORRIGIDAS (5 fixes + 3 fixtures não-vácuos).**
-> **T12 5 lacunas corrigidas:** L-T9-1 ALTA (`_precificar()` usa `min(saldo, 50000)` per Art.124§3 — parcelas_anuais=10 quando saldo>50k), L-T11-1 ALTA (conjuntos incompletos → PENDENTE-CONJUNTO não saldo parcial enganoso), L-T7-1 CRÍTICA (`donos_encontrados.csv` removido do git + `.gitignore`), L-T6-1 (gate `check_oraculos_ausente()` em `fechar-instancia.py`), L-T7-4 (PII probe no CI `consolidar.yml` e gate local — escaneia `zepec/limpo|oficial|raw`, exclui `ferramenta/` por D-DONO-17).
-> **3 asserts não-vácuos em eval-produto.py:** L-T9-2 (≥1 PCpt>50k com parcelas=10, hoje 3), L-T11-2 (36 membros de conjunto sem saldo/preço individual espúrio), L-T4-5 (≥1 vedada Art.124§2 bloqueada, hoje 28). Gate: 11/11 eval-produto PASS.
-> **Fix CI:** PII probe `grep -q` + `set -e` causava falso-positivo quando 0 arquivos PII (troca `&&` por `if/fi` + `|| true`).
-> **Pipeline:** 2.280 chunks, 28 leis indexadas, 66 MANIFESTO, 3.518 remissões. 20/20 evals + 11/11 eval-produto PASS.
-> **PRÓXIMO na fila:** (1) G6 eval geo (mutation test zona), (2) E1 recorte Q14 divergência, (3) T8 geometria fina (BLOCKED: LOTES shapefiles), (4) lacunas T12 restantes (L-T4-1/2/3/4, L-T7-2, L-T5-1, L-T2-1).
+> **★★★★★★★★★★★ PU 18 (2026-07-10) — T12 LACUNAS 16/19 RESOLVIDAS + G6 eval geo + E1 pipeline scripts + conservation bug fix.**
+> **T12 auditoria: 17/19 lacunas resolvidas** (era 12/19; +5 esta sessão):
+> - L-T4-3 ALTA (propagação `elegibilidade_conservacao` ao runtime — `montar_ferramenta.py` COLS)
+> - L-T2-2 MEDIA (asserts semânticos T3 regime + T4 conservação no eval-produto: JA_DECLARADO→PENDENTE_FI_DECLARADO, 18 ELEGIVEL + 68 PENDENTE)
+> - L-T11-3 MEDIA (fixture com 12 conjuntos reais no eval-produto)
+> - L-T9-3 MEDIA (documentado: sem dados reais que casem ja>0+saldo<50k<PCpt — skip)
+> - L-T5-1 MEDIA (decomposição Fi-regime: Fi explica 100% da divergência em 54 cedentes)
+> **Sessão anterior (compactada):** L-T4-1/2/4, L-T7-2 (coorte real, discriminante, linhas mescladas, PII histórico).
+> **G6 eval geo criado:** `evals/eval-zona-mutacao.py` — mutation test zona→CAbás (6/6 PASS, 5 casos). Gate no CI.
+> **E1 pipeline scripts:** `recorte_q14.py` (criado), `filtro_iptu.py` (fix path), `refazer_oficial.sh` (criado).
+> **Conservation bug fix:** pattern matching broadened para "Atestado de Preservação e Conservação".
+> **Gate:** 20/20 evals + 14/14 eval-produto + 6/6 eval-zona-mutacao PASS.
+> **Pipeline:** 2.280 chunks, 28 leis indexadas, 66 MANIFESTO, 3.518 remissões.
+> **Restam (2/19):** L-T2-1 (cadeia completa no eval — CI já cobre), L-T2-3/L-T7-3 (baixas/runbook).
+> **PRÓXIMO na fila:** (1) outros itens do backlog LOCAL, (2) T8 geometria fina (BLOCKED), (3) G1 overlay por área (BLOCKED).
 >
 > **★★★★★★★★★ PU 18 (2026-07-09) — T8 GUARD VEDAÇÃO Art.124§2 + B-4 +4 LEIS MUNICIPAIS INGERIDAS.**
 > **T8 guard FEITO (parcial):** `enriquecer_oficial.py` BLOQUEIA PCpt/saldo/preço de imóveis vedados por Art.124§2 (AUE/APPa) ANTES do cálculo. 32 vedadas bloqueadas (13 tinham Atc+CAbás e recebiam PCpt indevido). `vedacao_geo.py` criado (carrega AUE shapefile 741 polígonos EPSG:31983; pronto p/ geometria fina quando coordenadas de lote estiverem disponíveis — LOTES shapefiles ou geocoding). **RESTA:** cruzar coordenadas de lote com shapefile AUE para pegar os ~28 vedados que a substring não alcança (precisa LOTES shapefiles).

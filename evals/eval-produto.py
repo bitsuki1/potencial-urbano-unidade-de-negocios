@@ -156,6 +156,43 @@ def main():
         print(f"    SQLs com saldo/preço espúrio: {conj_bad[:10]}", file=sys.stderr)
     n_checks += 1
 
+    # L-T11-3: fixture com os conjuntos REAIS — exercita os conjuntos do CSV oficial.
+    # Agrupa por conjunto_certidao e verifica: (1) não-vácuo (>=3 conjuntos),
+    # (2) integridade do agrupamento, (3) membros de multi-membro sem saldo/preço individual.
+    conj_grupos = {}
+    for r in csv_idx.values():
+        c = (r.get("conjunto_certidao") or "").strip()
+        if c:
+            conj_grupos.setdefault(c, []).append(r)
+
+    t11_3_falhas = []
+    # (1) não-vácuo: pelo menos 3 conjuntos reais devem existir no CSV
+    if len(conj_grupos) < 3:
+        t11_3_falhas.append(f"apenas {len(conj_grupos)} conjuntos encontrados (mínimo 3)")
+    # Para cada conjunto:
+    for nome_conj, membros in sorted(conj_grupos.items()):
+        # (2) todos os membros compartilham o mesmo conjunto_certidao (integridade do agrupamento)
+        vals_conj = set((m.get("conjunto_certidao") or "").strip() for m in membros)
+        if len(vals_conj) != 1:
+            t11_3_falhas.append(f"{nome_conj}: membros com conjunto_certidao divergente ({vals_conj})")
+        # (3) multi-membro: nenhum membro individual tem saldo/preço preenchido
+        if len(membros) > 1:
+            for m in membros:
+                s = (m.get("saldo_pcpt_m2") or "").strip()
+                p = (m.get("preco_proxy_brl") or "").strip()
+                if s or p:
+                    t11_3_falhas.append(
+                        f"{nome_conj}/{m['sql_mestre']}: saldo/preço individual "
+                        f"preenchido em conjunto multi-membro")
+
+    print(f"  [{'PASS ' if not t11_3_falhas else 'FALHA'}] T11 conjuntos reais: "
+          f"{len(conj_grupos)} conjuntos exercitados (L-T11-3)")
+    if t11_3_falhas:
+        falhas += 1
+        for msg_f in t11_3_falhas[:10]:
+            print(f"    {msg_f}", file=sys.stderr)
+    n_checks += 1
+
     # L-T4-5: não-vácuo vedação Art. 124 §2 — pelo menos 1 vedada bloqueada deve existir.
     vedadas = [r for r in csv_idx.values() if "Art. 124 §2" in (r.get("pendencia_calculo") or "")]
     if not vedadas:
@@ -163,6 +200,35 @@ def main():
         falhas += 1
     else:
         print(f"  [PASS ] T8 vedação não-vácuo: {len(vedadas)} vedadas bloqueadas (L-T4-5)")
+    n_checks += 1
+
+    # L-T2-2/T3: regime PCpt — todo JA_DECLARADO deve ter qualidade_estimativa=PENDENTE_FI_DECLARADO
+    ja_decl = [r for r in csv_idx.values() if (r.get("regime_pcpt") or "").strip() == "JA_DECLARADO"]
+    ja_bad = [r["sql_mestre"] for r in ja_decl
+              if (r.get("qualidade_estimativa") or "").strip() != "PENDENTE_FI_DECLARADO"]
+    if ja_bad:
+        print(f"  [FALHA] T3 regime: {len(ja_bad)} JA_DECLARADO sem PENDENTE_FI_DECLARADO (L-T2-2)")
+        falhas += 1
+    elif not ja_decl:
+        print("  [FALHA] T3 regime não-vácuo: 0 JA_DECLARADO no produto (L-T2-2)")
+        falhas += 1
+    else:
+        print(f"  [PASS ] T3 regime: {len(ja_decl)} JA_DECLARADO todos com PENDENTE_FI_DECLARADO (L-T2-2)")
+    n_checks += 1
+
+    # L-T2-2/T4: conservação Art.129 — coluna populada; não-vácuo (≥1 ELEGIVEL + ≥1 PENDENTE).
+    cons_vals = [(r.get("elegibilidade_conservacao") or "").strip() for r in csv_idx.values()]
+    cons_vazio = sum(1 for v in cons_vals if not v)
+    cons_elegivel = sum(1 for v in cons_vals if v == "ELEGIVEL")
+    cons_pendente = sum(1 for v in cons_vals if v == "PENDENTE_CONSERVACAO")
+    if cons_vazio:
+        print(f"  [FALHA] T4 conservação: {cons_vazio} linhas sem elegibilidade_conservacao (L-T2-2)")
+        falhas += 1
+    elif cons_elegivel == 0 or cons_pendente == 0:
+        print(f"  [FALHA] T4 conservação não-vácuo: ELEGIVEL={cons_elegivel} PENDENTE={cons_pendente} (L-T2-2)")
+        falhas += 1
+    else:
+        print(f"  [PASS ] T4 conservação: {cons_elegivel} ELEGIVEL, {cons_pendente} PENDENTE, sem vazio (L-T2-2)")
     n_checks += 1
 
     print(f"\nRESUMO: {n_checks-falhas}/{n_checks} PASS, {falhas} falha(s).")

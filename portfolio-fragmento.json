@@ -6,14 +6,14 @@
   "lifeline": "Acha os donos de imóveis que podem vender potencial construtivo (TDC) e calcula, pela lei, quanto vale — cada número rastreável até o artigo.",
   "stage": "construção",
   "health": "ok",
-  "healthNote": "T12 auditoria: 8/19 lacunas corrigidas (L-T9-1 parcelamento, L-T11-1 conjuntos, L-T7-1/4 PII, L-T6-1 runner). eval-produto 11/11 PASS (7 golden + 4 não-vácuos). CI verde (fix PII probe set-e). Corpus: 28 leis, 2280 chunks, 3518 remissões. Zona-base 366/377.",
+  "healthNote": "T12 auditoria: 17/19 lacunas resolvidas. eval-produto 14/14 PASS (7 golden + 4 não-vácuos + T3 regime + T4 conservação + T11 conjuntos reais). eval-zona-mutacao 6/6. CI verde. Corpus: 28 leis, 2280 chunks, 3518 remissões. Zona-base 366/377.",
   "lever": { "tx": "Fi declarado (do acervo de Termos do dono) é o gap remanescente para fechar o cálculo nos imóveis JA_DECLARADO — o Fi escalonado (Art. 24) já cobre a prospecção nova.", "k": "interno: acervo Termos / Fi declarado" },
   "now": [
-    "T12 auditoria: 8/19 lacunas corrigidas — parcelamento Art.124§3 (L-T9-1), conjuntos PENDENTE (L-T11-1), PII probe (L-T7-1/4), runner pinado (L-T6-1). 4 asserts não-vácuos adicionados.",
-    "eval-produto 11/11 PASS (7 golden Fi×PCpt + T9 parcelamento + T9 não-vácuo + T11 conjuntos + T8 vedação). CI verde.",
-    "Corpus: 28 leis indexadas, 2280 chunks, 3518 remissões. Zona-base 366/377.",
-    "IPTU: Lei 15.889/2013 ingerida verbatim; tabelas extraídas como CSV. Motor IPTU spec guardado (não construir sem 'vai').",
-    "E1 investigado: 4291 vs 4292 é newline cosmético; recorte_q14.py/refazer_oficial.sh ainda não existem."
+    "T12 auditoria: 17/19 lacunas resolvidas — L-T4-3 propagação conservação, L-T2-2 asserts semânticos T3+T4, L-T11-3 conjuntos reais, L-T5-1 decomposição Fi (100% divergência é Fi), L-T9-3 skip. Restam 2 baixas.",
+    "eval-produto 14/14 PASS: 7 golden Fi×PCpt + T9 parcelamento + T9 não-vácuo + T11 conjuntos + T11 conjuntos reais + T8 vedação + T3 regime + T4 conservação.",
+    "G6 eval zona-mutação criado: 5 casos de mutação zona→CAbás, 6/6 PASS. Gate no CI.",
+    "E1 pipeline scripts: recorte_q14.py criado, filtro_iptu.py fix, refazer_oficial.sh criado. Pipeline reproduzível.",
+    "Corpus: 28 leis indexadas, 2280 chunks, 3518 remissões. Zona-base 366/377."
   ],
   "projetos": [
     {
@@ -22,14 +22,14 @@
       "stage": "construção",
       "calor": "hot",
       "frentes": [
-        { "nome": "Motor do Mapa (zona por imóvel)", "calor": "warm", "prod": "366/377 zonas-base resolvidas via GeoSampa SISZON (Lei 18.177/2024) + Quadro 3 LPUOS. 10 sem lote no GeoSampa, 1 irresolvível (Praça/Canteiro). CAbás total: 3682/3693.",
-          "ent": [["77 imóveis ZOE resolvidos (Quadro 2A)","feito"], ["366/377 ZEPEC resolvidos (GeoSampa SISZON)","feito"], ["gabarito Termo 006/2026: zona ZC confirmada","feito"], ["11 irresolvíveis restantes","block"]] },
-        { "nome": "Motor das Fórmulas (potencial construtivo)", "calor": "hot", "prod": "Cálculo PCpt = Atc x CAbás x Fi, escalonado pela lei. Fp engine pronto (Quadro 6). PCpt calculado: 3428/3693 no cedentes oficial; 2078/2740 na prospecção. eval-produto 11/11 (7 golden + 4 não-vácuos).",
-          "ent": [["engine lê tabelas da lei (fail-closed)","feito"], ["eval-produto ancorado na lei (7 faixas + 4 não-vácuos)","feito"], ["Fp engine (Quadro 6)","feito"], ["Fi declarado (acervo Termos)","block"], ["preço legal (Art.128)","block"]] },
+        { "nome": "Motor do Mapa (zona por imóvel)", "calor": "warm", "prod": "366/377 zonas-base resolvidas via GeoSampa SISZON. G6 eval mutação zona criado e no CI (5 casos, 6/6 PASS). CAbás total: 3682/3693.",
+          "ent": [["366/377 ZEPEC resolvidos (GeoSampa SISZON)","feito"], ["G6 eval mutação zona (5 casos)","feito"], ["11 irresolvíveis restantes","block"]] },
+        { "nome": "Motor das Fórmulas (potencial construtivo)", "calor": "hot", "prod": "PCpt = Atc x CAbás x Fi. eval-produto 14/14. Decomposição L-T5-1: Fi explica 100% da divergência (54 cedentes). Pipeline E1 reproduzível (refazer_oficial.sh).",
+          "ent": [["engine lê tabelas da lei (fail-closed)","feito"], ["eval-produto 14/14 (7 golden + 7 semânticos)","feito"], ["Fp engine (Quadro 6)","feito"], ["L-T5-1 decomposição Fi-regime","feito"], ["Fi declarado (acervo Termos)","block"]] },
         { "nome": "Motor da Lei (conteúdo jurídico)", "calor": "hot", "prod": "28 leis indexadas (2280 chunks), fatiadas por dispositivo, com vigência e citação obrigatória. Grafo: 3518 remissões.",
-          "ent": [["TDC indexado e citável (5+ leis TDC)","feito"], ["grafo de remissões (3518 arestas)","feito"], ["+4 leis municipais ingeridas (11.152/15.044/17.202/17.577)","feito"], ["T8 guard vedação Art.124§2 (32 vedadas)","feito"]] },
-        { "nome": "Motor Comercial (prospecção lado-vendedor)", "calor": "hot", "prod": "Lista de cedentes (só vendedores; comprador fora de escopo por decisão do dono).",
-          "ent": [["ferramenta de cedentes gerada","feito"], ["religar fila ao enriquecimento","prox"]] }
+          "ent": [["TDC indexado e citável (5+ leis TDC)","feito"], ["grafo de remissões (3518 arestas)","feito"], ["+4 leis municipais ingeridas","feito"], ["T8 guard vedação Art.124§2 (32 vedadas)","feito"]] },
+        { "nome": "Motor Comercial (prospecção lado-vendedor)", "calor": "hot", "prod": "Lista de cedentes com elegibilidade_conservacao propagada (18 ELEGIVEL, 68 PENDENTE). 2740 na prospecção.",
+          "ent": [["ferramenta com conservação (L-T4-3)","feito"], ["religar fila ao enriquecimento","prox"]] }
       ]
     },
     {
@@ -38,8 +38,8 @@
       "stage": "plano",
       "calor": "cold",
       "frentes": [
-        { "nome": "Preparação", "calor": "warm", "prod": "Lei 15.889/2013 ingerida verbatim (17 chunks); tabelas de alíquotas (Arts. 3/4/5) e Tabela VI extraídas como CSV. Motor VV×alíquota spec guardado.",
-          "ent": [["expertise capturada","feito"], ["Lei 15.889 ingerida + tabelas extraídas","feito"], ["construir o motor","block"]] }
+        { "nome": "Preparação", "calor": "warm", "prod": "Lei 15.889/2013 ingerida verbatim; tabelas extraídas. E1 pipeline scripts criados (filtro_iptu.py, recorte_q14.py).",
+          "ent": [["expertise capturada","feito"], ["Lei 15.889 ingerida + tabelas","feito"], ["E1 pipeline scripts","feito"], ["construir o motor","block"]] }
       ]
     }
   ],

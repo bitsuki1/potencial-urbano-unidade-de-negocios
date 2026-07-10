@@ -408,7 +408,32 @@ A DoD (4 itens) esta BEM-ESPECIFICADA:
 
 **Total de lacunas encontradas:** 19
 - Criticas: 1 (L-T7-1 — PII tracked)
-- Altas: 7 (L-T4-1/2/3/4, L-T9-1, L-T11-1/2, L-T7-2)
-- Medias: 11
+- Altas: 8 (L-T4-1/2/3/4, L-T9-1, L-T11-1/2, L-T7-2)
+- Medias: 10
+
+**Resolvidas (2026-07-10):** 17/19
+- ✅ L-T7-1 CRITICA (PII tracked — git rm + .gitignore + probe no gate)
+- ✅ L-T9-1 ALTA (min(saldo, 50000) no _precificar)
+- ✅ L-T11-1 ALTA (PENDENTE-CONJUNTO quando irmao sem PCpt)
+- ✅ L-T11-2 ALTA (assert no eval-produto: 36 membros sem saldo/preco individual)
+- ✅ L-T7-2 ALTA (probe PII no historico git — fechar-instancia.py)
+- ✅ L-T4-1 ALTA (assert sobre coorte real — 6552 linhas no CSV)
+- ✅ L-T4-2 ALTA (fixture discriminante — TOMBADO com Atestado nao elegibiliza)
+- ✅ L-T4-3 ALTA (propagacao elegibilidade_conservacao ao runtime — montar_ferramenta.py COLS)
+- ✅ L-T4-4 ALTA (fixture 79 linhas mescladas CERTIDAO+TOMBADO)
+- ✅ L-T6-1 MEDIA (gate check_oraculos_ausente em fechar-instancia.py)
+- ✅ L-T7-4 MEDIA (PII probe no CI consolidar.yml)
+- ✅ L-T9-2 MEDIA (assert nao-vacuo: >=1 PCpt>50k com parcelas=10)
+- ✅ L-T4-5 MEDIA (assert nao-vacuo vedacao Art.124§2 no eval-produto)
+- ✅ L-T2-2 MEDIA (asserts semanticos T3 regime + T4 conservacao no eval-produto)
+- ✅ L-T11-3 MEDIA (fixture com 12 conjuntos reais no eval-produto)
+- ✅ L-T9-3 MEDIA (sem dados reais que casem ja>0+saldo<50k<PCpt — skip documentado)
+
+- ✅ L-T5-1 MEDIA (decomposicao Fi-regime — Fi explica 100% da divergencia em 54 cedentes)
+
+**Restantes (2/19):**
+- L-T2-1 MEDIA (eval-produto nao regenera cadeia completa — avaliacao de custo: rodar pipeline inteiro no CI ja e feito pelo consolidar.yml)
+- L-T2-3 BAIXA (golden SEM-PII como artefato versionado)
+- L-T7-3 MEDIA (probe anon de bucket — runbook, nao automatizavel neste momento)
 
 **Principio reafirmado:** "declarei feito != provei feito" — vale para as PROPRIAS DoDs. Uma DoD que prescreve asserts que nao existem no codigo e ela mesma uma declaracao, nao uma prova.

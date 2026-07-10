@@ -118,8 +118,14 @@ COLS=['sql_mestre','setor','quadra','lote','nome_bem','endereco_mestre','distrit
       'proprietario','fonte_dono',
       'tipo_zepec','esfera','estado_venda','certeza','negociavel','motivo_negociavel','sinais_revisar',
       'm2_ja_transferido','n_transferencias','conjunto_certidao','valor_pecuniario_rs','status_fundurb','intercorrencia_fundurb','base_periodo_fundurb_rs',
-      'tem_declaracao','tem_certidao','esgotado','data_ref','origens','obs']
+      'tem_declaracao','tem_certidao','esgotado','elegibilidade_conservacao','data_ref','origens','obs']
 out=[]
+
+_CONSERV_RANK={'ELEGIVEL':0,'PENDENTE_CONSERVACAO':1,'SEM_ATESTADO':2}
+def _conservacao_agregada(rs):
+    vals=[g(r,'elegibilidade_conservacao') for r in rs if g(r,'elegibilidade_conservacao')]
+    if not vals: return 'SEM_ATESTADO'
+    return min(vals, key=lambda v: _CONSERV_RANK.get(v, 9))
 
 def monta(sm, rs):
     orig=set(g(r,'origem') for r in rs)
@@ -157,6 +163,7 @@ def monta(sm, rs):
         intercorrencia_fundurb=fu.get('intercorrencia',''),base_periodo_fundurb_rs=fu.get('base_periodo_rs',''),
         tem_declaracao='sim' if tem_decl else 'nao',
         tem_certidao='sim' if tem_cert else 'nao',esgotado='sim' if esg else 'nao',
+        elegibilidade_conservacao=_conservacao_agregada(rs),
         data_ref=max(datas) if datas else '',origens='+'.join(sorted(orig)),obs=' | '.join(obs))
 
 for sm,rs in grupos.items():
