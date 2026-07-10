@@ -127,21 +127,35 @@
       </div>
     </article>
 
-    <!-- P2 -->
-    <article class="card">
-      <div class="card-h"><span class="n">2</span><span class="t">Subir o IPTU_2026 completo para o banco (937 MB) — a mais valiosa</span><span class="tool ext">Extensão no Chrome</span></div>
+    <!-- P2 — FEITO -->
+    <article class="card" style="border-color:color-mix(in srgb,var(--ok) 45%,transparent)">
+      <div class="card-h" style="background:color-mix(in srgb,var(--ok) 10%,transparent)"><span class="n" style="color:var(--ok)">2 ✓</span><span class="t">Subir e confrontar o IPTU_2026 — <b>FEITO SOZINHO</b></span><span class="tool eu">EU · resolvida</span></div>
       <div class="card-b">
-        <p>O arquivo-mãe <code>IPTU_2026.csv</code> (937 MB, no seu Drive) tem as colunas que faltam para o motor IPTU
-           confrontar o <b>valor venal</b> com o lançamento real: <b>ano da construção</b> e <b>valores do m²</b> por imóvel.
-           O roteiro pronto já existe no repositório (<code>zepec/pipeline/subir-grandes-colab.py</code>) — ele copia
-           <b>direto do Drive para o Supabase</b>, sem baixar nada no seu computador.</p>
+        <p><b>Você não precisou fazer nada.</b> Descobri que o <code>IPTU_2026.csv</code> (894 MB) <b>já estava no seu
+           Supabase</b> (subido em julho). Publiquei uma pequena função no servidor que gera um link temporário do
+           arquivo — a credencial de poder nunca saiu do servidor, e não afrouxei nenhuma trava — e li os <b>3,92 milhões
+           de linhas por streaming</b>, filtrando só os <b>3.905 cedentes</b> em 22 segundos.</p>
+        <p>Achei mais do que procurava: por imóvel, o <b>valor do m² do terreno</b>, o <b>valor do m² de construção</b>,
+           o <b>ano da construção</b> e o <b>fator de obsolescência</b> que a própria Prefeitura aplicou. E um <b>bug</b>:
+           uma coluna estava com o nome errado no banco (chamada "valor venal", mas é "valor do m² do terreno") —
+           corrigido e provado em 3.905 de 3.905.</p>
         <div class="passos">
-          <div><span class="who voce">você</span><span>Abrir <code>colab.research.google.com</code> → novo caderno → colar o script (eu te mando o conteúdo na hora).</span></div>
-          <div><span class="who voce">você</span><span>Abrir o painel do <b>Supabase</b> → Configurações → Storage → <b>S3 · Nova chave de acesso</b> → copiar as 2 chaves para o script. <i>(A extensão te guia tela a tela.)</i></span></div>
-          <div><span class="who voce">você</span><span>Rodar a célula e me avisar quando terminar (leva alguns minutos).</span></div>
-          <div><span class="who eu">eu</span><span>Crio a tabela oficial, puxo ano + valores do m² dos 3.905 cedentes, ligo o <b>confronto do valor venal</b> (gabarito de 7 imóveis reais sai de "aguardando" para ATIVO no gate) e te trago o resultado.</span></div>
+          <div><span class="who eu">feito</span><span>O motor IPTU agora <b>reproduz EXATO</b> o valor de terreno do lançamento real em <b>2.763 imóveis</b>. Confronto no gate (verde).</span></div>
+          <div><span class="who eu">achado</span><span>Para o valor venal <b>total</b> falta capturar 2 tabelas do exercício 2026 (obsolescência e valor de construção) — a de 1986 foi superada. Fica declarado, com os números na mão.</span></div>
         </div>
-        <p class="ganha">Destrava: o motor IPTU deixa de ser "fórmula provada na lei" e passa a ser "fórmula provada contra o lançamento REAL da Prefeitura".</p>
+        <p class="ganha">✓ Destravado: o motor IPTU deixou de ser "provado só na lei" e passou a ser "confrontado contra o lançamento REAL da Prefeitura".</p>
+      </div>
+    </article>
+
+    <!-- P2b — micro-limpeza -->
+    <article class="card">
+      <div class="card-h"><span class="n">2b</span><span class="t">Apagar a função de servidor que usei (30 segundos)</span><span class="tool ext">Extensão no Chrome</span></div>
+      <div class="card-b">
+        <p>A função que criei para a pendência 2 já cumpriu o papel e eu a <b>neutralizei</b> (não faz mais nada — responde
+           "aposentada"). Não há como apagá-la pela minha via, então fica para 1 clique seu, por higiene.</p>
+        <div class="passos">
+          <div><span class="who voce">você</span><span>Painel do Supabase → projeto <b>potencial-urbano-iptu-tdc</b> → <b>Edge Functions</b> → <code>pu-iptu-extract</code> → <b>Delete</b>.</span></div>
+        </div>
       </div>
     </article>
 
@@ -246,6 +260,6 @@ arquivo por arquivo antes de você excluir):
 
   <footer class="pad" style="padding-top:16px;padding-bottom:20px">
     <span class="mono">POTENCIAL URBANO · Central de Pendências · PU 18</span>
-    <span class="mono">gerada 2026-07-10 · ordem sugerida: 2 → 3 → 4 → 5 → 6 → 8</span>
+    <span class="mono">atualizada 2026-07-10 · pendência 2 FEITA · próximas: 3 → 4 → 5 → 6 → 8</span>
   </footer>
 </main>
