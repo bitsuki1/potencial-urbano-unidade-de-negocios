@@ -126,6 +126,11 @@ def check_produto():
     return rc == 0, "produto: 7 cedentes reais c/ Fi legal (Art.24) OK" if rc == 0 else f"produto divergiu do Fi legal (exit {rc})"
 
 
+def check_zona_mutacao():
+    rc, _ = _run(["evals/eval-zona-mutacao.py"])
+    return rc == 0, "zona-mutação: 6/6 PASS" if rc == 0 else f"zona-mutação regrediu (exit {rc})"
+
+
 def check_conservacao():
     # T4: gate de conservação (Art. 129) 3-estados; Termo→PENDENTE e RES.(tombamento)→SEM_ATESTADO,
     # nunca ELEGIVEL. Fixtures FALHAM se a regra regredir.
@@ -284,6 +289,7 @@ def main():
         ("ENGINE Fp (Quadro 6, Fator de Planejamento)", check_engine_fp),
         ("ENGINE CEDENTE (Fi Art.24, T2)", check_engine_cedente),
         ("PRODUTO (golden Fi cedentes reais, T2)", check_produto),
+        ("ZONA-MUTAÇÃO (CAbás por zona, G6)", check_zona_mutacao),
         ("CONSERVAÇÃO (Art.129 3-estados, T4)", check_conservacao),
         ("REGIME PCpt (já-declarado×novo, T3)", check_regime_pcpt),
         ("DIVERGÊNCIA PCpt×certidões (M0)", check_divergencia),

@@ -13,16 +13,13 @@ from collections import defaultdict, Counter
 Z = Path(__file__).resolve().parent
 OUT = Z / "ferramenta"; OUT.mkdir(exist_ok=True)
 
-def norm_sql(sq, lote):
-    sqd=re.sub(r'\D','',sq or ''); m=re.match(r'(\d{4})',(lote or '').strip())
-    return (sqd[:3]+sqd[3:6]+m.group(1)) if (len(sqd)==6 and m) else ''
-
 # 1) das certidoes: ESGOTADOS, marca de OPERACAO URBANA e m2 JA TRANSFERIDO por cedente
 from collections import defaultdict as _dd
 esgotado=set(); operacao_urbana=set(); transferido=_dd(float); n_transf=_dd(int)
 def _num(x):
     x=(x or '').strip().replace(' ','')
     if re.search(r',\d{2}$',x): x=x.replace('.','').replace(',','.')
+    elif re.fullmatch(r'\d{1,3}(\.\d{3})+', x): x=x.replace('.','')
     else: x=x.replace(',','')
     try: return float(re.sub(r'[^\d.]','',x))
     except Exception: return None

@@ -6,7 +6,7 @@
   "lifeline": "Acha os donos de imóveis que podem vender potencial construtivo (TDC) e calcula, pela lei, quanto vale — cada número rastreável até o artigo.",
   "stage": "construção",
   "health": "ok",
-  "healthNote": "Auditoria profunda: 7 achados corrigidos (RAG-01/02/03/04 + ENG-01/02/03). Gate 21/21. Evals: 29/29 RAG + 15/15 produto + 6/6 zona. Corpus: 28 leis, 2280 chunks, 2410 remissões (dedup). Anti-oracle: Fi delegado ao pcpt.py + CI guard motor00/ (ENG-03). Zona-base 366/377.",
+  "healthNote": "Auditoria profunda: 10 achados corrigidos (RAG-01/02/03/04 + ENG-01/02/03 + PIPE-01 + GOV-01 + COD-01). Gate 22/22. Evals: 29/29 RAG + 15/15 produto + 6/6 zona. Corpus: 28 leis, 2280 chunks, 2410 remissões (dedup). Anti-oracle completo. Zona-base 366/377.",
   "lever": { "tx": "Fi declarado (do acervo de Termos do dono) é o gap remanescente para fechar o cálculo nos imóveis JA_DECLARADO — o Fi escalonado (Art. 24) já cobre a prospecção nova.", "k": "interno: acervo Termos / Fi declarado" },
   "now": [
     "Fp engine adicionado ao gate (CI + fechar-instancia → 21 checks). Qualidade de código: 3 defeitos corrigidos em enriquecer_oficial.py + gerar_xlsx.py refatorado.",
@@ -14,7 +14,7 @@
     "IPTU RAG ground-truth Lei 15.889/2013: 9 itens (7 positivos + 2 negativos), calibrados contra BM25 real. Status ATIVO.",
     "Evals: 29/29 RAG + 15/15 eval-produto + 6/6 eval-zona-mutação PASS. Gate 21/21 VERDE.",
     "Corpus: 28 leis indexadas, 2280 chunks, 2410 remissões (dedup RAG-03). Zona-base 366/377. Tabelas: 10 CSV com vintage+hash.",
-    "Auditoria profunda: 7 achados corrigidos — RAG-01 (4 leis presas em tagueado→indexado), RAG-02 (NV-1 reverso), RAG-03 (1108 duplicatas), ENG-01 (anti-oracle oodc.py), ENG-02 (+regularizacao_fundiaria), ENG-03 (CI guard motor00/)."
+    "Auditoria profunda: 10 achados corrigidos — RAG-01/02/03/04, ENG-01/02/03, PIPE-01 (pipeline resync), GOV-01 (zona-mutação no gate→22 checks), COD-01 (bug _num ponto-milhar BR)."
   ],
   "projetos": [
     {

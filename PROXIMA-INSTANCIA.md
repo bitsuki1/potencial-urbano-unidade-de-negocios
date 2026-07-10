@@ -1,12 +1,13 @@
 # PRÓXIMA INSTÂNCIA — o que fazer (Potencial Urbano)
 
-> **★★★★★★★★★★★★★★★★ PU 18 (2026-07-10) — AUDITORIA PROFUNDA: 6 achados corrigidos (RAG-01/02/03 + ENG-01/02 + RAG-04).**
+> **★★★★★★★★★★★★★★★★ PU 18 (2026-07-10) — AUDITORIA PROFUNDA: 7 achados corrigidos (RAG-01/02/03/04 + ENG-01/02/03).**
 > **RAG-01 (alta):** `indexar.py:103` só promovia `fatiado` → 4 leis presas em `tagueado` (11152/15044/17202/17577). CORRIGIDO: aceita `tagueado`/`validado`. MANIFESTO: 24→**28 indexado**.
 > **RAG-02 (alta):** `consolidar.py` NV-1 só checava falso-verde (indexado sem chunk). CORRIGIDO: check reverso adicionado (chunks sem status indexado).
 > **RAG-03 (média):** `grafo_remissoes.py` emitia 1108 duplicatas (31,5%). CORRIGIDO: dedup por (lei_id, chunk_id, tipo, alvo). 3518→**2410 arestas**.
 > **ENG-01 (alta):** `oodc.py` lia Fi de `motor00/travas_operacionais_v6.1.json` (anti-oracle 1.3). CORRIGIDO: delega ao `pcpt.py` que lê de `tabelas/*.csv`.
 > **ENG-02 (alta):** `oodc.py` sem `regularizacao_fundiaria` (Art.127 §1º III, Fi=0.8). CORRIGIDO: via delegação ao pcpt.py.
 > **RAG-04:** auto-corrigido (MANIFESTO 28 indexado ao rodar RAG-01 fix).
+> **ENG-03 (média):** CI anti-oráculo não cobria `motor00/` (só CODEX). CORRIGIDO: guard `["']motor00/` no consolidar.yml (exceto travas_operacionais).
 > **Gate:** 21/21 VERDE (pós-commit). **Evals:** 29/29 RAG + 15/15 eval-produto + 6/6 eval-zona-mutação PASS.
 >
 > **★★★★★★★★★★★★★★★ PU 18 (2026-07-10) — VARREDURA 5 LENTES: fp.py gate + qualidade código + IPTU gabarito VV + ground-truth Lei 15.889.**
