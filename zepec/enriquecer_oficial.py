@@ -195,6 +195,11 @@ def main():
             # Pertinência é ENTRADA geográfica ('1'/'0'/'?' da camada perímetro AIU-SCE via
             # GeoSampa, propagada por preencher_cabas_do_wfs.py ao zona_por_cedente.csv).
             # Fail-closed: só '1' liga o FSCE; '?'/vazio em BIR vira pendência declarada.
+            # CAVEAT DE PROVENIÊNCIA (lente 2026-07-10): na_aiu_sce hoje vem das camadas GeoSampa
+            # `perimetro_aiu` (núcleo) + `requalifica_centro_perimetro_geral` (proxy), NÃO do Mapa 2
+            # oficial dos "perímetros EXPANDIDOS" do Art. 57. Risco: BIR≤1.000 m² num perímetro
+            # expandido fora do núcleo pode sair '0' → FSCE omitido (subavaliação de 50%). Pendência
+            # declarada: obter os 2 polígonos expandidos do Mapa 2 (Lei 17.844) e uni-los à camada.
             bir = "BIR" in (r.get("tipo_zepec") or "")
             sce = ((z.get("na_aiu_sce") or "").strip() if z else "")
             saldo = _calcular_pcpt(r, atc, cabas, pend, n, setor_central=(bir and sce == "1"))

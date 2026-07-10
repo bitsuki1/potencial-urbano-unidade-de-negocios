@@ -5,7 +5,7 @@
   "jurisdicao": "São Paulo - SP",
   "numero": "17844",
   "ano": "2022",
-  "ementa": "(ver texto integral)",
+  "ementa": "Aprova o Projeto de Intervencao Urbana do Setor Central (PIU-SCE) e cria a Area de Intervencao Urbana Setor Central (AIU-SCE); estabelece parametros urbanisticos, instrumentos de politica urbana e o Fator Setor Central (FSCE) para a Transferencia do Direito de Construir de imoveis ZEPEC-BIR (Art. 57).",
   "tema": [
     "intervencao_urbana",
     "requalificacao_urbana",
@@ -14,15 +14,17 @@
     "habitacao_interesse_social"
   ],
   "dispositivos_chave": [
-    "Art. 1 — Aprova o PIU Setor Central (PIU-SCE) e cria a AIU-SCE",
+    "Art. 1 — Aprova o Projeto de Intervenção Urbana Setor Central (PIU-SCE)",
+    "Art. 2 — Cria a Área de Intervenção Urbana Setor Central (AIU-SCE), delimitada no Mapa 2",
     "Art. 3 — Objetivos complementares ao PDE (art. 12 da Lei 16.050/2014)",
     "Art. 7 — Parametros de uso e ocupacao do solo da AIU-SCE",
     "Art. 14 — Areas nao computaveis no calculo do coeficiente de aproveitamento",
-    "Art. 22 — Acesso ao potencial construtivo adicional mediante outorga onerosa",
-    "Art. 23 — Ampliar oferta de HIS: destinacao minima de 20% de area construida total",
+    "Art. 22 — Acesso ao potencial construtivo adicional (lindeiros ao Apoio Urbano Sul) CONDICIONADO à doacao da parcela do lote p/ alinhamento viario (§1º: desconto de 50% na outorga onerosa)",
+    "Art. 23 — Institui perimetros de Projetos Estrategicos p/ ampliar HIS, areas verdes e equipamentos (Detran-SP, Caninde-Portuguesa, Caninde-Santo Antonio, Caninde-CMTC, Santa Rita)",
     "Art. 30 — Projetos Especiais: Minhocao, Dom Pedro II, Largo da Concordia",
     "Art. 56 — TDC na AIU-SCE regida pelos arts. 122-133 do PDE e arts. 24-26 da LPUOS",
-    "Art. 57 — Fator de Incentivo (Fi) de 1,4 para ZEPEC-BIR com ate 1.000 m2 na AIU-SCE"
+    "Art. 57 — FATOR SETOR CENTRAL (FSCE) = 2,0 para ZEPEC-BIR com terreno ate 1.000 m2 na AIU-SCE e perimetros expandidos: PCpt = ATC x CAbas x Fi x FSCE (Fi = Fator de Incentivo vigente na data de referencia; NAO e 1,4)",
+    "Art. 58 — Declaracoes emitidas sob a Operacao Urbana Centro (art. 7º da Lei 12.349/1997) permanecem validas, com regras de operacionalizacao"
   ],
   "vigencia": {
     "inicio": "2022-09-14",
@@ -107,5 +109,6 @@
   "dominio_primario": "tdc",
   "dominio": [
     "tdc"
-  ]
+  ],
+  "_correcao_metadados": "2026-07-10: dispositivos_chave e ementa corrigidos contra o verbatim (lente adversarial de fidelidade). Erros anteriores: Art.57 dizia 'Fi 1,4' (era FSCE 2,0), Art.1 atribuia a criacao da AIU-SCE (e do Art.2), Art.23 dizia '20% HIS' (sao perimetros de projetos), Art.22 omitia a doacao."
 }
