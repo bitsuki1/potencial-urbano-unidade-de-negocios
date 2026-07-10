@@ -19,16 +19,16 @@ const SERVICE_KEY  = 'COLE_AQUI_SUA_SERVICE_ROLE_KEY';   // <-- Supabase > Setti
 
 // Lista de oficiais PEQUENAS (drive_id -> destino no balde 'dados-produto/oficiais/')
 const ARQUIVOS = [
-  { driveId: '1Q499wCFws3H1d3w0jY1PFYOkCD5PjieF', dest: 'Atualizacacao_Q14_anoref2025.csv' },        // Quadro 14 (valor m2, vigente 2025)
-  { driveId: '1KPeSlCXVtWyuFr52gr0Wg4uzPqymbVaD', dest: 'PDE2013_SUBST2_Quadro_14_cadastro.csv' },     // Quadro 14 (base histórica)
-  { driveId: '17j94xkgVk4eberaRpRLK2j_ekz480Lny', dest: 'lista_declaracoes_ZEPEC-BIR_agosto-2025.xlsx' },
-  { driveId: '1en2WC2A-Wd21NNDhZ8ThheAyHmODIOl-', dest: 'lista_certidao_ZEPEC-BIR_agosto-2025.xlsx' },
-  { driveId: '1_w_WLS1P6QXsgBLF50roxL4gZ8vZzjIM', dest: 'oo_2002-2014.xlsx' },                          // Outorga Onerosa
-  { driveId: '1Z04ZHyuy0epwhg10SsVTAoZwG5cmiaK1', dest: 'oo_2014-2023.xlsx' },
-  { driveId: '1IvHck6ce6VwuSHd_EWVa9RmnJW0nWF8j', dest: 'OODC_2024-2025.xlsx' },                        // OODC detalhada (proprietário)
-  { driveId: '1ifKnqSFZcNF8zdc-CHpUfj56NyY-DlZE', dest: 'OUTORGA_ONEROSA.xlsx' },
-  { driveId: '17AgTa3aSavPSZyhkzq8cUClOHpYamT94', dest: 'ANUAL-2022-alvaras.xlsx' },                    // Alvarás (proprietário + SQL)
-  { driveId: '1rN_fsOefqdvDU8icHG-ptHGMemzX72NA', dest: 'fila_tdc_5pct_fundurb_dez2025.csv' },
+  { driveId: '1Q499wCFws3H1d3w0jY1PFYOkCD5PjieF', dest: 'q14/ano=2025/Atualizacacao_Q14_anoref2025.csv' },        // Quadro 14 (valor m2, vigente 2025)
+  { driveId: '1KPeSlCXVtWyuFr52gr0Wg4uzPqymbVaD', dest: 'q14/ano=2013/PDE2013_SUBST2_Quadro_14_cadastro.csv' },     // Quadro 14 (base histórica)
+  { driveId: '17j94xkgVk4eberaRpRLK2j_ekz480Lny', dest: 'zepec-bir/ano=2025-08/lista_declaracoes_ZEPEC-BIR_agosto-2025.xlsx' },
+  { driveId: '1en2WC2A-Wd21NNDhZ8ThheAyHmODIOl-', dest: 'zepec-bir/ano=2025-08/lista_certidao_ZEPEC-BIR_agosto-2025.xlsx' },
+  { driveId: '1_w_WLS1P6QXsgBLF50roxL4gZ8vZzjIM', dest: 'outorga-onerosa/ano=2002-2014/oo_2002-2014.xlsx' },                          // Outorga Onerosa
+  { driveId: '1Z04ZHyuy0epwhg10SsVTAoZwG5cmiaK1', dest: 'outorga-onerosa/ano=2014-2023/oo_2014-2023.xlsx' },
+  { driveId: '1IvHck6ce6VwuSHd_EWVa9RmnJW0nWF8j', dest: 'outorga-onerosa/ano=2024-2025/OODC_2024-2025.xlsx' },                        // OODC detalhada (proprietário)
+  { driveId: '1ifKnqSFZcNF8zdc-CHpUfj56NyY-DlZE', dest: 'outorga-onerosa/ano=consolidado/OUTORGA_ONEROSA.xlsx' },
+  { driveId: '17AgTa3aSavPSZyhkzq8cUClOHpYamT94', dest: 'alvaras/ano=2022/ANUAL-2022-alvaras.xlsx' },                    // Alvarás (proprietário + SQL)
+  { driveId: '1rN_fsOefqdvDU8icHG-ptHGMemzX72NA', dest: 'fundurb/ano=2025-12/fila_tdc_5pct_fundurb_dez2025.csv' },
 ];
 
 const BUCKET = 'dados-produto';

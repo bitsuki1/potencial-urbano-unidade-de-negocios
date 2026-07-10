@@ -25,10 +25,10 @@ S3_REGION   = "sa-east-1"
 
 # Arquivos grandes a subir (drive_id -> balde/destino). Comece pelo IPTU (o que destrava a area).
 ARQUIVOS = [
-    {"drive_id": "1HPvwPOkjRwlC4dfgEYpYkfyDJ5l94tNM", "bucket": "dados-produto", "dest": "oficiais/IPTU_2026.csv"},
+    {"drive_id": "1HPvwPOkjRwlC4dfgEYpYkfyDJ5l94tNM", "bucket": "dados-produto", "dest": "oficiais/iptu/ano=2026/IPTU_2026.csv"},
     # Descomente para subir tambem (ITBI recente e um LOTES de zoneamento):
-    # {"drive_id": "1IvF7JkpiUWwGMZKaYPM9876ASF_YgjMt", "bucket": "dados-produto", "dest": "oficiais/GUIAS_ITBI_2026.xlsx"},
-    # {"drive_id": "1EyzQ9O6HTbiUSBgotHYBun_haesZHGC_", "bucket": "geo-tabelas",   "dest": "LOTES_Parte_1_IA.csv"},  # (obs: _IA e nosso; use shapefile oficial)
+    # {"drive_id": "1IvF7JkpiUWwGMZKaYPM9876ASF_YgjMt", "bucket": "dados-produto", "dest": "oficiais/itbi/ano=2026/GUIAS_ITBI_2026.xlsx"},
+    # {"drive_id": "1EyzQ9O6HTbiUSBgotHYBun_haesZHGC_", "bucket": "geo-tabelas",   "dest": "lotes/ano=ia/LOTES_Parte_1_IA.csv"},  # (obs: _IA e nosso; use shapefile oficial)
 ]
 
 import subprocess, sys

@@ -118,7 +118,9 @@ COLS=['sql_mestre','setor','quadra','lote','nome_bem','endereco_mestre','distrit
       'proprietario','fonte_dono',
       'tipo_zepec','esfera','estado_venda','certeza','negociavel','motivo_negociavel','sinais_revisar',
       'm2_ja_transferido','n_transferencias','conjunto_certidao','valor_pecuniario_rs','status_fundurb','intercorrencia_fundurb','base_periodo_fundurb_rs',
-      'tem_declaracao','tem_certidao','esgotado','elegibilidade_conservacao','data_ref','origens','obs']
+      'tem_declaracao','tem_certidao','esgotado','elegibilidade_conservacao',
+      'data_declaracao_iso','data_certidao_iso','data_tombamento_iso',
+      'data_ref','origens','obs']
 out=[]
 
 _CONSERV_RANK={'ELEGIVEL':0,'PENDENTE_CONSERVACAO':1,'SEM_ATESTADO':2}
@@ -144,6 +146,10 @@ def monta(sm, rs):
     fu=fmatches[0] if fmatches else {}
     tz='/'.join(sorted(set(g(r,'tipo_zepec') for r in rs if g(r,'tipo_zepec'))))
     datas=[g(r,'data_pub_iso') for r in rs if g(r,'data_pub_iso')]
+    # E2 familia-2c: datas por origem (nunca agregar origens distintas antes da camada bruta)
+    data_decl = max((g(r,'data_pub_iso') for r in rs if g(r,'origem')=='DECLARACAO_BIR' and g(r,'data_pub_iso')), default='')
+    data_cert = max((g(r,'data_pub_iso') for r in rs if g(r,'origem')=='CERTIDAO_BIR_CEDENTE' and g(r,'data_pub_iso')), default='')
+    data_tomb = max((g(r,'data_pub_iso') for r in rs if g(r,'origem')=='TOMBADO_CADASTRO' and g(r,'data_pub_iso')), default='')
     obs=[]
     if tem_decl and tem_cert: obs.append('declarou e ja vendeu (tem vinculo)')
     if vedado and (tem_decl or tem_cert): obs.append('tem tag AUE/APPa mas declarou/vendeu — revisar')
@@ -164,7 +170,9 @@ def monta(sm, rs):
         tem_declaracao='sim' if tem_decl else 'nao',
         tem_certidao='sim' if tem_cert else 'nao',esgotado='sim' if esg else 'nao',
         elegibilidade_conservacao=_conservacao_agregada(rs),
-        data_ref=max(datas) if datas else '',origens='+'.join(sorted(orig)),obs=' | '.join(obs))
+        data_declaracao_iso=data_decl, data_certidao_iso=data_cert, data_tombamento_iso=data_tomb,
+        data_ref=max(datas) if datas else '',  # Gold/apresentacao: agregado max de TODAS as origens
+        origens='+'.join(sorted(orig)),obs=' | '.join(obs))
 
 for sm,rs in grupos.items():
     if sm: out.append(monta(sm,rs))

@@ -1,6 +1,6 @@
 {
   "_doc": "Fonte da verdade do status_pipeline de cada item. GERADO por scripts/consolidar.py a partir dos .json individuais — NAO editar a mao (Principio 1.5/2.3 do CLAUDE.md). Roda a cada push via .github/workflows/consolidar.yml.",
-  "gerado_em": "2026-07-09T23:27:54.342122+00:00",
+  "gerado_em": "2026-07-10T00:45:16.683790+00:00",
   "vocabulario_status": [
     "bruto",
     "fatiado",
@@ -62,8 +62,8 @@
       "status": "engine OODC/TDC executável (engines/tdc/oodc.py); demais são prosa/conhecimento"
     },
     "tabelas": {
-      "arquivos": 11,
-      "status": "11 tabela(s) no git (Q14 valor-terreno, Quadro 3 CA/zona, Quadro 5 Fs, Quadro 7 parques, Fi-área LPUOS Art.24) — combustível do engine PRESENTE; derivado dos arquivos, não hardcoded"
+      "arquivos": 12,
+      "status": "12 tabela(s) no git (Q14 valor-terreno, Quadro 3 CA/zona, Quadro 5 Fs, Quadro 7 parques, Fi-área LPUOS Art.24) — combustível do engine PRESENTE; derivado dos arquivos, não hardcoded"
     },
     "tese_iptu": {
       "arquivos": 0,
@@ -78,6 +78,68 @@
       "status": "material de gens (prosa); material IRRF/Tema 1130 removido em 2026-06-20 (AUD-04)"
     }
   },
+  "tabelas_vintage": [
+    {
+      "arquivo": "tabelas/fi-incentivo-doacao.csv",
+      "sha256": "sha256:849a89435c4762e5c4852a7ecb9767acab6c04a04d6c3306f3867713cb453c04",
+      "data_base": "2014-07-31",
+      "fonte_legal": "PDE Lei 16.050/2014, Art. 127 §1º (incisos I-V)"
+    },
+    {
+      "arquivo": "tabelas/fi-zepec-area-lpuos.csv",
+      "sha256": "sha256:1c11904bb559a323242a212b83db2f102568e7ae5d0a6c392936193a3813cb41",
+      "data_base": "2016-07-01",
+      "fonte_legal": "LPUOS Lei 16.402/2016, Art. 24 (incisos I-VII)"
+    },
+    {
+      "arquivo": "tabelas/iptu-aliquotas-faixa.csv",
+      "sha256": "sha256:7877468ee6561d0245e1365dd0a84c65a8c39887b82e31265d2ff36d89422e6e",
+      "data_base": "2013-12-20",
+      "fonte_legal": "Lei Municipal SP 15.889/2013, Arts. 3/4/5"
+    },
+    {
+      "arquivo": "tabelas/iptu-valor-construcao-m2.csv",
+      "sha256": "sha256:eec7cb7e975c8bd154bb4168e0a3682b5224ed5e5bc8a41067ce15edefc99c18",
+      "data_base": "2013-12-20",
+      "fonte_legal": "Lei Municipal SP 15.889/2013, Anexo I (Tabela VI)"
+    },
+    {
+      "arquivo": "tabelas/q14-valor-terreno.csv",
+      "sha256": "sha256:c99ae8b5c67180f49024df8b4726ee7d745bd3ccf55205686fbd54768314274b",
+      "data_base": "2014-07-31",
+      "fonte_legal": "PDE Lei 16.050/2014, Quadro 14 (Anexo)"
+    },
+    {
+      "arquivo": "tabelas/quadro2a-ca-macroarea.csv",
+      "sha256": "sha256:e94f75c49116eea08d8f9c22c3cf56b95d2bdfa41e7b0e142664ffb1c0aa8af6",
+      "data_base": "2014-07-31",
+      "fonte_legal": "PDE Lei 16.050/2014, Quadro 2A (Anexo)"
+    },
+    {
+      "arquivo": "tabelas/quadro3-ca-por-zona.csv",
+      "sha256": "sha256:575bec7665bff0bc9d2303e6e4d594d9212a48e124889192f143bc109f846c59",
+      "data_base": "2016-07-01",
+      "fonte_legal": "LPUOS Lei 16.402/2016, Quadro 3"
+    },
+    {
+      "arquivo": "tabelas/quadro5-fator-social-fs.csv",
+      "sha256": "sha256:14c1ef643a79d5ee710d0fb168e99ab821c59530fc5209740831409fce0c0d6e",
+      "data_base": "2014-07-31",
+      "fonte_legal": "PDE Lei 16.050/2014, Quadro 5 (Anexo)"
+    },
+    {
+      "arquivo": "tabelas/quadro6-fator-planejamento-fp.csv",
+      "sha256": "sha256:22250fd6e090a87c045b1082ed7289561ae48e24bdc48332cc3a999e4f1595fc",
+      "data_base": "2014-07-31",
+      "fonte_legal": "PDE Lei 16.050/2014, Quadro 6 (Anexo)"
+    },
+    {
+      "arquivo": "tabelas/quadro7-parques.csv",
+      "sha256": "sha256:295655f20d0f962cf0c00d788ad0c683043836e7e45a311364eb881b4732d2ac",
+      "data_base": "2014-07-31",
+      "fonte_legal": "PDE Lei 16.050/2014, Quadro 7 (Anexo)"
+    }
+  ],
   "itens": [
     {
       "id": "stf-sumula-539",

@@ -6,14 +6,13 @@
   "lifeline": "Acha os donos de imóveis que podem vender potencial construtivo (TDC) e calcula, pela lei, quanto vale — cada número rastreável até o artigo.",
   "stage": "construção",
   "health": "ok",
-  "healthNote": "T12 auditoria: 17/19 lacunas resolvidas. eval-produto 14/14 PASS (7 golden + 4 não-vácuos + T3 regime + T4 conservação + T11 conjuntos reais). eval-zona-mutacao 6/6. CI verde. Corpus: 28 leis, 2280 chunks, 3518 remissões. Zona-base 366/377.",
+  "healthNote": "T12 17/19 lacunas. E2/E3 entregues (vintage + medallion). eval-produto 14/14 PASS. eval-zona-mutacao 6/6. Corpus: 28 leis, 2280 chunks, 3518 remissões. Zona-base 366/377. Tabelas: 10 CSV com vintage+hash.",
   "lever": { "tx": "Fi declarado (do acervo de Termos do dono) é o gap remanescente para fechar o cálculo nos imóveis JA_DECLARADO — o Fi escalonado (Art. 24) já cobre a prospecção nova.", "k": "interno: acervo Termos / Fi declarado" },
   "now": [
-    "T12 auditoria: 17/19 lacunas resolvidas — L-T4-3 propagação conservação, L-T2-2 asserts semânticos T3+T4, L-T11-3 conjuntos reais, L-T5-1 decomposição Fi (100% divergência é Fi), L-T9-3 skip. Restam 2 baixas.",
-    "eval-produto 14/14 PASS: 7 golden Fi×PCpt + T9 parcelamento + T9 não-vácuo + T11 conjuntos + T11 conjuntos reais + T8 vedação + T3 regime + T4 conservação.",
-    "G6 eval zona-mutação criado: 5 casos de mutação zona→CAbás, 6/6 PASS. Gate no CI.",
-    "E1 pipeline scripts: recorte_q14.py criado, filtro_iptu.py fix, refazer_oficial.sh criado. Pipeline reproduzível.",
-    "Corpus: 28 leis indexadas, 2280 chunks, 3518 remissões. Zona-base 366/377."
+    "E2/E3 entregues: vintage obrigatório (upload scripts com ano=, tabelas com sha256+data_base, datas por origem no motor) + convenção medallion (Bronze/Silver/Gold, 1 página).",
+    "T12 auditoria: 17/19 lacunas resolvidas. Restam 2 baixas.",
+    "eval-produto 14/14 PASS. eval-zona-mutação 6/6. Pipeline reproduzível (refazer_oficial.sh).",
+    "Corpus: 28 leis indexadas, 2280 chunks, 3518 remissões. Zona-base 366/377. Tabelas: 10 CSV rastreadas com vintage+hash no MANIFESTO."
   ],
   "projetos": [
     {

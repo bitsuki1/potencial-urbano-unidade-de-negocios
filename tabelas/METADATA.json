@@ -1,0 +1,55 @@
+{
+  "_doc": "Vintage (data_base) de cada tabela CSV git-tracked. Lido por consolidar.py para o MANIFESTO. Hash computado automaticamente.",
+  "tabelas": {
+    "fi-incentivo-doacao.csv": {
+      "data_base": "2014-07-31",
+      "fonte_legal": "PDE Lei 16.050/2014, Art. 127 §1º (incisos I-V)",
+      "nota": "Fi para transferência COM doação. Atualizado por Lei 17.975/2023 (parques)."
+    },
+    "fi-zepec-area-lpuos.csv": {
+      "data_base": "2016-07-01",
+      "fonte_legal": "LPUOS Lei 16.402/2016, Art. 24 (incisos I-VII)",
+      "nota": "Fi escalonado por faixa de área do lote. Aplica-se a novas declarações (sem doação)."
+    },
+    "quadro3-ca-por-zona.csv": {
+      "data_base": "2016-07-01",
+      "fonte_legal": "LPUOS Lei 16.402/2016, Quadro 3",
+      "nota": "CA básico/máximo por zona. Fonte: Drive."
+    },
+    "q14-valor-terreno.csv": {
+      "data_base": "2014-07-31",
+      "fonte_legal": "PDE Lei 16.050/2014, Quadro 14 (Anexo)",
+      "nota": "Valor do m² de terreno (V) por SQL/codlog, base histórica. Lido por oodc.py."
+    },
+    "quadro7-parques.csv": {
+      "data_base": "2014-07-31",
+      "fonte_legal": "PDE Lei 16.050/2014, Quadro 7 (Anexo)",
+      "nota": "Parques municipais existentes e propostos. Via de expansão Art. 126 IV."
+    },
+    "quadro2a-ca-macroarea.csv": {
+      "data_base": "2014-07-31",
+      "fonte_legal": "PDE Lei 16.050/2014, Quadro 2A (Anexo)",
+      "nota": "CA por macroárea (regime geral). Regime ZOE usa esta tabela."
+    },
+    "quadro5-fator-social-fs.csv": {
+      "data_base": "2014-07-31",
+      "fonte_legal": "PDE Lei 16.050/2014, Quadro 5 (Anexo)",
+      "nota": "Fator de interesse social (Fs) por categoria de uso."
+    },
+    "iptu-aliquotas-faixa.csv": {
+      "data_base": "2013-12-20",
+      "fonte_legal": "Lei Municipal SP 15.889/2013, Arts. 3/4/5",
+      "nota": "Alíquotas IPTU progressivas por faixa de valor venal (15 faixas)."
+    },
+    "iptu-valor-construcao-m2.csv": {
+      "data_base": "2013-12-20",
+      "fonte_legal": "Lei Municipal SP 15.889/2013, Anexo I (Tabela VI)",
+      "nota": "Valor de construção por m² (tipo/padrão). Atualizada pela Lei 15.044/2009."
+    },
+    "quadro6-fator-planejamento-fp.csv": {
+      "data_base": "2014-07-31",
+      "fonte_legal": "PDE Lei 16.050/2014, Quadro 6 (Anexo)",
+      "nota": "Fator de planejamento (Fp) por macroárea/uso. Lido por engines/tdc/fp.py."
+    }
+  }
+}

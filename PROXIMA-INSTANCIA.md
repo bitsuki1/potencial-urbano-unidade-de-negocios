@@ -1,5 +1,14 @@
 # PRÓXIMA INSTÂNCIA — o que fazer (Potencial Urbano)
 
+> **★★★★★★★★★★★★ PU 18 (2026-07-10) — E2/E3 ENTREGUES: vintage obrigatório + medallion convention.**
+> **E3 FEITO:** `docs/CONVENCAO-MEDALLION.md` — convenção medallion de 1 página (Bronze/Silver/Gold). Silver = `oficiais.*`. Sem governança por camada.
+> **E2b FEITO:** upload scripts (`subir-oficiais-para-supabase.gs`, `subir-grandes-colab.py`) todos com `ano=AAAA` no path. Zero `dest` sem vintage.
+> **E2c FEITO:** `consolidar.py` rastreia vintage+hash de cada `tabelas/*.csv` via `tabelas/METADATA.json` → seção `tabelas_vintage` no MANIFESTO (10 CSVs, 0 sem data_base).
+> **E2 família-2c FEITO:** `montar_ferramenta.py` preserva datas por origem (`data_declaracao_iso`, `data_certidao_iso`, `data_tombamento_iso`) — nunca agrega origens distintas antes do dado bruto. `data_ref=max()` mantido como agregado Gold/apresentação.
+> **Gate:** 14/14 eval-produto + 6/6 eval-zona-mutacao PASS. Pipeline regenerado.
+> **E2 restantes (BLOCKED):** E2-0 (migrar tabelas Postgres sem vintage) depende de E4/Supabase infra.
+> **PRÓXIMO na fila:** outros itens do backlog LOCAL.
+>
 > **★★★★★★★★★★★ PU 18 (2026-07-10) — T12 LACUNAS 16/19 RESOLVIDAS + G6 eval geo + E1 pipeline scripts + conservation bug fix.**
 > **T12 auditoria: 17/19 lacunas resolvidas** (era 12/19; +5 esta sessão):
 > - L-T4-3 ALTA (propagação `elegibilidade_conservacao` ao runtime — `montar_ferramenta.py` COLS)
