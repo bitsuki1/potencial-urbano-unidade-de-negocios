@@ -134,6 +134,13 @@ def check_eval_iptu():
     return rc == 0, "eval-iptu: âncoras da lei + dupla-via + mutação OK" if rc == 0 else f"eval-iptu falhou (exit {rc})"
 
 
+def check_eval_iptu_oficial():
+    # Confronto do VV de terreno (Art. 4º) contra o lançamento REAL da Prefeitura (3.905 cedentes,
+    # insumos oficiais do IPTU_2026). Terrenos Normais: engine reproduz EXATO área×valor_m2_terreno.
+    rc, _ = _run(["evals/eval-iptu-oficial.py"])
+    return rc == 0, "eval-iptu-oficial: VV terreno confrontado com o lançamento real OK" if rc == 0 else f"eval-iptu-oficial falhou (exit {rc})"
+
+
 def check_produto():
     # T2/S2: golden-assert do Fi legal sobre 7 cedentes reais; sabotar 1 Fi (engine ou CSV) FALHA aqui.
     rc, _ = _run(["evals/eval-produto.py"])
@@ -311,6 +318,7 @@ def main():
         ("ENGINE CEDENTE (Fi Art.24, T2)", check_engine_cedente),
         ("ENGINE IPTU (VV × alíquota por porção)", check_engine_iptu),
         ("EVAL IPTU (âncoras da lei + mutação)", check_eval_iptu),
+        ("EVAL IPTU OFICIAL (VV terreno × lançamento real)", check_eval_iptu_oficial),
         ("PRODUTO (golden Fi cedentes reais, T2)", check_produto),
         ("ZONA-MUTAÇÃO (CAbás por zona, G6)", check_zona_mutacao),
         ("FSCE (Art.57 Lei 17.844 — Setor Central)", check_fsce),

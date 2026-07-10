@@ -132,7 +132,7 @@ def main():
     zona = {r["sql_mestre"]: r for r in csv.DictReader(open(AQUI / "oficial/zona_por_cedente.csv", encoding="utf-8"))}
 
     rows = list(csv.DictReader(open(AQUI / "ferramenta/zepec_cedentes.csv", encoding="utf-8")))
-    extras = ["area_terreno_m2", "area_construida_m2", "v_venal_m2_iptu", "v_outorga_m2_q14",
+    extras = ["area_terreno_m2", "area_construida_m2", "valor_m2_terreno_iptu", "v_outorga_m2_q14",
               "v_outorga_max_q14",
               "zona", "ca_basico", "fi_aplicado", "fsce_aplicado", "pcpt_m2", "saldo_pcpt_m2", "parcelas_anuais",
               "preco_proxy_brl", "uso_iptu", "cobertura_oficial", "memoria_calculo", "pendencia_calculo",
@@ -153,7 +153,9 @@ def main():
         atc = _num(i["area_terreno"]) if i else ""
         if i:
             r["area_terreno_m2"] = i["area_terreno"]; r["area_construida_m2"] = i["area_construida"]
-            r["v_venal_m2_iptu"] = i["v_venal_m2"]; r["uso_iptu"] = i["uso"]; cob.append("IPTU2026"); n["atc"] += 1
+            # CORREÇÃO 2026-07-10: a coluna 17 do IPTU_2026 é VALOR DO M2 DO TERRENO, não valor venal
+            # (bug de rótulo do extrator antigo, provado 3905/3905 contra o cabeçalho oficial do arquivo).
+            r["valor_m2_terreno_iptu"] = i["valor_m2_terreno"]; r["uso_iptu"] = i["uso"]; cob.append("IPTU2026"); n["atc"] += 1
             sq6 = sql[:6]
             v = q14.get((sq6, norm_codlog(i.get("codlog"))))
             if v: r["v_outorga_m2_q14"] = v; cob.append("Q14"); n["v"] += 1

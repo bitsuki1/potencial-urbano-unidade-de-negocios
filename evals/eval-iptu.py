@@ -14,7 +14,7 @@ O que morde (asserts):
   6. MUTAÇÃO: sabotar a alíquota-base em memória muda o resultado (o número NASCE
      da tabela, não de constante escondida — anti-oráculo, 1.3).
 
-O que NÃO morde (declarado): confronto VV engine × v_venal_m2 lançado (gabarito
+O que NÃO morde (declarado): confronto VV engine × lançamento real (agora em eval-iptu-oficial.py; gabarito
 gabarito-iptu-vv.json) AGUARDA a PGV (Listagem por codlog) + ano de construção por
 cedente → status aguardando_pgv. Os 7 cedentes rodam como [INFO] (enquadramento de
 uso + faixa do lançamento), sem assert de valor.
