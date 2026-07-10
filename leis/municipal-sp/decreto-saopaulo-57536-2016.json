@@ -47,7 +47,12 @@
   },
   "status_pipeline": "indexado",
   "confianca_extracao": "alta",
-  "revisado_por_humano": false,
+  "revisado_por_humano": true,
+  "revisao_humana": {
+    "por": "MOU (dono)",
+    "data": "2026-07-10",
+    "conferido": "Art. 3o IV (regra da esquina: distintas faces da mesma quadra -> maior valor do Quadro 14) e Art. 5o (documentos do requerimento) conferidos contra a fonte oficial (legislacao.prefeitura.sp.gov.br). Selo humano da cadeia de credibilidade."
+  },
   "dominio_primario": "tdc",
   "dominio": [
     "tdc"
