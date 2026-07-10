@@ -1,6 +1,6 @@
 {
   "_doc": "Fonte da verdade do status_pipeline de cada item. GERADO por scripts/consolidar.py a partir dos .json individuais — NAO editar a mao (Principio 1.5/2.3 do CLAUDE.md). Roda a cada push via .github/workflows/consolidar.yml.",
-  "gerado_em": "2026-07-10T20:33:47.903050+00:00",
+  "gerado_em": "2026-07-10T21:40:37.641042+00:00",
   "vocabulario_status": [
     "bruto",
     "fatiado",
@@ -46,9 +46,10 @@
   "artefatos_nao_corpus": {
     "_nota": "Estado dos artefatos NÃO-corpus (1.1: Tabela/Engine/Tese). Fechamento do D24-do-git (AUD-09).",
     "engines": {
-      "arquivos": 10,
+      "arquivos": 11,
       "executavel_py": [
         "engines/iptu/iptu.py",
+        "engines/tdc/art128.py",
         "engines/tdc/fp.py",
         "engines/tdc/oodc.py",
         "engines/tdc/pcpt.py"

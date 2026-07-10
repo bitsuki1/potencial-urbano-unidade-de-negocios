@@ -94,6 +94,14 @@ jobs:
       - name: Engine cedente PCpt (auto-teste do Fi escalonado + FSCE)
         run: python3 engines/tdc/pcpt.py --demo
 
+      # Preço LEGAL (Art. 128 PDE) — GATE do motor art128.py: numerador PCpt×VTcd + referência ÷CAmaxcd
+      # (=4 §1º, via-125; o Cr do receptor cancela → independe do comprador) + §2º IPCA. A PROVA confronta
+      # a equação VERBATIM (mutação-sensível) e roda a identidade EXATA em 3.334 cedentes reais + banda FUNDURB.
+      - name: Engine preço legal Art. 128 (auto-teste + prova em dados reais)
+        run: |
+          python3 engines/tdc/art128.py --demo
+          python3 evals/eval-art128.py
+
       # IPTU (aberto pelo dono 2026-07-10) — GATE do motor VV × alíquota progressiva por porção
       # (Lei 6.989/1966 arts. 7/8/27 + 7-A/8-A/28; Lei 10.235/1986 Tabelas IV/VI; faixas Lei 15.889/2013).
       - name: Engine IPTU (auto-teste ancorado na lei)

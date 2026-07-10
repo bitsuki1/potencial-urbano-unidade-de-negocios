@@ -120,6 +120,16 @@ def check_engine_cedente():
     return rc == 0, "engine cedente PCpt (Fi escalonado) auto-teste OK" if rc == 0 else f"pcpt quebrou (exit {rc})"
 
 
+def check_engine_art128():
+    # Preço LEGAL (Art. 128 PDE): numerador PCpt×VTcd + referência ÷CAmaxcd(=4 §1º) + §2º IPCA.
+    # O --demo roda o auto-teste; o eval-art128 confronta a equação verbatim + 3.334 cedentes reais.
+    rc, _ = _run(["engines/tdc/art128.py", "--demo"])
+    if rc != 0:
+        return False, f"art128 (preço legal) quebrou (exit {rc})"
+    rc2, _ = _run(["evals/eval-art128.py"])
+    return rc2 == 0, "engine preço legal Art. 128 (numerador + ÷CAmaxcd + IPCA) + prova OK" if rc2 == 0 else f"eval-art128 falhou (exit {rc2})"
+
+
 def check_engine_iptu():
     # IPTU aberto pelo dono em 2026-07-10 ("finalizarmos as duas frentes"): motor VV×alíquota
     # progressiva por porção (Lei 6.989/1966 arts. 7/8/27 + 7-A/8-A/28; Lei 10.235/1986; faixas
@@ -323,6 +333,7 @@ def main():
         ("ENGINE (número no engine, 1.3)", check_engine),
         ("ENGINE Fp (Quadro 6, Fator de Planejamento)", check_engine_fp),
         ("ENGINE CEDENTE (Fi Art.24, T2)", check_engine_cedente),
+        ("ENGINE PREÇO LEGAL (Art. 128 — numerador + ÷CAmaxcd + IPCA)", check_engine_art128),
         ("ENGINE IPTU (VV × alíquota por porção)", check_engine_iptu),
         ("EVAL IPTU (âncoras da lei + mutação)", check_eval_iptu),
         ("EVAL IPTU OFICIAL (VV terreno × lançamento real)", check_eval_iptu_oficial),
