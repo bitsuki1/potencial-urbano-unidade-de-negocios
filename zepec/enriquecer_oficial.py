@@ -123,7 +123,7 @@ def main():
     iptu = {r["sql_mestre"]: r for r in csv.DictReader(open(AQUI / "oficial/iptu2026_cedentes.csv", encoding="utf-8"))}
     q14 = {(r["sq"], norm_codlog(r["codlog"])): r["valor_m2_brl"]
            for r in csv.DictReader(open(AQUI / "oficial/q14_cedentes_2025.csv", encoding="utf-8"))}
-    # G4 — Decreto 57.536/2016 Art. 8 IV: lotes com frente para distintas faces da mesma quadra
+    # G4 — Decreto 57.536/2016 Art. 3º IV: lotes com frente para distintas faces da mesma quadra
     # usam o MAIOR valor do Q14. Agrupa por SQ para calcular max.
     q14_por_sq = defaultdict(list)
     for (sq, codlog), val in q14.items():
@@ -159,13 +159,13 @@ def main():
             sq6 = sql[:6]
             v = q14.get((sq6, norm_codlog(i.get("codlog"))))
             if v: r["v_outorga_m2_q14"] = v; cob.append("Q14"); n["v"] += 1
-            # G4 — Decreto 57.536/2016 Art. 8 IV: MAX do Q14 por quadra (todas as faces).
+            # G4 — Decreto 57.536/2016 Art. 3º IV: MAX do Q14 por quadra (todas as faces).
             vmax = q14_max.get(sq6)
             if vmax is not None:
                 r["v_outorga_max_q14"] = str(vmax)
                 if v and Decimal(v) < vmax:
                     n["multi_face"] += 1
-                    pend.append(f"Decreto 57.536/2016 Art. 8 IV: se lote tem frente p/ distintas faces, "
+                    pend.append(f"Decreto 57.536/2016 Art. 3º IV: se lote tem frente p/ distintas faces, "
                                 f"V=MAX(Q14)=R${vmax}/m² (face atual: R${v}/m²)")
         else:
             pend.append("Atc: SQL sem cadastro no IPTU")
