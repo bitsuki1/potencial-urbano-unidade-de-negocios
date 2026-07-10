@@ -6,7 +6,24 @@
   "numero": "17844",
   "ano": "2022",
   "ementa": "(ver texto integral)",
-  "tema": [],
+  "tema": [
+    "intervencao_urbana",
+    "requalificacao_urbana",
+    "uso_ocupacao_solo",
+    "transferencia_direito_construir",
+    "habitacao_interesse_social"
+  ],
+  "dispositivos_chave": [
+    "Art. 1 — Aprova o PIU Setor Central (PIU-SCE) e cria a AIU-SCE",
+    "Art. 3 — Objetivos complementares ao PDE (art. 12 da Lei 16.050/2014)",
+    "Art. 7 — Parametros de uso e ocupacao do solo da AIU-SCE",
+    "Art. 14 — Areas nao computaveis no calculo do coeficiente de aproveitamento",
+    "Art. 22 — Acesso ao potencial construtivo adicional mediante outorga onerosa",
+    "Art. 23 — Ampliar oferta de HIS: destinacao minima de 20% de area construida total",
+    "Art. 30 — Projetos Especiais: Minhocao, Dom Pedro II, Largo da Concordia",
+    "Art. 56 — TDC na AIU-SCE regida pelos arts. 122-133 do PDE e arts. 24-26 da LPUOS",
+    "Art. 57 — Fator de Incentivo (Fi) de 1,4 para ZEPEC-BIR com ate 1.000 m2 na AIU-SCE"
+  ],
   "vigencia": {
     "inicio": "2022-09-14",
     "fim": null,
@@ -14,6 +31,68 @@
     "altera": [],
     "alterada_por": []
   },
+  "remissoes": [
+    {
+      "de": "Art. 3",
+      "para": "Lei 16050/2014, art. 12",
+      "tipo": "remissao_externa",
+      "trecho": "Complementarmente aos objetivos gerais constantes nos §§ 1º e 3º do art. 12 da Lei nº 16.050, de 31 de julho de 2014"
+    },
+    {
+      "de": "Art. 6",
+      "para": "Lei 16050/2014, art. 145",
+      "tipo": "remissao_externa",
+      "trecho": "em conformidade com as disposições do inciso IV do § 5º do art. 145 da Lei nº 16.050, de 2014"
+    },
+    {
+      "de": "Art. 10",
+      "para": "Lei 16402/2016, art. 72",
+      "tipo": "remissao_externa",
+      "trecho": "as soluções previstas pela regulamentação do art. 72 da Lei nº 16.402, de 2016"
+    },
+    {
+      "de": "Art. 22",
+      "para": "Lei 16050/2014, art. 117",
+      "tipo": "remissao_externa",
+      "trecho": "aplicação da fórmula prevista no art. 117 da Lei nº 16.050, de 2014"
+    },
+    {
+      "de": "Art. 37",
+      "para": "Lei 17577/2021, art. 16",
+      "tipo": "remissao_externa",
+      "trecho": "Os incentivos fiscais previstos no art. 16 da Lei nº 17.577, de 2021"
+    },
+    {
+      "de": "Art. 40",
+      "para": "Lei 16642/2017, art. 78",
+      "tipo": "remissao_externa",
+      "trecho": "as disposições do art. 78 da Lei nº 16.642, de 2017, no que tange à salubridade"
+    },
+    {
+      "de": "Art. 56",
+      "para": "Lei 16050/2014, arts. 122-133",
+      "tipo": "remissao_externa",
+      "trecho": "transferência do direito de construir, regida pelos arts. 122 a 133 da Lei nº 16.050, de 2014"
+    },
+    {
+      "de": "Art. 56",
+      "para": "Lei 16402/2016, arts. 24-26",
+      "tipo": "remissao_externa",
+      "trecho": "e pelos arts. 24 a 26 da Lei nº 16.402, de 2016"
+    },
+    {
+      "de": "Art. 58",
+      "para": "Lei 12349/1997, art. 7",
+      "tipo": "remissao_externa",
+      "trecho": "emitidas sob a égide da Operação Urbana Centro, nos termos do art. 7º da Lei nº 12.349, de 6 de junho de 1997"
+    },
+    {
+      "de": "Art. 100",
+      "para": "Lei 16642/2017, art. 103",
+      "tipo": "remissao_externa",
+      "trecho": "O parágrafo único do art. 103 da Lei nº 16.642, de 2017, não se aplica"
+    }
+  ],
   "fonte": {
     "origem": "Google Drive",
     "path": "_entrada/iptu/lei-no-17-844-de-14-de-setembro-de-2022-catalogo-de-legislacao-municip.txt",
