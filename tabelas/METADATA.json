@@ -70,6 +70,11 @@
       "data_base": "2026-06-01",
       "fonte_legal": "IBGE/SIDRA tabela 1737 (IPCA numero-indice, base dez/1993=100) — insumo da correcao do Art. 128 §2º (PDE)",
       "nota": "Serie mensal jan/2014 a jun/2026 (ultimo divulgado em 10/07/2026). Capturada via API do SIDRA pelo dono. Lida por engines/tdc/art128.py (fator = indice[mes antes do protocolo] / indice[mes de referencia])."
+    },
+    "fatores-tdc.csv": {
+      "data_base": "2026-07-10",
+      "fonte_legal": "INVENTARIO derivado dos fatores de TDC (nao e tabela de lei; aponta a fonte de cada fator)",
+      "nota": "Inventario versionado dos fatores de TDC + proveniencia (dispositivo, tabela-fonte, chunk, eval). Governado pela trava scripts/gate_fatores_tdc.py: nenhum 'verificado' sem chunk real + eval gated. data_base = data de construcao do inventario."
     }
   }
 }

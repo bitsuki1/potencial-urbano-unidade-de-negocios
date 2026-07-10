@@ -159,6 +159,11 @@ jobs:
           python3 scripts/carimbar_dominio.py --check
           python3 evals/eval-dominio.py
 
+      # M4 — GATE do inventário de fatores de TDC (tabelas/fatores-tdc.csv): nenhum fator marcado
+      # 'verificado' sem chunk_id real no corpus + eval_id que EXISTE e é rodado por um gate (1.3/1.7).
+      - name: Inventário de fatores TDC (prova por fator: chunk real + eval gated)
+        run: python3 scripts/gate_fatores_tdc.py
+
       # Arrumação Drive — GATE: SEED em dia (× de-para), MESTRE reconciliado, loop end-to-end provado,
       # gate por fase (plano/execução).
       - name: Índice de arrumação (SEED×de-para, MESTRE×reconc., loop e2e, gate por fase)
