@@ -1,6 +1,8 @@
 # PRÓXIMA INSTÂNCIA — o que fazer (Potencial Urbano)
 
-> **📋 HANDOFF DESTA SESSÃO (LEIA PRIMEIRO): `docs/HANDOFF-FSCE-E-PENDENCIAS-2026-07-10.md`** — a receita EXATA de como ativar o FSCE no pipeline (código do gancho + reconciliação de `na_aiu_sce`), os achados da auditoria profunda NÃO-corrigidos (PIPE-02, EVAL-01/02, COD-02/03, GEO-02/03/04), e as 3 ações do dono (deletar 7 refs · ativar FSCE · política CI D168). Nada dessa sessão vive só na conversa.
+> **📋📋 HANDOFF MESTRE (LEIA PRIMEIRO, ZERO-COMPRESSÃO): `docs/HANDOFF-SESSAO-2026-07-10-COMPLETO.md`** — o registro TOTAL e honestíssimo desta sessão: tudo que foi feito e provado (Parte A), o que a próxima instância deve PRODUZIR com receitas exatas (Parte B — incl. a cadeia completa de ativação do FSCE), ações do dono (C), **onde EU errei / o que NÃO validei / riscos cegos (D — LEIA)**, mapa de arquivos e comandos (E), decisões e por quês (F).
+>
+> **📋 Detalhe do FSCE: `docs/HANDOFF-FSCE-E-PENDENCIAS-2026-07-10.md`** — a receita EXATA de como ativar o FSCE no pipeline (código do gancho + reconciliação de `na_aiu_sce`), os achados da auditoria profunda NÃO-corrigidos (PIPE-02, EVAL-01/02, COD-02/03, GEO-02/03/04), e as 3 ações do dono (deletar 7 refs · ativar FSCE · política CI D168). Nada dessa sessão vive só na conversa.
 >
 > **★★★★★★★★★★★★★★★★★★ PU 18 (2026-07-10) — TUDO À PRODUÇÃO + ÓRFÃOS CONSOLIDADOS + ★ FSCE RESGATADO (mistério Fi≈2,4 RESOLVIDO).**
 > **PR #29 MESCLADO na main** (merge `3fed881`): auditoria 10 achados + G2 (zona 377/377). CI 2/2 verde (infra do Actions voltou).
