@@ -1,0 +1,251 @@
+<title>Central de Pendências — Potencial Urbano</title>
+<style>
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  :root{
+    --paper:#F4F5F1; --paper-2:#ECEEE8; --panel:#FAFBF8;
+    --ink:#17211E; --ink-2:#47534F; --ink-3:#727D78;
+    --line:#D2D8D0; --line-2:#B7BFB6;
+    --accent:#0E6E62; --accent-2:#0A4F47; --accent-wash:#E1ECE7;
+    --ok:#2E7D4E; --warn:#8F7317; --block:#A23C2C; --info:#3D5A80;
+    --shadow:0 1px 0 rgba(23,33,30,.04), 0 18px 40px -28px rgba(23,33,30,.28);
+  }
+  @media (prefers-color-scheme:dark){
+    :root{--paper:#0E1513;--paper-2:#131E1B;--panel:#141F1C;--ink:#E8ECE6;--ink-2:#AAB4AF;--ink-3:#7E8884;
+      --line:#243230;--line-2:#384843;--accent:#41BAA7;--accent-2:#8FE3D5;--accent-wash:#132824;
+      --ok:#5FB27E;--warn:#CBA24A;--block:#DB735F;--info:#7FA8D0;
+      --shadow:0 1px 0 rgba(0,0,0,.2), 0 20px 46px -30px rgba(0,0,0,.7)}
+  }
+  :root[data-theme="light"]{--paper:#F4F5F1;--paper-2:#ECEEE8;--panel:#FAFBF8;--ink:#17211E;--ink-2:#47534F;--ink-3:#727D78;
+    --line:#D2D8D0;--line-2:#B7BFB6;--accent:#0E6E62;--accent-2:#0A4F47;--accent-wash:#E1ECE7;
+    --ok:#2E7D4E;--warn:#8F7317;--block:#A23C2C;--info:#3D5A80;
+    --shadow:0 1px 0 rgba(23,33,30,.04), 0 18px 40px -28px rgba(23,33,30,.28)}
+  :root[data-theme="dark"]{--paper:#0E1513;--paper-2:#131E1B;--panel:#141F1C;--ink:#E8ECE6;--ink-2:#AAB4AF;--ink-3:#7E8884;
+    --line:#243230;--line-2:#384843;--accent:#41BAA7;--accent-2:#8FE3D5;--accent-wash:#132824;
+    --ok:#5FB27E;--warn:#CBA24A;--block:#DB735F;--info:#7FA8D0;
+    --shadow:0 1px 0 rgba(0,0,0,.2), 0 20px 46px -30px rgba(0,0,0,.7)}
+
+  body{font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    background:var(--paper);color:var(--ink);line-height:1.5;-webkit-font-smoothing:antialiased;
+    padding:clamp(14px,3.5vw,44px);
+    background-image:linear-gradient(transparent 95%, color-mix(in srgb,var(--line) 42%, transparent) 100%),
+      linear-gradient(90deg, transparent 95%, color-mix(in srgb,var(--line) 42%, transparent) 100%);
+    background-size:26px 26px, 26px 26px;}
+  .sheet{max-width:980px;margin:0 auto;background:var(--panel);border:1px solid var(--line-2);box-shadow:var(--shadow);position:relative}
+  .sheet::before,.sheet::after{content:"";position:absolute;width:14px;height:14px;border:1.5px solid var(--accent);opacity:.7}
+  .sheet::before{top:-1px;left:-1px;border-right:0;border-bottom:0}
+  .sheet::after{bottom:-1px;right:-1px;border-left:0;border-top:0}
+  .pad{padding:clamp(20px,4vw,40px)}
+  .mono{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace}
+  .eyebrow{font-family:ui-monospace,Menlo,monospace;text-transform:uppercase;letter-spacing:.16em;font-size:11px;color:var(--ink-3)}
+  h1{font-size:clamp(26px,4.6vw,40px);line-height:1.05;letter-spacing:-.02em;font-weight:640;text-wrap:balance;margin-top:10px}
+  h1 .em{color:var(--accent)}
+  .lead{color:var(--ink-2);margin-top:12px;max-width:70ch;font-size:15px}
+  .lead b{color:var(--ink)}
+  hr{border:0;border-top:1.5px solid var(--line-2);margin:0}
+
+  /* método (como vamos trabalhar) */
+  .metodo{background:var(--accent-wash);border:1px solid color-mix(in srgb,var(--accent) 28%,transparent);border-radius:4px;padding:18px 20px;margin-top:20px}
+  .metodo h2{font-size:16px;font-weight:640;margin-bottom:10px}
+  .metodo ol{margin-left:20px;color:var(--ink-2);font-size:14px;display:grid;gap:7px}
+  .metodo ol b{color:var(--ink)}
+  .metodo .regra{margin-top:12px;padding-top:12px;border-top:1px dashed color-mix(in srgb,var(--accent) 34%,transparent);font-size:13px;color:var(--ink-2)}
+
+  /* cards de pendência */
+  .cards{display:grid;gap:16px}
+  .card{border:1px solid var(--line-2);border-radius:4px;background:var(--panel);overflow:hidden}
+  .card-h{display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding:13px 16px;background:var(--paper-2);border-bottom:1px solid var(--line)}
+  .card-h .n{font-family:ui-monospace,Menlo,monospace;font-size:15px;font-weight:700;color:var(--accent);flex:none}
+  .card-h .t{font-weight:640;font-size:15.5px}
+  .tool{margin-left:auto;font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.1em;text-transform:uppercase;padding:3px 9px;border-radius:2px;white-space:nowrap}
+  .tool.ext{color:var(--accent-2);border:1px solid color-mix(in srgb,var(--accent) 40%,transparent);background:var(--accent-wash)}
+  .tool.chat{color:var(--info);border:1px solid color-mix(in srgb,var(--info) 45%,transparent)}
+  .tool.eu{color:var(--ok);border:1px solid color-mix(in srgb,var(--ok) 45%,transparent)}
+  .tool.dec{color:var(--warn);border:1px solid color-mix(in srgb,var(--warn) 45%,transparent)}
+  .card-b{padding:14px 16px;display:grid;gap:10px}
+  .card-b p{font-size:13.5px;color:var(--ink-2)}
+  .card-b p b{color:var(--ink)}
+  .card-b .ganha{font-size:12.5px;color:var(--accent-2);background:color-mix(in srgb,var(--accent) 8%,transparent);border-left:3px solid var(--accent);padding:7px 10px;border-radius:2px}
+  .passos{margin-left:2px;display:grid;gap:6px}
+  .passos div{display:flex;gap:9px;font-size:13.5px;color:var(--ink-2)}
+  .passos .who{font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;flex:none;margin-top:3px;width:44px;text-align:right}
+  .passos .who.voce{color:var(--warn)}
+  .passos .who.eu{color:var(--ok)}
+  .passos code{font-family:ui-monospace,Menlo,monospace;font-size:12px;background:var(--paper-2);padding:1px 5px;border-radius:2px;border:1px solid var(--line)}
+  .lista-mono{font-family:ui-monospace,Menlo,monospace;font-size:12px;color:var(--ink-2);background:var(--paper-2);border:1px solid var(--line);border-radius:3px;padding:8px 12px;overflow-x:auto;white-space:pre}
+  .aviso{font-size:12.5px;color:var(--ink-2);border:1px dashed color-mix(in srgb,var(--block) 45%,transparent);border-radius:3px;padding:8px 11px}
+  .aviso b{color:var(--block)}
+  .stamp{font-family:ui-monospace,Menlo,monospace;font-size:10px;letter-spacing:.1em;text-transform:uppercase;padding:2px 8px;border-radius:2px;flex:none}
+  .stamp.andamento{color:var(--info);border:1px solid color-mix(in srgb,var(--info) 45%,transparent)}
+  footer{display:flex;flex-wrap:wrap;gap:10px 18px;justify-content:space-between;color:var(--ink-3);font-size:11.5px;padding-top:16px}
+  @media (max-width:640px){ .tool{margin-left:0} .passos .who{width:auto;text-align:left} }
+</style>
+
+<main class="sheet">
+  <section class="pad">
+    <div class="eyebrow">Potencial Urbano · o que falta — e como fazemos juntos</div>
+    <h1>Central de <span class="em">Pendências</span></h1>
+    <p class="lead">
+      Tudo que a máquina podia fazer sozinha, <b>já foi feito e provado</b> (gate 25/25; duas frentes andando).
+      O que sobrou depende de <b>você</b> — um clique, um dado seu, ou uma decisão. Esta página é o nosso roteiro:
+      executamos <b>uma por vez, didaticamente</b>, na ordem que preferir (a sugerida está na numeração).
+    </p>
+
+    <div class="metodo">
+      <h2>🧭 Como vamos trabalhar (estudei e esta é a melhor forma)</h2>
+      <ol>
+        <li><b>Instale a extensão oficial "Claude" no Chrome</b> (1 vez só): abra a <b>Chrome Web Store</b>, busque
+            "Claude" (da Anthropic), clique <b>Usar no Chrome</b> e entre com a sua conta Claude. Ela vê a página
+            aberta, <b>clica e preenche com você</b>, usando os seus logins — e sempre pede sua confirmação.</li>
+        <li><b>Volte aqui</b> (nesta conversa) e diga: <b>"vamos na pendência 2"</b> (por exemplo).</li>
+        <li>Eu te passo o roteiro exato daquela pendência; você abre o site indicado e deixa a <b>extensão guiar
+            clique a clique</b> (ou você mesmo clica, seguindo os passos).</li>
+        <li>Ao terminar, eu <b>confiro mecanicamente</b> o resultado no repositório e dou o "verde" antes de irmos à próxima.</li>
+      </ol>
+      <div class="regra">Divisão de papéis nos cartões abaixo: <b style="color:var(--warn)">VOCÊ</b> = ação sua no navegador ·
+        <b style="color:var(--ok)">EU</b> = o que eu executo e provo em seguida. A extensão pausa em qualquer senha/desafio — quem manda é você.</div>
+    </div>
+  </section>
+
+  <hr>
+
+  <section class="pad cards">
+
+    <!-- P1 -->
+    <article class="card">
+      <div class="card-h"><span class="n">1</span><span class="t">Recoletar os 71 lotes do Setor Central (GeoSampa)</span>
+        <span class="stamp andamento">3ª tentativa AGENDADA · 01h da madrugada</span><span class="tool eu">EU (automático)</span></div>
+      <div class="card-b">
+        <p>O GeoSampa limitou o acesso e derrubou 71 dos 377 lotes. Fiz <b>2 tentativas hoje</b> (as duas bateram no mesmo
+           limite — e concordaram 306/306 nos lotes resolvidos, boa prova de consistência). <b>Agendei a 3ª para as 01h
+           desta madrugada</b> (janela em que as coletas sempre passaram) — eu mesmo processo o resultado e te deixo o
+           resumo pronto. Você não precisa fazer nada aqui.</p>
+        <div class="passos">
+          <div><span class="who voce">você</span><span>Só se eu pedir: abrir <code>github.com/bitsuki1/portfolio-automacoes</code> → aba <b>Actions</b> → <b>GeoSampa/SISZON</b> → botão <b>Run workflow</b>. A extensão te leva até o botão.</span></div>
+          <div><span class="who eu">eu</span><span>Aplico o dado novo, re-rodo o cálculo e te digo quantos cedentes a mais ganharam o ×2 do Setor Central.</span></div>
+        </div>
+        <p class="ganha">Destrava: pertinência ao Setor Central completa (377/377) → todos os tombados elegíveis com o fator certo.</p>
+      </div>
+    </article>
+
+    <!-- P2 -->
+    <article class="card">
+      <div class="card-h"><span class="n">2</span><span class="t">Subir o IPTU_2026 completo para o banco (937 MB) — a mais valiosa</span><span class="tool ext">Extensão no Chrome</span></div>
+      <div class="card-b">
+        <p>O arquivo-mãe <code>IPTU_2026.csv</code> (937 MB, no seu Drive) tem as colunas que faltam para o motor IPTU
+           confrontar o <b>valor venal</b> com o lançamento real: <b>ano da construção</b> e <b>valores do m²</b> por imóvel.
+           O roteiro pronto já existe no repositório (<code>zepec/pipeline/subir-grandes-colab.py</code>) — ele copia
+           <b>direto do Drive para o Supabase</b>, sem baixar nada no seu computador.</p>
+        <div class="passos">
+          <div><span class="who voce">você</span><span>Abrir <code>colab.research.google.com</code> → novo caderno → colar o script (eu te mando o conteúdo na hora).</span></div>
+          <div><span class="who voce">você</span><span>Abrir o painel do <b>Supabase</b> → Configurações → Storage → <b>S3 · Nova chave de acesso</b> → copiar as 2 chaves para o script. <i>(A extensão te guia tela a tela.)</i></span></div>
+          <div><span class="who voce">você</span><span>Rodar a célula e me avisar quando terminar (leva alguns minutos).</span></div>
+          <div><span class="who eu">eu</span><span>Crio a tabela oficial, puxo ano + valores do m² dos 3.905 cedentes, ligo o <b>confronto do valor venal</b> (gabarito de 7 imóveis reais sai de "aguardando" para ATIVO no gate) e te trago o resultado.</span></div>
+        </div>
+        <p class="ganha">Destrava: o motor IPTU deixa de ser "fórmula provada na lei" e passa a ser "fórmula provada contra o lançamento REAL da Prefeitura".</p>
+      </div>
+    </article>
+
+    <!-- P3 -->
+    <article class="card">
+      <div class="card-h"><span class="n">3</span><span class="t">Limpar a quarentena do Drive (libera ~41,5 GB)</span><span class="tool ext">Extensão no Chrome</span></div>
+      <div class="card-b">
+        <p>Pendência viva desde 06/07: as 2.082 duplicatas já estão na pasta <code>99 — DUPLICATAS-A-EXCLUIR</code>;
+           falta o <b>seu clique</b> (o robô não pode mandar arquivo seu à lixeira). O script pronto:
+           <code>drive-arrumacao/Trash-Quarentena-DONO-2026-07-06.gs</code>.</p>
+        <div class="passos">
+          <div><span class="who voce">você</span><span>Abrir <code>script.google.com</code> → novo projeto → colar o script → rodar com <code>DRY_RUN=true</code> → conferir no registro: <b>~2.082 itens</b>.</span></div>
+          <div><span class="who voce">você</span><span>Trocar para <code>DRY_RUN=false</code> → rodar de novo → depois abrir o Drive e <b>esvaziar a lixeira</b>.</span></div>
+          <div><span class="who eu">eu</span><span>Confiro pelo robô que a quarentena zerou e as 4 canônicas seguem vivas; registro o fechamento.</span></div>
+        </div>
+        <p class="ganha">Destrava: ~41,5 GB de espaço e o selo "Drive limpo" do entregável de 06/07.</p>
+      </div>
+    </article>
+
+    <!-- P4 -->
+    <article class="card">
+      <div class="card-h"><span class="n">4</span><span class="t">Excluir as ramificações órfãs do repositório</span><span class="tool ext">Extensão no Chrome</span></div>
+      <div class="card-b">
+        <p>Descobri hoje: o GitHub <b>não deixa a sessão excluir ramificações</b> — por isso as "excluídas" de manhã
+           continuam vivas. Excluir é 1 clique seu por linha, em <code>github.com/bitsuki1/potencial-urbano-unidade-de-negocios/branches</code>:</p>
+        <div class="lista-mono">PODE EXCLUIR JÁ (provada 100% vazia):
+  claude/pu-project-organization-l67ond
+
+JÁ COLHIDAS por cherry-pick (conteúdo novo está na main):
+  claude/potential-urban-instance-jsgvth
+  claude/project-analysis-pending-20wc81
+
+DECLARADAS superadas pela sessão da manhã (diff não-vazio —
+se quiser certeza, diga "prove a supersessão" que eu provo
+arquivo por arquivo antes de você excluir):
+  claude/d164-caixafix-2026-07-08
+  claude/liberar-ferramentas
+  claude/opiniao-areas-escritorio
+  claude/pu-move-laudo-2026-07-08
+  claude/pu-regularizacao-2026-07-08</div>
+        <p class="aviso"><b>Não excluir ainda:</b> <code>claude/instance-concurrency-94pbeg</code> — ela CARREGA a proposta da pendência 5 (D168). Decida a 5 antes.</p>
+        <p class="ganha">Destrava: repositório limpo, sem risco de instância futura "ressuscitar" trabalho velho.</p>
+      </div>
+    </article>
+
+    <!-- P5 -->
+    <article class="card">
+      <div class="card-h"><span class="n">5</span><span class="t">Decisão: verificador do repositório só no envio? (D168)</span><span class="tool dec">Decisão · aqui no chat</span></div>
+      <div class="card-b">
+        <p>Proposta parada numa ramificação: rodar o verificador de estado <b>só quando há envio de código</b>.
+           <b>A favor:</b> corta ~metade das execuções (economia de cota do Actions). <b>Contra:</b> pedidos de
+           mesclagem ficam sem a checagem automática. Basta responder: <b>"aplica"</b> ou <b>"deixa como está"</b>.</p>
+        <p class="ganha">Destrava: a decisão encerra a última ramificação pendente e fecha o capítulo "órfãs".</p>
+      </div>
+    </article>
+
+    <!-- P6 -->
+    <article class="card">
+      <div class="card-h"><span class="n">6</span><span class="t">Decisão: ligar busca por significado? (camada semântica)</span><span class="tool dec">Decisão + extensão se "sim"</span></div>
+      <div class="card-b">
+        <p>Hoje a consulta jurídica acha por <b>palavra-chave + filtros</b> (29/29 no teste — funciona). A camada de
+           "busca por significado" (encontrar trecho certo mesmo com palavras diferentes) exige <b>sua decisão de
+           doutrina</b> e uma <b>chave de API</b> (custo por uso). Responda: <b>"liga"</b> (a extensão te guia a criar a
+           chave) ou <b>"palavra-chave basta por ora"</b>.</p>
+        <p class="ganha">Destrava (se "liga"): perguntas em linguagem natural acham dispositivos com vocabulário diferente do seu.</p>
+      </div>
+    </article>
+
+    <!-- P7 -->
+    <article class="card">
+      <div class="card-h"><span class="n">7</span><span class="t">Preço legal (Art. 128) — pausado por você</span><span class="tool dec">Decisão · aqui no chat</span></div>
+      <div class="card-b">
+        <p>Continua <b>pausado</b>, como você mandou — não reabri. Quando (e se) quiser o cálculo do preço legal do
+           Art. 128 no produto, é só dizer <b>"vai"</b> aqui.</p>
+      </div>
+    </article>
+
+    <!-- P8 -->
+    <article class="card">
+      <div class="card-h"><span class="n">8</span><span class="t">Revisar comigo 1 lei-âncora (10 minutos, didático)</span><span class="tool chat">Aqui no chat</span></div>
+      <div class="card-b">
+        <p>Resíduo da auditoria: nenhuma lei do corpus foi <b>validada por um humano</b> ainda. Proposta: eu te mostro
+           <b>1 lei-âncora</b> (sugiro a do Setor Central, que sustenta o ×2) com a ficha em linguagem simples — você
+           confere ementa, vigência e os artigos-chave, e carimba. Vira o primeiro <code>revisado_por_humano: true</code> do corpus.</p>
+        <p class="ganha">Destrava: o selo humano que falta na cadeia de confiança (extração → engine → teste → <b>você</b>).</p>
+      </div>
+    </article>
+
+    <!-- Nota de segurança -->
+    <article class="card">
+      <div class="card-h"><span class="n">ℹ</span><span class="t">Nota de segurança do painel Supabase (baixo risco)</span><span class="tool dec">Decisão · aqui no chat</span></div>
+      <div class="card-b">
+        <p>O painel alerta que a tabela <code>public.spatial_ref_sys</code> está sem trava de acesso por linha (RLS).
+           É uma <b>tabela de sistema do PostGIS</b> (catálogo público de referências geográficas — <b>não tem dado seu</b>).
+           Se quiser silenciar o aviso, eu aplico a trava com o seu ok — ciente de que é mexer em tabela de sistema.
+           Recomendação: <b>deixar como está</b> e registrar o aviso.</p>
+      </div>
+    </article>
+  </section>
+
+  <hr>
+
+  <footer class="pad" style="padding-top:16px;padding-bottom:20px">
+    <span class="mono">POTENCIAL URBANO · Central de Pendências · PU 18</span>
+    <span class="mono">gerada 2026-07-10 · ordem sugerida: 2 → 3 → 4 → 5 → 6 → 8</span>
+  </footer>
+</main>
