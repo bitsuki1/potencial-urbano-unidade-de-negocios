@@ -22,7 +22,7 @@ else:
 COLS=["segmento","estado_venda","nome_bem","endereco_mestre","distrito","proprietario",
       "tipo_zepec","esfera","m2_ja_transferido","pcpt_m2","saldo_pcpt_m2","preco_proxy_brl",
       "zona","ca_basico","fi_aplicado","regime_pcpt","qualidade_estimativa",
-      "area_terreno_m2","v_outorga_m2_q14","pendencia_calculo",
+      "area_terreno_m2","v_outorga_m2_q14","v_outorga_max_q14","pendencia_calculo",
       "status_fundurb","intercorrencia_fundurb","data_ref","sql_mestre"]
 ORD={"INTACTO":0,"TEM_SALDO":1,"SO_ELEGIVEL":2,"INCERTO":3}
 

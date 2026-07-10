@@ -118,10 +118,17 @@ def main():
     iptu = {r["sql_mestre"]: r for r in csv.DictReader(open(AQUI / "oficial/iptu2026_cedentes.csv", encoding="utf-8"))}
     q14 = {(r["sq"], norm_codlog(r["codlog"])): r["valor_m2_brl"]
            for r in csv.DictReader(open(AQUI / "oficial/q14_cedentes_2025.csv", encoding="utf-8"))}
+    # G4 — Decreto 57.536/2016 Art. 8 IV: lotes com frente para distintas faces da mesma quadra
+    # usam o MAIOR valor do Q14. Agrupa por SQ para calcular max.
+    q14_por_sq = defaultdict(list)
+    for (sq, codlog), val in q14.items():
+        q14_por_sq[sq].append(Decimal(val))
+    q14_max = {sq: max(vals) for sq, vals in q14_por_sq.items()}
     zona = {r["sql_mestre"]: r for r in csv.DictReader(open(AQUI / "oficial/zona_por_cedente.csv", encoding="utf-8"))}
 
     rows = list(csv.DictReader(open(AQUI / "ferramenta/zepec_cedentes.csv", encoding="utf-8")))
     extras = ["area_terreno_m2", "area_construida_m2", "v_venal_m2_iptu", "v_outorga_m2_q14",
+              "v_outorga_max_q14",
               "zona", "ca_basico", "fi_aplicado", "pcpt_m2", "saldo_pcpt_m2", "parcelas_anuais",
               "preco_proxy_brl", "uso_iptu", "cobertura_oficial", "memoria_calculo", "pendencia_calculo",
               # T3 — regime do PCpt: separa já-declarado (Art.125 §1º I) de prospecção nova (Art.24 caput).
@@ -142,8 +149,17 @@ def main():
             if i:
                 r["area_terreno_m2"] = i["area_terreno"]; r["area_construida_m2"] = i["area_construida"]
                 r["v_venal_m2_iptu"] = i["v_venal_m2"]; r["uso_iptu"] = i["uso"]; cob.append("IPTU2026"); n["atc"] += 1
-                v = q14.get((sql[:6], norm_codlog(i.get("codlog"))))
+                sq6 = sql[:6]
+                v = q14.get((sq6, norm_codlog(i.get("codlog"))))
                 if v: r["v_outorga_m2_q14"] = v; cob.append("Q14"); n["v"] += 1
+                # G4 — Decreto 57.536/2016 Art. 8 IV: MAX do Q14 por quadra (todas as faces).
+                vmax = q14_max.get(sq6)
+                if vmax is not None:
+                    r["v_outorga_max_q14"] = str(vmax)
+                    if v and Decimal(v) < vmax:
+                        n.setdefault("multi_face", 0); n["multi_face"] += 1
+                        pend.append(f"Decreto 57.536/2016 Art. 8 IV: se lote tem frente p/ distintas faces, "
+                                    f"V=MAX(Q14)=R${vmax}/m² (face atual: R${v}/m²)")
             else:
                 pend.append("Atc: SQL sem cadastro no IPTU")
 
@@ -221,8 +237,8 @@ def main():
 
     tot = len(rows)
     print(f"enriquecer_oficial (H1.4): {tot} cedentes -> {out.name}")
-    for k, lbl in [("atc", "Atc (área)"), ("v", "V outorga (Q14)"), ("zona", "Zona"),
-                   ("cabas", "CAbás"), ("vedado", "Vedado Art.124§2 (sem PCpt)"),
+    for k, lbl in [("atc", "Atc (área)"), ("v", "V outorga (Q14)"), ("multi_face", "Multi-face (G4 Dec.57536)"),
+                   ("zona", "Zona"), ("cabas", "CAbás"), ("vedado", "Vedado Art.124§2 (sem PCpt)"),
                    ("pcpt", "PCpt calculado (engine)"), ("saldo", "Saldo líquido (– transferido)"), ("preco", "Preço-proxy R$ (do saldo)")]:
         print(f"  {lbl:26}: {n[k]:5} ({n[k]/tot:.0%})")
 

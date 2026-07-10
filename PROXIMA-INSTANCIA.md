@@ -1,5 +1,11 @@
 # PRÓXIMA INSTÂNCIA — o que fazer (Potencial Urbano)
 
+> **★★★★★★★★★★★★★★ PU 18 (2026-07-10) — G4 REGRA DA ESQUINA: v_outorga_max_q14 + flag multi-face (2.755 lotes, 63%).**
+> **G4 FEITO (parcial):** `enriquecer_oficial.py` surfaça `v_outorga_max_q14` = MAX(V) por quadra (Decreto 57.536/2016 Art. 8 IV). Quando V_face < V_MAX, o lote ganha flag + citação legal. **2.755 multi-face flagados** (63% dos 4.360); 1.122 single-face. `lista_prospeccao.py` inclui a nova coluna. Pipeline regenerado.
+> **RESTA (G4 geometria fina):** distinguir lotes de esquina (frente p/ 2+ faces) dos internos (mesma face da quadra) — precisa coordenadas de lote (LOTES shapefiles).
+> **Gate:** 14/14 eval-produto + 6/6 eval-zona-mutacao PASS.
+> **PRÓXIMO:** continuar varredura de itens locais do backlog (T12 L-T2-3 / L-T7-3 baixas; ou fechar a sessão).
+>
 > **★★★★★★★★★★★★★ PU 18 (2026-07-10) — AUD-B08/B09 SCHEMA 2.4 COMPLETADO: 36/36 lei JSONs com zero campos obrigatórios vazios.**
 > **AUD-B08/B09 FEITO:** 6 lei JSONs preenchidas (tema[], dispositivos_chave[], remissoes[]): Decreto 57.443, PDE 16.050, LPUOS 16.402, COE 16.642, Lei 17.733, Lei 17.844. Invariante I5 preservado (tema[] sem "iptu"/"tdc" — routing em `dominio`/`dominio_primario`). PROVADO: grep campo=None em 36 JSONs = 0.
 > **RESTA (B09 parcial):** `vigencia.inicio` das municipais sem verbatim (5 NÃO no Drive + 3 PDFs scan inacessíveis — captura externa).
