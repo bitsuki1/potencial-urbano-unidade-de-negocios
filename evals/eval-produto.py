@@ -32,6 +32,7 @@ sys.path.insert(0, str(RAIZ / "engines" / "tdc"))
 import pcpt as ENGINE  # noqa: E402
 
 CSV_OFICIAL = RAIZ / "zepec" / "ferramenta" / "zepec_cedentes_oficial.csv"
+GOLDEN_CSV = RAIZ / "evals" / "ground-truth" / "golden-cedentes-sem-pii.csv"
 Q2 = Decimal("0.01")
 
 # FONTE INDEPENDENTE (LPUOS Art. 24, I–VII): (limite_superior_m2 ou None, Fi_legal, inciso).
@@ -229,6 +230,30 @@ def main():
         falhas += 1
     else:
         print(f"  [PASS ] T4 conservação: {cons_elegivel} ELEGIVEL, {cons_pendente} PENDENTE, sem vazio (L-T2-2)")
+    n_checks += 1
+
+    # L-T2-3: golden SEM-PII — fixture versionada deve existir e concordar com FAIXAS_LEGAIS.
+    if not GOLDEN_CSV.exists():
+        print("  [FALHA] L-T2-3: golden-cedentes-sem-pii.csv ausente (fixture SEM-PII não versionada)")
+        falhas += 1
+    else:
+        golden_rows = list(csv.DictReader(open(GOLDEN_CSV, encoding="utf-8")))
+        t23_bad = []
+        for gr in golden_rows:
+            area_g = Decimal(gr["area_terreno_m2"])
+            fi_g = Decimal(gr["fi_legal"])
+            pcpt_g = Decimal(gr["pcpt_esperado_m2"])
+            fi_esp_g, _ = fi_legal(area_g)
+            pcpt_esp_g = (area_g * Decimal(gr["ca_basico"]) * fi_esp_g).quantize(Q2, ROUND_HALF_UP)
+            if fi_g != fi_esp_g:
+                t23_bad.append(f"{gr['sql_mestre']}: fi={fi_g} != legal {fi_esp_g}")
+            if pcpt_g != pcpt_esp_g:
+                t23_bad.append(f"{gr['sql_mestre']}: pcpt={pcpt_g} != legal {pcpt_esp_g}")
+        if t23_bad:
+            print(f"  [FALHA] L-T2-3: golden SEM-PII diverge da lei: {t23_bad[:5]}")
+            falhas += 1
+        else:
+            print(f"  [PASS ] L-T2-3: golden SEM-PII ({len(golden_rows)} cedentes) concorda com FAIXAS_LEGAIS")
     n_checks += 1
 
     print(f"\nRESUMO: {n_checks-falhas}/{n_checks} PASS, {falhas} falha(s).")

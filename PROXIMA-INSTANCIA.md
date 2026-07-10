@@ -21,20 +21,22 @@
 > **E2 restantes (BLOCKED):** E2-0 (migrar tabelas Postgres sem vintage) depende de E4/Supabase infra.
 > **PRÓXIMO na fila:** outros itens do backlog LOCAL.
 >
-> **★★★★★★★★★★★ PU 18 (2026-07-10) — T12 LACUNAS 16/19 RESOLVIDAS + G6 eval geo + E1 pipeline scripts + conservation bug fix.**
-> **T12 auditoria: 17/19 lacunas resolvidas** (era 12/19; +5 esta sessão):
+> **★★★★★★★★★★★ PU 18 (2026-07-10) — T12 LACUNAS 19/19 RESOLVIDAS + G6 eval geo + E1 pipeline scripts + conservation bug fix.**
+> **T12 auditoria: 19/19 lacunas resolvidas** (era 12/19; +7 esta sessão):
 > - L-T4-3 ALTA (propagação `elegibilidade_conservacao` ao runtime — `montar_ferramenta.py` COLS)
 > - L-T2-2 MEDIA (asserts semânticos T3 regime + T4 conservação no eval-produto: JA_DECLARADO→PENDENTE_FI_DECLARADO, 18 ELEGIVEL + 68 PENDENTE)
 > - L-T11-3 MEDIA (fixture com 12 conjuntos reais no eval-produto)
 > - L-T9-3 MEDIA (documentado: sem dados reais que casem ja>0+saldo<50k<PCpt — skip)
 > - L-T5-1 MEDIA (decomposição Fi-regime: Fi explica 100% da divergência em 54 cedentes)
+> - L-T2-3 BAIXA (golden SEM-PII: `evals/ground-truth/golden-cedentes-sem-pii.csv` + check no eval-produto 15/15)
+> - L-T7-3 MEDIA (runbook anon bucket: `docs/runbooks/probe-anon-bucket-supabase.md`)
 > **Sessão anterior (compactada):** L-T4-1/2/4, L-T7-2 (coorte real, discriminante, linhas mescladas, PII histórico).
 > **G6 eval geo criado:** `evals/eval-zona-mutacao.py` — mutation test zona→CAbás (6/6 PASS, 5 casos). Gate no CI.
 > **E1 pipeline scripts:** `recorte_q14.py` (criado), `filtro_iptu.py` (fix path), `refazer_oficial.sh` (criado).
 > **Conservation bug fix:** pattern matching broadened para "Atestado de Preservação e Conservação".
-> **Gate:** 20/20 evals + 14/14 eval-produto + 6/6 eval-zona-mutacao PASS.
+> **Gate:** 20/20 evals + 15/15 eval-produto + 6/6 eval-zona-mutacao PASS.
 > **Pipeline:** 2.280 chunks, 28 leis indexadas, 66 MANIFESTO, 3.518 remissões.
-> **Restam (2/19):** L-T2-1 (cadeia completa no eval — CI já cobre), L-T2-3/L-T7-3 (baixas/runbook).
+> **Últimas 2 (L-T2-3 + L-T7-3):** golden SEM-PII versionado + runbook anon bucket (ver banner G4 acima).
 > **PRÓXIMO na fila:** (1) outros itens do backlog LOCAL, (2) T8 geometria fina (BLOCKED), (3) G1 overlay por área (BLOCKED).
 >
 > **★★★★★★★★★ PU 18 (2026-07-09) — T8 GUARD VEDAÇÃO Art.124§2 + B-4 +4 LEIS MUNICIPAIS INGERIDAS.**

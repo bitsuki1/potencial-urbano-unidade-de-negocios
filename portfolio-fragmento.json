@@ -6,13 +6,13 @@
   "lifeline": "Acha os donos de imóveis que podem vender potencial construtivo (TDC) e calcula, pela lei, quanto vale — cada número rastreável até o artigo.",
   "stage": "construção",
   "health": "ok",
-  "healthNote": "G4 regra da esquina (v_outorga_max_q14, 2755 multi-face 63%). T12 17/19 lacunas. E2/E3 entregues (vintage + medallion). AUD-B08/B09 schema 2.4 completado (36/36 lei JSONs sem campos vazios). eval-produto 14/14 PASS. eval-zona-mutacao 6/6. Corpus: 28 leis, 2280 chunks, 3518 remissões. Zona-base 366/377. Tabelas: 10 CSV com vintage+hash.",
+  "healthNote": "G4 regra da esquina (v_outorga_max_q14, 2755 multi-face 63%). T12 19/19 lacunas COMPLETO. E2/E3 entregues (vintage + medallion). AUD-B08/B09 schema 2.4 completado (36/36 lei JSONs sem campos vazios). eval-produto 15/15 PASS. eval-zona-mutacao 6/6. Corpus: 28 leis, 2280 chunks, 3518 remissões. Zona-base 366/377. Tabelas: 10 CSV com vintage+hash.",
   "lever": { "tx": "Fi declarado (do acervo de Termos do dono) é o gap remanescente para fechar o cálculo nos imóveis JA_DECLARADO — o Fi escalonado (Art. 24) já cobre a prospecção nova.", "k": "interno: acervo Termos / Fi declarado" },
   "now": [
     "AUD-B08/B09: schema 2.4 completado — 36/36 lei JSONs com zero campos obrigatórios vazios (tema/dispositivos_chave/remissoes).",
     "E2/E3 entregues: vintage obrigatório (upload scripts com ano=, tabelas com sha256+data_base, datas por origem no motor) + convenção medallion (Bronze/Silver/Gold, 1 página).",
-    "T12 auditoria: 17/19 lacunas resolvidas. Restam 2 baixas.",
-    "eval-produto 14/14 PASS. eval-zona-mutação 6/6. Pipeline reproduzível (refazer_oficial.sh).",
+    "T12 auditoria: 19/19 lacunas resolvidas (COMPLETO). Golden SEM-PII versionado + runbook anon bucket.",
+    "eval-produto 15/15 PASS. eval-zona-mutação 6/6. Pipeline reproduzível (refazer_oficial.sh).",
     "Corpus: 28 leis indexadas, 2280 chunks, 3518 remissões. Zona-base 366/377. Tabelas: 10 CSV rastreadas com vintage+hash no MANIFESTO."
   ],
   "projetos": [
