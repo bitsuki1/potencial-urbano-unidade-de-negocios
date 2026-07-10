@@ -1,0 +1,80 @@
+{
+  "_doc": "Gabarito do VV (valor venal por m2) do IPTU — 7 cedentes REAIS da Prefeitura (lancamento 2026). Serve para validar o engine IPTU quando for construido (D-DONO-14/17: nao construir sem 'vai'). Cada v_venal_m2 e o VV/m2 que a PROPRIA Prefeitura calculou — e o gabarito de referencia (engines/iptu/README.md). Cedentes escolhidos p/ diversidade: padrao A-E + TERRENO, usos residencial/comercial/especial, faixas de VV baixa a alta.",
+  "dominio": "iptu",
+  "tipo": "gabarito_engine",
+  "status": "aguardando_engine",
+  "fonte": "zepec/oficial/iptu2026_cedentes.csv (lancamento IPTU 2026 da Prefeitura de Sao Paulo)",
+  "tolerancia": "a definir quando o engine existir (README sugere confronto v_venal_m2 calculado vs lancado)",
+  "cedentes": [
+    {
+      "sql_mestre": "1113540002",
+      "area_terreno": 175,
+      "area_construida": 68,
+      "v_venal_m2": 1163.00,
+      "codlog": "26279-0",
+      "uso": "Residencia",
+      "padrao": "Residencial horizontal - padrao A",
+      "nota": "Faixa VV baixa, padrao A, residencial horizontal"
+    },
+    {
+      "sql_mestre": "0010060001",
+      "area_terreno": 148,
+      "area_construida": 280,
+      "v_venal_m2": 4270.00,
+      "codlog": "03812-1",
+      "uso": "Loja e residencia (predominancia comercial)",
+      "padrao": "Comercial horizontal - padrao B",
+      "nota": "Padrao B, uso misto comercial, centro historico"
+    },
+    {
+      "sql_mestre": "0010200033",
+      "area_terreno": 1376,
+      "area_construida": 3292,
+      "v_venal_m2": 8323.00,
+      "codlog": "13733-2",
+      "uso": "Outras edificacoes de uso especial, com utilizacao multipla",
+      "padrao": "Comercial vertical - padrao C",
+      "nota": "Padrao C vertical, grande area, uso especial"
+    },
+    {
+      "sql_mestre": "0100690011",
+      "area_terreno": 2000,
+      "area_construida": 600,
+      "v_venal_m2": 44119.00,
+      "codlog": "15656-6",
+      "uso": "Cinema, teatro, casa de diversao, clube ou congenere",
+      "padrao": "Comercial horizontal - padrao D",
+      "nota": "VV mais alto da base (44k/m2), padrao D, entretenimento"
+    },
+    {
+      "sql_mestre": "0060130028",
+      "area_terreno": 960,
+      "area_construida": 640,
+      "v_venal_m2": 8981.00,
+      "codlog": "14513-0",
+      "uso": "Residencia e outro uso (predominancia residencial)",
+      "padrao": "Residencial horizontal - padrao E",
+      "nota": "Padrao E (alto padrao), misto predominancia residencial"
+    },
+    {
+      "sql_mestre": "0020160019",
+      "area_terreno": 4500,
+      "area_construida": 0,
+      "v_venal_m2": 1630.00,
+      "codlog": "13733-2",
+      "uso": "Terreno",
+      "padrao": "TERRENO",
+      "nota": "Terreno puro (area_construida=0), imposto territorial (Art. 5)"
+    },
+    {
+      "sql_mestre": "0010440096",
+      "area_terreno": 669,
+      "area_construida": 53,
+      "v_venal_m2": 14776.00,
+      "codlog": "09276-2",
+      "uso": "Apartamento em condominio",
+      "padrao": "Residencial vertical - padrao C",
+      "nota": "Apt em condominio, padrao C vertical, VV alto"
+    }
+  ]
+}

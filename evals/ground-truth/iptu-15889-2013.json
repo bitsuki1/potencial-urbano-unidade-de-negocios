@@ -1,0 +1,105 @@
+{
+  "_doc": "Ground-truth ATIVO — prova de citacao sobre a Lei 15.889/2013 (IPTU progressivo SP). Gate = citacao correta (CLAUDE.md Parte 3). Cada item positivo conferido contra o articulado verbatim em leis/municipal-sp/lei-municipal-saopaulo-15889-2013.md. Negativos provam o gate 1.7 (pergunta fora do escopo da lei = NAO-FUNDAMENTADA). Calibrado contra o RAG BM25 atual (2026-07-10).",
+  "dominio": "iptu",
+  "status": "ativo",
+  "lei_alvo": "lei-municipal-saopaulo-15889-2013",
+  "itens": [
+    {
+      "id": "tabela-vi-atualizacao",
+      "pergunta": "Tabela VI valores unitarios metro quadrado construcao terreno Lei 10.235",
+      "espera": {
+        "fundamentada": true,
+        "lei_id": "lei-municipal-saopaulo-15889-2013",
+        "dispositivo_topo": "Art. 1",
+        "texto_contem": "Tabela VI"
+      },
+      "_nota": "Art. 1 cita verbatim 'Tabela VI - Tipos e Padroes de Construcao'. Query calibrada p/ match BM25."
+    },
+    {
+      "id": "faixa-residencial-desconto",
+      "pergunta": "qual o desconto ou acrescimo para imoveis residenciais com valor venal ate R$ 150.000?",
+      "espera": {
+        "fundamentada": true,
+        "lei_id": "lei-municipal-saopaulo-15889-2013",
+        "dispositivo_topo": "Art. 3",
+        "texto_contem": "0,3%"
+      }
+    },
+    {
+      "id": "faixa-nao-residencial-600k",
+      "pergunta": "tabela art 8-A Lei 6.989 imposto predial utilizacao diversa da residencial desconto acrescimo",
+      "espera": {
+        "fundamentada": true,
+        "lei_id": "lei-municipal-saopaulo-15889-2013",
+        "dispositivo_topo": "Art. 4",
+        "texto_contem": "diversa"
+      },
+      "_nota": "Art. 4 modifica a 'tabela constante do art. 8-A da Lei 6.989'. Query calibrada c/ termos verbatim do Art. 4 para distinguir de Art. 3 (residencial) no BM25."
+    },
+    {
+      "id": "faixa-territorial-acima-1200k",
+      "pergunta": "qual o acrescimo do imposto territorial para terrenos com valor venal acima de R$ 1.200.000?",
+      "espera": {
+        "fundamentada": true,
+        "lei_id": "lei-municipal-saopaulo-15889-2013",
+        "dispositivo_topo": "Art. 5",
+        "texto_contem": "0,4%"
+      }
+    },
+    {
+      "id": "isencao-90mil",
+      "pergunta": "imoveis construidos com valor venal ate quanto sao isentos do imposto predial?",
+      "espera": {
+        "fundamentada": true,
+        "lei_id": "lei-municipal-saopaulo-15889-2013",
+        "dispositivo_topo": "Art. 6",
+        "texto_contem": "90.000"
+      }
+    },
+    {
+      "id": "trava-crescimento-residencial",
+      "pergunta": "limite diferenca nominal credito tributario IPTU exercicio anterior residencial",
+      "espera": {
+        "fundamentada": true,
+        "lei_id": "lei-municipal-saopaulo-15889-2013",
+        "dispositivo_topo": "Art. 9",
+        "texto_contem": "10"
+      },
+      "_nota": "Art. 9 I: 20% em 2014, 10% nos demais exercicios (residencial). Query calibrada c/ termos verbatim do Art. 9 (diferenca nominal, credito tributario)."
+    },
+    {
+      "id": "isencao-unica-contribuinte",
+      "pergunta": "isencao concedida unico imovel contribuinte garagem estacionamento",
+      "espera": {
+        "fundamentada": true,
+        "lei_id": "lei-municipal-saopaulo-15889-2013",
+        "dispositivo_topo": "Art. 8",
+        "texto_contem": "único imóvel"
+      },
+      "_nota": "Art. 8 verbatim: 'somente serao concedidos a um unico imovel por contribuinte'. texto_contem com acentos p/ match do verbatim."
+    },
+    {
+      "id": "neg-tdc-transferencia",
+      "pergunta": "como funciona a transferencia do direito de construir na Lei 15.889?",
+      "espera": {
+        "fundamentada": false,
+        "lei_id": "lei-municipal-saopaulo-15889-2013"
+      },
+      "_nota": "TDC nao existe na Lei 15.889 (lei tributaria de IPTU). Fora-de-escopo, gate recusa."
+    },
+    {
+      "id": "neg-iss-streaming",
+      "pergunta": "aliquota ISS servicos streaming video Lei 15889",
+      "espera": {
+        "fundamentada": false,
+        "lei_id": "lei-municipal-saopaulo-15889-2013"
+      },
+      "_nota": "ISS nao e tratado pela Lei 15.889 (lei de IPTU). Query c/ 'streaming video' garante afastamento do corpus. Calibrado: RAG retorna NAO-FUNDAMENTADA."
+    }
+  ],
+  "vacinas": [
+    "NEGATIVO E RELATIVO AO ACERVO: escopar ao --lei senao o TDC pode ser respondido via LPUOS/PDE (que estao no corpus cheio).",
+    "Art. 3 vs Art. 4: ambos tratam de faixas/aliquotas e o BM25 confunde. Query do Art. 4 precisa de termos verbatim exclusivos ('8-A', 'diversa').",
+    "Art. 9 e chave para o motor: a trava de crescimento afeta o calculo final do IPTU. O engine devera implementa-la quando construido."
+  ]
+}

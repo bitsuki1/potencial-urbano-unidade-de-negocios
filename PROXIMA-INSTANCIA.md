@@ -1,5 +1,13 @@
 # PRÓXIMA INSTÂNCIA — o que fazer (Potencial Urbano)
 
+> **★★★★★★★★★★★★★★★ PU 18 (2026-07-10) — VARREDURA 5 LENTES: fp.py gate + qualidade código + IPTU gabarito VV + ground-truth Lei 15.889.**
+> **Fp no gate (Lente 4):** `engines/tdc/fp.py` adicionado ao CI (`consolidar.yml`) e ao gate local (`fechar-instancia.py` → **21 checks**). Era o único engine sem gate — corrigido.
+> **Qualidade de código:** `enriquecer_oficial.py` — 3 defeitos (dead `if True:`, contadores não-inicializados, `setdefault` redundante). `gerar_xlsx.py` refatorado (Path-based, função encapsulada, sem `/tmp` hardcoded).
+> **IPTU gabarito VV:** `evals/ground-truth/gabarito-iptu-vv.json` — 7 cedentes REAIS (lançamento 2026, Prefeitura) com `v_venal_m2` oficial. Padrões A–E + TERRENO + apt condomínio. Status `aguardando_engine`.
+> **IPTU RAG ground-truth:** `evals/ground-truth/iptu-15889-2013.json` — 9 itens (7 positivos, 2 negativos) calibrados contra BM25 real. Status ATIVO. Queries ajustadas com termos verbatim da lei para match no BM25 (5/9 falharam na 1ª rodada, calibrados).
+> **Gate:** 21/21 VERDE. **Evals:** 29/29 RAG + 15/15 eval-produto + 6/6 eval-zona-mutação PASS.
+> **PRÓXIMO:** commitar + push + atualizar PR. Depois: continuar execução de itens locais do backlog (G1 overlay refactor, fatores-tdc.csv, B-5 embeddings).
+>
 > **★★★★★★★★★★★★★★ PU 18 (2026-07-10) — G4 REGRA DA ESQUINA: v_outorga_max_q14 + flag multi-face (2.755 lotes, 63%).**
 > **G4 FEITO (parcial):** `enriquecer_oficial.py` surfaça `v_outorga_max_q14` = MAX(V) por quadra (Decreto 57.536/2016 Art. 8 IV). Quando V_face < V_MAX, o lote ganha flag + citação legal. **2.755 multi-face flagados** (63% dos 4.360); 1.122 single-face. `lista_prospeccao.py` inclui a nova coluna. Pipeline regenerado.
 > **RESTA (G4 geometria fina):** distinguir lotes de esquina (frente p/ 2+ faces) dos internos (mesma face da quadra) — precisa coordenadas de lote (LOTES shapefiles).
