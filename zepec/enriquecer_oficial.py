@@ -171,6 +171,17 @@ def main():
         cob, pend = [], []
         i, z = iptu.get(sql), zona.get(sql)
 
+        # OP-2 (garimpo M6): CONPRESP Res. 01/CONPRESP/2025 (27/01/2025) ARQUIVOU a abertura de processo
+        # de tombamento (APT) de PARTE da Mancha Heterogênea "Benedito Calixto (I)" (Anexo II da Res.
+        # 11/CONPRESP/2023), mas MANTEVE os elementos 1I, 2I, 4I, 10I e 11I. Logo os 26 cedentes desta
+        # quadra (013.036) precisam de REVISÃO: os arquivados viram falso-positivo (APT arquivada não
+        # gera TDC por tombamento); os mantidos seguem válidos. Sinal honesto (NÃO remove) — falta o mapa
+        # elemento-ID -> SQL para dizer QUAIS (want-list M6). Fonte: legislacao.prefeitura.sp.gov.br.
+        if sql.startswith("013036"):
+            pend.append("REVISAR TOMBAMENTO — CONPRESP Res. 01/2025 (27/01/2025) arquivou PARTE da Mancha "
+                        "Benedito Calixto (I); manteve 1I/2I/4I/10I/11I. Confirmar se este SQL foi arquivado "
+                        "(falso-positivo) ou mantido antes de prospectar (precisa do mapa elemento->SQL)")
+
         atc = _num(i["area_terreno"]) if i else ""
         if i:
             r["area_terreno_m2"] = i["area_terreno"]; r["area_construida_m2"] = i["area_construida"]

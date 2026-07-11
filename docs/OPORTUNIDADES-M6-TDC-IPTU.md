@@ -40,11 +40,11 @@
 
 ## OP‑2 — 26 cedentes candidatos a **falso‑positivo** (imóveis que o CONPRESP arquivou)
 
-- **Pista (Auditoria V9.0, NOSSO):** a **Resolução CONPRESP 01/2025** arquivou processos de tombamento de uma leva de imóveis — entre eles a quadra **013.036 (Praça Benedito Calixto)**. Imóvel com tombamento arquivado **não gera TDC por aquele fundamento** → é falso‑positivo na nossa lista de cedentes.
-- **Confirmado por nós (grep na lista):** **26 de 4.360** cedentes estão na quadra 013.036; **0** em 013.046/013.055.
-- **Oportunidade = melhores condições por subtração:** tirar falso‑positivo **não queima** prospecção em imóvel inelegível e **eleva a confiança** da lista (o vendedor certo, não o impossível).
-- **Status:** **a‑conferir** — falta bater os 26 contra o **PDF da Resolução 01/2025** (Drive id `12UzO_2amXtVKmMm1gX_X82nLywiqWj0N`) e ver também a **Res. 03/2025**. A **conferência é read‑only** (posso fazer sob o mandato); a **remoção da lista** é decisão do dono (mexe no entregável).
-- **Decisão do dono:** aval para **conferir + sinalizar** (não remover) agora; remoção depois da sua palavra.
+- ✅ **CONFERIDO NA FONTE OFICIAL (2026‑07‑11) — e a pista NOSSO estava exagerada.** Detalhe em `docs/CONPRESP-01-2025-BENEDITO-CALIXTO.md`.
+- **A norma:** **Res. SMC/CONPRESP nº 1, de 27/01/2025** ARQUIVOU a APT de **PARTE** da Mancha Heterogênea **Benedito Calixto (I)** (Anexo II da Res. 11/CONPRESP/2023), mas **MANTEVE** os elementos **1I, 2I, 4I, 10I, 11I** (e 1J, 3J). **Não é blanket.**
+- **Na nossa lista:** os **26 cedentes** da quadra 013.036 são todos da Mancha "I". Como o arquivamento é **parcial**, alguns viraram **falso‑positivo** (APT arquivada) e outros **seguem válidos** (mantidos). **Confirmar na fonte evitou descartarmos os válidos** — essa é a condição melhor real (nem vender o inválido, nem jogar fora o válido).
+- ✅ **SINALIZADO (não removido):** os 26 ganharam a pendência *"REVISAR TOMBAMENTO — CONPRESP Res. 01/2025 …"* no entregável (`enriquecer_oficial.py`, prefixo 013036 → 26/26 no `zepec_cedentes_oficial.csv`). **Remoção fica para depois do mapa** (você autorizou conferir+sinalizar; remover exige saber QUAIS).
+- **O que falta p/ fechar (want‑list):** Anexo II da Res. 11/2023 (elemento‑ID → endereço) + lista de arquivamento da Res. 01/2025 → cruzar com nossos codlog/SQL → marcar cada um arquivado (remover) vs mantido (fica).
 
 ---
 
