@@ -1,6 +1,6 @@
 {
   "_doc": "Fonte da verdade do status_pipeline de cada item. GERADO por scripts/consolidar.py a partir dos .json individuais — NAO editar a mao (Principio 1.5/2.3 do CLAUDE.md). Roda a cada push via .github/workflows/consolidar.yml.",
-  "gerado_em": "2026-07-11T00:35:48.483317+00:00",
+  "gerado_em": "2026-07-11T01:33:49.052247+00:00",
   "vocabulario_status": [
     "bruto",
     "fatiado",
@@ -132,9 +132,9 @@
     },
     {
       "arquivo": "tabelas/iptu-valor-construcao-m2.csv",
-      "sha256": "sha256:eec7cb7e975c8bd154bb4168e0a3682b5224ed5e5bc8a41067ce15edefc99c18",
-      "data_base": "2013-12-20",
-      "fonte_legal": "Lei Municipal SP 15.889/2013, Anexo I (Tabela VI) — valores NOMINAIS de 2013"
+      "sha256": "sha256:397e6cafaaeadc56a9690f97013f16a0b0d075591212979c786a78500ca4d223",
+      "data_base": "2026-01-01",
+      "fonte_legal": "Lei Municipal SP 18.330/2025, Anexo I (Tabela VI) — valores do EXERCICIO 2026 (substitui a Tabela VI da Lei 10.235/1986)"
     },
     {
       "arquivo": "tabelas/q14-valor-terreno.csv",

@@ -1,32 +1,32 @@
 tipo,padrao,subdivisao_1a_brl,subdivisao_2a_brl,alem_2a_brl,dispositivo,lei
-1,A,920.00,700.00,480.00,Anexo I (Tabela VI),lei-municipal-saopaulo-15889-2013
-1,B,1120.00,840.00,560.00,Anexo I (Tabela VI),lei-municipal-saopaulo-15889-2013
-1,C,1420.00,1070.00,710.00,Anexo I (Tabela VI),lei-municipal-saopaulo-15889-2013
-1,D,1920.00,1370.00,960.00,Anexo I (Tabela VI),lei-municipal-saopaulo-15889-2013
-1,E,2210.00,1580.00,1180.00,Anexo I (Tabela VI),lei-municipal-saopaulo-15889-2013
-1,F,2550.00,1820.00,1440.00,Anexo I (Tabela VI),lei-municipal-saopaulo-15889-2013
-2,A,1020.00,790.00,570.00,Anexo I (Tabela VI),lei-municipal-saopaulo-15889-2013
-2,B,1320.00,1040.00,750.00,Anexo I (Tabela VI),lei-municipal-saopaulo-15889-2013
-2,C,1730.00,1300.00,990.00,Anexo I (Tabela VI),lei-municipal-saopaulo-15889-2013
-2,D,2020.00,1500.00,1200.00,Anexo I (Tabela VI),lei-municipal-saopaulo-15889-2013
-2,E,2500.00,1790.00,1430.00,Anexo I (Tabela VI),lei-municipal-saopaulo-15889-2013
-2,F,2910.00,2150.00,1750.00,Anexo I (Tabela VI),lei-municipal-saopaulo-15889-2013
-3,A,980.00,750.00,520.00,Anexo I (Tabela VI),lei-municipal-saopaulo-15889-2013
-3,B,1350.00,1050.00,730.00,Anexo I (Tabela VI),lei-municipal-saopaulo-15889-2013
-3,C,1760.00,1310.00,1020.00,Anexo I (Tabela VI),lei-municipal-saopaulo-15889-2013
-3,D,2110.00,1600.00,1300.00,Anexo I (Tabela VI),lei-municipal-saopaulo-15889-2013
-3,E,2630.00,1930.00,1560.00,Anexo I (Tabela VI),lei-municipal-saopaulo-15889-2013
-4,A,1320.00,1090.00,850.00,Anexo I (Tabela VI),lei-municipal-saopaulo-15889-2013
-4,B,1730.00,1410.00,1100.00,Anexo I (Tabela VI),lei-municipal-saopaulo-15889-2013
-4,C,2090.00,1620.00,1290.00,Anexo I (Tabela VI),lei-municipal-saopaulo-15889-2013
-4,D,2710.00,1960.00,1500.00,Anexo I (Tabela VI),lei-municipal-saopaulo-15889-2013
-4,E,3320.00,2530.00,1750.00,Anexo I (Tabela VI),lei-municipal-saopaulo-15889-2013
-5,A,650.00,520.00,380.00,Anexo I (Tabela VI),lei-municipal-saopaulo-15889-2013
-5,B,840.00,680.00,510.00,Anexo I (Tabela VI),lei-municipal-saopaulo-15889-2013
-5,C,930.00,770.00,620.00,Anexo I (Tabela VI),lei-municipal-saopaulo-15889-2013
-5,D,1270.00,1070.00,860.00,Anexo I (Tabela VI),lei-municipal-saopaulo-15889-2013
-5,E,1670.00,1435.00,1200.00,Anexo I (Tabela VI),lei-municipal-saopaulo-15889-2013
-6,A,820.00,700.00,570.00,Anexo I (Tabela VI),lei-municipal-saopaulo-15889-2013
-6,B,1130.00,940.00,750.00,Anexo I (Tabela VI),lei-municipal-saopaulo-15889-2013
-6,C,1510.00,1250.00,980.00,Anexo I (Tabela VI),lei-municipal-saopaulo-15889-2013
-6,D,1890.00,1590.00,1300.00,Anexo I (Tabela VI),lei-municipal-saopaulo-15889-2013
+1,A,2759.00,2123.00,1499.00,Anexo I (Tabela VI - Lei 18.330/2025),lei-municipal-saopaulo-18330-2025
+1,B,2852.00,2198.00,1557.00,Anexo I (Tabela VI - Lei 18.330/2025),lei-municipal-saopaulo-18330-2025
+1,C,2932.00,2249.00,1603.00,Anexo I (Tabela VI - Lei 18.330/2025),lei-municipal-saopaulo-18330-2025
+1,D,2989.00,2315.00,1634.00,Anexo I (Tabela VI - Lei 18.330/2025),lei-municipal-saopaulo-18330-2025
+1,E,3195.00,2386.00,1682.00,Anexo I (Tabela VI - Lei 18.330/2025),lei-municipal-saopaulo-18330-2025
+1,F,3583.00,2445.00,1847.00,Anexo I (Tabela VI - Lei 18.330/2025),lei-municipal-saopaulo-18330-2025
+2,A,3451.00,2408.00,1879.00,Anexo I (Tabela VI - Lei 18.330/2025),lei-municipal-saopaulo-18330-2025
+2,B,3599.00,2477.00,1944.00,Anexo I (Tabela VI - Lei 18.330/2025),lei-municipal-saopaulo-18330-2025
+2,C,3693.00,2528.00,1995.00,Anexo I (Tabela VI - Lei 18.330/2025),lei-municipal-saopaulo-18330-2025
+2,D,3798.00,2632.00,2040.00,Anexo I (Tabela VI - Lei 18.330/2025),lei-municipal-saopaulo-18330-2025
+2,E,3994.00,2729.00,2110.00,Anexo I (Tabela VI - Lei 18.330/2025),lei-municipal-saopaulo-18330-2025
+2,F,4241.00,2953.00,2250.00,Anexo I (Tabela VI - Lei 18.330/2025),lei-municipal-saopaulo-18330-2025
+3,A,2747.00,2132.00,1604.00,Anexo I (Tabela VI - Lei 18.330/2025),lei-municipal-saopaulo-18330-2025
+3,B,2856.00,2350.00,1860.00,Anexo I (Tabela VI - Lei 18.330/2025),lei-municipal-saopaulo-18330-2025
+3,C,3052.00,2497.00,2004.00,Anexo I (Tabela VI - Lei 18.330/2025),lei-municipal-saopaulo-18330-2025
+3,D,3399.00,2617.00,2154.00,Anexo I (Tabela VI - Lei 18.330/2025),lei-municipal-saopaulo-18330-2025
+3,E,3899.00,2732.00,2314.00,Anexo I (Tabela VI - Lei 18.330/2025),lei-municipal-saopaulo-18330-2025
+4,A,3183.00,2611.00,1850.00,Anexo I (Tabela VI - Lei 18.330/2025),lei-municipal-saopaulo-18330-2025
+4,B,3345.00,2761.00,2162.00,Anexo I (Tabela VI - Lei 18.330/2025),lei-municipal-saopaulo-18330-2025
+4,C,3610.00,2933.00,2668.00,Anexo I (Tabela VI - Lei 18.330/2025),lei-municipal-saopaulo-18330-2025
+4,D,4019.00,3197.00,2977.00,Anexo I (Tabela VI - Lei 18.330/2025),lei-municipal-saopaulo-18330-2025
+4,E,4392.00,3753.00,3271.00,Anexo I (Tabela VI - Lei 18.330/2025),lei-municipal-saopaulo-18330-2025
+5,A,1410.00,1306.00,1106.00,Anexo I (Tabela VI - Lei 18.330/2025),lei-municipal-saopaulo-18330-2025
+5,B,1647.00,1547.00,1275.00,Anexo I (Tabela VI - Lei 18.330/2025),lei-municipal-saopaulo-18330-2025
+5,C,1974.00,1829.00,1644.00,Anexo I (Tabela VI - Lei 18.330/2025),lei-municipal-saopaulo-18330-2025
+5,D,2483.00,2174.00,1910.00,Anexo I (Tabela VI - Lei 18.330/2025),lei-municipal-saopaulo-18330-2025
+5,E,2789.00,2413.00,2078.00,Anexo I (Tabela VI - Lei 18.330/2025),lei-municipal-saopaulo-18330-2025
+6,A,1356.00,1256.00,1083.00,Anexo I (Tabela VI - Lei 18.330/2025),lei-municipal-saopaulo-18330-2025
+6,B,1804.00,1650.00,1392.00,Anexo I (Tabela VI - Lei 18.330/2025),lei-municipal-saopaulo-18330-2025
+6,C,2239.00,1996.00,1657.00,Anexo I (Tabela VI - Lei 18.330/2025),lei-municipal-saopaulo-18330-2025
+6,D,2803.00,2359.00,1950.00,Anexo I (Tabela VI - Lei 18.330/2025),lei-municipal-saopaulo-18330-2025

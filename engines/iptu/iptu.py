@@ -122,7 +122,8 @@ def _carrega_obsolescencia():
 
 
 def _carrega_tabela_vi():
-    """(tipo, padrão) → {subdivisão: R$/m²} — Tabela VI (Anexo I, Lei 15.889/2013)."""
+    """(tipo, padrão) → {subdivisão: R$/m²} — Tabela VI (Anexo I da Lei 18.330/2025, exercício 2026;
+    substitui a Tabela VI da Lei 10.235/1986). Valores reproduzem o lançamento oficial 2026 (eval-iptu-oficial)."""
     out = {}
     with open(TAB / "iptu-valor-construcao-m2.csv", encoding="utf-8") as f:
         for r in csv.DictReader(f):
@@ -265,8 +266,9 @@ def vv_construcao(area_construida, tipo, padrao, subdivisao, idade=None, fator_o
         "valor_m2_brl": str(vm2),
         "fator_obsolescencia": str(F),
         "memoria_calculo": f"VVc = A({A}) × R${vm2}/m² (Tabela VI {chave[0]}-{chave[1]}, subdiv. {sub}) × {F} ({origem_f}) = {vv}",
-        "citacao": {"dispositivo": "Art. 11 (redação Lei 15.889/2013) c/c Tabelas IV e VI; Art. 16",
-                    "fonte": f"{LEI_VV}; {LEI_FAIXAS}"},
+        "citacao": {"dispositivo": "Art. 11 (fórmula, red. Lei 15.889/2013) c/c Tabela IV (obsolescência, "
+                                   "Lei 11.152/1991) e Tabela VI (valores 2026, Anexo I Lei 18.330/2025); Art. 16",
+                    "fonte": f"{LEI_VV}; {LEI_FAIXAS}; Lei 18.330/2025 (Tabela VI 2026)"},
     }
 
 
@@ -334,9 +336,9 @@ def _demo():
     ok.append(f"  ✓ continuidade na fronteira: {a} → {b}")
 
     # Construção (Art. 11 + Tabelas IV/VI): 100 m², tipo 1-A, 1ª subdiv., idade 3 → 100×920×1,00
-    anc("VVc 1-A/1a idade=3", vv_construcao("100", 1, "A", "1a", idade=3)["vv_construcao_brl"], "89240.00")
+    anc("VVc 1-A/1a idade=3", vv_construcao("100", 1, "A", "1a", idade=3)["vv_construcao_brl"], "267623.00")
     # idade 12 → fator 0,86 → 79.120,00
-    anc("VVc 1-A/1a idade=12", vv_construcao("100", 1, "A", "1a", idade=12)["vv_construcao_brl"], "77280.00")
+    anc("VVc 1-A/1a idade=12", vv_construcao("100", 1, "A", "1a", idade=12)["vv_construcao_brl"], "231756.00")
     # Terreno (Art. 4º): 500 m² × R$2.000 × prof. 0,7071 = 707.100,00
     anc("VVt 500×2000×0,7071", vv_terreno("500", "2000", fator_profundidade="0.7071")["vv_terreno_brl"], "707100.00")
     # Art. 17: soma

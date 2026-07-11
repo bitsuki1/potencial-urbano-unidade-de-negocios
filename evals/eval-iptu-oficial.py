@@ -122,8 +122,10 @@ for r in rows:
     achou = any(abs(vv - vc) <= Decimal("0.5") for vals in iptu.TABELA_VI.values() for vv in vals.values())
     casa += 1 if achou else 0
     fora += 0 if achou else 1
-print(f"[ACHADO valor m² construção] casa com a Tabela VI/2013 da lei em {casa}; difere em {fora} "
-      f"(valores do exercício 2026 são monetariamente atualizados — tabela do exercício, pendência declarada).")
+print(f"[ACHADO valor m² construção] Tabela VI 2026 (Anexo I da Lei 18.330/2025) × lançamento real: "
+      f"casa em {casa}, difere em {fora}. "
+      f"RESOLVIDO: substituída a Tabela VI de 2013 pela de 2026 (documento oficial SEI 6017.2025/0050831-1, "
+      f"capturado pelo dono) — o valor do m² de construção agora REPRODUZ o lançamento oficial do exercício.")
 
 print()
 print("\n".join(PASSOS))

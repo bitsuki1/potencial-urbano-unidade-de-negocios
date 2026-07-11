@@ -42,9 +42,9 @@
       "nota": "Alíquotas IPTU progressivas por faixa de valor venal (15 faixas)."
     },
     "iptu-valor-construcao-m2.csv": {
-      "data_base": "2013-12-20",
-      "fonte_legal": "Lei Municipal SP 15.889/2013, Anexo I (Tabela VI) — valores NOMINAIS de 2013",
-      "nota": "Valor de construcao por m2 (tipo/padrao). ATENCAO: valores de 2013. Para o EXERCICIO 2026 a Tabela VI foi atualizada pela Lei 18.330/2025 (Anexo I) — valores ~3x maiores (ex.: Tipo1-A-1a: 920 -> 2.759). Tabela completa 2026 no Anexo I da 18.330 (PDF do Diario Oficial, ~2.714 pgs); amostra capturada pelo dono. PENDENTE: ingerir a Tabela VI 2026 completa para o VV de construcao do exercicio."
+      "data_base": "2026-01-01",
+      "fonte_legal": "Lei Municipal SP 18.330/2025, Anexo I (Tabela VI) — valores do EXERCICIO 2026 (substitui a Tabela VI da Lei 10.235/1986)",
+      "nota": "ATUALIZADA 2026-07-11: Tabela VI 2026 completa (31 linhas, Tipos 1-6 x Padroes A-F), documento oficial SEI 6017.2025/0050831-1 capturado pelo dono. Substituiu os valores de 2013 (~3x menores). CONFRONTO: o valor do m2 de construcao agora REPRODUZ o lancamento real 2026 (eval-iptu-oficial: casa 3861, difere 0). A formula (Art. 11) segue red. Lei 15.889/2013."
     },
     "quadro6-fator-planejamento-fp.csv": {
       "data_base": "2014-07-31",
