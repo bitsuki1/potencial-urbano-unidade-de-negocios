@@ -1,5 +1,11 @@
 # PRÓXIMA INSTÂNCIA — o que fazer (Potencial Urbano)
 
+> **★★★★★★★★★★★★★★★★★★★★★ PU 18 (2026-07-11, MANHÃ) — JURISPRUDÊNCIA NO RAG (B-21 FECHA) · GEOSAMPA 71 ACHADO · B-5 SEMÂNTICA COMPLETA. Gate 32/32.**
+> Dono acordou e autorizou "tudo que não depende de mim; não quero acompanhar, só volte com tudo pronto". Liberou o que estava reservado ao aval dele:
+> **① B-21 JURISPRUDÊNCIA INDEXADA:** 39 peças (STF/STJ/TJSP) estavam no MANIFESTO mas FORA do índice — agora recuperáveis por palavra-chave E significado. `fatiar.py::fatiar_jurisprudencia()` (texto = síntese própria enunciado+temas+dispositivos, NUNCA o inteiro teor) + `indexar.py` promove `jurisprudencia/`. Eval `tdc-jurisprudencia.json` (3 teses) VERDE — consulta TDC cita o acórdão no topo. 29/29 RAG sem regressão; ratchet R6 4→5. Re-embutido (`embed.yml`/Gemini) → 2.806/2.806 vetores; `eval-semantico` verde.
+> **② GeoSampa 71 — ACHADO (run 29152266361):** rodada dirigida (throttle 1200) = taxa 0,00 (71/71 sem_lote). NÃO é throttle — esses SQLs não têm lote em `lote_cidadao`. **Re-rodar não resolve.** Caminho: geometria por LOTES/SIRGAS ou geocodificação (não é mais GeoSampa). FSCE já os exclui fail-closed. Footgun do workflow corrigido (push→branch, não main).
+> **Depende do dono (só resta):** Fase B carga pesada de PII · PGV por codlog (VV pleno) · geometria dos 71 (fonte alternativa).
+>
 > **★★★★★★★★★★★★★★★★★★★★ PU 18 (2026-07-11, madrugada AUTÔNOMA) — FASE B ENDURECIDA · GEOSAMPA 71 PRONTO · PÁGINA · HIGIENE. Gate 32/32.**
 > Execução sem o dono (ele dormiu; mandato: "elabore a estratégia e não pare de produzir até só restar o que precisa de mim"). Feito e gated:
 > **① Fase B (M5):** `zepec/resolver_dono.py` passa a LER a 4ª canônica `holdings.csv` (elos CNPJ→CNPJ dobrados no grafo de sócios — antes o runbook a listava e o código NÃO a lia) + a escrita real faz **MERGE preenchendo lacunas** (Fase A do `donos.py` tem precedência, D-DONO-6; nunca sobrescreve). Fixture ganhou `SQLPJ0006` que **só resolve via holdings.csv** (prova +/−; eval 5 casos). **Action turnkey** no hub `.github/workflows/fase-b-donos.yml` (baixa as 4 canônicas via `GOOGLE_SA_KEY` + `drive_op.py download` novo, checkout cross-repo do resolver, roda o join; guarda `confirmar=SIM` PD-7; PII fora do git — Drive privado/artefato; log só contagem). Runbook renomeado → `docs/FASE-B-DONOS-EM-ESCALA.md`.
