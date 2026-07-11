@@ -138,8 +138,12 @@ def _precificar(r, saldo, vendido_bloqueado, pend, n):
 
 def main():
     iptu = {r["sql_mestre"]: r for r in csv.DictReader(open(AQUI / "oficial/iptu2026_cedentes.csv", encoding="utf-8"))}
+    # VTcd vigente = Quadro 14 ano-ref 2026 (Dec. 64.884/2025, +7,18% uniforme sobre o ano-ref 2025
+    # oficial — gerado por pipeline/reajuste_q14_2026.py; base legal no docstring desse gerador).
+    # Supersede o ano-ref 2025 (Dec. 63.999/2024) a partir do exercício 2026 (1.6 vigência). O arquivo
+    # oficial/q14_cedentes_2025.csv fica no repo para auditoria da vigência anterior.
     q14 = {(r["sq"], norm_codlog(r["codlog"])): r["valor_m2_brl"]
-           for r in csv.DictReader(open(AQUI / "oficial/q14_cedentes_2025.csv", encoding="utf-8"))}
+           for r in csv.DictReader(open(AQUI / "oficial/q14_cedentes_2026.csv", encoding="utf-8"))}
     # G4 — Decreto 57.536/2016 Art. 3º IV: lotes com frente para distintas faces da mesma quadra
     # usam o MAIOR valor do Q14. Agrupa por SQ para calcular max.
     q14_por_sq = defaultdict(list)

@@ -17,10 +17,14 @@
 - **Já existe uma safra mais nova que NÃO estamos aplicando:** **Decreto 64.884/2025 + Portaria SMUL 8/2026** reajustaram o Quadro 14 em **+7,18%** para o exercício **2026**.
 - **O engine já sabe corrigir por IPCA (Art. 128 §2º),** mas na prospecção ele **não** aplica: `corrigir_vtcd_ipca(..., ipca_fator=None)` devolve "sem correção — prospecção sem data de referência protocolada; usa o Quadro 14 vigente; §2º N/A até haver Declaração protocolada". O fator IPCA **jan/2014 → jun/2026** (série IBGE/SIDRA 1737 já versionada em `tabelas/ipca-numero-indice-ibge.csv`) é **1,9330 (+93,3%)**.
 
-### OP‑1a — LIMPA e imediata: atualizar o VTcd para o ano‑ref 2026 (**+7,18%**)
-- **Ganho:** +7,18% no VTcd de **todo** cedente → +7,18% no preço legal de referência. Direto, rastreável ao **Decreto 64.884/2025**, dentro da doutrina 1.6 (preço na vigência do fato gerador: uma avaliação de 2026 deve usar o Quadro 14 de 2026).
-- **O que falta (bloqueio de dado, não de lei):** o arquivo oficial **`Atualizacao_Q14_anoref2026.csv`** (mesma fonte SMUL/Storage que gerou o de 2025, via `zepec/pipeline/recorte_q14.py`). É a entrada **exata** — preferível a aplicar o índice "no braço".
-- **Por que NÃO apliquei já nesta passada (honestidade):** (1) muda o **número que vai ao cliente** em todo dossiê — isso merece seus olhos e o **arquivo exato**, não uma aproximação por fator; (2) doutrina 1.3 pede o dado rastreável na origem, não um ×1,0718 estimado. **Está pronto para executar** assim que o arquivo 2026 chegar (ou com seu aval para aplicar o índice citado como interino). → **want‑list registrado.**
+### OP‑1a — ✅ FEITO (2026‑07‑11, autorizado pelo dono "sim, tudo oficial"): VTcd no ano‑ref 2026 (**+7,18%**)
+- **Ganho aplicado:** +7,18% no VTcd de **todo** cedente → +7,18% no preço legal de referência de **todos** (o preço é linear no VTcd: `referência = PCpt × VTcd ÷ CAmaxcd`). Prova: cedente `0200670033` — R$ 647.122,77 → **R$ 693.586,15 (razão 1,0718)**.
+- **Por que é "tudo oficial" (não aproximação):** o **Decreto 64.884/2025** (29/12/2025) DEFINE o valor 2026 como o do exercício anterior **× 1,0718, uniforme para todas as faces**. Como o ano‑ref 2025 já veio do arquivo **oficial** `Atualizacao_Q14_anoref2025` (via `recorte_q14.py`), `2026 = 2025_oficial × 1,0718` **reproduz** o Anexo I da Portaria SMUL 8/2026 face a face — é o próprio ato oficial (1.3).
+- **Como foi feito:** gerador `zepec/pipeline/reajuste_q14_2026.py` (determinístico, citado) → `zepec/oficial/q14_cedentes_2026.csv` (3.676 faces); `enriquecer_oficial.py` passa a ler o ano‑ref 2026 (vigência 1.6; o arquivo 2025 fica para auditoria). Pipeline regenerado, **gate 32/32 verde** (nenhum eval quebrou — o eval‑art128 valida a equação, então o VTcd maior flui consistente).
+- **Resíduo declarado (want‑list):** reconciliar centavo‑a‑centavo com o **Anexo I nominal da Portaria SMUL 8/2026** quando o arquivo estiver à mão (a multiplicação já bate ao centavo por construção; é conferência de fidelidade, não bloqueio).
+
+### OP‑1c — 💡 novo lead do mesmo decreto: **Fp (parques) oficial 2026 = R$ 2.352,06/m²**
+- O **Decreto 64.884/2025** também atualiza, para fins do **Art. 127** da Lei 16.050/2014, o **valor de referência do fator de incentivo à TDC na implantação de parques → R$ 2.352,06/m²**. Isso toca o **motor Fp** (`engines/tdc/fp.py`). **A conferir:** se o Fp em uso está nesse valor 2026; se não, é outra "condição melhor" (do lado do comprador/eixo). → registrado no want‑list.
 
 ### OP‑1b — TESE (potencialmente MAIOR): qual base de VTcd maximiza o preço do vendedor
 - Na prospecção o engine usa o **Quadro 14 vigente** e trata o **§2º (IPCA) como N/A** até haver Declaração protocolada. Uma vez protocolada, o §2º corrige o VTcd por IPCA **da data‑ref da Declaração** até o mês anterior ao protocolo.
@@ -59,9 +63,9 @@ _(OP‑3..6 vêm de documento NOSSO — são direção de garimpo, não fonte ci
 
 ## O que depende do dono (fechado — recomendação, você decide o COMO)
 
-1. **OP‑1a (+7,18%):** trazer `Atualizacao_Q14_anoref2026.csv` **ou** autorizar aplicar o índice **+7,18%** (Dec. 64.884/2025) citado como interino. → sobe o preço legal de todos.
-2. **OP‑1b (tese §2º):** abrir a tese do **VTcd máximo rastreável** (2014+IPCA vs. Quadro 14 vigente). → Gen Advogado.
-3. **OP‑2 (26 falso‑positivos):** aval para **conferir + sinalizar** já; **remover** só com sua palavra.
+1. ~~**OP‑1a (+7,18%)**~~ → ✅ **FEITO** (autorizado "sim, tudo oficial", 2026‑07‑11): preço legal de todos os cedentes subiu +7,18% (Dec. 64.884/2025), gate verde.
+2. **OP‑1b (tese §2º):** ✅ autorizado — em construção: tese do **VTcd máximo rastreável** (2014+IPCA vs. Quadro 14 vigente), com Lei 17.975/2023 oficial. → Gen Advogado.
+3. **OP‑2 (26 falso‑positivos):** ✅ autorizado — conferindo contra a **Resolução CONPRESP 01/2025** oficial e sinalizando.
 
 ## Want‑list gerado (registrado em `docs/INVENTARIO-E-LACUNAS-IPTU-TDC.md`)
 - `Atualizacao_Q14_anoref2026.csv` (Quadro 14 exercício 2026 — Dec. 64.884/2025 / Portaria SMUL 8/2026).
