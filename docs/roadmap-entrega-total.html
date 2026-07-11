@@ -157,12 +157,12 @@
     <div class="eyebrow">Potencial Urbano · Unidade RAG Jurídico TDC / IPTU</div>
     <h1>Roadmap até a entrega total</h1>
     <p class="lede">O <b>motor</b> está pronto e no verde. O que falta daqui até o produto na mão do cliente é, na maior parte, <b>produto</b> (eu monto sozinho) e <b>dados &amp; decisões</b> (dependem de você). Esta é a lista inteira — nada escondido.</p>
-    <div class="stamp">Levantado por 2 lentes sobre BACKLOG · ROADMAP-PU · caixas do escritório — São Paulo, 10/07/2026</div>
+    <div class="stamp">Levantado por 2 lentes sobre BACKLOG · ROADMAP-PU · caixas do escritório — São Paulo, 10/07/2026 · <b>atualizado 11/07</b>: IPTU 2026, jurisprudência, Fase B endurecida, GeoSampa preparado</div>
   </header>
 
   <section class="tiles" aria-label="Onde estamos hoje">
     <div class="tile ok"><div class="num">38</div><div class="cap">leis em verbatim, com citação — <b>zero</b> pendente de captura</div></div>
-    <div class="tile ok"><div class="num">30<span class="u">/30</span></div><div class="cap">verificações no portão — todas <b>verdes</b> (era 27; +3 nesta rodada)</div></div>
+    <div class="tile ok"><div class="num">32<span class="u">/32</span></div><div class="cap">verificações no portão — todas <b>verdes</b> (era 30; +2 nesta rodada)</div></div>
     <div class="tile"><div class="num">3.334</div><div class="cap">cedentes com <b>preço legal</b> (Art. 128) calculado e provado</div></div>
     <div class="tile"><div class="num">5</div><div class="cap">motores provados: Lei · Mapa · Fórmulas · IPTU · Preço</div></div>
   </section>
@@ -176,25 +176,25 @@
   <section class="track track--you">
     <div class="track-head">
       <span class="lab">O que <span class="accent">depende de você</span></span>
-      <span class="meta">sua lista de ação · 15 itens</span>
+      <span class="meta">sua lista de ação · o aberto e o que já caiu</span>
     </div>
 
     <div class="group">
       <h3 class="group-h">Decisões rápidas (só um "vai")</h3>
       <div class="items">
         <div class="item"><span class="tag">preço</span><div class="item-body"><div class="item-title">Despausar o preço legal no produto</div><div class="item-desc">Você deu o "vai" (10/07). O preço do Art. 128 é agora oficialmente parte do produto (dossiê + coluna na lista); o codex virou ATIVO.</div></div><span class="chip chip--done">feito</span></div>
-        <div class="item"><span class="tag">RAG</span><div class="item-body"><div class="item-title">Busca por significado (embeddings)</div><div class="item-desc">A camada já está montada e provada offline no portão; falta você escolher o provedor (usar a chave que já existe ou modelo local) para ligá-la ao vivo.</div></div><span class="chip chip--decisao">decisão</span></div>
-        <div class="item"><span class="tag">selo</span><div class="item-body"><div class="item-title">Conferir 1 lei-âncora (selo humano)</div><div class="item-desc">Nenhuma lei tem ainda o selo <code>revisado_por_humano</code>. Você conferir o Decreto 57.536/2016 contra a fonte fecha a cadeia de credibilidade.</div></div><span class="chip chip--decisao">decisão</span></div>
-        <div class="item"><span class="tag">CI</span><div class="item-body"><div class="item-title">Política do verificador (D168)</div><div class="item-desc">Rodar o linter só no push (economiza cota do GitHub Actions) — sua palavra.</div></div><span class="chip chip--decisao">decisão</span></div>
+        <div class="item"><span class="tag">RAG</span><div class="item-body"><div class="item-title">Busca por significado (embeddings)</div><div class="item-desc">A camada já está montada e provada offline no portão; você escolheu o provedor (<b>Gemini</b>) — decisão fechada, pronta para ligar ao vivo.</div></div><span class="chip chip--done">feito</span></div>
+        <div class="item"><span class="tag">selo</span><div class="item-body"><div class="item-title">Conferir 1 lei-âncora (selo humano)</div><div class="item-desc">Você conferiu o Decreto 57.536/2016 (Art. 3º IV + Art. 5º) contra a fonte — <b>selo humano aplicado</b>, a cadeia de credibilidade tem seu primeiro elo revisado.</div></div><span class="chip chip--done">feito</span></div>
+        <div class="item"><span class="tag">CI</span><div class="item-body"><div class="item-title">Política do verificador (D168)</div><div class="item-desc">Você decidiu <b>manter como está</b> (10/07) — resolvido.</div></div><span class="chip chip--done">feito</span></div>
       </div>
     </div>
 
     <div class="group">
       <h3 class="group-h">Dados a capturar (as lentes / a extensão ajudam)</h3>
       <div class="items">
-        <div class="item"><span class="tag">IPTU</span><div class="item-body"><div class="item-title">Valor venal pleno — tabelas do exercício</div><div class="item-desc">Faltam PGV por codlog + ano de construção + faixas do exercício 2026 (Prefeitura). Destrava o produto IPTU e tira o gabarito do estado <code>aguardando_pgv</code>.</div></div><span class="chip chip--dado">captura</span></div>
-        <div class="item"><span class="tag">juris</span><div class="item-body"><div class="item-title">Jurisprudência de TDC (acórdãos)</div><div class="item-desc">O corpus é cego em jurisprudência (0/32). ≥8 acórdãos (STF/STJ/TJSP) em verbatim — os sites <code>.gov.br</code> bloqueiam o robô; a extensão web pega.</div></div><span class="chip chip--dado">captura</span></div>
-        <div class="item"><span class="tag">FSCE</span><div class="item-body"><div class="item-title">Re-coletar os 71 lotes do Setor Central</div><div class="item-desc">Fecha a pertinência à AIU-SCE em 377/377 (hoje 306). É re-rodar a coleta do GeoSampa noutra janela — 1 clique.</div></div><span class="chip chip--clique">1 clique</span></div>
+        <div class="item"><span class="tag">IPTU</span><div class="item-body"><div class="item-title">Valor venal do IPTU — 2026 reproduzido; falta o PGV por codlog</div><div class="item-desc">Você trouxe as tabelas oficiais (VI e IV do exercício 2026) e <b>eu integrei</b>: o motor reproduz o lançamento real — terreno 100%, construção 100%, obsolescência 92%. Falta só a listagem de PGV por <code>codlog</code> (valor de terreno por endereço) para o confronto pleno, independente do dado da Prefeitura.</div></div><span class="chip chip--dado">captura</span></div>
+        <div class="item"><span class="tag">juris</span><div class="item-body"><div class="item-title">Jurisprudência de TDC (acórdãos)</div><div class="item-desc">Você capturou pela extensão e <b>eu integrei</b>: <b>9 acórdãos</b> de TDC (TJSP/STJ/STF) com domínio carimbado — o corpus deixou de ser cego (0 → 9). 1 inteiro teor verbatim indexado; os outros 8 como fichas (respeitando direito autoral).</div></div><span class="chip chip--done">feito</span></div>
+        <div class="item"><span class="tag">FSCE</span><div class="item-body"><div class="item-title">Re-coletar os 71 lotes do Setor Central</div><div class="item-desc">Fecha a pertinência à AIU-SCE em 377/377 (hoje 306). <b>Deixei pronto</b> um disparo dirigido só aos 71, com throttle mais gentil (não martela o servidor compartilhado) — é 1 clique numa janela boa.</div></div><span class="chip chip--clique">1 clique</span></div>
         <div class="item"><span class="tag">fila</span><div class="item-body"><div class="item-title">Geolocalizar os 63 sem-SQL</div><div class="item-desc">Cruzar contra o IPTU_2026 completo (no Storage) para fechar a fila de prospecção.</div></div><span class="chip chip--dado">dado</span></div>
         <div class="item"><span class="tag">IPCA</span><div class="item-body"><div class="item-title">Série do IPCA para o §2º</div><div class="item-desc">Você buscou no IBGE e <b>eu já integrei hoje</b> — a correção dos 605 já-declarados está funcionando e provada.</div></div><span class="chip chip--done">feito hoje</span></div>
         <div class="item"><span class="tag">M&amp;C</span><div class="item-body"><div class="item-title">Semântica do FUNDURB (fonte SMUL)</div><div class="item-desc">Confirmar teto/somatória na fonte. Prioridade baixa — o lado comprador está fora de escopo (D-DONO-15).</div></div><span class="chip chip--dado">dado</span></div>
@@ -220,7 +220,14 @@
     <div class="group">
       <h3 class="group-h">Dono em escala (o gargalo dos 599)</h3>
       <div class="items">
-        <div class="item"><span class="tag">M5</span><div class="item-body"><div class="item-title">Descobrir o proprietário dos imóveis prontos</div><div class="item-desc"><b>Pipeline construído e no verde</b> (`resolver_dono.py` + prova sobre dados fictícios + runbook). Falta só você liberar o <b>dado pesado</b> (sócios/empresas/holdings) — aí a identificação sobe de <b>19 → centenas</b>.</div></div><span class="chip chip--pesado">dado pesado</span></div>
+        <div class="item"><span class="tag">M5</span><div class="item-body"><div class="item-title">Descobrir o proprietário dos imóveis prontos</div><div class="item-desc"><b>Pipeline endurecido e no verde</b> (<code>resolver_dono.py</code> com as 4 fontes — inclui <b>holdings</b> — que preserva a Fase A + prova sobre dados fictícios + Ação turnkey no hub). Falta só você liberar o <b>dado pesado</b> (sócios/empresas/holdings), com o gate de segurança — aí a identificação sobe de <b>19 → centenas</b>.</div></div><span class="chip chip--pesado">dado pesado</span></div>
+      </div>
+    </div>
+
+    <div class="group">
+      <h3 class="group-h">Próximo marco — validação pela fonte (M6)</h3>
+      <div class="items">
+        <div class="item"><span class="tag">M6</span><div class="item-body"><div class="item-title">Mapear a fundo o Drive e validar tudo pela fonte</div><div class="item-desc">Você já subiu 1000+ documentos. Combinamos: depois de fechar as pendências atuais, mapeamos todo o Drive e lemos o que há lá — para <b>validar</b> contra a fonte tudo que foi construído. Fica registrado como marco M6, para depois.</div></div><span class="chip chip--dado">planejado</span></div>
       </div>
     </div>
   </section>
@@ -228,8 +235,18 @@
   <!-- ============ EU FAÇO SOZINHO ============ -->
   <section class="track track--me">
     <div class="track-head">
-      <span class="lab">O que <span class="accent">eu já fiz</span> nesta rodada</span>
-      <span class="meta">executado sem você · 8 entregas · gate 30/30</span>
+      <span class="lab">O que <span class="accent">eu já fiz</span> sozinho</span>
+      <span class="meta">executado sem você · gate 32/32 verde</span>
+    </div>
+
+    <div class="group">
+      <h3 class="group-h">Nesta madrugada (11/07) — enquanto você dormia</h3>
+      <div class="items">
+        <div class="item"><span class="tag">IPTU</span><div class="item-body"><div class="item-title">IPTU 2026 reproduz o lançamento real</div><div class="item-desc">Integrei as tabelas que você trouxe (VI e IV do exercício 2026): terreno 100%, construção 100% (difere 0) e obsolescência 92%. O motor saiu dos valores de 2013.</div></div><span class="chip chip--done">feito</span></div>
+        <div class="item"><span class="tag">juris</span><div class="item-body"><div class="item-title">9 acórdãos de TDC no corpus</div><div class="item-desc">Suas capturas viraram fichas com domínio carimbado — o RAG deixou de ser cego em jurisprudência.</div></div><span class="chip chip--done">feito</span></div>
+        <div class="item"><span class="tag">M5</span><div class="item-body"><div class="item-title">Fase B endurecida + Ação turnkey</div><div class="item-desc">4ª fonte (holdings) cabeada, merge que preserva a Fase A, e uma Ação no hub pronta para 1 disparo (baixa as canônicas, roda o cruzamento, dado pessoal fora do git).</div></div><span class="chip chip--done">feito</span></div>
+        <div class="item"><span class="tag">FSCE</span><div class="item-body"><div class="item-title">Recoleta dos 71 preparada (gentil)</div><div class="item-desc">Disparo dirigido só aos 71, com throttle maior — pronto, sem martelar o servidor compartilhado.</div></div><span class="chip chip--done">feito</span></div>
+      </div>
     </div>
 
     <div class="group">
