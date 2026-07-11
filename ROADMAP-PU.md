@@ -185,7 +185,7 @@ A proposta na mesa era **ETAPAS (Bronze/Silver/Gold) × MOTORES M0–M6**, com "
 **O que fica vendável/usável:** **cada linha da lista e cada um dos 47 fatores fica contestável-e-defensável em cartório/negociação** — o RAG cobre as leis que o engine efetivamente usa, e a jurisprudência dá munição TDC ao Gen Advogado (hoje 0/32). É o que **aprofunda** os forks (a) e (c) numa negociação real (o piso já vem de M0+M1).
 
 **Entregas principais:**
-- **Corpus TDC-crítico verbatim: os 5–6 diplomas que o engine cita e o RAG não tem** — Decreto 57.536/2016 (Regra da Esquina, rito, DPC 5 anos), Decreto 58.289/2018, Lei 17.975/2023, Lei 18.081/2024 (+10% CA fora dos eixos, exclusivo TDC), Lei 17.577/2021, Lei 18.222/2024. Prioridade ACIMA das 13 municipais genéricas. *[Arquiteto RAG R2 / Legal-tech L7]*
+- ~~✅ FEITO (PU 18).~~ **Corpus TDC-crítico verbatim: os 5–6 diplomas que o engine cita e o RAG não tem** — Decreto 57.536/2016, Decreto 58.289/2018, Lei 17.975/2023, Lei 18.081/2024, Lei 17.577/2021, Lei 18.222/2024. **TODOS INGERIDOS:** 38 leis, 2.767 chunks, 0 bruto (corpus fechou via portal oficial + Drive). *[Arquiteto RAG R2 / Legal-tech L7]*
 - **Grafo de remissões (B-6) DESACOPLADO de embeddings** — regex puro, 100% local, sobre os 19 verbatim (`Redação dada por`, `Revogado por`, `Regulamentado por`, `art. N desta lei`) → `rag/grafo/remissoes.csv`; `consultar.py` exibe `alterado_por`/`regulamentado_por`. *[Arquiteto RAG R4]*
 - **Vigência por redação datada para o cohort já-declarado** (Art. 25 reescrito por 18.081/2024) — o engine não pode aplicar o Fi escalonado por default a quem declarou sob outro regime; exigir Fi da certidão. *[Legal-tech L3]*
 - **Endurecer vigência-por-chunk** (só 2/1.877 revogados num corpus com PDE compilado é sub-detecção): marcar §§/incisos revogados dentro de artigo vigente; nos 293 `compilado`, não rankear pela redação superada. *[Arquiteto RAG R5]*
@@ -256,14 +256,14 @@ M4 (corpus TDC) ── parte local começa junto de M0; parte verbatim/juris dep
 |---|---|---|---|
 | Corrigir chunker C-28 (fórmula PCpt rotulada "Art. 124") + eval sobre conteúdo | M0 | P | Arquiteto RAG [R1] |
 | Indexar Art. 128/117 verbatim; verificar constante 4 e fórmula C | M0 | M | Legal-tech [L1] |
-| Corpus TDC-crítico: 57.536, 58.289, 17.975, 18.081, 17.577, 18.222 verbatim | M4 | M | Arquiteto RAG [R2] / Legal [L7] |
+| ~~✅ FEITO~~ Corpus TDC-crítico: 57.536, 58.289, 17.975, 18.081, 17.577, 18.222 — **38 leis, 0 bruto** | M4 | ~~M~~ ✅ | Arquiteto RAG [R2] / Legal [L7] |
 | Grafo de remissões (regex local, desacoplado de embeddings) | M4 | P | Arquiteto RAG [R4] |
 | Vigência por redação datada — cohort já-declarado (Art. 25/18.081) | M4 | M | Legal-tech [L3] |
 | Endurecer vigência-por-chunk (§§/incisos revogados; compilado não rankeia velho) | M4 | M | Arquiteto RAG [R5] |
 | Tabela de 47 fatores como `fatores-tdc.csv` + CI (ponte M1↔M4) | M4 | M | Arquiteto RAG [R8] |
 | Política mecânica: ≥2 evals por lei indexada; MIN = f(corpus) | M4 | M | Arquiteto RAG [R6] |
-| Jurisprudência TDC (B-21) — lista de captura + ≥8 acórdãos + evals | M4 | G (lane externa) | Arquiteto RAG [R7] / Legal [L7] |
-| Camada semântica recall-only (stemmer+tema primeiro; Voyage+RRF depois) | M4 | M | Arquiteto RAG [R3] |
+| ~~✅ FEITO~~ Jurisprudência TDC (B-21) — **39 peças no RAG** (9 acórdãos + 30 fichas); eval tdc-jurisprudencia verde | M4 | ~~G~~ ✅ | Arquiteto RAG [R7] / Legal [L7] |
+| ~~✅ FEITO~~ Camada semântica — **Gemini** (decisão do dono); vetores 2.806/2.806; eval-semântico verde | M4 | ~~M~~ ✅ | Arquiteto RAG [R3] |
 
 ### A-REL — Relacional (proprietário, sócios, holdings)
 | Item | Marco | Esforço | Lente [id] |
