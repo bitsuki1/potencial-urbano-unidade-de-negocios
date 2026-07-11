@@ -43,8 +43,8 @@
     },
     "iptu-valor-construcao-m2.csv": {
       "data_base": "2013-12-20",
-      "fonte_legal": "Lei Municipal SP 15.889/2013, Anexo I (Tabela VI)",
-      "nota": "Valor de construção por m² (tipo/padrão). Atualizada pela Lei 15.044/2009."
+      "fonte_legal": "Lei Municipal SP 15.889/2013, Anexo I (Tabela VI) — valores NOMINAIS de 2013",
+      "nota": "Valor de construcao por m2 (tipo/padrao). ATENCAO: valores de 2013. Para o EXERCICIO 2026 a Tabela VI foi atualizada pela Lei 18.330/2025 (Anexo I) — valores ~3x maiores (ex.: Tipo1-A-1a: 920 -> 2.759). Tabela completa 2026 no Anexo I da 18.330 (PDF do Diario Oficial, ~2.714 pgs); amostra capturada pelo dono. PENDENTE: ingerir a Tabela VI 2026 completa para o VV de construcao do exercicio."
     },
     "quadro6-fator-planejamento-fp.csv": {
       "data_base": "2014-07-31",
@@ -57,9 +57,9 @@
       "nota": "Aliquotas-BASE do IPTU (1,0% resid.; 1,5% nao-resid.; 1,5% territorial). O ajuste por faixa vive em iptu-aliquotas-faixa.csv."
     },
     "iptu-fator-obsolescencia.csv": {
-      "data_base": "1986-12-16",
-      "fonte_legal": "Lei 10.235/1986, Tabela IV c/c Arts. 11 e 16 (texto compilado, portal oficial)",
-      "nota": "Fator por idade do predio (Art. 16: idade = exercicio - ano do termino/ocupacao). Sem anotacao de alteracao no compilado."
+      "data_base": "1991-12-30",
+      "fonte_legal": "Lei 10.235/1986, Tabela IV (redacao da Lei 11.152/1991) c/c Arts. 11 e 16",
+      "nota": "CORRIGIDA 2026-07-10: reconstruida ANO A ANO (idades 0..60) com DUAS colunas (Tipos 1-2 Padroes A/B | demais), piso 0,20 — captura verbatim do dono. Antes era aproximacao grosseira por faixas de 5 anos (piso 0,30, 1 coluna), ERRADA. A Lei 18.330/2025 NAO alterou a Tabela IV (segue vigente em 2026). Bate 92% do fator real da Prefeitura 2026 (eval-iptu-oficial)."
     },
     "iptu-fatores-terreno.csv": {
       "data_base": "1991-12-30",

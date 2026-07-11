@@ -133,10 +133,14 @@ for uso in FA:
         chk(f"continuidade {uso} (4 fronteiras)", True)
 
 # --- 4. obsolescência: monotônica decrescente, extremos legais ---------------
+# Tabela IV ano-a-ano (2 colunas). Sem tipo/padrão → coluna "demais" (piso 0,20 aos 60). idade 99 → cap 60.
 fat = [iptu.fator_obsolescencia(i) for i in (0, 5, 6, 10, 11, 20, 21, 35, 50, 51, 99)]
-chk("obsolescência extremos (1,00 → 0,30)", fat[0] == Decimal("1.00") and fat[-1] == Decimal("0.30"),
+chk("obsolescência extremos (1,00 → 0,20)", fat[0] == Decimal("1.00") and fat[-1] == Decimal("0.20"),
     f"{fat[0]}..{fat[-1]}")
 chk("obsolescência monotônica", all(a >= b for a, b in zip(fat, fat[1:])), str(fat))
+# coluna 'ab' (Tipos 1-2 Padrões A/B) deprecia mais rápido: piso 0,20 já aos 40 anos
+chk("obsolescência coluna A/B (Tipo1 idade 40 = 0,20)", iptu.fator_obsolescencia(40, 1, "A") == Decimal("0.20"),
+    str(iptu.fator_obsolescencia(40, 1, "A")))
 
 # --- 5. fail-closed ------------------------------------------------------------
 for nome, fn in [

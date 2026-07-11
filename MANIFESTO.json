@@ -1,6 +1,6 @@
 {
   "_doc": "Fonte da verdade do status_pipeline de cada item. GERADO por scripts/consolidar.py a partir dos .json individuais — NAO editar a mao (Principio 1.5/2.3 do CLAUDE.md). Roda a cada push via .github/workflows/consolidar.yml.",
-  "gerado_em": "2026-07-10T23:48:41.296675+00:00",
+  "gerado_em": "2026-07-11T00:35:48.483317+00:00",
   "vocabulario_status": [
     "bruto",
     "fatiado",
@@ -120,9 +120,9 @@
     },
     {
       "arquivo": "tabelas/iptu-fator-obsolescencia.csv",
-      "sha256": "sha256:3ebe713e6011b76ae419edaec9e071ef8ed5c8dac79691e1aab75aaa4be8cb08",
-      "data_base": "1986-12-16",
-      "fonte_legal": "Lei 10.235/1986, Tabela IV c/c Arts. 11 e 16 (texto compilado, portal oficial)"
+      "sha256": "sha256:10d0efe675624e48a6bfcb7cf09c822563d5fdfe52d2b444f421dbe5062a83d2",
+      "data_base": "1991-12-30",
+      "fonte_legal": "Lei 10.235/1986, Tabela IV (redacao da Lei 11.152/1991) c/c Arts. 11 e 16"
     },
     {
       "arquivo": "tabelas/iptu-fatores-terreno.csv",
@@ -134,7 +134,7 @@
       "arquivo": "tabelas/iptu-valor-construcao-m2.csv",
       "sha256": "sha256:eec7cb7e975c8bd154bb4168e0a3682b5224ed5e5bc8a41067ce15edefc99c18",
       "data_base": "2013-12-20",
-      "fonte_legal": "Lei Municipal SP 15.889/2013, Anexo I (Tabela VI)"
+      "fonte_legal": "Lei Municipal SP 15.889/2013, Anexo I (Tabela VI) — valores NOMINAIS de 2013"
     },
     {
       "arquivo": "tabelas/q14-valor-terreno.csv",

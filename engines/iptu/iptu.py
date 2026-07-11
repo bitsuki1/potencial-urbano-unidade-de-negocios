@@ -107,16 +107,18 @@ def _carrega_faixas():
 
 
 def _carrega_obsolescencia():
-    """[(idade_de, idade_até|None, fator)] — Tabela IV, Lei 10.235/1986."""
-    fx = []
+    """{idade: (fator_tipo12_ab, fator_demais)} — Tabela IV ANO A ANO (2 colunas), Lei 10.235/1986
+    (redação Lei 11.152/1991; não alterada pela Lei 18.330/2025 — vigente para 2026)."""
+    m = {}
     with open(TAB / "iptu-fator-obsolescencia.csv", encoding="utf-8") as f:
         for r in csv.DictReader(f):
-            ate = int(r["idade_ate"]) if (r["idade_ate"] or "").strip() else None
-            fx.append((int(r["idade_de"]), ate, Decimal(r["fator"])))
-    fx.sort(key=lambda t: t[0])
-    if len(fx) != 11 or fx[-1][1] is not None or fx[0][2] != 1 or fx[-1][2] != Decimal("0.30"):
-        raise ValueError("iptu-fator-obsolescencia.csv inválido: esperadas 11 faixas (1,00 → 0,30)")
-    return fx
+            if not (r.get("idade") or "").strip():
+                continue
+            m[int(r["idade"])] = (Decimal(r["fator_tipo12_ab"]), Decimal(r["fator_demais"]))
+    if len(m) != 61 or m[0] != (Decimal("1.00"), Decimal("1.00")) or m[60] != (Decimal("0.20"), Decimal("0.20")):
+        raise ValueError("iptu-fator-obsolescencia.csv inválido: esperadas 61 idades (0..60), colunas "
+                         "fator_tipo12_ab e fator_demais, de 1,00 (idade 0) a 0,20 (idade 60)")
+    return m
 
 
 def _carrega_tabela_vi():
@@ -222,15 +224,16 @@ def iptu_devido(vv, uso):
 # ---------------------------------------------------------------------------
 # Valor venal — Lei 10.235/1986
 # ---------------------------------------------------------------------------
-def fator_obsolescencia(idade):
-    """Tabela IV c/c Art. 16 (idade = exercício − ano do término/ocupação)."""
+def fator_obsolescencia(idade, tipo=None, padrao=None):
+    """Tabela IV (ano a ano) c/c Art. 16 (idade = exercício − ano do término/ocupação).
+    Duas colunas: Tipos 1 e 2 nos Padrões A/B usam a 1ª (deprecia mais rápido, piso 0,20 aos 40 anos);
+    os demais Padrões/Tipos usam a 2ª (piso 0,20 aos 60). idade > 60 usa o fator da idade 60."""
     i = int(idade)
     if i < 0:
         raise ValueError(f"idade inválida: {idade!r}")
-    for de, ate, fator in OBSOLESCENCIA:
-        if ate is None or i <= ate:
-            return fator
-    raise AssertionError("faixa de obsolescência não resolvida")  # inalcançável
+    ab, demais = OBSOLESCENCIA[min(i, 60)]
+    usa_ab = str(tipo).strip() in ("1", "2") and str(padrao).strip().upper() in ("A", "B")
+    return ab if usa_ab else demais
 
 
 def vv_construcao(area_construida, tipo, padrao, subdivisao, idade=None, fator_obs=None):
@@ -248,8 +251,8 @@ def vv_construcao(area_construida, tipo, padrao, subdivisao, idade=None, fator_o
     if fator_obs is None:
         if idade is None:
             raise ValueError("informe idade (Art. 16) ou fator_obs explícito — sem obsolescência não há VV de construção (Art. 11)")
-        F = fator_obsolescencia(idade)
-        origem_f = f"Tabela IV por idade={int(idade)}"
+        F = fator_obsolescencia(idade, tipo, padrao)
+        origem_f = f"Tabela IV por idade={int(idade)} (Tipo {chave[0]}/Padrão {chave[1]})"
     else:
         F = _d(fator_obs, "fator_obs")
         if not (0 < F <= 1):
@@ -331,9 +334,9 @@ def _demo():
     ok.append(f"  ✓ continuidade na fronteira: {a} → {b}")
 
     # Construção (Art. 11 + Tabelas IV/VI): 100 m², tipo 1-A, 1ª subdiv., idade 3 → 100×920×1,00
-    anc("VVc 1-A/1a idade=3", vv_construcao("100", 1, "A", "1a", idade=3)["vv_construcao_brl"], "92000.00")
+    anc("VVc 1-A/1a idade=3", vv_construcao("100", 1, "A", "1a", idade=3)["vv_construcao_brl"], "89240.00")
     # idade 12 → fator 0,86 → 79.120,00
-    anc("VVc 1-A/1a idade=12", vv_construcao("100", 1, "A", "1a", idade=12)["vv_construcao_brl"], "79120.00")
+    anc("VVc 1-A/1a idade=12", vv_construcao("100", 1, "A", "1a", idade=12)["vv_construcao_brl"], "77280.00")
     # Terreno (Art. 4º): 500 m² × R$2.000 × prof. 0,7071 = 707.100,00
     anc("VVt 500×2000×0,7071", vv_terreno("500", "2000", fator_profundidade="0.7071")["vv_terreno_brl"], "707100.00")
     # Art. 17: soma

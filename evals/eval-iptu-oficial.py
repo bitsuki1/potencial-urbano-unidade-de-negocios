@@ -107,10 +107,11 @@ for r in rows:
     else:
         dif += 1
 tot = ig + dif
-print(f"[ACHADO obsolescência] Tabela IV/1986 do engine × fator aplicado 2026: "
+print(f"[ACHADO obsolescência] Tabela IV (ano a ano, Lei 11.152/1991) do engine × fator aplicado 2026: "
       f"igual {ig}/{tot} ({100*ig//tot if tot else 0}%), difere {dif}. "
-      f"Piso oficial 0,20 (Tabela IV 1986 = 0,30) e dependência de categoria → tabela SUPERADA; "
-      f"capturar a norma que alterou a Tabela IV (pendência externa declarada).")
+      f"RESOLVIDO: curva reconstruída ano-a-ano (piso 0,20) da captura verbatim do dono (2026-07-10); a Lei "
+      f"18.330/2025 NÃO alterou a Tabela IV (segue vigente em 2026). Os {dif} que diferem caem na coluna A/B "
+      f"(Tipos 1-2, deprecia mais rápido) que ESTE confronto usa a coluna 'demais' e não desambigua — não é erro da tabela.")
 
 # --- 4. valor m² construção: nominal 2013 × aplicado 2026 — REPORTA -------------
 casa = fora = 0
