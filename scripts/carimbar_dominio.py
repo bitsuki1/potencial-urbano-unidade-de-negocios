@@ -85,6 +85,18 @@ TDC = {
         "PIU Arco Pinheiros — cria AIU-ACP com potencial construtivo adicional de 1.150.000 m² (Art. 23), "
         "CA máximo 6,0, transferência de potencial construtivo (Arts. 42-43). Efeito dominante é TDC/potencial.",
     # (mais massa normativa TDC — decretos ZEPEC/CONPRESP — entra quando ingerida; ver A-11)
+    # --- Jurisprudência de TDC ingerida 2026-07-11 (B-21): efeito dominante é TDC (tombamento ×
+    #     potencial construtivo; natureza compensatória; direito de protocolo; base do "solo criado"),
+    #     NÃO tributo IPTU — o carimbo default 'iptu' de jurisprudencia/ as excluía da consulta TDC. ---
+    "tjsp-ai-2126162-35-2025": "TJSP: CONPRESP × potencial construtivo em tombamento (efeito TDC).",
+    "tjsp-ai-2257458-20-2024": "TJSP: TDC como compensação pela limitação de propriedade (tombamento).",
+    "tjsp-ai-2324382-13-2024": "TJSP: (im)penhorabilidade do potencial construtivo — finalidade TDC.",
+    "tjsp-apciv-0000175-39-2017": "TJSP: vedação do Art. 124 §2º PDE à TDC de imóvel tombado.",
+    "tjsp-apciv-0000177-09-2017": "TJSP: tombamento provisório = definitivo; vedação da TDC.",
+    "tjsp-apciv-1070175-76-2019": "TJSP: direito de protocolo/ultratividade na declaração de PCT (TDC).",
+    "stj-agrg-aresp-179340-sp": "STJ: TDC do art. 35 do Estatuto da Cidade em desapropriação de tombado.",
+    "stf-re-387047-sc": "STF: 'solo criado'/outorga onerosa não é tributo (base constitucional do TDC).",
+    "stf-re-226942-sc": "STF: parcela do solo criado é compensação, não tributo (base do TDC).",
 }
 # Todo o resto → iptu (o corpus de leis/ e TODA a jurisprudencia/ foram montados p/ a tese IPTU).
 
