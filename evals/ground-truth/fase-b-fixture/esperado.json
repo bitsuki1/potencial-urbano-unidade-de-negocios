@@ -1,10 +1,11 @@
 {
-  "_nota": "Gabarito SINTETICO da Fase B (dados FICTICIOS). Cada SQL -> pessoa(s) fisica(s) controladora(s) que a cadeia deve resolver. Casos: PF direta, PJ->socio-PF, holding 2 niveis, conflito (2 socios), documento ausente (nao deve aparecer).",
+  "_nota": "Gabarito SINTETICO da Fase B (dados FICTICIOS). Cada SQL -> pessoa(s) fisica(s) controladora(s) que a cadeia deve resolver. Casos: PF direta, PJ->socio-PF, holding 2 niveis (via socios.csv), holding EXPLICITA (via holdings.csv, 4a canonica), conflito (2 socios), documento ausente (nao deve aparecer). SQLPJ0006 (DELTA) SO resolve se a holdings.csv for lida: DELTA nao tem linha em socios.csv; o elo DELTA->EPSILON->CARLOS vem da holdings.csv.",
   "esperado": {
     "SQLPF0001": ["FULANO"],
     "SQLPJ0002": ["MARIA"],
     "SQLPJ0003": ["JOAO"],
-    "SQLPJ0004": ["ANA", "BIA"]
+    "SQLPJ0004": ["ANA", "BIA"],
+    "SQLPJ0006": ["CARLOS"]
   },
   "ausentes": ["SQLNA0005"]
 }
