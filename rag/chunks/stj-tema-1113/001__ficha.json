@@ -1,0 +1,35 @@
+{
+  "chunk_id": "stj-tema-1113::001-ficha",
+  "lei_id": "stj-tema-1113",
+  "tipo_dispositivo": "jurisprudencia",
+  "rotulo": "STJ 1113",
+  "numero": "1113",
+  "header_raw": "STJ 1113. a) A base de cálculo do ITBI é o valor do imóvel transmitido em condições normais de mercado, não estando vinc",
+  "caminho_hierarquico": [
+    "STJ 1113"
+  ],
+  "texto": "STJ 1113. a) A base de cálculo do ITBI é o valor do imóvel transmitido em condições normais de mercado, não estando vinculada à base de cálculo do IPTU, que nem sequer pode ser utilizada como piso de tributação; b) o valor da transação declarado pelo contribuinte goza da presunção de que é condizente com o valor de mercado, que somente pode ser afastada pelo fisco mediante a regular instauração de processo administrativo próprio (art. 148 do CTN); c) o município não pode arbitrar previamente a base de cálculo do ITBI com respaldo em valor de referência por ele estabelecido unilateralmente. Temas: ITBI. Dispositivos relacionados: CTN art. 33 (valor venal IPTU); CTN art. 38 (base ITBI); CTN art. 148.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "acórdão publicado; RE pendente",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "recurso_repetitivo STJ 1113",
+    "dispositivo": "STJ 1113",
+    "fonte_url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/09032022-Base-de-calculo-do-ITBI-e-o-valor-do-imovel-transmitido-em-condicoes-normais-de-mercado--define-Primeira-Secao.aspx",
+    "vigencia": {}
+  },
+  "tema": [
+    "ITBI"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "STJ",
+  "ementa": "a) A base de cálculo do ITBI é o valor do imóvel transmitido em condições normais de mercado, não estando vinculada à base de cálculo do IPTU, que nem sequer pode ser utilizada como piso de tributação; b) o valor da transação declarado pelo contribuinte goza da presunção de que é condizente com o va"
+}

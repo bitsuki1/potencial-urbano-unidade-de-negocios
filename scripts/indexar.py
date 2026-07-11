@@ -100,14 +100,17 @@ def main():
     # leis que passaram por tagueamento mas nunca voltaram a "fatiado" — 4 leis ficavam presas.
     leis_indexadas = sorted({c.get("lei_id") for c in chunks})
     promovidas = []
+    # Promove leis/ E jurisprudencia/ (B-21): um acórdão/súmula com chunk no índice mas status
+    # < indexado dispara o alerta 'chunks_sem_status_indexado' do consolidar — aqui fecha o laço.
     for lei_id in leis_indexadas:
-        for jpath in (RAIZ / "leis").rglob(f"{lei_id}.json"):
-            meta = json.loads(jpath.read_text(encoding="utf-8"))
-            if meta.get("status_pipeline") in ("fatiado", "tagueado", "validado"):
-                meta["status_pipeline"] = "indexado"
-                jpath.write_text(json.dumps(meta, ensure_ascii=False, indent=2) + "\n",
-                                 encoding="utf-8")
-                promovidas.append(lei_id)
+        for base in (RAIZ / "leis", RAIZ / "jurisprudencia"):
+            for jpath in base.rglob(f"{lei_id}.json"):
+                meta = json.loads(jpath.read_text(encoding="utf-8"))
+                if meta.get("status_pipeline") in ("fatiado", "tagueado", "validado"):
+                    meta["status_pipeline"] = "indexado"
+                    jpath.write_text(json.dumps(meta, ensure_ascii=False, indent=2) + "\n",
+                                     encoding="utf-8")
+                    promovidas.append(lei_id)
 
     print(f"indexar: {N} chunks indexados, {len(df)} tokens, "
           f"{len(leis_indexadas)} leis -> rag/index/")

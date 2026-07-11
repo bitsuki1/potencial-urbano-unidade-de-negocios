@@ -1,0 +1,33 @@
+{
+  "chunk_id": "stf-tema-1084::001-ficha",
+  "lei_id": "stf-tema-1084",
+  "tipo_dispositivo": "jurisprudencia",
+  "rotulo": "STF 1084",
+  "numero": "1084",
+  "header_raw": "STF 1084. É constitucional a lei municipal que delega ao Poder Executivo a avaliação individualizada, para fins de cobra",
+  "caminho_hierarquico": [
+    "STF 1084"
+  ],
+  "texto": "STF 1084. É constitucional a lei municipal que delega ao Poder Executivo a avaliação individualizada, para fins de cobrança do IPTU, de imóvel novo não previsto na Planta Genérica de Valores, desde que fixados em lei os critérios para a avaliação técnica e assegurado ao contribuinte o direito ao contraditório. Dispositivos relacionados: CF/88 art. 150, I (legalidade tributária); CTN art. 33; CTN art. 97, §1º.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "mérito julgado; acórdão publicado em 27/07/2023",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "tema_repercussao_geral STF 1084",
+    "dispositivo": "STF 1084",
+    "fonte_url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=5813878&numeroProcesso=1245097&classeProcesso=ARE&numeroTema=1084",
+    "vigencia": {}
+  },
+  "tema": [],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "STF",
+  "ementa": "É constitucional a lei municipal que delega ao Poder Executivo a avaliação individualizada, para fins de cobrança do IPTU, de imóvel novo não previsto na Planta Genérica de Valores, desde que fixados em lei os critérios para a avaliação técnica e assegurado ao contribuinte o direito ao contraditório"
+}

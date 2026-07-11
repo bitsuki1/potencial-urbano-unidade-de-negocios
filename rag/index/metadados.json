@@ -100661,5 +100661,861 @@
       "norma_redacao": null
     },
     "citavel": true
+  },
+  "stf-re-226942-sc::001-ficha": {
+    "lei_id": "stf-re-226942-sc",
+    "tipo_dispositivo": "jurisprudencia",
+    "rotulo": "STF RE 226.942/SC",
+    "tema": [
+      "solo-criado",
+      "outorga-onerosa",
+      "nao-tributo"
+    ],
+    "dominio": [
+      "tdc"
+    ],
+    "dominio_primario": "tdc",
+    "jurisdicao": "STF",
+    "vigencia": {
+      "inicio": "2008-10-21",
+      "fim": null,
+      "nota": "acordao (resumo de metadados)"
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "stf-re-387047-sc::001-ficha": {
+    "lei_id": "stf-re-387047-sc",
+    "tipo_dispositivo": "jurisprudencia",
+    "rotulo": "STF RE 387.047/SC",
+    "tema": [
+      "solo-criado",
+      "outorga-onerosa",
+      "nao-tributo",
+      "funcao-social"
+    ],
+    "dominio": [
+      "tdc"
+    ],
+    "dominio_primario": "tdc",
+    "jurisdicao": "STF",
+    "vigencia": {
+      "inicio": "2008-03-06",
+      "fim": null,
+      "nota": "acordao (resumo de metadados)"
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "stf-sumula-539::001-ficha": {
+    "lei_id": "stf-sumula-539",
+    "tipo_dispositivo": "jurisprudencia",
+    "rotulo": "STF 539",
+    "tema": [],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "STF",
+    "vigencia": {},
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "stf-sumula-589::001-ficha": {
+    "lei_id": "stf-sumula-589",
+    "tipo_dispositivo": "jurisprudencia",
+    "rotulo": "STF 589",
+    "tema": [],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "STF",
+    "vigencia": {},
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "stf-sumula-668::001-ficha": {
+    "lei_id": "stf-sumula-668",
+    "tipo_dispositivo": "jurisprudencia",
+    "rotulo": "STF 668",
+    "tema": [],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "STF",
+    "vigencia": {},
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "stf-sumula-670::001-ficha": {
+    "lei_id": "stf-sumula-670",
+    "tipo_dispositivo": "jurisprudencia",
+    "rotulo": "STF 670",
+    "tema": [],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "STF",
+    "vigencia": {},
+    "vigencia_dispositivo": {
+      "status": "Súmula 670 convertida na Súmula Vinculante 41 (mesma redação); enunciado vigente como SV 41. Tema 44 RG; vide SV 19.",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "stf-sumula-724::001-ficha": {
+    "lei_id": "stf-sumula-724",
+    "tipo_dispositivo": "jurisprudencia",
+    "rotulo": "STF 724",
+    "tema": [],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "STF",
+    "vigencia": {},
+    "vigencia_dispositivo": {
+      "status": "vigente; convertida (com ajustes de redação) na Súmula Vinculante 52",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "stf-sv-19::001-ficha": {
+    "lei_id": "stf-sv-19",
+    "tipo_dispositivo": "jurisprudencia",
+    "rotulo": "STF 19",
+    "tema": [],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "STF",
+    "vigencia": {},
+    "vigencia_dispositivo": {
+      "status": "vigente (aprovada em 29/10/2009, DJe 10/11/2009)",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "stf-tema-1084::001-ficha": {
+    "lei_id": "stf-tema-1084",
+    "tipo_dispositivo": "jurisprudencia",
+    "rotulo": "STF 1084",
+    "tema": [],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "STF",
+    "vigencia": {},
+    "vigencia_dispositivo": {
+      "status": "mérito julgado; acórdão publicado em 27/07/2023",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "stf-tema-155::001-ficha": {
+    "lei_id": "stf-tema-155",
+    "tipo_dispositivo": "jurisprudencia",
+    "rotulo": "STF 155",
+    "tema": [],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "STF",
+    "vigencia": {},
+    "vigencia_dispositivo": {
+      "status": "repercussão geral reconhecida; jurisprudência reafirmada (Súmula 668)",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "stf-tema-523::001-ficha": {
+    "lei_id": "stf-tema-523",
+    "tipo_dispositivo": "jurisprudencia",
+    "rotulo": "STF 523",
+    "tema": [],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "STF",
+    "vigencia": {},
+    "vigencia_dispositivo": {
+      "status": "mérito julgado; trânsito em julgado",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "stf-tema-94::001-ficha": {
+    "lei_id": "stf-tema-94",
+    "tipo_dispositivo": "jurisprudencia",
+    "rotulo": "STF 94",
+    "tema": [],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "STF",
+    "vigencia": {},
+    "vigencia_dispositivo": {
+      "status": "mérito julgado; trânsito em julgado",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "stj-agrg-aresp-179340-sp::001-ficha": {
+    "lei_id": "stj-agrg-aresp-179340-sp",
+    "tipo_dispositivo": "jurisprudencia",
+    "rotulo": "STJ AgRg no AREsp 179.340/SP",
+    "tema": [
+      "estatuto-da-cidade",
+      "desapropriacao",
+      "tombamento"
+    ],
+    "dominio": [
+      "tdc"
+    ],
+    "dominio_primario": "tdc",
+    "jurisdicao": "STJ",
+    "vigencia": {
+      "inicio": "2012-11-20",
+      "fim": null,
+      "nota": "acordao (resumo de metadados)"
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "stj-resp-1112646::001-ficha": {
+    "lei_id": "stj-resp-1112646",
+    "tipo_dispositivo": "jurisprudencia",
+    "rotulo": "STJ 1112646",
+    "tema": [],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "STJ",
+    "vigencia": {},
+    "vigencia_dispositivo": {
+      "status": "mérito julgado (rito art. 543-C CPC/1973); leading case do Tema 174/STJ; trânsito em julgado",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "stj-resp-1130545::001-ficha": {
+    "lei_id": "stj-resp-1130545",
+    "tipo_dispositivo": "jurisprudencia",
+    "rotulo": "STJ 1130545",
+    "tema": [],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "STJ",
+    "vigencia": {},
+    "vigencia_dispositivo": {
+      "status": "mérito julgado (rito art. 543-C CPC/1973); leading case do Tema Repetitivo 387/STJ; trânsito em julgado",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "stj-resp-1202136::001-ficha": {
+    "lei_id": "stj-resp-1202136",
+    "tipo_dispositivo": "jurisprudencia",
+    "rotulo": "STJ 1202136",
+    "tema": [],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "STJ",
+    "vigencia": {},
+    "vigencia_dispositivo": {
+      "status": "acórdão da Segunda Turma (NÃO é recurso repetitivo); j. 07/06/2011, DJe 14/06/2011",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "stj-resp-1645832::001-ficha": {
+    "lei_id": "stj-resp-1645832",
+    "tipo_dispositivo": "jurisprudencia",
+    "rotulo": "STJ 1645832",
+    "tema": [],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "STJ",
+    "vigencia": {},
+    "vigencia_dispositivo": {
+      "status": "acórdão da Segunda Turma (NÃO é recurso repetitivo); Rel. Min. Herman Benjamin, j. 07/03/2017, DJe 19/04/2017",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "stj-sumula-314::001-ficha": {
+    "lei_id": "stj-sumula-314",
+    "tipo_dispositivo": "jurisprudencia",
+    "rotulo": "STJ 314",
+    "tema": [],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "STJ",
+    "vigencia": {},
+    "vigencia_dispositivo": {
+      "status": "vigente (Primeira Seção, j. 12/12/2005, DJ 08/02/2006)",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "stj-sumula-392::001-ficha": {
+    "lei_id": "stj-sumula-392",
+    "tipo_dispositivo": "jurisprudencia",
+    "rotulo": "STJ 392",
+    "tema": [],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "STJ",
+    "vigencia": {},
+    "vigencia_dispositivo": {
+      "status": "vigente (Primeira Seção, j. 23/09/2009, DJe 07/10/2009)",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "stj-sumula-393::001-ficha": {
+    "lei_id": "stj-sumula-393",
+    "tipo_dispositivo": "jurisprudencia",
+    "rotulo": "STJ 393",
+    "tema": [],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "STJ",
+    "vigencia": {},
+    "vigencia_dispositivo": {
+      "status": "vigente (Primeira Seção, j. 23/09/2009, DJe 07/10/2009)",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "stj-sumula-397::001-ficha": {
+    "lei_id": "stj-sumula-397",
+    "tipo_dispositivo": "jurisprudencia",
+    "rotulo": "STJ 397",
+    "tema": [],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "STJ",
+    "vigencia": {},
+    "vigencia_dispositivo": {
+      "status": "vigente (Primeira Seção, j. 23/09/2009, DJe 07/10/2009)",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "stj-sumula-399::001-ficha": {
+    "lei_id": "stj-sumula-399",
+    "tipo_dispositivo": "jurisprudencia",
+    "rotulo": "STJ 399",
+    "tema": [],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "STJ",
+    "vigencia": {},
+    "vigencia_dispositivo": {
+      "status": "vigente (Primeira Seção, j. 23/09/2009, DJe 07/10/2009)",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "stj-sumula-409::001-ficha": {
+    "lei_id": "stj-sumula-409",
+    "tipo_dispositivo": "jurisprudencia",
+    "rotulo": "STJ 409",
+    "tema": [],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "STJ",
+    "vigencia": {},
+    "vigencia_dispositivo": {
+      "status": "vigente (Primeira Seção, j. 28/10/2009, DJe 24/11/2009)",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "stj-sumula-481::001-ficha": {
+    "lei_id": "stj-sumula-481",
+    "tipo_dispositivo": "jurisprudencia",
+    "rotulo": "STJ 481",
+    "tema": [],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "STJ",
+    "vigencia": {},
+    "vigencia_dispositivo": {
+      "status": "vigente (Corte Especial, j. 28/06/2012, DJe 01/08/2012)",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "stj-sumula-614::001-ficha": {
+    "lei_id": "stj-sumula-614",
+    "tipo_dispositivo": "jurisprudencia",
+    "rotulo": "STJ 614",
+    "tema": [],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "STJ",
+    "vigencia": {},
+    "vigencia_dispositivo": {
+      "status": "vigente (Primeira Seção, j. 09/05/2018, DJe 14/05/2018)",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "stj-sumula-626::001-ficha": {
+    "lei_id": "stj-sumula-626",
+    "tipo_dispositivo": "jurisprudencia",
+    "rotulo": "STJ 626",
+    "tema": [],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "STJ",
+    "vigencia": {},
+    "vigencia_dispositivo": {
+      "status": "vigente (Primeira Seção, j. 12/12/2018, DJe 17/12/2018)",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "stj-tema-1113::001-ficha": {
+    "lei_id": "stj-tema-1113",
+    "tipo_dispositivo": "jurisprudencia",
+    "rotulo": "STJ 1113",
+    "tema": [
+      "ITBI"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "STJ",
+    "vigencia": {},
+    "vigencia_dispositivo": {
+      "status": "acórdão publicado; RE pendente",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "stj-tema-1158::001-ficha": {
+    "lei_id": "stj-tema-1158",
+    "tipo_dispositivo": "jurisprudencia",
+    "rotulo": "STJ 1158",
+    "tema": [],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "STJ",
+    "vigencia": {},
+    "vigencia_dispositivo": {
+      "status": "acórdão publicado",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "stj-tema-1350::001-ficha": {
+    "lei_id": "stj-tema-1350",
+    "tipo_dispositivo": "jurisprudencia",
+    "rotulo": "STJ 1350",
+    "tema": [],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "STJ",
+    "vigencia": {},
+    "vigencia_dispositivo": {
+      "status": "mérito julgado (rito repetitivo); trânsito em julgado",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "stj-tema-174::001-ficha": {
+    "lei_id": "stj-tema-174",
+    "tipo_dispositivo": "jurisprudencia",
+    "rotulo": "STJ 174",
+    "tema": [],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "STJ",
+    "vigencia": {},
+    "vigencia_dispositivo": {
+      "status": "mérito julgado (rito repetitivo); trânsito em julgado",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "stj-tema-262::001-ficha": {
+    "lei_id": "stj-tema-262",
+    "tipo_dispositivo": "jurisprudencia",
+    "rotulo": "STJ 262",
+    "tema": [],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "STJ",
+    "vigencia": {},
+    "vigencia_dispositivo": {
+      "status": "mérito julgado (rito repetitivo); trânsito em julgado",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "stj-tema-399::001-ficha": {
+    "lei_id": "stj-tema-399",
+    "tipo_dispositivo": "jurisprudencia",
+    "rotulo": "STJ 399",
+    "tema": [],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "STJ",
+    "vigencia": {},
+    "vigencia_dispositivo": {
+      "status": "mérito julgado (rito repetitivo); trânsito em julgado",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "stj-tema-566::001-ficha": {
+    "lei_id": "stj-tema-566",
+    "tipo_dispositivo": "jurisprudencia",
+    "rotulo": "STJ 566",
+    "tema": [],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "STJ",
+    "vigencia": {},
+    "vigencia_dispositivo": {
+      "status": "mérito julgado (rito repetitivo); trânsito em julgado",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "tjsp-ai-2126162-35-2025::001-ficha": {
+    "lei_id": "tjsp-ai-2126162-35-2025",
+    "tipo_dispositivo": "jurisprudencia",
+    "rotulo": "TJSP 2126162-35.2025.8.26.0000",
+    "tema": [
+      "tombamento",
+      "patrimonio-cultural",
+      "CONPRESP",
+      "ZEPEC",
+      "potencial-construtivo"
+    ],
+    "dominio": [
+      "tdc"
+    ],
+    "dominio_primario": "tdc",
+    "jurisdicao": "TJSP",
+    "vigencia": {
+      "inicio": "2025-08-28",
+      "fim": null,
+      "nota": "decisao em agravo de instrumento (provimento); merito ainda pendente no 1o grau"
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "tjsp-ai-2257458-20-2024::001-ficha": {
+    "lei_id": "tjsp-ai-2257458-20-2024",
+    "tipo_dispositivo": "jurisprudencia",
+    "rotulo": "TJSP 2257458-20.2024.8.26.0000",
+    "tema": [
+      "natureza-compensatoria",
+      "penhora"
+    ],
+    "dominio": [
+      "tdc"
+    ],
+    "dominio_primario": "tdc",
+    "jurisdicao": "TJSP",
+    "vigencia": {
+      "inicio": "2024-11-05",
+      "fim": null,
+      "nota": "acordao (resumo de metadados)"
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "tjsp-ai-2324382-13-2024::001-ficha": {
+    "lei_id": "tjsp-ai-2324382-13-2024",
+    "tipo_dispositivo": "jurisprudencia",
+    "rotulo": "TJSP 2324382-13.2024.8.26.0000",
+    "tema": [
+      "potencial-construtivo",
+      "penhora",
+      "impenhorabilidade"
+    ],
+    "dominio": [
+      "tdc"
+    ],
+    "dominio_primario": "tdc",
+    "jurisdicao": "TJSP",
+    "vigencia": {
+      "inicio": "2024-12-13",
+      "fim": null,
+      "nota": "acordao (resumo de metadados)"
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "tjsp-apciv-0000175-39-2017::001-ficha": {
+    "lei_id": "tjsp-apciv-0000175-39-2017",
+    "tipo_dispositivo": "jurisprudencia",
+    "rotulo": "TJSP 0000175-39.2017.8.26.0053",
+    "tema": [
+      "tombamento",
+      "vedacao-tdc",
+      "area-tombada"
+    ],
+    "dominio": [
+      "tdc"
+    ],
+    "dominio_primario": "tdc",
+    "jurisdicao": "TJSP",
+    "vigencia": {
+      "inicio": "2018-03-26",
+      "fim": null,
+      "nota": "acordao (resumo de metadados)"
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "tjsp-apciv-0000177-09-2017::001-ficha": {
+    "lei_id": "tjsp-apciv-0000177-09-2017",
+    "tipo_dispositivo": "jurisprudencia",
+    "rotulo": "TJSP 0000177-09.2017.8.26.0053",
+    "tema": [
+      "tombamento",
+      "tombamento-provisorio",
+      "vedacao-tdc"
+    ],
+    "dominio": [
+      "tdc"
+    ],
+    "dominio_primario": "tdc",
+    "jurisdicao": "TJSP",
+    "vigencia": {
+      "inicio": "2017-10-20",
+      "fim": null,
+      "nota": "acordao (resumo de metadados)"
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "tjsp-apciv-1070175-76-2019::001-ficha": {
+    "lei_id": "tjsp-apciv-1070175-76-2019",
+    "tipo_dispositivo": "jurisprudencia",
+    "rotulo": "TJSP 1070175-76.2019.8.26.0053",
+    "tema": [
+      "direito-de-protocolo",
+      "ultratividade",
+      "vigencia"
+    ],
+    "dominio": [
+      "tdc"
+    ],
+    "dominio_primario": "tdc",
+    "jurisdicao": "TJSP",
+    "vigencia": {
+      "inicio": "2021-09-22",
+      "fim": null,
+      "nota": "acordao (resumo de metadados)"
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
   }
 }

@@ -1,0 +1,43 @@
+{
+  "chunk_id": "tjsp-ai-2126162-35-2025::001-ficha",
+  "lei_id": "tjsp-ai-2126162-35-2025",
+  "tipo_dispositivo": "jurisprudencia",
+  "rotulo": "TJSP 2126162-35.2025.8.26.0000",
+  "numero": "2126162-35.2025.8.26.0000",
+  "header_raw": "TJSP 2126162-35.2025.8.26.0000. Tombamento (patrimonio historico-cultural): a exclusao de lotes de area provisoriamente ",
+  "caminho_hierarquico": [
+    "TJSP 2126162-35.2025.8.26.0000"
+  ],
+  "texto": "TJSP 2126162-35.2025.8.26.0000. Tombamento (patrimonio historico-cultural): a exclusao de lotes de area provisoriamente tombada deve observar o rito da Resolucao 12/CONPRESP/1996 (arts. 6o e 7o) e a exigencia de excepcional necessidade do art. 2o, IX, da Lei Municipal 10.032/1985; o CONPRESP aparenta extrapolar sua competencia ao ancorar a deliberacao em fatores economicos e urbanisticos (arrecadacao de tributos e POTENCIAL CONSTRUTIVO), estranhos a funcao de defesa do patrimonio cultural. Agravo provido para suspender os efeitos da Resolucao 20/CONPRESP/2024. Temas: tombamento, patrimonio-cultural, CONPRESP, ZEPEC, potencial-construtivo. Dispositivos relacionados: Resolucao 20/CONPRESP/2024; Resolucao 12/CONPRESP/1996, arts. 6o e 7o; Lei Municipal SP no 10.032/1985, art. 2o, IX.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "acordao TJSP 2126162-35.2025.8.26.0000",
+    "dispositivo": "11a Camara de Direito Publico",
+    "fonte_url": "TJSP / e-SAJ — Agravo de Instrumento 2126162-35.2025.8.26.0000 (registro 2025.0000897356)",
+    "vigencia": {
+      "inicio": "2025-08-28",
+      "fim": null,
+      "nota": "decisao em agravo de instrumento (provimento); merito ainda pendente no 1o grau"
+    }
+  },
+  "tema": [
+    "tombamento",
+    "patrimonio-cultural",
+    "CONPRESP",
+    "ZEPEC",
+    "potencial-construtivo"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "TJSP",
+  "ementa": "Tombamento (patrimonio historico-cultural): a exclusao de lotes de area provisoriamente tombada deve observar o rito da Resolucao 12/CONPRESP/1996 (arts. 6o e 7o) e a exigencia de excepcional necessidade do art. 2o, IX, da Lei Municipal 10.032/1985; o CONPRESP aparenta extrapolar sua competencia ao "
+}

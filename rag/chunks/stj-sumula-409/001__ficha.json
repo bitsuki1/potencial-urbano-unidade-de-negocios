@@ -1,0 +1,33 @@
+{
+  "chunk_id": "stj-sumula-409::001-ficha",
+  "lei_id": "stj-sumula-409",
+  "tipo_dispositivo": "jurisprudencia",
+  "rotulo": "STJ 409",
+  "numero": "409",
+  "header_raw": "STJ 409. Em execução fiscal, a prescrição ocorrida antes da propositura da ação pode ser decretada de ofício (art. 219, ",
+  "caminho_hierarquico": [
+    "STJ 409"
+  ],
+  "texto": "STJ 409. Em execução fiscal, a prescrição ocorrida antes da propositura da ação pode ser decretada de ofício (art. 219, § 5º, do CPC). Dispositivos relacionados: CPC/1973 art. 219, §5º; CTN art. 174.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "vigente (Primeira Seção, j. 28/10/2009, DJe 24/11/2009)",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "sumula STJ 409",
+    "dispositivo": "STJ 409",
+    "fonte_url": "https://ww2.stj.jus.br/docs_internet/revista/eletronica/stj-revista-sumulas-2014_38_capSumula409.pdf",
+    "vigencia": {}
+  },
+  "tema": [],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "STJ",
+  "ementa": "Em execução fiscal, a prescrição ocorrida antes da propositura da ação pode ser decretada de ofício (art. 219, § 5º, do CPC)."
+}

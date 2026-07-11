@@ -1,0 +1,41 @@
+{
+  "chunk_id": "tjsp-apciv-0000175-39-2017::001-ficha",
+  "lei_id": "tjsp-apciv-0000175-39-2017",
+  "tipo_dispositivo": "jurisprudencia",
+  "rotulo": "TJSP 0000175-39.2017.8.26.0053",
+  "numero": "0000175-39.2017.8.26.0053",
+  "header_raw": "TJSP 0000175-39.2017.8.26.0053. Mandado de seguranca: negada a expedicao de Declaracao de Potencial Construtivo Transfer",
+  "caminho_hierarquico": [
+    "TJSP 0000175-39.2017.8.26.0053"
+  ],
+  "texto": "TJSP 0000175-39.2017.8.26.0053. Mandado de seguranca: negada a expedicao de Declaracao de Potencial Construtivo Transferivel para imovel em area tombada provisoriamente (bairros clausulados de Pacaembu/Perdizes). Entendeu-se que o art. 124, §2o, da Lei Municipal 16.050/2014 (PDE) VEDA a transferencia de potencial construtivo originario de imoveis/bairros tombados. Seguranca denegada. Temas: tombamento, vedacao-tdc, area-tombada. Dispositivos relacionados: Lei Municipal SP no 16.050/2014, art. 124, §2o.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "acordao TJSP 0000175-39.2017.8.26.0053",
+    "dispositivo": "12a Camara de Direito Publico",
+    "fonte_url": "TJSP e-SAJ (consulta processual 2o grau) — https://esaj.tjsp.jus.br/cposg/open.do",
+    "vigencia": {
+      "inicio": "2018-03-26",
+      "fim": null,
+      "nota": "acordao (resumo de metadados)"
+    }
+  },
+  "tema": [
+    "tombamento",
+    "vedacao-tdc",
+    "area-tombada"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "TJSP",
+  "ementa": "Mandado de seguranca: negada a expedicao de Declaracao de Potencial Construtivo Transferivel para imovel em area tombada provisoriamente (bairros clausulados de Pacaembu/Perdizes). Entendeu-se que o art. 124, §2o, da Lei Municipal 16.050/2014 (PDE) VEDA a transferencia de potencial construtivo origi"
+}

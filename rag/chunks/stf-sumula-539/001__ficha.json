@@ -1,0 +1,33 @@
+{
+  "chunk_id": "stf-sumula-539::001-ficha",
+  "lei_id": "stf-sumula-539",
+  "tipo_dispositivo": "jurisprudencia",
+  "rotulo": "STF 539",
+  "numero": "539",
+  "header_raw": "STF 539. É constitucional a lei do Município que reduz o imposto predial urbano sobre imóvel ocupado pela residência do ",
+  "caminho_hierarquico": [
+    "STF 539"
+  ],
+  "texto": "STF 539. É constitucional a lei do Município que reduz o imposto predial urbano sobre imóvel ocupado pela residência do proprietário, que não possua outro. Dispositivos relacionados: CF/88 art. 150, II (isonomia); CTN art. 33.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "sumula STF 539",
+    "dispositivo": "STF 539",
+    "fonte_url": "https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=3338",
+    "vigencia": {}
+  },
+  "tema": [],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "STF",
+  "ementa": "É constitucional a lei do Município que reduz o imposto predial urbano sobre imóvel ocupado pela residência do proprietário, que não possua outro."
+}

@@ -1,0 +1,33 @@
+{
+  "chunk_id": "stj-tema-1350::001-ficha",
+  "lei_id": "stj-tema-1350",
+  "tipo_dispositivo": "jurisprudencia",
+  "rotulo": "STJ 1350",
+  "numero": "1350",
+  "header_raw": "STJ 1350. Não é possível à Fazenda Pública, ainda que antes da sentença de embargos, substituir ou emendar a Certidão de",
+  "caminho_hierarquico": [
+    "STJ 1350"
+  ],
+  "texto": "STJ 1350. Não é possível à Fazenda Pública, ainda que antes da sentença de embargos, substituir ou emendar a Certidão de Dívida Ativa (CDA) para incluir, complementar ou modificar o fundamento legal do crédito tributário. Dispositivos relacionados: Lei 6.830/80 (LEF) art. 2º, §8º; CTN art. 142.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "mérito julgado (rito repetitivo); trânsito em julgado",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "recurso_repetitivo STJ 1350",
+    "dispositivo": "STJ 1350",
+    "fonte_url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2025/29072025-Tribunal-julgou-37-temas-repetitivos-no-primeiro-semestre-de-2025--confira-todas-as-teses.aspx",
+    "vigencia": {}
+  },
+  "tema": [],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "STJ",
+  "ementa": "Não é possível à Fazenda Pública, ainda que antes da sentença de embargos, substituir ou emendar a Certidão de Dívida Ativa (CDA) para incluir, complementar ou modificar o fundamento legal do crédito tributário."
+}

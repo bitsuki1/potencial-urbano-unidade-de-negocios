@@ -22,7 +22,7 @@
     "hash_alvo": "jurisprudencia/stf-sumula-668.md",
     "hash_nota": "hash da transcrição do corpus (.md) — cru ausente localmente (B-4/B-9); trocar pelo hash do cru quando ele chegar"
   },
-  "status_pipeline": "tagueado",
+  "status_pipeline": "indexado",
   "confianca_extracao": "alta",
   "revisado_por_humano": false,
   "verificacao_verbatim": "Enunciado confere com a captura verbatim. Captura acrescenta: indicada para conversão em SV na PSV 96; Tema 523 RG.",

@@ -1,0 +1,33 @@
+{
+  "chunk_id": "stj-sumula-397::001-ficha",
+  "lei_id": "stj-sumula-397",
+  "tipo_dispositivo": "jurisprudencia",
+  "rotulo": "STJ 397",
+  "numero": "397",
+  "header_raw": "STJ 397. O contribuinte do IPTU é notificado do lançamento pelo envio do carnê ao seu endereço. Dispositivos relacionado",
+  "caminho_hierarquico": [
+    "STJ 397"
+  ],
+  "texto": "STJ 397. O contribuinte do IPTU é notificado do lançamento pelo envio do carnê ao seu endereço. Dispositivos relacionados: CTN art. 142; CTN art. 145.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "vigente (Primeira Seção, j. 23/09/2009, DJe 07/10/2009)",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "sumula STJ 397",
+    "dispositivo": "STJ 397",
+    "fonte_url": "https://jurishand.com/sumula-stj-397-de-07-outubro-2009",
+    "vigencia": {}
+  },
+  "tema": [],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "STJ",
+  "ementa": "O contribuinte do IPTU é notificado do lançamento pelo envio do carnê ao seu endereço."
+}

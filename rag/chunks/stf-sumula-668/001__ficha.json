@@ -1,0 +1,33 @@
+{
+  "chunk_id": "stf-sumula-668::001-ficha",
+  "lei_id": "stf-sumula-668",
+  "tipo_dispositivo": "jurisprudencia",
+  "rotulo": "STF 668",
+  "numero": "668",
+  "header_raw": "STF 668. É inconstitucional a lei municipal que tenha estabelecido, antes da Emenda Constitucional 29/2000, alíquotas pr",
+  "caminho_hierarquico": [
+    "STF 668"
+  ],
+  "texto": "STF 668. É inconstitucional a lei municipal que tenha estabelecido, antes da Emenda Constitucional 29/2000, alíquotas progressivas para o IPTU, salvo se destinada a assegurar o cumprimento da função social da propriedade urbana. Dispositivos relacionados: CF/88 art. 145, §1º; CF/88 art. 156, §1º (redação anterior à EC 29/2000); CF/88 art. 182, §2º e §4º; EC 29/2000.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "sumula STF 668",
+    "dispositivo": "STF 668",
+    "fonte_url": "https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=30&sumula=1521",
+    "vigencia": {}
+  },
+  "tema": [],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "STF",
+  "ementa": "É inconstitucional a lei municipal que tenha estabelecido, antes da Emenda Constitucional 29/2000, alíquotas progressivas para o IPTU, salvo se destinada a assegurar o cumprimento da função social da propriedade urbana."
+}

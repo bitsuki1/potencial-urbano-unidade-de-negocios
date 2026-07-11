@@ -21,7 +21,7 @@
     "hash_alvo": "jurisprudencia/stf-tema-155.md",
     "hash_nota": "hash da transcrição do corpus (.md) — cru ausente localmente (B-4/B-9); trocar pelo hash do cru quando ele chegar"
   },
-  "status_pipeline": "tagueado",
+  "status_pipeline": "indexado",
   "confianca_extracao": "alta",
   "revisado_por_humano": false,
   "verificacao_verbatim": "A tese verbatim da fonte STF confere com o núcleo do stub. REMOVIDO do campo enunciado_ou_tese o acréscimo editorial '(Reafirmação da jurisprudência consolidada na Súmula 668/STF.)', que não integra o texto oficial da tese (segue registrado no corpo do .md como nota). Confirmado: leading case AI 712743, Rel. Min. Ellen Gracie, mérito 12/03/2009 por ratificação de jurisprudência. Confiança elevada de média->alta.",

@@ -1,0 +1,33 @@
+{
+  "chunk_id": "stf-tema-155::001-ficha",
+  "lei_id": "stf-tema-155",
+  "tipo_dispositivo": "jurisprudencia",
+  "rotulo": "STF 155",
+  "numero": "155",
+  "header_raw": "STF 155. É inconstitucional a lei municipal que tenha estabelecido, antes da Emenda Constitucional 29/2000, alíquotas pr",
+  "caminho_hierarquico": [
+    "STF 155"
+  ],
+  "texto": "STF 155. É inconstitucional a lei municipal que tenha estabelecido, antes da Emenda Constitucional 29/2000, alíquotas progressivas para o IPTU, salvo se destinada a assegurar o cumprimento da função social da propriedade urbana. Dispositivos relacionados: CF/88 art. 145, §1º; CF/88 art. 156, §1º (redação anterior à EC 29/2000); EC 29/2000.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "repercussão geral reconhecida; jurisprudência reafirmada (Súmula 668)",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "tema_repercussao_geral STF 155",
+    "dispositivo": "STF 155",
+    "fonte_url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=2613544&numeroProcesso=712743&classeProcesso=AI&numeroTema=155",
+    "vigencia": {}
+  },
+  "tema": [],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "STF",
+  "ementa": "É inconstitucional a lei municipal que tenha estabelecido, antes da Emenda Constitucional 29/2000, alíquotas progressivas para o IPTU, salvo se destinada a assegurar o cumprimento da função social da propriedade urbana."
+}

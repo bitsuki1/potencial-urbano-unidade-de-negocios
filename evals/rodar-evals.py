@@ -110,7 +110,7 @@ def main():
 
     # R6 (política de cobertura, M4) — evals por lei + RATCHET de não-regressão. O alvo é levar TODA lei
     # indexada a >=2 evals próprios; enquanto isso não fecha, a trava garante que a cobertura NÃO REGRIDE.
-    LEIS_COM_2_EVALS_MIN = 4   # baseline 2026-07-10 (15889, 7228, 16050, 57536). Sobe, nunca desce.
+    LEIS_COM_2_EVALS_MIN = 5   # baseline 2026-07-11 (15889, 7228, 16050, 16402, 57536). Sobe, nunca desce.
     com2 = sum(1 for c in cov.values() if c >= 2)
     detalhe_cov = ", ".join(f"{'-'.join(l.split('-')[-2:])}:{c}" for l, c in sorted(cov.items(), key=lambda x: -x[1]))
     print(f"[R6] cobertura de evals por lei: {len(cov)} leis com eval, {com2} com >=2 "

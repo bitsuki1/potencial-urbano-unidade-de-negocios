@@ -36,7 +36,7 @@
     "hash_captura": "sha256:2f110e5d224419674fed71bc02e554a460cbd3ff257077e0da10012f57a140e1",
     "hash_nota": "hash da transcricao do corpus (.md); hash_captura = do inteiro teor bruto em _capturas/"
   },
-  "status_pipeline": "tagueado",
+  "status_pipeline": "indexado",
   "confianca_extracao": "alta",
   "revisado_por_humano": false,
   "verificacao_verbatim": "Inteiro teor confere com a captura; removidos apenas artefatos de navegador/rodapes de pagina (extracao pura 1.2).",

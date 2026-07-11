@@ -19,7 +19,7 @@
     "hash_alvo": "jurisprudencia/stf-sumula-670.md",
     "hash_nota": "hash da transcrição do corpus (.md) — cru ausente localmente (B-4/B-9); trocar pelo hash do cru quando ele chegar"
   },
-  "status_pipeline": "tagueado",
+  "status_pipeline": "indexado",
   "confianca_extracao": "alta",
   "revisado_por_humano": false,
   "verificacao_verbatim": "A captura verbatim da fonte STF traz o verbete já como SÚMULA VINCULANTE 41 (resultante da conversão da Súmula 670), DJE de 20-3-2015, Tema 44 RG. Enunciado idêntico ao do stub ('O serviço de iluminação pública não pode ser remunerado mediante taxa.'). Campo 'situacao' enriquecido com Tema 44; enunciado/tese sem alteração.",

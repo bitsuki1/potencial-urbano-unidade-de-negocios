@@ -1,0 +1,33 @@
+{
+  "chunk_id": "stj-resp-1130545::001-ficha",
+  "lei_id": "stj-resp-1130545",
+  "tipo_dispositivo": "jurisprudencia",
+  "rotulo": "STJ 1130545",
+  "numero": "1130545",
+  "header_raw": "STJ 1130545. A retificação de dados cadastrais do imóvel, após a constituição do crédito tributário, autoriza a revisão ",
+  "caminho_hierarquico": [
+    "STJ 1130545"
+  ],
+  "texto": "STJ 1130545. A retificação de dados cadastrais do imóvel, após a constituição do crédito tributário, autoriza a revisão do lançamento pela autoridade administrativa (desde que não extinto o direito potestativo da Fazenda Pública pelo decurso do prazo decadencial), quando decorrer da apreciação de fato não conhecido por ocasião do lançamento anterior, ex vi do disposto no art. 149, VIII, do CTN. Dispositivos relacionados: CTN art. 149, VIII; CTN art. 146; Súmula 227 do extinto TFR.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "mérito julgado (rito art. 543-C CPC/1973); leading case do Tema Repetitivo 387/STJ; trânsito em julgado",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "recurso_repetitivo STJ 1130545",
+    "dispositivo": "STJ 1130545",
+    "fonte_url": "https://www.stj.jus.br/websecstj/cgi/revista/REJ.cgi/ITA?seq=1098748&nreg=201100996000&dt=20111027&formato=HTML",
+    "vigencia": {}
+  },
+  "tema": [],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "STJ",
+  "ementa": "A retificação de dados cadastrais do imóvel, após a constituição do crédito tributário, autoriza a revisão do lançamento pela autoridade administrativa (desde que não extinto o direito potestativo da Fazenda Pública pelo decurso do prazo decadencial), quando decorrer da apreciação de fato não conhec"
+}
