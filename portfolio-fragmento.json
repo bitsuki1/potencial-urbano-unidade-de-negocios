@@ -6,15 +6,15 @@
   "lifeline": "Acha os donos de imóveis que podem vender potencial construtivo (TDC) e calcula, pela lei, quanto vale — cada número rastreável até o artigo.",
   "stage": "construção",
   "health": "ok",
-  "healthNote": "M6 GARIMPO ENCERRADO + AUDITORIA PROFUNDA DO ROADMAP (2026-07-11): OP-1a VTcd ano-ref 2026 (+7,18%, Dec. 64.884/2025) aplicado a todo cedente ✅ · OP-2 26 cedentes Mancha Benedito Calixto sinalizados (CONPRESP 01/2025) ✅ · OP-1b tese VTcd máximo ABERTA (MAX vigente/IPCA §2º +93,3%). FSCE EM PRODUÇÃO (23 cedentes ×2). MOTOR IPTU CONSTRUÍDO (eval 15/15). CORPUS 38 LEIS (0 bruto) + JURISPRUDÊNCIA 39 peças no RAG. BACKLOG/ROADMAP auditados: B-4/B-5/B-21/AUD-A11 fechados, OP-1b/OP-1c registradas. Gate 32/32. Evals: 29/29 RAG + 15/15 produto + 6/6 zona + 7/7 fórmula-DOC + 15/15 IPTU.",
+  "healthNote": "M6 GARIMPO ENCERRADO + AUDITORIA PROFUNDA DO ROADMAP (2026-07-11): OP-1a VTcd ano-ref 2026 (+7,18%, Dec. 64.884/2025) aplicado a todo cedente ✅ · OP-2 26 cedentes Mancha Benedito Calixto sinalizados (CONPRESP 01/2025) ✅ · OP-1b tese VTcd máximo ABERTA (MAX vigente/IPCA §2º +93,3%). FSCE EM PRODUÇÃO (23 cedentes ×2). MOTOR IPTU CONSTRUÍDO (eval 16/16). CORPUS 38 LEIS (0 bruto) + JURISPRUDÊNCIA 39 peças no RAG. BACKLOG/ROADMAP auditados (tripla): B-4/B-5/B-7/B-21/B-23/AUD-A11 fechados, OP-1b/OP-1c registradas. Gate 32/32. Evals: 29/29 RAG + 15/15 produto + 6/6 zona + 7/7 fórmula-DOC + 16/16 IPTU.",
   "lever": { "tx": "Materializar tese OP-1b (VTcd máximo = MAX(vigente, 2014+IPCA §2º)) no engine + OP-1c (Fp parque R$ 2.352,06). Frente IPTU: confronto VV vs lançamento real (PGV + ano construção). GeoSampa 71: geometria alternativa (shapefiles ou geocodificação).", "k": "código (OP-1b/OP-1c) + dado pesado (PGV/ano-construção) + geometria (71 lotes)" },
   "now": [
     "★ M6 GARIMPO ENCERRADO: OP-1a FEITO (VTcd Quadro 14 ano-ref 2026, Dec. 64.884/2025, +7,18% a todo cedente); OP-2 FEITO (26 cedentes Mancha Benedito Calixto, Res. CONPRESP 01/2025 = arquivamento PARCIAL); OP-1b ABERTA (tese VTcd máximo Art. 128 §2º, docs/TESE-VTCD-MAXIMO-ART128.md); OP-1c lead (Fp parque R$ 2.352,06). Relatório: docs/OPORTUNIDADES-M6-TDC-IPTU.md.",
     "★ FSCE EM PRODUÇÃO: 306 imóveis (288 dentro/18 fora AIU-SCE, GeoSampa via hub); 23 cedentes BIR ≤1.000 m² com PCpt ×2 (Art. 57 Lei 17.844/2022). 7 Declarações DOC reproduzidas EXATO.",
-    "★ MOTOR IPTU CONSTRUÍDO: VV terreno + construção (Lei 10.235/86) + imposto por porção (Lei 6.989/66 + faixas Lei 15.889/13); eval 15/15 + gate 32/32. Confronto VV aguarda PGV.",
-    "★ CORPUS 38 LEIS (0 bruto): portal oficial capturou TODAS — incl. Lei 6.989/66 (328 arts) + Decreto 58.289/18. 2.767 trechos, 2.973 remissões.",
+    "★ MOTOR IPTU CONSTRUÍDO: VV terreno + construção (Lei 10.235/86) + imposto por porção (Lei 6.989/66 + faixas Lei 15.889/13); eval 16/16 + gate 32/32. Confronto VV aguarda PGV.",
+    "★ CORPUS 38 LEIS (0 bruto): portal oficial capturou TODAS — incl. Lei 6.989/66 (328 arts) + Decreto 58.289/18. 2.805 chunks (2.766 leis + 39 jurisprudência), 3.033 remissões.",
     "★ JURISPRUDÊNCIA 39 PEÇAS NO RAG: 9 acórdãos TDC + 30 fichas; eval tdc-jurisprudencia verde; Gemini 2.806 vetores.",
-    "★ AUDITORIA PROFUNDA: B-4/B-5/B-21/AUD-A11 fechados no BACKLOG; ROADMAP A-RAG marcado; OP-1b/OP-1c como ABERTAS novas; D161 atualizado."
+    "★ AUDITORIA TRIPLA (3 lentes independentes): B-4/B-5/B-7/B-21/B-23/AUD-A11 fechados no BACKLOG; ROADMAP 17 itens marcados FEITO; OP-1b/OP-1c como ABERTAS novas; D161 atualizado."
   ],
   "projetos": [
     {
@@ -27,7 +27,7 @@
           "ent": [["377/377 ZEPEC resolvidos","feito"], ["pertinência AIU-SCE (306 imóveis)","feito"], ["71 sem lote: geometria alternativa","prox"]] },
         { "nome": "Motor das Fórmulas (potencial construtivo + preço LEGAL)", "calor": "hot", "prod": "PCpt = Atc × CAbás × Fi × FSCE — FSCE ATIVADO (23 cedentes ×2). 7 Declarações DOC reproduzidas EXATO. Preço legal Art. 128 construído. OP-1b tese VTcd máximo ABERTA.",
           "ent": [["engine lê tabelas da lei (fail-closed)","feito"], ["FSCE ativado (23 cedentes)","feito"], ["7 Declarações DOC reproduzidas","feito"], ["Fp engine (Quadro 6)","feito"], ["preço legal Art. 128 no gate","feito"], ["OP-1b materializar tese VTcd máximo","prox"], ["OP-1c conferir Fp parque","prox"]] },
-        { "nome": "Motor da Lei (conteúdo jurídico)", "calor": "warm", "prod": "38 leis indexadas (2.767 trechos), 0 bruto. 39 peças jurisprudência no RAG. Grafo 2.973 remissões. Gemini 2.806 vetores.",
+        { "nome": "Motor da Lei (conteúdo jurídico)", "calor": "warm", "prod": "38 leis indexadas (2.805 chunks), 0 bruto. 39 peças jurisprudência no RAG. Grafo 3.033 remissões. Gemini 2.806 vetores.",
           "ent": [["38 leis em verbatim (0 bruto)","feito"], ["jurisprudência 39 peças no RAG","feito"], ["camada semântica Gemini","feito"], ["captura oficial reusável","feito"]] },
         { "nome": "Motor Comercial (prospecção lado-vendedor)", "calor": "hot", "prod": "2.740 na prospecção; 2.004 ACIONÁVEIS. Dossiê 1-página + funil + preço legal na lista/planilha. Regra da esquina (Art. 3º IV) ativa.",
           "ent": [["dossiê 1-página","feito"], ["funil + RESUMO + preço na lista","feito"], ["make produto c/ trava de regressão","feito"]] }
@@ -39,8 +39,8 @@
       "stage": "construção",
       "calor": "hot",
       "frentes": [
-        { "nome": "Motor do IPTU (valor venal × alíquota)", "calor": "hot", "prod": "CONSTRUÍDO: VV terreno + construção (Lei 10.235/86, Tabelas IV/VI) + imposto por porção (Lei 6.989/66 + faixas Lei 15.889/13). Eval 15/15. No CI e no gate.",
-          "ent": [["motor construído (fail-closed)","feito"], ["tabelas verbatim c/ vintage","feito"], ["eval 15/15 no gate","feito"], ["confronto VV vs lançamento real","block"]] },
+        { "nome": "Motor do IPTU (valor venal × alíquota)", "calor": "hot", "prod": "CONSTRUÍDO: VV terreno + construção (Lei 10.235/86, Tabelas IV/VI) + imposto por porção (Lei 6.989/66 + faixas Lei 15.889/13). Eval 16/16. No CI e no gate.",
+          "ent": [["motor construído (fail-closed)","feito"], ["tabelas verbatim c/ vintage","feito"], ["eval 16/16 no gate","feito"], ["confronto VV vs lançamento real (caso-âncora casa 3861 difere 0; aguarda PGV completa)","block"]] },
         { "nome": "Fundação jurídica", "calor": "warm", "prod": "Lei 6.989/66 + 10.235/86 + 13.250/01 + 15.889/13 em verbatim. RAG ground-truth ativo.",
           "ent": [["leis do IPTU em verbatim","feito"], ["RAG ground-truth ativo","feito"]] }
       ]
@@ -51,7 +51,8 @@
     "OP-1b: materializar tese VTcd máximo no engine (código + eval, próxima instância).",
     "OP-1c: conferir Fp parque R$ 2.352,06 no engine.",
     "71 lotes sem geometria: re-rodar GeoSampa NÃO resolve; caminho: shapefiles SIRGAS ou geocodificação.",
-    "Branches órfãs verificadas aguardam deleção pelo dono (sessão sem permissão).",
+    "Fase B: carga pesada de PII — decisão do dono (depende de gate PII + dados reais).",
+    "OP-2 resíduo: mapa elemento→SQL dos 26 cedentes Mancha Benedito Calixto.",
     "M6 restante: OP-3..6 leads + frente IPTU (docs/OPORTUNIDADES-M6-TDC-IPTU.md)."
   ],
   "ssot": "Onde mora: PROXIMA-INSTANCIA.md e BACKLOG.md, no meu repo; decisões do dono em docs/DECISOES-2026-07-05.md; oportunidades M6 em docs/OPORTUNIDADES-M6-TDC-IPTU.md; tese OP-1b em docs/TESE-VTCD-MAXIMO-ART128.md; CONPRESP OP-2 em docs/CONPRESP-01-2025-BENEDITO-CALIXTO.md."

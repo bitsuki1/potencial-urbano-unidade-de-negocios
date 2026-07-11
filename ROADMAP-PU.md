@@ -254,10 +254,10 @@ M4 (corpus TDC) ── parte local começa junto de M0; parte verbatim/juris dep
 ### A-RAG — Jurídico / RAG (corpus, chunking, evals, remissões)
 | Item | Marco | Esforço | Lente [id] |
 |---|---|---|---|
-| Corrigir chunker C-28 (fórmula PCpt rotulada "Art. 124") + eval sobre conteúdo | M0 | P | Arquiteto RAG [R1] |
-| Indexar Art. 128/117 verbatim; verificar constante 4 e fórmula C | M0 | M | Legal-tech [L1] |
+| ~~✅ FEITO~~ Corrigir chunker C-28 (fórmula PCpt rotulada "Art. 124") + eval sobre conteúdo — **corrigido PU17 04/07** | M0 | ~~P~~ ✅ | Arquiteto RAG [R1] |
+| ~~✅ FEITO~~ Indexar Art. 128/117 verbatim; verificar constante 4 e fórmula C — **verbatim indexado PU17 04/07** | M0 | ~~M~~ ✅ | Legal-tech [L1] |
 | ~~✅ FEITO~~ Corpus TDC-crítico: 57.536, 58.289, 17.975, 18.081, 17.577, 18.222 — **38 leis, 0 bruto** | M4 | ~~M~~ ✅ | Arquiteto RAG [R2] / Legal [L7] |
-| Grafo de remissões (regex local, desacoplado de embeddings) | M4 | P | Arquiteto RAG [R4] |
+| ~~✅ FEITO~~ Grafo de remissões (regex local, desacoplado de embeddings) — **3.033 remissões, PU18 05/07** | M4 | ~~P~~ ✅ | Arquiteto RAG [R4] |
 | Vigência por redação datada — cohort já-declarado (Art. 25/18.081) | M4 | M | Legal-tech [L3] |
 | Endurecer vigência-por-chunk (§§/incisos revogados; compilado não rankeia velho) | M4 | M | Arquiteto RAG [R5] |
 | Tabela de 47 fatores como `fatores-tdc.csv` + CI (ponte M1↔M4) | M4 | M | Arquiteto RAG [R8] |
@@ -286,9 +286,9 @@ M4 (corpus TDC) ── parte local começa junto de M0; parte verbatim/juris dep
 ### A-CALC — Cálculo (engines, fatores, calibração)
 | Item | Marco | Esforço | Lente [id] |
 |---|---|---|---|
-| Implementar `art128.py` (equivalente-outorga ÷4) citando §1º | M1 | M | Legal [L1] / Mercado [MKT-4] |
+| ~~✅ FEITO~~ Implementar `art128.py` (equivalente-outorga ÷4) citando §1º — **construído + gated 10/07** | M1 | ~~M~~ ✅ | Legal [L1] / Mercado [MKT-4] |
 | Calibrar art128 contra 166 pares (mediana 1,247) como eval | M2 | M | Mercado [MKT-4] |
-| Eval `pcpt-vs-certidoes` (55 pares) + `qualidade_estimativa` | M0 | M | Legal [L4] / Mercado [MKT-3] |
+| ~~✅ FEITO~~ Eval `pcpt-vs-certidoes` (55 pares) + `qualidade_estimativa` — **fechado T5 (mediana 1,66)** | M0 | ~~M~~ ✅ | Legal [L4] / Mercado [MKT-3] |
 | Merge Produto B (oodc) gated por fórmula C + camada de vedação binária | M2 | G | Legal [L8] |
 
 ### A-MKT — Mercado / Comercial (demanda, matching, preço, produto)
@@ -298,34 +298,34 @@ M4 (corpus TDC) ── parte local começa junto de M0; parte verbatim/juris dep
 | Score de liquidez por distrito | M2 | M | Mercado [MKT-1] |
 | Re-ranquear prospecção por chance de venda (matching) | M2 | M | Mercado [MKT-5] |
 | Reenquadrar headline: absorção/anos-de-estoque, não R$ bi | M2 | P | Mercado [MKT-2] / Produto [P5] |
-| Religar `lista_prospeccao` ao oficial; reescrever COMO-USAR | M1 | P | Produto [P1] |
-| Preço em pilha de 3 números por linha | M1 | M | Mercado [MKT-4] / Produto [P4] |
-| Dossiê por imóvel (`gerar_dossie.py`) — piloto nos 19 | M1 | M | Produto [P2] / Legal [L6] |
-| Funil como headline (`funil.csv` + aba RESUMO) | M1 | P | Produto [P5] |
-| Excel do dono via `make produto` | M1 | P | Produto [P1] |
+| ~~✅ FEITO~~ Religar `lista_prospeccao` ao oficial; reescrever COMO-USAR — **costura B-20 10/07** | M1 | ~~P~~ ✅ | Produto [P1] |
+| ~~✅ FEITO~~ Preço em pilha de 3 números por linha — **art128 + lista 10/07** | M1 | ~~M~~ ✅ | Mercado [MKT-4] / Produto [P4] |
+| ~~✅ FEITO~~ Dossiê por imóvel (`gerar_dossie.py`) — piloto nos 19 — **construído PU18 10/07** | M1 | ~~M~~ ✅ | Produto [P2] / Legal [L6] |
+| ~~✅ FEITO~~ Funil como headline (`funil.csv` + aba RESUMO) — **construído PU18 10/07** | M1 | ~~P~~ ✅ | Produto [P5] |
+| ~~✅ FEITO~~ Excel do dono via `make produto` — **construído PU18 10/07** | M1 | ~~P~~ ✅ | Produto [P1] |
 | Decisão registrada: corretagem primeiro, principal back-to-back | M5 | P | Mercado [MKT-6] |
 | Decisão registrada: no-go vias 2–6 como oferta (latente) | M5 | P | Mercado [MKT-7] |
 
 ### A-GATE — Travas / Gates (segurança, disclaimer, conservação, canonicidade)
 | Item | Marco | Esforço | Lente [id] |
 |---|---|---|---|
-| DISCLAIMER.md + cabeçalho em toda saída | M0 | P | Legal [L5] |
-| Gate de conservação binário (Art. 24 §1º + Art. 129) | M0 | P | Legal [L2] |
+| ~~✅ FEITO~~ DISCLAIMER.md + cabeçalho em toda saída — **fechado T5 04/07** | M0 | ~~P~~ ✅ | Legal [L5] |
+| ~~✅ FEITO~~ Gate de conservação binário (Art. 24 §1º + Art. 129) — **fechado T4 04/07** | M0 | ~~P~~ ✅ | Legal [L2] |
 | Checklist de due diligence por imóvel (GDA, DPC 5 anos, CADIN…) | M1 | M | Legal [L6] |
-| Gate de segurança pré-Fase B (PII privado, RLS, spend cap) | M0 | P | Plataforma [PD-7] |
+| ~~✅ FEITO~~ Gate de segurança pré-Fase B (PII privado, RLS, spend cap) — **fechado T7 04/07** | M0 | ~~P~~ ✅ | Plataforma [PD-7] |
 
 ### A-INFRA — Infra transversal + governança (plataforma, canonicidade, gate)
 | Item | Marco | Esforço | Lente [id] |
 |---|---|---|---|
-| Colapsar fontes-de-verdade em ≤3 + `git rm` oráculos/docs datados (arquivar cemitério) | M0 | P | Cético [C-R4] |
-| Estender o gate ao produto (`pcpt.py`/`art128.py`/eval cedente no `fechar-instancia.py`) | M1 | M | Cético [C-R1] / Plataforma [PD-5] |
-| `make produto` reproduzível (mata a FOTO e o drift; contagens de regressão como assert) | M1 | M | Cético [C-R2] / Plataforma [PD-1] |
+| ~~✅ FEITO~~ Colapsar fontes-de-verdade em ≤3 + `git rm` oráculos/docs datados (arquivar cemitério) — **fechado T6 04/07** | M0 | ~~P~~ ✅ | Cético [C-R4] |
+| ~~✅ FEITO~~ Estender o gate ao produto (`pcpt.py`/`art128.py`/eval cedente no `fechar-instancia.py`) — **T2 gated 03/07 + art128 gated 10/07** | M1 | ~~M~~ ✅ | Cético [C-R1] / Plataforma [PD-5] |
+| ~~✅ FEITO~~ `make produto` reproduzível (mata a FOTO e o drift; contagens de regressão como assert) — **construído PU18 10/07** | M1 | ~~M~~ ✅ | Cético [C-R2] / Plataforma [PD-1] |
 | Fechar resgate do pipeline (paths parametrizados, rclone único, dedup) — **gate de reprodutibilidade de M0** | M0/M3 | P | Plataforma [PD-1] |
 | Política de canonicidade: banco reconstruível do git (migrations) | M3 | P | Plataforma [PD-4] |
 | Gates de dados no CI (byte-diff, contagem de funil, eval cedente) | M1 | P | Plataforma [PD-5] |
 | Formalizar medallion enxuto (`ARQUITETURA-DADOS.md`, 1 pág) — **só vintage nos paths; dissenso Lente 7 declarado** | M3 | P | Plataforma [PD-6] × Cético [C-R3] |
 | Visão humana GERADA da verdade executável (dossiê/README por script, nunca à mão) + 1 log de decisões | M1 | P | Cético [C-R5] |
-| Org-chart de Gens: lente adversarial obrigatória só onde número toca produto | M0 | P | Cético [C-R6] |
+| ~~✅ FEITO~~ Org-chart de Gens: lente adversarial obrigatória só onde número toca produto — **M0 fechado 04/07** | M0 | ~~P~~ ✅ | Cético [C-R6] |
 
 ---
 ---
