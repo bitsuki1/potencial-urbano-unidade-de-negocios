@@ -4,12 +4,12 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 120",
   "numero": "120",
-  "header_raw": "Art. 120. No caso de florestas plantadas - Eucalyptus e Pynus - não consideradas de preservação",
+  "header_raw": "Art. 120. No caso de florestas plantadas - Eucalyptus e Pynus - não consideradas de preservação permanente, demarcadas como ZEPAM, ZPDS, ZLT e ZEPAG, deverão ser analisadas pela LPUOS para a implantação de EHIS, EHMP, e demarcadas exclusivamente como ZEIS 4.",
   "caminho_hierarquico": [
     "CAPÍTULO XII",
     "Art. 120"
   ],
-  "texto": "Art. 120. No caso de florestas plantadas - Eucalyptus e Pynus - não consideradas de preservação\n\npermanente, demarcadas como ZEPAM, ZPDS, ZLT e ZEPAG, deverão ser analisadas pela LPUOS\n\npara a implantação de EHIS, EHMP, e demarcadas exclusivamente como ZEIS 4.\n\nParágrafo único. Em áreas demarcadas como ZEPAM, o caput do presente só será aplicado a lotes\n\nsuperiores a 100.000m² e com doação de 40% da área total ao município.",
+  "texto": "Art. 120. No caso de florestas plantadas - Eucalyptus e Pynus - não consideradas de preservação permanente, demarcadas como ZEPAM, ZPDS, ZLT e ZEPAG, deverão ser analisadas pela LPUOS para a implantação de EHIS, EHMP, e demarcadas exclusivamente como ZEIS 4.\n\nParágrafo único. Em áreas demarcadas como ZEPAM, o caput do presente só será aplicado a lotes superiores a 100.000m² e com doação de 40% da área total ao município.",
   "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
@@ -21,7 +21,7 @@
   "citacao": {
     "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
     "dispositivo": "CAPÍTULO XII › Art. 120",
-    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17975-de-8-de-julho-de-2023",
     "vigencia": {
       "inicio": "2023-07-08",
       "fim": null,

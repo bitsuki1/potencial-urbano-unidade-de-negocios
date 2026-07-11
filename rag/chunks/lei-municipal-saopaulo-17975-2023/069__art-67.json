@@ -4,13 +4,13 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 67",
   "numero": "67",
-  "header_raw": "Art. 67. O art. 164 da Lei nº 16.050, de 2014, passa a vigorar acrescido de § 2º, renumerado o",
+  "header_raw": "Art. 67. O art. 164 da Lei nº 16.050, de 2014, passa a vigorar acrescido de § 2º, renumerado o parágrafo único como § 1º:",
   "caminho_hierarquico": [
     "CAPÍTULO III",
     "Seção IV",
     "Art. 67"
   ],
-  "texto": "Art. 67. O art. 164 da Lei nº 16.050, de 2014, passa a vigorar acrescido de § 2º, renumerado o\n\nparágrafo único como § 1º:\n\n“Art. 164. ...................................................................................\n\n§ 1º .............................................................................................\n\n§ 2º Deverá ser observada a legislação municipal específica sobre Regularização Fundiária Urbana –\n\nREURB, aplicando-se os conceitos e diretrizes dela decorrentes, inclusive para orientar a incidência\n\ndos instrumentos relacionados no caput deste artigo.” (NR)\n\nCAPÍTULO IV\n\nDA POLÍTICA E DOS SISTEMAS URBANOS E AMBIENTAIS",
+  "texto": "Art. 67. O art. 164 da Lei nº 16.050, de 2014, passa a vigorar acrescido de § 2º, renumerado o parágrafo único como § 1º:\n\n“Art. 164. ...................................................................................\n\n§ 1º .............................................................................................\n\n§ 2º Deverá ser observada a legislação municipal específica sobre Regularização Fundiária Urbana – REURB, aplicando-se os conceitos e diretrizes dela decorrentes, inclusive para orientar a incidência dos instrumentos relacionados no caput deste artigo.” (NR)\n\nCAPÍTULO IV\n\nDA POLÍTICA E DOS SISTEMAS URBANOS E AMBIENTAIS",
   "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
@@ -22,7 +22,7 @@
   "citacao": {
     "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
     "dispositivo": "CAPÍTULO III › Seção IV › Art. 67",
-    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17975-de-8-de-julho-de-2023",
     "vigencia": {
       "inicio": "2023-07-08",
       "fim": null,

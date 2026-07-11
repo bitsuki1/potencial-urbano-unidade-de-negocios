@@ -4,13 +4,13 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 37",
   "numero": "37",
-  "header_raw": "Art. 37. O caput do art. 93 da Lei nº 16.050, de 2014, passa a vigorar com a seguinte redação e",
+  "header_raw": "Art. 37. O caput do art. 93 da Lei nº 16.050, de 2014, passa a vigorar com a seguinte redação e acrescido de parágrafo único:",
   "caminho_hierarquico": [
     "CAPÍTULO III",
     "Seção I",
     "Art. 37"
   ],
-  "texto": "Art. 37. O caput do art. 93 da Lei nº 16.050, de 2014, passa a vigorar com a seguinte redação e\n\nacrescido de parágrafo único:\n\n“Art. 93. São considerados imóveis subutilizados os lotes e glebas com área superior a 500m²\n\n(quinhentos metros quadrados) que apresentem coeficiente de aproveitamento inferior ao mínimo\n\ndefinido, para a respectiva zona de uso, na Lei nº 16.402, de 2016, ou em legislação específica\n\nincidente.\n\nParágrafo único. Não se aplica nos casos das atividades de sede de representação diplomática, sede\n\nde partidos políticos, e templos de todo culto.” (NR)",
+  "texto": "Art. 37. O caput do art. 93 da Lei nº 16.050, de 2014, passa a vigorar com a seguinte redação e acrescido de parágrafo único:\n\n“Art. 93. São considerados imóveis subutilizados os lotes e glebas com área superior a 500m² (quinhentos metros quadrados) que apresentem coeficiente de aproveitamento inferior ao mínimo definido, para a respectiva zona de uso, na Lei nº 16.402, de 2016, ou em legislação específica incidente.\n\nParágrafo único. Não se aplica nos casos das atividades de sede de representação diplomática, sede de partidos políticos, e templos de todo culto.” (NR)",
   "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
@@ -22,7 +22,7 @@
   "citacao": {
     "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
     "dispositivo": "CAPÍTULO III › Seção I › Art. 37",
-    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17975-de-8-de-julho-de-2023",
     "vigencia": {
       "inicio": "2023-07-08",
       "fim": null,

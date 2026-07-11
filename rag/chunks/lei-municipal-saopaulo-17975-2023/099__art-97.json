@@ -4,12 +4,12 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 97",
   "numero": "97",
-  "header_raw": "Art. 97. O inciso I do caput do art. 303 da Lei nº 16.050, de 2014, passa a vigorar com a seguinte",
+  "header_raw": "Art. 97. O inciso I do caput do art. 303 da Lei nº 16.050, de 2014, passa a vigorar com a seguinte alteração:",
   "caminho_hierarquico": [
     "CAPÍTULO X",
     "Art. 97"
   ],
-  "texto": "Art. 97. O inciso I do caput do art. 303 da Lei nº 16.050, de 2014, passa a vigorar com a seguinte\n\nalteração:\n\n“Art. 303. ...................................................................................\n\nI - a proteção integral à família e à pessoa, com prioridade de atendimento às famílias e grupos sociais\n\nmais vulneráveis, em especial crianças, jovens, mulheres, idosos, negros, indígenas, pessoas com\n\ndeficiência e pessoas em situação de rua; (NR)",
+  "texto": "Art. 97. O inciso I do caput do art. 303 da Lei nº 16.050, de 2014, passa a vigorar com a seguinte alteração:\n\n“Art. 303. ...................................................................................\n\nI - a proteção integral à família e à pessoa, com prioridade de atendimento às famílias e grupos sociais mais vulneráveis, em especial crianças, jovens, mulheres, idosos, negros, indígenas, pessoas com deficiência e pessoas em situação de rua; (NR)",
   "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
@@ -21,7 +21,7 @@
   "citacao": {
     "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
     "dispositivo": "CAPÍTULO X › Art. 97",
-    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17975-de-8-de-julho-de-2023",
     "vigencia": {
       "inicio": "2023-07-08",
       "fim": null,

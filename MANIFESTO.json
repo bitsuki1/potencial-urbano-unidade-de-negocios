@@ -1,6 +1,6 @@
 {
   "_doc": "Fonte da verdade do status_pipeline de cada item. GERADO por scripts/consolidar.py a partir dos .json individuais — NAO editar a mao (Principio 1.5/2.3 do CLAUDE.md). Roda a cada push via .github/workflows/consolidar.yml.",
-  "gerado_em": "2026-07-11T12:18:57.711471+00:00",
+  "gerado_em": "2026-07-11T14:37:45.767092+00:00",
   "vocabulario_status": [
     "bruto",
     "fatiado",
@@ -1266,7 +1266,7 @@
       "revisado_por_humano": false,
       "fora_de_escopo": false,
       "fora_de_escopo_motivo": null,
-      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023"
+      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17975-de-8-de-julho-de-2023"
     },
     {
       "id": "lei-municipal-saopaulo-18081-2024",

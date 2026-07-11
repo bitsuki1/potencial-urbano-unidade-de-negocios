@@ -4,13 +4,13 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 50",
   "numero": "50",
-  "header_raw": "Art. 50. O inciso IV do § 1º do art. 127 da Lei nº 16.050, de 2014, passa a vigorar com a seguinte",
+  "header_raw": "Art. 50. O inciso IV do § 1º do art. 127 da Lei nº 16.050, de 2014, passa a vigorar com a seguinte alteração, e o dispositivo passa a vigorar acrescido de inciso V com a seguinte redação:",
   "caminho_hierarquico": [
     "CAPÍTULO III",
     "Seção II",
     "Art. 50"
   ],
-  "texto": "Art. 50. O inciso IV do § 1º do art. 127 da Lei nº 16.050, de 2014, passa a vigorar com a seguinte\n\nalteração, e o dispositivo passa a vigorar acrescido de inciso V com a seguinte redação:\n\n“Art. 127. ...................................................................................\n\n§ 1º .............................................................................................\n\n...............................................................................................\n\nIV - 1,4 (um e quatro décimos) para implantação de parque com valor de terreno no Quadro 14 inferior\n\nou igual a R$2.000/m², observadas as atualizações subsequentes;\n\nV - 1 (um inteiro) para implantação de parque com valor de terreno no Quadro 14 superior a\n\nR$2.000/m², observadas as atualizações subsequentes.\n\n..........................................................................................” (NR)",
+  "texto": "Art. 50. O inciso IV do § 1º do art. 127 da Lei nº 16.050, de 2014, passa a vigorar com a seguinte alteração, e o dispositivo passa a vigorar acrescido de inciso V com a seguinte redação:\n\n“Art. 127. ...................................................................................\n\n§ 1º .............................................................................................\n\n...............................................................................................\n\nIV - 1,4 (um e quatro décimos) para implantação de parque com valor de terreno no Quadro 14 inferior ou igual a R$2.000/m², observadas as atualizações subsequentes;\n\nV - 1 (um inteiro) para implantação de parque com valor de terreno no Quadro 14 superior a R$2.000/m², observadas as atualizações subsequentes.\n\n..........................................................................................” (NR)",
   "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
@@ -22,7 +22,7 @@
   "citacao": {
     "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
     "dispositivo": "CAPÍTULO III › Seção II › Art. 50",
-    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17975-de-8-de-julho-de-2023",
     "vigencia": {
       "inicio": "2023-07-08",
       "fim": null,

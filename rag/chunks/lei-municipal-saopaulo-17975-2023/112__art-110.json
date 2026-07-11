@@ -4,12 +4,12 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 110",
   "numero": "110",
-  "header_raw": "Art. 110. Sem prejuízo da nova redação dada aos arts. 380 e 381 da Lei nº 16.050, de 31 de julho de",
+  "header_raw": "Art. 110. Sem prejuízo da nova redação dada aos arts. 380 e 381 da Lei nº 16.050, de 31 de julho de 2014, as outras disposições previstas nesta Lei serão aplicadas apenas aos processos de licenciamento de obras e edificações protocolados após a data de publicação desta Lei, exceto nos casos de manifestação formal do interessado, a qualquer tempo, optando pela análise integral de acordo com as novas disposições.",
   "caminho_hierarquico": [
     "CAPÍTULO XII",
     "Art. 110"
   ],
-  "texto": "Art. 110. Sem prejuízo da nova redação dada aos arts. 380 e 381 da Lei nº 16.050, de 31 de julho de\n\n2014, as outras disposições previstas nesta Lei serão aplicadas apenas aos processos de\n\nlicenciamento de obras e edificações protocolados após a data de publicação desta Lei, exceto nos\n\ncasos de manifestação formal do interessado, a qualquer tempo, optando pela análise integral de\n\nacordo com as novas disposições.",
+  "texto": "Art. 110. Sem prejuízo da nova redação dada aos arts. 380 e 381 da Lei nº 16.050, de 31 de julho de 2014, as outras disposições previstas nesta Lei serão aplicadas apenas aos processos de licenciamento de obras e edificações protocolados após a data de publicação desta Lei, exceto nos casos de manifestação formal do interessado, a qualquer tempo, optando pela análise integral de acordo com as novas disposições.",
   "citavel": true,
   "vigencia_dispositivo": {
     "status": "compilado",
@@ -23,7 +23,7 @@
   "citacao": {
     "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
     "dispositivo": "CAPÍTULO XII › Art. 110",
-    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17975-de-8-de-julho-de-2023",
     "vigencia": {
       "inicio": "2023-07-08",
       "fim": null,

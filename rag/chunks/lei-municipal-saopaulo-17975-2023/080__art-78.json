@@ -4,12 +4,12 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 78",
   "numero": "78",
-  "header_raw": "Art. 78. Os incisos V e IX do art. 227 da Lei nº 16.050, de 2014, passam a vigorar com a seguinte",
+  "header_raw": "Art. 78. Os incisos V e IX do art. 227 da Lei nº 16.050, de 2014, passam a vigorar com a seguinte redação:",
   "caminho_hierarquico": [
     "CAPÍTULO VIII",
     "Art. 78"
   ],
-  "texto": "Art. 78. Os incisos V e IX do art. 227 da Lei nº 16.050, de 2014, passam a vigorar com a seguinte\n\nredação:\n\n“Art. 227. ...................................................................................\n\n....................................................................................................\n\nV - melhoria das condições de integração entre os diferentes modais de transporte, tais como o público\n\ncoletivo, os de micromobilidade e demais modais não motorizados e o coletivo privado rotineiro de\n\npassageiros;\n\n....................................................................................................\n\nIX - promover a criação de infraestrutura para a instalação de postos de recargas de baterias dos mais\n\nvariados modelos de veículos elétricos.” (NR)\n\nhttps://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023 41/60\n\n04/12/2025, 17:28 LEI Nº 17.975 DE 8 DE JULHO DE 2023 « Catálogo de Legislação Municipal",
+  "texto": "Art. 78. Os incisos V e IX do art. 227 da Lei nº 16.050, de 2014, passam a vigorar com a seguinte redação:\n\n“Art. 227. ...................................................................................\n\n....................................................................................................\n\nV - melhoria das condições de integração entre os diferentes modais de transporte, tais como o público coletivo, os de micromobilidade e demais modais não motorizados e o coletivo privado rotineiro de passageiros;\n\n....................................................................................................\n\nIX - promover a criação de infraestrutura para a instalação de postos de recargas de baterias dos mais variados modelos de veículos elétricos.” (NR)",
   "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
@@ -21,7 +21,7 @@
   "citacao": {
     "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
     "dispositivo": "CAPÍTULO VIII › Art. 78",
-    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17975-de-8-de-julho-de-2023",
     "vigencia": {
       "inicio": "2023-07-08",
       "fim": null,

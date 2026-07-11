@@ -78414,50 +78414,6 @@
     },
     "citavel": true
   },
-  "lei-municipal-saopaulo-17975-2023::132-anexos-e-referencias": {
-    "lei_id": "lei-municipal-saopaulo-17975-2023",
-    "tipo_dispositivo": "anexo",
-    "rotulo": "Anexos e referências",
-    "tema": [
-      "plano_diretor",
-      "revisao_intermediaria",
-      "ordenamento_territorial",
-      "zoneamento",
-      "transferencia_direito_construir",
-      "outorga_onerosa",
-      "potencial_construtivo",
-      "funcao_social_propriedade",
-      "desenvolvimento_urbano",
-      "habitacao_interesse_social",
-      "patrimonio_cultural",
-      "meio_ambiente"
-    ],
-    "dominio": [
-      "compartilhado"
-    ],
-    "dominio_primario": "compartilhado",
-    "jurisdicao": "São Paulo/SP",
-    "vigencia": {
-      "inicio": "2023-07-08",
-      "fim": null,
-      "revogada_por": null,
-      "altera": [
-        "Lei nº 16.050/2014 (Plano Diretor Estrategico — PDE)",
-        "Lei nº 16.402/2016 (LPUOS — Lei de Parcelamento, Uso e Ocupacao do Solo)"
-      ],
-      "alterada_por": [],
-      "em_vigor": true,
-      "obs": "Vigente desde a publicacao. Revisao intermediaria do PDE conforme art. 4o da Lei 16.050/2014. Regulamentada por Resolucao SMUL/CIMPDE n. 1/2024, Decreto 63.130/2024 e Decreto 63.728/2024."
-    },
-    "vigencia_dispositivo": {
-      "status": "original",
-      "revogado_por": null,
-      "marcadores": [],
-      "data_redacao": null,
-      "norma_redacao": null
-    },
-    "citavel": false
-  },
   "lei-municipal-saopaulo-18081-2024::001-preambulo": {
     "lei_id": "lei-municipal-saopaulo-18081-2024",
     "tipo_dispositivo": "preambulo",

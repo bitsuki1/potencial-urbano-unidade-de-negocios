@@ -64,8 +64,9 @@ _(OP‑3..6 vêm de documento NOSSO — são direção de garimpo, não fonte ci
 ## O que depende do dono (fechado — recomendação, você decide o COMO)
 
 1. ~~**OP‑1a (+7,18%)**~~ → ✅ **FEITO** (autorizado "sim, tudo oficial", 2026‑07‑11): preço legal de todos os cedentes subiu +7,18% (Dec. 64.884/2025), gate verde.
-2. **OP‑1b (tese §2º):** ✅ autorizado — em construção: tese do **VTcd máximo rastreável** (2014+IPCA vs. Quadro 14 vigente), com Lei 17.975/2023 oficial. → Gen Advogado.
-3. **OP‑2 (26 falso‑positivos):** ✅ autorizado — conferindo contra a **Resolução CONPRESP 01/2025** oficial e sinalizando.
+2. **OP‑1b (tese §2º):** ✅ autorizado — **Lei 17.975/2023 capturada + ingerida no corpus** (confirma que o BIR roteia pelo Art. 128 — base vigente); **dossiê de tese aberto** em `docs/TESE-VTCD-MAXIMO-ART128.md`. **Próximo (próxima instância):** materializar o `MAX(A,B)` no engine + eval + produto.
+3. ~~**OP‑2 (26 falso‑positivos)**~~ → ✅ **FEITO**: conferido na **Res. SMC/CONPRESP nº 1/2025** oficial (arquivamento **parcial** da Mancha Benedito Calixto I; mantidos 1I/2I/4I/10I/11I) → **26 sinalizados** (não removidos) no entregável. Remoção espera o mapa elemento→SQL (sua palavra).
+4. **OP‑1c (novo, Fp parque):** Lei 17.975/2023 art. 50 (NR ao Art. 127 §1º) + Dec. 64.884/2025 (R$ 2.352,06/m²) → conferir `fp.py`. **A conferir.**
 
 ## Want‑list gerado (registrado em `docs/INVENTARIO-E-LACUNAS-IPTU-TDC.md`)
 - `Atualizacao_Q14_anoref2026.csv` (Quadro 14 exercício 2026 — Dec. 64.884/2025 / Portaria SMUL 8/2026).

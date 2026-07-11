@@ -4,12 +4,12 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 126",
   "numero": "126",
-  "header_raw": "Art. 126. O Executivo deverá enviar à Câmara Municipal de São Paulo em até 15 (quinze) dias a",
+  "header_raw": "Art. 126. O Executivo deverá enviar à Câmara Municipal de São Paulo em até 15 (quinze) dias a revisão da Lei de Uso e Ocupação do Solo após a promulgação desta Lei.",
   "caminho_hierarquico": [
     "CAPÍTULO XII",
     "Art. 126"
   ],
-  "texto": "Art. 126. O Executivo deverá enviar à Câmara Municipal de São Paulo em até 15 (quinze) dias a\n\nrevisão da Lei de Uso e Ocupação do Solo após a promulgação desta Lei.",
+  "texto": "Art. 126. O Executivo deverá enviar à Câmara Municipal de São Paulo em até 15 (quinze) dias a revisão da Lei de Uso e Ocupação do Solo após a promulgação desta Lei.",
   "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
@@ -21,7 +21,7 @@
   "citacao": {
     "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
     "dispositivo": "CAPÍTULO XII › Art. 126",
-    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17975-de-8-de-julho-de-2023",
     "vigencia": {
       "inicio": "2023-07-08",
       "fim": null,

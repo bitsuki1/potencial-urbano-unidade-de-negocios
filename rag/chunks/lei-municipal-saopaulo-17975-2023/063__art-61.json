@@ -4,13 +4,13 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 61",
   "numero": "61",
-  "header_raw": "Art. 61. O art. 151 da Lei nº 16.050, de 2014, passa a vigorar acrescido de § 10 com a seguinte",
+  "header_raw": "Art. 61. O art. 151 da Lei nº 16.050, de 2014, passa a vigorar acrescido de § 10 com a seguinte redação:",
   "caminho_hierarquico": [
     "CAPÍTULO III",
     "Seção IV",
     "Art. 61"
   ],
-  "texto": "Art. 61. O art. 151 da Lei nº 16.050, de 2014, passa a vigorar acrescido de § 10 com a seguinte\n\nredação:\n\n“Art. 151. ...................................................................................\n\n....................................................................................................\n\n§ 4º .............................................................................................\n\n....................................................................................................\n\nXI - possíveis impactos na segurança pública.\n\n....................................................................................................\n\n§ 10. Lei específica deverá detalhar os critérios de avaliação do EIV/RIV para o licenciamento de\n\nempreendimentos, atividades e intervenções urbanísticas de qualquer porte, quando situadas em\n\nimóveis localizados junto às divisas das terras indígenas demarcadas ou em processo de demarcação\n\npelo governo.” (NR)\n\nSubseção II\n\nDo Estudo de Viabilidade Ambiental",
+  "texto": "Art. 61. O art. 151 da Lei nº 16.050, de 2014, passa a vigorar acrescido de § 10 com a seguinte redação:\n\n“Art. 151. ...................................................................................\n\n....................................................................................................\n\n§ 4º .............................................................................................\n\n....................................................................................................\n\nXI - possíveis impactos na segurança pública.\n\n....................................................................................................\n\n§ 10. Lei específica deverá detalhar os critérios de avaliação do EIV/RIV para o licenciamento de empreendimentos, atividades e intervenções urbanísticas de qualquer porte, quando situadas em imóveis localizados junto às divisas das terras indígenas demarcadas ou em processo de demarcação pelo governo.” (NR)\n\nSubseção II\n\nDo Estudo de Viabilidade Ambiental",
   "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
@@ -22,7 +22,7 @@
   "citacao": {
     "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
     "dispositivo": "CAPÍTULO III › Seção IV › Art. 61",
-    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17975-de-8-de-julho-de-2023",
     "vigencia": {
       "inicio": "2023-07-08",
       "fim": null,

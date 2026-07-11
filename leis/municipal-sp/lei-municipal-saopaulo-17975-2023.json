@@ -94,13 +94,13 @@
   "formulas_referenciadas": [],
   "fonte": {
     "origem": "Google Drive",
-    "path": "Catálogo de Legislação Municipal — Prefeitura de São Paulo",
-    "url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
-    "hash": "sha256:65af9a132d3ce4d6450af6dc9f462799b702e7cbb8d44801689c0a254e5fed85",
+    "path": "_entrada/misto/lei-municipal-saopaulo-17975-2023.txt",
+    "url": "https://legislacao.prefeitura.sp.gov.br/lei-17975-de-8-de-julho-de-2023",
+    "hash": "sha256:15a56c2e18ea9f622b6e284f8cfaad02f8c660afd320dc7b7da9f4f0c49b5046",
     "ocr": false,
-    "metodo": "download Google Drive + extração de fileContent",
-    "hash_alvo": "leis/municipal-sp/lei-municipal-saopaulo-17975-2023.md",
-    "hash_nota": "hash do .md no corpus (lei-municipal-saopaulo-17975-2023.md)"
+    "metodo": "VERBATIM INTEGRAL (portal oficial, texto compilado); captura 2026-07-11 (texto COMPILADO do Catálogo de Legislação Municipal, HTTPS direto); promovido de _entrada/misto/",
+    "hash_alvo": "_entrada/misto/lei-municipal-saopaulo-17975-2023.txt",
+    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior."
   },
   "status_pipeline": "indexado",
   "confianca_extracao": "alta",

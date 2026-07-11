@@ -4,12 +4,12 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 128",
   "numero": "128",
-  "header_raw": "Art. 128. A aprovação da presente Lei observa o quórum determinado pelo art. 46, § 2º, alíneas “a” e",
+  "header_raw": "Art. 128. A aprovação da presente Lei observa o quórum determinado pelo art. 46, § 2º, alíneas “a” e “b” da Lei Orgânica do Município.",
   "caminho_hierarquico": [
     "CAPÍTULO XII",
     "Art. 128"
   ],
-  "texto": "Art. 128. A aprovação da presente Lei observa o quórum determinado pelo art. 46, § 2º, alíneas “a” e\n\n“b” da Lei Orgânica do Município.",
+  "texto": "Art. 128. A aprovação da presente Lei observa o quórum determinado pelo art. 46, § 2º, alíneas “a” e “b” da Lei Orgânica do Município.",
   "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
@@ -21,7 +21,7 @@
   "citacao": {
     "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
     "dispositivo": "CAPÍTULO XII › Art. 128",
-    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17975-de-8-de-julho-de-2023",
     "vigencia": {
       "inicio": "2023-07-08",
       "fim": null,
