@@ -12,17 +12,21 @@
   `00 — Governança & Índice` · `01 — _entrada` · `02 — Leis & Jurisprudência` · `03 — Tabelas & Engines` ·
   `04 — Tese` · **`05 — Geo / Mapas`** · **`05 — Geo`** (← DOIS "05", colisão) · **`TODOS TDC`** (DataLake de
   ~27 mil fragmentos despejado na raiz) + **337 arquivos soltos** fora de qualquer subpasta.
-- Classificação por **auditabilidade** (regra do MOU: só se constrói no que se pode auditar):
+- Classificação por **auditabilidade** (regra do MOU: só se constrói no que se pode auditar). **O sinal certo de
+  "auditável" é `oficialidade=OFICIAL` E não-duplicado** — mais largo que o `uso=USAR` (que era estreito demais):
 
-| Classe (`uso`) | Qtd | O que é | Destino na arrumação |
+| Classe (refinada) | Qtd | O que é | Destino na arrumação |
 |---|---:|---|---|
-| **USAR** | 396 | Documento oficial que PODEMOS auditar (lei/decreto/portaria/jurisprudência/tabela-fonte) | Canônico (02/03/04/05) |
-| **COMERCIAL** | 64 | Listas para achar proprietário (a exceção que o MOU liberou) | Canônico (`06 — Comercial`) |
-| **SO_IDEIA** | 23.700 | Chunk/imagem/fragmento/SILVER **não feito por nós** — serve de ideia, NÃO de alicerce | Zona bruta `90` (fora do canônico) |
-| **DESCARTE** | 8.978 | Duplicata forte (8.309) + lixo (logs, temporários) | **`99 — APAGAR` (pasta ÚNICA)** |
+| **KEEPERS canônicos** (OFICIAL não-dup + USAR + COMERCIAL) | **~2.126** | Doc oficial auditável: **982 jurídico** (596 leis · 337 decretos · 66 portarias · 31 jurisprudência) + **854 geo** + 77 TDC + 8 IPTU + comercial | Canônico (02/03/04/05/06) |
+| **RESGATE** (doc oficial MAL-TAGUEADO, nome único) | **~396** | PDFs/DOCs com assinatura de norma (Lei/Decreto/Portaria/Resolução/Quadro/PDE) que o tagueador marcou "DESCONHECIDO" — **173 presos na LIXEIRA** | Segunda-olhada → canônico (Fase 3.5) |
+| **SO_IDEIA** (só ideia) | ~22.341 | Chunk/imagem/fragmento/SILVER **derivado, não feito por nós** — serve de ideia, NÃO de alicerce | Zona bruta `90` (após o resgate) |
+| **APAGAR** (duplicata + lixo) | ~8.300 | Duplicata forte (mantém 1 canônica) + lixo (logs, sidecars, temporários) | **`99 — APAGAR` (pasta ÚNICA)** |
 
-> O grosso (23.700 SO_IDEIA) é a "matéria-prima" do DataLake `TODOS TDC`: útil como referência, mas **não
-> é canônica** (não podemos auditar a origem). Não se apaga (é ideia), mas sai da frente do que é oficial.
+> **⚠️ "TODOS TDC" NÃO é só não-auditável (correção do MOU, 2026-07-12).** Dentro dele o `01A_BRONZE_OFICIAL`
+> tem ~1.197 OFICIAIS e a própria `99_LIXEIRA` esconde ~351 docs oficiais de nome único (Quadros do PDE 2013,
+> Resoluções SMUL, tombamentos, leis como a L16642). Por isso NADA vai para `90`/`99` **antes** da Fase de
+> Resgate (3.5) varrer os não-keepers por assinatura de nome. Lista pronta: `inventario/drive-pu/RESGATE-CANDIDATOS.csv`.
+> O grosso (SO_IDEIA) é a matéria-prima do DataLake: referência, não canônico — guardado em `90` (o MOU olha 1-a-1 depois).
 
 ---
 ## 1. Taxonomia canônica ALVO (o "devido lugar" de tudo)
@@ -64,17 +68,25 @@ POTENCIAL URBANO/
   alcance) — reprocessar. Confirmar que é a pasta ÚNICA e renomeá-la para `99 — APAGAR`.
 - **DoD:** `dup_forte=SIM` e `descarte=SIM` = **0 fora de `99`**; log da run bate a contagem (8.978 movidos).
 
-### Fase 3 — Material bruto / não-auditável → `90`  *(o grosso do volume)*
-- Renomear/reposicionar o `TODOS TDC` como `90 — Material bruto (só ideias)` OU mover os 23.700 SO_IDEIA
-  para `90`. **Antes**, PUXAR de dentro dele os oficiais auditáveis (`01A_BRONZE_OFICIAL`, ~PDFs de lei
-  reais que viram USAR) para a Fase 4.
-- **DoD:** `uso=SO_IDEIA` = **0 fora de `90`**; nenhum PDF oficial (USAR) preso dentro de `90`.
+### Fase 3.5 — RESGATE (o ponto que o MOU mandou olhar direito) — ANTES de mandar nada pro 90/99
+- Varrer TODOS os não-keepers por **assinatura de nome** (Lei/Decreto/Portaria/Resolução/Acórdão/Quadro/PDE/
+  LPUOS + nº) → lista `RESGATE-CANDIDATOS.csv` (**396**: 39 leis + 39 decretos + 16 portarias + 9 jurisprudências
+  + 274 PDFs, dos quais **173 na LIXEIRA**). Segunda-olhada (barata, por nome+hash): confirma oficial → **puxa pro
+  canônico** (02/05), não pro 90/99.
+- Cruzar com `leis/` do repo: resgatado que ainda não está no corpus entra em `GAP-INGESTAO-OFICIAIS.csv`.
+- **DoD:** cada linha do `RESGATE-CANDIDATOS.csv` decidida (canônico | é-dup-real→99 | é-ideia→90); **0** doc com
+  assinatura de norma sobrando em `90`/`99` sem decisão registrada.
 
-### Fase 4 — Canônico no devido lugar (as 460 que importam)
-- Mover os **396 USAR** para `02` (lei/decreto/portaria/jurisprudência), `03` (tabela), `04` (tese) e `05`
-  (geo), por `tema`+`tipo_artefato`. Os **64 COMERCIAL** para `06`.
-- Cruzar com o corpus `leis/` do repo: o que é USAR e ainda não está ingerido entra na fila (`GAP-INGESTAO`).
-- **DoD:** 100% das linhas USAR/COMERCIAL com pasta-destino canônica atingida; catálogo re-lido bate o Drive real.
+### Fase 3 — Material bruto / só-ideias → `90`  *(o grosso do volume, só DEPOIS do resgate)*
+- Mover o residual `SO_IDEIA` (~22.341: SILVER derivado, chunks, imagens, fragmentos) para `90 — Material bruto`.
+  Renomear `TODOS TDC` → `90 — Material bruto (só ideias)` e esvaziar dele o que foi resgatado (3.5) e o que é dup (2).
+- **DoD:** `uso=SO_IDEIA` = **0 fora de `90`**; nenhum candidato de resgate não-decidido preso em `90`.
+
+### Fase 4 — Canônico no devido lugar (~2.126 keepers + resgatados)
+- Mover os **~2.126 keepers** (+ os resgatados na 3.5) para o canônico por `tema`+`tipo_artefato`:
+  **982 jurídico → `02`** · **854 geo → `05`** · tabelas → `03` · tese → `04` · **64 comercial → `06`**.
+- Cruzar com o corpus `leis/` do repo: keeper/resgatado ainda não ingerido entra na fila (`GAP-INGESTAO-OFICIAIS.csv`).
+- **DoD:** 100% dos keepers/resgatados com pasta-destino canônica atingida; catálogo re-lido bate o Drive real.
 
 ### Fase 5 — Órfãos zerados
 - Varrer a raiz: nenhum arquivo direto; os 337 (Fase 1) todos realocados.
@@ -99,12 +111,12 @@ POTENCIAL URBANO/
   lição do runaway da sessão de catálogo. Dedup por `drive_id` (o conector Drive tem bug de paginação).
 - **Idempotente:** rodar 2× não duplica movimento (já-na-pasta-destino é no-op).
 
-## 4. O que depende do MOU (decisões de dono, D21)
-1. **Confirmar a taxonomia** (00–06 + 90 + 99) — em especial a pasta `90` para o não-auditável (manter como
-   referência) e a `06 — Comercial`.
-2. **`90` fica ou some?** Alternativa: mandar TODO o `TODOS TDC` (SO_IDEIA) para `99 — APAGAR` também
-   (se o MOU não quiser guardar nem como ideia). Default proposto: **guardar em `90`** (é ideia, não lixo).
-3. **Autorizar o real** (o ensaio roda sozinho; o `DRY_RUN=false` que move de verdade é o gate humano).
+## 4. Decisões do MOU (D21) — JÁ TOMADAS (2026-07-12)
+1. ✅ **Taxonomia aprovada** (00–06 + 90 + 99) — "de acordo".
+2. ✅ **`90` GUARDA** o material bruto/só-ideias — "guarda, depois da arrumação iremos olhar um por um".
+3. ✅ **"TODOS TDC não é só não-auditável"** — obrigatória a Fase de Resgate (3.5) antes de 90/99. FEITO o
+   mapeamento (396 candidatos em `RESGATE-CANDIDATOS.csv`).
+- Resta só **autorizar o `DRY_RUN=false`** (o real) — o ensaio roda sozinho; mover de verdade é o gate humano.
 
 ## 5. Ativos já prontos (não se refaz)
 - `CATALOGO-DRIVE-PU-2026-07-12.csv` (33.138 tagueados) · `APAGAR-DE-PARA.csv` (8.978) ·
