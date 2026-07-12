@@ -59,9 +59,14 @@ o "mistério Fi≈2,4"); sem o FSCE, quem olha o número ~2,4 e crava Fi=1,0 err
 o engine já estava certo; este relatório só registra a divergência e de que lado está a prova.)_
 
 ## 🔎 GAPS e LEADS (want-list do próximo passe)
-1. **Lei 18.298/2025 — AUSENTE do corpus.** A V.4.1 a lista no arcabouço vigente; nosso corpus vai só até 18.222/2024.
-   É a lei municipal mais nova citada — **candidata nº1 a ingerir** (pode alterar PDE/LPUOS). _(Capturar do portal
-   oficial/Drive → `_entrada` → promover/fatiar/indexar, como as demais.)_
+1. **Lei 18.298/2025 — AUSENTE do corpus** (nem no repo, nem no Drive — só a 18.222/2024 está lá). **Caracterizada
+   na fonte oficial (PU 19):** Lei 18.298, de **17/09/2025**, **revisa a Lei 18.222/2024** (PIU Arco Pinheiros / cria
+   a AIU-ACP), define parâmetros de parcelamento/uso/ocupação da **ZOE Butantan** e **altera a LPUOS 16.402/2016**.
+   Fonte: legislacao.prefeitura.sp.gov.br/leis/lei-18298-de-17-de-setembro-de-2025. **Leitura de escopo:** é revisão
+   **localizada do lado receptor/PIU** (Arco Pinheiros + ZOE Butantan) — NÃO mexe no Fi/Quadro 14 nuclear do cedente,
+   então **não altera preço da prospecção**; entra por **completude do corpus** (temos a 18.222/2024, falta a revisão).
+   Ligação: a V.4.1 nota "REJEITADA a inclusão de ZOE nas vedações do Art. 131" — esta lei parametriza justamente a
+   ZOE Butantan. **Ingerir** (capturar verbatim do portal → `_entrada` → promover/fatiar/indexar; domínio compartilhado).
 2. **Citação do Fi: Art. 24 × Art. 25 da LPUOS.** A V.4.1 cita "LPUOS Art. 25" para o PCpt de ZEPEC-BIR; nosso engine
    escalona por "LPUOS Art. 24 I–VII". Conferir no verbatim da LPUOS 16.402/2016 qual artigo traz a escala de Fi por
    área (o engine já bate os gabaritos; é conferência de rótulo de dispositivo, 1.7).
