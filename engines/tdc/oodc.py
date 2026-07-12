@@ -372,11 +372,17 @@ def _ca_max_nota(zona):
     return ""
 
 
-def oodc_por_imovel(sql, codlog, zona, area_adicional, fp, fs):
+def oodc_por_imovel(sql, codlog, zona, area_adicional, fp, fs, ano_ref=None):
     """OODC sobre dados REAIS (B-1): busca V por (SQ,Codlog) (Quadro 14) e CA_max por ZONA (Quadro 3/
     LPUOS) nas tabelas/ — o engine NÃO inventa nenhum dos dois (1.3). O operador fornece área adicional,
     Fp, Fs. (SQ+Codlog vêm do cadastro; zona vem do geo/zoneamento por lote — ligação espacial é H3.)
-    O resultado UNE a citação por DISPOSITIVO (B-12d, via `outorga_onerosa`) à proveniência do dado."""
+    O resultado UNE a citação por DISPOSITIVO (B-12d, via `outorga_onerosa`) à proveniência do dado.
+
+    VINTAGE (1.6): tabelas/q14-valor-terreno.csv é a BASE 2014. Para um fato gerador recente, o V deve ser
+    o VIGENTE = base × reajuste acumulado do Quadro 14 (tabelas/q14-reajuste-anual.csv). `ano_ref`:
+      • None (default) — usa a base 2014 SEM reajuste (compatível com o histórico) e SURFAÇA um aviso de
+        que o V está congelado em 2014 (não silencia a defasagem — o produto deve passar o exercício).
+      • 2020..2026 (ou 'atual') — aplica o fator do exercício e reporta base, fator e V vigente."""
     V, CA = carregar_tabelas()
     v = V.get((sql, codlog))
     if v is None:
@@ -384,10 +390,32 @@ def oodc_por_imovel(sql, codlog, zona, area_adicional, fp, fs):
     ca_max = CA.get(zona)
     if not ca_max or ca_max == "NA":
         raise ValueError(f"zona {zona!r} sem CA_max numérico no Quadro 3 (CA_max={ca_max!r}).")
+    v_base = v
+    v_vigente = None
+    reajuste = None
+    if ano_ref is not None:
+        if str(AQUI) not in sys.path:
+            sys.path.insert(0, str(AQUI))
+        from art128 import fator_reajuste_q14  # SSOT do fator (mesma tabela); import local evita ciclo
+        ano = None if str(ano_ref).lower() in ("atual", "vigente", "recente") else int(ano_ref)
+        fator, decreto, disp = fator_reajuste_q14(ano)
+        # V é dinheiro (R$/m²) → 2 casas, como a base do Quadro 14 e o nominal oficial das Portarias SMUL.
+        v_vigente = str((_d(v_base, "v") * fator).quantize(Decimal("0.01"), rounding=ROUND_HALF_UP))
+        reajuste = {"ano_ref": ("mais recente" if ano is None else str(ano)), "fator_acumulado": str(fator),
+                    "decreto": decreto, "dispositivo": disp, "fonte_tabela": "tabelas/q14-reajuste-anual.csv"}
+        v = v_vigente
     r = outorga_onerosa(area_adicional, ca_max, fp, fs, v)
     nota = _ca_max_nota(zona)
-    r["fonte_dados"] = {"sql": sql, "codlog": codlog, "V_q14_brl": v, "zona": zona, "ca_max_q3": ca_max,
+    r["fonte_dados"] = {"sql": sql, "codlog": codlog, "V_q14_brl": v_base, "zona": zona, "ca_max_q3": ca_max,
                         "proveniencia": "V=Quadro 14 (PDE) por SQ+Codlog, CA_max=Quadro 3 (LPUOS) por zona — tabelas/ reais, não ilustrativo"}
+    if reajuste is not None:
+        r["fonte_dados"]["V_q14_base2014_brl"] = v_base
+        r["fonte_dados"]["V_q14_vigente_brl"] = v_vigente
+        r["fonte_dados"]["reajuste_q14"] = reajuste
+    else:
+        r["aviso_vintage"] = ("V é a BASE 2014 do Quadro 14 (sem reajuste). Para fato gerador recente passe "
+                              "ano_ref (ex.: 2026) — o Quadro 14 acumulou reajuste até 1,2595 em 2026 "
+                              "(Decretos 59.166/62.135/63.108/63.999/64.884). Ver tabelas/q14-reajuste-anual.csv.")
     if nota:   # A-080: CA_max condicional — não silenciar
         r["aviso"] = (f"CA_max da zona {zona} tem nota condicional '({nota})' no Quadro 3 (LPUOS) cuja legenda ainda "
                       f"não foi capturada do PDF — o valor {ca_max} pode depender do tipo de empreendimento. CONFERIR antes de usar em produção.")
@@ -507,6 +535,14 @@ def _autoteste():
             oodc_por_imovel("001003", "038121", "AVP-1", 1000, "1.2", "1.0"); falhas.append("AVP-1 (CA_max NA) não levantou")
         except ValueError:
             pass
+        # VINTAGE (1.6): sem ano_ref → V base 2014 + aviso de defasagem; com ano_ref → V vigente reajustado.
+        if "aviso_vintage" not in r:
+            falhas.append("oodc_por_imovel sem ano_ref deveria SURFAÇAR aviso_vintage (V congelado em 2014)")
+        r24 = oodc_por_imovel("001003", "038121", "ZEU", 1000, "1.2", "1.0", ano_ref=2024)
+        # V vigente 2024 = 3.106,00 × 1,12455 = 3.492,85 (= Portaria SMUL 19/2024). OODC = (1000/4)×1,2×1,0×3492,85.
+        checa("OODC dado real VIGENTE 2024 (reajuste Q14)", r24["valor"], "1047855.000")
+        if r24["fonte_dados"].get("V_q14_vigente_brl") != "3492.85":
+            falhas.append(f"V vigente 2024 errado: {r24['fonte_dados'].get('V_q14_vigente_brl')!r} (esperado '3492.85')")
     return falhas
 
 
