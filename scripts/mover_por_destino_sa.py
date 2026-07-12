@@ -27,8 +27,11 @@ POTENCIAL_URBANO_ID = "1BrM6q36meTtn5guJoiGbqvCtZF11Uau3"
 DE_PARA = Path(__file__).resolve().parents[1] / "inventario" / "drive-pu" / "ARRUMAR-DE-PARA.csv"
 DRY_RUN = os.environ.get("DRY_RUN", "true").strip().lower() != "false"
 APAGAR_DESTINO = "99 — APAGAR (duplicados e descarte)"
-# nome(s) legado(s) da pasta APAGAR já existente (sessão anterior) — reaproveitar, não criar 2ª.
+BRUTO_DESTINO = "90 — Material bruto (só ideias)"
+TODOS_TDC_NOME = "TODOS TDC"          # o DataLake vira o 90 (renomeado) — 22 mil SO_IDEIA já moram dentro dele
+# nome(s) legado(s) da pasta APAGAR já existente — reaproveitar 1 e FUNDIR as outras (o MOU quer UMA só).
 APAGAR_LEGADOS = ("APAGAR — duplicados e descarte (PU 19 · 2026-07-12)", "APAGAR")
+APAGAR_FUNDIR = ("99 — DUPLICATAS-A-EXCLUIR",)   # 2ª pasta de lixo → esvaziar dentro da única APAGAR
 
 
 def _drive():
@@ -62,14 +65,21 @@ def listar_pastas_topo(drive):
 
 
 def resolver_destinos(drive, destinos, topo):
-    """Mapeia cada nome-destino → id existente (ou None se precisaria criar). Trata a APAGAR legada."""
+    """Mapeia cada nome-destino → id existente (ou None se precisaria criar). Reaproveita:
+      • 99 APAGAR → pasta APAGAR legada (renomeia no real p/ 99; funde a 2ª pasta de lixo);
+      • 90 Material bruto → a pasta TODOS TDC RENOMEADA (o DataLake já guarda os 22 mil SO_IDEIA)."""
     mapa, criar = {}, []
     for d in sorted(destinos):
         if d in topo:
             mapa[d] = topo[d]
         elif d == APAGAR_DESTINO:
             leg = next((topo[n] for n in APAGAR_LEGADOS if n in topo), None)
-            mapa[d] = leg          # reusa a APAGAR já existente (renomeia no real); None se não houver
+            mapa[d] = leg
+            if leg is None:
+                criar.append(d)
+        elif d == BRUTO_DESTINO:
+            leg = topo.get(TODOS_TDC_NOME) or topo.get(BRUTO_DESTINO)
+            mapa[d] = leg          # renomeia TODOS TDC → 90 no real; None só se nem TODOS TDC existir
             if leg is None:
                 criar.append(d)
         else:
@@ -108,28 +118,34 @@ def _mover(drive, fid, destino_id, tentativas=5):
 
 
 def carregar_depara():
-    linhas = []
+    """{ drive_id: (destino, dentro_todos_tdc) } — dedup por id (a última classificação vence)."""
+    ult = {}
     with open(DE_PARA, encoding="utf-8") as f:
         for row in csv.DictReader(f):
             did = (row.get("drive_id") or "").strip()
             dst = (row.get("destino") or "").strip()
+            dentro = (row.get("dentro_todos_tdc") or "").strip().upper() == "SIM"
             if did and dst:
-                linhas.append((did, dst))
-    # dedup por id (o conector Drive duplica; a última classificação vence)
-    ult = {}
-    for did, dst in linhas:
-        ult[did] = dst
+                ult[did] = (dst, dentro)
     return ult
 
 
 def main():
-    depara = carregar_depara()
-    por_destino = Counter(v for v in depara.values())
+    depara = carregar_depara()                       # {id: (destino, dentro)}
+    por_destino = Counter(dst for dst, _ in depara.values())
+    # OTIMIZAÇÃO: 90-bound que JÁ está dentro do TODOS TDC (=90 renomeado) não se move (fica aninhado).
+    mover_ct = Counter()
+    for dst, dentro in depara.values():
+        if dst == BRUTO_DESTINO and dentro:
+            continue                                 # fica onde está (dentro do 90 renomeado)
+        mover_ct[dst] += 1
+    a_mover = sum(mover_ct.values())
     modo = "ENSAIO (DRY_RUN — nada move/cria)" if DRY_RUN else "ARRUMAÇÃO REAL"
     print(f"=== mover_por_destino — {modo} — {len(depara)} arquivos únicos no de-para ===")
-    print("== contagem por destino (do de-para) ==")
+    print("== contagem por destino (do de-para) / a MOVER (após otimização TODOS TDC→90) ==")
     for d, n in por_destino.most_common():
-        print(f"  {n:7d}  {d}")
+        print(f"  destino={n:7d}  a_mover={mover_ct.get(d,0):7d}  {d}")
+    print(f"  TOTAL a mover: {a_mover}  (economia: {len(depara)-a_mover} já-no-lugar dentro do 90)")
 
     drive = _drive()
     topo = listar_pastas_topo(drive)
@@ -141,34 +157,41 @@ def main():
     for d in sorted(por_destino):
         est = f"existe ({mapa[d]})" if mapa[d] else "CRIARIA (não existe)"
         print(f"  [{por_destino[d]:6d}] {d}  →  {est}")
+    fundir_ids = [topo[n] for n in APAGAR_FUNDIR if n in topo]
+    if fundir_ids:
+        print(f"  fusão de lixo: {list(APAGAR_FUNDIR)} → esvaziar dentro da única APAGAR")
 
     if DRY_RUN:
         print("\n[DRY_RUN] Ensaio OK. Nada movido, nada criado.")
-        print(f"[DRY_RUN] No REAL: criaria {len(criar)} pasta(s) {criar or '—'}, "
-              f"renomearia a APAGAR legada → '{APAGAR_DESTINO}', e moveria até {len(depara)} arquivos "
-              f"(idempotente: já-no-destino pula).")
+        print(f"[DRY_RUN] No REAL: renomearia '{TODOS_TDC_NOME}'→'{BRUTO_DESTINO}' e a APAGAR legada→"
+              f"'{APAGAR_DESTINO}', fundiria {len(fundir_ids)} pasta(s) de lixo, criaria {len(criar)} "
+              f"pasta(s) {criar or '—'}, e moveria ~{a_mover} arquivos (idempotente).")
         return 0
 
     # ---- REAL ----
-    # 1) cria pastas destino que faltam; renomeia APAGAR legada → 99
     for d in criar:
         mapa[d] = _criar_pasta(drive, d)
-    if mapa.get(APAGAR_DESTINO):
-        try:
-            atual = drive.files().get(fileId=mapa[APAGAR_DESTINO], fields="name", supportsAllDrives=True).execute()
-            if atual.get("name") != APAGAR_DESTINO:
-                drive.files().update(fileId=mapa[APAGAR_DESTINO], body={"name": APAGAR_DESTINO},
-                                     fields="id", supportsAllDrives=True).execute()
-                print(f"  APAGAR renomeada: '{atual.get('name')}' → '{APAGAR_DESTINO}'")
-        except Exception as e:
-            print(f"  aviso: não renomeou APAGAR: {e}")
+    # renomeia TODOS TDC → 90 e APAGAR legada → 99 (nomes canônicos; o MOU quer 1 de cada)
+    for destino_nome, key in ((BRUTO_DESTINO, BRUTO_DESTINO), (APAGAR_DESTINO, APAGAR_DESTINO)):
+        fid = mapa.get(key)
+        if fid:
+            try:
+                atual = drive.files().get(fileId=fid, fields="name", supportsAllDrives=True).execute()
+                if atual.get("name") != destino_nome:
+                    drive.files().update(fileId=fid, body={"name": destino_nome}, fields="id",
+                                         supportsAllDrives=True).execute()
+                    print(f"  renomeada: '{atual.get('name')}' → '{destino_nome}'")
+            except Exception as e:
+                print(f"  aviso: não renomeou {destino_nome}: {e}")
 
-    # 2) move arquivo a arquivo, agrupado por destino
+    # move arquivo a arquivo (pulando os 90-já-dentro)
     res = Counter(); erros = []
     porgrupo = defaultdict(list)
-    for did, dst in depara.items():
+    for did, (dst, dentro) in depara.items():
+        if dst == BRUTO_DESTINO and dentro:
+            res["fica_no_90"] += 1; continue
         porgrupo[dst].append(did)
-    total = len(depara); feito = 0
+    total = sum(len(v) for v in porgrupo.values()); feito = 0
     for dst, ids in porgrupo.items():
         did_destino = mapa.get(dst)
         if not did_destino:
@@ -181,8 +204,27 @@ def main():
             if feito % 300 == 0:
                 print(f"  ... {feito}/{total}  movido={res['movido']} ja_la={res['ja_la']} "
                       f"trashed={res['trashed']} erros={sum(v for k,v in res.items() if k.startswith('erro'))}")
+
+    # funde a 2ª pasta de lixo: move seus filhos diretos p/ a única APAGAR
+    apagar_id = mapa.get(APAGAR_DESTINO)
+    for lid in fundir_ids:
+        if not apagar_id:
+            break
+        token = None
+        while True:
+            r = drive.files().list(q=f"'{lid}' in parents and trashed = false",
+                                   fields="nextPageToken, files(id)", pageSize=200,
+                                   supportsAllDrives=True, includeItemsFromAllDrives=True,
+                                   pageToken=token).execute()
+            for it in r.get("files", []):
+                rr = _mover(drive, it["id"], apagar_id); res[f"fusao_{rr}"] += 1
+            token = r.get("nextPageToken")
+            if not token:
+                break
+
     print(f"=== FIM REAL === movido={res['movido']} ja_la={res['ja_la']} trashed={res['trashed']} "
-          f"erros={sum(v for k,v in res.items() if k.startswith('erro'))} total={total}")
+          f"fica_no_90={res['fica_no_90']} erros={sum(v for k,v in res.items() if k.startswith('erro'))} total_movido={total}")
+    print("  fusão lixo:", {k: v for k, v in res.items() if k.startswith('fusao_')})
     for fid, dst, r in erros:
         print(f"  ERRO {fid} → {dst}: {r}")
     return 0
