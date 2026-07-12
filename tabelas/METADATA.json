@@ -75,6 +75,11 @@
       "data_base": "2026-07-10",
       "fonte_legal": "INVENTARIO derivado dos fatores de TDC (nao e tabela de lei; aponta a fonte de cada fator)",
       "nota": "Inventario versionado dos fatores de TDC + proveniencia (dispositivo, tabela-fonte, chunk, eval). Governado pela trava scripts/gate_fatores_tdc.py: nenhum 'verificado' sem chunk real + eval gated. data_base = data de construcao do inventario."
+    },
+    "limiar-parque-art127.csv": {
+      "data_base": "2025-12-29",
+      "fonte_legal": "Decreto 64.884/2025, Art. 3º (atualiza o valor de referência do Art. 127 §1º IV/V da Lei 16.050/2014)",
+      "nota": "Limiar do Fi de parque por vintage: 2014=R$2.000,00 (Lei 16.050/2014 c/c Lei 17.975/2023); 2026=R$2.352,06 (Dec. 64.884/2025 Art. 3º). Verbatim no cabecalho do CSV. OP-1c (PU 19)."
     }
   }
 }

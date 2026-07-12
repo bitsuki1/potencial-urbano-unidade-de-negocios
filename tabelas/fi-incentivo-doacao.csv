@@ -5,5 +5,5 @@ finalidade,fi,inciso,condicao
 corredor_onibus,2.0,"Art. 127 §1º I","melhoramentos viários para corredores de ônibus"
 his,1.9,"Art. 127 §1º II","programas de construção de Habitação de Interesse Social"
 regularizacao_fundiaria,0.8,"Art. 127 §1º III","regularização fundiária / urbanização de baixa renda"
-parque_v_ate_2000,1.4,"Art. 127 §1º IV","implantação de parque com valor de terreno (Quadro 14) <= R$2.000/m²"
-parque_v_acima_2000,1.0,"Art. 127 §1º V","implantação de parque com valor de terreno (Quadro 14) > R$2.000/m²"
+parque_v_ate_2000,1.4,"Art. 127 §1º IV","implantação de parque com valor de terreno (Quadro 14) <= limiar (limiar vintage em limiar-parque-art127.csv: 2014=R$2.000; 2026=R$2.352,06 Dec.64.884/2025)"
+parque_v_acima_2000,1.0,"Art. 127 §1º V","implantação de parque com valor de terreno (Quadro 14) > limiar (limiar vintage em limiar-parque-art127.csv: 2014=R$2.000; 2026=R$2.352,06 Dec.64.884/2025)"

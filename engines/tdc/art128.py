@@ -213,6 +213,55 @@ def referencia_art128(pcpt, vtcd, via="125", ipca_fator=None, ipca_fonte=None, c
     }
 
 
+def referencia_max_art128(pcpt, vtcd_vigente, via="125", camaxcd=None, esquina=False,
+                          vtcd_declaracao=None, mes_ref=None, mes_protocolo=None):
+    """OP-1b (tese `docs/TESE-VTCD-MAXIMO-ART128.md`) — REFERÊNCIA MÁXIMA rastreável do potencial do cedente:
+
+        referência = MAX( (A) Quadro 14 VIGENTE ;  (B) VTcd da Declaração corrigido por IPCA §2º )
+
+    (A) PISO de prospecção — Quadro 14 vigente (ano-ref 2026, Dec. 64.884/2025); é o que o produto usa hoje.
+    (B) TETO §2º — só entra QUANDO há Declaração com valor de terreno (`vtcd_declaracao`) E as datas
+        (`mes_ref` da Declaração + `mes_protocolo` da Certidão): VTcd_declaração × fator_ipca(§2º).
+    Devolve o MAX, a BASE VENCEDORA (citada) e AMBOS os cenários lado a lado (piso+teto, 1.3 — nunca esconde
+    a base perdedora). Sem (B): devolve só (A) — 100% compatível com a prospecção de hoje. O engine NÃO
+    adivinha a data-ref nem a série IPCA (1.3): tudo é ENTRADA rastreável. 'O vendedor não deve receber menos
+    que o maior valor que a própria lei lhe assegura' (Art. 128 §1º piso + §2º teto)."""
+    # (A) — piso: Quadro 14 vigente, sem §2º
+    ref_a = referencia_art128(pcpt, vtcd_vigente, via=via, camaxcd=camaxcd, esquina=esquina)
+    cenarios = [{
+        "base": "A", "rotulo": "Quadro 14 vigente (piso — Art. 125 §2º / Dec. 64.884/2025, ano-ref 2026)",
+        "referencia_brl": ref_a["referencia_brl"], "numerador_brl": ref_a["numerador_brl"],
+        "vtcd_aplicado_m2": ref_a["vtcd_corrigido_m2"], "detalhe": ref_a,
+    }]
+    if vtcd_declaracao is not None:
+        if not (mes_ref and mes_protocolo):
+            raise ValueError("base (B) do MAX exige mes_ref E mes_protocolo (Art. 128 §2º) para corrigir o "
+                             "VTcd da Declaração pelo IPCA — sem as datas o §2º não se aplica (só o piso A)")
+        ref_b = referencia_art128(pcpt, vtcd_declaracao, via=via, camaxcd=camaxcd, esquina=esquina,
+                                  mes_ref=mes_ref, mes_protocolo=mes_protocolo)
+        cenarios.append({
+            "base": "B", "rotulo": "VTcd da Declaração × IPCA (teto — Art. 128 §2º)",
+            "referencia_brl": ref_b["referencia_brl"], "numerador_brl": ref_b["numerador_brl"],
+            "vtcd_aplicado_m2": ref_b["vtcd_corrigido_m2"], "detalhe": ref_b,
+        })
+    vencedora = max(cenarios, key=lambda c: Decimal(c["referencia_brl"]))
+    memoria = ("MAX( " + " ; ".join(f"{c['base']}=R$ {c['referencia_brl']}" for c in cenarios)
+               + f" ) = R$ {vencedora['referencia_brl']}  (base {vencedora['base']}: {vencedora['rotulo']})")
+    disp = ("Art. 128 (PDE) — §1º (piso, Quadro 14 vigente)"
+            + (" vs §2º (teto, IPCA); MAX = maior valor assegurado ao cedente" if len(cenarios) > 1
+               else "; sem Declaração protocolada, §2º N/A → só o piso"))
+    return {
+        "referencia_max_brl": vencedora["referencia_brl"],
+        "numerador_max_brl": vencedora["numerador_brl"],
+        "base_vencedora": vencedora["base"],
+        "base_vencedora_rotulo": vencedora["rotulo"],
+        "cenarios": [{k: v for k, v in c.items() if k != "detalhe"} for c in cenarios],
+        "detalhe": {c["base"]: c["detalhe"] for c in cenarios},
+        "memoria_calculo": memoria,
+        "citacao": {"dispositivo": disp, "fonte": LEI},
+    }
+
+
 def _autoteste():
     # Constante legal ancorada de forma independente (verbatim §1º): via-125 ⇒ CAmaxcd = 4.
     assert CAMAXCD_VIA125 == Decimal("4")
@@ -273,6 +322,30 @@ def _autoteste():
             referencia_art128(**bad); raise AssertionError(f"deveria rejeitar {bad}")
         except ValueError:
             pass
+
+    # ── OP-1b: MAX(A vigente ; B Declaração×IPCA §2º) ──────────────────────────────────────────────
+    serie = carregar_ipca()
+    # (i) sem base B → só o piso A (compatível com a prospecção de hoje).
+    m_soA = referencia_max_art128("1000", "3000")
+    assert m_soA["base_vencedora"] == "A" and m_soA["referencia_max_brl"] == "750000.00", m_soA
+    assert len(m_soA["cenarios"]) == 1, m_soA
+    # (ii) base B VENCE: VTcd_decl 2000 corrigido de jan/2014 (fator ~1,93) supera o piso vigente 3000.
+    fB, _ = fator_ipca("2014-01", "2026-07", serie=serie)
+    refB_esp = ((Decimal("1000") * (Decimal("2000") * fB).quantize(Q2, ROUND_HALF_UP)) / CAMAXCD_VIA125).quantize(Q2, ROUND_HALF_UP)
+    refA_esp = Decimal("750000.00")
+    mB = referencia_max_art128("1000", "3000", vtcd_declaracao="2000", mes_ref="2014-01", mes_protocolo="2026-07")
+    assert refB_esp > refA_esp, (refB_esp, refA_esp)                          # sanidade do fixture
+    assert mB["base_vencedora"] == "B", mB
+    assert mB["referencia_max_brl"] == str(refB_esp), (mB["referencia_max_brl"], refB_esp)
+    assert len(mB["cenarios"]) == 2 and mB["cenarios"][0]["referencia_brl"] == "750000.00", mB
+    # (iii) base A VENCE: VTcd_decl 1000 (baixo) mesmo corrigido não alcança o piso vigente 3000.
+    mA = referencia_max_art128("1000", "3000", vtcd_declaracao="1000", mes_ref="2014-01", mes_protocolo="2026-07")
+    assert mA["base_vencedora"] == "A" and mA["referencia_max_brl"] == "750000.00", mA
+    # (iv) base B sem as datas → fail-closed (§2º exige mes_ref+mes_protocolo).
+    try:
+        referencia_max_art128("1000", "3000", vtcd_declaracao="2000"); raise AssertionError("deveria exigir datas p/ B")
+    except ValueError:
+        pass
     return r, ri
 
 
@@ -310,3 +383,12 @@ if __name__ == "__main__":
     refi = referencia_art128(str(pcpt_m2), "2819,20", mes_ref="2020-01", mes_protocolo="2026-07")
     print(f"     VTcd corrigido: R$ 2.819,20 → R$ {refi['vtcd_corrigido_m2']}/m²  (IPCA índice jun/26 ÷ jan/20, IBGE/SIDRA 1737)")
     print(f"     Referência (÷4): R$ {refi['referencia_brl']}    |    Numerador: R$ {refi['numerador_brl']}")
+
+    print("\n  OP-1b — REFERÊNCIA MÁXIMA = MAX(A piso vigente ; B Declaração×IPCA §2º), cada base citada:")
+    mx = referencia_max_art128(str(pcpt_m2), "2819,20", vtcd_declaracao="1500,00",
+                               mes_ref="2014-01", mes_protocolo="2026-07")
+    for c in mx["cenarios"]:
+        marca = "◄ VENCE" if c["base"] == mx["base_vencedora"] else "        "
+        print(f"     ({c['base']}) VTcd aplicado R$ {c['vtcd_aplicado_m2']:>10}/m² → referência R$ {c['referencia_brl']:>14}  {marca}  [{c['rotulo']}]")
+    print(f"     → {mx['memoria_calculo']}")
+    print(f"       [{mx['citacao']['dispositivo']}]")
