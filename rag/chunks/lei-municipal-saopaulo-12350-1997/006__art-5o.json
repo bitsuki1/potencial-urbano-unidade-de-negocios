@@ -1,0 +1,44 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-12350-1997::006-art-5o",
+  "lei_id": "lei-municipal-saopaulo-12350-1997",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 5º",
+  "numero": "5",
+  "header_raw": "Art. 5º A Comissão PROCENTRO constatará o início da obra e realizará vistorias periódicas para verificar o seu andamento, na conformidade do projeto aprovado, bem como o estado de conservação das edificações, cujos proprietários pleitearem o benefício nos termos do § 1º do artigo 1º desta Lei.",
+  "caminho_hierarquico": [
+    "Art. 5º"
+  ],
+  "texto": "Art. 5º A Comissão PROCENTRO constatará o início da obra e realizará vistorias periódicas para verificar o seu andamento, na conformidade do projeto aprovado, bem como o estado de conservação das edificações, cujos proprietários pleitearem o benefício nos termos do § 1º do artigo 1º desta Lei.\n\nParágrafo único. Constatada a paralisação da obra ou sua desconformidade com o projeto aprovado, o certificado deverá ser cancelado, cientificando-se a Secretaria das Finanças - SF para a cobrança da importância equivalente ao benefício, exercício a exercício, atualizada monetariamente e acrescida de juros de mora, desde as datas originariamente assinaladas para pagamento integral do imposto, sendo:\n\nI - com imposição de multa moratória e sem prejuízo das medidas criminais cabíveis, nos casos de dolo, fraude ou simulação do interessado ou de terceiro em benefício dele;\n\nII - sem imposição de multa moratória, nos demais casos.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 12.350/1997 — São Paulo/SP",
+    "dispositivo": "Art. 5º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-12350-de-6-de-junho-de-1997",
+    "vigencia": {
+      "em_vigor": true,
+      "observacao": "Regulamentada pelo Decreto 37.302/1998 ('Lei das Fachadas'). Verificar na re-captura se ha alteracoes/revogacoes posteriores.",
+      "inicio": "1997-06-06",
+      "obs": "inicio = data da lei (proxy da publicação, convenção do corpus); cláusula verbatim: Art. 9º Esta Lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário."
+    }
+  },
+  "tema": [
+    "fachadas",
+    "restauro",
+    "preservacao",
+    "incentivo_fiscal",
+    "tombados"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Concede incentivo fiscal aos proprietários de imóveis ou aos patrocinadores das obras de recuperação externa e conservação de imóveis localizados na Área Especial de Intervenção objeto do Programa de Requalificação Urbana e Funcional do Centro de São Paulo - PROCENTRO (ou equivalente), e dá outras providências."
+}

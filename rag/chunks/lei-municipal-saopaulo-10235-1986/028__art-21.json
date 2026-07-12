@@ -1,0 +1,45 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-10235-1986::028-art-21",
+  "lei_id": "lei-municipal-saopaulo-10235-1986",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 21",
+  "numero": "21",
+  "header_raw": "Art. 21. Para efeito de cálculo dos Impostos sobre a Propriedade Predial e Territorial Urbana incidentes sobre os imóveis localizados além do perímetro da 2ª subdivisão da zona urbana inclusive os localizados nas áreas urbanizáveis ou de expansão urbana, definidas no artigo 1º da Lei nº 9.195, de 18 de dezembro de 1980 – serão concedidos descontos, no exercício de 1987, sobre o valor venal apurado de acordo com esta Lei, na seguinte conformidade:",
+  "caminho_hierarquico": [
+    "Art. 21"
+  ],
+  "texto": "Art. 21. Para efeito de cálculo dos Impostos sobre a Propriedade Predial e Territorial Urbana incidentes sobre os imóveis localizados além do perímetro da 2ª subdivisão da zona urbana inclusive os localizados nas áreas urbanizáveis ou de expansão urbana, definidas no artigo 1º da Lei nº 9.195, de 18 de dezembro de 1980 – serão concedidos descontos, no exercício de 1987, sobre o valor venal apurado de acordo com esta Lei, na seguinte conformidade:\n\nI – quando se tratar de prédio:\n\na) do Tipo 1, padrão “A”, utilizado exclusivamente como residência:\n\n| Faixa de área edificada em que se enquadra o imóvel | Desconto correspondente % |\n\n| até 100m2 | 66 |\n\n| acima de 101m2 até 150m2 | 42 |\n\n| acima de 151m2 até 200m2 | 37 |\n\n| acima de 201m2 até 250m2 | 32 |\n\n| acima de 251m2 até 300m2 | 26 |\n\n| acima de 300m2 | 10 |\n\nb) de Tipo 1, padrão “B” ou “C”, utilizado exclusivamente como residência:\n\n| Faixa de área edificada em que se enquadra o imóvel | Desconto correspondente % |\n\n| até 100m2 | 58 |\n\n| acima de 101m2 até 150m2 | 39 |\n\n| acima de 151m2 até 200m2 | 31 |\n\n| acima de 201m2 até 250m2 | 25 |\n\n| c) demais tipos e padrões: \"nihil\". | |\n\nc) demais tipos e padrões: “nihil”.\n\n| Faixa de terreno em que se enquadra o imóvel | Desconto correspondente % |\n\n| até 250m2 | 65 |\n\n| acima de 251m2 até 300m2 | 35 |\n\nII – quando se tratar de terreno:\n\nParágrafo único. Não será concedido desconto sobre o valor venal do excesso de área, como definido no inciso I, do artigo 9º, desta Lei.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 10.235/1986 — São Paulo/SP",
+    "dispositivo": "Art. 21",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-10235-de-16-de-dezembro-de-1986",
+    "vigencia": {
+      "em_vigor": true,
+      "observacao": "Vigente; valores e tabelas atualizados por leis posteriores (cadeia PGV).",
+      "alterada_por": [
+        "Lei Municipal SP no 18.330, de 11/11/2025 — a partir de 1o/1/2026, a Tabela VI (valores de construcao) e a Listagem de Valores Unitarios de Terreno passam a vigorar conforme os Anexos I e II da 18.330. Fonte: legislacao.prefeitura.sp.gov.br/leis/lei-18330-de-11-de-novembro-de-2025 (verbatim a capturar). NAO alterou a Tabela IV (obsolescencia)."
+      ],
+      "inicio": "1986-12-16",
+      "obs": "inicio = data da lei (proxy da publicação, convenção do corpus); cláusula verbatim: Art. 25. Esta Lei entrará em vigor na data de sua publicação, produzindo afeitos a partir de 1º de janeiro de 1987, revogadas as disposições em contrário, especialmente os artigos 8º e parágrafos,16 e parágrafos, 28 e pa"
+    }
+  },
+  "tema": [
+    "PGV",
+    "valor_venal",
+    "calculo"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a forma de apuração do valor venal de imóveis, para efeito de lançamento dos Impostos sobre a Propriedade Predial e Territorial Urbana, concede descontos sobre os valores venais dos imóveis sujeitos à incidência desses impostos no exercício de 1987, e dá outras providências."
+}

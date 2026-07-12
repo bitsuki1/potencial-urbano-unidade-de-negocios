@@ -4,13 +4,13 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 29",
   "numero": "29",
-  "header_raw": "Art. 29. O art. 79 da Lei nº 16.050, de 2014, passa a vigorar acrescido dos §§ 9º e 10 com a seguinte",
+  "header_raw": "Art. 29. O art. 79 da Lei nº 16.050, de 2014, passa a vigorar acrescido dos §§ 9º e 10 com a seguinte redação:",
   "caminho_hierarquico": [
     "CAPÍTULO II",
     "Seção III",
     "Art. 29"
   ],
-  "texto": "Art. 29. O art. 79 da Lei nº 16.050, de 2014, passa a vigorar acrescido dos §§ 9º e 10 com a seguinte\n\nredação:\n\n“Art. 79. .....................................................................................\n\n....................................................................................................\n\n§ 9º Nas áreas de influência dos eixos, a cota máxima de terreno por unidade habitacional poderá ser\n\nsuperada, até o limite de 30 m² (trinta metros quadrados) de terreno por unidade, mediante aplicação\n\nde Fator Social na seguinte conformidade:\n\nI - para as unidades de área maior que 70m² (setenta metros quadrados), variando de 1 (um) a 2 (dois),\n\nna proporção da cota-parte utilizada entre 20m² (vinte metros quadrados) e 30m² (trinta metros\n\nquadrados) de terreno por unidade;\n\nII - para as demais unidades, conforme o disposto no Quadro 5 da Lei.\n\n§ 10. A cota-parte mínima de terreno poderá ser superior a 30 desde que seja aplicado Fator Social\n\n(FS) 3 (três) para qualquer uso.” (NR)",
+  "texto": "Art. 29. O art. 79 da Lei nº 16.050, de 2014, passa a vigorar acrescido dos §§ 9º e 10 com a seguinte redação:\n\n“Art. 79. .....................................................................................\n\n....................................................................................................\n\n§ 9º Nas áreas de influência dos eixos, a cota máxima de terreno por unidade habitacional poderá ser superada, até o limite de 30 m² (trinta metros quadrados) de terreno por unidade, mediante aplicação de Fator Social na seguinte conformidade:\n\nI - para as unidades de área maior que 70m² (setenta metros quadrados), variando de 1 (um) a 2 (dois), na proporção da cota-parte utilizada entre 20m² (vinte metros quadrados) e 30m² (trinta metros quadrados) de terreno por unidade;\n\nII - para as demais unidades, conforme o disposto no Quadro 5 da Lei.\n\n§ 10. A cota-parte mínima de terreno poderá ser superior a 30 desde que seja aplicado Fator Social (FS) 3 (três) para qualquer uso.” (NR)",
   "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
@@ -22,7 +22,7 @@
   "citacao": {
     "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
     "dispositivo": "CAPÍTULO II › Seção III › Art. 29",
-    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17975-de-8-de-julho-de-2023",
     "vigencia": {
       "inicio": "2023-07-08",
       "fim": null,

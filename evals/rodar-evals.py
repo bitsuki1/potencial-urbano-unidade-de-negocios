@@ -81,16 +81,20 @@ def main():
 
     total = ok = falhou = 0
     falhas_ativas = itens_ativos = 0
+    cov = {}   # R6: {lei_id: nº de itens ATIVOS} — cobertura de evals por lei
     for arq in arquivos:
         gt = json.loads(arq.read_text(encoding="utf-8"))
         _status = gt.get("status", "")
-        aguardando = _status in ("aguardando_verbatim", "aguardando_engine")
+        aguardando = _status in ("aguardando_verbatim", "aguardando_engine", "aguardando_pgv")
         marca = f"  [AGUARDANDO ({_status}) — não bloqueia build]" if aguardando else ""
         print(f"\n=== {arq.name} (domínio {gt.get('dominio','?')}){marca} ===")
         for item in gt.get("itens", []):
             total += 1
             if not aguardando:
                 itens_ativos += 1
+                lei = (item.get("espera") or {}).get("lei_id")
+                if lei:
+                    cov[lei] = cov.get(lei, 0) + 1
             passou, detalhe = checar_item(item)
             status = "PASS" if passou else "FALHA"
             if passou:
@@ -103,6 +107,19 @@ def main():
 
     print(f"\nRESUMO: {ok}/{total} PASS, {falhou} falhas "
           f"({falhas_ativas} em ground-truth ATIVO; {itens_ativos} itens ativos executados).")
+
+    # R6 (política de cobertura, M4) — evals por lei + RATCHET de não-regressão. O alvo é levar TODA lei
+    # indexada a >=2 evals próprios; enquanto isso não fecha, a trava garante que a cobertura NÃO REGRIDE.
+    LEIS_COM_2_EVALS_MIN = 5   # baseline 2026-07-11 (15889, 7228, 16050, 16402, 57536). Sobe, nunca desce.
+    com2 = sum(1 for c in cov.values() if c >= 2)
+    detalhe_cov = ", ".join(f"{'-'.join(l.split('-')[-2:])}:{c}" for l, c in sorted(cov.items(), key=lambda x: -x[1]))
+    print(f"[R6] cobertura de evals por lei: {len(cov)} leis com eval, {com2} com >=2 "
+          f"(baseline {LEIS_COM_2_EVALS_MIN}). Por lei (ano:qtde): {detalhe_cov}")
+    if com2 < LEIS_COM_2_EVALS_MIN:
+        print(f"GATE VERMELHO (R6): só {com2} leis com >=2 evals ativos (< baseline {LEIS_COM_2_EVALS_MIN}) "
+              f"— a cobertura por lei REGREDIU. Restaure/adicione evals.", file=sys.stderr)
+        sys.exit(1)
+
     if itens_ativos < MIN_ITENS_ATIVOS:
         print(f"GATE VERMELHO: só {itens_ativos} itens ATIVOS (< {MIN_ITENS_ATIVOS}). "
               f"Suíte sem cobertura ativa = evals provam NADA (F-1/F-2). Restaure os ground-truth ATIVOS.",

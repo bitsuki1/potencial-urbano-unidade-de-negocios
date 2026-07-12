@@ -1,0 +1,44 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-14865-2008::010-art-6o",
+  "lei_id": "lei-municipal-saopaulo-14865-2008",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 6º",
+  "numero": "6",
+  "header_raw": "Art. 6°. O inciso II do \"caput\" e o § 4º do art. 9º e o § 2º do art. 10, ambos da Lei nº 13.701, de 24 de dezembro de 2003, com as respectivas alterações posteriores, passam a vigorar com a seguinte redação:",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 6º"
+  ],
+  "texto": "Art. 6°. O inciso II do \"caput\" e o § 4º do art. 9º e o § 2º do art. 10, ambos da Lei nº 13.701, de 24 de dezembro de 2003, com as respectivas alterações posteriores, passam a vigorar com a seguinte redação:\n\n\"Art. 9°. ............................................................\n\nII - as pessoas jurídicas, ainda que imunes ou isentas, e os condomínios edilícios residenciais ou comerciais, quando tomarem ou intermediarem os serviços:\n\na) descritos nos subitens 3.04, 7.09, 7.10, 7.12, 7.14, 11.02, 17.05 e 17.09 da lista do \"caput\" do art. 1º, a eles prestados dentro do território do Município de São Paulo;\n\nb) descritos nos subitens 7.02, 7.04, 7.05, 7.11, 7.15, 7.17 e 16.01 da lista do \"caput\" do art. 1º, a eles prestados dentro do território do Município de São Paulo por prestadores de serviços estabelecidos fora do Município de São Paulo;\n\n................................................................................\n\n§ 4º. Independentemente da retenção do imposto na fonte a que se referem o \"caput\" e o § 3°, fica o responsável tributário obrigado a recolher o imposto integral, multa e demais acréscimos legais, na conformidade da legislação, eximida, neste caso, a responsabilidade do prestador de serviços.\n\n..........................................................................\" (NR)\n\n\"Art. 10. ......................................................................\n\n§ 2°. O prestador de serviços responde pelo recolhimento do imposto integral, multa e demais acréscimos legais, na conformidade da legislação, no período compreendido entre a data em que deixar de se enquadrar em qualquer das condições previstas nos incisos II a IV do \"caput\" deste artigo e a data da notificação do desenquadramento, ou quando a comprovação a que se refere o § 1° for prestada em desacordo com a legislação municipal.\" (NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 14.865/2008 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Art. 6º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-14865-de-29-de-dezembro-de-2008",
+    "vigencia": {
+      "em_vigor": true,
+      "observacao": "Vigente (beneficio com termo final 31/12/2030 para a hipotese ZEIS/CDHU). Confirmar alteracoes posteriores.",
+      "inicio": "2008-12-29",
+      "obs": "inicio = data da lei (proxy da publicação, convenção do corpus); cláusula verbatim: Art. 16. Esta lei entrará em vigor na data de sua publicação."
+    }
+  },
+  "tema": [
+    "habitacional_popular",
+    "HIS",
+    "ZEIS",
+    "isencao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Concede isenção do Imposto Predial e Territorial Urbano (IPTU) em condições específicas (inclusive habitação de interesse social / ZEIS), altera dispositivos de leis tributárias e dá outras providências."
+}

@@ -1,0 +1,62 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-6989-1966::140-art-61",
+  "lei_id": "lei-municipal-saopaulo-6989-1966",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 61",
+  "numero": "61",
+  "header_raw": "Art. 61 - São isentas do imposto as prestações de serviços efetuadas por:",
+  "caminho_hierarquico": [
+    "TITULO I",
+    "CAPITULO IV",
+    "SEÇÃO IV",
+    "Art. 61"
+  ],
+  "texto": "Art. 61 - São isentas do imposto as prestações de serviços efetuadas por:\n\nI – diretores e membros do conselho fiscal, consultivo, ou administrativos de pessoas jurídicas;\n\nII – proprietário de uma única viatura dirigida por ele próprio, sem qualquer auxiliar ou associado;\n\nII - proprietário de uma única viatura de aluguel, dirigida por ele próprio, no transporte de passageiros, sem qualquer auxiliar ou associado;(Redação dada pela Lei nº 7.228/1968)\n\nIII – profissional, no seu domicilio, sem porta aberta para a via pública, por conta própria e sem empregados, sem reclames ou letreiros, com receita bruta anual até Cr$ 1.000.000 (um milhão de cruzeiros), não sendo considerado empregado os filhos e a mulher do responsável;\n\nIV – casas de caridade, sociedades de socorros mútuos ou estabelecimentos de fins humanitários e assistenciais, sem finalidade lucrativa;\n\nV – associações culturais e desportivas sem venda de poules ou talões de apostas;\n\nVI – pensões familiares que tenham até 5 pensionistas;\n\nVII – sapateiros remendões que trabalhem individualmente, sem empregados e por conta própria;\n\nVIII – engraxates ambulantes;\n\nIX – empresas jornalísticas e estações rádio-emissoras legalmente sediadas no Município, exceto quanto a estas ultimas, os casos expressamente referidos na letra “e” do inciso I do parágrafo único do artigo 49;\n\nX – locadores de livros novos ou usados, observadas as exigências da Lei nº 4.333, de 30 de dezembro de 1952;\n\nXI – restaurantes, farmácias, bares e cafés mantidos por estabelecimentos, sindicatos ou associações, para fornecimento exclusivo a seus empregados ou associados;\n\nXII – empresários de espetáculos teatrais ou circenses, nos termos da legislação municipal;\n\nXIII – promoventes de concertos, recitais, “shows” avant-premiéres cinematográficas, exposições, quermesses e espetáculos similares, realizados para fins assistenciais, observados prazos, forma e condições da legislação municipal;\n\nXIV – parques zoológicos, nos termos da Lei nº 6.758, de 29 de novembro de 1965.\n\nParágrafo único - As isenções previstas neste artigo dependem de requerimento anual instruído na forma regulamentar, salvo as do item XIII, que, por facultativas, a juízo da autoridade municipal competente, devem ser solicitadas antecipadamente a cada espetáculo.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "1968",
+    "norma_redacao": "Lei nº 7.228/1968"
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 6.989/1966 — São Paulo/SP",
+    "dispositivo": "TITULO I › CAPITULO IV › SEÇÃO IV › Art. 61",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-6989-de-29-de-dezembro-de-1966",
+    "vigencia": {
+      "inicio": "1967-01-01",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 10.394/1987",
+        "Lei 10.805/1989",
+        "Lei 10.921/1990",
+        "Lei 11.152/1991",
+        "Lei 11.334/1992",
+        "Lei 12.782/1998",
+        "Lei 13.250/2001",
+        "Lei 15.889/2013"
+      ],
+      "obs": "texto COMPILADO do portal oficial, com anotações de alteração por dispositivo; lista alterada_por = anotações verificadas no texto (não exaustiva)"
+    }
+  },
+  "tema": [
+    "sistema_tributario_municipal",
+    "imposto_predial",
+    "imposto_territorial_urbano",
+    "valor_venal",
+    "aliquota_progressiva",
+    "fato_gerador",
+    "isencao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o sistema tributário do Município e da outras providências."
+}

@@ -1,0 +1,43 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-11338-1992::005-art-2o",
+  "lei_id": "lei-municipal-saopaulo-11338-1992",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 2º",
+  "numero": "2",
+  "header_raw": "Art. 2º Fica concedido desconto de 50% (cinquenta por cento) no Imposto Territorial Urbano incidente sobre os terrenos considerados não construídos, nos termos dos incisos I, II e IV do artigo 24 da Lei nº 6989, de 29 de dezembro de 1966, localizados na Área de Proteção aos Mananciais, definida nas Leis Estaduais nº 898, de 18 de dezembro de 1975 e nº 1172, de 17 de novembro de 1976.",
+  "caminho_hierarquico": [
+    "Art. 2º"
+  ],
+  "texto": "Art. 2º Fica concedido desconto de 50% (cinquenta por cento) no Imposto Territorial Urbano incidente sobre os terrenos considerados não construídos, nos termos dos incisos I, II e IV do artigo 24 da Lei nº 6989, de 29 de dezembro de 1966, localizados na Área de Proteção aos Mananciais, definida nas Leis Estaduais nº 898, de 18 de dezembro de 1975 e nº 1172, de 17 de novembro de 1976.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 11.338/1992 — São Paulo/SP",
+    "dispositivo": "Art. 2º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-11338-de-30-de-dezembro-de-1992",
+    "vigencia": {
+      "em_vigor": true,
+      "observacao": "Vigente; alterada por Lei 14.125/2005 e Lei 14.256/2006; relaciona-se com Lei 16.402/2016 (zoneamento).",
+      "inicio": "1992-12-30",
+      "obs": "inicio = data da lei (proxy da publicação, convenção do corpus); cláusula verbatim: Art. 4º Esta Lei entrará em vigor na data de sua publicação, produzindo efeitos a partir de 1º de janeiro de 1993, revogadas as disposições em contrário."
+    }
+  },
+  "tema": [
+    "mananciais",
+    "ZEPAM",
+    "isencao",
+    "meio_ambiente"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Concede isenção e desconto do Imposto Territorial Urbano incidente sobre imóveis situados em área de proteção aos mananciais, e dá outras providências."
+}

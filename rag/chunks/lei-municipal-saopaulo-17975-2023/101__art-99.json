@@ -4,12 +4,12 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 99",
   "numero": "99",
-  "header_raw": "Art. 99. O art. 314 da Lei nº 16.050, de 2014, passa a vigorar acrescido dos §§ 6º, 7º e 8º, com a",
+  "header_raw": "Art. 99. O art. 314 da Lei nº 16.050, de 2014, passa a vigorar acrescido dos §§ 6º, 7º e 8º, com a seguinte alteração:",
   "caminho_hierarquico": [
     "CAPÍTULO X",
     "Art. 99"
   ],
-  "texto": "Art. 99. O art. 314 da Lei nº 16.050, de 2014, passa a vigorar acrescido dos §§ 6º, 7º e 8º, com a\n\nseguinte alteração:\n\n“Art. 314. ...................................................................................\n\n....................................................................................................\n\n§ 6º Fica criado o TICP Bixiga, que inclui o bairro do Bixiga, cujo perímetro e objetivos específicos\n\ndeverão ser previstos em lei específica.\n\n§ 7º Fica criado o TICP Represas, que inclui as represas Billings e Guarapiranga, cujo perímetro e\n\nobjetivos deverão ser previstos em lei específica.\n\n§ 8º O perímetro do TICP Bixiga, delimitado nos termos da Resolução 22/2002 do Conselho do\n\nPatrimônio Histórico e Cultural e Ambiental da Cidade de São Paulo, fica excluído da Zona de\n\nEstruturação Urbana até que seja formulado seu plano específico de reordenamento do território, de\n\nacordo com o § 6º deste artigo, que deverá incluir articulação com políticas habitacionais que garantam\n\na manutenção da população residente e do perfil racial deste perímetro, usando como parâmetro o\n\nperfil racial do último censo.” (NR)",
+  "texto": "Art. 99. O art. 314 da Lei nº 16.050, de 2014, passa a vigorar acrescido dos §§ 6º, 7º e 8º, com a seguinte alteração:\n\n“Art. 314. ...................................................................................\n\n....................................................................................................\n\n§ 6º Fica criado o TICP Bixiga, que inclui o bairro do Bixiga, cujo perímetro e objetivos específicos deverão ser previstos em lei específica.\n\n§ 7º Fica criado o TICP Represas, que inclui as represas Billings e Guarapiranga, cujo perímetro e objetivos deverão ser previstos em lei específica.\n\n§ 8º O perímetro do TICP Bixiga, delimitado nos termos da Resolução 22/2002 do Conselho do Patrimônio Histórico e Cultural e Ambiental da Cidade de São Paulo, fica excluído da Zona de Estruturação Urbana até que seja formulado seu plano específico de reordenamento do território, de acordo com o § 6º deste artigo, que deverá incluir articulação com políticas habitacionais que garantam a manutenção da população residente e do perfil racial deste perímetro, usando como parâmetro o perfil racial do último censo.” (NR)",
   "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
@@ -21,7 +21,7 @@
   "citacao": {
     "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
     "dispositivo": "CAPÍTULO X › Art. 99",
-    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17975-de-8-de-julho-de-2023",
     "vigencia": {
       "inicio": "2023-07-08",
       "fim": null,

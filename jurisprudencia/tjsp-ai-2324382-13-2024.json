@@ -1,0 +1,43 @@
+{
+  "id": "tjsp-ai-2324382-13-2024",
+  "tipo": "acordao",
+  "tribunal": "TJSP",
+  "numero": "2324382-13.2024.8.26.0000",
+  "orgao_julgador": "5a Camara de Direito Privado",
+  "relator": "Des. J.L. Monaco da Silva",
+  "data_julgamento": "2024-12-13",
+  "tema_rg_ou_repetitivo": null,
+  "leading_case": null,
+  "enunciado_ou_tese": "Correlato ao 2257458-20 (mesmo relator): tentativa de penhora do PROPRIO potencial construtivo. O tribunal definiu o potencial construtivo como declaracao de possibilidade de edificacao vinculada a imovel com restricoes administrativas; afirmou que a TDC visa viabilizar a preservacao de bens tombados (Lei 10.257/2001 - Estatuto da Cidade - e Lei 16.050/2014) e manteve a rejeicao da penhora por desvirtuar a finalidade do instituto.",
+  "tema": [
+    "potencial-construtivo",
+    "penhora",
+    "impenhorabilidade"
+  ],
+  "dispositivos_relacionados": [
+    "Lei Federal no 10.257/2001 (Estatuto da Cidade)",
+    "Lei Municipal SP no 16.050/2014"
+  ],
+  "situacao": "vigente",
+  "vigencia": {
+    "inicio": "2024-12-13",
+    "fim": null,
+    "nota": "acordao (resumo de metadados)"
+  },
+  "fonte": {
+    "origem": "web-extensao-resumo",
+    "url": "TJSP e-SAJ (consulta processual 2o grau) — https://esaj.tjsp.jus.br/cposg/open.do",
+    "hash": "sha256:fd8b1a183060b3299cb5daa8b0f4a90cd162f4d3d6ffd0d3b4cfaaed86431b05",
+    "hash_alvo": "jurisprudencia/tjsp-ai-2324382-13-2024.md",
+    "captura_verbatim": null,
+    "hash_nota": "hash do .md (FICHA de metadados). Inteiro teor NAO reproduzido (direitos autorais); verbatim a capturar no portal."
+  },
+  "status_pipeline": "indexado",
+  "confianca_extracao": "media",
+  "revisado_por_humano": false,
+  "verificacao_verbatim": "RESUMO em linguagem propria (extensao) — inteiro teor NAO reproduzido por direitos autorais. Identificacao (processo/orgao/relator/data) confere.",
+  "dominio_primario": "tdc",
+  "dominio": [
+    "tdc"
+  ]
+}

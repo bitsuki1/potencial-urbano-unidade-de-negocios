@@ -1,0 +1,43 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-10365-1987::026-art-16",
+  "lei_id": "lei-municipal-saopaulo-10365-1987",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 16",
+  "numero": "16",
+  "header_raw": "Art. 16 - Qualquer árvore do Município deverá ser declarada imune ao corte, mediante ato do Executivo Municipal, por motivo de sua localização, raridade, antiguidade, de seu interesse histórico, científico ou paisagístico, ou de sua condição de porta-sementes.(Revogado pela Lei nº 17.794/2022)",
+  "caminho_hierarquico": [
+    "Capítulo II",
+    "Art. 16"
+  ],
+  "texto": "Art. 16 - Qualquer árvore do Município deverá ser declarada imune ao corte, mediante ato do Executivo Municipal, por motivo de sua localização, raridade, antiguidade, de seu interesse histórico, científico ou paisagístico, ou de sua condição de porta-sementes.(Revogado pela Lei nº 17.794/2022)\n\n§ 1º - Qualquer interessado poderá solicitar a declaração de imunidade ao corte, através de pedido escrito ao Prefeito, incluindo a localização precisa da árvore, características gerais relacionadas com a espécie, o porte e a justificativa para a sua proteção.\n\n§ 2º - Para os efeitos deste artigo, compete ao Departamento de Parques e Áreas Verdes - DEPAVE:\n\na) emitir parecer conclusivo sobre a procedência da solicitação e encaminhá-la à Superior Administração, para a decisão cabível;\n\nb) cadastrar e identificar, por meio de placas indicativas, as árvores declaradas imunes ao corte;\n\nc) dar apoio técnico à preservação dos espécimes protegidos.\n\nCapítulo III\n\nDos Incentivos Fiscais",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 10.365/1987 — São Paulo/SP",
+    "dispositivo": "Capítulo II › Art. 16",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-10365-de-22-de-setembro-de-1987",
+    "vigencia": {
+      "em_vigor": true,
+      "observacao": "Vigente; alterada pela Lei 17.267/2020 (e relaciona-se com a Lei 10.919/1990).",
+      "inicio": "1987-09-22",
+      "obs": "inicio = data da lei (proxy da publicação, convenção do corpus); cláusula verbatim: Art. 27 - Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário."
+    }
+  },
+  "tema": [
+    "vegetacao",
+    "APP",
+    "meio_ambiente"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Disciplina o corte e a poda de vegetação de porte arbóreo existente no Município de São Paulo e dá outras providências."
+}

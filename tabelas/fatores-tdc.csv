@@ -1,0 +1,25 @@
+id,categoria,fator,valor,lado,dispositivo,fonte_tabela_csv,chunk_id,eval_id,verificado
+FI-01,Fi,Fi escalonado por area do lote (ate 500 m2),1.2,cedente,LPUOS Art. 24 I,fi-zepec-area-lpuos.csv,lei-municipal-saopaulo-16402-2016::025-art-24,evals/eval-produto.py,sim
+FI-02,Fi,Fi escalonado por area (500 a 1000 m2),1.0,cedente,LPUOS Art. 24 II,fi-zepec-area-lpuos.csv,lei-municipal-saopaulo-16402-2016::025-art-24,evals/eval-produto.py,sim
+FI-03,Fi,Fi escalonado por area (1000 a 5000 m2),0.9,cedente,LPUOS Art. 24 III,fi-zepec-area-lpuos.csv,lei-municipal-saopaulo-16402-2016::025-art-24,evals/eval-produto.py,sim
+FI-04,Fi,Fi escalonado por area (5000 a 10000 m2),0.7,cedente,LPUOS Art. 24 IV,fi-zepec-area-lpuos.csv,lei-municipal-saopaulo-16402-2016::025-art-24,evals/eval-produto.py,sim
+FI-05,Fi,Fi escalonado por area (10000 a 20000 m2),0.5,cedente,LPUOS Art. 24 V,fi-zepec-area-lpuos.csv,lei-municipal-saopaulo-16402-2016::025-art-24,evals/eval-produto.py,sim
+FI-06,Fi,Fi escalonado por area (20000 a 40000 m2),0.2,cedente,LPUOS Art. 24 VI,fi-zepec-area-lpuos.csv,lei-municipal-saopaulo-16402-2016::025-art-24,evals/eval-produto.py,sim
+FI-07,Fi,Fi escalonado por area (acima de 40000 m2),0.1,cedente,LPUOS Art. 24 VII,fi-zepec-area-lpuos.csv,lei-municipal-saopaulo-16402-2016::025-art-24,evals/eval-produto.py,sim
+FID-01,Fi,Fi doacao — corredor de onibus,2.0,cedente,PDE Art. 127 §1o I,fi-incentivo-doacao.csv,lei-municipal-saopaulo-16050-2014::132-art-127,engines/tdc/pcpt.py,sim
+FID-02,Fi,Fi doacao — HIS,1.9,cedente,PDE Art. 127 §1o II,fi-incentivo-doacao.csv,lei-municipal-saopaulo-16050-2014::132-art-127,engines/tdc/pcpt.py,sim
+FID-03,Fi,Fi doacao — regularizacao fundiaria,0.8,cedente,PDE Art. 127 §1o III,fi-incentivo-doacao.csv,lei-municipal-saopaulo-16050-2014::132-art-127,engines/tdc/pcpt.py,sim
+FID-04,Fi,Fi doacao — parque (V ate R$2.000/m2),1.4,cedente,PDE Art. 127 §1o IV,fi-incentivo-doacao.csv,lei-municipal-saopaulo-16050-2014::132-art-127,engines/tdc/pcpt.py,sim
+FID-05,Fi,Fi doacao — parque (V acima de R$2.000/m2),1.0,cedente,PDE Art. 127 §1o V,fi-incentivo-doacao.csv,lei-municipal-saopaulo-16050-2014::132-art-127,engines/tdc/pcpt.py,sim
+FSCE-01,FSCE,Fator Setor Central (AIU-SCE terreno ate 1000 m2),2.0,cedente,Lei 17.844/2022 Art. 57,,lei-municipal-saopaulo-17844-2022::061-art-57,evals/ground-truth/gabaritos/eval-formula-zepec.py,sim
+CAM-01,CA,CAmaxcd na recepcao (via-125 sem doacao),4,receptor,PDE Art. 128 §1o,,lei-municipal-saopaulo-16050-2014::133-art-128,evals/eval-art128.py,sim
+VT-01,valor,VTcd — valor do m2 do terreno cedente (Quadro 14),R$/m2 por face,cedente,PDE Art. 128 caput c/c Quadro 14,q14-valor-terreno.csv,lei-municipal-saopaulo-16050-2014::133-art-128,evals/eval-art128.py,sim
+IPCA-01,correcao,Correcao do VTcd pelo IPCA acumulado,indice mensal (IBGE 1737),cedente,PDE Art. 128 §2o,ipca-numero-indice-ibge.csv,lei-municipal-saopaulo-16050-2014::133-art-128,evals/eval-art128.py,sim
+ESQ-01,valor,Regra da esquina — maior valor do Quadro 14 da quadra,MAX(Q14) da quadra,cedente,Decreto 57.536/2016 Art. 3o IV,,decreto-saopaulo-57536-2016::004-art-3o,evals/eval-produto.py,sim
+PARC-01,limiar,Teto de parcelamento do estoque,50000 m2 -> 10 parcelas anuais,cedente,PDE Art. 124 §3o,,lei-municipal-saopaulo-16050-2014::129-art-124,engines/tdc/pcpt.py,sim
+PARQ-01,limiar,Limiar de valor do parque (define Fi 1.4 vs 1.0),R$ 2.000/m2,cedente,PDE Art. 127 §1o IV/V,fi-incentivo-doacao.csv,lei-municipal-saopaulo-16050-2014::132-art-127,engines/tdc/pcpt.py,sim
+FP-01,Fp,Fator de planejamento (por macroarea/uso),0 a 1.3,receptor,PDE Art. 117 c/c Quadro 6,quadro6-fator-planejamento-fp.csv,lei-municipal-saopaulo-16050-2014::122-art-117,engines/tdc/fp.py,sim
+FS-01,Fs,Fator de interesse social (por uso),0 a 1,receptor,PDE Art. 117 c/c Quadro 5,quadro5-fator-social-fs.csv,lei-municipal-saopaulo-16050-2014::122-art-117,engines/tdc/oodc.py,sim
+CAZ-01,CA,CA basico por zona (Quadro 3),por zona,cedente,LPUOS Lei 16.402/2016 Quadro 3,quadro3-ca-por-zona.csv,,evals/ground-truth/gabaritos/eval-zona-cabas.py,pendente
+CAMA-01,CA,CA por macroarea (regime ZOE),0.1 a 4,ambos,PDE Quadro 2A,quadro2a-ca-macroarea.csv,,,pendente
+FUND-01,trava,Teto pecuniario FUNDURB,5%,receptor,LPUOS Art. 24 (janela em conflito — confirmar na SMUL),,,,pendente

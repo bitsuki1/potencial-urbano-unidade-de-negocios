@@ -1,0 +1,62 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-6989-1966::219-art-114",
+  "lei_id": "lei-municipal-saopaulo-6989-1966",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 114",
+  "numero": "114",
+  "header_raw": "Art. 114 - Apropriado o custo de cada trecho típico, e apurada a importância total a distribuir-se entre as áreas marginais, será verificada a quota correspondente a cada uma destas.(Revogado pela Lei nº 8.505/1976)",
+  "caminho_hierarquico": [
+    "TITULO II",
+    "CAPITULO III",
+    "SEÇÃO IV",
+    "Art. 114"
+  ],
+  "texto": "Art. 114 - Apropriado o custo de cada trecho típico, e apurada a importância total a distribuir-se entre as áreas marginais, será verificada a quota correspondente a cada uma destas.(Revogado pela Lei nº 8.505/1976)\n\nParágrafo único - Obtida essa quota, calcular-se-ão quantias constantes e de valor não inferior a Cr$ 5.000 (cinco mil cruzeiros) que, aos juros simples de 10% (dez por cento) ao ano, venham a amortiza-la, no máximo em 20 (vinte) e no mínimo em 10 (dez) prestações iguais e de vencimento trimestral.\n\nParágrafo Único - Obtida essa quota, calcular-se-ão quantias constantes e de valor não inferior a Cr$ 15,00 (quinze cruzeiros) que, aos juros simples de 12% (doze por cento) ao ano, venham amortizá-la, no máximo em 60 (sessenta) e no mínimo em 24 (vinte e quatro) prestações mensais, iguais e sucessivas.(Redação dada pela Lei nº 7.687/1971)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "1971",
+    "norma_redacao": "Lei nº 7.687/1971"
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 6.989/1966 — São Paulo/SP",
+    "dispositivo": "TITULO II › CAPITULO III › SEÇÃO IV › Art. 114",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-6989-de-29-de-dezembro-de-1966",
+    "vigencia": {
+      "inicio": "1967-01-01",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 10.394/1987",
+        "Lei 10.805/1989",
+        "Lei 10.921/1990",
+        "Lei 11.152/1991",
+        "Lei 11.334/1992",
+        "Lei 12.782/1998",
+        "Lei 13.250/2001",
+        "Lei 15.889/2013"
+      ],
+      "obs": "texto COMPILADO do portal oficial, com anotações de alteração por dispositivo; lista alterada_por = anotações verificadas no texto (não exaustiva)"
+    }
+  },
+  "tema": [
+    "sistema_tributario_municipal",
+    "imposto_predial",
+    "imposto_territorial_urbano",
+    "valor_venal",
+    "aliquota_progressiva",
+    "fato_gerador",
+    "isencao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o sistema tributário do Município e da outras providências."
+}

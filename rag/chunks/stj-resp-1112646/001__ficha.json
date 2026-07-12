@@ -1,0 +1,33 @@
+{
+  "chunk_id": "stj-resp-1112646::001-ficha",
+  "lei_id": "stj-resp-1112646",
+  "tipo_dispositivo": "jurisprudencia",
+  "rotulo": "STJ 1112646",
+  "numero": "1112646",
+  "header_raw": "STJ 1112646. Não incide IPTU, mas ITR, sobre imóvel localizado na área urbana do Município, desde que comprovadamente ut",
+  "caminho_hierarquico": [
+    "STJ 1112646"
+  ],
+  "texto": "STJ 1112646. Não incide IPTU, mas ITR, sobre imóvel localizado na área urbana do Município, desde que comprovadamente utilizado em exploração extrativa, vegetal, agrícola, pecuária ou agroindustrial (art. 15 do DL 57/1966). Dispositivos relacionados: CTN art. 32; Decreto-Lei 57/1966 art. 15.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "mérito julgado (rito art. 543-C CPC/1973); leading case do Tema 174/STJ; trânsito em julgado",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "recurso_repetitivo STJ 1112646",
+    "dispositivo": "STJ 1112646",
+    "fonte_url": "https://scon.stj.jus.br/SCON/jurisprudencia/toc.jsp?b=ACOR&livre=(('RESP'.clas.%20e%20@num='1112646'))",
+    "vigencia": {}
+  },
+  "tema": [],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "STJ",
+  "ementa": "Não incide IPTU, mas ITR, sobre imóvel localizado na área urbana do Município, desde que comprovadamente utilizado em exploração extrativa, vegetal, agrícola, pecuária ou agroindustrial (art. 15 do DL 57/1966)."
+}

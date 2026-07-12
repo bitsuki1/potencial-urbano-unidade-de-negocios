@@ -11,6 +11,20 @@ import csv, sys
 from pathlib import Path
 from collections import Counter
 Z=Path(__file__).resolve().parent
+sys.path.insert(0, str(Z.parent/"engines"/"tdc"))
+import art128  # preço legal (Art. 128) — número nasce no engine (1.3)
+
+def _dec(s):
+    try: return art128._d(s, "x")
+    except Exception: return None
+
+def _preco_legal(r):
+    """Referência legal do Art. 128 (÷CAmaxcd) do imóvel, via engine. '' se sem insumo."""
+    saldo=_dec(r.get("saldo_pcpt_m2")); vt=_dec(r.get("v_outorga_m2_q14"))
+    if not saldo or saldo<=0 or not vt or vt<=0: return ""
+    vmax=_dec(r.get("v_outorga_max_q14")); esq=bool(vmax and vmax>vt)
+    v=vmax if esq else vt
+    return art128.referencia_art128(str(saldo), str(v), via="125", esquina=esq)["referencia_brl"]
 _OFICIAL=Z/"ferramenta/zepec_cedentes_oficial.csv"
 _BASE=Z/"ferramenta/zepec_cedentes.csv"
 if _OFICIAL.exists():
@@ -20,7 +34,8 @@ else:
     H=list(csv.DictReader(open(_BASE,encoding='utf-8')))
 
 COLS=["segmento","estado_venda","nome_bem","endereco_mestre","distrito","proprietario",
-      "tipo_zepec","esfera","m2_ja_transferido","pcpt_m2","saldo_pcpt_m2","preco_proxy_brl",
+      "tipo_zepec","esfera","m2_ja_transferido","pcpt_m2","saldo_pcpt_m2",
+      "preco_legal_ref_brl","preco_proxy_brl",
       "zona","ca_basico","fi_aplicado","regime_pcpt","qualidade_estimativa",
       "area_terreno_m2","v_outorga_m2_q14","v_outorga_max_q14","pendencia_calculo",
       "status_fundurb","intercorrencia_fundurb","data_ref","sql_mestre"]
@@ -28,7 +43,12 @@ ORD={"INTACTO":0,"TEM_SALDO":1,"SO_ELEGIVEL":2,"INCERTO":3}
 
 def linha(r):
     seg=f"{r['estado_venda']}·{'com dono' if r['proprietario'] else 'sem dono'}"
-    return {c:(seg if c=="segmento" else r.get(c,"")) for c in COLS}
+    pl=_preco_legal(r)
+    def val(c):
+        if c=="segmento": return seg
+        if c=="preco_legal_ref_brl": return pl
+        return r.get(c,"")
+    return {c:val(c) for c in COLS}
 
 def chave(r):
     return (ORD.get(r['estado_venda'],9), 0 if r['proprietario'] else 1, r['distrito'], r['nome_bem'])

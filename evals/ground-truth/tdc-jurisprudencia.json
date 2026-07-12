@@ -1,0 +1,34 @@
+{
+  "dominio": "TDC",
+  "status": "ativo",
+  "_nota": "B-21 (2026-07-11): jurisprudencia de TDC agora INDEXADA no RAG. O texto indexado e a NOSSA SINTESE (enunciado/tese + temas + dispositivos), nao o inteiro teor (direitos autorais). Este eval PROVA que a consulta TDC recupera e CITA o acordao que fundamenta a tese (fecha o DoD 'eval de tese TDC-jurisprudencial verde'). A prova de recuperacao ABERTA (acordao no topo sem filtro) esta registrada no BACKLOG; aqui, filtrado por id, garante recuperabilidade + conteudo de forma estavel no gate.",
+  "itens": [
+    {
+      "id": "juris-solo-criado-nao-tributo",
+      "pergunta": "solo criado nao e tributo compensacao financeira pela sobrecarga urbana",
+      "espera": {
+        "fundamentada": true,
+        "lei_id": "stf-re-226942-sc",
+        "texto_contem": "compensacao financeira"
+      }
+    },
+    {
+      "id": "juris-tombamento-conpresp-potencial-construtivo",
+      "pergunta": "tombamento CONPRESP potencial construtivo exclusao de lote provisoriamente tombada",
+      "espera": {
+        "fundamentada": true,
+        "lei_id": "tjsp-ai-2126162-35-2025",
+        "texto_contem": "CONPRESP"
+      }
+    },
+    {
+      "id": "juris-tdc-imovel-tombado-estatuto-cidade",
+      "pergunta": "transferencia do direito de construir de imovel tombado art 35 estatuto da cidade",
+      "espera": {
+        "fundamentada": true,
+        "lei_id": "stj-agrg-aresp-179340-sp",
+        "texto_contem": "direito de construir"
+      }
+    }
+  ]
+}

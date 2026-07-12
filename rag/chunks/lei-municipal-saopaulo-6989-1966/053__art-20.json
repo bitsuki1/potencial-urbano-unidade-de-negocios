@@ -1,0 +1,62 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-6989-1966::053-art-20",
+  "lei_id": "lei-municipal-saopaulo-6989-1966",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 20",
+  "numero": "20",
+  "header_raw": "Art. 20 - Os débitos não pagos nos respectivos vencimentos ficam acrescidos de:(Redação dada pela Lei nº 13.475/2002)",
+  "caminho_hierarquico": [
+    "TITULO I",
+    "CAPITULO I",
+    "SEÇÃO VI",
+    "Art. 20"
+  ],
+  "texto": "Art. 20 - Os débitos não pagos nos respectivos vencimentos ficam acrescidos de:(Redação dada pela Lei nº 13.475/2002)\n\nI - multa equivalente a 0,33% (trinta e três centésimos por cento), por dia de atraso, sobre o valor do imposto devido, até o limite de 20% (vinte por cento);(Redação dada pela Lei nº 13.475/2002)\n\nII - juros moratórios de 1% (um por cento) ao mês, a partir do mês imediato ao do vencimento, contando-se como mês completo qualquer fração dele;(Redação dada pela Lei nº 13.475/2002)\n\nII - juros equivalentes à taxa referencial do Sistema Especial de Liquidação e de Custódia – SELIC, acumulada mensalmente e incidente uma única vez, a partir do primeiro dia do mês subsequente ao do vencimento, aplicando-se 1% (um por cento) no mês em que o pagamento estiver sendo efetuado;(Redação dada pela Lei nº 18.095/2024)\n\nIII - atualização monetária, na forma da legislação municipal específica.(Redação dada pela Lei nº 13.475/2002) (Revogado pela Lei nº 18.095/2024)\n\n§ 1º - A multa a que se refere o inciso I será calculada a partir do primeiro dia subseqüente ao do vencimento até o dia em que ocorrer o efetivo recolhimento.(Redação dada pela Lei nº 13.475/2002)\n\n§ 2º - Os juros de mora incidirão sobre o valor integral do crédito tributário, assim considerado o imposto devido acrescido de multa, atualizado monetariamente.(Redação dada pela Lei nº 13.475/2002)\n\n§ 2º Os juros incidirão sobre o valor integral do crédito tributário, assim considerado o imposto devido acrescido de eventual multa lançada de ofício.(Redação dada pela Lei nº 18.095/2024)\n\n§ 3º - Inscrita ou ajuizada a dívida serão devidos custas, honorários e demais despesas, na forma regulamentar e da legislação.(Incluído pela Lei nº 13.475/2002)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "2002",
+    "norma_redacao": "Lei nº 13.475/2002"
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 6.989/1966 — São Paulo/SP",
+    "dispositivo": "TITULO I › CAPITULO I › SEÇÃO VI › Art. 20",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-6989-de-29-de-dezembro-de-1966",
+    "vigencia": {
+      "inicio": "1967-01-01",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 10.394/1987",
+        "Lei 10.805/1989",
+        "Lei 10.921/1990",
+        "Lei 11.152/1991",
+        "Lei 11.334/1992",
+        "Lei 12.782/1998",
+        "Lei 13.250/2001",
+        "Lei 15.889/2013"
+      ],
+      "obs": "texto COMPILADO do portal oficial, com anotações de alteração por dispositivo; lista alterada_por = anotações verificadas no texto (não exaustiva)"
+    }
+  },
+  "tema": [
+    "sistema_tributario_municipal",
+    "imposto_predial",
+    "imposto_territorial_urbano",
+    "valor_venal",
+    "aliquota_progressiva",
+    "fato_gerador",
+    "isencao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o sistema tributário do Município e da outras providências."
+}

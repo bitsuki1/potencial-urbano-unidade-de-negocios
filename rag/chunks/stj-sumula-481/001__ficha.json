@@ -1,0 +1,33 @@
+{
+  "chunk_id": "stj-sumula-481::001-ficha",
+  "lei_id": "stj-sumula-481",
+  "tipo_dispositivo": "jurisprudencia",
+  "rotulo": "STJ 481",
+  "numero": "481",
+  "header_raw": "STJ 481. Faz jus ao benefício da justiça gratuita a pessoa jurídica com ou sem fins lucrativos que demonstrar sua imposs",
+  "caminho_hierarquico": [
+    "STJ 481"
+  ],
+  "texto": "STJ 481. Faz jus ao benefício da justiça gratuita a pessoa jurídica com ou sem fins lucrativos que demonstrar sua impossibilidade de arcar com os encargos processuais. Dispositivos relacionados: CF/88 art. 5º, LXXIV.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "vigente (Corte Especial, j. 28/06/2012, DJe 01/08/2012)",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "sumula STJ 481",
+    "dispositivo": "STJ 481",
+    "fonte_url": "https://www.stj.jus.br/docs_internet/revista/eletronica/stj-revista-sumulas-2017_43_capSumulas481-485.pdf",
+    "vigencia": {}
+  },
+  "tema": [],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "STJ",
+  "ementa": "Faz jus ao benefício da justiça gratuita a pessoa jurídica com ou sem fins lucrativos que demonstrar sua impossibilidade de arcar com os encargos processuais."
+}

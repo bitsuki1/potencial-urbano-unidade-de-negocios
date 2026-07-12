@@ -1,0 +1,33 @@
+{
+  "chunk_id": "stj-resp-1645832::001-ficha",
+  "lei_id": "stj-resp-1645832",
+  "tipo_dispositivo": "jurisprudencia",
+  "rotulo": "STJ 1645832",
+  "numero": "1645832",
+  "header_raw": "STJ 1645832. A Planta Genérica de Valores, por conter dados indispensáveis à apuração da base de cálculo do IPTU, deve s",
+  "caminho_hierarquico": [
+    "STJ 1645832"
+  ],
+  "texto": "STJ 1645832. A Planta Genérica de Valores, por conter dados indispensáveis à apuração da base de cálculo do IPTU, deve ser objeto de publicação oficial. A mera afixação da Planta de Valores no átrio da sede do município não supre a mencionada exigência. Dispositivos relacionados: CTN art. 33; CTN art. 97, §1º e §2º; princípio da publicidade (CF/88 art. 37).",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "acórdão da Segunda Turma (NÃO é recurso repetitivo); Rel. Min. Herman Benjamin, j. 07/03/2017, DJe 19/04/2017",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "acordao STJ 1645832",
+    "dispositivo": "STJ 1645832",
+    "fonte_url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2022/06112022-ITBI-e-IPTU-o-STJ-e-os-impostos-municipais-que-incidem-sobre-imoveis--parte-2-.aspx",
+    "vigencia": {}
+  },
+  "tema": [],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "STJ",
+  "ementa": "A Planta Genérica de Valores, por conter dados indispensáveis à apuração da base de cálculo do IPTU, deve ser objeto de publicação oficial. A mera afixação da Planta de Valores no átrio da sede do município não supre a mencionada exigência."
+}

@@ -1,0 +1,45 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-13250-2001::009-art-7o",
+  "lei_id": "lei-municipal-saopaulo-13250-2001",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 7º",
+  "numero": "7",
+  "header_raw": "Art. 7º Ficam isentos do Imposto Predial e Territorial Urbano os imóveis utilizados como templo de qualquer culto, desde que:(Redação dada pela Lei nº 17.092/2019)",
+  "caminho_hierarquico": [
+    "Art. 7º"
+  ],
+  "texto": "Art. 7º Ficam isentos do Imposto Predial e Territorial Urbano os imóveis utilizados como templo de qualquer culto, desde que:(Redação dada pela Lei nº 17.092/2019)\n\nI - comprovada a atividade religiosa no imóvel na data do fato gerador;(Redação dada pela Lei nº 17.092/2019)\n\nII - apresentado contrato de locação ou instrumento de cessão, comodato ou equivalente.(Redação dada pela Lei nº 17.092/2019)\n\n§ 1º A isenção aplica-se ao imóvel em sua totalidade, não se aplicando, no entanto, às áreas cedidas ou utilizadas por terceiros ou nas quais se desenvolvam atividades de natureza empresarial.(Redação dada pela Lei nº 17.092/2019)\n\n§ 2º Para fazer jus à isenção de que trata o “caput” deste artigo, deverão ser apresentados pela interessada os seguintes elementos:(Redação dada pela Lei nº 17.092/2019)\n\nI - cópia do estatuto social e dos documentos de identificação do seu representante legal;(Redação dada pela Lei nº 17.092/2019)\n\nII - cópia do contrato de locação ou instrumento equivalente, conforme inciso II do “caput” deste artigo;(Redação dada pela Lei nº 17.092/2019)\n\nIII - programação dos cultos, a ser renovada anualmente, na forma do regulamento;(Redação dada pela Lei nº 17.092/2019)\n\nIV - declaração do responsável legal, sob as penas da lei, a respeito da existência de áreas alcançadas pelo § 1º deste artigo, com a respectiva metragem.(Redação dada pela Lei nº 17.092/2019)\n\n§ 3º Especificamente para os casos nos quais a requerente da isenção não detenha condições de apresentar os elementos referidos no § 2º deste artigo, o Poder Executivo poderá, caso necessário, estabelecer outros requisitos para a concessão do benefício.(Redação dada pela Lei nº 17.092/2019)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "2019",
+    "norma_redacao": "Lei nº 17.092/2019"
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 13.250/2001 — São Paulo/SP",
+    "dispositivo": "Art. 7º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-13250-de-27-de-dezembro-de-2001",
+    "vigencia": {
+      "em_vigor": true,
+      "observacao": "Constitucionalidade reconhecida pelo STF (progressividade fiscal apos EC 29/2000).",
+      "inicio": "2001-12-27",
+      "obs": "inicio = data da lei (proxy da publicação, convenção do corpus); cláusula verbatim: Art. 9º - Esta lei entrará em vigor na data de sua publicação, produzindo efeitos a partir de 1º de janeiro de 2002."
+    }
+  },
+  "tema": [
+    "progressividade",
+    "aliquotas",
+    "calculo",
+    "valor_venal"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Altera a Lei nº 6.989, de 29 de dezembro de 1966, e dá outras providências. (Institui a progressividade fiscal das alíquotas do IPTU em função do valor venal e ajusta Tabelas V/VI e depreciação.)"
+}

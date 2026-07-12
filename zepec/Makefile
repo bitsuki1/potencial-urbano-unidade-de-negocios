@@ -31,7 +31,7 @@ RAW_CERT   := raw/lista_certidao_ZEPEC-BIR_agosto-2025.csv
 RAW_TOMB   := raw/SIRGAS_SHP_benstombados1.csv
 RAW_APC    := raw/SIRGAS_SHP_ZEPEC1_apc.csv
 
-.PHONY: pipeline check limpar etapa1 etapa2 etapa3 etapa4 etapa5
+.PHONY: pipeline check limpar etapa1 etapa2 etapa3 etapa4 etapa5 produto resolver_zona
 
 # === PIPELINE COMPLETO ===
 pipeline: etapa1 etapa2 etapa3 etapa4 etapa5
@@ -81,6 +81,16 @@ etapa5: $(PROSPECCAO)
 
 $(PROSPECCAO) $(FILA): lista_prospeccao.py $(OFICIAL)
 	$(PYTHON) lista_prospeccao.py
+
+# === ETAPA 6 — Produto ao cliente (funil + planilha + dossiês) com trava de regressão ===
+# Reproduz o entregável do zero e FALHA se a lista/preço encolher (regressão silenciosa).
+produto: $(PROSPECCAO)
+	$(PYTHON) funil.py
+	$(PYTHON) gerar_dossie.py --autoteste
+	$(PYTHON) gerar_dossie.py --pilotos 12
+	$(PYTHON) pipeline/gerar_xlsx.py
+	@$(PYTHON) -c "import csv; r=list(csv.DictReader(open('ferramenta/lista_prospeccao.csv',encoding='utf-8'))); cp=sum(1 for x in r if x.get('preco_legal_ref_brl')); assert len(r)>=2000 and cp>=1500, ('REGRESSAO',len(r),cp); print(f'  trava de regressao OK: {len(r)} imoveis, {cp} com preco legal (Art. 128)')"
+	@echo "Produto gerado: funil.csv + planilha (Resumo/Lista/Legenda) + dossiês-piloto."
 
 # === VERIFICAÇÃO — confere que todos os CSVs existem e têm linhas ===
 check:

@@ -157,12 +157,26 @@ def pontuar(pergunta, inv, elegiveis):
 
 
 def consultar(pergunta, lei=None, tema=None, jurisdicao=None, data=None, dominio=None, top=3,
-              incluir_revogado=False, incluir_nao_citavel=False):
+              incluir_revogado=False, incluir_nao_citavel=False, semantico=False):
     store, inv, meta = carregar_indice()
     elegiveis = filtrar(meta, lei=lei, tema=tema, jurisdicao=jurisdicao, data=data, dominio=dominio,
                         incluir_revogado=incluir_revogado, incluir_nao_citavel=incluir_nao_citavel)
     scores, termos, termos_pergunta, idf_termo = pontuar(pergunta, inv, elegiveis)
     ranked = sorted(scores.items(), key=lambda kv: kv[1], reverse=True)[:top]
+
+    # B-5 (2.6, etapa 3): blend SEMÂNTICO opcional (default OFF → gate/rodar-evals intactos).
+    # Só age quando semantico=True E há GEMINI_API_KEY no ambiente (assistente implantado);
+    # combina keyword×significado por RRF. Sem chave → queda graciosa (keyword puro).
+    if semantico:
+        import semantico as _sem
+        qv = _sem.embed_query(pergunta)
+        if qv:
+            vets = _sem.carregar_vetores()
+            elig = {c: vets[c] for c in elegiveis if c in vets}
+            if elig:
+                sem_ids = [c for c, _ in _sem.cosseno_rank(qv, elig)]
+                kw_ids = [c for c, _ in sorted(scores.items(), key=lambda kv: kv[1], reverse=True)]
+                ranked = [(c, scores.get(c, 0.0)) for c in _sem.rrf(kw_ids, sem_ids, top=top)]
 
     n_conteudo = len(termos_pergunta) or 1
     idf_total = sum(idf_termo.values()) or 1.0

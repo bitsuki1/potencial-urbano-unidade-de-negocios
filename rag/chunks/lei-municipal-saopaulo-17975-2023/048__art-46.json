@@ -4,13 +4,13 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 46",
   "numero": "46",
-  "header_raw": "Art. 46. O caput e o § 1º do art. 118 da Lei nº 16.050, de 2014, passam a vigorar com as seguintes",
+  "header_raw": "Art. 46. O caput e o § 1º do art. 118 da Lei nº 16.050, de 2014, passam a vigorar com as seguintes alterações:",
   "caminho_hierarquico": [
     "CAPÍTULO III",
     "Seção II",
     "Art. 46"
   ],
-  "texto": "Art. 46. O caput e o § 1º do art. 118 da Lei nº 16.050, de 2014, passam a vigorar com as seguintes\n\nalterações:\n\n“Art. 118. O Cadastro de Valor de Terreno para fins de Outorga Onerosa deverá ser atualizado\n\nanualmente pelo Executivo, ouvido o Conselho Municipal de Valores Imobiliários – CMVI, e deverá ser\n\npublicado até o dia 31 de dezembro de cada ano, com validade a partir do dia 1º de janeiro do ano\n\nseguinte.\n\n§ 1º A atualização por ato do Executivo de que trata o caput ficará limitada à variação do Índice de\n\nPreços ao Consumidor Amplo (IPCA) somada à variação positiva real do PIB acumuladas no período.\n\n..........................................................................................” (NR)\n\nSubseção II\n\nDa Transferência do Direito de Construir",
+  "texto": "Art. 46. O caput e o § 1º do art. 118 da Lei nº 16.050, de 2014, passam a vigorar com as seguintes alterações:\n\n“Art. 118. O Cadastro de Valor de Terreno para fins de Outorga Onerosa deverá ser atualizado anualmente pelo Executivo, ouvido o Conselho Municipal de Valores Imobiliários – CMVI, e deverá ser publicado até o dia 31 de dezembro de cada ano, com validade a partir do dia 1º de janeiro do ano seguinte.\n\n§ 1º A atualização por ato do Executivo de que trata o caput ficará limitada à variação do Índice de Preços ao Consumidor Amplo (IPCA) somada à variação positiva real do PIB acumuladas no período.\n\n..........................................................................................” (NR)\n\nSubseção II\n\nDa Transferência do Direito de Construir",
   "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
@@ -22,7 +22,7 @@
   "citacao": {
     "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
     "dispositivo": "CAPÍTULO III › Seção II › Art. 46",
-    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17975-de-8-de-julho-de-2023",
     "vigencia": {
       "inicio": "2023-07-08",
       "fim": null,

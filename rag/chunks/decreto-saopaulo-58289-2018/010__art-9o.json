@@ -1,0 +1,50 @@
+{
+  "chunk_id": "decreto-saopaulo-58289-2018::010-art-9o",
+  "lei_id": "decreto-saopaulo-58289-2018",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 9º",
+  "numero": "9",
+  "header_raw": "Art. 9º Formalizada a escritura, o doador deverá providenciar o seu registro no Cartório de Registro de Imóveis da situação do imóvel doado, apresentando, após, uma cópia da certidão de matrícula devidamente atualizada com o registro da doação, para juntada no respectivo processo.",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção I",
+    "Art. 9º"
+  ],
+  "texto": "Art. 9º Formalizada a escritura, o doador deverá providenciar o seu registro no Cartório de Registro de Imóveis da situação do imóvel doado, apresentando, após, uma cópia da certidão de matrícula devidamente atualizada com o registro da doação, para juntada no respectivo processo.\n\nParágrafo único. O doador deverá arcar com o pagamento de todas as despesas, custas, emolumentos e encargos necessários à lavratura e ao registro da escritura de doação.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto municipal nº 58.289/2018 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção I › Art. 9º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-58289-de-26-de-junho-de-2018",
+    "vigencia": {
+      "inicio": "2018-06-26",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [],
+      "revoga": [
+        "Decreto 57.535/2016"
+      ]
+    }
+  },
+  "tema": [
+    "transferencia_do_direito_de_construir",
+    "doacao_de_imovel",
+    "potencial_construtivo",
+    "desapropriacao_amigavel",
+    "declaracao_de_potencial_construtivo"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Confere nova regulamentação à Transferência do Direito de Construir com Doação de Imóvel, nos termos dos artigos 123, 126, 127, 128, 130 e 131 da Lei nº 16.050, de 31 de julho de 2014 – Plano Diretor Estratégico – PDE; revoga o Decreto nº 57.535, de 15 de dezembro de 2016."
+}

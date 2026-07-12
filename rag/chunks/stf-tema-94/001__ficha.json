@@ -1,0 +1,33 @@
+{
+  "chunk_id": "stf-tema-94::001-ficha",
+  "lei_id": "stf-tema-94",
+  "tipo_dispositivo": "jurisprudencia",
+  "rotulo": "STF 94",
+  "numero": "94",
+  "header_raw": "STF 94. É constitucional a Emenda Constitucional nº 29, de 2000, no que estabeleceu a possibilidade de previsão legal de",
+  "caminho_hierarquico": [
+    "STF 94"
+  ],
+  "texto": "STF 94. É constitucional a Emenda Constitucional nº 29, de 2000, no que estabeleceu a possibilidade de previsão legal de alíquotas progressivas para o IPTU de acordo com o valor do imóvel. Dispositivos relacionados: CF/88 art. 156, §1º (redação da EC 29/2000); EC 29/2000.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "mérito julgado; trânsito em julgado",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "tema_repercussao_geral STF 94",
+    "dispositivo": "STF 94",
+    "fonte_url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=2617543&numeroProcesso=586693&classeProcesso=RE&numeroTema=94",
+    "vigencia": {}
+  },
+  "tema": [],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "STF",
+  "ementa": "É constitucional a Emenda Constitucional nº 29, de 2000, no que estabeleceu a possibilidade de previsão legal de alíquotas progressivas para o IPTU de acordo com o valor do imóvel."
+}

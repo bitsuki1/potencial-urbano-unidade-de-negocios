@@ -1,0 +1,44 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-14865-2008::012-art-8o",
+  "lei_id": "lei-municipal-saopaulo-14865-2008",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 8º",
+  "numero": "8",
+  "header_raw": "Art. 8º. Os incisos do § 1º e os §§ 2º e 3º do art. 2º e o \"caput\" do art. 3º, ambos da Lei nº 14.097, de 8 de dezembro de 2005, com as respectivas alterações posteriores, passam a vigorar com a seguinte redação:",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 8º"
+  ],
+  "texto": "Art. 8º. Os incisos do § 1º e os §§ 2º e 3º do art. 2º e o \"caput\" do art. 3º, ambos da Lei nº 14.097, de 8 de dezembro de 2005, com as respectivas alterações posteriores, passam a vigorar com a seguinte redação:\n\n\"Art. 2º. ............................................................\n\n§ 1º. ..........................................................................\n\nI - de até 30% (trinta por cento) para pessoas físicas domiciliadas no Estado de São Paulo, observado o disposto no § 3º deste artigo;\n\nII - de até 10% (dez por cento) para Microempresas - ME e Empresas de Pequeno Porte - EPP optantes pelo Regime Especial Unificado de Arrecadação de Tributos e Contribuições - Simples Nacional, de que trata a Lei Complementar Federal nº 123, de 14 de dezembro de 2006, observado o disposto no inciso IV deste parágrafo e nos §§ 2º e 3º deste artigo;\n\nIII - de até 10% (dez por cento) para condomínios edilícios residenciais ou comerciais localizados no Município de São Paulo, observado o disposto no § 3º deste artigo;\n\nIV - de até 5% (cinco por cento) para as pessoas jurídicas responsáveis pelo pagamento do ISS, nos termos do art. 9º da Lei nº 13.701, de 24 de dezembro de 2003, observado o disposto no § 2º deste artigo.\n\n§ 2º Não farão jus ao crédito de que trata o \"caput\" deste artigo:\n\nI - os órgãos da administração pública direta da União, dos Estados e do Município de São Paulo, bem como suas autarquias, fundações, empresas públicas, sociedades de economia mista e demais entidades controladas direta ou indiretamente pela União, pelos Estados ou pelo Município, exceto as instituições financeiras e assemelhadas;\n\nII - as pessoas jurídicas estabelecidas fora do território do Município de São Paulo.\n\n§ 3º. No caso de o prestador de serviços ser ME ou EPP optante pelo Simples Nacional, será considerada, para cálculo do crédito a que se refere o \"caput\" deste artigo, a alíquota de 3% (três por cento) incidente sobre a base de cálculo do ISS.\" (NR)\n\n\"Art. 3º. O crédito a que se refere o art. 2º desta lei poderá ser utilizado exclusivamente para abatimento de até 50% (cinqüenta por cento) do valor do Imposto sobre a Propriedade Predial e Territorial Urbana - IPTU a pagar, referente a imóvel localizado no território do Município de São Paulo, indicado pelo tomador, na conformidade do que dispuser o regulamento.\n\n...........................................................................\"(NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 14.865/2008 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Art. 8º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-14865-de-29-de-dezembro-de-2008",
+    "vigencia": {
+      "em_vigor": true,
+      "observacao": "Vigente (beneficio com termo final 31/12/2030 para a hipotese ZEIS/CDHU). Confirmar alteracoes posteriores.",
+      "inicio": "2008-12-29",
+      "obs": "inicio = data da lei (proxy da publicação, convenção do corpus); cláusula verbatim: Art. 16. Esta lei entrará em vigor na data de sua publicação."
+    }
+  },
+  "tema": [
+    "habitacional_popular",
+    "HIS",
+    "ZEIS",
+    "isencao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Concede isenção do Imposto Predial e Territorial Urbano (IPTU) em condições específicas (inclusive habitação de interesse social / ZEIS), altera dispositivos de leis tributárias e dá outras providências."
+}

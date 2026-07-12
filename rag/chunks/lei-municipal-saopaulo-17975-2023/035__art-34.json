@@ -4,12 +4,12 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 34",
   "numero": "34",
-  "header_raw": "Art. 34. O art. 89 da Lei nº 16.050, de 2014, passa a vigorar acrescido de § 2º, renumerado o parágrafo",
+  "header_raw": "Art. 34. O art. 89 da Lei nº 16.050, de 2014, passa a vigorar acrescido de § 2º, renumerado o parágrafo único como § 1º:",
   "caminho_hierarquico": [
     "CAPÍTULO III",
     "Art. 34"
   ],
-  "texto": "Art. 34. O art. 89 da Lei nº 16.050, de 2014, passa a vigorar acrescido de § 2º, renumerado o parágrafo\n\núnico como § 1º:\n\n“Art. 89. .....................................................................................\n\n§ 1º .............................................................................................\n\n§ 2º A utilização dos instrumentos de política urbana e gestão ambiental deverá evitar o uso de\n\nsoluções que causem desequilíbrio nos ecossistemas naturais levando a um ponto de não retorno e\n\nadotar medidas de não arrependimento, em consonância com o Plano Nacional de Adaptação à\n\nMudança do Clima e o Plano de Ação Climática do Município de São Paulo.” (NR)\n\nSeção I\n\nDos Instrumentos Indutores da Função Social da Propriedade",
+  "texto": "Art. 34. O art. 89 da Lei nº 16.050, de 2014, passa a vigorar acrescido de § 2º, renumerado o parágrafo único como § 1º:\n\n“Art. 89. .....................................................................................\n\n§ 1º .............................................................................................\n\n§ 2º A utilização dos instrumentos de política urbana e gestão ambiental deverá evitar o uso de soluções que causem desequilíbrio nos ecossistemas naturais levando a um ponto de não retorno e adotar medidas de não arrependimento, em consonância com o Plano Nacional de Adaptação à Mudança do Clima e o Plano de Ação Climática do Município de São Paulo.” (NR)\n\nSeção I\n\nDos Instrumentos Indutores da Função Social da Propriedade",
   "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
@@ -21,7 +21,7 @@
   "citacao": {
     "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
     "dispositivo": "CAPÍTULO III › Art. 34",
-    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17975-de-8-de-julho-de-2023",
     "vigencia": {
       "inicio": "2023-07-08",
       "fim": null,

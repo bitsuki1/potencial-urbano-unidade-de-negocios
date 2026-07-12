@@ -1,0 +1,50 @@
+{
+  "chunk_id": "decreto-saopaulo-58289-2018::005-art-4o",
+  "lei_id": "decreto-saopaulo-58289-2018",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 4º",
+  "numero": "4",
+  "header_raw": "Art. 4º O interessado em obter a Declaração de Potencial Construtivo Passível de Transferência com fundamento nas hipóteses de doação de imóvel à Prefeitura do Município de São Paulo deverá apresentar sua proposta no protocolo geral da Secretaria Municipal de Urbanismo e Licenciamento, endereçada à Coordenadoria de Legislação de Uso e Ocupação do Solo - DEUSO, por meio do preenchimento da Manifestação de Interesse em Doação de Imóvel, contida no Anexo I deste decreto, acompanhado de todos os documentos obrigatórios nele relacionados.",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção I",
+    "Art. 4º"
+  ],
+  "texto": "Art. 4º O interessado em obter a Declaração de Potencial Construtivo Passível de Transferência com fundamento nas hipóteses de doação de imóvel à Prefeitura do Município de São Paulo deverá apresentar sua proposta no protocolo geral da Secretaria Municipal de Urbanismo e Licenciamento, endereçada à Coordenadoria de Legislação de Uso e Ocupação do Solo - DEUSO, por meio do preenchimento da Manifestação de Interesse em Doação de Imóvel, contida no Anexo I deste decreto, acompanhado de todos os documentos obrigatórios nele relacionados.\n\n§ 1º A proposta a que se refere o “caput” deste artigo será autuada como processo administrativo no Sistema Eletrônico de Informações - SEI.\n\n§ 2º A DEUSO realizará a análise preliminar da proposta, que consistirá na aferição de sua adequação à hipótese que fundamenta a oferta da doação e da conformidade dos documentos exigidos no Anexo I deste decreto.\n\n§ 3º De acordo com a finalidade assinalada pelo interessado na Manifestação de Interesse, a DEUSO informará, no prazo de 15 (quinze) dias, se o imóvel indicado está apto a enquadrar-se nas hipóteses previstas no artigo 126 do PDE.\n\n§ 4º Constatada a irregularidade da proposta, a DEUSO indeferirá o processo de plano, por despacho publicado no Diário Oficial da Cidade.\n\n§ 5º Constatada a regularidade da proposta, a DEUSO solicitará consulta direta às unidades dotadas das atribuições legais para aferir a existência de interesse público na aceitação do imóvel, devendo, no prazo de 20 (vinte) dias, manifestar-se:\n\nI – a Secretaria Municipal de Infraestrutura Urbana e Obras, se a doação relacionar-se a melhoramentos viários para a implantação de corredores de ônibus;\n\nII – a Secretaria Municipal de Habitação, se a doação relacionar-se a programas de provisão de Habitação de Interesse Social, tratados na Subseção III da Seção II do Capítulo II deste decreto, ou de regularização fundiária e urbanização de áreas ocupadas por população de baixa renda;\n\nIII – a Secretaria Municipal do Verde e do Meio Ambiente, se a doação relacionar-se à implantação de parques em planejamento ou em implantação, independentemente da Zona de Uso em que se situam, desde que inseridos na Macrozona de Estruturação e Qualificação Urbana e constantes do Quadro 7 anexo do PDE, devendo ser informada a situação de conformidade ou opostas eventuais ressalvas sobre a existência de passivo ambiental.\n\n§ 6º Caso não atendido o prazo fixado no § 5º deste artigo, o processo será indeferido por falta de interesse da Secretaria Municipal.\n\n§ 7º Os documentos relacionados no Anexo II deste decreto deverão estar previamente disponíveis para apresentação no momento da lavratura da escritura de doação, sob pena de nulidade de todo o processo, conforme declaração de ciência contida na Manifestação de Interesse em Doação de Imóvel.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto municipal nº 58.289/2018 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção I › Art. 4º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-58289-de-26-de-junho-de-2018",
+    "vigencia": {
+      "inicio": "2018-06-26",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [],
+      "revoga": [
+        "Decreto 57.535/2016"
+      ]
+    }
+  },
+  "tema": [
+    "transferencia_do_direito_de_construir",
+    "doacao_de_imovel",
+    "potencial_construtivo",
+    "desapropriacao_amigavel",
+    "declaracao_de_potencial_construtivo"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Confere nova regulamentação à Transferência do Direito de Construir com Doação de Imóvel, nos termos dos artigos 123, 126, 127, 128, 130 e 131 da Lei nº 16.050, de 31 de julho de 2014 – Plano Diretor Estratégico – PDE; revoga o Decreto nº 57.535, de 15 de dezembro de 2016."
+}

@@ -1,0 +1,62 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-6989-1966::230-art-120",
+  "lei_id": "lei-municipal-saopaulo-6989-1966",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 120",
+  "numero": "120",
+  "header_raw": "Art. 120 - Não será admitido o pagamento de qualquer prestação sem que estejam quitadas todas as anteriores.(Redação dada pela Lei nº 8.406/1976)(Revogado pela Lei nº 8.505/1976)",
+  "caminho_hierarquico": [
+    "TITULO II",
+    "CAPITULO III",
+    "SEÇÃO V",
+    "Art. 120"
+  ],
+  "texto": "Art. 120 - Não será admitido o pagamento de qualquer prestação sem que estejam quitadas todas as anteriores.(Redação dada pela Lei nº 8.406/1976)(Revogado pela Lei nº 8.505/1976)\n\n§ 1º Observado o disposto neste artigo, e enquanto não vencida a última prestação, poderá ser efetuado o pagamento de quaisquer parcelas.(Redação dada pela Lei nº 8.406/1976)\n\n§ 2º Decorrido o prazo fixado para pagamento da última prestação, somente será admitido o pagamento integral do débito, que será considerado vencido à data da primeira prestação não paga.(Redação dada pela Lei nº 8.406/1976)\n\n§ 3º O débito vencido permanecerá em cobrança amigável, na repartição competente, pelo prazo de 90 dias, sendo, a seguir, inscrito, como dívida ativa, para efeito de cobrança judicial.(Redação dada pela Lei nº 8.406/1976)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "1976",
+    "norma_redacao": "Lei nº 8.406/1976"
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 6.989/1966 — São Paulo/SP",
+    "dispositivo": "TITULO II › CAPITULO III › SEÇÃO V › Art. 120",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-6989-de-29-de-dezembro-de-1966",
+    "vigencia": {
+      "inicio": "1967-01-01",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 10.394/1987",
+        "Lei 10.805/1989",
+        "Lei 10.921/1990",
+        "Lei 11.152/1991",
+        "Lei 11.334/1992",
+        "Lei 12.782/1998",
+        "Lei 13.250/2001",
+        "Lei 15.889/2013"
+      ],
+      "obs": "texto COMPILADO do portal oficial, com anotações de alteração por dispositivo; lista alterada_por = anotações verificadas no texto (não exaustiva)"
+    }
+  },
+  "tema": [
+    "sistema_tributario_municipal",
+    "imposto_predial",
+    "imposto_territorial_urbano",
+    "valor_venal",
+    "aliquota_progressiva",
+    "fato_gerador",
+    "isencao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o sistema tributário do Município e da outras providências."
+}

@@ -1,0 +1,74 @@
+{
+  "id": "lei-municipal-saopaulo-6989-1966",
+  "tipo_norma": "lei_ordinaria",
+  "esfera": "municipal",
+  "jurisdicao": "São Paulo/SP",
+  "numero": "6.989",
+  "ano": 1966,
+  "ementa": "Dispõe sobre o sistema tributário do Município e da outras providências.",
+  "tema": [
+    "sistema_tributario_municipal",
+    "imposto_predial",
+    "imposto_territorial_urbano",
+    "valor_venal",
+    "aliquota_progressiva",
+    "fato_gerador",
+    "isencao"
+  ],
+  "dispositivos_chave": [
+    "Art. 1: cria os tributos municipais (imposto predial; imposto territorial urbano; e outros)",
+    "Cap. I (Imposto Predial), Seção I: incidência do imposto predial",
+    "Art. 7: alíquota do imposto predial sobre o valor venal (redações históricas anotadas: 10.394/87, 10.805/89, 10.921/90, 11.152/91, 11.334/92, 12.782/98, 13.250/01)",
+    "Art. 7-A: desconto/acréscimo por faixa de valor venal — predial (incluído pela Lei 13.250/2001; tabelas atualizadas pela Lei 15.889/2013)",
+    "Art. 8-A: desconto/acréscimo por faixa de valor venal — predial não-residencial (incluído pela Lei 13.250/2001)",
+    "Art. 23: fato gerador do imposto territorial urbano",
+    "Art. 27: alíquota do imposto territorial urbano sobre o valor venal (redações históricas anotadas)",
+    "Art. 201: vigência a partir de 1º de janeiro de 1967"
+  ],
+  "vigencia": {
+    "inicio": "1967-01-01",
+    "fim": null,
+    "revogada_por": null,
+    "altera": [],
+    "alterada_por": [
+      "Lei 10.394/1987",
+      "Lei 10.805/1989",
+      "Lei 10.921/1990",
+      "Lei 11.152/1991",
+      "Lei 11.334/1992",
+      "Lei 12.782/1998",
+      "Lei 13.250/2001",
+      "Lei 15.889/2013"
+    ],
+    "obs": "texto COMPILADO do portal oficial, com anotações de alteração por dispositivo; lista alterada_por = anotações verificadas no texto (não exaustiva)"
+  },
+  "remissoes": [
+    "Lei 13.250/2001 (inclui arts. 7-A e 8-A — progressividade por faixa)",
+    "Lei 15.889/2013 (atualiza as tabelas de faixas dos arts. 7-A/8-A e a PGV)",
+    "Lei 10.235/1986 (apuração do valor venal — base de cálculo)"
+  ],
+  "jurisprudencia_relacionada": [],
+  "tem_tabela": true,
+  "tabelas_extraidas": [
+    "tabelas/iptu-aliquotas-faixa.csv"
+  ],
+  "tem_formula": true,
+  "formulas_referenciadas": [],
+  "fonte": {
+    "origem": "web-oficial",
+    "url": "https://legislacao.prefeitura.sp.gov.br/lei-6989-de-29-de-dezembro-de-1966",
+    "path": "_entrada/misto/lei-municipal-saopaulo-6989-1966.txt",
+    "ocr": false,
+    "metodo": "VERBATIM INTEGRAL (portal oficial, texto compilado); captura 2026-07-10 (texto COMPILADO do Catálogo de Legislação Municipal, HTTPS direto); promovido de _entrada/misto/",
+    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior.",
+    "hash": "sha256:97737db504fb5bbfcc1b204de25d5354e1ddc39e135a355e3d017503e42e9cda",
+    "hash_alvo": "_entrada/misto/lei-municipal-saopaulo-6989-1966.txt"
+  },
+  "status_pipeline": "indexado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "dominio_primario": "iptu",
+  "dominio": [
+    "iptu"
+  ]
+}

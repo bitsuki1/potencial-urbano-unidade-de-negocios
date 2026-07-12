@@ -1,0 +1,50 @@
+{
+  "chunk_id": "decreto-saopaulo-58289-2018::009-art-8o",
+  "lei_id": "decreto-saopaulo-58289-2018",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 8º",
+  "numero": "8",
+  "header_raw": "Art. 8º Verificada a regularidade da documentação exigida no artigo 7º deste decreto, a CGPATRI promoverá a análise, instrução e preparação da minuta de escritura de doação de imóvel, conforme modelo constante do Anexo IX deste decreto, submetendo, em seguida, o processo, por via eletrônica, à ciência e manifestação da Procuradoria Geral do Município sobre a regularidade do procedimento.",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção I",
+    "Art. 8º"
+  ],
+  "texto": "Art. 8º Verificada a regularidade da documentação exigida no artigo 7º deste decreto, a CGPATRI promoverá a análise, instrução e preparação da minuta de escritura de doação de imóvel, conforme modelo constante do Anexo IX deste decreto, submetendo, em seguida, o processo, por via eletrônica, à ciência e manifestação da Procuradoria Geral do Município sobre a regularidade do procedimento.\n\n§ 1º Com o pronunciamento favorável da Procuradoria Geral do Município, a CGPATRI, no prazo de 15 (quinze) dias, proferirá despacho autorizando a formalização da escritura de doação e a formalizará.\n\n§ 2º Em caso de pronunciamento contrário da Procuradoria Geral do Município, a CGPATRI procederá à devolução do processo à DEUSO para providenciar o seu indeferimento.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto municipal nº 58.289/2018 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção I › Art. 8º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-58289-de-26-de-junho-de-2018",
+    "vigencia": {
+      "inicio": "2018-06-26",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [],
+      "revoga": [
+        "Decreto 57.535/2016"
+      ]
+    }
+  },
+  "tema": [
+    "transferencia_do_direito_de_construir",
+    "doacao_de_imovel",
+    "potencial_construtivo",
+    "desapropriacao_amigavel",
+    "declaracao_de_potencial_construtivo"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Confere nova regulamentação à Transferência do Direito de Construir com Doação de Imóvel, nos termos dos artigos 123, 126, 127, 128, 130 e 131 da Lei nº 16.050, de 31 de julho de 2014 – Plano Diretor Estratégico – PDE; revoga o Decreto nº 57.535, de 15 de dezembro de 2016."
+}

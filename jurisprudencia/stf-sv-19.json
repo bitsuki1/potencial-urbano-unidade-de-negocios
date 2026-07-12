@@ -19,7 +19,7 @@
     "hash_alvo": "jurisprudencia/stf-sv-19.md",
     "hash_nota": "hash da transcrição do corpus (.md) — cru ausente localmente (B-4/B-9); trocar pelo hash do cru quando ele chegar"
   },
-  "status_pipeline": "tagueado",
+  "status_pipeline": "indexado",
   "confianca_extracao": "alta",
   "revisado_por_humano": false,
   "verificacao_verbatim": "Enunciado confere com a captura verbatim (texto oficial sem a vírgula antes de 'não viola'). Captura confirma Tema 146 RG e relação com SV 29 e Súmula 670.",

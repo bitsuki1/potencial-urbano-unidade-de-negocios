@@ -1,0 +1,60 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-6989-1966::211-art-106",
+  "lei_id": "lei-municipal-saopaulo-6989-1966",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 106",
+  "numero": "106",
+  "header_raw": "Art. 106 - Nos terrenos de esquina, a aplicação dos processos estabelecidos nesta Lei obedecerá as seguintes regras:(Revogado pela Lei nº 8.505/1976)",
+  "caminho_hierarquico": [
+    "TITULO II",
+    "CAPITULO III",
+    "SEÇÃO II",
+    "Art. 106"
+  ],
+  "texto": "Art. 106 - Nos terrenos de esquina, a aplicação dos processos estabelecidos nesta Lei obedecerá as seguintes regras:(Revogado pela Lei nº 8.505/1976)\n\nI – não são havidas como esquinas as deflexões ou curvaturas de alinhamentos, cujo ângulo interno, formado pelos seus trechos retos, exceda 135º, não se considerando, na verificação desse ângulo, as linhas dos chanfros usuais ou regulamentares de concordância das esquinas;\n\nII – para os efeitos de calculo, devem ser consideradas as duas profundidades do terreno, cada uma em relação à respectiva testada;\n\nIII – o ponto divisório das testadas será, em regra, a intersecção do chanfro, ou curva de concordâncias, com a bissetriz do ângulo dos alinhamentos retos de cada rua;\n\nIV – tratando-se de pavimentação simultânea em ambas as vias, a quota relativa ao imóvel será constituída pela soma das quotas correspondentes a cada uma das testadas; na quota menor haverá redução de 50% (cinqüenta por cento) sobre a parcela proporcional aos primeiros 12,00 metros de testada;\n\nV – tratando-se de pavimentação de uma só das vias, proceder-se-á da seguinte forma:\n\na) se a outra não for calçada, ou tiver sido pavimentada sem ônus para o Município, será havido o imóvel como lote inteiro comum, entestando apenas com a via a ser pavimentada;\n\nb) se a outra via tiver sido calçada na vigência desta Lei, a quota relativa ao imóvel será calculada, deduzindo-se a quota efetivamente atribuída a este , em virtude do primeiro calçamento (item V, “a”) daquela que para o mesmo resultaria da aplicação da regra relativa à pavimentação simultânea (item IV).",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 6.989/1966 — São Paulo/SP",
+    "dispositivo": "TITULO II › CAPITULO III › SEÇÃO II › Art. 106",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-6989-de-29-de-dezembro-de-1966",
+    "vigencia": {
+      "inicio": "1967-01-01",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 10.394/1987",
+        "Lei 10.805/1989",
+        "Lei 10.921/1990",
+        "Lei 11.152/1991",
+        "Lei 11.334/1992",
+        "Lei 12.782/1998",
+        "Lei 13.250/2001",
+        "Lei 15.889/2013"
+      ],
+      "obs": "texto COMPILADO do portal oficial, com anotações de alteração por dispositivo; lista alterada_por = anotações verificadas no texto (não exaustiva)"
+    }
+  },
+  "tema": [
+    "sistema_tributario_municipal",
+    "imposto_predial",
+    "imposto_territorial_urbano",
+    "valor_venal",
+    "aliquota_progressiva",
+    "fato_gerador",
+    "isencao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o sistema tributário do Município e da outras providências."
+}

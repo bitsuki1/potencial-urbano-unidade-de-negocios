@@ -1,0 +1,60 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-6989-1966::246-art-132",
+  "lei_id": "lei-municipal-saopaulo-6989-1966",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 132",
+  "numero": "132",
+  "header_raw": "Art. 132 - A taxa calcula-se por ano, de acordo com a seguinte tabela:(Revogado pela Lei nº 7.687/1971)",
+  "caminho_hierarquico": [
+    "TITULO II",
+    "CAPITULO IV",
+    "SEÇÃO II",
+    "Art. 132"
+  ],
+  "texto": "Art. 132 - A taxa calcula-se por ano, de acordo com a seguinte tabela:(Revogado pela Lei nº 7.687/1971)\n\nI – Taxa de licença anual, para negociantes ambulantes em geral e carregadores …….............Cr$ 5.000\n\nII – Taxa de licença anual para engraxate:\n\na) 1ª subdivisão da zona urbana.....................................................................................Cr$ 10.000\n\nb) além desse perímetro.................................................................................................Cr$ 5.000\n\nIII – Taxa de estacionamento de negociantes ambulantes, excluídos os vendedores de jornais, fotógrafos e engraxates, nas vias e logradouros públicos fora da 1ª subdivisão de zona urbana, quando permitido:\n\na) 2ª subdivisão da zona urbana......................................................................................Cr$ 30.000\n\nb) 3ª subdivisão da zona urbana......................................................................................Cr$ 20.000\n\nc) Zona Rural.................................................................................................................Cr$ 10.000\n\nIV – Taxa de estacionamento anual, para fotógrafos ambulantes:\n\na) Ponto de 1ª ordem.....................................................................................................Cr$ 15.000\n\nb) Ponto de 2ª ordem.....................................................................................................Cr$ 10.000\n\nc) Ponto de 3ª ordem.....................................................................................................Cr$ 5.000\n\nd) Ponto de 4ª ordem.....................................................................................................Cr$ 2.000\n\nSEÇÃO III\n\nSujeito Passivo",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 6.989/1966 — São Paulo/SP",
+    "dispositivo": "TITULO II › CAPITULO IV › SEÇÃO II › Art. 132",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-6989-de-29-de-dezembro-de-1966",
+    "vigencia": {
+      "inicio": "1967-01-01",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 10.394/1987",
+        "Lei 10.805/1989",
+        "Lei 10.921/1990",
+        "Lei 11.152/1991",
+        "Lei 11.334/1992",
+        "Lei 12.782/1998",
+        "Lei 13.250/2001",
+        "Lei 15.889/2013"
+      ],
+      "obs": "texto COMPILADO do portal oficial, com anotações de alteração por dispositivo; lista alterada_por = anotações verificadas no texto (não exaustiva)"
+    }
+  },
+  "tema": [
+    "sistema_tributario_municipal",
+    "imposto_predial",
+    "imposto_territorial_urbano",
+    "valor_venal",
+    "aliquota_progressiva",
+    "fato_gerador",
+    "isencao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o sistema tributário do Município e da outras providências."
+}

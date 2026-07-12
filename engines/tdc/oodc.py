@@ -21,9 +21,14 @@ DEPENDÊNCIA DE TABELA (achado AUD-04 — `tabelas/` vazio): `V` (valor do terre
 OBRIGATÓRIAS aqui — o engine NÃO os inventa (1.3). Quando `tabelas/` for populado, o roteador busca
 V por SQL e CA_max por ZONA e injeta. Até lá, o engine calcula sobre valores fornecidos/de teste.
 
-VACINA (FORMULAS-CONSOLIDADAS L-2/CONF-2): a grafia `C = (At/Ac) × V × Fs × Fp` sugerida em pedidos
-NÃO tem fonte. As 3 fontes-mestre usam unanimemente `OO = (Área_Adicional/CA_max) × Fp × Fs × V`.
-Esta é a implementada. Tabelas Fs/Fp aqui são PARCIAIS (só F-A/V3.1) — completar ao ingerir os quadros.
+RECONCILIAÇÃO Art. 117 (2026-07-10 — a "vacina" antiga está SUPERADA pelo verbatim): a contrapartida
+por m² do Art. 117 do PDE é, LITERAL na lei, `C = (At/Ac) × V × Fs × Fp` — agora indexada em
+`rag/chunks/lei-municipal-saopaulo-16050-2014/122__art-117.json`. NÃO é "sem fonte": é a MESMA família
+de `outorga_onerosa` (que devolve o TOTAL do §1º). Quando Ac = CA_max × At, vale a identidade
+`contrapartida_art117(...)['total'] == outorga_onerosa(...)['valor']` (provada no _autoteste). Por isso:
+  • `outorga_onerosa` (abaixo) permanece como o TOTAL §1º — LEGADA, retrocompat de gerar_alvos.py;
+  • `contrapartida_art117` é a forma FIEL ao caput (C por m²), com o total §1º opcional.
+Tabelas Fs/Fp aqui são PARCIAIS (só F-A/V3.1) — completar ao ingerir os quadros.
 
 Uso:
     python3 engines/tdc/oodc.py --demo     # exemplo trabalhado + auto-teste (gate)
@@ -67,6 +72,9 @@ CITACAO = {
     "OODC": {"norma": "Estatuto da Cidade (Lei 10.257/2001), art. 28-31; PDE (Lei 16.050/2014)",
              "dispositivo": "Estatuto da Cidade art. 28-31 (outorga onerosa e contrapartida)",
              "confianca": "alta", "obs": "art. do PDE 16.050 a confirmar no verbatim (PDE ainda bruto, B-4)"},
+    "ART117": {"norma": "PDE (Lei 16.050/2014), art. 117",
+               "dispositivo": "PDE art. 117 (contrapartida financeira da outorga onerosa): C = (At/Ac) × V × Fs × Fp",
+               "confianca": "alta", "obs": "VERBATIM indexado (rag/chunks/.../122-art-117); supera a vacina antiga"},
     "TDC_geracao_ZEPEC_BIR": {"norma": "PDE (Lei 16.050/2014), art. 125; LPUOS (Lei 16.402/2016), art. 24-26",
              "dispositivo": "PDE art. 125 (declaração de potencial construtivo passível de transferência) + LPUOS art. 24 (Fator de Incentivo Fi)",
              "confianca": "alta", "obs": "art. 125 do PDE verificado por remissão na LPUOS 16.402 Art. 24 (indexada)"},
@@ -146,6 +154,36 @@ def outorga_onerosa(area_adicional, ca_max, fp, fs, v):
         "inputs": {"area_adicional": str(aa), "ca_max": str(cam), "fp": str(fpd), "fs": str(fsd), "v": str(vd)},
         "citacao": CITACAO["OODC"],
     }
+
+
+def contrapartida_art117(at, ac, v, fs, fp, potencial_adicional=None):
+    """Art. 117 (PDE), FIEL AO VERBATIM: C = (At / Ac) × V × Fs × Fp — contrapartida financeira por m²
+    de potencial construtivo adicional. Devolve o C por m²; se `potencial_adicional` vier, devolve também
+    o TOTAL (§1º: C × adicional). At = área do terreno; Ac = área construída computável total pretendida;
+    V = valor do m² (Quadro 14); Fs = fator social (Quadro 5, 0..1); Fp = fator de planejamento (Quadro 6, 0..1,3).
+    Reconciliação: quando Ac = CA_max × At, o total é IDÊNTICO a outorga_onerosa(adicional, CA_max, Fp, Fs, V)."""
+    At = _exigir_positivo(_d(at, "at"), "at")
+    Ac = _exigir_positivo(_d(ac, "ac"), "ac")
+    V = _exigir_positivo(_d(v, "v"), "v")
+    Fs, Fp = _d(fs, "fs"), _d(fp, "fp")
+    if Fp <= 0:
+        raise ValueError(f"fp deve ser > 0 (Fator de Planejamento). Recebido: {Fp}")
+    if Fs < 0:
+        raise ValueError(f"fs deve ser >= 0 (Fator Social; HIS=0,0). Recebido: {Fs}")
+    C_raw = (At / Ac) * V * Fs * Fp
+    out = {
+        "artefato": "contrapartida_OODC_art117",
+        "valor_por_m2": _q(C_raw),
+        "formula": "C = (At / Ac) × V × Fs × Fp",
+        "memoria_calculo": f"({At} / {Ac}) × {V} × {Fs} × {Fp} = {_q(C_raw)}",
+        "inputs": {"at": str(At), "ac": str(Ac), "v": str(V), "fs": str(Fs), "fp": str(Fp)},
+        "citacao": CITACAO["ART117"],
+    }
+    if potencial_adicional is not None:
+        pa = _exigir_positivo(_d(potencial_adicional, "potencial_adicional"), "potencial_adicional")
+        out["total"] = _q(C_raw * pa)   # §1º — do C RAW (sem pré-quantizar), p/ a identidade fechar exata
+        out["memoria_total"] = f"C({_q(C_raw)}) × adicional({pa}) = {out['total']}  (Art. 117 §1º)"
+    return out
 
 
 def potencial_gerado_zepec(atc_matricula, area_desapropriada, ca_basico):
@@ -366,6 +404,20 @@ def _autoteste():
 
     # OODC: (1000/4)×1.2×1.0×3000 = 250×3600 = 900000
     checa("OODC", outorga_onerosa(1000, 4, "1.2", "1.0", 3000)["valor"], "900000.000")
+    # RECONCILIAÇÃO Art. 117 (2026-07-10) — contrapartida por m² do caput × total §1º, MESMA família.
+    # Ac = CA_max×At = 4×500 = 2000 → C = (500/2000)×3000×1.0×1.2 = 900/m²; total(×1000)=900000 = OODC.
+    c117 = contrapartida_art117("500", "2000", 3000, "1.0", "1.2", potencial_adicional="1000")
+    checa("Art.117 C por m²", c117["valor_por_m2"], "900.000")
+    checa("Art.117 total §1º == OODC (identidade)", c117["total"],
+          outorga_onerosa(1000, 4, "1.2", "1.0", 3000)["valor"])
+    if "117" not in c117["citacao"]["dispositivo"]:
+        falhas.append("Art.117: citação não aponta o art. 117")
+    for bad in [("500", "0", 3000, "1.0", "1.2"), ("500", "2000", 3000, "-1", "1.2"),
+                ("500", "2000", 3000, "1.0", "0")]:
+        try:
+            contrapartida_art117(*bad); falhas.append(f"Art.117 deveria rejeitar {bad}")
+        except ValueError:
+            pass
     # ZEPEC (A-02: F_i escalonado): Atc_liq=(500−50)=450 → área ≤500 → F_i=1,2 → 450×2×1,2 = 1080
     checa("ZEPEC (Fi escalonado Art.24)", potencial_gerado_zepec(500, 50, 2)["valor"], "1080.000")
     # ENG-01 corrigido: delega ao pcpt.py (Fi de tabelas/fi-incentivo-doacao.csv, não motor00/)

@@ -1,0 +1,62 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-6989-1966::163-art-77",
+  "lei_id": "lei-municipal-saopaulo-6989-1966",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 77",
+  "numero": "77",
+  "header_raw": "Art. 77 - As infrações serão punidas com multa:(Redação dada pela Lei nº 7.228/1968)",
+  "caminho_hierarquico": [
+    "TITULO I",
+    "CAPITULO IV",
+    "SEÇÃO VIII",
+    "Art. 77"
+  ],
+  "texto": "Art. 77 - As infrações serão punidas com multa:(Redação dada pela Lei nº 7.228/1968)\n\nI - de valor igual ao do imposto, observada a imposição mínima de importância equivalente à metade do salário mínimo vigente no Município;(Redação dada pela Lei nº 7.228/1968)\n\na) aos que, sujeitos ao pagamento do imposto por estimativa, sonegarem documentos necessários à fixação do valor estimado do imposto;(Redação dada pela Lei nº 7.228/1968)\n\nb) aos que, sujeitos à escrita fiscal, deixarem de lançar, no livro próprio, o imposto devido;(Redação dada pela Lei nº 7.228/1968)\n\nb) aos que, vencido o prazo regulamentar, não possuírem livros fiscais.(Redação dada pela Lei nº 7.687/1971)\n\nc) aos que, sujeitos à emissão de nota fiscal, deixarem de emiti-la em operação tributada;(Incluído pela Lei nº 7.228/1968)\n\nd) aos que, sujeitos ao pagamento do imposto, sonegarem ou destruírem documentos de controle interno ou fiscais, necessários à apuração do montante do imposto devido;(Incluído pela Lei nº 7.228/1968)\n\nII - de 20% (vinte por cento) sobre o montante do imposto, aos que deixarem de efetuar o recolhimento deste nos prazos regulamentares, além de incorrerem em mora à razão de 1% (um por cento) ao mês, a partir do mês seguinte ao do vencimento e em correção monetária, sem prejuízo das custas e demais despesas judiciais;(Redação dada pela Lei nº 7.228/1968)\n\nII - de 20% (vinte por cento) sobre o montante do imposto:(Redação dada pela Lei nº 7.687/1971)\n\na) aos que deixarem de efetuar o recolhimento deste nos prazos regulamentares, além de incorrerem em mora - à razão de 1% (um por cento) ao mês, a partir do mês seguinte ao do vencimento - e em correção monetária, sem prejuízo das custas e demais despesas judiciais;(Incluído pela Lei nº 7.687/1971)\n\nb) aos que, sujeitos à escrita fiscal, deixarem de lançar, no livro próprio, o imposto devido.(Incluído pela Lei nº 7.687/1971)\n\nIII - de 10% (dez por cento) do valor tributável, aos que, não obrigados ao pagamento do imposto, deixarem de emitir nota fiscal ou outros documentos de controle exigidos por esta Lei;(Redação dada pela Lei nº 7.228/1968)\n\nIV - igual ao valor tributável, aos que emitirem nota fiscal que corresponda a uma operação não tributada ou isenta, e aos que, em proveito próprio ou alheio, se utilizarem dessas notas para produção de qualquer efeito fiscal;(Redação dada pela Lei nº 7.228/1968)\n\nV - igual à metade do salário mínimo vigente no Município, aos que, por qualquer forma, embaraçarem ou iludirem a ação fiscal ou se recusarem a apresentar livros ou papéis exigidos pela legislação municipal;(Redação dada pela Lei nº 7.228/1968)\n\nVI - igual ao valor do imposto, aos que não retiverem o montante do imposto devido sobre o total da operação;(Redação dada pela Lei nº 7.228/1968)\n\nVII - igual ao dobro do montante do imposto devido sobre a operação, aos que não recolherem, no prazo regulamentar, o imposto retido do prestador de serviços;(Redação dada pela Lei nº 7.228/1968)\n\nVII - igual ao dobro do montante do imposto devido sobre a operação, aos que não recolherem, no prazo regulamentar, o imposto retido do prestador de serviços, quando apurado por procedimento fiscal ou após seu início.(Redação dada pela Lei nº 8.809/1978)\n\nVIII - igual ao valor do salário mínimo vigente no Município;(Redação dada pela Lei nº 7.228/1968)\n\na) aos que não apuserem, na forma regulamentar, o número de inscrição nas guias de recolhimento do imposto, ou o apuserem com incorreção ou imperfeitamente;(Incluído pela Lei nº 7.228/1968)\n\nb) aos que, obrigados ao pagamento do imposto, não se acharem inscritos no Cadastro Fiscal de Serviços;(Incluído pela Lei nº 7.228/1968)\n\nIX - igual a um terço do salário mínimo vigente no Município, aos que cometerem infração para a qual não haja penalidade específica neste Capítulo.(Incluído pela Lei nº 7.228/1968)\n\nParágrafo Único - Nos casos do inciso I, se a infração resultar de artifício doloso ou aparentar evidente intuito de fraude, a multa será agravada de três vezes o valor do imposto devido, e nunca inferior a 150% (cento e cinquenta por cento) do salário mínimo vigente no Município(Redação dada pela Lei nº 7.228/1968)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "1968",
+    "norma_redacao": "Lei nº 7.228/1968"
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 6.989/1966 — São Paulo/SP",
+    "dispositivo": "TITULO I › CAPITULO IV › SEÇÃO VIII › Art. 77",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-6989-de-29-de-dezembro-de-1966",
+    "vigencia": {
+      "inicio": "1967-01-01",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 10.394/1987",
+        "Lei 10.805/1989",
+        "Lei 10.921/1990",
+        "Lei 11.152/1991",
+        "Lei 11.334/1992",
+        "Lei 12.782/1998",
+        "Lei 13.250/2001",
+        "Lei 15.889/2013"
+      ],
+      "obs": "texto COMPILADO do portal oficial, com anotações de alteração por dispositivo; lista alterada_por = anotações verificadas no texto (não exaustiva)"
+    }
+  },
+  "tema": [
+    "sistema_tributario_municipal",
+    "imposto_predial",
+    "imposto_territorial_urbano",
+    "valor_venal",
+    "aliquota_progressiva",
+    "fato_gerador",
+    "isencao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o sistema tributário do Município e da outras providências."
+}

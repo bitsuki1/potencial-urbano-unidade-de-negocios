@@ -1,0 +1,43 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-10235-1986::001-preambulo",
+  "lei_id": "lei-municipal-saopaulo-10235-1986",
+  "tipo_dispositivo": "preambulo",
+  "rotulo": "Preâmbulo",
+  "numero": null,
+  "header_raw": null,
+  "caminho_hierarquico": [],
+  "texto": "LEI Nº 10.235, DE 16 DE DEZEMBRO DE 1986\n\n(Projeto de Lei Nº 303/1986 - Executivo)\n\nDispõe sobre a forma de apuração do valor venal de imóveis, para efeito de lançamento dos Impostos sobre a Propriedade Predial e Territorial Urbana, concede descontos sobre os valores venais dos imóveis sujeitos à incidência desses impostos, no exercício de 1987, e dá outras providências.\n\nJÂNIO DA SILVA QUADROS, Prefeito do Município de São Paulo, usando das atribuições que lhe são conferidas por lei, faz saber que a Câmara Municipal, em sessão de 27 de novembro de 1986, decretou e eu promulgo a seguinte Lei:",
+  "citavel": false,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 10.235/1986 — São Paulo/SP",
+    "dispositivo": "Preâmbulo",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-10235-de-16-de-dezembro-de-1986",
+    "vigencia": {
+      "em_vigor": true,
+      "observacao": "Vigente; valores e tabelas atualizados por leis posteriores (cadeia PGV).",
+      "alterada_por": [
+        "Lei Municipal SP no 18.330, de 11/11/2025 — a partir de 1o/1/2026, a Tabela VI (valores de construcao) e a Listagem de Valores Unitarios de Terreno passam a vigorar conforme os Anexos I e II da 18.330. Fonte: legislacao.prefeitura.sp.gov.br/leis/lei-18330-de-11-de-novembro-de-2025 (verbatim a capturar). NAO alterou a Tabela IV (obsolescencia)."
+      ],
+      "inicio": "1986-12-16",
+      "obs": "inicio = data da lei (proxy da publicação, convenção do corpus); cláusula verbatim: Art. 25. Esta Lei entrará em vigor na data de sua publicação, produzindo afeitos a partir de 1º de janeiro de 1987, revogadas as disposições em contrário, especialmente os artigos 8º e parágrafos,16 e parágrafos, 28 e pa"
+    }
+  },
+  "tema": [
+    "PGV",
+    "valor_venal",
+    "calculo"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a forma de apuração do valor venal de imóveis, para efeito de lançamento dos Impostos sobre a Propriedade Predial e Territorial Urbana, concede descontos sobre os valores venais dos imóveis sujeitos à incidência desses impostos no exercício de 1987, e dá outras providências."
+}

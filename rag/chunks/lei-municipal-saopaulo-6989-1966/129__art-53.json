@@ -1,0 +1,62 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-6989-1966::129-art-53",
+  "lei_id": "lei-municipal-saopaulo-6989-1966",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 53",
+  "numero": "53",
+  "header_raw": "Art. 53 - Ressalvadas as hipóteses expressamente previstas neste Capitulo, calcula-se o imposto na conformidade da tabela anexa, que faz parte integrante desta Lei.(Revogado pela Lei nº 14.125/2005)",
+  "caminho_hierarquico": [
+    "TITULO I",
+    "CAPITULO IV",
+    "SEÇÃO II",
+    "Art. 53"
+  ],
+  "texto": "Art. 53 - Ressalvadas as hipóteses expressamente previstas neste Capitulo, calcula-se o imposto na conformidade da tabela anexa, que faz parte integrante desta Lei.(Revogado pela Lei nº 14.125/2005)\n\n§ 1º - Para os efeitos deste imposto, considera-se preço de serviço a receita bruta a ele correspondente, sem nenhuma dedução, executados os descontos ou abatimentos concedidos independentemente de qualquer condição.\n\n§ 1º A base de cálculo do imposto é o preço do serviço, como tal considerada a receita bruta a ele correspondente, sem nenhuma dedução, excetuados os descontos ou abatimentos concedidos independentemente de qualquer condição.(Redação dada pela Lei nº 10.200/1986)\n\n§ 2º - Na falta deste preço, ou não sendo ele desde logo conhecido, será adotado o corrente na praça.\n\n§ 3º - Na hipótese de calculo efetuado na forma do parágrafo anterior, qualquer diferença de preço que venha a ser efetivamente apurada acarretará a exigibilidade do imposto sobre o respectivo montante.\n\n§ 4º - O preço de determinados tipos de serviços poderá ser fixado pela autoridade fiscal, em pauta que reflita o corrente na praça.\n\n§ 5º - O montante do imposto é considerado parte integrante e indissociável de preço referido neste artigo, constituindo o respectivo destaque nos documentos fiscais mera indicação de controle.\n\n§ 6º Inexistindo preço corrente na praça, será ele fixado:(Incluído pela Lei nº 7.047/1967)\n\nI - pela repartição fiscal, mediante estimativa dos elementos conhecidos ou apurados;(Incluído pela Lei nº 7.047/1967)\n\nII - pela aplicação do preço indireto, estimado em função do proveito, utilização ou colocação do objeto da prestação do serviço.(Incluído pela Lei nº 7.047/1967)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "1986",
+    "norma_redacao": "Lei nº 10.200/1986"
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 6.989/1966 — São Paulo/SP",
+    "dispositivo": "TITULO I › CAPITULO IV › SEÇÃO II › Art. 53",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-6989-de-29-de-dezembro-de-1966",
+    "vigencia": {
+      "inicio": "1967-01-01",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 10.394/1987",
+        "Lei 10.805/1989",
+        "Lei 10.921/1990",
+        "Lei 11.152/1991",
+        "Lei 11.334/1992",
+        "Lei 12.782/1998",
+        "Lei 13.250/2001",
+        "Lei 15.889/2013"
+      ],
+      "obs": "texto COMPILADO do portal oficial, com anotações de alteração por dispositivo; lista alterada_por = anotações verificadas no texto (não exaustiva)"
+    }
+  },
+  "tema": [
+    "sistema_tributario_municipal",
+    "imposto_predial",
+    "imposto_territorial_urbano",
+    "valor_venal",
+    "aliquota_progressiva",
+    "fato_gerador",
+    "isencao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o sistema tributário do Município e da outras providências."
+}

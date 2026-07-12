@@ -1,0 +1,43 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-13250-2001::003-art-2o",
+  "lei_id": "lei-municipal-saopaulo-13250-2001",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 2º",
+  "numero": "2",
+  "header_raw": "Art. 2º - Ficam atualizados, na forma do Anexo I, integrante desta lei, os valores unitários de metro quadrado da construção constantes da Tabela VI, que integra a Lei nº 10.235, de 16 de dezembro de 1986, e aprovados os valores unitários de metro quadrado de terreno, contidos na Listagem de Valores constantes do Anexo II, da presente lei, a serem considerados para o lançamento dos Impostos Predial e Territorial Urbano, relativo ao exercício de 2002, na forma prevista na legislação específica.",
+  "caminho_hierarquico": [
+    "Art. 2º"
+  ],
+  "texto": "Art. 2º - Ficam atualizados, na forma do Anexo I, integrante desta lei, os valores unitários de metro quadrado da construção constantes da Tabela VI, que integra a Lei nº 10.235, de 16 de dezembro de 1986, e aprovados os valores unitários de metro quadrado de terreno, contidos na Listagem de Valores constantes do Anexo II, da presente lei, a serem considerados para o lançamento dos Impostos Predial e Territorial Urbano, relativo ao exercício de 2002, na forma prevista na legislação específica.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 13.250/2001 — São Paulo/SP",
+    "dispositivo": "Art. 2º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-13250-de-27-de-dezembro-de-2001",
+    "vigencia": {
+      "em_vigor": true,
+      "observacao": "Constitucionalidade reconhecida pelo STF (progressividade fiscal apos EC 29/2000).",
+      "inicio": "2001-12-27",
+      "obs": "inicio = data da lei (proxy da publicação, convenção do corpus); cláusula verbatim: Art. 9º - Esta lei entrará em vigor na data de sua publicação, produzindo efeitos a partir de 1º de janeiro de 2002."
+    }
+  },
+  "tema": [
+    "progressividade",
+    "aliquotas",
+    "calculo",
+    "valor_venal"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Altera a Lei nº 6.989, de 29 de dezembro de 1966, e dá outras providências. (Institui a progressividade fiscal das alíquotas do IPTU em função do valor venal e ajusta Tabelas V/VI e depreciação.)"
+}

@@ -21,7 +21,7 @@
     "hash_alvo": "jurisprudencia/stj-resp-1130545.md",
     "hash_nota": "hash da transcrição do corpus (.md) — cru ausente localmente (B-4/B-9); trocar pelo hash do cru quando ele chegar"
   },
-  "status_pipeline": "tagueado",
+  "status_pipeline": "indexado",
   "confianca_extracao": "alta",
   "revisado_por_humano": false,
   "alerta_qualidade": "RESOLVIDO pela captura verbatim (2026-06-18): o REsp 1.130.545/RJ é o leading case do Tema Repetitivo 387 (não 371). A URL original apontava para AgRg no AREsp 30.272/MG (doc. 1098748), que apenas CITA o REsp 1.130.545/RJ; o inteiro teor do repetitivo foi capturado via SCON. Tese confere.",

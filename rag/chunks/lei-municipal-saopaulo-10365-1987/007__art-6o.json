@@ -1,0 +1,43 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-10365-1987::007-art-6o",
+  "lei_id": "lei-municipal-saopaulo-10365-1987",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 6º",
+  "numero": "6",
+  "header_raw": "Art. 6º - Os projetos de loteamento e desmembramento de terras, em áreas revestidas total ou parcialmente, por vegetação de porte arbóreo, deverão ser submetidos à apreciação do Departamento de Parques e Áreas Verdes - DEPAVE, da Secretaria de Serviços e Obras - SSO, antes da aprovação final pelo Departamento de Parcelamento do Solo e Intervenções Urbanas - PARSOLO - INTERURB, da Secretaria da Habitação e Desenvolvimento Urbano - SEHAB.(Revogado pela Lei nº 17.794/2022)",
+  "caminho_hierarquico": [
+    "Capítulo I",
+    "Art. 6º"
+  ],
+  "texto": "Art. 6º - Os projetos de loteamento e desmembramento de terras, em áreas revestidas total ou parcialmente, por vegetação de porte arbóreo, deverão ser submetidos à apreciação do Departamento de Parques e Áreas Verdes - DEPAVE, da Secretaria de Serviços e Obras - SSO, antes da aprovação final pelo Departamento de Parcelamento do Solo e Intervenções Urbanas - PARSOLO - INTERURB, da Secretaria da Habitação e Desenvolvimento Urbano - SEHAB.(Revogado pela Lei nº 17.794/2022)\n\n§ 1º - A apreciação do departamento de Parque e Áreas Verdes - DEPAVE deverá conter parecer técnico sobre:\n\na) o enquadramento da área, ou não, em uma ou mais hipóteses definidas nos parágrafos 2º, 3º e 4º, do artigo 4º, desta lei;\n\nb) a escolha da localização dos 15% (quinze por cento) da área destinada às áreas verdes exigidas pela Lei 9.413, de 30 de dezembro de 1981;\n\nc) a melhor alternativa que corresponda à mínima destruição da vegetação de porte arbóreo.\n\n§ 2º - O Departamento de Parques e Áreas Verdes - DEPAVE deverá levar em conta a preservação dos recursos paisagísticos da área em estudo, podendo definir os agrupamentos vegetais significativos a preservar.\n\n§ 3º - Em casos especiais, poderá admitir-se a integração dos agrupamentos referidos no parágrafo anterior às atividades de lazer da comunidade.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 10.365/1987 — São Paulo/SP",
+    "dispositivo": "Capítulo I › Art. 6º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-10365-de-22-de-setembro-de-1987",
+    "vigencia": {
+      "em_vigor": true,
+      "observacao": "Vigente; alterada pela Lei 17.267/2020 (e relaciona-se com a Lei 10.919/1990).",
+      "inicio": "1987-09-22",
+      "obs": "inicio = data da lei (proxy da publicação, convenção do corpus); cláusula verbatim: Art. 27 - Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário."
+    }
+  },
+  "tema": [
+    "vegetacao",
+    "APP",
+    "meio_ambiente"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Disciplina o corte e a poda de vegetação de porte arbóreo existente no Município de São Paulo e dá outras providências."
+}

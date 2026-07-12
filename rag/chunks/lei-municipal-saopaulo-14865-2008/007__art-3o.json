@@ -1,0 +1,44 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-14865-2008::007-art-3o",
+  "lei_id": "lei-municipal-saopaulo-14865-2008",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 3º",
+  "numero": "3",
+  "header_raw": "Art. 3º-A. Fica isenta do IPTU a Companhia Metropolitana de Habitação de São Paulo – COHAB-SP, relativamente:(Incluído pela Lei nº 18.330/2025)",
+  "caminho_hierarquico": [
+    "CAPÍTULO I",
+    "Art. 3º"
+  ],
+  "texto": "Art. 3º-A. Fica isenta do IPTU a Companhia Metropolitana de Habitação de São Paulo – COHAB-SP, relativamente:(Incluído pela Lei nº 18.330/2025)\n\nI - aos imóveis próprios integrantes de conjuntos habitacionais destinados a abrigar espaços de uso comercial ou institucional vinculados ao apoio, manutenção ou operação dos respectivos empreendimentos;(Incluído pela Lei nº 18.330/2025)\n\nII - aos terrenos de sua propriedade ainda não edificados, enquanto perdurar a fase preparatória ou de implantação dos projetos habitacionais, até o início efetivo das obras;(Incluído pela Lei nº 18.330/2025)\n\nIII - aos imóveis utilizados como áreas de apoio operacional da Companhia, compreendidos os espaços destinados a estacionamento, guarda de veículos, equipamentos ou materiais empregados na execução de suas atividades institucionais.(Incluído pela Lei nº 18.330/2025)\n\n§ 1º A isenção prevista neste artigo aplica-se exclusivamente aos imóveis cuja propriedade ou posse direta seja comprovadamente da COHAB-SP e enquanto mantida a destinação indicada em cada inciso.(Incluído pela Lei nº 18.330/2025)\n\n§ 2º A isenção não se estende a imóveis, unidades ou frações ideais que estejam compromissadas à venda, reservadas para alienação futura ou destinadas a comercialização.(Incluído pela Lei nº 18.330/2025)\n\n§ 3º A Companhia Metropolitana de Habitação de São Paulo – COHAB-SP deverá encaminhar, até 31 de outubro de cada exercício, à Secretaria Municipal da Fazenda, a relação atualizada dos imóveis abrangidos pela isenção prevista neste artigo, contendo a identificação cadastral e a respectiva destinação.(Incluído pela Lei nº 18.330/2025)\n\nCAPÍTULO II\n\nIMPOSTO SOBRE TRANSMISSÃO \"INTER VIVOS\", A QUALQUER TÍTULO, POR ATO ONEROSO, DE BENS IMÓVEIS, POR NATUREZA OU ACESSÃO FÍSICA, E DE DIREITOS REAIS SOBRE IMÓVEIS, EXCETOS OS DE GARANTIA, BEM COMO CESSÃO DE DIREITOS À SUA AQUISIÇÃO - ITBI-IV",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 14.865/2008 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO I › Art. 3º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-14865-de-29-de-dezembro-de-2008",
+    "vigencia": {
+      "em_vigor": true,
+      "observacao": "Vigente (beneficio com termo final 31/12/2030 para a hipotese ZEIS/CDHU). Confirmar alteracoes posteriores.",
+      "inicio": "2008-12-29",
+      "obs": "inicio = data da lei (proxy da publicação, convenção do corpus); cláusula verbatim: Art. 16. Esta lei entrará em vigor na data de sua publicação."
+    }
+  },
+  "tema": [
+    "habitacional_popular",
+    "HIS",
+    "ZEIS",
+    "isencao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Concede isenção do Imposto Predial e Territorial Urbano (IPTU) em condições específicas (inclusive habitação de interesse social / ZEIS), altera dispositivos de leis tributárias e dá outras providências."
+}

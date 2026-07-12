@@ -60,6 +60,22 @@ def limpar_corpo(txt: str):
     return "\n".join(corpo).strip("\n")
 
 
+def ler_cabecalho(txt: str):
+    """Lê FONTE:/CAPTURA: do cabeçalho de captura (linhas antes do `ID:`). Retrocompatível:
+    cru antigo sem cabeçalho → {} e a proveniência default (AUD-01/planalto) é preservada."""
+    cab = {}
+    for ln in txt.split("\n")[:10]:
+        s = ln.strip()
+        low = s.lower()
+        if low.startswith("fonte:"):
+            cab["fonte"] = s[len("fonte:"):].strip()
+        elif low.startswith("captura:"):
+            cab["captura"] = s[len("captura:"):].strip()
+        elif low.startswith("id:"):
+            break
+    return cab
+
+
 def promover(_id, reportar):
     cru = ENTRADA / f"{_id}.txt"
     if not cru.exists():
@@ -70,6 +86,7 @@ def promover(_id, reportar):
         reportar(f"  SKIP {_id}: sem par .json em leis/")
         return False
 
+    cab = ler_cabecalho(cru.read_text(encoding="utf-8"))
     corpo = limpar_corpo(cru.read_text(encoding="utf-8"))
     uteis = [l for l in corpo.split("\n") if l.strip()]
     if len(uteis) < MIN_LINHAS:
@@ -79,16 +96,30 @@ def promover(_id, reportar):
     meta = json.loads(jpath.read_text(encoding="utf-8"))
     titulo_antigo = md_path.read_text(encoding="utf-8").splitlines()[0].lstrip("# ").strip() if md_path.exists() else _id
     ementa = meta.get("ementa") or "(ver texto integral)"
-    url = (meta.get("fonte") or {}).get("url") or ""
+    url = cab.get("fonte") or (meta.get("fonte") or {}).get("url") or ""
+
+    # Proveniência: com cabeçalho FONTE:/CAPTURA: no cru (capturar_lei_portal.py), usa-o;
+    # sem cabeçalho, preserva o texto do lote original AUD-01 (retrocompatível byte-a-byte).
+    if cab.get("fonte"):
+        data_cap = cab.get("captura") or "(ver cru)"
+        prov = (f"VERBATIM INTEGRAL — capturado de {cab['fonte']} ({data_cap}); promovido de "
+                f"`_entrada/misto/{_id}.txt`. Saneado só lixo de captura; boilerplate oficial "
+                f"do portal preservado (anotações de alteração do texto compilado incluídas).")
+        metodo = f"VERBATIM INTEGRAL (portal oficial, texto compilado); captura {data_cap}; promovido de _entrada/misto/"
+        data_md = data_cap
+    else:
+        prov = (f"VERBATIM DE TELA — re-ingerido em 2026-06-20 de "
+                f"`_entrada/misto/{_id}.txt` (o cru já estava local; supera a versão NÃO-VERBATIM "
+                f"anterior, que dizia 'HTTP 403 / não baixado'). Saneado só lixo de captura; "
+                f"boilerplate oficial do portal preservado.")
+        metodo = "VERBATIM DE TELA (planalto); re-ingerido de _entrada/misto/ em 2026-06-20 (AUD-01)"
+        data_md = "2026-06-18"
 
     novo_md = (
         f"# {titulo_antigo}\n\n"
         f"**URL oficial:** {url}\n"
-        f"**Data de captura:** 2026-06-18\n"
-        f"**Proveniência:** VERBATIM DE TELA — re-ingerido em 2026-06-20 de "
-        f"`_entrada/misto/{_id}.txt` (o cru já estava local; supera a versão NÃO-VERBATIM "
-        f"anterior, que dizia 'HTTP 403 / não baixado'). Saneado só lixo de captura; "
-        f"boilerplate oficial do portal preservado.\n"
+        f"**Data de captura:** {data_md}\n"
+        f"**Proveniência:** {prov}\n"
         f"**confianca_extracao:** alta (articulado integral verbatim)\n\n"
         f"## Ementa\n\n{ementa}\n\n"
         f"## Texto integral (verbatim)\n\n{corpo}\n"
@@ -97,7 +128,9 @@ def promover(_id, reportar):
 
     fonte = meta.get("fonte") or {}
     fonte["path"] = f"_entrada/misto/{_id}.txt"
-    fonte["metodo"] = "VERBATIM DE TELA (planalto); re-ingerido de _entrada/misto/ em 2026-06-20 (AUD-01)"
+    if cab.get("fonte"):
+        fonte["url"] = cab["fonte"]
+    fonte["metodo"] = metodo
     fonte["obs"] = "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior."
     fonte["ocr"] = False
     # AUD-A10 — Gate 1 'hash confere': carimba o sha256 do CRU na ingestão (o consolidar.py

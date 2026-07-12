@@ -20,7 +20,7 @@
     "hash_alvo": "jurisprudencia/stf-tema-523.md",
     "hash_nota": "hash da transcrição do corpus (.md) — cru ausente localmente (B-4/B-9); trocar pelo hash do cru quando ele chegar"
   },
-  "status_pipeline": "tagueado",
+  "status_pipeline": "indexado",
   "confianca_extracao": "alta",
   "revisado_por_humano": false,
   "verificacao_verbatim": "Tese confere com a captura verbatim. Captura confirma trânsito em julgado 30/04/2021.",

@@ -1,0 +1,42 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17759-2022::004-art-3o",
+  "lei_id": "lei-municipal-saopaulo-17759-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 3º",
+  "numero": "3",
+  "header_raw": "Art. 3º O art. 1º da Lei nº 17.248, de 16 de dezembro de 2019, passa a vigorar com a seguinte redação:",
+  "caminho_hierarquico": [
+    "Art. 3º"
+  ],
+  "texto": "Art. 3º O art. 1º da Lei nº 17.248, de 16 de dezembro de 2019, passa a vigorar com a seguinte redação:\n\n“Art. 1º O Município de São Paulo fica proibido de conceder incentivo ou benefício fiscal a pessoa jurídica em cujo respectivo quadro societário figure pessoa condenada por corrupção de qualquer espécie ou improbidade administrativa, por decisão judicial transitada em julgado.\n\n§ 1º O controle das pessoas que incidam na proibição de que trata o caput será efetuado por sistema informatizado, gerido conjuntamente pela Secretaria Municipal da Fazenda, pela Procuradoria Geral do Município e pela Controladoria Geral do Município, na forma do regulamento.\n\n§ 2º Até que o sistema de que trata o § 1º seja disponibilizado, a Administração Municipal deverá exigir das pessoas jurídicas solicitantes declaração de seu representante legal, sob as penas da lei, inclusive do art. 299 do Código Penal, de que não incide nas vedações de que trata esta Lei.\n\n§ 3º O sistema de que trata o § 1º deverá, também, efetuar o controle das pessoas físicas que estejam proibidas de receber incentivos ou benefícios fiscais por efeito de sentença condenatória transitada em julgado, bem como daquelas condenadas por corrupção de qualquer espécie ou improbidade administrativa.\n\n§ 4º A partir da disponibilização do sistema de que trata o § 1º, ficará igualmente vedada a concessão de benefícios ou incentivos fiscais a pessoas físicas que nele constem como condenadas por corrupção de qualquer espécie ou improbidade administrativa, mesmo que tal vedação não tenha sido expressamente estabelecida como efeito da respectiva sentença condenatória.\n\n§ 5º O sistema de que trata o § 1º deverá ser disponibilizado até o dia 31 de dezembro de 2023.\n\n§ 6º A isenção de que trata a Lei nº 14.493, de 9 de agosto de 2007, possui natureza indenizatória, e destina-se à recomposição, no todo ou em parte, dos prejuízos materiais sofridos pelo respectivo titular do imóvel atingido por enchente, pelo que não se aplica àquele benefício fiscal a vedação de que trata o caput deste artigo, ficando vedada, para sua concessão, a consulta ao sistema de que trata o § 1º, ou a exigência da declaração de que trata o § 2º.” (NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.759/2022 — São Paulo/SP",
+    "dispositivo": "Art. 3º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17759-de-15-de-marco-de-2022",
+    "vigencia": {
+      "em_vigor": true,
+      "observacao": "Vigente; promulgada pelo Prefeito Ricardo Nunes em 15/03/2022; altera o Decreto 48.767/2007.",
+      "inicio": "2022-03-15",
+      "obs": "inicio = data da lei (proxy da publicação, convenção do corpus); cláusula verbatim: Art. 4º Esta Lei entrará em vigor na data de sua publicação, produzindo efeitos, quanto aos seus arts. 1º e 2º, bem como quanto ao novel § 6º do art. 1º da Lei nº 17.248, de 2019, para requerimentos de isenção cuja causa"
+    }
+  },
+  "tema": [
+    "enchentes",
+    "isencao",
+    "beneficio_fiscal"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Facilita a concessão de isenção de IPTU a imóveis edificados prejudicados por enchentes, alterando o Decreto nº 48.767, de 27 de setembro de 2007, e dá outras providências."
+}

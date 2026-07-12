@@ -1,0 +1,8 @@
+fator,condicao,valor,dispositivo,lei
+esquina,1a subdivisao da Zona Urbana,1.3000,Tabela II (redacao Lei 11.152/1991; Art. 7),lei-municipal-saopaulo-10235-1986
+esquina,2a subdivisao da Zona Urbana,1.2000,Tabela II (redacao Lei 11.152/1991; Art. 7),lei-municipal-saopaulo-10235-1986
+esquina,alem do perimetro da 2a subdivisao,1.1000,Tabela II (redacao Lei 11.152/1991; Art. 7),lei-municipal-saopaulo-10235-1986
+esquina,Tipo 1 em ZER (redacao Lei 15.889/2013),1.0000,Tabela II (redacao Lei 15.889/2013; Art. 7),lei-municipal-saopaulo-10235-1986
+terreno_encravado,,0.50,Tabela III (redacao Lei 11.152/1991; Art. 8),lei-municipal-saopaulo-10235-1986
+terreno_de_fundo,,0.60,Tabela III (redacao Lei 11.152/1991; Art. 8),lei-municipal-saopaulo-10235-1986
+terreno_interno,,0.70,Tabela III (redacao Lei 11.152/1991; Art. 8),lei-municipal-saopaulo-10235-1986

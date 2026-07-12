@@ -4,12 +4,12 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 112",
   "numero": "112",
-  "header_raw": "Art. 112. A revisão da Lei Municipal de Parcelamento, Uso e Ocupação - LPUOS, Lei nº 16.402, de",
+  "header_raw": "Art. 112. A revisão da Lei Municipal de Parcelamento, Uso e Ocupação - LPUOS, Lei nº 16.402, de 2016, poderá rever os limites das áreas de ZEU, ZEUa, ZEUP, ZEUPa, ZEM e ZEMP, com base em parâmetros que considerem o disposto no art. 77 da Lei nº 16.050, de 2014.",
   "caminho_hierarquico": [
     "CAPÍTULO XII",
     "Art. 112"
   ],
-  "texto": "Art. 112. A revisão da Lei Municipal de Parcelamento, Uso e Ocupação - LPUOS, Lei nº 16.402, de\n\n2016, poderá rever os limites das áreas de ZEU, ZEUa, ZEUP, ZEUPa, ZEM e ZEMP, com base em\n\nparâmetros que considerem o disposto no art. 77 da Lei nº 16.050, de 2014.",
+  "texto": "Art. 112. A revisão da Lei Municipal de Parcelamento, Uso e Ocupação - LPUOS, Lei nº 16.402, de 2016, poderá rever os limites das áreas de ZEU, ZEUa, ZEUP, ZEUPa, ZEM e ZEMP, com base em parâmetros que considerem o disposto no art. 77 da Lei nº 16.050, de 2014.",
   "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
@@ -21,7 +21,7 @@
   "citacao": {
     "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
     "dispositivo": "CAPÍTULO XII › Art. 112",
-    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17975-de-8-de-julho-de-2023",
     "vigencia": {
       "inicio": "2023-07-08",
       "fim": null,

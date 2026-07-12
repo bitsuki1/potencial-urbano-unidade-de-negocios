@@ -1,0 +1,33 @@
+{
+  "chunk_id": "stj-tema-262::001-ficha",
+  "lei_id": "stj-tema-262",
+  "tipo_dispositivo": "jurisprudencia",
+  "rotulo": "STJ 262",
+  "numero": "262",
+  "header_raw": "STJ 262. NÃO VERIFICADO COM SEGURANÇA EM FONTE OFICIAL. Conteúdo IPTU pretendido (sujeito passivo do IPTU / cabe à legis",
+  "caminho_hierarquico": [
+    "STJ 262"
+  ],
+  "texto": "STJ 262. NÃO VERIFICADO COM SEGURANÇA EM FONTE OFICIAL. Conteúdo IPTU pretendido (sujeito passivo do IPTU / cabe à legislação municipal eleger entre proprietário, titular do domínio útil ou possuidor) corresponde, na verdade, ao Tema 122/STJ (REsp 1.111.202/SP), que originou a Súmula 399/STJ. Fontes secundárias divergem sobre o objeto do Tema 262 (algumas o associam a prescrição/exceção de pré-executividade). Dispositivos relacionados: CTN art. 34.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "mérito julgado (rito repetitivo); trânsito em julgado",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "recurso_repetitivo STJ 262",
+    "dispositivo": "STJ 262",
+    "fonte_url": "https://scon.stj.jus.br/SCON/recrep/toc.jsp?b=TEMA",
+    "vigencia": {}
+  },
+  "tema": [],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "STJ",
+  "ementa": "NÃO VERIFICADO COM SEGURANÇA EM FONTE OFICIAL. Conteúdo IPTU pretendido (sujeito passivo do IPTU / cabe à legislação municipal eleger entre proprietário, titular do domínio útil ou possuidor) corresponde, na verdade, ao Tema 122/STJ (REsp 1.111.202/SP), que originou a Súmula 399/STJ. Fontes secundár"
+}

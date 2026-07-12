@@ -20,7 +20,7 @@
     "hash_alvo": "jurisprudencia/stf-tema-94.md",
     "hash_nota": "hash da transcrição do corpus (.md) — cru ausente localmente (B-4/B-9); trocar pelo hash do cru quando ele chegar"
   },
-  "status_pipeline": "tagueado",
+  "status_pipeline": "indexado",
   "confianca_extracao": "alta",
   "revisado_por_humano": false,
   "verificacao_verbatim": "CORRIGIDA a tese para a redação verbatim da fonte STF. O stub trazia '...alíquotas progressivas para o IPTU em razão do valor do imóvel'; a tese oficial firmada é '...de acordo com o valor do imóvel'. Sentido idêntico, redação ajustada ao literal. Confiança elevada de média->alta. Leading case RE 586693, Rel. Min. Marco Aurélio, mérito 25/05/2011, trânsito 02/08/2011.",

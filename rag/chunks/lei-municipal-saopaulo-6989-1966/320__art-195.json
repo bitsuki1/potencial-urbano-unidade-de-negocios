@@ -1,0 +1,60 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-6989-1966::320-art-195",
+  "lei_id": "lei-municipal-saopaulo-6989-1966",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 195",
+  "numero": "195",
+  "header_raw": "Art. 195 - O Executivo atualizará, anualmente, a expressão monetária da base de cálculo dos impostos e das multas, bem como a das taxas de limpeza pública e de conservação de vias e logradouros públicos, da seguinte forma:(Redação dada pela Lei nº 7.834/1972)",
+  "caminho_hierarquico": [
+    "TITULO III",
+    "Art. 195"
+  ],
+  "texto": "Art. 195 - O Executivo atualizará, anualmente, a expressão monetária da base de cálculo dos impostos e das multas, bem como a das taxas de limpeza pública e de conservação de vias e logradouros públicos, da seguinte forma:(Redação dada pela Lei nº 7.834/1972)\n\nI - A dos impostos e das multas, com base nos coeficientes de correção aprovados pelo Governo Federal para as Obrigações Reajustáveis do Tesouro Nacional;(Incluído pela Lei nº 7.834/1972)\n\nII - A das taxas de limpeza pública e de conservação de vias e logradouros públicos, com base no índice percentual de aumento do salário mínimo ocorrido no exercício.(Incluído pela Lei nº 7.834/1972)\n\nParágrafo Único - Salvo a hipótese de edição de novas \"Plantas Genéricas de Valores\", as em vigor serão atualizadas pelo Executivo, na forma do item I deste artigo.(Redação dada pela Lei nº 7.834/1972)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "1972",
+    "norma_redacao": "Lei nº 7.834/1972"
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 6.989/1966 — São Paulo/SP",
+    "dispositivo": "TITULO III › Art. 195",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-6989-de-29-de-dezembro-de-1966",
+    "vigencia": {
+      "inicio": "1967-01-01",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 10.394/1987",
+        "Lei 10.805/1989",
+        "Lei 10.921/1990",
+        "Lei 11.152/1991",
+        "Lei 11.334/1992",
+        "Lei 12.782/1998",
+        "Lei 13.250/2001",
+        "Lei 15.889/2013"
+      ],
+      "obs": "texto COMPILADO do portal oficial, com anotações de alteração por dispositivo; lista alterada_por = anotações verificadas no texto (não exaustiva)"
+    }
+  },
+  "tema": [
+    "sistema_tributario_municipal",
+    "imposto_predial",
+    "imposto_territorial_urbano",
+    "valor_venal",
+    "aliquota_progressiva",
+    "fato_gerador",
+    "isencao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o sistema tributário do Município e da outras providências."
+}

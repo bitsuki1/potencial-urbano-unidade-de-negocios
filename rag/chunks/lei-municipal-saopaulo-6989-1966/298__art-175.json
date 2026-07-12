@@ -1,0 +1,60 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-6989-1966::298-art-175",
+  "lei_id": "lei-municipal-saopaulo-6989-1966",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 175",
+  "numero": "175",
+  "header_raw": "Art. 175 - Os resíduos resultantes das escavações para retirada de areia e pedregulho, ou os decorrentes de qualquer mineral dependente de autorização federal, não poderão ser lançados no curso de água, devendo, para isso, o sujeito passivo, ou o minerador, executar as obras necessárias, sob pena de imposição de multa diária de Cr$ 50.000 (cinqüenta mil cruzeiros) ou, sendo caso, da realização daquelas, na forma do parágrafo único do artigo anterior.",
+  "caminho_hierarquico": [
+    "TITULO II",
+    "CAPITULO IV",
+    "SEÇÃO V",
+    "Art. 175"
+  ],
+  "texto": "Art. 175 - Os resíduos resultantes das escavações para retirada de areia e pedregulho, ou os decorrentes de qualquer mineral dependente de autorização federal, não poderão ser lançados no curso de água, devendo, para isso, o sujeito passivo, ou o minerador, executar as obras necessárias, sob pena de imposição de multa diária de Cr$ 50.000 (cinqüenta mil cruzeiros) ou, sendo caso, da realização daquelas, na forma do parágrafo único do artigo anterior.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 6.989/1966 — São Paulo/SP",
+    "dispositivo": "TITULO II › CAPITULO IV › SEÇÃO V › Art. 175",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-6989-de-29-de-dezembro-de-1966",
+    "vigencia": {
+      "inicio": "1967-01-01",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 10.394/1987",
+        "Lei 10.805/1989",
+        "Lei 10.921/1990",
+        "Lei 11.152/1991",
+        "Lei 11.334/1992",
+        "Lei 12.782/1998",
+        "Lei 13.250/2001",
+        "Lei 15.889/2013"
+      ],
+      "obs": "texto COMPILADO do portal oficial, com anotações de alteração por dispositivo; lista alterada_por = anotações verificadas no texto (não exaustiva)"
+    }
+  },
+  "tema": [
+    "sistema_tributario_municipal",
+    "imposto_predial",
+    "imposto_territorial_urbano",
+    "valor_venal",
+    "aliquota_progressiva",
+    "fato_gerador",
+    "isencao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o sistema tributário do Município e da outras providências."
+}

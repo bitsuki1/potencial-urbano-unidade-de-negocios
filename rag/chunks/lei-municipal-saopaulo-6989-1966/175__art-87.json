@@ -1,0 +1,62 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-6989-1966::175-art-87",
+  "lei_id": "lei-municipal-saopaulo-6989-1966",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 87",
+  "numero": "87",
+  "header_raw": "Art. 87 - A taxa calcula-se:(Redação dada pela Lei nº 7.687/1970)",
+  "caminho_hierarquico": [
+    "TITULO II",
+    "CAPITULO I",
+    "SEÇÃO II",
+    "Art. 87"
+  ],
+  "texto": "Art. 87 - A taxa calcula-se:(Redação dada pela Lei nº 7.687/1970)\n\nI - Tratando-se de imóvel construído, em função da sua localização e da sua área construída, na conformidade da seguinte tabela:\n\nZONA MONTANTE ANUAL DA TAXA POR M2 CONSTRUÍDO\n\nZONA ----------------------------Montante anual da taxa por M² Construído\n\nCR$\n\n1º----------------------------------- ---------1,30\n\n2º----------------------------------- ---------0,60\n\n3º----------------------------------- ---------0,40\n\nII - Tratando-se do imóvel não construído, em função da sua localização e da sua área territorial, na conformidade da seguinte tabela:\n\nZONA ----------------------------Montante anual da taxa por M² de Terreno\n\nCR$\n\n1º----------------------------------- ---------0,40\n\n2º----------------------------------- ---------0,10\n\n3º----------------------------------- ---------0,02\n\n§ 1º - A taxa é acrescida de 50% (cinqüenta por cento) quanto às partes de imóveis construídos ocupados por hotel, hospedaria, pensão, cortiço, restaurante, bar, confeitaria, padaria e quitanda.\n\n§ 1º A taxa é acrescida de 50% quanto às partes de imóveis construídos ocupados por pensão, cortiço, restaurante, bar, confeitaria, padaria e quitanda.(Redação dada pela Lei nº 7.047/1967)(Revogado pela Lei nº 7.083/1967)\n\n§ 2º - Parágrafo único - Nenhum lançamento da taxa a que se referem os incisos I e II será inferior, respectivamente, a Cr$ 12.000 (doze mil cruzeiros) e a Cr$ 3.000 (três mil cruzeiros), ou ao montante devido a titulo de Taxa Sanitária no exercício de 1966, se mais elevado salvo ocorrendo, neste caso, modificação substancial nas características do imóvel.(Redação dada pela Lei nº 7.083/1967)\n\nParágrafo Único - Nenhum lançamento de taxa a que se referem os incisos I e II será inferior, respectivamente, a Cr$ 20,00 (vinte cruzeiros) e Cr$ 5,00 (cinco cruzeiros).(Redação dada pela Lei nº 7.687/1971)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "1970",
+    "norma_redacao": "Lei nº 7.687/1970"
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 6.989/1966 — São Paulo/SP",
+    "dispositivo": "TITULO II › CAPITULO I › SEÇÃO II › Art. 87",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-6989-de-29-de-dezembro-de-1966",
+    "vigencia": {
+      "inicio": "1967-01-01",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 10.394/1987",
+        "Lei 10.805/1989",
+        "Lei 10.921/1990",
+        "Lei 11.152/1991",
+        "Lei 11.334/1992",
+        "Lei 12.782/1998",
+        "Lei 13.250/2001",
+        "Lei 15.889/2013"
+      ],
+      "obs": "texto COMPILADO do portal oficial, com anotações de alteração por dispositivo; lista alterada_por = anotações verificadas no texto (não exaustiva)"
+    }
+  },
+  "tema": [
+    "sistema_tributario_municipal",
+    "imposto_predial",
+    "imposto_territorial_urbano",
+    "valor_venal",
+    "aliquota_progressiva",
+    "fato_gerador",
+    "isencao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o sistema tributário do Município e da outras providências."
+}

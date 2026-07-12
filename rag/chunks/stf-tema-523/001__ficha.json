@@ -1,0 +1,33 @@
+{
+  "chunk_id": "stf-tema-523::001-ficha",
+  "lei_id": "stf-tema-523",
+  "tipo_dispositivo": "jurisprudencia",
+  "rotulo": "STF 523",
+  "numero": "523",
+  "header_raw": "STF 523. São constitucionais as leis municipais anteriores à Emenda Constitucional 29/2000, que instituíram alíquotas di",
+  "caminho_hierarquico": [
+    "STF 523"
+  ],
+  "texto": "STF 523. São constitucionais as leis municipais anteriores à Emenda Constitucional 29/2000, que instituíram alíquotas diferenciadas de IPTU para imóveis edificados e não edificados, residenciais e não residenciais. Dispositivos relacionados: CF/88 art. 145, §1º; CF/88 art. 156, I e §1º.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "mérito julgado; trânsito em julgado",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "tema_repercussao_geral STF 523",
+    "dispositivo": "STF 523",
+    "fonte_url": "https://portal.stf.jus.br/jurisprudenciaRepercussao/verAndamentoProcesso.asp?incidente=4178349&numeroProcesso=666156&classeProcesso=RE&numeroTema=523",
+    "vigencia": {}
+  },
+  "tema": [],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "STF",
+  "ementa": "São constitucionais as leis municipais anteriores à Emenda Constitucional 29/2000, que instituíram alíquotas diferenciadas de IPTU para imóveis edificados e não edificados, residenciais e não residenciais."
+}

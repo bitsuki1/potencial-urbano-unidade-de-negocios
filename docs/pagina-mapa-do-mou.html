@@ -231,8 +231,8 @@
       <div class="row"><span class="k">Folha</span><span class="v">Mapa Vivo do Portfólio</span></div>
       <div class="row"><span class="k">Saúde</span><span class="v"><span class="health"><span class="dot ok"></span>Saudável</span></span></div>
       <div class="row"><span class="k">Estágio</span><span class="v">Em construção</span></div>
-      <div class="row"><span class="k">Base ativa</span><span class="v">TDC · IPTU vem depois</span></div>
-      <div class="row"><span class="k">Atualizada</span><span class="v num">2026-07-10 · PU 18</span></div>
+      <div class="row"><span class="k">Frentes ativas</span><span class="v">TDC + IPTU (aberto hoje)</span></div>
+      <div class="row"><span class="k">Atualizada</span><span class="v num">2026-07-10 (tarde) · PU 18</span></div>
     </div>
   </section>
 
@@ -242,28 +242,28 @@
   <section class="metrics rv">
     <div class="metric">
       <div class="lab">Gate mecânico</div>
-      <div class="big"><span class="ok">23/23</span></div>
+      <div class="big"><span class="ok">25/25</span></div>
       <div class="sub">verde — verificação automática</div>
     </div>
     <div class="metric">
       <div class="lab">Testes de qualidade</div>
-      <div class="big">54/54</div>
-      <div class="sub">29 RAG · 15 produto · 6 zona · 4 FSCE</div>
+      <div class="big">72/72</div>
+      <div class="sub">29 RAG · 15 produto · 6 zona · 7 DOC · 15 IPTU</div>
     </div>
     <div class="metric">
       <div class="lab">Corpus jurídico</div>
-      <div class="big">28</div>
-      <div class="sub">leis indexadas · 2.280 trechos · 2.410 remissões</div>
+      <div class="big">38</div>
+      <div class="sub">leis indexadas · 2.767 trechos · 2.973 remissões</div>
     </div>
     <div class="metric">
-      <div class="lab">Cobertura do mapa</div>
-      <div class="big">100%</div>
-      <div class="sub">zona 377/377 · CAbás 3.693/3.693</div>
+      <div class="lab">FSCE em produção</div>
+      <div class="big"><span class="ok">23</span></div>
+      <div class="sub">cedentes com o ×2 do Setor Central aplicado</div>
     </div>
     <div class="metric">
       <div class="lab">Prospecção viva</div>
       <div class="big">2.740</div>
-      <div class="sub">cedentes com potencial na lista</div>
+      <div class="sub">cedentes · zona 377/377 · CAbás 100%</div>
     </div>
   </section>
 
@@ -272,22 +272,25 @@
   <!-- ============ MAIOR ALAVANCA ============ -->
   <section class="pad rv">
     <div class="lever">
-      <div class="eyebrow">A maior alavanca da unidade</div>
-      <h2>O mistério do “Fi ≈ 2,4” foi resolvido — e o cálculo agora bate com o Diário Oficial</h2>
+      <div class="eyebrow">A maior alavanca da unidade — FECHADA HOJE</div>
+      <h2>O Fator Setor Central saiu do papel: está LIGADO na produção</h2>
       <p>
-        O que travava os Termos não era um fator de interesse de 2,4. É a multiplicação de dois fatores da lei:
-        <span class="formula">PCpt = Atc × CAbás × Fi(1,2) × FSCE(2,0)</span> — o <b>Fator Setor Central</b>
-        (Art. 57 da Lei nº 17.844/2022), que vale 2,0 para imóveis tombados no Setor Central com terreno até 1.000 m².
+        A coluna que faltava — a <b>pertinência ao Setor Central por imóvel</b> — foi coletada do GeoSampa
+        (306 imóveis resolvidos: 288 dentro do perímetro, 18 fora) e o cálculo em série já aplica
+        <span class="formula">PCpt = Atc × CAbás × Fi × FSCE(2,0)</span> a <b>23 cedentes</b> tombados
+        no Setor Central (Art. 57 da Lei nº 17.844/2022, terreno até 1.000 m²).
       </p>
       <p>
-        Com ele, o engine <b>reproduz EXATO</b> os valores de <b>4 Declarações oficiais</b> publicadas no Diário Oficial
-        (717,60 · 1.468 · 1.176 · 768 m²). É o método da unidade funcionando ponta a ponta: número que se prova sozinho, rastreável ao artigo.
+        E a régua ficou mais dura: o motor agora <b>reproduz EXATO 7 Declarações oficiais</b> do Diário Oficial —
+        4 com o fator do Setor Central e 3 sem (o outro ramo da fórmula). Número que se prova sozinho, rastreável ao artigo.
       </p>
       <div class="next">
-        <span class="pin">Falta do dono/dados</span>
+        <span class="pin">Próxima alavanca</span>
         <p>
-          Para <b>ligar o FSCE no cálculo em série</b> falta uma coluna: a <span class="formula" style="white-space:normal">pertinência ao Setor Central por cedente</span>
-          (o recorte do perímetro AIU-SCE sobre cada imóvel, puxado do GeoSampa). Com essa camada, a lista inteira passa a precificar o Setor Central sozinha.
+          <b>IPTU pleno:</b> o motor novo calcula o imposto pela lei; para confrontar o <b>valor venal</b> com o
+          lançamento real da Prefeitura faltam a <span class="formula" style="white-space:normal">PGV (valor do m² por rua)</span>,
+          o ano de construção por imóvel e as faixas atualizadas do exercício. E <b>1 clique</b>: re-rodar a coleta
+          GeoSampa para os 71 lotes derrubados por limite de acesso.
         </p>
       </div>
     </div>
@@ -303,10 +306,12 @@
       <span class="hint">PU 18 · 10 de julho de 2026</span>
     </div>
     <div class="agora">
-      <div class="it"><span class="mk star">★</span><span><b>FSCE resgatado à produção.</b> A fórmula do Setor Central estava “esquecida” numa ramificação órfã; trazida ao repositório principal, resolve de vez a divergência que segurava os Termos.</span></div>
-      <div class="it"><span class="mk">◇</span><span><b>Auditoria profunda: 10 achados corrigidos</b> em 7 frentes — busca jurídica, engines, pipeline, governança e qualidade de código.</span></div>
-      <div class="it"><span class="mk">◇</span><span><b>Mapa 100% coberto (G2 fechado).</b> Os 11 imóveis sem zona foram resolvidos pela regra do próprio Plano Diretor (Art. 14 §1º): 3.693 de 3.693 com coeficiente básico.</span></div>
-      <div class="it"><span class="mk">◇</span><span><b>25 gabaritos reais do Diário Oficial</b> recuperados como prova, e <b>8 ramificações órfãs consolidadas</b> — nada de trabalho perdido.</span></div>
+      <div class="it"><span class="mk star">★</span><span><b>Você abriu as duas frentes</b> (“finalizarmos tdc e iptu… execute tudo que for possível sem mim”) — e as duas andaram de ponta a ponta na mesma tarde, com lentes adversariais no final.</span></div>
+      <div class="it"><span class="mk star">★</span><span><b>FSCE ativado em produção:</b> pertinência ao Setor Central coletada do GeoSampa (306 imóveis) e o ×2 do Art. 57 aplicado a 23 cedentes na lista viva.</span></div>
+      <div class="it"><span class="mk star">★</span><span><b>Motor do IPTU construído:</b> valor venal + alíquota progressiva por faixa, tudo lido das tabelas da lei, com teste independente no gate. A frente saiu de “plano” para “construção”.</span></div>
+      <div class="it"><span class="mk star">★</span><span><b>Corpus saltou de 28 para 38 leis:</b> o portal oficial de legislação respondeu à sessão — capturamos as 8 que faltavam + a lei-mãe tributária de 1966 (328 artigos) + o decreto da TDC com doação. Zero pendência de texto.</span></div>
+      <div class="it"><span class="mk">◇</span><span><b>Lentes adversariais (3 em paralelo):</b> jurídica e de dados sem achados; a de engine pegou 4 defeitos de enquadramento/teste — todos corrigidos e re-provados.</span></div>
+      <div class="it"><span class="mk">◇</span><span><b>Registro corrigido:</b> as ramificações “deletadas” de manhã seguem vivas (o GitHub não deixa a sessão deletar) — a lista verificada está no BACKLOG; excluir é 1 clique seu.</span></div>
     </div>
   </section>
 
@@ -341,13 +346,13 @@
               <div class="fcal calor hot"><span class="flame"></span>Quente</div>
             </div>
             <div>
-              <div class="prod">28 leis indexadas e <b>fatiadas por dispositivo</b>, com vigência e <b>citação obrigatória</b>. Grafo de <span class="mono">2.410 remissões</span> (após deduplicação). Ficha de metadados completa: 36/36.</div>
+              <div class="prod"><b>38 leis indexadas</b> (+10 hoje, do portal oficial) e <b>fatiadas por dispositivo</b>, com vigência e <b>citação obrigatória</b>. Grafo de <span class="mono">2.973 remissões</span> — incluindo 559 de “redação dada por” (a vigência por dispositivo da lei-mãe 6.989/66). Zero lei pendente de texto integral.</div>
               <div class="chips">
-                <span class="chip done"><span class="g">✓</span>TDC indexado e citável</span>
-                <span class="chip done"><span class="g">✓</span>grafo de remissões</span>
-                <span class="chip done"><span class="g">✓</span>+4 leis municipais</span>
+                <span class="chip done"><span class="g">✓</span>as 12 municipais em verbatim</span>
+                <span class="chip done"><span class="g">✓</span>lei-mãe 6.989/66 (328 arts)</span>
+                <span class="chip done"><span class="g">✓</span>decreto TDC c/ doação (58.289/18)</span>
+                <span class="chip done"><span class="g">✓</span>captura oficial reusável</span>
                 <span class="chip done"><span class="g">✓</span>vedação Art. 124 §2º</span>
-                <span class="chip done"><span class="g">✓</span>ficha 2.4 · 36/36</span>
               </div>
             </div>
           </div>
@@ -360,10 +365,11 @@
               <div class="fcal calor warm"><span class="flame"></span>Morno</div>
             </div>
             <div>
-              <div class="prod"><span class="mono">377/377</span> zonas-base resolvidas (366 pelo GeoSampa + 11 pela regra do Plano Diretor). Coeficiente básico em <span class="mono">3.693/3.693</span> imóveis. Teste de mutação de zona cobrindo 5 casos.</div>
+              <div class="prod"><span class="mono">377/377</span> zonas-base e coeficiente básico em <span class="mono">3.693/3.693</span> imóveis. <b>Novidade de hoje:</b> pertinência ao <b>Setor Central</b> (perímetro AIU-SCE) resolvida para <span class="mono">306</span> imóveis via GeoSampa — 71 caíram no limite de acesso e aguardam re-coleta.</div>
               <div class="chips">
                 <span class="chip done"><span class="g">✓</span>377/377 resolvidos</span>
-                <span class="chip done"><span class="g">✓</span>teste de mutação de zona</span>
+                <span class="chip done"><span class="g">✓</span>pertinência AIU-SCE (306)</span>
+                <span class="chip next"><span class="g">→</span>re-coleta dos 71 (1 clique)</span>
               </div>
             </div>
           </div>
@@ -376,13 +382,13 @@
               <div class="fcal calor hot"><span class="flame"></span>Quente</div>
             </div>
             <div>
-              <div class="prod">Cálculo determinístico <span class="mono">PCpt = Atc × CAbás × Fi × FSCE</span>, cada fator lido da tabela da lei (falha fechada). Testes de produto 15/15 + FSCE 4/4. <b>Reproduz EXATO 4 Declarações do Diário Oficial.</b></div>
+              <div class="prod">Cálculo determinístico <span class="mono">PCpt = Atc × CAbás × Fi × FSCE</span>, cada fator lido da tabela da lei (falha fechada). <b>FSCE LIGADO EM SÉRIE hoje: 23 cedentes com o ×2 aplicado.</b> Reproduz EXATO <b>7 Declarações do Diário Oficial</b> (4 com FSCE + 3 sem).</div>
               <div class="chips">
                 <span class="chip done"><span class="g">✓</span>lê as tabelas da lei</span>
                 <span class="chip done"><span class="g">✓</span>testes 15/15</span>
                 <span class="chip done"><span class="g">✓</span>Fator Fp (Quadro 6)</span>
-                <span class="chip done"><span class="g">✓</span>FSCE Setor Central</span>
-                <span class="chip block"><span class="g">⊘</span>ligar FSCE em série (coluna do Setor Central)</span>
+                <span class="chip done"><span class="g">✓</span>FSCE em produção (23 cedentes)</span>
+                <span class="chip done"><span class="g">✓</span>7 Declarações reproduzidas</span>
               </div>
             </div>
           </div>
@@ -395,11 +401,11 @@
               <div class="fcal calor hot"><span class="flame"></span>Quente</div>
             </div>
             <div>
-              <div class="prod">Lista de cedentes com <b>elegibilidade de conservação</b> propagada (18 elegíveis, 68 pendentes) e <span class="mono">2.740</span> na prospecção. Regra da esquina: <span class="mono">2.755</span> lotes multi-face sinalizados (Decreto 57.536/2016, Art. 8 IV).</div>
+              <div class="prod">Lista de cedentes com <b>elegibilidade de conservação</b> propagada e <span class="mono">2.740</span> na prospecção. Regra da esquina ativa (Decreto 57.536/2016, Art. 8 IV). <b>Fila de verificação LIGADA à base enriquecida</b> — carrega potencial, saldo, preço e vedações (provado: 926 linhas com cálculo).</div>
               <div class="chips">
                 <span class="chip done"><span class="g">✓</span>lista com conservação</span>
                 <span class="chip done"><span class="g">✓</span>regra da esquina</span>
-                <span class="chip next"><span class="g">→</span>religar a fila ao enriquecimento</span>
+                <span class="chip done"><span class="g">✓</span>fila religada (provado)</span>
               </div>
             </div>
           </div>
@@ -411,25 +417,39 @@
         <header class="plate-h">
           <span class="idx">Projeto 02</span>
           <span class="name">IPTU — terreno</span>
-          <span class="calor cold"><span class="flame"></span>Frio</span>
-          <span class="stage">Em plano</span>
-          <span class="what">A próxima unidade de valor — o método replica o do TDC.</span>
+          <span class="calor hot"><span class="flame"></span>Quente</span>
+          <span class="stage build">Em construção</span>
+          <span class="what">Segunda unidade de valor — <b>aberta por você hoje</b> (“finalizarmos as duas frentes”).</span>
         </header>
         <div class="frentes">
           <div class="frente">
             <div class="fl">
-              <div class="fname">Preparação</div>
-              <div class="prod" style="color:var(--ink-3);font-size:12px;margin-top:3px">fundação antes do motor</div>
+              <div class="fname">Motor do IPTU</div>
+              <div class="prod" style="color:var(--ink-3);font-size:12px;margin-top:3px">valor venal × alíquota</div>
+              <div class="fcal calor hot"><span class="flame"></span>Quente</div>
+            </div>
+            <div>
+              <div class="prod"><b>CONSTRUÍDO hoje:</b> valor venal (terreno + construção, com obsolescência por idade) e imposto por <b>porção de faixa</b> — alíquotas 1,0% / 1,5% + desconto/acréscimo progressivo, tudo lido de tabelas extraídas da lei. Enquadramento de uso: <span class="mono">96,3%</span> automático, resto recusa honesta.</div>
+              <div class="chips">
+                <span class="chip done"><span class="g">✓</span>motor construído (citação por artigo)</span>
+                <span class="chip done"><span class="g">✓</span>3 tabelas novas da lei</span>
+                <span class="chip done"><span class="g">✓</span>teste independente no gate (15/15)</span>
+                <span class="chip block"><span class="g">⊘</span>confronto com lançamento real (PGV + idade)</span>
+              </div>
+            </div>
+          </div>
+          <div class="frente">
+            <div class="fl">
+              <div class="fname">Fundação jurídica</div>
+              <div class="prod" style="color:var(--ink-3);font-size:12px;margin-top:3px">as leis por trás do número</div>
               <div class="fcal calor warm"><span class="flame"></span>Morno</div>
             </div>
             <div>
-              <div class="prod">Lei 15.889/2013 ingerida na íntegra; tabelas extraídas. Gabarito de valor venal com <b>7 cedentes reais</b> (lançamento 2026). Referência de busca calibrada (9 itens, ATIVA). Scripts do pipeline prontos.</div>
+              <div class="prod">Todas em verbatim compilado e indexadas: <b>Lei 6.989/66</b> (a lei-mãe, 328 artigos com histórico de redações), <b>10.235/86</b> (método do valor venal), <b>13.250/01</b> (progressividade), <b>15.889/13</b> (tabelas vigentes). Gabarito real de 7 imóveis pronto para o confronto.</div>
               <div class="chips">
-                <span class="chip done"><span class="g">✓</span>expertise capturada</span>
-                <span class="chip done"><span class="g">✓</span>lei + tabelas</span>
-                <span class="chip done"><span class="g">✓</span>gabarito de valor venal</span>
-                <span class="chip done"><span class="g">✓</span>referência de busca</span>
-                <span class="chip block"><span class="g">⊘</span>construir o motor</span>
+                <span class="chip done"><span class="g">✓</span>leis do IPTU completas</span>
+                <span class="chip done"><span class="g">✓</span>referência de busca ativa</span>
+                <span class="chip done"><span class="g">✓</span>gabarito real (7 imóveis)</span>
               </div>
             </div>
           </div>
@@ -450,16 +470,20 @@
     </div>
     <div class="blocks">
       <div class="brow">
-        <span class="st solved">Resolvido</span>
-        <span>O <b>“Fi ≈ 2,4”</b> deixou de ser bloqueio: é Fi 1,2 (Art. 24) × FSCE 2,0 (Art. 57, Lei 17.844/2022). Resta só <b>ligá-lo em série</b> — falta a coluna de pertinência ao Setor Central (recorte do perímetro AIU-SCE sobre cada imóvel).</span>
+        <span class="st solved">Fechado hoje</span>
+        <span>O <b>FSCE em série</b> deixou de ser bloqueio: coluna do Setor Central coletada e aplicada — 23 cedentes com o ×2 em produção. Resta re-coletar <b>71 lotes</b> derrubados pelo limite de acesso do GeoSampa (<b>1 clique</b>: rodar de novo o workflow do hub noutra janela).</span>
+      </div>
+      <div class="brow">
+        <span class="st owner">Aguarda dado</span>
+        <span><b>IPTU pleno:</b> o confronto do valor venal com o lançamento real precisa da <b>PGV</b> (valor do m² por rua — dado pesado), do <b>ano de construção</b> por imóvel e das <b>faixas atualizadas do exercício</b> (decreto anual). O gabarito de 7 imóveis reais já espera, declarado.</span>
+      </div>
+      <div class="brow">
+        <span class="st owner">1 clique seu</span>
+        <span><b>Ramificações órfãs:</b> o GitHub não deixa a sessão deletar ramificações — as “deletadas” de manhã seguem vivas. A lista verificada está no BACKLOG; excluir é um clique na interface.</span>
       </div>
       <div class="brow">
         <span class="st paused">Pausado</span>
-        <span>O <b>preço legal</b> (Art. 128) segue pausado por decisão do dono — não reabro sem um “vai”.</span>
-      </div>
-      <div class="brow">
-        <span class="st owner">Aguarda dono</span>
-        <span>Política de integração contínua (“rodar o verificador só no envio”): economiza metade das execuções, mas deixa os PRs sem verificação — <b>escolha do dono</b>, ainda não aplicada.</span>
+        <span>O <b>preço legal</b> (Art. 128) segue pausado por sua decisão — não reabri sem um “vai”. E a política de integração contínua (“verificador só no envio”, D168) segue aguardando sua escolha.</span>
       </div>
     </div>
   </section>

@@ -1,5 +1,6 @@
 # CODEX DE PRECIFICAÇÃO TDC (conversão para R$)
-> ⏸️ **PARADO (decisão do MOU, 2026-06-28): não trabalhar preço agora.** Este codex existe só para **guardar o que já aprendemos** sobre R$ — nada se descarta (doutrina). Quando o foco voltar para preço, parte-se daqui.
+> ▶️ **DESPAUSADO / ATIVO (decisão do MOU, 2026-07-10: "vamos começar a trabalhar isso").** O preço legal FOI CONSTRUÍDO: **`engines/tdc/art128.py`** (numerador PCpt×VTcd + referência ÷CAmaxcd=4 §1º + §2º IPCA) + prova **`evals/eval-art128.py`**, no gate. Entra no produto pelo **dossiê** (`gerar_dossie.py`) e na **lista/planilha** (coluna `preco_legal_ref_brl`). Escopo: só o VENDEDOR (o Cr do receptor cancela; D-DONO-15); a MARGEM é do usuário (D-DONO-7).
+> _(Histórico: PARADO 2026-06-28 → DESPAUSADO 2026-07-10. Nada se descarta — a seção 1 abaixo guarda o que se aprendeu no período parado.)_
 > Irmãos: `CODEX-COMERCIAL-TDC.md` (foco ativo) · `CODEX-CALCULOS-TDC.md` (potencial em m²).
 > **Linha que separa:** Cálculos = *quanto potencial* (m²). Precificação = *quanto dinheiro* (R$). Aqui é só R$.
 
@@ -20,10 +21,11 @@
 | R16 | **`valor = PCpt × V` é PROXY**, não preço final. Crédito recebido segue **Art. 128** (CAmaxcd=4 só via 125, IPCA); V na data de protocolo (Art. 125 §2º). ESGOTADO é temporal (renovação Art. 123 §5º / 129 §2º) |
 | R17 | **FUNDURB `valor_pecuniario_rs` é REGULATÓRIO, não de mercado** (Art. 24 §5º). (a) declaração pré-2016 fora do teto = vantagem de liquidez; (b) "Indeferido" muitas vezes por saturação do teto, não defeito |
 
-## 4 — O que faltaria fazer (quando despausar)
-- Engine `art128.py` (preço-receptor) com `CAmaxcd=4` condicionado à via 125 + IPCA.
-- Cruzar V (Q14) × PCpt do engine cedente → valor estimado por imóvel (com selo de estimativa).
-- Validar contra os comparáveis regulatórios da fila FUNDURB.
+## 4 — O que faltaria fazer (quando despausar) — ✅ FEITO (2026-07-10)
+- ✅ Engine `engines/tdc/art128.py` com `CAmaxcd=4` condicionado à via 125 (§1º) + **IPCA** (§2º, série IBGE/SIDRA 1737 em `tabelas/ipca-numero-indice-ibge.csv`).
+- ✅ Cruzar V (Q14) × PCpt → valor por imóvel (com selo de estimativa): no **dossiê** e na coluna `preco_legal_ref_brl` da lista (3.334 imóveis; ressalva de estimativa no já-declarado).
+- ✅ Validar contra os comparáveis do FUNDURB: `eval-art128.py` usa `valor_pecuniario_rs` como **banda de sanidade** (honesto: não há gabarito por-cedente do PCr em R$).
+- ⏳ Resta só a série IPCA para os **605 já-declarados** exigir o VTcd histórico da Declaração (o motor já corrige; falta o dado do VTcd na data de referência).
 
 > **Nota de liquidez (vem do Comercial):** consultar a janela/estoque do FUNDURB **antes** de sugerir venda é passo COMERCIAL (sensor de liquidez), não cálculo de preço — fica no Codex Comercial.
 
