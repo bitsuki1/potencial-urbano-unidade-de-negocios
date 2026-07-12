@@ -232,6 +232,7 @@ def _autoteste():
     #   2026 = R$ 2.352,06/m² (default); 2014 = R$ 2.000/m². Da TABELA (limiar-parque-art127.csv), não hardcoded.
     assert limiar_parque()[0] == Decimal("2352.06"), limiar_parque()          # default = mais recente (2026)
     assert limiar_parque(2026)[0] == Decimal("2352.06")
+    assert limiar_parque(2025)[0] == Decimal("2194.50")   # Decreto 63.999/2024 Art. 3º (ganho do garimpo Drive PU 19)
     assert limiar_parque(2014)[0] == Decimal("2000.00")
     #   V=2200 (entre R$ 2.000 e R$ 2.352,06): a vintage DECIDE o Fi — 2026 ⇒ 1,4 (V≤limiar); 2014 ⇒ 1,0 (V>limiar).
     pv26 = pcpt_com_doacao(atc, camax, "parque", v="2200")               # default 2026

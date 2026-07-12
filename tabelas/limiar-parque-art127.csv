@@ -9,6 +9,13 @@
 #    fator de incentivo da Transferência do Direito de Construir na implantação de parques, mencionado nos
 #    incisos IV e V do § 1º do referido artigo, fica atualizado para R$ 2.352,06/m² (dois mil, trezentos e
 #    cinquenta e dois reais e seis centavos por metro quadrado)."
+# Verbatim 2025 (Decreto 63.999/2024, Art. 3º, captura oficial 2026-07-12 de
+#   legislacao.prefeitura.sp.gov.br/decreto-63999-de-30-de-dezembro-de-2024):
+#   "Para fins de aplicação do artigo 127 da Lei nº 16.050... o valor de referência para a aplicação do
+#    fator de incentivo... para implantação de parques, mencionado nos incisos IV e V do §1º do referido
+#    artigo, fica atualizado para R$ 2.194,50/m² (dois mil cento e noventa e quatro reais e cinquenta
+#    centavos por metro quadrado)." (vigência a partir de 1º/jan/2025, Art. 4º).
 ano_ref,limiar_rs_m2,fonte,dispositivo
 2014,2000.00,"Lei 16.050/2014 (PDE), redação c/c Lei 17.975/2023","Art. 127 §1º, IV e V (valor de referência original)"
+2025,2194.50,"Decreto 63.999/2024, Art. 3º","atualiza o valor de referência do Art. 127 §1º IV/V para R$ 2.194,50/m² (vigência 1º/jan/2025)"
 2026,2352.06,"Decreto 64.884/2025, Art. 3º","atualiza o valor de referência do Art. 127 §1º IV/V para R$ 2.352,06/m²"
