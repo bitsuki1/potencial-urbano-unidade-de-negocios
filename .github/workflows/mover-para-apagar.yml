@@ -1,0 +1,37 @@
+# Move os arquivos do de-para (inventario/drive-pu/APAGAR-DE-PARA.csv) para UMA pasta "APAGAR"
+# dentro de POTENCIAL URBANO, via CONTA DE SERVIÇO (o robô). Disparo MANUAL, ENSAIO primeiro.
+# MOVE (não apaga) — reversível: depois o DONO abre a pasta e exclui. Pré-req: secret GOOGLE_SA_KEY.
+name: mover-para-apagar
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "true = ENSAIO (não move nada). Só 'false' move p/ a pasta APAGAR."
+        required: true
+        default: "true"
+        type: choice
+        options: ["true", "false"]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: mover-para-apagar
+  cancel-in-progress: false
+
+jobs:
+  mover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Instalar libs do Google
+        run: pip install --quiet google-api-python-client google-auth
+      - name: Mover p/ APAGAR (DRY_RUN=${{ inputs.dry_run }})
+        env:
+          GOOGLE_SA_KEY: ${{ secrets.GOOGLE_SA_KEY }}
+          DRY_RUN: ${{ inputs.dry_run }}
+        run: python3 scripts/mover_para_apagar_sa.py
