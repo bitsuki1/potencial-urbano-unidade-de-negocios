@@ -61,6 +61,7 @@ Q2 = Decimal("0.01")
 CAMAXCD_VIA125 = Decimal("4")     # Art. 128 §1º — origem no Art. 125 (sem doação): CAmaxcd = 4 (fixo)
 TABELAS = Path(__file__).resolve().parents[2] / "tabelas"
 IPCA_CSV = TABELAS / "ipca-numero-indice-ibge.csv"
+Q14_REAJUSTE_CSV = TABELAS / "q14-reajuste-anual.csv"   # série de reajuste do Quadro 14 (base 2014 → vigente)
 
 
 def carregar_ipca(path=IPCA_CSV):
@@ -77,6 +78,63 @@ def carregar_ipca(path=IPCA_CSV):
     if len(serie) < 2:
         raise ValueError(f"série IPCA vazia/corrompida: {path}")
     return serie
+
+
+def carrega_reajuste_q14(path=Q14_REAJUSTE_CSV):
+    """Série de reajuste do Quadro 14 → [(ano_ref, fator_acumulado, decreto, dispositivo)] ordenada por ano.
+    1.1/1.3 — o motor LÊ a tabela (base 2014 → fator vigente por exercício), não inventa nem adivinha 'hoje'.
+    Fail-closed se sumir/corromper."""
+    if not Path(path).exists():
+        raise FileNotFoundError(f"série de reajuste do Quadro 14 ausente: {path} "
+                                "(o engine lê o fator vigente da tabela, não o inventa)")
+    linhas = []
+    with open(path, encoding="utf-8") as f:
+        for row in csv.reader(f):
+            if not row or row[0].lstrip().startswith("#") or row[0].strip() == "ano_ref":
+                continue
+            linhas.append((int(row[0].strip()), Decimal(row[3].strip()), row[4].strip(), row[6].strip()))
+    if not linhas:
+        raise ValueError(f"série de reajuste do Quadro 14 vazia: {path}")
+    return sorted(linhas, key=lambda x: x[0])
+
+
+def fator_reajuste_q14(ano_ref=None, serie=None):
+    """Fator ACUMULADO do Quadro 14 vigente no exercício `ano_ref` (base 2014 = 1,0).
+    ano_ref None ⇒ vintage MAIS RECENTE (o piso de prospecção de hoje). Devolve (fator, decreto, dispositivo).
+    1.6 — retorna o fator da última linha com ano_ref <= exercício pedido (o reajuste vale até o próximo)."""
+    linhas = serie if serie is not None else carrega_reajuste_q14()
+    if ano_ref is None:
+        f, dec, disp = linhas[-1][1], linhas[-1][2], linhas[-1][3]
+        return f, dec, disp
+    escolhido = linhas[0]
+    for ln in linhas:
+        if ln[0] <= int(ano_ref):
+            escolhido = ln
+        else:
+            break
+    return escolhido[1], escolhido[2], escolhido[3]
+
+
+def vtcd_vigente(valor_base_2014, ano_ref=None, esquina=False):
+    """VTcd VIGENTE = valor_base_2014 (Quadro 14, tabelas/q14-valor-terreno.csv) × fator de reajuste do
+    exercício (tabelas/q14-reajuste-anual.csv). É o V que o Art. 128/OODC exige "vigente na data de referência".
+    Sem esta correção, um cálculo para fato gerador recente usa o V CONGELADO de 2014 (subavaliado).
+    Devolve dict com o valor vigente, o fator aplicado e a citação (1.7). ano_ref None ⇒ vintage mais recente."""
+    base = _pos(_d(valor_base_2014, "valor_base_2014"), "valor_base_2014")
+    fator, decreto, disp = fator_reajuste_q14(ano_ref)
+    vig = (base * fator).quantize(Q2, ROUND_HALF_UP)
+    disp_c = f"{QUADRO14}; reajuste acumulado {decreto} ({disp})"
+    if esquina:
+        disp_c += f"; {DEC_ESQUINA} (maior valor da quadra — lote de esquina)"
+    return {
+        "vtcd_base_2014_m2": str(base),
+        "fator_reajuste": str(fator),
+        "decreto_reajuste": decreto,
+        "ano_ref": ("mais recente" if ano_ref is None else str(ano_ref)),
+        "vtcd_vigente_m2": str(vig),
+        "citacao": {"dispositivo": disp_c, "fonte": "tabelas/q14-reajuste-anual.csv"},
+        "memoria_calculo": f"VTcd_vigente = base2014(R$ {base}) × fator({fator}) = R$ {vig}/m²  [{decreto}]",
+    }
 
 
 def _mes_anterior(mes):
@@ -346,6 +404,24 @@ def _autoteste():
         referencia_max_art128("1000", "3000", vtcd_declaracao="2000"); raise AssertionError("deveria exigir datas p/ B")
     except ValueError:
         pass
+
+    # ── Reajuste do Quadro 14 (base 2014 → VTcd vigente): fatores + PROVA DE BATER O PONTO ────────────
+    assert fator_reajuste_q14(2014)[0] == Decimal("1.00"), fator_reajuste_q14(2014)
+    assert fator_reajuste_q14(2019)[0] == Decimal("1.00"), "até 2019 é a base 2014"      # antes do 1º reajuste
+    assert fator_reajuste_q14(2020)[0] == Decimal("1.0200"), fator_reajuste_q14(2020)    # Dec. 59.166/2019 +2%
+    assert fator_reajuste_q14(2022)[0] == Decimal("1.0200"), "2021/2022 seguem no +2% (sem reajuste)"
+    assert fator_reajuste_q14(2023)[0] == Decimal("1.071000"), fator_reajuste_q14(2023)  # +5% (62.135/2022)
+    assert fator_reajuste_q14(2024)[0] == Decimal("1.12455000"), fator_reajuste_q14(2024)  # +5% (63.108/2023)
+    assert fator_reajuste_q14(2025)[0] == Decimal("1.17515475000"), fator_reajuste_q14(2025)  # +4,5% (63.999/2024)
+    assert fator_reajuste_q14(2026)[0] == Decimal("1.259530861050000"), fator_reajuste_q14(2026)  # +7,18% (64.884/2025)
+    assert fator_reajuste_q14(None)[0] == fator_reajuste_q14(2026)[0], "None ⇒ vintage mais recente"
+    # PROVA: base 2014 do SQL 001003/codlog 038121 = R$ 3.106,00 → vigente 2024 = R$ 3.492,85, IGUAL ao
+    #        valor nominal publicado na Portaria SMUL nº 19/2024 (Anexo I, mesmo SQL/codlog). Auditoria fechada.
+    v24 = vtcd_vigente("3106,00", 2024)
+    assert v24["vtcd_vigente_m2"] == "3492.85", v24
+    # e o vigente mais recente (2026) sobre a mesma base:
+    v26 = vtcd_vigente("3106,00")
+    assert v26["vtcd_vigente_m2"] == str((Decimal("3106.00") * Decimal("1.259530861050000")).quantize(Q2, ROUND_HALF_UP)), v26
     return r, ri
 
 
