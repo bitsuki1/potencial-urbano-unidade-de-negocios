@@ -14,6 +14,8 @@ for f in sorted(glob.glob(os.path.join(BASE,"catalogo-*.csv"))):
         r=csv.reader(fh)
         for row in r:
             if not row or row[0]=="drive_id": continue
+            if len(row)==12:  # schema RAIZ (sem coluna path) -> insere path vazio
+                row=[row[0],""]+row[1:]
             row=row[:13]+[""]*(13-len(row))
             did=row[0]
             if did and did not in rows:
