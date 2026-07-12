@@ -6,6 +6,11 @@
 > Este roadmap é o **contrato da arrumação** — para que nada se perca. Cada fase tem DoD (como PROVAR que fechou).
 
 ---
+## ✅✅ ARRUMAÇÃO CONCLUÍDA E SELADA (2026-07-12) — ver `inventario/SELO-ARRUMACAO-DRIVE-PU.md`
+Run real `29208161824` (erros=0): movidos=2.417 · fica_no_90=22.057 · 2ª lixeira fundida. Selo SA
+(run `29211180386`): **0 órfão na raiz · lixo numa pasta só · nada oficial no lixo · tudo em pasta.**
+Pendência cosmética: 2 pastas vazias (`05 — Geo`, `99 — DUPLICATAS-A-EXCLUIR`) o MOU exclui.
+
 ## ★ ESTADO DA EXECUÇÃO (2026-07-12) — ENSAIO VERDE, aguardando "pode mover" do MOU
 - **De-para pronto:** `inventario/drive-pu/ARRUMAR-DE-PARA.csv` (33.138 arquivos → destino). Distribuição:
   **90** (bruto) 22.268 · **99** (APAGAR) 8.603 · **02** 1.422 · **05** 641 · **03** 140 · **00** 64.
