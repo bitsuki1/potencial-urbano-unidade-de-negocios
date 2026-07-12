@@ -131,10 +131,40 @@ def gate_ipca():
     return falhas, f
 
 
+def gate_max():
+    """(1c) OP-1b — MAX(A piso vigente ; B Declaração×IPCA §2º): recomputa AMBAS as bases independente do
+    engine e exige que o MAX escolha a maior, com a base vencedora citada. Mutação-sensível: se o engine
+    devolver a menor (ou trocar as bases), ISTO cai."""
+    falhas = []
+    serie = art128.carregar_ipca()
+    P = Decimal("717.60")
+    # (B) VENCE — VTcd_decl 1500 corrigido de jan/2014 supera o piso vigente 2819,20.
+    fB, _ = art128.fator_ipca("2014-01", "2026-07", serie=serie)
+    vtcB = (Decimal("1500") * fB).quantize(Q2, ROUND_HALF_UP)
+    refA = ((P * Decimal("2819.20")).quantize(Q2, ROUND_HALF_UP) / CAMAXCD_VERBATIM).quantize(Q2, ROUND_HALF_UP)
+    refB = ((P * vtcB).quantize(Q2, ROUND_HALF_UP) / CAMAXCD_VERBATIM).quantize(Q2, ROUND_HALF_UP)
+    esperado = max(refA, refB)
+    got = art128.referencia_max_art128(str(P), "2819.20", vtcd_declaracao="1500",
+                                       mes_ref="2014-01", mes_protocolo="2026-07")
+    if got["referencia_max_brl"] != str(esperado):
+        falhas.append(f"MAX: engine={got['referencia_max_brl']} ≠ verbatim max({refA},{refB})={esperado}")
+    if got["base_vencedora"] != ("B" if refB >= refA else "A"):
+        falhas.append(f"base vencedora: engine={got['base_vencedora']} ≠ esperado={'B' if refB>=refA else 'A'}")
+    if len(got["cenarios"]) != 2:
+        falhas.append("MAX não expôs os DOIS cenários (piso+teto lado a lado, 1.3)")
+    # (A) VENCE — VTcd_decl baixo (500) mesmo corrigido não alcança o piso.
+    got2 = art128.referencia_max_art128(str(P), "2819.20", vtcd_declaracao="500",
+                                        mes_ref="2014-01", mes_protocolo="2026-07")
+    if got2["base_vencedora"] != "A":
+        falhas.append(f"piso deveria vencer VTcd_decl baixo: engine={got2['base_vencedora']}")
+    return falhas, esperado
+
+
 def main():
     print("═══ PROVA art128 (preço legal, Art. 128 PDE) ═══")
     falhas1 = gate_ancora_verbatim()
     falhas1b, fipca = gate_ipca()
+    falhas1c, refmax = gate_max()
     falhas2, n_ok, refs = gate_identidade_reais()
 
     if falhas1:
@@ -151,6 +181,14 @@ def main():
     else:
         print(f"[PASS] §2º IPCA: correção da série IBGE/SIDRA 1737 confere (jun/2026÷jan/2020 = {fipca:.4f} ≈ 1,4353).")
 
+    if falhas1c:
+        print("[FALHA] MAX(A piso ; B §2º) — OP-1b:")
+        for f in falhas1c:
+            print("   -", f)
+    else:
+        print(f"[PASS] MAX(A vigente ; B Declaração×IPCA §2º): o engine escolhe a maior base citada "
+              f"(teto § 2º R$ {refmax:,.2f}); piso vence quando o VTcd declarado é baixo (mutação-sensível).")
+
     if falhas2:
         print("[FALHA] identidade em dados reais:")
         for f in falhas2:
@@ -161,10 +199,11 @@ def main():
 
     contexto_fundurb(refs)
 
-    if falhas1 or falhas1b or falhas2:
-        print(f"\nRESUMO: FALHA ({len(falhas1)+len(falhas1b)+len(falhas2)} problema(s)).")
+    if falhas1 or falhas1b or falhas1c or falhas2:
+        print(f"\nRESUMO: FALHA ({len(falhas1)+len(falhas1b)+len(falhas1c)+len(falhas2)} problema(s)).")
         return 1
-    print(f"\nRESUMO: OK — Art. 128 provado verbatim + §2º IPCA (série IBGE) + {n_ok} cedentes reais; FUNDURB como banda.")
+    print(f"\nRESUMO: OK — Art. 128 provado verbatim + §2º IPCA (série IBGE) + MAX(A;B) OP-1b + "
+          f"{n_ok} cedentes reais; FUNDURB como banda.")
     return 0
 
 

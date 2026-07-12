@@ -1,6 +1,6 @@
 {
   "_doc": "Fonte da verdade do status_pipeline de cada item. GERADO por scripts/consolidar.py a partir dos .json individuais — NAO editar a mao (Principio 1.5/2.3 do CLAUDE.md). Roda a cada push via .github/workflows/consolidar.yml.",
-  "gerado_em": "2026-07-11T14:37:45.767092+00:00",
+  "gerado_em": "2026-07-12T03:37:02.204208+00:00",
   "vocabulario_status": [
     "bruto",
     "fatiado",
@@ -64,8 +64,8 @@
       "status": "engine OODC/TDC executável (engines/tdc/oodc.py); demais são prosa/conhecimento"
     },
     "tabelas": {
-      "arquivos": 17,
-      "status": "17 tabela(s) no git (Q14 valor-terreno, Quadro 3 CA/zona, Quadro 5 Fs, Quadro 7 parques, Fi-área LPUOS Art.24) — combustível do engine PRESENTE; derivado dos arquivos, não hardcoded"
+      "arquivos": 18,
+      "status": "18 tabela(s) no git (Q14 valor-terreno, Quadro 3 CA/zona, Quadro 5 Fs, Quadro 7 parques, Fi-área LPUOS Art.24) — combustível do engine PRESENTE; derivado dos arquivos, não hardcoded"
     },
     "tese_iptu": {
       "arquivos": 0,
@@ -89,7 +89,7 @@
     },
     {
       "arquivo": "tabelas/fi-incentivo-doacao.csv",
-      "sha256": "sha256:849a89435c4762e5c4852a7ecb9767acab6c04a04d6c3306f3867713cb453c04",
+      "sha256": "sha256:93d522b3c99484cc377abfb6c2f26332df9bcbab3ecc7fe292cc4faad4aaa3cb",
       "data_base": "2014-07-31",
       "fonte_legal": "PDE Lei 16.050/2014, Art. 127 §1º (incisos I-V)"
     },
@@ -134,6 +134,12 @@
       "sha256": "sha256:397e6cafaaeadc56a9690f97013f16a0b0d075591212979c786a78500ca4d223",
       "data_base": "2026-01-01",
       "fonte_legal": "Lei Municipal SP 18.330/2025, Anexo I (Tabela VI) — valores do EXERCICIO 2026 (substitui a Tabela VI da Lei 10.235/1986)"
+    },
+    {
+      "arquivo": "tabelas/limiar-parque-art127.csv",
+      "sha256": "sha256:5eade732cadf0adba2fd5dacd456a4e45f51550e0ac55492af6ce16c1665d579",
+      "data_base": "2025-12-29",
+      "fonte_legal": "Decreto 64.884/2025, Art. 3º (atualiza o valor de referência do Art. 127 §1º IV/V da Lei 16.050/2014)"
     },
     {
       "arquivo": "tabelas/q14-valor-terreno.csv",

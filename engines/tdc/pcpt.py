@@ -48,7 +48,6 @@ from decimal import Decimal, ROUND_HALF_UP
 LEI = "Lei Municipal SP nº 16.050/2014 (PDE)"
 Q2 = Decimal("0.01")
 LIMITE_PARCELAMENTO = Decimal("50000")   # Art. 124 §3º
-V_LIMIAR_PARQUE = Decimal("2000")        # Art. 127 §1º IV/V (Quadro 14, R$/m²)
 
 # ★ AUD-A01 (2026-07-05): os fatores NÃO moram mais hardcoded aqui — são LIDOS de `tabelas/*.csv`
 # (doutrina 1.1: tabela de lei é DADO extraído e é INPUT do engine; o engine não duplica a tabela).
@@ -82,6 +81,25 @@ def _carrega_fi_doacao():
         raise ValueError("fi-incentivo-doacao.csv incompleto (faltam finalidades ou faixas de parque)")
     return doacao, p_ate, p_acima
 
+def _carrega_limiar_parque():
+    """Art. 127 §1º IV/V — limiar do valor de terreno (Quadro 14) por VINTAGE ← tabelas/limiar-parque-art127.csv.
+    Devolve {ano_ref:int -> (limiar:Decimal, fonte, dispositivo)} (1.1/1.3 — o número nasce da tabela, com vigência 1.6)."""
+    tab = {}
+    for r in _linhas_csv("limiar-parque-art127.csv"):
+        tab[int(r["ano_ref"].strip())] = (Decimal(r["limiar_rs_m2"].strip()), r["fonte"].strip(), r["dispositivo"].strip())
+    if not tab:
+        raise ValueError("limiar-parque-art127.csv sem linhas úteis")
+    return tab
+
+def limiar_parque(ano_ref=None):
+    """Limiar vigente do Art. 127 §1º IV/V para a vintage pedida (default = a MAIS RECENTE, hoje 2026 =
+    R$ 2.352,06/m², Dec. 64.884/2025 Art. 3º). Compare V e limiar na MESMA vintage (1.6)."""
+    tab = _LIMIAR_PARQUE
+    ano = max(tab) if ano_ref is None else int(ano_ref)
+    if ano not in tab:
+        raise ValueError(f"limiar do parque para ano-ref {ano} ausente na tabela (vintages: {sorted(tab)})")
+    return tab[ano]
+
 def _carrega_fi_zepec():
     """LPUOS Art. 24 I–VII (Fi escalonado pela área do lote) ← tabelas/fi-zepec-area-lpuos.csv.
     Faixas: 'ate X' / 'A a B' (teto=B) / 'acima de X' (teto=None). Limite superior INCLUSIVO."""
@@ -107,6 +125,7 @@ LEI_SCE = "Lei Municipal SP nº 17.844/2022, Art. 57 (AIU-SCE / Setor Central)"
 FSCE_SCE = Decimal("2.0")            # Art. 57, Lei 17.844/2022: fator setor central
 FSCE_TETO_TERRENO = Decimal("1000")  # Art. 57: só ZEPEC-BIR com terreno ≤ 1.000 m²
 FI_DOACAO, _FI_PARQUE_ATE, _FI_PARQUE_ACIMA = _carrega_fi_doacao()   # Art. 127 §1º (tabela extraída)
+_LIMIAR_PARQUE = _carrega_limiar_parque()                            # Art. 127 §1º IV/V — limiar por vintage (Dec. 64.884/2025)
 FI_ZEPEC_ART24 = _carrega_fi_zepec()                                 # LPUOS Art. 24 I–VII (tabela extraída)
 
 def fi_zepec_por_area(atc):
@@ -178,17 +197,20 @@ def pcpt_sem_doacao(atc, cabas, fi=None, setor_central=False):
             "memoria_calculo": memoria,
             "citacao": {"dispositivo": disp, "fonte": fonte}, **_estoque(pcpt)}
 
-def pcpt_com_doacao(atc, camax, finalidade, v=None):
+def pcpt_com_doacao(atc, camax, finalidade, v=None, ano_ref=None):
     """Art. 126/127: PCpt = Atc × CAmax × Fi(finalidade). O dono DOA o imóvel.
     finalidade ∈ {corredor_onibus, his, regularizacao_fundiaria, parque}. Para 'parque', V é obrigatório
-    e o fator (1,4 ≤R$2.000 / 1,0 >R$2.000) é resolvido AQUI (1.3), não pelo chamador."""
+    e o fator (1,4 se V≤limiar / 1,0 se V>limiar) é resolvido AQUI (1.3), não pelo chamador. O LIMIAR é
+    vintage-aware (Art. 127 §1º IV/V): default = o mais recente (2026 = R$ 2.352,06/m², Dec. 64.884/2025);
+    passe `ano_ref` para comparar V com o limiar da MESMA vintage (1.6 — ex.: V do Quadro 14 2026 ⇒ limiar 2026)."""
     A = _pos(_d(atc, "atc"), "atc"); C = _pos(_d(camax, "camax"), "camax")
     if finalidade == "parque":
         if v is None:
             raise ValueError("finalidade 'parque' exige V (valor do terreno, Quadro 14) para escolher o Fi (Art.127 §1º IV/V)")
         V = _pos(_d(v, "v"), "v")
-        F, inc = _FI_PARQUE_ATE if V <= V_LIMIAR_PARQUE else _FI_PARQUE_ACIMA   # da tabela (AUD-A01)
-        disp = f"{inc} (Lei 17.975/2023)"
+        limiar, limiar_fonte, _ = limiar_parque(ano_ref)
+        F, inc = _FI_PARQUE_ATE if V <= limiar else _FI_PARQUE_ACIMA   # da tabela (AUD-A01); limiar vintage (OP-1c)
+        disp = f"{inc} (Lei 17.975/2023; limiar R$ {limiar}/m² — {limiar_fonte})"
     elif finalidade in FI_DOACAO:
         F, disp = FI_DOACAO[finalidade]
     else:
@@ -206,6 +228,21 @@ def _autoteste():
     reg = pcpt_com_doacao(atc, camax, "regularizacao_fundiaria"); assert reg["valor_m2"] == Decimal("3200.00"), reg  # Fi<1
     pba = pcpt_com_doacao(atc, camax, "parque", v="1500"); assert pba["valor_m2"] == Decimal("5600.00"), pba          # Fi 1,4
     pal = pcpt_com_doacao(atc, camax, "parque", v="3000"); assert pal["valor_m2"] == Decimal("4000.00"), pal          # Fi 1,0
+    # ★ OP-1c — LIMIAR do parque é VINTAGE-AWARE (Art. 127 §1º IV/V; Dec. 64.884/2025 Art. 3º):
+    #   2026 = R$ 2.352,06/m² (default); 2014 = R$ 2.000/m². Da TABELA (limiar-parque-art127.csv), não hardcoded.
+    assert limiar_parque()[0] == Decimal("2352.06"), limiar_parque()          # default = mais recente (2026)
+    assert limiar_parque(2026)[0] == Decimal("2352.06")
+    assert limiar_parque(2014)[0] == Decimal("2000.00")
+    #   V=2200 (entre R$ 2.000 e R$ 2.352,06): a vintage DECIDE o Fi — 2026 ⇒ 1,4 (V≤limiar); 2014 ⇒ 1,0 (V>limiar).
+    pv26 = pcpt_com_doacao(atc, camax, "parque", v="2200")               # default 2026
+    assert pv26["valor_m2"] == Decimal("5600.00"), pv26                  # Fi 1,4 (2200 ≤ 2352,06)
+    pv14 = pcpt_com_doacao(atc, camax, "parque", v="2200", ano_ref=2014) # vintage 2014
+    assert pv14["valor_m2"] == Decimal("4000.00"), pv14                  # Fi 1,0 (2200 > 2000)
+    assert "2352.06" in pv26["citacao"]["dispositivo"], pv26            # cita o limiar aplicado (1.7)
+    try:
+        limiar_parque(1999); raise AssertionError("vintage inexistente deveria levantar")  # fail-closed
+    except ValueError:
+        pass
     # ★ Fi ESCALONADO (LPUOS Art. 24, correção 2026-07-02) — uma prova por faixa/borda:
     assert pcpt_sem_doacao("400", "1.0")["valor_m2"] == Decimal("480.00")        # I: ≤500 → 1,2
     assert pcpt_sem_doacao("500", "1.0")["valor_m2"] == Decimal("600.00")        # borda: 500 é "até 500" → 1,2
