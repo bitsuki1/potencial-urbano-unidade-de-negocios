@@ -23,10 +23,10 @@
 - **Como foi feito:** gerador `zepec/pipeline/reajuste_q14_2026.py` (determinístico, citado) → `zepec/oficial/q14_cedentes_2026.csv` (3.676 faces); `enriquecer_oficial.py` passa a ler o ano‑ref 2026 (vigência 1.6; o arquivo 2025 fica para auditoria). Pipeline regenerado, **gate 32/32 verde** (nenhum eval quebrou — o eval‑art128 valida a equação, então o VTcd maior flui consistente).
 - **Resíduo declarado (want‑list):** reconciliar centavo‑a‑centavo com o **Anexo I nominal da Portaria SMUL 8/2026** quando o arquivo estiver à mão (a multiplicação já bate ao centavo por construção; é conferência de fidelidade, não bloqueio).
 
-### OP‑1c — 💡 novo lead do mesmo decreto: **Fp (parques) oficial 2026 = R$ 2.352,06/m²**
+### OP‑1c — ✅ FEITO (PU 19, 2026‑07‑12): limiar de parque (Art. 127 §1º) vintage‑aware, R$ 2.352,06 oficial
 - O **Decreto 64.884/2025** também atualiza, para fins do **Art. 127** da Lei 16.050/2014, o **valor de referência do fator de incentivo à TDC na implantação de parques → R$ 2.352,06/m²**. Isso toca o **motor Fp** (`engines/tdc/fp.py`). **A conferir:** se o Fp em uso está nesse valor 2026; se não, é outra "condição melhor" (do lado do comprador/eixo). → registrado no want‑list.
 
-### OP‑1b — TESE (potencialmente MAIOR): qual base de VTcd maximiza o preço do vendedor
+### OP‑1b — ✅ FEITO (PU 19, 2026‑07‑12): MAX(A vigente ; B Declaração×IPCA §2º) materializado no engine + eval. TESE (potencialmente MAIOR): qual base de VTcd maximiza o preço do vendedor
 - Na prospecção o engine usa o **Quadro 14 vigente** e trata o **§2º (IPCA) como N/A** até haver Declaração protocolada. Uma vez protocolada, o §2º corrige o VTcd por IPCA **da data‑ref da Declaração** até o mês anterior ao protocolo.
 - **A tese:** existem **duas** leituras da base do VTcd, e o vendedor tem interesse na **maior**:
   - (i) **Quadro 14 vigente** (valores SMUL 2025/2026 — reavaliação de mercado via Lei 17.975/2023 + decretos); ou
