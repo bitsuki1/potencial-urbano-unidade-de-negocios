@@ -34,10 +34,22 @@ def base(n):
 grp=collections.defaultdict(list)
 for did,row in rows.items():
     grp[(base(row[2]), row[5])].append(did)
+def rank(did):  # menor = melhor candidato a MANTER
+    row=rows[did]; s=(row[1]+" "+row[13]).lower(); nome=row[2].lower()
+    r=0
+    if is_descarte(row): r+=1000                       # descarte: nunca manter se houver alternativa
+    if re.search(r"\(\d+\)", nome): r+=100            # marca de cópia (n): pior
+    if "silver" in s: r+=0                             # canônico preferido
+    elif "bronze_oficial" in s or "01a_bronze" in s: r+=5
+    elif "originais" in s: r+=8
+    else: r+=20
+    return r
 dupset=set()
 for k,ids in grp.items():
-    if len(ids)>1 and k[1] and k[1].isdigit():  # mesmo nome-base E mesmo tamanho = duplicata forte
-        for did in ids[1:]: dupset.add(did)  # mantém a 1ª, marca resto
+    if len(ids)>1 and k[1] and k[1].isdigit():         # mesmo nome-base E mesmo tamanho = duplicata forte
+        keep=min(ids, key=rank)                        # mantém a canônica
+        for did in ids:
+            if did!=keep: dupset.add(did)
 # escreve mestre
 with open(os.path.join(BASE,"..","CATALOGO-DRIVE-PU-2026-07-12.csv"),"w",encoding="utf-8",newline="") as out:
     w=csv.writer(out); w.writerow(HDR+["descarte","dup_forte"])
