@@ -1,0 +1,24 @@
+# Selo da arrumação: lista via conta de serviço o topo real de POTENCIAL URBANO e prova
+# 0 órfão · lixo numa pasta só · tudo em pasta. Read-only. Pré-req: secret GOOGLE_SA_KEY.
+name: selo-arrumacao
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  selo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Instalar libs do Google
+        run: pip install --quiet google-api-python-client google-auth
+      - name: Selo da arrumação (read-only)
+        env:
+          GOOGLE_SA_KEY: ${{ secrets.GOOGLE_SA_KEY }}
+        run: python3 scripts/selo_arrumacao_sa.py
