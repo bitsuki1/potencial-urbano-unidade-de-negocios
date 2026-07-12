@@ -1,0 +1,49 @@
+{
+  "chunk_id": "decreto-saopaulo-58289-2018::019-art-18",
+  "lei_id": "decreto-saopaulo-58289-2018",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 18",
+  "numero": "18",
+  "header_raw": "Art. 18. Nos casos em que houver transferência parcial de potencial construtivo passível de transferência, será expedida Declaração de Saldo de Potencial Construtivo Passível de Transferência, conforme modelo constante do Anexo VII deste decreto, em substituição à declaração que originou a referida transferência, contendo o saldo do potencial construtivo passível de transferência do imóvel cedente, observado o disposto no artigo 16 deste decreto.",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 18"
+  ],
+  "texto": "Art. 18. Nos casos em que houver transferência parcial de potencial construtivo passível de transferência, será expedida Declaração de Saldo de Potencial Construtivo Passível de Transferência, conforme modelo constante do Anexo VII deste decreto, em substituição à declaração que originou a referida transferência, contendo o saldo do potencial construtivo passível de transferência do imóvel cedente, observado o disposto no artigo 16 deste decreto.\n\n§ 1º Para fins de aplicação do disposto no “caput” deste artigo, a Declaração que for objeto de substituição perderá seus efeitos pela expedição da Declaração de Saldo de Potencial Construtivo Passível de Transferência, devendo esta prever explicitamente que o saldo de potencial construtivo passível de transferência origina-se da antiga declaração.\n\n§ 2º A expedição de nova Certidão de Transferência de Potencial Construtivo, para aproveitamento do saldo apurado na forma do “caput” deste artigo, dependerá da exibição, pelo interessado, da última Declaração de Saldo de Potencial Construtivo Passível de Transferência expedida pela DEUSO.\n\n§ 3º Poderão ser emitidas sucessivas Declarações de Saldo de Potencial Construtivo Passível de Transferência, na forma prevista neste artigo, à medida que forem emitidas sucessivas Certidões de Transferência de Potencial Construtivo, até que se compute a transferência integral do potencial construtivo originalmente apurado.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto municipal nº 58.289/2018 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Art. 18",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-58289-de-26-de-junho-de-2018",
+    "vigencia": {
+      "inicio": "2018-06-26",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [],
+      "revoga": [
+        "Decreto 57.535/2016"
+      ]
+    }
+  },
+  "tema": [
+    "transferencia_do_direito_de_construir",
+    "doacao_de_imovel",
+    "potencial_construtivo",
+    "desapropriacao_amigavel",
+    "declaracao_de_potencial_construtivo"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Confere nova regulamentação à Transferência do Direito de Construir com Doação de Imóvel, nos termos dos artigos 123, 126, 127, 128, 130 e 131 da Lei nº 16.050, de 31 de julho de 2014 – Plano Diretor Estratégico – PDE; revoga o Decreto nº 57.535, de 15 de dezembro de 2016."
+}

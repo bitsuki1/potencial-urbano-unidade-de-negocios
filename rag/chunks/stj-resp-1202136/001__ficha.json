@@ -1,0 +1,33 @@
+{
+  "chunk_id": "stj-resp-1202136::001-ficha",
+  "lei_id": "stj-resp-1202136",
+  "tipo_dispositivo": "jurisprudencia",
+  "rotulo": "STJ 1202136",
+  "numero": "1202136",
+  "header_raw": "STJ 1202136. A existência de taxas tidas por ilegais (ex.: taxa de limpeza pública, conservação de vias, combate a sinis",
+  "caminho_hierarquico": [
+    "STJ 1202136"
+  ],
+  "texto": "STJ 1202136. A existência de taxas tidas por ilegais (ex.: taxa de limpeza pública, conservação de vias, combate a sinistros) embutidas no carnê/boleto de IPTU não invalida a cobrança do imposto: o contribuinte pode afastar a parcela indevida por simples cálculo aritmético, abatendo os valores ilegais do montante cobrado, sem necessidade de anular todo o lançamento do IPTU. Dispositivos relacionados: CTN art. 145; CF/88 art. 145, II.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "acórdão da Segunda Turma (NÃO é recurso repetitivo); j. 07/06/2011, DJe 14/06/2011",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "acordao STJ 1202136",
+    "dispositivo": "STJ 1202136",
+    "fonte_url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2022/06112022-ITBI-e-IPTU-o-STJ-e-os-impostos-municipais-que-incidem-sobre-imoveis--parte-2-.aspx",
+    "vigencia": {}
+  },
+  "tema": [],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "STJ",
+  "ementa": "A existência de taxas tidas por ilegais (ex.: taxa de limpeza pública, conservação de vias, combate a sinistros) embutidas no carnê/boleto de IPTU não invalida a cobrança do imposto: o contribuinte pode afastar a parcela indevida por simples cálculo aritmético, abatendo os valores ilegais do montant"
+}

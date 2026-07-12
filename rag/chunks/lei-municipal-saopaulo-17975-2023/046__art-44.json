@@ -4,13 +4,13 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 44",
   "numero": "44",
-  "header_raw": "Art. 44. O inciso II do § 2º do art. 116 da Lei nº 16.050, de 2014, passa a vigorar com a seguinte",
+  "header_raw": "Art. 44. O inciso II do § 2º do art. 116 da Lei nº 16.050, de 2014, passa a vigorar com a seguinte alteração:",
   "caminho_hierarquico": [
     "CAPÍTULO III",
     "Seção II",
     "Art. 44"
   ],
-  "texto": "Art. 44. O inciso II do § 2º do art. 116 da Lei nº 16.050, de 2014, passa a vigorar com a seguinte\n\nalteração:\n\n“Art. 116. ...................................................................................\n\n....................................................................................................\n\n§ 2º .............................................................................................\n\nII – o coeficiente de aproveitamento máximo 4 (quatro) estabelecido no Quadro 2 desta Lei para as\n\náreas de influência dos Eixos de Estruturação da Transformação Urbana;\n\n..........................................................................................” (NR)",
+  "texto": "Art. 44. O inciso II do § 2º do art. 116 da Lei nº 16.050, de 2014, passa a vigorar com a seguinte alteração:\n\n“Art. 116. ...................................................................................\n\n....................................................................................................\n\n§ 2º .............................................................................................\n\nII – o coeficiente de aproveitamento máximo 4 (quatro) estabelecido no Quadro 2 desta Lei para as áreas de influência dos Eixos de Estruturação da Transformação Urbana;\n\n..........................................................................................” (NR)",
   "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
@@ -22,7 +22,7 @@
   "citacao": {
     "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
     "dispositivo": "CAPÍTULO III › Seção II › Art. 44",
-    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17975-de-8-de-julho-de-2023",
     "vigencia": {
       "inicio": "2023-07-08",
       "fim": null,

@@ -1,0 +1,44 @@
+{
+  "id": "stj-agrg-aresp-179340-sp",
+  "tipo": "acordao",
+  "tribunal": "STJ",
+  "numero": "AgRg no AREsp 179.340/SP",
+  "orgao_julgador": "2a Turma",
+  "relator": "Min. Mauro Campbell Marques",
+  "data_julgamento": "2012-11-20",
+  "tema_rg_ou_repetitivo": null,
+  "leading_case": null,
+  "enunciado_ou_tese": "Compensacao por excesso de execucao em desapropriacao de imovel tombado (Santos/SP), envolvendo a transferencia do direito de construir do art. 35 do Estatuto da Cidade. O STJ NAO CONHECEU do recurso, aplicando por analogia a Sumula 280/STF (incidencia de lei local) e a Sumula 7/STJ (reexame de provas), pois a possibilidade de transferir o direito de construir dependia de interpretacao de lei municipal de Santos. DJe 26/11/2012.",
+  "tema": [
+    "estatuto-da-cidade",
+    "desapropriacao",
+    "tombamento"
+  ],
+  "dispositivos_relacionados": [
+    "Lei Federal no 10.257/2001, art. 35",
+    "Sumula 280/STF",
+    "Sumula 7/STJ"
+  ],
+  "situacao": "vigente",
+  "vigencia": {
+    "inicio": "2012-11-20",
+    "fim": null,
+    "nota": "acordao (resumo de metadados)"
+  },
+  "fonte": {
+    "origem": "web-extensao-resumo",
+    "url": "STJ — https://scon.stj.jus.br/SCON/ (pesquisa de jurisprudencia)",
+    "hash": "sha256:fc593d698fa733ade89be30e2a7e4c9cae4fd35616c811f1513a912a051fe79f",
+    "hash_alvo": "jurisprudencia/stj-agrg-aresp-179340-sp.md",
+    "captura_verbatim": null,
+    "hash_nota": "hash do .md (FICHA de metadados). Inteiro teor NAO reproduzido (direitos autorais); verbatim a capturar no portal."
+  },
+  "status_pipeline": "indexado",
+  "confianca_extracao": "media",
+  "revisado_por_humano": false,
+  "verificacao_verbatim": "RESUMO em linguagem propria (extensao) — inteiro teor NAO reproduzido por direitos autorais. Identificacao (processo/orgao/relator/data) confere.",
+  "dominio_primario": "tdc",
+  "dominio": [
+    "tdc"
+  ]
+}

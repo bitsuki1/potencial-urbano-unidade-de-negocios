@@ -4,12 +4,12 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 124",
   "numero": "124",
-  "header_raw": "Art. 124. A Lei nº 16.050, de 2014, passa a vigorar acrescida do Quadro 15 – Unidades de",
+  "header_raw": "Art. 124. A Lei nº 16.050, de 2014, passa a vigorar acrescida do Quadro 15 – Unidades de Conservação Existentes e Propostas constante do Anexo VI e do Mapa 12 – Ações prioritárias do Sistema de Drenagem constante do Anexo VII desta Lei.",
   "caminho_hierarquico": [
     "CAPÍTULO XII",
     "Art. 124"
   ],
-  "texto": "Art. 124. A Lei nº 16.050, de 2014, passa a vigorar acrescida do Quadro 15 – Unidades de\n\nConservação Existentes e Propostas constante do Anexo VI e do Mapa 12 – Ações prioritárias do\n\nSistema de Drenagem constante do Anexo VII desta Lei.",
+  "texto": "Art. 124. A Lei nº 16.050, de 2014, passa a vigorar acrescida do Quadro 15 – Unidades de Conservação Existentes e Propostas constante do Anexo VI e do Mapa 12 – Ações prioritárias do Sistema de Drenagem constante do Anexo VII desta Lei.",
   "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
@@ -21,7 +21,7 @@
   "citacao": {
     "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
     "dispositivo": "CAPÍTULO XII › Art. 124",
-    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17975-de-8-de-julho-de-2023",
     "vigencia": {
       "inicio": "2023-07-08",
       "fim": null,

@@ -1,0 +1,44 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-14865-2008::014-art-10",
+  "lei_id": "lei-municipal-saopaulo-14865-2008",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 10",
+  "numero": "10",
+  "header_raw": "Art. 10. Os §§ 5º e 7º do art. 10 e o § 1º do art. 12, ambos da Lei nº 14.107, de 12 de dezembro de 2005, passam a vigorar com a seguinte redação:",
+  "caminho_hierarquico": [
+    "CAPÍTULO IV",
+    "Art. 10"
+  ],
+  "texto": "Art. 10. Os §§ 5º e 7º do art. 10 e o § 1º do art. 12, ambos da Lei nº 14.107, de 12 de dezembro de 2005, passam a vigorar com a seguinte redação:\n\n\"Art. 10. ............................................................\n\n§ 5º. Quando a notificação for enviada pelo correio, sem aviso de recebimento, deverá ser precedida de divulgação, a cargo do Executivo, na imprensa oficial e, no mínimo, em 2 (dois) jornais de grande circulação no Município, das datas de entrega das notificações nas agências postais, das datas de vencimento dos tributos e do prazo para comunicação pelo sujeito passivo do não-recebimento da notificação, para os fins do disposto no § 7º deste artigo.\n\n................................................................................\n\n§ 7º. A presunção referida no § 6º deste artigo é relativa e poderá ser elidida pela comunicação do não-recebimento da notificação, protocolada pelo sujeito passivo perante a Administração Municipal, no prazo a que se refere o § 5º deste artigo.\n\n..........................................................................\" (NR)\n\n\"Art. 12. ......................................................................\n\n§ 1º. Os meios de intimação previstos nos incisos I, II e III deste artigo não estão sujeitos à ordem de preferência.\n\n..........................................................................\" (NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 14.865/2008 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO IV › Art. 10",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-14865-de-29-de-dezembro-de-2008",
+    "vigencia": {
+      "em_vigor": true,
+      "observacao": "Vigente (beneficio com termo final 31/12/2030 para a hipotese ZEIS/CDHU). Confirmar alteracoes posteriores.",
+      "inicio": "2008-12-29",
+      "obs": "inicio = data da lei (proxy da publicação, convenção do corpus); cláusula verbatim: Art. 16. Esta lei entrará em vigor na data de sua publicação."
+    }
+  },
+  "tema": [
+    "habitacional_popular",
+    "HIS",
+    "ZEIS",
+    "isencao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Concede isenção do Imposto Predial e Territorial Urbano (IPTU) em condições específicas (inclusive habitação de interesse social / ZEIS), altera dispositivos de leis tributárias e dá outras providências."
+}

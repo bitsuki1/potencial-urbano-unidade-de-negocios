@@ -1,0 +1,60 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-6989-1966::115-art-44",
+  "lei_id": "lei-municipal-saopaulo-6989-1966",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 44",
+  "numero": "44",
+  "header_raw": "Art. 44 - Ficam isentas dos impostos as saídas:(Revogado pela Lei nº 6.999/1967)",
+  "caminho_hierarquico": [
+    "TITULO I",
+    "CAPITULO III",
+    "SEÇÃO III",
+    "Art. 44"
+  ],
+  "texto": "Art. 44 - Ficam isentas dos impostos as saídas:(Revogado pela Lei nº 6.999/1967)\n\nI – de mercadorias com destino a trabalhadores autônomos ou avulsos, que prestem serviço pessoal, ou com destino a outro estabelecimento, num e noutro caso para industrialização e desde que, em ambos os casos, voltem ao estabelecimento de origem;\n\nII – de mercadorias a que se referem o inciso anterior, em retorno ao estabelecimento de origem, sem prejuízo do pagamento do imposto eventualmente incidente sobre mercadorias empregadas no processo de industrialização, pelo estabelecimento que a tiver feito;\n\nIII – de jornais, revistas, periódicos; de livros de revendedores, de livros das editoras, que tenham sede ou filial no Município, desde que forneçam gratuitamente à Biblioteca Municipal 15 (quinze) exemplares de cada obra que editarem ou reeditarem, observados prazos, forma e demais condições constantes da legislação municipal;\n\nIV – de discos e dispositivos (slides) didáticos;\n\nV – para o exterior, de produtos industrializados objeto dos convênios referidos no artigo 214, da Lei Federal nº 5.172, de 25 de outubro de 1966;\n\nVI – de máquinas, equipamentos e aparelhos de fabricação nacional, de estabelecimento fabricante, com destino a estabelecimento ou instalações de qualquer natureza, cuja finalidade seja reconhecida como de interesse econômico fundamental, por ato do Prefeito, quando o empreendimento for custeado em moeda nacional, proveniente de conversão de divisas resultantes de financiamento concedidos por instituições financeiras internacionais, ou entidades governamentais estrangeiras;\n\nVII – de mercadorias de produção própria, promovidas por instituições de assistência social e de educação existentes no Município, cujas rendas sejam integralmente aplicadas na manutenção de suas finalidades assistenciais ou educacionais no país, e que não distribuam lucros ou participações;\n\nVIII – de adubos simples ou compostos e de fertilizantes;\n\nIX – de amônia, ácido nítrico, soluções de nitrato de amônia, ácido sulfúrico, ácido fosfórico de fosfatos de amônio do estabelecimento onde se tiver processado a respectiva industrialização, com destino a estabelecimento onde se industrializem adubos simples ou compostos e fertilizantes, a outro estabelecimento do mesmo titular, ou a estabelecimento produtor, bem como a saída das mesmas mercadorias de estabelecimento comercial com destino a estabelecimento produtor;\n\nX – de mercadorias que entrarem em estabelecimentos de empresas transportadoras exclusivamente para fins de transporte;\n\nXI – efetuadas pelo respectivo autor, na transmissão da propriedade da obra de arte;\n\nXII – de obras de arte de estabelecimento que as tenha adquirido do próprio autor, para exposição ou venda;\n\nXIII – após o uso normal que se destinarem, de mercadorias que tenham entrado para integrar o ativo fixo do estabelecimento ou para nele serem utilizadas, desde que a saída ocorra depois do uso normal a que se destinarem tais mercadorias e se verifique depois de decorridos pelo menos doze meses da data da entrada. Para os fins do disposto neste inciso, não se considera utilização no estabelecimento o uso na comercialização ou na industrialização;\n\nXIV – de mercadorias de estabelecimento produtor com destino a depósito do estabelecimento ou em nome deste, ainda que em estabelecimento de terceiro que deva proceder ao beneficiamento da mercadoria por conta do estabelecimento produtor;\n\nXV – de amostras grátis de medicamentos, de estabelecimento que tiverem sido industrializados, desde que cada amostra não exceda a quantidade estritamente necessária para dar a conhecer a natureza, espécie e qualidade do produto, não se destine à comercialização, contenha em caracteres bem visíveis a declaração de ser gratuita e sejam obedecidos os requisitos fixados em regulamento;\n\nXVI – de mercadorias para feiras, certames e exposições, quando se destinem a voltar ao estabelecimento e desde que a saída seja precedida de aviso por escrito à repartição municipal competente, com a discriminação das mercadorias e data do inicio e do término da feira, certame ou exposição.\n\nParágrafo único - As isenções previstas nos incisos V, VI e VII deverão ser previamente requeridas a autoridade fiscal do domicilio do contribuinte, na forma prevista em regulamento.\n\nSEÇÃO VI\n\nDisposições Gerais",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 6.989/1966 — São Paulo/SP",
+    "dispositivo": "TITULO I › CAPITULO III › SEÇÃO III › Art. 44",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-6989-de-29-de-dezembro-de-1966",
+    "vigencia": {
+      "inicio": "1967-01-01",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 10.394/1987",
+        "Lei 10.805/1989",
+        "Lei 10.921/1990",
+        "Lei 11.152/1991",
+        "Lei 11.334/1992",
+        "Lei 12.782/1998",
+        "Lei 13.250/2001",
+        "Lei 15.889/2013"
+      ],
+      "obs": "texto COMPILADO do portal oficial, com anotações de alteração por dispositivo; lista alterada_por = anotações verificadas no texto (não exaustiva)"
+    }
+  },
+  "tema": [
+    "sistema_tributario_municipal",
+    "imposto_predial",
+    "imposto_territorial_urbano",
+    "valor_venal",
+    "aliquota_progressiva",
+    "fato_gerador",
+    "isencao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o sistema tributário do Município e da outras providências."
+}

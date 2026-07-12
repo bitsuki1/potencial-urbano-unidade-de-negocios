@@ -1,0 +1,62 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-6989-1966::278-art-160",
+  "lei_id": "lei-municipal-saopaulo-6989-1966",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 160",
+  "numero": "160",
+  "header_raw": "Art. 160 - A taxa será arrecadada antecipadamente, por meio de guia ou aviso - recibo, na forma, condições e prazo determinados em regulamento.(Revogado pela Lei nº 9.806/1984)",
+  "caminho_hierarquico": [
+    "TITULO II",
+    "CAPITULO IV",
+    "SEÇÃO IV",
+    "Art. 160"
+  ],
+  "texto": "Art. 160 - A taxa será arrecadada antecipadamente, por meio de guia ou aviso - recibo, na forma, condições e prazo determinados em regulamento.(Revogado pela Lei nº 9.806/1984)\n\nI - as iniciais:(Redação dada pela Lei nº 7.047/1967)(Revogado pela Lei nº 7.687/1971)\n\na) no ato da concessão da licença para publicidade;(Incluído pela Lei nº 7.047/1967)\n\nb) na mesma guia da taxa de licença para localização e funcionamento de estabelecimentos comerciais, industriais, profissionais e similares, quando da inscrição destes, na repartição municipal competente, pelo sujeito passivo;(Incluído pela Lei nº 7.047/1967)\n\nII - as posteriores:(Redação dada pela Lei nº 7.047/1967)(Revogado pela Lei nº 7.687/1971)\n\na) quando anuais, conjuntamente com a renovação da taxa de licença para localização e funcionamento de estabelecimentos comerciais, industriais, profissionais e similares;(Redação dada pela Lei nº 7.047/1967)\n\na) quando anuais:(Redação dada pela Lei nº 7.410/1969)\n\n1 - relativas aos itens 1, letra \"a\", \"b\" e \"c\", e 2 da tabela a que se refere o artigo 155, - e não pagas pelo interessado no anúncio ou pelo promovente da publicidade, até 31 de janeiro de cada ano - conjuntamente com a renovação da taxa de licença para localização, funcionamento e instalação de atividades comerciais, industriais, profissionais, de prestação de serviços e similares;(Redação dada pela Lei nº 7.410/1969)\n\n2 - relativas ao item 1, letra \"d\", e demais itens até 31 de janeiro de cada ano.(Redação dada pela Lei nº 7.410/1969)\n\nb) quando mensais, até o dia 7 de cada mês.(Redação dada pela Lei nº 7.047/1967)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "1967",
+    "norma_redacao": "Lei nº 7.047/1967"
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 6.989/1966 — São Paulo/SP",
+    "dispositivo": "TITULO II › CAPITULO IV › SEÇÃO IV › Art. 160",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-6989-de-29-de-dezembro-de-1966",
+    "vigencia": {
+      "inicio": "1967-01-01",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 10.394/1987",
+        "Lei 10.805/1989",
+        "Lei 10.921/1990",
+        "Lei 11.152/1991",
+        "Lei 11.334/1992",
+        "Lei 12.782/1998",
+        "Lei 13.250/2001",
+        "Lei 15.889/2013"
+      ],
+      "obs": "texto COMPILADO do portal oficial, com anotações de alteração por dispositivo; lista alterada_por = anotações verificadas no texto (não exaustiva)"
+    }
+  },
+  "tema": [
+    "sistema_tributario_municipal",
+    "imposto_predial",
+    "imposto_territorial_urbano",
+    "valor_venal",
+    "aliquota_progressiva",
+    "fato_gerador",
+    "isencao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o sistema tributário do Município e da outras providências."
+}

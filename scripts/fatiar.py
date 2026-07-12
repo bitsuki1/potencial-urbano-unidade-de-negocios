@@ -384,6 +384,75 @@ def fatiar_lei(md_path: Path, reportar):
     return len(dispositivos)
 
 
+def fatiar_jurisprudencia(md_path: Path, reportar):
+    """Fatia UM acórdão/súmula/tema de `jurisprudencia/` em 1 chunk (ficha) no rag/chunks/.
+    O texto indexado é a NOSSA SÍNTESE (enunciado/tese + temas + dispositivos), NÃO o inteiro teor
+    (não reproduzido — direitos autorais; ver a ficha .md). Assim a jurisprudência entra na busca
+    (B-21) sem violar copyright e sem tocar o chunker estrutural das leis. Domínio herdado da ficha."""
+    jpath = md_path.with_suffix(".json")
+    if not jpath.exists():
+        reportar(f"  SKIP {md_path.name}: sem .json par"); return 0
+    try:
+        meta = json.loads(jpath.read_text(encoding="utf-8"))
+    except (UnicodeDecodeError, json.JSONDecodeError) as e:
+        reportar(f"  SKIP {md_path.name}: erro de leitura ({e.__class__.__name__}) — pulado"); return 0
+    jid = meta.get("id") or md_path.stem
+    tribunal = (meta.get("tribunal") or "").strip()
+    numero = str(meta.get("numero") or "").strip()
+    rotulo = (f"{tribunal} {numero}").strip() or jid
+    tese = (meta.get("enunciado_ou_tese") or "").strip()
+    if not tese:
+        reportar(f"  SKIP {jid}: sem 'enunciado_ou_tese' (nada a indexar)"); return 0
+    temas = meta.get("tema") or []
+    disp = meta.get("dispositivos_relacionados") or []
+    dominio = meta.get("dominio") or []
+    dominio_primario = meta.get("dominio_primario")
+    situacao = (meta.get("situacao") or "vigente").strip()
+    # texto buscável = síntese própria (não o inteiro teor). Rótulo + tese + facetas keyword.
+    partes = [rotulo + ".", tese]
+    if temas:
+        partes.append("Temas: " + ", ".join(temas) + ".")
+    if disp:
+        partes.append("Dispositivos relacionados: " + "; ".join(disp) + ".")
+    texto = " ".join(partes)
+
+    destino = RAIZ / "rag" / "chunks" / jid
+    if destino.exists():
+        for antigo in destino.glob("*.json"):
+            antigo.unlink()  # idempotência
+    destino.mkdir(parents=True, exist_ok=True)
+    chunk = {
+        "chunk_id": f"{jid}::001-ficha",
+        "lei_id": jid,
+        "tipo_dispositivo": "jurisprudencia",
+        "rotulo": rotulo,
+        "numero": numero,
+        "header_raw": texto[:120],
+        "caminho_hierarquico": [rotulo],
+        "texto": texto,
+        "citavel": True,
+        "vigencia_dispositivo": {
+            "status": "original" if situacao == "vigente" else situacao,
+            "revogado_por": None, "marcadores": [], "data_redacao": None, "norma_redacao": None,
+        },
+        "citacao": {
+            "norma": f"{meta.get('tipo','acordao')} {rotulo}".strip(),
+            "dispositivo": meta.get("orgao_julgador") or rotulo,
+            "fonte_url": (meta.get("fonte") or {}).get("url"),
+            "vigencia": meta.get("vigencia") or {},
+        },
+        "tema": temas,
+        "dominio": dominio,
+        "dominio_primario": dominio_primario,
+        "jurisdicao": tribunal,
+        "ementa": tese[:300],
+    }
+    (destino / "001__ficha.json").write_text(
+        json.dumps(chunk, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    reportar(f"  OK   {jid}: ficha de jurisprudência -> rag/chunks/{jid}/")
+    return 1
+
+
 def main(argv):
     alvos = []
     if len(argv) > 1:
@@ -398,8 +467,17 @@ def main(argv):
         if n:
             total_leis += 1
             total_chunks += n
+
+    # Jurisprudência (B-21): só na varredura completa (sem alvos específicos). Top-level de
+    # jurisprudencia/ — NÃO desce em _capturas/ (o inteiro teor bruto não entra no RAG).
+    total_juris = 0
+    if len(argv) <= 1:
+        for md in sorted((RAIZ / "jurisprudencia").glob("*.md")):
+            total_juris += fatiar_jurisprudencia(md, msgs.append)
+
     print("\n".join(msgs))
-    print(f"\nfatiar: {total_leis} leis fatiadas, {total_chunks} dispositivos no total.")
+    print(f"\nfatiar: {total_leis} leis fatiadas, {total_chunks} dispositivos"
+          + (f" + {total_juris} fichas de jurisprudência" if total_juris else "") + " no total.")
 
 
 if __name__ == "__main__":

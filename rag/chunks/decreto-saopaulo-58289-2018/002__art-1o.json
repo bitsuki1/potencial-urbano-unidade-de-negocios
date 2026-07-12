@@ -1,0 +1,49 @@
+{
+  "chunk_id": "decreto-saopaulo-58289-2018::002-art-1o",
+  "lei_id": "decreto-saopaulo-58289-2018",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 1º",
+  "numero": "1",
+  "header_raw": "Art. 1º A Transferência do Direito de Construir, autorizada nos termos do artigo 123 da Lei nº 16.050, de 31 de julho de 2014 – Plano Diretor Estratégico – PDE, nos casos em que ocorra doação do imóvel ou desapropriação amigável para viabilizar uma das finalidades previstas no artigo 126 da mesma lei, fica regulamentada nos termos das disposições deste decreto.",
+  "caminho_hierarquico": [
+    "CAPÍTULO I",
+    "Art. 1º"
+  ],
+  "texto": "Art. 1º A Transferência do Direito de Construir, autorizada nos termos do artigo 123 da Lei nº 16.050, de 31 de julho de 2014 – Plano Diretor Estratégico – PDE, nos casos em que ocorra doação do imóvel ou desapropriação amigável para viabilizar uma das finalidades previstas no artigo 126 da mesma lei, fica regulamentada nos termos das disposições deste decreto.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto municipal nº 58.289/2018 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO I › Art. 1º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-58289-de-26-de-junho-de-2018",
+    "vigencia": {
+      "inicio": "2018-06-26",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [],
+      "revoga": [
+        "Decreto 57.535/2016"
+      ]
+    }
+  },
+  "tema": [
+    "transferencia_do_direito_de_construir",
+    "doacao_de_imovel",
+    "potencial_construtivo",
+    "desapropriacao_amigavel",
+    "declaracao_de_potencial_construtivo"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Confere nova regulamentação à Transferência do Direito de Construir com Doação de Imóvel, nos termos dos artigos 123, 126, 127, 128, 130 e 131 da Lei nº 16.050, de 31 de julho de 2014 – Plano Diretor Estratégico – PDE; revoga o Decreto nº 57.535, de 15 de dezembro de 2016."
+}

@@ -1,0 +1,46 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-12350-1997::002-art-1o",
+  "lei_id": "lei-municipal-saopaulo-12350-1997",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 1º",
+  "numero": "1",
+  "header_raw": "Art. 1º Fica instituído incentivo fiscal a ser concedido a pessoas físicas ou jurídicas que promoverem ou patrocinarem a recuperação externa e a conservação de imóvel próprio ou de terceiro, localizado na Área Especial de Intervenção, delimitada na planta e na relação constantes, respectivamente, dos Anexos I e II desta Lei.",
+  "caminho_hierarquico": [
+    "Art. 1º"
+  ],
+  "texto": "Art. 1º Fica instituído incentivo fiscal a ser concedido a pessoas físicas ou jurídicas que promoverem ou patrocinarem a recuperação externa e a conservação de imóvel próprio ou de terceiro, localizado na Área Especial de Intervenção, delimitada na planta e na relação constantes, respectivamente, dos Anexos I e II desta Lei.\n\n§ 1º O incentivo fiscal de que trata o \"caput\" deste artigo poderá ser concedido às pessoas físicas ou jurídicas que tiverem iniciado as obras de recuperação nos imóveis antes da vigência desta Lei, ou que os tiverem mantido conservados com as características originais.\n\n§ 2º Para os efeitos desta Lei, serão considerados recuperação externa de imóveis, as obras e serviços destinados à recuperação e conservação de fachadas e demais elementos, realizados em imóvel tombado por órgão federal, estadual ou municipal, ou preservado em razão do seu valor histórico, cultural, estético, arquitetônico ou paisagístico, nos termos do artigo 2º da Lei n. 8.328(1), de 2 de dezembro de 1975, com a nova redação dada pelo artigo 18 da Lei n. 9.725(2), de 2 de julho de 1984.\n\n§ 3º Considera-se patrocinador a pessoa física ou jurídica que se proponha a financiar ou custear, total ou parcialmente, o projeto e a execução de obras de recuperação ou conservação externa em imóveis de terceiros.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 12.350/1997 — São Paulo/SP",
+    "dispositivo": "Art. 1º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-12350-de-6-de-junho-de-1997",
+    "vigencia": {
+      "em_vigor": true,
+      "observacao": "Regulamentada pelo Decreto 37.302/1998 ('Lei das Fachadas'). Verificar na re-captura se ha alteracoes/revogacoes posteriores.",
+      "inicio": "1997-06-06",
+      "obs": "inicio = data da lei (proxy da publicação, convenção do corpus); cláusula verbatim: Art. 9º Esta Lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário."
+    }
+  },
+  "tema": [
+    "fachadas",
+    "restauro",
+    "preservacao",
+    "incentivo_fiscal",
+    "tombados"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Concede incentivo fiscal aos proprietários de imóveis ou aos patrocinadores das obras de recuperação externa e conservação de imóveis localizados na Área Especial de Intervenção objeto do Programa de Requalificação Urbana e Funcional do Centro de São Paulo - PROCENTRO (ou equivalente), e dá outras providências."
+}

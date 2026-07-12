@@ -4,13 +4,13 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 49",
   "numero": "49",
-  "header_raw": "Art. 49. O inciso IV do caput e o § 1º do art. 126 da Lei nº 16.050, de 2014, passam a vigorar com as",
+  "header_raw": "Art. 49. O inciso IV do caput e o § 1º do art. 126 da Lei nº 16.050, de 2014, passam a vigorar com as seguintes alterações:",
   "caminho_hierarquico": [
     "CAPÍTULO III",
     "Seção II",
     "Art. 49"
   ],
-  "texto": "Art. 49. O inciso IV do caput e o § 1º do art. 126 da Lei nº 16.050, de 2014, passam a vigorar com as\n\nseguintes alterações:\n\n“Art. 126. ...................................................................................\n\n....................................................................................................\n\nIV - implantação de parques propostos, de acordo com o Quadro 7 anexo a esta Lei, situados na zona\n\nurbana.\n\n§ 1º Nos casos em que a doação for proposta pelo proprietário para uma das finalidades descritas nos\n\nincisos do caput deste artigo, deverá ser avaliada a conveniência e o interesse público no recebimento\n\nda área, mediante análise da vantajosidade da medida, cotejando-se a economicidade de seu\n\nrecebimento, o valor do bem a ser doado, aferido em avaliação específica, admitida a possibilidade de\n\nprevisão de contrapartidas compatíveis com os objetivos da política urbana em desenvolvimento.\n\n..........................................................................................” (NR)",
+  "texto": "Art. 49. O inciso IV do caput e o § 1º do art. 126 da Lei nº 16.050, de 2014, passam a vigorar com as seguintes alterações:\n\n“Art. 126. ...................................................................................\n\n....................................................................................................\n\nIV - implantação de parques propostos, de acordo com o Quadro 7 anexo a esta Lei, situados na zona urbana.\n\n§ 1º Nos casos em que a doação for proposta pelo proprietário para uma das finalidades descritas nos incisos do caput deste artigo, deverá ser avaliada a conveniência e o interesse público no recebimento da área, mediante análise da vantajosidade da medida, cotejando-se a economicidade de seu recebimento, o valor do bem a ser doado, aferido em avaliação específica, admitida a possibilidade de previsão de contrapartidas compatíveis com os objetivos da política urbana em desenvolvimento.\n\n..........................................................................................” (NR)",
   "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
@@ -22,7 +22,7 @@
   "citacao": {
     "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
     "dispositivo": "CAPÍTULO III › Seção II › Art. 49",
-    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17975-de-8-de-julho-de-2023",
     "vigencia": {
       "inicio": "2023-07-08",
       "fim": null,

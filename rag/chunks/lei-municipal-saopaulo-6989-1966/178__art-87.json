@@ -1,0 +1,62 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-6989-1966::178-art-87",
+  "lei_id": "lei-municipal-saopaulo-6989-1966",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 87",
+  "numero": "87",
+  "header_raw": "Art. 87 - A Taxa calcula-se:(Redação dada pela Lei nº 10.394/1987)",
+  "caminho_hierarquico": [
+    "TITULO II",
+    "CAPITULO I",
+    "SEÇÃO II",
+    "Art. 87"
+  ],
+  "texto": "Art. 87 - A Taxa calcula-se:(Redação dada pela Lei nº 10.394/1987)\n\nI - Tratando-se de prédio, em função de sua localização, área edificada e utilização, na seguinte conformidade:\n\na) imóveis utilizados exclusivamente como residência:(Incluído pela Lei nº 10.394/1987)\n\nSubdivisão da Zona Urbana --------------Valor anual por M² Edificado\n\n(% da UFM)\n\n1º----------------------------------------------------------------0,80\n\n2º------------------------------------ ---------------------------0,38\n\nAlém da 2º----------------------------------- ---------------- ---0,24\n\nb) demais casos:(Incluído pela Lei nº 10.394/1987)\n\nSubdivisão da Zona Urbana --------------Valor anual por M² Edificado\n\n(% da UFM)\n\n1º----------------------------------------------------------------1,00\n\n2º------------------------------------ ---------------------------0,45\n\nAlém da 2º----------------------------------- ---------------- 0,28\n\nII - Tratando-se de terreno, em função de sua localização e da sua área, na seguinte conformidade:\n\nSubdivisão da Zona Urbana --------------Valor anual por M² de Terreno\n\n(% da UFM)\n\n1º----------------------------------------------------------------0,30\n\n2º------------------------------------ ---------------------------0,10\n\n3º----------------------------------- ----------------------------0,03\n\nParágrafo Único. Nenhum lançamento da taxa a que se referem os itens I e II será inferior, respectivamente, a 12% (doze por cento) da UFM e a 3% (três por cento) da UFM - Unidade de Valor Fiscal do Município de São Paulo.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "1987",
+    "norma_redacao": "Lei nº 10.394/1987"
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 6.989/1966 — São Paulo/SP",
+    "dispositivo": "TITULO II › CAPITULO I › SEÇÃO II › Art. 87",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-6989-de-29-de-dezembro-de-1966",
+    "vigencia": {
+      "inicio": "1967-01-01",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 10.394/1987",
+        "Lei 10.805/1989",
+        "Lei 10.921/1990",
+        "Lei 11.152/1991",
+        "Lei 11.334/1992",
+        "Lei 12.782/1998",
+        "Lei 13.250/2001",
+        "Lei 15.889/2013"
+      ],
+      "obs": "texto COMPILADO do portal oficial, com anotações de alteração por dispositivo; lista alterada_por = anotações verificadas no texto (não exaustiva)"
+    }
+  },
+  "tema": [
+    "sistema_tributario_municipal",
+    "imposto_predial",
+    "imposto_territorial_urbano",
+    "valor_venal",
+    "aliquota_progressiva",
+    "fato_gerador",
+    "isencao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o sistema tributário do Município e da outras providências."
+}

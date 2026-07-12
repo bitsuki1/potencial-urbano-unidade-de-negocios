@@ -1,0 +1,33 @@
+{
+  "chunk_id": "stf-sumula-670::001-ficha",
+  "lei_id": "stf-sumula-670",
+  "tipo_dispositivo": "jurisprudencia",
+  "rotulo": "STF 670",
+  "numero": "670",
+  "header_raw": "STF 670. O serviço de iluminação pública não pode ser remunerado mediante taxa. Dispositivos relacionados: CF/88 art. 14",
+  "caminho_hierarquico": [
+    "STF 670"
+  ],
+  "texto": "STF 670. O serviço de iluminação pública não pode ser remunerado mediante taxa. Dispositivos relacionados: CF/88 art. 145, II.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "Súmula 670 convertida na Súmula Vinculante 41 (mesma redação); enunciado vigente como SV 41. Tema 44 RG; vide SV 19.",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "sumula STF 670",
+    "dispositivo": "STF 670",
+    "fonte_url": "https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=26&sumula=2218",
+    "vigencia": {}
+  },
+  "tema": [],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "STF",
+  "ementa": "O serviço de iluminação pública não pode ser remunerado mediante taxa."
+}

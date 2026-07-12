@@ -4,13 +4,13 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 12",
   "numero": "12",
-  "header_raw": "Art. 12. O art. 25 da Lei nº 16.050, de 2014, passa a vigorar com alteração da redação do inciso II,",
+  "header_raw": "Art. 12. O art. 25 da Lei nº 16.050, de 2014, passa a vigorar com alteração da redação do inciso II, acréscimo dos incisos VIII, IX e X e nova redação do § 2º:",
   "caminho_hierarquico": [
     "CAPITULO I",
     "Seção II",
     "Art. 12"
   ],
-  "texto": "Art. 12. O art. 25 da Lei nº 16.050, de 2014, passa a vigorar com alteração da redação do inciso II,\n\nacréscimo dos incisos VIII, IX e X e nova redação do § 2º:\n\n“Art. 25. .....................................................................................\n\n....................................................................................................\n\nII - qualificar e ampliar a rede de parques, considerando populações com todas as faixas de renda\n\n(inferior, intermediária e alta), para equilibrar a relação entre o ambiente construído, as áreas verdes e\n\nos espaços livres, objetivando garantir espaços de lazer, sociabilidade e recreação para a população;\n\n................................................................................................\n\nVIII - adotar Soluções baseadas na Natureza nas intervenções, especialmente do Sistema de\n\nSaneamento Ambiental, com o intuito de promover melhoria da qualidade urbanística e ambiental das\n\nbacias hidrográficas;\n\nIX - promover, em Articulação com o Governo Estadual, estratégias e mecanismos para a implantação\n\ndo Sistema Hidroviário de forma sustentável, especialmente para o Rio Tietê;\n\nX - promover a implantação de sistemas de energias limpas e renováveis e ambientalmente\n\nsustentáveis ou sistemas de energias menos poluentes integrados à rede hídrica ambiental.\n\n....................................................................................................\n\n§ 2º Para implementar os objetivos estabelecidos no caput deste artigo, deverá ser implementado o\n\nPrograma de Recuperação dos Fundos de Vale, detalhado no art. 272, e criados instrumentos para\n\npermitir a implantação dos parques propostos relacionados no Quadro 7 desta Lei.\n\n..........................................................................................” (NR)",
+  "texto": "Art. 12. O art. 25 da Lei nº 16.050, de 2014, passa a vigorar com alteração da redação do inciso II, acréscimo dos incisos VIII, IX e X e nova redação do § 2º:\n\n“Art. 25. .....................................................................................\n\n....................................................................................................\n\nII - qualificar e ampliar a rede de parques, considerando populações com todas as faixas de renda (inferior, intermediária e alta), para equilibrar a relação entre o ambiente construído, as áreas verdes e os espaços livres, objetivando garantir espaços de lazer, sociabilidade e recreação para a população;\n\n................................................................................................\n\nVIII - adotar Soluções baseadas na Natureza nas intervenções, especialmente do Sistema de Saneamento Ambiental, com o intuito de promover melhoria da qualidade urbanística e ambiental das bacias hidrográficas;\n\nIX - promover, em Articulação com o Governo Estadual, estratégias e mecanismos para a implantação do Sistema Hidroviário de forma sustentável, especialmente para o Rio Tietê;\n\nX - promover a implantação de sistemas de energias limpas e renováveis e ambientalmente sustentáveis ou sistemas de energias menos poluentes integrados à rede hídrica ambiental.\n\n....................................................................................................\n\n§ 2º Para implementar os objetivos estabelecidos no caput deste artigo, deverá ser implementado o Programa de Recuperação dos Fundos de Vale, detalhado no art. 272, e criados instrumentos para permitir a implantação dos parques propostos relacionados no Quadro 7 desta Lei.\n\n..........................................................................................” (NR)",
   "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
@@ -22,7 +22,7 @@
   "citacao": {
     "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
     "dispositivo": "CAPITULO I › Seção II › Art. 12",
-    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17975-de-8-de-julho-de-2023",
     "vigencia": {
       "inicio": "2023-07-08",
       "fim": null,

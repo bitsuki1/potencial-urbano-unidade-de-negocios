@@ -1,0 +1,49 @@
+{
+  "chunk_id": "decreto-saopaulo-58289-2018::023-art-22",
+  "lei_id": "decreto-saopaulo-58289-2018",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 22",
+  "numero": "22",
+  "header_raw": "Art. 22. Integram este decreto os seguintes Anexos:",
+  "caminho_hierarquico": [
+    "CAPÍTULO IV",
+    "Art. 22"
+  ],
+  "texto": "Art. 22. Integram este decreto os seguintes Anexos:\n\nI - Anexo I: Manifestação de Interesse em Doação de Imóvel;\n\nII - Anexo II: Documentos necessários para lavrar a Escritura de Doação de Imóvel;\n\nIII - Anexo III: Modelo de Declaração de Potencial Construtivo Passível de Transferência com doação de imóvel;\n\nIV - Anexo IV: Requerimento de Certidão de Transferência de Potencial Construtivo originada de Declaração com doação de imóvel;\n\nV - Anexo V: Relação de documentos para requerimento de Certidão de Transferência de Potencial Construtivo originada de Declaração com doação do imóvel;\n\nVI - Anexo VI: Modelo de Certidão de Transferência de Potencial Construtivo originada de Declaração com doação de imóvel;\n\nVII - Anexo VII: Modelo de Declaração de Saldo de Potencial Construtivo Passível de Transferência com doação de imóvel;\n\nVIII - Anexo VIII: Modelo de Extrato de Potencial Construtivo Transferido;\n\nIX - Anexo IX: Modelo de Escritura de Doação de Imóvel.\n\nParágrafo único. Os Anexos de que trata o “caput” deste artigo poderão sofrer eventuais ajustes em casos específicos e devidamente justificados no processo administrativo.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto municipal nº 58.289/2018 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO IV › Art. 22",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-58289-de-26-de-junho-de-2018",
+    "vigencia": {
+      "inicio": "2018-06-26",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [],
+      "revoga": [
+        "Decreto 57.535/2016"
+      ]
+    }
+  },
+  "tema": [
+    "transferencia_do_direito_de_construir",
+    "doacao_de_imovel",
+    "potencial_construtivo",
+    "desapropriacao_amigavel",
+    "declaracao_de_potencial_construtivo"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Confere nova regulamentação à Transferência do Direito de Construir com Doação de Imóvel, nos termos dos artigos 123, 126, 127, 128, 130 e 131 da Lei nº 16.050, de 31 de julho de 2014 – Plano Diretor Estratégico – PDE; revoga o Decreto nº 57.535, de 15 de dezembro de 2016."
+}

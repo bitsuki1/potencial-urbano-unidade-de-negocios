@@ -4,12 +4,12 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 117",
   "numero": "117",
-  "header_raw": "Art. 117. O Município deverá elaborar o Plano Municipal de Segurança Pública, definindo objetivos,",
+  "header_raw": "Art. 117. O Município deverá elaborar o Plano Municipal de Segurança Pública, definindo objetivos, metas e ações a serem realizadas no âmbito da segurança pública municipal, contando com indicadores de desempenho e índices próprios, e atualização a cada 4 (quatro) anos.",
   "caminho_hierarquico": [
     "CAPÍTULO XII",
     "Art. 117"
   ],
-  "texto": "Art. 117. O Município deverá elaborar o Plano Municipal de Segurança Pública, definindo objetivos,\n\nmetas e ações a serem realizadas no âmbito da segurança pública municipal, contando com\n\nindicadores de desempenho e índices próprios, e atualização a cada 4 (quatro) anos.",
+  "texto": "Art. 117. O Município deverá elaborar o Plano Municipal de Segurança Pública, definindo objetivos, metas e ações a serem realizadas no âmbito da segurança pública municipal, contando com indicadores de desempenho e índices próprios, e atualização a cada 4 (quatro) anos.",
   "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
@@ -21,7 +21,7 @@
   "citacao": {
     "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
     "dispositivo": "CAPÍTULO XII › Art. 117",
-    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17975-de-8-de-julho-de-2023",
     "vigencia": {
       "inicio": "2023-07-08",
       "fim": null,

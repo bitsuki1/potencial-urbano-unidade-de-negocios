@@ -1,0 +1,60 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-6989-1966::212-art-107",
+  "lei_id": "lei-municipal-saopaulo-6989-1966",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 107",
+  "numero": "107",
+  "header_raw": "Art. 107 - Nos terrenos que se estenderem de uma rua a outra, através do quarteirão, a aplicação dos processos estabelecidos nesta Lei obedecerá às seguintes regras:(Revogado pela Lei nº 8.505/1976)",
+  "caminho_hierarquico": [
+    "TITULO II",
+    "CAPITULO III",
+    "SEÇÃO II",
+    "Art. 107"
+  ],
+  "texto": "Art. 107 - Nos terrenos que se estenderem de uma rua a outra, através do quarteirão, a aplicação dos processos estabelecidos nesta Lei obedecerá às seguintes regras:(Revogado pela Lei nº 8.505/1976)\n\nI – para os efeitos de calculo devem ser consideradas as duas profundidades do terreno, cada uma em relação à respectiva testada;\n\nII – tratando-se de pavimentação simultânea de ambas as vias, a quota total relativa ao imóvel será a soma das quotas correspondentes a cada testada; a quota menor sofrerá, porém, o desconto de 50 (cinqüenta por cento), conforme a soma das duas profundidades médias seja menor, respectivamente, que 40,00 ou 80,000 metros;\n\nIII – tratando-se de pavimentação de uma só das vias, proceder-se-á da seguinte forma:\n\na) se a outra não for calçada ou tiver sido anteriormente a esta Lei, será havido o terreno como lote comum, entestando apenas com a via a ser pavimentada.\n\nb) se a outra via tiver sido calçada na vigência desta Lês, a quota relativa ao terreno será calculada, deduzindo-se a quota efetivamente atribuída ao imóvel em virtude do primeiro calçamento (item II “a”) daquele que para o mesmo resultaria da aplicação da regra relativa à pavimentação simultânea (item II).",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 6.989/1966 — São Paulo/SP",
+    "dispositivo": "TITULO II › CAPITULO III › SEÇÃO II › Art. 107",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-6989-de-29-de-dezembro-de-1966",
+    "vigencia": {
+      "inicio": "1967-01-01",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 10.394/1987",
+        "Lei 10.805/1989",
+        "Lei 10.921/1990",
+        "Lei 11.152/1991",
+        "Lei 11.334/1992",
+        "Lei 12.782/1998",
+        "Lei 13.250/2001",
+        "Lei 15.889/2013"
+      ],
+      "obs": "texto COMPILADO do portal oficial, com anotações de alteração por dispositivo; lista alterada_por = anotações verificadas no texto (não exaustiva)"
+    }
+  },
+  "tema": [
+    "sistema_tributario_municipal",
+    "imposto_predial",
+    "imposto_territorial_urbano",
+    "valor_venal",
+    "aliquota_progressiva",
+    "fato_gerador",
+    "isencao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o sistema tributário do Município e da outras providências."
+}

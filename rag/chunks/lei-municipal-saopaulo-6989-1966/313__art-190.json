@@ -1,0 +1,58 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-6989-1966::313-art-190",
+  "lei_id": "lei-municipal-saopaulo-6989-1966",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 190",
+  "numero": "190",
+  "header_raw": "Art. 190 - São pessoalmente responsáveis:",
+  "caminho_hierarquico": [
+    "TITULO III",
+    "Art. 190"
+  ],
+  "texto": "Art. 190 - São pessoalmente responsáveis:\n\nI – o adquirinte do imóvel, pelos débitos do alienante existentes à data do titulo de transferência, salvo quando conste deste prova de quitação, limitada esta responsabilidade, nos casos de arrematação em hasta publica, ao montante do respectivo preço;\n\nII – o espolio, pelos débitos do “de cujus”, existentes à data da abertura da sucessão;\n\nIII – o sucessor a qualquer titulo e o cônjuge meeiro, pelos débitos do espolio existentes à data da adjudicação, limitada esta responsabilidade ao montante do quinhão, legado ou meação;\n\nIV – a pessoa jurídica resultante de fusão, transformação ou incorporação, pelos débitos das sociedades fusionadas, transformadas ou incorporadas, existentes à data daqueles atos.\n\nParágrafo único - O disposto no inciso IV aplica-se aos casos de extinção de pessoas jurídicas de direito privado, quando a exploração da respectiva atividade seja continuada por qualquer sócio remanescente ou seu espolio, sob a mesma ou outra razão social ou sob firma individual.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 6.989/1966 — São Paulo/SP",
+    "dispositivo": "TITULO III › Art. 190",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-6989-de-29-de-dezembro-de-1966",
+    "vigencia": {
+      "inicio": "1967-01-01",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 10.394/1987",
+        "Lei 10.805/1989",
+        "Lei 10.921/1990",
+        "Lei 11.152/1991",
+        "Lei 11.334/1992",
+        "Lei 12.782/1998",
+        "Lei 13.250/2001",
+        "Lei 15.889/2013"
+      ],
+      "obs": "texto COMPILADO do portal oficial, com anotações de alteração por dispositivo; lista alterada_por = anotações verificadas no texto (não exaustiva)"
+    }
+  },
+  "tema": [
+    "sistema_tributario_municipal",
+    "imposto_predial",
+    "imposto_territorial_urbano",
+    "valor_venal",
+    "aliquota_progressiva",
+    "fato_gerador",
+    "isencao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o sistema tributário do Município e da outras providências."
+}

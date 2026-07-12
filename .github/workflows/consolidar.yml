@@ -86,6 +86,12 @@ jobs:
       - name: Engine OODC/TDC (auto-teste das fórmulas)
         run: python3 engines/tdc/oodc.py
 
+      # Reconciliação Art. 117 (2026-07-10): a contrapartida C = (At/Ac)×V×Fs×Fp reproduz o VERBATIM e
+      # bate a fórmula legada (§1º total) quando Ac = CA_max×At — a "vacina" que dizia o Art. 117 sem fonte
+      # está superada pelo texto indexado. Mutação-sensível.
+      - name: Contrapartida Art. 117 (verbatim + reconciliação com a legada)
+        run: python3 evals/eval-art117.py
+
       # GATE do Fp (Fator de Planejamento, Quadro 6 PDE): auto-teste do lookup por macroárea/subárea/uso.
       - name: Engine Fp Quadro 6 (auto-teste do Fator de Planejamento)
         run: python3 engines/tdc/fp.py
@@ -93,6 +99,27 @@ jobs:
       # T2/S2 — GATE do engine de CEDENTE (Fi Art. 24 LPUOS + FSCE Art. 57 Lei 17.844): auto-teste do pcpt.py.
       - name: Engine cedente PCpt (auto-teste do Fi escalonado + FSCE)
         run: python3 engines/tdc/pcpt.py --demo
+
+      # Preço LEGAL (Art. 128 PDE) — GATE do motor art128.py: numerador PCpt×VTcd + referência ÷CAmaxcd
+      # (=4 §1º, via-125; o Cr do receptor cancela → independe do comprador) + §2º IPCA. A PROVA confronta
+      # a equação VERBATIM (mutação-sensível) e roda a identidade EXATA em 3.334 cedentes reais + banda FUNDURB.
+      - name: Engine preço legal Art. 128 (auto-teste + prova em dados reais)
+        run: |
+          python3 engines/tdc/art128.py --demo
+          python3 evals/eval-art128.py
+
+      # IPTU (aberto pelo dono 2026-07-10) — GATE do motor VV × alíquota progressiva por porção
+      # (Lei 6.989/1966 arts. 7/8/27 + 7-A/8-A/28; Lei 10.235/1986 Tabelas IV/VI; faixas Lei 15.889/2013).
+      - name: Engine IPTU (auto-teste ancorado na lei)
+        run: python3 engines/iptu/iptu.py --demo
+      - name: Eval IPTU (âncoras recomputadas + dupla-via + mutação)
+        run: python3 evals/eval-iptu.py
+      # Confronto do VV de terreno contra o lançamento REAL da Prefeitura (3.905 cedentes, IPTU_2026).
+      - name: Eval IPTU oficial (VV terreno × lançamento real)
+        run: python3 evals/eval-iptu-oficial.py
+      # B-5 camada semântica: híbrido (keyword × significado) não regride, offline (vetores commitados).
+      - name: Eval semântico (B-5, híbrido ⊇ keyword)
+        run: python3 evals/eval-semantico.py
 
       # FSCE — GATE do fator Setor Central (Art. 57, Lei 17.844/2022): o engine reproduz EXATO 4 Declarações
       # oficiais do Diário Oficial (PCpt = ATC×CAbás×Fi×FSCE, FSCE=2,0). Explica a divergência Fi≈2,4 (=1,2×2,0).
@@ -107,6 +134,19 @@ jobs:
       # Sabotar um Fi no engine OU um Fi drifted no CSV entregue FALHA aqui (prova em docs/commit T2).
       - name: Produto (golden-assert do Fi sobre cedentes reais)
         run: python3 evals/eval-produto.py
+
+      # M1 produto — GATE do DOSSIÊ 1-página (preço Art. 128 bate o engine + conservação Art. 129 +
+      # checklist citado ao Decreto 57.536 Art. 5º) e do FUNIL de estágios (completude decrescente).
+      - name: Produto M1 (dossiê citado + funil de estágios)
+        run: |
+          python3 zepec/gerar_dossie.py --autoteste
+          python3 zepec/funil.py
+
+      # Fase B (donos em escala, M5) — GATE da cadeia de titularidade sobre FIXTURE SINTÉTICO (sem PII real,
+      # sem o dado pesado): PF direta · PJ→sócio · holding 2 níveis · conflito · documento ausente=PENDENTE.
+      # Fica verde SEM os 5,7 GB; quando o dado chegar, o mesmo eval vira trava de regressão.
+      - name: Fase B (cadeia de titularidade — fixture sintético)
+        run: python3 evals/eval-fase-b.py
 
       # T4 — GATE de conservação (Art. 129): Termo≠Atestado; RES.(tombamento)≠conservação.
       - name: Conservação (Art. 129, 3-estados — Termo→PENDENTE, RES→SEM_ATESTADO)
@@ -130,6 +170,11 @@ jobs:
         run: |
           python3 scripts/carimbar_dominio.py --check
           python3 evals/eval-dominio.py
+
+      # M4 — GATE do inventário de fatores de TDC (tabelas/fatores-tdc.csv): nenhum fator marcado
+      # 'verificado' sem chunk_id real no corpus + eval_id que EXISTE e é rodado por um gate (1.3/1.7).
+      - name: "Inventário de fatores TDC (prova por fator: chunk real + eval gated)"
+        run: python3 scripts/gate_fatores_tdc.py
 
       # Arrumação Drive — GATE: SEED em dia (× de-para), MESTRE reconciliado, loop end-to-end provado,
       # gate por fase (plano/execução).

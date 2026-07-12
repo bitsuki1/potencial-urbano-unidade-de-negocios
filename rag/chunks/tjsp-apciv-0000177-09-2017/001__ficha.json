@@ -1,0 +1,41 @@
+{
+  "chunk_id": "tjsp-apciv-0000177-09-2017::001-ficha",
+  "lei_id": "tjsp-apciv-0000177-09-2017",
+  "tipo_dispositivo": "jurisprudencia",
+  "rotulo": "TJSP 0000177-09.2017.8.26.0053",
+  "numero": "0000177-09.2017.8.26.0053",
+  "header_raw": "TJSP 0000177-09.2017.8.26.0053. Caso irmao do 0000175-39: o tombamento PROVISORIO foi equiparado ao definitivo (art. 10,",
+  "caminho_hierarquico": [
+    "TJSP 0000177-09.2017.8.26.0053"
+  ],
+  "texto": "TJSP 0000177-09.2017.8.26.0053. Caso irmao do 0000175-39: o tombamento PROVISORIO foi equiparado ao definitivo (art. 10, paragrafo unico, do Decreto-lei 25/1937), confirmando a impossibilidade de expedicao da declaracao de potencial construtivo transferivel, com apoio em precedentes do proprio TJSP e do STJ. Temas: tombamento, tombamento-provisorio, vedacao-tdc. Dispositivos relacionados: Decreto-lei no 25/1937, art. 10, paragrafo unico; Lei Municipal SP no 16.050/2014, art. 124, §2o.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "acordao TJSP 0000177-09.2017.8.26.0053",
+    "dispositivo": "9a Camara de Direito Publico",
+    "fonte_url": "TJSP e-SAJ (consulta processual 2o grau) — https://esaj.tjsp.jus.br/cposg/open.do",
+    "vigencia": {
+      "inicio": "2017-10-20",
+      "fim": null,
+      "nota": "acordao (resumo de metadados)"
+    }
+  },
+  "tema": [
+    "tombamento",
+    "tombamento-provisorio",
+    "vedacao-tdc"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "TJSP",
+  "ementa": "Caso irmao do 0000175-39: o tombamento PROVISORIO foi equiparado ao definitivo (art. 10, paragrafo unico, do Decreto-lei 25/1937), confirmando a impossibilidade de expedicao da declaracao de potencial construtivo transferivel, com apoio em precedentes do proprio TJSP e do STJ."
+}

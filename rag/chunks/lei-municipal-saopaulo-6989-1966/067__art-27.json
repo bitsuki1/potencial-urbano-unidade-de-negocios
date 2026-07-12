@@ -1,0 +1,62 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-6989-1966::067-art-27",
+  "lei_id": "lei-municipal-saopaulo-6989-1966",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 27",
+  "numero": "27",
+  "header_raw": "Art. 27 - o imposto calcula-se sobre o valor venal do imóvel à razão de:(Redação dada pela Lei nº 10.394/1987)",
+  "caminho_hierarquico": [
+    "TITULO I",
+    "CAPITULO II",
+    "SEÇÃO II",
+    "Art. 27"
+  ],
+  "texto": "Art. 27 - o imposto calcula-se sobre o valor venal do imóvel à razão de:(Redação dada pela Lei nº 10.394/1987)\n\nClasses de VVI em UFM ------Alíquotas\n\nAté 30--------------------------------2,4%\n\nAcima de 30 até 100--------------3,0%\n\nAcima de 100 até 200-------------3,6%\n\nAcima de 200 até 500 ------------ 4,2%\n\nAcima de 500 até 1500------------5,0%\n\nAcima de 1500 até 3000 ----------6,0%\n\nAcima 3000 -----------------------7,0%\n\n§ 1º o Imposto é calculado em cada classe sobre a porção de valor venal do imóvel em UFM, compreendida nos respectivos limites.(Incluído pela Lei nº 10.394/1987)\n\n§ 2º O imposto progressivo é a soma das parcelas correspondentes a cada classe.(Incluído pela Lei nº 10.394/1987)\n\nArtigo 27 - O imposto calcula-se sobre o valor venal do imóvel, a razão de:(Redação dada pela Lei nº 10.805/1989)\n\nAlíquotas (%)---------------------Classes de VVI em UFM\n\n0,40%------------------------------ -até 50\n\n0,60%------------------------------ -Acima de 50 até 100\n\n1,00%------------------------------ -Acima de 100 até 200\n\n1,40%------------------------------ -Acima de 200 até 300\n\n1,60%------------------------------ -Acima de 300 até 600\n\n1,90%------------------------------ -Acima de 600 até 1500\n\n3,00%------------------------------ -Acima de 1500 até 4500\n\n4,00%------------------------------ -Acima de 4600 até 9000\n\n5,00%------------------------------ -Acima de 9000\n\n§ 1º - O imposto é calculado sobre a porção do valor venal do imóvel compreendida em cada uma das faixas estabelecidas em Unidades de Valor Fiscal do Município de São Paulo - UFM, mediante a aplicação da alíquota correspondente.(Redação dada pela Lei nº 10.805/1989)\n\n§ 2º - O valor do imposto é determinado pela soma dos valores apurados na conformidade deste artigo.(Redação dada pela Lei nº 10.805/1989)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "1987",
+    "norma_redacao": "Lei nº 10.394/1987"
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 6.989/1966 — São Paulo/SP",
+    "dispositivo": "TITULO I › CAPITULO II › SEÇÃO II › Art. 27",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-6989-de-29-de-dezembro-de-1966",
+    "vigencia": {
+      "inicio": "1967-01-01",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 10.394/1987",
+        "Lei 10.805/1989",
+        "Lei 10.921/1990",
+        "Lei 11.152/1991",
+        "Lei 11.334/1992",
+        "Lei 12.782/1998",
+        "Lei 13.250/2001",
+        "Lei 15.889/2013"
+      ],
+      "obs": "texto COMPILADO do portal oficial, com anotações de alteração por dispositivo; lista alterada_por = anotações verificadas no texto (não exaustiva)"
+    }
+  },
+  "tema": [
+    "sistema_tributario_municipal",
+    "imposto_predial",
+    "imposto_territorial_urbano",
+    "valor_venal",
+    "aliquota_progressiva",
+    "fato_gerador",
+    "isencao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o sistema tributário do Município e da outras providências."
+}

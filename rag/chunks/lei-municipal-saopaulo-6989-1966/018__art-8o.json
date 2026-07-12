@@ -1,0 +1,62 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-6989-1966::018-art-8o",
+  "lei_id": "lei-municipal-saopaulo-6989-1966",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 8º",
+  "numero": "8",
+  "header_raw": "Art. 8º - Determina-se o valor venal em função dos seguintes elementos, tomados em conjunto ou separadamente:(Revogado pela Lei nº 10.235/1986)",
+  "caminho_hierarquico": [
+    "TITULO I",
+    "CAPITULO I",
+    "SEÇÃO II",
+    "Art. 8º"
+  ],
+  "texto": "Art. 8º - Determina-se o valor venal em função dos seguintes elementos, tomados em conjunto ou separadamente:(Revogado pela Lei nº 10.235/1986)\n\nI – declaração do contribuinte, desde que aceita pelo Fisco;\n\nII – preços correntes das transações do mercado imobiliário;\n\nIII – custos de reprodução;\n\nIV – decisões judiciais passadas em julgado, em ações renovatórias de locações ou revisionais de alugueis;\n\nV IV – locações correntes;(Redação dada pela Lei nº 7.228/1968)\n\nVI V – localização e características do imóvel;(Redação dada pela Lei nº 7.228/1968)\n\nVII VI – outros dados informativos tecnicamente reconhecidos.(Redação dada pela Lei nº 7.228/1968)\n\n§ 1º - Na determinação do valor venal não se consideram:\n\nI – o dos bens moveis mantidos, em caráter permanente ou temporário, no imóvel, para efeito de sua utilização, exploração, aformoseamento ou comodidade;\n\nII – as vinculações restritivas do direito de propriedade e o estado de comunhão.\n\n§ 2º - O valor venal determinado na forma deste artigo não poderá ser inferior:\n\nI – ao décuplo do aluguel efetivo anual;\n\nII – ao preço decorrente do valor unitário fixado para efeito de desapropriação amigável ou judicial, proporcionalmente à parte expropriada e à parte remanescente do imóvel.\n\n§ 2º O valor venal determinado na forma deste artigo não poderá ser inferior ao preço decorrente do valor unitário fixado para efeito de desapropriação amigável ou judicial, proporcionalmente à parte expropriada e à parte remanescente do imóvel.(Redação dada pela Lei nº 7.228/1968)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "1968",
+    "norma_redacao": "Lei nº 7.228/1968"
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 6.989/1966 — São Paulo/SP",
+    "dispositivo": "TITULO I › CAPITULO I › SEÇÃO II › Art. 8º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-6989-de-29-de-dezembro-de-1966",
+    "vigencia": {
+      "inicio": "1967-01-01",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 10.394/1987",
+        "Lei 10.805/1989",
+        "Lei 10.921/1990",
+        "Lei 11.152/1991",
+        "Lei 11.334/1992",
+        "Lei 12.782/1998",
+        "Lei 13.250/2001",
+        "Lei 15.889/2013"
+      ],
+      "obs": "texto COMPILADO do portal oficial, com anotações de alteração por dispositivo; lista alterada_por = anotações verificadas no texto (não exaustiva)"
+    }
+  },
+  "tema": [
+    "sistema_tributario_municipal",
+    "imposto_predial",
+    "imposto_territorial_urbano",
+    "valor_venal",
+    "aliquota_progressiva",
+    "fato_gerador",
+    "isencao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o sistema tributário do Município e da outras providências."
+}

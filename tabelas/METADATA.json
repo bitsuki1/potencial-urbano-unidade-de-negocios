@@ -42,14 +42,39 @@
       "nota": "Alíquotas IPTU progressivas por faixa de valor venal (15 faixas)."
     },
     "iptu-valor-construcao-m2.csv": {
-      "data_base": "2013-12-20",
-      "fonte_legal": "Lei Municipal SP 15.889/2013, Anexo I (Tabela VI)",
-      "nota": "Valor de construção por m² (tipo/padrão). Atualizada pela Lei 15.044/2009."
+      "data_base": "2026-01-01",
+      "fonte_legal": "Lei Municipal SP 18.330/2025, Anexo I (Tabela VI) — valores do EXERCICIO 2026 (substitui a Tabela VI da Lei 10.235/1986)",
+      "nota": "ATUALIZADA 2026-07-11: Tabela VI 2026 completa (31 linhas, Tipos 1-6 x Padroes A-F), documento oficial SEI 6017.2025/0050831-1 capturado pelo dono. Substituiu os valores de 2013 (~3x menores). CONFRONTO: o valor do m2 de construcao agora REPRODUZ o lancamento real 2026 (eval-iptu-oficial: casa 3861, difere 0). A formula (Art. 11) segue red. Lei 15.889/2013."
     },
     "quadro6-fator-planejamento-fp.csv": {
       "data_base": "2014-07-31",
       "fonte_legal": "PDE Lei 16.050/2014, Quadro 6 (Anexo)",
       "nota": "Fator de planejamento (Fp) por macroárea/uso. Lido por engines/tdc/fp.py."
+    },
+    "iptu-aliquota-base.csv": {
+      "data_base": "2001-12-27",
+      "fonte_legal": "Lei 6.989/1966 arts. 7/8/27, redacao da Lei 13.250/2001 (texto compilado, portal oficial)",
+      "nota": "Aliquotas-BASE do IPTU (1,0% resid.; 1,5% nao-resid.; 1,5% territorial). O ajuste por faixa vive em iptu-aliquotas-faixa.csv."
+    },
+    "iptu-fator-obsolescencia.csv": {
+      "data_base": "1991-12-30",
+      "fonte_legal": "Lei 10.235/1986, Tabela IV (redacao da Lei 11.152/1991) c/c Arts. 11 e 16",
+      "nota": "CORRIGIDA 2026-07-10: reconstruida ANO A ANO (idades 0..60) com DUAS colunas (Tipos 1-2 Padroes A/B | demais), piso 0,20 — captura verbatim do dono. Antes era aproximacao grosseira por faixas de 5 anos (piso 0,30, 1 coluna), ERRADA. A Lei 18.330/2025 NAO alterou a Tabela IV (segue vigente em 2026). Bate 92% do fator real da Prefeitura 2026 (eval-iptu-oficial)."
+    },
+    "iptu-fatores-terreno.csv": {
+      "data_base": "1991-12-30",
+      "fonte_legal": "Lei 10.235/1986, Tabelas II e III na redacao da Lei 11.152/1991 (+ item ZER pela 15.889/2013)",
+      "nota": "Esquina (Art. 7) e diversos (Art. 8: encravado/fundo/interno). Tabela I (profundidade) NAO extraida - lookup longo; engine recebe o fator (pendencia declarada)."
+    },
+    "ipca-numero-indice-ibge.csv": {
+      "data_base": "2026-06-01",
+      "fonte_legal": "IBGE/SIDRA tabela 1737 (IPCA numero-indice, base dez/1993=100) — insumo da correcao do Art. 128 §2º (PDE)",
+      "nota": "Serie mensal jan/2014 a jun/2026 (ultimo divulgado em 10/07/2026). Capturada via API do SIDRA pelo dono. Lida por engines/tdc/art128.py (fator = indice[mes antes do protocolo] / indice[mes de referencia])."
+    },
+    "fatores-tdc.csv": {
+      "data_base": "2026-07-10",
+      "fonte_legal": "INVENTARIO derivado dos fatores de TDC (nao e tabela de lei; aponta a fonte de cada fator)",
+      "nota": "Inventario versionado dos fatores de TDC + proveniencia (dispositivo, tabela-fonte, chunk, eval). Governado pela trava scripts/gate_fatores_tdc.py: nenhum 'verificado' sem chunk real + eval gated. data_base = data de construcao do inventario."
     }
   }
 }

@@ -1,0 +1,33 @@
+{
+  "chunk_id": "stj-sumula-399::001-ficha",
+  "lei_id": "stj-sumula-399",
+  "tipo_dispositivo": "jurisprudencia",
+  "rotulo": "STJ 399",
+  "numero": "399",
+  "header_raw": "STJ 399. Cabe à legislação municipal estabelecer o sujeito passivo do IPTU. Dispositivos relacionados: CTN art. 34.",
+  "caminho_hierarquico": [
+    "STJ 399"
+  ],
+  "texto": "STJ 399. Cabe à legislação municipal estabelecer o sujeito passivo do IPTU. Dispositivos relacionados: CTN art. 34.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "vigente (Primeira Seção, j. 23/09/2009, DJe 07/10/2009)",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "sumula STJ 399",
+    "dispositivo": "STJ 399",
+    "fonte_url": "https://www.stj.jus.br/docs_internet/revista/eletronica/stj-revista-sumulas-2013_37_capSumula399.pdf",
+    "vigencia": {}
+  },
+  "tema": [],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "STJ",
+  "ementa": "Cabe à legislação municipal estabelecer o sujeito passivo do IPTU."
+}

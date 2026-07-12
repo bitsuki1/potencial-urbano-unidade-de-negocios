@@ -1,0 +1,41 @@
+{
+  "chunk_id": "stf-re-226942-sc::001-ficha",
+  "lei_id": "stf-re-226942-sc",
+  "tipo_dispositivo": "jurisprudencia",
+  "rotulo": "STF RE 226.942/SC",
+  "numero": "RE 226.942/SC",
+  "header_raw": "STF RE 226.942/SC. Mesma lei de Florianopolis: reafirma que a 'parcela do solo criado' NAO E TRIBUTO, mas compensacao fi",
+  "caminho_hierarquico": [
+    "STF RE 226.942/SC"
+  ],
+  "texto": "STF RE 226.942/SC. Mesma lei de Florianopolis: reafirma que a 'parcela do solo criado' NAO E TRIBUTO, mas compensacao financeira pela sobrecarga urbana decorrente da construcao acima do limite. Recurso desprovido. DJe 15/05/2009. Temas: solo-criado, outorga-onerosa, nao-tributo. Dispositivos relacionados: CF/1988, art. 182.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "acordao STF RE 226.942/SC",
+    "dispositivo": "1a Turma",
+    "fonte_url": "STF — https://portal.stf.jus.br/jurisprudencia/ (pesquisa de jurisprudencia)",
+    "vigencia": {
+      "inicio": "2008-10-21",
+      "fim": null,
+      "nota": "acordao (resumo de metadados)"
+    }
+  },
+  "tema": [
+    "solo-criado",
+    "outorga-onerosa",
+    "nao-tributo"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "STF",
+  "ementa": "Mesma lei de Florianopolis: reafirma que a 'parcela do solo criado' NAO E TRIBUTO, mas compensacao financeira pela sobrecarga urbana decorrente da construcao acima do limite. Recurso desprovido. DJe 15/05/2009."
+}

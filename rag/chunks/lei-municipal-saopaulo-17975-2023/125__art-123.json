@@ -4,12 +4,12 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 123",
   "numero": "123",
-  "header_raw": "Art. 123. Os quadros e mapas da Lei nº 16.050, de 2014, ficam substituídos pelos integrantes desta",
+  "header_raw": "Art. 123. Os quadros e mapas da Lei nº 16.050, de 2014, ficam substituídos pelos integrantes desta Lei, na seguinte conformidade:",
   "caminho_hierarquico": [
     "CAPÍTULO XII",
     "Art. 123"
   ],
-  "texto": "Art. 123. Os quadros e mapas da Lei nº 16.050, de 2014, ficam substituídos pelos integrantes desta\n\nLei, na seguinte conformidade:\n\nI - o Quadro 5 pelo quadro constante do Anexo I desta Lei;\n\nII - o Quadro 7 pelo quadro constante do Anexo II desta Lei;\n\nIII - o Mapa 5 pelo mapa constante do Anexo III desta Lei;\n\nIV - o Mapa 8 pelo mapa constante do Anexo IV desta Lei;\n\nV - o Mapa 9 pelo mapa constante do Anexo V desta Lei.",
+  "texto": "Art. 123. Os quadros e mapas da Lei nº 16.050, de 2014, ficam substituídos pelos integrantes desta Lei, na seguinte conformidade:\n\nI - o Quadro 5 pelo quadro constante do Anexo I desta Lei;\n\nII - o Quadro 7 pelo quadro constante do Anexo II desta Lei;\n\nIII - o Mapa 5 pelo mapa constante do Anexo III desta Lei;\n\nIV - o Mapa 8 pelo mapa constante do Anexo IV desta Lei;\n\nV - o Mapa 9 pelo mapa constante do Anexo V desta Lei.",
   "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
@@ -21,7 +21,7 @@
   "citacao": {
     "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
     "dispositivo": "CAPÍTULO XII › Art. 123",
-    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17975-de-8-de-julho-de-2023",
     "vigencia": {
       "inicio": "2023-07-08",
       "fim": null,

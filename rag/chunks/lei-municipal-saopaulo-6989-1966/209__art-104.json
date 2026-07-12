@@ -1,0 +1,60 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-6989-1966::209-art-104",
+  "lei_id": "lei-municipal-saopaulo-6989-1966",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 104",
+  "numero": "104",
+  "header_raw": "Art. 104 - Para efeito da verificação do custo do serviço, a Prefeitura, tendo em vista as características e conveniências do serviço e da tributação, fixará a seu critério, trechos típicos e completos das vias e logradouros a serem pavimentados, assim consideradas as extensões limitadas por secções transversais da mesma via ou logradouro, as quais, em regra, não deverão ser menores que um quarteirão.(Revogado pela Lei nº 8.505/1976)",
+  "caminho_hierarquico": [
+    "TITULO II",
+    "CAPITULO III",
+    "SEÇÃO II",
+    "Art. 104"
+  ],
+  "texto": "Art. 104 - Para efeito da verificação do custo do serviço, a Prefeitura, tendo em vista as características e conveniências do serviço e da tributação, fixará a seu critério, trechos típicos e completos das vias e logradouros a serem pavimentados, assim consideradas as extensões limitadas por secções transversais da mesma via ou logradouro, as quais, em regra, não deverão ser menores que um quarteirão.(Revogado pela Lei nº 8.505/1976)\n\nParágrafo único - O custo da área de cruzamento das vias a serem simultaneamente pavimentadas será computado no custo de cada uma delas, na proporção da respectiva largura local.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 6.989/1966 — São Paulo/SP",
+    "dispositivo": "TITULO II › CAPITULO III › SEÇÃO II › Art. 104",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-6989-de-29-de-dezembro-de-1966",
+    "vigencia": {
+      "inicio": "1967-01-01",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 10.394/1987",
+        "Lei 10.805/1989",
+        "Lei 10.921/1990",
+        "Lei 11.152/1991",
+        "Lei 11.334/1992",
+        "Lei 12.782/1998",
+        "Lei 13.250/2001",
+        "Lei 15.889/2013"
+      ],
+      "obs": "texto COMPILADO do portal oficial, com anotações de alteração por dispositivo; lista alterada_por = anotações verificadas no texto (não exaustiva)"
+    }
+  },
+  "tema": [
+    "sistema_tributario_municipal",
+    "imposto_predial",
+    "imposto_territorial_urbano",
+    "valor_venal",
+    "aliquota_progressiva",
+    "fato_gerador",
+    "isencao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o sistema tributário do Município e da outras providências."
+}

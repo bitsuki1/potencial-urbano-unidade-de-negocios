@@ -1,0 +1,33 @@
+{
+  "chunk_id": "stj-sumula-614::001-ficha",
+  "lei_id": "stj-sumula-614",
+  "tipo_dispositivo": "jurisprudencia",
+  "rotulo": "STJ 614",
+  "numero": "614",
+  "header_raw": "STJ 614. O locatário não possui legitimidade ativa para discutir a relação jurídico-tributária de IPTU e de taxas refere",
+  "caminho_hierarquico": [
+    "STJ 614"
+  ],
+  "texto": "STJ 614. O locatário não possui legitimidade ativa para discutir a relação jurídico-tributária de IPTU e de taxas referentes ao imóvel alugado nem para repetir indébito desses tributos. Dispositivos relacionados: CTN art. 34; CTN art. 121; CTN art. 123; CTN art. 165.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "vigente (Primeira Seção, j. 09/05/2018, DJe 14/05/2018)",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "sumula STJ 614",
+    "dispositivo": "STJ 614",
+    "fonte_url": "https://scon.stj.jus.br/SCON/sumstj/doc.jsp?livre=%22614%22.num.&b=SUMU",
+    "vigencia": {}
+  },
+  "tema": [],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "STJ",
+  "ementa": "O locatário não possui legitimidade ativa para discutir a relação jurídico-tributária de IPTU e de taxas referentes ao imóvel alugado nem para repetir indébito desses tributos."
+}

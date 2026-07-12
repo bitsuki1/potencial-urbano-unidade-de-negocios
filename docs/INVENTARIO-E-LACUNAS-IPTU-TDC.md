@@ -432,3 +432,19 @@ duplicatas com sufixo `(1)(2)` e `- Copia`, logs de extração. `documento_final
 >     INs SF/SUREM 2, 10, 14 (normas administrativas — úteis p/ base de cálculo IPTU).
 > - **Dos 15 stubs municipais, só a 11.152/1991 tem PDF confirmado no despejo.** Os outros 14 seguem
 >   dependendo de captura (Lotes 2). A 6.989/66 (institui o IPTU) **não foi vista** no despejo — buscar.
+
+---
+
+## WANT-LIST DO GARIMPO M6 (lente de oportunidade) — 2026-07-11
+
+> Referências que o estudo M6 provou que **precisamos buscar** para converter oportunidade em condição melhor
+> (preço/tese). Cada item aponta a oportunidade que destrava (ver `docs/OPORTUNIDADES-M6-TDC-IPTU.md`).
+
+| Referência a buscar | Para quê (oportunidade) | Onde procurar | Prioridade |
+|---|---|---|---|
+| **`Atualizacao_Q14_anoref2026.csv`** (Quadro 14 exercício 2026) | **OP-1a**: aplicar +7,18% (Dec. 64.884/2025 + Portaria SMUL 8/2026) -> sobe o preco legal de todo cedente | SMUL/Storage (mesma fonte do recorte 2025, `zepec/pipeline/recorte_q14.py`) ou portal SMUL | **ALTA** |
+| **Lei 17.975/2023** (texto) | **OP-1b**: o que alterou no Quadro 14 da Lei 16.050/2014 - base da tese "VTcd maximo rastreavel" | `legislacao.prefeitura.sp.gov.br` (`scripts/capturar_lei_portal.py`) | ALTA |
+| **Resolucao CONPRESP 01/2025 e 03/2025** (SQLs arquivados) | **OP-2**: confirmar os 26 falso-positivos (quadra 013.036) e demais | Drive id `12UzO_2amXtVKmMm1gX_X82nLywiqWj0N` (01/2025) + DOC | ALTA |
+| **Anexo I da Portaria SMUL 8/2025** (Doc. 117650623, 3.097 pag.) | valores nominais R$/m2 por face - so se o recorte exato do VTcd 2025 precisar de reconciliacao | Portal SMUL / DOC | MEDIA |
+| **Lei 18.222/2024** (AIU-ACP / Arco Pinheiros) | **OP-5**: faixa/coeficiente de outorga super-tier no recorte | `legislacao.prefeitura.sp.gov.br` | MEDIA |
+| Rito fiscal **CADIN/CND** no protocolo de TDC/OODC | **OP-6**: antecipar o portao fiscal (janela/opcao) | normas SF/SUREM + rito SMUL | BAIXA |

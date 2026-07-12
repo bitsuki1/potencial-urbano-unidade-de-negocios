@@ -1,0 +1,50 @@
+{
+  "chunk_id": "decreto-saopaulo-58289-2018::013-art-12",
+  "lei_id": "decreto-saopaulo-58289-2018",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 12",
+  "numero": "12",
+  "header_raw": "Art. 12. Nos casos de desapropriação necessária à implantação de melhoramentos viários relacionados ao sistema de transporte coletivo, as áreas remanescentes indenizadas com potencial construtivo passível de transferência e não utilizadas para as obras de melhoramento deverão ser prioritariamente destinadas à instalação de Habitação de Interesse Social ou Empreendimento de Habitação de Interesse Social.",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção II",
+    "Art. 12"
+  ],
+  "texto": "Art. 12. Nos casos de desapropriação necessária à implantação de melhoramentos viários relacionados ao sistema de transporte coletivo, as áreas remanescentes indenizadas com potencial construtivo passível de transferência e não utilizadas para as obras de melhoramento deverão ser prioritariamente destinadas à instalação de Habitação de Interesse Social ou Empreendimento de Habitação de Interesse Social.\n\n§ 1º Na impossibilidade da destinação prevista no “caput” deste artigo, as áreas remanescentes poderão ser destinadas à instalação de equipamentos sociais ou de infraestrutura ou praças.\n\n§ 2º Na impossibilidade da destinação prevista no § 1º deste artigo, as áreas remanescentes poderão ser alienadas pela Prefeitura do Município de São Paulo, nos termos da legislação vigente, até que seja elaborado o Plano de Gestão de Áreas Públicas do Município.\n\nSubseção II\n\nImóveis Localizados nas Áreas de Influência dos Eixos de Estruturação da Transformação Urbana",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto municipal nº 58.289/2018 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção II › Art. 12",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-58289-de-26-de-junho-de-2018",
+    "vigencia": {
+      "inicio": "2018-06-26",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [],
+      "revoga": [
+        "Decreto 57.535/2016"
+      ]
+    }
+  },
+  "tema": [
+    "transferencia_do_direito_de_construir",
+    "doacao_de_imovel",
+    "potencial_construtivo",
+    "desapropriacao_amigavel",
+    "declaracao_de_potencial_construtivo"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Confere nova regulamentação à Transferência do Direito de Construir com Doação de Imóvel, nos termos dos artigos 123, 126, 127, 128, 130 e 131 da Lei nº 16.050, de 31 de julho de 2014 – Plano Diretor Estratégico – PDE; revoga o Decreto nº 57.535, de 15 de dezembro de 2016."
+}

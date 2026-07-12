@@ -44,6 +44,10 @@ def regime_pcpt(r):
                                                     lícito de uma futura declaração."""
     v = lambda k: (r.get(k) or "").strip().lower() in ("sim", "true", "1")
     if v("tem_declaracao") or v("tem_certidao"):
+        # L3 (2026-07-10): se o Fi da Declaração está na base (fi_declarado), o PCpt é FIRME (o valor
+        # declarado, Art. 125 §1º I) — não a estimativa. Sem ele, segue PENDENTE (falta o dado da Declaração).
+        if (r.get("fi_declarado") or "").strip():
+            return "JA_DECLARADO", "DECLARADO_FIRME"
         return "JA_DECLARADO", "PENDENTE_FI_DECLARADO"
     return "PROSPECCAO_NOVA", "ESTIMATIVA_PROSPECCAO_ART24"
 
@@ -62,6 +66,10 @@ def _autoteste_regime():
     # a garantia central do T3: quem TEM declaração/certidão nunca recebe a marca de estimativa-de-prospecção
     for r in ({"tem_declaracao": "sim"}, {"tem_certidao": "sim"}):
         assert regime_pcpt(r)[1] != "ESTIMATIVA_PROSPECCAO_ART24", f"regime: {r} já-declarado != estimativa-prospecção"
+    # L3 (2026-07-10): já-declarado COM o Fi da Declaração na base → PCpt FIRME (usa o declarado, Art.125 §1º I);
+    # SEM ele, segue PENDENTE. Prova o mecanismo de redação-datada (pronto p/ quando o fi_declarado subir).
+    assert regime_pcpt({"tem_declaracao": "sim", "fi_declarado": "1.4"}) == ("JA_DECLARADO", "DECLARADO_FIRME")
+    assert regime_pcpt({"tem_declaracao": "sim"}) == ("JA_DECLARADO", "PENDENTE_FI_DECLARADO")
     return True
 
 
@@ -69,15 +77,29 @@ def _autoteste_regime():
 # Motor Fórmulas — cálculo PURO do PCpt (princípio 1.1: fórmula é engine).
 # Número nasce no engine (1.3); cita Art. 24 I–VII LPUOS (escalonado) e Art. 125 §1º I PDE.
 # ---------------------------------------------------------------------------
-def _calcular_pcpt(r, atc, cabas, pend, n):
+def _calcular_pcpt(r, atc, cabas, pend, n, setor_central=False):
     """Calcula PCpt (m²) e saldo líquido via ENGINE. Devolve o saldo (Decimal) ou None se falhar.
     Correções do loop de melhoria (2026-07-02):
       (a) Fi ESCALONADO pela área do lote (LPUOS Art. 24 I–VII) — resolvido no engine;
       (b) SALDO líquido: abate o m² JÁ TRANSFERIDO (certidões) do PCpt;
-      (d) parcelamento Art. 124 §3º (>50.000 m² → 10 parcelas) EXPOSTO na saída."""
+      (d) parcelamento Art. 124 §3º (>50.000 m² → 10 parcelas) EXPOSTO na saída.
+    setor_central (2026-07-10, ativação FSCE): pertinência à AIU-SCE é ENTRADA geográfica
+      ('1' da camada perímetro AIU-SCE, GeoSampa) — o teto de terreno ≤1.000 m² do Art. 57
+      é resolvido DENTRO do engine (1.3)."""
     try:
-        e = ENGINE.pcpt_sem_doacao(atc, cabas)
+        # L3 (2026-07-10): já-declarado COM Fi da Declaração usa o valor DECLARADO (Art. 125 §1º I),
+        # não o escalonado (Art. 24 caput = estimador de NOVAS declarações). Redação datada: a Declaração
+        # fixa o Fi vigente na sua data de referência. Sem fi_declarado na base, mantém o escalonado (no-op).
+        fi_dec = _num(r.get("fi_declarado"))
+        ja_declarado = (r.get("tem_declaracao") or "").strip().lower() in ("sim", "true", "1") \
+            or (r.get("tem_certidao") or "").strip().lower() in ("sim", "true", "1")
+        if fi_dec and ja_declarado:
+            e = ENGINE.pcpt_sem_doacao(atc, cabas, fi=fi_dec, setor_central=setor_central)
+        else:
+            e = ENGINE.pcpt_sem_doacao(atc, cabas, setor_central=setor_central)
         r["pcpt_m2"] = str(e["valor_m2"]); r["fi_aplicado"] = e.get("fi", "")
+        if e.get("fsce") not in (None, "", "1"):
+            r["fsce_aplicado"] = e["fsce"]; n["fsce"] += 1
         r["memoria_calculo"] = e["memoria_calculo"]; n["pcpt"] += 1
         if int(e.get("parcelas_anuais") or 0) > 0:
             r["parcelas_anuais"] = str(e["parcelas_anuais"])
@@ -116,9 +138,13 @@ def _precificar(r, saldo, vendido_bloqueado, pend, n):
 
 def main():
     iptu = {r["sql_mestre"]: r for r in csv.DictReader(open(AQUI / "oficial/iptu2026_cedentes.csv", encoding="utf-8"))}
+    # VTcd vigente = Quadro 14 ano-ref 2026 (Dec. 64.884/2025, +7,18% uniforme sobre o ano-ref 2025
+    # oficial — gerado por pipeline/reajuste_q14_2026.py; base legal no docstring desse gerador).
+    # Supersede o ano-ref 2025 (Dec. 63.999/2024) a partir do exercício 2026 (1.6 vigência). O arquivo
+    # oficial/q14_cedentes_2025.csv fica no repo para auditoria da vigência anterior.
     q14 = {(r["sq"], norm_codlog(r["codlog"])): r["valor_m2_brl"]
-           for r in csv.DictReader(open(AQUI / "oficial/q14_cedentes_2025.csv", encoding="utf-8"))}
-    # G4 — Decreto 57.536/2016 Art. 8 IV: lotes com frente para distintas faces da mesma quadra
+           for r in csv.DictReader(open(AQUI / "oficial/q14_cedentes_2026.csv", encoding="utf-8"))}
+    # G4 — Decreto 57.536/2016 Art. 3º IV: lotes com frente para distintas faces da mesma quadra
     # usam o MAIOR valor do Q14. Agrupa por SQ para calcular max.
     q14_por_sq = defaultdict(list)
     for (sq, codlog), val in q14.items():
@@ -127,16 +153,16 @@ def main():
     zona = {r["sql_mestre"]: r for r in csv.DictReader(open(AQUI / "oficial/zona_por_cedente.csv", encoding="utf-8"))}
 
     rows = list(csv.DictReader(open(AQUI / "ferramenta/zepec_cedentes.csv", encoding="utf-8")))
-    extras = ["area_terreno_m2", "area_construida_m2", "v_venal_m2_iptu", "v_outorga_m2_q14",
+    extras = ["area_terreno_m2", "area_construida_m2", "valor_m2_terreno_iptu", "v_outorga_m2_q14",
               "v_outorga_max_q14",
-              "zona", "ca_basico", "fi_aplicado", "pcpt_m2", "saldo_pcpt_m2", "parcelas_anuais",
+              "zona", "ca_basico", "fi_aplicado", "fsce_aplicado", "pcpt_m2", "saldo_pcpt_m2", "parcelas_anuais",
               "preco_proxy_brl", "uso_iptu", "cobertura_oficial", "memoria_calculo", "pendencia_calculo",
               # T3 — regime do PCpt: separa já-declarado (Art.125 §1º I) de prospecção nova (Art.24 caput).
               "regime_pcpt", "qualidade_estimativa"]
     campos = list(rows[0].keys()) + extras
 
     n = {"atc": 0, "v": 0, "zona": 0, "cabas": 0, "pcpt": 0, "saldo": 0, "preco": 0,
-         "multi_face": 0, "vedado": 0}
+         "multi_face": 0, "vedado": 0, "fsce": 0}
     out = AQUI / "ferramenta/zepec_cedentes_oficial.csv"
     enr = []
     for r in rows:
@@ -145,20 +171,33 @@ def main():
         cob, pend = [], []
         i, z = iptu.get(sql), zona.get(sql)
 
+        # OP-2 (garimpo M6): CONPRESP Res. 01/CONPRESP/2025 (27/01/2025) ARQUIVOU a abertura de processo
+        # de tombamento (APT) de PARTE da Mancha Heterogênea "Benedito Calixto (I)" (Anexo II da Res.
+        # 11/CONPRESP/2023), mas MANTEVE os elementos 1I, 2I, 4I, 10I e 11I. Logo os 26 cedentes desta
+        # quadra (013.036) precisam de REVISÃO: os arquivados viram falso-positivo (APT arquivada não
+        # gera TDC por tombamento); os mantidos seguem válidos. Sinal honesto (NÃO remove) — falta o mapa
+        # elemento-ID -> SQL para dizer QUAIS (want-list M6). Fonte: legislacao.prefeitura.sp.gov.br.
+        if sql.startswith("013036"):
+            pend.append("REVISAR TOMBAMENTO — CONPRESP Res. 01/2025 (27/01/2025) arquivou PARTE da Mancha "
+                        "Benedito Calixto (I); manteve 1I/2I/4I/10I/11I. Confirmar se este SQL foi arquivado "
+                        "(falso-positivo) ou mantido antes de prospectar (precisa do mapa elemento->SQL)")
+
         atc = _num(i["area_terreno"]) if i else ""
         if i:
             r["area_terreno_m2"] = i["area_terreno"]; r["area_construida_m2"] = i["area_construida"]
-            r["v_venal_m2_iptu"] = i["v_venal_m2"]; r["uso_iptu"] = i["uso"]; cob.append("IPTU2026"); n["atc"] += 1
+            # CORREÇÃO 2026-07-10: a coluna 17 do IPTU_2026 é VALOR DO M2 DO TERRENO, não valor venal
+            # (bug de rótulo do extrator antigo, provado 3905/3905 contra o cabeçalho oficial do arquivo).
+            r["valor_m2_terreno_iptu"] = i["valor_m2_terreno"]; r["uso_iptu"] = i["uso"]; cob.append("IPTU2026"); n["atc"] += 1
             sq6 = sql[:6]
             v = q14.get((sq6, norm_codlog(i.get("codlog"))))
             if v: r["v_outorga_m2_q14"] = v; cob.append("Q14"); n["v"] += 1
-            # G4 — Decreto 57.536/2016 Art. 8 IV: MAX do Q14 por quadra (todas as faces).
+            # G4 — Decreto 57.536/2016 Art. 3º IV: MAX do Q14 por quadra (todas as faces).
             vmax = q14_max.get(sq6)
             if vmax is not None:
                 r["v_outorga_max_q14"] = str(vmax)
                 if v and Decimal(v) < vmax:
                     n["multi_face"] += 1
-                    pend.append(f"Decreto 57.536/2016 Art. 8 IV: se lote tem frente p/ distintas faces, "
+                    pend.append(f"Decreto 57.536/2016 Art. 3º IV: se lote tem frente p/ distintas faces, "
                                 f"V=MAX(Q14)=R${vmax}/m² (face atual: R${v}/m²)")
         else:
             pend.append("Atc: SQL sem cadastro no IPTU")
@@ -184,7 +223,26 @@ def main():
                         "(potencial é intransferível; Lei 16.050/2014)")
             n["vedado"] += 1
         elif atc and cabas:
-            saldo = _calcular_pcpt(r, atc, cabas, pend, n)
+            # FSCE (Art. 57, Lei 17.844/2022): ZEPEC-BIR dentro da AIU-SCE (Setor Central).
+            # Pertinência é ENTRADA geográfica ('1'/'0'/'?' da camada perímetro AIU-SCE via
+            # GeoSampa, propagada por preencher_cabas_do_wfs.py ao zona_por_cedente.csv).
+            # Fail-closed: só '1' liga o FSCE; '?'/vazio em BIR vira pendência declarada.
+            # CAVEAT DE PROVENIÊNCIA (lente 2026-07-10): na_aiu_sce hoje vem das camadas GeoSampa
+            # `perimetro_aiu` (núcleo) + `requalifica_centro_perimetro_geral` (proxy), NÃO do Mapa 2
+            # oficial dos "perímetros EXPANDIDOS" do Art. 57. Risco: BIR≤1.000 m² num perímetro
+            # expandido fora do núcleo pode sair '0' → FSCE omitido (subavaliação de 50%). Pendência
+            # declarada: obter os 2 polígonos expandidos do Mapa 2 (Lei 17.844) e uni-los à camada.
+            bir = "BIR" in (r.get("tipo_zepec") or "")
+            sce = ((z.get("na_aiu_sce") or "").strip() if z else "")
+            saldo = _calcular_pcpt(r, atc, cabas, pend, n, setor_central=(bir and sce == "1"))
+            if bir and sce not in ("1", "0"):
+                pend.append("FSCE (Art.57 Lei 17.844/2022): pertinência à AIU-SCE PENDENTE "
+                            "(coleta GeoSampa) — PCpt calculado SEM FSCE")
+            elif bir and sce == "1" and Decimal(str(atc)) > Decimal("1000"):
+                # rastro do teto (lente 2026-07-10): número certo (engine não aplica o FSCE),
+                # mas a linha ficava MUDA sobre o porquê — persiste a razão legal.
+                pend.append("Art. 57 Lei 17.844/2022: imóvel NA AIU-SCE porém terreno > 1.000 m² "
+                            "— FSCE NÃO aplicável (teto do Art. 57); PCpt sem o fator")
             if saldo is not None:
                 _precificar(r, saldo, vendido_bloqueado, pend, n)
 
@@ -239,7 +297,8 @@ def main():
     print(f"enriquecer_oficial (H1.4): {tot} cedentes -> {out.name}")
     for k, lbl in [("atc", "Atc (área)"), ("v", "V outorga (Q14)"), ("multi_face", "Multi-face (G4 Dec.57536)"),
                    ("zona", "Zona"), ("cabas", "CAbás"), ("vedado", "Vedado Art.124§2 (sem PCpt)"),
-                   ("pcpt", "PCpt calculado (engine)"), ("saldo", "Saldo líquido (– transferido)"), ("preco", "Preço-proxy R$ (do saldo)")]:
+                   ("pcpt", "PCpt calculado (engine)"), ("fsce", "FSCE aplicado (Art.57 SCE)"),
+                   ("saldo", "Saldo líquido (– transferido)"), ("preco", "Preço-proxy R$ (do saldo)")]:
         print(f"  {lbl:26}: {n[k]:5} ({n[k]/tot:.0%})")
 
 

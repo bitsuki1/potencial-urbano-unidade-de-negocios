@@ -4,13 +4,13 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 16",
   "numero": "16",
-  "header_raw": "Art. 16. O art. 48 da Lei nº 16.050, de 2014, passa a vigorar com nova redação do § 4º e acrescido do §",
+  "header_raw": "Art. 16. O art. 48 da Lei nº 16.050, de 2014, passa a vigorar com nova redação do § 4º e acrescido do § 5º, com a seguinte redação:",
   "caminho_hierarquico": [
     "CAPÍTULO II",
     "Seção I",
     "Art. 16"
   ],
-  "texto": "Art. 16. O art. 48 da Lei nº 16.050, de 2014, passa a vigorar com nova redação do § 4º e acrescido do §\n\n5º, com a seguinte redação:\n\n“Art. 48. .....................................................................................\n\n....................................................................................................\n\n§ 4º A instalação do Conselho Gestor deverá preceder a elaboração do Plano de Ação Integrada, que\n\npor ele deverá ser aprovado.\n\n§ 5º O Executivo deverá regulamentar, por decreto, o funcionamento dos conselhos gestores de ZEIS\n\ncontendo, no mínimo, as situações em que haverá a obrigatoriedade de instituição do conselho e as\n\nregras e os procedimentos para sua composição e funcionamento.” (NR)",
+  "texto": "Art. 16. O art. 48 da Lei nº 16.050, de 2014, passa a vigorar com nova redação do § 4º e acrescido do § 5º, com a seguinte redação:\n\n“Art. 48. .....................................................................................\n\n....................................................................................................\n\n§ 4º A instalação do Conselho Gestor deverá preceder a elaboração do Plano de Ação Integrada, que por ele deverá ser aprovado.\n\n§ 5º O Executivo deverá regulamentar, por decreto, o funcionamento dos conselhos gestores de ZEIS contendo, no mínimo, as situações em que haverá a obrigatoriedade de instituição do conselho e as regras e os procedimentos para sua composição e funcionamento.” (NR)",
   "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
@@ -22,7 +22,7 @@
   "citacao": {
     "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
     "dispositivo": "CAPÍTULO II › Seção I › Art. 16",
-    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17975-de-8-de-julho-de-2023",
     "vigencia": {
       "inicio": "2023-07-08",
       "fim": null,

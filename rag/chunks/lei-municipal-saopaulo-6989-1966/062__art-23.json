@@ -1,0 +1,60 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-6989-1966::062-art-23",
+  "lei_id": "lei-municipal-saopaulo-6989-1966",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 23",
+  "numero": "23",
+  "header_raw": "Art. 23 - Constitui fato gerador do imposto territorial urbano a propriedade, o domínio útil ou a posse de bom imóvel não construído, localizado na zona urbana do Município, a que se refere o artigo 3º, e seus parágrafos, desta Lei.",
+  "caminho_hierarquico": [
+    "TITULO I",
+    "CAPITULO II",
+    "SEÇÃO I",
+    "Art. 23"
+  ],
+  "texto": "Art. 23 - Constitui fato gerador do imposto territorial urbano a propriedade, o domínio útil ou a posse de bom imóvel não construído, localizado na zona urbana do Município, a que se refere o artigo 3º, e seus parágrafos, desta Lei.\n\n§ 1º - Considera-se ocorrido o fato gerador do Imposto Territorial Urbano:(Incluído pela Lei nº 15.406/2011)\n\nI - em 1º de janeiro de cada exercício;(Incluído pela Lei nº 15.406/2011)\n\nII - no primeiro dia do mês subsequente ao que ocorrer:(Incluído pela Lei nº 15.406/2011)\n\na) constituição ou alteração do excesso de área, a que se refere o inciso III do art. 24 desta lei;(Incluído pela Lei nº 15.406/2011)\n\nb) desdobro, englobamento ou remembramento de lote construído que resulte em constituição de novo terreno não construído.(Incluído pela Lei nº 15.406/2011)\n\n§ 2º - Ocorridas as hipóteses previstas no inciso II do § 1º:(Incluído pela Lei nº 15.406/2011)\n\nI - caso a alteração no excesso de área do imóvel não tenha sido resultado de desdobro, englobamento ou remembramento do bem, o eventual acréscimo de Imposto Territorial Urbano, com relação ao lançamento que considerou a situação anterior do imóvel, será cobrado proporcionalmente ao número de meses ainda restantes do exercício;(Incluído pela Lei nº 15.406/2011)\n\nII - caso as alterações no imóvel tenham sido resultado de desdobro, englobamento ou remembramento do bem:(Incluído pela Lei nº 15.406/2011)\n\na) serão efetuados lançamentos do Imposto Territorial Urbano, referentes aos novos imóveis, de forma proporcional ao número de meses ainda restantes do exercício; e(Incluído pela Lei nº 15.406/2011)\n\nb) os eventuais lançamentos de Impostos Predial e Territorial Urbano, referentes à situação anterior, passarão a ser proporcionais ao número de meses já decorridos desde o seu respectivo fato gerador até o novo fato gerador.(Incluído pela Lei nº 15.406/2011)\n\n§ 3º - Para efeito de contagem do número de meses restantes do exercício, a que se refere o § 2º, será incluído o mês da ocorrência do novo fato gerador.(Incluído pela Lei nº 15.406/2011)\n\n§ 4º - A ocorrência do novo fato gerador referido no inciso II do § 1º implica a constituição de créditos tributários complementares, com eventuais abatimentos ou devoluções de indébitos, na forma estabelecida no regulamento do imposto.(Incluído pela Lei nº 15.406/2011)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 6.989/1966 — São Paulo/SP",
+    "dispositivo": "TITULO I › CAPITULO II › SEÇÃO I › Art. 23",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-6989-de-29-de-dezembro-de-1966",
+    "vigencia": {
+      "inicio": "1967-01-01",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 10.394/1987",
+        "Lei 10.805/1989",
+        "Lei 10.921/1990",
+        "Lei 11.152/1991",
+        "Lei 11.334/1992",
+        "Lei 12.782/1998",
+        "Lei 13.250/2001",
+        "Lei 15.889/2013"
+      ],
+      "obs": "texto COMPILADO do portal oficial, com anotações de alteração por dispositivo; lista alterada_por = anotações verificadas no texto (não exaustiva)"
+    }
+  },
+  "tema": [
+    "sistema_tributario_municipal",
+    "imposto_predial",
+    "imposto_territorial_urbano",
+    "valor_venal",
+    "aliquota_progressiva",
+    "fato_gerador",
+    "isencao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o sistema tributário do Município e da outras providências."
+}

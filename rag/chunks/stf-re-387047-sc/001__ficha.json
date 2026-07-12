@@ -1,0 +1,42 @@
+{
+  "chunk_id": "stf-re-387047-sc::001-ficha",
+  "lei_id": "stf-re-387047-sc",
+  "tipo_dispositivo": "jurisprudencia",
+  "rotulo": "STF RE 387.047/SC",
+  "numero": "RE 387.047/SC",
+  "header_raw": "STF RE 387.047/SC. Base constitucional do 'solo criado' (do qual deriva a TDC): a Lei 3.338/89 de Florianopolis sobre ou",
+  "caminho_hierarquico": [
+    "STF RE 387.047/SC"
+  ],
+  "texto": "STF RE 387.047/SC. Base constitucional do 'solo criado' (do qual deriva a TDC): a Lei 3.338/89 de Florianopolis sobre outorga onerosa do direito de construir acima do coeficiente unico. O STF concluiu que a cobranca NAO E TRIBUTO, mas onus urbanistico vinculado a funcao social da propriedade (arts. 182 e 170, III, da CF). Recurso desprovido. DJ 02/05/2008. Temas: solo-criado, outorga-onerosa, nao-tributo, funcao-social. Dispositivos relacionados: CF/1988, art. 182; CF/1988, art. 170, III; Lei Federal no 10.257/2001.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "acordao STF RE 387.047/SC",
+    "dispositivo": "Tribunal Pleno",
+    "fonte_url": "STF — https://portal.stf.jus.br/jurisprudencia/ (pesquisa de jurisprudencia)",
+    "vigencia": {
+      "inicio": "2008-03-06",
+      "fim": null,
+      "nota": "acordao (resumo de metadados)"
+    }
+  },
+  "tema": [
+    "solo-criado",
+    "outorga-onerosa",
+    "nao-tributo",
+    "funcao-social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "STF",
+  "ementa": "Base constitucional do 'solo criado' (do qual deriva a TDC): a Lei 3.338/89 de Florianopolis sobre outorga onerosa do direito de construir acima do coeficiente unico. O STF concluiu que a cobranca NAO E TRIBUTO, mas onus urbanistico vinculado a funcao social da propriedade (arts. 182 e 170, III, da "
+}

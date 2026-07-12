@@ -1,0 +1,40 @@
+{
+  "chunk_id": "tjsp-ai-2257458-20-2024::001-ficha",
+  "lei_id": "tjsp-ai-2257458-20-2024",
+  "tipo_dispositivo": "jurisprudencia",
+  "rotulo": "TJSP 2257458-20.2024.8.26.0000",
+  "numero": "2257458-20.2024.8.26.0000",
+  "header_raw": "TJSP 2257458-20.2024.8.26.0000. Cumprimento de sentenca (penhora de valores): o acordao caracteriza a TDC como especie d",
+  "caminho_hierarquico": [
+    "TJSP 2257458-20.2024.8.26.0000"
+  ],
+  "texto": "TJSP 2257458-20.2024.8.26.0000. Cumprimento de sentenca (penhora de valores): o acordao caracteriza a TDC como especie de COMPENSACAO estatal pela limitacao ao direito de propriedade decorrente do tombamento, de natureza compensatoria, mantendo a penhora por ausencia de vinculacao especifica na utilizacao da verba. Temas: natureza-compensatoria, penhora. Dispositivos relacionados: Lei Municipal SP no 16.050/2014.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "acordao TJSP 2257458-20.2024.8.26.0000",
+    "dispositivo": "5a Camara de Direito Privado",
+    "fonte_url": "TJSP e-SAJ (consulta processual 2o grau) — https://esaj.tjsp.jus.br/cposg/open.do",
+    "vigencia": {
+      "inicio": "2024-11-05",
+      "fim": null,
+      "nota": "acordao (resumo de metadados)"
+    }
+  },
+  "tema": [
+    "natureza-compensatoria",
+    "penhora"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "TJSP",
+  "ementa": "Cumprimento de sentenca (penhora de valores): o acordao caracteriza a TDC como especie de COMPENSACAO estatal pela limitacao ao direito de propriedade decorrente do tombamento, de natureza compensatoria, mantendo a penhora por ausencia de vinculacao especifica na utilizacao da verba."
+}

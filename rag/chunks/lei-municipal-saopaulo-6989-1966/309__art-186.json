@@ -1,0 +1,60 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-6989-1966::309-art-186",
+  "lei_id": "lei-municipal-saopaulo-6989-1966",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 186",
+  "numero": "186",
+  "header_raw": "Art. 186 - A taxa calcula-se de acordo com a seguinte tabela:(Revogado pela Lei nº 7.687/1971)",
+  "caminho_hierarquico": [
+    "TITULO II",
+    "CAPITULO VI",
+    "SEÇÃO II",
+    "Art. 186"
+  ],
+  "texto": "Art. 186 - A taxa calcula-se de acordo com a seguinte tabela:(Revogado pela Lei nº 7.687/1971)\n\nI – Vistoria de veículos, para exames semestrais de freios e estado de conservação de auto-caminhões e ônibus Cr$ 5.000\n\nII – Vistoria de caminhões, furgões ou veículos transportadores de carnes e pescados Cr$ 5000\n\nIII – Vistoria em cinemas, estabelecimentos ou locais destinados a diversões publicas Cr$ 10.000\n\nIV – Vistoria para instalação de estabelecimentos industriais Cr$ 15.000\n\nV – Vistoria para licença de funcionamento de estabelecimentos destinados a diversões públicas Cr$ 15.000\n\nVI – Vistoria de açougues, peixaria ou casas de aves abatidas Cr$ 25.000\n\nVII – Reinspeção e pesagem de carnes, por quilo Cr$ 2\n\nSEÇÃO III\n\nSujeito Passivo",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 6.989/1966 — São Paulo/SP",
+    "dispositivo": "TITULO II › CAPITULO VI › SEÇÃO II › Art. 186",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-6989-de-29-de-dezembro-de-1966",
+    "vigencia": {
+      "inicio": "1967-01-01",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 10.394/1987",
+        "Lei 10.805/1989",
+        "Lei 10.921/1990",
+        "Lei 11.152/1991",
+        "Lei 11.334/1992",
+        "Lei 12.782/1998",
+        "Lei 13.250/2001",
+        "Lei 15.889/2013"
+      ],
+      "obs": "texto COMPILADO do portal oficial, com anotações de alteração por dispositivo; lista alterada_por = anotações verificadas no texto (não exaustiva)"
+    }
+  },
+  "tema": [
+    "sistema_tributario_municipal",
+    "imposto_predial",
+    "imposto_territorial_urbano",
+    "valor_venal",
+    "aliquota_progressiva",
+    "fato_gerador",
+    "isencao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o sistema tributário do Município e da outras providências."
+}

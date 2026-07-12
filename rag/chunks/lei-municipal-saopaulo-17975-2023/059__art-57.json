@@ -4,13 +4,13 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 57",
   "numero": "57",
-  "header_raw": "Art. 57. O art. 141 da Lei nº 16.050, de 2014, passa a vigorar com as seguintes alterações no inciso VII",
+  "header_raw": "Art. 57. O art. 141 da Lei nº 16.050, de 2014, passa a vigorar com as seguintes alterações no inciso VII e acrescido do inciso XVII, alterado o parágrafo único como 1º e acrescido do § 2º:",
   "caminho_hierarquico": [
     "CAPÍTULO III",
     "Seção III",
     "Art. 57"
   ],
-  "texto": "Art. 57. O art. 141 da Lei nº 16.050, de 2014, passa a vigorar com as seguintes alterações no inciso VII\n\ne acrescido do inciso XVII, alterado o parágrafo único como 1º e acrescido do § 2º:\n\n“Art. 141. ...................................................................................\n\n....................................................................................................\n\nVII - programa de atendimento econômico, social e habitacional para a população diretamente afetada\n\npela Operação Urbana Consorciada, mediante elaboração, pelo órgão competente da política\n\nhabitacional, de Plano de Reassentamento e aprovação pela população a ser removida, nos termos\n\ndos arts. 134, 291 e 292 desta Lei;\n\n....................................................................................................\n\nXVII - para as Operações Urbanas Consorciadas preexistentes em vigor, as regras de transição\n\naplicáveis para sua finalização deverão ser definidas por lei específica.\n\n§ 1º O perímetro expandido mencionado no inciso II poderá extrapolar os limites da Macroárea de\n\nEstruturação Metropolitana.\n\n§ 2º As áreas e as condições de reassentamento das famílias removidas nos termos do inciso VII deste\n\nartigo serão definidos por SEHAB, garantidos os parâmetros estabelecidos nesta Lei.” (NR)",
+  "texto": "Art. 57. O art. 141 da Lei nº 16.050, de 2014, passa a vigorar com as seguintes alterações no inciso VII e acrescido do inciso XVII, alterado o parágrafo único como 1º e acrescido do § 2º:\n\n“Art. 141. ...................................................................................\n\n....................................................................................................\n\nVII - programa de atendimento econômico, social e habitacional para a população diretamente afetada pela Operação Urbana Consorciada, mediante elaboração, pelo órgão competente da política habitacional, de Plano de Reassentamento e aprovação pela população a ser removida, nos termos dos arts. 134, 291 e 292 desta Lei;\n\n....................................................................................................\n\nXVII - para as Operações Urbanas Consorciadas preexistentes em vigor, as regras de transição aplicáveis para sua finalização deverão ser definidas por lei específica.\n\n§ 1º O perímetro expandido mencionado no inciso II poderá extrapolar os limites da Macroárea de Estruturação Metropolitana.\n\n§ 2º As áreas e as condições de reassentamento das famílias removidas nos termos do inciso VII deste artigo serão definidos por SEHAB, garantidos os parâmetros estabelecidos nesta Lei.” (NR)",
   "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
@@ -22,7 +22,7 @@
   "citacao": {
     "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
     "dispositivo": "CAPÍTULO III › Seção III › Art. 57",
-    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17975-de-8-de-julho-de-2023",
     "vigencia": {
       "inicio": "2023-07-08",
       "fim": null,

@@ -1,0 +1,42 @@
+{
+  "id": "stf-re-226942-sc",
+  "tipo": "acordao",
+  "tribunal": "STF",
+  "numero": "RE 226.942/SC",
+  "orgao_julgador": "1a Turma",
+  "relator": "Min. Menezes Direito",
+  "data_julgamento": "2008-10-21",
+  "tema_rg_ou_repetitivo": null,
+  "leading_case": null,
+  "enunciado_ou_tese": "Mesma lei de Florianopolis: reafirma que a 'parcela do solo criado' NAO E TRIBUTO, mas compensacao financeira pela sobrecarga urbana decorrente da construcao acima do limite. Recurso desprovido. DJe 15/05/2009.",
+  "tema": [
+    "solo-criado",
+    "outorga-onerosa",
+    "nao-tributo"
+  ],
+  "dispositivos_relacionados": [
+    "CF/1988, art. 182"
+  ],
+  "situacao": "vigente",
+  "vigencia": {
+    "inicio": "2008-10-21",
+    "fim": null,
+    "nota": "acordao (resumo de metadados)"
+  },
+  "fonte": {
+    "origem": "web-extensao-resumo",
+    "url": "STF — https://portal.stf.jus.br/jurisprudencia/ (pesquisa de jurisprudencia)",
+    "hash": "sha256:48e9b75d7e5beae38b333b2548415b5b3b3b1fac8af8fa90a4e4fbc5af18a55a",
+    "hash_alvo": "jurisprudencia/stf-re-226942-sc.md",
+    "captura_verbatim": null,
+    "hash_nota": "hash do .md (FICHA de metadados). Inteiro teor NAO reproduzido (direitos autorais); verbatim a capturar no portal."
+  },
+  "status_pipeline": "indexado",
+  "confianca_extracao": "media",
+  "revisado_por_humano": false,
+  "verificacao_verbatim": "RESUMO em linguagem propria (extensao) — inteiro teor NAO reproduzido por direitos autorais. Identificacao (processo/orgao/relator/data) confere.",
+  "dominio_primario": "tdc",
+  "dominio": [
+    "tdc"
+  ]
+}

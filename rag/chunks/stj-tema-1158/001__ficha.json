@@ -1,0 +1,33 @@
+{
+  "chunk_id": "stj-tema-1158::001-ficha",
+  "lei_id": "stj-tema-1158",
+  "tipo_dispositivo": "jurisprudencia",
+  "rotulo": "STJ 1158",
+  "numero": "1158",
+  "header_raw": "STJ 1158. O credor fiduciário, antes da consolidação da propriedade e da imissão na posse no imóvel objeto da alienação ",
+  "caminho_hierarquico": [
+    "STJ 1158"
+  ],
+  "texto": "STJ 1158. O credor fiduciário, antes da consolidação da propriedade e da imissão na posse no imóvel objeto da alienação fiduciária, não pode ser considerado sujeito passivo do IPTU, uma vez que não se enquadra em nenhuma das hipóteses previstas no art. 34 do CTN. Dispositivos relacionados: CTN art. 34; Lei 9.514/1997.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "acórdão publicado",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "recurso_repetitivo STJ 1158",
+    "dispositivo": "STJ 1158",
+    "fonte_url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2025/31032025-Repetitivo-define-que-IPTU-e-obrigacao-do-devedor-fiduciante-ate-o-banco-ser-imitido-na-posse-do-imovel.aspx",
+    "vigencia": {}
+  },
+  "tema": [],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "STJ",
+  "ementa": "O credor fiduciário, antes da consolidação da propriedade e da imissão na posse no imóvel objeto da alienação fiduciária, não pode ser considerado sujeito passivo do IPTU, uma vez que não se enquadra em nenhuma das hipóteses previstas no art. 34 do CTN."
+}

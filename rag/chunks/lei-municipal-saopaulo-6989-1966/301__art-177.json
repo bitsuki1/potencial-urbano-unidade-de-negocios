@@ -1,0 +1,60 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-6989-1966::301-art-177",
+  "lei_id": "lei-municipal-saopaulo-6989-1966",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 177",
+  "numero": "177",
+  "header_raw": "Art. 177 - A taxa de licença para obras, construções, arruamentos e loteamentos, fundada no poder de policia do Município quanto ao estabelecimento de normas de edificações e de abertura e ligação de novos logradouros ao sistema viário urbano, tem como fato gerador o licenciamento obrigatório daqueles, bem como a sua fiscalização, quanto as posturas ediliciais e administrativas, constantes da legislação municipal e relativas à segurança, higiene e saúde publicas.",
+  "caminho_hierarquico": [
+    "TITULO II",
+    "CAPITULO IV",
+    "SEÇÃO I",
+    "Art. 177"
+  ],
+  "texto": "Art. 177 - A taxa de licença para obras, construções, arruamentos e loteamentos, fundada no poder de policia do Município quanto ao estabelecimento de normas de edificações e de abertura e ligação de novos logradouros ao sistema viário urbano, tem como fato gerador o licenciamento obrigatório daqueles, bem como a sua fiscalização, quanto as posturas ediliciais e administrativas, constantes da legislação municipal e relativas à segurança, higiene e saúde publicas.\n\nSEÇÃO II\n\nCalculo da Taxa\n\nA taxa calcula-se de acordo com a seguinte tabela:\n\nI - Exame e verificação de projeto para edificação comum em qualquer zona da cidade, sem estrutura especial, embora com vergas, cintas e lajes simplesmente apoiadas:\n\na) até 60m² - por m²..........................................................200\n\nb) de mais de 60m² - por m²...............................................400\n\nII - Exame e verificação de projetos para edificação com estrutura de concreto armado, ferro, madeira ou qualquer outra especial, em qualquer zona da cidade, por m²....600\n\nIII - Alinhamento ou nivelamento (6 meses) - ml...............................350\n\nIV - Andaimes e tapumes, até a metade do passeio e no máximo até 1,00 metro de largura (3 meses):\n\na) Zona Central - ml.......................................................11.000\n\nb) Zona Urbana - ml.......................................................5.500\n\nc) Zonas Suburbana e Rural............................................3.500\n\nV - Alvarás:\n\na) em geral, cada........................................................... 7.000\n\nb) de vistoria, cada........................................................ 7.000\n\nVI - Reformas e Consertos:\n\na) sem acréscimo de área.........................................................................20.000\n\nb) com acréscimo de área, a mesma taxa, mais, por m² que acrescer.............400\n\nVII - Construções Funerárias:\n\na) com revestimento simples.............................................................13.500\n\nb) com revestimento de granito, mármore ou equivalente.....................35.000\n\nVIII - Arruamento (área bruta) - por m²...................................................15\n\nIX - Emplacamento de imóveis, cada placa............................................1.300\n\nX - Aprovação de projeto de instalação de elevadores, monta-cargas ou\n\nescadas-rolantes, por unidade...........................................................10.000\n\nXI - Expedição de alvará de licença para entrega ao uso particular ou público:\n\na) por elevador ou monta-carga, servindo até 10 pavimentos.................25.000\n\nb) idem, servindo mais de 10 até 20 pavimentos..................................40.000\n\nc) idem, servindo mais de 20 pavimentos............................................50.000\n\nd) por lance de escada-rolante............................................................7.500\n\ne) Zonas Suburbanas e Rural - ml.......................................................3.500\n\nXII - Alvará de funcionamento, expedição anual....................................7.500\n\nXIII - Taxa de vistoria, duas anuais......................................................7.500\n\nSEÇÃO III\n\nSujeito Passivo",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 6.989/1966 — São Paulo/SP",
+    "dispositivo": "TITULO II › CAPITULO IV › SEÇÃO I › Art. 177",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-6989-de-29-de-dezembro-de-1966",
+    "vigencia": {
+      "inicio": "1967-01-01",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 10.394/1987",
+        "Lei 10.805/1989",
+        "Lei 10.921/1990",
+        "Lei 11.152/1991",
+        "Lei 11.334/1992",
+        "Lei 12.782/1998",
+        "Lei 13.250/2001",
+        "Lei 15.889/2013"
+      ],
+      "obs": "texto COMPILADO do portal oficial, com anotações de alteração por dispositivo; lista alterada_por = anotações verificadas no texto (não exaustiva)"
+    }
+  },
+  "tema": [
+    "sistema_tributario_municipal",
+    "imposto_predial",
+    "imposto_territorial_urbano",
+    "valor_venal",
+    "aliquota_progressiva",
+    "fato_gerador",
+    "isencao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o sistema tributário do Município e da outras providências."
+}

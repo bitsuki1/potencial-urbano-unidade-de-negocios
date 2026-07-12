@@ -4,12 +4,12 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 106",
   "numero": "106",
-  "header_raw": "Art. 106. O Art. 375 da Lei nº 16.050, de 2014, passa a vigorar com alterações em seus incisos II e III e",
+  "header_raw": "Art. 106. O Art. 375 da Lei nº 16.050, de 2014, passa a vigorar com alterações em seus incisos II e III e acrescido de § 2º, renumerado seu parágrafo único para § 1º:",
   "caminho_hierarquico": [
     "CAPÍTULO XII",
     "Art. 106"
   ],
-  "texto": "Art. 106. O Art. 375 da Lei nº 16.050, de 2014, passa a vigorar com alterações em seus incisos II e III e\n\nacrescido de § 2º, renumerado seu parágrafo único para § 1º:\n\n“Art. 375. ...................................................................................\n\nI - os parques municipais existentes e os que vierem a ser criados;\n\nII - os parques urbanos propostos integrantes do Quadro 7 e Mapa 5 desta Lei;\n\nIII - os parques naturais propostos e as demais Unidades de Conservação de Proteção Integral\n\npropostas;\n\nIV - os parques lineares existentes.\n\n§ 1º .............................................................................................\n\n§ 2º O previsto no caput deste artigo aplica-se aos parques de conservação e aos parques orla\n\nexistentes e propostos.” (NR)",
+  "texto": "Art. 106. O Art. 375 da Lei nº 16.050, de 2014, passa a vigorar com alterações em seus incisos II e III e acrescido de § 2º, renumerado seu parágrafo único para § 1º:\n\n“Art. 375. ...................................................................................\n\nI - os parques municipais existentes e os que vierem a ser criados;\n\nII - os parques urbanos propostos integrantes do Quadro 7 e Mapa 5 desta Lei;\n\nIII - os parques naturais propostos e as demais Unidades de Conservação de Proteção Integral propostas;\n\nIV - os parques lineares existentes.\n\n§ 1º .............................................................................................\n\n§ 2º O previsto no caput deste artigo aplica-se aos parques de conservação e aos parques orla existentes e propostos.” (NR)",
   "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
@@ -21,7 +21,7 @@
   "citacao": {
     "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
     "dispositivo": "CAPÍTULO XII › Art. 106",
-    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17975-de-8-de-julho-de-2023",
     "vigencia": {
       "inicio": "2023-07-08",
       "fim": null,

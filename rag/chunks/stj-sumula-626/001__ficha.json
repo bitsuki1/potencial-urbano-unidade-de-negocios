@@ -1,0 +1,33 @@
+{
+  "chunk_id": "stj-sumula-626::001-ficha",
+  "lei_id": "stj-sumula-626",
+  "tipo_dispositivo": "jurisprudencia",
+  "rotulo": "STJ 626",
+  "numero": "626",
+  "header_raw": "STJ 626. A incidência do IPTU sobre imóvel situado em área considerada pela lei local como urbanizável ou de expansão ur",
+  "caminho_hierarquico": [
+    "STJ 626"
+  ],
+  "texto": "STJ 626. A incidência do IPTU sobre imóvel situado em área considerada pela lei local como urbanizável ou de expansão urbana não está condicionada à existência dos melhoramentos elencados no art. 32, § 1º, do CTN. Dispositivos relacionados: CTN art. 32, §1º; CTN art. 32, §2º.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "vigente (Primeira Seção, j. 12/12/2018, DJe 17/12/2018)",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "sumula STJ 626",
+    "dispositivo": "STJ 626",
+    "fonte_url": "https://processo.stj.jus.br/SCON/sumstj/doc.jsp?sumula=626&b=SUMU",
+    "vigencia": {}
+  },
+  "tema": [],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "STJ",
+  "ementa": "A incidência do IPTU sobre imóvel situado em área considerada pela lei local como urbanizável ou de expansão urbana não está condicionada à existência dos melhoramentos elencados no art. 32, § 1º, do CTN."
+}

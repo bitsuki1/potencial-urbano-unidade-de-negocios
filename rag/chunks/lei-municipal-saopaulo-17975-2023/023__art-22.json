@@ -4,13 +4,13 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 22",
   "numero": "22",
-  "header_raw": "Art. 22. O art. 62 da Lei nº 16.050, de 2014, passa a vigorar com a seguinte alteração de seu inciso IX",
+  "header_raw": "Art. 22. O art. 62 da Lei nº 16.050, de 2014, passa a vigorar com a seguinte alteração de seu inciso IX e acrescido dos incisos XII e XIII com a seguinte redação:",
   "caminho_hierarquico": [
     "CAPÍTULO II",
     "Seção II",
     "Art. 22"
   ],
-  "texto": "Art. 22. O art. 62 da Lei nº 16.050, de 2014, passa a vigorar com a seguinte alteração de seu inciso IX\n\ne acrescido dos incisos XII e XIII com a seguinte redação:\n\n“Art. 62. .....................................................................................\n\n....................................................................................................\n\nIX - proteger as áreas indígenas demarcadas pelo Governo Federal, promovendo o reconhecimento e\n\npreservação do modo de vida dos povos originários, incentivando a conservação e valorização de seu\n\npatrimônio cultural, segundo seus usos e costumes;\n\n....................................................................................................\n\nXII - proteger as áreas quilombolas demarcadas pelo Governo Federal, promovendo o reconhecimento\n\ne preservação dos espaços e os lugares históricos e culturais da população negra, que resgatem e\n\nvalorizem a sua memória e identidade e suas formas de viver e de se expressar;\n\nXIII - proteger e valorizar as áreas de entorno de bens culturais reconhecendo o ambiente e/ou\n\npaisagem na qual estão integrados.” (NR)",
+  "texto": "Art. 22. O art. 62 da Lei nº 16.050, de 2014, passa a vigorar com a seguinte alteração de seu inciso IX e acrescido dos incisos XII e XIII com a seguinte redação:\n\n“Art. 62. .....................................................................................\n\n....................................................................................................\n\nIX - proteger as áreas indígenas demarcadas pelo Governo Federal, promovendo o reconhecimento e preservação do modo de vida dos povos originários, incentivando a conservação e valorização de seu patrimônio cultural, segundo seus usos e costumes;\n\n....................................................................................................\n\nXII - proteger as áreas quilombolas demarcadas pelo Governo Federal, promovendo o reconhecimento e preservação dos espaços e os lugares históricos e culturais da população negra, que resgatem e valorizem a sua memória e identidade e suas formas de viver e de se expressar;\n\nXIII - proteger e valorizar as áreas de entorno de bens culturais reconhecendo o ambiente e/ou paisagem na qual estão integrados.” (NR)",
   "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
@@ -22,7 +22,7 @@
   "citacao": {
     "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
     "dispositivo": "CAPÍTULO II › Seção II › Art. 22",
-    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17975-de-8-de-julho-de-2023",
     "vigencia": {
       "inicio": "2023-07-08",
       "fim": null,

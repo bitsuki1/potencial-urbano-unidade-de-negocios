@@ -1,0 +1,43 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-10365-1987::005-art-4o",
+  "lei_id": "lei-municipal-saopaulo-10365-1987",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 4º",
+  "numero": "4",
+  "header_raw": "Art. 4º - Considera-se de preservação permanente a vegetação de porte arbóreo que, por sua localização, extensão ou composição florística, constitua elemento de proteção ao solo, à água e a outros recursos naturais ou paisagísticos.(Revogado pela Lei nº 17.794/2022) (Reestabelecido pela ADIN nº 2085569-32.2023.8.26.0000)",
+  "caminho_hierarquico": [
+    "Capítulo I",
+    "Art. 4º"
+  ],
+  "texto": "Art. 4º - Considera-se de preservação permanente a vegetação de porte arbóreo que, por sua localização, extensão ou composição florística, constitua elemento de proteção ao solo, à água e a outros recursos naturais ou paisagísticos.(Revogado pela Lei nº 17.794/2022) (Reestabelecido pela ADIN nº 2085569-32.2023.8.26.0000)\n\n§ 1º - Consideram-se de preservação permanente, por força do artigo 2º, do Código Florestal, instituído pela Lei Federal nº 7.771, de 15 de setembro de 1965, com as alterações e acréscimos da Lei Federal nº 7.511, de 7 de julho de 1986, as florestas e demais formas de vegetação situadas:\n\na) ao longo dos rios ou de outro qualquer curso d'água, em faixa marginal, cuja largura mínima será:\n\n1 - de 30,00 m (trinta metros) para os rios de menos de 10,00 m (dez metros) de largura;\n\n2 - de 50,00 m (cinqüenta metros) para os cursos que tenham de 10,00 m (dez metros) a 50,00 m (cinqüenta metros) de largura;\n\n3 - de 100,00 m (cem metros) para todos os cursos d'água que meçam entre 50,00 m (cinqüenta metros) e 100,00 m (cem metros) de largura;\n\n4 - de 150,00 (cento e cinqüenta metros) para os cursos d'água que possuam entre 100, 00 m(cem metros) e 200, 00 m (duzentos metros) de largura;\n\n5 - igual à distância entre as margens para os cursos d'água com largura superior a 200,00 m (duzentos metros).\n\nb) ao redor das lagoas, dos lagos ou reservatórios d'água, naturais ou artificiais;\n\nc) nas nascentes, mesmo nos chamados \"olhos-d'água\", seja qual for sua situação topográfica;\n\nd) no topo dos morros, montes, montanhas e serras;\n\ne) nas encostas ou partes destas, com declividade superior a 45° (quarenta e cinco graus), equivalente a 100% (cem por cento) na linha de maior declive.\n\n§ 2º - Considera-se de preservação permanente, para efeitos desta lei, a vegetação de porte arbóreo quando:(Reestabelecido pela ADIN nº 2085569-32.2023.8.26.0000)\n\na)constituir bosque ou floresta heterogênea que:\n\n1 -forme mancha contínua de vegetação superior a 10.000,00 m2 (dez mil metros quadrados);\n\n2 - se localize em parques, praças e outros logradouros públicos;\n\n3 - se localize em regiões carentes de áreas verdes;\n\n4 - se localize em encostas ou partes destas, com declividade superior a 40% (quarenta por cento).\n\nb) destinada a proteger sítios de excepcional valor paisagístico, científico ou histórico;\n\nc) localizada numa faixa de 20,00 m(vinte metros) de largura, medida em projeção horizontal, a partir de ambas as margens de quaisquer cursos d'água, lagos ou reservatórios, independentemente das dimensões destes;\n\nd) localizada num raio de 20,00 m(vinte metros) a partir de minas, nascentes ou \"olhos-d'águas\", seja qual for sua situação topográfica.\n\n§ 3º - Para os efeitos desta lei considera-se bosque ou floresta heterogênea o conjunto de espécimes vegetais de porte arbóreo, composto por 3 (três) ou mais gêneros de árvores, propagados espontânea ou artificialmente, e cujas copas cubram o solo em mais de 40% (quarenta por cento) da sua superfície.(Reestabelecido pela ADIN nº 2085569-32.2023.8.26.0000)\n\n§ 4º - Para os efeitos desta lei, considera-se como região carente de áreas verdes aquela que possuir um índice de áreas verdes, públicas ou particulares, estas quando protegidas por lei, inferior a 15% (quinze por cento) da área ocupada por uma circunferência de raio de 2.000,00 m (dois mil metros) em torno do local de interesse.(Reestabelecido pela ADIN nº 2085569-32.2023.8.26.0000)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 10.365/1987 — São Paulo/SP",
+    "dispositivo": "Capítulo I › Art. 4º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-10365-de-22-de-setembro-de-1987",
+    "vigencia": {
+      "em_vigor": true,
+      "observacao": "Vigente; alterada pela Lei 17.267/2020 (e relaciona-se com a Lei 10.919/1990).",
+      "inicio": "1987-09-22",
+      "obs": "inicio = data da lei (proxy da publicação, convenção do corpus); cláusula verbatim: Art. 27 - Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário."
+    }
+  },
+  "tema": [
+    "vegetacao",
+    "APP",
+    "meio_ambiente"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Disciplina o corte e a poda de vegetação de porte arbóreo existente no Município de São Paulo e dá outras providências."
+}

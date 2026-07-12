@@ -109,6 +109,12 @@ def check_engine():
     return rc == 0, "engine OODC/TDC auto-teste OK" if rc == 0 else f"engine quebrou (exit {rc})"
 
 
+def check_art117():
+    # Reconciliação Art. 117: contrapartida C=(At/Ac)×V×Fs×Fp verbatim + identidade com a fórmula legada.
+    rc, _ = _run(["evals/eval-art117.py"])
+    return rc == 0, "contrapartida Art. 117 (verbatim + reconciliação) OK" if rc == 0 else f"eval-art117 falhou (exit {rc})"
+
+
 def check_engine_fp():
     rc, _ = _run(["engines/tdc/fp.py"])
     return rc == 0, "engine Fp (Quadro 6) auto-teste OK" if rc == 0 else f"Fp quebrou (exit {rc})"
@@ -118,6 +124,67 @@ def check_engine_cedente():
     # T2/S2: o engine de CEDENTE (pcpt.py, Fi Art. 24 LPUOS) também é gate — antes só o oodc rodava.
     rc, _ = _run(["engines/tdc/pcpt.py", "--demo"])
     return rc == 0, "engine cedente PCpt (Fi escalonado) auto-teste OK" if rc == 0 else f"pcpt quebrou (exit {rc})"
+
+
+def check_engine_art128():
+    # Preço LEGAL (Art. 128 PDE): numerador PCpt×VTcd + referência ÷CAmaxcd(=4 §1º) + §2º IPCA.
+    # O --demo roda o auto-teste; o eval-art128 confronta a equação verbatim + 3.334 cedentes reais.
+    rc, _ = _run(["engines/tdc/art128.py", "--demo"])
+    if rc != 0:
+        return False, f"art128 (preço legal) quebrou (exit {rc})"
+    rc2, _ = _run(["evals/eval-art128.py"])
+    return rc2 == 0, "engine preço legal Art. 128 (numerador + ÷CAmaxcd + IPCA) + prova OK" if rc2 == 0 else f"eval-art128 falhou (exit {rc2})"
+
+
+def check_produto_dossie():
+    # M1 produto: o dossiê 1-página bate o preço no art128 + tem conservação/checklist citados,
+    # e o funil de completude é monotônico (número por estágio). Falha se o dossiê inventar ou o funil furar.
+    rc, _ = _run(["zepec/gerar_dossie.py", "--autoteste"])
+    if rc != 0:
+        return False, f"dossiê quebrou (exit {rc})"
+    rc2, _ = _run(["zepec/funil.py"])
+    return rc2 == 0, "produto M1 (dossiê citado + funil) OK" if rc2 == 0 else f"funil quebrou (exit {rc2})"
+
+
+def check_fatores_tdc():
+    # M4: inventário de fatores TDC (tabelas/fatores-tdc.csv) — nenhum 'verificado' sem chunk+eval gated.
+    rc, _ = _run(["scripts/gate_fatores_tdc.py"])
+    return rc == 0, "inventário de fatores TDC (chunk real + eval gated) OK" if rc == 0 else f"fatores-tdc falhou (exit {rc})"
+
+
+def check_fase_b():
+    # Fase B (M5): a cadeia de titularidade (resolver_dono.py) resolve a PF controladora sobre o fixture
+    # sintético (PF direta · PJ→sócio · holding 2 níveis · conflito · documento ausente=PENDENTE). Sem PII.
+    rc, _ = _run(["evals/eval-fase-b.py"])
+    return rc == 0, "Fase B (cadeia de titularidade, fixture) OK" if rc == 0 else f"eval-fase-b falhou (exit {rc})"
+
+
+def check_engine_iptu():
+    # IPTU aberto pelo dono em 2026-07-10 ("finalizarmos as duas frentes"): motor VV×alíquota
+    # progressiva por porção (Lei 6.989/1966 arts. 7/8/27 + 7-A/8-A/28; Lei 10.235/1986; faixas
+    # Lei 15.889/2013). Demo ancorado em valores derivados à mão da lei.
+    rc, _ = _run(["engines/iptu/iptu.py", "--demo"])
+    return rc == 0, "engine IPTU (VV × alíquota por porção) auto-teste OK" if rc == 0 else f"iptu quebrou (exit {rc})"
+
+
+def check_eval_iptu():
+    # Golden independente do motor IPTU: âncoras recomputadas + dupla-via CSV×engine + mutação.
+    rc, _ = _run(["evals/eval-iptu.py"])
+    return rc == 0, "eval-iptu: âncoras da lei + dupla-via + mutação OK" if rc == 0 else f"eval-iptu falhou (exit {rc})"
+
+
+def check_eval_iptu_oficial():
+    # Confronto do VV de terreno (Art. 4º) contra o lançamento REAL da Prefeitura (3.905 cedentes,
+    # insumos oficiais do IPTU_2026). Terrenos Normais: engine reproduz EXATO área×valor_m2_terreno.
+    rc, _ = _run(["evals/eval-iptu-oficial.py"])
+    return rc == 0, "eval-iptu-oficial: VV terreno confrontado com o lançamento real OK" if rc == 0 else f"eval-iptu-oficial falhou (exit {rc})"
+
+
+def check_eval_semantico():
+    # B-5 (2.6): camada de significado (embeddings Gemini). Eval OFFLINE (vetores commitados):
+    # o híbrido não regride a palavra-chave (⊇) e agrega ganhos. Pula se os vetores não existirem.
+    rc, _ = _run(["evals/eval-semantico.py"])
+    return rc == 0, "eval-semantico: híbrido não regride keyword (+ ganhos de significado)" if rc == 0 else f"eval-semantico falhou (exit {rc})"
 
 
 def check_produto():
@@ -293,9 +360,18 @@ def main():
         ("ORÁCULO AUSENTE (engines/tdc/oraculos/, T6)", check_oraculos_ausente),
         ("EVALS (citação correta, 1.7)", check_evals),
         ("ENGINE (número no engine, 1.3)", check_engine),
+        ("ART. 117 (contrapartida verbatim + reconciliação oodc)", check_art117),
         ("ENGINE Fp (Quadro 6, Fator de Planejamento)", check_engine_fp),
         ("ENGINE CEDENTE (Fi Art.24, T2)", check_engine_cedente),
+        ("ENGINE PREÇO LEGAL (Art. 128 — numerador + ÷CAmaxcd + IPCA)", check_engine_art128),
+        ("ENGINE IPTU (VV × alíquota por porção)", check_engine_iptu),
+        ("EVAL IPTU (âncoras da lei + mutação)", check_eval_iptu),
+        ("EVAL IPTU OFICIAL (VV terreno × lançamento real)", check_eval_iptu_oficial),
+        ("EVAL SEMÂNTICO (B-5, híbrido ⊇ keyword)", check_eval_semantico),
         ("PRODUTO (golden Fi cedentes reais, T2)", check_produto),
+        ("PRODUTO M1 (dossiê citado + funil de estágios)", check_produto_dossie),
+        ("FASE B (cadeia de titularidade, fixture sintético)", check_fase_b),
+        ("FATORES TDC (inventário verificado: chunk+eval, M4)", check_fatores_tdc),
         ("ZONA-MUTAÇÃO (CAbás por zona, G6)", check_zona_mutacao),
         ("FSCE (Art.57 Lei 17.844 — Setor Central)", check_fsce),
         ("CONSERVAÇÃO (Art.129 3-estados, T4)", check_conservacao),

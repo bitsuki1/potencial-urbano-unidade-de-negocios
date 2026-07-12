@@ -1,0 +1,62 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-6989-1966::037-art-17",
+  "lei_id": "lei-municipal-saopaulo-6989-1966",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 17",
+  "numero": "17",
+  "header_raw": "Art. 17. O lançamento considera-se regularmente notificado ao sujeito passivo com a entrega da notificação-recibo, pessoalmente ou pelo correio, no próprio local do imóvel ou no local por ele indicado, observadas as disposições contidas em regulamento.(Redação dada pela Lei nº 11.152/1991)(Regulamentado pelo Decreto nº 31.088/1992)",
+  "caminho_hierarquico": [
+    "TITULO I",
+    "CAPITULO I",
+    "SEÇÃO IV",
+    "Art. 17"
+  ],
+  "texto": "Art. 17. O lançamento considera-se regularmente notificado ao sujeito passivo com a entrega da notificação-recibo, pessoalmente ou pelo correio, no próprio local do imóvel ou no local por ele indicado, observadas as disposições contidas em regulamento.(Redação dada pela Lei nº 11.152/1991)(Regulamentado pelo Decreto nº 31.088/1992)\n\n§ 1º A autoridade administrativa poderá recusar o domicílio eleito pelo sujeito passivo, quando impossibilite ou dificulte a arrecadação ou a fiscalização do tributo.(Redação dada pela Lei nº 11.152/1991)\n\n§ 2º A notificação pelo correio deverá ser precedida de divulgação, a cargo do Executivo, na imprensa oficial e no mínimo, em dois jornais de grande circulação do Município, das datas de entrega nas agências postais das notificações-recibo de cada região da cidade e das suas correspondentes datas de vencimento.(Redação dada pela Lei nº 11.152/1991)\n\n§ 3º Para todos os efeitos de direito, no caso do parágrafo anterior e respeitadas as suas disposições, presume-se feita a notificação do lançamento, e regularmente constituído o crédito tributário correspondente, 5 (cinco) dias após a entrega das notificações-recibo nas agências postais.(Redação dada pela Lei nº 11.152/1991)\n\n§ 4º A presunção referida no parágrafo anterior é relativa e poderá ser ilidida pela comunicação do não recebimento da notificação-recibo, protocolada pelo sujeito passivo junto à Administração Municipal, no prazo máximo de 15 (quinze) dias da data de sua entrega nas agências postais.(Redação dada pela Lei nº 11.152/1991)\n\n§ 5º Na impossibilidade de entrega da notificação-recibo na forma prevista neste artigo, ou no caso de recusa de seu recebimento, a notificação do lançamento far-se-á por edital, consoante o disposto em regulamento.(Redação dada pela Lei nº 11.152/1991)\n\nSEÇÃO V\n\nIsenções",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "1991",
+    "norma_redacao": "Lei nº 11.152/1991"
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 6.989/1966 — São Paulo/SP",
+    "dispositivo": "TITULO I › CAPITULO I › SEÇÃO IV › Art. 17",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-6989-de-29-de-dezembro-de-1966",
+    "vigencia": {
+      "inicio": "1967-01-01",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 10.394/1987",
+        "Lei 10.805/1989",
+        "Lei 10.921/1990",
+        "Lei 11.152/1991",
+        "Lei 11.334/1992",
+        "Lei 12.782/1998",
+        "Lei 13.250/2001",
+        "Lei 15.889/2013"
+      ],
+      "obs": "texto COMPILADO do portal oficial, com anotações de alteração por dispositivo; lista alterada_por = anotações verificadas no texto (não exaustiva)"
+    }
+  },
+  "tema": [
+    "sistema_tributario_municipal",
+    "imposto_predial",
+    "imposto_territorial_urbano",
+    "valor_venal",
+    "aliquota_progressiva",
+    "fato_gerador",
+    "isencao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o sistema tributário do Município e da outras providências."
+}

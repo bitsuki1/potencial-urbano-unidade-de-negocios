@@ -1,0 +1,33 @@
+{
+  "chunk_id": "stf-sv-19::001-ficha",
+  "lei_id": "stf-sv-19",
+  "tipo_dispositivo": "jurisprudencia",
+  "rotulo": "STF 19",
+  "numero": "19",
+  "header_raw": "STF 19. A taxa cobrada exclusivamente em razão dos serviços públicos de coleta, remoção e tratamento ou destinação de li",
+  "caminho_hierarquico": [
+    "STF 19"
+  ],
+  "texto": "STF 19. A taxa cobrada exclusivamente em razão dos serviços públicos de coleta, remoção e tratamento ou destinação de lixo ou resíduos provenientes de imóveis, não viola o artigo 145, II, da Constituição Federal. Dispositivos relacionados: CF/88 art. 145, II.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "vigente (aprovada em 29/10/2009, DJe 10/11/2009)",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "sumula_vinculante STF 19",
+    "dispositivo": "STF 19",
+    "fonte_url": "https://portal.stf.jus.br/jurisprudencia/sumariosumulas.asp?base=26&sumula=1248",
+    "vigencia": {}
+  },
+  "tema": [],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "STF",
+  "ementa": "A taxa cobrada exclusivamente em razão dos serviços públicos de coleta, remoção e tratamento ou destinação de lixo ou resíduos provenientes de imóveis, não viola o artigo 145, II, da Constituição Federal."
+}

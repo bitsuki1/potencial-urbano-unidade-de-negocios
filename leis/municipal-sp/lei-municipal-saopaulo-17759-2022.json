@@ -20,7 +20,9 @@
   ],
   "vigencia": {
     "em_vigor": true,
-    "observacao": "Vigente; promulgada pelo Prefeito Ricardo Nunes em 15/03/2022; altera o Decreto 48.767/2007."
+    "observacao": "Vigente; promulgada pelo Prefeito Ricardo Nunes em 15/03/2022; altera o Decreto 48.767/2007.",
+    "inicio": "2022-03-15",
+    "obs": "inicio = data da lei (proxy da publicação, convenção do corpus); cláusula verbatim: Art. 4º Esta Lei entrará em vigor na data de sua publicação, produzindo efeitos, quanto aos seus arts. 1º e 2º, bem como quanto ao novel § 6º do art. 1º da Lei nº 17.248, de 2019, para requerimentos de isenção cuja causa"
   },
   "remissoes": [
     {
@@ -39,16 +41,16 @@
   "formulas_referenciadas": [],
   "fonte": {
     "origem": "web-oficial",
-    "url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17759-de-15-de-marco-de-2022",
-    "hash": "sha256:d3508254a2f57b9cc073c92588230b9e08ade015f7bc000408b9b7b72285eed1",
+    "url": "https://legislacao.prefeitura.sp.gov.br/lei-17759-de-15-de-marco-de-2022",
+    "hash": "sha256:b7f263969ca826868eddd71c15c6c3711de97b86ae14581cfdc553d129e71dd2",
     "ocr": false,
-    "metodo": "WebSearch (nao-verbatim; WebFetch/curl bloqueados HTTP 403)",
-    "obs": "texto nao-verbatim; capturado via WebSearch por bloqueio de WebFetch/curl (HTTP 403).",
-    "hash_alvo": "leis/municipal-sp/lei-municipal-saopaulo-17759-2022.md",
-    "hash_nota": "hash da transcrição do corpus (.md) — cru ausente localmente (B-4/B-9); trocar pelo hash do cru quando ele chegar"
+    "metodo": "VERBATIM INTEGRAL (portal oficial, texto compilado); captura 2026-07-10 (texto COMPILADO do Catálogo de Legislação Municipal, HTTPS direto); promovido de _entrada/misto/",
+    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior.",
+    "hash_alvo": "_entrada/misto/lei-municipal-saopaulo-17759-2022.txt",
+    "path": "_entrada/misto/lei-municipal-saopaulo-17759-2022.txt"
   },
-  "status_pipeline": "bruto",
-  "confianca_extracao": "media",
+  "status_pipeline": "indexado",
+  "confianca_extracao": "alta",
   "revisado_por_humano": false,
   "dominio_primario": "iptu",
   "dominio": [

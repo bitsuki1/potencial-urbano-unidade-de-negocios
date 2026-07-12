@@ -1,0 +1,43 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-10365-1987::030-art-20",
+  "lei_id": "lei-municipal-saopaulo-10365-1987",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 20",
+  "numero": "20",
+  "header_raw": "Art. 20 - Além das penalidades previstas no artigo 26 da Lei Federal nº 4.771, de 15 de setembro de 1965, e sem prejuízo da responsabilidade penal e civil, as pessoas físicas ou jurídicas que infringirem as disposições desta lei e de seu regulamento, no tocante ao corte da vegetação, ficam sujeitas às seguintes penalidades:(Revogado pela Lei nº 17.794/2022)",
+  "caminho_hierarquico": [
+    "Capítulo IV",
+    "Art. 20"
+  ],
+  "texto": "Art. 20 - Além das penalidades previstas no artigo 26 da Lei Federal nº 4.771, de 15 de setembro de 1965, e sem prejuízo da responsabilidade penal e civil, as pessoas físicas ou jurídicas que infringirem as disposições desta lei e de seu regulamento, no tocante ao corte da vegetação, ficam sujeitas às seguintes penalidades:(Revogado pela Lei nº 17.794/2022)\n\nI - multa no valor de 3 (três) Unidades de Valor Fiscal do Município - UFM por muda de árvore ou árvore abatida, com DAP - Diâmetro do Caule à Altura do Peito inferior a 0,10 m (dez centímetros);\n\nII - multa no valor de 6 (seis) Unidades de Valor Fiscal do Município - UFM por árvore abatida com DAP - Diâmetro do Caule à ALtura do Peito de 0,10 a 0,30 m (dez a trinta centímetros);\n\nIII - multa de 12 (doze) Unidades de valor Fiscal do Município - UFM por árvore abatida com DAP - Diâmetro do caule à Altura do Peito superior a 0,30 m (trinta centímetros).",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 10.365/1987 — São Paulo/SP",
+    "dispositivo": "Capítulo IV › Art. 20",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-10365-de-22-de-setembro-de-1987",
+    "vigencia": {
+      "em_vigor": true,
+      "observacao": "Vigente; alterada pela Lei 17.267/2020 (e relaciona-se com a Lei 10.919/1990).",
+      "inicio": "1987-09-22",
+      "obs": "inicio = data da lei (proxy da publicação, convenção do corpus); cláusula verbatim: Art. 27 - Esta lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário."
+    }
+  },
+  "tema": [
+    "vegetacao",
+    "APP",
+    "meio_ambiente"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Disciplina o corte e a poda de vegetação de porte arbóreo existente no Município de São Paulo e dá outras providências."
+}

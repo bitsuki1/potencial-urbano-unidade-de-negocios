@@ -19,6 +19,7 @@ COLS = [
     ("tipo_zepec",            "Tipo ZEPEC"),
     ("esfera",                "Esferas (quem tombou)"),
     ("m2_ja_transferido",     "m² já transferido"),
+    ("preco_legal_ref_brl",   "Preço legal ref. (R$) — Art. 128"),
     ("status_fundurb",        "Status FUNDURB do cedente"),
     ("intercorrencia_fundurb","Intercorrência FUNDURB"),
     ("data_ref",              "Data ref."),
@@ -79,7 +80,12 @@ def gerar_xlsx(out_path=None):
                 try: val = round(float(val), 2)
                 except ValueError: pass
             cell = ws.cell(row=rownum, column=j, value=val)
-            cell.alignment = center if key in ("estado_venda","tipo_zepec","esfera","distrito","m2_ja_transferido","data_ref","sql_mestre","status_fundurb") else left
+            if key == "preco_legal_ref_brl" and val:
+                try:
+                    cell.value = float(val); cell.number_format = 'R$ #,##0.00'
+                except ValueError:
+                    pass
+            cell.alignment = center if key in ("estado_venda","tipo_zepec","esfera","distrito","m2_ja_transferido","preco_legal_ref_brl","data_ref","sql_mestre","status_fundurb") else left
             cell.border = border
             cell.font = Font(size=9)
             if i % 2 == 1:
@@ -92,6 +98,7 @@ def gerar_xlsx(out_path=None):
 
     larg = {"Segmento (estágio·dono)":20,"Estágio de venda":15,"Bem tombado":34,"Endereço":30,"Distrito":16,
             "Proprietário":34,"Tipo ZEPEC":12,"Esferas (quem tombou)":22,"m² já transferido":14,
+            "Preço legal ref. (R$) — Art. 128":22,
             "Status FUNDURB do cedente":22,"Intercorrência FUNDURB":20,"Data ref.":12,"SQL (chave do imóvel)":18}
     for j, (_, titulo) in enumerate(COLS, start=1):
         ws.column_dimensions[get_column_letter(j)].width = larg.get(titulo, 16)
@@ -114,7 +121,7 @@ def gerar_xlsx(out_path=None):
         ("SQL", "'CPF do imóvel' (setor-quadra-lote) — a chave que liga tudo."),
         ("Status FUNDURB do cedente", "Status do processo pecuniário FUNDURB do próprio cedente. Hoje INDETERMINADO até confirmar a semântica com a Prefeitura (SMUL)."),
         ("Proprietário", "Cobertura PARCIAL hoje — sobe em escala quando o IPTU/ITBI subir ao Supabase."),
-        ("Preço (R$)", "NÃO está aqui (decisão de pausar). Quando despausar + subir o dado pesado, entra o valor estimado por imóvel."),
+        ("Preço legal ref. (R$)", "Referência legal do Art. 128 (PDE): (potencial × valor do terreno) ÷ 4 — o piso regulatório, que INDEPENDE do comprador (o Cr dele cancela na conta). A MARGEM é sua. A memória de cálculo completa fica no DOSSIÊ de cada imóvel (gerar_dossie.py)."),
         ("Princípio", "Só fato, sem 'vale/melhor/pior'. A priorização comercial é do time. Preço nasce do engine, nunca é inventado."),
     ]
     for i, (a, b) in enumerate(legenda, start=2):
@@ -122,6 +129,32 @@ def gerar_xlsx(out_path=None):
         cb = wl.cell(row=i, column=2, value=b); cb.font = Font(size=10); cb.alignment = Alignment(vertical="top", wrap_text=True)
         if a in COR_ESTAGIO:
             ca.fill = PatternFill("solid", fgColor=COR_ESTAGIO[a])
+
+    # RESUMO (funil) — a manchete: primeira aba, lida de funil.csv (gerada por funil.py).
+    FUNIL = RAIZ / "zepec" / "ferramenta" / "funil.csv"
+    if FUNIL.exists():
+        wr = wb.create_sheet("Resumo (funil)", 0)
+        for col, w in (("A", 46), ("B", 12), ("C", 10), ("D", 62)):
+            wr.column_dimensions[col].width = w
+        tr = wr.cell(row=1, column=1, value="POTENCIAL URBANO — Resumo do funil (cedentes de TDC)")
+        tr.font = Font(bold=True, size=14, color="FFFFFF"); tr.fill = fill_titulo
+        wr.merge_cells("A1:D1"); wr.row_dimensions[1].height = 24
+        frows = list(csv.DictReader(open(FUNIL, encoding="utf-8")))
+        rr = 3
+        for bloco, titulo in (("completude", "Completude do dado (só decresce)"),
+                              ("corte_acao", "Cortes de ação (a fila de abordagem)")):
+            bc = wr.cell(row=rr, column=1, value=titulo)
+            bc.font = Font(bold=True, size=11, color="FFFFFF"); bc.fill = fill_head
+            wr.merge_cells(start_row=rr, start_column=1, end_row=rr, end_column=4); rr += 1
+            for fr in [x for x in frows if x["bloco"] == bloco]:
+                wr.cell(row=rr, column=1, value=fr["estagio"]).font = Font(size=10)
+                qc = wr.cell(row=rr, column=2, value=int(fr["quantidade"]))
+                qc.font = Font(size=10, bold=True); qc.alignment = Alignment(horizontal="center")
+                wr.cell(row=rr, column=3, value=fr["do_total_pct"]).alignment = Alignment(horizontal="center")
+                nc = wr.cell(row=rr, column=4, value=fr["nota"]); nc.font = Font(size=9, color="595959")
+                nc.alignment = Alignment(wrap_text=True, vertical="center")
+                rr += 1
+            rr += 1
 
     wb.save(out)
     print(f"gerado: {out} | imóveis: {len(rows)}")

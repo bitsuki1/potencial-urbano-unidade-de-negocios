@@ -1,0 +1,62 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-6989-1966::130-art-54",
+  "lei_id": "lei-municipal-saopaulo-6989-1966",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 54",
+  "numero": "54",
+  "header_raw": "Art. 54 - O preço dos serviços poderá ser arbitrado na forma que o regulamento dispuser, sem prejuízo das penalidades cabíveis, nos seguintes casos:",
+  "caminho_hierarquico": [
+    "TITULO I",
+    "CAPITULO IV",
+    "SEÇÃO II",
+    "Art. 54"
+  ],
+  "texto": "Art. 54 - O preço dos serviços poderá ser arbitrado na forma que o regulamento dispuser, sem prejuízo das penalidades cabíveis, nos seguintes casos:\n\nI – quando o sujeito passivo não exibir à fiscalização os elementos necessários à comprovação dos respectivos montantes,\n\nII – quando houver fundada suspeita de que os documentos fiscais não refletem o preço real dos serviços, ou quando o declarado for notoriamente inferior ao corrente na praça;\n\nIII – quando o sujeito passivo não estiver inscrito na repartição fiscal competente.\n\nIV - quando o sujeito passivo utilizar equipamento emissor de cupom fiscal - máquina registradora (ECF) que não atenda aos requisitos da legislação tributária.(Incluído pela Lei nº 14.125/2005)\n\nIV - quando o sujeito passivo utilizar equipamento autenticador e transmissor de documentos fiscais eletrônicos que não atenda aos requisitos da legislação tributária.(Redação dada pela Lei nº 15.406/2011)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "2011",
+    "norma_redacao": "Lei nº 15.406/2011"
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 6.989/1966 — São Paulo/SP",
+    "dispositivo": "TITULO I › CAPITULO IV › SEÇÃO II › Art. 54",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-6989-de-29-de-dezembro-de-1966",
+    "vigencia": {
+      "inicio": "1967-01-01",
+      "fim": null,
+      "revogada_por": null,
+      "altera": [],
+      "alterada_por": [
+        "Lei 10.394/1987",
+        "Lei 10.805/1989",
+        "Lei 10.921/1990",
+        "Lei 11.152/1991",
+        "Lei 11.334/1992",
+        "Lei 12.782/1998",
+        "Lei 13.250/2001",
+        "Lei 15.889/2013"
+      ],
+      "obs": "texto COMPILADO do portal oficial, com anotações de alteração por dispositivo; lista alterada_por = anotações verificadas no texto (não exaustiva)"
+    }
+  },
+  "tema": [
+    "sistema_tributario_municipal",
+    "imposto_predial",
+    "imposto_territorial_urbano",
+    "valor_venal",
+    "aliquota_progressiva",
+    "fato_gerador",
+    "isencao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o sistema tributário do Município e da outras providências."
+}

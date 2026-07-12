@@ -4,13 +4,13 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 40",
   "numero": "40",
-  "header_raw": "Art. 40. A Lei nº 16.050, de 2014, passa a vigorar acrescida de art. 99-A com a redação abaixo descrita,",
+  "header_raw": "Art. 40. A Lei nº 16.050, de 2014, passa a vigorar acrescida de art. 99-A com a redação abaixo descrita, renomeada a Subseção IV da Seção I do Capítulo III do seu Título II, na seguinte conformidade:",
   "caminho_hierarquico": [
     "CAPÍTULO III",
     "Seção I",
     "Art. 40"
   ],
-  "texto": "Art. 40. A Lei nº 16.050, de 2014, passa a vigorar acrescida de art. 99-A com a redação abaixo descrita,\n\nrenomeada a Subseção IV da Seção I do Capítulo III do seu Título II, na seguinte conformidade:\n\n“Subseção IV\n\nDa Desapropriação Mediante Pagamento em Títulos da Dívida Pública e da Desapropriação por Hasta\n\nPública.\n\n....................................................................................................",
+  "texto": "Art. 40. A Lei nº 16.050, de 2014, passa a vigorar acrescida de art. 99-A com a redação abaixo descrita, renomeada a Subseção IV da Seção I do Capítulo III do seu Título II, na seguinte conformidade:\n\n“Subseção IV\n\nDa Desapropriação Mediante Pagamento em Títulos da Dívida Pública e da Desapropriação por Hasta Pública.\n\n....................................................................................................",
   "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
@@ -22,7 +22,7 @@
   "citacao": {
     "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
     "dispositivo": "CAPÍTULO III › Seção I › Art. 40",
-    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17975-de-8-de-julho-de-2023",
     "vigencia": {
       "inicio": "2023-07-08",
       "fim": null,

@@ -4,13 +4,13 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 9º",
   "numero": "9",
-  "header_raw": "Art. 9º O art. 13 da Lei nº 16.050, de 2014, passa a vigorar acrescido do inciso V, com a seguinte",
+  "header_raw": "Art. 9º O art. 13 da Lei nº 16.050, de 2014, passa a vigorar acrescido do inciso V, com a seguinte redação:",
   "caminho_hierarquico": [
     "CAPITULO I",
     "Seção II",
     "Art. 9º"
   ],
-  "texto": "Art. 9º O art. 13 da Lei nº 16.050, de 2014, passa a vigorar acrescido do inciso V, com a seguinte\n\nredação:\n\n“Art. 13. .....................................................................................\n\n....................................................................................................\n\nV - incentivar a fruição pública, praças urbanas e usos mistos no térreo dos edifícios, em especial nas\n\ncentralidades existentes e nos eixos de estruturação da transformação urbana.” (NR)",
+  "texto": "Art. 9º O art. 13 da Lei nº 16.050, de 2014, passa a vigorar acrescido do inciso V, com a seguinte redação:\n\n“Art. 13. .....................................................................................\n\n....................................................................................................\n\nV - incentivar a fruição pública, praças urbanas e usos mistos no térreo dos edifícios, em especial nas centralidades existentes e nos eixos de estruturação da transformação urbana.” (NR)",
   "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
@@ -22,7 +22,7 @@
   "citacao": {
     "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
     "dispositivo": "CAPITULO I › Seção II › Art. 9º",
-    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17975-de-8-de-julho-de-2023",
     "vigencia": {
       "inicio": "2023-07-08",
       "fim": null,

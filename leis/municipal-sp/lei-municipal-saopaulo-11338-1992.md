@@ -1,14 +1,64 @@
 # Lei Municipal nº 11.338, de 30 de dezembro de 1992 — São Paulo/SP
 
-**URL oficial:** https://legislacao.prefeitura.sp.gov.br/leis/lei-11338-de-30-de-dezembro-de-1992
-**Data de captura:** 2026-06-18
-
-> PROVENIENCIA: texto NAO-VERBATIM. O ambiente (sandbox) bloqueia WebFetch e curl para todos os hosts juridicos (.gov.br/.com.br/JusBrasil/leismunicipais retornam HTTP 403 por anti-bot, e o egress allowlist do shell bloqueia ate example.com). Conteudo abaixo foi extraido via WebSearch (resumos sourced do buscador), NAO do corpo integral da norma. REQUER re-captura verbatim do Catalogo de Legislacao Municipal a partir de ambiente com egress liberado. confianca_extracao=baixa.
+**URL oficial:** https://legislacao.prefeitura.sp.gov.br/lei-11338-de-30-de-dezembro-de-1992
+**Data de captura:** 2026-07-10 (texto COMPILADO do Catálogo de Legislação Municipal, HTTPS direto)
+**Proveniência:** VERBATIM INTEGRAL — capturado de https://legislacao.prefeitura.sp.gov.br/lei-11338-de-30-de-dezembro-de-1992 (2026-07-10 (texto COMPILADO do Catálogo de Legislação Municipal, HTTPS direto)); promovido de `_entrada/misto/lei-municipal-saopaulo-11338-1992.txt`. Saneado só lixo de captura; boilerplate oficial do portal preservado (anotações de alteração do texto compilado incluídas).
+**confianca_extracao:** alta (articulado integral verbatim)
 
 ## Ementa
 
 Concede isenção e desconto do Imposto Territorial Urbano incidente sobre imóveis situados em área de proteção aos mananciais, e dá outras providências.
 
-## Conteudo (resumo sourced, nao-verbatim)
+## Texto integral (verbatim)
 
-Concede isencao e desconto do IPTU (imposto territorial) sobre imoveis em area de protecao aos mananciais. A isencao incide sobre o EXCESSO DE AREA de imoveis nas areas de protecao aos mananciais (Leis Estaduais 898/1975 e 1.172/1976) e em Zonas Especiais de Preservacao Ambiental (ZEPAM) na Macrozona de Estruturacao e Qualificacao Urbana, desde que respeitada a taxa minima de permeabilidade. Nao dispensa obrigacoes acessorias. Alterada por leis posteriores. Texto integral nao verbatim.
+LEI Nº 11.338, DE 30 DE DEZEMBRO DE 1992.
+
+Concede isenção e desconto do imposto territorial urbano incidente sobre imóveis situados em área de proteção aos mananciais, e dá outras providências.
+
+LUIZA ERUNDINA DE SOUSA, Prefeita do Município de São Paulo, usando das atribuições que lhe são conferidas por Lei. Faz saber que a Câmara Municipal, em sessão de 29 de dezembro de 1992, decretou e eu promulgo a seguinte Lei.
+
+Art. 1º Fica concedida isenção do Imposto Territorial Urbano incidente sobre o excesso de área, conforme considerado no artigo 9º da Lei nº 10.235, de 16 de dezembro de 1986, referente a imóveis situados na Área de Proteção aos Mananciais, definida nas Leis Estaduais nº 898, dê 18 de dezembro de 1975 e nº 1172, de 17 de novembro de 1976.
+
+Art. 1º Fica concedida isenção de Imposto Territorial Urbano incidente sobre o excesso de área conforme considerado no art. 9° da Lei n° 10.235, de 16 de dezembro de 1986, referente a imóveis situados na área de proteção aos mananciais, definida nas Leis Estaduais n° 898, de 18 de dezembro de 1975, e n° 1.172, de 17 de novembro de 1976, bem como a imóveis localizados na Zona Especial de Preservação Ambiental - ZEPAM, situados na Macrozona de Estruturação e Qualificação Urbana, desde que respeitada a taxa de permeabilidade mínima estabelecida na legislação pertinente. (Redação dada pela Lei nº 14.125/2005)
+
+Art. 1º. Fica concedida isenção de Imposto Territorial Urbano incidente sobre o excesso de área conforme considerado no art. 9° da Lei nº 10.235, de 16 de dezembro de 1986, referente a imóveis situados na área de proteção aos mananciais, definida nas Leis Estaduais nº 898, de 18 de dezembro de 1975, e nº 1.172, de 17 de novembro de 1976, bem como a imóveis localizados na Zona Especial de Preservação Ambiental - ZEPAM, situados na Macrozona de Estruturação e Qualificação Urbana definida na Lei nº 13.430, de 13 de setembro de 2002. (Redação dada pela Lei nº 14.256/2016)
+
+§ 1º. (VETADO)(Incluído Lei nº 14.256/2016)(Revogado pela Lei 16.402/2016)
+
+§ 2º. (VETADO)(Incluído Lei nº 14.256/2016)(Revogado pela Lei 16.402/2016)
+
+§ 3º. (VETADO)(Incluído Lei nº 14.256/2016)(Revogado pela Lei 16.402/2016)
+
+I - (VETADO)(Incluído Lei nº 14.256/2016)
+
+II - (VETADO)(Incluído Lei nº 14.256/2016)
+
+III - (VETADO)(Incluído Lei nº 14.256/2016)
+
+IV - (VETADO)(Incluído Lei nº 14.256/2016)
+
+§ 4º. (VETADO)(Incluído Lei nº 14.256/2016)(Revogado pela Lei 16.402/2016)
+
+I - (VETADO)(Incluído Lei nº 14.256/2016)
+
+II - (VETADO)(Incluído Lei nº 14.256/2016)
+
+a) (VETADO)(Incluído Lei nº 14.256/2016)
+
+b) (VETADO)(Incluído Lei nº 14.256/2016)
+
+c) (VETADO)(Incluído Lei nº 14.256/2016)
+
+§ 5º. (VETADO)(Revogado pela Lei 16.402/2016)
+
+Art. 2º Fica concedido desconto de 50% (cinquenta por cento) no Imposto Territorial Urbano incidente sobre os terrenos considerados não construídos, nos termos dos incisos I, II e IV do artigo 24 da Lei nº 6989, de 29 de dezembro de 1966, localizados na Área de Proteção aos Mananciais, definida nas Leis Estaduais nº 898, de 18 de dezembro de 1975 e nº 1172, de 17 de novembro de 1976.
+
+Art. 3º Os benefícios concedidos nos termos desta Lei não exoneram os beneficiários do cumprimento das obrigações acessórias a que estão sujeitos.
+
+Art. 4º Esta Lei entrará em vigor na data de sua publicação, produzindo efeitos a partir de 1º de janeiro de 1993, revogadas as disposições em contrário.
+
+PREFEITURA DO MUNICÍPIO DE SÃO PAULO, AOS 30 DE DEZEMBRO DE 1992, 439º DA FUNDAÇÃO DE SÃO PAULO.
+
+LUIZA ERUNDINA DE SOUSA, PREFEITA
+
+Este texto não substitui o original publicado no Diário Oficial da Cidade de São Paulo

@@ -4,12 +4,12 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 3º",
   "numero": "3",
-  "header_raw": "Art. 3º Ficam mantidas as estratégias de ordenação territorial da Política de Desenvolvimento Urbano",
+  "header_raw": "Art. 3º Ficam mantidas as estratégias de ordenação territorial da Política de Desenvolvimento Urbano estabelecidas pela Lei nº 16.050, de 2014, estruturadas a partir das dimensões social, ambiental, imobiliária, econômica e cultural, com base nos elementos definidos como Macrozonas, respectivas Macroáreas e Rede de Estruturação e Transformação Urbana.",
   "caminho_hierarquico": [
     "CAPITULO I",
     "Art. 3º"
   ],
-  "texto": "Art. 3º Ficam mantidas as estratégias de ordenação territorial da Política de Desenvolvimento Urbano\n\nestabelecidas pela Lei nº 16.050, de 2014, estruturadas a partir das dimensões social, ambiental,\n\nimobiliária, econômica e cultural, com base nos elementos definidos como Macrozonas, respectivas\n\nMacroáreas e Rede de Estruturação e Transformação Urbana.\n\nParágrafo único. A título de corrigenda, para eliminação de ambiguidade decorrente do uso do\n\nvernáculo na legislação ora revista, onde se lê “Projeto de Intervenção Urbana – PIU”, leia-se “Plano de\n\nIntervenção Urbana – PIU”.\n\nSeção I\n\nDa Integração dos Objetivos do Desenvolvimento Sustentável – ODS da Agenda 2030 para o\n\nDesenvolvimento Sustentável e das Ações para o Enfrentamento das Mudanças Climáticas, em\n\nConformidade com Acordos Internacionais",
+  "texto": "Art. 3º Ficam mantidas as estratégias de ordenação territorial da Política de Desenvolvimento Urbano estabelecidas pela Lei nº 16.050, de 2014, estruturadas a partir das dimensões social, ambiental, imobiliária, econômica e cultural, com base nos elementos definidos como Macrozonas, respectivas Macroáreas e Rede de Estruturação e Transformação Urbana.\n\nParágrafo único. A título de corrigenda, para eliminação de ambiguidade decorrente do uso do vernáculo na legislação ora revista, onde se lê “Projeto de Intervenção Urbana – PIU”, leia-se “Plano de Intervenção Urbana – PIU”.\n\nSeção I\n\nDa Integração dos Objetivos do Desenvolvimento Sustentável – ODS da Agenda 2030 para o Desenvolvimento Sustentável e das Ações para o Enfrentamento das Mudanças Climáticas, em Conformidade com Acordos Internacionais",
   "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
@@ -21,7 +21,7 @@
   "citacao": {
     "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
     "dispositivo": "CAPITULO I › Art. 3º",
-    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17975-de-8-de-julho-de-2023",
     "vigencia": {
       "inicio": "2023-07-08",
       "fim": null,

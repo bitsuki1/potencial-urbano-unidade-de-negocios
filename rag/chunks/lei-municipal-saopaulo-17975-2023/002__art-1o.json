@@ -4,12 +4,12 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 1º",
   "numero": "1",
-  "header_raw": "Art. 1º Esta Lei dispõe sobre a revisão intermediária do Plano Diretor Estratégico do Município de São",
+  "header_raw": "Art. 1º Esta Lei dispõe sobre a revisão intermediária do Plano Diretor Estratégico do Município de São Paulo, aprovado pela Lei nº 16.050, de 31 de julho de 2014, elaborada de forma participativa consoante com os termos da previsão de seu art. 4º, e consiste nos ajustes e adequações dos instrumentos da Política de Desenvolvimento Urbano regulados, visando ao alcance de seus objetivos até o ano de 2029.",
   "caminho_hierarquico": [
     "CAPITULO I",
     "Art. 1º"
   ],
-  "texto": "Art. 1º Esta Lei dispõe sobre a revisão intermediária do Plano Diretor Estratégico do Município de São\n\nPaulo, aprovado pela Lei nº 16.050, de 31 de julho de 2014, elaborada de forma participativa consoante\n\ncom os termos da previsão de seu art. 4º, e consiste nos ajustes e adequações dos instrumentos da\n\nPolítica de Desenvolvimento Urbano regulados, visando ao alcance de seus objetivos até o ano de\n\n2029\\.",
+  "texto": "Art. 1º Esta Lei dispõe sobre a revisão intermediária do Plano Diretor Estratégico do Município de São Paulo, aprovado pela Lei nº 16.050, de 31 de julho de 2014, elaborada de forma participativa consoante com os termos da previsão de seu art. 4º, e consiste nos ajustes e adequações dos instrumentos da Política de Desenvolvimento Urbano regulados, visando ao alcance de seus objetivos até o ano de 2029.",
   "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
@@ -21,7 +21,7 @@
   "citacao": {
     "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
     "dispositivo": "CAPITULO I › Art. 1º",
-    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17975-de-8-de-julho-de-2023",
     "vigencia": {
       "inicio": "2023-07-08",
       "fim": null,

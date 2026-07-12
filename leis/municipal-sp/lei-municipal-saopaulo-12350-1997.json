@@ -22,7 +22,9 @@
   ],
   "vigencia": {
     "em_vigor": true,
-    "observacao": "Regulamentada pelo Decreto 37.302/1998 ('Lei das Fachadas'). Verificar na re-captura se ha alteracoes/revogacoes posteriores."
+    "observacao": "Regulamentada pelo Decreto 37.302/1998 ('Lei das Fachadas'). Verificar na re-captura se ha alteracoes/revogacoes posteriores.",
+    "inicio": "1997-06-06",
+    "obs": "inicio = data da lei (proxy da publicação, convenção do corpus); cláusula verbatim: Art. 9º Esta Lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário."
   },
   "remissoes": [
     {
@@ -41,16 +43,16 @@
   "formulas_referenciadas": [],
   "fonte": {
     "origem": "web-oficial",
-    "url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-12350-de-6-de-junho-de-1997",
-    "hash": "sha256:b7621d7027bfd919ff065d1a536653c1315eab61cd0c5c135bc4f1f9d72878d7",
+    "url": "https://legislacao.prefeitura.sp.gov.br/lei-12350-de-6-de-junho-de-1997",
+    "hash": "sha256:a09c27c45caa73c9713fc9b66d30bb56e165d8399d3dceaeff83799a6eeec585",
     "ocr": false,
-    "metodo": "WebSearch (nao-verbatim; WebFetch/curl bloqueados HTTP 403)",
-    "obs": "texto nao-verbatim; capturado via WebSearch por bloqueio de WebFetch/curl (HTTP 403).",
-    "hash_alvo": "leis/municipal-sp/lei-municipal-saopaulo-12350-1997.md",
-    "hash_nota": "hash da transcrição do corpus (.md) — cru ausente localmente (B-4/B-9); trocar pelo hash do cru quando ele chegar"
+    "metodo": "VERBATIM INTEGRAL (portal oficial, texto compilado); captura 2026-07-10 (texto COMPILADO do Catálogo de Legislação Municipal, HTTPS direto); promovido de _entrada/misto/",
+    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior.",
+    "hash_alvo": "_entrada/misto/lei-municipal-saopaulo-12350-1997.txt",
+    "path": "_entrada/misto/lei-municipal-saopaulo-12350-1997.txt"
   },
-  "status_pipeline": "bruto",
-  "confianca_extracao": "media",
+  "status_pipeline": "indexado",
+  "confianca_extracao": "alta",
   "revisado_por_humano": false,
   "dominio_primario": "compartilhado",
   "dominio": [

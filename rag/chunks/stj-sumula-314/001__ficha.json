@@ -1,0 +1,33 @@
+{
+  "chunk_id": "stj-sumula-314::001-ficha",
+  "lei_id": "stj-sumula-314",
+  "tipo_dispositivo": "jurisprudencia",
+  "rotulo": "STJ 314",
+  "numero": "314",
+  "header_raw": "STJ 314. Em execução fiscal, não localizados bens penhoráveis, suspende-se o processo por um ano, findo o qual se inicia",
+  "caminho_hierarquico": [
+    "STJ 314"
+  ],
+  "texto": "STJ 314. Em execução fiscal, não localizados bens penhoráveis, suspende-se o processo por um ano, findo o qual se inicia o prazo da prescrição qüinqüenal intercorrente. Dispositivos relacionados: Lei 6.830/80 (LEF) art. 40; CTN art. 174.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "vigente (Primeira Seção, j. 12/12/2005, DJ 08/02/2006)",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "sumula STJ 314",
+    "dispositivo": "STJ 314",
+    "fonte_url": "https://scon.stj.jus.br/SCON/sumstj/doc.jsp?livre=%22314%22.num.&b=SUMU",
+    "vigencia": {}
+  },
+  "tema": [],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "STJ",
+  "ementa": "Em execução fiscal, não localizados bens penhoráveis, suspende-se o processo por um ano, findo o qual se inicia o prazo da prescrição qüinqüenal intercorrente."
+}

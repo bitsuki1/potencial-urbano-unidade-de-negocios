@@ -4,13 +4,13 @@
   "tipo_dispositivo": "artigo",
   "rotulo": "Art. 21",
   "numero": "21",
-  "header_raw": "Art. 21. O art. 60 da Lei nº 16.050, de 2014, passa a vigorar com o acréscimo das alíneas “c”, “d” e “e”",
+  "header_raw": "Art. 21. O art. 60 da Lei nº 16.050, de 2014, passa a vigorar com o acréscimo das alíneas “c”, “d” e “e” e do § 5º:",
   "caminho_hierarquico": [
     "CAPÍTULO II",
     "Seção I",
     "Art. 21"
   ],
-  "texto": "Art. 21. O art. 60 da Lei nº 16.050, de 2014, passa a vigorar com o acréscimo das alíneas “c”, “d” e “e”\n\ne do § 5º:\n\n“Art. 60. .....................................................................................\n\nI - ................................................................................................\n\n....................................................................................................\n\nc) nos lotes localizados nas MEM, MUC e MQU poderão ter acréscimo de até 50% (cinquenta por\n\ncento) ao C.A. max permitido conforme Quadros 2 e 2A desde que o acréscimo seja destinado\n\nexclusivamente ao uso HIS;\n\nd) nos lotes localizados nas MEM, MUC e MQU poderão ter acréscimo de até 25% (vinte e cinco por\n\ncento) ao C.A. max permitido conforme Quadros 2 e 2A desde que o acréscimo seja destinado\n\nexclusivamente ao uso HMP e mediante pagamento de outorga onerosa;\n\nhttps://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023 11/60\n\n04/12/2025, 17:28 LEI Nº 17.975 DE 8 DE JULHO DE 2023 « Catálogo de Legislação Municipal\n\ne) será considerado não computável, até o limite de 50% (cinquenta por cento) da área construída\n\ncomputável máxima permitida, a área destinada a HIS 1.\n\n....................................................................................................\n\n§ 5º O disposto nas alíneas “c” e “d” deste artigo se aplicam a todos os empreendimentos, exceto os\n\nEHIS e EHMP, o disposto na alínea “e” se aplica a qualquer empreendimento, a serem executados\n\ndentro das macroáreas citadas e poderão ser cumulativos.” (NR)\n\nSeção II\n\nDa Zona Especial de Preservação Cultural (ZEPEC)",
+  "texto": "Art. 21. O art. 60 da Lei nº 16.050, de 2014, passa a vigorar com o acréscimo das alíneas “c”, “d” e “e” e do § 5º:\n\n“Art. 60. .....................................................................................\n\nI - ................................................................................................\n\n....................................................................................................\n\nc) nos lotes localizados nas MEM, MUC e MQU poderão ter acréscimo de até 50% (cinquenta por cento) ao C.A. max permitido conforme Quadros 2 e 2A desde que o acréscimo seja destinado exclusivamente ao uso HIS;\n\nd) nos lotes localizados nas MEM, MUC e MQU poderão ter acréscimo de até 25% (vinte e cinco por cento) ao C.A. max permitido conforme Quadros 2 e 2A desde que o acréscimo seja destinado exclusivamente ao uso HMP e mediante pagamento de outorga onerosa;\n\ne) será considerado não computável, até o limite de 50% (cinquenta por cento) da área construída computável máxima permitida, a área destinada a HIS 1.\n\n....................................................................................................\n\n§ 5º O disposto nas alíneas “c” e “d” deste artigo se aplicam a todos os empreendimentos, exceto os EHIS e EHMP, o disposto na alínea “e” se aplica a qualquer empreendimento, a serem executados dentro das macroáreas citadas e poderão ser cumulativos.” (NR)\n\nSeção II\n\nDa Zona Especial de Preservação Cultural (ZEPEC)",
   "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
@@ -22,7 +22,7 @@
   "citacao": {
     "norma": "lei_ordinaria nº 17.975/2023 — São Paulo/SP",
     "dispositivo": "CAPÍTULO II › Seção I › Art. 21",
-    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-17975-de-8-de-julho-de-2023",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17975-de-8-de-julho-de-2023",
     "vigencia": {
       "inicio": "2023-07-08",
       "fim": null,
