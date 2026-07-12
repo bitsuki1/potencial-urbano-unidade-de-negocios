@@ -6,6 +6,16 @@
 > Este roadmap é o **contrato da arrumação** — para que nada se perca. Cada fase tem DoD (como PROVAR que fechou).
 
 ---
+## ★ ESTADO DA EXECUÇÃO (2026-07-12) — ENSAIO VERDE, aguardando "pode mover" do MOU
+- **De-para pronto:** `inventario/drive-pu/ARRUMAR-DE-PARA.csv` (33.138 arquivos → destino). Distribuição:
+  **90** (bruto) 22.268 · **99** (APAGAR) 8.603 · **02** 1.422 · **05** 641 · **03** 140 · **00** 64.
+- **Motor pronto:** `scripts/mover_por_destino_sa.py` + Action `arrumar-drive.yml` (robô SA, MOVE não apaga).
+- **Ensaio (DRY_RUN) rodado 2× — VERDE.** Validado contra o Drive real: renomeia **TODOS TDC → `90`**
+  (22.057 SO_IDEIA ficam no lugar, 0 movimento), reaproveita a APAGAR legada como **`99`** e **funde**
+  a 2ª lixeira `99 — DUPLICATAS-A-EXCLUIR`, protege norma oficial do lixo. **~11.081 movimentos no teto**
+  (~8.600 do APAGAR já lá desde a sessão anterior → idempotente `ja_la`; reais ≈ 2.500 keepers + 211 órfãos).
+- **FALTA só o gate humano:** disparar a Action com `dry_run=false` (o "pode mover" do MOU). Reversível.
+
 ## 0. Estado atual (medido, não achismo) — catálogo `CATALOGO-DRIVE-PU-2026-07-12.csv`
 - **33.138 arquivos** catalogados e tagueados (tema · tipo · oficialidade · já-indexado · uso · duplicata).
 - Topo da pasta HOJE (bagunça confirmada no print do MOU):
