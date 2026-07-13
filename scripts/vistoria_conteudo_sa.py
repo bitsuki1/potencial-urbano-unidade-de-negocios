@@ -50,10 +50,18 @@ RX_ARTICULADO = re.compile(r"\bart(?:igo)?\.?\s*1[\s.ºo]", re.I)
 RX_CRIADO = re.compile(r"(texto\s+integral\s*\(verbatim\)|\*\*proveni[êe]ncia|oraculo_|conhecimento_mestre|"
                        r"log_extracao|deep_scan|estrutura_silver|_chunk\b|gerado\s+(por|pelo)\s+motor|"
                        r"pipeline\s+potencial\s+urbano|## +metadados|\"chunk_id\"|\"drive_id\":)", re.I)
+# CRIADO por ENRIQUECIMENTO nosso — marcas no CONTEÚDO (colunas derivadas/nomes de etapa nossa):
+RX_CRIADO_ENR = re.compile(r"(enriquecid|blindad|asset_light|\bdossie\b|sql_unificad|sql_key|bp_proipha|bp_obscomp|"
+                           r"lista\s*prospec|prospec[çc][ãa]o\s+ativa|_final_v\d|\btiers\b|potencialurbano|"
+                           r"amostralista|base_tdc_)", re.I)
 RX_COMERCIAL_HDR = re.compile(r"\b(cnpj|raz[ãa]o\s+social|s[óo]cio|qsa|quadro\s+societ[áa]rio|contribuinte|"
                               r"inscri[çc][ãa]o\s+imobili[áa]ria|numero_contribuinte|sql\b|testada|"
                               r"valor\s+venal|cep\b|logradouro|proprietari|itbi)", re.I)
 RX_GOV_CADASTRO = re.compile(r"(iptu|itbi|valor\s+venal|inscri[çc][ãa]o\s+imobili[áa]ria|sirgas|geosampa|setor\s+fiscal)", re.I)
+# FONTE governamental (produtor público, qualquer esfera) — decide OFICIAL por si:
+RX_GOV_FONTE = re.compile(r"(geosampa|sirgas|\bsvma\b|geoportal|secretaria\s+municipal|prefeitura\s+(do\s+munic[íi]pio|municipal)|"
+                          r"c[âa]mara\s+municipal|dados\s+abertos|receita\s+federal|imprensa\s+oficial|di[áa]rio\s+oficial|"
+                          r"minist[ée]rio\s+p[úu]blico|tribunal\s+de\s+justi[çc]a|conpresp|iphan|condephaat)", re.I)
 
 
 def _drive():
@@ -188,15 +196,20 @@ def classificar(texto, metodo):
         return t[max(0, m.start()-40):m.end()+60].replace("\n", " ").strip() if m else ""
     if not t.strip():
         return "ILEGIVEL", "nao", "alta", f"(sem texto extraível — metodo={metodo})", False
-    # 1) CRIADO por nós (cabeçalho de pipeline / prosa nossa)
+    # 1) CRIADO por nós — cabeçalho de pipeline OU marcas de enriquecimento nosso no conteúdo (vem 1º:
+    #    um arquivo que NÓS enriquecemos é CRIADO mesmo que contenha colunas cadastrais/oficiais).
     if RX_CRIADO.search(t):
-        return "CRIADO", "nao", "alta", "CRIADO: " + trecho(RX_CRIADO), False
-    # 2) OFICIAL: masthead/emissor OU norma articulada
+        return "CRIADO", "nao", "alta", "CRIADO(pipeline): " + trecho(RX_CRIADO), False
+    if RX_CRIADO_ENR.search(t):
+        return "CRIADO", "nao", "media", "CRIADO(enriquecido por nós): " + trecho(RX_CRIADO_ENR), False
+    # 2) OFICIAL: masthead/emissor, fonte governamental, OU norma articulada
     if RX_OFICIAL.search(t):
-        return "OFICIAL", ("sim" if RX_GOV_CADASTRO.search(t) else "nao"), "alta", "OFICIAL: " + trecho(RX_OFICIAL), False
+        return "OFICIAL", ("sim" if RX_GOV_CADASTRO.search(t) else "nao"), "alta", "OFICIAL(masthead): " + trecho(RX_OFICIAL), False
+    if RX_GOV_FONTE.search(t):
+        return "OFICIAL", ("sim" if (RX_GOV_CADASTRO.search(t) or RX_COMERCIAL_HDR.search(t)) else "nao"), "media", "OFICIAL(fonte gov): " + trecho(RX_GOV_FONTE), False
     if RX_NORMA.search(t) and RX_ARTICULADO.search(t):
         return "OFICIAL", "nao", "media", "OFICIAL(norma articulada): " + trecho(RX_NORMA), False
-    # 3) COMERCIAL: cabeçalho de dado de proprietário
+    # 3) COMERCIAL: cabeçalho de dado de proprietário (externo, não-nosso e não-gov)
     if RX_COMERCIAL_HDR.search(t):
         gov = bool(RX_GOV_CADASTRO.search(t))
         return ("OFICIAL" if gov else "NAO_OFICIAL_EXTERNO"), "sim", "media", "COMERCIAL/dado-proprietario: " + trecho(RX_COMERCIAL_HDR), False
@@ -214,22 +227,34 @@ def classificar_llm(nome, texto):
               "oficial, ou base de dados externa/comercial), CRIADO (gerado por um pipeline de IA/nosso, resumo/análise/chunk). "
               "Responda SÓ um JSON {\"classe\":\"...\",\"comercial\":\"sim|nao\",\"motivo\":\"<=15 palavras\"}.\n\n"
               f"NOME(contexto): {nome}\nCONTEÚDO:\n{texto[:4000]}")
-    try:
-        import urllib.request
-        body = json.dumps({"contents": [{"parts": [{"text": prompt}]}]}).encode()
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={key}"
-        req = urllib.request.Request(url, data=body, headers={"Content-Type": "application/json"})
-        with urllib.request.urlopen(req, timeout=40) as r:
-            out = json.loads(r.read())
-        txt = out["candidates"][0]["content"]["parts"][0]["text"]
-        m = re.search(r"\{.*\}", txt, re.S)
-        j = json.loads(m.group(0))
-        cl = j.get("classe", "").upper()
-        if cl not in ("OFICIAL", "NAO_OFICIAL_EXTERNO", "CRIADO"):
-            return None
-        return cl, ("sim" if str(j.get("comercial", "")).lower().startswith("s") else "nao"), "LLM: " + j.get("motivo", "")[:120]
-    except Exception:
-        return None
+    import urllib.request
+    body = json.dumps({"contents": [{"parts": [{"text": prompt}]}],
+                       "generationConfig": {"temperature": 0}}).encode()
+    modelos = [os.environ.get("GEMINI_MODEL", "gemini-2.0-flash"), "gemini-flash-latest", "gemini-1.5-flash"]
+    for modelo in modelos:
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{modelo}:generateContent?key={key}"
+        try:
+            req = urllib.request.Request(url, data=body, headers={"Content-Type": "application/json"})
+            with urllib.request.urlopen(req, timeout=45) as r:
+                out = json.loads(r.read())
+            txt = out["candidates"][0]["content"]["parts"][0]["text"]
+            m = re.search(r"\{.*\}", txt, re.S)
+            j = json.loads(m.group(0))
+            cl = j.get("classe", "").upper()
+            if cl not in ("OFICIAL", "NAO_OFICIAL_EXTERNO", "CRIADO"):
+                return None
+            return cl, ("sim" if str(j.get("comercial", "")).lower().startswith("s") else "nao"), "LLM: " + j.get("motivo", "")[:120]
+        except Exception as e:
+            classificar_llm._erros = getattr(classificar_llm, "_erros", 0) + 1
+            if classificar_llm._erros <= 3:
+                detalhe = ""
+                try:
+                    detalhe = e.read().decode()[:200]
+                except Exception:
+                    detalhe = str(e)[:200]
+                print(f"  [gemini {modelo}] erro: {detalhe}", file=sys.stderr)
+            continue
+    return None
 
 
 def carregar_fila():
