@@ -14,11 +14,11 @@ on:
         type: choice
         options: ["true", "false"]
       acao:
-        description: "arrumar = de-para geral; selo = prova o topo (read-only); comercial = move o 06."
+        description: "arrumar; selo (read-only); comercial (move o 06); bruto90 (move CRIADO/imagens p/ 90)."
         required: true
         default: "arrumar"
         type: choice
-        options: ["arrumar", "selo", "comercial"]
+        options: ["arrumar", "selo", "comercial", "bruto90"]
 
 permissions:
   contents: read
@@ -45,6 +45,10 @@ jobs:
           if [ "${{ inputs.acao }}" = "selo" ]; then
             python3 scripts/selo_arrumacao_sa.py
           elif [ "${{ inputs.acao }}" = "comercial" ]; then
+            python3 scripts/mover_06_comercial_sa.py
+          elif [ "${{ inputs.acao }}" = "bruto90" ]; then
+            DESTINO_NOME="90 — Material bruto (só ideias)" \
+            DE_PARA="inventario/drive-pu/DE-PARA-90-BRUTO.csv" \
             python3 scripts/mover_06_comercial_sa.py
           else
             python3 scripts/mover_por_destino_sa.py

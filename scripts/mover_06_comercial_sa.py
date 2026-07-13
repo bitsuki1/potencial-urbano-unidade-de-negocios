@@ -12,8 +12,10 @@ import time
 from pathlib import Path
 
 POTENCIAL_URBANO_ID = "1BrM6q36meTtn5guJoiGbqvCtZF11Uau3"
-DESTINO_NOME = "06 — Comercial"
-DE_PARA = Path(__file__).resolve().parents[1] / "inventario" / "drive-pu" / "DE-PARA-06-COMERCIAL.csv"
+# Genérico: DESTINO_NOME e DE_PARA vêm por env (defaults = 06 — Comercial). Reusado p/ mover ao 90 etc.
+DESTINO_NOME = os.environ.get("DESTINO_NOME", "06 — Comercial")
+_DEFAULT_DEPARA = Path(__file__).resolve().parents[1] / "inventario" / "drive-pu" / "DE-PARA-06-COMERCIAL.csv"
+DE_PARA = Path(os.environ.get("DE_PARA", str(_DEFAULT_DEPARA)))
 DRY_RUN = os.environ.get("DRY_RUN", "true").strip().lower() != "false"
 
 
