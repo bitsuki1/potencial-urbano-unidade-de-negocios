@@ -1,38 +1,76 @@
-# Saneamento de DUPLICATAS do Drive via CONTA DE SERVIÇO (o "robô") — disparo MANUAL, ensaio primeiro.
-# APAGA (lixeira, recuperável ~30d) as duplicatas auditadas, mantendo 1 canônica por grupo.
-# O log é lido pelo assistente pela API; a aceitação é a contagem/tamanho antes-depois.
-# Pré-requisito: secret GOOGLE_SA_KEY (JSON da conta de serviço).
+# VISTORIA DE PROVENIÊNCIA POR CONTEÚDO do Drive (conta de serviço) — ABRE e lê cada arquivo,
+# classifica pela evidência do conteúdo (oficial|não-oficial-externo|criado|ilegível), grava o trecho.
+# READ-ONLY no Drive (só lê). Disparo manual, por shard. Commita o CSV do shard (rebase-retry).
+# Pré-req: secrets GOOGLE_SA_KEY (Drive) + GEMINI_API_KEY (resolve ambíguos). (Nome herdado: sanear-drive.)
 name: sanear-drive
 
 on:
   workflow_dispatch:
     inputs:
-      dry_run:
-        description: "true = ENSAIO (não apaga nada). Só 'false' manda para a lixeira."
+      nshards:
+        description: "quantos shards no total (paralelismo por disparos separados)"
         required: true
-        default: "true"
-        type: choice
-        options: ["true", "false"]
+        default: "8"
+      shard:
+        description: "índice deste shard (0..nshards-1)"
+        required: true
+        default: "0"
+      limit:
+        description: "máx. de arquivos (0 = todos deste shard). Use pequeno p/ validar."
+        required: true
+        default: "150"
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
-  group: sanear-drive
+  group: vistoria-shard-${{ inputs.shard }}
   cancel-in-progress: false
 
 jobs:
-  sanear:
+  vistoria:
     runs-on: ubuntu-latest
+    timeout-minutes: 350
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
       - uses: actions/setup-python@v5
         with:
           python-version: "3.x"
-      - name: Instalar libs do Google
-        run: pip install --quiet google-api-python-client google-auth
-      - name: Sanear duplicatas (DRY_RUN=${{ inputs.dry_run }})
+      - name: Instalar OCR (tesseract + poppler)
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-por poppler-utils
+      - name: Instalar libs Python
+        run: pip install --quiet google-api-python-client google-auth pypdf pdf2image pytesseract openpyxl dbfread pillow
+      - name: Rodar vistoria (shard ${{ inputs.shard }}/${{ inputs.nshards }}, limit ${{ inputs.limit }})
         env:
           GOOGLE_SA_KEY: ${{ secrets.GOOGLE_SA_KEY }}
-          DRY_RUN: ${{ inputs.dry_run }}
-        run: python3 scripts/sanear_duplicatas_sa.py
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          NSHARDS: ${{ inputs.nshards }}
+          SHARD: ${{ inputs.shard }}
+          LIMIT: ${{ inputs.limit }}
+        run: python3 scripts/vistoria_conteudo_sa.py
+      - name: Amostra do resultado (para inspeção no log)
+        run: |
+          echo "=== primeiras 25 linhas do CSV do shard ==="
+          head -25 "inventario/drive-pu/PROVENIENCIA-shard${{ inputs.shard }}.csv" || true
+          echo "=== distribuição de classe ==="
+          python3 - <<'PY'
+          import csv,glob,collections
+          for fn in glob.glob("inventario/drive-pu/PROVENIENCIA-shard*.csv"):
+              c=collections.Counter()
+              for r in csv.DictReader(open(fn,encoding="utf-8")): c[r["classe"]]+=1
+              print(fn, dict(c))
+          PY
+      - name: Commitar CSV do shard (rebase-retry)
+        run: |
+          git config user.name "Potencial Urbano (vistoria)"
+          git config user.email "contato@bitsuki.com.br"
+          git add inventario/drive-pu/PROVENIENCIA-shard*.csv || true
+          if git diff --cached --quiet; then echo "nada a commitar"; exit 0; fi
+          git commit -q -m "Vistoria conteúdo: shard ${{ inputs.shard }} (proveniência por evidência)"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin "${{ github.ref_name }}" && git push origin "HEAD:${{ github.ref_name }}" && exit 0
+            sleep $((3*i))
+          done
+          echo "push falhou após retries"; exit 1
