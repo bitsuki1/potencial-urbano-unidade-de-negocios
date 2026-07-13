@@ -49,9 +49,11 @@ Cada uma com `data_base` no METADATA (rastreada pelo consolidar; 0 sem data_base
   Art. 124 §2º (TJSP) + vacina (protocolo/ultratividade). **PROPOSTA — aguarda escrutínio do MOU** (D‑13: uma a uma).
 
 ## Resíduos declarados (o honesto "o que ainda melhora")
-1. **Precisão do Art. 128 §2º (já‑declarados):** o dossiê usa o VTcd vigente (2025) quando falta o VTcd nominal da
-   **data da Declaração**. A série de reajuste (vintage) e o IPCA já estão no motor — é possível **retro‑calcular** o
-   VTcd da data via fator Q14 e aplicar o §2º. Melhoria de precisão proposta (toca número do cliente → sob gate).
+1. **Precisão do Art. 128 §2º (já‑declarados):** o motor **já** compõe o §2º como MAX(A;B) com "VTcd da Declaração ×
+   IPCA" quando o VTcd da data é conhecido. Para o caso em que só se conhece o VTcd de OUTRO exercício (o vigente da
+   base), foi adicionada a função **`vtcd_na_data()`** em `art128.py` — retro‑calcula o VTcd da data da Declaração pela
+   razão de reajuste UNIFORME do Quadro 14 (exato; autoteste round‑trip verde). **Resta apenas FIAR** essa função no
+   `gerar_dossie.py` para os já‑declarados — como toca número do cliente (3.334 dossiês), fica **sob o gate do MOU**.
 2. **Lado RECEPTOR (comprador):** 2 leads mapeados (Fp=2 nas ZEM/ZEMP; +5% na regularização) — fora do produto do
    vendedor (o Cr do receptor cancela no Art. 128). Aplicar só se o produto passar a calcular o outro lado.
 3. **Dado pesado:** valores nominais do Quadro 14 (Portaria SMUL) e plantas/mapas dos PIUs (GIS) — o motor os recebe

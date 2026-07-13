@@ -137,6 +137,27 @@ def vtcd_vigente(valor_base_2014, ano_ref=None, esquina=False):
     }
 
 
+def vtcd_na_data(vtcd_conhecido, ano_conhecido, ano_alvo):
+    """Art. 128 §2º — converte um VTcd CONHECIDO de um exercício para o VTcd de OUTRO exercício
+    (tipicamente: do vigente da base enriquecida → o da DATA DA DECLARAÇÃO). Como o reajuste do
+    Quadro 14 é UNIFORME para todas as faces de quadra (Dec. 63.999/2024 Art. 1º; 64.884/2025 Art. 1º),
+    vale a razão exata: VTcd(alvo) = VTcd(conhecido) × fator(alvo) ÷ fator(conhecido) — sem precisar do
+    nominal por face. Fecha o resíduo "falta o VTcd histórico da Declaração": conhecendo o VTcd de
+    QUALQUER exercício, o de outro sai exato. O §2º do Art. 128 aplica o IPCA DEPOIS (corrigir_vtcd_ipca)."""
+    v = _pos(_d(vtcd_conhecido, "vtcd_conhecido"), "vtcd_conhecido")
+    f_con = fator_reajuste_q14(ano_conhecido)[0]
+    f_alv, dec_alv, disp_alv = fator_reajuste_q14(ano_alvo)
+    vtcd = (v * f_alv / f_con).quantize(Q2, ROUND_HALF_UP)
+    return {
+        "vtcd_alvo_m2": str(vtcd),
+        "ano_conhecido": str(ano_conhecido), "fator_conhecido": str(f_con),
+        "ano_alvo": str(ano_alvo), "fator_alvo": str(f_alv), "decreto_alvo": dec_alv,
+        "citacao": {"dispositivo": f"Art. 128 §2º — VTcd da data de referência via razão de reajuste do Quadro 14 ({disp_alv})",
+                    "fonte": "tabelas/q14-reajuste-anual.csv"},
+        "memoria_calculo": f"VTcd({ano_alvo}) = VTcd({ano_conhecido})=R$ {v} × fator({f_alv})÷fator({f_con}) = R$ {vtcd}/m²",
+    }
+
+
 def _mes_anterior(mes):
     """'AAAA-MM' → mês imediatamente anterior."""
     if not re.fullmatch(r"\d{4}-\d{2}", str(mes).strip()):
@@ -422,6 +443,13 @@ def _autoteste():
     # e o vigente mais recente (2026) sobre a mesma base:
     v26 = vtcd_vigente("3106,00")
     assert v26["vtcd_vigente_m2"] == str((Decimal("3106.00") * Decimal("1.259530861050000")).quantize(Q2, ROUND_HALF_UP)), v26
+    # vtcd_na_data (§2º VTcd histórico): conhecendo o vigente de 2024 (R$ 3.492,85), o de 2026 sai EXATO
+    #  e igual ao vigente 2026 sobre a mesma base (round-trip pela razão de reajuste uniforme).
+    conv = vtcd_na_data("3492,85", 2024, 2026)
+    assert conv["vtcd_alvo_m2"] == v26["vtcd_vigente_m2"], (conv, v26)
+    # e a volta (2026 → 2024) reconstrói o de 2024:
+    volta = vtcd_na_data(v26["vtcd_vigente_m2"], 2026, 2024)
+    assert volta["vtcd_alvo_m2"] == "3492.85", volta
     return r, ri
 
 
