@@ -1,0 +1,50 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17719-2021::013-art-12",
+  "lei_id": "lei-municipal-saopaulo-17719-2021",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 12",
+  "numero": "12",
+  "header_raw": "Art. 12. O art. 8º da Lei nº 15.406, de 8 de julho de 2011, passa a vigorar com a seguinte redação:",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção III",
+    "Art. 12"
+  ],
+  "texto": "Art. 12. O art. 8º da Lei nº 15.406, de 8 de julho de 2011, passa a vigorar com a seguinte redação:\n\n“Art. 8º No momento em que for concluída a prestação de serviço de execução de obra de construção civil, demolição, reparação, conservação ou reforma de determinado edifício, deverão ser declarados os dados do imóvel necessários para fins tributários, na forma e condições estabelecidas pela Secretaria Municipal da Fazenda.\n\n................................................................................................\n\n§ 4º Os dados declarados poderão ser revistos de ofício pela Administração Tributária, para fins de lançamentos tributários.\n\n§ 5º A declaração deverá conter os dados do imóvel constantes do alvará de aprovação ou execução ou memorandos de regularização ou licença para residências unifamiliares emitidos pela Prefeitura Municipal de São Paulo, além das informações referentes à área de piscina descoberta e áreas pavimentadas descobertas relativas a terraços, sacadas, quadras esportivas, helipontos e heliportos.\n\n§ 6º Além dos dados constantes no § 5º, deverão também ser declarados, quando houver:\n\nI - os documentos fiscais relativos aos serviços tomados, quando enquadrados nos subitens 7.02, 7.04, 7.05 e 7.15 da lista do caput do art. 1º da Lei nº 13.701, de 24 de dezembro de 2003;\n\nII - os valores de mão de obra própria aplicados diretamente na execução dos serviços de que trata o caput deste artigo.” (NR)\n\nSeção IV\n\nSociedades Uniprofissionais",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.719/2021 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção III › Art. 12",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17719-de-26-de-novembro-de-2021",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    }
+  },
+  "tema": [
+    "planta_generica_valores",
+    "valor_venal",
+    "imposto_predial",
+    "isencao_iptu",
+    "desconto_iptu",
+    "legislacao_tributaria"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre Planta Genérica de Valores, alterações na legislação tributária municipal, Contragarantias em Operações de Crédito e Fundo Especial para a Modernização da Administração Tributária e da Administração Fazendária no Município de São Paulo."
+}

@@ -1,0 +1,49 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17719-2021::051-art-46",
+  "lei_id": "lei-municipal-saopaulo-17719-2021",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 46",
+  "numero": "46",
+  "header_raw": "Art. 46. O art. 10 da Lei nº 16.240, de 22 de julho de 2015, passa a vigorar acrescido do § 3º:",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Art. 46"
+  ],
+  "texto": "Art. 46. O art. 10 da Lei nº 16.240, de 22 de julho de 2015, passa a vigorar acrescido do § 3º:\n\n“Art. 10. ................................................................................\n\n................................................................................................\n\n§ 3º Ocorrendo uma das hipóteses previstas nos incisos II e III do caput deste artigo, o sujeito passivo não será excluído do PRD se o saldo devedor em aberto for integralmente pago até o prazo de 30 (trinta) dias, contados da sua notificação administrativa, ficando convalidada sua permanência.” (NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.719/2021 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO V › Art. 46",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17719-de-26-de-novembro-de-2021",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    }
+  },
+  "tema": [
+    "planta_generica_valores",
+    "valor_venal",
+    "imposto_predial",
+    "isencao_iptu",
+    "desconto_iptu",
+    "legislacao_tributaria"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre Planta Genérica de Valores, alterações na legislação tributária municipal, Contragarantias em Operações de Crédito e Fundo Especial para a Modernização da Administração Tributária e da Administração Fazendária no Município de São Paulo."
+}

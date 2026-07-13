@@ -1,0 +1,49 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17719-2021::043-art-38",
+  "lei_id": "lei-municipal-saopaulo-17719-2021",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 38",
+  "numero": "38",
+  "header_raw": "Art. 38. O art. 6º da Lei nº 14.133, de 2006, passa a vigorar com a seguinte redação:",
+  "caminho_hierarquico": [
+    "CAPÍTULO IV",
+    "Art. 38"
+  ],
+  "texto": "Art. 38. O art. 6º da Lei nº 14.133, de 2006, passa a vigorar com a seguinte redação:\n\n“Art. 6º ..................................................................................\n\nI - em caráter exclusivo, relativamente aos impostos de competência do Município de São Paulo, e às taxas e às contribuições sob a gestão do órgão de administração tributária municipal:\n\n................................................................................................\n\ns) deliberar sobre o conteúdo dos cursos de formação e de capacitação, em matéria tributária, dirigidos aos integrantes da carreira;\n\nt) avaliar a adequação técnica dos atos praticados pelos agentes da administração tributária;\n\nu) deliberar sobre as providências necessárias para garantir a preservação do sigilo fiscal, nos termos prescritos no art. 198 da Lei Federal nº 5.172, de 25 de outubro de 1966 – Código Tributário Nacional;\n\nv) deliberar sobre a política de acesso e administração de banco de dados tributários, a especificação, homologação e uso de sistemas de tecnologia da informação e comunicação, bem como sobre o emprego de novas tecnologias, inclusive inteligência artificial, voltados às atividades de gestão, fiscalização, lançamento, arrecadação, cobrança e controle de tributos;\n\nII - em caráter geral:\n\na) assessorar, em caráter individual ou em grupos de trabalho, as autoridades superiores da Secretaria Municipal da Fazenda ou de outros órgãos da Administração e prestar-lhes assistência especializada, com vistas à formulação e à adequação da política tributária ao desenvolvimento econômico, envolvendo planejamento, coordenação, controle, supervisão, orientação e treinamento;\n\n................................................................................................\n\nn) exercer relevante atividade, em benefício da gestão fiscal, no âmbito da Secretaria Municipal da Fazenda, que exija conhecimento técnico especializado compatível com o nível de formação exigida do cargo efetivo, prevista em ato do chefe da Pasta;\n\no) desenvolver estudos objetivando a previsão, o acompanhamento e a avaliação das receitas municipais.” (NR)\n\nCAPÍTULO V\n\nDISPOSIÇÕES GERAIS E FINAIS",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.719/2021 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO IV › Art. 38",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17719-de-26-de-novembro-de-2021",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    }
+  },
+  "tema": [
+    "planta_generica_valores",
+    "valor_venal",
+    "imposto_predial",
+    "isencao_iptu",
+    "desconto_iptu",
+    "legislacao_tributaria"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre Planta Genérica de Valores, alterações na legislação tributária municipal, Contragarantias em Operações de Crédito e Fundo Especial para a Modernização da Administração Tributária e da Administração Fazendária no Município de São Paulo."
+}

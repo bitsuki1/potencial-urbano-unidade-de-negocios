@@ -1,0 +1,50 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17719-2021::016-art-15",
+  "lei_id": "lei-municipal-saopaulo-17719-2021",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 15",
+  "numero": "15",
+  "header_raw": "Art. 15. O art. 4º da Lei nº 13.479, de 30 de dezembro de 2002, passa a vigorar com a seguinte redação:",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção VI",
+    "Art. 15"
+  ],
+  "texto": "Art. 15. O art. 4º da Lei nº 13.479, de 30 de dezembro de 2002, passa a vigorar com a seguinte redação:\n\n“Art. 4º O valor da Contribuição será incluído no montante total da fatura mensal de energia elétrica emitida pela concessionária desse serviço e corresponderá à faixa de consumo mensal indicada na tabela abaixo:\n\nTABELA - Faixa de consumo mensal em kWh X Valor em R$\n\n§ 1º O valor da Contribuição será reajustado anualmente de modo a refletir os reajustes e revisões sofridos pela tarifa de energia elétrica e pelas bandeiras tarifárias.\n\n§ 2º No caso de pré-venda de energia elétrica (sistema cashpower ou equivalente), o valor da Contribuição será incluído na fatura emitida pela concessionária e equivalerá ao valor previsto na tabela do caput deste artigo correspondente à quantidade adquirida de kWh (quilowatt-hora).\n\n§ 3º Na hipótese do § 2º, sendo emitida mais de uma fatura dentro de um mesmo mês, considerar-se-á, para efeito de determinação do valor da Contribuição a ser incluído em cada nova fatura, o total de kWh (quilowatt-hora) adquirido nesse período, computando-se o valor eventualmente cobrado nas faturas anteriores, dentro do mesmo mês.\n\n§ 4º Ainda que não haja faturamento emitido pela concessionária para um determinado mês, a Contribuição será devida, devendo ser cobrada na fatura imediatamente posterior.” (NR)\n\nSeção VII\n\nLeilão e congêneres",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.719/2021 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção VI › Art. 15",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17719-de-26-de-novembro-de-2021",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    }
+  },
+  "tema": [
+    "planta_generica_valores",
+    "valor_venal",
+    "imposto_predial",
+    "isencao_iptu",
+    "desconto_iptu",
+    "legislacao_tributaria"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre Planta Genérica de Valores, alterações na legislação tributária municipal, Contragarantias em Operações de Crédito e Fundo Especial para a Modernização da Administração Tributária e da Administração Fazendária no Município de São Paulo."
+}

@@ -90558,6 +90558,2042 @@
     },
     "citavel": true
   },
+  "lei-municipal-saopaulo-17719-2021::001-preambulo": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "preambulo",
+    "rotulo": "Preâmbulo",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": false
+  },
+  "lei-municipal-saopaulo-17719-2021::002-art-1o": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 1º",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::003-art-2o": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 2º",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::004-art-3o": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 3º",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::005-art-4o": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 4º",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::006-art-5o": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 5º",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::007-art-6o": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 6º",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::008-art-7o": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 7º",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::009-art-8o": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 8º",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::010-art-9o": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 9º",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::011-art-10": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 10",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::012-art-11": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 11",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::013-art-12": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 12",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::014-art-13": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 13",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::015-art-14": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 14",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::016-art-15": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 15",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::017-art-16": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 16",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::018-art-17": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 17",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::019-art-18": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 18",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::020-art-19": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 19",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::021-art-20": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 20",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::022-art-21": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 21",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::023-art-22": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 22",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::024-art-23": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 23",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::025-art-24": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 24",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::026-art-25": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 25",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::027-art-26": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 26",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::028-art-26": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 26",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "compilado",
+      "revogado_por": null,
+      "marcadores": [
+        "redacao_dada"
+      ],
+      "data_redacao": "2025",
+      "norma_redacao": "Lei nº 18.330/2025"
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::029-art-27": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 27",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::030-art-28": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 28",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::031-art-29": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 29",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::032-art-30": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 30",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::033-art-31": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 31",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::034-art-32": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 32",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::035-art-33": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 33",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::036-art-34": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 34",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "compilado",
+      "revogado_por": null,
+      "marcadores": [
+        "redacao_dada"
+      ],
+      "data_redacao": "2024",
+      "norma_redacao": "Lei nº 18.095/2024"
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::037-art-34-a": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 34-A",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::038-art-34-b": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 34-B",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::039-art-34-c": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 34-C",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::040-art-35": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 35",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::041-art-36": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 36",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "compilado",
+      "revogado_por": null,
+      "marcadores": [
+        "redacao_dada"
+      ],
+      "data_redacao": "2024",
+      "norma_redacao": "Lei nº 18.095/2024"
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::042-art-37": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 37",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::043-art-38": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 38",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::044-art-39": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 39",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::045-art-40": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 40",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::046-art-41": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 41",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::047-art-42": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 42",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::048-art-43": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 43",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::049-art-44": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 44",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::050-art-45": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 45",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::051-art-46": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 46",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::052-art-47": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 47",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::053-art-48": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 48",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::054-art-49": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 49",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::055-art-50": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 50",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::056-art-51": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 51",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::057-art-52": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 52",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17719-2021::058-art-53": {
+    "lei_id": "lei-municipal-saopaulo-17719-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 53",
+    "tema": [
+      "planta_generica_valores",
+      "valor_venal",
+      "imposto_predial",
+      "isencao_iptu",
+      "desconto_iptu",
+      "legislacao_tributaria"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
   "lei-municipal-saopaulo-17733-2022::001-preambulo": {
     "lei_id": "lei-municipal-saopaulo-17733-2022",
     "tipo_dispositivo": "preambulo",

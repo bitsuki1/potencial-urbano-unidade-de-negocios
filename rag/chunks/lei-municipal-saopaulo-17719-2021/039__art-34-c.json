@@ -1,0 +1,49 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17719-2021::039-art-34-c",
+  "lei_id": "lei-municipal-saopaulo-17719-2021",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 34-C",
+  "numero": "34-C",
+  "header_raw": "Art. 34-C. A partir do exercício de 2026, inclusive, os recursos do FEMATF poderão ser utilizados para financiar integralmente todas as despesas da Secretaria Municipal da Fazenda, independentemente de sua natureza, inclusive despesas de caráter corrente e investimento, observadas as disposições pertinentes desta Lei e da legislação de finanças públicas. (Incluído pela Lei nº 18.330/2025)",
+  "caminho_hierarquico": [
+    "CAPÍTULO IV",
+    "Art. 34-C"
+  ],
+  "texto": "Art. 34-C. A partir do exercício de 2026, inclusive, os recursos do FEMATF poderão ser utilizados para financiar integralmente todas as despesas da Secretaria Municipal da Fazenda, independentemente de sua natureza, inclusive despesas de caráter corrente e investimento, observadas as disposições pertinentes desta Lei e da legislação de finanças públicas. (Incluído pela Lei nº 18.330/2025)\n\nParágrafo único. Excetuam-se da autorização de que trata o caput deste artigo as despesas com remuneração de pessoal e aquelas decorrentes do pagamento de Auxílio Refeição, Vale-Alimentação e Auxílio-Transporte em pecúnia, respectivamente instituídos pelas Leis nº 12.858, de 18 de junho de 1999; nº 13.598, de 5 de junho de 2003; e nº 13.194, de 24 de outubro de 2001. (Incluído pela Lei nº 18.330/2025)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.719/2021 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO IV › Art. 34-C",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17719-de-26-de-novembro-de-2021",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    }
+  },
+  "tema": [
+    "planta_generica_valores",
+    "valor_venal",
+    "imposto_predial",
+    "isencao_iptu",
+    "desconto_iptu",
+    "legislacao_tributaria"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre Planta Genérica de Valores, alterações na legislação tributária municipal, Contragarantias em Operações de Crédito e Fundo Especial para a Modernização da Administração Tributária e da Administração Fazendária no Município de São Paulo."
+}

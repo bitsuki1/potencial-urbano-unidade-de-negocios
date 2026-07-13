@@ -1,0 +1,51 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17719-2021::036-art-34",
+  "lei_id": "lei-municipal-saopaulo-17719-2021",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 34",
+  "numero": "34",
+  "header_raw": "Art. 34. Fica instituído o Fundo Especial para a Modernização da Administração Tributária e da Administração Fazendária no Município de São Paulo – FEMATF, vinculado à Secretaria Municipal da Fazenda – SF, com o objetivo de garantir o perene aperfeiçoamento da Administração Tributária e da Administração Fazendária, com os recursos necessários para investimentos no aprimoramento de suas atividades, para a melhoria da estrutura operacional e das condições materiais da secretaria, bem como o contínuo aprimoramento profissional de seus servidores.",
+  "caminho_hierarquico": [
+    "CAPÍTULO IV",
+    "Art. 34"
+  ],
+  "texto": "Art. 34. Fica instituído o Fundo Especial para a Modernização da Administração Tributária e da Administração Fazendária no Município de São Paulo – FEMATF, vinculado à Secretaria Municipal da Fazenda – SF, com o objetivo de garantir o perene aperfeiçoamento da Administração Tributária e da Administração Fazendária, com os recursos necessários para investimentos no aprimoramento de suas atividades, para a melhoria da estrutura operacional e das condições materiais da secretaria, bem como o contínuo aprimoramento profissional de seus servidores.\n\n§ 1º Os recursos do FEMATF destinam-se a:\n\nI - aquisição, desenvolvimento, implantação, manutenção e aperfeiçoamento de programas e sistemas informatizados de apoio às atividades tributárias e fazendárias, e outros que se prestem à consecução dos objetivos dos órgãos da Administração Tributária e Administração Fazendária;\n\nII - formação, capacitação e treinamento de servidores lotados na Secretaria Municipal da Fazenda, em cursos ou disciplinas relativas às suas atividades, inclusive material didático, participação em congressos, seminários e afins;\n\nIII - aquisição, construção, ampliação, locação e reforma de bens móveis e imóveis que sirvam à Administração Tributária e à Administração Fazendária;\n\nIV - assinaturas de periódicos especializados e aquisição de livros, manuais e afins, de interesse da Administração Tributária e da Administração Fazendária;\n\nV - impressão, publicação e divulgação de periódicos tributários e fazendários;\n\nVI - despesas com deslocamento de servidores em exercício na Secretaria Municipal da Fazenda, nas condições estabelecidas pela legislação municipal em vigor, para atendimento de necessidades inerentes às atividades da Administração Tributária e da Administração Fazendária;\n\nVI - reembolso e indenização a servidores em exercício na Secretaria Municipal da Fazenda, nas condições estabelecidas pela legislação municipal em vigor, para atendimento de necessidades inerentes às atividades da Administração Tributária e da Administração Fazendária, inclusive pagamento de verbas indenizatórias, por meio de auxílio-transporte e ressarcimento por atividades, ações e iniciativas extraordinárias no âmbito de programas de conformidade e autorregularização fiscais, não remuneradas nos termos da Lei nº 8.645, de 21 de novembro de 1977, e posteriores, aos membros do Quadro de Pessoal da Administração Tributária – QPAT, na forma, condições e nos valores a serem definidos pelo Conselho Gestor de que trata o art. 35 desta Lei, e observadas as disponibilidades financeiras do referido fundo;(Redação dada pela Lei nº 18.095/2024)\n\nVII - pagamento de despesas para aperfeiçoamento profissional dos servidores da Administração Tributária e da Administração Fazendária;\n\nVIII - despesas relativas ao aperfeiçoamento e à modernização das ações de arrecadação, bem como à manutenção e à gestão administrativa e operacional da Secretaria Municipal da Fazenda, não discriminadas nos incisos I a VII, desde que diretamente vinculadas à Administração Tributária e à Administração Fazendária, excetuadas aquelas caracterizadas como remuneração de pessoal.\n\nVIII - despesas relativas ao aperfeiçoamento e à modernização das ações de arrecadação, bem como à manutenção e à gestão administrativa e operacional da Secretaria Municipal da Fazenda, não discriminadas nos incisos I a VII, inclusive aquelas referentes ao planejamento, direção, execução e controle de programas de conformidade e autorregularização fiscais.(Redação dada pela Lei nº 18.095/2024)\n\n§ 2º O FEMATF disporá de autonomia na gestão de seus recursos, que serão depositados em instituição bancária oficial, em conta exclusiva a ser mantida em nome do Fundo.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "2024",
+    "norma_redacao": "Lei nº 18.095/2024"
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.719/2021 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO IV › Art. 34",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17719-de-26-de-novembro-de-2021",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    }
+  },
+  "tema": [
+    "planta_generica_valores",
+    "valor_venal",
+    "imposto_predial",
+    "isencao_iptu",
+    "desconto_iptu",
+    "legislacao_tributaria"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre Planta Genérica de Valores, alterações na legislação tributária municipal, Contragarantias em Operações de Crédito e Fundo Especial para a Modernização da Administração Tributária e da Administração Fazendária no Município de São Paulo."
+}

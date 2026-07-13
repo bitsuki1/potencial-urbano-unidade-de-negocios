@@ -1,0 +1,49 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17719-2021::044-art-39",
+  "lei_id": "lei-municipal-saopaulo-17719-2021",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 39",
+  "numero": "39",
+  "header_raw": "Art. 39. Para efeito de interpretação da legislação tributária, notadamente da Lei Complementar Federal nº 116, de 31 de julho de 2003, e da Lei Municipal nº 13.701, de 24 de dezembro de 2003, não incide o Imposto Sobre Serviços de Qualquer Natureza – ISS sobre os recursos orçamentários repassados pelo Poder Público no âmbito dos contratos de gestão celebrados pela Administração Pública da União, do Estado de São Paulo e do Município de São Paulo, com as pessoas jurídicas de direito privado, sem fins lucrativos, qualificadas como organizações sociais da área de cultura, saúde, esportes, lazer e recreação, para proteção e conservação do meio ambiente e promoção de investimentos, de competitividade e de desenvolvimento.",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Art. 39"
+  ],
+  "texto": "Art. 39. Para efeito de interpretação da legislação tributária, notadamente da Lei Complementar Federal nº 116, de 31 de julho de 2003, e da Lei Municipal nº 13.701, de 24 de dezembro de 2003, não incide o Imposto Sobre Serviços de Qualquer Natureza – ISS sobre os recursos orçamentários repassados pelo Poder Público no âmbito dos contratos de gestão celebrados pela Administração Pública da União, do Estado de São Paulo e do Município de São Paulo, com as pessoas jurídicas de direito privado, sem fins lucrativos, qualificadas como organizações sociais da área de cultura, saúde, esportes, lazer e recreação, para proteção e conservação do meio ambiente e promoção de investimentos, de competitividade e de desenvolvimento.\n\nParágrafo único. A não incidência tributária a que se refere o caput deste artigo:\n\nI - abrange somente os recursos orçamentários destinados pelo Poder Público às organizações sociais;\n\nII - não abrange terceiro contratado pela organização social para execução de serviços afetos à parceria desta com o Poder Público.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.719/2021 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO V › Art. 39",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17719-de-26-de-novembro-de-2021",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    }
+  },
+  "tema": [
+    "planta_generica_valores",
+    "valor_venal",
+    "imposto_predial",
+    "isencao_iptu",
+    "desconto_iptu",
+    "legislacao_tributaria"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre Planta Genérica de Valores, alterações na legislação tributária municipal, Contragarantias em Operações de Crédito e Fundo Especial para a Modernização da Administração Tributária e da Administração Fazendária no Município de São Paulo."
+}
