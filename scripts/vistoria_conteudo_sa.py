@@ -222,20 +222,31 @@ def classificar_llm(nome, texto):
     key = os.environ.get("GEMINI_API_KEY", "").strip()
     if not key or not texto.strip():
         return None
-    prompt = ("Classifique a PROVENIÊNCIA deste documento pelo CONTEÚDO abaixo, em uma de: "
-              "OFICIAL (produzido por órgão público/Diário Oficial), NAO_OFICIAL_EXTERNO (texto de terceiro sem selo "
-              "oficial, ou base de dados externa/comercial), CRIADO (gerado por um pipeline de IA/nosso, resumo/análise/chunk). "
-              "Responda SÓ um JSON {\"classe\":\"...\",\"comercial\":\"sim|nao\",\"motivo\":\"<=15 palavras\"}.\n\n"
-              f"NOME(contexto): {nome}\nCONTEÚDO:\n{texto[:4000]}")
+    prompt = (
+        "Você é perito em PROVENIÊNCIA documental de um projeto jurídico (TDC/IPTU em São Paulo). Decida a classe "
+        "deste documento PELO CONTEÚDO abaixo (não pelo nome). As três classes e o teste de cada uma:\n"
+        "• OFICIAL — produzido/publicado por órgão público (Diário Oficial, Prefeitura, Câmara, GeoSampa/SIRGAS, "
+        "Receita Federal, tribunais). Marca do EMISSOR no texto. Inclui norma articulada e base cadastral pública.\n"
+        "• NAO_OFICIAL_EXTERNO — texto/base de TERCEIRO, em formato nativo, SEM selo oficial e SEM sinais de ter sido "
+        "gerado por nós (apostila, PDF de escritório, base comprada de terceiro). É a única classe 'externa' usável.\n"
+        "• CRIADO — gerado/transformado pelo NOSSO pipeline de IA: resumo, análise, chunk, planilha enriquecida/cruzada "
+        "por nós, prosa sintetizada no lugar do articulado literal, colunas derivadas (chaves unificadas, flags nossas). "
+        "Na dúvida entre 'cópia externa de um oficial' e 'derivado nosso', pergunte: o TEXTO é o original como emitido, "
+        "ou foi RE-TRABALHADO (colunas novas, síntese, enriquecimento)? Re-trabalhado = CRIADO.\n"
+        "Responda SÓ um JSON: {\"classe\":\"OFICIAL|NAO_OFICIAL_EXTERNO|CRIADO\",\"comercial\":\"sim|nao\" "
+        "(sim se serve para ACHAR O PROPRIETÁRIO: cadastro IPTU, sócios, CNPJ, ITBI, lote/SQL),"
+        "\"confianca\":\"alta|media|baixa\",\"motivo\":\"<=18 palavras citando a marca do texto que decidiu\"}.\n\n"
+        f"NOME(contexto, NÃO decisivo): {nome}\nCONTEÚDO EXTRAÍDO:\n{texto[:6000]}")
     import urllib.request
     body = json.dumps({"contents": [{"parts": [{"text": prompt}]}],
                        "generationConfig": {"temperature": 0}}).encode()
-    modelos = [os.environ.get("GEMINI_MODEL", "gemini-2.0-flash"), "gemini-flash-latest", "gemini-1.5-flash"]
+    # INTELIGÊNCIA onde decide (steer do MOU): modelo FORTE 1º na fração ambígua; flash só de reserva.
+    modelos = [os.environ.get("GEMINI_MODEL", "gemini-2.5-pro"), "gemini-2.0-flash", "gemini-flash-latest"]
     for modelo in modelos:
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{modelo}:generateContent?key={key}"
         try:
             req = urllib.request.Request(url, data=body, headers={"Content-Type": "application/json"})
-            with urllib.request.urlopen(req, timeout=45) as r:
+            with urllib.request.urlopen(req, timeout=90) as r:
                 out = json.loads(r.read())
             txt = out["candidates"][0]["content"]["parts"][0]["text"]
             m = re.search(r"\{.*\}", txt, re.S)
@@ -243,7 +254,10 @@ def classificar_llm(nome, texto):
             cl = j.get("classe", "").upper()
             if cl not in ("OFICIAL", "NAO_OFICIAL_EXTERNO", "CRIADO"):
                 return None
-            return cl, ("sim" if str(j.get("comercial", "")).lower().startswith("s") else "nao"), "LLM: " + j.get("motivo", "")[:120]
+            conf = str(j.get("confianca", "media")).lower()
+            conf = conf if conf in ("alta", "media", "baixa") else "media"
+            return (cl, ("sim" if str(j.get("comercial", "")).lower().startswith("s") else "nao"),
+                    f"LLM({modelo.split('-')[1]},{conf}): " + str(j.get("motivo", ""))[:120], conf)
         except Exception as e:
             classificar_llm._erros = getattr(classificar_llm, "_erros", 0) + 1
             if classificar_llm._erros <= 3:
@@ -313,7 +327,8 @@ def main():
             if ambiguo:
                 r = classificar_llm(nome, texto)
                 if r:
-                    classe, comercial, evid = r[0], r[1], r[2]; conf = "media"; metodo += "+llm"; llm_ok += 1
+                    classe, comercial, evid, conf = r; metodo += "+llm"; llm_ok += 1
+                    # baixa confiança do modelo forte = fração que EU (orquestrador) reviso depois (filtra confianca=baixa)
             w.writerow({"drive_id": did, "nome": nome, "mime": mime, "ext": ext, "bytes": nbytes,
                         "classe": classe, "comercial": comercial, "metodo": metodo, "confianca": conf,
                         "evidencia_conteudo": evid[:300], "sha256_lido": sha, "n_chars": len(texto or ""),
