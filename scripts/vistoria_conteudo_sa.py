@@ -35,7 +35,7 @@ from pathlib import Path
 # TIMEOUT DE REDE GLOBAL: nenhum download/leitura pode pendurar o shard inteiro (bug: job travou 2h num
 # arquivo). httplib2 (googleapiclient) e urllib respeitam o default socket timeout. Estouro → exceção →
 # o arquivo vira ILEGIVEL (tratado no loop) e a vistoria segue.
-socket.setdefaulttimeout(45)
+socket.setdefaulttimeout(20)
 
 RAIZ = Path(__file__).resolve().parents[1]
 CATALOGO = RAIZ / "inventario" / "CATALOGO-DRIVE-PU-2026-07-12.csv"
