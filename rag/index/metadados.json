@@ -85384,6 +85384,374 @@
     },
     "citavel": true
   },
+  "lei-municipal-saopaulo-18298-2025::001-preambulo": {
+    "lei_id": "lei-municipal-saopaulo-18298-2025",
+    "tipo_dispositivo": "preambulo",
+    "rotulo": "Preâmbulo",
+    "tema": [
+      "revisao_piu",
+      "plano_intervencao_urbana",
+      "arco_pinheiros",
+      "zoe_butantan",
+      "uso_ocupacao_solo",
+      "zoneamento",
+      "parametros_urbanisticos",
+      "quota_ambiental",
+      "mata_atlantica",
+      "coeficiente_aproveitamento",
+      "fiscalizacao_posturas"
+    ],
+    "dominio": [
+      "tdc"
+    ],
+    "dominio_primario": "tdc",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2025-09-17",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [
+        "Lei nº 18.222/2024 (arts. 19 e 20; Mapa 1, Mapa II e Quadro 3A)",
+        "Lei nº 16.402/2016 (art. 150; nota (a) e acrescimo ao Quadro 5 - Multas do Anexo 12)"
+      ],
+      "alterada_por": [],
+      "revogada_por": null,
+      "revoga": [
+        "Paragrafo unico do art. 19 da Lei nº 18.222/2024"
+      ],
+      "observacao": "Em vigor desde a publicacao (17/09/2025). ATENCAO (1.6): os Arts. 3, 4 e 5 (alteracoes na Lei 16.402/2016 - art. 150 e Quadro 5 de Multas) estao com EFICACIA SUSPENSA por decisao liminar na ADI nº 2007332-76.2026.8.26.0000 (TJSP) - a redacao anterior da 16.402/2016 nesses pontos permanece aplicavel enquanto durar a suspensao. Os Arts. 1, 2, 6 e 7 (nucleo TDC/urbanistico: ZOE-Butantan, mapas e quadros do PIU Arco Pinheiros) NAO foram atingidos e vigem normalmente."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": false
+  },
+  "lei-municipal-saopaulo-18298-2025::002-art-1o": {
+    "lei_id": "lei-municipal-saopaulo-18298-2025",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 1º",
+    "tema": [
+      "revisao_piu",
+      "plano_intervencao_urbana",
+      "arco_pinheiros",
+      "zoe_butantan",
+      "uso_ocupacao_solo",
+      "zoneamento",
+      "parametros_urbanisticos",
+      "quota_ambiental",
+      "mata_atlantica",
+      "coeficiente_aproveitamento",
+      "fiscalizacao_posturas"
+    ],
+    "dominio": [
+      "tdc"
+    ],
+    "dominio_primario": "tdc",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2025-09-17",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [
+        "Lei nº 18.222/2024 (arts. 19 e 20; Mapa 1, Mapa II e Quadro 3A)",
+        "Lei nº 16.402/2016 (art. 150; nota (a) e acrescimo ao Quadro 5 - Multas do Anexo 12)"
+      ],
+      "alterada_por": [],
+      "revogada_por": null,
+      "revoga": [
+        "Paragrafo unico do art. 19 da Lei nº 18.222/2024"
+      ],
+      "observacao": "Em vigor desde a publicacao (17/09/2025). ATENCAO (1.6): os Arts. 3, 4 e 5 (alteracoes na Lei 16.402/2016 - art. 150 e Quadro 5 de Multas) estao com EFICACIA SUSPENSA por decisao liminar na ADI nº 2007332-76.2026.8.26.0000 (TJSP) - a redacao anterior da 16.402/2016 nesses pontos permanece aplicavel enquanto durar a suspensao. Os Arts. 1, 2, 6 e 7 (nucleo TDC/urbanistico: ZOE-Butantan, mapas e quadros do PIU Arco Pinheiros) NAO foram atingidos e vigem normalmente."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-18298-2025::003-art-2o": {
+    "lei_id": "lei-municipal-saopaulo-18298-2025",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 2º",
+    "tema": [
+      "revisao_piu",
+      "plano_intervencao_urbana",
+      "arco_pinheiros",
+      "zoe_butantan",
+      "uso_ocupacao_solo",
+      "zoneamento",
+      "parametros_urbanisticos",
+      "quota_ambiental",
+      "mata_atlantica",
+      "coeficiente_aproveitamento",
+      "fiscalizacao_posturas"
+    ],
+    "dominio": [
+      "tdc"
+    ],
+    "dominio_primario": "tdc",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2025-09-17",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [
+        "Lei nº 18.222/2024 (arts. 19 e 20; Mapa 1, Mapa II e Quadro 3A)",
+        "Lei nº 16.402/2016 (art. 150; nota (a) e acrescimo ao Quadro 5 - Multas do Anexo 12)"
+      ],
+      "alterada_por": [],
+      "revogada_por": null,
+      "revoga": [
+        "Paragrafo unico do art. 19 da Lei nº 18.222/2024"
+      ],
+      "observacao": "Em vigor desde a publicacao (17/09/2025). ATENCAO (1.6): os Arts. 3, 4 e 5 (alteracoes na Lei 16.402/2016 - art. 150 e Quadro 5 de Multas) estao com EFICACIA SUSPENSA por decisao liminar na ADI nº 2007332-76.2026.8.26.0000 (TJSP) - a redacao anterior da 16.402/2016 nesses pontos permanece aplicavel enquanto durar a suspensao. Os Arts. 1, 2, 6 e 7 (nucleo TDC/urbanistico: ZOE-Butantan, mapas e quadros do PIU Arco Pinheiros) NAO foram atingidos e vigem normalmente."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-18298-2025::004-art-3o": {
+    "lei_id": "lei-municipal-saopaulo-18298-2025",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 3º",
+    "tema": [
+      "revisao_piu",
+      "plano_intervencao_urbana",
+      "arco_pinheiros",
+      "zoe_butantan",
+      "uso_ocupacao_solo",
+      "zoneamento",
+      "parametros_urbanisticos",
+      "quota_ambiental",
+      "mata_atlantica",
+      "coeficiente_aproveitamento",
+      "fiscalizacao_posturas"
+    ],
+    "dominio": [
+      "tdc"
+    ],
+    "dominio_primario": "tdc",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2025-09-17",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [
+        "Lei nº 18.222/2024 (arts. 19 e 20; Mapa 1, Mapa II e Quadro 3A)",
+        "Lei nº 16.402/2016 (art. 150; nota (a) e acrescimo ao Quadro 5 - Multas do Anexo 12)"
+      ],
+      "alterada_por": [],
+      "revogada_por": null,
+      "revoga": [
+        "Paragrafo unico do art. 19 da Lei nº 18.222/2024"
+      ],
+      "observacao": "Em vigor desde a publicacao (17/09/2025). ATENCAO (1.6): os Arts. 3, 4 e 5 (alteracoes na Lei 16.402/2016 - art. 150 e Quadro 5 de Multas) estao com EFICACIA SUSPENSA por decisao liminar na ADI nº 2007332-76.2026.8.26.0000 (TJSP) - a redacao anterior da 16.402/2016 nesses pontos permanece aplicavel enquanto durar a suspensao. Os Arts. 1, 2, 6 e 7 (nucleo TDC/urbanistico: ZOE-Butantan, mapas e quadros do PIU Arco Pinheiros) NAO foram atingidos e vigem normalmente."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-18298-2025::005-art-4o": {
+    "lei_id": "lei-municipal-saopaulo-18298-2025",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 4º",
+    "tema": [
+      "revisao_piu",
+      "plano_intervencao_urbana",
+      "arco_pinheiros",
+      "zoe_butantan",
+      "uso_ocupacao_solo",
+      "zoneamento",
+      "parametros_urbanisticos",
+      "quota_ambiental",
+      "mata_atlantica",
+      "coeficiente_aproveitamento",
+      "fiscalizacao_posturas"
+    ],
+    "dominio": [
+      "tdc"
+    ],
+    "dominio_primario": "tdc",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2025-09-17",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [
+        "Lei nº 18.222/2024 (arts. 19 e 20; Mapa 1, Mapa II e Quadro 3A)",
+        "Lei nº 16.402/2016 (art. 150; nota (a) e acrescimo ao Quadro 5 - Multas do Anexo 12)"
+      ],
+      "alterada_por": [],
+      "revogada_por": null,
+      "revoga": [
+        "Paragrafo unico do art. 19 da Lei nº 18.222/2024"
+      ],
+      "observacao": "Em vigor desde a publicacao (17/09/2025). ATENCAO (1.6): os Arts. 3, 4 e 5 (alteracoes na Lei 16.402/2016 - art. 150 e Quadro 5 de Multas) estao com EFICACIA SUSPENSA por decisao liminar na ADI nº 2007332-76.2026.8.26.0000 (TJSP) - a redacao anterior da 16.402/2016 nesses pontos permanece aplicavel enquanto durar a suspensao. Os Arts. 1, 2, 6 e 7 (nucleo TDC/urbanistico: ZOE-Butantan, mapas e quadros do PIU Arco Pinheiros) NAO foram atingidos e vigem normalmente."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-18298-2025::006-art-5o": {
+    "lei_id": "lei-municipal-saopaulo-18298-2025",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 5º",
+    "tema": [
+      "revisao_piu",
+      "plano_intervencao_urbana",
+      "arco_pinheiros",
+      "zoe_butantan",
+      "uso_ocupacao_solo",
+      "zoneamento",
+      "parametros_urbanisticos",
+      "quota_ambiental",
+      "mata_atlantica",
+      "coeficiente_aproveitamento",
+      "fiscalizacao_posturas"
+    ],
+    "dominio": [
+      "tdc"
+    ],
+    "dominio_primario": "tdc",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2025-09-17",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [
+        "Lei nº 18.222/2024 (arts. 19 e 20; Mapa 1, Mapa II e Quadro 3A)",
+        "Lei nº 16.402/2016 (art. 150; nota (a) e acrescimo ao Quadro 5 - Multas do Anexo 12)"
+      ],
+      "alterada_por": [],
+      "revogada_por": null,
+      "revoga": [
+        "Paragrafo unico do art. 19 da Lei nº 18.222/2024"
+      ],
+      "observacao": "Em vigor desde a publicacao (17/09/2025). ATENCAO (1.6): os Arts. 3, 4 e 5 (alteracoes na Lei 16.402/2016 - art. 150 e Quadro 5 de Multas) estao com EFICACIA SUSPENSA por decisao liminar na ADI nº 2007332-76.2026.8.26.0000 (TJSP) - a redacao anterior da 16.402/2016 nesses pontos permanece aplicavel enquanto durar a suspensao. Os Arts. 1, 2, 6 e 7 (nucleo TDC/urbanistico: ZOE-Butantan, mapas e quadros do PIU Arco Pinheiros) NAO foram atingidos e vigem normalmente."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-18298-2025::007-art-6o": {
+    "lei_id": "lei-municipal-saopaulo-18298-2025",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 6º",
+    "tema": [
+      "revisao_piu",
+      "plano_intervencao_urbana",
+      "arco_pinheiros",
+      "zoe_butantan",
+      "uso_ocupacao_solo",
+      "zoneamento",
+      "parametros_urbanisticos",
+      "quota_ambiental",
+      "mata_atlantica",
+      "coeficiente_aproveitamento",
+      "fiscalizacao_posturas"
+    ],
+    "dominio": [
+      "tdc"
+    ],
+    "dominio_primario": "tdc",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2025-09-17",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [
+        "Lei nº 18.222/2024 (arts. 19 e 20; Mapa 1, Mapa II e Quadro 3A)",
+        "Lei nº 16.402/2016 (art. 150; nota (a) e acrescimo ao Quadro 5 - Multas do Anexo 12)"
+      ],
+      "alterada_por": [],
+      "revogada_por": null,
+      "revoga": [
+        "Paragrafo unico do art. 19 da Lei nº 18.222/2024"
+      ],
+      "observacao": "Em vigor desde a publicacao (17/09/2025). ATENCAO (1.6): os Arts. 3, 4 e 5 (alteracoes na Lei 16.402/2016 - art. 150 e Quadro 5 de Multas) estao com EFICACIA SUSPENSA por decisao liminar na ADI nº 2007332-76.2026.8.26.0000 (TJSP) - a redacao anterior da 16.402/2016 nesses pontos permanece aplicavel enquanto durar a suspensao. Os Arts. 1, 2, 6 e 7 (nucleo TDC/urbanistico: ZOE-Butantan, mapas e quadros do PIU Arco Pinheiros) NAO foram atingidos e vigem normalmente."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-18298-2025::008-art-7o": {
+    "lei_id": "lei-municipal-saopaulo-18298-2025",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 7º",
+    "tema": [
+      "revisao_piu",
+      "plano_intervencao_urbana",
+      "arco_pinheiros",
+      "zoe_butantan",
+      "uso_ocupacao_solo",
+      "zoneamento",
+      "parametros_urbanisticos",
+      "quota_ambiental",
+      "mata_atlantica",
+      "coeficiente_aproveitamento",
+      "fiscalizacao_posturas"
+    ],
+    "dominio": [
+      "tdc"
+    ],
+    "dominio_primario": "tdc",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2025-09-17",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [
+        "Lei nº 18.222/2024 (arts. 19 e 20; Mapa 1, Mapa II e Quadro 3A)",
+        "Lei nº 16.402/2016 (art. 150; nota (a) e acrescimo ao Quadro 5 - Multas do Anexo 12)"
+      ],
+      "alterada_por": [],
+      "revogada_por": null,
+      "revoga": [
+        "Paragrafo unico do art. 19 da Lei nº 18.222/2024"
+      ],
+      "observacao": "Em vigor desde a publicacao (17/09/2025). ATENCAO (1.6): os Arts. 3, 4 e 5 (alteracoes na Lei 16.402/2016 - art. 150 e Quadro 5 de Multas) estao com EFICACIA SUSPENSA por decisao liminar na ADI nº 2007332-76.2026.8.26.0000 (TJSP) - a redacao anterior da 16.402/2016 nesses pontos permanece aplicavel enquanto durar a suspensao. Os Arts. 1, 2, 6 e 7 (nucleo TDC/urbanistico: ZOE-Butantan, mapas e quadros do PIU Arco Pinheiros) NAO foram atingidos e vigem normalmente."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
   "lei-municipal-saopaulo-6989-1966::001-preambulo": {
     "lei_id": "lei-municipal-saopaulo-6989-1966",
     "tipo_dispositivo": "preambulo",

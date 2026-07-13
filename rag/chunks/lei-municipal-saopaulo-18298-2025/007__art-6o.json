@@ -1,0 +1,59 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-18298-2025::007-art-6o",
+  "lei_id": "lei-municipal-saopaulo-18298-2025",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 6º",
+  "numero": "6",
+  "header_raw": "Art. 6º Ficam substituídos o Mapa 1 - Perímetro da AIU-ACP (Planta Digital ACP996U001), o Mapa II – Parâmetros Urbanísticos (Planta Digital ACP996U002-A) e o Quadro 3A – Fatores de Planejamento, Parâmetros de Ocupação, Exceto Quota Ambiental, anexos à Lei nº 18.222, de 27 de dezembro de 2024, pelos novos Mapa I – Perímetro da AIU-ACP (Planta Digital ACP996U001-A), Mapa II – Parâmetros Urbanísticos (Planta Digital ACP996U002-C) e Quadro 3A – Fatores de Planejamento, Parâmetros de Ocupação, Exceto Quota Ambiental, que seguem anexos a esta Lei e passam a integrá-la, correspondendo aos arquivos digitais da Secretaria Municipal de Urbanismo e Licenciamento – SMUL, assinados eletronicamente e disponibilizados no Portal da Prefeitura do Município de São Paulo.",
+  "caminho_hierarquico": [
+    "Art. 6º"
+  ],
+  "texto": "Art. 6º Ficam substituídos o Mapa 1 - Perímetro da AIU-ACP (Planta Digital ACP996U001), o Mapa II – Parâmetros Urbanísticos (Planta Digital ACP996U002-A) e o Quadro 3A – Fatores de Planejamento, Parâmetros de Ocupação, Exceto Quota Ambiental, anexos à Lei nº 18.222, de 27 de dezembro de 2024, pelos novos Mapa I – Perímetro da AIU-ACP (Planta Digital ACP996U001-A), Mapa II – Parâmetros Urbanísticos (Planta Digital ACP996U002-C) e Quadro 3A – Fatores de Planejamento, Parâmetros de Ocupação, Exceto Quota Ambiental, que seguem anexos a esta Lei e passam a integrá-la, correspondendo aos arquivos digitais da Secretaria Municipal de Urbanismo e Licenciamento – SMUL, assinados eletronicamente e disponibilizados no Portal da Prefeitura do Município de São Paulo.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 18.298/2025 — São Paulo/SP",
+    "dispositivo": "Art. 6º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-18298-de-17-de-setembro-de-2025",
+    "vigencia": {
+      "inicio": "2025-09-17",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [
+        "Lei nº 18.222/2024 (arts. 19 e 20; Mapa 1, Mapa II e Quadro 3A)",
+        "Lei nº 16.402/2016 (art. 150; nota (a) e acrescimo ao Quadro 5 - Multas do Anexo 12)"
+      ],
+      "alterada_por": [],
+      "revogada_por": null,
+      "revoga": [
+        "Paragrafo unico do art. 19 da Lei nº 18.222/2024"
+      ],
+      "observacao": "Em vigor desde a publicacao (17/09/2025). ATENCAO (1.6): os Arts. 3, 4 e 5 (alteracoes na Lei 16.402/2016 - art. 150 e Quadro 5 de Multas) estao com EFICACIA SUSPENSA por decisao liminar na ADI nº 2007332-76.2026.8.26.0000 (TJSP) - a redacao anterior da 16.402/2016 nesses pontos permanece aplicavel enquanto durar a suspensao. Os Arts. 1, 2, 6 e 7 (nucleo TDC/urbanistico: ZOE-Butantan, mapas e quadros do PIU Arco Pinheiros) NAO foram atingidos e vigem normalmente."
+    }
+  },
+  "tema": [
+    "revisao_piu",
+    "plano_intervencao_urbana",
+    "arco_pinheiros",
+    "zoe_butantan",
+    "uso_ocupacao_solo",
+    "zoneamento",
+    "parametros_urbanisticos",
+    "quota_ambiental",
+    "mata_atlantica",
+    "coeficiente_aproveitamento",
+    "fiscalizacao_posturas"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Altera a Lei nº 18.222, de 27 de dezembro de 2024, que aprova o Plano de Intervenção Urbana para o território do Arco Pinheiros e cria a Área de Intervenção Urbana Arco Pinheiros, para fins de definição dos parâmetros de parcelamento, uso e ocupação do solo aplicáveis à Zona de Ocupação Especial do Instituto Butantan - ZOE Butantan; altera a Lei nº 16.402, de 22 de março de 2016, que disciplina o parcelamento, o uso e a ocupação do solo no Município de São Paulo, de acordo com a Lei nº 16.050, de 31 de julho de 2014 - Plano Diretor Estratégico (PDE), e dá outras providências."
+}
