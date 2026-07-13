@@ -1,0 +1,51 @@
+{
+  "chunk_id": "decreto-saopaulo-59164-2019::024-art-23",
+  "lei_id": "decreto-saopaulo-59164-2019",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 23",
+  "numero": "23",
+  "header_raw": "Art. 23. O recolhimento do Imposto sobre Serviços de Qualquer Natureza - ISS, exigido conforme a alínea “c”, inciso II, do § 1º do artigo 11 e alíneas “c”, incisos II, dos artigos 13 e 15 todos deste decreto, será efetuado na forma definida em regulamento específico, e conforme valor calculado pela Secretaria Municipal da Fazenda-SF, nos termos da normatização em vigor.",
+  "caminho_hierarquico": [
+    "CAPÍTULO XI",
+    "Art. 23"
+  ],
+  "texto": "Art. 23. O recolhimento do Imposto sobre Serviços de Qualquer Natureza - ISS, exigido conforme a alínea “c”, inciso II, do § 1º do artigo 11 e alíneas “c”, incisos II, dos artigos 13 e 15 todos deste decreto, será efetuado na forma definida em regulamento específico, e conforme valor calculado pela Secretaria Municipal da Fazenda-SF, nos termos da normatização em vigor.\n\n§ 1º Para as áreas construídas já lançadas no Cadastro Imobiliário Fiscal, que integrem parcial ou totalmente a área objeto da regularização, o correspondente Imposto sobre Serviços de Qualquer Natureza - ISS deverá ser recolhido na forma do “caput” deste artigo.\n\n§ 2º Não se aplica o disposto no “caput” deste artigo aos créditos tributários já constituídos e referentes ao SQL que se busca regularizar, hipótese na qual a regularização somente será possível com a extinção dos referidos créditos.\n\n§ 3º Será cobrado o Imposto sobre Serviços de Qualquer Natureza - ISS, relativo às obras necessárias à adequação do imóvel, aceitas pela Prefeitura nos termos do § 3º, do artigo 1º deste decreto, no caso em que a referida adequação resultar em aumento de área.\n\n§ 4º Deverá ser recolhido Imposto sobre Serviços de Qualquer Natureza - ISS para os serviços de demolição necessários à adequação dos imóveis visando à regularização.\n\n§ 5º As eventuais diferenças de Imposto sobre Serviços de Qualquer Natureza - ISS, em razão da falta de recolhimento ou recolhimento a menor do tributo relativo à área declarada ou em razão de diferença de área apurada posteriormente, serão cobradas antes da emissão do Certificado de Regularização de acordo com a legislação em vigor.\n\n§ 6º Para fins da regularização de que trata esta lei, o Imposto sobre Serviços de Qualquer Natureza - ISS, anteriormente recolhido, ainda que em processo anterior de regularização, relativo ao mesmo pedido, será considerado para a quitação ou a título de compensação, desde que seja apresentado o respectivo comprovante de quitação.\n\n§ 7º A inexistência de comprovação da quitação do Imposto sobre Serviços de Qualquer Natureza – ISS devido implicará no indeferimento do pedido de regularização de edificação.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 59.164/2019 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO XI › Art. 23",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59164-de-27-de-dezembro-de-2019",
+    "vigencia": {
+      "inicio": "2019-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2019-12-27. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 17.202, de 16 de outubro de 2019, que dispõe sobre a regularização de edificações, condicionada, quando necessário, à realização de obras, nos termos da previsão do art. 367 do Plano Diretor Estratégico."
+}

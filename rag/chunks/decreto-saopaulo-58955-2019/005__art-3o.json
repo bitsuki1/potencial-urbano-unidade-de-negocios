@@ -1,0 +1,46 @@
+{
+  "chunk_id": "decreto-saopaulo-58955-2019::005-art-3o",
+  "lei_id": "decreto-saopaulo-58955-2019",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 3º",
+  "numero": "3",
+  "header_raw": "Art. 3º O GRAPROEM será constituído por 1 (um) representante e respectivo suplente de cada um dos seguintes órgãos municipais:",
+  "caminho_hierarquico": [
+    "Art. 3º"
+  ],
+  "texto": "Art. 3º O GRAPROEM será constituído por 1 (um) representante e respectivo suplente de cada um dos seguintes órgãos municipais:\n\nI - Secretaria Municipal de Licenciamento - SEL;\n\nII - Secretaria Municipal do Verde e do Meio Ambiente - SVMA;\n\nIII - Secretaria Municipal de Mobilidade e Transportes - SMT;\n\nIV - Secretaria Municipal de Infraestrutura Urbana e Obras – SIURB;\n\nV - Secretaria Municipal de Cultura – SMC.\n\n§ 1º Os titulares dos órgãos relacionados no “caput” deste artigo indicarão os seus representantes para integrar o Grupo.\n\n§ 2º Os membros do GRAPROEM terão, no âmbito de suas competências, atribuição para proferir voto favorável ou desfavorável aos projetos submetidos à sua análise.\n\n§ 3º O Presidente do Grupo será indicado pelo titular de SEL e não terá direito de voto.\n\n§ 4º O Presidente do Grupo terá as seguintes atribuições:\n\nI - presidir as reuniões e resolver as questões de ordem;\n\nII - submeter ao plenário os assuntos constantes da pauta das reuniões;\n\nIII - dar posse aos representantes dos órgãos que compõem o GRAPROEM;\n\nIV - consultar entidades de direito público e privado para a obtenção de informações necessárias às atividades e finalidades do GRAPROEM;\n\nV - reportar ao Comitê Gestor assuntos relevantes ou solicitados no GRAPROEM.\n\n§ 5º Os membros do Grupo e o seu Presidente serão designados por meio de portaria do Secretário Municipal de Licenciamento, com mandato de 02 (dois) anos, permitida uma recondução por igual período.\n\n§ 6º O Regimento Interno do GRAPROEM disporá acerca da estrutura, constituição, competência, organização e rotina das reuniões, inclusive as condições de participação dos interessados nos processos em deliberação.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 58.955/2019 — São Paulo/SP",
+    "dispositivo": "Art. 3º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-58955-de-20-de-setembro-de-2019",
+    "vigencia": {
+      "inicio": "2019-09-20",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2019-09-20. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o procedimento APROVA RÁPIDO; revoga parcialmente o Decreto nº 58.028, de 11 de dezembro de 2017."
+}

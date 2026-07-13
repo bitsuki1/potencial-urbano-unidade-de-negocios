@@ -1,0 +1,52 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17734-2022::035-art-34",
+  "lei_id": "lei-municipal-saopaulo-17734-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 34",
+  "numero": "34",
+  "header_raw": "Art. 34. Para a aprovação da Reurb de núcleos urbanos que contenham áreas de riscos geotécnicos, de inundações ou outros riscos deverão ser elaborados estudos técnicos, a fim de examinar a possibilidade de eliminação, de correção ou monitoramento dos riscos existentes na parcela por eles afetada.",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção IV",
+    "Art. 34"
+  ],
+  "texto": "Art. 34. Para a aprovação da Reurb de núcleos urbanos que contenham áreas de riscos geotécnicos, de inundações ou outros riscos deverão ser elaborados estudos técnicos, a fim de examinar a possibilidade de eliminação, de correção ou monitoramento dos riscos existentes na parcela por eles afetada.\n\n§ 1º Caso sejam identificadas parcelas do núcleo urbano em que os riscos não comportem eliminação, correção ou monitoramento, os moradores deverão ser realocados, como garantia do seu direito à moradia.\n\n§ 2º O núcleo urbano com incidência de risco poderá ser regularizado por etapas, sendo facultado ao Poder Público prosseguir com as ações de regularização na parcela onde não incida risco.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.734/2022 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção IV › Art. 34",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17734-de-11-de-janeiro-de-2022",
+    "vigencia": {
+      "inicio": "2022-01-11",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2022-01-11. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "itbi",
+    "planta_generica_valores",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta, no âmbito do Município de São Paulo, os procedimentos aplicáveis à Regularização Fundiária, de acordo com a Lei Federal nº 13.465, de 11 de julho de 2017, e o Decreto Federal nº 9.310, de 2018, e dá outras providências."
+}

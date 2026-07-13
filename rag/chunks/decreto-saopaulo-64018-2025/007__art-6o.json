@@ -1,0 +1,51 @@
+{
+  "chunk_id": "decreto-saopaulo-64018-2025::007-art-6o",
+  "lei_id": "decreto-saopaulo-64018-2025",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 6º",
+  "numero": "6",
+  "header_raw": "Art. 6º Os recursos obtidos com a alienação de Certificados de Potencial Adicional de Construção – CEPAC deverão ser mantidos em 4 (quatro) contas vinculadas específicas, distintas e segregadas, conforme o disposto no artigo 56 da Lei nº 18.079, de 2024.",
+  "caminho_hierarquico": [
+    "CAPÍTULO I",
+    "Art. 6º"
+  ],
+  "texto": "Art. 6º Os recursos obtidos com a alienação de Certificados de Potencial Adicional de Construção – CEPAC deverão ser mantidos em 4 (quatro) contas vinculadas específicas, distintas e segregadas, conforme o disposto no artigo 56 da Lei nº 18.079, de 2024.\n\n§ 1º As contas vinculadas serão de titularidade da Prefeitura do Município de São Paulo e, quando necessário, os recursos serão transferidos para a SP-Urbanismo ou conforme acordo celebrado, para outros órgãos ou entidades da Administração Pública Direta ou Indireta dos diversos entes federativos, objetivando a execução das intervenções, mediante prévia e expressa autorização da SP-Urbanismo.\n\n§ 2º Os percentuais mínimos de destinação obrigatória para provisão habitacional de interesse social, para melhorias na rede de equipamentos públicos e para finalidades de preservação do patrimônio histórico serão calculados sobre o total do valor arrecadado pela Operação Urbana Consorciada Bairros do Tamanduateí em cada distribuição, descontadas as taxas, emolumentos e a remuneração devida à SP-Urbanismo.\n\n§ 3º Os recursos deverão ser aplicados pela Secretaria Municipal da Fazenda em carteira de investimentos que tenha por objetivo preservar o poder aquisitivo dos recursos, com baixo risco, e com liquidez que considere o cronograma de intervenções.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 64.018/2025 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO I › Art. 6º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-64018-de-30-de-janeiro-de-2025",
+    "vigencia": {
+      "inicio": "2025-01-30",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2025-01-30. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 18.079, de 11 de janeiro de 2024, aprovou o Projeto de Intervenção Urbana para o perímetro do Arco Tamanduateí, em atendimento ao inciso I do § 3º do artigo 76 da Lei nº 16.050, de 31 de julho de 2014; instituiu a Operação Urbana Consorciada Bairros do Tamanduateí e definiu parâmetros de uso e ocupação do solo para o território e o correspondente Programa de Intervenções."
+}

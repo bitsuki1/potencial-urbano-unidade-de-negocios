@@ -1,0 +1,48 @@
+{
+  "chunk_id": "decreto-saopaulo-58955-2019::019-art-17",
+  "lei_id": "decreto-saopaulo-58955-2019",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 17",
+  "numero": "17",
+  "header_raw": "Art. 17. O pedido de licenciamento edilício aderente ao procedimento APROVA RÁPIDO que tenha sido considerado inadmissível nos termos do § 3º do artigo 9º deste decreto somente poderá ser reapresentado para a aplicação do APROVA RÁPIDO, em novo protocolo, da seguinte maneira:",
+  "caminho_hierarquico": [
+    "Art. 17"
+  ],
+  "texto": "Art. 17. O pedido de licenciamento edilício aderente ao procedimento APROVA RÁPIDO que tenha sido considerado inadmissível nos termos do § 3º do artigo 9º deste decreto somente poderá ser reapresentado para a aplicação do APROVA RÁPIDO, em novo protocolo, da seguinte maneira:\n\nI - após 90 dias, quando se tratar de pedido de Alvará de Aprovação;\n\nII - após 120 dias, quando se tratar de pedido conjunto de Alvará de Aprovação e Execução.\n\nI - após 90 (noventa) dias do protocolo, quando se tratar de pedido de Alvará de Aprovação ou de Alvará de Execução;(Redação dada pelo Decreto nº 59.455/2020)\n\nII - após 120 (cento e vinte) dias do protocolo, quando se tratar de pedido conjunto de Alvará de Aprovação e Execução ou de Projeto Modificativo.(Redação dada pelo Decreto nº 59.455/2020)\n\nParágrafo único. Os pedidos que não observarem os prazos de intervalo previstos neste artigo ou que sejam mera reapresentação do pedido anterior serão encaminhados diretamente à via ordinária de análise.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "2020",
+    "norma_redacao": "Decreto nº 59.455/2020"
+  },
+  "citacao": {
+    "norma": "decreto nº 58.955/2019 — São Paulo/SP",
+    "dispositivo": "Art. 17",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-58955-de-20-de-setembro-de-2019",
+    "vigencia": {
+      "inicio": "2019-09-20",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2019-09-20. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o procedimento APROVA RÁPIDO; revoga parcialmente o Decreto nº 58.028, de 11 de dezembro de 2017."
+}

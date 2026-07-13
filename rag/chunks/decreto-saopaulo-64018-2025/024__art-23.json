@@ -1,0 +1,52 @@
+{
+  "chunk_id": "decreto-saopaulo-64018-2025::024-art-23",
+  "lei_id": "decreto-saopaulo-64018-2025",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 23",
+  "numero": "23",
+  "header_raw": "Art. 23. Os eventuais pedidos de alteração de certidão expedida pela São Paulo Urbanismo – SP-Urbanismo, dos quais constem mudanças de categoria de uso de potencial adicional de construção, serão analisados de acordo com a legislação vigente na data do protocolo do pedido de alteração.",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Seção I",
+    "Art. 23"
+  ],
+  "texto": "Art. 23. Os eventuais pedidos de alteração de certidão expedida pela São Paulo Urbanismo – SP-Urbanismo, dos quais constem mudanças de categoria de uso de potencial adicional de construção, serão analisados de acordo com a legislação vigente na data do protocolo do pedido de alteração.\n\n§ 1º Quando o pedido de alteração envolver potencial adicional de construção, sua análise estará condicionada à disponibilidade de estoque para o uso pretendido na data do protocolamento.\n\n§ 2º Para efeito do pedido de alteração, será considerada a mesma quantidade de CEPAC utilizada para a certidão anteriormente emitida, devendo ser expressamente indicada a alteração pretendida.\n\n§ 3º Os pedidos deverão ser protocolados na SP-Urbanismo e instruídos com requerimento específico, acompanhado da pertinente documentação, conforme portaria a ser editada pela Secretaria Municipal de Urbanismo e Licenciamento, mediante proposta da SP-Urbanismo.\n\n§ 4º A SP-Urbanismo fará a conferência de toda a documentação, no prazo de até 20 (vinte) dias úteis contados da data do protocolamento do pedido, bem como determinará a reserva de estoque, no caso de pedido que envolva potencial adicional de construção.\n\n§ 5º A não apresentação, pelo interessado, dos documentos necessários no momento do protocolamento do requerimento na SP-Urbanismo nos termos do § 3º deste artigo, implicará o indeferimento do pedido e, consequentemente, a perda da prioridade na utilização de estoques decorrente da reserva de que trata o § 4º deste artigo.\n\n§ 6º A SP-Urbanismo poderá emitir, se necessário, um único comunicado ao interessado, com publicação no Diário Oficial da Cidade para que, no prazo de 30 (trinta) dias corridos, contados da data de seu recebimento, forneça esclarecimentos sobre a documentação apresentada.\n\n§ 7º Após o cumprimento do disposto no § 6º deste artigo, excepcionalmente, poderá ser emitido um segundo comunicado para que o interessado apresente novos esclarecimentos, o qual deverá ser atendido no prazo de 10 (dez) dias corridos, contados da data de seu recebimento.\n\n§ 8º Para assegurar a prioridade decorrente da reserva referida no § 4º, o interessado deverá respeitar os prazos de comunicados estabelecidos nos § 6º e § 7º, todos deste artigo.\n\n§ 9º A SP-Urbanismo deverá dar ampla publicidade à decisão que autorizou a alteração de certidão que contenha devolução de potencial adicional de construção ao estoque da Operação Urbana Consorciada, com publicação no Diário Oficial da Cidade e em sua página eletrônica.\n\n§ 10. O potencial adicional de construção em metros quadrados liberado por conta de alteração de certidão retornará ao saldo de estoque da Operação Urbana Consorciada Bairros do Tamanduateí, no mesmo setor e uso, após 90 (noventa) dias corridos da publicação a que se refere o § 9º deste artigo, quando poderá ser utilizado em outro projeto.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 64.018/2025 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO V › Seção I › Art. 23",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-64018-de-30-de-janeiro-de-2025",
+    "vigencia": {
+      "inicio": "2025-01-30",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2025-01-30. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 18.079, de 11 de janeiro de 2024, aprovou o Projeto de Intervenção Urbana para o perímetro do Arco Tamanduateí, em atendimento ao inciso I do § 3º do artigo 76 da Lei nº 16.050, de 31 de julho de 2014; instituiu a Operação Urbana Consorciada Bairros do Tamanduateí e definiu parâmetros de uso e ocupação do solo para o território e o correspondente Programa de Intervenções."
+}

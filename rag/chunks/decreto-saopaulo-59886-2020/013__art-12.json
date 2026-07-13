@@ -1,0 +1,51 @@
+{
+  "chunk_id": "decreto-saopaulo-59886-2020::013-art-12",
+  "lei_id": "decreto-saopaulo-59886-2020",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 12",
+  "numero": "12",
+  "header_raw": "Art. 12. Para quaisquer novos empreendimentos na Operação Urbana Água Espraiada, considerando as disposições previstas nos artigos 4° e 5° da Lei nº 16.975, de 3 de setembro de 2018, quando a extensão de qualquer das faces de quadra exceder 100m (cem metros), deverão ser fixadas servidões de passagem para pedestres ao longo da quadra, com largura mínima de 6m (seis metros), de modo que a distância entre os logradouros que definem a face de quadra e a servidão de passagem, ou entre as servidões de passagem, não seja superior a 100m (cem metros).",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção I",
+    "Art. 12"
+  ],
+  "texto": "Art. 12. Para quaisquer novos empreendimentos na Operação Urbana Água Espraiada, considerando as disposições previstas nos artigos 4° e 5° da Lei nº 16.975, de 3 de setembro de 2018, quando a extensão de qualquer das faces de quadra exceder 100m (cem metros), deverão ser fixadas servidões de passagem para pedestres ao longo da quadra, com largura mínima de 6m (seis metros), de modo que a distância entre os logradouros que definem a face de quadra e a servidão de passagem, ou entre as servidões de passagem, não seja superior a 100m (cem metros).\n\nSeção II\n\nDa Operação Urbana Consorciada Faria Lima",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 59.886/2020 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção I › Art. 12",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59886-de-4-de-novembro-de-2020",
+    "vigencia": {
+      "inicio": "2020-11-04",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2020-11-04. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Consolida a disciplina específica de uso e ocupação do solo para os Empreendimentos de Habitação de Interesse Social – EHIS e Empreendimentos em ZEIS - EZEIS a serem executados nas áreas das Operações Urbanas Consorciadas Água Espraiada, Faria Lima e Água Branca e na Operação Urbana Centro."
+}

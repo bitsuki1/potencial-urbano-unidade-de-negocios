@@ -1,0 +1,52 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17734-2022::031-art-30",
+  "lei_id": "lei-municipal-saopaulo-17734-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 30",
+  "numero": "30",
+  "header_raw": "Art. 30. O Projeto de Regularização Fundiária será composto no mínimo por:",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção IV",
+    "Art. 30"
+  ],
+  "texto": "Art. 30. O Projeto de Regularização Fundiária será composto no mínimo por:\n\nI - levantamento planialtimétrico e cadastral, com georreferenciamento, subscrito por profissional competente, acompanhado de Anotação de Responsabilidade Técnica – ART ou Registro de Responsabilidade Técnica – RRT, que indicará no perímetro da área as construções, o sistema viário, os equipamentos urbanos, a infraestrutura urbana, os acidentes geográficos, as áreas vazias, os confrontantes, as testadas do lado oposto do viário e os demais elementos caracterizadores do núcleo urbano a ser regularizado;\n\nII - estudo da situação fundiária do núcleo urbano, dados cadastrais existentes, ações judiciais e legislações incidentes;\n\nIII - planta do perímetro do núcleo urbano com a sobreposição das matrículas e/ou transcrições atingidas quando possível e indicação dos confrontantes;\n\nIV - estudo preliminar da condição urbanística, ambiental e situações de risco;\n\nV - diagnóstico da situação jurídico-fundiária, social, urbanística e ambiental do núcleo urbano a ser regularizado;\n\nVI - estudo técnico da situação de risco, quando for o caso;\n\nVII - estudo técnico ambiental, quando for o caso;\n\nVIII - propostas de solução para questões ambientais, urbanísticas e de reassentamento dos ocupantes, quando for o caso;\n\nIX - projeto urbanístico, nos termos do art. 31 desta Lei;\n\nX - cronograma físico de implantação de obras de infraestrutura essencial, compensações urbanísticas, ambientais e outras, quando necessárias;\n\nXI - termo de compromisso assinado pelo legitimado proponente da Reurb assumindo a execução do cronograma definido no inciso X deste artigo;\n\nXII - proposta de execução do Projeto de Regularização Fundiária por etapas, quando for o caso.\n\n§ 1º O projeto de regularização fundiária de núcleo urbano deverá considerar as características da área efetivamente ocupada, ainda que em detrimento de projetos/planos aprovados anteriormente por SERLA ou RESOLO, para definir parâmetros urbanísticos e ambientais específicos para o núcleo urbano a ser regularizado, como largura e alinhamento das vias de circulação, dispensando-se, automaticamente, no caso de núcleos urbanos informais preexistentes, as exigências relativas ao percentual de áreas destinadas ao uso público e tamanho dos lotes, assim como outros parâmetros urbanísticos municipais e ambientais.\n\n§ 2º A proposta de execução por etapas prevista nos incisos XII deste artigo constitui-se na divisão do núcleo urbano em perímetros para o planejamento e a execução fracionados do projeto, se necessário e conveniente ao interesse público.\n\n§ 3º A proposta de execução do cronograma físico previsto nos incisos X, XI e XII deste artigo constitui-se na divisão do núcleo urbano em perímetros para o planejamento e a execução fracionados do projeto em relação às obras de infraestrutura essencial, de compensações urbanísticas e/ou ambientais, podendo nestes casos, a critérios da conveniência e oportunidade municipal, ser expedida a CRF relativa aos perímetros não diretamente indicados como áreas de implantação das obras e interferências constantes no cronograma físico.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.734/2022 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção IV › Art. 30",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17734-de-11-de-janeiro-de-2022",
+    "vigencia": {
+      "inicio": "2022-01-11",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2022-01-11. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "itbi",
+    "planta_generica_valores",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta, no âmbito do Município de São Paulo, os procedimentos aplicáveis à Regularização Fundiária, de acordo com a Lei Federal nº 13.465, de 11 de julho de 2017, e o Decreto Federal nº 9.310, de 2018, e dá outras providências."
+}

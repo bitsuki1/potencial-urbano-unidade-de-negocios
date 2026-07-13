@@ -1,0 +1,162 @@
+{
+  "id": "decreto-saopaulo-63728-2024",
+  "tipo_norma": "decreto",
+  "esfera": "municipal",
+  "jurisdicao": "São Paulo/SP",
+  "numero": "63.728",
+  "ano": 2024,
+  "ementa": "Estabelece disciplina específica de parcelamento, uso e ocupação do solo, bem como normas edilícias para Habitação de Interesse Social - HIS, Habitação de Mercado Popular - HMP, Empreendimento de Habitação de Interesse Social - EHIS, Empreendimento de Habitação de Mercado Popular - EHMP e Empreendimento em Zona Especial de Interesse Social - EZEIS, nos termos da Lei nº 16.050, de 31 de julho de 2014 - PDE, alterada e revisada pela Lei nº 17.975, de 08 de julho de 2023 e pela Lei nº 18.157, de 17 de julho de 2024, da Lei nº 16.402, de 22 de março de 2016 - LPUOS, alterada e revisada pela Lei nº 18.081, de 19 de janeiro de 2024 e pela Lei 18.177, de 25 de julho de 2024, bem como da Lei nº 16.642, de 09 de maio de 2017 - COE.",
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "plano_intervencao_urbana",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dispositivos_chave": [
+    "Art. 1º Este decreto regulamenta dispositivos do Plano Diretor Estratégico - PDE, da Lei de Parcelamento, Uso e Ocupação do Solo",
+    "Art. 2º São agentes produtores de HIS e HMP aqueles que aderirem ao regramento específico regulado por este decreto e o regime j",
+    "Art. 3º A unidade de HIS deve atender aos seguintes parâmetros:",
+    "Art. 4º A unidade de HMP deve atender aos seguintes parâmetros:",
+    "Art. 5º Para fins de aplicação dos artigos 3º e 4º deste decreto, considera-se área privativa somente a área coberta de uso priv",
+    "Art. 6º O terraço coberto não computável, quando houver, será considerado área privativa e não será contabilizado para a área má",
+    "Art. 7º Os EHIS, EHMP e EZEIS podem ser produzidos nas seguintes tipologias:",
+    "Art. 8º Os EHIS e EZEIS podem ser produzidos nas seguintes modalidades:",
+    "Art. 9º O EHIS, EHMP e EZEIS são permitidos na Zona Urbana do Município delimitada no Mapa 1A do PDE, nas zonas de uso constante",
+    "Art. 10 . Nos perímetros de Operações Urbanas Consorciadas, os EHIS, EHMP e EZEIS devem observar a todos os parâmetros e melhora",
+    "Art. 11 . Especificamente para empreendimentos produzidos pela Administração Pública Direta, por empresa com controle acionário",
+    "Art. 12 . As condições aplicáveis ao EHIS, EHMP e EZEIS serão diversas das estabelecidas neste decreto, nas seguintes hipóteses:",
+    "Art. 13 . Considerando o disposto no inciso III do artigo 60 da Lei nº 16.050, de 2014, no artigo 95 da Lei nº 16.402, de 2016,",
+    "Art. 14 . As edificações dos EHIS, EHMP e EZEIS devem observar as seguintes condições:",
+    "Art. 15 . Aos EHIS, EHMP e EZEIS, não se aplicam as disposições para Eixos de Estruturação da Transformação Urbana - EETU defini",
+    "Art. 16 . Os parâmetros edilícios para EHIS, EHMP e EZEIS serão diversos dos estabelecidos neste decreto, nas seguintes hipótese",
+    "Art. 17 . Em EHIS, EHMP e EZEIS, consideram-se áreas não computáveis, limitadas a 59% (cinquenta e nove por cento) da área const",
+    "Art. 18 . Também são consideradas áreas não computáveis nos EHIS, EHMP e EZEIS, porém não sujeitas ao limite estabelecido no “ca",
+    "Art. 19 . Para os EHIS e EZEIS, a concessão do direito de construir acima do coeficiente de aproveitamento básico até o limite d",
+    "Art. 20 . Para o EHMP, na concessão do direito de construir acima do coeficiente de aproveitamento básico até o limite do coefic",
+    "Art. 21 . Na previsão de demolição total ou parcial de edificação regular existente, para projetos de obra nova ou reforma de EH",
+    "Art. 22 . No caso de reforma ou requalificação de edificação existente para a implantação de EHIS, EHMP ou EZEIS, poderão ser ac",
+    "Art. 23 . Na requalificação de edificação existente, aplicam-se as disposições do COE e da Lei nº 17.577, de 2021, quando for o",
+    "Art. 24 . As edificações existentes poderão ser regularizadas perante a Municipalidade, nos termos especificados pelo COE, media",
+    "Art. 25 . Para o EHIS, desde que o empreendimento não tenha sido objeto de registro de incorporação, será permitida a regulariza"
+  ],
+  "vigencia": {
+    "inicio": "2024-09-10",
+    "fim": null,
+    "em_vigor": true,
+    "altera": [],
+    "alterada_por": [],
+    "revogada_por": null,
+    "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2024-09-10. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+  },
+  "remissoes": [
+    {
+      "norma": "DECRETO Nº 63.728",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 27.568",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 56.089",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 56.538",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 57.558",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 57.766",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 57.776",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 58.106",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 58.782",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 58.943",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 58.955",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 59.671",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 59.885",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 59.886",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 61.811",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 62.070",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 63.130",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 63.504",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 63.728",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 64.901",
+      "relacao": "citada no texto (detectada automaticamente)"
+    }
+  ],
+  "jurisprudencia_relacionada": [],
+  "tem_tabela": true,
+  "tabelas_extraidas": [],
+  "tem_formula": false,
+  "formulas_referenciadas": [],
+  "fonte": {
+    "origem": "Portal oficial (legislacao.prefeitura.sp.gov.br)",
+    "path": "_entrada/misto/decreto-saopaulo-63728-2024.txt",
+    "url": "https://legislacao.prefeitura.sp.gov.br/decreto-63728-de-10-de-setembro-de-2024",
+    "hash": "sha256:e7db50e0fb3ee3b2b19a0fc9d4bfc7037afe0b1b5a9c3808340be992715885b6",
+    "hash_nota_fonte": "sha256 do HTML bruto do portal capturado 2026-07-13",
+    "ocr": false,
+    "metodo": "VERBATIM INTEGRAL (portal oficial, texto compilado); captura portal oficial legislacao.prefeitura.sp.gov.br (container texto_compilado); promovido de _entrada/misto/",
+    "hash_alvo": "_entrada/misto/decreto-saopaulo-63728-2024.txt",
+    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior."
+  },
+  "status_pipeline": "indexado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "dominio_primario": "tdc",
+  "dominio": [
+    "tdc"
+  ]
+}

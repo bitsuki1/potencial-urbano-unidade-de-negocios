@@ -1,0 +1,94 @@
+{
+  "id": "decreto-saopaulo-57565-2016",
+  "tipo_norma": "decreto",
+  "esfera": "municipal",
+  "jurisdicao": "São Paulo/SP",
+  "numero": "57.565",
+  "ano": 2016,
+  "ementa": "Regulamenta procedimentos para a aplicação da Quota Ambiental, nos termos da Lei nº 16.402, de 22 de março de 2016.",
+  "tema": [
+    "outorga_onerosa",
+    "quota_ambiental"
+  ],
+  "dispositivos_chave": [
+    "Art. 1º Este decreto regulamenta procedimentos de licenciamento, controle, fiscalização e monitoramento para aplicação da Quota",
+    "Art. 2º Aplicam-se as disposições relativas à Quota Ambiental, bem como a previsão de instalações de reservação de controle de e",
+    "Art. 3º Nos Alvarás de Aprovação, de Aprovação e Execução de Edificação Nova ou de Reforma e nos Certificados de Conclusão que t",
+    "Art. 4º Para a emissão do Certificado de Conclusão, o interessado deverá apresentar declaração de que o projeto foi executado de",
+    "Art. 5º Para fins de aplicação do § 2º do artigo 76 da Lei nº 16.402, de 2016, nas hipóteses de desmembramento ou de subdivisão",
+    "Art. 6º O § 6º do artigo 76 da Lei nº 16.402, de 2016, aplica-se apenas a estacionamentos a céu aberto, cujo pavimento esteja so",
+    "Art. 7º Para fins de enquadramento dos indivíduos arbóreos existentes no lote nas categorias B5, B6 e B7, nos termos do Quadro 3",
+    "Art. 8º Para fins de enquadramento dos indivíduos arbóreos a serem plantados no lote em cada uma das categorias B1, B2 e B3, nos",
+    "Art. 9º Quando houver dúvida sobre o enquadramento dos indivíduos arbóreos previstos no Quadro 3B da Lei nº 16.402, de 2016, o ó",
+    "Art. 10 . Nos imóveis nos quais incide Termo de Compromisso Ambiental (TCA), o enquadramento previsto nos artigos 7º, 8º e 9º de",
+    "Art. 11 . Para fins de atendimento da Taxa de Permeabilidade prevista no artigo 81 e no Quadro 3A da Lei nº 16.402, de 2016, ser",
+    "Art. 12 . Fica vedada a redução da taxa de permeabilidade em associação com a aplicação do desconto previsto no parágrafo único",
+    "Art. 13 . Nos pedidos de aprovação que demandem a celebração de TCA, a opção pela redução da taxa de permeabilidade prevista nos",
+    "Art. 14 . A aplicação do Fator Redutor de 0,50 (cinco décimos) ao Fator de Eficácia Ambiental do Indicador Cobertura Vegetal – F",
+    "Art. 15 . Os reservatórios de controle de escoamento superficial e de aproveitamento de águas pluviais previstos, respectivament",
+    "Art. 16 . As certificações que serão aceitas para fins de comprovação do Incentivo de Certificação previsto no artigo 83 da Lei",
+    "Art. 17 . A solicitação de concessão do Incentivo de Certificação deverá ser feita pelo interessado, como parte integrante do pr",
+    "Art. 18 . Conforme previsto no § 2º do artigo 83 da Lei nº 16.402, de 2016, em até 180 (cento e oitenta dias) corridos após a em",
+    "Art. 19 . O reconhecimento de novas certificações, não constantes do primeiro ato editado por SMDU nos termos do artigo 16 deste",
+    "Art. 20 . A fiscalização dos imóveis e a imposição de eventuais penalidades relacionadas ao descumprimento da Quota Ambiental se",
+    "Art. 21 . Para a fiscalização, o controle e o monitoramento da aplicação da Quota Ambiental e dos incentivos previstos nos artig",
+    "Art. 22 . O relatório previsto no artigo 84 da Lei nº 16.402, de 2016, deverá ser entregue pelo interessado à SVMA conforme mode",
+    "Art. 23 . Todos os alvarás e certificados de conclusão emitidos por SEL e SMSP, bem como formulários e relatório previstos nos A",
+    "Art. 24 . Integram este decreto:",
+    "Art. 25 . Este decreto entrará em vigor na data de sua publicação."
+  ],
+  "vigencia": {
+    "inicio": "2016-12-27",
+    "fim": null,
+    "em_vigor": true,
+    "altera": [],
+    "alterada_por": [],
+    "revogada_por": null,
+    "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2016-12-27. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+  },
+  "remissoes": [
+    {
+      "norma": "DECRETO Nº 57.565",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 63.884",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei Federal nº 12.651",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 16.402",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 16.402, de 2016",
+      "relacao": "citada no texto (detectada automaticamente)"
+    }
+  ],
+  "jurisprudencia_relacionada": [],
+  "tem_tabela": true,
+  "tabelas_extraidas": [],
+  "tem_formula": false,
+  "formulas_referenciadas": [],
+  "fonte": {
+    "origem": "Portal oficial (legislacao.prefeitura.sp.gov.br)",
+    "path": "_entrada/misto/decreto-saopaulo-57565-2016.txt",
+    "url": "https://legislacao.prefeitura.sp.gov.br/decreto-57565-de-27-de-dezembro-de-2016",
+    "hash": "sha256:a0ebbc89a333962b339fd84fead1bb2fd35c8858143dab98e584513cb5a2f71b",
+    "hash_nota_fonte": "sha256 do HTML bruto do portal capturado 2026-07-13",
+    "ocr": false,
+    "metodo": "VERBATIM INTEGRAL (portal oficial, texto compilado); captura portal oficial legislacao.prefeitura.sp.gov.br (container texto_compilado); promovido de _entrada/misto/",
+    "hash_alvo": "_entrada/misto/decreto-saopaulo-57565-2016.txt",
+    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior."
+  },
+  "status_pipeline": "indexado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "dominio_primario": "tdc",
+  "dominio": [
+    "tdc"
+  ]
+}

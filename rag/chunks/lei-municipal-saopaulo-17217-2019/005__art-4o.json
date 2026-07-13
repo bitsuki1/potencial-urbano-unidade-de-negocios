@@ -1,0 +1,45 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17217-2019::005-art-4o",
+  "lei_id": "lei-municipal-saopaulo-17217-2019",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 4º",
+  "numero": "4",
+  "header_raw": "Art. 4º Em decorrência do previsto nos arts. 2º e 3º desta Lei, os dispositivos do inciso XXVIII e alínea “j” do art. 1º da Lei nº 16.541, de 2016, passam a vigorar com as seguintes alterações:",
+  "caminho_hierarquico": [
+    "Art. 4º"
+  ],
+  "texto": "Art. 4º Em decorrência do previsto nos arts. 2º e 3º desta Lei, os dispositivos do inciso XXVIII e alínea “j” do art. 1º da Lei nº 16.541, de 2016, passam a vigorar com as seguintes alterações:\n\n“Art. 1º ......................................................\n\n.........................................................................\n\nXXVIII - plantas nºs 26.982/44 a 57, Classificação T-1064, e nº 26.982/53-A, Classificação T-1064, contemplando a abertura de via destinada ao Apoio Urbano Sul, desde a Rua Sérgio Tomás até a Avenida Airton Pretini, formada a partir do alargamento de vias já existentes e da abertura de novos trechos para a devida interligação, na seguinte conformidade:\n\n.........................................................................\n\nj) o alargamento da Rua Ulisses Cruz e a abertura de via desde a Rua Francisco Bueno até a via a que se refere a alínea “k” deste inciso, conforme descrito na planta nº 26.982/53, bem como a abertura de novas vias de ligação entre a via a que refere este inciso XXVIII e, respectivamente, a Rua Ulisses Cruz e a Avenida Salim Farah Maluf, conforme descrito na planta 26.982/53-A, classificação T-1064;\n\n...................................................................” (NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.217/2019 — São Paulo/SP",
+    "dispositivo": "Art. 4º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17217-de-23-de-outubro-de-2019",
+    "vigencia": {
+      "inicio": "2019-10-23",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2019-10-23. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "regularizacao",
+    "itbi",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Revoga parcialmente planos de melhoramentos viários aprovados pelas Leis nº 13.860, de 29 de junho de 2004, e nº 16.541, de 8 de setembro de 2016, fixando novos alinhamentos, nas Subprefeituras de Casa Verde/Cachoeirinha e Mooca; altera dispositivos das Leis nº 13.402, de 5 de agosto de 2002, nº 15.360, de 14 de março de 2011, nº 16.359, de 13 de janeiro de 2016, e nº 16.050, de 31 de julho de 2014."
+}

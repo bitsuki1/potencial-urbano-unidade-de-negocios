@@ -1,0 +1,160 @@
+{
+  "id": "decreto-saopaulo-59164-2019",
+  "tipo_norma": "decreto",
+  "esfera": "municipal",
+  "jurisdicao": "São Paulo/SP",
+  "numero": "59.164",
+  "ano": 2019,
+  "ementa": "Regulamenta a Lei nº 17.202, de 16 de outubro de 2019, que dispõe sobre a regularização de edificações, condicionada, quando necessário, à realização de obras, nos termos da previsão do art. 367 do Plano Diretor Estratégico.",
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dispositivos_chave": [
+    "Art. 1º A Lei nº 17.202, de 16 de outubro de 2019, que dispõe sobre a regularização de edificações, fica regulamentada na confor",
+    "Art. 2º As obras de adequação referidas no § 3º, do artigo 1º deste decreto dependerão de requerimento do interessado acompanhad",
+    "Art. 3º Poderão ser regularizadas as edificações destinadas aos usos institucionais, uso religioso e locais de culto em vias com",
+    "Art. 4º Será admitida a regularização de edificações que abriguem usos permitidos na zona de uso pela legislação de uso e ocupaç",
+    "Art. 5º Para a regularização de edificações de que trata a Lei nº 17.202, de 2019, não serão consideradas as restrições de uso e",
+    "Art. 6º Deverá constar no Certificado de Regularização a nota de dispensa da exigência de vagas de estacionamento e área de carg",
+    "Art. 7º Não serão passíveis de regularização, para os efeitos da Lei nº 17.202, de 2019, as edificações que:",
+    "Art. 8º A regularização das edificações enquadradas nas situações abaixo descritas dependerá de prévia anuência ou autorização d",
+    "Art. 9º Independentemente da solicitação ou de protocolamento de requerimento, serão consideradas regulares nos termos da Lei nº",
+    "Art. 10 . Para as edificações de que trata o “caput” do artigo 9º, a inclusão e a comprovação de regularidade serão disponibiliz",
+    "Art. 11 . Poderá ser requerida por meio de procedimento declaratório a regularização da edificação concluída até 31 de julho de",
+    "Art. 12 . Os processos de que trata este decreto são considerados especiais e seguem o rito nele previsto, aplicando-se, subsidi",
+    "Art. 13 . Para os imóveis de uso residencial, nas categorias R, R1 e R2h, com área total de até 500 m², enquadradas nos incisos",
+    "Art. 14 . Os pedidos de regularização protocolados por meio do procedimento declaratório serão analisados e decididos pelo proce",
+    "Art. 15 . A regularização das edificações de que trata este decreto que não se enquadrem na regularização automática prevista no",
+    "Art. 16 . Os processos de que trata este decreto são considerados especiais e seguem o rito nele previsto, aplicando-se, subsidi",
+    "Art. 17 . As edificações cujo terreno tenha área impermeabilizada superior a 500 m² (quinhentos metros quadrados) que descumprir",
+    "Art. 18 . Além dos documentos referidos no artigo 15 deste decreto, no ato do protocolamento do pedido de regularização, também",
+    "Art. 19 . Para a emissão de Certificado de Acessibilidade de templos religiosos serão aplicadas as disposições do artigo 18, § 2",
+    "Art. 20 . A regularização das edificações com área construída computável superior ao coeficiente de aproveitamento básico da zon",
+    "Art. 21 . A outorga onerosa para regularização de edificação não incidirá nos imóveis da categoria de uso nR, para o uso institu",
+    "Art. 22 . As leis específicas a que se refere o “caput” do artigo 20 deste decreto aplicam-se inclusive nas áreas de influência",
+    "Art. 23 . O recolhimento do Imposto sobre Serviços de Qualquer Natureza - ISS, exigido conforme a alínea “c”, inciso II, do § 1º",
+    "Art. 24 . Não será lançado Imposto sobre Serviços de Qualquer Natureza – ISS relativamente às edificações enquadradas no artigo",
+    "Art. 25 . A expedição do Certificado de Regularização independe da quitação de multas que serão cobradas pela Prefeitura em proc"
+  ],
+  "vigencia": {
+    "inicio": "2019-12-27",
+    "fim": null,
+    "em_vigor": true,
+    "altera": [],
+    "alterada_por": [],
+    "revogada_por": null,
+    "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2019-12-27. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+  },
+  "remissoes": [
+    {
+      "norma": "DECRETO Nº 59.164",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº ...",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 45.817",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 57.298",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 58.419",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 60.945",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 64.866",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 65.148",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei n° 16.642",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei n° 16.642, de 2017",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei n°16.642, de 2017",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 10.676",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 10.676, de 1988",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 10.734",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 13.275",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 13.885",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 13.885, de 2004",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 13.885/2004",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 15.150",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 16.050",
+      "relacao": "citada no texto (detectada automaticamente)"
+    }
+  ],
+  "jurisprudencia_relacionada": [],
+  "tem_tabela": true,
+  "tabelas_extraidas": [],
+  "tem_formula": false,
+  "formulas_referenciadas": [],
+  "fonte": {
+    "origem": "Portal oficial (legislacao.prefeitura.sp.gov.br)",
+    "path": "_entrada/misto/decreto-saopaulo-59164-2019.txt",
+    "url": "https://legislacao.prefeitura.sp.gov.br/decreto-59164-de-27-de-dezembro-de-2019",
+    "hash": "sha256:99f9c0af7843f21c53eb4cad1f403de677a20d2fb71f7b1013190ba47438d555",
+    "hash_nota_fonte": "sha256 do HTML bruto do portal capturado 2026-07-13",
+    "ocr": false,
+    "metodo": "VERBATIM INTEGRAL (portal oficial, texto compilado); captura portal oficial legislacao.prefeitura.sp.gov.br (container texto_compilado); promovido de _entrada/misto/",
+    "hash_alvo": "_entrada/misto/decreto-saopaulo-59164-2019.txt",
+    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior."
+  },
+  "status_pipeline": "indexado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "dominio_primario": "tdc",
+  "dominio": [
+    "tdc"
+  ]
+}

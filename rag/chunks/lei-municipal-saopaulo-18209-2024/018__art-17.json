@@ -1,0 +1,49 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-18209-2024::018-art-17",
+  "lei_id": "lei-municipal-saopaulo-18209-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 17",
+  "numero": "17",
+  "header_raw": "Art. 17. Esta Lei entrará em vigor na data de sua publicação, revogados o § 4º e o § 5º do art. 146 da Lei nº 16.402, de 22 de março de 2016.",
+  "caminho_hierarquico": [
+    "Art. 17"
+  ],
+  "texto": "Art. 17. Esta Lei entrará em vigor na data de sua publicação, revogados o § 4º e o § 5º do art. 146 da Lei nº 16.402, de 22 de março de 2016.\n\nPREFEITURA DO MUNICÍPIO DE SÃO PAULO, aos 20 de dezembro de 2024, 471º da fundação de São Paulo.\n\nRICARDO NUNES\n\nPREFEITO\n\nFERNANDO JOSÉ DA COSTA\n\nSecretário Municipal De Justiça\n\nFABRICIO COBRA ARBEX\n\nSecretário Municipal da Casa Civil\n\nPublicada na Casa Civil, em 20 de dezembro de 2024.\n\nDocumento original assinado nº 116833472\n\nANEXO INTEGRANTE DA LEI Nº 18.209, DE 20 DE DEZEMBRO DE 2024\n\nDocumento Anexo Mapa nº 116833653\n\nEste texto não substitui o original publicado no Diário Oficial da Cidade de São Paulo.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 18.209/2024 — São Paulo/SP",
+    "dispositivo": "Art. 17",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-18209-de-20-de-dezembro-de-2024",
+    "vigencia": {
+      "inicio": "2024-12-20",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2024-12-20. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a alteração do mapa 2 constante do art. 383, inciso I, da Lei Municipal nº 16.050, de 31 de julho de 2014, que aprova a Política de Desenvolvimento Urbano e o Plano Diretor Estratégico do Município de São Paulo, estabelece o órgão competente para a definição da área beneficiária de compensação ambiental, e altera a redação do art. 76 da mesma Lei; altera a redação do art. 22 da Lei Municipal nº 17.202, de 16 de outubro de 2019, que dispõe sobre a regularização de edificações, condicionada, quando necessário, à realização de obras; altera o art. 146 da Lei nº 16.402, de 22 de março de 2016, que disciplina o parcelamento, o uso e a ocupação do solo no Município de São Paulo."
+}

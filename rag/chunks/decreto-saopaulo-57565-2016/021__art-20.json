@@ -1,0 +1,45 @@
+{
+  "chunk_id": "decreto-saopaulo-57565-2016::021-art-20",
+  "lei_id": "decreto-saopaulo-57565-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 20",
+  "numero": "20",
+  "header_raw": "Art. 20. A fiscalização dos imóveis e a imposição de eventuais penalidades relacionadas ao descumprimento da Quota Ambiental serão de responsabilidade de SVMA e da Secretaria Municipal de Coordenação de Subprefeituras - SMSP, conforme respectivas competências.",
+  "caminho_hierarquico": [
+    "CAPÍTULO III FISCALIZAÇÃO, CONTROLE E MONITORAMENTO",
+    "Art. 20"
+  ],
+  "texto": "Art. 20. A fiscalização dos imóveis e a imposição de eventuais penalidades relacionadas ao descumprimento da Quota Ambiental serão de responsabilidade de SVMA e da Secretaria Municipal de Coordenação de Subprefeituras - SMSP, conforme respectivas competências.\n\n§1º Caberá à SVMA aplicar as penalidades nos termos da legislação ambiental vigente e à SMSP aplicar as penalidades previstas na Lei nº 16.402, de 2016, no Código de Obras e Edificações e nas demais regulamentações aplicáveis.\n\n§2º Todos os pedidos e denúncias de fiscalização deverão ser encaminhados à SVMA, que identificará a existência de penalidades aplicáveis nos termos da legislação ambiental vigente e adotará as providências cabíveis.\n\n§3º SVMA encaminhará à SMSP os pedidos e denúncias que requeiram fiscalização e eventual aplicação das penalidades previstas na Lei nº 16.402, de 2016, no Código de Obras e Edificações e nas demais regulamentações aplicáveis, no que couber.\n\n§4º Será editada portaria, por SVMA e SMSP, regulamentando os procedimentos internos necessários à execução da fiscalização referida no “caput” deste artigo.\n\n§5º SVMA, consultados os órgãos envolvidos, também editará portaria regulamentando os procedimentos necessários à compatibilização da aplicação da QA com os demais instrumentos ambientais, em especial o TCA e o Termo de Ajustamento de Conduta (TAC).",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.565/2016 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III FISCALIZAÇÃO, CONTROLE E MONITORAMENTO › Art. 20",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57565-de-27-de-dezembro-de-2016",
+    "vigencia": {
+      "inicio": "2016-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2016-12-27. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "quota_ambiental"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta procedimentos para a aplicação da Quota Ambiental, nos termos da Lei nº 16.402, de 22 de março de 2016."
+}

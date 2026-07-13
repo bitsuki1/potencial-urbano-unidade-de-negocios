@@ -1,0 +1,52 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17734-2022::062-art-61",
+  "lei_id": "lei-municipal-saopaulo-17734-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 61",
+  "numero": "61",
+  "header_raw": "Art. 61. O procedimento de arrecadação de imóveis urbanos abandonados obedecerá ao disposto nesta Lei e observará, no mínimo:",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Seção I",
+    "Art. 61"
+  ],
+  "texto": "Art. 61. O procedimento de arrecadação de imóveis urbanos abandonados obedecerá ao disposto nesta Lei e observará, no mínimo:\n\nI - abertura de processo administrativo para tratar da arrecadação;\n\nII - comprovação do tempo de abandono e de inadimplência fiscal;\n\nIII - notificação ao titular do domínio para, querendo, apresentar impugnação no prazo de 30 (trinta) dias, contados da data de recebimento da notificação;\n\nIV - a ausência de manifestação do titular do domínio será interpretada como concordância com a arrecadação.\n\n§ 1º Finalizado o procedimento acima sem que haja oposição do titular de domínio, o imóvel será declarado adjudicado por decreto.\n\n§ 2º Na hipótese de o proprietário reivindicar a posse do imóvel declarado abandonado, no transcorrer do triênio a que alude o art. 1.276 da Lei nº 10.406, de 10 de janeiro de 2002 – Código Civil, fica assegurado ao Poder Executivo Municipal o direito ao ressarcimento prévio, e em valor atualizado, de todas as despesas em que eventualmente houver incorrido, inclusive tributárias, em razão do exercício da posse provisória.\n\n§ 3º Passados os 3 (três) anos da data da arrecadação, o Poder Público deverá declarar por meio de Decreto o imóvel adjudicado ao patrimônio municipal e procederá o registro do mesmo em seu nome junto à serventia imobiliária competente, com cópia de todo o processo administrativo e decreto de adjudicação.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.734/2022 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO V › Seção I › Art. 61",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17734-de-11-de-janeiro-de-2022",
+    "vigencia": {
+      "inicio": "2022-01-11",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2022-01-11. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "itbi",
+    "planta_generica_valores",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta, no âmbito do Município de São Paulo, os procedimentos aplicáveis à Regularização Fundiária, de acordo com a Lei Federal nº 13.465, de 11 de julho de 2017, e o Decreto Federal nº 9.310, de 2018, e dá outras providências."
+}

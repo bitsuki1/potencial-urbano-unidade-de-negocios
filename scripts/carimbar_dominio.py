@@ -95,6 +95,18 @@ TDC = {
     "decreto-saopaulo-58176-2018":
         "Altera o § 1º do art. 20 do Decreto 57.536/2016 (regulamento da TDC sem doação) e disciplina a "
         "transferência de potencial construtivo sob o art. 15 §1 da LPUOS. TDC puro. Ingerido do portal 2026-07-13.",
+    # --- Lote TDC ingerido do portal 2026-07-13 (11 normas urbanísticas; scaffold + revisão de vigência). ---
+    "decreto-saopaulo-58955-2019": "Decreto APROVA RÁPIDO (licenciamento urbanístico) — potencial/CA no rito de aprovação. Efeito urbanístico/TDC.",
+    "decreto-saopaulo-57565-2016": "Regulamenta a aplicação da Quota Ambiental (LPUOS 16.402/2016) — parâmetro de ocupação/potencial. TDC/urbanístico.",
+    "decreto-saopaulo-59164-2019": "Regulamenta a Lei 17.202/2019 (regularização) — fórmula de outorga/potencial construtivo. Efeito dominante TDC.",
+    "decreto-saopaulo-59886-2020": "Consolida a disciplina de uso e ocupação do solo p/ empreendimentos — parâmetros urbanísticos/potencial. TDC.",
+    "decreto-saopaulo-58028-2017": "Decreto APROVA RÁPIDO (licenciamento) — rito de aprovação com potencial/CA. Efeito urbanístico/TDC.",
+    "decreto-saopaulo-63437-2024": "Equivalência entre subcategorias de uso das leis de zoneamento (LPUOS) — parâmetro de uso. TDC/urbanístico.",
+    "decreto-saopaulo-64018-2025": "Regulamenta a Lei 18.079/2024 (Projeto de Intervenção Urbana) — PIU/potencial construtivo. Efeito TDC.",
+    "lei-municipal-saopaulo-17217-2019": "Revoga parcialmente planos de melhoramentos viários — afeta perímetros/zoneamento urbanístico. TDC/urbanístico.",
+    "lei-municipal-saopaulo-17734-2022": "Regulamenta procedimentos urbanísticos (uso/ocupação/potencial) no Município. Efeito TDC/urbanístico.",
+    "lei-municipal-saopaulo-18209-2024": "Altera o mapa 2 (art. 383 da LPUOS 16.402/2016) — zoneamento/potencial. Efeito TDC/urbanístico.",
+    "decreto-saopaulo-63728-2024": "Estabelece disciplina de parcelamento, uso e ocupação do solo — parâmetros urbanísticos/potencial. TDC.",
     # (mais massa normativa TDC — decretos ZEPEC/CONPRESP — entra quando ingerida; ver A-11)
     # --- Jurisprudência de TDC ingerida 2026-07-11 (B-21): efeito dominante é TDC (tombamento ×
     #     potencial construtivo; natureza compensatória; direito de protocolo; base do "solo criado"),

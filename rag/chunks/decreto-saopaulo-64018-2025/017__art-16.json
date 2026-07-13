@@ -1,0 +1,51 @@
+{
+  "chunk_id": "decreto-saopaulo-64018-2025::017-art-16",
+  "lei_id": "decreto-saopaulo-64018-2025",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 16",
+  "numero": "16",
+  "header_raw": "Art. 16. No cálculo de Certificados de Potencial Adicional de Construção – CEPAC, a área construída computável que exceder o potencial construtivo básico do terreno deverá ser dividida pelo fator de equivalência em CEPAC correspondente à área e o setor em que se situa o empreendimento, relacionado no Quadro 5 anexo à Lei nº 18.079, de 2024, observados os coeficientes de aproveitamento máximos estabelecidos no Quadro 2 anexo à mesma lei.",
+  "caminho_hierarquico": [
+    "CAPÍTULO IV",
+    "Art. 16"
+  ],
+  "texto": "Art. 16. No cálculo de Certificados de Potencial Adicional de Construção – CEPAC, a área construída computável que exceder o potencial construtivo básico do terreno deverá ser dividida pelo fator de equivalência em CEPAC correspondente à área e o setor em que se situa o empreendimento, relacionado no Quadro 5 anexo à Lei nº 18.079, de 2024, observados os coeficientes de aproveitamento máximos estabelecidos no Quadro 2 anexo à mesma lei.\n\n§ 1º Para efeito do cálculo do número de CEPAC mencionado no \"caput\" deste artigo, aplica-se a definição de potencial construtivo básico constante do Quadro 1, anexo à Lei nº 16.050, de 31 de julho 2014.\n\n§ 2º No caso de uso misto no mesmo lote, para fins de cálculo da quantidade de CEPAC, o interessado definirá os percentuais de terreno a serem utilizados para cada uso, nos termos da Resolução SEHAB/CEUSO nº 105, de 03 de setembro de 2008, ou daquela que vier a substituí-la.\n\n§ 3º Quando, em determinado setor, não houver estoque para determinado uso, a proposta de empreendimento poderá destinar, para esse uso, área construída computável até o limite do coeficiente básico de aproveitamento, mantida a taxa de ocupação do terreno como um todo, onerando-se o estoque de metros quadrados do setor apenas quanto ao uso e na área que suplantar o coeficiente básico de aproveitamento.\n\nCAPÍTULO V\n\nDO PROCEDIMENTO PARA EMISSÃO DE CERTIDÃO DE PAGAMENTO DE\n\nOUTORGA ONEROSA EM CERTIFICADOS DE POTENCIAL ADICIONAL DE CONSTRUÇÃO – CEPAC\n\nSeção I\n\nDo Pedido de Pagamento de Outorga Onerosa em CEPAC",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 64.018/2025 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO IV › Art. 16",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-64018-de-30-de-janeiro-de-2025",
+    "vigencia": {
+      "inicio": "2025-01-30",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2025-01-30. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 18.079, de 11 de janeiro de 2024, aprovou o Projeto de Intervenção Urbana para o perímetro do Arco Tamanduateí, em atendimento ao inciso I do § 3º do artigo 76 da Lei nº 16.050, de 31 de julho de 2014; instituiu a Operação Urbana Consorciada Bairros do Tamanduateí e definiu parâmetros de uso e ocupação do solo para o território e o correspondente Programa de Intervenções."
+}

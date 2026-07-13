@@ -1,0 +1,53 @@
+{
+  "chunk_id": "decreto-saopaulo-63728-2024::088-art-87",
+  "lei_id": "decreto-saopaulo-63728-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 87",
+  "numero": "87",
+  "header_raw": "Art. 87. Para empreendimentos habitacionais destinados aos fins estabelecidos no artigo 1º da Lei nº 17.859, de 16 de dezembro de 2022, após expedição da Certidão de Regularização Fundiária - CRF, caberá à Secretaria Municipal de Habitação encaminhar cópia desse documento, bem como uma via do projeto aprovado, com as respectivas áreas individuais das edificações, para lançamento tributário e posterior envio à Secretaria Municipal de Urbanismo e Licenciamento, à qual incumbirá atualizar o Cadastro de Edificações do Município.",
+  "caminho_hierarquico": [
+    "CAPÍTULO VII",
+    "Art. 87"
+  ],
+  "texto": "Art. 87. Para empreendimentos habitacionais destinados aos fins estabelecidos no artigo 1º da Lei nº 17.859, de 16 de dezembro de 2022, após expedição da Certidão de Regularização Fundiária - CRF, caberá à Secretaria Municipal de Habitação encaminhar cópia desse documento, bem como uma via do projeto aprovado, com as respectivas áreas individuais das edificações, para lançamento tributário e posterior envio à Secretaria Municipal de Urbanismo e Licenciamento, à qual incumbirá atualizar o Cadastro de Edificações do Município.\n\n§ 1º Na Certidão de Regularização Fundiária – CRF, deverá ser inserida informação sobre a área construída total do empreendimento regularizado, dentre outros dados considerados relevantes.\n\n§ 2º O processo de licenciamento de competência da Secretaria Municipal de Urbanismo e Licenciamento ainda sem despacho final e que tenha por objeto a construção, reforma, requalificação ou regularização de empreendimento habitacional destinado aos fins previstos no artigo 1º da Lei nº 17.859, de 2022, deverá ser encaminhado à Secretaria Municipal de Habitação para o fornecimento, no próprio expediente, das seguintes informações:\n\nI - se existe edificação no local;\n\nII - se a edificação porventura existente no local encontra-se em situação regular ou irregular, conforme previsto respectivamente nos artigos 64 e 66 do Decreto nº 57.776, de 2017;\n\nIII - no caso de edificação irregular, se existe pedido de Regularização Fundiária Urbana - REURB para o núcleo onde se situa o empreendimento e, em caso positivo, em qual das seguintes situações encontra-se atualmente:\n\na) em análise;\n\nb) indeferido com possibilidade de interposição de recurso;\n\nc) indeferido sem possibilidade de interposição de recurso; ou\n\nd) com emissão de Certidão de Regularização Fundiária - CRF.\n\n§ 3º Após o recebimento das informações solicitadas nos termos do § 2º deste artigo, a Secretaria Municipal de Urbanismo e Licenciamento deverá:\n\nI - prosseguir com a análise do processo de licenciamento, caso Secretaria Municipal de Habitação tenha informado a inexistência de edificação irregular ou a inexistência de edificação no local; ou\n\nII - emitir comunicado ao responsável pelo empreendimento determinando que esclareça se há interesse em regularizar o imóvel nos termos da Lei nº 17.859, de 2022, caso a Secretaria Municipal de Habitação tenha informado a existência de edificação irregular e a inexistência de REURB protocolada para o referido imóvel; ou\n\nIII - sobrestar o processo de licenciamento até que seja informado o desfecho da REURB, isto é, o seu deferimento ou o seu indeferimento sem possibilidade de interposição de recurso.\n\n§ 4º Caso a área técnica entenda, com fundamento em informação prestada pela Secretaria Municipal de Habitação, que o pedido formulado no processo de licenciamento perdeu o seu objeto, este deverá ser indeferido com amparo no artigo 35 da Lei nº 14.141, de 27 de março de 2006, e oportunamente arquivado.\n\n§ 5º Caberá, ainda, à Secretaria Municipal de Habitação:\n\nI - informar à Secretaria Municipal de Urbanismo e Licenciamento, independentemente de provocação, a ocorrência das hipóteses referidas nas alíneas, “c” e “d” do inciso III do § 2º deste artigo;\n\nII - no caso de empreendimentos habitacionais referidos no “caput” deste artigo, informar à Secretaria Municipal de Urbanismo e Licenciamento, quando solicitado, se a proposta apresentada no processo de licenciamento é compatível ou não com a situação fática existente no local;\n\nIII - requerer, de ofício, a REURB para os empreendimentos habitacionais referidos no “caput” deste artigo, considerando o disposto nos artigos 15, 18 e 75 da Lei nº 17.734, de 11 de janeiro de 2022, devendo tal medida ser informada à Secretaria Municipal de Urbanismo e Licenciamento.\n\n§ 6º O comunicado referido no inciso II do § 3º deste artigo será regido pelas disposições pertinentes da Lei nº 16.642, de 2017, e do Decreto nº 57.776, de 2017, salvo disposição em contrário, devendo ser emitido a partir do próprio processo de licenciamento.\n\n§ 7º As Secretarias Municipais de Urbanismo e Licenciamento e de Habitação poderão, resguardadas as respectivas competências, editar portarias estabelecendo disposições complementares para a consecução do disposto neste artigo.\n\n§ 8º No âmbito da Secretaria Municipal de Urbanismo e Licenciamento, o cumprimento das disposições deste artigo caracterizará integral atendimento ao disposto no § 2º do artigo 2º da Lei nº 17.859, de 2022.\n\n§ 9º A Certidão de Regularização Fundiária - CRF constitui título útil e suficiente ao licenciamento edilício de empreendimentos habitacionais referidos no “caput” deste artigo, bem como atesta a sua regularidade nos termos do artigo 64 do Decreto nº 57.776, de 2017.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 63.728/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO VII › Art. 87",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-63728-de-10-de-setembro-de-2024",
+    "vigencia": {
+      "inicio": "2024-09-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2024-09-10. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "plano_intervencao_urbana",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Estabelece disciplina específica de parcelamento, uso e ocupação do solo, bem como normas edilícias para Habitação de Interesse Social - HIS, Habitação de Mercado Popular - HMP, Empreendimento de Habitação de Interesse Social - EHIS, Empreendimento de Habitação de Mercado Popular - EHMP e Empreendimento em Zona Especial de Interesse Social - EZEIS, nos termos da Lei nº 16.050, de 31 de julho de 2014 - PDE, alterada e revisada pela Lei nº 17.975, de 08 de julho de 2023 e pela Lei nº 18.157, de 17 de julho de 2024, da Lei nº 16.402, de 22 de março de 2016 - LPUOS, alterada e revisada pela Lei nº 18.081, de 19 de janeiro de 2024 e pela Lei 18.177, de 25 de julho de 2024, bem como da Lei nº 16.642, de 09 de maio de 2017 - COE."
+}

@@ -1,0 +1,48 @@
+{
+  "chunk_id": "decreto-saopaulo-58028-2017::014-art-11",
+  "lei_id": "decreto-saopaulo-58028-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 11",
+  "numero": "11",
+  "header_raw": "Art. 11. Respeitado o prazo de 60 (sessenta) dias, conforme definido no artigo 12 deste decreto, a ASSEC definirá a data da reunião para o exame do projeto, de forma integrada, onde será avaliada a viabilidade do empreendimento, de acordo com as restrições e diretrizes da legislação aplicável pelas Secretarias Municipais que compõem o GRAPROEM.(Redação dada peloDecreto n° 58.130/2018)(Revogado pelo Decreto nº 58.955/2019)",
+  "caminho_hierarquico": [
+    "Art. 11"
+  ],
+  "texto": "Art. 11. Respeitado o prazo de 60 (sessenta) dias, conforme definido no artigo 12 deste decreto, a ASSEC definirá a data da reunião para o exame do projeto, de forma integrada, onde será avaliada a viabilidade do empreendimento, de acordo com as restrições e diretrizes da legislação aplicável pelas Secretarias Municipais que compõem o GRAPROEM.(Redação dada peloDecreto n° 58.130/2018)(Revogado pelo Decreto nº 58.955/2019)\n\n§ 1º Caso haja exigências técnicas, será expedido “comunique-se” ao interessado, que, no prazo de 30 (trinta) dias, deverá cumpri-las ou manifestar-se a seu respeito, facultada aos órgãos licenciadores a solicitação de ajustes no projeto a fim de possibilitar a emissão do respectivo documento.\n\n§ 2º Eventuais exigências técnicas para complemento da análise do projeto deverão ser devidamente fundamentadas, com a indicação da legislação pertinente e apresentadas, de uma só vez, na reunião a que se refere o “caput” deste artigo, não sendo admitidas novas exigências posteriormente.\n\n§ 3º Sobrevindo manifestação do interessado, atendendo as exigências técnicas ou impugnando-as, a ASSEC convocará nova reunião, no prazo de 15 (quinze) dias, na qual deverão ser apresentadas, de uma só vez, as manifestações conclusivas, de uma só vez, dos membros do GRAPROEM e da Coordenadoria competente, pelo deferimento ou indeferimento do pedido.\n\n§ 4º No caso de parecer favorável unânime dos membros do GRAPROEM, a Divisão Técnica da Coordenadoria competente expedirá o Alvará solicitado, após o cumprimento das demais formalidades, com fundamento nos pareceres dos órgãos envolvidos.\n\n§ 5º A critério do Presidente do GRAPROEM, a ASSEC poderá convocar os interessados nos projetos em análise, para comparecer às reuniões, a fim de prestar esclarecimentos, vedada a juntada de nova documentação.\n\n§ 3º O desatendimento das exigências contidas no comunicado, quando motivado exclusivamente pelo interessado, implicará o indeferimento do pedido.(Redação dada peloDecreto n° 58.130/2018)\n\n§ 4º Se, em função das exigências municipais, for necessária nova manifestação de órgãos estaduais ou federais ou de Cartório de Registro de Imóveis e não haja condições de apresentá-la no prazo estabelecido para atendimento do comunicado, o interessado poderá, mediante comprovação de seu requerimento, solicitar ao Presidente do GRAPROEM a permanência do processo no procedimento APROVA RÁPIDO, sob a forma de custódia, até a data da juntada da manifestação necessária.(Redação dada peloDecreto n° 58.130/2018)\n\n§ 5º Sobrevindo manifestação do interessado, atendendo as exigências técnicas ou impugnando-as, a ASSEC convocará nova reunião, no prazo de 25 (vinte e cinco) dias, na qual deverão ser apresentadas, de uma só vez, as manifestações conclusivas dos membros do GRAPROEM e da Coordenadoria competente, pelo deferimento ou indeferimento do pedido.(Redação dada peloDecreto n° 58.130/2018)\n\n§ 6º No caso de parecer favorável unânime dos membros do GRAPROEM envolvidos na análise do projeto, de acordo com suas áreas de competência, a Divisão Técnica da Coordenadoria competente expedirá o Alvará solicitado, após o cumprimento das demais formalidades, com fundamento nos pareceres dos órgãos envolvidos.(Incluído pelo Decreto n° 58.130/2018)\n\n§ 7º Com base no regimento interno do GRAPROEM, poderá ser permitida a participação dos requerentes dos projetos em análise nas reuniões, a fim de prestar esclarecimentos, vedadas a sua presença na tomada da decisão e a juntada de novos documentos.§ 8º No caso de parecer desfavorável dos membros do GRAPROEM envolvidos na análise do projeto, de acordo com suas áreas de competência, o despacho de indeferimento deverá ser claro e fundamentado.(Incluído pelo Decreto n° 58.130/2018)\n\n§ 8º No caso de parecer desfavorável dos membros do GRAPROEM envolvidos na análise do projeto, de acordo com suas áreas de competência, o despacho de indeferimento deverá ser claro e fundamentado.(Incluído pelo Decreto n° 58.130/2018)\n\n§ 9º A fundamentação do despacho deverá mencionar a disposição legal pertinente e indicar a qual Secretaria compete a exigência desatendida. (Incluído pelo Decreto n° 58.130/2018)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 58.028/2017 — São Paulo/SP",
+    "dispositivo": "Art. 11",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-58028-de-11-de-dezembro-de-2017",
+    "vigencia": {
+      "inicio": "2017-12-11",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2017-12-11. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o procedimento APROVA RÁPIDO; cria o Grupo Intersecretarial de Análise de Projetos Específicos no Município – GRAPROEM e o Comitê Gestor do APROVA RÁPIDO."
+}

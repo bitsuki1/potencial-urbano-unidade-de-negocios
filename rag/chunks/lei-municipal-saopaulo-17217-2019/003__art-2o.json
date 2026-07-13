@@ -1,0 +1,45 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17217-2019::003-art-2o",
+  "lei_id": "lei-municipal-saopaulo-17217-2019",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 2º",
+  "numero": "2",
+  "header_raw": "Art. 2º Ficam parcialmente revogados os alinhamentos viários configurados na planta nº 26.982/53 integrante da Lei nº 16.541, de 8 de setembro 2016, no trecho que compreende a supressão de via entre o Apoio Urbano Sul a que se refere o inciso XXVIII, do art. 1º, e a Rua Ulisses Cruz, com largura de 18 (dezoito) metros e extensão aproximada de 240 (duzentos e quarenta) metros.",
+  "caminho_hierarquico": [
+    "Art. 2º"
+  ],
+  "texto": "Art. 2º Ficam parcialmente revogados os alinhamentos viários configurados na planta nº 26.982/53 integrante da Lei nº 16.541, de 8 de setembro 2016, no trecho que compreende a supressão de via entre o Apoio Urbano Sul a que se refere o inciso XXVIII, do art. 1º, e a Rua Ulisses Cruz, com largura de 18 (dezoito) metros e extensão aproximada de 240 (duzentos e quarenta) metros.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.217/2019 — São Paulo/SP",
+    "dispositivo": "Art. 2º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17217-de-23-de-outubro-de-2019",
+    "vigencia": {
+      "inicio": "2019-10-23",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2019-10-23. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "regularizacao",
+    "itbi",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Revoga parcialmente planos de melhoramentos viários aprovados pelas Leis nº 13.860, de 29 de junho de 2004, e nº 16.541, de 8 de setembro de 2016, fixando novos alinhamentos, nas Subprefeituras de Casa Verde/Cachoeirinha e Mooca; altera dispositivos das Leis nº 13.402, de 5 de agosto de 2002, nº 15.360, de 14 de março de 2011, nº 16.359, de 13 de janeiro de 2016, e nº 16.050, de 31 de julho de 2014."
+}

@@ -1,0 +1,45 @@
+{
+  "chunk_id": "decreto-saopaulo-57565-2016::020-art-19",
+  "lei_id": "decreto-saopaulo-57565-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 19",
+  "numero": "19",
+  "header_raw": "Art. 19. O reconhecimento de novas certificações, não constantes do primeiro ato editado por SMDU nos termos do artigo 16 deste decreto, com os respectivos graus e fatores, deverá ser feito perante SMDU, mediante deliberação da Câmara Técnica de Legislação Urbanística – CTLU. Parágrafo único. Os pedidos de reconhecimento de novas certificações deverão ser encaminhados à SMDU, com o seguinte conteúdo:",
+  "caminho_hierarquico": [
+    "CAPÍTULO II INCENTIVO DE CERTIFICAÇÃO",
+    "Art. 19"
+  ],
+  "texto": "Art. 19. O reconhecimento de novas certificações, não constantes do primeiro ato editado por SMDU nos termos do artigo 16 deste decreto, com os respectivos graus e fatores, deverá ser feito perante SMDU, mediante deliberação da Câmara Técnica de Legislação Urbanística – CTLU. Parágrafo único. Os pedidos de reconhecimento de novas certificações deverão ser encaminhados à SMDU, com o seguinte conteúdo:\n\nI - nome da entidade, com previsão no contrato social de expedição de certificação, selo ou etiquetagem;\n\nII - histórico da certificação e quantidade de edifícios certificados;\n\nIII - entidades credenciadoras ou acreditadoras da entidade certificadora;\n\nIV - descrição do sistema de certificação, identificando:\n\na) o enquadramento nos temas abaixo enumerados:\n\n1) localização;\n\n2) processo de construção;\n\n3) água;\n\n4) energia;\n\n5) canteiro de obras e materiais;\n\n6) conforto ambiental da edificação;\n\n7) manutenção;\n\n8) qualidade dos espaços;\n\n9) inovação;\n\n10) práticas sociais;\n\nb) parâmetros e critérios de avaliação;\n\nc) ponderação dos critérios;\n\nd) níveis de certificação;\n\ne) corpo técnico envolvido na certificação;\n\nV - data do início da certificação no Brasil;\n\nVI - laudos, pareceres e recomendações de consultores, da academia ou de institutos de pesquisa.\n\nCAPÍTULO III FISCALIZAÇÃO, CONTROLE E MONITORAMENTO",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.565/2016 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II INCENTIVO DE CERTIFICAÇÃO › Art. 19",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57565-de-27-de-dezembro-de-2016",
+    "vigencia": {
+      "inicio": "2016-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2016-12-27. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "quota_ambiental"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta procedimentos para a aplicação da Quota Ambiental, nos termos da Lei nº 16.402, de 22 de março de 2016."
+}

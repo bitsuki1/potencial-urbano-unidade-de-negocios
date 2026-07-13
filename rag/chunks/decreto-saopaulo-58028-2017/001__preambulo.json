@@ -1,0 +1,44 @@
+{
+  "chunk_id": "decreto-saopaulo-58028-2017::001-preambulo",
+  "lei_id": "decreto-saopaulo-58028-2017",
+  "tipo_dispositivo": "preambulo",
+  "rotulo": "Preâmbulo",
+  "numero": null,
+  "header_raw": null,
+  "caminho_hierarquico": [],
+  "texto": "DECRETO Nº 58.028 DE 11 DE DEZEMBRO DE 2017\n\nDECRETO Nº 58.028 de 11 de Dezembro de 2017\n\nAlterações\n\nRevogações\n\nCORRELAÇÕES\n\nAnexos\n\nTemas Relacionados\n\nDispõe sobre o procedimento APROVA RÁPIDO; cria o Grupo Intersecretarial de Análise de Projetos Específicos no Município – GRAPROEM e o Comitê Gestor do APROVA RÁPIDO.\n\nDECRETO Nº 58.028, DE 11 DE DEZEMBRO DE 2017\n\nDispõe sobre o procedimento APROVA RÁPIDO; cria o Grupo Intersecretarial de Análise de Projetos Específicos no Município – GRAPROEM e o Comitê Gestor do APROVA RÁPIDO.\n\nJOÃO DORIA, Prefeito do Município de São Paulo, no uso das atribuições que lhe são conferidas por lei,\n\nCONSIDERANDO a necessidade de atender o dinamismo da Cidade e a demanda pela aprovação de novos empreendimentos imobiliários, por meio da redução do tempo para a análise e aprovação de projetos arquitetônicos, de modo a favorecer o ambiente de negócios no Município;\n\nCONSIDERANDO a urgência na simplificação dos procedimentos e integração dos diversos setores da Administração Municipal para a realização das análises urbanísticas e ambientais dos projetos específicos, compartilhando responsabilidades;\n\nCONSIDERANDO que as inovações introduzidas pelo novo Código de Obras e Edificações, como o Projeto Simplificado e o “comunique-se” único, requerem regulamentação especial, exigências e prazos diferenciados para o exame de pedidos de licenciamento de obras e empreendimentos que, por sua natureza, admitam procedimento simplificado;\n\nCONSIDERANDO a necessidade de controle do cumprimento dos prazos de aprovação para projetos pela Secretaria Municipal de Urbanismo e Licenciamento – SMUL,\n\nD E C R E T A:",
+  "citavel": false,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 58.028/2017 — São Paulo/SP",
+    "dispositivo": "Preâmbulo",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-58028-de-11-de-dezembro-de-2017",
+    "vigencia": {
+      "inicio": "2017-12-11",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2017-12-11. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o procedimento APROVA RÁPIDO; cria o Grupo Intersecretarial de Análise de Projetos Específicos no Município – GRAPROEM e o Comitê Gestor do APROVA RÁPIDO."
+}

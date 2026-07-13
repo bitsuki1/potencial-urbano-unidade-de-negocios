@@ -1,0 +1,51 @@
+{
+  "chunk_id": "decreto-saopaulo-59164-2019::008-art-7o",
+  "lei_id": "decreto-saopaulo-59164-2019",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 7º",
+  "numero": "7",
+  "header_raw": "Art. 7º Não serão passíveis de regularização, para os efeitos da Lei nº 17.202, de 2019, as edificações que:",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Art. 7º"
+  ],
+  "texto": "Art. 7º Não serão passíveis de regularização, para os efeitos da Lei nº 17.202, de 2019, as edificações que:\n\nI – estejam edificadas em logradouros ou terrenos públicos sem permissão ou que avancem sobre eles, excetuadas as saliências que avancem sobre o logradouro e que apresentem dimensão de, no máximo, 50% (cinquenta por cento) a mais sobre os limites estabelecidos no inciso IV, do artigo 108, da Lei n° 16.642, de 9 de maio de 2017 - COE, desde que apresentem altura mínima de 3,00m (três metros) em relação ao passeio público;\n\nII - tenham sido objeto de Operação Interligada nos termos das Leis nº 10.209, de 9 de setembro de 1986, e nº 11.773, de 18 de maio de 1995;\n\nIII - sejam ou tenham sido objeto das Operações Urbanas ou Operações Urbanas Consorciadas com recebimento dos benefícios previstos nas respectivas Operações;\n\nIV - estejam situadas em faixas não edificáveis junto a represas, lagos, lagoas, córregos, fundo de vale, faixa de escoamento de águas pluviais, galerias, canalizações e linhas de transmissão de energia de alta tensão;\n\nV - atingidas por melhoramento viário previsto em lei, na forma estabelecida no “caput” do artigo 103, da Lei nº 16.642, de 2017, sendo admitida a regularização de edificações pelo procedimento comum quando:\n\na) forem atingidas por planos de melhoramento publicados anteriormente a 08 de novembro de 1988, data de entrada em vigor da Lei nº 10.676, de 7 de novembro de 1988, ainda não executados, desde que não exista declaração de utilidade pública em vigor por ocasião do protocolo do pedido de regularização;\n\nb) o proprietário renunciar expressamente à indenização pelas benfeitorias objeto de regularização por ocasião da execução do melhoramento público, devendo constar do Certificado de Regularização a seguinte nota: “Este Certificado foi emitido mediante apresentação de declaração do proprietário renunciando, expressamente, à indenização pelas benfeitorias objeto de regularização por ocasião da execução do melhoramento público, conforme alínea “b”, inciso V, do artigo 7º do Decreto nº _______, de 2019”;\n\nc) o interessado solicitar a Notificação de Exigências Complementares – NEC para a demolição da área atingida pelo melhoramento público no requerimento inicial;\n\nVI - não atendam às restrições convencionais de loteamentos aprovados pela Prefeitura, nas zonas ZER, ZM-1, ZM-2, ZERp, ZLT, ZCLz-I, ZCLz-II, ZTLz I e ZTLz II, estabelecidas em instrumento público registrado no Cartório de Registro de Imóveis, referentes a dimensionamento de lotes, recuos, taxa de ocupação, coeficiente de aproveitamento, altura e número de pavimentos das edificações, que deverão ser atendidas, na forma do artigo 247, da Lei nº 13.885, de 25 de agosto de 2004, quando mais restritivas que as disposições da Lei nº 17.202, de 2019, e deste decreto.\n\nParágrafo único. Para a comprovação do estabelecido no inciso III do “caput” deste artigo será necessária a apresentação de declaração expressa do interessado sobre ter se beneficiado ou não pela respectiva Operação Urbana ou Operação Urbana Consorciada, conforme modelo a ser definido em portaria da Secretaria de Licenciamento – SEL.\n\nCAPÍTULO III\n\nDAS ANUÊNCIAS À REGULARIZAÇÃO",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 59.164/2019 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Art. 7º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59164-de-27-de-dezembro-de-2019",
+    "vigencia": {
+      "inicio": "2019-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2019-12-27. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 17.202, de 16 de outubro de 2019, que dispõe sobre a regularização de edificações, condicionada, quando necessário, à realização de obras, nos termos da previsão do art. 367 do Plano Diretor Estratégico."
+}

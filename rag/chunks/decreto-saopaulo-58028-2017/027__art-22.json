@@ -1,0 +1,46 @@
+{
+  "chunk_id": "decreto-saopaulo-58028-2017::027-art-22",
+  "lei_id": "decreto-saopaulo-58028-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 22",
+  "numero": "22",
+  "header_raw": "Art. 22. Este decreto entrará em vigor na data de sua publicação, revogados o artigo 4º do Decreto nº 34.713, de 30 de novembro de 1994, o Decreto nº 47.442, de 5 de julho de 2006, os artigos 4º e 9º do Decreto 57.286, de 2 de setembro de 2016, os artigos 35, 36 e 37 doDecreto nº 57.521, de 9 de dezembro de 2016, e os artigos 46, 47 e 48 do Decreto nº 57.558, de 21 de dezembro de 2016.",
+  "caminho_hierarquico": [
+    "Art. 22"
+  ],
+  "texto": "Art. 22. Este decreto entrará em vigor na data de sua publicação, revogados o artigo 4º do Decreto nº 34.713, de 30 de novembro de 1994, o Decreto nº 47.442, de 5 de julho de 2006, os artigos 4º e 9º do Decreto 57.286, de 2 de setembro de 2016, os artigos 35, 36 e 37 doDecreto nº 57.521, de 9 de dezembro de 2016, e os artigos 46, 47 e 48 do Decreto nº 57.558, de 21 de dezembro de 2016.\n\nPREFEITURA DO MUNICÍPIO DE SÃO PAULO, aos 11 de dezembro de 2017, 464º da fundação de São Paulo.\n\nJOÃO DORIA, PREFEITO\n\nHELOISA MARIA DE SALLES PENTEADO PROENÇA, Secretária Municipal de Urbanismo e Licenciamento\n\nANDERSON POMINI, Secretário Municipal de Justiça\n\nJULIO FRANCISCO SEMEGHINI NETO, Secretário do Governo Municipal\n\nBRUNO COVAS, Secretário-Chefe da Casa Civil\n\nPublicado na Casa Civil, em 11 de dezembro de 2017.\n\nEste texto não substitui o original publicado no Diário Oficial da Cidade de São Paulo.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 58.028/2017 — São Paulo/SP",
+    "dispositivo": "Art. 22",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-58028-de-11-de-dezembro-de-2017",
+    "vigencia": {
+      "inicio": "2017-12-11",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2017-12-11. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o procedimento APROVA RÁPIDO; cria o Grupo Intersecretarial de Análise de Projetos Específicos no Município – GRAPROEM e o Comitê Gestor do APROVA RÁPIDO."
+}

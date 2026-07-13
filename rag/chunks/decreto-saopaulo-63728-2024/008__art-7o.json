@@ -1,0 +1,56 @@
+{
+  "chunk_id": "decreto-saopaulo-63728-2024::008-art-7o",
+  "lei_id": "decreto-saopaulo-63728-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 7º",
+  "numero": "7",
+  "header_raw": "Art. 7º Os EHIS, EHMP e EZEIS podem ser produzidos nas seguintes tipologias:",
+  "caminho_hierarquico": [
+    "CAPÍTULO I",
+    "SEÇÃO III",
+    "Art. 7º"
+  ],
+  "texto": "Art. 7º Os EHIS, EHMP e EZEIS podem ser produzidos nas seguintes tipologias:\n\nI - EHIS-h e EHMP-h, conjunto horizontal: conjunto de 2 (duas) ou mais unidades habitacionais, todas com entrada independente e com frente para a via oficial de acesso ou interna ao conjunto quando em condomínio, sendo subdividido em 3 (três) tipologias:\n\na) EHIS-h1 e EHMP-h1, casas geminadas: conjunto de unidades habitacionais agrupadas horizontalmente, todas com frente e acesso independente para a via oficial de circulação, existente ou futura, e com limite de 3 (três) pavimentos e 10m (dez metros) de altura total, incluindo o ático;\n\nb) EHIS-h2 e EHMP-h2, casas superpostas: 2 (duas) unidades habitacionais agrupadas verticalmente no mesmo lote com frente e acesso independente para a via oficial de circulação, existente ou futura, com a superposição das unidades limitada a 3 (três) pavimentos e 10m (dez metros) de altura total, incluindo o ático;\n\nc) EHIS-h3 e EHMP-h3, conjunto horizontal: aquele constituído em condomínio por casas isoladas, geminadas ou superpostas, com acesso independente a cada unidade habitacional por via de circulação de veículos ou de pedestres interna ao próprio conjunto, ficando vedado o acesso direto às unidades por via oficial de circulação, devendo observar, no tocante ao limite de pavimentos e altura total máxima, as disposições da alínea “a” para as casas isoladas ou geminadas e as disposições da alínea “b” para as casas superpostas, se houver.\n\nII - EHIS-v e EHMP-v, conjunto vertical: conjunto com 2 (duas) ou mais unidades habitacionais, agrupadas verticalmente em edifícios de apartamentos ou conjuntos residenciais verticais com áreas comuns, com acesso direto à via oficial ou via interna ao conjunto;\n\nIII - EHIS-u e EHMP-u, habitação unifamiliar: 1 (uma) unidade habitacional por lote, observados os parâmetros definidos nos artigos 3º ao 6º deste decreto e com, no máximo, 3 (três) pavimentos e 10m (dez metros) de altura total, incluído o ático.\n\n§ 1º O licenciamento de conjunto habitacional das tipologias EHIS-h1 e EHMP-h1 engloba o parcelamento do solo, nos termos da LPUOS e da legislação federal pertinente, vinculado à licença para edificar, ou regularizar, desde que sejam observadas as seguintes dimensões para os lotes resultantes:\n\n§ 1º O licenciamento de conjunto habitacional da tipologia EHIS-h1 engloba o parcelamento do solo, nos termos da Lei de Parcelamento, Uso e Ocupação do Solo - LPUOS e da legislação federal pertinente, vinculado à licença para edificar, ou regularizar, desde que sejam observadas as seguintes dimensões para os lotes resultantes: (Redação dada pelo Decreto nº 64.901/2026)\n\nI - área de lote mínima e frente mínima conforme Quadro 2A da LPUOS para conjuntos situados em ZCa, ZCOR, ZCORa, ZMa ou ZMISa;\n\nII - área de lote mínima de 62,50m² (sessenta e dois metros e cinquenta decímetros quadrados) e 3,30m (três metros e trinta centímetros) de frente mínima para as demais zonas de uso onde a referida subcategoria de uso é permitida, conforme Quadro 1 deste decreto.\n\n§ 2º O licenciamento de conjunto habitacional da tipologia EHIS-h2 engloba o parcelamento do solo nos termos da LPUOS e da legislação federal pertinente, vinculado à licença para edificar, ou regularizar, desde que sejam observadas as seguintes condições para os lotes resultantes:\n\nI - área de lote mínima e frente mínima conforme Quadro 2A da LPUOS para conjuntos situados em ZCa, ZCOR, ZCORa, ZMa ou ZMISa;\n\nII - área de lote mínima de 125m² (cento e vinte e cinco metros quadrados) e frente mínima de 5m (cinco metros) para conjuntos situados nas demais zonas de uso onde a referida tipologia de uso é permitida, salvo quando o parcelamento do solo se destinar à urbanização específica ou edificação de conjuntos habitacionais de interesse social, previamente aprovados pelos órgãos públicos competentes;\n\nIII - na aplicação dos incisos I e II deste decreto deve ser garantida a fração ideal mínima correspondente a 50% (cinquenta por cento) da área do terreno por unidade habitacional, ficando vedado o desmembramento do lote resultante do parcelamento.\n\n§ 3º O licenciamento de conjunto habitacional das tipologias EHIS-h3 e EHMP-h3 não comporta o desmembramento dos lotes, ficando as unidades habitacionais vinculadas à respectiva fração ideal do lote original.\n\nSEÇÃO IV\n\nDAS MODALIDADES DE EHIS, EHMP E EZEIS",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "2026",
+    "norma_redacao": "Decreto nº 64.901/2026"
+  },
+  "citacao": {
+    "norma": "decreto nº 63.728/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO I › SEÇÃO III › Art. 7º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-63728-de-10-de-setembro-de-2024",
+    "vigencia": {
+      "inicio": "2024-09-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2024-09-10. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "plano_intervencao_urbana",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Estabelece disciplina específica de parcelamento, uso e ocupação do solo, bem como normas edilícias para Habitação de Interesse Social - HIS, Habitação de Mercado Popular - HMP, Empreendimento de Habitação de Interesse Social - EHIS, Empreendimento de Habitação de Mercado Popular - EHMP e Empreendimento em Zona Especial de Interesse Social - EZEIS, nos termos da Lei nº 16.050, de 31 de julho de 2014 - PDE, alterada e revisada pela Lei nº 17.975, de 08 de julho de 2023 e pela Lei nº 18.157, de 17 de julho de 2024, da Lei nº 16.402, de 22 de março de 2016 - LPUOS, alterada e revisada pela Lei nº 18.081, de 19 de janeiro de 2024 e pela Lei 18.177, de 25 de julho de 2024, bem como da Lei nº 16.642, de 09 de maio de 2017 - COE."
+}

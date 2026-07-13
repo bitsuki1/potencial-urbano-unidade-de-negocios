@@ -1,0 +1,54 @@
+{
+  "chunk_id": "decreto-saopaulo-63728-2024::070-art-69",
+  "lei_id": "decreto-saopaulo-63728-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 69",
+  "numero": "69",
+  "header_raw": "Art. 69. Ao Plano Integrado, aplicam-se, ainda, as seguintes disposições:",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Seção VI",
+    "Art. 69"
+  ],
+  "texto": "Art. 69. Ao Plano Integrado, aplicam-se, ainda, as seguintes disposições:\n\nI - no EZEIS, quando a aprovação do Plano Integrado tenha observado a proporcionalidade obrigatória de HIS-1 e HIS-2 em cada lote individualmente, fica assegurada ao interessado a emissão de Certificado de Conclusão Parcial referente a cada lote;\n\nII - no EHIS, quando a aprovação do Plano Integrado tenha observado a proporcionalidade obrigatória de habitação de interesse social (HIS) em cada lote individualmente, fica assegurado ao interessado a emissão de Certificado de Conclusão Parcial referente a cada lote, desde que seja levado a registro na matrícula dos lotes restantes a obrigatoriedade da construção de, no mínimo, 80% (oitenta por cento) da área computável do empreendimento para habitação de interesse social (HIS), admitindo-se, para os demais 20% (vinte por cento), a previsão de categorias de uso R ou nR permitidas na zona de uso em que se situa;\n\nIII - nos EHIS e EZEIS, quando a aprovação do Plano Integrado não observar a proporcionalidade obrigatória de HIS-1 e/ou HIS-2 em cada lote individualmente, a concessão de Certificados de Conclusão Parciais para um determinado lote, destinado a alguma subcategoria de uso complementar ao empreendimento, ficará condicionado à comprovação da proporcionalidade, observando-se que:\n\na) para a área de nR ou R que se pretende o Certificado de Conclusão Parcial, deverá ser apresentado outro pedido de Certificado de Conclusão Parcial a ser analisado concomitantemente, cuja área de HIS-1 e/ou HIS-2 atenda a proporcionalidade;\n\nb) para a comprovação da exigência estabelecida na alínea “a” deste inciso, o interessado deverá informar os números dos documentos referentes aos pedidos de Certificados de Conclusão Parciais que se correlacionam para viabilizar a análise concomitante, devendo essa correlação constar das notas dos documentos a serem emitidos;\n\nc) caso se pretenda utilizar Certificado de Conclusão Parcial de habitação de interesse social (HIS) já emitido para viabilizar a emissão de Certificado de Conclusão Parcial para outro(s) uso(s), na proporção, o documento anteriormente emitido deverá ser apostilado para dele fazer constar essa correlação;\n\nd) nos casos previstos neste inciso, não será admitida a conversão dos Certificados de Conclusão Parciais em definitivos enquanto não forem concluídas as unidades HIS-1 e/ou HIS-2.\n\nParágrafo único. Para atendimento ao disposto no inciso II do “caput” deste artigo, deverão ser apresentadas as matrículas dos lotes remanescentes que ainda não alcançaram Certificado de Conclusão, constando a referida averbação.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 63.728/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO V › Seção VI › Art. 69",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-63728-de-10-de-setembro-de-2024",
+    "vigencia": {
+      "inicio": "2024-09-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2024-09-10. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "plano_intervencao_urbana",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Estabelece disciplina específica de parcelamento, uso e ocupação do solo, bem como normas edilícias para Habitação de Interesse Social - HIS, Habitação de Mercado Popular - HMP, Empreendimento de Habitação de Interesse Social - EHIS, Empreendimento de Habitação de Mercado Popular - EHMP e Empreendimento em Zona Especial de Interesse Social - EZEIS, nos termos da Lei nº 16.050, de 31 de julho de 2014 - PDE, alterada e revisada pela Lei nº 17.975, de 08 de julho de 2023 e pela Lei nº 18.157, de 17 de julho de 2024, da Lei nº 16.402, de 22 de março de 2016 - LPUOS, alterada e revisada pela Lei nº 18.081, de 19 de janeiro de 2024 e pela Lei 18.177, de 25 de julho de 2024, bem como da Lei nº 16.642, de 09 de maio de 2017 - COE."
+}

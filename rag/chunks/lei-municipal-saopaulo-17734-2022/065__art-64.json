@@ -1,0 +1,52 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17734-2022::065-art-64",
+  "lei_id": "lei-municipal-saopaulo-17734-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 64",
+  "numero": "64",
+  "header_raw": "Art. 64. Fica instituído o estoque anual de potencial construtivo adicional dedicado a programas de regularização fundiária, controlado pela Secretaria Municipal de Habitação – SEHAB.",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Seção II",
+    "Art. 64"
+  ],
+  "texto": "Art. 64. Fica instituído o estoque anual de potencial construtivo adicional dedicado a programas de regularização fundiária, controlado pela Secretaria Municipal de Habitação – SEHAB.\n\n§ 1º O estoque de potencial construtivo adicional previsto neste artigo será definido anualmente por Portaria do Secretário Municipal de Habitação, não excedendo a 10% (dez por cento) do potencial construtivo adicional consumido por intermédio do instrumento da Outorga Onerosa do Direito de Construir nos últimos 12 (doze) meses.\n\n§ 2º A Secretaria Municipal de Habitação – SEHAB determinará, no ato formal de fixação do estoque anual previsto neste artigo:\n\nI - a quantidade de metros quadrados inicialmente destinados aos processos de regularização fundiária das diferentes regiões do Município;\n\nII - os critérios mínimos para a elegibilidade de interessados em propor a realização da transferência de direito de construir para os fins previstos nesta Lei;\n\nIII - a metodologia dos chamamentos públicos destinados a selecionar as propostas de utilização do programa de regularização fundiária previsto nesta Lei.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.734/2022 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO V › Seção II › Art. 64",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17734-de-11-de-janeiro-de-2022",
+    "vigencia": {
+      "inicio": "2022-01-11",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2022-01-11. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "itbi",
+    "planta_generica_valores",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta, no âmbito do Município de São Paulo, os procedimentos aplicáveis à Regularização Fundiária, de acordo com a Lei Federal nº 13.465, de 11 de julho de 2017, e o Decreto Federal nº 9.310, de 2018, e dá outras providências."
+}

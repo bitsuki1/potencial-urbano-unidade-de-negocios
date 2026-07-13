@@ -1,0 +1,51 @@
+{
+  "chunk_id": "decreto-saopaulo-59164-2019::019-art-18",
+  "lei_id": "decreto-saopaulo-59164-2019",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 18",
+  "numero": "18",
+  "header_raw": "Art. 18. Além dos documentos referidos no artigo 15 deste decreto, no ato do protocolamento do pedido de regularização, também deverão ser apresentados os seguintes documentos:",
+  "caminho_hierarquico": [
+    "CAPÍTULO IX",
+    "Art. 18"
+  ],
+  "texto": "Art. 18. Além dos documentos referidos no artigo 15 deste decreto, no ato do protocolamento do pedido de regularização, também deverão ser apresentados os seguintes documentos:\n\nI - Certificado de Segurança para as edificações que necessitarem de espaço de circulação protegida, segundo as normas técnicas oficiais, excetuadas:\n\na) as edificações residenciais;\n\nb) as edificações não residenciais com área construída total igual ou superior de 750 m² (setecentos de cinquenta metros quadrados) e que não necessitem do Certificado de Segurança, podendo ser substituído pelo Auto de Vistoria Final do Corpo de Bombeiros – AVCB ou Atestado Técnico emitido por profissional habilitado sobre a perfeita instalação e funcionamento dos equipamentos de combate a incêndio, de acordo com as NTO’s;\n\nII - Auto de Vistoria Final do Corpo de Bombeiros – AVCB ou Atestado Técnico emitido por profissional habilitado sobre a perfeita instalação e funcionamento dos equipamentos de combate a incêndio, de acordo com as NTO’s para edificações não residenciais com área construída total inferior a 750,00 m²;\n\nIII - Alvará de Funcionamento de Local de Reunião - AFLR, para Locais de Reunião com capacidade superior a 250 (duzentos e cinquenta) pessoas;\n\nIV - Certificado de Licença do Corpo de Bombeiros – CLCB, para os locais de reunião com capacidade inferior a 250 (duzentas e cinquenta) pessoas ou Auto de Licença de Funcionamento já emitido para a edificação.\n\n§ 1º Para fins de aplicação deste artigo, consideram-se as definições do Anexo I, item 6, da Lei nº 16.642, de 2017.\n\n§ 2º Considera-se a altura da edificação, o desnível real entre o piso do pavimento de saída e o piso do último pavimento, excluído o ático.\n\n§ 3º A capacidade do pavimento será calculada de acordo com o item 6 do Anexo I da Lei nº 16.642, de 2017, ou aquela indicada nas peças gráficas.\n\n§ 4º Constatada a não apresentação dos documentos ou protocolos de que trata o “caput” deste artigo, será emitido o comunicado único, sendo que o não atendimento no prazo de 30 (trinta) dias ensejará o indeferimento do pedido de regularização.\n\n§ 5º No caso do indeferimento nos termos § 4º deste artigo, havendo recurso, a apresentação da documentação ou do protocolo é condição fundamental para o prosseguimento de sua análise, caso contrário, o recurso será desde logo indeferido.\n\n§ 6º Na hipótese da apresentação da documentação referida nos incisos I, II e III do “caput” deste artigo, será aceita divergência de até 5% (cinco por cento) entre a área objeto do pedido de regularização e a área indicada no documento.\n\n§ 7º O requerimento de regularização de edificações que possuam tanques de armazenamento de produtos químicos inflamáveis e explosivos nos estados sólidos, líquidos ou gasosos, ou que possuam equipamentos de transporte horizontal ou vertical, abrangerá somente a edificação, ficando a regularização destes equipamentos sujeitas a pedidos subordinados ao atendimento da legislação específica e respectivas normas técnicas, por ocasião do Cadastro e Manutenção de Equipamentos, devendo constar do respectivo Certificado de Regularização a seguinte nota: “O presente Certificado de Regularização não reconhece a regularidade de equipamentos”.\n\n§ 8º Para as edificações cuja regularização dependa da apresentação dos documentos citados nos incisos I e III do “caput” deste artigo, bem como do Certificado de Acessibilidade, a emissão do Certificado de Regularização será condicionada à apresentação dos respectivos protocolos, devendo, neste caso, constarem as seguintes ressalvas:\n\nI - Certificado de Segurança: “O Certificado de Regularização não exime do atendimento às normas de segurança e acessibilidade, sendo que deverá ser apresentado o Certificado de Segurança para o funcionamento da atividade objeto da regularização”;\n\nII - Alvará de Funcionamento de Local de Reunião: “O Certificado de Regularização não exime do atendimento às normas de segurança e acessibilidade, sendo que, deverá ser apresentado o Alvará de Funcionamento de Local de Reunião para o funcionamento da atividade objeto da regularização”;\n\nIII - Certificado de Acessibilidade: “O Certificado de Regularização não exime do atendimento às normas de segurança e acessibilidade, sendo que deverá ser apresentado o Certificado de Acessibilidade para o funcionamento da atividade objeto da regularização”.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 59.164/2019 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO IX › Art. 18",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59164-de-27-de-dezembro-de-2019",
+    "vigencia": {
+      "inicio": "2019-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2019-12-27. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 17.202, de 16 de outubro de 2019, que dispõe sobre a regularização de edificações, condicionada, quando necessário, à realização de obras, nos termos da previsão do art. 367 do Plano Diretor Estratégico."
+}

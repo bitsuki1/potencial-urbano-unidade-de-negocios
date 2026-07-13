@@ -1,0 +1,45 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17217-2019::007-art-6o",
+  "lei_id": "lei-municipal-saopaulo-17217-2019",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 6º",
+  "numero": "6",
+  "header_raw": "Art. 6º O art. 5º da Lei nº 15.360, de 14 de março de 2011, passa a vigorar com a seguinte redação:",
+  "caminho_hierarquico": [
+    "Art. 6º"
+  ],
+  "texto": "Art. 6º O art. 5º da Lei nº 15.360, de 14 de março de 2011, passa a vigorar com a seguinte redação:\n\n“Art. 5º Ficam isentos do Imposto sobre Propriedade Predial e Territorial Urbana – IPTU os imóveis adquiridos com recurso do Fundo de Arrendamento Residencial – FAR, pelo Fundo de Desenvolvimento Social – FDS, pelo Fundo Nacional de Habitação de Interesse Social, pelo Fundo Paulista de Habitação de Interesse Social, aqueles transferidos do patrimônio da União ou de quaisquer de suas autarquias, pelo Fundo de Desenvolvimento Urbano – FUNDURB, pelo Fundo Municipal de Habitação, ou em ações habitacionais desenvolvidas no âmbito do Fundo de Atendimento à População Moradora em Habitação Subnormal – FUNAPS, para os programas:\n\nI - Programa Crédito Solidário – PCS;\n\nII - Programa de Arrendamento Residencial – PAR;\n\nIII - Programa Minha Casa Minha Vida – PMCMV, em suas modalidades destinadas à produção de Habitação de Interesse Social – HIS e do Fundo de Desenvolvimento Urbano – FUNDURB;\n\nIV - programas desenvolvidos no âmbito da Secretaria Estadual de Habitação, da Companhia de Desenvolvimento Habitacional e Urbano, pela Secretaria Municipal de Habitação, da Companhia Metropolitana de Habitação e de suas agências de administração indireta destinados à produção habitacional ou a regularização urbanística.\n\n§ 1º A isenção referida neste artigo será concedida no ato da transmissão para a execução do empreendimento e vigorará até o desdobro fiscal das unidades individuais.\n\n§ 2º A isenção a que se refere o caput deste artigo:\n\nI - será total, quando, embora parcial o aporte de recursos financeiros oriundos dos referidos fundos, a complementação desses aportes parciais seja integralmente financiada por pessoa jurídica de direito público;\n\nII - aplica-se aos imóveis cuja destinação habitacional esteja integralmente destinada a beneficiários com faixa de renda equivalente à Faixa 1 do Programa Minha Casa Minha Vida – PMCMV, de que trata a Lei Federal nº 11.977, de 7 de julho de 2009.\n\n§ 3º O requerimento para concessão da isenção referida neste artigo será instruído com os seguintes documentos, além de outros que eventualmente venham a ser requisitados pela Administração Tributária:\n\nI - contrato ou estatuto social, ata de eleição da diretoria e documento de identificação do representante legal da requerente;\n\nII - matrícula ou transcrição do imóvel objeto da isenção;\n\nIII - contrato, convênio ou documento equivalente que demonstre:\n\na) a qualidade de projeto de habitação de interesse social;\n\nb) o cumprimento ao disposto no inciso II do § 2º deste artigo.” (NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.217/2019 — São Paulo/SP",
+    "dispositivo": "Art. 6º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17217-de-23-de-outubro-de-2019",
+    "vigencia": {
+      "inicio": "2019-10-23",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2019-10-23. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "regularizacao",
+    "itbi",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Revoga parcialmente planos de melhoramentos viários aprovados pelas Leis nº 13.860, de 29 de junho de 2004, e nº 16.541, de 8 de setembro de 2016, fixando novos alinhamentos, nas Subprefeituras de Casa Verde/Cachoeirinha e Mooca; altera dispositivos das Leis nº 13.402, de 5 de agosto de 2002, nº 15.360, de 14 de março de 2011, nº 16.359, de 13 de janeiro de 2016, e nº 16.050, de 31 de julho de 2014."
+}

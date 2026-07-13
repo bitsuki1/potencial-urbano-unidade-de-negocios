@@ -1,0 +1,52 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17734-2022::009-art-8o",
+  "lei_id": "lei-municipal-saopaulo-17734-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 8º",
+  "numero": "8",
+  "header_raw": "Art. 8º São instrumentos de constituição de direitos reais aos beneficiários da Reurb, a serem utilizados pelo Poder Público Municipal de acordo com a situação de cada núcleo urbano, aqueles definidos no Estatuto da Cidade – Lei nº 10.257, de 11 de julho de 2011, na Medida Provisória nº 2.220, de 4 de setembro de 2001, e na Lei Federal nº 13.465, de 11 de julho de 2017.",
+  "caminho_hierarquico": [
+    "CAPÍTULO I",
+    "Seção III",
+    "Art. 8º"
+  ],
+  "texto": "Art. 8º São instrumentos de constituição de direitos reais aos beneficiários da Reurb, a serem utilizados pelo Poder Público Municipal de acordo com a situação de cada núcleo urbano, aqueles definidos no Estatuto da Cidade – Lei nº 10.257, de 11 de julho de 2011, na Medida Provisória nº 2.220, de 4 de setembro de 2001, e na Lei Federal nº 13.465, de 11 de julho de 2017.\n\n§ 1º A Legitimação Fundiária é o instrumento prioritário a ser outorgado pelo Município àqueles que, no âmbito da Reurb de núcleos urbanos, constituídos sobre área pública, particular ou mista, atenderem aos requisitos do § 1º do art. 23 da Lei Federal nº 13.465, de 11 de julho de 2017.\n\n§ 2º Não sendo possível a aplicação da legitimação fundiária, pelo não atendimento de quaisquer dos requisitos previstos no § 1º do art. 23 da Lei Federal nº 13.465, de 11 de julho de 2017, poderá o Município utilizar os demais instrumentos previstos na Lei Federal de regência.\n\n§ 3º Entende-se como interesse público, para a aplicação da legitimação fundiária aos beneficiários da Reurb de núcleo urbano de uso não residencial, as unidades imobiliárias:\n\nI - destinadas ao reassentamento de comércios, serviços ou micro e pequenas empresas nos termos da Lei Complementar nº 123/06, removidos em função de obras de urbanização integrada, denominados Centros Comerciais de Interesse Social – CCIS;\n\nII - destinadas às organizações da sociedade civil, nos termos da Lei Federal nº 13.019, de 31 de julho de 2014, reconhecidas como de utilidade pública pelo Poder Público;\n\nIII - reconhecidas pelo órgão responsável pela Reurb como facilitadoras do alcance dos objetivos do desenvolvimento econômico sustentável, nos termos do art. 7º desta Lei.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.734/2022 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO I › Seção III › Art. 8º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17734-de-11-de-janeiro-de-2022",
+    "vigencia": {
+      "inicio": "2022-01-11",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2022-01-11. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "itbi",
+    "planta_generica_valores",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta, no âmbito do Município de São Paulo, os procedimentos aplicáveis à Regularização Fundiária, de acordo com a Lei Federal nº 13.465, de 11 de julho de 2017, e o Decreto Federal nº 9.310, de 2018, e dá outras providências."
+}

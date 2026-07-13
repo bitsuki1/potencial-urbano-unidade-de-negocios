@@ -1,0 +1,51 @@
+{
+  "chunk_id": "decreto-saopaulo-59164-2019::003-art-2o",
+  "lei_id": "decreto-saopaulo-59164-2019",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 2º",
+  "numero": "2",
+  "header_raw": "Art. 2º As obras de adequação referidas no § 3º, do artigo 1º deste decreto dependerão de requerimento do interessado acompanhado de peças gráficas indicando os serviços a serem executados, bem como memorial descritivo dos serviços, acompanhados da respectiva anotação ou registro de responsabilidade técnica, ART ou RRT.",
+  "caminho_hierarquico": [
+    "CAPÍTULO I",
+    "Art. 2º"
+  ],
+  "texto": "Art. 2º As obras de adequação referidas no § 3º, do artigo 1º deste decreto dependerão de requerimento do interessado acompanhado de peças gráficas indicando os serviços a serem executados, bem como memorial descritivo dos serviços, acompanhados da respectiva anotação ou registro de responsabilidade técnica, ART ou RRT.\n\n§ 1º Para a execução das obras referidas na Notificação de Exigências Complementares - NEC, conforme o § 3º, do artigo 1º deste decreto, será concedido o prazo de 180 (cento e oitenta) dias.\n\n§ 2º O prazo de 180 (cento oitenta) dias poderá ser prorrogado por igual período uma única vez, mediante solicitação do interessado.\n\n§ 3º No prazo concedido, o interessado deverá obrigatoriamente apresentar, para a comprovação da execução dos serviços relacionados na Notificação de Exigências Complementares – NEC, relatório fotográfico da situação anterior e posterior à obra.\n\n§ 4º Escoado o prazo sem o atendimento às exigências contidas na Notificação de Exigências Complementares – NEC, será indeferido o pedido do Certificado de Regularização e aplicadas as penalidades cabíveis.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 59.164/2019 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO I › Art. 2º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59164-de-27-de-dezembro-de-2019",
+    "vigencia": {
+      "inicio": "2019-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2019-12-27. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 17.202, de 16 de outubro de 2019, que dispõe sobre a regularização de edificações, condicionada, quando necessário, à realização de obras, nos termos da previsão do art. 367 do Plano Diretor Estratégico."
+}

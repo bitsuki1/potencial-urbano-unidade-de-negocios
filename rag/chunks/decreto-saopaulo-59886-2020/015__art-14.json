@@ -1,0 +1,51 @@
+{
+  "chunk_id": "decreto-saopaulo-59886-2020::015-art-14",
+  "lei_id": "decreto-saopaulo-59886-2020",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 14",
+  "numero": "14",
+  "header_raw": "Art. 14. É vedada a implantação de EHIS e EZEIS com concessão do direito de construir acima do coeficiente de aproveitamento básico em vias que possuam largura inferior a 10m (dez metros).",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção II",
+    "Art. 14"
+  ],
+  "texto": "Art. 14. É vedada a implantação de EHIS e EZEIS com concessão do direito de construir acima do coeficiente de aproveitamento básico em vias que possuam largura inferior a 10m (dez metros).\n\n§ 1º São permitidos EHIS e EZEIS em lotes com frente para duas ou mais vias, desde que pelo uma delas possua largura igual ou superior a 10m (dez metros), admitindo-se a variação mencionada no § 6º do artigo 23 do Decreto nº 57.377, de 2016.\n\n§ 2º No caso de EHIS e EZEIS em lotes com frente para duas ou mais vias, o acesso de automóveis deverá estar localizado, obrigatoriamente, em via com largura igual ou superior a 10m (dez metros), sendo admitido o acesso de pedestres em vias com largura inferior a 10m (dez metros).",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 59.886/2020 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção II › Art. 14",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59886-de-4-de-novembro-de-2020",
+    "vigencia": {
+      "inicio": "2020-11-04",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2020-11-04. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Consolida a disciplina específica de uso e ocupação do solo para os Empreendimentos de Habitação de Interesse Social – EHIS e Empreendimentos em ZEIS - EZEIS a serem executados nas áreas das Operações Urbanas Consorciadas Água Espraiada, Faria Lima e Água Branca e na Operação Urbana Centro."
+}

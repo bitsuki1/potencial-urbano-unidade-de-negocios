@@ -1,0 +1,50 @@
+{
+  "chunk_id": "decreto-saopaulo-59886-2020::003-art-2o",
+  "lei_id": "decreto-saopaulo-59886-2020",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 2º",
+  "numero": "2",
+  "header_raw": "Art. 2º Para EHIS e EZEIS são gratuitos, nos termos dos artigos 58 e 60 do Plano Diretor Estratégico - Lei nº 16.050, de 2014, a concessão do direito de construir acima do coeficiente de aproveitamento básico até o limite do coeficiente de aproveitamento máximo, o acesso ao gabarito máximo e à taxa de ocupação máxima definidos para os perímetros das Operações Urbanas Consorciadas Água Espraiada, Faria Lima e Água Branca e da Operação Urbana Centro.",
+  "caminho_hierarquico": [
+    "CAPÍTULO I",
+    "Art. 2º"
+  ],
+  "texto": "Art. 2º Para EHIS e EZEIS são gratuitos, nos termos dos artigos 58 e 60 do Plano Diretor Estratégico - Lei nº 16.050, de 2014, a concessão do direito de construir acima do coeficiente de aproveitamento básico até o limite do coeficiente de aproveitamento máximo, o acesso ao gabarito máximo e à taxa de ocupação máxima definidos para os perímetros das Operações Urbanas Consorciadas Água Espraiada, Faria Lima e Água Branca e da Operação Urbana Centro.\n\n§ 1º A gratuidade do coeficiente de aproveitamento prevista no “caput” deste artigo estende-se à eventual parcela de Habitação de Interesse Social - HIS inserida em Empreendimentos de Habitação Popular - EHMP e em empreendimentos de uso misto.\n\n§ 2º O acesso gratuito ao coeficiente de aproveitamento máximo previsto no “caput” deste artigo não implicará consumo de estoque de potencial construtivo adicional das respectivas operações urbanas.\n\n§ 3º Nos termos do inciso I do artigo 60 da Lei nº 16.402, de 2016, o gabarito de altura máximo não se aplica aos imóveis inseridos no perímetro da Operação Urbana Centro.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 59.886/2020 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO I › Art. 2º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59886-de-4-de-novembro-de-2020",
+    "vigencia": {
+      "inicio": "2020-11-04",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2020-11-04. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Consolida a disciplina específica de uso e ocupação do solo para os Empreendimentos de Habitação de Interesse Social – EHIS e Empreendimentos em ZEIS - EZEIS a serem executados nas áreas das Operações Urbanas Consorciadas Água Espraiada, Faria Lima e Água Branca e na Operação Urbana Centro."
+}

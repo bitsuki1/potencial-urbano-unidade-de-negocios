@@ -1,0 +1,99 @@
+{
+  "id": "lei-municipal-saopaulo-18209-2024",
+  "tipo_norma": "lei_ordinaria",
+  "esfera": "municipal",
+  "jurisdicao": "São Paulo/SP",
+  "numero": "18.209",
+  "ano": 2024,
+  "ementa": "Dispõe sobre a alteração do mapa 2 constante do art. 383, inciso I, da Lei Municipal nº 16.050, de 31 de julho de 2014, que aprova a Política de Desenvolvimento Urbano e o Plano Diretor Estratégico do Município de São Paulo, estabelece o órgão competente para a definição da área beneficiária de compensação ambiental, e altera a redação do art. 76 da mesma Lei; altera a redação do art. 22 da Lei Municipal nº 17.202, de 16 de outubro de 2019, que dispõe sobre a regularização de edificações, condicionada, quando necessário, à realização de obras; altera o art. 146 da Lei nº 16.402, de 22 de março de 2016, que disciplina o parcelamento, o uso e a ocupação do solo no Município de São Paulo.",
+  "tema": [
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dispositivos_chave": [
+    "Art. 1º O Mapa 2 constante no art. 383, inciso I, da Lei nº 16.050, de 31 de julho de 2014, fica substituído pelo Mapa anexo a e",
+    "Art. 2º Compete à Secretaria Municipal do Verde e do Meio Ambiente de São Paulo a análise e determinação da área beneficiária da",
+    "Art. 3º Ficam alterados os incisos II e V do § 3º do art. 76 da Lei nº 16.050, de 31 de julho de 2014, que passam a vigorar com",
+    "Art. 4º O art. 22 da Lei nº 17.202, de 16 de março de 2019, passa a vigorar com a seguinte redação:",
+    "Art. 5º O art. 146 da Lei nº 16.402, de 22 de março de 2016, passa a vigorar com a seguinte redação: (artigo declarado inconstit",
+    "Art. 6º O Direito Real de Laje fica instituído através da presente Lei.",
+    "Art. 7º Fica autorizada a instituição de laje sobre usos INFRA, a fim de que possam ser edificados sobre estações e terminais, d",
+    "Art. 8º Para a instituição do direito de laje sobre os usos INFRA deverão ser observadas pelo empreendedor:",
+    "Art. 9º Os parâmetros urbanísticos deverão ser atendidos da seguinte forma:",
+    "Art. 10 . O projeto a ser apresentado deverá conter, além dos documentos exigidos pela Lei nº 16.642, de 9 de maio de 2017, e de",
+    "Art. 11 . Fica autorizado ao Executivo a abertura de matrícula de laje de espaços aéreos e subterrâneos em terrenos públicos e p",
+    "Art. 12 . A área da laje incorporará uma das matrículas adjacentes, incidindo sobre a mesma todos os encargos e tributos ao titu",
+    "Art. 13 . A precificação da laje será realizada pela Coordenadoria de Gestão do Patrimônio do Município de São Paulo - CGPATRI.",
+    "Art. 14 . As disposições do COE, LPUOS e do PDE aplicam-se subsidiariamente nas áreas de operação urbana, operação urbana consor",
+    "Art. 15 . O art. 141 da Lei nº 16.050, de 2014, passa a vigorar acrescido do § 3º a seguir:",
+    "Art. 16 . As alterações ora promovidas ficam expressamente autorizadas, conforme art. 46, § 2º, alínea “b”, da Lei Orgânica do M",
+    "Art. 17 . Esta Lei entrará em vigor na data de sua publicação, revogados o § 4º e o § 5º do art. 146 da Lei nº 16.402, de 22 de"
+  ],
+  "vigencia": {
+    "inicio": "2024-12-20",
+    "fim": null,
+    "em_vigor": true,
+    "altera": [],
+    "alterada_por": [],
+    "revogada_por": null,
+    "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2024-12-20. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+  },
+  "remissoes": [
+    {
+      "norma": "LEI Nº 18.209",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 16.050",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 16.050, de 2014",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 16.402",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 16.642",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 17.202",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 799/24",
+      "relacao": "citada no texto (detectada automaticamente)"
+    }
+  ],
+  "jurisprudencia_relacionada": [],
+  "tem_tabela": true,
+  "tabelas_extraidas": [],
+  "tem_formula": false,
+  "formulas_referenciadas": [],
+  "fonte": {
+    "origem": "Portal oficial (legislacao.prefeitura.sp.gov.br)",
+    "path": "_entrada/misto/lei-municipal-saopaulo-18209-2024.txt",
+    "url": "https://legislacao.prefeitura.sp.gov.br/lei-18209-de-20-de-dezembro-de-2024",
+    "hash": "sha256:d2899100d02ba24db6a7981e2158e40d807828daf228dc1f52a6653312718d6f",
+    "hash_nota_fonte": "sha256 do HTML bruto do portal capturado 2026-07-13",
+    "ocr": false,
+    "metodo": "VERBATIM INTEGRAL (portal oficial, texto compilado); captura portal oficial legislacao.prefeitura.sp.gov.br (container texto_compilado); promovido de _entrada/misto/",
+    "hash_alvo": "_entrada/misto/lei-municipal-saopaulo-18209-2024.txt",
+    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior."
+  },
+  "status_pipeline": "indexado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "dominio_primario": "tdc",
+  "dominio": [
+    "tdc"
+  ]
+}

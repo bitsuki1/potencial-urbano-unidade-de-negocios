@@ -1,0 +1,51 @@
+{
+  "chunk_id": "decreto-saopaulo-59164-2019::021-art-20",
+  "lei_id": "decreto-saopaulo-59164-2019",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 20",
+  "numero": "20",
+  "header_raw": "Art. 20. A regularização das edificações com área construída computável superior ao coeficiente de aproveitamento básico da zona será condicionada ao recolhimento de outorga onerosa, que incidirá somente sobre o excedente da área construída computável a regularizar até o limite do coeficiente de aproveitamento máximo da zona ou aquele constante das leis específicas para o respectivo uso, vigente até a data da publicação da Lei nº 16.050, de 2014 - Plano Diretor Estratégico do Município de São Paulo, cujo valor será calculado da seguinte forma:",
+  "caminho_hierarquico": [
+    "CAPÍTULO X",
+    "Art. 20"
+  ],
+  "texto": "Art. 20. A regularização das edificações com área construída computável superior ao coeficiente de aproveitamento básico da zona será condicionada ao recolhimento de outorga onerosa, que incidirá somente sobre o excedente da área construída computável a regularizar até o limite do coeficiente de aproveitamento máximo da zona ou aquele constante das leis específicas para o respectivo uso, vigente até a data da publicação da Lei nº 16.050, de 2014 - Plano Diretor Estratégico do Município de São Paulo, cujo valor será calculado da seguinte forma:\n\n§ 1º O valor do metro quadrado da contrapartida financeira relativa à outorga onerosa de potencial construtivo adicional da área computável a ser regularizada, será calculado conforme a seguinte equação:\n\nC = (At/Ac) x V x Fs x Fp x Fr, onde:\n\nC – contrapartida financeira relativa a cada m² de potencial construtivo adicional;\n\nAt – área de terreno em m²;\n\nAc – área construída computável total do empreendimento em m²;\n\nV – valor do m² do terreno constante do Cadastro de Valor de Terreno para fins de outorga onerosa, conforme Quadro 14, anexo à Lei nº 16.050, de 2014;\n\nFs – fator de interesse social, conforme Quadro 16-A anexo à Lei nº 13.885, de 2004;\n\nFp – fator de planejamento, conforme Quadro 15-A anexo à Lei nº 13.885, de 2004;\n\nFr – fator de regularização igual a 1,2 (um e dois décimos).\n\n§ 2º O valor do pagamento da outorga onerosa poderá ser parcelado, observando-se o máximo de 12 (doze) parcelas fixas mensais, e o valor mínimo de R$ 500,00 (quinhentos reais) por parcela.\n\n§ 3º Para os casos que se enquadrem no “caput” deste artigo, o despacho de deferimento da regularização dependerá da comprovação de recolhimento total do valor correspondente à outorga onerosa.\n\n§ 4º O interessado será notificado por via eletrônica, nos endereços cadastrados no Sistema, para efetuar o recolhimento do valor correspondente à outorga onerosa no prazo de 30 (trinta) dias, contados da data da publicação no Diário Oficial.\n\n§ 5º As áreas cobertas destinadas a estacionamento, carga, descarga e manobra de veículos que ultrapassarem os limites previstos na Legislação de Uso e Ocupação do Solo vigente até a data da publicação da Lei nº 16.050, de 2014 - Plano Diretor Estratégico do Município de São Paulo, serão consideradas computáveis apenas para o efeito do cálculo da outorga onerosa.\n\n§ 6º A regularização de área na forma prevista no “caput” deste artigo independe do estoque de potencial construtivo adicional, definido nos artigos 199 e 200 da Lei nº 13.885, de 2004.\n\n§ 7º Na regularização de unidade autônoma em condomínio edilício, será considerada a área computável total da edificação para fins de incidência da outorga onerosa da área excedente.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 59.164/2019 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO X › Art. 20",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59164-de-27-de-dezembro-de-2019",
+    "vigencia": {
+      "inicio": "2019-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2019-12-27. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 17.202, de 16 de outubro de 2019, que dispõe sobre a regularização de edificações, condicionada, quando necessário, à realização de obras, nos termos da previsão do art. 367 do Plano Diretor Estratégico."
+}

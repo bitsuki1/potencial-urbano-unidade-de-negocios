@@ -1,0 +1,54 @@
+{
+  "chunk_id": "decreto-saopaulo-63728-2024::009-art-8o",
+  "lei_id": "decreto-saopaulo-63728-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 8º",
+  "numero": "8",
+  "header_raw": "Art. 8º Os EHIS e EZEIS podem ser produzidos nas seguintes modalidades:",
+  "caminho_hierarquico": [
+    "CAPÍTULO I",
+    "SEÇÃO IV",
+    "Art. 8º"
+  ],
+  "texto": "Art. 8º Os EHIS e EZEIS podem ser produzidos nas seguintes modalidades:\n\nI - Plano Integrado ou Plano Integrado Faseado, nos termos das Seções VII e VIII, respectivamente deste decreto, quando envolver simultaneamente o licenciamento de parcelamento do solo de interesse social e a produção de unidades habitacionais de interesse social, nas tipologias elencadas no artigo 7º deste decreto;\n\nII - Conjunto Horizontal, Conjunto Vertical ou Habitação Unifamiliar em lote ou gleba preexistente, com ou sem parcelamento convencional do solo;\n\nIII - Habitação Unifamiliar em lote resultante de LHIS ou que venha a ser enquadrado desta forma.\n\n§ 1º Os EHIS e EZEIS promovidos pela iniciativa privada serão admitidos em qualquer modalidade prevista neste decreto.\n\n§ 2º O EHMP pode ser produzido apenas conforme inciso II deste artigo.\n\nCAPÍTULO II\n\nDA MATÉRIA EDILÍCIA E DE USO E OCUPAÇÃO DO SOLO\n\nSEÇÃO I\n\nDAS PERMISSÕES, DESTINAÇÕES E CONDIÇÕES PARA INSTALAÇÃO",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 63.728/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO I › SEÇÃO IV › Art. 8º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-63728-de-10-de-setembro-de-2024",
+    "vigencia": {
+      "inicio": "2024-09-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2024-09-10. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "plano_intervencao_urbana",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Estabelece disciplina específica de parcelamento, uso e ocupação do solo, bem como normas edilícias para Habitação de Interesse Social - HIS, Habitação de Mercado Popular - HMP, Empreendimento de Habitação de Interesse Social - EHIS, Empreendimento de Habitação de Mercado Popular - EHMP e Empreendimento em Zona Especial de Interesse Social - EZEIS, nos termos da Lei nº 16.050, de 31 de julho de 2014 - PDE, alterada e revisada pela Lei nº 17.975, de 08 de julho de 2023 e pela Lei nº 18.157, de 17 de julho de 2024, da Lei nº 16.402, de 22 de março de 2016 - LPUOS, alterada e revisada pela Lei nº 18.081, de 19 de janeiro de 2024 e pela Lei 18.177, de 25 de julho de 2024, bem como da Lei nº 16.642, de 09 de maio de 2017 - COE."
+}
