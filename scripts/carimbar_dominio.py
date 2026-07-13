@@ -84,6 +84,10 @@ TDC = {
     "lei-municipal-saopaulo-18222-2024":
         "PIU Arco Pinheiros — cria AIU-ACP com potencial construtivo adicional de 1.150.000 m² (Art. 23), "
         "CA máximo 6,0, transferência de potencial construtivo (Arts. 42-43). Efeito dominante é TDC/potencial.",
+    "lei-municipal-saopaulo-18298-2025":
+        "Revisão da Lei 18.222/2024 (PIU/AIU Arco Pinheiros) para a ZOE-Butantan — parâmetros urbanísticos "
+        "(CA, TO, gabarito, potencial), mapas e Quadro 3A do PIU. Segue o domínio da lei-mãe 18.222 (TDC). "
+        "Arts. 3-5 (multas/posturas da LPUOS) com eficácia suspensa por ADI. Ingerida do portal 2026-07-13 (gap).",
     # (mais massa normativa TDC — decretos ZEPEC/CONPRESP — entra quando ingerida; ver A-11)
     # --- Jurisprudência de TDC ingerida 2026-07-11 (B-21): efeito dominante é TDC (tombamento ×
     #     potencial construtivo; natureza compensatória; direito de protocolo; base do "solo criado"),
