@@ -119,7 +119,15 @@ SCORE_MIN = 1.5
 # exige que o top-1 cubra fração suficiente do PESO discriminativo da pergunta: termos raros/específicos
 # (inclusive os AUSENTES do corpus — idf máximo) pesam no denominador, então uma pergunta cujo miolo
 # temático não casa é rejeitada, mesmo casando muitos termos comuns.
-WCOB_MIN = 0.40   # calibrado (auditoria): armadilha multi-termo=0,30 ✗ · mínimo legítimo dos evals=0,48 ✓
+WCOB_MIN = 0.41   # re-calibrado 2026-07-13 (ingestão TDC de 11 normas mudou o IDF do corpus).
+# O limiar DEPENDE do corpus. Ao entrar normas com "licenciamento/ambiental/industrial/procedimento" em
+# contexto NÃO temático, o IDF desses termos caiu e a armadilha B-04 (licenciamento ambiental de indústria
+# poluente, tema AUSENTE) subiu de <0,40 → 0,404 — passava FUNDAMENTADA por palavra comum. Medido no
+# ROTEAMENTO das evals (dominio=tdc): armadilha b04=0,404 · piso legítimo (tdc-conceito=0,42; tombado=0,44).
+# ⚠ MARGEM ESTREITA (~0,006 de cada lado): o vão armadilha↔legítimo encolheu com o corpus. 0,41 passa 33/33
+# ground-truth hoje; se uma ingestão futura estreitar mais, migrar de limiar único p/ regra composta
+# (ex.: wcob≥0,40 E cobertura≥0,50) — a cobertura sem peso separa melhor (b04=0,44 vs tombado=0,57).
+# (antes: 0,40; armadilha multi-termo original=0,30 ✗ · 0,45 quebra positivas legítimas ✗)
 
 
 def _idf(tok, N, df):
