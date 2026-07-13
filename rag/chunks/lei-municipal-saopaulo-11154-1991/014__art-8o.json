@@ -1,0 +1,48 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-11154-1991::014-art-8o",
+  "lei_id": "lei-municipal-saopaulo-11154-1991",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 8º",
+  "numero": "8",
+  "header_raw": "Art. 8º - Em nenhuma hipótese, o imposto será calculado sobre valor inferior ao valor do bem, utilizado, no exercício, para base de cálculo do Imposto sobre a Propriedade Predial e Territorial Urbana - IPTU.(Redação dada pela Lei n° 13.402/2002)(Revogado pela Lei n° 14.256/2006)",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 8º"
+  ],
+  "texto": "Art. 8º - Em nenhuma hipótese, o imposto será calculado sobre valor inferior ao valor do bem, utilizado, no exercício, para base de cálculo do Imposto sobre a Propriedade Predial e Territorial Urbana - IPTU.(Redação dada pela Lei n° 13.402/2002)(Revogado pela Lei n° 14.256/2006)\n\n§ 1° - Para os efeitos deste artigo, não serão considerados os descontos eventualmente, concedidos sobre o valor fiscal apurado para efeito do cálculo do Imposto sobre a Propriedade Predial e Territorial Urbana.\n\n§ 1º - Para os efeitos deste artigo, não serão considerados os descontos eventualmente concedidos sobre o valor fiscal apurado para efeito do cálculo do Imposto sobre a Propriedade Predial e Territorial Urbana - IPTU.(Redação dada pela Lei n° 13.402/2002)\n\n§ 2° - Na inexistência de lançamento do Imposto sobre a Propriedade Predial e territorial Urbana, os atos translativos somente serão celebrados mediante apresentação de certidão dessa circunstância, expedida pela unidade competente.\n\n§ 2º - Na inexistência de lançamento do Imposto sobre a Propriedade Predial e Territorial Urbana - IPTU, os atos translativos somente serão celebrados mediante apresentação de certidão dessa circunstância, expedida pela unidade competente, conforme regulamento.(Redação dada pela Lei n° 13.402/2002)\n\n§ 3º - Em caso de incorreção do lançamento do Imposto sobre a Propriedade Predial e Territorial Urbana - IPTU, utilizado para efeito de piso, o Fisco Municipal poderá rever, de ofício, os valores recolhidos a título do Imposto sobre a Transmissão de Bens Imóveis - ITBI-IV.(Incluído pela Lei n° 13.402/2002)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "2002",
+    "norma_redacao": "Lei n° 13.402/2002"
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 11.154/1991 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Art. 8º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-11154-de-30-de-dezembro-de-1991",
+    "vigencia": {
+      "inicio": "1991-12-30",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 1991-12-30 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "itbi",
+    "planta_generica_valores",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o Imposto sobre Transmissão “inter vivos”, a qualquer título por ato oneroso, de bens imóveis, por natureza ou acessão física, e de direitos reais sobre imóveis, exceto os de garantia, bem como cessão de direitos à sua aquisição, e dá outras providências."
+}

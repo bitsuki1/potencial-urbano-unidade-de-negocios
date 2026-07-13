@@ -1,0 +1,46 @@
+{
+  "chunk_id": "decreto-saopaulo-60939-2021::063-art-27",
+  "lei_id": "decreto-saopaulo-60939-2021",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 27",
+  "numero": "27",
+  "header_raw": "Art. 27. Este decreto entrará em vigor na data de sua publicação.",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Art. 27"
+  ],
+  "texto": "Art. 27. Este decreto entrará em vigor na data de sua publicação.\n\nPREFEITURA DO MUNICÍPIO DE SÃO PAULO, em 23 de dezembro de 2021, 468º da Fundação de São Paulo.\n\nRICARDO NUNES, PREFEITO\n\nMARINA MAGRO BERINGHS MARTINEZ, Procuradora Geral do Município\n\nJOSÉ RICARDO ALVARENGA TRIPOLI, Secretário Municipal da Casa Civil\n\nEUNICE APARECIDA DE JESUS PRUDENTE, Secretária Municipal de Justiça\n\nRUBENS NAMAN RIZEK JUNIOR, Secretário de Governo Municipal\n\nPublicado na Secretaria de Governo Municipal, em 23 de dezembro de 2021.\n\nANEXO ÚNICO INTEGRANTE DO DECRETO Nº 60.939, DE 23 DE DEZEMBRO DE 2021\n\nSúmulas de Jurisprudência Administrativa\n\n1. A imunidade prevista no art. 150, VI, \"b\", §4° da Constituição Federal deve ser interpretada extensivamente para abranger qualquer imóvel de propriedade de entidades religiosas ou de cunho religioso, inclusive quando explorado economicamente, vago ou sem edificações, ou ainda quando utilizado como escritório e residência de membros de entidade religiosa, salvo hipótese de comprovado desvio de finalidade na utilização do imóvel ou na aplicação dos recursos arrecadados com a sua exploração, bem como nas hipóteses em que as entidades religiosas figurarem na relação jurídico-tributária como responsáveis tributários.\n\n2. A imunidade recíproca prevista no art. 150, VI, \"a\" da Constituição Federal estende-se à Empresa Brasileira de Correios e Telégrafos – EBCT, salvo comprovado desvio de finalidade ou quando figurar na relação jurídico-tributária na qualidade de responsável tributário.\n\n3. De acordo com o art. 150, VI, \"a\" da Constituição Federal, é inviável a cobrança de IPTU em face de autarquias e fundações mantidas pelo Poder Público no que se refere ao patrimônio, renda e serviços vinculados às suas finalidades essenciais ou delas decorrentes, pelo que cabe a demonstração, em processo administrativo de fiscalização, dos elementos que implicam a incidência do imposto.\n\n4. Não incide ITBI sobre promessa de compra e venda ou promessa de cessão de direitos sobre imóvel.\n\n5. Por gozarem de imunidade de jurisdição e execução, de caráter subjetivo, não devem ser tributados pelo IPTU os imóveis de propriedade dos Estados estrangeiros signatários das Convenções de Viena sobre Relações Diplomáticas e Consulares assinadas nos anos de 1961 e 1963, incorporadas ao ordenamento jurídico nacional pelos Decretos nº 56.435/1965 e 61.078/1967, salvo expressa renúncia.\n\n6. A existência de apontamento no CADIN não constitui óbice para a análise do pedido de isenção de empresas estatais de incentivo e fomento de programas de moradias populares, interpretando-se restritivamente o art. 3°, inciso IV da Lei nº 14.094/2005, por não haver contrapartida exigida das empresas estatais nessas hipóteses de exclusão do crédito tributário.\n\nEste texto não substitui o original publicado no Diário Oficial da Cidade de São Paulo.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 60.939/2021 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO V › Art. 27",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-60939-de-23-de-dezembro-de-2021",
+    "vigencia": {
+      "inicio": "2021-12-23",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2021-12-23 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "itbi"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Política Municipal de Desjudicialização instituída pela Lei nº 17.324, de 18 de março de 2020, bem como regulamenta a transação tributária de que trata os artigos 21 a 24 da Lei nº 17.719, de 26 de novembro de 2021."
+}

@@ -1,0 +1,41 @@
+{
+  "chunk_id": "decreto-saopaulo-58592-2018::001-preambulo",
+  "lei_id": "decreto-saopaulo-58592-2018",
+  "tipo_dispositivo": "preambulo",
+  "rotulo": "Preâmbulo",
+  "numero": null,
+  "header_raw": null,
+  "caminho_hierarquico": [],
+  "texto": "DECRETO Nº 58.592 DE 27 DE DEZEMBRO DE 2018\n\nDECRETO Nº 58.592 de 27 de Dezembro de 2018\n\nTemas Relacionados\n\nAtualiza, para o exercício de 2019, os valores unitários de metro quadrado de construção e de terreno constantes da Planta Genérica de Valores, o valor limite de metro quadrado de terreno de imóveis residenciais verticais e os valores das multas relativas ao Imposto Predial e Territorial Urbano, bem como concede desconto para pagamento à vista desse imposto.\n\nDECRETO Nº 58.592, DE 27 DE DEZEMBRO DE 2018\n\nAtualiza, para o exercício de 2019, os valores unitários de metro quadrado de construção e de terreno constantes da Planta Genérica de Valores, o valor limite de metro quadrado de terreno de imóveis residenciais verticais e os valores das multas relativas ao Imposto Predial e Territorial Urbano, bem como concede desconto para pagamento à vista desse imposto.\n\nBRUNO COVAS, Prefeito do Município de São Paulo, no uso das atribuições que lhe são conferidas por lei,\n\nCONSIDERANDO o disposto no § 2º do artigo 5º da Lei nº 11.152, de 30 de dezembro de 1991, no § 3º do artigo 3° da Lei nº 13.879, de 28 de julho de 2004, e nos artigos 19 e 39 da Lei nº 6.989, de 29 de dezembro de 1966, com a redação que lhes foi conferida pelo artigo 17 da Lei nº 14.256, de 29 de dezembro de 2006,\n\nD E C R E T A:",
+  "citavel": false,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 58.592/2018 — São Paulo/SP",
+    "dispositivo": "Preâmbulo",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-58592-de-27-de-dezembro-de-2018",
+    "vigencia": {
+      "inicio": "2018-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2018-12-27 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "planta_generica_valores"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Atualiza, para o exercício de 2019, os valores unitários de metro quadrado de construção e de terreno constantes da Planta Genérica de Valores, o valor limite de metro quadrado de terreno de imóveis residenciais verticais e os valores das multas relativas ao Imposto Predial e Territorial Urbano, bem como concede desconto para pagamento à vista desse imposto."
+}

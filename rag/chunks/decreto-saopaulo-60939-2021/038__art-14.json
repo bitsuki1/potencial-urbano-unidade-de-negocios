@@ -1,0 +1,46 @@
+{
+  "chunk_id": "decreto-saopaulo-60939-2021::038-art-14",
+  "lei_id": "decreto-saopaulo-60939-2021",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 14",
+  "numero": "14",
+  "header_raw": "Art. 14. Fica criada a Câmara de Prevenção e Resolução Administrativa de Conflitos no Município de São Paulo, vinculada à Procuradoria Geral do Município, que terá, dentre outras, as seguintes atribuições:",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 14"
+  ],
+  "texto": "Art. 14. Fica criada a Câmara de Prevenção e Resolução Administrativa de Conflitos no Município de São Paulo, vinculada à Procuradoria Geral do Município, que terá, dentre outras, as seguintes atribuições:\n\nI - dirimir, por meios autocompositivos, os conflitos entre órgãos e entidades da Administração Pública Municipal Direta e Indireta;\n\nII - dirimir, por meios autocompositivos, os conflitos entre órgãos e entidades da Administração Pública Municipal Direta e Indireta e entidades contratadas pelo Poder Público, quando os respectivos contratos preverem a submissão de controvérsias à Câmara de Prevenção e Resolução Administrativa de Conflitos no Município de São Paulo;\n\nIII - avaliar a admissibilidade dos pedidos de resolução de conflitos por meio de composição, no caso de controvérsia entre particular e pessoa jurídica de direito público;\n\nIV - promover, quando couber, a celebração de termo de ajustamento de conduta nos casos submetidos a meios autocompositivos;\n\nV – requisitar, aos órgãos e entidades da Administração Pública Municipal, informações para subsidiar a sua atuação;\n\nVI - propor, quando couber, ao Procurador Geral do Município o arbitramento das controvérsias entre órgãos da Administração Pública Municipal Direta e Indireta não solucionadas por meios autocompositivos.\n\n§ 1º O modo de composição e funcionamento da Câmara de que trata o caput será estabelecido pelo seu regulamento aprovado por Portaria do Procurador Geral do Município.\n\n§ 2º Se houver consenso entre as partes, o acordo será reduzido a termo e constituirá título executivo extrajudicial, nos termos do parágrafo único do artigo 20 da Lei Federal nº 13.140, de 26 de junho de 2015.\n\n§ 3º A Câmara de Prevenção e Resolução Administrativa de Conflitos no Município de São Paulo é sucessora em todos os termos da Câmara de Solução de Conflitos da Administração Municipal instituída pelo Decreto nº 57.263, de 29 de agosto de 2016.\n\n§ 4º Câmara de Prevenção e Resolução Administrativa de Conflitos indicará, para cada processo em que couber mediação, um mediador para conduzir o procedimento de comunicação entre as partes, buscando o entendimento e o consenso e facilitando a resolução do conflito.\n\n§ 5º Será admitida a comediação nas hipóteses previstas em regulamento.\n\n§ 6º A submissão do conflito de que trata o inciso I do caput deste artigo à Câmara de Prevenção e Resolução Administrativa de Conflitos deverá ser obrigatória, como etapa prévia indispensável a eventual exame pelo Poder Judiciário.(Incluído pelo Decreto nº 62.936/2023)\n\n§ 7º Caberá ao Procurador Geral do Município o arbitramento das controvérsias não solucionadas por meios autocompositivos, na hipótese do inciso I do caput deste artigo.(Incluído pelo Decreto nº 62.936/2023)\n\n§ 8º Não se incluem na competência da Câmara de Prevenção e Resolução Administrativa de Conflitos as controvérsias que somente possam ser resolvidas por atos ou por concessão de direitos sujeitos a autorização do Poder Legislativo.(Incluído pelo Decreto nº 62.936/2023)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 60.939/2021 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Art. 14",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-60939-de-23-de-dezembro-de-2021",
+    "vigencia": {
+      "inicio": "2021-12-23",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2021-12-23 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "itbi"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Política Municipal de Desjudicialização instituída pela Lei nº 17.324, de 18 de março de 2020, bem como regulamenta a transação tributária de que trata os artigos 21 a 24 da Lei nº 17.719, de 26 de novembro de 2021."
+}

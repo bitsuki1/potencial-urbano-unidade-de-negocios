@@ -1,0 +1,46 @@
+{
+  "chunk_id": "decreto-saopaulo-58094-2018::006-art-5o",
+  "lei_id": "decreto-saopaulo-58094-2018",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 5º",
+  "numero": "5",
+  "header_raw": "Art. 5º O requerimento para o Alvará de Instalação de heliponto deve ser assinado pelo responsável pela instalação e protocolado instruído com os seguintes documentos:",
+  "caminho_hierarquico": [
+    "Art. 5º"
+  ],
+  "texto": "Art. 5º O requerimento para o Alvará de Instalação de heliponto deve ser assinado pelo responsável pela instalação e protocolado instruído com os seguintes documentos:\n\nI - título de propriedade do imóvel ou documento equivalente nos termos do artigo 8º do Decreto n. 57.776, de 7 de julho de 2017;\n\nII - no caso de edificação em condomínio, cópia da ata de reunião de condomínio registrada em cartório, na qual conste a anuência de, no mínimo, 2/3 (dois terços) dos condôminos, bem como da reunião na qual o síndico que assina o requerimento e as plantas foi eleito;\n\nIII - plantas, assinadas pelo proprietário do imóvel ou, no caso de condomínio, pelo síndico, bem como pelo responsável pela instalação, com carimbo padrão da Prefeitura, contendo:\n\na) levantamento planimétrico do lote com a indicação das suas dimensões;\n\nb) Projeto Simplificado com a implantação da edificação onde será instalado o heliponto, indicando seus afastamentos das divisas do lote, sua volumetria, e com corte esquemático, onde conste a indicação da altura, cotada em relação à cota geodésica de acesso ao imóvel;\n\nc) localização da plataforma de pouso e decolagem, indicando suas dimensões conforme constante na autorização expedida pela Agência Nacional de Aviação Civil – ANAC e os seus recuos em relação às divisas do lote de, no mínimo, 5m (cinco metros);\n\nIV - Termo de Responsabilidade assinado por profissional habilitado, atestando que foram observadas as normas técnicas aplicáveis referentes às condições de estabilidade e segurança de todas as instalações do heliponto, acompanhado da respectiva anotação técnica perante o Conselho da categoria, conforme Anexo I deste decreto;\n\nV - portaria de inscrição no registro de aeródromos da Agência Nacional de Aviação Civil – ANAC, acompanhado do quadro de características do aeródromo;\n\nVI - autorização do Comando da Aeronáutica do Ministério da Defesa - COMAER;\n\nVII – no caso de imóvel tombado, autorização do órgão de preservação cultural;\n\nVIII - Estudo e Relatório de Impacto de Vizinhança – EIV-RIV aprovado pela Secretaria Municipal do Verde e do Meio Ambiente, em que constem as informações e parâmetros de incomodidade previstos no artigo 6º da Lei 15.723, de 2013, observado o estabelecido no Anexo III deste decreto, acompanhados dos respectivos pareceres técnicos, sem prejuízo das demais disposições legais;\n\nIX - cópia da Anotação de Responsabilidade Técnica ART ou do Registro de Responsabilidade Técnica – RRT referente aos incisos III e IV do “caput” deste artigo, acompanhada de cópia da carteira profissional.\n\n§ 1º Para fins do disposto no inciso VIII do “caput” deste artigo, as medidas de raio a serem indicadas devem partir do centro da área de pouso.\n\n§ 2º Não se aplicam às instalações do heliponto as disposições dos Quadros 3, 3A, 3B, 3C, 4, 4A e 4B da Lei nº 16.402, de 22 de março de 2016, referentes a parâmetros de ocupação, quota ambiental e condições de instalação.\n\n§ 3º Não se aplicam às instalações do heliponto as disposições do item 5 do Anexo I do Decreto 57.776, de 2017.\n\n§ 4º Ao heliponto que for considerado atividade complementar em relação às atividades listadas no artigo 3º da Lei nº 15.723, de 2013, inclusive aos estabelecimentos destinados a serviços de saúde com pronto atendimento e ou internação de pacientes, aplicam-se as disposições do inciso VIII do “caput” deste artigo, observados os critérios constantes do Anexo III deste decreto.\n\n§ 5º Se por opção do interessado as instalações do heliponto constarem do projeto de obra nova ou de reforma da edificação, o Alvará de Aprovação e Execução da obra nova ou reforma compreenderá o Alvará de Instalação do heliponto.\n\n§ 6º Na hipótese prevista no § 5º deste artigo, além da documentação inerente ao requerimento de obra nova ou reforma, o pedido deverá ser instruído com os documentos constantes do “caput” deste artigo.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 58.094/2018 — São Paulo/SP",
+    "dispositivo": "Art. 5º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-58094-de-21-de-fevereiro-de-2018",
+    "vigencia": {
+      "inicio": "2018-02-21",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2018-02-21 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 15.723, de 24 de abril de 2013, no tocante à instalação e ao funcionamento de heliportos e helipontos no Município de São Paulo."
+}

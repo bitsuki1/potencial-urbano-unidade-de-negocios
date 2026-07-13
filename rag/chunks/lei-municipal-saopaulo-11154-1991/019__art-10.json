@@ -1,0 +1,48 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-11154-1991::019-art-10",
+  "lei_id": "lei-municipal-saopaulo-11154-1991",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 10",
+  "numero": "10",
+  "header_raw": "Art. 10. O imposto será calculado:(Redação dada pela Lei n° 15.891/2013)",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 10"
+  ],
+  "texto": "Art. 10. O imposto será calculado:(Redação dada pela Lei n° 15.891/2013)\n\nI - nas transmissões compreendidas no Sistema Financeiro da Habitação - SFH, no Programa de Arrendamento Residencial - PAR e de Habitação de Interesse Social - HIS:(Redação dada pela Lei n° 15.891/2013)\n\na) à razão de 0,5% (meio por cento) sobre o valor efetivamente financiado, até o limite de R$ 65.000,00 (sessenta e cinco mil reais);(Redação dada pela Lei n° 15.891/2013)\n\nI - nas transmissões de imóveis de até R$ 600.000,00 (seiscentos mil reais) compreendidas no Sistema Financeiro da Habitação – SFH, no Programa de Arrendamento Residencial – PAR e de Habitação de Interesse Social – HIS, bem como aquelas realizadas por meio de consórcios:(Redação dada pela Lei nº 17.719/2021 - Vigência: a partir de 1º de janeiro de 2022 ou 90 (noventa) dias após a publicação da Lei nº 17.719/2021, o que ocorrer por último.)\n\na) à razão de 0,5% (meio por cento) sobre o valor efetivamente financiado ou sobre o valor do crédito efetivamente utilizado para aquisição do imóvel, até o limite de R$ 100.000,00 (cem mil reais);(Redação dada pela Lei nº 17.719/2021 - Vigência: a partir de 1º de janeiro de 2022 ou 90 (noventa) dias após a publicação da Lei nº 17.719/2021, o que ocorrer por último.)\n\nb) pela aplicação da alíquota de 2% (dois por cento) sobre o valor restante;(Redação dada pela Lei n° 15.891/2013)\n\nb) pela aplicação da alíquota de 3% (três por cento) sobre o valor restante;(Redação dada pela Lei n° 16.098/2014)\n\nII - nas demais transmissões, pela alíquota de 2% (dois por cento).(Redação dada pela Lei n° 15.891/2013)\n\nII - nas demais transmissões, pela alíquota de 3% (três por cento).(Redação dada pela Lei n° 16.098/2014)\n\n§ 1º Na hipótese prevista no inciso I do “caput” deste artigo, quando o valor da transação for superior ao limite nele fixado, o valor do imposto será determinado pela soma das parcelas estabelecidas em suas alíneas “a” e “b”.(Redação dada pela Lei n° 15.891/2013)\n\n§ 2º As importâncias fixas previstas neste artigo serão atualizadas na forma do disposto no art. 2º e parágrafo único da Lei nº 13.105, de 29 de dezembro de 2000; (Redação dada pela Lei n° 15.891/2013)\n\nCAPÍTULO IV\n\nDo Pagamento do Imposto",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "2013",
+    "norma_redacao": "Lei n° 15.891/2013"
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 11.154/1991 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Art. 10",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-11154-de-30-de-dezembro-de-1991",
+    "vigencia": {
+      "inicio": "1991-12-30",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 1991-12-30 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "itbi",
+    "planta_generica_valores",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o Imposto sobre Transmissão “inter vivos”, a qualquer título por ato oneroso, de bens imóveis, por natureza ou acessão física, e de direitos reais sobre imóveis, exceto os de garantia, bem como cessão de direitos à sua aquisição, e dá outras providências."
+}

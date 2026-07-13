@@ -1,0 +1,51 @@
+{
+  "id": "lei-municipal-saopaulo-11308-1992",
+  "tipo_norma": "lei_ordinaria",
+  "esfera": "municipal",
+  "jurisdicao": "São Paulo/SP",
+  "numero": "11.308",
+  "ano": 1992,
+  "ementa": "PL 35/93(CAMARA)-PUBLICIDADE/FORMA DESPACHOS AUTORADMINISTRATIVAS Q/EFETIVAREM ISENCAO IPTU-APOSENTA",
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dispositivos_chave": [],
+  "vigencia": {
+    "inicio": "1992-12-17",
+    "fim": null,
+    "em_vigor": true,
+    "altera": [],
+    "alterada_por": [],
+    "revogada_por": null,
+    "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 1992-12-17 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+  },
+  "remissoes": [
+    {
+      "norma": "LEI Nº 11.308",
+      "relacao": "citada no texto (detectada automaticamente)"
+    }
+  ],
+  "jurisprudencia_relacionada": [],
+  "tem_tabela": false,
+  "tabelas_extraidas": [],
+  "tem_formula": false,
+  "formulas_referenciadas": [],
+  "fonte": {
+    "origem": "Portal oficial (legislacao.prefeitura.sp.gov.br)",
+    "path": "_entrada/misto/lei-municipal-saopaulo-11308-1992.txt",
+    "url": "https://legislacao.prefeitura.sp.gov.br/lei-11308-de-17-de-dezembro-de-1992",
+    "hash": "sha256:8027055e58498ebeff7374e74c82c35df2cc7c67032be50a434fdcea9709e9cc",
+    "hash_nota_fonte": "sha256 do HTML bruto do portal capturado 2026-07-13",
+    "ocr": false,
+    "metodo": "VERBATIM INTEGRAL (portal oficial, texto compilado); captura portal oficial legislacao.prefeitura.sp.gov.br (container texto_compilado); promovido de _entrada/misto/",
+    "hash_alvo": "_entrada/misto/lei-municipal-saopaulo-11308-1992.txt",
+    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior."
+  },
+  "status_pipeline": "indexado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "dominio_primario": "iptu",
+  "dominio": [
+    "iptu"
+  ]
+}

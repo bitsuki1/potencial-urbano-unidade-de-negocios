@@ -1,0 +1,47 @@
+{
+  "chunk_id": "decreto-saopaulo-61137-2022::048-art-47",
+  "lei_id": "decreto-saopaulo-61137-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 47",
+  "numero": "47",
+  "header_raw": "Art. 47. No prazo de 30 dias a contar da publicação deste Decreto, os órgãos ou entidades responsáveis deverão editar diretrizes técnicas para a instalação de mini ERBs e de ERBs móveis nos mobiliários e equipamentos urbanos sob sua responsabilidade, de modo a preservar sua higidez estrutural e funcional, bem como sua manutenção.",
+  "caminho_hierarquico": [
+    "CAPÍTULO VIII",
+    "Art. 47"
+  ],
+  "texto": "Art. 47. No prazo de 30 dias a contar da publicação deste Decreto, os órgãos ou entidades responsáveis deverão editar diretrizes técnicas para a instalação de mini ERBs e de ERBs móveis nos mobiliários e equipamentos urbanos sob sua responsabilidade, de modo a preservar sua higidez estrutural e funcional, bem como sua manutenção.\n\n§ 1º Findo o prazo previsto no “caput” deste artigo, considerar-se-á atendida a exigência do inciso VI do parágrafo único do art. 31 deste decreto.\n\n§ 2º A edição de diretriz técnica pelo órgão ou entidade responsável após o prazo previsto no “caput” deste artigo não retroagirá a pedidos de cadastramento anteriormente formulados.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 61.137/2022 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO VIII › Art. 47",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-61137-de-10-de-marco-de-2022",
+    "vigencia": {
+      "inicio": "2022-03-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2022-03-10 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 17.733, de 11 de janeiro de 2022, que dispõe sobre a instalação de Estação Radio Base – ERB, Mini ERB e ERB Móvel no Município de São Paulo."
+}

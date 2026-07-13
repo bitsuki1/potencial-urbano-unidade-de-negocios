@@ -1,0 +1,41 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17092-2019::001-preambulo",
+  "lei_id": "lei-municipal-saopaulo-17092-2019",
+  "tipo_dispositivo": "preambulo",
+  "rotulo": "Preâmbulo",
+  "numero": null,
+  "header_raw": null,
+  "caminho_hierarquico": [],
+  "texto": "LEI Nº 17.092 DE 23 DE MAIO DE 2019\n\nLEI Nº 17.092 de 23 de Maio de 2019\n\nRegulamentações\n\nCORRELAÇÕES\n\nTemas Relacionados\n\nDispõe sobre a remissão de créditos tributários do Imposto Predial e Territorial Urbano – IPTU, introduz alterações na Lei nº 15.889, de 5 de novembro de 2013, que atualiza os valores unitários de metro e na Lei nº 13.250, de 27 de dezembro de 2001.\n\nLEI Nº 17.092, DE 23 DE MAIO DE 2019\n\n(Projeto de Lei nº 87/19, do Executivo, aprovado na forma de Substitutivo do Legislativo)\n\nDispõe sobre a remissão de créditos tributários do Imposto Predial e Territorial Urbano – IPTU, introduz alterações na Lei nº 15.889, de 5 de novembro de 2013, que atualiza os valores unitários de metro e na Lei nº 13.250, de 27 de dezembro de 2001.\n\nBRUNO COVAS, Prefeito do Município de São Paulo, no uso das atribuições que lhe são conferidas por lei, faz saber que a Câmara Municipal, em sessão de 30 de abril de 2019, decretou e eu promulgo a seguinte lei:",
+  "citavel": false,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.092/2019 — São Paulo/SP",
+    "dispositivo": "Preâmbulo",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17092-de-23-de-maio-de-2019",
+    "vigencia": {
+      "inicio": "2019-05-23",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2019-05-23 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "planta_generica_valores"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a remissão de créditos tributários do Imposto Predial e Territorial Urbano – IPTU, introduz alterações na Lei nº 15.889, de 5 de novembro de 2013, que atualiza os valores unitários de metro e na Lei nº 13.250, de 27 de dezembro de 2001."
+}

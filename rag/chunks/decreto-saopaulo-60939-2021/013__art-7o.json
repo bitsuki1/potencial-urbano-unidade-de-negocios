@@ -1,0 +1,48 @@
+{
+  "chunk_id": "decreto-saopaulo-60939-2021::013-art-7o",
+  "lei_id": "decreto-saopaulo-60939-2021",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 7º",
+  "numero": "7",
+  "header_raw": "Art. 7º São modalidades de transação na cobrança da dívida ativa:(Redação dada pelo Decreto nº 62.936/2023)",
+  "caminho_hierarquico": [
+    "CAPÍTULO II-A",
+    "Art. 7º"
+  ],
+  "texto": "Art. 7º São modalidades de transação na cobrança da dívida ativa:(Redação dada pelo Decreto nº 62.936/2023)\n\nI - transação por adesão a proposta da Procuradoria Geral do Município, nos termos e condições estabelecidos em edital;(Redação dada pelo Decreto nº 62.936/2023)\n\nII - transação individual proposta pela Procuradoria Geral do Município;(Redação dada pelo Decreto nº 62.936/2023)\n\nIII - transação individual proposta por devedor com dívida ativa inscrita em montante expressivo e reduzida capacidade de pagamento, conforme definido em ato do Procurador Geral do Município;(Redação dada pelo Decreto nº 62.936/2023)\n\nIV – transação individual proposta por devedor inscrito em dívida ativa que esteja em recuperação judicial ou extrajudicial.(Incluído pelo Decreto nº 62.936/2023)\n\n§ 1º As modalidades de acordo e transação previstas neste decreto serão realizadas com o auxílio de sistema eletrônico específico, adequado aos estritos termos, condições e parâmetros previamente estabelecidos na legislação de regência e neste decreto, bem como em atos normativos e editais expedidos pela Procuradoria Geral do Município.\n\nParágrafo único. As propostas de transação, em quaisquer de suas modalidades, serão apresentadas pelo devedor ou divulgadas pela Procuradoria Geral do Município em plataforma digital específica a ser disponibilizada na internet, integrada aos sistemas da dívida ativa.(Redação dada pelo Decreto nº 62.936/2023)\n\n§ 2º Nos acordos e transações nas modalidades previstas nos incisos II e III do “caput” deste artigo e que envolvam créditos de natureza tributária em montante:(Revogado pelo Decreto nº 62.936/2023)\n\nI - superior a 20 (vinte) salários mínimos federais, apurado na data da proposta, a assistência por advogado é obrigatória;\n\nII – de até 20 (vinte) salários mínimos federais, apurado na data da proposta, a assistência por advogado é facultativa, ressalvado o disposto no § 2º do artigo 6º deste decreto.\n\n§ 3º A modalidade de acordo e transação prevista no inciso I do “caput” deste artigo implica a aceitação pelo devedor de todas as condições fixadas no edital proposto pela Procuradoria Geral do Município.(Revogado pelo Decreto nº 62.936/2023)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "2023",
+    "norma_redacao": "Decreto nº 62.936/2023"
+  },
+  "citacao": {
+    "norma": "decreto nº 60.939/2021 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II-A › Art. 7º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-60939-de-23-de-dezembro-de-2021",
+    "vigencia": {
+      "inicio": "2021-12-23",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2021-12-23 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "itbi"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Política Municipal de Desjudicialização instituída pela Lei nº 17.324, de 18 de março de 2020, bem como regulamenta a transação tributária de que trata os artigos 21 a 24 da Lei nº 17.719, de 26 de novembro de 2021."
+}

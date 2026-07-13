@@ -1,0 +1,83 @@
+{
+  "id": "decreto-saopaulo-58592-2018",
+  "tipo_norma": "decreto",
+  "esfera": "municipal",
+  "jurisdicao": "São Paulo/SP",
+  "numero": "58.592",
+  "ano": 2018,
+  "ementa": "Atualiza, para o exercício de 2019, os valores unitários de metro quadrado de construção e de terreno constantes da Planta Genérica de Valores, o valor limite de metro quadrado de terreno de imóveis residenciais verticais e os valores das multas relativas ao Imposto Predial e Territorial Urbano, bem como concede desconto para pagamento à vista desse imposto.",
+  "tema": [
+    "planta_generica_valores"
+  ],
+  "dispositivos_chave": [
+    "Art. 1º Ficam atualizados em 3,5% (três e meio por cento), para o exercício de 2019, os valores em vigor no exercício de 2018 a",
+    "Art. 2º Fica concedido desconto de 3% (três por cento) para o pagamento à vista, até a data de vencimento normal da primeira par",
+    "Art. 3º Este decreto entrará em vigor na data de sua publicação, produzindo efeitos a partir de 1º de janeiro de 2019."
+  ],
+  "vigencia": {
+    "inicio": "2018-12-27",
+    "fim": null,
+    "em_vigor": true,
+    "altera": [],
+    "alterada_por": [],
+    "revogada_por": null,
+    "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2018-12-27 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+  },
+  "remissoes": [
+    {
+      "norma": "DECRETO Nº 58.592",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 10.235",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 11.152",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 13.879",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 14.256",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 15.889",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 15.889, de 2013",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 6.989",
+      "relacao": "citada no texto (detectada automaticamente)"
+    }
+  ],
+  "jurisprudencia_relacionada": [],
+  "tem_tabela": false,
+  "tabelas_extraidas": [],
+  "tem_formula": false,
+  "formulas_referenciadas": [],
+  "fonte": {
+    "origem": "Portal oficial (legislacao.prefeitura.sp.gov.br)",
+    "path": "_entrada/misto/decreto-saopaulo-58592-2018.txt",
+    "url": "https://legislacao.prefeitura.sp.gov.br/decreto-58592-de-27-de-dezembro-de-2018",
+    "hash": "sha256:dd1b0ff9f6a162cfc785fa385154036b7684c413e4db84766298abc6c4eadc91",
+    "hash_nota_fonte": "sha256 do HTML bruto do portal capturado 2026-07-13",
+    "ocr": false,
+    "metodo": "VERBATIM INTEGRAL (portal oficial, texto compilado); captura portal oficial legislacao.prefeitura.sp.gov.br (container texto_compilado); promovido de _entrada/misto/",
+    "hash_alvo": "_entrada/misto/decreto-saopaulo-58592-2018.txt",
+    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior."
+  },
+  "status_pipeline": "indexado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "dominio_primario": "iptu",
+  "dominio": [
+    "iptu"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "chunk_id": "decreto-saopaulo-60939-2021::016-art-8o",
+  "lei_id": "decreto-saopaulo-60939-2021",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 8º",
+  "numero": "8",
+  "header_raw": "Art. 8º Em quaisquer das modalidades de transação de que trata este decreto, sem prejuízo dos demais compromissos exigidos em edital ou em proposta individual, o sujeito passivo deverá indicar expressamente os meios de extinção dos débitos nela contemplados, obrigando-se a:(Redação dada pelo Decreto nº 62.936/2023)",
+  "caminho_hierarquico": [
+    "CAPÍTULO II-A",
+    "Art. 8º"
+  ],
+  "texto": "Art. 8º Em quaisquer das modalidades de transação de que trata este decreto, sem prejuízo dos demais compromissos exigidos em edital ou em proposta individual, o sujeito passivo deverá indicar expressamente os meios de extinção dos débitos nela contemplados, obrigando-se a:(Redação dada pelo Decreto nº 62.936/2023)\n\nI - não utilizar a transação de forma abusiva, com a finalidade de limitar, falsear ou prejudicar de qualquer forma a livre concorrência ou a livre iniciativa econômica;(Redação dada pelo Decreto nº 62.936/2023)\n\nII - não utilizar pessoa natural ou jurídica interposta para ocultar ou dissimular a origem ou a destinação de bens, de direitos e de valores, seus reais interesses ou a identidade dos beneficiários de seus atos, em prejuízo da Fazenda Pública municipal;\n\nIII - não alienar nem onerar bens ou direitos eventualmente ofertados em garantia para a celebração do acordo ou da transação, sem a devida comunicação à Procuradoria Geral do Município;\n\nIV - desistir dos embargos à execução e de outras ações antiexacionais que tenham por objeto os débitos incluídos no acordo ou na transação, inclusive as coletivas, bem como renunciar ao direito sobre o qual se fundam, apresentando, para tanto, requerimento de extinção dos respectivos processos com resolução de mérito, nos termos da alínea “c” do inciso III do caput do artigo 487 da Lei Federal nº 13.105, de 16 de março de 2015, no prazo de 60 (sessenta) dias, contados da adesão ou apresentação de proposta de acordo ou transação.\n\nIII - não alienar nem onerar bens ou direitos eventualmente ofertados em garantia para a celebração da transação, sem a devida comunicação à Procuradoria Geral do Município;(Redação dada pelo Decreto nº 62.936/2023)\n\nIV – desistir dos embargos à execução ou de outras ações antiexacionais relativas aos débitos inscritos que constituam objeto da transação, inclusive as coletivas, bem como renúncia ao direito sobre o qual se fundam, devendo o interessado apresentar, para tanto, requerimento de extinção dos respectivos processos com resolução de mérito, nos termos da alínea “c” do inciso III do caput do artigo 487 da Lei Federal nº 13.105, de 16 de março de 2015, no prazo de 60 (sessenta) dias contados da adesão, em caso de proposta de transação formulada pela Procuradoria Geral do Município, ou do ato de deferimento de transação individual proposta pelo devedor, devendo ainda, no mesmo prazo, proceder ao recolhimento das respectivas custas e despesas processuais;(Redação dada pelo Decreto nº 62.936/2023)\n\nV - aceitar, em caráter irretratável e irrevogável, a recepção de notificações eletrônicas, dispensando-se a sua publicação no Diário Oficial da Cidade, considerando-se o devedor notificado no prazo de 10 dias contados da disponibilização da notificação diretamente em plataforma digital específica disponibilizada na internet pela Procuradoria Geral do Município.(Incluído pelo Decreto nº 62.936/2023)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "2023",
+    "norma_redacao": "Decreto nº 62.936/2023"
+  },
+  "citacao": {
+    "norma": "decreto nº 60.939/2021 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II-A › Art. 8º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-60939-de-23-de-dezembro-de-2021",
+    "vigencia": {
+      "inicio": "2021-12-23",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2021-12-23 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "itbi"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Política Municipal de Desjudicialização instituída pela Lei nº 17.324, de 18 de março de 2020, bem como regulamenta a transação tributária de que trata os artigos 21 a 24 da Lei nº 17.719, de 26 de novembro de 2021."
+}

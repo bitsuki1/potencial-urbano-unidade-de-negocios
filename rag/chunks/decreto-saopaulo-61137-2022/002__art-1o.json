@@ -1,0 +1,47 @@
+{
+  "chunk_id": "decreto-saopaulo-61137-2022::002-art-1o",
+  "lei_id": "decreto-saopaulo-61137-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 1º",
+  "numero": "1",
+  "header_raw": "Art. 1º A Lei nº 17.733, de 11 de janeiro de 2022, que dispõe sobre a implantação de estação rádio-base, a instalação de estação rádio-base móvel e estação rádio-base de pequeno porte, no Município de São Paulo, destinadas à operação de serviços de telecomunicações autorizados e homologados pelo órgão federal competente, fica regulamentada por este decreto.",
+  "caminho_hierarquico": [
+    "CAPÍTULO I",
+    "Art. 1º"
+  ],
+  "texto": "Art. 1º A Lei nº 17.733, de 11 de janeiro de 2022, que dispõe sobre a implantação de estação rádio-base, a instalação de estação rádio-base móvel e estação rádio-base de pequeno porte, no Município de São Paulo, destinadas à operação de serviços de telecomunicações autorizados e homologados pelo órgão federal competente, fica regulamentada por este decreto.\n\nParágrafo único. Não estão sujeitas às disposições da Lei nº 17.733, de 2022, e deste decreto, os radares militares e civis com propósito de defesa ou controle de tráfego aéreo, bem como as infraestruturas de radionavegação aeronáutica e as de telecomunicações aeronáuticas, fixas e móveis, destinadas a garantir a segurança das operações aéreas, cujo funcionamento deverá obedecer à regulamentação específica.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 61.137/2022 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO I › Art. 1º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-61137-de-10-de-marco-de-2022",
+    "vigencia": {
+      "inicio": "2022-03-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2022-03-10 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 17.733, de 11 de janeiro de 2022, que dispõe sobre a instalação de Estação Radio Base – ERB, Mini ERB e ERB Móvel no Município de São Paulo."
+}

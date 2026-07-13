@@ -1,0 +1,46 @@
+{
+  "chunk_id": "decreto-saopaulo-60939-2021::030-art-13-a",
+  "lei_id": "decreto-saopaulo-60939-2021",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 13-A",
+  "numero": "13-A",
+  "header_raw": "Art. 13-A A Administração Pública Municipal Direta e Indireta poderá formalizar termos de ajustamento de conduta – TAC com o Ministério Público do Estado de São Paulo, o Ministério Público Federal e o Ministério Público do Trabalho.(Incluído pelo Decreto nº 62.936/2023)",
+  "caminho_hierarquico": [
+    "CAPÍTULO II - B",
+    "Art. 13-A"
+  ],
+  "texto": "Art. 13-A A Administração Pública Municipal Direta e Indireta poderá formalizar termos de ajustamento de conduta – TAC com o Ministério Público do Estado de São Paulo, o Ministério Público Federal e o Ministério Público do Trabalho.(Incluído pelo Decreto nº 62.936/2023)\n\n§ 1º O termo de ajustamento de conduta deverá conter:(Incluído pelo Decreto nº 62.936/2023)\n\nI - os fundamentos de fato e de direito;(Incluído pelo Decreto nº 62.936/2023)\n\nII - a descrição das obrigações assumidas;(Incluído pelo Decreto nº 62.936/2023)\n\nIII - o prazo e o modo para o cumprimento das obrigações; e(Incluído pelo Decreto nº 62.936/2023)\n\nIV - a forma de fiscalização da sua observância.(Incluído pelo Decreto nº 62.936/2023)\n\n§ 2º O termo de ajustamento de conduta previsto neste artigo, preferencialmente, não conterá previsão de multa ou de sanção administrativa para o caso de seu descumprimento pela Administração Pública Municipal, salvo quando devidamente justificado.(Incluído pelo Decreto nº 62.936/2023)\n\n§ 3º Quando houver compromissos orçamentários e financeiros, fica vedada a formalização do termo de ajustamento de conduta sem a prévia anuência da Junta Orçamentário-Financeira, exceto quando houver previsão orçamentária e recursos suficientes para o cumprimento da obrigação.(Incluído pelo Decreto nº 62.936/2023)\n\n§ 4º Quando a controvérsia envolver a Administração Pública Municipal Direta, bem como as autarquias e fundações representadas judicialmente pela Procuradoria Geral do Município, fica vedada a formalização do termo de ajustamento de conduta sem a prévia manifestação da Procuradoria Geral do Município.(Incluído pelo Decreto nº 62.936/2023)\n\n§ 5º Os órgãos referidos no § 4º deste artigo, que receberem do Ministério Público proposta de celebração de termo de ajustamento de conduta em matéria de sua competência, após manifestação acerca da viabilidade técnica, operacional e financeira de seu cumprimento, deverão colher o pronunciamento da Procuradoria Geral do Município acerca de sua viabilidade jurídica.(Incluído pelo Decreto nº 62.936/2023)\n\n§ 6º Adotadas as providências previstas nos parágrafos deste artigo, caberá ao titular de cada órgão a decisão quanto à formalização do termo de ajustamento de conduta.(Incluído pelo Decreto nº 62.936/2023)\n\n§ 7º Os órgãos referidos no § 4º deste artigo deverão encaminhar cópia dos termos de ajustamento de conduta firmados à Assessoria Técnica do Gabinete da Procuradoria Geral do Município, para fins de registro.(Incluído pelo Decreto nº 62.936/2023)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 60.939/2021 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II - B › Art. 13-A",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-60939-de-23-de-dezembro-de-2021",
+    "vigencia": {
+      "inicio": "2021-12-23",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2021-12-23 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "itbi"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Política Municipal de Desjudicialização instituída pela Lei nº 17.324, de 18 de março de 2020, bem como regulamenta a transação tributária de que trata os artigos 21 a 24 da Lei nº 17.719, de 26 de novembro de 2021."
+}

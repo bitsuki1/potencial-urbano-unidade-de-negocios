@@ -1,0 +1,43 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17092-2019::006-art-5o",
+  "lei_id": "lei-municipal-saopaulo-17092-2019",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 5º",
+  "numero": "5",
+  "header_raw": "Art. 5º Quando a situação de um ou mais imóveis no Cadastro Imobiliário Fiscal for modificada em virtude de desdobro, englobamento ou remembramento, a Subsecretaria da Receita Municipal, da Secretaria Municipal da Fazenda, fica autorizada a tomar as providências necessárias a fim de que os valores de Imposto Predial e Territorial Urbano – IPTU pagos sob os lotes fiscais ascendentes sejam aproveitados para quitação total ou parcial do IPTU devido sob os novos lotes fiscais.(Regulamentado pela Ordem Interna SF/SUREM nº 1/2023)",
+  "caminho_hierarquico": [
+    "Art. 5º"
+  ],
+  "texto": "Art. 5º Quando a situação de um ou mais imóveis no Cadastro Imobiliário Fiscal for modificada em virtude de desdobro, englobamento ou remembramento, a Subsecretaria da Receita Municipal, da Secretaria Municipal da Fazenda, fica autorizada a tomar as providências necessárias a fim de que os valores de Imposto Predial e Territorial Urbano – IPTU pagos sob os lotes fiscais ascendentes sejam aproveitados para quitação total ou parcial do IPTU devido sob os novos lotes fiscais.(Regulamentado pela Ordem Interna SF/SUREM nº 1/2023)\n\n§ 1º A quitação total ou parcial do IPTU devido sob os novos lotes fiscais surgidos em razão de desdobro, englobamento ou remembramento ocorrerá preferencialmente antes da emissão das respectivas Notificações de Lançamento – NL, e poderá ser procedida automaticamente, dispensados decisão ou despacho administrativo.\n\n§ 2º A Subsecretaria da Receita Municipal poderá, quando o montante do crédito ou as circunstâncias do caso assim o justificarem, promover o aproveitamento de que trata este artigo após a emissão das novas Notificações de Lançamento – NL, conforme regulamentação própria.\n\n§ 3º Aplica-se o disposto neste artigo, inclusive, às hipóteses em que o IPTU pago sob o lote ascendente o tenha sido por pessoa diferente do sujeito passivo do imposto devido em função do lote descendente, em razão do interesse comum entre eles, nos termos do art. 124 do Código Tributário Nacional.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.092/2019 — São Paulo/SP",
+    "dispositivo": "Art. 5º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17092-de-23-de-maio-de-2019",
+    "vigencia": {
+      "inicio": "2019-05-23",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2019-05-23 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "planta_generica_valores"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a remissão de créditos tributários do Imposto Predial e Territorial Urbano – IPTU, introduz alterações na Lei nº 15.889, de 5 de novembro de 2013, que atualiza os valores unitários de metro e na Lei nº 13.250, de 27 de dezembro de 2001."
+}

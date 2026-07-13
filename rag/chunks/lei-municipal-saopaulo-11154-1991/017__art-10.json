@@ -1,0 +1,46 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-11154-1991::017-art-10",
+  "lei_id": "lei-municipal-saopaulo-11154-1991",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 10",
+  "numero": "10",
+  "header_raw": "Art. 10 – O imposto será calculado:",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 10"
+  ],
+  "texto": "Art. 10 – O imposto será calculado:\n\nI – nas transmissões compreendidas no sistema Financeiro da Habitação – SFH:\n\na) à razão de 0,5% (meio por cento) sobre o valor efetivamente financiado, até o limite de 800 (oitocentas) Unidades de Valor Fiscal do Município de São Paulo – UFM;\n\nb) pela aplicação das alíquotas previstas no inciso II deste artigo, sobre o valor restante.\n\nII – nas demais transmissões, pelas seguintes alíquotas incidentes sobre as classes de valor definidas por número de Unidades de Valor Fiscal do Município de São Paulo – UFM:\n\nClasse de Valor do Imóvel em UFM Alíquota\n\nAté 3.000 2%\n\nAcima de 3.000 até 5.000 3%\n\nAcima de 5.000 até 6.000 4%\n\nAcima de 6.000 6% \n\n§ 1° - O imposto é calculado em cada classe sobre a porção do valor do bem, em Unidades de Valor Fiscal do Município de São Paulo – UFM, compreendidas nos respectivos limites.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 11.154/1991 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Art. 10",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-11154-de-30-de-dezembro-de-1991",
+    "vigencia": {
+      "inicio": "1991-12-30",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 1991-12-30 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "itbi",
+    "planta_generica_valores",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o Imposto sobre Transmissão “inter vivos”, a qualquer título por ato oneroso, de bens imóveis, por natureza ou acessão física, e de direitos reais sobre imóveis, exceto os de garantia, bem como cessão de direitos à sua aquisição, e dá outras providências."
+}

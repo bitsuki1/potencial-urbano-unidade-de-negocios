@@ -1,0 +1,47 @@
+{
+  "chunk_id": "decreto-saopaulo-61137-2022::041-art-40",
+  "lei_id": "decreto-saopaulo-61137-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 40",
+  "numero": "40",
+  "header_raw": "Art. 40. Lavrada a multa a que se refere o inciso III do artigo do “caput” 37 deste decreto, far-se-á a notificação do infrator para, no prazo nela determinado, pagar ou apresentar defesa, a qual terá efeito suspensivo, dirigida ao Supervisor de Fiscalização da Subprefeitura competente, sob pena de subsequente inscrição na dívida ativa do Município.",
+  "caminho_hierarquico": [
+    "CAPÍTULO IV",
+    "Art. 40"
+  ],
+  "texto": "Art. 40. Lavrada a multa a que se refere o inciso III do artigo do “caput” 37 deste decreto, far-se-á a notificação do infrator para, no prazo nela determinado, pagar ou apresentar defesa, a qual terá efeito suspensivo, dirigida ao Supervisor de Fiscalização da Subprefeitura competente, sob pena de subsequente inscrição na dívida ativa do Município.\n\n§ 1º Apresentada a defesa e feita sua análise, a respectiva decisão será publicada no Diário Oficial da Cidade e cadastrada, expedindo-se, no caso de indeferimento, nova notificação ao infrator, da qual constará a data máxima para pagamento ou interposição de um único recurso dirigido ao Subprefeito, o qual terá efeito suspensivo.\n\n§ 2º A decisão do recurso encerra a instância administrativa.\n\n§ 3º As decisões referentes às defesas e recursos serão publicadas no Diário Oficial da Cidade e disponibilizadas no Portal da Fiscalização\n\n§ 4º O efeito suspensivo de que trata este artigo é exclusivamente para os fins de exigibilidade do débito.\n\nCAPÍTULO V\n\nDAS ÁREAS PRIORITÁRIAS",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 61.137/2022 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO IV › Art. 40",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-61137-de-10-de-marco-de-2022",
+    "vigencia": {
+      "inicio": "2022-03-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2022-03-10 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 17.733, de 11 de janeiro de 2022, que dispõe sobre a instalação de Estação Radio Base – ERB, Mini ERB e ERB Móvel no Município de São Paulo."
+}

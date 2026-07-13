@@ -1,0 +1,41 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-14089-2005::001-preambulo",
+  "lei_id": "lei-municipal-saopaulo-14089-2005",
+  "tipo_dispositivo": "preambulo",
+  "rotulo": "Preâmbulo",
+  "numero": null,
+  "header_raw": null,
+  "caminho_hierarquico": [],
+  "texto": "LEI Nº 14.089 DE 22 DE NOVEMBRO DE 2005\n\nLEI Nº 14.089 de 22 de Novembro de 2005\n\nCORRELAÇÕES\n\nTemas Relacionados\n\nEstabelece normas aplicáveis ao vencimento, à atualização cadastral e aos benefícios relacionados ao Imposto Predial e Territorial Urbano - IPTU.\n\nLEI Nº 14.089, DE 22 DE NOVEMBRO DE 2005\n\n(Projeto de Lei nº 519/05, do Vereador Aurélio Miguel - PL)\n\nEstabelece normas aplicáveis ao vencimento, à atualização cadastral e aos benefícios relacionados ao Imposto Predial e Territorial Urbano - IPTU.\n\nJOSÉ SERRA, Prefeito do Município de São Paulo, no uso das atribuições que lhe são conferidas por lei, faz saber que a Câmara Municipal, em sessão de 26 de outubro de 2005, decretou e eu promulgo a seguinte lei:",
+  "citavel": false,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 14.089/2005 — São Paulo/SP",
+    "dispositivo": "Preâmbulo",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-14089-de-22-de-novembro-de-2005",
+    "vigencia": {
+      "inicio": "2005-11-22",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2005-11-22 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Estabelece normas aplicáveis ao vencimento, à atualização cadastral e aos benefícios relacionados ao Imposto Predial e Territorial Urbano - IPTU."
+}

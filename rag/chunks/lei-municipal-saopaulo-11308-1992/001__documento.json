@@ -1,0 +1,41 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-11308-1992::001-documento",
+  "lei_id": "lei-municipal-saopaulo-11308-1992",
+  "tipo_dispositivo": "documento",
+  "rotulo": "Documento",
+  "numero": null,
+  "header_raw": null,
+  "caminho_hierarquico": [],
+  "texto": "LEI Nº 11.308 DE 17 DE DEZEMBRO DE 1992\n\nLEI Nº 11.308 de 17 de Dezembro de 1992\n\nRegulamentações\n\nAlterações\n\nRevogações\n\nCORRELAÇÕES\n\nAUTORIZA O EXECUTIVO A ISENTAR DO PAGAMENTO DO IMPOSTO PREDIAL E TERRITORIAL URBANO OS IMOVEIS DE PROPRIEDADE E ONDE RESIDAM APOSENTADOS DE BAIXA RENDA, QUE RECEBAM ATE TRES SALARIOS MINIMOS MENSAIS. \n\nAlterações\n\nVoltar ao Topo\n\nD 32984/93-REGULAMENTA A LEI\n\nL 11614/94-REVOGA A LEI\n\nCorrelações\n\nVoltar ao Topo\n\nPL 61/94-ALTERA ART.1 DA LEI\n\nPL 713/93-REVOGA A LEI\n\nPL 64/93(CAMARA)-ALTERA ART.1 DA LEI\n\nP 152/93(SF)-PROCEDIMENTOS APOSENTADOS P/REQUERER JTO.AO RI ISENCAO IPTU CONFORME LEI\n\nPL 45/91\n\nPL 35/93(CAMARA)-PUBLICIDADE/FORMA DESPACHOS AUTORADMINISTRATIVAS Q/EFETIVAREM ISENCAO IPTU-APOSENTA",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 11.308/1992 — São Paulo/SP",
+    "dispositivo": "Documento",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-11308-de-17-de-dezembro-de-1992",
+    "vigencia": {
+      "inicio": "1992-12-17",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 1992-12-17 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "PL 35/93(CAMARA)-PUBLICIDADE/FORMA DESPACHOS AUTORADMINISTRATIVAS Q/EFETIVAREM ISENCAO IPTU-APOSENTA"
+}

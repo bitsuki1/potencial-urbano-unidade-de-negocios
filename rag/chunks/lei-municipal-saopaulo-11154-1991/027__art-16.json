@@ -1,0 +1,48 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-11154-1991::027-art-16",
+  "lei_id": "lei-municipal-saopaulo-11154-1991",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 16",
+  "numero": "16",
+  "header_raw": "Art. 16. Observado o disposto no art. 15 desta lei, a falta de recolhimento ou o recolhimento a menor do Imposto, pelo sujeito passivo, nos prazos previstos em lei ou regulamento, ficam acrescidos de:(Redação dada pela Lei n° 14.256/2006)",
+  "caminho_hierarquico": [
+    "CAPÍTULO IV",
+    "Art. 16"
+  ],
+  "texto": "Art. 16. Observado o disposto no art. 15 desta lei, a falta de recolhimento ou o recolhimento a menor do Imposto, pelo sujeito passivo, nos prazos previstos em lei ou regulamento, ficam acrescidos de:(Redação dada pela Lei n° 14.256/2006)\n\nI – multa equivalente a 20% (vinte por cento) do valor do imposto devido, quando espontaneamente recolhido pelo contribuinte;\n\nI - multa moratória, calculada à taxa de 0,33% (trinta e três centésimos por cento), por dia de atraso, sobre o valor do Imposto, até o limite de 20% (vinte por cento), desde que não iniciado o procedimento fiscal.(Redação dada pela Lei n° 14.256/2006)\n\nII – multa equivalente a 50% (cinqüenta por cento) do imposto devido, quando apurado o débito pela fiscalização;\n\nIII – juros moratórios de 1% (um por cento) ao mês, a partir do mês imediato ao do vencimento, contando-se como mês completo qualquer fração dele.\n\n§ 1° - Os juros de mora incidirão sobre o valor integral do crédito tributário, assim considerado o principal acrescido de multa de qualquer natureza, atualizado monetariamente.\n\n§ 2° - Quando apurado pela fiscalização, o recolhimento do imposto feito como atraso, sem a multa moratória, será o contribuinte notificado a pagá-la dentro do prazo de 10 (dez) dias, à razão de 30% (trinta por cento) do valor do imposto devido, atualizada monetariamente e acrescida dos juros de mora cabíveis, nos termos do § 1°.\n\nIII - juros equivalentes à taxa referencial do Sistema Especial de Liquidação e de Custódia – SELIC, acumulada mensalmente e incidente uma única vez, a partir do primeiro dia do mês subsequente ao do vencimento, aplicando-se 1% (um por cento) no mês em que o pagamento estiver sendo efetuado.(Redação dada pela Lei nº 18.095/2024)\n\n§ 1º Os juros incidirão sobre o valor integral do crédito tributário, assim considerado o imposto devido acrescido de eventual multa lançada de ofício.(Redação dada pela Lei nº 18.095/2024)\n\n§ 2º Quando apurado pela fiscalização, o recolhimento do imposto feito com atraso, sem a multa moratória, será o contribuinte notificado a pagá-la dentro do prazo de 10 (dez) dias, à razão de 30% (trinta por cento) do valor do imposto devido, acrescida dos juros referidos no inciso III do caput deste artigo.(Redação dada pela Lei nº 18.095/2024)\n\n§ 3º. A multa a que se refere o \"caput\" deste artigo será calculada a partir do primeiro dia subseqüente ao do vencimento do prazo previsto para o recolhimento do Imposto até o dia em que ocorrer o efetivo pagamento.(Incluído pela Lei n° 14.256/2006)\n\n§ 4º. A multa não recolhida poderá ser lançada de ofício, conjunta ou isoladamente, no caso de não-recolhimento do Imposto com esse acréscimo.(Incluído pela Lei n° 14.256/2006)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "2006",
+    "norma_redacao": "Lei n° 14.256/2006"
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 11.154/1991 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO IV › Art. 16",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-11154-de-30-de-dezembro-de-1991",
+    "vigencia": {
+      "inicio": "1991-12-30",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 1991-12-30 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "itbi",
+    "planta_generica_valores",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o Imposto sobre Transmissão “inter vivos”, a qualquer título por ato oneroso, de bens imóveis, por natureza ou acessão física, e de direitos reais sobre imóveis, exceto os de garantia, bem como cessão de direitos à sua aquisição, e dá outras providências."
+}

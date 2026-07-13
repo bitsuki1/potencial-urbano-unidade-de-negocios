@@ -1,0 +1,47 @@
+{
+  "chunk_id": "decreto-saopaulo-61137-2022::042-art-41",
+  "lei_id": "decreto-saopaulo-61137-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 41",
+  "numero": "41",
+  "header_raw": "Art. 41. Nos termos do artigo 27 da Lei nº 17.733, de 2022, ficam estabelecidos, na forma deste decreto, incentivos e condições para o licenciamento para a instalação de ERB, ERB móvel e mini ERB nos seguintes distritos prioritários:",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Art. 41"
+  ],
+  "texto": "Art. 41. Nos termos do artigo 27 da Lei nº 17.733, de 2022, ficam estabelecidos, na forma deste decreto, incentivos e condições para o licenciamento para a instalação de ERB, ERB móvel e mini ERB nos seguintes distritos prioritários:\n\nI - Região Sul: Jardim Ângela, Jardim São Luiz, Cidade Dutra, Pedreira, Grajaú, Marsilac, Parelheiros, Santo Amaro e Socorro;\n\nII - Região Norte: Anhanguera, Perus, Jaraguá, Brasilândia, Pirituba, Cachoerinha, Tremembé e Mandaqui;\n\nIII - Região Leste: Jardim Helena, Lajeado, Guaianases, José Bonifácio, Cidade Tiradentes, Parque do Carmo, Iguatemi, São Rafael, Sapopemba, Itaquera e Ermelino Matarazzo.\n\n§ 1º Os pedidos de instalação de ERB, ERB móvel e mini ERB nos distritos prioritários terão redução do preço público:\n\nI - de 50% (cinquenta por cento) no preço público para licenciamento e cadastramento para os pedidos protocolados nos primeiros 7 (sete) meses após a data de publicação deste decreto;\n\nII - de 30% (trinta por cento) para os pedidos protocolados após os 7 (sete) meses e antes dos 12 (doze) meses da data de publicação deste decreto.\n\n§ 2º Nos primeiros 12 (doze) meses após a data de publicação deste decreto, os equipamentos autorizados a se instalar em bens municipais localizados nos distritos prioritários terão redução de 50% (cinquenta por cento) do valor da retribuição pelo uso do bem municipal, durante o primeiro ano da permissão de uso desta lei.\n\n§ 3º As empresas de telecomunicação terão prazo de 90 (noventa) dias, após o licenciamento ou cadastramento, para implantação completa da ERB autorizada, sob pena de perda de validade da autorização para instalação, ficando vedada a utilização dos benefícios deste artigo no mesmo local em eventual nova solicitação.\n\n§ 4º Para que os interessados obtenham os benefícios constantes deste artigo deverão celebrar termo de adesão com o Poder Executivo, contendo metas individuais de instalação e ampliação, conforme modelo constante do Anexo V deste decreto.\n\n§ 5º Caso as metas estabelecidas nos termos de adesão não sejam atendidas nos prazos estabelecidos no cronograma, o instrumento será revogado e serão suspensos imediatamente todos os benefícios concedidos à operadora inadimplente com base no presente artigo.\n\n§ 6º No período de até 5 (cinco) anos após a publicação da Lei nº 17.733, de 2022, o Poder Executivo poderá, por decreto, reestabelecer os benefícios para a instalação de equipamentos nos distritos prioritários, podendo incluir novos distritos prioritários que demonstrarem deficiência de cobertura para a execução dos serviços públicos, bem como excluir aqueles distritos que já estiverem com cobertura de serviços adequada.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 61.137/2022 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO V › Art. 41",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-61137-de-10-de-marco-de-2022",
+    "vigencia": {
+      "inicio": "2022-03-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2022-03-10 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 17.733, de 11 de janeiro de 2022, que dispõe sobre a instalação de Estação Radio Base – ERB, Mini ERB e ERB Móvel no Município de São Paulo."
+}

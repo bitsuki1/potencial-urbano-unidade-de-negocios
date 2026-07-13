@@ -1,0 +1,136 @@
+{
+  "id": "decreto-saopaulo-61137-2022",
+  "tipo_norma": "decreto",
+  "esfera": "municipal",
+  "jurisdicao": "São Paulo/SP",
+  "numero": "61.137",
+  "ano": 2022,
+  "ementa": "Regulamenta a Lei nº 17.733, de 11 de janeiro de 2022, que dispõe sobre a instalação de Estação Radio Base – ERB, Mini ERB e ERB Móvel no Município de São Paulo.",
+  "tema": [
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao"
+  ],
+  "dispositivos_chave": [
+    "Art. 1º A Lei nº 17.733, de 11 de janeiro de 2022, que dispõe sobre a implantação de estação rádio-base, a instalação de estação",
+    "Art. 2º Para os efeitos deste decreto, ficam adotadas as seguintes definições:",
+    "Art. 3º Os componentes da ERB, ERB móvel e mini ERB não serão considerados área construída ou edificada para fins de aplicação d",
+    "Art. 4º As ERBs são consideradas instalações necessárias aos serviços de infraestrutura de utilidade pública relacionadas à rede",
+    "Art. 5º Para a implantação da ERB deverão ser observadas as seguintes disposições:",
+    "Art. 6º Não se aplicam os parâmetros qualificadores da ocupação e a quota ambiental da Lei nº 16.402, de 2016, às ERBs.",
+    "Art. 7º As ERBS instaladas em lotes não edificados deverão atender a taxa de permeabilidade mínima, de acordo com os respectivos",
+    "Art. 8º A instalação de ERB deverá observar a normatização federal incidente, os gabaritos e as restrições estabelecidos pelos p",
+    "Art. 9º Aplicam às ERBs os parâmetros de incomodidade por zona – estabelecidos no Quadro 4B da Lei nº 16.402, de 2016.",
+    "Art. 10 . Será admitida a implantação de ERB independentemente da regularidade do imóvel onde será instalada, desde que assegura",
+    "Art. 11 . Dependerá de anuência prévia da Secretaria Municipal do Verde e do Meio Ambiente, a implantação de ERB em Zona de Pres",
+    "Art. 12 . A anuência de que trata o “caput” do artigo 11 deste decreto, deverá ser objeto de requerimento a ser encaminhando dir",
+    "Art. 13 . A implantação de ERB em imóveis tombados dependerá de prévia anuência dos órgãos de preservação competentes.",
+    "Art. 14 . A Secretaria Municipal de Cultura terá o prazo de 30 (trinta) dias para expedir a autorização de que trata o artigo 13",
+    "Art. 15 . Fica vedada a instalação de ERB em presídios, cadeias públicas e unidades da Fundação Centro de Atendimento Socioeduca",
+    "Art. 16 . Nenhuma ERB poderá ser implantada sem prévia emissão do Alvará de Implantação de ERB pelo órgão competente, a ser requ",
+    "Art. 17 . O requerimento de Alvará de Implantação de ERB deverá ser instruído com os seguintes documentos ou informações:",
+    "Art. 18 . O requerimento de renovação do Alvará de Implantação de ERB deverá ser instruído com os seguintes documentos ou inform",
+    "Art. 19 . O prazo para emissão do Alvará de Implantação de ERB não poderá:",
+    "Art. 20 . O simples protocolo dos requerimentos relativos à ERB não autoriza a sua implantação.",
+    "Art. 21 . Serão dispensadas de novo licenciamento conforme previsto no § 4º do art. 5º da Lei nº 17.733, de 2022, as ERBs já lic",
+    "Art. 22 . A Secretaria Municipal de Urbanismo e Licenciamento – SMUL deverá implantar, no prazo de 30 (trinta dias) da publicaçã",
+    "Art. 23 . Constatado o desatendimento das obrigações e exigências legais por parte da operadora ou a detentora previstas na Lei",
+    "Art. 24 . Em decorrência do previsto nos artigos 24 e 25 da Lei, as ERBs implantadas no Município de São Paulo até a data de pub",
+    "Art. 25 . A mini ERB e a ERB móvel são consideradas bens de utilidade pública, conforme disposto na Lei Federal nº 13.116, de 20"
+  ],
+  "vigencia": {
+    "inicio": "2022-03-10",
+    "fim": null,
+    "em_vigor": true,
+    "altera": [],
+    "alterada_por": [],
+    "revogada_por": null,
+    "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2022-03-10 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+  },
+  "remissoes": [
+    {
+      "norma": "DECRETO Nº 61.137",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 10.878",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 32.392",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 44.944",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 59.108",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 59.682",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei Federal nº 13.116",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei Federal nº 13.116, de 2015",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei n° 17.733, de 2022",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 13.756",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 16.050",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 16.402",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 16.402, de 2016",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 17.733",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 17.733, de 2022",
+      "relacao": "citada no texto (detectada automaticamente)"
+    }
+  ],
+  "jurisprudencia_relacionada": [],
+  "tem_tabela": true,
+  "tabelas_extraidas": [],
+  "tem_formula": false,
+  "formulas_referenciadas": [],
+  "fonte": {
+    "origem": "Portal oficial (legislacao.prefeitura.sp.gov.br)",
+    "path": "_entrada/misto/decreto-saopaulo-61137-2022.txt",
+    "url": "https://legislacao.prefeitura.sp.gov.br/decreto-61137-de-10-de-marco-de-2022",
+    "hash": "sha256:50d8ed6a62fd8cd7a8bd786ce9e3b8b9838038ef3a49532bc9dfa9ef2dcb534f",
+    "hash_nota_fonte": "sha256 do HTML bruto do portal capturado 2026-07-13",
+    "ocr": false,
+    "metodo": "VERBATIM INTEGRAL (portal oficial, texto compilado); captura portal oficial legislacao.prefeitura.sp.gov.br (container texto_compilado); promovido de _entrada/misto/",
+    "hash_alvo": "_entrada/misto/decreto-saopaulo-61137-2022.txt",
+    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior."
+  },
+  "status_pipeline": "indexado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "dominio_primario": "iptu",
+  "dominio": [
+    "iptu"
+  ]
+}

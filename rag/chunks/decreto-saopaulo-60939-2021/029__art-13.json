@@ -1,0 +1,48 @@
+{
+  "chunk_id": "decreto-saopaulo-60939-2021::029-art-13",
+  "lei_id": "decreto-saopaulo-60939-2021",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 13",
+  "numero": "13",
+  "header_raw": "Art. 13. Na transação por adesão à proposta da Procuradoria Geral do Município:(Redação dada pelo Decreto nº 62.936/2023)",
+  "caminho_hierarquico": [
+    "CAPÍTULO II-A",
+    "Art. 13"
+  ],
+  "texto": "Art. 13. Na transação por adesão à proposta da Procuradoria Geral do Município:(Redação dada pelo Decreto nº 62.936/2023)\n\nI - as propostas serão divulgadas pela Procuradoria Geral do Município, mediante editais disponibilizados em plataforma digital específica disponibilizada na rede mundial de computadores;(Incluído pelo Decreto nº 62.936/2023)\n\nII - os editais especificarão as exigências e as condições a serem cumpridas, as reduções ou concessões oferecidas, os prazos e as formas de pagamento admitidas, observados os termos, condições e parâmetros previamente estabelecidos na Lei 17.324, de 2020.(Incluído pelo Decreto nº 62.936/2023)\n\nIII - O edital estabelecerá o prazo para adesão à transação e eventual limitação de sua abrangência a créditos que se encontrem em determinadas etapas do macroprocesso tributário ou que sejam referentes a determinados períodos de competência.(Incluído pelo Decreto nº 62.936/2023)\n\n§ 1º A notificação será realizada exclusivamente por meio eletrônico, através do endereço eletrônico informado quando da adesão ou apresentação da proposta de acordo ou transação.(Revogado pelo Decreto nº 62.936/2023)\n\n§ 2º O devedor terá conhecimento das razões determinantes da rescisão e poderá regularizar o vício ou apresentar impugnação, no prazo de 30 (trinta) dias, preservada em todos os seus termos o acordo ou a transação durante esse período.(Revogado pelo Decreto nº 62.936/2023)\n\n§ 3º A impugnação deverá ser apresentada eletronicamente por meio do canal indicado na notificação pela Procuradoria Geral do Município e deverá trazer todos os elementos que infirmem as hipóteses de rescisão, facultando-se a apresentação de documentos.(Revogado pelo Decreto nº 62.936/2023)\n\n§ 4º Da decisão que apreciar a impugnação, caberá a interposição de um único recurso no prazo de 10 (dez) dias, sem efeito suspensivo.(Revogado pelo Decreto nº 62.936/2023)\n\n§ 5º Importará renúncia e o não conhecimento da impugnação e de eventual recurso interposto, a propositura, pelo interessado, de qualquer ação judicial cujo objeto coincida total ou parcialmente com a irresignação.(Revogado pelo Decreto nº 62.936/2023)\n\n§ 6º Enquanto não definitivamente julgada a impugnação à rescisão do acordo ou transação e o eventual recurso interposto em face da decisão que julgar a impugnação, o devedor deverá permanecer cumprindo todas as exigências do acordo de transação.(Revogado pelo Decreto nº 62.936/2023)\n\n§ 7º A rescisão do acordo ou da transação implicará o afastamento dos benefícios concedidos e a retomada do curso da cobrança dos créditos, deduzidos os valores pagos, com a execução das garantias prestadas e prática dos demais atos executórios do crédito, judiciais ou extrajudiciais.(Revogado pelo Decreto nº 62.936/2023)\n\nCAPÍTULO II - B\n\nDO TERMO DE AJUSTAMENTO DE CONDUTA (Incluído pelo Decreto nº 62.936/2023)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "2023",
+    "norma_redacao": "Decreto nº 62.936/2023"
+  },
+  "citacao": {
+    "norma": "decreto nº 60.939/2021 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II-A › Art. 13",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-60939-de-23-de-dezembro-de-2021",
+    "vigencia": {
+      "inicio": "2021-12-23",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2021-12-23 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "itbi"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Política Municipal de Desjudicialização instituída pela Lei nº 17.324, de 18 de março de 2020, bem como regulamenta a transação tributária de que trata os artigos 21 a 24 da Lei nº 17.719, de 26 de novembro de 2021."
+}

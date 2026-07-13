@@ -1,0 +1,48 @@
+{
+  "chunk_id": "decreto-saopaulo-61137-2022::025-art-24",
+  "lei_id": "decreto-saopaulo-61137-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 24",
+  "numero": "24",
+  "header_raw": "Art. 24. Em decorrência do previsto nos artigos 24 e 25 da Lei, as ERBs implantadas no Município de São Paulo até a data de publicação deste decreto deverão apresentar pedidos dos respectivos Alvarás de Implantação nos seguintes prazos:",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção III",
+    "Art. 24"
+  ],
+  "texto": "Art. 24. Em decorrência do previsto nos artigos 24 e 25 da Lei, as ERBs implantadas no Município de São Paulo até a data de publicação deste decreto deverão apresentar pedidos dos respectivos Alvarás de Implantação nos seguintes prazos:\n\nI - no prazo de até 2 (dois) anos, contado da data da publicação deste decreto, para aquelas que:\n\na) possuíam documento regularmente expedido nos termos da Lei nº 13.756, 16 de janeiro de 2004, ou da norma anterior vigente ao tempo da implantação;\n\nb) foram implantadas em decorrência do cumprimento de decisão judicial;\n\nII - no prazo de até 180 (cento e oitenta) dias, contado da data da publicação deste decreto, para os equipamentos que não se enquadrarem no inciso I do “caput” deste artigo.\n\n§ 1º Os requerimentos referidos no “caput” deste artigo deverão ser realizados por meio do procedimento declaratório referido no artigo 22 deste decreto.\n\n§ 2º Para o pedido de que trata este artigo deverão ser apesentados os documentos e informações previstos no artigo 17 deste decreto, acompanhada de declaração a respeito da implantação da ERB no prazo referido no “caput” deste artigo.\n\n§ 3º Os prazos previstos neste artigo não obstam ações fiscalizatórias relacionadas à segurança ou ao descumprimento da legislação federal pertinente.\n\nCAPÍTULO III\n\nDA INSTALAÇÃO DE ESTAÇÃO RÁDIO-BASE MÓVEL (ERB MÓVEL) E ESTAÇÃO RÁDIO-BASE DE PEQUENO PORTE (MINI ERB)\n\nSeção I\n\nCondições Gerais para a Instalação",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 61.137/2022 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção III › Art. 24",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-61137-de-10-de-marco-de-2022",
+    "vigencia": {
+      "inicio": "2022-03-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2022-03-10 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 17.733, de 11 de janeiro de 2022, que dispõe sobre a instalação de Estação Radio Base – ERB, Mini ERB e ERB Móvel no Município de São Paulo."
+}

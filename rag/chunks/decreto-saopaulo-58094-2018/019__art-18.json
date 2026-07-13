@@ -1,0 +1,46 @@
+{
+  "chunk_id": "decreto-saopaulo-58094-2018::019-art-18",
+  "lei_id": "decreto-saopaulo-58094-2018",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 18",
+  "numero": "18",
+  "header_raw": "Art. 18. Todas as irregularidades decorrentes da inobservância das normas estabelecidas na Lei nº 15.723, de 2013, implicam na aplicação das penalidades administrativas próprias previstas no Quadro 5 – Multas, da Lei nº 16.402, de 22 de março de 2016, Lei Federal nº 9.605, de 1998, e no Decreto nº 54.421, de 2013, que disciplinou os procedimentos de fiscalização ambiental, excetuada a penalidade relativa aos parâmetros de incomodidade, somente no caso de funcionamento regular, em razão da natureza da própria atividade.",
+  "caminho_hierarquico": [
+    "Art. 18"
+  ],
+  "texto": "Art. 18. Todas as irregularidades decorrentes da inobservância das normas estabelecidas na Lei nº 15.723, de 2013, implicam na aplicação das penalidades administrativas próprias previstas no Quadro 5 – Multas, da Lei nº 16.402, de 22 de março de 2016, Lei Federal nº 9.605, de 1998, e no Decreto nº 54.421, de 2013, que disciplinou os procedimentos de fiscalização ambiental, excetuada a penalidade relativa aos parâmetros de incomodidade, somente no caso de funcionamento regular, em razão da natureza da própria atividade.\n\nParágrafo único. Em caso de reincidência, a multa deve ser cobrada em dobro, nos termos do parágrafo único do artigo 13 da Lei nº 15.723, de 2013.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 58.094/2018 — São Paulo/SP",
+    "dispositivo": "Art. 18",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-58094-de-21-de-fevereiro-de-2018",
+    "vigencia": {
+      "inicio": "2018-02-21",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2018-02-21 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 15.723, de 24 de abril de 2013, no tocante à instalação e ao funcionamento de heliportos e helipontos no Município de São Paulo."
+}

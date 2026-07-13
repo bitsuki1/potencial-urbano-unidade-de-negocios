@@ -1,0 +1,47 @@
+{
+  "chunk_id": "decreto-saopaulo-61137-2022::003-art-2o",
+  "lei_id": "decreto-saopaulo-61137-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 2º",
+  "numero": "2",
+  "header_raw": "Art. 2º Para os efeitos deste decreto, ficam adotadas as seguintes definições:",
+  "caminho_hierarquico": [
+    "CAPÍTULO I",
+    "Art. 2º"
+  ],
+  "texto": "Art. 2º Para os efeitos deste decreto, ficam adotadas as seguintes definições:\n\nI - estação rádio-base: conjunto de instalações que comporta equipamentos de radiofrequência, destinado à transmissão de sinais de telecomunicações para a cobertura de determinada área, composto por postes, torres, mastros, antenas, contêineres e demais equipamentos necessários à operação de serviços de telecomunicações;\n\nII - estação rádio-base móvel (ERB móvel): equipamentos destinados à operação de serviços de telecomunicações de radiofrequência, destinados à transmissão de sinais de telecomunicações, de caráter perene ou transitório;\n\nIII - estação rádio-base de pequeno porte (mini ERB): conjunto de equipamentos de radiofrequência destinado a prover ou aumentar a cobertura ou capacidade de tráfego de transmissão de sinais de telecomunicações para a cobertura de determinada área, apresentando dimensões físicas reduzidas e que seja apto a atender aos critérios de baixo impacto visual, desde que observados um dos seguintes requisitos:\n\na) os equipamentos sejam ocultos em mobiliário urbano ou enterrados;\n\nb) as antenas sejam instaladas em postes de iluminação pública ou privados, com altura inferior a 25 (vinte e cinco) metros e com cabos de energia subterrâneos em estruturas de suporte de sinalização viária, camufladas ou harmonizadas em fachadas de edificações residenciais ou comerciais, ou postes multifuncionais de baixo impacto visual cujos equipamentos sejam embutidos na própria estrutura ou enterrados, ou em obras de arte;\n\nc) sua instalação não dependa da construção civil de novas infraestruturas ou instalada em edificação ou estrutura existente;\n\nd) atenda aos demais requisitos do art. 15, §1º do Decreto Federal nº 10.480, de 1º de setembro de 2020, ou da norma que venha a substituí-lo;\n\nIV - operadora: pessoa jurídica que detém a concessão, permissão ou autorização para a exploração de serviços de telecomunicações;\n\nV - detentora: pessoa física ou jurídica que detém, administra ou controla, direta ou indiretamente, a infraestrutura de suporte de ERB.\n\nVI - poste: infraestrutura vertical cônica e auto suportada, de concreto ou constituída por chapas de aço, instalada para suportar, interna ou externamente, os equipamentos da Estação Rádio Base;\n\nVII - torre: Infraestrutura vertical transversal treliçada, que pode ser do tipo auto suportada ou estaiada.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 61.137/2022 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO I › Art. 2º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-61137-de-10-de-marco-de-2022",
+    "vigencia": {
+      "inicio": "2022-03-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2022-03-10 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 17.733, de 11 de janeiro de 2022, que dispõe sobre a instalação de Estação Radio Base – ERB, Mini ERB e ERB Móvel no Município de São Paulo."
+}

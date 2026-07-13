@@ -1,0 +1,48 @@
+{
+  "chunk_id": "decreto-saopaulo-61137-2022::019-art-18",
+  "lei_id": "decreto-saopaulo-61137-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 18",
+  "numero": "18",
+  "header_raw": "Art. 18. O requerimento de renovação do Alvará de Implantação de ERB deverá ser instruído com os seguintes documentos ou informações:",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção III",
+    "Art. 18"
+  ],
+  "texto": "Art. 18. O requerimento de renovação do Alvará de Implantação de ERB deverá ser instruído com os seguintes documentos ou informações:\n\nI - indicação do número do número do último alvará ou da última renovação emitida;\n\nII - documentos que comprovem a legitimidade do representante legal da operadora, detentora, proprietário ou possuidor do imóvel ou seus procuradores, conforme o caso;\n\nIII - atestado técnico ou termo de responsabilidade técnica, emitido por profissional habilitado, quanto à adequação dos elementos estruturais da edificação, notadamente em relação às condições de estabilidade, bem como dos componentes da ERB, declarando a observância das normas técnicas em vigor;\n\nIV - atestado técnico ou termo de responsabilidade técnica, emitido por profissional habilitado declarando que a totalidade dos índices de radiação não ionizantes – RNI, considerada a soma das emissões de radiação de todos os sistemas transmissores em funcionamento com o equipamento que se pretende instalar, não supera os limites máximos de radiação estabelecidos nas normas da ANATEL;\n\nV - atestado técnico ou termo de responsabilidade técnica, emitido por profissional habilitado, de que a edificação bem como os componentes da ERB, declarando que mesma está dotada de sistema de proteção contra descargas atmosféricas – SPDA, conforme previsto na norma técnica vigente;\n\nVI - termo de responsabilidade técnica, emitido por profissional habilitado, de que a ERB mantem as mesmas condições licenciadas;\n\nVII - Anotação de Responsabilidade Técnica – ART, ou documento equivalente reconhecido pelo conselho de classe competente, do responsável pela elaboração dos documentos necessários à renovação do Alvará de Implantação.\n\nParágrafo único. A validade da documentação utilizada pelo interessado para subsidiar a apresentação dos atestados técnicos ou termos de responsabilidade técnica referidos no “caput” deste artigo deverá considerar a data de realização de cada ato ou documento, estando vedada a exigência de revalidação de documentos juridicamente perfeitos e celebrados que não possuam prazo de validade quando de eventual atividade de controle e/ou fiscalização.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 61.137/2022 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção III › Art. 18",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-61137-de-10-de-marco-de-2022",
+    "vigencia": {
+      "inicio": "2022-03-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2022-03-10 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 17.733, de 11 de janeiro de 2022, que dispõe sobre a instalação de Estação Radio Base – ERB, Mini ERB e ERB Móvel no Município de São Paulo."
+}

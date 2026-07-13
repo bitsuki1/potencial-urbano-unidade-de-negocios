@@ -1,0 +1,43 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-13776-2004::002-art-1o",
+  "lei_id": "lei-municipal-saopaulo-13776-2004",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 1º",
+  "numero": "1",
+  "header_raw": "Art. 1º - O artigo 1º da Lei nº 11.614, de 13 de julho de 1994, passa a vigorar com a seguinte redação:",
+  "caminho_hierarquico": [
+    "Art. 1º"
+  ],
+  "texto": "Art. 1º - O artigo 1º da Lei nº 11.614, de 13 de julho de 1994, passa a vigorar com a seguinte redação:\n\n\"Art. 1º - Fica isento do pagamento do Imposto Predial e Territorial Urbano, das Taxas de Conservação de Vias e Logradouros Públicos, de Limpeza Pública e de Combate a Sinistros o imóvel integrante do patrimônio de aposentado ou pensionista, bem como de beneficiário de renda mensal vitalícia paga pelo Instituto Nacional de Seguridade Social e de beneficiário do Programa de Amparo Social ao Idoso, criado pelo Ministério da Previdência e Assistência Social, ou outro programa que venha a substituí-lo.\"",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 13.776/2004 — São Paulo/SP",
+    "dispositivo": "Art. 1º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-13776-de-10-de-fevereiro-de-2004",
+    "vigencia": {
+      "inicio": "2004-02-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2004-02-10 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Altera a redação do artigo 1º da Lei nº 11.614, de 13 de julho de 1994, e dá outras providências."
+}

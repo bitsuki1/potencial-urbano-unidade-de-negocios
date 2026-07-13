@@ -1,0 +1,48 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-11154-1991::008-art-6o",
+  "lei_id": "lei-municipal-saopaulo-11154-1991",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 6º",
+  "numero": "6",
+  "header_raw": "Art. 6° - São Contribuintes do imposto:",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Art. 6º"
+  ],
+  "texto": "Art. 6° - São Contribuintes do imposto:\n\nI – os adquirentes dos bens ou direitos transmitidos;\n\nII – os cedentes, nas cessões de direitos decorrentes de compromissos de compra e venda.\n\nIII - os transmitentes, nas transmissões exclusivamente de direitos à aquisição de bens imóveis, quando o adquirente tiver como atividade preponderante a compra e venda desses bens ou direitos, a sua locação ou arrendamento mercantil.(Incluído pela Lei n° 13.402/2002)\n\nIV - os superficiários e os cedentes, nas instituições e nas cessões do direito de superfície.(Incluído pela Lei nº 14.125/2005)\n\nIV - quanto ao direito de superfície, os superficiários, na sua instituição; o proprietário, na sua extinção; e os cessionários, na sua cessão.(Redação dada pela Lei nº 17.719/2021)\n\nCAPÍTULO III\n\nDo Cálculo do Imposto",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "2021",
+    "norma_redacao": "Lei nº 17.719/2021"
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 11.154/1991 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Art. 6º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-11154-de-30-de-dezembro-de-1991",
+    "vigencia": {
+      "inicio": "1991-12-30",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 1991-12-30 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "itbi",
+    "planta_generica_valores",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o Imposto sobre Transmissão “inter vivos”, a qualquer título por ato oneroso, de bens imóveis, por natureza ou acessão física, e de direitos reais sobre imóveis, exceto os de garantia, bem como cessão de direitos à sua aquisição, e dá outras providências."
+}

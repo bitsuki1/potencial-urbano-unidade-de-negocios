@@ -1,0 +1,46 @@
+{
+  "chunk_id": "decreto-saopaulo-60939-2021::022-art-10-a",
+  "lei_id": "decreto-saopaulo-60939-2021",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 10-A",
+  "numero": "10-A",
+  "header_raw": "Art. 10-A As transigências referidas no art. 10 deste decreto serão fixadas pelo Procurador Geral do Município:(Incluído pelo Decreto nº 62.936/2023)",
+  "caminho_hierarquico": [
+    "CAPÍTULO II-A",
+    "Art. 10-A"
+  ],
+  "texto": "Art. 10-A As transigências referidas no art. 10 deste decreto serão fixadas pelo Procurador Geral do Município:(Incluído pelo Decreto nº 62.936/2023)\n\nI - nos editais de transação por adesão, a partir de estudos técnicos;(Incluído pelo Decreto nº 62.936/2023)\n\nII - nas propostas individuais de transação propostas pela Procuradoria Geral do Município;(Incluído pelo Decreto nº 62.936/2023)\n\nIII - no ato que decidir sobre propostas individuais propostas por devedores.(Incluído pelo Decreto nº 62.936/2023)\n\nParágrafo único. A fixação dos descontos, prazos e formas de pagamento especiais e as condições de parcelamento observarão critérios preferencialmente objetivos, considerados isolada ou cumulativamente, dentre os quais, exemplificativamente, os seguintes:(Incluído pelo Decreto nº 62.936/2023)\n\nI - grau de recuperabilidade das dívidas;(Incluído pelo Decreto nº 62.936/2023)\n\nII - temporalidade das dívidas;(Incluído pelo Decreto nº 62.936/2023)\n\nIII - existência e grau de liquidez de garantias;(Incluído pelo Decreto nº 62.936/2023)\n\nV - capacidade contributiva do devedor;(Incluído pelo Decreto nº 62.936/2023)\n\nVI - probabilidade de êxito em demandas judiciais;(Incluído pelo Decreto nº 62.936/2023)\n\nVII - frustração dos meios ordinários e convencionais de cobrança;(Incluído pelo Decreto nº 62.936/2023)\n\nVIII - custos envolvidos na cobrança judicial.(Incluído pelo Decreto nº 62.936/2023)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 60.939/2021 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II-A › Art. 10-A",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-60939-de-23-de-dezembro-de-2021",
+    "vigencia": {
+      "inicio": "2021-12-23",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2021-12-23 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "itbi"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Política Municipal de Desjudicialização instituída pela Lei nº 17.324, de 18 de março de 2020, bem como regulamenta a transação tributária de que trata os artigos 21 a 24 da Lei nº 17.719, de 26 de novembro de 2021."
+}

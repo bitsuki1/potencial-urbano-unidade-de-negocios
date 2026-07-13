@@ -1,0 +1,46 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-11154-1991::004-art-3o",
+  "lei_id": "lei-municipal-saopaulo-11154-1991",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 3º",
+  "numero": "3",
+  "header_raw": "Art. 3° - O imposto não incide:",
+  "caminho_hierarquico": [
+    "CAPÍTULO I",
+    "Art. 3º"
+  ],
+  "texto": "Art. 3° - O imposto não incide:\n\nI – no mandato em causa própria ou com poderes equivalentes e seu substabelecimento, quando outorgado para o mandatário receber a escritura definitiva do imóvel;\n\nII – sobre a transmissão de bem imóvel, quando este voltar ao domínio do antigo proprietário por força de retrovenda, de retrocessão ou pacto de melhor comprador;\n\nIII – sobre a transmissão de bens ou direitos incorporados ao patrimônio de pessoas jurídicas em realização de capital;\n\nIV – sobre a transmissão de bens ou direitos aos mesmos alienantes, em decorrência de sua desincorporação do patrimônio da pessoa jurídica a que foram conferidos;\n\nV – sobre a transmissão de bens ou direitos decorrentes de fusão, incorporação, cisão ou extinção da pessoa jurídica.\n\nVI - sobre a constituição e a resolução da propriedade fiduciária de coisa imóvel, prevista na Lei Federal nº 9.514, de 20 de novembro de 1997 (Incluído pela Lei n° 13.402/2002)\n\nParágrafo único. Quanto à resolução da propriedade fiduciária de coisa imóvel, a não incidência descrita no inciso VI do caput deste artigo só se aplica quando a consolidação da propriedade plena ocorrer a favor do devedor fiduciante em virtude do adimplemento da dívida garantida por alienação fiduciária.(Incluído pela Lei nº 17.719/2021)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 11.154/1991 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO I › Art. 3º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-11154-de-30-de-dezembro-de-1991",
+    "vigencia": {
+      "inicio": "1991-12-30",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 1991-12-30 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "itbi",
+    "planta_generica_valores",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o Imposto sobre Transmissão “inter vivos”, a qualquer título por ato oneroso, de bens imóveis, por natureza ou acessão física, e de direitos reais sobre imóveis, exceto os de garantia, bem como cessão de direitos à sua aquisição, e dá outras providências."
+}
