@@ -131,7 +131,7 @@ def extrair_texto(nome, ext, mime, data):
         try:
             from pdf2image import convert_from_bytes
             import pytesseract
-            imgs = convert_from_bytes(data, dpi=150, first_page=1, last_page=1)
+            imgs = convert_from_bytes(data, dpi=110, first_page=1, last_page=1)
             ocr = pytesseract.image_to_string(imgs[0], lang="por") if imgs else ""
             return (ocr, "ocr_pdf") if ocr.strip() else ("", "sem_texto")
         except Exception:
@@ -246,7 +246,7 @@ def classificar_llm(nome, texto):
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{modelo}:generateContent?key={key}"
         try:
             req = urllib.request.Request(url, data=body, headers={"Content-Type": "application/json"})
-            with urllib.request.urlopen(req, timeout=90) as r:
+            with urllib.request.urlopen(req, timeout=30) as r:
                 out = json.loads(r.read())
             txt = out["candidates"][0]["content"]["parts"][0]["text"]
             m = re.search(r"\{.*\}", txt, re.S)
