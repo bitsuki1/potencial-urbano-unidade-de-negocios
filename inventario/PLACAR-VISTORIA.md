@@ -7,21 +7,37 @@
 ## Placar — 33.138 arquivos abertos e classificados (após a revisão do orquestrador)
 | Classe | Qtd | % | O que é / destino |
 |---|---:|---:|---|
-| **OFICIAL** | 10.673 | 32,2% | fonte oficial auditável → corpus (02/03/05). É o **teto**; a ingestão ainda re-verifica cada um contra a fonte (hash+verbatim+vigência) antes de citar. |
+| **OFICIAL** | 7.465 | 22,5% | fonte oficial auditável → corpus (02/03/05). É o **teto**; a ingestão ainda re-verifica cada um contra a fonte (hash+verbatim+vigência) antes de citar. |
 | **ILEGÍVEL** | 12.845 | 38,8% | aberto, sem conteúdo legível — **96% são PNG que NÓS extraímos** → material-bruto (90). |
-| **CRIADO** | 7.272 | 21,9% | gerado/derivado por nós (inclui 4.162 fragmentos SILVER reclassificados) → só ideia (90), **NÃO usar como fonte**. |
+| **CRIADO** | 10.480 | 31,6% | gerado/derivado por nós (inclui 4.162 fragmentos SILVER + 3.208 .md/.json de camada nossa) → só ideia (90), **NÃO usar como fonte**. |
 | **NÃO-OFICIAL-EXTERNO** | 2.348 | 7,1% | base de terceiro (externa) → usável no comercial (06) / apoio. |
 
 **Comercial (flag bruto): 6.159** (ruidoso — ver §06). A fração de baixa confiança (780) foi revisada à mão.
 
 ## Revisão do orquestrador (onde precisa de julgamento — feita à mão, sem sub-agente)
-- **4.162 "OFICIAL" → CRIADO (correção):** o classificador marcou oficial vários **fragmentos que NÓS extraímos**
+- **4.162 "OFICIAL" → CRIADO (1ª correção):** o classificador marcou oficial vários **fragmentos que NÓS extraímos**
   (SILVER: "QUADRO_X_FINAL_Pagina_Y_Tabela", "_Pag_N_Img", "_IA.csv", "LOTES_Parte_*_IA"). O conteúdo é oficial,
   mas a **proveniência é CRIADA** → não são fonte citável (auditabilidade). Corrigido no de-para (confianca=revisado).
+- **3.208 ".md/.json OFICIAL → CRIADO (2ª correção — item 2):** ao re-verificar o OFICIAL contra a fonte, cada
+  `.md`/`.json` marcado oficial carregava, na própria evidência, marcas da **nossa camada** ("layer: SILVER",
+  "chunk_id", "Trabalhe apenas com os fatos extraídos"). São saídas do NOSSO pipeline (extração/chunk), não a norma
+  original → **CRIADO**. Isso derrubou o OFICIAL de 10.673 → **7.465** (o teto auditável verdadeiro).
 - **LOTES_Parte_*_IA:** confirmado **CRIADO** (D-DONO-4: proibido como fonte, substituído pelos SIRGAS oficiais).
-- **Lei 18.298/2025** apareceu como OFICIAL (extração vazia) — é o **gap conhecido** do corpus; vale ingerir do portal.
-- **OFICIAL restante (10.673)** é o TETO do corpus auditável — ainda contém fragmentos nossos não pegos pelo padrão de nome;
-  a ingestão deve re-verificar cada candidato contra a fonte original antes de virar `leis/` citável.
+- **OFICIAL restante (7.465)** é o TETO do corpus auditável (majoritariamente **PDF** de portal oficial — masthead
+  "PREFEITURA DO MUNICÍPIO", "Catálogo de Legislação"). A ingestão re-verifica cada um contra a fonte antes de citar.
+
+## Fila de ingestão (item 2 — cruzamento OFICIAL-pdf × corpus `leis/`)
+> Determinístico (`scripts/gerar_fila_ingestao.py`, sem LLM — triagem, Parte 3 etapa 2). Extrai o nº da norma do
+> conteúdo dos **OFICIAL-pdf**, descarta o que já existe em `leis/` (36 números ingeridos) e enfileira o que falta.
+> Saída: `inventario/drive-pu/FILA-INGESTAO-OFICIAL.csv` (nº · ano · ocorrências · melhor `drive_id` p/ puxar).
+
+- **70 normas** distintas detectadas nos OFICIAL-pdf · **16** já no corpus · **54 FALTANTES** enfileiradas.
+- **Lei 18.298/2025** (Revisão do PDE) — o **gap conhecido**: confirmado presente como fonte OFICIAL (drive) e AUSENTE
+  do corpus. Entra na fila.
+- Destaques faltantes (por ocorrências): Decreto 63.504/2024 · Lei 10.257/2001 (Estatuto da Cidade, federal) ·
+  Lei 18.177/2024 · Decreto 58.955/2019 · Lei 17.104/2019 · Lei 15.150/2010 · série de decretos regulamentares 2016–2025.
+- **Gate (Parte 1.6/1.7):** a fila só APONTA; nenhuma vira `leis/` sem re-verificação verbatim + vigência + hash da fonte.
+  Ingestão espera o **"pode"** do MOU (é escrita no corpus citável).
 
 ## ILEGÍVEL por extensão (prova: é imagem que NÓS extraímos, não fonte perdida)
 | ext | qtd |
@@ -48,6 +64,12 @@
 Qualquer `drive_id` no `PROVENIENCIA-DE-PARA.csv` mostra `classe`, `metodo` (texto_nativo/ocr/planilha/shape/llm),
 `confianca` e `evidencia_conteudo` = o **trecho real** que decidiu. Classe sem evidência = erro sinalizado.
 
-## Próximo passo (depende do MOU)
-Separar o **06 — Comercial** (as 43 bases) é uma MOVIMENTAÇÃO no Drive → espera o seu **"pode mover"** (com ensaio antes).
-Depois: mover CRIADO+ILEGÍVEL→90, re-verificar os OFICIAL contra a fonte antes de ingerir no corpus.
+## Estado (o que já foi FEITO)
+- ✅ **06 — Comercial** separado: 43 bases de achar-proprietário movidas (run 29245816119, 0 erros).
+- ✅ **90 — Material bruto**: 522 CRIADO/imagens movidos (ensaio 522 → move real DRY_RUN=false).
+- ✅ **Item 2** (re-verificar OFICIAL): 3.208 .md/.json corrigidos p/ CRIADO; OFICIAL real = 7.465; **fila de 54 normas faltantes** gerada.
+
+## Próximo passo (depende do "pode" do MOU — é escrita no corpus)
+Ingerir da fila `FILA-INGESTAO-OFICIAL.csv` (começando por TDC + o gap Lei 18.298/2025), cada norma re-verificada
+verbatim + vigência + hash contra a fonte antes de virar `leis/` citável. Os **49 ILEGÍVEL** em HOLD
+(`HOLD-ILEGIVEL-RECHECAR.csv`, pdf/xlsx/ods) aguardam re-extração dedicada.
