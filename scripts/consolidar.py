@@ -114,8 +114,12 @@ def enumerar_nao_corpus():
                                f"{conta('tabelas')} tabela(s) no git (Q14 valor-terreno, Quadro 3 CA/zona, "
                                "Quadro 5 Fs, Quadro 7 parques, Fi-área LPUOS Art.24) — combustível do engine "
                                "PRESENTE; derivado dos arquivos, não hardcoded")},
-        "tese_iptu": {"arquivos": conta("tese/iptu"), "status": "vazio"},
-        "tese_tdc": {"arquivos": conta("tese/tdc"), "status": "vazio"},
+        "tese_iptu": {"arquivos": conta("tese/iptu"),
+                      "status": "vazio" if conta("tese/iptu") == 0 else f"{conta('tese/iptu')} tese(s)"},
+        "tese_tdc": {"arquivos": conta("tese/tdc"),
+                     "status": ("vazio" if conta("tese/tdc") == 0 else
+                                f"{conta('tese/tdc')} tese(s) individual(is); mestre regenerado (1.5). "
+                                "Teses sob ritmo D-13 (escrutínio do MOU uma a uma).")},
         "extracao_gems": {"arquivos": conta("extracao/gems"),
                           "status": "material de gens (prosa); material IRRF/Tema 1130 removido em 2026-06-20 (AUD-04)"},
     }

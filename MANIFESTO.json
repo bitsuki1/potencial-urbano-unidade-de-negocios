@@ -1,6 +1,6 @@
 {
   "_doc": "Fonte da verdade do status_pipeline de cada item. GERADO por scripts/consolidar.py a partir dos .json individuais — NAO editar a mao (Principio 1.5/2.3 do CLAUDE.md). Roda a cada push via .github/workflows/consolidar.yml.",
-  "gerado_em": "2026-07-13T16:30:47.043303+00:00",
+  "gerado_em": "2026-07-13T23:53:12.473101+00:00",
   "vocabulario_status": [
     "bruto",
     "fatiado",
@@ -72,8 +72,8 @@
       "status": "vazio"
     },
     "tese_tdc": {
-      "arquivos": 0,
-      "status": "vazio"
+      "arquivos": 1,
+      "status": "1 tese(s) individual(is); mestre regenerado (1.5). Teses sob ritmo D-13 (escrutínio do MOU uma a uma)."
     },
     "extracao_gems": {
       "arquivos": 8,
