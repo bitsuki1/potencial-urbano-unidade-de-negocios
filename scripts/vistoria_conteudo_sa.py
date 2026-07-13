@@ -28,6 +28,7 @@ import json
 import time
 import hashlib
 import io
+import subprocess
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parents[1]
@@ -271,6 +272,31 @@ def classificar_llm(nome, texto):
     return None
 
 
+def _git_checkpoint():
+    """Commita+push o CSV do shard PARCIAL (a cada N arquivos) para não perder o trabalho se o job for
+    cortado (cancelamento de 90min). Só roda se GIT_CHECKPOINT=1. Rebase-retry (shards distintos = sem conflito)."""
+    if os.environ.get("GIT_CHECKPOINT", "").strip() != "1":
+        return
+    branch = os.environ.get("BRANCH", "").strip()
+    if not branch:
+        return
+    def run(*a):
+        return subprocess.run(a, cwd=str(RAIZ), capture_output=True, text=True)
+    run("git", "config", "user.name", "vistoria-bot")
+    run("git", "config", "user.email", "contato@bitsuki.com.br")
+    run("git", "add", str(OUT))
+    if run("git", "diff", "--cached", "--quiet").returncode == 0:
+        return                                   # nada novo a gravar
+    run("git", "commit", "-q", "-m", f"Vistoria: checkpoint shard {SHARD} (parcial)")
+    for i in range(5):
+        run("git", "pull", "--rebase", "-X", "ours", "origin", branch)
+        if run("git", "push", "origin", f"HEAD:{branch}").returncode == 0:
+            print(f"  [checkpoint] shard {SHARD} salvo no git", flush=True)
+            return
+        time.sleep(3 * (i + 1))
+    print(f"  [checkpoint] push falhou (segue local; próximo checkpoint tenta de novo)", flush=True)
+
+
 def carregar_fila():
     fila = []
     with open(CATALOGO, encoding="utf-8") as f:
@@ -343,8 +369,14 @@ def main():
         n += 1
         if n % 100 == 0:
             fh.flush()
-            print(f"  ... {n}/{len(fila)}  {dict(cont)}  llm={llm_ok}")
+            print(f"  ... {n}/{len(fila)}  {dict(cont)}  llm={llm_ok}", flush=True)
+        if n % 300 == 0:                          # CHECKPOINT: grava o parcial no git (anti-perda em corte)
+            fh.flush(); os.fsync(fh.fileno()); fh.close()
+            _git_checkpoint()
+            fh = open(OUT, "a", encoding="utf-8", newline="")
+            w = csv.DictWriter(fh, fieldnames=COLS)
     fh.close()
+    _git_checkpoint()
     print(f"=== FIM shard {SHARD} === abertos={n}  classes={dict(cont)}  llm_resolvidos={llm_ok}  saida={OUT.name}")
 
 

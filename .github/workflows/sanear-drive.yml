@@ -49,6 +49,8 @@ jobs:
           NSHARDS: ${{ inputs.nshards }}
           SHARD: ${{ inputs.shard }}
           LIMIT: ${{ inputs.limit }}
+          GIT_CHECKPOINT: "1"
+          BRANCH: ${{ github.ref_name }}
         run: python3 scripts/vistoria_conteudo_sa.py
       - name: Amostra do resultado (para inspeção no log)
         run: |
