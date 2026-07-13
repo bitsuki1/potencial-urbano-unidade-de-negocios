@@ -14,11 +14,11 @@ on:
         type: choice
         options: ["true", "false"]
       acao:
-        description: "arrumar = move pelo de-para; selo = só PROVA o topo (read-only)."
+        description: "arrumar = de-para geral; selo = prova o topo (read-only); comercial = move o 06."
         required: true
         default: "arrumar"
         type: choice
-        options: ["arrumar", "selo"]
+        options: ["arrumar", "selo", "comercial"]
 
 permissions:
   contents: read
@@ -44,6 +44,8 @@ jobs:
         run: |
           if [ "${{ inputs.acao }}" = "selo" ]; then
             python3 scripts/selo_arrumacao_sa.py
+          elif [ "${{ inputs.acao }}" = "comercial" ]; then
+            python3 scripts/mover_06_comercial_sa.py
           else
             python3 scripts/mover_por_destino_sa.py
           fi
