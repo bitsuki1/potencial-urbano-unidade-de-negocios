@@ -1,0 +1,48 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-18330-2025::006-art-5o",
+  "lei_id": "lei-municipal-saopaulo-18330-2025",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 5º",
+  "numero": "5",
+  "header_raw": "Art. 5º A Lei nº 17.719, de 26 de novembro de 2021, passa a vigorar acrescida do art. 34-C e com nova redação aos arts. 26 e 36, na seguinte conformidade:",
+  "caminho_hierarquico": [
+    "Art. 5º"
+  ],
+  "texto": "Art. 5º A Lei nº 17.719, de 26 de novembro de 2021, passa a vigorar acrescida do art. 34-C e com nova redação aos arts. 26 e 36, na seguinte conformidade:\n\n“Art. 34-C. A partir do exercício de 2026, inclusive, os recursos do FEMATF poderão ser utilizados para financiar integralmente todas as despesas da Secretaria Municipal da Fazenda, independentemente de sua natureza, inclusive despesas de caráter corrente e investimento, observadas as disposições pertinentes desta Lei e da legislação de finanças públicas.\n\nParágrafo único. Excetuam-se da autorização de que trata o caput deste artigo as despesas com remuneração de pessoal e aquelas decorrentes do pagamento de Auxílio Refeição, Vale-Alimentação e Auxílio-Transporte em pecúnia, respectivamente instituídos pelas Leis nº 12.858, de 18 de junho de 1999; nº 13.598, de 5 de junho de 2003; e nº 13.194, de 24 de outubro de 2001.” (NR)\n\n“Art. 26. Vedada a restituição a qualquer título de valores já recolhidos, ficam remitidos os créditos tributários de IPTU, constituídos ou a constituir, bem como anistiadas quaisquer multas por descumprimento à legislação do referido imposto, já lançadas ou a lançar, em face da Companhia de Desenvolvimento Habitacional e Urbano do Estado de São Paulo – CDHU e da Companhia Metropolitana de Habitação de São Paulo – COHAB, relativos a fatos geradores ocorridos até a data de entrada em vigor desta Lei.\n\nParágrafo único. A remissão de que trata este artigo independerá de qualquer requerimento e será concedida de ofício pela unidade responsável pela gestão do Cadastro Imobiliário Fiscal – CIF, desde que cumpridas as demais obrigações acessórias a que estão sujeitas.” (NR)\n\n“Art. 36. ......................................................................................\n\n....................................................................................................\n\nI - 0,57% (cinquenta e sete centésimos de um por cento) do produto da arrecadação dos impostos de competência do Município, inclusive dos valores arrecadados ou recebidos pelo Município em decorrência das disposições do art. 156-A da Constituição Federal e dos arts. 124 a 132 do Ato das Disposições Constitucionais Transitórias;\n\n....................................................................................................\n\n§ 2º O superávit financeiro acumulado do FEMATF, apurado em balanço, que superar em 20% (vinte por cento) as despesas devidamente empenhadas no Fundo no exercício anterior, será transferido, até o encerramento do exercício seguinte, à conta única do Tesouro Municipal. ” (NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 18.330/2025 — São Paulo/SP",
+    "dispositivo": "Art. 5º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-18330-de-11-de-novembro-de-2025",
+    "vigencia": {
+      "inicio": "2026-01-01",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "PGV vigente para o exercicio 2026 (efeitos a partir de 01/01/2026): atualiza a Tabela VI (construcao) e a listagem de valores de terreno da Lei 10.235/1986 (Anexos I/II) e as FAIXAS DE ISENCAO do Imposto Predial (Art. 2: isento ate R$ 150.000 de valor venal; residencial padroes A/B/C ate R$ 260.000) e descontos (Art. 3). Sucede a Lei 17.719/2021 (revogou dispositivo dela). Os VALORES estao nos Anexos I/II (input de engine); as FAIXAS DE ISENCAO (R$ 150k/260k) sao numeros da propria lei, citaveis (1.3/1.7)."
+    }
+  },
+  "tema": [
+    "planta_generica_valores",
+    "valor_venal",
+    "imposto_predial",
+    "isencao_iptu",
+    "desconto_iptu",
+    "construcao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre Planta Genérica de Valores, altera a legislação tributária municipal, e dá outras providências."
+}
