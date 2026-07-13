@@ -1,0 +1,54 @@
+{
+  "chunk_id": "decreto-saopaulo-63504-2024::005-art-4o",
+  "lei_id": "decreto-saopaulo-63504-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 4º",
+  "numero": "4",
+  "header_raw": "Art. 4º Para fins de atendimento da cota parte máxima de terreno por unidade habitacional – Q, do projeto serão consideradas todas as unidades residenciais, resultantes da área construída computável residencial total pretendida no empreendimento, observadas as seguintes disposições:",
+  "caminho_hierarquico": [
+    "CAPÍTULO I",
+    "SEÇÃO II",
+    "Art. 4º"
+  ],
+  "texto": "Art. 4º Para fins de atendimento da cota parte máxima de terreno por unidade habitacional – Q, do projeto serão consideradas todas as unidades residenciais, resultantes da área construída computável residencial total pretendida no empreendimento, observadas as seguintes disposições:\n\nI - A cota parte máxima de terreno por unidade habitacional – Q, será calculada segundo a seguinte equação:\n\nQ = (Cau x At) / (CAmax x N), onde:\n\nN – número de unidades que compõem a área construída computável residencial total pretendida no projeto;\n\nCAu – coeficiente de aproveitamento utilizado no projeto, incluindo as áreas advindas de incentivos de aumento de potencial construtivo;\n\nCAmax – coeficiente de aproveitamento máximo do Quadro 3 da LPUOS;\n\nAt – área do terreno;\n\nQ – cota parte máxima de terreno por unidade habitacional;\n\nII - As unidades residenciais não computáveis oriundas da aplicação dos benefícios previstos na alínea “e” do artigo 60, no § 4º do artigo 80 e no § 1º do artigo 112, todos do PDE, não são consideradas para fins de atendimento da cota parte máxima de terreno por unidade habitacional;\n\nIII - Para atendimento da cota parte máxima de terreno por unidade, quando o projeto incluir unidades habitacionais advindas de incentivos de aumento de potencial construtivo adicional, das unidades computáveis advindas do incentivo do artigo 60 do PDE, serão consideradas apenas aquelas que apresentarem área computável privativa igual ou maior a 30m² (trinta metros quadrados), e serão consideradas as unidades computáveis com qualquer metragem advindas do incentivo do artigo 112 do PDE;\n\nIV - as unidades cuja área construída seja parcialmente formada por área não computável, nos termos do inciso II desse artigo, serão desconsideradas para fins de atendimento à cota parte máxima do projeto.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 63.504/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO I › SEÇÃO II › Art. 4º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-63504-de-14-de-junho-de-2024",
+    "vigencia": {
+      "inicio": "2024-06-14",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Regime GERAL da Outorga Onerosa do Direito de Construir (OODC), regulamentando o art. 117 do PDE (Lei 16.050/2014, red. Lei 17.975/2023) e a LPUOS (Lei 16.402/2016, red. Lei 18.081/2024). Em vigor desde 14/06/2024; sem auto-revogacao/suspensao. NAO se aplica dentro de OUC (leis proprias) nem, salvo no que couber, em AIU. Fonte-norma da formula C=(At/Ac)·V·Fp·Fs auditada nos engines."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "plano_intervencao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao",
+    "habitacao_interesse_social",
+    "potencial_construtivo"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Outorga Onerosa do Direito de Construir, nos termos da Lei nº 16.050, de 31 de julho de 2014, alterada pela Lei nº 17.975, de 8 de julho de 2023, e da Lei nº 16.402, de 22 de março de 2016, alterada pela Lei nº 18.081, de 19 de janeiro de 2024, e dá outras providências."
+}

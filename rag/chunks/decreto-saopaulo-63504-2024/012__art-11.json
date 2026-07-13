@@ -1,0 +1,54 @@
+{
+  "chunk_id": "decreto-saopaulo-63504-2024::012-art-11",
+  "lei_id": "decreto-saopaulo-63504-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 11",
+  "numero": "11",
+  "header_raw": "Art. 11. Qualquer alteração, mesmo que parcial, no Fp ou no Fs em relação ao projeto anteriormente licenciado, nos pedidos de reforma ou de projeto modificativo de edificação que tenha sido objeto de pagamento da contrapartida financeira relativa à OODC ou que teve benefícios de leis específicas, fica sujeita à análise e à aprovação do órgão competente pelo licenciamento através de novo pedido, condicionada ao pagamento de eventuais diferenças no valor da referida contrapartida.",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "SEÇÃO I",
+    "Art. 11"
+  ],
+  "texto": "Art. 11. Qualquer alteração, mesmo que parcial, no Fp ou no Fs em relação ao projeto anteriormente licenciado, nos pedidos de reforma ou de projeto modificativo de edificação que tenha sido objeto de pagamento da contrapartida financeira relativa à OODC ou que teve benefícios de leis específicas, fica sujeita à análise e à aprovação do órgão competente pelo licenciamento através de novo pedido, condicionada ao pagamento de eventuais diferenças no valor da referida contrapartida.\n\nParágrafo único. Para fins de aplicação do disposto no “caput” e no inciso VI do artigo 8º da Lei nº 18.081, de 2024, consideram-se como leis específicas aquelas, em vigor ou já revogadas, que implicaram em aumento da área construída total permitida pela legislação ordinária vigente no período da construção, através de benefícios de coeficiente de aproveitamento máximo ou de área não computável, tais como:\n\nI – Lei nº 7.288, de 2 de abril de 1969, com o acréscimo trazido pela Lei nº 7.821, de 1972, Plano de alargamento da Avenida Paulista;\n\nII – Lei nº 8.006, de 8 de janeiro de 1974, Lei de Hotéis;\n\nIII – Lei nº 8.076, de 26 de junho de 1974, Lei de Hospitais;\n\nIV – Lei nº 8.211, de 6 de março de 1975, Lei de Escolas;\n\nV – Lei nº 11.536, de 23 de maio de 1994, alterada pela Lei nº 13.703, de 30 de dezembro de 2003, Lei de Teatros;\n\nVI – Lei nº 14.242, de 28 de novembro de 2006, Lei de Hospitais;\n\nVII – Lei nº 15.526, de 12 de janeiro de 2012, Lei de Escolas e Hospitais.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 63.504/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › SEÇÃO I › Art. 11",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-63504-de-14-de-junho-de-2024",
+    "vigencia": {
+      "inicio": "2024-06-14",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Regime GERAL da Outorga Onerosa do Direito de Construir (OODC), regulamentando o art. 117 do PDE (Lei 16.050/2014, red. Lei 17.975/2023) e a LPUOS (Lei 16.402/2016, red. Lei 18.081/2024). Em vigor desde 14/06/2024; sem auto-revogacao/suspensao. NAO se aplica dentro de OUC (leis proprias) nem, salvo no que couber, em AIU. Fonte-norma da formula C=(At/Ac)·V·Fp·Fs auditada nos engines."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "plano_intervencao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao",
+    "habitacao_interesse_social",
+    "potencial_construtivo"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Outorga Onerosa do Direito de Construir, nos termos da Lei nº 16.050, de 31 de julho de 2014, alterada pela Lei nº 17.975, de 8 de julho de 2023, e da Lei nº 16.402, de 22 de março de 2016, alterada pela Lei nº 18.081, de 19 de janeiro de 2024, e dá outras providências."
+}

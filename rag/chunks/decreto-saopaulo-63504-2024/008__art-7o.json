@@ -1,0 +1,54 @@
+{
+  "chunk_id": "decreto-saopaulo-63504-2024::008-art-7o",
+  "lei_id": "decreto-saopaulo-63504-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 7º",
+  "numero": "7",
+  "header_raw": "Art. 7º A contrapartida financeira total relativa à OODC deverá ser calculada pelo somatório do produto da contrapartida financeira por metro quadrado -”C” e o potencial construtivo adicional a ser adquirido para cada tipologia.",
+  "caminho_hierarquico": [
+    "CAPÍTULO I",
+    "SEÇÃO IV",
+    "Art. 7º"
+  ],
+  "texto": "Art. 7º A contrapartida financeira total relativa à OODC deverá ser calculada pelo somatório do produto da contrapartida financeira por metro quadrado -”C” e o potencial construtivo adicional a ser adquirido para cada tipologia.\n\n§ 1º A contrapartida financeira total relativa à OODC deverá ser truncada na segunda casa decimal com arredondamento para cima de 1 (um) centavo, sempre que constar valor diferente de zero, a partir da terceira casa decimal.\n\n§ 2º O cálculo da contrapartida financeira relativa à OODC será acrescido 5% (cinco por cento) sobre a área computável a regularizar, nos termos do § 2º do artigo 115 e do § 8º do artigo 117, ambos do PDE.\n\n§ 3º Ao cálculo da contrapartida financeira relativa à OODC, aplicam-se os seguintes descontos:\n\nI - Quando houver doação de área para alargamento do passeio público ou para execução de melhoramentos públicos em ZEU, ZEUa, ZEUP, ZEUPa, ZEM e ZEMP, não será cobrada a contrapartida relativa à OODC referente ao potencial construtivo máximo calculado a partir do coeficiente de aproveitamento máximo estabelecido no Quadro 3 anexo da LPUOS, correspondente à área doada, nos termos do artigo 81 e dos §§ 7º e 8º do artigo 79, todos do PDE, aplicados conjuntamente com o inciso I do artigo 67 da LPUOS;\n\nII – Para lotes com área até 10.000m² (dez mil metros quadrados) localizados em ZEU, ZEUa, ZEUP, ZEUPa, ZEM, ZEMP, ZC e ZCa, que destinarem área à fruição pública, não será cobrada contrapartida financeira relativa à OODC correspondente à metade do potencial construtivo adicional calculado a partir do coeficiente de aproveitamento máximo estabelecido no Quadro 3, nos termos do artigo 88, ambos da LPUOS;\n\nIII – Para lotes em qualquer zona de uso, nos termos do artigo 82-A do PDE, e do artigo 5º da Lei nº 18.081, de 2024, não será cobrada a contrapartida financeira relativa à OODC para a área correspondente à metade do potencial construtivo adicional calculado a partir do coeficiente de aproveitamento máximo estabelecido no Quadro 3 anexo à LPUOS, relativo à área destinada à praça pública;\n\nIV – Para os empreendimentos que obtiverem o Incentivo da Quota Ambiental ou o Incentivo de Certificação, nos termos dos artigos 82 e 83 da LPUOS, serão descontados do valor total da contrapartida financeira os valores relativos aos referidos incentivos;\n\nV – Para os casos de reserva de área não edificável para alargamento do passeio público prevista no artigo 67 da LPUOS, não se aplicam descontos na contrapartida financeira relativa à OODC.\n\nCAPÍTULO II\n\nPROCEDIMENTOS PARA ANÁLISE DE PROJETOS SUJEITOS À OODC E COBRANÇA DA CONTRAPARTIDA FINANCEIRA RELATIVA À OODC",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 63.504/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO I › SEÇÃO IV › Art. 7º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-63504-de-14-de-junho-de-2024",
+    "vigencia": {
+      "inicio": "2024-06-14",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Regime GERAL da Outorga Onerosa do Direito de Construir (OODC), regulamentando o art. 117 do PDE (Lei 16.050/2014, red. Lei 17.975/2023) e a LPUOS (Lei 16.402/2016, red. Lei 18.081/2024). Em vigor desde 14/06/2024; sem auto-revogacao/suspensao. NAO se aplica dentro de OUC (leis proprias) nem, salvo no que couber, em AIU. Fonte-norma da formula C=(At/Ac)·V·Fp·Fs auditada nos engines."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "plano_intervencao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao",
+    "habitacao_interesse_social",
+    "potencial_construtivo"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Outorga Onerosa do Direito de Construir, nos termos da Lei nº 16.050, de 31 de julho de 2014, alterada pela Lei nº 17.975, de 8 de julho de 2023, e da Lei nº 16.402, de 22 de março de 2016, alterada pela Lei nº 18.081, de 19 de janeiro de 2024, e dá outras providências."
+}

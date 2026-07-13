@@ -107,6 +107,9 @@ TDC = {
     "lei-municipal-saopaulo-17734-2022": "Regulamenta procedimentos urbanísticos (uso/ocupação/potencial) no Município. Efeito TDC/urbanístico.",
     "lei-municipal-saopaulo-18209-2024": "Altera o mapa 2 (art. 383 da LPUOS 16.402/2016) — zoneamento/potencial. Efeito TDC/urbanístico.",
     "decreto-saopaulo-63728-2024": "Estabelece disciplina de parcelamento, uso e ocupação do solo — parâmetros urbanísticos/potencial. TDC.",
+    "decreto-saopaulo-63504-2024": "Regime GERAL da Outorga Onerosa do Direito de Construir (OODC) — regulamenta o art. 117 do PDE; fonte-norma da fórmula C=(At/Ac)·V·Fp·Fs dos engines. TDC puro.",
+    "decreto-saopaulo-64884-2025": "Atualiza o Quadro 14 (+7,18%, exercício 2026) e o incentivo de TDC p/ parques (R$ 2.352,06/m²). Fecha a série vintage do engine. TDC/outorga.",
+    "lei-municipal-saopaulo-18177-2024": "Lei urbanística municipal (uso/ocupação/potencial) ingerida do portal 2026-07-13. Efeito TDC/urbanístico.",
     # (mais massa normativa TDC — decretos ZEPEC/CONPRESP — entra quando ingerida; ver A-11)
     # --- Jurisprudência de TDC ingerida 2026-07-11 (B-21): efeito dominante é TDC (tombamento ×
     #     potencial construtivo; natureza compensatória; direito de protocolo; base do "solo criado"),

@@ -1,0 +1,47 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-18177-2024::005-art-4o",
+  "lei_id": "lei-municipal-saopaulo-18177-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 4º",
+  "numero": "4",
+  "header_raw": "Art. 4º O art. 33 da Lei nº 18.081, de 19 de janeiro de 2024, passa a vigorar com a seguinte redação:",
+  "caminho_hierarquico": [
+    "Art. 4º"
+  ],
+  "texto": "Art. 4º O art. 33 da Lei nº 18.081, de 19 de janeiro de 2024, passa a vigorar com a seguinte redação:\n\n“Art. 33. O art. 61 da Lei nº 16.402, de 23 de março de 2016, alterada pela Lei nº 18.081 de 2024, passa a vigorar acrescido o § 7º com a seguinte redação:\n\n“Art. 61. .....................................................................................\n\n....................................................................................................\n\n§ 7º Na análise dos casos previstos nos §§ 4º e 5º, além da documentação técnica obrigatória a ser definida por regulamentação específica, serão considerados:\n\nI - as características urbanísticas do entorno do empreendimento;\n\nII - a compatibilidade entre as áreas destinadas a subsolo e as exigências mínimas de vagas para veículos e áreas correlatas estabelecidas na LPUOS;\n\nIII - os pareceres técnicos apresentados.” (NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 18.177/2024 — São Paulo/SP",
+    "dispositivo": "Art. 4º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-18177-de-25-de-julho-de-2024",
+    "vigencia": {
+      "inicio": "2024-07-25",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente do portal oficial (captura 2026-07-13); em vigor desde 2024-07-25. Sem auto-revogacao/suspensao. Metadados por scaffold (extracao pura); revisao fina pendente."
+    }
+  },
+  "tema": [
+    "coeficiente_aproveitamento",
+    "plano_intervencao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Compatibiliza a redação do art. 2º da Lei nº 18.081, de 19 de janeiro de 2024, para tornar expressa a metodologia aplicada ao MAPA I, adequa legendas do MAPA I e a redação de outros dispositivos constantes da Lei nº 18.081, de 2024."
+}

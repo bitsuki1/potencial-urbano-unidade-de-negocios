@@ -1,0 +1,54 @@
+{
+  "chunk_id": "decreto-saopaulo-63504-2024::007-art-6o",
+  "lei_id": "decreto-saopaulo-63504-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 6º",
+  "numero": "6",
+  "header_raw": "Art. 6º O potencial construtivo adicional a ser adquirido corresponde à diferença entre o potencial construtivo utilizado e o potencial construtivo básico e deverá observar as seguintes disposições:",
+  "caminho_hierarquico": [
+    "CAPÍTULO I",
+    "SEÇÃO III",
+    "Art. 6º"
+  ],
+  "texto": "Art. 6º O potencial construtivo adicional a ser adquirido corresponde à diferença entre o potencial construtivo utilizado e o potencial construtivo básico e deverá observar as seguintes disposições:\n\nI – No cálculo do potencial construtivo básico para cada tipologia, a área do terreno deverá ser distribuída de forma diretamente proporcional à relação entre a área computável total de cada tipologia e a área computável total do empreendimento, incluindo as áreas advindas de incentivos de aumento de potencial construtivo;\n\nII – Caso parte do empreendimento utilize o incentivo previsto no artigo 114 da LPUOS, os potenciais construtivos básico e adicional relativos aos usos incentivados pelo mencionado artigo deverão ser calculados de forma separada das demais tipologias, considerando o coeficiente de aproveitamento majorado exclusivamente sobre a parcela do lote relativa a esses usos;\n\nIII – Os potenciais construtivos básico e máximo serão calculados em função da área original do terreno nos casos previstos no PDE e na LPUOS;\n\nIV – Para o uso residencial a área computável privativa deverá ser calculada para cada tipologia e a área total comum computável deverá ser distribuída de forma diretamente proporcional às áreas computáveis privativas totais de cada tipologia.\n\nSEÇÃO IV\n\nDO CÁLCULO DA CONTRAPARTIDA FINANCEIRA TOTAL RELATIVA À OODC",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 63.504/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO I › SEÇÃO III › Art. 6º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-63504-de-14-de-junho-de-2024",
+    "vigencia": {
+      "inicio": "2024-06-14",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Regime GERAL da Outorga Onerosa do Direito de Construir (OODC), regulamentando o art. 117 do PDE (Lei 16.050/2014, red. Lei 17.975/2023) e a LPUOS (Lei 16.402/2016, red. Lei 18.081/2024). Em vigor desde 14/06/2024; sem auto-revogacao/suspensao. NAO se aplica dentro de OUC (leis proprias) nem, salvo no que couber, em AIU. Fonte-norma da formula C=(At/Ac)·V·Fp·Fs auditada nos engines."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "plano_intervencao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao",
+    "habitacao_interesse_social",
+    "potencial_construtivo"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Outorga Onerosa do Direito de Construir, nos termos da Lei nº 16.050, de 31 de julho de 2014, alterada pela Lei nº 17.975, de 8 de julho de 2023, e da Lei nº 16.402, de 22 de março de 2016, alterada pela Lei nº 18.081, de 19 de janeiro de 2024, e dá outras providências."
+}

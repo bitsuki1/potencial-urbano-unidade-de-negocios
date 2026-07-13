@@ -1,0 +1,54 @@
+{
+  "chunk_id": "decreto-saopaulo-63504-2024::015-art-14",
+  "lei_id": "decreto-saopaulo-63504-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 14",
+  "numero": "14",
+  "header_raw": "Art. 14. Para fins de aplicação do disposto no inciso II do § 6º do artigo 117 do PDE e no artigo 6º da Lei nº 18.081, de 2024, deverão ser observadas as seguintes disposições:",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "SEÇÃO II",
+    "Art. 14"
+  ],
+  "texto": "Art. 14. Para fins de aplicação do disposto no inciso II do § 6º do artigo 117 do PDE e no artigo 6º da Lei nº 18.081, de 2024, deverão ser observadas as seguintes disposições:\n\nI - Será considerada como edificação não executada aquela que, simultaneamente:\n\na) tenha sido objeto da quitação do valor integral da contrapartida financeira relativa à OODC e obtido o Alvará de Execução;\n\nb) não tenha dado início às obras de execução da fundação da edificação, sendo admitida a execução de demolições ou obras de terraplanagem;\n\nII - O prazo estabelecido na alínea ‘b’ do inciso II do artigo 117 do PDE será contado a partir da data de emissão do Alvará de Aprovação ou do Alvará de Execução a depender do momento no qual foi paga a contrapartida, cuja reutilização poderá ser deferida uma única vez durante este período.\n\n§ 1º Admite-se a aplicação do disposto no “caput” deste artigo aos projetos que não tenham solicitado o Alvará de Execução, desde que a contrapartida financeira relativa à OODC tenha sido integralmente quitada.\n\n§ 2º A reutilização da contrapartida financeira relativa à OODC nos casos em que o Alvará de Execução tenha sido emitido, resultará em seu cancelamento, previamente à emissão do novo Alvará de Execução.\n\n§ 3º A possibilidade de anexação de novos lotes ao projeto, prevista no artigo 6º da Lei nº 18.081, de 2024, é permitida desde que sejam respeitadas todas as disposições legais vigentes na data de protocolamento do pedido de licenciamento.\n\n§ 4º Não será admitida a redução da área do terreno do imóvel, em vista do disposto no artigo 6º da Lei nº 18.081, de 2024.\n\n§ 5º As disposições deste artigo serão aplicadas às solicitações de reutilização de OODC feitas posteriormente à entrada em vigor da Lei nº 17.975, de 2023, não havendo distinção da regra aplicável em função da promulgação da Lei nº 18.081, de 2024, observado o prazo de que trata o inciso II do “caput” deste artigo.\n\n§ 6º Para a reutilização da contrapartida financeira relativa à OODC o interessado deverá apresentar relatório de quitação com todas as parcelas referentes ao Documento de Arrecadação do Município de São Paulo (DAMSP), da Secretaria Municipal da Fazenda (SF) ou Sistema de Licenciamento da SMUL.\n\nSEÇÃO III\n\nOODC PARA REGULARIZAÇÃO",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 63.504/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › SEÇÃO II › Art. 14",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-63504-de-14-de-junho-de-2024",
+    "vigencia": {
+      "inicio": "2024-06-14",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Regime GERAL da Outorga Onerosa do Direito de Construir (OODC), regulamentando o art. 117 do PDE (Lei 16.050/2014, red. Lei 17.975/2023) e a LPUOS (Lei 16.402/2016, red. Lei 18.081/2024). Em vigor desde 14/06/2024; sem auto-revogacao/suspensao. NAO se aplica dentro de OUC (leis proprias) nem, salvo no que couber, em AIU. Fonte-norma da formula C=(At/Ac)·V·Fp·Fs auditada nos engines."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "plano_intervencao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao",
+    "habitacao_interesse_social",
+    "potencial_construtivo"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Outorga Onerosa do Direito de Construir, nos termos da Lei nº 16.050, de 31 de julho de 2014, alterada pela Lei nº 17.975, de 8 de julho de 2023, e da Lei nº 16.402, de 22 de março de 2016, alterada pela Lei nº 18.081, de 19 de janeiro de 2024, e dá outras providências."
+}

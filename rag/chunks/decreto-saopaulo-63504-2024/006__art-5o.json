@@ -1,0 +1,54 @@
+{
+  "chunk_id": "decreto-saopaulo-63504-2024::006-art-5o",
+  "lei_id": "decreto-saopaulo-63504-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 5º",
+  "numero": "5",
+  "header_raw": "Art. 5º Para fins de aplicação do § 9º do artigo 79 da Lei nº 16.050, de 2014 - PDE, quando a cota parte máxima -Q de terreno por unidade residencial exceder o valor estabelecido no Quadro 2 anexo ao PDE e no Quadro 3 anexo à LPUOS, à área construída computável correspondente à totalidade das unidades com área computável privativa superior a 70m² (setenta metros quadrados), da subcategoria de uso R2V, será aplicado fator social majorado, na seguinte conformidade:",
+  "caminho_hierarquico": [
+    "CAPÍTULO I",
+    "SEÇÃO II",
+    "Art. 5º"
+  ],
+  "texto": "Art. 5º Para fins de aplicação do § 9º do artigo 79 da Lei nº 16.050, de 2014 - PDE, quando a cota parte máxima -Q de terreno por unidade residencial exceder o valor estabelecido no Quadro 2 anexo ao PDE e no Quadro 3 anexo à LPUOS, à área construída computável correspondente à totalidade das unidades com área computável privativa superior a 70m² (setenta metros quadrados), da subcategoria de uso R2V, será aplicado fator social majorado, na seguinte conformidade:\n\nQ\n\nFS\n\n20\n\n1\n\n20,25\n\n1,025\n\n20,5\n\n1,05\n\n20,75\n\n1,075\n\n21\n\n1,1\n\n21,25\n\n1,125\n\n21,5\n\n1,15\n\n21,75\n\n1,175\n\n22\n\n1,2\n\n22,25\n\n1,225\n\n22,5\n\n1,25\n\n22,75\n\n1,275\n\n23\n\n1,3\n\n23,25\n\n1,325\n\n23,5\n\n1,35\n\n23,75\n\n1,375\n\n24\n\n1,4\n\n24,25\n\n1,425\n\n24,5\n\n1,45\n\n24,75\n\n1,475\n\n25\n\n1,5\n\n25,25\n\n1,525\n\n25,5\n\n1,55\n\n25,75\n\n1,575\n\n26\n\n1,6\n\n26,25\n\n1,625\n\n26,5\n\n1,65\n\n26,75\n\n1,675\n\n27\n\n1,7\n\n27,25\n\n1,725\n\n27,5\n\n1,75\n\n27,75\n\n1,775\n\n28\n\n1,8\n\n28,25\n\n1,825\n\n28,5\n\n1,85\n\n28,75\n\n1,875\n\n29\n\n1,9\n\n29,25\n\n1,925\n\n29,5\n\n1,95\n\n29,75\n\n1,975\n\n30\n\n2\n\nParágrafo único. Para fins de aplicação de aplicação do § 9º do artigo 79 do PDE, o valor total da cota parte máxima - Q de terreno por unidade residencial obtido no projeto deverá ser arredondado para cima, de forma a se enquadrar no valor de “Q” determinado na tabela deste artigo.\n\nSEÇÃO III\n\nDO CÁLCULO DO POTENCIAL CONSTRUTIVO ADICIONAL A SER ADQUIRIDO E\n\nDEMAIS DISPOSIÇÕES",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 63.504/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO I › SEÇÃO II › Art. 5º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-63504-de-14-de-junho-de-2024",
+    "vigencia": {
+      "inicio": "2024-06-14",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Regime GERAL da Outorga Onerosa do Direito de Construir (OODC), regulamentando o art. 117 do PDE (Lei 16.050/2014, red. Lei 17.975/2023) e a LPUOS (Lei 16.402/2016, red. Lei 18.081/2024). Em vigor desde 14/06/2024; sem auto-revogacao/suspensao. NAO se aplica dentro de OUC (leis proprias) nem, salvo no que couber, em AIU. Fonte-norma da formula C=(At/Ac)·V·Fp·Fs auditada nos engines."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "plano_intervencao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao",
+    "habitacao_interesse_social",
+    "potencial_construtivo"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Outorga Onerosa do Direito de Construir, nos termos da Lei nº 16.050, de 31 de julho de 2014, alterada pela Lei nº 17.975, de 8 de julho de 2023, e da Lei nº 16.402, de 22 de março de 2016, alterada pela Lei nº 18.081, de 19 de janeiro de 2024, e dá outras providências."
+}

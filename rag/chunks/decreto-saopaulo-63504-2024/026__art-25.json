@@ -1,0 +1,53 @@
+{
+  "chunk_id": "decreto-saopaulo-63504-2024::026-art-25",
+  "lei_id": "decreto-saopaulo-63504-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 25",
+  "numero": "25",
+  "header_raw": "Art. 25. Para fins de monitoramento da aplicação da OODC no Município de São Paulo, os sistemas de licenciamento da Prefeitura e respectivos alvarás expedidos deverão registrar, por projeto, no mínimo, os seguintes dados:",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Art. 25"
+  ],
+  "texto": "Art. 25. Para fins de monitoramento da aplicação da OODC no Município de São Paulo, os sistemas de licenciamento da Prefeitura e respectivos alvarás expedidos deverão registrar, por projeto, no mínimo, os seguintes dados:\n\nI - área construída computável total e discriminada por uso, subcategoria de usos, grupos de atividade, Fs e Fp;\n\nII - área construída computável resultante da aplicação do benefício da cota de solidariedade;\n\nIII - área construída computável resultante de incentivos de ampliação de coeficiente de aproveitamento;\n\nIV - área construída computável objeto de OODC;\n\nV - área construída não computável total e discriminada por:\n\na) ordinárias, estabelecidas pela LPUOS e pelo COE;\n\nb) enquadradas como parâmetros qualificadores da ocupação, conforme artigo 57 da LPUOS;\n\nc) incentivadas, discriminadas por incentivo;\n\nVI - número de unidades aprovadas para cada tipologia de uso residencial;\n\nVII - área de terreno proporcional a cada tipologia, especificando o grupo de atividade não Residencial, quando for o caso;\n\nVIII – cota parte máxima de terreno por unidade utilizada no projeto;\n\nIX – informações sobre quota ambiental quando a utilização do instrumento implicar em desconto na contrapartida financeira devida.\n\nParágrafo único. Cabe à Coordenadoria de Legislação de Uso e Ocupação do Solo - DEUSO, o monitoramento das informações relativas à OODC descritas nos incisos I a IX desde artigo, que deverão ser divulgadas nos portais da SMUL e no GeoSampa, devendo todos os processos de pedidos que envolvam licenciamento ou regularização de área computável acima do coeficiente de aproveitamento básico serem encaminhados àquela Coordenadoria após o despacho deferimento.\n\nCAPÍTULO VI\n\nDAS DISPOSIÇÕES FINAIS",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 63.504/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO V › Art. 25",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-63504-de-14-de-junho-de-2024",
+    "vigencia": {
+      "inicio": "2024-06-14",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Regime GERAL da Outorga Onerosa do Direito de Construir (OODC), regulamentando o art. 117 do PDE (Lei 16.050/2014, red. Lei 17.975/2023) e a LPUOS (Lei 16.402/2016, red. Lei 18.081/2024). Em vigor desde 14/06/2024; sem auto-revogacao/suspensao. NAO se aplica dentro de OUC (leis proprias) nem, salvo no que couber, em AIU. Fonte-norma da formula C=(At/Ac)·V·Fp·Fs auditada nos engines."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "plano_intervencao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao",
+    "habitacao_interesse_social",
+    "potencial_construtivo"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Outorga Onerosa do Direito de Construir, nos termos da Lei nº 16.050, de 31 de julho de 2014, alterada pela Lei nº 17.975, de 8 de julho de 2023, e da Lei nº 16.402, de 22 de março de 2016, alterada pela Lei nº 18.081, de 19 de janeiro de 2024, e dá outras providências."
+}

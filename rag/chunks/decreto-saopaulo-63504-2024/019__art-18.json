@@ -1,0 +1,53 @@
+{
+  "chunk_id": "decreto-saopaulo-63504-2024::019-art-18",
+  "lei_id": "decreto-saopaulo-63504-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 18",
+  "numero": "18",
+  "header_raw": "Art. 18. Quando o licenciamento de que trata o artigo 2º deste decreto estiver em condições de deferimento, a divisão técnica do órgão competente emitirá comunicado relativo aos procedimentos para pagamento da contrapartida financeira relativa à OODC, contendo as seguintes informações mínimas:",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 18"
+  ],
+  "texto": "Art. 18. Quando o licenciamento de que trata o artigo 2º deste decreto estiver em condições de deferimento, a divisão técnica do órgão competente emitirá comunicado relativo aos procedimentos para pagamento da contrapartida financeira relativa à OODC, contendo as seguintes informações mínimas:\n\nI – valor total da contrapartida financeira relativa à OODC, com o respectivo código de serviço;\n\nII – informações sobre a opção de pagamento parcelado da contrapartida financeira, nos termos do artigo 172 da LPUOS, exceto para os casos de regularização e de desmembramento de lote edificado para os quais não há previsão legal de parcelamento do pagamento da contrapartida financeira;\n\nIII – valor do preço público referente ao serviço de expediente para pedido de OODC, com o respectivo código de serviço, em caso de não haver sido recolhido no protocolo do pedido do documento da atividade edilícia ou do pedido de parcelamento do solo de lote edificado;\n\nIV – instruções dos meios para obtenção da guia para pagamento do valor devido.\n\n§ 1º Considera-se fixado o valor do metro quadrado do terreno -V utilizado no cálculo da contrapartida financeira relativa à OODC no ano de publicação do comunicado.\n\n§ 2º Do comunicado emitido caberá uma única prorrogação de prazo, desde que fundamentada na opção de pagamento integral do valor da contrapartida financeira relativa à OODC, devendo o pedido ser indeferido, na hipótese do não atendimento do comunique-se.\n\n§ 3º Do recurso interposto contra despacho de indeferimento do pedido deverá o interessado optar entre o pagamento à vista ou, quando cabível, o pagamento parcelado, observado o inciso II do caput deste artigo.\n\n§ 4º Caso o recurso ao indeferimento do pedido seja protocolado em ano posterior ao comunicado inicial referente ao pagamento da contrapartida financeira relativa à OODC, o valor devido deverá ser recalculado, considerando a atualização do Quadro 14 anexo ao PDE.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 63.504/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Art. 18",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-63504-de-14-de-junho-de-2024",
+    "vigencia": {
+      "inicio": "2024-06-14",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Regime GERAL da Outorga Onerosa do Direito de Construir (OODC), regulamentando o art. 117 do PDE (Lei 16.050/2014, red. Lei 17.975/2023) e a LPUOS (Lei 16.402/2016, red. Lei 18.081/2024). Em vigor desde 14/06/2024; sem auto-revogacao/suspensao. NAO se aplica dentro de OUC (leis proprias) nem, salvo no que couber, em AIU. Fonte-norma da formula C=(At/Ac)·V·Fp·Fs auditada nos engines."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "plano_intervencao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao",
+    "habitacao_interesse_social",
+    "potencial_construtivo"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Outorga Onerosa do Direito de Construir, nos termos da Lei nº 16.050, de 31 de julho de 2014, alterada pela Lei nº 17.975, de 8 de julho de 2023, e da Lei nº 16.402, de 22 de março de 2016, alterada pela Lei nº 18.081, de 19 de janeiro de 2024, e dá outras providências."
+}
