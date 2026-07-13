@@ -137,10 +137,27 @@ def _carrega_tabela_vi():
     return out
 
 
+def _carrega_isencao():
+    """Faixas de ISENÇÃO do Imposto Predial por vintage (Art. 2º das leis de PGV):
+    (vigencia_de:int) → (limite_total, limite_residencial_abc, lei, dispositivo). O número
+    NASCE aqui, verbatim da lei (1.3): 2022 = Lei 17.719/2021 (120k/230k); 2026 = Lei 18.330/2025
+    (150k/260k). Ordenado por ano; a consulta usa a vintage vigente na data do fato gerador (1.6)."""
+    out = []
+    with open(TAB / "iptu-isencao-faixa.csv", encoding="utf-8") as f:
+        for r in csv.DictReader(f):
+            out.append((int(r["vigencia_de"]), Decimal(r["limite_isencao_total_brl"]),
+                        Decimal(r["limite_residencial_abc_brl"]), r["lei"], r["dispositivo"]))
+    out.sort(key=lambda x: x[0])
+    if not out:
+        raise ValueError("iptu-isencao-faixa.csv vazio")
+    return out
+
+
 BASE = _carrega_base()
 FAIXAS = _carrega_faixas()
 OBSOLESCENCIA = _carrega_obsolescencia()
 TABELA_VI = _carrega_tabela_vi()
+ISENCAO = _carrega_isencao()
 
 USOS = sorted(BASE)
 
@@ -298,6 +315,46 @@ def vv_terreno(area, valor_m2_pgv, fator_profundidade="1", fator_esquina="1", fa
     }
 
 
+def _isencao_vigente(ano_ref):
+    """Vintage da isenção vigente na data do fato gerador (1.6): a última cujo vigencia_de ≤ ano_ref.
+    ano_ref None → a mais recente. Fato gerador anterior à 1ª vintage (2022) → sem regra de isenção
+    conhecida no engine (fail-closed: devolve None, o chamador NÃO presume isenção)."""
+    if ano_ref is None:
+        return ISENCAO[-1]
+    aplicaveis = [x for x in ISENCAO if x[0] <= int(ano_ref)]
+    return aplicaveis[-1] if aplicaveis else None
+
+
+def isencao_iptu(vv, ano_ref=None, residencial_abc=False):
+    """Isenção do Imposto Predial (Art. 2º das leis de PGV) — número da lei, rastreável (1.3/1.7).
+    Regra verbatim: (I) isento se VV ≤ limite_total (qualquer uso construído); (II) isento se
+    residência de padrões A/B/C (tipos 1/2 da Tabela V) e VV ≤ limite_residencial. `residencial_abc`
+    sinaliza o enquadramento do inciso II (decisão jurídica do lançamento, não chute do engine).
+    Fail-closed: sem vintage aplicável → não presume isenção (isento=False, motivo explícito)."""
+    V = _pos(_d(vv, "vv"), "vv")
+    vig = _isencao_vigente(ano_ref)
+    if vig is None:
+        return {"isento": False, "motivo": f"sem faixa de isenção conhecida para ano_ref={ano_ref} "
+                f"(1ª vintage = {ISENCAO[0][0]})", "citacao": None}
+    ano_v, lim_total, lim_resid, lei, disp = vig
+    if V <= lim_total:
+        base = f"VV {V} ≤ R$ {lim_total} (limite de isenção total)"
+        isento, inc = True, "I"
+    elif residencial_abc and V <= lim_resid:
+        base = f"VV {V} ≤ R$ {lim_resid} (residência A/B/C tipos 1/2)"
+        isento, inc = True, "II"
+    else:
+        base = (f"VV {V} acima do limite ({lim_total} total"
+                + (f"; {lim_resid} residencial A/B/C" if residencial_abc else "") + ")")
+        isento, inc = False, None
+    return {
+        "isento": isento,
+        "motivo": ("ISENTO — " if isento else "NÃO isento — ") + base,
+        "vintage": ano_v,
+        "citacao": {"dispositivo": f"{disp}" + (f", inciso {inc}" if inc else ""), "fonte": lei},
+    }
+
+
 def valor_venal(vvt_brl, vvc_brl):
     """Art. 17: VV do imóvel construído = valor do terreno + valor da construção."""
     t = _d(vvt_brl, "vvt_brl"); c = _d(vvc_brl, "vvc_brl")
@@ -316,6 +373,10 @@ def _demo():
 
     def anc(nome, obtido, esperado):
         assert Decimal(str(obtido)) == Decimal(esperado), f"{nome}: {obtido} ≠ {esperado}"
+        ok.append(f"  ✓ {nome}: {obtido}")
+
+    def anc_eq(nome, obtido, esperado):
+        assert str(obtido) == str(esperado), f"{nome}: {obtido} ≠ {esperado}"
         ok.append(f"  ✓ {nome}: {obtido}")
 
     # Residencial (Art. 7º 1,0% + Art. 7º-A):
@@ -343,6 +404,20 @@ def _demo():
     anc("VVt 500×2000×0,7071", vv_terreno("500", "2000", fator_profundidade="0.7071")["vv_terreno_brl"], "707100.00")
     # Art. 17: soma
     anc("VV=VVt+VVc", valor_venal("707100.00", "79120.00")["vv_brl"], "786220.00")
+
+    # ISENÇÃO do Imposto Predial (Art. 2º) — ancorado verbatim nas leis de PGV, por vintage (1.3/1.6):
+    # 2026 (Lei 18.330/2025): isento total ≤ 150.000; residencial A/B/C ≤ 260.000.
+    anc_eq("isenç 2026 VV=150.000 (I)", isencao_iptu("150000", 2026)["isento"], "True")
+    anc_eq("isenç 2026 VV=150.000,01 ñ-resid (não)", isencao_iptu("150000.01", 2026)["isento"], "False")
+    anc_eq("isenç 2026 VV=260.000 resid A/B/C (II)", isencao_iptu("260000", 2026, residencial_abc=True)["isento"], "True")
+    anc_eq("isenç 2026 VV=260.000,01 resid (não)", isencao_iptu("260000.01", 2026, residencial_abc=True)["isento"], "False")
+    # 2022 (Lei 17.719/2021): isento total ≤ 120.000; residencial A/B/C ≤ 230.000.
+    anc_eq("isenç 2022 VV=120.000 (I)", isencao_iptu("120000", 2022)["isento"], "True")
+    anc_eq("isenç 2022 VV=230.000 resid A/B/C (II)", isencao_iptu("230000", 2022, residencial_abc=True)["isento"], "True")
+    anc_eq("isenç 2022 VV=230.000,01 resid (não)", isencao_iptu("230000.01", 2022, residencial_abc=True)["isento"], "False")
+    # vintage: 2025 ainda usa a faixa de 2022 (a de 2026 só vale no exercício 2026)
+    anc_eq("isenç 2025 usa vintage 2022", isencao_iptu("150000", 2025)["citacao"]["fonte"], "Lei nº 17.719/2021")
+    anc_eq("isenç 2026 usa vintage 2026", isencao_iptu("150000", 2026)["citacao"]["fonte"], "Lei nº 18.330/2025")
 
     # Fail-closed:
     for nome, fn in [

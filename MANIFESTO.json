@@ -1,6 +1,6 @@
 {
   "_doc": "Fonte da verdade do status_pipeline de cada item. GERADO por scripts/consolidar.py a partir dos .json individuais — NAO editar a mao (Principio 1.5/2.3 do CLAUDE.md). Roda a cada push via .github/workflows/consolidar.yml.",
-  "gerado_em": "2026-07-13T16:25:54.973760+00:00",
+  "gerado_em": "2026-07-13T16:30:47.043303+00:00",
   "vocabulario_status": [
     "bruto",
     "fatiado",
@@ -64,8 +64,8 @@
       "status": "engine OODC/TDC executável (engines/tdc/oodc.py); demais são prosa/conhecimento"
     },
     "tabelas": {
-      "arquivos": 19,
-      "status": "19 tabela(s) no git (Q14 valor-terreno, Quadro 3 CA/zona, Quadro 5 Fs, Quadro 7 parques, Fi-área LPUOS Art.24) — combustível do engine PRESENTE; derivado dos arquivos, não hardcoded"
+      "arquivos": 20,
+      "status": "20 tabela(s) no git (Q14 valor-terreno, Quadro 3 CA/zona, Quadro 5 Fs, Quadro 7 parques, Fi-área LPUOS Art.24) — combustível do engine PRESENTE; derivado dos arquivos, não hardcoded"
     },
     "tese_iptu": {
       "arquivos": 0,
@@ -128,6 +128,12 @@
       "sha256": "sha256:74db27e17405130be2fc54f9f03be0c2d3685f3a0b3e6bad7b59625fba14cfa2",
       "data_base": "1991-12-30",
       "fonte_legal": "Lei 10.235/1986, Tabelas II e III na redacao da Lei 11.152/1991 (+ item ZER pela 15.889/2013)"
+    },
+    {
+      "arquivo": "tabelas/iptu-isencao-faixa.csv",
+      "sha256": "sha256:5d334f7e674ccd43bd0f1c4821f5eb95c65d9777ea45a2b3ec7933bfcecc0eb1",
+      "data_base": "2026-01-01",
+      "fonte_legal": "Lei 18.330/2025 Art. 2º (vintage 2026: 150k/260k) e Lei 17.719/2021 Art. 2º (vintage 2022: 120k/230k)"
     },
     {
       "arquivo": "tabelas/iptu-valor-construcao-m2.csv",
