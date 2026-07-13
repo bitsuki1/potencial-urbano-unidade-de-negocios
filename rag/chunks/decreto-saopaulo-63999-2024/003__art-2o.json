@@ -1,0 +1,51 @@
+{
+  "chunk_id": "decreto-saopaulo-63999-2024::003-art-2o",
+  "lei_id": "decreto-saopaulo-63999-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 2º",
+  "numero": "2",
+  "header_raw": "Art. 2º Os valores nominais serão publicados em portaria do Secretário Municipal de Urbanismo e Licenciamento.",
+  "caminho_hierarquico": [
+    "Art. 2º"
+  ],
+  "texto": "Art. 2º Os valores nominais serão publicados em portaria do Secretário Municipal de Urbanismo e Licenciamento.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 63.999/2024 — São Paulo/SP",
+    "dispositivo": "Art. 2º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-63999-de-30-de-dezembro-de-2024",
+    "vigencia": {
+      "inicio": "2025-01-01",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [
+        "Quadro 14 (Cadastro de Valor de Terreno) anexo a Lei nº 16.050/2014 - atualizacao de valores para o exercicio de 2025"
+      ],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Decreto de atualizacao anual (vintage) do Quadro 14, editado sob o art. 118 da Lei 16.050/2014. Integra a serie de reajuste: base 2014 -> Dec 59.166/2019 -> Dec 62.135/2022 -> Dec 63.108/2023 -> ESTE (+4,5%, exercicio 2025) -> Dec 64.884/2025. Os valores NOMINAIS saem por Portaria SMUL (Art. 2) - o numero nasce no engine a partir da tabela, nao do texto (1.3)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "cadastro_valor_terreno",
+    "quadro_14",
+    "transferencia_direito_construir",
+    "incentivo_parque",
+    "potencial_construtivo",
+    "atualizacao_valores"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Atualiza os valores previstos no Quadro 14 - Cadastro de Valor de Terreno para fins de Outorga Onerosa, anexo à Lei nº 16.050, de 31 de julho de 2014, alterada pela Lei nº 17.975, de 8 de julho de 2023."
+}

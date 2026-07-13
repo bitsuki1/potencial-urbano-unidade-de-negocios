@@ -1,0 +1,56 @@
+# DECRETO Nº 58.176, DE 3 DE ABRIL DE 2018
+
+**URL oficial:** https://legislacao.prefeitura.sp.gov.br/decreto-58176-de-3-de-abril-de-2018
+**Data de captura:** portal oficial legislacao.prefeitura.sp.gov.br (container texto_compilado)
+**Proveniência:** VERBATIM INTEGRAL — capturado de https://legislacao.prefeitura.sp.gov.br/decreto-58176-de-3-de-abril-de-2018 (portal oficial legislacao.prefeitura.sp.gov.br (container texto_compilado)); promovido de `_entrada/misto/decreto-saopaulo-58176-2018.txt`. Saneado só lixo de captura; boilerplate oficial do portal preservado (anotações de alteração do texto compilado incluídas).
+**confianca_extracao:** alta (articulado integral verbatim)
+
+## Ementa
+
+Altera a redação do § 1º do artigo 20 do Decreto nº 57.536, de 15 de dezembro de 2016, que regulamenta a Transferência do Direito de Construir nos casos em que não há doação do imóvel cedente; fixa regras para transferência de potencial construtivo em casos disciplinados pelo § 1º do artigo 15 da Lei nº 16.402, de 22 de março de 2016.
+
+## Texto integral (verbatim)
+
+DECRETO Nº 58.176 DE 3 DE ABRIL DE 2018
+
+DECRETO Nº 58.176 de 3 de Abril de 2018
+
+CORRELAÇÕES
+
+Altera a redação do § 1º do artigo 20 do Decreto nº 57.536, de 15 de dezembro de 2016, que regulamenta a Transferência do Direito de Construir nos casos em que não há doação do imóvel cedente; fixa regras para transferência de potencial construtivo em casos disciplinados pelo § 1º do artigo 15 da Lei nº 16.402, de 22 de março de 2016.
+
+DECRETO Nº 58.176, DE 3 DE ABRIL DE 2018
+
+Altera a redação do § 1º do artigo 20 do Decreto nº 57.536, de 15 de dezembro de 2016, que regulamenta a Transferência do Direito de Construir nos casos em que não há doação do imóvel cedente; fixa regras para transferência de potencial construtivo em casos disciplinados pelo § 1º do artigo 15 da Lei nº 16.402, de 22 de março de 2016.
+
+JOÃO DORIA, Prefeito do Município de São Paulo, no uso das atribuições que lhe são conferidas por lei,
+
+D E C R E T A:
+
+Art. 1º O § 1º do artigo 20 do Decreto nº 57.536, de 15 de dezembro de 2016, passa a vigorar com a seguinte redação:
+
+“Art. 20 ......................................................
+
+§ 1º Para fins de aplicação do referido artigo 25 da Lei nº 16.402, de 2016, nos casos em que o potencial constante da Declaração de Potencial Construtivo Passível de Transferência for menor que o potencial construtivo correspondente ao coeficiente de aproveitamento básico da zona, a área construída acrescida não será descontada da declaração expedida até o limite do coeficiente de aproveitamento básico da zona de uso vigente à época do pedido da Certidão de Transferência, podendo o coeficiente de aproveitamento máximo da zona ser atingido por meio da outorga onerosa de potencial construtivo adicional, nos termos previstos no inciso II do artigo 65 da Lei nº 16.050, de 2014 – PDE.
+
+....................................................................”(NR)
+
+Art. 2º Nos casos disciplinados pelo § 1º do artigo 15 da Lei nº 16.402, de 22 de março de 2016, a transferência de potencial construtivo constante de Declaração já emitida independerá da prévia elaboração do projeto previsto no artigo 136 da Lei n° 16.050, de 31 de julho de 2014, desde que sejam observados os coeficientes de aproveitamento estabelecidos para cada macroárea pelo Quadro 2A da citada Lei nº 16.050, de 2014.
+
+Art. 3º Este decreto entrará em vigor na data de sua publicação.
+
+PREFEITURA DO MUNICÍPIO DE SÃO PAULO, aos 3 de abril de 2018, 465º da fundação de São Paulo.
+
+JOÃO DORIA, PREFEITO
+
+HELOISA MARIA DE SALLES PENTEADO PROENÇA, Secretária Municipal de Urbanismo e Licenciamento
+
+ANDERSON POMINI, Secretário Municipal de Justiça
+
+JULIO FRANCISCO SEMEGHINI NETO, Secretário do Governo Municipal
+
+BRUNO COVAS, Secretário-Chefe da Casa Civil
+
+Publicado na Casa Civil, em 3 de abril de 2018.
+
+Este texto não substitui o original publicado no Diário Oficial da Cidade de São Paulo.

@@ -88,6 +88,13 @@ TDC = {
         "Revisão da Lei 18.222/2024 (PIU/AIU Arco Pinheiros) para a ZOE-Butantan — parâmetros urbanísticos "
         "(CA, TO, gabarito, potencial), mapas e Quadro 3A do PIU. Segue o domínio da lei-mãe 18.222 (TDC). "
         "Arts. 3-5 (multas/posturas da LPUOS) com eficácia suspensa por ADI. Ingerida do portal 2026-07-13 (gap).",
+    "decreto-saopaulo-63999-2024":
+        "Atualiza o Quadro 14 (Cadastro de Valor de Terreno p/ Outorga Onerosa, anexo à Lei 16.050/2014) em "
+        "+4,5% (art. 118 do PDE) e o valor de referência do incentivo de TDC para parques (art. 127) para "
+        "R$ 2.194,50/m². Fonte-norma da série de reajuste do engine (art128/oodc). Efeito TDC/outorga. Portal 2026-07-13.",
+    "decreto-saopaulo-58176-2018":
+        "Altera o § 1º do art. 20 do Decreto 57.536/2016 (regulamento da TDC sem doação) e disciplina a "
+        "transferência de potencial construtivo sob o art. 15 §1 da LPUOS. TDC puro. Ingerido do portal 2026-07-13.",
     # (mais massa normativa TDC — decretos ZEPEC/CONPRESP — entra quando ingerida; ver A-11)
     # --- Jurisprudência de TDC ingerida 2026-07-11 (B-21): efeito dominante é TDC (tombamento ×
     #     potencial construtivo; natureza compensatória; direito de protocolo; base do "solo criado"),

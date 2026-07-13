@@ -1,6 +1,6 @@
 {
   "_doc": "Fonte da verdade do status_pipeline de cada item. GERADO por scripts/consolidar.py a partir dos .json individuais — NAO editar a mao (Principio 1.5/2.3 do CLAUDE.md). Roda a cada push via .github/workflows/consolidar.yml.",
-  "gerado_em": "2026-07-13T12:14:24.055794+00:00",
+  "gerado_em": "2026-07-13T12:31:08.756035+00:00",
   "vocabulario_status": [
     "bruto",
     "fatiado",
@@ -9,17 +9,17 @@
     "indexado"
   ],
   "resumo": {
-    "total_itens": 78,
-    "leis": 39,
+    "total_itens": 80,
+    "leis": 41,
     "jurisprudencia": 39,
-    "ativos_no_escopo": 78,
+    "ativos_no_escopo": 80,
     "fora_de_escopo": 0,
     "_nota": "por_status_pipeline conta SÓ os ativos_no_escopo. Os 2 fora-de-escopo históricos (stf-tema-1020/ISS, stj-resp-1658054/previdenciário) foram ARQUIVADOS por decisão do dono em 2026-07-05 (git rm; recuperáveis pelo histórico).",
     "por_status_pipeline_ativos": {
-      "indexado": 78
+      "indexado": 80
     },
     "status_ilegais_encontrados": [],
-    "verbatim_integral_ativos": 39,
+    "verbatim_integral_ativos": 41,
     "_nota_verbatim_integral": "B-7/AUD-17: verbatim_integral e DERIVADO do marcador '## Texto integral (verbatim)' no .md (prova mecanica, nao declaracao). Difere de confianca_extracao (flag do extrator).",
     "confianca_baixa_ou_media": 11,
     "_nota_verbatim": "confianca e flag de extracao, nao prova de verbatim. CORRIGIDO na auditoria profunda 2026-06-20 (AUD-01): 13 leis JA estao em verbatim integral e indexadas (12 federais re-ingeridas de _entrada/misto/ + a 7228/1968 municipal) — supera a narrativa antiga 'planalto deu 403, NENHUMA e verbatim', que confundia 'o .md e resumo' com 'o verbatim nao existe'. Faltam 12 municipais (so resumo WebSearch) — re-ingestao verbatim delas e o que resta do pre-requisito do RAG. As juris (curtas) sao verbatim."
@@ -981,6 +981,21 @@
       "fonte_url": null
     },
     {
+      "id": "decreto-saopaulo-58176-2018",
+      "tipo": "decreto",
+      "caminho_md": "leis/municipal-sp/decreto-saopaulo-58176-2018.md",
+      "caminho_json": "leis/municipal-sp/decreto-saopaulo-58176-2018.json",
+      "status_pipeline": "indexado",
+      "status_valido": true,
+      "confianca_extracao": "alta",
+      "verbatim_integral": true,
+      "vigencia_inicio": "2018-04-03",
+      "revisado_por_humano": false,
+      "fora_de_escopo": false,
+      "fora_de_escopo_motivo": null,
+      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-58176-de-3-de-abril-de-2018"
+    },
+    {
       "id": "decreto-saopaulo-58289-2018",
       "tipo": "decreto municipal",
       "caminho_md": "leis/municipal-sp/decreto-saopaulo-58289-2018.md",
@@ -994,6 +1009,21 @@
       "fora_de_escopo": false,
       "fora_de_escopo_motivo": null,
       "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-58289-de-26-de-junho-de-2018"
+    },
+    {
+      "id": "decreto-saopaulo-63999-2024",
+      "tipo": "decreto",
+      "caminho_md": "leis/municipal-sp/decreto-saopaulo-63999-2024.md",
+      "caminho_json": "leis/municipal-sp/decreto-saopaulo-63999-2024.json",
+      "status_pipeline": "indexado",
+      "status_valido": true,
+      "confianca_extracao": "alta",
+      "verbatim_integral": true,
+      "vigencia_inicio": "2025-01-01",
+      "revisado_por_humano": false,
+      "fora_de_escopo": false,
+      "fora_de_escopo_motivo": null,
+      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-63999-de-30-de-dezembro-de-2024"
     },
     {
       "id": "lei-municipal-saopaulo-10235-1986",

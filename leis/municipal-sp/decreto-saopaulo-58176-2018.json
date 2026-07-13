@@ -1,0 +1,71 @@
+{
+  "id": "decreto-saopaulo-58176-2018",
+  "tipo_norma": "decreto",
+  "esfera": "municipal",
+  "jurisdicao": "São Paulo/SP",
+  "numero": "58.176",
+  "ano": 2018,
+  "ementa": "Altera a redação do § 1º do artigo 20 do Decreto nº 57.536, de 15 de dezembro de 2016, que regulamenta a Transferência do Direito de Construir nos casos em que não há doação do imóvel cedente; fixa regras para transferência de potencial construtivo em casos disciplinados pelo § 1º do artigo 15 da Lei nº 16.402, de 22 de março de 2016.",
+  "tema": [
+    "transferencia_direito_construir",
+    "tdc_sem_doacao",
+    "potencial_construtivo",
+    "declaracao_potencial_construtivo",
+    "certidao_transferencia",
+    "coeficiente_aproveitamento",
+    "outorga_onerosa"
+  ],
+  "dispositivos_chave": [
+    "Art. 1: nova redacao do § 1º do art. 20 do Decreto 57.536/2016 - quando o potencial da Declaracao de Potencial Construtivo Passivel de Transferencia (DPC) for menor que o CA basico da zona, a area construida acrescida nao e descontada da declaracao ate o limite do CA basico vigente a epoca do pedido da Certidao de Transferencia; o CA maximo pode ser atingido por outorga onerosa (art. 65, II, da Lei 16.050/2014)",
+    "Art. 2: nos casos do § 1º do art. 15 da Lei 16.402/2016, a transferencia de potencial de Declaracao ja emitida independe do projeto do art. 136 da Lei 16.050/2014, desde que observados os CA por macroarea do Quadro 2A da Lei 16.050/2014",
+    "Art. 3: vigencia na data da publicacao (03/04/2018)"
+  ],
+  "vigencia": {
+    "inicio": "2018-04-03",
+    "fim": null,
+    "em_vigor": true,
+    "altera": [
+      "Decreto nº 57.536/2016 (§ 1º do art. 20) - regulamento da TDC sem doacao"
+    ],
+    "alterada_por": [],
+    "revogada_por": null,
+    "observacao": "Decreto do prefeito Joao Doria. Ajusta o rito da TDC sem doacao (Decreto 57.536/2016) e disciplina a transferencia de potencial sob o art. 15 §1 da LPUOS (Lei 16.402/2016). Complementa a base normativa da TDC ja no corpus (57.536/2016 e 58.289/2018)."
+  },
+  "remissoes": [
+    {
+      "norma": "Decreto nº 57.536/2016 (regulamento da TDC sem doacao)",
+      "relacao": "norma alterada - da nova redacao ao § 1º do art. 20"
+    },
+    {
+      "norma": "Lei nº 16.402/2016 (LPUOS) - arts. 15 §1 e 25",
+      "relacao": "fundamento - disciplina os casos de transferencia de potencial construtivo tratados neste decreto"
+    },
+    {
+      "norma": "Lei nº 16.050/2014 (PDE) - arts. 65 II, 136 e Quadro 2A",
+      "relacao": "fundamento - outorga onerosa de potencial adicional (art. 65 II), dispensa do projeto do art. 136, e CA por macroarea (Quadro 2A)"
+    }
+  ],
+  "jurisprudencia_relacionada": [],
+  "tem_tabela": false,
+  "tabelas_extraidas": [],
+  "tem_formula": false,
+  "formulas_referenciadas": [],
+  "fonte": {
+    "origem": "Portal oficial (legislacao.prefeitura.sp.gov.br)",
+    "path": "_entrada/misto/decreto-saopaulo-58176-2018.txt",
+    "url": "https://legislacao.prefeitura.sp.gov.br/decreto-58176-de-3-de-abril-de-2018",
+    "hash": "sha256:8cccb4671ec9984f65d8dfc0bd4a6294c27f024cac85fce9505b3263cb9a9402",
+    "hash_nota_fonte": "sha256 do HTML bruto do portal (container texto_compilado) capturado em 2026-07-13",
+    "ocr": false,
+    "metodo": "VERBATIM INTEGRAL (portal oficial, texto compilado); captura portal oficial legislacao.prefeitura.sp.gov.br (container texto_compilado); promovido de _entrada/misto/",
+    "hash_alvo": "_entrada/misto/decreto-saopaulo-58176-2018.txt",
+    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior."
+  },
+  "status_pipeline": "indexado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "dominio_primario": "tdc",
+  "dominio": [
+    "tdc"
+  ]
+}

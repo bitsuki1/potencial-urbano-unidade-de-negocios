@@ -1662,6 +1662,158 @@
     },
     "citavel": true
   },
+  "decreto-saopaulo-58176-2018::001-preambulo": {
+    "lei_id": "decreto-saopaulo-58176-2018",
+    "tipo_dispositivo": "preambulo",
+    "rotulo": "Preâmbulo",
+    "tema": [
+      "transferencia_direito_construir",
+      "tdc_sem_doacao",
+      "potencial_construtivo",
+      "declaracao_potencial_construtivo",
+      "certidao_transferencia",
+      "coeficiente_aproveitamento",
+      "outorga_onerosa"
+    ],
+    "dominio": [
+      "tdc"
+    ],
+    "dominio_primario": "tdc",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2018-04-03",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [
+        "Decreto nº 57.536/2016 (§ 1º do art. 20) - regulamento da TDC sem doacao"
+      ],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Decreto do prefeito Joao Doria. Ajusta o rito da TDC sem doacao (Decreto 57.536/2016) e disciplina a transferencia de potencial sob o art. 15 §1 da LPUOS (Lei 16.402/2016). Complementa a base normativa da TDC ja no corpus (57.536/2016 e 58.289/2018)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": false
+  },
+  "decreto-saopaulo-58176-2018::002-art-1o": {
+    "lei_id": "decreto-saopaulo-58176-2018",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 1º",
+    "tema": [
+      "transferencia_direito_construir",
+      "tdc_sem_doacao",
+      "potencial_construtivo",
+      "declaracao_potencial_construtivo",
+      "certidao_transferencia",
+      "coeficiente_aproveitamento",
+      "outorga_onerosa"
+    ],
+    "dominio": [
+      "tdc"
+    ],
+    "dominio_primario": "tdc",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2018-04-03",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [
+        "Decreto nº 57.536/2016 (§ 1º do art. 20) - regulamento da TDC sem doacao"
+      ],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Decreto do prefeito Joao Doria. Ajusta o rito da TDC sem doacao (Decreto 57.536/2016) e disciplina a transferencia de potencial sob o art. 15 §1 da LPUOS (Lei 16.402/2016). Complementa a base normativa da TDC ja no corpus (57.536/2016 e 58.289/2018)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-58176-2018::003-art-2o": {
+    "lei_id": "decreto-saopaulo-58176-2018",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 2º",
+    "tema": [
+      "transferencia_direito_construir",
+      "tdc_sem_doacao",
+      "potencial_construtivo",
+      "declaracao_potencial_construtivo",
+      "certidao_transferencia",
+      "coeficiente_aproveitamento",
+      "outorga_onerosa"
+    ],
+    "dominio": [
+      "tdc"
+    ],
+    "dominio_primario": "tdc",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2018-04-03",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [
+        "Decreto nº 57.536/2016 (§ 1º do art. 20) - regulamento da TDC sem doacao"
+      ],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Decreto do prefeito Joao Doria. Ajusta o rito da TDC sem doacao (Decreto 57.536/2016) e disciplina a transferencia de potencial sob o art. 15 §1 da LPUOS (Lei 16.402/2016). Complementa a base normativa da TDC ja no corpus (57.536/2016 e 58.289/2018)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-58176-2018::004-art-3o": {
+    "lei_id": "decreto-saopaulo-58176-2018",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 3º",
+    "tema": [
+      "transferencia_direito_construir",
+      "tdc_sem_doacao",
+      "potencial_construtivo",
+      "declaracao_potencial_construtivo",
+      "certidao_transferencia",
+      "coeficiente_aproveitamento",
+      "outorga_onerosa"
+    ],
+    "dominio": [
+      "tdc"
+    ],
+    "dominio_primario": "tdc",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2018-04-03",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [
+        "Decreto nº 57.536/2016 (§ 1º do art. 20) - regulamento da TDC sem doacao"
+      ],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Decreto do prefeito Joao Doria. Ajusta o rito da TDC sem doacao (Decreto 57.536/2016) e disciplina a transferencia de potencial sob o art. 15 §1 da LPUOS (Lei 16.402/2016). Complementa a base normativa da TDC ja no corpus (57.536/2016 e 58.289/2018)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
   "decreto-saopaulo-58289-2018::001-preambulo": {
     "lei_id": "decreto-saopaulo-58289-2018",
     "tipo_dispositivo": "preambulo",
@@ -2597,6 +2749,196 @@
       "revoga": [
         "Decreto 57.535/2016"
       ]
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-63999-2024::001-preambulo": {
+    "lei_id": "decreto-saopaulo-63999-2024",
+    "tipo_dispositivo": "preambulo",
+    "rotulo": "Preâmbulo",
+    "tema": [
+      "outorga_onerosa",
+      "cadastro_valor_terreno",
+      "quadro_14",
+      "transferencia_direito_construir",
+      "incentivo_parque",
+      "potencial_construtivo",
+      "atualizacao_valores"
+    ],
+    "dominio": [
+      "tdc"
+    ],
+    "dominio_primario": "tdc",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2025-01-01",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [
+        "Quadro 14 (Cadastro de Valor de Terreno) anexo a Lei nº 16.050/2014 - atualizacao de valores para o exercicio de 2025"
+      ],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Decreto de atualizacao anual (vintage) do Quadro 14, editado sob o art. 118 da Lei 16.050/2014. Integra a serie de reajuste: base 2014 -> Dec 59.166/2019 -> Dec 62.135/2022 -> Dec 63.108/2023 -> ESTE (+4,5%, exercicio 2025) -> Dec 64.884/2025. Os valores NOMINAIS saem por Portaria SMUL (Art. 2) - o numero nasce no engine a partir da tabela, nao do texto (1.3)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": false
+  },
+  "decreto-saopaulo-63999-2024::002-art-1o": {
+    "lei_id": "decreto-saopaulo-63999-2024",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 1º",
+    "tema": [
+      "outorga_onerosa",
+      "cadastro_valor_terreno",
+      "quadro_14",
+      "transferencia_direito_construir",
+      "incentivo_parque",
+      "potencial_construtivo",
+      "atualizacao_valores"
+    ],
+    "dominio": [
+      "tdc"
+    ],
+    "dominio_primario": "tdc",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2025-01-01",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [
+        "Quadro 14 (Cadastro de Valor de Terreno) anexo a Lei nº 16.050/2014 - atualizacao de valores para o exercicio de 2025"
+      ],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Decreto de atualizacao anual (vintage) do Quadro 14, editado sob o art. 118 da Lei 16.050/2014. Integra a serie de reajuste: base 2014 -> Dec 59.166/2019 -> Dec 62.135/2022 -> Dec 63.108/2023 -> ESTE (+4,5%, exercicio 2025) -> Dec 64.884/2025. Os valores NOMINAIS saem por Portaria SMUL (Art. 2) - o numero nasce no engine a partir da tabela, nao do texto (1.3)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-63999-2024::003-art-2o": {
+    "lei_id": "decreto-saopaulo-63999-2024",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 2º",
+    "tema": [
+      "outorga_onerosa",
+      "cadastro_valor_terreno",
+      "quadro_14",
+      "transferencia_direito_construir",
+      "incentivo_parque",
+      "potencial_construtivo",
+      "atualizacao_valores"
+    ],
+    "dominio": [
+      "tdc"
+    ],
+    "dominio_primario": "tdc",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2025-01-01",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [
+        "Quadro 14 (Cadastro de Valor de Terreno) anexo a Lei nº 16.050/2014 - atualizacao de valores para o exercicio de 2025"
+      ],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Decreto de atualizacao anual (vintage) do Quadro 14, editado sob o art. 118 da Lei 16.050/2014. Integra a serie de reajuste: base 2014 -> Dec 59.166/2019 -> Dec 62.135/2022 -> Dec 63.108/2023 -> ESTE (+4,5%, exercicio 2025) -> Dec 64.884/2025. Os valores NOMINAIS saem por Portaria SMUL (Art. 2) - o numero nasce no engine a partir da tabela, nao do texto (1.3)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-63999-2024::004-art-3o": {
+    "lei_id": "decreto-saopaulo-63999-2024",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 3º",
+    "tema": [
+      "outorga_onerosa",
+      "cadastro_valor_terreno",
+      "quadro_14",
+      "transferencia_direito_construir",
+      "incentivo_parque",
+      "potencial_construtivo",
+      "atualizacao_valores"
+    ],
+    "dominio": [
+      "tdc"
+    ],
+    "dominio_primario": "tdc",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2025-01-01",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [
+        "Quadro 14 (Cadastro de Valor de Terreno) anexo a Lei nº 16.050/2014 - atualizacao de valores para o exercicio de 2025"
+      ],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Decreto de atualizacao anual (vintage) do Quadro 14, editado sob o art. 118 da Lei 16.050/2014. Integra a serie de reajuste: base 2014 -> Dec 59.166/2019 -> Dec 62.135/2022 -> Dec 63.108/2023 -> ESTE (+4,5%, exercicio 2025) -> Dec 64.884/2025. Os valores NOMINAIS saem por Portaria SMUL (Art. 2) - o numero nasce no engine a partir da tabela, nao do texto (1.3)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-63999-2024::005-art-4o": {
+    "lei_id": "decreto-saopaulo-63999-2024",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 4º",
+    "tema": [
+      "outorga_onerosa",
+      "cadastro_valor_terreno",
+      "quadro_14",
+      "transferencia_direito_construir",
+      "incentivo_parque",
+      "potencial_construtivo",
+      "atualizacao_valores"
+    ],
+    "dominio": [
+      "tdc"
+    ],
+    "dominio_primario": "tdc",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2025-01-01",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [
+        "Quadro 14 (Cadastro de Valor de Terreno) anexo a Lei nº 16.050/2014 - atualizacao de valores para o exercicio de 2025"
+      ],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Decreto de atualizacao anual (vintage) do Quadro 14, editado sob o art. 118 da Lei 16.050/2014. Integra a serie de reajuste: base 2014 -> Dec 59.166/2019 -> Dec 62.135/2022 -> Dec 63.108/2023 -> ESTE (+4,5%, exercicio 2025) -> Dec 64.884/2025. Os valores NOMINAIS saem por Portaria SMUL (Art. 2) - o numero nasce no engine a partir da tabela, nao do texto (1.3)."
     },
     "vigencia_dispositivo": {
       "status": "original",

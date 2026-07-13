@@ -1,0 +1,51 @@
+{
+  "chunk_id": "decreto-saopaulo-58176-2018::004-art-3o",
+  "lei_id": "decreto-saopaulo-58176-2018",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 3º",
+  "numero": "3",
+  "header_raw": "Art. 3º Este decreto entrará em vigor na data de sua publicação.",
+  "caminho_hierarquico": [
+    "Art. 3º"
+  ],
+  "texto": "Art. 3º Este decreto entrará em vigor na data de sua publicação.\n\nPREFEITURA DO MUNICÍPIO DE SÃO PAULO, aos 3 de abril de 2018, 465º da fundação de São Paulo.\n\nJOÃO DORIA, PREFEITO\n\nHELOISA MARIA DE SALLES PENTEADO PROENÇA, Secretária Municipal de Urbanismo e Licenciamento\n\nANDERSON POMINI, Secretário Municipal de Justiça\n\nJULIO FRANCISCO SEMEGHINI NETO, Secretário do Governo Municipal\n\nBRUNO COVAS, Secretário-Chefe da Casa Civil\n\nPublicado na Casa Civil, em 3 de abril de 2018.\n\nEste texto não substitui o original publicado no Diário Oficial da Cidade de São Paulo.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 58.176/2018 — São Paulo/SP",
+    "dispositivo": "Art. 3º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-58176-de-3-de-abril-de-2018",
+    "vigencia": {
+      "inicio": "2018-04-03",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [
+        "Decreto nº 57.536/2016 (§ 1º do art. 20) - regulamento da TDC sem doacao"
+      ],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Decreto do prefeito Joao Doria. Ajusta o rito da TDC sem doacao (Decreto 57.536/2016) e disciplina a transferencia de potencial sob o art. 15 §1 da LPUOS (Lei 16.402/2016). Complementa a base normativa da TDC ja no corpus (57.536/2016 e 58.289/2018)."
+    }
+  },
+  "tema": [
+    "transferencia_direito_construir",
+    "tdc_sem_doacao",
+    "potencial_construtivo",
+    "declaracao_potencial_construtivo",
+    "certidao_transferencia",
+    "coeficiente_aproveitamento",
+    "outorga_onerosa"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Altera a redação do § 1º do artigo 20 do Decreto nº 57.536, de 15 de dezembro de 2016, que regulamenta a Transferência do Direito de Construir nos casos em que não há doação do imóvel cedente; fixa regras para transferência de potencial construtivo em casos disciplinados pelo § 1º do artigo 15 da Lei nº 16.402, de 22 de março de 2016."
+}
