@@ -241,8 +241,9 @@ def classificar_llm(nome, texto):
     import urllib.request
     body = json.dumps({"contents": [{"parts": [{"text": prompt}]}],
                        "generationConfig": {"temperature": 0}}).encode()
-    # INTELIGÊNCIA onde decide (steer do MOU): modelo FORTE 1º na fração ambígua; flash só de reserva.
-    modelos = [os.environ.get("GEMINI_MODEL", "gemini-2.5-pro"), "gemini-2.0-flash", "gemini-flash-latest"]
+    # Steer do MOU (inteligência onde decide, não no braçal): flash RÁPIDO no volume dos ambíguos;
+    # a fração de baixa confiança do flash o ORQUESTRADOR (eu) revisa depois — é lá que mora o julgamento.
+    modelos = [os.environ.get("GEMINI_MODEL", "gemini-2.0-flash"), "gemini-flash-latest", "gemini-2.5-pro"]
     for modelo in modelos:
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{modelo}:generateContent?key={key}"
         try:
