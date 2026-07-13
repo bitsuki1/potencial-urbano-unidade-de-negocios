@@ -17003,6 +17003,2314 @@
     },
     "citavel": true
   },
+  "lei-federal-10257-2001::001-preambulo": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "preambulo",
+    "rotulo": "Preâmbulo",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "compilado",
+      "revogado_por": null,
+      "marcadores": [
+        "redacao_dada"
+      ],
+      "data_redacao": "2022",
+      "norma_redacao": "Lei nº \n14.489, de 2022"
+    },
+    "citavel": false
+  },
+  "lei-federal-10257-2001::002-art-10": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 10",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::003-art-10": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 10",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "compilado",
+      "revogado_por": null,
+      "marcadores": [
+        "redacao_dada"
+      ],
+      "data_redacao": "2017",
+      "norma_redacao": "lei \nnº 13.465, de 2017"
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::004-art-11": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 11",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::005-art-12": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 12",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::006-art-13": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 13",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::007-art-14": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 14",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::008-art-15": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 15",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::009-art-16": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 16",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::010-art-17": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 17",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::011-art-18": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 18",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::012-art-19": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 19",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::013-art-20": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 20",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::014-art-21": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 21",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::015-art-22": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 22",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::016-art-23": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 23",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::017-art-24": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 24",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::018-art-25": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 25",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::019-art-26": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 26",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::020-art-27": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 27",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::021-art-28": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 28",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::022-art-29": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 29",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::023-art-30": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 30",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::024-art-31": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 31",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::025-art-32": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 32",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "compilado",
+      "revogado_por": null,
+      "marcadores": [
+        "redacao_dada"
+      ],
+      "data_redacao": "2013",
+      "norma_redacao": "Lei nº \n12.836, de 2013"
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::026-art-34": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 34",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::027-art-34-a": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 34-A",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::028-art-35": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 35",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::029-art-36": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 36",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::030-art-37": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 37",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "compilado",
+      "revogado_por": null,
+      "marcadores": [
+        "redacao_dada"
+      ],
+      "data_redacao": "2024",
+      "norma_redacao": "Lei nº 14.849, de 2024"
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::031-art-38": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 38",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::032-art-39": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 39",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::033-art-40": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 40",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::034-art-41": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 41",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::035-art-42": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 42",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::036-art-42-a": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 42-A",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::037-art-43": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 43",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::038-art-44": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 44",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::039-art-45": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 45",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::040-art-46": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 46",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::041-art-46": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 46",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "compilado",
+      "revogado_por": null,
+      "marcadores": [
+        "redacao_dada"
+      ],
+      "data_redacao": "2017",
+      "norma_redacao": "lei \nnº 13.465, de 2017"
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::042-art-47": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 47",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::043-art-48": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 48",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::044-art-49": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 49",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::045-art-50": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 50",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::046-art-50": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 50",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "compilado",
+      "revogado_por": null,
+      "marcadores": [
+        "redacao_dada"
+      ],
+      "data_redacao": null,
+      "norma_redacao": "Lei nº \n11.673"
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::047-art-51": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 51",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::048-art-52": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 52",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::049-art-53": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 53",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::050-art-54": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 54",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::051-art-55": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 55",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::052-art-56": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 56",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::053-art-57": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 57",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::054-art-57-a": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 57-A",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::055-art-57-a": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 57-A",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-federal-10257-2001::056-art-58": {
+    "lei_id": "lei-federal-10257-2001",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 58",
+    "tema": [
+      "politica_urbana",
+      "estatuto_da_cidade",
+      "plano_diretor",
+      "outorga_onerosa",
+      "transferencia_direito_construir",
+      "parcelamento_edificacao_compulsorios",
+      "iptu_progressivo_tempo",
+      "operacao_urbana_consorciada",
+      "direito_preempcao",
+      "potencial_construtivo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "Brasil",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
   "lei-federal-10931-2004::001-preambulo": {
     "lei_id": "lei-federal-10931-2004",
     "tipo_dispositivo": "preambulo",

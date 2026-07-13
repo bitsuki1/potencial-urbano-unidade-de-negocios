@@ -1,0 +1,57 @@
+{
+  "chunk_id": "lei-federal-10257-2001::041-art-46",
+  "lei_id": "lei-federal-10257-2001",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 46",
+  "numero": "46",
+  "header_raw": "Art. 46.",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Art. 46"
+  ],
+  "texto": "Art. 46. \nO poder público municipal poderá facultar ao proprietário da área atingida pela \nobrigação de que trata o caput \ndo art. 5o desta Lei, ou objeto de regularização fundiária \nurbana para fins de regularização fundiária, o estabelecimento de consórcio \nimobiliário como forma de viabilização financeira do aproveitamento do imóvel. \n(Redação dada pela lei \nnº 13.465, de 2017)\n\n\n\n§\n1o Considera-se consórcio imobiliário a forma de viabilização de\nplanos de urbanização ou edificação por meio da qual o proprietário transfere ao\nPoder Público municipal seu imóvel e, após a realização das obras, recebe, como\npagamento, unidades imobiliárias devidamente urbanizadas ou edificadas.\n\n\n\n\n§ 1o \nConsidera-se consórcio imobiliário a forma de viabilização de planos de \nurbanização, de regularização fundiária ou de reforma, conservação ou construção \nde edificação por meio da qual o proprietário transfere ao \npoder \npúblico municipal seu imóvel e, após a realização das obras, recebe, como \npagamento, unidades imobiliárias devidamente urbanizadas ou edificadas, ficando \nas demais unidades incorporadas ao patrimônio público. \n\n(Redação dada pela lei \nnº 13.465, de 2017)\n\n\n§\n2o O valor das unidades imobiliárias a serem entregues ao proprietário\nserá correspondente ao valor do imóvel antes da execução das obras, observado o\ndisposto no § 2o do art. 8o desta Lei.\n\n\n\n\n§ 2o O valor \ndas unidades imobiliárias a serem entregues ao proprietário será correspondente \nao valor do imóvel antes da execução das obras. \n(Redação dada pela lei \nnº 13.465, de 2017)\n\n\n\n\n\n§ 3o A instauração do consórcio imobiliário por proprietários \nque tenham dado causa à formação de núcleos urbanos informais, ou por seus \nsucessores, não os eximirá das responsabilidades administrativa, civil ou \ncriminal \n(incluído pela lei nº \n13.465, de 2017)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "2017",
+    "norma_redacao": "lei \nnº 13.465, de 2017"
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 10.257/2001 — Brasil",
+    "dispositivo": "CAPÍTULO V › Art. 46",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/leis_2001/l10257.htm",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    }
+  },
+  "tema": [
+    "politica_urbana",
+    "estatuto_da_cidade",
+    "plano_diretor",
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "parcelamento_edificacao_compulsorios",
+    "iptu_progressivo_tempo",
+    "operacao_urbana_consorciada",
+    "direito_preempcao",
+    "potencial_construtivo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "Brasil",
+  "ementa": "Regulamenta os arts. 182 e 183 da Constituição Federal, estabelece diretrizes gerais da política urbana e dá outras providências. (Estatuto da Cidade)"
+}

@@ -1,0 +1,58 @@
+{
+  "chunk_id": "lei-federal-10257-2001::025-art-32",
+  "lei_id": "lei-federal-10257-2001",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 32",
+  "numero": "32",
+  "header_raw": "Art. 32. Lei municipal específica, baseada no plano diretor, poderá delimitar",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção X",
+    "Art. 32"
+  ],
+  "texto": "Art. 32. Lei municipal específica, baseada no plano diretor, poderá delimitar\nárea para aplicação de operações consorciadas.\n\n\n\n§\n1o Considera-se operação urbana consorciada o conjunto de\nintervenções e medidas coordenadas pelo Poder Público municipal, com a participação\ndos proprietários, moradores, usuários permanentes e investidores privados, com o\nobjetivo de alcançar em uma área transformações urbanísticas estruturais, melhorias\nsociais e a valorização ambiental.\n\n\n\n§\n2o Poderão ser previstas nas operações urbanas consorciadas, entre\noutras medidas:\n\n\n\nI\n– a modificação de índices e características de parcelamento, uso e ocupação do\nsolo e subsolo, bem como alterações das normas edilícias, considerado o impacto\nambiental delas decorrente;\n\n\n\nII\n– a regularização de construções, reformas ou ampliações executadas em\ndesacordo com a legislação vigente.\n\n\n\n\n\n\n\n\n\n\n\n\nIII - a concessão de incentivos \na operações urbanas que utilizam tecnologias visando a redução de impactos \nambientais, e que comprovem a utilização, nas construções e uso de edificações \nurbanas, de tecnologias que reduzam os impactos ambientais e economizem recursos \nnaturais, especificadas as modalidades de \ndesign e de obras a serem \ncontempladas. \n(Incluído pela Lei nº 12.836, \nde 2013)\n\n\n\nArt. 33. Da lei específica que aprovar a operação urbana consorciada constará o\nplano de operação urbana consorciada, contendo, no mínimo:\n\n\n\nI\n– definição da área a ser atingida;\n\n\n\nII\n– programa básico de ocupação da área;\n\n\n\nIII – programa de atendimento econômico e social para a população diretamente\nafetada pela operação;\n\n\n\nIV\n– finalidades da operação;\n\n\n\nV\n– estudo prévio de impacto de vizinhança;\n\n\n\nVI\n– contrapartida a ser exigida dos proprietários, usuários permanentes e\ninvestidores privados em função da utilização dos benefícios previstos nos incisos I\ne II do § 2o do art. 32 desta Lei;\n\n\n\n\n\nVI - \ncontrapartida a ser exigida dos proprietários, usuários permanentes e \ninvestidores privados em função da utilização dos benefícios previstos nos \nincisos I, II e III do § 2o do art. 32 desta Lei; \n(Redação dada pela Lei nº \n12.836, de 2013)\n\n\n\nVII – forma de controle da operação, obrigatoriamente compartilhado com\nrepresentação da sociedade civil.\n\n\n\n\n\nVIII - \nnatureza dos incentivos a serem concedidos aos proprietários, usuários \npermanentes e investidores privados, uma vez atendido o disposto no inciso III \ndo § 2o do art. 32 desta Lei. \n(Incluído pela Lei nº 12.836, \nde 2013)\n\n\n\n§\n1o Os recursos obtidos pelo Poder Público municipal na forma do inciso\nVI deste artigo serão aplicados exclusivamente na própria operação urbana consorciada.\n\n\n\n§\n2o A partir da aprovação da lei específica de que trata o caput, são\nnulas as licenças e autorizações a cargo do Poder Público municipal expedidas em\ndesacordo com o plano de operação urbana consorciada.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "2013",
+    "norma_redacao": "Lei nº \n12.836, de 2013"
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 10.257/2001 — Brasil",
+    "dispositivo": "CAPÍTULO II › Seção X › Art. 32",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/leis_2001/l10257.htm",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    }
+  },
+  "tema": [
+    "politica_urbana",
+    "estatuto_da_cidade",
+    "plano_diretor",
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "parcelamento_edificacao_compulsorios",
+    "iptu_progressivo_tempo",
+    "operacao_urbana_consorciada",
+    "direito_preempcao",
+    "potencial_construtivo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "Brasil",
+  "ementa": "Regulamenta os arts. 182 e 183 da Constituição Federal, estabelece diretrizes gerais da política urbana e dá outras providências. (Estatuto da Cidade)"
+}

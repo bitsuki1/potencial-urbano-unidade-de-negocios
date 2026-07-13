@@ -1,0 +1,55 @@
+{
+  "chunk_id": "lei-federal-10257-2001::043-art-48",
+  "lei_id": "lei-federal-10257-2001",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 48",
+  "numero": "48",
+  "header_raw": "Art. 48. Nos casos de programas e projetos habitacionais de interesse social,",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Art. 48"
+  ],
+  "texto": "Art. 48. Nos casos de programas e projetos habitacionais de interesse social,\ndesenvolvidos por órgãos ou entidades da Administração Pública com atuação\nespecífica nessa área, os contratos de concessão de direito real de uso de imóveis\npúblicos:\n\n\n\nI\n– terão, para todos os fins de direito, caráter de escritura pública, não se\naplicando o disposto no inciso II do art. 134 do Código Civil;\n\n\n\nII\n– constituirão título de aceitação obrigatória em garantia de contratos de\nfinanciamentos habitacionais.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 10.257/2001 — Brasil",
+    "dispositivo": "CAPÍTULO V › Art. 48",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/leis_2001/l10257.htm",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    }
+  },
+  "tema": [
+    "politica_urbana",
+    "estatuto_da_cidade",
+    "plano_diretor",
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "parcelamento_edificacao_compulsorios",
+    "iptu_progressivo_tempo",
+    "operacao_urbana_consorciada",
+    "direito_preempcao",
+    "potencial_construtivo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "Brasil",
+  "ementa": "Regulamenta os arts. 182 e 183 da Constituição Federal, estabelece diretrizes gerais da política urbana e dá outras providências. (Estatuto da Cidade)"
+}

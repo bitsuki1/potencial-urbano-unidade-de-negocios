@@ -119,7 +119,11 @@ SCORE_MIN = 1.5
 # exige que o top-1 cubra fração suficiente do PESO discriminativo da pergunta: termos raros/específicos
 # (inclusive os AUSENTES do corpus — idf máximo) pesam no denominador, então uma pergunta cujo miolo
 # temático não casa é rejeitada, mesmo casando muitos termos comuns.
-WCOB_MIN = 0.41   # re-calibrado 2026-07-13 (ingestão TDC de 11 normas mudou o IDF do corpus).
+WCOB_MIN = 0.41   # re-calibrado 2026-07-13 (ingestão TDC mudou o IDF do corpus).
+# COB_FORTE — a 2a via da REGRA COMPOSTA do gate 1.7 (ver bloco GATE): cobertura BRUTA forte
+# fundamenta mesmo com wcob no limite, SEM reabrir a armadilha B-04 (que casa poucos termos).
+# Medido: legítimas fronteiriças cob=0,57–0,70 · armadilha B-04 cob=0,44. 0,55 fica no meio.
+COB_FORTE = 0.55
 # O limiar DEPENDE do corpus. Ao entrar normas com "licenciamento/ambiental/industrial/procedimento" em
 # contexto NÃO temático, o IDF desses termos caiu e a armadilha B-04 (licenciamento ambiental de indústria
 # poluente, tema AUSENTE) subiu de <0,40 → 0,404 — passava FUNDAMENTADA por palavra comum. Medido no
@@ -218,9 +222,14 @@ def consultar(pergunta, lei=None, tema=None, jurisdicao=None, data=None, dominio
             motivo = f"score {sc} < piso {SCORE_MIN}"
         elif n_conteudo >= 2 and ncas < 2:
             motivo = f"só {ncas} termo casado (match genérico) para pergunta de {n_conteudo} termos"
-        elif wcob < WCOB_MIN:
-            motivo = (f"cobertura-IDF {wcob:.0%} < {WCOB_MIN:.0%} (só termos comuns casaram; "
-                      f"o miolo discriminativo da pergunta não foi coberto)")
+        elif wcob < WCOB_MIN and cob < COB_FORTE:
+            # REGRA COMPOSTA (2026-07-13): o wcob (peso-IDF) sozinho ficou frágil ao crescimento do
+            # corpus — legítimas caíram a wcob~0,40 enquanto a armadilha B-04 subiu a 0,404. Mas a
+            # cobertura SEM peso separa limpo (legítimas cob≥0,57 · armadilha cob=0,44). Fundamenta se
+            # o miolo-IDF passa (wcob≥WCOB_MIN) OU a cobertura bruta é FORTE (cob≥COB_FORTE): casar
+            # muitos termos comuns só salva se forem MUITOS (a armadilha casa poucos), então B-04 segura.
+            motivo = (f"cobertura-IDF {wcob:.0%} < {WCOB_MIN:.0%} e cobertura {cob:.0%} < {COB_FORTE:.0%} "
+                      f"(só termos comuns casaram; o miolo discriminativo da pergunta não foi coberto)")
         else:
             fundamentada = True
     veredito = "FUNDAMENTADA" if fundamentada else (

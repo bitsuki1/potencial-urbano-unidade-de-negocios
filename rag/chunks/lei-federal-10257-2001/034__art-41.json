@@ -1,0 +1,55 @@
+{
+  "chunk_id": "lei-federal-10257-2001::034-art-41",
+  "lei_id": "lei-federal-10257-2001",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 41",
+  "numero": "41",
+  "header_raw": "Art. 41. O plano diretor é obrigatório para cidades:",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 41"
+  ],
+  "texto": "Art. 41. O plano diretor é obrigatório para cidades:\n\n\n\nI\n– com mais de vinte mil habitantes;\n\n\n\nII\n– integrantes de regiões metropolitanas e aglomerações urbanas;\n\n\n\nIII – onde o Poder Público municipal pretenda utilizar os instrumentos previstos no § 4o do art. 182 da\nConstituição Federal;\n\n\n\nIV\n– integrantes de áreas de especial interesse turístico;\n\n\nV\n– inseridas na área de influência de empreendimentos ou atividades com\nsignificativo impacto ambiental de âmbito regional ou nacional.\n\n\n\n\n\nVI - \nincluídas no cadastro nacional de Municípios com áreas suscetíveis à ocorrência \nde deslizamentos de grande impacto, inundações bruscas ou processos geológicos \nou hidrológicos correlatos. \n\n(Incluído pela Lei nº \n12.608, de 2012)\n\n\n\n§\n1o No caso da realização de empreendimentos ou atividades enquadrados\nno inciso V do caput, os recursos técnicos e financeiros para a elaboração do plano\ndiretor estarão inseridos entre as medidas de compensação adotadas.\n\n\n\n§\n2o No caso de cidades com mais de quinhentos mil habitantes, deverá ser\nelaborado um plano de transporte urbano integrado, compatível com o plano diretor ou nele\ninserido.\n\n\n\n§ 3o As cidades de que \ntrata o caput deste artigo devem elaborar plano de rotas \nacessíveis, compatível com o plano diretor no qual está inserido, que \ndisponha sobre os passeios públicos a serem implantados ou reformados \npelo poder público, com vistas a garantir acessibilidade da pessoa com \ndeficiência ou com mobilidade reduzida a todas as rotas e vias \nexistentes, inclusive as que concentrem os focos geradores de maior \ncirculação de pedestres, como os órgãos públicos e os locais de \nprestação de serviços públicos e privados de saúde, educação, \nassistência social, esporte, cultura, correios e telégrafos, bancos, \nentre outros, sempre que possível de maneira integrada com os sistemas \nde transporte coletivo de passageiros. \n(Incluído pela Lei nº 13.146, de \n2015) \n\n(Vigência)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 10.257/2001 — Brasil",
+    "dispositivo": "CAPÍTULO III › Art. 41",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/leis_2001/l10257.htm",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    }
+  },
+  "tema": [
+    "politica_urbana",
+    "estatuto_da_cidade",
+    "plano_diretor",
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "parcelamento_edificacao_compulsorios",
+    "iptu_progressivo_tempo",
+    "operacao_urbana_consorciada",
+    "direito_preempcao",
+    "potencial_construtivo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "Brasil",
+  "ementa": "Regulamenta os arts. 182 e 183 da Constituição Federal, estabelece diretrizes gerais da política urbana e dá outras providências. (Estatuto da Cidade)"
+}

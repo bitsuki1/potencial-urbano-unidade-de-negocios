@@ -1,0 +1,56 @@
+{
+  "chunk_id": "lei-federal-10257-2001::020-art-27",
+  "lei_id": "lei-federal-10257-2001",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 27",
+  "numero": "27",
+  "header_raw": "Art. 27. O proprietário deverá notificar sua intenção de alienar o imóvel,",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção VIII",
+    "Art. 27"
+  ],
+  "texto": "Art. 27. O proprietário deverá notificar sua intenção de alienar o imóvel,\npara que o Município, no prazo máximo de trinta dias, manifeste por escrito seu\ninteresse em comprá-lo.\n\n\n\n§\n1o À notificação mencionada no caput será anexada proposta de compra\nassinada por terceiro interessado na aquisição do imóvel, da qual constarão preço,\ncondições de pagamento e prazo de validade.\n\n\n\n§\n2o O Município fará publicar, em órgão oficial e em pelo menos um\njornal local ou regional de grande circulação, edital de aviso da notificação recebida\nnos termos do caput e da intenção de aquisição do imóvel nas condições da proposta\napresentada.\n\n\n§\n3o Transcorrido o prazo mencionado no caput sem manifestação, fica o\nproprietário autorizado a realizar a alienação para terceiros, nas condições da\nproposta apresentada.\n\n\n\n§\n4o Concretizada a venda a terceiro, o proprietário fica obrigado a\napresentar ao Município, no prazo de trinta dias, cópia do instrumento público de\nalienação do imóvel.\n\n\n\n§\n5o A alienação processada em condições diversas da proposta\napresentada é nula de pleno direito.\n\n\n\n§\n6o Ocorrida a hipótese prevista no § 5o o Município\npoderá adquirir o imóvel pelo valor da base de cálculo do IPTU ou pelo valor indicado\nna proposta apresentada, se este for inferior àquele.\n\n\nSeção IX \n\n\n\nDa outorga onerosa do direito de construir",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 10.257/2001 — Brasil",
+    "dispositivo": "CAPÍTULO II › Seção VIII › Art. 27",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/leis_2001/l10257.htm",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    }
+  },
+  "tema": [
+    "politica_urbana",
+    "estatuto_da_cidade",
+    "plano_diretor",
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "parcelamento_edificacao_compulsorios",
+    "iptu_progressivo_tempo",
+    "operacao_urbana_consorciada",
+    "direito_preempcao",
+    "potencial_construtivo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "Brasil",
+  "ementa": "Regulamenta os arts. 182 e 183 da Constituição Federal, estabelece diretrizes gerais da política urbana e dá outras providências. (Estatuto da Cidade)"
+}

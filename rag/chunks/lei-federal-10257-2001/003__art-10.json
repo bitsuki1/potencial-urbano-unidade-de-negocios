@@ -1,0 +1,58 @@
+{
+  "chunk_id": "lei-federal-10257-2001::003-art-10",
+  "lei_id": "lei-federal-10257-2001",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 10",
+  "numero": "10",
+  "header_raw": "Art. 10.",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção V",
+    "Art. 10"
+  ],
+  "texto": "Art. 10. \nOs núcleos urbanos informais existentes sem oposição há mais de cinco anos e \ncuja área total dividida pelo número de possuidores seja inferior a duzentos e cinquenta metros \nquadrados por possuidor são suscetíveis de serem usucapidos coletivamente, desde \nque os possuidores não sejam proprietários de outro imóvel urbano ou rural. \n(Redação dada pela lei \nnº 13.465, de 2017)\n\n\n\n§\n1o O possuidor pode, para o fim de contar o prazo exigido por este\nartigo, acrescentar sua posse à de seu antecessor, contanto que ambas sejam contínuas.\n\n\n\n§\n2o A usucapião especial coletiva de imóvel urbano será declarada pelo\njuiz, mediante sentença, a qual servirá de título para registro no cartório de\nregistro de imóveis.\n\n\n\n§\n3o Na sentença, o juiz atribuirá igual fração ideal de terreno a\ncada possuidor, independentemente da dimensão do terreno que cada um ocupe, salvo\nhipótese de acordo escrito entre os condôminos, estabelecendo frações ideais\ndiferenciadas.\n\n\n\n§\n4o O condomínio especial constituído é indivisível, não sendo\npassível de extinção, salvo deliberação favorável tomada por, no mínimo, dois\nterços dos condôminos, no caso de execução de urbanização posterior à\nconstituição do condomínio.\n\n\n\n§\n5o As deliberações relativas à administração do condomínio\nespecial serão tomadas por maioria de votos dos condôminos presentes, obrigando também\nos demais, discordantes ou ausentes.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "2017",
+    "norma_redacao": "lei \nnº 13.465, de 2017"
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 10.257/2001 — Brasil",
+    "dispositivo": "CAPÍTULO II › Seção V › Art. 10",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/leis_2001/l10257.htm",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    }
+  },
+  "tema": [
+    "politica_urbana",
+    "estatuto_da_cidade",
+    "plano_diretor",
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "parcelamento_edificacao_compulsorios",
+    "iptu_progressivo_tempo",
+    "operacao_urbana_consorciada",
+    "direito_preempcao",
+    "potencial_construtivo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "Brasil",
+  "ementa": "Regulamenta os arts. 182 e 183 da Constituição Federal, estabelece diretrizes gerais da política urbana e dá outras providências. (Estatuto da Cidade)"
+}

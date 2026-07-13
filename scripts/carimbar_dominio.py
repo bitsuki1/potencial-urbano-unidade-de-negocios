@@ -64,6 +64,10 @@ COMPARTILHADO = {
     "lei-municipal-saopaulo-17577-2021":
         "Requalifica Centro: Art. 11 ZEPEC-BIR pode requisitar TDC E Art. 16 remissão/isenção IPTU "
         "progressiva (3+5 anos). Serve aos dois domínios (P3).",
+    "lei-federal-10257-2001":
+        "Estatuto da Cidade (regulamenta arts. 182/183 da CF) — base FEDERAL dos instrumentos: OODC "
+        "(arts. 28-31) e TDC (art. 35) DO lado urbanístico E IPTU progressivo no tempo (art. 7) DO lado "
+        "tributário. Serve aos DOIS domínios (compartilhado). Ingerido do Planalto 2026-07-13.",
 }
 # --- TDC puro: efeito exclusivo de potencial construtivo. Hoje VAZIO em leis/ — a massa normativa TDC
 # (Decreto 57.536/2016, decretos ZEPEC/CONPRESP) ainda não foi ingerida; entrará marcada 'tdc'. ---

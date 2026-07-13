@@ -1,0 +1,56 @@
+{
+  "chunk_id": "lei-federal-10257-2001::014-art-21",
+  "lei_id": "lei-federal-10257-2001",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 21",
+  "numero": "21",
+  "header_raw": "Art. 21. O proprietário urbano poderá conceder a outrem o direito de superfície",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção VII",
+    "Art. 21"
+  ],
+  "texto": "Art. 21. O proprietário urbano poderá conceder a outrem o direito de superfície\ndo seu terreno, por tempo determinado ou indeterminado, mediante escritura pública\nregistrada no cartório de registro de imóveis.\n\n\n\n\n§ 1o O direito de superfície abrange o direito de utilizar o solo, o\nsubsolo ou o espaço aéreo relativo ao terreno, na forma estabelecida no contrato\nrespectivo, atendida a legislação urbanística.\n\n\n\n§\n2o A concessão do direito de superfície poderá ser gratuita ou\nonerosa.\n\n\n\n§\n3o O superficiário responderá integralmente pelos encargos e tributos\nque incidirem sobre a propriedade superficiária, arcando, ainda, proporcionalmente à sua\nparcela de ocupação efetiva, com os encargos e tributos sobre a área objeto da\nconcessão do direito de superfície, salvo disposição em contrário do contrato\nrespectivo.\n\n\n\n§\n4o O direito de superfície pode ser transferido a terceiros, obedecidos\nos termos do contrato respectivo.\n\n\n\n§\n5o Por morte do superficiário, os seus direitos transmitem-se a seus\nherdeiros.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 10.257/2001 — Brasil",
+    "dispositivo": "CAPÍTULO II › Seção VII › Art. 21",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/leis_2001/l10257.htm",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    }
+  },
+  "tema": [
+    "politica_urbana",
+    "estatuto_da_cidade",
+    "plano_diretor",
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "parcelamento_edificacao_compulsorios",
+    "iptu_progressivo_tempo",
+    "operacao_urbana_consorciada",
+    "direito_preempcao",
+    "potencial_construtivo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "Brasil",
+  "ementa": "Regulamenta os arts. 182 e 183 da Constituição Federal, estabelece diretrizes gerais da política urbana e dá outras providências. (Estatuto da Cidade)"
+}
