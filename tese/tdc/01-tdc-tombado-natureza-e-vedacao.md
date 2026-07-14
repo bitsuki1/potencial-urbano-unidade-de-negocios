@@ -1,6 +1,6 @@
 # Tese TDC nº 01 — O potencial do imóvel tombado: natureza compensatória e a vedação do Art. 124 §2º
 
-> **STATUS: PROPOSTA v3 — após ESCRUTÍNIO INTENSO + 4 LENTES NOVAS (2026-07-14). Aguarda o gate final do MOU (D-13).**
+> **STATUS: ✅ APROVADA v3 — gate D-13 LIBERADO pelo MOU em 2026-07-14 (delegou o auto-escrutínio das próximas). Após ESCRUTÍNIO INTENSO + 4 LENTES NOVAS.**
 > _v2 corrigiu o escopo do §2º (só AUE/APPa) e o STF-por-analogia. **v3 dobra três achados das lentes novas:**_
 > _**(A) vigência estrita (1.6)** — a Lei 17.975/2023 NÃO tocou o eixo (inciso I, §2º, §3º intactos; só o inciso II ZEPAM e os §§4º-6º mudaram), então a espinha resiste à redação de HOJE; e o transferível é o potencial construtivo **BÁSICO** (Art. 125), não o máximo/bônus._
 > _**(B) §3º retroage** — o próprio Art. 124 §3º alcança "declarações já emitidas anteriormente", contraexemplo à ultratividade: a vacina temporal foi nuançada._

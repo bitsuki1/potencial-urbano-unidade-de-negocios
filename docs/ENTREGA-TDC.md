@@ -44,9 +44,21 @@ Cada uma com `data_base` no METADATA (rastreada pelo consolidar; 0 sem data_base
 - **Gate 1.7 = REGRA COMPOSTA** (`cobertura‑IDF ≥ 0,41 OU cobertura ≥ 0,55`) — robusta ao crescimento do corpus
   (aguentou +32 normas). **33/33 ground‑truth** verdes.
 
-## 6. Tese (artefato ARGUMENTATIVO) — 🟡 iniciada (D‑13)
-- **`tese/tdc/01-tdc-tombado-natureza-e-vedacao.md`** — 1ª tese: natureza compensatória (STF/TJSP) × vedação do
-  Art. 124 §2º (TJSP) + vacina (protocolo/ultratividade). **PROPOSTA — aguarda escrutínio do MOU** (D‑13: uma a uma).
+## 6. Tese (artefato ARGUMENTATIVO) — ✅ camada cedente-side completa (gate D‑13 delegado)
+> **Gate D‑13 delegado pelo MOU (2026-07-14):** liberou a 1ª tese e autorizou o **auto-escrutínio** das seguintes em modo
+> autônomo até o fim da camada. Roadmap + lentes de escrutínio em `tese/tdc/ROADMAP-TESES.md`.
+- **01 ✅ APROVADA v3** — `01-tdc-tombado-natureza-e-vedacao.md`: natureza compensatória (STF por analogia/TJSP) × vedação do
+  Art. 124 §2º (só AUE/APPa) + vacina; escrutínio intenso + 4 lentes aplicadas.
+- **02 ✅** — `02-direito-de-protocolo-e-vigencia-da-declaracao.md`: data de referência = protocolo (Art. 125 §2º),
+  ultratividade (TJSP 1070175), ressalva da retroatividade expressa (§3º), valor corrige por IPCA até a CT.
+- **03 ✅** — `03-valor-art128-piso-legal-nao-teto.md`: o valor do Art. 128 é **piso/referência legal, não teto e não tributo**
+  (STF por analogia; número do engine; a margem é do dono, D‑DONO‑7/15).
+- **04 ✅** — `04-tdc-lei-municipal-art35-federal-e-moldura.md`: TDC é **lei municipal** (art. 35 §2º delega); foro = TJSP
+  (STJ não reexamina lei local, Súmula 280 — AgRg AREsp 179.340).
+- **05 ✅** — `05-conservacao-art129-condicao-e-alavanca-de-recarga.md`: conservação (Art. 129, pós‑17.975/2023) é condição
+  **e** alavanca de **recarga** de potencial (70% aos 10 anos / 100% aos 15, não cumulativos).
+- **Resíduo declarado (probatório):** as fichas de TJSP/STJ são **metadados** (resumo próprio), não inteiro teor — capturar a
+  íntegra é gancho de produto. **Escopo:** todas cedente-side; o lado receptor fica fora até o gate do MOU.
 
 ## Resíduos declarados (o honesto "o que ainda melhora")
 1. **Precisão do Art. 128 §2º (já‑declarados):** o motor **já** compõe o §2º como MAX(A;B) com "VTcd da Declaração ×
