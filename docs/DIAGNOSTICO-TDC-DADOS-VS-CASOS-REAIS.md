@@ -74,6 +74,31 @@ Priorizado pelo retorno para a calibração:
 4. **Cr / outorga do imóvel receptor** (lado comprador) — fecha o laço completo do Art. 128 (hoje só o lado cedente).
 5. **Inteiro teor dos acórdãos** já fichados (2257458, 1070175, 179340…) — firma a camada de tese.
 
+## 7. Captura executada (2026-07-15) — do que já tínhamos em mãos
+O MOU autorizou capturar + validar proprietário. A maior fonte real estava **em casa, não minerada**: a lista
+DEUSO/SMUL de Certidões emitidas (ago/2025) tem **169 transferências reais** com o **imóvel RECEPTOR** e as **áreas
+cedida-equivalente × recebida-real** — que o produto cedente-side nunca propagou. Capturado por
+`scripts/capturar_casos_reais_tdc.py` → `casos-reais/tdc/certidoes-reais-ago2025.csv` (extração pura, fonte+sha256):
+- **169** transferências reais · **162** com SQL cedente (81 cedentes distintos) · **158 com SQL RECEPTOR
+  (140 receptores distintos — dado NOVO, também alimenta o gate "lado receptor")** · **167** com as duas áreas ·
+  **7** com valor R$ real (join por N. processo com o informe FUNDURB).
+- **Salto de amostra:** de 4 → 7 casos com preço, e de 80 → 162 transferências reais com m²/áreas. A recalibração do
+  §1 com n maior + a validação da equivalência (área cedida-equiv × recebida-real = PCr do Art. 128) é o próximo passo
+  analítico (os dados já estão no CSV).
+- **Teto real de preço:** o FUNDURB só publica valor pecuniário dos **~22 processos grandes** (pós-LPUOS, sujeitos ao
+  teto de 5% do Art. 24 §5º) — **13 valorados**; não há preço público para toda transferência. "Mais preço" depende de
+  refresh SMUL/DEUSO (2026) ou do FUNDURB completo, não de esforço nosso.
+
+### Proprietário — validação é PII-gated (honesto)
+- A base versionada tem `proprietario` **vazio nos 4.360** por design (PII fora do git, D-DONO-17). O IPTU 2026 que
+  temos **não carrega nome de dono**; a lista de certidões **também não**.
+- A **máquina de validar dono está PRONTA e VERDE**: `zepec/resolver_dono.py` (cadeia SQL→contribuinte→CNPJ→sócios→
+  holdings→PF) + `evals/eval-fase-b.py` (5 casos + ausente, passa no CI). **Falta só o dado PII** (canônicas de 5,7 GB:
+  sócios/empresas/holdings) — que entra sob o **gate PD-7** (bucket privado, RLS deny-all) por **1 disparo do dono** da
+  Action `fase-b-donos.yml` no hub `portfolio-automacoes` (exige `confirmar=SIM` + secrets). Sem esse disparo, **não
+  carrego PII nesta sessão** (postura correta). Os 158 SQLs de receptor + 162 de cedente agora capturados são exatamente
+  o universo que essa resolução vai cobrir quando o dado chegar.
+
 ## Como reproduzir este diagnóstico
 `python3 zepec/gerar_dossie.py --sql 0090200034` (e 032/033) · a tabela do §1 sai de `valor_pecuniario_rs ÷
 m2_ja_transferido` × `v_outorga_m2_q14 ÷ 4` no CSV oficial · reajustes em `tabelas/q14-reajuste-anual.csv`.
