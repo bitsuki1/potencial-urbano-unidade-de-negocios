@@ -61,11 +61,16 @@ Cada uma com `data_base` no METADATA (rastreada pelo consolidar; 0 sem data_base
   íntegra é gancho de produto. **Escopo:** todas cedente-side; o lado receptor fica fora até o gate do MOU.
 
 ## Resíduos declarados (o honesto "o que ainda melhora")
-1. **Precisão do Art. 128 §2º (já‑declarados):** o motor **já** compõe o §2º como MAX(A;B) com "VTcd da Declaração ×
-   IPCA" quando o VTcd da data é conhecido. Para o caso em que só se conhece o VTcd de OUTRO exercício (o vigente da
-   base), foi adicionada a função **`vtcd_na_data()`** em `art128.py` — retro‑calcula o VTcd da data da Declaração pela
-   razão de reajuste UNIFORME do Quadro 14 (exato; autoteste round‑trip verde). **Resta apenas FIAR** essa função no
-   `gerar_dossie.py` para os já‑declarados — como toca número do cliente (3.334 dossiês), fica **sob o gate do MOU**.
+1. **Precisão do Art. 128 §2º (já‑declarados) — ✅ FIADO (gate do MOU dado 2026‑07‑15).** `gerar_dossie.py` agora aplica
+   o **MAX(A piso vigente ; B VTcd da Declaração×IPCA)** nos já‑declarados **com Declaração E Certidão protocoladas**,
+   reconstruindo o VTcd histórico por **`vtcd_na_data()`** (razão de reajuste uniforme do Quadro 14, 2026→ano‑ref). O
+   dossiê mostra as duas bases lado a lado + a vencedora citada; o cedente fica com o **maior valor assegurado** (OP‑1b).
+   **Fail‑closed (1.3):** sem Certidão protocolada (o §2º não cristalizou) ou Declaração pré‑2014 (fora da série IPCA),
+   mantém a base A vigente com nota honesta — o motor **não inventa 'hoje'**. Prova: `gerar_dossie --autoteste` (3.334
+   batem; 2 já‑declarados reais exercitam a base B + **fixture não‑vácuo determinístico**); `eval‑produto` 15/15. _Achado
+   de brinde: o rótulo "Data de referência" do bloco 5 usava `data_ref` (agregado `max` de todas as origens); corrigido
+   para `data_declaracao_iso` (protocolo da Declaração — a data legal do §2º)._ Cobertura real hoje: **2 de 615**
+   já‑declarados têm Certidão datada na base; cresce quando o campo `data_certidao_iso` for preenchido em mais linhas.
 2. **Lado RECEPTOR (comprador):** 2 leads mapeados (Fp=2 nas ZEM/ZEMP; +5% na regularização) — fora do produto do
    vendedor (o Cr do receptor cancela no Art. 128). Aplicar só se o produto passar a calcular o outro lado.
 3. **Dado pesado:** valores nominais do Quadro 14 (Portaria SMUL) e plantas/mapas dos PIUs (GIS) — o motor os recebe
