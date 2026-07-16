@@ -56,3 +56,20 @@ As planilhas **enriquecidas** que já existem no Drive (ex.: `BENSTOMBADOS_ENRIQ
 
 ## Layout do entregável (1ª versão — o MOU afina)
 Identificação (SQL·endereço·distrito·zona·tombamento) · Imóvel (área terreno) · Potencial (potencial·saldo·estado) · Fase (1 obter / 2 vender) · Preço (piso Art.128 · preço real ITBI+data) · Agenda (data declaração · recarga 70%/100% · alerta 1 ano) · Dono (nome·PF/PJ·sócios·**dono agrupado**) · **Frescor** (ITBI pós-2020?) · Contato (tel/email) · Processo (SEI) · Rastro (fonte de cada campo·1.8).
+
+---
+
+## EXECUÇÃO iniciada (2026-07-16, modo autônomo) — pipeline comercial construído
+
+MOU: "vamos colocar no roadmap e começar o trabalho completo, modo autônomo até o final."
+
+**Pipeline determinístico (pasta `comercial/`, testado contra fixtures sintéticos — sem PII real):**
+1. `itbi_para_sql.py` — guias de ITBI (xlsx) → `itbi_por_sql.csv` (transação mais recente: valor+data por SQL). ✅ autoteste.
+2. `iptu2020_para_contribuinte.py` — cadastro IPTU 2020/2016 (com NOME) → `iptu_contribuinte.csv` (contrato do resolver) + `iptu_flags.csv` (PF/PJ/PÚBLICO — limpeza público×privado **pelo contribuinte**, não por nome de logradouro). ✅ autoteste.
+3. `resolver_dono.py` (já existia) — cadeia CNPJ→sócios→PF controladora (só PJ, opcional/pesado). ✅ autoteste.
+4. `enriquecer_lista.py` — junta base 4.292 + nome (PF direto) + controlador (PJ) + preço/frescor ITBI + **dono agrupado (peixe grande)** + agenda → `LISTA-VENDEDORES-ENRIQUECIDA.csv`. **contato SEMPRE marcado p/ ferramenta externa** (CPF completo + tel/email — nunca inventado). ✅ autoteste.
+5. `baixar_drive_sa.py` — primitivo de download do Drive (conta de serviço).
+
+**Action `comercial-lista.yml`** (workflow_dispatch): baixa IPTU (drive_id/URL) + guias ITBI → roda o pipeline → commita a lista enriquecida **neste repo privado** (nomes no git, decisão do MOU). PJ→sócio é opcional (`com_pj`, pesado — v2).
+
+**Estagiamento:** v1 = IPTU centro (cep01, confirmado) + ITBI recente + PF direto → primeira lista real. v2 = IPTU citywide (mirror 2020/2016 com nome) + cadeia PJ. Contato (CPF+tel/email) = ferramenta externa (BigDataCorp/Assertiva/Serpro), fora do git — precisa da conta do MOU.
