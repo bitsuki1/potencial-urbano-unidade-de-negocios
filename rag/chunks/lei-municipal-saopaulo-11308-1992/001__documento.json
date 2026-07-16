@@ -21,21 +21,22 @@
     "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-11308-de-17-de-dezembro-de-1992",
     "vigencia": {
       "inicio": "1992-12-17",
-      "fim": null,
-      "em_vigor": true,
+      "fim": "1994-07-13",
+      "em_vigor": false,
       "altera": [],
       "alterada_por": [],
-      "revogada_por": null,
-      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 1992-12-17 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+      "revogada_por": "lei-municipal-saopaulo-11614-1994",
+      "observacao": "REVOGADA expressamente pela Lei 11.614/1994, Art. 4º ('Revogadas as disposições em contrário, em especial a Lei nº 11.308, de 17 de dezembro de 1992'), com efeitos a partir de 01/01/1994; a Lei 11.614/1994 foi publicada em 1994-07-13. Regulamentada, enquanto vigente, pelo Decreto 32.984/1993. CURADO contra o verbatim (2026-07-16): corrigidos em_vigor (estava true), tema (estava uso_ocupacao_solo) e dispositivos_chave (estava vazio). Trilha IPTU."
     }
   },
   "tema": [
-    "uso_ocupacao_solo"
+    "isencao_iptu",
+    "isencao"
   ],
   "dominio": [
     "iptu"
   ],
   "dominio_primario": "iptu",
   "jurisdicao": "São Paulo/SP",
-  "ementa": "PL 35/93(CAMARA)-PUBLICIDADE/FORMA DESPACHOS AUTORADMINISTRATIVAS Q/EFETIVAREM ISENCAO IPTU-APOSENTA"
+  "ementa": "Autoriza o Executivo a isentar do pagamento do Imposto Predial e Territorial Urbano os imóveis de propriedade e onde residam aposentados de baixa renda, que recebam até três salários mínimos mensais. (REVOGADA pela Lei 11.614/1994.)"
 }
