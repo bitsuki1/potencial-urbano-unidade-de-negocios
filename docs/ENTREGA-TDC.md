@@ -71,13 +71,19 @@ Cada uma com `data_base` no METADATA (rastreada pelo consolidar; 0 sem data_base
    de brinde: o rótulo "Data de referência" do bloco 5 usava `data_ref` (agregado `max` de todas as origens); corrigido
    para `data_declaracao_iso` (protocolo da Declaração — a data legal do §2º)._ Cobertura real hoje: **2 de 615**
    já‑declarados têm Certidão datada na base; cresce quando o campo `data_certidao_iso` for preenchido em mais linhas.
-2. **Lado RECEPTOR (comprador):** 2 leads mapeados (Fp=2 nas ZEM/ZEMP; +5% na regularização) — fora do produto do
-   vendedor (o Cr do receptor cancela no Art. 128). Aplicar só se o produto passar a calcular o outro lado.
+2. **Lado RECEPTOR (comprador) — ✅ ESTUDADO com dado real (2026‑07‑16).** `docs/ESTUDO-LADO-RECEPTOR-DADOS-REAIS.md`
+   (+ `scripts/analise_receptor_real.py`) mede os **169 casos reais**: a razão área recebida/cedida varia de **0,10 a
+   21,6** (mediana 1,24) porque depende do **Cr do receptor** (Art. 117, projeto‑específico) → a área do comprador **não é
+   computável** sem o projeto dele. O **valor do cedente** (Art. 128) é o que é estável e **conservado** na transação.
+   **Recomendação (o SE é do MOU):** manter o produto cedente‑side; receptor só **sob demanda** (projeto concreto).
 3. **Dado pesado:** valores nominais do Quadro 14 (Portaria SMUL) e plantas/mapas dos PIUs (GIS) — o motor os recebe
    como entrada; um produto "cliente‑final sem fricção" exigiria ingeri‑los.
 4. **Completude de borda:** 4 decretos 57.5xx (só‑anexo, sem texto no portal) e Mata Atlântica (Lei federal 11.428,
    remissão da 18.298) não ingeridos — baixo valor para o núcleo TDC.
-5. **Revisão fina:** 14 normas do lote entraram por scaffold (`revisado_por_humano=false`) — dispositivos/remissões a curar.
+5. **Revisão fina — ✅ AUDITADA (2026‑07‑16).** Auditoria de completude das **68 normas**: só **1** tinha
+   `dispositivos_chave` vazio e era a **única revogada‑marcada‑vigente** — a **Lei 11.308/1992** (isenção IPTU de
+   aposentados), revogada pela Lei 11.614/1994 (Art. 4º). Curada contra o verbatim (vigência/tema/dispositivos/remissões).
+   Re‑auditoria: **0** revogadas‑marcadas‑vigentes, **0** com dispositivos vazio. O resto do corpus já vinha íntegro.
 
 ## Como o MOU audita
 `python3 engines/tdc/{pcpt,art128,oodc,fp}.py --demo` · `python3 evals/eval-produto.py` · `python3 zepec/gerar_dossie.py --sql <SQL>`
