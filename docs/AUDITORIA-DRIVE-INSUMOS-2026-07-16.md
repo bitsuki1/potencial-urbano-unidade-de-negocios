@@ -37,3 +37,26 @@
 
 ## Veredito
 **O Drive entrega a FUNDAÇÃO da cidade inteira (SQL·valor·uso·geometria·tombamento·processo) e o caminho até o NOME (centro via IPTU; PJ via cadeia societária).** Mas **CPF completo e CONTATO — de PF e de PJ — nunca estiveram no Drive** e exigem ferramenta externa. A conclusão prática: usar o Drive como base determinística e a ferramenta externa como núcleo de dono+CPF+contato, alimentada por SQL/endereço.
+
+---
+
+## Adendo — caça no GitHub público (2026-07-16): o IPTU 2020 TEM nome do dono
+
+**Achado decisivo (prova por cabeçalho real lido em repo público):** a safra **IPTU 2020 do GeoSampa/PMSP tem 35 colunas, incluindo `NOME DO CONTRIBUINTE 1` e `2` (nome COMPLETO, em claro) + `CPF/CNPJ DO CONTRIBUINTE 1/2` (CPF MASCARADO, CNPJ tende a inteiro).** Fonte: repo `learning-crawlers/Dados-Publicos` (`GEOSAMPA/IPTU_2020.csv`), confirmado pelo repo oficial `geoinfo-smdu/cadastro-fiscal` (SMDU/PMSP). Amostra real: `... PESSOA FISICA (CPF) ; XXXXXX0214XXXX ; MARCIO MOURCHED ; ...`.
+
+**Corrige um erro nosso:** `inventario/mapa-dados-fase2.md` dizia "IPTU não traz nome/CPF" — **errado para a safra 2020**; a causa foi ninguém ter aberto o cabeçalho (arquivo grande, "snippet vazio"), assumindo anonimização.
+
+**Nuance crítica (muda a estratégia):** a PMSP **ANONIMIZOU** o download entre 2020 e 2026 (LGPD). Então:
+- **IPTU 2020 (e 2016):** SQL → **NOME** do contribuinte + CPF parcial. ✅ (é o `iptu-2020-cep01` do dono — mas só o recorte do centro).
+- **IPTU_2026:** só `NÚMERO DO CONTRIBUINTE` (anonimizado). ❌ sem nome.
+→ **A safra ANTIGA (2020/2016) é mais valiosa para NOME do que a de 2026.** E ela existe citywide (todos os setores) em espelhos GeoSampa/GitHub — não só o CEP 01.
+
+**Repos úteis achados:**
+- `learning-crawlers/Dados-Publicos` — IPTU 2020 completo (35 col, com nome).
+- 🔴 `hugonbgg/hugonbgg.github.io` — GeoJSON com **SQL + NOME_PROPRIETARIO + IPTU_QtdDono + IPTU_ImovelPublico** já JOINado (alguém já cruzou lote→dono).
+- `geoinfo-smdu/cadastro-fiscal` (oficial SMDU), `cem-usp/dash-iptu`, `h-pgy/*`, `mateuspicanco/project-atlas-sao-paulo`, `Riverfount/ds_iptu`, `jvcanavarro/Realoque` (2016) — IPTU SP com nome no raw.
+- Receita/CNPJ: `turicas/socios-brasil`, `rictom/rede-cnpj`, `basedosdados/br_rf_cnpj` — CNPJ inteiro, nome do sócio inteiro, **CPF do sócio mascarado**.
+
+**O muro que o GitHub NÃO fura (barreira legal):** CPF **completo** e **contato** (telefone/e-mail) não existem em dado aberto — só cartório ou agregador comercial (BigDataCorp/Assertiva/Serpro).
+
+**Ação de maior alavancagem:** conseguir a **safra 2020/2016 do IPTU citywide (todos os setores, com nome)** — dá SQL→nome da cidade inteira, de graça. O `iptu-2020-cep01` do dono é só a fatia central dessa base.
