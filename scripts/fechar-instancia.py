@@ -136,6 +136,13 @@ def check_engine_art128():
     return rc2 == 0, "engine preço legal Art. 128 (numerador + ÷CAmaxcd + IPCA) + prova OK" if rc2 == 0 else f"eval-art128 falhou (exit {rc2})"
 
 
+def check_assistente():
+    # Orquestrador do produto (Parte 4): resposta única = número (engine Art. 128, 1.3) + citação (RAG, 1.7).
+    # Sabotar a rota (número sem cedente 'inventado', ou resposta de valor sem citação) FALHA o autoteste.
+    rc, _ = _run(["scripts/assistente.py", "--autoteste"])
+    return rc == 0, "assistente (orquestrador número+citação) OK" if rc == 0 else f"assistente quebrou (exit {rc})"
+
+
 def check_produto_dossie():
     # M1 produto: o dossiê 1-página bate o preço no art128 + tem conservação/checklist citados,
     # e o funil de completude é monotônico (número por estágio). Falha se o dossiê inventar ou o funil furar.
@@ -364,6 +371,7 @@ def main():
         ("ENGINE Fp (Quadro 6, Fator de Planejamento)", check_engine_fp),
         ("ENGINE CEDENTE (Fi Art.24, T2)", check_engine_cedente),
         ("ENGINE PREÇO LEGAL (Art. 128 — numerador + ÷CAmaxcd + IPCA)", check_engine_art128),
+        ("ASSISTENTE (orquestrador número+citação, Parte 4)", check_assistente),
         ("ENGINE IPTU (VV × alíquota por porção)", check_engine_iptu),
         ("EVAL IPTU (âncoras da lei + mutação)", check_eval_iptu),
         ("EVAL IPTU OFICIAL (VV terreno × lançamento real)", check_eval_iptu_oficial),
