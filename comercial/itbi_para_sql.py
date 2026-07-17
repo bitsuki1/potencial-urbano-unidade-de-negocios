@@ -31,8 +31,19 @@ def _norm(s):
 
 
 def _sql10(s):
-    d = re.sub(r"\D", "", str(s or ""))
-    return d[:10] if len(d) >= 10 else ""
+    """Normaliza o 'N° do Cadastro (SQL)' da guia ao SQL de 10 dígitos (setor+quadra+lote) da lista/IPTU.
+    A guia guarda o cadastro como NÚMERO no xlsx → o openpyxl PERDE o zero à esquerda e agrega '.0'
+    (ex.: o SQL central '0100800297' vira o float 100800297.0). Recupera: parte inteira + zfill(10).
+    Forma string com DV (ex.: '020.067.0033-1', 11 dígitos) → primeiros 10 (o DV fica de fora)."""
+    s = str(s or "").strip()
+    m = re.match(r"^(\d+)(?:[.,]0+)?$", s)      # número puro (com/sem '.0' do openpyxl)
+    if m:
+        d = m.group(1)
+        return d[:10] if len(d) >= 11 else d.zfill(10)
+    d = re.sub(r"\D", "", s)
+    if not d:
+        return ""
+    return d[:10] if len(d) >= 11 else d.zfill(10)
 
 
 def _data_iso(s):
@@ -123,6 +134,11 @@ def _autoteste():
     assert melhor["0200670033"]["valor_transacao"] == "4804259.04"
     # valor com formato brasileiro (1.234.567,89) parseado
     assert melhor["0100010001"]["valor_transacao"] == "767498.59", melhor["0100010001"]
+    # FORMATO NUMÉRICO do openpyxl (o bug real): "100800297.0" (zero à esquerda perdido) → "0100800297"
+    assert _sql10("100800297.0") == "0100800297", _sql10("100800297.0")
+    assert _sql10("1008002.0") == "0001008002", _sql10("1008002.0")   # zero-pad à esquerda
+    assert _sql10("020.067.0033-1") == "0200670033"                    # forma string com DV (IPTU-like)
+    assert melhor["0100800297"]["valor_transacao"] == "350000.00", melhor.get("0100800297")
     return len(melhor)
 
 
@@ -137,6 +153,27 @@ def main():
         return 0
     if not args.entrada:
         print("uso: --entrada <guia.xlsx|csv> [...]  ou  --autoteste", file=sys.stderr); return 2
+    # DIAGNÓSTICO: registra as primeiras chaves CRUAS do "N° do Cadastro" da 1ª guia, para conferir o formato
+    # do SQL (o join com a lista deu 0 — os setores não bateram; preciso ver o valor bruto antes de normalizar).
+    try:
+        p0 = args.entrada[0]
+        linhas0 = _linhas_xlsx(p0) if str(p0).lower().endswith((".xlsx", ".xlsm")) else _linhas_csv(p0)
+        it0 = iter(linhas0); cab0 = [_norm(c) for c in next(it0)]
+        isql0 = next((i for i, c in enumerate(cab0) if "CADASTRO (SQL)" in c or "N DO CADASTRO" in c or c == "SQL"), 0)
+        amostra = []
+        for row in it0:
+            if row and isql0 < len(row) and str(row[isql0]).strip():
+                amostra.append(str(row[isql0]))
+            if len(amostra) >= 40:
+                break
+        dbg = SAIDA.parent / "_itbi_sql_raw.txt"
+        dbg.parent.mkdir(parents=True, exist_ok=True)
+        dbg.write_text(f"coluna SQL idx={isql0} nome={cab0[isql0] if isql0 < len(cab0) else '?'}\n" +
+                       "\n".join(amostra), encoding="utf-8")
+        print(f"DIAG: cabeçalho[{isql0}]={cab0[isql0] if isql0 < len(cab0) else '?'} | amostra bruta: {amostra[:5]}")
+    except Exception as e:
+        print(f"DIAG falhou: {e}")
+
     fontes = []
     for p in args.entrada:
         linhas = _linhas_xlsx(p) if str(p).lower().endswith((".xlsx", ".xlsm")) else _linhas_csv(p)
