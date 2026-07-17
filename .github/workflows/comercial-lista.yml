@@ -36,6 +36,14 @@ on:
         description: "Se com_pj=true: ids Drive de empresas.csv,socios.csv,holdings.csv (vírgula, nessa ordem)."
         required: false
         default: "1uRWg7wA4KuppJ1TSdEwRmV3H06fTXlnj,1gftoKzFaD-NyKClBg3SH8Eo0FYncQYvt,1BrBRzC3G4atGZ8JqRZhGp4OnvBZTjOgr"
+      receita_oficial:
+        description: "Usar a base NACIONAL COMPLETA da Receita (espelho Cloudflare, streaming) em vez do dump parcial do Drive. true/false."
+        required: false
+        default: "false"
+      receita_data:
+        description: "Competência do espelho da Receita (pasta AAAA-MM-DD do espelho Cloudflare)."
+        required: false
+        default: "2026-06-14"
 
 permissions:
   contents: write
@@ -108,7 +116,7 @@ jobs:
           ls -la _comercial_in/
 
       - name: (opcional) Baixar canônicas societárias (para um temp — recorte depois)
-        if: ${{ inputs.com_pj == 'true' && inputs.socios_ids != '' }}
+        if: ${{ inputs.com_pj == 'true' && inputs.socios_ids != '' && inputs.receita_oficial != 'true' }}
         env:
           GOOGLE_SA_KEY: ${{ secrets.GOOGLE_SA_KEY }}
         run: |
@@ -145,7 +153,25 @@ jobs:
           python3 comercial/itbi_para_sql.py --entrada _comercial_in/itbi_*.xlsx || echo "ITBI: sem xlsx legível (segue sem preço)"
           SAFRAS="_comercial_in/iptu.csv"; [ -f _comercial_in/iptu2.csv ] && SAFRAS="$SAFRAS _comercial_in/iptu2.csv"
           python3 comercial/iptu2020_para_contribuinte.py --entrada $SAFRAS --filtro-sqls _comercial_in/sqls.txt
-          if [ "${{ inputs.com_pj }}" = "true" ] && [ -f _canonicas_in/socios.csv ]; then
+          if [ "${{ inputs.receita_oficial }}" = "true" ]; then
+            # BASE NACIONAL COMPLETA (espelho Cloudflare, sem login/geobloqueio) — streaming: baixa 1 zip,
+            # descompacta, filtra só os nossos CNPJs, APAGA, próximo. Pico de disco ~= 1 arquivo por vez.
+            BASE="https://dados-abertos-rf-cnpj.casadosdados.com.br/arquivos/${{ inputs.receita_data }}"
+            python3 comercial/recorta_receita_oficial.py --fase alvos --contrib zepec/oficial/iptu_contribuinte.csv --estado _rf
+            for i in $(seq 0 9); do
+              curl -fsSL --retry 5 --retry-delay 8 -o _rf.zip "$BASE/Empresas${i}.zip" || { echo "aviso: Empresas${i} falhou"; continue; }
+              unzip -o -q _rf.zip -d _rf_csv && for c in _rf_csv/*; do python3 comercial/recorta_receita_oficial.py --fase empresas --entrada "$c" --estado _rf; done
+              rm -rf _rf.zip _rf_csv
+            done
+            for i in $(seq 0 9); do
+              curl -fsSL --retry 5 --retry-delay 8 -o _rf.zip "$BASE/Socios${i}.zip" || { echo "aviso: Socios${i} falhou"; continue; }
+              unzip -o -q _rf.zip -d _rf_csv && for c in _rf_csv/*; do python3 comercial/recorta_receita_oficial.py --fase socios --entrada "$c" --estado _rf; done
+              rm -rf _rf.zip _rf_csv
+            done
+            python3 comercial/recorta_receita_oficial.py --fase finalize --estado _rf --saida zepec/oficial/recorte
+            python3 zepec/resolver_dono.py --base zepec/oficial/recorte || echo "resolver: sem saída (segue só PF)"
+            rm -rf _rf zepec/oficial/recorte
+          elif [ "${{ inputs.com_pj }}" = "true" ] && [ -f _canonicas_in/socios.csv ]; then
             # recorta em streaming (só os CNPJs que interessam) → resolver roda no recorte pequeno, sem OOM
             python3 comercial/recorta_canonicas.py --base _canonicas_in --contrib zepec/oficial/iptu_contribuinte.csv --saida zepec/oficial/recorte
             python3 zepec/resolver_dono.py --base zepec/oficial/recorte || echo "resolver: sem saída (segue só PF)"
@@ -158,6 +184,7 @@ jobs:
           python3 comercial/iptu2020_para_contribuinte.py --autoteste
           python3 comercial/itbi_para_sql.py --autoteste
           python3 comercial/enriquecer_lista.py --autoteste
+          python3 comercial/recorta_receita_oficial.py --autoteste
 
       - name: Commitar lista enriquecida
         run: |
