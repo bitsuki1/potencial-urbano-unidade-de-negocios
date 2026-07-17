@@ -137,6 +137,27 @@ def main():
         return 0
     if not args.entrada:
         print("uso: --entrada <guia.xlsx|csv> [...]  ou  --autoteste", file=sys.stderr); return 2
+    # DIAGNÓSTICO: registra as primeiras chaves CRUAS do "N° do Cadastro" da 1ª guia, para conferir o formato
+    # do SQL (o join com a lista deu 0 — os setores não bateram; preciso ver o valor bruto antes de normalizar).
+    try:
+        p0 = args.entrada[0]
+        linhas0 = _linhas_xlsx(p0) if str(p0).lower().endswith((".xlsx", ".xlsm")) else _linhas_csv(p0)
+        it0 = iter(linhas0); cab0 = [_norm(c) for c in next(it0)]
+        isql0 = next((i for i, c in enumerate(cab0) if "CADASTRO (SQL)" in c or "N DO CADASTRO" in c or c == "SQL"), 0)
+        amostra = []
+        for row in it0:
+            if row and isql0 < len(row) and str(row[isql0]).strip():
+                amostra.append(str(row[isql0]))
+            if len(amostra) >= 40:
+                break
+        dbg = SAIDA.parent / "_itbi_sql_raw.txt"
+        dbg.parent.mkdir(parents=True, exist_ok=True)
+        dbg.write_text(f"coluna SQL idx={isql0} nome={cab0[isql0] if isql0 < len(cab0) else '?'}\n" +
+                       "\n".join(amostra), encoding="utf-8")
+        print(f"DIAG: cabeçalho[{isql0}]={cab0[isql0] if isql0 < len(cab0) else '?'} | amostra bruta: {amostra[:5]}")
+    except Exception as e:
+        print(f"DIAG falhou: {e}")
+
     fontes = []
     for p in args.entrada:
         linhas = _linhas_xlsx(p) if str(p).lower().endswith((".xlsx", ".xlsm")) else _linhas_csv(p)
