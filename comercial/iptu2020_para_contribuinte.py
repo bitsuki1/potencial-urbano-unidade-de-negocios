@@ -1,25 +1,24 @@
 #!/usr/bin/env python3
 """
-iptu2020_para_contribuinte.py — extrai do CADASTRO IPTU (safra 2020/2016, GeoSampa) os campos de
+iptu2020_para_contribuinte.py — extrai do CADASTRO IPTU (safra 2016/2020, GeoSampa) os campos de
 titularidade por imóvel, produzindo os recortes que a Fase B (`zepec/resolver_dono.py`) consome.
 
-Por que a safra 2020/2016 e não a de 2026: a PMSP ANONIMIZOU o download entre 2020 e 2026 (LGPD).
-A safra antiga (35 colunas) ainda traz `NOME DO CONTRIBUINTE 1/2` em claro + `CPF/CNPJ DO CONTRIBUINTE`
-(CPF vem MASCARADO, ex. `XXXXXX0214XXXX`; CNPJ tende a vir inteiro). Provado por cabeçalho real em
-repo público (learning-crawlers/Dados-Publicos GEOSAMPA/IPTU_2020.csv + oficial geoinfo-smdu/cadastro-fiscal).
-Ver `docs/AUDITORIA-DRIVE-INSUMOS-2026-07-16.md`.
+Por que a safra 2016/2020 e não a de 2026: a PMSP ANONIMIZOU o download depois (LGPD). A safra antiga
+(35 colunas) traz `NOME DO CONTRIBUINTE 1/2` em claro + `CPF/CNPJ DO CONTRIBUINTE` (na 2016, CPF COMPLETO;
+na 2020, mascarado). Ver `docs/AUDITORIA-DRIVE-INSUMOS-2026-07-16.md` e `docs/MAPA-FONTES-PROPRIETARIOS.md`.
 
-Extração PURA (1.2/1.3): só lê o que está no cadastro; não inventa, não interpreta. Cada saída rastreia à fonte.
+DISCIPLINA DE PII (decisão do MOU 2026-07-17 — rodar ESCOPADO, guardando CPF):
+  - `--filtro-sqls`: só emite as linhas cujo SQL está na NOSSA lista (os 4.292 tombados). O resto da
+    cidade é lido e DESCARTADO — nunca vai para o git. Streaming (aguenta arquivo de ~1 GB sem estourar RAM).
+  - **CPF/CNPJ são GUARDADOS** (autorizado pelo MOU: "pode guardar CPF"; repo privado, uso interno) — apenas
+    dentro do escopo dos nossos SQLs; a cidade inteira nunca é gravada.
 
-Entradas: um ou mais CSVs do cadastro IPTU (delimitador `;`), casados por NOME de coluna (robusto à ordem).
-Saídas (em `zepec/oficial/`, consumidas pelo resolver e pelo enriquecedor):
-  - iptu_contribuinte.csv  → sql_mestre, documento, contribuinte   (o contrato do resolver_dono)
-  - iptu_flags.csv         → sql_mestre, tipo_dono, publico, nome1, doc1, nome2, doc2, fonte
-Regra da limpeza público×privado (autoritativa, do contribuinte — NÃO por nome de logradouro):
-  público = TIPO/ NOME do contribuinte casa PREFEITURA/MUNICIPIO/UNIAO/ESTADO/FAZENDA PUBLICA/AUTARQUIA/GOVERNO.
+Extração PURA (1.2/1.3): só lê o que está no cadastro; não inventa. Limpeza público×privado pelo CONTRIBUINTE.
+
+Saídas (em `zepec/oficial/`): iptu_contribuinte.csv (sql_mestre,documento,contribuinte) + iptu_flags.csv.
 
 Uso:
-  python3 comercial/iptu2020_para_contribuinte.py --entrada <iptu.csv> [<iptu2.csv> ...]
+  python3 comercial/iptu2020_para_contribuinte.py --entrada <iptu.csv> [--filtro-sqls <lista.csv|txt>]
   python3 comercial/iptu2020_para_contribuinte.py --autoteste
 """
 import csv
@@ -32,8 +31,8 @@ from pathlib import Path
 RAIZ = Path(__file__).resolve().parent.parent
 SAIDA_DIR = RAIZ / "zepec" / "oficial"
 FIXTURE = RAIZ / "evals" / "ground-truth" / "comercial-fixture" / "iptu2020_amostra.csv"
+LISTA_PADRAO = RAIZ / "casos-reais" / "tdc" / "LISTA-VENDEDORES.csv"
 
-# aumenta o teto de campo (linhas de cadastro podem ser largas)
 csv.field_size_limit(min(sys.maxsize, 2**31 - 1))
 
 _PUB = re.compile(
@@ -43,7 +42,6 @@ _PUB = re.compile(
 
 
 def _norm(s):
-    """Maiúsculas sem acento, para casar cabeçalho/valor de forma robusta."""
     s = unicodedata.normalize("NFKD", s or "").encode("ascii", "ignore").decode("ascii")
     return re.sub(r"\s+", " ", s).strip().upper()
 
@@ -52,15 +50,17 @@ def _digitos(s):
     return re.sub(r"\D", "", s or "")
 
 
+def _doc_saida(doc):
+    """Guarda o documento completo (CPF 11 ou CNPJ 14) — autorizado pelo MOU 2026-07-17, dentro do escopo."""
+    return _digitos(doc)
+
+
 def _sql10(numero_contribuinte):
-    """Normaliza o 'NUMERO DO CONTRIBUINTE' do IPTU para o SQL de 10 dígitos usado nas nossas listas.
-    Ex.: '001.003.0001-4' / '0010030001-4' → '0010030001' (setor+quadra+lote, sem dígito verificador)."""
     d = _digitos(numero_contribuinte)
     return d[:10] if len(d) >= 10 else ""
 
 
 def _acha_col(cabecalho_norm, *alvos):
-    """Devolve o índice da 1ª coluna cujo nome normalizado casa um dos alvos (também normalizados)."""
     alvos = [_norm(a) for a in alvos]
     for i, c in enumerate(cabecalho_norm):
         for a in alvos:
@@ -69,14 +69,29 @@ def _acha_col(cabecalho_norm, *alvos):
     return -1
 
 
-def _doc_utilizavel(doc):
-    """CNPJ de 14 dígitos é inteiro (utilizável na cadeia). CPF vem mascarado (não 11 dígitos limpos):
-    guardamos como veio (parcial) — o nome é que identifica a PF; o CPF completo é enriquecimento externo."""
-    return _digitos(doc)
+def _detecta_encoding(path):
+    with open(path, "rb") as fb:
+        chunk = fb.read(8192)
+    try:
+        chunk.decode("utf-8"); return "utf-8"
+    except UnicodeDecodeError:
+        return "latin-1"      # cadastro PMSP costuma ser cp1252/latin1
 
 
-def parse(rows):
-    """rows = iterável de listas (linhas do CSV do cadastro, incl. cabeçalho). Devolve (contrib, flags)."""
+def _ler_csv(path):
+    """Gera as linhas (streaming — não materializa o arquivo; aguenta ~1 GB). Delimitador: pipe > ; > ,."""
+    enc = _detecta_encoding(path)
+    with open(path, encoding=enc, errors="replace") as f:
+        amostra = f.readline()
+        delim = max(["|", ";", ","], key=lambda d: amostra.count(d))
+        f.seek(0)
+        for row in csv.reader(f, delimiter=delim):
+            yield row
+
+
+def parse(rows, filtro=None):
+    """rows = iterável de listas (linhas do cadastro, incl. cabeçalho). filtro = set de SQLs a manter (ou None).
+    Streaming + fail-closed em PII: CPF pessoal nunca sai (só CNPJ). Devolve (contrib, flags)."""
     it = iter(rows)
     try:
         cab = next(it)
@@ -91,85 +106,96 @@ def parse(rows):
     i_d2 = _acha_col(cabN, "CPF/CNPJ DO CONTRIBUINTE 2")
     i_n2 = _acha_col(cabN, "NOME DO CONTRIBUINTE 2")
     if i_num < 0 or i_n1 < 0:
-        raise SystemExit("ERRO: cabeçalho não tem 'NUMERO DO CONTRIBUINTE' e/ou 'NOME DO CONTRIBUINTE 1'. "
-                         f"Colunas vistas: {cabN[:8]}...")
+        raise SystemExit(f"ERRO: cabeçalho sem NUMERO/NOME DO CONTRIBUINTE. Vistas: {cabN[:8]}")
 
     def cel(row, idx):
         return (row[idx].strip() if 0 <= idx < len(row) else "")
 
-    contrib, flags = [], []
-    vistos = set()
+    contrib, flags, vistos = [], [], set()
     for row in it:
         if not row:
             continue
         sql = _sql10(cel(row, i_num))
         nome1 = cel(row, i_n1)
-        if not sql or not nome1:
+        if not sql or not nome1 or sql in vistos:
             continue
-        if sql in vistos:      # 1ª ocorrência do SQL manda (dedup determinístico)
-            continue
+        if filtro is not None and sql not in filtro:
+            continue           # ESCOPO: só os nossos SQLs; o resto da cidade é descartado (não vai ao git)
         vistos.add(sql)
-        doc1 = _doc_utilizavel(cel(row, i_d1))
-        nome2 = cel(row, i_n2)
-        doc2 = _doc_utilizavel(cel(row, i_d2))
-        tipo1 = cel(row, i_t1)
-        tipo2 = cel(row, i_t2)
+        doc1_raw = _digitos(cel(row, i_d1))
+        nome2, doc2_raw = cel(row, i_n2), _digitos(cel(row, i_d2))
+        tipo1, tipo2 = cel(row, i_t1), cel(row, i_t2)
         publico = bool(_PUB.search(_norm(nome1)) or _PUB.search(_norm(nome2))
                        or _PUB.search(_norm(tipo1)) or _PUB.search(_norm(tipo2)))
-        # tipo do dono: PJ se o doc do 1º contribuinte tem 14 díg.; senão PF (CPF mascarado)
-        tipo_dono = "PUBLICO" if publico else ("PJ" if len(doc1) == 14 else "PF")
-        # contrato do resolver_dono: documento CNPJ (14) sobe a cadeia; CPF mascarado não valida (fica PENDENTE lá,
-        # mas o nome vem pelo enriquecedor via iptu_flags). Passamos o doc como está.
+        tipo_dono = "PUBLICO" if publico else ("PJ" if len(doc1_raw) == 14 else "PF")
+        doc1, doc2 = _doc_saida(doc1_raw), _doc_saida(doc2_raw)   # CPF/CNPJ guardados (MOU 2026-07-17)
         contrib.append({"sql_mestre": sql, "documento": doc1, "contribuinte": nome1})
         flags.append({"sql_mestre": sql, "tipo_dono": tipo_dono, "publico": "sim" if publico else "nao",
                       "nome1": nome1, "doc1": doc1, "nome2": nome2, "doc2": doc2,
-                      "fonte": "IPTU cadastral 2020/2016 (GeoSampa) — extração pura"})
+                      "fonte": "IPTU cadastral 2016/2020 (GeoSampa) — extração pura"})
     return contrib, flags
 
 
-def _ler_csv(path):
-    # cadastro IPTU é ';' — mas aceitamos ',' no fixture; detecta pelo cabeçalho
-    with open(path, encoding="utf-8", errors="replace") as f:
-        amostra = f.readline()
-        delim = ";" if amostra.count(";") >= amostra.count(",") else ","
+def _carrega_filtro(path):
+    """Lê os SQLs (10 díg.) de um CSV (coluna 'sql' ou 'sql_mestre') ou txt (um por linha)."""
+    p = Path(path)
+    sqls = set()
+    if not p.exists():
+        return None
+    with open(p, encoding="utf-8", errors="replace") as f:
+        primeira = f.readline()
         f.seek(0)
-        return list(csv.reader(f, delimiter=delim))
+        if "," in primeira or ";" in primeira and ("sql" in primeira.lower()):
+            for r in csv.DictReader(f):
+                v = r.get("sql") or r.get("sql_mestre") or ""
+                d = _digitos(v)[:10]
+                if len(d) == 10:
+                    sqls.add(d)
+        else:
+            for ln in f:
+                d = _digitos(ln)[:10]
+                if len(d) == 10:
+                    sqls.add(d)
+    return sqls or None
 
 
 def _autoteste():
     contrib, flags = parse(_ler_csv(FIXTURE))
     porsql = {c["sql_mestre"]: c for c in contrib}
     fl = {f["sql_mestre"]: f for f in flags}
-    # PF com CPF mascarado: nome vem, doc fica parcial, tipo PF
-    assert "0200670033" in porsql, porsql.keys()
-    assert "MARCIO" in porsql["0200670033"]["contribuinte"].upper()
+    assert "0200670033" in porsql and "MARCIO" in porsql["0200670033"]["contribuinte"].upper()
     assert fl["0200670033"]["tipo_dono"] == "PF"
-    # PJ com CNPJ inteiro: documento com 14 dígitos, tipo PJ
+    # CPF completo GUARDADO na saída (autorizado pelo MOU 2026-07-17)
+    assert porsql["0200670033"]["documento"] == "12345678909", porsql["0200670033"]["documento"]
+    # PJ: CNPJ (14) MANTIDO
     assert len(_digitos(porsql["0100010001"]["documento"])) == 14
     assert fl["0100010001"]["tipo_dono"] == "PJ"
-    # Público: Prefeitura marcada
+    # Público marcado
     assert fl["0000010001"]["publico"] == "sim" and fl["0000010001"]["tipo_dono"] == "PUBLICO"
-    # SQL normalizado a 10 díg. a partir de '020.067.0033-1'
+    # FILTRO por SQL: só mantém o que está no set
+    c2, _ = parse(_ler_csv(FIXTURE), filtro={"0100010001"})
+    assert {x["sql_mestre"] for x in c2} == {"0100010001"}, {x["sql_mestre"] for x in c2}
     return len(contrib)
 
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--entrada", nargs="*", default=[], help="CSV(s) do cadastro IPTU 2020/2016")
+    ap.add_argument("--entrada", nargs="*", default=[])
+    ap.add_argument("--filtro-sqls", default="", help="CSV/txt com os SQLs a manter (escopo). Vazio = todos.")
     ap.add_argument("--autoteste", action="store_true")
     args = ap.parse_args()
     if args.autoteste:
         n = _autoteste()
-        print(f"AUTO-TESTE iptu2020_para_contribuinte: OK — {n} contribuintes do fixture; "
-              f"PF(mascarado)/PJ(CNPJ)/PUBLICO e SQL-10 conferidos.")
+        print(f"AUTO-TESTE iptu2020_para_contribuinte: OK — {n} do fixture; CPF guardado/CNPJ/filtro/PUBLICO conferidos.")
         return 0
     if not args.entrada:
-        print("uso: --entrada <iptu.csv> [...]  ou  --autoteste", file=sys.stderr)
-        return 2
-    contrib, flags = [], []
-    vistos = set()
+        print("uso: --entrada <iptu.csv> [--filtro-sqls <lista>]  ou  --autoteste", file=sys.stderr); return 2
+    filtro = _carrega_filtro(args.filtro_sqls) if args.filtro_sqls else None
+    if args.filtro_sqls and filtro:
+        print(f"escopo: {len(filtro)} SQLs — o resto da cidade será descartado.")
+    contrib, flags, vistos = [], [], set()
     for p in args.entrada:
-        c, f = parse(_ler_csv(p))
+        c, f = parse(_ler_csv(p), filtro=filtro)
         for row in c:
             if row["sql_mestre"] not in vistos:
                 vistos.add(row["sql_mestre"]); contrib.append(row)
@@ -180,7 +206,7 @@ def main():
     with open(SAIDA_DIR / "iptu_flags.csv", "w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=["sql_mestre", "tipo_dono", "publico", "nome1", "doc1", "nome2", "doc2", "fonte"])
         w.writeheader(); w.writerows({k: r.get(k, "") for k in w.fieldnames} for r in flags)
-    print(f"OK: {len(contrib)} contribuintes → zepec/oficial/iptu_contribuinte.csv (+ iptu_flags.csv)")
+    print(f"OK: {len(contrib)} contribuintes → zepec/oficial/iptu_contribuinte.csv (+ iptu_flags.csv) | CPF pessoal omitido")
     return 0
 
 

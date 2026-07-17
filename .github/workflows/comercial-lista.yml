@@ -13,9 +13,9 @@ on:
         required: true
         default: "1AV8v4esuCxGulgxvGskzo595vycDa3U-"
       iptu_url:
-        description: "OU uma URL raw do cadastro IPTU citywide (mirror GitHub/GeoSampa). Vazio = usa o drive_id."
+        description: "URL do cadastro IPTU citywide COM NOME (default: mirror 2016, cidade toda, 35 col). Vazio = usa o drive_id."
         required: false
-        default: ""
+        default: "https://media.githubusercontent.com/media/0x3333/iptu.go/master/IPTU-2016-06-03.CSV"
       itbi_drive_ids:
         description: "Drive ids das guias de ITBI (vírgula). Default: 2024,2023,2022,snapshot-2026."
         required: true
@@ -101,11 +101,26 @@ jobs:
             i=$((i+1))
           done
 
-      - name: Pipeline — ITBI → IPTU → (PJ) → enriquecer
+      - name: Escopo — extrair os SQLs da nossa lista (só eles saem; o resto da cidade é descartado)
+        run: |
+          python3 - <<'PY'
+          import csv
+          from pathlib import Path
+          out = Path("_comercial_in/sqls.txt"); out.parent.mkdir(exist_ok=True)
+          sqls = set()
+          with open("casos-reais/tdc/LISTA-VENDEDORES.csv", encoding="utf-8") as f:
+              for r in csv.DictReader(f):
+                  s = "".join(ch for ch in (r.get("sql") or "") if ch.isdigit())[:10]
+                  if len(s) == 10: sqls.add(s)
+          out.write_text("\n".join(sorted(sqls)), encoding="utf-8")
+          print(f"escopo: {len(sqls)} SQLs")
+          PY
+
+      - name: Pipeline — ITBI → IPTU(escopado) → (PJ) → enriquecer
         run: |
           set -e
           python3 comercial/itbi_para_sql.py --entrada _comercial_in/itbi_*.xlsx || echo "ITBI: sem xlsx legível (segue sem preço)"
-          python3 comercial/iptu2020_para_contribuinte.py --entrada _comercial_in/iptu.csv
+          python3 comercial/iptu2020_para_contribuinte.py --entrada _comercial_in/iptu.csv --filtro-sqls _comercial_in/sqls.txt
           if [ "${{ inputs.com_pj }}" = "true" ] && [ -f zepec/oficial/socios.csv ]; then
             python3 zepec/resolver_dono.py --base zepec/oficial || echo "resolver: sem saída (segue só PF)"
           fi
