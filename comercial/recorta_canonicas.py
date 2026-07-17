@@ -65,8 +65,10 @@ def _stream(path):
 
 
 def _cols_socios(header):
-    return (_idx(header, "cnpj"), _idx(header, "cpf_cnpj_socio", "doc_socio", "cpf/cnpj do socio", "documento socio"),
-            _idx(header, "nome_socio", "nome do socio"))
+    return (_idx(header, "cnpj"),
+            _idx(header, "cpf_cnpj_socio", "cnpj_cpf_socio", "cpf_cnpj_do_socio", "cnpj_cpf_do_socio",
+                 "nu_cpf_cnpj_socio", "doc_socio", "documento_socio", "cpf/cnpj do socio", "documento socio"),
+            _idx(header, "nome_socio", "nome_do_socio", "razao_social_socio", "nome do socio"))
 
 
 def _cols_holdings(header):
@@ -116,14 +118,27 @@ def recorta(base, needed, saida):
                     w.writerow([_dig(row[ic]), (row[ir] if 0 <= ir < len(row) else "").strip()]); n_emp += 1
     # socios
     it = _stream(Path(base) / "socios.csv"); header = next(it, None); n_soc = 0
+    diag = {"cnpj14": 0, "doc_vazio": 0, "doc_curto": 0, "nome_ok": 0}  # não-PII: só contagens/tamanhos
     with open(saida / "socios.csv", "w", encoding="utf-8", newline="") as f:
         w = csv.writer(f); w.writerow(["cnpj", "doc_socio", "nome_socio"])
         if header:
             ic, isoc, inome = _cols_socios(header)
+            print(f"DIAG socios: header={header[:8]} | idx cnpj={ic} doc_socio={isoc} nome_socio={inome}")
             for row in it:
                 if 0 <= ic < len(row) and _dig(row[ic]) in needed:
-                    w.writerow([_dig(row[ic]), _dig(row[isoc]) if 0 <= isoc < len(row) else "",
-                                (row[inome] if 0 <= inome < len(row) else "").strip()]); n_soc += 1
+                    d = _dig(row[isoc]) if 0 <= isoc < len(row) else ""
+                    nm = (row[inome] if 0 <= inome < len(row) else "").strip()
+                    w.writerow([_dig(row[ic]), d, nm]); n_soc += 1
+                    if len(d) == 14:
+                        diag["cnpj14"] += 1
+                    elif not d:
+                        diag["doc_vazio"] += 1
+                    else:
+                        diag["doc_curto"] += 1
+                    if nm:
+                        diag["nome_ok"] += 1
+    print(f"DIAG socios recortados: {n_soc} | doc CNPJ(14)={diag['cnpj14']} doc curto/mascarado={diag['doc_curto']} "
+          f"doc vazio={diag['doc_vazio']} | com nome={diag['nome_ok']}")
     # holdings
     it = _stream(Path(base) / "holdings.csv"); header = next(it, None); n_hold = 0
     with open(saida / "holdings.csv", "w", encoding="utf-8", newline="") as f:

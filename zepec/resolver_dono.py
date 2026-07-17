@@ -50,21 +50,27 @@ def _tipo_doc(doc):
 
 def controladores_pf(doc, nome, socios_por_cnpj, seen=None, depth=0):
     """Devolve o conjunto de PESSOAS FÍSICAS controladoras a partir de um documento.
-    CPF → a própria PF; CNPJ → sobe pelos sócios (recursivo, holdings) até achar as PF. Anti-loop."""
+    CNPJ (14 díg.) → sobe pelos sócios (recursivo, holdings) até achar as PF. Anti-loop.
+    QUALQUER outro documento num SÓCIO = pessoa física: o CPF do sócio na base da Receita vem
+    MASCARADO (`***NNNNNN**`, <11 díg.), então NÃO se pode exigir 11 dígitos — usa-se o NOME completo
+    do sócio (a fonte primária traz o nome inteiro). Sem isso, todo controlador-PF se perdia (bug 2026-07-17)."""
     seen = seen if seen is not None else set()
-    t = _tipo_doc(doc)
-    if t == "CPF":
-        return {(nome or "").strip() or f"CPF {_digitos(doc)}"}
-    if t != "CNPJ" or depth > MAXDEPTH:
-        return set()
     cnpj = _digitos(doc)
-    if cnpj in seen:
-        return set()
-    seen.add(cnpj)
-    out = set()
-    for s in socios_por_cnpj.get(cnpj, []):
-        out |= controladores_pf(s.get("doc_socio"), s.get("nome_socio"), socios_por_cnpj, seen, depth + 1)
-    return out
+    if len(cnpj) == 14:  # é CNPJ → sobe a cadeia societária
+        if depth > MAXDEPTH or cnpj in seen:
+            return set()
+        seen.add(cnpj)
+        out = set()
+        for s in socios_por_cnpj.get(cnpj, []):
+            out |= controladores_pf(s.get("doc_socio"), s.get("nome_socio"), socios_por_cnpj, seen, depth + 1)
+        return out
+    # não é CNPJ: no topo (seed) sem nome não há o que resolver; num sócio, é a PF (pelo nome)
+    if depth == 0:
+        return {(nome or "").strip()} if (nome or "").strip() else set()
+    nm = (nome or "").strip()
+    if nm:
+        return {nm}
+    return {f"CPF {cnpj}"} if cnpj else set()
 
 
 def resolver(contrib_rows, empresas, socios_por_cnpj):
