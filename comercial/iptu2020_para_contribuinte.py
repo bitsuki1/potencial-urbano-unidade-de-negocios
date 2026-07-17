@@ -193,13 +193,17 @@ def main():
     filtro = _carrega_filtro(args.filtro_sqls) if args.filtro_sqls else None
     if args.filtro_sqls and filtro:
         print(f"escopo: {len(filtro)} SQLs — o resto da cidade será descartado.")
+    # Múltiplas safras (ex.: 2016 primeiro, 2020 como fallback): PRIMEIRA safra que traz o SQL VENCE,
+    # tanto no contrib quanto nos flags (dedup consistente — senão a safra 2 sobrescreveria a 1 no join).
     contrib, flags, vistos = [], [], set()
     for p in args.entrada:
         c, f = parse(_ler_csv(p), filtro=filtro)
+        fpor = {x["sql_mestre"]: x for x in f}
         for row in c:
             if row["sql_mestre"] not in vistos:
                 vistos.add(row["sql_mestre"]); contrib.append(row)
-        flags.extend(f)
+                if row["sql_mestre"] in fpor:
+                    flags.append(fpor[row["sql_mestre"]])
     SAIDA_DIR.mkdir(parents=True, exist_ok=True)
     with open(SAIDA_DIR / "iptu_contribuinte.csv", "w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=["sql_mestre", "documento", "contribuinte"]); w.writeheader(); w.writerows(contrib)

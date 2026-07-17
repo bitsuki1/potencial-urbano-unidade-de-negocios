@@ -16,6 +16,14 @@ on:
         description: "URL do cadastro IPTU citywide COM NOME (default: mirror 2016, cidade toda, 35 col). Vazio = usa o drive_id."
         required: false
         default: "https://media.githubusercontent.com/media/0x3333/iptu.go/master/IPTU-2016-06-03.CSV"
+      iptu_url2:
+        description: "2ª safra IPTU citywide COM NOME (fallback dos SQLs ainda sem dono; ex.: GeoSampa 2020). Vazio = só a 1ª."
+        required: false
+        default: ""
+      iptu_drive_id2:
+        description: "Alternativa à URL2: id Drive de uma 2ª safra IPTU com nome (fallback). Vazio = ignora."
+        required: false
+        default: ""
       itbi_drive_ids:
         description: "Drive ids das guias de ITBI (vírgula). Default: 2024,2023,2022,snapshot-2026."
         required: true
@@ -69,6 +77,20 @@ jobs:
             mv _comercial_in/iptu.raw _comercial_in/iptu.csv
           fi
           echo "linhas IPTU: $(wc -l < _comercial_in/iptu.csv)"
+          # 2ª safra opcional (fallback dos SQLs ainda sem dono) → iptu2.csv (o parser dedup por SQL, 1ª vence)
+          if [ -n "${{ inputs.iptu_url2 }}" ]; then
+            curl -fsSL "${{ inputs.iptu_url2 }}" -o _comercial_in/iptu2.raw || echo "aviso: falhou url2"
+          elif [ -n "${{ inputs.iptu_drive_id2 }}" ]; then
+            python3 comercial/baixar_drive_sa.py "${{ inputs.iptu_drive_id2 }}" _comercial_in/iptu2.raw || echo "aviso: falhou drive_id2"
+          fi
+          if [ -f _comercial_in/iptu2.raw ]; then
+            if gzip -t _comercial_in/iptu2.raw 2>/dev/null; then
+              mv _comercial_in/iptu2.raw _comercial_in/iptu2.gz && gunzip -f _comercial_in/iptu2.gz && mv _comercial_in/iptu2 _comercial_in/iptu2.csv
+            else
+              mv _comercial_in/iptu2.raw _comercial_in/iptu2.csv
+            fi
+            echo "linhas IPTU 2ª safra: $(wc -l < _comercial_in/iptu2.csv)"
+          fi
 
       - name: Baixar guias de ITBI
         env:
@@ -121,7 +143,8 @@ jobs:
         run: |
           set -e
           python3 comercial/itbi_para_sql.py --entrada _comercial_in/itbi_*.xlsx || echo "ITBI: sem xlsx legível (segue sem preço)"
-          python3 comercial/iptu2020_para_contribuinte.py --entrada _comercial_in/iptu.csv --filtro-sqls _comercial_in/sqls.txt
+          SAFRAS="_comercial_in/iptu.csv"; [ -f _comercial_in/iptu2.csv ] && SAFRAS="$SAFRAS _comercial_in/iptu2.csv"
+          python3 comercial/iptu2020_para_contribuinte.py --entrada $SAFRAS --filtro-sqls _comercial_in/sqls.txt
           if [ "${{ inputs.com_pj }}" = "true" ] && [ -f _canonicas_in/socios.csv ]; then
             # recorta em streaming (só os CNPJs que interessam) → resolver roda no recorte pequeno, sem OOM
             python3 comercial/recorta_canonicas.py --base _canonicas_in --contrib zepec/oficial/iptu_contribuinte.csv --saida zepec/oficial/recorte
