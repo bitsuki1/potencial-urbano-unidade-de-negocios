@@ -83,7 +83,7 @@ def _ler_csv(path):
     enc = _detecta_encoding(path)
     with open(path, encoding=enc, errors="replace") as f:
         amostra = f.readline()
-        delim = max(["|", ";", ","], key=lambda d: amostra.count(d))
+        delim = max(["|", ";", ",", "\t"], key=lambda d: amostra.count(d))  # \t: espelho 2020 é TAB-delimitado
         f.seek(0)
         for row in csv.reader(f, delimiter=delim):
             yield row
