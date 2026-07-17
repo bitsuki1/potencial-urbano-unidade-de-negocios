@@ -25,9 +25,9 @@ on:
         required: true
         default: "false"
       socios_ids:
-        description: "Se com_pj=true: ids Drive de empresas.csv,socios.csv[,holdings.csv] (vírgula, nessa ordem)."
+        description: "Se com_pj=true: ids Drive de empresas.csv,socios.csv,holdings.csv (vírgula, nessa ordem)."
         required: false
-        default: ""
+        default: "1uRWg7wA4KuppJ1TSdEwRmV3H06fTXlnj,1gftoKzFaD-NyKClBg3SH8Eo0FYncQYvt,1BrBRzC3G4atGZ8JqRZhGp4OnvBZTjOgr"
 
 permissions:
   contents: write
@@ -85,21 +85,22 @@ jobs:
           done
           ls -la _comercial_in/
 
-      - name: (opcional) Baixar canônicas societárias
+      - name: (opcional) Baixar canônicas societárias (para um temp — recorte depois)
         if: ${{ inputs.com_pj == 'true' && inputs.socios_ids != '' }}
         env:
           GOOGLE_SA_KEY: ${{ secrets.GOOGLE_SA_KEY }}
         run: |
           set -e
-          mkdir -p zepec/oficial
+          mkdir -p _canonicas_in
           IFS=',' read -ra IDS <<< "${{ inputs.socios_ids }}"
           names=(empresas.csv socios.csv holdings.csv)
           i=0
           for id in "${IDS[@]}"; do
             id=$(echo "$id" | xargs); [ -z "$id" ] && continue
-            python3 comercial/baixar_drive_sa.py "$id" "zepec/oficial/${names[$i]}"
+            python3 comercial/baixar_drive_sa.py "$id" "_canonicas_in/${names[$i]}"
             i=$((i+1))
           done
+          ls -la _canonicas_in/
 
       - name: Escopo — extrair os SQLs da nossa lista (só eles saem; o resto da cidade é descartado)
         run: |
@@ -121,8 +122,11 @@ jobs:
           set -e
           python3 comercial/itbi_para_sql.py --entrada _comercial_in/itbi_*.xlsx || echo "ITBI: sem xlsx legível (segue sem preço)"
           python3 comercial/iptu2020_para_contribuinte.py --entrada _comercial_in/iptu.csv --filtro-sqls _comercial_in/sqls.txt
-          if [ "${{ inputs.com_pj }}" = "true" ] && [ -f zepec/oficial/socios.csv ]; then
-            python3 zepec/resolver_dono.py --base zepec/oficial || echo "resolver: sem saída (segue só PF)"
+          if [ "${{ inputs.com_pj }}" = "true" ] && [ -f _canonicas_in/socios.csv ]; then
+            # recorta em streaming (só os CNPJs que interessam) → resolver roda no recorte pequeno, sem OOM
+            python3 comercial/recorta_canonicas.py --base _canonicas_in --contrib zepec/oficial/iptu_contribuinte.csv --saida zepec/oficial/recorte
+            python3 zepec/resolver_dono.py --base zepec/oficial/recorte || echo "resolver: sem saída (segue só PF)"
+            rm -rf _canonicas_in zepec/oficial/recorte
           fi
           python3 comercial/enriquecer_lista.py
 
