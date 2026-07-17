@@ -178,7 +178,17 @@ def main():
     needed = fecho_cnpjs(args.base, alvos)
     print(f"fecho recursivo (com holdings): {len(needed)} CNPJs")
     ne, ns, nh = recorta(args.base, needed, args.saida)
-    print(f"recorte → empresas={ne} socios={ns} holdings={nh} em {args.saida}")
+    # o recorte precisa ser AUTO-SUFICIENTE p/ o resolver (`--base <recorte>`): ele lê iptu_contribuinte.csv
+    # de DENTRO da base. O recortador só emite empresas/socios/holdings; sem esta cópia o resolver aborta
+    # com "[AGUARDANDO] ... iptu_contribuinte.csv ausente" e não resolve nenhum controlador.
+    n_contrib = 0
+    if Path(args.contrib).exists():
+        import shutil
+        Path(args.saida).mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(args.contrib, Path(args.saida) / "iptu_contribuinte.csv")
+        with open(args.contrib, encoding="utf-8", errors="replace") as f:
+            n_contrib = max(0, sum(1 for _ in f) - 1)
+    print(f"recorte → empresas={ne} socios={ns} holdings={nh} contrib={n_contrib} em {args.saida}")
     return 0
 
 
