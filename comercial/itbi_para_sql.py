@@ -31,8 +31,19 @@ def _norm(s):
 
 
 def _sql10(s):
-    d = re.sub(r"\D", "", str(s or ""))
-    return d[:10] if len(d) >= 10 else ""
+    """Normaliza o 'N° do Cadastro (SQL)' da guia ao SQL de 10 dígitos (setor+quadra+lote) da lista/IPTU.
+    A guia guarda o cadastro como NÚMERO no xlsx → o openpyxl PERDE o zero à esquerda e agrega '.0'
+    (ex.: o SQL central '0100800297' vira o float 100800297.0). Recupera: parte inteira + zfill(10).
+    Forma string com DV (ex.: '020.067.0033-1', 11 dígitos) → primeiros 10 (o DV fica de fora)."""
+    s = str(s or "").strip()
+    m = re.match(r"^(\d+)(?:[.,]0+)?$", s)      # número puro (com/sem '.0' do openpyxl)
+    if m:
+        d = m.group(1)
+        return d[:10] if len(d) >= 11 else d.zfill(10)
+    d = re.sub(r"\D", "", s)
+    if not d:
+        return ""
+    return d[:10] if len(d) >= 11 else d.zfill(10)
 
 
 def _data_iso(s):
@@ -123,6 +134,11 @@ def _autoteste():
     assert melhor["0200670033"]["valor_transacao"] == "4804259.04"
     # valor com formato brasileiro (1.234.567,89) parseado
     assert melhor["0100010001"]["valor_transacao"] == "767498.59", melhor["0100010001"]
+    # FORMATO NUMÉRICO do openpyxl (o bug real): "100800297.0" (zero à esquerda perdido) → "0100800297"
+    assert _sql10("100800297.0") == "0100800297", _sql10("100800297.0")
+    assert _sql10("1008002.0") == "0001008002", _sql10("1008002.0")   # zero-pad à esquerda
+    assert _sql10("020.067.0033-1") == "0200670033"                    # forma string com DV (IPTU-like)
+    assert melhor["0100800297"]["valor_transacao"] == "350000.00", melhor.get("0100800297")
     return len(melhor)
 
 
