@@ -163,10 +163,15 @@ jobs:
               unzip -o -q _rf.zip -d _rf_csv && for c in _rf_csv/*; do python3 comercial/recorta_receita_oficial.py --fase empresas --entrada "$c" --estado _rf; done
               rm -rf _rf.zip _rf_csv
             done
-            for i in $(seq 0 9); do
-              curl -fsSL --retry 5 --retry-delay 8 -o _rf.zip "$BASE/Socios${i}.zip" || { echo "aviso: Socios${i} falhou"; continue; }
-              unzip -o -q _rf.zip -d _rf_csv && for c in _rf_csv/*; do python3 comercial/recorta_receita_oficial.py --fase socios --entrada "$c" --estado _rf; done
-              rm -rf _rf.zip _rf_csv
+            # 3 RODADAS = fecho de holding até 3 níveis: cada rodada descobre novos sócios-PJ (holdings)
+            # e os adiciona ao conjunto needed; a rodada seguinte captura os sócios DELES. finalize dedup.
+            for rodada in 1 2 3; do
+              echo "--- socios rodada $rodada (fecho de holding) ---"
+              for i in $(seq 0 9); do
+                curl -fsSL --retry 5 --retry-delay 8 -o _rf.zip "$BASE/Socios${i}.zip" || { echo "aviso: Socios${i} falhou"; continue; }
+                unzip -o -q _rf.zip -d _rf_csv && for c in _rf_csv/*; do python3 comercial/recorta_receita_oficial.py --fase socios --entrada "$c" --estado _rf; done
+                rm -rf _rf.zip _rf_csv
+              done
             done
             python3 comercial/recorta_receita_oficial.py --fase finalize --estado _rf --saida zepec/oficial/recorte
             python3 zepec/resolver_dono.py --base zepec/oficial/recorte || echo "resolver: sem saída (segue só PF)"
