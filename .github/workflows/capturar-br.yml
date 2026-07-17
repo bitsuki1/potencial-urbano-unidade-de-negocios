@@ -1,0 +1,36 @@
+# capturar-br — roda no runner `brasil` (VPS com IP do Brasil, sem o proxy de egresso desta sessão).
+# Objetivo: destravar as fontes .gov.br que STF/STJ/GeoSampa só servem do Brasil.
+#   • Item 3 — inteiro teor da jurisprudência (STF jurisprudencia / STJ SCON).
+#   • Item 4 — Quadro 14 (Valor de Terreno p/ Outorga Onerosa) citywide do GeoSampa (carga que falta).
+# PROVA primeiro (probe de alcance): se o runner pega o job e os .gov.br respondem 200, a rota está
+# confirmada e a captura real entra na sequência. push-triggered (dispara ao empurrar, sem depender da main).
+name: capturar-br
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/capturar-br.yml"
+      - "scripts/capturar_juris_portais.py"
+
+concurrency:
+  group: capturar-br
+  cancel-in-progress: false
+
+jobs:
+  probe:
+    runs-on: [self-hosted, brasil]
+    timeout-minutes: 20
+    steps:
+      - name: Alcance das fontes .gov.br (prova da rota BR)
+        run: |
+          echo "runner: $(hostname) | IP público:"; curl -sS -m 20 https://api.ipify.org || true; echo
+          for u in \
+            "https://jurisprudencia.stf.jus.br" \
+            "https://scon.stj.jus.br/SCON/" \
+            "http://download.geosampa.prefeitura.sp.gov.br/PaginasPublicas/downloadArquivo.aspx" \
+            "https://metadados.geosampa.prefeitura.sp.gov.br"; do
+            echo "=== $u ==="
+            curl -sS -m 30 -o /dev/null -w "HTTP %{http_code} | %{time_total}s | tam %{size_download}\n" "$u" || echo "FALHOU (rede/TLS)"
+          done
+          echo "PROBE OK — se acima houver 200/302 em STF e STJ, a rota BR resolve o item 3; GeoSampa idem p/ item 4."
