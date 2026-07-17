@@ -1,0 +1,43 @@
+{
+  "chunk_id": "decreto-saopaulo-58592-2018::004-art-3o",
+  "lei_id": "decreto-saopaulo-58592-2018",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 3º",
+  "numero": "3",
+  "header_raw": "Art. 3º Este decreto entrará em vigor na data de sua publicação, produzindo efeitos a partir de 1º de janeiro de 2019.",
+  "caminho_hierarquico": [
+    "Art. 3º"
+  ],
+  "texto": "Art. 3º Este decreto entrará em vigor na data de sua publicação, produzindo efeitos a partir de 1º de janeiro de 2019.\n\nPREFEITURA DO MUNICÍPIO DE SÃO PAULO, aos 27 de dezembro de 2018, 465º da fundação de São Paulo.\n\nBRUNO COVAS, PREFEITO\n\nPHILIPPE VEDOLIM DUCHATEAU, Secretário Municipal de Fazenda\n\nJOÃO JORGE DE SOUZA, Secretário Municipal da Casa Civil\n\nRUBENS NAMAN RIZEK JUNIOR, Secretário Municipal de Justiça\n\nMAURO RICARDO MACHADO COSTA, Secretário do Governo Municipal\n\nPublicado na Casa Civil, em 27 de dezembro de 2018.\n\nEste texto não substitui o original publicado no Diário Oficial da Cidade de São Paulo.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 58.592/2018 — São Paulo/SP",
+    "dispositivo": "Art. 3º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-58592-de-27-de-dezembro-de-2018",
+    "vigencia": {
+      "inicio": "2018-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2018-12-27 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "planta_generica_valores"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Atualiza, para o exercício de 2019, os valores unitários de metro quadrado de construção e de terreno constantes da Planta Genérica de Valores, o valor limite de metro quadrado de terreno de imóveis residenciais verticais e os valores das multas relativas ao Imposto Predial e Territorial Urbano, bem como concede desconto para pagamento à vista desse imposto."
+}

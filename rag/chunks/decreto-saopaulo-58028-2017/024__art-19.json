@@ -1,0 +1,48 @@
+{
+  "chunk_id": "decreto-saopaulo-58028-2017::024-art-19",
+  "lei_id": "decreto-saopaulo-58028-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 19",
+  "numero": "19",
+  "header_raw": "Art. 19. Permanecerão sob a análise da Comissão de Análise Integrada de Projetos de Edificações e de Parcelamento do Solo – CAIEPS, os pedidos de licenciamento de edificações analisados nos termos da Lei nº 16.402, de 2016, que não solicitem o procedimento APROVA RÁPIDO, nas seguintes situações:(Redação dada pelo Decreto n° 58.130/2018)",
+  "caminho_hierarquico": [
+    "Art. 19"
+  ],
+  "texto": "Art. 19. Permanecerão sob a análise da Comissão de Análise Integrada de Projetos de Edificações e de Parcelamento do Solo – CAIEPS, os pedidos de licenciamento de edificações analisados nos termos da Lei nº 16.402, de 2016, que não solicitem o procedimento APROVA RÁPIDO, nas seguintes situações:(Redação dada pelo Decreto n° 58.130/2018)\n\nI - Polos Geradores de Tráfego - PGTs, com área construída total superior a 20.000,00m² (vinte mil metros quadrados);\n\nII - Empreendimentos Geradores de Impacto de Vizinhança - EGIV;\n\nIII - helipontos ou heliportos, a fim de subsidiar parecer da CTLU, conforme disposto no § 1º do artigo 6º do Decreto nº 56.941, de 18 de abril de 2016, que regulamenta a Lei nº 15.723, de 24 de abril de 2013;\n\nIII - helipontos ou heliportos, a fim de subsidiar parecer da CTLU, conforme disposto no § 1º do artigo 7º do Decreto nº 58.094, de 21 de fevereiro de 2018, que regulamenta a Lei nº 15.723, de 24 de abril de 2013;(Redação dada pelo Decreto n° 58.130/2018)\n\nIV - reforma com ampliação de área construída de hospitais enquadrados nas subcategorias nR2 e nR3 em que as ruas de acesso tenham largura inferior a 12m (doze metros), a fim de subsidiar a apreciação da CTLU, conforme disposto no artigo 118 da Lei nº 16.402, de 2016;\n\nV - Relatórios de Impacto de Vizinhança - RIV, conforme estabelecido no Decreto nº 34.713, de 30 de novembro de 1994, até a revisão da legislação vigente, prevista no parágrafo único do artigo 110 da Lei nº 16.402, de 2016;\n\nVI – Estação Rádio-Base, no caso de conflito entre as disposições da Lei nº 13.756, de 16 de janeiro de 2004, e legislação específica com as disposições da Lei nº 16.402, de 2016.\n\n§ 1º No caso de empreendimentos classificados como PGTs cujo acesso direto de veículos seja por via onde estejam implantados ou planejados os corredores de ônibus municipais e intermunicipais, definidos no Mapa 9 do Plano Diretor Estratégico, aprovado pela Lei n° 16.050, de 31 de julho de 2014, competirá, ainda, à CAIEPS a análise quanto à admissão de sua instalação, após exame da Companhia de Engenharia de Tráfego - CET, validada por SMT, desde que prevista pista de acomodação no interior do lote, conforme disposto no § 2º do artigo 78 da referida lei.\n\n§ 2º A CAIEPS poderá efetuar a análise de outros empreendimentos que dependam do parecer de uma ou mais das Secretarias Municipais que a compõem, por solicitação das Coordenadorias de Licenciamento.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "2018",
+    "norma_redacao": "Decreto n° 58.130/2018"
+  },
+  "citacao": {
+    "norma": "decreto nº 58.028/2017 — São Paulo/SP",
+    "dispositivo": "Art. 19",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-58028-de-11-de-dezembro-de-2017",
+    "vigencia": {
+      "inicio": "2017-12-11",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2017-12-11. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o procedimento APROVA RÁPIDO; cria o Grupo Intersecretarial de Análise de Projetos Específicos no Município – GRAPROEM e o Comitê Gestor do APROVA RÁPIDO."
+}

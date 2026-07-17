@@ -1,0 +1,86 @@
+{
+  "id": "lei-municipal-saopaulo-17092-2019",
+  "tipo_norma": "lei_ordinaria",
+  "esfera": "municipal",
+  "jurisdicao": "São Paulo/SP",
+  "numero": "17.092",
+  "ano": 2019,
+  "ementa": "Dispõe sobre a remissão de créditos tributários do Imposto Predial e Territorial Urbano – IPTU, introduz alterações na Lei nº 15.889, de 5 de novembro de 2013, que atualiza os valores unitários de metro e na Lei nº 13.250, de 27 de dezembro de 2001.",
+  "tema": [
+    "planta_generica_valores"
+  ],
+  "dispositivos_chave": [
+    "Art. 1º Ficam remitidos, vedada a restituição de quaisquer quantias recolhidas a esse título, os créditos tributários do Imposto",
+    "Art. 2º Fica acrescido o § 2º-A ao art. 9º da Lei nº 15.889, de 5 de novembro de 2013, na seguinte conformidade:",
+    "Art. 3º Fica autorizada a compensação pelo Município de São Paulo, na forma do art. 170 da Lei Federal nº 5.172, de 25 de outubr",
+    "Art. 4º O art. 7º da Lei nº 13.250, de 27 de dezembro de 2001, passa a vigorar com a seguinte redação:",
+    "Art. 5º Quando a situação de um ou mais imóveis no Cadastro Imobiliário Fiscal for modificada em virtude de desdobro, englobamen",
+    "Art. 6º Esta lei entrará em vigor na data de sua publicação."
+  ],
+  "vigencia": {
+    "inicio": "2019-05-23",
+    "fim": null,
+    "em_vigor": true,
+    "altera": [],
+    "alterada_por": [],
+    "revogada_por": null,
+    "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2019-05-23 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+  },
+  "remissoes": [
+    {
+      "norma": "Decreto nº 58.960",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "LEI Nº 17.092",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei Federal nº 5.172",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei Federal nº 6.404",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 13.250",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 15.889",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 16.768",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 87/19",
+      "relacao": "citada no texto (detectada automaticamente)"
+    }
+  ],
+  "jurisprudencia_relacionada": [],
+  "tem_tabela": false,
+  "tabelas_extraidas": [],
+  "tem_formula": false,
+  "formulas_referenciadas": [],
+  "fonte": {
+    "origem": "Portal oficial (legislacao.prefeitura.sp.gov.br)",
+    "path": "_entrada/misto/lei-municipal-saopaulo-17092-2019.txt",
+    "url": "https://legislacao.prefeitura.sp.gov.br/lei-17092-de-23-de-maio-de-2019",
+    "hash": "sha256:484d98fc0351504a3fb59828401580e0449d4f28270f11de058562d05cdda799",
+    "hash_nota_fonte": "sha256 do HTML bruto do portal capturado 2026-07-13",
+    "ocr": false,
+    "metodo": "VERBATIM INTEGRAL (portal oficial, texto compilado); captura portal oficial legislacao.prefeitura.sp.gov.br (container texto_compilado); promovido de _entrada/misto/",
+    "hash_alvo": "_entrada/misto/lei-municipal-saopaulo-17092-2019.txt",
+    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior."
+  },
+  "status_pipeline": "indexado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "dominio_primario": "iptu",
+  "dominio": [
+    "iptu"
+  ]
+}

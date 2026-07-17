@@ -1,0 +1,46 @@
+{
+  "chunk_id": "decreto-saopaulo-60939-2021::048-art-18",
+  "lei_id": "decreto-saopaulo-60939-2021",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 18",
+  "numero": "18",
+  "header_raw": "Art. 18. A entidade religiosa ou a entidade educacional sem fins lucrativos poderão apresentar a proposta de transação à Procuradoria Geral do Município.",
+  "caminho_hierarquico": [
+    "CAPÍTULO IV",
+    "Art. 18"
+  ],
+  "texto": "Art. 18. A entidade religiosa ou a entidade educacional sem fins lucrativos poderão apresentar a proposta de transação à Procuradoria Geral do Município.\n\n§ 1º Apresentada a proposta de transação a Procuradoria Geral do Município, com apoio do Comitê de Desjudicialização, realizará uma análise, com base na probabilidade jurídica e econômica do recebimento do crédito e aceitará a proposta ou apresentará uma contraproposta de transação.\n\n§ 2º Para as propostas de transação protocoladas nos primeiros 180 (cento e oitenta) dias da publicação deste decreto, a contraproposta apresentada pela Procuradoria Geral do Município não poderá propor descontos menores e condições menos vantajosas para o contribuinte do que aqueles previstos no Programa de Parcelamento Incentivado – PPI instituído pela Lei nº 17.557, de 26 de maio de 2021.\n\n§ 3º Apresentada proposta de transação com contrapartida não financeira, o Comitê de Desjudicialização constituirá uma Comissão para opinar sobre o interesse público no recebimento dos bens e serviços oferecidos, bem como para realizar a avaliação econômica destes bens e serviços.\n\n§ 4º Participarão da comissão de que trata o §3º deste artigo representantes dos órgãos que compõem o Comitê de Desjudicialização, bem como dos órgãos que se utilizarão dos bens e serviços oferecidos.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 60.939/2021 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO IV › Art. 18",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-60939-de-23-de-dezembro-de-2021",
+    "vigencia": {
+      "inicio": "2021-12-23",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2021-12-23 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "itbi"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Política Municipal de Desjudicialização instituída pela Lei nº 17.324, de 18 de março de 2020, bem como regulamenta a transação tributária de que trata os artigos 21 a 24 da Lei nº 17.719, de 26 de novembro de 2021."
+}

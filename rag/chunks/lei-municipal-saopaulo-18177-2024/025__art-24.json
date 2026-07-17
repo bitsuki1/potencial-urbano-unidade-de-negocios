@@ -1,0 +1,47 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-18177-2024::025-art-24",
+  "lei_id": "lei-municipal-saopaulo-18177-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 24",
+  "numero": "24",
+  "header_raw": "Art. 24. Fica transformada ZDE em ZEM: área com frente para a Avenida Otaviano Alves de Lima, 4.400 – Setor 104, Quadra 178, Lote 0023-0.",
+  "caminho_hierarquico": [
+    "Art. 24"
+  ],
+  "texto": "Art. 24. Fica transformada ZDE em ZEM: área com frente para a Avenida Otaviano Alves de Lima, 4.400 – Setor 104, Quadra 178, Lote 0023-0.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 18.177/2024 — São Paulo/SP",
+    "dispositivo": "Art. 24",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-18177-de-25-de-julho-de-2024",
+    "vigencia": {
+      "inicio": "2024-07-25",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente do portal oficial (captura 2026-07-13); em vigor desde 2024-07-25. Sem auto-revogacao/suspensao. Metadados por scaffold (extracao pura); revisao fina pendente."
+    }
+  },
+  "tema": [
+    "coeficiente_aproveitamento",
+    "plano_intervencao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Compatibiliza a redação do art. 2º da Lei nº 18.081, de 19 de janeiro de 2024, para tornar expressa a metodologia aplicada ao MAPA I, adequa legendas do MAPA I e a redação de outros dispositivos constantes da Lei nº 18.081, de 2024."
+}

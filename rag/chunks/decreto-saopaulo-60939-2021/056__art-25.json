@@ -1,0 +1,48 @@
+{
+  "chunk_id": "decreto-saopaulo-60939-2021::056-art-25",
+  "lei_id": "decreto-saopaulo-60939-2021",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 25",
+  "numero": "25",
+  "header_raw": "Art. 25 As decisões de arbitramento exaradas pelo Procurador Geral do Município, no exercício da competência prevista neste decreto, são de cumprimento obrigatório pelos órgãos de direção das entidades da Administração Pública Municipal Indireta, ressalvada a possibilidade de controle judicial do ato.(Redação dada pelo Decreto nº 62.936/2023)",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Art. 25"
+  ],
+  "texto": "Art. 25 As decisões de arbitramento exaradas pelo Procurador Geral do Município, no exercício da competência prevista neste decreto, são de cumprimento obrigatório pelos órgãos de direção das entidades da Administração Pública Municipal Indireta, ressalvada a possibilidade de controle judicial do ato.(Redação dada pelo Decreto nº 62.936/2023)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "2023",
+    "norma_redacao": "Decreto nº 62.936/2023"
+  },
+  "citacao": {
+    "norma": "decreto nº 60.939/2021 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO V › Art. 25",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-60939-de-23-de-dezembro-de-2021",
+    "vigencia": {
+      "inicio": "2021-12-23",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2021-12-23 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "itbi"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Política Municipal de Desjudicialização instituída pela Lei nº 17.324, de 18 de março de 2020, bem como regulamenta a transação tributária de que trata os artigos 21 a 24 da Lei nº 17.719, de 26 de novembro de 2021."
+}

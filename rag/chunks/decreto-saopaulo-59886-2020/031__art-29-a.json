@@ -1,0 +1,50 @@
+{
+  "chunk_id": "decreto-saopaulo-59886-2020::031-art-29-a",
+  "lei_id": "decreto-saopaulo-59886-2020",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 29-A",
+  "numero": "29-A",
+  "header_raw": "Art. 29-A. Nos casos em que o EHIS ou EZEIS não atenda à área mínima de terreno estabelecida pela respectiva operação urbana consorciada, o empreendimento será licenciado exclusivamente nos termos do decreto que fixa a disciplina geral para implantação de EHIS e EZEIS, inclusive no que se refere a requisitos, condições de instalação, parâmetros de ocupação do solo e normas edilícias, afastada a aplicação das disposições deste decreto ou de outro que venha a substituí-lo, da legislação específica da operação urbana consorciada e de suas respectivas vedações.(Incluído pelo Decreto nº 63.728/2024)",
+  "caminho_hierarquico": [
+    "CAPÍTULO IV",
+    "Art. 29-A"
+  ],
+  "texto": "Art. 29-A. Nos casos em que o EHIS ou EZEIS não atenda à área mínima de terreno estabelecida pela respectiva operação urbana consorciada, o empreendimento será licenciado exclusivamente nos termos do decreto que fixa a disciplina geral para implantação de EHIS e EZEIS, inclusive no que se refere a requisitos, condições de instalação, parâmetros de ocupação do solo e normas edilícias, afastada a aplicação das disposições deste decreto ou de outro que venha a substituí-lo, da legislação específica da operação urbana consorciada e de suas respectivas vedações.(Incluído pelo Decreto nº 63.728/2024)\n\nParágrafo único. Na hipótese de que trata o “caput” deste artigo:(Incluído pelo Decreto nº 63.728/2024)\n\nI - será permitida a utilização, de forma gratuita, do coeficiente de aproveitamento máximo definido nos termos do decreto que fixa a disciplina geral para implantação de EHIS e EZEIS;(Incluído pelo Decreto nº 63.728/2024)\n\nII - deverão ser atendidos eventuais melhoramentos urbanísticos, melhoramentos viários e alargamentos de passeios públicos previstos pela legislação específica da respectiva operação urbana consorciada, bem como por este decreto ou outro que venha a substituí-lo.(Incluído pelo Decreto nº 63.728/2024)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 59.886/2020 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO IV › Art. 29-A",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59886-de-4-de-novembro-de-2020",
+    "vigencia": {
+      "inicio": "2020-11-04",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2020-11-04. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Consolida a disciplina específica de uso e ocupação do solo para os Empreendimentos de Habitação de Interesse Social – EHIS e Empreendimentos em ZEIS - EZEIS a serem executados nas áreas das Operações Urbanas Consorciadas Água Espraiada, Faria Lima e Água Branca e na Operação Urbana Centro."
+}

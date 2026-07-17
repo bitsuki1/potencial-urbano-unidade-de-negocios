@@ -1,0 +1,53 @@
+{
+  "chunk_id": "decreto-saopaulo-63504-2024::024-art-23",
+  "lei_id": "decreto-saopaulo-63504-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 23",
+  "numero": "23",
+  "header_raw": "Art. 23. Todos os valores recolhidos da contrapartida financeira relativa à outorga onerosa do direito de construir deverão ser depositados no Fundo de Desenvolvimento Urbano - FUNDURB, regido pelos artigos 337 a 341 do PDE.",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 23"
+  ],
+  "texto": "Art. 23. Todos os valores recolhidos da contrapartida financeira relativa à outorga onerosa do direito de construir deverão ser depositados no Fundo de Desenvolvimento Urbano - FUNDURB, regido pelos artigos 337 a 341 do PDE.\n\nParágrafo único. As instruções complementares para o depósito do valor da contrapartida financeira na conta corrente mencionada neste artigo são aquelas definidas no Decreto nº 57.547, de 19 de dezembro de 2016 ou que vier a substituí-lo.\n\nCAPÍTULO IV\n\nDAS SANÇÕES",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 63.504/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Art. 23",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-63504-de-14-de-junho-de-2024",
+    "vigencia": {
+      "inicio": "2024-06-14",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Regime GERAL da Outorga Onerosa do Direito de Construir (OODC), regulamentando o art. 117 do PDE (Lei 16.050/2014, red. Lei 17.975/2023) e a LPUOS (Lei 16.402/2016, red. Lei 18.081/2024). Em vigor desde 14/06/2024; sem auto-revogacao/suspensao. NAO se aplica dentro de OUC (leis proprias) nem, salvo no que couber, em AIU. Fonte-norma da formula C=(At/Ac)·V·Fp·Fs auditada nos engines."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "plano_intervencao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao",
+    "habitacao_interesse_social",
+    "potencial_construtivo"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Outorga Onerosa do Direito de Construir, nos termos da Lei nº 16.050, de 31 de julho de 2014, alterada pela Lei nº 17.975, de 8 de julho de 2023, e da Lei nº 16.402, de 22 de março de 2016, alterada pela Lei nº 18.081, de 19 de janeiro de 2024, e dá outras providências."
+}

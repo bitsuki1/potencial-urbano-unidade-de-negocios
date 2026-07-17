@@ -1,0 +1,48 @@
+{
+  "chunk_id": "decreto-saopaulo-61137-2022::032-art-31",
+  "lei_id": "decreto-saopaulo-61137-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 31",
+  "numero": "31",
+  "header_raw": "Art. 31. A pessoa jurídica de direito público ou privado que pretenda obter a permissão de uso de que trata o art. 12 da Lei n° 17.733, de 2022, para instalação de ERB móvel e de mini ERB deverá requerer a permissão de uso onerosa através do GEOINFRA, acaso já não possua permissão de uso onerosa para o local",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Seção II",
+    "Art. 31"
+  ],
+  "texto": "Art. 31. A pessoa jurídica de direito público ou privado que pretenda obter a permissão de uso de que trata o art. 12 da Lei n° 17.733, de 2022, para instalação de ERB móvel e de mini ERB deverá requerer a permissão de uso onerosa através do GEOINFRA, acaso já não possua permissão de uso onerosa para o local\n\nParágrafo único. O requerimento deverá seguir o procedimento previsto no art. 3º, §1º do Decreto nº 59.108, de 26 de novembro de 2019, e ser instruído com os seguintes documentos:\n\nI - cadastramento dos dados de identificação da requerente;\n\nII - a Anotação de Responsabilidade Técnica – ART, ou documento equivalente reconhecido pelo conselho de classe competente, do responsável pela elaboração dos documentos necessários à emissão de autorização para execução de serviços e obras de infraestrutura relativos à obra ou serviço de infraestrutura urbana a ser executado;\n\nIII - emissão de Declaração de Responsabilidade das Informações Cadastrais, nos termos descritos no Anexo III deste decreto;\n\nIV - apresentação das seguintes informações relativas ao serviço para o qual esteja sendo requerida autorização, por meio do preenchimento do devido formulário eletrônico:\n\na) prazos estimados para a execução de cada uma das fases que compõem os serviços que serão realizados;\n\nb) o traçado no mapa do GEOSAMPA, bem como a descrição e a natureza dos serviços que serão realizados, incluindo a informação quanto à localização da rede de infraestrutura urbana na base cadastral georreferenciada da requerente;\n\nV - declaração de Ciência e Responsabilidade do Serviço que será executado, com a ciência acerca das normas aplicáveis, nos termos descritos no Anexo IV deste decreto;\n\nVI - declaração de que não haverá comprometimento estrutural ou funcional do mobiliário urbano, tampouco obstáculos à sua manutenção.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 61.137/2022 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Seção II › Art. 31",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-61137-de-10-de-marco-de-2022",
+    "vigencia": {
+      "inicio": "2022-03-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2022-03-10 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 17.733, de 11 de janeiro de 2022, que dispõe sobre a instalação de Estação Radio Base – ERB, Mini ERB e ERB Móvel no Município de São Paulo."
+}

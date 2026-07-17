@@ -1,0 +1,49 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17719-2021::053-art-48",
+  "lei_id": "lei-municipal-saopaulo-17719-2021",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 48",
+  "numero": "48",
+  "header_raw": "Art. 48. Ficam integralmente anistiadas e remidas do pagamento de quaisquer indenizações e multas pelo uso e ocupação do solo das áreas que pertençam à Administração Pública Direta e Indireta, feitos de maneira regular ou irregular, por agremiações carnavalescas, escolas de samba associadas à União das Escolas de Samba de São Paulo, escolas de samba associadas à Liga Independente das Escolas de Samba de São Paulo, até a data de entrada em vigor desta Lei, ficando vedada a cobrança de indenização pelo uso anterior à data de sua regularização.(Artigo declara inconstitucional pela ADI nº 2257355-81.2022.8.26.0000)",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Art. 48"
+  ],
+  "texto": "Art. 48. Ficam integralmente anistiadas e remidas do pagamento de quaisquer indenizações e multas pelo uso e ocupação do solo das áreas que pertençam à Administração Pública Direta e Indireta, feitos de maneira regular ou irregular, por agremiações carnavalescas, escolas de samba associadas à União das Escolas de Samba de São Paulo, escolas de samba associadas à Liga Independente das Escolas de Samba de São Paulo, até a data de entrada em vigor desta Lei, ficando vedada a cobrança de indenização pelo uso anterior à data de sua regularização.(Artigo declara inconstitucional pela ADI nº 2257355-81.2022.8.26.0000)\n\n§ 1º A remissão e a anistia tratadas no caput deste artigo, incidem, inclusive, sobre os processos administrativos e judiciais, ainda que estejam em fases de execução, de cumprimento de sentença ou transitados em julgado, bem como sobre os títulos executivos judiciais.\n\n§ 2º Cumpre ao Executivo, pela unidade competente, requerer a desistência e promover o arquivamento de todos os processos administrativos e judiciais relativos à cobrança de indenização ou qualquer outra cobrança decorrente do uso e ocupação do solo de áreas públicas.\n\n§ 3º Fica vedada a restituição de quaisquer quantias recolhidas a título de indenização ou multas punitivas tratadas neste artigo.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.719/2021 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO V › Art. 48",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17719-de-26-de-novembro-de-2021",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    }
+  },
+  "tema": [
+    "planta_generica_valores",
+    "valor_venal",
+    "imposto_predial",
+    "isencao_iptu",
+    "desconto_iptu",
+    "legislacao_tributaria"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre Planta Genérica de Valores, alterações na legislação tributária municipal, Contragarantias em Operações de Crédito e Fundo Especial para a Modernização da Administração Tributária e da Administração Fazendária no Município de São Paulo."
+}

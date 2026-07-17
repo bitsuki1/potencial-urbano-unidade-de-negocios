@@ -1,0 +1,46 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-11154-1991::047-art-27",
+  "lei_id": "lei-municipal-saopaulo-11154-1991",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 27",
+  "numero": "27",
+  "header_raw": "Art. 27 – A presente Lei entrará em vigor na data de sua publicação, produzindo efeitos a partir de 1° de janeiro de 1992, revogadas as disposições em contrário e, em especial, a Lei n° 10.721, de 27 de janeiro de 1989.",
+  "caminho_hierarquico": [
+    "CAPÍTULO VI",
+    "Art. 27"
+  ],
+  "texto": "Art. 27 – A presente Lei entrará em vigor na data de sua publicação, produzindo efeitos a partir de 1° de janeiro de 1992, revogadas as disposições em contrário e, em especial, a Lei n° 10.721, de 27 de janeiro de 1989.\n\nPREFEITURA DO MUNICIPIO DE SÃO PAULO, aos 30 de dezembro de 1991, 438ºda fundação de São Paulo.\n\nLUIZA ERUNDINA DE SOUSA, PREFEITA.\n\nEste texto não substitui o original publicado no Diário Oficial da Cidade de São Paulo.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 11.154/1991 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO VI › Art. 27",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-11154-de-30-de-dezembro-de-1991",
+    "vigencia": {
+      "inicio": "1991-12-30",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 1991-12-30 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "itbi",
+    "planta_generica_valores",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o Imposto sobre Transmissão “inter vivos”, a qualquer título por ato oneroso, de bens imóveis, por natureza ou acessão física, e de direitos reais sobre imóveis, exceto os de garantia, bem como cessão de direitos à sua aquisição, e dá outras providências."
+}

@@ -1,0 +1,131 @@
+# Monta a LISTA DE VENDEDORES ENRIQUECIDA (nome do dono + limpeza público×privado + preço/frescor ITBI +
+# dono agrupado + agenda) a partir de fontes PRIMÁRIAS. Disparo manual. Commita o CSV neste repo PRIVADO
+# (decisão do MOU 2026-07-16: base com nomes vai no git, uso interno, repo privado confirmado).
+# Fontes: cadastro IPTU 2020/2016 (com NOME) + guias de ITBI (valor/data). Cadeia PJ→sócio é OPCIONAL (v2).
+# Pré-req: secret GOOGLE_SA_KEY (Drive, read-only). Nada de PII de contato aqui — isso é ferramenta externa.
+name: comercial-lista
+
+on:
+  workflow_dispatch:
+    inputs:
+      iptu_drive_id:
+        description: "Drive id do cadastro IPTU 2020/2016 (com nome). Default: recorte CEP-01/centro."
+        required: true
+        default: "1AV8v4esuCxGulgxvGskzo595vycDa3U-"
+      iptu_url:
+        description: "OU uma URL raw do cadastro IPTU citywide (mirror GitHub/GeoSampa). Vazio = usa o drive_id."
+        required: false
+        default: ""
+      itbi_drive_ids:
+        description: "Drive ids das guias de ITBI (vírgula). Default: 2024,2023,2022,snapshot-2026."
+        required: true
+        default: "1DEzDLix11FtG_1lhKY1qhnXJAu23Nny_,1ZESc3arRBppUx9HNMdsYDQh8Urnupsrh,1uQw1WO9Bu5B_wnFDpC-K3gVzKKkCX0AY,1IvF7JkpiUWwGMZKaYPM9876ASF_YgjMt"
+      com_pj:
+        description: "Rodar a cadeia PJ→sócio (exige socios/empresas/holdings; pesado). true/false."
+        required: true
+        default: "false"
+      socios_ids:
+        description: "Se com_pj=true: ids Drive de empresas.csv,socios.csv[,holdings.csv] (vírgula, nessa ordem)."
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: comercial-lista
+  cancel-in-progress: false
+
+jobs:
+  montar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 320
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Libs
+        run: pip install --quiet google-api-python-client google-auth openpyxl
+
+      - name: Baixar cadastro IPTU (com nome)
+        env:
+          GOOGLE_SA_KEY: ${{ secrets.GOOGLE_SA_KEY }}
+        run: |
+          set -e
+          mkdir -p _comercial_in
+          if [ -n "${{ inputs.iptu_url }}" ]; then
+            echo "IPTU via URL: ${{ inputs.iptu_url }}"
+            curl -fsSL "${{ inputs.iptu_url }}" -o _comercial_in/iptu.raw
+          else
+            python3 comercial/baixar_drive_sa.py "${{ inputs.iptu_drive_id }}" _comercial_in/iptu.raw
+          fi
+          # descompacta se for gzip
+          if gzip -t _comercial_in/iptu.raw 2>/dev/null; then
+            mv _comercial_in/iptu.raw _comercial_in/iptu.gz && gunzip -f _comercial_in/iptu.gz && mv _comercial_in/iptu _comercial_in/iptu.csv
+          else
+            mv _comercial_in/iptu.raw _comercial_in/iptu.csv
+          fi
+          echo "linhas IPTU: $(wc -l < _comercial_in/iptu.csv)"
+
+      - name: Baixar guias de ITBI
+        env:
+          GOOGLE_SA_KEY: ${{ secrets.GOOGLE_SA_KEY }}
+        run: |
+          set -e
+          i=0
+          IFS=',' read -ra IDS <<< "${{ inputs.itbi_drive_ids }}"
+          for id in "${IDS[@]}"; do
+            id=$(echo "$id" | xargs)
+            [ -z "$id" ] && continue
+            python3 comercial/baixar_drive_sa.py "$id" "_comercial_in/itbi_$i.xlsx" || echo "aviso: falhou id $id"
+            i=$((i+1))
+          done
+          ls -la _comercial_in/
+
+      - name: (opcional) Baixar canônicas societárias
+        if: ${{ inputs.com_pj == 'true' && inputs.socios_ids != '' }}
+        env:
+          GOOGLE_SA_KEY: ${{ secrets.GOOGLE_SA_KEY }}
+        run: |
+          set -e
+          mkdir -p zepec/oficial
+          IFS=',' read -ra IDS <<< "${{ inputs.socios_ids }}"
+          names=(empresas.csv socios.csv holdings.csv)
+          i=0
+          for id in "${IDS[@]}"; do
+            id=$(echo "$id" | xargs); [ -z "$id" ] && continue
+            python3 comercial/baixar_drive_sa.py "$id" "zepec/oficial/${names[$i]}"
+            i=$((i+1))
+          done
+
+      - name: Pipeline — ITBI → IPTU → (PJ) → enriquecer
+        run: |
+          set -e
+          python3 comercial/itbi_para_sql.py --entrada _comercial_in/itbi_*.xlsx || echo "ITBI: sem xlsx legível (segue sem preço)"
+          python3 comercial/iptu2020_para_contribuinte.py --entrada _comercial_in/iptu.csv
+          if [ "${{ inputs.com_pj }}" = "true" ] && [ -f zepec/oficial/socios.csv ]; then
+            python3 zepec/resolver_dono.py --base zepec/oficial || echo "resolver: sem saída (segue só PF)"
+          fi
+          python3 comercial/enriquecer_lista.py
+
+      - name: Provas (autotestes)
+        run: |
+          python3 comercial/iptu2020_para_contribuinte.py --autoteste
+          python3 comercial/itbi_para_sql.py --autoteste
+          python3 comercial/enriquecer_lista.py --autoteste
+
+      - name: Commitar lista enriquecida
+        run: |
+          set -e
+          rm -rf _comercial_in
+          git config user.name "comercial-bot"
+          git config user.email "comercial-bot@users.noreply.github.com"
+          git add casos-reais/tdc/LISTA-VENDEDORES-ENRIQUECIDA.csv zepec/oficial/iptu_flags.csv zepec/oficial/itbi_por_sql.csv || true
+          if git diff --cached --quiet; then echo "nada a commitar"; exit 0; fi
+          git commit -m "lista de vendedores ENRIQUECIDA (nome+limpeza+preco ITBI+carteira) [skip ci]"
+          for t in 1 2 4 8; do
+            git fetch origin ${{ github.ref_name }} && git rebase origin/${{ github.ref_name }} && git push origin HEAD:${{ github.ref_name }} && break || sleep $t
+          done

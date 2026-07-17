@@ -1,0 +1,51 @@
+{
+  "chunk_id": "decreto-saopaulo-64018-2025::046-art-45",
+  "lei_id": "decreto-saopaulo-64018-2025",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 45",
+  "numero": "45",
+  "header_raw": "Art. 45. Este decreto entrará em vigor na data de sua publicação.",
+  "caminho_hierarquico": [
+    "CAPÍTULO VI",
+    "Art. 45"
+  ],
+  "texto": "Art. 45. Este decreto entrará em vigor na data de sua publicação.\n\nPREFEITURA DO MUNICÍPIO DE SÃO PAULO, aos 30 de janeiro de 2025, 472º da fundação de São Paulo.\n\nRICARDO NUNES\n\nPREFEITO\n\nELISABETE FRANÇA\n\nSecretária Municipal de Urbanismo e Licenciamento\n\nLUIS FELIPE VIDAL ARELLANO\n\nSecretário Municipal da Fazenda\n\nENRICO VAN BLARCUM DE GRAAFF MISASI\n\nSecretário Municipal da Casa Civil\n\nEUNICE APARECIDA DE JESUS PRUDENTE\n\nSecretária Municipal de Justiça\n\nEDSON APARECIDO DOS SANTOS\n\nSecretário do Governo Municipal\n\nPublicado na Secretaria do Governo Municipal, em 30 de janeiro de 2025.\n\nDocumento original assinado nº 118573547\n\nANEXO ÚNICO INTEGRANTE DO DECRETO Nº 64.018, DE 30 DE JANEIRO DE 2025\n\nDECLARAÇÃO:\n\nNome ou Razão Social:\n\nCNPJ/CPF:\n\nEndereço:\n\nNº dos Contribuintes:\n\nNº das Matriculas:\n\nSetor da Operação Urbana:\n\nPor meio desta, o interessado declara optar pelas disposições da Lei nº 18.079, de 11 de janeiro de 2024, solicitando a obtenção da Certidão de Pagamento de Outorga Onerosa em CEPAC, nos termos do Art. 15 do Decreto __.____, de __ de ______ de 2025.\n\nA previsão de outorga onerosa em CEPAC foi devidamente calculada conforme segue detalhado abaixo:\n\nCÁLCULO DA QUANTIDADE DE CEPAC\n\nI - Cálculo da área construída computável adicional (Aca)\n\nConsidera a área do terreno e a diferença entre o coeficiente de aproveitamento básico e o máximo permitido pelo projeto:\n\nAca​ = Ato​ × (Cap​ – Ca bas​)\n\nOnde:\n\nAca​: Área construída adicional.\n\nAto​: Área do terreno antes da doação para melhoramentos viários.\n\nCap​: Coeficiente de Aproveitamento utilizado em projeto.\n\nCa bas​: Coeficiente de Aproveitamento Básico, conforme a Lei nº 16.402/2016.\n\nNota: Nos casos de uso misto, as Aca(s) devem ser calculadas separadamente por lotes virtuais, ainda que em um único edifício. O interessado definirá os percentuais de terreno para cada uso, conforme § 2º do Art. 16 do Decreto __.____, de __ de ______ de 2025.\n\nII – Cálculo da Área Construída Adicional com Descontos (Aca_final)\n\nConsidera-se a aplicação dos incentivos e descontos na outorga onerosa previstos nos Artigos 15, §§ 2º e 4º e 30, inciso I, da Lei nº 18.079/2024:\n\nAca_final = Aca × (1-(Dfru+Dmel)) - (Ado_cal × Ca max)\n\nOnde:\n\nAca_final​: Área construída adicional final, com o desconto aplicado.\n\nDfru​: Fator de desconto aplicado para áreas de fruição pública (Art. 15, §4º).\n\nDmel​: Fator de desconto aplicado para melhoramentos viários, como a doação de áreas para calçadas e alinhamentos (Art. 30).\n\nAdo_calc​: Área doada para alargamento de calçada (Art. 15, §2º).\n\nCa max​: Coeficiente de Aproveitamento Máximo permitido pela OUCBT para a área doada.\n\nIII – Cálculo do Incentivo da Quota Ambiental convertida em CEPAC (art. 82 da Lei 16.402/2016)\n\nA partir do cálculo do Incentivo da Quota Ambiental (IQA), conforme o Art. 82 da Lei nº 16.402/2016, o valor apurado em reais deverá ser convertido em CEPAC, utilizando o valor obtido no leilão mais recente, nos termos do Art. 31 da Lei nº 18.079/2024.\n\na) Cálculo do IQ A, nos termos do Art. 82 da Lei 16.402/2016\n\nIQA= 2 × C AP-1C AP ×FQ A ×Ato\n\nb) Conversão do IQ A em número de CEPAC\n\nCEPAC_QA=IQ AValor Unitário do CEPAC\n\nOnde:\n\nIQA: Incentivo da Quota Ambiental (em R$).\n\nCAP: Coeficiente de Aproveitamento Pretendido no empreendimento.\n\nFQA: Fator de Incentivo da Quota Ambiental (em R$/m²), disponível no Quadro 3C da LPUOS.\n\nAto​: Área do terreno (em m²).\n\nCEPAC_QA: Número de CEPAC convertidos a partir do IQA\n\nVI – Cálculo da quantidade necessária de CEPAC para construção adicional solicitada\n\nQcp=Aca_finalFeq-CEPAC_QA\n\nOnde:\n\nQcp: Quantidade de CEPAC a ser recolhida.\n\nAca_final​: Área construída adicional final, com o desconto aplicado.\n\nFeq: Fator de equivalência em CEPAC, nos termos do Quadro 5 anexo a Lei 18.079/2024.\n\nCEPAC_QA: Número de CEPAC convertidos a partir do IQA\n\nSão Paulo, ___ de _________________ de 20___.\n\n_____________________________________________________\n\nAssinatura do proponente ou procurador com certificação digital\n\nEste texto não substitui o original publicado no Diário Oficial da Cidade de São Paulo.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 64.018/2025 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO VI › Art. 45",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-64018-de-30-de-janeiro-de-2025",
+    "vigencia": {
+      "inicio": "2025-01-30",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2025-01-30. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 18.079, de 11 de janeiro de 2024, aprovou o Projeto de Intervenção Urbana para o perímetro do Arco Tamanduateí, em atendimento ao inciso I do § 3º do artigo 76 da Lei nº 16.050, de 31 de julho de 2014; instituiu a Operação Urbana Consorciada Bairros do Tamanduateí e definiu parâmetros de uso e ocupação do solo para o território e o correspondente Programa de Intervenções."
+}

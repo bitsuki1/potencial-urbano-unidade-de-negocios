@@ -1,0 +1,54 @@
+{
+  "chunk_id": "decreto-saopaulo-63728-2024::031-art-30",
+  "lei_id": "decreto-saopaulo-63728-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 30",
+  "numero": "30",
+  "header_raw": "Art. 30. O EHIS ou EZEIS a ser implantado em lote ou gleba que, independentemente de sua origem, tenha área superior a 20.000m² (vinte mil metros quadrados) fica obrigado ao parcelamento do solo de interesse social, na modalidade desmembramento ou loteamento e à destinação de área pública nos termos deste decreto.",
+  "caminho_hierarquico": [
+    "CAPÍTULO IV",
+    "SEÇÃO II",
+    "Art. 30"
+  ],
+  "texto": "Art. 30. O EHIS ou EZEIS a ser implantado em lote ou gleba que, independentemente de sua origem, tenha área superior a 20.000m² (vinte mil metros quadrados) fica obrigado ao parcelamento do solo de interesse social, na modalidade desmembramento ou loteamento e à destinação de área pública nos termos deste decreto.\n\nParágrafo único. O lote ou gleba que tenha área superior a 100.000m² (cem mil metros quadrados) fica obrigado ao parcelamento na modalidade loteamento, nos termos deste decreto.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 63.728/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO IV › SEÇÃO II › Art. 30",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-63728-de-10-de-setembro-de-2024",
+    "vigencia": {
+      "inicio": "2024-09-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2024-09-10. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "plano_intervencao_urbana",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Estabelece disciplina específica de parcelamento, uso e ocupação do solo, bem como normas edilícias para Habitação de Interesse Social - HIS, Habitação de Mercado Popular - HMP, Empreendimento de Habitação de Interesse Social - EHIS, Empreendimento de Habitação de Mercado Popular - EHMP e Empreendimento em Zona Especial de Interesse Social - EZEIS, nos termos da Lei nº 16.050, de 31 de julho de 2014 - PDE, alterada e revisada pela Lei nº 17.975, de 08 de julho de 2023 e pela Lei nº 18.157, de 17 de julho de 2024, da Lei nº 16.402, de 22 de março de 2016 - LPUOS, alterada e revisada pela Lei nº 18.081, de 19 de janeiro de 2024 e pela Lei 18.177, de 25 de julho de 2024, bem como da Lei nº 16.642, de 09 de maio de 2017 - COE."
+}

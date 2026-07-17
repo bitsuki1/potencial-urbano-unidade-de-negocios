@@ -1,0 +1,51 @@
+{
+  "chunk_id": "decreto-saopaulo-59164-2019::010-art-9o",
+  "lei_id": "decreto-saopaulo-59164-2019",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 9º",
+  "numero": "9",
+  "header_raw": "Art. 9º Independentemente da solicitação ou de protocolamento de requerimento, serão consideradas regulares nos termos da Lei nº 17.202, de 2019, as edificações residenciais das categorias de uso R, R1 e R2h de padrões baixo e médio e que constem com isenção total na Notificação Recibo do Imposto Predial e Territorial Urbano – IPTU, referente ao ano de 2014.",
+  "caminho_hierarquico": [
+    "CAPÍTULO IV",
+    "Art. 9º"
+  ],
+  "texto": "Art. 9º Independentemente da solicitação ou de protocolamento de requerimento, serão consideradas regulares nos termos da Lei nº 17.202, de 2019, as edificações residenciais das categorias de uso R, R1 e R2h de padrões baixo e médio e que constem com isenção total na Notificação Recibo do Imposto Predial e Territorial Urbano – IPTU, referente ao ano de 2014.\n\n§ 1º Não se aplica o disposto no “caput” deste artigo às edificações enquadradas nas hipóteses descritas pelo artigo 7º deste decreto.\n\n§ 2º Também não se aplica o previsto no “caput” deste artigo às hipóteses que dependam de anuências relacionadas nos itens I e II do artigo 8º deste decreto, bem como àquelas que, conforme previsto no artigo 20 deste decreto, necessitem do recolhimento de outorga onerosa para a regularização, casos nos quais os processos seguirão o procedimento comum.\n\n§ 3º Os imóveis situados nas zonas ZOE, ZEP, ZEPAM, ZEPAG, ZERp, ZPDS e ZLT serão excluídos do procedimento automático.\n\n§ 4º Caso seja constatado, posteriormente, que a edificação não seria passível de regularização automática, por se enquadrar em uma das hipóteses previstas nos §§ 1º, 2º e 3º deste artigo, ela retornará ao cadastro de edificações irregulares do Município.\n\n§ 5º Ficam canceladas as multas incidentes sobre as edificações de que trata o “caput” deste artigo, decorrentes da aplicação da legislação edilícia e de uso e ocupação do solo, aplicadas até a data da publicação desta lei, vedadas a restituição dos valores pagos a esse título.\n\n§ 6º O disposto no § 5º deste artigo aplica-se inclusive aos casos sob apreciação judicial, desde que o interessado manifeste-se expressamente nos autos do processo judicial e arque com os ônus sucumbenciais.\n\n§ 7º Para as edificações de que trata o “caput” deste artigo não será cobrado qualquer tipo de taxa ou preço público para regularização.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 59.164/2019 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO IV › Art. 9º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59164-de-27-de-dezembro-de-2019",
+    "vigencia": {
+      "inicio": "2019-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2019-12-27. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 17.202, de 16 de outubro de 2019, que dispõe sobre a regularização de edificações, condicionada, quando necessário, à realização de obras, nos termos da previsão do art. 367 do Plano Diretor Estratégico."
+}

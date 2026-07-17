@@ -1,0 +1,53 @@
+{
+  "chunk_id": "decreto-saopaulo-63504-2024::028-art-27",
+  "lei_id": "decreto-saopaulo-63504-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 27",
+  "numero": "27",
+  "header_raw": "Art. 27. Para fins de aplicação do Quadro 5, anexo ao PDE, considera-se:",
+  "caminho_hierarquico": [
+    "CAPÍTULO VI",
+    "Art. 27"
+  ],
+  "texto": "Art. 27. Para fins de aplicação do Quadro 5, anexo ao PDE, considera-se:\n\nI – para Habitação de Mercado Popular – HMP até 50m² (cinquenta metros quadrados), o valor de Fs = 0,4;\n\nII – para Habitação de Mercado Popular – HMP com área maior que 50m² (cinquenta metros quadrados) até 70m²(setenta metros quadrados), o valor de Fs = 0,6;\n\nIII – para as instituições de cultura, esporte e lazer públicas, aplica-se o valor de Fs = 0;\n\nIV – para as demais instituições de cultura, esporte e lazer, o valor de Fs será aquele definido para “equipamentos culturais e afins”, a depender do tipo de entidade mantenedora;\n\nV – para as Instituições de Cultura, Esporte e Lazer das Entidades Privadas de Serviço Social e de Formação Profissional Vinculadas ao Sistema Sindical aplica-se o FS=0.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 63.504/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO VI › Art. 27",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-63504-de-14-de-junho-de-2024",
+    "vigencia": {
+      "inicio": "2024-06-14",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Regime GERAL da Outorga Onerosa do Direito de Construir (OODC), regulamentando o art. 117 do PDE (Lei 16.050/2014, red. Lei 17.975/2023) e a LPUOS (Lei 16.402/2016, red. Lei 18.081/2024). Em vigor desde 14/06/2024; sem auto-revogacao/suspensao. NAO se aplica dentro de OUC (leis proprias) nem, salvo no que couber, em AIU. Fonte-norma da formula C=(At/Ac)·V·Fp·Fs auditada nos engines."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "plano_intervencao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao",
+    "habitacao_interesse_social",
+    "potencial_construtivo"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Outorga Onerosa do Direito de Construir, nos termos da Lei nº 16.050, de 31 de julho de 2014, alterada pela Lei nº 17.975, de 8 de julho de 2023, e da Lei nº 16.402, de 22 de março de 2016, alterada pela Lei nº 18.081, de 19 de janeiro de 2024, e dá outras providências."
+}

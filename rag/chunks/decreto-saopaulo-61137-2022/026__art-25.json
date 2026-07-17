@@ -1,0 +1,48 @@
+{
+  "chunk_id": "decreto-saopaulo-61137-2022::026-art-25",
+  "lei_id": "decreto-saopaulo-61137-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 25",
+  "numero": "25",
+  "header_raw": "Art. 25. A mini ERB e a ERB móvel são consideradas bens de utilidade pública, conforme disposto na Lei Federal nº 13.116, de 20 de abril de 2015, podendo ser implantadas em todas as zonas ou categorias de uso, consoante o disposto neste Capítulo.",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Seção I",
+    "Art. 25"
+  ],
+  "texto": "Art. 25. A mini ERB e a ERB móvel são consideradas bens de utilidade pública, conforme disposto na Lei Federal nº 13.116, de 20 de abril de 2015, podendo ser implantadas em todas as zonas ou categorias de uso, consoante o disposto neste Capítulo.\n\n§ 1º O cadastramento eletrônico de mini ERB e ERB móvel, quando exigido, deverá ser renovado a cada 5 (cinco) anos ou quando ocorrer a modificação do equipamento instalado.\n\n§ 2º A permanência máxima de ERB móvel no mesmo local é de 90 (noventa) dias para cobrir demandas específicas, sendo prorrogável, por igual período, até, no máximo, 180 (cento e oitenta) dias.\n\n§ 3º As mini ERBs e ERBs móvel regularmente instaladas até a publicação deste Decreto permanecerão regulares até o término da validade do respectivo documento comprobatório de sua regularidade.\n\n§ 4º As mini ERBs e ERBs móvel irregularmente instaladas até a publicação deste decreto ou instaladas por força de decisão judicial deverão realizar o cadastramento previsto no art. 30 deste decreto, no prazo de 120 (cento e vinte) dias contados da data de sua publicação.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 61.137/2022 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Seção I › Art. 25",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-61137-de-10-de-marco-de-2022",
+    "vigencia": {
+      "inicio": "2022-03-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2022-03-10 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 17.733, de 11 de janeiro de 2022, que dispõe sobre a instalação de Estação Radio Base – ERB, Mini ERB e ERB Móvel no Município de São Paulo."
+}

@@ -1,0 +1,54 @@
+{
+  "chunk_id": "decreto-saopaulo-63728-2024::064-art-63",
+  "lei_id": "decreto-saopaulo-63728-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 63",
+  "numero": "63",
+  "header_raw": "Art. 63. O loteamento, inclusive o Loteamento de Interesse Social para Produção de Lotes Habitacionais de Interesse Social - LHIS dar-se-á a pedido do interessado, o qual deverá estar assistido por profissional habilitado, observando-se as disposições deste decreto, obedecendo-se à seguinte sequência de atos no procedimento:",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Seção III",
+    "Art. 63"
+  ],
+  "texto": "Art. 63. O loteamento, inclusive o Loteamento de Interesse Social para Produção de Lotes Habitacionais de Interesse Social - LHIS dar-se-á a pedido do interessado, o qual deverá estar assistido por profissional habilitado, observando-se as disposições deste decreto, obedecendo-se à seguinte sequência de atos no procedimento:\n\nI - emissão de Certidão de Diretrizes Urbanísticas;\n\nII - emissão de Certidão de Conformidade do loteamento, a ser encaminhada aos órgãos estaduais competentes para apreciação previamente à aprovação do projeto pela Prefeitura;\n\nIII - aprovação do projeto de arborização pela Secretaria Municipal do Verde e do Meio Ambiente, mediante a apresentação da documentação específica exigida;\n\nIV - assinatura de Termo de Compromisso de Execução da infraestrutura com a respectiva garantia ou apresentação de fiança bancária, quando for o caso, nos termos deste decreto;\n\nV - emissão do Alvará de Loteamento para fins de Execução de Obras;\n\nVI - emissão do Atestado de Execução de Arborização - AEA pela Secretaria Municipal do Verde e do Meio Ambiente;\n\nVII - realização de vistorias pela Coordenadoria de Parcelamento do Solo e de Habitação de Interesse Social – PARHIS, da Secretaria Municipal de Urbanismo e Licenciamento, durante e após a execução de todas ou de parte das obras do loteamento;\n\nVIII - expedição do Termo de Verificação de Execução de Obras do Loteamento - TVEO, total ou parcial;\n\nIX - emissão do Alvará de Loteamento para fins de registro no competente cartório de registro de imóveis.\n\n§ 1º Do Alvará de Loteamento de Interesse Social para Produção de Lotes Habitacionais de Interesse Social - LHIS deve constar, como ressalva, a ser averbada na matrícula de cada lote resultante, a sua destinação obrigatória para habitação de interesse social (HIS) ou outros usos, observada a proporção estabelecida neste decreto.\n\n§ 2º O Alvará de Loteamento para fins de Execução de Obras não dá direito ao registro do empreendimento no competente cartório de registro de imóveis.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 63.728/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO V › Seção III › Art. 63",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-63728-de-10-de-setembro-de-2024",
+    "vigencia": {
+      "inicio": "2024-09-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2024-09-10. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "plano_intervencao_urbana",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Estabelece disciplina específica de parcelamento, uso e ocupação do solo, bem como normas edilícias para Habitação de Interesse Social - HIS, Habitação de Mercado Popular - HMP, Empreendimento de Habitação de Interesse Social - EHIS, Empreendimento de Habitação de Mercado Popular - EHMP e Empreendimento em Zona Especial de Interesse Social - EZEIS, nos termos da Lei nº 16.050, de 31 de julho de 2014 - PDE, alterada e revisada pela Lei nº 17.975, de 08 de julho de 2023 e pela Lei nº 18.157, de 17 de julho de 2024, da Lei nº 16.402, de 22 de março de 2016 - LPUOS, alterada e revisada pela Lei nº 18.081, de 19 de janeiro de 2024 e pela Lei 18.177, de 25 de julho de 2024, bem como da Lei nº 16.642, de 09 de maio de 2017 - COE."
+}

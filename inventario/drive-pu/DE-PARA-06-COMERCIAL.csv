@@ -1,0 +1,46 @@
+drive_id,nome,classe,ext,bytes,evidencia_conteudo,destino
+1gftoKzFaD-NyKClBg3SH8Eo0FYncQYvt,socios.csv,NAO_OFICIAL_EXTERNO,csv,3435677749,"COMERCIAL/dado-proprietario: cnpj,razao_social,cpf_cnpj_socio,nome_socio,codigo_qualificacao_",06 — Comercial
+1uRWg7wA4KuppJ1TSdEwRmV3H06fTXlnj,empresas.csv,NAO_OFICIAL_EXTERNO,csv,2269763986,"COMERCIAL/dado-proprietario: cnpj,razao_social,uf 17013169000189,EDERSON DE S OLIVEIRA,SP 170",06 — Comercial
+1AV8v4esuCxGulgxvGskzo595vycDa3U-,iptu-2020-cep01.csv,NAO_OFICIAL_EXTERNO,csv,152926077,"COMERCIAL/dado-proprietario: ,NUMERO DO CONTRIBUINTE,ANO DO EXERCICIO,NUMERO DA NL,DATA DO CADASTRAMENTO,TIPO DE",06 — Comercial
+1mXaHhLxFuBR4HzHLgGbLFRKhrBilG3Lo,iptu-2020-cep01_fae0c1.csv,NAO_OFICIAL_EXTERNO,csv,152926077,"COMERCIAL/dado-proprietario: ,NUMERO DO CONTRIBUINTE,ANO DO EXERCICIO,NUMERO DA NL,DATA DO CADASTRAMENTO,TIPO DE",06 — Comercial
+1BrBRzC3G4atGZ8JqRZhGp4OnvBZTjOgr,holdings.csv,NAO_OFICIAL_EXTERNO,csv,60233422,"COMERCIAL/dado-proprietario: cnpj,razao_social,cnpj_socia,qualificacao_socia,razao_social_soc",06 — Comercial
+1IvF7JkpiUWwGMZKaYPM9876ASF_YgjMt,GUIAS DE ITBI PAGAS (28012026) XLS.xlsx,ILEGIVEL,xlsx,46666755,(sem texto extraível — metodo=sem_texto),06 — Comercial
+1TH0r0_onTjHn2H0xYfalt3f7jHziN0ub,GUIAS-DE-ITBI-PAGAS-2023 (1).xlsx,ILEGIVEL,xlsx,35347867,(erro ao abrir: TimeoutError: The read operation timed out),06 — Comercial
+1Ut7nlbfaNzaSjw05v1BIN6Nj9edfEt58,GUIAS-DE-ITBI-PAGAS-2023 (2).xlsx,ILEGIVEL,xlsx,35347867,(sem texto extraível — metodo=sem_texto),06 — Comercial
+1ZESc3arRBppUx9HNMdsYDQh8Urnupsrh,GUIAS-DE-ITBI-PAGAS-2023.xlsx,ILEGIVEL,xlsx,35347867,(sem texto extraível — metodo=sem_texto),06 — Comercial
+11pQg3lkKRHQNOV_8UHK5uCuXtEr11lXN,GUIAS-DE-ITBI-PAGAS-2023_6d02b0.xlsx,ILEGIVEL,xlsx,35347867,(erro ao abrir: TimeoutError: The read operation timed out),06 — Comercial
+1gY9fFSF8oFw3OrrOsuWMwgSbVQ574vs6,GUIAS-DE-ITBI-PAGAS-2024 (1).xlsx,ILEGIVEL,xlsx,32919810,(sem texto extraível — metodo=sem_texto),06 — Comercial
+1DEzDLix11FtG_1lhKY1qhnXJAu23Nny_,GUIAS-DE-ITBI-PAGAS-2024.xlsx,ILEGIVEL,xlsx,32919810,(sem texto extraível — metodo=sem_texto),06 — Comercial
+1eCTcAqn1R_ozibbCFT5Ivpc3DeJoNrnn,GUIAS-DE-ITBI-PAGAS-2024_01d943.xlsx,ILEGIVEL,xlsx,32919810,(erro ao abrir: TimeoutError: The read operation timed out),06 — Comercial
+1COZabUyMc_qh3cPnEWXleTyz9j8yE9Uf,iptu-2020-cep01.csv.gz,OFICIAL,gz,14298903,"COMERCIAL/dado-proprietario: f1VB=z0@I[$nU^""*epUL7#A/IɲkSK!5R!?qSaKT括SfcXQtGG͏${oq?[O]}豾1p8c%fhQa!*0[&vfONעcaio{~",06 — Comercial
+1s_dglYtY8C_aW4h90_rHaqAKPvtuqOEP,extrato_ad_2020-2023.csv,NAO_OFICIAL_EXTERNO,csv,9051414,COMERCIAL/dado-proprietario: _relacionado;data_autuacao;area_publica;sql;id_rural;assunto;endereco;subprefeitura;zona_uso;categoria;,06 — Comercial
+1ulbLcNHf9M9CSDTn6DizAReGG7CPUr0r,GUIAS DE ITBI PAGAS (1) (1).xlsx,OFICIAL,xlsx,3071806,COMERCIAL/dado-proprietario: N° do Cadastro (SQL) | Nome do Logradouro | Número | Complemento | Bairro | Ref,06 — Comercial
+1fJflpi0oVmGAEvQjD9eebUwJcrOAFy2H,GUIAS DE ITBI PAGAS (1).xlsx,OFICIAL,xlsx,3071806,COMERCIAL/dado-proprietario: N° do Cadastro (SQL) | Nome do Logradouro | Número | Complemento | Bairro | Ref,06 — Comercial
+1AjKd1eo9JyObaixCG9RbzbyX9CoNyHcn,GUIAS DE ITBI PAGAS (1)_8bb3a6.xlsx,OFICIAL,xlsx,3071806,COMERCIAL/dado-proprietario: N° do Cadastro (SQL) | Nome do Logradouro | Número | Complemento | Bairro | Ref,06 — Comercial
+1l9laj6FbGWXbxeGJSUF18plmPcONUuua,GUIAS DE ITBI PAGAS (1)_b69996.xlsx,OFICIAL,xlsx,3071806,COMERCIAL/dado-proprietario: N° do Cadastro (SQL) | Nome do Logradouro | Número | Complemento | Bairro | Ref,06 — Comercial
+15HQ2uf1IvU060AA0ky-e8Fz3RYEx1lGI,extrato_ad_2024_1.csv,NAO_OFICIAL_EXTERNO,csv,1638010,COMERCIAL/dado-proprietario: _relacionado;data_autuacao;area_publica;sql;id_rural;assunto;endereco;subprefeitura;zona_uso;categoria;,06 — Comercial
+1xRpssJ9plRw1aqRBwuLqqZdM40wErJ2j,extrato_ad_2024_2.csv,OFICIAL,csv,1391296,"LLM(flash,alta): Dados oficiais do sistema Aprova Digital da Prefeitura de São Paulo com números de SQL.",06 — Comercial
+1W-NALy3IBBmslp0jV6CXwFFW8x-I8_Pg,lista_declaracoes_ZEPEC-BIR_agosto-2025.xlsx,OFICIAL,xlsx,225063,"LLM(flash,alta): Texto emitido pela Coordenadoria de Legislação de Uso e Ocupação do Solo (DEUSO) municipal.",06 — Comercial
+17j94xkgVk4eberaRpRLK2j_ekz480Lny,lista_declaracoes_ZEPEC-BIR_agosto-2025.xlsx,OFICIAL,xlsx,225063,"LLM(flash,alta): Emitido pela Coordenadoria de Legislação de Uso e Ocupação do Solo (DEUSO) da Prefeitura.",06 — Comercial
+1kkkd1pT2mCCaXdl9Rg_KjDTEGWvxp_0z,lista_declaracoes_ZEPEC-BIR_agosto-2025.xlsx,OFICIAL,xlsx,225063,"LLM(flash,alta): Emitido pela Coordenadoria de Legislação de Uso e Ocupação do Solo (DEUSO) da Prefeitura.",06 — Comercial
+1xpcq5pJo4kYN-Bhi0YmtgkO4QaeNP4AA,lista_declaracoes_ZEPEC-BIR_agosto-2025.xlsx,OFICIAL,xlsx,225063,"LLM(flash,alta): Texto emitido pela Coordenadoria de Legislação de Uso e Ocupação do Solo (DEUSO) municipal.",06 — Comercial
+1Z1d83_Zs00jI_RsITe6vkD-4vmVDbiue,lista_declaracoes_ZEPEC-BIR_agosto-2025.xlsx,OFICIAL,xlsx,225063,"LLM(flash,alta): Emitido pela Coordenadoria de Legislação de Uso e Ocupação do Solo (DEUSO) da Prefeitura.",06 — Comercial
+1hFLGI5_SVVPemuvSOFfcGklvbLGUSjJw,lista_declaracoes_ZEPEC-BIR_agosto-2025.xlsx,OFICIAL,xlsx,225063,"LLM(flash,alta): Emitido pela Coordenadoria de Legislação de Uso e Ocupação do Solo (DEUSO) da Prefeitura.",06 — Comercial
+18JMA2ZzUw1eSUbyKRsJiA6WhSLoSX7Xq,lista_declaracoes_ZEPEC-BIR_agosto-2025.xlsx,OFICIAL,xlsx,225063,"LLM(flash,alta): Emitido pela Coordenadoria de Legislação de Uso e Ocupação do Solo (DEUSO) da Prefeitura.",06 — Comercial
+1HX8Oto2DTUwq3uNA9ZyU6WOJVlHLUySA,lista_declaracoes_ZEPEC-BIR_agosto-2025.xlsx,OFICIAL,xlsx,225063,"LLM(flash,alta): Texto emitido pela Coordenadoria de Legislação de Uso e Ocupação do Solo (DEUSO) municipal.",06 — Comercial
+1ZOFT7Fs2KQNjKfQ1cnlYwTuuLMB0kPoz,lista_declaracoes_ZEPEC-BIR_agosto-2025.xlsx,OFICIAL,xlsx,225063,"LLM(flash,alta): Texto emitido pela Coordenadoria de Legislação de Uso e Ocupação do Solo (DEUSO) municipal.",06 — Comercial
+1LN1E0toZJdPsPXtgPlAGrYQkLqVAgoeP,lista_declaracoes_ZEPEC-BIR_agosto-2025.xlsx,OFICIAL,xlsx,225063,"LLM(flash,alta): Emitido pela Coordenadoria de Legislação de Uso e Ocupação do Solo (DEUSO) da Prefeitura.",06 — Comercial
+1CvaE9K_4SYoCojd4xU5KQxMjzbDsvAgs,lista_certidao_ZEPEC-BIR_agosto-2025 (1).xlsx,OFICIAL,xlsx,194082,"LLM(flash,alta): Coordenadoria de Legislação de Uso e Ocupação do Solo (DEUSO) da Prefeitura de São Paulo.",06 — Comercial
+18eZCBRUEkmuipf9gabr2UjNGvPF27nHE,lista_certidao_ZEPEC-BIR_agosto-2025 (1).xlsx,OFICIAL,xlsx,194082,"LLM(flash,alta): Coordenadoria de Legislação de Uso e Ocupação do Solo (DEUSO) da Prefeitura de São Paulo.",06 — Comercial
+1swYbGhZzenczYg3qSGM43grT2by5VDi4,lista_certidao_ZEPEC-BIR_agosto-2025.xlsx,OFICIAL,xlsx,194082,"LLM(flash,alta): Texto publicado pela Coordenadoria de Legislação de Uso e Ocupação do Solo (DEUSO) da Prefeitura.",06 — Comercial
+1L6P0JNcOnSEWuqMia5VoetQHxNtS5YA4,lista_certidao_ZEPEC-BIR_agosto-2025.xlsx,OFICIAL,xlsx,194082,"LLM(flash,alta): Texto publicado pela Coordenadoria de Legislação de Uso e Ocupação do Solo (DEUSO) da Prefeitura.",06 — Comercial
+1CPjh619xLq_sorNTkgFoQ6hfYjbZouC3,lista_certidao_ZEPEC-BIR_agosto-2025.xlsx,OFICIAL,xlsx,194082,"LLM(flash,alta): Texto publicado pela Coordenadoria de Legislação de Uso e Ocupação do Solo (DEUSO) da Prefeitura.",06 — Comercial
+1QNdhCK6lCX6TBEBJ8ezFn8EZipyfMFbM,lista_certidao_ZEPEC-BIR_agosto-2025.xlsx,OFICIAL,xlsx,194082,"LLM(flash,alta): Texto publicado pela Coordenadoria de Legislação de Uso e Ocupação do Solo (DEUSO) da Prefeitura.",06 — Comercial
+1aHhHxOzlI8t8XnQxS5-oCn505RPpcGW9,lista_certidao_ZEPEC-BIR_agosto-2025.xlsx,OFICIAL,xlsx,194082,"LLM(flash,alta): Disponibilizado pela Coordenadoria de Legislação de Uso e Ocupação do Solo (DEUSO) municipal.",06 — Comercial
+1ydGiGoPmNn_c9xWpsbD8pMQEgt339z7N,lista_certidao_ZEPEC-BIR_agosto-2025.xlsx,OFICIAL,xlsx,194082,"LLM(flash,alta): Texto publicado pela Coordenadoria de Legislação de Uso e Ocupação do Solo (DEUSO) da Prefeitura.",06 — Comercial
+11JTot14XtFCf-cJf6mhtku48UBgpdVNO,lista_certidao_ZEPEC-BIR_agosto-2025.xlsx,OFICIAL,xlsx,194082,"LLM(flash,alta): Disponibilizado pela Coordenadoria de Legislação de Uso e Ocupação do Solo (DEUSO) municipal.",06 — Comercial
+1en2WC2A-Wd21NNDhZ8ThheAyHmODIOl-,lista_certidao_ZEPEC-BIR_agosto-2025.xlsx,OFICIAL,xlsx,194082,"LLM(flash,alta): Texto publicado pela Coordenadoria de Legislação de Uso e Ocupação do Solo (DEUSO) da Prefeitura.",06 — Comercial
+1tbhRdfpD4pHeRl3wHSfusCBoNqCffn2xPJqSDhL05D8,DOCUMENTO MESTRE: SISTEMA OPERACIONAL HOLDING TDC,CRIADO,,40071,"CRIADO(enriquecido por nós): file (.shp).
+ **OUTPUT:** CSV Bruto com Tiers (S, A, B, C) e Metadados (SQL, Processo, Ano).
+ **REGRA:**",06 — Comercial
+1xuJPcadnmByIAhN1BD-xIajbyWj4MLkV,PDF | Cartao CNPJ (File responses),ILEGIVEL,,0,(sem texto extraível — metodo=vazio),06 — Comercial

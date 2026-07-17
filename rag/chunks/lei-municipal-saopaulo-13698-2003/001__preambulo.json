@@ -1,0 +1,41 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-13698-2003::001-preambulo",
+  "lei_id": "lei-municipal-saopaulo-13698-2003",
+  "tipo_dispositivo": "preambulo",
+  "rotulo": "Preâmbulo",
+  "numero": null,
+  "header_raw": null,
+  "caminho_hierarquico": [],
+  "texto": "LEI Nº 13.698 DE 24 DE DEZEMBRO DE 2003\n\nLEI Nº 13.698 de 24 de Dezembro de 2003\n\nAlterações\n\nRevogações\n\nCORRELAÇÕES\n\nTemas Relacionados\n\nDispõe sobre o Imposto Predial e Territorial Urbano - IPTU e altera a Lei nº 6.989, de 29 de dezembro de 1966.\n\nLEI 13.698, DE 24 DE DEZEMBRO DE 2003\n\n(Projeto de Lei nº 864/03, do Executivo)\n\nDispõe sobre o Imposto Predial e Territorial Urbano - IPTU e altera a Lei nº 6.989, de 29 de dezembro de 1966.\n\nMARTA SUPLICY, Prefeita do Município de São Paulo, no uso das atribuições que lhe são conferidas por lei, faz saber que a Câmara Municipal, em sessão de 18 de dezembro de 2003, decretou e eu promulgo a seguinte lei:",
+  "citavel": false,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 13.698/2003 — São Paulo/SP",
+    "dispositivo": "Preâmbulo",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-13698-de-24-de-dezembro-de-2003",
+    "vigencia": {
+      "inicio": "2003-12-24",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2003-12-24 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "planta_generica_valores"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o Imposto Predial e Territorial Urbano - IPTU e altera a Lei nº 6.989, de 29 de dezembro de 1966."
+}

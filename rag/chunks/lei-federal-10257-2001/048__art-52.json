@@ -1,0 +1,55 @@
+{
+  "chunk_id": "lei-federal-10257-2001::048-art-52",
+  "lei_id": "lei-federal-10257-2001",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 52",
+  "numero": "52",
+  "header_raw": "Art. 52. Sem prejuízo da punição de outros agentes públicos envolvidos e da",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Art. 52"
+  ],
+  "texto": "Art. 52. Sem prejuízo da punição de outros agentes públicos envolvidos e da\naplicação de outras sanções cabíveis, o Prefeito incorre em improbidade\nadministrativa, nos termos da Lei no 8.429, de 2\nde junho de 1992, quando:\n\n\n\nI  (VETADO)\n\n\n\nII\n– deixar de proceder, no prazo de cinco anos, o adequado aproveitamento do imóvel\nincorporado ao patrimônio público, conforme o disposto no § 4o do\nart. 8o desta Lei;\n\n\n\nIII – utilizar áreas obtidas por meio do direito de preempção em desacordo com o\ndisposto no art. 26 desta Lei;\n\n\n\nIV\n– aplicar os recursos auferidos com a outorga onerosa do direito de construir e de\nalteração de uso em desacordo com o previsto no art. 31 desta Lei;\n\n\n\nV\n– aplicar os recursos auferidos com operações consorciadas em desacordo com o\nprevisto no § 1o do art. 33 desta Lei;\n\n\n\nVI\n– impedir ou deixar de garantir os requisitos contidos nos incisos I a III do § 4o\ndo art. 40 desta Lei;\n\n\n\nVII – deixar de tomar as providências necessárias para garantir a observância do\ndisposto no § 3o do art. 40 e no art. 50 desta Lei;\n\n\n\nVIII – adquirir imóvel objeto de direito de preempção, nos termos dos arts. 25 a\n27 desta Lei, pelo valor da proposta apresentada, se este for, comprovadamente, superior\nao de mercado.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 10.257/2001 — Brasil",
+    "dispositivo": "CAPÍTULO V › Art. 52",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/leis_2001/l10257.htm",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    }
+  },
+  "tema": [
+    "politica_urbana",
+    "estatuto_da_cidade",
+    "plano_diretor",
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "parcelamento_edificacao_compulsorios",
+    "iptu_progressivo_tempo",
+    "operacao_urbana_consorciada",
+    "direito_preempcao",
+    "potencial_construtivo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "Brasil",
+  "ementa": "Regulamenta os arts. 182 e 183 da Constituição Federal, estabelece diretrizes gerais da política urbana e dá outras providências. (Estatuto da Cidade)"
+}

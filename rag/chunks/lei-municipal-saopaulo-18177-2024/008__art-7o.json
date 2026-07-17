@@ -1,0 +1,47 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-18177-2024::008-art-7o",
+  "lei_id": "lei-municipal-saopaulo-18177-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 7º",
+  "numero": "7",
+  "header_raw": "Art. 7º O art. 73 da Lei nº 18.081, de 2024, passa a vigorar com a seguinte redação:",
+  "caminho_hierarquico": [
+    "Art. 7º"
+  ],
+  "texto": "Art. 7º O art. 73 da Lei nº 18.081, de 2024, passa a vigorar com a seguinte redação:\n\n“Art. 73. Fica alterado o Quadro 4 e ficam acrescidas as notas “l”, “m” e “n” ao Quadro 4 da Lei n. 16.402, de 2016, com as seguintes redações:\n\n“Art. 73. .....................................................................................\n\nI - ................................................................................................\n\nII - ...............................................................................................\n\nIII - Fica permitido o grupo de atividades nR2-6, exceto atividades de educação superior ou profissional, em ZCOR-2, ZCOR-3 e ZPR.” (NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 18.177/2024 — São Paulo/SP",
+    "dispositivo": "Art. 7º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-18177-de-25-de-julho-de-2024",
+    "vigencia": {
+      "inicio": "2024-07-25",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente do portal oficial (captura 2026-07-13); em vigor desde 2024-07-25. Sem auto-revogacao/suspensao. Metadados por scaffold (extracao pura); revisao fina pendente."
+    }
+  },
+  "tema": [
+    "coeficiente_aproveitamento",
+    "plano_intervencao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Compatibiliza a redação do art. 2º da Lei nº 18.081, de 19 de janeiro de 2024, para tornar expressa a metodologia aplicada ao MAPA I, adequa legendas do MAPA I e a redação de outros dispositivos constantes da Lei nº 18.081, de 2024."
+}

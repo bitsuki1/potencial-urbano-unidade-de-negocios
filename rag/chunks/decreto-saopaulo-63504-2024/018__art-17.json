@@ -1,0 +1,54 @@
+{
+  "chunk_id": "decreto-saopaulo-63504-2024::018-art-17",
+  "lei_id": "decreto-saopaulo-63504-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 17",
+  "numero": "17",
+  "header_raw": "Art. 17. Nos pedidos de desmembramento ou reparcelamento de lote edificado deverão ser observadas as seguintes condições:",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "SEÇÃO V",
+    "Art. 17"
+  ],
+  "texto": "Art. 17. Nos pedidos de desmembramento ou reparcelamento de lote edificado deverão ser observadas as seguintes condições:\n\nI – O coeficiente de aproveitamento será recalculado para cada um dos lotes resultantes do desmembramento ou reparcelamento com base na legislação vigente na data de protocolo do pedido;\n\nII – Caberá o pagamento de contrapartida financeira relativa à OODC quando eventual edificação existente ultrapassar o coeficiente de aproveitamento básico do lote resultante em que se encontra, mesmo que não haja acréscimo de área construída.\n\n§ 1º O disposto no “caput” deste artigo também se aplica aos lotes com edificações licenciadas por legislação anterior à Lei nº 13.430, de 2002, cabendo pagamento de contrapartida relativa à OODC caso os coeficientes de aproveitamento básico dos lotes resultantes sejam superados, aplicando-se, se o caso, o disposto no § 4º do artigo 8º da Lei nº 18.081, de 2024.\n\n§ 2º O desconto dos valores já pagos, conforme previsto no inciso IV do artigo 8º da Lei nº 18.081, de 2024, será distribuído proporcionalmente à área edificada computável existente em cada um dos lotes resultantes.\n\n§ 3º Não se aplica o pagamento de contrapartida relativa à OODC aos pedidos de desmembramento de lotes de R2h-1 com edificações regulares existentes, cujas plantas demonstrem plena separação física das parcelas do terreno, cada uma com suas respectivas edificações.\n\n§ 4º A emissão do Alvará de Desmembramento fica condicionada à comprovação do pagamento integral da contrapartida financeira relativa à OODC.\n\nCAPÍTULO III\n\nDO PAGAMENTO DA CONTRAPARTIDA FINANCEIRA RELATIVA À OODC",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 63.504/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › SEÇÃO V › Art. 17",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-63504-de-14-de-junho-de-2024",
+    "vigencia": {
+      "inicio": "2024-06-14",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Regime GERAL da Outorga Onerosa do Direito de Construir (OODC), regulamentando o art. 117 do PDE (Lei 16.050/2014, red. Lei 17.975/2023) e a LPUOS (Lei 16.402/2016, red. Lei 18.081/2024). Em vigor desde 14/06/2024; sem auto-revogacao/suspensao. NAO se aplica dentro de OUC (leis proprias) nem, salvo no que couber, em AIU. Fonte-norma da formula C=(At/Ac)·V·Fp·Fs auditada nos engines."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "plano_intervencao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao",
+    "habitacao_interesse_social",
+    "potencial_construtivo"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Outorga Onerosa do Direito de Construir, nos termos da Lei nº 16.050, de 31 de julho de 2014, alterada pela Lei nº 17.975, de 8 de julho de 2023, e da Lei nº 16.402, de 22 de março de 2016, alterada pela Lei nº 18.081, de 19 de janeiro de 2024, e dá outras providências."
+}

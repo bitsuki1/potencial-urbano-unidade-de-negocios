@@ -1,0 +1,139 @@
+{
+  "id": "lei-municipal-saopaulo-11154-1991",
+  "tipo_norma": "lei_ordinaria",
+  "esfera": "municipal",
+  "jurisdicao": "São Paulo/SP",
+  "numero": "11.154",
+  "ano": 1991,
+  "ementa": "Dispõe sobre o Imposto sobre Transmissão “inter vivos”, a qualquer título por ato oneroso, de bens imóveis, por natureza ou acessão física, e de direitos reais sobre imóveis, exceto os de garantia, bem como cessão de direitos à sua aquisição, e dá outras providências.",
+  "tema": [
+    "itbi",
+    "planta_generica_valores",
+    "habitacao_interesse_social"
+  ],
+  "dispositivos_chave": [
+    "Art.1º -O Imposto sobre Transmissão “inter vivos” de bens imóveis e de direitos reais sobre eles tem como fato gerador:",
+    "Art.2º - Estão compreendidos na incidência do imposto:",
+    "Art. 3° - O imposto não incide:",
+    "Art. 4° - Não se aplica o disposto nos incisos III e V do artigo anterior, quando o adquirente tiver como atividade preponderant",
+    "Art. 4º - Não se aplica o disposto nos incisos III a V do artigo anterior, quando o adquirente tiver como atividade preponderant",
+    "Art. 5° - O Executivo regulamentará o reconhecimento administrativo da não incidência e da imunidade e a concessão de isenção, n",
+    "Art. 6° - São Contribuintes do imposto:",
+    "Art. 7° - A base de cálculo do imposto é o valor venal dos bens ou direitos transmitidos.",
+    "Art. 7º . Para fins de lançamento do Imposto, a base de cálculo é o valor venal dos bens ou direitos transmitidos, assim conside",
+    "Art. 7º-A . A Secretaria Municipal de Finanças tornará públicos os valores venais atualizados dos imóveis inscritos no Cadastro Im",
+    "Art. 7º-B . Caso não concorde com a base de cálculo do imposto divulgada pela Secretaria Municipal de Finanças, nos termos de regu",
+    "Art. 8° - Em nenhuma hipótese, o imposto será calculado sobre valor inferior ao valor do bem, utilizado, no exercício, para base",
+    "Art. 8º - Em nenhuma hipótese, o imposto será calculado sobre valor inferior ao valor do bem, utilizado, no exercício, para base",
+    "Art. 9° - O valor mínimo fixado no artigo anterior será reduzido:",
+    "Art. 9º . O valor da base de cálculo será reduzido:(Redação dada pela Lei n° 14.256/2006)",
+    "Art. 10 – O imposto será calculado:",
+    "Art. 10 - O imposto será calculado:(Redação dada pela Lei n° 13.107/2000)",
+    "Art. 10 . O imposto será calculado:(Redação dada pela Lei n° 15.891/2013)",
+    "Art. 11 – O imposto será pago mediante documento próprio de arrecadação, na forma regulamentar.",
+    "Art. 12 – Ressalvado o disposto nos artigos seguintes, o imposto será pago antes de se efetivar o ato ou contrato sobre o qual i",
+    "Art. 13 – Na arrematação, adjudicação ou remição o imposto será pago dentro de 15 (quinze) dias desses atos, antes da assinatura",
+    "Art. 14 – Nas transmissões realizadas por termo judicial, em virtude de sentença judicial, o imposto será pago dentro de 10 (dez",
+    "Art. 14 - Nas transmissões realizadas por termo judicial, em virtude de sentença judicial, o imposto será pago dentro de 10 (dez",
+    "Art. 15 – O imposto não pago no vencimento será atualizado monetariamente, de acordo com a variação de índices oficiais, da data",
+    "Art. 16 – Observado o disposto no artigo anterior, os débitos não pagos nos respectivos vencimentos ficam acrescidos de:"
+  ],
+  "vigencia": {
+    "inicio": "1991-12-30",
+    "fim": null,
+    "em_vigor": true,
+    "altera": [],
+    "alterada_por": [],
+    "revogada_por": null,
+    "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 1991-12-30 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+  },
+  "remissoes": [
+    {
+      "norma": "LEI Nº 11.154",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei Federal nº 9.514",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei Nº 339/1990",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei n° 10.721",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei n° 13.107/2000",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei n° 13.402/2002",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei n° 14.256/2006",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei n° 14.865/2008",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei n° 15.360/2011",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei n° 15.406/2011",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei n° 15.891/2013",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei n° 16.098/2014",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 13.105",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 14.125/2005",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 17.719/2021",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 18.095/2024",
+      "relacao": "citada no texto (detectada automaticamente)"
+    }
+  ],
+  "jurisprudencia_relacionada": [],
+  "tem_tabela": false,
+  "tabelas_extraidas": [],
+  "tem_formula": false,
+  "formulas_referenciadas": [],
+  "fonte": {
+    "origem": "Portal oficial (legislacao.prefeitura.sp.gov.br)",
+    "path": "_entrada/misto/lei-municipal-saopaulo-11154-1991.txt",
+    "url": "https://legislacao.prefeitura.sp.gov.br/lei-11154-de-30-de-dezembro-de-1991",
+    "hash": "sha256:eeebea3b2e1abee7faae5727779db98b06af10065e1e032222b97b8f17cf8747",
+    "hash_nota_fonte": "sha256 do HTML bruto do portal capturado 2026-07-13",
+    "ocr": false,
+    "metodo": "VERBATIM INTEGRAL (portal oficial, texto compilado); captura portal oficial legislacao.prefeitura.sp.gov.br (container texto_compilado); promovido de _entrada/misto/",
+    "hash_alvo": "_entrada/misto/lei-municipal-saopaulo-11154-1991.txt",
+    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior."
+  },
+  "status_pipeline": "indexado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "dominio_primario": "iptu",
+  "dominio": [
+    "iptu"
+  ]
+}

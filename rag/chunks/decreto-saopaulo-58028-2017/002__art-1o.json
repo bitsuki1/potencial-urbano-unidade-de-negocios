@@ -1,0 +1,48 @@
+{
+  "chunk_id": "decreto-saopaulo-58028-2017::002-art-1o",
+  "lei_id": "decreto-saopaulo-58028-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 1º",
+  "numero": "1",
+  "header_raw": "Art. 1º Fica instituído, na Secretaria Municipal de Urbanismo e Licenciamento – SMUL, o procedimento APROVA RÁPIDO para a aprovação rápida dos projetos de edificações, visando conferir agilidade à análise de pedidos de Alvarás de Aprovação de edificações novas de competência dessa Secretaria, que forem protocolados a partir de 12 de março de 2018 e que atendam aos requisitos previstos neste decreto.(Revogado pelo Decreto nº 58.955/2019)",
+  "caminho_hierarquico": [
+    "Art. 1º"
+  ],
+  "texto": "Art. 1º Fica instituído, na Secretaria Municipal de Urbanismo e Licenciamento – SMUL, o procedimento APROVA RÁPIDO para a aprovação rápida dos projetos de edificações, visando conferir agilidade à análise de pedidos de Alvarás de Aprovação de edificações novas de competência dessa Secretaria, que forem protocolados a partir de 12 de março de 2018 e que atendam aos requisitos previstos neste decreto.(Revogado pelo Decreto nº 58.955/2019)\n\n§ 1º A aplicação do procedimento APROVA RÁPIDO ocorrerá por opção do interessado, no ato do protocolo do pedido de licenciamento da edificação em SMUL.\n\n§ 1º No ato do protocolo do pedido de licenciamento da edificação em SMUL, o interessado poderá solicitar a aplicação do procedimento APROVA RÁPIDO.(Redação dada pelo Decreto n° 58.130/2018)\n\n§ 2º Será analisada a admissibilidade do pedido no procedimento APROVA RÁPIDO e, caso constatado o descumprimento de qualquer requisito previsto neste decreto, o processo será remetido à via de aprovação ordinária.\n\n§ 3º Para os pedidos cujos interessados não optarem pela aplicação do procedimento APROVA RÁPIDO, fica mantida a via de aprovação ordinária.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "2018",
+    "norma_redacao": "Decreto n° 58.130/2018"
+  },
+  "citacao": {
+    "norma": "decreto nº 58.028/2017 — São Paulo/SP",
+    "dispositivo": "Art. 1º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-58028-de-11-de-dezembro-de-2017",
+    "vigencia": {
+      "inicio": "2017-12-11",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2017-12-11. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o procedimento APROVA RÁPIDO; cria o Grupo Intersecretarial de Análise de Projetos Específicos no Município – GRAPROEM e o Comitê Gestor do APROVA RÁPIDO."
+}

@@ -1,0 +1,52 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17734-2022::006-art-5o",
+  "lei_id": "lei-municipal-saopaulo-17734-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 5º",
+  "numero": "5",
+  "header_raw": "Art. 5º Para os fins desta Lei, consideram-se:",
+  "caminho_hierarquico": [
+    "CAPÍTULO I",
+    "Seção I",
+    "Art. 5º"
+  ],
+  "texto": "Art. 5º Para os fins desta Lei, consideram-se:\n\nI - Regularização Fundiária Urbana de Interesse Social (Reurb-S): procedimento aplicável ao núcleo urbano para fins de moradia, ocupado predominantemente por população de baixa renda e classificado pelo Município como de interesse social, nos termos do art. 38 desta Lei;\n\nII - Regularização Fundiária Urbana de Interesse Específico (Reurb-E): procedimento aplicável ao núcleo urbano não classificado como de interesse social;\n\nIII - Infraestrutura Essencial: infraestrutura a ser executada no âmbito da Reurb, antes da expedição da Certidão de Regularização Fundiária, ou mediante apresentação de termo de compromisso de execução de obras acompanhado de cronograma, quando as obras forem pontuais, não caracterizando urbanização integral e desde que não haja alteração do parcelamento;\n\nIV - Beneficiário: pessoa a quem se destina a constituição dos direitos reais;\n\nV - Projeto de Regularização Fundiária: documento que contempla o conjunto de elementos necessários à regularização fundiária do núcleo urbano, incluindo o diagnóstico da situação jurídica, urbanística, ambiental e social, a indicação das ações necessárias para a regularização e o respectivo projeto urbanístico;\n\nVI - Certidão de Regularização Fundiária – CRF: documento que certifica a aprovação da Reurb, constituído pelo Projeto de Regularização Fundiária e, sempre que possível, acompanhado da listagem dos beneficiários com a respectiva indicação dos direitos reais que lhes são atribuídos, ainda que parcial, bem como pelo termo de compromisso de execução de obras e cronograma físico de implantação de obras de infraestrutura essencial, quando for necessário, além de outras exigências apontadas pelo Projeto de Regularização Fundiária.\n\nSeção II\n\nDos objetivos da Reurb",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.734/2022 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO I › Seção I › Art. 5º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17734-de-11-de-janeiro-de-2022",
+    "vigencia": {
+      "inicio": "2022-01-11",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2022-01-11. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "itbi",
+    "planta_generica_valores",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta, no âmbito do Município de São Paulo, os procedimentos aplicáveis à Regularização Fundiária, de acordo com a Lei Federal nº 13.465, de 11 de julho de 2017, e o Decreto Federal nº 9.310, de 2018, e dá outras providências."
+}

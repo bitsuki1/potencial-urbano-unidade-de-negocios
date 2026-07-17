@@ -1,0 +1,6 @@
+sql,endereco,distrito,valor_bruto_brl,estado_venda,data_declaracao
+0200670033,"Rua Dr Candido Espinheira, 449",Perdizes,4804259.04,INTACTO,2019-06-12
+0100010001,"Rua Parintins, 120",Barra Funda,767498.59,INTACTO,2023-10-09
+0100010002,"Rua Parintins, 130",Barra Funda,500000.00,INTACTO,2022-01-05
+0000010001,"Praca da Se, S/N",Se,0,VEDADO_LEI,
+0999999999,"Rua Desconhecida, 1",Lapa,123456.00,SO_ELEGIVEL,

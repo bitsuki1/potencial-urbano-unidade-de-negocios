@@ -1,0 +1,50 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17719-2021::022-art-21",
+  "lei_id": "lei-municipal-saopaulo-17719-2021",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 21",
+  "numero": "21",
+  "header_raw": "Art. 21. Os créditos tributários constituídos em face de entidades religiosas e de entidades educacionais sem fins lucrativos, objeto de contencioso administrativo ou judicial ou inscritos em dívida ativa, poderão ser extintos mediante transação, nos termos do art. 171 da Lei nº 5.172, de 25 de outubro de 1966 (Código Tributário Nacional).(Regulamentado pelo Decreto nº 60.939/2021)",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção X",
+    "Art. 21"
+  ],
+  "texto": "Art. 21. Os créditos tributários constituídos em face de entidades religiosas e de entidades educacionais sem fins lucrativos, objeto de contencioso administrativo ou judicial ou inscritos em dívida ativa, poderão ser extintos mediante transação, nos termos do art. 171 da Lei nº 5.172, de 25 de outubro de 1966 (Código Tributário Nacional).(Regulamentado pelo Decreto nº 60.939/2021)\n\n§ 1º Caberá à Procuradoria Geral do Município a celebração de transação sobre quaisquer créditos tributários constituídos em face de entidades religiosas, concedendo descontos sobre o valor total do crédito apurado, observado o disposto no art. 11 , inciso IV da Lei nº 17.324, de 18 de março de 2020.(Regulamentado pelo Decreto nº 60.939/2021)\n\n§ 2º As entidades educacionais de matriz confessional não serão consideradas entidades religiosas para os fins da transação autorizada por este artigo e regulada pelos seguintes.(Regulamentado pelo Decreto nº 60.939/2021)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.719/2021 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção X › Art. 21",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17719-de-26-de-novembro-de-2021",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    }
+  },
+  "tema": [
+    "planta_generica_valores",
+    "valor_venal",
+    "imposto_predial",
+    "isencao_iptu",
+    "desconto_iptu",
+    "legislacao_tributaria"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre Planta Genérica de Valores, alterações na legislação tributária municipal, Contragarantias em Operações de Crédito e Fundo Especial para a Modernização da Administração Tributária e da Administração Fazendária no Município de São Paulo."
+}

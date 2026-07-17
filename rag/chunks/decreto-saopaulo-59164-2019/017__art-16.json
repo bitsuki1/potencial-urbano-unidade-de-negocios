@@ -1,0 +1,51 @@
+{
+  "chunk_id": "decreto-saopaulo-59164-2019::017-art-16",
+  "lei_id": "decreto-saopaulo-59164-2019",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 16",
+  "numero": "16",
+  "header_raw": "Art. 16. Os processos de que trata este decreto são considerados especiais e seguem o rito nele previsto, aplicando-se, subsidiariamente, no que não for conflitante, o rito definido pela Lei nº 16.642, de 2017.",
+  "caminho_hierarquico": [
+    "CAPÍTULO VII",
+    "Art. 16"
+  ],
+  "texto": "Art. 16. Os processos de que trata este decreto são considerados especiais e seguem o rito nele previsto, aplicando-se, subsidiariamente, no que não for conflitante, o rito definido pela Lei nº 16.642, de 2017.\n\n§ 1º A competência para apreciação dos pedidos de regularização de que trata a Lei nº 17.202, de 2019, é atribuída à Secretaria Municipal de Licenciamento - SEL:\n\n§ 2º As instâncias administrativas do procedimento comum, são as seguintes:\n\nI - Diretor de Divisão da SEL;\n\nII - Coordenador da SEL.\n\n§ 3º O despacho que decidir o pedido de regularização será publicado no Diário Oficial e o interessado será notificado por meio eletrônico.\n\n§ 4º O prazo para recurso, nos casos de indeferimento de pedido de regularização em primeira instância administrativa, será de 60 (sessenta) dias, contados a partir do 1º dia útil após a data da publicação do despacho no Diário Oficial da Cidade - DOC.\n\n§ 5º A decisão do Coordenador da SEL encerrará a instância administrativa.\n\nCAPÍTULO VIII\n\nDAS ÁREAS IMPERMEABILIZADAS",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 59.164/2019 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO VII › Art. 16",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59164-de-27-de-dezembro-de-2019",
+    "vigencia": {
+      "inicio": "2019-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2019-12-27. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 17.202, de 16 de outubro de 2019, que dispõe sobre a regularização de edificações, condicionada, quando necessário, à realização de obras, nos termos da previsão do art. 367 do Plano Diretor Estratégico."
+}

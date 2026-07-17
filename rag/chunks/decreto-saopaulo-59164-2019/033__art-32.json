@@ -1,0 +1,51 @@
+{
+  "chunk_id": "decreto-saopaulo-59164-2019::033-art-32",
+  "lei_id": "decreto-saopaulo-59164-2019",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 32",
+  "numero": "32",
+  "header_raw": "Art. 32. As edificações em lotes pertencentes a loteamentos implantados irregularmente, até 30 de abril de 2000, no Município de São Paulo, poderão ser regularizadas se obedecidos os critérios e os prazos estabelecidos neste decreto e após a emissão do Auto de Regularização do Loteamento, observado o disposto em legislação federal, estadual e municipal pertinente.",
+  "caminho_hierarquico": [
+    "CAPITULO XIII",
+    "Art. 32"
+  ],
+  "texto": "Art. 32. As edificações em lotes pertencentes a loteamentos implantados irregularmente, até 30 de abril de 2000, no Município de São Paulo, poderão ser regularizadas se obedecidos os critérios e os prazos estabelecidos neste decreto e após a emissão do Auto de Regularização do Loteamento, observado o disposto em legislação federal, estadual e municipal pertinente.\n\nParágrafo único. Na hipótese de edificação cujo lote dependa da emissão do Auto de Regularização de parcelamento do solo, o pedido de certificado de regularização de que trata este decreto será pelo procedimento comum, com consulta à Secretaria Municipal de Habitação – SEHAB.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 59.164/2019 — São Paulo/SP",
+    "dispositivo": "CAPITULO XIII › Art. 32",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59164-de-27-de-dezembro-de-2019",
+    "vigencia": {
+      "inicio": "2019-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2019-12-27. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 17.202, de 16 de outubro de 2019, que dispõe sobre a regularização de edificações, condicionada, quando necessário, à realização de obras, nos termos da previsão do art. 367 do Plano Diretor Estratégico."
+}

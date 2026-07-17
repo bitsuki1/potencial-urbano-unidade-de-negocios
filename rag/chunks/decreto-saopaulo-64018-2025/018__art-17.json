@@ -1,0 +1,52 @@
+{
+  "chunk_id": "decreto-saopaulo-64018-2025::018-art-17",
+  "lei_id": "decreto-saopaulo-64018-2025",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 17",
+  "numero": "17",
+  "header_raw": "Art. 17. Os interessados em usufruir os benefícios previstos na Lei nº 18.079, de 2024, deverão protocolar, única e exclusivamente na São Paulo Urbanismo – SP-Urbanismo, seu pedido de obtenção de Certidão de Pagamento de Outorga Onerosa em Certificados de Potencial Adicional de Construção – CEPAC.",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Seção I",
+    "Art. 17"
+  ],
+  "texto": "Art. 17. Os interessados em usufruir os benefícios previstos na Lei nº 18.079, de 2024, deverão protocolar, única e exclusivamente na São Paulo Urbanismo – SP-Urbanismo, seu pedido de obtenção de Certidão de Pagamento de Outorga Onerosa em Certificados de Potencial Adicional de Construção – CEPAC.\n\nParágrafo único. O pedido de Certidão de Pagamento de Outorga Onerosa em CEPAC não depende da existência prévia de qualquer pedido de licenciamento edilício.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 64.018/2025 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO V › Seção I › Art. 17",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-64018-de-30-de-janeiro-de-2025",
+    "vigencia": {
+      "inicio": "2025-01-30",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2025-01-30. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 18.079, de 11 de janeiro de 2024, aprovou o Projeto de Intervenção Urbana para o perímetro do Arco Tamanduateí, em atendimento ao inciso I do § 3º do artigo 76 da Lei nº 16.050, de 31 de julho de 2014; instituiu a Operação Urbana Consorciada Bairros do Tamanduateí e definiu parâmetros de uso e ocupação do solo para o território e o correspondente Programa de Intervenções."
+}

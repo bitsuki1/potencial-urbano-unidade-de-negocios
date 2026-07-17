@@ -1,0 +1,58 @@
+{
+  "id": "lei-municipal-saopaulo-11308-1992",
+  "tipo_norma": "lei_ordinaria",
+  "esfera": "municipal",
+  "jurisdicao": "São Paulo/SP",
+  "numero": "11.308",
+  "ano": 1992,
+  "ementa": "Autoriza o Executivo a isentar do pagamento do Imposto Predial e Territorial Urbano os imóveis de propriedade e onde residam aposentados de baixa renda, que recebam até três salários mínimos mensais. (REVOGADA pela Lei 11.614/1994.)",
+  "tema": [
+    "isencao_iptu",
+    "isencao"
+  ],
+  "dispositivos_chave": [
+    "Art. 1º — autoriza o Executivo a isentar do IPTU os imóveis de propriedade e residência de aposentados de baixa renda (até três salários mínimos mensais)"
+  ],
+  "vigencia": {
+    "inicio": "1992-12-17",
+    "fim": "1994-07-13",
+    "em_vigor": false,
+    "altera": [],
+    "alterada_por": [],
+    "revogada_por": "lei-municipal-saopaulo-11614-1994",
+    "observacao": "REVOGADA expressamente pela Lei 11.614/1994, Art. 4º ('Revogadas as disposições em contrário, em especial a Lei nº 11.308, de 17 de dezembro de 1992'), com efeitos a partir de 01/01/1994; a Lei 11.614/1994 foi publicada em 1994-07-13. Regulamentada, enquanto vigente, pelo Decreto 32.984/1993. CURADO contra o verbatim (2026-07-16): corrigidos em_vigor (estava true), tema (estava uso_ocupacao_solo) e dispositivos_chave (estava vazio). Trilha IPTU."
+  },
+  "remissoes": [
+    {
+      "norma": "Lei nº 11.614/1994",
+      "relacao": "REVOGA esta lei (Art. 4º), com efeitos a partir de 01/01/1994"
+    },
+    {
+      "norma": "Decreto nº 32.984/1993",
+      "relacao": "regulamentou esta lei enquanto vigente"
+    }
+  ],
+  "jurisprudencia_relacionada": [],
+  "tem_tabela": false,
+  "tabelas_extraidas": [],
+  "tem_formula": false,
+  "formulas_referenciadas": [],
+  "fonte": {
+    "origem": "Portal oficial (legislacao.prefeitura.sp.gov.br)",
+    "path": "_entrada/misto/lei-municipal-saopaulo-11308-1992.txt",
+    "url": "https://legislacao.prefeitura.sp.gov.br/lei-11308-de-17-de-dezembro-de-1992",
+    "hash": "sha256:8027055e58498ebeff7374e74c82c35df2cc7c67032be50a434fdcea9709e9cc",
+    "hash_nota_fonte": "sha256 do HTML bruto do portal capturado 2026-07-13",
+    "ocr": false,
+    "metodo": "VERBATIM INTEGRAL (portal oficial, texto compilado); captura portal oficial legislacao.prefeitura.sp.gov.br (container texto_compilado); promovido de _entrada/misto/",
+    "hash_alvo": "_entrada/misto/lei-municipal-saopaulo-11308-1992.txt",
+    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior."
+  },
+  "status_pipeline": "indexado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": true,
+  "dominio_primario": "iptu",
+  "dominio": [
+    "iptu"
+  ]
+}

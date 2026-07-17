@@ -1,0 +1,46 @@
+{
+  "chunk_id": "decreto-saopaulo-57565-2016::015-art-14",
+  "lei_id": "decreto-saopaulo-57565-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 14",
+  "numero": "14",
+  "header_raw": "Art. 14. A aplicação do Fator Redutor de 0,50 (cinco décimos) ao Fator de Eficácia Ambiental do Indicador Cobertura Vegetal – FV previsto para os indivíduos arbóreos plantados como contrapartida de TCA, conforme o artigo 77 da Lei nº 16.402, de 2016, também ocorrerá nos seguintes casos:",
+  "caminho_hierarquico": [
+    "CAPÍTULO I LICENCIAMENTO DE PROJETOS E REFORMAS",
+    "Seção II Aplicação da Quota Ambiental",
+    "Art. 14"
+  ],
+  "texto": "Art. 14. A aplicação do Fator Redutor de 0,50 (cinco décimos) ao Fator de Eficácia Ambiental do Indicador Cobertura Vegetal – FV previsto para os indivíduos arbóreos plantados como contrapartida de TCA, conforme o artigo 77 da Lei nº 16.402, de 2016, também ocorrerá nos seguintes casos:\n\nI - nos indivíduos arbóreos, palmeiras ou coqueiros transplantados\n\nII - nos indivíduos arbóreos, palmeiras ou coqueiros plantados como contrapartida nos casos de intervenções em área de preservação permanente nos termos da Lei Federal nº 12.651, de 25 de maio de 2012, ou legislação subsequente;\n\nIII - nos casos de implantação de jardim vertical através da utilização de recursos oriundos de TCA, devendo o fator redutor ser aplicado por metro quadrado de jardim vertical proposto.\n\nParágrafo único. Desde que autorizado por SVMA, os indivíduos arbóreos a serem plantados acima da densidade arbórea inicial poderão ser contabilizados para pontuação da QA sem o Fator Redutor referido no \"caput\" deste artigo.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.565/2016 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO I LICENCIAMENTO DE PROJETOS E REFORMAS › Seção II Aplicação da Quota Ambiental › Art. 14",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57565-de-27-de-dezembro-de-2016",
+    "vigencia": {
+      "inicio": "2016-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2016-12-27. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "quota_ambiental"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta procedimentos para a aplicação da Quota Ambiental, nos termos da Lei nº 16.402, de 22 de março de 2016."
+}

@@ -1,0 +1,56 @@
+{
+  "chunk_id": "lei-federal-10257-2001::028-art-35",
+  "lei_id": "lei-federal-10257-2001",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 35",
+  "numero": "35",
+  "header_raw": "Art. 35. Lei municipal, baseada no plano diretor, poderá autorizar o proprietário",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção XI",
+    "Art. 35"
+  ],
+  "texto": "Art. 35. Lei municipal, baseada no plano diretor, poderá autorizar o proprietário\nde imóvel urbano, privado ou público, a exercer em outro local, ou alienar, mediante\nescritura pública, o direito de construir previsto no plano diretor ou em legislação\nurbanística dele decorrente, quando o referido imóvel for considerado necessário para\nfins de:\n\n\n\nI\n– implantação de equipamentos urbanos e comunitários;\n\n\n\nII\n– preservação, quando o imóvel for considerado de interesse histórico, ambiental,\npaisagístico, social ou cultural;\n\n\n\nIII – servir a programas de regularização fundiária, urbanização de áreas\nocupadas por população de baixa renda e habitação de interesse social.\n\n\n\n§\n1o A mesma faculdade poderá ser concedida ao proprietário que doar ao\nPoder Público seu imóvel, ou parte dele, para os fins previstos nos incisos I a III do\ncaput.\n\n\n\n§\n2o A lei municipal referida no caput estabelecerá as condições\nrelativas à aplicação da transferência do direito de construir.\n\n\nSeção XII\n\n\nDo estudo de impacto de vizinhança",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 10.257/2001 — Brasil",
+    "dispositivo": "CAPÍTULO II › Seção XI › Art. 35",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/leis_2001/l10257.htm",
+    "vigencia": {
+      "inicio": "2001-07-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+      ],
+      "revogada_por": null,
+      "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+    }
+  },
+  "tema": [
+    "politica_urbana",
+    "estatuto_da_cidade",
+    "plano_diretor",
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "parcelamento_edificacao_compulsorios",
+    "iptu_progressivo_tempo",
+    "operacao_urbana_consorciada",
+    "direito_preempcao",
+    "potencial_construtivo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "Brasil",
+  "ementa": "Regulamenta os arts. 182 e 183 da Constituição Federal, estabelece diretrizes gerais da política urbana e dá outras providências. (Estatuto da Cidade)"
+}

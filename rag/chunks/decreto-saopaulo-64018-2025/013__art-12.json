@@ -1,0 +1,51 @@
+{
+  "chunk_id": "decreto-saopaulo-64018-2025::013-art-12",
+  "lei_id": "decreto-saopaulo-64018-2025",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 12",
+  "numero": "12",
+  "header_raw": "Art. 12. A precificação dos Certificados de Potencial Adicional de Construção – CEPAC utilizados nos casos de alienação de bem imóvel à Prefeitura do Município de São Paulo ou da transferência de potencial construtivo de imóvel tombado deverá obedecer ao disposto no artigo 41 da Lei nº 18.079, de 2024.",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Art. 12"
+  ],
+  "texto": "Art. 12. A precificação dos Certificados de Potencial Adicional de Construção – CEPAC utilizados nos casos de alienação de bem imóvel à Prefeitura do Município de São Paulo ou da transferência de potencial construtivo de imóvel tombado deverá obedecer ao disposto no artigo 41 da Lei nº 18.079, de 2024.\n\nParágrafo único. O valor do mais recente leilão, para a definição do valor unitário do CEPAC nos termos do §1º do artigo 41 da Lei nº 18.079, de 2024, será o preço dos CEPAC negociado no último leilão público, atualizado pelo Índice de Preços ao Consumidor da Fundação Instituto de Pesquisas Econômicas - IPC-FIPE ou, na ausência deste, de outro índice estabelecido pela SP-Urbanismo.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 64.018/2025 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Art. 12",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-64018-de-30-de-janeiro-de-2025",
+    "vigencia": {
+      "inicio": "2025-01-30",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2025-01-30. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 18.079, de 11 de janeiro de 2024, aprovou o Projeto de Intervenção Urbana para o perímetro do Arco Tamanduateí, em atendimento ao inciso I do § 3º do artigo 76 da Lei nº 16.050, de 31 de julho de 2014; instituiu a Operação Urbana Consorciada Bairros do Tamanduateí e definiu parâmetros de uso e ocupação do solo para o território e o correspondente Programa de Intervenções."
+}

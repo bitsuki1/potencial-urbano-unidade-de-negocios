@@ -1,0 +1,46 @@
+{
+  "chunk_id": "decreto-saopaulo-57565-2016::006-art-5o",
+  "lei_id": "decreto-saopaulo-57565-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 5º",
+  "numero": "5",
+  "header_raw": "Art. 5º Para fins de aplicação do § 2º do artigo 76 da Lei nº 16.402, de 2016, nas hipóteses de desmembramento ou de subdivisão em unidades imobiliárias independentes aprovados após a entrada em vigor da referida lei, caso o lote original conte com área superior a 500m² (quinhentos metros quadrados), o atendimento da Quota Ambiental deverá ser feito em todos os lotes resultantes, de acordo com área final de cada lote.",
+  "caminho_hierarquico": [
+    "CAPÍTULO I LICENCIAMENTO DE PROJETOS E REFORMAS",
+    "Seção II Aplicação da Quota Ambiental",
+    "Art. 5º"
+  ],
+  "texto": "Art. 5º Para fins de aplicação do § 2º do artigo 76 da Lei nº 16.402, de 2016, nas hipóteses de desmembramento ou de subdivisão em unidades imobiliárias independentes aprovados após a entrada em vigor da referida lei, caso o lote original conte com área superior a 500m² (quinhentos metros quadrados), o atendimento da Quota Ambiental deverá ser feito em todos os lotes resultantes, de acordo com área final de cada lote.\n\nParágrafo único. Na hipótese prevista no “caput” deste artigo, caso os lotes resultantes do desmembramento ou da subdivisão em unidades imobiliárias tenham área igual ou inferior a 500m² (quinhentos metros quadrados), deverão atender a pontuação mínima da Quota Ambiental de 0,15 (quinze décimos), respeitada a taxa de permeabilidade mínima, conforme disposto no Quadro 3A da Lei nº 16.402, de 2016.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.565/2016 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO I LICENCIAMENTO DE PROJETOS E REFORMAS › Seção II Aplicação da Quota Ambiental › Art. 5º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57565-de-27-de-dezembro-de-2016",
+    "vigencia": {
+      "inicio": "2016-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2016-12-27. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "quota_ambiental"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta procedimentos para a aplicação da Quota Ambiental, nos termos da Lei nº 16.402, de 22 de março de 2016."
+}

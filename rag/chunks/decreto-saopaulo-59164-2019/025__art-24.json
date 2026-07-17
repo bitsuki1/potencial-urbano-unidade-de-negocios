@@ -1,0 +1,51 @@
+{
+  "chunk_id": "decreto-saopaulo-59164-2019::025-art-24",
+  "lei_id": "decreto-saopaulo-59164-2019",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 24",
+  "numero": "24",
+  "header_raw": "Art. 24. Não será lançado Imposto sobre Serviços de Qualquer Natureza – ISS relativamente às edificações enquadradas no artigo 9º deste decreto, destinadas exclusivamente a uso residencial, sem prejuízo de seu lançamento e cobrança posteriores pela Secretaria Municipal da Fazenda - SF.",
+  "caminho_hierarquico": [
+    "CAPÍTULO XI",
+    "Art. 24"
+  ],
+  "texto": "Art. 24. Não será lançado Imposto sobre Serviços de Qualquer Natureza – ISS relativamente às edificações enquadradas no artigo 9º deste decreto, destinadas exclusivamente a uso residencial, sem prejuízo de seu lançamento e cobrança posteriores pela Secretaria Municipal da Fazenda - SF.\n\n§ 1º Aplicam-se as disposições deste artigo para fatos geradores ocorridos até a data prevista no “caput” do artigo 1º deste decreto.\n\n§ 2º As edificações cujos processos de regularização não forem deferidos nos termos desta lei, e aquelas cuja regularização venha a ser cancelada, terão o Imposto Sobre Serviços de Qualquer Natureza - ISS lançados.\n\n§ 3º Não se aplica o disposto no “caput” deste artigo aos créditos tributários já constituídos e referentes ao SQL que se busca regularizar, hipótese na qual a regularização somente será possível com a extinção dos referidos créditos.\n\n§ 4º Em nenhuma hipótese serão restituídos valores de Imposto sobre Serviços de Qualquer Natureza - ISS de que trata o “caput” deste artigo, pagos anteriormente à edição deste decreto.\n\nCAPITULO XII\n\nDAS MULTAS",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 59.164/2019 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO XI › Art. 24",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59164-de-27-de-dezembro-de-2019",
+    "vigencia": {
+      "inicio": "2019-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2019-12-27. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 17.202, de 16 de outubro de 2019, que dispõe sobre a regularização de edificações, condicionada, quando necessário, à realização de obras, nos termos da previsão do art. 367 do Plano Diretor Estratégico."
+}

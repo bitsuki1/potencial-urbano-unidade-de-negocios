@@ -1,0 +1,84 @@
+{
+  "id": "lei-municipal-saopaulo-13698-2003",
+  "tipo_norma": "lei_ordinaria",
+  "esfera": "municipal",
+  "jurisdicao": "São Paulo/SP",
+  "numero": "13.698",
+  "ano": 2003,
+  "ementa": "Dispõe sobre o Imposto Predial e Territorial Urbano - IPTU e altera a Lei nº 6.989, de 29 de dezembro de 1966.",
+  "tema": [
+    "planta_generica_valores"
+  ],
+  "dispositivos_chave": [
+    "Art. 1º - A partir do exercício de 2004, ficam isentos do Imposto Predial os imóveis construídos, cujo valor venal correspondent",
+    "Art. 1º . A partir do exercício de 2010, ficam isentos do Imposto Predial os imóveis construídos cujo valor venal correspondente",
+    "Art. 2º - A partir do exercício de 2004, ficam isentos do Imposto Predial os imóveis construídos, utilizados exclusiva ou predom",
+    "Art. 2º . A partir do exercício de 2010, ficam isentos do Imposto Predial os imóveis construídos, utilizados exclusiva ou predom",
+    "Art. 3º - A partir do exercício de 2004, para fins de lançamento do Imposto Predial, fica concedido desconto de R$ 21.700,00 (vi",
+    "Art. 3º . A partir do exercício de 2010, para fins de lançamento do Imposto Predial, fica concedido desconto de R$ 37.000,00 (tr",
+    "Art. 4º - Para o exercício de 2004, os percentuais de variação nominal do crédito decorrente do lançamento do Imposto Predial e",
+    "Art. 5º - O Executivo poderá atualizar monetariamente, a cada exercício, os valores venais estabelecidos nos artigos 1º, 2º e 3º",
+    "Art. 6º - O artigo 7º da Lei nº 6.989, de 29 de dezembro de 1966, passa a vigorar acrescido de parágrafo único, com a seguinte r",
+    "Art. 7º - O parágrafo 3º do artigo 19 da Lei nº 6.989, de 29 de dezembro de 1966, passa a vigorar com a seguinte redação:",
+    "Art. 8º - O parágrafo 3º do artigo 39 da Lei nº 6.989, de 29 de dezembro de 1966, passa a vigorar com a seguinte redação:",
+    "Art. 9º - Esta lei entrará em vigor na data de sua publicação, produzindo efeitos a partir de 1º de janeiro de 2004."
+  ],
+  "vigencia": {
+    "inicio": "2003-12-24",
+    "fim": null,
+    "em_vigor": true,
+    "altera": [],
+    "alterada_por": [],
+    "revogada_por": null,
+    "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2003-12-24 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+  },
+  "remissoes": [
+    {
+      "norma": "LEI Nº 13.698",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 10.235",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 15.044/2009",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 15.889/2013",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 6.989",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 864/03",
+      "relacao": "citada no texto (detectada automaticamente)"
+    }
+  ],
+  "jurisprudencia_relacionada": [],
+  "tem_tabela": true,
+  "tabelas_extraidas": [],
+  "tem_formula": false,
+  "formulas_referenciadas": [],
+  "fonte": {
+    "origem": "Portal oficial (legislacao.prefeitura.sp.gov.br)",
+    "path": "_entrada/misto/lei-municipal-saopaulo-13698-2003.txt",
+    "url": "https://legislacao.prefeitura.sp.gov.br/lei-13698-de-24-de-dezembro-de-2003",
+    "hash": "sha256:01522457a3f006701d31eb0f3ffe76080402d671102c2c6b3b15246cd88e5d19",
+    "hash_nota_fonte": "sha256 do HTML bruto do portal capturado 2026-07-13",
+    "ocr": false,
+    "metodo": "VERBATIM INTEGRAL (portal oficial, texto compilado); captura portal oficial legislacao.prefeitura.sp.gov.br (container texto_compilado); promovido de _entrada/misto/",
+    "hash_alvo": "_entrada/misto/lei-municipal-saopaulo-13698-2003.txt",
+    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior."
+  },
+  "status_pipeline": "indexado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "dominio_primario": "iptu",
+  "dominio": [
+    "iptu"
+  ]
+}

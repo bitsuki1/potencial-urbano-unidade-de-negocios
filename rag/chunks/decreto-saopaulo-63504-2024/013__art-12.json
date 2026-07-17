@@ -1,0 +1,54 @@
+{
+  "chunk_id": "decreto-saopaulo-63504-2024::013-art-12",
+  "lei_id": "decreto-saopaulo-63504-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 12",
+  "numero": "12",
+  "header_raw": "Art. 12. Nos pedidos de projeto modificativo para o qual já tenha havido cobrança de outorga onerosa, nos termos do disposto no artigo 27 da Lei nº 16.642, de 2017, para o cálculo da contrapartida financeira relativa à OODC aplicam-se, adicionalmente ao artigo 11, os seguintes regramentos:",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "SEÇÃO I",
+    "Art. 12"
+  ],
+  "texto": "Art. 12. Nos pedidos de projeto modificativo para o qual já tenha havido cobrança de outorga onerosa, nos termos do disposto no artigo 27 da Lei nº 16.642, de 2017, para o cálculo da contrapartida financeira relativa à OODC aplicam-se, adicionalmente ao artigo 11, os seguintes regramentos:\n\nI – No caso de projeto aprovado com fundamento na Lei nº 17.975, de 8 de julho de 2023:\n\na) Na hipótese de manutenção do fator de interesse social -Fs, em relação ao projeto aprovado, será calculada nova contrapartida financeira relativa à outorga onerosa do direito de construir quando houver acréscimo de potencial construtivo adicional e será cobrado pagamento somente sobre o acréscimo de potencial construtivo adicional para cada fator de interesse social - Fs;\n\nb) Na hipótese de acréscimo ou supressão do fator de interesse social - Fs em relação ao projeto aprovado, deverá ser calculada nova contrapartida financeira relativa à outorga onerosa do direito de construir devendo ser descontado o valor comprovadamente pago à Municipalidade;\n\nII – No caso de projeto aprovado com fundamento em norma anterior e com opção pela análise da Lei nº 17.975, de 2023, deverá ser calculada nova contrapartida financeira relativa à outorga onerosa do direito de construir para totalidade da área computável do empreendimento devendo ser descontado o valor comprovadamente pago à Municipalidade;\n\nIII – No caso de projeto aprovado com fundamento em norma anterior e sem haver opção pela análise da Lei nº 17.975, de 2023, deverão ser adotadas as regras e procedimentos estabelecidos pela legislação em vigor à época da sua aprovação, observando que, caso haja manutenção do fator de interesse social - Fs, em relação ao projeto aprovado, será calculada nova contrapartida financeira relativa à outorga onerosa do direito de construir somente quando houver acréscimo de potencial construtivo adicional e será cobrado somente o acréscimo de potencial construtivo adicional para cada fator de interesse social - Fs.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 63.504/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › SEÇÃO I › Art. 12",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-63504-de-14-de-junho-de-2024",
+    "vigencia": {
+      "inicio": "2024-06-14",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Regime GERAL da Outorga Onerosa do Direito de Construir (OODC), regulamentando o art. 117 do PDE (Lei 16.050/2014, red. Lei 17.975/2023) e a LPUOS (Lei 16.402/2016, red. Lei 18.081/2024). Em vigor desde 14/06/2024; sem auto-revogacao/suspensao. NAO se aplica dentro de OUC (leis proprias) nem, salvo no que couber, em AIU. Fonte-norma da formula C=(At/Ac)·V·Fp·Fs auditada nos engines."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "plano_intervencao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao",
+    "habitacao_interesse_social",
+    "potencial_construtivo"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Outorga Onerosa do Direito de Construir, nos termos da Lei nº 16.050, de 31 de julho de 2014, alterada pela Lei nº 17.975, de 8 de julho de 2023, e da Lei nº 16.402, de 22 de março de 2016, alterada pela Lei nº 18.081, de 19 de janeiro de 2024, e dá outras providências."
+}

@@ -1,0 +1,53 @@
+{
+  "chunk_id": "decreto-saopaulo-63504-2024::020-art-19",
+  "lei_id": "decreto-saopaulo-63504-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 19",
+  "numero": "19",
+  "header_raw": "Art. 19. A contrapartida financeira relativa à OODC poderá ser paga à vista ou em até 10 (dez) parcelas mensais e sucessivas, mediante formalização de Termo de Compromisso de Pagamento Parcelado da Contrapartida Financeira relativa à OODC, conforme modelo estabelecido em portaria da Secretaria Municipal de Urbanismo e Licenciamento -SMUL.",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 19"
+  ],
+  "texto": "Art. 19. A contrapartida financeira relativa à OODC poderá ser paga à vista ou em até 10 (dez) parcelas mensais e sucessivas, mediante formalização de Termo de Compromisso de Pagamento Parcelado da Contrapartida Financeira relativa à OODC, conforme modelo estabelecido em portaria da Secretaria Municipal de Urbanismo e Licenciamento -SMUL.\n\n§ 1º Nos pedidos de Alvará de Aprovação, a primeira parcela poderá ser paga em até 30 (trinta) dias após a publicação do despacho de seu deferimento devendo ser quitado integralmente previamente ao deferimento do pedido de Alvará de Execução, ainda que parcial.\n\n§ 2º Por manifestação expressa do interessado, em resposta ao comunicado de que trata o art. 18 deste decreto, o pagamento integral ou a primeira parcela da Contrapartida Financeira relativa à OODC poderá ser paga no pedido de Alvará de Execução, devendo estar quitada previamente ao despacho de deferimento.\n\n§ 3º Na hipótese de que trata o §2º deste artigo, os valores devidos serão recalculados, considerando-se as atualizações do Quadro 14 Anexo ao PDE.\n\n§ 4º Nos pedidos de Alvará de Licença para Residências Unifamiliares, Alvará de Aprovação e Execução, o pagamento da primeira parcela deverá ser realizado em até 30 (trinta) dias após a data da assinatura do Termo de Compromisso de Pagamento Parcelado da Contrapartida Financeira relativa à OODC, devendo ser quitado antes do despacho de seu deferimento.\n\n§ 5º Mantém-se válidos os Termos de Compromisso de Pagamento Parcelado da Contrapartida Financeira relativa à OODC assinados anteriormente à data de publicação deste decreto\n\n§ 6º Não se aplica a possibilidade de parcelamento da Contrapartida Financeira relativa à OODC aos pedidos de regularização de edificação.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 63.504/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Art. 19",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-63504-de-14-de-junho-de-2024",
+    "vigencia": {
+      "inicio": "2024-06-14",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Regime GERAL da Outorga Onerosa do Direito de Construir (OODC), regulamentando o art. 117 do PDE (Lei 16.050/2014, red. Lei 17.975/2023) e a LPUOS (Lei 16.402/2016, red. Lei 18.081/2024). Em vigor desde 14/06/2024; sem auto-revogacao/suspensao. NAO se aplica dentro de OUC (leis proprias) nem, salvo no que couber, em AIU. Fonte-norma da formula C=(At/Ac)·V·Fp·Fs auditada nos engines."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "plano_intervencao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao",
+    "habitacao_interesse_social",
+    "potencial_construtivo"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Outorga Onerosa do Direito de Construir, nos termos da Lei nº 16.050, de 31 de julho de 2014, alterada pela Lei nº 17.975, de 8 de julho de 2023, e da Lei nº 16.402, de 22 de março de 2016, alterada pela Lei nº 18.081, de 19 de janeiro de 2024, e dá outras providências."
+}

@@ -1,0 +1,48 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-11154-1991::018-art-10",
+  "lei_id": "lei-municipal-saopaulo-11154-1991",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 10",
+  "numero": "10",
+  "header_raw": "Art. 10 - O imposto será calculado:(Redação dada pela Lei n° 13.107/2000)",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 10"
+  ],
+  "texto": "Art. 10 - O imposto será calculado:(Redação dada pela Lei n° 13.107/2000)\n\nI - Nas transmissões compreendidas no Sistema Financeiro da Habitação - SFH:(Redação dada pela Lei n° 13.107/2000)\n\nI - nas transmissões compreendidas no Sistema Financeiro de Habitação - SFH, no Programa de Arrendamento Residencial - PAR e de Habitação de Interesse Social - HIS:(Redação dada pela Lei n° 14.865/2008)\n\na) à razão de 0,5% (meio por cento) sobre o valor efetivamente financiado, até o limite de R$ 42.800,00 (quarenta e dois mil e oitocentos reais);(Redação dada pela Lei n° 13.107/2000)\n\nb) pela aplicação da alíquota de 2% (dois por cento), sobre o valor restante.(Redação dada pela Lei n° 13.107/2000)\n\nII - Nas demais transmissões, pela alíquota de 2% (dois por cento).(Redação dada pela Lei n° 13.107/2000)\n\n§ 1º - Na hipótese prevista no inciso I deste artigo, quando o valor da transação for superior ao limite nele fixado, o valor do imposto será determinado pela soma das parcelas estabelecidas nas alíneas \"a\" e \"b\".(Redação dada pela Lei n° 13.107/2000)\n\n§ 2° - O valor do imposto é determinado pela soma das parcelas correspondentes a cada classe.\n\n§ 3° - No cálculo das transmissões previstas no inciso I deste artigo, o valor da parcela financiada, a que se refere a alínea “a” do mesmo inciso, será computado para efeito de determinação das classes de valor, nos termos do inciso II.\n\n§ 4° - Para os efeitos do disposto neste artigo, será considerado o valor da Unidade de Valor Fiscal do Município de São Paulo – UFM vigente à data da efetivação do ato ou contrato.\n\nII - nas transmissões compreendidas no Programa Minha Casa, Minha Vida - PMCMV, à razão de 0,5% (meio por cento) sobre o valor efetivamente financiado, desde que a renda mensal familiar bruta do adquirente não ultrapasse a 3 (três) salários mínimos;(Redação dada pela Lei n° 15.360/2011)\n\nIII - nas demais transmissões, pela alíquota de 2% (dois por cento).(Incluído pela Lei n° 15.360/2011)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "2000",
+    "norma_redacao": "Lei n° 13.107/2000"
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 11.154/1991 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Art. 10",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-11154-de-30-de-dezembro-de-1991",
+    "vigencia": {
+      "inicio": "1991-12-30",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 1991-12-30 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "itbi",
+    "planta_generica_valores",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o Imposto sobre Transmissão “inter vivos”, a qualquer título por ato oneroso, de bens imóveis, por natureza ou acessão física, e de direitos reais sobre imóveis, exceto os de garantia, bem como cessão de direitos à sua aquisição, e dá outras providências."
+}

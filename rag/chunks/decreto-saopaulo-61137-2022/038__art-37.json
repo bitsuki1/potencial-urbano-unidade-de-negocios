@@ -1,0 +1,47 @@
+{
+  "chunk_id": "decreto-saopaulo-61137-2022::038-art-37",
+  "lei_id": "decreto-saopaulo-61137-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 37",
+  "numero": "37",
+  "header_raw": "Art. 37. Constatado o desatendimento das obrigações e exigências legais, a operadora ou a detentora ficarão sujeitas às seguintes medidas:",
+  "caminho_hierarquico": [
+    "CAPÍTULO IV",
+    "Art. 37"
+  ],
+  "texto": "Art. 37. Constatado o desatendimento das obrigações e exigências legais, a operadora ou a detentora ficarão sujeitas às seguintes medidas:\n\nI - no caso de ERB previamente licenciada e de ERB móvel ou mini ERB previamente cadastrados:\n\na) intimação para remoção ou regularização no prazo de 30 (trinta) dias, contado da data do seu recebimento;\n\nb) não atendida a intimação de que trata a alínea “a” deste inciso, nova intimação para a retirada da instalação no prazo de 30 (trinta) dias, contado da data do seu recebimento, com a concomitante aplicação de multa no valor estipulado no inciso III do caput deste artigo;\n\nII - no caso de ERB, ERB móvel ou mini ERB instalada sem o prévio alvará ou do cadastro tratado nesta Lei:\n\na) intimação para remoção ou regularização no prazo de 30 (trinta) dias, contado da data do seu recebimento, com a concomitante aplicação de multa no valor estipulado no inciso III do “caput” deste artigo;\n\nb) não atendida a intimação de que trata a alínea “a” deste inciso, nova intimação para a retirada da instalação ou do equipamento no prazo de 30 (trinta) dias, contado da data do seu recebimento, com a concomitante aplicação de multa no valor estipulado no inciso III do caput deste artigo;\n\nIII - observado o previsto nos incisos I e II do caput deste artigo, a operadora ou detentora ficarão sujeitas à aplicação de multa no valor de R$ 10.000,00 (dez mil reais).\n\n§ 1º Os valores mencionados no inciso III do caput deste artigo serão atualizados anualmente pelo IPCA, do IBGE, ou por outro índice que vier a substituí-lo.\n\n§ 2º A multa será renovável a cada 30 (trinta) dias, enquanto perdurarem as irregularidades.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 61.137/2022 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO IV › Art. 37",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-61137-de-10-de-marco-de-2022",
+    "vigencia": {
+      "inicio": "2022-03-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2022-03-10 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 17.733, de 11 de janeiro de 2022, que dispõe sobre a instalação de Estação Radio Base – ERB, Mini ERB e ERB Móvel no Município de São Paulo."
+}

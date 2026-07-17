@@ -1,0 +1,53 @@
+{
+  "chunk_id": "decreto-saopaulo-59886-2020::028-art-27",
+  "lei_id": "decreto-saopaulo-59886-2020",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 27",
+  "numero": "27",
+  "header_raw": "Art. 27. Ato do Secretário Municipal de Desenvolvimento Urbano definirá as condições da aplicação do previsto no artigo16 da Lei nº 12.349, de 1997, com a nova redação dada pelo art. 382, § 3º da Lei nº 16.050, de 2014 (PDE).",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção IV",
+    "Art. 27"
+  ],
+  "texto": "Art. 27. Ato do Secretário Municipal de Desenvolvimento Urbano definirá as condições da aplicação do previsto no artigo16 da Lei nº 12.349, de 1997, com a nova redação dada pelo art. 382, § 3º da Lei nº 16.050, de 2014 (PDE).\n\nCAPÍTULO III\n\nDO PROCEDIMENTO",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 59.886/2020 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção IV › Art. 27",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59886-de-4-de-novembro-de-2020",
+    "vigencia": {
+      "inicio": "2020-11-04",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2020-11-04. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Consolida a disciplina específica de uso e ocupação do solo para os Empreendimentos de Habitação de Interesse Social – EHIS e Empreendimentos em ZEIS - EZEIS a serem executados nas áreas das Operações Urbanas Consorciadas Água Espraiada, Faria Lima e Água Branca e na Operação Urbana Centro."
+}

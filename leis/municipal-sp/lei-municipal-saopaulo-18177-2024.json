@@ -1,0 +1,117 @@
+{
+  "id": "lei-municipal-saopaulo-18177-2024",
+  "tipo_norma": "lei_ordinaria",
+  "esfera": "municipal",
+  "jurisdicao": "São Paulo/SP",
+  "numero": "18.177",
+  "ano": 2024,
+  "ementa": "Compatibiliza a redação do art. 2º da Lei nº 18.081, de 19 de janeiro de 2024, para tornar expressa a metodologia aplicada ao MAPA I, adequa legendas do MAPA I e a redação de outros dispositivos constantes da Lei nº 18.081, de 2024.",
+  "tema": [
+    "coeficiente_aproveitamento",
+    "plano_intervencao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "habitacao_interesse_social"
+  ],
+  "dispositivos_chave": [
+    "Art. 1º A presente Lei compatibiliza a redação do art. 2º da Lei nº 18.081, de 19 de janeiro de 2024, para tornar expressa a met",
+    "Art. 2º O art. 2º da Lei nº 18.081, de 2024, passa a vigorar com a seguinte redação:",
+    "Art. 3º O art. 3º da Lei nº 18.081, de 2024, passa a vigorar com a seguinte redação:",
+    "Art. 4º O art. 33 da Lei nº 18.081, de 19 de janeiro de 2024, passa a vigorar com a seguinte redação:",
+    "Art. 5º O art. 38 da Lei nº 18.081, de 2024, passa a vigorar com a seguinte redação:",
+    "Art. 6º O art. 42 da Lei nº 18.081, de 19 de janeiro de 2024, passa a vigorar com a seguinte redação:",
+    "Art. 7º O art. 73 da Lei nº 18.081, de 2024, passa a vigorar com a seguinte redação:",
+    "Art. 8º As zonas definidas para cada lote do município são aquelas definidas pelo MAPA 1 anexo a esta Lei.",
+    "Art. 9º Fica alterada a redação do art. 176 da Lei n. 16.402, de 2016, passando a vigorar com a seguinte redação:",
+    "Art. 10 . Fica reenquadrado o zoneamento da área AOPM (Clubes dos Oficiais da Polícia Militar – na Zona Norte), adequando-a no t",
+    "Art. 11 . Fica alterada a classificação da zona de uso do lote 0001 da quadra fiscal 062 do setor fiscal 246 passando a ser clas",
+    "Art. 12 . Fica transformada a Rua Professor José H. Teixeira, 1060/1090-ZC em ZEIS-5, Setor 171, Quadra 071, Lote 02337.",
+    "Art. 13 . Fica demarcado como ZEU a Quadra 083 do Setor 037 localizado na Subprefeitura da Vila Mariana.",
+    "Art. 14 . (VETADO)",
+    "Art. 15 . Ficam demarcados os Lotes 0140-1, 0141-8 e 0142-6 da Quadra 053, Setor 088, localizados na Subprefeitura de Santo Amar",
+    "Art. 16 . Fica demarcada a Quadra 188, Setor 178, localizada na Subprefeitura de Capela do Socorro como Zona de Uso ZEUa.",
+    "Art. 17 . Fica demarcado o Lote 0006-4, da Quadra 006, Setor 262, localizado na Subprefeitura de Capela do Socorro como Zona de",
+    "Art. 18 . (VETADO)",
+    "Art. 19 . Fica transformada a Avenida Sousa Castelhanos – ZEIS-5 em ZMa, Setor 151, Quadras 090, 091, 092.",
+    "Art. 20 . Fica transformada Rua Dianópolis, 1278 – ZEIS-5 em ZPI-1, Setor 032, Quadra 199, Lote 0019-4.",
+    "Art. 21 . (VETADO)",
+    "Art. 22 . (VETADO)",
+    "Art. 23 . (VETADO)",
+    "Art. 24 . Fica transformada ZDE em ZEM: área com frente para a Avenida Otaviano Alves de Lima, 4.400 – Setor 104, Quadra 178, Lo",
+    "Art. 25 . Fica transformada ZEIS-2 em ZEIS-5: área com frente para Rua Almirante Delamare, - Setor 050, Quadra 220, Lote 0141-1."
+  ],
+  "vigencia": {
+    "inicio": "2024-07-25",
+    "fim": null,
+    "em_vigor": true,
+    "altera": [],
+    "alterada_por": [],
+    "revogada_por": null,
+    "observacao": "Texto consolidado vigente do portal oficial (captura 2026-07-13); em vigor desde 2024-07-25. Sem auto-revogacao/suspensao. Metadados por scaffold (extracao pura); revisao fina pendente."
+  },
+  "remissoes": [
+    {
+      "norma": "LEI Nº 18.177",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei n.",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 16.050, de 2014",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 16.402",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 17.975, de 2023",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 18.081",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 18.081, de 2024",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 18081, de 2024",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 399/24",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 7.662",
+      "relacao": "citada no texto (detectada automaticamente)"
+    }
+  ],
+  "jurisprudencia_relacionada": [],
+  "tem_tabela": true,
+  "tabelas_extraidas": [],
+  "tem_formula": false,
+  "formulas_referenciadas": [],
+  "fonte": {
+    "origem": "Portal oficial (legislacao.prefeitura.sp.gov.br)",
+    "path": "_entrada/misto/lei-municipal-saopaulo-18177-2024.txt",
+    "url": "https://legislacao.prefeitura.sp.gov.br/lei-18177-de-25-de-julho-de-2024",
+    "hash": "sha256:94e7dc97ed508b434f1587e9839fbb904201f60edd54f2a1de454405aa154382",
+    "hash_nota_fonte": "sha256 do HTML bruto do portal capturado 2026-07-13",
+    "ocr": false,
+    "metodo": "VERBATIM INTEGRAL (portal oficial, texto compilado); captura portal oficial legislacao.prefeitura.sp.gov.br (container texto_compilado); promovido de _entrada/misto/",
+    "hash_alvo": "_entrada/misto/lei-municipal-saopaulo-18177-2024.txt",
+    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior."
+  },
+  "status_pipeline": "indexado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "dominio_primario": "tdc",
+  "dominio": [
+    "tdc"
+  ]
+}

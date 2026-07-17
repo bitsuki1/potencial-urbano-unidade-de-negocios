@@ -1,0 +1,51 @@
+{
+  "chunk_id": "decreto-saopaulo-59886-2020::021-art-20",
+  "lei_id": "decreto-saopaulo-59886-2020",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 20",
+  "numero": "20",
+  "header_raw": "Art. 20. Nos empreendimentos de EZEIS e EHIS, independentemente das características físicas ou topográficas do lote, o nível do pavimento térreo das edificações deverá ser fixado, em todos os casos, no máximo, 1m (um metro) acima ou abaixo da cota média das testadas do lote.",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção III",
+    "Art. 20"
+  ],
+  "texto": "Art. 20. Nos empreendimentos de EZEIS e EHIS, independentemente das características físicas ou topográficas do lote, o nível do pavimento térreo das edificações deverá ser fixado, em todos os casos, no máximo, 1m (um metro) acima ou abaixo da cota média das testadas do lote.\n\nParágrafo único. Para terrenos onde as variações de cota da testada superar 2m (dois metros), o nível de pavimento térreo poderá ser fixado em qualquer cota entre a máxima e a mínima.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 59.886/2020 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção III › Art. 20",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59886-de-4-de-novembro-de-2020",
+    "vigencia": {
+      "inicio": "2020-11-04",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2020-11-04. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Consolida a disciplina específica de uso e ocupação do solo para os Empreendimentos de Habitação de Interesse Social – EHIS e Empreendimentos em ZEIS - EZEIS a serem executados nas áreas das Operações Urbanas Consorciadas Água Espraiada, Faria Lima e Água Branca e na Operação Urbana Centro."
+}

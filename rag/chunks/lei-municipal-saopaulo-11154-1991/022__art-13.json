@@ -1,0 +1,46 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-11154-1991::022-art-13",
+  "lei_id": "lei-municipal-saopaulo-11154-1991",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 13",
+  "numero": "13",
+  "header_raw": "Art. 13 – Na arrematação, adjudicação ou remição o imposto será pago dentro de 15 (quinze) dias desses atos, antes da assinatura da respectiva carta e mesmo que essa não seja extraída.",
+  "caminho_hierarquico": [
+    "CAPÍTULO IV",
+    "Art. 13"
+  ],
+  "texto": "Art. 13 – Na arrematação, adjudicação ou remição o imposto será pago dentro de 15 (quinze) dias desses atos, antes da assinatura da respectiva carta e mesmo que essa não seja extraída.\n\nParágrafo único – Caso oferecidos embargos, o prazo será de 10 (dez) dias, a contar do trânsito em julgado da sentença que os rejeitar.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 11.154/1991 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO IV › Art. 13",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-11154-de-30-de-dezembro-de-1991",
+    "vigencia": {
+      "inicio": "1991-12-30",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 1991-12-30 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "itbi",
+    "planta_generica_valores",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o Imposto sobre Transmissão “inter vivos”, a qualquer título por ato oneroso, de bens imóveis, por natureza ou acessão física, e de direitos reais sobre imóveis, exceto os de garantia, bem como cessão de direitos à sua aquisição, e dá outras providências."
+}

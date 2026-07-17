@@ -1,0 +1,165 @@
+{
+  "id": "decreto-saopaulo-63504-2024",
+  "tipo_norma": "decreto",
+  "esfera": "municipal",
+  "jurisdicao": "São Paulo/SP",
+  "numero": "63.504",
+  "ano": 2024,
+  "ementa": "Regulamenta a Outorga Onerosa do Direito de Construir, nos termos da Lei nº 16.050, de 31 de julho de 2014, alterada pela Lei nº 17.975, de 8 de julho de 2023, e da Lei nº 16.402, de 22 de março de 2016, alterada pela Lei nº 18.081, de 19 de janeiro de 2024, e dá outras providências.",
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "plano_intervencao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao",
+    "habitacao_interesse_social",
+    "potencial_construtivo"
+  ],
+  "dispositivos_chave": [
+    "Art. 1º Este decreto regulamenta o regime geral da Outorga Onerosa do Direito de Construir - OODC, nos termos da Lei nº 16.050,",
+    "Art. 2º O potencial construtivo adicional por OODC será requerido ao órgão competente pela análise do licenciamento nos pedidos",
+    "Art. 3º O cálculo do valor da contrapartida financeira por metro quadrado relativo à OODC será efetuado conforme a equação estab",
+    "Art. 4º Para fins de atendimento da cota parte máxima de terreno por unidade habitacional – Q, do projeto serão consideradas tod",
+    "Art. 5º Para fins de aplicação do § 9º do artigo 79 da Lei nº 16.050, de 2014 - PDE, quando a cota parte máxima -Q de terreno po",
+    "Art. 6º O potencial construtivo adicional a ser adquirido corresponde à diferença entre o potencial construtivo utilizado e o po",
+    "Art. 7º A contrapartida financeira total relativa à OODC deverá ser calculada pelo somatório do produto da contrapartida finance",
+    "Art. 8º Para determinação da área construída computável e para o cálculo da contrapartida relativa à OODC, o acréscimo de 20% (v",
+    "Art. 9º Para fins de definição do quadro de áreas do projeto e, por consequência, do cálculo da contrapartida relativa à OODC, s",
+    "Art. 10 . O acréscimo de áreas computáveis relativas ao incentivo previsto no artigo 82-A e artigo 133 do PDE, deverá ser calcul",
+    "Art. 11 . Qualquer alteração, mesmo que parcial, no Fp ou no Fs em relação ao projeto anteriormente licenciado, nos pedidos de r",
+    "Art. 12 . Nos pedidos de projeto modificativo para o qual já tenha havido cobrança de outorga onerosa, nos termos do disposto no",
+    "Art. 13 . Nos casos de reformas com ou sem aumento de área construída aplicam-se os seguintes regramentos:",
+    "Art. 14 . Para fins de aplicação do disposto no inciso II do § 6º do artigo 117 do PDE e no artigo 6º da Lei nº 18.081, de 2024,",
+    "Art. 15 . A regularização de edificações existentes de que trata o § 2º do artigo 115 do PDE será:",
+    "Art. 16 . A possibilidade de manutenção dos índices e taxas prevista no § 10 do artigo 117 do PDE, aplica-se apenas aos casos de",
+    "Art. 17 . Nos pedidos de desmembramento ou reparcelamento de lote edificado deverão ser observadas as seguintes condições:",
+    "Art. 18 . Quando o licenciamento de que trata o artigo 2º deste decreto estiver em condições de deferimento, a divisão técnica d",
+    "Art. 19 . A contrapartida financeira relativa à OODC poderá ser paga à vista ou em até 10 (dez) parcelas mensais e sucessivas, m",
+    "Art. 20 . A aquisição do potencial construtivo adicional poderá ser realizada mediante Certidão de Transferência de Potencial Co",
+    "Art. 21 . Constatado o não pagamento de quaisquer parcelas referentes ao Termo de Compromisso de Pagamento Parcelado da Contrapa",
+    "Art. 22 . A comprovação do pagamento da contrapartida financeira relativa à OODC será efetuada por meio do Relatório de Pagament",
+    "Art. 23 . Todos os valores recolhidos da contrapartida financeira relativa à outorga onerosa do direito de construir deverão ser",
+    "Art. 24 . Quando for constatado o descumprimento da destinação ou uso da edificação que motivou a utilização do Fs e Fp no cálcu",
+    "Art. 25 . Para fins de monitoramento da aplicação da OODC no Município de São Paulo, os sistemas de licenciamento da Prefeitura"
+  ],
+  "vigencia": {
+    "inicio": "2024-06-14",
+    "fim": null,
+    "em_vigor": true,
+    "altera": [],
+    "alterada_por": [],
+    "revogada_por": null,
+    "observacao": "Regime GERAL da Outorga Onerosa do Direito de Construir (OODC), regulamentando o art. 117 do PDE (Lei 16.050/2014, red. Lei 17.975/2023) e a LPUOS (Lei 16.402/2016, red. Lei 18.081/2024). Em vigor desde 14/06/2024; sem auto-revogacao/suspensao. NAO se aplica dentro de OUC (leis proprias) nem, salvo no que couber, em AIU. Fonte-norma da formula C=(At/Ac)·V·Fp·Fs auditada nos engines."
+  },
+  "remissoes": [
+    {
+      "norma": "DECRETO Nº 63.504",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 44.703",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 56.089",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 57.521",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 57.547",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 11.536",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 13.430, de 2002",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 13.703",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 14.242",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 15.526",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 16.050",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 16.050, de 2014",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 16.402",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 16.642",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 16.642, de 2017",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 17.975",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 17.975, de 2023",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 18.081",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 18.081, de 2023",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 18.081, de 2024",
+      "relacao": "citada no texto (detectada automaticamente)"
+    }
+  ],
+  "jurisprudencia_relacionada": [],
+  "tem_tabela": true,
+  "tabelas_extraidas": [],
+  "tem_formula": true,
+  "formulas_referenciadas": [
+    "engines/tdc/art128.py (contrapartida OODC C=(At/Ac)·V·Fp·Fs)",
+    "engines/tdc/oodc.py"
+  ],
+  "fonte": {
+    "origem": "Portal oficial (legislacao.prefeitura.sp.gov.br)",
+    "path": "_entrada/misto/decreto-saopaulo-63504-2024.txt",
+    "url": "https://legislacao.prefeitura.sp.gov.br/decreto-63504-de-14-de-junho-de-2024",
+    "hash": "sha256:19fb77343fd730ac082ed8c92b81cc17f306d91f540f979a45f284fe76450e3b",
+    "hash_nota_fonte": "sha256 do HTML bruto do portal capturado 2026-07-13",
+    "ocr": false,
+    "metodo": "VERBATIM INTEGRAL (portal oficial, texto compilado); captura portal oficial legislacao.prefeitura.sp.gov.br (container texto_compilado); promovido de _entrada/misto/",
+    "hash_alvo": "_entrada/misto/decreto-saopaulo-63504-2024.txt",
+    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior."
+  },
+  "status_pipeline": "indexado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "dominio_primario": "tdc",
+  "dominio": [
+    "tdc"
+  ]
+}

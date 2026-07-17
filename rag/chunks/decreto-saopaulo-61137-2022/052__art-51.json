@@ -1,0 +1,47 @@
+{
+  "chunk_id": "decreto-saopaulo-61137-2022::052-art-51",
+  "lei_id": "decreto-saopaulo-61137-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 51",
+  "numero": "51",
+  "header_raw": "Art. 51. Este decreto entrará em vigor na data de sua publicação, revogado o Decreto nº 44.944, de 30 de junho de 2004, e os artigos 15 a 27 do Decreto nº 59.682, de 11 de agosto de 2020.",
+  "caminho_hierarquico": [
+    "CAPÍTULO VIII",
+    "Art. 51"
+  ],
+  "texto": "Art. 51. Este decreto entrará em vigor na data de sua publicação, revogado o Decreto nº 44.944, de 30 de junho de 2004, e os artigos 15 a 27 do Decreto nº 59.682, de 11 de agosto de 2020.\n\nPREFEITURA DO MUNICÍPIO DE SÃO PAULO, em 10 de março de 2022, 469º da Fundação de São Paulo.\n\nRICARDO NUNES, PREFEITO\n\nEDUARDO DE CASTRO, Secretário Municipal do Verde e do Meio Ambiente\n\nALEXANDRE MODONEZI, Secretário Municipal das Subprefeituras\n\nJOSÉ RICARDO ALVARENGA TRIPOLI, Secretário Municipal da Casa Civil\n\nEUNICE APARECIDA DE JESUS PRUDENTE, Secretária Municipal de Justiça\n\nRUBENS NAMAN RIZEK JUNIOR, Secretário de Governo Municipal\n\nPublicado na Secretaria de Governo Municipal, em 10 de março de 2022.\n\nEste texto não substitui o original publicado no Diário Oficial da Cidade de São Paulo.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 61.137/2022 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO VIII › Art. 51",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-61137-de-10-de-marco-de-2022",
+    "vigencia": {
+      "inicio": "2022-03-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2022-03-10 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 17.733, de 11 de janeiro de 2022, que dispõe sobre a instalação de Estação Radio Base – ERB, Mini ERB e ERB Móvel no Município de São Paulo."
+}

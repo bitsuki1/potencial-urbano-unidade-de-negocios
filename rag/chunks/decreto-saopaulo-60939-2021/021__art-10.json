@@ -1,0 +1,48 @@
+{
+  "chunk_id": "decreto-saopaulo-60939-2021::021-art-10",
+  "lei_id": "decreto-saopaulo-60939-2021",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 10",
+  "numero": "10",
+  "header_raw": "Art. 10. A transação, em quaisquer de suas modalidades, poderá contemplar os seguintes benefícios, aplicados isolada ou cumulativamente sobre os débitos consolidados na forma do art. 9º-A deste decreto:(Redação dada pelo Decreto nº 62.936/2023)",
+  "caminho_hierarquico": [
+    "CAPÍTULO II-A",
+    "Art. 10"
+  ],
+  "texto": "Art. 10. A transação, em quaisquer de suas modalidades, poderá contemplar os seguintes benefícios, aplicados isolada ou cumulativamente sobre os débitos consolidados na forma do art. 9º-A deste decreto:(Redação dada pelo Decreto nº 62.936/2023)\n\nI - concessão de descontos em multas e juros;(Redação dada pelo Decreto nº 62.936/2023)\n\nII - concessão de parcelamento;(Redação dada pelo Decreto nº 62.936/2023)\n\nIII - oferecimento de prazos e formas de pagamento especiais, incluídos o diferimento e a moratória;(Redação dada pelo Decreto nº 62.936/2023)\n\nIV - o oferecimento, a substituição ou a alienação de garantias e de constrições.(Redação dada pelo Decreto nº 62.936/2023)\n\nV - flexibilização de regras para aceitação, avaliação, substituição e liberação de garantias;(Revogado pelo Decreto nº 62.936/2023)\n\nVI - flexibilização de regras para constrição ou alienação de bens.(Revogado pelo Decreto nº 62.936/2023)\n\nParágrafo único. Os limites e condições para os acordos e transações serão fixados pela Procuradoria Geral do Município, ouvido o Comitê de Desjudicilização, e deverão ser progressivos, conforme os seguintes critérios:\n\nI - a diminuição da perspectiva de recuperação dos débitos inscritos em dívida ativa, estimada de acordo os seguintes parâmetros, aplicados isolada ou cumulativamente:\n\na) o tempo em cobrança;\n\nb) a suficiência e a liquidez das garantias associadas aos débitos inscritos;\n\nc) a existência de parcelamentos ativos;\n\nd) a perspectiva de êxito das estratégias administrativas e judiciais de cobrança;\n\ne) o custo da cobrança judicial;\n\nf) o histórico de parcelamentos dos débitos inscritos;\n\ng) a situação econômica e a capacidade de pagamento do sujeito passivo;\n\nII – a diminuição do lapso temporal para o equacionamento das dívidas transacionadas.\n\n§ 1º Os descontos referidos no inciso I do caput deste artigo observarão o limite máximo de 95% (noventa e cinco por cento).(Redação dada pelo Decreto nº 62.936/2023)\n\n§ 2º Os benefícios previstos nos incisos II e III do caput deste artigo observarão o prazo máximo de 120 (cento e vinte) meses para a quitação dos débitos transacionados.(Incluído pelo Decreto nº 62.936/2023)\n\n§ 3º Na hipótese do benefício a ser concedido na transação configurar-se em parcelamento, diferimento ou moratória, ao valor, por ocasião do pagamento de cada parcela pelo devedor serão acrescido juros equivalentes à taxa referencial do Sistema Especial de Liquidação e de Custódia – SELIC, acumulada mensalmente, calculados a partir do mês subsequente ao da formalização do requerimento até o mês anterior ao do pagamento, e de 1% (um por cento) relativamente ao mês em que o pagamento estiver sendo efetuado.(Incluído pelo Decreto nº 62.936/2023)\n\n§ 4º Se a transação envolver parcelamento:(Incluído pelo Decreto nº 62.936/2023)\n\nI - ato específico do Procurador Geral do Município estabelecerá o valor mínimo da prestação;(Incluído pelo Decreto nº 62.936/2023)\n\nII - o valor das custas devidas ao Estado em face da cobrança judicial dos débitos deverá ser recolhido integralmente, juntamente com a primeira prestação.(Incluído pelo Decreto nº 62.936/2023)\n\n§ 5º Excepcionalmente, mediante ato específico do Procurador Geral do Município, por razões de força maior, a transação poderá envolver desconto sobre o valor principal atualizado dos débitos inscritos em dívida ativa classificados como irrecuperáveis ou de difícil recuperação, desde que, com a aplicação dos descontos em multas e juros, não resulte em redução superior a 65% (sessenta e cinco por cento) do valor total dos créditos a serem transacionados.(Incluído pelo Decreto nº 62.936/2023)\n\n§ 6º Na transação, quando os débitos não estiverem ajuizados, os mesmos descontos incidentes sobre as multas deverão ser aplicados sobre a verba honorária.(Incluído pelo Decreto nº 62.936/2023)\n\n§ 7º Na transação, poderão ser aceitas quaisquer modalidades de garantia previstas em lei, inclusive garantias reais ou fidejussórias, seguro garantia, cessão fiduciária de direitos creditórios, alienação fiduciária de bens imóveis, bem como créditos líquidos e certos do contribuinte em desfavor do Município, reconhecidos em decisão transitada em julgado.(Incluído pelo Decreto nº 62.936/2023)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "2023",
+    "norma_redacao": "Decreto nº 62.936/2023"
+  },
+  "citacao": {
+    "norma": "decreto nº 60.939/2021 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II-A › Art. 10",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-60939-de-23-de-dezembro-de-2021",
+    "vigencia": {
+      "inicio": "2021-12-23",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2021-12-23 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "itbi"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Política Municipal de Desjudicialização instituída pela Lei nº 17.324, de 18 de março de 2020, bem como regulamenta a transação tributária de que trata os artigos 21 a 24 da Lei nº 17.719, de 26 de novembro de 2021."
+}

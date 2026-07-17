@@ -80,6 +80,16 @@
       "data_base": "2025-12-29",
       "fonte_legal": "Decreto 64.884/2025, Art. 3º (atualiza o valor de referência do Art. 127 §1º IV/V da Lei 16.050/2014)",
       "nota": "Limiar do Fi de parque por vintage: 2014=R$2.000,00 (Lei 16.050/2014 c/c Lei 17.975/2023); 2026=R$2.352,06 (Dec. 64.884/2025 Art. 3º). Verbatim no cabecalho do CSV. OP-1c (PU 19)."
+    },
+    "q14-reajuste-anual.csv": {
+      "data_base": "2025-12-29",
+      "fonte_legal": "Decretos 59.166/2019 (+2%), 62.135/2022 (+5%), 63.108/2023 (+5%), 63.999/2024 (+4,5%), 64.884/2025 (+7,18%), Art. 1º de cada — reajuste do Quadro 14 (Cadastro de Valor de Terreno para Outorga) da Lei 16.050/2014",
+      "nota": "Fator ACUMULADO que leva a base 2014 (q14-valor-terreno.csv) ao VTcd/V VIGENTE de cada exercicio. Lido por engines/tdc/art128.py (vtcd_vigente/fator_reajuste_q14). Fatores: 2020-22=1,02; 2023=1,071; 2024=1,12455; 2025=1,17515475; 2026=1,259530861. PROVA: base 3.106,00 (SQL 001003) x 1,12455 = 3.492,85 = valor nominal oficial Portaria SMUL 19/2024. Verbatim no cabecalho do CSV. Caca-ganhos (PU 19)."
+    },
+    "iptu-isencao-faixa.csv": {
+      "data_base": "2026-01-01",
+      "fonte_legal": "Lei 18.330/2025 Art. 2º (vintage 2026: 150k/260k) e Lei 17.719/2021 Art. 2º (vintage 2022: 120k/230k)",
+      "nota": "Faixas de isencao do Imposto Predial por vintage (I: isencao total; II: residencial A/B/C tipos 1/2). Input do isencao_iptu() no engine."
     }
   }
 }

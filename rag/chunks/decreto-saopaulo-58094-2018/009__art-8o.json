@@ -1,0 +1,46 @@
+{
+  "chunk_id": "decreto-saopaulo-58094-2018::009-art-8o",
+  "lei_id": "decreto-saopaulo-58094-2018",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 8º",
+  "numero": "8",
+  "header_raw": "Art. 8º Deverão ser exigidas por intermédio de Intimação para Execução de Obras e Serviços – IEOS, as obras que sejam necessárias na edificação para viabilizar a instalação do heliponto ou para o atendimento da acessibilidade.",
+  "caminho_hierarquico": [
+    "Art. 8º"
+  ],
+  "texto": "Art. 8º Deverão ser exigidas por intermédio de Intimação para Execução de Obras e Serviços – IEOS, as obras que sejam necessárias na edificação para viabilizar a instalação do heliponto ou para o atendimento da acessibilidade.\n\n§ 1º A Intimação para Execução de Obras e Serviços – IEOS terá prazo de até 180 (cento e oitenta) dias, que poderá ser prorrogado por igual período, a pedido do interessado, quando houver motivo devidamente justificado.\n\n§ 2º O pedido inicial será indeferido caso não haja o atendimento à IEOS no prazo concedido.\n\n§ 3º Nas instalações do heliponto deverá ser atendida a acessibilidade, salvo nas hipóteses de impraticabilidade técnica, situação em que deverá ser proposto projeto de adaptação razoável.\n\nI - entende-se por adaptações razoáveis as adaptações, modificações e ajustes necessários e adequados que não acarretem ônus desproporcional e indevido, quando requeridos em cada caso. O ônus desproporcional caracteriza-se pela impraticabilidade de atendimento à determinação de adaptação da edificação, nos termos do item 3.1.24 da NBR 9050, ou norma técnica que a suceder;\n\nII - como justificativa da impraticabilidade do atendimento à determinação de adaptação da edificação, deverá ser apresentado memorial justificativo das obras propostas, assinado pelo proprietário e pelo responsável técnico pelo projeto, acompanhado da anotação técnica perante o Conselho da categoria.\n\nDO AUTO DE LICENÇA DE FUNCIONAMENTO",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 58.094/2018 — São Paulo/SP",
+    "dispositivo": "Art. 8º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-58094-de-21-de-fevereiro-de-2018",
+    "vigencia": {
+      "inicio": "2018-02-21",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2018-02-21 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 15.723, de 24 de abril de 2013, no tocante à instalação e ao funcionamento de heliportos e helipontos no Município de São Paulo."
+}

@@ -1,0 +1,51 @@
+{
+  "chunk_id": "decreto-saopaulo-64018-2025::010-art-9o",
+  "lei_id": "decreto-saopaulo-64018-2025",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 9º",
+  "numero": "9",
+  "header_raw": "Art. 9º Cada distribuição de Certificados de Potencial Adicional de Construção – CEPAC da Operação Urbana Consorciada Bairros do Tamanduateí estará diretamente vinculada a uma ou mais Propostas de Diretrizes de Investimento – PDI.",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Art. 9º"
+  ],
+  "texto": "Art. 9º Cada distribuição de Certificados de Potencial Adicional de Construção – CEPAC da Operação Urbana Consorciada Bairros do Tamanduateí estará diretamente vinculada a uma ou mais Propostas de Diretrizes de Investimento – PDI.\n\n§ 1º A emissão e a distribuição de CEPAC fica condicionada à existência de saldo de metros quadrados de construção estabelecidos no Quadro 4 da Lei nº 18.079, de 2024, ou por alocação de estoque da Reserva Técnica pela São Paulo Urbanismo – SP-Urbanismo.\n\n§ 2º Poderão ocorrer novas distribuições de CEPAC até o total mencionado no artigo 2º deste decreto e, caso não sejam suficientes para custear todas as intervenções previstas em lei, o Suplemento ao Prospecto da distribuição de que trata a Resolução nº 84, de 31 de março de 2022, ou aquela que vier a substituí-la, da Comissão de Valores Mobiliários - CVM, deverá indicar como serão suportadas as despesas faltantes.\n\n§ 3º Os recursos obtidos com a venda dos CEPAC, bem como os recursos obtidos por meio de operações de crédito em que tais certificados tenham sido oferecidos em garantia, destinam-se ao Programa de Intervenções, poderão ser utilizados para o pagamento, dentre outras, de despesas relacionadas a:\n\nI - desapropriações, amigáveis ou judiciais;\n\nII - obras;\n\nIII - serviços de apoio técnico e gerencial;\n\nIV - desenvolvimento de estudos e projetos;\n\nV - despesas indenizatórias;\n\nVI - contrapartidas em ajustes realizados com o setor público ou privado;\n\nVII - remuneração da SP-Urbanismo pelos serviços executados no exercício das atribuições de coordenação da Operação Urbana;\n\nVIII - disponibilização de assessoria técnica e jurídica gratuita à população com renda de até 6 (seis) salários mínimos atingidas diretamente pelo Programa de Intervenções constante na Lei nº 18.079, de 2024.\n\n§ 4º A utilização, nos termos do § 3º deste artigo, dos recursos obtidos pela venda dos CEPAC deverá estar diretamente relacionada com a implementação da Proposta de Diretrizes de Investimento que fundamentou a distribuição, sendo expressamente vedada a utilização em outra intervenção, salvo na hipótese prevista no § 5º deste artigo.\n\n§ 5º Caso tenha sido concluída a Proposta de Diretrizes de Investimento e remanesçam recursos obtidos com a alienação de CEPAC no mercado, tais recursos poderão ser transferidos para o custeio de outra Proposta de Diretrizes de Investimento da Operação Urbana Consorciada Bairros do Tamanduateí, sendo vedada sua utilização para qualquer outro fim.\n\n§ 6º Somente serão distribuídos CEPAC para custeio de novas intervenções no âmbito da Operação Urbana Consorciada Bairros do Tamanduateí nas seguintes hipóteses:\n\nI - quando for concluída a Proposta de Diretrizes de Investimento que ensejou a distribuição;\n\nII - ter sido esgotada a distribuição de CEPAC previamente aprovada;\n\nIII - terem sido captados, comprovadamente, os recursos necessários para a conclusão da Proposta de Diretrizes de Investimento objeto da distribuição anterior.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 64.018/2025 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Art. 9º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-64018-de-30-de-janeiro-de-2025",
+    "vigencia": {
+      "inicio": "2025-01-30",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2025-01-30. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 18.079, de 11 de janeiro de 2024, aprovou o Projeto de Intervenção Urbana para o perímetro do Arco Tamanduateí, em atendimento ao inciso I do § 3º do artigo 76 da Lei nº 16.050, de 31 de julho de 2014; instituiu a Operação Urbana Consorciada Bairros do Tamanduateí e definiu parâmetros de uso e ocupação do solo para o território e o correspondente Programa de Intervenções."
+}

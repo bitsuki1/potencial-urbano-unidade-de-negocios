@@ -1,0 +1,51 @@
+{
+  "chunk_id": "decreto-saopaulo-59164-2019::014-art-13",
+  "lei_id": "decreto-saopaulo-59164-2019",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 13",
+  "numero": "13",
+  "header_raw": "Art. 13. Para os imóveis de uso residencial, nas categorias R, R1 e R2h, com área total de até 500 m², enquadradas nos incisos I, II e III do “caput”, do artigo 11, deste decreto, o procedimento será o declaratório simplificado, mediante a apresentação dos seguintes documentos:",
+  "caminho_hierarquico": [
+    "CAPÍTULO VI",
+    "Art. 13"
+  ],
+  "texto": "Art. 13. Para os imóveis de uso residencial, nas categorias R, R1 e R2h, com área total de até 500 m², enquadradas nos incisos I, II e III do “caput”, do artigo 11, deste decreto, o procedimento será o declaratório simplificado, mediante a apresentação dos seguintes documentos:\n\nI - requerimento por meio eletrônico, em formulário específico, totalmente preenchido, contendo declaração do proprietário ou possuidor ou responsável pelo uso responsabilizando-se, sob as penas legais, pela veracidade das informações e pelo atendimento dos requisitos previstos neste decreto;\n\nII - comprovantes dos seguintes recolhimentos:\n\na) preço público;\n\nb) taxa específica para pedido de Certificado de Regularização pelo procedimento declaratório, relativa à área a ser regularizada, no valor R$ 10,00 (dez reais) por metro quadrado, exceto para os empreendimentos de HIS e HMP;\n\nc) comprovante do recolhimento inicial do Imposto sobre Serviços de Qualquer Natureza - ISS, relativo à área a ser regularizada, citado no artigo 23 deste decreto;\n\nIII - cópia da transcrição ou matrícula do imóvel, e, quando o requerente for possuidor, cópia de documento que o legitime, por meio de escritura, compromisso ou promessa de compra e venda ou cessão de direitos, decisão judicial reconhecendo o direito de usucapião, entre outros documentos que comprovem sua origem perante o Registro de Imóveis;\n\nIV - peças gráficas simplificadas, compostas de plantas, cortes da edificação e quadro de áreas, observadas as normas em vigor de padronização de projeto de acordo com a Lei n° 16.642, de 2017, e as disposições do capítulo 6, seções 6.A a 6.H, da Portaria 221/SMUL-G/2017, devendo constar na folha de rosto no mínimo a seguintes informações:\n\na) declaração, sob as penas da lei, que a planta apresentada representa fielmente as dimensões do terreno e a edificação existente no local em 31 de Julho de 2014;\n\nb) o uso da edificação, bem como a sua atividade principal, conforme Decreto nº 45.817, de 2005;\n\nc) quadro de áreas resumido, indicando as áreas a serem regularizadas e existentes regulares, por pavimento, se for o caso.\n\n§ 1º As peças gráficas a que se refere o inciso IV, do “caput” deste artigo deverão ser elaboradas e apresentadas por profissional habilitado e inscrito no Cadastro de Contribuinte Mobiliário - CCM.\n\n§ 2º No procedimento declaratório simplificado não se admite a emissão de comunicado.\n\n§ 3º No caso do procedimento declaratório simplificado, as peças gráficas constante do inciso IV, do “caput” deste artigo, não serão chanceladas e ficarão depositadas para futuras conferências, caso haja necessidade, sendo emitido apenas o Certificado de Regularização do Imóvel.\n\n§ 4º As edificações que não se enquadrarem no procedimento declaratório simplificado deverão seguir o procedimento comum previsto no artigo 15 deste decreto.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 59.164/2019 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO VI › Art. 13",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59164-de-27-de-dezembro-de-2019",
+    "vigencia": {
+      "inicio": "2019-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2019-12-27. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 17.202, de 16 de outubro de 2019, que dispõe sobre a regularização de edificações, condicionada, quando necessário, à realização de obras, nos termos da previsão do art. 367 do Plano Diretor Estratégico."
+}

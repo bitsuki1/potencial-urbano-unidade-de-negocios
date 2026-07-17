@@ -64,6 +64,10 @@ COMPARTILHADO = {
     "lei-municipal-saopaulo-17577-2021":
         "Requalifica Centro: Art. 11 ZEPEC-BIR pode requisitar TDC E Art. 16 remissão/isenção IPTU "
         "progressiva (3+5 anos). Serve aos dois domínios (P3).",
+    "lei-federal-10257-2001":
+        "Estatuto da Cidade (regulamenta arts. 182/183 da CF) — base FEDERAL dos instrumentos: OODC "
+        "(arts. 28-31) e TDC (art. 35) DO lado urbanístico E IPTU progressivo no tempo (art. 7) DO lado "
+        "tributário. Serve aos DOIS domínios (compartilhado). Ingerido do Planalto 2026-07-13.",
 }
 # --- TDC puro: efeito exclusivo de potencial construtivo. Hoje VAZIO em leis/ — a massa normativa TDC
 # (Decreto 57.536/2016, decretos ZEPEC/CONPRESP) ainda não foi ingerida; entrará marcada 'tdc'. ---
@@ -84,6 +88,32 @@ TDC = {
     "lei-municipal-saopaulo-18222-2024":
         "PIU Arco Pinheiros — cria AIU-ACP com potencial construtivo adicional de 1.150.000 m² (Art. 23), "
         "CA máximo 6,0, transferência de potencial construtivo (Arts. 42-43). Efeito dominante é TDC/potencial.",
+    "lei-municipal-saopaulo-18298-2025":
+        "Revisão da Lei 18.222/2024 (PIU/AIU Arco Pinheiros) para a ZOE-Butantan — parâmetros urbanísticos "
+        "(CA, TO, gabarito, potencial), mapas e Quadro 3A do PIU. Segue o domínio da lei-mãe 18.222 (TDC). "
+        "Arts. 3-5 (multas/posturas da LPUOS) com eficácia suspensa por ADI. Ingerida do portal 2026-07-13 (gap).",
+    "decreto-saopaulo-63999-2024":
+        "Atualiza o Quadro 14 (Cadastro de Valor de Terreno p/ Outorga Onerosa, anexo à Lei 16.050/2014) em "
+        "+4,5% (art. 118 do PDE) e o valor de referência do incentivo de TDC para parques (art. 127) para "
+        "R$ 2.194,50/m². Fonte-norma da série de reajuste do engine (art128/oodc). Efeito TDC/outorga. Portal 2026-07-13.",
+    "decreto-saopaulo-58176-2018":
+        "Altera o § 1º do art. 20 do Decreto 57.536/2016 (regulamento da TDC sem doação) e disciplina a "
+        "transferência de potencial construtivo sob o art. 15 §1 da LPUOS. TDC puro. Ingerido do portal 2026-07-13.",
+    # --- Lote TDC ingerido do portal 2026-07-13 (11 normas urbanísticas; scaffold + revisão de vigência). ---
+    "decreto-saopaulo-58955-2019": "Decreto APROVA RÁPIDO (licenciamento urbanístico) — potencial/CA no rito de aprovação. Efeito urbanístico/TDC.",
+    "decreto-saopaulo-57565-2016": "Regulamenta a aplicação da Quota Ambiental (LPUOS 16.402/2016) — parâmetro de ocupação/potencial. TDC/urbanístico.",
+    "decreto-saopaulo-59164-2019": "Regulamenta a Lei 17.202/2019 (regularização) — fórmula de outorga/potencial construtivo. Efeito dominante TDC.",
+    "decreto-saopaulo-59886-2020": "Consolida a disciplina de uso e ocupação do solo p/ empreendimentos — parâmetros urbanísticos/potencial. TDC.",
+    "decreto-saopaulo-58028-2017": "Decreto APROVA RÁPIDO (licenciamento) — rito de aprovação com potencial/CA. Efeito urbanístico/TDC.",
+    "decreto-saopaulo-63437-2024": "Equivalência entre subcategorias de uso das leis de zoneamento (LPUOS) — parâmetro de uso. TDC/urbanístico.",
+    "decreto-saopaulo-64018-2025": "Regulamenta a Lei 18.079/2024 (Projeto de Intervenção Urbana) — PIU/potencial construtivo. Efeito TDC.",
+    "lei-municipal-saopaulo-17217-2019": "Revoga parcialmente planos de melhoramentos viários — afeta perímetros/zoneamento urbanístico. TDC/urbanístico.",
+    "lei-municipal-saopaulo-17734-2022": "Regulamenta procedimentos urbanísticos (uso/ocupação/potencial) no Município. Efeito TDC/urbanístico.",
+    "lei-municipal-saopaulo-18209-2024": "Altera o mapa 2 (art. 383 da LPUOS 16.402/2016) — zoneamento/potencial. Efeito TDC/urbanístico.",
+    "decreto-saopaulo-63728-2024": "Estabelece disciplina de parcelamento, uso e ocupação do solo — parâmetros urbanísticos/potencial. TDC.",
+    "decreto-saopaulo-63504-2024": "Regime GERAL da Outorga Onerosa do Direito de Construir (OODC) — regulamenta o art. 117 do PDE; fonte-norma da fórmula C=(At/Ac)·V·Fp·Fs dos engines. TDC puro.",
+    "decreto-saopaulo-64884-2025": "Atualiza o Quadro 14 (+7,18%, exercício 2026) e o incentivo de TDC p/ parques (R$ 2.352,06/m²). Fecha a série vintage do engine. TDC/outorga.",
+    "lei-municipal-saopaulo-18177-2024": "Lei urbanística municipal (uso/ocupação/potencial) ingerida do portal 2026-07-13. Efeito TDC/urbanístico.",
     # (mais massa normativa TDC — decretos ZEPEC/CONPRESP — entra quando ingerida; ver A-11)
     # --- Jurisprudência de TDC ingerida 2026-07-11 (B-21): efeito dominante é TDC (tombamento ×
     #     potencial construtivo; natureza compensatória; direito de protocolo; base do "solo criado"),

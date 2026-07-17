@@ -1,0 +1,48 @@
+{
+  "chunk_id": "decreto-saopaulo-60939-2021::024-art-11",
+  "lei_id": "decreto-saopaulo-60939-2021",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 11",
+  "numero": "11",
+  "header_raw": "Art. 11. O deferimento da transação, em quaisquer de suas modalidades, fica condicionado ao atendimento dos seguintes requisitos:(Redação dada pelo Decreto nº 62.936/2023)",
+  "caminho_hierarquico": [
+    "CAPÍTULO II-A",
+    "Art. 11"
+  ],
+  "texto": "Art. 11. O deferimento da transação, em quaisquer de suas modalidades, fica condicionado ao atendimento dos seguintes requisitos:(Redação dada pelo Decreto nº 62.936/2023)\n\nI – pagamento da primeira parcela, caso tenha por objeto o parcelamento dos débitos inscritos;\n\nII – pagamento do valor consolidado dos débitos com a aplicação das reduções na data da adesão ou apresentação da proposta de acordo ou transação, caso seu objeto envolva apenas a aplicação de descontos;\n\nIII - caso haja depósitos judiciais e extrajudiciais em dinheiro para garantir os débitos inscritos que constituam objeto do acordo ou da transação:\n\na) expressa autorização conferida ao Município pelo devedor para levantar os valores depositados, os quais serão aplicados para o pagamento dos débitos, procedendo-se o acordo ou transação pelo saldo remanescente, quando houver;\n\nb) informação ao juízo competente, pelo interessado, de que autorizou a Municipalidade a levantar os valores depositados, na forma prevista na alínea “a” deste inciso, por meio de petição instruída com prova documental, no prazo máximo de 5 (cinco) dias corridos, contados da adesão ou apresentação de proposta de acordo ou transação.\n\nIV – desistência dos embargos à execução ou de outras ações antiexacionais relativas aos débitos inscritos que constituam objeto do acordo ou transação, inclusive as coletivas, bem como renúncia ao direito sobre o qual se fundam, devendo o interessado apresentar, para tanto, requerimento de extinção dos respectivos processos com resolução de mérito, nos termos da alínea “c” do inciso III do caput do artigo 487 da Lei Federal nº 13.105, de 16 de março de 2015, no prazo de 60 (sessenta) dias, contados da adesão ou apresentação de proposta de acordo ou transação;\n\nV - recolhimento dos encargos da cobrança judicial e extrajudicial incidentes sobre os débitos inscritos que constituam objeto do acordo ou transação.\n\nII – pagamento do valor consolidado dos débitos com a aplicação das reduções na data da adesão ou apresentação da proposta de transação, caso seu objeto envolva apenas a aplicação de descontos;(Redação dada pelo Decreto nº 62.936/2023)\n\nIII - caso haja depósitos judiciais e extrajudiciais em dinheiro para garantir os débitos inscritos que constituam objeto da transação:(Redação dada pelo Decreto nº 62.936/2023)\n\na) expressa autorização conferida ao Município pelo devedor para levantar os valores depositados, os quais serão aplicados para o pagamento dos débitos, procedendo-se a transação pelo saldo remanescente, quando houver;(Redação dada pelo Decreto nº 62.936/2023)\n\nb) informação ao juízo competente, pelo interessado, de que autorizou a Municipalidade a levantar os valores depositados, na forma prevista na alínea “a” deste inciso, por meio de petição instruída com prova documental, no prazo máximo de 5 (cinco) dias corridos, contados da adesão ou apresentação de proposta de transação;(Redação dada pelo Decreto nº 62.936/2023)\n\nIV - desistência dos embargos à execução ou de outras ações antiexacionais relativas aos débitos inscritos que constituam objeto da transação, inclusive as coletivas, bem como renúncia ao direito sobre o qual se fundam, devendo o interessado apresentar, para tanto, requerimento de extinção dos respectivos processos com resolução de mérito, nos termos da alínea “c” do inciso III do caput do artigo 487 da Lei Federal nº 13.105, de 2015, no prazo de 60 (sessenta) dias corridos contados da adesão, em caso de proposta de transação formulada pela Procuradoria Geral do Município, ou do ato de deferimento de transação individual proposta pelo devedor, devendo ainda, no mesmo prazo, proceder ao recolhimento das respectivas custas e despesas processuais;(Redação dada pelo Decreto nº 62.936/2023)\n\nV - recolhimento dos encargos da cobrança judicial e extrajudicial incidentes sobre os débitos inscritos que constituam objeto da transação.(Redação dada pelo Decreto nº 62.936/2023)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "2023",
+    "norma_redacao": "Decreto nº 62.936/2023"
+  },
+  "citacao": {
+    "norma": "decreto nº 60.939/2021 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II-A › Art. 11",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-60939-de-23-de-dezembro-de-2021",
+    "vigencia": {
+      "inicio": "2021-12-23",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2021-12-23 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "itbi"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Política Municipal de Desjudicialização instituída pela Lei nº 17.324, de 18 de março de 2020, bem como regulamenta a transação tributária de que trata os artigos 21 a 24 da Lei nº 17.719, de 26 de novembro de 2021."
+}

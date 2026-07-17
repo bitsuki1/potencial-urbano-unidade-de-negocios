@@ -1,0 +1,119 @@
+{
+  "id": "decreto-saopaulo-58094-2018",
+  "tipo_norma": "decreto",
+  "esfera": "municipal",
+  "jurisdicao": "São Paulo/SP",
+  "numero": "58.094",
+  "ano": 2018,
+  "ementa": "Regulamenta a Lei nº 15.723, de 24 de abril de 2013, no tocante à instalação e ao funcionamento de heliportos e helipontos no Município de São Paulo.",
+  "tema": [
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao"
+  ],
+  "dispositivos_chave": [
+    "Art. 1º A instalação e o funcionamento de heliportos e helipontos no Município de São Paulo devem observar as regras previstas n",
+    "Art. 2º Para os efeitos deste decreto, além das definições constantes do artigo 2º da Lei nº 15.723, de 2013, consideram-se:",
+    "Art. 3º As instalações dos helipontos não serão consideradas áreas construídas ou edificadas para fins de aplicação do disposto",
+    "Art. 4º A instalação de heliponto e heliporto depende da emissão de Alvará de Instalação, a ser expedido pela Prefeitura, a pedi",
+    "Art. 5º O requerimento para o Alvará de Instalação de heliponto deve ser assinado pelo responsável pela instalação e protocolado",
+    "Art. 6º O requerimento para o Alvará de Instalação de heliporto deve ser assinado pelo responsável pelo equipamento e instruído",
+    "Art. 7º A emissão do Alvará de Instalação de heliponto ou heliporto dependerá de parecer favorável da Câmara Técnica de Legislaç",
+    "Art. 8º Deverão ser exigidas por intermédio de Intimação para Execução de Obras e Serviços – IEOS, as obras que sejam necessária",
+    "Art. 9º O funcionamento e operação de heliponto e heliporto depende da prévia emissão de Auto de Licença de Funcionamento.",
+    "Art. 10 . No caso de heliponto ou heliporto aprovado no mesmo alvará que licenciou a edificação antes de 23 de outubro de 2009,",
+    "Art. 11 . Para o heliponto que obteve parecer favorável da CNLU ou da CTLU antes de 23 de outubro de 2009, porém não conste das",
+    "Art. 12 . No caso de heliponto instalado em edificação e que não tenha sido aprovado nem licenciada sua instalação, deve ser sol",
+    "Art. 13 . O licenciamento ambiental dos helipontos deverá ser analisado e decidido pela Secretaria Municipal do Verde e do Meio",
+    "Art. 14 . Para a expedição do Alvará de Instalação de heliponto ou heliporto, bem como do Auto de Licença de Funcionamento e sua",
+    "Art. 15 . O Auto de Licença de Funcionamento emitido anteriormente à Lei nº 15.723, de 2013, não perde a sua eficácia, devendo s",
+    "Art. 16 . O cadastro de helipontos e heliportos licenciados deve ser elaborado e divulgado pela Secretaria Municipal de Urbanism",
+    "Art. 17 . Compete às Prefeituras Regionais a fiscalização dos helipontos e heliportos.",
+    "Art. 18 . Todas as irregularidades decorrentes da inobservância das normas estabelecidas na Lei nº 15.723, de 2013, implicam na",
+    "Art. 19 . As disposições deste decreto aplicam-se também aos pedidos protocolados anteriormente a 25 de abril de 2013, data de e",
+    "Art. 20 . Este decreto entrará em vigor na data da sua publicação, revogado o Decreto nº 56.941, de 19 de abril de 2016."
+  ],
+  "vigencia": {
+    "inicio": "2018-02-21",
+    "fim": null,
+    "em_vigor": true,
+    "altera": [],
+    "alterada_por": [],
+    "revogada_por": null,
+    "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2018-02-21 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+  },
+  "remissoes": [
+    {
+      "norma": "DECRETO Nº 58.094",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto n.",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto n° 57.378",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 54.421",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 56.941",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei Federal nº 9.605, de 1998",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 14.141",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 15.723",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 15.723, de 2013",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 16.050",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 16.051",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 16.402",
+      "relacao": "citada no texto (detectada automaticamente)"
+    }
+  ],
+  "jurisprudencia_relacionada": [],
+  "tem_tabela": true,
+  "tabelas_extraidas": [],
+  "tem_formula": false,
+  "formulas_referenciadas": [],
+  "fonte": {
+    "origem": "Portal oficial (legislacao.prefeitura.sp.gov.br)",
+    "path": "_entrada/misto/decreto-saopaulo-58094-2018.txt",
+    "url": "https://legislacao.prefeitura.sp.gov.br/decreto-58094-de-21-de-fevereiro-de-2018",
+    "hash": "sha256:21194d14b85ffa8aebcb989bb596001a5fae9d00607a9b31168fc43823bfe078",
+    "hash_nota_fonte": "sha256 do HTML bruto do portal capturado 2026-07-13",
+    "ocr": false,
+    "metodo": "VERBATIM INTEGRAL (portal oficial, texto compilado); captura portal oficial legislacao.prefeitura.sp.gov.br (container texto_compilado); promovido de _entrada/misto/",
+    "hash_alvo": "_entrada/misto/decreto-saopaulo-58094-2018.txt",
+    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior."
+  },
+  "status_pipeline": "indexado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "dominio_primario": "iptu",
+  "dominio": [
+    "iptu"
+  ]
+}

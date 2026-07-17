@@ -1,0 +1,52 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17734-2022::017-art-16",
+  "lei_id": "lei-municipal-saopaulo-17734-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 16",
+  "numero": "16",
+  "header_raw": "Art. 16. O procedimento da Reurb deverá observar as seguintes fases:",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção I",
+    "Art. 16"
+  ],
+  "texto": "Art. 16. O procedimento da Reurb deverá observar as seguintes fases:\n\nI - requerimento do legitimado;\n\nII - autuação do processo administrativo;\n\nIII - análise preliminar com emissão de documento de diretrizes e prazo para cumprimento;\n\nIV - análise para a classificação em Reurb-S ou Reurb-E, ou indeferimento;\n\nV - análise de mérito e elaboração dos elementos técnicos;\n\nVI - notificação dos proprietários, dos confrontantes e eventuais terceiros interessados, conforme previsto nesta Lei;\n\nVII - elaboração do Projeto de Regularização Fundiária;\n\nVIII - elaboração do estudo técnico ambiental com emissão de parecer sobre a viabilidade da regularização, exclusivamente nos casos de núcleos com incidência ambiental;\n\nIX - saneamento do processo, com emissão de “comunique-se”, se for o caso;\n\nX - despacho do órgão competente pela Reurb, autorizando ou indeferindo a emissão da CRF, nos termos do parágrafo único deste artigo;\n\nXI - expedição da CRF pelo órgão competente pela Reurb, acompanhada da listagem de titulação, se for o caso;\n\nXII - registro da CRF junto ao Oficial de Registro de Imóveis competente;\n\nXIII - notificação do legitimado da Reurb-E para retirar e protocolizar a CRF perante o Oficial de Registro de Imóveis competente;\n\nXIV - despacho declarando o cumprimento do Termo de Compromisso de Execução de Obras, quando houver, acompanhado de laudo de vistoria.\n\nParágrafo único. O despacho previsto no inciso X do caput deste artigo conterá:\n\nI - declaração de que as notificações dos proprietários, confrontantes e terceiros interessados foram realizadas;\n\nII - indicação da necessidade ou não da execução de obras;\n\nIII - aprovação da constituição dos direitos reais em favor dos beneficiários, se for o caso;\n\nIV - determinação da expedição ou indeferimento da CRF.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.734/2022 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção I › Art. 16",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17734-de-11-de-janeiro-de-2022",
+    "vigencia": {
+      "inicio": "2022-01-11",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2022-01-11. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "itbi",
+    "planta_generica_valores",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta, no âmbito do Município de São Paulo, os procedimentos aplicáveis à Regularização Fundiária, de acordo com a Lei Federal nº 13.465, de 11 de julho de 2017, e o Decreto Federal nº 9.310, de 2018, e dá outras providências."
+}

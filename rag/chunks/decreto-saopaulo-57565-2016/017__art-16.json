@@ -1,0 +1,45 @@
+{
+  "chunk_id": "decreto-saopaulo-57565-2016::017-art-16",
+  "lei_id": "decreto-saopaulo-57565-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 16",
+  "numero": "16",
+  "header_raw": "Art. 16. As certificações que serão aceitas para fins de comprovação do Incentivo de Certificação previsto no artigo 83 da Lei nº 16.402, de 2016, bem como os graus de certificação e respectivos fatores de certificação, são aquelas previstos em ato específico a ser expedido pela Secretaria Municipal de Desenvolvimento Urbano - SMDU. Parágrafo único. O ato a que se refere o “caput” deste artigo deverá dispor sobre:",
+  "caminho_hierarquico": [
+    "CAPÍTULO II INCENTIVO DE CERTIFICAÇÃO",
+    "Art. 16"
+  ],
+  "texto": "Art. 16. As certificações que serão aceitas para fins de comprovação do Incentivo de Certificação previsto no artigo 83 da Lei nº 16.402, de 2016, bem como os graus de certificação e respectivos fatores de certificação, são aquelas previstos em ato específico a ser expedido pela Secretaria Municipal de Desenvolvimento Urbano - SMDU. Parágrafo único. O ato a que se refere o “caput” deste artigo deverá dispor sobre:\n\nI - a denominação das certificações, etiquetagens, selos e demais documentos aceitos para fins de aplicação do Incentivo de Certificação;\n\nII - o documento a ser apresentado para solicitação do incentivo para cada tipo de certificação, tais como contratos, dossiês, etiquetas, dentre outros;\n\nIII - o documento a ser apresentado após a emissão do Certificado de Conclusão da edificação para fins de comprovação do disposto no § 2º do artigo 83 da Lei nº 16.402, de 2016, tais como certificados, ofícios, etiquetas, dentre outros;\n\nIV - os valores dos fatores de certificação (FC), conforme o grau de certificação para cada certificado, selo, etiqueta ou outro tipo de documento a ser utilizado para fins de aplicação do Incentivo de Certificação, respeitando os limites mínimo e máximo estabelecido no §5º do artigo 83 da Lei nº 16.402, de 2016.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.565/2016 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II INCENTIVO DE CERTIFICAÇÃO › Art. 16",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57565-de-27-de-dezembro-de-2016",
+    "vigencia": {
+      "inicio": "2016-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2016-12-27. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "quota_ambiental"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta procedimentos para a aplicação da Quota Ambiental, nos termos da Lei nº 16.402, de 22 de março de 2016."
+}

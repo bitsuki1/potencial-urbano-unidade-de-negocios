@@ -1,0 +1,43 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-13698-2003::011-art-7o",
+  "lei_id": "lei-municipal-saopaulo-13698-2003",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 7º",
+  "numero": "7",
+  "header_raw": "Art. 7º - O parágrafo 3º do artigo 19 da Lei nº 6.989, de 29 de dezembro de 1966, passa a vigorar com a seguinte redação:",
+  "caminho_hierarquico": [
+    "Art. 7º"
+  ],
+  "texto": "Art. 7º - O parágrafo 3º do artigo 19 da Lei nº 6.989, de 29 de dezembro de 1966, passa a vigorar com a seguinte redação:\n\n\"Art. 19 - ..............................................................\n\n§ 3º - Será concedido desconto de 8,5% (oito e meio por cento) sobre o imposto que for pago de uma só vez, até o vencimento normal da primeira prestação.\" (NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 13.698/2003 — São Paulo/SP",
+    "dispositivo": "Art. 7º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-13698-de-24-de-dezembro-de-2003",
+    "vigencia": {
+      "inicio": "2003-12-24",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2003-12-24 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "planta_generica_valores"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o Imposto Predial e Territorial Urbano - IPTU e altera a Lei nº 6.989, de 29 de dezembro de 1966."
+}

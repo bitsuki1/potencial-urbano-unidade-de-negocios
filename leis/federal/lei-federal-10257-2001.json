@@ -1,0 +1,90 @@
+{
+  "id": "lei-federal-10257-2001",
+  "tipo_norma": "lei_ordinaria",
+  "esfera": "federal",
+  "jurisdicao": "Brasil",
+  "numero": "10.257",
+  "ano": 2001,
+  "ementa": "Regulamenta os arts. 182 e 183 da Constituição Federal, estabelece diretrizes gerais da política urbana e dá outras providências. (Estatuto da Cidade)",
+  "tema": [
+    "politica_urbana",
+    "estatuto_da_cidade",
+    "plano_diretor",
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "parcelamento_edificacao_compulsorios",
+    "iptu_progressivo_tempo",
+    "operacao_urbana_consorciada",
+    "direito_preempcao",
+    "potencial_construtivo"
+  ],
+  "dispositivos_chave": [
+    "Art. 2: diretrizes gerais da politica urbana (funcao social da cidade e da propriedade)",
+    "Art. 4: instrumentos da politica urbana (rol)",
+    "Arts. 5-6: parcelamento, edificacao ou utilizacao compulsorios do solo urbano nao edificado/subutilizado",
+    "Art. 7: IPTU progressivo no tempo (aliquota majorada por 5 anos, teto 15%) - base do IPTU-sancao (compartilhado)",
+    "Art. 8: desapropriacao com pagamento em titulos da divida publica",
+    "Arts. 25-27: direito de preempcao",
+    "Arts. 28-31: OUTORGA ONEROSA DO DIREITO DE CONSTRUIR (solo criado; contrapartida; art. 30 remete a lei municipal)",
+    "Arts. 32-34: operacoes urbanas consorciadas (CEPAC no art. 34)",
+    "Art. 35: TRANSFERENCIA DO DIREITO DE CONSTRUIR - base federal da TDC (imovel de interesse historico/ambiental/social; exercicio em outro local ou alienacao por escritura publica)",
+    "Arts. 39-42: plano diretor (obrigatorio p/ municipios; fundamento da OODC e da TDC municipais)"
+  ],
+  "vigencia": {
+    "inicio": "2001-07-10",
+    "fim": null,
+    "em_vigor": true,
+    "altera": [],
+    "alterada_por": [
+      "Diversas leis federais posteriores (ex.: Lei 12.836/2013, Lei 13.146/2015, Lei 14.118/2021) - texto consolidado do Planalto"
+    ],
+    "revogada_por": null,
+    "observacao": "Estatuto da Cidade - lei federal de normas gerais (arts. 182/183 da CF). Base FEDERAL dos instrumentos que a legislacao municipal de SP concretiza: OODC (arts. 28-31), TDC (art. 35), IPTU progressivo no tempo (art. 7). Texto consolidado do Planalto capturado em 2026-07-13; em vigor. dominio COMPARTILHADO (serve TDC e IPTU)."
+  },
+  "remissoes": [
+    {
+      "norma": "Constituicao Federal, arts. 182 e 183",
+      "relacao": "fundamento constitucional - o Estatuto regulamenta a politica urbana"
+    },
+    {
+      "norma": "Lei nº 16.050/2014 (PDE de Sao Paulo)",
+      "relacao": "concretizacao municipal - o PDE institui OODC (art. 117) e TDC (arts. 122-129) na forma do Estatuto"
+    },
+    {
+      "norma": "Lei nº 16.402/2016 (LPUOS de Sao Paulo)",
+      "relacao": "concretizacao municipal - parametros de uso/ocupacao"
+    }
+  ],
+  "jurisprudencia_relacionada": [
+    {
+      "referencia": "STF RE 387.047/SC e RE 226.942/SC",
+      "relacao": "solo criado / outorga onerosa nao e tributo - base constitucional do instrumento (art. 28-35)"
+    },
+    {
+      "referencia": "STJ AgRg no AREsp 179.340/SP",
+      "relacao": "TDC do art. 35 do Estatuto da Cidade em desapropriacao de imovel tombado"
+    }
+  ],
+  "tem_tabela": false,
+  "tabelas_extraidas": [],
+  "tem_formula": false,
+  "formulas_referenciadas": [],
+  "fonte": {
+    "origem": "Planalto (ccivil_03) - texto consolidado federal",
+    "path": "_entrada/misto/lei-federal-10257-2001.txt",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/leis_2001/l10257.htm",
+    "hash": "sha256:afabec7b43e12c85edaa1d1a61cf3b03ac71d9c28c121a2b2272eabc69b6a72e",
+    "hash_nota_fonte": "sha256 do HTML bruto do Planalto capturado em 2026-07-13",
+    "ocr": false,
+    "metodo": "VERBATIM INTEGRAL (portal oficial, texto compilado); captura Planalto (ccivil_03) latin-1; promovido de _entrada/misto/",
+    "hash_alvo": "_entrada/misto/lei-federal-10257-2001.txt",
+    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior."
+  },
+  "status_pipeline": "indexado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "dominio_primario": "compartilhado",
+  "dominio": [
+    "compartilhado"
+  ]
+}

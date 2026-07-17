@@ -1,0 +1,51 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17734-2022::072-art-71",
+  "lei_id": "lei-municipal-saopaulo-17734-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 71",
+  "numero": "71",
+  "header_raw": "Art. 71. Na eventual manifestação do Município para fins dos arts. 213, inciso II, ou 216-A, § 3º, da Lei Federal nº 6.015, de 31 de dezembro de 1973, serão observados os prazos neles estabelecidos, considerando-se como divisa do logradouro aquele efetivamente adotado na sua implantação, prevalecendo esse sobre o originalmente previsto na planta.",
+  "caminho_hierarquico": [
+    "CAPÍTULO VI",
+    "Art. 71"
+  ],
+  "texto": "Art. 71. Na eventual manifestação do Município para fins dos arts. 213, inciso II, ou 216-A, § 3º, da Lei Federal nº 6.015, de 31 de dezembro de 1973, serão observados os prazos neles estabelecidos, considerando-se como divisa do logradouro aquele efetivamente adotado na sua implantação, prevalecendo esse sobre o originalmente previsto na planta.\n\nParágrafo único. Em caso de aparente sobreposição de prédios objeto da Reurb, quando do confronto da planta apresentada com aquelas de posse da administração, em especial, se elaboradas com base em levantamentos aerofotogramétricos, deverão, previamente à manifestação do Município, ser realizadas diligências junto ao imóvel para a constatação da situação real, podendo ser aceitas, para tanto, as diligências e verificações feitas pelo Oficial de Registro de Imóveis nos termos dos arts. 213, § 12, e 216-A, § 15, da Lei Federal nº 6.015, de 31 de dezembro de 1973.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.734/2022 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO VI › Art. 71",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17734-de-11-de-janeiro-de-2022",
+    "vigencia": {
+      "inicio": "2022-01-11",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2022-01-11. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "itbi",
+    "planta_generica_valores",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta, no âmbito do Município de São Paulo, os procedimentos aplicáveis à Regularização Fundiária, de acordo com a Lei Federal nº 13.465, de 11 de julho de 2017, e o Decreto Federal nº 9.310, de 2018, e dá outras providências."
+}

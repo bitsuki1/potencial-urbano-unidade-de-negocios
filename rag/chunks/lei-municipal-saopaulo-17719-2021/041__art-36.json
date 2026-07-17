@@ -1,0 +1,51 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17719-2021::041-art-36",
+  "lei_id": "lei-municipal-saopaulo-17719-2021",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 36",
+  "numero": "36",
+  "header_raw": "Art. 36. Constituirão receitas do FEMATF:",
+  "caminho_hierarquico": [
+    "CAPÍTULO IV",
+    "Art. 36"
+  ],
+  "texto": "Art. 36. Constituirão receitas do FEMATF:\n\nI - 0,125% (cento e vinte e cinco milésimos por cento) do produto da arrecadação do Imposto Predial e Territorial Urbano – IPTU e do Imposto Sobre Serviços de Qualquer Natureza – ISS;\n\nI - 0,125% (cento e vinte e cinco milésimos por cento) do produto da arrecadação dos impostos de competência do Município, inclusive dos valores arrecadados ou recebidos pelo Município em decorrência das disposições do art. 156-A da Constituição Federal e dos arts. 124 a 132 do Ato das Disposições Constitucionais Transitórias;(Redação dada pela Lei nº 18.095/2024)\n\nI - 0,57% (cinquenta e sete centésimos de um por cento) do produto da arrecadação dos impostos de competência do Município, inclusive dos valores arrecadados ou recebidos pelo Município em decorrência das disposições do art. 156-A da Constituição Federal e dos arts. 124 a 132 do Ato das Disposições Constitucionais Transitórias; (Redação dada pelo Lei nº 18.330/2025)\n\nII - doações, auxílios, contribuições e legados que lhe venham a ser destinados;\n\nIII - contribuições dos governos e organismos nacionais, estrangeiros e internacionais;\n\nIV - outros recursos que lhe forem destinados por lei.\n\n§ 1º O valor das origens previstas no caput será apurado e repassado mensalmente ao FEMATF.\n\n§ 2º O saldo não comprometido do FEMATF que superar em 20% (vinte por cento) as despesas do Fundo no exercício será transferido, após o término do exercício, à conta única do Tesouro Municipal.\n\n§ 2º O superávit financeiro acumulado do FEMATF, apurado em balanço, que superar em 20% (vinte por cento) as despesas devidamente empenhadas no Fundo no exercício anterior, será transferido, até o encerramento do exercício seguinte, à conta única do Tesouro Municipal. (Redação dada pelo Lei nº 18.330/2025)\n\n§ 3º Os recursos referidos no caput são vinculados exclusivamente às atividades da Administração Tributária e da Administração Fazendária, nos termos do inciso IV do art. 167, combinado com os incisos XVIII e XXII do art. 37, todos da Constituição Federal.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "2024",
+    "norma_redacao": "Lei nº 18.095/2024"
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.719/2021 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO IV › Art. 36",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17719-de-26-de-novembro-de-2021",
+    "vigencia": {
+      "inicio": "2021-11-26",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+    }
+  },
+  "tema": [
+    "planta_generica_valores",
+    "valor_venal",
+    "imposto_predial",
+    "isencao_iptu",
+    "desconto_iptu",
+    "legislacao_tributaria"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre Planta Genérica de Valores, alterações na legislação tributária municipal, Contragarantias em Operações de Crédito e Fundo Especial para a Modernização da Administração Tributária e da Administração Fazendária no Município de São Paulo."
+}

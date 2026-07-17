@@ -1,0 +1,42 @@
+{
+  "chunk_id": "decreto-saopaulo-63437-2024::001-preambulo",
+  "lei_id": "decreto-saopaulo-63437-2024",
+  "tipo_dispositivo": "preambulo",
+  "rotulo": "Preâmbulo",
+  "numero": null,
+  "header_raw": null,
+  "caminho_hierarquico": [],
+  "texto": "DECRETO Nº 63.437 DE 23 DE MAIO DE 2024\n\nDECRETO Nº 63.437 de 23 de Maio de 2024\n\nDispõe sobre a equivalência entre as subcategorias de uso mencionadas nas leis específicas da Operações Urbanas Consorciadas Água Espraiada, Faria Lima e Água Branca e as subcategorias de uso instituídas e vigentes nos termos da Lei nº 16.402, de 22 de março de 2016.\n\nDECRETO Nº 63.437, DE 23 DE MAIO DE 2024\n\nDispõe sobre a equivalência entre as subcategorias de uso mencionadas nas leis específicas da Operações Urbanas Consorciadas Água Espraiada, Faria Lima e Água Branca e as subcategorias de uso instituídas e vigentes nos termos da Lei nº 16.402, de 22 de março de 2016.\n\nRICARDO NUNES, Prefeito do Município de São Paulo, no uso das atribuições que lhe são conferidas por lei,\n\nCONSIDERANDO que as leis relativas às Operações Urbanas Consorciadas que entraram em vigor em datas anteriores ao Plano Diretor Estratégico e à Lei de Uso e Ocupação do Solo vigentes, quais sejam, Lei nº 16.050, de 31 de julho de 2014 e Lei nº 16.402, de 2016;\n\nCONSIDERANDO que a Lei 16.402, de 2016, alterou a nomenclatura das subcategorias de uso em relação às disposições do Plano Diretor Estratégico e da Lei de Uso e Ocupação do Solo anterior, Leis nº 13.430, de 13 de setembro de 2002 e nº 13.885, de 25 de agosto de 2004, respectivamente,\n\nDECRETA:",
+  "citavel": false,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 63.437/2024 — São Paulo/SP",
+    "dispositivo": "Preâmbulo",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-63437-de-23-de-maio-de-2024",
+    "vigencia": {
+      "inicio": "2024-05-23",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2024-05-23. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "operacao_urbana",
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre a equivalência entre as subcategorias de uso mencionadas nas leis específicas da Operações Urbanas Consorciadas Água Espraiada, Faria Lima e Água Branca e as subcategorias de uso instituídas e vigentes nos termos da Lei nº 16.402, de 22 de março de 2016."
+}

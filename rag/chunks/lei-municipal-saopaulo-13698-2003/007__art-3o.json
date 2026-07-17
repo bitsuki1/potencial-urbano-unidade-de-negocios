@@ -1,0 +1,45 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-13698-2003::007-art-3o",
+  "lei_id": "lei-municipal-saopaulo-13698-2003",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 3º",
+  "numero": "3",
+  "header_raw": "Art. 3º . A partir do exercício de 2010, para fins de lançamento do Imposto Predial, fica concedido desconto de R$ 37.000,00 (trinta e sete mil reais) sobre o valor venal dos imóveis construídos, utilizados exclusiva ou predominantemente como residência, de Padrões A, B ou C, dos Tipos 1 ou 2 da Tabela V, anexa à Lei nº 10.235, de 16 de dezembro de 1986, e cujo valor venal correspondente, na data do fato gerador do imposto, seja superior a R$ 92.500,00 (noventa e dois mil e quinhentos reais) e igual ou inferior a R$185.000,00 (cento e oitenta e cinco mil reais).(Redação dada pela Lei nº 15.044/2009)(Revogado pela Lei nº 15.889/2013)",
+  "caminho_hierarquico": [
+    "Art. 3º"
+  ],
+  "texto": "Art. 3º . A partir do exercício de 2010, para fins de lançamento do Imposto Predial, fica concedido desconto de R$ 37.000,00 (trinta e sete mil reais) sobre o valor venal dos imóveis construídos, utilizados exclusiva ou predominantemente como residência, de Padrões A, B ou C, dos Tipos 1 ou 2 da Tabela V, anexa à Lei nº 10.235, de 16 de dezembro de 1986, e cujo valor venal correspondente, na data do fato gerador do imposto, seja superior a R$ 92.500,00 (noventa e dois mil e quinhentos reais) e igual ou inferior a R$185.000,00 (cento e oitenta e cinco mil reais).(Redação dada pela Lei nº 15.044/2009)(Revogado pela Lei nº 15.889/2013)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "2009",
+    "norma_redacao": "Lei nº 15.044/2009"
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 13.698/2003 — São Paulo/SP",
+    "dispositivo": "Art. 3º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-13698-de-24-de-dezembro-de-2003",
+    "vigencia": {
+      "inicio": "2003-12-24",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2003-12-24 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "planta_generica_valores"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o Imposto Predial e Territorial Urbano - IPTU e altera a Lei nº 6.989, de 29 de dezembro de 1966."
+}

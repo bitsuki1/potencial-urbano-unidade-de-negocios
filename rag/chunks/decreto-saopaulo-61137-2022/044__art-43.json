@@ -1,0 +1,47 @@
+{
+  "chunk_id": "decreto-saopaulo-61137-2022::044-art-43",
+  "lei_id": "decreto-saopaulo-61137-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 43",
+  "numero": "43",
+  "header_raw": "Art. 43. O limite máximo de emissão de radiação eletromagnética, considerada a soma das emissões de radiação de todos os sistemas transmissores em funcionamento em qualquer localidade do Município, será aquele estabelecido em legislação federal para exposição humana.",
+  "caminho_hierarquico": [
+    "CAPÍTULO VI",
+    "Art. 43"
+  ],
+  "texto": "Art. 43. O limite máximo de emissão de radiação eletromagnética, considerada a soma das emissões de radiação de todos os sistemas transmissores em funcionamento em qualquer localidade do Município, será aquele estabelecido em legislação federal para exposição humana.\n\nParágrafo único. Em se constatando indício de irregularidades quanto aos limites de exposição humana a campos elétricos, magnéticos e eletromagnéticos, deverá ser oficiado o órgão regulador federal de telecomunicações, nos moldes que determina o § 2º do art. 18 da Lei Federal nº 13.116, de 2015.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 61.137/2022 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO VI › Art. 43",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-61137-de-10-de-marco-de-2022",
+    "vigencia": {
+      "inicio": "2022-03-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2022-03-10 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 17.733, de 11 de janeiro de 2022, que dispõe sobre a instalação de Estação Radio Base – ERB, Mini ERB e ERB Móvel no Município de São Paulo."
+}

@@ -1,0 +1,51 @@
+{
+  "chunk_id": "decreto-saopaulo-59164-2019::022-art-21",
+  "lei_id": "decreto-saopaulo-59164-2019",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 21",
+  "numero": "21",
+  "header_raw": "Art. 21. A outorga onerosa para regularização de edificação não incidirá nos imóveis da categoria de uso nR, para o uso institucional e/ou prestadores de serviços sociais sem fins lucrativos, devendo ser apresentado 1 (um) dos seguintes documentos:",
+  "caminho_hierarquico": [
+    "CAPÍTULO X",
+    "Art. 21"
+  ],
+  "texto": "Art. 21. A outorga onerosa para regularização de edificação não incidirá nos imóveis da categoria de uso nR, para o uso institucional e/ou prestadores de serviços sociais sem fins lucrativos, devendo ser apresentado 1 (um) dos seguintes documentos:\n\nI - Contrato social da entidade e a última alteração contratual conjuntamente com o Certificado ou título jurídico de qualificação como Organizações da Sociedade Civil e Interesse Público – OSCIP, de acordo com a legislação específica regente da matéria nas esferas municipal, estadual ou federal;\n\nII - Contrato social da entidade e a última alteração contratual conjuntamente com o Certificado ou título jurídico de qualificação como Organizações Sociais – OS, de acordo com a legislação específica regente da matéria nas esferas municipal, estadual ou federal;\n\nIII - Contrato social da entidade e a última alteração contratual conjuntamente com o Certificado ou título jurídico de Utilidade Pública, de acordo com a legislação específica regente da matéria nas esferas municipal, estadual ou federal.\n\n§ 1º A não incidência de outorga onerosa prevista no “caput” deste artigo também abrangerá os imóveis próprios ou locados dos prestadores de serviços sociais sem fins lucrativos em parceria com o Poder Público na execução/gestão de serviços de Centro de Educação Infantil – CEI/Creches, bem como os imóveis próprios ou locados de uso religioso ou locais de culto.\n\n§ 2º Do Certificado de Regularização das edificações previstas no § 1º, deste artigo, deverá constar obrigatoriamente a seguinte ressalva: “A alteração do uso objeto do presente Certificado de Regularização somente poderá ocorrer com o pagamento da devida Outorga Onerosa da Lei nº 17.202, de 16 de outubro de 2019 e demais encargos previstos neste decreto”.\n\n§ 3º Quando houver necessidade de demolir a área excedente em relação ao coeficiente máximo da zona de uso e que ainda tenha incidência de outorga onerosa será aplicado o fator de regularização de 0,50 (cinco décimos) na formula prevista no § 1º, do artigo 20 deste decreto, exceto em Área de Preservação Permanente - APP onde o fator de regularização será 0 (zero), desde que:\n\na) Quando o interessado tiver apresentado proposta de demolição do excedente e tenha requerido a emissão Notificação de Exigências Complementares – NEC para este fim no pedido inicial, acompanhado de relatório fotográfico das áreas a serem demolidas;\n\nb) Após a execução da demolição, o interessado deverá apresentar relatório fotográfico comprovando a efetiva demolição objeto da Notificação de Exigências Complementares – NEC.\n\n§ 4º O não atendimento das alíneas “a” e “b” do § 3º deste artigo implicará o indeferimento do pedido de regularização.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 59.164/2019 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO X › Art. 21",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59164-de-27-de-dezembro-de-2019",
+    "vigencia": {
+      "inicio": "2019-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2019-12-27. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 17.202, de 16 de outubro de 2019, que dispõe sobre a regularização de edificações, condicionada, quando necessário, à realização de obras, nos termos da previsão do art. 367 do Plano Diretor Estratégico."
+}

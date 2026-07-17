@@ -1,0 +1,54 @@
+{
+  "chunk_id": "decreto-saopaulo-63728-2024::057-art-56",
+  "lei_id": "decreto-saopaulo-63728-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 56",
+  "numero": "56",
+  "header_raw": "Art. 56. Nos Projetos Modificativos para EHIS, EHMP e EZEIS, devem ser observadas as disposições previstas no artigo 27 do Código de Obras e Edificações – COE (Lei nº 16.642, de 9 de maio de 2017) e no artigo 21 do Decreto nº 57.776, de 7 de julho de 2017, com relação à:",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Seção I",
+    "Art. 56"
+  ],
+  "texto": "Art. 56. Nos Projetos Modificativos para EHIS, EHMP e EZEIS, devem ser observadas as disposições previstas no artigo 27 do Código de Obras e Edificações – COE (Lei nº 16.642, de 9 de maio de 2017) e no artigo 21 do Decreto nº 57.776, de 7 de julho de 2017, com relação à:\n\nI - alteração que importe acréscimo superior a 5% (cinco por cento) nas áreas computáveis;\n\nII - alteração que importe acréscimo superior a 5% (cinco por cento) nas áreas não computáveis;\n\nIII - alteração que importe acréscimo superior a 5% (cinco por cento) na taxa de ocupação.\n\n§ 1º Nos Projetos Modificativos para EHIS, EHMP e EZEIS, admite-se a alteração das atividades que compõem os empreendimentos, dentro dos 20% (vinte por cento) permitidos e da subcategoria de uso de EHIS para EHMP ou EHMP para EHIS, por se tratar de empreendimentos incentivados de interesse social, considerando como alteração de uso a mudança de uso residencial para não residencial ou de uso não residencial para residencial, conforme previsto na Resolução CEUSO nº 132/2018, ressalvada a necessidade de recolhimento de outorga onerosa, cota de solidariedade e outras, quando for o caso, vedada a devolução de eventuais valores e sem prejuízo do atendimento integral dos novos índices e parâmetros.\n\n§ 2º No caso de imóvel com licença para execução de obra em vigor, as alterações do projeto aprovado que não atendam ao disposto neste artigo, ou o licenciamento de aprovação e execução de novo projeto dependerão de prévio cancelamento do Alvará de Aprovação e Execução, Alvará de Execução ou Projeto Modificativo vigente para o local, conforme o caso, observadas as seguintes regras:\n\nI - o cancelamento deverá ser requerido por meio de pedido de apostilamento, mediante o qual será apreciado, decidido e, se o caso, registrado documentalmente;\n\nII - a obra correspondente ao alvará a ser cancelado não pode ter sido iniciada;\n\nIII - é vedado ao interessado requerer cancelamento de documento que já tenha sido efetivamente utilizado ou tenha produzido qualquer tipo de efeito, sendo de sua exclusiva responsabilidade as consequências advindas da não observância da referida vedação;\n\nIV - o novo pedido para aprovação e execução deverá observar, integralmente, a legislação vigente à época do novo protocolo.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 63.728/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO V › Seção I › Art. 56",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-63728-de-10-de-setembro-de-2024",
+    "vigencia": {
+      "inicio": "2024-09-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2024-09-10. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "plano_intervencao_urbana",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Estabelece disciplina específica de parcelamento, uso e ocupação do solo, bem como normas edilícias para Habitação de Interesse Social - HIS, Habitação de Mercado Popular - HMP, Empreendimento de Habitação de Interesse Social - EHIS, Empreendimento de Habitação de Mercado Popular - EHMP e Empreendimento em Zona Especial de Interesse Social - EZEIS, nos termos da Lei nº 16.050, de 31 de julho de 2014 - PDE, alterada e revisada pela Lei nº 17.975, de 08 de julho de 2023 e pela Lei nº 18.157, de 17 de julho de 2024, da Lei nº 16.402, de 22 de março de 2016 - LPUOS, alterada e revisada pela Lei nº 18.081, de 19 de janeiro de 2024 e pela Lei 18.177, de 25 de julho de 2024, bem como da Lei nº 16.642, de 09 de maio de 2017 - COE."
+}

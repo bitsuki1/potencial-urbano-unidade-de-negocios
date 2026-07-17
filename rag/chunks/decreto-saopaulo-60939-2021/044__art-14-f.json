@@ -1,0 +1,46 @@
+{
+  "chunk_id": "decreto-saopaulo-60939-2021::044-art-14-f",
+  "lei_id": "decreto-saopaulo-60939-2021",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 14-F",
+  "numero": "14-F",
+  "header_raw": "Art. 14-F Poderá́ ser autorizado o não ajuizamento de ações, o reconhecimento da procedência do pedido, a não interposição de recursos, o requerimento de extinção das ações em curso e a desistência dos recursos judiciais pendentes de julgamento:(Incluído pelo Decreto nº 62.936/2023)",
+  "caminho_hierarquico": [
+    "CAPÍTULO III-A",
+    "Art. 14-F"
+  ],
+  "texto": "Art. 14-F Poderá́ ser autorizado o não ajuizamento de ações, o reconhecimento da procedência do pedido, a não interposição de recursos, o requerimento de extinção das ações em curso e a desistência dos recursos judiciais pendentes de julgamento:(Incluído pelo Decreto nº 62.936/2023)\n\nI - pelo Procurador Geral do Município, diretamente ou mediante delegação, nas demandas em que a Administração Pública Municipal Direta, bem como as autarquias e fundações representadas judicialmente pela Procuradoria Geral do Município figurem como partes;(Incluído pelo Decreto nº 62.936/2023)\n\nII - pelo dirigente máximo das entidades de direito público, diretamente ou mediante delegação, nas demandas em que as autarquias e fundações não representadas judicialmente pela Procuradoria Geral do Município figurem como partes;(Incluído pelo Decreto nº 62.936/2023)\n\nIII - pelos dirigentes máximos das empresas públicas, sociedades de economia mista e suas subsidiárias, nas demandas em que essas entidades figurem como partes.(Incluído pelo Decreto nº 62.936/2023)\n\n§ 1º O Comitê de Desjudicialização disporá sobre as hipóteses em que a autorização prevista nos incisos II e III deste artigo exigirá, sob pena de nulidade, prévia e expressa anuência do Procurador Geral do Município.(Incluído pelo Decreto nº 62.936/2023)\n\n§ 2º A autorização nas hipóteses de que trata o inciso I do “caput” deste artigo vincula, desde sua concessão, a Administração Pública Municipal Direta, bem como as autarquias e fundações representadas judicialmente pela Procuradoria Geral do Município, que deverão adotar imediatamente as providências administrativas dela decorrentes.(Incluído pelo Decreto nº 62.936/2023)\n\nCAPÍTULO IV\n\nDA TRANSAÇÃO TRIBUTÁRIA COM ENTIDADES RELIGIOSAS E DE ENTIDADES EDUCACIONAIS SEM FINS LUCRATIVOS",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 60.939/2021 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III-A › Art. 14-F",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-60939-de-23-de-dezembro-de-2021",
+    "vigencia": {
+      "inicio": "2021-12-23",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2021-12-23 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "itbi"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Política Municipal de Desjudicialização instituída pela Lei nº 17.324, de 18 de março de 2020, bem como regulamenta a transação tributária de que trata os artigos 21 a 24 da Lei nº 17.719, de 26 de novembro de 2021."
+}

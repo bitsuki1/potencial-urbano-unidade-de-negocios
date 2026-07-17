@@ -1,0 +1,119 @@
+{
+  "id": "decreto-saopaulo-58955-2019",
+  "tipo_norma": "decreto",
+  "esfera": "municipal",
+  "jurisdicao": "São Paulo/SP",
+  "numero": "58.955",
+  "ano": 2019,
+  "ementa": "Dispõe sobre o procedimento APROVA RÁPIDO; revoga parcialmente o Decreto nº 58.028, de 11 de dezembro de 2017.",
+  "tema": [
+    "outorga_onerosa",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dispositivos_chave": [
+    "Art. 1º Fica disciplinado por este decreto o procedimento APROVA RÁPIDO, instituído pelo Decreto nº 58.028, de 11 de dezembro de",
+    "Art. 1º Fica disciplinado por este decreto o procedimento APROVA RÁPIDO, instituído pelo Decreto nº 58.028, de 11 de dezembro de",
+    "Art. 2º O Grupo Intersecretarial de Análise de Projetos Específicos no Município – GRAPROEM, criado pelo Decreto nº 58.028, de 2",
+    "Art. 3º O GRAPROEM será constituído por 1 (um) representante e respectivo suplente de cada um dos seguintes órgãos municipais:",
+    "Art. 4º O Comitê Gestor do APROVA RÁPIDO, integrado pelos titulares dos órgãos municipais relacionados no “caput” do artigo 3º d",
+    "Art. 5º A Assessoria de Comissões Técnicas de Licenciamento – ASSEC da SEL será responsável pela análise da admissibilidade dos",
+    "Art. 6º A implantação do procedimento APROVA RÁPIDO terá as seguintes fases:",
+    "Art. 7º O protocolo do pedido de aprovação de projeto arquitetônico com aplicação do procedimento APROVA RÁPIDO dar-se-á por sol",
+    "Art. 8º Caberá ao responsável técnico pelo projeto a verificação da situação cadastral do imóvel por meio da Ficha Técnica e a i",
+    "Art. 9º A ASSEC deverá realizar a análise de admissibilidade dos projetos com solicitação de aplicação do procedimento APROVA RÁ",
+    "Art. 10 . As reuniões do GRAPROEM serão realizadas de acordo com a demanda de processos e dos prazos estabelecidos no procedimen",
+    "Art. 11 . Respeitado o prazo de 60 (sessenta) dias, a ASSEC definirá a data da reunião para o exame do projeto, de forma integra",
+    "Art. 12 . No caso de parecer favorável unânime dos membros do GRAPROEM envolvidos na análise do projeto, recolhidas eventuais co",
+    "Art. 13 . No caso de parecer desfavorável do GRAPROEM, a Divisão Técnica da Coordenadoria expedirá o despacho de indeferimento,",
+    "Art. 14 . Se, em função das exigências municipais, for necessária manifestação de órgãos estaduais ou federais ou de Cartório de",
+    "Art. 15 . Caso identificada, a qualquer momento, questão que enseje dúvida de caráter técnico ou jurídico, o processo será encam",
+    "Art. 16 . A SEL deverá disponibilizar na página eletrônica da Prefeitura do Município de São Paulo, mensalmente, a relação dos p",
+    "Art. 17 . O pedido de licenciamento edilício aderente ao procedimento APROVA RÁPIDO que tenha sido considerado inadmissível nos",
+    "Art. 18 . Os prazos fixados neste decreto obedecerão ao critério de contagem e às instâncias estabelecidas no Código de Obras e",
+    "Art. 19 . Este decreto entrará em vigor na data de sua publicação, revogados os artigos 1º a 18 do Decreto nº 58.028, de 2017."
+  ],
+  "vigencia": {
+    "inicio": "2019-09-20",
+    "fim": null,
+    "em_vigor": true,
+    "altera": [],
+    "alterada_por": [],
+    "revogada_por": null,
+    "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2019-09-20. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+  },
+  "remissoes": [
+    {
+      "norma": "DECRETO Nº 58.955",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 54.202",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 57.377",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 57.521",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 57.776",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 58.028",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 59.455",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 63.728",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 16.402",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 16.402, de 2016",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 16.642",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 16.642, de 2017",
+      "relacao": "citada no texto (detectada automaticamente)"
+    }
+  ],
+  "jurisprudencia_relacionada": [],
+  "tem_tabela": false,
+  "tabelas_extraidas": [],
+  "tem_formula": false,
+  "formulas_referenciadas": [],
+  "fonte": {
+    "origem": "Portal oficial (legislacao.prefeitura.sp.gov.br)",
+    "path": "_entrada/misto/decreto-saopaulo-58955-2019.txt",
+    "url": "https://legislacao.prefeitura.sp.gov.br/decreto-58955-de-20-de-setembro-de-2019",
+    "hash": "sha256:88aa3deef689e2c1adc79e4530b9f66e3441ecd6248457447ceebb9e66e9070f",
+    "hash_nota_fonte": "sha256 do HTML bruto do portal capturado 2026-07-13",
+    "ocr": false,
+    "metodo": "VERBATIM INTEGRAL (portal oficial, texto compilado); captura portal oficial legislacao.prefeitura.sp.gov.br (container texto_compilado); promovido de _entrada/misto/",
+    "hash_alvo": "_entrada/misto/decreto-saopaulo-58955-2019.txt",
+    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior."
+  },
+  "status_pipeline": "indexado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "dominio_primario": "tdc",
+  "dominio": [
+    "tdc"
+  ]
+}

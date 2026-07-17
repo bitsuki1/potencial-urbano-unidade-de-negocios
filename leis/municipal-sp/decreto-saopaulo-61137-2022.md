@@ -1,0 +1,532 @@
+# DECRETO Nº 61.137 DE 2022
+
+**URL oficial:** https://legislacao.prefeitura.sp.gov.br/decreto-61137-de-10-de-marco-de-2022
+**Data de captura:** portal oficial legislacao.prefeitura.sp.gov.br (container texto_compilado)
+**Proveniência:** VERBATIM INTEGRAL — capturado de https://legislacao.prefeitura.sp.gov.br/decreto-61137-de-10-de-marco-de-2022 (portal oficial legislacao.prefeitura.sp.gov.br (container texto_compilado)); promovido de `_entrada/misto/decreto-saopaulo-61137-2022.txt`. Saneado só lixo de captura; boilerplate oficial do portal preservado (anotações de alteração do texto compilado incluídas).
+**confianca_extracao:** alta (articulado integral verbatim)
+
+## Ementa
+
+Regulamenta a Lei nº 17.733, de 11 de janeiro de 2022, que dispõe sobre a instalação de Estação Radio Base – ERB, Mini ERB e ERB Móvel no Município de São Paulo.
+
+## Texto integral (verbatim)
+
+DECRETO Nº 61.137 DE 10 DE MARÇO DE 2022
+
+DECRETO Nº 61.137 de 10 de Março de 2022
+
+CORRELAÇÕES
+
+Anexos
+
+Regulamenta a Lei nº 17.733, de 11 de janeiro de 2022, que dispõe sobre a instalação de Estação Radio Base – ERB, Mini ERB e ERB Móvel no Município de São Paulo.
+
+DECRETO Nº 61.137, DE 10 DE MARÇO DE 2022
+
+Regulamenta a Lei nº 17.733, de 11 de janeiro de 2022, que dispõe sobre a instalação de Estação Radio Base – ERB, Mini ERB e ERB Móvel no Município de São Paulo.
+
+RICARDO NUNES, Prefeito do Município de São Paulo, no uso das atribuições que lhe são conferidas por lei,
+
+D E C R E T A:
+
+CAPÍTULO I
+
+DISPOSIÇÕES GERAIS
+
+Art. 1º A Lei nº 17.733, de 11 de janeiro de 2022, que dispõe sobre a implantação de estação rádio-base, a instalação de estação rádio-base móvel e estação rádio-base de pequeno porte, no Município de São Paulo, destinadas à operação de serviços de telecomunicações autorizados e homologados pelo órgão federal competente, fica regulamentada por este decreto.
+
+Parágrafo único. Não estão sujeitas às disposições da Lei nº 17.733, de 2022, e deste decreto, os radares militares e civis com propósito de defesa ou controle de tráfego aéreo, bem como as infraestruturas de radionavegação aeronáutica e as de telecomunicações aeronáuticas, fixas e móveis, destinadas a garantir a segurança das operações aéreas, cujo funcionamento deverá obedecer à regulamentação específica.
+
+Art. 2º Para os efeitos deste decreto, ficam adotadas as seguintes definições:
+
+I - estação rádio-base: conjunto de instalações que comporta equipamentos de radiofrequência, destinado à transmissão de sinais de telecomunicações para a cobertura de determinada área, composto por postes, torres, mastros, antenas, contêineres e demais equipamentos necessários à operação de serviços de telecomunicações;
+
+II - estação rádio-base móvel (ERB móvel): equipamentos destinados à operação de serviços de telecomunicações de radiofrequência, destinados à transmissão de sinais de telecomunicações, de caráter perene ou transitório;
+
+III - estação rádio-base de pequeno porte (mini ERB): conjunto de equipamentos de radiofrequência destinado a prover ou aumentar a cobertura ou capacidade de tráfego de transmissão de sinais de telecomunicações para a cobertura de determinada área, apresentando dimensões físicas reduzidas e que seja apto a atender aos critérios de baixo impacto visual, desde que observados um dos seguintes requisitos:
+
+a) os equipamentos sejam ocultos em mobiliário urbano ou enterrados;
+
+b) as antenas sejam instaladas em postes de iluminação pública ou privados, com altura inferior a 25 (vinte e cinco) metros e com cabos de energia subterrâneos em estruturas de suporte de sinalização viária, camufladas ou harmonizadas em fachadas de edificações residenciais ou comerciais, ou postes multifuncionais de baixo impacto visual cujos equipamentos sejam embutidos na própria estrutura ou enterrados, ou em obras de arte;
+
+c) sua instalação não dependa da construção civil de novas infraestruturas ou instalada em edificação ou estrutura existente;
+
+d) atenda aos demais requisitos do art. 15, §1º do Decreto Federal nº 10.480, de 1º de setembro de 2020, ou da norma que venha a substituí-lo;
+
+IV - operadora: pessoa jurídica que detém a concessão, permissão ou autorização para a exploração de serviços de telecomunicações;
+
+V - detentora: pessoa física ou jurídica que detém, administra ou controla, direta ou indiretamente, a infraestrutura de suporte de ERB.
+
+VI - poste: infraestrutura vertical cônica e auto suportada, de concreto ou constituída por chapas de aço, instalada para suportar, interna ou externamente, os equipamentos da Estação Rádio Base;
+
+VII - torre: Infraestrutura vertical transversal treliçada, que pode ser do tipo auto suportada ou estaiada.
+
+Art. 3º Os componentes da ERB, ERB móvel e mini ERB não serão considerados área construída ou edificada para fins de aplicação do disposto na legislação de uso e ocupação do solo, no Código de Obras e Edificações e nas demais normas correlatas, independentemente do local de sua implantação.
+
+CAPÍTULO II
+
+DA INSTALAÇÃO DE ESTAÇÃO RÁDIO-BASE (ERB)
+
+Art. 4º As ERBs são consideradas instalações necessárias aos serviços de infraestrutura de utilidade pública relacionadas à rede de telecomunicações, classificadas na subcategoria de uso INFRA, podendo ser instaladas em todas as zonas de uso do Município, conforme alínea “d” do inciso I do art. 107 da Lei nº 16.402, de 22 de março de 2016, observado o parágrafo único do art. 196 da Lei nº 16.050, de 31 de julho de 2014.
+
+Parágrafo único. A ERB poderá ser instalada em qualquer lote, independente da largura do logradouro para o qual faça frente.
+
+Seção I
+
+Dos Parâmetros Urbanísticos
+
+Art. 5º Para a implantação da ERB deverão ser observadas as seguintes disposições:
+
+I - para torres, postes ou similares com até 80,00m (oitenta metros) de altura, deverão ser observados os seguintes recuos mínimos:
+
+a) em relação à instalação de torres, 3m (três metros) do alinhamento frontal e um metro e meio das divisas laterais e de fundos, sempre contados a partir do eixo da base da torre em relação à divisa do imóvel ocupado;
+
+b) em relação à instalação de postes, 1,5m (um metro e cinquenta centímetros) do alinhamento frontal, das divisas laterais e de fundos, sempre contados a partir do eixo do poste em relação à divisa do imóvel ocupado.
+
+II - as torres, postes ou similares com altura superior a 80,00m (oitenta metros) ficarão condicionados à apresentação de justificativa técnica para a altura e dependerão de diretrizes prévias emitidas pela Comissão de Análise Integrada de Projetos de Edificações e de Parcelamento do Solo – CAIEPS e aprovadas pela CTLU, para a definição dos recuos mínimos necessários à sua compatibilização com o entorno;
+
+§ 1º Nas áreas prioritárias referidas no artigo 27 da Lei nº 17.733, de 2022, poderão ser autorizados outros recuos que não os referidos no inciso I do “caput” deste artigo, mediante a apresentação de laudo técnico que ateste:
+
+I - a impossibilidade técnica da implantação com o cumprimento dos recuos;
+
+II - a necessidade da implantação e os eventuais prejuízos caso não seja realizada.
+
+§ 2º O previsto no inciso I do “caput” deste artigo não se aplica às ERBs instaladas no topo de edifícios.
+
+§ 3º As ERBs obedecerão às limitações das divisas do terreno do imóvel, não podendo apresentar projeção que ultrapasse o limite da edificação existente para o lote vizinho, quando a edificação ocupar todo o lote próprio.
+
+§ 4º Na hipótese da execução de melhoramento viário ou alargamento de passeio público, as Estações Rádio Base deverão ser realocadas no mesmo lote ou removidas pela detentora responsável, sem direito a indenização.
+
+§ 5º Deverá ser assinalado prazo de 180 (cento e oitenta) dias para a realocação ou remoção referidas no § 4 deste artigo, considerando a necessidade de cobertura da região em que localizado o equipamento.
+
+Art. 6º Não se aplicam os parâmetros qualificadores da ocupação e a quota ambiental da Lei nº 16.402, de 2016, às ERBs.
+
+Art. 7º As ERBS instaladas em lotes não edificados deverão atender a taxa de permeabilidade mínima, de acordo com os respectivos Perímetros de Qualificação Ambiental (PA) do Mapa 3 da Lei nº 16.402, de 2016, na seguinte conformidade:
+
+I - para lotes com área igual ou inferior a 500,00m² (quinhentos metros quadrados):
+
+a) 0,15 para os PAs 1 a 8;
+
+b) 0,10 para o PA 9;
+
+c) 0,20 para os PAs 10 a 12;
+
+II - para lotes com área superior a 500,00m² (quinhentos metros quadrados):
+
+a) 0,25 para os PAs 1 a 5 e PA 10;
+
+b) 0,20 para o PA 6 a 8;
+
+c) 0,15 para o PA 9;
+
+d) 0,30 para os PAs 11 e 12.
+
+§ 1º Nos lotes inseridos em Zona Especial de Proteção Ambiental - ZEPAM, Zona de Preservação e Desenvolvimento Sustentável Rural - ZPDSr, Zona de Preservação e Desenvolvimento Sustentável - ZPDS, Zona Corredor - ZCOR, Zona Predominantemente Residencial - ZPR e Zona Exclusivamente Residencial - ZER, aplicam-se as taxas de permeabilidade mínima de 0,90, 0,70, 0,50, 0,30, 0,30 e 0,30, respectivamente, independentemente do tamanho do lote.
+
+§ 2º Considera-se permeabilidade a infiltração de água no solo, a qual poderá ser obtida mediante ajardinamento do solo ou colocação de brita sob o solo natural.
+
+Art. 8º A instalação de ERB deverá observar a normatização federal incidente, os gabaritos e as restrições estabelecidos pelos planos de zona de proteção de aeródromos, estabelecido pelo Departamento de Controle do Espaço Aéreo – DECEA e os dispositivos legais sobre descargas atmosféricas segundo as normas técnicas aplicáveis.
+
+Parágrafo único. Deverá ser apresentada anuência do Comando da Aeronáutica – COMAER, declaração de inexigibilidade ou documento equivalente no sentido da desnecessidade de anuência para a implantação emitidos pelo citado órgão.
+
+Art. 9º Aplicam às ERBs os parâmetros de incomodidade por zona – estabelecidos no Quadro 4B da Lei nº 16.402, de 2016.
+
+Parágrafo único. Caso necessário, os componentes da ERB deverão receber tratamento acústico para que, no receptor, o ruído não ultrapasse os limites máximos permitidos para cada zona de uso estabelecidos na legislação pertinente, devendo dispor, também, de tratamento antivibratório, de modo a não acarretar incômodo à vizinhança.
+
+Art. 10. Será admitida a implantação de ERB independentemente da regularidade do imóvel onde será instalada, desde que asseguradas as condições de segurança, estabilidade e salubridade da edificação.
+
+Seção II
+
+Das Condições e Restrições Para a Instalação de Erb
+
+Art. 11. Dependerá de anuência prévia da Secretaria Municipal do Verde e do Meio Ambiente, a implantação de ERB em Zona de Preservação e Desenvolvimento Sustentável – ZPDS, em Zona Especial de Proteção Ambiental – ZEPAM e em áreas integrantes do Sistema de Áreas Protegidas, Áreas Verdes e Espaços Livres – SAPAVEL, exceto para o caso de ERB instalada sobre edificação.
+
+Parágrafo único. A concessão do alvará de implantação para ERB não exime da realização de licenciamento ambiental, quando exigível.
+
+Art. 12. A anuência de que trata o “caput” do artigo 11 deste decreto, deverá ser objeto de requerimento a ser encaminhando diretamente à Secretaria Municipal do Verde e do Meio Ambiente.
+
+§ 1º A Secretaria Municipal do Verde e do Meio Ambiente terá o prazo de 20 (vinte) dias para expedir a anuência requerida.
+
+§ 2º O prazo previsto no § 1º deste artigo poderá ser prorrogado por 10 (dez) dias, mediante justificativa.
+
+§ 3º Ultrapassados os prazos referidos nos §§ 1º e 2º sem que tenha ocorrido a apreciação do pedido de anuência, o Requerente poderá dar início, por sua conta e risco, ao pedido de Alvará de Implantação de ERB.
+
+§ 4º As Secretarias Municipais do Verde e do Meio Ambiente e de Urbanismo e Licenciamento deverão adotar as medidas necessárias para que a anuência prévia de que trata o artigo 11 deste decreto possa ser realizada no âmbito do procedimento referido no seu artigo 22 deste decreto.
+
+Art. 13. A implantação de ERB em imóveis tombados dependerá de prévia anuência dos órgãos de preservação competentes.
+
+§ 1º Fica autorizada a implantação de ERB em área envoltória de bens tombados ou em bairros tombados, observados os requisitos da resolução de tombamento vigente,
+
+§ 2º Deverão ser adotadas as medidas necessárias para a edição de resoluções específicas a respeito da implantação de ERBs em bairros tombados e em áreas envoltórias, a partir da consolidação e explicitação de requisitos objetivos para a implantação de tais equipamentos.
+
+Art. 14. A Secretaria Municipal de Cultura terá o prazo de 30 (trinta) dias para expedir a autorização de que trata o artigo 13 deste decreto.
+
+§ 1º O prazo previsto no “caput” deste artigo poderá ser prorrogado por 10 (dez) dias, mediante justificativa.
+
+§ 2º As Secretarias Municipais de Urbanismo e Licenciamento e de Cultura deverão adotar as medidas necessárias para que apreciação de que trata o artigo 13 deste decreto possa ser integrada e realizada no âmbito do procedimento referido no seu artigo 22 deste decreto.
+
+Art. 15. Fica vedada a instalação de ERB em presídios, cadeias públicas e unidades da Fundação Centro de Atendimento Socioeducativo ao Adolescente – Fundação CASA.
+
+Parágrafo único. A instalação de ERB em postos de combustíveis, distribuidores de combustíveis e outros locais com atmosferas potencialmente explosivas dependerá da apresentação de declaração do responsável técnico atestando as condições de segurança.
+
+Seção III
+
+Procedimento para o Alvará de Implantação
+
+Art. 16. Nenhuma ERB poderá ser implantada sem prévia emissão do Alvará de Implantação de ERB pelo órgão competente, a ser requerido pela operadora ou detentora, observadas as normas estabelecidas na Lei nº 17.733, de 2022, e neste decreto.
+
+Parágrafo único. O Alvará de Implantação de ERB terá o prazo de validade de 10 (dez) anos, a contar da data da publicação da decisão que deferiu a sua expedição, e será renovável, por igual período, desde que apresentado requerimento pela operadora ou detentora.
+
+Art. 17. O requerimento de Alvará de Implantação de ERB deverá ser instruído com os seguintes documentos ou informações:
+
+I - cópia de certidão negativa de débitos municipais em nome da requerente;
+
+II - anuência do Comando da Aeronáutica – COMAER, declaração de inexigibilidade ou documento equivalente no sentido da inexistência da necessidade de anuência para a implantação emitidos pelo citado órgão;
+
+III - autorização da Agência Nacional de Telecomunicações - ANATEL para a operadora prestar serviços de telecomunicações;
+
+IV - documentos que comprovem a legitimidade do representante legal da detentora, proprietário ou possuidor do imóvel ou seus procuradores, conforme o caso;
+
+V - autorização do proprietário ou possuidor do bem no qual será implantada a estação rádio base (ERB) ou termo de permissão de uso, quando se tratar de instalação em bem público;
+
+VI - declaração firmada pelo representante legal da edificação de que a instalação da ERB possui anuência dos condôminos, conforme estabelecido na respectiva convenção e do Código Civil, no caso da ERB estar instalada em imóvel em regime condominial;
+
+VII - documento que comprove a propriedade ou a posse do imóvel, exceto para a ERB instalada em bens públicos;
+
+VIII - nas zonas de uso ZEIS 1 e ZEIS 4, na impossibilidade da apresentação de documentos na forma do inciso VII do “caput” deste artigo, poderão ser apresentados eventuais outros elementos que comprovem o vínculo entre o possuidor e o imóvel onde a ERB for implantada;
+
+IX - indicação do número do Cadastro do Imóvel, constante da Notificação-recibo do Imposto Predial e Territorial Urbano – IPTU ou do Imposto Territorial Rural – IPR do imóvel em que a ERB será instalada;
+
+X - na hipótese de inviabilidade da indicação do número do cadastro de imóveis referido no inciso IX do ‘caput” deste artigo, especialmente para aqueles localizados em Zonas de Interesse Social, deverá ser indicada a zona de uso e o endereçamento do imóvel, e apresentados os dados de georreferenciamento referidos nos incisos II a V do artigo 30 deste decreto;
+
+XI - atestado técnico ou termo de responsabilidade técnica, emitido por profissional habilitado, quanto à adequação dos elementos estruturais da edificação, notadamente em relação às condições de estabilidade, bem como dos componentes da ERB, declarando a observância das normas técnicas em vigor;
+
+XII - atestado técnico ou termo de responsabilidade técnica, emitido por profissional habilitado declarando que a totalidade dos índices de radiação não ionizantes – RNI, considerada a soma das emissões de radiação de todos os sistemas transmissores em funcionamento com o equipamento que se pretende instalar, não supera os limites máximos de radiação estabelecidos nas normas da ANATEL;
+
+XIII - atestado técnico ou termo de responsabilidade técnica, emitido por profissional habilitado, de que a edificação bem como os componentes da ERB, declarando que mesma está dotada de sistema de proteção contra descargas atmosféricas – SPDA, conforme previsto na norma técnica vigente;
+
+XIV - declaração da Operadora ou Detentora em caso de compartilhamento, de que a ERB possui medidas de proteção que impeçam o acesso de pessoas não autorizadas à mesma, ressalvando o dos agentes dos órgãos de fiscalização;
+
+XV - Anotação de Responsabilidade Técnica – ART, ou documento equivalente reconhecido pelo conselho de classe competente, do responsável pela elaboração dos documentos necessários à emissão do Alvará de Implantação.
+
+XVI - anuência dos órgãos de preservação competentes para a instalação de ERB em bens tombados, acompanhado de plantas visitadas pelos respectivos órgãos, bem como em áreas envoltórias, de acordo com as respectivas resoluções de tombamento;
+
+XVII - anuência da Secretaria Municipal do Verde e do Meio Ambiente para a implantação de ERB em Zona de Preservação e Desenvolvimento Sustentável ZPDS, em Zona Especial de Proteção Ambiental ZEPAM e em áreas integrantes do Sistema de Áreas Protegidas, Áreas Verdes e Espaços Livres SAPAVEL ou declaração do interessado a respeito da fluência dos prazos e aplicação do § 3º do artigo 12 deste decreto, exceto para o caso de ERB instalada sobre edificação;
+
+XVIII - apreciação pela CTLU na hipótese de que trata o inciso II do “caput” do artigo 5º deste decreto.
+
+XIX - nos casos de implantação em topos de prédio caracterizados como lajes de segurança, nos termos do Decreto nº 10.878, de 7 de fevereiro de 1974, revogado parcialmente pelo Decreto nº 32.392, de 23 de setembro de 1992, apresentação de atestado técnico ou termo de responsabilidade técnica de que a implantação não representa agravamento à manutenção do sistema de segurança da edificação.
+
+§ 1º Todos os atestados e/ou termos de responsabilidade técnica e/ou declarações ficarão disponíveis em sistema eletrônico de aprovação a que se refere o artigo 22 deste decreto para aceite dos responsáveis pela ERB.
+
+§ 2º A validade da documentação utilizada pelo interessado para subsidiar a apresentação dos atestados técnicos ou termos de responsabilidade técnica referidos no “caput” deste artigo deverá considerar a data de realização de cada ato ou documento, estando vedada a exigência, quando de eventual atividade de controle e/ou fiscalização, de revalidação de documentos juridicamente perfeitos e celebrados que não tenham prazo de validade.
+
+Art. 18. O requerimento de renovação do Alvará de Implantação de ERB deverá ser instruído com os seguintes documentos ou informações:
+
+I - indicação do número do número do último alvará ou da última renovação emitida;
+
+II - documentos que comprovem a legitimidade do representante legal da operadora, detentora, proprietário ou possuidor do imóvel ou seus procuradores, conforme o caso;
+
+III - atestado técnico ou termo de responsabilidade técnica, emitido por profissional habilitado, quanto à adequação dos elementos estruturais da edificação, notadamente em relação às condições de estabilidade, bem como dos componentes da ERB, declarando a observância das normas técnicas em vigor;
+
+IV - atestado técnico ou termo de responsabilidade técnica, emitido por profissional habilitado declarando que a totalidade dos índices de radiação não ionizantes – RNI, considerada a soma das emissões de radiação de todos os sistemas transmissores em funcionamento com o equipamento que se pretende instalar, não supera os limites máximos de radiação estabelecidos nas normas da ANATEL;
+
+V - atestado técnico ou termo de responsabilidade técnica, emitido por profissional habilitado, de que a edificação bem como os componentes da ERB, declarando que mesma está dotada de sistema de proteção contra descargas atmosféricas – SPDA, conforme previsto na norma técnica vigente;
+
+VI - termo de responsabilidade técnica, emitido por profissional habilitado, de que a ERB mantem as mesmas condições licenciadas;
+
+VII - Anotação de Responsabilidade Técnica – ART, ou documento equivalente reconhecido pelo conselho de classe competente, do responsável pela elaboração dos documentos necessários à renovação do Alvará de Implantação.
+
+Parágrafo único. A validade da documentação utilizada pelo interessado para subsidiar a apresentação dos atestados técnicos ou termos de responsabilidade técnica referidos no “caput” deste artigo deverá considerar a data de realização de cada ato ou documento, estando vedada a exigência de revalidação de documentos juridicamente perfeitos e celebrados que não possuam prazo de validade quando de eventual atividade de controle e/ou fiscalização.
+
+Art. 19. O prazo para emissão do Alvará de Implantação de ERB não poderá:
+
+I - ser superior a 60 (sessenta) dias, contados da data de apresentação do requerimento.
+
+II - superar o prazo máximo de 180 (cento e oitenta) dias, nos casos em quem em decorrência da complexidade, for fixado prazo específico por ato do Secretário Municipal de Urbanismo e Licenciamento.
+
+Art. 20. O simples protocolo dos requerimentos relativos à ERB não autoriza a sua implantação.
+
+Art. 21. Serão dispensadas de novo licenciamento conforme previsto no § 4º do art. 5º da Lei nº 17.733, de 2022, as ERBs já licenciadas que apenas alterem características técnicas decorrentes de processo de remanejamento, substituição ou modernização tecnológica, desde que:
+
+I - não haja alteração da taxa de permeabilidade licenciada, devida nos casos de ERB implantada em lote não edificado, nos termos do artigo 7º deste decreto;
+
+II - não altere o gabarito;
+
+III - não amplie a carga máxima permitida;
+
+IV - não ultrapasse a carga máxima da edificação na qual está instalada.
+
+Subseção I
+
+Do Procedimento Administrativo
+
+Art. 22. A Secretaria Municipal de Urbanismo e Licenciamento – SMUL deverá implantar, no prazo de 30 (trinta dias) da publicação deste decreto, procedimento declaratório eletrônico para a expedição do Alvará de Implantação de ERB e da renovação referida no artigo 24 deste decreto.
+
+§ 1º Os requerimentos de Alvará de Implantação para as ERBs serão realizados exclusivamente pelo sistema declaratório de que trata este artigo, o qual seguirá rito de apresentação de documentos e declarações.
+
+§ 2º Serão fixados por portaria os requisitos necessários para o devido enquadramento no procedimento declaratório, observando-se a diretriz de integração, sempre que possível, também dos casos que demandem a apreciação de outros órgãos municipais.
+
+Art. 23. Constatado o desatendimento das obrigações e exigências legais por parte da operadora ou a detentora previstas na Lei nº 17.733, de 2022, e neste decreto, o Alvará de Implantação de ERB será cassado.
+
+Subseção II
+
+Renovação para as Erbs Implantadas
+
+Art. 24. Em decorrência do previsto nos artigos 24 e 25 da Lei, as ERBs implantadas no Município de São Paulo até a data de publicação deste decreto deverão apresentar pedidos dos respectivos Alvarás de Implantação nos seguintes prazos:
+
+I - no prazo de até 2 (dois) anos, contado da data da publicação deste decreto, para aquelas que:
+
+a) possuíam documento regularmente expedido nos termos da Lei nº 13.756, 16 de janeiro de 2004, ou da norma anterior vigente ao tempo da implantação;
+
+b) foram implantadas em decorrência do cumprimento de decisão judicial;
+
+II - no prazo de até 180 (cento e oitenta) dias, contado da data da publicação deste decreto, para os equipamentos que não se enquadrarem no inciso I do “caput” deste artigo.
+
+§ 1º Os requerimentos referidos no “caput” deste artigo deverão ser realizados por meio do procedimento declaratório referido no artigo 22 deste decreto.
+
+§ 2º Para o pedido de que trata este artigo deverão ser apesentados os documentos e informações previstos no artigo 17 deste decreto, acompanhada de declaração a respeito da implantação da ERB no prazo referido no “caput” deste artigo.
+
+§ 3º Os prazos previstos neste artigo não obstam ações fiscalizatórias relacionadas à segurança ou ao descumprimento da legislação federal pertinente.
+
+CAPÍTULO III
+
+DA INSTALAÇÃO DE ESTAÇÃO RÁDIO-BASE MÓVEL (ERB MÓVEL) E ESTAÇÃO RÁDIO-BASE DE PEQUENO PORTE (MINI ERB)
+
+Seção I
+
+Condições Gerais para a Instalação
+
+Art. 25. A mini ERB e a ERB móvel são consideradas bens de utilidade pública, conforme disposto na Lei Federal nº 13.116, de 20 de abril de 2015, podendo ser implantadas em todas as zonas ou categorias de uso, consoante o disposto neste Capítulo.
+
+§ 1º O cadastramento eletrônico de mini ERB e ERB móvel, quando exigido, deverá ser renovado a cada 5 (cinco) anos ou quando ocorrer a modificação do equipamento instalado.
+
+§ 2º A permanência máxima de ERB móvel no mesmo local é de 90 (noventa) dias para cobrir demandas específicas, sendo prorrogável, por igual período, até, no máximo, 180 (cento e oitenta) dias.
+
+§ 3º As mini ERBs e ERBs móvel regularmente instaladas até a publicação deste Decreto permanecerão regulares até o término da validade do respectivo documento comprobatório de sua regularidade.
+
+§ 4º As mini ERBs e ERBs móvel irregularmente instaladas até a publicação deste decreto ou instaladas por força de decisão judicial deverão realizar o cadastramento previsto no art. 30 deste decreto, no prazo de 120 (cento e vinte) dias contados da data de sua publicação.
+
+Art. 26. A instalação de mini ERB e de ERB móvel poderá ser realizada em imóveis tombados, mediante autorização dos órgãos de preservação do patrimônio.
+
+Parágrafo único. Em decorrência das dimensões físicas reduzidas e do atendimento aos critérios de baixo impacto visual de que trata o inciso III do artigo 3º da Lei nº 17.733, de 2022, após emissão do TCE- Termo de Cadastro Eletrônico ou permissão de uso, conforme o caso, poderá ser realizada a instalação de mini ERB e de ERB móvel em áreas envoltórias de bens tombados e em bairros tombados.
+
+Art. 27. A implantação, em áreas privadas, de postes multifuncionais de baixo impacto visual para a instalação de mini ERBs, cujos equipamentos sejam embutidos na própria estrutura ou enterrados, na forma da alínea ‘b’ do inciso III do artigo 2º deste decreto, deverá atender à distância de 1,5m (um metro e cinquenta centímetros) do alinhamento dos lotes.
+
+Art. 28. Será admitida a instalação de mini ERB e de ERB móvel independentemente da regularidade do imóvel onde será instalada.
+
+Parágrafo único. A instalação de mini ERB e de ERB móvel poderá ser realizada em qualquer lote, independentemente do logradouro para o qual faça frente.
+
+Art. 29. A instalação de mini ERB e de ERB móvel independe de prévia emissão de licenças ou autorizações pela Secretaria Municipal do Verde e do Meio Ambiente – SVMA.
+
+Seção II
+
+Do Procedimento Administrativo para Instalação
+
+Subseção I
+
+Do Cadastramento Eletrônico para Instalação em Áreas Privadas
+
+Art. 30. Para a instalação de ERB móvel e de mini ERB em áreas privadas, a pessoa jurídica de direito público ou privado deverá encaminhar ao CONVIAS – Departamento de Controle e Cadastro de Infraestrutura Urbana, da Secretaria Municipal das Subprefeituras, por intermédio de endereço eletrônico convias.erb@smsub.prefeitura.sp.gov.br, uma declaração, conforme Anexo I deste decreto, contendo os seguintes parâmetros:
+
+I - formato de entrada de dados “shapefile”;
+
+II - geometria das feições – ponto ou linha;
+
+III - Sistema de Projeção / Datum – UTM Fuso 23 / SAD 69 e SIRGAS 2000;
+
+IV - Codificação – UTF – 8;
+
+V - Escala / Precisão – deverá ser informada a escala de origem ou os intervalos de escalas das informações;
+
+VI - apresentação dos atributos destacados no Anexo II – Tabela de Requisitos para o TCE - Termo de Cadastro Eletrônico deste decreto;
+
+VII - autorização do dos órgãos de preservação do patrimônio, tratando-se de imóvel tombado.
+
+§ 1º O CONVIAS – Departamento de Controle e Cadastro de Infraestrutura Urbana, da Secretaria Municipal das Subprefeituras, emitirá TCE - Termo de Cadastro Eletrônico, após o recebimento da documentação prevista neste artigo.
+
+§ 2º Nos termos do artigo 8º da Lei nº 17.733, de 2022, a instalação de ERB móvel e de mini ERB em áreas privadas independe da emissão prévia do TCE - Termo de Cadastro Eletrônico, desde que corretamente encaminhada a documentação e dados previstos no “caput” deste artigo e atendidos os demais requisitos previstos na legislação.
+
+Subseção II
+
+Da Permissão de Uso Para Instalação em Áreas Públicas Vias e Logradouros Públicos
+
+Art. 31. A pessoa jurídica de direito público ou privado que pretenda obter a permissão de uso de que trata o art. 12 da Lei n° 17.733, de 2022, para instalação de ERB móvel e de mini ERB deverá requerer a permissão de uso onerosa através do GEOINFRA, acaso já não possua permissão de uso onerosa para o local
+
+Parágrafo único. O requerimento deverá seguir o procedimento previsto no art. 3º, §1º do Decreto nº 59.108, de 26 de novembro de 2019, e ser instruído com os seguintes documentos:
+
+I - cadastramento dos dados de identificação da requerente;
+
+II - a Anotação de Responsabilidade Técnica – ART, ou documento equivalente reconhecido pelo conselho de classe competente, do responsável pela elaboração dos documentos necessários à emissão de autorização para execução de serviços e obras de infraestrutura relativos à obra ou serviço de infraestrutura urbana a ser executado;
+
+III - emissão de Declaração de Responsabilidade das Informações Cadastrais, nos termos descritos no Anexo III deste decreto;
+
+IV - apresentação das seguintes informações relativas ao serviço para o qual esteja sendo requerida autorização, por meio do preenchimento do devido formulário eletrônico:
+
+a) prazos estimados para a execução de cada uma das fases que compõem os serviços que serão realizados;
+
+b) o traçado no mapa do GEOSAMPA, bem como a descrição e a natureza dos serviços que serão realizados, incluindo a informação quanto à localização da rede de infraestrutura urbana na base cadastral georreferenciada da requerente;
+
+V - declaração de Ciência e Responsabilidade do Serviço que será executado, com a ciência acerca das normas aplicáveis, nos termos descritos no Anexo IV deste decreto;
+
+VI - declaração de que não haverá comprometimento estrutural ou funcional do mobiliário urbano, tampouco obstáculos à sua manutenção.
+
+Art. 32. Para a instalação de novos postes multifuncionais de baixo impacto visual para a instalação de mini ERB no mesmo alinhamento do posteamento existente em logradouros públicos, não poderá ser ultrapassada a altura observada, medida a partir do solo, para os postes da rede de distribuição de energia elétrica ou de iluminação pública no mesmo alinhamento.
+
+§ 1º Poderá ser autorizada a implantação de postes multifuncionais sem observância do parâmetro referido no “caput” deste artigo, limitada a altura a 25 metros, mediante a apresentação de laudo técnico que ateste:
+
+I - a impossibilidade técnica na observação da atura dos postes de iluminação pública existentes;
+
+II - a necessidade da implantação e os eventuais prejuízos caso não seja realizada.
+
+§ 2º Os demais requisitos serão fixados em portaria.
+
+Art. 33. O disposto nesse capítulo não se aplica à instalação de ERB móvel e mini ERB em próprios municipais e bens de uso especial, disciplinado pelo artigo 34 deste decreto.
+
+Seção II
+
+Da Instalação em Próprios Municipais e Bens de Uso Especial
+
+Art. 34. A utilização de bem municipal para a implantação da ERB e instalação da ERB móvel e mini ERB poderá ser admitida mediante permissão de uso onerosa e posterior cadastramento eletrônico ou alvará de implantação, conforme o caso, a serem disciplinados pelas Secretarias Municipais de Urbanismo e Licenciamento e das Subprefeituras, no âmbito de suas atribuições, em conjunto com a Secretaria Executiva de Gestão.
+
+CAPÍTULO IV
+
+DA FISCALIZAÇÃO
+
+Art. 35. Nenhuma ERB, ERB móvel ou mini ERB poderá ser instalada sem o prévio alvará, cadastro ou permissão de uso onerosa para instalação nos logradouros e bens municipais.
+
+Art. 36. Compete às Subprefeituras a ação fiscalizatória referente ao atendimento das normas previstas na Lei nº 17.733, de 2022, a qual deverá ser desenvolvida de ofício ou mediante notícia de irregularidade, observado o procedimento previsto na referida lei e neste decreto, ficando os responsáveis obrigados a franquear à fiscalização municipal o acesso às instalações.
+
+Art. 37. Constatado o desatendimento das obrigações e exigências legais, a operadora ou a detentora ficarão sujeitas às seguintes medidas:
+
+I - no caso de ERB previamente licenciada e de ERB móvel ou mini ERB previamente cadastrados:
+
+a) intimação para remoção ou regularização no prazo de 30 (trinta) dias, contado da data do seu recebimento;
+
+b) não atendida a intimação de que trata a alínea “a” deste inciso, nova intimação para a retirada da instalação no prazo de 30 (trinta) dias, contado da data do seu recebimento, com a concomitante aplicação de multa no valor estipulado no inciso III do caput deste artigo;
+
+II - no caso de ERB, ERB móvel ou mini ERB instalada sem o prévio alvará ou do cadastro tratado nesta Lei:
+
+a) intimação para remoção ou regularização no prazo de 30 (trinta) dias, contado da data do seu recebimento, com a concomitante aplicação de multa no valor estipulado no inciso III do “caput” deste artigo;
+
+b) não atendida a intimação de que trata a alínea “a” deste inciso, nova intimação para a retirada da instalação ou do equipamento no prazo de 30 (trinta) dias, contado da data do seu recebimento, com a concomitante aplicação de multa no valor estipulado no inciso III do caput deste artigo;
+
+III - observado o previsto nos incisos I e II do caput deste artigo, a operadora ou detentora ficarão sujeitas à aplicação de multa no valor de R$ 10.000,00 (dez mil reais).
+
+§ 1º Os valores mencionados no inciso III do caput deste artigo serão atualizados anualmente pelo IPCA, do IBGE, ou por outro índice que vier a substituí-lo.
+
+§ 2º A multa será renovável a cada 30 (trinta) dias, enquanto perdurarem as irregularidades.
+
+Art. 38. Na hipótese de não regularização ou de não remoção de ERB, mini ERB ou ERB móvel ou dos equipamentos destinados à operação de serviços de telecomunicações por parte da operadora ou detentora, a Prefeitura poderá adotar as medidas tendentes à remoção, cobrando da infratora, em dobro, os custos correlatos com remoção, transporte e locação, sem prejuízo da aplicação das multas e demais sanções cabíveis.
+
+Parágrafo único. Caso necessária a obtenção de provimento jurisdicional para a remoção de ERB, mini ERB ou ERB móvel ou dos equipamentos destinados à operação de serviços de telecomunicações, a Subprefeitura competente deverá encaminhar ao Departamento de Defesa do Meio Ambiente e do Patrimônio, da Procuradoria Geral do Município, processo eletrônico contendo informações que comprovem todas as ações fiscalizatórias adotadas, possibilidade ou não de regularização, bem como justificativa para obtenção de eventual tutela de urgência.
+
+Art. 39. As notificações e intimações deverão ser encaminhadas à operadora ou detentora por mensagem em endereço eletrônico indicado no requerimento da licença ou no cadastro, quando houver.
+
+Parágrafo único. Caso não exista ou se desconheça o endereço eletrônico da operadora ou detentora, as notificações e intimações deverão ser endereçadas à sede da operadora, podendo ser enviadas por via postal, com aviso de recebimento.
+
+Art. 40. Lavrada a multa a que se refere o inciso III do artigo do “caput” 37 deste decreto, far-se-á a notificação do infrator para, no prazo nela determinado, pagar ou apresentar defesa, a qual terá efeito suspensivo, dirigida ao Supervisor de Fiscalização da Subprefeitura competente, sob pena de subsequente inscrição na dívida ativa do Município.
+
+§ 1º Apresentada a defesa e feita sua análise, a respectiva decisão será publicada no Diário Oficial da Cidade e cadastrada, expedindo-se, no caso de indeferimento, nova notificação ao infrator, da qual constará a data máxima para pagamento ou interposição de um único recurso dirigido ao Subprefeito, o qual terá efeito suspensivo.
+
+§ 2º A decisão do recurso encerra a instância administrativa.
+
+§ 3º As decisões referentes às defesas e recursos serão publicadas no Diário Oficial da Cidade e disponibilizadas no Portal da Fiscalização
+
+§ 4º O efeito suspensivo de que trata este artigo é exclusivamente para os fins de exigibilidade do débito.
+
+CAPÍTULO V
+
+DAS ÁREAS PRIORITÁRIAS
+
+Art. 41. Nos termos do artigo 27 da Lei nº 17.733, de 2022, ficam estabelecidos, na forma deste decreto, incentivos e condições para o licenciamento para a instalação de ERB, ERB móvel e mini ERB nos seguintes distritos prioritários:
+
+I - Região Sul: Jardim Ângela, Jardim São Luiz, Cidade Dutra, Pedreira, Grajaú, Marsilac, Parelheiros, Santo Amaro e Socorro;
+
+II - Região Norte: Anhanguera, Perus, Jaraguá, Brasilândia, Pirituba, Cachoerinha, Tremembé e Mandaqui;
+
+III - Região Leste: Jardim Helena, Lajeado, Guaianases, José Bonifácio, Cidade Tiradentes, Parque do Carmo, Iguatemi, São Rafael, Sapopemba, Itaquera e Ermelino Matarazzo.
+
+§ 1º Os pedidos de instalação de ERB, ERB móvel e mini ERB nos distritos prioritários terão redução do preço público:
+
+I - de 50% (cinquenta por cento) no preço público para licenciamento e cadastramento para os pedidos protocolados nos primeiros 7 (sete) meses após a data de publicação deste decreto;
+
+II - de 30% (trinta por cento) para os pedidos protocolados após os 7 (sete) meses e antes dos 12 (doze) meses da data de publicação deste decreto.
+
+§ 2º Nos primeiros 12 (doze) meses após a data de publicação deste decreto, os equipamentos autorizados a se instalar em bens municipais localizados nos distritos prioritários terão redução de 50% (cinquenta por cento) do valor da retribuição pelo uso do bem municipal, durante o primeiro ano da permissão de uso desta lei.
+
+§ 3º As empresas de telecomunicação terão prazo de 90 (noventa) dias, após o licenciamento ou cadastramento, para implantação completa da ERB autorizada, sob pena de perda de validade da autorização para instalação, ficando vedada a utilização dos benefícios deste artigo no mesmo local em eventual nova solicitação.
+
+§ 4º Para que os interessados obtenham os benefícios constantes deste artigo deverão celebrar termo de adesão com o Poder Executivo, contendo metas individuais de instalação e ampliação, conforme modelo constante do Anexo V deste decreto.
+
+§ 5º Caso as metas estabelecidas nos termos de adesão não sejam atendidas nos prazos estabelecidos no cronograma, o instrumento será revogado e serão suspensos imediatamente todos os benefícios concedidos à operadora inadimplente com base no presente artigo.
+
+§ 6º No período de até 5 (cinco) anos após a publicação da Lei nº 17.733, de 2022, o Poder Executivo poderá, por decreto, reestabelecer os benefícios para a instalação de equipamentos nos distritos prioritários, podendo incluir novos distritos prioritários que demonstrarem deficiência de cobertura para a execução dos serviços públicos, bem como excluir aqueles distritos que já estiverem com cobertura de serviços adequada.
+
+Art. 42. Os pedidos de alvarás de implantação de ERB em áreas prioritárias tramitarão em Regime Especial de Atendimento Prioritário – REAP, que conferirá prioritária perante órgãos e entidades da Administração Pública Municipal, abrangendo todos os atos e manifestações de responsabilidade da Administração Pública Municipal.
+
+§ 1º Os processos administrativos referidos no “caput” deste artigo receberão identificação própria e destacada que evidencie sua tramitação prioritária no âmbito municipal.
+
+§ 2º Exceto mediante justificativa devidamente fundamentada, nos processos administrativos abrangidos pelo REAP, as providências a cargo dos órgãos ou entidades municipais deverão ser adotadas no prazo de até 20 (vinte) dias, salvo quando pendente ação ou diligência sob responsabilidade de terceiros.
+
+§ 3º Após a implementação do sistema declaratório, o REAP remanescerá para os casos em que seja necessária análise pelos órgãos públicos, conforme requisitos de enquadramento previstos no ato a ser editado pela Secretaria Municipal de Urbanismo e Licenciamento.
+
+CAPÍTULO VI
+
+DA FISCALIZAÇÃO E CONTROLE DOS IMPACTOS AMBIENTAIS E DE SAÚDE
+
+Art. 43. O limite máximo de emissão de radiação eletromagnética, considerada a soma das emissões de radiação de todos os sistemas transmissores em funcionamento em qualquer localidade do Município, será aquele estabelecido em legislação federal para exposição humana.
+
+Parágrafo único. Em se constatando indício de irregularidades quanto aos limites de exposição humana a campos elétricos, magnéticos e eletromagnéticos, deverá ser oficiado o órgão regulador federal de telecomunicações, nos moldes que determina o § 2º do art. 18 da Lei Federal nº 13.116, de 2015.
+
+Art. 44. Compete à Secretaria Municipal do Verde e do Meio Ambiente, nos limites de sua competência, manter atualizados cadastros e registros relativos ao controle ambiental e às estações de telecomunicações abrangidas pela Lei nº 17.733, de 2022.
+
+CAPÍTULO VII
+
+DO COMPARTILHAMENTO DE INFRAESTRUTURA
+
+Art. 45. Conforme previsto na Lei Federal nº 13.116, de 20 de abril de 2015, é obrigatório o compartilhamento da capacidade excedente da infraestrutura de suporte, exceto quando houver justificado motivo técnico, sendo que a construção e a ocupação da infraestrutura de suporte devem ser planejadas e executadas com vistas a permitir seu compartilhamento pelo maior número possível de operadoras.
+
+Parágrafo único. As condições sob as quais o compartilhamento poderá ser dispensado são as determinadas na regulamentação federal específica.
+
+CAPÍTULO VIII
+
+DISPOSIÇÕES FINAIS E TRANSITÓRIAS
+
+Art. 46. As Secretarias Municipais de Urbanismo e Licenciamento e das Subprefeituras deverão disponibilizar sistema de informação de localização de ERBs, ERBs móvel e mini ERBs destinados à operação de serviços de telecomunicações.
+
+Parágrafo único. No local da instalação dos equipamentos deverá ser exigida a exibição dos dados que permitam a sua identificação, em local de fácil acesso e visível, atendidas especificações veiculadas em normas complementares expedidas pela Secretaria Municipal de Subprefeituras, considerando-se desatendimento das obrigações e exigências legais para os fins do art. 15 da Lei nº 17.733, de 2022, a não observância da obrigação prevista neste dispositivo ou em outras normas aplicáveis.
+
+Art. 47. No prazo de 30 dias a contar da publicação deste Decreto, os órgãos ou entidades responsáveis deverão editar diretrizes técnicas para a instalação de mini ERBs e de ERBs móveis nos mobiliários e equipamentos urbanos sob sua responsabilidade, de modo a preservar sua higidez estrutural e funcional, bem como sua manutenção.
+
+§ 1º Findo o prazo previsto no “caput” deste artigo, considerar-se-á atendida a exigência do inciso VI do parágrafo único do art. 31 deste decreto.
+
+§ 2º A edição de diretriz técnica pelo órgão ou entidade responsável após o prazo previsto no “caput” deste artigo não retroagirá a pedidos de cadastramento anteriormente formulados.
+
+Art. 48. Os profissionais habilitados e técnicos responsáveis, nos limites de sua atuação, respondem pela correta implantação, instalação e manutenção da ERB, ERB móvel e mini ERB, segundo as disposições da Lei nº 17.733, de 2022, deste decreto e das Normas Técnicas – NTs vigentes, bem como por qualquer sinistro ou acidente decorrente de deficiências de projeto, execução, instalação e manutenção.
+
+Parágrafo único. Caso comprovada a inveracidade dos documentos e informações apresentados pelos profissionais habilitados e técnicos responsáveis, bem como a deficiência do projeto, execução, implantação, instalação e manutenção em razão da atuação ou omissão desses profissionais, a Prefeitura bloqueará o seu cadastramento por até 5 (cinco) anos em novos processos de licenciamento, comunicando o respectivo órgão de classe.
+
+Art. 49. O preço público para licenciamento e cadastramento será pago no ato do protocolo do respectivo requerimento, observados os valores previstos no Anexo VI deste decreto.
+
+Art. 50. Os processos de licenciamento e regularização de ERB protocolados até a data da entrada em vigor desta lei e sem despacho decisório em última instância serão encerrados, conforme operacionalização a ser disciplinada em ato da unidade competente da Secretaria Municipal de Urbanismo e Licenciamento.
+
+Art. 51. Este decreto entrará em vigor na data de sua publicação, revogado o Decreto nº 44.944, de 30 de junho de 2004, e os artigos 15 a 27 do Decreto nº 59.682, de 11 de agosto de 2020.
+
+PREFEITURA DO MUNICÍPIO DE SÃO PAULO, em 10 de março de 2022, 469º da Fundação de São Paulo.
+
+RICARDO NUNES, PREFEITO
+
+EDUARDO DE CASTRO, Secretário Municipal do Verde e do Meio Ambiente
+
+ALEXANDRE MODONEZI, Secretário Municipal das Subprefeituras
+
+JOSÉ RICARDO ALVARENGA TRIPOLI, Secretário Municipal da Casa Civil
+
+EUNICE APARECIDA DE JESUS PRUDENTE, Secretária Municipal de Justiça
+
+RUBENS NAMAN RIZEK JUNIOR, Secretário de Governo Municipal
+
+Publicado na Secretaria de Governo Municipal, em 10 de março de 2022.
+
+Este texto não substitui o original publicado no Diário Oficial da Cidade de São Paulo.

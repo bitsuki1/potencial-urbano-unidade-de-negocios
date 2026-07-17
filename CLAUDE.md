@@ -32,6 +32,8 @@ Tabela de lei é dado e sai do texto. Fórmula é engine e nunca mora dentro do 
 
 **1.7 — Citação obrigatória.** Nenhuma afirmação entra sem citar dispositivo e fonte. Resposta sem citação = não-fundamentada.
 
+**1.8 — Arquivo PRODUZIDO/derivado é SÓ-IDEIA; NUNCA, em hipótese alguma, vira fonte do trabalho. (Regra de ouro do MOU, 2026-07-15.)** Todo arquivo que nós — ou qualquer IA/ferramenta — **produzimos** (enriquecimentos, planilhas "finais/enriquecidas", dossiês gerados, lotes `*_IA`, recortes montados, outputs de terceiros já processados — ex.: `DOSSIE_TDC_ENRIQUECIDO_ITBI`, `PLANILHA_ENRIQUECIDA_FINAL_ITBI`) serve **apenas como IDEIA/inspiração** e **JAMAIS é reaproveitado como dado/fonte** em entregáveis. O trabalho real só se alimenta de **fonte OFICIAL primária** (extração pura, 1.2), rastreável ao dispositivo/origem (1.3/1.7) — o número/nome nasce de novo do primário, nunca copiado de um derivado. Blinda contra: (a) **realimentar o próprio output** (erro/viés que se propaga e vira "verdade"); (b) confundir o **CRIADO** com o **OFICIAL** (D-DONO-4; pasta `90 — só-ideias`). Um derivado pode sugerir *onde olhar*; a resposta vem sempre da fonte primária re-extraída. _(Merece propagação ao SSOT da doutrina no Escritório — D38; esta instância não escreve lá, D120.)_
+
 ## PARTE 2 — Arquitetura do repositório
 **2.1 — Estrutura de pastas** (já criada neste repo):
 ```

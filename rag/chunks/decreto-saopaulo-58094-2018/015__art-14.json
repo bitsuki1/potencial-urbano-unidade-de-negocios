@@ -1,0 +1,46 @@
+{
+  "chunk_id": "decreto-saopaulo-58094-2018::015-art-14",
+  "lei_id": "decreto-saopaulo-58094-2018",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 14",
+  "numero": "14",
+  "header_raw": "Art. 14. Para a expedição do Alvará de Instalação de heliponto ou heliporto, bem como do Auto de Licença de Funcionamento e sua revalidação, serão observadas as seguintes normas:",
+  "caminho_hierarquico": [
+    "Art. 14"
+  ],
+  "texto": "Art. 14. Para a expedição do Alvará de Instalação de heliponto ou heliporto, bem como do Auto de Licença de Funcionamento e sua revalidação, serão observadas as seguintes normas:\n\nI - o pedido de Alvará de Instalação de heliponto ou heliporto e do seu respectivo Auto de Licença de Funcionamento, bem como de sua revalidação, será objeto de análise pela Secretaria Municipal de Urbanismo e Licenciamento;\n\nII - o pedido que apresentar elementos incompletos ou incorretos será objeto de comunicado, do qual constarão as falhas a serem sanadas;\n\nIII - o prazo para atendimento do comunicado a que se refere o inciso II deste artigo será de 30 (trinta) dias, a contar da data de sua publicação no Diário Oficial da Cidade - DOC;\n\nIV - caso o comunicado não seja atendido ou atendido de modo incompleto ou incorreto, o pedido será indeferido;\n\nV - o prazo para decisão, contado da data da apresentação de pedido regularmente instruído, não poderá exceder 90 (noventa) dias, inclusive na fase recursal;\n\nVI - o curso do prazo fixado no inciso V deste artigo ficará suspenso durante a pendência de atendimento das exigências feitas no comunicado;\n\nVII - decorrido o prazo fixado no inciso V deste artigo sem decisão do órgão competente, ficam os proprietários autorizados a realizar, por sua conta e risco, a instalação em conformidade com as condições declaradas no requerimento, respondendo solidariamente com o profissional habilitado, por eventual descumprimento das normas municipais e eventuais danos individuais, coletivos e difusos decorrentes da instalação;\n\nVIII - as instâncias administrativas para apreciação e decisão dos pedidos de que trata esta lei serão as seguintes:\n\na) Diretor de Divisão;\n\nb) Coordenador;\n\nc) Secretário;\n\nIX - contra a decisão de indeferimento caberá recurso à autoridade imediatamente superior, a ser interposto no prazo de 30 (trinta) dias, contados da data de publicação dessa decisão, sem efeito suspensivo;\n\nX - as decisões prolatadas no processo de requerimento de Alvará de Instalação serão publicadas no Diário Oficial da Cidade;\n\nXI - as regras da Lei nº 14.141, de 27 de março de 2006, aplicam-se subsidiariamente aos procedimentos administrativos previstos neste decreto;\n\nParágrafo único. Os pedidos de EIV/RIV relativos aos helipontos serão normatizados pela SVMA, no prazo de 60 dias da publicação deste decreto, seguindo os parâmetros e metodologia postos no seu Anexo III.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 58.094/2018 — São Paulo/SP",
+    "dispositivo": "Art. 14",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-58094-de-21-de-fevereiro-de-2018",
+    "vigencia": {
+      "inicio": "2018-02-21",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2018-02-21 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 15.723, de 24 de abril de 2013, no tocante à instalação e ao funcionamento de heliportos e helipontos no Município de São Paulo."
+}

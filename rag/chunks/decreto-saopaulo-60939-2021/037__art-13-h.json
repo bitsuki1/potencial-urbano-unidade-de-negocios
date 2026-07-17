@@ -1,0 +1,46 @@
+{
+  "chunk_id": "decreto-saopaulo-60939-2021::037-art-13-h",
+  "lei_id": "decreto-saopaulo-60939-2021",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 13-H",
+  "numero": "13-H",
+  "header_raw": "Art. 13-H Os contratos poderão ser aditados para permitir a adoção dos meios alternativos de solução de controvérsias, notadamente a negociação, a conciliação, a mediação, a arbitragem e o comitê de prevenção e solução de disputas, observada a legislação aplicável.(Incluído pelo Decreto nº 62.936/2023)",
+  "caminho_hierarquico": [
+    "CAPÍTULO II - D",
+    "Art. 13-H"
+  ],
+  "texto": "Art. 13-H Os contratos poderão ser aditados para permitir a adoção dos meios alternativos de solução de controvérsias, notadamente a negociação, a conciliação, a mediação, a arbitragem e o comitê de prevenção e solução de disputas, observada a legislação aplicável.(Incluído pelo Decreto nº 62.936/2023)\n\nCAPÍTULO III\n\nDA CÂMARA DE PREVENÇÃO E RESOLUÇÃO ADMINISTRATIVA DE CONFLITOS",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 60.939/2021 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II - D › Art. 13-H",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-60939-de-23-de-dezembro-de-2021",
+    "vigencia": {
+      "inicio": "2021-12-23",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2021-12-23 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "itbi"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Política Municipal de Desjudicialização instituída pela Lei nº 17.324, de 18 de março de 2020, bem como regulamenta a transação tributária de que trata os artigos 21 a 24 da Lei nº 17.719, de 26 de novembro de 2021."
+}

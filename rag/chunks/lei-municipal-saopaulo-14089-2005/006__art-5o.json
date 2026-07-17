@@ -1,0 +1,43 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-14089-2005::006-art-5o",
+  "lei_id": "lei-municipal-saopaulo-14089-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 5º",
+  "numero": "5",
+  "header_raw": "Art. 5º Esta lei entrará em vigor na data de sua publicação.",
+  "caminho_hierarquico": [
+    "Art. 5º"
+  ],
+  "texto": "Art. 5º Esta lei entrará em vigor na data de sua publicação.\n\nPREFEITURA DO MUNICÍPIO DE SÃO PAULO, aos 22 de novembro de 2005, 452º da fundação de São Paulo.\n\nJOSÉ SERRA, PREFEITO\n\nPublicada na Secretaria do Governo Municipal, em 22 de novembro de 2005.\n\nALOYSIO NUNES FERREIRA FILHO, Secretário do Governo Municipal\n\nEste texto não substitui o original publicado no Diário Oficial da Cidade de São Paulo.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 14.089/2005 — São Paulo/SP",
+    "dispositivo": "Art. 5º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-14089-de-22-de-novembro-de-2005",
+    "vigencia": {
+      "inicio": "2005-11-22",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2005-11-22 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Estabelece normas aplicáveis ao vencimento, à atualização cadastral e aos benefícios relacionados ao Imposto Predial e Territorial Urbano - IPTU."
+}

@@ -1,0 +1,46 @@
+{
+  "chunk_id": "decreto-saopaulo-60939-2021::005-art-4o",
+  "lei_id": "decreto-saopaulo-60939-2021",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 4º",
+  "numero": "4",
+  "header_raw": "Art. 4º A celebração de acordos e transações para a solução consensual de controvérsias dependerá da prévia análise de sua vantajosidade e viabilidade jurídica em processo administrativo, observados os seguintes critérios:",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Art. 4º"
+  ],
+  "texto": "Art. 4º A celebração de acordos e transações para a solução consensual de controvérsias dependerá da prévia análise de sua vantajosidade e viabilidade jurídica em processo administrativo, observados os seguintes critérios:\n\nI - o conflito deve versar sobre direitos disponíveis ou sobre direitos indisponíveis que admitam transação;\n\nII - antiguidade do débito;\n\nIII - garantia da isonomia para qualquer interessado em situação similar que pretenda solucionar o conflito consensualmente;\n\nIV - edição de ato regulamentar das condições e parâmetros objetivos para celebração de acordos a respeito de determinada controvérsia quando for o caso;\n\nV - capacidade contributiva;\n\nVI - qualidade da garantia.\n\n§ 1º O consenso das partes envolvendo direitos indisponíveis que admitam transação deve ser homologado em juízo, exigida a oitiva do Ministério Público, nos termos das Leis Federais nº 13.105, de 16 de março de 2015, e nº 13.140, de 26 de junho de 2015.\n\n§ 2º O disposto no § 1º deste artigo não se aplica ao termo de compromisso de ajustamento de conduta e outras hipóteses em que a lei dispense a oitiva do Ministério Público e a homologação judicial.\n\n§ 3º A autocomposição poderá versar sobre todo o conflito ou parte dele.\n\n§ 4º Nos conflitos judiciais, a autocomposição poderá abranger o reconhecimento da procedência do pedido formulado na ação ou na reconvenção, a transação ou a renúncia à pretensão formulada na ação ou na reconvenção.\n\n§ 5º Considera-se acordo todos os ajustes derivados de autocomposição podendo abranger não apenas redução de créditos, como também outras condições, tais como parcelamento, flexibilização de garantia, diferimento de prazo, flexibilização de regras para constrição ou alienação de bens.(Revogado pelo Decreto nº 62.936/2023)\n\n§ 6º Considera-se transação como uma modalidade de acordo que tem como consequência a extinção do crédito da Fazenda Muncipal de natureza tributária ou não tributária.\n\n§ 7º A transação na cobrança da dívida ativa de natureza tributária será realizada nos termos do artigo 171 da Lei Federal nº 5172, de 25 de outubro de 1966.\n\n§ 8º Resguardados os dados pessoais, a intimidade e o sigilo fiscal, haverá a divulgação em meio eletrônico das partes, valores e modalidades das transações que forem deferidas, ficando vedada a publicização da situação econômica ou financeira dos proponentes ou aderentes a terceiros.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 60.939/2021 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Art. 4º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-60939-de-23-de-dezembro-de-2021",
+    "vigencia": {
+      "inicio": "2021-12-23",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2021-12-23 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "itbi"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Política Municipal de Desjudicialização instituída pela Lei nº 17.324, de 18 de março de 2020, bem como regulamenta a transação tributária de que trata os artigos 21 a 24 da Lei nº 17.719, de 26 de novembro de 2021."
+}

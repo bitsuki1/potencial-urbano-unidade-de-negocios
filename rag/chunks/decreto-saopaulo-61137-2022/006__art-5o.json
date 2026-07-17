@@ -1,0 +1,48 @@
+{
+  "chunk_id": "decreto-saopaulo-61137-2022::006-art-5o",
+  "lei_id": "decreto-saopaulo-61137-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 5º",
+  "numero": "5",
+  "header_raw": "Art. 5º Para a implantação da ERB deverão ser observadas as seguintes disposições:",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção I",
+    "Art. 5º"
+  ],
+  "texto": "Art. 5º Para a implantação da ERB deverão ser observadas as seguintes disposições:\n\nI - para torres, postes ou similares com até 80,00m (oitenta metros) de altura, deverão ser observados os seguintes recuos mínimos:\n\na) em relação à instalação de torres, 3m (três metros) do alinhamento frontal e um metro e meio das divisas laterais e de fundos, sempre contados a partir do eixo da base da torre em relação à divisa do imóvel ocupado;\n\nb) em relação à instalação de postes, 1,5m (um metro e cinquenta centímetros) do alinhamento frontal, das divisas laterais e de fundos, sempre contados a partir do eixo do poste em relação à divisa do imóvel ocupado.\n\nII - as torres, postes ou similares com altura superior a 80,00m (oitenta metros) ficarão condicionados à apresentação de justificativa técnica para a altura e dependerão de diretrizes prévias emitidas pela Comissão de Análise Integrada de Projetos de Edificações e de Parcelamento do Solo – CAIEPS e aprovadas pela CTLU, para a definição dos recuos mínimos necessários à sua compatibilização com o entorno;\n\n§ 1º Nas áreas prioritárias referidas no artigo 27 da Lei nº 17.733, de 2022, poderão ser autorizados outros recuos que não os referidos no inciso I do “caput” deste artigo, mediante a apresentação de laudo técnico que ateste:\n\nI - a impossibilidade técnica da implantação com o cumprimento dos recuos;\n\nII - a necessidade da implantação e os eventuais prejuízos caso não seja realizada.\n\n§ 2º O previsto no inciso I do “caput” deste artigo não se aplica às ERBs instaladas no topo de edifícios.\n\n§ 3º As ERBs obedecerão às limitações das divisas do terreno do imóvel, não podendo apresentar projeção que ultrapasse o limite da edificação existente para o lote vizinho, quando a edificação ocupar todo o lote próprio.\n\n§ 4º Na hipótese da execução de melhoramento viário ou alargamento de passeio público, as Estações Rádio Base deverão ser realocadas no mesmo lote ou removidas pela detentora responsável, sem direito a indenização.\n\n§ 5º Deverá ser assinalado prazo de 180 (cento e oitenta) dias para a realocação ou remoção referidas no § 4 deste artigo, considerando a necessidade de cobertura da região em que localizado o equipamento.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 61.137/2022 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção I › Art. 5º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-61137-de-10-de-marco-de-2022",
+    "vigencia": {
+      "inicio": "2022-03-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2022-03-10 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 17.733, de 11 de janeiro de 2022, que dispõe sobre a instalação de Estação Radio Base – ERB, Mini ERB e ERB Móvel no Município de São Paulo."
+}

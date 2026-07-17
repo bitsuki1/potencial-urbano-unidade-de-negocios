@@ -1,0 +1,160 @@
+{
+  "id": "lei-municipal-saopaulo-17734-2022",
+  "tipo_norma": "lei_ordinaria",
+  "esfera": "municipal",
+  "jurisdicao": "São Paulo/SP",
+  "numero": "17.734",
+  "ano": 2022,
+  "ementa": "Regulamenta, no âmbito do Município de São Paulo, os procedimentos aplicáveis à Regularização Fundiária, de acordo com a Lei Federal nº 13.465, de 11 de julho de 2017, e o Decreto Federal nº 9.310, de 2018, e dá outras providências.",
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "itbi",
+    "planta_generica_valores",
+    "habitacao_interesse_social"
+  ],
+  "dispositivos_chave": [
+    "Art. 1º A presente Lei estabelece as normas e os procedimentos para a Regularização Fundiária Urbana – Reurb de núcleos urbanos",
+    "Art. 2º No Município de São Paulo a Reurb abrange medidas jurídicas, urbanísticas, ambientais e sociais necessárias à incorporaç",
+    "Art. 3º A Reurb dos núcleos urbanos informais deverá submeter-se aos princípios que regem a Política de Desenvolvimento Urbano p",
+    "Art. 4º Tem-se, para efeitos desta Lei, as seguintes definições para núcleo urbano:",
+    "Art. 5º Para os fins desta Lei, consideram-se:",
+    "Art. 6º São objetivos da Reurb, de acordo com a Política Municipal de Habitação Social:",
+    "Art. 7º A Reurb de núcleos urbanos de uso não residencial deve atender aos objetivos da Política de Desenvolvimento Econômico Su",
+    "Art. 8º São instrumentos de constituição de direitos reais aos beneficiários da Reurb, a serem utilizados pelo Poder Público Mun",
+    "Art. 9º No caso de áreas públicas municipais, o órgão competente pela Reurb poderá rescindir os títulos de Concessão de Uso Espe",
+    "Art. 10 . As garantias dos direitos à moradia e a indenização previstas no art. 9º desta Lei aplicam-se igualmente aos moradores",
+    "Art. 11 . Fica o Executivo Municipal autorizado a alienar por decreto, de forma onerosa, aos beneficiários da Reurb-E, os lotes",
+    "Art. 12 . São institutos e instrumentos jurídicos previstos na Lei nº 13.465, de 11 de julho de 2017, e na Lei nº 10.257, de 10",
+    "Art. 13 . Para fins de Reurb de núcleos urbanos fica dispensada a desafetação das áreas públicas municipais que integrem o perím",
+    "Art. 14 . O processamento e aprovação da Reurb ficam atribuídos à Secretaria Municipal de Habitação – SEHAB.",
+    "Art. 15 . Cabe à Secretaria Municipal de Habitação – SEHAB:",
+    "Art. 16 . O procedimento da Reurb deverá observar as seguintes fases:",
+    "Art. 17 . Os beneficiários dos núcleos urbanos informais objeto da Reurb deverão ter sua participação assegurada por meio de dif",
+    "Art. 18 . São legitimados para requerer a Reurb:",
+    "Art. 19 . No requerimento de instauração da Reurb deverá constar a qualificação completa de seu subscritor, acompanhado dos elem",
+    "Art. 20 . O legitimado requerente que protocolar seu pedido de Reurb-S declarando ter apresentado todos os elementos técnicos in",
+    "Art. 21 . No caso de Reurb-S, caso haja proposta de elaborar e custear o Projeto de Regularização Fundiária e implementar as obr",
+    "Art. 22 . Na Reurb-E o legitimado proponente será responsável pela produção de todos os elementos técnicos necessários ao Projet",
+    "Art. 23 . A promoção da Reurb-E é compulsória e deverá ser promovida e custeada por seus legitimados.",
+    "Art. 24 . A fixação da modalidade da Reurb de núcleo urbano informal consolidado preexistente a esta Lei por quaisquer dos legit",
+    "Art. 25 . Será indeferido o requerimento individual para a aplicação de legitimação fundiária sobre unidade imobiliária inserida"
+  ],
+  "vigencia": {
+    "inicio": "2022-01-11",
+    "fim": null,
+    "em_vigor": true,
+    "altera": [],
+    "alterada_por": [],
+    "revogada_por": null,
+    "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2022-01-11. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+  },
+  "remissoes": [
+    {
+      "norma": "Decreto nº 54.072",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "LEI Nº 17.734",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei Complementar nº 123/06",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei Federal nº 10.257",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei Federal nº 10.406",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei Federal nº 12.651",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei Federal nº 13.019",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei Federal nº 13.465",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei Federal nº 3.365, de 1941",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei Federal nº 4.132",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei Federal nº 6.015",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei Federal nº 6.015, de 1973",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei Federal nº 6.766",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei Federal nº 8.666",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei Federal nº 9.985",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 10.257",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 10.406",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 13.465",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 14.141",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 14.665",
+      "relacao": "citada no texto (detectada automaticamente)"
+    }
+  ],
+  "jurisprudencia_relacionada": [],
+  "tem_tabela": true,
+  "tabelas_extraidas": [],
+  "tem_formula": false,
+  "formulas_referenciadas": [],
+  "fonte": {
+    "origem": "Portal oficial (legislacao.prefeitura.sp.gov.br)",
+    "path": "_entrada/misto/lei-municipal-saopaulo-17734-2022.txt",
+    "url": "https://legislacao.prefeitura.sp.gov.br/lei-17734-de-11-de-janeiro-de-2022",
+    "hash": "sha256:3383b80f7316030cb064977ab89c0dc4cf3a1d33310f639042beb5d94b8c1d45",
+    "hash_nota_fonte": "sha256 do HTML bruto do portal capturado 2026-07-13",
+    "ocr": false,
+    "metodo": "VERBATIM INTEGRAL (portal oficial, texto compilado); captura portal oficial legislacao.prefeitura.sp.gov.br (container texto_compilado); promovido de _entrada/misto/",
+    "hash_alvo": "_entrada/misto/lei-municipal-saopaulo-17734-2022.txt",
+    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior."
+  },
+  "status_pipeline": "indexado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "dominio_primario": "tdc",
+  "dominio": [
+    "tdc"
+  ]
+}

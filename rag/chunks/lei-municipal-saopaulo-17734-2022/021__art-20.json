@@ -1,0 +1,52 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17734-2022::021-art-20",
+  "lei_id": "lei-municipal-saopaulo-17734-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 20",
+  "numero": "20",
+  "header_raw": "Art. 20. O legitimado requerente que protocolar seu pedido de Reurb-S declarando ter apresentado todos os elementos técnicos indicados no art. 30 desta Lei terá seu pedido analisado pelo órgão responsável pela Reurb, devendo ser comunicado, por meio de correspondência com aviso de recebimento ou de forma eletrônica que garanta a comprovação do recebimento, quanto à decisão da classificação do núcleo urbano ou, quanto à necessidade de eventuais ajustes ou complementação da documentação apresentada, ou quanto ao seu indeferimento.",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção II",
+    "Art. 20"
+  ],
+  "texto": "Art. 20. O legitimado requerente que protocolar seu pedido de Reurb-S declarando ter apresentado todos os elementos técnicos indicados no art. 30 desta Lei terá seu pedido analisado pelo órgão responsável pela Reurb, devendo ser comunicado, por meio de correspondência com aviso de recebimento ou de forma eletrônica que garanta a comprovação do recebimento, quanto à decisão da classificação do núcleo urbano ou, quanto à necessidade de eventuais ajustes ou complementação da documentação apresentada, ou quanto ao seu indeferimento.\n\n§ 1º O não atendimento pelo legitimado proponente do comunicado para ajuste ou complementação da documentação no prazo de 60 (sessenta) dias acarretará no indeferimento e arquivamento do pedido.\n\n§ 2º Respondido o comunicado pelo legitimado proponente, o órgão responsável pela Reurb deliberará a classificação do núcleo urbano ou indeferirá o pedido, justificadamente.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.734/2022 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção II › Art. 20",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17734-de-11-de-janeiro-de-2022",
+    "vigencia": {
+      "inicio": "2022-01-11",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2022-01-11. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "itbi",
+    "planta_generica_valores",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta, no âmbito do Município de São Paulo, os procedimentos aplicáveis à Regularização Fundiária, de acordo com a Lei Federal nº 13.465, de 11 de julho de 2017, e o Decreto Federal nº 9.310, de 2018, e dá outras providências."
+}

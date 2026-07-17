@@ -1,0 +1,51 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17734-2022::074-art-73",
+  "lei_id": "lei-municipal-saopaulo-17734-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 73",
+  "numero": "73",
+  "header_raw": "Art. 73. Na análise de qualquer requerimento de Reurb, a SEHAB deverá observar a existência de Processos de Regularização Fundiária em andamento, de Projetos de Urbanização em andamento, de obras em andamento, de projetos de requalificação urbana como Operações Urbanas, RENOVA, Projeto Heliópolis, Projeto Paraisópolis, e similares.",
+  "caminho_hierarquico": [
+    "CAPÍTULO VI",
+    "Art. 73"
+  ],
+  "texto": "Art. 73. Na análise de qualquer requerimento de Reurb, a SEHAB deverá observar a existência de Processos de Regularização Fundiária em andamento, de Projetos de Urbanização em andamento, de obras em andamento, de projetos de requalificação urbana como Operações Urbanas, RENOVA, Projeto Heliópolis, Projeto Paraisópolis, e similares.\n\n§ 1º Constatada a existência de quaisquer das situações indicadas no caput deste artigo, caberá ao órgão responsável pela Reurb elaborar relatório informando sobre a possibilidade ou não de continuidade da regularização pretendida, apontando, especialmente, o impacto que a pretensa regularização pode causar ao projeto em andamento, após manifestação do órgão responsável pelo Programa/Projeto.\n\n§ 2º O relatório deverá ser submetido ao Secretário Municipal de Habitação, que deliberará sobre a continuidade do processo ou sobre seu indeferimento.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.734/2022 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO VI › Art. 73",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17734-de-11-de-janeiro-de-2022",
+    "vigencia": {
+      "inicio": "2022-01-11",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2022-01-11. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "itbi",
+    "planta_generica_valores",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta, no âmbito do Município de São Paulo, os procedimentos aplicáveis à Regularização Fundiária, de acordo com a Lei Federal nº 13.465, de 11 de julho de 2017, e o Decreto Federal nº 9.310, de 2018, e dá outras providências."
+}

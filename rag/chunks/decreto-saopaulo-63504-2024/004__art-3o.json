@@ -1,0 +1,54 @@
+{
+  "chunk_id": "decreto-saopaulo-63504-2024::004-art-3o",
+  "lei_id": "decreto-saopaulo-63504-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 3º",
+  "numero": "3",
+  "header_raw": "Art. 3º O cálculo do valor da contrapartida financeira por metro quadrado relativo à OODC será efetuado conforme a equação estabelecida no artigo 117 do PDE:",
+  "caminho_hierarquico": [
+    "CAPÍTULO I",
+    "SEÇÃO I",
+    "Art. 3º"
+  ],
+  "texto": "Art. 3º O cálculo do valor da contrapartida financeira por metro quadrado relativo à OODC será efetuado conforme a equação estabelecida no artigo 117 do PDE:\n\nC = (At/Ac).V.Fp.Fs\n\nOnde:\n\nC: contrapartida financeira relativa à outorga onerosa do direito de construir por metro quadrado;\n\nAt: área de terreno em metro quadrado;\n\nAc: área construída computável total pretendida no empreendimento em metro quadrado;\n\nV: valor do metro quadrado do terreno do Cadastro de Valor de Terreno para fins de\n\nOutorga Onerosa, conforme Quadro 14 anexo ao PDE e atualizações supervenientes;\n\nFs: fator de interesse social definido conforme Quadro 5 e artigo 79 do PDE;\n\nFp: fator de planejamento definido conforme Quadro 6 anexo ao PDE e complementações ou alterações.\n\n§ 1º As áreas computáveis resultantes da aplicação de dispositivos de acréscimo de área computável, quando previstas, deverão integrar a área computável total pretendida no empreendimento –Ac, para efeito dos cálculos de OODC.\n\n§ 2º Caso o empreendimento envolva mais de uma tipologia de uso com Fs e/ou Fp diferentes, a contrapartida financeira por metro quadrado de potencial construtivo adicional – “C”, deverá ser calculada para cada tipologia, na conformidade do Quadro 5 e do artigo 79, ambos da Lei nº 16.050, de 2014 - PDE.\n\n§ 3º A contrapartida financeira total calcula-se pela multiplicação da contrapartida financeira relativa a cada m² -” C”, pelo potencial construtivo adicional adquirido, sendo o resultado do somatório do valor obtido para cada tipologia, nos casos do § 2º deste artigo.\n\n§ 4º Nos casos em que o terreno, composto por um ou mais lotes fiscais, abranger faces distintas da quadra deverá ser utilizado o maior valor do metro quadrado do terreno –V, para o cálculo da contrapartida financeira -C, considerando-se como valor inferior aos demais valores de metro quadrado de terreno aquele referente à rua sem saída, se inexistente no Quadro 14 anexo ao PDE.\n\n§ 5º Na hipótese de ausência do valor do metro quadrado do terreno – V, no Quadro 14 anexo ao PDE, e nas regulamentações que o atualizaram ou vierem a atualizá-lo, nos casos não abarcados pelo §4º deste artigo, a Coordenadoria de Legislação de Uso e Ocupação do Solo – DEUSO, da Secretaria Municipal de Urbanismo e Licenciamento, deverá ser consultada por meio de processo administrativo, para análise a ser submetida à deliberação e edição de resolução pela Câmara Técnica de Legislação Urbanística - CTLU, à qual caberá a deliberação quanto ao valor aplicável ao metro quadrado de terreno do CODLOG ausente, nos termos do inciso I do artigo 330 do PDE.\n\n§ 6º Para definição do Fs, deverá ser considerada a área construída computável privativa da unidade residencial, em observância à Nota “2” do Quadro 5 anexo ao PDE.\n\n§ 7º Nos casos em que o projeto proposto ultrapasse a cota parte máxima de terreno (Q) por unidade habitacional definida no Quadro 2 anexo ao PDE e Quadro 3 anexo à LPUOS, nos termos do artigo 79 do PDE, o Fs aplicável às unidades residenciais com mais de 70m² (setenta metros quadrados) deverá seguir as disposições da Seção II deste Capítulo.\n\n§ 8º Nas Zonas Eixo de Estruturação da Transformação Metropolitana - ZEM e nas Zonas Eixo de Estruturação da Transformação Metropolitana Previstas - ZEMP, o Fp é igual a 2 (dois) para usos residenciais e não residenciais, nos termos do artigo 8º da LPUOS.\n\nSEÇÃO II\n\nDA DEFINIÇÃO DO FATOR DE INTERESSE SOCIAL - FS EM FUNÇÃO DA COTA PARTE",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 63.504/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO I › SEÇÃO I › Art. 3º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-63504-de-14-de-junho-de-2024",
+    "vigencia": {
+      "inicio": "2024-06-14",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Regime GERAL da Outorga Onerosa do Direito de Construir (OODC), regulamentando o art. 117 do PDE (Lei 16.050/2014, red. Lei 17.975/2023) e a LPUOS (Lei 16.402/2016, red. Lei 18.081/2024). Em vigor desde 14/06/2024; sem auto-revogacao/suspensao. NAO se aplica dentro de OUC (leis proprias) nem, salvo no que couber, em AIU. Fonte-norma da formula C=(At/Ac)·V·Fp·Fs auditada nos engines."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "plano_intervencao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao",
+    "habitacao_interesse_social",
+    "potencial_construtivo"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Outorga Onerosa do Direito de Construir, nos termos da Lei nº 16.050, de 31 de julho de 2014, alterada pela Lei nº 17.975, de 8 de julho de 2023, e da Lei nº 16.402, de 22 de março de 2016, alterada pela Lei nº 18.081, de 19 de janeiro de 2024, e dá outras providências."
+}

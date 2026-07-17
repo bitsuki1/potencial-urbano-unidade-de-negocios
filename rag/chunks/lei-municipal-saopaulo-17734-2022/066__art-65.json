@@ -1,0 +1,52 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17734-2022::066-art-65",
+  "lei_id": "lei-municipal-saopaulo-17734-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 65",
+  "numero": "65",
+  "header_raw": "Art. 65. O estoque de potencial construtivo adicional previsto nesta Lei será utilizado nos programas de regularização fundiária como contrapartida ao ciclo de incorporação dos núcleos urbanos informais ao ordenamento territorial urbano e à titulação de seus ocupantes, incluindo os projetos de regularização fundiária e a doação de áreas privadas destinadas a esta finalidade.",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Seção II",
+    "Art. 65"
+  ],
+  "texto": "Art. 65. O estoque de potencial construtivo adicional previsto nesta Lei será utilizado nos programas de regularização fundiária como contrapartida ao ciclo de incorporação dos núcleos urbanos informais ao ordenamento territorial urbano e à titulação de seus ocupantes, incluindo os projetos de regularização fundiária e a doação de áreas privadas destinadas a esta finalidade.\n\nParágrafo único. Aplicam-se aos pedidos de adesão ao programa previsto nesta Lei as seguintes disposições:\n\nI - a economicidade da utilização do instrumento da Transferência do Direito de Construir com Doação do Imóvel será demonstrada por intermédio de estudo de viabilidade econômica, que considerará os eventuais valores a despender em processo desapropriatório como paradigma de comparação aos custos associados ao processo;\n\nII - os projetos de regularização fundiária poderão incluir as obras necessárias e ser doados conjuntamente ao imóvel cedente ou mediante utilização da Transferência do Direito de Construir sem Doação do Imóvel Cedente;\n\nIII - o valor estimado do projeto de regularização fundiária será apreciado por comissão especial de avaliação, instituída no âmbito da Secretaria Municipal de Habitação;\n\nIV - a quantidade de metros quadrados a serem recebidos nas doações de projetos de regularização fundiária será calculada considerando-se o terreno objeto da regularização.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.734/2022 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO V › Seção II › Art. 65",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17734-de-11-de-janeiro-de-2022",
+    "vigencia": {
+      "inicio": "2022-01-11",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2022-01-11. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "itbi",
+    "planta_generica_valores",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta, no âmbito do Município de São Paulo, os procedimentos aplicáveis à Regularização Fundiária, de acordo com a Lei Federal nº 13.465, de 11 de julho de 2017, e o Decreto Federal nº 9.310, de 2018, e dá outras providências."
+}

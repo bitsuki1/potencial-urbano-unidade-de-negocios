@@ -1,0 +1,46 @@
+{
+  "chunk_id": "decreto-saopaulo-60939-2021::033-art-13-d",
+  "lei_id": "decreto-saopaulo-60939-2021",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 13-D",
+  "numero": "13-D",
+  "header_raw": "Art. 13-D Na hipótese de a autoridade entender conveniente para eliminar irregularidade, incerteza jurídica ou situações contenciosas na aplicação do Direito Público, inclusive no caso de expedição de licença, poderá celebrar compromisso com os interessados, observada a legislação aplicável e as seguintes condições:(Incluído pelo Decreto nº 62.936/2023)",
+  "caminho_hierarquico": [
+    "CAPÍTULO II - C",
+    "Art. 13-D"
+  ],
+  "texto": "Art. 13-D Na hipótese de a autoridade entender conveniente para eliminar irregularidade, incerteza jurídica ou situações contenciosas na aplicação do Direito Público, inclusive no caso de expedição de licença, poderá celebrar compromisso com os interessados, observada a legislação aplicável e as seguintes condições:(Incluído pelo Decreto nº 62.936/2023)\n\nI - após oitiva do órgão jurídico;(Incluído pelo Decreto nº 62.936/2023)\n\nII - após realização de consulta pública, caso seja cabível;(Incluído pelo Decreto nº 62.936/2023)\n\nIII - presença de razões de relevante interesse geral.(Incluído pelo Decreto nº 62.936/2023)\n\n§ 1º A decisão de celebrar o compromisso a que se refere o “caput” deste artigo será motivada.(Incluído pelo Decreto nº 62.936/2023)\n\n§ 2º O compromisso de que trata o “caput” deste artigo:(Incluído pelo Decreto nº 62.936/2023)\n\nI - buscará solução proporcional, equânime, eficiente e compatível com os interesses gerais;(Incluído pelo Decreto nº 62.936/2023)\n\nII - não poderá conferir desoneração permanente de dever ou condicionamento de direito reconhecido por orientação geral;(Incluído pelo Decreto nº 62.936/2023)\n\nIII - preverá:(Incluído pelo Decreto nº 62.936/2023)\n\na) as obrigações das partes;(Incluído pelo Decreto nº 62.936/2023)\n\nb) o prazo e o modo para seu cumprimento;(Incluído pelo Decreto nº 62.936/2023)\n\nc) a forma de fiscalização quanto a sua observância;(Incluído pelo Decreto nº 62.936/2023)\n\nd) os fundamentos de fato e de direito;(Incluído pelo Decreto nº 62.936/2023)\n\ne) a sua eficácia de título executivo extrajudicial;(Incluído pelo Decreto nº 62.936/2023)\n\nf) as sanções aplicáveis em caso de descumprimento.(Incluído pelo Decreto nº 62.936/2023)\n\n§ 3º O compromisso firmado somente produzirá efeitos a partir de sua publicação.(Incluído pelo Decreto nº 62.936/2023)\n\n§ 4º O processo que subsidiar a decisão de celebrar o compromisso será instruído com:(Incluído pelo Decreto nº 62.936/2023)\n\nI - o parecer técnico conclusivo do órgão competente sobre a viabilidade técnica, operacional e, quando for o caso, sobre as obrigações orçamentário-financeiras a serem assumidas;(Incluído pelo Decreto nº 62.936/2023)\n\nII - o parecer conclusivo do órgão jurídico sobre a viabilidade jurídica do compromisso, que conterá a análise da minuta proposta;(Incluído pelo Decreto nº 62.936/2023)\n\nIII - a minuta do compromisso, que conterá as alterações decorrentes das análises técnica e jurídica previstas nos incisos I e II deste parágrafo;(Incluído pelo Decreto nº 62.936/2023)\n\nIV - a cópia de outros documentos que possam auxiliar na decisão de celebrar o compromisso.(Incluído pelo Decreto nº 62.936/2023)\n\n§ 5º Quando o objeto do compromisso envolver incerteza jurídica na aplicação do Direito Público, fica vedada a sua autorização sem a prévia manifestação da Procuradoria Geral do Município.(Incluído pelo Decreto nº 62.936/2023)\n\n§ 6º As Secretarias Municipais poderão estabelecer, mediante portaria, diretrizes e procedimentos visando orientar as unidades acerca do cumprimento do disposto neste artigo.(Incluído pelo Decreto nº 62.936/2023)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 60.939/2021 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II - C › Art. 13-D",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-60939-de-23-de-dezembro-de-2021",
+    "vigencia": {
+      "inicio": "2021-12-23",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2021-12-23 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "itbi"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Política Municipal de Desjudicialização instituída pela Lei nº 17.324, de 18 de março de 2020, bem como regulamenta a transação tributária de que trata os artigos 21 a 24 da Lei nº 17.719, de 26 de novembro de 2021."
+}

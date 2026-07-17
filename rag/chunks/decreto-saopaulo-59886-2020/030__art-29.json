@@ -1,0 +1,50 @@
+{
+  "chunk_id": "decreto-saopaulo-59886-2020::030-art-29",
+  "lei_id": "decreto-saopaulo-59886-2020",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 29",
+  "numero": "29",
+  "header_raw": "Art. 29. Os Empreendimentos de Habitação de Mercado Popular - EHMP e as unidades de Habitação de Mercado Popular - HMP submetem-se integralmente às disposições das leis das Operações Urbanas Consorciadas e da Operação Urbana Centro, em relação aos benefícios nelas previstos , inclusive quanto à sua necessária contrapartida e ao respectivo consumo de estoque de potencial construtivo adicional, quando couber.",
+  "caminho_hierarquico": [
+    "CAPÍTULO IV",
+    "Art. 29"
+  ],
+  "texto": "Art. 29. Os Empreendimentos de Habitação de Mercado Popular - EHMP e as unidades de Habitação de Mercado Popular - HMP submetem-se integralmente às disposições das leis das Operações Urbanas Consorciadas e da Operação Urbana Centro, em relação aos benefícios nelas previstos , inclusive quanto à sua necessária contrapartida e ao respectivo consumo de estoque de potencial construtivo adicional, quando couber.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 59.886/2020 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO IV › Art. 29",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59886-de-4-de-novembro-de-2020",
+    "vigencia": {
+      "inicio": "2020-11-04",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2020-11-04. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Consolida a disciplina específica de uso e ocupação do solo para os Empreendimentos de Habitação de Interesse Social – EHIS e Empreendimentos em ZEIS - EZEIS a serem executados nas áreas das Operações Urbanas Consorciadas Água Espraiada, Faria Lima e Água Branca e na Operação Urbana Centro."
+}

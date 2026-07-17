@@ -1,0 +1,48 @@
+{
+  "chunk_id": "decreto-saopaulo-61137-2022::031-art-30",
+  "lei_id": "decreto-saopaulo-61137-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 30",
+  "numero": "30",
+  "header_raw": "Art. 30. Para a instalação de ERB móvel e de mini ERB em áreas privadas, a pessoa jurídica de direito público ou privado deverá encaminhar ao CONVIAS – Departamento de Controle e Cadastro de Infraestrutura Urbana, da Secretaria Municipal das Subprefeituras, por intermédio de endereço eletrônico convias.erb@smsub.prefeitura.sp.gov.br, uma declaração, conforme Anexo I deste decreto, contendo os seguintes parâmetros:",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Seção II",
+    "Art. 30"
+  ],
+  "texto": "Art. 30. Para a instalação de ERB móvel e de mini ERB em áreas privadas, a pessoa jurídica de direito público ou privado deverá encaminhar ao CONVIAS – Departamento de Controle e Cadastro de Infraestrutura Urbana, da Secretaria Municipal das Subprefeituras, por intermédio de endereço eletrônico convias.erb@smsub.prefeitura.sp.gov.br, uma declaração, conforme Anexo I deste decreto, contendo os seguintes parâmetros:\n\nI - formato de entrada de dados “shapefile”;\n\nII - geometria das feições – ponto ou linha;\n\nIII - Sistema de Projeção / Datum – UTM Fuso 23 / SAD 69 e SIRGAS 2000;\n\nIV - Codificação – UTF – 8;\n\nV - Escala / Precisão – deverá ser informada a escala de origem ou os intervalos de escalas das informações;\n\nVI - apresentação dos atributos destacados no Anexo II – Tabela de Requisitos para o TCE - Termo de Cadastro Eletrônico deste decreto;\n\nVII - autorização do dos órgãos de preservação do patrimônio, tratando-se de imóvel tombado.\n\n§ 1º O CONVIAS – Departamento de Controle e Cadastro de Infraestrutura Urbana, da Secretaria Municipal das Subprefeituras, emitirá TCE - Termo de Cadastro Eletrônico, após o recebimento da documentação prevista neste artigo.\n\n§ 2º Nos termos do artigo 8º da Lei nº 17.733, de 2022, a instalação de ERB móvel e de mini ERB em áreas privadas independe da emissão prévia do TCE - Termo de Cadastro Eletrônico, desde que corretamente encaminhada a documentação e dados previstos no “caput” deste artigo e atendidos os demais requisitos previstos na legislação.\n\nSubseção II\n\nDa Permissão de Uso Para Instalação em Áreas Públicas Vias e Logradouros Públicos",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 61.137/2022 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Seção II › Art. 30",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-61137-de-10-de-marco-de-2022",
+    "vigencia": {
+      "inicio": "2022-03-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2022-03-10 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 17.733, de 11 de janeiro de 2022, que dispõe sobre a instalação de Estação Radio Base – ERB, Mini ERB e ERB Móvel no Município de São Paulo."
+}

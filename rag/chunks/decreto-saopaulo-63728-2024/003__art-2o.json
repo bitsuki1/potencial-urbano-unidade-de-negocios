@@ -1,0 +1,54 @@
+{
+  "chunk_id": "decreto-saopaulo-63728-2024::003-art-2o",
+  "lei_id": "decreto-saopaulo-63728-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 2º",
+  "numero": "2",
+  "header_raw": "Art. 2º São agentes produtores de HIS e HMP aqueles que aderirem ao regramento específico regulado por este decreto e o regime jurídico próprio que rege a produção privada de unidades HIS-1, HIS-2 e HMP, disciplinado no Decreto nº 63.130, de 19 de janeiro de 2024 e eventuais revisões posteriores, conforme as seguintes tipologias:",
+  "caminho_hierarquico": [
+    "CAPÍTULO I",
+    "SEÇÃO I",
+    "Art. 2º"
+  ],
+  "texto": "Art. 2º São agentes produtores de HIS e HMP aqueles que aderirem ao regramento específico regulado por este decreto e o regime jurídico próprio que rege a produção privada de unidades HIS-1, HIS-2 e HMP, disciplinado no Decreto nº 63.130, de 19 de janeiro de 2024 e eventuais revisões posteriores, conforme as seguintes tipologias:\n\nI - EHIS, EZEIS e HIS:\n\na) órgãos da Administração Pública Direta;\n\nb) empresas de controle acionário público;\n\nc) entidades representativas dos futuros moradores ou cooperativas habitacionais;\n\nd) entidades ou empresas privadas que desenvolvam empreendimentos;\n\ne) empresas privadas ou entidades sem fins lucrativos, quando atuando como executoras ou organizadoras de EHIS, no âmbito de programa habitacional subvencionado pela União, Estado ou Município.\n\nII - EHMP e HMP: qualquer agente público ou privado, observadas as disposições deste decreto.\n\n§ 1º° Os agentes produtores de unidades HIS e HMP, elencados nos incisos do “caput”, deverão destinar as unidades produzidas para famílias com renda declarada que se enquadrem nas disposições deste decreto, conforme disposições do § único do artigo 1º deste decreto, observadas as atualizações dos valores definidas anualmente por decreto.\n\n§ 2º Para a emissão do Alvará de Aprovação, ou Aprovação e Execução, ou Alvará obtido no Plano Integrado, destinado à produção de unidades HIS e HMP, os agentes produtores, na qualidade de proprietário ou possuidor, deverão apresentar Declaração de Responsabilidade pela correta destinação de unidades habitacionais das tipologias de HIS-1, HIS-2 e HMP, produzidas com utilização de benefícios urbanísticos e fiscais, conforme modelo constante do Anexo Único integrante do Decreto nº 63.130, de 19 de janeiro de 2024 e eventuais revisões posteriores.\n\n§ 3º Quanto à responsabilidade pela correta observância às porcentagens de HIS e HMP quando da destinação das unidades, devem ser consideradas as disposições do Decreto 63.130, de 2024.\n\n§ 4º Quando da emissão do Alvará de Aprovação, ou Alvará de Aprovação e Execução, ou Alvará de Execução, inclusive obtido através de Plano Integrado, bem como na emissão do Certificado de Conclusão, deverá constar ressalva consignando que, por ocasião da abertura das matrículas individualizadas, deverá ser realizada a averbação na matrícula de cada unidade habitacional das tipologias de HIS-1, HIS-2 e HMP, produzida mediante adesão ao regime jurídico regulamentado no Decreto 63.130, de 2024, de que esta recebeu os benefícios previstos na legislação específica e deverá ser destinada a famílias com renda declarada e atestada em conformidade com as disposições do referido decreto.\n\n§ 5º As disposições do regime jurídico tratado neste artigo se aplicam aos empreendimentos destinados, total ou parcialmente, para locação das unidades habitacionais de HIS-1, HIS-2 e HMP, devendo indicar tal condição mediante averbação na matrícula, em adição à averbação prevista no § 4º deste artigo.\n\n§ 6º Poderão ser expedidas Certidões de Diretrizes Urbanísticas, Certidões de Conformidade e Alvarás de Aprovação de EHIS, EHMP ou EZEIS em nome de pessoa física, empresa ou entidade conforme o caso, devendo, por ocasião do Alvará de Execução, ser emitido em nome de pessoa jurídica, ainda que na condição de possuidora do imóvel.\n\n§ 7º Constituem exceções ao disposto no §6º deste decreto, os pedidos de Alvará de Execução para Habitação Unifamiliar nas tipologias EHIS-u e EHMP-u, definidas no inciso III do artigo 7º, para pessoas físicas.\n\n§ 8º Os documentos de que trata este decreto poderão ser emitidos em nome do possuidor do imóvel, desde que assim devidamente caracterizado nos termos do artigo 6º do COE e artigo 8º do Decreto nº 57.776, de 2017, com ressalva no Alvará de Aprovação e Execução, ou Alvará de Execução, de que, por ocasião do pedido de Certificado de Conclusão, deverá ser apresentada a matrícula do imóvel constando como proprietária a pessoa jurídica referida no respectivo alvará.\n\nSEÇÃO II\n\nDAS DEFINIÇÕES DAS UNIDADES DE HIS E HMP",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 63.728/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO I › SEÇÃO I › Art. 2º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-63728-de-10-de-setembro-de-2024",
+    "vigencia": {
+      "inicio": "2024-09-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2024-09-10. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "plano_intervencao_urbana",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Estabelece disciplina específica de parcelamento, uso e ocupação do solo, bem como normas edilícias para Habitação de Interesse Social - HIS, Habitação de Mercado Popular - HMP, Empreendimento de Habitação de Interesse Social - EHIS, Empreendimento de Habitação de Mercado Popular - EHMP e Empreendimento em Zona Especial de Interesse Social - EZEIS, nos termos da Lei nº 16.050, de 31 de julho de 2014 - PDE, alterada e revisada pela Lei nº 17.975, de 08 de julho de 2023 e pela Lei nº 18.157, de 17 de julho de 2024, da Lei nº 16.402, de 22 de março de 2016 - LPUOS, alterada e revisada pela Lei nº 18.081, de 19 de janeiro de 2024 e pela Lei 18.177, de 25 de julho de 2024, bem como da Lei nº 16.642, de 09 de maio de 2017 - COE."
+}

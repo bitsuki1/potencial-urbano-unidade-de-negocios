@@ -1,0 +1,46 @@
+{
+  "chunk_id": "decreto-saopaulo-57565-2016::003-art-2o",
+  "lei_id": "decreto-saopaulo-57565-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 2º",
+  "numero": "2",
+  "header_raw": "Art. 2º Aplicam-se as disposições relativas à Quota Ambiental, bem como a previsão de instalações de reservação de controle de escoamento superficial e para aproveitamento das águas pluviais, em lotes com área superior a 500m² (quinhentos metros quadrados), aos pedidos de aprovação para:",
+  "caminho_hierarquico": [
+    "CAPÍTULO I LICENCIAMENTO DE PROJETOS E REFORMAS",
+    "Seção I Procedimentos de licenciamento",
+    "Art. 2º"
+  ],
+  "texto": "Art. 2º Aplicam-se as disposições relativas à Quota Ambiental, bem como a previsão de instalações de reservação de controle de escoamento superficial e para aproveitamento das águas pluviais, em lotes com área superior a 500m² (quinhentos metros quadrados), aos pedidos de aprovação para:\n\nI - construção de edificação nova; ou\n\nII - reforma de edificação existente com acréscimo de área superior a 20% (vinte por cento) da área construída.\n\n§ 1º O autor do projeto e o proprietário ou possuidor são responsáveis pelo fornecimento das informações necessárias para a composição da pontuação da Quota Ambiental, conforme previsto no Quadro 3B da Lei nº 16.402, de 22 de março de 2016.\n\n§ 2º As informações referidas no “caput” deste artigo deverão ser inseridas em formulário conforme modelo especificado no Anexo I deste decreto.\n\n§ 3º Deverá constar do formulário referido no § 2º deste artigo a solicitação para a utilização dos benefícios previstos no § 2º do artigo 81, no artigo 82 e no artigo 83 e no parágrafo único do artigo 86, todos da Lei nº 16.402, de 2016.\n\n§ 4º Para fins de aplicação do desconto previsto no parágrafo único do artigo 86 da Lei nº 16.402, 2016, deverá ser considerada a data do pedido do Alvará de Aprovação ou do Alvará de Aprovação e Execução de Edificação Nova ou de Reforma.\n\n§ 5º No caso de utilização do incentivo previsto no artigo 82 da Lei nº 16.402, de 2016, deverá ser explicitado se o benefício será em desconto no valor total a ser pago na contrapartida financeira de outorga onerosa do direito de construir ou em área não computável incentivada.\n\n§ 6º As soluções construtivas, paisagísticas e o inventário dos indivíduos arbóreos propostos e existentes deverão ser demonstrados e quantificados nas peças gráficas do projeto objeto de licenciamento.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.565/2016 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO I LICENCIAMENTO DE PROJETOS E REFORMAS › Seção I Procedimentos de licenciamento › Art. 2º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57565-de-27-de-dezembro-de-2016",
+    "vigencia": {
+      "inicio": "2016-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2016-12-27. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "quota_ambiental"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta procedimentos para a aplicação da Quota Ambiental, nos termos da Lei nº 16.402, de 22 de março de 2016."
+}

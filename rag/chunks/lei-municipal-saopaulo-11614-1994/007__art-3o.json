@@ -1,0 +1,43 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-11614-1994::007-art-3o",
+  "lei_id": "lei-municipal-saopaulo-11614-1994",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 3º",
+  "numero": "3",
+  "header_raw": "Art. 3º A isenção prevista nesta lei não exonera o beneficiário do cumprimento das obrigações acessórias a que está sujeito.",
+  "caminho_hierarquico": [
+    "Art. 3º"
+  ],
+  "texto": "Art. 3º A isenção prevista nesta lei não exonera o beneficiário do cumprimento das obrigações acessórias a que está sujeito.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 11.614/1994 — São Paulo/SP",
+    "dispositivo": "Art. 3º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-11614-de-13-de-julho-de-1994",
+    "vigencia": {
+      "inicio": "1994-07-13",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 1994-07-13 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "planta_generica_valores"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Este texto não substitui o original publicado no Diário Oficial da Cidade de São Paulo."
+}

@@ -1,0 +1,99 @@
+{
+  "id": "lei-municipal-saopaulo-18298-2025",
+  "tipo_norma": "lei_ordinaria",
+  "esfera": "municipal",
+  "jurisdicao": "São Paulo/SP",
+  "numero": "18.298",
+  "ano": 2025,
+  "ementa": "Altera a Lei nº 18.222, de 27 de dezembro de 2024, que aprova o Plano de Intervenção Urbana para o território do Arco Pinheiros e cria a Área de Intervenção Urbana Arco Pinheiros, para fins de definição dos parâmetros de parcelamento, uso e ocupação do solo aplicáveis à Zona de Ocupação Especial do Instituto Butantan - ZOE Butantan; altera a Lei nº 16.402, de 22 de março de 2016, que disciplina o parcelamento, o uso e a ocupação do solo no Município de São Paulo, de acordo com a Lei nº 16.050, de 31 de julho de 2014 - Plano Diretor Estratégico (PDE), e dá outras providências.",
+  "tema": [
+    "revisao_piu",
+    "plano_intervencao_urbana",
+    "arco_pinheiros",
+    "zoe_butantan",
+    "uso_ocupacao_solo",
+    "zoneamento",
+    "parametros_urbanisticos",
+    "quota_ambiental",
+    "mata_atlantica",
+    "coeficiente_aproveitamento",
+    "fiscalizacao_posturas"
+  ],
+  "dispositivos_chave": [
+    "Objeto: revisao da Lei 18.222/2024 (PIU/AIU Arco Pinheiros) para a ZOE-Butantan e alteracao da Lei 16.402/2016 - LPUOS (Art. 1)",
+    "Nova redacao do Art. 19 da Lei 18.222/2024: rol das ZOE (Jaguare, Presidente Altino, CEAGESP, CDP, Butantan, IPT, USP) com lotes/setores fiscais (Art. 2)",
+    "Nova redacao do Art. 20 da Lei 18.222/2024: ZOE-CDP, ZOE-IPT e ZOE-USP exigem PIU-ZOE especifico (art. 136-A da Lei 16.050/2014) (Art. 2)",
+    "Disciplina urbanistica da ZOE-Butantan (Area de Preservacao P5): CA basico 0,50; TO maxima 0,30; gabarito 48m (28m na area hachurada); vedado parcelamento; parametros de incomodidade ZPI-2 (Art. 2, art. 20 § 3)",
+    "Regime ambiental da ZOE-Butantan: quota ambiental, Perimetro Ambiental 4, vedacao de supressao de Mata Atlantica em estagio medio/avancado (Lei Federal 11.428/2006), compensacao no Distrito do Butanta (Art. 2, art. 20 § 3, incisos XVI-XIX)",
+    "Alteracao do Art. 150 da Lei 16.402/2016 - competencia recursal PSIU/COPURB (Art. 3) - EFICACIA SUSPENSA por ADI",
+    "Alteracao da nota (a) do Quadro 5 - Multas do Anexo 12 da Lei 16.402/2016 (Art. 4) - EFICACIA SUSPENSA por ADI",
+    "Acrescimo de infracao ao Quadro 5 - Multas (Anexo Unico desta Lei) (Art. 5) - EFICACIA SUSPENSA por ADI",
+    "Substituicao do Mapa 1, Mapa II e Quadro 3A anexos a Lei 18.222/2024 pelas novas plantas digitais ACP996U001-A / ACP996U002-C (Art. 6)",
+    "Vigencia na publicacao; revoga o paragrafo unico do art. 19 da Lei 18.222/2024 (Art. 7)"
+  ],
+  "vigencia": {
+    "inicio": "2025-09-17",
+    "fim": null,
+    "em_vigor": true,
+    "altera": [
+      "Lei nº 18.222/2024 (arts. 19 e 20; Mapa 1, Mapa II e Quadro 3A)",
+      "Lei nº 16.402/2016 (art. 150; nota (a) e acrescimo ao Quadro 5 - Multas do Anexo 12)"
+    ],
+    "alterada_por": [],
+    "revogada_por": null,
+    "revoga": [
+      "Paragrafo unico do art. 19 da Lei nº 18.222/2024"
+    ],
+    "observacao": "Em vigor desde a publicacao (17/09/2025). ATENCAO (1.6): os Arts. 3, 4 e 5 (alteracoes na Lei 16.402/2016 - art. 150 e Quadro 5 de Multas) estao com EFICACIA SUSPENSA por decisao liminar na ADI nº 2007332-76.2026.8.26.0000 (TJSP) - a redacao anterior da 16.402/2016 nesses pontos permanece aplicavel enquanto durar a suspensao. Os Arts. 1, 2, 6 e 7 (nucleo TDC/urbanistico: ZOE-Butantan, mapas e quadros do PIU Arco Pinheiros) NAO foram atingidos e vigem normalmente."
+  },
+  "remissoes": [
+    {
+      "norma": "Lei nº 18.222/2024 (PIU/AIU Arco Pinheiros)",
+      "relacao": "norma alterada - esta lei da nova redacao aos arts. 19 e 20 e substitui Mapa 1, Mapa II e Quadro 3A; revoga o paragrafo unico do art. 19"
+    },
+    {
+      "norma": "Lei nº 16.402/2016 (LPUOS)",
+      "relacao": "norma alterada - nova redacao ao art. 150 e ao Quadro 5 de Multas (Anexo 12); aplicacao subsidiaria dos Quadros 3B, 3C, 4B e Mapa 3 na disciplina da ZOE-Butantan"
+    },
+    {
+      "norma": "Lei nº 16.050/2014 (PDE - Plano Diretor Estrategico)",
+      "relacao": "fundamento - PIU e ZOE atendem ao PDE; art. 136-A exige PIU-ZOE para ZOE-CDP/IPT/USP"
+    },
+    {
+      "norma": "Lei Federal nº 11.428/2006 (Lei da Mata Atlantica)",
+      "relacao": "referencia - regime de protecao da vegetacao nativa do Bioma Mata Atlantica na ZOE-Butantan"
+    },
+    {
+      "norma": "ADI nº 2007332-76.2026.8.26.0000 (TJSP)",
+      "relacao": "controle de constitucionalidade - suspende a eficacia dos arts. 3, 4 e 5 desta lei"
+    }
+  ],
+  "jurisprudencia_relacionada": [
+    {
+      "referencia": "ADI nº 2007332-76.2026.8.26.0000 (Orgao Especial do TJSP)",
+      "relacao": "acao direta de inconstitucionalidade com liminar suspendendo a eficacia dos arts. 3, 4 e 5 (alteracoes na Lei 16.402/2016)"
+    }
+  ],
+  "tem_tabela": true,
+  "tabelas_extraidas": [],
+  "tem_formula": false,
+  "formulas_referenciadas": [],
+  "fonte": {
+    "origem": "Portal oficial (legislacao.prefeitura.sp.gov.br)",
+    "path": "_entrada/misto/lei-municipal-saopaulo-18298-2025.txt",
+    "url": "https://legislacao.prefeitura.sp.gov.br/lei-18298-de-17-de-setembro-de-2025",
+    "hash": "sha256:29db2c1aaaa3c80929ebd999e5d716c6bc8623cb1f598f290300ceee5a6ed62f",
+    "hash_nota_fonte": "sha256 do HTML bruto do portal (container texto_compilado) capturado em 2026-07-13",
+    "ocr": false,
+    "metodo": "VERBATIM INTEGRAL (portal oficial, texto compilado); captura portal oficial legislacao.prefeitura.sp.gov.br (container texto_compilado); promovido de _entrada/misto/",
+    "hash_alvo": "_entrada/misto/lei-municipal-saopaulo-18298-2025.txt",
+    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior."
+  },
+  "status_pipeline": "indexado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "dominio_primario": "tdc",
+  "dominio": [
+    "tdc"
+  ]
+}

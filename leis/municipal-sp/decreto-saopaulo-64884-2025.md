@@ -1,0 +1,64 @@
+# DECRETO Nº 64.884 DE 2025
+
+**URL oficial:** https://legislacao.prefeitura.sp.gov.br/decreto-64884-de-29-de-dezembro-de-2025
+**Data de captura:** portal oficial legislacao.prefeitura.sp.gov.br (container texto_compilado)
+**Proveniência:** VERBATIM INTEGRAL — capturado de https://legislacao.prefeitura.sp.gov.br/decreto-64884-de-29-de-dezembro-de-2025 (portal oficial legislacao.prefeitura.sp.gov.br (container texto_compilado)); promovido de `_entrada/misto/decreto-saopaulo-64884-2025.txt`. Saneado só lixo de captura; boilerplate oficial do portal preservado (anotações de alteração do texto compilado incluídas).
+**confianca_extracao:** alta (articulado integral verbatim)
+
+## Ementa
+
+Atualiza os valores previstos no Quadro 14 - Cadastro de Valor de Terreno para fins de Outorga Onerosa, anexo à Lei nº 16.050, de 31 de julho de 2014.
+
+## Texto integral (verbatim)
+
+DECRETO Nº 64.884 DE 29 DE DEZEMBRO DE 2025
+
+DECRETO Nº 64.884 de 29 de Dezembro de 2025
+
+Atualiza os valores previstos no Quadro 14 - Cadastro de Valor de Terreno para fins de Outorga Onerosa, anexo à Lei nº 16.050, de 31 de julho de 2014.
+
+DECRETO Nº 64.884, DE 29 DE DEZEMBRO DE 2025
+
+Atualiza os valores previstos no Quadro 14 - Cadastro de Valor de Terreno para fins de Outorga Onerosa, anexo à Lei nº 16.050, de 31 de julho de 2014.
+
+RICARDO NUNES, Prefeito do Município de São Paulo, no uso das atribuições que lhe são conferidas por lei,
+
+CONSIDERANDO o disposto no artigo 118 da Lei nº 16.050, de 31 de julho de 2014,
+
+D E C R E T A:
+
+Art. 1º Os valores em R$/m² (reais por metro quadrado) estabelecidos no Quadro 14 - Cadastro de Valor de Terreno para fins de Outorga Onerosa, anexo à Lei n° 16.050, de 31 de julho de 2014, vigentes na forma dos Decretos nº 59.166, de 30 de dezembro de 2019, nº 62.135, de 29 de dezembro de 2022, e nº 63.108, de 29 de dezembro de 2023, ficam atualizados em 7,18% (sete virgula dezoito por cento), uniformemente para todas as faces de quadra.
+
+Art. 2º Os valores nominais serão publicados em portaria da Secretaria Municipal de Urbanismo e Licenciamento.
+
+Art. 3º Para os fins de previstos no artigo 127 da Lei nº 16.050, de 2014, o valor de referência aplicável ao fator de incentivo da Transferência do Direito de Construir na implantação de parques, mencionado nos incisos IV e V do § 1º do referido artigo, fica atualizado para R$ 2.352,06/m² (dois mil, trezentos e cinquenta e dois reais e seis centavos por metro quadrado).
+
+Art. 4º Este decreto entrará em vigor na data de sua publicação, produzindo efeitos a partir de 1º de janeiro de 2026.
+
+PREFEITURA DO MUNICÍPIO DE SÃO PAULO, aos 29 de dezembro de 2025, 472º da fundação de São Paulo.
+
+RICARDO NUNES
+
+PREFEITO
+
+ELISABETE FRANÇA
+
+Secretária Municipal de Urbanismo e Licenciamento
+
+ANDRÉ LEMOS JORGE
+
+Secretário Municipal de Justiça
+
+ELAINE CRISTINA ALVES RAMOS
+
+Secretária Municipal da Casa Civil - Substituta
+
+EDSON APARECIDO DOS SANTOS
+
+Secretário do Governo Municipal
+
+Publicado na Secretaria do Governo Municipal, em 29 de dezembro de 2025.
+
+Documento original assinado nº 148647612
+
+Este texto não substitui o original publicado no Diário Oficial da Cidade de São Paulo.

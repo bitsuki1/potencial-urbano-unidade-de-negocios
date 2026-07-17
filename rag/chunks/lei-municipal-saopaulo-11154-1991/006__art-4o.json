@@ -1,0 +1,48 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-11154-1991::006-art-4o",
+  "lei_id": "lei-municipal-saopaulo-11154-1991",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 4º",
+  "numero": "4",
+  "header_raw": "Art. 4º - Não se aplica o disposto nos incisos III a V do artigo anterior, quando o adquirente tiver como atividade preponderante a compra e venda desses bens ou direitos, a sua locação ou arrendamento mercantil.(Redação dada pela Lei n° 13.107/2000)",
+  "caminho_hierarquico": [
+    "CAPÍTULO I",
+    "Art. 4º"
+  ],
+  "texto": "Art. 4º - Não se aplica o disposto nos incisos III a V do artigo anterior, quando o adquirente tiver como atividade preponderante a compra e venda desses bens ou direitos, a sua locação ou arrendamento mercantil.(Redação dada pela Lei n° 13.107/2000)\n\n§ 1° - Considera-se preponderante a atividade quando mais de 50% (cinqüenta por cento) da receita operacional do adquirente, nos 2 (dois) anos anteriores à aquisição, decorrer dos contratos referidos no “caput” deste artigo, observado o disposto no § 2° .\n\n§ 2° - Se o adquirente iniciar sua atividade após a aquisição, ou menos de 2 (dois) anos antes dela, para efeito do disposto no parágrafo anterior serão consideradas as receitas relativas aos 3 (três) exercícios subseqüentes à aquisição.\n\n§ 1º - Considera-se caracterizada a atividade preponderante referida neste artigo quando mais de 50% (cinqüenta por cento) da receita operacional do adquirente, nos 2 (dois) anos anteriores e nos 2 (dois) anos subseqüentes à aquisição, decorrer de transações mencionadas no \"caput\" deste artigo, observado o disposto no parágrafo 2º.(Redação dada pela Lei n° 13.107/2000)\n\n§ 2º - Se o adquirente iniciar suas atividades após a aquisição, ou menos de 2 (dois) anos antes dela, apurar-se-á a preponderância referida no parágrafo anterior, levando em consideração os 3 (três) primeiros anos seguintes à data da aquisição.(Redação dada pela Lei n° 13.107/2000)\n\n§ 3° - Não se caracteriza a preponderância da atividade, para fins deste artigo, quando a transmissão de bens ou direitos for feita junto com a transmissão da totalidade do patrimônio do alienante.(Revogado pela Lei n° 13.107/2000)\n\n§ 3º - Fica prejudicada a análise da atividade preponderante, incidindo o imposto, quando a pessoa jurídica adquirente dos bens ou direitos tiver existência em período inferior ao previsto nos parágrafos 1º e 2º deste artigo.(Incluído pela Lei n° 13.402/2002)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "2000",
+    "norma_redacao": "Lei n° 13.107/2000"
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 11.154/1991 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO I › Art. 4º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-11154-de-30-de-dezembro-de-1991",
+    "vigencia": {
+      "inicio": "1991-12-30",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 1991-12-30 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "itbi",
+    "planta_generica_valores",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o Imposto sobre Transmissão “inter vivos”, a qualquer título por ato oneroso, de bens imóveis, por natureza ou acessão física, e de direitos reais sobre imóveis, exceto os de garantia, bem como cessão de direitos à sua aquisição, e dá outras providências."
+}

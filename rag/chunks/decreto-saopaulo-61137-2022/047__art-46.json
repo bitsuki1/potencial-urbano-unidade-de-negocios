@@ -1,0 +1,47 @@
+{
+  "chunk_id": "decreto-saopaulo-61137-2022::047-art-46",
+  "lei_id": "decreto-saopaulo-61137-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 46",
+  "numero": "46",
+  "header_raw": "Art. 46. As Secretarias Municipais de Urbanismo e Licenciamento e das Subprefeituras deverão disponibilizar sistema de informação de localização de ERBs, ERBs móvel e mini ERBs destinados à operação de serviços de telecomunicações.",
+  "caminho_hierarquico": [
+    "CAPÍTULO VIII",
+    "Art. 46"
+  ],
+  "texto": "Art. 46. As Secretarias Municipais de Urbanismo e Licenciamento e das Subprefeituras deverão disponibilizar sistema de informação de localização de ERBs, ERBs móvel e mini ERBs destinados à operação de serviços de telecomunicações.\n\nParágrafo único. No local da instalação dos equipamentos deverá ser exigida a exibição dos dados que permitam a sua identificação, em local de fácil acesso e visível, atendidas especificações veiculadas em normas complementares expedidas pela Secretaria Municipal de Subprefeituras, considerando-se desatendimento das obrigações e exigências legais para os fins do art. 15 da Lei nº 17.733, de 2022, a não observância da obrigação prevista neste dispositivo ou em outras normas aplicáveis.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 61.137/2022 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO VIII › Art. 46",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-61137-de-10-de-marco-de-2022",
+    "vigencia": {
+      "inicio": "2022-03-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2022-03-10 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 17.733, de 11 de janeiro de 2022, que dispõe sobre a instalação de Estação Radio Base – ERB, Mini ERB e ERB Móvel no Município de São Paulo."
+}

@@ -1,0 +1,51 @@
+{
+  "chunk_id": "decreto-saopaulo-59886-2020::022-art-21",
+  "lei_id": "decreto-saopaulo-59886-2020",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 21",
+  "numero": "21",
+  "header_raw": "Art. 21. Nos empreendimentos de EZEIS e EHIS realizados no perímetro da Operação Urbana Consorciada Água Branca:",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção III",
+    "Art. 21"
+  ],
+  "texto": "Art. 21. Nos empreendimentos de EZEIS e EHIS realizados no perímetro da Operação Urbana Consorciada Água Branca:\n\nI - as novas construções situadas em lotes com área superior a 500m² (quinhentos metros quadrados) poderão reduzir a respectiva taxa de permeabilidade mínima para até 15% (quinze por cento), mediante a instalação de dispositivo de detenção de águas pluviais dimensionado conforme cálculo disposto no artigo 17 da Lei nº 15.893, de 2013, não se aplicando, nestes casos, o disposto na alínea “a”, inciso II, do artigo 11 do Decreto nº 57.377, de 2016.\n\nII - as áreas permeáveis internas aos lotes deverão ser ajardinadas na proporção mínima de um espécime arbóreo para cada 25m² (vinte e cinco metros quadrados) de área permeável, podendo ser divididas de tal forma que uma delas seja igual ou superior a 7,5% (sete e meio por cento) da área total do lote e que seja possível, em qualquer dessas áreas, projetar um círculo com diâmetro de 2,5m (dois metros e meio);\n\nIII - não se aplicam as regras de aeração contidas no Código de Obras e Edificações - COE, aos volumes de edificação com até 15m (quinze metros) de altura, contidos na faixa de 15 m (quinze metros) medida a partir do alinhamento predial;\n\nIV - não se aplicam as regras de recuo frontal de subsolo desde que sejam respeitados os novos alinhamentos viários previstos na legislação que rege a operação urbana.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 59.886/2020 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção III › Art. 21",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59886-de-4-de-novembro-de-2020",
+    "vigencia": {
+      "inicio": "2020-11-04",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2020-11-04. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Consolida a disciplina específica de uso e ocupação do solo para os Empreendimentos de Habitação de Interesse Social – EHIS e Empreendimentos em ZEIS - EZEIS a serem executados nas áreas das Operações Urbanas Consorciadas Água Espraiada, Faria Lima e Água Branca e na Operação Urbana Centro."
+}

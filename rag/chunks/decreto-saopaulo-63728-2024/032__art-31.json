@@ -1,0 +1,56 @@
+{
+  "chunk_id": "decreto-saopaulo-63728-2024::032-art-31",
+  "lei_id": "decreto-saopaulo-63728-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 31",
+  "numero": "31",
+  "header_raw": "Art. 31. Da área total objeto de projeto de parcelamento nos termos deste decreto, deve ser destinado, no mínimo, 15% (quinze por cento) e, no máximo, 40% (quarenta por cento) para áreas públicas.",
+  "caminho_hierarquico": [
+    "CAPÍTULO IV",
+    "SEÇÃO II",
+    "Art. 31"
+  ],
+  "texto": "Art. 31. Da área total objeto de projeto de parcelamento nos termos deste decreto, deve ser destinado, no mínimo, 15% (quinze por cento) e, no máximo, 40% (quarenta por cento) para áreas públicas.\n\n§ 1º O percentual mínimo de áreas públicas estabelecido no “caput” deste artigo pode ser destinado total ou parcialmente para área verde ou área institucional, de acordo com análise socioambiental e urbanística do entorno, a critério da Comissão de Análise de Projetos de Parcelamento do Solo – CAPPS da Secretaria Municipal de Urbanismo e Licenciamento.\n\n§ 2º No caso de EHIS ou EZEIS em lote ou gleba com área superior a 40.000m² (quarenta mil metros quadrados) ou com mais de 1.000 (mil) unidades, a SMUL/CAPPS definirá sobre a necessidade de majoração do percentual a ser destinado, em função de:\n\nI - carência crítica de equipamentos públicos na região para atender a futura demanda;\n\nII - existência de APP e de vegetação significativa a ser preservada;\n\nIII - dimensionamento insuficiente do sistema viário existente que possa ser mitigado por adequação de projeto viário visando melhorar as condições de mobilidade urbana no entorno do empreendimento.\n\n§ 3º A majoração da porcentagem de área a ser destinada ocorrerá de acordo com o disposto no Quadro 6 anexo a este decreto, na seguinte conformidade:\n\nI - em lote ou gleba com área superior a 20.000m² (vinte mil metros quadrados) e inferior a 40.000m² (quarenta mil metros quadrados), percentual de até 15% (quinze por cento) da área original;\n\nII - em lote ou gleba com mais de 1.000 (mil) unidades e área superior a 20.000m² (vinte mil metros quadrados) e igual ou inferior a 40.000m² (quarenta mil metros quadrados), percentual de até 17% (dezessete por cento) da área original;\n\nIII - em lote ou gleba com área superior a 40.000m² (quarenta mil metros quadrados) e igual ou inferior a 100.000m² (cem mil metros quadrados), percentual de até 20% (vinte por cento) da área original;\n\nIV - em lote ou gleba com área superior a 100.000m² (cem mil metros quadrados) e igual ou inferior a 200.000m² (duzentos mil metros quadrados), independentemente do número de unidades, percentual de até 30% (trinta por cento) da área original;\n\nV - em lote ou gleba com área superior a 200.000m² (duzentos mil metros quadrados), independentemente do número de unidades, percentual de no máximo 40% (quarenta por cento) da área original.\n\n§ 4º A área resultante da majoração da porcentagem de área pública pode ser destinada para área verde pública, área institucional pública ou sistema viário com abertura de novas vias ou alargamento das existentes.\n\n§ 5º Fica isento da destinação de áreas públicas o lote resultante de parcelamento do solo:\n\nI - de interesse social, no qual já tenha ocorrido destinação de área pública nos termos previstos neste decreto;\n\nII - de interesse social licenciado por decreto específico para Planos de Urbanização de áreas;\n\nIII - que se enquadre nas hipóteses previstas no artigo 42-C da LPUOS, incluído pela nova redação dada pela Lei nº 18.081, de 2024; (Revogado pelo Decreto nº 64.901/2026)\n\nIV - com doação de área pública comprovada nos termos da Lei Federal nº 6.766, de 19 de dezembro de 1979 ou legislação aplicável à época do parcelamento original, a critério da SMUL/CAPPS, desde que não haja agravamento à legislação vigente.\n\n§ 6º Para aplicação das disposições do artigo 42-C da LPUOS que eventualmente tenham interface ou digam respeito à edificação, ou à sua implantação, a Divisão de Parcelamento do Solo - DPS poderá, a seu critério, consultar diretamente qualquer unidade da Secretaria Municipal de Urbanismo e Licenciamento - SMUL.\n\n§ 7º Quando da aplicação de disposições do artigo 42-C da LPUOS resultar em exigências ou contrapartidas a serem atendidas no âmbito da edificação, ou de sua implantação, tais exigências deverão ser ressalvadas no respectivo alvará de parcelamento do solo.\n\n§ 8º Para aplicação dos demais dispositivos do Capítulo I da LPUOS, que trata dos requisitos e parâmetros de parcelamento do solo, com nova redação dada pela Lei nº 18.081, de 2024, a área técnica deverá:\n\nI - em casos previstos no § 4º do artigo 4º do Decreto nº 58.782, de 30 de maio de 2019, encaminhar para conhecimento, apreciação e deliberação da SMUL/CAPPS;\n\nII - em casos de dúvidas, consultar diretamente à Coordenadoria de Legislação de Uso e Ocupação do Solo - DEUSO e posteriormente à SMUL/CAPPS para conhecimento, apreciação e deliberação.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "2024",
+    "norma_redacao": "Lei nº 18.081, de 2024"
+  },
+  "citacao": {
+    "norma": "decreto nº 63.728/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO IV › SEÇÃO II › Art. 31",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-63728-de-10-de-setembro-de-2024",
+    "vigencia": {
+      "inicio": "2024-09-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2024-09-10. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "plano_intervencao_urbana",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Estabelece disciplina específica de parcelamento, uso e ocupação do solo, bem como normas edilícias para Habitação de Interesse Social - HIS, Habitação de Mercado Popular - HMP, Empreendimento de Habitação de Interesse Social - EHIS, Empreendimento de Habitação de Mercado Popular - EHMP e Empreendimento em Zona Especial de Interesse Social - EZEIS, nos termos da Lei nº 16.050, de 31 de julho de 2014 - PDE, alterada e revisada pela Lei nº 17.975, de 08 de julho de 2023 e pela Lei nº 18.157, de 17 de julho de 2024, da Lei nº 16.402, de 22 de março de 2016 - LPUOS, alterada e revisada pela Lei nº 18.081, de 19 de janeiro de 2024 e pela Lei 18.177, de 25 de julho de 2024, bem como da Lei nº 16.642, de 09 de maio de 2017 - COE."
+}

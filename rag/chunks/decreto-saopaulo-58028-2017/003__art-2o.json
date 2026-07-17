@@ -1,0 +1,46 @@
+{
+  "chunk_id": "decreto-saopaulo-58028-2017::003-art-2o",
+  "lei_id": "decreto-saopaulo-58028-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 2º",
+  "numero": "2",
+  "header_raw": "Art. 2º Fica criado, no âmbito da Secretaria Municipal de Urbanismo e Licenciamento - SMUL, o Grupo Intersecretarial de Análise de Projetos Específicos no Município – GRAPROEM.(Revogado pelo Decreto nº 58.955/2019)",
+  "caminho_hierarquico": [
+    "Art. 2º"
+  ],
+  "texto": "Art. 2º Fica criado, no âmbito da Secretaria Municipal de Urbanismo e Licenciamento - SMUL, o Grupo Intersecretarial de Análise de Projetos Específicos no Município – GRAPROEM.(Revogado pelo Decreto nº 58.955/2019)\n\n§ 1º O GRAPROEM, por meio do procedimento APROVA RÁPIDO, promoverá a análise dos pedidos cuja decisão, de acordo com a legislação aplicável, envolva a análise e anuência de outros órgãos municipais, além de SMUL.\n\n§ 2º O GRAPROEM contará com o apoio administrativo e técnico da Assessoria de Comissões Técnicas de Licenciamento – ASSEC, de SMUL.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 58.028/2017 — São Paulo/SP",
+    "dispositivo": "Art. 2º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-58028-de-11-de-dezembro-de-2017",
+    "vigencia": {
+      "inicio": "2017-12-11",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2017-12-11. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o procedimento APROVA RÁPIDO; cria o Grupo Intersecretarial de Análise de Projetos Específicos no Município – GRAPROEM e o Comitê Gestor do APROVA RÁPIDO."
+}

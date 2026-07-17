@@ -13,6 +13,12 @@ on:
         default: "true"
         type: choice
         options: ["true", "false"]
+      acao:
+        description: "arrumar; selo (read-only); comercial (move o 06); bruto90 (move CRIADO/imagens p/ 90)."
+        required: true
+        default: "arrumar"
+        type: choice
+        options: ["arrumar", "selo", "comercial", "bruto90"]
 
 permissions:
   contents: read
@@ -31,8 +37,19 @@ jobs:
           python-version: "3.x"
       - name: Instalar libs do Google
         run: pip install --quiet google-api-python-client google-auth
-      - name: Rodar arrumação (DRY_RUN=${{ inputs.dry_run }})
+      - name: Rodar (acao=${{ inputs.acao }} DRY_RUN=${{ inputs.dry_run }})
         env:
           GOOGLE_SA_KEY: ${{ secrets.GOOGLE_SA_KEY }}
           DRY_RUN: ${{ inputs.dry_run }}
-        run: python3 scripts/arrumar_drive_sa.py
+        run: |
+          if [ "${{ inputs.acao }}" = "selo" ]; then
+            python3 scripts/selo_arrumacao_sa.py
+          elif [ "${{ inputs.acao }}" = "comercial" ]; then
+            python3 scripts/mover_06_comercial_sa.py
+          elif [ "${{ inputs.acao }}" = "bruto90" ]; then
+            DESTINO_NOME="90 — Material bruto (só ideias)" \
+            DE_PARA="inventario/drive-pu/DE-PARA-90-BRUTO.csv" \
+            python3 scripts/mover_06_comercial_sa.py
+          else
+            python3 scripts/mover_por_destino_sa.py
+          fi

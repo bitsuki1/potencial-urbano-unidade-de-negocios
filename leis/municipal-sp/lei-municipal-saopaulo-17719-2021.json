@@ -1,0 +1,96 @@
+{
+  "id": "lei-municipal-saopaulo-17719-2021",
+  "tipo_norma": "lei_ordinaria",
+  "esfera": "municipal",
+  "jurisdicao": "São Paulo/SP",
+  "numero": "17.719",
+  "ano": 2021,
+  "ementa": "Dispõe sobre Planta Genérica de Valores, alterações na legislação tributária municipal, Contragarantias em Operações de Crédito e Fundo Especial para a Modernização da Administração Tributária e da Administração Fazendária no Município de São Paulo.",
+  "tema": [
+    "planta_generica_valores",
+    "valor_venal",
+    "imposto_predial",
+    "isencao_iptu",
+    "desconto_iptu",
+    "legislacao_tributaria"
+  ],
+  "dispositivos_chave": [
+    "Art. 1º A partir de 1º de janeiro de 2022, a Tabela VI – Tipos e Padrões de Construção – Valores Unitários de Metro Quadrado de",
+    "Art. 2º A partir do exercício de 2022, ressalvado o disposto no art. 4º desta Lei, ficam isentos do Imposto Predial os imóveis c",
+    "Art. 3º A partir do exercício de 2022, ressalvado o disposto no art. 4º desta Lei, para fins de lançamento do Imposto Predial, s",
+    "Art. 4º As isenções e os descontos previstos nos arts. 2º e 3º desta Lei somente serão concedidos a um único imóvel por contribu",
+    "Art. 5º A partir do exercício de 2022, o valor unitário de metro quadrado de terreno aplicado para o cálculo do valor venal do t",
+    "Art. 6º O art. 9º da Lei nº 15.889, de 5 de novembro de 2013, passa a vigorar acrescido de §§ 6º a 8º, na seguinte conformidade:",
+    "Art. 7º O art. 2º da Lei nº 11.614, de 13 de julho de 1994, passa a vigorar com a seguinte redação:",
+    "Art. 8º O art. 9º-A da Lei nº 13.701, de 24 de dezembro de 2003, passa a vigorar com a seguinte redação:",
+    "Art. 9º O art. 14 da Lei nº 13.476, de 30 de dezembro de 2002, passa a vigorar com nova redação na alínea “f” de seu inciso V, b",
+    "Art. 10 . O art. 14 da Lei nº 13.476, de 2002, passa a vigorar acrescido do inciso XIX, na seguinte conformidade:",
+    "Art. 11 . O art. 14 da Lei nº 13.701, de 2003, passa a vigorar com nova redação do § 3º, na seguinte conformidade:",
+    "Art. 12 . O art. 8º da Lei nº 15.406, de 8 de julho de 2011, passa a vigorar com a seguinte redação:",
+    "Art. 13 . O art. 15 da Lei nº 13.701, de 2003, passa a vigorar com a seguinte redação:",
+    "Art. 14 . O art. 16 da Lei nº 13.701, de 2003, passa a vigorar com a seguinte redação:",
+    "Art. 15 . O art. 4º da Lei nº 13.479, de 30 de dezembro de 2002, passa a vigorar com a seguinte redação:",
+    "Art. 16 . O parágrafo único do art. 1º da Lei nº 14.864, de 23 de dezembro de 2008, passa a vigorar com a seguinte redação:",
+    "Art. 17 . A Lei nº 13.701, de 2003, passa a vigorar acrescida do art. 14-B, na seguinte conformidade:",
+    "Art. 18 . Os arts. 3º, 6º, 10, 17 e 25 da Lei nº 11.154, de 30 de dezembro de 1991, passam a vigorar com a seguinte redação:",
+    "Art. 19 . O art. 6º da Lei nº 10.819, de 28 de dezembro de 1989, passa a vigorar acrescido de §§ 1º e 2º, com a seguinte redação",
+    "Art. 20 . O art. 3º da Lei nº 13.879, de 28 de julho de 2004, passa a vigorar acrescido de §§ 4º e 5º, com a seguinte redação:",
+    "Art. 21 . Os créditos tributários constituídos em face de entidades religiosas e de entidades educacionais sem fins lucrativos,",
+    "Art. 22 . A celebração da transação de que trata o art. 21 competirá à Procuradoria Geral do Município e observará, no que coube",
+    "Art. 23 . A proposta de transação poderá ser condicionada ao compromisso do contribuinte ou do responsável de requerer a homolog",
+    "Art. 24 . A transação prevista no art. 21 não caracteriza renúncia de receita para fins do disposto no art. 14 da Lei Complement",
+    "Art. 25 . O Imposto Predial e Territorial Urbano – IPTU não incide sobre os imóveis de titularidade do Município, do Estado de S"
+  ],
+  "vigencia": {
+    "inicio": "2021-11-26",
+    "fim": null,
+    "em_vigor": true,
+    "altera": [],
+    "alterada_por": [],
+    "revogada_por": null,
+    "observacao": "Lei da PLANTA GENERICA DE VALORES (PGV) do IPTU: atualiza, a partir de 01/01/2022, a Tabela VI (valores unitarios de m2 de construcao) e a Listagem de valores de terreno integrantes da Lei 10.235/1986 (Anexos I e II), usadas na apuracao do valor venal (Arts. 1-4: valores, isencoes e descontos). Em vigor; dispositivo(s) revogado(s) pela Lei 18.330/2025 (marcado inline no compilado, excluido do RAG por B-11c). Os VALORES estao nos Anexos I/II (nao no corpo) — sao input de engine (tabela), nao texto (1.1/1.3). revisado_por_humano=false."
+  },
+  "remissoes": [
+    {
+      "norma": "Lei nº 10.235/1986",
+      "relacao": "norma-base da PGV - esta lei atualiza suas Tabelas VI e de valores de terreno"
+    },
+    {
+      "norma": "Lei nº 18.330/2025",
+      "relacao": "lei posterior - revoga dispositivo(s) desta lei (atualizacao seguinte da construcao)"
+    },
+    {
+      "norma": "Lei nº 17.324/2020",
+      "relacao": "referencia - transacao de creditos tributarios (art. 11, IV)"
+    },
+    {
+      "norma": "Decreto nº 60.939/2021",
+      "relacao": "regulamento - transacao/desjudicializacao"
+    }
+  ],
+  "jurisprudencia_relacionada": [],
+  "tem_tabela": true,
+  "tabelas_extraidas": [
+    "Anexos I e II (valores venais de construcao e terreno) - PDF anexo, nao capturado como texto"
+  ],
+  "tem_formula": false,
+  "formulas_referenciadas": [],
+  "fonte": {
+    "origem": "Portal oficial (legislacao.prefeitura.sp.gov.br)",
+    "path": "_entrada/misto/lei-municipal-saopaulo-17719-2021.txt",
+    "url": "https://legislacao.prefeitura.sp.gov.br/lei-17719-de-26-de-novembro-de-2021",
+    "hash": "sha256:f6c9575af5db9a34734c412f7162ffe81af754b0ab30f99dfd018fee80b9aaa0",
+    "hash_nota_fonte": "sha256 do HTML bruto do portal capturado 2026-07-13",
+    "ocr": false,
+    "metodo": "VERBATIM INTEGRAL (portal oficial, texto compilado); captura portal oficial legislacao.prefeitura.sp.gov.br (container texto_compilado); promovido de _entrada/misto/",
+    "hash_alvo": "_entrada/misto/lei-municipal-saopaulo-17719-2021.txt",
+    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior."
+  },
+  "status_pipeline": "indexado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "dominio_primario": "iptu",
+  "dominio": [
+    "iptu"
+  ]
+}

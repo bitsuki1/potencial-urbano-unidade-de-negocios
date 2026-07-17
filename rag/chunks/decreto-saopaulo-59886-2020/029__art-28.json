@@ -1,0 +1,50 @@
+{
+  "chunk_id": "decreto-saopaulo-59886-2020::029-art-28",
+  "lei_id": "decreto-saopaulo-59886-2020",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 28",
+  "numero": "28",
+  "header_raw": "Art. 28. Cabe à Secretaria Municipal de Licenciamento a análise e a aplicação dos benefícios de gratuidade previstos neste decreto, com exceção do disposto no parágrafo único do artigo 26 deste decreto.",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 28"
+  ],
+  "texto": "Art. 28. Cabe à Secretaria Municipal de Licenciamento a análise e a aplicação dos benefícios de gratuidade previstos neste decreto, com exceção do disposto no parágrafo único do artigo 26 deste decreto.\n\n§ 1º A utilização de quaisquer benefícios onerosos no âmbito das Operações Urbanas Consorciadas Água Espraiada, Faria Lima e Água Branca exigirá a expedição da respectiva Certidão de Pagamento de Outorga Onerosa em CEPAC.\n\n§ 2º Após a emissão do Alvará de Aprovação ou Alvará de Aprovação e Execução ou Certificado de Conclusão dos empreendimentos licenciados em conformidade com o disposto neste decreto, a Secretaria Municipal de Licenciamento deve enviar o processo à SP Urbanismo para as anotações devidas.\n\nCAPÍTULO IV\n\nDISPOSIÇÕES FINAIS",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 59.886/2020 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Art. 28",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59886-de-4-de-novembro-de-2020",
+    "vigencia": {
+      "inicio": "2020-11-04",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2020-11-04. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Consolida a disciplina específica de uso e ocupação do solo para os Empreendimentos de Habitação de Interesse Social – EHIS e Empreendimentos em ZEIS - EZEIS a serem executados nas áreas das Operações Urbanas Consorciadas Água Espraiada, Faria Lima e Água Branca e na Operação Urbana Centro."
+}

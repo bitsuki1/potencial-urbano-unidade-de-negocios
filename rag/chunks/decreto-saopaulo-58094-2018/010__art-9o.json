@@ -1,0 +1,46 @@
+{
+  "chunk_id": "decreto-saopaulo-58094-2018::010-art-9o",
+  "lei_id": "decreto-saopaulo-58094-2018",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 9º",
+  "numero": "9",
+  "header_raw": "Art. 9º O funcionamento e operação de heliponto e heliporto depende da prévia emissão de Auto de Licença de Funcionamento.",
+  "caminho_hierarquico": [
+    "Art. 9º"
+  ],
+  "texto": "Art. 9º O funcionamento e operação de heliponto e heliporto depende da prévia emissão de Auto de Licença de Funcionamento.\n\n§ 1º Do Auto de Licença de Funcionamento devem constar os dados referentes à operação do equipamento fixados pela CTLU.\n\n§ 2º O Auto de Licença de Funcionamento é expedido a título precário e deve ser revalidado a cada 5 (cinco) anos ou quando expirar o prazo concedido para operação pela Agência Nacional de Aviação - ANAC sempre que esse for inferior.\n\n§ 3º O requerimento do Auto de Licença de Funcionamento para heliponto ou heliporto deve ser assinado pelo responsável pela instalação e protocolado instruído com os seguintes documentos e informações:\n\nI - cópia do Alvará de Instalação acompanhado das respectivas peças gráficas aprovadas;\n\nII - endereço completo do local onde se pretende instalar a atividade;\n\nIII - número do contribuinte do Imposto Predial e Territorial Urbano - IPTU;\n\nIV - atividade a ser exercida no imóvel;\n\nV - zona de uso e classificação da via;\n\nVI - subcategoria de uso e grupo de atividade de acordo com os Quadros do Decreto n° 57.378, de 13 de outubro de 2016;\n\nVII - parâmetros de incomodidade e condições de instalação a serem observados no funcionamento da atividade;\n\nVIII - área a ser utilizada e área total da edificação;\n\nIX - nome do estabelecimento ou do profissional autônomo, inclusive nome \"fantasia\";\n\nX - número da ficha de inscrição da pessoa física ou jurídica no Cadastro de Contribuintes Mobiliários - CCM;\n\nXI - atestados e declarações referentes à comprovação do regular funcionamento da atividade, no que tange às condições de segurança contra incêndio, instalações elétricas e sistema de proteção contra descargas atmosféricas – SPDA;\n\nXII - documento que comprove a regularidade da edificação de acordo com as disposições do Código de Obras e Edificações, acompanhado do respectivo jogo de plantas;\n\nXIII - outras informações, a critério do órgão técnico.\n\n§ 4º O requerimento de revalidação do Auto de Licença de Funcionamento deve ser assinado pelo responsável pela instalação e protocolado instruído com os seguintes documentos:\n\nI - Declaração de Responsabilidade Técnica atestando que as condições licenciadas permanecem inalteradas, conforme Anexo II deste decreto, acompanhada da respectiva anotação técnica perante o Conselho da categoria;\n\nII - cópia do Auto de Licença de Funcionamento a ser revalidado;\n\nIII - cópia da portaria de inscrição no registro de aeródromos da Agência Nacional de Aviação Civil – ANAC, acompanhado do quadro de características do aeródromo, em validade.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 58.094/2018 — São Paulo/SP",
+    "dispositivo": "Art. 9º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-58094-de-21-de-fevereiro-de-2018",
+    "vigencia": {
+      "inicio": "2018-02-21",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2018-02-21 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 15.723, de 24 de abril de 2013, no tocante à instalação e ao funcionamento de heliportos e helipontos no Município de São Paulo."
+}

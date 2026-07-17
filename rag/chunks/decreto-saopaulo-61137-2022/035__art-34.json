@@ -1,0 +1,48 @@
+{
+  "chunk_id": "decreto-saopaulo-61137-2022::035-art-34",
+  "lei_id": "decreto-saopaulo-61137-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 34",
+  "numero": "34",
+  "header_raw": "Art. 34. A utilização de bem municipal para a implantação da ERB e instalação da ERB móvel e mini ERB poderá ser admitida mediante permissão de uso onerosa e posterior cadastramento eletrônico ou alvará de implantação, conforme o caso, a serem disciplinados pelas Secretarias Municipais de Urbanismo e Licenciamento e das Subprefeituras, no âmbito de suas atribuições, em conjunto com a Secretaria Executiva de Gestão.",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Seção II",
+    "Art. 34"
+  ],
+  "texto": "Art. 34. A utilização de bem municipal para a implantação da ERB e instalação da ERB móvel e mini ERB poderá ser admitida mediante permissão de uso onerosa e posterior cadastramento eletrônico ou alvará de implantação, conforme o caso, a serem disciplinados pelas Secretarias Municipais de Urbanismo e Licenciamento e das Subprefeituras, no âmbito de suas atribuições, em conjunto com a Secretaria Executiva de Gestão.\n\nCAPÍTULO IV\n\nDA FISCALIZAÇÃO",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 61.137/2022 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Seção II › Art. 34",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-61137-de-10-de-marco-de-2022",
+    "vigencia": {
+      "inicio": "2022-03-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2022-03-10 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 17.733, de 11 de janeiro de 2022, que dispõe sobre a instalação de Estação Radio Base – ERB, Mini ERB e ERB Móvel no Município de São Paulo."
+}

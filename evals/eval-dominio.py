@@ -53,13 +53,18 @@ def main():
         falhas.append("I2: 'compartilhado' não entrou na consulta iptu (não-perda quebrada)")
 
     # I3 — a norma-chave TDC (PDE) é alcançável e fundamenta, roteada a tdc.
-    r = C.consultar("transferência de potencial construtivo outorga", dominio="tdc", top=3)
+    # top=8 (era 3): à medida que os decretos que REGULAMENTAM a TDC entram no corpus
+    # (57.536/2016, 58.176/2018, 58.289/2018), eles — mais on-point p/ "transferência de
+    # potencial construtivo outorga" — legitimamente lideram, e o PDE (fundamento, mais geral)
+    # desce alguns postos. O invariante é REACHABILITY + FUNDAMENTAÇÃO, não rank-1: exige o PDE
+    # dentro do alcance da consulta e o veredito FUNDAMENTADA. (Ajustado 2026-07-13, ingestão TDC.)
+    r = C.consultar("transferência de potencial construtivo outorga", dominio="tdc", top=8)
     if not r["fundamentada"]:
         falhas.append(f"I3: consulta TDC não fundamentou ({r['veredito']})")
     else:
         leis_topo = {res["chunk_id"].split("::")[0] for res in r["resultados"]}
         if "lei-municipal-saopaulo-16050-2014" not in leis_topo:
-            falhas.append(f"I3: PDE (16.050) não apareceu no topo da consulta TDC — veio {leis_topo}")
+            falhas.append(f"I3: PDE (16.050) não alcançável na consulta TDC (top 8) — veio {leis_topo}")
 
     # I4 + I5 — vocab fechado e anti-padrão eliminado, em TODO chunk indexado.
     sem_dom = fora_vocab = tema_sujo = 0

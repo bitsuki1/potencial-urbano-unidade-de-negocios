@@ -1,0 +1,3419 @@
+# DECRETO Nº 63.728 DE 2024
+
+**URL oficial:** https://legislacao.prefeitura.sp.gov.br/decreto-63728-de-10-de-setembro-de-2024
+**Data de captura:** portal oficial legislacao.prefeitura.sp.gov.br (container texto_compilado)
+**Proveniência:** VERBATIM INTEGRAL — capturado de https://legislacao.prefeitura.sp.gov.br/decreto-63728-de-10-de-setembro-de-2024 (portal oficial legislacao.prefeitura.sp.gov.br (container texto_compilado)); promovido de `_entrada/misto/decreto-saopaulo-63728-2024.txt`. Saneado só lixo de captura; boilerplate oficial do portal preservado (anotações de alteração do texto compilado incluídas).
+**confianca_extracao:** alta (articulado integral verbatim)
+
+## Ementa
+
+Estabelece disciplina específica de parcelamento, uso e ocupação do solo, bem como normas edilícias para Habitação de Interesse Social - HIS, Habitação de Mercado Popular - HMP, Empreendimento de Habitação de Interesse Social - EHIS, Empreendimento de Habitação de Mercado Popular - EHMP e Empreendimento em Zona Especial de Interesse Social - EZEIS, nos termos da Lei nº 16.050, de 31 de julho de 2014 - PDE, alterada e revisada pela Lei nº 17.975, de 08 de julho de 2023 e pela Lei nº 18.157, de 17 de julho de 2024, da Lei nº 16.402, de 22 de março de 2016 - LPUOS, alterada e revisada pela Lei nº 18.081, de 19 de janeiro de 2024 e pela Lei 18.177, de 25 de julho de 2024, bem como da Lei nº 16.642, de 09 de maio de 2017 - COE.
+
+## Texto integral (verbatim)
+
+DECRETO Nº 63.728 DE 10 DE SETEMBRO DE 2024
+
+DECRETO Nº 63.728 de 10 de Setembro de 2024
+
+Alterações
+
+Revogações
+
+Temas Relacionados
+
+Estabelece disciplina específica de parcelamento, uso e ocupação do solo, bem como normas edilícias para Habitação de Interesse Social - HIS, Habitação de Mercado Popular - HMP, Empreendimento de Habitação de Interesse Social - EHIS, Empreendimento de Habitação de Mercado Popular - EHMP e Empreendimento em Zona Especial de Interesse Social - EZEIS, nos termos da Lei nº 16.050, de 31 de julho de 2014 - PDE, alterada e revisada pela Lei nº 17.975, de 08 de julho de 2023 e pela Lei nº 18.157, de 17 de julho de 2024, da Lei nº 16.402, de 22 de março de 2016 - LPUOS, alterada e revisada pela Lei nº 18.081, de 19 de janeiro de 2024 e pela Lei 18.177, de 25 de julho de 2024, bem como da Lei nº 16.642, de 09 de maio de 2017 - COE.
+
+DECRETO Nº 63.728, DE 10 DE SETEMBRO DE 2024
+
+Estabelece disciplina específica de parcelamento, uso e ocupação do solo, bem como normas edilícias para Habitação de Interesse Social - HIS, Habitação de Mercado Popular - HMP, Empreendimento de Habitação de Interesse Social - EHIS, Empreendimento de Habitação de Mercado Popular - EHMP e Empreendimento em Zona Especial de Interesse Social - EZEIS, nos termos da Lei nº 16.050, de 31 de julho de 2014 - PDE, alterada e revisada pela Lei nº 17.975, de 08 de julho de 2023 e pela Lei nº 18.157, de 17 de julho de 2024, da Lei nº 16.402, de 22 de março de 2016 - LPUOS, alterada e revisada pela Lei nº 18.081, de 19 de janeiro de 2024 e pela Lei 18.177, de 25 de julho de 2024, bem como da Lei nº 16.642, de 09 de maio de 2017 - COE.
+
+RICARDO NUNES, Prefeito do Município de São Paulo, no uso das atribuições que lhe são conferidas por lei,
+
+CONSIDERANDO a necessidade de atualização da legislação de habitação de interesse social em virtude da revisão da Lei nº 16.050, de 31 de julho de 2014 (PDE), através da Lei nº 17.975, de 08 de julho de 2023 e da Lei nº 18.157, de 17 de julho de 2024, bem como em face da revisão da Lei nº 16.402, de 22 de março de 2016 (LPUOS), através da Lei nº 18.081, de 19 de janeiro de 2024 e da Lei 18.177, de 25 de julho de 2024;
+
+CONSIDERANDO o disposto no inciso III do artigo 60 da Lei nº 16.050, de 31 de julho de 2014 e artigo 95 da Lei nº 16.402, de 22 de março de 2016, quanto a decreto específico para estabelecer normas, índices e parâmetros de parcelamento, uso e ocupação do solo para EHIS, EHMP, EZEIS, HIS e HMP;
+
+CONSIDERANDO o disposto no inciso II do artigo 72 da Lei nº 16.642, de 9 de maio de 2017, quanto à regulamentação de procedimentos, exigências e prazos diferenciados para exame de pedidos relativos ao licenciamento de EHIS, EHMP, EZEIS, HIS e HMP,
+
+D E C R E T A:
+
+CAPÍTULO I
+
+DAS DISPOSIÇÕES GERAIS
+
+Art. 1º Este decreto regulamenta dispositivos do Plano Diretor Estratégico - PDE, da Lei de Parcelamento, Uso e Ocupação do Solo - LPUOS e do Código de Obras e Edificações - COE, bem como estabelece disciplina específica de parcelamento, uso e ocupação do solo, além de normas edilícias para:
+
+I - Habitação de Interesse Social - HIS;
+
+II - Habitação de Mercado Popular - HMP;
+
+III - Empreendimento de Habitação de Interesse Social - EHIS;
+
+IV - Empreendimento de Habitação de Mercado Popular - EHMP;
+
+V - Empreendimento em Zona Especial de Interesse Social - EZEIS.
+
+Parágrafo único. Para fins de caracterização das tipologias de Habitação de Interesse Social - HIS-1, Habitação de Interesse Social - HIS-2 e Habitação de Mercado Popular - HMP serão observadas as seguintes definições e faixas de renda:
+
+I - HIS: unidade habitacional, tendo no máximo 1 (um) sanitário e 1 (uma) vaga de garagem, destinada ao atendimento de famílias de baixa renda, classificando-se em dois tipos:
+
+a) HIS-1: unidade destinada a famílias com até 3 (três) salários mínimos de renda familiar mensal ou até 0,5 (meio) salário mínimo per capita mensal, conforme valores estabelecidos anualmente por decreto;
+
+b) HIS-2: unidade destinada a famílias com até 6 (seis) salários mínimos de renda familiar mensal ou até 1 (um) salário mínimo per capita mensal, conforme valores estabelecidos anualmente por decreto.
+
+II - HMP: unidade habitacional, tendo no máximo 2 (dois) sanitários e até 1 (uma) vaga de garagem, destinada ao atendimento de famílias com até 10 (dez) salários mínimos de renda familiar mensal ou até 1,5 (um e meio) salário mínimo per capita mensal, conforme valores estabelecidos anualmente por decreto;
+
+III - EHIS: empreendimento de promoção pública ou privada, constituído por uma edificação ou conjunto de edificações, destinadas total ou parcialmente a HIS, correspondendo a, no mínimo, 80% (oitenta por cento) da área total computável do empreendimento, podendo conter, nos demais 20% (vinte por cento), unidades HMP e residenciais (R), independentemente da zona em que o empreendimento seja implantado, bem como outros usos complementares não residenciais (nR), desde que permitidos na zona, conforme Quadro 4 da LPUOS;
+
+IV - EHMP: empreendimento de promoção pública ou privada, constituído por uma edificação ou conjunto de edificações, destinadas total ou parcialmente a HMP, correspondendo a, no mínimo, 80% (oitenta por cento) da área total computável do empreendimento, podendo conter, nos demais 20% (vinte por cento), unidades HIS-1, HIS-2 e R, independentemente da zona em que o empreendimento seja implantado, bem como outros usos complementares nR, desde que permitidos na zona, conforme Quadro 4 da LPUOS;
+
+V - EZEIS: empreendimento habitacional de interesse social, de promoção pública ou privada, localizado em ZEIS e que contém destinação obrigatória de parte da área construída total computável para HIS-1 e HIS-2, conforme Quadro 3 anexo a este decreto, podendo conter no remanescente de área computável, unidades HMP e R, bem como outros usos complementares nR, desde que permitidos na zona, conforme Quadro 4 da LPUOS.
+
+SEÇÃO I
+
+DOS AGENTES PRODUTORES DE HIS E HMP
+
+Art. 2º São agentes produtores de HIS e HMP aqueles que aderirem ao regramento específico regulado por este decreto e o regime jurídico próprio que rege a produção privada de unidades HIS-1, HIS-2 e HMP, disciplinado no Decreto nº 63.130, de 19 de janeiro de 2024 e eventuais revisões posteriores, conforme as seguintes tipologias:
+
+I - EHIS, EZEIS e HIS:
+
+a) órgãos da Administração Pública Direta;
+
+b) empresas de controle acionário público;
+
+c) entidades representativas dos futuros moradores ou cooperativas habitacionais;
+
+d) entidades ou empresas privadas que desenvolvam empreendimentos;
+
+e) empresas privadas ou entidades sem fins lucrativos, quando atuando como executoras ou organizadoras de EHIS, no âmbito de programa habitacional subvencionado pela União, Estado ou Município.
+
+II - EHMP e HMP: qualquer agente público ou privado, observadas as disposições deste decreto.
+
+§ 1º° Os agentes produtores de unidades HIS e HMP, elencados nos incisos do “caput”, deverão destinar as unidades produzidas para famílias com renda declarada que se enquadrem nas disposições deste decreto, conforme disposições do § único do artigo 1º deste decreto, observadas as atualizações dos valores definidas anualmente por decreto.
+
+§ 2º Para a emissão do Alvará de Aprovação, ou Aprovação e Execução, ou Alvará obtido no Plano Integrado, destinado à produção de unidades HIS e HMP, os agentes produtores, na qualidade de proprietário ou possuidor, deverão apresentar Declaração de Responsabilidade pela correta destinação de unidades habitacionais das tipologias de HIS-1, HIS-2 e HMP, produzidas com utilização de benefícios urbanísticos e fiscais, conforme modelo constante do Anexo Único integrante do Decreto nº 63.130, de 19 de janeiro de 2024 e eventuais revisões posteriores.
+
+§ 3º Quanto à responsabilidade pela correta observância às porcentagens de HIS e HMP quando da destinação das unidades, devem ser consideradas as disposições do Decreto 63.130, de 2024.
+
+§ 4º Quando da emissão do Alvará de Aprovação, ou Alvará de Aprovação e Execução, ou Alvará de Execução, inclusive obtido através de Plano Integrado, bem como na emissão do Certificado de Conclusão, deverá constar ressalva consignando que, por ocasião da abertura das matrículas individualizadas, deverá ser realizada a averbação na matrícula de cada unidade habitacional das tipologias de HIS-1, HIS-2 e HMP, produzida mediante adesão ao regime jurídico regulamentado no Decreto 63.130, de 2024, de que esta recebeu os benefícios previstos na legislação específica e deverá ser destinada a famílias com renda declarada e atestada em conformidade com as disposições do referido decreto.
+
+§ 5º As disposições do regime jurídico tratado neste artigo se aplicam aos empreendimentos destinados, total ou parcialmente, para locação das unidades habitacionais de HIS-1, HIS-2 e HMP, devendo indicar tal condição mediante averbação na matrícula, em adição à averbação prevista no § 4º deste artigo.
+
+§ 6º Poderão ser expedidas Certidões de Diretrizes Urbanísticas, Certidões de Conformidade e Alvarás de Aprovação de EHIS, EHMP ou EZEIS em nome de pessoa física, empresa ou entidade conforme o caso, devendo, por ocasião do Alvará de Execução, ser emitido em nome de pessoa jurídica, ainda que na condição de possuidora do imóvel.
+
+§ 7º Constituem exceções ao disposto no §6º deste decreto, os pedidos de Alvará de Execução para Habitação Unifamiliar nas tipologias EHIS-u e EHMP-u, definidas no inciso III do artigo 7º, para pessoas físicas.
+
+§ 8º Os documentos de que trata este decreto poderão ser emitidos em nome do possuidor do imóvel, desde que assim devidamente caracterizado nos termos do artigo 6º do COE e artigo 8º do Decreto nº 57.776, de 2017, com ressalva no Alvará de Aprovação e Execução, ou Alvará de Execução, de que, por ocasião do pedido de Certificado de Conclusão, deverá ser apresentada a matrícula do imóvel constando como proprietária a pessoa jurídica referida no respectivo alvará.
+
+SEÇÃO II
+
+DAS DEFINIÇÕES DAS UNIDADES DE HIS E HMP
+
+Art. 3º A unidade de HIS deve atender aos seguintes parâmetros:
+
+I - área privativa máxima de 70m² (setenta metros quadrados) e área privativa mínima de 24m² (vinte e quatro metros quadrados);
+
+II - máximo de 1 (um) sanitário;
+
+III - pé-direito com alturas mínimas estabelecidas na norma NBR 15.575:2013, editada pela Associação Brasileira de Normas Técnicas - ABNT ou norma que venha a substituí-la;
+
+IV - máximo de 1 (uma) vaga de estacionamento.
+
+§ 1º No caso de produção de HIS pelo Poder Público, serão admitidos parâmetros diversos dos estabelecidos neste artigo, nas seguintes hipóteses:
+
+I - caso haja norma específica que contemple Plano de Urbanização com parâmetros definidos pela referida norma e/ou pelo respectivo Conselho Gestor;
+
+II - no caso de Regularização Fundiária Urbana - REURB, cuja competência para análise, instrução e decisão do pedido é da Secretaria Municipal de Habitação - SEHAB ou de agente promotor público, nos termos da legislação aplicável.
+
+§ 2º O inciso I do “caput” deste artigo não se aplica às unidades de HIS implementadas no âmbito de atendimentos emergenciais da Secretaria Municipal de Direitos Humanos e Cidadania - SMDHC, da Secretaria Municipal de Assistência e Desenvolvimento Social - SMADS e da Secretaria Municipal de Habitação - SEHAB, as quais poderão ter área privativa mínima de 12m² (doze metros quadrados).
+
+Art. 4º A unidade de HMP deve atender aos seguintes parâmetros:
+
+I - área privativa máxima de 70m² (setenta metros quadrados) e área privativa mínima de 24m² (vinte e quatro metros quadrados);
+
+II - máximo de 2 (dois) sanitários;
+
+III - pé-direito com alturas mínimas estabelecidas na norma NBR 15.575:2013, editada pela Associação Brasileira de Normas Técnicas - ABNT ou norma que venha a substituí-la;
+
+IV - máximo de 1 (uma) vaga de estacionamento.
+
+Parágrafo único. No caso de produção de HMP pelo Poder Público, serão admitidos parâmetros diversos dos estabelecidos neste artigo, nas seguintes hipóteses:
+
+I - caso haja norma específica que contemple Plano de Urbanização com parâmetros definidos pela referida norma e/ou pelo respectivo Conselho Gestor;
+
+II - no caso de REURB, cuja competência para análise, instrução e decisão do pedido é da SEHAB ou de agente promotor público, nos termos da legislação aplicável.
+
+Art. 5º Para fins de aplicação dos artigos 3º e 4º deste decreto, considera-se área privativa somente a área coberta de uso privativo da unidade habitacional, excluindo-se a área da vaga de estacionamento coberta e as áreas comuns.
+
+Parágrafo único. Para as tipologias EHIS-u e EHMP-u, as áreas de obras complementares e mobiliários não serão consideradas para o cálculo da área a que se referem, respectivamente, o inciso I do “caput” do artigo 3º e o inciso I do “caput” artigo 4º deste decreto, observado especialmente o disposto no item 6 da Resolução/CEUSO/138/2020, atualizada em 2021, ou norma que venha a substituí-la.
+
+Art. 6º O terraço coberto não computável, quando houver, será considerado área privativa e não será contabilizado para a área máxima de 70m² (setenta metros quadrados) de cada unidade e, caso este seja considerado para compor a área privativa mínima de 24m² (vinte e quatro metros quadrados) das unidades, deverá ser observado que a área da unidade, sem considerar a área do terraço, não poderá ser inferior a 21,80m² (vinte e um metros e oitenta decímetros quadrados), devendo ser declarado em notas no projeto que os demais compartimentos da habitação atendem às normas técnicas pertinentes.
+
+Parágrafo único. Os terraços deverão observar a regra geral estatuída no COE, conforme dispõe o inciso I do artigo 108 da Lei nº 16.642, de 2017 e inciso I do artigo 102 do Decreto nº 57.776, de 2017.
+
+SEÇÃO III
+
+DAS TIPOLOGIAS DE EHIS, EHMP E EZEIS
+
+Art. 7º Os EHIS, EHMP e EZEIS podem ser produzidos nas seguintes tipologias:
+
+I - EHIS-h e EHMP-h, conjunto horizontal: conjunto de 2 (duas) ou mais unidades habitacionais, todas com entrada independente e com frente para a via oficial de acesso ou interna ao conjunto quando em condomínio, sendo subdividido em 3 (três) tipologias:
+
+a) EHIS-h1 e EHMP-h1, casas geminadas: conjunto de unidades habitacionais agrupadas horizontalmente, todas com frente e acesso independente para a via oficial de circulação, existente ou futura, e com limite de 3 (três) pavimentos e 10m (dez metros) de altura total, incluindo o ático;
+
+b) EHIS-h2 e EHMP-h2, casas superpostas: 2 (duas) unidades habitacionais agrupadas verticalmente no mesmo lote com frente e acesso independente para a via oficial de circulação, existente ou futura, com a superposição das unidades limitada a 3 (três) pavimentos e 10m (dez metros) de altura total, incluindo o ático;
+
+c) EHIS-h3 e EHMP-h3, conjunto horizontal: aquele constituído em condomínio por casas isoladas, geminadas ou superpostas, com acesso independente a cada unidade habitacional por via de circulação de veículos ou de pedestres interna ao próprio conjunto, ficando vedado o acesso direto às unidades por via oficial de circulação, devendo observar, no tocante ao limite de pavimentos e altura total máxima, as disposições da alínea “a” para as casas isoladas ou geminadas e as disposições da alínea “b” para as casas superpostas, se houver.
+
+II - EHIS-v e EHMP-v, conjunto vertical: conjunto com 2 (duas) ou mais unidades habitacionais, agrupadas verticalmente em edifícios de apartamentos ou conjuntos residenciais verticais com áreas comuns, com acesso direto à via oficial ou via interna ao conjunto;
+
+III - EHIS-u e EHMP-u, habitação unifamiliar: 1 (uma) unidade habitacional por lote, observados os parâmetros definidos nos artigos 3º ao 6º deste decreto e com, no máximo, 3 (três) pavimentos e 10m (dez metros) de altura total, incluído o ático.
+
+§ 1º O licenciamento de conjunto habitacional das tipologias EHIS-h1 e EHMP-h1 engloba o parcelamento do solo, nos termos da LPUOS e da legislação federal pertinente, vinculado à licença para edificar, ou regularizar, desde que sejam observadas as seguintes dimensões para os lotes resultantes:
+
+§ 1º O licenciamento de conjunto habitacional da tipologia EHIS-h1 engloba o parcelamento do solo, nos termos da Lei de Parcelamento, Uso e Ocupação do Solo - LPUOS e da legislação federal pertinente, vinculado à licença para edificar, ou regularizar, desde que sejam observadas as seguintes dimensões para os lotes resultantes: (Redação dada pelo Decreto nº 64.901/2026)
+
+I - área de lote mínima e frente mínima conforme Quadro 2A da LPUOS para conjuntos situados em ZCa, ZCOR, ZCORa, ZMa ou ZMISa;
+
+II - área de lote mínima de 62,50m² (sessenta e dois metros e cinquenta decímetros quadrados) e 3,30m (três metros e trinta centímetros) de frente mínima para as demais zonas de uso onde a referida subcategoria de uso é permitida, conforme Quadro 1 deste decreto.
+
+§ 2º O licenciamento de conjunto habitacional da tipologia EHIS-h2 engloba o parcelamento do solo nos termos da LPUOS e da legislação federal pertinente, vinculado à licença para edificar, ou regularizar, desde que sejam observadas as seguintes condições para os lotes resultantes:
+
+I - área de lote mínima e frente mínima conforme Quadro 2A da LPUOS para conjuntos situados em ZCa, ZCOR, ZCORa, ZMa ou ZMISa;
+
+II - área de lote mínima de 125m² (cento e vinte e cinco metros quadrados) e frente mínima de 5m (cinco metros) para conjuntos situados nas demais zonas de uso onde a referida tipologia de uso é permitida, salvo quando o parcelamento do solo se destinar à urbanização específica ou edificação de conjuntos habitacionais de interesse social, previamente aprovados pelos órgãos públicos competentes;
+
+III - na aplicação dos incisos I e II deste decreto deve ser garantida a fração ideal mínima correspondente a 50% (cinquenta por cento) da área do terreno por unidade habitacional, ficando vedado o desmembramento do lote resultante do parcelamento.
+
+§ 3º O licenciamento de conjunto habitacional das tipologias EHIS-h3 e EHMP-h3 não comporta o desmembramento dos lotes, ficando as unidades habitacionais vinculadas à respectiva fração ideal do lote original.
+
+SEÇÃO IV
+
+DAS MODALIDADES DE EHIS, EHMP E EZEIS
+
+Art. 8º Os EHIS e EZEIS podem ser produzidos nas seguintes modalidades:
+
+I - Plano Integrado ou Plano Integrado Faseado, nos termos das Seções VII e VIII, respectivamente deste decreto, quando envolver simultaneamente o licenciamento de parcelamento do solo de interesse social e a produção de unidades habitacionais de interesse social, nas tipologias elencadas no artigo 7º deste decreto;
+
+II - Conjunto Horizontal, Conjunto Vertical ou Habitação Unifamiliar em lote ou gleba preexistente, com ou sem parcelamento convencional do solo;
+
+III - Habitação Unifamiliar em lote resultante de LHIS ou que venha a ser enquadrado desta forma.
+
+§ 1º Os EHIS e EZEIS promovidos pela iniciativa privada serão admitidos em qualquer modalidade prevista neste decreto.
+
+§ 2º O EHMP pode ser produzido apenas conforme inciso II deste artigo.
+
+CAPÍTULO II
+
+DA MATÉRIA EDILÍCIA E DE USO E OCUPAÇÃO DO SOLO
+
+SEÇÃO I
+
+DAS PERMISSÕES, DESTINAÇÕES E CONDIÇÕES PARA INSTALAÇÃO
+
+Art. 9º O EHIS, EHMP e EZEIS são permitidos na Zona Urbana do Município delimitada no Mapa 1A do PDE, nas zonas de uso constantes do Quadro 1 deste decreto, observando-se que:
+
+I - em Zonas Especiais de Preservação Cultural - ZEPEC e unidades de conservação ambiental, o licenciamento depende de parecer dos órgãos técnicos competentes, no que se refere às questões ambientais e culturais;
+
+II - em Zonas Especiais de Interesse Social - ZEIS, nos lotes com destinação obrigatória, admite-se apenas a implantação do EZEIS, observando-se as porcentagens de área computável para HIS-1 e HIS-2 estabelecidas no Quadro 3 anexo a este decreto;
+
+III - além da zona de uso incidente no local, os empreendimentos deverão ser implantados em lote com frente mínima de 5m (cinco metros) e aqueles com até 20 (vinte) unidades poderão ser admitidos em lotes com frente inferior a 5m (cinco metros), a critério da Comissão de Análise de Empreendimentos Habitacionais de Interesse Social – CAEHIS da Secretaria Municipal de Urbanismo e Licenciamento - SMUL, desde que garantidos os acessos de pedestres e veículos quando houver previsão de vagas, respeitando seus respectivos dimensionamentos mínimos estabelecidos no COE e normas técnicas pertinentes;
+
+IV - será exigida a largura de via mínima de 8m (oito metros) para a implantação dos empreendimentos, sendo admitida variação de no máximo 10% (dez por cento) entre a largura existente no local e aquela exigida, observando-se que:
+
+a) nas vias oficiais de circulação com largura variável, para efeito de aplicação deste decreto, a largura de via a ser considerada é a menor dimensão existente na extensão da face de quadra em que o lote está situado;
+
+b) nos casos previstos na alínea “a”, quando houver variação na largura da via, poderá ser considerada a menor largura existente no trecho que se estende desde a entrada do empreendimento considerado até a via oficial de circulação mais próxima que tenha, por sua vez, largura mínima exigida nos termos deste decreto;
+
+c) o acesso por via com largura mínima de 6m (seis metros) será admitido:
+
+1 - para empreendimento com até 50 (cinquenta) unidades habitacionais, desde que não haja previsão de vagas para estacionamento de veículos;
+
+2 - para empreendimento com até 20 (vinte) unidades habitacionais, se houver previsão de vagas para estacionamento de veículos.
+
+d) a critério da SMUL/CAEHIS, as quantidades referidas na alínea anterior poderão ser majoradas para até 100 (cem) unidades habitacionais, no caso do item 1, e para até 50 (cinquenta) unidades habitacionais, no caso do item 2;
+
+e) também a critério da SMUL/CAEHIS, o acesso por via com largura inferior a 6m (seis metros) poderá ser admitido:
+
+1 - para empreendimento com até 50 (cinquenta) unidades habitacionais, desde que não haja previsão de vagas para estacionamento de veículos;
+
+2 - para empreendimento com até 20 (vinte) unidades habitacionais, se houver previsão de vagas para estacionamento de veículos.
+
+f) na aplicação do disposto nas alíneas “c”, “d” e “e” deste artigo não será admitida variação para menor na largura de via mínima exigida;
+
+g) caso sejam constatadas divergências entre o levantamento planialtimétrico e o cadastro municipal, poderá ser aceita a medida indicada no levantamento planialtimétrico desde que o profissional habilitado apresente relatório fotográfico para comprovação das medidas indicadas, bem como apresente Anotação de Responsabilidade Técnica - ART ou Registro de Responsabilidade Técnica - RRT;
+
+h) os acessos ao empreendimento, em função da largura de via, devem ser implantados na seguinte conformidade:
+
+1 - para o uso habitacional, o acesso principal ou o único acesso de pedestres, bem como os acessos de veículos, devem situar-se em via(s) que atenda(m) à largura mínima exigida nos termos deste inciso;
+
+2 - para uso nR complementar ou incentivado, o acesso principal ou o único acesso de pedestres, bem como os acessos de veículos, devem situar-se em via(s) que atenda(m) à largura mínima exigida pelo Quadro 4A da LPUOS para o respectivo grupo de atividade;
+
+3 - resguardadas as exigências dos itens 1 e 2 desta alínea, os demais acessos de pedestres, ciclistas e fruição pública podem situar-se em via(s) com qualquer largura;
+
+4 - diferentes usos poderão compartilhar de um mesmo acesso ao empreendimento, desde que este se situe em via com largura igual ou superior à largura mínima exigida, nos termos desta alínea, para cada um dos usos envolvidos.
+
+i) para aferição da menor dimensão a que se refere a alínea “a” deste inciso, devem ser incluídos os seguintes bens de uso comum do povo:
+
+1 - áreas doadas à Municipalidade ou reservadas para alargamento do passeio público, inclusive quando a doação ou reserva estiver prevista no projeto do empreendimento;
+
+2 - outros logradouros públicos, tais como praças, divisão de faixas de rolamento ou outros logradouros contíguos.
+
+j) para tanto, não se aplicam as seguintes disposições:
+
+1 – o inciso III do artigo 3º da Lei nº 18.081, de 19 de janeiro de 2024, com a nova redação dada pelo artigo 3º da Lei nº 18.177, de 25 de julho de 2024;
+
+2 – a nota “j” do Quadro 4A da LPUOS, acrescida pelo artigo 74 da Lei nº 18.081, de 2024.
+
+V - os empreendimentos poderão ser implantados em lote com, no máximo, 20.000m² (vinte mil metros quadrados) e para aqueles acima desta área, deverá observar o capítulo de parcelamento deste decreto;
+
+VI - o Empreendimento habitacional de interesse social localizado em ZEIS - EZEIS poderá comportar, no máximo, 400 (quatrocentas) unidades habitacionais de interesse social - HIS por lote ou gleba, observadas as porcentagens definidas no Quadro 3 anexo a este decreto, sendo que eventuais unidades destinadas a outras subcategorias de uso que componham a porcentagem complementar do empreendimento, nos termos do referido Quadro, serão admitidas, em acréscimo às 400 (quatrocentas) unidades de HIS;
+
+VII - o Empreendimento de interesse social - EHIS poderá comportar, no máximo, 400 (quatrocentas) unidades habitacionais de interesse social - HIS por lote ou gleba, correspondendo a, no mínimo, 80% (oitenta por cento) da área total computável do empreendimento, sendo que eventuais unidades destinadas a outras subcategorias de uso que componham os demais 20% (vinte por cento) de área computável complementar do empreendimento, serão admitidas, em acréscimo às 400 (quatrocentas) unidades de HIS;
+
+VIII - para o EHIS e EZEIS, admite-se um número superior de unidades habitacionais de HIS por lote ou gleba, quando se tratar de empreendimento produzido pelo Poder Público Municipal, Estadual ou Federal, bem como em casos de empreendimento produzido pelo setor privado no âmbito de programas habitacionais desenvolvidos pelo Governo Federal, Estadual ou Municipal, desde que observada a organização interna em subcondomínios com, no máximo, 300 (trezentas) unidades de HIS cada, as quais poderão compartilhar dos acessos ao empreendimento, áreas de circulação horizontal e vertical, áreas de lazer e quaisquer outras áreas comuns, observando-se que:
+
+a) o Alvará de Aprovação, Alvará de Aprovação e Execução ou Alvará de Execução, emitido para o EHIS e EZEIS organizado em subcondomínios, deverá conter as seguintes ressalvas:
+
+1 - a obrigatoriedade de constituição dos subcondomínios quando do registro da incorporação;
+
+2 - que o empreendimento será produzido pelo Poder Público, ou pela iniciativa privada no âmbito de programas habitacionais desenvolvidos pelo Governo Federal, Estadual ou Municipal.
+
+b) será permitida a implantação de mais de um subcondomínio na mesma torre ou bloco, nos termos deste inciso, sem prejuízo do integral atendimento às exigências da legislação quanto à segurança, acessibilidade, aeração, insolação e salubridade, sendo de total responsabilidade dos profissionais envolvidos o atendimento a tais exigências, referentes aos aspectos interiores da edificação, nos termos do COE;
+
+c) o disposto neste inciso aplica-se inclusive em lotes resultantes de parcelamento na modalidade Plano Integrado.
+
+IX - as vias condominiais do Conjunto Horizontal ou Conjunto Vertical devem ser pavimentadas e para as vias de circulação de pedestres deverá observar:
+
+a) largura mínima de 1,20m (um metro e vinte centímetros), quando derem acesso a até 20 (vinte) unidades;
+
+b) largura mínima de 2,40m (dois metros e quarenta centímetros), quando derem acesso a mais de 20 (vinte) unidades, podendo ser atendidas em duas faixas não contíguas, observada em cada faixa a largura mínima de 1,20m (um metro e vinte centímetros);
+
+c) na hipótese da alínea “b” deste inciso a largura de 2,40m (dois metros e quarenta centímetros) não se aplica a acessos e clausuras, devendo prever o mínimo de 1,50m (um metro e cinquenta centímetros).
+
+X - as vias condominiais do Conjunto Horizontal ou Conjunto Vertical devem ser pavimentadas e observar as seguintes larguras mínimas para as vias de circulação de veículos:
+
+a) 2,75m (dois metros e setenta e cinco centímetros), quando derem acesso a, no máximo, 60 (sessenta) vagas ou constituir-se em faixa com sentido único;
+
+b) 5,50m (cinco metros e cinquenta centímetros), quando derem acesso a mais de 60 (sessenta) vagas, observada a largura mínima de 2,75m (dois metros e setenta e cinco centímetros) para cada faixa de circulação.
+
+XI - as áreas de estacionamento, quando houver, devem estar localizadas dentro do lote ou gleba, com espaços para manobra, entrada e saída de veículos nos termos do COE, observando-se ainda:
+
+a) as vagas de automóveis, motos e bicicletas são facultativas e, quando propostas, devem observar as disposições do COE;
+
+b) quando houver previsão de subcategorias de uso não residencial complementares ou incentivadas, deve-se observar o Quadro 4A da Lei nº 16.402, de 2016, bem como o disposto no COE quanto à previsão de vagas;
+
+c) quando houver previsão de vaga para carga e descarga, esta poderá ser compartilhada com vaga para pessoa com deficiência - PCD, desde que ela tenha dimensões mínimas de 3,70m (três metros e setenta centímetros) por 5,50m (cinco metros e cinquenta centímetros), devendo ser garantida a acessibilidade às áreas de estacionamento onde esteja localizada, inclusive com área de proteção de estacionamento adjacente à vaga com largura mínima de 1,20m (um metro e vinte centímetros).
+
+XII - para o dimensionamento dos corredores de circulação internos aos blocos deve-se observar o disposto nas normas técnicas pertinentes, em qualquer pavimento, garantindo corredores com largura mínima de 1,50m (um metro e cinquenta centímetros) quando a distância a percorrer até os elevadores ou rampas for superior a 10m (dez metros);
+
+XIII - será admitida a largura de 1,20m (um metro e vinte centímetros) para corredores de uso comum com extensão de até 10m (dez metros), a partir do ponto que se inicia juntamente à caixa de escadas ou elevadores até o acesso direto às unidades ou ao hall de acesso às unidades, desde que nesse hall seja inserido o círculo para o giro da cadeira, conforme NBR 9050, com diâmetro de 1,50m (um metro e cinquenta centímetros), livre de obstáculos;
+
+XIV - os empreendimentos com mais de 20 (vinte) unidades habitacionais HIS ou HMP, nas modalidades Conjunto Horizontal ou Conjunto Vertical, devem dispor de espaço de uso comum do condomínio com condições de acessibilidade às pessoas com deficiência ou mobilidade reduzida, observando-se:
+
+a) espaço descoberto para lazer, entregue equipado, com área equivalente a 2m² (dois metros quadrados) por unidade HIS ou HMP, excetuando-se eventuais unidades de subcategoria de uso R2v complementar, admitindo-se que tal área seja subdividida em mais de um perímetro em qualquer pavimento, desde que cada perímetro permita a inserção de um círculo com raio de 2,50m (dois metros e cinquenta centímetros), podendo interferir sob a projeção de terraços e saliências contidas no § 2º do artigo 108 do COE;
+
+b) espaço coberto para uso comunitário, com área equivalente a 0,50m² (meio metro quadrado) por unidade HIS ou HMP, excetuando-se eventuais unidades de subcategoria de uso R2v complementar, observada a área mínima de 12m² (doze metros quadrados);
+
+c) no caso de reforma de edificação existente, a exigência da alínea “a” deste inciso pode ser atendida em área coberta, desde que tecnicamente justificado;
+
+d) para atendimento ao disposto neste inciso, podem ser aplicadas, alternativamente, as normas específicas de programas habitacionais desenvolvidos pelo Governo Federal, Estadual ou Municipal;
+
+e) aos empreendimentos que contenham unidades HIS e/ou HMP, mas não se enquadram como EHIS, EHMP ou EZEIS, não se aplicam as exigências estabelecidas neste inciso.
+
+XV - os EHIS e EHMP não estão sujeitos às porcentagens definidas no Quadro 3 anexo a este decreto, devendo atender aos parâmetros de aproveitamento, dimensionamento e ocupação dos lotes estabelecidos no Quadro 2 anexo a este decreto, observando-se a zona de uso em que se situam e a destinação de, no mínimo, 80% (oitenta por cento) da área construída computável do empreendimento para HIS no caso de EHIS, e HMP no caso de EHMP, observando-se que:
+
+a) as áreas de circulação horizontal e vertical para acesso às unidades HIS e HMP, quando forem computáveis, devem ser consideradas para o cálculo dos 80% (oitenta por cento) exigidos no “caput” deste inciso;
+
+b) no EHIS localizado em ZC-ZEIS, a porcentagem de que trata este inciso fica reduzida para 60% (sessenta por cento);
+
+c) para enquadramento do empreendimento como EHMP, a área computável referente às unidades de HIS pode ser somada àquela referente às unidades de HMP, para o cálculo da porcentagem estabelecida no “caput” deste inciso;
+
+d) nas zonas em que esses empreendimentos são permitidos, conforme Quadro 1 anexo a este decreto, serão admitidas unidades HMP ou R como usos habitacionais complementares, independentemente da zona em que sejam implantados, desde que não supere 20% (vinte por cento) da área computável total do empreendimento.
+
+XVI - os usos residenciais complementares permitidos são aqueles definidos no Quadro 4 da LPUOS para as diferentes zonas de uso;
+
+XVI - serão permitidos, como usos complementares, todos os usos residenciais listados no Quadro 4 da LPUOS, independentemente da zona de uso; (Redação dada pelo Decreto nº 64.901/2026)
+
+XVII - os usos não residenciais complementares ou incentivados permitidos são aqueles constantes do Quadro 4 da LPUOS para as diferentes zonas de uso, observando-se que:
+
+a) para as subcategorias de uso nR1 ou nR2, deverá prever condições de instalação e parâmetros de incomodidade aplicáveis e estabelecidos no Quadro 4A e no Quadro 4B da LPUOS, bem como submeter-se às disposições da legislação municipal referente a Polo Gerador de Tráfego - PGT, quando for o caso;
+
+b) para as subcategorias nRa ou nR3, haverá análise e decisão caso a caso, a critério da CAEHIS, inclusive com eventuais exigências adicionais de EIV/RIV nos termos da LPUOS e/ou Certidão de Diretrizes prevista na Lei nº 15.150, de 6 de maio de 2010, e/ou anuência da Comissão de Análise Integrada de Projetos de Edificações e de Parcelamento do Solo - CAIEPS.
+
+XVIII - quando não observada a porcentagem estabelecida no inciso XV, o empreendimento não será considerado EHIS ou EHMP, sendo classificado como Empreendimento de Uso Misto, aplicando-se, conjuntamente, as seguintes disposições:
+
+a) atendimento à LPUOS para os diferentes usos de acordo com a zona de uso na qual estiver localizado;
+
+b) aplicação das disposições deste decreto, inclusive sobre isenção ou desconto na outorga onerosa, apenas para a área construída computável destinada a HIS e HMP;
+
+c) competência de análise da Coordenadoria de Parcelamento do Solo e de Habitação de Interesse Social - PARHIS para Empreendimento de Uso Misto com predominância de área edificada total das tipologias HIS e/ou HMP.
+
+XIX - aos EZEIS aplicam-se as seguintes disposições:
+
+a) deverão atender aos percentuais mínimos de área construída computável para HIS-1 e HIS-2, conforme Quadro 3 anexo a este decreto, no caso de pedido para:
+
+1 - edificação nova;
+
+2 - reforma com mudança da categoria de uso;
+
+3 - reforma que envolver a demolição ou ampliação de 50% (cinquenta por cento) ou mais do total da área existente regular edificada do lote, com ou sem mudança de uso.
+
+b) será permitida a aplicação dos benefícios previstos nas alíneas "c", "d" e "e" do inciso I do artigo 60 do PDE, com a nova redação dada pela Lei nº 17.975, 8 de junho de 2023, inclusive de forma combinada, observando-se que:
+
+1 - para aplicação do disposto nas alíneas "c" e "d" do inciso I do artigo 60 do PDE, deverá ser considerado o coeficiente de aproveitamento máximo permitido, conforme Quadro 2 anexo a este decreto;
+
+2 - na aplicação combinada dos acréscimos de coeficiente de aproveitamento provenientes do disposto no item 1 desta alínea, os limites previstos serão desvinculados entre si, devendo ser calculados de forma independente e somados ao coeficiente de aproveitamento máximo estabelecido para cada zona de uso.
+
+2. na aplicação combinada dos acréscimos de coeficiente de aproveitamento previstos nas alíneas "c" e "d" do inciso I do artigo 60 do Plano Diretor Estratégico - PDE, os percentuais estabelecidos serão calculados separadamente e somados ao coeficiente de aproveitamento máximo fixado para cada zona de uso; (Redação dada pelo Decreto nº 64.901/2026)
+
+3. a área computável decorrente da aplicação dos acréscimos de coeficiente de aproveitamento previstos nas alíneas “c” e “d” do inciso I do artigo 60 do PDE não deve ser considerada no cálculo dos percentuais definidos para EZEIS, nos termos do Quadro 3 deste decreto; (Incluído pelo Decreto nº 64.901/2026)
+
+4. na aplicação da alínea “d” do inciso I do artigo 60 do PDE, deverá ser recolhida a contrapartida de outorga onerosa relativa à área computável destinada a HMP proveniente do referido dispositivo; (Incluído pelo Decreto nº 64.901/2026)
+
+5. a área computável de que trata o item 4 desta alínea poderá ser destinada, total ou parcialmente, a HIS-1 ou HIS-2, para o cômputo dos percentuais mínimos de HIS definidos para EZEIS, nos termos do Quadro 3 deste decreto; (Incluído pelo Decreto nº 64.901/2026)
+
+c) poderá ser implantado em terreno composto por ZEIS e outras zonas, desde que atenda, para a totalidade do empreendimento, a destinação de área computável conforme Quadro 3 anexo a este decreto, observadas as disposições do inciso XXVI deste artigo;
+
+d) na hipótese de terreno composto por ZEIS e outras zonas, quando a área do terreno for igual ou inferior a 1.000m² (mil metros quadrados) ou, no caso de terreno contendo ZEIS-3, sua área for igual ou inferior a 500m² (quinhentos metros quadrados), fica garantida a aplicação do disposto nas notas “e”, “f” e “g” do Quadro 2 anexo a este decreto, no tocante ao EZEIS.
+
+XX - a exigência estabelecida na alínea “a” do inciso XIX deste artigo aplica-se aos imóveis com área de terreno superior a 1.000m² (mil metros quadrados) situados em ZEIS 1, 2, 4 e 5, bem como àqueles com área de terreno superior a 500m² (quinhentos metros quadrados) situados em ZEIS 3, excetuados os imóveis:
+
+a) públicos, destinados a serviços da Administração Pública e serviços públicos de abastecimento, bem como a equipamentos sociais públicos de educação, saúde, assistência social, cultura, esportes, lazer e infraestrutura urbana;
+
+b) integrantes do Sistema de Áreas Protegidas, Áreas Verdes e Espaços Livres - SAPAVEL, definidas no artigo 27 da LPUOS;
+
+c) classificados como Bem Imóvel Representativo - ZEPEC-BIR, tombados ou que tenham processo de tombamento aberto pelo órgão competente de qualquer ente federativo;
+
+d) destinados a locais de todo culto;
+
+e) industriais, comerciais e de serviços regularmente instalados e em funcionamento, para reformas com ou sem aumento de área e sem mudança de uso, com demolição ou ampliação inferior a 50% (cinquenta por cento) do total da área edificada no lote, nos termos do § 3º do artigo 55 do PDE.
+
+XXI - a exigência estabelecida na alínea “a” do inciso XIX deste artigo pode ser atendida em outro lote ou gleba, na modalidade Plano Integrado, desde que estejam localizados em ZEIS e na mesma Subprefeitura, devendo ser garantido que a somatória das áreas computáveis construídas nos lotes envolvidos atenda às porcentagens exigidas no Quadro 3 anexo a este decreto;
+
+XXII - para o cálculo dos percentuais de área construída computável para HIS-1 e/ou HIS-2, referidos no inciso XV e na alínea “a” do inciso XIX deste artigo, deve ser considerada a área construída total computável do empreendimento, a qual será dada em função do ceficiente de aproveitamento a ser adotado;
+
+XXIII - aos imóveis que não se enquadram nas exigências de destinação de área construída para HIS previstas no inciso XV e na alínea “a” do inciso XIX, ambos deste artigo, aplicam-se as disposições da LPUOS no tocante às características de aproveitamento, dimensionamento e ocupação dos lotes, bem como às condições de instalação dos usos não residenciais;
+
+XXIV - nos EZEIS, são permitidas todas as subcategorias de uso residencial e as subcategorias de uso não residenciais complementares ou incentivados constantes do Quadro 4 da LPUOS, para as diferentes ZEIS, observando-se que:
+
+a) para as subcategorias de uso nR1 ou nR2, deverão ser previstas as condições de instalação e parâmetros de incomodidade aplicáveis e estabelecidos no Quadro 4A e no Quadro 4B da LPUOS, bem como serem submetidas às disposições da legislação municipal referente aos Polos Geradores de Tráfego - PGT, quando for o caso;
+
+b) para as subcategorias nRa ou nR3, haverá análise e decisão caso a caso, a critério de SMUL/CAEHIS, inclusive com eventuais exigências adicionais de EIV/RIV nos termos da LPUOS e/ou Certidão de Diretrizes prevista na Lei nº 15.150, de 6 de maio de 2010, e/ou anuência da Comissão de Análise Integrada de Projetos de Edificações e de Parcelamento do Solo - CAIEPS.
+
+XXV - o procedimento de doação de área para alargamento de calçada ou melhoramento viário quando vinculado ao licenciamento edilício de empreendimento produzido pelo Poder Público ou Parceria Público-Privada PPP poderá ser disciplinado através de portaria da SMUL, com previsão de condições específicas e procedimentos simplificados;
+
+XXVI - para a implantação do empreendimento em terreno composto por mais de uma zona de uso, aplicam-se as seguintes disposições:
+
+a) a taxa de ocupação máxima, o gabarito de altura máxima, os recuos mínimos e a taxa de permeabilidade mínima deverão ser atendidos para cada parcela do terreno, de acordo com a respectiva zona de uso;
+
+b) no caso de composição com zona que não permita a instalação do uso pretendido, a respectiva parcela do lote deverá ser desconsiderada para toda e qualquer finalidade, exceto para o atendimento da taxa de permeabilidade mínima;
+
+c) caso a soma das parcelas de terreno correspondentes às zonas minoritárias perfizer até 5% (cinco por cento) da área total do terreno, limitada a 250m² (duzentos e cinquenta metros quadrados), deverão ser considerados, para a totalidade da área do terreno, os índices e parâmetros da zona majoritária, aplicando-se o disposto na alínea “b” deste inciso e não se aplicando o disposto em sua alínea “a”;
+
+d) no caso de interferência com área pública ou integrante do Sistema de Áreas Protegidas, Áreas Verdes e Espaços Livres -SAPAVEL, definido nos termos da LPUOS, o caso deverá ser submetido à Coordenadoria de Legislação de Uso e Ocupação do Solo - DEUSO.
+
+Parágrafo único. O disposto na alínea “b” do inciso XIX deste artigo e no § 5º do artigo 18 aplica-se nos perímetros de Operações Urbanas Consorciadas ou Leis de Planos de Intervenção Urbana.
+
+Art. 10. Nos perímetros de Operações Urbanas Consorciadas, os EHIS, EHMP e EZEIS devem observar a todos os parâmetros e melhoramentos urbanísticos previstos na legislação específica das referidas operações, independentemente de serem ou não mais restritivos com relação às disposições deste decreto, de modo a garantir o desenho urbano previsto para essas áreas.
+
+§ 1º Com relação aos parâmetros não previstos na legislação das Operações Urbanas Consorciadas mencionadas no “caput” deste artigo, deverão ser observados os especificados neste decreto.
+
+§ 2º Os pedidos relativos a EHIS e EZEIS protocolados anteriormente à publicação de regulamentação da respectiva Lei de Operação Urbana Consorciada, salvo manifestação em contrário do interessado, serão licenciados exclusivamente nos termos deste decreto, ou de seu equivalente em vigor à data do protocolo do pedido, inclusive no que se refere a requisitos, condições de instalação, parâmetros de ocupação do solo e normas edilícias, não se aplicando as vedações estabelecidas na legislação específica da respectiva operação.
+
+§ 3º O disposto no § 2º deste artigo aplica-se também aos EHIS e EZEIS que não atendam à área mínima de terreno estabelecida pela respectiva Operação Urbana Consorciada, afastada a aplicação, inclusive, das disposições do Decreto 59.886, de 4 de novembro de 2020, ou outro que venha a substituí-lo, bem como das vedações por ele estabelecidas, aplicando-se o coeficiente de aproveitamento máximo previsto neste decreto, em detrimento dos benefícios previstos em norma específica.
+
+§ 4º Nas hipóteses dos §§ 2º e 3º deste artigo:
+
+I - será permitida a utilização, de forma gratuita, do coeficiente de aproveitamento máximo definido por este decreto ou por seu equivalente, em vigor à data do protocolo do pedido, não implicando em consumo de estoque de potencial construtivo adicional da respectiva Operação Urbana Consorciada;
+
+II - deverão ser atendidos eventuais melhoramentos urbanísticos, melhoramentos viários e alargamentos de passeio público previstos pela legislação específica da respectiva Operação Urbana Consorciada, bem como pelo Decreto nº 59.886, de 2020 ou outro que venha a substituí-lo.
+
+§ 5º Para os EHIS, EHMP e EZEIS em análise nos termos de legislação específica de Operação Urbana Consorciada, ficam mantidas as disposições deste decreto relativas a áreas não computáveis, sem prejuízo da aplicação subsidiária do que dispuser a referida legislação específica quanto ao tema, quando não houver benefício equivalente neste decreto ou, em havendo, possa ser concedido sob condições menos exigentes.
+
+§ 6º De modo análogo à sua aplicação nos casos de Operação Urbana Consorciada, aplicam-se integralmente as disposições deste artigo aos Planos de Intervenção Urbana - PIU e Áreas de Intervenção Urbana - AIU, devendo ser observado o regramento próprio do PIU/AIU no que se refere a estoque de potencial construtivo adicional.
+
+§ 7º Casos de dúvidas poderão ser encaminhados à análise e deliberação de SMUL/CAEHIS.
+
+Art. 11. Especificamente para empreendimentos produzidos pela Administração Pública Direta, por empresa com controle acionário do Poder Público ou por meio de Parceria Público-Privada (PPP), quando houver a obrigatoriedade de doação de área para alargamento de calçada prevista nas Leis de Operações Urbanas Consorciadas e Planos de Intervenção Urbana - PIU e Áreas de Intervenção Urbana - AIU, será admitida a reserva de área não edificável como alternativa à doação nos termos deste decreto.
+
+Parágrafo único. Para empreendimentos produzidos pela iniciativa privada, a aplicação do disposto no "caput" deste artigo poderá ser prevista por meio de regramento que verse sobre o tema.
+
+Art. 12. As condições aplicáveis ao EHIS, EHMP e EZEIS serão diversas das estabelecidas neste decreto, nas seguintes hipóteses:
+
+I - quando se tratar de Plano de Urbanização aprovado por norma específica, na qual tais parâmetros e condições sejam definidos pela referida norma e/ou pelo respectivo Conselho Gestor;
+
+II - no caso de REURB, cuja competência para análise, instrução e decisão do pedido é da SEHAB ou de agente promotor público, nos termos da legislação aplicável.
+
+Parágrafo único. Na hipótese do inciso I deste artigo, serão aplicadas as condições que venham a ser definidas pela referida norma, ou, caso não haja previsão ou regulamentação específica, serão aplicadas exclusivamente aquelas definidas por este decreto.
+
+SEÇÃO II
+
+DOS PARÂMETROS EDILÍCIOS
+
+Art. 13. Considerando o disposto no inciso III do artigo 60 da Lei nº 16.050, de 2014, no artigo 95 da Lei nº 16.402, de 2016, no inciso II do artigo 72 da Lei nº 16.642, de 2017 e no artigo 62 do Decreto nº 57.776, de 2017, para o licenciamento de edificações das subcategorias de uso EHIS, EHMP e EZEIS, aplicam-se os seguintes parâmetros e disposições:
+
+I - o nível do pavimento térreo não poderá exceder a cota de 1m (um metro) acima do nível médio entre as cotas das extremidades da testada do lote, quando o desnível da testada de acesso for menor ou igual a 2m (dois metros), observando-se que:
+
+a) quando o desnível na testada do lote for superior a 2m (dois metros), o piso do pavimento térreo poderá estar situado em qualquer cota intermediária entre os níveis mais elevado e mais baixo;
+
+b) o disposto na alínea “a” deste inciso também será aplicado aos casos de desníveis superiores a 2m (dois metros) em relação à profundidade do lote;
+
+c) o nível do pavimento térreo não poderá ser inferior à menor cota dos vértices do terreno;
+
+d) nos empreendimentos inseridos em áreas sujeitas a alagamento, em áreas de terrenos contaminados com restrição à construção de subsolo quando exigido por órgão ambiental competente, em áreas com o lençol freático em níveis próximos ao perfil do terreno e em terrenos com declive ou aclive superior a 50% (cinquenta por cento) em relação ao logradouro ou aos imóveis contíguos, o nível do pavimento térreo será definido caso a caso pela Comissão de Edificações e Uso do Solo - CEUSO;
+
+e) aos EHIS e EZEIS não se aplica a restrição de gabarito quando o terreno apresentar declive ou aclive acima de 30% (trinta por cento), nos termos do § 2º do artigo 60 da LPUOS;
+
+f) para os empreendimentos a serem implantados em terreno com declive ou aclive a partir de 20% (vinte por cento), quando houver gabarito de altura máxima a ser observado, aplicam-se as seguintes disposições:
+
+1 - no caso de declive em relação à via de acesso principal, independentemente da cota de implantação do pavimento térreo, o gabarito de altura máxima deverá ser medido a partir da cota de 1m (um metro) acima do nível médio entre as cotas das extremidades da respectiva testada do lote, exceto quando a diferença de nível entre tais cotas for superior a 2m (dois metros), devendo o gabarito, nesta hipótese, ser medido a partir da cota mais alta da testada;
+
+2 - no caso de aclive em relação à via de acesso principal, independentemente da cota de implantação do pavimento térreo, o gabarito de altura máxima deverá ser medido a partir da cota mais alta do perfil natural do terreno;
+
+3 - caso seja identificada divergência relevante entre a base georreferenciada cadastral oficial do Município e o levantamento planialtimétrico apresentado, este poderá ser considerado em detrimento da aludida base georreferenciada, a critério do Diretor de Divisão, que deverá solicitar ao interessado a apresentação da documentação elencada nas alíneas “a”, “b” e “c” do item 1 do inciso IV da Resolução/CEUSO/131/2018, ou outra que venha a substituí-la ou alterá-la, sem prejuízo do encaminhamento à CEUSO caso o Diretor entenda necessário.
+
+II - nas quadras que contenham vilas, reconhecidas pelo Poder Público, ou via sem saída com largura inferior a 10m (dez metros), nos termos do artigo 64 da LPUOS, aplicam-se as seguintes disposições:
+
+a) na faixa envoltória da vila ou via sem saída deverá ser observado o gabarito de altura máxima de 28m (vinte e oito metros) nas ZEU, ZEUP, ZEM e ZEMP e de 15m (quinze metros) nas demais zonas, quando o gabarito definido para a zona não for mais restritivo;
+
+b) os lotes pertencentes à vila não poderão ser remembrados a lotes que não pertençam à vila, exceto nos casos de aquisição de todos os lotes da vila por um único proprietário, em que a vila será considerada descaracterizada e seu perímetro será enquadrado ao zoneamento lindeiro à via de acesso à vila;
+
+c) a faixa envoltória a que se refere a alínea “a” deste inciso será, no caso de vila, de 20m (vinte metros), medidos a partir do perímetro externo dos lotes e no caso de rua sem saída, de 20m (vinte metros), medidos a partir dos alinhamentos da rua sem saída;
+
+d) à exceção da alínea “b”, o disposto neste inciso não se aplica ao EZEIS.
+
+III - os recuos laterais e de fundo são aqueles definidos no Quadro 2 deste decreto, e ficam dispensados para os EHIS, EHMP e EZEIS nas seguintes situações:
+
+a) quando a altura da edificação for menor ou igual a 10m (dez metros) medida em relação ao perfil natural do terreno, conforme base georreferenciada cadastral oficial do Município, exceto em ZDE-2, ZPI-1 e ZPI-2, devendo ser desconsiderada a platibanda ou qualquer elemento acima da laje quando vazado em, no mínimo, 80% (oitenta por cento), nos termos do COE;
+
+b) à exceção de ZDE-2, ZPI-1 e ZPI-2, quando o lote vizinho apresentar edificação encostada na divisa do lote, considerada a situação fática das edificações, através de análise caso a caso por competente Comissão Intersecretarial, a dispensa será até o limite da altura da referida edificação, devendo a volumetria que ultrapassá-la observar os critérios de afastamento contínuo, lateral e de fundo, que pode ser escalonado, observando-se disposições do COE;
+
+c) para os lotes localizados em ZDE-2, ZPI-1 e ZPI-2, que se enquadrem no disposto no artigo 134 da LPUOS, ficam dispensados dos recuos laterais e de fundo, quando o atendimento a esses recuos inviabilizarem a utilização da taxa de ocupação máxima do lote, observado o limite de altura previsto na alínea “a” deste inciso;
+
+d) quando integrantes do mesmo empreendimento, desde que os projetos sejam aprovados conjuntamente e sejam garantidas as condições de aeração e insolação dos compartimentos, nos termos do COE;
+
+e) quando lindeiros à área verde pública;
+
+f) em terrenos com área de até 250m² (duzentos e cinquenta metros quadrados), frente até 10m (dez metros), para edificação com gabarito de altura máxima até 14m (quatorze metros), com até 5 (cinco) pavimentos e que apresente desnível inferior a 12m (doze metros) contado do piso do último andar até o piso do andar inferior, incluídos os pavimentos destinados a estacionamento e excluído o ático, vedada a construção de pavimentos acima, mesmo que através de escalonamento e/ou atendimento do afastamento “A”, aplicando-se inclusive o disposto na alínea “c” deste inciso;
+
+g) em terrenos com área de até 250m² (duzentos e cinquenta metros quadrados) e frente até 10m (dez metros), para edificação limitada a 4 (quatro) pavimentos, a altura “H” definida no item 5 do COE e do Decreto nº 57.776, de 2017, poderá ser majorada em até 10% (dez por cento), desde que seja majorada em mesmo percentual a área mínima de 5m² (cinco metros quadrados) e quando existirem unidades habitacionais abaixo do perfil natural do terreno, a referida altura será considerada a partir do piso do pavimento mais baixo habitável até a laje de cobertura do último pavimento, excluído o ático, vedada a construção de pavimentos acima, mesmo que através de escalonamento e/ou atendimento do afastamento “A”, aplicando-se inclusive o disposto na alínea “c” deste inciso;
+
+h) nas demais situações que venham a ser previstas na LPUOS e no COE, não citadas neste decreto.
+
+IV - as construções em subsolo, inclusive as áreas ocupadas por circulação, manobra e estacionamento de veículos, quando aflorarem mais de 6m (seis metros) em relação ao perfil natural do terreno, conforme base georreferenciada cadastral oficial do Município, deverão observar no trecho do afloramento, os recuos laterais e de fundos obrigatórios definidos no Quadro 2 aneoxo a este decreto, observando-se:
+
+a) o disposto nas alíneas “e” e “f” do inciso I deste artigo, referente ao gabarito de altura máxima para os terrenos com declive ou aclive a partir de 20% (vinte por cento);
+
+b) que o levantamento planialtimétrico apresentado pelo interessado, elaborado por profissional habilitado, poderá ser considerado para verificação do afloramento a que se refere este inciso, a critério do Diretor de Divisão, que poderá solicitar ao interessado a apresentação da documentação elencada nas alíneas “a”, “b” e “c” do item 1 do inciso IV da Resolução/CEUSO/131/2018, ou outra que venha a substituí-la ou alterá-la, sem prejuízo do encaminhamento à CEUSO, caso o citado Diretor entenda necessário.
+
+V - nos projetos de novas edificações ou nas reformas com alteração de mais de 50% (cinquenta por cento) da área construída total, nos lotes maiores que 2.500m² (dois mil e quinhentos metros quadrados) localizados em qualquer zona, os passeios públicos, exceto em vielas sanitárias e vielas exclusivas de pedestres, deverão ter largura mínima de 5m (cinco metros), cuja faixa necessária ao alargamento do passeio poderá ser doada à Municipalidade ou gravada como área não edificável, devidamente averbada no Cartório de Registro de Imóveis, devendo, em ambos os casos, ser integrada ao passeio público com o mesmo tipo de piso existente ou com a execução de um novo piso na totalidade da nova área de calçada, sendo vedado qualquer tipo de barreira ou vedação, observando-se que:
+
+a) o atendimento do disposto no “caput” deste inciso será facultativo para os lotes com área igual ou menor que 10.000m² (dez mil metros quadrados) em ZM e igual ou menor que 2.500m² (dois mil e quinhentos metros quadrados) nas demais zonas e nas ZEU, ZEUa, ZEUP, ZEUPa, ZEM e ZEMP os passeios públicos deverão ter largura de, no mínimo, 2,5m (dois metros e cinquenta centímetros), conforme largura mínima estabelecida no Quadro 2B da LPUOS, mediante doação ou reserva, adotados os procedimentos de averbação na matrícula do Cartório de Registro de Imóveis e demais dispositivos previstos neste inciso;
+
+a) o atendimento do disposto neste inciso será facultativo: (Redação dada pelo Decreto nº 64.901/2026)
+
+1. para lotes com área igual ou inferior a 10.000m² (dez mil metros quadrados) localizados em Zonas Mistas - ZM; (Incluído pelo Decreto nº 64.901/2026)
+
+2. para lotes com área igual ou inferior a 2.500m² (dois mil e quinhentos metros quadrados) localizados nas zonas ZEU, ZEUa, ZEUP, ZEUPa, ZEM e ZEMP, desde que o passeio público tenha a largura mínima de 2,5m (dois metros e cinquenta centímetros), ou haja a previsão de seu alargamento para que a alcance, mediante doação ou reserva de área, conforme o procedimento previsto neste inciso; (Incluído pelo Decreto nº 64.901/2026)
+
+3. para lotes com área igual ou inferior a 2.500m² (dois mil e quinhentos metros quadrados) nas demais zonas; (Incluído pelo Decreto nº 64.901/2026)
+
+4. para lotes com qualquer área localizada em ZER; (Incluído pelo Decreto nº 64.901/2026)
+
+b) a área necessária para o alargamento do passeio público, quando houver a reserva, deve ser gravada na matrícula do lote como área não edificável, permanecer livre de construção e o gradil ou muro de divisa deve ser recuado para esse limite, não sendo devido qualquer tipo de indenização ao interessado;
+
+c) quando houver a opção pela reserva de área não edificável, para fins de atendimento ao alargamento do passeio público previsto neste inciso, todos os índices e parâmetros, inclusive os potenciais construtivos básico e máximo do lote serão calculados em função de sua área original, aplicando-se a regra ordinária da outorga onerosa na hipótese de utilização de potencial construtivo adicional, especificamente para EHMP ou HMP;
+
+d) por opção do interessado, a área necessária para o alargamento do passeio público poderá ser doada à Prefeitura, aplicando-se as disposições do artigo 67 da LPUOS, ressalvado que, no caso de imóvel em área de influência dos eixos, nos termos do PDE, os potenciais construtivos básico e máximo do remanescente do lote serão calculados em função de sua área original e não será cobrada outorga onerosa do direito de construir relativa ao potencial construtivo máximo correspondente à área doada;
+
+e) na hipótese de reforma, fica dispensada a doação ou a reserva prevista neste inciso, quando implicar em demolição da edificação regular existente;
+
+f) na hipótese de opção pela reserva prevista neste inciso, o registro na matrícula da área não edificável será exigido para emissão do Certificado de Conclusão, devendo tal obrigação ser ressalvada no Alvará de Aprovação e Execução, ou Alvará de Execução;
+
+g) no caso de imóvel atingido por melhoramento viário, para o cálculo da faixa necessária para o alargamento do passeio, aplicam-se as seguintes disposições:
+
+1 - quando se tratar de alargamento de via existente e não constar a dimensão do passeio no plano de melhoramento, a faixa a ser doada ou a ser reservada como área não edificável a partir do alinhamento futuro será igual à diferença entre a largura do passeio existente e aquela exigida;
+
+2 - quando se tratar de abertura de nova via dentro do imóvel e não constar a dimensão do passeio no plano de melhoramento, deverá ser considerada a largura do passeio futuro em função da classificação da nova via, de acordo com o previsto no Quadro 2B da LPUOS, para o cálculo da largura da faixa a ser doada a partir do melhoramento futuro.
+
+h) fica dispensada a doação ou a reserva prevista neste inciso nas hipóteses em que o passeio existente apresente largura:
+
+1 - igual ou maior que aquela exigida;
+
+2 - até 5% (cinco por cento) menor que a exigida.
+
+VI - o recuo frontal a ser observado será aquele definido no Quadro 2 anexo a este decreto, e ficará dispensado quando:
+
+a) no mínimo, 50% (cinquenta por cento) da face de quadra em que se situa o imóvel esteja ocupada por edificações no alinhamento do logradouro, conforme base georreferenciada cadastral oficial do Município referente à data de protocolamento do processo de licenciamento edilício, observando-se que:
+
+1 - neste caso não se aplica a exigência de alargamento do passeio público prevista neste decreto;
+
+2 - aplica-se o disposto nesta alínea nos casos de obra nova ou reforma que em razão da previsão de demolição, resulte em menos de 50% (cinquenta por cento) das edificações existentes no alinhamento da face de quadra, tendo em vista o conceito expresso no § 1º do artigo 60 e § 10 do artigo 117 do PDE, com a nova redação dada pela Lei nº 17.975, de 2023;
+
+3 - para constatação do disposto nesta alínea, qualquer recuo igual ou inferior a 50% (cinquenta por cento) do exigido para a zona de uso, será considerado como no alinhamento do logradouro.
+
+b) o passeio público já apresente largura de 5m (cinco metros) ou quando ocorrer a doação ou a reserva de área não edificável da faixa necessária para seu alargamento conforme disposto neste decreto, independentemente da obrigatoriedade em função da área do terreno, sendo admitida a divergência de até 5% (cinco por cento) a menor que a exigida;
+
+c) a altura máxima da edificação, medida a partir da cota de nível mais baixa no alinhamento até a laje de cobertura, não ultrapassar 1,5 (uma e meia) vezes a largura da via de acesso à edificação, admitindo-se o escalonamento da edificação para a parte que ultrapassar a referida altura máxima;
+
+d) as edificações forem integrantes do mesmo empreendimento, desde que os projetos sejam aprovados conjuntamente e sejam garantidas as condições de aeração e insolação dos compartimentos, nos termos do COE;
+
+e) em situações que venham a ser previstas na LPUOS e no COE, não citadas neste decreto.
+
+VII - a taxa de ocupação é aquela definida no Quadro 2 anexo a este decreto, observando-se que:
+
+a) quando houver a doação de área para alargamento de calçada ou para implantação de melhoramento, a taxa de ocupação será calculada pela área remanescente do terreno;
+
+b) quando houver a reserva de área não edificável para alargamento de calçada, a taxa de ocupação será calculada pela área original do terreno.
+
+VIII - o gabarito de altura máxima é o constante do Quadro 2 anexo a este decreto, sem prejuízo de eventuais disposições mais restritivas eventualmente estabelecidas em legislação incidente nos âmbitos municipal, estadual ou federal;
+
+IX - a área de fruição pública será opcional independentemente da zona de uso em que se situem os empreendimentos, devendo, caso seja prevista, observar as disposições da LPUOS;
+
+X - a área de fachada ativa será opcional independentemente da zona de uso em que se situem os empreendimentos, devendo, caso seja prevista, observar as disposições da LPUOS;
+
+XI - deverá ser observada a taxa de permeabilidade prevista no Quadro 4 anexo a este decreto, a ser calculada sobre a área real do terreno, sendo que:
+
+a) nos casos de reforma, o cálculo da taxa de permeabilidade será sobre a área livre do imóvel, descontando-se a área edificada regular existente e mantida no projeto;
+
+b) caso haja área existente irregular ou área existente regular a ser demolida, essas áreas deverão ser somadas às áreas livres para o cálculo da taxa de permeabilidade;
+
+c) quando houver a doação de área para alargamento de calçada ou para implantação de melhoramento, a taxa de permeabilidade será calculada pela área remanescente do terreno;
+
+d) quando houver a reserva de área não edificável para alargamento de calçada, a taxa de permeabilidade será calculada pela área original do terreno;
+
+e) a área não edificável reservada para alargamento de calçada poderá ser considerada para atendimento à permeabilidade mínima exigida e no caso de proposta com utilização da quota ambiental, deverá ser atendido e grafado em nota, no projeto, que a utilização da área ou de parte da área reservada para alargamento de calçada no cálculo da taxa de permeabilidade mínima foi realizada com plena observância ao disposto na nota explicativa nº 13 do Quadro 3B da LPUOS, substituído através da Lei nº 18.081, de 2024, bem como ao disposto nos manuais de calçada vigentes e na legislação pertinente, em especial no Decreto nº 59.671, de 7 de agosto de 2020 e eventuais revisões posteriores, observadas ainda as disposições do COE e da NBR 9050 no que tange aos acessos da edificação;
+
+f) no caso de opção pela utilização da quota ambiental, deverá ser plantada uma árvore a cada 50m² (cinquenta metros quadrados) de área permeável utilizada no projeto, devendo estar localizada no recuo de frente, quando exigido, obedecida eventual regulamentação subsidiária sobre o tema;
+
+g) nas áreas contaminadas, a exigência da área permeável deverá atender aos critérios de projetos de remediação de áreas contaminadas, dentre outras situações específicas que venham a ser previstas na LPUOS e no COE, não citadas neste decreto.
+
+XII - a quota ambiental será opcional independentemente da zona de uso em que se situem os empreendimentos, inclusive em perímetros de Operações Urbanas Consorciadas ou Leis de Planos de Intervenção Urbana, devendo, caso seja prevista, observar às disposições da LPUOS;
+
+XIII - nos processos de licenciamento de edificações novas ou de reformas com alteração de área construída superior a 20% (vinte por cento) em lotes com área superior a 500m² (quinhentos metros quadrados), é obrigatória a instalação dos seguintes reservatórios:
+
+a) de controle de escoamento superficial calculado nos termos do § 2º do artigo 79 da Lei nº 16.402, de 2016, podendo ser adotada qualquer vazão de saída, ficando isento do cumprimento ao disposto no § 1º do referido artigo;
+
+b) de aproveitamento de águas pluviais provenientes das coberturas das edificações para fins não potáveis, devendo ser calculado e utilizado em conformidade com o disposto no artigo 80 da Lei nº 16.402, de 2016.
+
+XIV - os parâmetros qualificadores da ocupação previstos no artigo 87 da Lei nº 16.402, de 2016 serão opcionais;
+
+XV - para o EHMP com área construída computável superior a 20.000m² (vinte mil metros quadrados) se aplica a obrigatoriedade estabelecida pelos artigos 111 e 112 do PDE, regulamentados pelo Decreto nº 56.538, de 23 de outubro de 2015, com eventuais revisões posteriores, referente à cota de solidariedade, sendo facultativo nos empreendimentos com área construída computável igual ou inferior a 20.000m² (vinte mil metros quadrados), por opção do interessado, cabendo ao empreendedor obrigações e benefícios, nos termos dos §§ 2º e 3º do artigo 112 do PDE, revisados pela Lei nº 17.975, de 2023;
+
+XVI - em EHIS e EZEIS, a aplicação da cota de solidariedade é facultativa independentemente da área computável do empreendimento e caso haja opção do empreendedor pela sua aplicação:
+
+a) deverá atender conforme percentual exigido no “caput” do artigo 112 do PDE, no próprio empreendimento;
+
+b) poderá, alternativamente, atender conforme inciso I do § 2º do artigo 112 do PDE.
+
+XVII - sem prejuízo de outros regramentos pertinentes à matéria, aplicam-se ao EHIS a ser produzido nos termos do inciso I do § 2º do artigo 112 do PDE, para fins de cumprimento da cota de solidariedade, as seguintes disposições:
+
+a) poderá ser produzido por quaisquer dos agentes elencados nos incisos I e II do “caput” do artigo 2º;
+
+b) poderá estar situado em qualquer Subprefeitura;
+
+c) deverá estar situado na Macrozona de Estruturação e Qualificação Urbana, excluída a Macroárea de Redução da Vulnerabilidade Urbana e os Subsetores Jacu-Pêssego, Arco Leste, Noroeste e Fernão Dias do Setor Eixos de Desenvolvimento da Macroárea de Estruturação Metropolitana.
+
+XVIII - no caso de aplicação da cota de solidariedade, independentemente de sua obrigatoriedade, incidem ainda as disposições seguintes:
+
+a) para fins de arredondamento e atendimento da cota de solidariedade, será admitido o acréscimo, a título de tolerância, de até 70m² (setenta metros quadrados) além da área correspondente ao percentual de 10% (dez por cento) da área construída computável do empreendimento a ser destinada para HIS nos termos do artigo 112 do PDE;
+
+b) fica assegurada a possibilidade de cumprimento da cota de solidariedade nos termos do “caput” do artigo 112 do PDE inclusive aos empreendimentos localizados na macroárea e subsetores excluídos na alínea “c” do inciso XVII deste artigo.
+
+c) a majoração de até 20% da área computável decorrente de sua aplicação deverá ser considerada para o enquadramento do empreendimento como EHIS, EHMP ou EZEIS, nos termos dos incisos III, IV e V do parágrafo único do artigo 1º deste decreto, observado o disposto no inciso XV do artigo 9º; (Incluído pelo Decreto nº 64.901/2026)
+
+d) nos EHIS, EHMP e EZEIS, o acréscimo de até 20% (vinte por cento) na área construída computável será calculado com base no coeficiente de aproveitamento máximo estabelecido no Quadro 2 deste decreto. (Incluído pelo Decreto nº 64.901/2026)
+
+Art. 14. As edificações dos EHIS, EHMP e EZEIS devem observar as seguintes condições:
+
+I - à exceção de EHIS-u ou EHMP-u, todos os empreendimentos devem garantir ao menos 3% (três por cento) das unidades às pessoas com deficiência, observando o mínimo de 1 (uma) unidade adaptável, nos termos das normas de acessibilidade previstas no COE, na NBR 9050, na Lei Federal nº 13.146, de 6 de julho de 2015, assim como no Decreto Federal nº 9.451, de 26 de julho de 2018 e eventuais alterações posteriores, observando-se que:
+
+a) as unidades reservadas às pessoas com deficiência e as áreas comuns do empreendimento áreas de lazer e áreas de circulação horizontal e vertical - devem observar as normas pertinentes à acessibilidade;
+
+b) nas tipologias de Conjunto Horizontal Multifamiliar ou Conjunto Vertical não enquadrado no inciso II deste artigo, deverá ser previsto espaço para futura instalação de equipamento mecânico para transporte vertical, por se tratar de empreendimentos com isenção ou redução do valor de outorga onerosa do direito de construir e isenção de taxas para exame e verificação;
+
+c) as unidades habitacionais das subcategorias de uso R2v e R2h que venham a compor o empreendimento deverão ser acessíveis conforme definições constantes dos incisos I e II do artigo 3º do COE, ressalvadas as possibilidades do artigo 9º do Decreto Federal n 9.451, de 2018;
+
+d) as unidades reservadas às pessoas com deficiência deverão constar em ressalva na emissão do Alvará de Aprovação ou Alvará de Aprovação e Execução;
+
+e) as subcategorias de uso não residenciais - nR que venham a compor o empreendimento deverão ser acessíveis conforme definições constantes dos incisos I e II do artigo 3º do COE.
+
+II - a edificação com mais de 5 (cinco) andares ou que apresente desnível superior a 12m (doze metros) contado do piso do último andar até o piso do andar inferior, incluídos os pavimentos destinados a estacionamento, deve ser servida por elevador de passageiro, observadas as seguintes condições:
+
+a) no mínimo, 1 (um) elevador, em edificação com até 10 (dez) andares a partir do pavimento mais baixo de acesso à edificação ou com desnível igual ou inferior a 24m (vinte e quatro metros) entre o pavimento mais baixo de acesso à edificação e o piso do último pavimento;
+
+b) no mínimo, 2 (dois) elevadores, em edificação com mais de 10 (dez) andares a partir do pavimento mais baixo de acesso à edificação ou com desnível superior a 24m (vinte e quatro metros) entre o pavimento mais baixo de acesso à edificação e o piso do último pavimento;
+
+c) os elevadores de passageiros deverão atender o dimensionamento e a localização definidos pela NTO, além das disposições estabelecidas pelo COE;
+
+d) o hall de acesso a no mínimo um elevador, em todos os pavimentos, excluído o térreo, deverá estar interligado à circulação vertical da edificação (escadas e/ou rampas) por espaço de circulação coletiva (largura mínima de 1,20m), podendo os demais elevadores estar interligados às escadas e/ou rampas por espaço de circulação privativa (largura mínima de 0,80m) de uso comum ao edifício, atendidas as condições de segurança estabelecidas no COE, no Decreto nº 57.776, de 2017 e neste decreto;
+
+e) os elevadores acessíveis de passageiros deverão atender a quantidade, o dimensionamento e a localização definidos pela NBR 9050 e NBR NM 313, ou aquelas que vierem a substituí-las;
+
+f) todo andar deve ser servido pelo número mínimo de elevadores exigidos, inclusive aquele destinado a estacionamento;
+
+g) os elevadores podem estar em prumadas diferentes, desde que respeitado o cálculo de tráfego estabelecido nas NTOs, excetuado o elevador de emergência, que deverá atender a todos os andares na mesma caixa de corrida, inclusive subsolos;
+
+h) os equipamentos mecânicos, independentemente do porte, não serão considerados como área edificada.
+
+III - garantir condições de acessibilidade à pessoa com deficiência ou mobilidade reduzida no acesso às unidades referidas na alínea “a” do inciso I deste artigo e a qualquer área de uso comum, observando, no mínimo:
+
+a) previsão de rampa com largura mínima de 1,20m (um metro e vinte centímetros) para vencer o desnível entre o logradouro público ou a área externa e o piso correspondente à soleira de ingresso das edificações, admitida a instalação de equipamento mecânico de transporte permanente para esta finalidade;
+
+b) acesso às áreas comuns do condomínio e às áreas de estacionamento, conforme disposto neste decreto.
+
+IV - as edificações devem atender às disposições do COE quanto à segurança de uso, à distância entre os blocos e às condições de aeração e insolação, observado o disposto no § único deste artigo;
+
+V - admite-se o poço para garantir a aeração e insolação, nas condições determinadas pelo COE, observando-se:
+
+a) área mínima de 5,00m² (cinco metros quadrados) e largura mínima de 1,50m (um metro e cinquenta centímetros), quando “H” for igual ou inferior a 10m (dez metros), medidos a partir do piso da unidade habitacional mais baixa;
+
+b) retângulo conforme inciso II do item 5.3.1 do Anexo I do COE, situação em que poderá ser adotado o escalonamento, quando “H” for superior a 10m (dez metros);
+
+c) deve-se verificar, concomitantemente, as condições para admissão do poço de aeração e insolação, que tem como referência o piso da unidade habitacional mais baixa, e as condições para afastamento das divisas laterais, que tem como referência o perfil natural do terreno - PNT, aplicando-se sempre o mais restritivo.
+
+VI - atender cota parte máxima de terreno por unidade definida no Quadro 2 anexo a este decreto para as zonas de uso ZEU, ZEUa, ZEM e ZEMp, conforme equação do § 1º do artigo 79 do PDE;
+
+VI - atender cota parte máxima de terreno por unidade prevista no Quadro 2 deste decreto para as zonas de uso ZEU, ZEUa, ZEM e ZEMp, conforme a equação prevista no § 1º do artigo 79 do Plano Diretor Estratégico - PDE, observando-se que, independentemente da data de protocolo, essa exigência não se aplica aos EHIS e EZEIS produzidos pela Administração Pública Direta ou por empresa com controle acionário do Poder Público; (Redação dada pelo Decreto nº 64.901/2026)
+
+VII - o disposto nos §§ 9º e 10 do artigo 79 do PDE, com a nova redação dada pela Lei nº 17.975, de 2023 e pela Lei nº 18.157, de 2024, não se aplica para EHIS, EHMP e EZEIS;
+
+VIII - não será exigido o sistema de aquecimento de água por meio de aproveitamento de energia solar previsto no item 3.8 do Anexo I da Lei 16.642, de2017, inclusive para unidades HIS e HMP;
+
+IX - poderão ser aceitos, a critério de SMUL/CAEHIS, parâmetros de implantação estabelecidos pela Lei nº 16.402, de 2016 e alterações posteriores, quando menos restritivos que os estabelecidos por este decreto e normas complementares.
+
+Parágrafo único. Quando houver previsão de afastamento "A" para torre ou bloco, nos termos do item 5.1 do Anexo I do COE, a área do lote sob sua projeção, se houver, poderá ser ocupada por área de lazer descoberta, bem como por estruturas tais como edificações, obras complementares, mobiliários e equipamentos, observando-se, no caso de ocupação por estruturas, as seguintes condições cumulativas:
+
+I - a projeção da estrutura junto à respectiva torre ou bloco, no plano de fachada correspondente, não poderá ultrapassar a altura de 10m (dez metros) medida a partir do perfil natural do terreno considerado nesse mesmo plano; e,
+
+II - caso a estrutura esteja voltada diretamente e defronte para alguma unidade habitacional da citada torre ou bloco e a uma distância horizontal inferior a 3m (três metros) da mesma, deverá ser garantido ainda:
+
+a) que tal distância não seja inferior a 1,5m (um metro e cinquenta centímetros) ao longo de toda a extensão em que a estrutura confrontar com a torre ou bloco;
+
+b) que haja uma área livre descoberta mínima de 5m² (cinco metros quadrados) entre a estrutura e a unidade habitacional;
+
+c) que a altura entre o topo da estrutura em questão e o piso da unidade habitacional não supere a 10m (dez metros), devendo ser considerado o piso da unidade habitacional mais baixa, caso exista mais de uma unidade na condição prevista no “caput” deste inciso.
+
+Art. 15. Aos EHIS, EHMP e EZEIS, não se aplicam as disposições para Eixos de Estruturação da Transformação Urbana - EETU definidas na Lei nº 16.050, de 2014 que não forem contempladas neste decreto.
+
+Art. 16. Os parâmetros edilícios para EHIS, EHMP e EZEIS serão diversos dos estabelecidos neste decreto, nas seguintes hipóteses:
+
+I - no caso de Plano de Urbanização aprovado por norma específica;
+
+II - no caso de REURB, cuja competência para análise, instrução e decisão do pedido é da SEHAB ou de agente promotor público, nos termos da legislação aplicável.
+
+Parágrafo único. Na hipótese do inciso I deste artigo, serão aplicados os parâmetros edilícios que venham a ser definidos pela referida norma, ou, caso não haja previsão ou regulamentação específica, serão aplicados exclusivamente aqueles definidos por este decreto.
+
+SEÇÃO III
+
+DAS ÁREAS NÃO COMPUTÁVEIS
+
+Art. 17. Em EHIS, EHMP e EZEIS, consideram-se áreas não computáveis, limitadas a 59% (cinquenta e nove por cento) da área construída total do empreendimento:
+
+I - o terraço aberto, com área construída máxima por pavimento equivalente a 5% (cinco por cento) da área do terreno, desde que observado o disposto no artigo 6º deste decreto e, eventualmente, as possibilidades previstas no § 1º do artigo 10 da Lei nº 18.081, de 2024;
+
+II - o mobiliário definido como jirau constituído de estrado ou passadiço instalado a meia altura em compartimento, com pé-direito máximo de 2,30m (dois metros e trinta centímetros), sem permanência humana prolongada, ocupando, no máximo, 30% (trinta por cento) da área do compartimento, limitado a 250m² (duzentos e cinquenta metros quadrados), permitido apenas para usos nR complementares ou incentivados, nos termos da Resolução/CEUSO/139/2020, ou norma que venha a substituí-la;
+
+III - os demais tipos de mobiliários e obras complementares previstos no COE, regulamentados conforme Anexo IV do Decreto nº 57.776, de 2017;
+
+IV - a saliência prevista no COE, com as seguintes características e dimensões em relação ao plano da fachada da edificação:
+
+a) elemento arquitetônico, ornato, ornamento, jardineira, floreira, brise, aba horizontal e vertical, com até 0,40m (quarenta centímetros) de profundidade;
+
+b) viga, pilar com até 0,40m (quarenta centímetros) de avanço;
+
+c) beiral da cobertura com até 1,50m (um metro e cinquenta centímetros) de largura;
+
+d) marquise em balanço, não sobreposta, que avance no máximo até 50% (cinquenta por cento) das faixas de recuo obrigatório e com área máxima de 30m² (trinta metros quadrados).
+
+V - as áreas técnicas, sem permanência humana, destinadas a instalações e equipamentos, observado o disposto na Resolução/CEUSO/141/2021, ou norma que venha a substituí-la;
+
+VI - nos pavimentos destinados a estacionamento de veículos, motocicletas e bicicletas:
+
+a) o compartimento de uso comum de apoio ao uso da edificação, tais como vestiário, instalação sanitária e depósitos;
+
+b) as áreas de uso comum de circulação de pedestres, horizontal e vertical.
+
+VII - as áreas cobertas de uso comum, localizadas:
+
+a) no pavimento térreo;
+
+b) em qualquer pavimento, observado o limite de 3m² (três metros quadrados) por habitação, nos termos da alínea “b” do inciso VII do artigo 108 do COE, devendo ser destinadas a lazer.
+
+VIII - nos pavimentos de uso não residencial, a circulação vertical de uso comum;
+
+IX - as áreas cobertas ocupadas por vagas especiais destinadas a pessoa com deficiência ou mobilidade reduzida e idosos, vagas de motocicletas, vagas de bicicletas e vagas para carga e descarga e no caso de incidência de cota de garagem, ficarão limitadas ao mínimo exigido pela LPUOS e COE;
+
+X - as áreas cobertas nos usos residenciais, em qualquer pavimento, destinadas às áreas comuns de circulação, incluindo a circulação vertical, limitada a 20% (vinte por cento) da área coberta do pavimento, exceto nas ZEU, ZEUa, ZEUP, ZEUPa, ZEM e ZEMP;
+
+XI - nas zonas não referidas no inciso XII deste artigo, as áreas cobertas em qualquer pavimento, ocupadas por circulação, manobra e estacionamento de veículos;
+
+XII - nas ZEU, ZEUa, ZEUP, ZEUPa, ZEM e ZEMP, aplica-se o disposto no inciso XI deste artigo, desde que o número de vagas, exceto as especiais, motocicletas e bicicletas, não ultrapasse:
+
+a) nos usos residenciais complementares, observada a cota de garagem máxima igual a 32m² (trinta e dois metros quadrados) por vaga, alternativamente:
+
+1 - 1 (uma) vaga por unidade habitacional maior ou igual a 30m² (trinta metros quadrados) de área construída computável;
+
+2 - 1 (uma) vaga a cada 60m² (sessenta metros quadrados) de área construída privativa total do empreendimento, desprezadas as frações.
+
+b) nos usos não residenciais complementares, 1 (uma) vaga para cada 70m² (setenta metros quadrados) de área construída computável, excluídas as áreas ocupadas por circulação, manobra e estacionamento de veículos, desprezadas as frações, desde que observada a cota de garagem máxima igual a 32m² (trinta e dois metros quadrados) por vaga;
+
+c) nos usos mistos definidos no inciso XVIII do artigo 9º deste decreto, as alternativas definidas na alínea “a” deste inciso para usos residenciais, e na alínea “b” deste inciso para usos não residenciais, excluídas as áreas computáveis ocupadas por vagas, desprezadas as frações.
+
+XIII - nas ZEU, ZEUa, ZEUP, ZEUPa, ZEM e ZEMP, como incentivo aos empreendimentos sem vagas de estacionamento de veículos, excetuadas as vagas necessárias ao atendimento das condições de instalação fixadas no Quadro 4A da LPUOS para os usos nR complementares e incentivados, serão consideradas não computáveis até o limite de 10% (dez por cento) da área construída computável, as áreas cobertas de uso residencial ou não residencial, em qualquer pavimento.
+
+§ 1º A área construída do abrigo de lixo pode ser superior ao estabelecido no inciso III do “caput” deste artigo, quando tecnicamente justificado.
+
+§ 2º As saliências elencadas nas alíneas "a", "b" e "c" do inciso IV do “caput” deste artigo não são consideradas para fins do cálculo da área construída e podem ocupar as faixas de recuos estabelecidas na LPUOS e os afastamentos previstos no COE.
+
+§ 3º Quando o recuo de frente for dispensado pela LPUOS admite-se o avanço até 0,40m (quarenta centímetros) de elemento arquitetônico, ornato, ornamento, jardineira, floreira, brise, aba horizontal e vertical e terraços sobre o passeio público, desde que observada a altura livre de 3m (três metros) do nível do passeio e que não interfiram nas instalações públicas.
+
+§ 4º Para efeito de cálculo das áreas não computáveis previstas na alínea “b” do inciso XII do “caput” deste artigo, quando envolver uma ou mais subcategorias de uso, deve ser considerada a área construída utilizada para cada subcategoria de nR.
+
+Art. 18. Também são consideradas áreas não computáveis nos EHIS, EHMP e EZEIS, porém não sujeitas ao limite estabelecido no “caput” do artigo 17 deste decreto:
+
+I - as áreas de vestiário para usuários de bicicletas;
+
+II - as áreas construídas no nível da rua com fachada ativa mínima de 25% (vinte e cinco por cento) em cada uma das testadas e de, no mínimo, 3m (três metros) de extensão, destinadas a usos classificados na categoria não residencial que sejam permitidos nas respectivas zonas de uso, até o limite de:
+
+a) 50% (cinquenta por cento) da área do lote nas ZEU, ZEUa, ZEUP, ZEUPa, ZEM, ZEMP, ZC e ZCa;
+
+b) 20% (vinte por cento) da área do lote nas demais zonas.
+
+III - no caso de EHMP em lote ou gleba localizado em ZEU, ZEUa, ZEUP, ZEUPa, ZEM, ZEMP, ZC e ZCa, com fachada ativa, a área destinada a uso não residencial, até o limite de 20% (vinte por cento) da área construída computável total do empreendimento;
+
+IV - nos casos de EHIS e EZEIS, a área destinada aos usos não residenciais, até o limite de 20% (vinte por cento) da área construída computável total do empreendimento;
+
+V - as áreas cobertas, em qualquer pavimento, ocupadas por circulação, manobra e estacionamento de veículos, na proporção de 1 (uma) vaga de estacionamento para cada 70m² (setenta metros quadrados) de área construída não computável incentivada nos termos do inciso II do “caput” deste artigo, desde que observada a cota de garagem máxima igual a 32m² (trinta e dois metros quadrados) por vaga;
+
+VI - as áreas cobertas, em qualquer pavimento, ocupadas por circulação, manobra e estacionamento de veículos, na proporção de 1 (uma) vaga de estacionamento para cada 140m² (cento e quarenta metros quadrados) de área construída não computável incentivada nos termos dos incisos III e IV do “caput” deste artigo, conforme previsto na alínea “e” do inciso I do artigo 62 da LPUOS, com a nova redação dada pela Lei nº 18.081, de 2024, desde que observada a cota de garagem máxima igual a 32m² (trinta e dois metros quadrados) por vaga;
+
+VII - a área destinada a HIS referente à cota de solidariedade, correspondente a 10% (dez por cento) da área construída computável do empreendimento;
+
+VIII - em ZEPEC-APC, as áreas consideradas não computáveis nos termos do § 2º do artigo 67 do PDE;
+
+IX - nos lotes com área de até 250m² (duzentos e cinquenta metros quadrados) localizados na Macroárea de Redução da Vulnerabilidade e na Macroárea de Redução da Vulnerabilidade Urbana e Recuperação Ambiental conforme Mapa 2 do PDE, até 50% (cinquenta por cento) da área construída computável total.
+
+§ 1º A fachada ativa de que trata o inciso II do “caput”:
+
+I - deve ser calculada sobre a área do lote remanescente de doação de área para alargamento do passeio ou implantação de melhoramento viário;
+
+II - pode estar localizada em diferentes níveis da edificação, desde que seja garantido acesso por logradouro público em todos os níveis;
+
+III - pode ser atendida em apenas uma testada, desde que em extensão equivalente a 25% (vinte e cinco por cento) do somatório de todas as testadas;
+
+IV - pode ser parcialmente implantada em pavimento imediatamente superior ao pavimento de acesso, limitada a 1/3 (um terço) da área construída total destinada à fachada ativa, desde que se configure em uma subdivisão do mesmo compartimento edificado e seja garantida a permeabilidade visual para o logradouro público.
+
+§ 2º Os benefícios previstos nos incisos II e III do “caput” deste artigo não poderão ser utilizados para os grupos de atividades nR1-14, nR1-15, nR2-12, nR2-13 e nR3-6.
+
+§ 3º Fica vedada a previsão das atividades flats, apart hotéis, pensionatos ou pensões, do grupo de atividade nR1-12, como uso não residencial incentivado na aplicação do inciso III do “caput” deste artigo.
+
+§ 4º As áreas cobertas ocupadas por vagas especiais destinadas a pessoa com deficiência ou mobilidade reduzida e idosos, vagas de motocicletas, vagas de bicicletas e vagas para carga e descarga, destinadas às áreas não computáveis incentivadas dispostas nos incisos V e VI do “caput” deste artigo serão consideradas não computáveis, desde que limitadas ao exigido pelo Quadro 4A da LPUOS ou COE, não onerando os limites estabelecidos nos referidos incisos.
+
+§ 5º Em EHIS e EHMP poderá ser aplicado o benefício previsto na alínea "e" do inciso I do artigo 60 do PDE, com a nova redação dada pelo artigo 21 da Lei nº 17.975, de 2023.
+
+§ 6º Aplicam-se os benefícios cumulativos previstos no artigo 10 da Lei nº 18.081, de 2024, desde que não ultrapasse 10% (dez por cento) de acréscimo de áreas consideradas não computáveis, nos termos do referido dispositivo, não sujeitas ao limite estipulado no artigo 17 deste decreto.
+
+§ 7º As áreas cobertas não computáveis previstas no inciso XVII do artigo 62 da LPUOS, com a nova redação dada pelo artigo 34 da Lei nº 18.081, de 2024, quando aplicáveis, não estão sujeitas ao limite estipulado no artigo 17 deste decreto.
+
+SEÇÃO IV
+
+DA OUTORGA ONEROSA
+
+Art. 19. Para os EHIS e EZEIS, a concessão do direito de construir acima do coeficiente de aproveitamento básico até o limite do coeficiente de aproveitamento máximo é gratuita para todas as subcategorias de uso integrantes do empreendimento.
+
+§ 1º As disposições do “caput” deste artigo aplicam-se também no caso de EHIS e EZEIS cujos limites estejam compreendidos dentro dos perímetros de Operações Urbanas Consorciadas e de Leis de Planos de Intervenção Urbana.
+
+§ 2º Visando garantir o desenho urbano das Operações Urbanas Consorciadas e Leis de Planos de Intervenção Urbana, fica garantido aos EHIS e EZEIS, de forma gratuita, acesso ao gabarito máximo estabelecido nas respectivas legislações específicas para o qual exista tal possibilidade, nos termos das referidas legislações, dispensada a necessidade de consulta à SP-Urbanismo.
+
+§ 3º Para o licenciamento de EZEIS cujos limites estejam compreendidos dentro dos perímetros de Operações Urbanas Consorciadas e Leis de Planos de Intervenção Urbana, aplica-se o disposto na alínea "b" do inciso XIX do artigo 9º, ainda que o pedido tenha sido protocolado posteriormente à publicação de regulamentação daLei de Operação Urbana Consorciada ou Plano de Intervenção Urbana, quanto à disciplina de empreendimentos tratados neste decreto.
+
+Art. 20. Para o EHMP, na concessão do direito de construir acima do coeficiente de aproveitamento básico até o limite do coeficiente de aproveitamento máximo, para cada uso integrante do empreendimento, aplicam-se:
+
+I - valores de Fator de Interesse Social (Fs) correspondentes e estabelecidos no Quadro 5 anexo a deste decreto;
+
+II - disposições de leis específicas de Operações Urbanas Consorciadas e de Leis de Planos de Intervenção Urbana, para empreendimentos inseridos nos respectivos perímetros;
+
+III - isenções de contrapartida apenas para as áreas correspondentes a HIS.
+
+§ 1º Para os empreendimentos localizados nas ZEU, ZEUa, ZEM e ZEMP, onde há incidência da cota parte máxima de terreno por unidade, o Fator de Interesse Social (Fs) a ser aplicado no cálculo da contrapartida financeira deverá ser estabelecido proporcionalmente às unidades habitacionais do empreendimento.
+
+§ 2º Para adoção do Fator de Interesse Social (Fs) do uso habitacional, deve ser considerada a área construída computável da unidade.
+
+§ 3º Os empreendimentos localizados fora dos EETU poderão beneficiar-se de acréscimo de 10% (dez por cento) na área computável, obtida mediante o pagamento da outorga onerosa, desde que obrigatoriamente através de transferência de direito de construir de imóvel localizado em ZEPEC-BIR e ZEPEC-APC e nos termos do artigo 9º da Lei nº 18.081, de 2024.
+
+§ 4º No cálculo da outorga onerosa, aplicam-se as disposições do PDE e LPUOS para o EHMP e seus usos complementares, no que for pertinente e não especificadas neste decreto, inclusive o disposto no Decreto nº 63.504, de 14 de junho de 2024, ou norma que venha a substituí-lo ou complementá-lo.
+
+CAPÍTULO III
+
+DA OBRA NOVA, REFORMA, REQUALIFICAÇÃO OU REGULARIZAÇÃO
+
+Art. 21. Na previsão de demolição total ou parcial de edificação regular existente, para projetos de obra nova ou reforma de EHIS ou EZEIS, é permitida a utilização da taxa de ocupação, coeficiente de aproveitamento e taxa de permeabilidade do edifício demolido, mesmo que maiores que o permitido pela legislação vigente, nos termos do § 10 do artigo 117 do PDE.
+
+§ 1º Aplica-se o disposto no “caput” deste artigo nos casos de demolição parcial, em projetos de reforma ou requalificação de edificação existente para a produção de EHIS ou EZEIS, devendo considerar as disposições do COE e da Lei nº 17.577, de 20 de julho de 2021, quando for o caso.
+
+§ 2º No caso de obra nova, as áreas edificadas existentes regulares serão objeto de demolição e deverão ser apresentadas e demonstradas em levantamento planialtimétrico junto ao projeto, por ocasião do referido pedido.
+
+§ 3º A critério da CAEHIS, será admitida a aplicação do disposto no "caput" e § 1º deste artigo no caso de edificação existente regular, cuja demolição tenha sido executada irregularmente ou licenciada em procedimento próprio.
+
+§ 4º O disposto neste artigo aplica-se à área edificada irregular que tenha figurado como regular no Cadastro de Edificações do Município pelo período mínimo de 10 (dez) anos.
+
+§ 5º Para o EHMP, a aplicação do disposto no § 10 do artigo 117 do PDE deverá seguir o regramento previsto no artigo 16 do Decreto nº 63.504, de 2024.
+
+Art. 22. No caso de reforma ou requalificação de edificação existente para a implantação de EHIS, EHMP ou EZEIS, poderão ser aceitas, a critério de SMUL/CAEHIS, soluções que não atendam integralmente às disposições previstas neste decreto, desde que:
+
+I - não comprometam a salubridade, nem acarretem redução de acessibilidade e de segurança de uso;
+
+II - a edificação seja adaptada às condições de segurança de uso, de acessibilidade e de salubridade, observado o princípio de adaptação razoável.
+
+Parágrafo único. Consideram-se adaptação razoável as modificações e os ajustes necessários e adequados que não acarretem ônus desproporcional ou indevido, analisados caso a caso, a critério da CAEHIS.
+
+Art. 23. Na requalificação de edificação existente, aplicam-se as disposições do COE e da Lei nº 17.577, de 2021, quando for o caso, considerando-se não computável o aumento de área destinado à adaptação razoável, à acessibilidade e à melhoria das condições de segurança de uso, higiene e salubridade da edificação existente, não sendo considerado para efeito de cálculo do coeficiente de aproveitamento e da taxa de ocupação previstos na LPUOS.
+
+Parágrafo único. A requalificação consiste na reforma de edificação existente licenciada de acordo com a legislação edilícia vigente anteriormente a 23 de setembro de 1992, data da entrada em vigor da Lei nº 11.228, de 25 de junho de 1992, e com área regular lançada no Cadastro de Edificações do Município pelo período mínimo de 10 (dez) anos, independentemente de sua condição de regularidade na data do protocolo do pedido.
+
+Art. 24. As edificações existentes poderão ser regularizadas perante a Municipalidade, nos termos especificados pelo COE, mediante a comprovação do atendimento de uma das seguintes hipóteses:
+
+I - as prescrições da LOE e LPUOS vigentes durante o período da construção e a edificação estejam adaptadas às condições de segurança e acessibilidade estabelecidas no COE;
+
+II - a legislação edilícia e urbanística vigente na ocasião da análise do pedido para emissão do Certificado de Regularização ou Alvará de Aprovação e Execução de Reforma englobando regularização, garantido o direito de protocolo.
+
+§ 1º Fica autorizada a cobrança de outorga onerosa na hipótese do inciso II deste artigo, em projetos de regularização de edificações existentes para EHMP, desde que atendidas as disposições e normas específicas que versem sobre a aplicação da referida contrapartida, no que for pertinente.
+
+§ 2º Para efeito de cálculo da cobrança de outorga onerosa previsto no §1º deste artigo, o valor deverá ser calculado e cobrado nos termos do Decreto nº 63.504, de 2024.
+
+§ 3º No caso de regularização ou requalificação de unidades HIS ou HMP, inclusive por meio de reforma com regularização, deverão ser aplicadas as disposições do Decreto nº 63.130, de 2024, observando-se que:
+
+I - aplicam-se apenas às unidades a serem regularizadas;
+
+II - aplicam-se apenas aos pedidos protocolados na vigência da Lei nº 17.975, de 2023.
+
+Art. 25. Para o EHIS, desde que o empreendimento não tenha sido objeto de registro de incorporação, será permitida a regularização de área edificada acima do coeficiente de aproveitamento básico até o limite do coeficiente de aproveitamento máximo mediante a destinação, no mesmo empreendimento, de área construída computável para HIS-1 equivalente a, no mínimo, 20% (vinte por cento) da área construída computável a ser regularizada.
+
+§ 1º A regularização de que trata o "caput" deste artigo aplica-se ao EZEIS:
+
+I - quando implantado em ZEIS 1, ZEIS 2, ZEIS 3 e ZEIS 4, mediante:
+
+a) destinação de, no mínimo, 80% (oitenta por cento) da área construída computável a regularizar do empreendimento para HIS-1 e o restante para HIS-1 ou HIS-2;
+
+b) destinação da área construída computável regular a manter do empreendimento, caso exista, de acordo com o Quadro 3 anexo a este decreto.
+
+II - quando implantado em ZEIS 5, mediante:
+
+a) destinação de, no mínimo, 40% (quarenta por cento) da área construída computável a regularizar do empreendimento para HIS, da qual deverá ser destinado para HIS-1 o equivalente a, no mínimo, 20% (vinte por cento) da área construída computável a regularizar do empreendimento;
+
+b) destinação de, no mínimo, 20% (vinte por cento) da área construída computável a regularizar do empreendimento para HMP e/ou HIS, em acréscimo ao exigido na alínea “a” deste inciso;
+
+c) destinação da área construída computável regular a manter do empreendimento, caso exista, de acordo com o Quadro 3 anexo a este decreto.
+
+§ 2º Atendida a condição estabelecida no “caput” deste artigo ou, quando for o caso, a condição estabelecida no § 1º, o direito de regularização de que trata este artigo será concedido de forma gratuita, nos termos do “caput” do artigo 19 deste decreto.
+
+§ 3º A regularização de que trata este artigo não se aplica ao EHIS-u.
+
+§ 4º Os empreendimentos promovidos pela Administração Pública Direta ou por empresa sob controle do Poder Público, ficam dispensados do atendimento às condições estabelecidas no “caput” e no § 1º deste artigo.
+
+§ 5º No caso de Regularização Fundiária Urbana - REURB serão admitidas novas edificações em substituição àquelas removidas em função das obras de urbanização, em atendimento à implantação da infraestrutura e para eliminação das áreas em situação de risco geológico e hidrológico, observando-se que:
+
+I - as novas edificações serão admitidas, mesmo que em APP, considerando a situação de origem no núcleo de vinculação, mediante consulta ao órgão competente;
+
+II - para novas edificações, a temporalidade para admissão da REURB será considerada a data de ocupação das famílias atendidas e/ou de origem do assentamento.
+
+§ 6º Os EHIS e EZEIS executados pela Administração Pública Direta e Indireta poderão ser, a critério do interessado, regularizados nos termos do Decreto nº 58.943, de 5 de setembro de 2019 e eventuais alterações posteriores.
+
+CAPÍTULO IV
+
+DO PARCELAMENTO DO SOLO DE INTERESSE SOCIAL
+
+SEÇÃO I
+
+DOS CONCEITOS
+
+Art. 26. O parcelamento do solo de interesse social é aquele que resulta em lotes destinados à habitação de interesse social, podendo se dar nas seguintes modalidades:
+
+I - Loteamento, correspondendo à subdivisão de lote ou gleba em lotes destinados à edificação, com abertura de novas vias de circulação e de logradouros públicos, prolongamento, modificação ou ampliação do sistema viário existente;
+
+II - Desmembramento, correspondendo à subdivisão de gleba ou lote em lotes, com aproveitamento e sem modificação do sistema viário existente, com ou sem destinação de área pública nos termos deste decreto;
+
+III - Remembramento, correspondendo ao reagrupamento de lotes para edificar, sem interferência ou modificação do sistema viário existente;
+
+IV - Reparcelamento, correspondendo ao reagrupamento de lotes ou glebas e sua posterior divisão em novos lotes com dimensões, localização ou configuração distinta da situação original, sem interferência ou modificação do sistema viário existente;
+
+V - Loteamento de Interesse Social para produção de Lotes Habitacionais de Interesse Social - LHIS, destinados à produção de unidades habitacionais unifamiliares de HIS.
+
+Art. 27. O Parcelamento do Solo de Interesse Social - PIS somente é permitido na Zona Urbana do Município delimitada no Mapa 1A do PDE, nas zonas de uso constantes do Quadro 1 deste decreto.
+
+§ 1º O parcelamento do solo de interesse social não é permitido:
+
+I - em terrenos alagadiços e sujeitos a inundações, antes de tomadas as providências para assegurar o escoamento das águas;
+
+II - em áreas com potencial ou suspeita de contaminação, em áreas contaminadas e em monitoramento ambiental, sem que haja manifestação favorável do órgão ambiental competente para sua reutilização conforme o uso pretendido;
+
+III - em terrenos com declividade igual ou superior a 30% (trinta por cento), salvo se atendidas exigências específicas que assegurem a contenção das encostas e a viabilidade da urbanização.
+
+§ 2º Quando houver parcelamento do solo de interesse social - PIS proposto em zona de uso ZEIS, de promoção da iniciativa privada, será permitida a geração de lotes desvinculados da obrigação de aprovação e construção concomitante das edificações (Plano Integrado), desde que seja averbado nas matrículas abertas para cada lote a obrigação de construção de HIS-1 e HIS-2, nas proporções definidas no Quadro 3 anexo a este decreto.
+
+§ 3º Quando houver parcelamento do solo de interesse social - PIS, proposto pela iniciativa privada, fora de ZEIS, em zonas que admitam a subcategoria HIS, será permitida a geração de lotes desvinculados da obrigação de aprovação e construção concomitante das edificações (Plano Integrado), desde que seja averbada nas matrículas abertas para cada lote a obrigação de construção de, no mínimo, 80% (oitenta por cento) da área total computável do empreendimento para HIS e, apenas para os demais 20% (vinte por cento) da área total computável, admite-se a construção de outras subcategorias de uso complementares, R e nR, admitidos na zona de uso incidente, observando-se, ainda, as disposições deste decreto.
+
+§ 4º Quando, por opção do interessado, pretender-se o licenciamento das edificações de forma concomitante com o parcelamento do solo de interesse social, preliminarmente a abertura das matrículas de cada lote gerado, o licenciamento ocorrerá obrigatoriamente na modalidade Plano Integrado ou Plano Integrado Faseado.
+
+§ 5º Não se aplicam as disposições do Parcelamento do Solo de Interesse Social - PIS quando o parcelamento estiver relacionado à produção de EHMP, devendo, neste caso, serem observados os parâmetros e procedimentos estabelecidos na LPUOS e legislação complementar.
+
+Art. 28. O licenciamento de loteamento e de desmembramento com destinação de área pública é precedido de emissão de Certidão de Diretrizes Urbanísticas, a pedido do interessado.
+
+§ 1º A Certidão de Diretrizes Urbanísticas deve estabelecer, conforme o caso:
+
+I - o traçado do sistema viário principal e a sua articulação com vias adjacentes oficiais do entorno, existentes ou projetadas, quando se tratar de loteamento;
+
+II - a localização das áreas de preservação ambiental, incluindo as Áreas de Preservação Permanente - APP;
+
+III - o dimensionamento e a localização da área verde exigida nos termos deste decreto;
+
+IV - a localização aproximada da área institucional pública, caso necessário, com a indicação da área mínima exigida nos termos deste decreto;
+
+V - o dimensionamento e a localização de faixas sanitárias necessárias ao escoamento das águas pluviais;
+
+VI - a faixa não edificável, ao longo das faixas de domínio de rodovia, ferrovia, duto e de canalização enterrada;
+
+VII - a incidência de melhoramento viário público;
+
+VIII - eventuais contrapartidas viárias exigidas em decorrência da implantação do parcelamento, nos termos do disposto neste decreto;
+
+IX - outras recomendações técnicas para a implantação do empreendimento, tais como a obrigatoriedade de alargamento do passeio público da via de acesso nos termos deste decreto.
+
+§ 2º Para subsidiar a fixação das Diretrizes Urbanísticas, o interessado pode apresentar diagnóstico socioambiental informando a existência e a localização dos equipamentos públicos do entorno do empreendimento.
+
+§ 3º O projeto de parcelamento do solo nas modalidades de que trata o “caput” deste artigo deve obedecer às diretrizes expedidas.
+
+§ 4º No caso de necessidade de expedição de nova Certidão de Conformidade em decorrência de alteração no projeto por exigência dos órgãos estaduais, poderá ser dispensada a emissão de nova Certidão de Diretrizes Urbanísticas, a critério da Coordenadoria responsável pela análise.
+
+SEÇÃO II
+
+DOS PARÂMETROS E REQUISITOS
+
+Art. 29. O parcelamento do solo de interesse social deve atender, pelo menos, aos seguintes requisitos:
+
+I - respeitar as faixas marginais de cursos d’água naturais perenes e intermitentes e as áreas no entorno de lagos e lagoas naturais e de nascentes definidas pela legislação federal, salvo maiores exigências da legislação específica;
+
+II - articular as novas vias com as vias adjacentes oficiais, existentes ou projetadas, integrando-se com o sistema viário da região, e harmonizar-se com a topografia local;
+
+III - respeitar as faixas de domínio público das rodovias e ferrovias, bem como a faixa não edificável de 15m (quinze metros) de cada lado, salvo exigências mais restritivas definidas em lei específica ou critérios técnicos das concessionárias.
+
+Parágrafo único. É admitida a implantação de sistema viário nas Áreas de Preservação Permanente - APP referidas no inciso I do “caput” deste artigo, desde que a ocupação pelas vias não exceda a 20% (vinte por cento) da APP existente no lote ou gleba e que haja parecer favorável do órgão ambiental competente.
+
+Art. 30. O EHIS ou EZEIS a ser implantado em lote ou gleba que, independentemente de sua origem, tenha área superior a 20.000m² (vinte mil metros quadrados) fica obrigado ao parcelamento do solo de interesse social, na modalidade desmembramento ou loteamento e à destinação de área pública nos termos deste decreto.
+
+Parágrafo único. O lote ou gleba que tenha área superior a 100.000m² (cem mil metros quadrados) fica obrigado ao parcelamento na modalidade loteamento, nos termos deste decreto.
+
+Art. 31. Da área total objeto de projeto de parcelamento nos termos deste decreto, deve ser destinado, no mínimo, 15% (quinze por cento) e, no máximo, 40% (quarenta por cento) para áreas públicas.
+
+§ 1º O percentual mínimo de áreas públicas estabelecido no “caput” deste artigo pode ser destinado total ou parcialmente para área verde ou área institucional, de acordo com análise socioambiental e urbanística do entorno, a critério da Comissão de Análise de Projetos de Parcelamento do Solo – CAPPS da Secretaria Municipal de Urbanismo e Licenciamento.
+
+§ 2º No caso de EHIS ou EZEIS em lote ou gleba com área superior a 40.000m² (quarenta mil metros quadrados) ou com mais de 1.000 (mil) unidades, a SMUL/CAPPS definirá sobre a necessidade de majoração do percentual a ser destinado, em função de:
+
+I - carência crítica de equipamentos públicos na região para atender a futura demanda;
+
+II - existência de APP e de vegetação significativa a ser preservada;
+
+III - dimensionamento insuficiente do sistema viário existente que possa ser mitigado por adequação de projeto viário visando melhorar as condições de mobilidade urbana no entorno do empreendimento.
+
+§ 3º A majoração da porcentagem de área a ser destinada ocorrerá de acordo com o disposto no Quadro 6 anexo a este decreto, na seguinte conformidade:
+
+I - em lote ou gleba com área superior a 20.000m² (vinte mil metros quadrados) e inferior a 40.000m² (quarenta mil metros quadrados), percentual de até 15% (quinze por cento) da área original;
+
+II - em lote ou gleba com mais de 1.000 (mil) unidades e área superior a 20.000m² (vinte mil metros quadrados) e igual ou inferior a 40.000m² (quarenta mil metros quadrados), percentual de até 17% (dezessete por cento) da área original;
+
+III - em lote ou gleba com área superior a 40.000m² (quarenta mil metros quadrados) e igual ou inferior a 100.000m² (cem mil metros quadrados), percentual de até 20% (vinte por cento) da área original;
+
+IV - em lote ou gleba com área superior a 100.000m² (cem mil metros quadrados) e igual ou inferior a 200.000m² (duzentos mil metros quadrados), independentemente do número de unidades, percentual de até 30% (trinta por cento) da área original;
+
+V - em lote ou gleba com área superior a 200.000m² (duzentos mil metros quadrados), independentemente do número de unidades, percentual de no máximo 40% (quarenta por cento) da área original.
+
+§ 4º A área resultante da majoração da porcentagem de área pública pode ser destinada para área verde pública, área institucional pública ou sistema viário com abertura de novas vias ou alargamento das existentes.
+
+§ 5º Fica isento da destinação de áreas públicas o lote resultante de parcelamento do solo:
+
+I - de interesse social, no qual já tenha ocorrido destinação de área pública nos termos previstos neste decreto;
+
+II - de interesse social licenciado por decreto específico para Planos de Urbanização de áreas;
+
+III - que se enquadre nas hipóteses previstas no artigo 42-C da LPUOS, incluído pela nova redação dada pela Lei nº 18.081, de 2024; (Revogado pelo Decreto nº 64.901/2026)
+
+IV - com doação de área pública comprovada nos termos da Lei Federal nº 6.766, de 19 de dezembro de 1979 ou legislação aplicável à época do parcelamento original, a critério da SMUL/CAPPS, desde que não haja agravamento à legislação vigente.
+
+§ 6º Para aplicação das disposições do artigo 42-C da LPUOS que eventualmente tenham interface ou digam respeito à edificação, ou à sua implantação, a Divisão de Parcelamento do Solo - DPS poderá, a seu critério, consultar diretamente qualquer unidade da Secretaria Municipal de Urbanismo e Licenciamento - SMUL.
+
+§ 7º Quando da aplicação de disposições do artigo 42-C da LPUOS resultar em exigências ou contrapartidas a serem atendidas no âmbito da edificação, ou de sua implantação, tais exigências deverão ser ressalvadas no respectivo alvará de parcelamento do solo.
+
+§ 8º Para aplicação dos demais dispositivos do Capítulo I da LPUOS, que trata dos requisitos e parâmetros de parcelamento do solo, com nova redação dada pela Lei nº 18.081, de 2024, a área técnica deverá:
+
+I - em casos previstos no § 4º do artigo 4º do Decreto nº 58.782, de 30 de maio de 2019, encaminhar para conhecimento, apreciação e deliberação da SMUL/CAPPS;
+
+II - em casos de dúvidas, consultar diretamente à Coordenadoria de Legislação de Uso e Ocupação do Solo - DEUSO e posteriormente à SMUL/CAPPS para conhecimento, apreciação e deliberação.
+
+Art. 32. O desmembramento não sujeito à exigência de destinação de áreas públicas verdes ou institucionais pode envolver tal destinação mediante declaração do proprietário de que renuncia a qualquer indenização, devendo as áreas provenientes desta destinação ser averbadas como de domínio público, por ocasião do registro ou averbação do empreendimento no competente Cartório de Registros de Imóveis.
+
+Art. 33. O terreno parcialmente ocupado por assentamento irregular, qualquer que seja a situação existente, pode ser parcelado para possibilitar a aprovação de EHIS ou EZEIS na porção não ocupada e a regularização da porção ocupada, em procedimento separado, não sendo obrigatório, nestes casos, a observância ao tamanho de lote mínimo definido para a zona de uso incidente.
+
+Parágrafo único. A destinação de áreas públicas, no caso do parcelamento previsto no “caput” deste artigo, deve ser calculada sobre a área total do lote ou gleba, incluindo a área com ocupação, observadas as disposições deste decreto, ficando dispensada nova destinação quando da regularização da porção ocupada.
+
+Art. 34. Ficam isentos de destinação de áreas públicas os terrenos objeto de desafetação que forem desincorporados da classe de bens de uso comum do povo e transferidos para a de bens dominiais do Município visando à regularização de núcleos de ocupações irregulares ou EHIS.
+
+Art. 35. As áreas verdes, as áreas institucionais e o sistema viário provenientes do parcelamento do solo de interesse social passarão ao domínio público por ocasião do registro ou averbação do empreendimento no competente Cartório de Registro de Imóveis.
+
+Art. 36. Na área institucional destinada ao Poder Público pode ser promovido o Serviço de Moradia Social previsto nos artigos 295 e 296 do PDE, conforme disposto no § 4º do artigo 45 da Lei nº 16.402, de 2016.
+
+SEÇÃO III
+
+DAS ÁREAS VERDES E INSTITUCIONAIS PÚBLICAS
+
+Art. 37. Compete à SMUL/CAPPS definir a localização de, pelo menos, 50% (cinquenta por cento) do percentual exigido para área verde, preferencialmente em um único perímetro, devendo tal espaço atender aos seguintes requisitos:
+
+I - frente mínima de 10m (dez metros) e acesso por via de circulação de veículos existente oficial, que possa ser considerada oficial nos termos deste decreto ou prevista no projeto de loteamento;
+
+II - declividade inferior a 30% (trinta por cento) em, pelo menos, 50% (cinquenta por cento) da área verde total exigida;
+
+III - possibilidade de inscrição de uma circunferência com diâmetro mínimo de 10m (dez metros).
+
+§ 1º A localização do restante da área verde exigida fica a cargo do interessado, podendo ser localizado em parcelas de terreno que apresentem declividade superior a 30% (trinta por cento), com conformação tal que nela possa ser inscrito um círculo com raio de 10m (dez metros).
+
+§ 2º A porcentagem estabelecida no “caput” deste artigo pode ser alterada a critério da SMUL/CAPPS, visando à proteção de Áreas de Preservação Permanente - APP e ocorrências de vegetação protegida pela legislação.
+
+§ 3º As áreas de taludes resultantes de cortes e aterros não podem ser computadas para atender ao dimensionamento e localização de áreas verdes públicas exigidos nos termos do “caput” deste artigo.
+
+Art. 38. A localização e o dimensionamento da área institucional devem atender às seguintes disposições:
+
+I - frente mínima de 10m (dez metros) e acesso por via de circulação de veículos existente oficial, que possa ser considerada oficial nos termos deste decreto ou prevista no projeto de loteamento;
+
+II - declividade máxima de 15% (quinze por cento);
+
+III - relação entre a frente do lote e suas outras dimensões de, no mínimo, 1/3 (um terço).
+
+Parágrafo único. Para fins de aplicação do disposto no inciso II do “caput” deste artigo, pode ser admitida declividade até 30% (trinta por cento), ouvido o órgão público municipal responsável pela utilização da área, na ocasião da definição das diretrizes.
+
+Art. 39. No caso de Plano Integrado, admite-se reduzir o percentual exigido para área institucional, desde que o interessado se proponha a construir o equipamento social, a critério da CAPPS, ouvido o órgão responsável pela utilização da área.
+
+§ 1º No caso de construção de equipamento público em lote que será destinado à área institucional, devem ser observados os seguintes critérios:
+
+I - o lote deve ter área mínima igual àquela necessária para comportar a área construída do equipamento, atendidos o coeficiente de aproveitamento básico, taxa de ocupação, recuos, taxa de permeabilidade e demais parâmetros estabelecidos no Quadro 2 anexo a este decreto;
+
+II - 3 (três) vezes a área do lote previsto no inciso I deste parágrafo pode ser descontada do total de área institucional exigida para destinação.
+
+§ 2º A área construída do equipamento público será considerada não computável, bem como não será levada em conta nos seguintes casos:
+
+I - no cálculo da porcentagem de uso não residencial permitida nos EHIS, EHMP, EZEIS e Empreendimentos de Uso Misto, nos termos deste decreto;
+
+II - no limite de 59% (cinquenta e nove por cento) de áreas não computáveis estabelecidas na LPUOS.
+
+§ 3º Nestes casos, a emissão do Certificado de Conclusão das edificações do empreendimento, ainda que parcial, fica condicionada à expedição do Certificado de Conclusão para a área institucional edificada total.
+
+§ 4º A área construída do equipamento passa ao domínio da Municipalidade por ocasião da averbação do Certificado de Conclusão correspondente no Cartório de Registro de Imóveis.
+
+§ 5º A destinação de área institucional no mesmo lote de unidades habitacionais ou mesmo em áreas dentro do edifício habitacional dependerá da apresentação de projeto específico a ser apresentado ao órgão público municipal responsável pela utilização da área, bem como da assinatura de Termo de Compromisso entre a parte interessada e o referido órgão.
+
+SEÇÃO IV
+
+DO SISTEMA VIÁRIO DO LOTEAMENTO
+
+Art. 40. Quando o parcelamento do solo de interesse social ocorrer na modalidade loteamento, com abertura de vias, o percentual destinado para o sistema viário é determinado pelo projeto, observados os parâmetros estabelecidos no Quadro 7 deste decreto para as vias.
+
+§ 1º O sistema viário proposto deve atender às seguintes disposições:
+
+I - articulação com via existente de largura mínima de 8m (oito metros) oficial ou que possa ser considerada oficial nos termos deste decreto;
+
+II - as vias sem saída destinadas à circulação de veículos devem garantir a manobra de retorno, com raio de giro de, no mínimo, 6m (seis metros) no leito carroçável;
+
+III - o raio da curva de concordância horizontal entre alinhamentos nas interseções entre vias deve atender às normas da Secretaria Municipal de Infraestrutura Urbana e Obras - SIURB, sendo dispensável em via de pedestre ou via mista;
+
+IV - o projeto das vias deve prever condições para posteamento, de acordo com as normas da concessionária, e para arborização em pelo menos um dos lados das Vias de Circulação de Veículos do tipo 1 - VCV 1 e das Vias de Circulação de Veículos do tipo 2 - VCV 2;
+
+V - as vias mistas e de pedestres devem articular-se com vias VCV 1 ou VCV 2 e terão extensão máxima de:
+
+a) 50m (cinquenta metros) para via de pedestre;
+
+b) 150m (cento e cinquenta metros) para via mista.
+
+VI - as novas quadras devem ter comprimento máximo de 400m (quatrocentos metros).
+
+§ 2º Admite-se variação de até 5% (cinco por cento) a menos na largura mínima exigida para a via existente citada no inciso I do § 1º deste artigo, considerando a menor dimensão existente medida no local, no trecho que se estende desde o imóvel considerado até a via oficial de circulação mais próxima que tenha, por sua vez, largura mínima exigida neste decreto.
+
+SEÇÃO V
+
+DA INFRAESTRUTURA DO LOTEAMENTO
+
+Art. 41. O loteamento deve ser entregue com a seguinte infraestrutura urbana implantada:
+
+I - sistema de drenagem de águas pluviais em todas as vias;
+
+II - colocação de guias e sarjetas em todas as vias VCV 1 e VCV 2;
+
+III - pavimentação de todas as vias destinadas à circulação de veículos, bem como das ciclovias e das vias de circulação de pedestres quando servirem como único acesso a lotes;
+
+IV - passeio revestido, em faixa de largura mínima de 1,20m (um metro e vinte centímetros), em pelo menos um dos lados de todos os tipos de via, com guia rebaixada ou lombofaixa nos cruzamentos para acessibilidade de pessoas com deficiência ou mobilidade reduzida;
+
+V - rede de abastecimento de água potável;
+
+VI - rede de coleta de esgotos;
+
+VII - arborização de todas as áreas verdes;
+
+VIII - arborização em pelo menos um dos lados nas vias do tipo VCV 2;
+
+IX - proteção contra erosão das áreas terraplanadas.
+
+Parágrafo único. A infraestrutura do loteamento deve ser projetada e executada de acordo com as normas técnicas em vigor e, em especial, as normas municipais, conforme couber.
+
+SEÇÃO VI
+
+DO LOTEAMENTO DE INTERESSE SOCIAL PARA A PRODUÇÃO
+
+DE LOTES HABITACIONAIS DE INTERESSE SOCIAL (LHIS) DESTINADOS
+
+À PRODUÇÃO DE UNIDADES HABITACIONAIS UNIFAMILIARES DE HIS
+
+Art. 42. O EHIS na modalidade LHIS deve atender ao estabelecido neste capítulo, bem como às seguintes disposições:
+
+I - destinação para lotes de HIS de, no mínimo, 80% (oitenta por cento) da área dos lotes resultantes do loteamento;
+
+II - garantia de acesso por via de circulação de veículos para, no mínimo, 60% (sessenta por cento) dos lotes de HIS produzidos.
+
+§ 1º Os lotes de HIS produzidos de acordo com o estabelecido no “caput” deste artigo são destinados exclusivamente para o uso habitacional unifamiliar e devem apresentar as seguintes áreas:
+
+I - máxima de 100m² (cem metros quadrados);
+
+II - mínima de:
+
+a) 68m² (sessenta e oito metros quadrados), com frente mínima de 3,40m (três metros e quarenta centímetros), quando o desnível entre a cota do eixo da via e a cota no fundo do lote for de até 3m (três metros);
+
+b) 80m² (oitenta metros quadrados), com frente mínima de 5m (cinco metros), quando o desnível for superior a 3m (três metros) até o máximo de 6m (seis metros).
+
+§ 2º Os lotes oriundos do LHIS podem ser remembrados ou reparcelados exclusivamente para licenciamento de EHIS nas tipologias Conjunto Horizontal ou Conjunto Vertical, devendo essa restrição, juntamente com a destinação para HIS na tipologia Habitação Unifamiliar, constar dos alvarás emitidos e do registro de cada Lote de HIS no Cartório de Registro de Imóveis.
+
+§ 3º Quando prevista, a área de lotes complementar à porcentagem referida no inciso I do “caput” deste artigo pode ser destinada a uso não residencial de comércio, institucional ou de serviços, observados os parâmetros da LPUOS para cada zona de uso.
+
+SEÇÃO VII
+
+DO PLANO INTEGRADO
+
+Art. 43. Os EHIS e EZEIS, na modalidade Plano Integrado, devem atender às disposições deste decreto em relação ao uso e ocupação do solo, edificações e ao estabelecido neste capítulo, no que tange ao parcelamento do solo, e terão a emissão dos Alvarás dos projetos de parcelamento e edificações expedidos de forma concomitante.
+
+Parágrafo único. No caso de Plano Integrado de Loteamento destinado à Produção de Unidades Habitacionais de Interesse Social na tipologia Habitação Unifamiliar - LHIS as áreas mínimas de lote previstas neste decreto podem ser reduzidas, respectivamente, para 60m² (sessenta metros quadrados) e 72m² (setenta e dois metros quadrados).
+
+Art. 44. Na modalidade Plano Integrado, o cálculo da área construída mínima a ser destinada para HIS e outros usos deve ser feito sobre o total de área dos lotes resultantes do parcelamento, observadas as proporções estabelecidas neste decreto, admitindo-se lotes integralmente destinados às subcategorias de uso complementares ao empreendimento.
+
+Seção VIII
+
+Do Plano Integrado Faseado
+
+Art. 45. Os EHIS e EZEIS podem ser produzidos na modalidade Plano Integrado Faseado, cuja finalidade é o licenciamento integrado de EHIS ou EZEIS e de parcelamento do solo, observadas as demais disposições aplicáveis da legislação edilícia, de uso e ocupação do solo e de parcelamento do solo.
+
+§ 1º Os despachos decisórios relativos ao alvará de parcelamento do solo, aos alvarás de aprovação das edificações nos lotes parcelados e aos respectivos alvarás de execução serão proferidos separadamente, na seguinte ordem:
+
+I - alvará de parcelamento do solo por PARHIS/DPS;
+
+II - alvarás de aprovação das edificações e respectivos alvarás de execução, por lote resultante do parcelamento, pela divisão competente, dentre aquelas responsáveis pela aprovação de pedido de licenciamento de edificação.
+
+§ 2º Os alvarás de parcelamento do solo e de aprovação e execução das edificações poderão ser expedidos em um mesmo processo administrativo ou em expedientes distintos.
+
+§ 3º No Plano Integrado Faseado, quando da aprovação de projeto para quaisquer dos lotes integrantes do empreendimento, deverá ser realizado, concomitantemente, o apostilamento de todos os Alvarás de Aprovação, Alvarás de Aprovação e Execução e Projetos Modificativos vigentes para os demais lotes do empreendimento, objetivando fazer constar em cada um deles:
+
+I - a descrição atualizada das áreas para o empreendimento como um todo, bem como por lote, contendo:
+
+a) a área do terreno;
+
+b) a área edificada computável por uso (HIS, HMP, R2v e grupos de atividade nR, conforme o caso);
+
+c) a área edificada não computável por uso (HIS, HMP, R2v e grupos de atividade nR, conforme o caso);
+
+d) a área edificada total por uso (HIS, HMP, R2v e grupos de atividade nR, conforme o caso);
+
+e) a área edificada computável total;
+
+f) a área edificada não computável total;
+
+g) a área edificada total;
+
+II - os números de todos os Alvarás de Aprovação, Alvarás de Aprovação e Execução, Alvarás de Execução e Projetos Modificativos vigentes para os demais lotes do empreendimento.
+
+§ 4º Os pedidos de apostilamento referentes aos Alvarás de Aprovação, Alvarás de Aprovação e Execução e Projetos Modificativos vigentes para o empreendimento, exceto para o lote correspondente ao pedido, devem ser protocolados pelo interessado e constituirá condição para a emissão do alvará solicitado.
+
+§ 5º Por ocasião do pedido de alvará de parcelamento do solo na modalidade Plano Integrado Faseado, deverão ser apresentados os parâmetros relevantes do empreendimento a ser implantado, tais como quantidade de unidades, quantidades de vagas, dentre outros.
+
+§ 6º Na análise do parcelamento do solo correspondente ao Plano Integrado Faseado, para definição dos parâmetros relevantes que eventualmente tenham interface ou digam respeito à edificação ou à sua implantação, a Divisão de Parcelamento do Solo - DPS poderá, a seu critério, consultar diretamente qualquer unidade da Coordenadoria de Parcelamento do Solo e Habitação de Interesse Social - PARHIS em relação ao licenciamento edilício.
+
+Art. 46. A análise, instrução e decisão do pedido de parcelamento do solo no âmbito do Plano Integrado Faseado considerará que as edificações a serem implantadas atenderão obrigatoriamente ao disposto nos incisos III ou V do parágrafo único do artigo 1º deste decreto, de modo que o empreendimento, em seu conjunto, se enquadre na subcategoria de uso EHIS ou EZEIS, conforme o caso, aplicando-se ao parcelamento do solo as disposições e benefícios correspondentes.
+
+Parágrafo único. Deverão ser objeto de ressalva no alvará de parcelamento do solo:
+
+I - a obrigação a que se refere o “caput” deste artigo;
+
+II - os parâmetros relevantes de que trata o § 5º do artigo 45.
+
+Art. 47. Ao Plano Integrado Faseado aplicam-se as seguintes disposições:
+
+I - os Alvarás de Aprovação, Alvarás de Aprovação e Execução, Alvarás de Execução e Projetos Modificativos poderão contemplar um ou mais lotes do respectivo parcelamento, desde que contíguos e que seja garantido o atendimento do disposto nos incisos III ou V do parágrafo único do artigo 1º deste decreto para o conjunto de lotes que compõe o Plano Integrado Faseado, devendo ser considerados, para esse fim, todos os documentos já emitidos para o licenciamento;
+
+II - compete à PARHIS a análise de pedido de alvará de edificação em lote resultante de Plano Integrado Faseado, ainda que a edificação objeto do pedido não contenha uso HIS ou HMP, exceto usos institucionais e demais usos que poderão ser definidos por meio de ordem interna da referida Coordenadoria;
+
+III - os Alvarás de Aprovação, Alvarás de Aprovação e Execução, Alvarás de Execução e Projetos Modificativos poderão ser expedidos com base no mesmo título de propriedade utilizado para aprovação do alvará de parcelamento do solo, ainda que em área maior, devendo, nessa hipótese, ser consideradas as áreas e demais dimensões constantes do projeto de parcelamento do solo aprovado;
+
+IV - por ocasião da análise dos pedidos de alvará de aprovação das edificações, a eventual variação dos parâmetros relevantes ressalvados no alvará de parcelamento do solo deverá ser submetida à deliberação da Comissão de Avaliação de Empreendimentos de Habitação de Interesse Social – CAEHIS.
+
+Art. 48. Para fins de análise, instrução e decisão dos pedidos de Alvarás de Aprovação, Alvarás de Aprovação e Execução, Alvarás de Execução e Projetos Modificativos, poderão ser utilizados, no limite de sua finalidade e extensão, as anuências, autorizações, pareceres e demais documentos que subsidiaram a emissão do respectivo alvará de parcelamento do solo, ficando facultada à área técnica competente, se e quando necessário, solicitar eventuais complementações, aditivos ou modificativos.
+
+Art. 49. O interessado poderá obter mais de um Alvará de Aprovação de Edificação Nova para o mesmo lote ou conjunto de lotes aprovado por meio de Plano Integrado Faseado, desde que sejam observadas, dentre outras, as seguintes condições:
+
+I - não haja Certificado de Conclusão vigente, ainda que parcial, para o lote ou conjunto de lotes;
+
+II - não haja prejuízo à destinação ressalvada no correspondente alvará de parcelamento do solo, se considerado o empreendimento como um todo;
+
+III - seja observada a condição estabelecida no inciso IV do artigo 47 deste decreto;
+
+IV - seja realizado o cancelamento de documento precedente, nos termos do § 2º do artigo 56 deste decreto, no caso de pedido de Alvará de Aprovação e Execução.
+
+Art. 50. Aplicam-se ao Plano Integrado Faseado as demais disposições relativas ao Plano Integrado previstas neste decreto, desde que não conflitem com as disposições específicas previstas nesta seção.
+
+Seção IX
+
+Do Plano de Urbanização
+
+Art. 51. Em áreas com ocupação irregular e em ZEIS 1 e 3, quando habitadas por população de baixa renda, deve ser constituído Conselho Gestor, aplicando-se diretamente os artigos 48 a 51 do Plano Diretor Estratégico -PDE, para efeito de formulação e implementação do Plano de Urbanização a ser elaborado pela Secretaria Municipal de Habitação.(Revogado pelo Decreto nº 65.227/2026)
+
+Parágrafo único. O disposto neste artigo poderá ser aplicado em ZEIS 4, a critério da Secretaria Municipal de Habitação.
+
+Art. 52. Nas áreas objeto de Plano de Urbanização, o licenciamento do parcelamento do solo, das edificações e usos devem atender às diretrizes, aos índices e aos parâmetros urbanísticos estabelecidos no Plano de Urbanização e pelo respectivo Conselho Gestor, quando se tratar de área ocupada, observadas as disposições das leis estaduais específicas de Proteção e Recuperação dos Mananciais, ficando dispensado o atendimento dos índices e parâmetros estabelecidos neste decreto.(Revogado pelo Decreto nº 65.227/2026)
+
+§ 1º O Plano de Urbanização da ZEIS pode incluir o licenciamento de novas unidades HIS e EHIS nas condições referidas no “caput” deste artigo, inclusive quanto à dispensa do atendimento dos índices e parâmetros estabelecidos neste decreto.
+
+§ 2º O Conselho Gestor referido no “caput” deste artigo deve ser composto por representantes do Poder Público e dos moradores da ZEIS, observada a paridade entre o número de representantes do Poder Público e da sociedade civil.
+
+§ 3º O número de integrantes do Conselho Gestor será definido em função do número de moradores ou de famílias a serem atendidas na área abrangida pelo Plano de Urbanização, garantido o mínimo de 4 (quatro) integrantes.
+
+§ 4º Em áreas não ocupadas ou não vinculadas ao atendimento da demanda de outras áreas ocupadas ou ainda destinadas a equipamentos públicos, fica dispensado o Plano de Urbanização e criação de Conselho Gestor, aplicando-se as disposições deste decreto.
+
+CAPÍTULO V
+
+DOS PROCEDIMENTOS PARA LICENCIAMENTO E REGISTRO
+
+Seção I
+
+Do Licenciamento das Edificações
+
+Art. 53. Os documentos para a aprovação de projeto e licenciamento de execução de obras, bem como a certificação de conclusão e de regularização, das edificações de que trata este decreto são aqueles previstos no Código de Obras e Edificações - COE em vigor.
+
+§ 1º Os procedimentos administrativos para a solicitação, análise, deferimento e expedição dos documentos de controle da atividade edilícia são aqueles estabelecidos no COE para cada caso.
+
+§ 2º As peças gráficas da edificação devem ser apresentadas em conformidade com a Portaria nº 221/SMUL-G/2017 ou outra que venha a substituí-la, conforme estabelecido nas normas municipais.
+
+§ 3º É de total responsabilidade dos profissionais envolvidos e do proprietário ou possuidor do imóvel a definição e disposição interna dos compartimentos, suas dimensões e funções, especialmente no que se refere à acessibilidade, atendimento à porcentagem de unidades adaptáveis e segurança de uso das edificações, nos termos do COE e legislação correlata, bem como a observância das normas técnicas pertinentes.
+
+§ 4º Os profissionais responsáveis pelo empreendimento ficam obrigados a:
+
+I - apresentar declaração atestando a conformidade do projeto às normas técnicas gerais e específicas de construção e às disposições legais e regulamentares aplicáveis aos aspectos interiores das edificações;
+
+II - executar corretamente a obra, de acordo com o projeto aprovado, observadas as normas aplicáveis.
+
+§ 5º O Alvará de Aprovação, o Alvará de Aprovação e Execução e o Alvará de Execução licenciados com base nas disposições deste decreto devem conter anotação explicitando a destinação das unidades HIS e HMP para famílias que atendam aos limites de renda estabelecidos anualmente por decreto, bem como descrever a área construída computável de cada tipologia.
+
+§ 6º É de total responsabilidade do interessado (proprietário, possuidor do imóvel ou profissionais envolvidos) a destinação das unidades habitacionais às famílias que atendam aos limites de renda estabelecidos neste decreto, sujeitando-se à devida fiscalização e à eventual cominação de penalidades.
+
+§ 7º Para o licenciamento de EHIS, EHMP e EZEIS, em atendimento ao disposto no Código Civil, deverá constar de notas no respectivo projeto que as aberturas observam a distância mínima de 1,50m (um metro e cinquenta centímetros) quando voltadas para as divisas do lote, bem como metade desta distância quando a abertura estiver perpendicular à divisa do lote, não sendo consideradas aberturas as paredes de tijolos de vidro translúcido ou com desempenho similar, conforme disposições previstas no COE.
+
+Art. 54. Em Projeto Modificativo, a alteração das subcategorias de uso correspondentes aos 20% (vinte por cento) da área que compõe o EHIS, EHMP e EZEIS, considerando que são complementares ao empreendimento, não configura mudança de uso ou de subcategoria de uso para efeito de aplicação do COE e da Lei de Parcelamento, Uso e Ocupação do Solo - LPUOS.
+
+Art. 55. Para os EHIS, EHMP e EZEIS não há obrigatoriedade de apresentação de memória de cálculo, sendo de inteira responsabilidade dos profissionais que assinam o projeto a apresentação das áreas fidedignas ao desenho nos respectivos quadros de áreas, estando estes sujeitos à fiscalização e penalidades, podendo a sua apresentação ser eventualmente pela área técnica competente, nos termos previstos na Portaria nº 221/SMUL-G/2017 ou outra que venha a substituí-la.
+
+Art. 56. Nos Projetos Modificativos para EHIS, EHMP e EZEIS, devem ser observadas as disposições previstas no artigo 27 do Código de Obras e Edificações – COE (Lei nº 16.642, de 9 de maio de 2017) e no artigo 21 do Decreto nº 57.776, de 7 de julho de 2017, com relação à:
+
+I - alteração que importe acréscimo superior a 5% (cinco por cento) nas áreas computáveis;
+
+II - alteração que importe acréscimo superior a 5% (cinco por cento) nas áreas não computáveis;
+
+III - alteração que importe acréscimo superior a 5% (cinco por cento) na taxa de ocupação.
+
+§ 1º Nos Projetos Modificativos para EHIS, EHMP e EZEIS, admite-se a alteração das atividades que compõem os empreendimentos, dentro dos 20% (vinte por cento) permitidos e da subcategoria de uso de EHIS para EHMP ou EHMP para EHIS, por se tratar de empreendimentos incentivados de interesse social, considerando como alteração de uso a mudança de uso residencial para não residencial ou de uso não residencial para residencial, conforme previsto na Resolução CEUSO nº 132/2018, ressalvada a necessidade de recolhimento de outorga onerosa, cota de solidariedade e outras, quando for o caso, vedada a devolução de eventuais valores e sem prejuízo do atendimento integral dos novos índices e parâmetros.
+
+§ 2º No caso de imóvel com licença para execução de obra em vigor, as alterações do projeto aprovado que não atendam ao disposto neste artigo, ou o licenciamento de aprovação e execução de novo projeto dependerão de prévio cancelamento do Alvará de Aprovação e Execução, Alvará de Execução ou Projeto Modificativo vigente para o local, conforme o caso, observadas as seguintes regras:
+
+I - o cancelamento deverá ser requerido por meio de pedido de apostilamento, mediante o qual será apreciado, decidido e, se o caso, registrado documentalmente;
+
+II - a obra correspondente ao alvará a ser cancelado não pode ter sido iniciada;
+
+III - é vedado ao interessado requerer cancelamento de documento que já tenha sido efetivamente utilizado ou tenha produzido qualquer tipo de efeito, sendo de sua exclusiva responsabilidade as consequências advindas da não observância da referida vedação;
+
+IV - o novo pedido para aprovação e execução deverá observar, integralmente, a legislação vigente à época do novo protocolo.
+
+Art. 57. Para EHIS, EHMP e EZEIS que tenham sido aprovados com alguma modalidade de parcelamento do solo do qual resulte mais de um lote, admite-se projetos modificativos para os lotes que ainda não tiveram seu respectivo Certificado de Conclusão Parcial emitido, quando ainda na vigência do Alvará de Execução, desde que seja comprovado que a modificação pretendida garante a observância das destinações obrigatórias constantes do Quadro 3 do Anexo Único deste decreto, no caso de EZEIS, bem como à porcentagem mínima de HIS ou HMP, no caso de EHIS ou EHMP, para o empreendimento como um todo, incluindo as áreas que tiveram Certificado de Conclusão Parcial emitido.
+
+Parágrafo único. Será permitida a migração de projetos aprovados da modalidade Plano Integrado, anteriormente à vigência deste decreto, para a modalidade Plano Integrado Faseado, vedada a possibilidade de modificações relativas ao parcelamento do solo.
+
+Art. 58. No licenciamento de EHIS, EHMP e EZEIS, fica dispensada a apresentação de Estudo e Relatório de Impacto de Vizinhança - EIV/RIV até a aprovação da lei a que se refere o § 1º do artigo 151 do Plano Diretor Estratégico - PDE e o parágrafo único do artigo 110 da Lei de Parcelamento, Uso e Ocupação do Solo - LPUOS.
+
+Parágrafo único. Dependerá de parecer favorável da Comissão de Análise Integrada de Projetos de Edificações e de Parcelamento do Solo – CAIEPS, no tocante ao impacto de vizinhança e/ou ambiental, as seguintes situações, independentemente do porte e da quantidade de vagas do empreendimento:
+
+I - aprovação de EHIS, EHMP e EZEIS em ZEIS lindeira ou contígua a ZEPAM, ZPDS, ZCOR, ZPR ou ZER;
+
+II - aprovação de EHIS, EHMP e EZEIS em imóveis localizados junto às divisas das terras indígenas demarcadas ou em processo de demarcação pelo Poder Público.
+
+Art. 59. No licenciamento de EHIS e EZEIS, não se aplicam as disposições da legislação municipal referente a Polo Gerador de Tráfego - PGT.
+
+Parágrafo único. Quando o EHIS ou EZEIS contemplar subcategorias de uso não residenciais - nR, que eventualmente se enquadrem como PGT, nos termos da LPUOS, será exigida a Certidão de Diretrizes prevista na Lei nº 15.150, de 6 de maio de 2010.
+
+Art. 60. O licenciamento de EHIS, EHMP e EZEIS em áreas de proteção e recuperação dos mananciais deve observar, em todas as zonas de uso, as regras de parcelamento, uso e ocupação do solo previstas na legislação estadual pertinente, quando mais restritivas, e dependerá da prévia anuência do órgão estadual competente.
+
+§ 1º Não se aplicam as exigências referidas no “caput” deste artigo nos casos em que a compatibilidade entre a legislação estadual e municipal, no que for pertinente, tenha sido reconhecida, aplicando-se, nessa hipótese, exclusivamente as disposições deste decreto.
+
+§ 2º A compatibilidade a que se refere o § 1º deste artigo deverá:
+
+I - ser atestada pela Comissão de Análise de Projetos de Parcelamento do Solo - CAPPS, no caso de parcelamento do solo com destinação de área pública, inclusive no âmbito de Plano Integrado ou Plano Integrado Faseado, devendo essa informação constar da Certidão de Diretrizes Urbanísticas;
+
+II - ser objeto de consulta à Comissão de Análise de Projetos de Parcelamento do Solo - CAPPS, nos casos de parcelamento do solo sem destinação de áreas públicas, inclusive no âmbito de Plano Integrado ou Plano Integrado Faseado, bem como no caso de licenciamento de edificação sem parcelamento do solo.
+
+Art. 61. Os prazos de vigência dos documentos e os demais procedimentos administrativos para o licenciamento de EHIS, EHMP e EZEIS são aqueles definidos no Código de Obras e Edificações - COE e legislação correlata, sem prejuízo das disposições previstas neste decreto relacionadas à matéria.
+
+Seção II
+
+Dos Prazos de Validade dos Documentos de Licenciamento do Parcelamento do Solo
+
+Art. 62. Os prazos de validade dos documentos referentes ao parcelamento do solo são os seguintes:
+
+I - Alvará de Desmembramento, Alvará de Remembramento e Alvará de Reparcelamento: 1 (um) ano, contado a partir da data de sua expedição, período no qual deve ser procedido o registro no competente cartório de registro de imóveis, sob pena de caducidade;
+
+II - Alvará de Loteamento para fins de Execução de Obras: 4 (quatro) anos, contados a partir da data de sua expedição, prorrogável por igual período, uma única vez.
+
+§ 1º O pedido de prorrogação previsto no inciso II do “caput” deste artigo deverá ser justificado e acompanhado do competente instrumento de garantia para execução das obras, nos casos em que tenha havido a referida garantia.
+
+§ 2º No caso de Plano Integrado, a incorporação do empreendimento poderá ser realizada simultaneamente ou posteriormente ao registro do Alvará de Desmembramento, Remembramento ou Reparcelamento.
+
+§ 3º O prazo para registro dos alvarás obtidos por meio de Plano Integrado, conforme previsto no § 2º deste artigo, expirará após 1 (um) ano contado a partir da data da expedição do Certificado de Conclusão das edificações, ainda que parcial, sob pena de caducidade do alvará referente ao parcelamento do solo, devendo essa condição ser ressalvada no alvará de parcelamento do solo e alvarás de aprovação e execução.
+
+§ 4º Os alvarás dos Planos Integrados que contarem com produção de unidades habitacionais a partir de 10 (dez) blocos isolados permanecerão vigentes, desde que:
+
+I - após os 7 (sete) anos somados do Alvará de Aprovação e Execução, tenham sido concluídas as fundações de 10 (dez) blocos ou mais, nos termos previstos no Código de Obras e Edificações - COE e, para a conclusão do empreendimento, será admitido mais 1 (um) ano por bloco que exceder a quantidade fixada no “caput” deste parágrafo; e
+
+II - a obra não sofra paralisação por mais de um ano após o período referido no inciso I deste parágrafo.
+
+Seção III
+
+Do Licenciamento de Loteamento
+
+Art. 63. O loteamento, inclusive o Loteamento de Interesse Social para Produção de Lotes Habitacionais de Interesse Social - LHIS dar-se-á a pedido do interessado, o qual deverá estar assistido por profissional habilitado, observando-se as disposições deste decreto, obedecendo-se à seguinte sequência de atos no procedimento:
+
+I - emissão de Certidão de Diretrizes Urbanísticas;
+
+II - emissão de Certidão de Conformidade do loteamento, a ser encaminhada aos órgãos estaduais competentes para apreciação previamente à aprovação do projeto pela Prefeitura;
+
+III - aprovação do projeto de arborização pela Secretaria Municipal do Verde e do Meio Ambiente, mediante a apresentação da documentação específica exigida;
+
+IV - assinatura de Termo de Compromisso de Execução da infraestrutura com a respectiva garantia ou apresentação de fiança bancária, quando for o caso, nos termos deste decreto;
+
+V - emissão do Alvará de Loteamento para fins de Execução de Obras;
+
+VI - emissão do Atestado de Execução de Arborização - AEA pela Secretaria Municipal do Verde e do Meio Ambiente;
+
+VII - realização de vistorias pela Coordenadoria de Parcelamento do Solo e de Habitação de Interesse Social – PARHIS, da Secretaria Municipal de Urbanismo e Licenciamento, durante e após a execução de todas ou de parte das obras do loteamento;
+
+VIII - expedição do Termo de Verificação de Execução de Obras do Loteamento - TVEO, total ou parcial;
+
+IX - emissão do Alvará de Loteamento para fins de registro no competente cartório de registro de imóveis.
+
+§ 1º Do Alvará de Loteamento de Interesse Social para Produção de Lotes Habitacionais de Interesse Social - LHIS deve constar, como ressalva, a ser averbada na matrícula de cada lote resultante, a sua destinação obrigatória para habitação de interesse social (HIS) ou outros usos, observada a proporção estabelecida neste decreto.
+
+§ 2º O Alvará de Loteamento para fins de Execução de Obras não dá direito ao registro do empreendimento no competente cartório de registro de imóveis.
+
+Art. 64. No caso de loteamento promovido pela Administração Pública Direta ou empresa com controle acionário do Poder Público, o Alvará de Loteamento para fins de Execução de Obras pode ser expedido com autorização expressa para o registro no competente cartório de registro de imóveis, devendo, se necessário, ser formalizado Termo de Compromisso sobre a execução das obras e a destinação obrigatória dos lotes para habitação de interesse social (HIS), de acordo com o que constar do Alvará de Aprovação, Alvará de Aprovação e Execução ou no Alvará de Execução das edificações.
+
+§ 1º No caso de Plano Integrado promovido no âmbito de programa habitacional desenvolvido pelo governo federal, estadual ou municipal, o Alvará de Loteamento para fins de Execução de Obras pode ser expedido com autorização expressa para o registro no competente cartório de registro de imóveis, desde que:
+
+I - o órgão público responsável forneça à Prefeitura declaração de que o empreendimento está enquadrado no referido programa habitacional e que vai ser garantida a destinação dos lotes para a produção de habitações de interesse social (HIS);
+
+II - a construtora que irá executar as obras apresente Termo de Compromisso de Execução de Obras do parcelamento e das obras das edificações conforme Alvará de Aprovação, Alvará de Aprovação e Execução ou Alvará de Execução expedido.
+
+§ 2º No caso de Plano Integrado de Loteamento promovido por empresa ou entidade, o Alvará de Loteamento para fins de Execução de Obras poderá ser expedido com autorização expressa para o registro no cartório de registro de imóveis, desde que:
+
+I - o agente promotor ofereça garantia para execução das obras, por meio de um ou mais dos seguintes instrumentos:
+
+a) hipoteca que vincule 50% (cinquenta por cento) da área dos lotes à Municipalidade;
+
+b) fiança bancária correspondente ao valor de, no mínimo, 50% (cinquenta por cento) da área total dos lotes, calculado pelo valor do metro quadrado constante do Cadastro de Valor de Terreno atualizado para fins de outorga onerosa de que trata o Quadro 14 do Plano Diretor Estratégico - PDE, contanto que avalizado pela Secretaria Municipal da Fazenda, que emitirá a caução de fiança bancária, legitimando esse instrumento de garantia;
+
+c) seguro garantia correspondente ao valor de, no mínimo, 70% (setenta por cento) da área total dos lotes, calculado pelo valor do metro quadrado constante do Cadastro de Valor de Terreno atualizado para fins de outorga onerosa de que trata o Quadro 14 do Plano Diretor Estratégico - PDE, contanto que avalizado pela Secretaria Municipal da Fazenda, nos termos previstos nos artigos 96 a 102 da Lei Federal nº 14.133, de 1º de abril de 2021.
+
+II - conste dos alvarás emitidos e seja averbada no registro de cada lote no cartório de registro de imóveis a destinação para:
+
+a) Habitação Unifamiliar, Conjunto Horizontal ou Conjunto Vertical de Interesse Social, nos casos de Plano Integrado, nos termos deste decreto;
+
+b) Habitação Unifamiliar, na proporção de lotes estabelecida no inciso I do “caput” do artigo 42 deste decreto, no caso de Loteamento de Interesse Social para Produção de Lotes Habitacionais de Interesse Social - LHIS.
+
+Art. 65. Finalizada as obras e serviços do loteamento, o interessado deve solicitar à Prefeitura a realização de vistoria visando a emissão do respectivo Termo de Verificação de Execução de Obras do Loteamento - TVEO.
+
+§ 1º No caso de loteamento promovido pela Administração Pública Municipal Direta ou empresa de controle acionário do Poder Público Municipal, para a expedição do TVEO, o agente promotor deverá apresentar declaração atestando a conclusão das obras e serviços de terraplenagem, drenagem de águas pluviais, pavimentação, guias, sarjetas e de arborização das vias de circulação de veículos e áreas verdes, bem como que as obras e serviços em questão observam as normas técnicas e as recomendações das concessionárias vigentes.
+
+§ 2º No caso de loteamento de promoção dos demais agentes, para a expedição do TVEO, o agente promotor deverá apresentar:
+
+I - declaração atestando a conclusão das obras e serviços de terraplenagem, drenagem de águas pluviais, pavimentação, guias e sarjetas, bem como que as obras e serviços em questão observam as normas técnicas e as recomendações das concessionárias vigentes;
+
+II - Atestado de Execução de Arborização - AEA, emitido pela Secretaria Municipal do Verde do Meio Ambiente.
+
+§ 3º Podem ser expedidos TVEO parciais para cada parte do loteamento executada, de acordo com as disposições deste decreto.
+
+Seção IV
+
+Do Licenciamento de Desmembramento com Destinação de Área Pública
+
+Art. 66. O desmembramento com destinação de áreas públicas será licenciado a pedido do interessado, o qual deverá estar assistido por profissional habilitado, observando-se as disposições deste decreto, mediante a seguinte sequência de atos no procedimento:
+
+I - emissão de Certidão de Diretrizes Urbanísticas;
+
+II - emissão de Certidão de Conformidade do desmembramento a ser encaminhada aos órgãos estaduais competentes para apreciação previamente à aprovação do projeto pela Prefeitura, quando for o caso, de acordo com a legislação estadual;
+
+III - aprovação do projeto de arborização pela Secretaria Municipal do Verde e do Meio Ambiente, mediante a apresentação da documentação específica exigida;
+
+IV - emissão do Alvará de Desmembramento, liberando o empreendimento para fins de registro no cartório de registro de imóveis;
+
+V - o interessado deverá obter o Atestado de Execução de Arborização - AEA na Secretaria Municipal do Verde e do Meio Ambiente no prazo de até 2 (dois) anos após a emissão do Alvará de Desmembramento, prorrogável por mais 1 (um) ano, com o devido aval daquela Pasta, devendo apresentar o documento à Divisão de Parcelamento do Solo – DPS, da Coordenadoria de Parcelamento do Solo e Habitação de Interesse Social – PARHIS, da Secretaria Municipal de Urbanismo e Licenciamento para ciência;
+
+VI - no caso de Alvará de Desmembramento expedido no âmbito de Plano Integrado, não se aplica o disposto no inciso V deste artigo, devendo o Atestado de Execução de Arborização - AEA ser apresentado pelo interessado juntamente com o pedido de Certificado de Conclusão das edificações, ainda que parcial;
+
+VII - na hipótese de que trata o inciso VI deste artigo, o Alvará de Desmembramento deverá conter ressalva condicionando a expedição do Certificado de Conclusão à apresentação do Atestado de Execução de Arborização - AEA.
+
+§ 1º Do Alvará de Desmembramento deverá constar ressalva, a ser averbada em cada uma das matrículas dos lotes resultantes, referente à obrigatoriedade de sua destinação para habitação de interesse social (HIS).
+
+§ 2º No desmembramento de gleba promovido pela Administração Pública Municipal Direta ou empresa de controle acionário do Poder Público Municipal, o agente promotor fica responsável pela execução das obras e serviços de arborização das áreas verdes, nos termos da legislação vigente, ficando dispensada a comprovação da execução da arborização.
+
+Seção V
+
+Do Licenciamento de Remembramento, Reparcelamento e Desmembramento sem Destinação de Áreas Públicas
+
+Art. 67. O remembramento, reparcelamento ou desmembramento, sem destinação de áreas públicas, será licenciado a pedido do interessado, o qual deverá estar assistido por profissional habilitado, observando-se as disposições deste decreto.
+
+§ 1º A emissão de Certidão de Conformidade do desmembramento, a ser encaminhada aos órgãos estaduais competentes para apreciação, dar-se-á previamente à aprovação do projeto pela Prefeitura, quando for o caso, de acordo com a legislação estadual.
+
+§ 2º O alvará referente às modalidades de que trata o “caput” deste artigo libera o empreendimento para fins de registro no Cartório de Registro de Imóveis.
+
+§ 3º Do alvará de que trata este artigo deverá constar ressalva, a ser registrada em cada uma das matrículas dos lotes resultantes do parcelamento, referente à obrigatoriedade de construção de habitação de interesse social (HIS) nos respectivos lotes.
+
+§ 4º Fica dispensado o licenciamento de remembramento de lotes quando esse ocorrer independente da aprovação simultânea de construções em Plano Integrado.
+
+§ 5º O licenciamento a que se refere o “caput” deste artigo poderá ser realizado em qualquer modalidade prevista neste decreto.
+
+§ 6º Compete à Divisão de Parcelamento do Solo – DPS, da Coordenadoria de Parcelamento do Solo e Habitação de Interesse Social – PARHIS, da Secretaria Municipal de Urbanismo e Licenciamento, o parcelamento para lotes até 20.000m² (vinte mil metros quadrados), em qualquer modalidade, sem Plano Integrado ou sem Plano Integrado Faseado, quando vazios, ou quando condicionados à demolição total das edificações existentes.
+
+Seção VI
+
+Do Licenciamento do Plano Integrado
+
+Art. 68. Ao Plano Integrado, aplicam-se as disposições deste capítulo para as respectivas modalidades de parcelamento do solo e de edificações integrantes do empreendimento.
+
+§ 1º Na solicitação de análise do Plano Integrado, devem ser discriminados os assuntos requeridos para licenciamento, bem como protocolados todos os documentos necessários à análise de cada assunto num único expediente.
+
+§ 2º Os alvarás referentes ao Plano Integrado deverão ser expedidos pela unidade responsável pela análise das edificações e, no caso de indeferimento de qualquer dos assuntos, o despacho, contemplando ambos os assuntos (parcelamento do solo e edificações), deverá ser proferido pela unidade que estiver de posse do processo.
+
+Art. 69. Ao Plano Integrado, aplicam-se, ainda, as seguintes disposições:
+
+I - no EZEIS, quando a aprovação do Plano Integrado tenha observado a proporcionalidade obrigatória de HIS-1 e HIS-2 em cada lote individualmente, fica assegurada ao interessado a emissão de Certificado de Conclusão Parcial referente a cada lote;
+
+II - no EHIS, quando a aprovação do Plano Integrado tenha observado a proporcionalidade obrigatória de habitação de interesse social (HIS) em cada lote individualmente, fica assegurado ao interessado a emissão de Certificado de Conclusão Parcial referente a cada lote, desde que seja levado a registro na matrícula dos lotes restantes a obrigatoriedade da construção de, no mínimo, 80% (oitenta por cento) da área computável do empreendimento para habitação de interesse social (HIS), admitindo-se, para os demais 20% (vinte por cento), a previsão de categorias de uso R ou nR permitidas na zona de uso em que se situa;
+
+III - nos EHIS e EZEIS, quando a aprovação do Plano Integrado não observar a proporcionalidade obrigatória de HIS-1 e/ou HIS-2 em cada lote individualmente, a concessão de Certificados de Conclusão Parciais para um determinado lote, destinado a alguma subcategoria de uso complementar ao empreendimento, ficará condicionado à comprovação da proporcionalidade, observando-se que:
+
+a) para a área de nR ou R que se pretende o Certificado de Conclusão Parcial, deverá ser apresentado outro pedido de Certificado de Conclusão Parcial a ser analisado concomitantemente, cuja área de HIS-1 e/ou HIS-2 atenda a proporcionalidade;
+
+b) para a comprovação da exigência estabelecida na alínea “a” deste inciso, o interessado deverá informar os números dos documentos referentes aos pedidos de Certificados de Conclusão Parciais que se correlacionam para viabilizar a análise concomitante, devendo essa correlação constar das notas dos documentos a serem emitidos;
+
+c) caso se pretenda utilizar Certificado de Conclusão Parcial de habitação de interesse social (HIS) já emitido para viabilizar a emissão de Certificado de Conclusão Parcial para outro(s) uso(s), na proporção, o documento anteriormente emitido deverá ser apostilado para dele fazer constar essa correlação;
+
+d) nos casos previstos neste inciso, não será admitida a conversão dos Certificados de Conclusão Parciais em definitivos enquanto não forem concluídas as unidades HIS-1 e/ou HIS-2.
+
+Parágrafo único. Para atendimento ao disposto no inciso II do “caput” deste artigo, deverão ser apresentadas as matrículas dos lotes remanescentes que ainda não alcançaram Certificado de Conclusão, constando a referida averbação.
+
+Art. 70. No caso de Plano Integrado com parcelamento na modalidade loteamento, o licenciamento deverá observar, ainda, os seguintes procedimentos:
+
+I - o Alvará de Aprovação ou o Alvará de Aprovação e Execução das edificações deverá ser expedido juntamente com o Alvará de Loteamento para fins de Execução de Obras;
+
+II - o Certificado de Conclusão das edificações, ainda que parcial, somente pode ser emitido após a expedição do correspondente Termo de Verificação de Execução de Obras do Loteamento – TVEO, total ou parcial;
+
+III - na emissão do Alvará de Loteamento para fins de registro no competente cartório de registro de imóveis, deverá observar as disposições previstas na seção III deste capítulo;
+
+IV - a arborização das áreas verdes deverá ser executada anteriormente à expedição do Certificado de Conclusão total das edificações.
+
+Art. 71. Os lotes resultantes do Plano Integrado deverão:
+
+I - ser destinados exclusivamente à implantação das edificações aprovadas pelo Plano Integrado até que seja emitido o Certificado de Conclusão;
+
+II - após a emissão do Certificado de Conclusão das edificações referidas no inciso I deste artigo, qualquer intervenção construtiva em quaisquer dos lotes correspondentes ao respectivo Plano Integrado, ainda que este não contenha edificação, deverá ser licenciada perante a Coordenadoria de Parcelamento do Solo e Habitação de Interesse Social – PARHIS, da Secretaria Municipal de Urbanização e Licenciamento, pela competência, observando-se que:
+
+a) o projeto deverá contemplar todos os lotes correspondentes ao respectivo Plano Integrado, bem como suas edificações;
+
+b) será indeferido o pedido quando protocolado sob o assunto de edificação nova, exceto se prevista a demolição total das edificações de todos os lotes correspondentes ao respectivo Plano Integrado;
+
+c) o licenciamento a que se refere este inciso não será exigido nos casos em que a intervenção construtiva não dependa da emissão de documento de controle da atividade edilícia, nos termos previstos no Código de Obras e Edificações.
+
+III - na hipótese a que se refere o inciso II deste artigo será admitido qualquer tipo de atividade edilícia, desde que observadas as disposições deste decreto e que seja mantido o enquadramento do empreendimento como EHIS ou EZEIS, conforme o caso.
+
+Parágrafo único. O alvará de parcelamento do solo expedido por meio de Plano Integrado deverá conter ressalva obrigando o interessado a averbar, na matrícula de cada lote resultante, que este se destina, exclusivamente, à implantação de edificação aprovada pelo respectivo Plano Integrado, perdurando essa restrição até que seja expedido o Certificado de Conclusão total do empreendimento.
+
+Seção VII
+
+Do Procedimento Declaratório
+
+Art. 72. O Alvará de Aprovação e Execução de Edificação Nova e o Certificado de Conclusão para EHIS poderão ser requeridos por meio de procedimento declaratório eletrônico, quando o empreendimento tiver:
+
+I - até 20 (vinte) unidades;
+
+II - área de terreno real e escritura com no máximo 250m² (duzentos e cinquenta metros quadrados);
+
+III - máximo de 1 (um) bloco, com até 3 (três) pavimentos.
+
+§ 1º Não poderão ser objeto de licenciamento, por meio de procedimento declaratório eletrônico, os imóveis:
+
+I - tombados, preservados ou contidos em área tombada ou localizados no raio envoltório do bem tombado, incluindo suas adjacências;
+
+II - situados em área de proteção dos mananciais, ambientais ou de preservação permanente - APP, incluindo suas adjacências;
+
+III - situados em área que necessite de consulta obrigatória ao Serviço Regional de Proteção ao Voo - SRPV;
+
+IV - que abriguem atividade considerada Polo Gerador de Tráfego;
+
+V - sujeitos a licenciamento ambiental;
+
+VI - atingidos por melhoramento viário previsto em lei, incluindo suas adjacências, na forma estabelecida no “caput” e parágrafo único do artigo 103 do Código de Obras e Edificações;
+
+VII - potencialmente contaminados, suspeitos de contaminação e contaminados;
+
+VIII - atingidos, total ou parcialmente, por decreto de utilidade pública (DUP) ou decreto de interesse social (DIS) em vigor ou que sejam objeto de processo de desapropriação, incluindo suas adjacências;
+
+IX - que não possuam frente para logradouro público oficial;
+
+X - que necessitem de anuência ou autorização de outros órgãos públicos competentes;
+
+XI - quando for exigida a reserva ou o alargamento do passeio público;
+
+XII - em perímetros de áreas de influência das linhas de metrô e trem metropolitano, incluindo suas adjacências, conforme base georreferenciada cadastral oficial do Município;
+
+XIII - em perímetros de leis das operações urbanas consorciadas e de leis de planos de intervenção urbana;
+
+XIV - objeto de alvará vigente;
+
+XV - objeto de qualquer pedido em andamento ou com alvará já emitido;
+
+XVI - objeto de pedido protocolado nos últimos 12 (doze) meses.
+
+§ 2º Constatado, a qualquer tempo, o desvirtuamento do projeto e/ou a inveracidade das declarações apresentadas nos pedidos de que trata este artigo, serão aplicadas, ao proprietário ou possuidor e aos profissionais envolvidos, as penalidades administrativas previstas no Código de Obras e Edificações, sem prejuízo das sanções criminais cabíveis, ficando impedido por 12 (doze) meses para requerimento de novos pedidos nos termos deste artigo.
+
+§ 3º A aplicação do procedimento previsto neste artigo dependerá de atualização do sistema que contemple dados de revisões do Plano Diretor Estratégico - PDE e da Lei de Parcelamento, Uso e Ocupação do Solo - LPUOS.
+
+Art. 73. O procedimento do licenciamento declaratório eletrônico seguirá rito de validação e conferência sistêmica de declarações e documentos apresentados pelo interessado, conforme regulamentação prevista em portaria editada pela Secretaria Municipal de Urbanismo e Licenciamento.
+
+CAPÍTULO VI
+
+DA DOCUMENTAÇÃO E DOS PROJETOS
+
+Art. 74. A documentação necessária para o protocolo de cada um dos pedidos, a forma de apresentação das peças gráficas e declarações, bem como o fluxo de procedimentos para a emissão dos documentos de licenciamento de edificações e parcelamento do solo tratados neste decreto são definidos pelo Código de Obras e Edificações e em portaria editada pela Secretaria Municipal de Urbanismo e Licenciamento.
+
+Art. 75. No caso de empreendimento produzido pela Administração Pública Direta, por empresa com controle acionário do Poder Público ou por meio de Parceria Público-Privada (PPP), fica dispensada a apresentação dos projetos de:
+
+I - arborização das áreas verdes, no caso de desmembramento de gleba;
+
+II - terraplenagem, drenagem de águas pluviais, pavimentação, guias e sarjetas, rede de abastecimento de água potável, rede de coleta de esgotos e de arborização das vias de circulação de veículos e áreas verdes, no caso de loteamento.
+
+§ 1º No Loteamento de Interesse Social para produção de Lotes Habitacionais de Interesse Social - LHIS deve ser apresentado o projeto de terraplenagem.
+
+§ 2º No caso da dispensa de que trata o “caput” deste artigo, o agente promotor deve declarar que não haverá terraplenagem em Áreas de Preservação Permanente - APP e demais áreas de preservação da vegetação existente, conforme definido na Certidão de Diretrizes Urbanísticas.
+
+§ 3º Na hipótese prevista no “caput” deste artigo, o agente promotor é responsável pela elaboração dos projetos e pela implantação dos empreendimentos de acordo com as normas técnicas vigentes e recomendações das concessionárias, aplicando-se as normas estabelecidas pela Secretaria Municipal de Infraestrutura Urbana e Obras, no que couber.
+
+§ 4º No caso de licenciamento de empreendimentos em imóvel de propriedade ou produzidos pelos demais agentes e não enquadrados na hipótese do "caput" deste artigo, fica dispensada a apresentação dos projetos de drenagem de águas pluviais, pavimentação, guias e sarjetas, rede de abastecimento de água potável e rede de coleta de esgotos, mediante declaração assinada pelo proprietário e por profissional habilitado se responsabilizando pela elaboração dos projetos citados e pela execução das respectivas obras em conformidade com as normas técnicas vigentes e recomendações das concessionárias.
+
+§ 5º O disposto no “caput”, incisos I e II, deste artigo não afasta a obrigatoriedade de apresentação dos projetos ali referidos por ocasião da emissão do alvará de parcelamento do solo.
+
+Seção Única
+
+Da Titulação
+
+Art. 76. No licenciamento de EHIS, EHMP e EZEIS que não envolva parcelamento do solo, quando houver divergência de dimensões entre o título de propriedade e o levantamento planialtimétrico do imóvel, fica dispensada a apresentação do documento rerratificado desde que a divergência, no que se refere a dimensões lineares ou quadradas, não supere a 5% (cinco por cento), observando-se, nessa hipótese, as menores dimensões para aplicação dos índices e parâmetros de aproveitamento, dimensionamento e ocupação.
+
+§ 1º Nos casos referidos no “caput” deste artigo, quando a divergência de dimensões entre o título de propriedade e o levantamento planialtimétrico superar a 5% (cinco por cento), o documento rerratificado deverá ser apresentado por ocasião do pedido do Certificado de Conclusão.
+
+§ 2º Em se tratando de parcelamento do solo ou de situação a ele vinculado ou, ainda, na modalidade Plano Integrado, a rerratificação do título de propriedade da área do lote ou gleba será exigida:
+
+I - para a emissão do Certificado de Conclusão, ainda que parcial, no caso de Plano Integrado;
+
+II - para a emissão do Termo de Verificação de Execução de Obras do Loteamento – TVEO, total ou parcial, no caso de loteamento;
+
+III - para o registro do parcelamento do solo no cartório de registro de imóveis, no caso de desmembramento, remembramento ou reparcelamento.
+
+§ 3º Os documentos emitidos com base no disposto nos §§ 1º ou 2º deste artigo deverão conter ressalva quanto à obrigação da apresentação do título de propriedade rerratificado.
+
+Art. 77. Para EHIS, EHMP e EZEIS, no que se refere à titulação, aplicam-se, ainda, as seguintes disposições:
+
+I - o termo de imissão na posse em cumprimento a mandado expedido pela autoridade judicial, em ação expropriatória promovida pela Administração Pública Direta ou Indireta com base em declaração de interesse social, constitui documento suficiente para a expedição do Alvará para fins de Execução de Obras do Loteamento e do Alvará de Aprovação, Alvará de Aprovação e Execução ou Alvará de Execução para EHIS e EZEIS, conforme previsto na Lei Federal nº 6.766, de 19 de dezembro de 1979, na Lei Federal nº 11.977, de 7 de julho de 2009, e na Lei Federal nº 14.620, de 13 de julho de 2023, e suas respectivas alterações posteriores;
+
+II - no que diz respeito aos imóveis de pessoas jurídicas de direito público interno, nos termos do artigo 41 do Código Civil, que disponham ou não de matrícula em cartório de registro de imóveis, ainda que cedidos a particulares, em qualquer modalidade, o licenciamento poderá ser efetivado com fundamento em declaração da referida pessoa jurídica a respeito da posse ou propriedade do imóvel, desde que acompanhada de peça gráfica delimitando o perímetro da área objeto da intervenção.
+
+Parágrafo único. O disposto no inciso II do “caput” deste artigo não se aplica aos pedidos de parcelamento do solo ou vinculados a parcelamento do solo ou, ainda, na modalidade Plano Integrado.
+
+CAPÍTULO VII
+
+DAS DISPOSIÇÕES FINAIS E TRANSITÓRIAS
+
+Art. 78. Quando da aprovação de EHIS, EHMP e EZEIS em áreas de operações urbanas consorciadas, após o deferimento do pedido e previamente ao arquivamento do expediente, o processo deverá ser encaminhado à empresa São Paulo Urbanismo - SP-Urbanismo para as anotações julgadas pertinentes, visando o controle do desenho urbano aprovado pela lei específica.
+
+Art. 79. Aos EHIS, EHMP e EZEIS aplicam-se exclusivamente as disposições previstas neste decreto, nos termos do artigo 60, inciso III, Plano Diretor Estratégico – PDE (Lei nº 16.050, de 2014) e no artigo 95 da Lei de Parcelamento, Uso e Ocupação do Solo – LPUOS (Lei nº 16.402, de 2016), admitindo-se a aplicação de dispositivos constantes do PDE, da LPUOS e do Código de Obras e Edificações - COE quando mais benéficos do que o estatuído por este decreto, desde que atendidas todas as condições estabelecidas nas referidas leis para sua aplicação.
+
+§ 1º Ficam automaticamente recepcionadas as disposições do PDE, da LPUOS e do COE, bem como de suas respectivas regulamentações, quando puderem ser aplicadas subsidiariamente às disposições deste decreto.
+
+§ 2º Compete à Comissão de Análise de Empreendimentos Habitacionais de Interesse Social – CAEHIS, da Secretaria Municipal de Urbanismo e Licenciamento, a análise e deliberação sobre dúvidas quanto à aplicação de dispositivos legais não previstos neste decreto.
+
+Art. 80. Os EHIS, EHMP e EZEIS ficam isentos do pagamento da Taxa para Exame e Verificação dos Pedidos de Documentos de Controle da Atividade Edilícia - TEV/COE e dispensados do pagamento dos preços públicos, conforme previsto no artigo 53 do Código de Obras e Edificações – COE (Lei nº 16.642, de 9 de maio de 2017) e no artigo 47 de regulamento, o Decreto nº 57.776, de 7 de julho de 2017.
+
+Art. 81. As obras de infraestrutura que envolvam procedimentos não previstos neste decreto, como transposição e canalização de córregos, muros de arrimo para contenção de viário existente ou projetado e obras externas ao loteamento, deverão ser submetidas aos órgãos competentes para análise e aprovação, devendo essa obrigação constar dos documentos expedidos.
+
+Art. 82. As vias de caráter não condominial pertencentes ao sistema viário de EHIS e EZEIS executado pela Administração Pública Direta ou por empresas com controle acionário do Poder Público, até a data da publicação deste decreto, ficam oficializadas independentemente da zona de uso na qual se situem, nos termos do § 6º do artigo 4º do Decreto nº 27.568, de 22 de dezembro de 1988, e alterações posteriores.
+
+§ 1º Podem ainda ser consideradas oficiais as vias que sirvam de acesso aos EHIS ou EZEIS, independentemente de seu promotor, desde que atendam a, pelo menos, uma das seguintes situações:
+
+I - estejam abertas e sejam de uso público anteriormente a 2008 e deem acesso a EHIS ou EZEIS licenciados, inclusive às respectivas áreas verdes ou áreas institucionais;
+
+II - sirvam de acesso a lote com lançamento fiscal ou constem do título de propriedade de lotes ou glebas que possuam registro na circunscrição imobiliária competente, mediante análise da Coordenadoria de Parcelamento do Solo e Habitação de Interesse Social – PARHIS, da Secretaria Municipal de Urbanismo e Licenciamento.
+
+§ 2º O disposto neste artigo não se aplica às Áreas de Proteção aos Mananciais ou Áreas de Preservação Permanente - APP.
+
+Art. 83. Os pedidos de licenciamento de EHIS, EHMP, EZEIS, HIS e HMP, protocolados até a data de entrada em vigor deste decreto e sem despacho decisório, serão analisados e decididos integralmente de acordo com a legislação em vigor à época do seu protocolo, exceto no caso de manifestação formal do interessado optando pela análise integral nos termos deste decreto.
+
+Parágrafo único. Para os pedidos a que se refere o "caput" deste artigo, independentemente da manifestação formal do interessado optando pela análise integral nos termos deste decreto, aplicam-se:
+
+I - desde que não haja expressa manifestação em contrário do interessado, o contigo nos seguintes dispositivos deste decreto:
+
+a) §§ 1º e 2º do artigo 7º;
+
+b) § 1º ao 7º do artigo 10 e artigo 11;
+
+c) alínea “f” do inciso V do artigo 13;
+
+d) § 2º do artigo 68;
+
+e) “caput” e incisos I e II do artigo 75;
+
+f) notas "e", "f" e "g" do Quadro 2 constante do Anexo Único.
+
+II - obrigatoriamente, as disposições do § 2º do artigo 56 deste decreto aos pedidos de apostilamento para fins de cancelamento de Alvará de Aprovação e Execução, Alvará de Execução ou Projeto Modificativo vigente;
+
+III - mediante manifestação expressa do interessado, o procedimento estabelecido na seção VIII do capítulo IV deste decreto.
+
+Art. 84. Os pedidos de Certidão de Diretrizes Urbanísticas para loteamento ou desmembramento de EHIS, EHMP, EZEIS, HIS e HMP, bem como as edificações a serem licenciadas nos lotes oriundos deste parcelamento, que tenham sido protocolados anteriormente à data da entrada em vigor deste decreto e sem despacho decisório serão analisados e decididos integralmente de acordo com a legislação em vigor na data do seu protocolo, exceto no caso de manifestação formal do interessado optando pela análise integral nos termos deste decreto.
+
+Parágrafo único. No caso de Certidão de Diretrizes Urbanísticas emitida nos termos da legislação vigente anteriormente à entrada em vigor deste decreto, os pedidos de Certidão de Conformidade, Alvará de Loteamento, Alvará de Desmembramento, Alvará de Aprovação e Alvará de Execução das edificações, na modalidade Plano Integrado ou não, podem ser analisados nos termos da legislação que subsidiou a decisão do pedido de Certidão de Diretrizes, desde que o pedido seja protocolado na vigência da Certidão, ou seja, 1 (um) ano.
+
+Art. 85. Os pedidos de que trata este decreto, independentemente da data do protocolo, deverão ser indeferidos quando ocorrer uma das seguintes situações:
+
+I - não apresentarem elementos suficientes para a análise (peças gráficas ou documentos);
+
+II - apresentarem infração aos índices urbanísticos estabelecidos na legislação nos termos da qual forem analisados;
+
+III - apresentarem infrações insanáveis em relação ao Código de Obras e Edificações - COE e legislação correlata;
+
+IV - quando houver motivo relevante, desde que devidamente justificado;
+
+V - quando houver mais de um pedido de alvará de execução para o mesmo local.
+
+Parágrafo único. Na análise dos pedidos de que trata este decreto, independentemente da data de seu protocolo, o Coordenador e o Diretor de Divisão Técnica competentes, por ato administrativo discricionário, poderão:
+
+I - autorizar a junção de documentos ao processo, mediante solicitação expressa de parte interessada, a qualquer tempo;
+
+II - autorizar ou determinar a emissão de “comunique-se” complementar.
+
+Art. 86. Compete à Comissão de Análise de Empreendimentos Habitacionais de Interesse Social – CAEHIS analisar e opinar sobre casos omissos e propostas de alteração de parâmetros estabelecidos neste decreto, desde que tecnicamente justificado.
+
+Art. 87. Para empreendimentos habitacionais destinados aos fins estabelecidos no artigo 1º da Lei nº 17.859, de 16 de dezembro de 2022, após expedição da Certidão de Regularização Fundiária - CRF, caberá à Secretaria Municipal de Habitação encaminhar cópia desse documento, bem como uma via do projeto aprovado, com as respectivas áreas individuais das edificações, para lançamento tributário e posterior envio à Secretaria Municipal de Urbanismo e Licenciamento, à qual incumbirá atualizar o Cadastro de Edificações do Município.
+
+§ 1º Na Certidão de Regularização Fundiária – CRF, deverá ser inserida informação sobre a área construída total do empreendimento regularizado, dentre outros dados considerados relevantes.
+
+§ 2º O processo de licenciamento de competência da Secretaria Municipal de Urbanismo e Licenciamento ainda sem despacho final e que tenha por objeto a construção, reforma, requalificação ou regularização de empreendimento habitacional destinado aos fins previstos no artigo 1º da Lei nº 17.859, de 2022, deverá ser encaminhado à Secretaria Municipal de Habitação para o fornecimento, no próprio expediente, das seguintes informações:
+
+I - se existe edificação no local;
+
+II - se a edificação porventura existente no local encontra-se em situação regular ou irregular, conforme previsto respectivamente nos artigos 64 e 66 do Decreto nº 57.776, de 2017;
+
+III - no caso de edificação irregular, se existe pedido de Regularização Fundiária Urbana - REURB para o núcleo onde se situa o empreendimento e, em caso positivo, em qual das seguintes situações encontra-se atualmente:
+
+a) em análise;
+
+b) indeferido com possibilidade de interposição de recurso;
+
+c) indeferido sem possibilidade de interposição de recurso; ou
+
+d) com emissão de Certidão de Regularização Fundiária - CRF.
+
+§ 3º Após o recebimento das informações solicitadas nos termos do § 2º deste artigo, a Secretaria Municipal de Urbanismo e Licenciamento deverá:
+
+I - prosseguir com a análise do processo de licenciamento, caso Secretaria Municipal de Habitação tenha informado a inexistência de edificação irregular ou a inexistência de edificação no local; ou
+
+II - emitir comunicado ao responsável pelo empreendimento determinando que esclareça se há interesse em regularizar o imóvel nos termos da Lei nº 17.859, de 2022, caso a Secretaria Municipal de Habitação tenha informado a existência de edificação irregular e a inexistência de REURB protocolada para o referido imóvel; ou
+
+III - sobrestar o processo de licenciamento até que seja informado o desfecho da REURB, isto é, o seu deferimento ou o seu indeferimento sem possibilidade de interposição de recurso.
+
+§ 4º Caso a área técnica entenda, com fundamento em informação prestada pela Secretaria Municipal de Habitação, que o pedido formulado no processo de licenciamento perdeu o seu objeto, este deverá ser indeferido com amparo no artigo 35 da Lei nº 14.141, de 27 de março de 2006, e oportunamente arquivado.
+
+§ 5º Caberá, ainda, à Secretaria Municipal de Habitação:
+
+I - informar à Secretaria Municipal de Urbanismo e Licenciamento, independentemente de provocação, a ocorrência das hipóteses referidas nas alíneas, “c” e “d” do inciso III do § 2º deste artigo;
+
+II - no caso de empreendimentos habitacionais referidos no “caput” deste artigo, informar à Secretaria Municipal de Urbanismo e Licenciamento, quando solicitado, se a proposta apresentada no processo de licenciamento é compatível ou não com a situação fática existente no local;
+
+III - requerer, de ofício, a REURB para os empreendimentos habitacionais referidos no “caput” deste artigo, considerando o disposto nos artigos 15, 18 e 75 da Lei nº 17.734, de 11 de janeiro de 2022, devendo tal medida ser informada à Secretaria Municipal de Urbanismo e Licenciamento.
+
+§ 6º O comunicado referido no inciso II do § 3º deste artigo será regido pelas disposições pertinentes da Lei nº 16.642, de 2017, e do Decreto nº 57.776, de 2017, salvo disposição em contrário, devendo ser emitido a partir do próprio processo de licenciamento.
+
+§ 7º As Secretarias Municipais de Urbanismo e Licenciamento e de Habitação poderão, resguardadas as respectivas competências, editar portarias estabelecendo disposições complementares para a consecução do disposto neste artigo.
+
+§ 8º No âmbito da Secretaria Municipal de Urbanismo e Licenciamento, o cumprimento das disposições deste artigo caracterizará integral atendimento ao disposto no § 2º do artigo 2º da Lei nº 17.859, de 2022.
+
+§ 9º A Certidão de Regularização Fundiária - CRF constitui título útil e suficiente ao licenciamento edilício de empreendimentos habitacionais referidos no “caput” deste artigo, bem como atesta a sua regularidade nos termos do artigo 64 do Decreto nº 57.776, de 2017.
+
+Art. 88. Integra o presente decreto o Anexo Único com os seguintes quadros:
+
+I - Quadro 1 - Categorias de HIS e HMP permitidas por zona;
+
+II - Quadro 2 - Parâmetros de ocupação por zona de uso;
+
+III - Quadro 3 - Percentuais de área construída computável em EZEIS;
+
+IV - Quadro 4 - Taxa de permeabilidade mínima;
+
+V - Quadro 5 - Fator de interesse social (Fs) em EHIS, EHMP e EZEIS;
+
+VI - Quadro 6 - Percentuais de destinação de áreas públicas; e
+
+VII - Quadro 7 - Sistema viário.
+
+Art. 89. O descumprimento das disposições deste decreto sujeitará o empreendedor às penalidades de suspensão, cassação ou anulação dos documentos de controle da atividade edilícia, conforme previsto nos artigos 63, 67 e 68 da Lei nº 16.642, de 2017, e nos artigos 53 e 57 do Decreto nº 57.776, de 2017, ensejando a revogação de incentivos, benefícios e isenções.
+
+Art. 90. O § 4º do artigo 9º do Decreto nº 56.089, de 30 de abril de 2015, passa a vigorar com a seguinte redação:
+
+“Art.9º .......................................................................................
+
+....................................................................................................
+
+§ 4º Não se aplica a cota de solidariedade em obras de infraestrutura, equipamentos e serviços públicos enquadrados no artigo 196 da Lei nº 16.050, de 2014, e artigo 106 da Lei nº 16.402, de 2016.” (NR)
+
+Art. 91. O Decreto nº 57.558, de 21 de dezembro de 2016, passa a vigorar acrescido dos artigos 27-A e 40-A, com a seguinte redação:
+
+“Art. 27-A. Será permitido o desmembramento ou reparcelamento de lote edificado, sem previsão de demolição das edificações existentes, desde que os índices, parâmetros e demais condições exigidos pelo Plano Diretor Estratégico - PDE, Lei de Parcelamento, Uso e Ocupação do Solo - LPUOS, Código e Obras e Edificações - COE e legislação correlata, quando calculados para os lotes resultantes e respectivas edificações, atendam à legislação vigente ou, no caso de edificação regular e não conforme, não haja agravamento da desconformidade.
+
+§ 1º Deverão ser observadas as disposições previstas no artigo 17 do Decreto nº 63.504, de 14 de junho de 2024, referentes à outorga onerosa, quando aplicável, e ao cálculo do coeficiente de aproveitamento para a situação resultante do desmembramento ou reparcelamento.
+
+§ 2º O disposto no “caput” deste artigo não se aplica aos casos envolvendo edificação irregular ou edificação regular que abrigue uso não permitido, tolerado nos termos do artigo 135 da Lei de Parcelamento, Uso e Ocupação do Solo - LPUOS.” (NR)
+
+“Art. 40-A. No caso de parcelamento do solo considerado contaminado, o empreendedor será responsável pela descontaminação da área total do terreno, incluindo, quando for o caso, as áreas verdes e institucionais a serem destinadas.” (NR)
+
+Art. 92. O artigo 8º do Decreto nº 58.955, de 20 de setembro de 2019, passa a vigorar acrescido do § 3º, com a seguinte redação:
+
+“Art.8º .......................................................................................
+
+§ 3º O disposto na alínea “a” do inciso II deste artigo não se aplica aos Empreendimentos Habitacionais de Interesse Social - EHIS e Empreendimentos em Zona Especial de Interesse Social - EZEIS produzidos pela Administração Pública Direta, por empresa com controle acionário do Poder Público ou por meio de Parceria Público-Privada (PPP).” (NR)
+
+Art. 93. O Decreto nº 59.886, de 4 de novembro de 2020, passa a vigorar acrescido do artigo 29-A, com a seguinte redação:
+
+“Art. 29-A. Nos casos em que o EHIS ou EZEIS não atenda à área mínima de terreno estabelecida pela respectiva operação urbana consorciada, o empreendimento será licenciado exclusivamente nos termos do decreto que fixa a disciplina geral para implantação de EHIS e EZEIS, inclusive no que se refere a requisitos, condições de instalação, parâmetros de ocupação do solo e normas edilícias, afastada a aplicação das disposições deste decreto ou de outro que venha a substituí-lo, da legislação específica da operação urbana consorciada e de suas respectivas vedações.
+
+Parágrafo único. Na hipótese de que trata o “caput” deste artigo:
+
+I - será permitida a utilização, de forma gratuita, do coeficiente de aproveitamento máximo definido nos termos do decreto que fixa a disciplina geral para implantação de EHIS e EZEIS;
+
+II - deverão ser atendidos eventuais melhoramentos urbanísticos, melhoramentos viários e alargamentos de passeios públicos previstos pela legislação específica da respectiva operação urbana consorciada, bem como por este decreto ou outro que venha a substituí-lo.” (NR)
+
+Art. 94. O artigo 6º, o § 2º do artigo 9º e o parágrafo único do artigo 11, todos do Decreto nº 63.130, de 19 de janeiro de 2024, passam a vigorar com as seguintes alterações:
+
+“Art.6º .......................................................................................
+
+I - a emissão do Certificado de Conclusão ficará condicionada à comprovação da averbação na matrícula do cartório de registro de imóveis de que todas as unidades HIS ou HMP serão destinadas para as famílias com renda declarada e atestada em conformidade com as disposições deste decreto;
+
+....................................................................................................IV - a condição estabelecida no inciso I deste artigo aplica-se aos pedidos de Certificado de Conclusão protocolados a qualquer tempo, desde que referentes a Alvarás de Aprovação ou Alvarás de Aprovação e Execução protocolados na vigência da Lei nº 17.975, de 8 de julho de 2023.
+
+..........................................................................................” (NR)
+
+“Art.9º .......................................................................................
+
+§ 2º Os empreendimentos que se utilizarem do regime jurídico trazido neste decreto deverão publicar ostensivamente em seu material técnico e publicitário de divulgação do empreendimento, incluindo as pranchas, cartazes e demonstrações em seus “stands” de vendas, quais as unidades destinadas a HIS-1, HIS-2 e HMP, bem como as faixas de renda às quais é permitida a aquisição de tais unidades, nos termos da regulamentação prevista no § 2º do artigo 5º deste decreto.
+
+.....................................................................................” (NR)
+
+“Art. 11. .....................................................................................
+
+Parágrafo único. Os pedidos de licenciamento de Empreendimento de Habitação de Interesse Social - EHIS e Empreendimento em Zona Especial de Interesse Social - EZEIS situados em perímetro de projeto de intervenção urbana (PIU) e protocolados anteriormente à publicação da respectiva regulamentação poderão, por opção do interessado, ser licenciados exclusivamente nos termos do decreto específico que verse sobre tais empreendimentos, aplicando-se, subsidiariamente, as disposições do Plano Diretor Estratégico - PDE, da Lei de Parcelamento, Uso e Ocupação do Solo - LPUOS e do Código de Obras e Edificações - COE.” (NR)
+
+Art. 95. Este decreto entrará em vigor na data de sua publicação, revogados:
+
+I – os artigos 1º ao 4º do Decreto nº 57.766, de 29 de junho de 2017;
+
+II – o Decreto nº 58.106, de 1º de março de 2018;
+
+III – o Decreto nº 59.885, de 4 de novembro de 2020;
+
+IV - o Decreto nº 61.811, de 14 de setembro de 2022;
+
+V – os artigos 5º, 10, 11, 12 e § único do artigo 16 do Decreto nº 62.070, de 20 de dezembro de 2022.
+
+PREFEITURA DO MUNICÍPIO DE SÃO PAULO, aos 10 de setembro de 2024, 471º da fundação de São Paulo.
+
+RICARDO NUNES
+
+PREFEITO
+
+MILTON VIEIRA PINTO
+
+Secretário Municipal de Habitação
+
+ELISABETE FRANÇA
+
+Secretária Municipal de Urbanismo e Licenciamento
+
+FABRICIO COBRA ARBEX
+
+Secretário Municipal da Casa Civil
+
+FERNANDO JOSÉ DA COSTA
+
+Secretário Municipal de Justiça
+
+CLODOALDO PELISSIONI
+
+Secretário do Governo Municipal - Substituto
+
+Publicado na Secretaria do Governo Municipal, em 10 de setembro de 2024.
+
+Documento original assinado nº 109625357
+
+Anexo Único integrante do Decreto nº 63.728, de 10 de setembro de 2024
+Quadros 1, 2, 3, 4, 5, 6 e 7
+
+QUADRO 1 - CATEGORIAS DE HIS E HMP PERMITIDAS POR ZONA
+
+TIPO DE ZONA
+
+ZONA
+
+CATEGORIA DE USO: RESIDENCIAL
+
+SUBCATEGORIA DE USO
+
+EHIS
+
+EHMP
+
+UNIFAMILIAR
+
+CONJUNTO HORIZONTAL
+
+CONJUNTO VERTICAL
+
+UNIFAMILIAR
+
+CONJUNTO HORIZONTAL
+
+CONJUNTO VERTICAL
+
+TRANSFORMAÇÃO
+
+ZEU
+
+ZEU
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+ZEUa
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+ZEUP
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+ZEUPa
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+ZEM
+
+ZEM
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+ZEMP
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+QUALIFICAÇÃO
+
+ZC
+
+ZC
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+ZCa
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+ZC-ZEIS
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+NÃO
+
+NÃO
+
+ZCOR
+(a) (b)
+
+ZCOR-1
+
+SIM
+
+NÃO
+
+NÃO
+
+SIM
+
+NÃO
+
+NÃO
+
+ZCOR-2
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+ZCOR-3
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+ZCORa
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+ZM
+
+ZM
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+ZMa
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+ZMIS
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+NÃO
+
+NÃO
+
+ZMISa
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+NÃO
+
+NÃO
+
+ZEIS
+(c)
+
+ZEIS-1
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+ZEIS-2
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+ZEIS-3
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+ZEIS-4
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+ZEIS-5
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+ZDE
+
+ZDE-1
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+NÃO
+
+NÃO
+
+ZDE-2
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+NÃO
+
+NÃO
+
+ZPI
+
+ZPI-1
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+NÃO
+
+NÃO
+
+ZPI-2
+
+SIM
+
+SIM
+
+SIM
+
+SIM
+
+NÃO
+
+NÃO
+
+Notas:
+(a) Nas zonas ZCOR ficam proibidas as seguintes atividades: albergue; dispensário; flats; apart hotel; hotel; motel; pensionato; pensão; ensino a distância; ensino supletivo; ensino preparatório para escolas; estacionamento privativo do tipo drive-in;
+(b) Nos lotes localizados nas ZCOR-1 e ZCOR-2 inseridas no perímetro de ZEPEC/AUE nas Subprefeituras Sé, Lapa e Pinheiros, incluindo os lotes externos e lindeiros às ZEPEC/AUE nas respectivas subprefeituras, fica proibida a instalação de usos enquadrados nas subcategorias de uso nR1-2 e nR1-13 e proibidas as seguintes atividades: buffet, buffet infantil, salão de festas e eventos, auditórios, cinemas, teatros, anfiteatros e arenas;
+(c) As subcategorias Residenciais (R) são permitidas observadas as disposições estabelecidas no artigo 55 da Lei nº 16.050, de 31 de julho de 2014 - PDE.
+
+QUADRO 2 - PARÂMETROS DE OCUPAÇÃO POR ZONA DE USO
+
+TIPO DE ZONA
+
+ZONA
+
+Coeficiente de Aproveitamento
+
+Taxa de Ocupação Máxima
+
+Gabarito de altura máxima (metros)
+
+Recuos Mínimos (metros)
+
+Cota parte máxima de terreno por unidade (m²)
+
+C.A.
+mínimo
+
+C.A.
+básico
+
+C.A. máximo
+
+T. O. para lote até
+500m²
+
+T. O. para lote superior a
+500m²
+
+Frente (h)
+
+Fundos e Laterais
+
+EHIS
+
+EHMP
+
+Altura da edificação menor ou igual
+a 10 metros
+
+Altura da edificação superior a 10 metros
+
+TRANSFORMAÇÃO
+
+ZEU
+
+ZEU
+
+0,5
+
+1
+
+6
+
+5
+
+0,85
+
+0,7
+
+NA
+
+NA
+
+NA
+
+3 (j)
+
+20
+
+ZEUa
+
+NA
+
+1
+
+3
+
+2,5
+
+0,7
+
+0,5
+
+28
+
+NA
+
+NA
+
+3 (j)
+
+40
+
+ZEUP (a)
+
+0,5
+
+1
+
+3
+
+2,5
+
+0,85
+
+0,7
+
+28
+
+NA
+
+NA
+
+3 (j)
+
+NA
+
+ZEUPa (b)
+
+NA
+
+1
+
+1,5
+
+1,25
+
+0,7
+
+0,5
+
+28
+
+NA
+
+NA
+
+3 (j)
+
+NA
+
+ZEM
+
+ZEM
+
+0,5
+
+1
+
+3 (c)
+
+2,5 (c)
+
+0,85
+
+0,7
+
+28 (c)
+
+NA
+
+NA
+
+3 (j)
+
+20
+
+ZEMP
+
+0,5
+
+1
+
+3 (d)
+
+2,5 (d)
+
+0,85
+
+0,7
+
+28 (d)
+
+NA
+
+NA
+
+3 (j)
+
+40
+
+QUALIFICAÇÃO
+
+ZC
+
+ZC
+
+0,3
+
+1
+
+3
+
+2,5
+
+0,85
+
+0,7
+
+48
+
+5
+
+NA
+
+3 (j)
+
+NA
+
+ZCa
+
+NA
+
+1
+
+1,5
+
+1,25
+
+0,7
+
+0,7
+
+20
+
+5
+
+NA
+
+3 (j)
+
+NA
+
+ZC-ZEIS
+
+0,5
+
+1
+
+3
+
+2,5
+
+0,85
+
+0,7
+
+NA
+
+5
+
+NA
+
+3 (j)
+
+NA
+
+ZCOR
+(i)
+
+ZCOR-1
+
+0,05
+
+1
+
+1,5
+
+1,25
+
+0,5
+
+0,5
+
+10
+
+5
+
+NA
+
+3 (j)
+
+NA
+
+ZCOR-2
+
+0,05
+
+1
+
+1,5
+
+1,25
+
+0,5
+
+0,5
+
+10
+
+5
+
+NA
+
+3 (j)
+
+NA
+
+ZCOR-3
+
+0,05
+
+1
+
+1,5
+
+1,25
+
+0,5
+
+0,5
+
+10
+
+5
+
+NA
+
+3 (j)
+
+NA
+
+ZCORa
+
+NA
+
+1
+
+1,5
+
+1,25
+
+0,5
+
+0,5
+
+10
+
+5
+
+NA
+
+3 (j)
+
+NA
+
+ZM
+
+ZM
+
+0,3
+
+1
+
+3
+
+2,5
+
+0,85
+
+0,7
+
+28
+
+5
+
+NA
+
+3 (j)
+
+NA
+
+ZMa
+
+NA
+
+1
+
+1,5
+
+1,25
+
+0,7
+
+0,5
+
+15
+
+5
+
+NA
+
+3 (j)
+
+NA
+
+ZMIS
+
+0,3
+
+1
+
+3
+
+2,5
+
+0,85
+
+0,7
+
+28
+
+5
+
+NA
+
+3 (j)
+
+NA
+
+ZMISa
+
+NA
+
+1
+
+1,5
+
+1,25
+
+0,7
+
+0,5
+
+15
+
+5
+
+NA
+
+3 (j)
+
+NA
+
+ZEIS
+
+ZEIS-1
+
+0,5
+
+1
+
+2,5 (e) (k)
+
+0,85
+
+0,7
+
+NA
+
+5
+
+NA
+
+3 (j)
+
+NA
+
+ZEIS-2
+
+0,5
+
+1
+
+4 (e)
+
+0,85
+
+0,7
+
+NA
+
+5
+
+NA
+
+3 (j)
+
+NA
+
+ZEIS-3
+
+0,5
+
+1
+
+4 (f)
+
+0,85
+
+0,7
+
+NA
+
+5
+
+NA
+
+3 (j)
+
+NA
+
+ZEIS-4
+
+NA
+
+1
+
+2 (g) (k) (l)
+
+0,7
+
+0,5
+
+NA
+
+5
+
+NA
+
+3 (j)
+
+NA
+
+ZEIS-5
+
+0,5
+
+1
+
+4 (e)
+
+0,85
+
+0,7
+
+NA
+
+5
+
+NA
+
+3 (j)
+
+NA
+
+ZDE
+
+ZDE-1
+
+0,5
+
+1
+
+3
+
+2,5
+
+0,7
+
+0,7
+
+28
+
+5
+
+NA
+
+3 (j)
+
+NA
+
+ZDE-2
+
+0,5
+
+1
+
+3
+
+2,5
+
+0,7
+
+0,5
+
+28
+
+5
+
+3 (m)
+
+3 (m)
+
+NA
+
+ZPI
+
+ZPI-1
+
+0,5
+
+1
+
+2,25
+
+1,875
+
+0,7
+
+0,7
+
+28
+
+5
+
+3 (m)
+
+3 (m)
+
+NA
+
+ZPI-2
+
+NA
+
+1
+
+2,25
+
+1,875
+
+0,5
+
+0,5
+
+28
+
+5
+
+3 (m)
+
+3 (m)
+
+NA
+
+Notas:
+NA = Não se aplica;
+(a) Atendidos os requisitos previstos no artigo 83 do PDE, a zona ZEUP passa a recepcionar automaticamente os parâmetros da zona ZEU;
+(b) Atendidos os requisitos previstos no artigo 83 do PDE, a zona ZEUPa passa a recepcionar automaticamente os parâmetros da zona ZEUa;
+(c) O CA Máximo será igual a 6 para EHIS e 5 para EHMP, bem como o gabarito de altura fica dispensado, na situação prevista no § 1º do artigo 8º da LPUOS;
+(d) O CA Máximo será igual a 6 para EHIS e 5 para EHMP, bem como o gabarito de altura fica dispensado, na situação prevista no § 2º do artigo 8º da LPUOS;
+(e) O CA Máximo será igual a 2 nos casos em que o lote for igual ou inferior a 1.000m² (mil metros quadrados), sendo admitido o limite do CA Máximo igual a 2,5 em ZEIS-1 e igual a 4 em ZEIS-2 ou ZEIS-5, para empreendimento denominado EZEIS, desde que a área computável total seja destinada exclusivamente à produção de HIS-1 e/ou HIS-2, observados os percentuais mínimos estabelecidos pelo Quadro 3;
+(f) O CA Máximo será igual a 2 nos casos em que o lote for igual ou inferior a 500m² (quinhentos metros quadrados), sendo admitido o limite do CA Máximo igual a 4 em ZEIS-3, para empreendimento denominado EZEIS, desde que a área computável total seja destinada exclusivamente à produção de HIS-1 e/ou HIS-2, observados os percentuais mínimos estabelecidos pelo Quadro 3;
+(g) O CA Máximo será igual a 1 nos casos em que o lote for igual ou inferior a 1.000m² (mil metros quadrados), sendo admitido o limite do CA Máximo igual a 2 em ZEIS-4, para empreendimento denominado EZEIS, desde que a área computável total seja destinada exclusivamente à produção de HIS-1 e/ou HIS-2, observados os percentuais mínimos estabelecidos pelo Quadro 3;
+(h) O recuo frontal será facultativo quando atendido o disposto no inciso VI do artigo 13 deste decreto;
+(i) Nos lotes em ZCOR-2, ZCOR-3 e ZCORa que utilizarem a majoração prevista no artigo 91 da LPUOS, deverá ser atendido recuo mínimo de fundo de 5m (cinco metros), à semelhança do recuo de frente;
+(j) Os recuos laterais e de fundo para altura da edificação superior a 10m (dez metros) serão dispensados conforme disposições estabelecidas no inciso III do artigo 13 deste decreto;
+(k) O CA máximo poderá ser superado até o limite máximo de 4 (quatro), de acordo com o plano de urbanização da Secretaria Municipal de Habitação - SEHAB, para áreas ocupadas irregularmente, aprovado pelo conselho gestor de ZEIS e pela CAEHIS;
+(l) Observar a legislação estadual pertinente relativa aos mananciais;
+(m) Os recuos laterais e de fundo serão dispensados conforme disposições estabelecidas na alínea “c” do inciso III do artigo 13 deste decreto.
+
+QUADRO 3 - PERCENTUAIS DE ÁREA CONSTRUÍDA COMPUTÁVEL EM EZEIS
+
+ZEIS
+
+HIS-1
+
+HIS-2
+
+HMP
+
+OUTROS USOS
+
+ZEIS 1
+
+MÍNIMO 60%
+
+PERMITIDO
+
+MÁXIMO 20%
+
+ZEIS 2
+
+ZEIS 3
+
+ZEIS 4
+
+ZEIS 5
+
+MÍNIMO 40%
+
+PERMITIDO
+
+MÁXIMO 40%
+
+QUADRO 4 - TAXA DE PERMEABILIDADE MÍNIMA
+
+Perímetro de Qualificação Ambiental
+
+TAXA DE PERMEABILIDADE (a) (b) (c) (d)
+
+Lote ≤ 500 m²
+
+Lote > 500 m²
+
+PA 1
+
+0,15
+
+0,25
+
+PA 2
+
+0,15
+
+0,25
+
+PA 3
+
+0,15
+
+0,25
+
+PA 4
+
+0,15
+
+0,25
+
+PA 5
+
+0,15
+
+0,25
+
+PA 6
+
+0,15
+
+0,2
+
+PA 7
+
+0,15
+
+0,2
+
+PA 8
+
+0,15
+
+0,2
+
+PA 9
+
+0,1
+
+0,15
+
+PA 10
+
+0,2
+
+0,25
+
+PA 11
+
+0,2
+
+0,3
+
+PA 12
+
+0,2
+
+0,3
+
+PA 13 (e)
+
+NA
+
+NA
+
+Notas:
+NA = Não se Aplica;
+(a) Nos lotes inseridos em ZCOR, deverá ser aplicada a taxa de permeabilidade mínima: 0,30, independente do tamanho do lote;
+(b) Quando a somatória da taxa de permeabilidade do Quadro 4 com a taxa de ocupação do Quadro 2 for superior a 1 (um inteiro), a taxa de permeabilidade deverá ser respeitada e a taxa de ocupação reduzida proporcionalmente;
+(c) Nas Subprefeituras da Sé e da Mooca, mediante parecer da CAEHIS, a taxa de permeabilidade poderá ser reduzida para 0,05 desde que seja implantado reservatório de captação de águas pluviais, nos termos da legislação municipal;
+(d) Na execução de obras em lote ou gleba sujeitos a recalques e problemas geotécnicos, o empreendimento deverá garantir taxa de permeabilidade mínima de 20% (vinte por cento) da área do lote, sem prejuízo do estabelecido no Quadro 3A da LPUOS, não podendo ser aplicada a redução citada no § 2º do artigo 81 da mesma lei;
+(e) O PA 13 corresponde às Macroáreas de Contenção Urbana e Uso Sustentável e de Preservação dos Ecossistemas Naturais, nas quais não se aplicam as exigências da quota ambiental.
+
+QUADRO 5 - FATOR DE INTERESSE SOCIAL (Fs) EM EHIS, EHMP e EZEIS
+
+Usos
+
+Valores de
+Fs (1)
+
+Uso Habitacional (2)
+
+Habitação de Interesse Social - HIS
+
+0,0
+
+Habitação do Mercado Popular - HMP até 50m²
+
+0,4
+
+Habitação do Mercado Popular - HMP superior a 50m² até 70m²
+
+0,6
+
+Habitação com área menor ou igual a 30m²
+
+1,0
+
+Habitação com área maior que 30m² e menor ou igual a 70m²
+
+0,8
+
+Habitação com área maior que 70m²
+
+1,0
+
+Uso Institucional
+
+Hospitais Públicos
+
+0,0
+
+Escolas Públicas
+
+0,0
+
+Demais Unidades Públicas de Saúde e Creches
+
+0,0
+
+Unidades Administrativas Públicas
+
+0,0
+
+Entidades Privadas de Serviço Social e de Formação Profissional Vinculadas ao Sistema Sindical
+
+0,0
+
+Instituições de Cultura, Esporte e Lazer
+
+0,0
+
+Entidades
+Mantenedoras Sem
+Fins Lucrativos
+
+Templos Religiosos
+
+0,0
+
+Hospitais e Clínicas
+
+0,3
+
+Universidades
+
+0,3
+
+Escolas e Creches
+
+0,3
+
+Equipamentos Culturais e Afins
+
+0,3
+
+Outras Entidades
+Mantenedoras
+
+Hospitais
+
+0,7
+
+Universidades
+
+0,7
+
+Escolas
+
+0,7
+
+Equipamentos Culturais e Afins
+
+0,7
+
+Outras Atividades
+
+1,0
+
+NOTAS:
+(1) Fator de Interesse Social (Fs) para efeito de cálculo do valor da contrapartida financeira correspondente à outorga onerosa do potencial construtivo adicional;
+(2) Para adoção do Fator de Interesse Social do uso habitacional, deve ser considerada a área construída computável da unidade, definida no Quadro 1 do PDE.
+
+QUADRO 6 - PERCENTUAIS DE DESTINAÇÃO DE ÁREAS PÚBLICAS
+
+ÁREA DO LOTE OU GLEBA (m²)
+
+PERCENTUAL MÍNIMO DE ÁREA VERDE E DE ÁREA INSTITUCIONAL (%)
+
+PERCENTUAL MÁXIMO DE ÁREA PASSÍVEL DE SER DESTINADA (%) (a)
+
+Maior que 20.000m² (vinte mil metros quadrados) e menor ou igual a 40.000m² (quarenta mil metros quadrados) e com menos de 1000 (mil) unidades habitacionais (b)
+
+15
+
+15
+
+Mais que 1.000 (mil) unidades habitacionais e área maior que 20.000m² (vinte mil metros quadrados) e menor ou igual a 40.000m² (quarenta mil metros quadrados)
+
+15
+
+17
+
+Maior que 40.000m² (quarenta mil metros quadrados) e menor ou igual a 100.000m² (cem mil metros quadrados)
+
+15
+
+20
+
+Maior que 100.000m² (cem mil metros quadrados) e menor ou igual a 200.000m² (duzentos mil metros quadrados)
+
+15
+
+30 (c)
+
+Maior que 200.000m² (duzentos mil metros quadrados)
+
+15
+
+40 (c)
+
+Notas:
+(a) Majoração a critério da Comissão de Análise de Projetos de Parcelamento do Solo - CAPPS;
+(b) No caso do empreendimento apresentar mais de 1.000 (mil) unidades habitacionais em terreno com área de até 20.000m² (vinte mil metros quadrados) não se aplica a majoração;
+(c) Incluindo o sistema viário do loteamento.
+
+QUADRO 7 - SISTEMA VIÁRIO
+
+CARACTERÍSTICAS
+
+VIAS DE CIRCULAÇÃO
+
+PRINCIPAL
+(COLETORA)
+(a)
+
+VC2
+(LOCAL 2)
+(b)
+
+VC1
+(LOCAL 1)
+(b)
+
+MISTA
+
+CICLOVIA
+
+PEDESTRE
+(c)
+
+Largura mínima
+
+23m
+
+12m
+
+8m
+
+6m
+
+3m (d)
+
+4m
+
+Leito carroçável mínimo
+
+13m
+
+7m
+
+5,8m
+
+–
+
+–
+
+–
+
+Passeio lateral mínimo de cada lado da via (e)
+
+3,5m
+
+2,5m
+
+1,2m
+
+–
+
+–
+
+–
+
+Canteiro central mínimo
+
+–
+
+–
+
+–
+
+–
+
+–
+
+–
+
+Ciclofaixa
+
+3m (f)
+
+–
+
+–
+
+–
+
+–
+
+–
+
+Declividade longitudinal
+
+máxima
+
+10%
+
+15%
+
+15% (g)
+
+15% (g)
+
+10%
+
+–
+
+mínima
+
+0,5%
+
+0,5%
+
+0,5%
+
+0,5%
+
+0,5%
+
+0,5%
+
+Notas:
+(a) A via de circulação principal somente é exigida para terrenos com área superior a 100.000m² (cem mil metros quadrados), e não se aplica ao LHIS, independentemente da área do terreno;
+(b) Será admitida via sem saída, desde que no leito carroçável do dispositivo de retorno em sua extremidade, possa ser inscrito uma circunferência com raio igual ou superior à largura da via;
+(c) Admite-se via de pedestre em escadaria quando decorrente da topografia;
+(d) Bidirecional;
+(e) De ambos os lados observada a largura mínima de 1,20m (um metro e vinte centímetros) em um dos lados;
+(f) Bidirecional ou em duas faixas unidirecionais sem separador físico;
+(g) São admitidas, em situação especial, declividade de até 18% (dezoito por cento) nas Vias de Circulação de Veículos VCV 1 e Mistas, em trechos isolados, cuja extensão não ultrapasse 50m (cinquenta metros).
+
+Este texto não substitui o original publicado no Diário Oficial da Cidade de São Paulo.

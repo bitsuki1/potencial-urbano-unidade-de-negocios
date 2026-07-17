@@ -1,0 +1,46 @@
+{
+  "chunk_id": "decreto-saopaulo-60939-2021::006-art-5o",
+  "lei_id": "decreto-saopaulo-60939-2021",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 5º",
+  "numero": "5",
+  "header_raw": "Art. 5º Os acordos e as transações de que trata este decreto somente poderão consistir no pagamento de débitos inscritos na dívida ativa municipal limitados até o valor do principal de R$ 510.000,00 (quinhentos e dez mil reais), não se aplicando aos acordos firmados em Programas de Parcelamento Incentivado – PPI anteriores à 18 de março de 2020, regidos por legislação própria.",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Art. 5º"
+  ],
+  "texto": "Art. 5º Os acordos e as transações de que trata este decreto somente poderão consistir no pagamento de débitos inscritos na dívida ativa municipal limitados até o valor do principal de R$ 510.000,00 (quinhentos e dez mil reais), não se aplicando aos acordos firmados em Programas de Parcelamento Incentivado – PPI anteriores à 18 de março de 2020, regidos por legislação própria.\n\nParágrafo único. O limite estabelecido neste artigo não se aplica para as transações realizadas com fundamento nos artigos 21 a 24 da Lei nº 17.719, de 26 de novembro de 2021.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 60.939/2021 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Art. 5º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-60939-de-23-de-dezembro-de-2021",
+    "vigencia": {
+      "inicio": "2021-12-23",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2021-12-23 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "itbi"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Política Municipal de Desjudicialização instituída pela Lei nº 17.324, de 18 de março de 2020, bem como regulamenta a transação tributária de que trata os artigos 21 a 24 da Lei nº 17.719, de 26 de novembro de 2021."
+}

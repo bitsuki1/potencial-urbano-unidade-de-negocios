@@ -1,0 +1,54 @@
+{
+  "chunk_id": "decreto-saopaulo-63728-2024::040-art-39",
+  "lei_id": "decreto-saopaulo-63728-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 39",
+  "numero": "39",
+  "header_raw": "Art. 39. No caso de Plano Integrado, admite-se reduzir o percentual exigido para área institucional, desde que o interessado se proponha a construir o equipamento social, a critério da CAPPS, ouvido o órgão responsável pela utilização da área.",
+  "caminho_hierarquico": [
+    "CAPÍTULO IV",
+    "SEÇÃO III",
+    "Art. 39"
+  ],
+  "texto": "Art. 39. No caso de Plano Integrado, admite-se reduzir o percentual exigido para área institucional, desde que o interessado se proponha a construir o equipamento social, a critério da CAPPS, ouvido o órgão responsável pela utilização da área.\n\n§ 1º No caso de construção de equipamento público em lote que será destinado à área institucional, devem ser observados os seguintes critérios:\n\nI - o lote deve ter área mínima igual àquela necessária para comportar a área construída do equipamento, atendidos o coeficiente de aproveitamento básico, taxa de ocupação, recuos, taxa de permeabilidade e demais parâmetros estabelecidos no Quadro 2 anexo a este decreto;\n\nII - 3 (três) vezes a área do lote previsto no inciso I deste parágrafo pode ser descontada do total de área institucional exigida para destinação.\n\n§ 2º A área construída do equipamento público será considerada não computável, bem como não será levada em conta nos seguintes casos:\n\nI - no cálculo da porcentagem de uso não residencial permitida nos EHIS, EHMP, EZEIS e Empreendimentos de Uso Misto, nos termos deste decreto;\n\nII - no limite de 59% (cinquenta e nove por cento) de áreas não computáveis estabelecidas na LPUOS.\n\n§ 3º Nestes casos, a emissão do Certificado de Conclusão das edificações do empreendimento, ainda que parcial, fica condicionada à expedição do Certificado de Conclusão para a área institucional edificada total.\n\n§ 4º A área construída do equipamento passa ao domínio da Municipalidade por ocasião da averbação do Certificado de Conclusão correspondente no Cartório de Registro de Imóveis.\n\n§ 5º A destinação de área institucional no mesmo lote de unidades habitacionais ou mesmo em áreas dentro do edifício habitacional dependerá da apresentação de projeto específico a ser apresentado ao órgão público municipal responsável pela utilização da área, bem como da assinatura de Termo de Compromisso entre a parte interessada e o referido órgão.\n\nSEÇÃO IV\n\nDO SISTEMA VIÁRIO DO LOTEAMENTO",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 63.728/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO IV › SEÇÃO III › Art. 39",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-63728-de-10-de-setembro-de-2024",
+    "vigencia": {
+      "inicio": "2024-09-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2024-09-10. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "plano_intervencao_urbana",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Estabelece disciplina específica de parcelamento, uso e ocupação do solo, bem como normas edilícias para Habitação de Interesse Social - HIS, Habitação de Mercado Popular - HMP, Empreendimento de Habitação de Interesse Social - EHIS, Empreendimento de Habitação de Mercado Popular - EHMP e Empreendimento em Zona Especial de Interesse Social - EZEIS, nos termos da Lei nº 16.050, de 31 de julho de 2014 - PDE, alterada e revisada pela Lei nº 17.975, de 08 de julho de 2023 e pela Lei nº 18.157, de 17 de julho de 2024, da Lei nº 16.402, de 22 de março de 2016 - LPUOS, alterada e revisada pela Lei nº 18.081, de 19 de janeiro de 2024 e pela Lei 18.177, de 25 de julho de 2024, bem como da Lei nº 16.642, de 09 de maio de 2017 - COE."
+}

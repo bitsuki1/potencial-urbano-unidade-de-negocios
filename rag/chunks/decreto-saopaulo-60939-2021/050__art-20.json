@@ -1,0 +1,46 @@
+{
+  "chunk_id": "decreto-saopaulo-60939-2021::050-art-20",
+  "lei_id": "decreto-saopaulo-60939-2021",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 20",
+  "numero": "20",
+  "header_raw": "Art. 20. A Procuradoria Geral do Município, no prazo de até 90 (noventa) dias da edição deste Decreto, deverá desistir das execuções fiscais cujos valores consolidados sejam iguais ou inferiores a R$ 15.000,00 (quinze mil reais), nos termos da Lei nº 14.800, de 25 de junho de 2008.",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Art. 20"
+  ],
+  "texto": "Art. 20. A Procuradoria Geral do Município, no prazo de até 90 (noventa) dias da edição deste Decreto, deverá desistir das execuções fiscais cujos valores consolidados sejam iguais ou inferiores a R$ 15.000,00 (quinze mil reais), nos termos da Lei nº 14.800, de 25 de junho de 2008.\n\nParágrafo único. Excluem-se da disposição do “caput” deste artigo:\n\nI - os débitos objeto de execuções fiscais embargadas, salvo se o executado manifestar em Juízo sua concordância com a extinção do feito sem quaisquer ônus para a Municipalidade de São Paulo;\n\nII - os débitos objeto de decisões judiciais já transitadas em julgado;\n\nIII – os débitos excluídos da desistência por decisão fundamentada do Procurador Geral do Município.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 60.939/2021 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO V › Art. 20",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-60939-de-23-de-dezembro-de-2021",
+    "vigencia": {
+      "inicio": "2021-12-23",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2021-12-23 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "itbi"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Política Municipal de Desjudicialização instituída pela Lei nº 17.324, de 18 de março de 2020, bem como regulamenta a transação tributária de que trata os artigos 21 a 24 da Lei nº 17.719, de 26 de novembro de 2021."
+}

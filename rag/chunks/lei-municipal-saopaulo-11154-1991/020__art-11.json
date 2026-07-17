@@ -1,0 +1,48 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-11154-1991::020-art-11",
+  "lei_id": "lei-municipal-saopaulo-11154-1991",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 11",
+  "numero": "11",
+  "header_raw": "Art. 11 – O imposto será pago mediante documento próprio de arrecadação, na forma regulamentar.",
+  "caminho_hierarquico": [
+    "CAPÍTULO IV",
+    "Art. 11"
+  ],
+  "texto": "Art. 11 – O imposto será pago mediante documento próprio de arrecadação, na forma regulamentar.\n\nParágrafo único – A inexatidão ou omissão de elementos no documento de arrecadação sujeitará o contribuinte e os notários, oficiais de Registro de Imóveis e seus prepostos, nos atos em que intervierem, à multa de 1 (uma UFM, vigente à data da sua verificação).\n\nParágrafo único - Os notários, oficiais de Registro de Imóveis, ou seus prepostos, ficam obrigados a verificar a exatidão e a suprir as eventuais omissões dos elementos de identificação do contribuinte e do imóvel transacionado no documento de arrecadação, nos atos em que intervierem.(Redação dada pela Lei n° 13.402/2002)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "2002",
+    "norma_redacao": "Lei n° 13.402/2002"
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 11.154/1991 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO IV › Art. 11",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-11154-de-30-de-dezembro-de-1991",
+    "vigencia": {
+      "inicio": "1991-12-30",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 1991-12-30 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "itbi",
+    "planta_generica_valores",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o Imposto sobre Transmissão “inter vivos”, a qualquer título por ato oneroso, de bens imóveis, por natureza ou acessão física, e de direitos reais sobre imóveis, exceto os de garantia, bem como cessão de direitos à sua aquisição, e dá outras providências."
+}

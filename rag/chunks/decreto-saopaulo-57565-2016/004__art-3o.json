@@ -1,0 +1,46 @@
+{
+  "chunk_id": "decreto-saopaulo-57565-2016::004-art-3o",
+  "lei_id": "decreto-saopaulo-57565-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 3º",
+  "numero": "3",
+  "header_raw": "Art. 3º Nos Alvarás de Aprovação, de Aprovação e Execução de Edificação Nova ou de Reforma e nos Certificados de Conclusão que tenham sido objeto da aplicação da Quota Ambiental deverão constar as seguintes informações:",
+  "caminho_hierarquico": [
+    "CAPÍTULO I LICENCIAMENTO DE PROJETOS E REFORMAS",
+    "Seção I Procedimentos de licenciamento",
+    "Art. 3º"
+  ],
+  "texto": "Art. 3º Nos Alvarás de Aprovação, de Aprovação e Execução de Edificação Nova ou de Reforma e nos Certificados de Conclusão que tenham sido objeto da aplicação da Quota Ambiental deverão constar as seguintes informações:\n\nI - o perímetro de Qualificação Ambiental incidente no lote;\n\nII - a pontuação mínima e a taxa de permeabilidade mínima exigida;\n\nIII - a pontuação e a taxa de permeabilidade atingida;\n\nIV - se houve redução da taxa de permeabilidade, nos termos dos §§ 2º e 3º do artigo 81 da Lei nº 16.402, de 2016;\n\nV - se houve incidência do desconto previsto no parágrafo único do artigo 86 da Lei nº 16.402, de 2016;\n\nVI - se houve incidência do Incentivo de Certificação na forma de desconto na contrapartida financeira de outorga onerosa do direito de construir previsto no artigo 83 da Lei nº 16.402, de 2016, e respectivo atendimento da condicionante estabelecida no § 8º do referido artigo, sendo identificado o valor concedido de desconto;\n\nVII - se houve incidência do Incentivo da Quota Ambiental na forma de desconto na contrapartida financeira de outorga onerosa do direito de construir ou em área não computável incentivada nos termos do artigo 82 da Lei nº 16.402, de 2016, sendo identificado o valor concedido de desconto ou a área não computável incentivada;\n\nVIII - se houve incidência do incentivo previsto no\n\n§ 4º do artigo 82 da Lei nº 16.402, de 2016;\n\nIX - a obrigatoriedade de apresentação de relatório à Secretaria Municipal do Verde e do Meio Ambiente - SVMA, nos termos do artigo 84 da Lei nº 16.402, de 2016.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.565/2016 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO I LICENCIAMENTO DE PROJETOS E REFORMAS › Seção I Procedimentos de licenciamento › Art. 3º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57565-de-27-de-dezembro-de-2016",
+    "vigencia": {
+      "inicio": "2016-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2016-12-27. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "quota_ambiental"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta procedimentos para a aplicação da Quota Ambiental, nos termos da Lei nº 16.402, de 22 de março de 2016."
+}

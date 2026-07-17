@@ -1,0 +1,46 @@
+{
+  "chunk_id": "decreto-saopaulo-60939-2021::040-art-14-b",
+  "lei_id": "decreto-saopaulo-60939-2021",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 14-B",
+  "numero": "14-B",
+  "header_raw": "Art. 14-B A Câmara de Prevenção e Resolução Administrativa de Conflitos, para atingir seus objetivos, poderá utilizar mecanismos de autocomposição como a negociação, a conciliação e a mediação.(Incluído pelo Decreto nº 62.936/2023)",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 14-B"
+  ],
+  "texto": "Art. 14-B A Câmara de Prevenção e Resolução Administrativa de Conflitos, para atingir seus objetivos, poderá utilizar mecanismos de autocomposição como a negociação, a conciliação e a mediação.(Incluído pelo Decreto nº 62.936/2023)\n\n§ 1º Ninguém será obrigado a permanecer em procedimento de autocomposição.(Incluído pelo Decreto nº 62.936/2023)\n\n§ 2º As sessões poderão ser presenciais ou virtuais, em meio eletrônico, ouvidas as partes.(Incluído pelo Decreto nº 62.936/2023)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 60.939/2021 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Art. 14-B",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-60939-de-23-de-dezembro-de-2021",
+    "vigencia": {
+      "inicio": "2021-12-23",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2021-12-23 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "itbi"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Política Municipal de Desjudicialização instituída pela Lei nº 17.324, de 18 de março de 2020, bem como regulamenta a transação tributária de que trata os artigos 21 a 24 da Lei nº 17.719, de 26 de novembro de 2021."
+}

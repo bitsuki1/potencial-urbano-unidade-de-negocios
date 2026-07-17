@@ -1,0 +1,46 @@
+{
+  "chunk_id": "decreto-saopaulo-58955-2019::012-art-10",
+  "lei_id": "decreto-saopaulo-58955-2019",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 10",
+  "numero": "10",
+  "header_raw": "Art. 10. As reuniões do GRAPROEM serão realizadas de acordo com a demanda de processos e dos prazos estabelecidos no procedimento para análises conjuntas e deliberação, responsabilizando-se os membros do Grupo pela obtenção, nos prazos determinados, dos pareceres técnicos conclusivos e das manifestações concernentes aos projetos analisados.",
+  "caminho_hierarquico": [
+    "Art. 10"
+  ],
+  "texto": "Art. 10. As reuniões do GRAPROEM serão realizadas de acordo com a demanda de processos e dos prazos estabelecidos no procedimento para análises conjuntas e deliberação, responsabilizando-se os membros do Grupo pela obtenção, nos prazos determinados, dos pareceres técnicos conclusivos e das manifestações concernentes aos projetos analisados.\n\n§ 1º Além dos membros do GRAPROEM, serão convidados a participar de suas reuniões os Coordenadores, Diretores de Departamento e Técnicos responsáveis pela análise dos projetos nas Secretarias Municipais mencionadas no artigo 3º deste decreto, conforme as suas competências.\n\n§ 2º Poderá ser permitida a participação dos requerentes dos projetos em análise nas reuniões, a fim de prestar esclarecimentos, vedada a sua presença na tomada da decisão.\n\n§ 3º As datas das reuniões mencionadas no “caput” deste artigo poderão ser alteradas quando houver suspensão de expediente.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 58.955/2019 — São Paulo/SP",
+    "dispositivo": "Art. 10",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-58955-de-20-de-setembro-de-2019",
+    "vigencia": {
+      "inicio": "2019-09-20",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2019-09-20. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o procedimento APROVA RÁPIDO; revoga parcialmente o Decreto nº 58.028, de 11 de dezembro de 2017."
+}

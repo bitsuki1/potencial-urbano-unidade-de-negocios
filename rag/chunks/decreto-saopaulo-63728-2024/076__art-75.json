@@ -1,0 +1,53 @@
+{
+  "chunk_id": "decreto-saopaulo-63728-2024::076-art-75",
+  "lei_id": "decreto-saopaulo-63728-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 75",
+  "numero": "75",
+  "header_raw": "Art. 75. No caso de empreendimento produzido pela Administração Pública Direta, por empresa com controle acionário do Poder Público ou por meio de Parceria Público-Privada (PPP), fica dispensada a apresentação dos projetos de:",
+  "caminho_hierarquico": [
+    "CAPÍTULO VI",
+    "Art. 75"
+  ],
+  "texto": "Art. 75. No caso de empreendimento produzido pela Administração Pública Direta, por empresa com controle acionário do Poder Público ou por meio de Parceria Público-Privada (PPP), fica dispensada a apresentação dos projetos de:\n\nI - arborização das áreas verdes, no caso de desmembramento de gleba;\n\nII - terraplenagem, drenagem de águas pluviais, pavimentação, guias e sarjetas, rede de abastecimento de água potável, rede de coleta de esgotos e de arborização das vias de circulação de veículos e áreas verdes, no caso de loteamento.\n\n§ 1º No Loteamento de Interesse Social para produção de Lotes Habitacionais de Interesse Social - LHIS deve ser apresentado o projeto de terraplenagem.\n\n§ 2º No caso da dispensa de que trata o “caput” deste artigo, o agente promotor deve declarar que não haverá terraplenagem em Áreas de Preservação Permanente - APP e demais áreas de preservação da vegetação existente, conforme definido na Certidão de Diretrizes Urbanísticas.\n\n§ 3º Na hipótese prevista no “caput” deste artigo, o agente promotor é responsável pela elaboração dos projetos e pela implantação dos empreendimentos de acordo com as normas técnicas vigentes e recomendações das concessionárias, aplicando-se as normas estabelecidas pela Secretaria Municipal de Infraestrutura Urbana e Obras, no que couber.\n\n§ 4º No caso de licenciamento de empreendimentos em imóvel de propriedade ou produzidos pelos demais agentes e não enquadrados na hipótese do \"caput\" deste artigo, fica dispensada a apresentação dos projetos de drenagem de águas pluviais, pavimentação, guias e sarjetas, rede de abastecimento de água potável e rede de coleta de esgotos, mediante declaração assinada pelo proprietário e por profissional habilitado se responsabilizando pela elaboração dos projetos citados e pela execução das respectivas obras em conformidade com as normas técnicas vigentes e recomendações das concessionárias.\n\n§ 5º O disposto no “caput”, incisos I e II, deste artigo não afasta a obrigatoriedade de apresentação dos projetos ali referidos por ocasião da emissão do alvará de parcelamento do solo.\n\nSeção Única\n\nDa Titulação",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 63.728/2024 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO VI › Art. 75",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-63728-de-10-de-setembro-de-2024",
+    "vigencia": {
+      "inicio": "2024-09-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2024-09-10. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "plano_intervencao_urbana",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Estabelece disciplina específica de parcelamento, uso e ocupação do solo, bem como normas edilícias para Habitação de Interesse Social - HIS, Habitação de Mercado Popular - HMP, Empreendimento de Habitação de Interesse Social - EHIS, Empreendimento de Habitação de Mercado Popular - EHMP e Empreendimento em Zona Especial de Interesse Social - EZEIS, nos termos da Lei nº 16.050, de 31 de julho de 2014 - PDE, alterada e revisada pela Lei nº 17.975, de 08 de julho de 2023 e pela Lei nº 18.157, de 17 de julho de 2024, da Lei nº 16.402, de 22 de março de 2016 - LPUOS, alterada e revisada pela Lei nº 18.081, de 19 de janeiro de 2024 e pela Lei 18.177, de 25 de julho de 2024, bem como da Lei nº 16.642, de 09 de maio de 2017 - COE."
+}

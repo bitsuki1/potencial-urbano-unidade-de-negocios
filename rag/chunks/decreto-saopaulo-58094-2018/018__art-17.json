@@ -1,0 +1,46 @@
+{
+  "chunk_id": "decreto-saopaulo-58094-2018::018-art-17",
+  "lei_id": "decreto-saopaulo-58094-2018",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 17",
+  "numero": "17",
+  "header_raw": "Art. 17. Compete às Prefeituras Regionais a fiscalização dos helipontos e heliportos.",
+  "caminho_hierarquico": [
+    "Art. 17"
+  ],
+  "texto": "Art. 17. Compete às Prefeituras Regionais a fiscalização dos helipontos e heliportos.\n\nParágrafo único. Caso indeferido o pedido do Auto de Licença de Funcionamento ou verificada a utilização de equipamento não licenciado, ou ainda, constatado o desvirtuamento das condições licenciadas, a Prefeitura Regional deve solicitar ao interessado a sua pintura nas cores vermelha e amarela, de forma a sinalizar o impedimento de sua utilização, nos termos do disposto no artigo 12 da Lei nº 15.723, de 2013, bem como informar à Agência Nacional de Aviação Civil – ANAC para a adoção das providências cabíveis.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 58.094/2018 — São Paulo/SP",
+    "dispositivo": "Art. 17",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-58094-de-21-de-fevereiro-de-2018",
+    "vigencia": {
+      "inicio": "2018-02-21",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2018-02-21 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 15.723, de 24 de abril de 2013, no tocante à instalação e ao funcionamento de heliportos e helipontos no Município de São Paulo."
+}

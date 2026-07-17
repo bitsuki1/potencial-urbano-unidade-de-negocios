@@ -1,0 +1,348 @@
+# DECRETO Nº 58.955 DE 2019
+
+**URL oficial:** https://legislacao.prefeitura.sp.gov.br/decreto-58955-de-20-de-setembro-de-2019
+**Data de captura:** portal oficial legislacao.prefeitura.sp.gov.br (container texto_compilado)
+**Proveniência:** VERBATIM INTEGRAL — capturado de https://legislacao.prefeitura.sp.gov.br/decreto-58955-de-20-de-setembro-de-2019 (portal oficial legislacao.prefeitura.sp.gov.br (container texto_compilado)); promovido de `_entrada/misto/decreto-saopaulo-58955-2019.txt`. Saneado só lixo de captura; boilerplate oficial do portal preservado (anotações de alteração do texto compilado incluídas).
+**confianca_extracao:** alta (articulado integral verbatim)
+
+## Ementa
+
+Dispõe sobre o procedimento APROVA RÁPIDO; revoga parcialmente o Decreto nº 58.028, de 11 de dezembro de 2017.
+
+## Texto integral (verbatim)
+
+DECRETO Nº 58.955 DE 20 DE SETEMBRO DE 2019
+
+DECRETO Nº 58.955 de 20 de Setembro de 2019
+
+Alterações
+
+CORRELAÇÕES
+
+Temas Relacionados
+
+Dispõe sobre o procedimento APROVA RÁPIDO; revoga parcialmente o Decreto nº 58.028, de 11 de dezembro de 2017.
+
+DECRETO Nº 58.955, DE 20 DE SETEMBRO DE 2019
+
+Dispõe sobre o procedimento APROVA RÁPIDO; revoga parcialmente o Decreto nº 58.028, de 11 de dezembro de 2017.
+
+BRUNO COVAS, Prefeito do Município de São Paulo, no uso das atribuições que lhe são conferidas por lei,
+
+D E C R E T A:
+
+Art. 1º Fica disciplinado por este decreto o procedimento APROVA RÁPIDO, instituído pelo Decreto nº 58.028, de 11 de dezembro de 2017, na Secretaria Municipal de Licenciamento – SEL, que visa conferir agilidade à análise de pedidos de Alvarás de Aprovação e Alvarás de Aprovação e Execução de edificações novas de competência daquela Secretaria protocolados a partir de 12 de março de 2018.
+
+Art. 1º Fica disciplinado por este decreto o procedimento APROVA RÁPIDO, instituído pelo Decreto nº 58.028, de 11 de dezembro de 2017, na Secretaria Municipal de Licenciamento - SEL, que visa conferir agilidade à análise de pedidos de Alvarás de Aprovação, Alvarás de Execução, Alvarás de Aprovação e Execução e de Projetos Modificativos de competência daquela Secretaria.(Redação dada pelo Decreto nº 59.455/2020)
+
+§ 1º No ato do protocolo do pedido de licenciamento da edificação, o interessado poderá solicitar a aplicação do procedimento APROVA RÁPIDO.
+
+§ 2º Será analisada a admissibilidade do pedido no procedimento APROVA RÁPIDO e, caso constatado o descumprimento de qualquer requisito previsto neste decreto, o processo será remetido à via de aprovação ordinária.
+
+§ 3º Para os pedidos cujos interessados não optarem pela aplicação do procedimento APROVA RÁPIDO, fica mantida a via de aprovação ordinária.
+
+Art. 2º O Grupo Intersecretarial de Análise de Projetos Específicos no Município – GRAPROEM, criado pelo Decreto nº 58.028, de 2017, promoverá, por meio do procedimento APROVA RÁPIDO, a análise dos pedidos cuja decisão, de acordo com a legislação aplicável, envolva a análise e anuência de outros órgãos municipais, além de SEL.
+
+Parágrafo único. O GRAPROEM contará com o apoio administrativo e técnico da Assessoria de Comissões Técnicas de Licenciamento – ASSEC, de SEL.
+
+Art. 3º O GRAPROEM será constituído por 1 (um) representante e respectivo suplente de cada um dos seguintes órgãos municipais:
+
+I - Secretaria Municipal de Licenciamento - SEL;
+
+II - Secretaria Municipal do Verde e do Meio Ambiente - SVMA;
+
+III - Secretaria Municipal de Mobilidade e Transportes - SMT;
+
+IV - Secretaria Municipal de Infraestrutura Urbana e Obras – SIURB;
+
+V - Secretaria Municipal de Cultura – SMC.
+
+§ 1º Os titulares dos órgãos relacionados no “caput” deste artigo indicarão os seus representantes para integrar o Grupo.
+
+§ 2º Os membros do GRAPROEM terão, no âmbito de suas competências, atribuição para proferir voto favorável ou desfavorável aos projetos submetidos à sua análise.
+
+§ 3º O Presidente do Grupo será indicado pelo titular de SEL e não terá direito de voto.
+
+§ 4º O Presidente do Grupo terá as seguintes atribuições:
+
+I - presidir as reuniões e resolver as questões de ordem;
+
+II - submeter ao plenário os assuntos constantes da pauta das reuniões;
+
+III - dar posse aos representantes dos órgãos que compõem o GRAPROEM;
+
+IV - consultar entidades de direito público e privado para a obtenção de informações necessárias às atividades e finalidades do GRAPROEM;
+
+V - reportar ao Comitê Gestor assuntos relevantes ou solicitados no GRAPROEM.
+
+§ 5º Os membros do Grupo e o seu Presidente serão designados por meio de portaria do Secretário Municipal de Licenciamento, com mandato de 02 (dois) anos, permitida uma recondução por igual período.
+
+§ 6º O Regimento Interno do GRAPROEM disporá acerca da estrutura, constituição, competência, organização e rotina das reuniões, inclusive as condições de participação dos interessados nos processos em deliberação.
+
+Art. 4º O Comitê Gestor do APROVA RÁPIDO, integrado pelos titulares dos órgãos municipais relacionados no “caput” do artigo 3º deste decreto, terá as seguintes atribuições:
+
+I - realizar reuniões periódicas de acompanhamento do GRAPROEM;
+
+II - garantir o alinhamento estratégico das ações;
+
+III - avaliar o andamento das ações no que se refere ao cumprimento dos prazos;
+
+IV - avaliar os resultados e, caso necessário, propor contramedidas;
+
+V - apoiar a interface entre Coordenadorias, Departamentos e Secretarias da Prefeitura, resolvendo conflitos;
+
+VI - atuar como mediador entre os principais envolvidos nas aprovações do projeto.
+
+§ 1º A coordenação das reuniões do Comitê Gestor caberá ao Secretário Municipal de Licenciamento, que, em suas ausências e impedimentos, designará seu substituto.
+
+§ 2º Nas reuniões periódicas de acompanhamento do Comitê Gestor, será facultada a participação de representantes dos seguintes órgãos e entidades:
+
+I - Conselho de Arquitetura e Urbanismo de São Paulo – CAU/SP;
+
+II - Conselho Regional de Engenharia e Agronomia do Estado de São Paulo – CREA/SP;
+
+III - Associação Brasileira das Incorporadoras – ABRAINC;
+
+IV - Associação Brasileira dos Escritórios de Arquitetura – ASBEA;
+
+V - Sindicato das Empresas de Compra, Venda, Locação e Administração de Imóveis Residenciais e Comerciais de São Paulo – SECOVI-SP;
+
+VI - Sindicato da Indústria da Construção Civil do Estado de São Paulo – SINDUSCON/SP.
+
+§ 3º Para o fim de que trata o § 2º deste artigo, outros órgãos e entidades poderão participar das reuniões de acompanhamento do Comitê Gestor, observado o seu prévio credenciamento na SEL.
+
+Art. 5º A Assessoria de Comissões Técnicas de Licenciamento – ASSEC da SEL será responsável pela análise da admissibilidade dos projetos com opção pela aplicação do procedimento APROVA RÁPIDO, bem como pelo controle dos procedimentos e prazos estabelecidos para o seu andamento.
+
+Art. 6º A implantação do procedimento APROVA RÁPIDO terá as seguintes fases:
+
+I - fase 1: pedidos de Alvará de Aprovação e Alvará de Aprovação e Execução de edificações novas, de competência da SEL, protocolados por meio físico e documentação em papel a partir de 12 de março de 2018, analisados e decididos nos termos do Decreto nº 58.028, de 2017;
+
+II - fase 2: pedidos de Alvará de Aprovação e Alvará de Aprovação e Execução de edificações novas, de competência da SEL, protocolados por meio do Sistema Eletrônico de Informações – SEI a partir de 14 de janeiro de 2019, somados aos seguintes pedidos:
+
+a) Alvará de Execução, quando vinculado a pedido de Alvará de Aprovação emitido pelo procedimento APROVA RÁPIDO;
+
+b) Projeto Modificativo, quando vinculado a Alvará de Execução emitido pelo procedimento APROVA RÁPIDO;
+
+c) Alvará de Autorização para Estande de Vendas quando vinculado a pedido de Alvará de Aprovação ou Alvará de Aprovação e Execução de Edificação Nova dentro do procedimento APROVA RÁPIDO;
+
+III - fase 3: demais pedidos de competência de SEL, gradativamente incorporados ao procedimento.
+
+III - fase 3: Alvará de Aprovação, Alvará de Aprovação e Execução e Alvará de Execução de Reforma, de competência da SEL, desde que a aprovação da área existente tenha ocorrido por meio de projeto simplificado, tanto nos termos da Lei nº 16.642, 9 de maio de 2017, quanto nos termos do Decreto nº 54.202, de 9 de agosto de 2013.(Redação dada pelo Decreto nº 59.455/2020)
+
+IV - fase 4: demais pedidos de competência da SEL, gradativamente incorporados ao procedimento.(Incluído pelo Decreto nº 59.455/2020)
+
+§ 1º Até que haja regramento específico para a fase 3, o procedimento APROVA RÁPIDO não será aplicado a pedidos envolvendo:
+
+§ 1º Até que haja regramento específico para a fase 4, o procedimento APROVA RÁPIDO não será aplicado a pedidos envolvendo:(Redação dada pelo Decreto nº 59.455/2020)
+
+I - reforma;
+
+I – reforma, exceto nos casos previstos no inciso III do “caput” deste artigo;(Redação dada pelo Decreto nº 59.455/2020)
+
+II - requalificação;
+
+III - regularização;
+
+IV - projeto modificativo, exceto nos casos previstos na alínea “b” inciso II deste artigo;
+
+IV - projeto modificativo, exceto nos casos previstos na alínea “b” do inciso II do “caput” deste artigo;(Redação dada pelo Decreto nº 59.455/2020)
+
+V - aprovação e execução, quando abranger parcelamento de outorga onerosa, doação de calçada, cota de solidariedade e retificação de título de propriedade.
+
+§ 2º Serão admitidos pedidos de Alvará de Aprovação e Execução de Edificação Nova que envolvam retificação de título de propriedade nos casos de EHIS, EHMP e EZEIS, conforme artigo 66 do Decreto nº 57.377, de 11 de outubro de 2016.
+
+§ 3º Não será aplicado o procedimento APROVA RÁPIDO para os empreendimentos enquadrados nas seguintes hipóteses:
+
+I - empreendimento que envolva parcelamento ou reparcelamento;
+
+II - Empreendimento Gerador de Impacto de Vizinhança - EGIV e sujeito à apresentação do Relatório de Impacto de Vizinhança – RIV;
+
+III - empreendimento sujeito à apresentação de Estudo de Viabilidade Ambiental - EVA, Estudo Ambiental Simplificado – EAS, Plano de Recuperação de Áreas Degradadas - PRAD, Estudo/Relatório de Impacto Ambiental - EIA/RIMA e/ou Memorial de Caracterização do Empreendimento - MCE;
+
+IV - Empreendimento Gerador de Impacto Ambiental - EGIA e sujeito à apresentação de Relatório de Impacto Ambiental – RIA;
+
+V - empreendimento em análise de investigação ambiental em área potencialmente contaminada, suspeita de contaminação, contaminada e em monitoramento para encerramento, exceto na hipótese prevista na alínea “b” do inciso II, do artigo 8º deste decreto;
+
+VI - atividade classificada na subcategoria de uso INFRA.
+
+§ 4º Poderão migrar para o procedimento APROVA RÁPIDO, por solicitação do interessado, desde que atendidas as exigências dos artigos 7º e 8º deste decreto, especialmente quanto à apresentação e assinatura do Termo de Responsabilidade pelo Cumprimento da Legislação Aplicável ao Projeto Arquitetônico - TAR, os pedidos enquadrados nas seguintes situações:
+
+I - Empreendimentos Habitacionais de Interesse Social – EHIS e Empreendimentos Habitacionais de Mercado Popular – EHMP, com aprovação conjunta dos projetos de parcelamento e edificação, na forma de Plano Integrado, após a manifestação favorável ao parcelamento da Divisão Técnica competente da Coordenadoria de Parcelamento do Solo e Habitação de Interesse Social – PARHIS, de SEL;
+
+II - pedidos de Alvará de Aprovação ou Alvará de Aprovação e Execução de edificação nova protocolados a partir de 10 de julho de 2017, data do início da vigência da Lei nº 16.642, de 2017 e ainda sem emissão de “comunique-se”.
+
+II - pedidos de Alvará de Aprovação ou Alvará de Aprovação e Execução protocolados a partir de 10 de julho de 2017, data do início da vigência da Lei nº 16.642, de 2017, e ainda sem emissão de “comunique-se”;(Redação dada pelo Decreto nº 59.455/2020)
+
+III - pedidos de Alvará de Execução protocolados a partir de 10 de julho de 2017, data do início da vigência da Lei nº 16.642, de 2017, e ainda sem emissão de “comunique-se”;(Incluído pelo Decreto nº 59.455/2020)
+
+IV - pedidos de Projeto Modificativo protocolados a partir de 10 de julho de 2017, data do início da vigência da Lei nº 16.642, de 2017, e ainda sem emissão de “comunique-se”.(Incluído pelo Decreto nº 59.455/2020)
+
+§ 5º No caso de que trata o § 4º deste artigo, fica dispensada a apresentação de Ficha Técnica, caso constem do processo as informações do Boletim de Dados Técnicos - BDT, que deverá ser disponibilizado para as demais Secretarias envolvidas na análise.
+
+§ 6º No momento da migração, o interessado deverá apresentar, em formato digital, os mesmos documentos que constituíram o processo físico, caso o projeto apresente interface com outras Secretarias.
+
+Art. 7º O protocolo do pedido de aprovação de projeto arquitetônico com aplicação do procedimento APROVA RÁPIDO dar-se-á por solicitação do proprietário ou possuidor do imóvel ou de seu representante legal, e sua análise fundamentar-se-á nos documentos apresentados e na responsabilidade assumida pelo responsável técnico pelo projeto perante a Prefeitura, mediante a assinatura do Termo de Responsabilidade pelo Cumprimento da Legislação Aplicada ao Projeto Arquitetônico - TAR.
+
+§ 1º O TAR é o documento por meio do qual o responsável técnico declara as características básicas do projeto, que implicam no conhecimento e pleno atendimento dos parâmetros e exigências do Plano Diretor Estratégico, da Legislação de Parcelamento, Uso e Ocupação do Solo, do Código de Obras e Edificações e demais legislações urbanísticas e normas técnicas vigentes na esfera municipal, estadual e federal.
+
+§ 2º O TAR deverá ser apresentado no ato do protocolo do pedido, juntamente com o requerimento relativo ao alvará, acompanhado de:
+
+I - peças gráficas na forma de projeto simplificado, conforme portaria de SEL e demais regramentos emitidos por aquela Pasta;
+
+II - Ficha Técnica do imóvel emitida há menos de 60 (sessenta) dias contados da data da autuação do processo;
+
+III - documento emitido pelo órgão competente da Aeronáutica relacionado à eventual restrição de altura da edificação;
+
+IV - demais documentos exigidos pelo Código de Obras e Edificações e pelos órgãos envolvidos;
+
+V - demais anuências eventualmente necessárias.
+
+§ 3º No caso de opção de solicitação de Alvará de Autorização de Estande de Vendas juntamente com o Alvará de Aprovação ou Alvará de Aprovação e Execução, o interessado deverá manifestar essa opção no ato de preenchimento do TAR e recolher as respectivas taxas no ato do protocolo.
+
+§ 4º A Ficha Técnica contendo os dados cadastrais do imóvel e os condicionantes urbanísticos, ambientais e edilícios, no procedimento APROVA RÁPIDO, equivale ao Boletim de Dados Técnicos - BDT e deverá ser emitida no prazo de 10 (dez) dias úteis, conforme disposto no artigo 42 do Decreto nº 57.776, de 7 de julho de 2017.
+
+§ 5º As informações constantes da Ficha Técnica são válidas desde que não haja alterações legais, de acordo com o que dispõe o § 1º do artigo 45 do Decreto nº 57.776, de 2017.
+
+§ 6º A inclusão do pedido no procedimento APROVA RÁPIDO somente poderá ser efetivada com a apresentação de toda a documentação de que trata o § 2º deste artigo, bem como das anuências listadas no inciso II e das consultas prévias ou respectivos documentos relacionados no inciso I, ambos do artigo 8º deste decreto, e desde que seja considerado admissível pela ASSEC.
+
+§ 7º Para a implementação das disposições deste decreto, SEL poderá, a qualquer tempo, mediante atos normativos:
+
+I - fixar orientações e exigir documentos adicionais aos constantes do § 2º deste artigo e do inciso II do artigo 8º deste decreto, dentre eles, os relacionados às exigências específicas dos órgãos que compõem o GRAPROEM;
+
+II - promover alterações no modelo do TAR, que se mostrem necessárias em decorrência das alterações da legislação urbanística e da evolução do procedimento APROVA RÁPIDO.
+
+Art. 8º Caberá ao responsável técnico pelo projeto a verificação da situação cadastral do imóvel por meio da Ficha Técnica e a iniciativa nas consultas prévias ao procedimento APROVA RÁPIDO, de acordo com as características do projeto e com as interferências no lote:
+
+I - preferencialmente, antes da apresentação do pedido à SEL, no que se refere:
+
+a) à incidência de melhoramentos viários e sanitários, que deverão ser demarcados no âmbito de SIURB;
+
+b) à existência de desapropriações e de áreas públicas, a ser averiguada em DESAP e CGPATRI, no âmbito da Procuradoria Geral do Município - PGM e da Secretaria Municipal de Licenciamento - SEL, respectivamente;
+
+c) à implantação do nível do pavimento térreo, no âmbito da Comissão de Edificações e Uso do Solo - CEUSO, nos casos que se enquadrem nas hipóteses previstas nos §§ 3º e 4º do artigo 61 da Lei nº 16.402, de 22 de março de 2016;
+
+d) à intervenção em áreas sujeitas a recalques e problemas geotécnicos, no âmbito da Comissão de Edificações e Uso do Solo – CEUSO, nos casos que se enquadrem na hipótese prevista no § 1º do artigo 13 do Decreto nº 57.521, de 9 de dezembro de 2016, que regulamentou o artigo 72 da Lei nº 16.402, de 2016;
+
+e) à existência de Área de Preservação Permanente - APP, mediante avaliação do órgão competente de SVMA;
+
+II - obrigatoriamente, antes da apresentação do pedido à SEL, sob pena de inadmissibilidade, no que se refere:
+
+a) à apresentação de Alvará de Licença da Companhia Ambiental do Estado de São Paulo - CETESB, quando se tratar de imóvel localizado nas áreas de mananciais;
+
+b) à apresentação de parecer técnico favorável ao Plano de Intervenção para Reutilização para o uso pretendido, ou Termo de Reabilitação de Área para Uso Declarado, ou parecer técnico sobre Avaliação Preliminar, ou Investigação Confirmatória emitidos pela CETESB, ou documento equivalente emitido pelo órgão competente de SVMA, quando o lote se enquadrar nos casos previstos no artigo 137 da Lei nº 16.402, de 2016;
+
+c) à restrição de altura imposta pela Aeronáutica, conforme regulamentação própria, mediante análise prévia dos órgãos federais competentes, apresentando, se for o caso, documento que demonstre a sua inexigibilidade;
+
+d) às restrições estabelecidas pelo CONDEPHAAT e/ou pelo IPHAN, devendo ser apresentado parecer favorável e respectivas plantas vistadas;
+
+e) à incidência de restrições relacionadas à infraestrutura de transportes, energia elétrica, água, combustíveis, entre outras, no âmbito federal ou estadual, devendo ser apresentadas as respectivas anuências.
+
+§ 1º Nos casos referidos no inciso I do “caput” deste artigo, na hipótese de o pedido não ser instruído com as consultas prévias nele referidas, a fim de subsidiar a manifestação do órgão competente, deverá ser apresentada pelo interessado, no ato do protocolo, a documentação necessária à análise, conforme disciplinado na normatização vigente.
+
+§ 2º Na hipótese do § 1º deste artigo, quando da análise de admissibilidade do pedido, a SEL e a ASSEC deverão verificar a necessidade de realização das consultas prévias referidas no inciso I do “caput” deste artigo no âmbito do APROVA RÁPIDO, ficando o prazo para análise suspenso até que haja manifestação do respectivo órgão competente.
+
+§ 3º O disposto na alínea “a” do inciso II deste artigo não se aplica aos Empreendimentos Habitacionais de Interesse Social - EHIS e Empreendimentos em Zona Especial de Interesse Social - EZEIS produzidos pela Administração Pública Direta, por empresa com controle acionário do Poder Público ou por meio de Parceria Público-Privada (PPP).(Incluído pelo Decreto nº 63.728/2024)
+
+Art. 9º A ASSEC deverá realizar a análise de admissibilidade dos projetos com solicitação de aplicação do procedimento APROVA RÁPIDO, manifestando-se através de decisão interlocutória publicada no Diário Oficial da Cidade - DOC, no prazo de 15 (quinze) dias, a contar da data da geração do processo eletrônico.
+
+§ 1º Em caso de admissibilidade da aplicação do procedimento APROVA RÁPIDO em que não haja necessidade de análise e anuência de outros órgãos municipais:
+
+I - a ASSEC encaminhará o processo à Coordenadoria competente de SEL que, caso julgue necessário, expedirá, no prazo de 30 (trinta) dias, um único comunicado para que as falhas identificadas no projeto sejam sanadas no prazo improrrogável de 30 (trinta) dias;
+
+II - se atendido satisfatoriamente o comunicado, recolhidas eventuais contrapartidas financeiras de outorga onerosa e cumpridas as demais formalidades, o pedido será deferido e o respectivo alvará emitido, no prazo de 30 (trinta) dias para o Alvará de Aprovação e para o Alvará de Execução, e de 60 (sessenta) dias para o Alvará de Aprovação e Execução e Projeto Modificativo conforme previsto na alínea “b” inciso II do artigo 6º deste decreto.
+
+§ 2º Em caso de admissibilidade da aplicação do procedimento APROVA RÁPIDO em requerimento que envolva a análise e a anuência de outros órgãos municipais, a ASSEC:
+
+I - fixará a data para a reunião de discussão do projeto, conforme o disposto no artigo 11 deste decreto;
+
+II - encaminhará as plantas e documentos necessários às unidades competentes das Secretarias participantes do GRAPROEM.
+
+§ 3º Caso a solicitação do procedimento APROVA RÁPIDO seja inadmissível:
+
+I - o interessado terá 3 (três) dias úteis, a partir da data de publicação da decisão interlocutória, para apresentar pedido de reconsideração, não sendo admitida a juntada de documentação cuja ausência tenha motivado a decisão de inadmissibilidade;
+
+II - a ASSEC deverá realizar a análise do pedido de reconsideração da decisão de inadmissibilidade, manifestando-se através de nova decisão interlocutória publicada no DOC, no prazo de 15 (quinze) dias, a contar do respectivo pedido;
+
+III - considerado pertinente o pedido de reconsideração, o processo permanecerá no procedimento APROVA RÁPIDO;
+
+IV - não sendo dado provimento ao pedido de reconsideração, o processo será excluído do procedimento APROVA RÁPIDO e encaminhado à Coordenadoria de SEL competente para prosseguimento pela via ordinária de aprovação de projetos;
+
+V - a análise do requerimento eletrônico considerado inadmissível pelo procedimento APROVA RÁPIDO terá prosseguimento pela via ordinária no mesmo processo eletrônico.
+
+IV - não sendo dado provimento ao pedido de reconsideração, o processo será excluído do procedimento APROVA RÁPIDO e prosseguirá pela via ordinária de aprovação de projetos no mesmo processo eletrônico;(Redação dada pelo Decreto nº 59.455/2020)
+
+V – a análise do requerimento eletrônico prosseguirá:(Redação dada pelo Decreto nº 59.455/2020)
+
+a) na Coordenadoria competente de SEL, quando não envolver a análise de outras Secretarias municipais;(Incluído pelo Decreto nº 59.455/2020)
+
+b) quando o processo envolver a análise e a anuência de outras Secretarias municipais, a ASSEC encaminhará as plantas e documentos necessários às unidades competentes das Secretarias envolvidas, desde que conste no processo a documentação e que tenham sido pagas as taxas correspondentes, não se aplicando para esses casos os prazos estabelecidos no procedimento APROVA RÁPIDO.(Incluído pelo Decreto nº 59.455/2020)
+
+Art. 10. As reuniões do GRAPROEM serão realizadas de acordo com a demanda de processos e dos prazos estabelecidos no procedimento para análises conjuntas e deliberação, responsabilizando-se os membros do Grupo pela obtenção, nos prazos determinados, dos pareceres técnicos conclusivos e das manifestações concernentes aos projetos analisados.
+
+§ 1º Além dos membros do GRAPROEM, serão convidados a participar de suas reuniões os Coordenadores, Diretores de Departamento e Técnicos responsáveis pela análise dos projetos nas Secretarias Municipais mencionadas no artigo 3º deste decreto, conforme as suas competências.
+
+§ 2º Poderá ser permitida a participação dos requerentes dos projetos em análise nas reuniões, a fim de prestar esclarecimentos, vedada a sua presença na tomada da decisão.
+
+§ 3º As datas das reuniões mencionadas no “caput” deste artigo poderão ser alteradas quando houver suspensão de expediente.
+
+Art. 11. Respeitado o prazo de 60 (sessenta) dias, a ASSEC definirá a data da reunião para o exame do projeto, de forma integrada, em que será avaliada a viabilidade do empreendimento, de acordo com as restrições e diretrizes da legislação aplicável pelas Secretarias Municipais que compõem o GRAPROEM.
+
+§ 1º Eventuais exigências técnicas para complemento da análise do projeto deverão ser devidamente fundamentadas, com a indicação da legislação pertinente, e apresentadas, de uma só vez, na reunião a que se refere o “caput” deste artigo, não sendo admitidas novas exigências posteriores.
+
+§ 2º Caso haja exigências técnicas, será expedido “comunique-se” ao interessado, que, no prazo de 30 (trinta) dias, deverá cumpri-las ou manifestar-se a seu respeito, facultada à ASSEC a concessão de uma única prorrogação de prazo.
+
+§ 3º O desatendimento das exigências contidas no comunicado, quando motivado exclusivamente pelo interessado, implicará o indeferimento do pedido.
+
+§ 4º Após a apresentação de documentos para atendimento do “comunique-se”, a ASSEC convocará nova reunião, no prazo de 25 (vinte e cinco) dias para pedido de Alvará de Aprovação, e de 55 (cinquenta e cinco) dias para pedido de Alvará de Aprovação e Execução, na qual deverão ser apresentadas, de uma só vez, as manifestações conclusivas das Secretarias envolvidas, pelo deferimento ou indeferimento do pedido.
+
+§ 4º Após a apresentação de documentos para atendimento do "comunique-se", a ASSEC convocará nova reunião, no prazo de 25 (vinte e cinco) dias para pedido de Alvará de Aprovação, e de 55 (cinquenta e cinco) dias para pedido de Alvarás de Aprovação e Execução, Execução e de Projeto Modificativo, na qual deverão ser apresentadas, de uma só vez, as manifestações conclusivas das Secretarias envolvidas, pelo deferimento ou indeferimento do pedido.(Redação dada pelo Decreto nº 59.455/2020)
+
+§ 5º Será facultado ao GRAPROEM a solicitação de pequenos ajustes no projeto a fim de possibilitar o deferimento do pedido e a posterior emissão do respectivo alvará.
+
+§ 6º As decisões do GRAPROEM deverão mencionar as disposições legais pertinentes e ser publicadas no Diário Oficial da Cidade – DOC.
+
+Art. 12. No caso de parecer favorável unânime dos membros do GRAPROEM envolvidos na análise do projeto, recolhidas eventuais contrapartidas financeiras de outorga onerosa e cumpridas as demais formalidades, a Divisão Técnica da Coordenadoria competente expedirá o alvará solicitado, com fundamento no pronunciamento emitido pelo GRAPROEM.
+
+Art. 13. No caso de parecer desfavorável do GRAPROEM, a Divisão Técnica da Coordenadoria expedirá o despacho de indeferimento, com fundamento no pronunciamento emitido pelo GRAPROEM.
+
+Parágrafo único. Do despacho de indeferimento, o interessado poderá interpor recurso, no prazo de 30 (trinta) dias, prosseguindo a análise do pedido no âmbito do APROVA RÁPIDO, conforme disposto no “caput” do artigo 11 deste decreto.
+
+Art. 14. Se, em função das exigências municipais, for necessária manifestação de órgãos estaduais ou federais ou de Cartório de Registro de Imóveis e não haja condições de apresentá-la no prazo estabelecido para atendimento do comunicado, o interessado poderá, mediante comprovação de seu requerimento, solicitar ao Presidente do GRAPROEM a permanência do processo no procedimento APROVA RÁPIDO, sob a forma de custódia, até a juntada da manifestação necessária.
+
+Art. 15. Caso identificada, a qualquer momento, questão que enseje dúvida de caráter técnico ou jurídico, o processo será encaminhado para a manifestação do órgão pertinente, período durante o qual os prazos de análise permanecerão suspensos.
+
+Art. 16. A SEL deverá disponibilizar na página eletrônica da Prefeitura do Município de São Paulo, mensalmente, a relação dos projetos de edificações novas aprovados por meio do procedimento APROVA RÁPIDO, com a indicação do prazo decorrido entre a data do protocolo do pedido e a publicação do parecer final do GRAPROEM, nos casos de projetos com interface com outras Secretarias, ou da data da emissão do respectivo alvará, nos casos de análise apenas de SEL.
+
+Parágrafo único. Descontam-se do prazo citado no “caput” deste artigo os dias dispendidos pelo interessado no atendimento do comunicado, de acordo com o disposto no inciso I do § 1º do artigo 9º e no § 2º do artigo 11, e as consultas realizadas conforme disposto no § 1º do artigo 8º e nos artigos 14 e 15, todos deste decreto.
+
+Art. 17. O pedido de licenciamento edilício aderente ao procedimento APROVA RÁPIDO que tenha sido considerado inadmissível nos termos do § 3º do artigo 9º deste decreto somente poderá ser reapresentado para a aplicação do APROVA RÁPIDO, em novo protocolo, da seguinte maneira:
+
+I - após 90 dias, quando se tratar de pedido de Alvará de Aprovação;
+
+II - após 120 dias, quando se tratar de pedido conjunto de Alvará de Aprovação e Execução.
+
+I - após 90 (noventa) dias do protocolo, quando se tratar de pedido de Alvará de Aprovação ou de Alvará de Execução;(Redação dada pelo Decreto nº 59.455/2020)
+
+II - após 120 (cento e vinte) dias do protocolo, quando se tratar de pedido conjunto de Alvará de Aprovação e Execução ou de Projeto Modificativo.(Redação dada pelo Decreto nº 59.455/2020)
+
+Parágrafo único. Os pedidos que não observarem os prazos de intervalo previstos neste artigo ou que sejam mera reapresentação do pedido anterior serão encaminhados diretamente à via ordinária de análise.
+
+Art. 18. Os prazos fixados neste decreto obedecerão ao critério de contagem e às instâncias estabelecidas no Código de Obras e Edificações.
+
+Art. 19. Este decreto entrará em vigor na data de sua publicação, revogados os artigos 1º a 18 do Decreto nº 58.028, de 2017.
+
+PREFEITURA DO MUNICÍPIO DE SÃO PAULO, aos 20 de setembro de 2019, 466º da fundação de São Paulo.
+
+BRUNO COVAS, PREFEITO
+
+CESAR ANGEL BOFFA DE AZEVEDO, Secretário Municipal de Licenciamento
+
+ORLANDO LINDÓRIO DE FARIA, Secretário Municipal da Casa Civil
+
+RUBENS NAMAN RIZEK JUNIOR, Secretário Municipal de Justiça
+
+MAURO RICARDO MACHADO COSTA, Secretário do Governo Municipal
+
+Publicado na Casa Civil, em 20 de setembro de 2019.
+
+Este texto não substitui o original publicado no Diário Oficial da Cidade de São Paulo.

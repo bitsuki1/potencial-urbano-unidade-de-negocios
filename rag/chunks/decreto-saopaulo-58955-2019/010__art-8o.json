@@ -1,0 +1,46 @@
+{
+  "chunk_id": "decreto-saopaulo-58955-2019::010-art-8o",
+  "lei_id": "decreto-saopaulo-58955-2019",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 8º",
+  "numero": "8",
+  "header_raw": "Art. 8º Caberá ao responsável técnico pelo projeto a verificação da situação cadastral do imóvel por meio da Ficha Técnica e a iniciativa nas consultas prévias ao procedimento APROVA RÁPIDO, de acordo com as características do projeto e com as interferências no lote:",
+  "caminho_hierarquico": [
+    "Art. 8º"
+  ],
+  "texto": "Art. 8º Caberá ao responsável técnico pelo projeto a verificação da situação cadastral do imóvel por meio da Ficha Técnica e a iniciativa nas consultas prévias ao procedimento APROVA RÁPIDO, de acordo com as características do projeto e com as interferências no lote:\n\nI - preferencialmente, antes da apresentação do pedido à SEL, no que se refere:\n\na) à incidência de melhoramentos viários e sanitários, que deverão ser demarcados no âmbito de SIURB;\n\nb) à existência de desapropriações e de áreas públicas, a ser averiguada em DESAP e CGPATRI, no âmbito da Procuradoria Geral do Município - PGM e da Secretaria Municipal de Licenciamento - SEL, respectivamente;\n\nc) à implantação do nível do pavimento térreo, no âmbito da Comissão de Edificações e Uso do Solo - CEUSO, nos casos que se enquadrem nas hipóteses previstas nos §§ 3º e 4º do artigo 61 da Lei nº 16.402, de 22 de março de 2016;\n\nd) à intervenção em áreas sujeitas a recalques e problemas geotécnicos, no âmbito da Comissão de Edificações e Uso do Solo – CEUSO, nos casos que se enquadrem na hipótese prevista no § 1º do artigo 13 do Decreto nº 57.521, de 9 de dezembro de 2016, que regulamentou o artigo 72 da Lei nº 16.402, de 2016;\n\ne) à existência de Área de Preservação Permanente - APP, mediante avaliação do órgão competente de SVMA;\n\nII - obrigatoriamente, antes da apresentação do pedido à SEL, sob pena de inadmissibilidade, no que se refere:\n\na) à apresentação de Alvará de Licença da Companhia Ambiental do Estado de São Paulo - CETESB, quando se tratar de imóvel localizado nas áreas de mananciais;\n\nb) à apresentação de parecer técnico favorável ao Plano de Intervenção para Reutilização para o uso pretendido, ou Termo de Reabilitação de Área para Uso Declarado, ou parecer técnico sobre Avaliação Preliminar, ou Investigação Confirmatória emitidos pela CETESB, ou documento equivalente emitido pelo órgão competente de SVMA, quando o lote se enquadrar nos casos previstos no artigo 137 da Lei nº 16.402, de 2016;\n\nc) à restrição de altura imposta pela Aeronáutica, conforme regulamentação própria, mediante análise prévia dos órgãos federais competentes, apresentando, se for o caso, documento que demonstre a sua inexigibilidade;\n\nd) às restrições estabelecidas pelo CONDEPHAAT e/ou pelo IPHAN, devendo ser apresentado parecer favorável e respectivas plantas vistadas;\n\ne) à incidência de restrições relacionadas à infraestrutura de transportes, energia elétrica, água, combustíveis, entre outras, no âmbito federal ou estadual, devendo ser apresentadas as respectivas anuências.\n\n§ 1º Nos casos referidos no inciso I do “caput” deste artigo, na hipótese de o pedido não ser instruído com as consultas prévias nele referidas, a fim de subsidiar a manifestação do órgão competente, deverá ser apresentada pelo interessado, no ato do protocolo, a documentação necessária à análise, conforme disciplinado na normatização vigente.\n\n§ 2º Na hipótese do § 1º deste artigo, quando da análise de admissibilidade do pedido, a SEL e a ASSEC deverão verificar a necessidade de realização das consultas prévias referidas no inciso I do “caput” deste artigo no âmbito do APROVA RÁPIDO, ficando o prazo para análise suspenso até que haja manifestação do respectivo órgão competente.\n\n§ 3º O disposto na alínea “a” do inciso II deste artigo não se aplica aos Empreendimentos Habitacionais de Interesse Social - EHIS e Empreendimentos em Zona Especial de Interesse Social - EZEIS produzidos pela Administração Pública Direta, por empresa com controle acionário do Poder Público ou por meio de Parceria Público-Privada (PPP).(Incluído pelo Decreto nº 63.728/2024)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 58.955/2019 — São Paulo/SP",
+    "dispositivo": "Art. 8º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-58955-de-20-de-setembro-de-2019",
+    "vigencia": {
+      "inicio": "2019-09-20",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2019-09-20. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o procedimento APROVA RÁPIDO; revoga parcialmente o Decreto nº 58.028, de 11 de dezembro de 2017."
+}

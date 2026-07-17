@@ -1,0 +1,46 @@
+{
+  "chunk_id": "decreto-saopaulo-60939-2021::031-art-13-b",
+  "lei_id": "decreto-saopaulo-60939-2021",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 13-B",
+  "numero": "13-B",
+  "header_raw": "Art. 13-B As pessoas jurídicas de direito público da Administração Pública Municipal, para prevenir ou terminar litígios, poderão tomar dos interessados compromisso de ajustamento de sua conduta às exigências legais, mediante cominações, que terá eficácia de título executivo extrajudicial.(Incluído pelo Decreto nº 62.936/2023)",
+  "caminho_hierarquico": [
+    "CAPÍTULO II - B",
+    "Art. 13-B"
+  ],
+  "texto": "Art. 13-B As pessoas jurídicas de direito público da Administração Pública Municipal, para prevenir ou terminar litígios, poderão tomar dos interessados compromisso de ajustamento de sua conduta às exigências legais, mediante cominações, que terá eficácia de título executivo extrajudicial.(Incluído pelo Decreto nº 62.936/2023)\n\n§ 1º O termo de ajustamento de conduta deverá conter:(Incluído pelo Decreto nº 62.936/2023)\n\nI - os fundamentos de fato e de direito;(Incluído pelo Decreto nº 62.936/2023)\n\nII - a descrição das obrigações assumidas;(Incluído pelo Decreto nº 62.936/2023)\n\nIII - o prazo e o modo para o cumprimento das obrigações;(Incluído pelo Decreto nº 62.936/2023)\n\nIV - a forma de fiscalização da sua observância; e(Incluído pelo Decreto nº 62.936/2023)\n\nV - a previsão de multa ou de sanção administrativa, no caso de seu descumprimento.(Incluído pelo Decreto nº 62.936/2023)\n\n§ 2º Para a formalização do termo de ajustamento de conduta, será necessária a observância da legislação aplicável e a oitiva do órgão de assessoramento jurídico.(Incluído pelo Decreto nº 62.936/2023)\n\n§ 3º Caberá ao titular de cada órgão a decisão quanto à formalização do termo de ajustamento de conduta, podendo essa competência ser delegada.(Incluído pelo Decreto nº 62.936/2023)\n\n§ 4º As obrigações assumidas pelo interessado ou pela Administração Pública Municipal devem guardar relação com as exigências legais e não podem afastar ou implicar no afastamento de competências, direitos e obrigações impostas por lei.(Incluído pelo Decreto nº 62.936/2023)\n\nCAPÍTULO II - C\n\nDO COMPROMISSO (Incluído pelo Decreto nº 62.936/2023)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 60.939/2021 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II - B › Art. 13-B",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-60939-de-23-de-dezembro-de-2021",
+    "vigencia": {
+      "inicio": "2021-12-23",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2021-12-23 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "itbi"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Política Municipal de Desjudicialização instituída pela Lei nº 17.324, de 18 de março de 2020, bem como regulamenta a transação tributária de que trata os artigos 21 a 24 da Lei nº 17.719, de 26 de novembro de 2021."
+}

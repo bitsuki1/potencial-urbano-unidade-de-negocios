@@ -1,0 +1,43 @@
+{
+  "chunk_id": "decreto-saopaulo-56954-2016::004-art-3o",
+  "lei_id": "decreto-saopaulo-56954-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 3º",
+  "numero": "3",
+  "header_raw": "Art. 3º Para fins do disposto no inciso I do § 5º do artigo 9º da Lei nº 15.889, de 2013, acrescido pela Lei nº 16.272, de 2015, consideram-se obras licenciadas apenas aquelas que, iniciadas antes da ocorrência do fato gerador do Imposto Territorial Urbano, originem ou ampliem a área construída do imóvel e sejam autorizadas por um dos seguintes documentos:",
+  "caminho_hierarquico": [
+    "Art. 3º"
+  ],
+  "texto": "Art. 3º Para fins do disposto no inciso I do § 5º do artigo 9º da Lei nº 15.889, de 2013, acrescido pela Lei nº 16.272, de 2015, consideram-se obras licenciadas apenas aquelas que, iniciadas antes da ocorrência do fato gerador do Imposto Territorial Urbano, originem ou ampliem a área construída do imóvel e sejam autorizadas por um dos seguintes documentos:\n\nI - Alvará de Aprovação e Execução de Edificação Nova;\n\nII - apostilamento de Alvará de Aprovação e Execução de Edificação Nova;\n\nIII - projeto modificativo de Alvará de Aprovação e Execução de Edificação Nova;\n\nIV - revalidação de Alvará de Aprovação e Execução de Edificação Nova;\n\nV - Alvará de Execução de Edificação Nova;\n\nVI - apostilamento de Alvará de Execução de Edificação Nova;\n\nVII - projeto modificativo de Alvará de Execução de Edificação Nova;\n\nVIII - Alvará de Aprovação e Execução de Reforma;\n\nIX - apostilamento de Alvará de Aprovação e Execução de Reforma;\n\nX - projeto modificativo de Alvará de Aprovação e Execução de Reforma;\n\nXI - revalidação de Alvará de Aprovação e Execução de Reforma;\n\nXII - Alvará de Execução de Reforma;\n\nXIII - apostilamento de Alvará de Execução de Reforma;\n\nXIV- projeto modificativo de Alvará de Execução de Reforma;\n\nXV - Alvará de Licença para Residências Unifamiliares;\n\nXVI - apostilamento de Alvará de Licença para Residências Unifamiliares;\n\nXVII - projeto modificativo de Alvará de Licença para Residências Unifamiliares;\n\nXVIII - Alvará de Execução de Reconstrução;\n\nXIX - apostilamento de Alvará de Execução de Reconstrução.\n\nParágrafo único. As Secretarias Municipais envolvidas na emissão dos documentos relacionados no “caput” deste artigo fornecerão à Secretaria Municipal de Finanças e Desenvolvimento Econômico os subsídios necessários para análise e validação dos dados declarados na DTOL.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 56.954/2016 — São Paulo/SP",
+    "dispositivo": "Art. 3º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-56954-de-28-de-abril-de-2016",
+    "vigencia": {
+      "inicio": "2016-04-28",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2016-04-28 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Institui a Declaração Tributária de Obra Licenciada – DTOL e regulamenta o inciso I do § 5º do artigo 9º da Lei nº 15.889, de 5 de novembro de 2013, acrescido pela Lei nº 16.272, de 30 de setembro de 2015."
+}

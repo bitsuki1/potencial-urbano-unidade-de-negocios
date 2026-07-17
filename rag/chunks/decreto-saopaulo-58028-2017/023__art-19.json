@@ -1,0 +1,46 @@
+{
+  "chunk_id": "decreto-saopaulo-58028-2017::023-art-19",
+  "lei_id": "decreto-saopaulo-58028-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 19",
+  "numero": "19",
+  "header_raw": "Art. 19. Permanecerão sob a análise da Comissão de Análise Integrada de Projetos de Edificações e de Parcelamento do Solo – CAIEPS os pedidos de licenciamento de edificações protocolados a partir da data da vigência deste decreto, não enquadráveis no procedimento APROVA RÁPIDO, nas seguintes situações:",
+  "caminho_hierarquico": [
+    "Art. 19"
+  ],
+  "texto": "Art. 19. Permanecerão sob a análise da Comissão de Análise Integrada de Projetos de Edificações e de Parcelamento do Solo – CAIEPS os pedidos de licenciamento de edificações protocolados a partir da data da vigência deste decreto, não enquadráveis no procedimento APROVA RÁPIDO, nas seguintes situações:",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 58.028/2017 — São Paulo/SP",
+    "dispositivo": "Art. 19",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-58028-de-11-de-dezembro-de-2017",
+    "vigencia": {
+      "inicio": "2017-12-11",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2017-12-11. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "tdc"
+  ],
+  "dominio_primario": "tdc",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre o procedimento APROVA RÁPIDO; cria o Grupo Intersecretarial de Análise de Projetos Específicos no Município – GRAPROEM e o Comitê Gestor do APROVA RÁPIDO."
+}

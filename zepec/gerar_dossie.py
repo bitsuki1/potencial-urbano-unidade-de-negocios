@@ -74,8 +74,34 @@ def _m2(s):
     return f"{d} m²".replace(".", ",") if d is not None else "—"
 
 
+def _tenta_base_b(saldo, vtcd_vig, esquina, r):
+    """§2º CRISTALIZADO (base B do MAX) — só quando a LEI o determina: Declaração E Certidão protocoladas.
+    Reconstrói o VTcd histórico da data de referência (Declaração) a partir do VTcd vigente 2026, pela razão
+    de reajuste UNIFORME do Quadro 14 (art128.vtcd_na_data), e aplica o §2º IPCA até o protocolo da Certidão.
+    Datas: data_declaracao_iso = data de referência (Art. 125 §2º / mês-ref do §2º); data_certidao_iso =
+    protocolo da Certidão (mês-fim do §2º). Devolve (mx, conv) ou None (fail-closed 1.3: dado faltante,
+    Declaração pré-2014 fora da série IPCA, etc. → cai na base A vigente, sem inventar 'hoje')."""
+    d_decl = (r.get("data_declaracao_iso") or "").strip()
+    d_cert = (r.get("data_certidao_iso") or "").strip()
+    if len(d_decl) < 7 or len(d_cert) < 7:
+        return None                       # sem Declaração+Certidão datadas → §2º não cristalizou
+    try:
+        ano_decl = int(d_decl[:4])
+        conv = art128.vtcd_na_data(str(vtcd_vig), 2026, ano_decl)      # VTcd histórico (2026 → ano-ref)
+        mx = art128.referencia_max_art128(str(saldo), str(vtcd_vig), via="125", esquina=esquina,
+                                          vtcd_declaracao=conv["vtcd_alvo_m2"],
+                                          mes_ref=d_decl[:7], mes_protocolo=d_cert[:7])
+        return mx, conv
+    except Exception:
+        return None                       # mês-ref fora da série IPCA (pré-2014) etc. → base A
+
+
 def _preco_bloco(r):
-    """Bloco 4 — Preço legal (Art. 128) via engine. Devolve (markdown, dados) ou (nota, None)."""
+    """Bloco 4 — Preço legal (Art. 128) via engine. Devolve (markdown, ref) ou (nota, None).
+    Já-declarado com Declaração E Certidão protocoladas ⇒ §2º cristalizado: MAX(A piso vigente ;
+    B VTcd da Declaração×IPCA), com o VTcd histórico reconstruído por art128.vtcd_na_data. Senão ⇒
+    base A (Quadro 14 vigente 2026), fail-closed (1.3). O `ref` devolvido sempre carrega
+    referencia_brl/numerador_brl/base (contrato estável p/ o autoteste e chamadores)."""
     saldo = _dec(r.get("saldo_pcpt_m2"))
     vtcd = _dec(r.get("v_outorga_m2_q14"))
     if not saldo or saldo <= 0 or not vtcd or vtcd <= 0:
@@ -83,21 +109,46 @@ def _preco_bloco(r):
                 "(Quadro 14) para este imóvel. Ver pendências.\n", None)
     vmax = _dec(r.get("v_outorga_max_q14"))
     esquina = bool(vmax and vmax > vtcd)
-    if esquina:
-        vtcd = vmax   # Decreto 57.536/2016 Art. 3º IV — lote de esquina usa o MAIOR do Quadro 14 da quadra
-    ref = art128.referencia_art128(str(saldo), str(vtcd), via="125", esquina=esquina)
+    vtcd_vig = vmax if esquina else vtcd   # Dec. 57.536/2016 Art. 3º IV — esquina usa o MAIOR do Quadro 14
     ja_declarado = (r.get("regime_pcpt") == "JA_DECLARADO")
+    base_b = _tenta_base_b(saldo, vtcd_vig, esquina, r) if ja_declarado else None
     md = []
+
+    if base_b is not None:
+        mx, conv = base_b
+        venc = mx["base_vencedora"]
+        ref = {"referencia_brl": mx["referencia_max_brl"], "numerador_brl": mx["numerador_max_brl"], "base": venc}
+        md.append(f"- **Referência legal (independe do comprador):** **{_brl(ref['referencia_brl'])}**  "
+                  f"*(MAX das duas bases que a lei assegura — vence a base {venc})*")
+        md.append(f"  - fórmula: (PCpt × VTcd) ÷ CAmaxcd — Art. 128 §1º (o Cr do comprador cancela na conta)")
+        md.append(f"- **Valor bruto (potencial × terreno):** {_brl(ref['numerador_brl'])}")
+        for c in mx["cenarios"]:
+            marca = "  ◄ vence" if c["base"] == venc else ""
+            md.append(f"  - **Base {c['base']}** — {c['rotulo']}: VTcd R$ {c['vtcd_aplicado_m2']}/m² → "
+                      f"**{_brl(c['referencia_brl'])}**{marca}")
+        md.append(f"  - _§2º cristalizado:_ VTcd da Declaração reconstruído pela razão de reajuste do "
+                  f"Quadro 14 ({conv['memoria_calculo']}), corrigido por IPCA até o protocolo da Certidão.")
+        md.append(f"- Componentes: saldo **{_m2(saldo)}** × VTcd (por base, acima)"
+                  + (" *(esquina: maior valor da quadra, Dec. 57.536/2016 Art. 3º IV)*" if esquina else "")
+                  + " ÷ CAmaxcd **4**")
+        md.append(f"- _Citação:_ {mx['citacao']['dispositivo']}. **A margem é sua** — isto é o piso "
+                  f"regulatório, não o preço de venda (D-DONO-7).")
+        return ("\n".join(md) + "\n", ref)
+
+    # base A — Quadro 14 vigente (prospecção nova, ou já-declarado sem Certidão protocolada)
+    ref_a = art128.referencia_art128(str(saldo), str(vtcd_vig), via="125", esquina=esquina)
+    ref = {"referencia_brl": ref_a["referencia_brl"], "numerador_brl": ref_a["numerador_brl"], "base": "A"}
     md.append(f"- **Referência legal (independe do comprador):** **{_brl(ref['referencia_brl'])}**")
     md.append(f"  - fórmula: (PCpt × VTcd) ÷ CAmaxcd — Art. 128 §1º (o Cr do comprador cancela na conta)")
     md.append(f"- **Valor bruto (potencial × terreno):** {_brl(ref['numerador_brl'])}")
-    md.append(f"- Componentes: saldo **{_m2(saldo)}** × VTcd **{_brl(vtcd)}/m²**"
+    md.append(f"- Componentes: saldo **{_m2(saldo)}** × VTcd **{_brl(vtcd_vig)}/m²**"
               + (" *(esquina: maior valor da quadra, Dec. 57.536/2016 Art. 3º IV)*" if esquina else "")
               + " ÷ CAmaxcd **4**")
     if ja_declarado:
-        md.append("- ⚠️ *Já-declarado:* o valor exato do §2º usa o VTcd **da data da Declaração + IPCA** "
-                  "(a série do IPCA já está no motor; falta o VTcd histórico da Declaração). O número acima "
-                  "usa o Quadro 14 vigente (2025).")
+        md.append("- ⚠️ *Já-declarado, §2º ainda não cristalizado:* o valor exato do Art. 128 §2º usa o VTcd "
+                  "**da data da Declaração + IPCA até o protocolo da Certidão**. O VTcd histórico já é "
+                  "reconstruível (motor `vtcd_na_data`); falta a **data do protocolo da Certidão** nesta base "
+                  "— enquanto não houver Certidão protocolada, vale o Quadro 14 vigente (2026) acima.")
     md.append(f"- _Citação:_ Art. 128 (PDE), caput e §1º. **A margem é sua** — isto é o piso regulatório, "
               f"não o preço de venda (D-DONO-7).")
     return ("\n".join(md) + "\n", ref)
@@ -177,7 +228,8 @@ def montar_dossie(r):
     o.append(f"- **Declaração:** {r.get('data_declaracao_iso') or '—'}  ·  "
              f"**Certidão:** {r.get('data_certidao_iso') or '—'}  ·  "
              f"**Tombamento:** {r.get('data_tombamento_iso') or '—'}")
-    o.append(f"- **Data de referência:** {r.get('data_ref') or '—'}\n")
+    o.append(f"- **Data de referência (protocolo da Declaração — Art. 125 §2º; base do §2º do Art. 128):** "
+             f"{r.get('data_declaracao_iso') or '—'}\n")
 
     o.append("## 6. Checklist de due-diligence (antes de fechar)")
     o.append(_checklist(r))
@@ -209,6 +261,7 @@ def _autoteste():
     assert rows, "base vazia"
     # 1) todo imóvel com saldo+VTcd gera dossiê e o preço bate o art128 (sem inventar)
     com_preco = 0
+    com_base_b = 0
     for r in rows:
         md, ref = montar_dossie(r)
         assert md.startswith("# Dossiê do imóvel"), r.get("sql_mestre")
@@ -219,17 +272,41 @@ def _autoteste():
             saldo = _dec(r.get("saldo_pcpt_m2"))
             vtcd = _dec(r.get("v_outorga_m2_q14"))
             vmax = _dec(r.get("v_outorga_max_q14"))
-            v = vmax if (vmax and vmax > vtcd) else vtcd
-            esp = art128.referencia_art128(str(saldo), str(v), via="125",
-                                           esquina=bool(vmax and vmax > vtcd))
-            assert esp["referencia_brl"] == ref["referencia_brl"], r.get("sql_mestre")
+            esquina = bool(vmax and vmax > vtcd)
+            v = vmax if esquina else vtcd
+            # Recompute pelo MESMO ramo que o montar usa (base B §2º cristalizado quando a lei o determina;
+            # senão base A vigente) — independente do CSV, ancorado no engine: sabota o q14/IPCA e diverge.
+            bb = _tenta_base_b(saldo, v, esquina, r) if (r.get("regime_pcpt") == "JA_DECLARADO") else None
+            if bb is not None:
+                com_base_b += 1
+                esp_ref = bb[0]["referencia_max_brl"]
+                assert ref["base"] == bb[0]["base_vencedora"], r.get("sql_mestre")
+            else:
+                esp_ref = art128.referencia_art128(str(saldo), str(v), via="125", esquina=esquina)["referencia_brl"]
+                assert ref["base"] == "A", r.get("sql_mestre")
+            assert esp_ref == ref["referencia_brl"], r.get("sql_mestre")
             assert _brl(ref["referencia_brl"]).startswith("R$"), r.get("sql_mestre")
     assert com_preco > 100, f"esperava muitos dossiês com preço (veio {com_preco})"
     # 2) imóvel sem saldo → bloco de preço vira nota, não quebra
     vazio = {"sql_mestre": "X", "nome_bem": "Teste", "saldo_pcpt_m2": "", "v_outorga_m2_q14": ""}
     md0, ref0 = montar_dossie(vazio)
     assert ref0 is None and "ainda não calculável" in md0
-    return com_preco
+    # 3) NÃO-VÁCUO da base B (§2º cristalizado) — fixture DETERMINÍSTICO, independe da base viva:
+    #    já-declarado com Declaração (2018) + Certidão (2024) protocoladas ⇒ MAX(A;B) com VTcd histórico
+    #    reconstruído por vtcd_na_data (razão de reajuste do Quadro 14). Garante que a fiação nunca fica morta.
+    fix = {"sql_mestre": "FIXB", "nome_bem": "Fixture §2º", "regime_pcpt": "JA_DECLARADO",
+           "saldo_pcpt_m2": "1000", "v_outorga_m2_q14": "3000", "v_outorga_max_q14": "",
+           "data_declaracao_iso": "2018-05-10", "data_certidao_iso": "2024-03-01",
+           "elegibilidade_conservacao": "PENDENTE_CONSERVACAO"}
+    md_b, ref_b = montar_dossie(fix)
+    conv = art128.vtcd_na_data("3000", 2026, 2018)
+    mx = art128.referencia_max_art128("1000", "3000", via="125", esquina=False,
+                                      vtcd_declaracao=conv["vtcd_alvo_m2"],
+                                      mes_ref="2018-05", mes_protocolo="2024-03")
+    assert ref_b is not None and ref_b["referencia_brl"] == mx["referencia_max_brl"], ref_b
+    assert ref_b["base"] == mx["base_vencedora"] and len(mx["cenarios"]) == 2, ref_b
+    assert "MAX das duas bases" in md_b and "§2º cristalizado" in md_b, "bloco base B mal formado"
+    return com_preco, com_base_b
 
 
 def main():
@@ -240,8 +317,10 @@ def main():
     a = ap.parse_args()
 
     if a.autoteste:
-        n = _autoteste()
-        print(f"AUTO-TESTE dossiê: OK — {n} dossiês com preço legal batem o art128; citações e checklist presentes.")
+        n, nb = _autoteste()
+        print(f"AUTO-TESTE dossiê: OK — {n} dossiês com preço legal batem o art128 "
+              f"({nb} com §2º cristalizado via base B/vtcd_na_data + fixture não-vácuo); "
+              f"citações e checklist presentes.")
         return 0
 
     rows = _linhas()

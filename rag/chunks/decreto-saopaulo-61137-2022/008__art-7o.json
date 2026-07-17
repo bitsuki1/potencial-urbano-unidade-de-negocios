@@ -1,0 +1,48 @@
+{
+  "chunk_id": "decreto-saopaulo-61137-2022::008-art-7o",
+  "lei_id": "decreto-saopaulo-61137-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 7º",
+  "numero": "7",
+  "header_raw": "Art. 7º As ERBS instaladas em lotes não edificados deverão atender a taxa de permeabilidade mínima, de acordo com os respectivos Perímetros de Qualificação Ambiental (PA) do Mapa 3 da Lei nº 16.402, de 2016, na seguinte conformidade:",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção I",
+    "Art. 7º"
+  ],
+  "texto": "Art. 7º As ERBS instaladas em lotes não edificados deverão atender a taxa de permeabilidade mínima, de acordo com os respectivos Perímetros de Qualificação Ambiental (PA) do Mapa 3 da Lei nº 16.402, de 2016, na seguinte conformidade:\n\nI - para lotes com área igual ou inferior a 500,00m² (quinhentos metros quadrados):\n\na) 0,15 para os PAs 1 a 8;\n\nb) 0,10 para o PA 9;\n\nc) 0,20 para os PAs 10 a 12;\n\nII - para lotes com área superior a 500,00m² (quinhentos metros quadrados):\n\na) 0,25 para os PAs 1 a 5 e PA 10;\n\nb) 0,20 para o PA 6 a 8;\n\nc) 0,15 para o PA 9;\n\nd) 0,30 para os PAs 11 e 12.\n\n§ 1º Nos lotes inseridos em Zona Especial de Proteção Ambiental - ZEPAM, Zona de Preservação e Desenvolvimento Sustentável Rural - ZPDSr, Zona de Preservação e Desenvolvimento Sustentável - ZPDS, Zona Corredor - ZCOR, Zona Predominantemente Residencial - ZPR e Zona Exclusivamente Residencial - ZER, aplicam-se as taxas de permeabilidade mínima de 0,90, 0,70, 0,50, 0,30, 0,30 e 0,30, respectivamente, independentemente do tamanho do lote.\n\n§ 2º Considera-se permeabilidade a infiltração de água no solo, a qual poderá ser obtida mediante ajardinamento do solo ou colocação de brita sob o solo natural.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 61.137/2022 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção I › Art. 7º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-61137-de-10-de-marco-de-2022",
+    "vigencia": {
+      "inicio": "2022-03-10",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Texto consolidado do portal oficial (captura 2026-07-13); vigente desde 2022-03-10 conforme o compilado. Norma tributaria antiga: REVISAO DE REVOGACAO POR NORMA POSTERIOR pendente (nao verificada 1-a-1 contra o corpo tributario atual). Metadados por scaffold (extracao pura); revisado_por_humano=false. Trilha IPTU (diferida) — fundacao do corpus, a refinar."
+    }
+  },
+  "tema": [
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 17.733, de 11 de janeiro de 2022, que dispõe sobre a instalação de Estação Radio Base – ERB, Mini ERB e ERB Móvel no Município de São Paulo."
+}
