@@ -1,6 +1,6 @@
 {
   "_doc": "Fonte da verdade do status_pipeline de cada item. GERADO por scripts/consolidar.py a partir dos .json individuais — NAO editar a mao (Principio 1.5/2.3 do CLAUDE.md). Roda a cada push via .github/workflows/consolidar.yml.",
-  "gerado_em": "2026-07-16T12:14:35.233758+00:00",
+  "gerado_em": "2026-07-18T15:41:24.076816+00:00",
   "vocabulario_status": [
     "bruto",
     "fatiado",
@@ -64,8 +64,8 @@
       "status": "engine OODC/TDC executável (engines/tdc/oodc.py); demais são prosa/conhecimento"
     },
     "tabelas": {
-      "arquivos": 20,
-      "status": "20 tabela(s) no git (Q14 valor-terreno, Quadro 3 CA/zona, Quadro 5 Fs, Quadro 7 parques, Fi-área LPUOS Art.24) — combustível do engine PRESENTE; derivado dos arquivos, não hardcoded"
+      "arquivos": 21,
+      "status": "21 tabela(s) no git (Q14 valor-terreno, Quadro 3 CA/zona, Quadro 5 Fs, Quadro 7 parques, Fi-área LPUOS Art.24) — combustível do engine PRESENTE; derivado dos arquivos, não hardcoded"
     },
     "tese_iptu": {
       "arquivos": 0,
@@ -116,6 +116,12 @@
       "sha256": "sha256:7877468ee6561d0245e1365dd0a84c65a8c39887b82e31265d2ff36d89422e6e",
       "data_base": "2013-12-20",
       "fonte_legal": "Lei Municipal SP 15.889/2013, Arts. 3/4/5"
+    },
+    {
+      "arquivo": "tabelas/iptu-atualizacao-anual.csv",
+      "sha256": "sha256:87631c9bc9bb83010695c5bb3fbe519221e72fbb1a6fabade671a889a5f593bd",
+      "data_base": "2025-11-11",
+      "fonte_legal": "Série 2013-2026: Decretos 54.731/2013 (+5,6%), 56.749/2015 (+9,5%), 57.560/2016 (+6%), 58.592/2018 (+3,5%), 59.158/2019 (+3,5%), 60.036/2020 (0%), 62.085/2022 (+5,5%), 63.095/2023 (+4,3%), 63.995/2024 (+4,6%), Art. 1º de cada; revisões por Lei 15.889/2013, 16.768/2017, 17.719/2021, 18.330/2025 — atualização anual do IPTU (verificada no catálogo oficial)"
     },
     {
       "arquivo": "tabelas/iptu-fator-obsolescencia.csv",
