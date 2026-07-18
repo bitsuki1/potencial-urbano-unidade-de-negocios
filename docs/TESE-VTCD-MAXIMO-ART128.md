@@ -1,9 +1,12 @@
 # TESE (OP-1b) — VTcd máximo rastreável no preço do TDC (Art. 128 §2º)
 
-> **Status: ABERTA (dossiê de handoff).** Autorizada pelo dono (2026-07-11 "sim, tudo oficial"). Este é o
-> arranque da tese (camada Gen Advogado). Traz o argumento, a base legal já OFICIAL, a antítese, a vacina
-> e a **materialização no engine** (próximo passo concreto). NÃO altera preço sozinha — o preço em produção
-> hoje usa o Quadro 14 vigente 2026 (OP-1a, feito). Esta tese é o **teto** que o vendedor pode reivindicar.
+> **Status: MATERIALIZADA (2026-07-17).** ✅ **OP-1b FEITO no engine:** `art128.referencia_max_art128()`
+> devolve `MAX( (A) Quadro 14 vigente ; (B) VTcd da Declaração × IPCA §2º )` com AMBAS as bases citadas e a
+> base vencedora — coberto pelo autoteste (casos i–iv) e por `evals/eval-art128.py` (MAX verbatim + base
+> vencedora), **gate verde**. ✅ **OP-1c FEITO** (ver §6) — mora em `pcpt.py` (`limiar_parque` +
+> `tabelas/limiar-parque-art127.csv`), não em `fp.py`. NÃO altera preço sozinha — o piso em produção usa o
+> Quadro 14 vigente 2026 (OP-1a). Esta tese é o **teto** que o vendedor pode reivindicar quando há Declaração
+> com data-ref. _(Antes: ABERTA, dossiê de handoff — autorizada pelo dono 2026-07-11 "sim, tudo oficial".)_
 
 ## 1. A tese (o que se quer sustentar)
 Para o cedente ZEPEC-BIR, o **VTcd** (valor do m² do terreno cedente, Art. 128 §1º) que entra no preço do
@@ -53,11 +56,16 @@ mas **subvaloriza** quando (B) > (A). Em imóveis cujo valor de referência da D
    entrada — nunca "hoje" implícito (1.3).
 4. Gate + regenerar.
 
-## 6. Ligação com OP-1c (mesmo eixo, do lado do parque/Fp)
-Lei 17.975/2023 **art. 50** deu NR ao **Art. 127 §1º** do PDE (Fp de parque): **IV = 1,4** se o valor de terreno
-no Quadro 14 **≤ R$ 2.000/m²**; **V = 1,0** se **> R$ 2.000/m²** ("observadas as atualizações subsequentes"). O
-**Decreto 64.884/2025** fixa a referência do Art. 127 em **R$ 2.352,06/m²**. ⇒ conferir se `engines/tdc/fp.py`
-aplica esse limiar e valor 2026 (outra "condição melhor" possível, do lado comprador/eixo). **A conferir.**
+## 6. OP-1c (parque, Art. 127 §1º) — ✅ FEITO (mora em `pcpt.py`, não `fp.py`)
+Lei 17.975/2023 **art. 50** deu NR ao **Art. 127 §1º** do PDE (fator de incentivo do parque): **IV = 1,4** se o
+valor de terreno no Quadro 14 **≤ limiar**; **V = 1,0** se **> limiar**. O limiar é vintage-aware e OFICIAL:
+**R$ 2.000/m² (2014)** → **R$ 2.194,50 (Dec. 63.999/2024)** → **R$ 2.352,06 (Dec. 64.884/2025)**.
+**Implementado:** `engines/tdc/pcpt.py` (`limiar_parque(ano_ref)` + `_fi_doacao`), tabela
+`tabelas/limiar-parque-art127.csv` (cada vintage citado ao decreto), comparando V e limiar na MESMA vintage
+(1.6). Autoteste de `pcpt.py` cobre o parque (V≤/> limiar → Fi 1,4/1,0) — **gate verde**. _(O backlog dizia
+"conferir fp.py"; era engano — `fp.py` é o Fp do Quadro 6 da OODC, coisa distinta.)_ Observação de escopo:
+o Art. 127 é a via COM DOAÇÃO de parque; nossos cedentes ZEPEC-BIR roteiam pelo Art. 124/125/**128**/133
+(sem doação), então este fator não toca o preço do nosso vendedor — fica disponível para a via de doação.
 
 ---
 > M6 · OP-1b (tese) · PU 18 · 2026-07-11. Fontes: corpus (Art. 128/§1º/§2º Lei 16.050/2014; Lei 17.975/2023 já

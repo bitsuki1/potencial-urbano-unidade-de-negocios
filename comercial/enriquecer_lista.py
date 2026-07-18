@@ -35,7 +35,7 @@ PEND_DONO = "(PENDENTE: sem contribuinte no IPTU p/ este SQL)"
 
 NOVAS_COLS = ["proprietario", "proprietario_doc", "tipo_dono", "publico_privado",
               "controlador_pf", "dono_carteira_qtd", "preco_real_itbi", "data_itbi",
-              "frescor_dono", "contato", "fonte_dono"]
+              "frescor_dono", "vtcd_m2_iptu", "contato", "fonte_dono"]
 
 
 def _norm(s):
@@ -76,7 +76,8 @@ def enriquecer(base, flags, donos, itbi):
         nome = nome1 + (f" ; {nome2}" if nome2 else "")
         doc1 = _digitos(f.get("doc1"))
         resolvido[sql] = {"nome": nome, "doc": f.get("doc1", ""), "tipo": f.get("tipo_dono", ""),
-                          "publico": f.get("publico", "nao"), "fonte": f.get("fonte", "")}
+                          "publico": f.get("publico", "nao"), "fonte": f.get("fonte", ""),
+                          "vterr": (f.get("valor_m2_terreno") or "").strip()}
         chave_por_sql[sql] = (doc1 if len(doc1) == 14 else _norm(nome1)) or sql
 
     # carteira: quantos SQLs por chave de dono
@@ -92,7 +93,7 @@ def enriquecer(base, flags, donos, itbi):
             novo.update({"proprietario": PEND_DONO, "proprietario_doc": "", "tipo_dono": "",
                          "publico_privado": "", "controlador_pf": "", "dono_carteira_qtd": "",
                          "preco_real_itbi": "", "data_itbi": "", "frescor_dono": "",
-                         "contato": PEND_CONTATO, "fonte_dono": ""})
+                         "vtcd_m2_iptu": "", "contato": PEND_CONTATO, "fonte_dono": ""})
         else:
             d = dn.get(sql)
             controlador = ""
@@ -115,6 +116,7 @@ def enriquecer(base, flags, donos, itbi):
                 "preco_real_itbi": preco,
                 "data_itbi": data_itbi,
                 "frescor_dono": frescor,
+                "vtcd_m2_iptu": res.get("vterr", ""),
                 "contato": PEND_CONTATO,
                 "fonte_dono": res["fonte"] + (" + Fase B socios/holdings" if controlador else ""),
             })

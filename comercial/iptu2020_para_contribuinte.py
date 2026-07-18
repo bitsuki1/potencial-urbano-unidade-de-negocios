@@ -83,7 +83,7 @@ def _ler_csv(path):
     enc = _detecta_encoding(path)
     with open(path, encoding=enc, errors="replace") as f:
         amostra = f.readline()
-        delim = max(["|", ";", ","], key=lambda d: amostra.count(d))
+        delim = max(["|", ";", ",", "\t"], key=lambda d: amostra.count(d))  # \t: espelho 2020 é TAB-delimitado
         f.seek(0)
         for row in csv.reader(f, delimiter=delim):
             yield row
@@ -105,6 +105,9 @@ def parse(rows, filtro=None):
     i_t2 = _acha_col(cabN, "TIPO DE CONTRIBUINTE 2")
     i_d2 = _acha_col(cabN, "CPF/CNPJ DO CONTRIBUINTE 2")
     i_n2 = _acha_col(cabN, "NOME DO CONTRIBUINTE 2")
+    # VTcd (Quadro 14): o cadastro IPTU já traz o VALOR UNITÁRIO do terreno por m² — é o mesmo número do
+    # Quadro 14 (provado no repo: match R$ 3.106,00). Localizado por NOME (o índice muda entre safras 2016/2020/2026).
+    i_vterr = _acha_col(cabN, "VALOR DO M2 DO TERRENO", "VALOR M2 DO TERRENO", "VALOR DO M2 TERRENO")
     if i_num < 0 or i_n1 < 0:
         raise SystemExit(f"ERRO: cabeçalho sem NUMERO/NOME DO CONTRIBUINTE. Vistas: {cabN[:8]}")
 
@@ -129,9 +132,11 @@ def parse(rows, filtro=None):
                        or _PUB.search(_norm(tipo1)) or _PUB.search(_norm(tipo2)))
         tipo_dono = "PUBLICO" if publico else ("PJ" if len(doc1_raw) == 14 else "PF")
         doc1, doc2 = _doc_saida(doc1_raw), _doc_saida(doc2_raw)   # CPF/CNPJ guardados (MOU 2026-07-17)
+        vterr = cel(row, i_vterr) if i_vterr >= 0 else ""
         contrib.append({"sql_mestre": sql, "documento": doc1, "contribuinte": nome1})
         flags.append({"sql_mestre": sql, "tipo_dono": tipo_dono, "publico": "sim" if publico else "nao",
                       "nome1": nome1, "doc1": doc1, "nome2": nome2, "doc2": doc2,
+                      "valor_m2_terreno": vterr,
                       "fonte": "IPTU cadastral 2016/2020 (GeoSampa) — extração pura"})
     return contrib, flags
 
@@ -193,18 +198,23 @@ def main():
     filtro = _carrega_filtro(args.filtro_sqls) if args.filtro_sqls else None
     if args.filtro_sqls and filtro:
         print(f"escopo: {len(filtro)} SQLs — o resto da cidade será descartado.")
+    # Múltiplas safras (ex.: 2016 primeiro, 2020 como fallback): PRIMEIRA safra que traz o SQL VENCE,
+    # tanto no contrib quanto nos flags (dedup consistente — senão a safra 2 sobrescreveria a 1 no join).
     contrib, flags, vistos = [], [], set()
     for p in args.entrada:
         c, f = parse(_ler_csv(p), filtro=filtro)
+        fpor = {x["sql_mestre"]: x for x in f}
         for row in c:
             if row["sql_mestre"] not in vistos:
                 vistos.add(row["sql_mestre"]); contrib.append(row)
-        flags.extend(f)
+                if row["sql_mestre"] in fpor:
+                    flags.append(fpor[row["sql_mestre"]])
     SAIDA_DIR.mkdir(parents=True, exist_ok=True)
     with open(SAIDA_DIR / "iptu_contribuinte.csv", "w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=["sql_mestre", "documento", "contribuinte"]); w.writeheader(); w.writerows(contrib)
     with open(SAIDA_DIR / "iptu_flags.csv", "w", encoding="utf-8", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=["sql_mestre", "tipo_dono", "publico", "nome1", "doc1", "nome2", "doc2", "fonte"])
+        w = csv.DictWriter(f, fieldnames=["sql_mestre", "tipo_dono", "publico", "nome1", "doc1", "nome2", "doc2",
+                                          "valor_m2_terreno", "fonte"])
         w.writeheader(); w.writerows({k: r.get(k, "") for k in w.fieldnames} for r in flags)
     print(f"OK: {len(contrib)} contribuintes → zepec/oficial/iptu_contribuinte.csv (+ iptu_flags.csv) | CPF pessoal omitido")
     return 0

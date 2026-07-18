@@ -67,6 +67,33 @@ def _valor_art128(r):
     return ref["referencia_brl"], ref["numerador_brl"]
 
 
+def _teto_art128(r):
+    """OP-1b (tese VTcd-máximo) materializada no PRODUTO. Base B (Art. 128 §2º) do JÁ-DECLARADO:
+    VTcd da Declaração (Quadro 14 do ano-ref, via vtcd_na_data) × IPCA (mês da Declaração → mês do
+    protocolo da Certidão), e devolve MAX(A piso vigente ; B teto §2º) + a base vencedora. Só computa
+    quando há AMBAS as datas (Declaração + Certidão) — o §2º exige o protocolo, que NÃO se adivinha
+    (1.3; tese §4). Sem as duas datas → ('', '') e o produto mostra só o piso. O piso (A) NUNCA muda."""
+    saldo = _d(r.get("saldo_pcpt_m2"))
+    vtcd = _d(r.get("v_outorga_m2_q14"))
+    if not saldo or saldo <= 0 or not vtcd or vtcd <= 0:
+        return "", ""
+    decl = (r.get("data_declaracao_iso") or "").strip()
+    cert = (r.get("data_certidao_iso") or "").strip()
+    if len(decl) < 7 or len(cert) < 7:
+        return "", ""                                  # §2º N/A sem protocolo (não se inventa data)
+    vmax = _d(r.get("v_outorga_max_q14"))
+    esquina = bool(vmax and vmax > vtcd)
+    v_vig = str(vmax if esquina else vtcd)
+    try:
+        ano_decl = int(decl[:4])
+        vtcd_decl = art128.vtcd_na_data(v_vig, 2026, ano_decl)["vtcd_alvo_m2"]   # Q14 na Declaração
+        mx = art128.referencia_max_art128(str(saldo), v_vig, via="125", esquina=esquina,
+                                          vtcd_declaracao=vtcd_decl, mes_ref=decl[:7], mes_protocolo=cert[:7])
+        return mx["referencia_max_brl"], mx["base_vencedora"]
+    except Exception:
+        return "", ""                                  # série fora de faixa (ex.: pré-2014) → só o piso
+
+
 def _indicio_processo(r):
     """Sinais de processo/intercorrência que TEMOS (não é consulta judicial — isso é PEND_JUD)."""
     sig = []
@@ -88,6 +115,7 @@ def _indicio_processo(r):
 VEND_COLS = ["sql", "endereco", "distrito", "zona", "tipo_zepec", "esfera", "nome_bem",
              "area_terreno_m2", "pcpt_m2", "saldo_vendavel_m2", "parcelas_anuais",
              "valor_ref_art128_brl", "valor_bruto_brl",
+             "valor_teto_art128_brl", "base_vencedora_art128",
              "estado_venda", "ja_transferido_m2", "n_transferencias",
              "data_declaracao", "data_certidao", "data_referencia",
              "renovacao_70pct_10anos_art129", "renovacao_100pct_15anos_art129", "conservacao_art129",
@@ -107,6 +135,7 @@ def gerar_vendedores():
         if not sql:
             continue
         vref, vbruto = _valor_art128(r)
+        vteto, base_venc = _teto_art128(r)
         decl = (r.get("data_declaracao_iso") or "").strip()
         out.append({
             "sql": sql, "endereco": r.get("endereco_mestre", ""), "distrito": r.get("distrito", ""),
@@ -115,6 +144,7 @@ def gerar_vendedores():
             "area_terreno_m2": r.get("area_terreno_m2", ""), "pcpt_m2": r.get("pcpt_m2", ""),
             "saldo_vendavel_m2": r.get("saldo_pcpt_m2", ""), "parcelas_anuais": r.get("parcelas_anuais", ""),
             "valor_ref_art128_brl": vref, "valor_bruto_brl": vbruto,
+            "valor_teto_art128_brl": vteto, "base_vencedora_art128": base_venc,
             "estado_venda": r.get("estado_venda", ""), "ja_transferido_m2": r.get("m2_ja_transferido", ""),
             "n_transferencias": r.get("n_transferencias", ""),
             "data_declaracao": decl, "data_certidao": r.get("data_certidao_iso", ""),

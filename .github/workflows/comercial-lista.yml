@@ -16,6 +16,14 @@ on:
         description: "URL do cadastro IPTU citywide COM NOME (default: mirror 2016, cidade toda, 35 col). Vazio = usa o drive_id."
         required: false
         default: "https://media.githubusercontent.com/media/0x3333/iptu.go/master/IPTU-2016-06-03.CSV"
+      iptu_url2:
+        description: "2ª safra IPTU citywide COM NOME (fallback dos SQLs ainda sem dono; ex.: GeoSampa 2020). Vazio = só a 1ª."
+        required: false
+        default: ""
+      iptu_drive_id2:
+        description: "Alternativa à URL2: id Drive de uma 2ª safra IPTU com nome (fallback). Vazio = ignora."
+        required: false
+        default: ""
       itbi_drive_ids:
         description: "Drive ids das guias de ITBI (vírgula). Default: 2024,2023,2022,snapshot-2026."
         required: true
@@ -25,9 +33,17 @@ on:
         required: true
         default: "false"
       socios_ids:
-        description: "Se com_pj=true: ids Drive de empresas.csv,socios.csv[,holdings.csv] (vírgula, nessa ordem)."
+        description: "Se com_pj=true: ids Drive de empresas.csv,socios.csv,holdings.csv (vírgula, nessa ordem)."
         required: false
-        default: ""
+        default: "1uRWg7wA4KuppJ1TSdEwRmV3H06fTXlnj,1gftoKzFaD-NyKClBg3SH8Eo0FYncQYvt,1BrBRzC3G4atGZ8JqRZhGp4OnvBZTjOgr"
+      receita_oficial:
+        description: "Usar a base NACIONAL COMPLETA da Receita (espelho Cloudflare, streaming) em vez do dump parcial do Drive. true/false."
+        required: false
+        default: "false"
+      receita_data:
+        description: "Competência do espelho da Receita (pasta AAAA-MM-DD do espelho Cloudflare)."
+        required: false
+        default: "2026-06-14"
 
 permissions:
   contents: write
@@ -69,6 +85,20 @@ jobs:
             mv _comercial_in/iptu.raw _comercial_in/iptu.csv
           fi
           echo "linhas IPTU: $(wc -l < _comercial_in/iptu.csv)"
+          # 2ª safra opcional (fallback dos SQLs ainda sem dono) → iptu2.csv (o parser dedup por SQL, 1ª vence)
+          if [ -n "${{ inputs.iptu_url2 }}" ]; then
+            curl -fsSL "${{ inputs.iptu_url2 }}" -o _comercial_in/iptu2.raw || echo "aviso: falhou url2"
+          elif [ -n "${{ inputs.iptu_drive_id2 }}" ]; then
+            python3 comercial/baixar_drive_sa.py "${{ inputs.iptu_drive_id2 }}" _comercial_in/iptu2.raw || echo "aviso: falhou drive_id2"
+          fi
+          if [ -f _comercial_in/iptu2.raw ]; then
+            if gzip -t _comercial_in/iptu2.raw 2>/dev/null; then
+              mv _comercial_in/iptu2.raw _comercial_in/iptu2.gz && gunzip -f _comercial_in/iptu2.gz && mv _comercial_in/iptu2 _comercial_in/iptu2.csv
+            else
+              mv _comercial_in/iptu2.raw _comercial_in/iptu2.csv
+            fi
+            echo "linhas IPTU 2ª safra: $(wc -l < _comercial_in/iptu2.csv)"
+          fi
 
       - name: Baixar guias de ITBI
         env:
@@ -85,21 +115,22 @@ jobs:
           done
           ls -la _comercial_in/
 
-      - name: (opcional) Baixar canônicas societárias
-        if: ${{ inputs.com_pj == 'true' && inputs.socios_ids != '' }}
+      - name: (opcional) Baixar canônicas societárias (para um temp — recorte depois)
+        if: ${{ inputs.com_pj == 'true' && inputs.socios_ids != '' && inputs.receita_oficial != 'true' }}
         env:
           GOOGLE_SA_KEY: ${{ secrets.GOOGLE_SA_KEY }}
         run: |
           set -e
-          mkdir -p zepec/oficial
+          mkdir -p _canonicas_in
           IFS=',' read -ra IDS <<< "${{ inputs.socios_ids }}"
           names=(empresas.csv socios.csv holdings.csv)
           i=0
           for id in "${IDS[@]}"; do
             id=$(echo "$id" | xargs); [ -z "$id" ] && continue
-            python3 comercial/baixar_drive_sa.py "$id" "zepec/oficial/${names[$i]}"
+            python3 comercial/baixar_drive_sa.py "$id" "_canonicas_in/${names[$i]}"
             i=$((i+1))
           done
+          ls -la _canonicas_in/
 
       - name: Escopo — extrair os SQLs da nossa lista (só eles saem; o resto da cidade é descartado)
         run: |
@@ -120,9 +151,36 @@ jobs:
         run: |
           set -e
           python3 comercial/itbi_para_sql.py --entrada _comercial_in/itbi_*.xlsx || echo "ITBI: sem xlsx legível (segue sem preço)"
-          python3 comercial/iptu2020_para_contribuinte.py --entrada _comercial_in/iptu.csv --filtro-sqls _comercial_in/sqls.txt
-          if [ "${{ inputs.com_pj }}" = "true" ] && [ -f zepec/oficial/socios.csv ]; then
-            python3 zepec/resolver_dono.py --base zepec/oficial || echo "resolver: sem saída (segue só PF)"
+          SAFRAS="_comercial_in/iptu.csv"; [ -f _comercial_in/iptu2.csv ] && SAFRAS="$SAFRAS _comercial_in/iptu2.csv"
+          python3 comercial/iptu2020_para_contribuinte.py --entrada $SAFRAS --filtro-sqls _comercial_in/sqls.txt
+          if [ "${{ inputs.receita_oficial }}" = "true" ]; then
+            # BASE NACIONAL COMPLETA (espelho Cloudflare, sem login/geobloqueio) — streaming: baixa 1 zip,
+            # descompacta, filtra só os nossos CNPJs, APAGA, próximo. Pico de disco ~= 1 arquivo por vez.
+            BASE="https://dados-abertos-rf-cnpj.casadosdados.com.br/arquivos/${{ inputs.receita_data }}"
+            python3 comercial/recorta_receita_oficial.py --fase alvos --contrib zepec/oficial/iptu_contribuinte.csv --estado _rf
+            for i in $(seq 0 9); do
+              curl -fsSL --retry 5 --retry-delay 8 -o _rf.zip "$BASE/Empresas${i}.zip" || { echo "aviso: Empresas${i} falhou"; continue; }
+              unzip -o -q _rf.zip -d _rf_csv && for c in _rf_csv/*; do python3 comercial/recorta_receita_oficial.py --fase empresas --entrada "$c" --estado _rf; done
+              rm -rf _rf.zip _rf_csv
+            done
+            # 3 RODADAS = fecho de holding até 3 níveis: cada rodada descobre novos sócios-PJ (holdings)
+            # e os adiciona ao conjunto needed; a rodada seguinte captura os sócios DELES. finalize dedup.
+            for rodada in 1 2 3; do
+              echo "--- socios rodada $rodada (fecho de holding) ---"
+              for i in $(seq 0 9); do
+                curl -fsSL --retry 5 --retry-delay 8 -o _rf.zip "$BASE/Socios${i}.zip" || { echo "aviso: Socios${i} falhou"; continue; }
+                unzip -o -q _rf.zip -d _rf_csv && for c in _rf_csv/*; do python3 comercial/recorta_receita_oficial.py --fase socios --entrada "$c" --estado _rf; done
+                rm -rf _rf.zip _rf_csv
+              done
+            done
+            python3 comercial/recorta_receita_oficial.py --fase finalize --estado _rf --saida zepec/oficial/recorte
+            python3 zepec/resolver_dono.py --base zepec/oficial/recorte || echo "resolver: sem saída (segue só PF)"
+            rm -rf _rf zepec/oficial/recorte
+          elif [ "${{ inputs.com_pj }}" = "true" ] && [ -f _canonicas_in/socios.csv ]; then
+            # recorta em streaming (só os CNPJs que interessam) → resolver roda no recorte pequeno, sem OOM
+            python3 comercial/recorta_canonicas.py --base _canonicas_in --contrib zepec/oficial/iptu_contribuinte.csv --saida zepec/oficial/recorte
+            python3 zepec/resolver_dono.py --base zepec/oficial/recorte || echo "resolver: sem saída (segue só PF)"
+            rm -rf _canonicas_in zepec/oficial/recorte
           fi
           python3 comercial/enriquecer_lista.py
 
@@ -131,6 +189,7 @@ jobs:
           python3 comercial/iptu2020_para_contribuinte.py --autoteste
           python3 comercial/itbi_para_sql.py --autoteste
           python3 comercial/enriquecer_lista.py --autoteste
+          python3 comercial/recorta_receita_oficial.py --autoteste
 
       - name: Commitar lista enriquecida
         run: |
