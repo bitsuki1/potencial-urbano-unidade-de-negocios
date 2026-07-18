@@ -11,8 +11,9 @@
   "enunciado_ou_tese": "Compensacao por excesso de execucao em desapropriacao de imovel tombado (Santos/SP), envolvendo a transferencia do direito de construir do art. 35 do Estatuto da Cidade. O STJ NAO CONHECEU do recurso, aplicando por analogia a Sumula 280/STF (incidencia de lei local) e a Sumula 7/STJ (reexame de provas), pois a possibilidade de transferir o direito de construir dependia de interpretacao de lei municipal de Santos. DJe 26/11/2012.",
   "tema": [
     "estatuto-da-cidade",
-    "desapropriacao",
-    "tombamento"
+    "transferencia-do-direito-de-construir",
+    "tombamento",
+    "desapropriacao"
   ],
   "dispositivos_relacionados": [
     "Lei Federal no 10.257/2001, art. 35",
@@ -23,20 +24,20 @@
   "vigencia": {
     "inicio": "2012-11-20",
     "fim": null,
-    "nota": "acordao (resumo de metadados)"
+    "nota": "acordao (ementa+decisao verbatim oficial)"
   },
   "fonte": {
-    "origem": "web-extensao-resumo",
-    "url": "STJ — https://scon.stj.jus.br/SCON/ (pesquisa de jurisprudencia)",
-    "hash": "sha256:fc593d698fa733ade89be30e2a7e4c9cae4fd35616c811f1513a912a051fe79f",
+    "origem": "web-oficial-verbatim",
+    "url": "https://scon.stj.jus.br/SCON/GetInteiroTeorDoAcordao?num_registro=201200960468&dt_publicacao=26/11/2012",
+    "hash": "sha256:1c540db2c9cd0687f487e7ff75e4f58273fcd51c8923b539cb762cade4ae7a69",
     "hash_alvo": "jurisprudencia/stj-agrg-aresp-179340-sp.md",
-    "captura_verbatim": null,
-    "hash_nota": "hash do .md (FICHA de metadados). Inteiro teor NAO reproduzido (direitos autorais); verbatim a capturar no portal."
+    "captura_verbatim": "jurisprudencia/_capturas/stj-agrg-aresp-179340-sp.txt",
+    "hash_nota": "hash do .md (VERBATIM oficial: ementa+acordao do SCON/STJ)."
   },
   "status_pipeline": "indexado",
-  "confianca_extracao": "media",
+  "confianca_extracao": "alta",
   "revisado_por_humano": false,
-  "verificacao_verbatim": "RESUMO em linguagem propria (extensao) — inteiro teor NAO reproduzido por direitos autorais. Identificacao (processo/orgao/relator/data) confere.",
+  "verificacao_verbatim": "VERBATIM OFICIAL (SCON/STJ, captura 2026-07-18 via navegador do MOU): ementa (itens 1-3) e acordao reproduzidos literalmente. Decisao judicial = dominio publico (Lei 9.610/98 Art.8 IV). Identificacao (processo/orgao/relator/data/DJe) confere. Diretamente no tema: Art.35 Estatuto da Cidade + TDC do tombado.",
   "dominio_primario": "tdc",
   "dominio": [
     "tdc"

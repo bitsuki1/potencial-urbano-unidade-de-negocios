@@ -8,7 +8,7 @@
   "caminho_hierarquico": [
     "STJ AgRg no AREsp 179.340/SP"
   ],
-  "texto": "STJ AgRg no AREsp 179.340/SP. Compensacao por excesso de execucao em desapropriacao de imovel tombado (Santos/SP), envolvendo a transferencia do direito de construir do art. 35 do Estatuto da Cidade. O STJ NAO CONHECEU do recurso, aplicando por analogia a Sumula 280/STF (incidencia de lei local) e a Sumula 7/STJ (reexame de provas), pois a possibilidade de transferir o direito de construir dependia de interpretacao de lei municipal de Santos. DJe 26/11/2012. Temas: estatuto-da-cidade, desapropriacao, tombamento. Dispositivos relacionados: Lei Federal no 10.257/2001, art. 35; Sumula 280/STF; Sumula 7/STJ.",
+  "texto": "STJ AgRg no AREsp 179.340/SP. Compensacao por excesso de execucao em desapropriacao de imovel tombado (Santos/SP), envolvendo a transferencia do direito de construir do art. 35 do Estatuto da Cidade. O STJ NAO CONHECEU do recurso, aplicando por analogia a Sumula 280/STF (incidencia de lei local) e a Sumula 7/STJ (reexame de provas), pois a possibilidade de transferir o direito de construir dependia de interpretacao de lei municipal de Santos. DJe 26/11/2012. Temas: estatuto-da-cidade, transferencia-do-direito-de-construir, tombamento, desapropriacao. Dispositivos relacionados: Lei Federal no 10.257/2001, art. 35; Sumula 280/STF; Sumula 7/STJ.",
   "citavel": true,
   "vigencia_dispositivo": {
     "status": "original",
@@ -20,17 +20,18 @@
   "citacao": {
     "norma": "acordao STJ AgRg no AREsp 179.340/SP",
     "dispositivo": "2a Turma",
-    "fonte_url": "STJ — https://scon.stj.jus.br/SCON/ (pesquisa de jurisprudencia)",
+    "fonte_url": "https://scon.stj.jus.br/SCON/GetInteiroTeorDoAcordao?num_registro=201200960468&dt_publicacao=26/11/2012",
     "vigencia": {
       "inicio": "2012-11-20",
       "fim": null,
-      "nota": "acordao (resumo de metadados)"
+      "nota": "acordao (ementa+decisao verbatim oficial)"
     }
   },
   "tema": [
     "estatuto-da-cidade",
-    "desapropriacao",
-    "tombamento"
+    "transferencia-do-direito-de-construir",
+    "tombamento",
+    "desapropriacao"
   ],
   "dominio": [
     "tdc"

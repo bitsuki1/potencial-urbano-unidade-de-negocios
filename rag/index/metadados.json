@@ -132005,8 +132005,9 @@
     "rotulo": "STJ AgRg no AREsp 179.340/SP",
     "tema": [
       "estatuto-da-cidade",
-      "desapropriacao",
-      "tombamento"
+      "transferencia-do-direito-de-construir",
+      "tombamento",
+      "desapropriacao"
     ],
     "dominio": [
       "tdc"
@@ -132016,7 +132017,7 @@
     "vigencia": {
       "inicio": "2012-11-20",
       "fim": null,
-      "nota": "acordao (resumo de metadados)"
+      "nota": "acordao (ementa+decisao verbatim oficial)"
     },
     "vigencia_dispositivo": {
       "status": "original",
@@ -132051,7 +132052,13 @@
     "lei_id": "stj-resp-1130545",
     "tipo_dispositivo": "jurisprudencia",
     "rotulo": "STJ 1130545",
-    "tema": [],
+    "tema": [
+      "lancamento-tributario",
+      "erro-de-fato",
+      "erro-de-direito",
+      "revisao-de-lancamento",
+      "repetitivo"
+    ],
     "dominio": [
       "iptu"
     ],

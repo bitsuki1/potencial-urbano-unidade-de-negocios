@@ -1,6 +1,6 @@
 {
   "_doc": "Fonte da verdade do status_pipeline de cada item. GERADO por scripts/consolidar.py a partir dos .json individuais — NAO editar a mao (Principio 1.5/2.3 do CLAUDE.md). Roda a cada push via .github/workflows/consolidar.yml.",
-  "gerado_em": "2026-07-18T15:41:24.076816+00:00",
+  "gerado_em": "2026-07-18T23:37:21.479493+00:00",
   "vocabulario_status": [
     "bruto",
     "fatiado",
@@ -21,7 +21,7 @@
     "status_ilegais_encontrados": [],
     "verbatim_integral_ativos": 70,
     "_nota_verbatim_integral": "B-7/AUD-17: verbatim_integral e DERIVADO do marcador '## Texto integral (verbatim)' no .md (prova mecanica, nao declaracao). Difere de confianca_extracao (flag do extrator).",
-    "confianca_baixa_ou_media": 11,
+    "confianca_baixa_ou_media": 10,
     "_nota_verbatim": "confianca e flag de extracao, nao prova de verbatim. CORRIGIDO na auditoria profunda 2026-06-20 (AUD-01): 13 leis JA estao em verbatim integral e indexadas (12 federais re-ingeridas de _entrada/misto/ + a 7228/1968 municipal) — supera a narrativa antiga 'planalto deu 403, NENHUMA e verbatim', que confundia 'o .md e resumo' com 'o verbatim nao existe'. Faltam 12 municipais (so resumo WebSearch) — re-ingestao verbatim delas e o que resta do pre-requisito do RAG. As juris (curtas) sao verbatim."
   },
   "alertas": {
@@ -29,7 +29,6 @@
     "itens_confianca_baixa_ou_media_a_revisar": [
       "stf-re-226942-sc",
       "stf-re-387047-sc",
-      "stj-agrg-aresp-179340-sp",
       "stj-tema-1350",
       "stj-tema-262",
       "stj-tema-399",
@@ -384,13 +383,13 @@
       "caminho_json": "jurisprudencia/stj-agrg-aresp-179340-sp.json",
       "status_pipeline": "indexado",
       "status_valido": true,
-      "confianca_extracao": "media",
+      "confianca_extracao": "alta",
       "verbatim_integral": false,
       "vigencia_inicio": "2012-11-20",
       "revisado_por_humano": false,
       "fora_de_escopo": false,
       "fora_de_escopo_motivo": null,
-      "fonte_url": "STJ — https://scon.stj.jus.br/SCON/ (pesquisa de jurisprudencia)"
+      "fonte_url": "https://scon.stj.jus.br/SCON/GetInteiroTeorDoAcordao?num_registro=201200960468&dt_publicacao=26/11/2012"
     },
     {
       "id": "stj-resp-1112646",
@@ -420,7 +419,7 @@
       "revisado_por_humano": false,
       "fora_de_escopo": false,
       "fora_de_escopo_motivo": null,
-      "fonte_url": "https://www.stj.jus.br/websecstj/cgi/revista/REJ.cgi/ITA?seq=1098748&nreg=201100996000&dt=20111027&formato=HTML"
+      "fonte_url": "https://scon.stj.jus.br/SCON/GetInteiroTeorDoAcordao?num_registro=200900568067&dt_publicacao=22/02/2011"
     },
     {
       "id": "stj-resp-1202136",
