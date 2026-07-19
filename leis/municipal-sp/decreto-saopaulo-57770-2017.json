@@ -83,7 +83,7 @@
     "hash_alvo": "_entrada/misto/decreto-saopaulo-57770-2017.txt",
     "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior."
   },
-  "status_pipeline": "bruto",
+  "status_pipeline": "indexado",
   "confianca_extracao": "alta",
   "revisado_por_humano": false,
   "dominio_primario": "compartilhado",

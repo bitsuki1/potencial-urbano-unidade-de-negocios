@@ -1,0 +1,49 @@
+{
+  "chunk_id": "decreto-saopaulo-57521-2016::008-art-7o",
+  "lei_id": "decreto-saopaulo-57521-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 7º",
+  "numero": "7",
+  "header_raw": "Art. 7º Para fins de aplicação do disposto no inciso II do “caput” do artigo 66 da Lei nº 16.402, de 2016, devem ser observadas as seguintes condicionantes:",
+  "caminho_hierarquico": [
+    "Art. 7º"
+  ],
+  "texto": "Art. 7º Para fins de aplicação do disposto no inciso II do “caput” do artigo 66 da Lei nº 16.402, de 2016, devem ser observadas as seguintes condicionantes:\n\nI - os recuos laterais e de fundo ficam dispensados na extensão da divisa ocupada por edificação existente no lote vizinho;\n\nII - a edificação deve atender ao gabarito estabelecido no Quadro 3 da Lei nº 16.402, de 2016, ou, se for o caso, ao disposto em seu artigo 60, independente da altura da edificação existente na divisa, ressaltada a hipótese prevista no inciso II do “caput” do citado artigo 60.\n\n§ 1º A situação fática das edificações deve ser demonstrada pelo interessado, através de levantamento fotográfico, imagem de satélite, levantamento aerofotogramétrico, imagens virtuais do local, levantamento topográfico das edificações com declaração assinada pelo proprietário e por profissional habilitado ou outros elementos que justifiquem a justaposição de fachadas.\n\n§ 2º Cabe à CEUSO, em situações especiais, a análise e deliberação da aplicação do disposto neste artigo.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.521/2016 — São Paulo/SP",
+    "dispositivo": "Art. 7º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57521-de-09-de-dezembro-de-2016",
+    "vigencia": {
+      "inicio": "2016-12-09",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a aplicação de disposições da Lei nº 16.402, de 22 de março de 2016, relativas à ocupação do solo e condições de instalação dos usos."
+}

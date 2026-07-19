@@ -1,6 +1,6 @@
 {
   "_doc": "Fonte da verdade do status_pipeline de cada item. GERADO por scripts/consolidar.py a partir dos .json individuais — NAO editar a mao (Principio 1.5/2.3 do CLAUDE.md). Roda a cada push via .github/workflows/consolidar.yml.",
-  "gerado_em": "2026-07-19T03:05:39.248640+00:00",
+  "gerado_em": "2026-07-19T03:47:16.879070+00:00",
   "vocabulario_status": [
     "bruto",
     "fatiado",
@@ -9,17 +9,17 @@
     "indexado"
   ],
   "resumo": {
-    "total_itens": 121,
-    "leis": 82,
+    "total_itens": 127,
+    "leis": 88,
     "jurisprudencia": 39,
-    "ativos_no_escopo": 121,
+    "ativos_no_escopo": 127,
     "fora_de_escopo": 0,
     "_nota": "por_status_pipeline conta SÓ os ativos_no_escopo. Os 2 fora-de-escopo históricos (stf-tema-1020/ISS, stj-resp-1658054/previdenciário) foram ARQUIVADOS por decisão do dono em 2026-07-05 (git rm; recuperáveis pelo histórico).",
     "por_status_pipeline_ativos": {
-      "indexado": 121
+      "indexado": 127
     },
     "status_ilegais_encontrados": [],
-    "verbatim_integral_ativos": 82,
+    "verbatim_integral_ativos": 88,
     "_nota_verbatim_integral": "B-7/AUD-17: verbatim_integral e DERIVADO do marcador '## Texto integral (verbatim)' no .md (prova mecanica, nao declaracao). Difere de confianca_extracao (flag do extrator).",
     "confianca_baixa_ou_media": 10,
     "_nota_verbatim": "confianca e flag de extracao, nao prova de verbatim. CORRIGIDO na auditoria profunda 2026-06-20 (AUD-01): 13 leis JA estao em verbatim integral e indexadas (12 federais re-ingeridas de _entrada/misto/ + a 7228/1968 municipal) — supera a narrativa antiga 'planalto deu 403, NENHUMA e verbatim', que confundia 'o .md e resumo' com 'o verbatim nao existe'. Faltam 12 municipais (so resumo WebSearch) — re-ingestao verbatim delas e o que resta do pre-requisito do RAG. As juris (curtas) sao verbatim."
@@ -1007,6 +1007,21 @@
       "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-56954-de-28-de-abril-de-2016"
     },
     {
+      "id": "decreto-saopaulo-57299-2016",
+      "tipo": "decreto",
+      "caminho_md": "leis/municipal-sp/decreto-saopaulo-57299-2016.md",
+      "caminho_json": "leis/municipal-sp/decreto-saopaulo-57299-2016.json",
+      "status_pipeline": "indexado",
+      "status_valido": true,
+      "confianca_extracao": "alta",
+      "verbatim_integral": true,
+      "vigencia_inicio": "2016-12-12",
+      "revisado_por_humano": false,
+      "fora_de_escopo": false,
+      "fora_de_escopo_motivo": null,
+      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57299-de-08-de-setembro-de-2016"
+    },
+    {
       "id": "decreto-saopaulo-57443-2016",
       "tipo": "decreto municipal",
       "caminho_md": "leis/municipal-sp/decreto-saopaulo-57443-2016.md",
@@ -1020,6 +1035,21 @@
       "fora_de_escopo": false,
       "fora_de_escopo_motivo": null,
       "fonte_url": null
+    },
+    {
+      "id": "decreto-saopaulo-57521-2016",
+      "tipo": "decreto",
+      "caminho_md": "leis/municipal-sp/decreto-saopaulo-57521-2016.md",
+      "caminho_json": "leis/municipal-sp/decreto-saopaulo-57521-2016.json",
+      "status_pipeline": "indexado",
+      "status_valido": true,
+      "confianca_extracao": "alta",
+      "verbatim_integral": true,
+      "vigencia_inicio": "2016-12-09",
+      "revisado_por_humano": false,
+      "fora_de_escopo": false,
+      "fora_de_escopo_motivo": null,
+      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57521-de-09-de-dezembro-de-2016"
     },
     {
       "id": "decreto-saopaulo-57536-2016",
@@ -1050,6 +1080,36 @@
       "fora_de_escopo": false,
       "fora_de_escopo_motivo": null,
       "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57565-de-27-de-dezembro-de-2016"
+    },
+    {
+      "id": "decreto-saopaulo-57770-2017",
+      "tipo": "decreto",
+      "caminho_md": "leis/municipal-sp/decreto-saopaulo-57770-2017.md",
+      "caminho_json": "leis/municipal-sp/decreto-saopaulo-57770-2017.json",
+      "status_pipeline": "indexado",
+      "status_valido": true,
+      "confianca_extracao": "alta",
+      "verbatim_integral": true,
+      "vigencia_inicio": "2017-07-03",
+      "revisado_por_humano": false,
+      "fora_de_escopo": false,
+      "fora_de_escopo_motivo": null,
+      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57770-de-03-de-julho-de-2017"
+    },
+    {
+      "id": "decreto-saopaulo-57776-2017",
+      "tipo": "decreto",
+      "caminho_md": "leis/municipal-sp/decreto-saopaulo-57776-2017.md",
+      "caminho_json": "leis/municipal-sp/decreto-saopaulo-57776-2017.json",
+      "status_pipeline": "indexado",
+      "status_valido": true,
+      "confianca_extracao": "alta",
+      "verbatim_integral": true,
+      "vigencia_inicio": "2017-07-07",
+      "revisado_por_humano": false,
+      "fora_de_escopo": false,
+      "fora_de_escopo_motivo": null,
+      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57776-de-07-de-julho-de-2017"
     },
     {
       "id": "decreto-saopaulo-58028-2017",
@@ -1607,6 +1667,21 @@
       "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-14089-de-22-de-novembro-de-2005"
     },
     {
+      "id": "lei-municipal-saopaulo-14094-2005",
+      "tipo": "lei_ordinaria",
+      "caminho_md": "leis/municipal-sp/lei-municipal-saopaulo-14094-2005.md",
+      "caminho_json": "leis/municipal-sp/lei-municipal-saopaulo-14094-2005.json",
+      "status_pipeline": "indexado",
+      "status_valido": true,
+      "confianca_extracao": "alta",
+      "verbatim_integral": true,
+      "vigencia_inicio": "2005-12-06",
+      "revisado_por_humano": false,
+      "fora_de_escopo": false,
+      "fora_de_escopo_motivo": null,
+      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-14094-de-06-de-dezembro-de-2005"
+    },
+    {
       "id": "lei-municipal-saopaulo-14865-2008",
       "tipo": "lei_ordinaria",
       "caminho_md": "leis/municipal-sp/lei-municipal-saopaulo-14865-2008.md",
@@ -1635,6 +1710,21 @@
       "fora_de_escopo": false,
       "fora_de_escopo_motivo": null,
       "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-15044-de-03-de-dezembro-de-2009"
+    },
+    {
+      "id": "lei-municipal-saopaulo-15150-2010",
+      "tipo": "lei_ordinaria",
+      "caminho_md": "leis/municipal-sp/lei-municipal-saopaulo-15150-2010.md",
+      "caminho_json": "leis/municipal-sp/lei-municipal-saopaulo-15150-2010.json",
+      "status_pipeline": "indexado",
+      "status_valido": true,
+      "confianca_extracao": "alta",
+      "verbatim_integral": true,
+      "vigencia_inicio": "2010-05-06",
+      "revisado_por_humano": false,
+      "fora_de_escopo": false,
+      "fora_de_escopo_motivo": null,
+      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-15150-de-06-de-maio-de-2010"
     },
     {
       "id": "lei-municipal-saopaulo-15723-2013",

@@ -1,0 +1,52 @@
+{
+  "chunk_id": "decreto-saopaulo-57776-2017::062-art-61",
+  "lei_id": "decreto-saopaulo-57776-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 61",
+  "numero": "61",
+  "header_raw": "Art. 61. Nos pedidos de licenciamento edilício em imóvel de propriedade da União, do Estado e do Município protocolados até a data de entrada em vigor deste decreto e sem despacho decisório, deverá ser emitido “comunique-se” informando sobre a possibilidade de opção pelo encerramento do processo nos termos do artigo 14 do COE.(Revogado pelo Decreto nº 58.943/2019)",
+  "caminho_hierarquico": [
+    "CAPÍTULO IV",
+    "Seção III",
+    "Art. 61"
+  ],
+  "texto": "Art. 61. Nos pedidos de licenciamento edilício em imóvel de propriedade da União, do Estado e do Município protocolados até a data de entrada em vigor deste decreto e sem despacho decisório, deverá ser emitido “comunique-se” informando sobre a possibilidade de opção pelo encerramento do processo nos termos do artigo 14 do COE.(Revogado pelo Decreto nº 58.943/2019)\n\n§ 1º Nos processos em andamento de que trata o “caput” deste artigo, quando o pedido incluir a regularização de edificação declarada existente até 31 de julho de 2014, data da Lei nº 16.050, de 31 de julho de 2014, também deverá ser dada ciência ao interessado quanto às disposições do artigo 109 do COE.\n\n§ 2º Em caso de desistência do pedido, deve ser exarado despacho declaratório de indeferimento na instância alcançada, sem a emissão de documento.\n\n§ 3º O disposto neste artigo não dispensa da necessidade de elaboração de projeto ou verificação da edificação por profissional habilitado e não desobriga o profissional do cumprimento das normas disciplinadoras de sua regular atuação e daquelas decorrentes da legislação federal, estadual e municipal, bem como não desobriga o proprietário e o responsável técnico do atendimento às disposições da LPUOS e da LOE, em especial do atendimento às normas de estabilidade, segurança, salubridade e acessibilidade da edificação.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.776/2017 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO IV › Seção III › Art. 61",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57776-de-07-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 16.642, de 9 de maio de 2017, que aprovou o Código de Obras e Edificações do Município de São Paulo; define os membros da Comissão de Edificações e Uso do Solo – CEUSO."
+}

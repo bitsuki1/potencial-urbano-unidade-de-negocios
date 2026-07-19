@@ -1,0 +1,52 @@
+{
+  "chunk_id": "decreto-saopaulo-57776-2017::024-art-23",
+  "lei_id": "decreto-saopaulo-57776-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 23",
+  "numero": "23",
+  "header_raw": "Art. 23. No caso de obra paralisada com Alvará de Execução caduco e a superestrutura parcialmente concluída, se o projeto original não atender à legislação superveniente, poderá ser solicitado Alvará de Reforma para a conclusão da parte existente com fundamento na legislação anterior.",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção II",
+    "Art. 23"
+  ],
+  "texto": "Art. 23. No caso de obra paralisada com Alvará de Execução caduco e a superestrutura parcialmente concluída, se o projeto original não atender à legislação superveniente, poderá ser solicitado Alvará de Reforma para a conclusão da parte existente com fundamento na legislação anterior.\n\n§ 1º Deverá ser apresentado registro fotográfico e documental para a comprovação da conclusão da superestrutura.\n\n§ 2º As áreas acrescidas devem atender às condições de higiene, salubridade, segurança de uso e acessibilidade estabelecidas na LOE e os índices e parâmetros urbanísticos da LPUOS.\n\n§ 3º O Alvará de Reforma de que trata este artigo abrangerá a regularização da edificação existente.\n\n§ 4º O Certificado de Conclusão do Alvará de Reforma incluirá a regularização de todo o imóvel edificado.\n\nSubseção III\n\nDo Certificado de Conclusão",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.776/2017 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção II › Art. 23",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57776-de-07-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 16.642, de 9 de maio de 2017, que aprovou o Código de Obras e Edificações do Município de São Paulo; define os membros da Comissão de Edificações e Uso do Solo – CEUSO."
+}

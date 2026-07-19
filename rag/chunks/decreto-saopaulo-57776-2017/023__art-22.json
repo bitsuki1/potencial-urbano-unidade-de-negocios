@@ -1,0 +1,52 @@
+{
+  "chunk_id": "decreto-saopaulo-57776-2017::023-art-22",
+  "lei_id": "decreto-saopaulo-57776-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 22",
+  "numero": "22",
+  "header_raw": "Art. 22. O Alvará de Execução para edificação nova, reforma, requalificação e reconstrução de edificação perderá a validade:",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção II",
+    "Art. 22"
+  ],
+  "texto": "Art. 22. O Alvará de Execução para edificação nova, reforma, requalificação e reconstrução de edificação perderá a validade:\n\nI - caso a obra não tenha sido iniciada, em 2 (dois) anos a contar da data da publicação do despacho de deferimento do pedido;\n\nII - caso a obra tenha sido iniciada, se permanecer paralisada por período superior a 1 (um) ano.\n\n§ 1º Considera-se início de obra, para fins da contagem do prazo de vigência do Alvará de Execução, o término das fundações da edificação ou de um dos blocos, sendo que:\n\nI - o interessado poderá comunicar a Prefeitura o término das fundações e o andamento da obra por meio de registro fotográfico e documental, dentro do prazo de vigência do Alvará de Execução;\n\nII - a Prefeitura poderá solicitar ao interessado documentação complementar para a comprovação da validade do Alvará de Execução;\n\nIII - caso não adotadas as providências constantes dos incisos I e II deste parágrafo, o Alvará perderá a validade.\n\n§ 2º O prazo de vigência dos Alvarás de Aprovação e Execução, expedidos em conjunto ou não, totalizará 4 (quatro) anos.\n\n§ 3º Quando o Alvará de Execução for expedido após o prazo de validade do Alvará de Aprovação, o prazo de vigência do Alvará de Execução será contado a partir do seu deferimento.\n\n§ 4º Nos casos de reforma que não envolva novas fundações, considera-se início de obra o início dos serviços de demolição ou construção.\n\n§ 5º Concluída a superestrutura da edificação, o Alvará de Execução não mais prescreverá.\n\n§ 6º Concluída a superestrutura de um bloco, o Alvará de Execução não mais prescreverá para este bloco.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.776/2017 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção II › Art. 22",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57776-de-07-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 16.642, de 9 de maio de 2017, que aprovou o Código de Obras e Edificações do Município de São Paulo; define os membros da Comissão de Edificações e Uso do Solo – CEUSO."
+}

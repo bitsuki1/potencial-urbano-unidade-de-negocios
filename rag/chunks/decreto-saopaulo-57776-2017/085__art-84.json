@@ -1,0 +1,52 @@
+{
+  "chunk_id": "decreto-saopaulo-57776-2017::085-art-84",
+  "lei_id": "decreto-saopaulo-57776-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 84",
+  "numero": "84",
+  "header_raw": "Art. 84. Esgotadas todas as providências administrativas para a paralisação da obra, o Supervisor de Fiscalização deverá:",
+  "caminho_hierarquico": [
+    "CAPÍTULO VI",
+    "Seção I",
+    "Art. 84"
+  ],
+  "texto": "Art. 84. Esgotadas todas as providências administrativas para a paralisação da obra, o Supervisor de Fiscalização deverá:\n\nI - extrair cópia das principais peças do processo administrativo para encaminhamento à Delegacia de Polícia, a fim de instruir o inquérito policial;\n\nII - solicitar que o Gabinete da Prefeitura Regional expeça ofícios ao CREA ou CAU com as informações do processo administrativo para a apuração da responsabilidade profissional;\n\nIII - encaminhar o processo original ao setor jurídico para manifestação e posterior encaminhamento ao Departamento de Defesa do Meio Ambiente e do Patrimônio, da Procuradoria Geral do Município, para as providências de ajuizamento da ação judicial cabível, sem prejuízo da incidência de multas diárias, em processo próprio, caso persistam as irregularidades.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.776/2017 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO VI › Seção I › Art. 84",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57776-de-07-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 16.642, de 9 de maio de 2017, que aprovou o Código de Obras e Edificações do Município de São Paulo; define os membros da Comissão de Edificações e Uso do Solo – CEUSO."
+}

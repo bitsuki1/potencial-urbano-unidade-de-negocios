@@ -1,0 +1,47 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-15150-2010::016-art-12",
+  "lei_id": "lei-municipal-saopaulo-15150-2010",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 12",
+  "numero": "12",
+  "header_raw": "Art. 12. No caso da impossibilidade do cumprimento das exigências estabelecidas na Certidão de Diretrizes por fatores alheios à sua atuação, o empreendedor poderá apresentar pedido autônomo à Secretaria Municipal de Transportes - SMT, contendo os elementos justificativos de inviabilidade, a solicitação de novo prazo e a indicação de garantias de aporte financeiro para a execução das obras necessárias.",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Art. 12"
+  ],
+  "texto": "Art. 12. No caso da impossibilidade do cumprimento das exigências estabelecidas na Certidão de Diretrizes por fatores alheios à sua atuação, o empreendedor poderá apresentar pedido autônomo à Secretaria Municipal de Transportes - SMT, contendo os elementos justificativos de inviabilidade, a solicitação de novo prazo e a indicação de garantias de aporte financeiro para a execução das obras necessárias. \n\n§ 1º O pedido apresentado pelo empreendedor será analisado pela Secretaria Municipal de Transportes - SMT, que poderá emitir o Termo de Recebimento e Aceitação Parcial - TRAP, oficiando à Subprefeitura competente para a adoção das providências necessárias. (Parágrafo declarado constitucional na ADI nº 0112171-80.2012.8.26.0000)\n\n§ 2º As garantias mencionadas no \"caput\" deste artigo serão efetuadas através de caução em dinheiro ou fiança bancária, no dobro do valor da obra ou serviço a ser executado pelo interessado.\n\n§ 3º Sanados os motivos impeditivos da realização das medidas mitigadoras, a Secretaria Municipal de Transportes - SMT deverá notificar o empreendedor para a realização imediata dos serviços, sob pena da revogação do Termo de Recebimento e Aceitação Parcial - TRAP e documentos subsequentes e da perda integral da garantia apresentada em favor do Fundo Municipal de Desenvolvimento de Trânsito. (A expressão “da revogação do Termo de Recebimento e Aceitação Parcial - TRAP e documentos subsequentes e” foi declarada constitucional na ADI nº 0112171-80.2012.8.26.0000).\n\n§ 4º Quando a impossibilidade do cumprimento das exigências contidas na Certidão de Diretrizes perdurar por mais de 12 (doze) meses, a Secretaria Municipal de Transportes - SMT deverá retificar a Certidão de Diretrizes, sem prejuízo da permanência da garantia oferecida.\n\nCAPÍTULO VI\n\nDA APROVAÇÃO DO EMPREENDIMENTO",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 15.150/2010 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO V › Art. 12",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-15150-de-06-de-maio-de-2010",
+    "vigencia": {
+      "inicio": "2010-05-06",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=True revoga=True."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "operacao_urbana",
+    "regularizacao",
+    "planta_generica_valores"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre os procedimentos para a aprovação de projetos arquitetônicos e para a execução de obras e serviços necessários para a minimização de impacto no Sistema Viário decorrente da implantação ou reforma de edificações e da instalação de atividades – Polo Gerador de Tráfego."
+}

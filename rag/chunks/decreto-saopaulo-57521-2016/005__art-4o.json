@@ -1,0 +1,49 @@
+{
+  "chunk_id": "decreto-saopaulo-57521-2016::005-art-4o",
+  "lei_id": "decreto-saopaulo-57521-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 4º",
+  "numero": "4",
+  "header_raw": "Art. 4º Para fins do disposto no inciso IV do “caput” do artigo 62 da Lei nº 16.402, de 2016, consideram-se também as vagas especiais, para idosos e de motocicletas exigidas no Código de Obras e Edificações - COE e legislação correlata.",
+  "caminho_hierarquico": [
+    "Art. 4º"
+  ],
+  "texto": "Art. 4º Para fins do disposto no inciso IV do “caput” do artigo 62 da Lei nº 16.402, de 2016, consideram-se também as vagas especiais, para idosos e de motocicletas exigidas no Código de Obras e Edificações - COE e legislação correlata.\n\n§ 1º Considera-se não computável, no uso residencial, as vagas decorrentes da aplicação do artigo 174 da Lei nº 16.402, de 2016, dentro dos limites estabelecidos no referido artigo.\n\n§ 2º Quando o número mínimo de vagas exigido no Quadro 4A da Lei nº 16.402, de 2016, e no COE resultar em área construída para estacionamento superior à área não computável decorrente da proporção estabelecida no § 2º do artigo 62 da citada Lei nº 16.402, de 2016, a área construída reservada às vagas que excederem tal proporção também será considerada não computável.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.521/2016 — São Paulo/SP",
+    "dispositivo": "Art. 4º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57521-de-09-de-dezembro-de-2016",
+    "vigencia": {
+      "inicio": "2016-12-09",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a aplicação de disposições da Lei nº 16.402, de 22 de março de 2016, relativas à ocupação do solo e condições de instalação dos usos."
+}

@@ -1,0 +1,52 @@
+{
+  "chunk_id": "decreto-saopaulo-57776-2017::095-art-94",
+  "lei_id": "decreto-saopaulo-57776-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 94",
+  "numero": "94",
+  "header_raw": "Art. 94. Verificado o desrespeito ao estabelecido no subitem 3.4.2 do item 3 do Anexo I do COE, a Prefeitura Regional competente deverá:",
+  "caminho_hierarquico": [
+    "CAPÍTULO VI",
+    "Seção III",
+    "Art. 94"
+  ],
+  "texto": "Art. 94. Verificado o desrespeito ao estabelecido no subitem 3.4.2 do item 3 do Anexo I do COE, a Prefeitura Regional competente deverá:\n\nI - aplicar a multa prevista na Tabela de Multas, contida no Anexo III do COE, correspondente ao valor fixado para as demais infrações das disposições do COE;\n\nII - intimar os proprietários ou possuidores a qualquer título das edificações, para que no prazo de 30 (trinta) dias, executem as adaptações necessárias em sua edificação, ou de modo a possibilitar a canalização sob o passeio à rede coletora de águas pluviais, de acordo com as normas emanadas do órgão competente.\n\nParágrafo único. Não atendida a intimação no prazo fixado, as Prefeituras Regionais deverão reaplicar a multa a cada período de 30 (trinta) dias, até que sejam tomadas as medidas necessárias para o saneamento da irregularidade.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.776/2017 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO VI › Seção III › Art. 94",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57776-de-07-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 16.642, de 9 de maio de 2017, que aprovou o Código de Obras e Edificações do Município de São Paulo; define os membros da Comissão de Edificações e Uso do Solo – CEUSO."
+}

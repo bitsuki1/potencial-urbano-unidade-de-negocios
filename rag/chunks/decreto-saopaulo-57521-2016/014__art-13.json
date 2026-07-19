@@ -1,0 +1,49 @@
+{
+  "chunk_id": "decreto-saopaulo-57521-2016::014-art-13",
+  "lei_id": "decreto-saopaulo-57521-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 13",
+  "numero": "13",
+  "header_raw": "Art. 13. Para atendimento do artigo 72 da Lei nº 16.402, de 2016, consideram-se áreas sujeitas a recalques e problemas geotécnicos os perímetros de Moema, Água Branca, Chácara Santo Antônio e Paraiso constantes do Anexo I deste decreto.",
+  "caminho_hierarquico": [
+    "Art. 13"
+  ],
+  "texto": "Art. 13. Para atendimento do artigo 72 da Lei nº 16.402, de 2016, consideram-se áreas sujeitas a recalques e problemas geotécnicos os perímetros de Moema, Água Branca, Chácara Santo Antônio e Paraiso constantes do Anexo I deste decreto.\n\n§ 1º Na execução de obras em lote ou gleba inserido nesses perímetros, quando a cota de implantação do último subsolo estiver abaixo do nível do lençol freático detectado nas sondagens, devem ser observadas as seguintes condições:\n\nI - garantia de utilização das melhores soluções técnicas de engenharia para fins de vedação do perímetro do subsolo, de acordo com as Normas Técnicas Oficiais, tais como parede diafragma, estacas justapostas, hélice secante, estacas prancha, jet grouting, deep soil mixing, dentre outras, com o devido monitoramento pelo interessado, se necessário;\n\nII - a solução de vedação deve ser embutida em camada de solo de baixa permeabilidade, abaixo do último subsolo e, caso isso não seja possível, o projeto deve prever laje de subpressão ou outra solução técnica equivalente que garanta a estanqueidade do subsolo;\n\nIII - contratação de seguro de obra e riscos de engenharia e de responsabilidade civil cruzada que cubra os eventuais danos comprovadamente ocasionados pela obra aos imóveis vizinhos.\n\n§ 2º Caberá á CEUSO a definição, se o caso, de outras áreas sujeitas a recalques e problemas geotécnicas e a descrição dos respectivos perímetros.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.521/2016 — São Paulo/SP",
+    "dispositivo": "Art. 13",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57521-de-09-de-dezembro-de-2016",
+    "vigencia": {
+      "inicio": "2016-12-09",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a aplicação de disposições da Lei nº 16.402, de 22 de março de 2016, relativas à ocupação do solo e condições de instalação dos usos."
+}

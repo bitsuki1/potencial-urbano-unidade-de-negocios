@@ -1,0 +1,51 @@
+{
+  "chunk_id": "decreto-saopaulo-57776-2017::105-art-104",
+  "lei_id": "decreto-saopaulo-57776-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 104",
+  "numero": "104",
+  "header_raw": "Art. 104. Conforme previsto no artigo 111 do COE, que altera a Lei nº 15.764, de 27 de março de 2013, ficam definidos os seguintes membros da CEUSO:",
+  "caminho_hierarquico": [
+    "CAPÍTULO VIII",
+    "Art. 104"
+  ],
+  "texto": "Art. 104. Conforme previsto no artigo 111 do COE, que altera a Lei nº 15.764, de 27 de março de 2013, ficam definidos os seguintes membros da CEUSO:\n\nI - membros indicados pela Administração Municipal, titular e suplente, a saber:\n\na) 2 (dois) representantes da Secretaria Municipal de Urbanismo e Licenciamento - SMUL;\n\nb) 1 (um) representante da Secretaria Municipal das Prefeituras Regionais - SMPR;\n\nc) 1 (um) representante da Secretaria Municipal de Justiça - SMJ;\n\nII - membros indicados pelas seguintes entidades, titular e suplente, a saber:\n\na) 1 (um) representante de entidades ligadas aos sindicatos e associações de construção, incorporações e comercialização de imóveis;\n\nb) 1 (um) representante da Associação Brasileira dos Escritórios de Arquitetura – ASBEA;\n\nc) 1 (um) representante do Conselho de Arquitetura e Urbanismo de São Paulo – CAU-SP;\n\nd) 1 (um) representante do Conselho Regional de Engenharia e Agronomia do Estado de São Paulo – CREA-SP.\n\nParágrafo único. Os representantes deverão ter formação em arquitetura ou engenharia, sendo que o representante de que trata a alínea “c” do inciso I do “caput” deste artigo poderá ser Procurador do Município.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.776/2017 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO VIII › Art. 104",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57776-de-07-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 16.642, de 9 de maio de 2017, que aprovou o Código de Obras e Edificações do Município de São Paulo; define os membros da Comissão de Edificações e Uso do Solo – CEUSO."
+}

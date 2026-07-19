@@ -1,0 +1,49 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-15150-2010::011-art-8o",
+  "lei_id": "lei-municipal-saopaulo-15150-2010",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 8º",
+  "numero": "8",
+  "header_raw": "Art. 8º Nos casos em que a análise do projeto apresentado indicar a necessidade da execução de obras e serviços relacionados à operação do Sistema Viário, bem como a realização de medidas compensatórias, o empreendedor arcará integralmente com as despesas do projeto e implantação das medidas.(Redação dada pela Lei nº 16.801/2018)",
+  "caminho_hierarquico": [
+    "CAPÍTULO IV",
+    "Art. 8º"
+  ],
+  "texto": "Art. 8º Nos casos em que a análise do projeto apresentado indicar a necessidade da execução de obras e serviços relacionados à operação do Sistema Viário, bem como a realização de medidas compensatórias, o empreendedor arcará integralmente com as despesas do projeto e implantação das medidas.(Redação dada pela Lei nº 16.801/2018)\n\n§ 1º O custo das melhorias viárias a serem executadas pelo empreendedor não poderá representar mais que 5% (cinco por cento) do custo total do empreendimento. (Parágrafo declarado inconstitucional pela ADI nº 0112171-80.2012.8.26.0000)\n\n§ 2º O custo das melhorias viárias será apurado com base em orçamento detalhado, elaborado pelo empreendedor conforme as tabelas oficiais utilizadas pelo Município de São Paulo, que deverá indicar:\n\nI - o custo total das melhorias viárias, com a descrição detalhada dos preços de cada item;\n\nII - o custo total do empreendimento; e\n\nIII - a equivalência entre o orçamento das melhorias viárias e o custo total do empreendimento.\n\n§ 3º Se o custo das melhorias viárias ultrapassar o limite estabelecido neste artigo, a Secretaria Municipal de Transportes – SMT, deverá, no prazo de 60 (sessenta) dias, eleger de forma expressa, dentre aquelas inicialmente previstas, as que deseja que devam ser executadas pelo empreendedor, que ficará desonerado em relação às demais obrigações que superem o limite mencionado no § 1º supra. (Parágrafo declarado inconstitucional pela ADI nº 0112171-80.2012.8.26.0000)\n\n§ 4º Todos os empreendimentos classificados como Polos Geradores de Tráfego deverão recolher ao Fundo Municipal de Desenvolvimento de Trânsito para a realização de projetos específicos de trânsito e transporte:\n\nI - no caso de não ser necessária imediatamente nenhuma obra viária ou serviço, o valor correspondente a 1% (um por cento) do custo total do empreendimento;\n\nII - no caso do valor das obras e serviços realizados não atingir o valor correspondente a 1% (um por cento) do custo total do empreendimento, o valor remanescente.\n\n§ 5º Para a apuração do custo total do empreendimento em:\n\nI - implantação de edificações: o interessado deverá se valer dos parâmetros de quantificação e dos índices constantes da tabela editada pela Secretaria de Infraestrutura Urbana e Obras – SIURB para toda a obra;\n\nII - reforma de edificações: o interessado deverá se valer dos parâmetros de quantificação e dos índices constantes da tabela editada pela Secretaria de Infraestrutura Urbana e Obras – SIURB para toda a obra somado ao Valor Venal da Construção - VVC preexistente; e\n\nIII - instalação de atividades: o interessado deverá se valer do Valor Venal da Construção - VVC preexistente.\n\n§ 6º A obrigatoriedade da execução de obras e serviços relacionados à operação do Sistema Viário e do recolhimento do valor referido no § 4º deste artigo independem de se tratar de empreendimento aprovado por meio de adesão a operação urbana e de ter havido o pagamento de outorga onerosa, vinculação de Certificados de Potencial Adicional de Construção para aprovação do projeto ou qualquer outra forma de contrapartida relacionada à utilização de regras urbanísticas diferenciadas.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "2018",
+    "norma_redacao": "Lei nº 16.801/2018"
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 15.150/2010 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO IV › Art. 8º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-15150-de-06-de-maio-de-2010",
+    "vigencia": {
+      "inicio": "2010-05-06",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=True revoga=True."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "operacao_urbana",
+    "regularizacao",
+    "planta_generica_valores"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre os procedimentos para a aprovação de projetos arquitetônicos e para a execução de obras e serviços necessários para a minimização de impacto no Sistema Viário decorrente da implantação ou reforma de edificações e da instalação de atividades – Polo Gerador de Tráfego."
+}

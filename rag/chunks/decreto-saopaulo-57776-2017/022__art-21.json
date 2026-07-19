@@ -1,0 +1,52 @@
+{
+  "chunk_id": "decreto-saopaulo-57776-2017::022-art-21",
+  "lei_id": "decreto-saopaulo-57776-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 21",
+  "numero": "21",
+  "header_raw": "Art. 21. Após a emissão do Alvará de Execução, poderão ser aceitas alterações no projeto aprovado pelo Alvará de Aprovação, mediante a solicitação de Projeto Modificativo.",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção II",
+    "Art. 21"
+  ],
+  "texto": "Art. 21. Após a emissão do Alvará de Execução, poderão ser aceitas alterações no projeto aprovado pelo Alvará de Aprovação, mediante a solicitação de Projeto Modificativo.\n\n§ 1º Entende-se por Projeto Modificativo aquele cujas alterações no projeto anteriormente aprovado não configurem mudança de uso, categoria de uso ou subcategoria de uso e variação da área do terreno e que não contenham:\n\nI - alteração que importe acréscimo superior a 5% (cinco por cento) nas áreas computáveis;\n\nII - alteração que importe acréscimo superior a 5% (cinco por cento) nas áreas não computáveis;\n\nIII - alteração que importe acréscimo superior a 5% (cinco por cento) na taxa de ocupação.\n\n§ 2º Será admitida a alteração de atividades dentro de um mesmo grupo de atividade.\n\n§ 3º Será admitida a alteração da área do terreno prevista no § 1º deste artigo em razão de retificação de registro perante o Cartório de Registro de Imóveis.\n\n§ 4º Poderão ser aceitas alterações superiores às estabelecidas nos incisos I, II e III do § 1º deste artigo quando decorrentes de intervenção do Poder Público, tais como a edição de lei de melhoramento que interfira na implantação do projeto aprovado ou o tombamento de imóvel.\n\n§ 5º A limitação prevista no artigo 27 do COE aplica-se aos pedidos protocolados a partir da data da vigência deste decreto.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.776/2017 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção II › Art. 21",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57776-de-07-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 16.642, de 9 de maio de 2017, que aprovou o Código de Obras e Edificações do Município de São Paulo; define os membros da Comissão de Edificações e Uso do Solo – CEUSO."
+}

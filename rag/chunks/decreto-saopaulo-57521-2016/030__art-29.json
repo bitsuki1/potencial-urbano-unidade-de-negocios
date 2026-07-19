@@ -1,0 +1,49 @@
+{
+  "chunk_id": "decreto-saopaulo-57521-2016::030-art-29",
+  "lei_id": "decreto-saopaulo-57521-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 29",
+  "numero": "29",
+  "header_raw": "Art. 29. Na reforma com ou sem aumento de área ou no projeto modificativo cuja licença tenha sido expedida nos termos de legislação vigente anteriormente à Lei nº 16.402, de 2016, se as vagas existentes já atenderem ao número mínimo de vagas exigidos pela citada lei para a área total projetada, não é necessário prever vagas adicionais.",
+  "caminho_hierarquico": [
+    "Art. 29"
+  ],
+  "texto": "Art. 29. Na reforma com ou sem aumento de área ou no projeto modificativo cuja licença tenha sido expedida nos termos de legislação vigente anteriormente à Lei nº 16.402, de 2016, se as vagas existentes já atenderem ao número mínimo de vagas exigidos pela citada lei para a área total projetada, não é necessário prever vagas adicionais.\n\n§ 1º Na hipótese de que trata o “caput” deste artigo, se as vagas existentes resultarem em número maior do que o exigido na lei vigente, essas serão consideradas não computáveis, desde que permaneçam destinadas para a atividade de estacionamento.\n\n§ 2º No caso de projeto modificativo de empreendimento enquadrado como polo gerador de tráfego – PGT, fica dispensada a apresentação de nova Certidão de Diretrizes quando as alterações, em relação ao projeto original analisado por CET:\n\na) não impliquem em alteração de uso, categoria de uso ou subcategoria de uso;\n\nb) não ultrapassem 5% (cinco por cento) nas áreas computáveis e não computáveis, na taxa de ocupação e no número de vagas para veículos;\n\nc) não impliquem em alteração de acessos de pedestres e veículos.\n\n§ 3º No equipamento público social enquadrado nas subcategorias de uso nRa-1 e nR2-8, fica dispensado o atendimento ao número de vagas do Quadro 4A da Lei nº 16.402, de 2016, observadas as vagas especial, para idosos e para motocicletas exigidas no COE e legislação correlata.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.521/2016 — São Paulo/SP",
+    "dispositivo": "Art. 29",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57521-de-09-de-dezembro-de-2016",
+    "vigencia": {
+      "inicio": "2016-12-09",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a aplicação de disposições da Lei nº 16.402, de 22 de março de 2016, relativas à ocupação do solo e condições de instalação dos usos."
+}

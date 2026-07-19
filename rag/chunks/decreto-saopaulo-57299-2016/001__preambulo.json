@@ -1,0 +1,41 @@
+{
+  "chunk_id": "decreto-saopaulo-57299-2016::001-preambulo",
+  "lei_id": "decreto-saopaulo-57299-2016",
+  "tipo_dispositivo": "preambulo",
+  "rotulo": "Preâmbulo",
+  "numero": null,
+  "header_raw": null,
+  "caminho_hierarquico": [],
+  "texto": "DECRETO Nº 57.299 DE 8 DE SETEMBRO DE 2016\n\nDECRETO Nº 57.299 de 8 de Setembro de 2016\n\nAlterações\n\nCORRELAÇÕES\n\nTemas Relacionados\n\nRegulamenta o procedimento eletrônico e simplificado para abertura, registro e alteração de empresas.\n\nDECRETO Nº 57.299, DE 8 DE SETEMBRO DE 2016\n\nRegulamenta o procedimento eletrônico e simplificado para abertura, registro e alteração de empresas.\n\nFERNANDO HADDAD, Prefeito do Município de São Paulo, no uso das atribuições que lhe são conferidas por lei,\n\nCONSIDERANDO a conjugação de esforços para a integração e desenvolvimento de novos sistemas e tecnologias para a implantação da Rede Nacional para a Simplificação do Registro e da Legalização de Empresas e Negócios – REDESIM, de que trata a Lei Federal nº 11.598, de 3 de dezembro de 2007;\n\nCONSIDERANDO que é diretriz prevista na Lei Complementar Federal nº 123, de 14 de dezembro de 2006, a simplificação e a compatibilização do processo de abertura, registro, alteração e baixa de empresas, bem como a adoção de trâmite eletrônico;\n\nCONSIDERANDO a edição da Lei nº 16.402, de 22 de março de 2016, que disciplina o parcelamento, o uso e a ocupação do solo no Município de São Paulo, de acordo com a Lei nº 16.050, de 31 de julho de 2014 – Plano Diretor Estratégico; e\n\nCONSIDERANDO a necessidade de reduzir o tempo médio e simplificar os procedimentos de abertura de empresas,\n\nD E C R E T A:\n\nCAPÍTULO I\n\nDISPOSIÇÕES PRELIMINARES",
+  "citavel": false,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.299/2016 — São Paulo/SP",
+    "dispositivo": "Preâmbulo",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57299-de-08-de-setembro-de-2016",
+    "vigencia": {
+      "inicio": "2016-12-12",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=True ADI=False revoga=False."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta o procedimento eletrônico e simplificado para abertura, registro e alteração de empresas."
+}

@@ -1,0 +1,52 @@
+{
+  "chunk_id": "decreto-saopaulo-57776-2017::039-art-38",
+  "lei_id": "decreto-saopaulo-57776-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 38",
+  "numero": "38",
+  "header_raw": "Art. 38. A qualquer momento, o órgão responsável pelo Cadastro e Manutenção de Equipamentos poderá vistoriar as edificações e intimar os responsáveis pelos equipamentos a sanar eventuais irregularidades.",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção II",
+    "Art. 38"
+  ],
+  "texto": "Art. 38. A qualquer momento, o órgão responsável pelo Cadastro e Manutenção de Equipamentos poderá vistoriar as edificações e intimar os responsáveis pelos equipamentos a sanar eventuais irregularidades.\n\n§ 1º Constatada a ausência total ou parcial do cadastro e sua manutenção, o órgão competente poderá intimar os responsáveis a requerer o cadastro e manutenção de equipamentos, no prazo de 30 (trinta) dias corridos, contados a partir da data de sua publicação no DOC.\n\n§ 2º O desatendimento da intimação de que trata o § 1º deste artigo, acarretará a aplicação das multas previstas no Anexo III do COE e deste decreto.\n\n§ 3º A ausência do cadastramento e manutenção de equipamentos torna o local passível da aplicação das multas previstas no Anexo III do COE e deste decreto.\n\nSubseção IX\n\nDa Ficha Técnica e Diretrizes de Projeto",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.776/2017 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção II › Art. 38",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57776-de-07-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 16.642, de 9 de maio de 2017, que aprovou o Código de Obras e Edificações do Município de São Paulo; define os membros da Comissão de Edificações e Uso do Solo – CEUSO."
+}

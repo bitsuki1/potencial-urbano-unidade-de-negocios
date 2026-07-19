@@ -1,0 +1,49 @@
+{
+  "chunk_id": "decreto-saopaulo-57521-2016::017-art-16",
+  "lei_id": "decreto-saopaulo-57521-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 16",
+  "numero": "16",
+  "header_raw": "Art. 16. O licenciamento de conjunto residencial da subcategoria de uso R2h-1, previsto na alínea “a” do inciso II do artigo 94 da Lei nº 16.402, de 2016, engloba o desmembramento dos lotes, nos termos da citada lei e da legislação federal pertinente, ou a subdivisão de lotes em unidades imobiliárias independentes, simultaneamente à licença para edificar, devendo observar:",
+  "caminho_hierarquico": [
+    "Art. 16"
+  ],
+  "texto": "Art. 16. O licenciamento de conjunto residencial da subcategoria de uso R2h-1, previsto na alínea “a” do inciso II do artigo 94 da Lei nº 16.402, de 2016, engloba o desmembramento dos lotes, nos termos da citada lei e da legislação federal pertinente, ou a subdivisão de lotes em unidades imobiliárias independentes, simultaneamente à licença para edificar, devendo observar:\n\na) área mínima de terreno para cada unidade estabelecida nos incisos I e II do “caput” do artigo 73 da Lei nº 16.402, de 2016, conforme a zona de uso;\n\nb) frente mínima exigida para a zona de uso, no caso de ZCa, ZCOR, ZCORa, ZMa, ZMISa, ZPR, ZER, ZERa, ZPDS, ZPDSr e ZEPAM, e de 3,30m (três metros e trinta centímetros) para as demais zonas de uso.\n\n§ 1º Quando o lote resultante não atender as dimensões e a área mínimas do Quadro 2A da Lei nº 16.402, de 2016, é permitida a utilização das edificações exclusivamente para o uso residencial.\n\n§ 2º O desmembramento ou a subdivisão de lotes em unidades imobiliárias independentes referentes às casas geminadas deve ser registrado no Cartório de Registro de Imóveis, em até 1 (um) ano após a emissão do Certificado de Conclusão das edificações, sob pena de nulidade de ambas as licenças.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.521/2016 — São Paulo/SP",
+    "dispositivo": "Art. 16",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57521-de-09-de-dezembro-de-2016",
+    "vigencia": {
+      "inicio": "2016-12-09",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a aplicação de disposições da Lei nº 16.402, de 22 de março de 2016, relativas à ocupação do solo e condições de instalação dos usos."
+}

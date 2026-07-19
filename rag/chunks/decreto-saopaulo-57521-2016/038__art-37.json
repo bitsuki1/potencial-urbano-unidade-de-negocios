@@ -1,0 +1,49 @@
+{
+  "chunk_id": "decreto-saopaulo-57521-2016::038-art-37",
+  "lei_id": "decreto-saopaulo-57521-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 37",
+  "numero": "37",
+  "header_raw": "Art. 37. A instrução e análise dos projetos a serem submetidos à CAIEPS são de responsabilidade das Coordenadorias da SEL ou das Subprefeituras, conforme as respectivas competências, de acordo com as disposições da legislação urbanística e edilícia em vigor.(Revogado pelo Decreto n° 58.028/2017)",
+  "caminho_hierarquico": [
+    "Art. 37"
+  ],
+  "texto": "Art. 37. A instrução e análise dos projetos a serem submetidos à CAIEPS são de responsabilidade das Coordenadorias da SEL ou das Subprefeituras, conforme as respectivas competências, de acordo com as disposições da legislação urbanística e edilícia em vigor.(Revogado pelo Decreto n° 58.028/2017)\n\n§ 1º À CAIEPS compete a análise integrada a ser feita pelos representantes das Secretarias que a compõe, para verificação de eventuais exigências complementares, e a elaboração do respectivo relatório pela SEC/SEL a ser submetido à CTLU/SMDU, enfocando os aspectos a serem apreciados, conforme o caso, nos projetos de que trata o 4º do Decreto nº 57.286, de 2016.(Revogado pelo Decreto n° 58.028/2017)\n\n§ 2º Aplica-se o disposto no artigo 27 deste decreto no caso de ocorrer alteração no projeto no decorrer da análise de pedido de aprovação de edificação nova, reforma ou projeto modificativo de atividades enquadradas na subcategoria de uso especial PGT pelos artigos 108 e 109 da Lei nº 16.402, de 2016.(Revogado pelo Decreto n° 58.028/2017)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.521/2016 — São Paulo/SP",
+    "dispositivo": "Art. 37",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57521-de-09-de-dezembro-de-2016",
+    "vigencia": {
+      "inicio": "2016-12-09",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a aplicação de disposições da Lei nº 16.402, de 22 de março de 2016, relativas à ocupação do solo e condições de instalação dos usos."
+}

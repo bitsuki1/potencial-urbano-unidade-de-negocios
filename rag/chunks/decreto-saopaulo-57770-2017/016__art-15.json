@@ -1,0 +1,44 @@
+{
+  "chunk_id": "decreto-saopaulo-57770-2017::016-art-15",
+  "lei_id": "decreto-saopaulo-57770-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 15",
+  "numero": "15",
+  "header_raw": "Art. 15. O MDC deverá ser atualizado sistematicamente aperfeiçoando ou, no mínimo, mantendo o atual nível de qualidade da base existente, em termos de precisão e conteúdo, segundo os padrões vigentes da norma Especificação Técnica para a Aquisição de Dados Geoespaciais Vetoriais - ET-ADGV, observado o Decreto Federal nº 6.666, de 27 de novembro de 2008.",
+  "caminho_hierarquico": [
+    "SEÇÃO IV",
+    "Art. 15"
+  ],
+  "texto": "Art. 15. O MDC deverá ser atualizado sistematicamente aperfeiçoando ou, no mínimo, mantendo o atual nível de qualidade da base existente, em termos de precisão e conteúdo, segundo os padrões vigentes da norma Especificação Técnica para a Aquisição de Dados Geoespaciais Vetoriais - ET-ADGV, observado o Decreto Federal nº 6.666, de 27 de novembro de 2008.\n\nParágrafo único. O Mapa Digital da Cidade deverá ser utilizado como referência oficial e obrigatória na legislação do Município.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.770/2017 — São Paulo/SP",
+    "dispositivo": "SEÇÃO IV › Art. 15",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57770-de-03-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-03",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Confere nova regulamentação ao Sistema de Informações Geográficas do Município de São Paulo SIG - SP."
+}

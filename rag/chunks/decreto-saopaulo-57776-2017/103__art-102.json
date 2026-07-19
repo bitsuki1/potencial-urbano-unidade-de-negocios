@@ -1,0 +1,53 @@
+{
+  "chunk_id": "decreto-saopaulo-57776-2017::103-art-102",
+  "lei_id": "decreto-saopaulo-57776-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 102",
+  "numero": "102",
+  "header_raw": "Art. 102. Para fins de aplicação dos índices de ocupação e aproveitamento do solo, observados os limites estabelecidos na LPUOS, são consideradas áreas construídas não computáveis aquelas constantes do artigo 108 do COE, atendidas as seguintes regras:",
+  "caminho_hierarquico": [
+    "CAPÍTULO VIII",
+    "Art. 102"
+  ],
+  "texto": "Art. 102. Para fins de aplicação dos índices de ocupação e aproveitamento do solo, observados os limites estabelecidos na LPUOS, são consideradas áreas construídas não computáveis aquelas constantes do artigo 108 do COE, atendidas as seguintes regras:\n\nI - no terraço aberto, com área construída máxima por pavimento equivalente a 5% (cinco por cento) da área do terreno, deve ser observado o remanescente do imóvel quando o terreno for objeto de doação de área para alargamento de passeio ou por melhoramento público;\n\nII - o mobiliário definido como jirau, constituído de estrado ou passadiço ou piso similar, inclusive em estrutura metálica, nos termos do inciso II do artigo 108 do COE, deve limitar-se a 250m² (duzentos e cinquenta metros quadrados);\n\nIII - os demais tipos de obras complementares à edificação e de mobiliários ficam sujeitos às normas e aos parâmetros constantes deste artigo, conforme as Tabelas 1 e 2 do Anexo IV deste decreto;\n\nIV - a implantação de saliências à edificação ficará sujeita às normas e aos parâmetros deste artigo, conforme a Tabela 3 do Anexo IV deste decreto;\n\nV - quanto à área técnica, sem permanência humana, destinada a instalações e equipamentos, em caso de dúvida quanto ao enquadramento, pode ser consultado CEUSO para análise e manifestação, bem como ser solicitado:\n\na) memorial justificativo das instalações propostas compatíveis com as áreas técnicas propostas, devidamente assinado pelo responsável técnico;\n\nb) quadro de áreas total e por ambiente, correspondente às áreas técnicas propostas;\n\nVI - no compartimento de uso comum de apoio ao uso da edificação, localizado no pavimento destinado a estacionamento de veículos, motocicletas e bicicletas, o vestiário de usuário de bicicleta deve ter área máxima de 20m² (vinte metros quadrados) para os usos residenciais e 40m² (quarenta metros quadrados) para os não residenciais;\n\nVII – no prédio residencial, as áreas cobertas de uso comum, quando localizadas em qualquer pavimento, observado o limite de 3m² (três metros quadrados) por habitação, nos termos da alínea “a” do inciso VII do artigo 108 do COE, devem ser destinadas a lazer;\n\nVII – no prédio residencial, as áreas cobertas de uso comum, quando localizadas em qualquer pavimento, observado o limite de 3m² (três metros quadrados) por habitação, nos termos da alínea “b” do inciso VII do artigo 108 do COE, devem ser destinadas a lazer;(Redação dada pelo Decreto nº 57.815/2017)\n\nVIII - No prédio de uso não residencial:\n\na) no pavimento térreo sem vedação, admite-se o fechamento do controle de acesso, caixas de escada da edificação e compartimentos de apoio, limitado a 30% (trinta por cento) da área total do pavimento;\n\nb) nas coberturas de bombas nos postos de combustíveis, desde que sem vedação, admite-se o avanço de até 50% (cinquenta por cento) dos recuos estabelecidos pela LPUOS;\n\nc) a circulação vertical de uso comum inclui os espaços de circulação vertical protegidos e as áreas de escadas de ligação ao heliponto.\n\n§ 1º As saliências a que se referem as alíneas “a”, “b” e “c” do inciso IV do artigo 108 do COE não são consideradas para fins de cálculo da área construída desde que respeitados estritamente os parâmetros da Tabela 3 do Anexo IV deste decreto.\n\n§ 2º O elemento que ultrapassar qualquer limite das Tabelas 1 e 2 do Anexo IV deste decreto será considerado no todo para efeito de observância aos índices estabelecidos pela LPUOS e pelo COE.\n\n§ 3º Será considerada computável apenas a área excedente aos limites fixados para terraços, jiraus e elementos fixados na Tabela 3 do Anexo IV deste decreto.\n\n§ 4º O terraço aberto poderá avançar até 10% (dez por cento) do afastamento “A” previsto nas condições de aeração e insolação do COE e deste decreto e até 20% (vinte por cento) sobre os recuos estabelecidos na LPUOS.\n\n§ 5º O mobiliário definido como pérgula, quando respeitado o limite estabelecido na Tabela 2 do Anexo IV deste decreto poderá avançar, em qualquer pavimento, até 10% (dez por cento) do afastamento “A” previsto nas condições de aeração e insolação do COE e deste decreto e poderá avançar sobre os recuos definidos pela LPUOS.\n\n§ 6º O somatório das obras complementares e mobiliário deverá ocupar, no máximo, os limites estabelecidos para a área livre do terreno, conforme Tabela 4 do Anexo IV deste decreto.\n\n§ 7º As áreas sob a projeção das saliências e terraços poderão ser consideradas para cálculo da taxa de permeabilidade.\n\n§ 8º Para fins de aplicação deste artigo, quando houver divergência entre a área constante do documento de propriedade apresentada e as apuradas no levantamento topográfico, será considerada a menor área apurada.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "2017",
+    "norma_redacao": "Decreto nº 57.815/2017"
+  },
+  "citacao": {
+    "norma": "decreto nº 57.776/2017 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO VIII › Art. 102",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57776-de-07-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 16.642, de 9 de maio de 2017, que aprovou o Código de Obras e Edificações do Município de São Paulo; define os membros da Comissão de Edificações e Uso do Solo – CEUSO."
+}

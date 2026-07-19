@@ -1,0 +1,51 @@
+{
+  "chunk_id": "decreto-saopaulo-57776-2017::081-art-80",
+  "lei_id": "decreto-saopaulo-57776-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 80",
+  "numero": "80",
+  "header_raw": "Art. 80. Compete às Prefeituras Regionais, por meio dos seus servidores municipais, regularmente investidos em cargo público e com poderes fiscalizatórios, a fiscalização das disposições estabelecidas no COE e neste decreto, bem como a aplicação das penalidades previstas no Anexo III do COE, quando for o caso.",
+  "caminho_hierarquico": [
+    "CAPÍTULO VI",
+    "Art. 80"
+  ],
+  "texto": "Art. 80. Compete às Prefeituras Regionais, por meio dos seus servidores municipais, regularmente investidos em cargo público e com poderes fiscalizatórios, a fiscalização das disposições estabelecidas no COE e neste decreto, bem como a aplicação das penalidades previstas no Anexo III do COE, quando for o caso.\n\nParágrafo único. Ressalvado o disposto no inciso XI do artigo 5º da Constituição Federal, deverá ser franqueado o imediato e irrestrito acesso ao local objeto de vistoria ao servidor municipal responsável pela fiscalização, desde que devidamente identificado por documento fornecido pela Administração Municipal.\n\nSeção I\n\nVerificação da Regularidade da Obra",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.776/2017 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO VI › Art. 80",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57776-de-07-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 16.642, de 9 de maio de 2017, que aprovou o Código de Obras e Edificações do Município de São Paulo; define os membros da Comissão de Edificações e Uso do Solo – CEUSO."
+}

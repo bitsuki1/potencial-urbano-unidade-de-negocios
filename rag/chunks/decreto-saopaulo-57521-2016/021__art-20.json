@@ -1,0 +1,49 @@
+{
+  "chunk_id": "decreto-saopaulo-57521-2016::021-art-20",
+  "lei_id": "decreto-saopaulo-57521-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 20",
+  "numero": "20",
+  "header_raw": "Art. 20. Aplicam-se, ainda, as seguintes condições à subcategoria R2v:",
+  "caminho_hierarquico": [
+    "Art. 20"
+  ],
+  "texto": "Art. 20. Aplicam-se, ainda, as seguintes condições à subcategoria R2v:\n\nI - os acessos às unidades residenciais, às áreas comuns e ao estacionamento onde estiver localizada a vaga especial devem ter condições de acessibilidade;\n\nII - os acessos de veículos para os espaços de estacionamento, cobertos ou não, podem ser feitos direto a partir da via oficial de circulação e devem atender ao disposto na legislação edilícia;\n\nIII - o nível do pavimento térreo das edificações, conforme estabelecido no artigo 61 da Lei nº 16.402, de 2016, deve ser observado em referência às vias internas pelas quais sejam feitos os acessos;\n\nIV - no conjunto implantado em lote ou gleba com área inferior ou igual a 500m² (quinhentos metros quadrados), metade da área permeável obrigatória pela Lei nº 16.402, de 2016, deve ser ajardinada.\n\nParágrafo único. O conjunto formado por apenas um bloco é denominado edifício residencial e seu acesso pode se dar direto do logradouro público.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.521/2016 — São Paulo/SP",
+    "dispositivo": "Art. 20",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57521-de-09-de-dezembro-de-2016",
+    "vigencia": {
+      "inicio": "2016-12-09",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a aplicação de disposições da Lei nº 16.402, de 22 de março de 2016, relativas à ocupação do solo e condições de instalação dos usos."
+}

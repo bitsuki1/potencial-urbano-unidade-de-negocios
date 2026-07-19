@@ -1,0 +1,52 @@
+{
+  "chunk_id": "decreto-saopaulo-57776-2017::067-art-66",
+  "lei_id": "decreto-saopaulo-57776-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 66",
+  "numero": "66",
+  "header_raw": "Art. 66. A edificação será considerada irregular no Cadastro de Edificações do Município quando:",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Seção I",
+    "Art. 66"
+  ],
+  "texto": "Art. 66. A edificação será considerada irregular no Cadastro de Edificações do Município quando:\n\nI - não se enquadrar nas hipóteses previstas no “caput” do artigo 73 do COE e no “caput” do artigo 65 deste decreto;\n\nII - for objeto de Certificado de Conclusão ou documento equivalente que tenha sido anulado ou cassado;\n\nIII - estiver em desacordo com o Certificado de Conclusão ou documento equivalente;\n\nIV - for objeto de Auto de Irregularidade ou documento equivalente.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.776/2017 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO V › Seção I › Art. 66",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57776-de-07-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 16.642, de 9 de maio de 2017, que aprovou o Código de Obras e Edificações do Município de São Paulo; define os membros da Comissão de Edificações e Uso do Solo – CEUSO."
+}

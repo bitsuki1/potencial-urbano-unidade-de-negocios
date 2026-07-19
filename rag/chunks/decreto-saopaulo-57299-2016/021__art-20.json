@@ -1,0 +1,44 @@
+{
+  "chunk_id": "decreto-saopaulo-57299-2016::021-art-20",
+  "lei_id": "decreto-saopaulo-57299-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 20",
+  "numero": "20",
+  "header_raw": "Art. 20. Este decreto entrará em vigor 30 (trinta) dias após sua publicação.",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 20"
+  ],
+  "texto": "Art. 20. Este decreto entrará em vigor 30 (trinta) dias após sua publicação.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.299/2016 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Art. 20",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57299-de-08-de-setembro-de-2016",
+    "vigencia": {
+      "inicio": "2016-12-12",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=True ADI=False revoga=False."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta o procedimento eletrônico e simplificado para abertura, registro e alteração de empresas."
+}

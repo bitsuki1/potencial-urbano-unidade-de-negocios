@@ -1,0 +1,52 @@
+{
+  "chunk_id": "decreto-saopaulo-57776-2017::076-art-75",
+  "lei_id": "decreto-saopaulo-57776-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 75",
+  "numero": "75",
+  "header_raw": "Art. 75. Na requalificação de edificação existente, é admitida a ampliação da área construída para suprir as necessidades de adequação e modernização das instalações da edificação.",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Seção III",
+    "Art. 75"
+  ],
+  "texto": "Art. 75. Na requalificação de edificação existente, é admitida a ampliação da área construída para suprir as necessidades de adequação e modernização das instalações da edificação.\n\n§ 1º É considerado não computável o aumento de área destinado à adaptação razoável à acessibilidade e à melhoria das condições de segurança de uso, higiene e salubridade da edificação existente, não sendo considerado para efeito de cálculo do coeficiente de aproveitamento e da taxa de ocupação previstos na LPUOS.\n\n§ 2º As intervenções poderão ocupar as faixas de recuo quando não for possível atendê-las nas próprias edificações.\n\n§ 3º Excepcionalmente, poderão ser aceitas rampas de acesso ao imóvel que avancem sobre o logradouro público para atendimento das condições de acessibilidade, mediante análise dos órgãos municipais competentes.\n\n§ 4º As intervenções na edificação não poderão agravar os itens relativos à segurança, salubridade, higiene e acessibilidade até então existentes.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.776/2017 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO V › Seção III › Art. 75",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57776-de-07-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 16.642, de 9 de maio de 2017, que aprovou o Código de Obras e Edificações do Município de São Paulo; define os membros da Comissão de Edificações e Uso do Solo – CEUSO."
+}

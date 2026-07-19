@@ -1,0 +1,44 @@
+{
+  "chunk_id": "decreto-saopaulo-57770-2017::011-art-10",
+  "lei_id": "decreto-saopaulo-57770-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 10",
+  "numero": "10",
+  "header_raw": "Art. 10. Possíveis alterações na estrutura das bases de dados e sistemas que compõem a Infraestrutura Municipal de Dados Espaciais - IMDE deverão ser previamente comunicadas ao Departamento de Produção e Análise de Informação - DEINFO, da Secretaria Municipal de Urbanismo e Licenciamento – SMUL, a fim de garantir o sincronismo das informações.",
+  "caminho_hierarquico": [
+    "SEÇÃO II",
+    "Art. 10"
+  ],
+  "texto": "Art. 10. Possíveis alterações na estrutura das bases de dados e sistemas que compõem a Infraestrutura Municipal de Dados Espaciais - IMDE deverão ser previamente comunicadas ao Departamento de Produção e Análise de Informação - DEINFO, da Secretaria Municipal de Urbanismo e Licenciamento – SMUL, a fim de garantir o sincronismo das informações.\n\nSEÇÃO III\n\nDas Aplicações WebMap",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.770/2017 — São Paulo/SP",
+    "dispositivo": "SEÇÃO II › Art. 10",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57770-de-03-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-03",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Confere nova regulamentação ao Sistema de Informações Geográficas do Município de São Paulo SIG - SP."
+}

@@ -1,0 +1,52 @@
+{
+  "chunk_id": "decreto-saopaulo-57776-2017::088-art-87",
+  "lei_id": "decreto-saopaulo-57776-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 87",
+  "numero": "87",
+  "header_raw": "Art. 87. Decorrido o prazo concedido, a Prefeitura deverá adotar as seguintes medidas:",
+  "caminho_hierarquico": [
+    "CAPÍTULO VI",
+    "Seção II",
+    "Art. 87"
+  ],
+  "texto": "Art. 87. Decorrido o prazo concedido, a Prefeitura deverá adotar as seguintes medidas:\n\nI - pelo desatendimento da intimação, aplicar multas diárias ao infrator até que sejam adotadas as medidas exigidas;\n\nII - verificada a desobediência à interdição:\n\na) solicitar auxílio policial para o imediato cumprimento da interdição, lavrando o respectivo auto;\n\nb) noticiar imediatamente, à autoridade policial, o desrespeito à interdição, requerendo a instauração de inquérito policial para a apuração da responsabilidade do infrator por crime de desobediência;\n\nc) encaminhar o processo para as providências de ajuizamento da ação judicial cabível, sem prejuízo da incidência de multas diárias caso persista o desatendimento da intimação prevista no “caput” do artigo 86 deste decreto.\n\nIII - em se tratando de edificação erigida em imóvel público municipal, cuja ocupação seja clandestina, instruir processo com o auto de intimação, auto de interdição e o relatório de vistoria, encaminhando para as providências previstas na legislação municipal pertinente.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.776/2017 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO VI › Seção II › Art. 87",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57776-de-07-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 16.642, de 9 de maio de 2017, que aprovou o Código de Obras e Edificações do Município de São Paulo; define os membros da Comissão de Edificações e Uso do Solo – CEUSO."
+}

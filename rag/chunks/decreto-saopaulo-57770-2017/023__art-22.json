@@ -1,0 +1,44 @@
+{
+  "chunk_id": "decreto-saopaulo-57770-2017::023-art-22",
+  "lei_id": "decreto-saopaulo-57770-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 22",
+  "numero": "22",
+  "header_raw": "Art. 22. O Grupo Técnico Intersecretarial do Sistema de Informações Geográficas - GTI-SIG terá por atribuições propor as diretrizes, normas e padrões técnicos para o funcionamento e melhorias do Sistema de Informações Geográficas do Município de São Paulo – SIG-SP.",
+  "caminho_hierarquico": [
+    "SEÇÃO VI",
+    "Art. 22"
+  ],
+  "texto": "Art. 22. O Grupo Técnico Intersecretarial do Sistema de Informações Geográficas - GTI-SIG terá por atribuições propor as diretrizes, normas e padrões técnicos para o funcionamento e melhorias do Sistema de Informações Geográficas do Município de São Paulo – SIG-SP.\n\n§ 1º O GTI-SIG será formado por representantes das secretarias que produzem ou venham a produzir dados geoespaciais, indicados em portaria específica da Secretaria Municipal de Urbanismo e Licenciamento - SMUL, com base em critérios que atendam à necessidade de conhecimento técnico ou experiência relacionada a sistemas de informações e geoprocessamento.\n\n§ 2º O representante indicado para integrar o GTI-SIG será responsável pelo gerenciamento e pela coordenação das atividades necessárias a garantir a atualização e contínua manutenção das informações geoespaciais produzidas pelo órgão ou ente a que estiver vinculado.\n\n§ 3º O GTI-SIG fica autorizado a convocar para participar dos trabalhos, conforme a necessidade, outros servidores municipais, bem como convidar colaboradores, para conhecer as necessidades e contribuir nas atividades do grupo, observadas as disposições do Decreto nº 53.623, de 2012.\n\n§ 4º A coordenação do GTI-SIG será exercida pelo representante da Secretaria Municipal de Urbanismo e Licenciamento, escolhido dentre servidores do DEINFO, o qual deverá prestar o apoio técnico e administrativo necessário.\n\n§ 5º Caberá ao coordenador elaborar o cronograma de atividades do GTI-SIG, definir a pauta de reuniões e preparar as respectivas atas, assim como promover o adequado inter-relacionamento entre seus componentes.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.770/2017 — São Paulo/SP",
+    "dispositivo": "SEÇÃO VI › Art. 22",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57770-de-03-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-03",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Confere nova regulamentação ao Sistema de Informações Geográficas do Município de São Paulo SIG - SP."
+}

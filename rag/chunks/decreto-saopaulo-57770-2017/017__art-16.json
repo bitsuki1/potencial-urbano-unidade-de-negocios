@@ -1,0 +1,44 @@
+{
+  "chunk_id": "decreto-saopaulo-57770-2017::017-art-16",
+  "lei_id": "decreto-saopaulo-57770-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 16",
+  "numero": "16",
+  "header_raw": "Art. 16. O MDC, incluindo a rede de apoio geodésico, deve ser referência para todos os levantamentos municipais (territoriais, projetos topográficos e temáticos e cadastrais), obedecendo a seus \"data\" horizontal e vertical, associados aos marcos geodésicos implantados.",
+  "caminho_hierarquico": [
+    "SEÇÃO IV",
+    "Art. 16"
+  ],
+  "texto": "Art. 16. O MDC, incluindo a rede de apoio geodésico, deve ser referência para todos os levantamentos municipais (territoriais, projetos topográficos e temáticos e cadastrais), obedecendo a seus \"data\" horizontal e vertical, associados aos marcos geodésicos implantados.\n\nParágrafo único. A preservação dos marcos geodésicos existentes é de responsabilidade direta da Prefeitura Regional na qual está localizado, a fim de garantir sua integridade física.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.770/2017 — São Paulo/SP",
+    "dispositivo": "SEÇÃO IV › Art. 16",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57770-de-03-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-03",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Confere nova regulamentação ao Sistema de Informações Geográficas do Município de São Paulo SIG - SP."
+}

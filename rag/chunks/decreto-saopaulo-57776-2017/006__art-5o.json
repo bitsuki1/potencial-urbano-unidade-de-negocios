@@ -1,0 +1,51 @@
+{
+  "chunk_id": "decreto-saopaulo-57776-2017::006-art-5o",
+  "lei_id": "decreto-saopaulo-57776-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 5º",
+  "numero": "5",
+  "header_raw": "Art. 5º Para fins de aplicação das disposições do COE e deste Código ficam adotadas, além das dispostas em lei, as seguintes definições:",
+  "caminho_hierarquico": [
+    "CAPÍTULO I",
+    "Art. 5º"
+  ],
+  "texto": "Art. 5º Para fins de aplicação das disposições do COE e deste Código ficam adotadas, além das dispostas em lei, as seguintes definições:\n\nI - baixa de responsabilidade técnica: a ciência, por parte da Prefeitura, do desligamento do profissional responsável pela execução da obra regularmente licenciada, autorizada ou comunicada;\n\nII - assunção de responsabilidade técnica: a aceitação, por parte da Prefeitura, de novo profissional, legalmente habilitado, que passa a responder pela direção técnica relativa à execução de obra regularmente licenciada, autorizada ou comunicada;\n\nIII - transferência de responsabilidade técnica: a ocorrência simultânea de baixa e assunção de responsabilidade técnica.\n\nIV – demolição: total ou parcial derrubamento da edificação existente.\n\nCAPÍTULO II\n\nDO CONTROLE DA ATIVIDADE EDILÍCIA\n\nSeção I\n\nDas Responsabilidades e dos Direitos",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.776/2017 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO I › Art. 5º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57776-de-07-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 16.642, de 9 de maio de 2017, que aprovou o Código de Obras e Edificações do Município de São Paulo; define os membros da Comissão de Edificações e Uso do Solo – CEUSO."
+}

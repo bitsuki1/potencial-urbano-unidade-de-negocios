@@ -1,0 +1,44 @@
+{
+  "chunk_id": "decreto-saopaulo-57770-2017::010-art-9o",
+  "lei_id": "decreto-saopaulo-57770-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 9º",
+  "numero": "9",
+  "header_raw": "Art. 9º Deverá ser adotado como sistema de referência geodésica o Sistema de Referência Geocêntrico para as Américas - SIRGAS, realizado no ano 2000 - SIRGAS2000, definido pelo Sistema Geodésico Brasileiro - SGB nos termos do Decreto Federal nº 5.334, de 6 de janeiro de 2005.",
+  "caminho_hierarquico": [
+    "SEÇÃO II",
+    "Art. 9º"
+  ],
+  "texto": "Art. 9º Deverá ser adotado como sistema de referência geodésica o Sistema de Referência Geocêntrico para as Américas - SIRGAS, realizado no ano 2000 - SIRGAS2000, definido pelo Sistema Geodésico Brasileiro - SGB nos termos do Decreto Federal nº 5.334, de 6 de janeiro de 2005.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.770/2017 — São Paulo/SP",
+    "dispositivo": "SEÇÃO II › Art. 9º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57770-de-03-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-03",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Confere nova regulamentação ao Sistema de Informações Geográficas do Município de São Paulo SIG - SP."
+}

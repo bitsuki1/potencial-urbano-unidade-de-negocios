@@ -1,0 +1,44 @@
+{
+  "chunk_id": "decreto-saopaulo-57299-2016::020-art-19",
+  "lei_id": "decreto-saopaulo-57299-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 19",
+  "numero": "19",
+  "header_raw": "Art. 19. A Prefeitura deverá manter à disposição dos usuários, de forma presencial e pela rede mundial de computadores, informações, orientações e instrumentos, de forma consolidada, que permitam pesquisas prévias às etapas de registro ou inscrição e alteração de empresas.",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 19"
+  ],
+  "texto": "Art. 19. A Prefeitura deverá manter à disposição dos usuários, de forma presencial e pela rede mundial de computadores, informações, orientações e instrumentos, de forma consolidada, que permitam pesquisas prévias às etapas de registro ou inscrição e alteração de empresas.\n\n“Art. 19-A. A implantação do procedimento eletrônico simplificado para abertura, registro e alteração de empresas poderá ser realizada em fases definidas mediante portaria de cada uma das Secretarias Municipais envolvidas, à vista das adequações técnicas necessárias em seu âmbito de competência.”(Incluído pelo Decreto nº 57.681/2017)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.299/2016 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Art. 19",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57299-de-08-de-setembro-de-2016",
+    "vigencia": {
+      "inicio": "2016-12-12",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=True ADI=False revoga=False."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta o procedimento eletrônico e simplificado para abertura, registro e alteração de empresas."
+}

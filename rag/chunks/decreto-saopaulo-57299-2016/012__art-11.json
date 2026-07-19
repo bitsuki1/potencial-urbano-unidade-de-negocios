@@ -1,0 +1,47 @@
+{
+  "chunk_id": "decreto-saopaulo-57299-2016::012-art-11",
+  "lei_id": "decreto-saopaulo-57299-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 11",
+  "numero": "11",
+  "header_raw": "Art. 11. O processo de obtenção do Auto de Licença de Funcionamento para empreendimentos considerados de baixo risco ocorrerá por meio de Sistema Integrado informatizado.",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção IV",
+    "Art. 11"
+  ],
+  "texto": "Art. 11. O processo de obtenção do Auto de Licença de Funcionamento para empreendimentos considerados de baixo risco ocorrerá por meio de Sistema Integrado informatizado.\n\nParágrafo único. Os empreendimentos considerados de baixo risco serão disciplinados em ato próprio, conforme previsto no artigo 127, § 1º, da Lei nº 16.402, de 2016.\n\n§ 1º Os empreendimentos considerados de baixo risco estão disciplinados em ato próprio, conforme previsto no artigo 127, § 1º, da Lei nº 16.402, de 2016.(Redação dada pelo Decreto nº 57.681/2017)\n\n§ 2º O Auto de Licença de Funcionamento expedido na forma do “caput” deste artigo atende, para todos os fins, a exigência prevista no artigo 136 da Lei nº 16.402, de 2016.” (NR)(Redação dada pelo Decreto nº 57.681/2017)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "2017",
+    "norma_redacao": "Decreto nº 57.681/2017"
+  },
+  "citacao": {
+    "norma": "decreto nº 57.299/2016 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção IV › Art. 11",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57299-de-08-de-setembro-de-2016",
+    "vigencia": {
+      "inicio": "2016-12-12",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=True ADI=False revoga=False."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta o procedimento eletrônico e simplificado para abertura, registro e alteração de empresas."
+}

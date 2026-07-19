@@ -1,0 +1,52 @@
+{
+  "chunk_id": "decreto-saopaulo-57776-2017::080-art-79",
+  "lei_id": "decreto-saopaulo-57776-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 79",
+  "numero": "79",
+  "header_raw": "Art. 79. A edificação regular, em caso de ocorrência de incêndio ou outro sinistro, pode ser reconstruída, no todo ou em parte, dependendo de sua conformidade com a LOE e a LPUOS.",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Seção IV",
+    "Art. 79"
+  ],
+  "texto": "Art. 79. A edificação regular, em caso de ocorrência de incêndio ou outro sinistro, pode ser reconstruída, no todo ou em parte, dependendo de sua conformidade com a LOE e a LPUOS.\n\n§ 1º A reconstrução de edificação que abrigava uso instalado irregularmente, em desacordo com o disposto na LPUOS, só será permitida se for destinada a uso permitido na zona.\n\n§ 2º A edificação deve ser adaptada às disposições de segurança de uso e de acessibilidade previstas no COE.\n\n§ 3º Nos casos em que se pretendam acréscimos de área ou volumetria em relação à edificação anteriormente existente, essas alterações serão analisadas como reforma.\n\n§ 4º A critério da CEUSO, ouvida a Comissão Técnica de Legislação Urbanística - CTLU, a Prefeitura poderá recusar, no todo ou em parte, a reconstrução nos moldes anteriores, de edificação com índices e volumetria em desacordo com o disposto na LOE ou na LPUOS vigentes quando do protocolo do pedido, que seja considerada prejudicial ao interesse urbanístico.\n\nCAPÍTULO VI\n\nDOS PROCEDIMENTOS FISCALIZATÓRIOS RELATIVOS À ATIVIDADE EDILÍCIA",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.776/2017 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO V › Seção IV › Art. 79",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57776-de-07-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 16.642, de 9 de maio de 2017, que aprovou o Código de Obras e Edificações do Município de São Paulo; define os membros da Comissão de Edificações e Uso do Solo – CEUSO."
+}

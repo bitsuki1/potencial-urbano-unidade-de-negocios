@@ -1,0 +1,47 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-15150-2010::008-art-6o",
+  "lei_id": "lei-municipal-saopaulo-15150-2010",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 6º",
+  "numero": "6",
+  "header_raw": "Art. 6º A Companhia de Engenharia de Tráfego - CET emitirá os pareceres conclusivos necessários à expedição da Certidão de Diretrizes no prazo de 30 (trinta) dias, prorrogados justificadamente por mais 30 (trinta) dias, contados da data do protocolo da entrega dos documentos necessários ou da versão final do projeto de arquitetura contemplando as adequações solicitadas.",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 6º"
+  ],
+  "texto": "Art. 6º A Companhia de Engenharia de Tráfego - CET emitirá os pareceres conclusivos necessários à expedição da Certidão de Diretrizes no prazo de 30 (trinta) dias, prorrogados justificadamente por mais 30 (trinta) dias, contados da data do protocolo da entrega dos documentos necessários ou da versão final do projeto de arquitetura contemplando as adequações solicitadas.\n\n§ 1º Durante o período em que cabe ao empreendedor o atendimento de \"COMUNIQUE-SE\", fica suspensa a análise do processo e a contagem do prazo estabelecido no \"caput\" deste artigo.\n\n§ 2º Também fica suspensa a análise do processo e a contagem do prazo estabelecido no \"caput\" deste artigo quando houver necessidade de obtenção pela Companhia de Engenharia de Tráfego - CET de dados e informações oriundas de outros entes ou órgãos da administração pública.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 15.150/2010 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Art. 6º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-15150-de-06-de-maio-de-2010",
+    "vigencia": {
+      "inicio": "2010-05-06",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=True revoga=True."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "operacao_urbana",
+    "regularizacao",
+    "planta_generica_valores"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre os procedimentos para a aprovação de projetos arquitetônicos e para a execução de obras e serviços necessários para a minimização de impacto no Sistema Viário decorrente da implantação ou reforma de edificações e da instalação de atividades – Polo Gerador de Tráfego."
+}

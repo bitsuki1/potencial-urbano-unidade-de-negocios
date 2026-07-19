@@ -1,0 +1,49 @@
+{
+  "chunk_id": "decreto-saopaulo-57521-2016::041-art-40",
+  "lei_id": "decreto-saopaulo-57521-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 40",
+  "numero": "40",
+  "header_raw": "Art. 40. Este decreto entrará em vigor na data de sua publicação.",
+  "caminho_hierarquico": [
+    "Art. 40"
+  ],
+  "texto": "Art. 40. Este decreto entrará em vigor na data de sua publicação.\n\nPREFEITURA DO MUNICÍPIO DE SÃO PAULO, aos 9 de dezembro de 2016, 463º da fundação de São Paulo.\n\nFERNANDO HADDAD, PREFEITO\n\nPAULA MARIA MOTTA LARA, Secretária Municipal de Licenciamento\n\nFERNANDO DE MELLO FRANCO, Secretário Municipal de Desenvolvimento Urbano\n\nFRANCISCO MACENA DA SILVA, Secretário do Governo Municipal\n\nPublicado na Secretaria do Governo Municipal, em 9 de dezembro de 2016.\n\nEste texto não substitui o original publicado no Diário Oficial da Cidade de São Paulo.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.521/2016 — São Paulo/SP",
+    "dispositivo": "Art. 40",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57521-de-09-de-dezembro-de-2016",
+    "vigencia": {
+      "inicio": "2016-12-09",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a aplicação de disposições da Lei nº 16.402, de 22 de março de 2016, relativas à ocupação do solo e condições de instalação dos usos."
+}

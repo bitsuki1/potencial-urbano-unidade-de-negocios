@@ -1,0 +1,44 @@
+{
+  "chunk_id": "decreto-saopaulo-57770-2017::012-art-11",
+  "lei_id": "decreto-saopaulo-57770-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 11",
+  "numero": "11",
+  "header_raw": "Art. 11. As aplicações WebMap são a interface de visualização das informações que compõem a Infraestrutura Municipal de Dados Espaciais do Município de São Paulo - IMDE, disponibilizadas em:",
+  "caminho_hierarquico": [
+    "SEÇÃO III",
+    "Art. 11"
+  ],
+  "texto": "Art. 11. As aplicações WebMap são a interface de visualização das informações que compõem a Infraestrutura Municipal de Dados Espaciais do Município de São Paulo - IMDE, disponibilizadas em:\n\nI - ambiente intranet: portal com acesso à aplicação WebMap, ao catálogo de metadados, download de arquivos, entre outros, utilizado pelos servidores municipais através da rede da Prefeitura do Município de São Paulo;\n\nII - ambiente internet: aplicação WebMap que disponibiliza as informações geoespaciais, download de arquivos e metadados para uso do cidadão.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.770/2017 — São Paulo/SP",
+    "dispositivo": "SEÇÃO III › Art. 11",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57770-de-03-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-03",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Confere nova regulamentação ao Sistema de Informações Geográficas do Município de São Paulo SIG - SP."
+}

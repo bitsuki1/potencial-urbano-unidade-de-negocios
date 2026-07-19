@@ -1,0 +1,52 @@
+{
+  "chunk_id": "decreto-saopaulo-57776-2017::007-art-6o",
+  "lei_id": "decreto-saopaulo-57776-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 6º",
+  "numero": "6",
+  "header_raw": "Art. 6º A Prefeitura emitirá o documento de controle da atividade edilícia em nome do proprietário ou do possuidor para o imóvel descrito e caracterizado na matrícula ou, quando for o caso, na transcrição do Cartório de Registro de Imóveis, após verificar que o pedido e o respectivo projeto atendem às disposições do PDE, LPUOS, LOE e legislação correlata.",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção I",
+    "Art. 6º"
+  ],
+  "texto": "Art. 6º A Prefeitura emitirá o documento de controle da atividade edilícia em nome do proprietário ou do possuidor para o imóvel descrito e caracterizado na matrícula ou, quando for o caso, na transcrição do Cartório de Registro de Imóveis, após verificar que o pedido e o respectivo projeto atendem às disposições do PDE, LPUOS, LOE e legislação correlata.\n\nParágrafo único. Do documento emitido deverão constar, no mínimo, as seguintes notas:\n\nI - o licenciamento de projetos, de obras e instalação de equipamentos não implica no reconhecimento, pela Prefeitura, do direito de propriedade ou de posse sobre o imóvel;\n\nII - o titular do documento de atividade edilícia, na qualidade de proprietário ou de possuidor do imóvel, responde perante terceiros a respeito da propriedade, posse, direitos reais, garantias e outros eventuais ônus que incidam sobre o imóvel;\n\nIII - o titular do documento de atividade edilícia, na qualidade de proprietário ou de possuidor do imóvel, fica responsável pela manutenção das condições de estabilidade, segurança e salubridade do imóvel, edificações e equipamentos, bem como pela observância do projeto aprovado, das disposições do Código de Obras e Edificações – COE, do respectivo decreto regulamentar, das Normas Técnicas – NTs aplicáveis e da legislação municipal correlata, bem como do Plano Diretor Estratégico – PDE e da Legislação de Parcelamento, Uso e Ocupação do Solo – LPUOS;\n\nIV - a conformidade do projeto às normas técnicas - NTs gerais e específicas de construção, bem como às Normas Técnicas Oficiais - NTOs de acessibilidade e às disposições legais e regulamentares aplicáveis aos aspectos interiores da edificação é responsabilidade exclusiva do responsável técnico pelo projeto;\n\nV - os responsáveis técnicos pela obra, nos limites de suas atuações, respondem pela correta execução da obra de acordo com o projeto aprovado e pela instalação e manutenção do equipamento, observadas as Normas Técnicas - NTs aplicáveis, zelando por sua segurança e assumindo as consequências diretas e indiretas advindas de sua atuação;\n\nVI - as peças gráficas da edificação foram apresentadas na forma de projeto simplificado, conforme estabelecido nas normas municipais, sendo de total responsabilidade dos profissionais habilitados e do proprietário ou possuidor do imóvel:\n\na) a definição e disposição interna dos compartimentos, suas dimensões e funções, especialmente no que se refere à acessibilidade e atendimento ao percentual mínimo de unidades acessíveis e de unidades adaptáveis, no que couber, conforme legislação federal, estadual ou municipal que regule a matéria;\n\nb) a segurança no uso das edificações, nos termos do Código de Obras e Edificações – COE e legislação correlata;\n\nc) a observância das Normas Técnicas NTs e das disposições técnicas previstas no Anexo I do decreto regulamentar do COE.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.776/2017 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção I › Art. 6º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57776-de-07-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 16.642, de 9 de maio de 2017, que aprovou o Código de Obras e Edificações do Município de São Paulo; define os membros da Comissão de Edificações e Uso do Solo – CEUSO."
+}

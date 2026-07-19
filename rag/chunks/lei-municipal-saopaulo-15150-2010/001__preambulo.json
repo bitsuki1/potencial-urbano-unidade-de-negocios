@@ -1,0 +1,44 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-15150-2010::001-preambulo",
+  "lei_id": "lei-municipal-saopaulo-15150-2010",
+  "tipo_dispositivo": "preambulo",
+  "rotulo": "Preâmbulo",
+  "numero": null,
+  "header_raw": null,
+  "caminho_hierarquico": [],
+  "texto": "LEI Nº 15.150 DE 6 DE MAIO DE 2010\n\nLEI Nº 15.150 de 6 de Maio de 2010\n\nRegulamentações\n\nAlterações\n\nCORRELAÇÕES\n\nTemas Relacionados\n\nDispõe sobre os procedimentos para a aprovação de projetos arquitetônicos e para a execução de obras e serviços necessários para a minimização de impacto no Sistema Viário decorrente da implantação ou reforma de edificações e da instalação de atividades – Polo Gerador de Tráfego.\n\nLEI Nº 15.150, DE 6 DE MAIO DE 2010\n\n(Projeto de Lei nº 409/06, dos Vereadores Aurélio Miguel - PR, Donato – PT, Adilson Amadeu - PTB, Jorge Tadeu - PFL e Abou Anni - PV)\n\nDispõe sobre os procedimentos para a aprovação de projetos arquitetônicos e para a execução de obras e serviços necessários para a minimização de impacto no Sistema Viário decorrente da implantação ou reforma de edificações e da instalação de atividades – Polo Gerador de Tráfego.\n\nGILBERTO KASSAB, Prefeito do Município de São Paulo, no uso das atribuições que lhe são conferidas por lei, faz saber que a Câmara Municipal, em sessão de 20 de abril de 2010, decretou e eu promulgo a seguinte lei:",
+  "citavel": false,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 15.150/2010 — São Paulo/SP",
+    "dispositivo": "Preâmbulo",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-15150-de-06-de-maio-de-2010",
+    "vigencia": {
+      "inicio": "2010-05-06",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=True revoga=True."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "operacao_urbana",
+    "regularizacao",
+    "planta_generica_valores"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre os procedimentos para a aprovação de projetos arquitetônicos e para a execução de obras e serviços necessários para a minimização de impacto no Sistema Viário decorrente da implantação ou reforma de edificações e da instalação de atividades – Polo Gerador de Tráfego."
+}

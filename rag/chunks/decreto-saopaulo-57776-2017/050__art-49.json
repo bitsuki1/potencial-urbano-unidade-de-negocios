@@ -1,0 +1,52 @@
+{
+  "chunk_id": "decreto-saopaulo-57776-2017::050-art-49",
+  "lei_id": "decreto-saopaulo-57776-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 49",
+  "numero": "49",
+  "header_raw": "Art. 49. Quando forem verificados elementos incompletos ou incorretos ou a necessidade de complementação da documentação ou de esclarecimentos, será emitido um único comunicado especificando todas as exigências a serem atendidas pelo interessado visando cumprir a legislação aplicável ao caso.",
+  "caminho_hierarquico": [
+    "CAPÍTULO IV",
+    "Seção I",
+    "Art. 49"
+  ],
+  "texto": "Art. 49. Quando forem verificados elementos incompletos ou incorretos ou a necessidade de complementação da documentação ou de esclarecimentos, será emitido um único comunicado especificando todas as exigências a serem atendidas pelo interessado visando cumprir a legislação aplicável ao caso.\n\n§ 1º Após o decurso do prazo de atendimento do comunicado, não será admitida a junção de documentos relativos ao seu teor.\n\n§ 2º O prazo de atendimento do comunicado emitido poderá ser prorrogado uma única vez, mediante pedido do interessado devidamente justificado, por mais 30 (trinta) dias, contados a partir da data da publicação do despacho de deferimento da prorrogação do prazo no DOC.\n\n§ 3º Admite-se a emissão de comunicados complementares, no momento processual adequado, para atendimento, no prazo improrrogável de 30 (trinta) dias, contados da data da publicação da chamada no DOC, uma única vez para cada uma nas seguintes hipóteses:\n\nI - cumprir exigências adicionais estabelecidas por órgão colegiado ou por órgão público que possa estabelecer condições adicionais, pela competência;\n\nII - pagamento de outorga onerosa;\n\nIII - comprovação do cumprimento da cota de solidariedade;\n\nIV - apresentação de documentos necessários à formalização de escritura de doação de áreas para alargamento de calçada ou para implantação de outros melhoramentos públicos;\n\nV - recolhimento de eventuais diferenças de taxas resultantes da análise do projeto;\n\nVI - aviso de DUP ou DIS que ocorrer durante a análise do processo.\n\n§ 4º O Diretor de Divisão Técnica ou o Supervisor Técnico de Uso do Solo e Licenciamento poderá emitir ou autorizar a emissão de comunicado complementar ao comunicado emitido quando o seu atendimento resultar em dúvida ou implicar em cumprimento de exigências adicionais.\n\n§ 5º Poderá ser autorizada, a qualquer tempo e a critério da chefia, a junção de anuências e pareceres de outros órgãos públicos relacionados ao pedido de licenciamento em andamento.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.776/2017 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO IV › Seção I › Art. 49",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57776-de-07-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 16.642, de 9 de maio de 2017, que aprovou o Código de Obras e Edificações do Município de São Paulo; define os membros da Comissão de Edificações e Uso do Solo – CEUSO."
+}

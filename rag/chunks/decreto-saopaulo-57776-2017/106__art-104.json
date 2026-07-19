@@ -1,0 +1,53 @@
+{
+  "chunk_id": "decreto-saopaulo-57776-2017::106-art-104",
+  "lei_id": "decreto-saopaulo-57776-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 104",
+  "numero": "104",
+  "header_raw": "Art. 104. Conforme previsto no artigo 83 da Lei nº 15.764, de 27 de março de 2013, com as alterações da Lei nº 16.642, de 9 de maio de 2017, ficam definidos os seguintes membros da CEUSO:(Redação dada pelo Decreto nº 58.782/2019)",
+  "caminho_hierarquico": [
+    "CAPÍTULO VIII",
+    "Art. 104"
+  ],
+  "texto": "Art. 104. Conforme previsto no artigo 83 da Lei nº 15.764, de 27 de março de 2013, com as alterações da Lei nº 16.642, de 9 de maio de 2017, ficam definidos os seguintes membros da CEUSO:(Redação dada pelo Decreto nº 58.782/2019)\n\nI - membros indicados pela Administração Municipal, titular e suplente, a saber:(Redação dada pelo Decreto nº 58.782/2019)\n\na) 1 (um) representante da Secretaria Municipal de Licenciamento;(Redação dada pelo Decreto nº 58.782/2019)\n\nb) 1 (um) representante da Secretaria Municipal das Subprefeituras;(Redação dada pelo Decreto nº 58.782/2019)\n\nc) 1 (um) representante da Secretaria Municipal de Justiça;(Redação dada pelo Decreto nº 58.782/2019)\n\nd) 1 (um) representante da Secretaria Municipal de Desenvolvimento Urbano;(Redação dada pelo Decreto nº 58.782/2019)\n\nII - membros indicados pelas seguintes entidades, titular e suplente, a saber:(Redação dada pelo Decreto nº 58.782/2019)\n\na) 1 (um) representante de entidades ligadas aos sindicatos e associações de construção, incorporações e comercialização de imóveis;(Redação dada pelo Decreto nº 58.782/2019)\n\nb) 1 (um) representante da Associação Brasileira dos Escritórios de Arquitetura - ASBEA;(Redação dada pelo Decreto nº 58.782/2019)\n\nc) 1 (um) representante do Conselho de Arquitetura e Urbanismo de São Paulo - CAU-SP;(Redação dada pelo Decreto nº 58.782/2019)\n\nd) 1 (um) representante do Conselho Regional de Engenharia e Agronomia do Estado de São Paulo - CREA-SP.(Redação dada pelo Decreto nº 58.782/2019)\n\n§ 1º Os representantes deverão ter formação em arquitetura ou engenharia, sendo que o representante de que trata a alínea “c” do inciso I do “caput” deste artigo poderá ser Procurador do Município.(Redação dada pelo Decreto nº 58.782/2019)\n\n§ 2º O Secretário Municipal de Licenciamento indicará, dentre os membros da Comissão, o seu Presidente, bem como o Vice-Presidente, que o substituirá nos impedimentos.(Redação dada pelo Decreto nº 58.782/2019)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "2019",
+    "norma_redacao": "Decreto nº 58.782/2019"
+  },
+  "citacao": {
+    "norma": "decreto nº 57.776/2017 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO VIII › Art. 104",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57776-de-07-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 16.642, de 9 de maio de 2017, que aprovou o Código de Obras e Edificações do Município de São Paulo; define os membros da Comissão de Edificações e Uso do Solo – CEUSO."
+}

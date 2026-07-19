@@ -1,0 +1,52 @@
+{
+  "chunk_id": "decreto-saopaulo-57776-2017::018-art-17",
+  "lei_id": "decreto-saopaulo-57776-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 17",
+  "numero": "17",
+  "header_raw": "Art. 17. Nos pedidos de Alvará de Aprovação, além dos documentos previstos no artigo 16 do COE e no artigo 12 deste decreto, deverão ainda conter:",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção II",
+    "Art. 17"
+  ],
+  "texto": "Art. 17. Nos pedidos de Alvará de Aprovação, além dos documentos previstos no artigo 16 do COE e no artigo 12 deste decreto, deverão ainda conter:\n\nI - as peças gráficas do projeto simplificado necessárias para o perfeito entendimento do projeto, contemplando todos os elementos pertinentes à caracterização da obra, fixados em portaria;\n\nII - a planta de levantamento planialtimétrico elaborada por profissional habilitado, numerada na sequência das demais folhas do projeto simplificado, em escala adequada, fixados em portaria;\n\nIII - as declarações assinadas pelos profissionais habilitados, fixadas em portaria.\n\n§ 1º As peças gráficas de projetos que se enquadrem como Polos Geradores de Tráfego - PGT, Empreendimentos Geradores de Impacto de Vizinhança - EGIV e Empreendimentos Geradores de Impacto Ambiental - EGIA deverão observar a representação gráfica dos elementos mencionados no §1º do artigo 17 do COE.\n\n§ 2º A critério dos profissionais envolvidos, poderá ser definida a responsabilidade individualizada pelo projeto de cada bloco e pela implantação de todo conjunto.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.776/2017 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção II › Art. 17",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57776-de-07-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 16.642, de 9 de maio de 2017, que aprovou o Código de Obras e Edificações do Município de São Paulo; define os membros da Comissão de Edificações e Uso do Solo – CEUSO."
+}

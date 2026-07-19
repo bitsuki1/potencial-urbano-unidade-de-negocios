@@ -1,0 +1,49 @@
+{
+  "chunk_id": "decreto-saopaulo-57521-2016::004-art-3o",
+  "lei_id": "decreto-saopaulo-57521-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 3º",
+  "numero": "3",
+  "header_raw": "Art. 3º Em lote de esquina ou com duas ou mais frentes, quando a aplicação dos recuos mínimos de frente obrigatórios resultar numa área edificável inferior àquela resultante da aplicação do índice da taxa de ocupação máxima permitida no Quadro 3 da Lei nº 16.402, de 2016, aplicam-se as seguintes disposições:",
+  "caminho_hierarquico": [
+    "Art. 3º"
+  ],
+  "texto": "Art. 3º Em lote de esquina ou com duas ou mais frentes, quando a aplicação dos recuos mínimos de frente obrigatórios resultar numa área edificável inferior àquela resultante da aplicação do índice da taxa de ocupação máxima permitida no Quadro 3 da Lei nº 16.402, de 2016, aplicam-se as seguintes disposições:\n\nI - deve ser atendido o recuo mínimo previsto no Quadro 3 da citada lei em pelo menos uma das frentes do lote, escolhida a critério do interessado;\n\nII - para as demais frentes do lote, desde que não sujeitas às restrições convencionais de acordo com as disposições do artigo 59 daLei nº 16.402, de 2016, o recuo mínimo obrigatório pode ser reduzido para até 2 (dois) metros.\n\n§ 1º No lote de esquina cujos alinhamentos são ligados por curva de concordância, no trecho correspondente a essa curva os recuos devem ser concordados por linha curva, observada a continuidade do recuo mínimo obrigatório ao longo da via ao qual ele seja considerado.\n\n§ 2º Independente da dimensão do lote ou gleba, onde o uso não for permitido pela Lei nº 16.402, de 2016, não são permitidos acessos de pedestres e de veículos, sendo admitidas apenas saídas de emergência.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.521/2016 — São Paulo/SP",
+    "dispositivo": "Art. 3º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57521-de-09-de-dezembro-de-2016",
+    "vigencia": {
+      "inicio": "2016-12-09",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a aplicação de disposições da Lei nº 16.402, de 22 de março de 2016, relativas à ocupação do solo e condições de instalação dos usos."
+}

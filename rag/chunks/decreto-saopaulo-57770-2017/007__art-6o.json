@@ -1,0 +1,44 @@
+{
+  "chunk_id": "decreto-saopaulo-57770-2017::007-art-6o",
+  "lei_id": "decreto-saopaulo-57770-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 6º",
+  "numero": "6",
+  "header_raw": "Art. 6º Os sistemas de dados e informações municipais de qualquer natureza deverão ser estruturados pelos órgãos responsáveis de forma a permitir sua interoperabilidade e integração com os demais sistemas, facilitando seu escalonamento, reuso e manutenção, e deverão:",
+  "caminho_hierarquico": [
+    "SEÇÃO I",
+    "Art. 6º"
+  ],
+  "texto": "Art. 6º Os sistemas de dados e informações municipais de qualquer natureza deverão ser estruturados pelos órgãos responsáveis de forma a permitir sua interoperabilidade e integração com os demais sistemas, facilitando seu escalonamento, reuso e manutenção, e deverão:\n\nI - garantir a simplificação do acesso, de forma a possibilitar à Administração Municipal o uso eficiente de suas informações no atendimento às demandas internas e externas;\n\nII - dar transparência às ações de governo, de forma a permitir o acesso público a todas as informações que não sejam de uso restrito, em conformidade com a legislação pertinente, em especial o Decreto nº 53.623, de 12 de dezembro de 2012;\n\nIII - garantir que não haja a sobreposição de ações, evitando o dispêndio desnecessário de recursos e a duplicidade de dados da Administração Municipal.\n\nParágrafo único. O mecanismo de integração deverá garantir ao usuário acesso à informação atualizada por meio do sincronismo entre os sistemas e as bases externas com periodicidade definida e da atualização da base geoespacial.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.770/2017 — São Paulo/SP",
+    "dispositivo": "SEÇÃO I › Art. 6º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57770-de-03-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-03",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Confere nova regulamentação ao Sistema de Informações Geográficas do Município de São Paulo SIG - SP."
+}

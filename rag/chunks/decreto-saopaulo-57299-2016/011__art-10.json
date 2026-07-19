@@ -1,0 +1,45 @@
+{
+  "chunk_id": "decreto-saopaulo-57299-2016::011-art-10",
+  "lei_id": "decreto-saopaulo-57299-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 10",
+  "numero": "10",
+  "header_raw": "Art. 10. O número de inscrição no CCM, obtido por meio do Sistema Integrador, estará bloqueado enquanto não forem complementadas as providências exigidas pela Secretaria Municipal de Finanças e Desenvolvimento Econômico, o que não impede a continuidade do processo eletrônico de abertura de empresas.",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção III",
+    "Art. 10"
+  ],
+  "texto": "Art. 10. O número de inscrição no CCM, obtido por meio do Sistema Integrador, estará bloqueado enquanto não forem complementadas as providências exigidas pela Secretaria Municipal de Finanças e Desenvolvimento Econômico, o que não impede a continuidade do processo eletrônico de abertura de empresas.\n\n§ 1º O empreendedor deverá realizar o desbloqueio do número de inscrição no CCM a fim de garantir sua regularidade tributária perante a Prefeitura.\n\n§ 2º Caberá à Secretaria Municipal de Finanças e Desenvolvimento Econômico regulamentar os procedimentos de bloqueio e desbloqueio da inscrição do CCM.\n\nSeção IV\n\nDo Licenciamento dos Empreendimentos Considerados de Baixo Risco",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.299/2016 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção III › Art. 10",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57299-de-08-de-setembro-de-2016",
+    "vigencia": {
+      "inicio": "2016-12-12",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=True ADI=False revoga=False."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta o procedimento eletrônico e simplificado para abertura, registro e alteração de empresas."
+}

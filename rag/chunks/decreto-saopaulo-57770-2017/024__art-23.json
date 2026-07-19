@@ -1,0 +1,44 @@
+{
+  "chunk_id": "decreto-saopaulo-57770-2017::024-art-23",
+  "lei_id": "decreto-saopaulo-57770-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 23",
+  "numero": "23",
+  "header_raw": "Art. 23. Compete ao Grupo Técnico Intersecretarial do Sistema de Informações Geográficas – GTI-SIG:",
+  "caminho_hierarquico": [
+    "SEÇÃO VI",
+    "Art. 23"
+  ],
+  "texto": "Art. 23. Compete ao Grupo Técnico Intersecretarial do Sistema de Informações Geográficas – GTI-SIG:\n\nI - acompanhar a implementação, manutenção, padronização, atualização e inserção de dados no Sistema de Informações Geográficas, visando à sua utilização com os diversos sistemas operacionais e aplicativos de geoprocessamento, inclusive os livres e de código aberto;\n\nII - propor as regras de atuação para os órgãos e entes municipais na produção, manutenção, atualização de dados e implementação das atividades relacionadas no inciso I do “caput” deste artigo, com o objetivo de evitar redundâncias e duplicidades na produção e manutenção de dados;\n\nIII - apresentar a necessidade de contratação de consultorias técnicas e celebração de convênios com órgãos públicos ou entes privados;\n\nIV - propor o desenvolvimento de ferramentas e rotinas para facilitar a manipulação de dados gráficos e sua integração com bancos de dados alfanuméricos;\n\nV - propor programas de treinamento com a finalidade de capacitar recursos humanos para o uso de geotecnologias;\n\nVI - propor medidas operacionais visando garantir, no âmbito dos órgãos e entes municipais, a divulgação dos resultados e dos avanços obtidos pelo uso do Sistema de Informações Geográficas do Município de São Paulo - SIG-SP;\n\nVII - propor regras e medidas operacionais visando garantir o fluxo e a divulgação das informações geradas e sua disponibilização dentro e fora do âmbito da Prefeitura;\n\nVIII - efetuar a análise técnica das propostas de convênio e termos de cooperação, conforme disposto neste decreto;\n\nIX - acompanhar os estudos e propostas para a padronização e integração das bases de dados alfanuméricas, dando suporte às ações intersecretariais;\n\nX - definir a infraestrutura necessária para a realização de suas atividades, no que concerne a recursos humanos, físicos e computacionais.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.770/2017 — São Paulo/SP",
+    "dispositivo": "SEÇÃO VI › Art. 23",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57770-de-03-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-03",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Confere nova regulamentação ao Sistema de Informações Geográficas do Município de São Paulo SIG - SP."
+}

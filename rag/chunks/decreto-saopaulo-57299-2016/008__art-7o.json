@@ -1,0 +1,45 @@
+{
+  "chunk_id": "decreto-saopaulo-57299-2016::008-art-7o",
+  "lei_id": "decreto-saopaulo-57299-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 7º",
+  "numero": "7",
+  "header_raw": "Art. 7º O sistema municipal de Consulta de Viabilidade deverá informar ao Sistema Integrador o motivo da indisponibilidade quando a resposta eletrônica apontar insuficiência de informações nos bancos de dados municipais.",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção II",
+    "Art. 7º"
+  ],
+  "texto": "Art. 7º O sistema municipal de Consulta de Viabilidade deverá informar ao Sistema Integrador o motivo da indisponibilidade quando a resposta eletrônica apontar insuficiência de informações nos bancos de dados municipais.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.299/2016 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção II › Art. 7º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57299-de-08-de-setembro-de-2016",
+    "vigencia": {
+      "inicio": "2016-12-12",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=True ADI=False revoga=False."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta o procedimento eletrônico e simplificado para abertura, registro e alteração de empresas."
+}

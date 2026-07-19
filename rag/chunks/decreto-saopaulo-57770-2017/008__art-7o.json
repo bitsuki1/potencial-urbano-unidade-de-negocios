@@ -1,0 +1,44 @@
+{
+  "chunk_id": "decreto-saopaulo-57770-2017::008-art-7o",
+  "lei_id": "decreto-saopaulo-57770-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 7º",
+  "numero": "7",
+  "header_raw": "Art. 7º Os dados provenientes de entes externos à Administração Municipal Direta poderão ser incorporados ao SIG-SP mediante validação do Departamento de Produção e Análise de Informação - DEINFO, da Secretaria Municipal de Urbanismo e Licenciamento – SMUL, e do Grupo Técnico Intersecretarial do Sistema de Informações Geográficas da Cidade de São Paulo - GTI-SIG, observadas as regras sobre o sigilo das informações previstas no Decreto nº 53.623, de 2012, considerando a relevância, a abrangência e o interesse corporativo e público das informações a serem disponibilizadas.",
+  "caminho_hierarquico": [
+    "SEÇÃO I",
+    "Art. 7º"
+  ],
+  "texto": "Art. 7º Os dados provenientes de entes externos à Administração Municipal Direta poderão ser incorporados ao SIG-SP mediante validação do Departamento de Produção e Análise de Informação - DEINFO, da Secretaria Municipal de Urbanismo e Licenciamento – SMUL, e do Grupo Técnico Intersecretarial do Sistema de Informações Geográficas da Cidade de São Paulo - GTI-SIG, observadas as regras sobre o sigilo das informações previstas no Decreto nº 53.623, de 2012, considerando a relevância, a abrangência e o interesse corporativo e público das informações a serem disponibilizadas.\n\nParágrafo único. O Sistema de Informações Geográficas – SIG-SP deverá obedecer às diretrizes e normas estabelecidas pela Política Municipal de Governança de Tecnologia da Informação e Comunicação – PMGTIC, no âmbito da Administração Pública Municipal.\n\nSEÇÃO II\n\nDos Padrões da Infraestrutura Municipal de Dados Espaciais",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.770/2017 — São Paulo/SP",
+    "dispositivo": "SEÇÃO I › Art. 7º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57770-de-03-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-03",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Confere nova regulamentação ao Sistema de Informações Geográficas do Município de São Paulo SIG - SP."
+}

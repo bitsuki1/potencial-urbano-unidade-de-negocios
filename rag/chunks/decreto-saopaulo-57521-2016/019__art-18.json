@@ -1,0 +1,49 @@
+{
+  "chunk_id": "decreto-saopaulo-57521-2016::019-art-18",
+  "lei_id": "decreto-saopaulo-57521-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 18",
+  "numero": "18",
+  "header_raw": "Art. 18. O conjunto residencial horizontal na subcategoria de uso R2h-3, previsto na alínea “c” do inciso II do artigo 94 da Lei nº 16.402, de 2016, deve observar às seguintes disposições:",
+  "caminho_hierarquico": [
+    "Art. 18"
+  ],
+  "texto": "Art. 18. O conjunto residencial horizontal na subcategoria de uso R2h-3, previsto na alínea “c” do inciso II do artigo 94 da Lei nº 16.402, de 2016, deve observar às seguintes disposições:\n\nI - acesso por via de circulação de pedestres com largura mínima de 1,50m (um metro e cinquenta centímetros), devendo ser garantida uma faixa de circulação observando as condições de acessibilidade, com, no mínimo, 1,20m (um metro e vinte centímetros), podendo o restante da extensão receber tratamento paisagístico;\n\nII - quando o acesso às unidades se der de ambos os lados da via de circulação de pedestres, a referida via deve ter largura mínima de 3,00m (três metros);\n\nIII – no caso de o acesso ao conjunto se der por via de circulação para pedestres e veículos, a referida via deve atender ao seguinte:\n\na) o leito carroçável deve ter inclinação máxima de 15% (quinze por cento) e largura mínima de 5,50m (cinco metros e cinquenta centímetros), podendo a largura ser reduzida para 3,0m (três metros) na hipótese em que possibilitar acesso a, no máximo, 30 (trinta) vagas ou quando a circulação for unilateral;\n\nb) as calçadas nas vias de circulação de veículos devem ter largura mínima 1,20m (um metro e vinte centímetros) de cada lado do leito carroçável;\n\nIV - os acessos de veículos para os espaços de estacionamento, cobertos ou não, devem atender ao disposto no COE e legislação correlata;\n\nV - o nível do pavimento térreo das edificações, conforme estabelecido no artigo 61 da Lei nº 16.402, de 2016, deve ser observado em referência às vias internas pelas quais sejam feitos os acessos;\n\nVI - os acessos às unidades residenciais, às áreas comuns e ao estacionamento onde estiver localizada a vaga especial devem ter condições de acessibilidade;\n\nVII - no conjunto implantado em lote ou gleba com área inferior ou igual a 500m² (quinhentos metros quadrados), metade da área permeável obrigatória pela Lei nº 16.402, de 2016, deve ser ajardinada.\n\nParágrafo único. A calçada pode ser implantada de um único lado da via quando as edificações e áreas de uso comum estiverem assim localizadas.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.521/2016 — São Paulo/SP",
+    "dispositivo": "Art. 18",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57521-de-09-de-dezembro-de-2016",
+    "vigencia": {
+      "inicio": "2016-12-09",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a aplicação de disposições da Lei nº 16.402, de 22 de março de 2016, relativas à ocupação do solo e condições de instalação dos usos."
+}
