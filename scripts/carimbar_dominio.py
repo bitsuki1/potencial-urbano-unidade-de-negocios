@@ -89,6 +89,13 @@ COMPARTILHADO = {
     "lei-municipal-saopaulo-14094-2005":
         "CADIN Municipal (cadastro de inadimplentes) — registro fiscal que alcança débitos de IPTU (P3) E "
         "pendências gerais; serve aos dois domínios. Compartilhado.",
+    "decreto-saopaulo-57378-2016":
+        "Regulamenta o enquadramento de atividades não-residenciais (arts. 96-106 da LPUOS 16.402/2016) e o "
+        "uso do solo — o uso reflete tanto no potencial/TDC quanto na base venal do IPTU (P3). Compartilhado.",
+    "lei-municipal-saopaulo-11774-1995":
+        "Lei da Operação Urbana Água Branca (1995) — outorga/potencial construtivo (TDC) E parâmetros da área "
+        "que tocam o IPTU. REVOGADA pela Lei 15.893/2013 (vigência fim=2013 no JSON); mantida como histórico "
+        "vintage. Compartilhado (viés de não-perda).",
 }
 # --- TDC puro: efeito exclusivo de potencial construtivo. Hoje VAZIO em leis/ — a massa normativa TDC
 # (Decreto 57.536/2016, decretos ZEPEC/CONPRESP) ainda não foi ingerida; entrará marcada 'tdc'. ---

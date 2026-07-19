@@ -1,0 +1,119 @@
+{
+  "id": "decreto-saopaulo-57378-2016",
+  "tipo_norma": "decreto",
+  "esfera": "municipal",
+  "jurisdicao": "São Paulo/SP",
+  "numero": "57.378",
+  "ano": 2016,
+  "ementa": "Regulamenta o enquadramento de atividades não residenciais conforme categorias de uso, subcategorias de uso e os grupos de atividades previstos nos artigos 96 a 106 da Lei nº 16.402, de 22 de março de 2016; estabelece procedimentos para a aplicação das disposições relativas ao uso do solo fixadas pela referida lei.",
+  "tema": [
+    "zoneamento",
+    "uso_ocupacao_solo"
+  ],
+  "dispositivos_chave": [
+    "Art. 1º Este decreto regulamenta o enquadramento de atividades não residenciais conforme categorias de uso, subcategorias de uso",
+    "Art. 2º Em atendimento ao disposto no artigo 161 da Lei nº 16.402, de 22 de março de 2016, consta do Anexo Único deste decreto o",
+    "Art. 3º Nos casos de enquadramento dos usos não residenciais, deverão ser respeitadas, além das condicionantes previstas na Lei",
+    "Art. 4º Os pedidos que envolvam o licenciamento de empreendimentos enquadrados nos grupos de atividades nR2-8, nR2-9 e nR3-3 dep",
+    "Art. 5º Nos casos de reclassificação das atividades nos termos do artigo 105 da Lei nº 16.402, de 2016, o pedido deverá ser prot",
+    "Art. 6º Os pedidos que envolvam o licenciamento de empreendimentos enquadrados na subcategoria de uso INFRA dependerão da anális",
+    "Art. 7º Para fins de aplicação da Lei nº 16.402, de 2016, considera-se atividade auxiliar às subcategorias de uso INFRA-1 e INFR",
+    "Art. 7º Para fins de aplicação da Lei nº 16.402, de 2016, considera-se atividade auxiliar às subcategorias de uso INFRA-1 e INFR",
+    "Art. 8º Os pedidos de reconhecimento de complexo de saúde, educação em saúde e pesquisa em saúde ou de utilização dos benefícios",
+    "Art. 9º Ficam equiparadas a serviços públicos sociais para fins da aplicação deste decreto e da Lei nº 16.402, de 2016, as ativi",
+    "Art. 10 . A implantação de empreendimentos, usos e atividades em imóveis públicos, ainda quando cedidos a particulares, é isenta",
+    "Art. 11 . Para fins de aplicação da Lei nº 16.402, de 2016, entende-se por mudança de uso a alteração da atividade instalada no",
+    "Art. 12 . Nos casos de licenciamento de atividades, edificações e parcelamento do solo nos termos da Lei nº 16.402, de 2016, em",
+    "Art. 13 . Para fins de licenciamento de atividades não residenciais conforme estabelecido no artigo 136 da Lei nº 16.402, de 201",
+    "Art. 14 . Nos casos de dúvida de enquadramento, de reenquadramento ou de atividade não relacionada no Anexo Único deste decreto,",
+    "Art. 15 . Ficam recepcionadas as licenças de funcionamento expedidas anteriormente à entrada em vigor deste decreto com base no",
+    "Art. 16 . Integra este decreto o Anexo Único - Enquadramento das Atividades não Residenciais de acordo com os Grupos de Atividad",
+    "Art. 17 . Este decreto entrará em vigor na data de sua publicação, revogado o Anexo II do Decreto nº 57.298, de 8 de setembro de"
+  ],
+  "vigencia": {
+    "inicio": "2016-10-13",
+    "fim": null,
+    "em_vigor": true,
+    "altera": [],
+    "alterada_por": [],
+    "revogada_por": null,
+    "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=True ADI=False revoga=True."
+  },
+  "remissoes": [
+    {
+      "norma": "DECRETO Nº 57.378",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "DECRETO Nº 62.365",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 52.201",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 56.941",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 57.298",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 57.378",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 63.884",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 65.147",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 13.756",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 14.652",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 16.373",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 16.402",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 16.402, de 2016",
+      "relacao": "citada no texto (detectada automaticamente)"
+    }
+  ],
+  "jurisprudencia_relacionada": [],
+  "tem_tabela": true,
+  "tabelas_extraidas": [],
+  "tem_formula": false,
+  "formulas_referenciadas": [],
+  "fonte": {
+    "origem": "Portal oficial (legislacao.prefeitura.sp.gov.br)",
+    "path": "_entrada/misto/decreto-saopaulo-57378-2016.txt",
+    "url": "https://legislacao.prefeitura.sp.gov.br/decreto-57378-de-13-de-outubro-de-2016",
+    "hash": "sha256:a1455c5695b18511797428bea84a465440f5d8d727460271ae81183a8817a475",
+    "hash_nota_fonte": "sha256 do HTML bruto do portal capturado 2026-07-13",
+    "ocr": false,
+    "metodo": "VERBATIM INTEGRAL (portal oficial, texto compilado); captura portal oficial legislacao.prefeitura.sp.gov.br (container texto_compilado); promovido de _entrada/misto/",
+    "hash_alvo": "_entrada/misto/decreto-saopaulo-57378-2016.txt",
+    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior."
+  },
+  "status_pipeline": "bruto",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "dominio_primario": "compartilhado",
+  "dominio": [
+    "compartilhado"
+  ]
+}

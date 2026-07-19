@@ -1,0 +1,104 @@
+{
+  "id": "lei-municipal-saopaulo-11774-1995",
+  "tipo_norma": "lei_ordinaria",
+  "esfera": "municipal",
+  "jurisdicao": "São Paulo/SP",
+  "numero": "11.774",
+  "ano": 1995,
+  "ementa": "Paulo Maluf, Prefeito do Município de São Paulo, usando das atribuições que lhe são conferidas por Lei;",
+  "tema": [
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao"
+  ],
+  "dispositivos_chave": [
+    "Art. 1º Fica aprovada a Operação Urbana Água Branca, compreendendo um conjunto integrado de intervenções, coordenadas pelo Execu",
+    "Art. 2º A Operação Água Branca tem como objetivo geral promover o desenvolvimento urbano e melhorar a qualidade de vida dos atua",
+    "Art. 3º A Operação Urbana Água Branca tem como objetivos específicos:",
+    "Art. 4º A Operação Urbana Água Branca tem como diretrizes urbanísticas gerais:",
+    "Art. 5º A Operação Urbana Água Branca tem as seguintes diretrizes viárias, assinaladas na planta nº BE-05-1B-002, do arquivo da",
+    "Art. 6º Para os fins desta Lei, o Executivo poderá, mediante chamamento por edital, convocar os interessados para apresentarem p",
+    "Art. 7º As desapropriações necessárias a realização da Operação Urbana Água Branca equiparam-se, para todos os efeitos,as desapr",
+    "Art. 8º Fica o Executivo autorizado a receber, a título de doação, as áreas necessárias a implantação dos melhores públicos prop",
+    "Art. 9º Para incentivar restauração e conservação dos imóveis classificados como ZB-200, dos já tombados a que vierem a ser tomb",
+    "Art. 10 - As solicitações de que trata o inciso I do artigo 6º desta Lei só poderão ser aceitas até que seja alcançada o estoque",
+    "Art. 11 - As solicitações de que trata o artigo 6º desta Lei poderão ser aceitas apenas mediante contrapartida para a execução d",
+    "Art. 12 - Os interessados apresentarão sua proposta com os documentos e dados necessários a sua análise e aprovação, conforme es",
+    "Art. 13 - As propostas referidas no artigo 6º desta Lei serão submetidas a Comissão Normativa de Legislação Urbanísticas - CNLU,",
+    "Art. 14 - A Secretaria Municipal do Planejamento - SEMPLA, expedirá certidão declarando a modificação dos índices e característi",
+    "Art. 15 - A expedição, pela Empresa Municipal de Urbanização - EMURB, do documento comprobatório da realização da contrapartida",
+    "Art. 16 - O certificado de conclusão das edificações realizadas nos termos de uma Operação Urbana aprovada somente será emitido",
+    "Art. 17 - A contrapartida obrigatória mencionada no artigo 11 desta Lei não poderá ser inferior a:",
+    "Art. 18 - Fica criado o Fundo Especial da Operação Urbana Água Branca - FEAB, vinculado a realização dos objetivos desta Lei e a",
+    "Art. 19 - Os recursos das Contribuições de Melhoria cobradas em razão de obras públicas executadas com recursos da Operação Urba",
+    "Art. 20 - Para fins de apuração dos vencimentos dos servidores municipais, (VETADO) não será computado como receita corrente o m",
+    "Art. 21 - Para atender as despesas iniciais com a execução desta Lei, relativas a custos de projetos preliminares e lançamento d",
+    "Art. 22 - As demais despesas decorrentes desta Lei correrão por conta dos recursos do Fundo Especial da Operação Urbana Água Bra",
+    "Art. 23 - Esta Lei entrará em vigor na data de sua publicação, revogadas as disposições em contrário, em especial a Lei nº 6281,"
+  ],
+  "vigencia": {
+    "inicio": "1995-05-18",
+    "fim": "2013-11-07",
+    "em_vigor": false,
+    "altera": [],
+    "alterada_por": [],
+    "revogada_por": "Lei 15.893/2013 (institui a nova OUC Água Branca; revoga a Lei 11.774/1995)",
+    "observacao": "Lei da Operação Urbana Água Branca (1995), REVOGADA por inteiro pela Lei 15.893/2013. O texto compilado do portal oficial não anota essa revogação (fonte da revogação: ementa/art. da Lei 15.893/2013, confirmada em bases secundárias). fim=2013-11-07 (publicação da 15.893). revisado_por_humano=false — vigência a confirmar contra o primário da 15.893 quando ingerida."
+  },
+  "remissoes": [
+    {
+      "norma": "Decreto nº 53.904",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "LEI Nº 11.774",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei Federal nº 6766",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 545/1993",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 6281",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 8895",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 9725",
+      "relacao": "citada no texto (detectada automaticamente)"
+    }
+  ],
+  "jurisprudencia_relacionada": [],
+  "tem_tabela": true,
+  "tabelas_extraidas": [],
+  "tem_formula": false,
+  "formulas_referenciadas": [],
+  "fonte": {
+    "origem": "Portal oficial (legislacao.prefeitura.sp.gov.br)",
+    "path": "_entrada/misto/lei-municipal-saopaulo-11774-1995.txt",
+    "url": "https://legislacao.prefeitura.sp.gov.br/lei-11774-de-18-de-maio-de-1995",
+    "hash": "sha256:7fa9a4769b15da8796cc0ca759ead720d7194683ff4471f8a3f71cd048aaa603",
+    "hash_nota_fonte": "sha256 do HTML bruto do portal capturado 2026-07-13",
+    "ocr": false,
+    "metodo": "VERBATIM INTEGRAL (portal oficial, texto compilado); captura portal oficial legislacao.prefeitura.sp.gov.br (container texto_compilado); promovido de _entrada/misto/",
+    "hash_alvo": "_entrada/misto/lei-municipal-saopaulo-11774-1995.txt",
+    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior."
+  },
+  "status_pipeline": "bruto",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "dominio_primario": "compartilhado",
+  "dominio": [
+    "compartilhado"
+  ]
+}
