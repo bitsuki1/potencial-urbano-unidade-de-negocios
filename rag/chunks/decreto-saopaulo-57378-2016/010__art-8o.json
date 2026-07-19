@@ -1,0 +1,46 @@
+{
+  "chunk_id": "decreto-saopaulo-57378-2016::010-art-8o",
+  "lei_id": "decreto-saopaulo-57378-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 8º",
+  "numero": "8",
+  "header_raw": "Art. 8º Os pedidos de reconhecimento de complexo de saúde, educação em saúde e pesquisa em saúde ou de utilização dos benefícios previstos no artigo 115 da Lei nº 16.402, de 2016, deverão ser encaminhados à SMDU, para deliberação quanto ao atendimento do disposto no § 2º do referido artigo. (Revogado pelo Decreto nº 63.884/2024)",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção II",
+    "Art. 8º"
+  ],
+  "texto": "Art. 8º Os pedidos de reconhecimento de complexo de saúde, educação em saúde e pesquisa em saúde ou de utilização dos benefícios previstos no artigo 115 da Lei nº 16.402, de 2016, deverão ser encaminhados à SMDU, para deliberação quanto ao atendimento do disposto no § 2º do referido artigo. (Revogado pelo Decreto nº 63.884/2024)\n\n§ 1º Para fins de instrução do pedido, serão exigidos, no mínimo, os seguintes documentos:\n\nI - planta com indicação dos imóveis que apresentem atividade que justifique o reconhecimento do complexo de saúde, educação em saúde ou pesquisa em saúde, contendo a demarcação do perímetro do complexo e de sua faixa envoltória;\n\nII - quadro de áreas discriminando os imóveis que apresentem atividade que justifique o reconhecimento do complexo e a porcentagem da área total desses imóveis em relação à área da quadra e à área total do complexo a ser reconhecido;\n\nIII - cópia do IPTU, com número do contribuinte de cada imóvel que apresente atividade que justifique o reconhecimento do complexo;\n\nIV - documentação que comprove o funcionamento das atividades de todos os imóveis que apresentem atividade que justifique o reconhecimento do complexo, por meio de, pelo menos, um dos seguintes documentos para cada imóvel ou conjunto de imóveis, no que couber:\n\na) licença de funcionamento com permissão para atividade relacionada a serviço de saúde, educação em saúde ou pesquisa em saúde, ou documento semelhante, expedido pela Prefeitura e que esteja válido;\n\nb) declaração emitida pelo órgão de ensino competente, informando autorização para funcionamento de atividade de educação em saúde e/ou pesquisa em saúde;\n\nc) declaração emitida pelo órgão de saúde competente, informando autorização para funcionamento de atividade de prestação de serviço de saúde.\n\n§ 2º O perímetro de que trata o inciso I do § 1º deste artigo deverá ser contínuo, podendo abranger imóveis não contíguos e quadras fiscais adjacentes.\n\n§ 3º Para fins de cálculo da área construída edificada existente, prevista no § 2º do artigo 115 da Lei nº 16.402, de 2016, serão consideradas as informações apresentadas pelo interessado e os dados constantes do Cadastro Territorial e Predial, de Conservação e Limpeza - TPCL.\n\n§ 4º A Prefeitura poderá indicar perímetros de complexos de saúde, educação em saúde e pesquisa em saúde que atendam às disposições deste artigo.\n\n§ 5º Os complexos de saúde, educação em saúde e pesquisa em saúde reconhecidos pela Prefeitura serão divulgados no site da SMDU na internet.\n\nSeção III\n\nDos usos e atividades não residenciais em bens públicos",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.378/2016 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção II › Art. 8º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57378-de-13-de-outubro-de-2016",
+    "vigencia": {
+      "inicio": "2016-10-13",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=True ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "zoneamento",
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta o enquadramento de atividades não residenciais conforme categorias de uso, subcategorias de uso e os grupos de atividades previstos nos artigos 96 a 106 da Lei nº 16.402, de 22 de março de 2016; estabelece procedimentos para a aplicação das disposições relativas ao uso do solo fixadas pela referida lei."
+}

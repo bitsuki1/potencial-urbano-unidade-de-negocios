@@ -1,6 +1,6 @@
 {
   "_doc": "Fonte da verdade do status_pipeline de cada item. GERADO por scripts/consolidar.py a partir dos .json individuais — NAO editar a mao (Principio 1.5/2.3 do CLAUDE.md). Roda a cada push via .github/workflows/consolidar.yml.",
-  "gerado_em": "2026-07-19T03:47:16.879070+00:00",
+  "gerado_em": "2026-07-19T04:36:41.239547+00:00",
   "vocabulario_status": [
     "bruto",
     "fatiado",
@@ -9,17 +9,17 @@
     "indexado"
   ],
   "resumo": {
-    "total_itens": 127,
-    "leis": 88,
+    "total_itens": 129,
+    "leis": 90,
     "jurisprudencia": 39,
-    "ativos_no_escopo": 127,
+    "ativos_no_escopo": 129,
     "fora_de_escopo": 0,
     "_nota": "por_status_pipeline conta SÓ os ativos_no_escopo. Os 2 fora-de-escopo históricos (stf-tema-1020/ISS, stj-resp-1658054/previdenciário) foram ARQUIVADOS por decisão do dono em 2026-07-05 (git rm; recuperáveis pelo histórico).",
     "por_status_pipeline_ativos": {
-      "indexado": 127
+      "indexado": 129
     },
     "status_ilegais_encontrados": [],
-    "verbatim_integral_ativos": 88,
+    "verbatim_integral_ativos": 90,
     "_nota_verbatim_integral": "B-7/AUD-17: verbatim_integral e DERIVADO do marcador '## Texto integral (verbatim)' no .md (prova mecanica, nao declaracao). Difere de confianca_extracao (flag do extrator).",
     "confianca_baixa_ou_media": 10,
     "_nota_verbatim": "confianca e flag de extracao, nao prova de verbatim. CORRIGIDO na auditoria profunda 2026-06-20 (AUD-01): 13 leis JA estao em verbatim integral e indexadas (12 federais re-ingeridas de _entrada/misto/ + a 7228/1968 municipal) — supera a narrativa antiga 'planalto deu 403, NENHUMA e verbatim', que confundia 'o .md e resumo' com 'o verbatim nao existe'. Faltam 12 municipais (so resumo WebSearch) — re-ingestao verbatim delas e o que resta do pre-requisito do RAG. As juris (curtas) sao verbatim."
@@ -1022,6 +1022,21 @@
       "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57299-de-08-de-setembro-de-2016"
     },
     {
+      "id": "decreto-saopaulo-57378-2016",
+      "tipo": "decreto",
+      "caminho_md": "leis/municipal-sp/decreto-saopaulo-57378-2016.md",
+      "caminho_json": "leis/municipal-sp/decreto-saopaulo-57378-2016.json",
+      "status_pipeline": "indexado",
+      "status_valido": true,
+      "confianca_extracao": "alta",
+      "verbatim_integral": true,
+      "vigencia_inicio": "2016-10-13",
+      "revisado_por_humano": false,
+      "fora_de_escopo": false,
+      "fora_de_escopo_motivo": null,
+      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57378-de-13-de-outubro-de-2016"
+    },
+    {
       "id": "decreto-saopaulo-57443-2016",
       "tipo": "decreto municipal",
       "caminho_md": "leis/municipal-sp/decreto-saopaulo-57443-2016.md",
@@ -1575,6 +1590,21 @@
       "fora_de_escopo": false,
       "fora_de_escopo_motivo": null,
       "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-11614-de-13-de-julho-de-1994"
+    },
+    {
+      "id": "lei-municipal-saopaulo-11774-1995",
+      "tipo": "lei_ordinaria",
+      "caminho_md": "leis/municipal-sp/lei-municipal-saopaulo-11774-1995.md",
+      "caminho_json": "leis/municipal-sp/lei-municipal-saopaulo-11774-1995.json",
+      "status_pipeline": "indexado",
+      "status_valido": true,
+      "confianca_extracao": "alta",
+      "verbatim_integral": true,
+      "vigencia_inicio": "1995-05-18",
+      "revisado_por_humano": false,
+      "fora_de_escopo": false,
+      "fora_de_escopo_motivo": null,
+      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-11774-de-18-de-maio-de-1995"
     },
     {
       "id": "lei-municipal-saopaulo-12350-1997",

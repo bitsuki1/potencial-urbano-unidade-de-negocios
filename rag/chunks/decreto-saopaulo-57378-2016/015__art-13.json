@@ -1,0 +1,45 @@
+{
+  "chunk_id": "decreto-saopaulo-57378-2016::015-art-13",
+  "lei_id": "decreto-saopaulo-57378-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 13",
+  "numero": "13",
+  "header_raw": "Art. 13. Para fins de licenciamento de atividades não residenciais conforme estabelecido no artigo 136 da Lei nº 16.402, de 2016, deverão ser considerados a categoria de uso, a subcategoria de uso, o grupo de atividade e a atividade constante do Anexo Único deste decreto.",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 13"
+  ],
+  "texto": "Art. 13. Para fins de licenciamento de atividades não residenciais conforme estabelecido no artigo 136 da Lei nº 16.402, de 2016, deverão ser considerados a categoria de uso, a subcategoria de uso, o grupo de atividade e a atividade constante do Anexo Único deste decreto.\n\n§ 1º Para fins de aplicação do disposto no “caput” deste artigo e em atendimento ao §1º do artigo 136 da Lei nº 16.402, de 2016, o Sistema Eletrônico de Licenciamento de Atividades deverá utilizar os elementos constantes do Anexo Único deste decreto, a saber:\n\nI - a categoria de uso;\n\nII - a subcategoria de uso;\n\nIII - a atividade;\n\nIV - o código CNAE;\n\nV - a descrição do código CNAE;\n\nVI - a descrição complementar do Município de São Paulo.\n\n§ 2º Para fins de aplicação do inciso I do § 1º deste artigo, poderá ser adotado o acréscimo de dígitos aos códigos CNAE para o modo eletrônico de licenciamento de atividades.\n\n§ 3º A licença prevista no artigo 136 da Lei nº 16.402, de 2016, será emitida manualmente até que seja possível realizar o licenciamento de atividades no modo eletrônico pelo site da Prefeitura na internet.\n\n§ 4º As atividades enquadradas no Anexo Único deste decreto não estão dispensadas de licenciamento ambiental perante o órgão municipal e estadual competente, conforme exigido pela legislação ambiental aplicável.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.378/2016 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Art. 13",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57378-de-13-de-outubro-de-2016",
+    "vigencia": {
+      "inicio": "2016-10-13",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=True ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "zoneamento",
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta o enquadramento de atividades não residenciais conforme categorias de uso, subcategorias de uso e os grupos de atividades previstos nos artigos 96 a 106 da Lei nº 16.402, de 22 de março de 2016; estabelece procedimentos para a aplicação das disposições relativas ao uso do solo fixadas pela referida lei."
+}

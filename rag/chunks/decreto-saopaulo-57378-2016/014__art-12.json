@@ -1,0 +1,45 @@
+{
+  "chunk_id": "decreto-saopaulo-57378-2016::014-art-12",
+  "lei_id": "decreto-saopaulo-57378-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 12",
+  "numero": "12",
+  "header_raw": "Art. 12. Nos casos de licenciamento de atividades, edificações e parcelamento do solo nos termos da Lei nº 16.402, de 2016, em imóvel que esteja situado em mais de um zona de uso, aplicam-se os parâmetros de parcelamento, uso e ocupação do solo referentes a cada zona de uso nas respectivas parcelas do imóvel em que cada zona incidir.",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 12"
+  ],
+  "texto": "Art. 12. Nos casos de licenciamento de atividades, edificações e parcelamento do solo nos termos da Lei nº 16.402, de 2016, em imóvel que esteja situado em mais de um zona de uso, aplicam-se os parâmetros de parcelamento, uso e ocupação do solo referentes a cada zona de uso nas respectivas parcelas do imóvel em que cada zona incidir.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.378/2016 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Art. 12",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57378-de-13-de-outubro-de-2016",
+    "vigencia": {
+      "inicio": "2016-10-13",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=True ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "zoneamento",
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta o enquadramento de atividades não residenciais conforme categorias de uso, subcategorias de uso e os grupos de atividades previstos nos artigos 96 a 106 da Lei nº 16.402, de 22 de março de 2016; estabelece procedimentos para a aplicação das disposições relativas ao uso do solo fixadas pela referida lei."
+}

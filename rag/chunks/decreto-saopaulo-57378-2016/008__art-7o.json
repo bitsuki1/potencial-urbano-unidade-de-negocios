@@ -1,0 +1,46 @@
+{
+  "chunk_id": "decreto-saopaulo-57378-2016::008-art-7o",
+  "lei_id": "decreto-saopaulo-57378-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 7º",
+  "numero": "7",
+  "header_raw": "Art. 7º Para fins de aplicação da Lei nº 16.402, de 2016, considera-se atividade auxiliar às subcategorias de uso INFRA-1 e INFRA-2 aquela que, concomitantemente:",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção I",
+    "Art. 7º"
+  ],
+  "texto": "Art. 7º Para fins de aplicação da Lei nº 16.402, de 2016, considera-se atividade auxiliar às subcategorias de uso INFRA-1 e INFRA-2 aquela que, concomitantemente:",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.378/2016 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção I › Art. 7º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57378-de-13-de-outubro-de-2016",
+    "vigencia": {
+      "inicio": "2016-10-13",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=True ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "zoneamento",
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta o enquadramento de atividades não residenciais conforme categorias de uso, subcategorias de uso e os grupos de atividades previstos nos artigos 96 a 106 da Lei nº 16.402, de 22 de março de 2016; estabelece procedimentos para a aplicação das disposições relativas ao uso do solo fixadas pela referida lei."
+}
