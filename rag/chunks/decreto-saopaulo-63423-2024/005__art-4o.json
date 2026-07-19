@@ -1,0 +1,45 @@
+{
+  "chunk_id": "decreto-saopaulo-63423-2024::005-art-4o",
+  "lei_id": "decreto-saopaulo-63423-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 4º",
+  "numero": "4",
+  "header_raw": "Art. 4º Para fins de aplicação da Lei nº 16.402, de 22 de março de 2016, com redação dada pela Lei nº 18.081, de 19 de janeiro de 2024, ficam estabelecidas as seguintes definições no mapeamento oficial do Município:",
+  "caminho_hierarquico": [
+    "Art. 4º"
+  ],
+  "texto": "Art. 4º Para fins de aplicação da Lei nº 16.402, de 22 de março de 2016, com redação dada pela Lei nº 18.081, de 19 de janeiro de 2024, ficam estabelecidas as seguintes definições no mapeamento oficial do Município:\n\nI – áreas de risco hidrológico ou geológico são aquelas indicadas pela Defesa Civil, relacionadas a assentamentos precários, mapeamentos de setorização de riscos, que são atualizados continuamente pelas equipes da Administração Pública Municipal e são disponibilizadas no Portal GeoSampa, conforme consta no procedimento metodológico descrito no Guia de Utilização da Carta Geotécnica de Aptidão à Urbanização do Município de São Paulo/SP - CGAU/MSP, nos termos do Anexo II deste decreto, enquanto permanecer a característica que determinou seu enquadramento;\n\nII – áreas sujeitas a recalque e problemas geotécnicos são aquelas indicadas no Anexo I do Decreto nº 57.521, de 09 de dezembro de 2016, ou que vier a substituí-lo, complementadas, se o caso, por Resolução da Comissão de Edificações e Uso do Solo da Secretaria Municipal de Urbanismo e Licenciamento– SMUL/CEUSO;\n\nIII – áreas sujeitas a problemas geotécnicos são aquelas suscetíveis à ocorrência de deslizamentos de grande impacto, inundações bruscas ou processos geológicos ou hidrológicos correlatos;\n\nIV – compartimento ambiental é a Unidade Geotécnica da Carta Geotécnica de Aptidão à Urbanização do Município de São Paulo -CGAU/MSP.\n\n§ 1º O parecer técnico para as áreas de risco hidrológico ou geológico e áreas sujeitas a recalque e problemas geotécnicos, poderá ser avaliado por SMUL/CEUSO, mediante a manifestação do requerente, observadas, para as áreas sujeitas a recalque, no mínimo, as seguintes diretrizes e recomendações do Guia de Utilização da Carta Geotécnica de Aptidão à Urbanização do Município de São Paulo/SP - CGAU/MSP, constante do Anexo II deste decreto:\n\na) em área urbana: evidências de recalque requerem estudos geológico-geotécnicos e hidrológico-hidráulicos detalhados, indicando-se as soluções de engenharia pertinentes às características locais do solo e do subsolo, com a finalidade de estabilização do processo;\n\nb) em área rural: ocupação em áreas com ocorrência de solos compressíveis (solos moles; argilas orgânicas), sujeitos a recalque, requer estudos geológico-geotécnicos e hidrológico-hidráulicos a serem realizados com detalhamento, indicando-se as soluções de engenharia pertinentes, em conformidade com as características locais do solo e do subsolo, e com os parâmetros legais vigentes.\n\n§ 2º Os processos de licenciamento instruídos com documentação que evidencie recalque serão obrigatoriamente considerados para fins da Resolução de SMUL/CEUSO de que trata o inciso II do “caput” deste artigo.\n\n§ 3º Nas áreas indicadas nos incisos I e II do “caput” deste artigo, acrescidas pela Carta Geotécnica de Aptidão à Urbanização do Município de São Paulo de 2024, em relação à Carta Geotécnica do Município de São Paulo de 1992, quando demarcadas como Zonas Eixo de Estruturação da Transformação Urbana – ZEU no Anexo I – Mapa Único da Lei nº 18.081, de 2024:\n\nI – serão mantidos os parâmetros qualificadores da ocupação e os parâmetros relacionados ao uso;\n\nII – poderão ser mantidos os parâmetros de ocupação de ZEU, desde que a realização de obras seja acompanhada da apresentação de parecer técnico com proposta de medidas de mitigação ou eliminação da área de risco, se o caso, complementado por declaração de que a adoção de tais medidas não gera impactos ao empreendimento e ao seu entorno, com respectiva Anotação de Responsabilidade Técnica - ART, observados os termos dos incisos do “caput” do art. 72 da Lei nº 16.402, de 2016.\n\n§ 4º Nas áreas de várzea, planície aluvial e solo mole e compressível, as obras subterrâneas previstas em processos protocolados a partir da vigência da Lei nº 18.081, de 2024, incluindo o subsolo de edifícios, deverão ser executadas mediante métodos de engenharia que impeçam o rebaixamento do nível d’água, procedida análise que constará de parecer técnico, nos termos do art. 72 da Lei nº 16.402, de 2016.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "2024",
+    "norma_redacao": "Lei nº 18.081, de 19 de janeiro de 2024"
+  },
+  "citacao": {
+    "norma": "decreto nº 63.423/2024 — São Paulo/SP",
+    "dispositivo": "Art. 4º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-63423-de-21-de-maio-de-2024",
+    "vigencia": {
+      "inicio": "2024-05-21",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Aprova a Carta Geotécnica de Aptidão à Urbanização do Município de São Paulo de 2024 - CGAU/MSP, para fins de atualização e aprimoramento técnico das informações constantes da Carta Geotécnica do Município de São Paulo de 1992, e dá outras providências."
+}

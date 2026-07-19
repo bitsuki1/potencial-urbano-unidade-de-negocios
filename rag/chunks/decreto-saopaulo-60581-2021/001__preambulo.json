@@ -1,0 +1,42 @@
+{
+  "chunk_id": "decreto-saopaulo-60581-2021::001-preambulo",
+  "lei_id": "decreto-saopaulo-60581-2021",
+  "tipo_dispositivo": "preambulo",
+  "rotulo": "Preâmbulo",
+  "numero": null,
+  "header_raw": null,
+  "caminho_hierarquico": [],
+  "texto": "DECRETO Nº 60.581 DE 27 DE SETEMBRO DE 2021\n\nDECRETO Nº 60.581 de 27 de Setembro de 2021\n\nCORRELAÇÕES\n\nTemas Relacionados\n\nRegulamenta o controle de ruídos na execução das obras de construção civil no Município de São Paulo.\n\nDECRETO Nº 60.581, DE 27 DE SETEMBRO DE 2021\n\nRegulamenta o controle de ruídos na execução das obras de construção civil no Município de São Paulo.\n\nRICARDO NUNES, Prefeito do Município de São Paulo, no uso das atribuições que lhe são conferidas por lei,\n\nCONSIDERANDO o disposto no inciso I do artigo 113 e no artigo 146, ambos da Lei nº 16.402, de 22 de março de 2016;\n\nCONSIDERANDO o item 7.1 do Anexo I, integrante da Lei nº 16.642, de 9 de maio de 2017;\n\nCONSIDERANDO que, nos termos do § único do artigo 6º da Lei nº 16.642, de 2017, o proprietário ou possuidor que autoriza a obra ou serviço, fica responsável pela observância das normas técnicas aplicáveis,\n\nD E C R E T A:",
+  "citavel": false,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 60.581/2021 — São Paulo/SP",
+    "dispositivo": "Preâmbulo",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-60581-de-27-de-setembro-de-2021",
+    "vigencia": {
+      "inicio": "2021-09-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    }
+  },
+  "tema": [
+    "zoneamento",
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta o controle de ruídos na execução das obras de construção civil no Município de São Paulo."
+}

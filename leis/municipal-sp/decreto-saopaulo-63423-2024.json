@@ -1,0 +1,85 @@
+{
+  "id": "decreto-saopaulo-63423-2024",
+  "tipo_norma": "decreto",
+  "esfera": "municipal",
+  "jurisdicao": "São Paulo/SP",
+  "numero": "63.423",
+  "ano": 2024,
+  "ementa": "Aprova a Carta Geotécnica de Aptidão à Urbanização do Município de São Paulo de 2024 - CGAU/MSP, para fins de atualização e aprimoramento técnico das informações constantes da Carta Geotécnica do Município de São Paulo de 1992, e dá outras providências.",
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dispositivos_chave": [
+    "Art. 1º Fica aprovada a Carta Geotécnica de Aptidão à Urbanização do Município de São Paulo de 2024 –CGAU/MSP, para fins de atua",
+    "Art. 2º Este decreto é composto:",
+    "Art. 3º A Carta Geotécnica de Aptidão à Urbanização do Município de São Paulo de 2024 – CGAU/MSP será disponibilizada, para cons",
+    "Art. 4º Para fins de aplicação da Lei nº 16.402, de 22 de março de 2016, com redação dada pela Lei nº 18.081, de 19 de janeiro d",
+    "Art. 5º Este decreto entrará em vigor na data de sua publicação."
+  ],
+  "vigencia": {
+    "inicio": "2024-05-21",
+    "fim": null,
+    "em_vigor": true,
+    "altera": [],
+    "alterada_por": [],
+    "revogada_por": null,
+    "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+  },
+  "remissoes": [
+    {
+      "norma": "DECRETO Nº 63.423",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 57.521",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 16.050",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 16.050, de 2014",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 16.402",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 16.402, de 2016",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 18.081",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 18.081, de 2024",
+      "relacao": "citada no texto (detectada automaticamente)"
+    }
+  ],
+  "jurisprudencia_relacionada": [],
+  "tem_tabela": true,
+  "tabelas_extraidas": [],
+  "tem_formula": false,
+  "formulas_referenciadas": [],
+  "fonte": {
+    "origem": "Portal oficial (legislacao.prefeitura.sp.gov.br)",
+    "path": "_entrada/misto/decreto-saopaulo-63423-2024.txt",
+    "url": "https://legislacao.prefeitura.sp.gov.br/decreto-63423-de-21-de-maio-de-2024",
+    "hash": "sha256:063a422696f3e0c956850afa8788fff6aa7ffa185170e050cd89b46dff2b477c",
+    "hash_nota_fonte": "sha256 do HTML bruto do portal capturado 2026-07-13",
+    "ocr": false,
+    "metodo": "VERBATIM INTEGRAL (portal oficial, texto compilado); captura portal oficial legislacao.prefeitura.sp.gov.br (container texto_compilado); promovido de _entrada/misto/",
+    "hash_alvo": "_entrada/misto/decreto-saopaulo-63423-2024.txt",
+    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior."
+  },
+  "status_pipeline": "indexado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "dominio_primario": "iptu",
+  "dominio": [
+    "iptu"
+  ]
+}

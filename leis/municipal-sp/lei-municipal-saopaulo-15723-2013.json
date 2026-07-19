@@ -1,0 +1,87 @@
+{
+  "id": "lei-municipal-saopaulo-15723-2013",
+  "tipo_norma": "lei_ordinaria",
+  "esfera": "municipal",
+  "jurisdicao": "São Paulo/SP",
+  "numero": "15.723",
+  "ano": 2013,
+  "ementa": "Estabelece diretrizes e normas relativas à implantação, à construção e à reforma com ou sem ampliação, para instalação e funcionamento de aeródromos, heliportos, helipontos e similares, no Município de São Paulo, com fundamento nos arts. 119 e 120 da Lei nº 13.430, de 13 de dezembro de 2002.",
+  "tema": [
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao"
+  ],
+  "dispositivos_chave": [
+    "Art. 1º A construção, reforma, ampliação, instalação, utilização e funcionamento de aeródromos, heliportos, helipontos e similar",
+    "Art. 2º Para os efeitos desta lei, utilizam-se as seguintes definições:",
+    "Art. 3º O heliponto é considerado atividade complementar em relação às seguintes atividades:",
+    "Art. 4º É proibida a implantação, construção e a reforma, com ou sem aumento da área, para a instalação de aeródromos, heliporto",
+    "Art. 5º A implantação de aeródromos, heliportos e helipontos exigirá:",
+    "Art. 6º O Estudo de Impacto de Vizinhança - EIV, no caso dos helipontos, deverá:",
+    "Art. 7º O Estudo de Impacto Ambiental e respectivo relatório - EIA-RIMA, no caso dos aeródromos ou heliportos, deverá observar,",
+    "Art. 8º Aeródromos, heliportos e helipontos somente poderão entrar em operação com a prévia emissão da licença de funcionamento",
+    "Art. 9º A licença de funcionamento deverá ser revalidada a cada cinco anos ou quando expirados os efeitos do parecer referido no",
+    "Art. 10 . Serão consideradas regulares, para fins da obtenção da licença de funcionamento, os heliportos e helipontos que atende",
+    "Art. 11 . Os Alvarás de Construção, Alvarás de Aprovação e Execução e Autos de Regularização referentes a helipontos regulares a",
+    "Art. 12 . Caso indeferido o pedido de licença de funcionamento, ou caso verificada a utilização de heliponto não licenciado, ele",
+    "Art. 13 . Todas as irregularidades decorrentes da inobservância das normas desta lei implicarão a aplicação das penalidades admi",
+    "Art. 14 . As despesas com a execução da presente lei correrão por conta das dotações orçamentárias próprias.",
+    "Art. 15 . O Poder Executivo regulamentará a presente lei no prazo de 60 (sessenta) dias.",
+    "Art. 16 . Revogam-se as disposições em contrário, em especial a Lei nº 15.003, de 23 de outubro de 2009.",
+    "Art. 17 . Esta lei entrará em vigor na data de sua publicação."
+  ],
+  "vigencia": {
+    "inicio": "2013-04-24",
+    "fim": null,
+    "em_vigor": true,
+    "altera": [],
+    "alterada_por": [],
+    "revogada_por": null,
+    "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+  },
+  "remissoes": [
+    {
+      "norma": "LEI Nº 15.723",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 13.430",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 13.885, de 2004",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 15.003",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 361/11",
+      "relacao": "citada no texto (detectada automaticamente)"
+    }
+  ],
+  "jurisprudencia_relacionada": [],
+  "tem_tabela": true,
+  "tabelas_extraidas": [],
+  "tem_formula": false,
+  "formulas_referenciadas": [],
+  "fonte": {
+    "origem": "Portal oficial (legislacao.prefeitura.sp.gov.br)",
+    "path": "_entrada/misto/lei-municipal-saopaulo-15723-2013.txt",
+    "url": "https://legislacao.prefeitura.sp.gov.br/lei-15723-de-24-de-abril-de-2013",
+    "hash": "sha256:c4758d4712f01739b110bccc6013a60eb0045da0879f8de5cbebb1b348e5a6c9",
+    "hash_nota_fonte": "sha256 do HTML bruto do portal capturado 2026-07-13",
+    "ocr": false,
+    "metodo": "VERBATIM INTEGRAL (portal oficial, texto compilado); captura portal oficial legislacao.prefeitura.sp.gov.br (container texto_compilado); promovido de _entrada/misto/",
+    "hash_alvo": "_entrada/misto/lei-municipal-saopaulo-15723-2013.txt",
+    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior."
+  },
+  "status_pipeline": "indexado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "dominio_primario": "iptu",
+  "dominio": [
+    "iptu"
+  ]
+}

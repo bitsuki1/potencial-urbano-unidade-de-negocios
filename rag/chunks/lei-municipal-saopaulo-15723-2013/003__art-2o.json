@@ -1,0 +1,45 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-15723-2013::003-art-2o",
+  "lei_id": "lei-municipal-saopaulo-15723-2013",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 2º",
+  "numero": "2",
+  "header_raw": "Art. 2º Para os efeitos desta lei, utilizam-se as seguintes definições:",
+  "caminho_hierarquico": [
+    "Art. 2º"
+  ],
+  "texto": "Art. 2º Para os efeitos desta lei, utilizam-se as seguintes definições:\n\nI - aeródromo: área definida em terra, abrangendo todas as edificações, instalações e equipamentos, destinada total ou parcialmente a pouso, decolagem e movimentação de aeronaves na superfície;\n\nII - heliporto: aeródromo dotado de instalações e facilidades para apoio de helicóptero e de embarque e desembarque de pessoas, tais como pátio de estacionamento, estação de passageiros, locais de abastecimento e equipamentos de manutenção;\n\nIII - heliponto: aeródromo constituído de área homologada ou registrada, ao nível de solo ou elevada, utilizada para pouso ou decolagem exclusivamente de helicópteros;\n\nIV - área de pouso e decolagem: área com dimensões definidas, onde a aeronave pousa e/ou decola;\n\nV - área de pouso e decolagem de emergência para helicópteros: área de pouso e decolagem sobre edificações ou qualquer área que comporte pousos e decolagens de helicópteros, exclusivamente em caso de emergência ou calamidade.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 15.723/2013 — São Paulo/SP",
+    "dispositivo": "Art. 2º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-15723-de-24-de-abril-de-2013",
+    "vigencia": {
+      "inicio": "2013-04-24",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Estabelece diretrizes e normas relativas à implantação, à construção e à reforma com ou sem ampliação, para instalação e funcionamento de aeródromos, heliportos, helipontos e similares, no Município de São Paulo, com fundamento nos arts. 119 e 120 da Lei nº 13.430, de 13 de dezembro de 2002."
+}

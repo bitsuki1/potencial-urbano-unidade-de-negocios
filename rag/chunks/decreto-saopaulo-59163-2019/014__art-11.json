@@ -1,0 +1,45 @@
+{
+  "chunk_id": "decreto-saopaulo-59163-2019::014-art-11",
+  "lei_id": "decreto-saopaulo-59163-2019",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 11",
+  "numero": "11",
+  "header_raw": "Art. 11. A Bonificação por Resultados - BR será paga, observadas as condições e vedações previstas na Lei nº 17.224, de 2019, em parcela única, durante o ano seguinte ao do término do período de avaliação.(Redação dada pelo Decreto nº 60.315/2021)",
+  "caminho_hierarquico": [
+    "Art. 11"
+  ],
+  "texto": "Art. 11. A Bonificação por Resultados - BR será paga, observadas as condições e vedações previstas na Lei nº 17.224, de 2019, em parcela única, durante o ano seguinte ao do término do período de avaliação.(Redação dada pelo Decreto nº 60.315/2021)\n\n§ 1º O pagamento da Bonificação por Resultados - BR referente ao exercício de 2019 será efetivado:(Redação dada pelo Decreto nº 59.402/2020)\n\nI - no mês de maio de 2020, para os agentes públicos da Secretaria Municipal da Saúde, Secretaria Municipal de Assistência e Desenvolvimento Social, Secretaria Municipal das Subprefeituras, Autarquia Hospitalar Municipal, Hospital do Servidor Púbico Municipal, Autoridade Municipal de Limpeza Urbana e Serviço Funerário do Município de São Paulo;(Redação dada pelo Decreto nº 59.402/2020)\n\nII - no mês de junho de 2020, para os agentes públicos dos demais órgãos da administração pública municipal direta, autarquias e fundações municipais.(Redação dada pelo Decreto nº 59.402/2020)\n\n§ 2º O pagamento será processado pelo Departamento de Recursos Humanos, da Coordenadoria de Gestão de Pessoas, da Secretaria Municipal de Gestão, observados os percentuais constantes do relatório consolidado de aferição do cumprimento das metas homologado pela comissão intersecretarial.(Redação dada pelo Decreto nº 59.402/2020)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "2021",
+    "norma_redacao": "Decreto nº 60.315/2021"
+  },
+  "citacao": {
+    "norma": "decreto nº 59.163/2019 — São Paulo/SP",
+    "dispositivo": "Art. 11",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59163-de-27-de-dezembro-de-2019",
+    "vigencia": {
+      "inicio": "2019-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a concessão da Bonificação por Resultados - BR, instituída pela Lei nº 17.224, de 31 de outubro de 2019, aos agentes públicos municipais, na forma e condições que especifica."
+}

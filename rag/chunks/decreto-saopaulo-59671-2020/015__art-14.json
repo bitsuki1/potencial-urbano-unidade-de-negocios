@@ -1,0 +1,44 @@
+{
+  "chunk_id": "decreto-saopaulo-59671-2020::015-art-14",
+  "lei_id": "decreto-saopaulo-59671-2020",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 14",
+  "numero": "14",
+  "header_raw": "Art. 14. As calçadas cujas obras componham objeto de projetos especiais, assim definidos nos termos do inciso XIII do § 2º do artigo 2º deste decreto, poderão utilizar materiais distintos dos elencados nos incisos do “caput” do artigo 13, desde que atendam às especificações descritas nos Capítulos III e IV, todos deste decreto, e mediante prévia aprovação pela Secretaria Municipal das Subprefeituras.",
+  "caminho_hierarquico": [
+    "CAPÍTULO VI",
+    "Art. 14"
+  ],
+  "texto": "Art. 14. As calçadas cujas obras componham objeto de projetos especiais, assim definidos nos termos do inciso XIII do § 2º do artigo 2º deste decreto, poderão utilizar materiais distintos dos elencados nos incisos do “caput” do artigo 13, desde que atendam às especificações descritas nos Capítulos III e IV, todos deste decreto, e mediante prévia aprovação pela Secretaria Municipal das Subprefeituras.\n\n§ 1º Os projetos especiais de que trata o “caput” deste artigo deverão ser apresentados à Secretaria Municipal das Subprefeituras, instruídos, necessariamente, com as seguintes peças processuais:\n\nI - justificativa do conceito arquitetônico do projeto;\n\nII - anteprojeto, na forma definida na NBR 6492 da ABNT - Associação Brasileira de Normas Técnicas ou outra que vier a substituí-la.\n\n§ 2º Mediante justificativa técnica, a Secretaria Municipal das Subprefeituras poderá dispensar a apresentação de documentos técnicos que compõem o anteprojeto a que se refere o inciso II do § 1º deste artigo.\n\n§ 3º Os termos da aprovação do projeto especial serão descritos em portaria específica a ser publicada pela Secretaria Municipal das Subprefeituras.\n\nCAPÍTULO VII\n\nDA INSTALAÇÃO, RECOMPOSIÇÃO E EXECUÇÃO DAS CALÇADAS\n\nSeção I\n\nDa Instalação e Recomposição das Calçadas",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 59.671/2020 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO VI › Art. 14",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59671-de-7-de-agosto-de-2020",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "regularizacao"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Consolida os critérios para a padronização das calçadas, bem como regulamenta o disposto nos incisos VII e VIII do “caput” do artigo 240 do Plano Diretor Estratégico, o Capítulo III da Lei nº 15.442, de 9 de setembro de 2011, e a Lei nº 13.293, de 14 de janeiro de 2002."
+}

@@ -1,0 +1,44 @@
+{
+  "chunk_id": "decreto-saopaulo-59671-2020::014-art-13",
+  "lei_id": "decreto-saopaulo-59671-2020",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 13",
+  "numero": "13",
+  "header_raw": "Art. 13. Os materiais autorizados para a construção, reconstrução ou reparo dos pavimentos das calçadas são:",
+  "caminho_hierarquico": [
+    "CAPÍTULO VI",
+    "Art. 13"
+  ],
+  "texto": "Art. 13. Os materiais autorizados para a construção, reconstrução ou reparo dos pavimentos das calçadas são:\n\nI - concreto moldado, “in loco”, com armadura metálica e juntas de dilatação que não provoquem vibrações;\n\nII - peças e placas de concreto pré-fabricadas de alto desempenho com juntas que não provoquem vibrações;\n\nIII - revestimento de mistura asfáltica do tipo “Gap Graded”;\n\nIV - outros materiais que atendam às especificações técnicas de resistência, abrasividade, modo de assentamento, modulação, entre outros, definidos pela autoridade competente.\n\nParágrafo único. As calçadas localizadas em frente ou em área envoltória de bens tombados pelo patrimônio histórico poderão utilizar materiais distintos dos elencados nos incisos do “caput” deste artigo, desde que em consonância com a legislação pertinente ao patrimônio histórico.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 59.671/2020 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO VI › Art. 13",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59671-de-7-de-agosto-de-2020",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "regularizacao"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Consolida os critérios para a padronização das calçadas, bem como regulamenta o disposto nos incisos VII e VIII do “caput” do artigo 240 do Plano Diretor Estratégico, o Capítulo III da Lei nº 15.442, de 9 de setembro de 2011, e a Lei nº 13.293, de 14 de janeiro de 2002."
+}

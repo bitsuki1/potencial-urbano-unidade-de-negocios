@@ -1,0 +1,65 @@
+{
+  "id": "decreto-saopaulo-63698-2024",
+  "tipo_norma": "decreto",
+  "esfera": "municipal",
+  "jurisdicao": "São Paulo/SP",
+  "numero": "63.698",
+  "ano": 2024,
+  "ementa": "Aprova a Consolidação das Leis Tributárias do Município de São Paulo, bem como dispõe sobre a aplicação do disposto no “caput” do artigo 1º-A da Lei nº 10.734, de 30 de junho de 1989, aos débitos que especifica.",
+  "tema": [
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "itbi"
+  ],
+  "dispositivos_chave": [
+    "Art. 1º Fica aprovada, na forma do Anexo Único integrante deste decreto, a Consolidação das Leis Tributárias do Município de São",
+    "Art. 2º O disposto no “caput” do artigo 1º-A da Lei nº 10.734, de 30 de junho de 1989, será aplicável, prospectivamente, aos déb",
+    "Art. 3º Este decreto entrará em vigor na data de sua publicação, revogado o Decreto n° 61.810, de 14 de setembro de 2022."
+  ],
+  "vigencia": {
+    "inicio": "2024-08-27",
+    "fim": null,
+    "em_vigor": true,
+    "altera": [],
+    "alterada_por": [],
+    "revogada_por": null,
+    "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+  },
+  "remissoes": [
+    {
+      "norma": "DECRETO Nº 63.698",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto n° 61.810",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 10.734",
+      "relacao": "citada no texto (detectada automaticamente)"
+    }
+  ],
+  "jurisprudencia_relacionada": [],
+  "tem_tabela": true,
+  "tabelas_extraidas": [],
+  "tem_formula": false,
+  "formulas_referenciadas": [],
+  "fonte": {
+    "origem": "Portal oficial (legislacao.prefeitura.sp.gov.br)",
+    "path": "_entrada/misto/decreto-saopaulo-63698-2024.txt",
+    "url": "https://legislacao.prefeitura.sp.gov.br/decreto-63698-de-27-de-agosto-de-2024",
+    "hash": "sha256:542fc08c5b26252032697799ee55eeb8479c2f0731790e0233fc961c66ca2112",
+    "hash_nota_fonte": "sha256 do HTML bruto do portal capturado 2026-07-13",
+    "ocr": false,
+    "metodo": "VERBATIM INTEGRAL (portal oficial, texto compilado); captura portal oficial legislacao.prefeitura.sp.gov.br (container texto_compilado); promovido de _entrada/misto/",
+    "hash_alvo": "_entrada/misto/decreto-saopaulo-63698-2024.txt",
+    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior."
+  },
+  "status_pipeline": "indexado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "dominio_primario": "iptu",
+  "dominio": [
+    "iptu"
+  ]
+}

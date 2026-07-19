@@ -1,0 +1,43 @@
+{
+  "chunk_id": "decreto-saopaulo-59163-2019::015-art-12",
+  "lei_id": "decreto-saopaulo-59163-2019",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 12",
+  "numero": "12",
+  "header_raw": "Art. 12. Os agentes públicos que implementaram o direito ao recebimento da Bonificação por Resultados, nos termos da Lei nº 17.224, de 2019, e venham ser exonerados ou aposentados em data anterior ao seu pagamento, deverão requerê-lo nos termos das orientações constantes de manual a ser editado pelo Departamento de Recursos Humanos, da Secretaria Municipal de Gestão.",
+  "caminho_hierarquico": [
+    "Art. 12"
+  ],
+  "texto": "Art. 12. Os agentes públicos que implementaram o direito ao recebimento da Bonificação por Resultados, nos termos da Lei nº 17.224, de 2019, e venham ser exonerados ou aposentados em data anterior ao seu pagamento, deverão requerê-lo nos termos das orientações constantes de manual a ser editado pelo Departamento de Recursos Humanos, da Secretaria Municipal de Gestão.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 59.163/2019 — São Paulo/SP",
+    "dispositivo": "Art. 12",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59163-de-27-de-dezembro-de-2019",
+    "vigencia": {
+      "inicio": "2019-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a concessão da Bonificação por Resultados - BR, instituída pela Lei nº 17.224, de 31 de outubro de 2019, aos agentes públicos municipais, na forma e condições que especifica."
+}

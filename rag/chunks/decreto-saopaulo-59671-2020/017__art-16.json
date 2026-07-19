@@ -1,0 +1,45 @@
+{
+  "chunk_id": "decreto-saopaulo-59671-2020::017-art-16",
+  "lei_id": "decreto-saopaulo-59671-2020",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 16",
+  "numero": "16",
+  "header_raw": "Art. 16. A recomposição do pavimento das calçadas pelos responsáveis, bem como pelas pessoas físicas ou jurídicas que tenham permissão de uso de vias públicas com fundamento na Lei nº 13.614, de 2 de julho de 2003, deverá atender, além das disposições gerais estabelecidas neste decreto, às seguintes disposições específicas:",
+  "caminho_hierarquico": [
+    "CAPÍTULO VII",
+    "Seção I",
+    "Art. 16"
+  ],
+  "texto": "Art. 16. A recomposição do pavimento das calçadas pelos responsáveis, bem como pelas pessoas físicas ou jurídicas que tenham permissão de uso de vias públicas com fundamento na Lei nº 13.614, de 2 de julho de 2003, deverá atender, além das disposições gerais estabelecidas neste decreto, às seguintes disposições específicas:\n\nI - nas obras que exijam quebra da calçada, a faixa livre deverá ser refeita em toda a sua seção transversal, não se admitindo emendas e reparos longitudinais de acabamento, respeitada a modulação do pavimento;\n\nII - quando necessárias, as emendas transversais deverão ser perpendiculares ao sentido do fluxo de pedestres;\n\nIII - as demais faixas, quando pavimentadas, deverão ser recompostas em planos regulares, com juntas definidas, não se admitindo remendos de qualquer espécie;\n\nIV - nas calçadas verdes, a vegetação, quando afetada pelas obras, deverá ser reconstituída;\n\nV - na recomposição de pavimentos executados originalmente com técnicas construtivas e materiais autorizados por este decreto, deverão ser utilizados rigorosamente os mesmos materiais e técnicas originais;\n\nVI - na recomposição de pavimentos executados originalmente com técnicas construtivas e materiais não autorizados por este decreto, a reconstrução deverá garantir as características originais e as condições de acessibilidade definidas neste decreto;\n\nVII - em casos excepcionais de áreas envoltórias de bens tombados, mediante orientação dos órgãos responsáveis pelo tombamento, poderá ser admitida a utilização de técnicas construtivas e materiais diversos.\n\nSeção II\n\nDa Execução das Calçadas",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 59.671/2020 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO VII › Seção I › Art. 16",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59671-de-7-de-agosto-de-2020",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "regularizacao"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Consolida os critérios para a padronização das calçadas, bem como regulamenta o disposto nos incisos VII e VIII do “caput” do artigo 240 do Plano Diretor Estratégico, o Capítulo III da Lei nº 15.442, de 9 de setembro de 2011, e a Lei nº 13.293, de 14 de janeiro de 2002."
+}

@@ -1,0 +1,43 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17853-2022::011-art-10",
+  "lei_id": "lei-municipal-saopaulo-17853-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 10",
+  "numero": "10",
+  "header_raw": "Art. 10. O estabelecimento que se enquadre no previsto no art. 1º, comprovadamente instalado até a data de publicação desta Lei, permitido para o local na legislação vigente quando de sua instalação, poderá permanecer em funcionamento desde que:(Artigo declarado inconstitucional pela ADI nº 2157392-66.2023.8.26.0000)",
+  "caminho_hierarquico": [
+    "Art. 10"
+  ],
+  "texto": "Art. 10. O estabelecimento que se enquadre no previsto no art. 1º, comprovadamente instalado até a data de publicação desta Lei, permitido para o local na legislação vigente quando de sua instalação, poderá permanecer em funcionamento desde que:(Artigo declarado inconstitucional pela ADI nº 2157392-66.2023.8.26.0000)\n\nI - tenha sido instalado de acordo com a legislação em vigor à época da sua instalação;\n\nII - atenda aos parâmetros de incomodidade previstos na Lei nº 16.402, de 22 de março de 2016;\n\nIII - atenda as condições estabelecidas nos arts. 4º, 5º, 6º, 7º, 8º e 11 desta Lei, bem como o disposto no § 1º deste artigo;\n\nIV - apresente, no prazo de 90 (noventa) dias, documento comprobatório da regularidade da edificação.\n\n§ 1º Na hipótese de que trata o caput deste artigo:\n\na) não serão permitidas ampliações da edificação, sendo admitidas somente reformas essenciais à segurança e higiene dessas edificações, bem como a instalação de equipamentos e adequações necessários ao atendimento aos critérios previstos nesta Lei;\n\nb) não será permitida a ampliação do número de cozinhas que constituem a atividade secundária do estabelecimento;\n\nc) nas hipóteses de revogação, extinção ou cassação das licenças existentes, não será permitida a expedição de novas licenças de funcionamento para cozinhas que integram o estabelecimento até que se atenda aos parâmetros previstos no art. 3º.\n\n§ 2º Os estabelecimentos instalados anteriormente à data de vigência desta Lei terão o prazo de 90 (noventa) dias para se adequar às disposições previstas nos arts. 4º, 5º, 6º e 7º.\n\n§ 3º Para os estabelecimentos tratados neste artigo, as adequações às disposições previstas no art. 7º poderão ocorrer em outro imóvel, desde que:\n\nI - seja demonstrada a impossibilidade de seu atendimento na edificação existente, sem que haja demolição parcial ou total;\n\nII - o outro imóvel atenda a distância mínima a ser fixada em regulamentação;\n\nIII - sejam cumpridos eventuais outros requisitos fixados em regulamentação.\n\n§ 4º O disposto no art. 8º deverá ser observado imediatamente após a publicação da presente Lei.\n\n§ 5º A ausência de atendimento ao disposto no § 2º acarretará a cassação da licença de funcionamento.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.853/2022 — São Paulo/SP",
+    "dispositivo": "Art. 10",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17853-de-29-de-novembro-de-2022",
+    "vigencia": {
+      "inicio": "2022-11-29",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=True revoga=False."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Estabelece regras aplicáveis a estabelecimentos formados por um conjunto de cozinhas industriais, utilizadas para produção por diferentes restaurantes e/ou empresas, destinada à comercialização de refeições e alimentos por serviço de entregas, sem acesso de público para consumo no local, configurando operação conjunta ou conglomerado de cozinhas, popularmente conhecidas como dark kitchens e dispõe sobre aspectos fiscalizatórios da Lei nº 16.402, de 22 de março de 2016."
+}

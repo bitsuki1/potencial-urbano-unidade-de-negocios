@@ -1,0 +1,45 @@
+{
+  "chunk_id": "decreto-saopaulo-63698-2024::004-art-3o",
+  "lei_id": "decreto-saopaulo-63698-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 3º",
+  "numero": "3",
+  "header_raw": "Art. 3º Este decreto entrará em vigor na data de sua publicação, revogado o Decreto n° 61.810, de 14 de setembro de 2022.",
+  "caminho_hierarquico": [
+    "Art. 3º"
+  ],
+  "texto": "Art. 3º Este decreto entrará em vigor na data de sua publicação, revogado o Decreto n° 61.810, de 14 de setembro de 2022.\n\nPREFEITURA DO MUNICÍPIO DE SÃO PAULO, aos 27 de agosto de 2024, 471º da fundação de São Paulo.\n\nRICARDO NUNES\n\nPREFEITO\n\nLUIS FELIPE VIDAL ARELLANO\n\nSECRETÁRIO MUNICIPAL DA FAZENDA\n\nFABRICIO COBRA ARBEX\n\nSECRETÁRIO MUNICIPAL DA CASA CIVIL\n\nFERNANDO JOSÉ DA COSTA\n\nSECRETÁRIO MUNICIPAL DE JUSTIÇA\n\nEDSON APARECIDO DOS SANTOS\n\nSECRETÁRIO DO GOVERNO MUNICIPAL\n\nPublicado na Secretaria do Governo Municipal, em 27 de agosto de 2024.\n\nDocumento original assinado nº 107242769\n\nEste texto não substitui o original publicado no Diário Oficial da Cidade de São Paulo.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 63.698/2024 — São Paulo/SP",
+    "dispositivo": "Art. 3º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-63698-de-27-de-agosto-de-2024",
+    "vigencia": {
+      "inicio": "2024-08-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "itbi"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Aprova a Consolidação das Leis Tributárias do Município de São Paulo, bem como dispõe sobre a aplicação do disposto no “caput” do artigo 1º-A da Lei nº 10.734, de 30 de junho de 1989, aos débitos que especifica."
+}

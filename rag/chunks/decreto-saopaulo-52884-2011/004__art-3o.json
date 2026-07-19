@@ -1,0 +1,43 @@
+{
+  "chunk_id": "decreto-saopaulo-52884-2011::004-art-3o",
+  "lei_id": "decreto-saopaulo-52884-2011",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 3º",
+  "numero": "3",
+  "header_raw": "Art. 3º. Este decreto entrará em vigor na data de sua publicação.",
+  "caminho_hierarquico": [
+    "Art. 3º"
+  ],
+  "texto": "Art. 3º. Este decreto entrará em vigor na data de sua publicação.\n\nPREFEITURA DO MUNICÍPIO DE SÃO PAULO, aos 28 de dezembro de 2011, 458º da fundação de São Paulo.\n\nGILBERTO KASSAB, PREFEITO\n\nMAURO RICARDO MACHADO COSTA, Secretário Municipal de Finanças\n\nNELSON HERVEY COSTA, Secretário do Governo Municipal\n\nPublicado na Secretaria do Governo Municipal, em 28 de dezembro de 2011.\n\nEste texto não substitui o original publicado no Diário Oficial da Cidade de São Paulo.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 52.884/2011 — São Paulo/SP",
+    "dispositivo": "Art. 3º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-52884-de-28-de-dezembro-de-2011",
+    "vigencia": {
+      "inicio": "2011-12-28",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Aprova o Regulamento do Imposto Predial e do Imposto Territorial Urbano - IPTU."
+}

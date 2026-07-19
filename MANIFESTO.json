@@ -1,6 +1,6 @@
 {
   "_doc": "Fonte da verdade do status_pipeline de cada item. GERADO por scripts/consolidar.py a partir dos .json individuais — NAO editar a mao (Principio 1.5/2.3 do CLAUDE.md). Roda a cada push via .github/workflows/consolidar.yml.",
-  "gerado_em": "2026-07-18T23:37:21.479493+00:00",
+  "gerado_em": "2026-07-19T03:05:39.248640+00:00",
   "vocabulario_status": [
     "bruto",
     "fatiado",
@@ -9,17 +9,17 @@
     "indexado"
   ],
   "resumo": {
-    "total_itens": 109,
-    "leis": 70,
+    "total_itens": 121,
+    "leis": 82,
     "jurisprudencia": 39,
-    "ativos_no_escopo": 109,
+    "ativos_no_escopo": 121,
     "fora_de_escopo": 0,
     "_nota": "por_status_pipeline conta SÓ os ativos_no_escopo. Os 2 fora-de-escopo históricos (stf-tema-1020/ISS, stj-resp-1658054/previdenciário) foram ARQUIVADOS por decisão do dono em 2026-07-05 (git rm; recuperáveis pelo histórico).",
     "por_status_pipeline_ativos": {
-      "indexado": 109
+      "indexado": 121
     },
     "status_ilegais_encontrados": [],
-    "verbatim_integral_ativos": 70,
+    "verbatim_integral_ativos": 82,
     "_nota_verbatim_integral": "B-7/AUD-17: verbatim_integral e DERIVADO do marcador '## Texto integral (verbatim)' no .md (prova mecanica, nao declaracao). Difere de confianca_extracao (flag do extrator).",
     "confianca_baixa_ou_media": 10,
     "_nota_verbatim": "confianca e flag de extracao, nao prova de verbatim. CORRIGIDO na auditoria profunda 2026-06-20 (AUD-01): 13 leis JA estao em verbatim integral e indexadas (12 federais re-ingeridas de _entrada/misto/ + a 7228/1968 municipal) — supera a narrativa antiga 'planalto deu 403, NENHUMA e verbatim', que confundia 'o .md e resumo' com 'o verbatim nao existe'. Faltam 12 municipais (so resumo WebSearch) — re-ingestao verbatim delas e o que resta do pre-requisito do RAG. As juris (curtas) sao verbatim."
@@ -977,6 +977,21 @@
       "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l9514.htm"
     },
     {
+      "id": "decreto-saopaulo-52884-2011",
+      "tipo": "decreto",
+      "caminho_md": "leis/municipal-sp/decreto-saopaulo-52884-2011.md",
+      "caminho_json": "leis/municipal-sp/decreto-saopaulo-52884-2011.json",
+      "status_pipeline": "indexado",
+      "status_valido": true,
+      "confianca_extracao": "alta",
+      "verbatim_integral": true,
+      "vigencia_inicio": "2011-12-28",
+      "revisado_por_humano": false,
+      "fora_de_escopo": false,
+      "fora_de_escopo_motivo": null,
+      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-52884-de-28-de-dezembro-de-2011"
+    },
+    {
       "id": "decreto-saopaulo-56954-2016",
       "tipo": "decreto",
       "caminho_md": "leis/municipal-sp/decreto-saopaulo-56954-2016.md",
@@ -1112,6 +1127,21 @@
       "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-58592-de-27-de-dezembro-de-2018"
     },
     {
+      "id": "decreto-saopaulo-58707-2019",
+      "tipo": "decreto",
+      "caminho_md": "leis/municipal-sp/decreto-saopaulo-58707-2019.md",
+      "caminho_json": "leis/municipal-sp/decreto-saopaulo-58707-2019.json",
+      "status_pipeline": "indexado",
+      "status_valido": true,
+      "confianca_extracao": "alta",
+      "verbatim_integral": true,
+      "vigencia_inicio": "2019-04-08",
+      "revisado_por_humano": false,
+      "fora_de_escopo": false,
+      "fora_de_escopo_motivo": null,
+      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-58707-de-8-de-abril-de-2019"
+    },
+    {
       "id": "decreto-saopaulo-58955-2019",
       "tipo": "decreto",
       "caminho_md": "leis/municipal-sp/decreto-saopaulo-58955-2019.md",
@@ -1125,6 +1155,21 @@
       "fora_de_escopo": false,
       "fora_de_escopo_motivo": null,
       "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-58955-de-20-de-setembro-de-2019"
+    },
+    {
+      "id": "decreto-saopaulo-59163-2019",
+      "tipo": "decreto",
+      "caminho_md": "leis/municipal-sp/decreto-saopaulo-59163-2019.md",
+      "caminho_json": "leis/municipal-sp/decreto-saopaulo-59163-2019.json",
+      "status_pipeline": "indexado",
+      "status_valido": true,
+      "confianca_extracao": "alta",
+      "verbatim_integral": true,
+      "vigencia_inicio": "2019-12-27",
+      "revisado_por_humano": false,
+      "fora_de_escopo": false,
+      "fora_de_escopo_motivo": null,
+      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59163-de-27-de-dezembro-de-2019"
     },
     {
       "id": "decreto-saopaulo-59164-2019",
@@ -1142,6 +1187,21 @@
       "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59164-de-27-de-dezembro-de-2019"
     },
     {
+      "id": "decreto-saopaulo-59671-2020",
+      "tipo": "decreto",
+      "caminho_md": "leis/municipal-sp/decreto-saopaulo-59671-2020.md",
+      "caminho_json": "leis/municipal-sp/decreto-saopaulo-59671-2020.json",
+      "status_pipeline": "indexado",
+      "status_valido": true,
+      "confianca_extracao": "alta",
+      "verbatim_integral": true,
+      "vigencia_inicio": "2020-08-07",
+      "revisado_por_humano": false,
+      "fora_de_escopo": false,
+      "fora_de_escopo_motivo": null,
+      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59671-de-7-de-agosto-de-2020"
+    },
+    {
       "id": "decreto-saopaulo-59886-2020",
       "tipo": "decreto",
       "caminho_md": "leis/municipal-sp/decreto-saopaulo-59886-2020.md",
@@ -1155,6 +1215,21 @@
       "fora_de_escopo": false,
       "fora_de_escopo_motivo": null,
       "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59886-de-4-de-novembro-de-2020"
+    },
+    {
+      "id": "decreto-saopaulo-60581-2021",
+      "tipo": "decreto",
+      "caminho_md": "leis/municipal-sp/decreto-saopaulo-60581-2021.md",
+      "caminho_json": "leis/municipal-sp/decreto-saopaulo-60581-2021.json",
+      "status_pipeline": "indexado",
+      "status_valido": true,
+      "confianca_extracao": "alta",
+      "verbatim_integral": true,
+      "vigencia_inicio": "2021-09-27",
+      "revisado_por_humano": false,
+      "fora_de_escopo": false,
+      "fora_de_escopo_motivo": null,
+      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-60581-de-27-de-setembro-de-2021"
     },
     {
       "id": "decreto-saopaulo-60939-2021",
@@ -1187,6 +1262,51 @@
       "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-61137-de-10-de-marco-de-2022"
     },
     {
+      "id": "decreto-saopaulo-61218-2022",
+      "tipo": "decreto",
+      "caminho_md": "leis/municipal-sp/decreto-saopaulo-61218-2022.md",
+      "caminho_json": "leis/municipal-sp/decreto-saopaulo-61218-2022.json",
+      "status_pipeline": "indexado",
+      "status_valido": true,
+      "confianca_extracao": "alta",
+      "verbatim_integral": true,
+      "vigencia_inicio": "2022-04-06",
+      "revisado_por_humano": false,
+      "fora_de_escopo": false,
+      "fora_de_escopo_motivo": null,
+      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-61218-de-6-de-abril-de-2022"
+    },
+    {
+      "id": "decreto-saopaulo-62175-2023",
+      "tipo": "decreto",
+      "caminho_md": "leis/municipal-sp/decreto-saopaulo-62175-2023.md",
+      "caminho_json": "leis/municipal-sp/decreto-saopaulo-62175-2023.json",
+      "status_pipeline": "indexado",
+      "status_valido": true,
+      "confianca_extracao": "alta",
+      "verbatim_integral": true,
+      "vigencia_inicio": "2023-02-24",
+      "revisado_por_humano": false,
+      "fora_de_escopo": false,
+      "fora_de_escopo_motivo": null,
+      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-62175-de-24-de-fevereiro-de-2023"
+    },
+    {
+      "id": "decreto-saopaulo-63423-2024",
+      "tipo": "decreto",
+      "caminho_md": "leis/municipal-sp/decreto-saopaulo-63423-2024.md",
+      "caminho_json": "leis/municipal-sp/decreto-saopaulo-63423-2024.json",
+      "status_pipeline": "indexado",
+      "status_valido": true,
+      "confianca_extracao": "alta",
+      "verbatim_integral": true,
+      "vigencia_inicio": "2024-05-21",
+      "revisado_por_humano": false,
+      "fora_de_escopo": false,
+      "fora_de_escopo_motivo": null,
+      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-63423-de-21-de-maio-de-2024"
+    },
+    {
       "id": "decreto-saopaulo-63437-2024",
       "tipo": "decreto",
       "caminho_md": "leis/municipal-sp/decreto-saopaulo-63437-2024.md",
@@ -1215,6 +1335,21 @@
       "fora_de_escopo": false,
       "fora_de_escopo_motivo": null,
       "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-63504-de-14-de-junho-de-2024"
+    },
+    {
+      "id": "decreto-saopaulo-63698-2024",
+      "tipo": "decreto",
+      "caminho_md": "leis/municipal-sp/decreto-saopaulo-63698-2024.md",
+      "caminho_json": "leis/municipal-sp/decreto-saopaulo-63698-2024.json",
+      "status_pipeline": "indexado",
+      "status_valido": true,
+      "confianca_extracao": "alta",
+      "verbatim_integral": true,
+      "vigencia_inicio": "2024-08-27",
+      "revisado_por_humano": false,
+      "fora_de_escopo": false,
+      "fora_de_escopo_motivo": null,
+      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-63698-de-27-de-agosto-de-2024"
     },
     {
       "id": "decreto-saopaulo-63728-2024",
@@ -1502,6 +1637,21 @@
       "fonte_url": "https://legislacao.prefeitura.sp.gov.br/leis/lei-15044-de-03-de-dezembro-de-2009"
     },
     {
+      "id": "lei-municipal-saopaulo-15723-2013",
+      "tipo": "lei_ordinaria",
+      "caminho_md": "leis/municipal-sp/lei-municipal-saopaulo-15723-2013.md",
+      "caminho_json": "leis/municipal-sp/lei-municipal-saopaulo-15723-2013.json",
+      "status_pipeline": "indexado",
+      "status_valido": true,
+      "confianca_extracao": "alta",
+      "verbatim_integral": true,
+      "vigencia_inicio": "2013-04-24",
+      "revisado_por_humano": false,
+      "fora_de_escopo": false,
+      "fora_de_escopo_motivo": null,
+      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-15723-de-24-de-abril-de-2013"
+    },
+    {
       "id": "lei-municipal-saopaulo-15889-2013",
       "tipo": "lei_ordinaria",
       "caminho_md": "leis/municipal-sp/lei-municipal-saopaulo-15889-2013.md",
@@ -1575,6 +1725,21 @@
       "fora_de_escopo": false,
       "fora_de_escopo_motivo": null,
       "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17092-de-23-de-maio-de-2019"
+    },
+    {
+      "id": "lei-municipal-saopaulo-17104-2019",
+      "tipo": "lei_ordinaria",
+      "caminho_md": "leis/municipal-sp/lei-municipal-saopaulo-17104-2019.md",
+      "caminho_json": "leis/municipal-sp/lei-municipal-saopaulo-17104-2019.json",
+      "status_pipeline": "indexado",
+      "status_valido": true,
+      "confianca_extracao": "alta",
+      "verbatim_integral": true,
+      "vigencia_inicio": "2019-05-30",
+      "revisado_por_humano": false,
+      "fora_de_escopo": false,
+      "fora_de_escopo_motivo": null,
+      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17104-de-30-de-maio-de-2019"
     },
     {
       "id": "lei-municipal-saopaulo-17202-2019",
@@ -1695,6 +1860,21 @@
       "fora_de_escopo": false,
       "fora_de_escopo_motivo": null,
       "fonte_url": null
+    },
+    {
+      "id": "lei-municipal-saopaulo-17853-2022",
+      "tipo": "lei_ordinaria",
+      "caminho_md": "leis/municipal-sp/lei-municipal-saopaulo-17853-2022.md",
+      "caminho_json": "leis/municipal-sp/lei-municipal-saopaulo-17853-2022.json",
+      "status_pipeline": "indexado",
+      "status_valido": true,
+      "confianca_extracao": "alta",
+      "verbatim_integral": true,
+      "vigencia_inicio": "2022-11-29",
+      "revisado_por_humano": false,
+      "fora_de_escopo": false,
+      "fora_de_escopo_motivo": null,
+      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17853-de-29-de-novembro-de-2022"
     },
     {
       "id": "lei-municipal-saopaulo-17975-2023",

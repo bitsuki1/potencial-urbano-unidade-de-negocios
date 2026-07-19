@@ -1,0 +1,43 @@
+{
+  "chunk_id": "decreto-saopaulo-59163-2019::011-art-10",
+  "lei_id": "decreto-saopaulo-59163-2019",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 10",
+  "numero": "10",
+  "header_raw": "Art. 10. Para os exercícios 2019 e 2020, o valor da Bonificação por Resultados – BR, observados os limites estabelecidos na Lei nº 17.224, de 2019, será calculado sobre 20% (vinte por cento) do somatório da retribuição mensal do agente público no período de avaliação, multiplicado pelo:",
+  "caminho_hierarquico": [
+    "Art. 10"
+  ],
+  "texto": "Art. 10. Para os exercícios 2019 e 2020, o valor da Bonificação por Resultados – BR, observados os limites estabelecidos na Lei nº 17.224, de 2019, será calculado sobre 20% (vinte por cento) do somatório da retribuição mensal do agente público no período de avaliação, multiplicado pelo:\n\nI - índice agregado de cumprimento de metas obtido pelo órgão da administração direta, autarquia ou fundação;\n\nII - índice de dias de efetivo exercício.\n\n§ 1º Para fins do disposto no inciso I do “caput” deste artigo, aplica-se aos órgãos da administração direta, autarquias e fundações que não sejam responsáveis pelo cumprimento de metas referidas no Programa de Metas de que trata o artigo 69-A da Lei Orgânica do Município de São Paulo, a média dos índices agregados de cumprimento das metas, conforme critérios a serem estabelecidos pela comissão intersecretarial a que se refere o artigo 5º da Lei nº 17.224, de 2019.\n\n§ 2º Considera-se de efetivo exercício, para os fins do disposto no inciso II do “caput” deste artigo, os dias do período de avaliação em que o agente público tenha exercido regularmente suas funções, desconsiderada toda e qualquer ausência, à exceção das que se verificarem em virtude de férias, licença à gestante, licença-paternidade, licença por adoção ou guarda, licença-nojo, licença-gala, licença compulsória, licença por acidente de trabalho ou doença profissional e convocação para cumprimento de serviços obrigatórios por lei.\n\n§ 3º Os agentes públicos de órgão da administração direta, autarquia ou fundação cujo índice de cumprimento for superior às metas globais definidas poderão receber um adicional de até 20% (vinte por cento) do valor da Bonificação por Resultados – BR, na forma estabelecida em portaria a ser editada pela comissão intersecretarial.\n\n§ 4º A Bonificação por Resultados – BR está limitada ao montante global anual destinado ao seu pagamento, devendo os percentuais estabelecidos no “caput” e § 3º deste artigo ser proporcionalmente ajustados de forma a adequá-los a esse montante.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 59.163/2019 — São Paulo/SP",
+    "dispositivo": "Art. 10",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59163-de-27-de-dezembro-de-2019",
+    "vigencia": {
+      "inicio": "2019-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a concessão da Bonificação por Resultados - BR, instituída pela Lei nº 17.224, de 31 de outubro de 2019, aos agentes públicos municipais, na forma e condições que especifica."
+}

@@ -1,0 +1,43 @@
+{
+  "chunk_id": "decreto-saopaulo-59163-2019::016-art-13",
+  "lei_id": "decreto-saopaulo-59163-2019",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 13",
+  "numero": "13",
+  "header_raw": "Art. 13. Contra os resultados apurados no relatório consolidado de aferição do cumprimento das metas, caberá pedido de reconsideração, no prazo de até 15 (quinze) dias, contados da publicação, no Diário Oficial da Cidade, da sua homologação, dirigido à comissão pelo titular do órgão da administração direta ou dirigente de autarquia ou fundação, relativo à avaliação das respectivas metas.",
+  "caminho_hierarquico": [
+    "Art. 13"
+  ],
+  "texto": "Art. 13. Contra os resultados apurados no relatório consolidado de aferição do cumprimento das metas, caberá pedido de reconsideração, no prazo de até 15 (quinze) dias, contados da publicação, no Diário Oficial da Cidade, da sua homologação, dirigido à comissão pelo titular do órgão da administração direta ou dirigente de autarquia ou fundação, relativo à avaliação das respectivas metas.\n\nParágrafo único. O pedido de reconsideração deverá ser instruído com as razões, relatórios, planilhas de cálculo e outros documentos que comprovem as divergências do valor publicado em relação aos pleiteados.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 59.163/2019 — São Paulo/SP",
+    "dispositivo": "Art. 13",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59163-de-27-de-dezembro-de-2019",
+    "vigencia": {
+      "inicio": "2019-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a concessão da Bonificação por Resultados - BR, instituída pela Lei nº 17.224, de 31 de outubro de 2019, aos agentes públicos municipais, na forma e condições que especifica."
+}

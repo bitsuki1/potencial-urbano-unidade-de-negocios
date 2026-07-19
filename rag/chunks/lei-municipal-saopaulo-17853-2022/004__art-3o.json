@@ -1,0 +1,43 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17853-2022::004-art-3o",
+  "lei_id": "lei-municipal-saopaulo-17853-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 3º",
+  "numero": "3",
+  "header_raw": "Art. 3º Em decorrência da cumulatividade a que se refere o art. 2º desta Lei, a atividade referida no art. 1º desta Lei deverá ser enquadrada na seguinte conformidade:(Artigo declarado inconstitucional pela ADI nº 2157392-66.2023.8.26.0000)",
+  "caminho_hierarquico": [
+    "Art. 3º"
+  ],
+  "texto": "Art. 3º Em decorrência da cumulatividade a que se refere o art. 2º desta Lei, a atividade referida no art. 1º desta Lei deverá ser enquadrada na seguinte conformidade:(Artigo declarado inconstitucional pela ADI nº 2157392-66.2023.8.26.0000)\n\nI - subcategoria de uso Ind-1b, no grupo de atividades Ind-1b-1, nos termos do art. 102, inciso I, da Lei nº 16.402, de 22 de março de 2016, na hipótese em que abranger de 03 (três) até 10 (dez) cozinhas, limitada à área construída computável de até 500m² (quinhentos metros quadrados);\n\nII - na subcategoria de uso Ind-2, no grupo de atividades Ind-2-1, nos termos do art. 103, I, da Lei nº 16.402, de 22 de março de 2016, na hipótese em que ultrapassar 10 (dez) cozinhas ou 500m² (quinhentos metros quadrados) de área construída computável.\n\n§ 1º Cada cozinha a ser licenciada no empreendimento não poderá ocupar área inferior a 12 m².\n\n§ 2º A distância mínima entre uma dark kitchen existente ou licenciada e outra não deverá ser inferior a um raio de 300m (trezentos metros), sendo definido na regulamentação o centro do raio.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.853/2022 — São Paulo/SP",
+    "dispositivo": "Art. 3º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17853-de-29-de-novembro-de-2022",
+    "vigencia": {
+      "inicio": "2022-11-29",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=True revoga=False."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Estabelece regras aplicáveis a estabelecimentos formados por um conjunto de cozinhas industriais, utilizadas para produção por diferentes restaurantes e/ou empresas, destinada à comercialização de refeições e alimentos por serviço de entregas, sem acesso de público para consumo no local, configurando operação conjunta ou conglomerado de cozinhas, popularmente conhecidas como dark kitchens e dispõe sobre aspectos fiscalizatórios da Lei nº 16.402, de 22 de março de 2016."
+}

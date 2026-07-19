@@ -1,0 +1,44 @@
+{
+  "chunk_id": "decreto-saopaulo-59671-2020::025-art-24",
+  "lei_id": "decreto-saopaulo-59671-2020",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 24",
+  "numero": "24",
+  "header_raw": "Art. 24. Nos casos em que a largura total da calçada não possibilitar a implantação da faixa livre mínima de 1,20m (um metro e vinte centímetros), e não for possível a sua ampliação, poderá ser dispensado o atendimento às condições definidas neste decreto, sendo admitidas, conforme o seu Anexo VI, as seguintes situações atípicas:",
+  "caminho_hierarquico": [
+    "CAPÍTULO IX",
+    "Art. 24"
+  ],
+  "texto": "Art. 24. Nos casos em que a largura total da calçada não possibilitar a implantação da faixa livre mínima de 1,20m (um metro e vinte centímetros), e não for possível a sua ampliação, poderá ser dispensado o atendimento às condições definidas neste decreto, sendo admitidas, conforme o seu Anexo VI, as seguintes situações atípicas:\n\nI - onde houver interferências de mobiliário urbano ou de guias rebaixadas para acesso de veículos, deverá ser respeitada a largura mínima de 90cm (noventa centímetros) para a faixa livre, com inclinação máxima na transversal de 2% (dois por cento), junto a essas interferências;\n\nII - onde houver a necessidade de transposição de obstáculos isolados com extensão máxima de 40cm (quarenta centímetros), tais como postes ou árvores, deverá ser respeitada a largura mínima de 80cm (oitenta centímetros) para a faixa livre, junto a essas interferências.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 59.671/2020 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO IX › Art. 24",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59671-de-7-de-agosto-de-2020",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "regularizacao"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Consolida os critérios para a padronização das calçadas, bem como regulamenta o disposto nos incisos VII e VIII do “caput” do artigo 240 do Plano Diretor Estratégico, o Capítulo III da Lei nº 15.442, de 9 de setembro de 2011, e a Lei nº 13.293, de 14 de janeiro de 2002."
+}

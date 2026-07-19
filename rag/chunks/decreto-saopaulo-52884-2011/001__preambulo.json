@@ -1,0 +1,41 @@
+{
+  "chunk_id": "decreto-saopaulo-52884-2011::001-preambulo",
+  "lei_id": "decreto-saopaulo-52884-2011",
+  "tipo_dispositivo": "preambulo",
+  "rotulo": "Preâmbulo",
+  "numero": null,
+  "header_raw": null,
+  "caminho_hierarquico": [],
+  "texto": "DECRETO Nº 52.884 DE 28 DE DEZEMBRO DE 2011\n\nDECRETO Nº 52.884 de 28 de Dezembro de 2011\n\nRegulamentações\n\nRevogações\n\nCORRELAÇÕES\n\nAnexos\n\nTemas Relacionados\n\nAprova o Regulamento do Imposto Predial e do Imposto Territorial Urbano - IPTU.\n\nDECRETO Nº 52.884, DE 28 DE DEZEMBRO DE 2011\n\nAprova o Regulamento do Imposto Predial e do Imposto Territorial Urbano - IPTU.\n\nGILBERTO KASSAB, Prefeito do Município de São Paulo, no uso das atribuições que lhe são conferidas por lei,\n\nD E C R E T A:",
+  "citavel": false,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 52.884/2011 — São Paulo/SP",
+    "dispositivo": "Preâmbulo",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-52884-de-28-de-dezembro-de-2011",
+    "vigencia": {
+      "inicio": "2011-12-28",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Aprova o Regulamento do Imposto Predial e do Imposto Territorial Urbano - IPTU."
+}

@@ -1,0 +1,43 @@
+{
+  "chunk_id": "decreto-saopaulo-63423-2024::004-art-3o",
+  "lei_id": "decreto-saopaulo-63423-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 3º",
+  "numero": "3",
+  "header_raw": "Art. 3º A Carta Geotécnica de Aptidão à Urbanização do Município de São Paulo de 2024 – CGAU/MSP será disponibilizada, para consulta do público, e em formato aberto, nos termos do inciso V do artigo 299 da Lei nº 16.050, de 2014 – Plano Diretor Estratégico.",
+  "caminho_hierarquico": [
+    "Art. 3º"
+  ],
+  "texto": "Art. 3º A Carta Geotécnica de Aptidão à Urbanização do Município de São Paulo de 2024 – CGAU/MSP será disponibilizada, para consulta do público, e em formato aberto, nos termos do inciso V do artigo 299 da Lei nº 16.050, de 2014 – Plano Diretor Estratégico.\n\nParágrafo único. No portal de informações geográficas e geoespaciais da Prefeitura do Município de São Paulo – GeoSampa, os mapas constantes do Anexo I deste decreto deverão ser disponibilizados em formato aberto.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 63.423/2024 — São Paulo/SP",
+    "dispositivo": "Art. 3º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-63423-de-21-de-maio-de-2024",
+    "vigencia": {
+      "inicio": "2024-05-21",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Aprova a Carta Geotécnica de Aptidão à Urbanização do Município de São Paulo de 2024 - CGAU/MSP, para fins de atualização e aprimoramento técnico das informações constantes da Carta Geotécnica do Município de São Paulo de 1992, e dá outras providências."
+}

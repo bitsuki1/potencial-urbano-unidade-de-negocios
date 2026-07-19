@@ -1,0 +1,44 @@
+{
+  "chunk_id": "decreto-saopaulo-59671-2020::008-art-7o",
+  "lei_id": "decreto-saopaulo-59671-2020",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 7º",
+  "numero": "7",
+  "header_raw": "Art. 7º Nas áreas destinadas às travessias de pedestres deverão ser implantados rebaixamentos de guias ou travessias elevadas.",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 7º"
+  ],
+  "texto": "Art. 7º Nas áreas destinadas às travessias de pedestres deverão ser implantados rebaixamentos de guias ou travessias elevadas.\n\n§ 1º Não deverá haver desnível entre o término do rebaixamento de guia destinada às travessias de pedestres e a pista de rolamento, incluída a sarjeta.\n\n§ 2º Em ruas de baixo volume de tráfego, deverão estar previstos os rebaixamentos de guias junto às esquinas, mesmo não havendo faixa de pedestres.\n\n§ 3º As configurações atípicas deverão ser analisadas pelos órgãos públicos competentes.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 59.671/2020 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Art. 7º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59671-de-7-de-agosto-de-2020",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "regularizacao"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Consolida os critérios para a padronização das calçadas, bem como regulamenta o disposto nos incisos VII e VIII do “caput” do artigo 240 do Plano Diretor Estratégico, o Capítulo III da Lei nº 15.442, de 9 de setembro de 2011, e a Lei nº 13.293, de 14 de janeiro de 2002."
+}

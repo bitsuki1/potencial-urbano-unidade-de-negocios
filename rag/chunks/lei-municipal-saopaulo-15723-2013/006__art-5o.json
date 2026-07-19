@@ -1,0 +1,45 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-15723-2013::006-art-5o",
+  "lei_id": "lei-municipal-saopaulo-15723-2013",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 5º",
+  "numero": "5",
+  "header_raw": "Art. 5º A implantação de aeródromos, heliportos e helipontos exigirá:",
+  "caminho_hierarquico": [
+    "Art. 5º"
+  ],
+  "texto": "Art. 5º A implantação de aeródromos, heliportos e helipontos exigirá:\n\nI - autorização prévia expedida pela Agência Nacional de Aviação Civil - ANAC;\n\nII - aprovação, junto ao órgão municipal competente, de Estudo de Impacto Ambiental e respectivo relatório - EIA-RIMA, no caso dos aeródromos ou heliportos, ou Estudo de Impacto de Vizinhança - EIV, no caso dos helipontos, nos quais deverão ser fixados os parâmetros de incomodidade aplicáveis, nos termos do art. 6º desta lei;\n\nIII - análise do projeto e do impacto previsto, nos termos dos §§ 4º e 6º do art. 158 da Lei nº 13.885, de 2004;\n\nIV - atendimento às condições de instalação, nos termos dos §§ 1º e 2º deste artigo.\n\n§ 1º São condições de instalação dos helipontos:\n\nI - área que comporte a plataforma de pouso, com as dimensões exigidas pelo órgão competente da Aeronáutica;\n\nII - recuos mínimos de 5 (cinco) metros em relação a todas as divisas do lote.\n\n§ 2º Os documentos a serem apresentados aos órgãos municipais competentes e os procedimentos para avaliação e apreciação do pedido de implantação serão regulamentados por decreto.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 15.723/2013 — São Paulo/SP",
+    "dispositivo": "Art. 5º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-15723-de-24-de-abril-de-2013",
+    "vigencia": {
+      "inicio": "2013-04-24",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Estabelece diretrizes e normas relativas à implantação, à construção e à reforma com ou sem ampliação, para instalação e funcionamento de aeródromos, heliportos, helipontos e similares, no Município de São Paulo, com fundamento nos arts. 119 e 120 da Lei nº 13.430, de 13 de dezembro de 2002."
+}

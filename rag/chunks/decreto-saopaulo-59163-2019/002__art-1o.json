@@ -1,0 +1,43 @@
+{
+  "chunk_id": "decreto-saopaulo-59163-2019::002-art-1o",
+  "lei_id": "decreto-saopaulo-59163-2019",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 1º",
+  "numero": "1",
+  "header_raw": "Art. 1º A implantação e os procedimentos administrativos para o cálculo e concessão da Bonificação por Resultados – BR, instituída pela Lei nº 17.224, de 31 de outubro de 2019, aos agentes públicos municipais em exercício nos órgãos e unidades da administração direta, nas autarquias e nas fundações do Município de São Paulo, ficam regulamentados de acordo com as disposições deste decreto.",
+  "caminho_hierarquico": [
+    "Art. 1º"
+  ],
+  "texto": "Art. 1º A implantação e os procedimentos administrativos para o cálculo e concessão da Bonificação por Resultados – BR, instituída pela Lei nº 17.224, de 31 de outubro de 2019, aos agentes públicos municipais em exercício nos órgãos e unidades da administração direta, nas autarquias e nas fundações do Município de São Paulo, ficam regulamentados de acordo com as disposições deste decreto.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 59.163/2019 — São Paulo/SP",
+    "dispositivo": "Art. 1º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59163-de-27-de-dezembro-de-2019",
+    "vigencia": {
+      "inicio": "2019-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a concessão da Bonificação por Resultados - BR, instituída pela Lei nº 17.224, de 31 de outubro de 2019, aos agentes públicos municipais, na forma e condições que especifica."
+}

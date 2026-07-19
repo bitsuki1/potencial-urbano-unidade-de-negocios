@@ -1,0 +1,83 @@
+{
+  "id": "lei-municipal-saopaulo-17853-2022",
+  "tipo_norma": "lei_ordinaria",
+  "esfera": "municipal",
+  "jurisdicao": "São Paulo/SP",
+  "numero": "17.853",
+  "ano": 2022,
+  "ementa": "Estabelece regras aplicáveis a estabelecimentos formados por um conjunto de cozinhas industriais, utilizadas para produção por diferentes restaurantes e/ou empresas, destinada à comercialização de refeições e alimentos por serviço de entregas, sem acesso de público para consumo no local, configurando operação conjunta ou conglomerado de cozinhas, popularmente conhecidas como dark kitchens e dispõe sobre aspectos fiscalizatórios da Lei nº 16.402, de 22 de março de 2016.",
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dispositivos_chave": [
+    "Art. 1º Esta Lei estabelece regras aplicáveis aos estabelecimentos formados por um conjunto de cozinhas industriais, utilizadas",
+    "Art. 2º Para a sistematização, consolidação e previsões constantes desta Lei foram consideradas as seguintes diretrizes:(Artigo",
+    "Art. 3º Em decorrência da cumulatividade a que se refere o art. 2º desta Lei, a atividade referida no art. 1º desta Lei deverá s",
+    "Art. 4º Os estabelecimentos referidos no art. 1º desta Lei deverão comprovar o atendimento aos parâmetros fixados no Quadro 4B d",
+    "Art. 5º Os estabelecimentos referidos no art. 1º desta Lei deverão observar os limites de produção de ruídos estabelecidos na le",
+    "Art. 6º Os estabelecimentos referidos no art. 1º desta Lei deverão atender integralmente a NBR 14518-2020 ou a norma que vier a",
+    "Art. 7º Os estabelecimentos referidos no art. 1º desta Lei deverão atender as exigências da legislação de parcelamento, uso e oc",
+    "Art. 8º O passeio público, bem como a via pública, não poderão ser utilizados para as atividades de que trata o art. 1º, incluin",
+    "Art. 9º A expedição da licença a que se refere o art. 136 da Lei nº 16.402, de 22 de março de 2016, deverá considerar os estabel",
+    "Art. 10 . O estabelecimento que se enquadre no previsto no art. 1º, comprovadamente instalado até a data de publicação desta Lei",
+    "Art. 11 . O descumprimento das obrigações previstas nesta Lei ensejará a adoção das medidas sancionatórias pertinentes, até o en",
+    "Art. 12 . Os profissionais habilitados e/ou técnicos responsáveis, nos limites de sua atuação, respondem pela veracidade dos doc",
+    "Art. 13 . O art. 146 da Lei nº 16.402, de 22 de março de 2016, passa a vigorar com as seguintes alterações:",
+    "Art. 14 . Esta Lei observa o previsto nas alíneas “a” e “b” do § 2º do art. 46 da Lei Orgânica do Município de São Paulo.(Artigo",
+    "Art. 15 . Esta Lei entrará em vigor na data de sua publicação."
+  ],
+  "vigencia": {
+    "inicio": "2022-11-29",
+    "fim": null,
+    "em_vigor": true,
+    "altera": [],
+    "alterada_por": [],
+    "revogada_por": null,
+    "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=True revoga=False."
+  },
+  "remissoes": [
+    {
+      "norma": "LEI Nº 17.853",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 16.402",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 16.402, de 2016",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 16.642",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 362/22",
+      "relacao": "citada no texto (detectada automaticamente)"
+    }
+  ],
+  "jurisprudencia_relacionada": [],
+  "tem_tabela": true,
+  "tabelas_extraidas": [],
+  "tem_formula": false,
+  "formulas_referenciadas": [],
+  "fonte": {
+    "origem": "Portal oficial (legislacao.prefeitura.sp.gov.br)",
+    "path": "_entrada/misto/lei-municipal-saopaulo-17853-2022.txt",
+    "url": "https://legislacao.prefeitura.sp.gov.br/lei-17853-de-29-de-novembro-de-2022",
+    "hash": "sha256:1833fbca02459601e7f2ff17a78459edc0a75e662a98509e5e4b33e040bba03e",
+    "hash_nota_fonte": "sha256 do HTML bruto do portal capturado 2026-07-13",
+    "ocr": false,
+    "metodo": "VERBATIM INTEGRAL (portal oficial, texto compilado); captura portal oficial legislacao.prefeitura.sp.gov.br (container texto_compilado); promovido de _entrada/misto/",
+    "hash_alvo": "_entrada/misto/lei-municipal-saopaulo-17853-2022.txt",
+    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior."
+  },
+  "status_pipeline": "indexado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "dominio_primario": "iptu",
+  "dominio": [
+    "iptu"
+  ]
+}

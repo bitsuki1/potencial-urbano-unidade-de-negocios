@@ -1,0 +1,42 @@
+{
+  "chunk_id": "decreto-saopaulo-62175-2023::001-preambulo",
+  "lei_id": "decreto-saopaulo-62175-2023",
+  "tipo_dispositivo": "preambulo",
+  "rotulo": "Preâmbulo",
+  "numero": null,
+  "header_raw": null,
+  "caminho_hierarquico": [],
+  "texto": "DECRETO Nº 62.175 DE 24 DE FEVEREIRO DE 2023\n\nDECRETO Nº 62.175 de 24 de Fevereiro de 2023\n\nRevogações\n\nDefine os valores de renda familiar para atendimento por Habitação de Interesse Social – HIS e Habitação de Mercado Popular – HMP, nos termos do parágrafo único do artigo 46 da Lei nº 16.050, de 31 de julho de 2014.\n\nDECRETO Nº 62.175, DE 24 DE FEVEREIRO DE 2023\n\nDefine os valores de renda familiar para atendimento por Habitação de Interesse Social – HIS e Habitação de Mercado Popular – HMP, nos termos do parágrafo único do artigo 46 da Lei nº 16.050, de 31 de julho de 2014.\n\nRICARDO NUNES, Prefeito do Município de São Paulo, no uso das atribuições que lhe são conferidas por lei,\n\nCONSIDERANDO os parâmetros definidos no artigo 170 da Lei nº 16.402, de 22 de março de 2016, que disciplina o Parcelamento, Uso e Ocupação do Solo, voltados à atualização anual dos valores de renda familiar mensal para atendimento por Habitação de Interesse Social e Habitação de Mercado Popular, nos termos do parágrafo único do artigo 46 da Lei nº 16.050, de 31 de julho de 2014,\n\nD E C R E T A:",
+  "citavel": false,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 62.175/2023 — São Paulo/SP",
+    "dispositivo": "Preâmbulo",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-62175-de-24-de-fevereiro-de-2023",
+    "vigencia": {
+      "inicio": "2023-02-24",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Define os valores de renda familiar para atendimento por Habitação de Interesse Social – HIS e Habitação de Mercado Popular – HMP, nos termos do parágrafo único do artigo 46 da Lei nº 16.050, de 31 de julho de 2014."
+}

@@ -1,0 +1,44 @@
+{
+  "chunk_id": "decreto-saopaulo-59671-2020::003-art-2o",
+  "lei_id": "decreto-saopaulo-59671-2020",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 2º",
+  "numero": "2",
+  "header_raw": "Art. 2º Calçada é a parte da via normalmente segregada e em nível diferente, reservada à mobilidade e permanência de pedestres, não destinada à circulação de veículos e disponibilizada à implantação de mobiliário urbano, equipamentos de infraestrutura urbana, sinalização, vegetação, iluminação pública e outros fins.",
+  "caminho_hierarquico": [
+    "CAPÍTULO I",
+    "Art. 2º"
+  ],
+  "texto": "Art. 2º Calçada é a parte da via normalmente segregada e em nível diferente, reservada à mobilidade e permanência de pedestres, não destinada à circulação de veículos e disponibilizada à implantação de mobiliário urbano, equipamentos de infraestrutura urbana, sinalização, vegetação, iluminação pública e outros fins.\n\n§ 1º Não se aplica o disposto neste decreto às vias e áreas onde a circulação for destinada aos pedestres permanentemente, de forma exclusiva ou prioritária, tais como calçadões, e às vias compartilhadas, desde que devidamente autorizadas pelo órgão competente.\n\n§ 2° Para os fins de aplicação deste decreto, ficam adotadas as definições constantes da Lei Federal nº 9.503, de 23 de setembro de 1997 - Código de Trânsito Brasileiro, da Lei Federal n° 13.146, de 6 de julho de 2015 - Estatuto da Pessoa com Deficiência, das Normas Técnicas de Acessibilidade da ABNT - Associação Brasileira de Normas Técnicas e as seguintes:\n\nI - abrigos em pontos de parada de transporte coletivo: equipamento instalado em parada de transporte coletivo, fora de terminal de embarque e desembarque, que propicia ao usuário proteção contra as intempéries;\n\nII - área de intervisibilidade: área delimitada pelas linhas que interligam os eixos das vias confluentes tangenciando o alinhamento dos imóveis perpendicularmente à bissetriz do ângulo formado por elas;\n\nIII - área de espera: são áreas localizadas junto às esquinas ou de fronte às faixas de travessia de pedestres, onde os pedestres aguardam até que sejam possíveis os deslocamentos pela via;\n\nIV - calçadas verdes: áreas ajardinadas ou arborizadas localizadas nas faixas de acesso ou de serviço das calçadas;\n\nVI - esquina: trecho da calçada formado pela área de confluência de 2 (duas) ou mais vias, incluindo a área de intervisibilidade;\n\nVII - faixa de travessia de pedestres: demarcação transversal nas pistas de rolamento de veículos, para ordenar e indicar os deslocamentos dos pedestres para a travessia da via, bem como advertir condutores de veículos sobre a necessidade de reduzir a velocidade de modo a garantir sua própria segurança e a dos demais usuários da via;\n\nVII - “Gap Graded”: mistura asfáltica semidescontínua, cuja faixa granulométrica resulte em um revestimento final de macrotextura superficial rugosa, com teor de vazios entre 4% (quatro por cento) e 6% (seis por cento);\n\nVIII - guia: componente cuja área de implantação configura o local que delimita onde termina a calçada e inicia a área da pista de rolamento;\n\nIX - mobiliário urbano: conjunto de elementos que podem ocupar o espaço público, implantados, direta ou indiretamente, pela Administração Pública Municipal, conforme definição constante do artigo 6º, inciso VIII, da Lei nº 14.223, de 26 de setembro de 2006;\n\nX - pedestre: pessoa que anda ou está a pé, em cadeira de rodas ou conduzindo bicicleta na qual não esteja montada;\n\nXI - ponto de ônibus: trecho ao longo da via reservado ao embarque e desembarque de usuários do transporte coletivo;\n\nXII - poste: estrutura utilizada para suportar cabos de infraestrutura, tais como de eletricidade, telefonia, ônibus eletrificados, bem como para fixação de elementos de iluminação e sinalização;\n\nXIII - projetos especiais: são projetos que tem por escopo a execução de obras de implantação ou requalificação de calçadas nos quais são descritos a utilização de materiais, a determinação de formato e identidade visual, dentre outros elementos que confiram identidade única às calçadas neles previstas, as quais deverão estar circunscritas a uma área delimitada predefinida nos projetos;\n\nXIV - rebaixamento de guia: rampa construída ou instalada na calçada, destinada a promover a concordância de nível entre a calçada e a pista de rolamento, para acesso de veículos ou de pessoas;\n\nXV - sarjeta: escoadouro para as águas das chuvas que, nas ruas e praças, beira o meio-fio dos passeios;\n\nXVI - sistema de drenagem: conjunto de sarjetas, bocas-de-lobo e grelhas utilizadas para a coleta e destinação de água de chuva, desde as superfícies pavimentadas até as galerias, córregos e rios;\n\nXVII - vias compartilhadas: vias que foram regulamentadas para serem compartilhadas entre modais.\n\nCAPÍTULO II\n\nDOS PRINCÍPIOS",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 59.671/2020 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO I › Art. 2º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59671-de-7-de-agosto-de-2020",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "regularizacao"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Consolida os critérios para a padronização das calçadas, bem como regulamenta o disposto nos incisos VII e VIII do “caput” do artigo 240 do Plano Diretor Estratégico, o Capítulo III da Lei nº 15.442, de 9 de setembro de 2011, e a Lei nº 13.293, de 14 de janeiro de 2002."
+}

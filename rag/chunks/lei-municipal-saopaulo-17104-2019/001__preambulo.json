@@ -1,0 +1,41 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17104-2019::001-preambulo",
+  "lei_id": "lei-municipal-saopaulo-17104-2019",
+  "tipo_dispositivo": "preambulo",
+  "rotulo": "Preâmbulo",
+  "numero": null,
+  "header_raw": null,
+  "caminho_hierarquico": [],
+  "texto": "LEI Nº 17.104 DE 30 DE MAIO DE 2019\n\nLEI Nº 17.104 de 30 de Maio de 2019\n\nRegulamentações\n\nCORRELAÇÕES\n\nTemas Relacionados\n\nInstitui a Política Municipal de Segurança Hídrica e Gestão das Águas, no âmbito do Município de São Paulo.\n\nLEI Nº 17.104, DE 30 DE MAIO DE 2019\n\n(Projeto de Lei nº 575/16, dos Vereadores Jair Tatto – PT, José Police Neto – PSD, Nabil Bonduki – PT, Ricardo Young – REDE, Celso Giannazi – PSOL, Eduardo Matarazzo Suplicy – PT, Gilberto Natalini – PV, Sâmia Bomfim – PSOL, Soninha Francine – CIDADANIA e Toninho Vespoli – PSOL)\n\nInstitui a Política Municipal de Segurança Hídrica e Gestão das Águas, no âmbito do Município de São Paulo.\n\nBRUNO COVAS, Prefeito do Município de São Paulo, no uso das atribuições que lhe são conferidas por lei, faz saber que a Câmara Municipal, em sessão de 8 de maio de 2019, decretou e eu promulgo a seguinte lei:",
+  "citavel": false,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.104/2019 — São Paulo/SP",
+    "dispositivo": "Preâmbulo",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17104-de-30-de-maio-de-2019",
+    "vigencia": {
+      "inicio": "2019-05-30",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Institui a Política Municipal de Segurança Hídrica e Gestão das Águas, no âmbito do Município de São Paulo."
+}

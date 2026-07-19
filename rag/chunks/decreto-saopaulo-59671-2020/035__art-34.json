@@ -1,0 +1,44 @@
+{
+  "chunk_id": "decreto-saopaulo-59671-2020::035-art-34",
+  "lei_id": "decreto-saopaulo-59671-2020",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 34",
+  "numero": "34",
+  "header_raw": "Art. 34. Os responsáveis por imóveis, edificados ou não, lindeiros a vias ou logradouros dotados de guias e sarjetas são obrigados a executar, manter e conservar as respectivas calçadas na extensão correspondente à sua testada, na conformidade da normatização específica expedida pelo Executivo.",
+  "caminho_hierarquico": [
+    "CAPÍTULO XII",
+    "Art. 34"
+  ],
+  "texto": "Art. 34. Os responsáveis por imóveis, edificados ou não, lindeiros a vias ou logradouros dotados de guias e sarjetas são obrigados a executar, manter e conservar as respectivas calçadas na extensão correspondente à sua testada, na conformidade da normatização específica expedida pelo Executivo.\n\n§ 1° Para os efeitos da Lei nº 15.442, de 2011, e deste decreto, a calçada será considerada:\n\nI - inexistente, quando executada em desconformidade com as normas técnicas vigentes na data de sua construção ou reconstrução;\n\nII - em mau estado de manutenção e conservação, quando apresentar buracos, ondulações, desníveis não exigidos pela natureza do logradouro ou obstáculos que impeçam a circulação livre e segura dos pedestres, bem como execução de reparos em desacordo com o aspecto estético ou harmônico da calçada existente.\n\n§ 2° As calçadas existentes, e que tenham sido executadas de acordo com as normas técnicas vigentes na data de sua construção ou reconstrução, deverão ser adequadas às disposições deste decreto de forma gradual pelos respectivos responsáveis, na medida em que necessária a execução de obras visando a sua manutenção e conservação.\n\n§ 3° Obras destinadas à manutenção ou instalação de equipamentos de infraestrutura urbana, mobiliário urbano ou vegetação, que afetem parcialmente a calçada, ainda que realizadas pelo proprietário, em calçadas executadas de acordo com as normas técnicas vigentes na data de sua construção ou reconstrução, não geram obrigação de adequação aos termos deste decreto.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 59.671/2020 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO XII › Art. 34",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59671-de-7-de-agosto-de-2020",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "regularizacao"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Consolida os critérios para a padronização das calçadas, bem como regulamenta o disposto nos incisos VII e VIII do “caput” do artigo 240 do Plano Diretor Estratégico, o Capítulo III da Lei nº 15.442, de 9 de setembro de 2011, e a Lei nº 13.293, de 14 de janeiro de 2002."
+}

@@ -1,0 +1,44 @@
+{
+  "chunk_id": "decreto-saopaulo-59671-2020::006-art-5o",
+  "lei_id": "decreto-saopaulo-59671-2020",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 5º",
+  "numero": "5",
+  "header_raw": "Art. 5º As esquinas e áreas de espera para travessia de pedestres devem ser organizadas a fim de facilitar a passagem de pessoas com deficiência de mobilidade ou mobilidade reduzida, e permitir a boa visibilidade, a melhor acomodação e livre passagem de pedestres.",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 5º"
+  ],
+  "texto": "Art. 5º As esquinas e áreas de espera para travessia de pedestres devem ser organizadas a fim de facilitar a passagem de pessoas com deficiência de mobilidade ou mobilidade reduzida, e permitir a boa visibilidade, a melhor acomodação e livre passagem de pedestres.\n\n§ 1º Para garantir a segurança do pedestre nas travessias e do condutor do automóvel nas conversões, as esquinas deverão estar livres de interferências visuais ou físicas até a distância de 5m (cinco metros) a partir do bordo do alinhamento da via transversal, conforme demonstrado no Anexo II deste decreto.\n\n§ 2º Todos os equipamentos ou mobiliários colocados na proximidade das esquinas deverão seguir critérios de localização de acordo com o tamanho e a influência na obstrução da visibilidade, conforme os critérios estabelecidos nas Normas Técnicas da ABNT - Associação Brasileira de Normas Técnicas, na legislação específica e nas regras deste decreto.\n\n§ 3º O acesso de veículos em lote de esquina deverá distar, no mínimo, 6m (seis metros) do início do ponto de encontro do prolongamento dos alinhamentos dos logradouros, salvo na edificação residencial unifamiliar e no conjunto de habitações agrupadas horizontalmente onde não seja possível o atendimento ao mínimo disposto.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 59.671/2020 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Art. 5º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59671-de-7-de-agosto-de-2020",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "regularizacao"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Consolida os critérios para a padronização das calçadas, bem como regulamenta o disposto nos incisos VII e VIII do “caput” do artigo 240 do Plano Diretor Estratégico, o Capítulo III da Lei nº 15.442, de 9 de setembro de 2011, e a Lei nº 13.293, de 14 de janeiro de 2002."
+}

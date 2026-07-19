@@ -1,0 +1,52 @@
+# DECRETO Nº 61.218 DE 2022
+
+**URL oficial:** https://legislacao.prefeitura.sp.gov.br/decreto-61218-de-6-de-abril-de-2022
+**Data de captura:** portal oficial legislacao.prefeitura.sp.gov.br (container texto_compilado)
+**Proveniência:** VERBATIM INTEGRAL — capturado de https://legislacao.prefeitura.sp.gov.br/decreto-61218-de-6-de-abril-de-2022 (portal oficial legislacao.prefeitura.sp.gov.br (container texto_compilado)); promovido de `_entrada/misto/decreto-saopaulo-61218-2022.txt`. Saneado só lixo de captura; boilerplate oficial do portal preservado (anotações de alteração do texto compilado incluídas).
+**confianca_extracao:** alta (articulado integral verbatim)
+
+## Ementa
+
+Define os valores de renda familiar para atendimento por Habitação de Interesse Social – HIS e Habitação de Mercado Popular – HMP, nos termos do parágrafo único do artigo 46 da Lei nº 16.050, de 31 de julho de 2014.
+
+## Texto integral (verbatim)
+
+DECRETO Nº 61.218 DE 6 DE ABRIL DE 2022
+
+DECRETO Nº 61.218 de 6 de Abril de 2022
+
+Define os valores de renda familiar para atendimento por Habitação de Interesse Social – HIS e Habitação de Mercado Popular – HMP, nos termos do parágrafo único do artigo 46 da Lei nº 16.050, de 31 de julho de 2014.
+
+DECRETO Nº 61.218, DE 6 DE ABRIL DE 2022
+
+Define os valores de renda familiar para atendimento por Habitação de Interesse Social – HIS e Habitação de Mercado Popular – HMP, nos termos do parágrafo único do artigo 46 da Lei nº 16.050, de 31 de julho de 2014.
+
+RICARDO NUNES, Prefeito do Município de São Paulo, no uso das atribuições que lhe são conferidas por lei,
+
+CONSIDERANDO os parâmetros definidos no artigo 170 da Lei nº 16.402, de 22 de março de 2016, que disciplina o Parcelamento, Uso e Ocupação do Solo, voltados à atualização anual dos valores de renda familiar mensal para atendimento por Habitação de Interesse Social e Habitação de Mercado Popular, nos termos do parágrafo único do artigo 46 da Lei nº 16.050, de 31 de julho de 2014,
+
+D E C R E T A:
+
+Art. 1º Ficam definidos os seguintes valores de renda familiar mensal máxima para atendimento por Habitação de Interesse Social – HIS e Habitação de Mercado Popular – HMP:
+
+I - HIS 1: até R$ 3.636,00 (três mil seiscentos e trinta e seis reais);
+
+II - HIS 2: superior a R$ 3.636,00 (três mil seiscentos e trinta e seis reais) e igual ou inferior a R$ 7.272,00 (sete mil duzentos e setenta e dois reais);
+
+III - HMP: superior a R$7.272,00 (sete mil duzentos e setenta e dois reais) e igual ou inferior a 12.120,00 (doze mil cento e vinte reais).
+
+Art. 2º Este decreto entrará em vigor na data da sua publicação.
+
+PREFEITURA DO MUNICÍPIO DE SÃO PAULO, em 6 de abril de 2022, 469º da Fundação de São Paulo.
+
+RICARDO NUNES, PREFEITO
+
+MARCOS DUQUE GADELHO, Secretário Municipal de Urbanismo e Licenciamento
+
+EUNICE APARECIDA DE JESUS PRUDENTE, Secretária Municipal de Justiça
+
+RUBENS NAMAN RIZEK JUNIOR, Secretário de Governo Municipal
+
+Publicado na Secretaria de Governo Municipal, em 6 de abril de 2022.
+
+Este texto não substitui o original publicado no Diário Oficial da Cidade de São Paulo.

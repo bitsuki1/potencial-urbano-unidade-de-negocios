@@ -1,4 +1,124 @@
 {
+  "decreto-saopaulo-52884-2011::001-preambulo": {
+    "lei_id": "decreto-saopaulo-52884-2011",
+    "tipo_dispositivo": "preambulo",
+    "rotulo": "Preâmbulo",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2011-12-28",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": false
+  },
+  "decreto-saopaulo-52884-2011::002-art-1o": {
+    "lei_id": "decreto-saopaulo-52884-2011",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 1º",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2011-12-28",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-52884-2011::003-art-2o": {
+    "lei_id": "decreto-saopaulo-52884-2011",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 2º",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2011-12-28",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-52884-2011::004-art-3o": {
+    "lei_id": "decreto-saopaulo-52884-2011",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 3º",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2011-12-28",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
   "decreto-saopaulo-56954-2016::001-preambulo": {
     "lei_id": "decreto-saopaulo-56954-2016",
     "tipo_dispositivo": "preambulo",
@@ -5505,6 +5625,126 @@
     },
     "citavel": true
   },
+  "decreto-saopaulo-58707-2019::001-preambulo": {
+    "lei_id": "decreto-saopaulo-58707-2019",
+    "tipo_dispositivo": "preambulo",
+    "rotulo": "Preâmbulo",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2019-04-08",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": false
+  },
+  "decreto-saopaulo-58707-2019::002-art-1o": {
+    "lei_id": "decreto-saopaulo-58707-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 1º",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2019-04-08",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-58707-2019::003-art-2o": {
+    "lei_id": "decreto-saopaulo-58707-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 2º",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2019-04-08",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-58707-2019::004-art-3o": {
+    "lei_id": "decreto-saopaulo-58707-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 3º",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2019-04-08",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
   "decreto-saopaulo-58955-2019::001-preambulo": {
     "lei_id": "decreto-saopaulo-58955-2019",
     "tipo_dispositivo": "preambulo",
@@ -6198,6 +6438,640 @@
       "alterada_por": [],
       "revogada_por": null,
       "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2019-09-20. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59163-2019::001-preambulo": {
+    "lei_id": "decreto-saopaulo-59163-2019",
+    "tipo_dispositivo": "preambulo",
+    "rotulo": "Preâmbulo",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2019-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": false
+  },
+  "decreto-saopaulo-59163-2019::002-art-1o": {
+    "lei_id": "decreto-saopaulo-59163-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 1º",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2019-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59163-2019::003-art-2o": {
+    "lei_id": "decreto-saopaulo-59163-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 2º",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2019-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59163-2019::004-art-3o": {
+    "lei_id": "decreto-saopaulo-59163-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 3º",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2019-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59163-2019::005-art-4o": {
+    "lei_id": "decreto-saopaulo-59163-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 4º",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2019-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59163-2019::006-art-5o": {
+    "lei_id": "decreto-saopaulo-59163-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 5º",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2019-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59163-2019::007-art-6o": {
+    "lei_id": "decreto-saopaulo-59163-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 6º",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2019-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59163-2019::008-art-7o": {
+    "lei_id": "decreto-saopaulo-59163-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 7º",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2019-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59163-2019::009-art-8o": {
+    "lei_id": "decreto-saopaulo-59163-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 8º",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2019-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59163-2019::010-art-9o": {
+    "lei_id": "decreto-saopaulo-59163-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 9º",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2019-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59163-2019::011-art-10": {
+    "lei_id": "decreto-saopaulo-59163-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 10",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2019-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59163-2019::012-art-11": {
+    "lei_id": "decreto-saopaulo-59163-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 11",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2019-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59163-2019::013-art-11": {
+    "lei_id": "decreto-saopaulo-59163-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 11",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2019-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "compilado",
+      "revogado_por": null,
+      "marcadores": [
+        "redacao_dada"
+      ],
+      "data_redacao": "2020",
+      "norma_redacao": "Decreto nº 59.402/2020"
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59163-2019::014-art-11": {
+    "lei_id": "decreto-saopaulo-59163-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 11",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2019-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "compilado",
+      "revogado_por": null,
+      "marcadores": [
+        "redacao_dada"
+      ],
+      "data_redacao": "2021",
+      "norma_redacao": "Decreto nº 60.315/2021"
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59163-2019::015-art-12": {
+    "lei_id": "decreto-saopaulo-59163-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 12",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2019-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59163-2019::016-art-13": {
+    "lei_id": "decreto-saopaulo-59163-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 13",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2019-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59163-2019::017-art-14": {
+    "lei_id": "decreto-saopaulo-59163-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 14",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2019-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59163-2019::018-art-15": {
+    "lei_id": "decreto-saopaulo-59163-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 15",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2019-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59163-2019::019-art-16": {
+    "lei_id": "decreto-saopaulo-59163-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 16",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2019-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59163-2019::020-art-17": {
+    "lei_id": "decreto-saopaulo-59163-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 17",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2019-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59163-2019::021-art-18": {
+    "lei_id": "decreto-saopaulo-59163-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 18",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2019-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
     },
     "vigencia_dispositivo": {
       "status": "original",
@@ -7842,6 +8716,1266 @@
     },
     "citavel": true
   },
+  "decreto-saopaulo-59671-2020::001-preambulo": {
+    "lei_id": "decreto-saopaulo-59671-2020",
+    "tipo_dispositivo": "preambulo",
+    "rotulo": "Preâmbulo",
+    "tema": [
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": false
+  },
+  "decreto-saopaulo-59671-2020::002-art-1o": {
+    "lei_id": "decreto-saopaulo-59671-2020",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 1º",
+    "tema": [
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59671-2020::003-art-2o": {
+    "lei_id": "decreto-saopaulo-59671-2020",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 2º",
+    "tema": [
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59671-2020::004-art-3o": {
+    "lei_id": "decreto-saopaulo-59671-2020",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 3º",
+    "tema": [
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59671-2020::005-art-4o": {
+    "lei_id": "decreto-saopaulo-59671-2020",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 4º",
+    "tema": [
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59671-2020::006-art-5o": {
+    "lei_id": "decreto-saopaulo-59671-2020",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 5º",
+    "tema": [
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59671-2020::007-art-6o": {
+    "lei_id": "decreto-saopaulo-59671-2020",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 6º",
+    "tema": [
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59671-2020::008-art-7o": {
+    "lei_id": "decreto-saopaulo-59671-2020",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 7º",
+    "tema": [
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59671-2020::009-art-8o": {
+    "lei_id": "decreto-saopaulo-59671-2020",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 8º",
+    "tema": [
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59671-2020::010-art-9o": {
+    "lei_id": "decreto-saopaulo-59671-2020",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 9º",
+    "tema": [
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59671-2020::011-art-10": {
+    "lei_id": "decreto-saopaulo-59671-2020",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 10",
+    "tema": [
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59671-2020::012-art-11": {
+    "lei_id": "decreto-saopaulo-59671-2020",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 11",
+    "tema": [
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59671-2020::013-art-12": {
+    "lei_id": "decreto-saopaulo-59671-2020",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 12",
+    "tema": [
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59671-2020::014-art-13": {
+    "lei_id": "decreto-saopaulo-59671-2020",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 13",
+    "tema": [
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59671-2020::015-art-14": {
+    "lei_id": "decreto-saopaulo-59671-2020",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 14",
+    "tema": [
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59671-2020::016-art-15": {
+    "lei_id": "decreto-saopaulo-59671-2020",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 15",
+    "tema": [
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59671-2020::017-art-16": {
+    "lei_id": "decreto-saopaulo-59671-2020",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 16",
+    "tema": [
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59671-2020::018-art-17": {
+    "lei_id": "decreto-saopaulo-59671-2020",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 17",
+    "tema": [
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59671-2020::019-art-18": {
+    "lei_id": "decreto-saopaulo-59671-2020",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 18",
+    "tema": [
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59671-2020::020-art-19": {
+    "lei_id": "decreto-saopaulo-59671-2020",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 19",
+    "tema": [
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59671-2020::021-art-20": {
+    "lei_id": "decreto-saopaulo-59671-2020",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 20",
+    "tema": [
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59671-2020::022-art-21": {
+    "lei_id": "decreto-saopaulo-59671-2020",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 21",
+    "tema": [
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59671-2020::023-art-22": {
+    "lei_id": "decreto-saopaulo-59671-2020",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 22",
+    "tema": [
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59671-2020::024-art-23": {
+    "lei_id": "decreto-saopaulo-59671-2020",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 23",
+    "tema": [
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59671-2020::025-art-24": {
+    "lei_id": "decreto-saopaulo-59671-2020",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 24",
+    "tema": [
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59671-2020::026-art-25": {
+    "lei_id": "decreto-saopaulo-59671-2020",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 25",
+    "tema": [
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59671-2020::027-art-26": {
+    "lei_id": "decreto-saopaulo-59671-2020",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 26",
+    "tema": [
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59671-2020::028-art-27": {
+    "lei_id": "decreto-saopaulo-59671-2020",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 27",
+    "tema": [
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59671-2020::029-art-28": {
+    "lei_id": "decreto-saopaulo-59671-2020",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 28",
+    "tema": [
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59671-2020::030-art-29": {
+    "lei_id": "decreto-saopaulo-59671-2020",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 29",
+    "tema": [
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59671-2020::031-art-30": {
+    "lei_id": "decreto-saopaulo-59671-2020",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 30",
+    "tema": [
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59671-2020::032-art-31": {
+    "lei_id": "decreto-saopaulo-59671-2020",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 31",
+    "tema": [
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59671-2020::033-art-32": {
+    "lei_id": "decreto-saopaulo-59671-2020",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 32",
+    "tema": [
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59671-2020::034-art-33": {
+    "lei_id": "decreto-saopaulo-59671-2020",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 33",
+    "tema": [
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59671-2020::035-art-34": {
+    "lei_id": "decreto-saopaulo-59671-2020",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 34",
+    "tema": [
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59671-2020::036-art-35": {
+    "lei_id": "decreto-saopaulo-59671-2020",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 35",
+    "tema": [
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59671-2020::037-art-36": {
+    "lei_id": "decreto-saopaulo-59671-2020",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 36",
+    "tema": [
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59671-2020::038-art-37": {
+    "lei_id": "decreto-saopaulo-59671-2020",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 37",
+    "tema": [
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59671-2020::039-art-38": {
+    "lei_id": "decreto-saopaulo-59671-2020",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 38",
+    "tema": [
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59671-2020::040-art-39": {
+    "lei_id": "decreto-saopaulo-59671-2020",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 39",
+    "tema": [
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59671-2020::041-art-40": {
+    "lei_id": "decreto-saopaulo-59671-2020",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 40",
+    "tema": [
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-59671-2020::042-art-41": {
+    "lei_id": "decreto-saopaulo-59671-2020",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 41",
+    "tema": [
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
   "decreto-saopaulo-59886-2020::001-preambulo": {
     "lei_id": "decreto-saopaulo-59886-2020",
     "tipo_dispositivo": "preambulo",
@@ -9022,6 +11156,409 @@
       "alterada_por": [],
       "revogada_por": null,
       "observacao": "Texto consolidado vigente capturado do portal oficial em 2026-07-13; em vigor desde 2020-11-04. Sem auto-revogacao nem auto-suspensao identificada no proprio texto (checagem dirigida). Remissoes e dispositivos_chave detectados automaticamente do verbatim (extracao pura, Parte 3 etapa 3); revisao humana fina pendente (revisado_por_humano=false)."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-60581-2021::001-preambulo": {
+    "lei_id": "decreto-saopaulo-60581-2021",
+    "tipo_dispositivo": "preambulo",
+    "rotulo": "Preâmbulo",
+    "tema": [
+      "zoneamento",
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-09-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": false
+  },
+  "decreto-saopaulo-60581-2021::002-art-1o": {
+    "lei_id": "decreto-saopaulo-60581-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 1º",
+    "tema": [
+      "zoneamento",
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-09-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-60581-2021::003-art-2o": {
+    "lei_id": "decreto-saopaulo-60581-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 2º",
+    "tema": [
+      "zoneamento",
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-09-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-60581-2021::004-art-3o": {
+    "lei_id": "decreto-saopaulo-60581-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 3º",
+    "tema": [
+      "zoneamento",
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-09-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-60581-2021::005-art-4o": {
+    "lei_id": "decreto-saopaulo-60581-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 4º",
+    "tema": [
+      "zoneamento",
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-09-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-60581-2021::006-art-5o": {
+    "lei_id": "decreto-saopaulo-60581-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 5º",
+    "tema": [
+      "zoneamento",
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-09-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-60581-2021::007-art-6o": {
+    "lei_id": "decreto-saopaulo-60581-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 6º",
+    "tema": [
+      "zoneamento",
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-09-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-60581-2021::008-art-7o": {
+    "lei_id": "decreto-saopaulo-60581-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 7º",
+    "tema": [
+      "zoneamento",
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-09-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-60581-2021::009-art-8o": {
+    "lei_id": "decreto-saopaulo-60581-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 8º",
+    "tema": [
+      "zoneamento",
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-09-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-60581-2021::010-art-9o": {
+    "lei_id": "decreto-saopaulo-60581-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 9º",
+    "tema": [
+      "zoneamento",
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-09-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-60581-2021::011-art-10": {
+    "lei_id": "decreto-saopaulo-60581-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 10",
+    "tema": [
+      "zoneamento",
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-09-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-60581-2021::012-art-11": {
+    "lei_id": "decreto-saopaulo-60581-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 11",
+    "tema": [
+      "zoneamento",
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-09-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-60581-2021::013-art-12": {
+    "lei_id": "decreto-saopaulo-60581-2021",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 12",
+    "tema": [
+      "zoneamento",
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2021-09-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
     },
     "vigencia_dispositivo": {
       "status": "original",
@@ -12782,6 +15319,374 @@
     },
     "citavel": true
   },
+  "decreto-saopaulo-61218-2022::001-preambulo": {
+    "lei_id": "decreto-saopaulo-61218-2022",
+    "tipo_dispositivo": "preambulo",
+    "rotulo": "Preâmbulo",
+    "tema": [
+      "uso_ocupacao_solo",
+      "habitacao_interesse_social"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2022-04-06",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": false
+  },
+  "decreto-saopaulo-61218-2022::002-art-1o": {
+    "lei_id": "decreto-saopaulo-61218-2022",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 1º",
+    "tema": [
+      "uso_ocupacao_solo",
+      "habitacao_interesse_social"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2022-04-06",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-61218-2022::003-art-2o": {
+    "lei_id": "decreto-saopaulo-61218-2022",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 2º",
+    "tema": [
+      "uso_ocupacao_solo",
+      "habitacao_interesse_social"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2022-04-06",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-62175-2023::001-preambulo": {
+    "lei_id": "decreto-saopaulo-62175-2023",
+    "tipo_dispositivo": "preambulo",
+    "rotulo": "Preâmbulo",
+    "tema": [
+      "uso_ocupacao_solo",
+      "habitacao_interesse_social"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2023-02-24",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": false
+  },
+  "decreto-saopaulo-62175-2023::002-art-1o": {
+    "lei_id": "decreto-saopaulo-62175-2023",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 1º",
+    "tema": [
+      "uso_ocupacao_solo",
+      "habitacao_interesse_social"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2023-02-24",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-62175-2023::003-art-2o": {
+    "lei_id": "decreto-saopaulo-62175-2023",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 2º",
+    "tema": [
+      "uso_ocupacao_solo",
+      "habitacao_interesse_social"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2023-02-24",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-63423-2024::001-preambulo": {
+    "lei_id": "decreto-saopaulo-63423-2024",
+    "tipo_dispositivo": "preambulo",
+    "rotulo": "Preâmbulo",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2024-05-21",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": false
+  },
+  "decreto-saopaulo-63423-2024::002-art-1o": {
+    "lei_id": "decreto-saopaulo-63423-2024",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 1º",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2024-05-21",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-63423-2024::003-art-2o": {
+    "lei_id": "decreto-saopaulo-63423-2024",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 2º",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2024-05-21",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-63423-2024::004-art-3o": {
+    "lei_id": "decreto-saopaulo-63423-2024",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 3º",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2024-05-21",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-63423-2024::005-art-4o": {
+    "lei_id": "decreto-saopaulo-63423-2024",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 4º",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2024-05-21",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "compilado",
+      "revogado_por": null,
+      "marcadores": [
+        "redacao_dada"
+      ],
+      "data_redacao": "2024",
+      "norma_redacao": "Lei nº 18.081, de 19 de janeiro de 2024"
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-63423-2024::006-art-5o": {
+    "lei_id": "decreto-saopaulo-63423-2024",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 5º",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2024-05-21",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
   "decreto-saopaulo-63437-2024::001-preambulo": {
     "lei_id": "decreto-saopaulo-63437-2024",
     "tipo_dispositivo": "preambulo",
@@ -14074,6 +16979,134 @@
       "alterada_por": [],
       "revogada_por": null,
       "observacao": "Regime GERAL da Outorga Onerosa do Direito de Construir (OODC), regulamentando o art. 117 do PDE (Lei 16.050/2014, red. Lei 17.975/2023) e a LPUOS (Lei 16.402/2016, red. Lei 18.081/2024). Em vigor desde 14/06/2024; sem auto-revogacao/suspensao. NAO se aplica dentro de OUC (leis proprias) nem, salvo no que couber, em AIU. Fonte-norma da formula C=(At/Ac)·V·Fp·Fs auditada nos engines."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-63698-2024::001-preambulo": {
+    "lei_id": "decreto-saopaulo-63698-2024",
+    "tipo_dispositivo": "preambulo",
+    "rotulo": "Preâmbulo",
+    "tema": [
+      "uso_ocupacao_solo",
+      "regularizacao",
+      "itbi"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2024-08-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": false
+  },
+  "decreto-saopaulo-63698-2024::002-art-1o": {
+    "lei_id": "decreto-saopaulo-63698-2024",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 1º",
+    "tema": [
+      "uso_ocupacao_solo",
+      "regularizacao",
+      "itbi"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2024-08-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-63698-2024::003-art-2o": {
+    "lei_id": "decreto-saopaulo-63698-2024",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 2º",
+    "tema": [
+      "uso_ocupacao_solo",
+      "regularizacao",
+      "itbi"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2024-08-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "decreto-saopaulo-63698-2024::004-art-3o": {
+    "lei_id": "decreto-saopaulo-63698-2024",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 3º",
+    "tema": [
+      "uso_ocupacao_solo",
+      "regularizacao",
+      "itbi"
+    ],
+    "dominio": [
+      "iptu"
+    ],
+    "dominio_primario": "iptu",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2024-08-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
     },
     "vigencia_dispositivo": {
       "status": "original",
@@ -72896,6 +75929,582 @@
     },
     "citavel": true
   },
+  "lei-municipal-saopaulo-15723-2013::001-preambulo": {
+    "lei_id": "lei-municipal-saopaulo-15723-2013",
+    "tipo_dispositivo": "preambulo",
+    "rotulo": "Preâmbulo",
+    "tema": [
+      "zoneamento",
+      "uso_ocupacao_solo",
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2013-04-24",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": false
+  },
+  "lei-municipal-saopaulo-15723-2013::002-art-1o": {
+    "lei_id": "lei-municipal-saopaulo-15723-2013",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 1º",
+    "tema": [
+      "zoneamento",
+      "uso_ocupacao_solo",
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2013-04-24",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-15723-2013::003-art-2o": {
+    "lei_id": "lei-municipal-saopaulo-15723-2013",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 2º",
+    "tema": [
+      "zoneamento",
+      "uso_ocupacao_solo",
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2013-04-24",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-15723-2013::004-art-3o": {
+    "lei_id": "lei-municipal-saopaulo-15723-2013",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 3º",
+    "tema": [
+      "zoneamento",
+      "uso_ocupacao_solo",
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2013-04-24",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-15723-2013::005-art-4o": {
+    "lei_id": "lei-municipal-saopaulo-15723-2013",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 4º",
+    "tema": [
+      "zoneamento",
+      "uso_ocupacao_solo",
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2013-04-24",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-15723-2013::006-art-5o": {
+    "lei_id": "lei-municipal-saopaulo-15723-2013",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 5º",
+    "tema": [
+      "zoneamento",
+      "uso_ocupacao_solo",
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2013-04-24",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-15723-2013::007-art-6o": {
+    "lei_id": "lei-municipal-saopaulo-15723-2013",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 6º",
+    "tema": [
+      "zoneamento",
+      "uso_ocupacao_solo",
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2013-04-24",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-15723-2013::008-art-7o": {
+    "lei_id": "lei-municipal-saopaulo-15723-2013",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 7º",
+    "tema": [
+      "zoneamento",
+      "uso_ocupacao_solo",
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2013-04-24",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-15723-2013::009-art-8o": {
+    "lei_id": "lei-municipal-saopaulo-15723-2013",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 8º",
+    "tema": [
+      "zoneamento",
+      "uso_ocupacao_solo",
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2013-04-24",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-15723-2013::010-art-9o": {
+    "lei_id": "lei-municipal-saopaulo-15723-2013",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 9º",
+    "tema": [
+      "zoneamento",
+      "uso_ocupacao_solo",
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2013-04-24",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-15723-2013::011-art-10": {
+    "lei_id": "lei-municipal-saopaulo-15723-2013",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 10",
+    "tema": [
+      "zoneamento",
+      "uso_ocupacao_solo",
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2013-04-24",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-15723-2013::012-art-11": {
+    "lei_id": "lei-municipal-saopaulo-15723-2013",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 11",
+    "tema": [
+      "zoneamento",
+      "uso_ocupacao_solo",
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2013-04-24",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-15723-2013::013-art-12": {
+    "lei_id": "lei-municipal-saopaulo-15723-2013",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 12",
+    "tema": [
+      "zoneamento",
+      "uso_ocupacao_solo",
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2013-04-24",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-15723-2013::014-art-13": {
+    "lei_id": "lei-municipal-saopaulo-15723-2013",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 13",
+    "tema": [
+      "zoneamento",
+      "uso_ocupacao_solo",
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2013-04-24",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-15723-2013::015-art-14": {
+    "lei_id": "lei-municipal-saopaulo-15723-2013",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 14",
+    "tema": [
+      "zoneamento",
+      "uso_ocupacao_solo",
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2013-04-24",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-15723-2013::016-art-15": {
+    "lei_id": "lei-municipal-saopaulo-15723-2013",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 15",
+    "tema": [
+      "zoneamento",
+      "uso_ocupacao_solo",
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2013-04-24",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-15723-2013::017-art-16": {
+    "lei_id": "lei-municipal-saopaulo-15723-2013",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 16",
+    "tema": [
+      "zoneamento",
+      "uso_ocupacao_solo",
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2013-04-24",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-15723-2013::018-art-17": {
+    "lei_id": "lei-municipal-saopaulo-15723-2013",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 17",
+    "tema": [
+      "zoneamento",
+      "uso_ocupacao_solo",
+      "regularizacao"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2013-04-24",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
   "lei-municipal-saopaulo-15889-2013::001-preambulo": {
     "lei_id": "lei-municipal-saopaulo-15889-2013",
     "tipo_dispositivo": "preambulo",
@@ -87970,6 +91579,216 @@
     },
     "citavel": true
   },
+  "lei-municipal-saopaulo-17104-2019::001-preambulo": {
+    "lei_id": "lei-municipal-saopaulo-17104-2019",
+    "tipo_dispositivo": "preambulo",
+    "rotulo": "Preâmbulo",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2019-05-30",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": false
+  },
+  "lei-municipal-saopaulo-17104-2019::002-art-1o": {
+    "lei_id": "lei-municipal-saopaulo-17104-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 1º",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2019-05-30",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17104-2019::003-art-2o": {
+    "lei_id": "lei-municipal-saopaulo-17104-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 2º",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2019-05-30",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17104-2019::004-art-3o": {
+    "lei_id": "lei-municipal-saopaulo-17104-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 3º",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2019-05-30",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17104-2019::005-art-4o": {
+    "lei_id": "lei-municipal-saopaulo-17104-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 4º",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2019-05-30",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17104-2019::006-art-5o": {
+    "lei_id": "lei-municipal-saopaulo-17104-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 5º",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2019-05-30",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17104-2019::007-art-6o": {
+    "lei_id": "lei-municipal-saopaulo-17104-2019",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 6º",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2019-05-30",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
   "lei-municipal-saopaulo-17202-2019::001-preambulo": {
     "lei_id": "lei-municipal-saopaulo-17202-2019",
     "tipo_dispositivo": "preambulo",
@@ -100725,6 +104544,486 @@
       "norma_redacao": null
     },
     "citavel": false
+  },
+  "lei-municipal-saopaulo-17853-2022::001-preambulo": {
+    "lei_id": "lei-municipal-saopaulo-17853-2022",
+    "tipo_dispositivo": "preambulo",
+    "rotulo": "Preâmbulo",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2022-11-29",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=True revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": false
+  },
+  "lei-municipal-saopaulo-17853-2022::002-art-1o": {
+    "lei_id": "lei-municipal-saopaulo-17853-2022",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 1º",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2022-11-29",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=True revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17853-2022::003-art-2o": {
+    "lei_id": "lei-municipal-saopaulo-17853-2022",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 2º",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2022-11-29",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=True revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17853-2022::004-art-3o": {
+    "lei_id": "lei-municipal-saopaulo-17853-2022",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 3º",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2022-11-29",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=True revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17853-2022::005-art-4o": {
+    "lei_id": "lei-municipal-saopaulo-17853-2022",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 4º",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2022-11-29",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=True revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17853-2022::006-art-5o": {
+    "lei_id": "lei-municipal-saopaulo-17853-2022",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 5º",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2022-11-29",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=True revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17853-2022::007-art-6o": {
+    "lei_id": "lei-municipal-saopaulo-17853-2022",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 6º",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2022-11-29",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=True revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17853-2022::008-art-7o": {
+    "lei_id": "lei-municipal-saopaulo-17853-2022",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 7º",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2022-11-29",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=True revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17853-2022::009-art-8o": {
+    "lei_id": "lei-municipal-saopaulo-17853-2022",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 8º",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2022-11-29",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=True revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17853-2022::010-art-9o": {
+    "lei_id": "lei-municipal-saopaulo-17853-2022",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 9º",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2022-11-29",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=True revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17853-2022::011-art-10": {
+    "lei_id": "lei-municipal-saopaulo-17853-2022",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 10",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2022-11-29",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=True revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17853-2022::012-art-11": {
+    "lei_id": "lei-municipal-saopaulo-17853-2022",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 11",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2022-11-29",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=True revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17853-2022::013-art-12": {
+    "lei_id": "lei-municipal-saopaulo-17853-2022",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 12",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2022-11-29",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=True revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17853-2022::014-art-13": {
+    "lei_id": "lei-municipal-saopaulo-17853-2022",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 13",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2022-11-29",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=True revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17853-2022::015-art-14": {
+    "lei_id": "lei-municipal-saopaulo-17853-2022",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 14",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2022-11-29",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=True revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
+  },
+  "lei-municipal-saopaulo-17853-2022::016-art-15": {
+    "lei_id": "lei-municipal-saopaulo-17853-2022",
+    "tipo_dispositivo": "artigo",
+    "rotulo": "Art. 15",
+    "tema": [
+      "uso_ocupacao_solo"
+    ],
+    "dominio": [
+      "compartilhado"
+    ],
+    "dominio_primario": "compartilhado",
+    "jurisdicao": "São Paulo/SP",
+    "vigencia": {
+      "inicio": "2022-11-29",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=True revoga=False."
+    },
+    "vigencia_dispositivo": {
+      "status": "original",
+      "revogado_por": null,
+      "marcadores": [],
+      "data_redacao": null,
+      "norma_redacao": null
+    },
+    "citavel": true
   },
   "lei-municipal-saopaulo-17975-2023::001-preambulo": {
     "lei_id": "lei-municipal-saopaulo-17975-2023",

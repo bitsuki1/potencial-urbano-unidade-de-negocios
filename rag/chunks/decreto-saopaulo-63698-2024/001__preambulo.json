@@ -1,0 +1,43 @@
+{
+  "chunk_id": "decreto-saopaulo-63698-2024::001-preambulo",
+  "lei_id": "decreto-saopaulo-63698-2024",
+  "tipo_dispositivo": "preambulo",
+  "rotulo": "Preâmbulo",
+  "numero": null,
+  "header_raw": null,
+  "caminho_hierarquico": [],
+  "texto": "DECRETO Nº 63.698 DE 27 DE AGOSTO DE 2024\n\nDECRETO Nº 63.698 de 27 de Agosto de 2024\n\nAnexos\n\nTemas Relacionados\n\nAprova a Consolidação das Leis Tributárias do Município de São Paulo, bem como dispõe sobre a aplicação do disposto no “caput” do artigo 1º-A da Lei nº 10.734, de 30 de junho de 1989, aos débitos que especifica.\n\nDECRETO Nº 63.698, DE 27 DE AGOSTO DE 2024\n\nAprova a Consolidação das Leis Tributárias do Município de São Paulo, bem como dispõe sobre a aplicação do disposto no “caput” do artigo 1º-A da Lei nº 10.734, de 30 de junho de 1989, aos débitos que especifica.\n\nRICARDO NUNES, Prefeito do Município de São Paulo, no uso das atribuições que lhe são conferidas por lei,\n\nD E C R E T A:",
+  "citavel": false,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 63.698/2024 — São Paulo/SP",
+    "dispositivo": "Preâmbulo",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-63698-de-27-de-agosto-de-2024",
+    "vigencia": {
+      "inicio": "2024-08-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "itbi"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Aprova a Consolidação das Leis Tributárias do Município de São Paulo, bem como dispõe sobre a aplicação do disposto no “caput” do artigo 1º-A da Lei nº 10.734, de 30 de junho de 1989, aos débitos que especifica."
+}

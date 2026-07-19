@@ -1,0 +1,44 @@
+{
+  "chunk_id": "decreto-saopaulo-60581-2021::008-art-7o",
+  "lei_id": "decreto-saopaulo-60581-2021",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 7º",
+  "numero": "7",
+  "header_raw": "Art. 7º Esgotadas as providências administrativas para a cessação do ruído, caberá ao PSIU:",
+  "caminho_hierarquico": [
+    "Art. 7º"
+  ],
+  "texto": "Art. 7º Esgotadas as providências administrativas para a cessação do ruído, caberá ao PSIU:\n\nI – encaminhar cópias das principais peças da ação fiscal à Delegacia de Polícia, dando notícia da prática, em tese, de crime de desobediência;\n\nII - expedir ofícios ao CREA ou CAU, com cópias das principais peças da ação fiscal, para a apuração de responsabilidade profissional;\n\nIII – autuar um SEI com as principais peças da ação fiscal e, após parecer jurídico, encaminhá-lo ao Departamento de Defesa do Meio Ambiente e do Patrimônio da Procuradoria Geral do Município (DEMAP) para as providências de ajuizamento da ação judicial cabível, sem prejuízo do prosseguimento da ação fiscal.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 60.581/2021 — São Paulo/SP",
+    "dispositivo": "Art. 7º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-60581-de-27-de-setembro-de-2021",
+    "vigencia": {
+      "inicio": "2021-09-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    }
+  },
+  "tema": [
+    "zoneamento",
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta o controle de ruídos na execução das obras de construção civil no Município de São Paulo."
+}

@@ -1,0 +1,44 @@
+{
+  "chunk_id": "decreto-saopaulo-60581-2021::004-art-3o",
+  "lei_id": "decreto-saopaulo-60581-2021",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 3º",
+  "numero": "3",
+  "header_raw": "Art. 3º Não estão restritas aos limites estabelecidos no “caput” do artigo 2º deste decreto as seguintes situações:",
+  "caminho_hierarquico": [
+    "Art. 3º"
+  ],
+  "texto": "Art. 3º Não estão restritas aos limites estabelecidos no “caput” do artigo 2º deste decreto as seguintes situações:\n\nI - as obras relativas à fase de movimentação de terra, fundação, demolição e estrutura, movimentação de terra, desde que realizadas no período compreendido entre 7 (sete) horas e 19 (dezenove) horas, de segunda a sexta-feira, exceto feriados;\n\nII - as obras públicas;\n\nIII – as atividades de carga e descarga em obras de construção civil, desde que realizadas no período compreendido entre 21(vinte e uma) horas e 0h00 (zero horas), de segunda a sexta-feira, exceto finais de semana e feriados.\n\n§ 1º Será permitida, independentemente da zona de uso e do horário, e sem limitação de nível de ruído, toda e qualquer obra, pública ou particular, de emergência que, por sua natureza, objetive evitar colapso nos serviços de infraestutura do Município, ou risco à saúde, à vida e à integridade física da população.\n\n§ 2º Caso haja descumprimento aos condicionantes dispostos nos incisos I e III do “caput” desde artigo, as atividades ali previstas estarão sujeitas às penalidades descritas no artigo 5º deste decreto.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 60.581/2021 — São Paulo/SP",
+    "dispositivo": "Art. 3º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-60581-de-27-de-setembro-de-2021",
+    "vigencia": {
+      "inicio": "2021-09-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    }
+  },
+  "tema": [
+    "zoneamento",
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta o controle de ruídos na execução das obras de construção civil no Município de São Paulo."
+}

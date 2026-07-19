@@ -1,0 +1,43 @@
+{
+  "chunk_id": "decreto-saopaulo-59163-2019::009-art-8o",
+  "lei_id": "decreto-saopaulo-59163-2019",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 8º",
+  "numero": "8",
+  "header_raw": "Art. 8º As planilhas-resumo, com a mensuração dos resultados alcançados, serão encaminhadas via processo eletrônico à Coordenadoria de Gestão do Programa de Metas – CGPM, que poderá solicitar ao órgão da administração direta, autarquia ou fundação remetente informações e documentos adicionais, com vistas a subsidiar a elaboração do relatório consolidado de apuração do cumprimento das metas, em modelo previamente aprovado pela comissão intersecretarial.",
+  "caminho_hierarquico": [
+    "Art. 8º"
+  ],
+  "texto": "Art. 8º As planilhas-resumo, com a mensuração dos resultados alcançados, serão encaminhadas via processo eletrônico à Coordenadoria de Gestão do Programa de Metas – CGPM, que poderá solicitar ao órgão da administração direta, autarquia ou fundação remetente informações e documentos adicionais, com vistas a subsidiar a elaboração do relatório consolidado de apuração do cumprimento das metas, em modelo previamente aprovado pela comissão intersecretarial.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 59.163/2019 — São Paulo/SP",
+    "dispositivo": "Art. 8º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59163-de-27-de-dezembro-de-2019",
+    "vigencia": {
+      "inicio": "2019-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a concessão da Bonificação por Resultados - BR, instituída pela Lei nº 17.224, de 31 de outubro de 2019, aos agentes públicos municipais, na forma e condições que especifica."
+}

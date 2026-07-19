@@ -1,0 +1,43 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17853-2022::003-art-2o",
+  "lei_id": "lei-municipal-saopaulo-17853-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 2º",
+  "numero": "2",
+  "header_raw": "Art. 2º Para a sistematização, consolidação e previsões constantes desta Lei foram consideradas as seguintes diretrizes:(Artigo declarado inconstitucional pela ADI nº 2157392-66.2023.8.26.0000)",
+  "caminho_hierarquico": [
+    "Art. 2º"
+  ],
+  "texto": "Art. 2º Para a sistematização, consolidação e previsões constantes desta Lei foram consideradas as seguintes diretrizes:(Artigo declarado inconstitucional pela ADI nº 2157392-66.2023.8.26.0000)\n\nI - a cumulatividade decorrente da operação conjunta de cozinhas industriais de diferentes restaurantes e/ou empresas;\n\nII - a essencialidade do serviço de entrega para a viabilização do funcionamento;\n\nIII - os impactos decorrentes dos fatores descritos nos incisos I e II deste artigo para o entorno dos estabelecimentos;\n\nIV - o cotejo entre o descrito nos incisos I, II e III deste artigo com as disposições das Leis nº 16.402, de 22 de março de 2016, nº 16.642, de 9 de maio de 2017, e respectivos regulamentos, especialmente os grupos de atividades listadas, os parâmetros de incomodidade e os critérios e parâmetros técnicos para a elaboração dos projetos.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.853/2022 — São Paulo/SP",
+    "dispositivo": "Art. 2º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17853-de-29-de-novembro-de-2022",
+    "vigencia": {
+      "inicio": "2022-11-29",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=True revoga=False."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Estabelece regras aplicáveis a estabelecimentos formados por um conjunto de cozinhas industriais, utilizadas para produção por diferentes restaurantes e/ou empresas, destinada à comercialização de refeições e alimentos por serviço de entregas, sem acesso de público para consumo no local, configurando operação conjunta ou conglomerado de cozinhas, popularmente conhecidas como dark kitchens e dispõe sobre aspectos fiscalizatórios da Lei nº 16.402, de 22 de março de 2016."
+}

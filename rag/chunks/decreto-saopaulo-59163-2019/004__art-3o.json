@@ -1,0 +1,43 @@
+{
+  "chunk_id": "decreto-saopaulo-59163-2019::004-art-3o",
+  "lei_id": "decreto-saopaulo-59163-2019",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 3º",
+  "numero": "3",
+  "header_raw": "Art. 3º Incumbe à comissão intersecretarial a que se refere o artigo 5º da Lei nº 17.224, de 2019:",
+  "caminho_hierarquico": [
+    "Art. 3º"
+  ],
+  "texto": "Art. 3º Incumbe à comissão intersecretarial a que se refere o artigo 5º da Lei nº 17.224, de 2019:\n\nI - definir os critérios de apuração e avaliação dos indicadores globais, observadas as metas previstas no Programa de Metas de que trata o artigo 69-A da Lei Orgânica do Município de São Paulo;\n\nII - fixar o montante global anual, observada a disponibilidade orçamentária, a ser alocado para o pagamento da Bonificação por Resultados – BR;\n\nIII - decidir quais unidades administrativas dos órgãos da administração direta, autarquias e fundações deverão ser avaliadas por meio de indicadores específicos;\n\nParágrafo único. Caberá ao Secretário de Governo Municipal, na qualidade de presidente da comissão intersecretarial, definir a pauta dos assuntos a serem deliberados nas reuniões do colegiado.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 59.163/2019 — São Paulo/SP",
+    "dispositivo": "Art. 3º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59163-de-27-de-dezembro-de-2019",
+    "vigencia": {
+      "inicio": "2019-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a concessão da Bonificação por Resultados - BR, instituída pela Lei nº 17.224, de 31 de outubro de 2019, aos agentes públicos municipais, na forma e condições que especifica."
+}

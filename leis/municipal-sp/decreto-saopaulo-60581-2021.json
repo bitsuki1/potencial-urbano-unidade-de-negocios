@@ -1,0 +1,81 @@
+{
+  "id": "decreto-saopaulo-60581-2021",
+  "tipo_norma": "decreto",
+  "esfera": "municipal",
+  "jurisdicao": "São Paulo/SP",
+  "numero": "60.581",
+  "ano": 2021,
+  "ementa": "Regulamenta o controle de ruídos na execução das obras de construção civil no Município de São Paulo.",
+  "tema": [
+    "zoneamento",
+    "uso_ocupacao_solo"
+  ],
+  "dispositivos_chave": [
+    "Art. 1º O controle de ruídos na execução das obras de construção civil no Município de São Paulo fica regulamentado nos termos d",
+    "Art. 2º Na execução de obras de construção civil sujeitas a Alvará de Execução, será considerado normal o agravamento permanente",
+    "Art. 3º Não estão restritas aos limites estabelecidos no “caput” do artigo 2º deste decreto as seguintes situações:",
+    "Art. 4º A medição de ruídos será feita por meio de sonômetro, pelos agentes da Divisão Técnica de Fiscalização do Silêncio Urban",
+    "Art. 5º O descumprimento das disposições deste decreto sujeitará o infrator à aplicação da penalidade prevista, com fulcro no ar",
+    "Art. 6º Para os fins deste decreto, considera-se infrator o proprietário ou possuidor do imóvel e, quando for o caso, o responsá",
+    "Art. 7º Esgotadas as providências administrativas para a cessação do ruído, caberá ao PSIU:",
+    "Art. 8º Realizado o embargo administrativo, o infrator só poderá retomar o prosseguimento das atividades no local após sanadas a",
+    "Art. 9º Contra a aplicação das multas previstas nos §§ 1º, 2º e 3º do “caput” do artigo 5º deste decreto, caberá:",
+    "Art. 10 . A fiscalização da observância dos parâmetros de incomodidade, nos termos deste decreto, independe da fiscalização da r",
+    "Art. 11 . Caberá à Secretaria Municipal das Subprefeituras, por meio da expedição de normas regulamentares, a edição de um “Manu",
+    "Art. 12 . Este decreto entrará em vigor decorridos 90 (noventa) dias da data da sua publicação."
+  ],
+  "vigencia": {
+    "inicio": "2021-09-27",
+    "fim": null,
+    "em_vigor": true,
+    "altera": [],
+    "alterada_por": [],
+    "revogada_por": null,
+    "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+  },
+  "remissoes": [
+    {
+      "norma": "DECRETO Nº 60.581",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei n° 16.402, de 2016",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 16.402",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 16.642",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 16.642, de 2017",
+      "relacao": "citada no texto (detectada automaticamente)"
+    }
+  ],
+  "jurisprudencia_relacionada": [],
+  "tem_tabela": true,
+  "tabelas_extraidas": [],
+  "tem_formula": false,
+  "formulas_referenciadas": [],
+  "fonte": {
+    "origem": "Portal oficial (legislacao.prefeitura.sp.gov.br)",
+    "path": "_entrada/misto/decreto-saopaulo-60581-2021.txt",
+    "url": "https://legislacao.prefeitura.sp.gov.br/decreto-60581-de-27-de-setembro-de-2021",
+    "hash": "sha256:1d14ecd7b4adf208ca8d0f3d45aac4a669a9773d86496f744fdf3f65264ace20",
+    "hash_nota_fonte": "sha256 do HTML bruto do portal capturado 2026-07-13",
+    "ocr": false,
+    "metodo": "VERBATIM INTEGRAL (portal oficial, texto compilado); captura portal oficial legislacao.prefeitura.sp.gov.br (container texto_compilado); promovido de _entrada/misto/",
+    "hash_alvo": "_entrada/misto/decreto-saopaulo-60581-2021.txt",
+    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior."
+  },
+  "status_pipeline": "indexado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "dominio_primario": "iptu",
+  "dominio": [
+    "iptu"
+  ]
+}

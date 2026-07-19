@@ -1,0 +1,43 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17853-2022::007-art-6o",
+  "lei_id": "lei-municipal-saopaulo-17853-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 6º",
+  "numero": "6",
+  "header_raw": "Art. 6º Os estabelecimentos referidos no art. 1º desta Lei deverão atender integralmente a NBR 14518-2020 ou a norma que vier a substituí-la, observando-se adicionalmente que, para promover a dispersão ambiental da carga poluente, a descarga de gases de exaustão deve ser feita a uma altura de 5m (cinco metros) em relação ao topo de todas as construções e tomadas de ar dentro de um raio de 25m (vinte e cinco metros), a partir do centro do terminal de descarga e em cota com no mínimo 10m (dez metros) acima do solo.(Artigo declarado inconstitucional pela ADI nº 2157392-66.2023.8.26.0000)",
+  "caminho_hierarquico": [
+    "Art. 6º"
+  ],
+  "texto": "Art. 6º Os estabelecimentos referidos no art. 1º desta Lei deverão atender integralmente a NBR 14518-2020 ou a norma que vier a substituí-la, observando-se adicionalmente que, para promover a dispersão ambiental da carga poluente, a descarga de gases de exaustão deve ser feita a uma altura de 5m (cinco metros) em relação ao topo de todas as construções e tomadas de ar dentro de um raio de 25m (vinte e cinco metros), a partir do centro do terminal de descarga e em cota com no mínimo 10m (dez metros) acima do solo.(Artigo declarado inconstitucional pela ADI nº 2157392-66.2023.8.26.0000)\n\n§ 1º A instalação para descarga de gases de exaustão de que trata o caput deverá ser contabilizada no cálculo do gabarito de altura máxima da edificação, nos termos do Quadro 1 da Lei nº 16.402, de 22 de março de 2016.\n\n§ 2º Poderá ser aceita solução alternativa para descarga de gases de exaustão, desde que comprovada sua efetividade, devendo o estabelecimento manter a documentação atualizada anualmente.\n\n§ 3º O disposto neste artigo deverá ser atestado por profissional habilitado, nos termos do regulamento.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.853/2022 — São Paulo/SP",
+    "dispositivo": "Art. 6º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17853-de-29-de-novembro-de-2022",
+    "vigencia": {
+      "inicio": "2022-11-29",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=True revoga=False."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Estabelece regras aplicáveis a estabelecimentos formados por um conjunto de cozinhas industriais, utilizadas para produção por diferentes restaurantes e/ou empresas, destinada à comercialização de refeições e alimentos por serviço de entregas, sem acesso de público para consumo no local, configurando operação conjunta ou conglomerado de cozinhas, popularmente conhecidas como dark kitchens e dispõe sobre aspectos fiscalizatórios da Lei nº 16.402, de 22 de março de 2016."
+}
