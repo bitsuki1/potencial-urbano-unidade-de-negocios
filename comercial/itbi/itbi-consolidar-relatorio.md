@@ -1,0 +1,29 @@
+# Consolidação ITBI pago (2006-2025) — relatório de mapeamento
+
+> Fonte OFICIAL primária (SF/PMSP), baixada via conta de serviço. DADO p/ Comercial (não RAG).
+
+- SQLs distintos citywide: **137026**
+- Transações-comparáveis nas quadras dos cedentes: **9798**
+
+| arquivo | linhas | com SQL | mapeamento de colunas |
+|---|---|---|---|
+| 2006 | 6710 | 6710 | aba «JAN-2006» · {'sql': 'N° do Cadastro (SQL)', 'valor_venal_ref': 'Referência', 'valor_transacao': 'Valor de Transação (declarado pelo contribuinte)', 'data': 'Data de Transação', 'natureza': 'Natureza de Transação', 'logradouro': 'Nome do Logradouro'} |
+| 2007 | 6924 | 6924 | aba «JAN-2007» · {'sql': 'N° do Cadastro (SQL)', 'valor_venal_ref': 'Referência', 'valor_transacao': 'Valor de Transação (declarado pelo contribuinte)', 'data': 'Data de Transação', 'natureza': 'Natureza de Transação', 'logradouro': 'Nome do Logradouro'} |
+| 2008 | 8855 | 8855 | aba «JAN-2008» · {'sql': 'N° do Cadastro (SQL)', 'valor_venal_ref': 'Referência', 'valor_transacao': 'Valor de Transação (declarado pelo contribuinte)', 'data': 'Data de Transação', 'natureza': 'Natureza de Transação', 'logradouro': 'Nome do Logradouro'} |
+| 2009 | 7510 | 7510 | aba «JAN-2009» · {'sql': 'N° do Cadastro (SQL)', 'valor_venal_ref': 'Referência', 'valor_transacao': 'Valor de Transação (declarado pelo contribuinte)', 'data': 'Data de Transação', 'natureza': 'Natureza de Transação', 'logradouro': 'Nome do Logradouro'} |
+| 2010 | 8014 | 8014 | aba «JAN-2010» · {'sql': 'N° do Cadastro (SQL)', 'valor_venal_ref': 'Referência', 'valor_transacao': 'Valor de Transação (declarado pelo contribuinte)', 'data': 'Data de Transação', 'natureza': 'Natureza de Transação', 'logradouro': 'Nome do Logradouro'} |
+| 2011 | 8018 | 8018 | aba «JAN-2011» · {'sql': 'N° do Cadastro (SQL)', 'valor_venal_ref': 'Referência', 'valor_transacao': 'Valor de Transação (declarado pelo contribuinte)', 'data': 'Data de Transação', 'natureza': 'Natureza de Transação', 'logradouro': 'Nome do Logradouro'} |
+| 2012 | 6927 | 6927 | aba «JAN-2012» · {'sql': 'N° do Cadastro (SQL)', 'valor_venal_ref': 'Referência', 'valor_transacao': 'Valor de Transação (declarado pelo contribuinte)', 'data': 'Data de Transação', 'natureza': 'Natureza de Transação', 'logradouro': 'Nome do Logradouro'} |
+| 2013 | 7457 | 7457 | aba «JAN-2013» · {'sql': 'N° do Cadastro (SQL)', 'valor_venal_ref': 'Referência', 'valor_transacao': 'Valor de Transação (declarado pelo contribuinte)', 'data': 'Data de Transação', 'natureza': 'Natureza de Transação', 'logradouro': 'Nome do Logradouro'} |
+| 2014 | 7707 | 7707 | aba «JAN-2014» · {'sql': 'N° do Cadastro (SQL)', 'valor_venal_ref': 'Referência', 'valor_transacao': 'Valor de Transação (declarado pelo contribuinte)', 'data': 'Data de Transação', 'natureza': 'Natureza de Transação', 'logradouro': 'Nome do Logradouro'} |
+| 2015 | 6241 | 6241 | aba «JAN-2015» · {'sql': 'N° do Cadastro (SQL)', 'valor_venal_ref': 'Referência', 'valor_transacao': 'Valor de Transação (declarado pelo contribuinte)', 'data': 'Data de Transação', 'natureza': 'Natureza de Transação', 'logradouro': 'Nome do Logradouro'} |
+| 2016 | 4144 | 4144 | aba «JAN-2016» · {'sql': 'N° do Cadastro (SQL)', 'valor_venal_ref': 'Referência', 'valor_transacao': 'Valor de Transação (declarado pelo contribuinte)', 'data': 'Data de Transação', 'natureza': 'Natureza de Transação', 'logradouro': 'Nome do Logradouro'} |
+| 2017 | 5042 | 5042 | aba «JAN-2017» · {'sql': 'N° do Cadastro (SQL)', 'valor_venal_ref': 'Referência', 'valor_transacao': 'Valor de Transação (declarado pelo contribuinte)', 'data': 'Data de Transação', 'natureza': 'Natureza de Transação', 'logradouro': 'Nome do Logradouro'} |
+| 2018 | 5221 | 5221 | aba «JAN-2018» · {'sql': 'N° do Cadastro (SQL)', 'valor_venal_ref': 'Referência', 'valor_transacao': 'Valor de Transação (declarado pelo contribuinte)', 'data': 'Data de Transação', 'natureza': 'Natureza de Transação', 'logradouro': 'Nome do Logradouro'} |
+| 2019 | 6042 | 6042 | aba «JAN-2019» · {'sql': 'N° do Cadastro (SQL)', 'valor_venal_ref': 'Referência', 'valor_transacao': 'Valor de Transação (declarado pelo contribuinte)', 'data': 'Data de Transação', 'natureza': 'Natureza de Transação', 'logradouro': 'Nome do Logradouro'} |
+| 2020 | 8150 | 8150 | aba «JAN-2020» · {'sql': 'N° do Cadastro (SQL)', 'valor_venal_ref': 'Referência', 'valor_transacao': 'Valor de Transação (declarado pelo contribuinte)', 'data': 'Data de Transação', 'natureza': 'Natureza de Transação', 'logradouro': 'Nome do Logradouro'} |
+| 2021 | 10377 | 10377 | aba «JAN-2021» · {'sql': 'N° do Cadastro (SQL)', 'valor_venal_ref': 'Referência', 'valor_transacao': 'Valor de Transação (declarado pelo contribuinte)', 'data': 'Data de Transação', 'natureza': 'Natureza de Transação', 'logradouro': 'Nome do Logradouro'} |
+| 2022 | 10396 | 10396 | aba «JAN-2022» · {'sql': 'N° do Cadastro (SQL)', 'valor_venal_ref': 'Referência', 'valor_transacao': 'Valor de Transação (declarado pelo contribuinte)', 'data': 'Data de Transação', 'natureza': 'Natureza de Transação', 'logradouro': 'Nome do Logradouro'} |
+| 2023 | 11266 | 11266 | aba «JAN-2023» · {'sql': 'N° do Cadastro (SQL)', 'valor_venal_ref': 'Referência', 'valor_transacao': 'Valor de Transação (declarado pelo contribuinte)', 'data': 'Data de Transação', 'natureza': 'Natureza de Transação', 'logradouro': 'Nome do Logradouro'} |
+| 2024 | 14246 | 13245 | aba «FEV-2024» · {'sql': 'N° do Cadastro (SQL)', 'valor_venal_ref': 'Referência', 'valor_transacao': 'Valor de Transação (declarado pelo contribuinte)', 'data': 'Data de Transação', 'natureza': 'Natureza de Transação', 'logradouro': 'Nome do Logradouro'} |
+| 2025 | 14456 | 14456 | aba «JAN-2025» · {'sql': 'N° do Cadastro (SQL)', 'valor_venal_ref': 'Referência', 'valor_transacao': 'Valor de Transação (declarado pelo contribuinte)', 'data': 'Data de Transação', 'natureza': 'Natureza de Transação', 'logradouro': 'Nome do Logradouro'} |
