@@ -154,6 +154,13 @@ def main():
         q14_por_sq[sq].append(Decimal(val))
     q14_max = {sq: max(vals) for sq, vals in q14_por_sq.items()}
     zona = {r["sql_mestre"]: r for r in csv.DictReader(open(AQUI / "oficial/zona_por_cedente.csv", encoding="utf-8"))}
+    # Camada de CONSERVAÇÃO oficial (Art. 129 PDE): nível de preservação + atos de tombamento (Resoluções
+    # CONPRESP/CONDEPHAAT) da consulta CIT verbatim (1.3/1.7). Gerada por pipeline/ingerir_cit_conservacao.py.
+    # É a CITAÇÃO da base legal do tombamento; SEM_DADO fica SEM_DADO (1.8, nada inventado).
+    cit_cons = {}
+    _cit_path = AQUI / "oficial/conservacao_cedentes.csv"
+    if _cit_path.exists():
+        cit_cons = {r["sql_mestre"]: r for r in csv.DictReader(open(_cit_path, encoding="utf-8"))}
 
     rows = list(csv.DictReader(open(AQUI / "ferramenta/zepec_cedentes.csv", encoding="utf-8")))
     extras = ["area_terreno_m2", "area_construida_m2", "valor_m2_terreno_iptu", "v_outorga_m2_q14",
@@ -161,7 +168,9 @@ def main():
               "zona", "ca_basico", "fi_aplicado", "fsce_aplicado", "pcpt_m2", "saldo_pcpt_m2", "parcelas_anuais",
               "preco_proxy_brl", "uso_iptu", "cobertura_oficial", "memoria_calculo", "pendencia_calculo",
               # T3 — regime do PCpt: separa já-declarado (Art.125 §1º I) de prospecção nova (Art.24 caput).
-              "regime_pcpt", "qualidade_estimativa"]
+              "regime_pcpt", "qualidade_estimativa",
+              # Conservação oficial (Art. 129 PDE): nível CIT + atos de tombamento (citação) + reconciliação.
+              "cit_nivel_preservacao", "cit_atos_tombamento", "cit_reconciliacao"]
     campos = list(rows[0].keys()) + extras
 
     n = {"atc": 0, "v": 0, "zona": 0, "cabas": 0, "pcpt": 0, "saldo": 0, "preco": 0,
@@ -171,6 +180,12 @@ def main():
     for r in rows:
         sql = (r.get("sql_mestre") or "").strip()
         for k in extras: r.setdefault(k, "")
+        # conservação oficial (Art. 129): copia o nível + atos verbatim do CIT (citação da base legal)
+        _cc = cit_cons.get(sql)
+        if _cc:
+            r["cit_nivel_preservacao"] = _cc.get("cit_nivel_preservacao", "")
+            r["cit_atos_tombamento"] = _cc.get("cit_atos_tombamento", "")
+            r["cit_reconciliacao"] = _cc.get("reconciliacao", "")
         cob, pend = [], []
         i, z = iptu.get(sql), zona.get(sql)
 
