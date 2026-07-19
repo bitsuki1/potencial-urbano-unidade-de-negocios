@@ -1,0 +1,160 @@
+{
+  "id": "decreto-saopaulo-57776-2017",
+  "tipo_norma": "decreto",
+  "esfera": "municipal",
+  "jurisdicao": "São Paulo/SP",
+  "numero": "57.776",
+  "ano": 2017,
+  "ementa": "Regulamenta a Lei nº 16.642, de 9 de maio de 2017, que aprovou o Código de Obras e Edificações do Município de São Paulo; define os membros da Comissão de Edificações e Uso do Solo – CEUSO.",
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dispositivos_chave": [
+    "Art. 1º Este decreto regulamenta os procedimentos administrativos e executivos e fixa as regras gerais e específicas a serem obe",
+    "Art. 2º Para os fins deste decreto, os órgãos, entidades e expressões serão identificados pelas seguintes siglas ou abreviaturas",
+    "Art. 3º Enquadram-se como processos especiais, com procedimento definido neste decreto, os pedidos de emissão dos seguintes docu",
+    "Art. 4º Compete à Secretaria Municipal de Urbanismo e Licenciamento a análise e decisão dos pedidos de documentos de controle da",
+    "Art. 5º Para fins de aplicação das disposições do COE e deste Código ficam adotadas, além das dispostas em lei, as seguintes def",
+    "Art. 6º A Prefeitura emitirá o documento de controle da atividade edilícia em nome do proprietário ou do possuidor para o imóvel",
+    "Art. 7º O proprietário poderá requerer a emissão de documento de controle da atividade edilícia e comprovará a propriedade instr",
+    "Art. 8º O possuidor tem os mesmos direitos do proprietário e poderá requerer a emissão do documento em seu nome, desde que apres",
+    "Art. 9º Somente o profissional habilitado no CREA ou CAU, o proprietário ou o possuidor e seus representantes poderão tratar, pe",
+    "Art. 10 . A baixa, a assunção e a transferência de responsabilidade técnica ocorrem na data da apresentação da devida comunicaçã",
+    "Art. 11 . Os responsáveis técnicos, nos limites de sua atuação, respondem pela correta execução da obra e instalação de equipame",
+    "Art. 12 . Para a instrução dos pedidos de documentos de controle de atividade edilícia, o proprietário ou possuidor deverá apres",
+    "Art. 13 . São de inteira responsabilidade do proprietário ou possuidor, e quando for o caso, do profissional habilitado, as obra",
+    "Art. 14 . O restauro da edificação, para a restituição de suas características originais, depende de autorização do órgão de pre",
+    "Art. 15 . Também é considerada de baixo impacto a instalação do mobiliário definido no COE dentro dos limites do inciso II do ar",
+    "Art. 16 . A construção e reforma em imóvel de propriedade da União, do Estado ou do Município, bem como de suas respectivas auta",
+    "Art. 17 . Nos pedidos de Alvará de Aprovação, além dos documentos previstos no artigo 16 do COE e no artigo 12 deste decreto, de",
+    "Art. 18 . O Alvará de Aprovação prescrito pode ser revalidado desde que o projeto aprovado atenda a legislação em vigor por ocas",
+    "Art. 19 . Os pedidos de Alvará de Execução, além dos documentos previstos no artigo 24 do COE e no artigo 12 deste decreto, deve",
+    "Art. 20 . Quando houver mais de um Alvará de Aprovação em vigor para o mesmo imóvel, o Alvará de Execução pode ser concedido ape",
+    "Art. 21 . Após a emissão do Alvará de Execução, poderão ser aceitas alterações no projeto aprovado pelo Alvará de Aprovação, med",
+    "Art. 22 . O Alvará de Execução para edificação nova, reforma, requalificação e reconstrução de edificação perderá a validade:",
+    "Art. 23 . No caso de obra paralisada com Alvará de Execução caduco e a superestrutura parcialmente concluída, se o projeto origi",
+    "Art. 24 . O Certificado de Conclusão é o documento hábil para a comprovação da regularidade da edificação, sendo válido quando a",
+    "Art. 25 . O Certificado de Regularização é documento hábil para a comprovação da regularidade da edificação ou serviço executado"
+  ],
+  "vigencia": {
+    "inicio": "2017-07-07",
+    "fim": null,
+    "em_vigor": true,
+    "altera": [],
+    "alterada_por": [],
+    "revogada_por": null,
+    "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+  },
+  "remissoes": [
+    {
+      "norma": "DECRETO Nº 57.776",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 10.878",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 12.706",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 17.866",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 19.512",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 23.158",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 24.714",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 24.757",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 27.011",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 31.816",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 32.329",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 32.958",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 34.314",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 36.161",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 37.671",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 37.712",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 37.814",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 38.058",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 39.603",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 41.788",
+      "relacao": "citada no texto (detectada automaticamente)"
+    }
+  ],
+  "jurisprudencia_relacionada": [],
+  "tem_tabela": true,
+  "tabelas_extraidas": [],
+  "tem_formula": false,
+  "formulas_referenciadas": [],
+  "fonte": {
+    "origem": "Portal oficial (legislacao.prefeitura.sp.gov.br)",
+    "path": "_entrada/misto/decreto-saopaulo-57776-2017.txt",
+    "url": "https://legislacao.prefeitura.sp.gov.br/decreto-57776-de-07-de-julho-de-2017",
+    "hash": "sha256:ae33725a6ac5b26ed49239f2fd951c267b0e68da1da73c46079eb726f8c7b26e",
+    "hash_nota_fonte": "sha256 do HTML bruto do portal capturado 2026-07-13",
+    "ocr": false,
+    "metodo": "VERBATIM INTEGRAL (portal oficial, texto compilado); captura portal oficial legislacao.prefeitura.sp.gov.br (container texto_compilado); promovido de _entrada/misto/",
+    "hash_alvo": "_entrada/misto/decreto-saopaulo-57776-2017.txt",
+    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior."
+  },
+  "status_pipeline": "bruto",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "dominio_primario": "compartilhado",
+  "dominio": [
+    "compartilhado"
+  ]
+}

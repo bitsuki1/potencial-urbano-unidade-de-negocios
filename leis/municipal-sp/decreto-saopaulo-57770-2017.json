@@ -1,0 +1,93 @@
+{
+  "id": "decreto-saopaulo-57770-2017",
+  "tipo_norma": "decreto",
+  "esfera": "municipal",
+  "jurisdicao": "São Paulo/SP",
+  "numero": "57.770",
+  "ano": 2017,
+  "ementa": "Confere nova regulamentação ao Sistema de Informações Geográficas do Município de São Paulo SIG - SP.",
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dispositivos_chave": [
+    "Art. 1º O Sistema de Informações Geográficas do Município de São Paulo – SIG-SP, sob gestão da Secretaria Municipal de Urbanismo",
+    "Art. 2º Para os fins deste decreto, considera-se:",
+    "Art. 3º O Sistema de Informações Geográficas do Município de São Paulo - SIG-SP é um sistema aberto, integrador, dinâmico e perm",
+    "Art. 4º A Infraestrutura Municipal de Dados Espaciais – IMDE deve estar fisicamente armazenada em servidores corporativos para h",
+    "Art. 5º Os componentes do SIG-SP deverão ser atualizados, quando necessário, mediante o emprego das mais novas tecnologias, técn",
+    "Art. 6º Os sistemas de dados e informações municipais de qualquer natureza deverão ser estruturados pelos órgãos responsáveis de",
+    "Art. 7º Os dados provenientes de entes externos à Administração Municipal Direta poderão ser incorporados ao SIG-SP mediante val",
+    "Art. 8º A adoção dos padrões na elaboração de dados espaciais visa permitir a visualização, acesso e descrição de dados geoespac",
+    "Art. 9º Deverá ser adotado como sistema de referência geodésica o Sistema de Referência Geocêntrico para as Américas - SIRGAS, r",
+    "Art. 10 . Possíveis alterações na estrutura das bases de dados e sistemas que compõem a Infraestrutura Municipal de Dados Espaci",
+    "Art. 11 . As aplicações WebMap são a interface de visualização das informações que compõem a Infraestrutura Municipal de Dados E",
+    "Art. 12 . O acesso às aplicações WebMap é livre e aberto e deverá ser disponibilizado a todas as unidades e entes da Administraç",
+    "Art. 13 . O Mapa Digital da Cidade - MDC, elaborado a partir de 2004 em conformidade com as normas técnicas relativas à precisão",
+    "Art. 14 . Cada órgão ou ente municipal é responsável pela atualização, correção e contínua manutenção das informações por ele pr",
+    "Art. 15 . O MDC deverá ser atualizado sistematicamente aperfeiçoando ou, no mínimo, mantendo o atual nível de qualidade da base",
+    "Art. 16 . O MDC, incluindo a rede de apoio geodésico, deve ser referência para todos os levantamentos municipais (territoriais,",
+    "Art. 17 . A atualização do Mapa Digital da Cidade - MDC ocorrerá mediante disponibilização orçamentária e financeira a cada quat",
+    "Art. 18 . Caberá ao Departamento de Produção e Análise de Informação – DEINFO, da Secretaria Municipal de Urbanismo e Licenciame",
+    "Art. 19 . DEINFO fornecerá, mediante solicitação, apoio aos órgãos e entes municipais na fase de elaboração de projetos e ativid",
+    "Art. 20 . No âmbito do SIG-SP, caberá à Secretaria Municipal de Urbanismo e Licenciamento garantir a gestão tecnológica, em conf",
+    "Art. 21 . O DEINFO será responsável pelo atendimento aos usuários, disponibilizando canais de comunicação de fácil acesso, tais",
+    "Art. 22 . O Grupo Técnico Intersecretarial do Sistema de Informações Geográficas - GTI-SIG terá por atribuições propor as diretr",
+    "Art. 23 . Compete ao Grupo Técnico Intersecretarial do Sistema de Informações Geográficas – GTI-SIG:",
+    "Art. 24 . Compete à Secretaria Municipal de Urbanismo e Licenciamento firmar convênios ou termos de cooperação com entidades não",
+    "Art. 25 . Caberá à Secretaria Municipal de Urbanismo e Licenciamento dirimir dúvidas e casos omissos, bem como expedir as instru"
+  ],
+  "vigencia": {
+    "inicio": "2017-07-03",
+    "fim": null,
+    "em_vigor": true,
+    "altera": [],
+    "alterada_por": [],
+    "revogada_por": null,
+    "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+  },
+  "remissoes": [
+    {
+      "norma": "DECRETO Nº 57.770",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 50.736",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 53.623",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 57.653",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 16.050",
+      "relacao": "citada no texto (detectada automaticamente)"
+    }
+  ],
+  "jurisprudencia_relacionada": [],
+  "tem_tabela": false,
+  "tabelas_extraidas": [],
+  "tem_formula": false,
+  "formulas_referenciadas": [],
+  "fonte": {
+    "origem": "Portal oficial (legislacao.prefeitura.sp.gov.br)",
+    "path": "_entrada/misto/decreto-saopaulo-57770-2017.txt",
+    "url": "https://legislacao.prefeitura.sp.gov.br/decreto-57770-de-03-de-julho-de-2017",
+    "hash": "sha256:b70cf8dfe7f39ae02ed8105898a8df264cb6c0c17e3a088452ba87bb7d91afc8",
+    "hash_nota_fonte": "sha256 do HTML bruto do portal capturado 2026-07-13",
+    "ocr": false,
+    "metodo": "VERBATIM INTEGRAL (portal oficial, texto compilado); captura portal oficial legislacao.prefeitura.sp.gov.br (container texto_compilado); promovido de _entrada/misto/",
+    "hash_alvo": "_entrada/misto/decreto-saopaulo-57770-2017.txt",
+    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior."
+  },
+  "status_pipeline": "bruto",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "dominio_primario": "compartilhado",
+  "dominio": [
+    "compartilhado"
+  ]
+}
