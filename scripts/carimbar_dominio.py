@@ -96,6 +96,14 @@ COMPARTILHADO = {
         "Lei da Operação Urbana Água Branca (1995) — outorga/potencial construtivo (TDC) E parâmetros da área "
         "que tocam o IPTU. REVOGADA pela Lei 15.893/2013 (vigência fim=2013 no JSON); mantida como histórico "
         "vintage. Compartilhado (viés de não-perda).",
+    "lei-federal-6938-1981":
+        "PNMA — Política Nacional do Meio Ambiente: moldura FEDERAL das restrições ambientais (licenciamento, "
+        "zoneamento ambiental, APP) que limitam o aproveitamento do terreno e, por isso, tocam o potencial "
+        "construtivo (TDC) E a base venal (IPTU). Compartilhado (viés de não-perda).",
+    "lei-federal-11428-2006":
+        "Lei da Mata Atlântica: SP inteira está no bioma; os arts. 30-32 disciplinam a supressão de vegetação "
+        "em área urbana, condicionando licenciamento e aproveitamento de terrenos — toca potencial (TDC) E "
+        "uso/base venal (IPTU). Compartilhado.",
 }
 # --- TDC puro: efeito exclusivo de potencial construtivo. Hoje VAZIO em leis/ — a massa normativa TDC
 # (Decreto 57.536/2016, decretos ZEPEC/CONPRESP) ainda não foi ingerida; entrará marcada 'tdc'. ---

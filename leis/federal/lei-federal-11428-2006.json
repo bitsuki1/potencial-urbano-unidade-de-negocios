@@ -1,0 +1,65 @@
+{
+ "id": "lei-federal-11428-2006",
+ "tipo_norma": "lei_ordinaria",
+ "esfera": "federal",
+ "jurisdicao": "Brasil",
+ "numero": "11.428",
+ "ano": 2006,
+ "ementa": "Dispõe sobre a utilização e proteção da vegetação nativa do Bioma Mata Atlântica, e dá outras providências.",
+ "tema": [
+  "mata_atlantica",
+  "vegetacao_nativa",
+  "protecao_ambiental",
+  "licenciamento_ambiental",
+  "supressao_vegetacao_area_urbana"
+ ],
+ "dispositivos_chave": [
+  "Art. 1: objeto - utilização e proteção da vegetação nativa do Bioma Mata Atlântica",
+  "Art. 2: delimitação do bioma (o Município de São Paulo está integralmente no domínio)",
+  "Arts. 8-9: regime jurídico geral e estágios de regeneração (primária, secundária inicial/média/avançada)",
+  "Arts. 30-32: supressão de vegetação secundária em PERÍMETRO URBANO (regras e contrapartidas - incidem sobre empreendimentos urbanos em SP)"
+ ],
+ "vigencia": {
+  "inicio": "2006-12-22",
+  "fim": null,
+  "em_vigor": true,
+  "altera": [],
+  "alterada_por": [
+   "Texto consolidado do Planalto/ccivil_03"
+  ],
+  "revogada_por": null,
+  "observacao": "Lei federal do Bioma Mata Atlântica. São Paulo está integralmente no bioma; os arts. 30-32 disciplinam a supressão de vegetação secundária em área urbana, condicionando o licenciamento e o aproveitamento de terrenos com vegetação (afeta potencial construtivo e uso). Texto consolidado do Planalto capturado 2026-07-19; em vigor. dominio COMPARTILHADO. revisado_por_humano=false."
+ },
+ "remissoes": [
+  {
+   "norma": "Lei 6.938/1981 (PNMA)",
+   "relacao": "norma-quadro do meio ambiente que a Mata Atlântica especializa"
+  },
+  {
+   "norma": "Lei 16.402/2016 (LPUOS de SP)",
+   "relacao": "a Quota Ambiental e as regras de ocupação municipais dialogam com a proteção do bioma"
+  }
+ ],
+ "jurisprudencia_relacionada": [],
+ "tem_tabela": false,
+ "tabelas_extraidas": [],
+ "tem_formula": false,
+ "formulas_referenciadas": [],
+ "fonte": {
+  "origem": "Planalto (ccivil_03) - texto consolidado federal",
+  "path": "_entrada/misto/lei-federal-11428-2006.txt",
+  "url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11428.htm",
+  "ocr": false,
+  "metodo": "VERBATIM INTEGRAL (portal oficial, texto compilado); captura 2026-07-19 (texto consolidado federal do Planalto/ccivil_03, latin-1); promovido de _entrada/misto/",
+  "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior.",
+  "hash": "sha256:e26ea097ae9aa022e546d86ac5071cb5d7032c07ce63075c2050577f3031d0f6",
+  "hash_alvo": "_entrada/misto/lei-federal-11428-2006.txt"
+ },
+ "status_pipeline": "bruto",
+ "confianca_extracao": "alta",
+ "revisado_por_humano": false,
+ "dominio_primario": "compartilhado",
+ "dominio": [
+  "compartilhado"
+ ]
+}
