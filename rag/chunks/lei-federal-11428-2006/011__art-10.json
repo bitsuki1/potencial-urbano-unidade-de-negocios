@@ -1,0 +1,50 @@
+{
+  "chunk_id": "lei-federal-11428-2006::011-art-10",
+  "lei_id": "lei-federal-11428-2006",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 10",
+  "numero": "10",
+  "header_raw": "Art. 10. O poder público fomentará o enriquecimento ecológico da vegetação do Bioma Mata Atlântica, bem como o plantio e o reflorestamento com espécies nativas, em especial as iniciativas voluntárias de proprietários rurais.",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "Art. 10"
+  ],
+  "texto": "Art. 10. O poder público fomentará o enriquecimento ecológico da vegetação do Bioma Mata Atlântica, bem como o plantio e o reflorestamento com espécies nativas, em especial as iniciativas voluntárias de proprietários rurais.\n\n§ 1º Nos casos em que o enriquecimento ecológico exigir a supressão de espécies nativas que gerem produtos ou subprodutos comercializáveis, será exigida a autorização do órgão estadual ou federal competente, mediante procedimento simplificado.\n\n§ 2º Visando a controlar o efeito de borda nas áreas de entorno de fragmentos de vegetação nativa, o poder público fomentará o plantio de espécies florestais, nativas ou exóticas.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 11.428/2006 — Brasil",
+    "dispositivo": "TÍTULO II › Art. 10",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11428.htm",
+    "vigencia": {
+      "inicio": "2006-12-22",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Texto consolidado do Planalto/ccivil_03"
+      ],
+      "revogada_por": null,
+      "observacao": "Lei federal do Bioma Mata Atlântica. São Paulo está integralmente no bioma; os arts. 30-32 disciplinam a supressão de vegetação secundária em área urbana, condicionando o licenciamento e o aproveitamento de terrenos com vegetação (afeta potencial construtivo e uso). Texto consolidado do Planalto capturado 2026-07-19; em vigor. dominio COMPARTILHADO. revisado_por_humano=false."
+    }
+  },
+  "tema": [
+    "mata_atlantica",
+    "vegetacao_nativa",
+    "protecao_ambiental",
+    "licenciamento_ambiental",
+    "supressao_vegetacao_area_urbana"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre a utilização e proteção da vegetação nativa do Bioma Mata Atlântica, e dá outras providências."
+}

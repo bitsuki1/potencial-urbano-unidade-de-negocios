@@ -1,67 +1,67 @@
 {
- "id": "lei-federal-6938-1981",
- "tipo_norma": "lei_ordinaria",
- "esfera": "federal",
- "jurisdicao": "Brasil",
- "numero": "6.938",
- "ano": 1981,
- "ementa": "Dispõe sobre a Política Nacional do Meio Ambiente, seus fins e mecanismos de formulação e aplicação, e dá outras providências.",
- "tema": [
-  "politica_ambiental",
-  "meio_ambiente",
-  "licenciamento_ambiental",
-  "zoneamento_ambiental",
-  "responsabilidade_ambiental",
-  "sisnama"
- ],
- "dispositivos_chave": [
-  "Art. 2: princípios da Política Nacional do Meio Ambiente",
-  "Art. 3: definições (meio ambiente, degradação, poluição, poluidor, recursos ambientais)",
-  "Art. 6: SISNAMA - Sistema Nacional do Meio Ambiente (órgãos)",
-  "Art. 9: instrumentos da PNMA (licenciamento, zoneamento ambiental, avaliação de impacto, padrões de qualidade)",
-  "Art. 14 §1: responsabilidade OBJETIVA do poluidor por dano ambiental (independe de culpa)"
- ],
- "vigencia": {
-  "inicio": "1981-08-31",
-  "fim": null,
-  "em_vigor": true,
-  "altera": [],
-  "alterada_por": [
-   "Diversas leis federais posteriores (texto consolidado do Planalto/ccivil_03)"
+  "id": "lei-federal-6938-1981",
+  "tipo_norma": "lei_ordinaria",
+  "esfera": "federal",
+  "jurisdicao": "Brasil",
+  "numero": "6.938",
+  "ano": 1981,
+  "ementa": "Dispõe sobre a Política Nacional do Meio Ambiente, seus fins e mecanismos de formulação e aplicação, e dá outras providências.",
+  "tema": [
+    "politica_ambiental",
+    "meio_ambiente",
+    "licenciamento_ambiental",
+    "zoneamento_ambiental",
+    "responsabilidade_ambiental",
+    "sisnama"
   ],
-  "revogada_por": null,
-  "observacao": "Lei federal-quadro do meio ambiente (PNMA). Moldura FEDERAL das restrições ambientais (licenciamento, zoneamento ambiental, APP) que limitam o aproveitamento de terrenos e, por consequência, o potencial construtivo e a base venal em SP. Texto consolidado do Planalto capturado 2026-07-19; em vigor. dominio COMPARTILHADO (moldura ambiental que toca os dois domínios). revisado_por_humano=false."
- },
- "remissoes": [
-  {
-   "norma": "Constituição Federal, art. 225",
-   "relacao": "fundamento constitucional do direito ao meio ambiente equilibrado"
+  "dispositivos_chave": [
+    "Art. 2: princípios da Política Nacional do Meio Ambiente",
+    "Art. 3: definições (meio ambiente, degradação, poluição, poluidor, recursos ambientais)",
+    "Art. 6: SISNAMA - Sistema Nacional do Meio Ambiente (órgãos)",
+    "Art. 9: instrumentos da PNMA (licenciamento, zoneamento ambiental, avaliação de impacto, padrões de qualidade)",
+    "Art. 14 §1: responsabilidade OBJETIVA do poluidor por dano ambiental (independe de culpa)"
+  ],
+  "vigencia": {
+    "inicio": "1981-08-31",
+    "fim": null,
+    "em_vigor": true,
+    "altera": [],
+    "alterada_por": [
+      "Diversas leis federais posteriores (texto consolidado do Planalto/ccivil_03)"
+    ],
+    "revogada_por": null,
+    "observacao": "Lei federal-quadro do meio ambiente (PNMA). Moldura FEDERAL das restrições ambientais (licenciamento, zoneamento ambiental, APP) que limitam o aproveitamento de terrenos e, por consequência, o potencial construtivo e a base venal em SP. Texto consolidado do Planalto capturado 2026-07-19; em vigor. dominio COMPARTILHADO (moldura ambiental que toca os dois domínios). revisado_por_humano=false."
   },
-  {
-   "norma": "Lei 11.428/2006 (Mata Atlântica)",
-   "relacao": "norma especial do bioma que incide sobre todo o Município de SP"
-  }
- ],
- "jurisprudencia_relacionada": [],
- "tem_tabela": false,
- "tabelas_extraidas": [],
- "tem_formula": false,
- "formulas_referenciadas": [],
- "fonte": {
-  "origem": "Planalto (ccivil_03) - texto consolidado federal",
-  "path": "_entrada/misto/lei-federal-6938-1981.txt",
-  "url": "https://www.planalto.gov.br/ccivil_03/leis/l6938.htm",
-  "ocr": false,
-  "metodo": "VERBATIM INTEGRAL (portal oficial, texto compilado); captura 2026-07-19 (texto consolidado federal do Planalto/ccivil_03, latin-1); promovido de _entrada/misto/",
-  "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior.",
-  "hash": "sha256:c7f93052405a030bb119c17a3137cd576d3b71aed9771689c1b62d02570489f7",
-  "hash_alvo": "_entrada/misto/lei-federal-6938-1981.txt"
- },
- "status_pipeline": "bruto",
- "confianca_extracao": "alta",
- "revisado_por_humano": false,
- "dominio_primario": "compartilhado",
- "dominio": [
-  "compartilhado"
- ]
+  "remissoes": [
+    {
+      "norma": "Constituição Federal, art. 225",
+      "relacao": "fundamento constitucional do direito ao meio ambiente equilibrado"
+    },
+    {
+      "norma": "Lei 11.428/2006 (Mata Atlântica)",
+      "relacao": "norma especial do bioma que incide sobre todo o Município de SP"
+    }
+  ],
+  "jurisprudencia_relacionada": [],
+  "tem_tabela": false,
+  "tabelas_extraidas": [],
+  "tem_formula": false,
+  "formulas_referenciadas": [],
+  "fonte": {
+    "origem": "Planalto (ccivil_03) - texto consolidado federal",
+    "path": "_entrada/misto/lei-federal-6938-1981.txt",
+    "url": "https://www.planalto.gov.br/ccivil_03/leis/l6938.htm",
+    "ocr": false,
+    "metodo": "VERBATIM INTEGRAL (portal oficial, texto compilado); captura 2026-07-19 (texto consolidado federal do Planalto/ccivil_03, latin-1); promovido de _entrada/misto/",
+    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior.",
+    "hash": "sha256:c7f93052405a030bb119c17a3137cd576d3b71aed9771689c1b62d02570489f7",
+    "hash_alvo": "_entrada/misto/lei-federal-6938-1981.txt"
+  },
+  "status_pipeline": "indexado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "dominio_primario": "compartilhado",
+  "dominio": [
+    "compartilhado"
+  ]
 }

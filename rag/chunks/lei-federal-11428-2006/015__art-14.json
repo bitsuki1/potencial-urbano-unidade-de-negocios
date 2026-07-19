@@ -1,0 +1,50 @@
+{
+  "chunk_id": "lei-federal-11428-2006::015-art-14",
+  "lei_id": "lei-federal-11428-2006",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 14",
+  "numero": "14",
+  "header_raw": "Art. 14. A supressão de vegetação primária e secundária no estágio avançado de regeneração somente poderá ser autorizada em caso de utilidade pública, sendo que a vegetação secundária em estágio médio de regeneração poderá ser suprimida nos casos de utilidade pública e interesse social, em todos os casos devidamente caracterizados e motivados em procedimento administrativo próprio, quando inexistir alternativa técnica e locacional ao empreendimento proposto, ressalvado o disposto no inciso I do art. 30 e nos §§ 1º e 2º do art. 31 desta Lei.",
+  "caminho_hierarquico": [
+    "TÍTULO II",
+    "Art. 14"
+  ],
+  "texto": "Art. 14. A supressão de vegetação primária e secundária no estágio avançado de regeneração somente poderá ser autorizada em caso de utilidade pública, sendo que a vegetação secundária em estágio médio de regeneração poderá ser suprimida nos casos de utilidade pública e interesse social, em todos os casos devidamente caracterizados e motivados em procedimento administrativo próprio, quando inexistir alternativa técnica e locacional ao empreendimento proposto, ressalvado o disposto no inciso I do art. 30 e nos §§ 1º e 2º do art. 31 desta Lei.\n\n§ 1º A supressão de que trata o caput deste artigo dependerá de autorização do órgão ambiental estadual competente, com anuência prévia, quando couber, do órgão federal ou municipal de meio ambiente, ressalvado o disposto no § 2º deste artigo.\n\n(Revogado pela Lei nº 15.190, de 2025)\n\nVigência\n\n§ 2º A supressão de vegetação no estágio médio de regeneração situada em área urbana dependerá de autorização do órgão ambiental municipal competente, desde que o município possua conselho de meio ambiente, com caráter deliberativo e plano diretor, mediante anuência prévia do órgão ambiental estadual competente fundamentada em parecer técnico.\n\n(Revogado pela Lei nº 15.190, de 2025)\n\nVigência\n\n§ 3º Na proposta de declaração de utilidade pública disposta na alínea\n\nb\n\ndo inciso VII do art. 3º desta Lei, caberá ao proponente indicar de forma detalhada a alta relevância e o interesse nacional.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 11.428/2006 — Brasil",
+    "dispositivo": "TÍTULO II › Art. 14",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11428.htm",
+    "vigencia": {
+      "inicio": "2006-12-22",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Texto consolidado do Planalto/ccivil_03"
+      ],
+      "revogada_por": null,
+      "observacao": "Lei federal do Bioma Mata Atlântica. São Paulo está integralmente no bioma; os arts. 30-32 disciplinam a supressão de vegetação secundária em área urbana, condicionando o licenciamento e o aproveitamento de terrenos com vegetação (afeta potencial construtivo e uso). Texto consolidado do Planalto capturado 2026-07-19; em vigor. dominio COMPARTILHADO. revisado_por_humano=false."
+    }
+  },
+  "tema": [
+    "mata_atlantica",
+    "vegetacao_nativa",
+    "protecao_ambiental",
+    "licenciamento_ambiental",
+    "supressao_vegetacao_area_urbana"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre a utilização e proteção da vegetação nativa do Bioma Mata Atlântica, e dá outras providências."
+}

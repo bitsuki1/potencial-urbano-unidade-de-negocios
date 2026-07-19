@@ -1,0 +1,52 @@
+{
+  "chunk_id": "lei-federal-6938-1981::010-art-7o",
+  "lei_id": "lei-federal-6938-1981",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 7º",
+  "numero": "7",
+  "header_raw": "Art. 7º O Conselho Superior do Meio Ambiente - CSMA tem por finalidade",
+  "caminho_hierarquico": [
+    "Art. 7º"
+  ],
+  "texto": "Art. 7º O Conselho Superior do Meio Ambiente - CSMA tem por finalidade\n\nassessorar o Presidente da República na formalização da Política Nacional e das\n\ndiretrizes governamentais para o meio ambiente e os recursos ambientais. (Redação dada pela Lei nº 7.804, de 1989)\n\n(Revogado pela Lei nº 8.028, de 1990)\n\n§ 1º O Conselho Superior do Meio Ambiente - CSMA é presidido pelo Presidente da República, que o convocará pelo menos 2 (duas)\n\nvezes ao ano. (Incluído pela Lei nº 7.804, de 1989)\n\n(Revogado pela Lei nº 8.028, de 1990)\n\n§ 2º São membros do Conselho Superior do\n\nMeio Ambiente - CSMA: (Incluído pela Lei nº 7.804, de 1989)\n\n(Revogado pela Lei nº 8.028, de 1990)\n\nI - o Ministro da Justiça; (Incluído pela Lei nº 7.804, de 1989)\n\n(Revogado pela Lei nº 8.028, de 1990)\n\nII - o Ministro da Marinha; (Incluído pela Lei nº 7.804, de 1989)\n\n(Revogado pela Lei nº 8.028, de 1990)\n\nIII - o Ministro das Relações Exteriores; (Incluído pela Lei nº 7.804, de 1989)\n\n(Revogado pela Lei nº 8.028, de 1990)\n\nIV - o Ministro da Fazenda; (Incluído pela Lei nº 7.804, de 1989)\n\n(Revogado pela Lei nº 8.028, de 1990)\n\nV - o Ministro dos Transportes; (Incluído pela Lei nº 7.804, de 1989)\n\n(Revogado pela Lei nº 8.028, de 1990)\n\nVI - o Ministro da Agricultura; (Incluído pela Lei nº 7.804, de 1989)\n\n(Revogado pela Lei nº 8.028, de 1990)\n\nVII - o Ministro da Educação; (Incluído pela Lei nº 7.804, de 1989)\n\n(Revogado pela Lei nº 8.028, de 1990)\n\nVIII - o Ministro do Trabalho; (Incluído pela Lei nº 7.804, de 1989)\n\n(Revogado pela Lei nº 8.028, de 1990)\n\nIX - o Ministro da Saúde; (Incluído pela Lei nº 7.804, de 1989)\n\n(Revogado pela Lei nº 8.028, de 1990)\n\nX - o Ministro das Minas e Energia; (Incluído pela Lei nº 7.804, de 1989)\n\n(Revogado pela Lei nº 8.028, de 1990)\n\nXI - o Ministro do Interior; (Incluído pela Lei nº 7.804, de 1989)\n\n(Revogado pela Lei nº 8.028, de 1990)\n\nXII - o Ministro do Planejamento; (Incluído pela Lei nº 7.804, de 1989)\n\n(Revogado pela Lei nº 8.028, de 1990)\n\nXIII - o Ministro da Cultura; (Incluído pela Lei nº 7.804, de 1989)\n\n(Revogado pela Lei nº 8.028, de 1990)\n\nXIV - o Secretário Especial de Ciência e\n\nTecnologia; (Incluído pela Lei nº 7.804, de 1989)\n\n(Revogado pela Lei nº 8.028, de 1990)\n\nXV - o Representante do Ministério Público\n\nFederal; (Incluído pela Lei nº 7.804, de 1989)\n\n(Revogado pela Lei nº 8.028, de 1990)\n\nXVI - o Representante da Sociedade Brasileira\n\npara o Progresso da Ciência - SBPC; (Incluído pela Lei nº 7.804, de 1989)\n\n(Revogado pela Lei nº 8.028, de 1990)\n\nXVII - 3 (três) representantes do Poder\n\nLegislativo Federal; (Incluído pela Lei nº 7.804, de 1989)\n\n(Revogado pela Lei nº 8.028, de 1990)\n\nXVIII - 5 (cinco) cidadãos brasileiros\n\nindicados pelo conjunto das entidades ambientalistas não governamentais. (Incluído pela Lei nº 7.804, de 1989)\n\n(Revogado pela Lei nº 8.028, de 1990)\n\n§ 3º Poderão participar das reuniões do\n\nConselho Superior do Meio Ambiente - CSMA, sem direito a voto, pessoas especialmente\n\nconvidadas pelo seu Presidente.\n\n(Incluído pela Lei nº 7.804,\n\nde 1989)\n\n(Revogado pela Lei nº 8.028, de 1990)\n\n§ 4º A participação no Conselho Superior do\n\nMeio Ambiente - CSMA é considerada como de relevante interesse público e não será\n\nremunerada. (Incluído pela Lei nº 7.804, de 1989)\n\n(Revogado pela Lei nº 8.028, de 1990)\n\n§ 5º. O Ministro do Interior é, sem\n\nprejuízo de suas funções, Secretário-Executivo do Conselho Superior do Meio Ambiente - CSMA. (Incluído pela Lei nº 7.804, de 1989) (Revogado pela Lei nº 8.028, de 1990)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "1989",
+    "norma_redacao": "Lei nº 7.804, de 1989"
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 6.938/1981 — Brasil",
+    "dispositivo": "Art. 7º",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6938.htm",
+    "vigencia": {
+      "inicio": "1981-08-31",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (texto consolidado do Planalto/ccivil_03)"
+      ],
+      "revogada_por": null,
+      "observacao": "Lei federal-quadro do meio ambiente (PNMA). Moldura FEDERAL das restrições ambientais (licenciamento, zoneamento ambiental, APP) que limitam o aproveitamento de terrenos e, por consequência, o potencial construtivo e a base venal em SP. Texto consolidado do Planalto capturado 2026-07-19; em vigor. dominio COMPARTILHADO (moldura ambiental que toca os dois domínios). revisado_por_humano=false."
+    }
+  },
+  "tema": [
+    "politica_ambiental",
+    "meio_ambiente",
+    "licenciamento_ambiental",
+    "zoneamento_ambiental",
+    "responsabilidade_ambiental",
+    "sisnama"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre a Política Nacional do Meio Ambiente, seus fins e mecanismos de formulação e aplicação, e dá outras providências."
+}

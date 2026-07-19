@@ -1,0 +1,50 @@
+{
+  "chunk_id": "lei-federal-6938-1981::004-art-2o",
+  "lei_id": "lei-federal-6938-1981",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 2º",
+  "numero": "2",
+  "header_raw": "Art 2º - A",
+  "caminho_hierarquico": [
+    "Art. 2º"
+  ],
+  "texto": "Art 2º - A\n\nPolítica Nacional do Meio Ambiente tem por objetivo a preservação, melhoria e\n\nrecuperação da qualidade ambiental propícia à vida, visando assegurar, no País,\n\ncondições ao desenvolvimento sócio-econômico, aos interesses da segurança nacional e\n\nà proteção da dignidade da vida humana, atendidos os seguintes princípios:\n\nI - ação\n\ngovernamental na manutenção do equilíbrio ecológico, considerando o meio ambiente como\n\num patrimônio público a ser necessariamente assegurado e protegido, tendo em vista o uso\n\ncoletivo;\n\nII -\n\nracionalização do uso do solo, do subsolo, da água e do ar;\n\nIll -\n\nplanejamento e fiscalização do uso dos recursos ambientais;\n\nIV - proteção\n\ndos ecossistemas, com a preservação de áreas representativas;\n\nV - controle e\n\nzoneamento das atividades potencial ou efetivamente poluidoras;\n\nVI - incentivos\n\nao estudo e à pesquisa de tecnologias orientadas para o uso racional e a proteção dos\n\nrecursos ambientais;\n\nVII -\n\nacompanhamento do estado da qualidade ambiental;\n\nVIII -\n\nrecuperação de áreas degradadas;\n\n(Regulamento)\n\nIX - proteção\n\nde áreas ameaçadas de degradação;\n\nX - educação\n\nambiental a todos os níveis de ensino, inclusive a educação da comunidade, objetivando\n\ncapacitá-la para participação ativa na defesa do meio ambiente.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 6.938/1981 — Brasil",
+    "dispositivo": "Art. 2º",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6938.htm",
+    "vigencia": {
+      "inicio": "1981-08-31",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (texto consolidado do Planalto/ccivil_03)"
+      ],
+      "revogada_por": null,
+      "observacao": "Lei federal-quadro do meio ambiente (PNMA). Moldura FEDERAL das restrições ambientais (licenciamento, zoneamento ambiental, APP) que limitam o aproveitamento de terrenos e, por consequência, o potencial construtivo e a base venal em SP. Texto consolidado do Planalto capturado 2026-07-19; em vigor. dominio COMPARTILHADO (moldura ambiental que toca os dois domínios). revisado_por_humano=false."
+    }
+  },
+  "tema": [
+    "politica_ambiental",
+    "meio_ambiente",
+    "licenciamento_ambiental",
+    "zoneamento_ambiental",
+    "responsabilidade_ambiental",
+    "sisnama"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre a Política Nacional do Meio Ambiente, seus fins e mecanismos de formulação e aplicação, e dá outras providências."
+}

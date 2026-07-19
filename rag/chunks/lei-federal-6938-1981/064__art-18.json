@@ -1,0 +1,50 @@
+{
+  "chunk_id": "lei-federal-6938-1981::064-art-18",
+  "lei_id": "lei-federal-6938-1981",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 18",
+  "numero": "18",
+  "header_raw": "Art 18 -",
+  "caminho_hierarquico": [
+    "Art. 18"
+  ],
+  "texto": "Art 18 -\n\nSão transformadas em reservas ou estações ecológicas, sob a responsabilidade da SEMA,\n\nas florestas e as demais formas de vegetação natural de preservação permanente,\n\nrelacionadas no art. 2º da Lei nº 4.771, de 15 de setembro de 1965 - Código Florestal,\n\ne os pousos das aves de arribação protegidas por convênios, acordos ou tratados\n\nassinados pelo Brasil com outras nações.\n\n(Vide Decreto nº 97.718, de\n\n1989) (Revogado pela Lei nº 9.985, de 2000)\n\nParágrafo\n\núnico - As pessoas físicas ou jurídicas que, de qualquer modo, degradarem reservas ou\n\nestações ecológicas, bem como outras áreas declaradas como de relevante interesse\n\necológico, estão sujeitas às penalidades previstas no art. 14 desta Lei. (Revogado\n\npela Lei nº 9.985, de 2000)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 6.938/1981 — Brasil",
+    "dispositivo": "Art. 18",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6938.htm",
+    "vigencia": {
+      "inicio": "1981-08-31",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (texto consolidado do Planalto/ccivil_03)"
+      ],
+      "revogada_por": null,
+      "observacao": "Lei federal-quadro do meio ambiente (PNMA). Moldura FEDERAL das restrições ambientais (licenciamento, zoneamento ambiental, APP) que limitam o aproveitamento de terrenos e, por consequência, o potencial construtivo e a base venal em SP. Texto consolidado do Planalto capturado 2026-07-19; em vigor. dominio COMPARTILHADO (moldura ambiental que toca os dois domínios). revisado_por_humano=false."
+    }
+  },
+  "tema": [
+    "politica_ambiental",
+    "meio_ambiente",
+    "licenciamento_ambiental",
+    "zoneamento_ambiental",
+    "responsabilidade_ambiental",
+    "sisnama"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre a Política Nacional do Meio Ambiente, seus fins e mecanismos de formulação e aplicação, e dá outras providências."
+}

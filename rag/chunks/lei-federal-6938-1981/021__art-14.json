@@ -1,0 +1,50 @@
+{
+  "chunk_id": "lei-federal-6938-1981::021-art-14",
+  "lei_id": "lei-federal-6938-1981",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 14",
+  "numero": "14",
+  "header_raw": "Art 14 - Sem",
+  "caminho_hierarquico": [
+    "Art. 14"
+  ],
+  "texto": "Art 14 - Sem\n\nprejuízo das penalidades definidas pela legislação federal, estadual e municipal, o\n\nnão cumprimento das medidas necessárias à preservação ou correção dos\n\ninconvenientes e danos causados pela degradação da qualidade ambiental sujeitará os\n\ntransgressores:\n\nI - à multa\n\nsimples ou diária, nos valores correspondentes, no mínimo, a 10 (dez) e, no máximo, a\n\n1.000 (mil) Obrigações Reajustáveis do Tesouro Nacional - ORTNs, agravada em casos de\n\nreincidência específica, conforme dispuser o regulamento, vedada a sua cobrança pela\n\nUnião se já tiver sido aplicada pelo Estado, Distrito Federal, Territórios ou pelos\n\nMunicípios.\n\nII - à perda ou\n\nrestrição de incentivos e benefícios fiscais concedidos pelo Poder Público;\n\nIII - à perda\n\nou suspensão de participação em linhas de financiamento em estabelecimentos oficiais de\n\ncrédito;\n\nIV - à\n\nsuspensão de sua atividade.\n\n§ 1º - Sem\n\nobstar a aplicação das penalidades previstas neste artigo, é o poluidor obrigado,\n\nindependentemente da existência de culpa, a indenizar ou reparar os danos causados ao\n\nmeio ambiente e a terceiros, afetados por sua atividade. O Ministério Público da União\n\ne dos Estados terá legitimidade para propor ação de responsabilidade civil e criminal,\n\npor danos causados ao meio ambiente.\n\n§ 2º - No caso\n\nde omissão da autoridade estadual ou municipal, caberá ao Secretário do Meio Ambiente a\n\naplicação das penalidades pecuniárias previstas neste artigo.\n\n§ 3º - Nos\n\ncasos previstos nos incisos II e III deste artigo, o ato declaratório da perda,\n\nrestrição ou suspensão será atribuição da autoridade administrativa ou financeira\n\nque concedeu os benefícios, incentivos ou financiamento, cumprindo resolução do CONAMA.\n\n§ 4º Nos casos de poluição provocada pelo derramamento\n\nou lançamento de detritos ou óleo em águas brasileiras, por embarcações e terminais\n\nmarítimos ou fluviais, prevalecerá o disposto na Lei nº 5.357, de 17 de novembro de\n\n1967. (Revogado\n\npela Lei nº 9.966, de 2000)\n\n§ 5o A execução das garantias exigidas do\n\npoluidor não impede a aplicação das obrigações de indenização e reparação de\n\ndanos previstas no § 1o deste artigo. (Incluído pela Lei nº 11.284, de 2006)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 6.938/1981 — Brasil",
+    "dispositivo": "Art. 14",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6938.htm",
+    "vigencia": {
+      "inicio": "1981-08-31",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (texto consolidado do Planalto/ccivil_03)"
+      ],
+      "revogada_por": null,
+      "observacao": "Lei federal-quadro do meio ambiente (PNMA). Moldura FEDERAL das restrições ambientais (licenciamento, zoneamento ambiental, APP) que limitam o aproveitamento de terrenos e, por consequência, o potencial construtivo e a base venal em SP. Texto consolidado do Planalto capturado 2026-07-19; em vigor. dominio COMPARTILHADO (moldura ambiental que toca os dois domínios). revisado_por_humano=false."
+    }
+  },
+  "tema": [
+    "politica_ambiental",
+    "meio_ambiente",
+    "licenciamento_ambiental",
+    "zoneamento_ambiental",
+    "responsabilidade_ambiental",
+    "sisnama"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre a Política Nacional do Meio Ambiente, seus fins e mecanismos de formulação e aplicação, e dá outras providências."
+}
