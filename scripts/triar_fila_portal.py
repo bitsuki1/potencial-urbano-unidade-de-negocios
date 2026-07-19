@@ -67,7 +67,9 @@ def main():
         if not info:
             w.writerow({**base_row(r), "status": "sem_data", "slug": ""}); f.flush(); continue
         tipo, dia, mes, ano = info
-        slug = f"{tipo}-{r['numero']}-de-{dia}-de-{mes}-de-{ano}"
+        # o portal EXIGE o dia com 2 dígitos no slug: `de-07-de-julho` funciona, `de-7-de-julho`
+        # devolve só o shell do catálogo (bug que causou os 6 slug-fails da Etapa D — PU 22, 2026-07-19).
+        slug = f"{tipo}-{r['numero']}-de-{dia:02d}-de-{mes}-de-{ano}"
         row = {**base_row(r), "slug": slug}
         try:
             raw, final = baixar(slug)
