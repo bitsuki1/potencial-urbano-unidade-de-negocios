@@ -138,12 +138,15 @@ def _precificar(r, saldo, vendido_bloqueado, pend, n):
 
 def main():
     iptu = {r["sql_mestre"]: r for r in csv.DictReader(open(AQUI / "oficial/iptu2026_cedentes.csv", encoding="utf-8"))}
-    # VTcd vigente = Quadro 14 ano-ref 2026 (Dec. 64.884/2025, +7,18% uniforme sobre o ano-ref 2025
-    # oficial — gerado por pipeline/reajuste_q14_2026.py; base legal no docstring desse gerador).
-    # Supersede o ano-ref 2025 (Dec. 63.999/2024) a partir do exercício 2026 (1.6 vigência). O arquivo
-    # oficial/q14_cedentes_2025.csv fica no repo para auditoria da vigência anterior.
+    # VTcd vigente = Quadro 14 ano-ref 2026, valor NOMINAL PRIMÁRIO do Anexo I da Portaria SMUL 8/2026,
+    # re-extraído verbatim do PDF oficial do Drive (pipeline/recorte_q14_anexo2026.py; 179.591 faces,
+    # 294 setores 001→310). Por 1.3/1.8, a fonte é o primário — não mais o derivado 2025×1,0718
+    # (reajuste_q14_2026.py), que a reconciliação provou fiel dentro de R$0,01 (zepec/oficial/q14_recon_2026.md)
+    # e agora fica só para auditoria, junto do ano-ref 2025 (1.6 vigência). O primário ainda destrava faces
+    # que o derivado não tinha (846 SQs de cedentes cobertos; resíduo declarado no recon: 47 SQs estruturais
+    # quadra-000/9xx sem face de outorga + 2 quadras reais 050216/090479 ausentes da própria Portaria).
     q14 = {(r["sq"], norm_codlog(r["codlog"])): r["valor_m2_brl"]
-           for r in csv.DictReader(open(AQUI / "oficial/q14_cedentes_2026.csv", encoding="utf-8"))}
+           for r in csv.DictReader(open(AQUI / "oficial/q14_cedentes_2026_oficial.csv", encoding="utf-8"))}
     # G4 — Decreto 57.536/2016 Art. 3º IV: lotes com frente para distintas faces da mesma quadra
     # usam o MAIOR valor do Q14. Agrupa por SQ para calcular max.
     q14_por_sq = defaultdict(list)
