@@ -35,9 +35,9 @@
     "uso_ocupacao_solo"
   ],
   "dominio": [
-    "compartilhado"
+    "iptu"
   ],
-  "dominio_primario": "compartilhado",
+  "dominio_primario": "iptu",
   "jurisdicao": "São Paulo/SP",
   "ementa": "Regulamenta a concessão da Bonificação por Resultados - BR, instituída pela Lei nº 17.224, de 31 de outubro de 2019, aos agentes públicos municipais, na forma e condições que especifica."
 }

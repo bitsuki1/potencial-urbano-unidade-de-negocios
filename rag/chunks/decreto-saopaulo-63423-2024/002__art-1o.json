@@ -35,9 +35,9 @@
     "uso_ocupacao_solo"
   ],
   "dominio": [
-    "compartilhado"
+    "iptu"
   ],
-  "dominio_primario": "compartilhado",
+  "dominio_primario": "iptu",
   "jurisdicao": "São Paulo/SP",
   "ementa": "Aprova a Carta Geotécnica de Aptidão à Urbanização do Município de São Paulo de 2024 - CGAU/MSP, para fins de atualização e aprimoramento técnico das informações constantes da Carta Geotécnica do Município de São Paulo de 1992, e dá outras providências."
 }

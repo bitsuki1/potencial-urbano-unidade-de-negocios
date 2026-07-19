@@ -33,9 +33,9 @@
     "uso_ocupacao_solo"
   ],
   "dominio": [
-    "compartilhado"
+    "iptu"
   ],
-  "dominio_primario": "compartilhado",
+  "dominio_primario": "iptu",
   "jurisdicao": "São Paulo/SP",
   "ementa": "Institui a Política Municipal de Segurança Hídrica e Gestão das Águas, no âmbito do Município de São Paulo."
 }

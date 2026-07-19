@@ -36,9 +36,9 @@
     "uso_ocupacao_solo"
   ],
   "dominio": [
-    "compartilhado"
+    "iptu"
   ],
-  "dominio_primario": "compartilhado",
+  "dominio_primario": "iptu",
   "jurisdicao": "São Paulo/SP",
   "ementa": "Regulamenta o controle de ruídos na execução das obras de construção civil no Município de São Paulo."
 }

@@ -36,9 +36,9 @@
     "habitacao_interesse_social"
   ],
   "dominio": [
-    "compartilhado"
+    "iptu"
   ],
-  "dominio_primario": "compartilhado",
+  "dominio_primario": "iptu",
   "jurisdicao": "São Paulo/SP",
   "ementa": "Define os valores de renda familiar para atendimento por Habitação de Interesse Social – HIS e Habitação de Mercado Popular – HMP, nos termos do parágrafo único do artigo 46 da Lei nº 16.050, de 31 de julho de 2014."
 }
