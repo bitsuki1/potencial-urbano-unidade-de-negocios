@@ -1,0 +1,28 @@
+{
+  "id": "decreto-estadual-sp-59263-2013",
+  "tipo_norma": "decreto",
+  "esfera": "estadual",
+  "jurisdicao": "São Paulo (Estado)",
+  "numero": "59263",
+  "ano": 2013,
+  "ementa": "Regulamenta a Lei estadual nº 13.577/2009 (proteção da qualidade do solo e gerenciamento de áreas contaminadas).",
+  "tema": [
+    "solo_contaminado",
+    "meio_ambiente_estadual"
+  ],
+  "vigencia": {
+    "inicio": "2013-06-05",
+    "fim": null,
+    "regula": "Lei estadual 13.577/2009"
+  },
+  "fonte": {
+    "origem": "al.sp.gov.br",
+    "url": "https://www.al.sp.gov.br/repositorio/legislacao/decreto/2013/decreto-59263-05.06.2013.html",
+    "hash_sha256": "eb7f3b279fe8b3b6f9048d7f2257527c77f6f8ec8721f755050aca7d946d56a4",
+    "ocr": false
+  },
+  "no_corpus": false,
+  "motivo_fora_do_corpus": "Norma ESTADUAL (solo contaminado), não municipal de IPTU/TDC — decisão do dono: documentar, não usar. Excluída do RAG para não poluir o retrieval municipal.",
+  "status_pipeline": "documentado_fora_do_corpus",
+  "revisado_por_humano": false
+}
