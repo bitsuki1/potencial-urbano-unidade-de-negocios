@@ -1,0 +1,52 @@
+{
+  "chunk_id": "decreto-saopaulo-57776-2017::027-art-26",
+  "lei_id": "decreto-saopaulo-57776-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 26",
+  "numero": "26",
+  "header_raw": "Art. 26. As edificações existentes que se enquadrarem nos incisos I e II do artigo 40 do COE devem requerer perante os órgãos competentes, no âmbito das suas competências, o Certificado de Acessibilidade.",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção II",
+    "Art. 26"
+  ],
+  "texto": "Art. 26. As edificações existentes que se enquadrarem nos incisos I e II do artigo 40 do COE devem requerer perante os órgãos competentes, no âmbito das suas competências, o Certificado de Acessibilidade.\n\n§ 1º Estão dispensadas de Certificado de Acessibilidade as edificações que tenham:\n\nI - Certificado de Conclusão emitido com fundamento na Lei nº 11.228, de 25 de junho de 1992, ou legislação posterior; ou\n\nII - Certificado de Acessibilidade válido.\n\n§ 2º O Certificado de Acessibilidade não substitui qualquer outro documento expedido pela Prefeitura, destinado a comprovar a regularidade da edificação.\n\n§ 3º O Certificado de Acessibilidade deverá ser requerido em processo próprio, previamente ou simultaneamente aos pedidos de Certificado de Segurança ou Alvará de Funcionamento de Local de Reunião.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.776/2017 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção II › Art. 26",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57776-de-07-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 16.642, de 9 de maio de 2017, que aprovou o Código de Obras e Edificações do Município de São Paulo; define os membros da Comissão de Edificações e Uso do Solo – CEUSO."
+}

@@ -1,0 +1,44 @@
+{
+  "chunk_id": "decreto-saopaulo-59671-2020::005-art-4o",
+  "lei_id": "decreto-saopaulo-59671-2020",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 4º",
+  "numero": "4",
+  "header_raw": "Art. 4º As calçadas deverão ser prioritariamente organizadas em 3 (três) faixas, de acordo com sua largura total e em conformidade com o Anexo I deste decreto, devendo ser compostas dos seguintes elementos:",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 4º"
+  ],
+  "texto": "Art. 4º As calçadas deverão ser prioritariamente organizadas em 3 (três) faixas, de acordo com sua largura total e em conformidade com o Anexo I deste decreto, devendo ser compostas dos seguintes elementos:\n\nI - faixa livre, destinada exclusivamente à livre circulação de pedestres, que deverá atender às seguintes características:\n\na) ter superfície regular, firme, contínua, antiderrapante e que não cause trepidação em dispositivos com rodas sob qualquer condição;\n\nb) ter inclinação longitudinal acompanhando a topografia da rua;\n\nc) ter inclinação transversal constante e não superior a 3% (três por cento);\n\nd) ser livre de qualquer interferência ou barreira arquitetônica e desprovida de obstáculos, equipamentos de infraestrutura urbana, mobiliário, vegetação, rebaixamento de guias para acesso de veículos ou qualquer outro tipo de interferência permanente ou temporária;\n\ne) ter altura livre de interferências construtivas de, no mínimo, 3m (três metros) do nível da calçada e de interferências de instalações públicas, tais como placas de sinalização, abas ou coberturas de mobiliário urbano e toldos retráteis, de, no mínimo, 2,10m (dois metros e dez centímetros) do nível da calçada;\n\nf) preferencialmente, destacar-se visualmente na calçada em relação às outras faixas, por meio de cores, texturas, juntas de dilatação ou materiais autorizados por este decreto, ou por portaria da Secretaria Municipal das Subprefeituras;\n\ng) ter largura mínima de 1,20m (um metro e vinte centímetros), respeitadas as Normas Técnicas de Acessibilidade da ABNT - Associação Brasileira de Normas Técnicas;\n\nh) corresponder a, no mínimo, 50% (cinquenta por cento) da largura total da calçada, quando esta tiver mais de 2,40m (dois metros e quarenta centímetros) de largura;\n\nII - faixa de serviço, destinada a acomodar o mobiliário urbano, a vegetação e os postes de iluminação ou sinalização, que deverá atender às seguintes características:\n\na) deve situar-se em posição adjacente à guia, exceto em situações atípicas, mediante autorização da Subprefeitura;\n\nb) poderá receber rampa ou inclinação associada ao rebaixamento de guia para fins de acesso de veículos em edificações, postos de combustíveis e similares;\n\nc) ter largura mínima de 70cm (setenta centímetros);\n\nIII - faixa de acesso, destinada à acomodação das interferências resultantes da implantação, do uso e da ocupação das edificações, exclusivamente nas calçadas com mais de 2m (dois metros) de largura, que poderá conter:\n\na) áreas de permeabilidade e vegetação, desde que atendam aos critérios de implantação dispostos no Capítulo X deste decreto;\n\nb) implantação de acesso a estacionamento em recuo frontal, desde que respeitada a faixa de transição entre o alinhamento do imóvel e a faixa livre, com inclinação transversal máxima de 8,33% (oito vírgula trinta e três por cento) e, caso exista um degrau separador entre o estacionamento e a faixa de acesso, este possua até 5cm (cinco centímetros) de desnível, nas calçadas de imóveis já existentes e regularizados até a data de publicação do Decreto nº 57.776, de 7 de julho de 2017;\n\nc) elementos de mobiliário temporário, tais como mesas, cadeiras e toldos, obedecidas às disposições das Leis nº 12.002, de 23 de janeiro de 1996, e nº 12.260, de 11 de dezembro de 1996;\n\nd) rampa de acomodação para acesso ao imóvel com inclinação transversal máxima de 8,33% (oito vírgula trinta e três por cento).\n\n§ 1º Nas situações onde não for possível a organização das calçadas em 3 (três) faixas em razão de sua largura total ser insuficiente, as calçadas poderão ser organizadas em 2 (duas) faixas, mantendo-se a observância da conformidade com o Anexo I deste decreto, e devendo ser compostas dos mesmos elementos elencados nos incisos I e II, e respectivas alíneas, do “caput” deste artigo.\n\n§ 2º A largura total das calçadas é medida a partir do alinhamento do lote até o bordo externo da guia.\n\n§ 3º A implantação de ciclofaixa ou compartilhamento da calçada, nos termos da Lei n° 16.885, de 16 de abril de 2018, será excepcionalmente admitida nas calçadas com largura mínima de 2,90m (dois metros e noventa centímetros), desde que preservada a faixa livre de 1,20m (um metro e vinte centímetros), dispensada a observância do disposto no inciso I, alínea “h”, deste artigo.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 59.671/2020 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Art. 4º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59671-de-7-de-agosto-de-2020",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "regularizacao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Consolida os critérios para a padronização das calçadas, bem como regulamenta o disposto nos incisos VII e VIII do “caput” do artigo 240 do Plano Diretor Estratégico, o Capítulo III da Lei nº 15.442, de 9 de setembro de 2011, e a Lei nº 13.293, de 14 de janeiro de 2002."
+}

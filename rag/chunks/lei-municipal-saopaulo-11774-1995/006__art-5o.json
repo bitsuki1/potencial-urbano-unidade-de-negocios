@@ -1,0 +1,48 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-11774-1995::006-art-5o",
+  "lei_id": "lei-municipal-saopaulo-11774-1995",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 5º",
+  "numero": "5",
+  "header_raw": "Art. 5º A Operação Urbana Água Branca tem as seguintes diretrizes viárias, assinaladas na planta nº BE-05-1B-002, do arquivo da Empresa Municipal de Urbanização - EMURB:",
+  "caminho_hierarquico": [
+    "Art. 5º"
+  ],
+  "texto": "Art. 5º A Operação Urbana Água Branca tem as seguintes diretrizes viárias, assinaladas na planta nº BE-05-1B-002, do arquivo da Empresa Municipal de Urbanização - EMURB:\n\nI - Abertura de via entre a Avenida Francisco Matarazzo e Rua Tagipuru, com 30,00m de largura e 120,00m de extensão;\n\nII - Abertura de via em extensão a Avenida Gustavo Willi Borghoff, do Terminal Barra Funda até a Avenida Santa Marina, com 20,00m de largura e 870,00m de extensão;\n\nIII - Abertura de via em extensão a Avenida José de Nelo Lorenzon, a Sul, entre a Avenida Marquês de São Vicente e a via descrita no item anterior, com 20,00m de largura e 900,00m de extensão;\n\nIV - Abertura de via em extensão a Rua Mário de Andrade, até a Rua Carijós, com 18,00m de largura e 2.000,00m de extensão;\n\nV - Implantação de passagem de nível na Avenida Santa Marina, com 300,00m de extensão, a fim de transpor linha ferroviária da Companhia Brasileira de Trens Urbanos - CBTU e Ferrovia Paulista S.A - FEPASA;\n\nVI - Implantação de ponte sobre o Rio Tietê, em continuidade a Av. Água Preta/Pompéia, de acordo com o disposto na Lei nº 8895, de 19 de abril de 1979.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 11.774/1995 — São Paulo/SP",
+    "dispositivo": "Art. 5º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-11774-de-18-de-maio-de-1995",
+    "vigencia": {
+      "inicio": "1995-05-18",
+      "fim": "2013-11-07",
+      "em_vigor": false,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": "Lei 15.893/2013 (institui a nova OUC Água Branca; revoga a Lei 11.774/1995)",
+      "observacao": "Lei da Operação Urbana Água Branca (1995), REVOGADA por inteiro pela Lei 15.893/2013. O texto compilado do portal oficial não anota essa revogação (fonte da revogação: ementa/art. da Lei 15.893/2013, confirmada em bases secundárias). fim=2013-11-07 (publicação da 15.893). revisado_por_humano=false — vigência a confirmar contra o primário da 15.893 quando ingerida."
+    }
+  },
+  "tema": [
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Paulo Maluf, Prefeito do Município de São Paulo, usando das atribuições que lhe são conferidas por Lei;"
+}

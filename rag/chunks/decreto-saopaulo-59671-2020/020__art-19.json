@@ -1,0 +1,44 @@
+{
+  "chunk_id": "decreto-saopaulo-59671-2020::020-art-19",
+  "lei_id": "decreto-saopaulo-59671-2020",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 19",
+  "numero": "19",
+  "header_raw": "Art. 19. A instalação de mobiliário urbano nas calçadas por particulares poderá ser feita mediante autorização do órgão municipal competente, em caráter precário, nos termos do artigo 114 da Lei Orgânica do Município de São Paulo, obedecido o disposto nos artigos 21 e 23 da Lei nº 14.223, de 2006.",
+  "caminho_hierarquico": [
+    "CAPÍTULO VIII",
+    "Art. 19"
+  ],
+  "texto": "Art. 19. A instalação de mobiliário urbano nas calçadas por particulares poderá ser feita mediante autorização do órgão municipal competente, em caráter precário, nos termos do artigo 114 da Lei Orgânica do Município de São Paulo, obedecido o disposto nos artigos 21 e 23 da Lei nº 14.223, de 2006.\n\nParágrafo único. A instalação de mobiliário urbano nas calçadas deverá seguir as disposições das Normas Técnicas de Acessibilidade da ABNT - Associação Brasileira de Normas Técnicas e deste decreto, sob pena de aplicação das penalidades previstas no Anexo Único da Lei nº 15.442, de 2011.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 59.671/2020 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO VIII › Art. 19",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59671-de-7-de-agosto-de-2020",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "regularizacao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Consolida os critérios para a padronização das calçadas, bem como regulamenta o disposto nos incisos VII e VIII do “caput” do artigo 240 do Plano Diretor Estratégico, o Capítulo III da Lei nº 15.442, de 9 de setembro de 2011, e a Lei nº 13.293, de 14 de janeiro de 2002."
+}

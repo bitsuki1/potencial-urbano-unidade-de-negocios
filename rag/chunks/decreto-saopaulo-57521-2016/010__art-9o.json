@@ -1,0 +1,49 @@
+{
+  "chunk_id": "decreto-saopaulo-57521-2016::010-art-9o",
+  "lei_id": "decreto-saopaulo-57521-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 9º",
+  "numero": "9",
+  "header_raw": "Art. 9º Para fins de aplicação do artigo 67 da Lei nº 16.402, de 2016, além das disposições constantes naquela lei, devem ser observadas às seguintes disposições:",
+  "caminho_hierarquico": [
+    "Art. 9º"
+  ],
+  "texto": "Art. 9º Para fins de aplicação do artigo 67 da Lei nº 16.402, de 2016, além das disposições constantes naquela lei, devem ser observadas às seguintes disposições:\n\nI - em ZM, o alargamento dos passeios públicos é obrigatório para lotes com área superior a 10.000m² (dez mil metros quadrados);\n\nII - o alargamento do passeio público é facultativo para lotes ou glebas com área inferior ou igual a:\n\na) a 2.500 m² (dois mil e quinhentos metros quadrados) em ZC e ZCa;\n\nb) a 10.000m² (dez mil metros quadrados) em ZM;\n\nIII - o alargamento do passeio público é facultativo também:\n\na) internamente às vilas definidas no Quadro 1 da Lei nº 16.402, de 2016;\n\nb) na rua sem saída com largura inferior a 10m (dez metros);\n\nIV - fica dispensada a doação de área para alargamento dos passeios públicos nas seguintes situações:\n\na) quando o passeio existente apresentar largura igual, maior ou até 5% (cinco por cento) menor que a exigida;\n\nb) o lote remanescente após a doação não permita que a edificação atenda às exigências da Lei nº 16.402, de 2016, e do COE e da legislação correlata;\n\nc) quando se tratar de edificação existente em que a obrigação prevista no “caput” deste artigo implicar em demolição;\n\nd) quando não for atingida a área mínima de lote prevista no Quadro 2A da Lei nº 16.402, de 2016, e desde que o lote não seja objeto de parcelamento do solo nos termos da citada lei e de sua regulamentação;\n\nV - o potencial construtivo adicional previsto no § 2º do artigo 67 da Lei nº 16.402, de 2016, é o resultado da diferença entre os coeficientes de aproveitamento máximo e básico estabelecidos no Quadro 3 da citada lei para cada zona de uso, observado, quando for o caso, o disposto no seu artigo 114. (Revogado pelo Decreto nº 63.504/2024)\n\n§ 1º Fica dispensado o recuo obrigatório de frente na hipótese prevista na alínea “a” do inciso IV do “caput” deste artigo.\n\n§ 2º No caso de reforma de edificação regular nos termos do artigo 24 deste decreto, com ou sem mudança de uso, não é exigido o alargamento do passeio público quando a faixa a ser doada interferir ou implicar na demolição de edificação existente.\n\n§ 3º Não se aplica o disposto no § 2º deste artigo quando se tratar de obra complementar ou mobiliário previsto no COE e legislação complementar, exceto no caso de cabine de força ou similar.\n\n§ 4º A projeção da edificação regular pode ser mantida no caso em que o acréscimo de área implicar em doação de calçada, ainda que o cálculo da taxa de ocupação pela área de terreno remanescente ultrapasse o máximo estabelecido no Quadro 3 da Lei nº 16.402, de 2016.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.521/2016 — São Paulo/SP",
+    "dispositivo": "Art. 9º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57521-de-09-de-dezembro-de-2016",
+    "vigencia": {
+      "inicio": "2016-12-09",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a aplicação de disposições da Lei nº 16.402, de 22 de março de 2016, relativas à ocupação do solo e condições de instalação dos usos."
+}

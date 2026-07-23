@@ -1,0 +1,102 @@
+{
+  "id": "decreto-saopaulo-57299-2016",
+  "tipo_norma": "decreto",
+  "esfera": "municipal",
+  "jurisdicao": "São Paulo/SP",
+  "numero": "57.299",
+  "ano": 2016,
+  "ementa": "Regulamenta o procedimento eletrônico e simplificado para abertura, registro e alteração de empresas.",
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dispositivos_chave": [
+    "Art. 1º Este decreto regulamenta o procedimento eletrônico e simplificado para abertura, registro e alteração de empresas no Mun",
+    "Art. 2º Para fins deste decreto, considera-se:",
+    "Art. 3º Os procedimentos de competência municipal de que trata este decreto são:",
+    "Art. 4º Os órgãos e entidades municipais envolvidos, direta ou indiretamente, no processo de abertura, registro e alteração de e",
+    "Art. 5º Para abertura, registro e alteração de empresas só poderão ser exigidas as informações e declarações relacionadas direta",
+    "Art. 6º A Consulta de Viabilidade realizada de forma eletrônica deverá permitir pesquisas prévias de instalação e funcionamento,",
+    "Art. 7º O sistema municipal de Consulta de Viabilidade deverá informar ao Sistema Integrador o motivo da indisponibilidade quand",
+    "Art. 8º A resposta da Consulta de Viabilidade não significa substituição ou dispensa da necessidade de obtenção da licença corre",
+    "Art. 9º A inscrição no Cadastro de Contribuintes Mobiliários – CCM, nos casos de registros realizados pelo Sistema Integrador, a",
+    "Art. 10 . O número de inscrição no CCM, obtido por meio do Sistema Integrador, estará bloqueado enquanto não forem complementada",
+    "Art. 11 . O processo de obtenção do Auto de Licença de Funcionamento para empreendimentos considerados de baixo risco ocorrerá p",
+    "Art. 12 . O enquadramento do empreendimento como de baixo risco permite a obtenção do licenciamento da atividade mediante:",
+    "Art. 13 . Nos casos em que o empreendimento for considerado de baixo risco e a Consulta de Viabilidade apontar resultado indispo",
+    "Art. 14 . A dispensa da comprovação prévia do cumprimento de exigências para os empreendimentos considerados de baixo risco não",
+    "Art. 15 . Nos casos em que o licenciamento dos empreendimentos considerados de baixo risco identificar que a atividade a ser lic",
+    "Art. 16 . Nos casos em que o licenciamento de atividades por meio eletrônico estiver indisponível, o interessado poderá requerer",
+    "Art. 17 . Os pedidos de licença por meio físico deverão ser instruídos com o protocolo emitido pelo Sistema Integrador, sem prej",
+    "Art. 18 . O simples protocolo do pedido de licença por qualquer meio não autoriza o funcionamento da atividade.",
+    "Art. 19 . A Prefeitura deverá manter à disposição dos usuários, de forma presencial e pela rede mundial de computadores, informa",
+    "Art. 20 . Este decreto entrará em vigor 30 (trinta) dias após sua publicação.",
+    "Art. 20 . Este decreto entrará em vigor em 12 de dezembro de 2016. (Redação dada pelo Decreto nº 57.369/2016)",
+    "Art. 20 . Este decreto entrará em vigor em 28 de março de 2017. (Redação dada pelo Decreto nº 57.561/2016)"
+  ],
+  "vigencia": {
+    "inicio": "2016-12-12",
+    "fim": null,
+    "em_vigor": true,
+    "altera": [],
+    "alterada_por": [],
+    "revogada_por": null,
+    "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=True ADI=False revoga=False."
+  },
+  "remissoes": [
+    {
+      "norma": "DECRETO Nº 57.299",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 57.369",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 57.561",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Decreto nº 57.681",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei Federal nº 11.598",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 16.050",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 16.402",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 16.402, de 2016",
+      "relacao": "citada no texto (detectada automaticamente)"
+    }
+  ],
+  "jurisprudencia_relacionada": [],
+  "tem_tabela": false,
+  "tabelas_extraidas": [],
+  "tem_formula": false,
+  "formulas_referenciadas": [],
+  "fonte": {
+    "origem": "Portal oficial (legislacao.prefeitura.sp.gov.br)",
+    "path": "_entrada/misto/decreto-saopaulo-57299-2016.txt",
+    "url": "https://legislacao.prefeitura.sp.gov.br/decreto-57299-de-08-de-setembro-de-2016",
+    "hash": "sha256:eda6e92a3bfc0169e6bc6d8193b8593c0301a6bc21ccb284d56c972c1c38a66f",
+    "hash_nota_fonte": "sha256 do HTML bruto do portal capturado 2026-07-13",
+    "ocr": false,
+    "metodo": "VERBATIM INTEGRAL (portal oficial, texto compilado); captura portal oficial legislacao.prefeitura.sp.gov.br (container texto_compilado); promovido de _entrada/misto/",
+    "hash_alvo": "_entrada/misto/decreto-saopaulo-57299-2016.txt",
+    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior."
+  },
+  "status_pipeline": "indexado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "dominio_primario": "compartilhado",
+  "dominio": [
+    "compartilhado"
+  ]
+}

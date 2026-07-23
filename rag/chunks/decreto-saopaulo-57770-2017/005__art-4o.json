@@ -1,0 +1,44 @@
+{
+  "chunk_id": "decreto-saopaulo-57770-2017::005-art-4o",
+  "lei_id": "decreto-saopaulo-57770-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 4º",
+  "numero": "4",
+  "header_raw": "Art. 4º A Infraestrutura Municipal de Dados Espaciais – IMDE deve estar fisicamente armazenada em servidores corporativos para hospedagem da base de dados geoespacial, Catálogo de Metadados e as aplicações WebMap e servidores virtuais para os Serviços de Mapas, segundo arquitetura pré-definida, provendo espaço necessário para o armazenamento de imagens, plantas e croquis, além do fornecimento de acesso à rede da Prefeitura do Município de São Paulo e conexão à internet que garanta performance e desempenho das aplicações.",
+  "caminho_hierarquico": [
+    "SEÇÃO I",
+    "Art. 4º"
+  ],
+  "texto": "Art. 4º A Infraestrutura Municipal de Dados Espaciais – IMDE deve estar fisicamente armazenada em servidores corporativos para hospedagem da base de dados geoespacial, Catálogo de Metadados e as aplicações WebMap e servidores virtuais para os Serviços de Mapas, segundo arquitetura pré-definida, provendo espaço necessário para o armazenamento de imagens, plantas e croquis, além do fornecimento de acesso à rede da Prefeitura do Município de São Paulo e conexão à internet que garanta performance e desempenho das aplicações.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.770/2017 — São Paulo/SP",
+    "dispositivo": "SEÇÃO I › Art. 4º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57770-de-03-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-03",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Confere nova regulamentação ao Sistema de Informações Geográficas do Município de São Paulo SIG - SP."
+}

@@ -1,0 +1,43 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17853-2022::005-art-4o",
+  "lei_id": "lei-municipal-saopaulo-17853-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 4º",
+  "numero": "4",
+  "header_raw": "Art. 4º Os estabelecimentos referidos no art. 1º desta Lei deverão comprovar o atendimento aos parâmetros fixados no Quadro 4B da Lei nº 16.402, de 22 de março de 2016, sem prejuízo das demais disposições previstas nesta Lei, devendo ser estritamente observadas as normas técnicas a que remete o referido quadro.(Artigo declarado inconstitucional pela ADI nº 2157392-66.2023.8.26.0000)",
+  "caminho_hierarquico": [
+    "Art. 4º"
+  ],
+  "texto": "Art. 4º Os estabelecimentos referidos no art. 1º desta Lei deverão comprovar o atendimento aos parâmetros fixados no Quadro 4B da Lei nº 16.402, de 22 de março de 2016, sem prejuízo das demais disposições previstas nesta Lei, devendo ser estritamente observadas as normas técnicas a que remete o referido quadro.(Artigo declarado inconstitucional pela ADI nº 2157392-66.2023.8.26.0000)\n\n§ 1º Para a instalação dos estabelecimentos referidos no art. 1º desta Lei deverá ser apresentado previamente, à Secretaria Municipal do Verde e do Meio Ambiente, Memorial de Caracterização do Empreendimento nos termos do regulamento.\n\n§ 2º Os estabelecimentos já instalados até a data de entrada em vigor desta Lei terão o prazo de 90 (noventa) dias para apresentar o Memorial de Caracterização do Empreendimento.\n\n§ 3º Os estabelecimentos a que se refere o art. 1º desta Lei deverão manter afixado no saguão de entrada da edificação, em local visível ao público, um quadro onde conste a Razão Social, nome fantasia, logomarca e número de cadastro no órgão de vigilância sanitária (CMVS) de todas as empresas que se instalarem no empreendimento.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.853/2022 — São Paulo/SP",
+    "dispositivo": "Art. 4º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17853-de-29-de-novembro-de-2022",
+    "vigencia": {
+      "inicio": "2022-11-29",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=True revoga=False."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Estabelece regras aplicáveis a estabelecimentos formados por um conjunto de cozinhas industriais, utilizadas para produção por diferentes restaurantes e/ou empresas, destinada à comercialização de refeições e alimentos por serviço de entregas, sem acesso de público para consumo no local, configurando operação conjunta ou conglomerado de cozinhas, popularmente conhecidas como dark kitchens e dispõe sobre aspectos fiscalizatórios da Lei nº 16.402, de 22 de março de 2016."
+}

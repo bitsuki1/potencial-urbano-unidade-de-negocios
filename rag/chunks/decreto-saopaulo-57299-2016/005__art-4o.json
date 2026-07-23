@@ -1,0 +1,45 @@
+{
+  "chunk_id": "decreto-saopaulo-57299-2016::005-art-4o",
+  "lei_id": "decreto-saopaulo-57299-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 4º",
+  "numero": "4",
+  "header_raw": "Art. 4º Os órgãos e entidades municipais envolvidos, direta ou indiretamente, no processo de abertura, registro e alteração de empresas deverão:",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção I",
+    "Art. 4º"
+  ],
+  "texto": "Art. 4º Os órgãos e entidades municipais envolvidos, direta ou indiretamente, no processo de abertura, registro e alteração de empresas deverão:\n\nI – compatibilizar e integrar procedimentos em conjunto com outros órgãos e entidades, estaduais ou federais, envolvidos nos processos de abertura, registro e alteração;\n\nII – evitar a duplicidade de exigências;\n\nIII – garantir a linearidade do processo, da perspectiva do usuário, por meio da integração de sistemas e bancos de dados utilizados nos processos referidos no “caput” deste artigo;\n\nIV – administrar e manter atualizados sistemas e bancos de dados, disponibilizando-os, inclusive por meio de acesso ou envio dessas bases, às plataformas de outros entes governamentais;\n\nV – possibilitar a integração gradual de outros sistemas eletrônicos municipais que guardem pertinência com o tema e que venham a ser desenvolvidos.\n\nParágrafo único. A administração, atualização e disponibilização de sistemas e bancos de dados de que tratam o inciso IV do “caput” deste artigo será realizada pelas Secretarias responsáveis.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.299/2016 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção I › Art. 4º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57299-de-08-de-setembro-de-2016",
+    "vigencia": {
+      "inicio": "2016-12-12",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=True ADI=False revoga=False."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta o procedimento eletrônico e simplificado para abertura, registro e alteração de empresas."
+}

@@ -1,0 +1,50 @@
+{
+  "chunk_id": "lei-federal-6938-1981::009-art-7o",
+  "lei_id": "lei-federal-6938-1981",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 7º",
+  "numero": "7",
+  "header_raw": "Art. 7º - É",
+  "caminho_hierarquico": [
+    "Art. 7º"
+  ],
+  "texto": "Art. 7º - É\n\ncriado o Conselho Nacional do Meio Ambiente - CONAMA, cuja composição,\n\norganização, competência e funcionamento serão estabelecidos, em regulamento,\n\npelo Poder Executivo.\n\nParágrafo único -\n\nIntegrarão, também, o CONAMA:\n\na) representantes\n\ndos Governos dos Estados, indicados de acordo com o estabelecido em regulamento,\n\npodendo ser adotado um critério de delegação por regiões, com indicação\n\nalternativa do representante comum, garantida sempre a participação de um\n\nrepresentante dos Estados em cujo território haja área crítica de poluição,\n\nasssim considerada por decreto federal;\n\nb) Presidentes\n\ndas Confederações Nacionais da Indústria, da Agricultura e do Comércio, bem como\n\ndas Confederações Nacionais dos Trabalhadores na Indústria, na Agricultura e no\n\nComércio;\n\nc) Presidentes da\n\nAssociação Brasileira de Engenharia Sanitária e da Fundação Brasileira para a\n\nConservação da Natureza;\n\nd) dois\n\nrepresentantes de Associações legalmente constituídas para a defesa dos recursos\n\nnaturais e de combate à poluição, a serem nomeados pelo Presidente da República.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 6.938/1981 — Brasil",
+    "dispositivo": "Art. 7º",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6938.htm",
+    "vigencia": {
+      "inicio": "1981-08-31",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (texto consolidado do Planalto/ccivil_03)"
+      ],
+      "revogada_por": null,
+      "observacao": "Lei federal-quadro do meio ambiente (PNMA). Moldura FEDERAL das restrições ambientais (licenciamento, zoneamento ambiental, APP) que limitam o aproveitamento de terrenos e, por consequência, o potencial construtivo e a base venal em SP. Texto consolidado do Planalto capturado 2026-07-19; em vigor. dominio COMPARTILHADO (moldura ambiental que toca os dois domínios). revisado_por_humano=false."
+    }
+  },
+  "tema": [
+    "politica_ambiental",
+    "meio_ambiente",
+    "licenciamento_ambiental",
+    "zoneamento_ambiental",
+    "responsabilidade_ambiental",
+    "sisnama"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre a Política Nacional do Meio Ambiente, seus fins e mecanismos de formulação e aplicação, e dá outras providências."
+}

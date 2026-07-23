@@ -1,0 +1,48 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-11774-1995::008-art-7o",
+  "lei_id": "lei-municipal-saopaulo-11774-1995",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 7º",
+  "numero": "7",
+  "header_raw": "Art. 7º As desapropriações necessárias a realização da Operação Urbana Água Branca equiparam-se, para todos os efeitos,as desapropriações previstas no artigo 44 da Lei Federal nº 6766, de 19 de dezembro de 1979.",
+  "caminho_hierarquico": [
+    "Art. 7º"
+  ],
+  "texto": "Art. 7º As desapropriações necessárias a realização da Operação Urbana Água Branca equiparam-se, para todos os efeitos,as desapropriações previstas no artigo 44 da Lei Federal nº 6766, de 19 de dezembro de 1979.\n\nParágrafo Único. As propostas que envolvam desapropriações para integrar o conjunto de áreas destinadas a incorporação imobiliária somente serão aceitas se forem de montante inferior a 20% do total da área objeto da proposta, excluídas as áreas públicas.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 11.774/1995 — São Paulo/SP",
+    "dispositivo": "Art. 7º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-11774-de-18-de-maio-de-1995",
+    "vigencia": {
+      "inicio": "1995-05-18",
+      "fim": "2013-11-07",
+      "em_vigor": false,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": "Lei 15.893/2013 (institui a nova OUC Água Branca; revoga a Lei 11.774/1995)",
+      "observacao": "Lei da Operação Urbana Água Branca (1995), REVOGADA por inteiro pela Lei 15.893/2013. O texto compilado do portal oficial não anota essa revogação (fonte da revogação: ementa/art. da Lei 15.893/2013, confirmada em bases secundárias). fim=2013-11-07 (publicação da 15.893). revisado_por_humano=false — vigência a confirmar contra o primário da 15.893 quando ingerida."
+    }
+  },
+  "tema": [
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Paulo Maluf, Prefeito do Município de São Paulo, usando das atribuições que lhe são conferidas por Lei;"
+}

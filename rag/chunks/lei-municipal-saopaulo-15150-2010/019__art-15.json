@@ -1,0 +1,47 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-15150-2010::019-art-15",
+  "lei_id": "lei-municipal-saopaulo-15150-2010",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 15",
+  "numero": "15",
+  "header_raw": "Art. 15. A regularização da edificação e/ou a obtenção do Certificado de Conclusão da Edificação - \"HABITE-SE\" estará condicionada à implantação integral das obras e serviços estabelecidos na Certidão de Diretrizes, atestados pela Secretaria Municipal de Transportes.",
+  "caminho_hierarquico": [
+    "CAPÍTULO VI",
+    "Art. 15"
+  ],
+  "texto": "Art. 15. A regularização da edificação e/ou a obtenção do Certificado de Conclusão da Edificação - \"HABITE-SE\" estará condicionada à implantação integral das obras e serviços estabelecidos na Certidão de Diretrizes, atestados pela Secretaria Municipal de Transportes.\n\n§ 1º Caso o empreendedor não tenha iniciado ou concluído a implantação das obras e serviços estabelecidos na Certidão de Diretrizes por fatores alheios à sua atuação, a regularização da edificação e/ou a obtenção do Certificado de Conclusão da Edificação - \"HABITE-SE\" estará condicionada à prestação de garantias de aporte financeiro para a execução das obras ainda necessárias e desde que atendidas as demais exigências legais não relacionadas à minimização dos impactos causados de forma direta ao Sistema Viário tratada nesta lei. (Parágrafo declarado constitucional na ADI nº 0112171-80.2012.8.26.0000)\n\n§ 2º O pedido de prestação de garantias será apresentado à Secretaria Municipal de Transportes - SMT e será deferido desde que sejam apresentados os elementos justificadores da inviabilidade e a indicação de garantias de aporte financeiro para a execução das obras necessárias. (Parágrafo declarado constitucional na ADI nº 0112171-80.2012.8.26.0000)\n\n§ 3º As garantias mencionadas no § 1º deste artigo serão efetuadas através de caução em dinheiro ou fiança bancária, no dobro do valor da obra ou serviço a ser executado pelo interessado. (Parágrafo declarado constitucional na ADI nº 0112171-80.2012.8.26.0000)\n\n§ 4º Sanados os motivos impeditivos da realização das medidas mitigadoras, a Secretaria Municipal de Transportes - SMT deverá notificar o empreendedor para a realização imediata dos serviços, sob pena da perda imediata da garantia apresentada. (Parágrafo declarado constitucional na ADI nº 0112171-80.2012.8.26.0000)\n\nCAPÍTULO VII\n\nDAS DISPOSIÇÕES FINAIS",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 15.150/2010 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO VI › Art. 15",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-15150-de-06-de-maio-de-2010",
+    "vigencia": {
+      "inicio": "2010-05-06",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=True revoga=True."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "operacao_urbana",
+    "regularizacao",
+    "planta_generica_valores"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre os procedimentos para a aprovação de projetos arquitetônicos e para a execução de obras e serviços necessários para a minimização de impacto no Sistema Viário decorrente da implantação ou reforma de edificações e da instalação de atividades – Polo Gerador de Tráfego."
+}

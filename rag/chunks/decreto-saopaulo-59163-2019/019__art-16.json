@@ -1,0 +1,43 @@
+{
+  "chunk_id": "decreto-saopaulo-59163-2019::019-art-16",
+  "lei_id": "decreto-saopaulo-59163-2019",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 16",
+  "numero": "16",
+  "header_raw": "Art. 16. A percepção da Bonificação por Resultados – BR, juntamente com as outras parcelas remuneratórias a que faça jus o agente público, não poderá exceder o valor do teto remuneratório constitucional, na forma prevista no Decreto nº 52.192, de 18 de março de 2011, e nas demais normas legais e regulamentares aplicáveis.",
+  "caminho_hierarquico": [
+    "Art. 16"
+  ],
+  "texto": "Art. 16. A percepção da Bonificação por Resultados – BR, juntamente com as outras parcelas remuneratórias a que faça jus o agente público, não poderá exceder o valor do teto remuneratório constitucional, na forma prevista no Decreto nº 52.192, de 18 de março de 2011, e nas demais normas legais e regulamentares aplicáveis.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 59.163/2019 — São Paulo/SP",
+    "dispositivo": "Art. 16",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59163-de-27-de-dezembro-de-2019",
+    "vigencia": {
+      "inicio": "2019-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a concessão da Bonificação por Resultados - BR, instituída pela Lei nº 17.224, de 31 de outubro de 2019, aos agentes públicos municipais, na forma e condições que especifica."
+}

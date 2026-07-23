@@ -1,0 +1,44 @@
+{
+  "chunk_id": "decreto-saopaulo-59671-2020::033-art-32",
+  "lei_id": "decreto-saopaulo-59671-2020",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 32",
+  "numero": "32",
+  "header_raw": "Art. 32. No caso de calçada em mau estado de manutenção e conservação em decorrência da existência de espécie arbórea, o responsável ficará dispensado do cumprimento da obrigação prevista artigo 34 deste decreto na parte afetada pela referida espécie até que o seu corte ou supressão, nas hipóteses previstas pela legislação específica, seja providenciado pela Administração Pública Municipal ou por quem a tanto esteja autorizado.",
+  "caminho_hierarquico": [
+    "CAPÍTULO X",
+    "Art. 32"
+  ],
+  "texto": "Art. 32. No caso de calçada em mau estado de manutenção e conservação em decorrência da existência de espécie arbórea, o responsável ficará dispensado do cumprimento da obrigação prevista artigo 34 deste decreto na parte afetada pela referida espécie até que o seu corte ou supressão, nas hipóteses previstas pela legislação específica, seja providenciado pela Administração Pública Municipal ou por quem a tanto esteja autorizado.\n\nParágrafo único. A partir do corte ou supressão da espécie arbórea, o responsável terá o prazo de 30 (trinta) dias para providenciar a regularização da calçada, de acordo com o disposto no § 2º do artigo 9º da Lei nº 15.442, de 2011.\n\nCAPÍTULO XI\n\nDA ILUMINAÇÃO PÚBLICA DAS VIAS E LOGRADOUROS",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 59.671/2020 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO X › Art. 32",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59671-de-7-de-agosto-de-2020",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "regularizacao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Consolida os critérios para a padronização das calçadas, bem como regulamenta o disposto nos incisos VII e VIII do “caput” do artigo 240 do Plano Diretor Estratégico, o Capítulo III da Lei nº 15.442, de 9 de setembro de 2011, e a Lei nº 13.293, de 14 de janeiro de 2002."
+}

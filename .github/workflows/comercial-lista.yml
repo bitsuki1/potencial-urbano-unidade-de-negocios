@@ -139,12 +139,21 @@ jobs:
           from pathlib import Path
           out = Path("_comercial_in/sqls.txt"); out.parent.mkdir(exist_ok=True)
           sqls = set()
+          # escopo = SQLs dos VENDEDORES (cedentes) + dos COMPRADORES (receptores). Os dois lados
+          # se enriquecem do MESMO cadastro IPTU + cadeia Receita; o resto da cidade é descartado.
           with open("casos-reais/tdc/LISTA-VENDEDORES.csv", encoding="utf-8") as f:
               for r in csv.DictReader(f):
                   s = "".join(ch for ch in (r.get("sql") or "") if ch.isdigit())[:10]
                   if len(s) == 10: sqls.add(s)
+          try:
+              with open("casos-reais/tdc/LISTA-COMPRADORES.csv", encoding="utf-8") as f:
+                  for r in csv.DictReader(f):
+                      s = "".join(ch for ch in (r.get("sql_receptor") or "") if ch.isdigit())[:10]
+                      if len(s) == 10: sqls.add(s)
+          except FileNotFoundError:
+              pass
           out.write_text("\n".join(sorted(sqls)), encoding="utf-8")
-          print(f"escopo: {len(sqls)} SQLs")
+          print(f"escopo: {len(sqls)} SQLs (vendedores + compradores)")
           PY
 
       - name: Pipeline — ITBI → IPTU(escopado) → (PJ) → enriquecer
@@ -183,12 +192,14 @@ jobs:
             rm -rf _canonicas_in zepec/oficial/recorte
           fi
           python3 comercial/enriquecer_lista.py
+          python3 comercial/enriquecer_compradores.py
 
       - name: Provas (autotestes)
         run: |
           python3 comercial/iptu2020_para_contribuinte.py --autoteste
           python3 comercial/itbi_para_sql.py --autoteste
           python3 comercial/enriquecer_lista.py --autoteste
+          python3 comercial/enriquecer_compradores.py --autoteste
           python3 comercial/recorta_receita_oficial.py --autoteste
 
       - name: Commitar lista enriquecida
@@ -197,7 +208,7 @@ jobs:
           rm -rf _comercial_in
           git config user.name "comercial-bot"
           git config user.email "comercial-bot@users.noreply.github.com"
-          git add casos-reais/tdc/LISTA-VENDEDORES-ENRIQUECIDA.csv zepec/oficial/iptu_flags.csv zepec/oficial/itbi_por_sql.csv zepec/oficial/_itbi_sql_raw.txt || true
+          git add casos-reais/tdc/LISTA-VENDEDORES-ENRIQUECIDA.csv casos-reais/tdc/LISTA-COMPRADORES-ENRIQUECIDA.csv zepec/oficial/iptu_flags.csv zepec/oficial/itbi_por_sql.csv zepec/oficial/_itbi_sql_raw.txt || true
           if git diff --cached --quiet; then echo "nada a commitar"; exit 0; fi
           git commit -m "lista de vendedores ENRIQUECIDA (nome+limpeza+preco ITBI+carteira) [skip ci]"
           for t in 1 2 4 8; do

@@ -1,0 +1,51 @@
+{
+  "chunk_id": "decreto-saopaulo-57776-2017::005-art-4o",
+  "lei_id": "decreto-saopaulo-57776-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 4º",
+  "numero": "4",
+  "header_raw": "Art. 4º Compete à Secretaria Municipal de Urbanismo e Licenciamento a análise e decisão dos pedidos de documentos de controle da atividade edilícia de que tratam o COE e este decreto.",
+  "caminho_hierarquico": [
+    "CAPÍTULO I",
+    "Art. 4º"
+  ],
+  "texto": "Art. 4º Compete à Secretaria Municipal de Urbanismo e Licenciamento a análise e decisão dos pedidos de documentos de controle da atividade edilícia de que tratam o COE e este decreto.\n\n§ 1º A competência de análise e decisão poderá ser transferida às PRs e SMPR por decreto, em razão da metragem da área, da lotação ou da categoria de uso.\n\n§ 2º Ficam mantidas as delegações de competências às PRs e SMPR, até a revisão dos respectivos decretos de delegação de competência em vigor.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.776/2017 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO I › Art. 4º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57776-de-07-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 16.642, de 9 de maio de 2017, que aprovou o Código de Obras e Edificações do Município de São Paulo; define os membros da Comissão de Edificações e Uso do Solo – CEUSO."
+}

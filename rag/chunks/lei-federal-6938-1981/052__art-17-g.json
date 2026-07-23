@@ -1,0 +1,52 @@
+{
+  "chunk_id": "lei-federal-6938-1981::052-art-17-g",
+  "lei_id": "lei-federal-6938-1981",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 17-G",
+  "numero": "17-G",
+  "header_raw": "Art. 17-G. A TCFA será devida no último dia útil de cada",
+  "caminho_hierarquico": [
+    "Art. 17-G"
+  ],
+  "texto": "Art. 17-G. A TCFA será devida no último dia útil de cada\n\ntrimestre do ano civil, nos valores fixados no Anexo IX desta Lei, e o recolhimento será\n\nefetuado em conta bancária vinculada ao IBAMA, por intermédio de documento próprio de\n\narrecadação, até o quinto dia útil do mês subseqüente. (Redação dada pela Lei nº 10.165, de 2000)\n\nParágrafo\n\núnico. Revogado.\n\n(Redação dada pela Lei nº 10.165, de 2000)\n\n§ 2o Os recursos arrecadados com a TCFA terão\n\nutilização restrita em atividades de controle e fiscalização ambiental.\n\n(Incluído pela Lei nº 11.284, de 2006)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "2000",
+    "norma_redacao": "Lei nº 10.165, de 2000"
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 6.938/1981 — Brasil",
+    "dispositivo": "Art. 17-G",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6938.htm",
+    "vigencia": {
+      "inicio": "1981-08-31",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (texto consolidado do Planalto/ccivil_03)"
+      ],
+      "revogada_por": null,
+      "observacao": "Lei federal-quadro do meio ambiente (PNMA). Moldura FEDERAL das restrições ambientais (licenciamento, zoneamento ambiental, APP) que limitam o aproveitamento de terrenos e, por consequência, o potencial construtivo e a base venal em SP. Texto consolidado do Planalto capturado 2026-07-19; em vigor. dominio COMPARTILHADO (moldura ambiental que toca os dois domínios). revisado_por_humano=false."
+    }
+  },
+  "tema": [
+    "politica_ambiental",
+    "meio_ambiente",
+    "licenciamento_ambiental",
+    "zoneamento_ambiental",
+    "responsabilidade_ambiental",
+    "sisnama"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre a Política Nacional do Meio Ambiente, seus fins e mecanismos de formulação e aplicação, e dá outras providências."
+}

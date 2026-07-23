@@ -119,7 +119,7 @@ SCORE_MIN = 1.5
 # exige que o top-1 cubra fração suficiente do PESO discriminativo da pergunta: termos raros/específicos
 # (inclusive os AUSENTES do corpus — idf máximo) pesam no denominador, então uma pergunta cujo miolo
 # temático não casa é rejeitada, mesmo casando muitos termos comuns.
-WCOB_MIN = 0.41   # re-calibrado 2026-07-13 (ingestão TDC mudou o IDF do corpus).
+WCOB_MIN = 0.43   # re-calibrado 2026-07-13 (ingestão TDC) e 2026-07-19 (Etapa D: corpus 70→82 mudou o IDF; b04-ambiental subia a wcob=0.42 → falso-positivo. 0.43 fecha a armadilha; passantes fortes usam COB_FORTE, não dependem de wcob).
 # COB_FORTE — a 2a via da REGRA COMPOSTA do gate 1.7 (ver bloco GATE): cobertura BRUTA forte
 # fundamenta mesmo com wcob no limite, SEM reabrir a armadilha B-04 (que casa poucos termos).
 # Medido: legítimas fronteiriças cob=0,57–0,70 · armadilha B-04 cob=0,44. 0,55 fica no meio.

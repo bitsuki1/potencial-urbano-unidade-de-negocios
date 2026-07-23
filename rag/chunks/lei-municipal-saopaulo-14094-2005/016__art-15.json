@@ -1,0 +1,43 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-14094-2005::016-art-15",
+  "lei_id": "lei-municipal-saopaulo-14094-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 15",
+  "numero": "15",
+  "header_raw": "Art. 15. O Executivo regulamentará esta lei no prazo de até 60 (sessenta) dias, contados da sua publicação.",
+  "caminho_hierarquico": [
+    "Art. 15"
+  ],
+  "texto": "Art. 15. O Executivo regulamentará esta lei no prazo de até 60 (sessenta) dias, contados da sua publicação.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 14.094/2005 — São Paulo/SP",
+    "dispositivo": "Art. 15",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-14094-de-06-de-dezembro-de-2005",
+    "vigencia": {
+      "inicio": "2005-12-06",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "regularizacao"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "(Projeto de Lei nº 253/05, do Executivo, aprovado na forma de Substitutivo do Legislativo)"
+}

@@ -68,6 +68,42 @@ COMPARTILHADO = {
         "Estatuto da Cidade (regulamenta arts. 182/183 da CF) — base FEDERAL dos instrumentos: OODC "
         "(arts. 28-31) e TDC (art. 35) DO lado urbanístico E IPTU progressivo no tempo (art. 7) DO lado "
         "tributário. Serve aos DOIS domínios (compartilhado). Ingerido do Planalto 2026-07-13.",
+    # --- Lote Etapa D ingerido do portal 2026-07-19 (PU 22): normas gerais/duais — nenhuma é potencial
+    #     puro nem tributo IPTU puro; na dúvida → compartilhado (viés de não-perda, plano §4). ---
+    "decreto-saopaulo-57521-2016":
+        "Regulamenta a LPUOS (Lei 16.402/2016) — ocupação do solo e instalação dos usos; toca potencial "
+        "construtivo adicional/coeficientes (TDC) E parâmetros urbanísticos que refletem no IPTU (P3). "
+        "Segue a lógica compartilhada da própria LPUOS; arts. revogados por 63.504/2024 e 63.884/2024 (vigência per-artigo no verbatim).",
+    "decreto-saopaulo-57776-2017":
+        "Regulamenta o COE (Lei 16.642/2017) e a CEUSO — define área construída/edificação, que alimenta o "
+        "potencial (TDC) E a base de cálculo do IPTU (P3). Mesma lógica compartilhada do COE.",
+    "decreto-saopaulo-57770-2017":
+        "Regulamenta o SIG-SP (Sistema de Informações Geográficas) — infraestrutura de dado cadastral/espacial "
+        "que serve tanto ao Mapa do TDC quanto ao cadastro do IPTU. Matriz-geral → compartilhado.",
+    "decreto-saopaulo-57299-2016":
+        "Procedimento eletrônico de abertura/registro/alteração de empresas — norma administrativa geral, "
+        "não é potencial construtivo nem tributo IPTU; na dúvida → compartilhado (viés de não-perda).",
+    "lei-municipal-saopaulo-15150-2010":
+        "Polo Gerador de Tráfego — aprovação de projetos e obras de mitigação de impacto viário; parâmetro "
+        "urbanístico de licenciamento que toca uso/ocupação (dois domínios). Compartilhado (viés de não-perda).",
+    "lei-municipal-saopaulo-14094-2005":
+        "CADIN Municipal (cadastro de inadimplentes) — registro fiscal que alcança débitos de IPTU (P3) E "
+        "pendências gerais; serve aos dois domínios. Compartilhado.",
+    "decreto-saopaulo-57378-2016":
+        "Regulamenta o enquadramento de atividades não-residenciais (arts. 96-106 da LPUOS 16.402/2016) e o "
+        "uso do solo — o uso reflete tanto no potencial/TDC quanto na base venal do IPTU (P3). Compartilhado.",
+    "lei-municipal-saopaulo-11774-1995":
+        "Lei da Operação Urbana Água Branca (1995) — outorga/potencial construtivo (TDC) E parâmetros da área "
+        "que tocam o IPTU. REVOGADA pela Lei 15.893/2013 (vigência fim=2013 no JSON); mantida como histórico "
+        "vintage. Compartilhado (viés de não-perda).",
+    "lei-federal-6938-1981":
+        "PNMA — Política Nacional do Meio Ambiente: moldura FEDERAL das restrições ambientais (licenciamento, "
+        "zoneamento ambiental, APP) que limitam o aproveitamento do terreno e, por isso, tocam o potencial "
+        "construtivo (TDC) E a base venal (IPTU). Compartilhado (viés de não-perda).",
+    "lei-federal-11428-2006":
+        "Lei da Mata Atlântica: SP inteira está no bioma; os arts. 30-32 disciplinam a supressão de vegetação "
+        "em área urbana, condicionando licenciamento e aproveitamento de terrenos — toca potencial (TDC) E "
+        "uso/base venal (IPTU). Compartilhado.",
 }
 # --- TDC puro: efeito exclusivo de potencial construtivo. Hoje VAZIO em leis/ — a massa normativa TDC
 # (Decreto 57.536/2016, decretos ZEPEC/CONPRESP) ainda não foi ingerida; entrará marcada 'tdc'. ---

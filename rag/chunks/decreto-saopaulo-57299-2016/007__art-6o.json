@@ -1,0 +1,45 @@
+{
+  "chunk_id": "decreto-saopaulo-57299-2016::007-art-6o",
+  "lei_id": "decreto-saopaulo-57299-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 6º",
+  "numero": "6",
+  "header_raw": "Art. 6º A Consulta de Viabilidade realizada de forma eletrônica deverá permitir pesquisas prévias de instalação e funcionamento, de modo a fornecer ao usuário informações quanto à documentação exigível e à viabilidade do registro e do licenciamento.",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção II",
+    "Art. 6º"
+  ],
+  "texto": "Art. 6º A Consulta de Viabilidade realizada de forma eletrônica deverá permitir pesquisas prévias de instalação e funcionamento, de modo a fornecer ao usuário informações quanto à documentação exigível e à viabilidade do registro e do licenciamento.\n\n§ 1º O resultado da Consulta de Viabilidade deve ser oferecido pela Prefeitura em um único atendimento, fornecendo ao usuário, no mínimo, as seguintes informações:\n\nI – descrição oficial do endereço de seu interesse, nos casos de endereço regular e cadastrado nas bases de dados municipais;\n\nII – resposta da Consulta de Viabilidade para o exercício da atividade indicada, quando identificado pelo sistema eletrônico municipal, nos termos do § 2º deste artigo.\n\n§ 2º A Consulta de Viabilidade poderá retornar três resultados:\n\nI – atividade passível de instalação, caso em que serão informados os requisitos necessários para funcionamento;\n\nII – atividade não passível de instalação, quando o uso pretendido não atender à legislação de uso e ocupação do solo;\n\nIII - resultado indisponível, quando houver insuficiência de informação nos bancos de dados municipais, sem prejuízo da continuidade dos procedimentos de que trata este decreto.\n\n§ 3º O usuário deverá apor seu aceite quanto ao resultado fornecido na Consulta de Viabilidade em até 90 (noventa) dias.\n\n§ 4º Esgotado o prazo de que trata o § 3º deste artigo sem o referido aceite, o usuário deverá iniciar uma nova consulta.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.299/2016 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção II › Art. 6º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57299-de-08-de-setembro-de-2016",
+    "vigencia": {
+      "inicio": "2016-12-12",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=True ADI=False revoga=False."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta o procedimento eletrônico e simplificado para abertura, registro e alteração de empresas."
+}

@@ -1,0 +1,44 @@
+{
+  "chunk_id": "decreto-saopaulo-59671-2020::042-art-41",
+  "lei_id": "decreto-saopaulo-59671-2020",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 41",
+  "numero": "41",
+  "header_raw": "Art. 41. Este decreto entrará em vigor na data de sua publicação, revogado o Decreto nº 58.611, de 24 de janeiro de 2019.",
+  "caminho_hierarquico": [
+    "CAPÍTULO XIII",
+    "Art. 41"
+  ],
+  "texto": "Art. 41. Este decreto entrará em vigor na data de sua publicação, revogado o Decreto nº 58.611, de 24 de janeiro de 2019.\n\nPREFEITURA DO MUNICÍPIO DE SÃO PAULO, aos 7 de agosto de 2020, 467º da fundação de São Paulo.\n\nBRUNO COVAS, PREFEITO\n\nALEXANDRE MODONEZI, Secretário Municipal das Subprefeituras\n\nORLANDO LINDÓRIO DE FARIA, Secretário Municipal da Casa Civil\n\nMARINA MAGRO BERINGHS MARTINEZ, Respondendo pelo cargo de Secretária Municipal de Justiça\n\nRUBENS NAMAN RIZEK JUNIOR, Secretário de Governo Municipal\n\nPublicado na Casa Civil, em 7 de agosto de 2020.\n\nANEXOS I A VIII DO DECRETO Nº 59.671, DE 7 DE AGOSTO DE 2020\n\nEste texto não substitui o original publicado no Diário Oficial da Cidade de São Paulo.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 59.671/2020 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO XIII › Art. 41",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59671-de-7-de-agosto-de-2020",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "regularizacao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Consolida os critérios para a padronização das calçadas, bem como regulamenta o disposto nos incisos VII e VIII do “caput” do artigo 240 do Plano Diretor Estratégico, o Capítulo III da Lei nº 15.442, de 9 de setembro de 2011, e a Lei nº 13.293, de 14 de janeiro de 2002."
+}

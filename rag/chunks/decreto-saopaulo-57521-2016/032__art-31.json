@@ -1,0 +1,49 @@
+{
+  "chunk_id": "decreto-saopaulo-57521-2016::032-art-31",
+  "lei_id": "decreto-saopaulo-57521-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 31",
+  "numero": "31",
+  "header_raw": "Art. 31. Em reforma ou projeto modificativo cujo projeto inicialmente licenciado tenha utilizado os benefícios da Lei nº 11.119, de 8 de novembro de 1991, da Lei nº 11.536, de 23 de maio de 1994, e da Lei nº 13.703, 24 de dezembro de 2003, são permitidos alterações e remanejamentos para adaptação dos espaços reservados à atividade teatro, observadas as seguintes condições:",
+  "caminho_hierarquico": [
+    "Art. 31"
+  ],
+  "texto": "Art. 31. Em reforma ou projeto modificativo cujo projeto inicialmente licenciado tenha utilizado os benefícios da Lei nº 11.119, de 8 de novembro de 1991, da Lei nº 11.536, de 23 de maio de 1994, e da Lei nº 13.703, 24 de dezembro de 2003, são permitidos alterações e remanejamentos para adaptação dos espaços reservados à atividade teatro, observadas as seguintes condições:\n\nI - são consideradas não computáveis as áreas necessárias ao funcionamento do teatro, dentre as quais os espaços destinados a frisas, camarotes ou similares, camarins, sala de ensaio, vestiários, sanitários, foyer, bilheteria, lanchonete, áreas técnicas destinadas a iluminação e cenografia;\n\nII - o acréscimo de áreas não pode ultrapassar 10% (dez por cento) da área anteriormente licenciada para o teatro e suas instalações complementares;\n\nIII - as alterações não podem implicar agravamento em relação aos índices urbanísticos, recuos e gabaritos estabelecidos na Lei nº 16.402, de 2016.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.521/2016 — São Paulo/SP",
+    "dispositivo": "Art. 31",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57521-de-09-de-dezembro-de-2016",
+    "vigencia": {
+      "inicio": "2016-12-09",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a aplicação de disposições da Lei nº 16.402, de 22 de março de 2016, relativas à ocupação do solo e condições de instalação dos usos."
+}

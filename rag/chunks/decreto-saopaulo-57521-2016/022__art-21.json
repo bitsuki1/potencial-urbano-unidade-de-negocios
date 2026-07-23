@@ -1,0 +1,49 @@
+{
+  "chunk_id": "decreto-saopaulo-57521-2016::022-art-21",
+  "lei_id": "decreto-saopaulo-57521-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 21",
+  "numero": "21",
+  "header_raw": "Art. 21. Para fins de aplicação do § 7º do artigo 112 da Lei nº 16.402, de 2016, a base para apuração da variação de 5% (cinco por cento) é a largura mínima exigida para a implantação do uso pretendido, conforme Quadro 4A da referida lei.",
+  "caminho_hierarquico": [
+    "Art. 21"
+  ],
+  "texto": "Art. 21. Para fins de aplicação do § 7º do artigo 112 da Lei nº 16.402, de 2016, a base para apuração da variação de 5% (cinco por cento) é a largura mínima exigida para a implantação do uso pretendido, conforme Quadro 4A da referida lei.\n\nParágrafo único. No cálculo da largura devem ser incluídas as dimensões dos seguintes bens de uso comum do povo:\n\nI - áreas transferidas à Municipalidade destinadas à conformação do passeio público com largura mínima de 5m (cinco metros), nos termos do artigo 67 da Lei nº 16.402, de 2016;\n\nII - outros logradouros públicos existentes na frente da testada do lote, tais como praças, divisão de faixas de rolamento ou outros logradouros contíguos.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.521/2016 — São Paulo/SP",
+    "dispositivo": "Art. 21",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57521-de-09-de-dezembro-de-2016",
+    "vigencia": {
+      "inicio": "2016-12-09",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a aplicação de disposições da Lei nº 16.402, de 22 de março de 2016, relativas à ocupação do solo e condições de instalação dos usos."
+}

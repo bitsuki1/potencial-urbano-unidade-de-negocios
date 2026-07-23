@@ -1,0 +1,49 @@
+{
+  "chunk_id": "decreto-saopaulo-57521-2016::013-art-12",
+  "lei_id": "decreto-saopaulo-57521-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 12",
+  "numero": "12",
+  "header_raw": "Art. 12. A fachada ativa, além das disposições do artigo 71 da Lei nº 16.402, de 2016, e em seus parágrafos, deve observar às seguintes características:",
+  "caminho_hierarquico": [
+    "Art. 12"
+  ],
+  "texto": "Art. 12. A fachada ativa, além das disposições do artigo 71 da Lei nº 16.402, de 2016, e em seus parágrafos, deve observar às seguintes características:\n\nI - a face de acesso à fachada ativa voltada para o logradouro público deve estar contida na faixa de 5m (cinco metros) medida a partir do alinhamento do lote, em projeção ortogonal, sendo que, no caso de doação de calçada prevista no artigo 67 da citada lei, deve ser considerado o novo alinhamento;\n\nII - são admitidas aberturas e acessos para as áreas de fruição, inclusive em forma de galeria interna ao edifício, desde que garantido o acesso direto ao logradouro público;\n\nIII - a área construída de uso nR destinada a fachada ativa pode exceder a faixa de 5m (cinco metros);\n\nIV - nos casos de lote com mais de uma frente, para fins da aplicação da exigência de, no mínimo, 3m (três metros) de extensão, será considerada a soma das dimensões das testadas. (Revogado pelo Decreto nº 63.884/2024)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.521/2016 — São Paulo/SP",
+    "dispositivo": "Art. 12",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57521-de-09-de-dezembro-de-2016",
+    "vigencia": {
+      "inicio": "2016-12-09",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a aplicação de disposições da Lei nº 16.402, de 22 de março de 2016, relativas à ocupação do solo e condições de instalação dos usos."
+}

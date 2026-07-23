@@ -1,0 +1,52 @@
+{
+  "chunk_id": "decreto-saopaulo-57776-2017::092-art-91",
+  "lei_id": "decreto-saopaulo-57776-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 91",
+  "numero": "91",
+  "header_raw": "Art. 91. A edificação concluída sem a obtenção de Certificado de Conclusão enseja a intimação do infrator para, no prazo de 5 (cinco) dias, solicitar o documento à Prefeitura, sob pena de lavratura do correspondente auto de multa.",
+  "caminho_hierarquico": [
+    "CAPÍTULO VI",
+    "Seção III",
+    "Art. 91"
+  ],
+  "texto": "Art. 91. A edificação concluída sem a obtenção de Certificado de Conclusão enseja a intimação do infrator para, no prazo de 5 (cinco) dias, solicitar o documento à Prefeitura, sob pena de lavratura do correspondente auto de multa.\n\n§ 1º Não atendida a intimação ou indeferido o pedido, será aplicada a multa correspondente.\n\n§ 2º A multa será reaplicada a cada 90 (noventa) dias até a regularização da edificação, limitado esse período a 1 (um) ano.\n\n§ 3º A multa a que se refere o “caput” deste artigo independe do uso da edificação.\n\n§ 4º O pedido de Certificado de Conclusão suspende a ação fiscalizatória até a emissão desse documento ou o indeferimento do pedido, o que ocorrer primeiro.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.776/2017 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO VI › Seção III › Art. 91",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57776-de-07-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 16.642, de 9 de maio de 2017, que aprovou o Código de Obras e Edificações do Município de São Paulo; define os membros da Comissão de Edificações e Uso do Solo – CEUSO."
+}

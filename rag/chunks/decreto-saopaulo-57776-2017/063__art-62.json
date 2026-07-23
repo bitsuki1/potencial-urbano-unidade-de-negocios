@@ -1,0 +1,52 @@
+{
+  "chunk_id": "decreto-saopaulo-57776-2017::063-art-62",
+  "lei_id": "decreto-saopaulo-57776-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 62",
+  "numero": "62",
+  "header_raw": "Art. 62. Os Empreendimentos Habitacionais de Interesse Social em ZEIS - EZEIS, Empreendimentos Habitacionais de Interesse Social - EHIS, Empreendimentos Habitacionais do Mercado Popular - EHMP, Habitação de Interesse Social - HIS, Habitação de Mercado Popular - HMP e moradia econômica são regulamentados pelo Decreto nº 57.377, de 11 de outubro de 2016, e posteriores alterações.",
+  "caminho_hierarquico": [
+    "CAPÍTULO IV",
+    "Seção III",
+    "Art. 62"
+  ],
+  "texto": "Art. 62. Os Empreendimentos Habitacionais de Interesse Social em ZEIS - EZEIS, Empreendimentos Habitacionais de Interesse Social - EHIS, Empreendimentos Habitacionais do Mercado Popular - EHMP, Habitação de Interesse Social - HIS, Habitação de Mercado Popular - HMP e moradia econômica são regulamentados pelo Decreto nº 57.377, de 11 de outubro de 2016, e posteriores alterações.\n\nParágrafo único. A edificação destinada aos empreendimentos de que trata o “caput” deste artigo, quando executada sob a titularidade de pessoa jurídica de direito público do Município, do Estado de São Paulo e da União Federal, ainda que transferida posteriormente a terceiros, fica considerada regular na situação existente em 31 de julho de 2014, data de publicação da Lei n.º 16.050, de 2014, sendo de inteira responsabilidade do ente público executor o atendimento às normas de estabilidade, segurança, salubridade e acessibilidade, até a formalização da transferência de titularidade.(Revogado pelo Decreto nº 58.943/2019)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.776/2017 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO IV › Seção III › Art. 62",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57776-de-07-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 16.642, de 9 de maio de 2017, que aprovou o Código de Obras e Edificações do Município de São Paulo; define os membros da Comissão de Edificações e Uso do Solo – CEUSO."
+}

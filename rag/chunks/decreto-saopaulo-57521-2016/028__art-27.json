@@ -1,0 +1,49 @@
+{
+  "chunk_id": "decreto-saopaulo-57521-2016::028-art-27",
+  "lei_id": "decreto-saopaulo-57521-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 27",
+  "numero": "27",
+  "header_raw": "Art. 27. Para aplicação do inciso II do § 1º do artigo 162 da Lei nº 16.402, de 2016, havendo mais de uma versão do projeto em análise na data de 22 de março de 2016, o interessado deve se manifestar formalmente indicando em qual delas deseja dar prosseguimento.",
+  "caminho_hierarquico": [
+    "Art. 27"
+  ],
+  "texto": "Art. 27. Para aplicação do inciso II do § 1º do artigo 162 da Lei nº 16.402, de 2016, havendo mais de uma versão do projeto em análise na data de 22 de março de 2016, o interessado deve se manifestar formalmente indicando em qual delas deseja dar prosseguimento.\n\n§ 1º O projeto modificativo que extrapole os limites estabelecidos no inciso II do § 1º do artigo 162 da Lei nº 16.402, de 2016, deve ser analisado nos termos da citada lei e do COE e legislação correlata.\n\n§ 2º São aceitas alterações superiores às estabelecidas nas alíneas “b” e “c” do II do § 1º do artigo 162 da Lei nº 16.402, de 2016, quando motivadas por ato do Poder Público, como edição de lei de melhoramento viário, decreto de interesse social e de utilidade pública, tombamento de imóvel, término de estoque de potencial construtivo, restrição de proteção ao voo estabelecida pelo órgão competente e ativação da vigência de áreas de influência dos eixos de estruturação da transformação urbana planejados nos termos do artigo 83 da Lei nº 16.050, de 2014.\n\n§ 3º No caso de incompatibilidade entre o cálculo de áreas e o projeto, prevalece o projeto para base de cálculo dos limites das alterações do mesmo.\n\n§ 4º Aplicam-se as disposições do “caput” e dos §§ deste artigo, no que couber, aos processos em análise nos termos do artigo 380 e 381 da Lei nº 16.050, de 2014.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.521/2016 — São Paulo/SP",
+    "dispositivo": "Art. 27",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57521-de-09-de-dezembro-de-2016",
+    "vigencia": {
+      "inicio": "2016-12-09",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a aplicação de disposições da Lei nº 16.402, de 22 de março de 2016, relativas à ocupação do solo e condições de instalação dos usos."
+}

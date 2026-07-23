@@ -1,0 +1,52 @@
+{
+  "chunk_id": "decreto-saopaulo-57776-2017::084-art-83",
+  "lei_id": "decreto-saopaulo-57776-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 83",
+  "numero": "83",
+  "header_raw": "Art. 83. Constatada irregularidade na execução da obra, deverão ser adotados os seguintes procedimentos:",
+  "caminho_hierarquico": [
+    "CAPÍTULO VI",
+    "Seção I",
+    "Art. 83"
+  ],
+  "texto": "Art. 83. Constatada irregularidade na execução da obra, deverão ser adotados os seguintes procedimentos:\n\nI - para a obra sem licença expedida pela Prefeitura, ao proprietário ou possuidor, devem ser imediatamente lavrados auto de multa por execução da obra sem licença, auto de embargo e auto de intimação para adotar as providências visando à solução da irregularidade no prazo de 5 (cinco) dias;\n\nII - pelo desvirtuamento da licença, ao proprietário ou possuidor e ao responsável técnico pela obra, devem ser lavrados:\n\na) imediatamente, auto de intimação para adotar as providências visando à solução da irregularidade no prazo de 5 (cinco) dias e auto de multa por execução da obra com desvirtuamento da licença;\n\nb) no caso do desatendimento da intimação, auto de embargo e correspondente auto de multa de embargo;\n\nIII - pelo desatendimento de qualquer disposição do COE e deste decreto, quando não houver outros procedimentos expressamente estabelecidos, devem ser lavrados, concomitantemente, auto de intimação para adotar as providências visando ao atendimento da disposição do COE e deste decreto no prazo de 5 (cinco) dias e auto de multa correspondente à infração.\n\n§ 1º Não atendidas às determinações no prazo fixado na intimação, será aplicada nova multa.\n\n§ 2º No caso de obra, será caracterizada a reincidência quando a infração disser respeito ao mesmo documento, nos termos do artigo 98 do COE, no que couber.\n\n§ 3º Durante o embargo, fica permitida somente a execução dos serviços indispensáveis à eliminação das infrações que o motivaram, observadas as exigências da legislação pertinente à matéria.\n\n§ 4º O embargo cessará a pedido do interessado somente após:\n\nI - a eliminação das infrações que o motivaram, em se tratando de obra com licença;\n\nII - a expedição de Alvará de Autorização ou Alvará de Execução, em se tratando de obra sem licença.\n\n§ 5º O pedido de desembargo da obra será analisado pelo Coordenador de Planejamento e Desenvolvimento Urbano, da Prefeitura Regional correspondente ao local da infração, em despacho fundamentado e publicado no DOC.\n\n§ 6º O prosseguimento dos trabalhos no imóvel enquanto não deferido o desembargo caracterizará a resistência ao embargo, adotando-se as providências estabelecidas no artigo 84 do COE, competindo ao Prefeito Regional a solicitação de auxílio policial e a requisição de instauração de inquérito policial.\n\n§ 7º A modificação física da obra desde a vistoria anterior caracterizará a resistência ao embargo.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.776/2017 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO VI › Seção I › Art. 83",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57776-de-07-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 16.642, de 9 de maio de 2017, que aprovou o Código de Obras e Edificações do Município de São Paulo; define os membros da Comissão de Edificações e Uso do Solo – CEUSO."
+}

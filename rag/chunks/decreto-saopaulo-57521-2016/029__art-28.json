@@ -1,0 +1,49 @@
+{
+  "chunk_id": "decreto-saopaulo-57521-2016::029-art-28",
+  "lei_id": "decreto-saopaulo-57521-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 28",
+  "numero": "28",
+  "header_raw": "Art. 28. O número de vagas exigido para a edificação, independentemente da categoria de uso, área construída e localização, é aquele definido no Quadro 4A da Lei nº 16.402, de 2016, de acordo com o grupo de atividade relacionado, acrescido das vagas especiais, para idosos e para motocicletas estabelecidas no COE e legislação correlata.",
+  "caminho_hierarquico": [
+    "Art. 28"
+  ],
+  "texto": "Art. 28. O número de vagas exigido para a edificação, independentemente da categoria de uso, área construída e localização, é aquele definido no Quadro 4A da Lei nº 16.402, de 2016, de acordo com o grupo de atividade relacionado, acrescido das vagas especiais, para idosos e para motocicletas estabelecidas no COE e legislação correlata.\n\n§ 1º No caso de pedido de licença de instalação e funcionamento, de mudança de uso ou de reforma de edificação existente, o atendimento do número mínimo de vagas pode ocorrer em outro imóvel desde que:\n\nI - seja demonstrada a impossibilidade de seu atendimento na edificação existente sem que haja demolição parcial ou total;\n\nII – o outro imóvel atenda aos seguintes requisitos:\n\na) esteja localizado a, no máximo, 300 (trezentos) metros de distância, ressalvado o previsto no § 2º deste artigo;\n\nb) tenha licença válida para a atividade de estacionamento e garagens de veículos ou para edifícios garagem, nos termos da Lei nº 16.402, de 2016, e do Decreto nº 57.378, de 13 de outubro de 2016;\n\nc) não esteja notificado para o parcelamento, edificação e utilização compulsórios nos termos da Lei nº 16.402, de 2016, e do Decreto nº 55.638, de 30 de outubro de 2014.\n\n§ 2º Na hipótese a que se refere o § 1º deste artigo, o imóvel pode estar situado a mais de 300m (trezentos metros), desde que o responsável pelo empreendimento firme convênio com estacionamento e serviço de manobristas, devendo ser atendidas as alíneas “b” e “c” do inciso II do citado parágrafo.\n\n§ 3º O Departamento de Controle da Função Social da Propriedade deve manter atualizadas, no GeoSampa, as informações sobre os imóveis notificados para o parcelamento, edificação e utilização compulsórios.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.521/2016 — São Paulo/SP",
+    "dispositivo": "Art. 28",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57521-de-09-de-dezembro-de-2016",
+    "vigencia": {
+      "inicio": "2016-12-09",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a aplicação de disposições da Lei nº 16.402, de 22 de março de 2016, relativas à ocupação do solo e condições de instalação dos usos."
+}

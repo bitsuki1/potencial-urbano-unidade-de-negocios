@@ -1,0 +1,44 @@
+{
+  "chunk_id": "decreto-saopaulo-57770-2017::028-art-27",
+  "lei_id": "decreto-saopaulo-57770-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 27",
+  "numero": "27",
+  "header_raw": "Art. 27. Este decreto entrará em vigor na data de sua publicação, revogado o Decreto nº 50.736, de 15 de julho de 2009.",
+  "caminho_hierarquico": [
+    "SEÇÃO VI",
+    "Art. 27"
+  ],
+  "texto": "Art. 27. Este decreto entrará em vigor na data de sua publicação, revogado o Decreto nº 50.736, de 15 de julho de 2009.\n\nPREFEITURA DO MUNICÍPIO DE SÃO PAULO, aos 3 de julho de 2017, 464º da fundação de São Paulo.\n\nJOÃO DORIA, PREFEITO\n\nHELOISA MARIA DE SALLES PENTEADO PROENÇA, Secretária Municipal de Urbanismo e Licenciamento\n\nANDERSON POMINI, Secretário Municipal de Justiça\n\nJULIO FRANCISCO SEMEGHINI NETO, Secretário do Governo Municipal\n\nPublicado na Secretaria do Governo Municipal, em 3 de julho de 2017.\n\nEste texto não substitui o original publicado no Diário Oficial da Cidade de São Paulo.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.770/2017 — São Paulo/SP",
+    "dispositivo": "SEÇÃO VI › Art. 27",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57770-de-03-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-03",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Confere nova regulamentação ao Sistema de Informações Geográficas do Município de São Paulo SIG - SP."
+}

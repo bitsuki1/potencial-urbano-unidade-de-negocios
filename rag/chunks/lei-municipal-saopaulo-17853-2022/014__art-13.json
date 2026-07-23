@@ -1,0 +1,43 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17853-2022::014-art-13",
+  "lei_id": "lei-municipal-saopaulo-17853-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 13",
+  "numero": "13",
+  "header_raw": "Art. 13. O art. 146 da Lei nº 16.402, de 22 de março de 2016, passa a vigorar com as seguintes alterações:",
+  "caminho_hierarquico": [
+    "Art. 13"
+  ],
+  "texto": "Art. 13. O art. 146 da Lei nº 16.402, de 22 de março de 2016, passa a vigorar com as seguintes alterações:\n\n“Art. 146. ..............................................................................\n\n§ 1º As medições deverão ser efetuadas pelos agentes competentes na forma da legislação aplicável, por meio de sonômetros devidamente aferidos, de acordo com as normas técnicas em vigor nos imóveis receptores da fonte sonora.\n\n................................................................................................\n\n§ 4º Desde que previamente autorizados pelo Poder Público, os eventos e shows de grande porte, assim definidos em decreto regulamentar, que por sua natureza não ocorrem de forma continuada, estão sujeitos ao limite de pressão sonora RLAqe de 75db (setenta e cinco decibéis).(Interpretação conforme ADIN nº 2287391-09.2022.8.26.0000)\n\n§ 5º As disposições constantes do § 4º deste artigo não eximem os responsáveis do cumprimento de medidas mitigadoras relacionadas com o ruído a serem implementadas no estabelecimento ou entorno, conforme o caso.” (NR)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.853/2022 — São Paulo/SP",
+    "dispositivo": "Art. 13",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17853-de-29-de-novembro-de-2022",
+    "vigencia": {
+      "inicio": "2022-11-29",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=True revoga=False."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Estabelece regras aplicáveis a estabelecimentos formados por um conjunto de cozinhas industriais, utilizadas para produção por diferentes restaurantes e/ou empresas, destinada à comercialização de refeições e alimentos por serviço de entregas, sem acesso de público para consumo no local, configurando operação conjunta ou conglomerado de cozinhas, popularmente conhecidas como dark kitchens e dispõe sobre aspectos fiscalizatórios da Lei nº 16.402, de 22 de março de 2016."
+}

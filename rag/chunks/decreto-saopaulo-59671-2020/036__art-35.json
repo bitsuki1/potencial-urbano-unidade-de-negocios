@@ -1,0 +1,44 @@
+{
+  "chunk_id": "decreto-saopaulo-59671-2020::036-art-35",
+  "lei_id": "decreto-saopaulo-59671-2020",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 35",
+  "numero": "35",
+  "header_raw": "Art. 35. Os responsáveis pelos imóveis localizados nas rotas emergenciais abrangidas pelo Plano Emergencial de Calçadas, instituído pela Lei nº 14.675, de 23 de janeiro de 2008, e detalhado no Decreto nº 58.845, de 10 de julho de 2019, nas vias integrantes do Plano de Pavimentação Urbana Comunitária, instituído pela Lei nº 10.558, de 17 de junho de 1988, e na Rede Viária Estrutural deverão manter as calçadas que fazem testada com estes imóveis em perfeito estado de conservação até que seja executada a intervenção por parte do órgão municipal competente, sob pena de aplicação das sanções previstas em lei.",
+  "caminho_hierarquico": [
+    "CAPÍTULO XII",
+    "Art. 35"
+  ],
+  "texto": "Art. 35. Os responsáveis pelos imóveis localizados nas rotas emergenciais abrangidas pelo Plano Emergencial de Calçadas, instituído pela Lei nº 14.675, de 23 de janeiro de 2008, e detalhado no Decreto nº 58.845, de 10 de julho de 2019, nas vias integrantes do Plano de Pavimentação Urbana Comunitária, instituído pela Lei nº 10.558, de 17 de junho de 1988, e na Rede Viária Estrutural deverão manter as calçadas que fazem testada com estes imóveis em perfeito estado de conservação até que seja executada a intervenção por parte do órgão municipal competente, sob pena de aplicação das sanções previstas em lei.\n\nParágrafo único. Após a execução de intervenção na calçada pelo órgão municipal competente, o responsável pelo imóvel, edificado ou não, permanecerá com a obrigação de mantê-lo sempre em perfeito estado de conservação.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 59.671/2020 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO XII › Art. 35",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59671-de-7-de-agosto-de-2020",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "regularizacao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Consolida os critérios para a padronização das calçadas, bem como regulamenta o disposto nos incisos VII e VIII do “caput” do artigo 240 do Plano Diretor Estratégico, o Capítulo III da Lei nº 15.442, de 9 de setembro de 2011, e a Lei nº 13.293, de 14 de janeiro de 2002."
+}

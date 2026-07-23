@@ -1,0 +1,45 @@
+{
+  "chunk_id": "decreto-saopaulo-57378-2016::016-art-14",
+  "lei_id": "decreto-saopaulo-57378-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 14",
+  "numero": "14",
+  "header_raw": "Art. 14. Nos casos de dúvida de enquadramento, de reenquadramento ou de atividade não relacionada no Anexo Único deste decreto, o enquadramento será realizado mediante deliberação da CTLU.",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 14"
+  ],
+  "texto": "Art. 14. Nos casos de dúvida de enquadramento, de reenquadramento ou de atividade não relacionada no Anexo Único deste decreto, o enquadramento será realizado mediante deliberação da CTLU.\n\n§ 1º Os pedidos referidos no “caput” deste artigo serão protocolados pelos interessados ou encaminhados pelos órgãos municipais competentes ao DEUSO, da SMDU, que deverá formular parecer técnico indicando o grupo de atividade, a respectiva subcategoria de uso e, quando houver, o código CNAE associado à atividade solicitada, para posterior deliberação da CTLU.\n\n§ 2º Para os casos de dúvida ou de novo enquadramento de atividades na subcategoria de uso nRa, prevista no artigo 97 da Lei nº 16.402, de 2016, DEUSO formulará o parecer técnico referido no §1º deste artigo após manifestação de SVMA quanto à compatibilidade ambiental.\n\n§ 3º Será admitida a inclusão de novos enquadramentos de códigos CNAE ou de retificação daqueles previstos no Anexo Único deste decreto, desde que verificada omissão, erro de classificação ou, ainda, por atualização da classificação nacional, mediante deliberação da CTLU, com base em análise realizada pelo DEUSO.\n\n§ 4º Nos casos de reenquadramento nos termos do parágrafo único do artigo 101 da Lei nº 16.402, de 2016, não será necessária a direta correspondência a um determinado grupo de atividade da subcategoria de uso Ind-1a, devendo ser adotado, para fins da permissão do uso nas respectivas zonas, o grupo de atividade mais restritivo da referida subcategoria de uso, conforme disposto no Quadro 4 da referida lei.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.378/2016 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Art. 14",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57378-de-13-de-outubro-de-2016",
+    "vigencia": {
+      "inicio": "2016-10-13",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=True ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "zoneamento",
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta o enquadramento de atividades não residenciais conforme categorias de uso, subcategorias de uso e os grupos de atividades previstos nos artigos 96 a 106 da Lei nº 16.402, de 22 de março de 2016; estabelece procedimentos para a aplicação das disposições relativas ao uso do solo fixadas pela referida lei."
+}

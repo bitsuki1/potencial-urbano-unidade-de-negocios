@@ -1,0 +1,45 @@
+{
+  "chunk_id": "decreto-saopaulo-57378-2016::017-art-15",
+  "lei_id": "decreto-saopaulo-57378-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 15",
+  "numero": "15",
+  "header_raw": "Art. 15. Ficam recepcionadas as licenças de funcionamento expedidas anteriormente à entrada em vigor deste decreto com base no Decreto nº 57.298, de 8 de setembro de 2016.",
+  "caminho_hierarquico": [
+    "CAPÍTULO III",
+    "Art. 15"
+  ],
+  "texto": "Art. 15. Ficam recepcionadas as licenças de funcionamento expedidas anteriormente à entrada em vigor deste decreto com base no Decreto nº 57.298, de 8 de setembro de 2016.\n\nParágrafo único. Aplica-se o disposto no “caput” deste artigo para os pedidos de licenciamento de atividades não residenciais protocolados até a entrada em vigor deste decreto.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.378/2016 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO III › Art. 15",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57378-de-13-de-outubro-de-2016",
+    "vigencia": {
+      "inicio": "2016-10-13",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=True ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "zoneamento",
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta o enquadramento de atividades não residenciais conforme categorias de uso, subcategorias de uso e os grupos de atividades previstos nos artigos 96 a 106 da Lei nº 16.402, de 22 de março de 2016; estabelece procedimentos para a aplicação das disposições relativas ao uso do solo fixadas pela referida lei."
+}

@@ -24,8 +24,12 @@ PENDÊNCIAS DECLARADAS (v1, 2026-07-10):
   · Tabela I (profundidade) não extraída (lookup longo) → fator é ENTRADA do chamador.
   · Tabela V (enquadramento tipo/padrão) não extraída → tipo/padrão são ENTRADA.
   · Faixas dos Arts. 3º/4º/5º da Lei 15.889/2013 em VALORES NOMINAIS DE 2013 — a
-    atualização monetária anual (decreto) NÃO está aplicada; confronto com lançamento
-    de exercício ≠ 2014 exige a tabela do exercício (vintage!).
+    série de atualização monetária anual (decreto) já está INGERIDA em
+    tabelas/iptu-atualizacao-anual.csv (helper fator_atualizacao_iptu, 2013→2026,
+    verificada na fonte oficial). NÃO é aplicada automaticamente às faixas: o fator
+    reseta a cada revisão de PGV (2015/2018/2022/2026, valores absolutos nos anexos) e
+    é questão jurídica aberta se o adicional é corrigido por decreto — o engine expõe o
+    fator, mas não presume onde aplicá-lo (1.3, fail-closed).
 
 Uso: python3 engines/iptu/iptu.py --demo   (auto-teste ancorado em valores da lei)
 """
@@ -44,7 +48,9 @@ LEI_CTM = "Lei Municipal SP nº 6.989/1966 (texto compilado)"
 LEI_VV = "Lei Municipal SP nº 10.235/1986 (texto compilado)"
 LEI_FAIXAS = "Lei Municipal SP nº 15.889/2013"
 NOTA_VIGENCIA_FAIXAS = ("faixas em valores NOMINAIS da Lei 15.889/2013 (vigência 2013-11-05); "
-                        "atualização monetária anual por decreto NÃO aplicada (tabela a ingerir)")
+                        "série de atualização anual por decreto DISPONÍVEL em tabelas/iptu-atualizacao-anual.csv "
+                        "(fator_atualizacao_iptu), reseta a cada revisão de PGV — NÃO aplicada por padrão às "
+                        "faixas do adicional (questão jurídica aberta; 1.3 não presume)")
 
 
 # ---------------------------------------------------------------------------
@@ -153,11 +159,46 @@ def _carrega_isencao():
     return out
 
 
+def _carrega_atualizacao_anual(path=None):
+    """Série ANUAL de atualização do IPTU (tabelas/iptu-atualizacao-anual.csv) — DADO extraído por decreto,
+    verbatim da fonte oficial (1.3/1.7/1.8). Devolve (linhas, completa_ate):
+      linhas = [(ano:int, tipo:str, fator_acum_regime:Decimal|None, regime_base:int, norma:str, disp:str)]
+               ordenado por ano; fator_acum_regime = None em revisao_lei (valores absolutos nos anexos).
+      completa_ate = último exercício VERIFICADO (diretiva '# COMPLETA_ATE: AAAA') — o fator falha-fechado
+                     para ano > completa_ate. Fail-closed se o arquivo sumir/vazio (o motor lê, não inventa)."""
+    p = Path(path) if path else (TAB / "iptu-atualizacao-anual.csv")
+    if not p.exists():
+        raise FileNotFoundError(f"série de atualização anual do IPTU ausente: {p} "
+                                "(o engine lê o fator vigente da tabela, não o inventa)")
+    completa_ate = None
+    for raw in p.read_text(encoding="utf-8").splitlines():
+        m = re.search(r"COMPLETA_ATE:\s*(\d{4})", raw)
+        if raw.lstrip().startswith("#") and m:
+            completa_ate = int(m.group(1))
+    linhas = []
+    with open(p, encoding="utf-8") as f:
+        for row in csv.reader(f):
+            if not row or row[0].lstrip().startswith("#") or row[0].strip() == "ano_ref":
+                continue
+            ano = int(row[0].strip())
+            tipo = row[1].strip()
+            acum = Decimal(row[4].strip()) if (row[4] or "").strip() else None
+            acum = None if tipo == "revisao_lei" else acum
+            regime = int(row[5].strip())
+            linhas.append((ano, tipo, acum, regime, row[6].strip(), row[8].strip()))
+    if not linhas:
+        raise ValueError(f"série de atualização anual do IPTU vazia: {p}")
+    if completa_ate is None:
+        raise ValueError(f"série de atualização anual do IPTU sem diretiva '# COMPLETA_ATE:' — {p}")
+    return sorted(linhas, key=lambda x: x[0]), completa_ate
+
+
 BASE = _carrega_base()
 FAIXAS = _carrega_faixas()
 OBSOLESCENCIA = _carrega_obsolescencia()
 TABELA_VI = _carrega_tabela_vi()
 ISENCAO = _carrega_isencao()
+ATUALIZACAO, ATUALIZACAO_COMPLETA_ATE = _carrega_atualizacao_anual()
 
 USOS = sorted(BASE)
 
@@ -355,6 +396,58 @@ def isencao_iptu(vv, ano_ref=None, residencial_abc=False):
     }
 
 
+def fator_atualizacao_iptu(ano_ref=None, serie=None):
+    """Fator de atualização monetária do IPTU vigente no exercício `ano_ref`, lido de
+    tabelas/iptu-atualizacao-anual.csv (número NASCE do decreto, não do LLM — 1.3/1.7/1.8).
+
+    Semântica HONESTA (a mecânica de SP, ver o cabeçalho do CSV): o fator é ACUMULADO DENTRO de um
+    regime de PGV e RESETA a cada revisão por LEI (que substitui a tabela por valores absolutos nos
+    anexos). Por isso devolve, além do fator, o `regime_base_ano` — o fator só multiplica um valor
+    expresso NA BASE daquele regime; não existe fator contínuo cruzando leis de PGV.
+
+    Fail-closed (nunca chuta):
+      · ano_ref > COMPLETA_ATE (série ainda não verificada além dali) → ValueError com a pendência nomeada.
+      · ano_ref anterior à 1ª linha → ValueError.
+      · se o exercício pedido cai em ano de revisão por LEI (ou o regime vigente começa numa lei cujos
+        anexos ainda não extraímos), devolve fator=1,0 COM `nota` explícita de que os valores absolutos
+        vêm do anexo da lei (não aplicar como % sobre nominal antigo).
+
+    ano_ref None ⇒ vintage MAIS RECENTE verificada. Devolve dict: {fator, regime_base_ano, tipo, norma,
+    dispositivo, ano_ref, nota}."""
+    linhas, completa_ate = serie if serie is not None else (ATUALIZACAO, ATUALIZACAO_COMPLETA_ATE)
+    alvo = completa_ate if ano_ref is None else int(ano_ref)
+    if alvo > completa_ate:
+        raise ValueError(f"atualização IPTU não verificada para exercício {alvo} "
+                         f"(série completa só até {completa_ate}; ingerir o decreto do ano na fonte oficial — "
+                         "1.8: não se interpola/estima percentual)")
+    if alvo < linhas[0][0]:
+        raise ValueError(f"atualização IPTU inexistente para exercício {alvo} "
+                         f"(1ª linha da série = {linhas[0][0]})")
+    escolhido = linhas[0]
+    for ln in linhas:
+        if ln[0] <= alvo:
+            escolhido = ln
+        else:
+            break
+    ano, tipo, acum, regime, norma, disp = escolhido
+    fator = acum if acum is not None else Decimal("1.00")
+    nota = ""
+    if acum is None:  # o exercício vigente é o próprio ano de revisão por LEI
+        nota = (f"exercício {alvo} é de revisão por LEI ({norma}) — valores ABSOLUTOS nos anexos "
+                "(Tabela VI + Listagem de terreno); não aplicar como % sobre nominal anterior. "
+                "Anexos ainda não extraídos linha a linha (pendência nomeada).")
+    return {
+        "fator": str(fator),
+        "regime_base_ano": regime,
+        "tipo": tipo,
+        "norma": norma,
+        "ano_ref": ("mais recente" if ano_ref is None else str(alvo)),
+        "citacao": {"dispositivo": disp, "fonte": "tabelas/iptu-atualizacao-anual.csv"},
+        "nota": nota,
+        "memoria_calculo": f"atualização IPTU exercício {alvo}: fator {fator} (regime base {regime}, {norma})",
+    }
+
+
 def valor_venal(vvt_brl, vvc_brl):
     """Art. 17: VV do imóvel construído = valor do terreno + valor da construção."""
     t = _d(vvt_brl, "vvt_brl"); c = _d(vvc_brl, "vvc_brl")
@@ -419,6 +512,22 @@ def _demo():
     anc_eq("isenç 2025 usa vintage 2022", isencao_iptu("150000", 2025)["citacao"]["fonte"], "Lei nº 17.719/2021")
     anc_eq("isenç 2026 usa vintage 2026", isencao_iptu("150000", 2026)["citacao"]["fonte"], "Lei nº 18.330/2025")
 
+    # ATUALIZAÇÃO ANUAL (série de decretos, tabelas/iptu-atualizacao-anual.csv) — número nasce do decreto (1.3):
+    # fator acumulado DENTRO do regime, resetando a cada lei de PGV (2015/2018/2022/2026).
+    anc_eq("atualiz 2017 (regime 2015: 1,095×1,06)", fator_atualizacao_iptu(2017)["fator"], "1.1607")
+    anc_eq("atualiz 2017 regime_base", fator_atualizacao_iptu(2017)["regime_base_ano"], "2015")
+    anc_eq("atualiz 2020 (regime 2018: 1,035²)", fator_atualizacao_iptu(2020)["fator"], "1.071225")
+    anc_eq("atualiz 2021 herda 2020 (0% pandemia)", fator_atualizacao_iptu(2021)["fator"], "1.071225")
+    anc_eq("atualiz 2025 (regime 2022: 1,055×1,043×1,046)", fator_atualizacao_iptu(2025)["fator"], "1.15098179")
+    anc_eq("atualiz 2025 regime_base", fator_atualizacao_iptu(2025)["regime_base_ano"], "2022")
+    # revisão por LEI: fator 1,0 + nota nomeada (valores absolutos no anexo, não % sobre nominal antigo)
+    anc_eq("atualiz 2026 é revisão-lei (fator 1,0)", fator_atualizacao_iptu(2026)["fator"], "1.00")
+    assert fator_atualizacao_iptu(2026)["tipo"] == "revisao_lei" and fator_atualizacao_iptu(2026)["nota"], \
+        "2026 deveria ser revisao_lei com nota"
+    ok.append("  ✓ atualiz 2026: revisão por LEI (Lei 18.330/2025) com nota de anexo")
+    # ano entre regimes herda o do último exercício verificado do regime; 2013 = base nominal (fator 1,0)
+    anc_eq("atualiz 2013 base nominal", fator_atualizacao_iptu(2013)["fator"], "1.00")
+
     # Fail-closed:
     for nome, fn in [
         ("uso inválido", lambda: iptu_devido("1000", "rural")),
@@ -427,6 +536,7 @@ def _demo():
         ("tipo/padrão fora da Tabela VI", lambda: vv_construcao("100", 9, "Z", "1a", idade=1)),
         ("milhar ambíguo", lambda: iptu_devido("1.000", "residencial")),
         ("uso não mapeado", lambda: uso_canonico("chácara de lazer")),
+        ("atualização além do verificado", lambda: fator_atualizacao_iptu(ATUALIZACAO_COMPLETA_ATE + 1)),
     ]:
         try:
             fn()

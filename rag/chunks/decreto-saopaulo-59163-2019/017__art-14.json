@@ -1,0 +1,43 @@
+{
+  "chunk_id": "decreto-saopaulo-59163-2019::017-art-14",
+  "lei_id": "decreto-saopaulo-59163-2019",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 14",
+  "numero": "14",
+  "header_raw": "Art. 14. Caberá um único recurso, no prazo de até 15 (quinze) dias, contados da publicação, no Diário Oficial da Cidade, dirigido ao titular do órgão ou dirigente de autarquia ou fundação, contra a avaliação do cumprimento dos indicadores específicos realizada pela comissão instituída em cada órgão da administração direta, autarquia ou fundação, na conformidade do disposto no § 2º do artigo 6º da Lei nº 17.224, de 2019.",
+  "caminho_hierarquico": [
+    "Art. 14"
+  ],
+  "texto": "Art. 14. Caberá um único recurso, no prazo de até 15 (quinze) dias, contados da publicação, no Diário Oficial da Cidade, dirigido ao titular do órgão ou dirigente de autarquia ou fundação, contra a avaliação do cumprimento dos indicadores específicos realizada pela comissão instituída em cada órgão da administração direta, autarquia ou fundação, na conformidade do disposto no § 2º do artigo 6º da Lei nº 17.224, de 2019.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 59.163/2019 — São Paulo/SP",
+    "dispositivo": "Art. 14",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59163-de-27-de-dezembro-de-2019",
+    "vigencia": {
+      "inicio": "2019-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a concessão da Bonificação por Resultados - BR, instituída pela Lei nº 17.224, de 31 de outubro de 2019, aos agentes públicos municipais, na forma e condições que especifica."
+}

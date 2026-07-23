@@ -1,0 +1,52 @@
+{
+  "chunk_id": "decreto-saopaulo-57776-2017::035-art-34",
+  "lei_id": "decreto-saopaulo-57776-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 34",
+  "numero": "34",
+  "header_raw": "Art. 34. Mediante procedimento administrativo, o proprietário, possuidor ou responsável técnico deve cadastrar, nos sistemas da Prefeitura, os seguintes equipamentos:",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção II",
+    "Art. 34"
+  ],
+  "texto": "Art. 34. Mediante procedimento administrativo, o proprietário, possuidor ou responsável técnico deve cadastrar, nos sistemas da Prefeitura, os seguintes equipamentos:\n\nI - equipamentos mecânicos de transporte permanente, tais como elevador, escada rolante, plataforma de elevação e sistema de estacionamento mecânico vertical;\n\nII - tanques de armazenagem, bombas, filtros de combustível e equipamentos afins quando referentes a:\n\na) tanques estacionários de armazenamento de produtos químicos inflamáveis, combustíveis e/ou perigosos, nas fases líquida ou gasosa, com volume superior a 500L (quinhentos litros);\n\nb) bombas de abastecimento de líquido, “dispensers” de abastecimento de gás, bombas de recalque, máquinas e motores associados aos tanques de que trata a alínea “a” deste inciso;\n\nc) filtros de combustível para abastecimento de veículos;\n\nd) equipamentos afins definidos em portaria;\n\nIII - equipamentos de sistema especial de segurança nas edificações que:\n\na) atendam às condições de segurança de uso definidas nas Leis nº 8.266, de 20 de junho de 1975, e nº 11.228, de 25 de junho de 1992, e no Decreto nº 10.878, de 7 de fevereiro de 1974;\n\nb) tenham recebido documentos conforme disposições relativas à segurança definidas nas Leis nº 10.199, de 3 de dezembro de 1986, e nº 13.558 de 14 de abril de 2003, e que não tenham sido objeto de alterações de ordem física e/ou de utilização em relação ao documento recebido;\n\nc) que venham a receber o Certificado de Conclusão, o Certificado de Segurança ou o Certificado de Regularização, emitidos nos termos do COE e deste decreto.\n\n§ 1º Não se incluem dentre os equipamentos constantes do inciso I do “caput” deste artigo os guinchos usados em obras, para transporte de material, guindastes, empilhadeiras móveis, elevadores para canteiros de obras de construção civil e outros não relacionados nos incisos I a XV do artigo 2º da Lei nº 10.348, de 4 de setembro de 1987.\n\n§ 2º Não se incluem dentre os equipamentos constantes do inciso II do “caput” deste artigo, os tanques de gases medicinais, tanques de gases inertes, silos ou quaisquer tanques que não sejam de armazenagem, como aqueles envolvidos em processos ou presentes em equipamentos de refrigeração.\n\n§ 3º Não são passíveis do cadastramento de que trata o inciso III do “caput” deste artigo: as edificações de uso residencial e as edificações de uso não residenciais com área construída total acima de 750,00m² (setecentos e cinquenta metros quadrados) e que necessitem de menos de 2 (duas) escadas a prova de fumaça, conforme NTOs e Its, podendo o cadastro ser substituído pelo AVCB.\n\n§ 4º O licenciamento do funcionamento de elevadores e aparelhos de transporte se dará quando do seu cadastro no sistema de licenciamento eletrônico, composto da inscrição do aparelho e do Relatório de Inspeção Anual – RIA, observadas as seguintes normas:\n\nI - no ato da inscrição no Cadastro de Equipamentos, deverão ser fornecidos os dados técnicos do aparelho e dados cadastrais do imóvel no qual está instalado;\n\nII - será de responsabilidade da empresa conservadora a confecção da chapa a ser fixada no elevador, obedecendo os padrões estabelecidos pela Prefeitura;\n\nIII - as sanções previstas no COE e nos artigos 13, 14 e 15 da Lei nº 10.348, de 1987 serão aplicadas, quando couber, desde que não sejam conflitantes entre si.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.776/2017 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção II › Art. 34",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57776-de-07-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 16.642, de 9 de maio de 2017, que aprovou o Código de Obras e Edificações do Município de São Paulo; define os membros da Comissão de Edificações e Uso do Solo – CEUSO."
+}

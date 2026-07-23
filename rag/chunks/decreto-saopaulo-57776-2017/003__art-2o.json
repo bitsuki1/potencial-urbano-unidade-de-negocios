@@ -1,0 +1,51 @@
+{
+  "chunk_id": "decreto-saopaulo-57776-2017::003-art-2o",
+  "lei_id": "decreto-saopaulo-57776-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 2º",
+  "numero": "2",
+  "header_raw": "Art. 2º Para os fins deste decreto, os órgãos, entidades e expressões serão identificados pelas seguintes siglas ou abreviaturas:",
+  "caminho_hierarquico": [
+    "CAPÍTULO I",
+    "Art. 2º"
+  ],
+  "texto": "Art. 2º Para os fins deste decreto, os órgãos, entidades e expressões serão identificados pelas seguintes siglas ou abreviaturas:\n\nI - ART – Anotação de Responsabilidade Técnica perante o CREA;\n\nII - AVCB – Auto de Vistoria do Corpo de Bombeiros;\n\nIII - CAU – Conselho de Arquitetura e Urbanismo;\n\nIV - CCIR – Certificado de Cadastro de Imóvel Rural;\n\nV - CEPAC – Certificado de Potencial Adicional Construtivo;\n\nVI - COE – Código de Obras e Edificações;\n\nVII - CREA– Conselho Regional de Engenharia e Agronomia;\n\nVIII - DIS – Decreto de Declaração de Interesse Social;\n\nIX - DOC – Diário Oficial da Cidade;\n\nX - DUP – Decreto de Declaração de Utilidade Pública;\n\nXI - ISS – Imposto Sobre Serviços de Qualquer Natureza;\n\nXII - IEOS – Intimação para Execução de Obras e Serviços;\n\nXIII - IT – Instrução Técnica (Corpo de Bombeiros);\n\nXIV - LOE – Legislação de Obras e Edificações, incluindo o COE;\n\nXV - LPUOS – Legislação de Parcelamento, Uso e Ocupação do Solo;\n\nXVI - NEC – Notificação de Exigências Complementares;\n\nXVII - NT – Norma Técnica, expedida por órgão competente, exceto ABNT;\n\nXVIII - NTO – Norma Técnica Oficial (registrada na Associação Brasileira de Normas Técnicas - ABNT);\n\nXIX - OU – Operação Urbana;\n\nXX - OUC – Operação Urbana Consorciada;\n\nXXI - PDE – Plano Diretor Estratégico;\n\nXXII - PR – Prefeitura Regional;\n\nXXIII - Prefeitura - Prefeitura do Município de São Paulo;\n\nXXIV - RRT – Registro de Responsabilidade Técnica perante o CAU;\n\nXXV - SLCe – Sistema de Licenciamento Eletrônico de Construção;\n\nXXVI - SMPR – Secretaria Municipal das Prefeituras Regionais;\n\nXXVII - SMUL – Secretaria Municipal de Urbanismo e Licenciamento;\n\nXXVIII - TEV/COE – Taxa para Exame e Verificação dos Pedidos de Documentos de Controle da Atividade Edilícia.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.776/2017 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO I › Art. 2º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57776-de-07-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 16.642, de 9 de maio de 2017, que aprovou o Código de Obras e Edificações do Município de São Paulo; define os membros da Comissão de Edificações e Uso do Solo – CEUSO."
+}

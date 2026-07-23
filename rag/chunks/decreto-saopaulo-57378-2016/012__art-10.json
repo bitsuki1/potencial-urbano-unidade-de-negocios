@@ -1,0 +1,46 @@
+{
+  "chunk_id": "decreto-saopaulo-57378-2016::012-art-10",
+  "lei_id": "decreto-saopaulo-57378-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 10",
+  "numero": "10",
+  "header_raw": "Art. 10. A implantação de empreendimentos, usos e atividades em imóveis públicos, ainda quando cedidos a particulares, é isenta da destinação de área pública prevista nos artigos 44 e 45 e no Quadro 2 da Lei nº 16.402, de 2016.",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção III",
+    "Art. 10"
+  ],
+  "texto": "Art. 10. A implantação de empreendimentos, usos e atividades em imóveis públicos, ainda quando cedidos a particulares, é isenta da destinação de área pública prevista nos artigos 44 e 45 e no Quadro 2 da Lei nº 16.402, de 2016.\n\nCAPÍTULO III\n\nDAS DISPOSIÇÕES FINAIS",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.378/2016 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção III › Art. 10",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57378-de-13-de-outubro-de-2016",
+    "vigencia": {
+      "inicio": "2016-10-13",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=True ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "zoneamento",
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta o enquadramento de atividades não residenciais conforme categorias de uso, subcategorias de uso e os grupos de atividades previstos nos artigos 96 a 106 da Lei nº 16.402, de 22 de março de 2016; estabelece procedimentos para a aplicação das disposições relativas ao uso do solo fixadas pela referida lei."
+}

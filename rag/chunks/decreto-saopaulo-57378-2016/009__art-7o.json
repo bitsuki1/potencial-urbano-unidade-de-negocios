@@ -1,0 +1,48 @@
+{
+  "chunk_id": "decreto-saopaulo-57378-2016::009-art-7o",
+  "lei_id": "decreto-saopaulo-57378-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 7º",
+  "numero": "7",
+  "header_raw": "Art. 7º Para fins de aplicação da Lei nº 16.402, de 2016, considera-se atividade auxiliar às subcategorias de uso INFRA-1 e INFRA-2 aquela que, cumulativamente: (Redação dada pelo Decreto nº 65.147/2026)",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção I",
+    "Art. 7º"
+  ],
+  "texto": "Art. 7º Para fins de aplicação da Lei nº 16.402, de 2016, considera-se atividade auxiliar às subcategorias de uso INFRA-1 e INFRA-2 aquela que, cumulativamente: (Redação dada pelo Decreto nº 65.147/2026)\n\nI - tenha acesso direto e exclusivo pelas áreas internas de circulação do empreendimento enquadrado como INFRA-1 ou INFRA-2;\n\nI - tenha acesso direto e exclusivo pelas áreas internas de circulação do empreendimento; (Redação dada pelo Decreto nº 65.147/2026)\n\nII - não tenha acesso direto a logradouro público;\n\nIII - não cause interferência nas rotas de fuga e circulação geral dos usuários, atestada pelo órgão gestor do empreendimento enquadrado nas subcategorias de uso INFRA-1 ou INFRA-2;\n\nIV - esteja enquadrada nos grupos de atividades nR1-1, nR1-2, nR1-3, nR1-4, nR1-5, nR1-6, nR1-7, nR1-10 e nR1-11 da subcategoria de uso nR1, prevista no artigo 98 da Lei nº 16.402, de 2016;\n\nV - tenha passado por avaliação técnica favorável do órgão gestor do empreendimento enquadrado nas subcategorias de uso INFRA-1 ou INFRA-2.\n\nParágrafo único. As atividades de que trata o “caput” deste artigo não estão dispensadas da obtenção da licença correspondente perante o órgão municipal competente, conforme artigo 136 da Lei nº 16.402, de 2016.\n\nIII - não cause interferência nas rotas de fuga e na circulação geral dos usuários, conforme atestado pelo órgão gestor do empreendimento; (Redação dada pelo Decreto nº 65.147/2026)\n\nIV - esteja enquadrada nos grupos de atividades nR1-1, nR1-2, nR1-3, nR1-4, nR1-5, nR1-6, nR1-7, nR1-10 e nR1-11 da subcategoria nR1, prevista no art. 98 da Lei nº 16.402, de 2016; (Redação dada pelo Decreto nº 65.147/2026)\n\nV - tenha sido objeto de avaliação técnica favorável do órgão gestor do empreendimento. (Redação dada pelo Decreto nº 65.147/2026)\n\n§ 1º Nos empreendimentos enquadrados como INFRA-2 destinados ao transporte aéreo, admitem-se atividades complementares ou inerentes ao uso principal, ainda que não atendidos cumulativamente os requisitos previstos nos incisos I a IV do “caput” deste artigo, inclusive quando, por sua natureza funcional, demandem interface com o logradouro público, desde que: (Incluído pelo Decreto nº 65.147/2026)\n\nI - apresentem vínculo funcional, operacional ou de suporte com a atividade aeroportuária; (Incluído pelo Decreto nº 65.147/2026)\n\nII - não impliquem descaracterização do uso predominante como INFRA-2; (Incluído pelo Decreto nº 65.147/2026)\n\nIII - sejam compatíveis com a segurança operacional e com os fluxos de pessoas, veículos e cargas do empreendimento; (Incluído pelo Decreto nº 65.147/2026)\n\nIV - sejam submetidas à avaliação técnica favorável do órgão gestor quanto à sua integração ao funcionamento do complexo aeroportuário; (Incluído pelo Decreto nº 65.147/2026)\n\nV - atendam às condições de instalação e de licenciamento previstas na legislação municipal aplicável. (Incluído pelo Decreto nº 65.147/2026)\n\n§ 2º As atividades referidas no § 1º poderão incluir, entre outras, serviços de alimentação e comércio, apoio logístico, mobilidade, estacionamento e facilidades aos usuários, desde que funcionalmente integradas à operação do aeroporto, nos limites dos atos de autorização, permissão ou concessão. (Incluído pelo Decreto nº 65.147/2026)\n\n§ 3º A existência dessas atividades não descaracteriza o enquadramento do empreendimento como INFRA-2 para fins urbanísticos. (Incluído pelo Decreto nº 65.147/2026)\n\n§ 4º As atividades de que trata este artigo permanecem sujeitas ao licenciamento específico perante os órgãos competentes, nos termos da legislação aplicável. (Incluído pelo Decreto nº 65.147/2026)\n\nSeção II\n\nDos complexos de saúde, educação em saúde e pesquisa em saúde",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "2026",
+    "norma_redacao": "Decreto nº 65.147/2026"
+  },
+  "citacao": {
+    "norma": "decreto nº 57.378/2016 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção I › Art. 7º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57378-de-13-de-outubro-de-2016",
+    "vigencia": {
+      "inicio": "2016-10-13",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=True ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "zoneamento",
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta o enquadramento de atividades não residenciais conforme categorias de uso, subcategorias de uso e os grupos de atividades previstos nos artigos 96 a 106 da Lei nº 16.402, de 22 de março de 2016; estabelece procedimentos para a aplicação das disposições relativas ao uso do solo fixadas pela referida lei."
+}

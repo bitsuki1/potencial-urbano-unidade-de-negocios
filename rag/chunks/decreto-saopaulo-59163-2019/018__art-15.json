@@ -1,0 +1,43 @@
+{
+  "chunk_id": "decreto-saopaulo-59163-2019::018-art-15",
+  "lei_id": "decreto-saopaulo-59163-2019",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 15",
+  "numero": "15",
+  "header_raw": "Art. 15. O agente público poderá, no prazo de 15 (quinze) dias, contados do pagamento da sua Bonificação de Resultados - BR, impugnar o fator individual utilizado para o seu cálculo, referido no inciso II do art. 10 deste decreto, mediante requerimento a ser protocolado na respectiva unidade de recursos humanos do órgão da administração direta, autarquia ou fundação a que se encontre vinculado, incumbindo a sua apreciação ao chefe ou diretor da respectiva unidade.",
+  "caminho_hierarquico": [
+    "Art. 15"
+  ],
+  "texto": "Art. 15. O agente público poderá, no prazo de 15 (quinze) dias, contados do pagamento da sua Bonificação de Resultados - BR, impugnar o fator individual utilizado para o seu cálculo, referido no inciso II do art. 10 deste decreto, mediante requerimento a ser protocolado na respectiva unidade de recursos humanos do órgão da administração direta, autarquia ou fundação a que se encontre vinculado, incumbindo a sua apreciação ao chefe ou diretor da respectiva unidade.\n\nParágrafo único. Contra a decisão do chefe ou diretor da unidade de recursos humanos de lotação do agente público, caberá um único recurso a ser apresentado, no prazo de 15 (dias), contados da publicação da decisão recorrida no Diário Oficial da Cidade, à autoridade imediatamente superior.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 59.163/2019 — São Paulo/SP",
+    "dispositivo": "Art. 15",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59163-de-27-de-dezembro-de-2019",
+    "vigencia": {
+      "inicio": "2019-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a concessão da Bonificação por Resultados - BR, instituída pela Lei nº 17.224, de 31 de outubro de 2019, aos agentes públicos municipais, na forma e condições que especifica."
+}

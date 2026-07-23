@@ -1,0 +1,48 @@
+{
+  "chunk_id": "lei-federal-6938-1981::001-preambulo",
+  "lei_id": "lei-federal-6938-1981",
+  "tipo_dispositivo": "preambulo",
+  "rotulo": "Preâmbulo",
+  "numero": null,
+  "header_raw": null,
+  "caminho_hierarquico": [],
+  "texto": "LEI Nº 6.938, DE 31 DE AGOSTO DE 1981\n\nTexto compilado\n\nRegulamento\n\nRegulamento\n\nMensagem de veto\n\n(Vide\n\nDecreto de 15 de setembro de 2010)\n\nDispõe\n\nsobre a Política Nacional do Meio Ambiente, seus fins e mecanismos de formulação e\n\naplicação, e dá outras providências.\n\nO PRESIDENTE DA\n\nREPÚBLICA , faço saber que o CONGRESSO NACIONAL decreta e eu sanciono a seguinte\n\nLei:\n\nArt\n\n1º - Esta Lei, com fundamento no\n\nart. 8º, item XVII, alíneas c,\n\nh e\n\ni ,\n\nda Constituição Federal, estabelece a Política Nacional do Meio Ambiente, seus fins e\n\nmecanismos de formulação e aplicação, constitui o Sistema Nacional do Meio Ambiente,\n\ncria o Conselho Nacional do Meio Ambiente e institui o Cadastro Técnico Federal de\n\nAtividades e Instrumentos de Defesa Ambiental.",
+  "citavel": false,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 6.938/1981 — Brasil",
+    "dispositivo": "Preâmbulo",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6938.htm",
+    "vigencia": {
+      "inicio": "1981-08-31",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (texto consolidado do Planalto/ccivil_03)"
+      ],
+      "revogada_por": null,
+      "observacao": "Lei federal-quadro do meio ambiente (PNMA). Moldura FEDERAL das restrições ambientais (licenciamento, zoneamento ambiental, APP) que limitam o aproveitamento de terrenos e, por consequência, o potencial construtivo e a base venal em SP. Texto consolidado do Planalto capturado 2026-07-19; em vigor. dominio COMPARTILHADO (moldura ambiental que toca os dois domínios). revisado_por_humano=false."
+    }
+  },
+  "tema": [
+    "politica_ambiental",
+    "meio_ambiente",
+    "licenciamento_ambiental",
+    "zoneamento_ambiental",
+    "responsabilidade_ambiental",
+    "sisnama"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre a Política Nacional do Meio Ambiente, seus fins e mecanismos de formulação e aplicação, e dá outras providências."
+}

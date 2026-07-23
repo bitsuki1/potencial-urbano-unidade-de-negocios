@@ -1,0 +1,52 @@
+{
+  "chunk_id": "decreto-saopaulo-57776-2017::030-art-29",
+  "lei_id": "decreto-saopaulo-57776-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 29",
+  "numero": "29",
+  "header_raw": "Art. 29. O pedido de Certificado de Segurança poderá ser solicitado pelo proprietário ou possuidor da edificação existente que necessitar de espaço de circulação protegido, conforme NTO, e não tiverem Auto de Verificação de Segurança – AVS.",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção II",
+    "Art. 29"
+  ],
+  "texto": "Art. 29. O pedido de Certificado de Segurança poderá ser solicitado pelo proprietário ou possuidor da edificação existente que necessitar de espaço de circulação protegido, conforme NTO, e não tiverem Auto de Verificação de Segurança – AVS.\n\n§ 1º O pedido de Certificado de Segurança deve ser instruído com os documentos fixados em portaria, bem como com aqueles constantes do artigo 44 do COE.\n\n§ 2º Excluem-se da necessidade de Certificado de Segurança:\n\nI - as edificações residenciais;\n\nII - as edificações aprovadas após 20 de junho de 1975, data da edição da Lei nº 8.266, de 20 de junho de 1975, que tenham Auto ou Certificado de Conclusão e que não sofreram alterações de ordem física ou de utilização em relação ao regularmente licenciado.\n\n§ 3º Nas edificações não residenciais com área construída total acima de 750m² (setecentos e cinquenta metros quadrados) e que não se enquadrem no “caput” deste artigo, o Certificado de Segurança poderá ser substituído pelo AVCB.\n\n§ 4º O pedido de Certificado de Segurança inclui a emissão do Cadastro do Sistema Especial de Segurança, devendo a TEV/COE do projeto ser recolhida somente para o assunto requerido.\n\nSubseção VII\n\nDo Alvará de Autorização",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.776/2017 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção II › Art. 29",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57776-de-07-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 16.642, de 9 de maio de 2017, que aprovou o Código de Obras e Edificações do Município de São Paulo; define os membros da Comissão de Edificações e Uso do Solo – CEUSO."
+}

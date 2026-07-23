@@ -1,0 +1,44 @@
+{
+  "chunk_id": "decreto-saopaulo-59671-2020::024-art-23",
+  "lei_id": "decreto-saopaulo-59671-2020",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 23",
+  "numero": "23",
+  "header_raw": "Art. 23. A ampliação da calçada poderá ser executada de forma parcial ou total, em meio de quadra e/ou nas esquinas, mediante aprovação dos órgãos públicos competentes, respeitadas a Normas Técnicas de Acessibilidade da ABNT - Associação Brasileira de Normas Técnicas e a resolução do Conselho Nacional de Trânsito a respeito, conforme o Anexo VII deste decreto.",
+  "caminho_hierarquico": [
+    "CAPÍTULO IX",
+    "Art. 23"
+  ],
+  "texto": "Art. 23. A ampliação da calçada poderá ser executada de forma parcial ou total, em meio de quadra e/ou nas esquinas, mediante aprovação dos órgãos públicos competentes, respeitadas a Normas Técnicas de Acessibilidade da ABNT - Associação Brasileira de Normas Técnicas e a resolução do Conselho Nacional de Trânsito a respeito, conforme o Anexo VII deste decreto.\n\n§ 1° A ampliação da calçada será realizada preferencialmente por meio de alargamento físico e no mesmo nível da calçada preexistente, ou por meio de pintura e sinalização sobre a pista de rolamento.\n\n§ 2° Quando a ampliação abranger área com árvores e/ou postes preexistentes, excepcionalmente, poderá ser aceita a inversão das faixas livre e de serviço.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 59.671/2020 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO IX › Art. 23",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59671-de-7-de-agosto-de-2020",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "regularizacao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Consolida os critérios para a padronização das calçadas, bem como regulamenta o disposto nos incisos VII e VIII do “caput” do artigo 240 do Plano Diretor Estratégico, o Capítulo III da Lei nº 15.442, de 9 de setembro de 2011, e a Lei nº 13.293, de 14 de janeiro de 2002."
+}

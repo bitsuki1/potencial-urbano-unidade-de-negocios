@@ -1,0 +1,54 @@
+{
+  "chunk_id": "decreto-saopaulo-57776-2017::086-art-85",
+  "lei_id": "decreto-saopaulo-57776-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 85",
+  "numero": "85",
+  "header_raw": "Art. 85. Mesmo durante o embargo, acaso constatada situação de risco, em vistoria técnica realizada por servidor com competência específica, além das autuações referidas nos artigos 82 a 84 do COE, deve ser imediatamente lavrado o auto de interdição, seguindo-se, no que couber, os procedimentos previstos neste capítulo.",
+  "caminho_hierarquico": [
+    "CAPÍTULO VI",
+    "Seção I",
+    "Art. 85"
+  ],
+  "texto": "Art. 85. Mesmo durante o embargo, acaso constatada situação de risco, em vistoria técnica realizada por servidor com competência específica, além das autuações referidas nos artigos 82 a 84 do COE, deve ser imediatamente lavrado o auto de interdição, seguindo-se, no que couber, os procedimentos previstos neste capítulo.\n\n§ 1º Na hipótese prevista no “caput” deste artigo, poderá ocorrer o levantamento parcial do embargo para o fim específico da execução das medidas necessárias à eliminação do risco, ficando condicionado à apresentação de ART ou RRT relacionando os serviços a serem executados e seu cronograma de execução.\n\n§ 2º Eliminado o risco, retorna-se à situação de embargo, o qual somente cessará nas hipóteses estabelecidas no § 4º do artigo 81 deste decreto.\n\n§ 2º Eliminado o risco, retorna-se à situação de embargo, o qual somente cessará nas hipóteses estabelecidas no § 4º do artigo 83 deste decreto.(Redação dada pelo Decreto nº 57.815/2017)\n\n§ 3º Quaisquer trabalhos ou serviços que extrapolem o previsto no § 1º deste artigo caracterizarão resistência ao embargo e à interdição, ensejando as penalidades previstas no COE.\n\nSeção II\n\nDa Verificação da Estabilidade, Segurança e Salubridade da Obra",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "2017",
+    "norma_redacao": "Decreto nº 57.815/2017"
+  },
+  "citacao": {
+    "norma": "decreto nº 57.776/2017 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO VI › Seção I › Art. 85",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57776-de-07-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 16.642, de 9 de maio de 2017, que aprovou o Código de Obras e Edificações do Município de São Paulo; define os membros da Comissão de Edificações e Uso do Solo – CEUSO."
+}

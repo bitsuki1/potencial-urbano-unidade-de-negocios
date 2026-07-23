@@ -1,0 +1,52 @@
+{
+  "chunk_id": "decreto-saopaulo-57776-2017::058-art-57",
+  "lei_id": "decreto-saopaulo-57776-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 57",
+  "numero": "57",
+  "header_raw": "Art. 57. Caso se tenha notícia de fato que possa ensejar a cassação ou anulação de Alvará de Aprovação ou de Execução de edificação, nos termos dos incisos II e III do artigo 63 do COE, a Coordenadoria competente notificará o interessado para apresentar defesa no prazo de 30 (trinta) dias contados da data da publicação da chamada no DOC, de forma a garantir o contraditório e a ampla defesa, podendo, na defesa, comprovar ter sido sanada a irregularidade.",
+  "caminho_hierarquico": [
+    "CAPÍTULO IV",
+    "Seção I",
+    "Art. 57"
+  ],
+  "texto": "Art. 57. Caso se tenha notícia de fato que possa ensejar a cassação ou anulação de Alvará de Aprovação ou de Execução de edificação, nos termos dos incisos II e III do artigo 63 do COE, a Coordenadoria competente notificará o interessado para apresentar defesa no prazo de 30 (trinta) dias contados da data da publicação da chamada no DOC, de forma a garantir o contraditório e a ampla defesa, podendo, na defesa, comprovar ter sido sanada a irregularidade.\n\n§ 1º Por motivo relevante ou para evitar prejuízo de difícil reparação, será proferido despacho suspendendo os efeitos do Alvará de Aprovação ou do Alvará de Execução de edificação até a decisão sobre sua anulação ou cassação.\n\n§ 2º Decorrido o prazo para defesa, a Prefeitura poderá efetuar as diligências cabíveis e pedir esclarecimentos a outro órgão público envolvido.\n\n§ 3º No prazo de 30 (trinta) dias, a autoridade deverá decidir a respeito da anulação ou cassação do Alvará de Aprovação ou do Alvará de Execução de edificação.\n\n§ 4º Do despacho que anular ou cassar o alvará, caberá um único recurso no prazo de 30 (trinta) dias, contados de sua publicação no DOC, a ser apreciado pelo Secretário Municipal de Urbanismo e Licenciamento ou Prefeito Regional, no âmbito de suas respectivas competências.\n\n§ 5º A decisão do recurso pelo Secretário Municipal de Urbanismo e Licenciamento ou Prefeito Regional encerra definitivamente a instância administrativa a respeito de declaração de nulidade, anulação ou cassação do alvará.\n\n§ 6º As notificações e comunicações de decisões de que tratam este artigo serão publicadas no DOC e poderão ser enviadas ao interessado por meio do endereço eletrônico cadastrado no processo.\n\nSeção II\n\nDas Instâncias e Prazos para Despacho",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.776/2017 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO IV › Seção I › Art. 57",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57776-de-07-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 16.642, de 9 de maio de 2017, que aprovou o Código de Obras e Edificações do Município de São Paulo; define os membros da Comissão de Edificações e Uso do Solo – CEUSO."
+}

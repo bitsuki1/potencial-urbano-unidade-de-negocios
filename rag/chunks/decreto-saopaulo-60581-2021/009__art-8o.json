@@ -1,0 +1,44 @@
+{
+  "chunk_id": "decreto-saopaulo-60581-2021::009-art-8o",
+  "lei_id": "decreto-saopaulo-60581-2021",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 8º",
+  "numero": "8",
+  "header_raw": "Art. 8º Realizado o embargo administrativo, o infrator só poderá retomar o prosseguimento das atividades no local após sanadas as irregularidades que deram causa à violação aos limites impostos no artigo 2º deste decreto, e após ter sido deferido o pedido de desembargo da obra.",
+  "caminho_hierarquico": [
+    "Art. 8º"
+  ],
+  "texto": "Art. 8º Realizado o embargo administrativo, o infrator só poderá retomar o prosseguimento das atividades no local após sanadas as irregularidades que deram causa à violação aos limites impostos no artigo 2º deste decreto, e após ter sido deferido o pedido de desembargo da obra.\n\n§ 1º O pedido de desembargo será analisado pelo Diretor do PSIU em despacho fundamentado e publicado no Diário Oficial da Cidade.\n\n§ 2º O pedido de desembargo será analisado no prazo máximo de 30 (trinta) dias, após o qual, não havendo decisão expressa, considerar-se-á deferido.\n\n§ 3º Do indeferimento do pedido de desembargo caberá recurso ao Diretor do Departamento Geral de Uso e Ocupação do Solo - DEGUOS, da Secretaria Municipal das Subprefeituras – SMSUB, no prazo de 15 (quinze) dias.\n\n§ 4º O indeferimento de um pedido de desembargo, seja em primeira, seja em segunda instância administrativa, não impede o posterior protocolamento, a qualquer tempo, de novo pedido de desembargo, desde que sanadas as irregularidades que motivaram o indeferimento anterior.\n\n§ 5º Depois do desembargo da obra, caso constatado o cometimento de nova infração, será reiniciado o procedimento fiscalizatório previsto nos §§ 3º, 4º e 5º do artigo 5º deste decreto.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 60.581/2021 — São Paulo/SP",
+    "dispositivo": "Art. 8º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-60581-de-27-de-setembro-de-2021",
+    "vigencia": {
+      "inicio": "2021-09-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    }
+  },
+  "tema": [
+    "zoneamento",
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta o controle de ruídos na execução das obras de construção civil no Município de São Paulo."
+}

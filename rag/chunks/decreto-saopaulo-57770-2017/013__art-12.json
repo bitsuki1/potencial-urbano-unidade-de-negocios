@@ -1,0 +1,44 @@
+{
+  "chunk_id": "decreto-saopaulo-57770-2017::013-art-12",
+  "lei_id": "decreto-saopaulo-57770-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 12",
+  "numero": "12",
+  "header_raw": "Art. 12. O acesso às aplicações WebMap é livre e aberto e deverá ser disponibilizado a todas as unidades e entes da Administração Municipal Direta e Indireta, bem como ser entre eles compartilhado, com o devido suporte de tecnologia da informação adequada ao tratamento e gerenciamento de bancos de dados.",
+  "caminho_hierarquico": [
+    "SEÇÃO III",
+    "Art. 12"
+  ],
+  "texto": "Art. 12. O acesso às aplicações WebMap é livre e aberto e deverá ser disponibilizado a todas as unidades e entes da Administração Municipal Direta e Indireta, bem como ser entre eles compartilhado, com o devido suporte de tecnologia da informação adequada ao tratamento e gerenciamento de bancos de dados.\n\n§ 1º As informações gráficas serão constituídas pelas representações dos eventos com expressão espacial consolidadas nas aplicações WebMap, nos termos do artigo 3º deste decreto.\n\n§ 2º As informações alfanuméricas serão constituídas por aquelas constantes dos cadastros municipais e de outras bases de dados de interesse público, passíveis de integração com a base geoespacial e poderão ser consultadas através das aplicações WebMap, nos termos do inciso II do “caput” do artigo 3º deste decreto.\n\n§ 3º Os dados alfanuméricos e geoespaciais, assim como os arquivos cujo conteúdo seja de interesse dos usuários, estarão organizados por tema e disponíveis para download, respeitando-se as situações de sigilo definidas pela legislação.\n\nSEÇÃO IV\n\nDo Mapa Digital da Cidade - MDC",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.770/2017 — São Paulo/SP",
+    "dispositivo": "SEÇÃO III › Art. 12",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57770-de-03-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-03",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Confere nova regulamentação ao Sistema de Informações Geográficas do Município de São Paulo SIG - SP."
+}

@@ -1,0 +1,44 @@
+{
+  "chunk_id": "decreto-saopaulo-59671-2020::023-art-22",
+  "lei_id": "decreto-saopaulo-59671-2020",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 22",
+  "numero": "22",
+  "header_raw": "Art. 22. No caso de áreas com declividade acentuada, a calçada deverá atender, conforme o Anexo VI deste decreto, aos seguintes critérios:",
+  "caminho_hierarquico": [
+    "CAPÍTULO IX",
+    "Art. 22"
+  ],
+  "texto": "Art. 22. No caso de áreas com declividade acentuada, a calçada deverá atender, conforme o Anexo VI deste decreto, aos seguintes critérios:\n\nI - nas situações em que as calçadas apresentem declividade longitudinal superior a 12% (doze por cento), poderão ser implantados degraus, exclusivamente dentro das faixas de serviço ou acesso e com as dimensões previstas nas Normas Técnicas da ABNT - Associação Brasileira de Normas Técnicas ou por norma que venha a substituí-las;\n\nII - para a entrada de veículos, serão admitidas inclinações transversais na faixa de acesso e na faixa de serviço superiores a 8,33% (oito vírgula trinta e três por cento), preservando-se a inclinação máxima de 3% (três por cento) na faixa livre.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 59.671/2020 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO IX › Art. 22",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59671-de-7-de-agosto-de-2020",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "regularizacao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Consolida os critérios para a padronização das calçadas, bem como regulamenta o disposto nos incisos VII e VIII do “caput” do artigo 240 do Plano Diretor Estratégico, o Capítulo III da Lei nº 15.442, de 9 de setembro de 2011, e a Lei nº 13.293, de 14 de janeiro de 2002."
+}

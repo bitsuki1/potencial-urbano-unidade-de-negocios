@@ -1,0 +1,52 @@
+{
+  "chunk_id": "decreto-saopaulo-57776-2017::009-art-8o",
+  "lei_id": "decreto-saopaulo-57776-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 8º",
+  "numero": "8",
+  "header_raw": "Art. 8º O possuidor tem os mesmos direitos do proprietário e poderá requerer a emissão do documento em seu nome, desde que apresente a certidão da matrícula ou, quando for o caso, da transcrição emitida pelo Cartório de Registro de Imóveis, acompanhada de cópia de um dos seguintes documentos:",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção I",
+    "Art. 8º"
+  ],
+  "texto": "Art. 8º O possuidor tem os mesmos direitos do proprietário e poderá requerer a emissão do documento em seu nome, desde que apresente a certidão da matrícula ou, quando for o caso, da transcrição emitida pelo Cartório de Registro de Imóveis, acompanhada de cópia de um dos seguintes documentos:\n\nI - contrato particular com autorização expressa do proprietário para obter o documento de controle da atividade edilícia para o imóvel;\n\nII - compromisso ou promessa de compra e venda, registrado ou averbado no Cartório de Registro de Imóveis;\n\nIII - contrato representativo da relação jurídica existente entre o proprietário e o possuidor ou detentor do imóvel;\n\nIV - escritura definitiva de transmissão da propriedade ainda não registrada perante o Cartório de Registro de Imóveis;\n\nV - decisão judicial reconhecendo o direito de usucapião ainda não transitada em julgado, desde que acompanhada do respectivo laudo pericial contendo a descrição e a caracterização do imóvel.\n\n§ 1º O proprietário do imóvel poderá suprir a ausência dos documentos mencionados no “caput” deste artigo mediante autorização expressa em favor do possuidor do imóvel.\n\n§ 2º No caso de pedido relativo à residência unifamiliar, para o possuidor exercer os direitos previstos no COE, poderá instruir os requerimentos com o compromisso ou promessa de compra e venda ou de cessão de quaisquer direitos ou recibo de pagamento de aquisição total ou parcial, independentemente de autenticação, reconhecimento de firma ou registro em cartório.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.776/2017 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção I › Art. 8º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57776-de-07-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 16.642, de 9 de maio de 2017, que aprovou o Código de Obras e Edificações do Município de São Paulo; define os membros da Comissão de Edificações e Uso do Solo – CEUSO."
+}

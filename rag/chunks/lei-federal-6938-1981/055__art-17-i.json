@@ -1,0 +1,52 @@
+{
+  "chunk_id": "lei-federal-6938-1981::055-art-17-i",
+  "lei_id": "lei-federal-6938-1981",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 17-I",
+  "numero": "17-I",
+  "header_raw": "Art. 17-I. As pessoas",
+  "caminho_hierarquico": [
+    "Art. 17-I"
+  ],
+  "texto": "Art. 17-I. As pessoas\n\nfísicas e jurídicas, que já exerçam as atividades mencionadas nos incisos I e II do\n\nart. 17 desta Lei, com a redação dada pela Lei no 7.804, de 1989, e\n\nque ainda não estejam inscritas nos respectivos cadastros, deverão fazê-lo até o dia\n\n30 de junho de 2000. (Incluído pela Lei nº 9.960, de 2000)\n\n(Vide ADI nº 2178-8, de 2000)\n\nParágrafo único. As pessoas\n\nfísicas e jurídicas, enquadradas no disposto neste artigo, que não se cadastrarem até\n\na data estabelecida, incorrerão em infração punível com multa, ficando sujeitas,\n\nainda, às sanções constantes do art. 17-G desta Lei, no que couber.\n\n(Incluído pela Lei nº 9.960, de 2000)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "1989",
+    "norma_redacao": "Lei no 7.804, de 1989"
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 6.938/1981 — Brasil",
+    "dispositivo": "Art. 17-I",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6938.htm",
+    "vigencia": {
+      "inicio": "1981-08-31",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (texto consolidado do Planalto/ccivil_03)"
+      ],
+      "revogada_por": null,
+      "observacao": "Lei federal-quadro do meio ambiente (PNMA). Moldura FEDERAL das restrições ambientais (licenciamento, zoneamento ambiental, APP) que limitam o aproveitamento de terrenos e, por consequência, o potencial construtivo e a base venal em SP. Texto consolidado do Planalto capturado 2026-07-19; em vigor. dominio COMPARTILHADO (moldura ambiental que toca os dois domínios). revisado_por_humano=false."
+    }
+  },
+  "tema": [
+    "politica_ambiental",
+    "meio_ambiente",
+    "licenciamento_ambiental",
+    "zoneamento_ambiental",
+    "responsabilidade_ambiental",
+    "sisnama"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre a Política Nacional do Meio Ambiente, seus fins e mecanismos de formulação e aplicação, e dá outras providências."
+}

@@ -1,0 +1,52 @@
+{
+  "chunk_id": "decreto-saopaulo-57776-2017::049-art-48",
+  "lei_id": "decreto-saopaulo-57776-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 48",
+  "numero": "48",
+  "header_raw": "Art. 48. A chamada do interessado para atendimento de comunicado, também identificado como “comunique-se”, para adequar o projeto à legislação aplicável, apresentar documentos necessários à análise do processo, além daqueles exigidos para cada tipo de pedido, ou prestar esclarecimentos indispensáveis ao prosseguimento da análise do pedido será publicada no DOC.",
+  "caminho_hierarquico": [
+    "CAPÍTULO IV",
+    "Seção I",
+    "Art. 48"
+  ],
+  "texto": "Art. 48. A chamada do interessado para atendimento de comunicado, também identificado como “comunique-se”, para adequar o projeto à legislação aplicável, apresentar documentos necessários à análise do processo, além daqueles exigidos para cada tipo de pedido, ou prestar esclarecimentos indispensáveis ao prosseguimento da análise do pedido será publicada no DOC.\n\n§ 1º O prazo para atendimento do comunicado será de 30 (trinta) dias, contados a partir da data da publicação da chamada no DOC.\n\n§ 2º É de inteira responsabilidade do proprietário ou possuidor e dos responsáveis técnicos informar e registrar eventuais correções ou alterações de dados cadastrais constantes do pedido de cada processo.\n\n§ 3º A Prefeitura disponibilizará o andamento do processo na internet, com a indicação das publicações de comunicados e despachos no DOC, sendo de inteira responsabilidade do interessado o seu acompanhamento.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.776/2017 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO IV › Seção I › Art. 48",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57776-de-07-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 16.642, de 9 de maio de 2017, que aprovou o Código de Obras e Edificações do Município de São Paulo; define os membros da Comissão de Edificações e Uso do Solo – CEUSO."
+}

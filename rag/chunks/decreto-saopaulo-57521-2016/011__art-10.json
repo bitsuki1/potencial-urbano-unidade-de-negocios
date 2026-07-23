@@ -1,0 +1,49 @@
+{
+  "chunk_id": "decreto-saopaulo-57521-2016::011-art-10",
+  "lei_id": "decreto-saopaulo-57521-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 10",
+  "numero": "10",
+  "header_raw": "Art. 10. Para fins de aplicação do artigo 68 da Lei nº 16.402, de 2016, o afloramento permitido para o subsolo sem observância dos recuos laterais e de fundo deve ser medido perpendicularmente ao perfil natural do terreno.",
+  "caminho_hierarquico": [
+    "Art. 10"
+  ],
+  "texto": "Art. 10. Para fins de aplicação do artigo 68 da Lei nº 16.402, de 2016, o afloramento permitido para o subsolo sem observância dos recuos laterais e de fundo deve ser medido perpendicularmente ao perfil natural do terreno.\n\nParágrafo único. O gabarito da edificação na situação prevista no parágrafo único do artigo 68 da Lei nº 16.402, de 2016, deve ser medido a partir da altura de 6m (seis metros) do perfil natural do terreno, exceto no caso em que o pavimento térreo proposto encontre-se em nível inferior a este limite, quando o gabarito deve ser medido a partir deste piso no trecho em que a situação persistir.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.521/2016 — São Paulo/SP",
+    "dispositivo": "Art. 10",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57521-de-09-de-dezembro-de-2016",
+    "vigencia": {
+      "inicio": "2016-12-09",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a aplicação de disposições da Lei nº 16.402, de 22 de março de 2016, relativas à ocupação do solo e condições de instalação dos usos."
+}

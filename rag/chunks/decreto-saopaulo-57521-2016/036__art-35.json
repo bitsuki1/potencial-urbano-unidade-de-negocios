@@ -1,0 +1,49 @@
+{
+  "chunk_id": "decreto-saopaulo-57521-2016::036-art-35",
+  "lei_id": "decreto-saopaulo-57521-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 35",
+  "numero": "35",
+  "header_raw": "Art. 35. Compete à CTLU, dentre outras estabelecidas em normas legais específicas, a análise e aceitação de:(Revogado pelo Decreto n° 58.028/2017)",
+  "caminho_hierarquico": [
+    "Art. 35"
+  ],
+  "texto": "Art. 35. Compete à CTLU, dentre outras estabelecidas em normas legais específicas, a análise e aceitação de:(Revogado pelo Decreto n° 58.028/2017)\n\nI - EIV/RIV previsto no artigo 108 da Lei nº 16.402, de 2016, no caso de EGIV;(Revogado pelo Decreto n° 58.028/2017)\n\nII – ERB, no caso de conflito entre as disposições da Lei nº 16.402, de 2016, e da Lei nº 13.756, de 16 de janeiro 2004, e legislação específica;(Revogado pelo Decreto n° 58.028/2017)\n\nIII - isenção de parcelamento do solo e de destinação de área pública no caso do lote ou gleba localizado em perímetro de Operação Urbana Consorciada ou Operação Urbana, nos casos em que a destinação de área pública seja objeto de contrapartida financeira nos termos da lei da respectiva operação.(Revogado pelo Decreto n° 58.028/2017)\n\nParágrafo único. Fica dispensada a análise e aceitação pela CTLU de EIV/RIV protocolado anteriormente à data de vigência deste decreto quando o mesmo já tiver sido apreciado e aceito pela SVMA de acordo com as disposições anteriores. (Incluído pelo Decreto nº 57.558/2016) (Revogado pelo Decreto n° 58.028/2017)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.521/2016 — São Paulo/SP",
+    "dispositivo": "Art. 35",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57521-de-09-de-dezembro-de-2016",
+    "vigencia": {
+      "inicio": "2016-12-09",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "quota_ambiental",
+    "regularizacao"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a aplicação de disposições da Lei nº 16.402, de 22 de março de 2016, relativas à ocupação do solo e condições de instalação dos usos."
+}

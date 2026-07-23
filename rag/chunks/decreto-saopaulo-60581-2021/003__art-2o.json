@@ -1,0 +1,44 @@
+{
+  "chunk_id": "decreto-saopaulo-60581-2021::003-art-2o",
+  "lei_id": "decreto-saopaulo-60581-2021",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 2º",
+  "numero": "2",
+  "header_raw": "Art. 2º Na execução de obras de construção civil sujeitas a Alvará de Execução, será considerado normal o agravamento permanente da poluição sonora por aumento do número de agente emissores de sons e ruídos, até os limites de pressão sonora RLAeq de 85dB(A) para o período compreendido entre as 7 (sete) horas e as 19 (dezenove) horas e de 59dB(A) para o período compreendido entre as 19 (dezenove) horas e as 7 (sete) horas.",
+  "caminho_hierarquico": [
+    "Art. 2º"
+  ],
+  "texto": "Art. 2º Na execução de obras de construção civil sujeitas a Alvará de Execução, será considerado normal o agravamento permanente da poluição sonora por aumento do número de agente emissores de sons e ruídos, até os limites de pressão sonora RLAeq de 85dB(A) para o período compreendido entre as 7 (sete) horas e as 19 (dezenove) horas e de 59dB(A) para o período compreendido entre as 19 (dezenove) horas e as 7 (sete) horas.\n\n§ 1º Aos sábados, no período compreendido entre as 8 (oito) horas e as 14 (catorze) horas, o limite de níveis de pressão sonora RLAeq previsto no “caput” deste artigo será de 85dB(A).\n\n§ 2º Aos sábados, no período compreendido entre as 14 (catorze) horas e as 8 (oito) horas, aos domingos e nos feriados, o limite de níveis de pressão sonora RLAeq previsto no “caput” deste artigo será de 59dB(A).",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 60.581/2021 — São Paulo/SP",
+    "dispositivo": "Art. 2º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-60581-de-27-de-setembro-de-2021",
+    "vigencia": {
+      "inicio": "2021-09-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    }
+  },
+  "tema": [
+    "zoneamento",
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta o controle de ruídos na execução das obras de construção civil no Município de São Paulo."
+}

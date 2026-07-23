@@ -1,0 +1,44 @@
+{
+  "chunk_id": "decreto-saopaulo-59671-2020::037-art-36",
+  "lei_id": "decreto-saopaulo-59671-2020",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 36",
+  "numero": "36",
+  "header_raw": "Art. 36. A responsabilidade pela construção, manutenção, reparo, implantação de mobiliário, utilização das calçadas e aplicação das respectivas penalidades permanecem reguladas pela seguinte legislação municipal:",
+  "caminho_hierarquico": [
+    "CAPÍTULO XII",
+    "Art. 36"
+  ],
+  "texto": "Art. 36. A responsabilidade pela construção, manutenção, reparo, implantação de mobiliário, utilização das calçadas e aplicação das respectivas penalidades permanecem reguladas pela seguinte legislação municipal:\n\nI - Lei nº 15.442, de 2011, e Decreto nº 52.903, de 6 de janeiro de 2012, que dispõem, em seus Capítulos IV e V, sobre as responsabilidades, procedimentos e penalidades relativos à construção e manutenção de passeios públicos e ao rebaixamento e chanframento de guias e travessias de pedestres;\n\nII - Lei nº 11.039, de 23 de agosto de 1991, que disciplina o exercício do comércio ou prestação de serviços de ambulantes nas vias e logradouros públicos do Município de São Paulo;\n\nIII - Leis nº 12.002, de 1996, e nº 12.260, de 1996, e Decretos nº 58.832, de 1º de julho de 2019, e nº 37.151, de 4 de novembro de 1997, que dispõem sobre o uso de passeio público;\n\nIV - Lei nº 13.614, de 2003, e Decreto nº 59.108, de 26 de novembro de 2019, que estabelecem as diretrizes para a utilização das vias municipais para a implantação e instalação de equipamentos de infraestrutura urbana;\n\nV - Lei nº 14.223, de 2006, que dispõe sobre a ordenação dos elementos que compõem a paisagem urbana do Município de São Paulo.\n\nParágrafo único. Também serão aplicadas outras penalidades previstas em leis específicas.\n\nCAPÍTULO XIII\n\nDAS DISPOSIÇÕES FINAIS",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 59.671/2020 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO XII › Art. 36",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59671-de-7-de-agosto-de-2020",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "regularizacao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Consolida os critérios para a padronização das calçadas, bem como regulamenta o disposto nos incisos VII e VIII do “caput” do artigo 240 do Plano Diretor Estratégico, o Capítulo III da Lei nº 15.442, de 9 de setembro de 2011, e a Lei nº 13.293, de 14 de janeiro de 2002."
+}

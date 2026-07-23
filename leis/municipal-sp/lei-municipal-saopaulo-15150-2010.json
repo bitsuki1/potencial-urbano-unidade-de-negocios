@@ -1,0 +1,90 @@
+{
+  "id": "lei-municipal-saopaulo-15150-2010",
+  "tipo_norma": "lei_ordinaria",
+  "esfera": "municipal",
+  "jurisdicao": "São Paulo/SP",
+  "numero": "15.150",
+  "ano": 2010,
+  "ementa": "Dispõe sobre os procedimentos para a aprovação de projetos arquitetônicos e para a execução de obras e serviços necessários para a minimização de impacto no Sistema Viário decorrente da implantação ou reforma de edificações e da instalação de atividades – Polo Gerador de Tráfego.",
+  "tema": [
+    "outorga_onerosa",
+    "operacao_urbana",
+    "regularizacao",
+    "planta_generica_valores"
+  ],
+  "dispositivos_chave": [
+    "Art. 1º O procedimento para a aprovação de projetos arquitetônicos e para a execução de obras e serviços necessários para a mini",
+    "Art. 2º Para fins da aplicação da presente lei, são adotadas as seguintes definições:",
+    "Art. 3º A implantação ou reforma de empreendimentos qualificados como Polos Geradores de Tráfego no Município de São Paulo depen",
+    "Art. 4º Os projetos apresentados pelos interessados na implantação ou reforma de um empreendimento classificado como Polo Gerado",
+    "Art. 4º Os projetos apresentados pelos interessados na implantação ou reforma de um empreendimento classificado como Polo Gerado",
+    "Art. 5º A Companhia de Engenharia de Tráfego - CET poderá solicitar ao empreendedor o fornecimento de dados complementares, a ad",
+    "Art. 6º A Companhia de Engenharia de Tráfego - CET emitirá os pareceres conclusivos necessários à expedição da Certidão de Diret",
+    "Art. 7º A Secretaria Municipal de Transportes emitirá Termo de Recebimento e Aceitação Parcial - TRAP ou Termo de Recebimento e",
+    "Art. 8º Nos casos em que a análise do projeto apresentado indicar a necessidade da execução de obras e serviços relacionados à o",
+    "Art. 8º Nos casos em que a análise do projeto apresentado indicar a necessidade da execução de obras e serviços relacionados à o",
+    "Art. 9º As medidas mitigadoras estabelecidas na Certidão de Diretrizes deverão estar diretamente relacionadas com o impacto gera",
+    "Art. 10 . As medidas mitigadoras dos impactos sobre o tráfego deverão ser implementadas em 240 (duzentos e quarenta) dias contad",
+    "Art. 10 . As medidas mitigadoras dos impactos sobre o tráfego e/ou as medidas compensatórias deverão ser implementadas em 240 (d",
+    "Art. 11 . No caso de empreendimentos compostos por mais de uma edificação ou por uma única edificação com usos distintos e concl",
+    "Art. 12 . No caso da impossibilidade do cumprimento das exigências estabelecidas na Certidão de Diretrizes por fatores alheios à",
+    "Art. 13 . A expedição de Certidão de Diretrizes para um determinado empreendimento é documento obrigatório para o empreendedor o",
+    "Art. 14 . Os Alvarás de Aprovação, Alvarás de Execução e Certificados de Mudança de Uso, para os quais a Secretaria Municipal de",
+    "Art. 15 . A regularização da edificação e/ou a obtenção do Certificado de Conclusão da Edificação - \"HABITE-SE\" estará condicion",
+    "Art. 16 . Para as edificações ou atividades já implantadas, em que haja interesse do proprietário em promover qualquer alteração",
+    "Art. 16 . Para as edificações ou atividades já implantadas, em que haja interesse do proprietário em promover qualquer alteração",
+    "Art. 17 . A Companhia de Engenharia de Tráfego - CET deverá manter um Plantão de Atendimento ao Empreendedor - PAE, visando escl",
+    "Art. 18 . O Poder Executivo regulamentará a presente lei no prazo de 30 (trinta) dias após sua publicação.",
+    "Art. 19 . Esta lei entra em vigor na data de sua publicação, revogadas as disposições em contrário, em especial a Lei Municipal"
+  ],
+  "vigencia": {
+    "inicio": "2010-05-06",
+    "fim": null,
+    "em_vigor": true,
+    "altera": [],
+    "alterada_por": [],
+    "revogada_por": null,
+    "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=True revoga=True."
+  },
+  "remissoes": [
+    {
+      "norma": "LEI Nº 15.150",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 16.642/2017",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 16.801/2018",
+      "relacao": "citada no texto (detectada automaticamente)"
+    },
+    {
+      "norma": "Lei nº 409/06",
+      "relacao": "citada no texto (detectada automaticamente)"
+    }
+  ],
+  "jurisprudencia_relacionada": [],
+  "tem_tabela": false,
+  "tabelas_extraidas": [],
+  "tem_formula": false,
+  "formulas_referenciadas": [],
+  "fonte": {
+    "origem": "Portal oficial (legislacao.prefeitura.sp.gov.br)",
+    "path": "_entrada/misto/lei-municipal-saopaulo-15150-2010.txt",
+    "url": "https://legislacao.prefeitura.sp.gov.br/lei-15150-de-06-de-maio-de-2010",
+    "hash": "sha256:686977ea376a4b11302c95d96f55e84448924b4c65ee36f68345eddd1f4390d3",
+    "hash_nota_fonte": "sha256 do HTML bruto do portal capturado 2026-07-13",
+    "ocr": false,
+    "metodo": "VERBATIM INTEGRAL (portal oficial, texto compilado); captura portal oficial legislacao.prefeitura.sp.gov.br (container texto_compilado); promovido de _entrada/misto/",
+    "hash_alvo": "_entrada/misto/lei-municipal-saopaulo-15150-2010.txt",
+    "obs": "articulado integral verbatim; saneado lixo de captura; supera resumo WebSearch anterior."
+  },
+  "status_pipeline": "indexado",
+  "confianca_extracao": "alta",
+  "revisado_por_humano": false,
+  "dominio_primario": "compartilhado",
+  "dominio": [
+    "compartilhado"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "chunk_id": "decreto-saopaulo-57770-2017::015-art-14",
+  "lei_id": "decreto-saopaulo-57770-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 14",
+  "numero": "14",
+  "header_raw": "Art. 14. Cada órgão ou ente municipal é responsável pela atualização, correção e contínua manutenção das informações por ele produzidas e agregadas ao Sistema de Informações Geográficas do Município de São Paulo - SIG-SP, sendo o Mapa Digital da Cidade - MDC a base cartográfica de suporte a essas atividades.",
+  "caminho_hierarquico": [
+    "SEÇÃO IV",
+    "Art. 14"
+  ],
+  "texto": "Art. 14. Cada órgão ou ente municipal é responsável pela atualização, correção e contínua manutenção das informações por ele produzidas e agregadas ao Sistema de Informações Geográficas do Município de São Paulo - SIG-SP, sendo o Mapa Digital da Cidade - MDC a base cartográfica de suporte a essas atividades.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.770/2017 — São Paulo/SP",
+    "dispositivo": "SEÇÃO IV › Art. 14",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57770-de-03-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-03",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Confere nova regulamentação ao Sistema de Informações Geográficas do Município de São Paulo SIG - SP."
+}

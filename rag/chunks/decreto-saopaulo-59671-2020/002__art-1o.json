@@ -1,0 +1,44 @@
+{
+  "chunk_id": "decreto-saopaulo-59671-2020::002-art-1o",
+  "lei_id": "decreto-saopaulo-59671-2020",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 1º",
+  "numero": "1",
+  "header_raw": "Art. 1º Este decreto consolida os critérios para a padronização das calçadas, bem como regulamenta o disposto nos incisos VII e VIII do “caput” do artigo 240 do Plano Diretor Estratégico, o Capítulo III da Lei nº 15.442, de 9 de setembro de 2011, e a Lei nº 13.293, de 14 de janeiro de 2002. de acordo com as diretrizes previstas no artigo 233 do Plano Diretor Estratégico e com as regras estabelecidas na Lei Federal nº 13.146, de 6 de julho de 2015, e no Decreto Federal nº 5.296, de 2 de dezembro de 2004.",
+  "caminho_hierarquico": [
+    "CAPÍTULO I",
+    "Art. 1º"
+  ],
+  "texto": "Art. 1º Este decreto consolida os critérios para a padronização das calçadas, bem como regulamenta o disposto nos incisos VII e VIII do “caput” do artigo 240 do Plano Diretor Estratégico, o Capítulo III da Lei nº 15.442, de 9 de setembro de 2011, e a Lei nº 13.293, de 14 de janeiro de 2002. de acordo com as diretrizes previstas no artigo 233 do Plano Diretor Estratégico e com as regras estabelecidas na Lei Federal nº 13.146, de 6 de julho de 2015, e no Decreto Federal nº 5.296, de 2 de dezembro de 2004.\n\n§ 1ºO disposto neste decreto aplica-se às obras ou serviços de implantação, conservação e manutenção de qualquer calçada no Município de São Paulo, independentemente de quem seja o responsável por sua execução.\n\n§ 2º Para os fins deste decreto, considera-se responsável:\n\nI - pelas obras e serviços relativos à implantação, conservação e manutenção de calçadas que fazem testada com imóveis particulares:\n\na) o proprietário do imóvel;\n\nb) o possuidor do imóvel a qualquer título;\n\nc) o titular do domínio útil ou da nua propriedade do imóvel;\n\nd) o condomínio;\n\nII - pelas obras e serviços relativos à implantação, conservação e manutenção de calçadas que fazem testada com imóveis públicos próprios, sob seu domínio, posse, guarda ou administração:\n\na) a União e os órgãos e entidades da respectiva Administração Indireta;\n\nb) o Estado e os órgãos e entidades da respectiva Administração Indireta;\n\nc) o Município e os órgãos e entidades da respectiva Administração Indireta.\n\n§ 3º As permissionárias do uso das vias públicas para a implantação de equipamentos de infraestrutura urbana destinados à prestação de serviços públicos e privados repararão os danos causados às calçadas na conformidade do disposto neste decreto, sem prejuízo de aplicação de legislação específica.\n\n§ 4º Os responsáveis referidos nos incisos I e II do § 2º deste artigo respondem solidariamente pela regularidade da implantação, conservação e manutenção das calçadas pelas quais são responsáveis, nos termos das disposições deste decreto, bem como pelas penalidades decorrentes do seu descumprimento.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 59.671/2020 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO I › Art. 1º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59671-de-7-de-agosto-de-2020",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "regularizacao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Consolida os critérios para a padronização das calçadas, bem como regulamenta o disposto nos incisos VII e VIII do “caput” do artigo 240 do Plano Diretor Estratégico, o Capítulo III da Lei nº 15.442, de 9 de setembro de 2011, e a Lei nº 13.293, de 14 de janeiro de 2002."
+}

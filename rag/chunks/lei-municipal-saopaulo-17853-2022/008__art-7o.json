@@ -1,0 +1,43 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17853-2022::008-art-7o",
+  "lei_id": "lei-municipal-saopaulo-17853-2022",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 7º",
+  "numero": "7",
+  "header_raw": "Art. 7º Os estabelecimentos referidos no art. 1º desta Lei deverão atender as exigências da legislação de parcelamento, uso e ocupação do solo e do Código de Obras e Edificações, acrescidas, para fins de instalação, em face da cumulatividade e do serviço de entrega explicitados no seu art. 2º, as seguintes condições:(Artigo declarado inconstitucional pela ADI nº 2157392-66.2023.8.26.0000)",
+  "caminho_hierarquico": [
+    "Art. 7º"
+  ],
+  "texto": "Art. 7º Os estabelecimentos referidos no art. 1º desta Lei deverão atender as exigências da legislação de parcelamento, uso e ocupação do solo e do Código de Obras e Edificações, acrescidas, para fins de instalação, em face da cumulatividade e do serviço de entrega explicitados no seu art. 2º, as seguintes condições:(Artigo declarado inconstitucional pela ADI nº 2157392-66.2023.8.26.0000)\n\nI - além da proporção mínima prevista no item 8.6 do Anexo I da Lei nº 16.642, de 9 de maio de 2017, será obrigatória a previsão de área interna ao estabelecimento, para o estacionamento e acomodação de motocicletas, bicicletas ou qualquer meio utilizado para entregas, observada a proporção mínima de 01 (uma) vaga para cada 12 m² (doze metros quadrados) de área de cozinha;\n\nII - para fins de cálculo da quantidade de instalações sanitárias, nos termos do item 9.3 do Anexo I da Lei nº 16.642, de 9 de maio de 2017, deverão ser considerados os prestadores dos serviços de entrega/retirada da mercadoria, garantindo, no mínimo, 1 (uma) instalação para homens e 1 (uma) para mulheres, com pelo menos 1 (uma) bacia e 1 (um) lavatório e garantindo-se a acessibilidade;\n\nIII - obrigatoriedade de instalação de abrigo de lixo compatível com o número de cozinhas gerado em, pelo menos, dois dias de atividade, em local totalmente independente e sem nenhum contato com a atividade de manipulação de alimentos;\n\nIV - previsão de espaço para carga e descarga, observado o previsto para o Quadro 4-A da Lei nº 16.402, de 2016;\n\nV - quando a edificação ocupada pela atividade de cozinha industrial possuir a área construída superior a 1.000m², deverá ser implantado um posto de bombeiro profissional civil no período de funcionamento – Ind. 2.\n\n§ 1º Para fins do disposto no inciso II, o número de prestadores de serviços de entrega/retirada de mercadorias será correspondente ao número de vagas de motocicletas, considerando um mínimo de duas instalações sanitárias adicionais.\n\n§ 2º Considera-se bombeiro profissional aquele que, habilitado nos termos da Lei, exerça, em caráter habitual, função remunerada e exclusiva de prevenção e combate a incêndio.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.853/2022 — São Paulo/SP",
+    "dispositivo": "Art. 7º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17853-de-29-de-novembro-de-2022",
+    "vigencia": {
+      "inicio": "2022-11-29",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=True revoga=False."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Estabelece regras aplicáveis a estabelecimentos formados por um conjunto de cozinhas industriais, utilizadas para produção por diferentes restaurantes e/ou empresas, destinada à comercialização de refeições e alimentos por serviço de entregas, sem acesso de público para consumo no local, configurando operação conjunta ou conglomerado de cozinhas, popularmente conhecidas como dark kitchens e dispõe sobre aspectos fiscalizatórios da Lei nº 16.402, de 22 de março de 2016."
+}

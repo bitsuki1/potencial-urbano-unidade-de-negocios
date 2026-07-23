@@ -1,0 +1,44 @@
+{
+  "chunk_id": "decreto-saopaulo-59671-2020::012-art-11",
+  "lei_id": "decreto-saopaulo-59671-2020",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 11",
+  "numero": "11",
+  "header_raw": "Art. 11. A sinalização visual e tátil tem por objetivo posicionar e orientar as pessoas com deficiência visual nas vias públicas e deverá ser aplicada conforme as Normas Técnicas de Acessibilidade da ABNT - Associação Brasileira de Normas Técnicas.",
+  "caminho_hierarquico": [
+    "CAPÍTULO V",
+    "Art. 11"
+  ],
+  "texto": "Art. 11. A sinalização visual e tátil tem por objetivo posicionar e orientar as pessoas com deficiência visual nas vias públicas e deverá ser aplicada conforme as Normas Técnicas de Acessibilidade da ABNT - Associação Brasileira de Normas Técnicas.\n\nParágrafo único. Os parâmetros para a implantação da sinalização visual e tátil serão definidos por portaria conjunta das Secretarias Municipais das Subprefeituras e da Pessoa com Deficiência.\n\nCAPÍTULO VI\n\nDAS TÉCNICAS CONSTRUTIVAS E MATERIAIS",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 59.671/2020 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO V › Art. 11",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59671-de-7-de-agosto-de-2020",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "regularizacao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Consolida os critérios para a padronização das calçadas, bem como regulamenta o disposto nos incisos VII e VIII do “caput” do artigo 240 do Plano Diretor Estratégico, o Capítulo III da Lei nº 15.442, de 9 de setembro de 2011, e a Lei nº 13.293, de 14 de janeiro de 2002."
+}

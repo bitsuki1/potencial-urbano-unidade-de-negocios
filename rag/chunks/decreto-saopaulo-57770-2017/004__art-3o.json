@@ -1,0 +1,44 @@
+{
+  "chunk_id": "decreto-saopaulo-57770-2017::004-art-3o",
+  "lei_id": "decreto-saopaulo-57770-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 3º",
+  "numero": "3",
+  "header_raw": "Art. 3º O Sistema de Informações Geográficas do Município de São Paulo - SIG-SP é um sistema aberto, integrador, dinâmico e permanente, em constante adequação à realidade urbana e à evolução das ferramentas tecnológicas, composto por:",
+  "caminho_hierarquico": [
+    "SEÇÃO I",
+    "Art. 3º"
+  ],
+  "texto": "Art. 3º O Sistema de Informações Geográficas do Município de São Paulo - SIG-SP é um sistema aberto, integrador, dinâmico e permanente, em constante adequação à realidade urbana e à evolução das ferramentas tecnológicas, composto por:\n\nI - Infraestrutura Municipal de Dados Espaciais - IMDE, integrada por:\n\na) base geoespacial: repositório de dados geoespaciais relacionados entre si, composto de dados corporativos e de uso comum, permitindo a convergência de diversas informações em um único referencial espacial;\n\nb) dados provenientes de bases e sistemas externos agregados via ferramentas de integração tais como ETL, \"webservices\", \"views\" de integração e/ou serviços de mapas;\n\nc) catálogo de metadados geoespaciais, contendo a descrição das características, possibilidades e limitações dos dados geoespaciais por meio de informação estruturada e documentada, os quais podem ser encontrados pelos usuários através de mecanismo de busca;\n\nII - aplicações Web Map, disponíveis em ambiente Intranet, para uso exclusivo dos servidores municipais, e Internet, para livre acesso de todo cidadão;\n\nIII – Mapa Digital da Cidade: serviços de mapas disponibilizados nos padrões definidos pelo \"Open Geospatial Consortium\" - OGC, organização voluntária internacional de padrões de consenso e ser compatível com os padrões ISO 19115:2003/19139.\n\nParágrafo único. A base geoespacial, definida na alínea “a” do inciso I do “caput” deste artigo, é uma base corporativa unificada, dinâmica e capaz de receber e incorporar novas informações e atualizar aquelas já existentes, possuindo em sua composição os dados cartográficos, cadastrais, temáticos e político-administrativos baseados no Mapa Digital da Cidade.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.770/2017 — São Paulo/SP",
+    "dispositivo": "SEÇÃO I › Art. 3º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57770-de-03-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-03",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Confere nova regulamentação ao Sistema de Informações Geográficas do Município de São Paulo SIG - SP."
+}

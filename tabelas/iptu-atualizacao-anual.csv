@@ -1,0 +1,50 @@
+# Atualizacao ANUAL do IPTU de Sao Paulo (2013-2026) — DADO extraido, decreto por decreto, da fonte oficial
+# (Catalogo de Legislacao Municipal, legislacao.prefeitura.sp.gov.br), verbatim + URL por linha (1.3/1.7/1.8).
+#
+# NAO confundir com q14-reajuste-anual.csv (Quadro 14 / Outorga Onerosa — outra norma, outros decretos).
+# Conferido que ESTA serie usa 59.158/2019 (nao 59.166), 62.085/2022 (nao 62.135), 63.095/2023 (nao 63.108).
+#
+# MECANICA (por que NAO existe um fator continuo 2013->2026):
+#   - Em anos de REAJUSTE por DECRETO, o Executivo "atualiza em X% os valores em vigor no exercicio anterior"
+#     => o fator MULTIPLICA sobre o ano anterior (cadeia dentro do regime).
+#   - Em anos de REVISAO por LEI (nova PGV), a lei SUBSTITUI a Tabela VI + Listagem de Valores de Terreno por
+#     ANEXOS com valores ABSOLUTOS => a cadeia RESETA: comeca um novo regime (fator_acum_regime volta a 1,0).
+#   Por isso 'fator_acum_regime' so vale DENTRO de um regime (entre duas leis de PGV); 'regime_base_ano'
+#   diz qual lei/ano e a base absoluta daquele regime.
+#
+# Colunas:
+#   ano_ref            exercicio a que a linha se refere
+#   tipo               base_lei | reajuste_decreto | revisao_lei | sem_reajuste
+#   percentual         fracao do reajuste (0.035 = 3,5%); vazio em revisao_lei (nao ha % unico — valores nos anexos)
+#   fator_anual        1 + percentual (vazio em revisao_lei)
+#   fator_acum_regime  produto dos fatores anuais DESDE a base do regime vigente (reseta a 1,0 a cada lei de PGV)
+#   regime_base_ano    ano da lei de PGV que fixa os valores absolutos do regime corrente
+#   norma              Decreto/Lei que fundamenta a linha
+#   vigencia_inicio    AAAA-01-01 (exercicio de vigencia)
+#   dispositivo        citacao verbatim do trecho que fixa o percentual / a substituicao de tabela
+#   fonte_url          URL oficial consultada
+#
+# COMPLETA_ATE: 2026
+#   ^ diretiva lida pelo reader: serie VERIFICADA e completa ate este exercicio (todos os 13 exercicios
+#     conferidos no catalogo oficial). fator_atualizacao(ano) FALHA-FECHADO para ano > COMPLETA_ATE.
+#
+# PENDENCIA NOMEADA (nao resolvida por chute): os ANEXOS das leis de revisao (16.768/2017, 17.719/2021,
+#   18.330/2025 e a PGV 15.889/2013) trazem os VALORES ABSOLUTOS (Tabela VI + Listagem de terreno) mas NAO
+#   estao extraidos linha a linha aqui — quem precisar dos numeros das faixas desses anos baixa o PDF do anexo
+#   do DOC. Além disso, se as FAIXAS do adicional (Arts. 3o/4o/5o da Lei 15.889/2013) sao ou nao corrigidas
+#   pelos decretos anuais e questao juridica ABERTA — o engine NAO aplica o fator as faixas por padrao (1.3).
+ano_ref,tipo,percentual,fator_anual,fator_acum_regime,regime_base_ano,norma,vigencia_inicio,dispositivo,fonte_url
+2013,base_lei,,,1.00,2013,"Lei Municipal SP no 15.889/2013 (PGV; faixas do adicional em valor nominal)",2013-11-05,"base nominal do regime — Arts. 3o/4o/5o (faixas do adicional) e Tabelas de valores",https://legislacao.prefeitura.sp.gov.br/leis/lei-15889-de-05-de-novembro-de-2013
+2014,reajuste_decreto,0.056,1.056,1.056,2013,"Decreto 54.731/2013, Art. 1o",2014-01-01,"Ficam atualizados em 5,6% (cinco inteiros e seis decimos por cento), para o exercicio de 2014, os valores em vigor no exercicio de 2013 [NOTA A: PGV da Lei 15.889/2013 estava com eficacia suspensa por liminar do TJSP a epoca do lancamento — valor lancado em 2014 = a correcao de 5,6% do decreto]",https://legislacao.prefeitura.sp.gov.br/leis/decreto-54731-de-27-de-dezembro-de-2013
+2015,revisao_lei,,,1.00,2015,"Lei 15.889/2013 (PGV eficaz) + Lei 16.098/2014 (limites de transicao)",2015-01-01,"nova PGV passou a valer (constitucionalidade reconhecida pelo TJSP); Lei 16.098/2014 limitou o aumento de 2015 a 10% sobre o valor lancado em 2014 (residencial). NAO houve decreto de mero reajuste para 2015 [NOTA B]",https://prefeitura.sp.gov.br/web/fazenda/w/servicos/iptu/2454
+2016,reajuste_decreto,0.095,1.095,1.095,2015,"Decreto 56.749/2015, Art. 1o",2016-01-01,"Ficam atualizados em 9,5% (nove inteiros e cinco decimos por cento), para o exercicio de 2016, os valores em vigor no exercicio de 2015",https://legislacao.prefeitura.sp.gov.br/leis/decreto-56749-de-29-de-dezembro-de-2015
+2017,reajuste_decreto,0.06,1.06,1.1607,2015,"Decreto 57.560/2016, Art. 1o",2017-01-01,"Ficam atualizados em 6% (seis por cento), para o exercicio de 2017, os valores em vigor no exercicio de 2016",https://legislacao.prefeitura.sp.gov.br/leis/decreto-57560-de-22-de-dezembro-de-2016
+2018,revisao_lei,,,1.00,2018,"Lei 16.768/2017, Art. 1o",2018-01-01,"A Tabela VI - Tipos e Padroes de Construcao - Valores Unitarios de Metro Quadrado de Construcao e a Listagem de Valores Unitarios de Metro Quadrado de Terreno passa a vigorar na conformidade do Anexo Unico desta lei (valores absolutos — nova base de regime)",https://legislacao.prefeitura.sp.gov.br/leis/lei-16768-de-21-de-dezembro-de-2017
+2019,reajuste_decreto,0.035,1.035,1.035,2018,"Decreto 58.592/2018, Art. 1o",2019-01-01,"Ficam atualizados em 3,5% (tres e meio por cento), para o exercicio de 2019, os valores em vigor no exercicio de 2018",https://legislacao.prefeitura.sp.gov.br/leis/decreto-58592-de-27-de-dezembro-de-2018
+2020,reajuste_decreto,0.035,1.035,1.071225,2018,"Decreto 59.158/2019, Art. 1o",2020-01-01,"Ficam atualizados em 3,5% (tres e meio por cento), para o exercicio de 2020, os valores em vigor no exercicio de 2019 [data oficial 23/12/2019]",https://legislacao.prefeitura.sp.gov.br/leis/decreto-59158-de-22-de-dezembro-de-2019
+2021,sem_reajuste,0.00,1.00,1.071225,2018,"Decreto 60.036/2020, Art. 1o",2021-01-01,"Ficam mantidos, para o exercicio de 2021, os valores em vigor no exercicio de 2020 (sem reajuste — exercicio de pandemia)",https://www.sinesp.org.br/179-saiu-no-doc/11379-decreto-n-60-036-de-30-12-2020
+2022,revisao_lei,,,1.00,2022,"Lei 17.719/2021, Art. 1o",2022-01-01,"a Tabela VI - Valores Unitarios de Metro Quadrado de Construcao e a Listagem de Valores Unitarios de Metro Quadrado de Terreno passam a vigorar, respectivamente, na conformidade dos Anexos I e II desta Lei (a partir de 1o/01/2022 — nova base de regime)",https://legislacao.prefeitura.sp.gov.br/leis/lei-17719-de-26-de-novembro-de-2021
+2023,reajuste_decreto,0.055,1.055,1.055,2022,"Decreto 62.085/2022, Art. 1o",2023-01-01,"Ficam atualizados em 5,5% (cinco e meio por cento), para o exercicio de 2023, os valores em vigor no exercicio de 2022",https://legislacao.prefeitura.sp.gov.br/leis/decreto-62085-de-26-de-dezembro-de-2022
+2024,reajuste_decreto,0.043,1.043,1.100365,2022,"Decreto 63.095/2023, Art. 1o",2024-01-01,"Ficam atualizados em 4,3% (quatro inteiros e tres decimos por cento), para o exercicio de 2024, os valores em vigor no exercicio de 2023",https://legislacao.prefeitura.sp.gov.br/leis/decreto-63095-de-27-de-dezembro-de-2023
+2025,reajuste_decreto,0.046,1.046,1.15098179,2022,"Decreto 63.995/2024, Art. 1o",2025-01-01,"Ficam atualizados em 4,6% (quatro inteiros e seis decimos por cento), para o exercicio de 2025, os valores em vigor no exercicio de 2024",https://legislacao.prefeitura.sp.gov.br/leis/decreto-63995-de-27-de-dezembro-de-2024
+2026,revisao_lei,,,1.00,2026,"Lei 18.330/2025, Art. 1o",2026-01-01,"A partir de 1o de janeiro de 2026, a Tabela VI - Valores Unitarios de Metro Quadrado de Construcao e a Listagem de Valores Unitarios de Metro Quadrado de Terreno passam a vigorar, respectivamente, na conformidade dos Anexos I e II desta Lei (nova base de regime)",https://legislacao.prefeitura.sp.gov.br/leis/lei-18330-de-11-de-novembro-de-2025

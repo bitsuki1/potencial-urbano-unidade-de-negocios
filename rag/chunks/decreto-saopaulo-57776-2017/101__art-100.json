@@ -1,0 +1,51 @@
+{
+  "chunk_id": "decreto-saopaulo-57776-2017::101-art-100",
+  "lei_id": "decreto-saopaulo-57776-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 100",
+  "numero": "100",
+  "header_raw": "Art. 100. A doação de áreas e a comprovação do registro da escritura no Cartório de Registro de Imóveis deverão ocorrer antes da emissão do Alvará de Execução de edificação.",
+  "caminho_hierarquico": [
+    "CAPÍTULO VII",
+    "Art. 100"
+  ],
+  "texto": "Art. 100. A doação de áreas e a comprovação do registro da escritura no Cartório de Registro de Imóveis deverão ocorrer antes da emissão do Alvará de Execução de edificação.\n\n§ 1º Admite-se a doação voluntária de melhoramento público, sem DUP ou DIS em vigor, observando-se as disposições do “caput” e do § 1º do artigo 107 do COE.\n\n§ 2º Fica delegada aos Coordenadores de SMUL e aos Coordenadores de Planejamento e Desenvolvimento Urbano das PRs, no âmbito de suas atribuições, a competência para representar o Município nas escrituras de doação de áreas necessárias à emissão do Alvará de Execução de edificação.\n\n§ 3º A relação de documentos necessários à formalização de escritura de doação, a padronização de minutas de escritura e as respectivas rotinas serão estabelecidas em portaria do Secretário de SMUL.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.776/2017 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO VII › Art. 100",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57776-de-07-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 16.642, de 9 de maio de 2017, que aprovou o Código de Obras e Edificações do Município de São Paulo; define os membros da Comissão de Edificações e Uso do Solo – CEUSO."
+}

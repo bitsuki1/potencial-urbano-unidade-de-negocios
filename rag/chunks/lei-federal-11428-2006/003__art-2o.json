@@ -1,0 +1,51 @@
+{
+  "chunk_id": "lei-federal-11428-2006::003-art-2o",
+  "lei_id": "lei-federal-11428-2006",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 2º",
+  "numero": "2",
+  "header_raw": "Art. 2º Para os efeitos desta Lei, consideram-se integrantes do Bioma Mata Atlântica as seguintes formações florestais nativas e ecossistemas associados, com as respectivas delimitações estabelecidas em mapa do Instituto Brasileiro de Geografia e Estatística - IBGE, conforme regulamento: Floresta Ombrófila Densa; Floresta Ombrófila Mista, também denominada de Mata de Araucárias; Floresta Ombrófila Aberta; Floresta Estacional Semidecidual; e Floresta Estacional Decidual, bem como os manguezais, as vegetações de restingas, campos de altitude, brejos interioranos e encraves florestais do Nordeste.",
+  "caminho_hierarquico": [
+    "TÍTULO I",
+    "CAPÍTULO I",
+    "Art. 2º"
+  ],
+  "texto": "Art. 2º Para os efeitos desta Lei, consideram-se integrantes do Bioma Mata Atlântica as seguintes formações florestais nativas e ecossistemas associados, com as respectivas delimitações estabelecidas em mapa do Instituto Brasileiro de Geografia e Estatística - IBGE, conforme regulamento: Floresta Ombrófila Densa; Floresta Ombrófila Mista, também denominada de Mata de Araucárias; Floresta Ombrófila Aberta; Floresta Estacional Semidecidual; e Floresta Estacional Decidual, bem como os manguezais, as vegetações de restingas, campos de altitude, brejos interioranos e encraves florestais do Nordeste.\n\n(Vide Decreto nº 6.660, de 2008)\n\nParágrafo único. Somente os remanescentes de vegetação nativa no estágio primário e nos estágios secundário inicial, médio e avançado de regeneração na área de abrangência definida no caput deste artigo terão seu uso e conservação regulados por esta Lei.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 11.428/2006 — Brasil",
+    "dispositivo": "TÍTULO I › CAPÍTULO I › Art. 2º",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11428.htm",
+    "vigencia": {
+      "inicio": "2006-12-22",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Texto consolidado do Planalto/ccivil_03"
+      ],
+      "revogada_por": null,
+      "observacao": "Lei federal do Bioma Mata Atlântica. São Paulo está integralmente no bioma; os arts. 30-32 disciplinam a supressão de vegetação secundária em área urbana, condicionando o licenciamento e o aproveitamento de terrenos com vegetação (afeta potencial construtivo e uso). Texto consolidado do Planalto capturado 2026-07-19; em vigor. dominio COMPARTILHADO. revisado_por_humano=false."
+    }
+  },
+  "tema": [
+    "mata_atlantica",
+    "vegetacao_nativa",
+    "protecao_ambiental",
+    "licenciamento_ambiental",
+    "supressao_vegetacao_area_urbana"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre a utilização e proteção da vegetação nativa do Bioma Mata Atlântica, e dá outras providências."
+}

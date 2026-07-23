@@ -1,0 +1,45 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-14094-2005::013-art-12",
+  "lei_id": "lei-municipal-saopaulo-14094-2005",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 12",
+  "numero": "12",
+  "header_raw": "Art. 12. A Secretaria Municipal de Finanças será a gestora do CADIN MUNICIPAL, sem prejuízo da responsabilidade das autoridades indicadas no art. 4º desta lei.",
+  "caminho_hierarquico": [
+    "Art. 12"
+  ],
+  "texto": "Art. 12. A Secretaria Municipal de Finanças será a gestora do CADIN MUNICIPAL, sem prejuízo da responsabilidade das autoridades indicadas no art. 4º desta lei.\n\nParágrafo único. O Departamento de Auditoria - AUD, da Secretaria Municipal de Finanças, fiscalizará os procedimentos de inclusão e exclusão de registros no CADIN MUNICIPAL.\n\nParágrafo único. A Controladoria Geral do Município fiscalizará os procedimentos de inclusão e exclusão de registros no CADIN MUNICIPAL. (Redação dada pela Lei nº 18.270/2025)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "2025",
+    "norma_redacao": "Lei nº 18.270/2025"
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 14.094/2005 — São Paulo/SP",
+    "dispositivo": "Art. 12",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-14094-de-06-de-dezembro-de-2005",
+    "vigencia": {
+      "inicio": "2005-12-06",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "regularizacao"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "(Projeto de Lei nº 253/05, do Executivo, aprovado na forma de Substitutivo do Legislativo)"
+}

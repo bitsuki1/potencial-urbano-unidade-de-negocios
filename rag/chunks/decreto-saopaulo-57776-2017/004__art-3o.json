@@ -1,0 +1,51 @@
+{
+  "chunk_id": "decreto-saopaulo-57776-2017::004-art-3o",
+  "lei_id": "decreto-saopaulo-57776-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 3º",
+  "numero": "3",
+  "header_raw": "Art. 3º Enquadram-se como processos especiais, com procedimento definido neste decreto, os pedidos de emissão dos seguintes documentos de controle da atividade edilícia previstos no artigo 12 do COE:",
+  "caminho_hierarquico": [
+    "CAPÍTULO I",
+    "Art. 3º"
+  ],
+  "texto": "Art. 3º Enquadram-se como processos especiais, com procedimento definido neste decreto, os pedidos de emissão dos seguintes documentos de controle da atividade edilícia previstos no artigo 12 do COE:\n\nI - Alvará de Aprovação;\n\nII - Alvará de Execução;\n\nIII - Projeto Modificativo;\n\nIV - Certificado de Conclusão;\n\nV - Certificado de Regularização;\n\nVI - Certificado de Acessibilidade;\n\nVII - Certificado de Segurança;\n\nVIII - Alvará de Autorização;\n\nIX - Cadastro de Equipamento;\n\nX - Manutenção de Equipamento;\n\nXI - Ficha Técnica;\n\nXII - Diretrizes de Projeto.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.776/2017 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO I › Art. 3º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57776-de-07-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 16.642, de 9 de maio de 2017, que aprovou o Código de Obras e Edificações do Município de São Paulo; define os membros da Comissão de Edificações e Uso do Solo – CEUSO."
+}

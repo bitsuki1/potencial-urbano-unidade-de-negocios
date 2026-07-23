@@ -1,0 +1,51 @@
+{
+  "chunk_id": "decreto-saopaulo-57776-2017::111-art-109",
+  "lei_id": "decreto-saopaulo-57776-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 109",
+  "numero": "109",
+  "header_raw": "Art. 109. Nos processos de Alvará em andamento e sem despacho decisório em última instância poderão ser analisados nos termos do COE e deste decreto, desde que o interessado formalize o respectivo pedido até o dia 15 de dezembro de 2017, sem a apresentação de projeto simplificado.",
+  "caminho_hierarquico": [
+    "CAPÍTULO VIII",
+    "Art. 109"
+  ],
+  "texto": "Art. 109. Nos processos de Alvará em andamento e sem despacho decisório em última instância poderão ser analisados nos termos do COE e deste decreto, desde que o interessado formalize o respectivo pedido até o dia 15 de dezembro de 2017, sem a apresentação de projeto simplificado.\n\n§ 1º Após essa data, o interessado deverá protocolar novo pedido e recolher as taxas e preços públicos devidos.\n\n§ 2º Na hipótese prevista no “caput” deste artigo, os documentos a serem emitidos, as taxas e preços ou as eventuais diferenças a serem cobradas serão aquelas previstas pela legislação edilícia vigente à época do protocolo do pedido inicial.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.776/2017 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO VIII › Art. 109",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57776-de-07-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 16.642, de 9 de maio de 2017, que aprovou o Código de Obras e Edificações do Município de São Paulo; define os membros da Comissão de Edificações e Uso do Solo – CEUSO."
+}

@@ -1,0 +1,54 @@
+{
+  "chunk_id": "decreto-saopaulo-57776-2017::025-art-24",
+  "lei_id": "decreto-saopaulo-57776-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 24",
+  "numero": "24",
+  "header_raw": "Art. 24. O Certificado de Conclusão é o documento hábil para a comprovação da regularidade da edificação, sendo válido quando acompanhado das peças gráficas aprovadas referentes ao Alvará de Execução, inclusive para fins de registro no Cartório de Registro de Imóveis.",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Seção II",
+    "Art. 24"
+  ],
+  "texto": "Art. 24. O Certificado de Conclusão é o documento hábil para a comprovação da regularidade da edificação, sendo válido quando acompanhado das peças gráficas aprovadas referentes ao Alvará de Execução, inclusive para fins de registro no Cartório de Registro de Imóveis.\n\n§ 1º Os documentos necessários à emissão do Certificado de Conclusão são aqueles constantes do artigo 38 do COE, bem como os fixados em portaria.\n\n§ 1º Os documentos necessários à emissão do Certificado de Conclusão são aqueles constantes do artigo 35 do COE, bem como os fixados em portaria.(Redação dada pelo Decreto nº 57.815/2017)\n\n§ 2º Nas situações em que os Alvarás de Aprovação e de Execução tenham sido analisados e expedidos por meio eletrônico, o Certificado de Conclusão será válido quando acompanhado das peças gráficas aprovadas referentes ao Alvará de Aprovação, inclusive para fins de registro no Cartório de Registro de Imóveis.\n\n§ 3º A emissão do Certificado de Conclusão independe da pendência do pagamento de quaisquer multas.\n\n§ 4º Não será emitido o Certificado de Conclusão de obra embargada ou interditada, enquanto perdurar a infração relativa à obra objeto do pedido.\n\nSubseção IV\n\nDo Certificado de Regularização",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "2017",
+    "norma_redacao": "Decreto nº 57.815/2017"
+  },
+  "citacao": {
+    "norma": "decreto nº 57.776/2017 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Seção II › Art. 24",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57776-de-07-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 16.642, de 9 de maio de 2017, que aprovou o Código de Obras e Edificações do Município de São Paulo; define os membros da Comissão de Edificações e Uso do Solo – CEUSO."
+}

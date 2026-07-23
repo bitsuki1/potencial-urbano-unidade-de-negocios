@@ -1,0 +1,45 @@
+{
+  "chunk_id": "decreto-saopaulo-57378-2016::004-art-3o",
+  "lei_id": "decreto-saopaulo-57378-2016",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 3º",
+  "numero": "3",
+  "header_raw": "Art. 3º Nos casos de enquadramento dos usos não residenciais, deverão ser respeitadas, além das condicionantes previstas na Lei nº 16.402, de 2016, as seguintes disposições, quando for o caso:",
+  "caminho_hierarquico": [
+    "CAPÍTULO II",
+    "Art. 3º"
+  ],
+  "texto": "Art. 3º Nos casos de enquadramento dos usos não residenciais, deverão ser respeitadas, além das condicionantes previstas na Lei nº 16.402, de 2016, as seguintes disposições, quando for o caso:\n\nI - os empreendimentos enquadrados no grupo de atividade nR1-4 deverão respeitar a restrição de porte igual ou menor que 500m² (quinhentos metros quadrados) de área construída computável;\n\nII - os empreendimentos enquadrados no grupo de atividade nR2-5 deverão respeitar a restrição de porte maior que 500m² (quinhentos metros quadrados) e igual ou menor que 7.500m² (sete mil e quinhentos metros quadrados) de área construída computável;\n\nIII - os estabelecimentos de ensino enquadrados nos grupos de atividades nR2-6, nR2-7 e nR3-9 deverão considerar como sala de aula, para fins de cálculo de metragem da área, quaisquer espaços com área construída computável coberta destinada a atividades de ensino, excetuando as áreas administrativas, sanitários, refeitórios, copa, quadras cobertas ou descobertas e espaços de recreação cobertos ou descobertos.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.378/2016 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO II › Art. 3º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57378-de-13-de-outubro-de-2016",
+    "vigencia": {
+      "inicio": "2016-10-13",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=True ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "zoneamento",
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta o enquadramento de atividades não residenciais conforme categorias de uso, subcategorias de uso e os grupos de atividades previstos nos artigos 96 a 106 da Lei nº 16.402, de 22 de março de 2016; estabelece procedimentos para a aplicação das disposições relativas ao uso do solo fixadas pela referida lei."
+}

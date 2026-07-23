@@ -1,0 +1,49 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-15150-2010::017-art-13",
+  "lei_id": "lei-municipal-saopaulo-15150-2010",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 13",
+  "numero": "13",
+  "header_raw": "Art. 13. A expedição de Certidão de Diretrizes para um determinado empreendimento é documento obrigatório para o empreendedor obter a emissão do Alvará de Aprovação junto à Secretaria Municipal de Habitação - SEHAB.",
+  "caminho_hierarquico": [
+    "CAPÍTULO VI",
+    "Art. 13"
+  ],
+  "texto": "Art. 13. A expedição de Certidão de Diretrizes para um determinado empreendimento é documento obrigatório para o empreendedor obter a emissão do Alvará de Aprovação junto à Secretaria Municipal de Habitação - SEHAB.\n\n“Art. 13. A Certidão de Diretrizes é documento obrigatório para a obtenção de Alvará de Aprovação e Execução, de Alvará de Execução e de Certificado de Regularização para empreendimento qualificado como Polo Gerador de Tráfego.(Redação dada pela Lei nº 16.642/2017)\n\n§ 1º Quando se tratar de pedido de Alvará de Aprovação, este será expedido mediante manifestação favorável da CET em relação ao cumprimento, no projeto do empreendimento, do disposto nos incisos I a III do parágrafo único do art. 4º desta lei.(Incluído pela Lei nº 16.642/2017)\n\n§ 2º No caso de pedido de Certificado de Regularização, também deverá ser apresentado o Termo de Recebimento e Aceitação Definitivo – TRAD.(Incluído pela Lei nº 16.642/2017)\n\n§ 3º No caso de projeto modificativo ou de mudança do projeto no decorrer da análise, fica dispensada a apresentação de nova certidão quando as alterações em relação ao projeto original analisado por CET:(Incluído pela Lei nº 16.642/2017)\n\na) não impliquem em alteração de uso, categoria de uso ou subcategoria de uso;(Incluído pela Lei nº 16.642/2017)\n\nb) não ultrapassem 5% (cinco por cento) nas áreas computáveis e não computáveis, na taxa de ocupação e no número de vagas para veículos;(Incluído pela Lei nº 16.642/2017)\n\nc) não impliquem em alteração de acessos de pedestres e veículos.”(Incluído pela Lei nº 16.642/2017)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "2017",
+    "norma_redacao": "Lei nº 16.642/2017"
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 15.150/2010 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO VI › Art. 13",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-15150-de-06-de-maio-de-2010",
+    "vigencia": {
+      "inicio": "2010-05-06",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=True revoga=True."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "operacao_urbana",
+    "regularizacao",
+    "planta_generica_valores"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre os procedimentos para a aprovação de projetos arquitetônicos e para a execução de obras e serviços necessários para a minimização de impacto no Sistema Viário decorrente da implantação ou reforma de edificações e da instalação de atividades – Polo Gerador de Tráfego."
+}

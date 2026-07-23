@@ -4,7 +4,7 @@ completude,Com cadastro no IPTU (SQL → área de terreno),3905,90%,"casou o SQL
 completude,Com zona e CA básico (GeoSampa + Quadro 3),3693,85%,zona-base resolvida → coeficiente de aproveitamento básico
 completude,"Com potencial calculado (PCpt, Art. 125)",3418,78%,PCpt = Atc × CAbás × Fi (× FSCE) pelo engine
 completude,Com saldo vendável (> 0),3361,77%,potencial que ainda resta transferir (descontado o já vendido)
-completude,Com preço legal de referência (Art. 128),3334,76%,saldo + valor de terreno (Quadro 14) → referência legal pelo engine art128
+completude,Com preço legal de referência (Art. 128),3335,76%,saldo + valor de terreno (Quadro 14) → referência legal pelo engine art128
 corte_acao,Negociáveis (prova escrita de negociabilidade),2750,63%,declarou e/ou já vendeu — pode ser abordado
-corte_acao,Acionáveis agora (negociável + preço legal),2004,46%,tem preço de referência E é negociável — a fila de abordagem
+corte_acao,Acionáveis agora (negociável + preço legal),2005,46%,tem preço de referência E é negociável — a fila de abordagem
 corte_acao,Com proprietário identificado,0,0%,dono na base hoje (sobe em escala com a Fase B — sócios/empresas)

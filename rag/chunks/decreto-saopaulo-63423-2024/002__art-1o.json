@@ -1,0 +1,43 @@
+{
+  "chunk_id": "decreto-saopaulo-63423-2024::002-art-1o",
+  "lei_id": "decreto-saopaulo-63423-2024",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 1º",
+  "numero": "1",
+  "header_raw": "Art. 1º Fica aprovada a Carta Geotécnica de Aptidão à Urbanização do Município de São Paulo de 2024 –CGAU/MSP, para fins de atualização e aprimoramento técnico das informações constantes da Carta Geotécnica do Município de São Paulo de 1992.",
+  "caminho_hierarquico": [
+    "Art. 1º"
+  ],
+  "texto": "Art. 1º Fica aprovada a Carta Geotécnica de Aptidão à Urbanização do Município de São Paulo de 2024 –CGAU/MSP, para fins de atualização e aprimoramento técnico das informações constantes da Carta Geotécnica do Município de São Paulo de 1992.\n\n§ 1º Em consequência do estabelecido no “caput” deste artigo, a partir da publicação deste decreto, todos os atos normativos e procedimentos relacionados à observância da Carta Geotécnica do Município de São Paulo de 1992 passarão a observar o constante na Carta Geotécnica de Aptidão à Urbanização do Município de São Paulo de 2024 –CGAU/MSP.\n\n§ 2º A Carta Geotécnica do Município de São Paulo de Aptidão à Urbanização - CGAU/MSP e as alterações decorrentes da substituição de que trata este artigo deverão ser utilizadas obrigatoriamente como base na análise de novos loteamentos, em especial nas Macroáreas de Estruturação Metropolitana e de Redução da Vulnerabilidade e na Macrozona de Proteção e Recuperação Ambiental, conforme definido nos artigos 12, 15 e 17, todos da Lei 16.050, de 31 de julho de 2014 – Plano Diretor Estratégico.\n\n§ 3º A previsão contida no § 2º do “caput” deste artigo não acarretará prejuízos aos processos administrativos já iniciados ou transcorridos, desde que não haja determinação legal em sentido contrário.\n\n§ 4º A previsão contida no § 2º do “caput” deste artigo aplica-se aos processos de licenciamento urbanístico e edilício protocolados a partir da publicação deste decreto.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 63.423/2024 — São Paulo/SP",
+    "dispositivo": "Art. 1º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-63423-de-21-de-maio-de-2024",
+    "vigencia": {
+      "inicio": "2024-05-21",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Aprova a Carta Geotécnica de Aptidão à Urbanização do Município de São Paulo de 2024 - CGAU/MSP, para fins de atualização e aprimoramento técnico das informações constantes da Carta Geotécnica do Município de São Paulo de 1992, e dá outras providências."
+}

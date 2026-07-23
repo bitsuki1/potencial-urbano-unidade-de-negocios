@@ -1,0 +1,54 @@
+# DECRETO Nº 58.707 DE 2019
+
+**URL oficial:** https://legislacao.prefeitura.sp.gov.br/decreto-58707-de-8-de-abril-de-2019
+**Data de captura:** portal oficial legislacao.prefeitura.sp.gov.br (container texto_compilado)
+**Proveniência:** VERBATIM INTEGRAL — capturado de https://legislacao.prefeitura.sp.gov.br/decreto-58707-de-8-de-abril-de-2019 (portal oficial legislacao.prefeitura.sp.gov.br (container texto_compilado)); promovido de `_entrada/misto/decreto-saopaulo-58707-2019.txt`. Saneado só lixo de captura; boilerplate oficial do portal preservado (anotações de alteração do texto compilado incluídas).
+**confianca_extracao:** alta (articulado integral verbatim)
+
+## Ementa
+
+Declara o início da vigência dos índices e parâmetros da Zona de Estruturação da Transformação Urbana (ZEU) para a Zona Eixo de Estruturação da Transformação Urbana Previsto (ZEUP) definida pelo Corredor de Ônibus na Av. Eng. Luiz Carlos Berrini, entre a Av. Jorn. Roberto Marinho e a Av. dos Bandeirantes, em conformidade com o artigo 83 da Lei nº 16.050, de 31 de julho de 2014, e com o §1º do artigo 7º e a nota (b) do Quadro 3 da Lei nº 16.402, de 22 de março de 2016.
+
+## Texto integral (verbatim)
+
+DECRETO Nº 58.707 DE 8 DE ABRIL DE 2019
+
+DECRETO Nº 58.707 de 8 de Abril de 2019
+
+Declara o início da vigência dos índices e parâmetros da Zona de Estruturação da Transformação Urbana (ZEU) para a Zona Eixo de Estruturação da Transformação Urbana Previsto (ZEUP) definida pelo Corredor de Ônibus na Av. Eng. Luiz Carlos Berrini, entre a Av. Jorn. Roberto Marinho e a Av. dos Bandeirantes, em conformidade com o artigo 83 da Lei nº 16.050, de 31 de julho de 2014, e com o §1º do artigo 7º e a nota (b) do Quadro 3 da Lei nº 16.402, de 22 de março de 2016.
+
+DECRETO Nº 58.707, DE 8 DE ABRIL DE 2019
+
+Declara o início da vigência dos índices e parâmetros da Zona de Estruturação da Transformação Urbana (ZEU) para a Zona Eixo de Estruturação da Transformação Urbana Previsto (ZEUP) definida pelo Corredor de Ônibus na Av. Eng. Luiz Carlos Berrini, entre a Av. Jorn. Roberto Marinho e a Av. dos Bandeirantes, em conformidade com o artigo 83 da Lei nº 16.050, de 31 de julho de 2014, e com o §1º do artigo 7º e a nota (b) do Quadro 3 da Lei nº 16.402, de 22 de março de 2016.
+
+BRUNO COVAS, Prefeito do Município de São Paulo, no uso das atribuições que lhe são conferidas por lei,
+
+CONSIDERANDO a emissão, pela São Paulo Obras (SPObras), da Ordem de Serviço nº 01, de 15 de agosto de 2013, da Ordem de Serviço nº 02, de 1º de novembro de 2013, da Ordem de Serviço nº 03, de 16 de fevereiro de 2015, da Ordem de Serviço nº 04, de 20 de maio de 2015, da Ordem de Serviço nº 05, de 16 de agosto de 2015, da Ordem de Serviço nº 06, de 1º de janeiro de 2016, da Ordem de Serviço nº 07, de 1º de abril de 2016, e da Ordem de Serviço nº 08, de 1º de maio de 2016, todas do Contrato nº 049/SIURB/13, referentes à elaboração e execução das obras do Empreendimento 8 – Sistema Viário de Apoio – Corredor Berrini, integrante do Programa de Mobilidade Urbana;
+
+CONSIDERANDO a manifestação do Departamento de Controle de Qualidade Ambiental da Secretaria Municipal do Verde e do Meio Ambiente (DECONT/SVMA) pela desnecessidade de licenciamento ambiental para a implantação do Corredor de Ônibus da Berrini, conforme documento nº 014827824 do processo administrativo nº 6068.2018/0003678-4;
+
+CONSIDERANDO a expedição, pela antiga Secretaria Municipal de Serviços e Obras (SMSO), do Termo de Recebimento Definitivo (TRD) das obras relativas ao Contrato nº 049/SIURB/2013, datado de 23 de junho de 2017, conforme documento nº 014638455 do processo administrativo nº 6068.2018/0003678-4,
+
+D E C R E T A:
+
+Art. 1º Em conformidade com o disposto no artigo 83 da Lei nº 16.050, de 2014, e no §1º do artigo 7º da Lei nº 16.402, de 2016, para a Zona Eixo de Estruturação da Transformação Urbana Previsto (ZEUP) definida pelo Corredor de Ônibus da Av. Eng. Luiz Carlos Berrini, composta pelas Quadras 298, 299, 300, 301, 527 e 531 do Setor Fiscal 085, passam a vigorar os índices e parâmetros da Zona de Estruturação da Transformação Urbana (ZEU).
+
+Art. 2º A Secretaria Municipal de Desenvolvimento Urbano - SMDU disponibilizará no portal GeoSampa o mapa definido pelos elementos constantes deste decreto, em consonância com as diretrizes que regem o Sistema de Informações Geográficas do Município de São Paulo, previstas no Decreto nº 57.770, de 3 de julho de 2017.
+
+Art. 3º Este decreto entrará em vigor na data de sua publicação.
+
+PREFEITURA DO MUNICÍPIO DE SÃO PAULO, aos 8 de abril de 2019, 466º da fundação de São Paulo.
+
+BRUNO COVAS, PREFEITO
+
+FERNANDO BARRANCOS CHUCRE, Secretário Municipal de Desenvolvimento Urbano
+
+JOÃO JORGE DE SOUZA, Secretário Municipal da Casa Civil
+
+RUBENS NAMAN RIZEK JUNIOR, Secretário Municipal de Justiça
+
+MAURO RICARDO MACHADO COSTA, Secretário do Governo Municipal
+
+Publicado na Casa Civil, em 8 de abril de 2019.
+
+Este texto não substitui o original publicado no Diário Oficial da Cidade de São Paulo.

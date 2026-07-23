@@ -1,0 +1,43 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17104-2019::005-art-4o",
+  "lei_id": "lei-municipal-saopaulo-17104-2019",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 4º",
+  "numero": "4",
+  "header_raw": "Art. 4º Caberá ao Município, no prazo máximo de até 120 (cento e vinte) dias, contados da instituição da instância a que se refere o art. 3º desta lei, apresentar Relatório da Situação sobre Segurança Hídrica.",
+  "caminho_hierarquico": [
+    "Art. 4º"
+  ],
+  "texto": "Art. 4º Caberá ao Município, no prazo máximo de até 120 (cento e vinte) dias, contados da instituição da instância a que se refere o art. 3º desta lei, apresentar Relatório da Situação sobre Segurança Hídrica.\n\n§ 1º O relatório, mencionado no caput deste artigo deverá conter indicadores de fácil acesso, adequados e relevantes ao território municipal, com consistência analítica, transversalidade, confiabilidade, disponibilidade, mensurabilidade e, na medida do possível, serem atualizados para o ano de publicação desta lei.\n\n§ 2º A definição dos indicadores e sua construção são de responsabilidade da instância a que se refere o art. 3º desta lei, que deverá considerar processos de consulta a órgãos e atores integrantes de sistemas de recursos hídricos, saneamento, meio ambiente, saúde, defesa civil, entre outros.\n\n§ 3º O relatório deverá ser submetido a consulta pública, divulgado em veículo oficial de informação do Município e disponibilizado em meio digital, em local acessível e em formato de dados abertos, nos termos do art. 2º, inciso III do Decreto Federal nº 8.777, de 11 de maio de 2016, para permitir avaliação e monitoramento com colaboração da sociedade.\n\n§ 4º O relatório deverá ser atualizado a cada dois anos, a contar da data de sua publicação.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.104/2019 — São Paulo/SP",
+    "dispositivo": "Art. 4º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17104-de-30-de-maio-de-2019",
+    "vigencia": {
+      "inicio": "2019-05-30",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Institui a Política Municipal de Segurança Hídrica e Gestão das Águas, no âmbito do Município de São Paulo."
+}

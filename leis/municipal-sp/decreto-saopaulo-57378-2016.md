@@ -1,0 +1,288 @@
+# DECRETO Nº 57.378 DE 2016
+
+**URL oficial:** https://legislacao.prefeitura.sp.gov.br/decreto-57378-de-13-de-outubro-de-2016
+**Data de captura:** portal oficial legislacao.prefeitura.sp.gov.br (container texto_compilado)
+**Proveniência:** VERBATIM INTEGRAL — capturado de https://legislacao.prefeitura.sp.gov.br/decreto-57378-de-13-de-outubro-de-2016 (portal oficial legislacao.prefeitura.sp.gov.br (container texto_compilado)); promovido de `_entrada/misto/decreto-saopaulo-57378-2016.txt`. Saneado só lixo de captura; boilerplate oficial do portal preservado (anotações de alteração do texto compilado incluídas).
+**confianca_extracao:** alta (articulado integral verbatim)
+
+## Ementa
+
+Regulamenta o enquadramento de atividades não residenciais conforme categorias de uso, subcategorias de uso e os grupos de atividades previstos nos artigos 96 a 106 da Lei nº 16.402, de 22 de março de 2016; estabelece procedimentos para a aplicação das disposições relativas ao uso do solo fixadas pela referida lei.
+
+## Texto integral (verbatim)
+
+DECRETO Nº 57.378 DE 13 DE OUTUBRO DE 2016
+
+DECRETO Nº 57.378 de 13 de Outubro de 2016
+
+Alterações
+
+Revogações
+
+CORRELAÇÕES
+
+Anexos
+
+Temas Relacionados
+
+Regulamenta o enquadramento de atividades não residenciais conforme categorias de uso, subcategorias de uso e os grupos de atividades previstos nos artigos 96 a 106 da Lei nº 16.402, de 22 de março de 2016; estabelece procedimentos para a aplicação das disposições relativas ao uso do solo fixadas pela referida lei.
+
+DECRETO Nº 57.378, DE 13 DE OUTUBRO DE 2016
+
+Regulamenta o enquadramento de atividades não residenciais conforme categorias de uso, subcategorias de uso e os grupos de atividades previstos nos artigos 96 a 106 da Lei nº 16.402, de 22 de março de 2016; estabelece procedimentos para a aplicação das disposições relativas ao uso do solo fixadas pela referida lei.
+
+FERNANDO HADDAD, Prefeito do Município de São Paulo, no uso das atribuições que lhe são conferidas por lei,
+
+CONSIDERANDO o disposto no artigo 161 da Lei nº 16.402, de 22 de março de 2016 – LPUOS, quanto à necessidade de revisão do enquadramento de atividades de acordo com os grupos de atividades e respectivas subcategorias de usos não residenciais;
+
+CONSIDERANDO a necessidade de estabelecer procedimentos para a aplicação das disposições relativas ao uso do solo previstas no Título V da Lei nº 16.402, de 2016,
+
+D E C R E T A:
+
+CAPÍTULO I
+
+DAS DISPOSIÇÕES PRELIMINARES
+
+Art. 1º Este decreto regulamenta o enquadramento de atividades não residenciais conforme categorias de uso, subcategorias de uso e os grupos de atividades previstos nos artigos 96 a 106 da Lei nº 16.402, de 22 de março de 2016 - LPUOS, e estabelece procedimentos para a aplicação das disposições previstas no Título V da referida lei.
+
+Art. 2º Em atendimento ao disposto no artigo 161 da Lei nº 16.402, de 22 de março de 2016, consta do Anexo Único deste decreto o enquadramento de atividades conforme categorias de uso, subcategorias de uso e grupos de atividades estabelecidos na referida lei com base na Classificação Nacional de Atividades Econômicas - CNAE.
+
+Parágrafo único. O enquadramento previsto no “caput” deste artigo adota a versão 2.2 da CNAE.
+
+CAPÍTULO II
+
+DOS USOS NÃO RESIDENCIAIS
+
+Art. 3º Nos casos de enquadramento dos usos não residenciais, deverão ser respeitadas, além das condicionantes previstas na Lei nº 16.402, de 2016, as seguintes disposições, quando for o caso:
+
+I - os empreendimentos enquadrados no grupo de atividade nR1-4 deverão respeitar a restrição de porte igual ou menor que 500m² (quinhentos metros quadrados) de área construída computável;
+
+II - os empreendimentos enquadrados no grupo de atividade nR2-5 deverão respeitar a restrição de porte maior que 500m² (quinhentos metros quadrados) e igual ou menor que 7.500m² (sete mil e quinhentos metros quadrados) de área construída computável;
+
+III - os estabelecimentos de ensino enquadrados nos grupos de atividades nR2-6, nR2-7 e nR3-9 deverão considerar como sala de aula, para fins de cálculo de metragem da área, quaisquer espaços com área construída computável coberta destinada a atividades de ensino, excetuando as áreas administrativas, sanitários, refeitórios, copa, quadras cobertas ou descobertas e espaços de recreação cobertos ou descobertos.
+
+Art. 4º Os pedidos que envolvam o licenciamento de empreendimentos enquadrados nos grupos de atividades nR2-8, nR2-9 e nR3-3 dependerão da análise da Secretaria Municipal de Transportes – SMT, para manifestação, com base no parecer técnico da Companhia de Engenharia do Tráfego – CET, quanto aos parâmetros dispostos no Quadro 4A da Lei nº 16.402, de 2016.
+
+Parágrafo único. A manifestação de que trata o “caput” deste artigo poderá ser obtida mediante solicitação do interessado ou dos órgãos municipais competentes.
+
+Art. 5º Nos casos de reclassificação das atividades nos termos do artigo 105 da Lei nº 16.402, de 2016, o pedido deverá ser protocolado pelo interessado ou encaminhado pelos órgãos municipais competentes ao Departamento de Uso do Solo – DEUSO, da Secretaria Municipal de Desenvolvimento Urbano – SMDU, a quem caberá formular parecer técnico indicando a pertinência da reclassificação, para posterior deliberação da Câmara Técnica de Legislação Urbanística – CTLU.
+
+Parágrafo único. DEUSO submeterá o pedido à análise da Secretaria Municipal do Verde e do Meio Ambiente – SVMA, que subsidiará a elaboração do parecer técnico previsto no “caput” deste artigo.
+
+Seção I
+
+Da subcategoria de uso INFRA
+
+Art. 6º Os pedidos que envolvam o licenciamento de empreendimentos enquadrados na subcategoria de uso INFRA dependerão da análise do Departamento de Urbanismo – DEURB, da SMDU, para manifestação quanto ao atendimento do disposto no inciso I do “caput” do artigo 107 da Lei nº 16.402, de 2016, quando for o caso.
+
+§ 1º A manifestação de que trata o “caput” deste artigo poderá ser obtida mediante solicitação do interessado ou dos órgãos municipais competentes.
+
+§ 2º Caso a localização do empreendimento não atenda ao disposto no “caput” deste artigo, DEURB encaminhará o processo ao DEUSO, que deverá submeter o pedido à análise do órgão competente e, posteriormente, encaminhá-lo para a deliberação da CTLU, nos termos do inciso II do “caput” do artigo 107 da Lei nº 16.402, de 2016, excetuados os casos previstos na Lei nº 13.756, de 16 de janeiro de 2004, e no Decreto nº 56.941, de 18 de abril de 2016, que seguirão procedimento específico nos termos da lei e do regulamento.
+
+§ 3º Nos casos em que couber à CTLU, nos termos dos incisos I e II do §1º do artigo 107 da Lei nº 16.402, de 2016, estabelecer ou excepcionar parâmetros de parcelamento, uso e ocupação do solo, DEUSO deverá formular parecer técnico para subsidiar a respectiva deliberação.
+
+Art. 7º Para fins de aplicação da Lei nº 16.402, de 2016, considera-se atividade auxiliar às subcategorias de uso INFRA-1 e INFRA-2 aquela que, concomitantemente:
+
+Art. 7º Para fins de aplicação da Lei nº 16.402, de 2016, considera-se atividade auxiliar às subcategorias de uso INFRA-1 e INFRA-2 aquela que, cumulativamente: (Redação dada pelo Decreto nº 65.147/2026)
+
+I - tenha acesso direto e exclusivo pelas áreas internas de circulação do empreendimento enquadrado como INFRA-1 ou INFRA-2;
+
+I - tenha acesso direto e exclusivo pelas áreas internas de circulação do empreendimento; (Redação dada pelo Decreto nº 65.147/2026)
+
+II - não tenha acesso direto a logradouro público;
+
+III - não cause interferência nas rotas de fuga e circulação geral dos usuários, atestada pelo órgão gestor do empreendimento enquadrado nas subcategorias de uso INFRA-1 ou INFRA-2;
+
+IV - esteja enquadrada nos grupos de atividades nR1-1, nR1-2, nR1-3, nR1-4, nR1-5, nR1-6, nR1-7, nR1-10 e nR1-11 da subcategoria de uso nR1, prevista no artigo 98 da Lei nº 16.402, de 2016;
+
+V - tenha passado por avaliação técnica favorável do órgão gestor do empreendimento enquadrado nas subcategorias de uso INFRA-1 ou INFRA-2.
+
+Parágrafo único. As atividades de que trata o “caput” deste artigo não estão dispensadas da obtenção da licença correspondente perante o órgão municipal competente, conforme artigo 136 da Lei nº 16.402, de 2016.
+
+III - não cause interferência nas rotas de fuga e na circulação geral dos usuários, conforme atestado pelo órgão gestor do empreendimento; (Redação dada pelo Decreto nº 65.147/2026)
+
+IV - esteja enquadrada nos grupos de atividades nR1-1, nR1-2, nR1-3, nR1-4, nR1-5, nR1-6, nR1-7, nR1-10 e nR1-11 da subcategoria nR1, prevista no art. 98 da Lei nº 16.402, de 2016; (Redação dada pelo Decreto nº 65.147/2026)
+
+V - tenha sido objeto de avaliação técnica favorável do órgão gestor do empreendimento. (Redação dada pelo Decreto nº 65.147/2026)
+
+§ 1º Nos empreendimentos enquadrados como INFRA-2 destinados ao transporte aéreo, admitem-se atividades complementares ou inerentes ao uso principal, ainda que não atendidos cumulativamente os requisitos previstos nos incisos I a IV do “caput” deste artigo, inclusive quando, por sua natureza funcional, demandem interface com o logradouro público, desde que: (Incluído pelo Decreto nº 65.147/2026)
+
+I - apresentem vínculo funcional, operacional ou de suporte com a atividade aeroportuária; (Incluído pelo Decreto nº 65.147/2026)
+
+II - não impliquem descaracterização do uso predominante como INFRA-2; (Incluído pelo Decreto nº 65.147/2026)
+
+III - sejam compatíveis com a segurança operacional e com os fluxos de pessoas, veículos e cargas do empreendimento; (Incluído pelo Decreto nº 65.147/2026)
+
+IV - sejam submetidas à avaliação técnica favorável do órgão gestor quanto à sua integração ao funcionamento do complexo aeroportuário; (Incluído pelo Decreto nº 65.147/2026)
+
+V - atendam às condições de instalação e de licenciamento previstas na legislação municipal aplicável. (Incluído pelo Decreto nº 65.147/2026)
+
+§ 2º As atividades referidas no § 1º poderão incluir, entre outras, serviços de alimentação e comércio, apoio logístico, mobilidade, estacionamento e facilidades aos usuários, desde que funcionalmente integradas à operação do aeroporto, nos limites dos atos de autorização, permissão ou concessão. (Incluído pelo Decreto nº 65.147/2026)
+
+§ 3º A existência dessas atividades não descaracteriza o enquadramento do empreendimento como INFRA-2 para fins urbanísticos. (Incluído pelo Decreto nº 65.147/2026)
+
+§ 4º As atividades de que trata este artigo permanecem sujeitas ao licenciamento específico perante os órgãos competentes, nos termos da legislação aplicável. (Incluído pelo Decreto nº 65.147/2026)
+
+Seção II
+
+Dos complexos de saúde, educação em saúde e pesquisa em saúde
+
+Art. 8º Os pedidos de reconhecimento de complexo de saúde, educação em saúde e pesquisa em saúde ou de utilização dos benefícios previstos no artigo 115 da Lei nº 16.402, de 2016, deverão ser encaminhados à SMDU, para deliberação quanto ao atendimento do disposto no § 2º do referido artigo. (Revogado pelo Decreto nº 63.884/2024)
+
+§ 1º Para fins de instrução do pedido, serão exigidos, no mínimo, os seguintes documentos:
+
+I - planta com indicação dos imóveis que apresentem atividade que justifique o reconhecimento do complexo de saúde, educação em saúde ou pesquisa em saúde, contendo a demarcação do perímetro do complexo e de sua faixa envoltória;
+
+II - quadro de áreas discriminando os imóveis que apresentem atividade que justifique o reconhecimento do complexo e a porcentagem da área total desses imóveis em relação à área da quadra e à área total do complexo a ser reconhecido;
+
+III - cópia do IPTU, com número do contribuinte de cada imóvel que apresente atividade que justifique o reconhecimento do complexo;
+
+IV - documentação que comprove o funcionamento das atividades de todos os imóveis que apresentem atividade que justifique o reconhecimento do complexo, por meio de, pelo menos, um dos seguintes documentos para cada imóvel ou conjunto de imóveis, no que couber:
+
+a) licença de funcionamento com permissão para atividade relacionada a serviço de saúde, educação em saúde ou pesquisa em saúde, ou documento semelhante, expedido pela Prefeitura e que esteja válido;
+
+b) declaração emitida pelo órgão de ensino competente, informando autorização para funcionamento de atividade de educação em saúde e/ou pesquisa em saúde;
+
+c) declaração emitida pelo órgão de saúde competente, informando autorização para funcionamento de atividade de prestação de serviço de saúde.
+
+§ 2º O perímetro de que trata o inciso I do § 1º deste artigo deverá ser contínuo, podendo abranger imóveis não contíguos e quadras fiscais adjacentes.
+
+§ 3º Para fins de cálculo da área construída edificada existente, prevista no § 2º do artigo 115 da Lei nº 16.402, de 2016, serão consideradas as informações apresentadas pelo interessado e os dados constantes do Cadastro Territorial e Predial, de Conservação e Limpeza - TPCL.
+
+§ 4º A Prefeitura poderá indicar perímetros de complexos de saúde, educação em saúde e pesquisa em saúde que atendam às disposições deste artigo.
+
+§ 5º Os complexos de saúde, educação em saúde e pesquisa em saúde reconhecidos pela Prefeitura serão divulgados no site da SMDU na internet.
+
+Seção III
+
+Dos usos e atividades não residenciais em bens públicos
+
+Art. 9º Ficam equiparadas a serviços públicos sociais para fins da aplicação deste decreto e da Lei nº 16.402, de 2016, as atividades configuradas nas hipóteses do artigo 114, § 3º, da Lei Orgânica do Município de São Paulo, e no artigo 1º da Lei nº 14.652, de 20 de dezembro de 2007, alterado pela Lei nº 16.373, de 21 de janeiro de 2016, e no artigo 2º, III, do Decreto nº 52.201, de 22 de março de 2011, ou legislação que vierem a sucedê-los.
+
+Art. 10. A implantação de empreendimentos, usos e atividades em imóveis públicos, ainda quando cedidos a particulares, é isenta da destinação de área pública prevista nos artigos 44 e 45 e no Quadro 2 da Lei nº 16.402, de 2016.
+
+CAPÍTULO III
+
+DAS DISPOSIÇÕES FINAIS
+
+Art. 11. Para fins de aplicação da Lei nº 16.402, de 2016, entende-se por mudança de uso a alteração da atividade instalada no imóvel por outra atividade enquadrada em outro grupo de atividade dentre aqueles discriminados nos artigos 96 a 106 e no Quadro 4 da referida lei, ressalvados os casos previstos no parágrafo único do artigo 42, nos §§ 5º e 6º do artigo 45 e, no que couber, as disposições do Quadro 4 da citada lei.
+
+Parágrafo único. Nos casos dos usos residenciais, o disposto no "caput" deste artigo se aplica quando se tratar de alteração de enquadramento nas subdivisões das subcategorias previstas no artigo 94 da Lei nº 16.402, de 2016.
+
+Art. 12. Nos casos de licenciamento de atividades, edificações e parcelamento do solo nos termos da Lei nº 16.402, de 2016, em imóvel que esteja situado em mais de um zona de uso, aplicam-se os parâmetros de parcelamento, uso e ocupação do solo referentes a cada zona de uso nas respectivas parcelas do imóvel em que cada zona incidir.
+
+Art. 13. Para fins de licenciamento de atividades não residenciais conforme estabelecido no artigo 136 da Lei nº 16.402, de 2016, deverão ser considerados a categoria de uso, a subcategoria de uso, o grupo de atividade e a atividade constante do Anexo Único deste decreto.
+
+§ 1º Para fins de aplicação do disposto no “caput” deste artigo e em atendimento ao §1º do artigo 136 da Lei nº 16.402, de 2016, o Sistema Eletrônico de Licenciamento de Atividades deverá utilizar os elementos constantes do Anexo Único deste decreto, a saber:
+
+I - a categoria de uso;
+
+II - a subcategoria de uso;
+
+III - a atividade;
+
+IV - o código CNAE;
+
+V - a descrição do código CNAE;
+
+VI - a descrição complementar do Município de São Paulo.
+
+§ 2º Para fins de aplicação do inciso I do § 1º deste artigo, poderá ser adotado o acréscimo de dígitos aos códigos CNAE para o modo eletrônico de licenciamento de atividades.
+
+§ 3º A licença prevista no artigo 136 da Lei nº 16.402, de 2016, será emitida manualmente até que seja possível realizar o licenciamento de atividades no modo eletrônico pelo site da Prefeitura na internet.
+
+§ 4º As atividades enquadradas no Anexo Único deste decreto não estão dispensadas de licenciamento ambiental perante o órgão municipal e estadual competente, conforme exigido pela legislação ambiental aplicável.
+
+Art. 14. Nos casos de dúvida de enquadramento, de reenquadramento ou de atividade não relacionada no Anexo Único deste decreto, o enquadramento será realizado mediante deliberação da CTLU.
+
+§ 1º Os pedidos referidos no “caput” deste artigo serão protocolados pelos interessados ou encaminhados pelos órgãos municipais competentes ao DEUSO, da SMDU, que deverá formular parecer técnico indicando o grupo de atividade, a respectiva subcategoria de uso e, quando houver, o código CNAE associado à atividade solicitada, para posterior deliberação da CTLU.
+
+§ 2º Para os casos de dúvida ou de novo enquadramento de atividades na subcategoria de uso nRa, prevista no artigo 97 da Lei nº 16.402, de 2016, DEUSO formulará o parecer técnico referido no §1º deste artigo após manifestação de SVMA quanto à compatibilidade ambiental.
+
+§ 3º Será admitida a inclusão de novos enquadramentos de códigos CNAE ou de retificação daqueles previstos no Anexo Único deste decreto, desde que verificada omissão, erro de classificação ou, ainda, por atualização da classificação nacional, mediante deliberação da CTLU, com base em análise realizada pelo DEUSO.
+
+§ 4º Nos casos de reenquadramento nos termos do parágrafo único do artigo 101 da Lei nº 16.402, de 2016, não será necessária a direta correspondência a um determinado grupo de atividade da subcategoria de uso Ind-1a, devendo ser adotado, para fins da permissão do uso nas respectivas zonas, o grupo de atividade mais restritivo da referida subcategoria de uso, conforme disposto no Quadro 4 da referida lei.
+
+Art. 15. Ficam recepcionadas as licenças de funcionamento expedidas anteriormente à entrada em vigor deste decreto com base no Decreto nº 57.298, de 8 de setembro de 2016.
+
+Parágrafo único. Aplica-se o disposto no “caput” deste artigo para os pedidos de licenciamento de atividades não residenciais protocolados até a entrada em vigor deste decreto.
+
+Art. 16. Integra este decreto o Anexo Único - Enquadramento das Atividades não Residenciais de acordo com os Grupos de Atividades.
+
+Art. 17. Este decreto entrará em vigor na data de sua publicação, revogado o Anexo II do Decreto nº 57.298, de 8 de setembro de 2016.
+
+PREFEITURA DO MUNICÍPIO DE SÃO PAULO, aos 13 de outubro de 2016, 463º da fundação de São Paulo.
+
+FERNANDO HADDAD, PREFEITO
+
+FERNANDO DE MELLO FRANCO, Secretário Municipal de Desenvolvimento Urbano
+
+FRANCISCO MACENA DA SILVA, Secretário do Governo Municipal
+
+Publicado na Secretaria do Governo Municipal, em 13 de outubro de 2016.
+
+Anexo Único Integrante do Decreto nº 57.378, de 13 de outubro de 2016
+
+ANEXO ÚNICO DO DECRETO Nº 62.365, DE 8 DE MAIO DE 2023
+Grupo de atividadeAtividadeCNAE 2.2Descrição Complementar do Município de São Paulo
+SeçãoClasseSubclassesDenominação
+Ind-1b-1: fabricação de produtos alimentícios e bebidas (área construída computável de até 1.000m²)Estabelecimentos formados por um conjunto de cozinhas industriais, utilizadas para produção por diferentes restaurantes e/ou empresas, destinados à comercialização de refeições e alimentos por serviço de entregas, sem acesso de público para consumo no local, configurando operação conjunta ou conglomerado de cozinhas, popularmente conhecidas como dark kitchens, na hipótese em que em que abranger de 03 (três) até 10 (dez) cozinhas, limitada à área construída computável de até 500m² (quinhentos metros quadrados)C 1112-7/00Fabricação de vinhoConforme Lei Municipal nº 17.853/2022
+C 1031-7/00Fabricação de conservas de frutas
+C1032-5TODOSFabricação de conservas de legumes e outros vegetais, exceto palmito
+C1033-3TODOSFabricação de sucos de frutas, hortaliças e legumes, exceto concentrados
+C 1052-0/00Fabricação de laticínios
+C 1053-8/00Fabricação de sorvetes e outros gelados comestíveis
+C1091-1TODOSFabricação de produtos de panificação
+C 1092-9/00Fabricação de biscoitos e bolachas
+C1093-7TODOSFabricação de produtos derivados do cacau, de chocolates e confeitos
+C 1094-5/00Fabricação de massas alimentícias
+C 1095-3/00Fabricação de especiarias, molhos, temperos e condimentos
+C 1096-1/00Fabricação de alimentos e pratos prontos
+C 1099-6/02Fabricação de pós alimentícios
+C 1099-6/03Fabricação de fermentos e leveduras
+C 1099-6/05Fabricação de produtos para infusão (chá, mate, etc.)
+C 1099-6/07Fabricação de alimentos dietéticos e complementos alimentares
+C 1099-6/99Fabricação de outros produtos alimentícios não especificados anteriormente
+C1111-9TODOSFabricação de aguardentes e outras bebidas destiladas
+C1113-5TODOSFabricação de malte, cervejas e chopes
+C1122-4TODOSFabricação de refrigerantes e de outras bebidas não alcoólicas
+G4721-1TODOSComércio varejista de produtos de padaria, laticínio, doces, balas e semelhantes
+Ind-1b-1: fabricação de produtos alimentícios e bebidas (área construída computável de até 1.000m²)Estabelecimentos formados por um conjunto de cozinhas industriais, utilizadas para produção por diferentes restaurantes e/ou empresas, destinados à comercialização de refeições e alimentos por serviço de entregas, sem acesso de público para consumo no local, configurando operação conjunta ou conglomerado de cozinhas, popularmente conhecidas como dark kitchens, na hipótese em que em que abranger de 03 (três) até 10 (dez) cozinhas, limitada à área construída computável de até 500m² (quinhentos metros quadrados)G4722-9TODOSComércio varejista de carnes e pescados - açougues e peixariasConforme Lei Municipal nº 17.853/2022
+G 4723-7/00Comércio varejista de bebidas
+G 4724-5/00Comércio varejista de hortifrutigranjeiros
+I 5611-2/01Restaurantes e similares
+I 5611-2/02Bares e outros estabelecimentos especializados em servir bebidas
+I 5611-2/03Lanchonetes, casas de chá, de sucos e similares
+I 5612-1/00Serviços ambulantes de alimentação
+I5620-1TODOSServiços de catering, bufê e outros serviços de comida preparada
+Ind-2-1: fabricação de produtos alimentícios e bebidasEstabelecimentos formados por um conjunto de cozinhas industriais, utilizadas para produção por diferentes restaurantes e/ou empresas, destinados à comercialização de refeições e alimentos por serviço de entregas, sem acesso de público para consumo no local, configurando operação conjunta ou conglomerado de cozinhas, popularmente conhecidas como dark kitchens, na hipótese em que ultrapassar 10 (dez) cozinhas ou 500m² (quinhentos metros quadrados) de área construída computávelC 1112-7/00Fabricação de vinhoConforme Lei Municipal nº 17.853/2022
+C 1031-7/00Fabricação de conservas de frutas
+C1032-5TODOSFabricação de conservas de legumes e outros vegetais, exceto palmito
+C1033-3TODOSFabricação de sucos de frutas, hortaliças e legumes, exceto concentrados
+C 1052-0/00Fabricação de laticínios
+C 1053-8/00Fabricação de sorvetes e outros gelados comestíveis
+C1091-1TODOSFabricação de produtos de panificação
+C 1092-9/00Fabricação de biscoitos e bolachas
+C1093-7TODOSFabricação de produtos derivados do cacau, de chocolates e confeitos
+C 1094-5/00Fabricação de massas alimentícias
+C 1095-3/00Fabricação de especiarias, molhos, temperos e condimentos
+C 1096-1/00Fabricação de alimentos e pratos prontos
+C 1099-6/02Fabricação de pós alimentícios
+C 1099-6/03Fabricação de fermentos e leveduras
+C 1099-6/05Fabricação de produtos para infusão (chá, mate, etc.)
+C 1099-6/07Fabricação de alimentos dietéticos e complementos alimentares
+C 1099-6/99Fabricação de outros produtos alimentícios não especificados anteriormente
+C1111-9TODOSFabricação de aguardentes e outras bebidas destiladas
+C1113-5TODOSFabricação de malte, cervejas e chopes
+Ind-2-1: fabricação de produtos alimentícios e bebidasEstabelecimentos formados por um conjunto de cozinhas industriais, utilizadas para produção por diferentes restaurantes e/ou empresas, destinados à comercialização de refeições e alimentos por serviço de entregas, sem acesso de público para consumo no local, configurando operação conjunta ou conglomerado de cozinhas, popularmente conhecidas como dark kitchens, na hipótese em que ultrapassar 10 (dez) cozinhas ou 500m² (quinhentos metros quadrados) de área construída computávelC1122-4TODOSFabricação de refrigerantes e de outras bebidas não alcoólicasConforme Lei Municipal nº 17.853/2022
+G4721-1TODOSComércio varejista de produtos de padaria, laticínio, doces, balas e semelhantes
+G4722-9TODOSComércio varejista de carnes e pescados - açougues e peixarias
+G 4723-7/00Comércio varejista de bebidas
+G 4724-5/00Comércio varejista de hortifrutigranjeiros
+I 5611-2/01Restaurantes e similares
+I 5611-2/02Bares e outros estabelecimentos especializados em servir bebidas
+I 5611-2/03Lanchonetes, casas de chá, de sucos e similares
+I 5612-1/00Serviços ambulantes de alimentação
+I5620-1TODOSServiços de catering, bufê e outros serviços de comida preparada
+
+Este texto não substitui o original publicado no Diário Oficial da Cidade de São Paulo.

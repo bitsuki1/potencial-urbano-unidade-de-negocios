@@ -138,19 +138,34 @@ def _precificar(r, saldo, vendido_bloqueado, pend, n):
 
 def main():
     iptu = {r["sql_mestre"]: r for r in csv.DictReader(open(AQUI / "oficial/iptu2026_cedentes.csv", encoding="utf-8"))}
-    # VTcd vigente = Quadro 14 ano-ref 2026 (Dec. 64.884/2025, +7,18% uniforme sobre o ano-ref 2025
-    # oficial — gerado por pipeline/reajuste_q14_2026.py; base legal no docstring desse gerador).
-    # Supersede o ano-ref 2025 (Dec. 63.999/2024) a partir do exercício 2026 (1.6 vigência). O arquivo
-    # oficial/q14_cedentes_2025.csv fica no repo para auditoria da vigência anterior.
+    # VTcd vigente = Quadro 14 ano-ref 2026, valor NOMINAL PRIMÁRIO do Anexo I da Portaria SMUL 8/2026,
+    # re-extraído verbatim do PDF oficial do Drive (pipeline/recorte_q14_anexo2026.py; 179.591 faces,
+    # 294 setores 001→310). Por 1.3/1.8, a fonte é o primário — não mais o derivado 2025×1,0718
+    # (reajuste_q14_2026.py), que a reconciliação provou fiel dentro de R$0,01 (zepec/oficial/q14_recon_2026.md)
+    # e agora fica só para auditoria, junto do ano-ref 2025 (1.6 vigência). O primário ainda destrava faces
+    # que o derivado não tinha (846 SQs de cedentes cobertos; resíduo declarado no recon: 47 SQs estruturais
+    # quadra-000/9xx sem face de outorga + 2 quadras reais 050216/090479 ausentes da própria Portaria).
     q14 = {(r["sq"], norm_codlog(r["codlog"])): r["valor_m2_brl"]
-           for r in csv.DictReader(open(AQUI / "oficial/q14_cedentes_2026.csv", encoding="utf-8"))}
+           for r in csv.DictReader(open(AQUI / "oficial/q14_cedentes_2026_oficial.csv", encoding="utf-8"))}
     # G4 — Decreto 57.536/2016 Art. 3º IV: lotes com frente para distintas faces da mesma quadra
     # usam o MAIOR valor do Q14. Agrupa por SQ para calcular max.
     q14_por_sq = defaultdict(list)
     for (sq, codlog), val in q14.items():
         q14_por_sq[sq].append(Decimal(val))
     q14_max = {sq: max(vals) for sq, vals in q14_por_sq.items()}
+    # MAT-3 — fallback DECLARADO da face: quando a face fiscal (codlog do IPTU) não casa nenhuma face do
+    # Q14 da quadra, usa a MEDIANA das faces oficiais do SQ (todas são Q14 oficial; zero dado inventado).
+    # Só se aplica onde o SQ ESTÁ coberto; o número fica marcado v_q14_origem='mediana_sq' (rastreável, 1.3).
+    import statistics as _st
+    q14_mediana = {sq: _st.median(sorted(vals)) for sq, vals in q14_por_sq.items()}
     zona = {r["sql_mestre"]: r for r in csv.DictReader(open(AQUI / "oficial/zona_por_cedente.csv", encoding="utf-8"))}
+    # Camada de CONSERVAÇÃO oficial (Art. 129 PDE): nível de preservação + atos de tombamento (Resoluções
+    # CONPRESP/CONDEPHAAT) da consulta CIT verbatim (1.3/1.7). Gerada por pipeline/ingerir_cit_conservacao.py.
+    # É a CITAÇÃO da base legal do tombamento; SEM_DADO fica SEM_DADO (1.8, nada inventado).
+    cit_cons = {}
+    _cit_path = AQUI / "oficial/conservacao_cedentes.csv"
+    if _cit_path.exists():
+        cit_cons = {r["sql_mestre"]: r for r in csv.DictReader(open(_cit_path, encoding="utf-8"))}
 
     rows = list(csv.DictReader(open(AQUI / "ferramenta/zepec_cedentes.csv", encoding="utf-8")))
     extras = ["area_terreno_m2", "area_construida_m2", "valor_m2_terreno_iptu", "v_outorga_m2_q14",
@@ -158,7 +173,13 @@ def main():
               "zona", "ca_basico", "fi_aplicado", "fsce_aplicado", "pcpt_m2", "saldo_pcpt_m2", "parcelas_anuais",
               "preco_proxy_brl", "uso_iptu", "cobertura_oficial", "memoria_calculo", "pendencia_calculo",
               # T3 — regime do PCpt: separa já-declarado (Art.125 §1º I) de prospecção nova (Art.24 caput).
-              "regime_pcpt", "qualidade_estimativa"]
+              "regime_pcpt", "qualidade_estimativa",
+              # Conservação oficial (Art. 129 PDE): nível CIT + atos de tombamento (citação) + reconciliação.
+              "cit_nivel_preservacao", "cit_atos_tombamento", "cit_reconciliacao",
+              # MAT-3: procedência do V do Q14 (exato = face fiscal bateu; mediana_sq = fallback da quadra).
+              "v_q14_origem",
+              # Divergência oficial da conservação (CIT × nossa marca) numa coluna própria (pedido do dono).
+              "conservacao_diverge_oficial"]
     campos = list(rows[0].keys()) + extras
 
     n = {"atc": 0, "v": 0, "zona": 0, "cabas": 0, "pcpt": 0, "saldo": 0, "preco": 0,
@@ -168,6 +189,14 @@ def main():
     for r in rows:
         sql = (r.get("sql_mestre") or "").strip()
         for k in extras: r.setdefault(k, "")
+        # conservação oficial (Art. 129): copia o nível + atos verbatim do CIT (citação da base legal)
+        _cc = cit_cons.get(sql)
+        if _cc:
+            r["cit_nivel_preservacao"] = _cc.get("cit_nivel_preservacao", "")
+            r["cit_atos_tombamento"] = _cc.get("cit_atos_tombamento", "")
+            r["cit_reconciliacao"] = _cc.get("reconciliacao", "")
+            # coluna própria (pedido do dono): marca os imóveis em que o CIT oficial diverge da nossa marca
+            r["conservacao_diverge_oficial"] = "SIM" if _cc.get("reconciliacao") == "DIVERGE" else ""
         cob, pend = [], []
         i, z = iptu.get(sql), zona.get(sql)
 
@@ -190,7 +219,17 @@ def main():
             r["valor_m2_terreno_iptu"] = i["valor_m2_terreno"]; r["uso_iptu"] = i["uso"]; cob.append("IPTU2026"); n["atc"] += 1
             sq6 = sql[:6]
             v = q14.get((sq6, norm_codlog(i.get("codlog"))))
-            if v: r["v_outorga_m2_q14"] = v; cob.append("Q14"); n["v"] += 1
+            if v:
+                r["v_outorga_m2_q14"] = v; r["v_q14_origem"] = "exato"; cob.append("Q14"); n["v"] += 1
+            elif sq6 in q14_mediana:
+                # MAT-3: a face fiscal não casou, mas o SQ ESTÁ coberto -> mediana declarada das faces oficiais.
+                vmed = q14_mediana[sq6]
+                v = f"{vmed:.2f}"
+                r["v_outorga_m2_q14"] = v; r["v_q14_origem"] = "mediana_sq"
+                cob.append("Q14~med"); n["v"] += 1; n["v_mediana"] = n.get("v_mediana", 0) + 1
+                pend.append(f"V (Q14): face fiscal (codlog {norm_codlog(i.get('codlog'))}) sem match na quadra "
+                            f"{sq6}; usada a MEDIANA das faces oficiais do SQ = R${v}/m² "
+                            f"(v_q14_origem=mediana_sq — fallback declarado, todas as faces são Q14 oficial)")
             # G4 — Decreto 57.536/2016 Art. 3º IV: MAX do Q14 por quadra (todas as faces).
             vmax = q14_max.get(sq6)
             if vmax is not None:
@@ -295,7 +334,9 @@ def main():
 
     tot = len(rows)
     print(f"enriquecer_oficial (H1.4): {tot} cedentes -> {out.name}")
-    for k, lbl in [("atc", "Atc (área)"), ("v", "V outorga (Q14)"), ("multi_face", "Multi-face (G4 Dec.57536)"),
+    n.setdefault("v_mediana", 0)
+    for k, lbl in [("atc", "Atc (área)"), ("v", "V outorga (Q14)"), ("v_mediana", "  ├─ via mediana-SQ (MAT-3)"),
+                   ("multi_face", "Multi-face (G4 Dec.57536)"),
                    ("zona", "Zona"), ("cabas", "CAbás"), ("vedado", "Vedado Art.124§2 (sem PCpt)"),
                    ("pcpt", "PCpt calculado (engine)"), ("fsce", "FSCE aplicado (Art.57 SCE)"),
                    ("saldo", "Saldo líquido (– transferido)"), ("preco", "Preço-proxy R$ (do saldo)")]:

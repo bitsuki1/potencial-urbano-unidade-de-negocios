@@ -1,0 +1,43 @@
+{
+  "chunk_id": "decreto-saopaulo-59163-2019::008-art-7o",
+  "lei_id": "decreto-saopaulo-59163-2019",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 7º",
+  "numero": "7",
+  "header_raw": "Art. 7º Aos órgãos da administração direta, autarquias e fundações compete executar a mensuração dos resultados alcançados, consolidados em planilhas-resumo atestadas e subscritas pelos respectivos titulares ou dirigentes, de acordo com os modelos e os prazos fixados pela comissão intersecretarial.",
+  "caminho_hierarquico": [
+    "Art. 7º"
+  ],
+  "texto": "Art. 7º Aos órgãos da administração direta, autarquias e fundações compete executar a mensuração dos resultados alcançados, consolidados em planilhas-resumo atestadas e subscritas pelos respectivos titulares ou dirigentes, de acordo com os modelos e os prazos fixados pela comissão intersecretarial.\n\n§ 1º Das planilhas-resumo deverão constar, dentre outros dados, a indicação dos processos, expedientes ou documentos aptos a permitir a confirmação dos resultados atestados.\n\n§ 2º A comissão intersecretarial poderá, caso entenda necessário, solicitar a auditoria dos resultados apurados pela Controladoria Geral do Município, no prazo assinalado.\n\n§ 3º Os processos, expedientes ou documentos que comprovem os resultados atestados deverão ser preservados pelos órgãos da administração direta, autarquias e fundações por, no mínimo, 5 (cinco) anos, caso outro prazo maior não seja definido nas tabelas de temporalidade vigentes.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 59.163/2019 — São Paulo/SP",
+    "dispositivo": "Art. 7º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59163-de-27-de-dezembro-de-2019",
+    "vigencia": {
+      "inicio": "2019-12-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a concessão da Bonificação por Resultados - BR, instituída pela Lei nº 17.224, de 31 de outubro de 2019, aos agentes públicos municipais, na forma e condições que especifica."
+}

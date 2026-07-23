@@ -1,0 +1,104 @@
+# DECRETO Nº 63.698 DE 2024
+
+**URL oficial:** https://legislacao.prefeitura.sp.gov.br/decreto-63698-de-27-de-agosto-de-2024
+**Data de captura:** portal oficial legislacao.prefeitura.sp.gov.br (container texto_compilado)
+**Proveniência:** VERBATIM INTEGRAL — capturado de https://legislacao.prefeitura.sp.gov.br/decreto-63698-de-27-de-agosto-de-2024 (portal oficial legislacao.prefeitura.sp.gov.br (container texto_compilado)); promovido de `_entrada/misto/decreto-saopaulo-63698-2024.txt`. Saneado só lixo de captura; boilerplate oficial do portal preservado (anotações de alteração do texto compilado incluídas).
+**confianca_extracao:** alta (articulado integral verbatim)
+
+## Ementa
+
+Aprova a Consolidação das Leis Tributárias do Município de São Paulo, bem como dispõe sobre a aplicação do disposto no “caput” do artigo 1º-A da Lei nº 10.734, de 30 de junho de 1989, aos débitos que especifica.
+
+## Texto integral (verbatim)
+
+DECRETO Nº 63.698 DE 27 DE AGOSTO DE 2024
+
+DECRETO Nº 63.698 de 27 de Agosto de 2024
+
+Anexos
+
+Temas Relacionados
+
+Aprova a Consolidação das Leis Tributárias do Município de São Paulo, bem como dispõe sobre a aplicação do disposto no “caput” do artigo 1º-A da Lei nº 10.734, de 30 de junho de 1989, aos débitos que especifica.
+
+DECRETO Nº 63.698, DE 27 DE AGOSTO DE 2024
+
+Aprova a Consolidação das Leis Tributárias do Município de São Paulo, bem como dispõe sobre a aplicação do disposto no “caput” do artigo 1º-A da Lei nº 10.734, de 30 de junho de 1989, aos débitos que especifica.
+
+RICARDO NUNES, Prefeito do Município de São Paulo, no uso das atribuições que lhe são conferidas por lei,
+
+D E C R E T A:
+
+Art. 1º Fica aprovada, na forma do Anexo Único integrante deste decreto, a Consolidação das Leis Tributárias do Município de São Paulo relativa às seguintes matérias:
+
+I - Imposto sobre a Propriedade Predial e Territorial Urbana;
+
+II - Imposto sobre Transmissão “Inter Vivos”, a qualquer título, por ato oneroso, de bens imóveis, por natureza ou acessão física, e de direitos reais sobre imóveis, exceto os de garantia, bem como a cessão de direitos à sua aquisição;
+
+III - Imposto Sobre Serviços de Qualquer Natureza;
+
+IV - Taxa de Fiscalização de Estabelecimentos;
+
+V - Taxa de Resíduos Sólidos de Serviços de Saúde;
+
+VI - Contribuição de Melhoria;
+
+VII - Contribuição para Custeio do Serviço de Iluminação Pública;
+
+VIII - Omissão de Receita, Compensação de Créditos Tributários, Política de Desjudicialização e Transação Tributária;
+
+IX - Cadastro Informativo Municipal – CADIN MUNICIPAL;
+
+X - Medidas de Fiscalização e Formalização do Crédito Tributário, Prerrogativas da Administração, Processo Administrativo Fiscal e seu Julgamento, Consulta e Demais Processos Administrativos Fiscais, relativos a Tributos Administrados pela Secretaria Municipal da Fazenda;
+
+XI - Programa de Parcelamento Incentivado – PPI;
+
+XII - Programa de Parcelamento Incentivado de 2014 – PPI 2014;
+
+XIII - Programa de Parcelamento Incentivado de 2017 – PPI 2017;
+
+XIV – Programa de Parcelamento Incentivado de 2021 – PPI 2021;
+
+XV - Programa de Parcelamento Incentivado de 2024 – PPI 2024;
+
+XVI - Programa de Regularização de Débitos – PRD;
+
+XVII - Programa de incentivo à manutenção do emprego – PIME;
+
+XVIII - Parcelamento Administrativo de Débitos Tributários – PAT;
+
+XIX - Domicílio Eletrônico do Cidadão Paulistano – DEC;
+
+XX - Código de Direitos, Garantias e Obrigações do Contribuinte.
+
+Art. 2º O disposto no “caput” do artigo 1º-A da Lei nº 10.734, de 30 de junho de 1989, será aplicável, prospectivamente, aos débitos referidos no § 5º do artigo 1º da referida lei apenas em relação à parcela correspondente ao valor histórico do tributo devido e de eventual multa de ofício, sem prejuízo da exigibilidade dos valores correspondente aos encargos moratórios e à atualização monetária, calculados, nos termos do artigo 1º do mesmo diploma legal, até o dia 31 de dezembro de 2024.
+
+Art. 3º Este decreto entrará em vigor na data de sua publicação, revogado o Decreto n° 61.810, de 14 de setembro de 2022.
+
+PREFEITURA DO MUNICÍPIO DE SÃO PAULO, aos 27 de agosto de 2024, 471º da fundação de São Paulo.
+
+RICARDO NUNES
+
+PREFEITO
+
+LUIS FELIPE VIDAL ARELLANO
+
+SECRETÁRIO MUNICIPAL DA FAZENDA
+
+FABRICIO COBRA ARBEX
+
+SECRETÁRIO MUNICIPAL DA CASA CIVIL
+
+FERNANDO JOSÉ DA COSTA
+
+SECRETÁRIO MUNICIPAL DE JUSTIÇA
+
+EDSON APARECIDO DOS SANTOS
+
+SECRETÁRIO DO GOVERNO MUNICIPAL
+
+Publicado na Secretaria do Governo Municipal, em 27 de agosto de 2024.
+
+Documento original assinado nº 107242769
+
+Este texto não substitui o original publicado no Diário Oficial da Cidade de São Paulo.

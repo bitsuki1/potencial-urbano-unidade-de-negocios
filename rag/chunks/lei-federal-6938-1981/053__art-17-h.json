@@ -1,0 +1,50 @@
+{
+  "chunk_id": "lei-federal-6938-1981::053-art-17-h",
+  "lei_id": "lei-federal-6938-1981",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 17-H",
+  "numero": "17-H",
+  "header_raw": "Art. 17-H. A TFA não",
+  "caminho_hierarquico": [
+    "Art. 17-H"
+  ],
+  "texto": "Art. 17-H. A TFA não\n\nrecolhida até a data do vencimento da obrigação será cobrada com os seguintes\n\nacréscimos: (Incluído pela Lei nº 9.960, de 2000)\n\n(Vide ADI nº 2178-8, de 2000)\n\nI - juros de mora, contados do\n\nmês subseqüente ao do vencimento, à razão de 1% a.m. (um por cento ao mês),\n\ncalculados na forma da legislação aplicável aos tributos federais;\n\n(Incluído pela Lei nº 9.960, de 2000)\n\nII - multa de mora de 0,33%\n\n(trinta e três centésimos por cento) ao dia de atraso, até o limite máximo de 20%\n\n(vinte por cento) (Incluído pela Lei nº 9.960, de 2000)\n\nParágrafo único. Os débitos\n\nrelativos à TFA poderão ser parcelados, a juízo do Ibama, de acordo com os critérios\n\nfixados em portaria do seu Presidente. (Incluído pela Lei nº 9.960, de 2000)",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 6.938/1981 — Brasil",
+    "dispositivo": "Art. 17-H",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6938.htm",
+    "vigencia": {
+      "inicio": "1981-08-31",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (texto consolidado do Planalto/ccivil_03)"
+      ],
+      "revogada_por": null,
+      "observacao": "Lei federal-quadro do meio ambiente (PNMA). Moldura FEDERAL das restrições ambientais (licenciamento, zoneamento ambiental, APP) que limitam o aproveitamento de terrenos e, por consequência, o potencial construtivo e a base venal em SP. Texto consolidado do Planalto capturado 2026-07-19; em vigor. dominio COMPARTILHADO (moldura ambiental que toca os dois domínios). revisado_por_humano=false."
+    }
+  },
+  "tema": [
+    "politica_ambiental",
+    "meio_ambiente",
+    "licenciamento_ambiental",
+    "zoneamento_ambiental",
+    "responsabilidade_ambiental",
+    "sisnama"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre a Política Nacional do Meio Ambiente, seus fins e mecanismos de formulação e aplicação, e dá outras providências."
+}

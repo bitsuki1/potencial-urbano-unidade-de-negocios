@@ -1,0 +1,44 @@
+{
+  "chunk_id": "decreto-saopaulo-60581-2021::006-art-5o",
+  "lei_id": "decreto-saopaulo-60581-2021",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 5º",
+  "numero": "5",
+  "header_raw": "Art. 5º O descumprimento das disposições deste decreto sujeitará o infrator à aplicação da penalidade prevista, com fulcro no artigo 146 da Lei nº 16.402, 22 de março de 2016 – LPUOS, para as hipóteses de desrespeito aos parâmetros de incomodidade relativos a ruído, conforme Quadro 5 do Anexo Integrante da LPUOS.",
+  "caminho_hierarquico": [
+    "Art. 5º"
+  ],
+  "texto": "Art. 5º O descumprimento das disposições deste decreto sujeitará o infrator à aplicação da penalidade prevista, com fulcro no artigo 146 da Lei nº 16.402, 22 de março de 2016 – LPUOS, para as hipóteses de desrespeito aos parâmetros de incomodidade relativos a ruído, conforme Quadro 5 do Anexo Integrante da LPUOS.\n\n§ 1º Na primeira autuação, concomitantemente à imposição da multa a que se refere o “caput” deste artigo, será lavrado auto de intimação para cessar a irregularidade.\n\n§ 2º Em caso de reincidência, a segunda autuação consistirá na aplicação de multa no dobro do valor da primeira autuação, e nova intimação para cessar a irregularidade.\n\n§ 3º Na terceira autuação, será aplicada multa no triplo do valor da primeira autuação, e será realizado embargo da obra.\n\n§ 4º Será considerada reincidência a prática da infração ao disposto neste decreto, relativamente à mesma obra, dentro do prazo de um ano.\n\n§ 5º Desobedecido o embargo da obra, será requerida a instauração de inquérito policial, com base no artigo 330 do Código Penal, e realizado novo fechamento ou embargo de obra, com auxílio policial, se necessário, e, a critério da fiscalização, poderão ser utilizados meios físicos que criem obstáculos ao acesso, nos termos do artigo 148, inciso IV, da Lei n° 16.402, de 2016.\n\n§ 6º Se, para a manutenção do embargo, for necessária a utilização de meios físicos que criem obstáculos ao acesso, nos termos do §5º deste artigo, os respectivos custos deverão ser apurados na forma do disposto no §1º do artigo 9º do Decreto Municipal n° 57.443, de 10 de novembro de 2016, e cobrados do infrator.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 60.581/2021 — São Paulo/SP",
+    "dispositivo": "Art. 5º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-60581-de-27-de-setembro-de-2021",
+    "vigencia": {
+      "inicio": "2021-09-27",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    }
+  },
+  "tema": [
+    "zoneamento",
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta o controle de ruídos na execução das obras de construção civil no Município de São Paulo."
+}

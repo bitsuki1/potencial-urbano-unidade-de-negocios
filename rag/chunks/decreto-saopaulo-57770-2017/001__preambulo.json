@@ -1,0 +1,41 @@
+{
+  "chunk_id": "decreto-saopaulo-57770-2017::001-preambulo",
+  "lei_id": "decreto-saopaulo-57770-2017",
+  "tipo_dispositivo": "preambulo",
+  "rotulo": "Preâmbulo",
+  "numero": null,
+  "header_raw": null,
+  "caminho_hierarquico": [],
+  "texto": "DECRETO Nº 57.770 DE 3 DE JULHO DE 2017\n\nDECRETO Nº 57.770 de 3 de Julho de 2017\n\nCORRELAÇÕES\n\nTemas Relacionados\n\nConfere nova regulamentação ao Sistema de Informações Geográficas do Município de São Paulo SIG - SP.\n\nDECRETO Nº 57.770, DE 3 DE JULHO DE 2017\n\nConfere nova regulamentação ao Sistema de Informações Geográficas do Município de São Paulo SIG - SP.\n\nJOÃO DORIA, Prefeito do Município de São Paulo, no uso das atribuições que lhe são conferidas por lei,\n\nCONSIDERANDO que o Sistema de Informações Geográficas do Município de São Paulo SIG-SP é o instrumento utilizado para a produção, manutenção, análise, disseminação e divulgação de informações mapeadas, que visa subsidiar o licenciamento, planejamento, implementação e gestão de políticas públicas, bem como priorizar o atendimento ao cidadão;\n\nCONSIDERANDO o desenvolvimento e implantação das aplicações Web Intranet e Internet para disponibilização de informações georreferenciadas, bem como a implantação da Infraestrutura Municipal de Dados Espaciais - IMDE, composta pela base de dados cartográficos, cadastrais e temáticos, além do Catálogo de Metadados e a base corporativa de integrações com os principais sistemas legados do Município de São Paulo;\n\nCONSIDERANDO a necessidade de gerir e regulamentar adequadamente o Sistema de Informações Geográficas do Município de São Paulo, propiciando sua divulgação e acesso aos servidores e munícipes, de forma a assegurar maior transparência à atuação governamental e administração pública;\n\nCONSIDERANDO a constante necessidade de integração das diversas bases de dados produzidas e utilizadas pela Administração Municipal, viabilizando a cooperação entre seus órgãos e facilitando a tomada de decisões estratégicas;\n\nCONSIDERANDO a necessidade de manutenção do sistema municipal de informações sociais, culturais, econômicas, financeiras, patrimoniais, administrativas, físico-territoriais, geológicas, ambientais, imobiliárias, segurança e qualidade de vida e outras de relevante interesse para o Município, progressivamente georreferenciadas em meio digital de acordo com o artigo 352 da Lei nº 16.050, de 31 de julho de 2014,\n\nD E C R E T A:",
+  "citavel": false,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.770/2017 — São Paulo/SP",
+    "dispositivo": "Preâmbulo",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57770-de-03-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-03",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Confere nova regulamentação ao Sistema de Informações Geográficas do Município de São Paulo SIG - SP."
+}

@@ -1,0 +1,44 @@
+{
+  "chunk_id": "decreto-saopaulo-59671-2020::011-art-10",
+  "lei_id": "decreto-saopaulo-59671-2020",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 10",
+  "numero": "10",
+  "header_raw": "Art. 10. O rebaixamento de calçadas e guias para acesso de veículos aos lotes, em conformidade com o Anexo III deste decreto, deverá:",
+  "caminho_hierarquico": [
+    "CAPÍTULO IV",
+    "Art. 10"
+  ],
+  "texto": "Art. 10. O rebaixamento de calçadas e guias para acesso de veículos aos lotes, em conformidade com o Anexo III deste decreto, deverá:\n\nI - localizar-se na faixa de serviço junto à guia ou dentro da faixa de acesso, não obstruindo a faixa livre e de forma a não interferir na inclinação transversal da faixa livre;\n\nII - ter 1 (um) degrau separador entre o nível da sarjeta e a concordância com o rebaixamento, com altura de 3cm (três centímetros) até 5cm (cinco centímetros);\n\nIII - conter abas de acomodação lateral para os rebaixamentos de calçadas e guias e implantação de rampas destinadas ao acesso de veículos.\n\n§ 1º O rebaixamento de guias destinado ao acesso de veículos não poderá exceder a 50% (cinquenta por cento) da extensão da testada do imóvel, à exceção da edificação residencial unifamiliar e do conjunto de habitações agrupadas horizontalmente com frente e acesso para logradouro público, nos termos do subitem 8.C do Anexo I do Decreto nº 57.776, de 2017.\n\n§ 2º É vedado o rebaixamento de guias nas esquinas para acesso de veículos.\n\n§ 3º Deverão também ser respeitadas as disposições previstas na Lei nº 11.656, de 18 de outubro de 1994, e no Decreto nº 35.250, de 28 de junho de 1995, que tratam da demarcação de faixa de pedestres nas calçadas, nos postos de gasolina e similares.\n\nCAPÍTULO V\n\nDA SINALIZAÇÃO VISUAL E TÁTIL DE ALERTA E DIRECIONAL",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 59.671/2020 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO IV › Art. 10",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-59671-de-7-de-agosto-de-2020",
+    "vigencia": {
+      "inicio": "2020-08-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "regularizacao"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Consolida os critérios para a padronização das calçadas, bem como regulamenta o disposto nos incisos VII e VIII do “caput” do artigo 240 do Plano Diretor Estratégico, o Capítulo III da Lei nº 15.442, de 9 de setembro de 2011, e a Lei nº 13.293, de 14 de janeiro de 2002."
+}

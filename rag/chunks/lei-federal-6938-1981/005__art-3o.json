@@ -1,0 +1,52 @@
+{
+  "chunk_id": "lei-federal-6938-1981::005-art-3o",
+  "lei_id": "lei-federal-6938-1981",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 3º",
+  "numero": "3",
+  "header_raw": "Art 3º -",
+  "caminho_hierarquico": [
+    "Art. 3º"
+  ],
+  "texto": "Art 3º -\n\nPara os fins previstos nesta Lei, entende-se por:\n\nI - meio\n\nambiente, o conjunto de condições, leis, influências e interações de ordem física,\n\nquímica e biológica, que permite, abriga e rege a vida em todas as suas formas;\n\nII -\n\ndegradação da qualidade ambiental, a alteração adversa das características do meio\n\nambiente;\n\nIII -\n\npoluição, a degradação da qualidade ambiental resultante de atividades que direta ou\n\nindiretamente:\n\na) prejudiquem a\n\nsaúde, a segurança e o bem-estar da população;\n\nb) criem\n\ncondições adversas às atividades sociais e econômicas;\n\nc) afetem\n\ndesfavoravelmente a biota;\n\nd) afetem as\n\ncondições estéticas ou sanitárias do meio ambiente;\n\ne)\n\nlancem\n\nmatérias ou energia em desacordo com os padrões ambientais estabelecidos;\n\nIV - poluidor, a\n\npessoa física ou jurídica, de direito público ou privado, responsável, direta ou\n\nindiretamente, por atividade causadora de degradação ambiental;\n\nV - recursos ambientais, a atmosfera, as águas\n\ninteriores, superficiais e subterrâneas, os estuários, o mar territorial, o solo, o\n\nsubsolo e os elementos da biosfera.\n\nV - recursos ambientais: a atmosfera, as águas interiores, superficiais\n\ne subterrâneas, os estuários, o mar territorial, o solo, o subsolo, os elementos da\n\nbiosfera, a fauna e a flora. (Redação dada pela Lei nº\n\n7.804, de 1989)\n\nDOS OBJETIVOS DA POLÍTICA NACIONAL DO MEIO\n\nAMBIENTE",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "1989",
+    "norma_redacao": "Lei nº\n\n7.804, de 1989"
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 6.938/1981 — Brasil",
+    "dispositivo": "Art. 3º",
+    "fonte_url": "https://www.planalto.gov.br/ccivil_03/leis/l6938.htm",
+    "vigencia": {
+      "inicio": "1981-08-31",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [
+        "Diversas leis federais posteriores (texto consolidado do Planalto/ccivil_03)"
+      ],
+      "revogada_por": null,
+      "observacao": "Lei federal-quadro do meio ambiente (PNMA). Moldura FEDERAL das restrições ambientais (licenciamento, zoneamento ambiental, APP) que limitam o aproveitamento de terrenos e, por consequência, o potencial construtivo e a base venal em SP. Texto consolidado do Planalto capturado 2026-07-19; em vigor. dominio COMPARTILHADO (moldura ambiental que toca os dois domínios). revisado_por_humano=false."
+    }
+  },
+  "tema": [
+    "politica_ambiental",
+    "meio_ambiente",
+    "licenciamento_ambiental",
+    "zoneamento_ambiental",
+    "responsabilidade_ambiental",
+    "sisnama"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "Brasil",
+  "ementa": "Dispõe sobre a Política Nacional do Meio Ambiente, seus fins e mecanismos de formulação e aplicação, e dá outras providências."
+}

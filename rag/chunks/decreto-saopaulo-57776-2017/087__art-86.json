@@ -1,0 +1,52 @@
+{
+  "chunk_id": "decreto-saopaulo-57776-2017::087-art-86",
+  "lei_id": "decreto-saopaulo-57776-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 86",
+  "numero": "86",
+  "header_raw": "Art. 86. Verificada a inexistência de condições de estabilidade, segurança ou salubridade de uma obra, edificação, serviço ou equipamento, o proprietário ou o possuidor e o responsável técnico pela obra devem ser intimados a dar início às medidas necessárias à solução da irregularidade no prazo de 5 (cinco) dias, devendo ainda ser lavrado o auto de interdição total ou parcial do imóvel, dando-se ciência aos proprietários e ocupantes.",
+  "caminho_hierarquico": [
+    "CAPÍTULO VI",
+    "Seção II",
+    "Art. 86"
+  ],
+  "texto": "Art. 86. Verificada a inexistência de condições de estabilidade, segurança ou salubridade de uma obra, edificação, serviço ou equipamento, o proprietário ou o possuidor e o responsável técnico pela obra devem ser intimados a dar início às medidas necessárias à solução da irregularidade no prazo de 5 (cinco) dias, devendo ainda ser lavrado o auto de interdição total ou parcial do imóvel, dando-se ciência aos proprietários e ocupantes.\n\n§ 1º Compete aos servidores técnicos municipais, com formação específica, lotados nas Prefeituras Regionais vistoriar e avaliar edificações, obras serviços ou equipamentos com respeito às suas condições de estabilidade, segurança e ou salubridade e determinar a adoção das medidas pertinentes.\n\n§ 2º Compete aos servidores municipais, investidos em cargo público e com poderes fiscalizatórios, lotados nas Prefeituras Regionais, lavrar os autos de interdição e de intimação, colher as assinaturas, tanto do técnico que avaliou a situação de risco e determinou a interdição, como do proprietário ou possuidor a qualquer título ou dos ocupantes do local a ser interditado, ou, ainda, atestar a impossibilidade ou recusa.\n\n§ 3º Do auto de interdição necessariamente deverão constar as assinaturas do técnico responsável pela vistoria que ensejou a interdição e do agente público municipal com poderes de fiscalização.\n\n§ 4º No caso de a irregularidade constatada apresentar perigo de ruína ou contaminação, ocorrerá, se necessário, a interdição do entorno do imóvel.\n\n§ 5º O não cumprimento da intimação para a regularização necessária ou interdição implica responsabilidade exclusiva do infrator, eximindo-se a Prefeitura da responsabilidade pelos danos decorrentes de eventual sinistro.\n\n§ 6º Durante a interdição, fica permitida somente a execução dos serviços indispensáveis à eliminação da irregularidade constatada.\n\n§ 7º Em se tratando de edificação erigida em imóvel público municipal, cuja ocupação seja clandestina, além da interdição total ou parcial, a intimação prevista neste artigo deverá determinar a desocupação da área pública municipal, conforme legislação municipal pertinente.\n\n§ 8º A pedido do interessado, o imóvel poderá ser desinterditado, sendo competência do Coordenador de Planejamento e Desenvolvimento Urbano, da Prefeitura Regional do local da infração, a sua análise, em despacho fundamentado e publicado no DOC.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.776/2017 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO VI › Seção II › Art. 86",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57776-de-07-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 16.642, de 9 de maio de 2017, que aprovou o Código de Obras e Edificações do Município de São Paulo; define os membros da Comissão de Edificações e Uso do Solo – CEUSO."
+}

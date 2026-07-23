@@ -1,0 +1,43 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-17104-2019::007-art-6o",
+  "lei_id": "lei-municipal-saopaulo-17104-2019",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 6º",
+  "numero": "6",
+  "header_raw": "Art. 6º Esta lei entrará em vigor na data da sua publicação.",
+  "caminho_hierarquico": [
+    "Art. 6º"
+  ],
+  "texto": "Art. 6º Esta lei entrará em vigor na data da sua publicação.\n\nPREFEITURA DO MUNICÍPIO DE SÃO PAULO, aos 30 de maio de 2019, 466º da fundação de São Paulo.\n\nBRUNO COVAS, PREFEITO\n\nJOÃO JORGE DE SOUZA, Secretário Municipal da Casa Civil\n\nRUBENS NAMAN RIZEK JUNIOR, Secretário Municipal de Justiça\n\nPublicada na Casa Civil, em 30 de maio de 2019.\n\nEste texto não substitui o original publicado no Diário Oficial da Cidade de São Paulo.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 17.104/2019 — São Paulo/SP",
+    "dispositivo": "Art. 6º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-17104-de-30-de-maio-de-2019",
+    "vigencia": {
+      "inicio": "2019-05-30",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=False revoga=False."
+    }
+  },
+  "tema": [
+    "uso_ocupacao_solo"
+  ],
+  "dominio": [
+    "iptu"
+  ],
+  "dominio_primario": "iptu",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Institui a Política Municipal de Segurança Hídrica e Gestão das Águas, no âmbito do Município de São Paulo."
+}

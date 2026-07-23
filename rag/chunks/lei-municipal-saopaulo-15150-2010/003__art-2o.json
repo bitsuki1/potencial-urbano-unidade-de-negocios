@@ -1,0 +1,49 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-15150-2010::003-art-2o",
+  "lei_id": "lei-municipal-saopaulo-15150-2010",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 2º",
+  "numero": "2",
+  "header_raw": "Art. 2º Para fins da aplicação da presente lei, são adotadas as seguintes definições:",
+  "caminho_hierarquico": [
+    "CAPÍTULO I",
+    "Art. 2º"
+  ],
+  "texto": "Art. 2º Para fins da aplicação da presente lei, são adotadas as seguintes definições:\n\nI - Polos Geradores de Tráfego - PGT: edificações permanentes que apresentem as seguintes características:\n\na) edificações residenciais com 500 (quinhentas) vagas de estacionamento ou mais;\n\nb) edificações não residenciais com 120 (cento e vinte) vagas de estacionamento ou mais, localizadas nas Áreas Especiais de Tráfego – AET;\n\nc) edificações não residenciais com 280 (duzentas e oitenta) vagas de estacionamento ou mais, localizadas nas demais áreas do Município;\n\nd) serviços socioculturais, de lazer e de educação com mais de 2.500,00m² (dois mil e quinhentos metros quadrados) de área construída computável;\n\ne) locais destinados à prática de exercício físico ou esporte com mais de 2.500,00m² (dois mil e quinhentos metros quadrados) de área construída computável;\n\nf) serviços de saúde com área igual ou superior a 7.500,00 m² (sete mil e quinhentos metros quadrados);\n\ng) locais de reunião ou eventos com capacidade para 500 (quinhentas) pessoas ou mais; ou\n\nh) atividades e serviços públicos de caráter especial com capacidade para 500 (quinhentas) pessoas ou mais;\n\nII - Certidão de Diretrizes: documento emitido pela Secretaria Municipal de Transportes que estabelece os parâmetros a serem seguidos no projeto de edificação e as medidas mitigadoras de impacto no tráfego necessárias para a implantação ou reforma de empreendimentos classificados como Polos Geradores de Tráfego; e\n\nIII - Termo de Recebimento e Aceitação Parcial - TRAP ou Termo de Recebimento e Aceitação Definitivo - TRAD: documento emitido pela Secretaria Municipal de Transportes – SMT, que atesta o cumprimento integral das obras/serviços condicionados a uma das etapas da edificação ou para todo o empreendimento conforme especificado na Certidão de Diretrizes no que se refere às medidas mitigadoras de impacto no tráfego.\n\nIII - Termo de Recebimento e Aceitação Parcial – TRAP ou Termo de Recebimento e Aceitação Definitivo – TRAD: documento emitido pela Secretaria Municipal de Mobilidade e Transportes, que atesta o cumprimento integral das obras/serviços condicionados a uma das etapas da edificação ou para todo o empreendimento conforme especificado na Certidão de Diretrizes no que se refere às medidas mitigadoras de impacto no tráfego e/ou compensatórias, e;(Redação dada pela Lei nº 16.801/2018)\n\nParágrafo único. São consideradas Áreas Especiais de Tráfego - AET:\n\nI - AET 1 - Minianel Viário: vias classificadas pela legislação vigente como Estruturais N1, N3 e Coletoras, inseridas no Minianel Viário;\n\nII - AET 2 - na área externa ao Minianel Viário: vias classificadas pela legislação vigente como Estruturais N1, N2 e N3; e\n\nIII - AET 3 - áreas de Operação Urbana: em todas as vias, independentemente de sua classificação.\n\n§ 1º São consideradas Áreas Especiais de Tráfego – AET:(Redação dada pela Lei nº 16.642/2017)\n\nI – AET 1 – Minianel Viário: vias classificadas pela legislação vigente como Estruturais N1 e N3, inseridas no Minianel Viário;(Redação dada pela Lei nº 16.642/2017)\n\nII – AET 2 – na área externa ao Minianel Viário: vias classificadas pela legislação vigente como Estruturais N1, N2 e N3;(Redação dada pela Lei nº 16.642/2017)\n\nIII – AET 3 – áreas de Operação Urbana: em todas as vias, independentemente de sua classificação.(Redação dada pela Lei nº 16.642/2017)\n\n§ 2º Para fins de enquadramento das edificações como Polos Geradores de Tráfego – PGT, são consideradas vagas de estacionamento de veículos o somatório das vagas oferecidas no projeto, excetuadas aquelas destinadas a carga e descarga, atendimento médico de emergência, segurança, motocicletas e bicicletas.”(Incluído pela Lei nº 16.642/2017)\n\nCAPÍTULO II\n\nDA CERTIDÃO DE DIRETRIZES",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "compilado",
+    "revogado_por": null,
+    "marcadores": [
+      "redacao_dada"
+    ],
+    "data_redacao": "2018",
+    "norma_redacao": "Lei nº 16.801/2018"
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 15.150/2010 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO I › Art. 2º",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-15150-de-06-de-maio-de-2010",
+    "vigencia": {
+      "inicio": "2010-05-06",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=False suspenso=False ADI=True revoga=True."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "operacao_urbana",
+    "regularizacao",
+    "planta_generica_valores"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Dispõe sobre os procedimentos para a aprovação de projetos arquitetônicos e para a execução de obras e serviços necessários para a minimização de impacto no Sistema Viário decorrente da implantação ou reforma de edificações e da instalação de atividades – Polo Gerador de Tráfego."
+}

@@ -1,0 +1,48 @@
+{
+  "chunk_id": "lei-municipal-saopaulo-11774-1995::018-art-17",
+  "lei_id": "lei-municipal-saopaulo-11774-1995",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 17",
+  "numero": "17",
+  "header_raw": "Art. 17 - A contrapartida obrigatória mencionada no artigo 11 desta Lei não poderá ser inferior a:",
+  "caminho_hierarquico": [
+    "Art. 17"
+  ],
+  "texto": "Art. 17 - A contrapartida obrigatória mencionada no artigo 11 desta Lei não poderá ser inferior a:\n\nI - 200% do valor econômico atribuído ao benefício concedido, nos casos de regularização de edificações citados no inciso III do artigo 6º desta Lei;\n\nII - 60% do valor econômico atribuído ao benefício concedido, nos casos definidos no inciso I do artigo 6º e no artigo 9º desta Lei.\n\n§ 1º - Os valores econômicos citados neste artigo terão como base de cálculo os valores de mercado dos terrenos.\n\n§ 2º - A contrapartida mínima definida no inciso II do \"caput\" deste artigo será calculada pela seguinte fórmula:\n\nCmin = 0,6 x (vt2 - vt1) x At, onde:\n\nvt1 = valor original de mercado de metro quadrado do terreno;\n\nvt2 = valor do metro quadrado do terreno após a concessão do benefício;\n\nAt = área do terreno objeto da proposta.\n\n§ 3º - Será concedido um desconto de 40% da contrapartida referida no inciso I deste artigo para as solicitações propostas durante o primeiro ano de vigência desta Lei.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "lei_ordinaria nº 11.774/1995 — São Paulo/SP",
+    "dispositivo": "Art. 17",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-11774-de-18-de-maio-de-1995",
+    "vigencia": {
+      "inicio": "1995-05-18",
+      "fim": "2013-11-07",
+      "em_vigor": false,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": "Lei 15.893/2013 (institui a nova OUC Água Branca; revoga a Lei 11.774/1995)",
+      "observacao": "Lei da Operação Urbana Água Branca (1995), REVOGADA por inteiro pela Lei 15.893/2013. O texto compilado do portal oficial não anota essa revogação (fonte da revogação: ementa/art. da Lei 15.893/2013, confirmada em bases secundárias). fim=2013-11-07 (publicação da 15.893). revisado_por_humano=false — vigência a confirmar contra o primário da 15.893 quando ingerida."
+    }
+  },
+  "tema": [
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Paulo Maluf, Prefeito do Município de São Paulo, usando das atribuições que lhe são conferidas por Lei;"
+}

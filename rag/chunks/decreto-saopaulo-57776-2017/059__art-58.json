@@ -1,0 +1,52 @@
+{
+  "chunk_id": "decreto-saopaulo-57776-2017::059-art-58",
+  "lei_id": "decreto-saopaulo-57776-2017",
+  "tipo_dispositivo": "artigo",
+  "rotulo": "Art. 58",
+  "numero": "58",
+  "header_raw": "Art. 58. As instâncias administrativas para a apreciação e decisão dos pedidos de que trata este Código, protocolados a partir da data de sua vigência, são as seguintes:",
+  "caminho_hierarquico": [
+    "CAPÍTULO IV",
+    "Seção II",
+    "Art. 58"
+  ],
+  "texto": "Art. 58. As instâncias administrativas para a apreciação e decisão dos pedidos de que trata este Código, protocolados a partir da data de sua vigência, são as seguintes:\n\nI - para os pedidos de competência da Secretaria Municipal de Urbanismo e Licenciamento:\n\na) Diretor de Divisão Técnica;\n\nb) Coordenador;\n\nc) Secretário Municipal de Urbanismo e Licenciamento;\n\nII - para os pedidos de competência das Prefeituras Regionais:\n\na) Supervisor Técnico de Uso do Solo e Licenciamento;\n\nb) Coordenador de Planejamento e Desenvolvimento Urbano;\n\nc) Prefeito Regional.\n\n§ 1º Cabe recurso à autoridade imediatamente superior àquela que proferiu a decisão.\n\n§ 2º A competência para a apreciação dos pedidos e decisão em primeira instância pode ser delegada aos técnicos e chefes de seção, mediante portaria do Secretário Municipal de Urbanismo e Licenciamento ou do Secretário Municipal das Prefeituras Regionais, mantida a competência originária para a apreciação e decisão dos recursos.\n\n§ 3º Os despachos do Secretário Municipal de Urbanismo e Licenciamento e dos Prefeitos Regionais em grau de recurso, bem como o decurso do prazo recursal encerram definitivamente a instância administrativa.\n\n§ 4º O recurso intempestivo será indeferido de imediato em primeira instância administrativa.\n\n§ 5º No licenciamento da edificação que envolver simultaneamente o parcelamento do solo como Plano Integrado, os pedidos de loteamento, desmembramento e reparcelamento ficam sujeitos às instâncias do “caput” deste artigo.",
+  "citavel": true,
+  "vigencia_dispositivo": {
+    "status": "original",
+    "revogado_por": null,
+    "marcadores": [],
+    "data_redacao": null,
+    "norma_redacao": null
+  },
+  "citacao": {
+    "norma": "decreto nº 57.776/2017 — São Paulo/SP",
+    "dispositivo": "CAPÍTULO IV › Seção II › Art. 58",
+    "fonte_url": "https://legislacao.prefeitura.sp.gov.br/decreto-57776-de-07-de-julho-de-2017",
+    "vigencia": {
+      "inicio": "2017-07-07",
+      "fim": null,
+      "em_vigor": true,
+      "altera": [],
+      "alterada_por": [],
+      "revogada_por": null,
+      "observacao": "Scaffold deterministico (revisao pendente). Sinais: revogado=True suspenso=False ADI=False revoga=True."
+    }
+  },
+  "tema": [
+    "outorga_onerosa",
+    "transferencia_direito_construir",
+    "coeficiente_aproveitamento",
+    "operacao_urbana",
+    "zoneamento",
+    "uso_ocupacao_solo",
+    "regularizacao",
+    "habitacao_interesse_social"
+  ],
+  "dominio": [
+    "compartilhado"
+  ],
+  "dominio_primario": "compartilhado",
+  "jurisdicao": "São Paulo/SP",
+  "ementa": "Regulamenta a Lei nº 16.642, de 9 de maio de 2017, que aprovou o Código de Obras e Edificações do Município de São Paulo; define os membros da Comissão de Edificações e Uso do Solo – CEUSO."
+}
