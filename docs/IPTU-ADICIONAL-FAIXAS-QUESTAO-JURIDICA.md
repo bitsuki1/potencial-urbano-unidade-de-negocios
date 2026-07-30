@@ -56,7 +56,7 @@ nenhuma lei tenha aumentado a faixa**. O efeito é puramente aritmético e recai
 > (D21, 1.3). O engine **não** foi alterado. Onde as faixas moram: **Arts. 7º-A/8º-A/28 da Lei 6.989/1966**,
 > com as **tabelas dadas pelos Arts. 3º/4º/5º da Lei 15.889/2013** (confirmado no `engines/iptu/iptu.py`).
 
-**O que a varredura verbatim encontrou (leis ingeridas 15.889/2013, 17.719/2021, 18.330/2025):**
+**O que a varredura verbatim encontrou (leis ingeridas 15.889/2013, 16.768/2017, 17.719/2021, 18.330/2025):**
 1. **Lei 15.889/2013, Arts. 3º/4º/5º** — fixam as faixas do adicional em **valores nominais** (limiares
    R$ 150.000 / 300.000 / 600.000 / 1.200.000; acréscimo por porção). O texto é "passa a vigorar na seguinte
    conformidade" seguido da tabela — **sem** qualquer cláusula de atualização anexa a esses artigos.
@@ -72,19 +72,23 @@ nenhuma lei tenha aumentado a faixa**. O efeito é puramente aritmético e recai
    venal) nos exercícios 2022-2024 — **não** desloca faixa do adicional.
 5. **Lei 18.330/2025** — **não** reescreve os Arts. 7º-A/8º-A/28 nem os limiares das faixas do adicional; os
    valores que aparecem são de **isenção/desconto** do Imposto Predial (Arts. 2º/3º), outra rubrica.
+6. **Lei 16.768/2017** (ingerida em 2026-07-30 para fechar a varredura; `leis/municipal-sp/lei-municipal-saopaulo-16768-2017`) — **atualiza a Tabela VI (valores unitários de m² de construção e de terreno = base do
+   valor venal), via Anexo Único** (Art. 1º), com efeitos de 01/01/2018. É lei de **PGV/valor venal**, do mesmo
+   tipo de 17.719/18.330 — **não** reescreve os Arts. 7º-A/8º-A/28 nem toca os limiares das faixas do adicional,
+   e **não traz cláusula de atualização** desses limiares. A atualização da base é **por lei** (Art. 1º:
+   "passa a vigorar na conformidade do Anexo Único"), confirmando o padrão.
 
-**Leitura do resultado (para a decisão do dono/advogado):** nas 3 leis ingeridas, **nenhuma cláusula de
-atualização monetária alcança as faixas do adicional** — elas seguem nos valores nominais de 2013 (13 anos sem
-reescrita), e o caminho de atualização é explicitamente por lei. Isso **sustenta a TESE** (faixas nominais até
-lei nova) e **confirma o comportamento atual do engine** (fail-closed) como o correto por padrão.
+**Leitura do resultado (para a decisão do dono/advogado):** nas **4 leis nomeadas** (15.889/16.768/17.719/
+18.330), **nenhuma cláusula de atualização monetária alcança as faixas do adicional** — elas seguem nos valores
+nominais de 2013 (13 anos sem reescrita), e o caminho de atualização (tanto da base do valor venal quanto de
+qualquer limiar) é explicitamente **por lei**. Isso **sustenta a TESE** (faixas nominais até lei nova) e
+**confirma o comportamento atual do engine** (fail-closed) como o correto por padrão.
 
-**Lacuna que impede fechar em 100%:** a **Lei 16.768** (uma das 4 nomeadas) **não está no corpus** (não
-ingerida) — não pôde ser varrida verbatim. O `iptu.py` cita **só** a 15.889/2013 para as faixas, e elas
-seguem inalteradas por 17.719/18.330 — indício forte de que a 16.768 também não as reescreveu — mas isso **não
-é verbatim-verificado**. **Passo restante:** ingerir a Lei 16.768 e varrer os mesmos termos; se confirmar a
-ausência de cláusula, a TESE fecha e o dono/advogado ratifica (a nota do engine vira definitiva com citação
-CF art. 150, I / CTN art. 97).
+**Varredura COMPLETA (4/4 leis).** A lacuna anterior (16.768 fora do corpus) foi fechada: capturada verbatim do
+portal oficial (sha256 no `.json`), ingerida e indexada, com o **gate 33/33 verde** (sem regressão de
+retrieval). Não resta passo determinístico — só a **ratificação do dono/advogado** para a nota do engine virar
+definitiva (com citação CF art. 150, I / CTN art. 97 e a ausência de cláusula nas 4 leis).
 
-> **Estado:** questão **aberta** (pendente ratificação do dono/advogado + varredura da 16.768); engine
-> **fail-closed** (não aplica) — **inalterado**. Evidência da varredura das 3 leis ingeridas: **nenhuma
-> cláusula de atualização alcança as faixas** → sustenta a tese. Nada muda no cálculo até a decisão citada.
+> **Estado:** varredura **determinística ENCERRADA (4/4 leis)** → **nenhuma cláusula de atualização alcança as
+> faixas** → sustenta a tese. Engine **fail-closed** (não aplica) — **inalterado**. Falta só a **decisão/
+> ratificação do dono/advogado** (D21/1.3); nada muda no cálculo até essa decisão citada.
