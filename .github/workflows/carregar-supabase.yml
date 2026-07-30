@@ -1,0 +1,47 @@
+# carregar-supabase — carrega as tabelas de referência do Motor 3 (dados legais, SEM PII)
+# no Postgres do Supabase (projeto potencial-urbano-iptu-tdc, schema `motor3`).
+# Disparo MANUAL. Pré-requisito: secret SUPABASE_DB_URL (connection string do Postgres,
+# painel Supabase → Settings → Database → Connection string). Sem PII: só tabelas legais.
+name: carregar-supabase
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "true = só lista o que carregaria; false = carrega de verdade (TRUNCATE+INSERT idempotente)."
+        required: true
+        default: "true"
+        type: choice
+        options: ["true", "false"]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: carregar-supabase
+  cancel-in-progress: false
+
+jobs:
+  carregar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Instalar psycopg
+        run: pip install --quiet "psycopg[binary]"
+      - name: Rodar loader (DRY_RUN=${{ inputs.dry_run }})
+        env:
+          SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
+        run: |
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            python3 scripts/carregar_tabelas_supabase.py --dry-run
+          else
+            if [ -z "$SUPABASE_DB_URL" ]; then
+              echo "ERRO: secret SUPABASE_DB_URL não está setado neste repo."
+              echo "Setar em Settings → Secrets and variables → Actions (connection string do painel Supabase)."
+              exit 1
+            fi
+            python3 scripts/carregar_tabelas_supabase.py
+          fi
