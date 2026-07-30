@@ -5,10 +5,12 @@
 > Ordem do plano: **base/canonicidade → Motor 3 (dados) → Motor 4 (junção/chave) → Motor 0 → Motor 2 (mapa) →
 > Motor 1 (RAG)**. Front-end v1 no Lovable por último.
 
-## 🔒 Fronteira de PII (trava fora do meu alcance)
+## 🔒 Fronteira de PII
 - **Motor 3 (dados legais)** e o corpus são **SEM PII** → migram autonomamente.
-- **Motor 4 = junção dos cedentes** carrega **nome/CPF** → **NÃO migra sem consentimento do dono** (é o gate da
-  Fase-B). O RLS já fica ligado em tudo; a v1 é papel único (dono), sem mascaramento (decisão D-DONO 2026-07-23).
+- **Motor 4 = junção dos cedentes** (por `sql_mestre`) — migração **CONSENTIDA pelo dono (2026-07-30 "consentido
+  migração")**. Schema `motor4` criado com **RLS só-`authenticated` (papel único = dono na v1)**; nada exposto a
+  anon. Fonte primária = `zepec/oficial/` (1.8: o derivado `zepec/ferramenta/` NÃO é fonte). A carga real do dado
+  sensível roda pelo **loader** (via `SUPABASE_DB_URL`) — assim o PII **não passa pelo contexto do assistente**.
 - **Credencial de poder total** (service_role / connection string do Postgres) **não vive no git** (cofre D106):
   fica em GitHub Secret / painel. O loader lê `SUPABASE_DB_URL` do ambiente.
 
@@ -39,7 +41,16 @@ string do painel Supabase (Settings → Database → Connection string). Depois 
 (`dry_run=false`) e as 15 tabelas restantes (incl. as 6.715 linhas do Q14) ficam LIVE. Sem esse secret, o
 loader é o único passo que falta — é credencial (poder de escrita no banco), por isso fica no seu lado.
 
-## Próximas fases (após Motor 3 completo)
+## Motor 4 — cedentes (schema `motor4`, CONSENTIDO)
+Schema criado; **4 tabelas** por `sql_mestre`, RLS só-dono, carga via loader (`--sem-cedentes` desliga):
+| Tabela | Linhas | Fonte primária |
+|---|---|---|
+| `motor4.c_q14_cedentes_2026_oficial` | 3.678 | `zepec/oficial/q14_cedentes_2026_oficial.csv` |
+| `motor4.c_iptu2026_cedentes` | 3.905 | `zepec/oficial/iptu2026_cedentes.csv` |
+| `motor4.c_zona_por_cedente` | 3.693 | `zepec/oficial/zona_por_cedente.csv` |
+| `motor4.c_conservacao_cedentes` | 4.360 | `zepec/oficial/conservacao_cedentes.csv` |
+
+## Próximas fases
+- **Setar `SUPABASE_DB_URL`** (dono) → disparo o loader → Motor 3 (15 tabelas) **e** Motor 4 (4 tabelas) LIVE.
 - **Motor 0/2/1** (chão · mapa/PostGIS · RAG) — sem PII, migram na sequência.
-- **Motor 4 (cedentes)** — **GATE DE PII**: só sob consentimento.
 - **Front-end v1 (Lovable)** — Painel · Carteira · Decisões · Assistente · Acessos; papel único (dono).

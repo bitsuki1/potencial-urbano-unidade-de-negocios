@@ -9,9 +9,11 @@ Por que existe (C1 — migração motor-a-motor): o Motor 3 é a base de DADOS l
 ARMAZENADO, rastreável ao dispositivo/lei). A fonte primária é `tabelas/*.csv`
 do repo; este loader espelha CADA CSV em `motor3.t_<nome>` sem interpretar nada.
 
-Fronteira de PII: este loader carrega SÓ as tabelas legais de referência (fatores,
-faixas, Q14 de valor de terreno — dado público). NÃO toca cedentes (nome/CPF) —
-esses são Motor 4 e só entram sob consentimento do dono (gate de PII).
+Fronteira de PII: carrega as tabelas legais (Motor 3, sem PII) E os cedentes
+(Motor 4) — estes só porque o dono CONSENTIU a migração (2026-07-30). Os cedentes
+vêm de zepec/oficial/ (fonte primária; 1.8) e vão para o schema motor4 com RLS
+só-dono. Rode com `--sem-cedentes` para carregar apenas o Motor 3. Como a carga roda
+por este loader (via SUPABASE_DB_URL), o dado sensível NÃO passa pelo contexto do LLM.
 
 Credencial (postura do cofre D106): a connection string do Postgres NÃO vive no
 git — é lida do ambiente `SUPABASE_DB_URL` (GitHub Secret / painel Supabase →
@@ -43,6 +45,17 @@ NUCLEO_JA_CARREGADO = {
     "iptu-aliquotas-faixa",
     "iptu-isencao-faixa",
     "iptu-atualizacao-anual",
+}
+
+# Motor 4 — CEDENTES (migração CONSENTIDA pelo dono 2026-07-30). Fonte primária = zepec/oficial/
+# (1.8: o derivado zepec/ferramenta/ NÃO é fonte). Chave canônica = sql_mestre. Colunas text no schema
+# motor4 (RLS só-dono). Só entra aqui o que o dono consentiu; a carga real roda pelo loader (via secret),
+# então o dado sensível NÃO passa pelo contexto do assistente.
+CEDENTES_OFICIAL = {
+    "zepec/oficial/q14_cedentes_2026_oficial.csv": "motor4.c_q14_cedentes_2026_oficial",
+    "zepec/oficial/iptu2026_cedentes.csv": "motor4.c_iptu2026_cedentes",
+    "zepec/oficial/zona_por_cedente.csv": "motor4.c_zona_por_cedente",
+    "zepec/oficial/conservacao_cedentes.csv": "motor4.c_conservacao_cedentes",
 }
 
 NUM = re.compile(r"^[+-]?\d+(\.\d+)?$")
@@ -78,6 +91,8 @@ def main(argv):
         print("ERRO: defina SUPABASE_DB_URL (connection string do Postgres do Supabase).", file=sys.stderr)
         return 2
 
+    incluir_cedentes = "--sem-cedentes" not in argv
+    # alvo = (rótulo_fonte, alvo_schema_tabela, hdr, types, rows)
     alvos = []
     for csvf in sorted(TABELAS.glob("*.csv")):
         base = csvf.stem
@@ -85,11 +100,22 @@ def main(argv):
             continue
         hdr, rows = ler_csv(csvf)
         types = [infer([r[i] if i < len(r) else "" for r in rows]) for i in range(len(hdr))]
-        alvos.append((base, sqlname(base), hdr, types, rows))
+        alvos.append((f"tabelas/{base}.csv", f"motor3.{sqlname(base)}", hdr, types, rows))
 
-    print(f"tabelas a carregar (genéricas Motor 3, sem PII): {len(alvos)}")
-    for base, tn, hdr, types, rows in alvos:
-        print(f"  motor3.{tn:34s} <- tabelas/{base}.csv  ({len(rows)} linhas)")
+    # Motor 4 — cedentes (consentido). Todas as colunas são text no schema; passamos strings.
+    if incluir_cedentes:
+        for relpath, alvo in CEDENTES_OFICIAL.items():
+            csvf = RAIZ / relpath
+            if not csvf.exists():
+                print(f"AVISO: {relpath} não encontrado — pulando.")
+                continue
+            hdr, rows = ler_csv(csvf)
+            types = ["text"] * len(hdr)  # motor4 é text-only (preserva o dado exato)
+            alvos.append((relpath, alvo, hdr, types, rows))
+
+    print(f"alvos a carregar: {len(alvos)}  (Motor 3 sem PII + Motor 4 cedentes {'INCLUÍDOS' if incluir_cedentes else 'EXCLUÍDOS'})")
+    for fonte, alvo, hdr, types, rows in alvos:
+        print(f"  {alvo:40s} <- {fonte}  ({len(rows)} linhas)")
 
     if dry:
         print("DRY-RUN: nada gravado.")
@@ -100,11 +126,11 @@ def main(argv):
     total = 0
     with psycopg.connect(url, autocommit=False) as conn:
         with conn.cursor() as cur:
-            for base, tn, hdr, types, rows in alvos:
-                cur.execute(f"truncate table motor3.{tn} restart identity;")
+            for fonte, alvo, hdr, types, rows in alvos:
+                cur.execute(f"truncate table {alvo} restart identity;")
                 collist = ", ".join(f'"{c}"' for c in hdr)
                 placeholders = ", ".join(["%s"] * len(hdr))
-                sql = f"insert into motor3.{tn} ({collist}) values ({placeholders})"
+                sql = f"insert into {alvo} ({collist}) values ({placeholders})"
                 data = []
                 for r in rows:
                     vals = []
@@ -119,10 +145,10 @@ def main(argv):
                             vals.append(v)
                     data.append(vals)
                 cur.executemany(sql, data)
-                print(f"  OK  motor3.{tn}: {len(data)} linhas")
+                print(f"  OK  {alvo}: {len(data)} linhas")
                 total += len(data)
         conn.commit()
-    print(f"FIM: {total} linhas carregadas em {len(alvos)} tabelas do Motor 3.")
+    print(f"FIM: {total} linhas carregadas em {len(alvos)} tabelas (Motor 3 + Motor 4).")
     return 0
 
 
