@@ -26,18 +26,28 @@ o DADO. As 4 tabelas-núcleo (iptu_aliquota_base/…_faixa/isencao_faixa/
 atualizacao_anual) têm schema próprio e já foram carregadas via MCP — este loader
 cuida das 15 tabelas genéricas `t_<nome>` (row_id identity + colunas do CSV).
 
+Motor 1 (RAG): além das tabelas, este loader também carrega o corpus indexado em
+`motor1.chunks` (rag/index/chunks.json + embeddings.json → texto + metadados de
+filtro + vetor pgvector 768d, modelo gemini-embedding-001). SEM PII (texto
+normativo). Desligue com `--sem-motor1`.
+
 Uso:
   SUPABASE_DB_URL='postgresql://...' python3 scripts/carregar_tabelas_supabase.py
   SUPABASE_DB_URL='postgresql://...' python3 scripts/carregar_tabelas_supabase.py --dry-run
+  Flags: --sem-cedentes (pula Motor 4)  ·  --sem-motor1 (pula o corpus RAG)
 """
+import base64
 import csv
+import json
 import os
 import re
+import struct
 import sys
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
 TABELAS = RAIZ / "tabelas"
+RAG_INDEX = RAIZ / "rag" / "index"
 
 # As 4 tabelas-núcleo têm schema bespoke e já foram carregadas (via MCP). Aqui, as genéricas.
 NUCLEO_JA_CARREGADO = {
@@ -84,6 +94,57 @@ def sqlname(fn):  # nome do CSV -> nome da tabela
     return "t_" + fn.replace("-", "_")
 
 
+# ---- Motor 1 (RAG do corpus): chunks + embeddings -> motor1.chunks ----
+_JSONB_COLS = ("caminho_hierarquico", "vigencia_dispositivo", "citacao", "tema", "dominio")
+_TEXT_COLS = ("lei_id", "tipo_dispositivo", "rotulo", "numero", "header_raw",
+              "texto", "dominio_primario", "jurisdicao", "ementa")
+
+
+def _emb_para_vetor(b64):
+    """base64 (float32 little-endian) -> literal pgvector '[..]' ou None."""
+    if not b64:
+        return None
+    raw = base64.b64decode(b64)
+    n = len(raw) // 4
+    arr = struct.unpack(f"<{n}f", raw)
+    return "[" + ",".join(repr(x) for x in arr) + "]"
+
+
+def _contar_motor1():
+    chunks = json.loads((RAG_INDEX / "chunks.json").read_text(encoding="utf-8"))
+    emb = json.loads((RAG_INDEX / "embeddings.json").read_text(encoding="utf-8"))
+    vet = emb.get("vetores", {})
+    return len(chunks), len(vet), emb.get("_dim")
+
+
+def carregar_motor1(cur):
+    """TRUNCATE + INSERT dos chunks do corpus (rag/index/chunks.json + embeddings.json)."""
+    chunks = json.loads((RAG_INDEX / "chunks.json").read_text(encoding="utf-8"))
+    vet = json.loads((RAG_INDEX / "embeddings.json").read_text(encoding="utf-8")).get("vetores", {})
+    cols = ["chunk_id"] + list(_TEXT_COLS) + ["citavel"] + list(_JSONB_COLS) + ["embedding"]
+    collist = ", ".join(f'"{c}"' for c in cols)
+    ph = ", ".join(["%s"] * (len(cols) - 1)) + ", %s::vector"  # última = embedding
+    sql = f"insert into motor1.chunks ({collist}) values ({ph})"
+    cur.execute("truncate table motor1.chunks;")
+    data = []
+    for cid, ch in chunks.items():
+        vals = [cid]
+        for c in _TEXT_COLS:
+            v = ch.get(c)
+            vals.append(v if isinstance(v, str) else (None if v is None else str(v)))
+        cit = ch.get("citavel")
+        vals.append(bool(cit) if cit is not None else None)
+        for c in _JSONB_COLS:
+            v = ch.get(c)
+            vals.append(json.dumps(v, ensure_ascii=False) if v is not None else None)
+        vals.append(_emb_para_vetor(vet.get(cid)))
+        data.append(vals)
+    cur.executemany(sql, data)
+    com_emb = sum(1 for cid in chunks if vet.get(cid))
+    print(f"  OK  motor1.chunks: {len(data)} chunks ({com_emb} com embedding)")
+    return len(data)
+
+
 def main(argv):
     dry = "--dry-run" in argv
     url = os.environ.get("SUPABASE_DB_URL")
@@ -113,9 +174,13 @@ def main(argv):
             types = ["text"] * len(hdr)  # motor4 é text-only (preserva o dado exato)
             alvos.append((relpath, alvo, hdr, types, rows))
 
+    incluir_motor1 = "--sem-motor1" not in argv
     print(f"alvos a carregar: {len(alvos)}  (Motor 3 sem PII + Motor 4 cedentes {'INCLUÍDOS' if incluir_cedentes else 'EXCLUÍDOS'})")
     for fonte, alvo, hdr, types, rows in alvos:
         print(f"  {alvo:40s} <- {fonte}  ({len(rows)} linhas)")
+    if incluir_motor1:
+        nch, nemb, dim = _contar_motor1()
+        print(f"  motor1.chunks                            <- rag/index/chunks.json + embeddings.json  ({nch} chunks, {nemb} c/ embedding dim {dim})")
 
     if dry:
         print("DRY-RUN: nada gravado.")
@@ -147,8 +212,11 @@ def main(argv):
                 cur.executemany(sql, data)
                 print(f"  OK  {alvo}: {len(data)} linhas")
                 total += len(data)
+            if incluir_motor1:
+                total += carregar_motor1(cur)
         conn.commit()
-    print(f"FIM: {total} linhas carregadas em {len(alvos)} tabelas (Motor 3 + Motor 4).")
+    print(f"FIM: {total} linhas carregadas ({len(alvos)} tabelas Motor 3/4"
+          f"{' + motor1.chunks' if incluir_motor1 else ''}).")
     return 0
 
 

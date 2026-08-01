@@ -50,7 +50,15 @@ Schema criado; **4 tabelas** por `sql_mestre`, RLS só-dono, carga via loader (`
 | `motor4.c_zona_por_cedente` | 3.693 | `zepec/oficial/zona_por_cedente.csv` |
 | `motor4.c_conservacao_cedentes` | 4.360 | `zepec/oficial/conservacao_cedentes.csv` |
 
+## Motor 1 — RAG do corpus (schema `motor1`, SEM PII) ✅ construído
+Schema `motor1.chunks` criado no Supabase: **texto normativo + metadados de filtro (tema/domínio/vigência/
+jurisdição) + `vector(768)`** (pgvector; modelo `gemini-embedding-001`), com índices GIN (tema/domínio),
+B-tree (lei_id/domínio) e **HNSW cosseno** para o semântico — completa o retrieval híbrido (2.6). RLS só-dono.
+Loader estendido para carregar `rag/index/chunks.json` + `embeddings.json` → **4.236 chunks (2.805 com
+embedding)**. Flag `--sem-motor1` desliga. Dry-run OK; a carga real roda com o `SUPABASE_DB_URL`.
+
 ## Próximas fases
-- **Setar `SUPABASE_DB_URL`** (dono) → disparo o loader → Motor 3 (15 tabelas) **e** Motor 4 (4 tabelas) LIVE.
-- **Motor 0/2/1** (chão · mapa/PostGIS · RAG) — sem PII, migram na sequência.
+- **Setar `SUPABASE_DB_URL`** (dono) → um disparo do loader deixa **LIVE de uma vez**: Motor 3 (15 tabelas) +
+  Motor 4 (4 tabelas cedentes) + **Motor 1 (4.236 chunks do corpus)**.
+- **Motor 0/2** (chão · mapa/PostGIS) — sem PII, migram na sequência.
 - **Front-end v1 (Lovable)** — Painel · Carteira · Decisões · Assistente · Acessos; papel único (dono).
