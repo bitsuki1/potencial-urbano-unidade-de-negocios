@@ -57,8 +57,18 @@ B-tree (lei_id/domínio) e **HNSW cosseno** para o semântico — completa o ret
 Loader estendido para carregar `rag/index/chunks.json` + `embeddings.json` → **4.236 chunks (2.805 com
 embedding)**. Flag `--sem-motor1` desliga. Dry-run OK; a carga real roda com o `SUPABASE_DB_URL`.
 
+## Motor 0 (chão) e Motor 2 (mapa) ✅ schemas construídos
+- **`motor0.catalogo_motores`** — o "chão": registro dos 5 motores + `schema_alvo` + `status` de migração
+  (dado semeado: M3 `parcial_live`, os demais `schema_criado`). RLS só-dono.
+- **`motor2.cedente_ponto`** — o "mapa": `geometry(Point, 31983)` (SIRGAS 2000 / UTM 23S–SP) por `sql_mestre`,
+  índice GiST. PostGIS já estava ativo. **Fonte da geometria pendente** (GeoSampa via runner, ou geocode do
+  endereço do `motor4.c_iptu2026_cedentes`) — schema pronto, dado a carregar.
+- **`motor1.buscar(consulta vector, dominio, k)`** — função SQL da busca híbrida (filtro por domínio + vizinho
+  mais próximo por cosseno) que devolve **chunk + citação** (1.7). Torna o RAG consultável assim que os
+  embeddings carregarem.
+
 ## Próximas fases
 - **Setar `SUPABASE_DB_URL`** (dono) → um disparo do loader deixa **LIVE de uma vez**: Motor 3 (15 tabelas) +
   Motor 4 (4 tabelas cedentes) + **Motor 1 (4.236 chunks do corpus)**.
-- **Motor 0/2** (chão · mapa/PostGIS) — sem PII, migram na sequência.
+- **Motor 2 (geometria)** — carregar os pontos (GeoSampa/geocode) quando a fonte estiver disponível.
 - **Front-end v1 (Lovable)** — Painel · Carteira · Decisões · Assistente · Acessos; papel único (dono).
