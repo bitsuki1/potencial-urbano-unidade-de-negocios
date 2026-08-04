@@ -67,8 +67,23 @@ embedding)**. Flag `--sem-motor1` desliga. Dry-run OK; a carga real roda com o `
   mais próximo por cosseno) que devolve **chunk + citação** (1.7). Torna o RAG consultável assim que os
   embeddings carregarem.
 
+## Camada de consulta (Gen RAG) ✅ construída
+- **`public.consultar_corpus(emb float8[], dominio_f, k)`** — wrapper PostgREST (SECURITY DEFINER) da busca
+  híbrida do Motor 1.
+- **Edge Function `consultar-rag`** (`supabase/functions/consultar-rag/index.ts`, ATIVA) — embeda a pergunta
+  (Gemini 768d) → `consultar_corpus` → devolve trechos **com citação**; fail-closed (`fundamentada:false` +
+  aviso). **Secret pendente:** `GEMINI_API_KEY` (painel; chave no cofre).
+- **Views públicas** p/ o front-end: `public.v_catalogo_motores` (status dos motores) e `public.v_iptu_faixas`
+  (faixas do adicional). Mapa completo em `supabase/README-SUPABASE.md`.
+
+## Front-end v1 (Lovable) — "Potencial Urbano Validador"
+Criado (id `49b43804-...`). Conectado ao Supabase existente (URL + chave publicável); Painel lê
+`v_catalogo_motores` + `v_iptu_faixas`, Assistente chama a Edge Function `consultar-rag` (renderiza citação;
+avisa quando não-fundamentada). Auth = papel único (dono). Prévia:
+`https://id-preview--49b43804-41a3-436f-abf4-7ab8c4570f66.lovable.app`.
+
 ## Próximas fases
 - **Setar `SUPABASE_DB_URL`** (dono) → um disparo do loader deixa **LIVE de uma vez**: Motor 3 (15 tabelas) +
   Motor 4 (4 tabelas cedentes) + **Motor 1 (4.236 chunks do corpus)**.
+- **Setar `GEMINI_API_KEY`** (dono) → a Edge Function `consultar-rag` passa a responder o Assistente.
 - **Motor 2 (geometria)** — carregar os pontos (GeoSampa/geocode) quando a fonte estiver disponível.
-- **Front-end v1 (Lovable)** — Painel · Carteira · Decisões · Assistente · Acessos; papel único (dono).
