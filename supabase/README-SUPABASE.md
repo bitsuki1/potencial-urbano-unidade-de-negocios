@@ -27,7 +27,16 @@ de migrações do Supabase; este README é o mapa. Chaves de poder total (servic
   (fail-closed: sem hit, `fundamentada:false` + aviso). `verify_jwt` on.
   - **Secret necessário:** `GEMINI_API_KEY` (painel Supabase → Edge Functions → Secrets; chave no cofre).
 
-## Carga de dados (o que falta)
-Setar o secret **`SUPABASE_DB_URL`** no repo → rodar a Action `carregar-supabase` (loader
-`scripts/carregar_tabelas_supabase.py`) → popula Motor 3 (15 tabelas) + Motor 4 (cedentes) + Motor 1
-(4.236 chunks). O Motor 2 (geometrias) aguarda fonte (GeoSampa/geocode).
+## Carga de dados ✅ FEITA (2026-08-05)
+Secret **`SUPABASE_DB_URL`** setado → Action `carregar-supabase` (loader `scripts/carregar_tabelas_supabase.py`)
+populou **Motor 3 (15 tabelas) + Motor 4 (4 tab. cedentes) + Motor 1 (4.236 chunks, 2.805 com embedding)**.
+Secret **`GEMINI_API_KEY`** setado → `consultar-rag` responde `fundamentada:true` com citação. Motor 2
+(geometrias) aguarda fonte (GeoSampa/geocode).
+
+## ⚠️ Config crítica do projeto (não reverter)
+- **Exposed schemas** do PostgREST = **`public, graphql_public`** (`alter role authenticator set pgrst.db_schemas`,
+  migração `c1_hardening_search_path_e_schemas_expostos`). Se a lista ficar **vazia**, a API REST inteira cai com
+  `schema "pg_pgrst_no_exposed_schemas" does not exist`. Os schemas `motor0..4` **NÃO** são expostos de propósito
+  (alcançados só pelo wrapper `public.consultar_corpus`); **nunca** exponha `motor4` (PII).
+- **Pooler:** o projeto vive no fleet **`aws-1-sa-east-1.pooler.supabase.com`** (Session pooler, 5432). O loader
+  auto-corrige `aws-0`↔`aws-1` no erro "tenant not found".
