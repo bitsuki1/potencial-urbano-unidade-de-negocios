@@ -13,6 +13,14 @@ on:
         default: "probe"
         type: choice
         options: ["probe"]
+  # Enquanto o workflow não está na main (não-disparável por dispatch), este
+  # gatilho de push — escopado a ESTA branch e ao próprio conector — permite
+  # rodar o probe lendo os Secrets do repo. Some quando mesclar (branches filter).
+  push:
+    branches: ["claude/urban-potential-instance-l3zed9"]
+    paths:
+      - ".github/workflows/assertiva-probe.yml"
+      - "tools/assertiva/**"
 
 concurrency:
   group: assertiva-probe
