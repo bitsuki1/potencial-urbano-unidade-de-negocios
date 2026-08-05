@@ -1,0 +1,34 @@
+# assertiva-probe — prova a conexão com a Assertiva (bureau de dados) SEM gastar
+# consulta paga: só autentica no OAuth2 (client_credentials + Basic) e confirma a rota.
+# Lê os secrets ASSERTIVA_CLIENT_ID / ASSERTIVA_CLIENT_SECRET (Actions Secrets do repo;
+# credencial não vai no git — D106). Rodar depois que o dono setar os dois secrets.
+name: assertiva-probe
+
+on:
+  workflow_dispatch:
+    inputs:
+      modo:
+        description: "probe (só autentica, não gasta) — único modo por ora"
+        required: false
+        default: "probe"
+        type: choice
+        options: ["probe"]
+
+concurrency:
+  group: assertiva-probe
+  cancel-in-progress: false
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Probe de autenticação (fail-closed, sem consulta paga)
+        env:
+          ASSERTIVA_CLIENT_ID: ${{ secrets.ASSERTIVA_CLIENT_ID }}
+          ASSERTIVA_CLIENT_SECRET: ${{ secrets.ASSERTIVA_CLIENT_SECRET }}
+        run: python3 tools/assertiva/assertiva_client.py --probe
