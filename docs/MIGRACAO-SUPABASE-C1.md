@@ -25,10 +25,10 @@
 | `motor3.iptu_isencao_faixa` | 2 | `tabelas/iptu-isencao-faixa.csv` (vintages 2022/2026) |
 | `motor3.iptu_atualizacao_anual` | 14 | `tabelas/iptu-atualizacao-anual.csv` (série 2013–2026) |
 
-### ⏳ Schema criado (DDL aplicada), dado carrega via Action `carregar-supabase`
+### ✅ LIVE (carregadas pelo loader — Action `carregar-supabase`, 2026-08-05)
 As 15 tabelas genéricas `motor3.t_<nome>` (fatores TDC, Fi, IPCA, obsolescência, valor de construção, limiar de
-parque, Q14 reajuste, **Q14 valor de terreno = 6.715 linhas**, quadros 2A/3/5/6/7). Schema já existe; o **dado**
-carrega pelo loader determinístico.
+parque, Q14 reajuste, **Q14 valor de terreno = 6.715 linhas**, quadros 2A/3/5/6/7). Carregadas de uma vez pelo
+loader determinístico.
 
 ## Ferramentas (reutilizáveis)
 - **`scripts/carregar_tabelas_supabase.py`** — loader idempotente (TRUNCATE+INSERT) das 15 tabelas genéricas a
@@ -41,8 +41,9 @@ string do painel Supabase (Settings → Database → Connection string). Depois 
 (`dry_run=false`) e as 15 tabelas restantes (incl. as 6.715 linhas do Q14) ficam LIVE. Sem esse secret, o
 loader é o único passo que falta — é credencial (poder de escrita no banco), por isso fica no seu lado.
 
-## Motor 4 — cedentes (schema `motor4`, CONSENTIDO)
-Schema criado; **4 tabelas** por `sql_mestre`, RLS só-dono, carga via loader (`--sem-cedentes` desliga):
+## Motor 4 — cedentes (schema `motor4`, CONSENTIDO) ✅ LIVE
+**4 tabelas** por `sql_mestre`, RLS só-dono, **carregadas** pelo loader (2026-08-05; `--sem-cedentes` desliga).
+O schema `motor4` **NÃO** está exposto ao PostgREST (só `public`), então o PII não tem superfície REST:
 | Tabela | Linhas | Fonte primária |
 |---|---|---|
 | `motor4.c_q14_cedentes_2026_oficial` | 3.678 | `zepec/oficial/q14_cedentes_2026_oficial.csv` |
@@ -76,6 +77,26 @@ embedding)**. Flag `--sem-motor1` desliga. Dry-run OK; a carga real roda com o `
 - **Views públicas** p/ o front-end: `public.v_catalogo_motores` (status dos motores) e `public.v_iptu_faixas`
   (faixas do adicional). Mapa completo em `supabase/README-SUPABASE.md`.
 
+## ✅ ESTADO — tudo LIVE e verificado (2026-08-05)
+Os dois secrets do dono foram setados e **conferidos ao vivo**:
+- **`SUPABASE_DB_URL`** ✅ — o loader conectou e gravou **Motor 3 (15 tab.) + Motor 4 (4 tab. cedentes) + Motor 1
+  (4.236 chunks, 2.805 com embedding)**. Prova: contagem no banco depois da Action `carregar-supabase` (run #2).
+- **`GEMINI_API_KEY`** ✅ — a Edge Function `consultar-rag` embeda a pergunta e responde **`fundamentada:true`**
+  com dispositivos reais (Lei 6.989/1966, Art. 7º/27) **com citação** (norma/dispositivo/fonte_url/vigência).
+
+### Duas correções de infra no caminho (documentadas p/ a próxima instância)
+1. **Fleet do pooler (aws-0 vs aws-1):** o 1º disparo falhou com `FATAL (ENOTFOUND) tenant/user ... not found` —
+   o secret apontava para `aws-0-sa-east-1` mas o projeto vive em `aws-1-...`. O loader passou a **auto-recuperar**
+   (troca aws-0↔aws-1 no "tenant not found" — `scripts/carregar_tabelas_supabase.py::_conectar`).
+2. **Schemas expostos vazios:** a API REST inteira do projeto caía com `schema "pg_pgrst_no_exposed_schemas" does
+   not exist` (lista de "Exposed schemas" vazia). Reposto `public, graphql_public` via
+   `alter role authenticator set pgrst.db_schemas` (migração `c1_hardening_search_path_e_schemas_expostos`) +
+   `notify pgrst`. Os schemas dos motores **seguem não-expostos** (alcançados só pelo wrapper `public.consultar_corpus`).
+
+> ⚠️ **Nota (fora do C1):** o advisor achou schemas pré-existentes `oficiais.*` e `governanca.*` (de tentativa
+> anterior) com RLS habilitado **sem policy** (⇒ travado/deny-all) e **não-expostos**. Não são do C1; ficam para
+> revisão/limpeza posterior — hoje não têm superfície de risco.
+
 ## Front-end v1 (Lovable) — "Potencial Urbano Validador"
 Criado (id `49b43804-...`). Conectado ao Supabase existente (URL + chave publicável); Painel lê
 `v_catalogo_motores` + `v_iptu_faixas`, Assistente chama a Edge Function `consultar-rag` (renderiza citação;
@@ -83,7 +104,7 @@ avisa quando não-fundamentada). Auth = papel único (dono). Prévia:
 `https://id-preview--49b43804-41a3-436f-abf4-7ab8c4570f66.lovable.app`.
 
 ## Próximas fases
-- **Setar `SUPABASE_DB_URL`** (dono) → um disparo do loader deixa **LIVE de uma vez**: Motor 3 (15 tabelas) +
-  Motor 4 (4 tabelas cedentes) + **Motor 1 (4.236 chunks do corpus)**.
-- **Setar `GEMINI_API_KEY`** (dono) → a Edge Function `consultar-rag` passa a responder o Assistente.
-- **Motor 2 (geometria)** — carregar os pontos (GeoSampa/geocode) quando a fonte estiver disponível.
+- ~~Setar `SUPABASE_DB_URL`~~ ✅ FEITO/verificado — Motor 3+4+1 LIVE.
+- ~~Setar `GEMINI_API_KEY`~~ ✅ FEITO/verificado — Assistente responde com citação.
+- **Motor 2 (geometria)** — carregar os pontos (GeoSampa/geocode) quando a fonte estiver disponível (schema pronto).
+- **Front-end:** reconferir o Painel/Assistente na prévia agora que o corpus e a API REST estão no ar.
