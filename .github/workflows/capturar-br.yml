@@ -1,13 +1,20 @@
 # capturar-br — roda no runner `brasil` (VPS com IP do Brasil, sem o proxy de egresso desta sessão).
 # Objetivo: destravar as fontes .gov.br que STF/STJ/GeoSampa só servem do Brasil.
-#   • Item 3 — inteiro teor da jurisprudência (STF jurisprudencia / STJ SCON).
+#   • Item 3/7 — inteiro teor da jurisprudência, metade-runner (STF RE 226942/387047 + TJSP AI cposg).
 #   • Item 4 — Quadro 14 (Valor de Terreno p/ Outorga Onerosa) citywide do GeoSampa (carga que falta).
 # PROVA primeiro (probe de alcance): se o runner pega o job e os .gov.br respondem 200, a rota está
-# confirmada e a captura real entra na sequência. push-triggered (dispara ao empurrar, sem depender da main).
+# confirmada. Depois `modo=capturar` grava o inteiro teor (fail-closed). push-triggered p/ o probe.
 name: capturar-br
 
 on:
   workflow_dispatch:
+    inputs:
+      modo:
+        description: "probe (só testa alcance) | capturar (grava o inteiro teor, fail-closed)"
+        required: true
+        default: "probe"
+        type: choice
+        options: ["probe", "capturar"]
   push:
     paths:
       - ".github/workflows/capturar-br.yml"
@@ -18,19 +25,42 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  probe:
+  capturar-br:
     runs-on: [self-hosted, brasil]
-    timeout-minutes: 20
+    timeout-minutes: 30
     steps:
-      - name: Alcance das fontes .gov.br (prova da rota BR)
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Instalar pypdf (extração do inteiro teor STF)
+        run: pip install --quiet pypdf
+      - name: Probe da rota BR (curl bruto — independe do Python)
         run: |
           echo "runner: $(hostname) | IP público:"; curl -sS -m 20 https://api.ipify.org || true; echo
           for u in \
             "https://jurisprudencia.stf.jus.br" \
-            "https://scon.stj.jus.br/SCON/" \
-            "http://download.geosampa.prefeitura.sp.gov.br/PaginasPublicas/downloadArquivo.aspx" \
-            "https://metadados.geosampa.prefeitura.sp.gov.br"; do
+            "https://esaj.tjsp.jus.br/cposg/open.do" \
+            "https://scon.stj.jus.br/SCON/"; do
             echo "=== $u ==="
-            curl -sS -m 30 -o /dev/null -w "HTTP %{http_code} | %{time_total}s | tam %{size_download}\n" "$u" || echo "FALHOU (rede/TLS)"
+            curl -sS -m 30 -o /dev/null -w "HTTP %{http_code} | %{time_total}s\n" "$u" || echo "FALHOU (rede/TLS)"
           done
-          echo "PROBE OK — se acima houver 200/302 em STF e STJ, a rota BR resolve o item 3; GeoSampa idem p/ item 4."
+      - name: Jurisprudência (metade-runner) — modo=${{ github.event.inputs.modo || 'probe' }}
+        run: |
+          if [ "${{ github.event.inputs.modo }}" = "capturar" ]; then
+            python3 scripts/capturar_juris_portais.py --capturar
+          else
+            python3 scripts/capturar_juris_portais.py --probe
+          fi
+      - name: Commit do que capturou (só se houver novos arquivos)
+        if: ${{ github.event.inputs.modo == 'capturar' }}
+        run: |
+          git config user.name "runner-brasil"
+          git config user.email "runner@potencial-urbano"
+          git add jurisprudencia/ || true
+          if ! git diff --cached --quiet; then
+            git commit -m "capturar-br: inteiro teor da jurisprudência (metade-runner) [skip ci]"
+            for i in 1 2 3 4; do git push && break || sleep $((2**i)); done
+          else
+            echo "nada novo para commitar (fail-closed ou já capturado)."
+          fi

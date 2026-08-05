@@ -1,6 +1,6 @@
 {
   "_doc": "Fonte da verdade do status_pipeline de cada item. GERADO por scripts/consolidar.py a partir dos .json individuais — NAO editar a mao (Principio 1.5/2.3 do CLAUDE.md). Roda a cada push via .github/workflows/consolidar.yml.",
-  "gerado_em": "2026-07-19T04:41:04.239429+00:00",
+  "gerado_em": "2026-07-30T14:16:22.283118+00:00",
   "vocabulario_status": [
     "bruto",
     "fatiado",
@@ -9,17 +9,17 @@
     "indexado"
   ],
   "resumo": {
-    "total_itens": 131,
-    "leis": 92,
+    "total_itens": 132,
+    "leis": 93,
     "jurisprudencia": 39,
-    "ativos_no_escopo": 131,
+    "ativos_no_escopo": 132,
     "fora_de_escopo": 0,
     "_nota": "por_status_pipeline conta SÓ os ativos_no_escopo. Os 2 fora-de-escopo históricos (stf-tema-1020/ISS, stj-resp-1658054/previdenciário) foram ARQUIVADOS por decisão do dono em 2026-07-05 (git rm; recuperáveis pelo histórico).",
     "por_status_pipeline_ativos": {
-      "indexado": 131
+      "indexado": 132
     },
     "status_ilegais_encontrados": [],
-    "verbatim_integral_ativos": 92,
+    "verbatim_integral_ativos": 93,
     "_nota_verbatim_integral": "B-7/AUD-17: verbatim_integral e DERIVADO do marcador '## Texto integral (verbatim)' no .md (prova mecanica, nao declaracao). Difere de confianca_extracao (flag do extrator).",
     "confianca_baixa_ou_media": 10,
     "_nota_verbatim": "confianca e flag de extracao, nao prova de verbatim. CORRIGIDO na auditoria profunda 2026-06-20 (AUD-01): 13 leis JA estao em verbatim integral e indexadas (12 federais re-ingeridas de _entrada/misto/ + a 7228/1968 municipal) — supera a narrativa antiga 'planalto deu 403, NENHUMA e verbatim', que confundia 'o .md e resumo' com 'o verbatim nao existe'. Faltam 12 municipais (so resumo WebSearch) — re-ingestao verbatim delas e o que resta do pre-requisito do RAG. As juris (curtas) sao verbatim."
@@ -1860,6 +1860,21 @@
       "fora_de_escopo": false,
       "fora_de_escopo_motivo": null,
       "fonte_url": null
+    },
+    {
+      "id": "lei-municipal-saopaulo-16768-2017",
+      "tipo": "lei_ordinaria",
+      "caminho_md": "leis/municipal-sp/lei-municipal-saopaulo-16768-2017.md",
+      "caminho_json": "leis/municipal-sp/lei-municipal-saopaulo-16768-2017.json",
+      "status_pipeline": "indexado",
+      "status_valido": true,
+      "confianca_extracao": "alta",
+      "verbatim_integral": true,
+      "vigencia_inicio": "2017-12-21",
+      "revisado_por_humano": false,
+      "fora_de_escopo": false,
+      "fora_de_escopo_motivo": null,
+      "fonte_url": "https://legislacao.prefeitura.sp.gov.br/lei-16768-de-21-de-dezembro-de-2017"
     },
     {
       "id": "lei-municipal-saopaulo-17092-2019",
