@@ -145,6 +145,39 @@ def carregar_motor1(cur):
     return len(data)
 
 
+def _conectar(url):
+    """Conecta ao Postgres do Supabase. O pooler (Supavisor) fica em fleets
+    regionais (`aws-0-<regiao>` / `aws-1-<regiao>`); um projeto só existe em UM
+    deles. Se o host informado for o fleet errado, o pooler recusa com
+    'tenant/user ... not found' (não é senha errada). Nesse caso trocamos
+    aws-0<->aws-1 e reconectamos sozinhos — assim o loader se recupera de um
+    host de pooler defasado no secret, sem intervenção manual.
+    """
+    import re as _re
+    import psycopg  # psycopg3
+
+    candidatos = [url]
+    m = _re.search(r"aws-(\d)-", url)
+    if m:
+        alt = "0" if m.group(1) != "0" else "1"
+        candidatos.append(_re.sub(r"aws-\d-", f"aws-{alt}-", url, count=1))
+    ultimo = None
+    for i, u in enumerate(candidatos):
+        try:
+            conn = psycopg.connect(u, autocommit=False)
+            if i > 0:
+                hm = _re.search(r"@([^:/]+)", u)
+                print(f"  (reconectado pelo fleet alternado do pooler: {hm.group(1) if hm else '?'})")
+            return conn
+        except psycopg.OperationalError as e:
+            ultimo = e
+            msg = str(e).lower()
+            if "not found" in msg or "enotfound" in msg or "tenant" in msg:
+                continue  # provável fleet errado — tenta o alternado
+            raise
+    raise ultimo
+
+
 def main(argv):
     dry = "--dry-run" in argv
     url = os.environ.get("SUPABASE_DB_URL")
@@ -186,10 +219,8 @@ def main(argv):
         print("DRY-RUN: nada gravado.")
         return 0
 
-    import psycopg  # psycopg3
-
     total = 0
-    with psycopg.connect(url, autocommit=False) as conn:
+    with _conectar(url) as conn:
         with conn.cursor() as cur:
             for fonte, alvo, hdr, types, rows in alvos:
                 cur.execute(f"truncate table {alvo} restart identity;")
