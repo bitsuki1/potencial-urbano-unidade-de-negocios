@@ -1,13 +1,15 @@
 {
-  "versao": 1,
-  "data_confrontacao": "2026-07-05",
-  "metodo": "MCP Google Drive (só-leitura, sessão PU 18)",
+  "versao": 2,
+  "data_confrontacao": "2026-08-06",
+  "metodo": "conta de serviço (read-only), varredura BFS completa da árvore POTENCIAL URBANO",
   "resultado": {
     "total_indice": 1360,
-    "movidos_real": 0,
-    "status": "arrumacao_nunca_rodou",
-    "explicacao": "Confronto índice×Drive via MCP provou 0/1.360 movidos (arrumação nunca rodou). O índice-seed foi carimbado mas o Apps Script não executou."
+    "movidos_real": 981,
+    "ainda_na_entrada": 0,
+    "excluidos_fisicos": 379,
+    "status": "arrumacao_executada",
+    "explicacao": "980 movidos c/ md5 + 1 Google-nativos em pastas-destino; 0 ainda na _entrada; 379 ausentes da árvore (exclusão física D-DONO-2026-07-18)."
   },
-  "prova": "docs/INVENTARIO-DRIVE-VIVO-2026-07-05.md §4",
-  "nota": "Este arquivo é atualizado a cada confrontação real (via MCP Drive ou script). O gate-arrumacao.py lê a data e reprova se a confrontação tiver > 30 dias."
+  "prova": "inventario/gas-log-2026-08-06-confrontacao-sa.txt (gerado pela Action confrontar-arrumacao)",
+  "nota": "Atualizado a cada confrontação real. O gate-arrumacao.py lê a data e reprova se > 30 dias."
 }
