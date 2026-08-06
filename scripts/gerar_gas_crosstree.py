@@ -31,7 +31,7 @@ CABECALHO = '''/**
  * ============================================================================
  */
 var DRY_RUN = true;
-var PROJETO_RAIZ_ID = '';                     // id da raiz "Potencial Urbano" (vazio = Meu Drive; avisa)
+var PROJETO_RAIZ_ID = '1BrM6q36meTtn5guJoiGbqvCtZF11Uau3'; // pasta "POTENCIAL URBANO" (mesma raiz do Arrumar-Drive)
 var QUARENTENA_RAIZ_NOME = '98 — _LEGADO';
 
 // [dup_id, canonico_id, motivo] — gerado do inventario/cross-tree-dups.csv
