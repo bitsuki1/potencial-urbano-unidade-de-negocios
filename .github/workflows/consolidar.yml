@@ -9,6 +9,10 @@ name: consolidar
 # Trazido pela Auditoria triplo-limpo (2026-06-19) + esteira RAG da instância PU (2026-06-20).
 
 on:
+  # 2026-08-06: pushes desta sessão remota deixaram de gerar evento de push no Actions (runs nem
+  # são criados; dispatch por API segue funcionando). O workflow_dispatch é a válvula p/ rodar o
+  # gate manualmente/por API no branch quando o evento de push não vier.
+  workflow_dispatch: {}
   push:
     paths:
       - "leis/**"
