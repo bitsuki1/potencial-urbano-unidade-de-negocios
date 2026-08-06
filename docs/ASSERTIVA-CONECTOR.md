@@ -9,14 +9,14 @@ Bureau de dados brasileiro (*data bureau* — empresa de enriquecimento/consulta
 qualificar contato/empresa a partir de CPF/CNPJ. No Potencial Urbano alimenta principalmente o **Motor Comercial**
 (prospecção do lado vendedor / cedentes) e a qualificação de leads.
 
-## Conector (construído, aguardando credencial)
+## Conector (construído; credencial SETADA e validada — probe OAuth2 v3 OK, sem consulta paga)
 - **`tools/assertiva/assertiva_client.py`** — cliente OAuth2 (`client_credentials` + Basic), fail-closed (1.3),
   custo-consciente (1.4). Métodos: `localizar()`, `validar_cpf()`, `consultar_cnpj()`, `score()` e `chamar()`
   (porta genérica p/ qualquer endpoint v3 — extensível "para o que mais surgir"). Lê a credencial do ambiente.
 - **`.github/workflows/assertiva-probe.yml`** — Action de *probe*: **só autentica** (prova credencial + rota,
   **não dispara consulta paga**). Roda com os secrets do repo.
 
-## ▶️ Passo do dono (uma vez) — setar a credencial
+## ▶️ Passo do dono — FEITO (credencial setada; probe autenticou). Registro do procedimento:
 1. No painel `https://painel.assertivasolucoes.com.br` (ou `app.assertivasolucoes.com.br`), achar **Integração/API/
    Credenciais** e pegar **Client ID** + **Client Secret** (padrão OAuth2 da Assertiva).
 2. No repo `potencial-urbano-unidade-de-negocios` → **Settings → Secrets and variables → Actions**, criar:
