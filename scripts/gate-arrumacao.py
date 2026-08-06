@@ -62,7 +62,7 @@ MOVIDO = ("moved", "espelhado", "quarentena")           # saiu da _entrada de ve
 # R11 — estados TERMINAIS deliberados: não "movidos", mas também NÃO pendentes (senão falso-vermelho
 # eterno). 'triagem' = multi-pai/ambíguo p/ decisão humana (99); 'nativo_ignorado' = Google-nativo
 # que o dedup pula de propósito. Contam como RESOLVIDOS no C1, fora do denominador de "ainda na _entrada".
-TERMINAL = ("triagem", "nativo_ignorado")
+TERMINAL = ("triagem", "nativo_ignorado", "excluido")   # 'excluido' = exclusão física D-DONO-2026-07-18 (R11)
 RESOLVIDO = MOVIDO + TERMINAL
 
 

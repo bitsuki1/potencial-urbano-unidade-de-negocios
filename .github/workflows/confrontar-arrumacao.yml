@@ -1,0 +1,54 @@
+# Confrontação REAL índice×Drive via conta de serviço (AUD-A08) — read-only no Drive.
+# Gera gas-log-<data>-confrontacao-sa.txt + confrontacao-drive.json, roda o reconciliador
+# (INDICE-MESTRE + trilha) e o gate, e commita o resultado na branch disparada.
+# Pré-req: secret GOOGLE_SA_KEY. PU 20 · 2026-08-06.
+name: confrontar-arrumacao
+
+on:
+  workflow_dispatch: {}
+  # Enquanto o workflow não está na main (não-disparável por dispatch), este gatilho de push —
+  # escopado a ESTA branch e a estes arquivos — permite rodar a confrontação lendo o Secret do
+  # repo (mesmo padrão do assertiva-probe). O commit do bot toca só inventario/* → não redispara.
+  push:
+    branches: ["claude/urban-potential-instance-l3zed9"]
+    paths:
+      - ".github/workflows/confrontar-arrumacao.yml"
+      - "scripts/confrontar_arrumacao_sa.py"
+
+concurrency:
+  group: confrontar-arrumacao
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  confrontar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Instalar libs do Google
+        run: pip install --quiet google-api-python-client google-auth
+      - name: Confrontação SA (read-only no Drive)
+        env:
+          GOOGLE_SA_KEY: ${{ secrets.GOOGLE_SA_KEY }}
+        run: python3 scripts/confrontar_arrumacao_sa.py
+      - name: Reconciliar índice-mestre
+        run: python3 scripts/reconciliar_arrumacao.py
+      - name: Gate da arrumação (informativo neste job)
+        run: python3 scripts/gate-arrumacao.py || true
+      - name: Commitar resultado na branch
+        run: |
+          git config user.name "confrontacao-bot"
+          git config user.email "confrontacao-bot@users.noreply.github.com"
+          git add inventario/gas-log-*-confrontacao-sa.txt inventario/confrontacao-drive.json \
+                  inventario/INDICE-MESTRE-DRIVE.csv inventario/arrumacao-log.csv \
+                  inventario/cross-tree-dups.csv || true
+          if git diff --cached --quiet; then echo "nada a commitar"; exit 0; fi
+          git commit -m "confrontação SA índice×Drive: prova pós-Apps Script (movidos/nativos/excluídos) + índice-mestre reconciliado"
+          for t in 1 2 4 8; do
+            git fetch origin ${{ github.ref_name }} && git rebase origin/${{ github.ref_name }} && git push origin HEAD:${{ github.ref_name }} && break || sleep $t
+          done

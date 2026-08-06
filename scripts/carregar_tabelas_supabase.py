@@ -68,6 +68,19 @@ CEDENTES_OFICIAL = {
     "zepec/oficial/conservacao_cedentes.csv": "motor4.c_conservacao_cedentes",
 }
 
+# Motor 4 — SAÍDA DO ENGINE do preço legal (Art.128 L16.050). zepec/ferramenta/ aqui NÃO é
+# "derivado-usado-como-fonte" (1.8): é o RESULTADO do engine determinístico (1.3 — número nasce
+# no engine), carregado com a memória de cálculo e a citação POR LINHA. A view tipada
+# motor4.preco_legal e a carteira do front leem desta tabela.
+CEDENTES_ENGINE = {
+    "zepec/ferramenta/zepec_cedentes_oficial.csv": "motor4.c_zepec_cedentes_ferramenta",
+}
+
+# Motor 2 — MAPA: centroides oficiais dos lotes (GeoSampa WFS lote_cidadao, coleta IP-BR no hub,
+# workflow pu-centroides-mapa). CSV: sql_mestre,x,y,epsg,status. Só insere status=ok; geometria
+# nasce por ST_SetSRID(ST_MakePoint(x,y), epsg) — SIRGAS2000/UTM23S (31983) é o esperado.
+CENTROIDES_MAPA = "zepec/oficial/centroides_cedentes.csv"
+
 NUM = re.compile(r"^[+-]?\d+(\.\d+)?$")
 DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 
@@ -198,7 +211,7 @@ def main(argv):
 
     # Motor 4 — cedentes (consentido). Todas as colunas são text no schema; passamos strings.
     if incluir_cedentes:
-        for relpath, alvo in CEDENTES_OFICIAL.items():
+        for relpath, alvo in list(CEDENTES_OFICIAL.items()) + list(CEDENTES_ENGINE.items()):
             csvf = RAIZ / relpath
             if not csvf.exists():
                 print(f"AVISO: {relpath} não encontrado — pulando.")
@@ -207,6 +220,20 @@ def main(argv):
             types = ["text"] * len(hdr)  # motor4 é text-only (preserva o dado exato)
             alvos.append((relpath, alvo, hdr, types, rows))
 
+    # Motor 2 — mapa (centroides oficiais GeoSampa). Só entra se a coleta já rodou no hub.
+    centroides = []
+    if incluir_cedentes:
+        csvf = RAIZ / CENTROIDES_MAPA
+        if csvf.exists():
+            hdr, rows = ler_csv(csvf)
+            idx = {c: i for i, c in enumerate(hdr)}
+            for r in rows:
+                if r[idx["status"]].strip() == "ok" and r[idx["x"]].strip() and r[idx["y"]].strip():
+                    centroides.append((r[idx["sql_mestre"]].strip(), r[idx["x"]].strip(),
+                                       r[idx["y"]].strip(), (r[idx.get("epsg", -1)] if "epsg" in idx else "31983").strip() or "31983"))
+        else:
+            print(f"AVISO: {CENTROIDES_MAPA} não encontrado — pulando motor2 (mapa).")
+
     incluir_motor1 = "--sem-motor1" not in argv
     print(f"alvos a carregar: {len(alvos)}  (Motor 3 sem PII + Motor 4 cedentes {'INCLUÍDOS' if incluir_cedentes else 'EXCLUÍDOS'})")
     for fonte, alvo, hdr, types, rows in alvos:
@@ -214,6 +241,8 @@ def main(argv):
     if incluir_motor1:
         nch, nemb, dim = _contar_motor1()
         print(f"  motor1.chunks                            <- rag/index/chunks.json + embeddings.json  ({nch} chunks, {nemb} c/ embedding dim {dim})")
+    if centroides:
+        print(f"  motor2.cedente_ponto                     <- {CENTROIDES_MAPA}  ({len(centroides)} pontos ok)")
 
     if dry:
         print("DRY-RUN: nada gravado.")
@@ -243,6 +272,16 @@ def main(argv):
                 cur.executemany(sql, data)
                 print(f"  OK  {alvo}: {len(data)} linhas")
                 total += len(data)
+            if centroides:
+                cur.execute("truncate table motor2.cedente_ponto;")
+                cur.executemany(
+                    "insert into motor2.cedente_ponto (sql_mestre, geom, fonte) "
+                    "values (%s, st_transform(st_setsrid(st_makepoint(%s::float8, %s::float8), %s::int), 31983), "
+                    "'GeoSampa WFS lote_cidadao (centroide)')",
+                    centroides,
+                )
+                print(f"  OK  motor2.cedente_ponto: {len(centroides)} pontos")
+                total += len(centroides)
             if incluir_motor1:
                 total += carregar_motor1(cur)
         conn.commit()

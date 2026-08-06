@@ -7,7 +7,7 @@
 
 ## Ementa
 
-(Projeto de Lei nº 253/05, do Executivo, aprovado na forma de Substitutivo do Legislativo)
+Cria o Cadastro Informativo Municipal - CADIN MUNICIPAL.
 
 ## Texto integral (verbatim)
 
