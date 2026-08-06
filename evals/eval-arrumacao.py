@@ -72,12 +72,15 @@ def main():
         _ck(m.get("ZZlei", {}).get("destino_path", "").startswith("02"),
             "R8: LEI do lago sem destino de Leis (02)")
 
-        # R9 — dedup cross-tree emitido (e0 × ZZdup, mesmo md5 SHARED, ambos colocados)
+        # R9 — dedup cross-tree emitido (e0 × ZZdup, mesmo md5 SHARED, ambos colocados).
+        # O log REAL da arrumação também produz dups cross-tree legítimos (hash md5 hex);
+        # o sintético é identificado pelo hash sentinela SHARED — deve haver exatamente 1.
         _ck(CROSS.exists(), "R9: cross-tree-dups.csv não foi emitido")
         if CROSS.exists():
             dups = list(csv.DictReader(open(CROSS, encoding="utf-8")))
-            ids = {d["dup_id"] for d in dups}
-            _ck(len(dups) == 1 and ({e0, "ZZdup"} & ids), "R9: dup cross-tree e0×ZZdup não detectada corretamente")
+            synth = [d for d in dups if d["hash_md5"] == "SHARED"]
+            _ck(len(synth) == 1 and {synth[0]["canonico_id"], synth[0]["dup_id"]} == {e0, "ZZdup"},
+                "R9: dup cross-tree e0×ZZdup não detectada corretamente")
 
         # gerar_gas_crosstree produz o .gs a partir do cross
         g = _run("scripts/gerar_gas_crosstree.py")
