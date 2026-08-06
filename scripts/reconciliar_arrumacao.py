@@ -40,6 +40,9 @@ import semear_indice_mestre as SEM  # noqa: E402  (reusa COLUNAS + serializar)
 
 RE_MOVE = re.compile(r"MOVE_LINHA\s+([^,]+),([^,]*),([^,]*),([^,]*),(\w+)")
 RE_CSV = re.compile(r"CSV_LINHA\s+([^,]+),([^,]*),(\w+),([^,\s]*)")
+# Confrontação SA (2026-08-06): item do SEED AUSENTE da árvore viva = excluído físico (exclusão em
+# massa 90/99 decidida pelo dono, D-DONO-2026-07-18). Estado TERMINAL deliberado (R11), não pendência.
+RE_EXC = re.compile(r"EXCLUIDO_LINHA\s+(\S+)")
 # R8: inventário do lago (nome entre aspas). Último campo = \S* (NÃO [^,]*, que casa \n e come a linha seguinte).
 RE_INV = re.compile(r'INV_LINHA\s+(\S+),"([^"]*)",([^,]*),(\S*)')
 TRILHA_COLS = ["data_ref", "drive_id", "acao", "origem", "destino", "hash_md5"]
@@ -133,6 +136,19 @@ def reconciliar():
                 ordem.append(did)
             trilha_novas.append({"data_ref": data_ref, "drive_id": did, "acao": acao,
                                  "origem": "_entrada", "destino": folder, "hash_md5": md5})
+
+        # EXCLUIDO_LINHA (confrontação SA): ausente da árvore viva → terminal 'excluido' (R11 +
+        # D-DONO-2026-07-18). Não exige hash (o arquivo não existe mais para ser hasheado).
+        for m in RE_EXC.finditer(texto):
+            did = m.group(1).strip()
+            r = idx.get(did) or _linha_vazia(did)
+            r["status_arrumacao"] = "excluido"
+            r["observacao"] = "excluído físico no Drive (D-DONO-2026-07-18); ausente na confrontação SA"
+            idx[did] = r
+            if did not in ordem:
+                ordem.append(did)
+            trilha_novas.append({"data_ref": data_ref, "drive_id": did, "acao": "excluido",
+                                 "origem": "arvore-PU", "destino": "", "hash_md5": ""})
 
         # CSV_LINHA (Sanear-Lago): dedup por hash.
         canon_ofi = {}   # canonico_id -> oficialidade (p/ o check R4)
