@@ -276,7 +276,7 @@ def main(argv):
                 cur.execute("truncate table motor2.cedente_ponto;")
                 cur.executemany(
                     "insert into motor2.cedente_ponto (sql_mestre, geom, fonte) "
-                    "values (%s, st_setsrid(st_makepoint(%s::float8, %s::float8), %s::int), "
+                    "values (%s, st_transform(st_setsrid(st_makepoint(%s::float8, %s::float8), %s::int), 31983), "
                     "'GeoSampa WFS lote_cidadao (centroide)')",
                     centroides,
                 )

@@ -7,7 +7,7 @@
 
 ## Ementa
 
-Paulo Maluf, Prefeito do Município de São Paulo, usando das atribuições que lhe são conferidas por Lei;
+Estabelece diretrizes e mecanismos para a implantação da operação urbana água branca, define programa de melhorias, previsto para a área objeto da operação, e dá outras providências.
 
 ## Texto integral (verbatim)
 
