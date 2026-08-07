@@ -1,10 +1,11 @@
-# capturar-br — roda no runner `brasil` (VPS com IP do Brasil, sem o proxy de egresso desta sessão).
-# Objetivo: destravar as fontes .gov.br que STF/STJ/TJSP só servem do Brasil.
-#   • Item 3/7 — inteiro teor da jurisprudência, metade-runner (STF RE 226942/387047 + TJSP AI cposg).
-#   • Item #21 — busca de ampliação TDC (STF API + SCON/STJ), resultado verbatim p/ curadoria.
-# Desde 2026-08-07 a CAPTURA é por NAVEGADOR REAL (Playwright em Docker, --network host — mesmo
-# padrão do geosampa-siszon.yml do hub): o WAF AWS do STF derruba urllib puro (desafio JS).
-# A EXTRAÇÃO (PDF→texto→.md/.json) segue no Python (capturar_juris_portais.py --extrair), fail-closed.
+# capturar-br — ⚠️ DESATIVADO NESTE REPO (causa-raiz PU 23, 2026-08-07): o runner `brasil`
+# é registrado SÓ no hub `portfolio-automacoes` (runner/segredo é POR REPO — D162: automação
+# de portfólio roda no hub). Toda run daqui ficava em fila PARA SEMPRE (11 runs, zero execução).
+# A captura REAL roda no hub: workflow `pu-juris-br.yml` + `tools/pu-juris/capturar_juris_br.js`
+# (navegador Playwright em Docker passa o WAF do STF; commit das capturas no branch do hub).
+# NESTE repo fica só a EXTRAÇÃO local: scripts/capturar_juris_portais.py --extrair processa
+# jurisprudencia/_capturas/ (copiado do hub) → .md/.json, fail-closed.
+# Sem gatilho de push (evita runs fantasma); dispatch mantido p/ o dia em que houver runner aqui.
 name: capturar-br
 
 on:
@@ -16,11 +17,6 @@ on:
         default: "probe"
         type: choice
         options: ["probe", "capturar"]
-  push:
-    paths:
-      - ".github/workflows/capturar-br.yml"
-      - "scripts/capturar_juris_portais.py"
-      - "scripts/capturar_juris_br.js"
 
 concurrency:
   group: capturar-br
