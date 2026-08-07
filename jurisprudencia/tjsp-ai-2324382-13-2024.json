@@ -27,12 +27,12 @@
   "fonte": {
     "origem": "web-extensao-resumo",
     "url": "TJSP e-SAJ (consulta processual 2o grau) — https://esaj.tjsp.jus.br/cposg/open.do",
-    "hash": "sha256:b15b886466b0340c93c887422f646eac676f0241669c6f047cba613856374d48",
+    "hash": "sha256:f1b361ac3d3c05392e17775045a9d4720a5d59bd4973c0285bbc494b10a4b786",
     "hash_alvo": "jurisprudencia/tjsp-ai-2324382-13-2024.md",
     "captura_verbatim": "jurisprudencia/_capturas/tjsp-ai-2324382-13-2024-ed.txt",
     "hash_nota": "hash do .md (transcrição do corpus); hash do PDF cru registrado no próprio md",
-    "url_inteiro_teor": "e-SAJ TJSP — https://esaj.tjsp.jus.br/cjsg/getArquivo.do?cdAcordao=18836103&cdForo=0 (Registro 2025.0000088134); PDF oficial em _capturas/tjsp-ai-2324382-13-2024-ed.pdf",
-    "metodo_teor": "Embargos de Declaração no AI: PDF oficial entregue pelo dono (extensão/navegador), extração pura 1.2",
+    "url_inteiro_teor": "e-SAJ TJSP (Registro 2024.0001230140) — PDF oficial em _capturas/tjsp-ai-2324382-13-2024.pdf",
+    "metodo_teor": "PDF oficial entregue pelo dono (navegador logado), extração pura 1.2",
     "ocr": false
   },
   "status_pipeline": "indexado",

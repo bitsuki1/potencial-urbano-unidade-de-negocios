@@ -49,7 +49,9 @@ jobs:
           ASSERTIVA_CLIENT_SECRET: ${{ secrets.ASSERTIVA_CLIENT_SECRET }}
           SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
         run: |
-          if [ "${{ github.event.inputs.modo }}" = "descobrir" ]; then
+          if [ "${{ github.event.inputs.modo }}" = "uso" ]; then
+            python3 tools/assertiva/relatorio_uso.py
+          elif [ "${{ github.event.inputs.modo }}" = "descobrir" ]; then
             python3 tools/assertiva/descobrir_rotas.py
           else
             ARGS="--limite ${{ github.event.inputs.limite || '2' }} --alvos ${{ github.event.inputs.alvos || 'alvos_lote1_100.csv' }}"
