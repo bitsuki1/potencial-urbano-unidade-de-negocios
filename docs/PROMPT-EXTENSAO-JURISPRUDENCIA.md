@@ -30,3 +30,28 @@ Mesmo procedimento do Lote 2, priorizando a "Pasta digital"; baixe a DECISÃO/AC
 ---
 > **Destino dos PDFs (dono):** jogar na pasta `_entrada/` do Drive do PU (ou me mandar) — a instância
 > extrai (OCR se preciso), grava no corpus com `ocr`/hash e reindexa, como fez com os 2 do STF.
+
+---
+## v2 (2026-08-07, tarde) — SÓ OS 5 FALTANTES, SEM PASTA DIGITAL (nada de senha)
+> Rodada 1 da extensão entregou 3/8 (AgRg AREsp 179.340 ✓, REsp 1.130.545 ✓, ApCiv 0000175 ✓ — já no corpus).
+> Lição: a "pasta digital" do cposg pede senha do processo (Res. 121/CNJ) — mas o ACÓRDÃO sai SEM senha
+> pela Consulta de Julgados (CJSG), que é pública. O prompt abaixo proíbe a rota errada.
+
+Você é meu assistente de captura de documentos judiciais PÚBLICOS. Baixe o INTEIRO TEOR (PDF) de 5 julgados do TJSP. REGRA DE OURO: use SOMENTE a consulta pública de jurisprudência — NUNCA abra a "Pasta Digital" nem qualquer tela que peça senha do processo ou login; se uma tela pedir senha, volte e use a rota pública.
+
+ROTA ÚNICA — Consulta de Julgados do TJSP (pública, sem login):
+1. Acesse https://esaj.tjsp.jus.br/cjsg/consultaCompleta.do
+2. No campo "Número do processo" (aba de pesquisa), digite o número abaixo.
+3. Em "Tipo de decisão", marque AMBOS: "Acórdãos" E "Decisões Monocráticas" (os agravos podem ter sido decididos por decisão monocrática).
+4. Pesquise (resolva o captcha visual se aparecer — é permitido, é público).
+5. No resultado, clique no ícone/link do PDF do julgado (abre direto, sem senha) e salve com o nome indicado.
+6. Se a pesquisa não retornar nada, tente o mesmo número em https://esaj.tjsp.jus.br/cjpg/ (julgados de 1º grau) e anote o que apareceu.
+
+Os 5 processos:
+1. `0000177-09.2017.8.26.0053` → salvar como `tjsp-apciv-0000177-09-2017.pdf`
+2. `1070175-76.2019.8.26.0053` → salvar como `tjsp-apciv-1070175-76-2019.pdf`
+3. `2126162-35.2025.8.26.0000` → salvar como `tjsp-ai-2126162-35-2025.pdf`
+4. `2257458-20.2024.8.26.0000` → salvar como `tjsp-ai-2257458-20-2024.pdf`
+5. `2324382-13.2024.8.26.0000` → salvar como `tjsp-ai-2324382-13-2024.pdf`
+
+Ao final: entregue os PDFs com os nomes exatos + uma lista do que conseguiu e, para o que não conseguiu, uma captura de tela da página de resultado (sem dados pessoais seus).
