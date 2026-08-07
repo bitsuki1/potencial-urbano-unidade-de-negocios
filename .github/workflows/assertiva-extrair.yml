@@ -1,0 +1,37 @@
+name: assertiva-extrair
+# ESTREIA PAGA da Assertiva (autorizada pelo dono 2026-08-06). Consulta Localize v3 por
+# CPF/CNPJ dos donos-alvo (1 consulta por dono, idempotente) e grava contatos DIRETO no
+# Supabase (crm_lead/crm_contato) — o contato nunca entra no git nem no contexto do LLM.
+# Rodar com limite pequeno primeiro (validação), depois o lote.
+on:
+  workflow_dispatch:
+    inputs:
+      limite:
+        description: "Quantos donos consultar (custo ~R$0,12/consulta)"
+        required: false
+        default: "2"
+      dry_run:
+        description: "true = autentica e lê alvos, sem consulta paga nem escrita"
+        required: false
+        default: "false"
+permissions:
+  contents: read
+jobs:
+  extrair:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install "psycopg[binary]"
+      - name: Extrair contatos (Assertiva -> Supabase)
+        env:
+          ASSERTIVA_CLIENT_ID: ${{ secrets.ASSERTIVA_CLIENT_ID }}
+          ASSERTIVA_CLIENT_SECRET: ${{ secrets.ASSERTIVA_CLIENT_SECRET }}
+          SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
+        run: |
+          ARGS="--limite ${{ github.event.inputs.limite }}"
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then ARGS="$ARGS --dry-run"; fi
+          python3 tools/assertiva/extrair_lote.py $ARGS
