@@ -29,10 +29,13 @@
   "fonte": {
     "origem": "web-oficial-verbatim",
     "url": "https://scon.stj.jus.br/SCON/GetInteiroTeorDoAcordao?num_registro=201200960468&dt_publicacao=26/11/2012",
-    "hash": "sha256:1c540db2c9cd0687f487e7ff75e4f58273fcd51c8923b539cb762cade4ae7a69",
+    "hash": "sha256:4b63e83b4320ea182a442d7d90f1632bda98de50387ed83da4debcc96ddba3f5",
     "hash_alvo": "jurisprudencia/stj-agrg-aresp-179340-sp.md",
     "captura_verbatim": "jurisprudencia/_capturas/stj-agrg-aresp-179340-sp.txt",
-    "hash_nota": "hash do .md (VERBATIM oficial: ementa+acordao do SCON/STJ)."
+    "hash_nota": "hash da transcrição do corpus (.md) — cru ausente localmente (B-4/B-9); trocar pelo hash do cru quando ele chegar",
+    "url_inteiro_teor": "SCON/STJ (scon.stj.jus.br) — PDF oficial em _capturas/stj-agrg-aresp-179340-sp.pdf (entregue pelo dono via extensão)",
+    "metodo_teor": "captura runner brasil (inteiro teor), extração pura 1.2",
+    "ocr": false
   },
   "status_pipeline": "indexado",
   "confianca_extracao": "alta",
@@ -41,5 +44,9 @@
   "dominio_primario": "tdc",
   "dominio": [
     "tdc"
-  ]
+  ],
+  "tipo_norma": "jurisprudencia",
+  "corte": "STJ",
+  "classe": "AgRg no AREsp",
+  "inteiro_teor_capturado": true
 }

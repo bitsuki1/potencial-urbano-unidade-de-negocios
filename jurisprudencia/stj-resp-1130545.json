@@ -22,10 +22,13 @@
   "fonte": {
     "origem": "web-oficial",
     "url": "https://scon.stj.jus.br/SCON/GetInteiroTeorDoAcordao?num_registro=200900568067&dt_publicacao=22/02/2011",
-    "hash": "sha256:656fc7345abfd03c9f9182cf79994dbe13f6e8bf4c405965e87a03f0a7fbca63",
+    "hash": "sha256:c48fd76b8539f7951b52ebc413d61cc98759502bbbc1f944b2f1c72d0e50f7f3",
     "captura_verbatim": "jurisprudencia/_capturas/stj-resp-1130545-inteiro-teor.txt",
     "hash_alvo": "jurisprudencia/stj-resp-1130545.md",
-    "hash_nota": "hash do .md do corpus. Inteiro teor OFICIAL completo (18 pp.) em _capturas/stj-resp-1130545-inteiro-teor.txt (PDF STJ, 2026-07-18)."
+    "hash_nota": "hash da transcrição do corpus (.md) — cru ausente localmente (B-4/B-9); trocar pelo hash do cru quando ele chegar",
+    "url_inteiro_teor": "SCON/STJ (scon.stj.jus.br) — PDF oficial em _capturas/stj-resp-1130545.pdf (entregue pelo dono via extensão)",
+    "metodo_teor": "captura runner brasil (inteiro teor), extração pura 1.2",
+    "ocr": false
   },
   "status_pipeline": "indexado",
   "confianca_extracao": "alta",
@@ -36,5 +39,9 @@
   "dominio_primario": "iptu",
   "dominio": [
     "iptu"
-  ]
+  ],
+  "tipo_norma": "jurisprudencia",
+  "corte": "STJ",
+  "classe": "REsp",
+  "inteiro_teor_capturado": true
 }

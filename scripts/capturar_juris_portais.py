@@ -64,6 +64,22 @@ CASOS = [
      "numero_cnj": "2324382-13.2024.8.26.0000", "tema": ["tdc", "potencial_construtivo"]},
 ]
 
+# Metade-EXTENSÃO (dono, via navegador): os PDFs chegam prontos em _capturas/<id>.pdf —
+# só o modo --extrair os processa (nenhuma função de captura automática para estes).
+# 2026-08-07: dono entregou 3 dos 5 (AgRg AREsp 179340 + REsp 1130545 + ApCiv 0000175).
+CASOS_EXTENSAO = [
+    {"id": "stj-agrg-aresp-179340-sp", "corte": "STJ", "classe": "AgRg no AREsp",
+     "numero": "179340", "tema": ["tdc", "tombamento", "art35_estatuto", "sumula_280"]},
+    {"id": "stj-resp-1130545", "corte": "STJ", "classe": "REsp",
+     "numero": "1130545", "tema": ["iptu", "lancamento", "revisao", "repetitivo_387"]},
+    {"id": "tjsp-apciv-0000175-39-2017", "corte": "TJSP", "classe": "ApCiv",
+     "numero_cnj": "0000175-39.2017.8.26.0053", "tema": ["tombamento", "patrimonio_historico"]},
+    {"id": "tjsp-apciv-0000177-09-2017", "corte": "TJSP", "classe": "ApCiv",
+     "numero_cnj": "0000177-09.2017.8.26.0053", "tema": ["tombamento", "patrimonio_historico"]},
+    {"id": "tjsp-apciv-1070175-76-2019", "corte": "TJSP", "classe": "ApCiv",
+     "numero_cnj": "1070175-76.2019.8.26.0053", "tema": ["tombamento", "direito_publico"]},
+]
+
 FONTES_PROBE = [
     "https://jurisprudencia.stf.jus.br",
     "https://esaj.tjsp.jus.br/cposg/open.do",
@@ -269,14 +285,18 @@ def extrair():
     Fail-closed (1.3): PDF sem texto extraível (>=500 chars) fica PENDENTE com nota de OCR —
     o PDF verbatim permanece em _capturas como fonte, nada é inventado."""
     ok, pend = [], []
-    for caso in CASOS:
+    for caso in CASOS + CASOS_EXTENSAO:
         cid = caso["id"]
         pdf = CAPTURAS / f"{cid}.pdf"
         ocr_txt = CAPTURAS / f"{cid}-ocr.txt"
         html_f = CAPTURAS / f"{cid}-cposg.html"
         if pdf.exists():
-            fonte = (f"https://redir.stf.jus.br/paginadorpub/paginador.jsp?docTP=AC&docID={caso['stf_docid']}"
-                     if caso["corte"] == "STF" else f"e-SAJ TJSP (cposg 2º grau) — PDF em _capturas/{cid}.pdf")
+            if caso["corte"] == "STF":
+                fonte = f"https://redir.stf.jus.br/paginadorpub/paginador.jsp?docTP=AC&docID={caso['stf_docid']}"
+            elif caso["corte"] == "STJ":
+                fonte = f"SCON/STJ (scon.stj.jus.br) — PDF oficial em _capturas/{cid}.pdf (entregue pelo dono via extensão)"
+            else:
+                fonte = f"e-SAJ TJSP — PDF oficial em _capturas/{cid}.pdf"
             texto = _pdf_texto(pdf)
             if texto and len(texto) >= 500:
                 _grava(caso, {"texto": texto, "ementa": "", "fonte": fonte})
