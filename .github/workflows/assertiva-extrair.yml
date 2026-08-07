@@ -14,6 +14,11 @@ on:
         description: "true = autentica e lê alvos, sem consulta paga nem escrita"
         required: false
         default: "false"
+  # push registra o workflow (dispatch por API dá 404 até estar na main) e roda a
+  # VALIDAÇÃO barata (limite 2) — o lote de 100 vai por dispatch depois do registro.
+  push:
+    branches: [claude/urban-potential-instance-l3zed9]
+    paths: [".github/workflows/assertiva-extrair.yml"]
 permissions:
   contents: read
 jobs:
@@ -32,6 +37,6 @@ jobs:
           ASSERTIVA_CLIENT_SECRET: ${{ secrets.ASSERTIVA_CLIENT_SECRET }}
           SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
         run: |
-          ARGS="--limite ${{ github.event.inputs.limite }}"
+          ARGS="--limite ${{ github.event.inputs.limite || '2' }}"
           if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then ARGS="$ARGS --dry-run"; fi
           python3 tools/assertiva/extrair_lote.py $ARGS
