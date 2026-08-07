@@ -26,6 +26,14 @@ on:
         description: "Arquivo de alvos em tools/assertiva/ (lote 2 radial: alvos_lote2_radial.csv)"
         required: false
         default: "alvos_lote1_100.csv"
+      dados_b64:
+        description: "modo=carregar_lote: resultado da Consulta em Lote do painel (CSV gzip+base64 — PII nunca entra no git)"
+        required: false
+        default: ""
+      lote_rotulo:
+        description: "modo=carregar_lote: rótulo do lote p/ auditoria (ex.: lote-plataforma-t50)"
+        required: false
+        default: "lote-plataforma"
   # push registra o workflow (dispatch por API dá 404 até estar na main) e roda a
   # VALIDAÇÃO barata (limite 2) — o lote de 100 vai por dispatch depois do registro.
   push:
@@ -49,7 +57,11 @@ jobs:
           ASSERTIVA_CLIENT_SECRET: ${{ secrets.ASSERTIVA_CLIENT_SECRET }}
           SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
         run: |
-          if [ "${{ github.event.inputs.modo }}" = "uso" ]; then
+          if [ "${{ github.event.inputs.modo }}" = "carregar_lote" ]; then
+            echo "${{ github.event.inputs.dados_b64 }}" | base64 -d | gunzip > /tmp/lote_resultado.csv
+            wc -c /tmp/lote_resultado.csv
+            python3 tools/assertiva/carregar_lote_plataforma.py --csv /tmp/lote_resultado.csv --lote "${{ github.event.inputs.lote_rotulo }}"
+          elif [ "${{ github.event.inputs.modo }}" = "uso" ]; then
             python3 tools/assertiva/relatorio_uso.py
           elif [ "${{ github.event.inputs.modo }}" = "descobrir" ]; then
             python3 tools/assertiva/descobrir_rotas.py
