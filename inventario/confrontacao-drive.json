@@ -1,15 +1,15 @@
 {
   "versao": 2,
-  "data_confrontacao": "2026-08-06",
+  "data_confrontacao": "2026-08-07",
   "metodo": "conta de serviço (read-only), varredura BFS completa da árvore POTENCIAL URBANO",
   "resultado": {
     "total_indice": 1360,
-    "movidos_real": 981,
+    "movidos_real": 783,
     "ainda_na_entrada": 0,
-    "excluidos_fisicos": 379,
+    "excluidos_fisicos": 577,
     "status": "arrumacao_executada",
-    "explicacao": "980 movidos c/ md5 + 1 Google-nativos em pastas-destino; 0 ainda na _entrada; 379 ausentes da árvore (exclusão física D-DONO-2026-07-18)."
+    "explicacao": "782 movidos c/ md5 + 1 Google-nativos em pastas-destino; 0 ainda na _entrada; 577 ausentes da árvore (exclusão física D-DONO-2026-07-18)."
   },
-  "prova": "inventario/gas-log-2026-08-06-confrontacao-sa.txt (gerado pela Action confrontar-arrumacao)",
+  "prova": "inventario/gas-log-2026-08-07-confrontacao-sa.txt (gerado pela Action confrontar-arrumacao)",
   "nota": "Atualizado a cada confrontação real. O gate-arrumacao.py lê a data e reprova se > 30 dias."
 }
