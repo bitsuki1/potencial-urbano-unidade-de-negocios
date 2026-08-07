@@ -15,7 +15,9 @@ IDEMPOTENTE: pula documento cujo lead principal já tem contato fonte='assertiva
 Custo-consciente (1.4): --limite N corta o lote (validação começa com N pequeno).
 
 Env: ASSERTIVA_CLIENT_ID/SECRET, SUPABASE_DB_URL.
-Uso: python3 tools/assertiva/extrair_lote.py [--limite N] [--dry-run]
+Uso: python3 tools/assertiva/extrair_lote.py [--limite N] [--dry-run] [--alvos ARQ.csv]
+(--alvos: outro arquivo de alvos no mesmo schema — ex. alvos_lote2_radial.csv; o rótulo do
+lote no payload/nota vira o nome do arquivo, p/ auditoria por lote.)
 """
 import csv
 import json
@@ -80,6 +82,10 @@ def main(argv):
     debug_estrutura = "--debug-estrutura" in argv
     if "--limite" in argv:
         limite = int(argv[argv.index("--limite") + 1])
+    alvos_path = ALVOS
+    if "--alvos" in argv:
+        alvos_path = Path(__file__).parent / argv[argv.index("--alvos") + 1]
+    lote_rotulo = alvos_path.stem.replace("alvos_", "")
 
     import psycopg  # psycopg3 (instalado no workflow)
     db_url = os.environ.get("SUPABASE_DB_URL")
@@ -87,7 +93,8 @@ def main(argv):
         print("ERRO: SUPABASE_DB_URL ausente.")
         return 2
 
-    alvos = list(csv.DictReader(open(ALVOS)))
+    alvos = list(csv.DictReader(open(alvos_path)))
+    print(f"alvos: {alvos_path.name} (lote={lote_rotulo})")
     if limite:
         alvos = alvos[:limite]
     print(f"lote: {len(alvos)} donos únicos (limite={limite}, dry={dry})")
@@ -188,7 +195,7 @@ def main(argv):
                         "returning id", (s, a.get("proprietario") or None, a.get("fonte_nome") or None))
                     lead_ids.append(cur.fetchone()[0])
                     leads_criados += 1
-                payload = json.dumps({"consulta": "localize/v3", "doc_final": docn[-4:], "resposta": resp},
+                payload = json.dumps({"consulta": "localize/v3", "lote": lote_rotulo, "doc_final": docn[-4:], "resposta": resp},
                                      ensure_ascii=False)[:200000]
                 for lid in lead_ids:
                     for tipo, valor, origem in unicos:
@@ -196,14 +203,14 @@ def main(argv):
                             "insert into public.crm_contato (lead_id, tipo, valor, fonte, payload) "
                             # %s::text: jsonb_build_object aceita 'any' e o psycopg não infere o tipo
                             # do parâmetro (IndeterminateDatatype na estreia do lote-2, 2026-08-07)
-                            "values (%s,%s,%s,'assertiva', jsonb_build_object('origem',%s::text,'lote','lote1-triangulo'))",
-                            (lid, tipo if tipo in ("telefone", "whatsapp", "email") else "telefone", valor, origem))
+                            "values (%s,%s,%s,'assertiva', jsonb_build_object('origem',%s::text,'lote',%s::text))",
+                            (lid, tipo if tipo in ("telefone", "whatsapp", "email") else "telefone", valor, origem, lote_rotulo))
                         contatos_gravados += 1
                     # payload bruto completo uma vez por dono, no primeiro lead
                     if lid == lead_ids[0]:
                         cur.execute(
                             "insert into public.crm_nota (lead_id, texto) values (%s, %s)",
-                            (lid, "Assertiva Localize (lote1-triângulo): payload bruto arquivado no contato; "
+                            (lid, f"Assertiva Localize ({lote_rotulo}): payload bruto arquivado no contato; "
                                   f"{len(unicos)} contato(s) p/ {len(sqls)} imóvel(is) deste dono."))
                         cur.execute(
                             "update public.crm_contato set payload=%s::jsonb where lead_id=%s and fonte='assertiva' "

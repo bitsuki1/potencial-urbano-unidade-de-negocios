@@ -27,12 +27,12 @@
   "fonte": {
     "origem": "web-extensao-resumo",
     "url": "TJSP e-SAJ (consulta processual 2o grau) — https://esaj.tjsp.jus.br/cposg/open.do",
-    "hash": "sha256:3b4430cd4019fc31178f74ba3200497b2f46247100329ad0607f585d3c4c11c9",
+    "hash": "sha256:7b71aaf4ababeddbe0cf9cba9d7e1170b6e88fbeb8f30238063f685e0d97a579",
     "hash_alvo": "jurisprudencia/tjsp-apciv-0000177-09-2017.md",
-    "captura_verbatim": "jurisprudencia/_capturas/tjsp-apciv-0000177-09-2017-ed.txt",
+    "captura_verbatim": "jurisprudencia/_capturas/tjsp-apciv-0000177-09-2017.txt",
     "hash_nota": "hash do .md (transcrição do corpus); hash do PDF cru registrado no próprio md",
-    "url_inteiro_teor": "e-SAJ TJSP — https://esaj.tjsp.jus.br/cjsg/getArquivo.do?cdAcordao=10971053&cdForo=0 (Registro 2017.0000871219); PDF oficial em _capturas/tjsp-apciv-0000177-09-2017-ed.pdf",
-    "metodo_teor": "Embargos de Declaração na ApCiv: PDF oficial entregue pelo dono (extensão/navegador), extração pura 1.2",
+    "url_inteiro_teor": "e-SAJ TJSP — https://esaj.tjsp.jus.br/cjsg/getArquivo.do?cdAcordao=10898038&cdForo=0 (Registro 2017.0000802280, Apelação) + ED em _capturas/tjsp-apciv-0000177-09-2017-ed.pdf; PDF oficial em _capturas/tjsp-apciv-0000177-09-2017.pdf",
+    "metodo_teor": "Apelação (acórdão principal) + ED: PDFs oficiais entregues pelo dono (navegador logado), extração pura 1.2",
     "ocr": false
   },
   "status_pipeline": "indexado",

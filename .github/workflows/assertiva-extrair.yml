@@ -22,6 +22,10 @@ on:
         description: "extrair (padrão) | descobrir (sonda rotas com doc INVÁLIDO — não fatura)"
         required: false
         default: "extrair"
+      alvos:
+        description: "Arquivo de alvos em tools/assertiva/ (lote 2 radial: alvos_lote2_radial.csv)"
+        required: false
+        default: "alvos_lote1_100.csv"
   # push registra o workflow (dispatch por API dá 404 até estar na main) e roda a
   # VALIDAÇÃO barata (limite 2) — o lote de 100 vai por dispatch depois do registro.
   push:
@@ -48,7 +52,7 @@ jobs:
           if [ "${{ github.event.inputs.modo }}" = "descobrir" ]; then
             python3 tools/assertiva/descobrir_rotas.py
           else
-            ARGS="--limite ${{ github.event.inputs.limite || '2' }}"
+            ARGS="--limite ${{ github.event.inputs.limite || '2' }} --alvos ${{ github.event.inputs.alvos || 'alvos_lote1_100.csv' }}"
             if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then ARGS="$ARGS --dry-run"; fi
             if [ "${{ github.event.inputs.debug_estrutura }}" = "true" ]; then ARGS="$ARGS --debug-estrutura"; fi
             python3 tools/assertiva/extrair_lote.py $ARGS
