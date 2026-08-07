@@ -36,7 +36,7 @@
     "metodo_teor": "captura runner brasil (inteiro teor), extração pura 1.2",
     "ocr": true
   },
-  "status_pipeline": "indexado",
+  "status_pipeline": "bruto",
   "confianca_extracao": "media",
   "revisado_por_humano": false,
   "verificacao_verbatim": "PARCIAL OFICIAL (2026-08-07): certidão(ões) de julgamento e proveniência de publicação capturadas VERBATIM do portal oficial (portal.stf.jus.br, acompanhamento processual) — identificação processo/órgão/relator/data/resultado CONFERIDA contra o portal. Inteiro teor (relatório + votos) AINDA NÃO capturado: redir.stf.jus.br exige desafio JS de WAF (x-amzn-waf-action: challenge), insuperável da sessão remota — PRECISA RUNNER-BR. Ementa/tese seguem em resumo próprio. Decisão judicial = domínio público (Lei 9.610/98, art. 8º, IV).",

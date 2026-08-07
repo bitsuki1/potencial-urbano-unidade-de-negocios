@@ -1,31 +1,49 @@
 IP público: 24.152.37.11
 == STF stf-re-226942-sc (docID 592555) ==
-  tentativa 1: request falhou: apiRequestContext.get: unable to verify the first certificate
-  tentativa 2: request falhou: apiRequestContext.get: unable to verify the first certificate
-  goto: page.goto: net::ERR_ABORTED at https://redir.stf.jus.br/paginadorpub/paginador.jsp?docTP=AC&docID=592555
-  tentativa 3: request falhou: apiRequestContext.get: unable to verify the first certificate
-  goto: page.goto: net::ERR_ABORTED at https://redir.stf.jus.br/paginadorpub/paginador.jsp?docTP=AC&docID=592555
-  OK (via download): stf-re-226942-sc.pdf (937747 bytes)
+  tentativa 1: HTTP 202 content-type=text/html; charset=utf-8 (0 bytes, não-PDF) — navegando p/ resolver desafio…
+  OK: stf-re-226942-sc.pdf (937747 bytes)
 == STF stf-re-387047-sc (docID 524433) ==
-  tentativa 1: request falhou: apiRequestContext.get: unable to verify the first certificate
-  goto: page.goto: net::ERR_ABORTED at https://redir.stf.jus.br/paginadorpub/paginador.jsp?docTP=AC&docID=524433
-  tentativa 2: request falhou: apiRequestContext.get: unable to verify the first certificate
-  goto: page.goto: net::ERR_ABORTED at https://redir.stf.jus.br/paginadorpub/paginador.jsp?docTP=AC&docID=524433
-  tentativa 3: request falhou: apiRequestContext.get: unable to verify the first certificate
-  goto: page.goto: net::ERR_ABORTED at https://redir.stf.jus.br/paginadorpub/paginador.jsp?docTP=AC&docID=524433
-  OK (via download): stf-re-387047-sc.pdf (1041148 bytes)
+  OK: stf-re-387047-sc.pdf (1041148 bytes)
 == TJSP tjsp-ai-2126162-35-2025 (2126162-35.2025.8.26.0000) ==
-  página do processo salva (55981 chars): tjsp-ai-2126162-35-2025-cposg.html
-  3 link(s) de documento na página.
-  PEND: sem PDF direto — o HTML salvo diagnostica o caminho (senha do processo? pasta digital?).
+  CJSG: 0 cdAcordao candidato(s).
+  listagem: 3 código(s); abrindo show.do?processo.codigo=RI008R5FG0000
+  página do processo salva (177513 chars): tjsp-ai-2126162-35-2025-cposg.html
+  cddocumento na página: cddocumento="99" cddocumento="98" cddocumento="95" cddocumento="94" cddocumento="92" cddocumento="90" cddocumento="86" cddocumento="85"
+  68 link(s)/onclick(s) de documento na página.
+  doc1: não-PDF (171626 bytes) salvo p/ diagnóstico — ""
+  doc2: não-PDF (171626 bytes) salvo p/ diagnóstico — "Processo encaminhado para o Arquivo (Expedido Cert"
+  doc3: não-PDF (171626 bytes) salvo p/ diagnóstico — ""
+  doc4: não-PDF (171626 bytes) salvo p/ diagnóstico — "Expedido Certidão"
+  doc5: não-PDF (171626 bytes) salvo p/ diagnóstico — ""
+  doc6: não-PDF (171626 bytes) salvo p/ diagnóstico — "Expedido Certidão"
+  PEND: sem PDF direto — diagnósticos salvos (viewer/pasta digital).
 == TJSP tjsp-ai-2257458-20-2024 (2257458-20.2024.8.26.0000) ==
-  página do processo salva (55037 chars): tjsp-ai-2257458-20-2024-cposg.html
-  3 link(s) de documento na página.
-  PEND: sem PDF direto — o HTML salvo diagnostica o caminho (senha do processo? pasta digital?).
+  CJSG: 0 cdAcordao candidato(s).
+  listagem: 2 código(s); abrindo show.do?processo.codigo=RI008ALQP0000
+  página do processo salva (109421 chars): tjsp-ai-2257458-20-2024-cposg.html
+  cddocumento na página: cddocumento="54" cddocumento="52" cddocumento="50" cddocumento="44" cddocumento="41" cddocumento="35" cddocumento="31" cddocumento="30"
+  28 link(s)/onclick(s) de documento na página.
+  doc1: não-PDF (95866 bytes) salvo p/ diagnóstico — ""
+  doc2: não-PDF (95866 bytes) salvo p/ diagnóstico — "Processo encaminhado para o STJ (Expedido Certidão"
+  doc3: não-PDF (95866 bytes) salvo p/ diagnóstico — ""
+  doc4: não-PDF (95866 bytes) salvo p/ diagnóstico — "Expedido Certidão"
+  doc5: não-PDF (95866 bytes) salvo p/ diagnóstico — ""
+  doc6: não-PDF (95866 bytes) salvo p/ diagnóstico — "Processo encaminhado para o STJ (Expedido Certidão"
+  PEND: sem PDF direto — diagnósticos salvos (viewer/pasta digital).
 == TJSP tjsp-ai-2324382-13-2024 (2324382-13.2024.8.26.0000) ==
-  página do processo salva (55041 chars): tjsp-ai-2324382-13-2024-cposg.html
-  3 link(s) de documento na página.
-  PEND: sem PDF direto — o HTML salvo diagnostica o caminho (senha do processo? pasta digital?).
+  CJSG: 0 cdAcordao candidato(s).
+  listagem: 2 código(s); abrindo show.do?processo.codigo=RI008EQHX0000
+  página do processo salva (116037 chars): tjsp-ai-2324382-13-2024-cposg.html
+  cddocumento na página: cddocumento="63" cddocumento="60" cddocumento="58" cddocumento="56" cddocumento="47" cddocumento="44" cddocumento="38" cddocumento="35"
+  32 link(s)/onclick(s) de documento na página.
+  doc1: não-PDF (102645 bytes) salvo p/ diagnóstico — ""
+  doc2: não-PDF (102645 bytes) salvo p/ diagnóstico — "Processo encaminhado para o Arquivo (Expedido Cert"
+  doc3: não-PDF (102645 bytes) salvo p/ diagnóstico — ""
+  doc4: não-PDF (102645 bytes) salvo p/ diagnóstico — "Processo encaminhado para o STJ (Expedido Certidão"
+  doc5: não-PDF (102645 bytes) salvo p/ diagnóstico — ""
+  doc6: não-PDF (102645 bytes) salvo p/ diagnóstico — "Processo encaminhado para o Arquivo (Expedido Cert"
+  PEND: sem PDF direto — diagnósticos salvos (viewer/pasta digital).
 == BUSCA de ampliação (#21) — TDC nas bases oficiais ==
-  PEND STF-busca: apiRequestContext.get: unable to verify the first certificate
-  OK: busca-stj-tdc.html (15937 chars)
+  STF-busca: DOM da página de resultados salvo (181006 chars).
+  PEND STF-busca-api: HTTP 400 (não-JSON; o DOM salvo acima cobre a curadoria).
+  PEND STJ-busca: desafio não resolveu em 45s (15937 chars salvos p/ diagnóstico).
