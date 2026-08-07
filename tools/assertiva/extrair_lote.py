@@ -103,7 +103,7 @@ def main(argv):
     cli.token()
     print("auth: OK")
 
-    consultados = pulados = leads_criados = contatos_gravados = falhas = 0
+    consultados = pulados = leads_criados = contatos_gravados = falhas = nao_encontrados = 0
     # pooler do Supabase intermitente ('tenant not found' esporádico): retenta MUITO, com
     # backoff e alternando a porta de sessão (5432) com a de transação (6543) do Supavisor.
     con = None
@@ -160,6 +160,28 @@ def main(argv):
             http_status = None
             if isinstance(resp, tuple):
                 resp, http_status = (resp + (None,))[:2]
+            if http_status == 404:
+                # doc NÃO ENCONTRADO na base do bureau (comum: CNPJ da safra IPTU 2016/2020 já
+                # extinto/alterado). É RESULTADO, não falha de infra — registra nota p/ a
+                # idempotência NUNCA re-consultar (re-pagar) o mesmo doc (tranche-1 lote-2:
+                # 141/200 eram 404 e ficariam em loop de re-cobrança).
+                nao_encontrados += 1
+                if con:
+                    with con.cursor() as cur:
+                        for s in sqls:
+                            cur.execute(
+                                "insert into public.crm_lead (sql_mestre, estagio, proprietario_nome, fonte_nome) "
+                                "values (%s,'novo',%s,%s) on conflict (sql_mestre) do nothing",
+                                (s, a.get("proprietario") or None, a.get("fonte_nome") or None))
+                        cur.execute(
+                            "insert into public.crm_nota (lead_id, texto) "
+                            "select id, 'Assertiva Localize (' || %s || '): documento NÃO ENCONTRADO "
+                            "na base do bureau (HTTP 404) — não re-consultar' "
+                            "from public.crm_lead where sql_mestre=%s limit 1",
+                            (lote_rotulo, sqls[0]))
+                    con.commit()
+                time.sleep(0.4)
+                continue
             if http_status is not None and http_status != 200:
                 erro_txt = ""
                 if isinstance(resp, dict):
@@ -224,7 +246,7 @@ def main(argv):
             con.close()
     print("=== FIM ===")
     print(f"consultados={consultados} pulados(idempotência)={pulados} leads={leads_criados} "
-          f"contatos={contatos_gravados} falhas={falhas}")
+          f"contatos={contatos_gravados} nao_encontrados_404={nao_encontrados} falhas={falhas}")
     return 0 if falhas < max(1, consultados) else 1
 
 
