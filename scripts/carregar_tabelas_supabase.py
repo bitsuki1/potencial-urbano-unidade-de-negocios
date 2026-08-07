@@ -252,6 +252,18 @@ def main(argv):
     with _conectar(url) as conn:
         with conn.cursor() as cur:
             for fonte, alvo, hdr, types, rows in alvos:
+                # Evolução de schema sem drop (as views do preço dependem das tabelas motor4):
+                # coluna nova no CSV vira ADD COLUMN text — motor3/4 são text-only por desenho.
+                sch, tab = alvo.split(".", 1)
+                cur.execute(
+                    "select column_name from information_schema.columns "
+                    "where table_schema=%s and table_name=%s", (sch, tab))
+                existentes = {r[0] for r in cur.fetchall()}
+                if existentes:
+                    for c, t in zip(hdr, types):
+                        if c not in existentes:
+                            cur.execute(f'alter table {alvo} add column "{c}" {t};')
+                            print(f"  + coluna nova em {alvo}: {c} ({t})")
                 cur.execute(f"truncate table {alvo} restart identity;")
                 collist = ", ".join(f'"{c}"' for c in hdr)
                 placeholders = ", ".join(["%s"] * len(hdr))
