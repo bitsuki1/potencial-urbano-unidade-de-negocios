@@ -38,20 +38,29 @@ def _tem(r, k):
 def calcular(rows):
     total = len(rows)
     tem_preco = lambda r: _pos(r, "saldo_pcpt_m2") and _pos(r, "v_outorga_m2_q14")
-    completude = [
-        ("Base de cedentes (tombados ZEPEC carregados)", total,
+    # Funil = INTERSEÇÃO acumulada (cada etapa dentro da anterior). Antes cada etapa contava o
+    # atributo solto e o encaixe era coincidência; a geocodificação (2026-08-07) deu zona a
+    # tombados SEM cadastro de IPTU (4.019 zonas > 3.905 IPTU) e quebrou o pressuposto — o
+    # decrescente honesto é o cumulativo. A nota de cada etapa segue descrevendo o atributo.
+    etapas_pred = [
+        ("Base de cedentes (tombados ZEPEC carregados)", lambda r: True,
          "todo o universo de imóveis tombados na base"),
-        ("Com cadastro no IPTU (SQL → área de terreno)", sum(_tem(r, "area_terreno_m2") for r in rows),
+        ("Com cadastro no IPTU (SQL → área de terreno)", lambda r: _tem(r, "area_terreno_m2"),
          "casou o SQL no lançamento oficial IPTU 2026 (área, valor de terreno)"),
-        ("Com zona e CA básico (GeoSampa + Quadro 3)", sum(_pos(r, "ca_basico") for r in rows),
+        ("Com zona e CA básico (GeoSampa + Quadro 3)", lambda r: _pos(r, "ca_basico"),
          "zona-base resolvida → coeficiente de aproveitamento básico"),
-        ("Com potencial calculado (PCpt, Art. 125)", sum(_pos(r, "pcpt_m2") for r in rows),
+        ("Com potencial calculado (PCpt, Art. 125)", lambda r: _pos(r, "pcpt_m2"),
          "PCpt = Atc × CAbás × Fi (× FSCE) pelo engine"),
-        ("Com saldo vendável (> 0)", sum(_pos(r, "saldo_pcpt_m2") for r in rows),
+        ("Com saldo vendável (> 0)", lambda r: _pos(r, "saldo_pcpt_m2"),
          "potencial que ainda resta transferir (descontado o já vendido)"),
-        ("Com preço legal de referência (Art. 128)", sum(tem_preco(r) for r in rows),
+        ("Com preço legal de referência (Art. 128)", tem_preco,
          "saldo + valor de terreno (Quadro 14) → referência legal pelo engine art128"),
     ]
+    completude = []
+    vivos = list(rows)
+    for nome, pred, nota in etapas_pred:
+        vivos = [r for r in vivos if pred(r)]
+        completude.append((nome, len(vivos), nota))
     negociaveis = sum((r.get("negociavel") or "").strip() == "sim" for r in rows)
     acionaveis = sum(((r.get("negociavel") or "").strip() == "sim" and tem_preco(r)) for r in rows)
     com_dono = sum(_tem(r, "proprietario") for r in rows)

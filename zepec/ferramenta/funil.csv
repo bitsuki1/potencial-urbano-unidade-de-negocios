@@ -1,10 +1,10 @@
 bloco,estagio,quantidade,do_total_pct,nota
 completude,Base de cedentes (tombados ZEPEC carregados),4360,100%,todo o universo de imóveis tombados na base
 completude,Com cadastro no IPTU (SQL → área de terreno),3905,90%,"casou o SQL no lançamento oficial IPTU 2026 (área, valor de terreno)"
-completude,Com zona e CA básico (GeoSampa + Quadro 3),3693,85%,zona-base resolvida → coeficiente de aproveitamento básico
-completude,"Com potencial calculado (PCpt, Art. 125)",3583,82%,PCpt = Atc × CAbás × Fi (× FSCE) pelo engine
-completude,Com saldo vendável (> 0),3525,81%,potencial que ainda resta transferir (descontado o já vendido)
-completude,Com preço legal de referência (Art. 128),3525,81%,saldo + valor de terreno (Quadro 14) → referência legal pelo engine art128
-corte_acao,Negociáveis (prova escrita de negociabilidade),2750,63%,declarou e/ou já vendeu — pode ser abordado
-corte_acao,Acionáveis agora (negociável + preço legal),2129,49%,tem preço de referência E é negociável — a fila de abordagem
+completude,Com zona e CA básico (GeoSampa + Quadro 3),3757,86%,zona-base resolvida → coeficiente de aproveitamento básico
+completude,"Com potencial calculado (PCpt, Art. 125)",3744,86%,PCpt = Atc × CAbás × Fi (× FSCE) pelo engine
+completude,Com saldo vendável (> 0),3676,84%,potencial que ainda resta transferir (descontado o já vendido)
+completude,Com preço legal de referência (Art. 128),3676,84%,saldo + valor de terreno (Quadro 14) → referência legal pelo engine art128
+corte_acao,Negociáveis (prova escrita de negociabilidade),2740,63%,declarou e/ou já vendeu — pode ser abordado
+corte_acao,Acionáveis agora (negociável + preço legal),2410,55%,tem preço de referência E é negociável — a fila de abordagem
 corte_acao,Com proprietário identificado,0,0%,dono na base hoje (sobe em escala com a Fase B — sócios/empresas)
