@@ -96,6 +96,20 @@ def _tenta_base_b(saldo, vtcd_vig, esquina, r):
         return None                       # mês-ref fora da série IPCA (pré-2014) etc. → base A
 
 
+def _faixa_faces(r, saldo):
+    """Colunas MENOR e MAIOR (decisão do dono 2026-08-07): as duas pontas das faces do SQ,
+    lado a lado — nada escolhido às escondidas. MAIOR cita Dec. 57.536/2016 Art. 3º IV."""
+    vmin = _dec(r.get("v_outorga_min_q14"))
+    vmax = _dec(r.get("v_outorga_max_q14"))
+    if not (vmin and vmax and vmax > vmin):
+        return []
+    ref_min = art128.referencia_art128(str(saldo), str(vmin), via="125", esquina=False)
+    ref_max = art128.referencia_art128(str(saldo), str(vmax), via="125", esquina=True)
+    return [f"- **Faixa pelas faces da quadra — MENOR ↔ MAIOR:** VTcd {_brl(vmin)}/m² ↔ {_brl(vmax)}/m² "
+            f"→ referência **{_brl(ref_min['referencia_brl'])} ↔ {_brl(ref_max['referencia_brl'])}** "
+            f"*(o MAIOR vale quando o lote tem frente p/ distintas faces — Dec. 57.536/2016 Art. 3º IV)*"]
+
+
 def _preco_bloco(r):
     """Bloco 4 — Preço legal (Art. 128) via engine. Devolve (markdown, ref) ou (nota, None).
     Já-declarado com Declaração E Certidão protocoladas ⇒ §2º cristalizado: MAX(A piso vigente ;
@@ -131,6 +145,7 @@ def _preco_bloco(r):
         md.append(f"- Componentes: saldo **{_m2(saldo)}** × VTcd (por base, acima)"
                   + (" *(esquina: maior valor da quadra, Dec. 57.536/2016 Art. 3º IV)*" if esquina else "")
                   + " ÷ CAmaxcd **4**")
+        md.extend(_faixa_faces(r, saldo))
         md.append(f"- _Citação:_ {mx['citacao']['dispositivo']}. **A margem é sua** — isto é o piso "
                   f"regulatório, não o preço de venda (D-DONO-7).")
         return ("\n".join(md) + "\n", ref)
@@ -149,6 +164,7 @@ def _preco_bloco(r):
                   "**da data da Declaração + IPCA até o protocolo da Certidão**. O VTcd histórico já é "
                   "reconstruível (motor `vtcd_na_data`); falta a **data do protocolo da Certidão** nesta base "
                   "— enquanto não houver Certidão protocolada, vale o Quadro 14 vigente (2026) acima.")
+    md.extend(_faixa_faces(r, saldo))
     md.append(f"- _Citação:_ Art. 128 (PDE), caput e §1º. **A margem é sua** — isto é o piso regulatório, "
               f"não o preço de venda (D-DONO-7).")
     return ("\n".join(md) + "\n", ref)
