@@ -27,6 +27,9 @@ RAIZ = Path(__file__).resolve().parent.parent
 CHUNKS_DIR = RAIZ / "rag" / "chunks"
 INDEX_DIR = RAIZ / "rag" / "index"
 
+# Peso do campo de metadados (tema/ementa) no tf/doclen de cada chunk — ver comentário no laço.
+PESO_META = 0.25
+
 
 def carregar_chunks():
     chunks = []
@@ -68,17 +71,23 @@ def main():
             # B-11d: dispositivo citável (preâmbulo/boilerplate = não-citável) p/ o filtro pré-busca.
             "citavel": c.get("citavel", True),
         }
-        # indexa texto + rótulo APENAS. tema/ementa são da LEI, não do dispositivo: injetá-los
-        # no campo de cada chunk dava tf>=1 dos termos temáticos (ex.: 'remissao_IPTU') a TODOS
-        # os dispositivos da lei, achatando o ranking interno — um artigo de demolição vencia o
-        # artigo dos incentivos de IPTU (eval tdc-17577-incentivos-iptu-art16). tema segue
-        # filtrável em metadados.json (2.6); gate: suíte 35/35 com esta forma, 34/35 com a antiga.
-        campo = " ".join([c.get("texto", ""), c.get("rotulo", "")])
-        tokens = tokenizar(campo)
-        doclen[cid] = len(tokens)
+        # Campo em DOIS pesos (BM25F degenerado): texto+rótulo a peso 1; tema/ementa a peso
+        # PESO_META. tema/ementa são metadados da LEI repetidos em todo chunk — a peso cheio
+        # davam tf=1 dos termos temáticos (ex.: 'remissao_IPTU') a TODOS os dispositivos,
+        # achatando o ranking interno (um artigo de demolição vencia o artigo dos incentivos
+        # de IPTU — eval tdc-17577-incentivos-iptu-art16); removê-los de vez derrubava o
+        # recall entre leis que o híbrido usa (eval-semantico regredia 2). O peso fracionário
+        # mantém os dois: gates 35/35 (rodar-evals) e 0 regressões +3 ganhos (eval-semantico).
+        toks_texto = tokenizar(" ".join([c.get("texto", ""), c.get("rotulo", "")]))
+        toks_meta = tokenizar(" ".join([
+            " ".join(c.get("tema", []) or []), c.get("ementa", "") or "",
+        ]))
+        doclen[cid] = len(toks_texto) + PESO_META * len(toks_meta)
         tf = {}
-        for tok in tokens:
-            tf[tok] = tf.get(tok, 0) + 1
+        for tok in toks_texto:
+            tf[tok] = tf.get(tok, 0) + 1.0
+        for tok in toks_meta:
+            tf[tok] = tf.get(tok, 0) + PESO_META
         for tok, n in tf.items():
             invertido.setdefault(tok, {})[cid] = n
             df[tok] = df.get(tok, 0) + 1
