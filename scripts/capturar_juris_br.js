@@ -76,8 +76,10 @@ async function stfInteiroTeor(page) {
 // CJSG (consulta pública de julgados do TJSP): busca pelo nº CNJ; o resultado linka o
 // acórdão PDF direto (getArquivo.do?cdAcordao=...). É a via mais curta p/ o inteiro teor.
 async function tjspCjsg(page, c) {
-  const url = 'https://esaj.tjsp.jus.br/cjsg/resultadoCompleta.do?conversationId=&dados.buscaInteiroTeor=' +
-    encodeURIComponent(`"${c.cnj}"`) + '&dados.origensSelecionadas=T&tipoDecisaoSelecionados=A';
+  // rodada 2: buscaInteiroTeor pelo nº deu 0 hits — o índice do teor não guarda o número
+  // formatado. O campo certo é o "Número do processo" (dados.nuProcOrigem).
+  const url = 'https://esaj.tjsp.jus.br/cjsg/resultadoCompleta.do?conversationId=&dados.nuProcOrigem=' +
+    encodeURIComponent(c.cnj) + '&dados.origensSelecionadas=T';
   await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 90000 });
   await page.waitForTimeout(4000);
   fs.writeFileSync(path.join(OUT, `${c.id}-cjsg.html`), await page.content());
@@ -120,18 +122,31 @@ async function tjspCposg(page) {
     try {
       await page.goto(busca, { waitUntil: 'domcontentloaded', timeout: 90000 });
       await page.waitForTimeout(3000);
-      // rodada 1 caiu na página "Selecione o processo" (o AI tem incidentes) — clica no principal
-      if ((await page.content()).includes('Selecione o processo')) {
-        const alvo = await page.$('a[href*="show.do"], a.linkProcesso, #processoSelecionado');
-        if (alvo) { await alvo.click(); await page.waitForTimeout(4000); log('  listagem: cliquei no processo principal.'); }
+      // rodadas 1-2 caíram na página "Selecione o processo" (o AI tem incidentes) e o clique
+      // em <a> pegava item de MENU. O código do processo está no value do radio
+      // processoSelecionado (1º = principal) — vai DIRETO ao show.do com ele.
+      const codigos = await page.$$eval('input[name="processoSelecionado"]', is => is.map(i => i.value));
+      if (codigos.length) {
+        log(`  listagem: ${codigos.length} código(s); abrindo show.do?processo.codigo=${codigos[0]}`);
+        await page.goto(`https://esaj.tjsp.jus.br/cposg/show.do?processo.codigo=${codigos[0]}`,
+          { waitUntil: 'domcontentloaded', timeout: 90000 });
+        await page.waitForTimeout(4000);
       }
       const html = await page.content();
       fs.writeFileSync(path.join(OUT, `${c.id}-cposg.html`), html);
       log(`  página do processo salva (${html.length} chars): ${c.id}-cposg.html`);
-      // candidatos a documento: href E onclick (o cposg abre docs por javascript)
+      // candidatos a documento: href/onclick/atributos de movimentação (o cposg abre docs por
+      // javascript). Exclui os itens de MENU "abrirConferenciaDocumento" (pegadinha da rodada 2).
       const links = await page.$$eval('a', as => as
-        .map(a => ({ href: a.href || '', onclick: a.getAttribute('onclick') || '', texto: (a.textContent || '').trim() }))
-        .filter(l => /getArquivo|abrirDocumentoVinculado|pastadigital|exibirDocumento/i.test(l.href + ' ' + l.onclick)));
+        .map(a => ({ href: a.href || '', onclick: a.getAttribute('onclick') || '',
+                     cdd: a.getAttribute('cddocumento') || '', nome: a.getAttribute('name') || '',
+                     classe: a.className || '', texto: (a.textContent || '').trim() }))
+        .filter(l => !/abrirConferenciaDocumento/i.test(l.href) &&
+          (/getArquivo|abrirDocumentoVinculado|exibirDocumento|liberarAutoPorSenha/i.test(l.href + ' ' + l.onclick)
+           || /linkMovVincProc|linkConsultaSG/i.test(l.classe) || l.cdd)));
+      // trilha p/ diagnóstico: todo atributo cddocumento presente na página
+      const cdds = (await page.content()).match(/cddocumento="[^"]+"/gi) || [];
+      if (cdds.length) log(`  cddocumento na página: ${Array.from(new Set(cdds)).slice(0, 8).join(' ')}`);
       log(`  ${links.length} link(s)/onclick(s) de documento na página.`);
       let salvo = false;
       let i = 0;
@@ -165,26 +180,42 @@ async function buscarAmpliacao(page) {
   log('== BUSCA de ampliação (#21) — TDC nas bases oficiais ==');
   const qs = 'transferência do direito de construir';
   try {
-    // resolve o desafio do domínio da pesquisa do STF, depois chama a API com os cookies
-    try { await page.goto('https://jurisprudencia.stf.jus.br/pages/search', { waitUntil: 'domcontentloaded', timeout: 90000 }); } catch (_) {}
-    await page.waitForTimeout(9000);
-    const api = 'https://jurisprudencia.stf.jus.br/api/search/search?base=acordaos&sinonimo=true&plural=true&page=1&pageSize=30&queryString=' + encodeURIComponent(`"${qs}"`);
-    const r = await page.request.get(api, { timeout: 60000 });
+    // resolve o desafio do domínio da pesquisa do STF, depois chama a API com os cookies.
+    // rodada 2 deu HTTP 405: a API é POST (corpo JSON), não GET.
+    try { await page.goto('https://jurisprudencia.stf.jus.br/pages/search?base=acordaos&pesquisa_inteiro_teor=false&sinonimo=true&plural=true&page=1&pageSize=30&queryString=' + encodeURIComponent(`"${qs}"`), { waitUntil: 'domcontentloaded', timeout: 90000 }); } catch (_) {}
+    await page.waitForTimeout(12000);
+    // a própria página de resultados renderiza os acórdãos — salva o DOM (verbatim p/ curadoria)
+    const dom = await page.content();
+    fs.writeFileSync(path.join(OUT, 'busca-stf-tdc.html'), dom);
+    log(`  STF-busca: DOM da página de resultados salvo (${dom.length} chars).`);
+    const r = await page.request.post('https://jurisprudencia.stf.jus.br/api/search/search', {
+      timeout: 60000,
+      data: { classeNumeroIncidente: '', base: 'acordaos', sinonimo: true, plural: true,
+              page: 1, pageSize: 30, queryString: `"${qs}"`, highlight: false },
+    });
     const txt = await r.text();
     if (r.status() === 200 && txt.trim().startsWith('{')) {
       fs.writeFileSync(path.join(OUT, 'busca-stf-tdc.json'), txt);
       log(`  OK: busca-stf-tdc.json (${txt.length} chars)`);
     } else {
-      log(`  PEND STF-busca: HTTP ${r.status()} (payload não-JSON, provável desafio).`);
+      log(`  PEND STF-busca-api: HTTP ${r.status()} (não-JSON; o DOM salvo acima cobre a curadoria).`);
     }
   } catch (e) { log(`  PEND STF-busca: ${String(e.message).split('\n')[0]}`); }
   try {
     const scon = 'https://scon.stj.jus.br/SCON/pesquisar.jsp?newsession=yes&tipo_visualizacao=RESUMO&b=ACOR&livre=' + encodeURIComponent(`"${qs}"`);
     await page.goto(scon, { waitUntil: 'domcontentloaded', timeout: 90000 });
-    await page.waitForTimeout(4000);
-    const html = await page.content();
+    // rodada 2 salvou a página de DESAFIO ("Just a moment...") — espera o desafio JS resolver
+    // e a página real chegar (o desafio redireciona sozinho; até ~45s)
+    let html = '';
+    for (let i = 0; i < 9; i++) {
+      await page.waitForTimeout(5000);
+      html = await page.content();
+      if (!/Just a moment|Verificação automática|challenge/i.test(html)) break;
+    }
     fs.writeFileSync(path.join(OUT, 'busca-stj-tdc.html'), html);
-    log(`  OK: busca-stj-tdc.html (${html.length} chars)`);
+    const desafio = /Just a moment|Verificação automática/i.test(html);
+    log(desafio ? `  PEND STJ-busca: desafio não resolveu em 45s (${html.length} chars salvos p/ diagnóstico).`
+                : `  OK: busca-stj-tdc.html (${html.length} chars)`);
   } catch (e) { log(`  PEND STJ-busca: ${String(e.message).split('\n')[0]}`); }
 }
 
