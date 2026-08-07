@@ -18,6 +18,10 @@ on:
         description: "true = commita a ESTRUTURA (chaves/tipos, sem valores) da 1ª resposta"
         required: false
         default: "false"
+      modo:
+        description: "extrair (padrão) | descobrir (sonda rotas com doc INVÁLIDO — não fatura)"
+        required: false
+        default: "extrair"
   # push registra o workflow (dispatch por API dá 404 até estar na main) e roda a
   # VALIDAÇÃO barata (limite 2) — o lote de 100 vai por dispatch depois do registro.
   push:
@@ -41,16 +45,20 @@ jobs:
           ASSERTIVA_CLIENT_SECRET: ${{ secrets.ASSERTIVA_CLIENT_SECRET }}
           SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
         run: |
-          ARGS="--limite ${{ github.event.inputs.limite || '2' }}"
-          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then ARGS="$ARGS --dry-run"; fi
-          if [ "${{ github.event.inputs.debug_estrutura }}" = "true" ]; then ARGS="$ARGS --debug-estrutura"; fi
-          python3 tools/assertiva/extrair_lote.py $ARGS
+          if [ "${{ github.event.inputs.modo }}" = "descobrir" ]; then
+            python3 tools/assertiva/descobrir_rotas.py
+          else
+            ARGS="--limite ${{ github.event.inputs.limite || '2' }}"
+            if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then ARGS="$ARGS --dry-run"; fi
+            if [ "${{ github.event.inputs.debug_estrutura }}" = "true" ]; then ARGS="$ARGS --debug-estrutura"; fi
+            python3 tools/assertiva/extrair_lote.py $ARGS
+          fi
       - name: Commitar estrutura de debug (chaves/tipos, sem valores — sem PII)
         if: always()
         run: |
-          if [ -s tools/assertiva/debug_estrutura.json ]; then
+          if ls tools/assertiva/debug_estrutura.json tools/assertiva/rotas_descobertas.json tools/assertiva/openapi_conta.json 2>/dev/null | grep -q .; then
             git config user.name "assertiva-bot"; git config user.email "bot@users.noreply.github.com"
-            git add tools/assertiva/debug_estrutura.json
-            git commit -m "assertiva: estrutura da resposta Localize (chaves/tipos, sem PII) [skip ci]" || true
+            git add tools/assertiva/debug_estrutura.json tools/assertiva/rotas_descobertas.json tools/assertiva/openapi_conta.json 2>/dev/null || true
+            git commit -m "assertiva: diagnóstico (estrutura/rotas — sem PII) [skip ci]" || true
             for i in 1 2 3; do git push origin "HEAD:${GITHUB_REF_NAME}" && break || { git pull --rebase origin "${GITHUB_REF_NAME}" || true; sleep 2; }; done
           fi
