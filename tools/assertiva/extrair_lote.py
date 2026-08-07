@@ -185,7 +185,9 @@ def main(argv):
                     for tipo, valor, origem in unicos:
                         cur.execute(
                             "insert into public.crm_contato (lead_id, tipo, valor, fonte, payload) "
-                            "values (%s,%s,%s,'assertiva', jsonb_build_object('origem',%s,'lote','lote1-triangulo'))",
+                            # %s::text: jsonb_build_object aceita 'any' e o psycopg não infere o tipo
+                            # do parâmetro (IndeterminateDatatype na estreia do lote-2, 2026-08-07)
+                            "values (%s,%s,%s,'assertiva', jsonb_build_object('origem',%s::text,'lote','lote1-triangulo'))",
                             (lid, tipo if tipo in ("telefone", "whatsapp", "email") else "telefone", valor, origem))
                         contatos_gravados += 1
                     # payload bruto completo uma vez por dono, no primeiro lead
