@@ -52,9 +52,23 @@ def achar_contatos(obj, saida=None, trilha=""):
     return saida
 
 
+def esqueleto(obj, prof=0):
+    """Estrutura SEM VALORES (chaves, tipos, tamanhos) — segura p/ commitar no git."""
+    if prof > 8:
+        return "..."
+    if isinstance(obj, dict):
+        return {k: esqueleto(v, prof + 1) for k, v in obj.items()}
+    if isinstance(obj, list):
+        return [esqueleto(obj[0], prof + 1)] + ([f"(+{len(obj)-1} itens)"] if len(obj) > 1 else []) if obj else []
+    if isinstance(obj, str):
+        return f"str({len(obj)})"
+    return type(obj).__name__
+
+
 def main(argv):
     limite = None
     dry = "--dry-run" in argv
+    debug_estrutura = "--debug-estrutura" in argv
     if "--limite" in argv:
         limite = int(argv[argv.index("--limite") + 1])
 
@@ -124,6 +138,10 @@ def main(argv):
                 time.sleep(1.0)
                 continue
             consultados += 1
+            if debug_estrutura and consultados == 1:
+                Path(__file__).parent.joinpath("debug_estrutura.json").write_text(
+                    json.dumps(esqueleto(resp), ensure_ascii=False, indent=1), encoding="utf-8")
+                print("  debug_estrutura.json gravado (chaves/tipos, sem valores)")
             contatos = achar_contatos(resp)
             # dedupe por (tipo, valor-normalizado)
             vistos, unicos = set(), []

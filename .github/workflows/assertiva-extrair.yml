@@ -14,13 +14,17 @@ on:
         description: "true = autentica e lê alvos, sem consulta paga nem escrita"
         required: false
         default: "false"
+      debug_estrutura:
+        description: "true = commita a ESTRUTURA (chaves/tipos, sem valores) da 1ª resposta"
+        required: false
+        default: "false"
   # push registra o workflow (dispatch por API dá 404 até estar na main) e roda a
   # VALIDAÇÃO barata (limite 2) — o lote de 100 vai por dispatch depois do registro.
   push:
     branches: [claude/urban-potential-instance-l3zed9]
     paths: [".github/workflows/assertiva-extrair.yml"]
 permissions:
-  contents: read
+  contents: write
 jobs:
   extrair:
     runs-on: ubuntu-latest
@@ -39,4 +43,14 @@ jobs:
         run: |
           ARGS="--limite ${{ github.event.inputs.limite || '2' }}"
           if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then ARGS="$ARGS --dry-run"; fi
+          if [ "${{ github.event.inputs.debug_estrutura }}" = "true" ]; then ARGS="$ARGS --debug-estrutura"; fi
           python3 tools/assertiva/extrair_lote.py $ARGS
+      - name: Commitar estrutura de debug (chaves/tipos, sem valores — sem PII)
+        if: always()
+        run: |
+          if [ -s tools/assertiva/debug_estrutura.json ]; then
+            git config user.name "assertiva-bot"; git config user.email "bot@users.noreply.github.com"
+            git add tools/assertiva/debug_estrutura.json
+            git commit -m "assertiva: estrutura da resposta Localize (chaves/tipos, sem PII) [skip ci]" || true
+            for i in 1 2 3; do git push origin "HEAD:${GITHUB_REF_NAME}" && break || { git pull --rebase origin "${GITHUB_REF_NAME}" || true; sleep 2; }; done
+          fi
