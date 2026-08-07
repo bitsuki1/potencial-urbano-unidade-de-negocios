@@ -68,11 +68,12 @@ def main():
             # B-11d: dispositivo citável (preâmbulo/boilerplate = não-citável) p/ o filtro pré-busca.
             "citavel": c.get("citavel", True),
         }
-        # indexa texto + rótulo + temas (o nº do artigo e os temas devem ser buscáveis)
-        campo = " ".join([
-            c.get("texto", ""), c.get("rotulo", ""),
-            " ".join(c.get("tema", []) or []), c.get("ementa", "") or "",
-        ])
+        # indexa texto + rótulo APENAS. tema/ementa são da LEI, não do dispositivo: injetá-los
+        # no campo de cada chunk dava tf>=1 dos termos temáticos (ex.: 'remissao_IPTU') a TODOS
+        # os dispositivos da lei, achatando o ranking interno — um artigo de demolição vencia o
+        # artigo dos incentivos de IPTU (eval tdc-17577-incentivos-iptu-art16). tema segue
+        # filtrável em metadados.json (2.6); gate: suíte 35/35 com esta forma, 34/35 com a antiga.
+        campo = " ".join([c.get("texto", ""), c.get("rotulo", "")])
         tokens = tokenizar(campo)
         doclen[cid] = len(tokens)
         tf = {}
