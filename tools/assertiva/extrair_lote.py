@@ -124,9 +124,12 @@ def main(argv):
                 continue
             if con:
                 with con.cursor() as cur:
+                    # idempotência: dono já consultado = tem contato assertiva OU a nota da consulta
                     cur.execute(
-                        "select 1 from public.crm_contato c join public.crm_lead l on l.id=c.lead_id "
-                        "where c.fonte='assertiva' and l.sql_mestre = any(%s) limit 1", (sqls,))
+                        "select 1 from public.crm_lead l where l.sql_mestre = any(%s) and ("
+                        " exists (select 1 from public.crm_contato c where c.lead_id=l.id and c.fonte='assertiva')"
+                        " or exists (select 1 from public.crm_nota n where n.lead_id=l.id and n.texto like 'Assertiva Localize%%')"
+                        ") limit 1", (sqls,))
                     if cur.fetchone():
                         pulados += 1
                         continue
@@ -134,6 +137,18 @@ def main(argv):
                 resp = cli.localizar(docn)
             except AssertivaErro as e:
                 print(f"  [{i}] FALHA consulta ({str(e)[:120]})")
+                falhas += 1
+                time.sleep(1.0)
+                continue
+            # chamar() devolve (payload, http_status) — desempacota SEMPRE
+            http_status = None
+            if isinstance(resp, tuple):
+                resp, http_status = (resp + (None,))[:2]
+            if http_status is not None and http_status != 200:
+                erro_txt = ""
+                if isinstance(resp, dict):
+                    erro_txt = str(resp.get("erro") or "")[:160]
+                print(f"  [{i}] HTTP {http_status} na consulta ({erro_txt}) — pulando doc")
                 falhas += 1
                 time.sleep(1.0)
                 continue
