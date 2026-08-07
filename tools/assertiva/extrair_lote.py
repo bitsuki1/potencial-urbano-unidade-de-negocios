@@ -36,6 +36,15 @@ def achar_contatos(obj, saida=None, trilha=""):
     if saida is None:
         saida = []
     if isinstance(obj, dict):
+        # Forma REAL do Localize v3 (Swagger da conta, 2026-08-07): telefones vivem em
+        # resposta.telefones.{fixos,moveis}[].numero — a CHAVE é 'numero' e o heurístico
+        # por nome de chave não pegava (lote-100: 457 e-mails, 0 fones; 166 recuperados
+        # depois por reparse SQL do payload arquivado). WhatsApp = aplicativos.whatsapp.
+        if "numero" in obj and any(t in trilha.lower() for t in ("telefone", "fixos", "moveis")):
+            s = str(obj.get("numero") or "").strip()
+            if sum(c.isdigit() for c in s) >= 10:
+                whats = bool((obj.get("aplicativos") or {}).get("whatsapp"))
+                saida.append(("whatsapp" if whats else "telefone", s, trilha + "/numero"))
         for k, v in obj.items():
             kl = k.lower()
             if isinstance(v, (str, int)) and str(v).strip():

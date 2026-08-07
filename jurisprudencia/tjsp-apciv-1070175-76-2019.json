@@ -27,10 +27,12 @@
   "fonte": {
     "origem": "web-extensao-resumo",
     "url": "TJSP e-SAJ (consulta processual 2o grau) — https://esaj.tjsp.jus.br/cposg/open.do",
-    "hash": "sha256:a60c35a544630f8bf308ae75ce4f671376aa2b15f8b11bc9d8e231aa8dd73867",
+    "hash": "sha256:3c075686112e7c40b18620dca37d2643cf5a5744a82d54bb9f6a27f3aa3169b9",
     "hash_alvo": "jurisprudencia/tjsp-apciv-1070175-76-2019.md",
     "captura_verbatim": null,
-    "hash_nota": "hash do .md (FICHA de metadados). Inteiro teor NAO reproduzido (direitos autorais); verbatim a capturar no portal."
+    "hash_nota": "hash da transcrição do corpus (.md) — cru ausente localmente (B-4/B-9); trocar pelo hash do cru quando ele chegar",
+    "captura_ed_verbatim": "jurisprudencia/_capturas/tjsp-apciv-1070175-76-2019-ed.pdf",
+    "nota_ed": "ED (Registro 2021.0000912070) VERBATIM entregue pelo dono via extensão 2026-08-07; ACÓRDÃO PRINCIPAL da Apelação segue pendente (2º resultado da CJSG, via getArquivo.do)."
   },
   "status_pipeline": "indexado",
   "confianca_extracao": "media",
