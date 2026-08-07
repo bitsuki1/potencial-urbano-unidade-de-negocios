@@ -74,20 +74,26 @@ def main(argv):
     print("auth: OK")
 
     consultados = pulados = leads_criados = contatos_gravados = falhas = 0
-    # pooler do Supabase às vezes responde 'tenant not found' transitório — retenta com backoff
+    # pooler do Supabase intermitente ('tenant not found' esporádico): retenta MUITO, com
+    # backoff e alternando a porta de sessão (5432) com a de transação (6543) do Supavisor.
     con = None
     if not dry:
+        urls = [db_url]
+        if ":5432/" in db_url:
+            urls.append(db_url.replace(":5432/", ":6543/"))
         ultimo = None
-        for tent in range(4):
+        for tent in range(10):
+            u = urls[tent % len(urls)]
             try:
-                con = psycopg.connect(db_url)
+                con = psycopg.connect(u, connect_timeout=15)
+                print(f"  conexão DB OK (tentativa {tent + 1}, porta {'6543' if ':6543/' in u else '5432'})")
                 break
             except Exception as e:
                 ultimo = e
-                print(f"  conexão DB falhou (tentativa {tent + 1}/4): {str(e)[:120]}")
-                time.sleep(3 * (tent + 1))
+                print(f"  conexão DB falhou (tentativa {tent + 1}/10): {str(e)[:110]}")
+                time.sleep(min(30, 4 * (tent + 1)))
         if con is None:
-            print(f"ERRO: banco inacessível após 4 tentativas: {ultimo}")
+            print(f"ERRO: banco inacessível após 10 tentativas: {ultimo}")
             return 2
     try:
         for i, a in enumerate(alvos, 1):
