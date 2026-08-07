@@ -55,3 +55,17 @@ Os 5 processos:
 5. `2324382-13.2024.8.26.0000` → salvar como `tjsp-ai-2324382-13-2024.pdf`
 
 Ao final: entregue os PDFs com os nomes exatos + uma lista do que conseguiu e, para o que não conseguiu, uma captura de tela da página de resultado (sem dados pessoais seus).
+
+---
+## v3 (2026-08-07, noite) — resposta às limitações da rodada 2 (o link é javascript, não âncora)
+> Rodada 2 entregou o ED do 1070175 (ingerido). Dúvida da extensão respondida: os números CONFEREM
+> (validados no cposg com câmara/relator). O "Visualizar Inteiro Teor" da CJSG é javascript que
+> chama getArquivo.do — o PDF existe e é público, só não é um link direto.
+
+Os números de processo estão corretos e confirmados. O link "Visualizar Inteiro Teor" da consulta de julgados NÃO é um link comum — é javascript. O PDF é público e sai assim:
+
+1. Na página de resultados da CJSG, clique com o BOTÃO DIREITO sobre o link "Visualizar Inteiro Teor" (ou sobre o título do julgado) → "Inspecionar". No código, procure `getArquivo(NÚMERO)` ou `cdAcordao=NÚMERO` — anote o NÚMERO.
+2. Abra em nova aba: `https://esaj.tjsp.jus.br/cjsg/getArquivo.do?cdAcordao=NÚMERO&cdForo=0` — o PDF do acórdão abre direto, sem senha. Salve com o nome combinado.
+3. `1070175-76.2019.8.26.0053`: dos 2 resultados, baixe o da **Apelação Cível** (o dos Embargos de Declaração eu já tenho). Nome: `tjsp-apciv-1070175-76-2019.pdf`
+4. `0000177-09.2017.8.26.0053`: tente a "Pesquisa Livre" com `0000177-09.2017` (sem o sufixo) e também com a parte `Fundação Armando Álvares Penteado`. Se nada aparecer, me diga — declaro o caso como "sem acórdão indexado na consulta pública".
+5. Agravos `2126162-35.2025`, `2257458-20.2024`, `2324382-13.2024`: na CJSG, marque "Decisões Monocráticas" além de "Acórdãos". Se não vier nada, use o **Diário da Justiça Eletrônico** (público, sem login): https://dje.tjsp.jus.br/cdje/consultaAvancada.do — pesquise pelo número do processo, abra o caderno do dia da decisão e salve o PDF da(s) página(s). Nomes: `tjsp-ai-<numero>.pdf` (ou `-dje.pdf` se vier do Diário).
