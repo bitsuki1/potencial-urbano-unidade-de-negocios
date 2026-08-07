@@ -20,6 +20,10 @@ como pendente e é relatado); nunca inventa conteúdo.
 Modos:
   --probe     : só testa alcance (HTTP 200) das fontes; não grava. (rota BR confirmada?)
   --capturar  : baixa e grava o que conseguir; relata sucesso/pendência caso a caso.
+  --extrair   : NÃO baixa nada — processa o que o NAVEGADOR real (capturar_juris_br.js,
+                Playwright no runner) já deixou em jurisprudencia/_capturas/ (<id>.pdf,
+                <id>-cposg.html) e grava .md/.json via _grava. É o modo do workflow
+                desde 2026-08-07 (o WAF do STF derruba o urllib puro; o download é do js).
   (sem flag)  : equivale a --probe (seguro por padrão).
 
 Dependências no runner: urllib (stdlib) + pypdf (PDF do STF). O workflow instala pypdf.
@@ -41,11 +45,17 @@ CAPTURAS = JURIS / "_capturas"
 UA = "Mozilla/5.0 (X11; Linux x86_64) PU-runner-juris/1.0"
 
 # --- Casos da metade-runner (id do corpus, fonte, identificadores) ---
+# docID/incidente do inteiro teor: achados pela lente STF 2026-08-07 na base oficial
+# portal.stf.jus.br. URL direta: redir.stf.jus.br/paginadorpub/paginador.jsp?docTP=AC&docID=<docID>.
+# ATENÇÃO: redir/jurisprudencia.stf ficam atrás do WAF AWS ("goku", desafio JS) — a captura EXIGE
+# navegador real no runner brasil (Playwright, como os coletores GeoSampa); urllib puro leva 202/challenge.
 CASOS = [
     {"id": "stf-re-226942-sc", "corte": "STF", "classe": "RE", "numero": "226942",
-     "uf": "SC", "tema": ["solo_criado", "outorga_onerosa", "nao_e_tributo"]},
+     "uf": "SC", "stf_docid": "592555", "stf_incidente": "1703578",
+     "tema": ["solo_criado", "outorga_onerosa", "nao_e_tributo"]},
     {"id": "stf-re-387047-sc", "corte": "STF", "classe": "RE", "numero": "387047",
-     "uf": "SC", "tema": ["solo_criado", "outorga_onerosa", "nao_e_tributo"]},
+     "uf": "SC", "stf_docid": "524433", "stf_incidente": "2124203",
+     "tema": ["solo_criado", "outorga_onerosa", "nao_e_tributo"]},
     {"id": "tjsp-ai-2126162-35-2025", "corte": "TJSP", "classe": "AI",
      "numero_cnj": "2126162-35.2025.8.26.0000", "tema": ["tdc", "tombamento", "potencial_construtivo"]},
     {"id": "tjsp-ai-2257458-20-2024", "corte": "TJSP", "classe": "AI",
@@ -179,20 +189,48 @@ def _recorta(html, pat, flags=0):
 
 
 def _grava(caso, res):
+    """ACRESCENTA o inteiro teor sem clobrar o que já existe (ementa/tese/certidões/tema/vigência).
+    Correção 2026-08-07 (alerta da lente STF): antes usava write_text e apagava o .md/.json
+    prévios — perdia as certidões de julgamento e os metadados já curados (1.8: nada se joga fora)."""
     JURIS.mkdir(parents=True, exist_ok=True)
     md = JURIS / f"{caso['id']}.md"
     js = JURIS / f"{caso['id']}.json"
-    cab = f"# {caso['corte']} {caso.get('classe','')} {caso.get('numero') or caso.get('numero_cnj','')}\n\n"
-    md.write_text(cab + "## Inteiro teor (verbatim)\n\n" + res["texto"] + "\n", encoding="utf-8")
-    meta = {
-        "id": caso["id"], "tipo_norma": "jurisprudencia", "corte": caso["corte"],
-        "classe": caso.get("classe"), "numero": caso.get("numero") or caso.get("numero_cnj"),
-        "tema": caso.get("tema", []), "ementa": res.get("ementa", ""),
-        "relator": res.get("relator", ""),
-        "fonte": {"origem": f"portal {caso['corte']} (runner brasil)", "url": res.get("fonte"),
-                  "metodo": "captura runner-half (inteiro teor), extração pura 1.2", "ocr": False},
-        "status_pipeline": "bruto", "revisado_por_humano": False,
-    }
+    secao = "## Inteiro teor (verbatim)\n\n" + res["texto"] + "\n"
+    if md.exists():
+        atual = md.read_text(encoding="utf-8")
+        marca = "## Inteiro teor (verbatim)"
+        if marca in atual:
+            atual = atual[:atual.index(marca)].rstrip() + "\n\n"  # substitui só a seção do teor
+        md.write_text(atual.rstrip() + "\n\n" + secao, encoding="utf-8")
+    else:
+        cab = f"# {caso['corte']} {caso.get('classe','')} {caso.get('numero') or caso.get('numero_cnj','')}\n\n"
+        md.write_text(cab + secao, encoding="utf-8")
+
+    meta = {}
+    if js.exists():
+        try:
+            meta = json.loads(js.read_text(encoding="utf-8"))
+        except Exception:
+            meta = {}
+    # mescla: campos curados (tema, vigencia, dispositivos etc.) permanecem; só atualiza o teor/fonte
+    meta.setdefault("id", caso["id"])
+    meta.setdefault("tipo_norma", "jurisprudencia")
+    meta.setdefault("corte", caso["corte"])
+    meta.setdefault("classe", caso.get("classe"))
+    meta.setdefault("numero", caso.get("numero") or caso.get("numero_cnj"))
+    if not meta.get("tema"):
+        meta["tema"] = caso.get("tema", [])
+    if res.get("ementa") and not meta.get("ementa"):
+        meta["ementa"] = res["ementa"]
+    if res.get("relator"):
+        meta["relator"] = res["relator"]
+    meta["inteiro_teor_capturado"] = True
+    meta["fonte"] = {**(meta.get("fonte") or {}),
+                     "url_inteiro_teor": res.get("fonte"),
+                     "metodo_teor": "captura runner brasil (inteiro teor), extração pura 1.2",
+                     "ocr": bool(res.get("ocr"))}
+    meta["status_pipeline"] = "bruto"
+    meta.setdefault("revisado_por_humano", False)
     js.write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
@@ -217,7 +255,67 @@ def capturar():
     return 0 if ok else 1
 
 
+def _extrai_ementa_cposg(html):
+    """Recorta a ementa/relator do HTML do cposg salvo pelo navegador (verbatim, sem interpretar)."""
+    ementa = _recorta(html, r'Ementa[:\s]*</?[^>]*>?(.{80,4000}?)<', flags=re.I | re.S)
+    relator = _recorta(html, r'Relator[^<]*</[^>]*>\s*<[^>]*>([^<]{3,120})', flags=re.I)
+    texto = re.sub(r"<[^>]+>", " ", html)
+    texto = re.sub(r"\s+", " ", texto).strip()
+    return ementa, relator, texto
+
+
+def extrair():
+    """Processa jurisprudencia/_capturas/ (deixado pelo capturar_juris_br.js no runner).
+    Fail-closed (1.3): PDF sem texto extraível (>=500 chars) fica PENDENTE com nota de OCR —
+    o PDF verbatim permanece em _capturas como fonte, nada é inventado."""
+    ok, pend = [], []
+    for caso in CASOS:
+        cid = caso["id"]
+        pdf = CAPTURAS / f"{cid}.pdf"
+        ocr_txt = CAPTURAS / f"{cid}-ocr.txt"
+        html_f = CAPTURAS / f"{cid}-cposg.html"
+        if pdf.exists():
+            fonte = (f"https://redir.stf.jus.br/paginadorpub/paginador.jsp?docTP=AC&docID={caso['stf_docid']}"
+                     if caso["corte"] == "STF" else f"e-SAJ TJSP (cposg 2º grau) — PDF em _capturas/{cid}.pdf")
+            texto = _pdf_texto(pdf)
+            if texto and len(texto) >= 500:
+                _grava(caso, {"texto": texto, "ementa": "", "fonte": fonte})
+                ok.append(cid)
+                print(f"  OK   {cid} (teor {len(texto)} chars do PDF oficial)")
+                continue
+            # PDF é digitalização (imagem): usa o OCR feito sobre o MESMO PDF oficial
+            # (pdftoppm 300dpi + tesseract por; o .pdf verbatim segue em _capturas como fonte)
+            if ocr_txt.exists():
+                texto = ocr_txt.read_text(encoding="utf-8", errors="replace").strip()
+                if len(texto) >= 500:
+                    _grava(caso, {"texto": texto, "ementa": "", "fonte": fonte, "ocr": True})
+                    ok.append(cid)
+                    print(f"  OK   {cid} (teor {len(texto)} chars via OCR do PDF oficial; ocr=true)")
+                    continue
+            pend.append((cid, f"PDF capturado ({pdf.stat().st_size} bytes) mas SEM texto extraível — "
+                              "digitalização/imagem; OCR é a próxima etapa. PDF verbatim preservado."))
+            continue
+        if caso["corte"] == "TJSP" and html_f.exists():
+            html = html_f.read_text(encoding="utf-8", errors="replace")
+            ementa, relator, texto = _extrai_ementa_cposg(html)
+            if ementa and len(texto) >= 800:
+                _grava(caso, {"texto": texto[:20000], "ementa": ementa, "relator": relator or "",
+                              "fonte": f"e-SAJ TJSP cposg (HTML verbatim em _capturas/{cid}-cposg.html)"})
+                ok.append(cid)
+                print(f"  OK   {cid} (ementa do cposg; inteiro teor PDF segue pendente)")
+                continue
+            pend.append((cid, "HTML do cposg salvo mas sem ementa reconhecível — diagnosticar o caminho."))
+            continue
+        pend.append((cid, "sem captura em _capturas/ (o navegador não conseguiu ou não rodou)."))
+    print(f"\nEXTRAIR: {len(ok)} gravados, {len(pend)} pendentes.")
+    for cid, err in pend:
+        print(f"  - {cid}: {err}")
+    return 0 if ok else 1
+
+
 def main(argv):
+    if "--extrair" in argv:
+        return extrair()
     if "--capturar" in argv:
         if not probe():
             print("Rota BR não resolveu — abortando captura (fail-closed).")

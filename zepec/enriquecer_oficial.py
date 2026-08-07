@@ -327,6 +327,47 @@ def main():
             m["pendencia_calculo"] = (m["pendencia_calculo"].replace("OK (Atc+CAbás+V) — cálculo completo", "").strip(" |")
                                       + " | " + nota).strip(" |")
 
+    # BLINDAGEM anti-regressão (varredura noturna 2026-08-07). Rodadas POSTERIORES (ex.:
+    # rodada_suplemento_455.py) enriquecem o oficial usando fonte primária que este gerador
+    # NÃO enxerga (área do lote no GeoSampa p/ os cedentes sem cadastro IPTU). Reprocessar este
+    # gerador não pode DESFAZER esse trabalho — para as linhas marcadas por essas rodadas
+    # (estado_triagem != 'carteira'/'' ), preserva-se a linha inteira do oficial anterior;
+    # e sempre se preservam as colunas órfãs (que nem existem no schema deste gerador).
+    # O dado continua nascendo da fonte primária de cada etapa (1.3/1.8): aqui só se evita
+    # destruir o produto legítimo de outra rodada. As linhas 'carteira' (as 3.905 nativas
+    # deste gerador) são recalculadas normalmente.
+    ROTULOS_SUPLEMENTO = {"RECUPERAVEL_COM_AREA", "INCONCLUSIVO_REPASSAR",
+                          "DESCARTE_MORTE_CONFIRMADA_2PASSADAS", "DESCARTE_SQL_INVALIDO",
+                          "DESCARTE_VEDADO_LEI"}
+    if out.exists():
+        try:
+            prev = list(csv.DictReader(open(out, encoding="utf-8")))
+            prev_cols = list(prev[0].keys()) if prev else []
+            colunas_orfas = [c for c in prev_cols if c not in campos]
+            if colunas_orfas:
+                campos = campos + colunas_orfas
+            prev_por_sql = {(p.get("sql_mestre") or "").strip(): p for p in prev}
+            preservadas_linhas = 0
+            for r in enr:
+                p = prev_por_sql.get((r.get("sql_mestre") or "").strip())
+                if not p:
+                    for c in colunas_orfas:
+                        r.setdefault(c, "")
+                    continue
+                # linha tocada por rodada posterior: preserva TUDO que o gerador teria produzido
+                if (p.get("estado_triagem") or "").strip() in ROTULOS_SUPLEMENTO:
+                    for c in campos:
+                        r[c] = p.get(c, r.get(c, ""))
+                    preservadas_linhas += 1
+                else:  # linha de carteira: só preserva as colunas órfãs
+                    for c in colunas_orfas:
+                        r[c] = p.get(c, "")
+            if colunas_orfas or preservadas_linhas:
+                print(f"  blindagem: {preservadas_linhas} linha(s) de rodada posterior preservadas; "
+                      f"colunas órfãs mantidas: {', '.join(colunas_orfas) or '(nenhuma)'}")
+        except Exception as e:
+            print(f"  AVISO: blindagem anti-regressão falhou ({e}) — REVISAR antes de recarregar o banco")
+
     with open(out, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=campos); w.writeheader()
         for r in enr:

@@ -113,9 +113,21 @@ def c4_oficial_fora_quarentena():
         st = (r.get("status_arrumacao") or "").strip()
         dst = (r.get("destino_path") or "").strip()
         return st in ("quarentena", "triagem") or dst.startswith("98") or dst.startswith("99")
-    viol = [r for r in rows if (r.get("proveniencia") or "").strip().upper().startswith("OFI") and _zona_morta(r)]
-    return (not viol), ("nenhum OFICIAL em quarentena/98/99" if not viol
-                        else f"{len(viol)} OFICIAL em quarentena/98/99 — REVISAR")
+    # Refino pós-quarentena cross-tree (2026-08-06): duplicata BYTE-IDÊNTICA de um OFICIAL pode ir
+    # à quarentena DESDE QUE a canônica (mesmo hash_md5) siga VIVA fora da zona morta como OFICIAL —
+    # o invariante real é "nenhum CONTEÚDO oficial se perde", não "nenhuma cópia se move". Continua
+    # VERMELHO para OFICIAL quarentenado sem gêmea canônica sobrevivente (fail-closed).
+    def _oficial(r):
+        return (r.get("proveniencia") or "").strip().upper().startswith("OFI")
+    hashes_vivos = {(r.get("hash_md5") or "").strip()
+                    for r in rows if _oficial(r) and not _zona_morta(r) and (r.get("hash_md5") or "").strip()}
+    quarentenados = [r for r in rows if _oficial(r) and _zona_morta(r)]
+    viol = [r for r in quarentenados if (r.get("hash_md5") or "").strip() not in hashes_vivos]
+    dups_cobertos = len(quarentenados) - len(viol)
+    if not viol:
+        extra = f" ({dups_cobertos} duplicatas byte-idênticas em quarentena com canônica OFICIAL viva)" if dups_cobertos else ""
+        return True, "nenhum CONTEÚDO oficial perdido em quarentena/98/99" + extra
+    return False, f"{len(viol)} OFICIAL em quarentena/98/99 SEM canônica viva do mesmo hash — REVISAR"
 
 
 def c5_moved_tem_hash():

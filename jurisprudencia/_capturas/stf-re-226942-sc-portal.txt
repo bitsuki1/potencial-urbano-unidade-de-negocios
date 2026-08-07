@@ -1,0 +1,23 @@
+# CAPTURA PARCIAL OFICIAL — portal.stf.jus.br (acompanhamento processual)
+# Data de captura: 2026-08-07 | Sessão remota (IP 160.79.106.128, rota via proxy)
+# ATENÇÃO: NÃO é o inteiro teor. São as certidões de julgamento e despachos servidos
+# pelo próprio STF em portal.stf.jus.br (downloadTexto.asp, RTF), convertidos a texto
+# verbatim (striprtf). Inteiro teor completo (relatório + votos): PENDENTE — o
+# paginador oficial (redir.stf.jus.br) exige desafio JavaScript de WAF (AWS),
+# insuperável desta sessão. Ver seção de pendência no .md correspondente.
+# Decisão judicial = domínio público (Lei 9.610/98, art. 8º, IV).
+# Processo: RE 226.942/SC — incidente STF 1703578
+# Inteiro teor oficial (docID 592555):
+#   https://redir.stf.jus.br/paginadorpub/paginador.jsp?docTP=AC&docID=592555
+
+== CERTIDÃO DE JULGAMENTO — 1ª Turma, 21.10.2008 (decisão final) ==
+Fonte: https://portal.stf.jus.br/processos/downloadTexto.asp?id=2492108&ext=RTF
+
+Decisão: Por maioria de votos, a Turma rejeitou a questão de ordem e, no mérito, negou provimento ao recurso extraordinário, nos termos do voto do Relator; vencido o Ministro Marco Aurélio, Presidente, que assentava, suplantada a questão de ordem, a inconstitucionalidade da lei municipal. Falou o Dr. André Ramos Lemos, pelo recorrente. Não participou, justificadamente, deste julgamento o Ministro Carlos Britto. 1ª Turma, 21.10.2008.
+
+== PROVENIÊNCIA DA PUBLICAÇÃO (andamentos oficiais, portal STF) ==
+Publicado acórdão, DJE — DATA DE PUBLICAÇÃO DJE 15/05/2009 - ATA Nº 14/2009. DJE nº 89, divulgado em 14/05/2009
+Decisão publicada, DJE — ATA Nº 32, de 21/10/2008 - DJE nº 206, divulgado em 30/10/2008
+Trânsito em julgado: 16/06/2009
+Assunto (portal): DIREITO ADMINISTRATIVO E OUTRAS MATÉRIAS DE DIREITO PÚBLICO | Domínio Público | Bens Públicos; Controle de Constitucionalidade | Processo Legislativo
+Origem: TRIBUNAL DE JUSTIÇA ESTADUAL — SC (nº de origem 5732)

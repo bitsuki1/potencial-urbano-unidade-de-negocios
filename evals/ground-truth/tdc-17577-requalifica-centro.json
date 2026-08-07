@@ -1,0 +1,27 @@
+{
+  "dominio": "TDC",
+  "status": "ativo",
+  "_nota": "Varredura #4 (turno noturno, 2026-08-07): a Lei 17.577/2021 (Requalifica Centro) estava no corpus, verbatim e indexada, mas ZERO evals a referenciavam. Estes 2 itens fecham a lacuna: Art. 11 (ZEPEC-BIR pode requisitar TDC — coração do domínio) e Art. 16 (incentivos fiscais de IPTU na Área Central). Molde do tdc-16402-lpuos.json.",
+  "itens": [
+    {
+      "id": "tdc-17577-zepec-bir-tdc-art11",
+      "pergunta": "imovel ZEPEC-BIR na area central pode requisitar transferencia do direito de construir na requalificacao",
+      "espera": {
+        "fundamentada": true,
+        "lei_id": "lei-municipal-saopaulo-17577-2021",
+        "dispositivo_topo": "Art. 11",
+        "texto_contem": "Transferência do Direito de Construir"
+      }
+    },
+    {
+      "id": "tdc-17577-incentivos-iptu-art16",
+      "pergunta": "remissao de creditos de IPTU e isencao para edificacao requalificada na area central",
+      "espera": {
+        "fundamentada": true,
+        "lei_id": "lei-municipal-saopaulo-17577-2021",
+        "dispositivo_topo": "Art. 16",
+        "texto_contem": "incentivos fiscais"
+      }
+    }
+  ]
+}
