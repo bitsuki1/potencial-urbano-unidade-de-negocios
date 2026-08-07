@@ -239,6 +239,14 @@ def main(argv):
                             "and payload->>'origem' is not null and id = (select id from public.crm_contato "
                             "where lead_id=%s and fonte='assertiva' order by consultado_em limit 1)",
                             (payload, lid, lid))
+                        # dono SEM contato retornado: não há linha em crm_contato p/ carregar o
+                        # payload — o bruto ia pro limbo (lote-1: 27/56 arquivados; os 29 restantes
+                        # eram exatamente os sem contato). Arquiva na PRÓPRIA nota (auditoria:
+                        # toda consulta paga deixa prova).
+                        if not unicos:
+                            cur.execute(
+                                "insert into public.crm_nota (lead_id, texto) values (%s, %s)",
+                                (lid, "Assertiva payload bruto (sem contato retornado): " + payload))
             con.commit()
             time.sleep(0.4)
     finally:
