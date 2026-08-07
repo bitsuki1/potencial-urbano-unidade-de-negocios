@@ -78,9 +78,16 @@ def main(argv):
     # backoff e alternando a porta de sessão (5432) com a de transação (6543) do Supavisor.
     con = None
     if not dry:
+        # mesma vacina do carregar_tabelas_supabase.py: o tenant pode viver na frota
+        # alternada do Supavisor (aws-0 <-> aws-1) — o segredo pode estar defasado
+        import re as _re
         urls = [db_url]
+        m = _re.search(r"aws-(\d)-", db_url)
+        if m:
+            alt = "0" if m.group(1) != "0" else "1"
+            urls.append(_re.sub(r"aws-\d-", f"aws-{alt}-", db_url, count=1))
         if ":5432/" in db_url:
-            urls.append(db_url.replace(":5432/", ":6543/"))
+            urls += [u.replace(":5432/", ":6543/") for u in list(urls)]
         ultimo = None
         for tent in range(10):
             u = urls[tent % len(urls)]
