@@ -30,11 +30,14 @@
   "fonte": {
     "origem": "web-oficial-extensao",
     "url": "TJSP / e-SAJ — Agravo de Instrumento 2126162-35.2025.8.26.0000 (registro 2025.0000897356)",
-    "hash": "sha256:947d1906e6c52c969c3f4029fc00d612f980fa702aaa26c338026d8fa88b5897",
-    "captura_verbatim": "jurisprudencia/_capturas/tjsp-ai-2126162-35-2025.txt",
+    "hash": "sha256:0e209702b61614b8f3c3e95370a893a36934f85da12bda2841c63d66f10a58fa",
+    "captura_verbatim": "jurisprudencia/_capturas/tjsp-ai-2126162-35-2025-ed.txt",
     "hash_alvo": "jurisprudencia/tjsp-ai-2126162-35-2025.md",
     "hash_captura": "sha256:2f110e5d224419674fed71bc02e554a460cbd3ff257077e0da10012f57a140e1",
-    "hash_nota": "hash da transcricao do corpus (.md); hash_captura = do inteiro teor bruto em _capturas/"
+    "hash_nota": "hash do .md (transcrição do corpus); hash do PDF cru registrado no próprio md",
+    "url_inteiro_teor": "e-SAJ TJSP — https://esaj.tjsp.jus.br/cjsg/getArquivo.do?cdAcordao=19806923&cdForo=0 (Registro 2025.0001060593); PDF oficial em _capturas/tjsp-ai-2126162-35-2025-ed.pdf",
+    "metodo_teor": "Embargos de Declaração no AI: PDF oficial entregue pelo dono (extensão/navegador), extração pura 1.2",
+    "ocr": false
   },
   "status_pipeline": "indexado",
   "confianca_extracao": "alta",
@@ -43,5 +46,6 @@
   "dominio_primario": "tdc",
   "dominio": [
     "tdc"
-  ]
+  ],
+  "inteiro_teor_capturado": true
 }

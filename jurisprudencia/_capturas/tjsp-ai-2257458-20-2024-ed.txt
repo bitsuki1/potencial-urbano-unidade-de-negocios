@@ -1,22 +1,3 @@
-# TJSP — 2257458-20.2024.8.26.0000 (5a Camara de Direito Privado)
-
-> **FICHA DE JURISPRUDENCIA (metadados).** Resumo em linguagem propria — **NAO e o inteiro teor** (nao reproduzido por direitos autorais). Identificacao factual (processo/orgao/relator/data) confere; o inteiro teor oficial esta no portal do tribunal. Ingerido via extensao web (conta do dono), 2026-07-10.
-
-- **Tribunal/orgao:** TJSP — 5a Camara de Direito Privado
-- **Processo:** 2257458-20.2024.8.26.0000
-- **Relator:** Des. J.L. Monaco da Silva
-- **Julgamento:** 2024-11-05
-- **Resultado:** penhora de valores mantida (TDC = natureza compensatoria)
-- **Dispositivos relacionados:** Lei Municipal SP no 16.050/2014
-- **Temas:** tdc, natureza-compensatoria, penhora
-- **Inteiro teor (verbatim, a capturar):** TJSP e-SAJ (consulta processual 2o grau) — https://esaj.tjsp.jus.br/cposg/open.do
-
-## Tese (resumo)
-Cumprimento de sentenca (penhora de valores): o acordao caracteriza a TDC como especie de COMPENSACAO estatal pela limitacao ao direito de propriedade decorrente do tombamento, de natureza compensatoria, mantendo a penhora por ausencia de vinculacao especifica na utilizacao da verba.
-
-## Embargos de Declaração (verbatim, Registro 2024.0001189519 — incidente /50000)
-> Fonte oficial: e-SAJ TJSP, getArquivo.do?cdAcordao=18661868&cdForo=0 — PDF baixado pelo dono (navegador logado, 2026-08-07) e entregue à instância. Cru: `_capturas/tjsp-ai-2257458-20-2024-ed.pdf` (hash sha256:b56069230d5d6beca19f3b0bc723dd880c3381c1c931a16218cf3f9a1167ebaf). Extração pura (1.2), pdftotext, sem OCR.
-
 PODER JUDICIÁRIO
 TRIBUNAL DE JUSTIÇA DO ESTADO DE SÃO PAULO
 

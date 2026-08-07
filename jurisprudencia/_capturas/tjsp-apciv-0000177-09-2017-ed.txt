@@ -1,22 +1,3 @@
-# TJSP — 0000177-09.2017.8.26.0053 (9a Camara de Direito Publico)
-
-> **FICHA DE JURISPRUDENCIA (metadados).** Resumo em linguagem propria — **NAO e o inteiro teor** (nao reproduzido por direitos autorais). Identificacao factual (processo/orgao/relator/data) confere; o inteiro teor oficial esta no portal do tribunal. Ingerido via extensao web (conta do dono), 2026-07-10.
-
-- **Tribunal/orgao:** TJSP — 9a Camara de Direito Publico
-- **Processo:** 0000177-09.2017.8.26.0053
-- **Relator:** Des. Reboucas de Carvalho
-- **Julgamento:** 2017-10-20
-- **Resultado:** vedacao confirmada (tombamento provisorio = definitivo)
-- **Dispositivos relacionados:** Decreto-lei no 25/1937, art. 10, paragrafo unico; Lei Municipal SP no 16.050/2014, art. 124, §2o
-- **Temas:** tombamento, tombamento-provisorio, vedacao-tdc
-- **Inteiro teor (verbatim, a capturar):** TJSP e-SAJ (consulta processual 2o grau) — https://esaj.tjsp.jus.br/cposg/open.do
-
-## Tese (resumo)
-Caso irmao do 0000175-39: o tombamento PROVISORIO foi equiparado ao definitivo (art. 10, paragrafo unico, do Decreto-lei 25/1937), confirmando a impossibilidade de expedicao da declaracao de potencial construtivo transferivel, com apoio em precedentes do proprio TJSP e do STJ.
-
-## Embargos de Declaração (verbatim, Registro 2017.0000871219 — incidente /50000)
-> Fonte oficial: e-SAJ TJSP, getArquivo.do?cdAcordao=10971053&cdForo=0 — PDF baixado pelo dono (navegador logado, 2026-08-07) e entregue à instância. Cru: `_capturas/tjsp-apciv-0000177-09-2017-ed.pdf` (hash sha256:703ebc8bd878c90be408a0d7f5512cc99c21981d03470bdab9029a0c0846f814). Extração pura (1.2), pdftotext, sem OCR.
-
 PODER JUDICIÁRIO
 TRIBUNAL DE JUSTIÇA DO ESTADO DE SÃO PAULO
 

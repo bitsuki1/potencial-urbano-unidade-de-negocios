@@ -69,3 +69,19 @@ Os números de processo estão corretos e confirmados. O link "Visualizar Inteir
 3. `1070175-76.2019.8.26.0053`: dos 2 resultados, baixe o da **Apelação Cível** (o dos Embargos de Declaração eu já tenho). Nome: `tjsp-apciv-1070175-76-2019.pdf`
 4. `0000177-09.2017.8.26.0053`: tente a "Pesquisa Livre" com `0000177-09.2017` (sem o sufixo) e também com a parte `Fundação Armando Álvares Penteado`. Se nada aparecer, me diga — declaro o caso como "sem acórdão indexado na consulta pública".
 5. Agravos `2126162-35.2025`, `2257458-20.2024`, `2324382-13.2024`: na CJSG, marque "Decisões Monocráticas" além de "Acórdãos". Se não vier nada, use o **Diário da Justiça Eletrônico** (público, sem login): https://dje.tjsp.jus.br/cdje/consultaAvancada.do — pesquise pelo número do processo, abra o caderno do dia da decisão e salve o PDF da(s) página(s). Nomes: `tjsp-ai-<numero>.pdf` (ou `-dje.pdf` se vier do Diário).
+
+---
+## v4 (2026-08-07, noite) — SÓ FALTAM OS ACÓRDÃOS PRINCIPAIS: 5 links diretos p/ o navegador do dono
+> Rodada 3 entregou 5 PDFs (ingeridos): a APELAÇÃO do 1070175 ✓ e os EMBARGOS DE DECLARAÇÃO dos
+> outros 4 processos. O relatório da extensão trouxe os `cdAcordao` de TODOS os resultados — os que
+> baixamos eram a "primeira opção"; a "segunda opção" de cada processo é o acórdão PRINCIPAL que falta.
+> Não precisa de extensão: basta o dono abrir os links abaixo no navegador dele (logado no e-SAJ como
+> estava) e salvar o PDF. Se algum link abrir o documento errado, me avise qual.
+
+| Processo | O que falta | Link direto (abrir e salvar) | Salvar como |
+|---|---|---|---|
+| 0000177-09.2017.8.26.0053 | Acórdão da Apelação | https://esaj.tjsp.jus.br/cjsg/getArquivo.do?cdAcordao=10898038&cdForo=0 | `tjsp-apciv-0000177-09-2017.pdf` |
+| 2126162-35.2025.8.26.0000 | Acórdão do Agravo | https://esaj.tjsp.jus.br/cjsg/getArquivo.do?cdAcordao=19642789&cdForo=0 | `tjsp-ai-2126162-35-2025.pdf` |
+| 2126162-35.2025.8.26.0000 | (alternativa, se o de cima vier errado) | https://esaj.tjsp.jus.br/cjsg/getArquivo.do?cdAcordao=19642788&cdForo=0 | `tjsp-ai-2126162-35-2025-b.pdf` |
+| 2257458-20.2024.8.26.0000 | Acórdão do Agravo | https://esaj.tjsp.jus.br/cjsg/getArquivo.do?cdAcordao=18543735&cdForo=0 | `tjsp-ai-2257458-20-2024.pdf` |
+| 2324382-13.2024.8.26.0000 | Acórdão do Agravo | https://esaj.tjsp.jus.br/cjsg/getArquivo.do?cdAcordao=18704310&cdForo=0 | `tjsp-ai-2324382-13-2024.pdf` |
