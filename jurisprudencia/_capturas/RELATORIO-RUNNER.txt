@@ -1,0 +1,31 @@
+IP público: 24.152.37.11
+== STF stf-re-226942-sc (docID 592555) ==
+  tentativa 1: request falhou: apiRequestContext.get: unable to verify the first certificate
+  tentativa 2: request falhou: apiRequestContext.get: unable to verify the first certificate
+  goto: page.goto: net::ERR_ABORTED at https://redir.stf.jus.br/paginadorpub/paginador.jsp?docTP=AC&docID=592555
+  tentativa 3: request falhou: apiRequestContext.get: unable to verify the first certificate
+  goto: page.goto: net::ERR_ABORTED at https://redir.stf.jus.br/paginadorpub/paginador.jsp?docTP=AC&docID=592555
+  OK (via download): stf-re-226942-sc.pdf (937747 bytes)
+== STF stf-re-387047-sc (docID 524433) ==
+  tentativa 1: request falhou: apiRequestContext.get: unable to verify the first certificate
+  goto: page.goto: net::ERR_ABORTED at https://redir.stf.jus.br/paginadorpub/paginador.jsp?docTP=AC&docID=524433
+  tentativa 2: request falhou: apiRequestContext.get: unable to verify the first certificate
+  goto: page.goto: net::ERR_ABORTED at https://redir.stf.jus.br/paginadorpub/paginador.jsp?docTP=AC&docID=524433
+  tentativa 3: request falhou: apiRequestContext.get: unable to verify the first certificate
+  goto: page.goto: net::ERR_ABORTED at https://redir.stf.jus.br/paginadorpub/paginador.jsp?docTP=AC&docID=524433
+  OK (via download): stf-re-387047-sc.pdf (1041148 bytes)
+== TJSP tjsp-ai-2126162-35-2025 (2126162-35.2025.8.26.0000) ==
+  página do processo salva (55981 chars): tjsp-ai-2126162-35-2025-cposg.html
+  3 link(s) de documento na página.
+  PEND: sem PDF direto — o HTML salvo diagnostica o caminho (senha do processo? pasta digital?).
+== TJSP tjsp-ai-2257458-20-2024 (2257458-20.2024.8.26.0000) ==
+  página do processo salva (55037 chars): tjsp-ai-2257458-20-2024-cposg.html
+  3 link(s) de documento na página.
+  PEND: sem PDF direto — o HTML salvo diagnostica o caminho (senha do processo? pasta digital?).
+== TJSP tjsp-ai-2324382-13-2024 (2324382-13.2024.8.26.0000) ==
+  página do processo salva (55041 chars): tjsp-ai-2324382-13-2024-cposg.html
+  3 link(s) de documento na página.
+  PEND: sem PDF direto — o HTML salvo diagnostica o caminho (senha do processo? pasta digital?).
+== BUSCA de ampliação (#21) — TDC nas bases oficiais ==
+  PEND STF-busca: apiRequestContext.get: unable to verify the first certificate
+  OK: busca-stj-tdc.html (15937 chars)

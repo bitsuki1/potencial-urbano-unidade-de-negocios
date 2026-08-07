@@ -1,6 +1,6 @@
 {
   "_doc": "Fonte da verdade do status_pipeline de cada item. GERADO por scripts/consolidar.py a partir dos .json individuais — NAO editar a mao (Principio 1.5/2.3 do CLAUDE.md). Roda a cada push via .github/workflows/consolidar.yml.",
-  "gerado_em": "2026-08-07T02:22:41.893547+00:00",
+  "gerado_em": "2026-08-07T13:40:44.884809+00:00",
   "vocabulario_status": [
     "bruto",
     "fatiado",
@@ -198,7 +198,7 @@
   "itens": [
     {
       "id": "stf-re-226942-sc",
-      "tipo": "acordao",
+      "tipo": "jurisprudencia",
       "caminho_md": "jurisprudencia/stf-re-226942-sc.md",
       "caminho_json": "jurisprudencia/stf-re-226942-sc.json",
       "status_pipeline": "indexado",
@@ -213,7 +213,7 @@
     },
     {
       "id": "stf-re-387047-sc",
-      "tipo": "acordao",
+      "tipo": "jurisprudencia",
       "caminho_md": "jurisprudencia/stf-re-387047-sc.md",
       "caminho_json": "jurisprudencia/stf-re-387047-sc.json",
       "status_pipeline": "indexado",

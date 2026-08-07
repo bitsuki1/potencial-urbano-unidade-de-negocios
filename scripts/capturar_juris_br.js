@@ -73,9 +73,44 @@ async function stfInteiroTeor(page) {
   }
 }
 
+// CJSG (consulta pública de julgados do TJSP): busca pelo nº CNJ; o resultado linka o
+// acórdão PDF direto (getArquivo.do?cdAcordao=...). É a via mais curta p/ o inteiro teor.
+async function tjspCjsg(page, c) {
+  const url = 'https://esaj.tjsp.jus.br/cjsg/resultadoCompleta.do?conversationId=&dados.buscaInteiroTeor=' +
+    encodeURIComponent(`"${c.cnj}"`) + '&dados.origensSelecionadas=T&tipoDecisaoSelecionados=A';
+  await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 90000 });
+  await page.waitForTimeout(4000);
+  fs.writeFileSync(path.join(OUT, `${c.id}-cjsg.html`), await page.content());
+  const links = await page.$$eval('a', as => as
+    .map(a => ({ href: a.href || '', onclick: a.getAttribute('onclick') || '' })));
+  const cds = new Set();
+  for (const l of links) {
+    const m = (l.href + ' ' + l.onclick).match(/cdAcordao=(\d+)/) ||
+              (l.href + ' ' + l.onclick).match(/getArquivo\((\d+)/);
+    if (m) cds.add(m[1]);
+  }
+  log(`  CJSG: ${cds.size} cdAcordao candidato(s).`);
+  for (const cd of Array.from(cds).slice(0, 3)) {
+    try {
+      const r = await page.request.get(`https://esaj.tjsp.jus.br/cjsg/getArquivo.do?cdAcordao=${cd}&cdForo=0`, { timeout: 60000 });
+      const buf = Buffer.from(await r.body());
+      if (ehPdf(buf)) {
+        fs.writeFileSync(path.join(OUT, `${c.id}.pdf`), buf);
+        log(`  OK: acórdão PDF via CJSG cdAcordao=${cd} (${buf.length} bytes)`);
+        return true;
+      }
+      log(`  CJSG cdAcordao=${cd}: resposta não-PDF (${buf.length} bytes) — captcha/viewer?`);
+    } catch (e) { log(`  CJSG cdAcordao=${cd} falhou: ${String(e.message).split('\n')[0]}`); }
+  }
+  return false;
+}
+
 async function tjspCposg(page) {
   for (const c of TJSP) {
     log(`== TJSP ${c.id} (${c.cnj}) ==`);
+    try {
+      if (await tjspCjsg(page, c)) continue;   // via curta: acórdão direto da consulta de julgados
+    } catch (e) { log(`  CJSG indisponível: ${String(e.message).split('\n')[0]}`); }
     const dda = c.cnj.slice(0, 15); // NNNNNNN-DD.AAAA
     const foro = c.cnj.slice(-4);
     const busca = 'https://esaj.tjsp.jus.br/cposg/search.do?conversationId=&paginaConsulta=0' +
@@ -84,28 +119,41 @@ async function tjspCposg(page) {
       '&dePesquisaNuUnificado=UNIFICADO&dePesquisa=&tipoNuProcesso=UNIFICADO';
     try {
       await page.goto(busca, { waitUntil: 'domcontentloaded', timeout: 90000 });
-      await page.waitForTimeout(4000);
+      await page.waitForTimeout(3000);
+      // rodada 1 caiu na página "Selecione o processo" (o AI tem incidentes) — clica no principal
+      if ((await page.content()).includes('Selecione o processo')) {
+        const alvo = await page.$('a[href*="show.do"], a.linkProcesso, #processoSelecionado');
+        if (alvo) { await alvo.click(); await page.waitForTimeout(4000); log('  listagem: cliquei no processo principal.'); }
+      }
       const html = await page.content();
       fs.writeFileSync(path.join(OUT, `${c.id}-cposg.html`), html);
       log(`  página do processo salva (${html.length} chars): ${c.id}-cposg.html`);
-      // links de acórdão/documento vinculado (PDF) na própria sessão
+      // candidatos a documento: href E onclick (o cposg abre docs por javascript)
       const links = await page.$$eval('a', as => as
-        .map(a => ({ href: a.href || '', texto: (a.textContent || '').trim() }))
-        .filter(l => /getArquivo|abrirDocumentoVinculado|pastadigital/i.test(l.href)));
-      log(`  ${links.length} link(s) de documento na página.`);
+        .map(a => ({ href: a.href || '', onclick: a.getAttribute('onclick') || '', texto: (a.textContent || '').trim() }))
+        .filter(l => /getArquivo|abrirDocumentoVinculado|pastadigital|exibirDocumento/i.test(l.href + ' ' + l.onclick)));
+      log(`  ${links.length} link(s)/onclick(s) de documento na página.`);
       let salvo = false;
+      let i = 0;
       for (const l of links.slice(0, 6)) {
+        i += 1;
+        const alvoUrl = l.href && /https?:/.test(l.href) ? l.href
+          : (l.onclick.match(/'(\/[^']+)'/) ? 'https://esaj.tjsp.jus.br' + l.onclick.match(/'(\/[^']+)'/)[1] : null);
+        if (!alvoUrl) continue;
         try {
-          const r = await page.request.get(l.href, { timeout: 60000 });
+          const r = await page.request.get(alvoUrl, { timeout: 60000 });
           const buf = Buffer.from(await r.body());
           if (ehPdf(buf)) {
             fs.writeFileSync(path.join(OUT, `${c.id}.pdf`), buf);
             log(`  OK: acórdão PDF via "${l.texto.slice(0, 60)}" (${buf.length} bytes)`);
             salvo = true; break;
           }
+          // não-PDF: salva p/ diagnóstico (viewer da pasta digital carrega o PDF por dentro)
+          fs.writeFileSync(path.join(OUT, `${c.id}-doc${i}.html`), buf);
+          log(`  doc${i}: não-PDF (${buf.length} bytes) salvo p/ diagnóstico — "${l.texto.slice(0, 50)}"`);
         } catch (e) { log(`  link falhou: ${String(e.message).split('\n')[0]}`); }
       }
-      if (!salvo) log('  PEND: sem PDF direto — o HTML salvo diagnostica o caminho (senha do processo? pasta digital?).');
+      if (!salvo) log('  PEND: sem PDF direto — diagnósticos salvos (viewer/pasta digital).');
     } catch (e) {
       log(`  PEND: cposg não abriu: ${String(e.message).split('\n')[0]}`);
     }
@@ -143,7 +191,10 @@ async function buscarAmpliacao(page) {
 (async () => {
   fs.mkdirSync(OUT, { recursive: true });
   const browser = await chromium.launch({ args: ['--no-sandbox'] });
-  const ctx = await browser.newContext({ acceptDownloads: true, userAgent:
+  // ignoreHTTPSErrors: portais .jus.br servem cadeia TLS incompleta (sem intermediário) e o
+  // request-context do Playwright rejeita ("unable to verify the first certificate" na rodada 1).
+  // Conteúdo é público e conferido por docID/nº CNJ + hash na extração — risco aceito e anotado.
+  const ctx = await browser.newContext({ acceptDownloads: true, ignoreHTTPSErrors: true, userAgent:
     'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36' });
   const page = await ctx.newPage();
   try { await page.goto('https://api.ipify.org', { timeout: 60000 }); log('IP público:', await page.textContent('body')); } catch (e) { log('IP: falhou', e.message); }

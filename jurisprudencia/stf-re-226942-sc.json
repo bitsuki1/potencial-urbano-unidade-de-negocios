@@ -26,12 +26,15 @@
   "fonte": {
     "origem": "web-oficial-parcial",
     "url": "https://redir.stf.jus.br/paginadorpub/paginador.jsp?docTP=AC&docID=592555",
-    "hash": "sha256:87f8a9f5ab60c73437bf1c735dc33d199a07a14bf5bd57079fcb5072fa413221",
+    "hash": "sha256:577eef56c9c4e0f9b07165c4ebc93544498bce6d07abc22ae3cde5a63d6c21a0",
     "hash_alvo": "jurisprudencia/stf-re-226942-sc.md",
     "captura_verbatim": "jurisprudencia/_capturas/stf-re-226942-sc-portal.txt",
-    "hash_nota": "hash do .md (ficha + certidão oficial verbatim). Captura parcial oficial em jurisprudencia/_capturas/stf-re-226942-sc-portal.txt — certidão de julgamento (1ª Turma 21.10.2008) VERBATIM do portal STF (downloadTexto.asp), 2026-08-07. NÃO é o inteiro teor. Inteiro teor completo PENDENTE (WAF AWS no redir.stf.jus.br; precisa runner-BR).",
+    "hash_nota": "hash da transcrição do corpus (.md) — cru ausente localmente (B-4/B-9); trocar pelo hash do cru quando ele chegar",
     "stf_incidente": "1703578",
-    "stf_docid_inteiro_teor": "592555"
+    "stf_docid_inteiro_teor": "592555",
+    "url_inteiro_teor": "https://redir.stf.jus.br/paginadorpub/paginador.jsp?docTP=AC&docID=592555",
+    "metodo_teor": "captura runner brasil (inteiro teor), extração pura 1.2",
+    "ocr": true
   },
   "status_pipeline": "indexado",
   "confianca_extracao": "media",
@@ -41,6 +44,9 @@
   "dominio": [
     "tdc"
   ],
-  "inteiro_teor_capturado": false,
-  "inteiro_teor_url_oficial": "https://redir.stf.jus.br/paginadorpub/paginador.jsp?docTP=AC&docID=592555"
+  "inteiro_teor_capturado": true,
+  "inteiro_teor_url_oficial": "https://redir.stf.jus.br/paginadorpub/paginador.jsp?docTP=AC&docID=592555",
+  "tipo_norma": "jurisprudencia",
+  "corte": "STF",
+  "classe": "RE"
 }

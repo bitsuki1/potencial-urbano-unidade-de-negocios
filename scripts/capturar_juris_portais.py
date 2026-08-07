@@ -227,7 +227,8 @@ def _grava(caso, res):
     meta["inteiro_teor_capturado"] = True
     meta["fonte"] = {**(meta.get("fonte") or {}),
                      "url_inteiro_teor": res.get("fonte"),
-                     "metodo_teor": "captura runner brasil (inteiro teor), extração pura 1.2", "ocr": False}
+                     "metodo_teor": "captura runner brasil (inteiro teor), extração pura 1.2",
+                     "ocr": bool(res.get("ocr"))}
     meta["status_pipeline"] = "bruto"
     meta.setdefault("revisado_por_humano", False)
     js.write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -271,16 +272,26 @@ def extrair():
     for caso in CASOS:
         cid = caso["id"]
         pdf = CAPTURAS / f"{cid}.pdf"
+        ocr_txt = CAPTURAS / f"{cid}-ocr.txt"
         html_f = CAPTURAS / f"{cid}-cposg.html"
         if pdf.exists():
+            fonte = (f"https://redir.stf.jus.br/paginadorpub/paginador.jsp?docTP=AC&docID={caso['stf_docid']}"
+                     if caso["corte"] == "STF" else f"e-SAJ TJSP (cposg 2º grau) — PDF em _capturas/{cid}.pdf")
             texto = _pdf_texto(pdf)
             if texto and len(texto) >= 500:
-                fonte = (f"https://redir.stf.jus.br/paginadorpub/paginador.jsp?docTP=AC&docID={caso['stf_docid']}"
-                         if caso["corte"] == "STF" else f"e-SAJ TJSP (cposg 2º grau) — PDF em _capturas/{cid}.pdf")
                 _grava(caso, {"texto": texto, "ementa": "", "fonte": fonte})
                 ok.append(cid)
                 print(f"  OK   {cid} (teor {len(texto)} chars do PDF oficial)")
                 continue
+            # PDF é digitalização (imagem): usa o OCR feito sobre o MESMO PDF oficial
+            # (pdftoppm 300dpi + tesseract por; o .pdf verbatim segue em _capturas como fonte)
+            if ocr_txt.exists():
+                texto = ocr_txt.read_text(encoding="utf-8", errors="replace").strip()
+                if len(texto) >= 500:
+                    _grava(caso, {"texto": texto, "ementa": "", "fonte": fonte, "ocr": True})
+                    ok.append(cid)
+                    print(f"  OK   {cid} (teor {len(texto)} chars via OCR do PDF oficial; ocr=true)")
+                    continue
             pend.append((cid, f"PDF capturado ({pdf.stat().st_size} bytes) mas SEM texto extraível — "
                               "digitalização/imagem; OCR é a próxima etapa. PDF verbatim preservado."))
             continue

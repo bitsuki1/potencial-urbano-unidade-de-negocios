@@ -29,12 +29,15 @@
   "fonte": {
     "origem": "web-oficial-parcial",
     "url": "https://redir.stf.jus.br/paginadorpub/paginador.jsp?docTP=AC&docID=524433",
-    "hash": "sha256:6bb3e3e263204225326941a69e62442a913c30d4a542a51615fad1fc20885945",
+    "hash": "sha256:6c6dd7ce076c8ed27c2f64e7814940a32d7653ef99d8caff6a8197f83381912c",
     "hash_alvo": "jurisprudencia/stf-re-387047-sc.md",
     "captura_verbatim": "jurisprudencia/_capturas/stf-re-387047-sc-portal.txt",
-    "hash_nota": "hash do .md (ficha + certidão oficial verbatim). Captura parcial oficial em jurisprudencia/_capturas/stf-re-387047-sc-portal.txt — certidões de julgamento (Plenário 21.02.2008 vista + 06.03.2008 final) e despachos, VERBATIM do portal STF (downloadTexto.asp), 2026-08-07. NÃO é o inteiro teor. Inteiro teor completo PENDENTE (WAF AWS no redir.stf.jus.br; precisa runner-BR).",
+    "hash_nota": "hash da transcrição do corpus (.md) — cru ausente localmente (B-4/B-9); trocar pelo hash do cru quando ele chegar",
     "stf_incidente": "2124203",
-    "stf_docid_inteiro_teor": "524433"
+    "stf_docid_inteiro_teor": "524433",
+    "url_inteiro_teor": "https://redir.stf.jus.br/paginadorpub/paginador.jsp?docTP=AC&docID=524433",
+    "metodo_teor": "captura runner brasil (inteiro teor), extração pura 1.2",
+    "ocr": true
   },
   "status_pipeline": "indexado",
   "confianca_extracao": "media",
@@ -44,6 +47,9 @@
   "dominio": [
     "tdc"
   ],
-  "inteiro_teor_capturado": false,
-  "inteiro_teor_url_oficial": "https://redir.stf.jus.br/paginadorpub/paginador.jsp?docTP=AC&docID=524433"
+  "inteiro_teor_capturado": true,
+  "inteiro_teor_url_oficial": "https://redir.stf.jus.br/paginadorpub/paginador.jsp?docTP=AC&docID=524433",
+  "tipo_norma": "jurisprudencia",
+  "corte": "STF",
+  "classe": "RE"
 }
