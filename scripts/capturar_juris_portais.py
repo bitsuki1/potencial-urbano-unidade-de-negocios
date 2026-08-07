@@ -20,6 +20,10 @@ como pendente e é relatado); nunca inventa conteúdo.
 Modos:
   --probe     : só testa alcance (HTTP 200) das fontes; não grava. (rota BR confirmada?)
   --capturar  : baixa e grava o que conseguir; relata sucesso/pendência caso a caso.
+  --extrair   : NÃO baixa nada — processa o que o NAVEGADOR real (capturar_juris_br.js,
+                Playwright no runner) já deixou em jurisprudencia/_capturas/ (<id>.pdf,
+                <id>-cposg.html) e grava .md/.json via _grava. É o modo do workflow
+                desde 2026-08-07 (o WAF do STF derruba o urllib puro; o download é do js).
   (sem flag)  : equivale a --probe (seguro por padrão).
 
 Dependências no runner: urllib (stdlib) + pypdf (PDF do STF). O workflow instala pypdf.
@@ -250,7 +254,57 @@ def capturar():
     return 0 if ok else 1
 
 
+def _extrai_ementa_cposg(html):
+    """Recorta a ementa/relator do HTML do cposg salvo pelo navegador (verbatim, sem interpretar)."""
+    ementa = _recorta(html, r'Ementa[:\s]*</?[^>]*>?(.{80,4000}?)<', flags=re.I | re.S)
+    relator = _recorta(html, r'Relator[^<]*</[^>]*>\s*<[^>]*>([^<]{3,120})', flags=re.I)
+    texto = re.sub(r"<[^>]+>", " ", html)
+    texto = re.sub(r"\s+", " ", texto).strip()
+    return ementa, relator, texto
+
+
+def extrair():
+    """Processa jurisprudencia/_capturas/ (deixado pelo capturar_juris_br.js no runner).
+    Fail-closed (1.3): PDF sem texto extraível (>=500 chars) fica PENDENTE com nota de OCR —
+    o PDF verbatim permanece em _capturas como fonte, nada é inventado."""
+    ok, pend = [], []
+    for caso in CASOS:
+        cid = caso["id"]
+        pdf = CAPTURAS / f"{cid}.pdf"
+        html_f = CAPTURAS / f"{cid}-cposg.html"
+        if pdf.exists():
+            texto = _pdf_texto(pdf)
+            if texto and len(texto) >= 500:
+                fonte = (f"https://redir.stf.jus.br/paginadorpub/paginador.jsp?docTP=AC&docID={caso['stf_docid']}"
+                         if caso["corte"] == "STF" else f"e-SAJ TJSP (cposg 2º grau) — PDF em _capturas/{cid}.pdf")
+                _grava(caso, {"texto": texto, "ementa": "", "fonte": fonte})
+                ok.append(cid)
+                print(f"  OK   {cid} (teor {len(texto)} chars do PDF oficial)")
+                continue
+            pend.append((cid, f"PDF capturado ({pdf.stat().st_size} bytes) mas SEM texto extraível — "
+                              "digitalização/imagem; OCR é a próxima etapa. PDF verbatim preservado."))
+            continue
+        if caso["corte"] == "TJSP" and html_f.exists():
+            html = html_f.read_text(encoding="utf-8", errors="replace")
+            ementa, relator, texto = _extrai_ementa_cposg(html)
+            if ementa and len(texto) >= 800:
+                _grava(caso, {"texto": texto[:20000], "ementa": ementa, "relator": relator or "",
+                              "fonte": f"e-SAJ TJSP cposg (HTML verbatim em _capturas/{cid}-cposg.html)"})
+                ok.append(cid)
+                print(f"  OK   {cid} (ementa do cposg; inteiro teor PDF segue pendente)")
+                continue
+            pend.append((cid, "HTML do cposg salvo mas sem ementa reconhecível — diagnosticar o caminho."))
+            continue
+        pend.append((cid, "sem captura em _capturas/ (o navegador não conseguiu ou não rodou)."))
+    print(f"\nEXTRAIR: {len(ok)} gravados, {len(pend)} pendentes.")
+    for cid, err in pend:
+        print(f"  - {cid}: {err}")
+    return 0 if ok else 1
+
+
 def main(argv):
+    if "--extrair" in argv:
+        return extrair()
     if "--capturar" in argv:
         if not probe():
             print("Rota BR não resolveu — abortando captura (fail-closed).")

@@ -1,16 +1,17 @@
 # capturar-br — roda no runner `brasil` (VPS com IP do Brasil, sem o proxy de egresso desta sessão).
-# Objetivo: destravar as fontes .gov.br que STF/STJ/GeoSampa só servem do Brasil.
+# Objetivo: destravar as fontes .gov.br que STF/STJ/TJSP só servem do Brasil.
 #   • Item 3/7 — inteiro teor da jurisprudência, metade-runner (STF RE 226942/387047 + TJSP AI cposg).
-#   • Item 4 — Quadro 14 (Valor de Terreno p/ Outorga Onerosa) citywide do GeoSampa (carga que falta).
-# PROVA primeiro (probe de alcance): se o runner pega o job e os .gov.br respondem 200, a rota está
-# confirmada. Depois `modo=capturar` grava o inteiro teor (fail-closed). push-triggered p/ o probe.
+#   • Item #21 — busca de ampliação TDC (STF API + SCON/STJ), resultado verbatim p/ curadoria.
+# Desde 2026-08-07 a CAPTURA é por NAVEGADOR REAL (Playwright em Docker, --network host — mesmo
+# padrão do geosampa-siszon.yml do hub): o WAF AWS do STF derruba urllib puro (desafio JS).
+# A EXTRAÇÃO (PDF→texto→.md/.json) segue no Python (capturar_juris_portais.py --extrair), fail-closed.
 name: capturar-br
 
 on:
   workflow_dispatch:
     inputs:
       modo:
-        description: "probe (só testa alcance) | capturar (grava o inteiro teor, fail-closed)"
+        description: "probe (só testa alcance) | capturar (navegador real + extração, fail-closed)"
         required: true
         default: "probe"
         type: choice
@@ -19,22 +20,21 @@ on:
     paths:
       - ".github/workflows/capturar-br.yml"
       - "scripts/capturar_juris_portais.py"
+      - "scripts/capturar_juris_br.js"
 
 concurrency:
   group: capturar-br
   cancel-in-progress: false
 
+permissions:
+  contents: write
+
 jobs:
   capturar-br:
     runs-on: [self-hosted, brasil]
-    timeout-minutes: 30
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.x"
-      - name: Instalar pypdf (extração do inteiro teor STF)
-        run: pip install --quiet pypdf
       - name: Probe da rota BR (curl bruto — independe do Python)
         run: |
           echo "runner: $(hostname) | IP público:"; curl -sS -m 20 https://api.ipify.org || true; echo
@@ -45,13 +45,30 @@ jobs:
             echo "=== $u ==="
             curl -sS -m 30 -o /dev/null -w "HTTP %{http_code} | %{time_total}s\n" "$u" || echo "FALHOU (rede/TLS)"
           done
-      - name: Jurisprudência (metade-runner) — modo=${{ github.event.inputs.modo || 'probe' }}
+      - name: Captura por navegador real (Playwright em Docker, IP-BR via --network host)
+        if: ${{ github.event.inputs.modo == 'capturar' }}
         run: |
-          if [ "${{ github.event.inputs.modo }}" = "capturar" ]; then
-            python3 scripts/capturar_juris_portais.py --capturar
-          else
-            python3 scripts/capturar_juris_portais.py --probe
-          fi
+          set -e
+          sudo docker --version
+          RUID=$(id -u); RGID=$(id -g)
+          mkdir -p jurisprudencia/_capturas
+          # PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1: a imagem já traz o Chromium (ver geosampa-siszon.yml)
+          sudo docker run --rm --network host \
+            --user "$RUID:$RGID" \
+            -e OUT_DIR=/work/jurisprudencia/_capturas -e HOME=/tmp \
+            -e PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1 \
+            -v "$GITHUB_WORKSPACE:/work" \
+            mcr.microsoft.com/playwright:v1.47.2-jammy \
+            sh -c "cd /tmp && npm install --no-save --no-audit --no-fund playwright@1.47.2 && NODE_PATH=/tmp/node_modules node /work/scripts/capturar_juris_br.js"
+      - uses: actions/setup-python@v5
+        if: ${{ github.event.inputs.modo == 'capturar' }}
+        with:
+          python-version: "3.x"
+      - name: Extração fail-closed (PDF/HTML capturados → .md/.json)
+        if: ${{ github.event.inputs.modo == 'capturar' }}
+        run: |
+          pip install --quiet pypdf
+          python3 scripts/capturar_juris_portais.py --extrair || true
       - name: Commit do que capturou (só se houver novos arquivos)
         if: ${{ github.event.inputs.modo == 'capturar' }}
         run: |
@@ -59,8 +76,8 @@ jobs:
           git config user.email "runner@potencial-urbano"
           git add jurisprudencia/ || true
           if ! git diff --cached --quiet; then
-            git commit -m "capturar-br: inteiro teor da jurisprudência (metade-runner) [skip ci]"
-            for i in 1 2 3 4; do git push && break || sleep $((2**i)); done
+            git commit -m "capturar-br: inteiro teor da jurisprudência (navegador real, metade-runner) [skip ci]"
+            for i in 1 2 3 4; do git push && break || { git pull --rebase || true; sleep $((2**i)); }; done
           else
             echo "nada novo para commitar (fail-closed ou já capturado)."
           fi
