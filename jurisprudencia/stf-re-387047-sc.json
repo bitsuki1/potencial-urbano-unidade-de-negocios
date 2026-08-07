@@ -27,19 +27,23 @@
     "nota": "acordao (resumo de metadados)"
   },
   "fonte": {
-    "origem": "web-extensao-resumo",
-    "url": "STF — https://portal.stf.jus.br/jurisprudencia/ (pesquisa de jurisprudencia)",
-    "hash": "sha256:6d1444126f6da748f4c6bd90dfc8971d7cf4ec7eed25f157e06455c707285658",
+    "origem": "web-oficial-parcial",
+    "url": "https://redir.stf.jus.br/paginadorpub/paginador.jsp?docTP=AC&docID=524433",
+    "hash": "sha256:6bb3e3e263204225326941a69e62442a913c30d4a542a51615fad1fc20885945",
     "hash_alvo": "jurisprudencia/stf-re-387047-sc.md",
-    "captura_verbatim": null,
-    "hash_nota": "hash do .md (FICHA de metadados). Inteiro teor NAO reproduzido (direitos autorais); verbatim a capturar no portal."
+    "captura_verbatim": "jurisprudencia/_capturas/stf-re-387047-sc-portal.txt",
+    "hash_nota": "hash do .md (ficha + certidão oficial verbatim). Captura parcial oficial em jurisprudencia/_capturas/stf-re-387047-sc-portal.txt — certidões de julgamento (Plenário 21.02.2008 vista + 06.03.2008 final) e despachos, VERBATIM do portal STF (downloadTexto.asp), 2026-08-07. NÃO é o inteiro teor. Inteiro teor completo PENDENTE (WAF AWS no redir.stf.jus.br; precisa runner-BR).",
+    "stf_incidente": "2124203",
+    "stf_docid_inteiro_teor": "524433"
   },
   "status_pipeline": "indexado",
   "confianca_extracao": "media",
   "revisado_por_humano": false,
-  "verificacao_verbatim": "RESUMO em linguagem propria (extensao) — inteiro teor NAO reproduzido por direitos autorais. Identificacao (processo/orgao/relator/data) confere.",
+  "verificacao_verbatim": "PARCIAL OFICIAL (2026-08-07): certidão(ões) de julgamento e proveniência de publicação capturadas VERBATIM do portal oficial (portal.stf.jus.br, acompanhamento processual) — identificação processo/órgão/relator/data/resultado CONFERIDA contra o portal. Inteiro teor (relatório + votos) AINDA NÃO capturado: redir.stf.jus.br exige desafio JS de WAF (x-amzn-waf-action: challenge), insuperável da sessão remota — PRECISA RUNNER-BR. Ementa/tese seguem em resumo próprio. Decisão judicial = domínio público (Lei 9.610/98, art. 8º, IV).",
   "dominio_primario": "tdc",
   "dominio": [
     "tdc"
-  ]
+  ],
+  "inteiro_teor_capturado": false,
+  "inteiro_teor_url_oficial": "https://redir.stf.jus.br/paginadorpub/paginador.jsp?docTP=AC&docID=524433"
 }

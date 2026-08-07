@@ -24,19 +24,23 @@
     "nota": "acordao (resumo de metadados)"
   },
   "fonte": {
-    "origem": "web-extensao-resumo",
-    "url": "STF — https://portal.stf.jus.br/jurisprudencia/ (pesquisa de jurisprudencia)",
-    "hash": "sha256:48e9b75d7e5beae38b333b2548415b5b3b3b1fac8af8fa90a4e4fbc5af18a55a",
+    "origem": "web-oficial-parcial",
+    "url": "https://redir.stf.jus.br/paginadorpub/paginador.jsp?docTP=AC&docID=592555",
+    "hash": "sha256:87f8a9f5ab60c73437bf1c735dc33d199a07a14bf5bd57079fcb5072fa413221",
     "hash_alvo": "jurisprudencia/stf-re-226942-sc.md",
-    "captura_verbatim": null,
-    "hash_nota": "hash do .md (FICHA de metadados). Inteiro teor NAO reproduzido (direitos autorais); verbatim a capturar no portal."
+    "captura_verbatim": "jurisprudencia/_capturas/stf-re-226942-sc-portal.txt",
+    "hash_nota": "hash do .md (ficha + certidão oficial verbatim). Captura parcial oficial em jurisprudencia/_capturas/stf-re-226942-sc-portal.txt — certidão de julgamento (1ª Turma 21.10.2008) VERBATIM do portal STF (downloadTexto.asp), 2026-08-07. NÃO é o inteiro teor. Inteiro teor completo PENDENTE (WAF AWS no redir.stf.jus.br; precisa runner-BR).",
+    "stf_incidente": "1703578",
+    "stf_docid_inteiro_teor": "592555"
   },
   "status_pipeline": "indexado",
   "confianca_extracao": "media",
   "revisado_por_humano": false,
-  "verificacao_verbatim": "RESUMO em linguagem propria (extensao) — inteiro teor NAO reproduzido por direitos autorais. Identificacao (processo/orgao/relator/data) confere.",
+  "verificacao_verbatim": "PARCIAL OFICIAL (2026-08-07): certidão(ões) de julgamento e proveniência de publicação capturadas VERBATIM do portal oficial (portal.stf.jus.br, acompanhamento processual) — identificação processo/órgão/relator/data/resultado CONFERIDA contra o portal. Inteiro teor (relatório + votos) AINDA NÃO capturado: redir.stf.jus.br exige desafio JS de WAF (x-amzn-waf-action: challenge), insuperável da sessão remota — PRECISA RUNNER-BR. Ementa/tese seguem em resumo próprio. Decisão judicial = domínio público (Lei 9.610/98, art. 8º, IV).",
   "dominio_primario": "tdc",
   "dominio": [
     "tdc"
-  ]
+  ],
+  "inteiro_teor_capturado": false,
+  "inteiro_teor_url_oficial": "https://redir.stf.jus.br/paginadorpub/paginador.jsp?docTP=AC&docID=592555"
 }
