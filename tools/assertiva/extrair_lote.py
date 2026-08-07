@@ -74,7 +74,21 @@ def main(argv):
     print("auth: OK")
 
     consultados = pulados = leads_criados = contatos_gravados = falhas = 0
-    con = None if dry else psycopg.connect(db_url)
+    # pooler do Supabase às vezes responde 'tenant not found' transitório — retenta com backoff
+    con = None
+    if not dry:
+        ultimo = None
+        for tent in range(4):
+            try:
+                con = psycopg.connect(db_url)
+                break
+            except Exception as e:
+                ultimo = e
+                print(f"  conexão DB falhou (tentativa {tent + 1}/4): {str(e)[:120]}")
+                time.sleep(3 * (tent + 1))
+        if con is None:
+            print(f"ERRO: banco inacessível após 4 tentativas: {ultimo}")
+            return 2
     try:
         for i, a in enumerate(alvos, 1):
             docn = a["proprietario_doc"].strip()
