@@ -41,11 +41,17 @@ CAPTURAS = JURIS / "_capturas"
 UA = "Mozilla/5.0 (X11; Linux x86_64) PU-runner-juris/1.0"
 
 # --- Casos da metade-runner (id do corpus, fonte, identificadores) ---
+# docID/incidente do inteiro teor: achados pela lente STF 2026-08-07 na base oficial
+# portal.stf.jus.br. URL direta: redir.stf.jus.br/paginadorpub/paginador.jsp?docTP=AC&docID=<docID>.
+# ATENÇÃO: redir/jurisprudencia.stf ficam atrás do WAF AWS ("goku", desafio JS) — a captura EXIGE
+# navegador real no runner brasil (Playwright, como os coletores GeoSampa); urllib puro leva 202/challenge.
 CASOS = [
     {"id": "stf-re-226942-sc", "corte": "STF", "classe": "RE", "numero": "226942",
-     "uf": "SC", "tema": ["solo_criado", "outorga_onerosa", "nao_e_tributo"]},
+     "uf": "SC", "stf_docid": "592555", "stf_incidente": "1703578",
+     "tema": ["solo_criado", "outorga_onerosa", "nao_e_tributo"]},
     {"id": "stf-re-387047-sc", "corte": "STF", "classe": "RE", "numero": "387047",
-     "uf": "SC", "tema": ["solo_criado", "outorga_onerosa", "nao_e_tributo"]},
+     "uf": "SC", "stf_docid": "524433", "stf_incidente": "2124203",
+     "tema": ["solo_criado", "outorga_onerosa", "nao_e_tributo"]},
     {"id": "tjsp-ai-2126162-35-2025", "corte": "TJSP", "classe": "AI",
      "numero_cnj": "2126162-35.2025.8.26.0000", "tema": ["tdc", "tombamento", "potencial_construtivo"]},
     {"id": "tjsp-ai-2257458-20-2024", "corte": "TJSP", "classe": "AI",
@@ -179,20 +185,47 @@ def _recorta(html, pat, flags=0):
 
 
 def _grava(caso, res):
+    """ACRESCENTA o inteiro teor sem clobrar o que já existe (ementa/tese/certidões/tema/vigência).
+    Correção 2026-08-07 (alerta da lente STF): antes usava write_text e apagava o .md/.json
+    prévios — perdia as certidões de julgamento e os metadados já curados (1.8: nada se joga fora)."""
     JURIS.mkdir(parents=True, exist_ok=True)
     md = JURIS / f"{caso['id']}.md"
     js = JURIS / f"{caso['id']}.json"
-    cab = f"# {caso['corte']} {caso.get('classe','')} {caso.get('numero') or caso.get('numero_cnj','')}\n\n"
-    md.write_text(cab + "## Inteiro teor (verbatim)\n\n" + res["texto"] + "\n", encoding="utf-8")
-    meta = {
-        "id": caso["id"], "tipo_norma": "jurisprudencia", "corte": caso["corte"],
-        "classe": caso.get("classe"), "numero": caso.get("numero") or caso.get("numero_cnj"),
-        "tema": caso.get("tema", []), "ementa": res.get("ementa", ""),
-        "relator": res.get("relator", ""),
-        "fonte": {"origem": f"portal {caso['corte']} (runner brasil)", "url": res.get("fonte"),
-                  "metodo": "captura runner-half (inteiro teor), extração pura 1.2", "ocr": False},
-        "status_pipeline": "bruto", "revisado_por_humano": False,
-    }
+    secao = "## Inteiro teor (verbatim)\n\n" + res["texto"] + "\n"
+    if md.exists():
+        atual = md.read_text(encoding="utf-8")
+        marca = "## Inteiro teor (verbatim)"
+        if marca in atual:
+            atual = atual[:atual.index(marca)].rstrip() + "\n\n"  # substitui só a seção do teor
+        md.write_text(atual.rstrip() + "\n\n" + secao, encoding="utf-8")
+    else:
+        cab = f"# {caso['corte']} {caso.get('classe','')} {caso.get('numero') or caso.get('numero_cnj','')}\n\n"
+        md.write_text(cab + secao, encoding="utf-8")
+
+    meta = {}
+    if js.exists():
+        try:
+            meta = json.loads(js.read_text(encoding="utf-8"))
+        except Exception:
+            meta = {}
+    # mescla: campos curados (tema, vigencia, dispositivos etc.) permanecem; só atualiza o teor/fonte
+    meta.setdefault("id", caso["id"])
+    meta.setdefault("tipo_norma", "jurisprudencia")
+    meta.setdefault("corte", caso["corte"])
+    meta.setdefault("classe", caso.get("classe"))
+    meta.setdefault("numero", caso.get("numero") or caso.get("numero_cnj"))
+    if not meta.get("tema"):
+        meta["tema"] = caso.get("tema", [])
+    if res.get("ementa") and not meta.get("ementa"):
+        meta["ementa"] = res["ementa"]
+    if res.get("relator"):
+        meta["relator"] = res["relator"]
+    meta["inteiro_teor_capturado"] = True
+    meta["fonte"] = {**(meta.get("fonte") or {}),
+                     "url_inteiro_teor": res.get("fonte"),
+                     "metodo_teor": "captura runner brasil (inteiro teor), extração pura 1.2", "ocr": False}
+    meta["status_pipeline"] = "bruto"
+    meta.setdefault("revisado_por_humano", False)
     js.write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
