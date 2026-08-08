@@ -48,6 +48,11 @@ CENTROIDES = RAIZ / "zepec/oficial/centroides_cedentes.csv"
 IPTU = RAIZ / "zepec/oficial/iptu2026_cedentes.csv"
 GEOCODE = HUB / "tools/pu-geo/geocode_474.csv"
 AUDIT = RAIZ / "zepec/oficial/_auditoria_zona_geocodificada.csv"
+# Resultado da coleta v5 (camada VIGENTE lida no centroide oficial do lote). É a evidência
+# MAIS NOVA que existe sobre estes lotes: quando ela responde, o motivo da pendência é o dela,
+# não o diagnóstico da rodada v4 que a antecedeu. Sem este arquivo o script segue funcionando
+# (primeira rodada, antes da coleta) e os motivos ficam os da v4.
+RESULTADO_V5 = HUB / "tools/pu-geo/zonas_v5.csv"
 
 OUT_HUB = HUB / "tools/pu-geo/alvos_zona_v5.csv"
 OUT_PU = RAIZ / "zepec/oficial/_pendencias_zona.csv"
@@ -58,6 +63,52 @@ def ler(p):
         return []
     with open(p, encoding="utf-8") as fh:
         return list(csv.DictReader(fh))
+
+
+def _regras_de_carga():
+    """Reaproveita as regras do carregador (Quadro 3 + regimes sem CAbás) em vez de copiá-las.
+    Duas cópias da mesma regra divergem com o tempo; aqui elas são literalmente o mesmo objeto."""
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    import carregar_zonas_v5 as cz
+    return cz.quadro3(), cz.SEM_CA_POR_REGIME
+
+
+def motivo_pela_v5(r, q3, sem_ca):
+    """(lacuna, motivo) a partir do que a camada VIGENTE devolveu no centroide OFICIAL do lote.
+
+    É o motivo mais VERDADEIRO que existe: descreve o estado de agora, não o diagnóstico da
+    rodada anterior. Sem isto um lote que a Lei 18.177/2024 diz ser PRAÇA seguiria rotulado
+    'ponto no eixo da via' — motivo de COLETA para uma pendência que é de REGIME (nenhuma
+    coleta futura resolve: o lote não tem CAbás porque é bem público não-edificável)."""
+    st, z = r["status"], r["zona_18177"].strip()
+    if st == "ok_vigente_18177" and z:
+        zu = z.upper()
+        if zu in sem_ca:
+            return ("E1_regime_sem_cabas",
+                    f"camada VIGENTE (Lei 18.177/2024) no centroide OFICIAL do lote devolveu "
+                    f"'{z}': {sem_ca[zu]}. Pendência de REGIME, não de coleta — recoletar não muda")
+        ca = q3.get(zu)
+        if ca is None:
+            return ("E2_zona_fora_do_quadro3",
+                    f"camada VIGENTE devolveu '{z}', que não consta no Quadro 3 da Lei 16.402/2016 "
+                    f"— sem CAbás tabelado. Pendência de REGIME, não de coleta")
+        if ca.upper() == "NA":
+            return ("E3_cabas_NA_no_quadro3",
+                    f"camada VIGENTE devolveu '{z}', com CAbás 'NA' no Quadro 3 da Lei 16.402/2016 "
+                    f"— sem CAbás tabelado. Pendência de REGIME, não de coleta")
+        return None  # tem CAbás: já entrou no SSOT, não é pendência
+    if st == "so_v3_ainda":
+        return ("A1_so_v3",
+                f"camada VIGENTE (Lei 18.177/2024) sem feição no ponto; só a camada ANTIGA "
+                f"v3/2004 responde ('{r['zona_v3']}'), cujo rótulo está fora do Quadro 3")
+    if st == "ponto_sem_zona":
+        return ("A2_ponto_sem_zona",
+                "ponto não interseccionou NENHUMA camada de zoneamento (nem a vigente, nem a v3)")
+    if st == "sem_ponto_de_partida":
+        return ("A5_sem_fonte_de_ponto",
+                "sem centroide oficial no lote_cidadao E endereço do IPTU não geocodificável "
+                "— não há de onde partir; bloqueio de FONTE, declarado")
+    return None
 
 
 def main():
@@ -77,8 +128,16 @@ def main():
     # (B) reprovados da auditoria de proveniência (primeiro: o motivo é mais específico
     #     que o "ausente do SSOT" de (A), já que a auditoria os REMOVEU do SSOT)
     for a in audit:
-        if a["veredito"] == "REPROVADO":
-            add(a["sql_mestre"], "B_proveniencia_reprovada", a["motivo"])
+        if a["veredito"] != "REPROVADO":
+            continue
+        # Reprovado que JÁ FOI RECOLETADO da camada vigente pelo centroide oficial do lote
+        # está PROVADO — a reprovação era do ponto antigo, não do lote. Sem esta guarda o
+        # mapa de pendências relista como pendente algo que o SSOT já traz com fonte oficial
+        # (foi o que aconteceu com 0040170009 e 0050660012 na 1ª regeneração pós-v5).
+        r = ssot.get(a["sql_mestre"])
+        if r and "Lei18177" in r["fonte"]:
+            continue
+        add(a["sql_mestre"], "B_proveniencia_reprovada", a["motivo"])
 
     # (A) os 474 da geocodificação que NÃO entraram no SSOT
     for sql, g in geo.items():
@@ -116,6 +175,36 @@ def main():
             add(sql, "D_rotulo_v3_no_ssot",
                 f"zona '{r['zona']}' é rótulo da LPUOS ANTIGA (Lei 13.885/2004), fora do Quadro 3 "
                 f"da Lei 16.402/2016; fonte='{r['fonte']}'")
+
+    # A v5 é a evidência mais nova: onde ela falou, o motivo é o DELA (o da v4 descrevia um
+    # ponto que nem era o do lote). Onde ela devolveu zona COM CAbás, o alvo já entrou no
+    # SSOT e deixa de ser pendência.
+    # Percorre TODO o resultado da v5, não só quem já estava na fila: um alvo cuja linha o
+    # carregador REMOVEU do SSOT (contradita pela camada vigente) deixa de ser pego pelas
+    # regras (C)/(D) — que leem o SSOT — e sumiria do mapa. Sumir é o oposto de fail-closed:
+    # quem perdeu o CAbás tem de aparecer como pendência DECLARADA, com o motivo.
+    res_v5 = {r["sql_mestre"]: r for r in ler(RESULTADO_V5)}
+    if res_v5:
+        q3, sem_ca = _regras_de_carga()
+        for sql, r in res_v5.items():
+            novo = motivo_pela_v5(r, q3, sem_ca)
+            if novo is None:
+                if sql in ssot and "Lei18177" in ssot[sql]["fonte"]:
+                    alvos.pop(sql, None)   # resolvido e carregado — não é pendência
+                continue
+            alvos[sql] = novo
+
+    # (E) CONTRADITOS que saíram do SSOT sem terem sido alvo da coleta (auto-contradição).
+    # Sem esta ponte eles sumiriam do mapa — o oposto de fail-closed. A trilha é escrita pelo
+    # `carregar_zonas_v5.py`; se ela não existir, nada muda (compatível com repositório antigo).
+    trilha = SSOT.parent / "_zona_contraditos.csv"
+    for r in ler(trilha):
+        sql = r["sql_mestre"]
+        if sql in ssot:
+            continue   # voltou ao SSOT por fonte oficial — não é pendência
+        alvos[sql] = ("E1_regime_sem_cabas",
+                      f"removido do SSOT: {r['motivo']} (tinha zona={r['zona_removida']} "
+                      f"CAbás={r['ca_removido']} por {r['fonte_removida']})")
 
     # resolve o ponto de cada alvo
     linhas = []

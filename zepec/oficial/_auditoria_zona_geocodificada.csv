@@ -1,7 +1,4 @@
 sql_mestre,zona_no_ssot,endereco_geocodificado,dist_ao_centroide_oficial_m,fora_do_municipio,veredito,motivo
-0050660012,ZEIS-1,"R  LINS, 7",20815,,REPROVADO,ponto a 20815 m do centroide OFICIAL do lote (limiar 500 m)
-0040170009,ZM,"R BR DE JAGUARA, 360",14156,,REPROVADO,ponto a 14156 m do centroide OFICIAL do lote (limiar 500 m)
-0360090001,ZEU,"AV  PAULISTA, 227",1815,,REPROVADO,ponto a 1815 m do centroide OFICIAL do lote (limiar 500 m)
 0732850001,AC-1,"R MAL LEITAO DE CARVALHO, 65",120,,APROVADO,ponto a 120 m do centroide oficial do lote
 0400850011,ZC,"AV  NAZARE, 470",83,,APROVADO,ponto a 83 m do centroide oficial do lote
 0130360022,ZC,"R  TEODORO SAMPAIO, 972",80,,APROVADO,ponto a 80 m do centroide oficial do lote
