@@ -27,10 +27,13 @@
   "fonte": {
     "origem": "web-extensao-resumo",
     "url": "TJSP e-SAJ (consulta processual 2o grau) — https://esaj.tjsp.jus.br/cposg/open.do",
-    "hash": "sha256:7d9d4e6ff6e432b49448fe9b1aae0fe70220fc20c9e3ddc090f056c3d139ed08",
+    "hash": "sha256:7b71aaf4ababeddbe0cf9cba9d7e1170b6e88fbeb8f30238063f685e0d97a579",
     "hash_alvo": "jurisprudencia/tjsp-apciv-0000177-09-2017.md",
-    "captura_verbatim": null,
-    "hash_nota": "hash do .md (FICHA de metadados). Inteiro teor NAO reproduzido (direitos autorais); verbatim a capturar no portal."
+    "captura_verbatim": "jurisprudencia/_capturas/tjsp-apciv-0000177-09-2017.txt",
+    "hash_nota": "hash do .md (transcrição do corpus); hash do PDF cru registrado no próprio md",
+    "url_inteiro_teor": "e-SAJ TJSP — https://esaj.tjsp.jus.br/cjsg/getArquivo.do?cdAcordao=10898038&cdForo=0 (Registro 2017.0000802280, Apelação) + ED em _capturas/tjsp-apciv-0000177-09-2017-ed.pdf; PDF oficial em _capturas/tjsp-apciv-0000177-09-2017.pdf",
+    "metodo_teor": "Apelação (acórdão principal) + ED: PDFs oficiais entregues pelo dono (navegador logado), extração pura 1.2",
+    "ocr": false
   },
   "status_pipeline": "indexado",
   "confianca_extracao": "media",
@@ -39,5 +42,6 @@
   "dominio_primario": "tdc",
   "dominio": [
     "tdc"
-  ]
+  ],
+  "inteiro_teor_capturado": true
 }

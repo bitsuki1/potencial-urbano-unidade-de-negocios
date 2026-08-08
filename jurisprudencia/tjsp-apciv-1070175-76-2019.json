@@ -27,10 +27,15 @@
   "fonte": {
     "origem": "web-extensao-resumo",
     "url": "TJSP e-SAJ (consulta processual 2o grau) — https://esaj.tjsp.jus.br/cposg/open.do",
-    "hash": "sha256:a60c35a544630f8bf308ae75ce4f671376aa2b15f8b11bc9d8e231aa8dd73867",
+    "hash": "sha256:31c6471ea57faf2341dc2fdeddee150146ad29c77d86b5e451adb6ded0ca598b",
     "hash_alvo": "jurisprudencia/tjsp-apciv-1070175-76-2019.md",
-    "captura_verbatim": null,
-    "hash_nota": "hash do .md (FICHA de metadados). Inteiro teor NAO reproduzido (direitos autorais); verbatim a capturar no portal."
+    "captura_verbatim": "jurisprudencia/_capturas/tjsp-apciv-1070175-76-2019.txt",
+    "hash_nota": "hash do .md (transcrição do corpus); hash do PDF cru registrado no próprio md",
+    "captura_ed_verbatim": "jurisprudencia/_capturas/tjsp-apciv-1070175-76-2019-ed.pdf",
+    "nota_ed": "ED (Registro 2021.0000912070) VERBATIM entregue pelo dono via extensão 2026-08-07; ACÓRDÃO PRINCIPAL da Apelação segue pendente (2º resultado da CJSG, via getArquivo.do).",
+    "url_inteiro_teor": "e-SAJ TJSP — https://esaj.tjsp.jus.br/cjsg/getArquivo.do?cdAcordao=15052490&cdForo=0 (Registro 2021.0000775397); PDF oficial em _capturas/tjsp-apciv-1070175-76-2019.pdf",
+    "metodo_teor": "Apelação Cível (acórdão principal): PDF oficial entregue pelo dono (extensão/navegador), extração pura 1.2",
+    "ocr": false
   },
   "status_pipeline": "indexado",
   "confianca_extracao": "media",
@@ -39,5 +44,6 @@
   "dominio_primario": "tdc",
   "dominio": [
     "tdc"
-  ]
+  ],
+  "inteiro_teor_capturado": true
 }

@@ -44,9 +44,13 @@ jobs:
         run: |
           git config user.name "confrontacao-bot"
           git config user.email "confrontacao-bot@users.noreply.github.com"
-          git add inventario/gas-log-*-confrontacao-sa.txt inventario/confrontacao-drive.json \
-                  inventario/INDICE-MESTRE-DRIVE.csv inventario/arrumacao-log.csv \
-                  inventario/cross-tree-dups.csv || true
+          # um pathspec inexistente aborta o git add INTEIRO (aconteceu 2026-08-07 com
+          # cross-tree-dups.csv já consumido) — adiciona um a um, cada qual com tolerância
+          for f in inventario/gas-log-*-confrontacao-sa.txt inventario/confrontacao-drive.json \
+                   inventario/INDICE-MESTRE-DRIVE.csv inventario/arrumacao-log.csv \
+                   inventario/cross-tree-dups.csv; do
+            git add "$f" 2>/dev/null || true
+          done
           if git diff --cached --quiet; then echo "nada a commitar"; exit 0; fi
           git commit -m "confrontação SA índice×Drive: prova pós-Apps Script (movidos/nativos/excluídos) + índice-mestre reconciliado"
           for t in 1 2 4 8; do

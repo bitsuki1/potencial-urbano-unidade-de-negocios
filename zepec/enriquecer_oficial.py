@@ -132,6 +132,12 @@ def _precificar(r, saldo, vendido_bloqueado, pend, n):
         preco_base = min(saldo, LIMITE_PARCELAMENTO)
         preco = (preco_base * Decimal(str(vq))).quantize(Decimal("0.01"))
         r["preco_proxy_brl"] = str(preco); n["preco"] += 1
+        # colunas MENOR e MAIOR (dono 2026-08-07): preço nas duas pontas das faces do SQ
+        # (Dec. 57.536/2016 Art. 3º IV p/ o MAIOR). Sem multi-face, as duas = face única.
+        vmin = r.get("v_outorga_min_q14") or vq
+        vmax = r.get("v_outorga_max_q14") or vq
+        r["preco_proxy_menor_brl"] = str((preco_base * Decimal(str(vmin))).quantize(Decimal("0.01")))
+        r["preco_proxy_maior_brl"] = str((preco_base * Decimal(str(vmax))).quantize(Decimal("0.01")))
         if saldo > LIMITE_PARCELAMENTO:
             r["parcelas_anuais"] = "10"
 
@@ -153,6 +159,9 @@ def main():
     for (sq, codlog), val in q14.items():
         q14_por_sq[sq].append(Decimal(val))
     q14_max = {sq: max(vals) for sq, vals in q14_por_sq.items()}
+    # Decisão do dono (2026-08-07): "coluna MAIOR e coluna MENOR" — as duas pontas das faces
+    # do SQ lado a lado (dialético: nenhuma escolha esconde a outra; a margem é do usuário).
+    q14_min = {sq: min(vals) for sq, vals in q14_por_sq.items()}
     # MAT-3 — fallback DECLARADO da face: quando a face fiscal (codlog do IPTU) não casa nenhuma face do
     # Q14 da quadra, usa a MEDIANA das faces oficiais do SQ (todas são Q14 oficial; zero dado inventado).
     # Só se aplica onde o SQ ESTÁ coberto; o número fica marcado v_q14_origem='mediana_sq' (rastreável, 1.3).
@@ -169,7 +178,7 @@ def main():
 
     rows = list(csv.DictReader(open(AQUI / "ferramenta/zepec_cedentes.csv", encoding="utf-8")))
     extras = ["area_terreno_m2", "area_construida_m2", "valor_m2_terreno_iptu", "v_outorga_m2_q14",
-              "v_outorga_max_q14",
+              "v_outorga_min_q14", "v_outorga_max_q14", "preco_proxy_menor_brl", "preco_proxy_maior_brl",
               "zona", "ca_basico", "fi_aplicado", "fsce_aplicado", "pcpt_m2", "saldo_pcpt_m2", "parcelas_anuais",
               "preco_proxy_brl", "uso_iptu", "cobertura_oficial", "memoria_calculo", "pendencia_calculo",
               # T3 — regime do PCpt: separa já-declarado (Art.125 §1º I) de prospecção nova (Art.24 caput).
@@ -234,6 +243,7 @@ def main():
             vmax = q14_max.get(sq6)
             if vmax is not None:
                 r["v_outorga_max_q14"] = str(vmax)
+                r["v_outorga_min_q14"] = str(q14_min[sq6])
                 if v and Decimal(v) < vmax:
                     n["multi_face"] += 1
                     pend.append(f"Decreto 57.536/2016 Art. 3º IV: se lote tem frente p/ distintas faces, "
@@ -324,6 +334,7 @@ def main():
             if m.get("saldo_pcpt_m2"): n["saldo"] -= 1
             if m.get("preco_proxy_brl"): n["preco"] -= 1
             m["saldo_pcpt_m2"] = ""; m["preco_proxy_brl"] = ""
+            m["preco_proxy_menor_brl"] = ""; m["preco_proxy_maior_brl"] = ""
             m["pendencia_calculo"] = (m["pendencia_calculo"].replace("OK (Atc+CAbás+V) — cálculo completo", "").strip(" |")
                                       + " | " + nota).strip(" |")
 

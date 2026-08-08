@@ -15,7 +15,9 @@ IDEMPOTENTE: pula documento cujo lead principal já tem contato fonte='assertiva
 Custo-consciente (1.4): --limite N corta o lote (validação começa com N pequeno).
 
 Env: ASSERTIVA_CLIENT_ID/SECRET, SUPABASE_DB_URL.
-Uso: python3 tools/assertiva/extrair_lote.py [--limite N] [--dry-run]
+Uso: python3 tools/assertiva/extrair_lote.py [--limite N] [--dry-run] [--alvos ARQ.csv]
+(--alvos: outro arquivo de alvos no mesmo schema — ex. alvos_lote2_radial.csv; o rótulo do
+lote no payload/nota vira o nome do arquivo, p/ auditoria por lote.)
 """
 import csv
 import json
@@ -36,6 +38,15 @@ def achar_contatos(obj, saida=None, trilha=""):
     if saida is None:
         saida = []
     if isinstance(obj, dict):
+        # Forma REAL do Localize v3 (Swagger da conta, 2026-08-07): telefones vivem em
+        # resposta.telefones.{fixos,moveis}[].numero — a CHAVE é 'numero' e o heurístico
+        # por nome de chave não pegava (lote-100: 457 e-mails, 0 fones; 166 recuperados
+        # depois por reparse SQL do payload arquivado). WhatsApp = aplicativos.whatsapp.
+        if "numero" in obj and any(t in trilha.lower() for t in ("telefone", "fixos", "moveis")):
+            s = str(obj.get("numero") or "").strip()
+            if sum(c.isdigit() for c in s) >= 10:
+                whats = bool((obj.get("aplicativos") or {}).get("whatsapp"))
+                saida.append(("whatsapp" if whats else "telefone", s, trilha + "/numero"))
         for k, v in obj.items():
             kl = k.lower()
             if isinstance(v, (str, int)) and str(v).strip():
@@ -71,6 +82,10 @@ def main(argv):
     debug_estrutura = "--debug-estrutura" in argv
     if "--limite" in argv:
         limite = int(argv[argv.index("--limite") + 1])
+    alvos_path = ALVOS
+    if "--alvos" in argv:
+        alvos_path = Path(__file__).parent / argv[argv.index("--alvos") + 1]
+    lote_rotulo = alvos_path.stem.replace("alvos_", "")
 
     import psycopg  # psycopg3 (instalado no workflow)
     db_url = os.environ.get("SUPABASE_DB_URL")
@@ -78,7 +93,8 @@ def main(argv):
         print("ERRO: SUPABASE_DB_URL ausente.")
         return 2
 
-    alvos = list(csv.DictReader(open(ALVOS)))
+    alvos = list(csv.DictReader(open(alvos_path)))
+    print(f"alvos: {alvos_path.name} (lote={lote_rotulo})")
     if limite:
         alvos = alvos[:limite]
     print(f"lote: {len(alvos)} donos únicos (limite={limite}, dry={dry})")
@@ -87,7 +103,7 @@ def main(argv):
     cli.token()
     print("auth: OK")
 
-    consultados = pulados = leads_criados = contatos_gravados = falhas = 0
+    consultados = pulados = leads_criados = contatos_gravados = falhas = nao_encontrados = 0
     # pooler do Supabase intermitente ('tenant not found' esporádico): retenta MUITO, com
     # backoff e alternando a porta de sessão (5432) com a de transação (6543) do Supavisor.
     con = None
@@ -144,6 +160,28 @@ def main(argv):
             http_status = None
             if isinstance(resp, tuple):
                 resp, http_status = (resp + (None,))[:2]
+            if http_status == 404:
+                # doc NÃO ENCONTRADO na base do bureau (comum: CNPJ da safra IPTU 2016/2020 já
+                # extinto/alterado). É RESULTADO, não falha de infra — registra nota p/ a
+                # idempotência NUNCA re-consultar (re-pagar) o mesmo doc (tranche-1 lote-2:
+                # 141/200 eram 404 e ficariam em loop de re-cobrança).
+                nao_encontrados += 1
+                if con:
+                    with con.cursor() as cur:
+                        for s in sqls:
+                            cur.execute(
+                                "insert into public.crm_lead (sql_mestre, estagio, proprietario_nome, fonte_nome) "
+                                "values (%s,'novo',%s,%s) on conflict (sql_mestre) do nothing",
+                                (s, a.get("proprietario") or None, a.get("fonte_nome") or None))
+                        cur.execute(
+                            "insert into public.crm_nota (lead_id, texto) "
+                            "select id, 'Assertiva Localize (' || %s || '): documento NÃO ENCONTRADO "
+                            "na base do bureau (HTTP 404) — não re-consultar' "
+                            "from public.crm_lead where sql_mestre=%s limit 1",
+                            (lote_rotulo, sqls[0]))
+                    con.commit()
+                time.sleep(0.4)
+                continue
             if http_status is not None and http_status != 200:
                 erro_txt = ""
                 if isinstance(resp, dict):
@@ -179,26 +217,35 @@ def main(argv):
                         "returning id", (s, a.get("proprietario") or None, a.get("fonte_nome") or None))
                     lead_ids.append(cur.fetchone()[0])
                     leads_criados += 1
-                payload = json.dumps({"consulta": "localize/v3", "doc_final": docn[-4:], "resposta": resp},
+                payload = json.dumps({"consulta": "localize/v3", "lote": lote_rotulo, "doc_final": docn[-4:], "resposta": resp},
                                      ensure_ascii=False)[:200000]
                 for lid in lead_ids:
                     for tipo, valor, origem in unicos:
                         cur.execute(
                             "insert into public.crm_contato (lead_id, tipo, valor, fonte, payload) "
-                            "values (%s,%s,%s,'assertiva', jsonb_build_object('origem',%s,'lote','lote1-triangulo'))",
-                            (lid, tipo if tipo in ("telefone", "whatsapp", "email") else "telefone", valor, origem))
+                            # %s::text: jsonb_build_object aceita 'any' e o psycopg não infere o tipo
+                            # do parâmetro (IndeterminateDatatype na estreia do lote-2, 2026-08-07)
+                            "values (%s,%s,%s,'assertiva', jsonb_build_object('origem',%s::text,'lote',%s::text))",
+                            (lid, tipo if tipo in ("telefone", "whatsapp", "email") else "telefone", valor, origem, lote_rotulo))
                         contatos_gravados += 1
                     # payload bruto completo uma vez por dono, no primeiro lead
                     if lid == lead_ids[0]:
                         cur.execute(
                             "insert into public.crm_nota (lead_id, texto) values (%s, %s)",
-                            (lid, "Assertiva Localize (lote1-triângulo): payload bruto arquivado no contato; "
+                            (lid, f"Assertiva Localize ({lote_rotulo}): payload bruto arquivado no contato; "
                                   f"{len(unicos)} contato(s) p/ {len(sqls)} imóvel(is) deste dono."))
+                        # PROVA DA CONSULTA PAGA — sempre na NOTA (auditoria 2026-08-08).
+                        # História: o arquivamento antigo fazia um UPDATE no contato mais antigo do
+                        # lead exigindo `payload->>'origem' is not null`. Depois do 1º update aquele
+                        # contato passa a ter o payload COMPLETO (sem a chave 'origem'), então toda
+                        # consulta seguinte que tocasse o MESMO lead (dono com vários imóveis, ou
+                        # re-consulta) não casava a condição e o bruto ia para o limbo — 35 das 123
+                        # consultas do lote-1 ficaram sem prova nenhuma (dinheiro gasto sem lastro).
+                        # A nota é append-only: não depende de estado anterior e nunca sobrescreve.
                         cur.execute(
-                            "update public.crm_contato set payload=%s::jsonb where lead_id=%s and fonte='assertiva' "
-                            "and payload->>'origem' is not null and id = (select id from public.crm_contato "
-                            "where lead_id=%s and fonte='assertiva' order by consultado_em limit 1)",
-                            (payload, lid, lid))
+                            "insert into public.crm_nota (lead_id, texto) values (%s, %s)",
+                            (lid, f"Assertiva payload bruto ({lote_rotulo}, "
+                                  f"{len(unicos)} contato(s)): " + payload))
             con.commit()
             time.sleep(0.4)
     finally:
@@ -206,7 +253,7 @@ def main(argv):
             con.close()
     print("=== FIM ===")
     print(f"consultados={consultados} pulados(idempotência)={pulados} leads={leads_criados} "
-          f"contatos={contatos_gravados} falhas={falhas}")
+          f"contatos={contatos_gravados} nao_encontrados_404={nao_encontrados} falhas={falhas}")
     return 0 if falhas < max(1, consultados) else 1
 
 

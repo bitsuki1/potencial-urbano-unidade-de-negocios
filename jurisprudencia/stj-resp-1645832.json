@@ -16,10 +16,13 @@
   "fonte": {
     "origem": "web-oficial",
     "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2022/06112022-ITBI-e-IPTU-o-STJ-e-os-impostos-municipais-que-incidem-sobre-imoveis--parte-2-.aspx",
-    "hash": "sha256:f07920d766a50c9e1935d1b1c5c9b323bf8efd8b5b71c943c6c67e3dc1384855",
+    "hash": "sha256:59f780f13d760ef5892aae4c3f7e88247406f6ff6969386bae4637ebc5302e03",
     "captura_verbatim": "jurisprudencia/_capturas/stj-resp-1645832.txt",
     "hash_alvo": "jurisprudencia/stj-resp-1645832.md",
-    "hash_nota": "hash da transcrição do corpus (.md) — cru ausente localmente (B-4/B-9); trocar pelo hash do cru quando ele chegar"
+    "hash_nota": "hash da transcrição do corpus (.md) — cru ausente localmente (B-4/B-9); trocar pelo hash do cru quando ele chegar",
+    "url_inteiro_teor": "https://processo.stj.jus.br/SCON/GetInteiroTeorDoAcordao?num_registro=201603212504&dt_publicacao=19%2F04%2F2017",
+    "num_registro_stj": "201603212504",
+    "registro_stj": "2016/0321250-4"
   },
   "status_pipeline": "indexado",
   "confianca_extracao": "alta",
@@ -28,5 +31,6 @@
   "dominio_primario": "iptu",
   "dominio": [
     "iptu"
-  ]
+  ],
+  "inteiro_teor_capturado": false
 }

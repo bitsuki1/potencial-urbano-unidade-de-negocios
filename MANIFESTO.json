@@ -1,6 +1,6 @@
 {
   "_doc": "Fonte da verdade do status_pipeline de cada item. GERADO por scripts/consolidar.py a partir dos .json individuais — NAO editar a mao (Principio 1.5/2.3 do CLAUDE.md). Roda a cada push via .github/workflows/consolidar.yml.",
-  "gerado_em": "2026-08-07T14:17:02.524575+00:00",
+  "gerado_em": "2026-08-07T22:23:45.758920+00:00",
   "vocabulario_status": [
     "bruto",
     "fatiado",
@@ -16,8 +16,7 @@
     "fora_de_escopo": 0,
     "_nota": "por_status_pipeline conta SÓ os ativos_no_escopo. Os 2 fora-de-escopo históricos (stf-tema-1020/ISS, stj-resp-1658054/previdenciário) foram ARQUIVADOS por decisão do dono em 2026-07-05 (git rm; recuperáveis pelo histórico).",
     "por_status_pipeline_ativos": {
-      "indexado": 130,
-      "bruto": 2
+      "indexado": 132
     },
     "status_ilegais_encontrados": [],
     "verbatim_integral_ativos": 93,
@@ -42,10 +41,7 @@
     "itens_fora_de_escopo": [],
     "indexado_sem_chunks_no_indice": [],
     "_nota_divergencia": "NV-1 (2026-06-27): ids que dizem status_pipeline=indexado mas NAO tem chunk no rag/index = FALSO-VERDE; o gate (fechar-instancia.py / gate-fechamento.sh) FALHA se esta lista nao for vazia. Vazia = todo 'indexado' e provado pelo indice.",
-    "chunks_sem_status_indexado": [
-      "stf-re-226942-sc",
-      "stf-re-387047-sc"
-    ],
+    "chunks_sem_status_indexado": [],
     "_nota_nao_promovido": "NV-1 reverso (RAG-02, 2026-07-10): ids que TEM chunks no indice mas o JSON NAO diz 'indexado' = status atrasado. Rode indexar.py para promover.",
     "indexado_verbatim_sem_vigencia_datada": [],
     "_nota_vigencia": "B-7 (1.6): leis verbatim/indexadas que ainda nao tem vigencia.inicio datada. Gap declarado (nao bloqueia o gate) — a datacao das 13 municipais bruto depende do verbatim do Drive (B-4).",
@@ -205,7 +201,7 @@
       "tipo": "jurisprudencia",
       "caminho_md": "jurisprudencia/stf-re-226942-sc.md",
       "caminho_json": "jurisprudencia/stf-re-226942-sc.json",
-      "status_pipeline": "bruto",
+      "status_pipeline": "indexado",
       "status_valido": true,
       "confianca_extracao": "media",
       "verbatim_integral": false,
@@ -220,7 +216,7 @@
       "tipo": "jurisprudencia",
       "caminho_md": "jurisprudencia/stf-re-387047-sc.md",
       "caminho_json": "jurisprudencia/stf-re-387047-sc.json",
-      "status_pipeline": "bruto",
+      "status_pipeline": "indexado",
       "status_valido": true,
       "confianca_extracao": "media",
       "verbatim_integral": false,
@@ -382,7 +378,7 @@
     },
     {
       "id": "stj-agrg-aresp-179340-sp",
-      "tipo": "acordao",
+      "tipo": "jurisprudencia",
       "caminho_md": "jurisprudencia/stj-agrg-aresp-179340-sp.md",
       "caminho_json": "jurisprudencia/stj-agrg-aresp-179340-sp.json",
       "status_pipeline": "indexado",
@@ -412,7 +408,7 @@
     },
     {
       "id": "stj-resp-1130545",
-      "tipo": "recurso_repetitivo",
+      "tipo": "jurisprudencia",
       "caminho_md": "jurisprudencia/stj-resp-1130545.md",
       "caminho_json": "jurisprudencia/stj-resp-1130545.json",
       "status_pipeline": "indexado",
@@ -742,7 +738,7 @@
     },
     {
       "id": "tjsp-apciv-0000175-39-2017",
-      "tipo": "acordao",
+      "tipo": "jurisprudencia",
       "caminho_md": "jurisprudencia/tjsp-apciv-0000175-39-2017.md",
       "caminho_json": "jurisprudencia/tjsp-apciv-0000175-39-2017.json",
       "status_pipeline": "indexado",

@@ -123,10 +123,20 @@ class AssertivaClient:
 
     # --- 1) Localizar / enriquecer contato (Localize v3) ---
     def localizar(self, documento, tipo=None):
-        """documento = CPF (11) ou CNPJ (14). tipo = 'CPF'|'CNPJ' (auto pelo tamanho)."""
+        """documento = CPF (11) ou CNPJ (14). tipo = 'CPF'|'CNPJ' (auto pelo tamanho).
+        ROTA REAL confirmada pelo Swagger da conta (entregue pelo dono 2026-08-07,
+        tools/assertiva/swagger-localize-v3.json): GET /localize/v3/cpf?cpf=...&idFinalidade=N
+        e GET /localize/v3/cnpj?cnpj=...&idFinalidade=N (query-string; as rotas antigas
+        /localize/v3/localizar|consulta eram chute da sonda e davam 403/404).
+        idFinalidade (LGPD, obrigatório): 1 identidade · 2 ciclo de crédito · 4 execução de
+        contrato · 5 legítimo interesse. Padrão 5 (prospecção do Motor Comercial); o dono
+        pode trocar via env ASSERTIVA_ID_FINALIDADE."""
         so_num = "".join(ch for ch in str(documento) if ch.isdigit())
         tipo = tipo or ("CNPJ" if len(so_num) == 14 else "CPF")
-        return self.chamar("GET", "/localize/v3/localizar", params={"id": so_num, "tipo": tipo})
+        fin = os.environ.get("ASSERTIVA_ID_FINALIDADE", "5")
+        if tipo == "CNPJ":
+            return self.chamar("GET", "/localize/v3/cnpj", params={"cnpj": so_num, "idFinalidade": fin})
+        return self.chamar("GET", "/localize/v3/cpf", params={"cpf": so_num, "idFinalidade": fin})
 
     # --- 2) Validar / qualificar CPF-CNPJ ---
     def validar_cpf(self, cpf):
