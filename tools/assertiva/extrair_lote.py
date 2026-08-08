@@ -234,19 +234,18 @@ def main(argv):
                             "insert into public.crm_nota (lead_id, texto) values (%s, %s)",
                             (lid, f"Assertiva Localize ({lote_rotulo}): payload bruto arquivado no contato; "
                                   f"{len(unicos)} contato(s) p/ {len(sqls)} imóvel(is) deste dono."))
+                        # PROVA DA CONSULTA PAGA — sempre na NOTA (auditoria 2026-08-08).
+                        # História: o arquivamento antigo fazia um UPDATE no contato mais antigo do
+                        # lead exigindo `payload->>'origem' is not null`. Depois do 1º update aquele
+                        # contato passa a ter o payload COMPLETO (sem a chave 'origem'), então toda
+                        # consulta seguinte que tocasse o MESMO lead (dono com vários imóveis, ou
+                        # re-consulta) não casava a condição e o bruto ia para o limbo — 35 das 123
+                        # consultas do lote-1 ficaram sem prova nenhuma (dinheiro gasto sem lastro).
+                        # A nota é append-only: não depende de estado anterior e nunca sobrescreve.
                         cur.execute(
-                            "update public.crm_contato set payload=%s::jsonb where lead_id=%s and fonte='assertiva' "
-                            "and payload->>'origem' is not null and id = (select id from public.crm_contato "
-                            "where lead_id=%s and fonte='assertiva' order by consultado_em limit 1)",
-                            (payload, lid, lid))
-                        # dono SEM contato retornado: não há linha em crm_contato p/ carregar o
-                        # payload — o bruto ia pro limbo (lote-1: 27/56 arquivados; os 29 restantes
-                        # eram exatamente os sem contato). Arquiva na PRÓPRIA nota (auditoria:
-                        # toda consulta paga deixa prova).
-                        if not unicos:
-                            cur.execute(
-                                "insert into public.crm_nota (lead_id, texto) values (%s, %s)",
-                                (lid, "Assertiva payload bruto (sem contato retornado): " + payload))
+                            "insert into public.crm_nota (lead_id, texto) values (%s, %s)",
+                            (lid, f"Assertiva payload bruto ({lote_rotulo}, "
+                                  f"{len(unicos)} contato(s)): " + payload))
             con.commit()
             time.sleep(0.4)
     finally:
