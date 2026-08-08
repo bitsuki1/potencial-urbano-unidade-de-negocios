@@ -1,0 +1,327 @@
+sql_mestre,zona_no_ssot,endereco_geocodificado,dist_ao_centroide_oficial_m,fora_do_municipio,veredito,motivo
+0050660012,ZEIS-1,"R  LINS, 7",20815,,REPROVADO,ponto a 20815 m do centroide OFICIAL do lote (limiar 500 m)
+0040170009,ZM,"R BR DE JAGUARA, 360",14156,,REPROVADO,ponto a 14156 m do centroide OFICIAL do lote (limiar 500 m)
+0360090001,ZEU,"AV  PAULISTA, 227",1815,,REPROVADO,ponto a 1815 m do centroide OFICIAL do lote (limiar 500 m)
+0732850001,AC-1,"R MAL LEITAO DE CARVALHO, 65",120,,APROVADO,ponto a 120 m do centroide oficial do lote
+0400850011,ZC,"AV  NAZARE, 470",83,,APROVADO,ponto a 83 m do centroide oficial do lote
+0130360022,ZC,"R  TEODORO SAMPAIO, 972",80,,APROVADO,ponto a 80 m do centroide oficial do lote
+0230100011,ZC,"R  GUAICURUS, 1016",80,,APROVADO,ponto a 80 m do centroide oficial do lote
+0130360021,ZC,"R  TEODORO SAMPAIO, 972",76,,APROVADO,ponto a 76 m do centroide oficial do lote
+0130360020,ZC,"R  TEODORO SAMPAIO, 972",71,,APROVADO,ponto a 71 m do centroide oficial do lote
+1000370023,ZEU,"R  ORFANATO, 883",70,,APROVADO,ponto a 70 m do centroide oficial do lote
+0250380072,ZDE-1,"R  JOLI, 294",68,,APROVADO,ponto a 68 m do centroide oficial do lote
+0130360019,ZC,"R  TEODORO SAMPAIO, 972",67,,APROVADO,ponto a 67 m do centroide oficial do lote
+0130360018,ZC,"R  TEODORO SAMPAIO, 972",62,,APROVADO,ponto a 62 m do centroide oficial do lote
+0200940007,ZM,"AV  HIGIENOPOLIS, 890",59,,APROVADO,ponto a 59 m do centroide oficial do lote
+0130360017,ZC,"R  TEODORO SAMPAIO, 972",58,,APROVADO,ponto a 58 m do centroide oficial do lote
+0380920001,ZC,"R  VERGUEIRO, 2713",58,,APROVADO,ponto a 58 m do centroide oficial do lote
+0130360016,ZC,"R  TEODORO SAMPAIO, 972",54,,APROVADO,ponto a 54 m do centroide oficial do lote
+0230930006,ZC,"R  GUAICURUS, 1270",54,,APROVADO,ponto a 54 m do centroide oficial do lote
+0040080129,ZM,"R DA MOOCA, 766",53,,APROVADO,ponto a 53 m do centroide oficial do lote
+0130360015,ZC,"R  TEODORO SAMPAIO, 972",51,,APROVADO,ponto a 51 m do centroide oficial do lote
+0401060026,ZC,"AV  NAZARE, 711",48,,APROVADO,ponto a 48 m do centroide oficial do lote
+0260250069,ZEIS-3,"R  MARCOS ARRUDA, 164",46,,APROVADO,ponto a 46 m do centroide oficial do lote
+0260250070,ZEIS-3,"R  MARCOS ARRUDA, 164",45,,APROVADO,ponto a 45 m do centroide oficial do lote
+0360020008,ZEU,"AV  PAULISTA, 393",45,,APROVADO,ponto a 45 m do centroide oficial do lote
+0130360014,ZC,"R  TEODORO SAMPAIO, 972",44,,APROVADO,ponto a 44 m do centroide oficial do lote
+0030340001,ZC,"R DA MOOCA, 93",42,,APROVADO,ponto a 42 m do centroide oficial do lote
+0130360013,ZC,"R  TEODORO SAMPAIO, 972",42,,APROVADO,ponto a 42 m do centroide oficial do lote
+0260250071,ZEIS-3,"R  MARCOS ARRUDA, 164",41,,APROVADO,ponto a 41 m do centroide oficial do lote
+0260250072,ZEIS-3,"R  MARCOS ARRUDA, 164",41,,APROVADO,ponto a 41 m do centroide oficial do lote
+0621290001,ZM,"AV  CELSO GARCIA, 4815",40,,APROVADO,ponto a 40 m do centroide oficial do lote
+0130360012,ZC,"R  TEODORO SAMPAIO, 972",37,,APROVADO,ponto a 37 m do centroide oficial do lote
+0030610002,ZM,"R DA MOOCA, 1415",35,,APROVADO,ponto a 35 m do centroide oficial do lote
+0070430005,ZC,"AV  HIGIENOPOLIS, 436",35,,APROVADO,ponto a 35 m do centroide oficial do lote
+0080020011,ZEM,"R  VITORINO CARMILO, 453",35,,APROVADO,ponto a 35 m do centroide oficial do lote
+0080020012,ZEM,"R  VITORINO CARMILO, 453",34,,APROVADO,ponto a 34 m do centroide oficial do lote
+0080020013,ZEM,"R  VITORINO CARMILO, 453",34,,APROVADO,ponto a 34 m do centroide oficial do lote
+0080020014,ZEM,"R  VITORINO CARMILO, 453",34,,APROVADO,ponto a 34 m do centroide oficial do lote
+0080020015,ZEM,"R  VITORINO CARMILO, 453",34,,APROVADO,ponto a 34 m do centroide oficial do lote
+0080240001,ZEM,"AV  RIO BRANCO, 1289",34,,APROVADO,ponto a 34 m do centroide oficial do lote
+0130360011,ZC,"R  TEODORO SAMPAIO, 972",32,,APROVADO,ponto a 32 m do centroide oficial do lote
+0150180191,ZC,"R  NAVARRO DE ANDRADE, 20",28,,APROVADO,ponto a 28 m do centroide oficial do lote
+0330390480,ZEIS-3,"R DO LAVAPES, 344",28,,APROVADO,ponto a 28 m do centroide oficial do lote
+0030150062,ZC,"R  PIRATININGA, 105",27,,APROVADO,ponto a 27 m do centroide oficial do lote
+0350640003,ZC,"AV DOM PEDRO I, 1061",23,,APROVADO,ponto a 23 m do centroide oficial do lote
+0410040001,ZM,"R  DOMINGOS FERNANDES, 583",22,,APROVADO,ponto a 22 m do centroide oficial do lote
+0150130016,ZPR,"R DOS PINHEIROS, 456",21,,APROVADO,ponto a 21 m do centroide oficial do lote
+0150130015,ZPR,"R DOS PINHEIROS, 458",20,,APROVADO,ponto a 20 m do centroide oficial do lote
+0200520011,ZEM,"PC MAL DEODORO, 246",20,,APROVADO,ponto a 20 m do centroide oficial do lote
+0180500267,ZC,"PC CEL FERNANDO PRESTES, 30",19,,APROVADO,ponto a 19 m do centroide oficial do lote
+0200520006,ZEM,"PC MAL DEODORO, 198",19,,APROVADO,ponto a 19 m do centroide oficial do lote
+0200520007,ZEM,"PC MAL DEODORO, 208",16,,APROVADO,ponto a 16 m do centroide oficial do lote
+0150110004,ZPR,"R  ARTUR DE AZEVEDO, 1313",15,,APROVADO,ponto a 15 m do centroide oficial do lote
+0150110021,ZPR,"R  PASCOAL DEL GAIZO, 40",15,,APROVADO,ponto a 15 m do centroide oficial do lote
+0150120034,ZPR,"R  ESTELA SEZEFREDA, 42",15,,APROVADO,ponto a 15 m do centroide oficial do lote
+0150130032,ZPR,"R DOS PINHEIROS, 466",15,,APROVADO,ponto a 15 m do centroide oficial do lote
+0020570025,ZC,"R DO GASOMETRO, 665",14,,APROVADO,ponto a 14 m do centroide oficial do lote
+0150120033,ZPR,"R  ESTELA SEZEFREDA, 46",14,,APROVADO,ponto a 14 m do centroide oficial do lote
+0150130006,ZPR,"R DOS PINHEIROS, 526",14,,APROVADO,ponto a 14 m do centroide oficial do lote
+0150130007,ZPR,"R DOS PINHEIROS, 518",14,,APROVADO,ponto a 14 m do centroide oficial do lote
+0150130031,ZPR,"R DOS PINHEIROS, 464",14,,APROVADO,ponto a 14 m do centroide oficial do lote
+0230490002,ZC,"PC  CORNELIA, 77",14,,APROVADO,ponto a 14 m do centroide oficial do lote
+0230490004,ZC,"PC  CORNELIA, 89",14,,APROVADO,ponto a 14 m do centroide oficial do lote
+0230490009,ZC,"PC  CORNELIA, 143",14,,APROVADO,ponto a 14 m do centroide oficial do lote
+0230490011,ZC,"PC  CORNELIA, 153",14,,APROVADO,ponto a 14 m do centroide oficial do lote
+0230490012,ZC,"PC  CORNELIA, 155",14,,APROVADO,ponto a 14 m do centroide oficial do lote
+0230490013,ZC,"PC  CORNELIA, 161",14,,APROVADO,ponto a 14 m do centroide oficial do lote
+0230490001,ZC,"PC  CORNELIA, 75",13,,APROVADO,ponto a 13 m do centroide oficial do lote
+0230490003,ZC,"PC  CORNELIA, 87",13,,APROVADO,ponto a 13 m do centroide oficial do lote
+0230490006,ZC,"PC  CORNELIA, 101",13,,APROVADO,ponto a 13 m do centroide oficial do lote
+0230490010,ZC,"PC  CORNELIA, 145",13,,APROVADO,ponto a 13 m do centroide oficial do lote
+0260150110,ZEMP,"R  PAULO ANDRIGHETTI, 125",13,,APROVADO,ponto a 13 m do centroide oficial do lote
+1041280003,ZM,"AV  ITABERABA, 30",13,,APROVADO,ponto a 13 m do centroide oficial do lote
+0150110005,ZPR,"R  ARTUR DE AZEVEDO, 1317",12,,APROVADO,ponto a 12 m do centroide oficial do lote
+0150120044,ZPR,"R  PASCOAL DEL GAIZO, 53",12,,APROVADO,ponto a 12 m do centroide oficial do lote
+0230490005,ZC,"PC  CORNELIA, 99",12,,APROVADO,ponto a 12 m do centroide oficial do lote
+0230490008,ZC,"PC  CORNELIA, 135",12,,APROVADO,ponto a 12 m do centroide oficial do lote
+1041250025,ZC,"LG DA MATRIZ DE NOSSA SENHORA DO O, 144",12,,APROVADO,ponto a 12 m do centroide oficial do lote
+0150110058,ZPR,"R DR PHIDIAS DE BARROS MONTEIRO, 47",11,,APROVADO,ponto a 11 m do centroide oficial do lote
+0150130008,ZPR,"R DOS PINHEIROS, 516",11,,APROVADO,ponto a 11 m do centroide oficial do lote
+0150130017,ZPR,"R DOS PINHEIROS, 448",11,,APROVADO,ponto a 11 m do centroide oficial do lote
+0150130038,ZPR,"R  ESTELA SEZEFREDA, 59",11,,APROVADO,ponto a 11 m do centroide oficial do lote
+0200660049,ZEM,"PC MAL DEODORO, 171",11,,APROVADO,ponto a 11 m do centroide oficial do lote
+1041250009,ZC,"LG DA MATRIZ DE NOSSA SENHORA DO O, 134",11,,APROVADO,ponto a 11 m do centroide oficial do lote
+0030150002,ZC,"AV  RANGEL PESTANA, 1482",10,,APROVADO,ponto a 10 m do centroide oficial do lote
+0150130020,ZPR,"R DOS PINHEIROS, 434",10,,APROVADO,ponto a 10 m do centroide oficial do lote
+0260470092,ZDE-1,"R S LEOPOLDO, 207",10,,APROVADO,ponto a 10 m do centroide oficial do lote
+0400910062,ZC,"R  CISPLATINA, 505",10,,APROVADO,ponto a 10 m do centroide oficial do lote
+1960340001,ZM,"R  ADILSON FARIAS CLARO, 88",10,,APROVADO,ponto a 10 m do centroide oficial do lote
+0150110008,ZPR,"R DR PHIDIAS DE BARROS MONTEIRO, 35",9,,APROVADO,ponto a 9 m do centroide oficial do lote
+0150110015,ZPR,"R DR PHIDIAS DE BARROS MONTEIRO, 73",9,,APROVADO,ponto a 9 m do centroide oficial do lote
+0150120032,ZPR,"R  ESTELA SEZEFREDA, 64",9,,APROVADO,ponto a 9 m do centroide oficial do lote
+0150130018,ZPR,"R DOS PINHEIROS, 444",9,,APROVADO,ponto a 9 m do centroide oficial do lote
+1960180016,ZM,"R  CARUAPANA, 18",9,,APROVADO,ponto a 9 m do centroide oficial do lote
+1960180017,ZM,"R  CARUAPANA, 20",9,,APROVADO,ponto a 9 m do centroide oficial do lote
+0150110011,ZPR,"R DR PHIDIAS DE BARROS MONTEIRO, 53",8,,APROVADO,ponto a 8 m do centroide oficial do lote
+0260470093,ZDE-1,"R S LEOPOLDO, 205",8,,APROVADO,ponto a 8 m do centroide oficial do lote
+1960230009,ZM,"R  OTAVIO PARIS, 61",8,,APROVADO,ponto a 8 m do centroide oficial do lote
+1960260007,ZM,"R IRMA PAULA LOEBENSTEIN, 65",8,,APROVADO,ponto a 8 m do centroide oficial do lote
+1960260009,ZM,"R IRMA PAULA LOEBENSTEIN, 85",8,,APROVADO,ponto a 8 m do centroide oficial do lote
+1960290007,ZM,"R  OTAVIO PARIS, 38",8,,APROVADO,ponto a 8 m do centroide oficial do lote
+1960290008,ZM,"R  OTAVIO PARIS, 48",8,,APROVADO,ponto a 8 m do centroide oficial do lote
+1960350001,ZM,"R  MARIO COSTA, 18",8,,APROVADO,ponto a 8 m do centroide oficial do lote
+0080020444,ZEM,"R  VITORINO CARMILO, 453",7,,APROVADO,ponto a 7 m do centroide oficial do lote
+0150110016,ZPR,"R DR PHIDIAS DE BARROS MONTEIRO, 79",7,,APROVADO,ponto a 7 m do centroide oficial do lote
+0150110017,ZPR,"R DR PHIDIAS DE BARROS MONTEIRO, 83",7,,APROVADO,ponto a 7 m do centroide oficial do lote
+0150110018,ZPR,"R DR PHIDIAS DE BARROS MONTEIRO, 91",7,,APROVADO,ponto a 7 m do centroide oficial do lote
+1041250017,ZC,"LG DA MATRIZ DE NOSSA SENHORA DO O, 168",7,,APROVADO,ponto a 7 m do centroide oficial do lote
+1960180008,ZM,"R  CARUAPANA, 2",7,,APROVADO,ponto a 7 m do centroide oficial do lote
+1960180042,ZM,"R DO CURIMA, 19",7,,APROVADO,ponto a 7 m do centroide oficial do lote
+1960180043,ZM,"R DO CURIMA, 17",7,,APROVADO,ponto a 7 m do centroide oficial do lote
+1960180047,ZM,"R DO CURIMA, 9",7,,APROVADO,ponto a 7 m do centroide oficial do lote
+1960180097,ZM,"R  CARUAPANA, 1",7,,APROVADO,ponto a 7 m do centroide oficial do lote
+1960230012,ZM,"R  OTAVIO PARIS, 83",7,,APROVADO,ponto a 7 m do centroide oficial do lote
+1960290002,ZM,"R IRMA PAULA LOEBENSTEIN, 37",7,,APROVADO,ponto a 7 m do centroide oficial do lote
+0150110057,ZPR,"R DR PHIDIAS DE BARROS MONTEIRO, 41",6,,APROVADO,ponto a 6 m do centroide oficial do lote
+0150120024,ZPR,"R DR VIRGILIO DE CARVALHO PINTO, 91",6,,APROVADO,ponto a 6 m do centroide oficial do lote
+0180500269,ZC,"PC CEL FERNANDO PRESTES, 152",6,,APROVADO,ponto a 6 m do centroide oficial do lote
+0200500019,ZEM,"PC MAL DEODORO, 432",6,,APROVADO,ponto a 6 m do centroide oficial do lote
+1960180046,ZM,"R DO CURIMA, 11",6,,APROVADO,ponto a 6 m do centroide oficial do lote
+1960180049,ZM,"R DO CURIMA, 5",6,,APROVADO,ponto a 6 m do centroide oficial do lote
+1960180051,ZM,"R DO CURIMA, 1",6,,APROVADO,ponto a 6 m do centroide oficial do lote
+1960180101,ZM,"R  INTENDENCIA, 30",6,,APROVADO,ponto a 6 m do centroide oficial do lote
+1960180102,ZM,"R  INTENDENCIA, 40",6,,APROVADO,ponto a 6 m do centroide oficial do lote
+1960230008,ZM,"R  JOSE ALVES DE OLIVEIRA, 64",6,,APROVADO,ponto a 6 m do centroide oficial do lote
+1960250002,ZM,"R  OTAVIO PARIS, 37",6,,APROVADO,ponto a 6 m do centroide oficial do lote
+1960330001,ZM,"R  ADILSON FARIAS CLARO, 51",6,,APROVADO,ponto a 6 m do centroide oficial do lote
+1960330008,ZM,"R IRMA PAULA LOEBENSTEIN, 48",6,,APROVADO,ponto a 6 m do centroide oficial do lote
+0040430090,ZEIS-5,"R  GLICERIO, 861",5,,APROVADO,ponto a 5 m do centroide oficial do lote
+0100900001,ZEU,"AL  JAU, 1061",5,,APROVADO,ponto a 5 m do centroide oficial do lote
+0150130019,ZPR,"R DOS PINHEIROS, 436",5,,APROVADO,ponto a 5 m do centroide oficial do lote
+0200640012,ZEM,"R  ROSA E SILVA, 121",5,,APROVADO,ponto a 5 m do centroide oficial do lote
+0873790187,ZM,"AV  JOAO DIAS, 754",5,,APROVADO,ponto a 5 m do centroide oficial do lote
+1960180044,ZM,"R DO CURIMA, 15",5,,APROVADO,ponto a 5 m do centroide oficial do lote
+1960180048,ZM,"R DO CURIMA, 7",5,,APROVADO,ponto a 5 m do centroide oficial do lote
+1960180050,ZM,"R DO CURIMA, 3",5,,APROVADO,ponto a 5 m do centroide oficial do lote
+1960180095,ZM,"R  CARUAPANA, 5",5,,APROVADO,ponto a 5 m do centroide oficial do lote
+1960180096,ZM,"R  CARUAPANA, 3",5,,APROVADO,ponto a 5 m do centroide oficial do lote
+1960230005,ZM,"R  JOSE ALVES DE OLIVEIRA, 84",5,,APROVADO,ponto a 5 m do centroide oficial do lote
+1960260004,ZM,"R  OTAVIO PARIS, 84",5,,APROVADO,ponto a 5 m do centroide oficial do lote
+1960260006,ZM,"R  OTAVIO PARIS, 66",5,,APROVADO,ponto a 5 m do centroide oficial do lote
+1960290001,ZM,"R IRMA PAULA LOEBENSTEIN, 47",5,,APROVADO,ponto a 5 m do centroide oficial do lote
+0040430002,ZEIS-5,"R DO LAVAPES, 27",4,,APROVADO,ponto a 4 m do centroide oficial do lote
+0111140014,ZC,"PC  VILABOIM, 89",4,,APROVADO,ponto a 4 m do centroide oficial do lote
+0111140015,ZC,"PC  VILABOIM, 93",4,,APROVADO,ponto a 4 m do centroide oficial do lote
+1960180045,ZM,"R DO CURIMA, 13",4,,APROVADO,ponto a 4 m do centroide oficial do lote
+1960250008,ZM,"R  JOSE ALVES DE OLIVEIRA, 50",4,,APROVADO,ponto a 4 m do centroide oficial do lote
+1960290003,ZM,"R IRMA PAULA LOEBENSTEIN, 35",4,,APROVADO,ponto a 4 m do centroide oficial do lote
+1960330006,ZM,"R IRMA PAULA LOEBENSTEIN, 36",4,,APROVADO,ponto a 4 m do centroide oficial do lote
+0040430001,ZEIS-5,"R DO LAVAPES, 15",3,,APROVADO,ponto a 3 m do centroide oficial do lote
+0060201095,ZC,"R  MARTINHO PRADO, 128",3,,APROVADO,ponto a 3 m do centroide oficial do lote
+0420770011,ZEU,"R  DOMINGOS DE MORAIS, 2463",3,,APROVADO,ponto a 3 m do centroide oficial do lote
+1960330007,ZM,"R IRMA PAULA LOEBENSTEIN, 40",3,,APROVADO,ponto a 3 m do centroide oficial do lote
+0111140013,ZC,"PC  VILABOIM, 85",2,,APROVADO,ponto a 2 m do centroide oficial do lote
+1960290004,ZM,"R IRMA PAULA LOEBENSTEIN, 25",2,,APROVADO,ponto a 2 m do centroide oficial do lote
+0180630001,ZC,"R  RIBEIRO DE LIMA, 158",1,,APROVADO,ponto a 1 m do centroide oficial do lote
+1723120963,ZM,"R  AZOR SILVA, 77",1,,APROVADO,ponto a 1 m do centroide oficial do lote
+1960250001,ZM,"R  OTAVIO PARIS, 47",1,,APROVADO,ponto a 1 m do centroide oficial do lote
+1960290006,ZM,"R  OTAVIO PARIS, 36",1,,APROVADO,ponto a 1 m do centroide oficial do lote
+0010440096,ZC,"AV  IPIRANGA, 1284",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0010570239,ZC,"R  ANTONIO DE GODOI, 96",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0010580093,ZC,"AV S JOAO, 288",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0010720139,ZC,"AV S JOAO, 61",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0010800202,ZC,"R  LIBERO BADARO, 336",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0010800203,ZC,"R  LIBERO BADARO, 336",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0010800204,ZC,"R  LIBERO BADARO, 336",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0010800205,ZC,"R  LIBERO BADARO, 336",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0010800206,ZC,"R  LIBERO BADARO, 336",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0010800207,ZC,"R  LIBERO BADARO, 336",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060070247,ZC,"AV S LUIS, 29",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060070248,ZC,"PC DA REPUBLICA, 32",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060070250,ZC,"PC DA REPUBLICA, 32",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060070252,ZC,"PC DA REPUBLICA, 32",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060070253,ZC,"PC DA REPUBLICA, 32",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060070254,ZC,"PC DA REPUBLICA, 32",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060070255,ZC,"PC DA REPUBLICA, 32",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060070256,ZC,"PC DA REPUBLICA, 32",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060070257,ZC,"PC DA REPUBLICA, 32",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060070258,ZC,"PC DA REPUBLICA, 32",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060070259,ZC,"PC DA REPUBLICA, 32",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060070260,ZC,"PC DA REPUBLICA, 32",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060070261,ZC,"PC DA REPUBLICA, 32",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060070262,ZC,"PC DA REPUBLICA, 32",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060070263,ZC,"PC DA REPUBLICA, 32",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060070264,ZC,"PC DA REPUBLICA, 32",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060070265,ZC,"PC DA REPUBLICA, 32",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060070266,ZC,"PC DA REPUBLICA, 32",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060070267,ZC,"PC DA REPUBLICA, 32",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060070268,ZC,"PC DA REPUBLICA, 32",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060070269,ZC,"PC DA REPUBLICA, 32",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060070270,ZC,"PC DA REPUBLICA, 32",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060070271,ZC,"PC DA REPUBLICA, 32",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060070986,ZC,"PC DA REPUBLICA, 32",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060090082,ZC,"R  VINTE E QUATRO DE MAIO, 221",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060090083,ZC,"R  VINTE E QUATRO DE MAIO, 229",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060090084,ZC,"R  VINTE E QUATRO DE MAIO, 225",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060090085,ZC,"R  VINTE E QUATRO DE MAIO, 225",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060090086,ZC,"R  VINTE E QUATRO DE MAIO, 225",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060090087,ZC,"R  VINTE E QUATRO DE MAIO, 225",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060090088,ZC,"R  VINTE E QUATRO DE MAIO, 225",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060090089,ZC,"R  VINTE E QUATRO DE MAIO, 225",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060090090,ZC,"R  VINTE E QUATRO DE MAIO, 225",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060090091,ZC,"R  VINTE E QUATRO DE MAIO, 225",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060090092,ZC,"R  VINTE E QUATRO DE MAIO, 225",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060090093,ZC,"R  VINTE E QUATRO DE MAIO, 225",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060090094,ZC,"R  VINTE E QUATRO DE MAIO, 225",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060090095,ZC,"R  VINTE E QUATRO DE MAIO, 225",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060090096,ZC,"R  VINTE E QUATRO DE MAIO, 225",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060090097,ZC,"R  VINTE E QUATRO DE MAIO, 225",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060090098,ZC,"R  VINTE E QUATRO DE MAIO, 225",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060090099,ZC,"R  VINTE E QUATRO DE MAIO, 225",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060100552,ZC,"AV  IPIRANGA, 770",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060100553,ZC,"AV  IPIRANGA, 786",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060150726,ZC,"R  MARCONI, 101",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060150727,ZC,"R  MARCONI, 113",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060150728,ZC,"R  MARCONI, 107",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060150729,ZC,"R  MARCONI, 107",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060150730,ZC,"R  MARCONI, 107",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060150731,ZC,"R  MARCONI, 107",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060150732,ZC,"R  MARCONI, 107",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060150733,ZC,"R  MARCONI, 107",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060150734,ZC,"R  MARCONI, 107",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060150735,ZC,"R  MARCONI, 107",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060150736,ZC,"R  MARCONI, 107",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060150737,ZC,"R  MARCONI, 107",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0060644368,ZC,"AV S LUIS, 84",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0070690023,ZC,"R  BENTO FREITAS, 306",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0090161113,ZEU,"R  PAMPLONA, 145",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0090960003,ZEU,"AV  PAULISTA, 1578",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0111230118,ZEU,"R  PARA, 222",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0111230119,ZEU,"R  PARA, 222",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0111230120,ZEU,"R  PARA, 222",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0111230121,ZEU,"R  PARA, 222",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0111230122,ZEU,"R  PARA, 222",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0111230123,ZEU,"R  PARA, 222",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0111230124,ZEU,"R  PARA, 222",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0111230125,ZEU,"R  PARA, 222",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0111230126,ZEU,"R  PARA, 222",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0111230127,ZEU,"R  PARA, 222",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0111230128,ZEU,"R  PARA, 222",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0111230129,ZEU,"R  PARA, 222",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0111230130,ZEU,"R  PARA, 222",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0111230131,ZEU,"R  PARA, 222",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0111230132,ZEU,"R  PARA, 222",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0111230133,ZEU,"R  PARA, 222",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0111230134,ZEU,"R  PARA, 222",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0111230135,ZEU,"R  PARA, 222",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0111230136,ZEU,"R  PARA, 222",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0111230137,ZEU,"R  PARA, 222",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0111230138,ZEU,"R  PARA, 222",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0111230139,ZEU,"R  PARA, 222",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0111230140,ZEU,"R  PARA, 222",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0111230141,ZEU,"R  PARA, 222",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0111230142,ZEU,"R  PARA, 222",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0111230143,ZEU,"R  PARA, 222",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0111230144,ZEU,"R  PARA, 222",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0111230145,ZEU,"R  PARA, 222",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0111230146,ZEU,"R  PARA, 222",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0111230147,ZEU,"R  PARA, 222",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0111230148,ZEU,"R  PARA, 222",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0111230149,ZEU,"R  PARA, 222",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0150200013,ZC,"R  MOURATO COELHO, 299",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0150210015,ZC,"R  ARTUR DE AZEVEDO, 1638",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0150210058,ZC,"R  MOURATO COELHO, 217",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0150320008,ZC,"R  BENJAMIM EGAS, 160",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0150320015,ZC,"R  BENJAMIM EGAS, 182",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0150330029,ZC,"R  ANTONIO BICUDO, 157",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0150330030,ZC,"R  ANTONIO BICUDO, 157",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0150330031,ZC,"R  ANTONIO BICUDO, 157",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0150330032,ZC,"R  ANTONIO BICUDO, 157",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0150330033,ZC,"R  ANTONIO BICUDO, 157",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0150330034,ZC,"R  ANTONIO BICUDO, 157",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0150330035,ZC,"R  ANTONIO BICUDO, 181",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0150330036,ZC,"R  ANTONIO BICUDO, 181",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0150330037,ZC,"R  ANTONIO BICUDO, 181",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0150330038,ZC,"R  ANTONIO BICUDO, 181",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0150330039,ZC,"R  ANTONIO BICUDO, 181",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0150330040,ZC,"R  ANTONIO BICUDO, 181",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0150330048,ZC,"R  ANTONIO BICUDO, 157",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0150330049,ZC,"R  ANTONIO BICUDO, 157",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0150330050,ZC,"R  ANTONIO BICUDO, 157",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0150330051,ZC,"R  ANTONIO BICUDO, 157",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0150330052,ZC,"R  ANTONIO BICUDO, 157",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0150340037,ZC,"R  BENJAMIM EGAS, 167",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0150340038,ZC,"R  BENJAMIM EGAS, 167",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0150340039,ZC,"R  BENJAMIM EGAS, 167",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0150340041,ZC,"R  BENJAMIM EGAS, 167",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0150340042,ZC,"R  BENJAMIM EGAS, 167",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0150340045,ZC,"R  BENJAMIM EGAS, 167",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0150340046,ZC,"R  BENJAMIM EGAS, 145",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0150340047,ZC,"R  BENJAMIM EGAS, 145",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0150340048,ZC,"R  BENJAMIM EGAS, 145",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0150340049,ZC,"R  BENJAMIM EGAS, 145",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0150340050,ZC,"R  BENJAMIM EGAS, 145",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0150340054,ZC,"R  BENJAMIM EGAS, 145",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0150340152,ZC,"R  BENJAMIM EGAS, 145",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0200950527,ZC,"AV  HIGIENOPOLIS, 720",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0200950528,ZC,"AV  HIGIENOPOLIS, 720",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0200950529,ZC,"AV  HIGIENOPOLIS, 720",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0200950530,ZC,"AV  HIGIENOPOLIS, 720",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0200950531,ZC,"AV  HIGIENOPOLIS, 720",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0200950532,ZC,"AV  HIGIENOPOLIS, 720",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0200950533,ZC,"AV  HIGIENOPOLIS, 720",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0200950534,ZC,"AV  HIGIENOPOLIS, 720",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0320210195,ZM,"R  CUIABA, 1092",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0320210197,ZM,"R  CUIABA, 1088",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0320210199,ZEIS-3,"R  CUIABA, 1080",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0320210201,ZEIS-3,"R  CUIABA, 1076",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0320210203,ZM,"R  CUIABA, 1066",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0320210205,ZM,"R  CUIABA, 1068",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0320210208,ZM,"R  CUIABA, 1068",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0320210210,ZM,"R  CUIABA, 1068",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0320210212,ZM,"R  CUIABA, 1068",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0320210214,ZM,"R  CUIABA, 1068",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0320210216,ZM,"R  CUIABA, 1068",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0320210217,ZM,"R  CUIABA, 1068",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0320210218,ZM,"R  CUIABA, 1068",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0320210219,ZM,"R  CUIABA, 1068",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0320210220,ZM,"R  CUIABA, 1068",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0320210221,ZM,"R  CUIABA, 1068",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0320210222,ZM,"R  CUIABA, 1068",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0320210223,ZM,"R  CUIABA, 1068",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0320210224,ZM,"R  CUIABA, 1068",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0320210225,ZM,"R  CUIABA, 1068",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0320210226,ZM,"R  CUIABA, 1068",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+0400740093,ZC,"R  BOM PASTOR, 1010",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar
+1960310009,ZM,"R  ADILSON FARIAS CLARO, 126",,,NAO_CONFERIVEL,lote sem centroide oficial (sem_lote em lote_cidadao) — nada para confrontar

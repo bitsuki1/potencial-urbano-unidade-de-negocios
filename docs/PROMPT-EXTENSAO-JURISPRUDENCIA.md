@@ -85,3 +85,38 @@ Os números de processo estão corretos e confirmados. O link "Visualizar Inteir
 | 2126162-35.2025.8.26.0000 | (alternativa, se o de cima vier errado) | https://esaj.tjsp.jus.br/cjsg/getArquivo.do?cdAcordao=19642788&cdForo=0 | `tjsp-ai-2126162-35-2025-b.pdf` |
 | 2257458-20.2024.8.26.0000 | Acórdão do Agravo | https://esaj.tjsp.jus.br/cjsg/getArquivo.do?cdAcordao=18543735&cdForo=0 | `tjsp-ai-2257458-20-2024.pdf` |
 | 2324382-13.2024.8.26.0000 | Acórdão do Agravo | https://esaj.tjsp.jus.br/cjsg/getArquivo.do?cdAcordao=18704310&cdForo=0 | `tjsp-ai-2324382-13-2024.pdf` |
+
+---
+## v5 (2026-08-07) — STJ: os 3 REsp que faltam, por LINK DIRETO (mesmo truque do TJSP)
+> **Não precisa de extensão nem de robô.** O runner `brasil` (Playwright, headless E com tela via xvfb)
+> não passa do desafio Cloudflare do STJ — provado duas vezes
+> (`portfolio-automacoes/tools/pu-juris/_capturas/RELATORIO-RUNNER.txt`). Mas o **teu navegador passa**:
+> foi assim que os PDFs do AgRg AREsp 179.340 e do REsp 1.130.545 entraram no corpus pela rodada 1.
+>
+> **Instrução (1 linha):** abre cada link abaixo no teu navegador, espera o Cloudflare liberar, e salva o PDF com o nome indicado.
+
+| # | Acórdão | Link direto do INTEIRO TEOR (abrir e salvar o PDF) | Salvar como |
+|---|---|---|---|
+| 1 | **REsp 1.112.646/SP** — repetitivo, **Tema 174/STJ** (IPTU × ITR, DL 57/1966, art. 15). Rel. Min. Herman Benjamin, 1ª Seção, j. 26/08/2009, DJe 28/08/2009 | https://processo.stj.jus.br/SCON/GetInteiroTeorDoAcordao?num_registro=200900510886&dt_publicacao=28%2F08%2F2009 | `stj-resp-1112646.pdf` |
+| 2 | **REsp 1.202.136/SP** — taxas ilegais no carnê não anulam o IPTU. Rel. Min. Mauro Campbell Marques, 2ª Turma, j. 07/06/2011, DJe 14/06/2011 | https://processo.stj.jus.br/SCON/GetInteiroTeorDoAcordao?num_registro=201001225250&dt_publicacao=14%2F06%2F2011 | `stj-resp-1202136.pdf` |
+| 3 | **REsp 1.645.832/SP** — Planta Genérica de Valores exige publicação oficial. Rel. Min. Herman Benjamin, 2ª Turma, j. 07/03/2017, DJe 19/04/2017 | https://processo.stj.jus.br/SCON/GetInteiroTeorDoAcordao?num_registro=201603212504&dt_publicacao=19%2F04%2F2017 | `stj-resp-1645832.pdf` |
+
+**Se o link acima der erro**, usa o mesmo endereço trocando o host `processo.` por `scon.` — é o mesmo
+serviço (ex.: `https://scon.stj.jus.br/SCON/GetInteiroTeorDoAcordao?num_registro=201603212504&dt_publicacao=19%2F04%2F2017`).
+
+**Se ainda assim não abrir**, rota longa (2 cliques a mais): abre https://scon.stj.jus.br/SCON/ , pesquisa
+`REsp 1112646` (ou `1202136`, ou `1645832`), abre o acórdão e clica em **"Inteiro Teor"**.
+Para o item 1 há ainda a página oficial do tema:
+https://processo.stj.jus.br/repetitivos/temas_repetitivos/pesquisa.jsp?novaConsulta=true&tipo_pesquisa=T&cod_tema_inicial=174&cod_tema_final=174
+
+**Destino:** jogar os PDFs em `_entrada/` do Drive do PU (ou mandar no chat) — a instância extrai (OCR se
+preciso), grava no corpus com proveniência/hash e reindexa, como já foi feito com os 2 do STF.
+
+> **Como os links foram montados (rastreabilidade — 1.7).** O endpoint oficial do STJ para inteiro teor é
+> `GetInteiroTeorDoAcordao?num_registro=<12 dígitos>&dt_publicacao=<DD/MM/AAAA do DJe>`. O `num_registro`
+> é o número de registro do recurso sem barra nem traço (`2016/0321250-4` → `201603212504`), e vem
+> **verbatim das capturas oficiais do SCON já no repo** (`jurisprudencia/_capturas/stj-resp-*.txt`,
+> campos "RECURSO ESPECIAL" e "DATA DA PUBLICAÇÃO/FONTE"). O par do item 1 (`200900510886` +
+> `2009-08-28`) foi **conferido de forma independente** contra o Portal de Dados Abertos do STJ
+> (dataset `precedentes-qualificados`, `processos.csv`: `Processo=REsp 1112646`,
+> `numeroRegistro=200900510886`, `dataPbulicacaoAcordao=2009-08-28`).
